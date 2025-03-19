@@ -1,136 +1,234 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Frames - Film Notes & Metadata</title>
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <meta
+      name="description"
+      content="Frames: The ultimate film photography app. Log EXIF data, track camera settings, manage film stocks, and export metadata. Perfect for analog photographers."
+    />
 
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Frames - Film Notes & Metadata</title>
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/styles.css">
-  <meta name="description" content="Frames: The ultimate film photography app. Log EXIF data, track camera settings, manage film stocks, and export metadata. Perfect for analog photographers.">
+    <meta property="og:title" content="Frames - Film Notes & Metadata" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https:/withframes.com/" />
+<meta property="og:image" content="/img/frames-social-preview.jpg" />
+    <meta property="og:image:alt" content="Frames app logo and interface screenshot" />
+    <meta property="og:description" content="Frames: The ultimate film photography app. Log EXIF data, track camera settings, manage film stocks, and export metadata. Perfect for analog photographers." />
 
-  <!-- <meta property="og:title" content="">
-  <meta property="og:type" content="">
-  <meta property="og:url" content="">
-  <meta property="og:image" content="">
-  <meta property="og:image:alt" content=""> -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/img/favicon-180x180.png"
+    />
+    <link rel="apple-touch-icon" href="/img/favicon-192x192.png" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/img/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="/img/favicon-16x16.png"
+    />
+    <link rel="icon" href="/img/favicon.svg" type="image/svg+xml" />
 
-  <link rel="apple-touch-icon" sizes="180x180" href="/img/favicon-180x180.png">
-  <link rel="apple-touch-icon" href="/img/favicon-192x192.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png">
-  <link rel="icon" href="/img/favicon.svg" type="image/svg+xml">
+    <link rel="manifest" href="site.webmanifest" />
+    <meta name="theme-color" content="#101010" />
 
-  <link rel="manifest" href="site.webmanifest">
-  <meta name="theme-color" content="#101010">
+    <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/build/three.min.js"></script>
+    <script src="https://unpkg.com/three@0.128.0/examples/js/controls/OrbitControls.js"></script>
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-MER5TLYKLF"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-  <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/build/three.min.js"></script>
-  <script src="https://unpkg.com/three@0.128.0/examples/js/controls/OrbitControls.js"></script>
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-MER5TLYKLF"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
+      gtag("config", "G-MER5TLYKLF");
+    </script>
+  </head>
 
-    gtag('config', 'G-MER5TLYKLF');
-  </script>
-</head>
+  <body>
+    <div class="vstack">
+      <nav class="header">
+        <a href="/" title="Frames - Film Notes & Metadata" class="logo">
+          Frames
+        </a>
+      </nav>
 
-<body>
-<div class="vstack">
+      <section class="infoCollapsedSidebar">
+        <header>
+          <h1>Frames: The Ultimate Companion for Film Photographers</h1>
+        </header>
 
-  <nav class="header">
-    <a href="/" title="Frames - Film Notes & Metadata" class="logo">
-      Frames
-    </a>
-  </nav>
-
-  <section class="infoCollapsedSidebar">
-    <header>
-        <h1>Frames: The Ultimate Companion for Film Photographers</h1>
-    </header>
-
-    <main>
-        <section>
+        <main>
+          <section>
             <h2>Capture & Organize</h2>
             <ul>
-                <li><strong>Log Essential Metadata:</strong> Easily record frame number, focal length, shutter speed, exposure compensation, aperture, flash settings, date, time, and geolocation.</li>
-                <li><strong>Visual Context:</strong> Attach a reference image to each frame for quick visual identification.</li>
-                <li><strong>Interactive Map:</strong> View your film shots on a map to see where your photography journey has taken you.</li>
-                <li><strong>Organized Library:</strong> Use folders and search tools to keep your film library neat and accessible.</li>
+              <li>
+                <strong>Log Essential Metadata:</strong> Easily record frame
+                number, focal length, shutter speed, exposure compensation,
+                aperture, flash settings, date, time, and geolocation.
+              </li>
+              <li>
+                <strong>Visual Context:</strong> Attach a reference image to
+                each frame for quick visual identification.
+              </li>
+              <li>
+                <strong>Interactive Map:</strong> View your film shots on a map
+                to see where your photography journey has taken you.
+              </li>
+              <li>
+                <strong>Organized Library:</strong> Use folders and search tools
+                to keep your film library neat and accessible.
+              </li>
             </ul>
-        </section>
+          </section>
 
-        <section>
+          <section>
             <h2>Export & Sync</h2>
             <ul>
-                <li><strong>Versatile Export Options:</strong> Export your metadata as EXIF, CSV, or text files.</li>
-                <li><strong>Seamless Sharing:</strong> Share your records effortlessly across Apple devices and contacts.</li>
-                <li><strong>macOS Integration:</strong> Sync with the Frames macOS app to reintegrate metadata into your scanned images.</li>
+              <li>
+                <strong>Versatile Export Options:</strong> Export your metadata
+                as EXIF, CSV, or text files.
+              </li>
+              <li>
+                <strong>Seamless Sharing:</strong> Share your records
+                effortlessly across Apple devices and contacts.
+              </li>
+              <li>
+                <strong>macOS Integration:</strong> Sync with the Frames macOS
+                app to reintegrate metadata into your scanned images.
+              </li>
             </ul>
-        </section>
+          </section>
 
-        <section>
+          <section>
             <h2>Optimized for Film Photography</h2>
             <ul>
-                <li><strong>Adaptive Controls:</strong> Controls that match your lens characteristics, supporting full, half, or third aperture clicks.</li>
-                <li><strong>Smart Autofill:</strong> Save time with smart autofill for lens, camera, film stock, and ISO.</li>
-                <li><strong>Extensive Film Stock Library:</strong> Includes a pre-loaded selection of over 200 film stocks.</li>
-                <li><strong>Intuitive Design:</strong> Follows Apple’s Human Interface Guidelines for a smooth and intuitive experience.</li>
-                <li><strong>Performance Optimized:</strong> Works seamlessly, even on older iPhone models.</li>
+              <li>
+                <strong>Adaptive Controls:</strong> Controls that match your
+                lens characteristics, supporting full, half, or third aperture
+                clicks.
+              </li>
+              <li>
+                <strong>Smart Autofill:</strong> Save time with smart autofill
+                for lens, camera, film stock, and ISO.
+              </li>
+              <li>
+                <strong>Extensive Film Stock Library:</strong> Includes a
+                pre-loaded selection of over 200 film stocks.
+              </li>
+              <li>
+                <strong>Intuitive Design:</strong> Follows Apple’s Human
+                Interface Guidelines for a smooth and intuitive experience.
+              </li>
+              <li>
+                <strong>Performance Optimized:</strong> Works seamlessly, even
+                on older iPhone models.
+              </li>
             </ul>
-        </section>
+          </section>
 
-        <section>
+          <section>
             <h2>Key Features</h2>
             <ul>
-                <li>Film and analog photography metadata management</li>
-                <li>Photo logging and organization</li>
-                <li>Notebook and note-taking features for photography</li>
-                <li>EXIF data integration</li>
-                <li>Camera settings and roll management</li>
-                <li>Frame-by-frame logging</li>
-                <li>Darkroom and shoot planning tools</li>
+              <li>Film and analog photography metadata management</li>
+              <li>Photo logging and organization</li>
+              <li>Notebook and note-taking features for photography</li>
+              <li>EXIF data integration</li>
+              <li>Camera settings and roll management</li>
+              <li>Frame-by-frame logging</li>
+              <li>Darkroom and shoot planning tools</li>
             </ul>
-        </section>
+          </section>
 
-        <p>Experience the future of film photography with Frames. Download now and elevate your analog photography workflow!</p>
-    </main>
+          <p>
+            Experience the future of film photography with Frames. Download now
+            and elevate your analog photography workflow!
+          </p>
+        </main>
 
-    <footer>
-        <p>&copy; 2025 Vincent Tantardini. All rights reserved.</p>
-    </footer>
-  </section>
-  
-  <section class="content">
-    <div class="card">
-      
-      <div class="qrcode">
-        <img alt="QR Code" src="/img/qrcode.svg" width="312" height="312">
-      </div>
+        <footer>
+          <p>&copy; 2025 Vincent Tantardini. All rights reserved.</p>
+        </footer>
+      </section>
 
-      <div class="plateform">
-        <div class="column">
-          <img alt="Download for iOS" src="/img/iphone.svg" width="48" height="48">
+      <section class="content">
+        <div class="card">
+          <div class="qrcode">
+            <img alt="QR Code" src="/img/qrcode.svg" width="312" height="312" />
+          </div>
+
+          <div class="plateform">
+            <div class="column">
+              <img
+                alt="Download for iOS"
+                src="/img/iphone.svg"
+                width="48"
+                height="48"
+              />
+            </div>
+            <div class="column">
+              <img
+                alt="Download for macOS"
+                src="/img/mac.svg"
+                width="48"
+                height="48"
+              />
+            </div>
+          </div>
         </div>
-        <div class="column">
-          <img alt="Download for macOS" src="/img/mac.svg" width="48" height="48">
+
+        <div class="description">Coming soon</div>
+        <!-- <div class="description">Get the app</div> -->
+      </section>
+
+      <footer class="footer">
+        <span>Terms &amp; Privacy</span>
+      </footer>
+
+      <div class="backgroundParticles">
+        <div class="relative">
+          <div
+            class="bg-slate-900"
+            style="
+              position: relative;
+              width: 100%;
+              height: 100vh;
+              overflow: hidden;
+              pointer-events: auto;
+              touch-action: none;
+            "
+          >
+            <div style="width: 100%; height: 100%">
+              <canvas
+                data-engine="three.js r174"
+                width="2940"
+                height="1734"
+                style="
+                  display: block;
+                  width: 1470px;
+                  height: 867px;
+                  touch-action: auto;
+                "
+              ></canvas>
+            </div>
+          </div>
         </div>
       </div>
     </div>
 
-    <div class="description">Coming soon</div>
-    <!-- <div class="description">Get the app</div> -->
-  </section>
-  
-  <footer class="footer">
-    <span>Terms &amp; Privacy</span>
-  </footer>
-  
-  <div class="backgroundParticles"><div class="relative"><div class="bg-slate-900" style="position: relative; width: 100%; height: 100vh; overflow: hidden; pointer-events: auto; touch-action: none;"><div style="width: 100%; height: 100%;"><canvas data-engine="three.js r174" width="2940" height="1734" style="display: block; width: 1470px; height: 867px; touch-action: auto;"></canvas></div></div></div> </div></div>
-
-  <script src="js/app.js"></script>
-
-</body>
-
+    <script src="js/app.js"></script>
+  </body>
 </html>
