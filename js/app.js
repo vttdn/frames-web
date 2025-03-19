@@ -13,7 +13,7 @@ scene.background = new THREE.Color(0x101010);
 
 const camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 100);
 camera.position.set(-1, -1.5, -2);
-camera.fov = 60; // A larger FOV for a more zoomed-out effect
+camera.fov = 64; // A larger FOV for a more zoomed-out effect
 camera.updateProjectionMatrix();
 const renderer = new THREE.WebGLRenderer();
 renderer.setSize(window.innerWidth, window.innerHeight);
