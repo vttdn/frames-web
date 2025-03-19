@@ -1,5 +1,5 @@
 // --- Constants ---
-const MIN_RADIUS = 7.5;
+const MIN_RADIUS = 1;
 const MAX_RADIUS = 15;
 const DEPTH = 2;
 const NUM_POINTS_INNER = 3500;
@@ -12,8 +12,8 @@ const scene = new THREE.Scene();
 scene.background = new THREE.Color(0x101010);
 
 const camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 100);
-camera.position.set(-0.8, -1.5, -2);
-camera.fov = 55; // A larger FOV for a more zoomed-out effect
+camera.position.set(-1, -1.5, -1.2);
+camera.fov = 60; // A larger FOV for a more zoomed-out effect
 camera.updateProjectionMatrix();
 const renderer = new THREE.WebGLRenderer();
 renderer.setSize(window.innerWidth, window.innerHeight);
@@ -78,8 +78,8 @@ function createSquareParticle(position, hexColor) {
 const ring = new THREE.Group();
 
 // Move the ring group to the right by adjusting its X position
-ring.position.x = 1; // Adjust this value to move the object more to the right
-ring.position.y = 3;
+ring.position.x = 3; // Adjust this value to move the object more to the right
+ring.position.y = 5;
 
 // --- Generate Inner Ring Particles ---
 for (let i = 0; i < NUM_POINTS_INNER; i++) {
