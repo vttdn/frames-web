@@ -24,7 +24,7 @@ const directionalLight = new THREE.DirectionalLight(0xffffff, 0.5); // Reduce in
 scene.add(directionalLight);
 
 const pointLight = new THREE.PointLight(0xffffff, 1); // Reduce power from 10
-pointLight.position.set(-30, 0, -30);
+pointLight.position.set(-20, 0, -20);
 scene.add(pointLight);
 
 // --- Orbit Controls ---
