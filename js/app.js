@@ -1,8 +1,8 @@
 // --- Constants ---
 const MIN_RADIUS = 1;
-const MAX_RADIUS = 15;
+const MAX_RADIUS = 16;
 const DEPTH = 2;
-const NUM_POINTS_INNER = 3500;
+const NUM_POINTS_INNER = 2500;
 const NUM_POINTS_OUTER = 875; // 3500 / 4
 const LEFT_COLOR = "D01D41";
 const RIGHT_COLOR = "8b5cf6";
@@ -12,7 +12,7 @@ const scene = new THREE.Scene();
 scene.background = new THREE.Color(0x101010);
 
 const camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 100);
-camera.position.set(-1, -1.5, -1.2);
+camera.position.set(-1, -1.5, -2);
 camera.fov = 60; // A larger FOV for a more zoomed-out effect
 camera.updateProjectionMatrix();
 const renderer = new THREE.WebGLRenderer();
