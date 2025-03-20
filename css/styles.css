@@ -67,7 +67,6 @@ a:active {
   p {
     margin: 0;
     padding: 0;
-    padding-right: 18%;
   }
 
   .test {
@@ -98,6 +97,10 @@ a:active {
   .intro {
     font-size: 48px;
     padding-bottom: 0;
+
+    p {
+      padding-right: 18%;
+    }
   }
 
   .logoImage {
