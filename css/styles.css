@@ -81,7 +81,7 @@ a:active {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  transform: scale(0.8);
+  /* transform: scale(0.8); */
 }
 
 .infoCollapsedSidebar {
@@ -98,7 +98,7 @@ a:active {
     padding-bottom: 0;
 
     p {
-      padding-right: 18%;
+      padding-right: 33%;
     }
   }
 
