@@ -41,8 +41,8 @@ a:active {
 }
 
 .logoImage {
-  width: 24px;
-  height: 24px;
+  width: 32px;
+  height: 32px;
 }
 
 .availablity {
@@ -101,7 +101,11 @@ a:active {
   }
 
   .logoImage {
-    width: 32px;
-    height: 32px;
+    width: 40px;
+    height: 40px;
   }
+
+  .availablity {
+  font-size: 16px;
+}
 }
