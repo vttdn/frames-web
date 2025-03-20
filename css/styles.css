@@ -31,7 +31,7 @@ a:active {
   /* Full height of the viewport */
   width: 100vw;
   /* Full width */
-  padding: 24px 32px;
+  padding: 16px 32px;
 }
 
 .header {
@@ -58,10 +58,10 @@ a:active {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-  font-size: 40px;
+  font-size: 32px;
   text-wrap: balance;
   line-height: 1.22;
-  padding-bottom: 64px;
+  padding-bottom: 32px;
 
   p {
     margin: 0;
@@ -113,5 +113,9 @@ a:active {
     width: 100vw;
     /* Full width */
     padding: 40px 64px 48px;
+  }
+
+  .intro {
+  font-size: 40px;
   }
 }
