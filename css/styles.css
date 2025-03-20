@@ -43,7 +43,7 @@ a:active {
   .availablity {
     font-family: "SF Pro Display Semibold", "SF Pro Display Semibold Placeholder", -apple-system, BlinkMacSystemFont, sans-serif;
 font-feature-settings: normal;
-font-size: 14px;
+font-size: 15px;
 font-weight: 400;
 letter-spacing: normal;
 line-height: 18px;
@@ -72,7 +72,10 @@ color: gray;
   .test {
     position: relative;
     font-family: 'IvyOra Display'; 
-    font-weight: 300; font-style: italic;
+    font-weight: 400; font-style: italic;
+      -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+	/* font-size: 37px; */
 }
 
 }
