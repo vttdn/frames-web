@@ -31,52 +31,53 @@ a:active {
   /* Full height of the viewport */
   width: 100vw;
   /* Full width */
+  padding: 24px 32px;
 }
 
 .header {
   display: flex;
   flex-direction: row;
   align-items: top;
-	padding: 48px 64px;
+  padding-bottom: 64px;
 }
 
-  .availablity {
-    font-family: "SF Pro Display Semibold", "SF Pro Display Semibold Placeholder", -apple-system, BlinkMacSystemFont, sans-serif;
-font-feature-settings: normal;
-font-size: 14px;
-font-weight: 400;
-letter-spacing: normal;
-line-height: 18px;
-text-transform: uppercase;
-color: gray;
-text-align: right;
+.availablity {
+  font-family: "SF Pro Display Semibold", "SF Pro Display Semibold Placeholder",
+    -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: normal;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: gray;
+  text-align: right;
   flex: 1;
-  }
+}
 
-.footer {
+.intro {
   display: flex;
-	flex-direction: column;
-	justify-content: flex-end;
-	padding: 64px;
-	font-size: 36px;
+  flex-direction: column;
+  justify-content: flex-end;
+  font-size: 40px;
   text-wrap: balance;
   line-height: 1.22;
-  
+  padding-bottom: 64px;
+
   p {
     margin: 0;
     padding: 0;
-  padding-right: 18%;
+    padding-right: 18%;
   }
 
   .test {
     position: relative;
-    font-family: 'IvyOra Display'; 
-    font-weight: 400; font-style: italic;
-      -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-	/* font-size: 37px; */
-}
-
+    font-family: "IvyOra Display";
+    font-weight: 400;
+    font-style: italic;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    /* font-size: 37px; */
+  }
 }
 
 .content {
@@ -95,21 +96,22 @@ text-align: right;
 }
 
 @media only screen and (min-width: 600px) and (min-height: 631px) {
-  /* .content {
-    transform: scale(1);
+  .intro {
+    padding-bottom: 0;
   }
 
-  .logo {
-    font-size: 38px;
-    line-height: 45px;
-    height: 34px;
-    padding: 32px 48px;
-  } */
-
-  /* .footer {
-    position:relative;
-    font-size: 15px;
-    padding: 32px 48px;
-    z-index: 9999;
-  } */
+  .vstack {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    /* Full height of the viewport */
+    width: 100vw;
+    /* Full width */
+    padding: 40px 64px 48px;
+  }
 }
