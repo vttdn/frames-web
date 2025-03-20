@@ -43,17 +43,15 @@ a:active {
   .availablity {
     font-family: "SF Pro Display Semibold", "SF Pro Display Semibold Placeholder", -apple-system, BlinkMacSystemFont, sans-serif;
 font-feature-settings: normal;
-font-size: 15px;
+font-size: 14px;
 font-weight: 400;
 letter-spacing: normal;
 line-height: 18px;
 text-transform: uppercase;
 color: gray;
-  }
-
-.logo {
+text-align: right;
   flex: 1;
-}
+  }
 
 .footer {
   display: flex;
@@ -62,7 +60,7 @@ color: gray;
 	padding: 64px;
 	font-size: 36px;
   text-wrap: balance;
-  line-height: 1.25;
+  line-height: 1.22;
   
   p {
     margin: 0;
@@ -89,16 +87,6 @@ color: gray;
   justify-content: center;
   z-index: 9999;
   transform: scale(0.8);
-}
-.logo {
-  position: relative;
-  font-weight: 500;
-  font-size: 32px;
-  line-height: 38px;
-  height: 29px;
-  text-decoration: none;
-  display: inline-block;
-  z-index: 9999;
 }
 
 .infoCollapsedSidebar {
