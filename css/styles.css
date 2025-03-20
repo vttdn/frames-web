@@ -41,8 +41,9 @@ a:active {
   padding-bottom: 64px;
 }
 
-.logo {
-
+.logoImage {
+  width: 24px;
+  height: 24px;
 }
 
 .availablity {
@@ -118,4 +119,9 @@ a:active {
   font-size: 48px;
   padding-bottom: 0;
   }
+
+  .logoImage {
+  width: 32px;
+  height: 32px;
+}
 }
