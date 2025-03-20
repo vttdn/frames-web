@@ -1,7 +1,7 @@
 // --- Constants ---
 const MIN_RADIUS = 1;
-const MAX_RADIUS = 16;
-const DEPTH = 30;
+const MAX_RADIUS = 24;
+const DEPTH = 100;
 const NUM_POINTS_INNER = 3200;
 const NUM_POINTS_OUTER = 2400; // 2800 / 4
 const LEFT_COLOR = "D01D41";
