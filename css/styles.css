@@ -31,7 +31,7 @@ a:active {
   /* Full height of the viewport */
   width: 100vw;
   /* Full width */
-  padding: 16px 32px;
+  padding: 16px;
 }
 
 .header {
@@ -96,10 +96,6 @@ a:active {
 }
 
 @media only screen and (min-width: 600px) and (min-height: 631px) {
-  .intro {
-    padding-bottom: 0;
-  }
-
   .vstack {
     position: absolute;
     top: 0;
@@ -117,5 +113,6 @@ a:active {
 
   .intro {
   font-size: 40px;
+  padding-bottom: 0;
   }
 }
