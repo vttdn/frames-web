@@ -191,6 +191,10 @@ a:active {
   .intro {
     grid-template-columns: repeat(1, 1fr);
   }
+
+  .feature .footer {
+    padding: 0 40px;
+  }
 }
 
 @media only screen and (max-width: 680px) {
@@ -243,5 +247,9 @@ a:active {
   }
   .feature:last-of-type {
     padding-right: 16px;
+  }
+
+  .feature .footer {
+    padding: 0 32px;
   }
 }
