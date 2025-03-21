@@ -6,7 +6,7 @@
     <title>Frames - Film Notes & Metadata</title>
     <link rel="stylesheet" href="css/normalize.min.css" />
     <link rel="stylesheet" href="css/styles.css" />
-    <link href="font/stylesheet.css" rel="stylesheet">
+    <link href="font/stylesheet.css" rel="stylesheet" />
     <meta
       name="description"
       content="Frames: The ultimate film photography app. Log EXIF data, track camera settings, manage film stocks, and export metadata. Perfect for analog photographers."
@@ -48,7 +48,6 @@
     <link rel="manifest" href="site.webmanifest" />
     <meta name="theme-color" content="#101010" />
 
-  
     <script
       async
       src="https://www.googletagmanager.com/gtag/js?id=G-MER5TLYKLF"
@@ -62,15 +61,76 @@
 
       gtag("config", "G-MER5TLYKLF");
     </script>
+
+    <script>
+      function toggleClass() {
+        document.getElementById("sheet").classList.toggle("show");
+      }
+
+      function toggleOverlay(event) {
+        const overlay = document.getElementById("sheet");
+
+        // If event exists and it comes from clicking the overlay background
+        if (event && event.target === overlay) {
+          overlay.classList.toggle("show");
+        }
+        // If no event (button click), just toggle normally
+        else if (!event) {
+          overlay.classList.toggle("show");
+        }
+      }
+    </script>
   </head>
 
   <body>
     <div class="vstack">
+      <div class="sheet" id="sheet" onclick="toggleOverlay(event)">
+        <div class="sheetWrapper">
+          <div class="sheetContent">
+            <div class="card" onclick="event.stopPropagation();">
+              <div class="qrcode">
+                <img
+                  alt="QR Code"
+                  src="/img/qrcode.svg"
+                  width="312"
+                  height="312"
+                />
+              </div>
+
+              <div class="plateform">
+                <div class="column">
+                  <img
+                    alt="Download for iOS"
+                    src="/img/iphone.svg"
+                    width="48"
+                    height="48"
+                  />
+                </div>
+                <div class="column">
+                  <img
+                    alt="Download for macOS"
+                    src="/img/mac.svg"
+                    width="48"
+                    height="48"
+                  />
+                </div>
+              </div>
+            </div>
+
+            <div class="sheetContentFooter">Avail. Spring '25</div>
+          </div>
+        </div>
+      </div>
       <nav class="header">
         <a href="/" class="logo" title="Frames - Film Notes & Metadata">
-            <img src="img/favicon.svg" alt="Frames" class="logoImage">
-          </a>
-            <div class="availablity">AVAIL. SPRING '25</div>
+          <img src="img/favicon.svg" alt="Frames" class="logoImage" />
+        </a>
+        <div class="availablity">
+          <button class="button" onclick="toggleClass()">
+            Get
+            <!-- <img src="img/arrow-right.svg" alt="" > -->
+          </button>
+        </div>
       </nav>
 
       <section class="infoCollapsedSidebar">
@@ -175,11 +235,11 @@
 
       <section class="intro">
         <p>
-            In a world where digital convenience often overshadows 
-            <span class="test">analog charm</span>, Frames stands proudly 
-            as a bridge, merging the nostalgic delight of
-             <span class="test">film photography</span> with the seamless 
-             integration of modern technology.
+          In a world where digital convenience often overshadows
+          <span class="test">analog charm</span>, Frames stands proudly as a
+          bridge, merging the nostalgic delight of
+          <span class="test">film photography</span> with the seamless
+          integration of modern technology.
         </p>
       </section>
     </div>
