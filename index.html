@@ -61,79 +61,90 @@
 
       gtag("config", "G-MER5TLYKLF");
     </script>
-
-    <script>
-      function toggleClass() {
-        document.getElementById("sheet").classList.toggle("show");
-      }
-
-      function toggleOverlay(event) {
-        const overlay = document.getElementById("sheet");
-
-        // If event exists and it comes from clicking the overlay background
-        if (event && event.target === overlay) {
-          overlay.classList.toggle("show");
-        }
-        // If no event (button click), just toggle normally
-        else if (!event) {
-          overlay.classList.toggle("show");
-        }
-      }
-    </script>
   </head>
 
   <body>
-    <div class="vstack">
-      <div class="sheet" id="sheet" onclick="toggleOverlay(event)">
-        <div class="sheetWrapper">
-          <div class="sheetContent">
-            <div class="card" onclick="event.stopPropagation();">
-              <div class="qrcode">
-                <img
-                  alt="QR Code"
-                  src="/img/qrcode.svg"
-                  width="312"
-                  height="312"
-                />
-              </div>
-
-              <div class="plateform">
-                <div class="column">
-                  <img
-                    alt="Download for iOS"
-                    src="/img/iphone.svg"
-                    width="48"
-                    height="48"
-                  />
-                </div>
-                <div class="column">
-                  <img
-                    alt="Download for macOS"
-                    src="/img/mac.svg"
-                    width="48"
-                    height="48"
-                  />
-                </div>
-              </div>
-            </div>
-
-            <div class="sheetContentFooter">Avail. Spring '25</div>
-          </div>
-        </div>
-      </div>
-      <nav class="header">
+    <header class="header">
+      <nav class="navigation">
         <a href="/" class="logo" title="Frames - Film Notes & Metadata">
-          <img src="img/favicon.svg" alt="Frames" class="logoImage" />
+          <img src="img/favicon.svg" alt="Frames Logo" class="logoImage" />
         </a>
-        <div class="availablity">
-          <button class="button" onclick="toggleClass()">
-            Get
-            <!-- <img src="img/arrow-right.svg" alt="" > -->
-          </button>
-        </div>
+
+        <button id="scrollButton" class="button">
+          <img alt="Plus" src="/img/plus.svg" />
+        </button>
       </nav>
 
-      <section class="infoCollapsedSidebar">
+      <section class="intro">
+        <p>
+          In a world where digital convenience often overshadows
+          <span class="italic">analog charm</span>, Frames stands proudly as a
+          bridge, merging the nostalgic delight of
+          <span class="italic">film photography</span> with the seamless
+          integration of modern technology.
+        </p>
+      </section>
+    </header>
+
+    <main class="main" id="main">
+      <!-- <header>
+        <h2>Releases</h2>
+      </header> -->
+
+      <section class="features">
+        <article class="feature">
+          <header>
+            <h2>Mobile</h2>
+          </header>
+
+          <section class="card">
+            <img alt="iOS" src="/img/ios.svg" />
+          </section>
+
+          <footer class="footer">
+            <img alt="Arrow Down" src="/img/arrow-down.svg" />
+            <div>
+              <h4>
+                <a href="#" title="Download on the App Store"
+                  >Download on the App Store</a
+                >
+              </h4>
+              <p>
+                Capture and organize film frame data, export metadata instantly,
+                and sync seamlessly with macOS for enhanced workflow.
+              </p>
+            </div>
+          </footer>
+        </article>
+
+        <article class="feature">
+          <header>
+            <h2>Desktop</h2>
+          </header>
+
+          <section class="card">
+            <img alt="macOS" src="/img/macos.svg" />
+          </section>
+
+          <footer class="footer">
+            <img alt="Arrow Down" src="/img/arrow-down.svg" />
+            <div>
+              <h4>
+                <a href="#" title="Download on the Mac App Store"
+                  >Download on the Mac App Store</a
+                >
+              </h4>
+              <p>
+                Quickly import iOS exports, explore detailed frame metadata, and
+                export photos with embedded data for easy sharing.
+              </p>
+            </div>
+          </footer>
+        </article>
+      </section>
+    </main>
+
+    <section class="infoCollapsedSidebar">
         <header>
           <h1>Frames: The Ultimate Companion for Film Photographers</h1>
         </header>
@@ -230,18 +241,35 @@
           <p>&copy; 2025 Vincent Tantardini. All rights reserved.</p>
         </footer>
       </section>
-
-      <section class="content"></section>
-
-      <section class="intro">
-        <p>
-          In a world where digital convenience often overshadows
-          <span class="test">analog charm</span>, Frames stands proudly as a
-          bridge, merging the nostalgic delight of
-          <span class="test">film photography</span> with the seamless
-          integration of modern technology.
-        </p>
-      </section>
-    </div>
   </body>
+
+  <script>
+    function smoothScroll(target, duration = 500) {
+      const targetPosition =
+        target.getBoundingClientRect().top + window.scrollY;
+      const startPosition = window.scrollY;
+      const distance = targetPosition - startPosition;
+      let startTime = null;
+
+      function animation(currentTime) {
+        if (startTime === null) startTime = currentTime;
+        const timeElapsed = currentTime - startTime;
+        const progress = Math.min(timeElapsed / duration, 1);
+        const ease =
+          progress < 0.5
+            ? 2 * progress * progress
+            : 1 - Math.pow(-2 * progress + 2, 2) / 2;
+        window.scrollTo(0, startPosition + distance * ease);
+        if (timeElapsed < duration) requestAnimationFrame(animation);
+      }
+
+      requestAnimationFrame(animation);
+    }
+
+    document
+      .getElementById("scrollButton")
+      .addEventListener("click", function () {
+        smoothScroll(document.getElementById("main"));
+      });
+  </script>
 </html>
