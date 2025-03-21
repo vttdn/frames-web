@@ -117,8 +117,10 @@ a:active {
   gap: 48px;
 }
 
-.feature a:hover {
-  text-decoration: underline;
+@media (hover: hover) {
+  .feature a:hover {
+    text-decoration: underline;
+  }
 }
 
 .feature h2 {
