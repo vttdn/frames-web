@@ -81,7 +81,7 @@ a:active {
   margin: 0;
   border: none;
   cursor: pointer;
-  background: #1c1c1f;
+  background: #222;
   color: #999;
   border-radius: 50px;
   font-weight: 600;
@@ -91,7 +91,7 @@ a:active {
 
 @media (hover: hover) {
   .button:hover {
-    background-color: #3a3a3c;
+    background-color: #333;
   }
 }
 
@@ -134,6 +134,13 @@ a:active {
   aspect-ratio: 2046 / 1248;
   background-color: #333;
   border-radius: 10px;
+  transition: background-color 0.2s cubic-bezier(0.42, 1.1, 0.6, 1);
+}
+
+@media (hover: hover) {
+  .feature .card:hover {
+    background-color: #444;
+  }
 }
 
 .feature .card img {
