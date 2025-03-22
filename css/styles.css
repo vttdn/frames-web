@@ -298,60 +298,56 @@ a:active {
   transition: all .6s ease-in-out;
 }
 
+.sheet4 {
+  transform: translateY(0) scale(0);
+}
+
 /* Create the animation for each sheet when the container is hovered */
 #sheets-container:hover .sheet1 {
-  animation: slideDownLast 0.6s forwards;
+  animation: slideSheet1 0.6s 0.2s forwards;
 } 
 
 #sheets-container:hover .sheet2 {
-  animation: slideDownShet2 0.6s 0.04s forwards;
+  animation: slideSheet2 0.6s 0.0s forwards;
 }
 
 #sheets-container:hover .sheet3 {
-  animation: slideDown 0.6s 0.08s forwards;
-}
-
-.sheet4 {
-opacity: 0;
+  animation: slideSheet3 0.6s 0.0s forwards;
 }
 
 #sheets-container:hover .sheet4 {
-  animation: slideDownFirst 0.6s 0.12s forwards;
+  animation: slideSheet4 0.6s forwards;
 }
 
 /* #sheets-container:not(:hover) .sheet4 {
   visibility: hidden;
 } */
 
-@keyframes slideDownFirst {
+@keyframes slideSheet4 {
   0% {
-    opacity: 0;
     transform: translateY(0) scale(0);
-    transform-origin:  top;
-  }
-  50% {
-    opacity: 1;
+    transform-origin:  top center ;
   }
   100% {
-    opacity: 1;
     transform: translateY(5.5px) scale(1); /* Final position */
-    transform-origin:  top;
+    transform-origin: top center ;
   }
 }
 
-@keyframes slideDownLast {
+@keyframes slideSheet1 {
   0% {
     opacity: 1;
     transform: translateY(0); /* Start position */
+    transform-origin:  top center ;
   }
   100% {
     opacity: 0;
     transform: translateY(5.5px) scale(0); /* Final position */
-    transform-origin:  left ;
+    transform-origin:  top center ;
   }
 }
 
-@keyframes slideDown {
+@keyframes slideSheet3 {
   0% {
     transform: translateY(0); /* Start position */
   }
@@ -360,7 +356,7 @@ opacity: 0;
   }
 }
 
-@keyframes slideDownShet2 {
+@keyframes slideSheet2 {
   0% {
     transform: translateY(0); /* Start position */
   }
