@@ -302,34 +302,33 @@
   </body>
 
   <script>
-  function smoothScroll(target, duration = 10e00) { // Slightly longer duration for a more controlled slowdown
-    const targetPosition = target.getBoundingClientRect().top + window.scrollY;
-    const startPosition = window.scrollY;
-    const distance = targetPosition - startPosition;
-    let startTime = null;
+    function smoothScroll(target, duration = 600) {
+      const targetPosition =
+        target.getBoundingClientRect().top + window.scrollY;
+      const startPosition = window.scrollY;
+      const distance = targetPosition - startPosition;
+      let startTime = null;
 
-    function easeOutExp(t) {
-      return 1 - Math.pow(2, -10 * t); // Exponential decay for an ultra-smooth stop
+      function animation(currentTime) {
+        if (startTime === null) startTime = currentTime;
+        const timeElapsed = currentTime - startTime;
+        const progress = Math.min(timeElapsed / duration, 1);
+        const ease =
+          progress < 0.5
+            ? 2 * progress * progress
+            : 1 - Math.pow(-2 * progress + 2, 2) / 2;
+        window.scrollTo(0, startPosition + distance * ease);
+        if (timeElapsed < duration) requestAnimationFrame(animation);
+      }
+
+      requestAnimationFrame(animation);
     }
 
-    function animation(currentTime) {
-      if (startTime === null) startTime = currentTime;
-      const timeElapsed = (currentTime - startTime) / duration;
-      const progress = timeElapsed >= 1 ? 1 : easeOutExp(timeElapsed);
-
-      window.scrollTo(0, startPosition + distance * progress);
-
-      if (timeElapsed < 1) requestAnimationFrame(animation);
-    }
-
-    requestAnimationFrame(animation);
-  }
-
-  document
-    .getElementById("scrollButton")
-    .addEventListener("click", function () {
-      smoothScroll(document.getElementById("main"));
-    });
-</script>
+    document
+      .getElementById("scrollButton")
+      .addEventListener("click", function () {
+        smoothScroll(document.getElementById("main"));
+      });
+  </script>
 
 </html>
