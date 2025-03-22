@@ -39,6 +39,7 @@ a:active {
   align-items: flex-start;
   justify-content: space-between;
   flex: 1;
+  margin-bottom: 64px;
 }
 
 .logo {
@@ -262,10 +263,6 @@ a:active {
   .header {
     padding: 16px;
     min-height: auto;
-  }
-
-  .navigation {
-    margin-bottom: 64px;
   }
 
   .logoImage {
