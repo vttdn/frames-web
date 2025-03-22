@@ -149,18 +149,20 @@ a:active {
   transition: background-color 0.2s cubic-bezier(0.42, 1.1, 0.6, 1);
 }
 
+.feature .card span {
+  position: absolute;
+  bottom: 24px;
+  left: 24px;
+  font-size: clamp(1rem, 10vh, 3.5rem);
+  font-weight: 500;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
 @media (hover: hover) {
   .feature .card:hover {
     background-color: #444;
   }
-}
-
-.feature .card img {
-  position: absolute;
-  bottom: 24px;
-  left: 24px;
-  height: 100%;
-  padding-top: 47%;
 }
 
 .feature .footer {
