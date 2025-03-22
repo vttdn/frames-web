@@ -54,7 +54,8 @@ a:active {
   font-size: 48px;
   text-wrap: balance;
   text-wrap: pretty;
-  line-height: 1.2;
+  line-height: 60px;
+  letter-spacing: -0.48px;
 }
 
 .intro p {
@@ -212,6 +213,8 @@ a:active {
   .intro {
     grid-template-columns: repeat(1, 1fr);
     font-size: 40px;
+    line-height: 52px;
+    letter-spacing: -0.4px;
   }
 
   .feature .footer {
@@ -233,6 +236,8 @@ a:active {
 
   .intro {
     font-size: 36px;
+    letter-spacing: -0.36px;
+    line-height: 48px;
   }
 
   .main {
