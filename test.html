@@ -1,0 +1,104 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Three.js Mirror Effect</title>
+    <style>
+        body {
+            margin: 0;
+            overflow: hidden;
+        }
+        canvas {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script>
+        
+// Initialize the scene, camera, and renderer
+const scene = new THREE.Scene();
+const camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
+const renderer = new THREE.WebGLRenderer({ antialias: true });
+renderer.setSize(window.innerWidth, window.innerHeight);
+document.body.appendChild(renderer.domElement);
+
+// Add lighting
+const ambientLight = new THREE.AmbientLight(0x404040); // Soft white light
+scene.add(ambientLight);
+
+const directionalLight = new THREE.DirectionalLight(0xffffff, 1);
+directionalLight.position.set(5, 10, 7.5);
+scene.add(directionalLight);
+
+// Mirror data
+const mirrorsData = {
+  mirrors: [
+    {
+      args: [2.87483173052424, 2.920755196190408, 0.05],
+      position: [3.116376203948097, -2.1742814140991196, -7.998859699752443],
+      rotation: [1.2536197471688286, -1.6683567077395978, -2.8428053193736256]
+    },
+    {
+      args: [1.799233278635274, 1.9642524560408021, 0.05],
+      position: [-3.325473394997085, 3.5307542721423446, -6.530151273151705],
+      rotation: [1.3951213133257899, -0.2888432911308304, 0.7178380971731012]
+    }
+  ]
+};
+
+// Create mirrors with reflective material
+const cubeRenderTarget = new THREE.WebGLCubeRenderTarget(256, {
+  format: THREE.RGBFormat,
+  generateMipmaps: true,
+  minFilter: THREE.LinearMipmapLinearFilter
+});
+
+const cubeCamera = new THREE.CubeCamera(0.1, 1000, cubeRenderTarget);
+scene.add(cubeCamera);
+
+mirrorsData.mirrors.forEach(mirror => {
+  const geometry = new THREE.BoxGeometry(...mirror.args);
+  const material = new THREE.MeshStandardMaterial({
+    color: 0x889999,
+    metalness: 1.0,
+    roughness: 0.0,
+    envMap: cubeRenderTarget.texture
+  });
+  const mesh = new THREE.Mesh(geometry, material);
+  mesh.position.set(...mirror.position);
+  mesh.rotation.set(...mirror.rotation);
+  scene.add(mesh);
+});
+
+// Set camera position
+camera.position.z = 5;
+
+// Update cube camera on each frame
+function updateCubeCamera(renderer, scene, camera, cubeCamera) {
+  cubeCamera.update(renderer, scene);
+}
+
+// Animation loop
+function animate() {
+  requestAnimationFrame(animate);
+  updateCubeCamera(renderer, scene, camera, cubeCamera);
+  renderer.render(scene, camera);
+}
+
+// Handle window resize
+window.addEventListener('resize', () => {
+  camera.aspect = window.innerWidth / window.innerHeight;
+  camera.updateProjectionMatrix();
+  renderer.setSize(window.innerWidth, window.innerHeight);
+});
+
+// Start the animation
+animate();
+
+    </script>
+</body>
+</html>
