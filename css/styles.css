@@ -191,6 +191,12 @@ a:active {
     padding: 24px;
   }
 
+  .logoImage {
+    padding-top: 2px;
+    width: 36px;
+    height: 36px;
+  }
+
   .main {
     padding: 64px 24px;
     margin-top: 48px;
@@ -218,9 +224,9 @@ a:active {
   }
 
   .logoImage {
-    padding-top: 2px;
-    width: 36px;
-    height: 36px;
+    padding-top: 3px;
+    width: 34px;
+    height: 34px;
   }
 
   .intro {
@@ -251,7 +257,7 @@ a:active {
   }
 
   .feature {
-    flex: 0 0 calc(100vw - 16px - 24px); /* Subtract the gutter (16px) and the 32px for the next item visibility */
+    flex: 0 0 calc(100vw - 16px - 16px); /* Subtract the gutter (16px) and the 32px for the next item visibility */
     scroll-snap-align: start; /* Align to the start for snapping */
     display: flex; /* Ensure the feature item itself is a flex container */
     flex-direction: column; /* Stack children vertically */
