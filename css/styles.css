@@ -203,6 +203,8 @@ a:active {
 
   .intro {
     grid-template-columns: repeat(1, 1fr);
+    font-size: 40px;
+    line-height: 1.25;
   }
 
   .feature .footer {
@@ -222,7 +224,8 @@ a:active {
   }
 
   .intro {
-    font-size: 40px;
+    font-size: 32px;
+    line-height: 1.3;
   }
 
   .main {
