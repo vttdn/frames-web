@@ -128,7 +128,7 @@ a:active {
 }
 
 @media (hover: hover) {
-  .feature a:hover {
+  .feature .footer a:hover {
     text-decoration: underline;
   }
 }
@@ -147,12 +147,13 @@ a:active {
   background-color: #333;
   border-radius: 10px;
   transition: background-color 0.2s cubic-bezier(0.42, 1.1, 0.6, 1);
-}
+  
+  /* Flexbox for alignment */
+  display: flex;
+  align-items: flex-end; /* Aligns content to the bottom */
+  justify-content: flex-start; /* Aligns content to the left */
+  padding: 24px; /* Add some spacing from edges */
 
-.feature .card span {
-  position: absolute;
-  bottom: 24px;
-  left: 24px;
   font-size: clamp(1rem, 10vh, 3.5rem);
   font-weight: 500;
   -webkit-font-smoothing: antialiased;
