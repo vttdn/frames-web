@@ -41,6 +41,13 @@ a:active {
   flex: 1;
 }
 
+.logo {
+  position: relative;
+  padding: 8px;
+  top: -8px;
+  left: -8px;
+}
+
 .logoImage {
   padding-top: 1px;
   width: 38px;
@@ -303,19 +310,19 @@ a:active {
 }
 
 /* Create the animation for each sheet when the container is hovered */
-#sheets-container:hover .sheet1 {
+.logo:hover .sheet1 {
   animation: slideSheet1 0.6s 0.15s forwards;
 } 
 
-#sheets-container:hover .sheet2 {
+.logo:hover .sheet2 {
   animation: slideSheet2 0.6s 0.0s forwards;
 }
 
-#sheets-container:hover .sheet3 {
+.logo:hover .sheet3 {
   animation: slideSheet3 0.6s 0.0s forwards;
 }
 
-#sheets-container:hover .sheet4 {
+.logo:hover .sheet4 {
   animation: slideSheet4 0.6s forwards;
 }
 
