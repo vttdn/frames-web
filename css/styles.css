@@ -336,7 +336,7 @@ a:active {
 .sheet {
   position: absolute;
   width: 100%;
-  transition: all .4s ease-in-out;
+  transition: all .5s ease-in-out;
 }
 
 .sheet4 {
@@ -345,19 +345,19 @@ a:active {
 
 /* Create the animation for each sheet when the container is hovered */
 .logo:hover .sheet1 {
-  animation: slideSheet1 0.4s 0.15s forwards;
+  animation: slideSheet1 0.5s 0.15s forwards;
 } 
 
 .logo:hover .sheet2 {
-  animation: slideSheet2 0.4s 0.0s forwards;
+  animation: slideSheet2 0.5s 0.0s forwards;
 }
 
 .logo:hover .sheet3 {
-  animation: slideSheet3 0.4s 0.0s forwards;
+  animation: slideSheet3 0.5s 0.0s forwards;
 }
 
 .logo:hover .sheet4 {
-  animation: slideSheet4 0.4s forwards;
+  animation: slideSheet4 0.5s forwards;
 }
 
 /* #sheets-container:not(:hover) .sheet4 {
