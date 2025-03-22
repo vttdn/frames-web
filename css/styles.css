@@ -9,8 +9,8 @@ body {
 }
 
 * {
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  /* -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; */
   box-sizing: border-box;
 }
 
@@ -109,6 +109,8 @@ a:active {
   background-color: rgb(20, 20, 20);
   padding: 112px 48px;
   margin-top: 64px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 .features {
