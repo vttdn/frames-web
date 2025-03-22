@@ -154,7 +154,9 @@ a:active {
   justify-content: flex-start; /* Aligns content to the left */
   padding: 24px; /* Add some spacing from edges */
 
-  font-size: clamp(1rem, 10vh, 3.5rem);
+  font-size: 56px;
+  line-height: 64px;
+  letter-spacing: -0.56px;
   font-weight: 500;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
