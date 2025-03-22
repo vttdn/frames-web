@@ -29,7 +29,7 @@ a:active {
   width: 100vw;
   min-height: 100vh;
   padding: 40px 40px 60px;
-  margin-bottom: 40px;
+  margin-bottom: 36px;
   justify-content: space-between;
 }
 
@@ -132,7 +132,7 @@ a:active {
 /* FEATURES SECTION */
 .main {
   background-color: rgb(20, 20, 20);
-  padding: 100px 48px;
+  padding: 96px 48px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -220,6 +220,7 @@ a:active {
 @media only screen and (max-width: 1080px) {
   .header {
     padding: 24px 24px 52px;
+    margin-bottom: 28px;
   }
 
   .logoImage {
@@ -230,7 +231,6 @@ a:active {
 
   .main {
     padding: 80px 24px;
-    margin-top: 28px;
   }
 
   .features {
@@ -286,7 +286,6 @@ a:active {
 
   .main {
     padding: 48px 0;
-    margin-top: 32px;
     overflow-x: hidden;
   }
 
