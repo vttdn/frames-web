@@ -135,13 +135,16 @@
       </nav>
 
       <section class="intro">
-        <p>
+        <p class="staticTxt">
           In a world where digital convenience often overshadows
-          <span class="italic">analog charm</span>, Frames stands proudly as a
+          analog charm, Frames stands proudly as a
           bridge, merging the nostalgic delight of
-          <span class="italic">film photography</span> with the seamless
-          integration of modern technology.
+          film photography with the seamless
+          integration of modern technology
         </p>
+        <div class="dynamycTxtWrapper">
+          <p id="introTxt" class="dynamycTxt"></p>
+        </div>
       </section>
     </header>
 
@@ -329,6 +332,13 @@
       .addEventListener("click", function () {
         smoothScroll(document.getElementById("main"));
       });
+  </script>
+
+  <script src="js/typeit.js"></script>
+  <script>
+    new TypeIt("#introTxt", { speed: 25 })
+      .type('In a world where digital convenience often overshadows analog charm, Frames stands proudly as a bridge, merging the nostalgic delight of film photography with the seamless integration of modern technology')
+      .go();
   </script>
 
 </html>

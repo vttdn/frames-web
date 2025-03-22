@@ -55,14 +55,31 @@ a:active {
 }
 
 .intro {
+  position: relative;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 48px;
   font-size: 48px;
-  text-wrap: balance;
-  text-wrap: pretty;
+  /* text-wrap: balance;
+  text-wrap: pretty; */
   line-height: 60px;
   letter-spacing: -0.48px;
+}
+
+.intro .staticTxt {
+  opacity: 0;
+}
+
+.dynamycTxtWrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 48px;
+}
+
+.dynamycTxt{
 }
 
 .intro p {
@@ -155,7 +172,7 @@ a:active {
   padding: 24px; /* Add some spacing from edges */
 
   font-size: 56px;
-  line-height: 64px;
+  line-height: 56px;
   letter-spacing: -0.56px;
   font-weight: 500;
   -webkit-font-smoothing: antialiased;
@@ -229,8 +246,16 @@ a:active {
     letter-spacing: -0.4px;
   }
 
+  .dynamycTxtWrapper {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
   .feature .footer {
     padding: 0 40px;
+  }
+
+  .feature .card {
+    padding: 20px;
   }
 }
 
@@ -250,6 +275,10 @@ a:active {
     font-size: 36px;
     letter-spacing: -0.36px;
     line-height: 48px;
+  }
+
+  .feature .card {
+    padding: 24px;
   }
 
   .main {
