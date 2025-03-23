@@ -182,7 +182,8 @@ a:active {
   flex-direction: row;
   align-items: flex-start;
   gap: 8px;
-  padding: 0 48px 0 40px;
+  padding: 0 40px;
+  margin-right: 28px;
   margin-top: 26px;
 }
 
@@ -193,6 +194,7 @@ a:active {
   letter-spacing: -0.374px;
   font-size: 17px;
   line-height: 25px;
+  margin-bottom: 3px;
   /* white-space: nowrap;     /* Prevent text from wrapping to a new line */
     overflow: hidden;        /* Hide overflowing text */
     text-overflow: ellipsis; */
