@@ -37,7 +37,7 @@ a:active {
   align-items: flex-start;
   justify-content: space-between;
   flex: 1;
-  margin-bottom: 64px;
+  margin-bottom: 80px;
 }
 
 .logo {
@@ -48,9 +48,9 @@ a:active {
 }
 
 .logoImage {
-  padding-top: 2px;
-  width: 36px;
-  height: 36px;
+  padding-top: 1px;
+  width: 38px;
+  height: 38px;
 }
 
 .intro {
@@ -218,12 +218,6 @@ a:active {
   padding: 24px 24px 64px;
   }
 
-  .logoImage {
-    padding-top: 2px;
-    width: 36px;
-    height: 36px;
-  }
-
   .main {
     padding: 64px 24px;
   }
@@ -257,6 +251,8 @@ a:active {
   }
 
   .logoImage {
+    position: relative;
+    top: 2px;
     padding-top: 3px;
     width: 34px;
     height: 34px;
@@ -314,6 +310,11 @@ a:active {
 }
 
 @media only screen and (min-width: 1600px) {
+  .logoImage {
+    width: 40px;
+    height: 40px;
+  }
+
   .intro {
     font-size: 48px;
     letter-spacing: -0.48px;
@@ -330,6 +331,10 @@ a:active {
 
   .feature .footer {
     padding: 0 48px;
+  }
+
+  .features {
+    gap: 48px;
   }
 }
 
