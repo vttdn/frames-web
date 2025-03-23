@@ -79,18 +79,6 @@ a:active {
   color: white;
 }
 
-.dynamycTxtWrapper {
-  position: absolute;
-  top: 0;
-  left: 0;
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 48px;
-}
-
-.dynamycTxt {
-}
-
 .intro p {
   grid-column: span 3;
   margin: 0;
@@ -233,10 +221,6 @@ a:active {
     grid-template-columns: repeat(1, 1fr);
   }
 
-  .dynamycTxtWrapper {
-    grid-template-columns: repeat(1, 1fr);
-  }
-
   .feature .footer {
     padding: 0 24px;
   }
@@ -309,6 +293,7 @@ a:active {
   }
 
   .feature .footer {
+    display: none;
     padding: 0 16px;
   }
 }
@@ -355,13 +340,13 @@ a:active {
 
 .glitch-red {
   fill: rgb(255, 0, 0);
-  transform: translate(-0, 0);
+  transform: translate(0, 0);
   mix-blend-mode: screen;
 }
 
 .glitch-green {
   fill: rgb(0, 255, 0);
-  transform: translate(-0, 0);
+  transform: translate(0, 0);
   mix-blend-mode: screen;
 }
 
