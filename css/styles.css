@@ -1,10 +1,20 @@
 body {
-  background: #000;
   font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica,
     Arial, sans-serif;
   color: #f3f5f7;
   height: 100%;
+  box-sizing: border-box;
+  background: #000;
   margin: 0;
+}
+
+.header {
+  padding-top: 40px;
+}
+
+.header, .main {
+  padding-left: 40px;
+  padding-right: 40px;
 }
 
 * {
@@ -27,7 +37,7 @@ a:active {
   flex-direction: column;
   width: 100vw;
   min-height: 100vh;
-  padding: 40px 32px 80px;
+  padding-bottom: 64px;
   justify-content: space-between;
 }
 
@@ -57,9 +67,9 @@ a:active {
   position: relative;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 32px;
-  font-size: 40px;
-  letter-spacing: -0.40px;
+  gap: 40px;
+  font-size: 44px;
+  letter-spacing: -0.44px;
   line-height: 52px;
   /* text-wrap: balance;
   text-wrap: pretty; */
@@ -115,13 +125,14 @@ a:active {
 /* FEATURES SECTION */
 .main {
   /* background-color: rgb(20, 20, 20); */
-  padding: 0 32px 80px;
+  padding-top: 40px;
+  padding-bottom: 160px;
 }
 
 .features {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 32px;
+  gap: 40px;
 
   font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
