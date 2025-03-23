@@ -50,9 +50,9 @@ a:active {
 }
 
 .logoImage {
-  padding-top: 2px;
-  width: 36px;
-  height: 36px;
+  padding-top: 1px;
+  width: 38px;
+  height: 38px;
 }
 
 .intro {
@@ -60,9 +60,9 @@ a:active {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 48px;
-  font-size: 42px;
-  letter-spacing: -0.42px;
-  line-height: 54px;
+  font-size: 44px;
+  letter-spacing: -0.48px;
+  line-height: 56px;
   /* text-wrap: balance;
   text-wrap: pretty; */
   font-weight: 500;
@@ -73,7 +73,7 @@ a:active {
 }
 
 .staticTxt span {
-  color: gray;
+  color: rgb(110, 110, 115);
   transition: color 0.5s;
 }
 
@@ -145,6 +145,8 @@ a:active {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 48px;
+
+  font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 @media (hover: hover) {
@@ -164,7 +166,7 @@ a:active {
   position: relative;
   width: 100%;
   aspect-ratio: 2046 / 1248;
-  background-color: #333;
+  background-color: rgba(44,44,45,1);
   border-radius: 10px;
   transition: background-color 0.2s cubic-bezier(0.42, 1.1, 0.6, 1);
 
@@ -182,7 +184,7 @@ a:active {
 
 @media (hover: hover) {
   .feature .card:hover {
-    background-color: #444;
+    background-color: rgba(70, 70, 71, 1);
   }
 }
 
@@ -190,33 +192,33 @@ a:active {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
-  gap: 8px;
+  gap: 6px;
   padding: 0 48px;
-  margin-top: 30px;
+  margin-top: 26px;
 }
 
 .feature .footer .h3 {
   margin: 0;
   padding: 0;
   font-weight: 600;
-  letter-spacing: -0.32px;
-  padding-bottom: 4px;
+  letter-spacing: -0.374px;
   font-size: 17px;
-  line-height: 20px;
+  line-height: 25px;
 }
 
 .feature .footer p {
   margin: 0;
   padding: 0;
-  font-size: 13px;
+  font-size: 12px;
   font-weight: 600;
-  line-height: 16px;
-  letter-spacing: 0;
-  color: rgb(155, 155, 155);
+  line-height: 16.000479px;
+  letter-spacing: -0.12px;
+  color: #9b9b9b;
 }
 
 .feature .footer img {
-  max-width: 18px;
+  max-width: 20px;
+  margin-top: 3px;
 }
 
 @media only screen and (max-width: 1080px) {
