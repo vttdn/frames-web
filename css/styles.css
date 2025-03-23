@@ -22,7 +22,7 @@ body {
   justify-content: space-between;
   align-items: flex-end;
 
-  padding-top: 480px;
+  padding-top: 400px;
 }
 
 .header {
@@ -63,7 +63,7 @@ a:active {
   align-items: flex-start;
   justify-content: space-between;
   flex: 1;
-  margin-bottom:320px;
+  margin-bottom:280px;
 }
 
 .logo {
@@ -178,9 +178,9 @@ a:active {
   justify-content: flex-start; /* Aligns content to the left */
   padding: 32px; /* Add some spacing from edges */
 
-  font-size: 64px;
-  line-height: 64px;
-  letter-spacing: -0.64px;
+  font-size: 72px;
+  line-height: 72px;
+  letter-spacing: -0.72px;
   font-weight: 500;
 }
 
