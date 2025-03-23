@@ -9,8 +9,8 @@ body {
 }
 
 * {
-  /* -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale; */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
   box-sizing: border-box;
 }
 
@@ -60,11 +60,12 @@ a:active {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 48px;
-  font-size: 48px;
+  font-size: 44px;
+  letter-spacing: -0.4px;
+  line-height: 52px;
   /* text-wrap: balance;
   text-wrap: pretty; */
-  line-height: 60px;
-  letter-spacing: -0.48px;
+  font-weight: 500;
 }
 
 .intro .staticTxt {
@@ -134,8 +135,6 @@ a:active {
 .main {
   background-color: rgb(20, 20, 20);
   padding: 96px 48px;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 
 .features {
@@ -175,8 +174,6 @@ a:active {
   line-height: 56px;
   letter-spacing: -0.56px;
   font-weight: 500;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 
 @media (hover: hover) {
@@ -198,19 +195,19 @@ a:active {
   margin: 0;
   padding: 0;
   font-weight: 600;
-  letter-spacing: -0.374px;
+  letter-spacing: -0.32px;
   padding-bottom: 4px;
-  font-size: 16px;
-  line-height: 18px;
+  font-size: 17px;
+  line-height: 20px;
 }
 
 .feature .footer p {
   margin: 0;
   padding: 0;
-  font-size: 12px;
+  font-size: 13px;
   font-weight: 600;
   line-height: 16px;
-  letter-spacing: -0.12px;
+  letter-spacing: 0;
   color: rgb(155, 155, 155);
 }
 
@@ -322,6 +319,13 @@ a:active {
   }
 }
 
+@media only screen and (min-width: 1600px) {
+  .intro {
+    font-size: 48px;
+    letter-spacing: -0.48px;
+    line-height: 60px;
+  }
+}
 
 
 
