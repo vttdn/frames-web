@@ -67,7 +67,7 @@ a:active {
   position: relative;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 40px;
+  gap: 32px;
   font-size: 44px;
   letter-spacing: -0.44px;
   line-height: 52px;
@@ -125,14 +125,14 @@ a:active {
 /* FEATURES SECTION */
 .main {
   /* background-color: rgb(20, 20, 20); */
-  padding-top: 40px;
-  padding-bottom: 160px;
+  padding-top: 64px;
+  padding-bottom: 128px;
 }
 
 .features {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 40px;
+  gap: 24px;
 
   font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
