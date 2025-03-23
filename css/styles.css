@@ -12,8 +12,8 @@ body {
   color: rgb(110, 110, 115);
   text-align: left;
   padding: 0 40px 24px;
-  font-size: 14px;
-  line-height: 18px;
+  font-size: 17px;
+  line-height: 17px;
   letter-spacing:-0.16px;
   font-weight: 500;
   opacity: 0.8;
@@ -23,7 +23,7 @@ body {
   justify-content: space-between;
   align-items: flex-end;
 
-  padding-top: 280px;
+  padding-top: 240px;
 }
 
 .header {
@@ -76,9 +76,8 @@ a:active {
 }
 
 .logoImage {
-  padding-top: 1px;
-  width: 38px;
-  height: 38px;
+  width: 40px;
+  height: 40px;
 }
 
 .intro {
@@ -86,9 +85,9 @@ a:active {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 32px;
-  font-size: 44px;
-  letter-spacing: -0.44px;
-  line-height: 52px;
+  font-size: 48px;
+  letter-spacing: -0.48px;
+  line-height: 60px;
   /* text-wrap: balance;
   text-wrap: pretty; */
   font-weight: 500;
@@ -184,9 +183,9 @@ a:active {
   justify-content: flex-start; /* Aligns content to the left */
   padding: 32px; /* Add some spacing from edges */
 
-  font-size: 56px;
-  line-height: 56px;
-  letter-spacing: -0.56px;
+  font-size: 72px;
+  line-height: 72px;
+  letter-spacing: -0.72px;
   font-weight: 500;
 }
 
