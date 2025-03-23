@@ -1,4 +1,4 @@
-function smoothScroll(target, duration = 600) {
+function smoothScroll(target, duration = 1000) {
       const targetPosition =
         target.getBoundingClientRect().top + window.scrollY;
       const startPosition = window.scrollY;
