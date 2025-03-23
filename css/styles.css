@@ -8,6 +8,24 @@ body {
   margin: 0;
 }
 
+.main-footer {
+  color: rgb(110, 110, 115);
+  text-align: left;
+  padding: 0 40px 24px;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing:-0.16px;
+  font-weight: 500;
+  opacity: 0.8;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+
+  padding-top: 280px;
+}
+
 .header {
   padding-top: 40px;
 }
@@ -116,23 +134,25 @@ a:active {
   transition: all 0.2s cubic-bezier(0.42, 1.1, 0.6, 1);
 }
 
+.button svg {
+  fill: #777;
+}
+
 @media (hover: hover) {
   .button:hover {
     background-color: #333;
   }
+  .button:hover svg {
+  fill: #888;
+}
 }
 
 /* FEATURES SECTION */
-.main {
-  /* background-color: rgb(20, 20, 20); */
-  padding-top: 64px;
-  padding-bottom: 128px;
-}
 
 .features {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 24px;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 32px;
 
   font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
@@ -155,18 +175,18 @@ a:active {
   width: 100%;
   aspect-ratio: 2046 / 1248;
   background-color: rgba(44,44,45,1);
-  border-radius: 12px;
+  border-radius: 16px;
   transition: background-color 0.2s cubic-bezier(0.42, 1.1, 0.6, 1);
 
   /* Flexbox for alignment */
   display: flex;
   align-items: flex-end; /* Aligns content to the bottom */
   justify-content: flex-start; /* Aligns content to the left */
-  padding: 24px; /* Add some spacing from edges */
+  padding: 32px; /* Add some spacing from edges */
 
-  font-size: 48px;
-  line-height: 48px;
-  letter-spacing: -0.48px;
+  font-size: 56px;
+  line-height: 56px;
+  letter-spacing: -0.56px;
   font-weight: 500;
 }
 
@@ -202,10 +222,10 @@ a:active {
 .feature .footer p {
   margin: 0;
   padding: 0;
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 600;
-  line-height: 16.000479px;
-  letter-spacing: -0.12px;
+  line-height: 18px;
+  letter-spacing:-0.16px;
   color: #9b9b9b;
 }
 
@@ -239,6 +259,10 @@ a:active {
   .feature .card {
     padding: 20px;
   }
+
+  .feature .card {
+    font-size: 48px;
+  }
 }
 
 @media only screen and (max-width: 680px) {
@@ -263,6 +287,7 @@ a:active {
 
   .feature .card {
     padding: 24px;
+    font-size: 64px;
   }
 
   .main {
