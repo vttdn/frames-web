@@ -183,8 +183,8 @@ a:active {
   font-size: 17px;
   line-height: 25px;
   margin-bottom: 3px;
-  /* white-space: nowrap;     /* Prevent text from wrapping to a new line */
-    overflow: hidden;        /* Hide overflowing text */
+    /* white-space: nowrap;
+    overflow: hidden;
     text-overflow: ellipsis; */
 }
 
@@ -325,39 +325,4 @@ a:active {
   .features {
     gap: 48px;
   }
-}
-
-.glitch-container {
-  position: relative; /* Ensures container wraps around SVG elements */
-  display: inline-block; /* Keeps the width of the container */
-}
-
-.glitch {
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-
-.glitch-red {
-  fill: rgb(255, 0, 0);
-  transform: translate(0, 0);
-  mix-blend-mode: screen;
-}
-
-.glitch-green {
-  fill: rgb(0, 255, 0);
-  transform: translate(0, 0);
-  mix-blend-mode: screen;
-}
-
-.glitch-blue {
-  fill: rgb(0, 0, 255);
-  mix-blend-mode: screen; /* Try a different blend mode */
-}
-
-.glitch-container:hover .glitch-green {
-  transform: translate(-1px, 1px);
-}
-.glitch-container:hover .glitch-red {
-  transform: translate(1px, -1px);
 }
