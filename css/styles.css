@@ -273,6 +273,8 @@ a:active {
   .main {
     padding: 48px 0;
     overflow-x: hidden;
+    background: none;
+    padding-top: 0;
   }
 
   .features {
