@@ -22,7 +22,7 @@ body {
   justify-content: space-between;
   align-items: flex-end;
 
-  padding-top: 400px;
+  padding-top: 240px;
 }
 
 .header {
@@ -35,8 +35,6 @@ body {
 }
 
 * {
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
   box-sizing: border-box;
 }
 
@@ -80,12 +78,12 @@ a:active {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 32px;
-  font-size: 64px;
-  letter-spacing: -0.64px;
-  line-height: 76px;
+  font-size: 40px;
+  letter-spacing: -0.4px;
+  line-height: 52px;
+  /* font-weight: 500; */
   /* text-wrap: balance;
   text-wrap: pretty; */
-  font-weight: 500;
 }
 
 .intro .staticTxt {
@@ -178,9 +176,9 @@ a:active {
   justify-content: flex-start; /* Aligns content to the left */
   padding: 32px; /* Add some spacing from edges */
 
-  font-size: 72px;
-  line-height: 72px;
-  letter-spacing: -0.72px;
+  font-size: 64px;
+  line-height: 64px;
+  letter-spacing: -0.64px;
   font-weight: 500;
 }
 
