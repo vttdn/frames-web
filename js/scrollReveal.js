@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function () {
   const words = document.querySelectorAll(".staticTxt span");
-  let revealedCount = 7; // Number of words initially revealed
+  let revealedCount = 8; // Number of words initially revealed
   let scrollThreshold = 5; // Scroll amount needed to reveal the next word
   let accumulatedScroll = 0;
   let isLastWordRevealed = false; // Flag to track if the last word is revealed
@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", function () {
   };
 
   const hidePreviousWord = () => {
-    if (revealedCount > 7) {
+    if (revealedCount > 8) {
       revealedCount--;
       words[revealedCount].classList.remove("revealed");
       accumulatedScroll = 0; // Reset accumulated scroll after hiding a word
@@ -24,7 +24,7 @@ document.addEventListener("DOMContentLoaded", function () {
   };
 
   const resetReveal = () => {
-    for (let i = 7; i < words.length; i++) {
+    for (let i = 8; i < words.length; i++) {
       words[i].classList.remove("revealed");
     }
     revealedCount = 4;

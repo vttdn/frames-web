@@ -5,7 +5,6 @@ body {
   color: #f3f5f7;
   height: 100%;
   margin: 0;
-  scroll-behavior: smooth;
 }
 
 * {
@@ -28,8 +27,7 @@ a:active {
   flex-direction: column;
   width: 100vw;
   min-height: 100vh;
-  padding: 40px 40px 60px;
-  margin-bottom: 36px;
+  padding: 32px 32px 80px;
   justify-content: space-between;
 }
 
@@ -50,9 +48,9 @@ a:active {
 }
 
 .logoImage {
-  padding-top: 1px;
-  width: 38px;
-  height: 38px;
+  padding-top: 2px;
+  width: 36px;
+  height: 36px;
 }
 
 .intro {
@@ -60,9 +58,9 @@ a:active {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 48px;
-  font-size: 44px;
-  letter-spacing: -0.48px;
-  line-height: 56px;
+  font-size: 40px;
+  letter-spacing: -0.40px;
+  line-height: 52px;
   /* text-wrap: balance;
   text-wrap: pretty; */
   font-weight: 500;
@@ -223,8 +221,7 @@ a:active {
 
 @media only screen and (max-width: 1080px) {
   .header {
-    padding: 24px 24px 52px;
-    margin-bottom: 28px;
+  padding: 24px 24px 64px;
   }
 
   .logoImage {
@@ -234,7 +231,7 @@ a:active {
   }
 
   .main {
-    padding: 80px 24px;
+    padding: 64px 24px;
   }
 
   .features {
@@ -244,9 +241,6 @@ a:active {
 
   .intro {
     grid-template-columns: repeat(1, 1fr);
-    font-size: 36px;
-    line-height: 48px;
-    letter-spacing: -0.36px;
   }
 
   .dynamycTxtWrapper {
@@ -264,7 +258,7 @@ a:active {
 
 @media only screen and (max-width: 680px) {
   .header {
-    padding: 16px;
+    padding: 16px 16px 48px;
     min-height: auto;
   }
 
