@@ -50,9 +50,9 @@ a:active {
 }
 
 .logoImage {
-  padding-top: 1px;
-  width: 38px;
-  height: 38px;
+  padding-top: 2px;
+  width: 36px;
+  height: 36px;
 }
 
 .intro {
@@ -60,7 +60,7 @@ a:active {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 48px;
-  font-size: 44px;
+  font-size: 40px;
   letter-spacing: -0.4px;
   line-height: 52px;
   /* text-wrap: balance;
@@ -90,11 +90,6 @@ a:active {
   padding: 0;
 }
 
-.intro .italic {
-  /* font-family: "IvyOra Display";
-  font-style: italic; */
-}
-
 .infoCollapsedSidebar {
   display: none;
 }
@@ -111,7 +106,7 @@ a:active {
   background: #222;
   color: #999;
   border-radius: 50px;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 20px;
   transition: all 0.2s cubic-bezier(0.42, 1.1, 0.6, 1);
 }
@@ -153,7 +148,7 @@ a:active {
   margin: 0 0 24px;
   font-size: 19px;
   line-height: 23px;
-  font-weight: 600;
+  font-weight: 500;
 }
 
 .feature .card {
