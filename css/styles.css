@@ -90,7 +90,7 @@ a:active {
   gap: 48px;
 }
 
-.dynamycTxt{
+.dynamycTxt {
 }
 
 .intro p {
@@ -167,7 +167,7 @@ a:active {
   background-color: #333;
   border-radius: 10px;
   transition: background-color 0.2s cubic-bezier(0.42, 1.1, 0.6, 1);
-  
+
   /* Flexbox for alignment */
   display: flex;
   align-items: flex-end; /* Aligns content to the bottom */
@@ -331,84 +331,37 @@ a:active {
   }
 }
 
-
-
-#sheets-container {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  overflow: hidden; /* Hide overflowing sheets during the animation */
+.glitch-container {
+  position: relative; /* Ensures container wraps around SVG elements */
+  display: inline-block; /* Keeps the width of the container */
 }
 
-.sheet {
+.glitch {
   position: absolute;
-  width: 100%;
-  transition: all .6s ease-in-out;
+  top: 0;
+  left: 0;
 }
 
-.sheet4 {
-  transform: translateY(0) scale(0);
+.glitch-red {
+  fill: rgb(255, 0, 0);
+  transform: translate(-0, 0);
+  mix-blend-mode: screen;
 }
 
-/* Create the animation for each sheet when the container is hovered */
-.logo:hover .sheet1 {
-  animation: slideSheet1 0.6s 0.15s forwards;
-} 
-
-.logo:hover .sheet2 {
-  animation: slideSheet2 0.6s 0.0s forwards;
+.glitch-green {
+  fill: rgb(0, 255, 0);
+  transform: translate(-0, 0);
+  mix-blend-mode: screen;
 }
 
-.logo:hover .sheet3 {
-  animation: slideSheet3 0.6s 0.0s forwards;
+.glitch-blue {
+  fill: rgb(0, 0, 255);
+  mix-blend-mode: screen; /* Try a different blend mode */
 }
 
-.logo:hover .sheet4 {
-  animation: slideSheet4 0.6s forwards;
+.glitch-container:hover .glitch-green {
+  transform: translate(-1px, 1px);
 }
-
-/* #sheets-container:not(:hover) .sheet4 {
-  visibility: hidden;
-} */
-
-@keyframes slideSheet4 {
-  0% {
-    transform: translateY(0) scale(0);
-    transform-origin:  top center ;
-  }
-  100% {
-    transform: translateY(5.5px) scale(1); /* Final position */
-    transform-origin: top center ;
-  }
-}
-
-@keyframes slideSheet1 {
-  0% {
-    opacity: 1;
-    transform: translateY(0); /* Start position */
-    transform-origin:  top center ;
-  }
-  100% {
-    opacity: 0;
-    transform: translateY(5.5px) scale(0); /* Final position */
-    transform-origin:  top center ;
-  }
-}
-
-@keyframes slideSheet3 {
-  0% {
-    transform: translateY(0); /* Start position */
-  }
-  100% {
-    transform: translateY(5.5px); /* Final position */
-  }
-}
-
-@keyframes slideSheet2 {
-  0% {
-    transform: translateY(0); /* Start position */
-  }
-  100% {
-    transform: translateY(5.1px); /* Final position */
-  }
+.glitch-container:hover .glitch-red {
+  transform: translate(1px, -1px);
 }
