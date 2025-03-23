@@ -60,16 +60,25 @@ a:active {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 48px;
-  font-size: 40px;
-  letter-spacing: -0.4px;
-  line-height: 52px;
+  font-size: 42px;
+  letter-spacing: -0.42px;
+  line-height: 54px;
   /* text-wrap: balance;
   text-wrap: pretty; */
   font-weight: 500;
 }
 
 .intro .staticTxt {
-  opacity: 0;
+  /* opacity: 0; */
+}
+
+.staticTxt span {
+  color: gray;
+  transition: color 0.5s;
+}
+
+.staticTxt span.revealed {
+  color: white;
 }
 
 .dynamycTxtWrapper {

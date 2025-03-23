@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reversible Scrolling Word Reveal</title>
+    <style>
+        body {
+            background-color: black;
+            color: gray;
+            font-size: 2rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 200vh; /* Extra height for scroll */
+        }
+        .container {
+            width: 60%;
+            position: fixed;
+            top: 50%;
+            transform: translateY(-50%);
+            text-align: center;
+        }
+        .word {
+            transition: color 0.2s ease-in-out;
+        }
+        .word.visible {
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <p id="text">
+            This is a paragraph where each word will gradually appear in white as you scroll down and disappear when you scroll up.
+        </p>
+    </div>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            const textElement = document.getElementById("text");
+            const words = textElement.textContent.split(" ");
+            textElement.innerHTML = words.map(word => `<span class="word">${word}</span>`).join(" ");
+
+            const wordElements = document.querySelectorAll(".word");
+            let currentWord = 0;
+            let lastScrollY = window.scrollY;
+
+            function handleScroll(event) {
+                event.preventDefault(); // Prevent normal scrolling
+                const currentScrollY = window.scrollY;
+
+                if (currentScrollY > lastScrollY) { // Scrolling down
+                    if (currentWord < wordElements.length) {
+                        wordElements[currentWord].classList.add("visible");
+                        currentWord++;
+                    } else {
+                         //Allow normal scrolling after all words are revealed
+                        if (currentWord >= wordElements.length) {
+                            window.removeEventListener("wheel", handleScroll);
+                            window.removeEventListener("touchmove", handleScroll);
+                        }
+                    }
+
+                } else if (currentScrollY < lastScrollY) { // Scrolling up
+                    if (currentWord > 0) {
+                        currentWord--;
+                        wordElements[currentWord].classList.remove("visible");
+                    }
+                }
+                lastScrollY = currentScrollY;
+            }
+
+            // Listen to scroll events
+            window.addEventListener("wheel", handleScroll, { passive: false });
+            window.addEventListener("touchmove", handleScroll, { passive: false });
+        });
+    </script>
+
+</body>
+</html>

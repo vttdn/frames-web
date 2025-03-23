@@ -47,9 +47,12 @@
     <link rel="manifest" href="site.webmanifest" />
     <meta name="theme-color" content="#000" />
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Bytesized&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bytesized&display=swap"
+      rel="stylesheet"
+    />
 
     <script
       async
@@ -139,16 +142,21 @@
       </nav>
 
       <section class="intro">
-        <p class="staticTxt">
-          In a world where digital convenience often overshadows
-          analog charm, Frames stands proudly as a
-          bridge, merging the nostalgic delight of
-          film photography with the seamless
-          integration of modern technology
+        <p class="staticTxt" id="staticTxt">
+          <span>In</span> <span>a</span> <span>world</span> <span>where</span>
+          <span>digital</span> <span>convenience</span> <span>often</span>
+          <span>overshadows</span> <span>analog</span> <span>charm,</span>
+          <span>Frames</span> <span>stands</span> <span>proudly</span>
+          <span>as</span> <span>a</span> <span>bridge,</span>
+          <span>merging</span> <span>the</span> <span>nostalgic</span>
+          <span>delight</span> <span>of</span> <span>film</span>
+          <span>photography</span> <span>with</span> <span>the</span>
+          <span>seamless</span> <span>integration</span> <span>of</span>
+          <span>modern</span> <span>technology.</span>
         </p>
-        <div class="dynamycTxtWrapper">
+        <!-- <div class="dynamycTxtWrapper">
           <p id="introTxt" class="dynamycTxt"></p>
-        </div>
+        </div> -->
       </section>
     </header>
 
@@ -164,13 +172,16 @@
           </header> -->
 
           <a href="#">
-            <section class="card">
-              iOS
-            </section>
+            <section class="card">iOS</section>
           </a>
 
           <footer class="footer">
-            <img alt="Arrow Down" src="/img/arrow-down.svg" width="18" height="20" />
+            <img
+              alt="Arrow Down"
+              src="/img/arrow-down.svg"
+              width="18"
+              height="20"
+            />
             <div>
               <p class="h3">
                 <a href="#"> Download on the App Store </a>
@@ -189,13 +200,16 @@
           </header> -->
 
           <a href="#">
-            <section class="card">
-              macOS
-            </section>
+            <section class="card">macOS</section>
           </a>
 
           <footer class="footer">
-            <img alt="Arrow Down" src="/img/arrow-down.svg" width="18" height="20" />
+            <img
+              alt="Arrow Down"
+              src="/img/arrow-down.svg"
+              width="18"
+              height="20"
+            />
             <div>
               <p class="h3">
                 <a href="#"> Download on the Mac App Store </a>
@@ -308,41 +322,6 @@
     </section>
   </body>
 
-  <script>
-    function smoothScroll(target, duration = 600) {
-      const targetPosition =
-        target.getBoundingClientRect().top + window.scrollY;
-      const startPosition = window.scrollY;
-      const distance = targetPosition - startPosition;
-      let startTime = null;
-
-      function animation(currentTime) {
-        if (startTime === null) startTime = currentTime;
-        const timeElapsed = currentTime - startTime;
-        const progress = Math.min(timeElapsed / duration, 1);
-        const ease =
-          progress < 0.5
-            ? 2 * progress * progress
-            : 1 - Math.pow(-2 * progress + 2, 2) / 2;
-        window.scrollTo(0, startPosition + distance * ease);
-        if (timeElapsed < duration) requestAnimationFrame(animation);
-      }
-
-      requestAnimationFrame(animation);
-    }
-
-    document
-      .getElementById("scrollButton")
-      .addEventListener("click", function () {
-        smoothScroll(document.getElementById("main"));
-      });
-  </script>
-
-  <script src="js/typeit.js"></script>
-  <script>
-    new TypeIt("#introTxt", { speed: 20 })
-      .type('In a world where digital convenience often overshadows analog charm, Frames stands proudly as a bridge, merging the nostalgic delight of film photography with the seamless integration of modern technology')
-      .go();
-  </script>
-
+  <script src="js/smoothScroll.js"></script>
+  <script src="js/scrollReveal.js"></script>
 </html>
