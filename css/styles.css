@@ -136,7 +136,7 @@ a:active {
 /* FEATURES SECTION */
 .main {
   background-color: rgb(20, 20, 20);
-  padding: 96px 48px;
+  padding: 80px 48px;
 }
 
 .features {
@@ -324,6 +324,14 @@ a:active {
     font-size: 48px;
     letter-spacing: -0.48px;
     line-height: 60px;
+  }
+
+  .header {
+   padding: 40px 48px 96px;
+  }
+
+  .main {
+    padding: 96px 48px;
   }
 }
 
