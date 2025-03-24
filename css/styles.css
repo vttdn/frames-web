@@ -216,11 +216,11 @@ a:active {
 @media only screen and (max-width: 680px) {
 
   .main-footer {
-    padding-top: 128px;
+    padding-top: 120px;
   }
 
   .navigation {
-    margin-bottom: 128px;
+    margin-bottom: 120px;
   }
 
   .header {
@@ -280,9 +280,9 @@ a:active {
 
   .feature .card {
     padding: 24px;
-    font-size: 48px;
-    line-height: 48px;
-    letter-spacing: -0.48px;
+    font-size: 56px;
+    line-height: 64px;
+    letter-spacing: -0.64px;
   }
 
   .feature .footer p {
