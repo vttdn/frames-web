@@ -51,7 +51,6 @@ a:active {
   display: flex;
   flex-direction: column;
   width: 100vw;
-  padding-bottom: 64px;
   justify-content: space-between;
   padding: 48px 40px 64px;
 }
@@ -77,7 +76,7 @@ a:active {
 .intro {
   font-size: 48px;
   letter-spacing: -0.48px;
-  line-height: 60px;
+  line-height: 58px;
   font-weight: 400;
   /* font-weight: 500; */
   text-wrap: balance;
