@@ -280,12 +280,13 @@ a:active {
 
   .feature .card {
     padding: 24px;
-    font-size: 64px;
-    line-height: 64px;
-    letter-spacing: -0.64px;
+    font-size: 48px;
+    line-height: 48px;
+    letter-spacing: -0.48px;
   }
 
   .feature .footer p {
     padding: 24px 0 0;
+    font-weight: 500;
   }
 }
