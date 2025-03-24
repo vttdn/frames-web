@@ -7,10 +7,12 @@ body {
   background: #000;
   margin: 0;
 
-  font-size: 14px;
-  line-height: 14px;
-  letter-spacing:-0.14px;
+
   font-weight: 500;
+  font-size: 15px;
+    line-height: 20px;
+    letter-spacing: -0.24px;
+
   color: rgb(110, 110, 115);
 }
 
@@ -21,8 +23,7 @@ body {
 .main-footer {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  opacity: 0.64;
-  font-weight: 600;
+  opacity: 0.72;
 
   text-align: center;
   padding: 320px 40px 40px;
@@ -54,7 +55,7 @@ a:active {
   flex-direction: column;
   width: 100vw;
   justify-content: space-between;
-  padding: 48px 40px 64px;
+  padding: 40px 40px 64px;
 }
 
 .navigation {
@@ -148,15 +149,18 @@ a:active {
 
 .feature .footer p {
   margin: 0;
-  font-size: 14px;
-  font-weight: 600;
-  line-height: 18px;
-  letter-spacing:-0.16px;
-   color: rgb(110, 110, 115);
+  /* -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; */
   padding: 24px 0 0;
 }
 
 @media only screen and (max-width: 1080px) {
+  body {
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: -0.16px;
+  }
+
   .header {
     padding: 24px 24px 48px;
   }
@@ -239,6 +243,12 @@ a:active {
 
 
 @media only screen and (max-width: 680px) {
+  body {
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: -0.16px;
+  }
+
   .main-footer {
     padding: 120px 16px 16px;
   }
