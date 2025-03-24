@@ -153,6 +153,66 @@ a:active {
   padding: 24px 40px 0;
 }
 
+@media only screen and (max-width: 1080px) {
+  .header {
+    padding: 24px 24px 48px;
+  }
+
+  .main {
+    padding: 0 24px 80px;
+  }
+
+  .navigation {
+    margin-bottom:240px;
+  }
+
+  .main-footer {
+    padding: 240px 24px 24px;
+  }
+
+  .features {
+    gap: 24px;
+  }
+
+  .feature .footer {
+    padding: 0 24px;
+  }
+
+  .feature .card {
+    padding: 20px;
+  }
+}
+
+@media only screen and (min-width: 1600px) {
+  .logoImage {
+    width: 40px;
+    height: 40px;
+  }
+
+  .intro {
+    font-size: 48px;
+    letter-spacing: -0.48px;
+    line-height: 60px;
+  }
+
+  .header {
+   padding: 40px 48px 96px;
+  }
+
+  .main {
+    padding: 96px 48px;
+  }
+
+  .feature .footer {
+    padding: 0 48px;
+  }
+
+  .features {
+    gap: 48px;
+  }
+}
+
+
 @media only screen and (max-width: 680px) {
 
   .main-footer {
@@ -227,64 +287,5 @@ a:active {
 
   .feature .footer p {
     padding: 24px 0 0;
-  }
-}
-
-@media only screen and (max-width: 1080px) {
-  .header {
-    padding: 24px 24px 48px;
-  }
-
-  .main {
-    padding: 0 24px 80px;
-  }
-
-  .navigation {
-    margin-bottom:240px;
-  }
-
-  .main-footer {
-    padding: 240px 24px 24px;
-  }
-
-  .features {
-    gap: 24px;
-  }
-
-  .feature .footer {
-    padding: 0 24px;
-  }
-
-  .feature .card {
-    padding: 20px;
-  }
-}
-
-@media only screen and (min-width: 1600px) {
-  .logoImage {
-    width: 40px;
-    height: 40px;
-  }
-
-  .intro {
-    font-size: 48px;
-    letter-spacing: -0.48px;
-    line-height: 60px;
-  }
-
-  .header {
-   padding: 40px 48px 96px;
-  }
-
-  .main {
-    padding: 96px 48px;
-  }
-
-  .feature .footer {
-    padding: 0 48px;
-  }
-
-  .features {
-    gap: 48px;
   }
 }
