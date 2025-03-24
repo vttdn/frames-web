@@ -9,24 +9,35 @@ body {
 }
 
 .main-footer {
-  color: rgb(110, 110, 115);
-  text-align: left;
-  padding: 0 40px 24px;
-  font-size: 17px;
-  line-height: 17px;
-  letter-spacing:-0.16px;
+  font-size: 14px;
+  line-height: 14px;
+  letter-spacing:-0.14px;
   font-weight: 500;
+  color: rgb(110, 110, 115);
+  text-align: center;
+  padding: 0 40px 40px;
 
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: flex-end;
 
-  padding-top: 240px;
+  padding-top: 320px;
+
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.main-footer span:first-child {
+  text-align: left;
+}
+
+.main-footer span:last-child {
+  text-align: right;
 }
 
 .header {
-  padding-top: 40px;
+  padding-top: 48px;
 }
 
 .header, .main {
@@ -51,7 +62,7 @@ a:active {
   display: flex;
   flex-direction: column;
   width: 100vw;
-  padding-bottom: 80px;
+  padding-bottom: 64px;
   justify-content: space-between;
 }
 
@@ -69,14 +80,14 @@ a:active {
 }
 
 .logoImage {
-  width: 40px;
-  height: 40px;
+  width: 36px;
+  height: 36px;
 }
 
 .intro {
   position: relative;
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 32px;
   font-size: 40px;
   letter-spacing: -0.4px;
@@ -100,7 +111,7 @@ a:active {
 }
 
 .intro p {
-  grid-column: span 3;
+  grid-column: span 2;
   margin: 0;
   padding: 0;
 }
@@ -143,7 +154,7 @@ a:active {
 
 .features {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 32px;
 
   font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -167,24 +178,26 @@ a:active {
   width: 100%;
   aspect-ratio: 2046 / 1248;
   background-color: rgba(44,44,45,1);
-  border-radius: 16px;
+  border-radius: 12px;
   transition: background-color 0.2s cubic-bezier(0.42, 1.1, 0.6, 1);
 
   /* Flexbox for alignment */
   display: flex;
   align-items: flex-end; /* Aligns content to the bottom */
   justify-content: flex-start; /* Aligns content to the left */
-  padding: 32px; /* Add some spacing from edges */
+  padding: 24px; /* Add some spacing from edges */
 
-  font-size: 64px;
-  line-height: 64px;
-  letter-spacing: -0.64px;
+  font-size: 48px;
+  line-height: 48px;
+  letter-spacing: -0.48px;
   font-weight: 500;
+  color: rgb(110, 110, 115);
+  cursor: not-allowed;
 }
 
 @media (hover: hover) {
   .feature .card:hover {
-    background-color: rgba(70, 70, 71, 1);
+    /* background-color: rgba(70, 70, 71, 1); */
   }
 }
 
@@ -211,6 +224,10 @@ a:active {
     text-overflow: ellipsis; */
 }
 
+.feature a, .feature a:visited, .feature a:active {
+     color: rgb(110, 110, 115);
+}
+
 .feature .footer p {
   margin: 0;
   padding: 0;
@@ -218,7 +235,7 @@ a:active {
   font-weight: 600;
   line-height: 18px;
   letter-spacing:-0.16px;
-  color: #9b9b9b;
+   color: rgb(110, 110, 115);
 }
 
 .feature .footer img {
@@ -258,8 +275,17 @@ a:active {
 }
 
 @media only screen and (max-width: 680px) {
+
+  .main-footer {
+    padding-top: 160px;
+  }
+
+  .navigation {
+    margin-bottom:160px;
+  }
+
   .header {
-    padding: 16px 16px 48px;
+    padding: 16px 16px 24px;
     min-height: auto;
   }
 
@@ -272,9 +298,9 @@ a:active {
   }
 
   .intro {
-    font-size: 24px;
-    letter-spacing: -0.40px;
-    line-height: 36px;
+    font-size: 32px;
+    letter-spacing: -0.32px;
+    line-height: 42px;
   }
 
   .feature .card {
@@ -318,11 +344,6 @@ a:active {
   }
   .feature:last-of-type {
     padding-right: 16px;
-  }
-
-  .feature .footer {
-    display: none;
-    padding: 0 16px;
   }
 }
 
