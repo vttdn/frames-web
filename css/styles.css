@@ -1,31 +1,29 @@
 body {
   font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica,
     Arial, sans-serif;
-  color: #f3f5f7;
+  /* color: #f3f5f7; */
   height: 100%;
   box-sizing: border-box;
   background: #000;
   margin: 0;
-}
 
-.main-footer {
   font-size: 14px;
   line-height: 14px;
   letter-spacing:-0.14px;
   font-weight: 500;
   color: rgb(110, 110, 115);
-  text-align: center;
-  padding: 0 40px 40px;
+}
 
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: flex-end;
+* {
+  box-sizing: border-box;
+}
 
-  padding-top: 320px;
-
+.main-footer {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+
+  text-align: center;
+  padding: 320px 40px 40px;
 }
 
 .main-footer span:first-child {
@@ -36,24 +34,15 @@ body {
   text-align: right;
 }
 
-.header {
-  padding-top: 48px;
-}
-
-.header, .main {
-  padding-left: 40px;
-  padding-right: 40px;
-}
-
-* {
-  box-sizing: border-box;
-}
-
 a,
 a:visited,
 a:active {
   color: #f3f5f7;
   text-decoration: none;
+}
+
+.main {
+  padding: 0 40px;
 }
 
 .header {
@@ -64,6 +53,7 @@ a:active {
   width: 100vw;
   padding-bottom: 64px;
   justify-content: space-between;
+  padding: 48px 40px 64px;
 }
 
 .navigation {
@@ -72,7 +62,7 @@ a:active {
   align-items: flex-start;
   justify-content: space-between;
   flex: 1;
-  margin-bottom:280px;
+  margin-bottom:320px;
 }
 
 .logo {
@@ -80,25 +70,22 @@ a:active {
 }
 
 .logoImage {
-  width: 36px;
-  height: 36px;
+  width: 38px;
+  height: 38px;
 }
 
 .intro {
-  position: relative;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 32px;
-  font-size: 40px;
-  letter-spacing: -0.4px;
-  line-height: 52px;
+  font-size: 48px;
+  letter-spacing: -0.48px;
+  line-height: 60px;
+  font-weight: 400;
   /* font-weight: 500; */
-  /* text-wrap: balance;
-  text-wrap: pretty; */
+  text-wrap: balance;
+  text-wrap: pretty;
 }
 
-.intro .staticTxt {
-  /* opacity: 0; */
+.staticTxt {
+  margin: 0;
 }
 
 .staticTxt span {
@@ -110,51 +97,15 @@ a:active {
   color: white;
 }
 
-.intro p {
-  grid-column: span 2;
-  margin: 0;
-  padding: 0;
-}
-
 .infoCollapsedSidebar {
   display: none;
-}
-
-.button {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 100px;
-  height: 40px;
-  margin: 0;
-  border: none;
-  cursor: pointer;
-  background: #222;
-  color: #888;
-  border-radius: 50px;
-  font-weight: 700;
-  font-size: 15px;
-  transition: all 0.2s cubic-bezier(0.42, 1.1, 0.6, 1);
-}
-
-.button svg {
-  fill: #777;
-}
-
-@media (hover: hover) {
-  .button:hover {
-    background-color: #333;
-  }
-  .button:hover svg {
-  fill: #888;
-}
 }
 
 /* FEATURES SECTION */
 
 .features {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   gap: 32px;
 
   font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -166,112 +117,40 @@ a:active {
   }
 }
 
-.feature h2 {
-  margin: 0 0 24px;
-  font-size: 19px;
-  line-height: 23px;
-  font-weight: 500;
-}
-
 .feature .card {
-  position: relative;
   width: 100%;
   aspect-ratio: 2046 / 1248;
   background-color: rgba(44,44,45,1);
-  border-radius: 12px;
-  transition: background-color 0.2s cubic-bezier(0.42, 1.1, 0.6, 1);
+  border-radius: 10px;
+  /* transition: background-color 0.2s cubic-bezier(0.42, 1.1, 0.6, 1); */
 
-  /* Flexbox for alignment */
   display: flex;
   align-items: flex-end; /* Aligns content to the bottom */
   justify-content: flex-start; /* Aligns content to the left */
-  padding: 24px; /* Add some spacing from edges */
+  padding: 32px; /* Add some spacing from edges */
 
-  font-size: 48px;
-  line-height: 48px;
-  letter-spacing: -0.48px;
-  font-weight: 500;
-  color: rgb(110, 110, 115);
+  font-size: 64px;
+  line-height: 64px;
+  letter-spacing: -0.64px;
   cursor: not-allowed;
+   color: rgb(110, 110, 115);
 }
 
-@media (hover: hover) {
+/* @media (hover: hover) {
   .feature .card:hover {
-    /* background-color: rgba(70, 70, 71, 1); */
+    background-color: rgba(70, 70, 71, 1);
   }
-}
+} */
 
-.feature .footer {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  gap: 8px;
-  padding: 0 40px;
-  margin-right: 28px;
-  margin-top: 26px;
-}
-
-.feature .footer .h3 {
-  margin: 0;
-  padding: 0;
-  font-weight: 600;
-  letter-spacing: -0.374px;
-  font-size: 17px;
-  line-height: 25px;
-  margin-bottom: 3px;
-    /* white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis; */
-}
-
-.feature a, .feature a:visited, .feature a:active {
-     color: rgb(110, 110, 115);
-}
 
 .feature .footer p {
   margin: 0;
-  padding: 0;
   font-size: 14px;
   font-weight: 600;
   line-height: 18px;
   letter-spacing:-0.16px;
    color: rgb(110, 110, 115);
-}
-
-.feature .footer img {
-  max-width: 20px;
-  margin-top: 3px;
-}
-
-@media only screen and (max-width: 1080px) {
-  .header {
-  padding: 24px 24px 64px;
-  }
-
-  .main {
-    padding: 0 24px 80px;
-  }
-
-  .features {
-    grid-template-columns: repeat(2, 1fr);
-    gap: 24px;
-  }
-
-  .intro {
-    grid-template-columns: repeat(1, 1fr);
-  }
-
-  .feature .footer {
-    padding: 0 24px;
-  }
-
-  .feature .card {
-    padding: 20px;
-  }
-
-  .feature .card {
-    font-size: 48px;
-  }
+  padding: 24px 40px 0;
 }
 
 @media only screen and (max-width: 680px) {
@@ -290,9 +169,6 @@ a:active {
   }
 
   .logoImage {
-    position: relative;
-    top: 2px;
-    padding-top: 3px;
     width: 34px;
     height: 34px;
   }
@@ -303,16 +179,10 @@ a:active {
     line-height: 42px;
   }
 
-  .feature .card {
-    padding: 24px;
-    font-size: 64px;
-  }
-
   .main {
-    padding: 48px 0;
+    padding: 0;
     overflow-x: hidden;
     background: none;
-    padding-top: 0;
   }
 
   .features {
@@ -339,11 +209,54 @@ a:active {
     flex-direction: column; /* Stack children vertically */
     padding-top: 16px;
   }
+
   .feature:first-of-type {
     padding-left: 16px;
   }
+
   .feature:last-of-type {
     padding-right: 16px;
+  }
+
+  .feature .card {
+    padding: 24px;
+    font-size: 64px;
+    line-height: 64px;
+    letter-spacing: -0.64px;
+  }
+
+  .feature .footer p {
+    padding: 24px 0 0;
+  }
+}
+
+@media only screen and (max-width: 1080px) {
+  .header {
+    padding: 24px 24px 48px;
+  }
+
+  .main {
+    padding: 0 24px 80px;
+  }
+
+  .navigation {
+    margin-bottom:240px;
+  }
+
+  .main-footer {
+    padding: 240px 24px 24px;
+  }
+
+  .features {
+    gap: 24px;
+  }
+
+  .feature .footer {
+    padding: 0 24px;
+  }
+
+  .feature .card {
+    padding: 20px;
   }
 }
 
