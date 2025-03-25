@@ -50,7 +50,7 @@ a:active {
     "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-.main-footer a:first-child {
+.main-footer span:first-child {
   text-align: left;
   display: none;
 
@@ -239,7 +239,7 @@ span.revealed {
     fill: rgb(110, 110, 115)!important;
   }
 
-  .main-footer a:first-child {
+  .main-footer span:first-child {
   display: flex;
     align-items: center; /* Centers items vertically */
     justify-content: flex-start;
