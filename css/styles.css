@@ -20,8 +20,8 @@ body {
   margin: 0;
 
   font-weight: 400;
-  font-size: 16px;
-  line-height: 22px;
+  font-size: 20px;
+  line-height: 28px;
   /* letter-spacing: -0.24px; */
 
   color: rgb(110, 110, 115);
@@ -39,7 +39,20 @@ body {
   /* opacity: 0.8; */
 
   text-align: center;
-  padding: 240px 32px 32px;
+  padding: 300px 32px 32px;
+  /* font-family: "PP Neue Montreal Regular", "SF Pro Text", "SF Pro Icons",
+    "Helvetica Neue", Helvetica, Arial, sans-serif; */
+    font-size: 16px;
+  line-height: 24px;
+}
+
+.navigation {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex: 1;
+  margin-bottom: 300px;
 }
 
 .main-footer span:first-child {
@@ -68,16 +81,7 @@ a:active {
   flex-direction: column;
   width: 100vw;
   justify-content: space-between;
-  padding: 32px 32px 64px;
-}
-
-.navigation {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: space-between;
-  flex: 1;
-  margin-bottom: 240px;
+  padding: 32px 32px 80px;
 }
 
 .logo {
@@ -85,24 +89,20 @@ a:active {
 }
 
 .logoImage {
-  width: 40px;
-  height: 40px;
+  width: 48px;
+  height: 48px;
 }
 
 .intro {
   width: 100%;
   font-family: "PP Neue Montreal Regular", "SF Pro Text", "SF Pro Icons",
     "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 56px;
-  line-height: 68px;
+  font-size: 72px;
+  line-height: 88px;
   /* font-weight: 500; */
   /* font-weight: 500; */
   /* text-wrap: balance;
   text-wrap: pretty; */
-}
-
-.intro p {
-  max-width: 1040px;
 }
 
 .staticTxt {
@@ -144,8 +144,8 @@ a:active {
   justify-content: flex-start; /* Aligns content to the left */
   padding: 32px; /* Add some spacing from edges */
 
-  font-size: 80px;
-  line-height: 80px;
+  font-size: 88px;
+  line-height: 88px;
   /* letter-spacing: -0.64px; */
   cursor: not-allowed;
   color: rgb(110, 110, 115);
@@ -172,7 +172,7 @@ a:active {
   }
 
   .header {
-    padding: 24px 24px 48px;
+    padding: 24px 24px 64px;
   }
 
   .main {
@@ -180,23 +180,22 @@ a:active {
   }
 
   .navigation {
-    margin-bottom: 180px;
+    margin-bottom: 220px;
   }
 
   .main-footer {
-    padding: 180px 24px 24px;
+    padding: 220px 24px 24px;
   }
 
   .intro {
-    font-size: 48px;
+    font-size: 56px;
     /* letter-spacing: -0.4px; */
-    line-height: 58px;
-    grid-template-columns: repeat(1, 1fr);
+    line-height: 72px;
   }
 
   .logoImage {
-    width: 35px;
-    height: 35px;
+    width: 40px;
+    height: 40px;
   }
 
   .features {
@@ -209,8 +208,8 @@ a:active {
 
   .feature .card {
     padding: 16px;
-    font-size: 68px;
-    line-height: 68px;
+    font-size: 64px;
+    line-height: 64px;
     /* letter-spacing: -0.56px; */
   }
 }
@@ -241,10 +240,7 @@ a:active {
   .intro {
     font-size: 64px;
     /* letter-spacing: -0.4px; */
-    line-height: 76px;
-  }
-  .intro p {
-    max-width: 1200px;
+    line-height: 80px;
   }
 
   .logoImage {
@@ -289,14 +285,14 @@ a:active {
   }
 
   .logoImage {
-    width: 30px;
-    height: 30px;
+    width: 36px;
+    height: 36px;
   }
 
   .intro {
-    font-size: 32px;
+    font-size: 40px;
     /* letter-spacing: -0.44px; */
-    line-height: 42px;
+    line-height: 52px;
   }
 
   .main {
