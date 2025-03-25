@@ -40,9 +40,21 @@ p { margin: 0}
   }
 
 .main-footer {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
   padding: 120px 16px 16px;
   font-size: 14px;
+  line-height: 1;
 }
+
+  .main-footer span:first-child {
+    text-align: left;
+    display: none;
+  }
+
+  .main-footer span:last-child {
+    text-align: right;
+  }
 
 .navigation {
     display: flex;
@@ -222,28 +234,20 @@ p { margin: 0}
   }
 
   .main-footer {
-    display: grid;
     grid-template-columns: repeat(3, 1fr);
-    /* opacity: 0.8; */
-
     text-align: center;
     padding: 280px 32px 32px;
     font-family: "PP Neue Montreal Regular", "SF Pro Text", "SF Pro Icons",
       "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 16px;
-    line-height: 1;
+  }
+
+  .main-footer span:first-child {
+    display: auto;
   }
 
   .navigation {
     margin-bottom: 280px;
-  }
-
-  .main-footer span:first-child {
-    text-align: left;
-  }
-
-  .main-footer span:last-child {
-    text-align: right;
   }
 
   .main {
@@ -316,6 +320,7 @@ p { margin: 0}
   .main-footer {
     padding: 320px 40px 40px;
     font-size: 18px;
+    text-align: left;
   }
 
   .intro {
