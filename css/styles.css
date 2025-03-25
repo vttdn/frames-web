@@ -127,9 +127,8 @@ a:active {
 }
 
 .feature .card {
-  font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  /* font-family: "PP Neue Montreal Medium", sans-serif; */
-  font-weight: 500;
+  /* font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif; */
+  font-family: "PP Neue Montreal Medium", sans-serif;
   width: 100%;
   aspect-ratio: 2046 / 1248;
   background-color: rgba(44,44,45,1);
@@ -141,9 +140,9 @@ a:active {
   justify-content: flex-start; /* Aligns content to the left */
   padding: 32px; /* Add some spacing from edges */
 
-  font-size: 64px;
-  line-height: 64px;
-  letter-spacing: -0.64px;
+  font-size: 80px;
+  line-height: 80px;
+  /* letter-spacing: -0.64px; */
   cursor: not-allowed;
    color: rgb(110, 110, 115);
 }
@@ -209,9 +208,9 @@ a:active {
 
   .feature .card {
     padding: 16px;
-    font-size: 56px;
-    line-height: 56px;
-    letter-spacing: -0.56px;
+    font-size: 68px;
+    line-height: 68px;
+    /* letter-spacing: -0.56px; */
   }
 }
 
@@ -318,11 +317,10 @@ a:active {
     padding: 16px;
     font-size: 48px;
     line-height: 48px;
-    letter-spacing: -0.48px;
+    /* letter-spacing: -0.48px; */
   }
 
   .feature .footer {
     padding: 16px;
-    font-weight: 500;
   }
 }
