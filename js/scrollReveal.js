@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
-  const words = document.querySelectorAll(".staticTxt span");
+  const words = document.querySelectorAll("#introTxt span");
   let revealedCount = 8; // Number of words initially revealed
   let scrollThreshold = 5; // Scroll amount needed to reveal the next word
   let accumulatedScroll = 0;
