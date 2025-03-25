@@ -11,156 +11,147 @@
 }
 
 body {
-  font-family: "PP Neue Montreal Medium", "SF Pro Text", "SF Pro Icons",
-    "Helvetica Neue", Helvetica, Arial, sans-serif;
-  /* color: #f3f5f7; */
-  height: 100%;
-  box-sizing: border-box;
-  background: #000;
-  margin: 0;
+    font-family: "PP Neue Montreal Medium", "SF Pro Text", "SF Pro Icons",
+      "Helvetica Neue", Helvetica, Arial, sans-serif;
+    /* color: #f3f5f7; */
+    height: 100%;
+    box-sizing: border-box;
+    background: #000;
+    margin: 0;
 
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 28px;
-  /* letter-spacing: -0.24px; */
-
-  color: rgb(110, 110, 115);
+  font-size: 16px;
+  line-height: 22px;
+    color: rgb(110, 110, 115);
 }
 
-* {
-  /* -webkit-font-smoothing: antialiased;
+  * {
+    /* -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; */
-  box-sizing: border-box;
-}
+    box-sizing: border-box;
+  }
+
+p { margin: 0}
+
+  a,
+  a:visited,
+  a:active {
+    color: #f3f5f7;
+    text-decoration: none;
+  }
 
 .main-footer {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  /* opacity: 0.8; */
-
-  text-align: center;
-  padding: 280px 32px 32px;
-  /* font-family: "PP Neue Montreal Regular", "SF Pro Text", "SF Pro Icons",
-    "Helvetica Neue", Helvetica, Arial, sans-serif; */
-  font-size: 16px;
-  line-height: 24px;
+  padding: 120px 16px 16px;
+  font-size: 14px;
 }
 
 .navigation {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: space-between;
-  flex: 1;
-  margin-bottom: 280px;
-}
-
-.main-footer span:first-child {
-  text-align: left;
-}
-
-.main-footer span:last-child {
-  text-align: right;
-}
-
-a,
-a:visited,
-a:active {
-  color: #f3f5f7;
-  text-decoration: none;
-}
-
-.main {
-  padding: 0 32px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex: 1;
+  margin-bottom: 120px;
 }
 
 .header {
-  box-sizing: border-box;
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  width: 100vw;
-  justify-content: space-between;
-  padding: 32px 32px 0;
+    box-sizing: border-box;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    justify-content: space-between;
+  padding: 16px 16px 0;
 }
 
 .logoImage {
-  width: 40px;
-  height: 40px;
+  width: 30px;
+  height: 30px;
 }
 
 .intro {
-  width: 100%;
-  font-family: "PP Neue Montreal Regular", "SF Pro Text", "SF Pro Icons",
-    "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 56px;
-  line-height: 1.2;
-  /* font-weight: 500; */
-  /* font-weight: 500; */
-  /* text-wrap: balance;
-  text-wrap: pretty; */
+  font-size: 32px;
+  /* letter-spacing: -0.44px; */
+  line-height: 1.3;
 }
 
-.staticTxt {
-  margin: 0;
+  .staticTxt span {
+    color: rgb(110, 110, 115);
+    transition: color 0.5s;
+  }
+
+  .staticTxt span.revealed {
+    color: #fff;
+  }
+
+  .infoCollapsedSidebar {
+    display: none;
+  }
+
+.main {
+  padding: 0;
+  overflow-x: hidden;
+  background: none;
 }
 
-.staticTxt span {
-  color: rgb(110, 110, 115);
-  transition: color 0.5s;
+.features {
+  display: flex; /* Use flexbox for horizontal scrolling */
+  overflow-x: auto; /* Enable horizontal scrolling */
+  scroll-snap-type: x mandatory; /* Snap to items along the x-axis */
+  gap: 16px; /* Add a 16px gap between items */
+  width: 100vw; /* Ensure the container takes full viewport width */
+  -webkit-overflow-scrolling: touch; /* Smooth scrolling on iOS devices */
+
+  overflow-x: auto; /* Enable horizontal scrolling */
+  -ms-overflow-style: none; /* Hide scrollbar in Internet Explorer 10+ */
+  scrollbar-width: none; /* Hide scrollbar in Firefox */
 }
 
-.staticTxt span.revealed {
-  color: #fff;
-}
-
-.infoCollapsedSidebar {
+.features::-webkit-scrollbar {
   display: none;
 }
 
-/* FEATURES SECTION */
+.feature {
+  flex: 0 0 calc(100vw - 16px - 16px); /* Subtract the gutter (16px) and the 32px for the next item visibility */
+  scroll-snap-align: start; /* Align to the start for snapping */
+  display: flex; /* Ensure the feature item itself is a flex container */
+  flex-direction: column; /* Stack children vertically */
+}
 
-.features {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 32px;
+.feature:first-of-type {
+  padding-left: 16px;
+}
+
+.feature:last-of-type {
+  padding-right: 16px;
 }
 
 .feature .card {
-  /* font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif; */
-  font-family: "PP Neue Montreal Medium", sans-serif;
-  width: 100%;
-  aspect-ratio: 2046 / 1248;
-  background-color: rgba(44, 44, 45, 1);
-  border-radius: 10px;
-  /* transition: background-color 0.2s cubic-bezier(0.42, 1.1, 0.6, 1); */
+    /* font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif; */
+    /* font-family: "PP Neue Montreal Medium", sans-serif; */
+    width: 100%;
+    aspect-ratio: 2046 / 1248;
+    background-color: rgba(44, 44, 45, 1);
+    border-radius: 10px;
+    /* transition: background-color 0.2s cubic-bezier(0.42, 1.1, 0.6, 1); */
 
-  display: flex;
-  align-items: flex-end; /* Aligns content to the bottom */
-  justify-content: flex-start; /* Aligns content to the left */
-  padding: 32px; /* Add some spacing from edges */
+    display: flex;
+    align-items: flex-end; /* Aligns content to the bottom */
+    justify-content: flex-start; /* Aligns content to the left */
 
-  font-size: 72px;
-  line-height: 72px;
-  /* letter-spacing: -0.64px; */
-  cursor: not-allowed;
-  color: rgb(110, 110, 115);
+    cursor: not-allowed;
+    color: rgb(110, 110, 115);
+
+  padding: 16px;
+  font-size: 48px;
+  line-height: 48px;
+  /* letter-spacing: -0.48px; */
 }
 
-/* @media (hover: hover) {
-  .feature .card:hover {
-    background-color: rgba(70, 70, 71, 1);
-  }
-} */
 .feature .footer {
-  padding: 0 32px;
+  padding: 0 16px;
 }
 
-.feature .footer p {
-  margin: 0;
-}
-
-@media only screen and (max-width: 1080px) {
+@media only screen and (min-width: 680px) {
   body {
     font-size: 17px;
     line-height: 22px;
@@ -182,7 +173,6 @@ a:active {
   .main-footer {
     padding: 180px 24px 24px;
     font-size: 15px;
-    line-height: 20px;
   }
 
   .intro {
@@ -197,7 +187,19 @@ a:active {
   }
 
   .features {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
     gap: 24px;
+    width: 100%;
+  }
+
+
+  .feature:first-of-type {
+    padding-left: 0;
+  }
+
+  .feature:last-of-type {
+    padding-right: 0;
   }
 
   .feature .footer {
@@ -209,6 +211,86 @@ a:active {
     font-size: 56px;
     line-height: 56px;
     /* letter-spacing: -0.56px; */
+  }
+}
+
+@media only screen and (min-width: 1080px) {
+  body {
+    font-size: 20px;
+    line-height: 28px;
+    /* letter-spacing: -0.24px; */
+  }
+
+  .main-footer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* opacity: 0.8; */
+
+    text-align: center;
+    padding: 280px 32px 32px;
+    font-family: "PP Neue Montreal Regular", "SF Pro Text", "SF Pro Icons",
+      "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1;
+  }
+
+  .navigation {
+    margin-bottom: 280px;
+  }
+
+  .main-footer span:first-child {
+    text-align: left;
+  }
+
+  .main-footer span:last-child {
+    text-align: right;
+  }
+
+  .main {
+    padding: 0 32px;
+  }
+
+  .header {
+    padding: 32px 32px 0;
+  }
+
+  .logoImage {
+    width: 40px;
+    height: 40px;
+  }
+
+  .intro {
+    width: 100%;
+    font-family: "PP Neue Montreal Regular", "SF Pro Text", "SF Pro Icons",
+      "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 56px;
+    line-height: 1.2;
+    /* font-weight: 500; */
+    /* font-weight: 500; */
+    /* text-wrap: balance;
+  text-wrap: pretty; */
+  }
+
+  /* FEATURES SECTION */
+
+  .features {
+    gap: 32px;
+  }
+
+  .feature .card {
+    font-size: 72px;
+    line-height: 72px;
+    /* letter-spacing: -0.64px; */
+    padding: 32px; /* Add some spacing from edges */
+  }
+
+  /* @media (hover: hover) {
+  .feature .card:hover {
+    background-color: rgba(70, 70, 71, 1);
+  }
+} */
+  .feature .footer {
+    padding: 0 32px;
   }
 }
 
@@ -233,8 +315,7 @@ a:active {
 
   .main-footer {
     padding: 320px 40px 40px;
-  font-size: 18px;
-  line-height: 28px;
+    font-size: 18px;
   }
 
   .intro {
@@ -261,88 +342,5 @@ a:active {
     font-size: 96px;
     line-height: 96px;
     /* letter-spacing: -0.56px; */
-  }
-}
-
-@media only screen and (max-width: 680px) {
-  body {
-    font-size: 16px;
-    line-height: 22px;
-    /* letter-spacing: -0.16px; */
-  }
-
-  .main-footer {
-    padding: 120px 16px 16px;
-    font-size: 14px;
-    line-height: 20px;
-  }
-
-  .navigation {
-    margin-bottom: 120px;
-  }
-
-  .header {
-    padding: 16px 16px 0;
-    min-height: auto;
-  }
-
-  .logoImage {
-    width: 30px;
-    height: 30px;
-  }
-
-  .intro {
-    font-size: 32px;
-    /* letter-spacing: -0.44px; */
-    line-height: 1.3;
-  }
-
-  .main {
-    padding: 0;
-    overflow-x: hidden;
-    background: none;
-  }
-
-  .features {
-    display: flex; /* Use flexbox for horizontal scrolling */
-    overflow-x: auto; /* Enable horizontal scrolling */
-    scroll-snap-type: x mandatory; /* Snap to items along the x-axis */
-    gap: 16px; /* Add a 16px gap between items */
-    width: 100vw; /* Ensure the container takes full viewport width */
-    -webkit-overflow-scrolling: touch; /* Smooth scrolling on iOS devices */
-
-    overflow-x: auto; /* Enable horizontal scrolling */
-    -ms-overflow-style: none; /* Hide scrollbar in Internet Explorer 10+ */
-    scrollbar-width: none; /* Hide scrollbar in Firefox */
-  }
-
-  .features::-webkit-scrollbar {
-    display: none;
-  }
-
-  .feature {
-    flex: 0 0 calc(100vw - 16px - 16px); /* Subtract the gutter (16px) and the 32px for the next item visibility */
-    scroll-snap-align: start; /* Align to the start for snapping */
-    display: flex; /* Ensure the feature item itself is a flex container */
-    flex-direction: column; /* Stack children vertically */
-  }
-
-  .feature:first-of-type {
-    padding-left: 16px;
-  }
-
-  .feature:last-of-type {
-    padding-right: 16px;
-  }
-
-  .feature .card {
-    padding: 16px;
-    font-size: 48px;
-    line-height: 48px;
-    /* letter-spacing: -0.48px; */
-  }
-
-  .feature .footer {
-    padding: 0 16px;
   }
 }
