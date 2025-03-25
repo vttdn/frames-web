@@ -1,21 +1,19 @@
-@font-face {
-  font-family: 'PPNeueMontreal'; /* Give your font a name */
-  src: url('PPNeueMontreal-Book.otf') format('opentype'); /* Specify the path to your OTF file */
-  /* Optional: Add font-weight and font-style if needed */
-  font-weight: normal; 
-  font-style: normal;
-}
+
 
 @font-face {
-  font-family: 'PPNeueMontreal'; /* Give your font a name */
-  src: url('PPNeueMontreal-Medium.otf') format('opentype'); /* Specify the path to your OTF file */
-  /* Optional: Add font-weight and font-style if needed */
-  font-weight: 500; 
-  font-style: normal;
-}
+        font-family: PP Neue Montreal Medium;
+        src: url(a214z9samayljPo6Qhge13ljs.woff2);
+        font-display:swap
+    }
+
+    @font-face {
+        font-family: PP Neue Montreal Regular;
+        src: url(8PI4Ik6jeJD3JcGCVnokJ8qB63c.woff2);
+        font-display:swap
+    }
 
 body {
-  font-family: "PPNeueMontreal", "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "PP Neue Montreal Medium", "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
   /* color: #f3f5f7; */
   height: 100%;
   box-sizing: border-box;
@@ -23,7 +21,7 @@ body {
   margin: 0;
 
 
-  font-weight: 500;
+  font-weight: 400;
   font-size: 15px;
     line-height: 20px;
     /* letter-spacing: -0.24px; */
@@ -94,6 +92,7 @@ a:active {
 }
 
 .intro {
+  font-family: "PP Neue Montreal Regular", "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 48px;
   line-height: 60px;
   font-weight: 500;
@@ -125,8 +124,6 @@ a:active {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 32px;
-
-  font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 @media (hover: hover) {
@@ -136,6 +133,9 @@ a:active {
 }
 
 .feature .card {
+  font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  /* font-family: "PP Neue Montreal Medium", sans-serif; */
+  font-weight: 500;
   width: 100%;
   aspect-ratio: 2046 / 1248;
   background-color: rgba(44,44,45,1);
