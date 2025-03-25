@@ -45,7 +45,7 @@ a:active {
   grid-template-columns: repeat(2, 1fr);
   padding: 120px 16px 24px;
   font-size: 14px;
-  line-height: 1;
+  line-height: 1.2;
   font-family: "PP Neue Montreal Regular", "SF Pro Text", "SF Pro Icons",
     "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
@@ -168,7 +168,7 @@ span.revealed {
   }
 
   .header {
-    padding: 24px 24px 0;
+    padding: 32px 24px 0;
   }
 
   .main {
@@ -253,7 +253,7 @@ span.revealed {
   }
 
   .header {
-    padding: 32px 32px 0;
+    padding: 40px 32px 0;
   }
 
   .logo {
@@ -286,7 +286,7 @@ span.revealed {
   }
 
   .header {
-    padding: 40px 40px 0;
+    padding: 48px 40px 0;
   }
 
   .main {
