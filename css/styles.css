@@ -150,8 +150,8 @@ span.revealed {
   color: rgb(110, 110, 115);
 
   padding: 16px 20px;
-  font-size: 48px;
-  line-height: 48px;
+  font-size: 40px;
+  line-height: 1;
 
   transition: background-color 0.2s cubic-bezier(0.42, 1.1, 0.6, 1),
     color 0.2s cubic-bezier(0.42, 1.1, 0.6, 1);
@@ -212,7 +212,6 @@ span.revealed {
 
   .feature .card {
     font-size: 56px;
-    line-height: 56px;
     padding: 20px 24px;
   }
 }
@@ -273,7 +272,6 @@ span.revealed {
 
   .feature .card {
     font-size: 72px;
-    line-height: 72px;
     padding: 28px 32px;
   }
   .feature .footer {
@@ -325,7 +323,6 @@ span.revealed {
   .feature .card {
     padding: 32px;
     font-size: 96px;
-    line-height: 96px;
   }
 }
 
