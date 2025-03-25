@@ -1,6 +1,21 @@
+@font-face {
+  font-family: 'PPNeueMontreal'; /* Give your font a name */
+  src: url('PPNeueMontreal-Book.otf') format('opentype'); /* Specify the path to your OTF file */
+  /* Optional: Add font-weight and font-style if needed */
+  font-weight: normal; 
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'PPNeueMontreal'; /* Give your font a name */
+  src: url('PPNeueMontreal-Medium.otf') format('opentype'); /* Specify the path to your OTF file */
+  /* Optional: Add font-weight and font-style if needed */
+  font-weight: 500; 
+  font-style: normal;
+}
+
 body {
-  font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica,
-    Arial, sans-serif;
+  font-family: "PPNeueMontreal", "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
   /* color: #f3f5f7; */
   height: 100%;
   box-sizing: border-box;
@@ -11,12 +26,14 @@ body {
   font-weight: 500;
   font-size: 15px;
     line-height: 20px;
-    letter-spacing: -0.24px;
+    /* letter-spacing: -0.24px; */
 
   color: rgb(110, 110, 115);
 }
 
 * {
+    -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
   box-sizing: border-box;
 }
 
@@ -78,9 +95,8 @@ a:active {
 
 .intro {
   font-size: 48px;
-  letter-spacing: -0.48px;
   line-height: 60px;
-  font-weight: 400;
+  font-weight: 500;
   /* font-weight: 500; */
   text-wrap: balance;
   text-wrap: pretty;
@@ -158,7 +174,7 @@ a:active {
   body {
     font-size: 14px;
     line-height: 18px;
-    letter-spacing: -0.16px;
+    /* letter-spacing: -0.16px; */
   }
 
   .header {
@@ -179,8 +195,8 @@ a:active {
 
   .intro {
     font-size: 40px;
-    letter-spacing: -0.4px;
-    line-height: 48px;
+    /* letter-spacing: -0.4px; */
+    line-height: 52px;
   }
 
   .logoImage {
@@ -220,7 +236,7 @@ a:active {
 
   .intro {
     font-size: 48px;
-    letter-spacing: -0.48px;
+    /* letter-spacing: -0.48px; */
     line-height: 60px;
   }
 
@@ -246,7 +262,7 @@ a:active {
   body {
     font-size: 14px;
     line-height: 18px;
-    letter-spacing: -0.16px;
+    /* letter-spacing: -0.16px; */
   }
 
   .main-footer {
@@ -269,8 +285,8 @@ a:active {
 
   .intro {
     font-size: 32px;
-    letter-spacing: -0.44px;
-    line-height: 40px;
+    /* letter-spacing: -0.44px; */
+    line-height: 44px;
   }
 
   .main {
