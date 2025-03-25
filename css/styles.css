@@ -25,8 +25,8 @@ body {
 }
 
 * {
-  /* -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale; */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
   box-sizing: border-box;
 }
 
@@ -146,7 +146,7 @@ a:active {
   aspect-ratio: 2046 / 1248;
   background-color: rgba(44, 44, 45, 1);
   border-radius: 10px;
-  /* transition: background-color 0.2s cubic-bezier(0.42, 1.1, 0.6, 1); */
+  transition: all 0.2s cubic-bezier(0.42, 1.1, 0.6, 1);
 
   display: flex;
   align-items: flex-end; /* Aligns content to the bottom */
@@ -347,6 +347,7 @@ a:active {
 @media (hover: hover) {
   .feature .card:hover {
     background-color: rgba(70, 70, 71, 1);
-    color: rgb(224, 224, 226)
+    /* color: rgb(224, 224, 226); */
+    color: white;
   }
 }
