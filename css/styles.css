@@ -30,8 +30,8 @@ body {
 }
 
 * {
-    -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    /* -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; */
   box-sizing: border-box;
 }
 
@@ -266,15 +266,15 @@ a:active {
   }
 
   .main-footer {
-    padding: 96px 16px 16px;
+    padding: 104px 16px 16px;
   }
 
   .navigation {
-    margin-bottom: 96px;
+    margin-bottom: 104px;
   }
 
   .header {
-    padding: 16px 16px 16px;
+    padding: 16px 16px 8px;
     min-height: auto;
   }
 
