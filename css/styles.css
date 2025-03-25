@@ -39,7 +39,7 @@ body {
   /* opacity: 0.8; */
 
   text-align: center;
-  padding: 320px 32px 32px;
+  padding: 240px 32px 32px;
 }
 
 .main-footer span:first-child {
@@ -77,7 +77,7 @@ a:active {
   align-items: flex-start;
   justify-content: space-between;
   flex: 1;
-  margin-bottom: 280px;
+  margin-bottom: 240px;
 }
 
 .logo {
@@ -90,6 +90,7 @@ a:active {
 }
 
 .intro {
+  width: 100%;
   font-family: "PP Neue Montreal Regular", "SF Pro Text", "SF Pro Icons",
     "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 56px;
@@ -101,7 +102,7 @@ a:active {
 }
 
 .intro p {
-  grid-column: 1 / 4;
+  max-width: 1040px;
 }
 
 .staticTxt {
@@ -163,15 +164,6 @@ a:active {
   margin: 0;
 }
 
-@media only screen and (min-width: 1400px) {
-  .intro {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 32;
-  }
-
-}
-
 @media only screen and (max-width: 1080px) {
   body {
     font-size: 14px;
@@ -188,11 +180,11 @@ a:active {
   }
 
   .navigation {
-    margin-bottom: 240px;
+    margin-bottom: 180px;
   }
 
   .main-footer {
-    padding: 200px 24px 24px;
+    padding: 180px 24px 24px;
   }
 
   .intro {
@@ -239,17 +231,20 @@ a:active {
   }
 
   .navigation {
-    margin-bottom: 360px;
+    margin-bottom: 320px;
   }
 
   .main-footer {
-    padding: 440px 40px 40px;
+    padding: 320px 40px 40px;
   }
 
   .intro {
     font-size: 64px;
     /* letter-spacing: -0.4px; */
     line-height: 80px;
+  }
+  .intro p {
+    max-width: 1200px;
   }
 
   .logoImage {
