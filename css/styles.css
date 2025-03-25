@@ -84,21 +84,17 @@ a:active {
   padding: 32px 32px 80px;
 }
 
-.logo {
-  position: relative;
-}
-
 .logoImage {
-  width: 46px;
-  height: 46px;
+  width: 44px;
+  height: 44px;
 }
 
 .intro {
   width: 100%;
   font-family: "PP Neue Montreal Regular", "SF Pro Text", "SF Pro Icons",
     "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 72px;
-  line-height: 88px;
+  font-size: 64px;
+  line-height: 80px;
   /* font-weight: 500; */
   /* font-weight: 500; */
   /* text-wrap: balance;
@@ -144,8 +140,8 @@ a:active {
   justify-content: flex-start; /* Aligns content to the left */
   padding: 32px; /* Add some spacing from edges */
 
-  font-size: 88px;
-  line-height: 88px;
+  font-size: 72px;
+  line-height: 72px;
   /* letter-spacing: -0.64px; */
   cursor: not-allowed;
   color: rgb(110, 110, 115);
@@ -180,19 +176,19 @@ a:active {
   }
 
   .navigation {
-    margin-bottom: 220px;
+    margin-bottom: 180px;
   }
 
   .main-footer {
-    padding: 220px 24px 24px;
+    padding: 180px 24px 24px;
     font-size: 15px;
     line-height: 20px;
   }
 
   .intro {
-    font-size: 56px;
+    font-size: 48px;
     /* letter-spacing: -0.4px; */
-    line-height: 72px;
+    line-height: 64px;
   }
 
   .logoImage {
@@ -210,8 +206,8 @@ a:active {
 
   .feature .card {
     padding: 16px;
-    font-size: 64px;
-    line-height: 64px;
+    font-size: 56px;
+    line-height: 56px;
     /* letter-spacing: -0.56px; */
   }
 }
