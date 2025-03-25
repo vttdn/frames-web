@@ -53,6 +53,7 @@ a:active {
 .main-footer a:first-child {
   text-align: left;
   display: none;
+
 }
 
 .main-footer span:last-child {
@@ -229,8 +230,19 @@ span.revealed {
     font-size: 16px;
   }
 
+  .main-footer svg {
+    position:relative;
+    top: -1px;
+    margin-right: 6px;
+    width: 17px;
+    height: 17px;
+    fill: rgb(110, 110, 115)!important;
+  }
+
   .main-footer a:first-child {
-    display: inline;
+  display: flex;
+    align-items: center; /* Centers items vertically */
+    justify-content: flex-start;
   }
 
   .navigation {
@@ -326,5 +338,9 @@ span.revealed {
   .main-footer a:hover {
     color: #ddd;
     text-decoration: underline;
+  }
+
+  .main-footer a:hover svg {
+    fill: white!important;
   }
 }
