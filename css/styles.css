@@ -42,7 +42,7 @@ body {
   padding: 300px 32px 32px;
   /* font-family: "PP Neue Montreal Regular", "SF Pro Text", "SF Pro Icons",
     "Helvetica Neue", Helvetica, Arial, sans-serif; */
-    font-size: 16px;
+  font-size: 16px;
   line-height: 24px;
 }
 
@@ -89,8 +89,8 @@ a:active {
 }
 
 .logoImage {
-  width: 48px;
-  height: 48px;
+  width: 46px;
+  height: 46px;
 }
 
 .intro {
@@ -166,8 +166,8 @@ a:active {
 
 @media only screen and (max-width: 1080px) {
   body {
-    font-size: 14px;
-    line-height: 18px;
+    font-size: 17px;
+    line-height: 22px;
     /* letter-spacing: -0.16px; */
   }
 
@@ -185,6 +185,8 @@ a:active {
 
   .main-footer {
     padding: 220px 24px 24px;
+    font-size: 15px;
+    line-height: 20px;
   }
 
   .intro {
@@ -216,8 +218,8 @@ a:active {
 
 @media only screen and (min-width: 1600px) {
   body {
-    font-size: 18px;
-    line-height: 22px;
+    font-size: 24px;
+    line-height: 32px;
     /* letter-spacing: -0.16px; */
   }
 
@@ -235,6 +237,8 @@ a:active {
 
   .main-footer {
     padding: 320px 40px 40px;
+  font-size: 18px;
+  line-height: 28px;
   }
 
   .intro {
@@ -266,13 +270,15 @@ a:active {
 
 @media only screen and (max-width: 680px) {
   body {
-    font-size: 12px;
-    line-height: 16px;
+    font-size: 16px;
+    line-height: 22px;
     /* letter-spacing: -0.16px; */
   }
 
   .main-footer {
     padding: 120px 16px 16px;
+    font-size: 14px;
+    line-height: 20px;
   }
 
   .navigation {
