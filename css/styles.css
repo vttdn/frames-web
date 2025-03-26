@@ -1,6 +1,6 @@
 body {
   font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 1.2;
   color: white;
 
@@ -16,15 +16,16 @@ body {
 h1, h2, h3, p { margin: 0 }
 
 h1 {
-  font-size: 160px;
-  line-height: 0.85;
+  font-size: 72px;
+  line-height: 1;
+  line-height: 1;
   padding: 0 30px;
   font-weight: 300;
     aspect-ratio: 1400 / 540;
 }
 
 h2 {
-  font-size: 52px;
+  font-size: 42px;
   line-height: 1.15;
   grid-column: span 2;
   font-weight: 400;
@@ -47,7 +48,7 @@ a:active {
 /* Grid */
 .grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   gap: 20px;
   padding: 30px;
 }
@@ -76,6 +77,10 @@ a:active {
   display: none;
 }
 
+.header > *:nth-child(3) {
+  display: none;
+}
+
 /* Footer */
 .footer {
   background: white;
@@ -96,12 +101,37 @@ a:active {
   display: none;
 }
 
-@media only screen and (min-width: 800px) {
+@media only screen and (min-device-width: 640px) {
+  h1 {
+    font-size: 96px;
+  line-height: 0.95;
+  }
+  
+  .header > *:nth-child(3) {
+    display: block;
+  }
+
   .grid {
-    display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
-    padding: 30px;
+  }
+}
+
+@media only screen and (min-width: 800px) {
+  body {
+    font-size: 16px;
+  }
+
+  h1 {
+    font-size: 144px;
+  line-height: 0.9;
+  }
+
+  h2 {
+    font-size: 52px;
+  }
+
+  .grid {
+    grid-template-columns: repeat(3, 1fr);
   }
 }
 
@@ -112,6 +142,7 @@ a:active {
 
   h1 {
     font-size: 200px;
+    line-height: 0.85;
     aspect-ratio: 1400 / 540;
   }
 
