@@ -88,8 +88,21 @@ a:active {
     aspect-ratio: 2 / 3;
 }
 
+.footer p {
+    padding-bottom: 80px;
+}
+
 .footer > *:nth-child(2) {
   display: none;
+}
+
+@media only screen and (min-width: 800px) {
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 30px;
+  }
 }
 
 @media only screen and (min-width: 1200px) {
