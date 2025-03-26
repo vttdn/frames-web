@@ -58,6 +58,9 @@ a:active {
 }
 
 /* Header */
+.header {
+  /* font-weight: 500; */
+}
 .header p {
   position: relative;
 }
@@ -142,7 +145,6 @@ a:active {
 
   h1 {
     font-size: 200px;
-    line-height: 0.85;
     aspect-ratio: 1400 / 540;
   }
 
