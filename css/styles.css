@@ -225,7 +225,7 @@ span.revealed {
   .main-footer {
     grid-template-columns: repeat(3, 1fr);
     text-align: center;
-    padding: 280px 32px 32px;
+    padding: 320px 32px 32px;
     font-size: 17px;
   }
 
@@ -245,7 +245,7 @@ span.revealed {
   }
 
   .navigation {
-    padding-bottom: 280px;
+    padding-bottom: 320px;
   }
 
   .main {
@@ -263,7 +263,7 @@ span.revealed {
 
   .intro {
     font-size: 56px;
-    line-height: 1.2;
+    line-height: 1.25;
   }
 
   .features {
