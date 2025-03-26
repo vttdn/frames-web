@@ -73,7 +73,7 @@ a:active {
   aspect-ratio: 3 / 3;
 }
 
-.header > *:last-child {
+.header > *:nth-child(4) {
   display: none;
 }
 
@@ -164,7 +164,7 @@ a:active {
     grid-template-columns: repeat(4, 1fr);
   }
 
-  .header > *:last-child {
+  .header > *:nth-child(4) {
     display: block;
   }
 
