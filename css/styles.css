@@ -1,20 +1,22 @@
 body {
-  font-family: "Inter", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 14px;
-  /* letter-spacing: -0.16px; */
   line-height: 1.2;
-  color: white;
-
-  background: #000;
-}
-
-* {
+  font-style: normal;
+  font-optical-sizing: auto;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  color: white;
+  background: #000;
   box-sizing: border-box;
 }
 
-h1, h2, h3, p { margin: 0 }
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
 
 h1 {
   font-size: 72px;
@@ -22,7 +24,7 @@ h1 {
   line-height: 1;
   padding: 0 16px 60px;
   font-weight: 300;
-    aspect-ratio: 1400 / 540;
+  aspect-ratio: 1400 / 540;
 }
 
 h2 {
@@ -67,9 +69,9 @@ a:active {
 
 .header img {
   position: absolute;
-    top: -14px;
-    left: -46px;
-    width: 32px;
+  top: -14px;
+  left: -46px;
+  width: 32px;
 }
 
 .header h3 {
@@ -85,9 +87,9 @@ a:active {
   display: none;
 }
 
-  .mobile-only-download {
-    display: block;
-  }
+.mobile-only-download {
+  display: block;
+}
 
 /* Footer */
 .footer {
@@ -97,12 +99,12 @@ a:active {
 }
 
 .footer h3 {
-    text-align: right;
-    aspect-ratio: 2 / 3;
+  text-align: right;
+  aspect-ratio: 2 / 3;
 }
 
 .footer p {
-    padding-bottom: 40px;
+  padding-bottom: 40px;
 }
 
 .footer > *:nth-child(2) {
@@ -126,7 +128,7 @@ a:active {
   .mobile-only-download {
     display: none;
   }
-  
+
   .mac-download,
   .ios-download {
     display: block;
@@ -143,7 +145,7 @@ a:active {
   }
 
   .footer p {
-      padding-bottom: 80px;
+    padding-bottom: 80px;
   }
 }
 
@@ -155,7 +157,7 @@ a:active {
 
   h1 {
     font-size: 144px;
-  line-height: 0.9;
+    line-height: 1;
   }
 
   h2 {
@@ -171,18 +173,18 @@ a:active {
 @media (min-width: 1280px) {
   body {
     font-size: 20px;
-    /* letter-spacing: -0.38px; */
+    /* line-height: 1.2; */
   }
 
   h1 {
     font-size: 180px;
-    /* letter-spacing: -2px; */
+    line-height: 0.95;
     aspect-ratio: 1400 / 540;
   }
 
   h2 {
     font-size: 64px;
-    /* letter-spacing: -0.576px; */
+    /* line-height: 1.1; */
   }
 
   .header h3 {
