@@ -88,6 +88,10 @@ a:active {
 }
 
 .email {
+  aspect-ratio: 1 / 0.75;
+}
+
+.header h3 {
   display: none;
 }
 
@@ -162,7 +166,13 @@ p.mobile-only-download {
   }
 
   .header h3 {
-   aspect-ratio: 1 / 1;
+    display: block;
+    aspect-ratio: 1 / 1;
+  }
+
+  .email {
+    display: none;
+    aspect-ratio: auto;
   }
 
   .footer p {
@@ -178,7 +188,7 @@ p.mobile-only-download {
   }
 
   h1 {
-    font-size: 220px;
+    font-size: 200px;
     letter-spacing: -0.022em;
     /* line-height: 176px; */
     padding-bottom: 80px;
@@ -199,7 +209,7 @@ p.mobile-only-download {
   }
 }
 
-@media (min-width: 1280px) {
+@media (min-width: 1300px) {
   body {
     font-size: 20px;
     letter-spacing: -0.017em;
