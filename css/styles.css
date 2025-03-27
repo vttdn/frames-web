@@ -25,7 +25,8 @@ p {
 h1 {
   font-size: 72px;
   letter-spacing: -1.584px;
-  line-height: 88px;
+  /* line-height: 88px; */
+  line-height: 1.1;
   padding: 0 16px 60px;
   font-weight: 300;
    aspect-ratio: 2.5 / 1;
@@ -133,7 +134,7 @@ a:active {
   h1 {
     font-size: 96px;
     letter-spacing: -0.022em;
-    line-height: 116px;
+    /* line-height: 116px; */
     padding: 0 30px 48px;
   }
 
@@ -179,7 +180,7 @@ a:active {
   h1 {
     font-size: 144px;
     letter-spacing: -0.022em;
-    line-height: 176px;
+    /* line-height: 176px; */
     padding-bottom: 80px;
   }
 
@@ -208,7 +209,7 @@ a:active {
   h1 {
     font-size: 180px;
     letter-spacing: -0.022em;
-    line-height: 216px;
+    /* line-height: 216px; */
   }
 
   h2 {
