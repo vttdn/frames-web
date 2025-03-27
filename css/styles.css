@@ -40,10 +40,10 @@ h2 {
 }
 
 h3 {
-  aspect-ratio: 1 / 1;
   font-weight: inherit;
   font-size: inherit;
   line-height: inherit;
+  aspect-ratio: 1 / 1;
 }
 
 .header h3 {
@@ -96,10 +96,6 @@ a:active {
   display: none;
 }
 
-.mobile-only-download {
-  display: block;
-}
-
 /* Footer */
 .footer {
   background: white;
@@ -114,6 +110,11 @@ a:active {
 
 .footer p {
   padding-bottom: 40px;
+}
+
+p.mobile-only-download {
+  display: block;
+  padding-bottom: 20px;
 }
 
 .footer > *:nth-child(2) {
@@ -161,11 +162,11 @@ a:active {
   }
 
   .header h3 {
-   aspect-ratio: 2 / 2;
+   aspect-ratio: 1 / 1;
   }
 
   .footer p {
-    padding-bottom: 80px;
+    padding-bottom: 50px;
   }
 }
 
@@ -189,12 +190,12 @@ a:active {
     line-height: 63px;
   }
 
-  .header h3 {
-   aspect-ratio: 1 / 1;
-  }
-
   .grid {
     grid-template-columns: repeat(3, 1fr);
+  }
+
+  .footer p {
+    padding-bottom: 80px;
   }
 }
 
