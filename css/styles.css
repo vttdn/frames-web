@@ -1,7 +1,7 @@
 body {
-  font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Inter", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
-  letter-spacing: -0.16px;
+  /* letter-spacing: -0.16px; */
   line-height: 1.2;
   color: white;
 
@@ -30,7 +30,6 @@ h2 {
   line-height: 1.15;
   font-weight: 400;
   padding: 24px 0;
-  color: #111;
 }
 
 h3 {
@@ -119,7 +118,7 @@ a:active {
 
   h2 {
     font-size: 42px;
-    letter-spacing: -0.44px;
+    /* letter-spacing: -0.44px; */
     grid-column: span 2;
     padding: 0;
   }
@@ -151,7 +150,7 @@ a:active {
 @media (min-width: 880px) {
   body {
     font-size: 16px;
-    letter-spacing: -0.32px;
+    /* letter-spacing: -0.32px; */
   }
 
   h1 {
@@ -161,7 +160,7 @@ a:active {
 
   h2 {
     font-size: 52px;
-    letter-spacing: -0.52px;
+    /* letter-spacing: -0.52px; */
   }
 
   .grid {
@@ -172,18 +171,18 @@ a:active {
 @media (min-width: 1280px) {
   body {
     font-size: 20px;
-    letter-spacing: -0.38px;
+    /* letter-spacing: -0.38px; */
   }
 
   h1 {
     font-size: 180px;
-    letter-spacing: -2px;
+    /* letter-spacing: -2px; */
     aspect-ratio: 1400 / 540;
   }
 
   h2 {
     font-size: 64px;
-    letter-spacing: -0.576px;
+    /* letter-spacing: -0.576px; */
   }
 
   .header h3 {
