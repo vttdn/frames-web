@@ -28,7 +28,7 @@ h1 {
   line-height: 88px;
   padding: 0 16px 60px;
   font-weight: 300;
-  aspect-ratio: 1400 / 540;
+   aspect-ratio: 2.5 / 1;
 }
 
 h2 {
@@ -161,7 +161,7 @@ a:active {
   }
 
   .header h3 {
-    aspect-ratio: 3 / 3;
+   aspect-ratio: 2 / 2.5;
   }
 
   .footer p {
@@ -189,6 +189,10 @@ a:active {
     line-height: 63px;
   }
 
+  .header h3 {
+   aspect-ratio: 1 / 1;
+  }
+
   .grid {
     grid-template-columns: repeat(3, 1fr);
   }
@@ -197,7 +201,6 @@ a:active {
 @media (min-width: 1280px) {
   body {
     font-size: 20px;
-    /* line-height: 1.2; */
     letter-spacing: -0.017em;
     line-height: 24px;
   }
@@ -206,18 +209,16 @@ a:active {
     font-size: 180px;
     letter-spacing: -0.022em;
     line-height: 216px;
-    aspect-ratio: 1400 / 540;
   }
 
   h2 {
     font-size: 64px;
     line-height: 76px;
     letter-spacing: -0.022em;
-    /* line-height: 1.1; */
   }
 
   .header h3 {
-    aspect-ratio: 2 / 3;
+   aspect-ratio: 2 / 2.5;
   }
 
   .header img {
