@@ -29,7 +29,7 @@ h2 {
   font-size: 32px;
   line-height: 1.15;
   font-weight: 400;
-  padding: 24px 0;
+  padding: 24px 0 32px;
 }
 
 h3 {
@@ -73,7 +73,7 @@ a:active {
 }
 
 .header h3 {
-  aspect-ratio: 3 / 2.5;
+  aspect-ratio: 3 / 3;
 }
 
 .email {
@@ -102,7 +102,7 @@ a:active {
 }
 
 .footer p {
-    padding-bottom: 40px;
+    padding-bottom: 48px;
 }
 
 .footer > *:nth-child(2) {
