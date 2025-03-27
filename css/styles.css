@@ -19,7 +19,7 @@ h1 {
   font-size: 72px;
   line-height: 1;
   line-height: 1;
-  padding: 0 30px;
+  padding: 0 30px 48px;
   font-weight: 300;
     aspect-ratio: 1400 / 540;
 }
@@ -106,7 +106,8 @@ a:active {
 @media only screen and (min-device-width: 640px) {
   h1 {
     font-size: 96px;
-  line-height: 0.95;
+    line-height: 0.95;
+    padding-bottom: 0;
   }
   
   .mac-download,
