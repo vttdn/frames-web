@@ -48,6 +48,10 @@ a:active {
   text-decoration: none;
 }
 
+.infoCollapsedSidebar {
+  display: none;
+}
+
 /* Grid */
 .grid {
   display: grid;
