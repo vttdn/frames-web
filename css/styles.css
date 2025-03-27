@@ -113,6 +113,10 @@ a:active {
   h2 {
     font-size: 42px;
   }
+
+  .mobile-only-download {
+    display: none;
+  }
   
   .mac-download,
   .ios-download {
