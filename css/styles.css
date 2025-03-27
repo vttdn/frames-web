@@ -27,7 +27,7 @@ h1 {
   letter-spacing: -1.584px;
   /* line-height: 88px; */
   line-height: 1.1;
-  padding: 0 16px 64px;
+  padding: 0 16px 32px;
   font-weight: 300;
 }
 
@@ -84,7 +84,7 @@ a:active {
 }
 
 .header h3 {
-  aspect-ratio: 3 / 2;
+  aspect-ratio: 3 / 2.5;
 }
 
 .email {
