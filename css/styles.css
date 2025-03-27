@@ -1,7 +1,11 @@
 body {
   font-family: "Inter", sans-serif;
-  font-size: 14px;
-  line-height: 1.2;
+      font-size: 15px;
+    letter-spacing: -0.009em;
+    line-height: 19px;
+  /* font-size: 14px;
+  letter-spacing: -0.006em;
+  line-height: 17px; */
   font-style: normal;
   font-optical-sizing: auto;
   -webkit-font-smoothing: antialiased;
@@ -20,8 +24,8 @@ p {
 
 h1 {
   font-size: 72px;
-  line-height: 1;
-  line-height: 1;
+  letter-spacing: -1.584px;
+  line-height: 88px;
   padding: 0 16px 60px;
   font-weight: 300;
   aspect-ratio: 1400 / 540;
@@ -29,9 +33,10 @@ h1 {
 
 h2 {
   font-size: 32px;
-  line-height: 1.15;
+  letter-spacing: -0.022em;
+  line-height: 39px;
   font-weight: 400;
-  padding: 32px 0 24px;
+  padding: 20px 0 40px;
 }
 
 h3 {
@@ -116,15 +121,26 @@ a:active {
 }
 
 @media (min-width: 640px) {
+  body {
+    /* font-size: 15px;
+    letter-spacing: -0.009em;
+    line-height: 19px; */
+    font-size: 16px;
+    letter-spacing: -0.011em;
+    line-height: 20px;
+  }
+
   h1 {
     font-size: 96px;
-    line-height: 0.95;
+    letter-spacing: -0.022em;
+    line-height: 116px;
     padding: 0 30px 0;
   }
 
   h2 {
-    font-size: 42px;
-    /* letter-spacing: -0.44px; */
+    font-size: 40px;
+    letter-spacing: -0.009em;
+    line-height: 49px;
     grid-column: span 2;
     padding: 0;
   }
@@ -155,18 +171,21 @@ a:active {
 
 @media (min-width: 880px) {
   body {
-    font-size: 16px;
-    /* letter-spacing: -0.32px; */
+        font-size: 17px;
+    letter-spacing: -0.013em;
+    line-height: 20px;
   }
 
   h1 {
     font-size: 144px;
-    line-height: 1;
+    letter-spacing: -0.022em;
+    line-height: 176px;
   }
 
   h2 {
     font-size: 52px;
-    /* letter-spacing: -0.52px; */
+    letter-spacing: -0.022em;
+    line-height: 63px;
   }
 
   .grid {
@@ -178,13 +197,13 @@ a:active {
   body {
     font-size: 20px;
     /* line-height: 1.2; */
-    letter-spacing: -0.34px;
+    letter-spacing: -0.017em;
     line-height: 24px;
   }
 
   h1 {
     font-size: 180px;
-    letter-spacing: -3.96px;
+    letter-spacing: -0.022em;
     line-height: 216px;
     aspect-ratio: 1400 / 540;
   }
@@ -192,7 +211,7 @@ a:active {
   h2 {
     font-size: 64px;
     line-height: 76px;
-    letter-spacing: -1.408px;
+    letter-spacing: -0.022em;
     /* line-height: 1.1; */
   }
 
