@@ -36,14 +36,18 @@ h2 {
   letter-spacing: -0.022em;
   line-height: 39px;
   font-weight: 400;
-  padding: 16px 0 40px;
+  padding: 8px 0 40px;
 }
 
 h3 {
-  aspect-ratio: 2 / 2;
+  aspect-ratio: 1 / 1;
   font-weight: inherit;
   font-size: inherit;
   line-height: inherit;
+}
+
+.header h3 {
+  aspect-ratio: 1 / 0.75;
 }
 
 a,
@@ -81,10 +85,6 @@ a:active {
   top: -14px;
   left: -46px;
   width: 32px;
-}
-
-.header h3 {
-  aspect-ratio: 1 / 1;
 }
 
 .email {
