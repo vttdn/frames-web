@@ -27,9 +27,8 @@ h1 {
   letter-spacing: -1.584px;
   /* line-height: 88px; */
   line-height: 1.1;
-  padding: 0 16px 60px;
+  padding: 0 16px 64px;
   font-weight: 300;
-   aspect-ratio: 3 / 1;
 }
 
 h2 {
@@ -37,7 +36,7 @@ h2 {
   letter-spacing: -0.022em;
   line-height: 39px;
   font-weight: 400;
-  padding: 40px 0 40px;
+  padding: 8px 0 40px;
 }
 
 h3 {
@@ -132,7 +131,7 @@ a:active {
   }
 
   h1 {
-    font-size: 144px;
+    font-size: 128px;
     letter-spacing: -0.022em;
     /* line-height: 116px; */
     padding: 0 30px 48px;
