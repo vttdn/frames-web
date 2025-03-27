@@ -27,7 +27,6 @@ h1 {
 h2 {
   font-size: 32px;
   line-height: 1.15;
-  grid-column: span 2;
   font-weight: 400;
   padding-bottom: 24px;
 }
@@ -48,6 +47,8 @@ a:active {
 
 /* Grid */
 .grid {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
   padding: 30px;
 }
 
@@ -96,7 +97,7 @@ a:active {
 }
 
 .footer p {
-    padding-bottom: 80px;
+    padding-bottom: 40px;
 }
 
 .footer > *:nth-child(2) {
@@ -112,6 +113,7 @@ a:active {
 
   h2 {
     font-size: 42px;
+    grid-column: span 2;
   }
 
   .mobile-only-download {
@@ -124,13 +126,16 @@ a:active {
   }
 
   .grid {
-  display: grid;
     grid-template-columns: repeat(3, 1fr);
   gap: 20px;
   }
 
   .header h3 {
     aspect-ratio: 3 / 3;
+  }
+
+  .footer p {
+      padding-bottom: 80px;
   }
 }
 
