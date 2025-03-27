@@ -30,6 +30,7 @@ h2 {
   line-height: 1.15;
   font-weight: 400;
   padding: 24px 0;
+  color: #111;
 }
 
 h3 {
@@ -171,7 +172,7 @@ a:active {
 @media (min-width: 1280px) {
   body {
     font-size: 20px;
-    letter-spacing: -0.38px;
+    letter-spacing: -0.2px;
   }
 
   h1 {
@@ -182,7 +183,7 @@ a:active {
 
   h2 {
     font-size: 64px;
-    letter-spacing: -0.64px;
+    letter-spacing: -0.576px;
   }
 
   .header h3 {
