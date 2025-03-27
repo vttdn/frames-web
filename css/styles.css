@@ -29,6 +29,7 @@ h2 {
   line-height: 1.15;
   grid-column: span 2;
   font-weight: 400;
+  padding-bottom: 24px;
 }
 
 h3 {
@@ -47,9 +48,6 @@ a:active {
 
 /* Grid */
 .grid {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 20px;
   padding: 30px;
 }
 
@@ -73,14 +71,15 @@ a:active {
 }
 
 .header h3 {
-  aspect-ratio: 3 / 3;
+  aspect-ratio: 3 / 2;
 }
 
-.header > *:nth-child(4) {
+.email {
   display: none;
 }
 
-.header > *:nth-child(3) {
+.mac-download,
+.ios-download {
   display: none;
 }
 
@@ -110,12 +109,19 @@ a:active {
   line-height: 0.95;
   }
   
-  .header > *:nth-child(3) {
+  .mac-download,
+  .ios-download {
     display: block;
   }
 
   .grid {
+  display: grid;
     grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  }
+
+  .header h3 {
+    aspect-ratio: 3 / 3;
   }
 }
 
@@ -166,7 +172,7 @@ a:active {
     grid-template-columns: repeat(4, 1fr);
   }
 
-  .header > *:nth-child(4) {
+  .email {
     display: block;
   }
 
