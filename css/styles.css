@@ -84,7 +84,7 @@ a:active {
 }
 
 .header h3 {
-  aspect-ratio: 3 / 3;
+  aspect-ratio: 3 / 2;
 }
 
 .email {
@@ -134,7 +134,7 @@ a:active {
     font-size: 96px;
     letter-spacing: -0.022em;
     line-height: 116px;
-    padding: 0 30px 0;
+    padding: 0 30px 48px;
   }
 
   h2 {
@@ -180,6 +180,7 @@ a:active {
     font-size: 144px;
     letter-spacing: -0.022em;
     line-height: 176px;
+    padding-bottom: 80px;
   }
 
   h2 {
