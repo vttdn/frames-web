@@ -84,6 +84,10 @@ a:active {
   display: none;
 }
 
+  .mobile-only-download {
+    display: block;
+  }
+
 /* Footer */
 .footer {
   background: white;
@@ -104,7 +108,7 @@ a:active {
   display: none;
 }
 
-@media only screen and (min-device-width: 640px) {
+@media (min-width: 640px) {
   h1 {
     font-size: 96px;
     line-height: 0.95;
@@ -139,7 +143,7 @@ a:active {
   }
 }
 
-@media only screen and (min-width: 800px) {
+@media (min-width: 800px) {
   body {
     font-size: 16px;
   }
@@ -158,7 +162,7 @@ a:active {
   }
 }
 
-@media only screen and (min-width: 1200px) {
+@media (min-width: 1200px) {
   body {
     font-size: 20px;
   }
