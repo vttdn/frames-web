@@ -131,13 +131,6 @@ p.mobile-only-download {
   display: none;
 }
 
-h1,
-h2,
-.header {
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
 .main {
   display: flex;
   flex-direction: column;
@@ -145,7 +138,18 @@ h2,
   aspect-ratio: 3/4;
 }
 
+h1,
+.header {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
 @media (min-width: 640px) {
+  h2 {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
   body {
     font-size: 15px;
     letter-spacing: -0.009em;
@@ -224,7 +228,7 @@ h2,
 
 @media (min-width: 1140px) {
   body {
-        font-size: 16px;
+    font-size: 16px;
     letter-spacing: -0.011em;
     line-height: 20px;
     /* font-size: 17px;
