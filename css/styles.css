@@ -44,9 +44,9 @@ h1 {
 }
 
 h2 {
-  font-size: 24px;
-  letter-spacing: -0.022em;
-  line-height: 29px;
+  font-size: 22px;
+  letter-spacing:-0.018em;
+  line-height: 26px;
   font-weight: 400;
   padding: 20px 0 20px;
 }
@@ -106,7 +106,7 @@ a:active {
 /* Footer */
 .footer {
   background: white;
-  color: black;
+  color: #111;
   font-weight: 400;
 }
 
@@ -147,6 +147,9 @@ p.mobile-only-download {
     font-size: 16px;
     letter-spacing: -0.011em;
     line-height: 20px;
+            /* font-size: 17px;
+    letter-spacing: -0.013em;
+    line-height: 20px; */
   }
 
   .desktop-break {
@@ -215,9 +218,12 @@ p.mobile-only-download {
 
 @media (min-width: 1140px)  {
   body {
-        font-size: 17px;
+        /* font-size: 17px;
     letter-spacing: -0.013em;
-    line-height: 20px;
+    line-height: 20px; */
+            font-size: 18px;
+    letter-spacing: -0.014em;
+    line-height: 22px;
   }
 
   h1 {
