@@ -94,10 +94,6 @@ a:active {
   width: 32px;
 }
 
-.email {
-  aspect-ratio: 1 / 1;
-}
-
 .header h3 {
   display: none;
 }
@@ -136,6 +132,13 @@ p.mobile-only-download {
   -moz-osx-font-smoothing: grayscale;
   }
 
+  .main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    aspect-ratio: 1/1;
+  }
+
 @media (min-width: 640px) {
   body {
     /* font-size: 15px;
@@ -150,18 +153,12 @@ p.mobile-only-download {
     display: block;
   }
 
-  .main {
-    aspect-ratio: 16/9;
-  }
-
   .footer {
     aspect-ratio: 3/1;
   }
 
   .main {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    aspect-ratio: 16/9;
   }
 
   h1 {
@@ -205,8 +202,8 @@ p.mobile-only-download {
 
   .email {
     display: none;
-    aspect-ratio: auto;
   }
+  
   .footer {
     padding-top: 40px;
     padding-bottom: 40px;
