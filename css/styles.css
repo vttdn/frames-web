@@ -36,7 +36,7 @@ h1 {
   font-size: 24px;
   font-weight: 200;
   display: inline-block;
-  transform: translate(0, -34px);
+  transform: translate(0, -35px);
 }
 
 h2 {
@@ -143,16 +143,23 @@ p.mobile-only-download {
     line-height: 20px;
   }
 
+  .main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    aspect-ratio: 16/9;
+  }
+
   h1 {
-    font-size: 128px;
+    font-size: 104px;
     letter-spacing: -0.022em;
     /* line-height: 116px; */
-    padding: 0 30px 40px;
+    padding: 0 30px 30px;
   }
 
   .trademark {
-    font-size: 42px;
-    transform: translate(0, -61px);
+    font-size: 34px;
+    transform: translate(0, -51px);
   }
 
   h2 {
@@ -204,7 +211,7 @@ p.mobile-only-download {
     font-size: 160px;
     letter-spacing: -0.022em;
     /* line-height: 176px; */
-    padding-bottom: 50px;
+    /* padding-bottom: 50px; */
   }
 
     .trademark {
@@ -213,9 +220,9 @@ p.mobile-only-download {
     }
 
   h2 {
-    font-size: 52px;
+    font-size: 44px;
     letter-spacing: -0.022em;
-    line-height: 63px;
+    line-height: 54px;
   }
 
   .grid {
@@ -245,7 +252,7 @@ p.mobile-only-download {
   }
 }
 
-@media (min-width: 1500px) {
+@media (min-width: 1320px) {
   body {
     font-size: 20px;
     letter-spacing: -0.017em;
@@ -256,12 +263,11 @@ p.mobile-only-download {
     font-size: 220px;
     letter-spacing: -0.022em;
     /* line-height: 216px; */
-        padding-bottom: 80px;
   }
 
     .trademark {
       font-size: 73px;
-      transform: translate(0, -104px);
+      transform: translate(0, -105px);
     }
 
   h2 {
