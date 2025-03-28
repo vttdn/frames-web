@@ -31,6 +31,14 @@ h1 {
   font-weight: 300;
 }
 
+.trademark {
+  position:relative;
+  font-size: 24px;
+  font-weight: 200;
+  display: inline-block;
+  transform: translate(0, -34px);
+}
+
 h2 {
   font-size: 32px;
   letter-spacing: -0.022em;
@@ -142,6 +150,11 @@ p.mobile-only-download {
     padding: 0 30px 48px;
   }
 
+  .trademark {
+    font-size: 42px;
+    transform: translate(0, -61px);
+  }
+
   h2 {
     font-size: 40px;
     letter-spacing: -0.009em;
@@ -194,6 +207,11 @@ p.mobile-only-download {
     padding-bottom: 80px;
   }
 
+    .trademark {
+      font-size: 52px;
+      transform: translate(0, -75px);
+    }
+
   h2 {
     font-size: 52px;
     letter-spacing: -0.022em;
@@ -221,6 +239,11 @@ p.mobile-only-download {
     letter-spacing: -0.022em;
     /* line-height: 216px; */
   }
+
+    .trademark {
+      font-size: 73px;
+      transform: translate(0, -104px);
+    }
 
   h2 {
     font-size: 64px;
