@@ -169,7 +169,7 @@ p.mobile-only-download {
     font-size: 104px;
     letter-spacing: -0.022em;
     /* line-height: 116px; */
-    padding: 0 30px 30px;
+    padding: 0 30px 40px;
   }
 
   .trademark {
@@ -208,13 +208,16 @@ p.mobile-only-download {
     display: none;
     aspect-ratio: auto;
   }
-
+  .footer {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
   .footer p {
-    padding-bottom: 10px;
+    padding: 0;
   }
 }
 
-@media (min-width: 980px)  {
+@media (min-width: 1140px)  {
   body {
         font-size: 17px;
     letter-spacing: -0.013em;
@@ -226,6 +229,7 @@ p.mobile-only-download {
     letter-spacing: -0.022em;
     /* line-height: 176px; */
     /* padding-bottom: 50px; */
+    padding-bottom: 50px;
   }
 
     .trademark {
@@ -243,12 +247,11 @@ p.mobile-only-download {
     grid-template-columns: repeat(3, 1fr);
   }
 
-  .footer p {
-    padding-bottom: 80px;
+  .footer {
+    padding-top: 40px;
+    padding-bottom: 40px;
   }
-}
 
-@media (min-width: 1200px) {
   .grid {
     grid-template-columns: repeat(4, 1fr);
   }
@@ -262,7 +265,7 @@ p.mobile-only-download {
   }
 }
 
-@media (min-width: 1320px) {
+@media (min-width: 1400px) {
   body {
     font-size: 20px;
     letter-spacing: -0.017em;
@@ -273,6 +276,7 @@ p.mobile-only-download {
     font-size: 220px;
     letter-spacing: -0.022em;
     /* line-height: 216px; */
+    padding-bottom: 60px;
   }
 
     .trademark {
@@ -290,5 +294,10 @@ p.mobile-only-download {
     top: -10px;
     left: -58px;
     width: 40px;
+  }
+
+  .footer {
+    padding-top: 50px;
+    padding-bottom: 50px;
   }
 }
