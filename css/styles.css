@@ -4,7 +4,7 @@
 
 body {
   font-family: "Inter", sans-serif;
-      /* font-size: 15px;
+  /* font-size: 15px;
     letter-spacing: -0.009em;
     line-height: 19px; */
   font-size: 14px;
@@ -40,7 +40,7 @@ h1 {
 }
 
 .trademark {
-  position:relative;
+  position: relative;
   display: inline-block;
   font-size: 24px;
   font-weight: 200;
@@ -49,7 +49,7 @@ h1 {
 
 h2 {
   font-size: 22px;
-  letter-spacing:-0.018em;
+  letter-spacing: -0.018em;
   line-height: 26px;
   font-weight: 400;
   padding: 20px 0 20px;
@@ -131,27 +131,29 @@ p.mobile-only-download {
   display: none;
 }
 
-  h1, h2, .header {
-      -webkit-font-smoothing: antialiased;
+h1,
+h2,
+.header {
+  -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  }
+}
 
-  .main {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    aspect-ratio: 3/4;
-  }
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  aspect-ratio: 3/4;
+}
 
 @media (min-width: 640px) {
   body {
-    /* font-size: 15px;
+    font-size: 15px;
     letter-spacing: -0.009em;
-    line-height: 19px; */
-    font-size: 16px;
+    line-height: 19px;
+    /* font-size: 16px;
     letter-spacing: -0.011em;
-    line-height: 20px;
-            /* font-size: 17px;
+    line-height: 20px; */
+    /* font-size: 17px;
     letter-spacing: -0.013em;
     line-height: 20px; */
   }
@@ -210,7 +212,7 @@ p.mobile-only-download {
   .email {
     display: none;
   }
-  
+
   .footer {
     padding-top: 40px;
     padding-bottom: 40px;
@@ -220,12 +222,15 @@ p.mobile-only-download {
   }
 }
 
-@media (min-width: 1140px)  {
+@media (min-width: 1140px) {
   body {
-        font-size: 17px;
-    letter-spacing: -0.013em;
+        font-size: 16px;
+    letter-spacing: -0.011em;
     line-height: 20px;
-            /* font-size: 18px;
+    /* font-size: 17px;
+    letter-spacing: -0.013em;
+    line-height: 20px; */
+    /* font-size: 18px;
     letter-spacing: -0.014em;
     line-height: 22px; */
   }
@@ -238,10 +243,10 @@ p.mobile-only-download {
     padding-bottom: 50px;
   }
 
-    .trademark {
-      font-size: 52px;
-      /* transform: translate(0, -75px); */
-    }
+  .trademark {
+    font-size: 52px;
+    /* transform: translate(0, -75px); */
+  }
 
   h2 {
     font-size: 48px;
@@ -273,9 +278,12 @@ p.mobile-only-download {
 
 @media (min-width: 1470px) {
   body {
-    font-size: 20px;
+    /* font-size: 20px;
     letter-spacing: -0.017em;
-    line-height: 24px;
+    line-height: 24px; */
+    font-size: 18px;
+    letter-spacing: -0.014em;
+    line-height: 22px;
   }
 
   h1 {
@@ -285,10 +293,10 @@ p.mobile-only-download {
     padding-bottom: 60px;
   }
 
-    .trademark {
-      font-size: 66px;
-      /* transform: translate(-0.55em, -1.45em); */
-    }
+  .trademark {
+    font-size: 66px;
+    /* transform: translate(-0.55em, -1.45em); */
+  }
 
   h2 {
     font-size: 60px;
