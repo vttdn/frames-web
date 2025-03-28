@@ -8,8 +8,8 @@ body {
   line-height: 17px;
   font-style: normal;
   font-optical-sizing: auto;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  /* -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; */
   color: white;
   background: #000;
   box-sizing: border-box;
@@ -38,9 +38,10 @@ h1 {
 .trademark {
   position:relative;
   font-size: 24px;
-  font-weight: 200;
+  font-weight: 300;
   display: inline-block;
   transform: translate(0, -35px);
+  font-weight: 200;
 }
 
 h2 {
@@ -116,7 +117,7 @@ a:active {
 .footer {
   background: white;
   color: black;
-  font-weight: 500;
+  font-weight: 400;
 }
 
 .footer h3 {
@@ -156,6 +157,11 @@ p.mobile-only-download {
     flex-direction: column;
     justify-content: space-between;
     aspect-ratio: 16/10;
+  }
+
+  h1, h2, .header {
+      -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
   }
 
   h1 {
