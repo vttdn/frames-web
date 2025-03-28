@@ -147,7 +147,7 @@ p.mobile-only-download {
     font-size: 128px;
     letter-spacing: -0.022em;
     /* line-height: 116px; */
-    padding: 0 30px 48px;
+    padding: 0 30px 40px;
   }
 
   .trademark {
@@ -204,7 +204,7 @@ p.mobile-only-download {
     font-size: 160px;
     letter-spacing: -0.022em;
     /* line-height: 176px; */
-    padding-bottom: 80px;
+    padding-bottom: 50px;
   }
 
     .trademark {
@@ -227,7 +227,25 @@ p.mobile-only-download {
   }
 }
 
-@media (min-width: 1300px) {
+@media (min-width: 1200px) {
+  .header h3 {
+   aspect-ratio: 2 / 2.5;
+  }
+
+  .grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .email {
+    display: block;
+  }
+
+  .footer > *:nth-child(2) {
+    display: block;
+  }
+}
+
+@media (min-width: 1500px) {
   body {
     font-size: 20px;
     letter-spacing: -0.017em;
@@ -238,6 +256,7 @@ p.mobile-only-download {
     font-size: 220px;
     letter-spacing: -0.022em;
     /* line-height: 216px; */
+        padding-bottom: 80px;
   }
 
     .trademark {
@@ -251,25 +270,9 @@ p.mobile-only-download {
     letter-spacing: -0.022em;
   }
 
-  .header h3 {
-   aspect-ratio: 2 / 2.5;
-  }
-
   .header img {
     top: -10px;
     left: -58px;
     width: 40px;
-  }
-
-  .grid {
-    grid-template-columns: repeat(4, 1fr);
-  }
-
-  .email {
-    display: block;
-  }
-
-  .footer > *:nth-child(2) {
-    display: block;
   }
 }
