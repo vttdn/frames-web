@@ -56,11 +56,6 @@ h3 {
   font-weight: inherit;
   font-size: inherit;
   line-height: inherit;
-  aspect-ratio: 1 / 1;
-}
-
-.header h3 {
-  aspect-ratio: 1 / 0.75;
 }
 
 a,
@@ -122,7 +117,6 @@ a:active {
 
 .footer h3 {
   text-align: right;
-  aspect-ratio: 2 / 3;
 }
 
 .footer p {
@@ -153,10 +147,17 @@ p.mobile-only-download {
   }
 
   .main {
+    aspect-ratio: 16/9;
+  }
+
+  .footer {
+    aspect-ratio: 3/1;
+  }
+
+  .main {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    aspect-ratio: 16/10;
   }
 
   h1, h2, .header {
@@ -201,7 +202,6 @@ p.mobile-only-download {
 
   .header h3 {
     display: block;
-    aspect-ratio: 1 / 1;
   }
 
   .email {
@@ -249,10 +249,6 @@ p.mobile-only-download {
 }
 
 @media (min-width: 1200px) {
-  .header h3 {
-   aspect-ratio: 2 / 2.5;
-  }
-
   .grid {
     grid-template-columns: repeat(4, 1fr);
   }
