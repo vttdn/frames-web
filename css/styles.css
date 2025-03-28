@@ -1,11 +1,11 @@
 body {
   font-family: "Inter", sans-serif;
-      font-size: 15px;
+      /* font-size: 15px;
     letter-spacing: -0.009em;
-    line-height: 19px;
-  /* font-size: 14px;
+    line-height: 19px; */
+  font-size: 14px;
   letter-spacing: -0.006em;
-  line-height: 17px; */
+  line-height: 17px;
   font-style: normal;
   font-optical-sizing: auto;
   -webkit-font-smoothing: antialiased;
@@ -20,6 +20,10 @@ h2,
 h3,
 p {
   margin: 0;
+}
+
+.desktop-break {
+  display: none;
 }
 
 h1 {
@@ -40,11 +44,11 @@ h1 {
 }
 
 h2 {
-  font-size: 32px;
+  font-size: 24px;
   letter-spacing: -0.022em;
-  line-height: 39px;
+  line-height: 29px;
   font-weight: 400;
-  padding: 0 0 30px;
+  padding: 0 0 15px;
 }
 
 h3 {
@@ -143,11 +147,15 @@ p.mobile-only-download {
     line-height: 20px;
   }
 
+  .desktop-break {
+    display: block;
+  }
+
   .main {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    aspect-ratio: 16/9;
+    aspect-ratio: 16/10;
   }
 
   h1 {
@@ -163,9 +171,9 @@ p.mobile-only-download {
   }
 
   h2 {
-    font-size: 40px;
-    letter-spacing: -0.009em;
-    line-height: 49px;
+    font-size: 30px;
+    letter-spacing: -0.022em;
+    line-height: 36px;
     grid-column: span 2;
     padding: 0;
   }
@@ -200,7 +208,7 @@ p.mobile-only-download {
   }
 }
 
-@media (min-width: 980px) {
+@media (min-width: 980px)  {
   body {
         font-size: 17px;
     letter-spacing: -0.013em;
