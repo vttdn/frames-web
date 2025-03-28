@@ -131,6 +131,11 @@ p.mobile-only-download {
   display: none;
 }
 
+  h1, h2, .header {
+      -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  }
+
 @media (min-width: 640px) {
   body {
     /* font-size: 15px;
@@ -157,11 +162,6 @@ p.mobile-only-download {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-  }
-
-  h1, h2, .header {
-      -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
   }
 
   h1 {
