@@ -27,7 +27,7 @@ p {
 }
 
 .desktop-break,
-.main-footer {
+.footer {
   display: none;
 }
 
@@ -85,21 +85,18 @@ a:active {
 }
 
 /* Header */
-.header {
-  /* font-weight: 500; */
-}
-.header p {
+.navigation p {
   position: relative;
 }
 
-.header img {
+.navigation img {
   position: absolute;
   top: -14px;
   left: -46px;
   width: 32px;
 }
 
-.header h3 {
+.navigation h3 {
   display: none;
 }
 
@@ -108,18 +105,18 @@ a:active {
   display: none;
 }
 
-/* Footer */
-.footer {
+/* Main */
+.main {
   background: white;
   color: black;
   font-weight: 400;
 }
 
-.footer h3 {
+.main h3 {
   text-align: right;
 }
 
-.footer p {
+.main p {
   padding-bottom: 80px;
 }
 
@@ -128,11 +125,11 @@ p.mobile-only-download {
   padding-bottom: 20px;
 }
 
-.footer > *:nth-child(2) {
+.main > *:nth-child(2) {
   display: none;
 }
 
-.main {
+.header {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -140,7 +137,7 @@ p.mobile-only-download {
 }
 
 h1,
-.header {
+.navigation {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -164,7 +161,7 @@ h1,
   }
 
 
-.main-footer {
+.footer {
   background: white;
   color: black;
   display: flex;
@@ -172,15 +169,19 @@ h1,
   padding: 30px 30px;
 }
 
+.copyright-symbol {
+  font-weight: 300;
+}
+
   .desktop-break {
     display: block;
   }
 
-  .footer {
+  .main {
     aspect-ratio: 3/1;
   }
 
-  .main {
+  .header {
     aspect-ratio: 16/9;
   }
 
@@ -219,7 +220,7 @@ h1,
     padding: 30px;
   }
 
-  .header h3 {
+  .navigation h3 {
     display: block;
   }
 
@@ -227,11 +228,11 @@ h1,
     display: none;
   }
 
-  .footer {
+  .main {
     padding-top: 40px;
     padding-bottom: 0px;
   }
-  .footer p {
+  .main p {
     padding: 0;
   }
 }
@@ -272,7 +273,7 @@ h1,
     grid-template-columns: repeat(3, 1fr);
   }
 
-  .footer {
+  .main {
     padding-top: 50px;
     /* padding-bottom: 50px; */
   }
@@ -285,7 +286,7 @@ h1,
     display: block;
   }
 
-  .footer > *:nth-child(2) {
+  .main > *:nth-child(2) {
     display: block;
   }
 }
@@ -318,19 +319,13 @@ h1,
     letter-spacing: -0.022em;
   }
 
-  .header img {
+  .navigation img {
     top: -10px;
     left: -58px;
     width: 40px;
   }
 
-  .footer {
+  .main {
     padding-top: 60px;
-    /* padding-bottom: 60px; */
-  }
-
-  .footer p,
-  .footer h3 {
-    /* transform: translate(0, 8px); */
   }
 }
