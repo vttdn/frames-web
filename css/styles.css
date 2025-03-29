@@ -37,7 +37,7 @@ h1 {
 
 h2 {
   font-size: 28px;
-  letter-spacing: -0.018em;
+  letter-spacing: -0.021em;
   line-height: 33px;
   font-weight: 400;
   padding: 20px 0 20px;
@@ -117,11 +117,6 @@ h3 {
 }
 
 @media (min-width: 640px) {
-  h2 {
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-  }
-
   body {
     /* font-size: 15px;
     letter-spacing: -0.009em;
@@ -169,6 +164,8 @@ h3 {
     line-height: 48px;
     grid-column: span 2;
     padding: 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
   }
 
   .mobile-only-download,
