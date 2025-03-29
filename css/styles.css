@@ -26,7 +26,8 @@ p {
   margin: 0;
 }
 
-.desktop-break {
+.desktop-break,
+.main-footer {
   display: none;
 }
 
@@ -162,6 +163,15 @@ h1,
     line-height: 20px; */
   }
 
+
+.main-footer {
+  background: white;
+  color: black;
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 30px;
+}
+
   .desktop-break {
     display: block;
   }
@@ -219,7 +229,7 @@ h1,
 
   .footer {
     padding-top: 40px;
-    padding-bottom: 40px;
+    padding-bottom: 0px;
   }
   .footer p {
     padding: 0;
@@ -264,7 +274,7 @@ h1,
 
   .footer {
     padding-top: 50px;
-    padding-bottom: 50px;
+    /* padding-bottom: 50px; */
   }
 
   .grid {
@@ -316,7 +326,7 @@ h1,
 
   .footer {
     padding-top: 60px;
-    padding-bottom: 60px;
+    /* padding-bottom: 60px; */
   }
 
   .footer p,
