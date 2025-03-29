@@ -41,7 +41,6 @@ h1 {
 }
 
 .trademark {
-  position: relative;
   display: inline-block;
   font-size: 24px;
   font-weight: 200;
@@ -57,6 +56,7 @@ h2 {
 }
 
 h3 {
+  text-align: right;
   font-weight: inherit;
   font-size: inherit;
   line-height: inherit;
@@ -96,12 +96,9 @@ a:active {
   width: 32px;
 }
 
-.navigation h3 {
-  display: none;
-}
-
 .mac-download,
-.ios-download {
+.ios-download,
+.headline {
   display: none;
 }
 
@@ -110,10 +107,6 @@ a:active {
   background: white;
   color: black;
   font-weight: 400;
-}
-
-.main h3 {
-  text-align: right;
 }
 
 .main p {
@@ -125,7 +118,7 @@ p.mobile-only-download {
   padding-bottom: 20px;
 }
 
-.main > *:nth-child(2) {
+h3 {
   display: none;
 }
 
@@ -136,18 +129,17 @@ p.mobile-only-download {
   aspect-ratio: 3/4;
 }
 
-h1,
-.navigation {
+.header {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 @media (min-width: 640px) {
   h2 {
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
   }
-  
+
   body {
     font-size: 15px;
     letter-spacing: -0.009em;
@@ -160,18 +152,17 @@ h1,
     line-height: 20px; */
   }
 
+  .footer {
+    background: white;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 30px;
+  }
 
-.footer {
-  background: white;
-  color: black;
-  display: flex;
-  justify-content: space-between;
-  padding: 30px 30px;
-}
-
-.copyright-symbol {
-  font-weight: 300;
-}
+  .copyright-symbol {
+    font-weight: 300;
+  }
 
   .desktop-break {
     display: block;
@@ -205,12 +196,14 @@ h1,
     padding: 0;
   }
 
-  p.mobile-only-download {
+  p.mobile-only-download,
+  .email {
     display: none;
   }
 
   .mac-download,
-  .ios-download {
+  .ios-download,
+  .headline {
     display: block;
   }
 
@@ -218,14 +211,6 @@ h1,
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
     padding: 30px;
-  }
-
-  .navigation h3 {
-    display: block;
-  }
-
-  .email {
-    display: none;
   }
 
   .main {
@@ -239,7 +224,7 @@ h1,
 
 @media (min-width: 1280px) {
   body {
-        font-size: 16px;
+    font-size: 16px;
     letter-spacing: -0.011em;
     line-height: 20px;
     /* font-size: 17px;
@@ -269,10 +254,6 @@ h1,
     line-height: 57px;
   }
 
-  .grid {
-    grid-template-columns: repeat(3, 1fr);
-  }
-
   .main {
     padding-top: 50px;
     /* padding-bottom: 50px; */
@@ -282,11 +263,8 @@ h1,
     grid-template-columns: repeat(4, 1fr);
   }
 
-  .email {
-    display: block;
-  }
-
-  .main > *:nth-child(2) {
+  .email,
+  h3 {
     display: block;
   }
 }
