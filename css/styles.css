@@ -24,7 +24,7 @@ h1 {
   font-size: 72px;
   letter-spacing: -1.584px;
   line-height: 1.1;
-  padding: 0 15px 30px;
+  padding: 0 15px 40px;
   font-weight: 300;
 }
 
@@ -40,7 +40,7 @@ h2 {
   letter-spacing: -0.021em;
   line-height: 33px;
   font-weight: 400;
-  padding: 20px 0 20px;
+  padding: 20px 0 1em;
 }
 
 h3 {
@@ -102,8 +102,8 @@ h3 {
 
 .mobile-only-download {
   display: block;
-  padding-top: 80px;
-  padding-bottom: 20px;
+  padding-top: 6em;
+  padding-bottom: 1em;
 }
 
 .header {
