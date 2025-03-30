@@ -70,7 +70,7 @@ a:active {
 .ios-download img {
   position: absolute;
   top: -13px;
-  left: -59px;
+  left: -55px;
   width: 40px;
 }
 
@@ -129,7 +129,8 @@ a:active {
     padding-right: 30px;
   }
 
-  .date {
+  .date,
+  .footer {
     font-size: 15px;
     letter-spacing: -0.009em;
     line-height: 19px;
