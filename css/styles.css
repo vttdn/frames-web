@@ -119,9 +119,12 @@ a:active {
     display: block;
   }
   body {
-    font-size: 18px;
+    font-size: 17px;
+    letter-spacing: -0.013em;
+    line-height: 20px;
+    /* font-size: 18px;
     letter-spacing: -0.014em;
-    line-height: 22px;
+    line-height: 22px; */
   }
 
   .h-wrapper {
