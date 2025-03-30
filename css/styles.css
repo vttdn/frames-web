@@ -216,3 +216,9 @@ a:active {
       display: block;
     }
 }
+
+@media (min-width: 1300px) {
+  .header {
+    height: 600px;
+  }
+}
