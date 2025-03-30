@@ -108,7 +108,17 @@ a:active {
   padding-top: 30px;
 }
 
+.desktop-only {
+    display: none;
+  }
+
 @media (min-width: 960px) {
+  .mobile-only {
+    display: none;
+  }
+  .desktop-only {
+    display: block;
+  }
   body {
     font-size: 18px;
     letter-spacing: -0.014em;
