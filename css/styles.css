@@ -110,7 +110,7 @@ h3 {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  aspect-ratio: 3/4;
+  height: 400px;
 
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -141,11 +141,11 @@ h3 {
 
   .main {
     padding-top: 40px;
-    aspect-ratio: 3/1;
+    /* aspect-ratio: 3/1; */
   }
 
   .header {
-    aspect-ratio: 16/9;
+    height: 520px;
   }
 
   h1 {
@@ -188,40 +188,6 @@ h3 {
 }
 
 @media (min-width: 1280px) {
-  body {
-    /* font-size: 16px;
-    letter-spacing: -0.011em;
-    line-height: 20px; */
-    font-size: 17px;
-    letter-spacing: -0.013em;
-    line-height: 20px;
-    /* font-size: 18px;
-    letter-spacing: -0.014em;
-    line-height: 22px; */
-  }
-
-  h1 {
-    font-size: 160px;
-    letter-spacing: -0.022em;
-    /* line-height: 176px; */
-    /* padding-bottom: 50px; */
-    padding-bottom: 50px;
-  }
-
-  .trademark {
-    font-size: 52px;
-    /* transform: translate(0, -75px); */
-  }
-
-  h2 {
-    font-size: 56px;
-    letter-spacing: -0.022em;
-    line-height: 67px;
-  }
-
-  .main {
-    padding-top: 50px;
-  }
 
   .grid {
     grid-template-columns: repeat(4, 1fr);
@@ -230,45 +196,5 @@ h3 {
   .email,
   h3 {
     display: block;
-  }
-}
-
-@media (min-width: 1600px) {
-  body {
-    /* font-size: 20px;
-    letter-spacing: -0.017em;
-    line-height: 24px; */
-    font-size: 18px;
-    letter-spacing: -0.014em;
-    line-height: 22px;
-  }
-
-  h1 {
-    font-size: 200px;
-    letter-spacing: -0.022em;
-    /* line-height: 216px; */
-    padding-bottom: 60px;
-  }
-
-  .trademark {
-    font-size: 66px;
-    /* transform: translate(-0.55em, -1.45em); */
-  }
-
-  h2 {
-    font-size: 64px;
-    line-height: 76px;
-    letter-spacing: -0.022em;
-  }
-
-  .mac-download img,
-  .ios-download img {
-    top: -12px;
-    left: -58px;
-    width: 40px;
-  }
-
-  .main {
-    padding-top: 60px;
   }
 }
