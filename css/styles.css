@@ -130,12 +130,12 @@ a:active {
 
   .header,
   .footer {
-    /* font-size: 16px;
+    font-size: 16px;
     letter-spacing: -0.011em;
-    line-height: 20px; */
-      font-size: 15px;
+    line-height: 20px;
+      /* font-size: 15px;
     letter-spacing: -0.009em;
-    line-height: 19px;
+    line-height: 19px; */
   }
 
   .footer {
@@ -205,7 +205,10 @@ a:active {
     font-family: "JetBrains Mono", monospace;
     /* font-family: monospace; */
     font-optical-sizing: auto;
-    font-size: 15px;
+    /* font-size: 15px; */
+        font-size: 16px;
+    /* letter-spacing: -0.011em; */
+    /* line-height: 20px; */
     /* color: #333; */
     transform: translate(-100%, 0);
   }
