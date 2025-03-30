@@ -24,7 +24,7 @@ p {
 h1 {
   font-size: 64px;
   letter-spacing: -1.584px;
-  line-height: 1.1;
+  line-height: 1;
   font-weight: 300;
 }
 
@@ -32,7 +32,7 @@ h1 {
   display: inline-block;
   font-size: 21.33px;
   font-weight: 200;
-  transform: translate(-0.6em, -1.45em);
+  transform: translate(-0.6em, -1.44em);
 }
 
 h2 {
@@ -40,7 +40,7 @@ h2 {
   letter-spacing: -0.018em;
   line-height: 26px;
   font-weight: 400;
-  padding: 16px 0 1em;
+  padding-bottom: 1em;
 }
 
 .h3 {
@@ -99,8 +99,8 @@ a:active {
 
 .mobile-only-download {
   display: block;
-  padding-top: 6em;
-  padding-bottom: 1em;
+  padding-top: 60px;
+  padding-bottom: 30px;
 }
 
 .header {
@@ -113,8 +113,7 @@ a:active {
 }
 
 .main {
-  padding-bottom: 20px;
-  padding-top: 20px;
+  padding-top: 30px;
 }
 
 @media (min-width: 960px) {
@@ -139,7 +138,7 @@ a:active {
   .footer {
     display: flex;
     justify-content: space-between;
-    padding-top: 30px;
+    padding-top: 45px;
     padding-bottom: 30px;
   }
 
@@ -150,7 +149,7 @@ a:active {
   .header {
     height: 520px;
     padding-top: 30px;
-    padding-bottom: 40px;
+    padding-bottom: 45px;
   }
 
   .trademark {
@@ -182,7 +181,7 @@ a:active {
   }
 
   .main {
-    padding-top: 40px;
+    padding-top: 45px;
     min-height: 320px;
   }
 
