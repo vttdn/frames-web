@@ -11,6 +11,9 @@ body {
   color: white;
   background: #000;
   box-sizing: border-box;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 h1,
@@ -111,9 +114,6 @@ h3 {
   flex-direction: column;
   justify-content: space-between;
   height: 400px;
-
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 
 @media (min-width: 640px) {
@@ -121,12 +121,25 @@ h3 {
     /* font-size: 15px;
     letter-spacing: -0.009em;
     line-height: 19px; */
-    font-size: 16px;
+    /* font-size: 16px;
     letter-spacing: -0.011em;
-    line-height: 20px;
+    line-height: 20px; */
     /* font-size: 17px;
     letter-spacing: -0.013em;
     line-height: 20px; */
+
+    font-size: 18px;
+    letter-spacing: -0.014em;
+    line-height: 22px;
+            /* font-size: 20px;
+    letter-spacing: -0.017em;
+    line-height: 24px; */
+  }
+
+  .header, .footer {
+        font-size: 16px;
+    letter-spacing: -0.011em;
+    line-height: 20px;
   }
 
   .footer {
@@ -139,19 +152,8 @@ h3 {
     font-weight: 300;
   }
 
-  .main {
-    padding-top: 40px;
-    /* aspect-ratio: 3/1; */
-  }
-
   .header {
     height: 520px;
-  }
-
-  h1 {
-    font-size: 104px;
-    letter-spacing: -0.022em;
-    padding: 0 30px 40px;
   }
 
   .trademark {
@@ -159,9 +161,9 @@ h3 {
   }
 
   h2 {
-    font-size: 36px;
+    font-size: 34px;
     letter-spacing: -0.022em;
-    line-height: 43px;
+    line-height: 41px;
     grid-column: span 2;
     padding: 0;
     -webkit-font-smoothing: antialiased;
@@ -184,6 +186,17 @@ h3 {
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
     padding: 30px;
+  }
+
+  .main {
+    padding-top: 40px;
+    /* aspect-ratio: 3/1; */
+  }
+
+  h1 {
+    font-size: 100px;
+    letter-spacing: -0.022em;
+    padding: 0 30px 40px;
   }
 }
 
