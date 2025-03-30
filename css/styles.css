@@ -3,7 +3,7 @@ body {
   font-size: 14px;
   letter-spacing: -0.006em;
   line-height: 17px;
-      /* font-size: 15px;
+  /* font-size: 15px;
     letter-spacing: -0.009em;
     line-height: 19px; */
   font-style: normal;
@@ -131,13 +131,14 @@ h3 {
     font-size: 18px;
     letter-spacing: -0.014em;
     line-height: 22px;
-            /* font-size: 20px;
+    /* font-size: 20px;
     letter-spacing: -0.017em;
     line-height: 24px; */
   }
 
-  .header, .footer {
-        font-size: 16px;
+  .header,
+  .footer {
+    font-size: 16px;
     letter-spacing: -0.011em;
     line-height: 20px;
   }
@@ -145,7 +146,7 @@ h3 {
   .footer {
     display: flex;
     justify-content: space-between;
-    padding: 40px 30px 30px;
+    padding: 80px 30px 30px;
   }
 
   .copyright-symbol {
@@ -153,7 +154,7 @@ h3 {
   }
 
   .header {
-    height: 520px;
+    height: 600px;
   }
 
   .trademark {
@@ -166,8 +167,6 @@ h3 {
     line-height: 41px;
     grid-column: span 2;
     padding: 0;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
   }
 
   .mobile-only-download,
@@ -199,9 +198,8 @@ h3 {
     padding: 0 30px 40px;
   }
 }
-/* 
-@media (min-width: 1280px) {
 
+@media (min-width: 1280px) {
   .grid {
     grid-template-columns: repeat(4, 1fr);
   }
@@ -210,4 +208,4 @@ h3 {
   h3 {
     display: block;
   }
-} */
+}
