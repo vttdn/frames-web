@@ -117,7 +117,7 @@ a:active {
   padding-top: 20px;
 }
 
-@media (min-width: 640px) {
+@media (min-width: 960px) {
   body {
     font-size: 18px;
     letter-spacing: -0.014em;
@@ -139,7 +139,7 @@ a:active {
   .footer {
     display: flex;
     justify-content: space-between;
-    padding-top: 80px;
+    padding-top: 30px;
     padding-bottom: 30px;
   }
 
@@ -148,7 +148,7 @@ a:active {
   }
 
   .header {
-    height: 600px;
+    height: 520px;
     padding-top: 30px;
     padding-bottom: 40px;
   }
@@ -163,6 +163,7 @@ a:active {
     line-height: 41px;
     grid-column: span 2;
     padding: 0;
+    padding-right: 64px;
   }
 
   .mobile-only-download,
@@ -171,8 +172,7 @@ a:active {
   }
 
   .mac-download,
-  .ios-download,
-  .desktop-break {
+  .ios-download {
     display: block;
   }
 
@@ -200,11 +200,14 @@ a:active {
     position: absolute;
     top: 0;
     left: -16px;
-    /* font-family: "JetBrains Mono", monospace; */
-    font-family: monospace;
+    font-family: "JetBrains Mono", monospace;
+    /* font-family: monospace; */
     font-optical-sizing: auto;
     font-size: 14px;
-    color: #333;
+    /* color: #333; */
     transform: translate(-100%, 0);
   }
+  .desktop-break {
+      display: block;
+    }
 }
