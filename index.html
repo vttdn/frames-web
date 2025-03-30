@@ -15,6 +15,10 @@
       href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
       rel="stylesheet"
     />
+    <link
+      href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap"
+      rel="stylesheet"
+    />
 
     <link rel="stylesheet" href="css/normalize.min.css" />
     <link rel="stylesheet" href="css/styles.css" />
@@ -49,9 +53,9 @@
   </head>
 
   <body>
-    <header class="header">
+    <header class="header h-wrapper">
       <nav class="navigation grid">
-        <p class="headline">Notes & Metadata</p>
+        <span class="headline">Notes & Metadata</span>
         <p class="ios-download">
           <img
             alt="Download on the App Store"
@@ -60,8 +64,9 @@
             height="64"
             loading="lazy"
           />
-          iOS<br />Apr 20, 2025
+          iOS<br /><span class="date">Apr 20, 2025</span>
         </p>
+
         <p class="mac-download">
           <img
             alt="Download on the Mac App Store"
@@ -70,30 +75,37 @@
             height="64"
             loading="lazy"
           />
-          macOS<br />May 1, 2025
+          macOS<br /><span class="date">May 1, 2025</span>
         </p>
-        <p class="email">bonjour@withframes.com</p>
+        
+        <!-- <p class="email">bonjour@withframes.com</p> -->
       </nav>
 
       <h1>Frames <span class="trademark">®</span></h1>
       <!-- 𝔽 -->
     </header>
 
-    <main class="main grid">
+    <main class="main grid h-wrapper">
       <h2>
-        Soon available <br class="desktop-break" />on the App Store
+       Soon available <br class="desktop-break" />on the App Store
         <br class="desktop-break" />
         for iPhone and Mac
       </h2>
-      <h3>Abstract</h3>
+      <section>
       <p>
+        <span class="h3">01/</span>
         Frames is crafted with passion for film photographers, offering an
         intuitive way to log essential metadata, attach references, and organize
         every shot—all from your mobile phone.
-        <br /><br />
+      </p>
+      <br />
+      <p>
+        <span class="h3">02/</span>
         With an interactive map and a structured library, Frames helps you track
         and manage your film data, ensuring a smooth and intuitive experience.
-        <br /><br />
+      </p>
+      <br />
+      <p>
         Frames offers export and sync options, making it easy to reintegrate
         metadata into scans for a complete workflow.
       </p>
@@ -106,9 +118,10 @@
           loading="lazy"
         />
       </p>
+      </section>
     </main>
 
-    <footer class="footer">
+    <footer class="footer h-wrapper">
       <p class="copyright">
         <span class="copyright-symbol">©</span> 2025. All Rights Reserved.
       </p>
