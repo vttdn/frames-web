@@ -43,13 +43,6 @@ h2 {
   padding-bottom: 1em;
 }
 
-.h3 {
-  text-align: right;
-  font-weight: inherit;
-  font-size: inherit;
-  line-height: inherit;
-}
-
 a,
 a:visited,
 a:active {
@@ -85,8 +78,7 @@ a:active {
 .ios-download,
 .infoCollapsedSidebar,
 .desktop-break,
-.footer,
-.h3 {
+.footer {
   display: none;
 }
 
@@ -107,7 +99,7 @@ a:active {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 400px;
+  height: 320px;
   padding-top: 20px;
   padding-bottom: 30px;
 }
@@ -196,29 +188,8 @@ a:active {
   .main p {
     position: relative;
   }
-
-  .h3 {
-    /* display: block; */
-    position: absolute;
-    top: 0;
-    left: -16px;
-    font-family: "JetBrains Mono", monospace;
-    /* font-family: monospace; */
-    font-optical-sizing: auto;
-    /* font-size: 15px; */
-        font-size: 16px;
-    /* letter-spacing: -0.011em; */
-    /* line-height: 20px; */
-    /* color: #333; */
-    transform: translate(-100%, 0);
-  }
+  
   .desktop-break {
       display: block;
     }
-}
-
-@media (min-width: 1300px) {
-  .header {
-    height: 600px;
-  }
 }
