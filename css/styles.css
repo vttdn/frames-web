@@ -144,11 +144,11 @@ a:active {
   .header {
     height: 560px;
     padding-top: 32px;
-    padding-bottom: 64px;
+    padding-bottom: 56px;
   }
 
   .main {
-    padding-top: 56px;
+    padding-top: 48px;
     min-height: 320px;
   }
 
@@ -191,4 +191,15 @@ a:active {
   .desktop-break {
       display: block;
     }
+}
+
+@media (min-width: 1440px) {
+  .header {
+    height: 600px;
+    /* padding-bottom: 64px; */
+  }
+/* 
+  .main {
+    padding-top: 56px;
+  } */
 }
