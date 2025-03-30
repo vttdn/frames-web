@@ -35,7 +35,8 @@ h1 {
   transform: translate(-0.6em, -1.44em);
 }
 
-h2 {
+h2, .h2 {
+  display: block;
   font-size: 22px;
   letter-spacing: -0.018em;
   line-height: 26px;
@@ -150,7 +151,7 @@ a:active {
     font-size: 34px;
   }
 
-  h2 {
+  h2, .h2 {
     font-size: 34px;
     letter-spacing: -0.022em;
     line-height: 41px;
@@ -175,7 +176,7 @@ a:active {
   }
 
   .main {
-    padding-top: 45px;
+    /* padding-top: 45px; */
     min-height: 320px;
   }
 
