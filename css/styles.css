@@ -85,8 +85,9 @@ a:active {
 .ios-download,
 .infoCollapsedSidebar,
 .desktop-break,
+.footer,
 .h3,
-.headline {
+.desktop-headline {
   display: none;
 }
 
@@ -98,8 +99,9 @@ a:active {
 }
 
 .mobile-only-download {
-  /* text-align: right; */
   display: block;
+  padding-top: 60px;
+  padding-bottom: 30px;
 }
 
 .header {
@@ -113,11 +115,6 @@ a:active {
 
 .main {
   padding-top: 30px;
-}
-
-.footer {
-  padding-top: 90px;
-  padding-bottom: 20px;
 }
 
 @media (min-width: 960px) {
@@ -170,13 +167,14 @@ a:active {
   }
 
   .mobile-only-download,
-  .email {
+  .email,
+  .mobile-headline {
     display: none;
   }
 
   .mac-download,
   .ios-download,
-  .headline {
+  .desktop-headline {
     display: block;
   }
 
