@@ -26,6 +26,7 @@ h1 {
   letter-spacing: -1.584px;
   line-height: 1;
   font-weight: 300;
+  padding-bottom: 0.5em;
 }
 
 .trademark {
@@ -99,7 +100,7 @@ a:active {
   justify-content: space-between;
   height: 360px;
   padding-top: 20px;
-  padding-bottom: 30px;
+  /* padding-bottom: 30px; */
 }
 
 .desktop-only {
@@ -144,7 +145,7 @@ a:active {
   .header {
     height: 520px;
     padding-top: 30px;
-    padding-bottom: 50px;
+    /* padding-bottom: 50px; */
   }
 
   .trademark {
