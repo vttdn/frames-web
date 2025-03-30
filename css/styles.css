@@ -86,8 +86,7 @@ a:active {
 .infoCollapsedSidebar,
 .desktop-break,
 .footer,
-.h3,
-.desktop-headline {
+.h3 {
   display: none;
 }
 
@@ -167,14 +166,12 @@ a:active {
   }
 
   .mobile-only-download,
-  .email,
-  .mobile-headline {
+  .email {
     display: none;
   }
 
   .mac-download,
-  .ios-download,
-  .desktop-headline {
+  .ios-download {
     display: block;
   }
 
