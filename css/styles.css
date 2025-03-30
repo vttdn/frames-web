@@ -26,7 +26,6 @@ h1 {
   letter-spacing: -1.584px;
   line-height: 1;
   font-weight: 300;
-  padding-bottom: 0.5em;
 }
 
 .trademark {
@@ -70,7 +69,7 @@ a:active {
 .ios-download img {
   position: absolute;
   top: -13px;
-  left: -54px;
+  left: -56px;
   width: 40px;
 }
 
@@ -100,7 +99,7 @@ a:active {
   justify-content: space-between;
   height: 360px;
   padding-top: 20px;
-  /* padding-bottom: 30px; */
+  padding-bottom: 30px;
 }
 
 .desktop-only {
@@ -121,8 +120,8 @@ a:active {
   }
 
   .h-wrapper {
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 32px;
+    padding-right: 32px;
   }
 
   .date {
@@ -134,8 +133,8 @@ a:active {
   .footer {
     display: flex;
     justify-content: space-between;
-    padding-top: 112px;
-    padding-bottom: 30px;
+    padding-top: 120px;
+    padding-bottom: 32px;
   }
 
   .copyright-symbol {
@@ -143,9 +142,14 @@ a:active {
   }
 
   .header {
-    height: 600px;
-    padding-top: 30px;
-    /* padding-bottom: 50px; */
+    height: 560px;
+    padding-top: 32px;
+    padding-bottom: 64px;
+  }
+
+  .main {
+    padding-top: 56px;
+    min-height: 320px;
   }
 
   .trademark {
@@ -158,7 +162,6 @@ a:active {
     line-height: 41px;
     grid-column: span 2;
     padding: 0;
-    padding-right: 64px;
   }
 
   .mobile-only-download,
@@ -174,11 +177,6 @@ a:active {
   .grid {
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
-  }
-
-  .main {
-    padding-top: 44px;
-    min-height: 320px;
   }
 
   h1 {
