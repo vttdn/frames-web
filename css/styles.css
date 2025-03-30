@@ -69,9 +69,9 @@ a:active {
 .mac-download img,
 .ios-download img {
   position: absolute;
-  top: -14px;
-  left: -53px;
-  width: 36px;
+  top: -13px;
+  left: -59px;
+  width: 40px;
 }
 
 .mac-download,
@@ -129,10 +129,10 @@ a:active {
     padding-right: 30px;
   }
 
-  .header {
-        font-size: 17px;
-    letter-spacing: -0.013em;
-    line-height: 20px;
+  .date {
+    font-size: 15px;
+    letter-spacing: -0.009em;
+    line-height: 19px;
   }
 
   .footer {
