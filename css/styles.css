@@ -85,8 +85,8 @@ a:active {
 .ios-download,
 .infoCollapsedSidebar,
 .desktop-break,
-.footer,
-.h3 {
+.h3,
+.headline {
   display: none;
 }
 
@@ -98,9 +98,8 @@ a:active {
 }
 
 .mobile-only-download {
+  /* text-align: right; */
   display: block;
-  padding-top: 60px;
-  padding-bottom: 30px;
 }
 
 .header {
@@ -114,6 +113,11 @@ a:active {
 
 .main {
   padding-top: 30px;
+}
+
+.footer {
+  padding-top: 60px;
+  padding-bottom: 20px;
 }
 
 @media (min-width: 960px) {
@@ -171,7 +175,8 @@ a:active {
   }
 
   .mac-download,
-  .ios-download {
+  .ios-download,
+  .headline {
     display: block;
   }
 
