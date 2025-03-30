@@ -98,8 +98,13 @@ a:active {
   flex-direction: column;
   justify-content: space-between;
   height: 360px;
+  /* padding-top: 20px; */
+  /* padding-bottom: 30px; */
+}
+
+.header > * {
   padding-top: 20px;
-  padding-bottom: 30px;
+    padding-bottom: 30px;
 }
 
 .desktop-only {
@@ -142,9 +147,14 @@ a:active {
   }
 
   .header {
-    height: 560px;
+    height: calc(100vh - 32px);
+    /* padding-top: 32px; */
+    /* padding-bottom: 0; */
+  }
+
+  .header > * {
     padding-top: 32px;
-    padding-bottom: 56px;
+    padding-bottom: 50px;
   }
 
   .main {
@@ -191,15 +201,4 @@ a:active {
   .desktop-break {
       display: block;
     }
-}
-
-@media (min-width: 1440px) {
-  .header {
-    height: 600px;
-    /* padding-bottom: 64px; */
-  }
-/* 
-  .main {
-    padding-top: 56px;
-  } */
 }
