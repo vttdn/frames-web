@@ -1,3 +1,17 @@
+@font-face {
+    font-family: 'PPNeueMontreal';
+    src: url('PPNeueMontreal-Book.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PPNeueMontreal';
+    src: url('PPNeueMontreal-Medium.otf') format('opentype');
+    font-weight: 500;
+    font-style: normal;
+}
+
 body {
   font-family: "Inter", sans-serif;
     font-size: 14px;
@@ -28,13 +42,13 @@ h1 {
   font-size: 64px;
   letter-spacing: -1.584px;
   line-height: 1;
-  font-weight: 350;
+  font-weight: 330;
 }
 
 .trademark {
   display: inline-block;
   font-size: 21.33px;
-  font-weight: 250;
+  font-weight: 200;
   transform: translate(-0.6em, -1.44em);
 }
 
@@ -43,7 +57,7 @@ h2, .h2 {
   font-size: 22px;
   letter-spacing: -0.018em;
   line-height: 26px;
-  font-weight: 450;
+  font-weight: 500;
   color: #1D1919;
 }
 
@@ -89,7 +103,6 @@ a:active {
 .footer {
   background: white;
   color: black;
-  font-weight: 400;
 }
 
 .mobile-only-download {
@@ -208,5 +221,11 @@ a:active {
   
   .desktop-break {
       display: block;
+    }
+}
+
+@media (min-width: 1400px) {
+  body {
+      zoom: 1.2;
     }
 }
