@@ -100,7 +100,7 @@ a:active {
     background: black;
     /* min-height: 100vh; */
     /* padding: 0 0 0 16px; */
-    padding-top: 16%;
+    padding-top: 50%;
 }
 
 .header img {
@@ -130,6 +130,10 @@ a:active {
   }
   .mobile-only-download {
   display: none;
+}
+
+.header {
+    padding-top: 16%;
 }
 
 .header img {
