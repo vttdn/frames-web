@@ -14,7 +14,7 @@ body {
   color: white;
   background: #000;
   box-sizing: border-box;
-  font-weight: 500;
+  font-weight: 400;
 
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -27,6 +27,10 @@ p,
 img {
   margin: 0;
   padding: 0;
+}
+
+* { 
+  box-sizing: border-box;
 }
 
 h1 {
@@ -86,11 +90,13 @@ a:active {
 }
 
 .header {
-  position:relative;
     line-height: 0;
-    padding-left: 16px;
-    width: 100%;
     background: black;
+    padding: 0 0 0 16px;
+}
+
+.header img {
+  width: 100%;
 }
 
 .main {
@@ -151,8 +157,8 @@ a:active {
     font-weight: 300;
   }
 
-  .header {
-    padding-left: 32px;
+  .header img {
+    padding: 0 0 0 32px;
   }
 
   .main {
