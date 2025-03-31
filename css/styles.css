@@ -122,9 +122,10 @@ a:active {
 }
 
 .header {
+  position:relative;
     line-height: 0;
     padding-left: 16px;
-    padding-top: 12%;
+    padding-top: 8%;
 
   /* overflow-x: hidden;
   display: flex;
@@ -138,6 +139,15 @@ a:active {
     background-size: 100%; 
     background-position: bottom;  */
     /* border-bottom: 1px solid white; */
+}
+
+.whitefix {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 2px;
+  width: 100%;
+  background: white;
 }
 
 .cbackground {
@@ -249,7 +259,7 @@ img {
   .header {
     line-height: 0;
     padding-left: 32px;
-    padding-top: 15%;
+    /* padding-top: 15%; */
     /* height: 680px; */
     /* padding-top: 32px; */
     /* padding-bottom: 0; */
