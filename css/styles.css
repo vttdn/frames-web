@@ -119,11 +119,12 @@ a:active {
 }
 
 .header {
-  position: relative;
-  overflow-x: hidden;
+    line-height: 0;
+
+  /* overflow-x: hidden;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-between; */
   /* height: 400px; */
   /* padding-top: 20px; */
   /* padding-bottom: 30px; */
@@ -131,6 +132,7 @@ a:active {
     background-repeat: no-repeat;
     background-size: 100%; 
     background-position: bottom;  */
+    /* border-bottom: 1px solid white; */
 }
 
 .cbackground {
@@ -147,6 +149,11 @@ a:active {
 .header > * {
   /* padding-top: 16px;
     padding-bottom: 24px; */
+}
+
+img {
+  border: 0;
+  padding: 0;
 }
 
 .desktop-only {
@@ -232,6 +239,9 @@ a:active {
   }
 
   .header {
+    line-height: 0;
+    padding-left: 32px;
+    padding-top: 128px;
     /* height: 680px; */
     /* padding-top: 32px; */
     /* padding-bottom: 0; */
