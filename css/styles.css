@@ -94,7 +94,8 @@ a:active {
 }
 
 .header img {
-  width: 100%;
+    padding-left: 16px;
+    width: 100%;
 }
 
 .main {
@@ -117,6 +118,15 @@ a:active {
   .mobile-only-download {
   display: none;
 }
+
+.header img {
+    padding-left: 24px;
+}
+
+.h-wrapper {
+  padding-left: 24px;
+  padding-right: 24px;
+  }
 
 .footer {
     display: flex;
