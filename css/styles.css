@@ -23,7 +23,7 @@
 }
 
 body {
-  font-family: "Times", serif;
+  font-family: 'Times New Roman', Times, serif;
   font-size: 15px;
     letter-spacing: -0.009em;
     line-height: 19px;
@@ -234,7 +234,7 @@ img {
   .footer {
     display: flex;
     /* justify-content: space-between; */
-    padding-top: 128px;
+    padding-top: 32px;
     padding-bottom: 32px;
  font-size: 16px;
     letter-spacing: -0.011em;
