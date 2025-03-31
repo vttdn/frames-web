@@ -1,5 +1,5 @@
 body {
-  font-family: Times, 'Times New Roman', serif;
+  font-family: "Inter", 'Times New Roman', serif;
   font-size: 15px;
     letter-spacing: -0.009em;
     line-height: 19px;
@@ -14,6 +14,7 @@ body {
   color: white;
   background: #000;
   box-sizing: border-box;
+  font-weight: 500;
 
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -41,7 +42,6 @@ h2, .h2 {
   letter-spacing: -0.018em;
   line-height: 28px;
   font-weight: 500;
-  /* color: #222; */
   margin-bottom: 24px;
     grid-column: span 2;
 }
@@ -75,7 +75,8 @@ a:active {
 .main,
 .footer {
   background: white;
-  color: black;
+  /* color: black; */
+  color: #222;
 }
 
 .mobile-only-download {
@@ -127,9 +128,9 @@ a:active {
 
 @media (min-width: 960px) {
   body {
-            font-size: 20px;
+            font-size: 18px;
     letter-spacing: -0.014em;
-    line-height: 24px;
+    line-height: 22px;
   }
 
   .h-wrapper {
@@ -164,9 +165,9 @@ a:active {
   }
 
   h2, .h2 {
-    font-size: 36px;
+    font-size: 34px;
     letter-spacing: -0.022em;
-    line-height: 44px;
+    line-height: 42px;
     padding: 0;
       /* zoom: 1.3; */
   }
