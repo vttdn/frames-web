@@ -47,9 +47,9 @@ h1 {
 
 .trademark {
   display: inline-block;
-  font-size: 21.33px;
+  font-size: 22px;
   font-weight: 200;
-  transform: translate(-0.6em, -1.44em);
+  transform: translate(-0.6em, -1.42em);
 }
 
 h2, .h2 {
@@ -226,6 +226,6 @@ a:active {
 
 @media (min-width: 1400px) {
   body {
-      zoom: 1.2;
+      zoom: 1.15;
     }
 }
