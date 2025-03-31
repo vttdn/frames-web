@@ -59,6 +59,7 @@ h2, .h2 {
   line-height: 26px;
   font-weight: 500;
   color: #19191d;
+  margin-bottom: 16px;
 }
 
 a,
@@ -74,8 +75,8 @@ a:active {
 }
 
 .h-wrapper {
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-left: 16px;
+  padding-right: 16px;
 }
 
 .mac-download,
@@ -107,21 +108,26 @@ a:active {
 
 .mobile-only-download {
   display: block;
-  padding-bottom: 30px;
+  padding-bottom: 24px;
+  padding-top: 64px;
 }
 
 .header {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 360px;
+  height: 380px;
   /* padding-top: 20px; */
   /* padding-bottom: 30px; */
 }
 
+.main {
+    padding-top: 24px;
+  }
+
 .header > * {
-  padding-top: 20px;
-    padding-bottom: 30px;
+  padding-top: 16px;
+    padding-bottom: 24px;
 }
 
 .desktop-only {
