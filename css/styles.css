@@ -123,11 +123,18 @@ a:active {
     zoom: 0.875;
   }
 
+  .desktop-only {
+    display: none;
+  }
 @media (min-width: 700px) {
   body {
     font-size: 17px;
     letter-spacing: -0.013em;
     line-height: 20px;
+  }
+
+  .desktop-only {
+    display: block;
   }
 
   h1 {
@@ -156,7 +163,7 @@ a:active {
 
 .footer {
     display: flex;
-    padding-top: 48px;
+    padding-top: 120px;
     padding-bottom: 24px;
     gap: 64px;
     justify-content: left;
@@ -184,7 +191,7 @@ a:active {
 
   .footer {
     display: flex;
-    padding-top: 160px;
+    padding-top: 16%;
     padding-bottom: 32px;
   }
 
