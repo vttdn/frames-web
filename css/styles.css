@@ -24,9 +24,12 @@
 
 body {
   font-family: "Times", serif;
-    font-size: 14px;
+  font-size: 15px;
+    letter-spacing: -0.009em;
+    line-height: 19px;
+    /* font-size: 14px;
   letter-spacing: -0.006em;
-  line-height: 17px;
+  line-height: 17px; */
   /* font-size: 13px;
   letter-spacing: -0.003em;
   line-height: 16px; */
@@ -64,9 +67,9 @@ h1 {
 
 h2, .h2 {
   display: block;
-  font-size: 22px;
+  font-size: 24px;
   letter-spacing: -0.018em;
-  line-height: 26px;
+  line-height: 28px;
   font-weight: 500;
   /* color: #222; */
   margin-bottom: 24px;
@@ -120,6 +123,8 @@ a:active {
 
 .header {
     line-height: 0;
+    padding-left: 16px;
+    padding-top: 12%;
 
   /* overflow-x: hidden;
   display: flex;
@@ -203,9 +208,12 @@ img {
     grid-column: span 1;
   }
   body {
-    font-size: 24px;
+    /* font-size: 24px;
     letter-spacing: -0.013em;
-    line-height: 28px;
+    line-height: 28px; */
+            font-size: 20px;
+    letter-spacing: -0.014em;
+    line-height: 24px;
     /* font-size: 18px;
     letter-spacing: -0.014em;
     line-height: 22px; */
@@ -228,9 +236,9 @@ img {
     /* justify-content: space-between; */
     padding-top: 128px;
     padding-bottom: 32px;
-        font-size: 18px;
-    letter-spacing: -0.014em;
-    line-height: 22px; */
+ font-size: 16px;
+    letter-spacing: -0.011em;
+    line-height: 20px;
     /* zoom: 1.15; */
   }
 
@@ -241,7 +249,7 @@ img {
   .header {
     line-height: 0;
     padding-left: 32px;
-    padding-top: 128px;
+    padding-top: 15%;
     /* height: 680px; */
     /* padding-top: 32px; */
     /* padding-bottom: 0; */
@@ -285,9 +293,9 @@ img {
   }
 
   h2, .h2 {
-    font-size: 40px;
+    font-size: 36px;
     letter-spacing: -0.022em;
-    line-height: 48px;
+    line-height: 44px;
     padding: 0;
       /* zoom: 1.3; */
   }
