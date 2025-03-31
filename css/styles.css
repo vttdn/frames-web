@@ -60,6 +60,7 @@ h2, .h2 {
   font-weight: 500;
   color: #19191d;
   margin-bottom: 24px;
+    grid-column: span 2;
 }
 
 a,
@@ -82,14 +83,6 @@ a:active {
 .mac-download,
 .ios-download {
   position: relative;
-}
-
-.mac-download img,
-.ios-download img {
-  position: absolute;
-  top: -13px;
-  left: -54px;
-  width: 40px;
 }
 
 .mac-download,
@@ -134,12 +127,46 @@ a:active {
     display: none;
   }
 
+@media (min-width: 700px) {
+  .grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .email {
+    grid-column: span 2;
+  }
+  .mobile-only-download {
+  display: none;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 32px;
+    padding-bottom: 24px;
+  }
+
+  .ios-download {
+    display: block;
+  }
+
+  /* .mac-download img, */
+  .ios-download img {
+    position: absolute;
+    top: -15px;
+    left: -42px;
+    width: 32px;
+  }
+}
+
 @media (min-width: 960px) {
   .mobile-only {
     display: none;
   }
   .desktop-only {
     display: block;
+  }
+  .email {
+    grid-column: span 1;
   }
   body {
     font-size: 17px;
@@ -179,6 +206,14 @@ a:active {
     /* padding-bottom: 0; */
   }
 
+.mac-download img,
+.ios-download img {
+  position: absolute;
+  top: -13px;
+  left: -54px;
+  width: 40px;
+}
+
   .header > * {
     padding-top: 32px;
     padding-bottom: 48px;
@@ -197,12 +232,10 @@ a:active {
     font-size: 34px;
     letter-spacing: -0.022em;
     line-height: 41px;
-    grid-column: span 2;
     padding: 0;
   }
 
-  .mobile-only-download,
-  .email {
+  .mobile-only-download {
     display: none;
   }
 
@@ -213,7 +246,6 @@ a:active {
 
   .grid {
     grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
   }
 
   h1 {
