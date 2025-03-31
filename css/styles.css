@@ -119,18 +119,23 @@ a:active {
     /* display: none; */
     margin-top: auto;
     padding-bottom: 24px;
-    padding-top: 32px;
+    padding-top: 96px;
     zoom: 0.875;
   }
 
   .desktop-only {
     display: none;
   }
+
 @media (min-width: 700px) {
   body {
     font-size: 17px;
     letter-spacing: -0.013em;
     line-height: 20px;
+  }
+
+  .mobile-only {
+    display: none;
   }
 
   .desktop-only {
