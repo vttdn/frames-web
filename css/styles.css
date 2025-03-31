@@ -119,7 +119,7 @@ a:active {
     /* display: none; */
     margin-top: auto;
     padding-bottom: 24px;
-    padding-top: 32px;
+    padding-top: 64px;
     zoom: 0.875;
   }
 
@@ -163,7 +163,7 @@ a:active {
 
 .footer {
     display: flex;
-    padding-top: 96px;
+    padding-top: 64px;
     padding-bottom: 32px;
     gap: 64px;
     justify-content: left;
@@ -190,9 +190,10 @@ a:active {
   }
 
   .footer {
-    display: flex;
-    padding-top: 16%;
+    /* display: flex; */
+    /* padding-top: 16%; */
     padding-bottom: 32px;
+    padding-top: 96px;
   }
 
   .copyright-symbol {
