@@ -1,11 +1,11 @@
 body {
   font-family: "Inter", 'Times New Roman', serif;
-  font-size: 15px;
+  /* font-size: 15px;
     letter-spacing: -0.009em;
-    line-height: 19px;
-    /* font-size: 14px;
+    line-height: 19px; */
+    font-size: 14px;
   letter-spacing: -0.006em;
-  line-height: 17px; */
+  line-height: 17px;
   /* font-size: 13px;
   letter-spacing: -0.003em;
   line-height: 16px; */
@@ -134,9 +134,9 @@ a:active {
 
 @media (min-width: 960px) {
   body {
-            font-size: 18px;
-    letter-spacing: -0.014em;
-    line-height: 22px;
+    font-size: 17px;
+    letter-spacing: -0.013em;
+    line-height: 20px;
   }
 
   .h-wrapper {
@@ -146,7 +146,7 @@ a:active {
 
   .footer {
     display: flex;
-    padding-top: 48px;
+    padding-top: 80px;
     padding-bottom: 32px;
     font-size: 16px;
     letter-spacing: -0.011em;
