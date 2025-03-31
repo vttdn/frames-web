@@ -73,6 +73,7 @@ h1 {
   line-height: 0;
   background: black;
   aspect-ratio: 1/0.75;
+  overflow-x:hidden;
 }
 
 .header-fix {
@@ -85,8 +86,8 @@ h1 {
 }
 
 .header img {
-  padding-left: 16px;
   width: 100%;
+  padding-left: 16px;
 }
 
 .main {
