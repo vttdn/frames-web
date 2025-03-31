@@ -124,21 +124,8 @@ a:active {
 .header {
   position:relative;
     line-height: 0;
-    padding-left: 16px;
-    padding-top: 8%;
-
-  /* overflow-x: hidden;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between; */
-  /* height: 400px; */
-  /* padding-top: 20px; */
-  /* padding-bottom: 30px; */
-  /* background-image: url('/img/cover.svg');
-    background-repeat: no-repeat;
-    background-size: 100%; 
-    background-position: bottom;  */
-    /* border-bottom: 1px solid white; */
+    /* padding-left: 16px; */
+    /* padding-top: 32px; */
 }
 
 .whitefix {
@@ -192,6 +179,9 @@ img {
     padding-bottom: 24px;
     gap: 64px;
     justify-content: left;
+  font-size: 13px;
+  letter-spacing: -0.003em;
+  line-height: 16px;
   }
 
   .ios-download {
@@ -258,7 +248,8 @@ img {
 
   .header {
     line-height: 0;
-    padding-left: 32px;
+    /* padding-left: 32px; */
+    /* padding-top: 48px; */
     /* padding-top: 15%; */
     /* height: 680px; */
     /* padding-top: 32px; */
