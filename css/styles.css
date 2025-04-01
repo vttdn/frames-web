@@ -50,7 +50,7 @@ h1 {
   justify-content: space-between;
   min-height: 100vh;
   padding-top: 24px;
-  padding-bottom: 24px;
+  padding-bottom: 8px;
   padding-left: 16px;
   padding-right: 16px;
   background: #a9aeb7; /* EAEAEA */
@@ -117,7 +117,7 @@ h1 {
 
   .wrapper {
     padding-top: 32px;
-    padding-bottom: 32px;
+    padding-bottom: 24px;
     padding-left: 24px;
     padding-right: 24px;
   }
@@ -137,5 +137,12 @@ h1 {
   img {
     width: 48px;
     margin-right: 16px;
+  }
+
+  .wrapper {
+    padding-top: 32px;
+    padding-bottom: 32px;
+    padding-left: 24px;
+    padding-right: 24px;
   }
 }
