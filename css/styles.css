@@ -38,7 +38,7 @@ h1 {
   font-weight: 350;
   letter-spacing: -0.022em;
   text-transform: uppercase;
-  word-spacing: 0.2em;
+  word-spacing: 0.1em;
   text-align: justify;
   text-align-last: justify;
 }
@@ -104,6 +104,7 @@ h1 {
 
   h1 {
     font-size: 80px;
+  word-spacing: 0.2em;
   }
   .grid {
     grid-template-columns: repeat(3, 1fr);
