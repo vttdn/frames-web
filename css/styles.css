@@ -1,8 +1,8 @@
 body {
   font-family: "Inter", "Inter", sans-serif;
-  font-size: 14px;
-  letter-spacing: -0.006em;
-  line-height: 17px;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: 14px;
   font-style: normal;
   font-weight: 500;
   font-optical-sizing: auto;
@@ -10,7 +10,9 @@ body {
   -moz-osx-font-smoothing: grayscale;
   color: white;
 
-  background: white;
+  /* background: black; */
+
+  background: #A9AEB7; /* EAEAEA */
   box-sizing: border-box;
   /* padding: 8px; */
 }
@@ -56,8 +58,6 @@ header {
   flex-direction: column;
   justify-content: space-between;
   min-height: 100vh;
-
-  background: #A9AEB7;
 }
 
 main {
@@ -69,24 +69,21 @@ main p {
   position: relative;
 }
 
-.download {
-  text-align: center;
-}
-
 img {
-  width: 144px;
+  width: 48px;
+  margin-right: 16px;
 }
 
 .title {
   text-align: left;
-  /* font-weight: 500; */
+  /* font-weight: 600; */
 }
 
 .subtitle {
   /* color: #666; */
-  font-size: 15px;
+  /* font-size: 15px;
     letter-spacing: -0.009em;
-    line-height: 19px;
+    line-height: 19px; */
 }
 .grid {
   display: grid;
@@ -95,7 +92,7 @@ img {
 
 .grid2 {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
 
 }
 
@@ -106,7 +103,8 @@ img {
 
 .p-cont {
   display:flex;
-  justify-content: flex-end;
+  justify-content: flex-start;
+  align-items: center;
 }
 
 .infoCollapsedSidebar {
@@ -122,12 +120,25 @@ img {
 }
 
 @media (min-width: 600px) {
+  body {
+    font-size: 13px;
+    letter-spacing: -0.003em;
+    line-height: 16px;
+  }
+
   h1 {
     font-size: 80px;
   }
 }
 
 @media (min-width: 940px) {
+  body {
+    font-size: 15px;
+    letter-spacing: -0.009em;
+    line-height: 19px;
+
+  }
+
   h1 {
     font-size: 108px;
   }
