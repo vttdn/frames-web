@@ -1,8 +1,8 @@
 body {
   font-family: "Inter", "Inter", sans-serif;
-    font-size: 13px;
-    letter-spacing: -0.003em;
-    line-height: 16px;
+    font-size: 12px;
+    letter-spacing: 0;
+    line-height: 15px;
   font-style: normal;
   font-weight: 500;
   font-optical-sizing: auto;
@@ -83,6 +83,11 @@ h1 {
 }
 
 @media (min-width: 600px) {
+  body {
+        font-size: 13px;
+    letter-spacing: -0.003em;
+    line-height: 16px;
+  }
 
   h1 {
     font-size: 80px;
