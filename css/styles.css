@@ -44,29 +44,15 @@ h1 {
   text-align-last: justify;
 }
 
-.h-wrapper {
-  padding-left: 24px;
-  padding-right: 24px;
-}
-header {
-  padding-top: 32px;
-  /* aspect-ratio: 21/9; */
-}
-
-.main-wrapper {
+.wrapper {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   min-height: 100vh;
-}
-
-main {
-    padding-top: calc(100vh / 2);
-    padding-bottom: 32px
-}
-
-main p {
-  position: relative;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  padding-left: 24px;
+  padding-right: 24px;
 }
 
 img {
@@ -74,34 +60,23 @@ img {
   margin-right: 16px;
 }
 
-.title {
-  text-align: left;
-  /* font-weight: 600; */
-}
-
-.subtitle {
-  /* color: #666; */
-  /* font-size: 15px;
-    letter-spacing: -0.009em;
-    line-height: 19px; */
-}
 .grid {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
 }
 
-.grid2 {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-
+.footer {
+  display: flex;
+  justify-content: flex-end;
 }
-
+/* 
 .grid > *:first-child {
  grid-column: 1 / 3;
  margin-top: auto;
-}
+} */
 
-.p-cont {
+.download-button {
   display:flex;
   justify-content: flex-start;
   align-items: center;
@@ -109,14 +84,6 @@ img {
 
 .infoCollapsedSidebar {
   display: none;
-}
-
-.bigtext {
-  font-size: 240px;
-  line-height: 180px;
-  font-weight: 300;
-  letter-spacing: -0.022em;
-  grid-column: 5 / 6;
 }
 
 @media (min-width: 600px) {
