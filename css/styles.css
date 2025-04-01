@@ -69,14 +69,16 @@ main p {
   position: relative;
 }
 
+.download {
+  text-align: center;
+}
+
 img {
-  position: absolute;
-  top: -2px;
-  left: -54px;
-  width: 44px;
+  width: 180px;
 }
 
 .title {
+  text-align: left;
   /* font-weight: 500; */
 }
 
