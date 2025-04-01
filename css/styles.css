@@ -5,6 +5,8 @@ body {
   font-weight: 500;
   color: white;
   background: #000; /* EAEAEA */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 h1,
@@ -36,8 +38,6 @@ h1 {
   word-spacing: 0.1em;
   text-align: justify;
   text-align-last: justify;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 
 .wrapper {
