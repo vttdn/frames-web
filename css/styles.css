@@ -6,8 +6,6 @@ body {
   font-style: normal;
   font-weight: 500;
   font-optical-sizing: auto;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
   color: white;
 
   /* background: black; */
@@ -41,6 +39,8 @@ h1 {
   word-spacing: 0.1em;
   text-align: justify;
   text-align-last: justify;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 .wrapper {
