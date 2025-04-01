@@ -1,22 +1,13 @@
 body {
   font-family: "Inter", "Inter", sans-serif;
-    font-size: 12px;
-    letter-spacing: 0;
-    line-height: 15px;
-  font-style: normal;
+  font-size: 12px;
+  line-height: 15px;
   font-weight: 500;
-  font-optical-sizing: auto;
   color: white;
-
-  /* background: black; */
-
   background: #000; /* EAEAEA */
-  /* padding: 8px; */
 }
 
 h1,
-h2,
-h3,
 p,
 img {
   margin: 0;
@@ -28,6 +19,10 @@ a:visited,
 a:active {
   color: inherit;
   text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
 }
 
 h1 {
@@ -56,10 +51,10 @@ h1 {
   background: #a9aeb7; /* EAEAEA */
 }
 
-  img {
-    width: 36px;
-    margin-right: 10px;
-  }
+img {
+  width: 36px;
+  margin-right: 10px;
+}
 
 .grid {
   display: grid;
@@ -74,23 +69,27 @@ h1 {
 
 .download-button {
   display: flex;
-  justify-content: flex-start;
   align-items: center;
+  width: fit-content;
 }
 
-.infoCollapsedSidebar {
-  display: none;
-}
-
+.infoCollapsedSidebar,
 .desktop-only {
   display: none;
 }
 
 @media (min-width: 600px) {
   body {
-        font-size: 13px;
+    font-size: 13px;
     letter-spacing: -0.003em;
     line-height: 16px;
+  }
+
+  .wrapper {
+    padding-top: 32px;
+    padding-bottom: 24px;
+    padding-left: 24px;
+    padding-right: 24px;
   }
 
   .desktop-only {
@@ -104,8 +103,9 @@ h1 {
 
   h1 {
     font-size: 80px;
-  word-spacing: 0.2em;
+    word-spacing: 0.2em;
   }
+
   .grid {
     grid-template-columns: repeat(3, 1fr);
   }
@@ -113,13 +113,6 @@ h1 {
   .footer {
     display: flex;
     justify-content: flex-end;
-  }
-
-  .wrapper {
-    padding-top: 32px;
-    padding-bottom: 24px;
-    padding-left: 24px;
-    padding-right: 24px;
   }
 }
 
