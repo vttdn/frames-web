@@ -57,8 +57,8 @@ h1 {
 }
 
   img {
-    width: 40px;
-    margin-right: 12px;
+    width: 36px;
+    margin-right: 10px;
   }
 
 .grid {
@@ -82,11 +82,24 @@ h1 {
   display: none;
 }
 
+.desktop-only {
+  display: none;
+}
+
 @media (min-width: 600px) {
   body {
         font-size: 13px;
     letter-spacing: -0.003em;
     line-height: 16px;
+  }
+
+  .desktop-only {
+    display: inherit;
+  }
+
+  img {
+    width: 40px;
+    margin-right: 12px;
   }
 
   h1 {
