@@ -13,7 +13,6 @@ body {
   /* background: black; */
 
   background: #000; /* EAEAEA */
-  box-sizing: border-box;
   /* padding: 8px; */
 }
 
@@ -45,6 +44,7 @@ h1 {
 }
 
 .wrapper {
+  box-sizing: border-box;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
