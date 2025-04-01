@@ -12,7 +12,7 @@ body {
 
   /* background: black; */
 
-  background: #a9aeb7; /* EAEAEA */
+  background: #fff; /* EAEAEA */
   box-sizing: border-box;
   /* padding: 8px; */
 }
@@ -49,10 +49,11 @@ h1 {
   flex-direction: column;
   justify-content: space-between;
   min-height: 100vh;
-  padding-top: 32px;
-  padding-bottom: 32px;
-  padding-left: 24px;
-  padding-right: 24px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  padding-left: 16px;
+  padding-right: 16px;
+  background: #a9aeb7; /* EAEAEA */
 }
 
   img {
@@ -93,6 +94,13 @@ h1 {
   .footer {
     display: flex;
     justify-content: flex-end;
+  }
+
+  .wrapper {
+    padding-top: 32px;
+    padding-bottom: 32px;
+    padding-left: 24px;
+    padding-right: 24px;
   }
 }
 
