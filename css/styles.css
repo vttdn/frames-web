@@ -41,6 +41,8 @@ h1 {
 }
 
 .wrapper {
+    position:relative;
+    overflow: hidden;
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
@@ -75,9 +77,15 @@ img {
   width: fit-content;
 }
 
-.infoCollapsedSidebar,
 .desktop-only {
   display: none;
+}
+
+.infoCollapsedSidebar {
+  position: absolute;
+  top: 0;
+  right: -300px;
+  width: 300px;
 }
 
 @media (min-width: 600px) {
