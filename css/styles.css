@@ -4,10 +4,11 @@ body {
   background: #000; /* EAEAEA */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-
-  font-size: 11px;
-  line-height: 13px;
   font-weight: 500;
+
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: 16px;
 }
 
 h1,
@@ -42,8 +43,8 @@ h1 {
 }
 
 .wrapper {
-    position:relative;
-    overflow: hidden;
+  position: relative;
+  overflow: hidden;
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
@@ -90,12 +91,6 @@ img {
 }
 
 @media (min-width: 600px) {
-  body {
-    font-size: 12px;
-    letter-spacing: 0;
-    line-height: 16px;
-  }
-
   .wrapper {
     padding-top: 32px;
     padding-bottom: 20px;
