@@ -50,10 +50,7 @@ h1 {
   flex-direction: column;
   justify-content: space-between;
   min-height: 100vh;
-  padding-top: 10px;
-  padding-bottom: 0;
-  padding-left: 10px;
-  padding-right: 10px;
+    padding: 15px 10px 0;
   background: #a9aeb7; /* EAEAEA */
 }
 
@@ -92,10 +89,7 @@ img {
 
 @media (min-width: 600px) {
   .wrapper {
-    padding-top: 32px;
-    padding-bottom: 20px;
-    padding-left: 24px;
-    padding-right: 24px;
+    padding: 30px 20px;
   }
 
   .desktop-only {
@@ -139,9 +133,6 @@ img {
   }
 
   .wrapper {
-    padding-top: 32px;
-    padding-bottom: 28px;
-    padding-left: 24px;
-    padding-right: 24px;
+    padding: 30px 20px;
   }
 }
