@@ -1,12 +1,13 @@
 body {
   font-family: "Helvetica Neue", "Helvetica", "Inter", sans-serif;
-  font-size: 11px;
-  line-height: 13px;
-  font-weight: 500;
   color: white;
   background: #000; /* EAEAEA */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  font-size: 11px;
+  line-height: 13px;
+  font-weight: 500;
 }
 
 h1,
@@ -24,7 +25,7 @@ a:active {
 }
 
 @media (hover: hover) {
-  a:hover {
+  main a:hover {
     text-decoration: underline;
   }
 }
