@@ -76,7 +76,8 @@ img {
   width: fit-content;
 }
 
-.desktop-only {
+.desktop-only,
+.privacy {
   display: none;
 }
 
