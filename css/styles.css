@@ -104,7 +104,7 @@ img {
   }
 
   h1 {
-    font-size: 80px;
+    font-size: clamp(2.75rem, 6.3vw + 1rem, 8rem);
     word-spacing: 0.2em;
   }
 
@@ -123,10 +123,6 @@ img {
     font-size: 16px;
     letter-spacing: -0.011em;
     line-height: 19px;
-  }
-
-  h1 {
-    font-size: 108px;
   }
 
   img {
