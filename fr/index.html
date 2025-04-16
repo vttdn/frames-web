@@ -9,46 +9,31 @@
     <link rel="alternate" hreflang="fr" href="https://withframes.com/fr/" />
     <link rel="alternate" hreflang="es" href="https://withframes.com/es/" />
     <link rel="alternate" hreflang="it" href="https://withframes.com/it/" />
+    <link rel="alternate" hreflang="de" href="https://withframes.com/de/" />
+    <link rel="alternate" hreflang="nl" href="https://withframes.com/nl/" />
     <link rel="alternate" hreflang="x-default" href="https://withframes.com/" />
 
     <title>Frames - Carnet de Photographie Argentique et Métadonnées</title>
-    <meta
-      name="description"
-      content="Frames est votre carnet de photographie argentique. Notez vos réglages, organisez vos pellicules et insérez les métadonnées dans vos scans."
-    />
-    <meta
-      name="keywords"
-      content="frames,photographie argentique,notes photo,notes pellicule,métadonnées photo,exif argentique,carnet photo,application photo argentique,film 35mm,moyen format,appareil argentique,carnet numérique"
-    />
+    <meta name="description" content="Frames est votre carnet de photographie argentique. Notez vos réglages, organisez vos pellicules et insérez les métadonnées dans vos scans." />
+    <meta name="keywords" content="fframes,photographie argentique,notes photo,notes pellicule,métadonnées photo,exif argentique,carnet photo,application photo argentique,film 35mm,moyen format,appareil argentique,carnet numérique" />
 
     <link rel="stylesheet" href="/css/normalize.min.css" />
     <link rel="stylesheet" href="/css/styles.css" />
+    <!-- <link rel="stylesheet" href="/css/styles.min.css" /> -->
 
     <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:site" content="@withframes" />
     <meta name="twitter:creator" content="@withframes" />
-    <meta
-      name="twitter:title"
-      content="Frames – Carnet de Photographie Argentique et Métadonnées"
-    />
-    <meta
-      name="twitter:description"
-      content="Notez vos réglages argentiques, organisez vos pellicules, et insérez les métadonnées EXIF dans vos scans avec Frames pour iOS et macOS."
-    />
+    <meta name="twitter:title" content="Frames - Carnet de Photographie Argentique et Métadonnées" />
+    <meta name="twitter:description" content="Frames est votre carnet de photographie argentique. Notez vos réglages, organisez vos pellicules et insérez les métadonnées dans vos scans." />
     <meta name="twitter:image" content="https://withframes.com/og-image.jpg" />
 
     <!-- Open Graph -->
     <meta property="og:type" content="website" />
     <meta property="og:site_name" content="Frames" />
-    <meta
-      property="og:title"
-      content="Frames – Carnet de Photographie Argentique et Métadonnées"
-    />
-    <meta
-      property="og:description"
-      content="Notez vos réglages argentiques, organisez vos pellicules, et insérez les métadonnées EXIF dans vos scans avec Frames pour iOS et macOS."
-    />
+    <meta property="og:title" content="Frames - Carnet de Photographie Argentique et Métadonnées" />
+    <meta property="og:description" content="Frames est votre carnet de photographie argentique. Notez vos réglages, organisez vos pellicules et insérez les métadonnées dans vos scans." />
     <meta property="og:url" content="https://withframes.com/fr/" />
     <meta property="og:image" content="https://withframes.com/og-image.jpg" />
 
@@ -67,7 +52,7 @@
     <link rel="apple-touch-icon" sizes="180x180" href="/favicon-180x180.png" />
     <meta name="apple-itunes-app" content="app-id=6744057317" />
 
-    <link rel="manifest" href="/site.webmanifest" />
+    <link rel="manifest" href="site.webmanifest" />
     <meta name="theme-color" content="#000" />
 
     <script
@@ -79,22 +64,57 @@
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
-        "@type": "Organization",
-        "name": "Frames",
-        "url": "https://withframes.com",
-        "logo": "https://withframes.com/favicon-180x180.png",
-        "contactPoint": {
-          "@type": "ContactPoint",
-          "email": "bonjour@withframes.com",
-          "contactType": "Customer Support",
-          "areaServed": "Worldwide",
-          "availableLanguage": "English"
-        },
-        "sameAs": [
-          "https://twitter.com/withframes",
-          "https://linkedin.com/company/withframes/",
-          "https://apps.apple.com/us/app/frames-film-notes/id6744057317",
-          "https://apps.apple.com/app/frames-film-metadata/id6744063354"
+        "@graph": [
+          {
+            "@type": "SoftwareApplication",
+            "name": "Frames iOS",
+            "operatingSystem": "iOS",
+            "applicationCategory": "PhotographyApplication",
+            "applicationSubCategory": "Photography",
+            "description": "Frames est votre carnet de photographie argentique. Notez vos réglages, organisez vos pellicules et insérez les métadonnées dans vos scans.",
+            "image": "https://withframes.com/og-image-alt.jpg",
+            "url": "https://apps.apple.com/us/app/frames-film-notes/id6744057317",
+            "author": {
+              "@type": "Person",
+              "name": "Vincent Tantardini"
+            },
+            "offers": {
+              "@type": "Offer",
+              "price": "0",
+              "priceCurrency": "USD",
+              "availability": "https://schema.org/InStock"
+            },
+            "aggregateRating": {
+              "@type": "AggregateRating",
+              "ratingValue": "5",
+              "reviewCount": "4"
+            }
+          },
+          {
+            "@type": "SoftwareApplication",
+            "name": "Frames macOS",
+            "operatingSystem": "macOS",
+            "applicationCategory": "PhotographyApplication",
+            "applicationSubCategory": "Photography",
+            "description": "Frames est votre carnet de photographie argentique. Notez vos réglages, organisez vos pellicules et insérez les métadonnées dans vos scans.",
+            "image": "https://withframes.com/og-image-alt.jpg",
+            "url": "https://apps.apple.com/app/frames-film-metadata/id6744063354",
+            "author": {
+              "@type": "Person",
+              "name": "Vincent Tantardini"
+            },
+            "offers": {
+              "@type": "Offer",
+              "price": "0",
+              "priceCurrency": "USD",
+              "availability": "https://schema.org/InStock"
+            },
+            "aggregateRating": {
+              "@type": "AggregateRating",
+              "ratingValue": "5",
+              "reviewCount": "1"
+            }
+          }
         ]
       }
     </script>
@@ -104,12 +124,12 @@
     <div class="wrapper">
       <header class="h-wrapper">
         <h1>
-          <a href="/fr/" title="Frames : Carnet Photo Argentique et Métadonnées"
+          <a
+            href="https://withframes.com/"
+            title="Frames: Film Photography Notes & Metadata"
             >Frames®</a
           >
-          RELIE LA PHOTO ARGENTIQUE AU NUMERIQUE—CAPTUREZ VOS REGLAGES SUR
-          IPHONE ET INTEGREZ LES SOUS FORME DE METADONNEE A VOS SCANS SUR MAC
-          <br /><br /><br /><br /><br /><br />
+          RELIE LA PHOTO ARGENTIQUE AU NUMERIQUE—CAPTUREZ VOS REGLAGES SUR IPHONE ET INTEGREZ LES SOUS FORME DE METADONNEE A VOS SCANS SUR MAC <br /><br /><br /><br /><br /><br />
         </h1>
       </header>
 
@@ -117,14 +137,12 @@
         <div class="download-button">
           <img
             src="/img/icon-ios-ipados.svg"
-            alt="iPhone/iPad"
+            alt="iPhone/iPad icon"
             width="64"
             height="64"
             loading="lazy"
           />
-          <a
-            href="https://apps.apple.com/fr/app/frames-film-notes/id6744057317"
-            title="Télécharger Frames sur l'App Store"
+          <a href="https://apps.apple.com/us/app/frames-film-notes/id6744057317" title="Télécharger sur<br />l'App Store"
             >Télécharger sur<br />l'App Store</a
           >
         </div>
@@ -132,15 +150,13 @@
         <div class="download-button">
           <img
             src="/img/icon-macos.svg"
-            alt="Mac"
+            alt="Mac icon"
             width="64"
             height="64"
             loading="lazy"
           />
-          <a
-            href="https://apps.apple.com/fr/app/frames-film-metadata/id6744063354"
-            title="Télécharger Frames sur le Mac App Store"
-            >Télécharger sur<br />le Mac App Store</a
+          <a href="https://apps.apple.com/us/app/frames-film-notes/id6744057317" title="Télécharger sur<br />l'App Store"
+            >Télécharger sur<br />l'App Store</a
           >
         </div>
 
@@ -149,183 +165,236 @@
             <br />
             <a
               href="mailto:&#98;&#111;&#110;&#106;&#111;&#117;&#114;&#64;&#119;&#105;&#116;&#104;&#102;&#114;&#97;&#109;&#101;&#115;&#46;&#99;&#111;&#109;"
-              title="Contact"
+              title="Contact us"
             >
               &#98;&#111;&#110;&#106;&#111;&#117;&#114;&#64;&#119;&#105;&#116;&#104;&#102;&#114;&#97;&#109;&#101;&#115;&#46;&#99;&#111;&#109;
             </a>
             <a
               class="privacy"
-              href="/fr/confidentialite/"
-              title="Confidentialité"
-              >Confidentialité</a
+              href="https://withframes.com/fr/confidentialite"
+              title="Politique de Confidentialité"
+              >Politique de Confidentialité</a
             >
           </p>
         </div>
+        <script type="application/ld+json">
+          {
+            "@context": "https://schema.org",
+            "@type": "Organization",
+            "name": "Frames",
+            "url": "https://withframes.com",
+            "logo": "https://withframes.com/favicon-180x180.png",
+            "contactPoint": {
+              "@type": "ContactPoint",
+              "email": "bonjour@withframes.com",
+              "contactType": "Customer Support",
+              "areaServed": "Worldwide",
+              "availableLanguage": "English"
+            },
+            "sameAs": [
+              "https://twitter.com/withframes",
+              "https://linkedin.com/company/withframes/",
+              "https://apps.apple.com/us/app/frames-film-notes/id6744057317",
+              "https://apps.apple.com/app/frames-film-metadata/id6744063354"
+            ]
+          }
+        </script>
       </main>
 
       <aside class="infoCollapsedSidebar">
         <header>
           <h2>
-            Frames – Carnet Tout-en-Un pour la Photographie Argentique sur iOS
-            et macOS
+            Frames – The All-in-One Analog Photography Notebook for iOS and
+            macOS
           </h2>
         </header>
 
         <main>
           <section>
-            <h3>Un Carnet Numérique pour Photographes Argentiques</h3>
+            <h3>A Digital Notebook for Analog Photographers</h3>
             <p>
-              Frames est votre compagnon dédié pour noter vos réglages
-              argentiques, organiser vos pellicules, et intégrer les métadonnées
-              dans vos scans. Compatible 35mm, moyen et grand format, Frames
-              structure votre flux de travail de la prise de vue au scan final.
+              Frames is a dedicated analog photography companion designed for
+              film photographers who want to keep detailed notes, stay
+              organized, and preserve metadata throughout their workflow.
+              Whether you're shooting 35mm, 120, or large format, Frames brings
+              precision and structure to your process—from capture to scan.
             </p>
             <p>
-              Sur iOS, Frames vous accompagne sur le terrain. Sur macOS, il
-              devient votre éditeur de métadonnées, prêt à synchroniser vos
-              notes dans vos photos scannées.
+              On iOS, it acts as your field notebook—letting you log camera
+              settings, film stock, locations, and even attach reference photos
+              to each frame. On macOS, it becomes your metadata editor, letting
+              you sync notes into scanned photos for a complete archive of your
+              analog work.
             </p>
           </section>
 
           <section>
-            <h3>Notez Chaque Prise avec Précision (iOS)</h3>
+            <h3>Record Every Shot with Precision (iOS)</h3>
             <ul>
               <li>
-                <strong>Par vue :</strong> ouverture, vitesse, focale, ISO,
-                flash, exposition, objectif utilisé.
+                <strong>Frame-by-Frame Logging:</strong> Note shutter speed,
+                aperture, focal length, ISO, exposure compensation, flash use,
+                and lens used.
               </li>
               <li>
-                <strong>Gestion des pellicules :</strong> numérotation
-                automatique, film suivi par rouleau.
+                <strong>Roll Management:</strong> Organize your shoots into
+                rolls with automatic frame numbering and film stock tracking.
               </li>
               <li>
-                <strong>Photos de référence :</strong> prise numérique à
-                associer à chaque vue.
+                <strong>Reference Photos:</strong> Snap a digital shot alongside
+                each frame for easy identification during scanning or editing.
               </li>
               <li>
-                <strong>Géolocalisation :</strong> enregistrement automatique de
-                l’emplacement.
+                <strong>Geolocation Support:</strong> Save the exact location
+                for each frame using GPS metadata.
               </li>
               <li>
-                <strong>Configuration multi-appareils :</strong> changez
-                d’équipement et réutilisez vos réglages.
+                <strong>Multi-Camera Setup:</strong> Quickly switch between gear
+                setups and reuse saved cameras, lenses, and films.
               </li>
             </ul>
           </section>
 
           <section>
-            <h3>Organisez Votre Bibliothèque</h3>
+            <h3>Organize Your Library Like a Pro</h3>
             <ul>
               <li>
-                <strong>Dossiers :</strong> triez par projet, lieu, appareil ou
-                film.
+                <strong>Folder-Based Library:</strong> Group rolls into folders
+                by project, trip, camera, or film type.
               </li>
               <li>
-                <strong>Filtres & recherche :</strong> explorez par date, type
-                de film ou mots-clés.
+                <strong>Search & Sort Tools:</strong> Quickly find past rolls
+                using filters for film, date, location, or keyword.
               </li>
               <li>
-                <strong>Tags & notes :</strong> ajoutez des annotations
-                personnalisées.
+                <strong>Custom Tags & Notes:</strong> Add personal notes or tags
+                to any roll or frame to enhance future lookup and
+                categorization.
               </li>
               <li>
-                <strong>Hors-ligne :</strong> 100% fonctionnel sans connexion.
+                <strong>Offline Access:</strong> Use the app entirely offline
+                while shooting in remote areas or traveling.
               </li>
             </ul>
           </section>
 
           <section>
-            <h3>Exporter & Injecter les Métadonnées (macOS)</h3>
+            <h3>Export & Reintegrate Metadata (macOS)</h3>
             <ul>
               <li>
-                <strong>EXIF :</strong> insérez vos données dans les JPEG ou
-                TIFF scannés.
+                <strong>EXIF Metadata Injection:</strong> Sync your film notes
+                into scanned JPEGs or TIFFs using accurate EXIF metadata fields.
               </li>
               <li>
-                <strong>Exports variés :</strong> CSV, texte, JSON pour
-                archivage ou partage.
+                <strong>Multi-Format Export:</strong> Export your notes as CSV
+                files, text summaries, or structured JSON for archiving or
+                sharing.
               </li>
               <li>
-                <strong>Glisser-déposer :</strong> associez visuellement chaque
-                image à sa note.
+                <strong>Drag-and-Drop Interface:</strong> Easily match scanned
+                images to each frame using a visual layout with placeholders.
               </li>
               <li>
-                <strong>Traitement par lot :</strong> injectez une pellicule
-                entière en quelques clics.
+                <strong>Batch Processing:</strong> Apply metadata in bulk for an
+                entire roll, saving time during editing.
               </li>
               <li>
-                <strong>Non-destructif :</strong> qualité originale conservée.
+                <strong>Non-Destructive Workflow:</strong> Metadata is embedded
+                without altering the original image quality.
               </li>
             </ul>
           </section>
 
           <section>
-            <h3>Pensé pour la Photo Argentique</h3>
+            <h3>Optimized for the Analog Photography Workflow</h3>
             <ul>
               <li>
-                <strong>Ouvertures réalistes :</strong> tiers, demi, ou plein
-                stop.
+                <strong>Adaptive Aperture Control:</strong> Supports full, half,
+                and third stop input to match mechanical lens dials.
               </li>
               <li>
-                <strong>Autoremplissage :</strong> se souvient de vos
-                préférences.
+                <strong>Smart Autofill:</strong> Remembers your gear preferences
+                and fills repetitive data automatically.
               </li>
               <li>
-                <strong>Bibliothèque de films :</strong> 200+ stocks intégrés.
+                <strong>Extensive Film Stock Library:</strong> Over 200
+                preloaded films with characteristics, ISO, and color profiles.
               </li>
               <li>
-                <strong>Notes de développement :</strong> conservez aussi votre
-                flux chambre noire.
+                <strong>Darkroom Integration:</strong> Record development notes
+                or print settings alongside your scans.
               </li>
               <li>
-                <strong>Champs personnalisés :</strong> pour processus
-                alternatifs ou besoins créatifs.
+                <strong>Custom Field Support:</strong> Add custom metadata
+                fields for special projects or alternative processes.
               </li>
             </ul>
           </section>
 
           <section>
-            <h3>Compatibilité iPhone, iPad et Mac</h3>
+            <h3>Built for iPhone, iPad, and Mac</h3>
             <ul>
               <li>
-                <strong>Design natif iOS :</strong> fluide, rapide, intuitif.
+                <strong>Native iOS Design:</strong> Feels like a true Apple app,
+                with intuitive navigation and responsive touch controls.
               </li>
               <li>
-                <strong>macOS natif :</strong> intègre vos données pour les
-                métadonnées.
+                <strong>macOS App Store Integration:</strong> Seamlessly imports
+                your data and guides you through metadata reintegration.
               </li>
               <li>
-                <strong>Vie privée :</strong> aucune collecte, vos données vous
-                appartiennent.
+                <strong>Privacy-First:</strong> No user tracking, no cloud
+                dependency. Your data stays local unless you choose to share it.
               </li>
-              <li><strong>Sauvegarde iCloud (optionnelle)</strong></li>
               <li>
-                <strong>Adapté à votre flux :</strong> rapide, minimal, clair.
+                <strong>iCloud Backup:</strong> Optional iCloud support ensures
+                your notebooks are safe and synchronized.
+              </li>
+              <li>
+                <strong>Universal Design:</strong> Whether on iPhone or Mac,
+                Frames adapts to your workflow with clarity and speed.
               </li>
             </ul>
           </section>
 
           <section>
-            <h3>Pourquoi Frames ?</h3>
+            <h3>Why Frames?</h3>
             <p>
-              Frames comble le fossé entre argentique et numérique. Il conserve
-              vos réglages avec vos scans, sans effort. Vos photos sont
-              enrichies, archivables, prêtes à être partagées.
+              Frames bridges the gap between analog and digital photography by
+              giving film photographers a seamless way to log, organize, and
+              sync metadata. It eliminates the disconnect between your notebook
+              and your scans, ensuring your shooting data is preserved,
+              searchable, and embedded into your archive.
             </p>
             <p>
-              Que vous soyez pro, passionné ou amateur, Frames modernise votre
-              pratique argentique sans la dénaturer.
+              Whether you're a professional photographer, a hobbyist, or someone
+              just rediscovering film, Frames brings a layer of modern ease to
+              the timeless craft of analog photography.
             </p>
+          </section>
+
+          <section>
+            <h3>Key Use Cases & Keywords</h3>
+            <ul>
+              <li>Analog photography notebook</li>
+              <li>Film photography note-taking app</li>
+              <li>EXIF metadata for scanned film</li>
+              <li>Photo roll manager and metadata editor</li>
+              <li>iPhone film notes app</li>
+              <li>macOS film metadata export tool</li>
+              <li>Camera settings tracker for analog</li>
+              <li>Darkroom planning and archival tools</li>
+            </ul>
           </section>
 
           <p>
-            Téléchargez Frames et structurez votre flux argentique, de la prise
-            au scan.
+            Download Frames today and streamline your film photography workflow
+            from start to finish. Available now on iPhone, iPad, and Mac.
           </p>
         </main>
 
         <footer>
-          <p>&copy; 2025 Vincent Tantardini. Tous droits réservés.</p>
+          <p>&copy; 2025 Vincent Tantardini. All rights reserved.</p>
         </footer>
       </aside>
     </div>

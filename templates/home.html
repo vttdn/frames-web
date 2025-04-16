@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="it">
+<html lang="{{ lang }}">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="referrer" content="origin" />
-    <link rel="canonical" href="https://withframes.com/it/" />
+    <link rel="canonical" href="{{ canonical_url }}" />
     <link rel="alternate" hreflang="en" href="https://withframes.com/" />
     <link rel="alternate" hreflang="fr" href="https://withframes.com/fr/" />
     <link rel="alternate" hreflang="es" href="https://withframes.com/es/" />
@@ -13,9 +13,9 @@
     <link rel="alternate" hreflang="nl" href="https://withframes.com/nl/" />
     <link rel="alternate" hreflang="x-default" href="https://withframes.com/" />
 
-    <title>Frames - Note & Metadati per Fotografia Analogica</title>
-    <meta name="description" content="Frames è il taccuino digitale per fotografi analogici. Registra note, impostazioni e incorpora i metadati nei tuoi scatti scansionati." />
-    <meta name="keywords" content="fframes,note fotografia analogica,fotografia su pellicola,metadati fotografia analogica,taccuino fotografico,exif analogici,note fotografiche,scansioni pellicola,metadati exif,fotocamera analogica,datafilm" />
+    <title>{{ meta_title }}</title>
+    <meta name="description" content="{{ meta_description }}" />
+    <meta name="keywords" content="f{{ meta_keywords }}" />
 
     <link rel="stylesheet" href="/css/normalize.min.css" />
     <link rel="stylesheet" href="/css/styles.css" />
@@ -25,16 +25,16 @@
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:site" content="@withframes" />
     <meta name="twitter:creator" content="@withframes" />
-    <meta name="twitter:title" content="Frames - Note & Metadati per Fotografia Analogica" />
-    <meta name="twitter:description" content="Frames è il taccuino digitale per fotografi analogici. Registra note, impostazioni e incorpora i metadati nei tuoi scatti scansionati." />
+    <meta name="twitter:title" content="{{ meta_title }}" />
+    <meta name="twitter:description" content="{{ meta_description }}" />
     <meta name="twitter:image" content="https://withframes.com/og-image.jpg" />
 
     <!-- Open Graph -->
     <meta property="og:type" content="website" />
     <meta property="og:site_name" content="Frames" />
-    <meta property="og:title" content="Frames - Note & Metadati per Fotografia Analogica" />
-    <meta property="og:description" content="Frames è il taccuino digitale per fotografi analogici. Registra note, impostazioni e incorpora i metadati nei tuoi scatti scansionati." />
-    <meta property="og:url" content="https://withframes.com/it/" />
+    <meta property="og:title" content="{{ meta_title }}" />
+    <meta property="og:description" content="{{ meta_description }}" />
+    <meta property="og:url" content="{{ canonical_url }}" />
     <meta property="og:image" content="https://withframes.com/og-image.jpg" />
 
     <!-- Favicons -->
@@ -71,9 +71,9 @@
             "operatingSystem": "iOS",
             "applicationCategory": "PhotographyApplication",
             "applicationSubCategory": "Photography",
-            "description": "Frames è il taccuino digitale per fotografi analogici. Registra note, impostazioni e incorpora i metadati nei tuoi scatti scansionati.",
+            "description": "{{ meta_description }}",
             "image": "https://withframes.com/og-image-alt.jpg",
-            "url": "https://apps.apple.com/us/app/frames-film-notes/id6744057317",
+            "url": "{{ ios_url }}",
             "author": {
               "@type": "Person",
               "name": "Vincent Tantardini"
@@ -96,9 +96,9 @@
             "operatingSystem": "macOS",
             "applicationCategory": "PhotographyApplication",
             "applicationSubCategory": "Photography",
-            "description": "Frames è il taccuino digitale per fotografi analogici. Registra note, impostazioni e incorpora i metadati nei tuoi scatti scansionati.",
+            "description": "{{ meta_description }}",
             "image": "https://withframes.com/og-image-alt.jpg",
-            "url": "https://apps.apple.com/app/frames-film-metadata/id6744063354",
+            "url": "{{ macos_url }}",
             "author": {
               "@type": "Person",
               "name": "Vincent Tantardini"
@@ -129,7 +129,7 @@
             title="Frames: Film Photography Notes & Metadata"
             >Frames®</a
           >
-          collega la fotografia analogica e digitale—permettendoti di prendere appunti su iPhone e integrare perfettamente i metadati nelle foto scansionate su Mac. <br /><br /><br /><br /><br /><br />
+          {{ page_h1 }} <br /><br /><br /><br /><br /><br />
         </h1>
       </header>
 
@@ -142,8 +142,8 @@
             height="64"
             loading="lazy"
           />
-          <a href="https://apps.apple.com/us/app/frames-film-notes/id6744057317" title="Scarica su<br>App Store"
-            >Scarica su<br>App Store</a
+          <a href="{{ ios_url }}" title="{{ cta_ios_text }}"
+            >{{ cta_ios_text }}</a
           >
         </div>
 
@@ -155,8 +155,8 @@
             height="64"
             loading="lazy"
           />
-          <a href="https://apps.apple.com/us/app/frames-film-notes/id6744057317" title="Scarica su<br>App Store"
-            >Scarica su<br>App Store</a
+          <a href="{{ ios_url }}" title="{{ cta_ios_text }}"
+            >{{ cta_ios_text }}</a
           >
         </div>
 
@@ -171,9 +171,9 @@
             </a>
             <a
               class="privacy"
-              href="https://withframes.com/it/confidenzialita"
-              title="Informativa sulla Privacy"
-              >Informativa sulla Privacy</a
+              href="{{ canonical_url }}{{ privacy_path }}"
+              title="{{ privacy_label }}"
+              >{{ privacy_label }}</a
             >
           </p>
         </div>
@@ -194,8 +194,8 @@
             "sameAs": [
               "https://twitter.com/withframes",
               "https://linkedin.com/company/withframes/",
-              "https://apps.apple.com/us/app/frames-film-notes/id6744057317",
-              "https://apps.apple.com/app/frames-film-metadata/id6744063354"
+              "{{ ios_url }}",
+              "{{ macos_url }}"
             ]
           }
         </script>
