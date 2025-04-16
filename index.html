@@ -56,11 +56,33 @@
     <link rel="manifest" href="/site.webmanifest" />
     <meta name="theme-color" content="#000" />
 
-    <script
-      async
-      src="https://www.googletagmanager.com/gtag/js?id=G-MER5TLYKLF"
-    ></script>
-    <script async src="/js/googleAnalytics.js"></script>
+    <script>
+      function loadAnalytics() {
+        // Load gtag script
+        const script = document.createElement('script');
+        script.src = 'https://www.googletagmanager.com/gtag/js?id=G-MER5TLYKLF';
+        script.async = true;
+        document.head.appendChild(script);
+
+        // Init gtag
+        script.onload = () => {
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){ dataLayer.push(arguments); }
+          gtag('js', new Date());
+          gtag('config', 'G-MER5TLYKLF');
+        };
+
+        // Remove listeners
+        ['click', 'scroll', 'mousemove', 'touchstart'].forEach(event =>
+          window.removeEventListener(event, loadAnalytics)
+        );
+      }
+
+      // Load only after first interaction
+      ['click', 'scroll', 'mousemove', 'touchstart'].forEach(event =>
+        window.addEventListener(event, loadAnalytics, { once: true })
+      );
+    </script>
 
     <script type="application/ld+json">
       {
