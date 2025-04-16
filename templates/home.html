@@ -16,7 +16,7 @@
 
     <title>{{ meta_title }}</title>
     <meta name="description" content="{{ meta_description }}" />
-    <meta name="keywords" content="f{{ meta_keywords }}" />
+    <meta name="keywords" content="{{ meta_keywords }}" />
 
     <!-- <link rel="stylesheet" href="/css/normalize.min.css" /> -->
     <!-- <link rel="stylesheet" href="/css/styles.css" /> -->
@@ -40,6 +40,7 @@
     <meta property="og:description" content="{{ meta_description }}" />
     <meta property="og:url" content="{{ canonical_url }}" />
     <meta property="og:image" content="https://withframes.com/og-image.jpg" />
+    <meta property="og:locale" content="{{ locale }}" />
 
     <!-- Favicons -->
     <link
@@ -101,6 +102,10 @@
             "description": "{{ meta_description }}",
             "image": "https://withframes.com/og-image-alt.jpg",
             "url": "{{ ios_url }}",
+            "mainEntity": {
+              "@type": "WebPage",
+              "@id": "{{ canonical_url }}"
+            },
             "author": {
               "@type": "Person",
               "name": "Vincent Tantardini"
@@ -127,6 +132,10 @@
             "description": "{{ meta_description }}",
             "image": "https://withframes.com/og-image-alt.jpg",
             "url": "{{ macos_url }}",
+            "mainEntity": {
+              "@type": "WebPage",
+              "@id": "{{ canonical_url }}"
+            },
             "author": {
               "@type": "Person",
               "name": "Vincent Tantardini"
@@ -183,8 +192,8 @@
             height="64"
             loading="lazy"
           />
-          <a href="{{ ios_url }}" title="{{ cta_ios_text }}"
-            >{{ cta_ios_text }}</a
+          <a href="{{ macos_url }}" title="{{ cta_macos_text }}"
+            >{{ cta_macos_text }}</a
           >
         </div>
 
