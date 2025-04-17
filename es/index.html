@@ -69,39 +69,6 @@
     <link rel="manifest" href="/site.webmanifest" />
     <meta name="theme-color" content="#000" />
 
-    <script>
-      // Predefine gtag globally before script loads
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){ dataLayer.push(arguments); }
-
-      function loadAnalytics() {
-        // Prevent double-loading
-        if (window.__analyticsLoaded) return;
-        window.__analyticsLoaded = true;
-
-        // Load gtag script
-        const script = document.createElement('script');
-        script.src = 'https://www.googletagmanager.com/gtag/js?id=G-MER5TLYKLF';
-        script.async = true;
-        script.onload = () => {
-          gtag('js', new Date());
-          gtag('config', 'G-MER5TLYKLF');
-        };
-        document.head.appendChild(script);
-
-        // Remove listeners
-        interactionEvents.forEach(event =>
-          window.removeEventListener(event, loadAnalytics)
-        );
-      }
-
-      // Lazy-load on first interaction
-      const interactionEvents = ['click', 'scroll', 'mousemove', 'touchstart'];
-      interactionEvents.forEach(event =>
-        window.addEventListener(event, loadAnalytics, { once: true })
-      );
-    </script>
-
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
@@ -179,6 +146,16 @@
           }
         ]
       }
+    </script>
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-MER5TLYKLF"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-MER5TLYKLF');
     </script>
   </head>
 
