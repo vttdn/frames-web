@@ -3,7 +3,15 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Frames – Bloco de Notas para Fotografia Analógica e Metadados</title>
+    <meta name="description" content="O Frames é o seu bloco de notas para fotografia analógica. Registe definições, organize rolos e insira metadados nas suas digitalizações." />
+    <meta name="keywords" content="frames,fotografia analógica,notas de fotografia,notas de rolo,metadados de imagem,exif analógico,aplicação de fotografia,notas de filme,35mm,formato médio,câmara analógica,aplicação de metadados" />
+    <meta name="robots" content="index, follow">
+    <meta name="author" content="Vincent Tantardini" />
     <meta name="referrer" content="origin" />
+
+    <!-- Localization -->
     <link rel="canonical" href="https://withframes.com/pt/" />
     <link rel="alternate" hreflang="en" href="https://withframes.com/" />
     <link rel="alternate" hreflang="fr" href="https://withframes.com/fr/" />
@@ -14,18 +22,10 @@
     <link rel="alternate" hreflang="pt" href="https://withframes.com/pt/" />
     <link rel="alternate" hreflang="x-default" href="https://withframes.com/" />
 
-    <title>Frames – Bloco de Notas para Fotografia Analógica e Metadados</title>
-    <meta name="description" content="O Frames é o seu bloco de notas para fotografia analógica. Registe definições, organize rolos e insira metadados nas suas digitalizações." />
-    <meta name="keywords" content="frames,fotografia analógica,notas de fotografia,notas de rolo,metadados de imagem,exif analógico,aplicação de fotografia,notas de filme,35mm,formato médio,câmara analógica,aplicação de metadados" />
-    <meta name="robots" content="index, follow">
-    <meta name="author" content="Vincent Tantardini" />
-
+    <!-- CSS -->
     <!-- <link rel="stylesheet" href="/css/normalize.css" />
     <link rel="stylesheet" href="/css/styles.css" /> -->
-
-    <style>
-      body{font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;color:#fff;background:#000;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;font-weight:500;font-size:12px;letter-spacing:0;line-height:14px;margin:0;padding:0}h1,img,p{margin:0;padding:0}a,a:active,a:visited{color:inherit;text-decoration:none}@media (hover:hover){main a:hover{text-decoration:underline}}h1{font-size:44px;line-height:.88;margin-bottom:calc(5 * .88em);font-weight:400;letter-spacing:-.018em;text-transform:uppercase;word-spacing:.1em;text-align:justify;text-align-last:justify}.wrapper{position:relative;overflow:hidden;box-sizing:border-box;display:flex;flex-direction:column;justify-content:space-between;min-height:100vh;padding:15px 10px 0;background:#a9aeb7}img{width:32px;margin-right:8px}.grid{display:grid;grid-template-columns:repeat(2,1fr);align-items:center}.footer{display:none;justify-content:flex-end}.download-button{display:flex;align-items:center;width:fit-content}.desktop-only,.photography,.privacy{display:none}.infoCollapsedSidebar{position:absolute;top:0;right:-300px;width:300px}@media (min-width:600px){.wrapper{padding:20px 20px 10px}.desktop-only{display:inherit}img{width:36px;margin-right:8px}h1{font-size:clamp(2.75rem,6.3vw + 1rem,8rem);word-spacing:.2em}.grid{grid-template-columns:repeat(3,1fr)}.footer{display:flex;justify-content:flex-end}}@media (min-width:940px){body{font-size:16px;letter-spacing:-.011em;line-height:19px}img{width:48px;margin-right:12px}.wrapper{padding:30px 20px}}
-    </style>
+    <style>body{font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;color:#fff;background:#000;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;font-weight:500;font-size:12px;letter-spacing:0;line-height:14px;margin:0;padding:0}h1,img,p{margin:0;padding:0}a,a:active,a:visited{color:inherit;text-decoration:none}@media (hover:hover){main a:hover{text-decoration:underline}}h1{font-size:44px;line-height:.88;margin-bottom:calc(5 * .88em);font-weight:400;letter-spacing:-.018em;text-transform:uppercase;word-spacing:.1em;text-align:justify;text-align-last:justify}.wrapper{position:relative;overflow:hidden;box-sizing:border-box;display:flex;flex-direction:column;justify-content:space-between;min-height:100vh;padding:15px 10px 0;background:#a9aeb7}img{width:32px;margin-right:8px}.grid{display:grid;grid-template-columns:repeat(2,1fr);align-items:center}.footer{display:none;justify-content:flex-end}.download-button{display:flex;align-items:center;width:fit-content}.desktop-only,.photography,.privacy{display:none}.infoCollapsedSidebar{position:absolute;top:0;right:-300px;width:300px}@media (min-width:600px){.wrapper{padding:20px 20px 10px}.desktop-only{display:inherit}img{width:36px;margin-right:8px}h1{font-size:clamp(2.75rem,6.3vw + 1rem,8rem);word-spacing:.2em}.grid{grid-template-columns:repeat(3,1fr)}.footer{display:flex;justify-content:flex-end}}@media (min-width:940px){body{font-size:16px;letter-spacing:-.011em;line-height:19px}img{width:48px;margin-right:12px}.wrapper{padding:30px 20px}}</style>
 
     <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image" />
@@ -56,12 +56,13 @@
     <link rel="shortcut icon" href="/favicon.ico" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
-
-    <meta name="apple-itunes-app" content="app-id=6744057317" />
-
     <link rel="manifest" href="/site.webmanifest" />
     <meta name="theme-color" content="#000" />
 
+    <!-- Apple Store -->
+    <meta name="apple-itunes-app" content="app-id=6744057317" />
+
+    <!-- Microdata: iOS/macOS Products + Webpage -->
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
@@ -141,7 +142,7 @@
       }
     </script>
 
-    <!-- Google tag (gtag.js) -->
+    <!-- Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-MER5TLYKLF"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
