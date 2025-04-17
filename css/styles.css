@@ -34,6 +34,7 @@ a:active {
 h1 {
   font-size: 44px;
   line-height: 0.88;
+  margin-bottom: calc(5 * 0.88em);
   font-weight: 400;
   letter-spacing: -0.018em;
   text-transform: uppercase;
@@ -50,7 +51,7 @@ h1 {
   flex-direction: column;
   justify-content: space-between;
   min-height: 100vh;
-    padding: 15px 10px 0;
+  padding: 15px 10px 0;
   background: #a9aeb7; /* EAEAEA */
 }
 
