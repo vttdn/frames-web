@@ -70,29 +70,34 @@
     <meta name="theme-color" content="#000" />
 
     <script>
+      // Predefine gtag globally before script loads
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){ dataLayer.push(arguments); }
+
       function loadAnalytics() {
+        // Prevent double-loading
+        if (window.__analyticsLoaded) return;
+        window.__analyticsLoaded = true;
+
         // Load gtag script
         const script = document.createElement('script');
         script.src = 'https://www.googletagmanager.com/gtag/js?id=G-MER5TLYKLF';
         script.async = true;
-        document.head.appendChild(script);
-
-        // Init gtag
         script.onload = () => {
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){ dataLayer.push(arguments); }
           gtag('js', new Date());
           gtag('config', 'G-MER5TLYKLF');
         };
+        document.head.appendChild(script);
 
         // Remove listeners
-        ['click', 'scroll', 'mousemove', 'touchstart'].forEach(event =>
+        interactionEvents.forEach(event =>
           window.removeEventListener(event, loadAnalytics)
         );
       }
 
-      // Load only after first interaction
-      ['click', 'scroll', 'mousemove', 'touchstart'].forEach(event =>
+      // Lazy-load on first interaction
+      const interactionEvents = ['click', 'scroll', 'mousemove', 'touchstart'];
+      interactionEvents.forEach(event =>
         window.addEventListener(event, loadAnalytics, { once: true })
       );
     </script>
