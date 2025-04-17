@@ -49,7 +49,7 @@
     <title>Privacy Policy - Frames</title>
     <meta name="description" content="Read the privacy policy for Frames, the analog photography notebook app. Learn how we handle your data with care on both mobile and desktop." />
     <meta name="keywords" content="frames privacy,frames app privacy,film photography privacy,analog app data,privacy policy,film notes app,photo metadata app,frames data policy" />
-    <meta name="robots" content="index, follow">
+    <meta name="robots" content="index, follow" />
     <meta name="author" content="Vincent Tantardini" />
 
     <!-- Twitter -->
@@ -85,90 +85,92 @@
     <script>
       function loadAnalytics() {
         // Load gtag script
-        const script = document.createElement('script');
-        script.src = 'https://www.googletagmanager.com/gtag/js?id=G-MER5TLYKLF';
+        const script = document.createElement("script");
+        script.src = "https://www.googletagmanager.com/gtag/js?id=G-MER5TLYKLF";
         script.async = true;
         document.head.appendChild(script);
 
         // Init gtag
         script.onload = () => {
           window.dataLayer = window.dataLayer || [];
-          function gtag(){ dataLayer.push(arguments); }
-          gtag('js', new Date());
-          gtag('config', 'G-MER5TLYKLF');
+          function gtag() {
+            dataLayer.push(arguments);
+          }
+          gtag("js", new Date());
+          gtag("config", "G-MER5TLYKLF");
         };
 
         // Remove listeners
-        ['click', 'scroll', 'mousemove', 'touchstart'].forEach(event =>
+        ["click", "scroll", "mousemove", "touchstart"].forEach((event) =>
           window.removeEventListener(event, loadAnalytics)
         );
       }
 
       // Load only after first interaction
-      ['click', 'scroll', 'mousemove', 'touchstart'].forEach(event =>
+      ["click", "scroll", "mousemove", "touchstart"].forEach((event) =>
         window.addEventListener(event, loadAnalytics, { once: true })
       );
     </script>
 
     <script type="application/ld+json">
-          {
-            "@context": "https://schema.org",
-            "@type": "Organization",
-            "@id": "https://withframes.com/#organization",
-            "name": "Frames",
-            "url": "https://withframes.com/privacy/",
-            "logo": "https://withframes.com/favicon-180x180.png",
-            "contactPoint": {
-              "@type": "ContactPoint",
-              "email": "bonjour@withframes.com",
-              "contactType": "Customer Support",
-              "areaServed": "Worldwide",
-              "availableLanguage": ["English", "French"]
-            },
-            "sameAs": [
-              "https://twitter.com/withframes",
-              "https://linkedin.com/company/withframes/",
-              "https://apps.apple.com/us/app/frames-film-notes/id6744057317",
-              "https://apps.apple.com/app/frames-film-metadata/id6744063354"
-            ]
-          }
-        </script>
-
-        <script type="application/ld+json">
-        {
-          "@context": "https://schema.org",
-          "@type": "WebPage",
-          "@id": "https://withframes.com/privacy/",
-          "url": "https://withframes.com/privacy/",
-          "name": "Privacy Policy - Frames",
-          "description": "Read the privacy policy for Frames, the analog photography notebook app. Learn how we handle your data with care on both mobile and desktop.",
-          "inLanguage": "en",
-          "dateModified": "2025-03-15",
-          "publisher": {
-            "@id": "https://withframes.com/#organization"
-          }
-        }
-        </script>
-        
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "BreadcrumbList",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Frames - Film Photography Notebook & Metadata",
-          "item": "https://withframes.com/"
+      {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "@id": "https://withframes.com/#organization",
+        "name": "Frames",
+        "url": "https://withframes.com/privacy/",
+        "logo": "https://withframes.com/favicon-180x180.png",
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "email": "bonjour@withframes.com",
+          "contactType": "Customer Support",
+          "areaServed": "Worldwide",
+          "availableLanguage": ["English", "French"]
         },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "Privacy Policy - Frames",
-          "item": "https://withframes.com/privacy/"
+        "sameAs": [
+          "https://twitter.com/withframes",
+          "https://linkedin.com/company/withframes/",
+          "https://apps.apple.com/us/app/frames-film-notes/id6744057317",
+          "https://apps.apple.com/app/frames-film-metadata/id6744063354"
+        ]
+      }
+    </script>
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "PrivacyPolicy",
+        "@id": "https://withframes.com/privacy/",
+        "url": "https://withframes.com/privacy/",
+        "name": "Privacy Policy - Frames",
+        "description": "Read the privacy policy for Frames, the analog photography notebook app. Learn how we handle your data with care on both mobile and desktop.",
+        "inLanguage": "en",
+        "dateModified": "2025-03-15",
+        "publisher": {
+          "@id": "https://withframes.com/#organization"
         }
-      ]
-    }
+      }
+    </script>
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Frames - Film Photography Notebook & Metadata",
+            "item": "https://withframes.com/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Privacy Policy - Frames",
+            "item": "https://withframes.com/privacy/"
+          }
+        ]
+      }
     </script>
 
     <style>
@@ -194,17 +196,19 @@
       }
     </style>
   </head>
-  <body itemscope itemtype="https://schema.org/WebPage">
-    <meta itemprop="name" content="Privacy Policy - Frames" />
-    <meta itemprop="description" content="Read the privacy policy for Frames, the analog photography notebook app. Learn how we handle your data with care on both mobile and desktop." />
+  <body itemscope itemtype="https://schema.org/PrivacyPolicy">
+  <meta itemprop="name" content="Privacy Policy - Frames" />
+  <meta itemprop="description" content="Read the privacy policy for Frames, the analog photography notebook app. Learn how we handle your data with care on both mobile and desktop." />
+  <meta itemprop="inLanguage" content="en" />
+  <meta itemprop="dateModified" content="2025-03-15" />
 
-    <h1 itemprop="headline">Privacy Policy</h1>
+  <article aria-labelledby="privacy-heading">
+    <h1 id="privacy-heading" itemprop="headline">Privacy Policy</h1>
     <p class="last-updated">
-      <meta itemprop="dateModified" content="2025-03-15" />
       Last updated: Mar 15, 2025
     </p>
 
-    <h2>Privacy Policy</h2>
+    <h2>Our Commitment to Your Privacy</h2>
     <p>This app does not collect, store, or share any personal data. All user data is stored locally on your device and never transmitted to any server or third party. We do not use analytics, tracking, or online services that collect user information.</p>
     <p>However, the app allows you to export files. Any data you choose to share or save externally is under your control. The developer does not track or access exported files.</p>
 
@@ -217,15 +221,15 @@
         <a
           itemprop="email"
           href="mailto:&#98;&#111;&#110;&#106;&#111;&#117;&#114;&#64;&#119;&#105;&#116;&#104;&#102;&#114;&#97;&#109;&#101;&#115;&#46;&#99;&#111;&#109;"
-          >&#98;&#111;&#110;&#106;&#111;&#117;&#114;&#64;&#119;&#105;&#116;&#104;&#102;&#114;&#97;&#109;&#101;&#115;&#46;&#99;&#111;&#109;</a
-        >.
+        >&#98;&#111;&#110;&#106;&#111;&#117;&#114;&#64;&#119;&#105;&#116;&#104;&#102;&#114;&#97;&#109;&#101;&#115;&#46;&#99;&#111;&#109;</a>.
       </p>
     </div>
 
     <p>
-      <a href="https://withframes.com/" title="Frames - Film Photography Notebook & Metadata"
-        >Home</a
-      >
+      <a href="https://withframes.com/" rel="home" title="Frames - Film Photography Notebook & Metadata">
+        Home
+      </a>
     </p>
-  </body>
+  </article>
+</body>
 </html>
