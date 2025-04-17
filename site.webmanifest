@@ -1,12 +1,20 @@
 {
-  "short_name": "Frames",
   "name": "Frames",
-  "icons": [{
-    "src": "/img/favicon-192x192.png",
-    "type": "image/png",
-    "sizes": "192x192"
-  }],
-  "start_url": "/?utm_source=homescreen",
+  "short_name": "Frames",
+  "start_url": "./",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/favicon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/favicon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
   "background_color": "#000",
   "theme_color": "#000"
 }
