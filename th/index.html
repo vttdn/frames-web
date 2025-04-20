@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="th">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Frames - สมุดบันทึกฟิล์มและเมตาดาต้าสำหรับการถ่ายภาพฟิล์ม</title>
+    <meta name="description" content="Frames คือสมุดบันทึกการถ่ายภาพฟิล์มแบบแอนะล็อก บันทึกการตั้งค่า ถ่ายภาพอ้างอิง และฝังเมตาดาต้าในภาพที่สแกนของคุณได้อย่างง่ายดาย" />
+    <meta name="keywords" content="frames,บันทึกภาพฟิล์ม,จดโน้ตฟิล์ม,เมตาดาต้าฟิล์ม,exif ฟิล์ม,แอปจดบันทึกฟิล์ม,สมุดบันทึกฟิล์ม,การถ่ายภาพแอนะล็อก,metadata analog,film camera" />
+    <meta name="robots" content="index, follow">
+    <meta name="author" content="Vincent Tantardini" />
+    <meta name="referrer" content="origin" />
+
+    <!-- Localization -->
+    <link rel="canonical" href="https://withframes.com/th/" />
+    <link rel="alternate" hreflang="en" href="https://withframes.com/" />
+    <link rel="alternate" hreflang="fr" href="https://withframes.com/fr/" />
+    <link rel="alternate" hreflang="es" href="https://withframes.com/es/" />
+    <link rel="alternate" hreflang="it" href="https://withframes.com/it/" />
+    <link rel="alternate" hreflang="de" href="https://withframes.com/de/" />
+    <link rel="alternate" hreflang="nl" href="https://withframes.com/nl/" />
+    <link rel="alternate" hreflang="pt" href="https://withframes.com/pt/" />
+    <link rel="alternate" hreflang="ja" href="https://withframes.com/jp/" />
+    <link rel="alternate" hreflang="ko" href="https://withframes.com/kr/" />
+    <link rel="alternate" hreflang="ru" href="https://withframes.com/ru/" />
+    <link rel="alternate" hreflang="th" href="https://withframes.com/th/" />
+    <link rel="alternate" hreflang="x-default" href="https://withframes.com/" />
+
+    <!-- CSS -->
+    <!-- <link rel="stylesheet" href="/css/styles.css" /> -->
+    <style>body{font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;color:#fff;background:#000;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;font-weight:500;font-size:12px;letter-spacing:0;line-height:14px;margin:0;padding:0}h1,img,p{margin:0;padding:0}a,a:active,a:visited{color:inherit;text-decoration:none}@media (hover:hover){main a:hover{text-decoration:underline}}h1{font-size:44px;line-height:.88;margin-bottom:calc(5 * .88em);font-weight:400;letter-spacing:-.018em;text-transform:uppercase;word-spacing:.1em;text-align:justify;text-align-last:justify}.wrapper{position:relative;overflow:hidden;box-sizing:border-box;display:flex;flex-direction:column;justify-content:space-between;min-height:100vh;padding:15px 10px 0;background:#a9aeb7}img{width:32px;margin-right:8px}.grid{display:grid;grid-template-columns:repeat(2,1fr);align-items:center}.footer{display:none;justify-content:flex-end}.download-button{display:flex;align-items:center;width:fit-content}.desktop-only,.photography,.privacy{display:none}.infoCollapsedSidebar{position:absolute;top:0;right:-300px;width:300px}@media (min-width:600px){.wrapper{padding:20px 20px 10px}.desktop-only{display:inherit}img{width:36px;margin-right:8px}h1{font-size:clamp(2.75rem,6.3vw + 1rem,8rem);word-spacing:.2em}.grid{grid-template-columns:repeat(3,1fr)}.footer{display:flex;justify-content:flex-end}}@media (min-width:940px){body{font-size:16px;letter-spacing:-.011em;line-height:19px}img{width:48px;margin-right:12px}.wrapper{padding:30px 20px}}</style>
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@withframes" />
+    <meta name="twitter:creator" content="@withframes" />
+    <meta name="twitter:title" content="Frames - สมุดบันทึกฟิล์มและเมตาดาต้าสำหรับการถ่ายภาพฟิล์ม" />
+    <meta name="twitter:description" content="Frames คือสมุดบันทึกการถ่ายภาพฟิล์มแบบแอนะล็อก บันทึกการตั้งค่า ถ่ายภาพอ้างอิง และฝังเมตาดาต้าในภาพที่สแกนของคุณได้อย่างง่ายดาย" />
+    <meta name="twitter:image" content="https://withframes.com/og-image.jpg" />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Frames" />
+    <meta property="og:title" content="Frames - สมุดบันทึกฟิล์มและเมตาดาต้าสำหรับการถ่ายภาพฟิล์ม" />
+    <meta property="og:description" content="Frames คือสมุดบันทึกการถ่ายภาพฟิล์มแบบแอนะล็อก บันทึกการตั้งค่า ถ่ายภาพอ้างอิง และฝังเมตาดาต้าในภาพที่สแกนของคุณได้อย่างง่ายดาย" />
+    <meta property="og:url" content="https://withframes.com/th/" />
+    <meta property="og:image" content="https://withframes.com/og-image.jpg" />
+    <meta property="og:locale" content="th_TH" />
+    <meta property="og:locale:alternate" content="en_US" />
+    <meta property="og:locale:alternate" content="fr_FR" />
+    <meta property="og:locale:alternate" content="es_ES" />
+    <meta property="og:locale:alternate" content="it_IT" />
+    <meta property="og:locale:alternate" content="de_DE" />
+    <meta property="og:locale:alternate" content="nl_NL" />
+    <meta property="og:locale:alternate" content="pt_PT" />
+    <meta property="og:locale:alternate" content="ja_JP" />
+    <meta property="og:locale:alternate" content="ru_RU" />
+    <meta property="og:locale:alternate" content="th_TH" />
+
+    <!-- Favicons -->
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon.png" />
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <meta name="theme-color" content="#000" />
+
+    <!-- Apple Store -->
+    <meta name="apple-itunes-app" content="app-id=6744057317" />
+
+    <!-- Microdata: iOS/macOS Products + Webpage -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "SoftwareApplication",
+            "name": "Frames iOS",
+            "operatingSystem": "iOS",
+            "applicationCategory": "PhotographyApplication",
+            "applicationSubCategory": "การถ่ายภาพ",
+            "inLanguage": "th",
+            "description": "Frames คือสมุดบันทึกการถ่ายภาพฟิล์มแบบแอนะล็อก บันทึกการตั้งค่า ถ่ายภาพอ้างอิง และฝังเมตาดาต้าในภาพที่สแกนของคุณได้อย่างง่ายดาย",
+            "image": "https://withframes.com/og-image-alt.jpg",
+            "url": "https://apps.apple.com/th/app/frames-film-notes/id6744057317",
+            "mainEntity": {
+              "@type": "WebPage",
+              "@id": "https://withframes.com/th/"
+            },
+            "author": {
+              "@type": "Person",
+              "name": "Vincent Tantardini"
+            },
+            "offers": {
+              "@type": "Offer",
+              "price": "0",
+              "priceCurrency": "USD",
+              "availability": "https://schema.org/InStock"
+            },
+            "aggregateRating": {
+              "@type": "AggregateRating",
+              "ratingValue": "5",
+              "reviewCount": "4"
+            }
+          },
+          {
+            "@type": "SoftwareApplication",
+            "name": "Frames macOS",
+            "operatingSystem": "macOS",
+            "applicationCategory": "PhotographyApplication",
+            "applicationSubCategory": "การถ่ายภาพ",
+            "inLanguage": "th",
+            "description": "Frames คือสมุดบันทึกการถ่ายภาพฟิล์มแบบแอนะล็อก บันทึกการตั้งค่า ถ่ายภาพอ้างอิง และฝังเมตาดาต้าในภาพที่สแกนของคุณได้อย่างง่ายดาย",
+            "image": "https://withframes.com/og-image-alt.jpg",
+            "url": "https://apps.apple.com/th/app/frames-film-metadata/id6744063354",
+            "mainEntity": {
+              "@type": "WebPage",
+              "@id": "https://withframes.com/th/"
+            },
+            "author": {
+              "@type": "Person",
+              "name": "Vincent Tantardini"
+            },
+            "offers": {
+              "@type": "Offer",
+              "price": "0",
+              "priceCurrency": "USD",
+              "availability": "https://schema.org/InStock"
+            },
+            "aggregateRating": {
+              "@type": "AggregateRating",
+              "ratingValue": "5",
+              "reviewCount": "1"
+            }
+          },
+          {
+            "@type": "WebPage",
+            "@id": "https://withframes.com/th/",
+            "url": "https://withframes.com/th/",
+            "name": "Frames - สมุดบันทึกฟิล์มและเมตาดาต้าสำหรับการถ่ายภาพฟิล์ม",
+            "description": "Frames คือสมุดบันทึกการถ่ายภาพฟิล์มแบบแอนะล็อก บันทึกการตั้งค่า ถ่ายภาพอ้างอิง และฝังเมตาดาต้าในภาพที่สแกนของคุณได้อย่างง่ายดาย",
+            "inLanguage": "th",
+            "publisher": {
+              "@id": "https://withframes.com/#organization"
+            }
+          }
+        ]
+      }
+    </script>
+
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-MER5TLYKLF"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-MER5TLYKLF');
+    </script>
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <header class="h-wrapper">
+        <h1>
+          <a
+            href="https://withframes.com/"
+            aria-label="Frames หน้าหลัก"
+            title="Frames - สมุดบันทึกฟิล์มและเมตาดาต้าสำหรับการถ่ายภาพฟิล์ม"
+            >Frames®</a
+          >
+          เชื่อมต่อโลกฟิล์มกับดิจิทัล—บันทึกฟิล์มบน iPhone และฝังเมตาดาต้าลงในภาพสแกนด้วย Mac
+        </h1>
+      </header>
+
+      <main class="grid">
+        <div class="download-button">
+          <img
+            src="/img/icon-ios-ipados.svg"
+            alt="iPhone/iPad icon"
+            width="64"
+            height="64"
+            loading="lazy"
+          />
+          <a href="https://apps.apple.com/th/app/frames-film-notes/id6744057317" title="ดาวน์โหลดบน<br>App Store"
+            >ดาวน์โหลดบน<br>App Store</a
+          >
+        </div>
+
+        <div class="download-button">
+          <img
+            src="/img/icon-macos.svg"
+            alt="Mac icon"
+            width="64"
+            height="64"
+            loading="lazy"
+          />
+          <a href="https://apps.apple.com/th/app/frames-film-metadata/id6744063354" title="ดาวน์โหลดบน<br>Mac App Store"
+            >ดาวน์โหลดบน<br>Mac App Store</a
+          >
+        </div>
+
+        <div class="footer">
+          <p>
+            <br />
+            <a
+              href="mailto:&#98;&#111;&#110;&#106;&#111;&#117;&#114;&#64;&#119;&#105;&#116;&#104;&#102;&#114;&#97;&#109;&#101;&#115;&#46;&#99;&#111;&#109;"
+              title="Contact us"
+            >
+              &#98;&#111;&#110;&#106;&#111;&#117;&#114;&#64;&#119;&#105;&#116;&#104;&#102;&#114;&#97;&#109;&#101;&#115;&#46;&#99;&#111;&#109;
+            </a>
+            <a
+              class="privacy"
+              href="https://withframes.com/th/privacy/"
+              title="นโยบายความเป็นส่วนตัว"
+              >นโยบายความเป็นส่วนตัว</a
+            >
+          </p>
+        </div>
+        <script type="application/ld+json">
+          {
+            "@context": "https://schema.org",
+            "@type": "Organization",
+            "@id": "https://withframes.com/#organization",
+            "name": "Frames",
+            "url": "https://withframes.com/th/",
+            "logo": "https://withframes.com/favicon-180x180.png",
+            "contactPoint": {
+              "@type": "ContactPoint",
+              "email": "bonjour@withframes.com",
+              "contactType": "ฝ่ายสนับสนุนลูกค้า",
+              "areaServed": "Worldwide",
+              "availableLanguage": ["English", "French"]
+            },
+            "sameAs": [
+              "https://twitter.com/withframes",
+              "https://www.facebook.com/profile.php?id=61575648380444",
+              "https://www.instagram.com/with_frames/",
+              "https://linkedin.com/company/withframes/",
+              "https://www.youtube.com/@withframes",
+              "https://apps.apple.com/th/app/frames-film-notes/id6744057317",
+              "https://apps.apple.com/th/app/frames-film-metadata/id6744063354"
+            ]
+          }
+        </script>
+      </main>
+
+      <aside class="infoCollapsedSidebar">
+        <header><h2>Frames – สมุดบันทึกภาพฟิล์มแบบครบวงจรสำหรับ iOS และ macOS</h2></header><main><section><h3>สมุดบันทึกดิจิทัลสำหรับช่างภาพฟิล์ม</h3><p>Frames คือผู้ช่วยในการถ่ายภาพแอนะล็อกที่ออกแบบมาสำหรับผู้ใช้งานกล้องฟิล์มโดยเฉพาะ ช่วยบันทึกรายละเอียดอย่างแม่นยำ จัดการภาพถ่าย และรักษาเมตาดาต้าให้สอดคล้องกับกระบวนการทำงาน ตั้งแต่เริ่มถ่ายภาพไปจนถึงการสแกน</p><p>บน iOS คุณสามารถบันทึกการตั้งค่ากล้อง ประเภทฟิล์ม สถานที่ถ่ายภาพ และแนบภาพอ้างอิงสำหรับแต่ละเฟรมได้ ส่วนบน macOS จะทำหน้าที่เป็นตัวแก้ไขเมตาดาต้า โดยสามารถซิงก์ข้อมูลเข้ากับภาพสแกนได้อย่างครบถ้วน</p></section><section><h3>บันทึกทุกเฟรมด้วยความแม่นยำ (iOS)</h3><ul><li><strong>การบันทึกแบบเฟรมต่อเฟรม:</strong> จดค่าความเร็วชัตเตอร์ รูรับแสง ระยะโฟกัส ISO การชดเชยแสง การใช้แฟลช และเลนส์</li><li><strong>การจัดการม้วนฟิล์ม:</strong> จัดระเบียบการถ่ายภาพตามม้วนฟิล์ม พร้อมเลขลำดับอัตโนมัติและการติดตามชนิดฟิล์ม</li><li><strong>ภาพอ้างอิง:</strong> ถ่ายภาพดิจิทัลคู่กับแต่ละเฟรมเพื่อช่วยจำเวลาสแกน</li><li><strong>รองรับ GPS:</strong> บันทึกตำแหน่งพิกัด GPS ของแต่ละเฟรม</li><li><strong>ตั้งค่ากล้องหลายชุด:</strong> สลับอุปกรณ์ได้ง่ายและใช้กล้อง เลนส์ ฟิล์ม ที่บันทึกไว้ซ้ำได้</li></ul></section><section><h3>จัดการคลังของคุณอย่างมืออาชีพ</h3><ul><li><strong>คลังแบบโฟลเดอร์:</strong> แบ่งกลุ่มม้วนฟิล์มตามโปรเจกต์ ทริป กล้อง หรือประเภทฟิล์ม</li><li><strong>ค้นหาและกรองข้อมูล:</strong> ค้นหาม้วนเก่า ๆ ตามวันที่ ฟิล์ม สถานที่ หรือคีย์เวิร์ด</li><li><strong>แท็กและบันทึกส่วนตัว:</strong> เพิ่มบันทึกหรือแท็กให้กับม้วนหรือเฟรมเพื่อการค้นหาภายหลัง</li><li><strong>ทำงานแบบออฟไลน์:</strong> ใช้งานแอปได้แม้ไม่มีอินเทอร์เน็ตระหว่างถ่ายภาพ</li></ul></section><section><h3>ส่งออกและรวมเมตาดาต้า (macOS)</h3><ul><li><strong>การฝังข้อมูล EXIF:</strong> ซิงก์โน้ตของคุณเข้ากับ JPEG หรือ TIFF ที่สแกนมาโดยใช้ข้อมูล EXIF อย่างแม่นยำ</li><li><strong>ส่งออกหลายรูปแบบ:</strong> ส่งออกโน้ตเป็นไฟล์ CSV สรุปข้อความ หรือ JSON ที่มีโครงสร้าง</li><li><strong>ลากและวางอย่างง่าย:</strong> จับคู่ภาพสแกนกับเฟรมผ่านการจัดวางแบบกราฟิก</li><li><strong>ประมวลผลแบบกลุ่ม:</strong> ฝังข้อมูลลงทั้งม้วนได้ในครั้งเดียว</li><li><strong>ไม่กระทบคุณภาพภาพ:</strong> การฝังข้อมูลไม่ลดคุณภาพของภาพต้นฉบับ</li></ul></section><section><h3>ออกแบบมาสำหรับการถ่ายฟิล์ม</h3><ul><li><strong>ควบคุมรูรับแสงได้ยืดหยุ่น:</strong> รองรับค่ารูรับแสงแบบเต็มครึ่งและหนึ่งในสาม</li><li><strong>ระบบกรอกข้อมูลอัจฉริยะ:</strong> จดจำกล้อง เลนส์ และการตั้งค่าที่ใช้บ่อย</li><li><strong>คลังฟิล์มสำเร็จรูป:</strong> มีฟิล์มมากกว่า 200 แบบพร้อมข้อมูล ISO และคุณสมบัติ</li><li><strong>บันทึกข้อมูลล้างฟิล์ม:</strong> จดบันทึกขั้นตอนการล้างหรือพิมพ์ภาพ</li><li><strong>เพิ่มฟิลด์เองได้:</strong> สำหรับโปรเจกต์พิเศษหรือเทคนิคเฉพาะทาง</li></ul></section><section><h3>ใช้งานได้ทั้งบน iPhone, iPad และ Mac</h3><ul><li><strong>ออกแบบสไตล์ iOS โดยแท้:</strong> ใช้งานง่าย คล่องตัว เหมือนแอปของ Apple</li><li><strong>เชื่อมต่อกับ App Store ของ macOS:</strong> นำเข้าข้อมูลและฝังเมตาดาต้าได้ตามขั้นตอน</li><li><strong>ความเป็นส่วนตัวมาก่อน:</strong> ไม่มีการติดตาม ไม่มีการเก็บคลาวด์ ข้อมูลของคุณอยู่กับคุณ</li><li><strong>สำรองข้อมูล iCloud:</strong> เลือกใช้ iCloud เพื่อความปลอดภัยเพิ่มเติม</li><li><strong>ออกแบบให้ครอบคลุม:</strong> ไม่ว่าจะใช้บน iPhone หรือ Mac ก็ใช้งานได้ลื่นไหล</li></ul></section><section><h3>ทำไมต้องใช้ Frames?</h3><p>Frames สร้างสะพานเชื่อมระหว่างโลกแอนะล็อกกับดิจิทัล ให้ผู้ถ่ายภาพฟิล์มสามารถจดบันทึก จัดการ และรวมเมตาดาต้าเข้าในกระบวนการได้อย่างลงตัว</p><p>ไม่ว่าคุณจะเป็นมืออาชีพ มือสมัครเล่น หรือแค่อยากกลับมาถ่ายฟิล์มอีกครั้ง Frames จะช่วยให้ทุกขั้นตอนสะดวกและเป็นระบบ</p></section><section><h3>กรณีใช้งาน & คีย์เวิร์ด</h3><ul><li>สมุดบันทึกการถ่ายภาพฟิล์ม</li><li>แอปจดโน้ตการถ่ายภาพแอนะล็อก</li><li>เมตาดาต้าสำหรับภาพฟิล์มสแกน</li><li>จัดการม้วนฟิล์มและแก้ไข EXIF</li><li>แอป iPhone สำหรับจดโน้ตการถ่ายฟิล์ม</li><li>เครื่องมือ macOS สำหรับส่งออกเมตาดาต้า</li><li>ติดตามการตั้งค่ากล้อง</li><li>เครื่องมือจัดการห้องล้างและเก็บภาพ</li></ul></section><p>ดาวน์โหลด Frames วันนี้และจัดการเวิร์กโฟลว์การถ่ายฟิล์มของคุณให้เป็นมืออาชีพ ตั้งแต่ต้นจนจบ พร้อมใช้งานบน iPhone, iPad และ Mac</p></main><footer><p>&copy; 2025 Vincent Tantardini. สงวนลิขสิทธิ์</p></footer>
+      </aside>
+    </div>
+  </body>
+</html>
