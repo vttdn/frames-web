@@ -14,7 +14,7 @@ Frames is a minimalist application designed specifically for film photographers.
 - Photographers who value a streamlined, intuitive workflow.
 
 ## Get Frames:
-- [📱 Frames for iOS](https://apps.apple.com/us/app/frames-film-notes/id6744057317)
+- [📱 Frames for iOS](https://apps.apple.com/app/frames-film-notes/id6744057317)
 - [💻 Frames for macOS](https://apps.apple.com/app/frames-film-metadata/id6744063354)
 
 ## Learn more:
