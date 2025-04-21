@@ -45,6 +45,10 @@ h1 {
   text-align-last: justify;
 }
 
+h1.large-line-height {
+  line-height: 1;
+}
+
 .wrapper {
   position: relative;
   overflow: hidden;
