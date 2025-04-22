@@ -61,10 +61,16 @@
     <meta property="og:locale:alternate" content="tr_TR" />
     <meta property="og:locale:alternate" content="sv_SE" />
 
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon.png" />
-    <link rel="shortcut icon" href="/favicon.ico" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <!-- ICO (legacy) + SVG (modern) -->
+    <link rel="icon" href="/favicon.ico" sizes="any">
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+
+    <!-- High-res PNG for light/dark modes -->
+    <link rel="icon" href="/favicon-light.png" type="image/png" media="(prefers-color-scheme: light)" sizes="512x512">
+    <link rel="icon" href="/favicon-dark.png" type="image/png" media="(prefers-color-scheme: dark)" sizes="512x512">
+
+    <!-- Apple Touch Icon (iOS) -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 
     <meta name="apple-itunes-app" content="app-id=6744057317" />
 
