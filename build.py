@@ -7,12 +7,33 @@ LOCALES_DIR = ROOT / "locales"
 
 def render_template(template: str, context: dict) -> str:
     result = template
+
+    # Simple foreach loop rendering: {{ for item in list }} ... {{ endfor }}
+    import re
+    for_loop_pattern = re.compile(r"{{ for (\w+) in (\w+) }}(.*?){{ endfor }}", re.DOTALL)
+
+    def render_loop(match):
+        item_name = match.group(1)
+        list_name = match.group(2)
+        block = match.group(3)
+
+        rendered = ""
+        for item in context.get(list_name, []):
+            temp_block = block
+            for key, value in item.items():
+                temp_block = temp_block.replace(f"{{{{ {item_name}.{key} }}}}", str(value))
+            rendered += temp_block
+        return rendered
+
+    result = for_loop_pattern.sub(render_loop, result)
+
+    # Simple {{ key }} and {{ key.subkey }} replacements
     for key, value in context.items():
         if isinstance(value, dict):
             for subkey, subval in value.items():
-                result = result.replace(f"{{{{ {key}.{subkey} }}}}", subval)
+                result = result.replace(f"{{{{ {key}.{subkey} }}}}", str(subval))
         else:
-            result = result.replace(f"{{{{ {key} }}}}", value)
+            result = result.replace(f"{{{{ {key} }}}}", str(value))
     return result
 
 def build():
@@ -20,6 +41,27 @@ def build():
         lang = locale_file.stem
         with open(locale_file, "r", encoding="utf-8") as f:
             context = json.load(f)
+
+        # Generate review_microdata if reviews are present
+        if "reviews" in context:
+            context["review_microdata"] = json.dumps([
+                {
+                    "@type": "Review",
+                    **({"name": r["title"]} if "title" in r else {}),
+                    "reviewBody": r["body"],
+                    "datePublished": r["date"],
+                    "reviewRating": {
+                        "@type": "Rating",
+                        "ratingValue": r["rating"]
+                    },
+                    "author": {
+                        "@type": "Person",
+                        "name": r["author"]
+                    }
+                } for r in context["reviews"]
+            ], ensure_ascii=False, indent=2)
+        else:
+            context["review_microdata"] = "[]"
 
         # Output path for home: root or /lang
         home_path = ROOT if lang == "en" else ROOT / lang
