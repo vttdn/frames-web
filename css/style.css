@@ -102,7 +102,7 @@ h1 {
   font-size: var(--font-size-large);
     line-height: 95%;
     font-weight: 400;
-    margin-top: calc(100vh - var(--font-size-large) * 2 - 6rem);
+    margin-top: calc(100vh - var(--font-size-large) * 2 - 12rem);
     /* margin-top: var(--huge-spacing); */
     margin-bottom: var(--medium-spacing);
     min-height: calc(var(--font-size-large) * 2);
