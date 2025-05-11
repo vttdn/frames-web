@@ -113,7 +113,7 @@ h1 .ti-cursor {
 
 h2 {
   font-size: var(--font-size-heading3);
-    line-height: 100%;
+    line-height: 1;
     font-weight: 500;
     margin-top: var(--large-spacing);
 }
@@ -137,6 +137,7 @@ a.logo {
   color: white;
   font-size: var(--font-size-heading2);
   margin-top: 0;
+  font-weight: 400;
 }
  
 .wrapper {
@@ -237,6 +238,11 @@ a.logo {
 
 article h3 {
   padding-top: 0.5rem;
+  margin-bottom: 0;
+}
+
+article p {
+  margin-top: 1rem;
 }
 
 .review-list blockquote {
@@ -287,7 +293,6 @@ details summary::before {
   right: 0;
   top: 50%;
   transform: translateY(-50%);
-  font-size: var(--font-size-heading2);
   font-weight: 200;
   line-height: 1;
   font-size: 2rem;
@@ -369,7 +374,7 @@ details[open] summary::before {
   --font-size-body: 1.125rem;
   
   --font-size-heading1: 1.5rem;
-  --font-size-heading2: 2.5rem;
+  --font-size-heading2: 2.25rem;
   --font-size-heading3: 4rem;
   --font-size-heading4: 6rem;
   --font-size-large: 8rem;
