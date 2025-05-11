@@ -100,7 +100,7 @@ h1, h2, h3, a.logo {
 
 h1 {
   font-size: var(--font-size-large);
-    line-height: 95%;
+    line-height: 1;
     font-weight: 400;
     /* margin-top: var(--huge-spacing); */
     margin-bottom: var(--medium-spacing);
