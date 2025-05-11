@@ -102,10 +102,22 @@ h1 {
   font-size: var(--font-size-large);
     line-height: 95%;
     font-weight: 400;
-    margin-top: calc(100vh - var(--font-size-large) * 2 - 12rem);
     /* margin-top: var(--huge-spacing); */
     margin-bottom: var(--medium-spacing);
     min-height: calc(var(--font-size-large) * 2);
+}
+/* Modern browsers */
+@supports (height: 100svh) {
+  h1 {
+    margin-top: calc(100svh - var(--font-size-large) * 2 - 6rem);
+  }
+}
+
+/* Fallback */
+@supports not (height: 100svh) {
+  h1 {
+    margin-top: calc(100vh - var(--font-size-large) * 2 - 12rem);
+  }
 }
 
 h1 .ti-cursor {
@@ -386,7 +398,7 @@ details[open] summary::before {
 }
 
 h1 {
-    margin-top: calc(100vh - var(--font-size-large) * 2 - 8rem);
+    margin-top: calc(100svh - var(--font-size-large) * 2 - 8rem);
 }
 
 .grid-2col {
