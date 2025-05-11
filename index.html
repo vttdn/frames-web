@@ -11,6 +11,10 @@
     <meta name="author" content="Vincent Tantardini">
     <meta name="referrer" content="origin">
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&family=Geist:wght@100..900&display=swap" rel="stylesheet">
+
     <!-- Localization -->
     <link rel="canonical" href="https://withframes.com/">
     <link rel="alternate" hreflang="en" href="https://withframes.com/">
@@ -31,8 +35,7 @@
     <link rel="alternate" hreflang="hi" href="https://withframes.com/in/">
     <link rel="alternate" hreflang="x-default" href="https://withframes.com/">
 
-    <!-- <link rel="stylesheet" href="/css/styles.css"> -->
-    <style>body{font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;color:#fff;background:#000;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;font-weight:500;font-size:12px;letter-spacing:0;line-height:14px;margin:0;padding:0}h1,img,p{margin:0;padding:0}a,a:active,a:visited{color:inherit;text-decoration:none}@media (hover:hover){main a:hover{text-decoration:underline}}h1{font-size:44px;line-height:.88;margin-bottom:calc(5 * .88em);font-weight:400;letter-spacing:-.018em;text-transform:uppercase;word-spacing:.1em;text-align:justify;text-align-last:justify}h1.large-line-height{line-height:1.05}.wrapper{position:relative;overflow:hidden;box-sizing:border-box;display:flex;flex-direction:column;justify-content:space-between;min-height:100vh;padding:15px 10px 0;background:#a9aeb7}img{width:32px;margin-right:8px}.grid{display:grid;grid-template-columns:repeat(2,1fr);align-items:center}.footer{display:none;justify-content:flex-end}.download-button{display:flex;align-items:center;width:fit-content}.desktop-only,.photography,.privacy{display:none}.infoCollapsedSidebar{position:absolute;top:0;right:-300px;width:300px}@media (min-width:600px){.wrapper{padding:20px 20px 10px}.desktop-only{display:inherit}img{width:36px;margin-right:8px}h1{font-size:clamp(2.75rem,6.3vw + 1rem,8rem);word-spacing:.2em}.grid{grid-template-columns:repeat(3,1fr)}.footer{display:flex;justify-content:flex-end}}@media (min-width:940px){body{font-size:16px;letter-spacing:-.011em;line-height:19px}img{width:48px;margin-right:12px}.wrapper{padding:30px 20px}}</style>
+    <link rel="stylesheet" href="/css/style.css">
 
     <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image">
@@ -206,75 +209,6 @@
       }
     </script>
 
-    <!-- Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-MER5TLYKLF"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      gtag('config', 'G-MER5TLYKLF');
-    </script>
-  </head>
-
-  <body>
-    <div class="wrapper">
-      <header class="h-wrapper">
-        <h1 class="">
-          <a
-            href="https://withframes.com/"
-            aria-label="Frames Home"
-            title="Frames - Analog Photography Notebook & Film Metadata"
-            >Frames®</a
-          >
-          bridges analog and digital—capturing film notes on iPhone & seamlessly merging metadata into scanned photos on Mac
-        </h1>
-      </header>
-
-      <main class="grid">
-        <div class="download-button">
-          <img
-            src="/img/icon-ios-ipados.svg"
-            alt="iPhone/iPad icon"
-            width="64"
-            height="64"
-            loading="lazy"
-         >
-          <a href="https://apps.apple.com/app/frames-film-notes/id6744057317" title="Download on the<br>App Store"
-            >Download on the<br>App Store</a
-          >
-        </div>
-
-        <div class="download-button">
-          <img
-            src="/img/icon-macos.svg"
-            alt="Mac icon"
-            width="64"
-            height="64"
-            loading="lazy"
-         >
-          <a href="https://apps.apple.com/app/frames-film-metadata/id6744063354" title="Download on the<br>Mac App Store"
-            >Download on the<br>Mac App Store</a
-          >
-        </div>
-
-        <div class="footer">
-          <p>
-            <br>
-            <a
-              href="mailto:&#98;&#111;&#110;&#106;&#111;&#117;&#114;&#64;&#119;&#105;&#116;&#104;&#102;&#114;&#97;&#109;&#101;&#115;&#46;&#99;&#111;&#109;"
-              title="Contact us"
-            >
-              &#98;&#111;&#110;&#106;&#111;&#117;&#114;&#64;&#119;&#105;&#116;&#104;&#102;&#114;&#97;&#109;&#101;&#115;&#46;&#99;&#111;&#109;
-            </a>
-            <a
-              class="privacy"
-              href="https://withframes.com/privacy/"
-              title="Privacy Policy"
-              >Privacy Policy</a
-            >
-          </p>
-        </div>
         <script type="application/ld+json">
           {
             "@context": "https://schema.org",
@@ -303,11 +237,384 @@
             ]
           }
         </script>
-      </main>
 
-      <aside class="infoCollapsedSidebar">
-        <header><h2>Frames – The All-in-One Analog Photography Notebook for iOS and macOS</h2></header><div><section><h3>A Digital Notebook for Analog Photographers</h3><p>Frames is a dedicated analog photography companion designed for film photographers who want to keep detailed notes, stay organized, and preserve metadata throughout their workflow. Whether you're shooting 35mm, 120, or large format, Frames brings precision and structure to your process—from capture to scan.</p><p>On iOS, it acts as your field notebook—letting you log camera settings, film stock, locations, and even attach reference photos to each frame. On macOS, it becomes your metadata editor, letting you sync notes into scanned photos for a complete archive of your analog work.</p></section><section><h3>Record Every Shot with Precision (iOS)</h3><ul><li><strong>Frame-by-Frame Logging:</strong> Note shutter speed, aperture, focal length, ISO, exposure compensation, flash use, and lens used.</li><li><strong>Roll Management:</strong> Organize your shoots into rolls with automatic frame numbering and film stock tracking.</li><li><strong>Reference Photos:</strong> Snap a digital shot alongside each frame for easy identification during scanning or editing.</li><li><strong>Geolocation Support:</strong> Save the exact location for each frame using GPS metadata.</li><li><strong>Multi-Camera Setup:</strong> Quickly switch between gear setups and reuse saved cameras, lenses, and films.</li></ul></section><section><h3>Organize Your Library Like a Pro</h3><ul><li><strong>Folder-Based Library:</strong> Group rolls into folders by project, trip, camera, or film type.</li><li><strong>Search & Sort Tools:</strong> Quickly find past rolls using filters for film, date, location, or keyword.</li><li><strong>Custom Tags & Notes:</strong> Add personal notes or tags to any roll or frame to enhance future lookup and categorization.</li><li><strong>Offline Access:</strong> Use the app entirely offline while shooting in remote areas or traveling.</li></ul></section><section><h3>Export & Reintegrate Metadata (macOS)</h3><ul><li><strong>EXIF Metadata Injection:</strong> Sync your film notes into scanned JPEGs or TIFFs using accurate EXIF metadata fields.</li><li><strong>Multi-Format Export:</strong> Export your notes as CSV files, text summaries, or structured JSON for archiving or sharing.</li><li><strong>Drag-and-Drop Interface:</strong> Easily match scanned images to each frame using a visual layout with placeholders.</li><li><strong>Batch Processing:</strong> Apply metadata in bulk for an entire roll, saving time during editing.</li><li><strong>Non-Destructive Workflow:</strong> Metadata is embedded without altering the original image quality.</li></ul></section><section><h3>Optimized for the Analog Photography Workflow</h3><ul><li><strong>Adaptive Aperture Control:</strong> Supports full, half, and third stop input to match mechanical lens dials.</li><li><strong>Smart Autofill:</strong> Remembers your gear preferences and fills repetitive data automatically.</li><li><strong>Extensive Film Stock Library:</strong> Over 200 preloaded films with characteristics, ISO, and color profiles.</li><li><strong>Darkroom Integration:</strong> Record development notes or print settings alongside your scans.</li><li><strong>Custom Field Support:</strong> Add custom metadata fields for special projects or alternative processes.</li></ul></section><section><h3>Built for iPhone, iPad, and Mac</h3><ul><li><strong>Native iOS Design:</strong> Feels like a true Apple app, with intuitive navigation and responsive touch controls.</li><li><strong>macOS App Store Integration:</strong> Seamlessly imports your data and guides you through metadata reintegration.</li><li><strong>Privacy-First:</strong> No user tracking, no cloud dependency. Your data stays local unless you choose to share it.</li><li><strong>iCloud Backup:</strong> Optional iCloud support ensures your notebooks are safe and synchronized.</li><li><strong>Universal Design:</strong> Whether on iPhone or Mac, Frames adapts to your workflow with clarity and speed.</li></ul></section><section><h3>Why Frames?</h3><p>Frames bridges the gap between analog and digital photography by giving film photographers a seamless way to log, organize, and sync metadata. It eliminates the disconnect between your notebook and your scans, ensuring your shooting data is preserved, searchable, and embedded into your archive.</p><p>Whether you're a professional photographer, a hobbyist, or someone just rediscovering film, Frames brings a layer of modern ease to the timeless craft of analog photography.</p></section><section><h3>Key Use Cases & Keywords</h3><ul><li>Analog photography notebook</li><li>Film photography note-taking app</li><li>EXIF metadata for scanned film</li><li>Photo roll manager and metadata editor</li><li>iPhone film notes app</li><li>macOS film metadata export tool</li><li>Camera settings tracker for analog</li><li>Darkroom planning and archival tools</li></ul></section><p>Download Frames today and streamline your film photography workflow from start to finish. Available now on iPhone, iPad, and Mac.</p></div><footer><p>&copy; 2025 Vincent Tantardini. All rights reserved.</p></footer>
-      </aside>
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-MER5TLYKLF"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-MER5TLYKLF');
+    </script>
+  </head>
+
+  <body>
+
+    <header class="wrapper" id="top">
+      <nav class="navigation" aria-label="Main navigation">
+        <div class="nav-left">
+          <a href="/" aria-label="Frames home" class="logo">Frames</a>
+        </div>
+
+        <ul class="nav-links">
+          <li><a href="#features-mobile">Features</a></li>
+          <li><a href="#faq">FAQ</a></li>
+          <li><a href="/privacy/">Privacy</a></li>
+          <li><a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/" target="_blank">Terms</a></li>
+        </ul>
+
+        <div class="nav-right">
+          <a href="https://apps.apple.com/app/frames-film-notes/id6744057317" class="button" role="button">
+            <svg width="15" height="18" viewBox="0 0 15 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M10.312 4.2002C10.4357 4.2002 10.6274 4.21257 10.8872 4.2373C11.1532 4.26204 11.45 4.32699 11.7778 4.43213C12.1118 4.53727 12.452 4.70736 12.7983 4.94238C13.1447 5.17741 13.4632 5.50521 13.7539 5.92578C13.7292 5.94434 13.6209 6.02474 13.4292 6.16699C13.2375 6.30306 13.021 6.50407 12.7798 6.77002C12.5386 7.03597 12.3283 7.37305 12.1489 7.78125C11.9696 8.18945 11.8799 8.67188 11.8799 9.22852C11.8799 9.87174 11.9943 10.4191 12.2231 10.8706C12.452 11.3159 12.7148 11.6746 13.0117 11.9468C13.3148 12.2189 13.5838 12.4199 13.8188 12.5498C14.0601 12.6735 14.1868 12.7384 14.1992 12.7446C14.1992 12.7632 14.1559 12.8931 14.0693 13.1343C13.9889 13.3755 13.8621 13.6816 13.689 14.0527C13.5158 14.4176 13.29 14.8042 13.0117 15.2124C12.7643 15.5649 12.5076 15.9051 12.2417 16.2329C11.9757 16.5607 11.6851 16.8298 11.3696 17.04C11.0604 17.2503 10.7078 17.3555 10.312 17.3555C9.91618 17.3555 9.59147 17.2967 9.33789 17.1792C9.08431 17.0617 8.82145 16.9442 8.54932 16.8267C8.28337 16.7153 7.92464 16.6597 7.47314 16.6597C7.02783 16.6597 6.65674 16.7153 6.35986 16.8267C6.06917 16.9442 5.79085 17.0617 5.5249 17.1792C5.25895 17.2967 4.94661 17.3555 4.58789 17.3555C4.04362 17.3555 3.56429 17.1421 3.1499 16.7153C2.7417 16.2886 2.32113 15.7721 1.88818 15.166C1.5542 14.6898 1.24805 14.1393 0.969727 13.5146C0.697591 12.8838 0.48112 12.2189 0.320312 11.52C0.159505 10.8149 0.0791016 10.1099 0.0791016 9.40479C0.0791016 8.28532 0.289388 7.33903 0.709961 6.56592C1.13672 5.78662 1.68408 5.19906 2.35205 4.80322C3.02002 4.4012 3.71273 4.2002 4.43018 4.2002C4.81364 4.2002 5.17236 4.26823 5.50635 4.4043C5.84652 4.53418 6.16195 4.66715 6.45264 4.80322C6.74333 4.93311 7.01237 4.99805 7.25977 4.99805C7.48242 4.99805 7.74837 4.93311 8.05762 4.80322C8.36686 4.66715 8.71012 4.53418 9.0874 4.4043C9.47087 4.26823 9.87907 4.2002 10.312 4.2002ZM9.69971 2.78076C9.40902 3.1333 9.04102 3.42708 8.5957 3.66211C8.15658 3.89095 7.7391 4.00537 7.34326 4.00537C7.26286 4.00537 7.18555 3.99919 7.11133 3.98682C7.10514 3.96208 7.09587 3.92188 7.0835 3.86621C7.07731 3.80436 7.07422 3.73942 7.07422 3.67139C7.07422 3.22607 7.17008 2.79313 7.36182 2.37256C7.55973 1.95199 7.78239 1.60254 8.02979 1.32422C8.34521 0.953125 8.74105 0.64388 9.21729 0.396484C9.69352 0.149089 10.1481 0.0161133 10.5811 -0.00244141C10.6058 0.102702 10.6182 0.220215 10.6182 0.350098C10.6182 0.79541 10.5316 1.23145 10.3584 1.6582C10.1852 2.07878 9.96566 2.45296 9.69971 2.78076Z" fill="black"/>
+</svg>
+            Download
+          </a>
+        </div>
+      </nav>
+
+      <h1 id="typewriter" data-content="Analog,<br>Notebook">Analog,<br>Notebook App for Film Photographers</h1>
+
+      <div class="download-buttons" role="group" aria-label="Download options">
+        <a href="https://apps.apple.com/app/frames-film-notes/id6744057317" class="button button-dark" role="button">
+          <svg width="13" height="20" viewBox="0 0 13 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M2.99316 19.8862C2.21387 19.8862 1.5861 19.6574 1.10986 19.1997C0.633626 18.7482 0.395508 18.1514 0.395508 17.4092V2.89941C0.395508 2.15723 0.633626 1.56038 1.10986 1.10889C1.5861 0.651204 2.21387 0.422363 2.99316 0.422363H10.0625C10.8171 0.422363 11.4263 0.651204 11.8901 1.10889C12.354 1.56038 12.5859 2.15723 12.5859 2.89941V17.4092C12.5859 18.1514 12.354 18.7482 11.8901 19.1997C11.4263 19.6574 10.8171 19.8862 10.0625 19.8862H2.99316ZM3.32715 17.9658H9.66357C10.0037 17.9658 10.2666 17.8761 10.4521 17.6968C10.6439 17.5174 10.7397 17.2638 10.7397 16.936V3.37256C10.7397 3.04476 10.6439 2.79118 10.4521 2.61182C10.2666 2.43245 10.0037 2.34277 9.66357 2.34277H3.32715C2.98698 2.34277 2.72412 2.43245 2.53857 2.61182C2.35303 2.79118 2.26025 3.04476 2.26025 3.37256V16.936C2.26025 17.2638 2.35303 17.5174 2.53857 17.6968C2.72412 17.8761 2.98698 17.9658 3.32715 17.9658ZM4.59814 17.2607C4.46826 17.2607 4.36003 17.2174 4.27344 17.1309C4.18685 17.0505 4.14355 16.9422 4.14355 16.8062C4.14355 16.6639 4.18685 16.5526 4.27344 16.4722C4.36003 16.3856 4.46826 16.3423 4.59814 16.3423H8.41113C8.54102 16.3423 8.64925 16.3856 8.73584 16.4722C8.82243 16.5526 8.86572 16.6639 8.86572 16.8062C8.86572 16.9422 8.82243 17.0505 8.73584 17.1309C8.64925 17.2174 8.54102 17.2607 8.41113 17.2607H4.59814ZM5.37744 4.40234C5.17952 4.40234 5.01253 4.3374 4.87646 4.20752C4.7404 4.07145 4.67236 3.90446 4.67236 3.70654C4.67236 3.50863 4.7404 3.34163 4.87646 3.20557C5.01253 3.0695 5.17952 3.00146 5.37744 3.00146H7.62256C7.82048 3.00146 7.98438 3.0695 8.11426 3.20557C8.25033 3.34163 8.31836 3.50863 8.31836 3.70654C8.31836 3.90446 8.25033 4.07145 8.11426 4.20752C7.98438 4.3374 7.82048 4.40234 7.62256 4.40234H5.37744Z" fill="#B3B3B3"/>
+          </svg>
+          Download for iOS
+        </a>
+        <a href="https://apps.apple.com/app/frames-film-metadata/id6744063354" class="button button-dark" role="button">
+          <svg width="27" height="16" viewBox="0 0 27 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M10.6982 2.60645V1.60449H16.2925V2.60645H16.0698C15.9214 2.60645 15.8472 2.67757 15.8472 2.81982V2.97754C15.8472 3.16927 15.7884 3.32699 15.6709 3.45068C15.5596 3.57438 15.408 3.63623 15.2163 3.63623H11.7837C11.5858 3.63623 11.4281 3.57438 11.3105 3.45068C11.193 3.32699 11.1343 3.16927 11.1343 2.97754V2.81982C11.1343 2.67757 11.0662 2.60645 10.9302 2.60645H10.6982ZM0.456055 14.4258C0.456055 14.1042 0.570475 13.8289 0.799316 13.6001C1.02816 13.3713 1.30339 13.2568 1.625 13.2568H3.45264V2.93115C3.45264 2.22607 3.64746 1.68799 4.03711 1.31689C4.43294 0.939616 4.97103 0.750977 5.65137 0.750977H21.3301C22.0413 0.750977 22.5856 0.939616 22.9629 1.31689C23.3402 1.68799 23.5288 2.22607 23.5288 2.93115V13.2568H25.3657C25.6873 13.2568 25.9595 13.3713 26.1821 13.6001C26.411 13.8289 26.5254 14.1042 26.5254 14.4258C26.5254 14.7474 26.411 15.0226 26.1821 15.2515C25.9595 15.4803 25.6873 15.5947 25.3657 15.5947H1.625C1.30339 15.5947 1.02816 15.4803 0.799316 15.2515C0.570475 15.0226 0.456055 14.7474 0.456055 14.4258ZM5.30811 13.2568H21.6733V3.41357C21.6733 2.87549 21.4043 2.60645 20.8662 2.60645H6.12451C5.58024 2.60645 5.30811 2.87549 5.30811 3.41357V13.2568Z" fill="#B3B3B3"/>
+          </svg>
+          Download for Mac
+        </a>
+      </div>
+    </header>
+
+  <main class="wrapper">
+
+    <section id="features-mobile" aria-labelledby="features-mobile-heading">
+      <h2 id="features-mobile-heading"><span class="sr-only">Analog Photography App </span>For iPhone</h2>
+      
+      <ul class="grid-3col feature-list-mobile">
+        <li>
+          <article>
+            <div class="screenshot-container">
+              <img src="/img/frames-feature-screenshot-1.png" alt="Description of screenshot 1" />
+            </div>
+            <h3>Organize Your Library</h3>
+            <p>
+              Create folders, sort your rolls, rename or move films with ease. 
+              Frames gives you a clean, flexible way to manage your film archive, 
+              just like a digital contact sheet built for analog workflows.
+            </p>
+          </article>
+        </li>
+
+        <li>
+          <article>
+            <div class="screenshot-container">
+              <img src="/img/frames-feature-screenshot-2.png" alt="Description of screenshot 1" />
+            </div>
+            <h3>Capture Every Setting</h3>
+            <p>
+              Log camera, lens, film stock, exposure, and notes while you shoot. 
+              Frames helps you record everything that matters so no detail gets 
+              lost between the shutter click and the scan.
+            </p>
+          </article>
+        </li>
+
+        <li>
+          <article>
+            <div class="screenshot-container">
+              <img src="/img/frames-feature-screenshot-3.png" alt="Description of screenshot 1" />
+            </div>
+            <h3>Revisit With Context</h3>
+            <p>
+              Review your shot settings anytime—complete with timestamps, notes, 
+              and map locations. Easily retrace your steps and connect each frame 
+              to the moment it was made.
+            </p>
+          </article>
+        </li>
+
+        <li>
+          <article>
+            <div class="screenshot-container">
+              <img src="/img/frames-feature-screenshot-4.png" alt="Description of screenshot 1" />
+            </div>
+            <h3>Map Your Memories</h3>
+            <p>
+              Automatically capture location data for each shot or add it later by hand. 
+              View your photos on an interactive map to see exactly where each moment was taken.
+            </p>
+          </article>
+        </li>
+
+        <li>
+          <article>
+            <div class="screenshot-container">
+              <img src="/img/frames-feature-screenshot-5.png" alt="Description of screenshot 1" />
+            </div>
+            <h3>Export and Share</h3>
+            <p>
+              Send your notes, settings, and shots to your computer in seconds. 
+              Export as .frames files and pick up right where you left 
+              off with the macOS app.
+            </p>
+          </article>
+        </li>
+      </ul>
+    </section>
+
+    <section id="features-desktop" aria-labelledby="features-desktop-heading">
+      <h2 id="features-desktop-heading"><span class="sr-only">Film Photography App </span>For Mac</h2>
+      
+      <ul class="grid-2col feature-list-desktop">
+
+        <li>
+          <article>
+            <div class="screenshot-container screenshot-desktop">
+              <img src="/img/frames-feature-screenshot-6.png" alt="Description of screenshot 1" />
+            </div>
+            <h3>Sync From iPhone</h3>
+            <p>
+              Seamlessly import your saved film notes from the iOS app. 
+              Just drop your .frames file into the macOS app—everything 
+              is instantly reloaded, no setup required.
+            </p>
+          </article>
+        </li>
+
+        <li>
+          <article>
+            <div class="screenshot-container screenshot-desktop">
+              <img src="/img/frames-feature-screenshot-7.png" alt="Description of screenshot 1" />
+            </div>
+            <h3>Explore Every Shot</h3>
+            <p>
+              Explore every shot in detail: see your camera settings, 
+              film stock, and shooting location on a map. Easily attach your 
+              scanned photos to each frame for a complete view.
+            </p>
+          </article>
+        </li>
+
+        <li>
+          <article>
+            <div class="screenshot-container screenshot-desktop">
+              <img src="/img/frames-feature-screenshot-8.png" alt="Description of screenshot 1" />
+            </div>
+            <h3>Export With Metadata</h3>
+            <p>
+              Merge your notes directly into your images. Export 
+              your attached photos with full EXIF metadata, including 
+              location, lens, and camera info—ready to share or archive.
+            </p>
+          </article>
+        </li>
+
+      </ul>
+    </section>
+
+    <section id="reviews" aria-labelledby="reviews-heading">
+      <h2 id="reviews-heading"><span class="sr-only">Photographers </span>Reviews</h2>
+
+      <ul class="grid-3col review-list">
+        <li>
+          <blockquote>
+            <h3>A must-have for film photographers</h3>
+            <p>This app has completely changed how I log and manage my film shots. Intuitive and beautifully made.</p>
+          </blockquote>
+
+          <blockquote>
+            <h3>Best of it‘s kind</h3>
+            <p>Best of all the analog photography metadata apps I have tested so far. It’s simple, it’s fast and yet has all features I need. No ads, no datamining - big plus. I wish it was open source though.</p>
+          </blockquote>
+
+          <blockquote>
+            <h3>Excelente app</h3>
+            <p>Algo bueno sería tener las velocidades a 1/3, pues no siempre se ajustan a las de las tomas. Felicidades</p>
+          </blockquote>
+        </li>
+
+        <li>
+          <blockquote>
+            <h3>Great little tool</h3>
+            <p>While the tool has some minor quirks, the devoloper is responsive and it's clear he is building this to be the swiss army knife of film note-taking. It's a vast improvement over jotting down notes in a notebook be it physical or Apple's built it notes app. Looking forward to future versions!</p>
+          </blockquote>
+
+          <blockquote>
+            <h3>Great tool so far! Missing one thing…</h3>
+            <p>The shutter speed of 1/100 is missing, can you please add that option? Or allow free input for shutter speed. Thanks!</p>
+          </blockquote>
+
+          <blockquote>
+            <h3>Simple and beautiful</h3>
+            <p>The app is simple to use and does what it is supposed to do. I like that you can name the current film rolls as I sometimes forget what I shot with which camera. The UI is simple and just beautiful.</p>
+          </blockquote>
+        </li>
+
+        <li>
+          <blockquote>
+            <h3>デジカメでできて銀塩でできないことはこのアプリで補える</h3>
+            <p>最近フィルム写真が懐かしくなり再入門しました。 昔と違ってデジカメの時代なので撮影情報をEXIFで残せるのは当たり前の時代、フィルムで撮った写真でも同じように記録を何とか残せないものかと調べたところ、このアプリに辿りつきました。 このアプリでレンズ、絞り、SSを設定しておき、ショットごとにボタンを押すだけでフレーム番号ごとに設定値が記録されます。併せて時刻とGPS情報も記録されるので、デジカメでの記録と遜色ないレベルになります。もちろん時刻についてはカメラとiPhoneでタイムラグが若干できてしまいますが、ここはご愛嬌ということで。 記録はTXTやJSONで出力できるので、exiftoolに流し込むスクリプトを書いてあげればデータへの反映も無理なくできます。PCでネガポジ変換や色調調整したJPEGファイルにEXIFをつけてあげればデジカメ写真と同様になりますね。 地味な制限事項としては、フィルムごとの最大フレーム数が40になっているためハーフカメラを使っていると41フレーム目以降を別記録に分ける必要があります。36枚撮りだと72フレーム撮れるので、できれば最大フレーム数が80だと助かるのですが… (作者さんへフィードバック済み)。</p>
+          </blockquote>
+        </li>
+      </ul>
+    </section>
+
+    <section id="faq" aria-labelledby="faq-heading">
+      <h2 id="faq-heading">Frequently Asked Questions</h2>
+
+      <div class="faq-list">
+        <details>
+          <summary>Which photo file formats are supported by the macOS app?</summary>
+          <p>MAt the moment, the macOS companion app supports JPEG (.jpg) 
+            files for metadata embedding and export. TIFF (.tif) support 
+            is under consideration and may be added in the future depending 
+            on user demand. We’re building around real photographers’ needs, 
+            so keep the feedback coming.</p>
+        </details>
+
+        <details>
+          <summary>Will there be an Android version of the app?</summary>
+          <p>An Android version is something we're thinking about — but for now, 
+            our focus is on making the iPhone and macOS experience as polished 
+            and complete as possible. If the iOS version proves successful, 
+            Android could be next on the roadmap. Stay tuned!</p>
+        </details>
+
+        <details>
+          <summary>Which kinds of metadata can I record with the app?</summary>
+          <p>You can log essential camera settings like shutter speed, 
+            aperture, lens, focal length, and film stock — plus timestamps, 
+            GPS location, and even custom notes for each shot. 
+            Whether you're capturing landscapes or street scenes, 
+            the app ensures your analog photography stays well-documented 
+            and organized.</p>
+        </details>
+
+        <details>
+          <summary>What features are planned for the future?</summary>
+          <p>We’re committed to continuous improvement. Future updates may 
+            include translations to make the app more accessible globally, 
+            additional export options, and possibly even a watch companion 
+            app for quick access during shoots. While nothing is set in 
+            stone, we’re building this tool with the community and evolving 
+            alongside your workflow.</p>
+        </details>
+
+        <details>
+          <summary>Can I log things like my tripod setup, filters, or other accessories?</summary>
+          <p>For now, the focus is on keeping the app simple and efficient for 
+            most film photographers. But you're not limited — there's a dedicated 
+            Notes field where you can jot down extra info like tripod use, filter 
+            types, or any other gear-related details. These aren’t part of the 
+            official EXIF metadata specification, but the Notes field gives you 
+            the flexibility to include whatever matters to your workflow, without 
+            cluttering the core interface.</p>
+        </details>
+
+      </div>
+    </section>
+
+    <section id="get-in-touch" aria-labelledby="get-in-touch-heading">
+      <h2 id="get-in-touch-heading">Get in Touch</h2>
+      
+      <div class="grid-2col get-in-touch-content">
+        <p class="text-bigbody">Got a question, feedback, or press inquiry? Feel free to get in touch through these contact links — We’d love to hear from you.</p>
+
+        <div class="grid-2col contact-sections">
+          
+          <!-- Email Section -->
+          <div class="contact-section">
+            <div class="email-section">
+              <h3>Contact:</h3>
+              <a href="mailto:hi@withframes.com">HI@WITHFRAMES.COM</a>
+            </div>
+
+            <div class="social-section">
+              <h3>Follow us:</h3>
+              <ul>
+                <li><a href="https://instagram.com/yourprofile" target="_blank" rel="noopener noreferrer">Instagram</a></li>
+                <li><a href="https://twitter.com/yourprofile" target="_blank" rel="noopener noreferrer">Twitter</a></li>
+                <li><a href="https://linkedin.com/in/yourprofile" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+                <li><a href="https://facebook.com/yourprofile" target="_blank" rel="noopener noreferrer">Facebook</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Support Section -->
+          <div class="support-section" id="support">
+            <h3>How to Support:</h3>
+            <a href="https://apps.apple.com/your-app-link" target="_blank" rel="noopener noreferrer">Buy Frames for Mac</a>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="grid-2col footer wrapper">
+    <div class="footer-left">
+      <ul>
+        <li><a href="#top" aria-label="Back to top">About</a></li>
+        <li><a href="#features-mobile" aria-label="Features section">Features</a></li>
+        <li><a href="#faq" aria-label="FAQ section">FAQ</a></li>
+        <li><a href="https://apps.apple.com/app/frames-film-metadata/id6744063354" target="_blank" rel="noopener noreferrer" aria-label="Download on the App Store">Download</a></li>
+        <li><a href="#get-in-touch" aria-label="Get in touch section">Contact</a></li>
+      </ul>
     </div>
+
+    <div class="footer-right">
+      <ul>
+        <li><a href="/privacy" aria-label="Privacy policy">Privacy</a></li>
+        <li><a href="/terms" aria-label="Terms and conditions">Terms</a></li>
+        <li><a href="/cookies" aria-label="Cookie policy">Cookies</a></li>
+        <li><span aria-label="Copyright notice" class="copyright">©2025 <span class="sr-only">Vincent Tantardini</span></span></li>
+      </ul>
+    </div>
+  </footer>
+  <script>
+document.addEventListener("DOMContentLoaded", () => {
+  const h1 = document.getElementById("typewriter");
+  const content = h1.dataset.content;
+  const cursorHTML = `<span class="cursor">|</span>`;
+
+  let i = 0;
+  let output = '';
+
+  const type = () => {
+    if (i < content.length) {
+      if (content[i] === '<') {
+        // Skip entire HTML tag at once
+        const endTag = content.indexOf('>', i);
+        if (endTag !== -1) {
+          output += content.slice(i, endTag + 1);
+          i = endTag + 1;
+        } else {
+          i++;
+        }
+      } else {
+        output += content[i];
+        i++;
+      }
+
+      h1.innerHTML = output + cursorHTML;
+      setTimeout(type, 60);
+    } else {
+      // Keep the final result with blinking cursor
+      h1.innerHTML = output + cursorHTML;
+    }
+  };
+
+  type();
+});
+
+  </script>
   </body>
 </html>
