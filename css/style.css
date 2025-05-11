@@ -81,13 +81,13 @@ a.button:hover,
 a.button:active {
   text-decoration: none;
   color: black;
+  box-sizing: content-box;
 }
 
 a.button.button-dark,
 a.button.button-dark:visited,
 a.button.button-dark:hover,
 a.button.button-dark:active {
-  text-decoration: none;
   color: white;
 }
 
@@ -422,5 +422,9 @@ a.logo {
   .feature-list-mobile,
 .feature-list-desktop {
   row-gap: var(--grid-vgap);
+}
+
+.button-dark {
+  font-size: 1rem;
 }
 }
