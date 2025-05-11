@@ -36,7 +36,9 @@ body {
   padding: 0;
 }
 
-* {
+*,
+*::before,
+*::after {
   box-sizing: border-box;
 }
 
@@ -44,7 +46,8 @@ body {
 .grid-3col {
   display: grid;
   gap: var(--grid-hgap);
-  max-width: 100%;
+  grid-template-columns: 1fr;
+  width: 100%;
 }
 
 .sr-only {
@@ -207,18 +210,19 @@ a.logo {
   background-color: #0C0C0C;
   border-radius: 1.5rem;
   border: 1px solid #333333;
-  padding: 18.5% 22%;
   text-align: center;
-}
-
-.screenshot-desktop {
-  padding: 14% 14%;
+  box-sizing: border-box;
 }
 
 .screenshot-container img {
   width: 100%;
   max-width: 100%;
   height: auto;
+  padding: 18.5% 22%;
+}
+
+.screenshot-desktop img {
+  padding: 14% 14%;
 }
 
 .review-list li {
@@ -362,13 +366,11 @@ details[open] summary::before {
 }
 
 .grid-2col {
-  display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: var(--grid-hgap);
 }
 
 .grid-3col {
-  display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: var(--grid-hgap);
 }
@@ -380,6 +382,8 @@ a.logo {
   .wrapper {
     padding-left: 4rem;
     padding-right: 4rem;
+    max-width: 112rem;
+    margin: 0 auto;
 }
   .nav-links {
     display: flex;
