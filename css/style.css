@@ -1,47 +1,3 @@
-:root {
-  --huge-spacing: 56vh;
-  --large-spacing: 8rem;
-  --medium-spacing: 2rem;
-
-  --gray-1: #B3B3B3;
-
-  --font-size-small: 0.8125rem;
-  --font-size-body: 1rem;
-
-  --font-size-heading1: 1.125rem;
-  --font-size-heading2: 1.5rem;
-  --font-size-heading3: 1.75rem;
-  --font-size-heading4: 3rem;
-  --font-size-large: 4rem;
-
-  --grid-hgap: 1rem;
-  --grid-vgap: 2.25rem;
-}
-
-html {
-  scroll-behavior: smooth;
-}
-
-body {
-  color: var(--gray-1);
-  font-size: var(--font-size-body);
-  background: #000;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  font-family: "Geist Mono", monospace;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
-  margin: 0;
-  padding: 0;
-}
-
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
-
 .grid-2col,
 .grid-3col {
   display: grid;
@@ -91,34 +47,6 @@ a.button.button-dark:active {
   color: white;
 }
 
-h1, .h1, h2, h3, a.logo {
-  font-family: "Geist", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
-  color: white;
-}
-
-h1, .h1 {
-  font-size: var(--font-size-large);
-    line-height: 1;
-    font-weight: 400;
-    /* margin-top: var(--huge-spacing); */
-    margin-bottom: var(--medium-spacing);
-}
-/* Modern browsers */
-@supports (height: 100svh) {
-  h1, .h1 {
-    margin-top: calc(100svh - var(--font-size-large) * 2 - 6rem);
-  }
-}
-
-/* Fallback */
-@supports not (height: 100svh) {
-  h1, .h1 {
-    margin-top: calc(100vh - var(--font-size-large) * 2 - 12rem);
-  }
-}
-
 h2 {
   font-size: var(--font-size-heading3);
     line-height: 1;
@@ -132,12 +60,6 @@ h3 {
     font-weight: 600;
 }
 
-a.logo {
-    font-size: 1.15rem;
-    line-height: 1;
-    font-weight: 600;
-}
-
 .text-bigbody {
   font-family: "Geist", sans-serif;
   font-optical-sizing: auto;
@@ -147,32 +69,6 @@ a.logo {
   margin-top: 0;
   font-weight: 400;
 }
- 
-.wrapper {
-    padding-left: 1rem;
-    padding-right: 1rem;
-}
-
-.navigation {
-  display: flex;
-  justify-content: space-between; /* Space out items */
-  align-items: center; /* Vertically center */
-  padding-top: 1rem;
-  font-size: var(--font-size-small);
-  text-transform: uppercase;
-}
-
-.nav-left, .nav-right {
-  display: flex;
-}
-
-.nav-left {
-  justify-content: flex-start;
-}
-
-.nav-right {
-  justify-content: flex-end;
-}
 
 .nav-links {
   display: none;
@@ -180,23 +76,6 @@ a.logo {
   list-style: none;
   margin: 0;
   padding: 0;
-}
-
-/* Optional: Ensure the button has similar visual weight to the logo */
-.button {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  gap: 0.5rem;
-  white-space: nowrap;
-  height: 2.5rem;
-  padding: 0 1rem;
-  background-color: white;
-  color: black;
-  border-radius: 0.5rem;
-  font-weight: 600;
-  text-transform: uppercase;
-  font-size: var(--font-size-small);
 }
 
 .button-dark {
@@ -287,12 +166,12 @@ details summary {
   cursor: pointer;
   list-style: none;
   position: relative;
-  padding-right: 1.5rem; /* Add space for the + icon */
+  padding-right: 1.5rem;
   height: 5rem;
 }
 
 details summary::-webkit-details-marker {
-  display: none; /* Hide native triangle in Safari/Chrome */
+  display: none;
 }
 
 details summary::before {
@@ -306,7 +185,6 @@ details summary::before {
   font-size: 2rem;
 }
 
-/* When details is open, change + to − */
 details[open] summary::before {
   content: "−";
 }
@@ -356,70 +234,23 @@ details[open] summary::before {
   color: white;
 }
 
-
 @media (min-width: 768px) {
-  :root {
-  --huge-spacing: 25rem;
-  --large-spacing: 16rem;
-  --medium-spacing: 4rem;
+  .grid-2col {
+    grid-template-columns: repeat(2, 1fr);
+    gap: var(--grid-hgap);
+  }
 
-  --gray-1: #B3B3B3;
+  .grid-3col {
+    grid-template-columns: repeat(3, 1fr);
+    gap: var(--grid-hgap);
+  }
 
-  --font-size-small: 0.875rem;
-  --font-size-body: 1.125rem;
-  
-  --font-size-heading1: 1.5rem;
-  --font-size-heading2: 2.25rem;
-  --font-size-heading3: 4rem;
-  --font-size-heading4: 6rem;
-  --font-size-large: 8rem;
-
-  --grid-hgap: 1.5rem;
-  --grid-vgap: 3.5rem;
-}
-
-h1, .h1 {
-    margin-top: calc(100svh - var(--font-size-large) * 2 - 8rem);
-    min-height: calc(var(--font-size-large) * 2);
-}
-
-.grid-2col {
-  grid-template-columns: repeat(2, 1fr);
-  gap: var(--grid-hgap);
-}
-
-.grid-3col {
-  grid-template-columns: repeat(3, 1fr);
-  gap: var(--grid-hgap);
-}
-
-a.logo {
-    font-size: 1.25rem;
-}
-
-  .wrapper {
-    padding-left: 4rem;
-    padding-right: 4rem;
-    max-width: 112rem;
-    margin: 0 auto;
-}
   .nav-links {
     display: flex;
   }
 
-
-  .navigation {
-    display: grid;
-    grid-template-columns: 1fr auto 1fr; /* Equal width columns on sides */
-    align-items: center;
-    gap: var(--grid-hgap);
-    padding-top: 2rem;
-    font-size: var(--font-size-small);
-    text-transform: uppercase;
-  }
-
-  .button {
-    height: 3rem;
+  .button-dark {
+    font-size: 1rem;
   }
 
   .download-buttons {
@@ -432,18 +263,298 @@ a.logo {
 
   .footer {
     grid-template-columns: repeat(12, 1fr);
-    margin-top: var(--large-spacing);
     align-items: end;
     padding-bottom: 3rem;
     gap: var(--grid-hgap);
   }
 
   .feature-list-mobile,
-.feature-list-desktop {
-  row-gap: var(--grid-vgap);
+  .feature-list-desktop {
+    row-gap: var(--grid-vgap);
+  }
 }
 
-  .button-dark {
-    font-size: 1rem;
+@charset "UTF-8";
+.input-wrapper > input,
+.input-wrapper > .placeholder {
+  display: block;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  border: none;
+}
+.input-wrapper > .placeholder {
+  pointer-events: none;
+}
+.input-wrapper > .placeholder::before {
+  content: "​";
+  content: "​"/"Analog,\aNotebook";
+  alt: "Analog,\aNotebook";
+  white-space: break-spaces;
+  will-change: content;
+  animation: typed-0 3.92s linear 0s 0 forwards, typed-0-final 1.0666666667s linear 0s 1 forwards;
+}
+@keyframes typed-0-final {
+  0%, 6.25% {
+    content: "​A";
+    content: "​A"/"Analog,\aNotebook";
+    alt: "Analog,\aNotebook";
   }
+  6.251%, 12.5% {
+    content: "​An";
+    content: "​An"/"Analog,\aNotebook";
+    alt: "Analog,\aNotebook";
+  }
+  12.501%, 18.75% {
+    content: "​Ana";
+    content: "​Ana"/"Analog,\aNotebook";
+    alt: "Analog,\aNotebook";
+  }
+  18.751%, 25% {
+    content: "​Anal";
+    content: "​Anal"/"Analog,\aNotebook";
+    alt: "Analog,\aNotebook";
+  }
+  25.001%, 31.25% {
+    content: "​Analo";
+    content: "​Analo"/"Analog,\aNotebook";
+    alt: "Analog,\aNotebook";
+  }
+  31.251%, 37.5% {
+    content: "​Analog";
+    content: "​Analog"/"Analog,\aNotebook";
+    alt: "Analog,\aNotebook";
+  }
+  37.501%, 43.75% {
+    content: "​Analog,";
+    content: "​Analog,"/"Analog,\aNotebook";
+    alt: "Analog,\aNotebook";
+  }
+  43.751%, 50% {
+    content: "​Analog,\a";
+    content: "​Analog,\a"/"Analog,\aNotebook";
+    alt: "Analog,\aNotebook";
+  }
+  50.001%, 56.25% {
+    content: "​Analog,\aN";
+    content: "​Analog,\aN"/"Analog,\aNotebook";
+    alt: "Analog,\aNotebook";
+  }
+  56.251%, 62.5% {
+    content: "​Analog,\aNo";
+    content: "​Analog,\aNo"/"Analog,\aNotebook";
+    alt: "Analog,\aNotebook";
+  }
+  62.501%, 68.75% {
+    content: "​Analog,\aNot";
+    content: "​Analog,\aNot"/"Analog,\aNotebook";
+    alt: "Analog,\aNotebook";
+  }
+  68.751%, 75% {
+    content: "​Analog,\aNote";
+    content: "​Analog,\aNote"/"Analog,\aNotebook";
+    alt: "Analog,\aNotebook";
+  }
+  75.001%, 81.25% {
+    content: "​Analog,\aNoteb";
+    content: "​Analog,\aNoteb"/"Analog,\aNotebook";
+    alt: "Analog,\aNotebook";
+  }
+  81.251%, 87.5% {
+    content: "​Analog,\aNotebo";
+    content: "​Analog,\aNotebo"/"Analog,\aNotebook";
+    alt: "Analog,\aNotebook";
+  }
+  87.501%, 93.75% {
+    content: "​Analog,\aNoteboo";
+    content: "​Analog,\aNoteboo"/"Analog,\aNotebook";
+    alt: "Analog,\aNotebook";
+  }
+  93.751%, 100% {
+    content: "​Analog,\aNotebook";
+    content: "​Analog,\aNotebook"/"Analog,\aNotebook";
+    alt: "Analog,\aNotebook";
+  }
+}
+.input-wrapper > .placeholder::after {
+  content: "​";
+  position: relative;
+  display: inline-block;
+  padding-right: 2px;
+  border-right: 2px solid currentColor;
+  white-space: nowrap;
+  animation: typed-0-caret 0.75s linear 0s infinite forwards;
+}
+@keyframes typed-0 {
+  0%, 1.6996802721% {
+    content: "​A";
+    content: "​A"/"Analog,\aNotebook";
+    alt: "Analog,\aNotebook";
+  }
+  1.7006802721%, 3.4003605442% {
+    content: "​An";
+    content: "​An"/"Analog,\aNotebook";
+    alt: "Analog,\aNotebook";
+  }
+  3.4013605442%, 5.1010408163% {
+    content: "​Ana";
+    content: "​Ana"/"Analog,\aNotebook";
+    alt: "Analog,\aNotebook";
+  }
+  5.1020408163%, 6.8017210884% {
+    content: "​Anal";
+    content: "​Anal"/"Analog,\aNotebook";
+    alt: "Analog,\aNotebook";
+  }
+  6.8027210884%, 8.5024013605% {
+    content: "​Analo";
+    content: "​Analo"/"Analog,\aNotebook";
+    alt: "Analog,\aNotebook";
+  }
+  8.5034013605%, 10.2030816327% {
+    content: "​Analog";
+    content: "​Analog"/"Analog,\aNotebook";
+    alt: "Analog,\aNotebook";
+  }
+  10.2040816327%, 11.9037619048% {
+    content: "​Analog,";
+    content: "​Analog,"/"Analog,\aNotebook";
+    alt: "Analog,\aNotebook";
+  }
+  11.9047619048%, 13.6044421769% {
+    content: "​Analog,\a";
+    content: "​Analog,\a"/"Analog,\aNotebook";
+    alt: "Analog,\aNotebook";
+  }
+  13.6054421769%, 15.305122449% {
+    content: "​Analog,\aN";
+    content: "​Analog,\aN"/"Analog,\aNotebook";
+    alt: "Analog,\aNotebook";
+  }
+  15.306122449%, 17.0058027211% {
+    content: "​Analog,\aNo";
+    content: "​Analog,\aNo"/"Analog,\aNotebook";
+    alt: "Analog,\aNotebook";
+  }
+  17.0068027211%, 18.7064829932% {
+    content: "​Analog,\aNot";
+    content: "​Analog,\aNot"/"Analog,\aNotebook";
+    alt: "Analog,\aNotebook";
+  }
+  18.7074829932%, 20.4071632653% {
+    content: "​Analog,\aNote";
+    content: "​Analog,\aNote"/"Analog,\aNotebook";
+    alt: "Analog,\aNotebook";
+  }
+  20.4081632653%, 22.1078435374% {
+    content: "​Analog,\aNoteb";
+    content: "​Analog,\aNoteb"/"Analog,\aNotebook";
+    alt: "Analog,\aNotebook";
+  }
+  22.1088435374%, 23.8085238095% {
+    content: "​Analog,\aNotebo";
+    content: "​Analog,\aNotebo"/"Analog,\aNotebook";
+    alt: "Analog,\aNotebook";
+  }
+  23.8095238095%, 25.5092040816% {
+    content: "​Analog,\aNoteboo";
+    content: "​Analog,\aNoteboo"/"Analog,\aNotebook";
+    alt: "Analog,\aNotebook";
+  }
+  25.5102040816%, 62.5840340136% {
+    content: "​Analog,\aNotebook";
+    content: "​Analog,\aNotebook"/"Analog,\aNotebook";
+    alt: "Analog,\aNotebook";
+  }
+  62.5850340136%, 63.9445782313% {
+    content: "​Analog,\aNoteboo";
+    content: "​Analog,\aNoteboo"/"Analog,\aNotebook";
+    alt: "Analog,\aNotebook";
+  }
+  63.9455782313%, 65.305122449% {
+    content: "​Analog,\aNotebo";
+    content: "​Analog,\aNotebo"/"Analog,\aNotebook";
+    alt: "Analog,\aNotebook";
+  }
+  65.306122449%, 66.6656666667% {
+    content: "​Analog,\aNoteb";
+    content: "​Analog,\aNoteb"/"Analog,\aNotebook";
+    alt: "Analog,\aNotebook";
+  }
+  66.6666666667%, 68.0262108844% {
+    content: "​Analog,\aNote";
+    content: "​Analog,\aNote"/"Analog,\aNotebook";
+    alt: "Analog,\aNotebook";
+  }
+  68.0272108844%, 69.386755102% {
+    content: "​Analog,\aNot";
+    content: "​Analog,\aNot"/"Analog,\aNotebook";
+    alt: "Analog,\aNotebook";
+  }
+  69.387755102%, 70.7472993197% {
+    content: "​Analog,\aNo";
+    content: "​Analog,\aNo"/"Analog,\aNotebook";
+    alt: "Analog,\aNotebook";
+  }
+  70.7482993197%, 72.1078435374% {
+    content: "​Analog,\aN";
+    content: "​Analog,\aN"/"Analog,\aNotebook";
+    alt: "Analog,\aNotebook";
+  }
+  72.1088435374%, 73.4683877551% {
+    content: "​Analog,\a";
+    content: "​Analog,\a"/"Analog,\aNotebook";
+    alt: "Analog,\aNotebook";
+  }
+  73.4693877551%, 74.8289319728% {
+    content: "​Analog,";
+    content: "​Analog,"/"Analog,\aNotebook";
+    alt: "Analog,\aNotebook";
+  }
+  74.8299319728%, 76.1894761905% {
+    content: "​Analog";
+    content: "​Analog"/"Analog,\aNotebook";
+    alt: "Analog,\aNotebook";
+  }
+  76.1904761905%, 77.5500204082% {
+    content: "​Analo";
+    content: "​Analo"/"Analog,\aNotebook";
+    alt: "Analog,\aNotebook";
+  }
+  77.5510204082%, 78.9105646259% {
+    content: "​Anal";
+    content: "​Anal"/"Analog,\aNotebook";
+    alt: "Analog,\aNotebook";
+  }
+  78.9115646259%, 80.2711088435% {
+    content: "​Ana";
+    content: "​Ana"/"Analog,\aNotebook";
+    alt: "Analog,\aNotebook";
+  }
+  80.2721088435%, 81.6316530612% {
+    content: "​An";
+    content: "​An"/"Analog,\aNotebook";
+    alt: "Analog,\aNotebook";
+  }
+  81.6326530612%, 82.9921972789% {
+    content: "​A";
+    content: "​A"/"Analog,\aNotebook";
+    alt: "Analog,\aNotebook";
+  }
+  82.9931972789%, 100% {
+    content: "​";
+    content: "​"/"Analog,\aNotebook";
+    alt: "Analog,\aNotebook";
+  }
+}
+@keyframes typed-0-caret {
+  75% {
+    border-color: transparent;
+  }
+}
+.input-wrapper > input:focus + .placeholder, .input-wrapper > input:active + .placeholder {
+  display: none;
 }
