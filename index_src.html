@@ -129,6 +129,51 @@
     font-size: var(--font-size-small);
   }
 
+  ul, li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  a,
+  a:visited,
+  a:hover,
+  a:active {
+    text-decoration: none;
+    color: inherit;
+  }
+
+  a.button,
+  a.button:visited,
+  a.button:hover,
+  a.button:active {
+    text-decoration: none;
+    color: black;
+    box-sizing: content-box;
+  }
+
+  a.button.button-dark,
+  a.button.button-dark:visited,
+  a.button.button-dark:hover,
+  a.button.button-dark:active {
+    color: white;
+  }
+
+  .sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    border: 0;
+    clip: rect(0, 0, 0, 0);
+    overflow: hidden;
+  }
+
+  .nav-links {
+    display: none;
+  }
+
   /* Only include mobile styles by default */
   @media (min-width: 768px) {
     :root {
@@ -178,7 +223,7 @@
     
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Geist+Mono:wght@400;600&family=Geist:wght@400;500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Geist+Mono:wght@400;600&family=Geist:wght@400;500;600&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
 
     <!-- Localization -->
     <link rel="canonical" href="https://withframes.com/">
@@ -200,7 +245,8 @@
     <link rel="alternate" hreflang="hi" href="https://withframes.com/in/">
     <link rel="alternate" hreflang="x-default" href="https://withframes.com/">
 
-    <link rel="stylesheet" href="/css/style.min.css">
+    <link rel="preload" href="/css/style.min.css" as="style" onload="this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="/css/style.min.css"></noscript>
 
     <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image">

@@ -6,36 +6,6 @@
   width: 100%;
 }
 
-ul, li {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
-a,
-a:visited,
-a:hover,
-a:active {
-  text-decoration: none;
-  color: inherit;
-}
-
-a.button,
-a.button:visited,
-a.button:hover,
-a.button:active {
-  text-decoration: none;
-  color: black;
-  box-sizing: content-box;
-}
-
-a.button.button-dark,
-a.button.button-dark:visited,
-a.button.button-dark:hover,
-a.button.button-dark:active {
-  color: white;
-}
-
 h2 {
   font-size: var(--font-size-heading3);
     line-height: 1;
@@ -60,7 +30,6 @@ h3 {
 }
 
 .nav-links {
-  display: none;
   gap: 2.75rem;
   list-style: none;
   margin: 0;
