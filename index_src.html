@@ -176,17 +176,9 @@
   }
 </style>
     
-<!-- 1. Preload ONLY Geist Sans (critical font) -->
-<link rel="preload" href="https://fonts.googleapis.com/css2?family=Geist:wght@300..600&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
-
-<!-- 2. Load Geist Mono AFTER the page is interactive (non-blocking) -->
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Geist+Mono:wght@400..600&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
-
-<!-- 3. Fallback if JavaScript is disabled -->
-<noscript>
-  <link href="https://fonts.googleapis.com/css2?family=Geist:wght@300..600&family=Geist+Mono:wght@400..600&display=swap" rel="stylesheet">
-</noscript>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Geist+Mono:wght@400..600&family=Geist:wght@300..600&display=swap" rel="stylesheet">
 
     <!-- Localization -->
     <link rel="canonical" href="https://withframes.com/">
