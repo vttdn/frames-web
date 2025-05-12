@@ -301,7 +301,7 @@ details summary::before {
   right: 0;
   top: 50%;
   transform: translateY(-50%);
-  font-weight: 200;
+  font-weight: 300;
   line-height: 1;
   font-size: 2rem;
 }
@@ -356,20 +356,6 @@ details[open] summary::before {
   color: white;
 }
 
-#typewriter {
-  position: relative;
-}
-
-.cursor {
-  display: inline-block;
-  animation: blink 1s steps(1) infinite;
-  font-weight: 200;
-}
-
-@keyframes blink {
-  0%, 50% { opacity: 1; }
-  50.01%, 100% { opacity: 0; }
-}
 
 @media (min-width: 768px) {
   :root {
