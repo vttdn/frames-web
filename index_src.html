@@ -23,7 +23,7 @@
     --font-size-heading2: 1.5rem;
     --font-size-heading3: 1.75rem;
     --font-size-heading4: 3rem;
-    --font-size-large: 3.75rem;
+    --font-size-large: 3.5rem;
     --grid-hgap: 1rem;
     --grid-vgap: 2.25rem;
   }
@@ -61,7 +61,7 @@
 
   h1, .h1 {
     font-size: var(--font-size-large);
-    line-height: 1;
+    line-height: 1.1;
     font-weight: 400;
     margin-bottom: var(--medium-spacing);
     min-height: calc(var(--font-size-large) * 3);
@@ -70,14 +70,14 @@
   /* Modern browsers */
   @supports (height: 100svh) {
     h1, .h1 {
-      margin-top: calc(100svh - var(--font-size-large) * 2 - 10rem);
+      margin-top: calc(100svh - var(--font-size-large) * 2 - 11rem);
     }
   }
 
   /* Fallback */
   @supports not (height: 100svh) {
     h1, .h1 {
-      margin-top: calc(100vh - var(--font-size-large) * 2 - 10rem);
+      margin-top: calc(100vh - var(--font-size-large) * 2 - 11rem);
     }
   }
 
@@ -215,6 +215,7 @@
     h1, .h1 {
       margin-top: calc(100svh - var(--font-size-large) * 2 - 9rem);
       min-height: calc(var(--font-size-large) * 2);
+      line-height: 1;
     }
 
     a.logo {
