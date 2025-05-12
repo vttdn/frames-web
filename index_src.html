@@ -251,16 +251,6 @@
 
     <!-- Apple Smart App Banner -->
     <meta name="apple-itunes-app" content="app-id=6744057317">
-
-    <!-- Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-MER5TLYKLF"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      gtag('config', 'G-MER5TLYKLF');
-    </script>
   </head>
 
   <body>
@@ -800,5 +790,14 @@
       ]
     }
     </script>
+
+<!-- Google Analytics - Deferred + Low Priority -->
+<script defer src="https://www.googletagmanager.com/gtag/js?id=G-MER5TLYKLF" fetchpriority="low"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-MER5TLYKLF', { 'transport_type': 'beacon' });
+</script>
   </body>
 </html>
