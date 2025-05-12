@@ -123,7 +123,14 @@
         </div>
       </nav>
 
-      <h1 id="typewriter" data-content="Analog,<br>Notebook">Analog,<br>Notebook App for Film Photographers</h1>
+      <h1 class="input-wrapper">
+        <span class="sr-only">Analog Notebook App for Film Photographers</span>
+        <div class="input-wrapper">
+          <input>
+          <span class="placeholder"></span>
+        </div>
+      </h1>
+      <!-- <h1 id="typewriter" data-content="Analog,<br>Notebook">Analog,<br>Notebook App for Film Photographers</h1> -->
 
       <div class="download-buttons" role="group" aria-label="Download options">
         <a href="https://apps.apple.com/app/frames-film-notes/id6744057317" class="button button-dark" role="button">
@@ -629,43 +636,5 @@
       ]
     }
     </script>
-
-  <!-- JS -->
-  <script>
-  document.addEventListener("DOMContentLoaded", () => {
-    const h1 = document.getElementById("typewriter");
-    const content = h1.dataset.content;
-    const cursorHTML = `<span class="cursor">|</span>`;
-
-    let i = 0;
-    let output = '';
-
-    const type = () => {
-      if (i < content.length) {
-        if (content[i] === '<') {
-          // Skip entire HTML tag at once
-          const endTag = content.indexOf('>', i);
-          if (endTag !== -1) {
-            output += content.slice(i, endTag + 1);
-            i = endTag + 1;
-          } else {
-            i++;
-          }
-        } else {
-          output += content[i];
-          i++;
-        }
-
-        h1.innerHTML = output + cursorHTML;
-        setTimeout(type, 60);
-      } else {
-        // Keep the final result with blinking cursor
-        h1.innerHTML = output + cursorHTML;
-      }
-    };
-
-    type();
-  });
-  </script>
   </body>
 </html>

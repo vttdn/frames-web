@@ -1,0 +1,33 @@
+@import 'typed';
+
+.input-wrapper {
+  > input,
+  > .placeholder {
+    display: block;
+    appearance: none;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    border: none;
+  }
+  > .placeholder {
+    pointer-events: none;
+    @include typed(
+      "Analog,\ANotebook",
+      1.5,
+      (
+        caret-width: 2px,
+        caret-space: 2px,
+        iterations: 0
+      )
+    );
+  }
+  > input {
+    &:focus,
+    &:active {
+      + .placeholder {
+        display: none;
+      }
+    }
+  }
+}
