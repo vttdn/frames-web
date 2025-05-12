@@ -91,14 +91,14 @@ a.button.button-dark:active {
   color: white;
 }
 
-h1, h2, h3, a.logo {
+h1, .h1, h2, h3, a.logo {
   font-family: "Geist", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
   color: white;
 }
 
-h1 {
+h1, .h1 {
   font-size: var(--font-size-large);
     line-height: 1;
     font-weight: 400;
@@ -107,20 +107,16 @@ h1 {
 }
 /* Modern browsers */
 @supports (height: 100svh) {
-  h1 {
+  h1, .h1 {
     margin-top: calc(100svh - var(--font-size-large) * 2 - 6rem);
   }
 }
 
 /* Fallback */
 @supports not (height: 100svh) {
-  h1 {
+  h1, .h1 {
     margin-top: calc(100vh - var(--font-size-large) * 2 - 12rem);
   }
-}
-
-h1 .ti-cursor {
-  font-weight: 200!important;
 }
 
 h2 {
@@ -396,7 +392,7 @@ details[open] summary::before {
   --grid-vgap: 3.5rem;
 }
 
-h1 {
+h1, .h1 {
     margin-top: calc(100svh - var(--font-size-large) * 2 - 8rem);
     min-height: calc(var(--font-size-large) * 2);
 }
