@@ -19,7 +19,7 @@
   alt: "Analog,\aNotebook";
   white-space: break-spaces;
   will-change: content;
-  animation: typed-0 3.92s linear 1s 0 forwards, typed-0-final 1.0666666667s linear 1s 1 forwards;
+  animation: typed-0 3.92s linear 0s 0 forwards, typed-0-final 1.0666666667s linear 0s 1 forwards;
 }
 @keyframes typed-0-final {
   0%, 6.25% {
@@ -110,7 +110,7 @@
   padding-right: 2px;
   border-right: 2px solid currentColor;
   white-space: nowrap;
-  animation: typed-0-caret 0.75s linear 1s infinite forwards;
+  animation: typed-0-caret 0.75s linear 0s infinite forwards;
 }
 @keyframes typed-0 {
   0%, 1.6996802721% {
