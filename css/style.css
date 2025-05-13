@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 .grid-2col,
 .grid-3col {
   display: grid;

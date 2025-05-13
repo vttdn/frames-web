@@ -1,0 +1,46 @@
+{
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Which photo file formats are supported by the macOS app?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "At the moment, the macOS companion app supports JPEG (.jpg) files for metadata embedding and export. TIFF (.tif) support is under consideration and may be added in the future depending on user demand."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Will there be an Android version of the app?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "An Android version is being considered. For now, the focus is on perfecting the iPhone and macOS apps. If successful, Android may follow in the future."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which kinds of metadata can I record with the app?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "You can record a complete set of camera settings and metadata for each shot, including the camera brand and model, shutter speed, aperture, focal length, exposure compensation, flash usage, lens details, and film stock. GPS location and date/time are automatically logged, but you can override them manually if needed. You can also add custom notes to include any additional context or details, helping you create a rich, well-organized archive of your film photography with all essential information preserved."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What features are planned for the future?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Planned features include translations, additional export formats, and potentially a watchOS companion app for faster access during shoots."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I log things like my tripod setup, filters, or other accessories?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. While not part of standard EXIF fields, there's a flexible Notes field where you can log tripod use, filters, and other gear details."
+          }
+        }
+      ]
+    }
