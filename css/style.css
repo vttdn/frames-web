@@ -36,6 +36,7 @@ h3 {
   color: white;
   border: 1px solid rgba(255,255,255,0.24);
   gap: 0.625rem;
+  font-size: var(--font-size-body-uppercase);
 }
 
 .download-buttons {
@@ -176,6 +177,7 @@ details[open] summary::before {
   display: inline-block;
   margin-bottom: 0.5rem;
   text-transform: uppercase;
+  font-size: var(--font-size-body-uppercase);
 }
 
 .contact-section {
@@ -675,10 +677,6 @@ details[open] summary::before {
   .grid-3col {
     grid-template-columns: repeat(3, 1fr);
     gap: var(--grid-hgap);
-  }
-
-  .button-dark {
-    font-size: 1rem;
   }
 
   .download-buttons {
