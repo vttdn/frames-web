@@ -9,7 +9,7 @@
 h2 {
   font-size: var(--font-size-heading3);
     line-height: 1;
-    font-weight: 500;
+    font-weight: 600;
     margin-top: var(--large-spacing);
     margin-bottom: var(--grid-vgap);
 }
@@ -17,7 +17,7 @@ h2 {
 h3 {
   font-size: var(--font-size-heading1);
     line-height: 120%;
-    font-weight: 500;
+    font-weight: 600;
 }
 
 .text-bigbody {
@@ -195,6 +195,7 @@ details[open] summary::before {
   font-style: normal;
   color: white;
   line-height: 120%;
+  font-weight: 500;
 }
 
 .footer-right ul {
