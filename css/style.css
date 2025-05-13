@@ -2,6 +2,10 @@ html {
   scroll-behavior: smooth;
 }
 
+    body, h1, .h1, h2, h3, a.logo {
+        font-optical-sizing: auto;
+    }
+
 .grid-2col,
 .grid-3col {
   display: grid;
