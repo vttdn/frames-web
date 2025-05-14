@@ -39,16 +39,20 @@ h3 {
   line-height: 1.25;
 }
 
-.button-dark {
-  background-color: black;
-  color: white;
-  border: 1px solid rgba(255,255,255,0.24);
-  gap: 0.625rem;
+.button-big {
   font-size: var(--font-size-body-uppercase);
+  gap: 0.75rem;
+  height: 3.75rem;
+  padding: 0 1rem;
+}
+
+.button img {
+  position: relative;
+  top: -0.1em;
 }
 
 .download-buttons {
-  gap: 1rem;
+  gap: 1.25rem;
 }
 
 .feature-list-mobile,
