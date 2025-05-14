@@ -44,6 +44,18 @@
             ::before {
                 box-sizing: border-box;
             }
+
+
+
+.grid-2col,
+.grid-3col,
+.grid-4col {
+  display: grid;
+  gap: var(--grid-hgap);
+  grid-template-columns: 1fr;
+  width: 100%;
+}
+
             .h1,
             h1,
             h2,
@@ -203,6 +215,23 @@
                     margin-bottom: 3.5rem;
                     min-height: 19.4rem;
                 }
+
+
+  .grid-2col {
+    grid-template-columns: repeat(2, 1fr);
+    gap: var(--grid-hgap);
+  }
+
+  .grid-3col {
+    grid-template-columns: repeat(3, 1fr);
+    gap: var(--grid-hgap);
+  }
+
+  .grid-4col {
+    grid-template-columns: repeat(4, 1fr);
+    gap: var(--grid-hgap);
+  }
+  
                 .wrapper {
                     padding-left: 3rem;
                     padding-right: 3rem;

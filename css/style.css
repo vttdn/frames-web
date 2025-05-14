@@ -6,15 +6,6 @@ html {
         font-optical-sizing: auto;
     }
 
-.grid-2col,
-.grid-3col,
-.grid-4col {
-  display: grid;
-  gap: var(--grid-hgap);
-  grid-template-columns: 1fr;
-  width: 100%;
-}
-
 h2 {
   font-size: var(--font-size-heading3);
     line-height: 1;
@@ -215,20 +206,6 @@ details[open] summary::before {
 }
 
 @media (min-width: 768px) {
-  .grid-2col {
-    grid-template-columns: repeat(2, 1fr);
-    gap: var(--grid-hgap);
-  }
-
-  .grid-3col {
-    grid-template-columns: repeat(3, 1fr);
-    gap: var(--grid-hgap);
-  }
-
-  .grid-4col {
-    grid-template-columns: repeat(4, 1fr);
-    gap: var(--grid-hgap);
-  }
 
   .download-buttons {
     display: inline-flex;
