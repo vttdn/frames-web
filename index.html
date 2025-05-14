@@ -164,7 +164,7 @@
                 border: none;
             }
 
-            .downoad-for-mac {
+            .desktop-only {
                 display: none;
             }
 
@@ -216,8 +216,8 @@
                     padding-top: 2rem;
                 }
 
-            .downoad-for-mac {
-                display: inline-flex;
+            .desktop-only {
+                display: inherit;
             }
 
             .button {
@@ -241,9 +241,9 @@
             }
 
             .download-buttons {
-    position: static;
-    top: 0; right: 0;
-}
+                position: static;
+                top: 0; right: 0;
+            }
         }
         </style>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -320,8 +320,8 @@
             <h1 class="sr-only">Analog Notebook and Metadata App for Film Photographers</h1>
             <div class="h1 input-wrapper" aria-hidden="true"><input type="text" tabindex="-1" readonly /> <span class="placeholder"></span></div>
             <div class="download-buttons" role="group" aria-label="Download options">
-                <a href="https://apps.apple.com/app/frames-film-notes/id6744057317" class="button" role="button"><img src="/img/icon-apple-dark.svg" alt="Apple Logo" width="24" height="24" loading="lazy" /> Download for iOS </a>
-                <a href="https://apps.apple.com/app/frames-film-metadata/id6744063354" class="button button-dark downoad-for-mac" role="button">Download for Mac</a>
+                <a href="https://apps.apple.com/app/frames-film-notes/id6744057317" class="button" role="button"><img src="/img/icon-apple-dark.svg" alt="Apple Logo" width="24" height="24" loading="lazy" /> Download<span class="desktop-only"> for iOS</span> </a>
+                <a href="https://apps.apple.com/app/frames-film-metadata/id6744063354" class="button button-dark desktop-only" role="button">Download for Mac</a>
             </div>
         </header>
         <main class="wrapper">
