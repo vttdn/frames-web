@@ -45,7 +45,6 @@
                 box-sizing: border-box;
             }
             .h1,
-            a.logo,
             h1,
             h2,
             h3 {
@@ -57,26 +56,27 @@
             h1 {
                 font-size: var(--font-size-large);
                 line-height: 1;
-                font-weight: 450;
+                font-weight: 400;
                 margin-bottom: var(--grid-vgap);
                 /* min-height: calc(var(--font-size-large) * 3); */
                 min-height: 11.4375rem;
-                margin-top: calc(100svh - var(--font-size-large) * 2 - 15rem);
+                margin-top: calc(100svh - var(--font-size-large) * 2 - 17rem);
             }
             a.logo {
-                line-height: 1;
+                /* line-height: 1; */
+                font-family: Geist, sans-serif;
                 color: #fff !important;
-                font-weight: 650;
-                font-size: 1rem;
+                /* font-weight: 650; */
+                /* font-size: 1rem; */
             }
             .wrapper {
                 padding-left: 1rem;
                 padding-right: 1rem;
             }
             .navigation {
-                display: flex;
-                justify-content: space-between;
-                align-items: center;
+                /* display: flex; */
+                /* justify-content: space-between; */
+                /* align-items: center; */
                 padding-top: 1.5rem;
                 font-size: var(--font-size-small);
                 text-transform: uppercase;
@@ -202,16 +202,13 @@
                 }
                 .h1,
                 h1 {
-                    margin-top: calc(100svh - var(--font-size-large) * 2 - 8rem);
+                    margin-top: calc(100svh - var(--font-size-large) * 2 - 9rem);
                     margin-bottom: 3.5rem;
                     min-height: 19.4rem;
                 }
-                a.logo {
-                    font-size: 1.125rem;
-                }
                 .wrapper {
-                    padding-left: 4rem;
-                    padding-right: 4rem;
+                    padding-left: 3rem;
+                    padding-right: 3rem;
                     max-width: 112rem;
                     margin: 0 auto;
                 }
@@ -220,7 +217,7 @@
                     justify-content: space-between;
                     align-items: center;
                     gap: var(--grid-hgap);
-                    padding-top: 3rem;
+                    padding-top: 2rem;
                 }
 
             .downoad-for-mac {
@@ -304,12 +301,18 @@
     <body>
         <header class="wrapper" id="top">
             <nav class="navigation" aria-label="Main navigation">
-                <div class="nav-left"><a href="/" aria-label="Frames home" class="logo">Frames</a></div>
-                <ul class="nav-links">
-                    <li><a href="#features-mobile">Features</a></li>
-                    <li><a href="#faq">FAQ</a></li>
+                <ul class="grid-4col">
+                    <li><a href="/" aria-label="Frames home" class="logo">Frames</a></li>
                     <li>
-                        <span class="copyright">©2025 <span class="sr-only">Vincent Tantardini</span></span>
+                        </li>
+                    <li>
+                        <a href="#features-mobile">For iOS</a><br>
+                        <a href="#features-desktop">For Mac</a><br>
+                        <a href="#features-desktop">Faq</a>
+                    </li>
+                    <li>
+                        <a href="mailto:&#104;&#105;&#64;&#119;&#105;&#116;&#104;&#102;&#114;&#97;&#109;&#101;&#115;&#46;&#99;&#111;&#109;">&#72;&#73;&#64;&#87;&#73;&#84;&#72;&#70;&#82;&#65;&#77;&#69;&#83;&#46;&#67;&#79;&#77;</a><br>
+                        <a href="https://twitter.com/withframes" target="_blank" rel="noopener noreferrer">@withframes</a>
                     </li>
                 </ul>
             </nav>
