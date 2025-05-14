@@ -57,9 +57,9 @@
                 font-size: var(--font-size-large);
                 line-height: 1;
                 font-weight: 400;
-                margin-bottom: var(--grid-vgap);
-                min-height: 11.4375rem;
-                margin-top: calc(100svh - var(--font-size-large) * 2 - 17rem);
+                margin-bottom: 0;
+                min-height: 8rem;
+                margin-top: calc(100svh - var(--font-size-large) * 2 - 15rem);
             }
             a.logo {
                 font-family: Geist, sans-serif;
@@ -176,6 +176,8 @@
 }
 
 .download-buttons {
+    position: absolute;
+    top: 1.5rem; right: 1rem;
   gap: 1.25rem;
 }
             @media (min-width: 768px) {
@@ -237,6 +239,11 @@
                 margin: 0;
                 padding: 0;
             }
+
+            .download-buttons {
+    position: static;
+    top: 0; right: 0;
+}
         }
         </style>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
