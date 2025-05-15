@@ -199,6 +199,7 @@ details[open] summary::before {
   display: flex;
   flex-direction: column;
   line-height: 1.5;
+  gap: 0.125rem;
 }
 
 .copyright {
