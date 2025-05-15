@@ -146,6 +146,7 @@
           "image": "{{ canonical_url }}/library/img/{{ lang }}/og-image.jpg",
           "url": "{{ macappstore_url }}",
           "installUrl": "{{ macappstore_url }}",
+          "softwareVersion": "1.0.3",
           "mainEntity": {
             "@type": "WebPage",
             "@id": "https://withframes.com/"
