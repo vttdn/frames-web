@@ -87,5 +87,30 @@ def build():
 
         print(f"✅ Built: {lang} → /{'' if lang == 'en' else lang + '/'}index.html and /{privacy_path}/index.html")
 
+        # Render JSON templates like faq.json and frames.json
+        for json_template_name in ["faq.json", "frames.json"]:
+            json_template_path = TEMPLATES_DIR / json_template_name
+            if not json_template_path.exists():
+                continue
+
+            with open(json_template_path, "r", encoding="utf-8") as f:
+                json_template = f.read()
+
+            rendered_json = render_template(json_template, context)
+
+            # Remove <br> tags for JSON output
+            rendered_json = rendered_json.replace("<br>", "")
+
+            # Determine output file name and path
+            base_name = json_template_name.replace(".json", "")
+            output_dir = ROOT / "library" / "data"
+            output_dir.mkdir(parents=True, exist_ok=True)
+            output_file = output_dir / f"{base_name}-{lang}.json"
+
+            with open(output_file, "w", encoding="utf-8") as out_file:
+                out_file.write(rendered_json)
+
+            print(f"📦 Built: {lang} → /library/data/{base_name}-{lang}.json")
+
 if __name__ == "__main__":
     build()

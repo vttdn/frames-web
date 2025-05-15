@@ -1,0 +1,219 @@
+{
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "MobileApplication",
+          "name": "Frames: Notes argentiques",
+          "operatingSystem": "iOS 18.2",
+          "applicationCategory": "MultimediaApplication",
+          "inLanguage": "fr",
+          "description": "Frames est l'application indispensable pour les photographes argentiques. Enregistrez vos réglages, notes et intégrez des métadonnées à vos scans. Disponible pour iPhone et Mac.",
+          "image": "https://withframes.com/fr//library/img/fr/og-image.jpg",
+          "url": "https://apps.apple.com/fr/app/frames-notes-argentiques/id6744057317",
+          "installUrl": "https://apps.apple.com/fr/app/frames-notes-argentiques/id6744057317",
+          "softwareVersion": "1.0.6",
+          "screenshot": "https://withframes.com/fr//library/img/fr/og-image.jpg",
+          "isAccessibleForFree": true,
+          "keywords": "frames,carnet de notes photo,photographie argentique,métadonnées film,exif film,notes pellicule,carnet photo,paramètres appareil photo,archivage photo,scans argentique,datafilm",
+          "maintainer": {
+            "@type": "Person",
+            "name": "Vincent Tantardini"
+          },
+          "countriesSupported": [
+            "US", "GB", "FR", "DE", "IT", "ES", "CA", "AU",
+            "JP", "KR", "NL", "SE", "NO", "FI", "DK", "NZ"
+          ],
+          "mainEntity": {
+            "@type": "WebPage",
+            "@id": "https://withframes.com/"
+          },
+          "author": {
+            "@type": "Person",
+            "name": "Vincent Tantardini"
+          },
+          "offers": {
+            "@type": "Offer",
+            "price": "0",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock"
+          },
+          "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "5",
+            "reviewCount": "7"
+          },
+          "review": [
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "Soliver098" },
+            "datePublished": "2022-08-03",
+            "name": "Tout simplement parfait",
+            "reviewBody": "Fait tout ce qu’on peut en attendre, simplement. C’est intuitif, fiable, rien à redire. Merci de l’avoir rendu gratuit !",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            },
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "Hivonmarius" },
+            "datePublished": "2022-06-01",
+            "name": "Minimaliste et efficace",
+            "reviewBody": "L’app est simple à utiliser et fait exactement ce qu’elle doit faire. J’aime pouvoir nommer les pellicules en cours, car j’oublie parfois avec quel appareil j’ai pris certaines photos. L’interface est claire et vraiment belle.",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            },
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "-=insert nickname=-" },
+            "datePublished": "2022-11-13",
+            "name": "Bien mieux qu'un carnet papier",
+            "reviewBody": "Bien plus pratique que de noter ses réglages dans un carnet ou encore l’app Notes d’Apple. J’ai hâte de voir les prochaines versions !",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            },
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "J0nas" },
+            "datePublished": "2022-08-03",
+            "name": "La meilleure app du genre",
+            "reviewBody": "La meilleure app de métadonnées photo argentique que j’ai testée. Simple, rapide, et complète. Pas de pub, pas de collecte de données — un énorme avantage.",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            },
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "SalvatoreEsquilache" },
+            "datePublished": "2023-12-02",
+            "name": "Application excelente",
+            "reviewBody": "Ce serait bien d’avoir les vitesses au 1/3, car elles ne correspondent pas toujours aux réglages réels des prises de vue. Bravo pour l’application !",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            },
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "rzolau" },
+            "datePublished": "2022-02-26",
+            "name": "Mon compagnon de shooting",
+            "reviewBody": "Outil fantastique — simple, mais complet pour suivre ses pellicules. Facile à utiliser sur le terrain, avec une option d’export pour sauvegarder ou traiter ses données. Cinq étoiles méritées !",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            },
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "yaizawa" },
+            "datePublished": "2022-05-13",
+            "name": "L'équivalent EXIF pour l'argentique",
+            "reviewBody": "Dernièrement, la photographie argentique m’a rendu nostalgique, et j’ai décidé de m’y replonger. Contrairement à l’époque, aujourd’hui, à l’ère du numérique, il est tout à fait normal de conserver les données de prise de vue grâce aux métadonnées EXIF. Je me suis donc demandé s’il n’existait pas un moyen de faire quelque chose de similaire avec les photos prises sur film. C’est en cherchant une solution que je suis tombé sur cette application. Avec cette app, on peut configurer l’objectif, l’ouverture et la vitesse d’obturation à l’avance, puis appuyer sur un bouton à chaque prise de vue pour enregistrer automatiquement les réglages par numéro de photo. L’heure et la position GPS sont également enregistrées, ce qui permet d’obtenir un niveau de détail comparable à celui des appareils numériques. Bien sûr, il peut y avoir un léger décalage horaire entre l’appareil photo et l’iPhone, mais cela reste négligeable.",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            }
+          ]
+        },
+        {
+          "@type": "SoftwareApplication",
+          "name": "Frames: Métadonnées",
+          "operatingSystem": "macOS 15.2",
+          "applicationCategory": "MultimediaApplication",
+          "inLanguage": "fr",
+          "description": "Frames est l'application indispensable pour les photographes argentiques. Enregistrez vos réglages, notes et intégrez des métadonnées à vos scans. Disponible pour iPhone et Mac.",
+          "image": "https://withframes.com/fr//library/img/fr/og-image.jpg",
+          "url": "https://apps.apple.com/fr/app/frames-métadonnées/id6744063354",
+          "installUrl": "https://apps.apple.com/fr/app/frames-métadonnées/id6744063354",
+          "mainEntity": {
+            "@type": "WebPage",
+            "@id": "https://withframes.com/"
+          },
+          "author": {
+            "@type": "Person",
+            "name": "Vincent Tantardini"
+          },
+          "offers": {
+            "@type": "Offer",
+            "price": "0",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock"
+          },
+          "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "5",
+            "reviewCount": "2"
+          }
+        },
+        {
+          "@type": "WebPage",
+          "@id": "https://withframes.com/fr/fr/",
+          "url": "https://withframes.com/fr/fr/",
+          "name": "Frames - Carnet de notes et métadonnées pour la photographie argentique",
+          "description": "Frames est l'application indispensable pour les photographes argentiques. Enregistrez vos réglages, notes et intégrez des métadonnées à vos scans. Disponible pour iPhone et Mac.",
+          "inLanguage": "fr",
+          "publisher": {
+            "@id": "https://withframes.com/#organization"
+          }
+        },
+        {
+          "@type": "VideoObject",
+          "name": "Frames iOS App – Toolbar Controls Preview",
+          "description": "A quick preview of the toolbar controls in the Frames iOS app, designed for film photographers to log and manage metadata.",
+          "thumbnailUrl": "https://i.ytimg.com/vi/r782-39sHJ8/hqdefault.jpg",
+          "uploadDate": "2025-04-20T00:00:00+00:00",
+          "duration": "PT1M30S",
+          "embedUrl": "https://www.youtube.com/embed/r782-39sHJ8",
+          "contentUrl": "https://www.youtube.com/watch?v=r782-39sHJ8",
+          "publisher": {
+            "@id": "https://withframes.com/#organization"
+          }
+        },
+        {
+          "@type": "Organization",
+          "@id": "https://withframes.com/#organization",
+          "name": "Frames",
+          "url": "https://withframes.com/",
+          "logo": "https://withframes.com/apple-touch-icon.png",
+          "contactPoint": {
+            "@type": "ContactPoint",
+            "email": "bonjour@withframes.com",
+            "contactType": "Customer Support",
+            "areaServed": "Worldwide",
+            "availableLanguage": ["English", "French"]
+          },
+          "sameAs": [
+            "https://twitter.com/withframes",
+            "https://www.facebook.com/profile.php?id=61575648380444",
+            "https://www.instagram.com/with_frames/",
+            "https://linkedin.com/company/withframes/",
+            "https://www.tiktok.com/@analogframes",
+            "https://www.youtube.com/@withframes",
+            "https://g.co/kgs/5oEvXT5",
+            "https://apps.apple.com/app/frames-film-notes/id6744057317",
+            "https://apps.apple.com/app/frames-film-metadata/id6744063354"
+          ]
+        }
+      ]
+    }

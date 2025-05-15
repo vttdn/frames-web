@@ -1,298 +1,609 @@
 <!DOCTYPE html>
 <html lang="{{ lang }}">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <title>{{ meta_title }}</title>
-    <meta name="description" content="{{ meta_description }}">
-    <meta name="keywords" content="{{ meta_keywords }}">
-    <meta name="robots" content="index, follow">
-    <meta name="author" content="Vincent Tantardini">
-    <meta name="referrer" content="origin">
-
-    <!-- Localization -->
-    <link rel="canonical" href="{{ canonical_url }}">
-    <link rel="alternate" hreflang="en" href="https://withframes.com/">
-    <link rel="alternate" hreflang="fr" href="https://withframes.com/fr/">
-    <link rel="alternate" hreflang="es" href="https://withframes.com/es/">
-    <link rel="alternate" hreflang="it" href="https://withframes.com/it/">
-    <link rel="alternate" hreflang="de" href="https://withframes.com/de/">
-    <link rel="alternate" hreflang="nl" href="https://withframes.com/nl/">
-    <link rel="alternate" hreflang="pt" href="https://withframes.com/pt/">
-    <link rel="alternate" hreflang="ja" href="https://withframes.com/jp/">
-    <link rel="alternate" hreflang="ko" href="https://withframes.com/kr/">
-    <link rel="alternate" hreflang="ru" href="https://withframes.com/ru/">
-    <link rel="alternate" hreflang="th" href="https://withframes.com/th/">
-    <link rel="alternate" hreflang="zh" href="https://withframes.com/cn/">
-    <link rel="alternate" hreflang="pl" href="https://withframes.com/pl/">
-    <link rel="alternate" hreflang="tr" href="https://withframes.com/tr/">
-    <link rel="alternate" hreflang="sv" href="https://withframes.com/se/">
-    <link rel="alternate" hreflang="hi" href="https://withframes.com/in/">
-    <link rel="alternate" hreflang="x-default" href="https://withframes.com/">
-
-    <!-- <link rel="stylesheet" href="/css/styles.css"> -->
-    <style>body{font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;color:#fff;background:#000;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;font-weight:500;font-size:12px;letter-spacing:0;line-height:14px;margin:0;padding:0}h1,img,p{margin:0;padding:0}a,a:active,a:visited{color:inherit;text-decoration:none}@media (hover:hover){main a:hover{text-decoration:underline}}h1{font-size:44px;line-height:.88;margin-bottom:calc(5 * .88em);font-weight:400;letter-spacing:-.018em;text-transform:uppercase;word-spacing:.1em;text-align:justify;text-align-last:justify}h1.large-line-height{line-height:1.05}.wrapper{position:relative;overflow:hidden;box-sizing:border-box;display:flex;flex-direction:column;justify-content:space-between;min-height:100vh;padding:15px 10px 0;background:#a9aeb7}img{width:32px;margin-right:8px}.grid{display:grid;grid-template-columns:repeat(2,1fr);align-items:center}.footer{display:none;justify-content:flex-end}.download-button{display:flex;align-items:center;width:fit-content}.desktop-only,.photography,.privacy{display:none}.infoCollapsedSidebar{position:absolute;top:0;right:-300px;width:300px}@media (min-width:600px){.wrapper{padding:20px 20px 10px}.desktop-only{display:inherit}img{width:36px;margin-right:8px}h1{font-size:clamp(2.75rem,6.3vw + 1rem,8rem);word-spacing:.2em}.grid{grid-template-columns:repeat(3,1fr)}.footer{display:flex;justify-content:flex-end}}@media (min-width:940px){body{font-size:16px;letter-spacing:-.011em;line-height:19px}img{width:48px;margin-right:12px}.wrapper{padding:30px 20px}}</style>
-
-    <!-- Twitter -->
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:site" content="@withframes">
-    <meta name="twitter:creator" content="@withframes">
-    <meta name="twitter:title" content="{{ meta_title }}">
-    <meta name="twitter:description" content="{{ meta_description }}">
-    <meta name="twitter:image" content="https://withframes.com/og-image.jpg">
-
-    <!-- Open Graph -->
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Frames">
-    <meta property="og:title" content="{{ meta_title }}">
-    <meta property="og:description" content="{{ meta_description }}">
-    <meta property="og:url" content="{{ canonical_url }}">
-    <meta property="og:image" content="https://withframes.com/og-image.jpg">
-    <meta property="og:locale" content="{{ locale }}">
-    <meta property="og:locale:alternate" content="en_US">
-    <meta property="og:locale:alternate" content="fr_FR">
-    <meta property="og:locale:alternate" content="es_ES">
-    <meta property="og:locale:alternate" content="it_IT">
-    <meta property="og:locale:alternate" content="de_DE">
-    <meta property="og:locale:alternate" content="nl_NL">
-    <meta property="og:locale:alternate" content="pt_PT">
-    <meta property="og:locale:alternate" content="ja_JP">
-    <meta property="og:locale:alternate" content="ru_RU">
-    <meta property="og:locale:alternate" content="th_TH">
-    <meta property="og:locale:alternate" content="zh_CN">
-    <meta property="og:locale:alternate" content="pl_PL">
-    <meta property="og:locale:alternate" content="tr_TR">
-    <meta property="og:locale:alternate" content="sv_SE">
-    <meta property="og:locale:alternate" content="hi_IN">
-
-    <!-- ICO (legacy) + SVG (modern) -->
-    <link rel="shortcut icon" href="/favicon.ico" sizes="any">
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
-
-    <!-- High-res PNG for light/dark modes -->
-    <link rel="icon" href="/favicon-light.png" type="image/png" media="(prefers-color-scheme: light)" sizes="512x512">
-    <link rel="icon" href="/favicon-dark.png" type="image/png" media="(prefers-color-scheme: dark)" sizes="512x512">
-
-    <!-- Apple Touch Icon (iOS) -->
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-
-    <!-- Webapp Manifest -->
-    <link rel="manifest" href="/site.webmanifest">
-    <meta name="theme-color" content="#000">
-
-    <!-- Apple Smart App Banner -->
-    <meta name="apple-itunes-app" content="app-id=6744057317">
-
-    <!-- Microdata: iOS/macOS Products + Webpage -->
-    <script type="application/ld+json">
-      {
-        "@context": "https://schema.org",
-        "@graph": [
-          {
-            "@type": "SoftwareApplication",
-            "name": "Frames iOS",
-            "operatingSystem": "iOS",
-            "applicationCategory": "PhotographyApplication",
-            "applicationSubCategory": "{{ applicationSubCategory }}",
-            "inLanguage": "{{ lang }}",
-            "description": "{{ meta_description }}",
-            "image": "https://withframes.com/og-image-alt.jpg",
-            "url": "{{ ios_url }}",
-            "installUrl": "{{ ios_url }}",
-            "softwareVersion": "1.0.6",
-            "screenshot": "https://withframes.com/img/microdata-screenshot-ios.jpg",
-            "isAccessibleForFree": true,
-            "keywords": "{{ meta_keywords }}",
-            "maintainer": {
-              "@type": "Person",
-              "name": "Vincent Tantardini"
-            },
-            "countriesSupported": [
-              "US", "GB", "FR", "DE", "IT", "ES", "CA", "AU",
-              "JP", "KR", "NL", "SE", "NO", "FI", "DK", "NZ"
-            ],
-            "mainEntity": {
-              "@type": "WebPage",
-              "@id": "{{ canonical_url }}"
-            },
-            "author": {
-              "@type": "Person",
-              "name": "Vincent Tantardini"
-            },
-            "offers": {
-              "@type": "Offer",
-              "price": "0",
-              "priceCurrency": "USD",
-              "availability": "https://schema.org/InStock"
-            },
-            "aggregateRating": {
-              "@type": "AggregateRating",
-              "ratingValue": "5",
-              "reviewCount": "5"
-            },
-            "review": {{ review_microdata }}
-          },
-          {
-            "@type": "SoftwareApplication",
-            "name": "Frames macOS",
-            "operatingSystem": "macOS",
-            "applicationCategory": "PhotographyApplication",
-            "applicationSubCategory": "{{ applicationSubCategory }}",
-            "inLanguage": "{{ lang }}",
-            "description": "{{ meta_description }}",
-            "image": "https://withframes.com/og-image-alt.jpg",
-            "url": "{{ macos_url }}",
-            "mainEntity": {
-              "@type": "WebPage",
-              "@id": "{{ canonical_url }}"
-            },
-            "author": {
-              "@type": "Person",
-              "name": "Vincent Tantardini"
-            },
-            "offers": {
-              "@type": "Offer",
-              "price": "0",
-              "priceCurrency": "USD",
-              "availability": "https://schema.org/InStock"
-            },
-            "aggregateRating": {
-              "@type": "AggregateRating",
-              "ratingValue": "5",
-              "reviewCount": "2"
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width,initial-scale=1" />
+        <title>{{ seo_meta_title }}</title>
+        <meta name="description" content="{{ seo_meta_description }}" />
+        <meta name="keywords" content="{{ seo_meta_keywords }}" />
+        <meta name="robots" content="index, follow" />
+        <meta name="author" content="Vincent Tantardini" />
+        <meta name="referrer" content="origin" />
+        <style>
+            :root {
+                --huge-spacing: 10rem;
+                --large-spacing: 8rem;
+                --medium-spacing: 2rem;
+                --gray-1: #b3b3b3;
+                --font-size-small: 0.8125rem;
+                --font-size-body: 1rem;
+                --font-size-body-uppercase: 0.9rem;
+                --font-size-heading1: 1.125rem;
+                --font-size-heading2: 1.5rem;
+                --font-size-heading3: 1.75rem;
+                --font-size-heading4: 3rem;
+                --font-size-large: 3.5rem;
+                --grid-hgap: 1rem;
+                --grid-vgap: 2.25rem;
             }
-          },
-          {
-            "@type": "WebPage",
-            "@id": "{{ canonical_url }}",
-            "url": "{{ canonical_url }}",
-            "name": "{{ meta_title }}",
-            "description": "{{ meta_description }}",
-            "inLanguage": "{{ lang }}",
-            "publisher": {
-              "@id": "https://withframes.com/#organization"
+            body {
+                color: var(--gray-1);
+                font-size: var(--font-size-body);
+                background: #000;
+                -webkit-font-smoothing: antialiased;
+                -moz-osx-font-smoothing: grayscale;
+                font-family: "Geist Mono", monospace;
+                font-weight: 400;
+                font-style: normal;
+                margin: 0;
+                padding: 0;
+                line-height: 1.334;
             }
-          },
-          {
-            "@type": "VideoObject",
-            "name": "Frames iOS App – Toolbar Controls Preview",
-            "description": "A quick preview of the toolbar controls in the Frames iOS app, designed for film photographers to log and manage metadata.",
-            "thumbnailUrl": "https://i.ytimg.com/vi/r782-39sHJ8/hqdefault.jpg",
-            "uploadDate": "2025-04-20T00:00:00+00:00",
-            "duration": "PT1M30S",
-            "embedUrl": "https://www.youtube.com/embed/r782-39sHJ8",
-            "contentUrl": "https://www.youtube.com/watch?v=r782-39sHJ8",
-            "publisher": {
-              "@id": "https://withframes.com/#organization"
+            *,
+            ::after,
+            ::before {
+                box-sizing: border-box;
             }
-          }
-        ]
-      }
-    </script>
 
-    <!-- Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-MER5TLYKLF"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
 
-      gtag('config', 'G-MER5TLYKLF');
-    </script>
-  </head>
 
-  <body>
-    <div class="wrapper">
-      <header class="h-wrapper">
-        <h1 class="{{ custom_class_h1 }}">
-          <a
-            href="https://withframes.com/"
-            aria-label="Frames {{ button_back_label }}"
-            title="{{ meta_title }}"
-            >Frames®</a
-          >
-          {{ page_h1 }}
-        </h1>
-      </header>
+.grid-2col,
+.grid-3col,
+.grid-4col {
+  display: grid;
+  gap: var(--grid-hgap);
+  grid-template-columns: 1fr;
+  width: 100%;
+}
 
-      <main class="grid">
-        <div class="download-button">
-          <img
-            src="/img/icon-ios-ipados.svg"
-            alt="iPhone/iPad icon"
-            width="64"
-            height="64"
-            loading="lazy"
-         >
-          <a href="{{ ios_url }}" title="{{ cta_ios_text }}"
-            >{{ cta_ios_text }}</a
-          >
-        </div>
+            .h1,
+            h1,
+            h2,
+            h3 {
+                font-family: Geist, sans-serif;
+                font-style: normal;
+                color: #fff;
+            }
+            .h1,
+            h1 {
+                font-size: var(--font-size-large);
+                line-height: 1;
+                font-weight: 400;
+                margin-bottom: 0;
+                min-height: 8rem;
+                margin-top: calc(100svh - var(--font-size-large) * 2 - 14rem);
+            }
+            a.logo {
+                font-family: Geist, sans-serif;
+                color: #fff !important;
+            }
+            .wrapper {
+                padding-left: 1rem;
+                padding-right: 1rem;
+            }
+            .navigation {
+                padding-top: 1.5rem;
+                font-size: var(--font-size-small);
+                line-height: 1.5;
+                text-transform: uppercase;
+            }
 
-        <div class="download-button">
-          <img
-            src="/img/icon-macos.svg"
-            alt="Mac icon"
-            width="64"
-            height="64"
-            loading="lazy"
-         >
-          <a href="{{ macos_url }}" title="{{ cta_macos_text }}"
-            >{{ cta_macos_text }}</a
-          >
-        </div>
+            .nav-left,
+            .nav-right {
+                display: flex;
+            }
+            .nav-left {
+                justify-content: flex-start;
+            }
+            .nav-right {
+                justify-content: flex-end;
+            }
+            .button {
+                display: inline-flex;
+                align-items: center;
+                justify-content: center;
+                white-space: nowrap;
+                background-color: #fff;
+                color: #000;
+                border-radius: 0.5rem;
+                font-weight: 600;
+                text-transform: uppercase;
+                gap: 0.5rem;
+                height: 3rem;
+                padding: 0 0.75rem;
+            }
 
-        <div class="footer">
-          <p>
-            <br>
-            <a
-              href="mailto:&#98;&#111;&#110;&#106;&#111;&#117;&#114;&#64;&#119;&#105;&#116;&#104;&#102;&#114;&#97;&#109;&#101;&#115;&#46;&#99;&#111;&#109;"
-              title="Contact us"
-            >
-              &#98;&#111;&#110;&#106;&#111;&#117;&#114;&#64;&#119;&#105;&#116;&#104;&#102;&#114;&#97;&#109;&#101;&#115;&#46;&#99;&#111;&#109;
-            </a>
-            <a
-              class="privacy"
-              href="{{ canonical_url }}{{ privacy_path }}/"
-              title="{{ privacy_label }}"
-              >{{ privacy_label }}</a
-            >
-          </p>
-        </div>
-        <script type="application/ld+json">
-          {
-            "@context": "https://schema.org",
-            "@type": "Organization",
-            "@id": "https://withframes.com/#organization",
-            "name": "Frames",
-            "url": "{{ canonical_url }}",
-            "logo": "https://withframes.com/apple-touch-icon.png",
-            "contactPoint": {
-              "@type": "ContactPoint",
-              "email": "bonjour@withframes.com",
-              "contactType": "{{ label_customer_support }}",
-              "areaServed": "Worldwide",
-              "availableLanguage": ["English", "French"]
-            },
-            "sameAs": [
-              "https://twitter.com/withframes",
-              "https://www.facebook.com/profile.php?id=61575648380444",
-              "https://www.instagram.com/with_frames/",
-              "https://linkedin.com/company/withframes/",
-              "https://www.tiktok.com/@analogframes",
-              "https://www.youtube.com/@withframes",
-              "https://g.co/kgs/5oEvXT5",
-              "{{ ios_url }}",
-              "{{ macos_url }}"
-            ]
-          }
+            .button-dark {
+                background-color: black;
+                color: white;
+                border: 1px solid rgb(65, 65, 65);
+            }
+
+            li,
+            ul {
+                list-style: none;
+                margin: 0;
+                padding: 0;
+            }
+            a,
+            a:active,
+            a:hover,
+            a:visited {
+                text-decoration: none;
+                color: inherit;
+            }
+            a.button,
+            a.button:active,
+            a.button:hover,
+            a.button:visited {
+                text-decoration: none;
+                color: #000;
+                box-sizing: content-box;
+            }
+            a.button.button-dark,
+            a.button.button-dark:active,
+            a.button.button-dark:hover,
+            a.button.button-dark:visited {
+                color: #fff;
+            }
+            .sr-only {
+                position: absolute;
+                width: 1px;
+                height: 1px;
+                margin: -1px;
+                padding: 0;
+                border: 0;
+                clip: rect(0, 0, 0, 0);
+                overflow: hidden;
+            }
+            .nav-links {
+                display: flex;
+                gap: 1.5rem;
+                list-style: none;
+                margin: 0;
+                padding: 0;
+            }
+            
+            .input-wrapper > .placeholder,
+            .input-wrapper > input {
+                display: block;
+                -webkit-appearance: none;
+                -moz-appearance: none;
+                appearance: none;
+                width: 100%;
+                height: 100%;
+                background-color: transparent;
+                border: none;
+            }
+
+            .desktop-only {
+                display: none;
+            }
+
+.button img {
+  position: relative;
+  top: -0.09em;
+  width: 15px;
+  height: aut
+}
+
+.download-buttons {
+    position: absolute;
+    top: 1.5rem; right: 1rem;
+  gap: 1.25rem;
+}
+            @media (min-width: 768px) {
+                :root {
+                    --huge-spacing: 17.5rem;
+                    --large-spacing: 16rem;
+                    --medium-spacing: 4rem;
+                    --font-size-small: 1rem;
+                    --font-size-body: 1.125rem;
+                    --font-size-body-uppercase: 1.0625rem;
+                    --font-size-heading1: 1.5rem;
+                    --font-size-heading2: 2.25rem;
+                    --font-size-heading3: 3.125rem;
+                    --font-size-heading4: 5.25rem;
+                    --font-size-large: 9.25rem;
+                    --grid-hgap: 1.5rem;
+                    --grid-vgap: 3.5rem;
+                }
+                .h1,
+                h1 {
+                    margin-top: calc(100svh - var(--font-size-large) * 2 - 10rem);
+                    margin-bottom: 3.5rem;
+                    min-height: 19.4rem;
+                }
+
+
+  .grid-2col {
+    grid-template-columns: repeat(2, 1fr);
+    gap: var(--grid-hgap);
+  }
+
+  .grid-3col {
+    grid-template-columns: repeat(3, 1fr);
+    gap: var(--grid-hgap);
+  }
+
+  .grid-4col {
+    grid-template-columns: repeat(4, 1fr);
+    gap: var(--grid-hgap);
+  }
+
+                .wrapper {
+                    padding-left: 3rem;
+                    padding-right: 3rem;
+                    max-width: 112rem;
+                    margin: 0 auto;
+                }
+                .navigation {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    gap: var(--grid-hgap);
+                    padding-top: 2rem;
+                }
+
+            .desktop-only {
+                display: inherit;
+            }
+
+            .button {
+                gap: 0.75rem;
+                height: 3.75rem;
+                padding: 0 1rem;
+            }
+
+                .button img {
+                width: 20px;
+                height: aut
+                }
+
+
+            .nav-links {
+                display: flex;
+                gap: 2rem;
+                list-style: none;
+                margin: 0;
+                padding: 0;
+            }
+
+            .download-buttons {
+                position: static;
+                top: 0; right: 0;
+            }
+        }
+        </style>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Geist+Mono:wght@400;600&family=Geist:wght@400..700&display=swap" rel="stylesheet" media="print" onload="this.media=&#34;all&#34;" />
+        <!-- Localization -->
+        <link rel="canonical" href="{{ canonical_url }}" />
+        <link rel="alternate" hreflang="en" href="https://withframes.com/" />
+        <link rel="alternate" hreflang="fr" href="https://withframes.com/fr/" />
+        <link rel="alternate" hreflang="es" href="https://withframes.com/es/" />
+        <link rel="alternate" hreflang="it" href="https://withframes.com/it/" />
+        <link rel="alternate" hreflang="de" href="https://withframes.com/de/" />
+        <link rel="alternate" hreflang="nl" href="https://withframes.com/nl/" />
+        <link rel="alternate" hreflang="pt" href="https://withframes.com/pt/" />
+        <link rel="alternate" hreflang="ja" href="https://withframes.com/jp/" />
+        <link rel="alternate" hreflang="ko" href="https://withframes.com/kr/" />
+        <link rel="alternate" hreflang="ru" href="https://withframes.com/ru/" />
+        <link rel="alternate" hreflang="th" href="https://withframes.com/th/" />
+        <link rel="alternate" hreflang="zh" href="https://withframes.com/cn/" />
+        <link rel="alternate" hreflang="pl" href="https://withframes.com/pl/" />
+        <link rel="alternate" hreflang="tr" href="https://withframes.com/tr/" />
+        <link rel="alternate" hreflang="sv" href="https://withframes.com/se/" />
+        <link rel="alternate" hreflang="hi" href="https://withframes.com/in/" />
+        <link rel="alternate" hreflang="x-default" href="https://withframes.com/" />
+        <link rel="preload" href="/library/css/style.min.css" as="style" onload="this.rel=&#34;stylesheet&#34;" />
+        <noscript><link rel="stylesheet" href="/library/css/style.min.css" /></noscript>
+        <link rel="preload" href="/library/css/typewriter-{{ lang }}.css" as="style" onload="this.rel=&#34;stylesheet&#34;" />
+        <noscript><link rel="stylesheet" href="/library/css/typewriter-{{ lang }}.min.css" /></noscript>
+        <!-- Twitter -->
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="@withframes" />
+        <meta name="twitter:creator" content="@withframes" />
+        <meta name="twitter:title" content="{{ seo_meta_title }}" />
+        <meta name="twitter:description" content="{{ seo_meta_description }}" />
+        <meta name="twitter:image" content="https://withframes.com/library/img/{{ lang }}/og-image.jpg" />
+        <!-- Open Graph -->
+        <meta property="og:type" content="website" />
+        <meta property="og:site_name" content="Frames" />
+        <meta property="og:title" content="{{ seo_meta_title }}" />
+        <meta property="og:description" content="{{ seo_meta_description }}" />
+        <meta property="og:url" content="{{ canonical_url }}" />
+        <meta property="og:image" content="https://withframes.com/library/img/{{ lang }}/og-image.jpg" />
+        <meta property="og:locale" content="{{ locale }}" />
+        <!-- ICO (legacy) + SVG (modern) -->
+        <link rel="shortcut icon" href="/favicon.ico" sizes="any" />
+        <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+        <!-- High-res PNG for light/dark modes -->
+        <link rel="icon" href="/favicon-light.png" type="image/png" media="(prefers-color-scheme: light)" sizes="512x512" />
+        <link rel="icon" href="/favicon-dark.png" type="image/png" media="(prefers-color-scheme: dark)" sizes="512x512" />
+        <!-- Apple Touch Icon (iOS) -->
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+        <!-- Webapp Manifest -->
+        <link rel="manifest" href="/site.webmanifest" />
+        <meta name="theme-color" content="#000" />
+        <!-- Apple Smart App Banner -->
+        <meta name="apple-itunes-app" content="app-id=6744057317" />
+        <meta name="apple:content_id" content="6744063354">
+    </head>
+    <body>
+        <header class="wrapper" id="top">
+            <nav class="navigation" aria-label="Main navigation">
+                <ul class="grid-4col">
+                    <li><a href="/" aria-label="Frames home" class="logo">Frames ®</a></li>
+                    <li>
+                        </li>
+                    <li>
+                        <a href="#features-mobile">{{ navigation_label_forios }}</a><br>
+                        <a href="#features-desktop">{{ navigation_label_formac }}</a><br>
+                        <a href="#features-desktop">{{ navigation_label_faq }}</a>
+                    </li>
+                    <li>
+                        <a href="mailto:&#104;&#105;&#64;&#119;&#105;&#116;&#104;&#102;&#114;&#97;&#109;&#101;&#115;&#46;&#99;&#111;&#109;">&#72;&#73;&#64;&#87;&#73;&#84;&#72;&#70;&#82;&#65;&#77;&#69;&#83;&#46;&#67;&#79;&#77;</a><br>
+                        <a href="https://twitter.com/withframes" target="_blank" rel="noopener noreferrer">@withframes</a>
+                    </li>
+                </ul>
+            </nav>
+            <h1 class="sr-only">{{ heading_h1 }}</h1>
+            <div class="h1 input-wrapper" aria-hidden="true"><input type="text" tabindex="-1" readonly /> <span class="placeholder"></span></div>
+            <div class="download-buttons" role="group" aria-label="Download options">
+                <a href="{{ appstore_url }}" class="button" role="button"><img src="/library/img/icons/icon-apple-dark.svg" alt="Apple Logo" width="24" height="24" loading="lazy" />{{ button_label_download_ios }}</a>
+                <a href="{{ macappstore_url }}" class="button button-dark desktop-only" role="button">{{ button_label_download_ios }}</a>
+            </div>
+        </header>
+        <main class="wrapper">
+            <section id="features-mobile" aria-labelledby="features-mobile-heading">
+                <h2 id="features-mobile-heading"><span class="sr-only">{{ features_mobile_h2 }}</h2>
+                <ul class="grid-3col feature-list-mobile">
+                    <li>
+                        <article>
+                            <div class="screenshot-container"><img src="/library/img/{{ lang }}/frames-feature-screenshot-1.webp" alt="{{ features_mobile_feature1_imgalt }}" width="504" height="1024" loading="lazy" /></div>
+                            <h3>{{ features_mobile_feature1_title }}</h3>
+                            <p>{{ features_mobile_feature1_descr }}</p>
+                        </article>
+                    </li>
+                    <li>
+                        <article>
+                            <div class="screenshot-container">
+                                <img src="/library/img/{{ lang }}/frames-feature-screenshot-2.webp" alt="{{ features_mobile_feature2_imgalt }}" width="504" height="1024" loading="lazy" />
+                            </div>
+                            <h3>{{ features_mobile_feature2_title }}</h3>
+                            <p>{{ features_mobile_feature2_descr }}</p>
+                        </article>
+                    </li>
+                    <li>
+                        <article>
+                            <div class="screenshot-container">
+                                <img src="/library/img/{{ lang }}/frames-feature-screenshot-3.webp" alt="{{ features_mobile_feature3_imgalt }}" width="504" height="1024" loading="lazy" />
+                            </div>
+                            <h3>{{ features_mobile_feature3_title }}</h3>
+                            <p>{{ features_mobile_feature3_descr }}</p>
+                        </article>
+                    </li>
+                    <li>
+                        <article>
+                            <div class="screenshot-container">
+                                <img src="/library/img/{{ lang }}/frames-feature-screenshot-4.webp" alt="{{ features_mobile_feature4_imgalt }}" width="504" height="1024" loading="lazy" />
+                            </div>
+                            <h3>{{ features_mobile_feature4_title }}</h3>
+                            <p>{{ features_mobile_feature4_descr }}</p>
+                        </article>
+                    </li>
+                    <li>
+                        <article>
+                            <div class="screenshot-container">
+                                <img src="/library/img/{{ lang }}/frames-feature-screenshot-5.webp" alt="{{ features_mobile_feature5_imgalt }}" width="504" height="1024" loading="lazy" />
+                            </div>
+                            <h3>{{ features_mobile_feature5_title }}</h3>
+                            <p>{{ features_mobile_feature5_descr }}</p>
+                        </article>
+                    </li>
+                </ul>
+            </section>
+            <section id="features-desktop" aria-labelledby="features-desktop-heading">
+                <h2 id="features-desktop-heading"><span class="sr-only">{{ features_desktop_h2 }}</h2>
+                <ul class="grid-2col feature-list-desktop">
+                    <li>
+                        <article>
+                            <div class="screenshot-container screenshot-desktop">
+                                <img src="/library/img/{{ lang }}/frames-feature-screenshot-6.webp" alt="{{ features_desktop_feature1_imgalt }}" width="898" height="572" loading="lazy" />
+                            </div>
+                            <h3>{{ features_desktop_feature1_title }}</h3>
+                            <p>{{ features_desktop_feature1_descr }}</p>
+                        </article>
+                    </li>
+                    <li>
+                        <article>
+                            <div class="screenshot-container screenshot-desktop">
+                                <img src="/library/img/{{ lang }}/frames-feature-screenshot-7.webp" alt="{{ features_desktop_feature2_imgalt }}" width="898" height="572" loading="lazy" />
+                            </div>
+                            <h3>{{ features_desktop_feature2_title }}</h3>
+                            <p>{{ features_desktop_feature2_descr }}</p>
+                        </article>
+                    </li>
+                    <li>
+                        <article>
+                            <div class="screenshot-container screenshot-desktop">
+                                <img src="/library/img/{{ lang }}/frames-feature-screenshot-8.webp" alt="{{ features_desktop_feature3_imgalt }}" width="898" height="572" loading="lazy" />
+                            </div>
+                            <h3>{{ features_desktop_feature3_title }}</h3>
+                            <p>{{ features_desktop_feature3_descr }}</p>
+                        </article>
+                    </li>
+                </ul>
+            </section>
+            <section id="faq" aria-labelledby="faq-heading">
+                <h2 id="faq-heading">{{ faq_h2 }}</h2>
+                <div class="faq-list">
+                    <details>
+                        <summary><h3>{{ faq_question1 }}</h3></summary>
+                        <p>{{ faq_answer1 }}</p>
+                    </details>
+                    <details>
+                        <summary><h3>{{ faq_question2 }}</h3></summary>
+                        <p>{{ faq_answer2 }}</p>
+                    </details>
+                    <details>
+                        <summary><h3>{{ faq_question3 }}</h3></summary>
+                        <p>{{ faq_answer3 }}</p>
+                    </details>
+                    <details>
+                        <summary><h3>{{ faq_question4 }}</h3></summary>
+                        <p>{{ faq_answer4 }}</p>
+                    </details>
+                    <details>
+                        <summary><h3>{{ faq_question5 }}</h3></summary>
+                        <p>{{ faq_answer5 }}</p>
+                    </details>
+                </div>
+            </section>
+            <section id="reviews" aria-labelledby="reviews-heading">
+                <h2 id="reviews-heading">{{ reviews_h2 }}</h2>
+                <ul class="grid-3col review-list">
+                    <li>
+                        <figure class="user-review">
+                            <blockquote cite="https://withframes.com">
+                                <img src="/library/img/icons/icon-quote.svg" alt="Quote" width="14" height="11" loading="lazy" />
+                                <h3 class="sr-only">{{ review1_title }}</h3>
+                                <p>{{ review1_descr }}</p>
+                            </blockquote>
+                            <figcaption class="review-info sr-only">
+                                <span class="author">{{ review1_author }}</span> <span class="rating" aria-label="{{ review1_rating }}" role="img">★★★★★</span> <time datetime="{{ review1_date }}">{{ review1_date }}</time>
+                            </figcaption>
+                        </figure>
+
+                        <figure class="user-review">
+                            <blockquote cite="https://withframes.com">
+                                <img src="/library/img/icons/icon-quote.svg" alt="Quote" width="14" height="11" loading="lazy" />
+                                <h3 class="sr-only">{{ review2_title }}</h3>
+                                <p>{{ review2_descr }}</p>
+                            </blockquote>
+                            <figcaption class="review-info sr-only">
+                                <span class="author">{{ review2_author }}</span> <span class="rating" aria-label="{{ review2_rating }}" role="img">★★★★★</span> <time datetime="{{ review2_date }}">{{ review2_date }}</time>
+                            </figcaption>
+                        </figure>
+
+                        <figure class="user-review">
+                            <blockquote cite="https://withframes.com">
+                                <img src="/library/img/icons/icon-quote.svg" alt="Quote" width="14" height="11" loading="lazy" />
+                                <h3 class="sr-only">{{ review3_title }}</h3>
+                                <p>{{ review3_descr }}</p>
+                            </blockquote>
+                            <figcaption class="review-info sr-only">
+                                <span class="author">{{ review3_author }}</span> <span class="rating" aria-label="{{ review3_rating }}" role="img">★★★★★</span> <time datetime="{{ review3_date }}">{{ review3_date }}</time>
+                            </figcaption>
+                        </figure>
+                    </li>
+                    <li>
+                        <figure class="user-review">
+                            <blockquote cite="https://withframes.com">
+                                <img src="/library/img/icons/icon-quote.svg" alt="Quote" width="14" height="11" loading="lazy" />
+                                <h3 class="sr-only">{{ review4_title }}</h3>
+                                <p>{{ review4_descr }}</p>
+                            </blockquote>
+                            <figcaption class="review-info sr-only">
+                                <span class="author">{{ review4_author }}</span> <span class="rating" aria-label="{{ review4_rating }}" role="img">★★★★★</span> <time datetime="{{ review4_date }}">{{ review4_date }}</time>
+                            </figcaption>
+                        </figure>
+
+                        <figure class="user-review">
+                            <blockquote cite="https://withframes.com">
+                                <img src="/library/img/icons/icon-quote.svg" alt="Quote" width="14" height="11" loading="lazy" />
+                                <h3 class="sr-only">{{ review5_title }}</h3>
+                                <p>{{ review5_descr }}</p>
+                            </blockquote>
+                            <figcaption class="review-info sr-only">
+                                <span class="author">{{ review5_author }}</span> <span class="rating" aria-label="{{ review5_rating }}" role="img">★★★★★</span> <time datetime="{{ review5_date }}">{{ review5_date }}</time>
+                            </figcaption>
+                        </figure>
+
+                        <figure class="user-review">
+                            <blockquote cite="https://withframes.com">
+                                <img src="/library/img/icons/icon-quote.svg" alt="Quote" width="14" height="11" loading="lazy" />
+                                <h3 class="sr-only">{{ review6_title }}</h3>
+                                <p>{{ review6_descr }}</p>
+                            </blockquote>
+                            <figcaption class="review-info sr-only">
+                                <span class="author">{{ review6_author }}</span> <span class="rating" aria-label="{{ review6_rating }}" role="img">★★★★★</span> <time datetime="{{ review6_date }}">{{ review6_date }}</time>
+                            </figcaption>
+                        </figure>
+                    </li>
+                    <li>
+                        <figure class="user-review">
+                            <blockquote cite="https://withframes.com">
+                                <img src="/library/img/icons/icon-quote.svg" alt="Quote" width="14" height="11" loading="lazy" />
+                                <h3 class="sr-only">{{ review7_title }}</h3>
+                                <p>{{ review7_descr }}</p>
+                            </blockquote>
+                            <figcaption class="review-info sr-only">
+                                <span class="author">{{ review7_author }}</span> <span class="rating" aria-label="{{ review7_rating }}" role="img">★★★★★</span> <time datetime="{{ review7_date }}">{{ review7_date }}</time>
+                            </figcaption>
+                        </figure>
+                    </li>
+                </ul>
+            </section>
+            <section id="get-in-touch" aria-labelledby="get-in-touch-heading">
+                <h2 id="get-in-touch-heading">{{ contact_h2 }}</h2>
+                <div class="grid-2col get-in-touch-content">
+                    <p class="text-bigbody">{{ contact_descr }}</p>
+                    <div class="grid-2col contact-sections">
+                        <!-- Email Section -->
+                        <div class="contact-section">
+                            <div class="email-section">
+                                <h3>{{ contact_section1_title }}</h3>
+                                <a href="mailto:&#104;&#105;&#64;&#119;&#105;&#116;&#104;&#102;&#114;&#97;&#109;&#101;&#115;&#46;&#99;&#111;&#109;">&#72;&#73;&#64;&#87;&#73;&#84;&#72;&#70;&#82;&#65;&#77;&#69;&#83;&#46;&#67;&#79;&#77;</a>
+                            </div>
+                            <div class="social-section">
+                                <h3>{{ contact_section2_title }}</h3>
+                                <ul>
+                                    <li><a href="https://instagram.com/with_frames" target="_blank" rel="noopener noreferrer">{{ contact_label_instagram }}</a></li>
+                                    <li><a href="https://twitter.com/withframes" target="_blank" rel="noopener noreferrer">{{ contact_label_twitter }}</a></li>
+                                    <li><a href="https://linkedin.com/company/withframes" target="_blank" rel="noopener noreferrer">{{ contact_label_linkedin }}</a></li>
+                                    <li><a href="https://www.facebook.com/profile.php?id=61575648380444" target="_blank" rel="noopener noreferrer">{{ contact_label_facebook }}</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- Support Section -->
+                        <div class="support-section" id="support">
+                            <h3>{{ contact_section3_title }}</h3>
+                            <a href="{{ macappstore_url }}" target="_blank" rel="noopener noreferrer">{{ contact_label_buy }}</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="grid-2col footer wrapper">
+            <div class="footer-left">
+                <ul>
+                    <li><a href="#top">{{ footer_label_about }}</a></li>
+                    <li><a href="#features-mobile">{{ footer_label_feature }}</a></li>
+                    <li><a href="#faq">{{ footer_label_faq }}</a></li>
+                    <li><a href="https://apps.apple.com/app/frames-film-metadata/id6744063354" target="_blank" rel="noopener noreferrer">{{ footer_label_download }}</a></li>
+                    <li><a href="#get-in-touch">{{ footer_label_contact }}</a></li>
+                </ul>
+            </div>
+            <div class="footer-right">
+                <ul>
+                    <li><a href="/privacy/">{{ footer_label_privacy }}</a></li>
+                    <li><a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/">{{ footer_label_terms }}</a></li>
+                    <li>
+                        <span class="copyright">©2025 <span class="sr-only">Vincent Tantardini</span></span>
+                    </li>
+                </ul>
+            </div>
+        </footer>
+        <script src="/library/js/load_schema-{{ lang }}.js" defer></script>
+        <script defer src="https://www.googletagmanager.com/gtag/js?id=G-MER5TLYKLF" fetchpriority="low"></script>
+        <script>
+            function gtag() {
+                dataLayer.push(arguments);
+            }
+            (window.dataLayer = window.dataLayer || []), gtag("js", new Date()), gtag("config", "G-MER5TLYKLF", { transport_type: "beacon" });
         </script>
-      </main>
-
-      <aside class="infoCollapsedSidebar">
-        {{ aside_html }}
-      </aside>
-    </div>
-  </body>
+    </body>
 </html>
