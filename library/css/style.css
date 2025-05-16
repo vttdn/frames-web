@@ -199,6 +199,7 @@ details[open] summary::before {
   text-transform: uppercase;
   display: flex;
   flex-direction: column;
+  line-height: 1.4;
   /* gap: 0.125rem; */
 }
 
