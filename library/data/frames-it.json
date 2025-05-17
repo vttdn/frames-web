@@ -1,0 +1,220 @@
+{
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "MobileApplication",
+          "name": "Frames: Note analogiche",
+          "operatingSystem": "iOS 18.2",
+          "applicationCategory": "MultimediaApplication",
+          "inLanguage": "it",
+          "description": "Frames è l'app indispensabile per fotografi analogici. Registra impostazioni, note e integra metadati alle tue scansioni. Disponibile per iPhone e Mac.",
+          "image": "https://withframes.com/it//library/img/it/og-image.jpg",
+          "url": "https://apps.apple.com/it/app/frames-note-fotografiche/id6744057317",
+          "installUrl": "https://apps.apple.com/it/app/frames-note-fotografiche/id6744057317",
+          "softwareVersion": "1.0.6",
+          "screenshot": "https://withframes.com/it//library/img/it/og-image.jpg",
+          "isAccessibleForFree": true,
+          "keywords": "frames,taccuino fotografico,fotografia analogica,metadati pellicola,exif pellicola,note rullino,quaderno foto,impostazioni fotocamera,archiviazione foto,scansioni analogiche,datafilm",
+          "maintainer": {
+            "@type": "Person",
+            "name": "Vincent Tantardini"
+          },
+          "countriesSupported": [
+            "US", "GB", "FR", "DE", "IT", "ES", "CA", "AU",
+            "JP", "KR", "NL", "SE", "NO", "FI", "DK", "NZ"
+          ],
+          "mainEntity": {
+            "@type": "WebPage",
+            "@id": "https://withframes.com/"
+          },
+          "author": {
+            "@type": "Person",
+            "name": "Vincent Tantardini"
+          },
+          "offers": {
+            "@type": "Offer",
+            "price": "0",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock"
+          },
+          "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "5",
+            "reviewCount": "7"
+          },
+          "review": [
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "Soliver098" },
+            "datePublished": "2022-08-03",
+            "name": "Semplicemente perfetto",
+            "reviewBody": "Fa esattamente quello che ci si aspetta, in modo semplice. È intuitivo, affidabile, niente da ridire. Grazie per averlo reso gratuito!",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            },
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "Hivonmarius" },
+            "datePublished": "2022-06-01",
+            "name": "Minimalista ed efficace",
+            "reviewBody": "L'app è semplice da usare e fa esattamente quello che deve. Mi piace poter nominare i rullini in corso, perché a volte dimentico con quale fotocamera ho scattato certe foto. L'interfaccia è chiara e davvero bella.",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            },
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "-=insert nickname=-" },
+            "datePublished": "2022-11-13",
+            "name": "Molto meglio di un taccuino",
+            "reviewBody": "Molto più pratico che annotare le impostazioni su un quaderno o sull'app Note di Apple. Non vedo l'ora di vedere le prossime versioni!",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            },
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "J0nas" },
+            "datePublished": "2022-08-03",
+            "name": "La migliore app del genere",
+            "reviewBody": "La migliore app di metadati per fotografia analogica che abbia mai provato. Semplice, veloce e completa. Niente pubblicità, niente raccolta dati - un enorme vantaggio.",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            },
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "SalvatoreEsquilache" },
+            "datePublished": "2023-12-02",
+            "name": "Applicazione eccellente",
+            "reviewBody": "Sarebbe bello avere i tempi a 1/3, perché non sempre corrispondono alle impostazioni reali degli scatti. Complimenti per l'app!",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            },
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "rzolau" },
+            "datePublished": "2022-02-26",
+            "name": "Il mio compagno di shooting",
+            "reviewBody": "Strumento fantastico - semplice ma completo per seguire le tue pellicole. Facile da usare sul campo, con un'opzione di esportazione per salvare o elaborare i tuoi dati. Cinque stelle meritate!",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            },
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "yaizawa" },
+            "datePublished": "2022-05-13",
+            "name": "L'equivalente EXIF per l'analogico",
+            "reviewBody": "Recentemente, la fotografia analogica mi ha reso nostalgico e ho deciso di tornarci. A differenza di un tempo, oggi nell'era digitale è normale conservare i dati di scatto grazie ai metadati EXIF. Mi sono chiesto se non esistesse qualcosa di simile per le foto su pellicola. Cercando una soluzione, ho trovato questa app. Con questa app puoi impostare obiettivo, diaframma e tempo in anticipo, poi premere un pulsante per ogni scatto per registrare automaticamente le impostazioni per numero di foto. Anche l'ora e la posizione GPS vengono registrate, offrendo un livello di dettaglio paragonabile alle fotocamere digitali. Certo, può esserci un leggero disallineamento temporale tra fotocamera e iPhone, ma è trascurabile.",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            }
+          ]
+        },
+        {
+          "@type": "SoftwareApplication",
+          "name": "Frames: Metadati",
+          "operatingSystem": "macOS 15.2",
+          "applicationCategory": "MultimediaApplication",
+          "inLanguage": "it",
+          "description": "Frames è l'app indispensabile per fotografi analogici. Registra impostazioni, note e integra metadati alle tue scansioni. Disponibile per iPhone e Mac.",
+          "image": "https://withframes.com/it//library/img/it/og-image.jpg",
+          "url": "https://apps.apple.com/it/app/frames-metadati-analogici/id6744063354",
+          "installUrl": "https://apps.apple.com/it/app/frames-metadati-analogici/id6744063354",
+          "softwareVersion": "1.0.3",
+          "mainEntity": {
+            "@type": "WebPage",
+            "@id": "https://withframes.com/"
+          },
+          "author": {
+            "@type": "Person",
+            "name": "Vincent Tantardini"
+          },
+          "offers": {
+            "@type": "Offer",
+            "price": "0",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock"
+          },
+          "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "5",
+            "reviewCount": "2"
+          }
+        },
+        {
+          "@type": "WebPage",
+          "@id": "https://withframes.com/it/it/",
+          "url": "https://withframes.com/it/it/",
+          "name": "Frames - Taccuino e metadati per fotografia analogica",
+          "description": "Frames è l'app indispensabile per fotografi analogici. Registra impostazioni, note e integra metadati alle tue scansioni. Disponibile per iPhone e Mac.",
+          "inLanguage": "it",
+          "publisher": {
+            "@id": "https://withframes.com/#organization"
+          }
+        },
+        {
+          "@type": "VideoObject",
+          "name": "Frames iOS App – Toolbar Controls Preview",
+          "description": "A quick preview of the toolbar controls in the Frames iOS app, designed for film photographers to log and manage metadata.",
+          "thumbnailUrl": "https://i.ytimg.com/vi/r782-39sHJ8/hqdefault.jpg",
+          "uploadDate": "2025-04-20T00:00:00+00:00",
+          "duration": "PT1M30S",
+          "embedUrl": "https://www.youtube.com/embed/r782-39sHJ8",
+          "contentUrl": "https://www.youtube.com/watch?v=r782-39sHJ8",
+          "publisher": {
+            "@id": "https://withframes.com/#organization"
+          }
+        },
+        {
+          "@type": "Organization",
+          "@id": "https://withframes.com/#organization",
+          "name": "Frames",
+          "url": "https://withframes.com/",
+          "logo": "https://withframes.com/apple-touch-icon.png",
+          "contactPoint": {
+            "@type": "ContactPoint",
+            "email": "bonjour@withframes.com",
+            "contactType": "Customer Support",
+            "areaServed": "Worldwide",
+            "availableLanguage": ["English", "French"]
+          },
+          "sameAs": [
+            "https://twitter.com/withframes",
+            "https://www.facebook.com/profile.php?id=61575648380444",
+            "https://www.instagram.com/with_frames/",
+            "https://linkedin.com/company/withframes/",
+            "https://www.tiktok.com/@analogframes",
+            "https://www.youtube.com/@withframes",
+            "https://g.co/kgs/5oEvXT5",
+            "https://apps.apple.com/app/frames-film-notes/id6744057317",
+            "https://apps.apple.com/app/frames-film-metadata/id6744063354"
+          ]
+        }
+      ]
+    }
