@@ -6,14 +6,6 @@ html {
         font-optical-sizing: auto;
     }
 
-h2 {
-  font-size: var(--font-size-heading3);
-    line-height: 1;
-    font-weight: 600;
-    margin-top: var(--large-spacing);
-    margin-bottom: var(--grid-vgap);
-}
-
 h3 {
   font-size: var(--font-size-heading1);
     line-height: 120%;

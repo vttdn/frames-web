@@ -45,18 +45,14 @@
             ::before {
                 box-sizing: border-box;
             }
-
-
-
-.grid-2col,
-.grid-3col,
-.grid-4col {
-  display: grid;
-  gap: var(--grid-hgap);
-  grid-template-columns: 1fr;
-  width: 100%;
-}
-
+            .grid-2col,
+            .grid-3col,
+            .grid-4col {
+            display: grid;
+            gap: var(--grid-hgap);
+            grid-template-columns: 1fr;
+            width: 100%;
+            }
             .h1,
             h1,
             h2,
@@ -74,6 +70,13 @@
                 min-height: 8rem;
                 margin-top: calc(100svh - var(--font-size-large) * 2 - 14.5rem);
             }
+                h2 {
+                font-size: var(--font-size-heading3);
+                    line-height: 1;
+                    font-weight: 600;
+                    margin-top: var(--large-spacing);
+                    margin-bottom: var(--grid-vgap);
+                }
             a.logo {
                 font-family: Geist, sans-serif;
                 color: #fff !important;
@@ -88,15 +91,11 @@
                 line-height: 1.4;
                 text-transform: uppercase;
             }
-
-
-
-                .navigation li {
-                    display: flex;
-                    flex-direction: column;
+            .navigation li {
+                display: flex;
+                flex-direction: column;
                 gap: var(--list-hgap);
-                }
-
+            }
             .nav-left,
             .nav-right {
                 display: flex;
@@ -189,18 +188,19 @@
                 display: none;
             }
 
-.button img {
-  position: relative;
-  top: -0.09em;
-  width: 15px;
-  height: auto;
-}
+            .button img {
+            position: relative;
+            top: -0.09em;
+            width: 15px;
+            height: auto;
+            }
 
-.download-buttons {
-    position: absolute;
-    top: 1.5rem; right: 1rem;
-  gap: 1.25rem;
-}
+            .download-buttons {
+                position: absolute;
+                top: 1.5rem; right: 1rem;
+            gap: 1.25rem;
+            }
+
             @media (min-width: 768px) {
                 :root {
                     --huge-spacing: 22.5rem;
@@ -224,23 +224,20 @@
                     margin-bottom: 5.5rem;
                     min-height: 19.4rem;
                 }
+                .grid-2col {
+                    grid-template-columns: repeat(2, 1fr);
+                    gap: var(--grid-hgap);
+                }
 
+                .grid-3col {
+                    grid-template-columns: repeat(3, 1fr);
+                    gap: var(--grid-hgap);
+                }
 
-  .grid-2col {
-    grid-template-columns: repeat(2, 1fr);
-    gap: var(--grid-hgap);
-  }
-
-  .grid-3col {
-    grid-template-columns: repeat(3, 1fr);
-    gap: var(--grid-hgap);
-  }
-
-  .grid-4col {
-    grid-template-columns: repeat(4, 1fr);
-    gap: var(--grid-hgap);
-  }
-
+                .grid-4col {
+                    grid-template-columns: repeat(4, 1fr);
+                    gap: var(--grid-hgap);
+                }
                 .wrapper {
                     padding-left: 3rem;
                     padding-right: 3rem;
