@@ -229,7 +229,7 @@ button {
 ul.language-list {
   display: none;
   position: absolute;
-  bottom: 100%; /* place above the button */
+  bottom: 0; /* place above the button */
   left: 0; /* align to right of button */
   right: auto;
   background-color: white;
