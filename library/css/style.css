@@ -253,7 +253,6 @@ ul.language-list {
 
 
 @media (min-width: 768px) {
-
   .download-buttons {
     display: inline-flex;
   }
@@ -273,10 +272,13 @@ ul.language-list {
   .feature-list-desktop {
     row-gap: var(--grid-vgap);
   }
-ul.language-list {
-  left: auto; /* align to right of button */
-  right: 0;
-}
 
+  ul.language-list {
+    left: auto; /* align to right of button */
+    right: 0;
+  }
 
+  .footer-right ul {
+    gap: 0.15rem;
+  }
 }
