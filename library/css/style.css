@@ -200,6 +200,7 @@ details[open] summary::before {
 }
 
 button {
+  font-family: "Geist Mono", monospace;
   font-size: var(--font-size-small);
   text-transform: uppercase;
   display: flex;
