@@ -1,0 +1,46 @@
+{
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Welche Metadaten kann ich mit der iOS-App speichern?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sie können ein komplettes Set an Einstellungen und Metadaten für jede Aufnahme speichern, inklusive Kamerahersteller und -modell, Verschlusszeit, Blende, Brennweite, Belichtungskorrektur, Blitzeinsatz, Objektivdetails und Filmtyp. GPS-Position sowie Datum und Uhrzeit werden automatisch erfasst, sind aber manuell änderbar.Sie können auch persönliche Notizen hinzufügen, um zusätzlichen Kontext oder Details festzuhalten. So erstellen Sie ein umfassendes, gut strukturiertes Archiv Ihrer Analogfotografie mit allen wesentlichen Informationen."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Welche Dateiformate unterstützt die Mac-App?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Aktuell unterstützt die macOS-App JPEG-Dateien (.jpg) für die Einbindung und den Export von EXIF-Metadaten. Die Unterstützung für TIFF-Dateien (.tif) wird erwogen und könnte später hinzugefügt werden, basierend auf Nutzerfeedback und praktischen Anforderungen. Wir entwickeln dieses Tool entsprechend den realen Bedürfnissen von Fotografen weiter.Falls TIFF-Unterstützung oder andere Funktionen Ihren Workflow verbessern würden, teilen Sie uns dies bitte mit - wir hören zu."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Kann ich Stativ- oder Filterverwendung notieren?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Die App bleibt bewusst einfach und effizient für die meisten Analogfotografen. Aber Sie sind nicht eingeschränkt: Ein Notizfeld ermöglicht das Festhalten zusätzlicher Infos wie Stativnutzung, Filtertypen oder andere Ausrüstungsdetails.Diese Elemente gehören nicht zu den offiziellen EXIF-Metadaten, aber das Notizfeld gibt Ihnen die Freiheit, alles Wichtige festzuhalten, ohne die Hauptoberfläche zu überladen."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Ist eine Android-Version geplant?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Eine Android-Version steht definitiv auf unserem Radar. Aktuell priorisieren wir eine optimierte, zuverlässige und vollständige Erfahrung auf iPhone und macOS. Wir wollen sicherstellen, dass alles reibungslos funktioniert und unseren Qualitätsstandards entspricht.Falls die iOS-Version erfolgreich ist und Nutzer begeistert, könnte Android der nächste Schritt sein. Bleiben Sie dran und teilen Sie uns Ihr Interesse mit - Ihr Feedback leitet unsere Weiterentwicklung."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Welche Funktionen sind geplant?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Wir verbessern die App kontinuierlich. Zukünftige Updates könnten Übersetzungen für mehrsprachigen Zugang, neue Exportoptionen oder sogar eine Watch-App für schnellen Zugriff während Aufnahmen enthalten. Nichts ist festgelegt, aber wir entwickeln dieses Tool mit der Community und es wächst mit Ihren Bedürfnissen.Ihre Nutzungsweise inspiriert direkt zukünftige Funktionen - danke, dass Sie Teil dieses Prozesses sind."
+          }
+        }
+      ]
+    }
