@@ -182,7 +182,7 @@ details[open] summary::before {
   font-optical-sizing: auto;
   font-style: normal;
   color: white;
-  line-height: 1.125;
+  line-height: 1.15;
   font-weight: 500;
 }
 
@@ -203,8 +203,7 @@ button {
   font-family: "Geist Mono", monospace;
   font-size: var(--font-size-small);
   text-transform: uppercase;
-  display: flex;
-  flex-direction: column;
+  display: inline-flex;
   line-height: 1.4;
   border: none;
   padding: 0;
@@ -234,6 +233,7 @@ ul.language-list {
   padding: 0.3rem 0.2rem;
   list-style: none;
   border-radius: 0.25rem;
+  font-size: var(--font-size-body-uppercase);
 }
 
 .language-list a {
