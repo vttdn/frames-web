@@ -1,0 +1,46 @@
+{
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "¿Qué tipos de metadatos puedo registrar con la app iOS?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Puedes registrar un conjunto completo de ajustes y metadatos para cada toma, incluyendo marca y modelo de la cámara, velocidad de obturación, apertura, distancia focal, compensación de exposición, uso de flash, detalles del objetivo y tipo de película usada. La posición GPS así como la fecha y hora se registran automáticamente, pero puedes modificarlas manualmente si es necesario.También puedes añadir notas personalizadas para incluir cualquier contexto o detalle adicional, ayudándote a crear un archivo rico y bien estructurado de tu práctica fotográfica analógica, con toda la información esencial conservada."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Qué formatos de archivo soporta la app Mac?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Actualmente, la aplicación para macOS soporta archivos JPEG (.jpg) para la integración y exportación de metadatos EXIF. El soporte para archivos TIFF (.tif) está bajo consideración y podría añadirse más adelante según la demanda de los usuarios y necesidades concretas. Nos comprometemos a desarrollar esta herramienta según los usos reales de los fotógrafos, y tus comentarios son esenciales para guiar futuras evoluciones.Si la compatibilidad con TIFF u otras funcionalidades pueden mejorar tu flujo de trabajo, no dudes en decírnoslo — estamos atentos."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Puedo registrar el uso de trípode o filtros?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Por ahora, la aplicación mantiene deliberadamente su simplicidad y eficacia para satisfacer las necesidades de la mayoría de fotógrafos analógicos. Pero no estás limitado: un campo de notas dedicado permite consignar información adicional como el uso de trípode, tipos de filtros, o cualquier otro detalle relacionado con el equipo.Estos elementos no forman parte de los metadatos EXIF oficiales, pero el campo Notas te da libertad para incluir todo lo relevante para tu proceso, sin saturar la interfaz principal."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Está prevista una versión Android?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Una versión Android es algo que claramente tenemos en mente — está en nuestro radar. Por ahora, nuestra prioridad sigue siendo ofrecer una experiencia en iPhone y macOS tan pulida, fiable y completa como sea posible. Queremos asegurarnos de que todo funcione sin problemas y alcance el nivel de calidad que nos hemos marcado.Si la versión iOS tiene éxito y sigue atrayendo usuarios, un desarrollo para Android podría ser el próximo paso. Mantente atento, y háznoslo saber si te interesa — tus comentarios guían nuestro trabajo futuro."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Qué funcionalidades están planeadas?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Nos comprometemos a mejorar la app continuamente. Futuras actualizaciones podrían incluir traducciones para hacerla accesible a más público, nuevas opciones de exportación, o incluso una versión para reloj que permita acceso rápido durante las sesiones. Nada está decidido aún, pero construimos esta herramienta con la comunidad y evoluciona según vuestras necesidades.Tu forma de usar la app nos inspira directamente para las próximas funcionalidades — gracias por ser parte del proceso."
+          }
+        }
+      ]
+    }
