@@ -207,6 +207,57 @@ details[open] summary::before {
   color: white;
 }
 
+button {
+  font-size: var(--font-size-small);
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: column;
+  line-height: 1.4;
+  border: none;
+  padding: 0;
+  margin: 0;
+  background: none;
+  color: inherit;
+  cursor: pointer;
+}
+
+.language-dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+ul.language-list {
+  display: none;
+  position: absolute;
+  bottom: 100%; /* place above the button */
+  right: 0; /* align to right of button */
+  background-color: white;
+  min-width: 160px;
+  max-height: 180px;
+  overflow-y: auto;
+  z-index: 1;
+  margin: 0; /* reset margin */
+  padding: 0.25rem 0;
+  list-style: none;
+  border-radius: 0.25rem;
+}
+
+.language-list a {
+  color: #333;
+  text-decoration: none;
+  display: block;
+  padding: 0.25rem 0.5rem;
+}
+
+.language-list a:hover {
+  background-color: #eee;
+}
+
+.language-dropdown:hover .language-list {
+  display: block;
+}
+
+
 @media (min-width: 768px) {
 
   .download-buttons {
