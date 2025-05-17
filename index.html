@@ -25,6 +25,7 @@
                 --font-size-large: 3.5rem;
                 --grid-hgap: 1rem;
                 --grid-vgap: 2.25rem;
+                --list-hgap: 0.25rem;
             }
             body {
                 color: var(--gray-1);
@@ -93,7 +94,7 @@
                 .navigation li {
                     display: flex;
                     flex-direction: column;
-                    gap: 0.25rem;
+                gap: var(--list-hgap);
                 }
 
             .nav-left,
@@ -215,6 +216,7 @@
                     --font-size-large: 9.25rem;
                     --grid-hgap: 1.5rem;
                     --grid-vgap: 3.5rem;
+                    --list-hgap: 0.1rem;
                 }
                 .h1,
                 h1 {
@@ -251,10 +253,6 @@
                     align-items: center;
                     gap: var(--grid-hgap);
                     padding-top: 2rem;
-                }
-
-                .navigation li {
-                    gap: 0.1rem;
                 }
 
             .desktop-only {
