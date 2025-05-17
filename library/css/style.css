@@ -264,7 +264,7 @@ ul.language-list {
   .footer {
     grid-template-columns: repeat(12, 1fr);
     align-items: end;
-    padding-bottom: 3rem;
+    padding-bottom: 2.5rem;
     gap: var(--grid-hgap);
   }
 
