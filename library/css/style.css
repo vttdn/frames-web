@@ -230,7 +230,8 @@ ul.language-list {
   display: none;
   position: absolute;
   bottom: 100%; /* place above the button */
-  right: 0; /* align to right of button */
+  left: 0; /* align to right of button */
+  right: auto;
   background-color: white;
   min-width: 160px;
   max-height: 180px;
@@ -279,7 +280,10 @@ ul.language-list {
   .feature-list-desktop {
     row-gap: var(--grid-vgap);
   }
-
+ul.language-list {
+  left: auto; /* align to right of button */
+  right: 0;
+}
 
 
 }
