@@ -1,0 +1,46 @@
+{
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Welke metadata kan ik registreren met de iOS-app?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Je kunt een compleet set aan instellingen en metadata registreren voor elke opname, inclusief cameramerk en -model, sluitertijd, diafragma, brandpuntsafstand, belichtingscompensatie, flitsgebruik, lensdetails en gebruikte filmsoort. GPS-positie plus datum en tijd worden automatisch vastgelegd, maar je kunt ze handmatig aanpassen.Je kunt ook persoonlijke notities toevoegen voor extra context of details, waarmee je een rijk en gestructureerd archief opbouwt van je analoge fotografiepraktijk, met alle essentiële informatie bewaard."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Welke bestandsformaten ondersteunt de Mac-app?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Momenteel ondersteunt de macOS-companionapp JPEG-bestanden (.jpg) voor integratie en export van EXIF-metadata. Ondersteuning voor TIFF-bestanden (.tif) wordt overwogen en kan later worden toegevoegd op basis van gebruikersvraag en praktische behoeften. We ontwikkelen deze tool op basis van daadwerkelijk veldgebruik door fotografen, en je feedback is essentieel voor toekomstige ontwikkelingen.Als TIFF-compatibiliteit of andere functies je workflow kunnen verbeteren, laat het ons vooral weten - we luisteren."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Kan ik statief- of filtergebruik noteren?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Voor nu blijft de app bewust eenvoudig en efficiënt voor de meeste analoge fotografen. Maar je bent niet beperkt: een speciaal notitieveld staat klaar voor extra informatie zoals statiefgebruik, filtertypes of andere apparatuurdetails.Deze elementen maken geen deel uit van officiële EXIF-metadata, maar het notitieveld geeft je vrijheid om alles wat belangrijk is voor je proces vast te leggen, zonder de hoofdinterface te overbelasten."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is een Android-versie gepland?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Een Android-versie staat zeker op onze radar. Momenteel richten we ons op een zo goed mogelijke ervaring op iPhone en macOS. We willen zeker weten dat alles soepel werkt en aan onze kwaliteitsnormen voldoet.Als de iOS-versie succesvol blijft en gebruikers blijft aanspreken, kan Android de volgende stap zijn. Houd ons in de gaten en laat weten of je geïnteresseerd bent - je feedback stuurt ons toekomstige werk."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Welke functies staan gepland?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "We blijven de app continu verbeteren. Toekomstige updates kunnen vertalingen voor breder bereik, nieuwe exportopties of zelfs een horloge-companionapp voor snelle toegang tijdens het fotograferen bevatten. Niets staat vast, maar we bouwen deze tool met de community en hij evolueert met je behoeften.Hoe jij de app gebruikt inspireert direct toekomstige functies - bedankt dat je deel uitmaakt van dit proces."
+          }
+        }
+      ]
+    }
