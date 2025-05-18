@@ -1,298 +1,638 @@
 <!DOCTYPE html>
 <html lang="sv">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <title>Frames – Analogt Fotograferingsanteckningsblock och Metadata</title>
-    <meta name="description" content="Frames är ett digitalt anteckningsblock för analog fotografering. Skriv ner inställningar, organisera filmrullar och bädda in metadata i dina skannade foton.">
-    <meta name="keywords" content="frames,analog fotografi,fotoanteckningar,film metadata,analog metadata,fotoapp,noteringsverktyg,exif,film exif,film kamera,datafilm,analogt arbetsflöde">
-    <meta name="robots" content="index, follow">
-    <meta name="author" content="Vincent Tantardini">
-    <meta name="referrer" content="origin">
-
-    <!-- Localization -->
-    <link rel="canonical" href="https://withframes.com/se/">
-    <link rel="alternate" hreflang="en" href="https://withframes.com/">
-    <link rel="alternate" hreflang="fr" href="https://withframes.com/fr/">
-    <link rel="alternate" hreflang="es" href="https://withframes.com/es/">
-    <link rel="alternate" hreflang="it" href="https://withframes.com/it/">
-    <link rel="alternate" hreflang="de" href="https://withframes.com/de/">
-    <link rel="alternate" hreflang="nl" href="https://withframes.com/nl/">
-    <link rel="alternate" hreflang="pt" href="https://withframes.com/pt/">
-    <link rel="alternate" hreflang="ja" href="https://withframes.com/jp/">
-    <link rel="alternate" hreflang="ko" href="https://withframes.com/kr/">
-    <link rel="alternate" hreflang="ru" href="https://withframes.com/ru/">
-    <link rel="alternate" hreflang="th" href="https://withframes.com/th/">
-    <link rel="alternate" hreflang="zh" href="https://withframes.com/cn/">
-    <link rel="alternate" hreflang="pl" href="https://withframes.com/pl/">
-    <link rel="alternate" hreflang="tr" href="https://withframes.com/tr/">
-    <link rel="alternate" hreflang="sv" href="https://withframes.com/se/">
-    <link rel="alternate" hreflang="hi" href="https://withframes.com/in/">
-    <link rel="alternate" hreflang="x-default" href="https://withframes.com/">
-
-    <!-- <link rel="stylesheet" href="/css/styles.css"> -->
-    <style>body{font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;color:#fff;background:#000;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;font-weight:500;font-size:12px;letter-spacing:0;line-height:14px;margin:0;padding:0}h1,img,p{margin:0;padding:0}a,a:active,a:visited{color:inherit;text-decoration:none}@media (hover:hover){main a:hover{text-decoration:underline}}h1{font-size:44px;line-height:.88;margin-bottom:calc(5 * .88em);font-weight:400;letter-spacing:-.018em;text-transform:uppercase;word-spacing:.1em;text-align:justify;text-align-last:justify}h1.large-line-height{line-height:1.05}.wrapper{position:relative;overflow:hidden;box-sizing:border-box;display:flex;flex-direction:column;justify-content:space-between;min-height:100vh;padding:15px 10px 0;background:#a9aeb7}img{width:32px;margin-right:8px}.grid{display:grid;grid-template-columns:repeat(2,1fr);align-items:center}.footer{display:none;justify-content:flex-end}.download-button{display:flex;align-items:center;width:fit-content}.desktop-only,.photography,.privacy{display:none}.infoCollapsedSidebar{position:absolute;top:0;right:-300px;width:300px}@media (min-width:600px){.wrapper{padding:20px 20px 10px}.desktop-only{display:inherit}img{width:36px;margin-right:8px}h1{font-size:clamp(2.75rem,6.3vw + 1rem,8rem);word-spacing:.2em}.grid{grid-template-columns:repeat(3,1fr)}.footer{display:flex;justify-content:flex-end}}@media (min-width:940px){body{font-size:16px;letter-spacing:-.011em;line-height:19px}img{width:48px;margin-right:12px}.wrapper{padding:30px 20px}}</style>
-
-    <!-- Twitter -->
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:site" content="@withframes">
-    <meta name="twitter:creator" content="@withframes">
-    <meta name="twitter:title" content="Frames – Analogt Fotograferingsanteckningsblock och Metadata">
-    <meta name="twitter:description" content="Frames är ett digitalt anteckningsblock för analog fotografering. Skriv ner inställningar, organisera filmrullar och bädda in metadata i dina skannade foton.">
-    <meta name="twitter:image" content="https://withframes.com/og-image.jpg">
-
-    <!-- Open Graph -->
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Frames">
-    <meta property="og:title" content="Frames – Analogt Fotograferingsanteckningsblock och Metadata">
-    <meta property="og:description" content="Frames är ett digitalt anteckningsblock för analog fotografering. Skriv ner inställningar, organisera filmrullar och bädda in metadata i dina skannade foton.">
-    <meta property="og:url" content="https://withframes.com/se/">
-    <meta property="og:image" content="https://withframes.com/og-image.jpg">
-    <meta property="og:locale" content="sv_SE">
-    <meta property="og:locale:alternate" content="en_US">
-    <meta property="og:locale:alternate" content="fr_FR">
-    <meta property="og:locale:alternate" content="es_ES">
-    <meta property="og:locale:alternate" content="it_IT">
-    <meta property="og:locale:alternate" content="de_DE">
-    <meta property="og:locale:alternate" content="nl_NL">
-    <meta property="og:locale:alternate" content="pt_PT">
-    <meta property="og:locale:alternate" content="ja_JP">
-    <meta property="og:locale:alternate" content="ru_RU">
-    <meta property="og:locale:alternate" content="th_TH">
-    <meta property="og:locale:alternate" content="zh_CN">
-    <meta property="og:locale:alternate" content="pl_PL">
-    <meta property="og:locale:alternate" content="tr_TR">
-    <meta property="og:locale:alternate" content="sv_SE">
-    <meta property="og:locale:alternate" content="hi_IN">
-
-    <!-- ICO (legacy) + SVG (modern) -->
-    <link rel="shortcut icon" href="/favicon.ico" sizes="any">
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
-
-    <!-- High-res PNG for light/dark modes -->
-    <link rel="icon" href="/favicon-light.png" type="image/png" media="(prefers-color-scheme: light)" sizes="512x512">
-    <link rel="icon" href="/favicon-dark.png" type="image/png" media="(prefers-color-scheme: dark)" sizes="512x512">
-
-    <!-- Apple Touch Icon (iOS) -->
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-
-    <!-- Webapp Manifest -->
-    <link rel="manifest" href="/site.webmanifest">
-    <meta name="theme-color" content="#000">
-
-    <!-- Apple Smart App Banner -->
-    <meta name="apple-itunes-app" content="app-id=6744057317">
-
-    <!-- Microdata: iOS/macOS Products + Webpage -->
-    <script type="application/ld+json">
-      {
-        "@context": "https://schema.org",
-        "@graph": [
-          {
-            "@type": "SoftwareApplication",
-            "name": "Frames iOS",
-            "operatingSystem": "iOS",
-            "applicationCategory": "PhotographyApplication",
-            "applicationSubCategory": "Fotografi",
-            "inLanguage": "sv",
-            "description": "Frames är ett digitalt anteckningsblock för analog fotografering. Skriv ner inställningar, organisera filmrullar och bädda in metadata i dina skannade foton.",
-            "image": "https://withframes.com/og-image-alt.jpg",
-            "url": "https://apps.apple.com/se/app/frames-filmfotonotering/id6744057317",
-            "installUrl": "https://apps.apple.com/se/app/frames-filmfotonotering/id6744057317",
-            "softwareVersion": "1.0.6",
-            "screenshot": "https://withframes.com/img/microdata-screenshot-ios.jpg",
-            "isAccessibleForFree": true,
-            "keywords": "frames,analog fotografi,fotoanteckningar,film metadata,analog metadata,fotoapp,noteringsverktyg,exif,film exif,film kamera,datafilm,analogt arbetsflöde",
-            "maintainer": {
-              "@type": "Person",
-              "name": "Vincent Tantardini"
-            },
-            "countriesSupported": [
-              "US", "GB", "FR", "DE", "IT", "ES", "CA", "AU",
-              "JP", "KR", "NL", "SE", "NO", "FI", "DK", "NZ"
-            ],
-            "mainEntity": {
-              "@type": "WebPage",
-              "@id": "https://withframes.com/se/"
-            },
-            "author": {
-              "@type": "Person",
-              "name": "Vincent Tantardini"
-            },
-            "offers": {
-              "@type": "Offer",
-              "price": "0",
-              "priceCurrency": "USD",
-              "availability": "https://schema.org/InStock"
-            },
-            "aggregateRating": {
-              "@type": "AggregateRating",
-              "ratingValue": "5",
-              "reviewCount": "5"
-            },
-            "review": []
-          },
-          {
-            "@type": "SoftwareApplication",
-            "name": "Frames macOS",
-            "operatingSystem": "macOS",
-            "applicationCategory": "PhotographyApplication",
-            "applicationSubCategory": "Fotografi",
-            "inLanguage": "sv",
-            "description": "Frames är ett digitalt anteckningsblock för analog fotografering. Skriv ner inställningar, organisera filmrullar och bädda in metadata i dina skannade foton.",
-            "image": "https://withframes.com/og-image-alt.jpg",
-            "url": "https://apps.apple.com/se/app/frames-film-metadata/id6744063354",
-            "mainEntity": {
-              "@type": "WebPage",
-              "@id": "https://withframes.com/se/"
-            },
-            "author": {
-              "@type": "Person",
-              "name": "Vincent Tantardini"
-            },
-            "offers": {
-              "@type": "Offer",
-              "price": "0",
-              "priceCurrency": "USD",
-              "availability": "https://schema.org/InStock"
-            },
-            "aggregateRating": {
-              "@type": "AggregateRating",
-              "ratingValue": "5",
-              "reviewCount": "2"
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width,initial-scale=1" />
+        <title>Frames - Anteckningar och metadata för analog fotografering</title>
+        <meta name="description" content="Frames är den ultimata appen för analogfotografer. Dokumentera dina inställningar, anteckningar och lägg till metadata till dina skanningar. Tillgänglig för iPhone och Mac." />
+        <meta name="keywords" content="frames, fotoanteckningar, analog fotografering, filmmetadata, film exif, filmanteckningar, fotobok, kamerainställningar, fotoarkiv, analog skanning, datafilm" />
+        <meta name="robots" content="index, follow" />
+        <meta name="author" content="Vincent Tantardini" />
+        <meta name="referrer" content="origin" />
+        <style>
+            :root {
+                --huge-spacing: 10rem;
+                --large-spacing: 8rem;
+                --medium-spacing: 2rem;
+                --gray-1: #b3b3b3;
+                --font-size-small: 0.9rem;
+                --font-size-body: 1rem;
+                --font-size-body-uppercase: 0.9rem;
+                --font-size-heading1: 1.125rem;
+                --font-size-heading2: 1.5rem;
+                --font-size-heading3: 1.75rem;
+                --font-size-heading4: 3rem;
+                --font-size-large: 3.5rem;
+                --grid-hgap: 1rem;
+                --grid-vgap: 2.25rem;
+                --list-hgap: 0.25rem;
             }
-          },
-          {
-            "@type": "WebPage",
-            "@id": "https://withframes.com/se/",
-            "url": "https://withframes.com/se/",
-            "name": "Frames – Analogt Fotograferingsanteckningsblock och Metadata",
-            "description": "Frames är ett digitalt anteckningsblock för analog fotografering. Skriv ner inställningar, organisera filmrullar och bädda in metadata i dina skannade foton.",
-            "inLanguage": "sv",
-            "publisher": {
-              "@id": "https://withframes.com/#organization"
+            body {
+                color: var(--gray-1);
+                font-size: var(--font-size-body);
+                background: #000;
+                -webkit-font-smoothing: antialiased;
+                -moz-osx-font-smoothing: grayscale;
+                font-family: "Geist Mono", monospace;
+                font-weight: 400;
+                font-style: normal;
+                margin: 0;
+                padding: 0;
+                line-height: 1.334;
             }
-          },
-          {
-            "@type": "VideoObject",
-            "name": "Frames iOS App – Toolbar Controls Preview",
-            "description": "A quick preview of the toolbar controls in the Frames iOS app, designed for film photographers to log and manage metadata.",
-            "thumbnailUrl": "https://i.ytimg.com/vi/r782-39sHJ8/hqdefault.jpg",
-            "uploadDate": "2025-04-20T00:00:00+00:00",
-            "duration": "PT1M30S",
-            "embedUrl": "https://www.youtube.com/embed/r782-39sHJ8",
-            "contentUrl": "https://www.youtube.com/watch?v=r782-39sHJ8",
-            "publisher": {
-              "@id": "https://withframes.com/#organization"
+            *,
+            ::after,
+            ::before {
+                box-sizing: border-box;
             }
-          }
-        ]
-      }
-    </script>
+            .grid-2col,
+            .grid-3col,
+            .grid-4col {
+            display: grid;
+            gap: var(--grid-hgap);
+            grid-template-columns: 1fr;
+            width: 100%;
+            }
+            .h1,
+            h1,
+            h2,
+            h3 {
+                font-family: Geist, sans-serif;
+                font-style: normal;
+                color: #fff;
+            }
+            .h1,
+            h1 {
+                font-size: var(--font-size-large);
+                line-height: 1;
+                font-weight: 500;
+                margin-bottom: 0;
+                min-height: 8rem;
+                margin-top: calc(100svh - var(--font-size-large) * 2 - 14.5rem);
+            }
+                h2 {
+                font-size: var(--font-size-heading3);
+                    line-height: 1;
+                    font-weight: 600;
+                    margin-top: var(--large-spacing);
+                    margin-bottom: var(--grid-vgap);
+                }
+            a.logo {
+                font-family: Geist, sans-serif;
+                color: #fff !important;
+            }
+            .wrapper {
+                padding-left: 1rem;
+                padding-right: 1rem;
+            }
+            .navigation {
+                padding-top: 1.5rem;
+                font-size: var(--font-size-small);
+                line-height: 1.4;
+                text-transform: uppercase;
+            }
+            .navigation li {
+                display: flex;
+                flex-direction: column;
+                gap: var(--list-hgap);
+            }
+            .nav-left,
+            .nav-right {
+                display: flex;
+            }
+            .nav-left {
+                justify-content: flex-start;
+            }
+            .nav-right {
+                justify-content: flex-end;
+            }
+            .button {
+                display: inline-flex;
+                align-items: center;
+                justify-content: center;
+                white-space: nowrap;
+                background-color: #fff;
+                color: #000;
+                border-radius: 0.5rem;
+                font-weight: 600;
+                text-transform: uppercase;
+                gap: 0.5rem;
+                height: 3rem;
+                padding: 0 0.75rem;
+                font-size: var(--font-size-body-uppercase);
+            }
 
-    <!-- Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-MER5TLYKLF"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
+            .button-dark {
+                background-color: black;
+                color: white;
+                border: 1px solid rgb(65, 65, 65);
+            }
 
-      gtag('config', 'G-MER5TLYKLF');
-    </script>
-  </head>
+            li,
+            ul {
+                list-style: none;
+                margin: 0;
+                padding: 0;
+            }
+            a,
+            a:active,
+            a:hover,
+            a:visited {
+                text-decoration: none;
+                color: inherit;
+            }
+            a.button,
+            a.button:active,
+            a.button:hover,
+            a.button:visited {
+                text-decoration: none;
+                color: #000;
+                box-sizing: content-box;
+            }
+            a.button.button-dark,
+            a.button.button-dark:active,
+            a.button.button-dark:hover,
+            a.button.button-dark:visited {
+                color: #fff;
+            }
+            .sr-only {
+                position: absolute;
+                width: 1px;
+                height: 1px;
+                margin: -1px;
+                padding: 0;
+                border: 0;
+                clip: rect(0, 0, 0, 0);
+                overflow: hidden;
+            }
+            .nav-links {
+                display: flex;
+                gap: 1.5rem;
+                list-style: none;
+                margin: 0;
+                padding: 0;
+            }
+            
+            .input-wrapper > .placeholder,
+            .input-wrapper > input {
+                display: block;
+                -webkit-appearance: none;
+                -moz-appearance: none;
+                appearance: none;
+                width: 100%;
+                height: 100%;
+                background-color: transparent;
+                border: none;
+            }
 
-  <body>
-    <div class="wrapper">
-      <header class="h-wrapper">
-        <h1 class="">
-          <a
-            href="https://withframes.com/"
-            aria-label="Frames Hem"
-            title="Frames – Analogt Fotograferingsanteckningsblock och Metadata"
-            >Frames®</a
-          >
-          binder samman analogt och digitalt – anteckna på iPhone, integrera metadata i skanningar på Mac
-        </h1>
-      </header>
+            .desktop-only {
+                display: none;
+            }
 
-      <main class="grid">
-        <div class="download-button">
-          <img
-            src="/img/icon-ios-ipados.svg"
-            alt="iPhone/iPad icon"
-            width="64"
-            height="64"
-            loading="lazy"
-         >
-          <a href="https://apps.apple.com/se/app/frames-filmfotonotering/id6744057317" title="Ladda ner från<br>App Store"
-            >Ladda ner från<br>App Store</a
-          >
-        </div>
+            .button img {
+            position: relative;
+            top: -0.09em;
+            width: 15px;
+            height: auto;
+            }
 
-        <div class="download-button">
-          <img
-            src="/img/icon-macos.svg"
-            alt="Mac icon"
-            width="64"
-            height="64"
-            loading="lazy"
-         >
-          <a href="https://apps.apple.com/se/app/frames-film-metadata/id6744063354" title="Ladda ner från<br>Mac App Store"
-            >Ladda ner från<br>Mac App Store</a
-          >
-        </div>
+            .download-buttons {
+                position: absolute;
+                top: 1.5rem; right: 1rem;
+            gap: 1.25rem;
+            }
 
-        <div class="footer">
-          <p>
-            <br>
-            <a
-              href="mailto:&#98;&#111;&#110;&#106;&#111;&#117;&#114;&#64;&#119;&#105;&#116;&#104;&#102;&#114;&#97;&#109;&#101;&#115;&#46;&#99;&#111;&#109;"
-              title="Contact us"
-            >
-              &#98;&#111;&#110;&#106;&#111;&#117;&#114;&#64;&#119;&#105;&#116;&#104;&#102;&#114;&#97;&#109;&#101;&#115;&#46;&#99;&#111;&#109;
-            </a>
-            <a
-              class="privacy"
-              href="https://withframes.com/se/integritetspolicy/"
-              title="Integritetspolicy"
-              >Integritetspolicy</a
-            >
-          </p>
-        </div>
-        <script type="application/ld+json">
-          {
-            "@context": "https://schema.org",
-            "@type": "Organization",
-            "@id": "https://withframes.com/#organization",
-            "name": "Frames",
-            "url": "https://withframes.com/se/",
-            "logo": "https://withframes.com/apple-touch-icon.png",
-            "contactPoint": {
-              "@type": "ContactPoint",
-              "email": "bonjour@withframes.com",
-              "contactType": "Kundsupport",
-              "areaServed": "Worldwide",
-              "availableLanguage": ["English", "French"]
-            },
-            "sameAs": [
-              "https://twitter.com/withframes",
-              "https://www.facebook.com/profile.php?id=61575648380444",
-              "https://www.instagram.com/with_frames/",
-              "https://linkedin.com/company/withframes/",
-              "https://www.tiktok.com/@analogframes",
-              "https://www.youtube.com/@withframes",
-              "https://g.co/kgs/5oEvXT5",
-              "https://apps.apple.com/se/app/frames-filmfotonotering/id6744057317",
-              "https://apps.apple.com/se/app/frames-film-metadata/id6744063354"
-            ]
-          }
+            @media (min-width: 768px) {
+                :root {
+                    --huge-spacing: 22.5rem;
+                    --large-spacing: 12.5rem;
+                    --medium-spacing: 4rem;
+                    --font-size-small: 0.875rem;
+                    --font-size-body: 1.125rem;
+                    --font-size-body-uppercase: 1.0625rem;
+                    --font-size-heading1: 1.46875rem;
+                    --font-size-heading2: 2.375rem;
+                    --font-size-heading3: 2.9375rem;
+                    --font-size-heading4: 4.75rem;
+                    --font-size-large: 7.75rem;
+                    --grid-hgap: 1.5rem;
+                    --grid-vgap: 3rem;
+                    --list-hgap: 0.15rem;
+                }
+                .h1,
+                h1 {
+                    margin-top: calc(100svh - var(--font-size-large) * 2 - 8rem);
+                    margin-bottom: 1rem;
+                    min-height: 19.4rem;
+                }
+                .grid-2col {
+                    grid-template-columns: repeat(2, 1fr);
+                    gap: var(--grid-hgap);
+                }
+
+                .grid-3col {
+                    grid-template-columns: repeat(3, 1fr);
+                    gap: var(--grid-hgap);
+                }
+
+                .grid-4col {
+                    grid-template-columns: repeat(4, 1fr);
+                    gap: var(--grid-hgap);
+                }
+                .wrapper {
+                    padding-left: 3rem;
+                    padding-right: 3rem;
+                    max-width: 112rem;
+                    margin: 0 auto;
+                }
+                .navigation {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    gap: var(--grid-hgap);
+                    padding-top: 2rem;
+                }
+
+            .desktop-only {
+                display: inherit;
+            }
+
+            .button {
+                gap: 0.75rem;
+                height: 3.75rem;
+                padding: 0 1.16rem;
+            }
+
+                .button img {
+                width: 20px;
+                height: auto;
+                }
+
+
+            .nav-links {
+                display: flex;
+                gap: 2rem;
+                list-style: none;
+                margin: 0;
+                padding: 0;
+            }
+
+            .download-buttons {
+                position: static;
+                top: 0; right: 0;
+            }
+        }
+        </style>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Geist+Mono:wght@400;600&family=Geist:wght@400..700&display=swap" rel="stylesheet" media="print" onload="this.media=&#34;all&#34;" />
+        <!-- Localization -->
+        <link rel="canonical" href="https://withframes.com/se/" />
+        <link rel="alternate" hreflang="en" href="https://withframes.com/" />
+        <link rel="alternate" hreflang="fr" href="https://withframes.com/fr/" />
+        <link rel="alternate" hreflang="es" href="https://withframes.com/es/" />
+        <link rel="alternate" hreflang="it" href="https://withframes.com/it/" />
+        <link rel="alternate" hreflang="de" href="https://withframes.com/de/" />
+        <link rel="alternate" hreflang="nl" href="https://withframes.com/nl/" />
+        <link rel="alternate" hreflang="pt" href="https://withframes.com/pt/" />
+        <link rel="alternate" hreflang="ja" href="https://withframes.com/jp/" />
+        <link rel="alternate" hreflang="ko" href="https://withframes.com/kr/" />
+        <link rel="alternate" hreflang="ru" href="https://withframes.com/ru/" />
+        <link rel="alternate" hreflang="th" href="https://withframes.com/th/" />
+        <link rel="alternate" hreflang="zh" href="https://withframes.com/cn/" />
+        <link rel="alternate" hreflang="pl" href="https://withframes.com/pl/" />
+        <link rel="alternate" hreflang="tr" href="https://withframes.com/tr/" />
+        <link rel="alternate" hreflang="sv" href="https://withframes.com/se/" />
+        <link rel="alternate" hreflang="hi" href="https://withframes.com/in/" />
+        <link rel="alternate" hreflang="x-default" href="https://withframes.com/" />
+        <link rel="preload" href="/library/css/style.min.css" as="style" onload="this.rel=&#34;stylesheet&#34;" />
+        <noscript><link rel="stylesheet" href="/library/css/style.min.css" /></noscript>
+        <link rel="preload" href="/library/css/typewriter-sv.min.css" as="style" onload="this.rel=&#34;stylesheet&#34;" />
+        <noscript><link rel="stylesheet" href="/library/css/typewriter-sv.min.css" /></noscript>
+        <!-- Twitter -->
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="@withframes" />
+        <meta name="twitter:creator" content="@withframes" />
+        <meta name="twitter:title" content="Frames - Anteckningar och metadata för analog fotografering" />
+        <meta name="twitter:description" content="Frames är den ultimata appen för analogfotografer. Dokumentera dina inställningar, anteckningar och lägg till metadata till dina skanningar. Tillgänglig för iPhone och Mac." />
+        <meta name="twitter:image" content="https://withframes.com/library/img/sv/og-image.jpg" />
+        <!-- Open Graph -->
+        <meta property="og:type" content="website" />
+        <meta property="og:site_name" content="Frames" />
+        <meta property="og:title" content="Frames - Anteckningar och metadata för analog fotografering" />
+        <meta property="og:description" content="Frames är den ultimata appen för analogfotografer. Dokumentera dina inställningar, anteckningar och lägg till metadata till dina skanningar. Tillgänglig för iPhone och Mac." />
+        <meta property="og:url" content="https://withframes.com/se/" />
+        <meta property="og:image" content="https://withframes.com/library/img/sv/og-image.jpg" />
+        <meta property="og:locale" content="sv_SE" />
+        <!-- ICO (legacy) + SVG (modern) -->
+        <link rel="shortcut icon" href="/favicon.ico" sizes="any" />
+        <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+        <!-- High-res PNG for light/dark modes -->
+        <link rel="icon" href="/favicon-light.png" type="image/png" media="(prefers-color-scheme: light)" sizes="512x512" />
+        <link rel="icon" href="/favicon-dark.png" type="image/png" media="(prefers-color-scheme: dark)" sizes="512x512" />
+        <!-- Apple Touch Icon (iOS) -->
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+        <!-- Webapp Manifest -->
+        <link rel="manifest" href="/site.webmanifest" />
+        <meta name="theme-color" content="#000" />
+        <!-- Apple Smart App Banner -->
+        <meta name="apple-itunes-app" content="app-id=6744057317" />
+        <meta name="apple:content_id" content="6744063354">
+    </head>
+    <body>
+        <header class="wrapper" id="frames">
+            <nav class="navigation" aria-label="Main navigation">
+                <ul class="grid-4col">
+                    <li><a href="https://withframes.com/se/" class="logo">Frames ®</a></li>
+                    <li>
+                        </li>
+                    <li>
+                        <a href="#iphone">För iPhone</a>
+                        <a href="#mac">För Mac</a>
+                    </li>
+                    <li>
+                        <a href="mailto:&#104;&#105;&#64;&#119;&#105;&#116;&#104;&#102;&#114;&#97;&#109;&#101;&#115;&#46;&#99;&#111;&#109;">&#72;&#73;&#64;&#87;&#73;&#84;&#72;&#70;&#82;&#65;&#77;&#69;&#83;&#46;&#67;&#79;&#77;</a>
+                        <a href="https://twitter.com/withframes" target="_blank" rel="noopener noreferrer">@withframes</a>
+                    </li>
+                </ul>
+            </nav>
+            <h1 class="sr-only">Frames - Anteckningar och metadata för analog fotografering</h1>
+            <div class="h1 input-wrapper" aria-hidden="true"><input type="text" tabindex="-1" readonly /> <span class="placeholder"></span></div>
+            <div class="download-buttons" role="group" aria-label="Download options">
+                <a href="https://apps.apple.com/se/app/frames-filmfotonotering/id6744057317" class="button" role="button"><img src="/library/img/icons/icon-apple-dark.svg" alt="Apple Logo" width="24" height="24" loading="lazy" />Ladda ner <span class='desktop-only'>för iPhone</span></a>
+                <a href="https://apps.apple.com/se/app/frames-film-metadata/id6744063354" class="button button-dark desktop-only" role="button">Ladda ner för Mac</a>
+            </div>
+        </header>
+        <main class="wrapper">
+            <section id="iphone" aria-labelledby="features-mobile-heading">
+                <h2 id="features-mobile-heading"><span class='sr-only'>Analogfotoapp </span>För iPhone</h2>
+                <ul class="grid-3col feature-list-mobile">
+                    <li>
+                        <article>
+                            <div class="screenshot-container"><img src="/library/img/sv/frames-feature-screenshot-1.webp" alt="iOS-app som visar filmrullar organiserade i mappar, sorterade efter namn och datum" width="504" height="1024" loading="lazy" /></div>
+                            <h3>Organisera ditt bibliotek</h3>
+                            <p>Skapa mappar, sortera dina filmrullar, byt namn eller flytta dina filmer med ett enkelt grepp. Frames erbjuder en intuitiv hantering av ditt fotoarkiv, som en digital kontaktbana skapad för analog fotografering.</p>
+                        </article>
+                    </li>
+                    <li>
+                        <article>
+                            <div class="screenshot-container">
+                                <img src="/library/img/sv/frames-feature-screenshot-2.webp" alt="iOS-skärm som visar detaljerade inställningar (kamera, objektiv, film) för en filmrulle" width="504" height="1024" loading="lazy" />
+                            </div>
+                            <h3>Spara alla dina inställningar</h3>
+                            <p>Registrera din kamera, objektiv, filmtyp, exponeringsinställningar (bländare, slutartid, brännvidd, blixt...) och mer under dina fotosessioner. Frames dokumenterar varje teknisk detalj, från ögonblicket då bilden tas till skanningen.</p>
+                        </article>
+                    </li>
+                    <li>
+                        <article>
+                            <div class="screenshot-container">
+                                <img src="/library/img/sv/frames-feature-screenshot-3.webp" alt="Vy över inställningar i iOS-appen med datum, anteckningar och karta för varje analog bild" width="504" height="1024" loading="lazy" />
+                            </div>
+                            <h3>Granska dina bilder</h3>
+                            <p>Hitta alla dina inställningar direkt: datum och tid för bildtagning, personliga anteckningar, plats... Varje bild sätts i sitt sammanhang. Redigera eller komplettera dina bilder när som helst.</p>
+                        </article>
+                    </li>
+                    <li>
+                        <article>
+                            <div class="screenshot-container">
+                                <img src="/library/img/sv/frames-feature-screenshot-4.webp" alt="Karta i iOS-appen som lokaliserar foton med deras tekniska data" width="504" height="1024" loading="lazy" />
+                            </div>
+                            <h3>Kartlägg dina anteckningar</h3>
+                            <p>Registrera automatiskt GPS-positionen för varje bild eller ange den manuellt vid behov. Frames låter dig visualisera varje foto på en interaktiv karta för att hitta den exakta platsen för ett foto.</p>
+                        </article>
+                    </li>
+                    <li>
+                        <article>
+                            <div class="screenshot-container">
+                                <img src="/library/img/sv/frames-feature-screenshot-5.webp" alt="Exportskärm i iOS som visar en .frames-fil redo för macOS" width="504" height="1024" loading="lazy" />
+                            </div>
+                            <h3>Exportera och dela</h3>
+                            <p>Skicka dina anteckningar till din Mac med ett klick för att fortsätta arbetet smidigt. Exportera dem i .frames-format, ett öppet format baserat på JSON, designat för att vara läsbart, lättviktigt och interoperabelt.</p>
+                        </article>
+                    </li>
+                </ul>
+            </section>
+            <section id="mac" aria-labelledby="features-desktop-heading">
+                <h2 id="features-desktop-heading"><span class='sr-only'>Analogfotoapp </span>För Mac</h2>
+                <ul class="grid-2col feature-list-desktop">
+                    <li>
+                        <article>
+                            <div class="screenshot-container screenshot-desktop">
+                                <img src="/library/img/sv/frames-feature-screenshot-6.webp" alt="macOS-gränssnitt som visar en filmrulle importerad från iOS via .frames-fil" width="898" height="572" loading="lazy" />
+                            </div>
+                            <h3>Synkronisering från iPhone</h3>
+                            <p>Importera dina analoganteckningar från iOS-appen enkelt. Dra och släpp din .frames-fil i macOS-appen: alla dina inställningar, anteckningar och data laddas omedelbart in och är redo att användas. Inga ytterligare inställningar, synkronisering eller konfiguration behövs.</p>
+                        </article>
+                    </li>
+                    <li>
+                        <article>
+                            <div class="screenshot-container screenshot-desktop">
+                                <img src="/library/img/sv/frames-feature-screenshot-7.webp" alt="macOS-app som visar teknisk data med bifogad skanning och lokalisering" width="898" height="572" loading="lazy" />
+                            </div>
+                            <h3>Utforska varje bild</h3>
+                            <p>Utforska varje bild i minsta detalj: granska dina inställningar, använd filmrulle och bildens exakta plats, visas på en interaktiv karta. Associera dem enkelt med dina skannade bilder, bild för bild eller genom att dra och släppa alla dina foton på en gång.</p>
+                        </article>
+                    </li>
+                    <li>
+                        <article>
+                            <div class="screenshot-container screenshot-desktop">
+                                <img src="/library/img/sv/frames-feature-screenshot-8.webp" alt="macOS som exporterar en skanning med EXIF-metadata (kamera, objektiv)" width="898" height="572" loading="lazy" />
+                            </div>
+                            <h3>Exportera med metadata</h3>
+                            <p>Spara dina foton med all EXIF-metadata: plats, objektiv, kamerahus och mer - perfekt för arkivering eller delning. Tack vare EXIF-formatet, universellt erkänt, visas dina data automatiskt i Apple Photos, Adobe Lightroom, Flickr och andra fotoplattformar/appar.</p>
+                        </article>
+                    </li>
+                </ul>
+            </section>
+            <section id="faq" aria-labelledby="faq-heading">
+                <h2 id="faq-heading">FAQ</h2>
+                <div class="faq-list">
+                    <details>
+                        <summary><h3>Vilken typ av metadata kan jag spara med iOS-appen?</h3></summary>
+                        <p>Du kan spara en komplett uppsättning inställningar och metadata för varje bild, inklusive kamerans märke och modell, slutartid, bländare, brännvidd, exponeringskompensation, blixtanvändning, objektivdetaljer och använd filmtyp. GPS-position samt datum och tid registreras automatiskt, men du kan ändra dem manuellt om det behövs.<br><br>Du kan också lägga till anpassade anteckningar för att inkludera ytterligare kontext eller detaljer, vilket hjälper dig att skapa ett rikt och välstrukturerat arkiv av din analogfotografering, med all väsentlig information bevarad.</p>
+                    </details>
+                    <details>
+                        <summary><h3>Vilka filformat stöds av Mac-appen?</h3></summary>
+                        <p>För närvarande stödjer macOS-appen JPEG-filer (.jpg) för integrering och export av EXIF-metadata. Stöd för TIFF-filer (.tif) är under utredning och kan läggas till senare baserat på användarnas efterfrågan och verkliga behov. Vi åtar oss att utveckla detta verktyg baserat på fotografers faktiska användning, och din feedback är avgörande för att styra framtida utveckling.<br><br>Om TIFF-kompatibilitet eller andra funktioner kan förbättra ditt arbetsflöde, tveka inte att berätta det för oss - vi lyssnar.</p>
+                    </details>
+                    <details>
+                        <summary><h3>Kan jag anteckna användning av stativ eller filter?</h3></summary>
+                        <p>För närvarande är appen avsiktligt enkel och effektiv för att möta majoriteten av analogfotografers behov. Men du är inte begränsad: ett dedikerat anteckningsfält finns för att registrera ytterligare information som stativanvändning, filtertyper eller andra materialrelaterade detaljer.<br><br>Dessa element ingår inte i officiell EXIF-metadata, men anteckningsfältet ger dig frihet att inkludera allt som är viktigt för din process, utan att belamra huvudgränssnittet.</p>
+                    </details>
+                    <details>
+                        <summary><h3>Planeras en Android-version?</h3></summary>
+                        <p>En Android-version är definitivt något vi funderar på - det finns i vår horisont. För närvarande är vår prioritet att göra upplevelsen på iPhone och macOS så polerad, tillförlitlig och komplett som möjligt. Vi vill säkerställa att allt fungerar smidigt och når den kvalitetsnivå vi strävar efter.<br><br>Om iOS-versionen blir framgångsrik och fortsätter att tilltala användare, kan en Android-utveckling bli nästa steg. Håll ögonen öppna, och låt oss veta om det intresserar dig - din feedback styr vårt fortsatta arbete.</p>
+                    </details>
+                    <details>
+                        <summary><h3>Vilka funktioner är planerade?</h3></summary>
+                        <p>Vi åtar oss att kontinuerligt förbättra appen. Framtida uppdateringar kan inkludera översättningar för att göra den tillgänglig för en bredare publik, nya exportalternativ eller till och med en klockversion för snabb åtkomst under fotografering. Inget är ännu fastställt, men vi bygger detta verktyg med gemenskapen och det utvecklas i takt med dina behov.<br><br>Ditt sätt att använda appen inspirerar oss direkt för nästa funktioner - tack för att du är en del av processen.</p>
+                    </details>
+                </div>
+            </section>
+            <section id="reviews" aria-labelledby="reviews-heading">
+                <h2 id="reviews-heading">Dina recensioner <span class='sr-only'>som fotograf</span></h2>
+                <ul class="grid-3col review-list">
+                    <li>
+                        <figure class="user-review">
+                            <blockquote cite="https://withframes.com">
+                                <img src="/library/img/icons/icon-quote.svg" alt="Quote" width="14" height="11" loading="lazy" />
+                                <h3 class="sr-only">Hel enkelt perfekt</h3>
+                                <p>Gör precis vad man kan förvänta sig, enkelt. Det är intuitivt, tillförlitligt, inget att klaga på. Tack för att det är gratis!</p>
+                            </blockquote>
+                            <figcaption class="review-info sr-only">
+                                <span class="author">Soliver098</span> <span class="rating" aria-label="5" role="img">★★★★★</span> <time datetime="2022-08-03">2022-08-03</time>
+                            </figcaption>
+                        </figure>
+
+                        <figure class="user-review">
+                            <blockquote cite="https://withframes.com">
+                                <img src="/library/img/icons/icon-quote.svg" alt="Quote" width="14" height="11" loading="lazy" />
+                                <h3 class="sr-only">Minimalistisk och effektiv</h3>
+                                <p>Appen är enkel att använda och gör precis vad den ska. Jag gillar att kunna namnge pågående filmrullar, eftersom jag ibland glömmer vilken kamera jag använde för vissa foton. Gränssnittet är tydligt och riktigt vackert.</p>
+                            </blockquote>
+                            <figcaption class="review-info sr-only">
+                                <span class="author">Hivonmarius</span> <span class="rating" aria-label="5" role="img">★★★★★</span> <time datetime="2022-06-01">2022-06-01</time>
+                            </figcaption>
+                        </figure>
+
+                        <figure class="user-review">
+                            <blockquote cite="https://withframes.com">
+                                <img src="/library/img/icons/icon-quote.svg" alt="Quote" width="14" height="11" loading="lazy" />
+                                <h3 class="sr-only">Mycket bättre än en pappersbok</h3>
+                                <p>Mycket praktiskare än att anteckna inställningar i en bok eller Apples Anteckningar. Ser fram emot nästa versioner!</p>
+                            </blockquote>
+                            <figcaption class="review-info sr-only">
+                                <span class="author">-=insert nickname=-</span> <span class="rating" aria-label="5" role="img">★★★★★</span> <time datetime="2022-11-13">2022-11-13</time>
+                            </figcaption>
+                        </figure>
+                    </li>
+                    <li>
+                        <figure class="user-review">
+                            <blockquote cite="https://withframes.com">
+                                <img src="/library/img/icons/icon-quote.svg" alt="Quote" width="14" height="11" loading="lazy" />
+                                <h3 class="sr-only">Den bästa appen i sitt slag</h3>
+                                <p>Den bästa appen för analog fotometadata som jag testat. Enkel, snabb och komplett. Inga annonser, ingen datainsamling - en enorm fördel.</p>
+                            </blockquote>
+                            <figcaption class="review-info sr-only">
+                                <span class="author">J0nas</span> <span class="rating" aria-label="5" role="img">★★★★★</span> <time datetime="2022-08-03">2022-08-03</time>
+                            </figcaption>
+                        </figure>
+
+                        <figure class="user-review">
+                            <blockquote cite="https://withframes.com">
+                                <img src="/library/img/icons/icon-quote.svg" alt="Quote" width="14" height="11" loading="lazy" />
+                                <h3 class="sr-only">Utmärkt applikation</h3>
+                                <p>Det vore bra med slutartider i 1/3-steg, eftersom de inte alltid matchar de faktiska inställningarna för bilderna. Bra jobbat med appen!</p>
+                            </blockquote>
+                            <figcaption class="review-info sr-only">
+                                <span class="author">SalvatoreEsquilache</span> <span class="rating" aria-label="5" role="img">★★★★★</span> <time datetime="2023-12-02">2023-12-02</time>
+                            </figcaption>
+                        </figure>
+
+                        <figure class="user-review">
+                            <blockquote cite="https://withframes.com">
+                                <img src="/library/img/icons/icon-quote.svg" alt="Quote" width="14" height="11" loading="lazy" />
+                                <h3 class="sr-only">Min fotograferingskompanjon</h3>
+                                <p>Fantastiskt verktyg - enkelt men komplett för att hålla koll på filmrullar. Lätt att använda i fält, med exportalternativ för att spara eller bearbeta data. Förtjänta fem stjärnor!</p>
+                            </blockquote>
+                            <figcaption class="review-info sr-only">
+                                <span class="author">rzolau</span> <span class="rating" aria-label="5" role="img">★★★★★</span> <time datetime="2022-02-26">2022-02-26</time>
+                            </figcaption>
+                        </figure>
+                    </li>
+                    <li>
+                        <figure class="user-review">
+                            <blockquote cite="https://withframes.com">
+                                <img src="/library/img/icons/icon-quote.svg" alt="Quote" width="14" height="11" loading="lazy" />
+                                <h3 class="sr-only">EXIF-ekvivalenten för analogt</h3>
+                                <p>Nyligen gjorde analog fotografering mig nostalgisk och jag bestämde mig för att dyka in igen. Till skillnad från förr, i den digitala eran, är det nu helt normalt att bevara bilddata tack vare EXIF-metadata. Jag undrade om det inte fanns ett sätt att göra något liknande med bilder tagna på film. Det var när jag letade efter en lösning som jag stötte på denna app. Med denna app kan du konfigurera objektiv, bländare och slutartid i förväg, sedan trycka på en knapp vid varje bild för att automatiskt spara inställningar per bildnummer. Tid och GPS-position registreras också, vilket ger en detaljnivå jämförbar med digitalkameror. Naturligtvis kan det finnas en liten tidsavvikelse mellan kameran och iPhone, men det är försumbart.</p>
+                            </blockquote>
+                            <figcaption class="review-info sr-only">
+                                <span class="author">yaizawa</span> <span class="rating" aria-label="5" role="img">★★★★★</span> <time datetime="2022-05-13">2022-05-13</time>
+                            </figcaption>
+                        </figure>
+                    </li>
+                </ul>
+            </section>
+            <section id="contact" aria-labelledby="get-in-touch-heading">
+                <h2 id="get-in-touch-heading">Kontakta oss</h2>
+                <div class="grid-2col get-in-touch-content">
+                    <p class="text-bigbody">Frågor, förslag eller partnerskap? Använd följande länkar - vi älskar att interagera med gemenskapen.</p>
+                    <div class="grid-2col contact-sections">
+                        <!-- Email Section -->
+                        <div class="contact-section">
+                            <div class="email-section">
+                                <h3>Kontakt:</h3>
+                                <a href="mailto:&#104;&#105;&#64;&#119;&#105;&#116;&#104;&#102;&#114;&#97;&#109;&#101;&#115;&#46;&#99;&#111;&#109;">&#72;&#73;&#64;&#87;&#73;&#84;&#72;&#70;&#82;&#65;&#77;&#69;&#83;&#46;&#67;&#79;&#77;</a>
+                            </div>
+                            <div class="social-section">
+                                <h3>Sociala medier:</h3>
+                                <ul>
+                                    <li><a href="https://instagram.com/with_frames" target="_blank" rel="noopener noreferrer">Instagram</a></li>
+                                    <li><a href="https://twitter.com/withframes" target="_blank" rel="noopener noreferrer">Twitter</a></li>
+                                    <li><a href="https://linkedin.com/company/withframes" target="_blank" rel="noopener noreferrer">Linkedin</a></li>
+                                    <li><a href="https://www.facebook.com/profile.php?id=61575648380444" target="_blank" rel="noopener noreferrer">Facebook</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- Support Section -->
+                        <div class="support-section" id="support">
+                            <h3>Stöd:</h3>
+                            <a href="https://apps.apple.com/se/app/frames-film-metadata/id6744063354" target="_blank" rel="noopener noreferrer">Köp Frames för Mac</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="grid-2col footer wrapper">
+            <div class="footer-left">
+                <ul>
+                    <li><a href="#frames">Om</a></li>
+                    <li><a href="#iphone">Funktioner</a></li>
+                    <li><a href="#faq">FAQ</a></li>
+                    <li><a href="https://apps.apple.com/app/frames-film-metadata/id6744063354" target="_blank" rel="noopener noreferrer">Ladda ner</a></li>
+                    <li><a href="#contact">Kontakt</a></li>
+                </ul>
+            </div>
+            <div class="footer-right">
+                <ul>
+                    
+                    <li class="language-dropdown">
+                        <button
+                        class="language-button"
+                        aria-haspopup="true"
+                        aria-expanded="true"
+                        >
+                        Språk
+                        </button>
+                        <ul class="language-list" role="menu">
+                            <li><a role="menuitem" href="/de/">Deutsch</a></li>
+                            <li><a role="menuitem" href="/">English</a></li>
+                            <li><a role="menuitem" href="/es/">Español</a></li>
+                            <li><a role="menuitem" href="/fr/">Français</a></li>
+                            <li><a role="menuitem" href="/it/">Italiano</a></li>
+                            <li><a role="menuitem" href="/nl/">Nederlands</a></li>
+                            <li><a role="menuitem" href="/pl/">Polski</a></li>
+                            <li><a role="menuitem" href="/pt/">Português</a></li>
+                            <li><a role="menuitem" href="/ru/">Русский</a></li>
+                            <li><a role="menuitem" href="/se/">Svenska</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="https://withframes.com/se/integritetspolicy/">Integritet</a></li>
+                    <li><a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/">Villkor</a></li>
+                    <li>
+                        <span class="copyright">©2025 <span class="sr-only">Vincent Tantardini</span></span>
+                    </li>
+                </ul>
+            </div>
+        </footer>
+        <script src="/library/js/load_schema-sv.js" defer></script>
+        <script defer src="https://www.googletagmanager.com/gtag/js?id=G-MER5TLYKLF" fetchpriority="low"></script>
+        <script>
+            function gtag() {
+                dataLayer.push(arguments);
+            }
+            (window.dataLayer = window.dataLayer || []), gtag("js", new Date()), gtag("config", "G-MER5TLYKLF", { transport_type: "beacon" });
         </script>
-      </main>
-
-      <aside class="infoCollapsedSidebar">
-        <header><h2>Frames – Det Kompletta Analogfoto-anteckningsblocket för iOS och macOS</h2></header><section><h3>Ett Digitalt Anteckningsblock för Analogfotografer</h3><p>Frames är en dedikerad assistent för filmfotografer som vill hålla noggranna anteckningar, organisera sitt arbete och bevara metadata genom hela arbetsflödet. Oavsett om du fotograferar med 35mm, 120 eller storformat, ger Frames dig precision och struktur från exponering till skanning.</p><p>På iOS fungerar det som ditt fältnoteringsblock – logga kamerainställningar, filmtyp, platser och bifoga referensbilder. På macOS är det din metadataredigerare – synkronisera anteckningar direkt in i dina skannade foton.</p></section><section><h3>Registrera Varje Bild med Precision (iOS)</h3><ul><li><strong>Individuell Bildloggning:</strong> Notera slutartid, bländare, brännvidd, ISO, exponering, blixt och objektiv.</li><li><strong>Rullhantering:</strong> Organisera bilder i rullar med automatisk numrering och filmspårning.</li><li><strong>Referensbilder:</strong> Ta ett digitalt foto vid varje exponering för enklare identifiering vid skanning.</li><li><strong>Platsstöd:</strong> Spara exakt plats för varje bild med GPS-metadata.</li><li><strong>Flera Kamerainställningar:</strong> Växla snabbt mellan sparade kameror, objektiv och filmtyper.</li></ul></section><section><h3>Organisera Ditt Bibliotek Som Ett Proffs</h3><ul><li><strong>Mappbaserat Bibliotek:</strong> Gruppera rullar efter projekt, resa, kamera eller filmtyp.</li><li><strong>Sök- & Filtreringsverktyg:</strong> Hitta tidigare rullar baserat på datum, plats, film eller nyckelord.</li><li><strong>Egna Taggar & Anteckningar:</strong> Lägg till egna noteringar eller taggar för enklare uppföljning.</li><li><strong>Offline-läge:</strong> Använd appen utan internet under fotografering eller resor.</li></ul></section><section><h3>Exportera & Integrera Metadata (macOS)</h3><ul><li><strong>EXIF Metadata:</strong> Skriv in anteckningar i JPEG- eller TIFF-filer med korrekta EXIF-fält.</li><li><strong>Flera Exportformat:</strong> Exportera som CSV, text eller strukturerad JSON.</li><li><strong>Dra-och-släpp-gränssnitt:</strong> Matcha skannade bilder visuellt med rätt exponering.</li><li><strong>Batchhantering:</strong> Använd metadata på en hel rulle med ett klick.</li><li><strong>Förstör inte bilden:</strong> Metadata integreras utan att påverka bildkvaliteten.</li></ul></section><section><h3>Optimerad för Analogt Arbetsflöde</h3><ul><li><strong>Anpassad Bländarstyrning:</strong> Stöd för hela, halva och tredjedels steg – precis som på mekaniska objektiv.</li><li><strong>Smart Autofyll:</strong> Kommer ihåg dina preferenser och fyller i upprepade värden automatiskt.</li><li><strong>Stort Filmbibliotek:</strong> Över 200 förinlagda filmer med ISO, färgprofiler och egenskaper.</li><li><strong>Mörkrumsintegration:</strong> Logga framkallnings- eller utskriftsinställningar direkt i din logg.</li><li><strong>Anpassade Fält:</strong> Lägg till egna fält för specialprojekt eller alternativa processer.</li></ul></section><section><h3>Utvecklad för iPhone, iPad och Mac</h3><ul><li><strong>Inhemsk iOS-design:</strong> Känns som en äkta Apple-app – enkel och smidig att använda.</li><li><strong>macOS App Store-integration:</strong> Importera data och vägleds genom metadataintegration.</li><li><strong>Integritet i Fokus:</strong> Ingen spårning, inget molntvång – dina data stannar lokalt.</li><li><strong>iCloud-säkerhetskopiering:</strong> Valbar iCloud-synk för trygg lagring och tillgång.</li><li><strong>Universell Design:</strong> Frames anpassar sig oavsett om du är på Mac eller iPhone.</li></ul></section><section><h3>Varför Frames?</h3><p>Frames förenar analogt och digitalt genom att ge filmfotografer ett sätt att dokumentera, organisera och bädda in metadata. Inga fler papperslappar – all information samlas med dina bilder.</p><p>För proffs, entusiaster eller återupptäckare av film – Frames för in moderna verktyg i ett tidlöst medium.</p></section><section><h3>Användningsområden & Nyckelord</h3><ul><li>Anteckningsapp för analog foto</li><li>Filmfotograferingsverktyg</li><li>EXIF-metadata för skannade filmrutor</li><li>Verktyg för rullhantering & metadata</li><li>Filmnoteringsapp för iPhone</li><li>macOS-verktyg för export av metadata</li><li>Kamerainställningslogg för analogt foto</li><li>Mörkrumslogg och arkiveringsverktyg</li></ul></section><p>Ladda ner Frames idag och effektivisera ditt filmfotoflöde från början till slut. Finns för iPhone, iPad och Mac.</p><footer><p>&copy; 2025 Vincent Tantardini. Alla rättigheter förbehållna.</p></footer>
-      </aside>
-    </div>
-  </body>
+    </body>
 </html>
