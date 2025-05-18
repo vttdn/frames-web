@@ -1,0 +1,220 @@
+{
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "MobileApplication",
+          "name": "Frames: 胶片笔记",
+          "operatingSystem": "iOS 18.2",
+          "applicationCategory": "MultimediaApplication",
+          "inLanguage": "zh",
+          "description": "Frames是胶片摄影师的必备应用。记录拍摄参数、笔记并为扫描件添加元数据。支持iPhone和Mac。",
+          "image": "https://withframes.com/zh//library/img/zh/og-image.jpg",
+          "url": "https://apps.apple.com/cn/app/frames-胶片摄影笔记/id6744057317",
+          "installUrl": "https://apps.apple.com/cn/app/frames-胶片摄影笔记/id6744057317",
+          "softwareVersion": "1.0.6",
+          "screenshot": "https://withframes.com/zh//library/img/zh/og-image.jpg",
+          "isAccessibleForFree": true,
+          "keywords": "Frames,摄影笔记,胶片摄影,胶片元数据,胶片EXIF,胶片记录,摄影日志,相机设置,照片归档,胶片扫描,数据胶片",
+          "maintainer": {
+            "@type": "Person",
+            "name": "Vincent Tantardini"
+          },
+          "countriesSupported": [
+            "US", "GB", "FR", "DE", "IT", "ES", "CA", "AU",
+            "JP", "KR", "NL", "SE", "NO", "FI", "DK", "NZ"
+          ],
+          "mainEntity": {
+            "@type": "WebPage",
+            "@id": "https://withframes.com/"
+          },
+          "author": {
+            "@type": "Person",
+            "name": "Vincent Tantardini"
+          },
+          "offers": {
+            "@type": "Offer",
+            "price": "0",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock"
+          },
+          "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "5",
+            "reviewCount": "7"
+          },
+          "review": [
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "Soliver098" },
+            "datePublished": "2022-08-03",
+            "name": "完美无缺",
+            "reviewBody": "完全满足预期，简单直观，可靠无瑕疵。感谢免费提供！",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            },
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "Hivonmarius" },
+            "datePublished": "2022-06-01",
+            "name": "简约高效",
+            "reviewBody": "应用简单易用，功能恰到好处。喜欢能给正在使用的胶片命名，因为我常忘记某些照片是用哪台相机拍的。界面清晰美观。",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            },
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "-=昵称=-" },
+            "datePublished": "2022-11-13",
+            "name": "远胜纸质笔记本",
+            "reviewBody": "比在纸质本子或苹果备忘录记录设置方便多了。期待后续版本！",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            },
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "J0nas" },
+            "datePublished": "2022-08-03",
+            "name": "同类最佳应用",
+            "reviewBody": "我用过最好的胶片元数据应用。简单快速且完整。无广告、不收集数据——巨大优势。",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            },
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "SalvatoreEsquilache" },
+            "datePublished": "2023-12-02",
+            "name": "出色的应用",
+            "reviewBody": "能有1/3级快门速度更好（有时与实际拍摄设置不完全匹配）。应用很棒！",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            },
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "rzolau" },
+            "datePublished": "2022-02-26",
+            "name": "拍摄好伙伴",
+            "reviewBody": "超棒工具——简单但完整地跟踪胶片。外拍易用，导出选项便于保存或处理数据。当之无愧的五星！",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            },
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "yaizawa" },
+            "datePublished": "2022-05-13",
+            "name": "胶片的EXIF解决方案",
+            "reviewBody": "最近对胶片摄影重燃兴趣。在数字时代用EXIF保存拍摄数据已成常态，我想知道能否为胶片照片实现类似功能，于是发现了这个应用。它能预设镜头、光圈和快门速度，拍摄时按按钮即可自动按照片编号记录设置。时间和GPS位置也被记录，获得接近数码相机的细节水平。当然相机和iPhone可能有微小时间差，但可忽略不计。",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            }
+          ]
+        },
+        {
+          "@type": "SoftwareApplication",
+          "name": "Frames: 元数据",
+          "operatingSystem": "macOS 15.2",
+          "applicationCategory": "MultimediaApplication",
+          "inLanguage": "zh",
+          "description": "Frames是胶片摄影师的必备应用。记录拍摄参数、笔记并为扫描件添加元数据。支持iPhone和Mac。",
+          "image": "https://withframes.com/zh//library/img/zh/og-image.jpg",
+          "url": "https://apps.apple.com/cn/app/frames-film-metadata/id6744063354",
+          "installUrl": "https://apps.apple.com/cn/app/frames-film-metadata/id6744063354",
+          "softwareVersion": "1.0.3",
+          "mainEntity": {
+            "@type": "WebPage",
+            "@id": "https://withframes.com/"
+          },
+          "author": {
+            "@type": "Person",
+            "name": "Vincent Tantardini"
+          },
+          "offers": {
+            "@type": "Offer",
+            "price": "0",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock"
+          },
+          "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "5",
+            "reviewCount": "2"
+          }
+        },
+        {
+          "@type": "WebPage",
+          "@id": "https://withframes.com/zh/zh/",
+          "url": "https://withframes.com/zh/zh/",
+          "name": "Frames - 胶片摄影的元数据记录应用",
+          "description": "Frames是胶片摄影师的必备应用。记录拍摄参数、笔记并为扫描件添加元数据。支持iPhone和Mac。",
+          "inLanguage": "zh",
+          "publisher": {
+            "@id": "https://withframes.com/#organization"
+          }
+        },
+        {
+          "@type": "VideoObject",
+          "name": "Frames iOS App – Toolbar Controls Preview",
+          "description": "A quick preview of the toolbar controls in the Frames iOS app, designed for film photographers to log and manage metadata.",
+          "thumbnailUrl": "https://i.ytimg.com/vi/r782-39sHJ8/hqdefault.jpg",
+          "uploadDate": "2025-04-20T00:00:00+00:00",
+          "duration": "PT1M30S",
+          "embedUrl": "https://www.youtube.com/embed/r782-39sHJ8",
+          "contentUrl": "https://www.youtube.com/watch?v=r782-39sHJ8",
+          "publisher": {
+            "@id": "https://withframes.com/#organization"
+          }
+        },
+        {
+          "@type": "Organization",
+          "@id": "https://withframes.com/#organization",
+          "name": "Frames",
+          "url": "https://withframes.com/",
+          "logo": "https://withframes.com/apple-touch-icon.png",
+          "contactPoint": {
+            "@type": "ContactPoint",
+            "email": "bonjour@withframes.com",
+            "contactType": "Customer Support",
+            "areaServed": "Worldwide",
+            "availableLanguage": ["English", "French"]
+          },
+          "sameAs": [
+            "https://twitter.com/withframes",
+            "https://www.facebook.com/profile.php?id=61575648380444",
+            "https://www.instagram.com/with_frames/",
+            "https://linkedin.com/company/withframes/",
+            "https://www.tiktok.com/@analogframes",
+            "https://www.youtube.com/@withframes",
+            "https://g.co/kgs/5oEvXT5",
+            "https://apps.apple.com/app/frames-film-notes/id6744057317",
+            "https://apps.apple.com/app/frames-film-metadata/id6744063354"
+          ]
+        }
+      ]
+    }
