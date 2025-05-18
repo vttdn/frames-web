@@ -1,298 +1,640 @@
 <!DOCTYPE html>
 <html lang="th">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <title>Frames - สมุดบันทึกฟิล์มและเมตาดาต้าสำหรับการถ่ายภาพฟิล์ม</title>
-    <meta name="description" content="Frames คือสมุดบันทึกการถ่ายภาพฟิล์มแบบแอนะล็อก บันทึกการตั้งค่า ถ่ายภาพอ้างอิง และฝังเมตาดาต้าในภาพที่สแกนของคุณได้อย่างง่ายดาย">
-    <meta name="keywords" content="frames,บันทึกภาพฟิล์ม,จดโน้ตฟิล์ม,เมตาดาต้าฟิล์ม,exif ฟิล์ม,แอปจดบันทึกฟิล์ม,สมุดบันทึกฟิล์ม,การถ่ายภาพแอนะล็อก,metadata analog,film camera">
-    <meta name="robots" content="index, follow">
-    <meta name="author" content="Vincent Tantardini">
-    <meta name="referrer" content="origin">
-
-    <!-- Localization -->
-    <link rel="canonical" href="https://withframes.com/th/">
-    <link rel="alternate" hreflang="en" href="https://withframes.com/">
-    <link rel="alternate" hreflang="fr" href="https://withframes.com/fr/">
-    <link rel="alternate" hreflang="es" href="https://withframes.com/es/">
-    <link rel="alternate" hreflang="it" href="https://withframes.com/it/">
-    <link rel="alternate" hreflang="de" href="https://withframes.com/de/">
-    <link rel="alternate" hreflang="nl" href="https://withframes.com/nl/">
-    <link rel="alternate" hreflang="pt" href="https://withframes.com/pt/">
-    <link rel="alternate" hreflang="ja" href="https://withframes.com/jp/">
-    <link rel="alternate" hreflang="ko" href="https://withframes.com/kr/">
-    <link rel="alternate" hreflang="ru" href="https://withframes.com/ru/">
-    <link rel="alternate" hreflang="th" href="https://withframes.com/th/">
-    <link rel="alternate" hreflang="zh" href="https://withframes.com/cn/">
-    <link rel="alternate" hreflang="pl" href="https://withframes.com/pl/">
-    <link rel="alternate" hreflang="tr" href="https://withframes.com/tr/">
-    <link rel="alternate" hreflang="sv" href="https://withframes.com/se/">
-    <link rel="alternate" hreflang="hi" href="https://withframes.com/in/">
-    <link rel="alternate" hreflang="x-default" href="https://withframes.com/">
-
-    <!-- <link rel="stylesheet" href="/css/styles.css"> -->
-    <style>body{font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;color:#fff;background:#000;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;font-weight:500;font-size:12px;letter-spacing:0;line-height:14px;margin:0;padding:0}h1,img,p{margin:0;padding:0}a,a:active,a:visited{color:inherit;text-decoration:none}@media (hover:hover){main a:hover{text-decoration:underline}}h1{font-size:44px;line-height:.88;margin-bottom:calc(5 * .88em);font-weight:400;letter-spacing:-.018em;text-transform:uppercase;word-spacing:.1em;text-align:justify;text-align-last:justify}h1.large-line-height{line-height:1.05}.wrapper{position:relative;overflow:hidden;box-sizing:border-box;display:flex;flex-direction:column;justify-content:space-between;min-height:100vh;padding:15px 10px 0;background:#a9aeb7}img{width:32px;margin-right:8px}.grid{display:grid;grid-template-columns:repeat(2,1fr);align-items:center}.footer{display:none;justify-content:flex-end}.download-button{display:flex;align-items:center;width:fit-content}.desktop-only,.photography,.privacy{display:none}.infoCollapsedSidebar{position:absolute;top:0;right:-300px;width:300px}@media (min-width:600px){.wrapper{padding:20px 20px 10px}.desktop-only{display:inherit}img{width:36px;margin-right:8px}h1{font-size:clamp(2.75rem,6.3vw + 1rem,8rem);word-spacing:.2em}.grid{grid-template-columns:repeat(3,1fr)}.footer{display:flex;justify-content:flex-end}}@media (min-width:940px){body{font-size:16px;letter-spacing:-.011em;line-height:19px}img{width:48px;margin-right:12px}.wrapper{padding:30px 20px}}</style>
-
-    <!-- Twitter -->
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:site" content="@withframes">
-    <meta name="twitter:creator" content="@withframes">
-    <meta name="twitter:title" content="Frames - สมุดบันทึกฟิล์มและเมตาดาต้าสำหรับการถ่ายภาพฟิล์ม">
-    <meta name="twitter:description" content="Frames คือสมุดบันทึกการถ่ายภาพฟิล์มแบบแอนะล็อก บันทึกการตั้งค่า ถ่ายภาพอ้างอิง และฝังเมตาดาต้าในภาพที่สแกนของคุณได้อย่างง่ายดาย">
-    <meta name="twitter:image" content="https://withframes.com/og-image.jpg">
-
-    <!-- Open Graph -->
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Frames">
-    <meta property="og:title" content="Frames - สมุดบันทึกฟิล์มและเมตาดาต้าสำหรับการถ่ายภาพฟิล์ม">
-    <meta property="og:description" content="Frames คือสมุดบันทึกการถ่ายภาพฟิล์มแบบแอนะล็อก บันทึกการตั้งค่า ถ่ายภาพอ้างอิง และฝังเมตาดาต้าในภาพที่สแกนของคุณได้อย่างง่ายดาย">
-    <meta property="og:url" content="https://withframes.com/th/">
-    <meta property="og:image" content="https://withframes.com/og-image.jpg">
-    <meta property="og:locale" content="th_TH">
-    <meta property="og:locale:alternate" content="en_US">
-    <meta property="og:locale:alternate" content="fr_FR">
-    <meta property="og:locale:alternate" content="es_ES">
-    <meta property="og:locale:alternate" content="it_IT">
-    <meta property="og:locale:alternate" content="de_DE">
-    <meta property="og:locale:alternate" content="nl_NL">
-    <meta property="og:locale:alternate" content="pt_PT">
-    <meta property="og:locale:alternate" content="ja_JP">
-    <meta property="og:locale:alternate" content="ru_RU">
-    <meta property="og:locale:alternate" content="th_TH">
-    <meta property="og:locale:alternate" content="zh_CN">
-    <meta property="og:locale:alternate" content="pl_PL">
-    <meta property="og:locale:alternate" content="tr_TR">
-    <meta property="og:locale:alternate" content="sv_SE">
-    <meta property="og:locale:alternate" content="hi_IN">
-
-    <!-- ICO (legacy) + SVG (modern) -->
-    <link rel="shortcut icon" href="/favicon.ico" sizes="any">
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
-
-    <!-- High-res PNG for light/dark modes -->
-    <link rel="icon" href="/favicon-light.png" type="image/png" media="(prefers-color-scheme: light)" sizes="512x512">
-    <link rel="icon" href="/favicon-dark.png" type="image/png" media="(prefers-color-scheme: dark)" sizes="512x512">
-
-    <!-- Apple Touch Icon (iOS) -->
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-
-    <!-- Webapp Manifest -->
-    <link rel="manifest" href="/site.webmanifest">
-    <meta name="theme-color" content="#000">
-
-    <!-- Apple Smart App Banner -->
-    <meta name="apple-itunes-app" content="app-id=6744057317">
-
-    <!-- Microdata: iOS/macOS Products + Webpage -->
-    <script type="application/ld+json">
-      {
-        "@context": "https://schema.org",
-        "@graph": [
-          {
-            "@type": "SoftwareApplication",
-            "name": "Frames iOS",
-            "operatingSystem": "iOS",
-            "applicationCategory": "PhotographyApplication",
-            "applicationSubCategory": "การถ่ายภาพ",
-            "inLanguage": "th",
-            "description": "Frames คือสมุดบันทึกการถ่ายภาพฟิล์มแบบแอนะล็อก บันทึกการตั้งค่า ถ่ายภาพอ้างอิง และฝังเมตาดาต้าในภาพที่สแกนของคุณได้อย่างง่ายดาย",
-            "image": "https://withframes.com/og-image-alt.jpg",
-            "url": "https://apps.apple.com/th/app/frames-บ-นท-กฟ-ล-ม/id6744057317?l=th",
-            "installUrl": "https://apps.apple.com/th/app/frames-บ-นท-กฟ-ล-ม/id6744057317?l=th",
-            "softwareVersion": "1.0.6",
-            "screenshot": "https://withframes.com/img/microdata-screenshot-ios.jpg",
-            "isAccessibleForFree": true,
-            "keywords": "frames,บันทึกภาพฟิล์ม,จดโน้ตฟิล์ม,เมตาดาต้าฟิล์ม,exif ฟิล์ม,แอปจดบันทึกฟิล์ม,สมุดบันทึกฟิล์ม,การถ่ายภาพแอนะล็อก,metadata analog,film camera",
-            "maintainer": {
-              "@type": "Person",
-              "name": "Vincent Tantardini"
-            },
-            "countriesSupported": [
-              "US", "GB", "FR", "DE", "IT", "ES", "CA", "AU",
-              "JP", "KR", "NL", "SE", "NO", "FI", "DK", "NZ"
-            ],
-            "mainEntity": {
-              "@type": "WebPage",
-              "@id": "https://withframes.com/th/"
-            },
-            "author": {
-              "@type": "Person",
-              "name": "Vincent Tantardini"
-            },
-            "offers": {
-              "@type": "Offer",
-              "price": "0",
-              "priceCurrency": "USD",
-              "availability": "https://schema.org/InStock"
-            },
-            "aggregateRating": {
-              "@type": "AggregateRating",
-              "ratingValue": "5",
-              "reviewCount": "5"
-            },
-            "review": []
-          },
-          {
-            "@type": "SoftwareApplication",
-            "name": "Frames macOS",
-            "operatingSystem": "macOS",
-            "applicationCategory": "PhotographyApplication",
-            "applicationSubCategory": "การถ่ายภาพ",
-            "inLanguage": "th",
-            "description": "Frames คือสมุดบันทึกการถ่ายภาพฟิล์มแบบแอนะล็อก บันทึกการตั้งค่า ถ่ายภาพอ้างอิง และฝังเมตาดาต้าในภาพที่สแกนของคุณได้อย่างง่ายดาย",
-            "image": "https://withframes.com/og-image-alt.jpg",
-            "url": "https://apps.apple.com/th/app/frames-film-metadata/id6744063354",
-            "mainEntity": {
-              "@type": "WebPage",
-              "@id": "https://withframes.com/th/"
-            },
-            "author": {
-              "@type": "Person",
-              "name": "Vincent Tantardini"
-            },
-            "offers": {
-              "@type": "Offer",
-              "price": "0",
-              "priceCurrency": "USD",
-              "availability": "https://schema.org/InStock"
-            },
-            "aggregateRating": {
-              "@type": "AggregateRating",
-              "ratingValue": "5",
-              "reviewCount": "2"
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width,initial-scale=1" />
+        <title>Frames - สมุดบันทึกและเมตาดาต้าสำหรับภาพฟิล์ม</title>
+        <meta name="description" content="Frames คือแอปที่จำเป็นสำหรับช่างภาพฟิล์ม บันทึกการตั้งค่า หมายเหตุ และเพิ่มเมตาดาต้าให้กับภาพสแกนของคุณ มีให้บริการสำหรับ iPhone และ Mac" />
+        <meta name="keywords" content="Frames,สมุดบันทึกภาพถ่าย,ภาพฟิล์ม,เมตาดาต้าฟิล์ม,EXIF ฟิล์ม,บันทึกฟิล์ม,สมุดภาพ,การตั้งค่ากล้อง,การเก็บถาวรรูปภาพ,สแกนฟิล์ม,ข้อมูลฟิล์ม" />
+        <meta name="robots" content="index, follow" />
+        <meta name="author" content="Vincent Tantardini" />
+        <meta name="referrer" content="origin" />
+        <style>
+            :root {
+                --huge-spacing: 10rem;
+                --large-spacing: 8rem;
+                --medium-spacing: 2rem;
+                --gray-1: #b3b3b3;
+                --font-size-small: 0.9rem;
+                --font-size-body: 1rem;
+                --font-size-body-uppercase: 0.9rem;
+                --font-size-heading1: 1.125rem;
+                --font-size-heading2: 1.5rem;
+                --font-size-heading3: 1.75rem;
+                --font-size-heading4: 3rem;
+                --font-size-large: 3.5rem;
+                --grid-hgap: 1rem;
+                --grid-vgap: 2.25rem;
+                --list-hgap: 0.25rem;
             }
-          },
-          {
-            "@type": "WebPage",
-            "@id": "https://withframes.com/th/",
-            "url": "https://withframes.com/th/",
-            "name": "Frames - สมุดบันทึกฟิล์มและเมตาดาต้าสำหรับการถ่ายภาพฟิล์ม",
-            "description": "Frames คือสมุดบันทึกการถ่ายภาพฟิล์มแบบแอนะล็อก บันทึกการตั้งค่า ถ่ายภาพอ้างอิง และฝังเมตาดาต้าในภาพที่สแกนของคุณได้อย่างง่ายดาย",
-            "inLanguage": "th",
-            "publisher": {
-              "@id": "https://withframes.com/#organization"
+            body {
+                color: var(--gray-1);
+                font-size: var(--font-size-body);
+                background: #000;
+                -webkit-font-smoothing: antialiased;
+                -moz-osx-font-smoothing: grayscale;
+                font-family: "Geist Mono", monospace;
+                font-weight: 400;
+                font-style: normal;
+                margin: 0;
+                padding: 0;
+                line-height: 1.334;
             }
-          },
-          {
-            "@type": "VideoObject",
-            "name": "Frames iOS App – Toolbar Controls Preview",
-            "description": "A quick preview of the toolbar controls in the Frames iOS app, designed for film photographers to log and manage metadata.",
-            "thumbnailUrl": "https://i.ytimg.com/vi/r782-39sHJ8/hqdefault.jpg",
-            "uploadDate": "2025-04-20T00:00:00+00:00",
-            "duration": "PT1M30S",
-            "embedUrl": "https://www.youtube.com/embed/r782-39sHJ8",
-            "contentUrl": "https://www.youtube.com/watch?v=r782-39sHJ8",
-            "publisher": {
-              "@id": "https://withframes.com/#organization"
+            *,
+            ::after,
+            ::before {
+                box-sizing: border-box;
             }
-          }
-        ]
-      }
-    </script>
+            .grid-2col,
+            .grid-3col,
+            .grid-4col {
+            display: grid;
+            gap: var(--grid-hgap);
+            grid-template-columns: 1fr;
+            width: 100%;
+            }
+            .h1,
+            h1,
+            h2,
+            h3 {
+                font-family: Geist, sans-serif;
+                font-style: normal;
+                color: #fff;
+            }
+            .h1,
+            h1 {
+                font-size: var(--font-size-large);
+                line-height: 1;
+                font-weight: 500;
+                margin-bottom: 0;
+                min-height: 8rem;
+                margin-top: calc(100svh - var(--font-size-large) * 2 - 14.5rem);
+            }
+                h2 {
+                font-size: var(--font-size-heading3);
+                    line-height: 1;
+                    font-weight: 600;
+                    margin-top: var(--large-spacing);
+                    margin-bottom: var(--grid-vgap);
+                }
+            a.logo {
+                font-family: Geist, sans-serif;
+                color: #fff !important;
+            }
+            .wrapper {
+                padding-left: 1rem;
+                padding-right: 1rem;
+            }
+            .navigation {
+                padding-top: 1.5rem;
+                font-size: var(--font-size-small);
+                line-height: 1.4;
+                text-transform: uppercase;
+            }
+            .navigation li {
+                display: flex;
+                flex-direction: column;
+                gap: var(--list-hgap);
+            }
+            .nav-left,
+            .nav-right {
+                display: flex;
+            }
+            .nav-left {
+                justify-content: flex-start;
+            }
+            .nav-right {
+                justify-content: flex-end;
+            }
+            .button {
+                display: inline-flex;
+                align-items: center;
+                justify-content: center;
+                white-space: nowrap;
+                background-color: #fff;
+                color: #000;
+                border-radius: 0.5rem;
+                font-weight: 600;
+                text-transform: uppercase;
+                gap: 0.5rem;
+                height: 3rem;
+                padding: 0 0.75rem;
+                font-size: var(--font-size-body-uppercase);
+            }
 
-    <!-- Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-MER5TLYKLF"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
+            .button-dark {
+                background-color: black;
+                color: white;
+                border: 1px solid rgb(65, 65, 65);
+            }
 
-      gtag('config', 'G-MER5TLYKLF');
-    </script>
-  </head>
+            li,
+            ul {
+                list-style: none;
+                margin: 0;
+                padding: 0;
+            }
+            a,
+            a:active,
+            a:hover,
+            a:visited {
+                text-decoration: none;
+                color: inherit;
+            }
+            a.button,
+            a.button:active,
+            a.button:hover,
+            a.button:visited {
+                text-decoration: none;
+                color: #000;
+                box-sizing: content-box;
+            }
+            a.button.button-dark,
+            a.button.button-dark:active,
+            a.button.button-dark:hover,
+            a.button.button-dark:visited {
+                color: #fff;
+            }
+            .sr-only {
+                position: absolute;
+                width: 1px;
+                height: 1px;
+                margin: -1px;
+                padding: 0;
+                border: 0;
+                clip: rect(0, 0, 0, 0);
+                overflow: hidden;
+            }
+            .nav-links {
+                display: flex;
+                gap: 1.5rem;
+                list-style: none;
+                margin: 0;
+                padding: 0;
+            }
+            
+            .input-wrapper > .placeholder,
+            .input-wrapper > input {
+                display: block;
+                -webkit-appearance: none;
+                -moz-appearance: none;
+                appearance: none;
+                width: 100%;
+                height: 100%;
+                background-color: transparent;
+                border: none;
+            }
 
-  <body>
-    <div class="wrapper">
-      <header class="h-wrapper">
-        <h1 class="large-line-height">
-          <a
-            href="https://withframes.com/"
-            aria-label="Frames หน้าหลัก"
-            title="Frames - สมุดบันทึกฟิล์มและเมตาดาต้าสำหรับการถ่ายภาพฟิล์ม"
-            >Frames®</a
-          >
-          เชื่อมต่อโลกฟิล์มกับดิจิทัล—บันทึกฟิล์มบน iPhone และฝังเมตาดาต้าลงในภาพสแกนด้วย Mac
-        </h1>
-      </header>
+            .desktop-only {
+                display: none;
+            }
 
-      <main class="grid">
-        <div class="download-button">
-          <img
-            src="/img/icon-ios-ipados.svg"
-            alt="iPhone/iPad icon"
-            width="64"
-            height="64"
-            loading="lazy"
-         >
-          <a href="https://apps.apple.com/th/app/frames-บ-นท-กฟ-ล-ม/id6744057317?l=th" title="ดาวน์โหลดบน<br>App Store"
-            >ดาวน์โหลดบน<br>App Store</a
-          >
-        </div>
+            .button img {
+            position: relative;
+            top: -0.09em;
+            width: 15px;
+            height: auto;
+            }
 
-        <div class="download-button">
-          <img
-            src="/img/icon-macos.svg"
-            alt="Mac icon"
-            width="64"
-            height="64"
-            loading="lazy"
-         >
-          <a href="https://apps.apple.com/th/app/frames-film-metadata/id6744063354" title="ดาวน์โหลดบน<br>Mac App Store"
-            >ดาวน์โหลดบน<br>Mac App Store</a
-          >
-        </div>
+            .download-buttons {
+                position: absolute;
+                top: 1.5rem; right: 1rem;
+            gap: 1.25rem;
+            }
 
-        <div class="footer">
-          <p>
-            <br>
-            <a
-              href="mailto:&#98;&#111;&#110;&#106;&#111;&#117;&#114;&#64;&#119;&#105;&#116;&#104;&#102;&#114;&#97;&#109;&#101;&#115;&#46;&#99;&#111;&#109;"
-              title="Contact us"
-            >
-              &#98;&#111;&#110;&#106;&#111;&#117;&#114;&#64;&#119;&#105;&#116;&#104;&#102;&#114;&#97;&#109;&#101;&#115;&#46;&#99;&#111;&#109;
-            </a>
-            <a
-              class="privacy"
-              href="https://withframes.com/th/privacy/"
-              title="นโยบายความเป็นส่วนตัว"
-              >นโยบายความเป็นส่วนตัว</a
-            >
-          </p>
-        </div>
-        <script type="application/ld+json">
-          {
-            "@context": "https://schema.org",
-            "@type": "Organization",
-            "@id": "https://withframes.com/#organization",
-            "name": "Frames",
-            "url": "https://withframes.com/th/",
-            "logo": "https://withframes.com/apple-touch-icon.png",
-            "contactPoint": {
-              "@type": "ContactPoint",
-              "email": "bonjour@withframes.com",
-              "contactType": "ฝ่ายสนับสนุนลูกค้า",
-              "areaServed": "Worldwide",
-              "availableLanguage": ["English", "French"]
-            },
-            "sameAs": [
-              "https://twitter.com/withframes",
-              "https://www.facebook.com/profile.php?id=61575648380444",
-              "https://www.instagram.com/with_frames/",
-              "https://linkedin.com/company/withframes/",
-              "https://www.tiktok.com/@analogframes",
-              "https://www.youtube.com/@withframes",
-              "https://g.co/kgs/5oEvXT5",
-              "https://apps.apple.com/th/app/frames-บ-นท-กฟ-ล-ม/id6744057317?l=th",
-              "https://apps.apple.com/th/app/frames-film-metadata/id6744063354"
-            ]
-          }
+            @media (min-width: 768px) {
+                :root {
+                    --huge-spacing: 22.5rem;
+                    --large-spacing: 12.5rem;
+                    --medium-spacing: 4rem;
+                    --font-size-small: 0.875rem;
+                    --font-size-body: 1.125rem;
+                    --font-size-body-uppercase: 1.0625rem;
+                    --font-size-heading1: 1.46875rem;
+                    --font-size-heading2: 2.375rem;
+                    --font-size-heading3: 2.9375rem;
+                    --font-size-heading4: 4.75rem;
+                    --font-size-large: 7.75rem;
+                    --grid-hgap: 1.5rem;
+                    --grid-vgap: 3rem;
+                    --list-hgap: 0.15rem;
+                }
+                .h1,
+                h1 {
+                    margin-top: calc(100svh - var(--font-size-large) * 2 - 8rem);
+                    margin-bottom: 1rem;
+                    min-height: 19.4rem;
+                }
+                .grid-2col {
+                    grid-template-columns: repeat(2, 1fr);
+                    gap: var(--grid-hgap);
+                }
+
+                .grid-3col {
+                    grid-template-columns: repeat(3, 1fr);
+                    gap: var(--grid-hgap);
+                }
+
+                .grid-4col {
+                    grid-template-columns: repeat(4, 1fr);
+                    gap: var(--grid-hgap);
+                }
+                .wrapper {
+                    padding-left: 3rem;
+                    padding-right: 3rem;
+                    max-width: 112rem;
+                    margin: 0 auto;
+                }
+                .navigation {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    gap: var(--grid-hgap);
+                    padding-top: 2rem;
+                }
+
+            .desktop-only {
+                display: inherit;
+            }
+
+            .button {
+                gap: 0.75rem;
+                height: 3.75rem;
+                padding: 0 1.16rem;
+            }
+
+                .button img {
+                width: 20px;
+                height: auto;
+                }
+
+
+            .nav-links {
+                display: flex;
+                gap: 2rem;
+                list-style: none;
+                margin: 0;
+                padding: 0;
+            }
+
+            .download-buttons {
+                position: static;
+                top: 0; right: 0;
+            }
+        }
+        </style>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Geist+Mono:wght@400;600&family=Geist:wght@400..700&display=swap" rel="stylesheet" media="print" onload="this.media=&#34;all&#34;" />
+        <!-- Localization -->
+        <link rel="canonical" href="https://withframes.com/th/" />
+        <link rel="alternate" hreflang="en" href="https://withframes.com/" />
+        <link rel="alternate" hreflang="fr" href="https://withframes.com/fr/" />
+        <link rel="alternate" hreflang="es" href="https://withframes.com/es/" />
+        <link rel="alternate" hreflang="it" href="https://withframes.com/it/" />
+        <link rel="alternate" hreflang="de" href="https://withframes.com/de/" />
+        <link rel="alternate" hreflang="nl" href="https://withframes.com/nl/" />
+        <link rel="alternate" hreflang="pt" href="https://withframes.com/pt/" />
+        <link rel="alternate" hreflang="ja" href="https://withframes.com/jp/" />
+        <link rel="alternate" hreflang="ko" href="https://withframes.com/kr/" />
+        <link rel="alternate" hreflang="ru" href="https://withframes.com/ru/" />
+        <link rel="alternate" hreflang="th" href="https://withframes.com/th/" />
+        <link rel="alternate" hreflang="zh" href="https://withframes.com/cn/" />
+        <link rel="alternate" hreflang="pl" href="https://withframes.com/pl/" />
+        <link rel="alternate" hreflang="tr" href="https://withframes.com/tr/" />
+        <link rel="alternate" hreflang="sv" href="https://withframes.com/se/" />
+        <link rel="alternate" hreflang="hi" href="https://withframes.com/in/" />
+        <link rel="alternate" hreflang="x-default" href="https://withframes.com/" />
+        <link rel="preload" href="/library/css/style.min.css" as="style" onload="this.rel=&#34;stylesheet&#34;" />
+        <noscript><link rel="stylesheet" href="/library/css/style.min.css" /></noscript>
+        <link rel="preload" href="/library/css/typewriter-th.min.css" as="style" onload="this.rel=&#34;stylesheet&#34;" />
+        <noscript><link rel="stylesheet" href="/library/css/typewriter-th.min.css" /></noscript>
+        <!-- Twitter -->
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="@withframes" />
+        <meta name="twitter:creator" content="@withframes" />
+        <meta name="twitter:title" content="Frames - สมุดบันทึกและเมตาดาต้าสำหรับภาพฟิล์ม" />
+        <meta name="twitter:description" content="Frames คือแอปที่จำเป็นสำหรับช่างภาพฟิล์ม บันทึกการตั้งค่า หมายเหตุ และเพิ่มเมตาดาต้าให้กับภาพสแกนของคุณ มีให้บริการสำหรับ iPhone และ Mac" />
+        <meta name="twitter:image" content="https://withframes.com/library/img/th/og-image.jpg" />
+        <!-- Open Graph -->
+        <meta property="og:type" content="website" />
+        <meta property="og:site_name" content="Frames" />
+        <meta property="og:title" content="Frames - สมุดบันทึกและเมตาดาต้าสำหรับภาพฟิล์ม" />
+        <meta property="og:description" content="Frames คือแอปที่จำเป็นสำหรับช่างภาพฟิล์ม บันทึกการตั้งค่า หมายเหตุ และเพิ่มเมตาดาต้าให้กับภาพสแกนของคุณ มีให้บริการสำหรับ iPhone และ Mac" />
+        <meta property="og:url" content="https://withframes.com/th/" />
+        <meta property="og:image" content="https://withframes.com/library/img/th/og-image.jpg" />
+        <meta property="og:locale" content="th_TH" />
+        <!-- ICO (legacy) + SVG (modern) -->
+        <link rel="shortcut icon" href="/favicon.ico" sizes="any" />
+        <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+        <!-- High-res PNG for light/dark modes -->
+        <link rel="icon" href="/favicon-light.png" type="image/png" media="(prefers-color-scheme: light)" sizes="512x512" />
+        <link rel="icon" href="/favicon-dark.png" type="image/png" media="(prefers-color-scheme: dark)" sizes="512x512" />
+        <!-- Apple Touch Icon (iOS) -->
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+        <!-- Webapp Manifest -->
+        <link rel="manifest" href="/site.webmanifest" />
+        <meta name="theme-color" content="#000" />
+        <!-- Apple Smart App Banner -->
+        <meta name="apple-itunes-app" content="app-id=6744057317" />
+        <meta name="apple:content_id" content="6744063354">
+    </head>
+    <body>
+        <header class="wrapper" id="frames">
+            <nav class="navigation" aria-label="Main navigation">
+                <ul class="grid-4col">
+                    <li><a href="https://withframes.com/th/" class="logo">Frames ®</a></li>
+                    <li>
+                        </li>
+                    <li>
+                        <a href="#iphone">สำหรับ iPhone</a>
+                        <a href="#mac">สำหรับ Mac</a>
+                    </li>
+                    <li>
+                        <a href="mailto:&#104;&#105;&#64;&#119;&#105;&#116;&#104;&#102;&#114;&#97;&#109;&#101;&#115;&#46;&#99;&#111;&#109;">&#72;&#73;&#64;&#87;&#73;&#84;&#72;&#70;&#82;&#65;&#77;&#69;&#83;&#46;&#67;&#79;&#77;</a>
+                        <a href="https://twitter.com/withframes" target="_blank" rel="noopener noreferrer">@withframes</a>
+                    </li>
+                </ul>
+            </nav>
+            <h1 class="sr-only">Frames - สมุดบันทึกและเมตาดาต้าสำหรับภาพฟิล์ม</h1>
+            <div class="h1 input-wrapper" aria-hidden="true"><input type="text" tabindex="-1" readonly /> <span class="placeholder"></span></div>
+            <div class="download-buttons" role="group" aria-label="Download options">
+                <a href="https://apps.apple.com/th/app/frames-บ-นท-กฟ-ล-ม/id6744057317?l=th" class="button" role="button"><img src="/library/img/icons/icon-apple-dark.svg" alt="Apple Logo" width="24" height="24" loading="lazy" />ดาวน์โหลดสำหรับ iPhone</a>
+                <a href="https://apps.apple.com/th/app/frames-film-metadata/id6744063354" class="button button-dark desktop-only" role="button">ดาวน์โหลดสำหรับ Mac</a>
+            </div>
+        </header>
+        <main class="wrapper">
+            <section id="iphone" aria-labelledby="features-mobile-heading">
+                <h2 id="features-mobile-heading"><span class='sr-only'>แอปภาพฟิล์ม </span>สำหรับ iPhone</h2>
+                <ul class="grid-3col feature-list-mobile">
+                    <li>
+                        <article>
+                            <div class="screenshot-container"><img src="/library/img/th/frames-feature-screenshot-1.webp" alt="แอป iOS แสดงฟิล์มที่จัดระเบียบในโฟลเดอร์ เรียงตามชื่อและวันที่" width="504" height="1024" loading="lazy" /></div>
+                            <h3>จัดระเบียบไลบรารีของคุณ</h3>
+                            <p>สร้างโฟลเดอร์ จัดเรียงฟิล์มของคุณ เปลี่ยนชื่อหรือย้ายฟิล์มได้อย่างง่ายดาย Frames ให้การจัดการอาร์ไคฟ์ภาพที่ใช้งานง่าย เหมือนกับคอนแทคชีตดิจิทัลที่ออกแบบมาสำหรับการถ่ายภาพฟิล์มโดยเฉพาะ</p>
+                        </article>
+                    </li>
+                    <li>
+                        <article>
+                            <div class="screenshot-container">
+                                <img src="/library/img/th/frames-feature-screenshot-2.webp" alt="หน้าจอ iOS แสดงการตั้งค่าละเอียด (กล้อง เลนส์ ฟิล์ม) สำหรับม้วนฟิล์ม" width="504" height="1024" loading="lazy" />
+                            </div>
+                            <h3>บันทึกการตั้งค่าทั้งหมดของคุณ</h3>
+                            <p>บันทึกรายละเอียดกล้อง เลนส์ ประเภทฟิล์ม การตั้งค่าแสง (รูรับแสง ความเร็วชัตเตอร์ ความยาวโฟกัส แฟลช) และอื่นๆ ในช่วงการถ่ายภาพ Frames บันทึกทุกรายละเอียดทางเทคนิค ตั้งแต่ช่วงถ่ายภาพจนถึงการสแกน</p>
+                        </article>
+                    </li>
+                    <li>
+                        <article>
+                            <div class="screenshot-container">
+                                <img src="/library/img/th/frames-feature-screenshot-3.webp" alt="มุมมองการตั้งค่าในแอป iOS พร้อมวันที่ หมายเหตุ และแผนที่สำหรับแต่ละภาพฟิล์ม" width="504" height="1024" loading="lazy" />
+                            </div>
+                            <h3>ตรวจสอบภาพที่ถ่าย</h3>
+                            <p>เรียกดูการตั้งค่าทั้งหมดได้ทันที: วันที่และเวลาถ่ายภาพ หมายเหตุส่วนตัว สถานที่ถ่ายภาพ แต่ละภาพจะมีบริบทของตัวเอง คุณสามารถแก้ไขหรือเพิ่มข้อมูลภาพได้ตลอดเวลา</p>
+                        </article>
+                    </li>
+                    <li>
+                        <article>
+                            <div class="screenshot-container">
+                                <img src="/library/img/th/frames-feature-screenshot-4.webp" alt="แผนที่ในแอป iOS ที่ระบุตำแหน่งภาพพร้อมข้อมูลทางเทคนิค" width="504" height="1024" loading="lazy" />
+                            </div>
+                            <h3>ทำแผนที่หมายเหตุของคุณ</h3>
+                            <p>บันทึกตำแหน่ง GPS ของแต่ละภาพโดยอัตโนมัติหรือป้อนด้วยมือตามต้องการ Frames ช่วยให้คุณเห็นภาพแต่ละภาพบนแผนที่แบบอินเทอร์แอกทีฟ เพื่อระบุตำแหน่งที่แน่นอนของภาพถ่าย</p>
+                        </article>
+                    </li>
+                    <li>
+                        <article>
+                            <div class="screenshot-container">
+                                <img src="/library/img/th/frames-feature-screenshot-5.webp" alt="หน้าจอส่งออก iOS แสดงไฟล์ .frames พร้อมสำหรับ macOS" width="504" height="1024" loading="lazy" />
+                            </div>
+                            <h3>ส่งออกและแบ่งปัน</h3>
+                            <p>ส่งหมายเหตุไปยัง Mac ของคุณด้วยคลิกเดียวเพื่อทำงานต่อได้อย่างราบรื่น ส่งออกในรูปแบบ .frames ซึ่งเป็นรูปแบบเปิดที่ใช้ JSON ออกแบบมาให้อ่านง่าย มีน้ำหนักเบา และทำงานร่วมกันได้</p>
+                        </article>
+                    </li>
+                </ul>
+            </section>
+            <section id="mac" aria-labelledby="features-desktop-heading">
+                <h2 id="features-desktop-heading"><span class='sr-only'>แอปภาพฟิล์ม </span>สำหรับ Mac</h2>
+                <ul class="grid-2col feature-list-desktop">
+                    <li>
+                        <article>
+                            <div class="screenshot-container screenshot-desktop">
+                                <img src="/library/img/th/frames-feature-screenshot-6.webp" alt="อินเทอร์เฟซ macOS แสดงฟิล์มที่นำเข้าจาก iOS ผ่านไฟล์ .frames" width="898" height="572" loading="lazy" />
+                            </div>
+                            <h3>ซิงค์จาก iPhone</h3>
+                            <p>นำเข้าข้อมูลจากแอป iOS ได้อย่างง่ายดาย เพียงลากและวางไฟล์ .frames ลงในแอป macOS: การตั้งค่าทั้งหมด หมายเหตุ และข้อมูลของคุณจะถูกโหลดใหม่ทันทีและพร้อมใช้งาน ไม่จำเป็นต้องตั้งค่าเพิ่มเติมหรือซิงค์ใดๆ</p>
+                        </article>
+                    </li>
+                    <li>
+                        <article>
+                            <div class="screenshot-container screenshot-desktop">
+                                <img src="/library/img/th/frames-feature-screenshot-7.webp" alt="แอป macOS แสดงข้อมูลทางเทคนิคพร้อมภาพสแกนที่แนบมาและตำแหน่ง" width="898" height="572" loading="lazy" />
+                            </div>
+                            <h3>สำรวจแต่ละภาพ</h3>
+                            <p>สำรวจแต่ละภาพถ่ายอย่างละเอียด: ตรวจสอบการตั้งค่าของคุณ ฟิล์มที่ใช้ และตำแหน่งที่แน่นอนของภาพ ซึ่งแสดงบนแผนที่แบบอินเทอร์แอกทีฟ เชื่อมโยงกับภาพสแกนของคุณได้อย่างง่ายดาย ทั้งทีละภาพหรือลากและวางภาพทั้งหมดในครั้งเดียว</p>
+                        </article>
+                    </li>
+                    <li>
+                        <article>
+                            <div class="screenshot-container screenshot-desktop">
+                                <img src="/library/img/th/frames-feature-screenshot-8.webp" alt="macOS ส่งออกภาพสแกนพร้อมเมตาดาต้า EXIF (กล้อง, เลนส์)" width="898" height="572" loading="lazy" />
+                            </div>
+                            <h3>ส่งออกพร้อมเมตาดาต้า</h3>
+                            <p>บันทึกรูปภาพของคุณพร้อมเมตาดาต้า EXIF ทั้งหมด: ตำแหน่งที่ตั้ง เลนส์ ตัวกล้อง และอื่นๆ เหมาะสำหรับการเก็บถาวรหรือการแบ่งปัน ด้วยรูปแบบ EXIF ที่ได้รับการยอมรับในระดับสากล ข้อมูลของคุณจะแสดงโดยอัตโนมัติใน Apple Photos, Adobe Lightroom, Flickr และแพลตฟอร์ม/แอปภาพอื่นๆ</p>
+                        </article>
+                    </li>
+                </ul>
+            </section>
+            <section id="faq" aria-labelledby="faq-heading">
+                <h2 id="faq-heading">คำถามที่พบบ่อย</h2>
+                <div class="faq-list">
+                    <details>
+                        <summary><h3>ฉันสามารถบันทึกเมตาดาต้าประเภทใดได้บ้างด้วยแอป iOS?</h3></summary>
+                        <p>คุณสามารถบันทึกการตั้งค่าและเมตาดาต้าชุดเต็มสำหรับแต่ละภาพถ่าย รวมถึงยี่ห้อและรุ่นของกล้อง ความเร็วชัตเตอร์ รูรับแสง ความยาวโฟกัส การชดเชยแสง การใช้แฟลช รายละเอียดเลนส์ และประเภทฟิล์มที่ใช้ ตำแหน่ง GPS รวมถึงวันที่และเวลาจะถูกบันทึกโดยอัตโนมัติ แต่คุณสามารถแก้ไขด้วยตนเองได้หากต้องการ<br><br>คุณยังสามารถเพิ่มหมายเหตุที่กำหนดเองเพื่อรวมบริบทหรือรายละเอียดเพิ่มเติมใดๆ ซึ่งช่วยให้คุณสร้างคลังข้อมูลที่สมบูรณ์และมีโครงสร้างที่ดีสำหรับการฝึกถ่ายภาพฟิล์มของคุณ โดยเก็บรักษาข้อมูลสำคัญทั้งหมดไว้</p>
+                    </details>
+                    <details>
+                        <summary><h3>แอป Mac รองรับรูปแบบไฟล์ใดบ้าง?</h3></summary>
+                        <p>ปัจจุบันแอปประกอบสำหรับ macOS รองรับไฟล์ JPEG (.jpg) สำหรับการรวมและส่งออกเมตาดาต้า EXIF การรองรับไฟล์ TIFF (.tif) อยู่ระหว่างการพิจารณาและอาจเพิ่มในภายหลังตามความต้องการของผู้ใช้และความจำเป็นจริง เรามุ่งมั่นที่จะพัฒนาอุปกรณ์นี้ตามการใช้จริงของช่างภาพในสนาม และความคิดเห็นของคุณมีความสำคัญต่อการชี้นำการพัฒนาต่อไป<br><br>หากความเข้ากันได้ของ TIFF หรือคุณลักษณะอื่นๆ สามารถปรับปรุงเวิร์กโฟลว์ของคุณได้ โปรดแจ้งให้เราทราบ - เรายินดีรับฟัง</p>
+                    </details>
+                    <details>
+                        <summary><h3>ฉันสามารถบันทึกการใช้ขาตั้งหรือฟิลเตอร์ได้หรือไม่?</h3></summary>
+                        <p>สำหรับตอนนี้ แอปยังคงเรียบง่ายและมีประสิทธิภาพโดยเจตนา เพื่อตอบสนองความต้องการของช่างภาพฟิล์มส่วนใหญ่ แต่คุณไม่ถูกจำกัด: มีช่องหมายเหตุเฉพาะสำหรับบันทึกข้อมูลเพิ่มเติม เช่น การใช้ขาตั้ง ชนิดของฟิลเตอร์ หรือรายละเอียดอื่นๆ ที่เกี่ยวข้องกับอุปกรณ์<br><br>องค์ประกอบเหล่านี้ไม่ได้เป็นส่วนหนึ่งของเมตาดาต้า EXIF อย่างเป็นทางการ แต่ช่องหมายเหตุให้อิสระแก่คุณในการรวมทุกสิ่งที่สำคัญสำหรับกระบวนการของคุณ โดยไม่ทำให้อินเทอร์เฟซหลักรก</p>
+                    </details>
+                    <details>
+                        <summary><h3>มีแผนจะเปิดตัวเวอร์ชัน Android หรือไม่?</h3></summary>
+                        <p>เวอร์ชัน Android เป็นสิ่งที่เรากำลังพิจารณาอย่างแน่นอน — มันอยู่ในสายตาของเรา สำหรับตอนนี้ ความสำคัญของเราคือทำให้ประสบการณ์บน iPhone และ macOS เรียบร้อย น่าเชื่อถือ และสมบูรณ์ที่สุดเท่าที่จะเป็นไปได้ เราต้องการให้ทุกอย่างทำงานได้อย่างราบรื่นและบรรลุมาตรฐานคุณภาพที่เราตั้งไว้<br><br>หากเวอร์ชัน iOS ประสบความสำเร็จและยังคงดึงดูดผู้ใช้ การพัฒนา Android อาจเป็นขั้นตอนต่อไป ติดตามข่าวสารและแจ้งให้เราทราบหากคุณสนใจ — ความคิดเห็นของคุณจะชี้นำการทำงานต่อไปของเรา</p>
+                    </details>
+                    <details>
+                        <summary><h3>มีคุณลักษณะใดบ้างที่กำลังจะมี?</h3></summary>
+                        <p>เรามุ่งมั่นที่จะปรับปรุงแอปอย่างต่อเนื่อง การอัปเดตในอนาคตอาจรวมถึงการแปลเพื่อให้เข้าถึงผู้ชมที่กว้างขึ้น ตัวเลือกการส่งออกใหม่ หรือแม้แต่เวอร์ชันนาฬิกาสำหรับการเข้าถึงอย่างรวดเร็วระหว่างการถ่ายภาพ ยังไม่มีอะไรถูกกำหนดตายตัว แต่เรากำลังสร้างเครื่องมือนี้ร่วมกับชุมชนและมันจะพัฒนาตามความต้องการของคุณ<br><br>วิธีที่คุณใช้แอปเป็นแรงบันดาลใจโดยตรงสำหรับคุณลักษณะต่อไป — ขอบคุณที่เป็นส่วนหนึ่งของกระบวนการ</p>
+                    </details>
+                </div>
+            </section>
+            <section id="reviews" aria-labelledby="reviews-heading">
+                <h2 id="reviews-heading">ความเห็น <span class='sr-only'>จากช่างภาพ</span></h2>
+                <ul class="grid-3col review-list">
+                    <li>
+                        <figure class="user-review">
+                            <blockquote cite="https://withframes.com">
+                                <img src="/library/img/icons/icon-quote.svg" alt="Quote" width="14" height="11" loading="lazy" />
+                                <h3 class="sr-only">สมบูรณ์แบบอย่างแท้จริง</h3>
+                                <p>ทำทุกอย่างตามที่คาดหวังได้อย่างง่ายดาย ใช้งานง่าย น่าเชื่อถือ ไม่มีอะไรให้ติ ขอบคุณที่ให้ใช้ฟรี!</p>
+                            </blockquote>
+                            <figcaption class="review-info sr-only">
+                                <span class="author">Soliver098</span> <span class="rating" aria-label="5" role="img">★★★★★</span> <time datetime="2022-08-03">2022-08-03</time>
+                            </figcaption>
+                        </figure>
+
+                        <figure class="user-review">
+                            <blockquote cite="https://withframes.com">
+                                <img src="/library/img/icons/icon-quote.svg" alt="Quote" width="14" height="11" loading="lazy" />
+                                <h3 class="sr-only">เรียบง่ายแต่มีประสิทธิภาพ</h3>
+                                <p>แอปใช้ง่ายและทำในสิ่งที่ควรทำ ฉันชอบที่สามารถตั้งชื่อฟิล์มที่กำลังใช้งานได้ เพราะบางครั้งฉันลืมว่าถ่ายภาพบางรูปด้วยกล้องตัวไหน อินเทอร์เฟซชัดเจนและสวยงามมาก</p>
+                            </blockquote>
+                            <figcaption class="review-info sr-only">
+                                <span class="author">Hivonmarius</span> <span class="rating" aria-label="5" role="img">★★★★★</span> <time datetime="2022-06-01">2022-06-01</time>
+                            </figcaption>
+                        </figure>
+
+                        <figure class="user-review">
+                            <blockquote cite="https://withframes.com">
+                                <img src="/library/img/icons/icon-quote.svg" alt="Quote" width="14" height="11" loading="lazy" />
+                                <h3 class="sr-only">ดีกว่าสมุดบันทึกกระดาษมาก</h3>
+                                <p>สะดวกกว่าการจดการตั้งค่าในสมุดบันทึกหรือแอป Notes ของ Apple มาก เพราะสามารถบันทึกข้อมูลได้อย่างรวดเร็ว ฉันรอคอยที่จะเห็นเวอร์ชันต่อไป!</p>
+                            </blockquote>
+                            <figcaption class="review-info sr-only">
+                                <span class="author">-=ชื่อเล่น=-</span> <span class="rating" aria-label="5" role="img">★★★★★</span> <time datetime="2022-11-13">2022-11-13</time>
+                            </figcaption>
+                        </figure>
+                    </li>
+                    <li>
+                        <figure class="user-review">
+                            <blockquote cite="https://withframes.com">
+                                <img src="/library/img/icons/icon-quote.svg" alt="Quote" width="14" height="11" loading="lazy" />
+                                <h3 class="sr-only">แอปที่ดีที่สุดในประเภทนี้</h3>
+                                <p>แอปเมตาดาต้าภาพฟิล์มที่ดีที่สุดที่ฉันเคยลองใช้ง่าย รวดเร็ว และครบถ้วน ไม่มีโฆษณา ไม่มีการเก็บข้อมูล — เป็นข้อได้เปรียบที่ยิ่งใหญ่</p>
+                            </blockquote>
+                            <figcaption class="review-info sr-only">
+                                <span class="author">J0nas</span> <span class="rating" aria-label="5" role="img">★★★★★</span> <time datetime="2022-08-03">2022-08-03</time>
+                            </figcaption>
+                        </figure>
+
+                        <figure class="user-review">
+                            <blockquote cite="https://withframes.com">
+                                <img src="/library/img/icons/icon-quote.svg" alt="Quote" width="14" height="11" loading="lazy" />
+                                <h3 class="sr-only">แอปพลิเคชันที่ยอดเยี่ยม</h3>
+                                <p>น่าจะดีถ้ามีความเร็วชัตเตอร์แบบ 1/3 เพราะบางครั้งมันไม่ตรงกับการตั้งค่าจริงของภาพถ่าย เยี่ยมมากสำหรับแอป!</p>
+                            </blockquote>
+                            <figcaption class="review-info sr-only">
+                                <span class="author">SalvatoreEsquilache</span> <span class="rating" aria-label="5" role="img">★★★★★</span> <time datetime="2023-12-02">2023-12-02</time>
+                            </figcaption>
+                        </figure>
+
+                        <figure class="user-review">
+                            <blockquote cite="https://withframes.com">
+                                <img src="/library/img/icons/icon-quote.svg" alt="Quote" width="14" height="11" loading="lazy" />
+                                <h3 class="sr-only">เพื่อนร่วมงานถ่ายภาพของฉัน</h3>
+                                <p>เครื่องมือที่ยอดเยี่ยม — เรียบง่ายแต่ครบถ้วนสำหรับการติดตามฟิล์มของคุณ ใช้ง่ายในสนาม พร้อมตัวเลือกการส่งออกเพื่อบันทึกหรือประมวลผลข้อมูลของคุณ ห้าดาวสมควรได้!</p>
+                            </blockquote>
+                            <figcaption class="review-info sr-only">
+                                <span class="author">rzolau</span> <span class="rating" aria-label="5" role="img">★★★★★</span> <time datetime="2022-02-26">2022-02-26</time>
+                            </figcaption>
+                        </figure>
+                    </li>
+                    <li>
+                        <figure class="user-review">
+                            <blockquote cite="https://withframes.com">
+                                <img src="/library/img/icons/icon-quote.svg" alt="Quote" width="14" height="11" loading="lazy" />
+                                <h3 class="sr-only">เทียบเท่า EXIF สำหรับฟิล์ม</h3>
+                                <p>ช่วงนี้รู้สึกคิดถึงการถ่ายภาพฟิล์มแบบเก่า ๆ และลองถ่ายใหม่อีกครั้ง ต่างจากเมื่อก่อน ตอนนี้อยู่ในยุคกล้องดิจิทัลที่เก็บข้อมูลผ่าน EXIF ได้เป็นเรื่องปกติ ผมจึงหาวิธีเก็บข้อมูลแบบเดียวกับภาพถ่ายฟิล์ม และเจอแอปนี้ แอปนี้ช่วยตั้งค่าเลนส์ รูรับแสง และความเร็วชัตเตอร์ล่วงหน้า และเพียงกดปุ่มในแต่ละช็อต ข้อมูลจะถูกบันทึกตามหมายเลขเฟรม พร้อมบันทึกเวลาและตำแหน่ง GPS ทำให้รายละเอียดใกล้เคียงกล้องดิจิทัล แน่นอนอาจมีความคลาดเคลื่อนของเวลาเล็กน้อยระหว่างกล้องกับไอโฟน แต่ถือเป็นข้อเล็กน้อยน่ารัก ข้อมูลบันทึกส่งออกเป็นไฟล์ TXT หรือ JSON ได้ และถ้าสร้างสคริปต์ใช้กับ exiftool ก็สามารถนำข้อมูลใส่ภาพได้ง่าย ๆ ถ้านำไฟล์ JPEG แปลงเนกาทีฟเป็นโพซิทีฟหรือปรับสีบน PC แล้วใส่ EXIF ก็เหมือนภาพถ่ายจากกล้องดิจิทัล ข้อจำกัดเล็กน้อยคือจำนวนเฟรมสูงสุดต่อฟิล์ม 40 เฟรม ทำให้ถ้าใช้กล้องฮาล์ฟเฟรม ต้องแยกบันทึกเฟรมที่ 41 ขึ้นไปเป็นชุดใหม่ แต่ถ้าเป็นฟิล์ม 36 รูป จะได้ 72 เฟรม ซึ่งถ้าสามารถเพิ่มจำนวนเฟรมสูงสุดเป็น 80 จะดีมาก (แจ้งผู้พัฒนาไปแล้ว)</p>
+                            </blockquote>
+                            <figcaption class="review-info sr-only">
+                                <span class="author">yaizawa</span> <span class="rating" aria-label="5" role="img">★★★★★</span> <time datetime="2022-05-13">2022-05-13</time>
+                            </figcaption>
+                        </figure>
+                    </li>
+                </ul>
+            </section>
+            <section id="contact" aria-labelledby="get-in-touch-heading">
+                <h2 id="get-in-touch-heading">ติดต่อเรา</h2>
+                <div class="grid-2col get-in-touch-content">
+                    <p class="text-bigbody">มีคำถาม ข้อเสนอแนะ หรือต้องการเป็นพันธมิตร? ใช้ลิงก์ด้านล่าง — เราชอบพูดคุยกับชุมชน</p>
+                    <div class="grid-2col contact-sections">
+                        <!-- Email Section -->
+                        <div class="contact-section">
+                            <div class="email-section">
+                                <h3>ติดต่อ:</h3>
+                                <a href="mailto:&#104;&#105;&#64;&#119;&#105;&#116;&#104;&#102;&#114;&#97;&#109;&#101;&#115;&#46;&#99;&#111;&#109;">&#72;&#73;&#64;&#87;&#73;&#84;&#72;&#70;&#82;&#65;&#77;&#69;&#83;&#46;&#67;&#79;&#77;</a>
+                            </div>
+                            <div class="social-section">
+                                <h3>โซเชียล:</h3>
+                                <ul>
+                                    <li><a href="https://instagram.com/with_frames" target="_blank" rel="noopener noreferrer">Instagram</a></li>
+                                    <li><a href="https://twitter.com/withframes" target="_blank" rel="noopener noreferrer">Twitter</a></li>
+                                    <li><a href="https://linkedin.com/company/withframes" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+                                    <li><a href="https://www.facebook.com/profile.php?id=61575648380444" target="_blank" rel="noopener noreferrer">Facebook</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- Support Section -->
+                        <div class="support-section" id="support">
+                            <h3>สนับสนุน:</h3>
+                            <a href="https://apps.apple.com/th/app/frames-film-metadata/id6744063354" target="_blank" rel="noopener noreferrer">ซื้อ Frames สำหรับ Mac</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="grid-2col footer wrapper">
+            <div class="footer-left">
+                <ul>
+                    <li><a href="#frames">หน้าแรก</a></li>
+                    <li><a href="#iphone">คุณสมบัติ</a></li>
+                    <li><a href="#faq">คำถามที่พบบ่อย</a></li>
+                    <li><a href="https://apps.apple.com/app/frames-film-metadata/id6744063354" target="_blank" rel="noopener noreferrer">ดาวน์โหลด</a></li>
+                    <li><a href="#contact">ติดต่อ</a></li>
+                </ul>
+            </div>
+            <div class="footer-right">
+                <ul>
+                    
+                    <li class="language-dropdown">
+                        <button
+                        class="language-button"
+                        aria-haspopup="true"
+                        aria-expanded="true"
+                        >
+                        ภาษา
+                        </button>
+                        <ul class="language-list" role="menu">
+                            <li><a role="menuitem" href="/de/">Deutsch</a></li>
+                            <li><a role="menuitem" href="/">English</a></li>
+                            <li><a role="menuitem" href="/es/">Español</a></li>
+                            <li><a role="menuitem" href="/fr/">Français</a></li>
+                            <li><a role="menuitem" href="/it/">Italiano</a></li>
+                            <li><a role="menuitem" href="/ko/">한국어</a></li>
+                            <li><a role="menuitem" href="/nl/">Nederlands</a></li>
+                            <li><a role="menuitem" href="/ja/">日本語</a></li>
+                            <li><a role="menuitem" href="/pl/">Polski</a></li>
+                            <li><a role="menuitem" href="/pt/">Português</a></li>
+                            <li><a role="menuitem" href="/ru/">Русский</a></li>
+                            <li><a role="menuitem" href="/sv/">Svenska</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="https://withframes.com/th/privacy/">ความเป็นส่วนตัว</a></li>
+                    <li><a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/">เงื่อนไข</a></li>
+                    <li>
+                        <span class="copyright">©2025 <span class="sr-only">Vincent Tantardini</span></span>
+                    </li>
+                </ul>
+            </div>
+        </footer>
+        <script src="/library/js/load_schema-th.js" defer></script>
+        <script defer src="https://www.googletagmanager.com/gtag/js?id=G-MER5TLYKLF" fetchpriority="low"></script>
+        <script>
+            function gtag() {
+                dataLayer.push(arguments);
+            }
+            (window.dataLayer = window.dataLayer || []), gtag("js", new Date()), gtag("config", "G-MER5TLYKLF", { transport_type: "beacon" });
         </script>
-      </main>
-
-      <aside class="infoCollapsedSidebar">
-        <header><h2>Frames – สมุดบันทึกภาพฟิล์มแบบครบวงจรสำหรับ iOS และ macOS</h2></header><section><h3>สมุดบันทึกดิจิทัลสำหรับช่างภาพฟิล์ม</h3><p>Frames คือผู้ช่วยในการถ่ายภาพแอนะล็อกที่ออกแบบมาสำหรับผู้ใช้งานกล้องฟิล์มโดยเฉพาะ ช่วยบันทึกรายละเอียดอย่างแม่นยำ จัดการภาพถ่าย และรักษาเมตาดาต้าให้สอดคล้องกับกระบวนการทำงาน ตั้งแต่เริ่มถ่ายภาพไปจนถึงการสแกน</p><p>บน iOS คุณสามารถบันทึกการตั้งค่ากล้อง ประเภทฟิล์ม สถานที่ถ่ายภาพ และแนบภาพอ้างอิงสำหรับแต่ละเฟรมได้ ส่วนบน macOS จะทำหน้าที่เป็นตัวแก้ไขเมตาดาต้า โดยสามารถซิงก์ข้อมูลเข้ากับภาพสแกนได้อย่างครบถ้วน</p></section><section><h3>บันทึกทุกเฟรมด้วยความแม่นยำ (iOS)</h3><ul><li><strong>การบันทึกแบบเฟรมต่อเฟรม:</strong> จดค่าความเร็วชัตเตอร์ รูรับแสง ระยะโฟกัส ISO การชดเชยแสง การใช้แฟลช และเลนส์</li><li><strong>การจัดการม้วนฟิล์ม:</strong> จัดระเบียบการถ่ายภาพตามม้วนฟิล์ม พร้อมเลขลำดับอัตโนมัติและการติดตามชนิดฟิล์ม</li><li><strong>ภาพอ้างอิง:</strong> ถ่ายภาพดิจิทัลคู่กับแต่ละเฟรมเพื่อช่วยจำเวลาสแกน</li><li><strong>รองรับ GPS:</strong> บันทึกตำแหน่งพิกัด GPS ของแต่ละเฟรม</li><li><strong>ตั้งค่ากล้องหลายชุด:</strong> สลับอุปกรณ์ได้ง่ายและใช้กล้อง เลนส์ ฟิล์ม ที่บันทึกไว้ซ้ำได้</li></ul></section><section><h3>จัดการคลังของคุณอย่างมืออาชีพ</h3><ul><li><strong>คลังแบบโฟลเดอร์:</strong> แบ่งกลุ่มม้วนฟิล์มตามโปรเจกต์ ทริป กล้อง หรือประเภทฟิล์ม</li><li><strong>ค้นหาและกรองข้อมูล:</strong> ค้นหาม้วนเก่า ๆ ตามวันที่ ฟิล์ม สถานที่ หรือคีย์เวิร์ด</li><li><strong>แท็กและบันทึกส่วนตัว:</strong> เพิ่มบันทึกหรือแท็กให้กับม้วนหรือเฟรมเพื่อการค้นหาภายหลัง</li><li><strong>ทำงานแบบออฟไลน์:</strong> ใช้งานแอปได้แม้ไม่มีอินเทอร์เน็ตระหว่างถ่ายภาพ</li></ul></section><section><h3>ส่งออกและรวมเมตาดาต้า (macOS)</h3><ul><li><strong>การฝังข้อมูล EXIF:</strong> ซิงก์โน้ตของคุณเข้ากับ JPEG หรือ TIFF ที่สแกนมาโดยใช้ข้อมูล EXIF อย่างแม่นยำ</li><li><strong>ส่งออกหลายรูปแบบ:</strong> ส่งออกโน้ตเป็นไฟล์ CSV สรุปข้อความ หรือ JSON ที่มีโครงสร้าง</li><li><strong>ลากและวางอย่างง่าย:</strong> จับคู่ภาพสแกนกับเฟรมผ่านการจัดวางแบบกราฟิก</li><li><strong>ประมวลผลแบบกลุ่ม:</strong> ฝังข้อมูลลงทั้งม้วนได้ในครั้งเดียว</li><li><strong>ไม่กระทบคุณภาพภาพ:</strong> การฝังข้อมูลไม่ลดคุณภาพของภาพต้นฉบับ</li></ul></section><section><h3>ออกแบบมาสำหรับการถ่ายฟิล์ม</h3><ul><li><strong>ควบคุมรูรับแสงได้ยืดหยุ่น:</strong> รองรับค่ารูรับแสงแบบเต็มครึ่งและหนึ่งในสาม</li><li><strong>ระบบกรอกข้อมูลอัจฉริยะ:</strong> จดจำกล้อง เลนส์ และการตั้งค่าที่ใช้บ่อย</li><li><strong>คลังฟิล์มสำเร็จรูป:</strong> มีฟิล์มมากกว่า 200 แบบพร้อมข้อมูล ISO และคุณสมบัติ</li><li><strong>บันทึกข้อมูลล้างฟิล์ม:</strong> จดบันทึกขั้นตอนการล้างหรือพิมพ์ภาพ</li><li><strong>เพิ่มฟิลด์เองได้:</strong> สำหรับโปรเจกต์พิเศษหรือเทคนิคเฉพาะทาง</li></ul></section><section><h3>ใช้งานได้ทั้งบน iPhone, iPad และ Mac</h3><ul><li><strong>ออกแบบสไตล์ iOS โดยแท้:</strong> ใช้งานง่าย คล่องตัว เหมือนแอปของ Apple</li><li><strong>เชื่อมต่อกับ App Store ของ macOS:</strong> นำเข้าข้อมูลและฝังเมตาดาต้าได้ตามขั้นตอน</li><li><strong>ความเป็นส่วนตัวมาก่อน:</strong> ไม่มีการติดตาม ไม่มีการเก็บคลาวด์ ข้อมูลของคุณอยู่กับคุณ</li><li><strong>สำรองข้อมูล iCloud:</strong> เลือกใช้ iCloud เพื่อความปลอดภัยเพิ่มเติม</li><li><strong>ออกแบบให้ครอบคลุม:</strong> ไม่ว่าจะใช้บน iPhone หรือ Mac ก็ใช้งานได้ลื่นไหล</li></ul></section><section><h3>ทำไมต้องใช้ Frames?</h3><p>Frames สร้างสะพานเชื่อมระหว่างโลกแอนะล็อกกับดิจิทัล ให้ผู้ถ่ายภาพฟิล์มสามารถจดบันทึก จัดการ และรวมเมตาดาต้าเข้าในกระบวนการได้อย่างลงตัว</p><p>ไม่ว่าคุณจะเป็นมืออาชีพ มือสมัครเล่น หรือแค่อยากกลับมาถ่ายฟิล์มอีกครั้ง Frames จะช่วยให้ทุกขั้นตอนสะดวกและเป็นระบบ</p></section><section><h3>กรณีใช้งาน & คีย์เวิร์ด</h3><ul><li>สมุดบันทึกการถ่ายภาพฟิล์ม</li><li>แอปจดโน้ตการถ่ายภาพแอนะล็อก</li><li>เมตาดาต้าสำหรับภาพฟิล์มสแกน</li><li>จัดการม้วนฟิล์มและแก้ไข EXIF</li><li>แอป iPhone สำหรับจดโน้ตการถ่ายฟิล์ม</li><li>เครื่องมือ macOS สำหรับส่งออกเมตาดาต้า</li><li>ติดตามการตั้งค่ากล้อง</li><li>เครื่องมือจัดการห้องล้างและเก็บภาพ</li></ul></section><p>ดาวน์โหลด Frames วันนี้และจัดการเวิร์กโฟลว์การถ่ายฟิล์มของคุณให้เป็นมืออาชีพ ตั้งแต่ต้นจนจบ พร้อมใช้งานบน iPhone, iPad และ Mac</p><footer><p>&copy; 2025 Vincent Tantardini. สงวนลิขสิทธิ์</p></footer>
-      </aside>
-    </div>
-  </body>
+    </body>
 </html>
