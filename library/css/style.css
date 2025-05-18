@@ -230,9 +230,9 @@ ul.language-list {
   overflow-y: auto;
   z-index: 1;
   margin: 0; /* reset margin */
-  padding: 0.3rem 0.2rem;
+  padding: .375rem;
   list-style: none;
-  border-radius: 0.25rem;
+  border-radius: 0.375rem;
   font-size: var(--font-size-body-uppercase);
 }
 
@@ -241,6 +241,7 @@ ul.language-list {
   text-decoration: none;
   display: block;
   padding: 0.25rem 0.5rem;
+  border-radius: 0.2rem;
 }
 
 .language-list a:hover {
