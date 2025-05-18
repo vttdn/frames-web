@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', function() {
     const schemaFiles = [
-        '/library/data/frames-ru.json',
-        '/library/data/faq-ru.json'
+        '/library/data/frames-{{ lang }}.json',
+        '/library/data/faq-{{ lang }}.json'
     ];
 
     schemaFiles.forEach((url) => {

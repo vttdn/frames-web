@@ -42,6 +42,8 @@ def build():
         with open(locale_file, "r", encoding="utf-8") as f:
             context = json.load(f)
 
+        context["lang"] = lang  # Add lang to context for templates
+
         # Generate review_microdata if reviews are present
         if "reviews" in context:
             context["review_microdata"] = json.dumps([
@@ -111,6 +113,23 @@ def build():
                 out_file.write(rendered_json)
 
             print(f"📦 Built: {lang} → /library/data/{base_name}-{lang}.json")
+
+        # ➕ Render load_schema.js for each language
+        load_schema_path = TEMPLATES_DIR / "load_schema.js"
+        if load_schema_path.exists():
+            with open(load_schema_path, "r", encoding="utf-8") as f:
+                schema_template = f.read()
+
+            rendered_schema = render_template(schema_template, context)
+
+            output_js_dir = ROOT / "library" / "js"
+            output_js_dir.mkdir(parents=True, exist_ok=True)
+            schema_output_path = output_js_dir / f"load_schema-{lang}.js"
+
+            with open(schema_output_path, "w", encoding="utf-8") as out_file:
+                out_file.write(rendered_schema)
+
+            print(f"🧩 Built: {lang} → /library/js/load_schema-{lang}.js")
 
 if __name__ == "__main__":
     build()
