@@ -2,8 +2,8 @@ import os, json
 from pathlib import Path
 
 ROOT = Path(__file__).parent.resolve()
-TEMPLATES_DIR = ROOT / "templates"
-LOCALES_DIR = ROOT / "locales"
+TEMPLATES_DIR = ROOT / "library" / "templates"
+LOCALES_DIR = ROOT / "library" / "locales"
 
 def render_template(template: str, context: dict) -> str:
     result = template
