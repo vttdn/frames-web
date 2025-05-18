@@ -1,0 +1,220 @@
+{
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "MobileApplication",
+          "name": "Frames: Film Günlüğü",
+          "operatingSystem": "iOS 18.2",
+          "applicationCategory": "MultimediaApplication",
+          "inLanguage": "tr",
+          "description": "Frames, film fotoğrafçılarının vazgeçilmez uygulamasıdır. Çekim ayarlarınızı kaydedin, notlar alın ve taramalarınıza meta veri ekleyin. iPhone ve Mac için kullanılabilir.",
+          "image": "https://withframes.com/tr//library/img/tr/og-image.jpg",
+          "url": "https://apps.apple.com/tr/app/frames-film-fotoğraf-günlüğü/id6744057317?l=tr",
+          "installUrl": "https://apps.apple.com/tr/app/frames-film-fotoğraf-günlüğü/id6744057317?l=tr",
+          "softwareVersion": "1.0.6",
+          "screenshot": "https://withframes.com/tr//library/img/tr/og-image.jpg",
+          "isAccessibleForFree": true,
+          "keywords": "frames,fotoğraf not defteri,film fotoğrafçılığı,film meta verileri,film exif,film notları,fotoğraf günlüğü,kamera ayarları,fotoğraf arşivleme,film taramaları,datafilm",
+          "maintainer": {
+            "@type": "Person",
+            "name": "Vincent Tantardini"
+          },
+          "countriesSupported": [
+            "US", "GB", "FR", "DE", "IT", "ES", "CA", "AU",
+            "JP", "KR", "NL", "SE", "NO", "FI", "DK", "NZ"
+          ],
+          "mainEntity": {
+            "@type": "WebPage",
+            "@id": "https://withframes.com/"
+          },
+          "author": {
+            "@type": "Person",
+            "name": "Vincent Tantardini"
+          },
+          "offers": {
+            "@type": "Offer",
+            "price": "0",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock"
+          },
+          "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "5",
+            "reviewCount": "7"
+          },
+          "review": [
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "Soliver098" },
+            "datePublished": "2022-08-03",
+            "name": "Tam anlamıyla mükemmel",
+            "reviewBody": "Bekleyebileceğiniz her şeyi basitçe yapıyor. Sezgisel, güvenilir, eleştirecek bir şey yok. Ücretsiz sunduğunuz için teşekkürler!",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            },
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "Hivonmarius" },
+            "datePublished": "2022-06-01",
+            "name": "Minimalist ve etkili",
+            "reviewBody": "Uygulama kullanımı kolay ve tam olarak yapması gerekeni yapıyor. Kullanımda olan filmleri adlandırabilmeyi seviyorum çünkü bazen bazı fotoğrafları hangi kamerayla çektiğimi unutuyorum. Arayüz temiz ve gerçekten güzel.",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            },
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "-=rumuz=-" },
+            "datePublished": "2022-11-13",
+            "name": "Kağıt defterden çok daha iyi",
+            "reviewBody": "Ayarları bir deftere veya Apple'ın Notlar uygulamasına not almaktan çok daha pratik. Yeni sürümleri sabırsızlıkla bekliyorum!",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            },
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "J0nas" },
+            "datePublished": "2022-08-03",
+            "name": "Türünün en iyi uygulaması",
+            "reviewBody": "Denediğim en iyi film fotoğraf meta veri uygulaması. Basit, hızlı ve eksiksiz. Reklam yok, veri toplama yok - büyük bir avantaj.",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            },
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "SalvatoreEsquilache" },
+            "datePublished": "2023-12-02",
+            "name": "Mükemmel uygulama",
+            "reviewBody": "1/3 duraklı enstantanelerin olması güzel olurdu çünkü her zaman gerçek çekim ayarlarıyla eşleşmiyor. Uygulama için tebrikler!",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            },
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "rzolau" },
+            "datePublished": "2022-02-26",
+            "name": "Çekimlerimin vazgeçilmez yoldaşı",
+            "reviewBody": "Harika bir araç - filmlerinizi takip etmek için basit ama eksiksiz. Sahada kullanımı kolay, verilerinizi kaydetmek veya işlemek için dışa aktarma seçeneğiyle. Hak edilmiş beş yıldız!",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            },
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "yaizawa" },
+            "datePublished": "2022-05-13",
+            "name": "Film için EXIF eşdeğeri",
+            "reviewBody": "Yakın zamanda film fotoğrafçılığı bana nostalji yaşattı ve tekrar başlamaya karar verdim. Eskisinin aksine, dijital çağda EXIF meta verileriyle çekim verilerini korumak artık normal. Filmle çekilmiş fotoğraflar için benzer bir şey yapmanın bir yolu olup olmadığını merak ettim. Bir çözüm ararken bu uygulamayı keşfettim. Bu uygulamayla önceden lensi, diyaframı ve enstantane hızını ayarlayabilir, sonra her çekimde bir düğmeye basarak ayarları fotoğraf numarasına göre otomatik olarak kaydedebilirsiniz. Saat ve GPS konumu da kaydedilir, böylece dijital kameralara benzer bir detay seviyesi elde edersiniz. Elbette kamera ile iPhone arasında küçük bir zaman farkı olabilir ama bu önemsizdir.",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            }
+          ]
+        },
+        {
+          "@type": "SoftwareApplication",
+          "name": "Frames: Meta Veri",
+          "operatingSystem": "macOS 15.2",
+          "applicationCategory": "MultimediaApplication",
+          "inLanguage": "tr",
+          "description": "Frames, film fotoğrafçılarının vazgeçilmez uygulamasıdır. Çekim ayarlarınızı kaydedin, notlar alın ve taramalarınıza meta veri ekleyin. iPhone ve Mac için kullanılabilir.",
+          "image": "https://withframes.com/tr//library/img/tr/og-image.jpg",
+          "url": "https://apps.apple.com/tr/app/frames-film-metadata/id6744063354",
+          "installUrl": "https://apps.apple.com/tr/app/frames-film-metadata/id6744063354",
+          "softwareVersion": "1.0.3",
+          "mainEntity": {
+            "@type": "WebPage",
+            "@id": "https://withframes.com/"
+          },
+          "author": {
+            "@type": "Person",
+            "name": "Vincent Tantardini"
+          },
+          "offers": {
+            "@type": "Offer",
+            "price": "0",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock"
+          },
+          "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "5",
+            "reviewCount": "2"
+          }
+        },
+        {
+          "@type": "WebPage",
+          "@id": "https://withframes.com/tr/tr/",
+          "url": "https://withframes.com/tr/tr/",
+          "name": "Frames - Film fotoğrafçıları için not defteri ve meta veri uygulaması",
+          "description": "Frames, film fotoğrafçılarının vazgeçilmez uygulamasıdır. Çekim ayarlarınızı kaydedin, notlar alın ve taramalarınıza meta veri ekleyin. iPhone ve Mac için kullanılabilir.",
+          "inLanguage": "tr",
+          "publisher": {
+            "@id": "https://withframes.com/#organization"
+          }
+        },
+        {
+          "@type": "VideoObject",
+          "name": "Frames iOS App – Toolbar Controls Preview",
+          "description": "A quick preview of the toolbar controls in the Frames iOS app, designed for film photographers to log and manage metadata.",
+          "thumbnailUrl": "https://i.ytimg.com/vi/r782-39sHJ8/hqdefault.jpg",
+          "uploadDate": "2025-04-20T00:00:00+00:00",
+          "duration": "PT1M30S",
+          "embedUrl": "https://www.youtube.com/embed/r782-39sHJ8",
+          "contentUrl": "https://www.youtube.com/watch?v=r782-39sHJ8",
+          "publisher": {
+            "@id": "https://withframes.com/#organization"
+          }
+        },
+        {
+          "@type": "Organization",
+          "@id": "https://withframes.com/#organization",
+          "name": "Frames",
+          "url": "https://withframes.com/",
+          "logo": "https://withframes.com/apple-touch-icon.png",
+          "contactPoint": {
+            "@type": "ContactPoint",
+            "email": "bonjour@withframes.com",
+            "contactType": "Customer Support",
+            "areaServed": "Worldwide",
+            "availableLanguage": ["English", "French"]
+          },
+          "sameAs": [
+            "https://twitter.com/withframes",
+            "https://www.facebook.com/profile.php?id=61575648380444",
+            "https://www.instagram.com/with_frames/",
+            "https://linkedin.com/company/withframes/",
+            "https://www.tiktok.com/@analogframes",
+            "https://www.youtube.com/@withframes",
+            "https://g.co/kgs/5oEvXT5",
+            "https://apps.apple.com/app/frames-film-notes/id6744057317",
+            "https://apps.apple.com/app/frames-film-metadata/id6744063354"
+          ]
+        }
+      ]
+    }
