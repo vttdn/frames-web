@@ -15,117 +15,92 @@
 }
 .input-wrapper > .placeholder::before {
   content: "​";
-  content: "​"/"Film Fotoğraf\a Defteri";
-  alt: "Film Fotoğraf\a Defteri";
+  content: "​"/"Fotoğraf\a Defteri";
+  alt: "Fotoğraf\a Defteri";
   white-space: break-spaces;
   will-change: content;
-  animation: typed-0 4.52s linear 0s 0 forwards, typed-0-final 1.4s linear 0s 1 forwards;
+  animation: typed-0 3.92s linear 0s 0 forwards, typed-0-final 1.0666666667s linear 0s 1 forwards;
 }
 @keyframes typed-0-final {
-  0%, 4.7619047619% {
+  0%, 6.25% {
     content: "​F";
-    content: "​F"/"Film Fotoğraf\a Defteri";
-    alt: "Film Fotoğraf\a Defteri";
+    content: "​F"/"Fotoğraf\a Defteri";
+    alt: "Fotoğraf\a Defteri";
   }
-  4.7629047619%, 9.5238095238% {
-    content: "​Fi";
-    content: "​Fi"/"Film Fotoğraf\a Defteri";
-    alt: "Film Fotoğraf\a Defteri";
+  6.251%, 12.5% {
+    content: "​Fo";
+    content: "​Fo"/"Fotoğraf\a Defteri";
+    alt: "Fotoğraf\a Defteri";
   }
-  9.5248095238%, 14.2857142857% {
-    content: "​Fil";
-    content: "​Fil"/"Film Fotoğraf\a Defteri";
-    alt: "Film Fotoğraf\a Defteri";
+  12.501%, 18.75% {
+    content: "​Fot";
+    content: "​Fot"/"Fotoğraf\a Defteri";
+    alt: "Fotoğraf\a Defteri";
   }
-  14.2867142857%, 19.0476190476% {
-    content: "​Film";
-    content: "​Film"/"Film Fotoğraf\a Defteri";
-    alt: "Film Fotoğraf\a Defteri";
+  18.751%, 25% {
+    content: "​Foto";
+    content: "​Foto"/"Fotoğraf\a Defteri";
+    alt: "Fotoğraf\a Defteri";
   }
-  19.0486190476%, 23.8095238095% {
-    content: "​Film ";
-    content: "​Film "/"Film Fotoğraf\a Defteri";
-    alt: "Film Fotoğraf\a Defteri";
+  25.001%, 31.25% {
+    content: "​Fotoğ";
+    content: "​Fotoğ"/"Fotoğraf\a Defteri";
+    alt: "Fotoğraf\a Defteri";
   }
-  23.8105238095%, 28.5714285714% {
-    content: "​Film F";
-    content: "​Film F"/"Film Fotoğraf\a Defteri";
-    alt: "Film Fotoğraf\a Defteri";
+  31.251%, 37.5% {
+    content: "​Fotoğr";
+    content: "​Fotoğr"/"Fotoğraf\a Defteri";
+    alt: "Fotoğraf\a Defteri";
   }
-  28.5724285714%, 33.3333333333% {
-    content: "​Film Fo";
-    content: "​Film Fo"/"Film Fotoğraf\a Defteri";
-    alt: "Film Fotoğraf\a Defteri";
+  37.501%, 43.75% {
+    content: "​Fotoğra";
+    content: "​Fotoğra"/"Fotoğraf\a Defteri";
+    alt: "Fotoğraf\a Defteri";
   }
-  33.3343333333%, 38.0952380952% {
-    content: "​Film Fot";
-    content: "​Film Fot"/"Film Fotoğraf\a Defteri";
-    alt: "Film Fotoğraf\a Defteri";
+  43.751%, 50% {
+    content: "​Fotoğraf";
+    content: "​Fotoğraf"/"Fotoğraf\a Defteri";
+    alt: "Fotoğraf\a Defteri";
   }
-  38.0962380952%, 42.8571428571% {
-    content: "​Film Foto";
-    content: "​Film Foto"/"Film Fotoğraf\a Defteri";
-    alt: "Film Fotoğraf\a Defteri";
+  50.001%, 56.25% {
+    content: "​Fotoğraf\a";
+    content: "​Fotoğraf\a"/"Fotoğraf\a Defteri";
+    alt: "Fotoğraf\a Defteri";
   }
-  42.8581428571%, 47.619047619% {
-    content: "​Film Fotoğ";
-    content: "​Film Fotoğ"/"Film Fotoğraf\a Defteri";
-    alt: "Film Fotoğraf\a Defteri";
+  56.251%, 62.5% {
+    content: "​Fotoğraf\a D";
+    content: "​Fotoğraf\a D"/"Fotoğraf\a Defteri";
+    alt: "Fotoğraf\a Defteri";
   }
-  47.620047619%, 52.380952381% {
-    content: "​Film Fotoğr";
-    content: "​Film Fotoğr"/"Film Fotoğraf\a Defteri";
-    alt: "Film Fotoğraf\a Defteri";
+  62.501%, 68.75% {
+    content: "​Fotoğraf\a De";
+    content: "​Fotoğraf\a De"/"Fotoğraf\a Defteri";
+    alt: "Fotoğraf\a Defteri";
   }
-  52.381952381%, 57.1428571429% {
-    content: "​Film Fotoğra";
-    content: "​Film Fotoğra"/"Film Fotoğraf\a Defteri";
-    alt: "Film Fotoğraf\a Defteri";
+  68.751%, 75% {
+    content: "​Fotoğraf\a Def";
+    content: "​Fotoğraf\a Def"/"Fotoğraf\a Defteri";
+    alt: "Fotoğraf\a Defteri";
   }
-  57.1438571429%, 61.9047619048% {
-    content: "​Film Fotoğraf";
-    content: "​Film Fotoğraf"/"Film Fotoğraf\a Defteri";
-    alt: "Film Fotoğraf\a Defteri";
+  75.001%, 81.25% {
+    content: "​Fotoğraf\a Deft";
+    content: "​Fotoğraf\a Deft"/"Fotoğraf\a Defteri";
+    alt: "Fotoğraf\a Defteri";
   }
-  61.9057619048%, 66.6666666667% {
-    content: "​Film Fotoğraf\a";
-    content: "​Film Fotoğraf\a"/"Film Fotoğraf\a Defteri";
-    alt: "Film Fotoğraf\a Defteri";
+  81.251%, 87.5% {
+    content: "​Fotoğraf\a Defte";
+    content: "​Fotoğraf\a Defte"/"Fotoğraf\a Defteri";
+    alt: "Fotoğraf\a Defteri";
   }
-  66.6676666667%, 71.4285714286% {
-    content: "​Film Fotoğraf\a D";
-    content: "​Film Fotoğraf\a D"/"Film Fotoğraf\a Defteri";
-    alt: "Film Fotoğraf\a Defteri";
+  87.501%, 93.75% {
+    content: "​Fotoğraf\a Defter";
+    content: "​Fotoğraf\a Defter"/"Fotoğraf\a Defteri";
+    alt: "Fotoğraf\a Defteri";
   }
-  71.4295714286%, 76.1904761905% {
-    content: "​Film Fotoğraf\a De";
-    content: "​Film Fotoğraf\a De"/"Film Fotoğraf\a Defteri";
-    alt: "Film Fotoğraf\a Defteri";
-  }
-  76.1914761905%, 80.9523809524% {
-    content: "​Film Fotoğraf\a Def";
-    content: "​Film Fotoğraf\a Def"/"Film Fotoğraf\a Defteri";
-    alt: "Film Fotoğraf\a Defteri";
-  }
-  80.9533809524%, 85.7142857143% {
-    content: "​Film Fotoğraf\a Deft";
-    content: "​Film Fotoğraf\a Deft"/"Film Fotoğraf\a Defteri";
-    alt: "Film Fotoğraf\a Defteri";
-  }
-  85.7152857143%, 90.4761904762% {
-    content: "​Film Fotoğraf\a Defte";
-    content: "​Film Fotoğraf\a Defte"/"Film Fotoğraf\a Defteri";
-    alt: "Film Fotoğraf\a Defteri";
-  }
-  90.4771904762%, 95.2380952381% {
-    content: "​Film Fotoğraf\a Defter";
-    content: "​Film Fotoğraf\a Defter"/"Film Fotoğraf\a Defteri";
-    alt: "Film Fotoğraf\a Defteri";
-  }
-  95.2390952381%, 100% {
-    content: "​Film Fotoğraf\a Defteri";
-    content: "​Film Fotoğraf\a Defteri"/"Film Fotoğraf\a Defteri";
-    alt: "Film Fotoğraf\a Defteri";
+  93.751%, 100% {
+    content: "​Fotoğraf\a Defteri";
+    content: "​Fotoğraf\a Defteri"/"Fotoğraf\a Defteri";
+    alt: "Fotoğraf\a Defteri";
   }
 }
 .input-wrapper > .placeholder::after {
@@ -138,215 +113,165 @@
   animation: typed-0-caret 0.75s linear 0s infinite forwards;
 }
 @keyframes typed-0 {
-  0%, 1.4739262537% {
+  0%, 1.6996802721% {
     content: "​F";
-    content: "​F"/"Film Fotoğraf\a Defteri";
-    alt: "Film Fotoğraf\a Defteri";
+    content: "​F"/"Fotoğraf\a Defteri";
+    alt: "Fotoğraf\a Defteri";
   }
-  1.4749262537%, 2.9488525074% {
-    content: "​Fi";
-    content: "​Fi"/"Film Fotoğraf\a Defteri";
-    alt: "Film Fotoğraf\a Defteri";
+  1.7006802721%, 3.4003605442% {
+    content: "​Fo";
+    content: "​Fo"/"Fotoğraf\a Defteri";
+    alt: "Fotoğraf\a Defteri";
   }
-  2.9498525074%, 4.4237787611% {
-    content: "​Fil";
-    content: "​Fil"/"Film Fotoğraf\a Defteri";
-    alt: "Film Fotoğraf\a Defteri";
+  3.4013605442%, 5.1010408163% {
+    content: "​Fot";
+    content: "​Fot"/"Fotoğraf\a Defteri";
+    alt: "Fotoğraf\a Defteri";
   }
-  4.4247787611%, 5.8987050147% {
-    content: "​Film";
-    content: "​Film"/"Film Fotoğraf\a Defteri";
-    alt: "Film Fotoğraf\a Defteri";
+  5.1020408163%, 6.8017210884% {
+    content: "​Foto";
+    content: "​Foto"/"Fotoğraf\a Defteri";
+    alt: "Fotoğraf\a Defteri";
   }
-  5.8997050147%, 7.3736312684% {
-    content: "​Film ";
-    content: "​Film "/"Film Fotoğraf\a Defteri";
-    alt: "Film Fotoğraf\a Defteri";
+  6.8027210884%, 8.5024013605% {
+    content: "​Fotoğ";
+    content: "​Fotoğ"/"Fotoğraf\a Defteri";
+    alt: "Fotoğraf\a Defteri";
   }
-  7.3746312684%, 8.8485575221% {
-    content: "​Film F";
-    content: "​Film F"/"Film Fotoğraf\a Defteri";
-    alt: "Film Fotoğraf\a Defteri";
+  8.5034013605%, 10.2030816327% {
+    content: "​Fotoğr";
+    content: "​Fotoğr"/"Fotoğraf\a Defteri";
+    alt: "Fotoğraf\a Defteri";
   }
-  8.8495575221%, 10.3234837758% {
-    content: "​Film Fo";
-    content: "​Film Fo"/"Film Fotoğraf\a Defteri";
-    alt: "Film Fotoğraf\a Defteri";
+  10.2040816327%, 11.9037619048% {
+    content: "​Fotoğra";
+    content: "​Fotoğra"/"Fotoğraf\a Defteri";
+    alt: "Fotoğraf\a Defteri";
   }
-  10.3244837758%, 11.7984100295% {
-    content: "​Film Fot";
-    content: "​Film Fot"/"Film Fotoğraf\a Defteri";
-    alt: "Film Fotoğraf\a Defteri";
+  11.9047619048%, 13.6044421769% {
+    content: "​Fotoğraf";
+    content: "​Fotoğraf"/"Fotoğraf\a Defteri";
+    alt: "Fotoğraf\a Defteri";
   }
-  11.7994100295%, 13.2733362832% {
-    content: "​Film Foto";
-    content: "​Film Foto"/"Film Fotoğraf\a Defteri";
-    alt: "Film Fotoğraf\a Defteri";
+  13.6054421769%, 15.305122449% {
+    content: "​Fotoğraf\a";
+    content: "​Fotoğraf\a"/"Fotoğraf\a Defteri";
+    alt: "Fotoğraf\a Defteri";
   }
-  13.2743362832%, 14.7482625369% {
-    content: "​Film Fotoğ";
-    content: "​Film Fotoğ"/"Film Fotoğraf\a Defteri";
-    alt: "Film Fotoğraf\a Defteri";
+  15.306122449%, 17.0058027211% {
+    content: "​Fotoğraf\a D";
+    content: "​Fotoğraf\a D"/"Fotoğraf\a Defteri";
+    alt: "Fotoğraf\a Defteri";
   }
-  14.7492625369%, 16.2231887906% {
-    content: "​Film Fotoğr";
-    content: "​Film Fotoğr"/"Film Fotoğraf\a Defteri";
-    alt: "Film Fotoğraf\a Defteri";
+  17.0068027211%, 18.7064829932% {
+    content: "​Fotoğraf\a De";
+    content: "​Fotoğraf\a De"/"Fotoğraf\a Defteri";
+    alt: "Fotoğraf\a Defteri";
   }
-  16.2241887906%, 17.6981150442% {
-    content: "​Film Fotoğra";
-    content: "​Film Fotoğra"/"Film Fotoğraf\a Defteri";
-    alt: "Film Fotoğraf\a Defteri";
+  18.7074829932%, 20.4071632653% {
+    content: "​Fotoğraf\a Def";
+    content: "​Fotoğraf\a Def"/"Fotoğraf\a Defteri";
+    alt: "Fotoğraf\a Defteri";
   }
-  17.6991150442%, 19.1730412979% {
-    content: "​Film Fotoğraf";
-    content: "​Film Fotoğraf"/"Film Fotoğraf\a Defteri";
-    alt: "Film Fotoğraf\a Defteri";
+  20.4081632653%, 22.1078435374% {
+    content: "​Fotoğraf\a Deft";
+    content: "​Fotoğraf\a Deft"/"Fotoğraf\a Defteri";
+    alt: "Fotoğraf\a Defteri";
   }
-  19.1740412979%, 20.6479675516% {
-    content: "​Film Fotoğraf\a";
-    content: "​Film Fotoğraf\a"/"Film Fotoğraf\a Defteri";
-    alt: "Film Fotoğraf\a Defteri";
+  22.1088435374%, 23.8085238095% {
+    content: "​Fotoğraf\a Defte";
+    content: "​Fotoğraf\a Defte"/"Fotoğraf\a Defteri";
+    alt: "Fotoğraf\a Defteri";
   }
-  20.6489675516%, 22.1228938053% {
-    content: "​Film Fotoğraf\a D";
-    content: "​Film Fotoğraf\a D"/"Film Fotoğraf\a Defteri";
-    alt: "Film Fotoğraf\a Defteri";
+  23.8095238095%, 25.5092040816% {
+    content: "​Fotoğraf\a Defter";
+    content: "​Fotoğraf\a Defter"/"Fotoğraf\a Defteri";
+    alt: "Fotoğraf\a Defteri";
   }
-  22.1238938053%, 23.597820059% {
-    content: "​Film Fotoğraf\a De";
-    content: "​Film Fotoğraf\a De"/"Film Fotoğraf\a Defteri";
-    alt: "Film Fotoğraf\a Defteri";
+  25.5102040816%, 62.5840340136% {
+    content: "​Fotoğraf\a Defteri";
+    content: "​Fotoğraf\a Defteri"/"Fotoğraf\a Defteri";
+    alt: "Fotoğraf\a Defteri";
   }
-  23.598820059%, 25.0727463127% {
-    content: "​Film Fotoğraf\a Def";
-    content: "​Film Fotoğraf\a Def"/"Film Fotoğraf\a Defteri";
-    alt: "Film Fotoğraf\a Defteri";
+  62.5850340136%, 63.9445782313% {
+    content: "​Fotoğraf\a Defter";
+    content: "​Fotoğraf\a Defter"/"Fotoğraf\a Defteri";
+    alt: "Fotoğraf\a Defteri";
   }
-  25.0737463127%, 26.5476725664% {
-    content: "​Film Fotoğraf\a Deft";
-    content: "​Film Fotoğraf\a Deft"/"Film Fotoğraf\a Defteri";
-    alt: "Film Fotoğraf\a Defteri";
+  63.9455782313%, 65.305122449% {
+    content: "​Fotoğraf\a Defte";
+    content: "​Fotoğraf\a Defte"/"Fotoğraf\a Defteri";
+    alt: "Fotoğraf\a Defteri";
   }
-  26.5486725664%, 28.0225988201% {
-    content: "​Film Fotoğraf\a Defte";
-    content: "​Film Fotoğraf\a Defte"/"Film Fotoğraf\a Defteri";
-    alt: "Film Fotoğraf\a Defteri";
+  65.306122449%, 66.6656666667% {
+    content: "​Fotoğraf\a Deft";
+    content: "​Fotoğraf\a Deft"/"Fotoğraf\a Defteri";
+    alt: "Fotoğraf\a Defteri";
   }
-  28.0235988201%, 29.4975250737% {
-    content: "​Film Fotoğraf\a Defter";
-    content: "​Film Fotoğraf\a Defter"/"Film Fotoğraf\a Defteri";
-    alt: "Film Fotoğraf\a Defteri";
+  66.6666666667%, 68.0262108844% {
+    content: "​Fotoğraf\a Def";
+    content: "​Fotoğraf\a Def"/"Fotoğraf\a Defteri";
+    alt: "Fotoğraf\a Defteri";
   }
-  29.4985250737%, 61.6509174041% {
-    content: "​Film Fotoğraf\a Defteri";
-    content: "​Film Fotoğraf\a Defteri"/"Film Fotoğraf\a Defteri";
-    alt: "Film Fotoğraf\a Defteri";
+  68.0272108844%, 69.386755102% {
+    content: "​Fotoğraf\a De";
+    content: "​Fotoğraf\a De"/"Fotoğraf\a Defteri";
+    alt: "Fotoğraf\a Defteri";
   }
-  61.6519174041%, 62.8308584071% {
-    content: "​Film Fotoğraf\a Defter";
-    content: "​Film Fotoğraf\a Defter"/"Film Fotoğraf\a Defteri";
-    alt: "Film Fotoğraf\a Defteri";
+  69.387755102%, 70.7472993197% {
+    content: "​Fotoğraf\a D";
+    content: "​Fotoğraf\a D"/"Fotoğraf\a Defteri";
+    alt: "Fotoğraf\a Defteri";
   }
-  62.8318584071%, 64.01079941% {
-    content: "​Film Fotoğraf\a Defte";
-    content: "​Film Fotoğraf\a Defte"/"Film Fotoğraf\a Defteri";
-    alt: "Film Fotoğraf\a Defteri";
+  70.7482993197%, 72.1078435374% {
+    content: "​Fotoğraf\a";
+    content: "​Fotoğraf\a"/"Fotoğraf\a Defteri";
+    alt: "Fotoğraf\a Defteri";
   }
-  64.01179941%, 65.190740413% {
-    content: "​Film Fotoğraf\a Deft";
-    content: "​Film Fotoğraf\a Deft"/"Film Fotoğraf\a Defteri";
-    alt: "Film Fotoğraf\a Defteri";
+  72.1088435374%, 73.4683877551% {
+    content: "​Fotoğraf";
+    content: "​Fotoğraf"/"Fotoğraf\a Defteri";
+    alt: "Fotoğraf\a Defteri";
   }
-  65.191740413%, 66.3706814159% {
-    content: "​Film Fotoğraf\a Def";
-    content: "​Film Fotoğraf\a Def"/"Film Fotoğraf\a Defteri";
-    alt: "Film Fotoğraf\a Defteri";
+  73.4693877551%, 74.8289319728% {
+    content: "​Fotoğra";
+    content: "​Fotoğra"/"Fotoğraf\a Defteri";
+    alt: "Fotoğraf\a Defteri";
   }
-  66.3716814159%, 67.5506224189% {
-    content: "​Film Fotoğraf\a De";
-    content: "​Film Fotoğraf\a De"/"Film Fotoğraf\a Defteri";
-    alt: "Film Fotoğraf\a Defteri";
+  74.8299319728%, 76.1894761905% {
+    content: "​Fotoğr";
+    content: "​Fotoğr"/"Fotoğraf\a Defteri";
+    alt: "Fotoğraf\a Defteri";
   }
-  67.5516224189%, 68.7305634218% {
-    content: "​Film Fotoğraf\a D";
-    content: "​Film Fotoğraf\a D"/"Film Fotoğraf\a Defteri";
-    alt: "Film Fotoğraf\a Defteri";
+  76.1904761905%, 77.5500204082% {
+    content: "​Fotoğ";
+    content: "​Fotoğ"/"Fotoğraf\a Defteri";
+    alt: "Fotoğraf\a Defteri";
   }
-  68.7315634218%, 69.9105044248% {
-    content: "​Film Fotoğraf\a";
-    content: "​Film Fotoğraf\a"/"Film Fotoğraf\a Defteri";
-    alt: "Film Fotoğraf\a Defteri";
+  77.5510204082%, 78.9105646259% {
+    content: "​Foto";
+    content: "​Foto"/"Fotoğraf\a Defteri";
+    alt: "Fotoğraf\a Defteri";
   }
-  69.9115044248%, 71.0904454277% {
-    content: "​Film Fotoğraf";
-    content: "​Film Fotoğraf"/"Film Fotoğraf\a Defteri";
-    alt: "Film Fotoğraf\a Defteri";
+  78.9115646259%, 80.2711088435% {
+    content: "​Fot";
+    content: "​Fot"/"Fotoğraf\a Defteri";
+    alt: "Fotoğraf\a Defteri";
   }
-  71.0914454277%, 72.2703864307% {
-    content: "​Film Fotoğra";
-    content: "​Film Fotoğra"/"Film Fotoğraf\a Defteri";
-    alt: "Film Fotoğraf\a Defteri";
+  80.2721088435%, 81.6316530612% {
+    content: "​Fo";
+    content: "​Fo"/"Fotoğraf\a Defteri";
+    alt: "Fotoğraf\a Defteri";
   }
-  72.2713864307%, 73.4503274336% {
-    content: "​Film Fotoğr";
-    content: "​Film Fotoğr"/"Film Fotoğraf\a Defteri";
-    alt: "Film Fotoğraf\a Defteri";
-  }
-  73.4513274336%, 74.6302684366% {
-    content: "​Film Fotoğ";
-    content: "​Film Fotoğ"/"Film Fotoğraf\a Defteri";
-    alt: "Film Fotoğraf\a Defteri";
-  }
-  74.6312684366%, 75.8102094395% {
-    content: "​Film Foto";
-    content: "​Film Foto"/"Film Fotoğraf\a Defteri";
-    alt: "Film Fotoğraf\a Defteri";
-  }
-  75.8112094395%, 76.9901504425% {
-    content: "​Film Fot";
-    content: "​Film Fot"/"Film Fotoğraf\a Defteri";
-    alt: "Film Fotoğraf\a Defteri";
-  }
-  76.9911504425%, 78.1700914454% {
-    content: "​Film Fo";
-    content: "​Film Fo"/"Film Fotoğraf\a Defteri";
-    alt: "Film Fotoğraf\a Defteri";
-  }
-  78.1710914454%, 79.3500324484% {
-    content: "​Film F";
-    content: "​Film F"/"Film Fotoğraf\a Defteri";
-    alt: "Film Fotoğraf\a Defteri";
-  }
-  79.3510324484%, 80.5299734513% {
-    content: "​Film ";
-    content: "​Film "/"Film Fotoğraf\a Defteri";
-    alt: "Film Fotoğraf\a Defteri";
-  }
-  80.5309734513%, 81.7099144543% {
-    content: "​Film";
-    content: "​Film"/"Film Fotoğraf\a Defteri";
-    alt: "Film Fotoğraf\a Defteri";
-  }
-  81.7109144543%, 82.8898554572% {
-    content: "​Fil";
-    content: "​Fil"/"Film Fotoğraf\a Defteri";
-    alt: "Film Fotoğraf\a Defteri";
-  }
-  82.8908554572%, 84.0697964602% {
-    content: "​Fi";
-    content: "​Fi"/"Film Fotoğraf\a Defteri";
-    alt: "Film Fotoğraf\a Defteri";
-  }
-  84.0707964602%, 85.2497374631% {
+  81.6326530612%, 82.9921972789% {
     content: "​F";
-    content: "​F"/"Film Fotoğraf\a Defteri";
-    alt: "Film Fotoğraf\a Defteri";
+    content: "​F"/"Fotoğraf\a Defteri";
+    alt: "Fotoğraf\a Defteri";
   }
-  85.2507374631%, 100% {
+  82.9931972789%, 100% {
     content: "​";
-    content: "​"/"Film Fotoğraf\a Defteri";
-    alt: "Film Fotoğraf\a Defteri";
+    content: "​"/"Fotoğraf\a Defteri";
+    alt: "Fotoğraf\a Defteri";
   }
 }
 @keyframes typed-0-caret {
