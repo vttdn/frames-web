@@ -1,0 +1,46 @@
+{
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Jakie metadane mogę zapisać w aplikacji iOS?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Możesz zapisać kompletny zestaw ustawień i metadanych dla każdego zdjęcia, w tym markę i model aparatu, czas naświetlania, przysłonę, ogniskową, korektę ekspozycji, użycie flesza, szczegóły obiektywu i typ użytej kliszy. Pozycja GPS oraz data i godzina są zapisywane automatycznie, ale możesz je zmienić ręcznie.Możesz także dodawać własne notatki, aby uwzględnić dodatkowy kontekst lub szczegóły, co pomaga stworzyć bogate i dobrze zorganizowane archiwum twojej analogowej praktyki fotograficznej, z zachowaniem wszystkich istotnych informacji."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Jakie formaty plików obsługuje aplikacja Mac?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Obecnie aplikacja towarzysząca dla macOS obsługuje pliki JPEG (.jpg) do integracji i eksportu metadanych EXIF. Obsługa plików TIFF (.tif) jest rozważana i może zostać dodana później w zależności od potrzeb użytkowników. Zobowiązujemy się do rozwijania tego narzędzia w oparciu o rzeczywiste zastosowania fotografów w terenie, a twoje opinie są kluczowe dla przyszłych aktualizacji.Jeśli kompatybilność z TIFF lub inne funkcje mogą poprawić twój przepływ pracy, daj nam znać - słuchamy."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Czy mogę zanotować użycie statywu lub filtrów?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Na razie aplikacja pozostaje celowo prosta i efektywna, aby zaspokoić potrzeby większości fotografów analogowych. Ale nie jesteś ograniczony: dedykowane pole notatek pozwala rejestrować dodatkowe informacje, takie jak użycie statywu, typy filtrów lub inne szczegóły dotyczące sprzętu.Te elementy nie są częścią oficjalnych metadanych EXIF, ale pole Notatki daje ci swobodę uwzględnienia wszystkiego, co ważne dla twojego procesu, bez zaśmiecania głównego interfejsu."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Czy planowana jest wersja na Androida?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Wersja na Androida jest zdecydowanie w naszym zasięgu wzroku. Na razie naszym priorytetem jest zapewnienie jak najlepszych wrażeń na iPhone'ie i Macu. Chcemy się upewnić, że wszystko działa płynnie i spełnia nasze standardy jakości.Jeśli wersja iOS odniesie sukces i nadal będzie podobać się użytkownikom, rozwój na Androida może być następnym krokiem. Śledź nasze aktualizacje i daj nam znać, jeśli jesteś zainteresowany - twoje opinie kierują naszą przyszłą pracą."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Jakie funkcje są planowane?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Zobowiązujemy się do ciągłego ulepszania aplikacji. Przyszłe aktualizacje mogą obejmować tłumaczenia dla szerszego grona odbiorców, nowe opcje eksportu, a nawet wersję na zegarek dla szybkiego dostępu podczas sesji. Nic jeszcze nie jest przesądzone, ale tworzymy to narzędzie wraz ze społecznością i rozwija się ono zgodnie z twoimi potrzebami.To, jak używasz aplikacji, bezpośrednio inspiruje nas do tworzenia nowych funkcji - dziękujemy, że jesteś częścią tego procesu."
+          }
+        }
+      ]
+    }
