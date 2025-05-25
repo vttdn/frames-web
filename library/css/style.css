@@ -173,7 +173,7 @@ details[open] summary::before {
 .footer {
   margin-top: var(--huge-spacing);
   padding-bottom: 2rem;
-    gap: 2rem;
+  gap: var(--grid-hgap);
 }
 
 .footer-left {
