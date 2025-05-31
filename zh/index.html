@@ -70,8 +70,12 @@
                 font-size: var(--font-size-heading3);
                     line-height: 1;
                     font-weight: 600;
-                    margin-top: var(--large-spacing);
+                    margin-top: 0;
                     margin-bottom: var(--grid-vgap);
+                }
+                section {
+                    margin-top: calc(var(--large-spacing) - 2rem);
+                    padding-top: 2rem;
                 }
             a.logo {
                 font-family: Geist, sans-serif;
@@ -352,7 +356,7 @@
         </header>
         <main class="wrapper">
             <section id="iphone" aria-labelledby="features-mobile-heading">
-                <h2 id="features-mobile-heading"><span class='sr-only'>胶片摄影应用 </span>iPhone版</h2>
+                <h2 id="features-mobile-heading" class="sr-only"><span class='sr-only'>胶片摄影应用 </span>iPhone版</h2>
                 <ul class="grid-3col feature-list-mobile">
                     <li>
                         <article>
@@ -400,7 +404,7 @@
                 </ul>
             </section>
             <section id="mac" aria-labelledby="features-desktop-heading">
-                <h2 id="features-desktop-heading"><span class='sr-only'>胶片摄影应用 </span>Mac版</h2>
+                <h2 id="features-desktop-heading" class="sr-only"><span class='sr-only'>胶片摄影应用 </span>Mac版</h2>
                 <ul class="grid-2col feature-list-desktop">
                     <li>
                         <article>
