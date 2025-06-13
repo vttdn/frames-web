@@ -253,10 +253,6 @@ ul.language-list {
 }
 
 @media (min-width: 768px) {
-  .download-buttons {
-    display: inline-flex;
-  }
-
   .footer-left {
     grid-column: span 3;
   }
