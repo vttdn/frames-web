@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html lang="{{ lang }}">
     <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width,initial-scale=1" />
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
         <title>{{ seo_meta_title }}</title>
-        <meta name="description" content="{{ seo_meta_description }}" />
+        <link rel="preload" as="image" href="/library/img/icons/icon-apple-dark.svg" type="image/svg+xml">
+        <meta name="description" content="{{ seo_meta_description }}">
         <style>
             :root {
                 --huge-spacing: 10rem;
@@ -221,8 +222,8 @@
                 }
                 .h1,
                 h1 {
-                    margin-top: calc(100svh - var(--font-size-large) * 2 - 15rem);
-                    margin-bottom: 0rem;
+                    margin-top: calc(100svh - var(--font-size-large) * 2 - 15.5rem);
+                    margin-bottom: 0.5rem;
                     min-height: 19.4rem;
                 }
                 .grid-2col {
@@ -284,52 +285,52 @@
             }
         }
         </style>
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link href="https://fonts.googleapis.com/css2?family=Geist+Mono:wght@400;600&family=Geist:wght@400..700&display=swap" rel="stylesheet" media="print" onload="this.media='all'" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Geist+Mono:wght@400;600&family=Geist:wght@400..700&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
         <!-- Localization -->
-        <link rel="canonical" href="{{ canonical_url }}" />
-        <link rel="alternate" hreflang="en" href="https://withframes.com/" />
-        <link rel="alternate" hreflang="fr" href="https://withframes.com/fr/" />
-        <link rel="alternate" hreflang="es" href="https://withframes.com/es/" />
-        <link rel="alternate" hreflang="it" href="https://withframes.com/it/" />
-        <link rel="alternate" hreflang="de" href="https://withframes.com/de/" />
-        <link rel="alternate" hreflang="nl" href="https://withframes.com/nl/" />
-        <link rel="alternate" hreflang="pt" href="https://withframes.com/pt/" />
-        <link rel="alternate" hreflang="ja" href="https://withframes.com/ja/" />
-        <link rel="alternate" hreflang="ko" href="https://withframes.com/ko/" />
-        <link rel="alternate" hreflang="ru" href="https://withframes.com/ru/" />
-        <link rel="alternate" hreflang="th" href="https://withframes.com/th/" />
-        <link rel="alternate" hreflang="zh" href="https://withframes.com/zh/" />
-        <link rel="alternate" hreflang="pl" href="https://withframes.com/pl/" />
-        <link rel="alternate" hreflang="tr" href="https://withframes.com/tr/" />
-        <link rel="alternate" hreflang="sv" href="https://withframes.com/sv/" />
-        <link rel="alternate" hreflang="hi" href="https://withframes.com/hi/" />
-        <link rel="alternate" hreflang="x-default" href="https://withframes.com/" />
-        <link rel="preload" href="/library/css/style.min.css" as="style" onload="this.rel='stylesheet'" />
-        <noscript><link rel="stylesheet" href="/library/css/style.min.css" /></noscript>
-        <link rel="preload" href="/library/css/typewriter-{{ lang }}.min.css" as="style" onload="this.rel='stylesheet'" />
-        <noscript><link rel="stylesheet" href="/library/css/typewriter-{{ lang }}.min.css" /></noscript>
+        <link rel="canonical" href="{{ canonical_url }}">
+        <link rel="alternate" hreflang="en" href="https://withframes.com/">
+        <link rel="alternate" hreflang="fr" href="https://withframes.com/fr/">
+        <link rel="alternate" hreflang="es" href="https://withframes.com/es/">
+        <link rel="alternate" hreflang="it" href="https://withframes.com/it/">
+        <link rel="alternate" hreflang="de" href="https://withframes.com/de/">
+        <link rel="alternate" hreflang="nl" href="https://withframes.com/nl/">
+        <link rel="alternate" hreflang="pt" href="https://withframes.com/pt/">
+        <link rel="alternate" hreflang="ja" href="https://withframes.com/ja/">
+        <link rel="alternate" hreflang="ko" href="https://withframes.com/ko/">
+        <link rel="alternate" hreflang="ru" href="https://withframes.com/ru/">
+        <link rel="alternate" hreflang="th" href="https://withframes.com/th/">
+        <link rel="alternate" hreflang="zh" href="https://withframes.com/zh/">
+        <link rel="alternate" hreflang="pl" href="https://withframes.com/pl/">
+        <link rel="alternate" hreflang="tr" href="https://withframes.com/tr/">
+        <link rel="alternate" hreflang="sv" href="https://withframes.com/sv/">
+        <link rel="alternate" hreflang="hi" href="https://withframes.com/hi/">
+        <link rel="alternate" hreflang="x-default" href="https://withframes.com/">
+        <link rel="preload" href="/library/css/style.min.css" as="style" onload="this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="/library/css/style.min.css"></noscript>
+        <link rel="preload" href="/library/css/typewriter-{{ lang }}.min.css" as="style" onload="this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="/library/css/typewriter-{{ lang }}.min.css"></noscript>
         <!-- Twitter -->
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:site" content="@withframes" />
-        <meta name="twitter:creator" content="@withframes" />
-        <meta name="twitter:title" content="{{ seo_meta_title }}" />
-        <meta name="twitter:description" content="{{ seo_meta_description }}" />
-        <meta name="twitter:image" content="https://withframes.com/library/img/{{ lang }}/og-image.jpg" />
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:site" content="@withframes">
+        <meta name="twitter:creator" content="@withframes">
+        <meta name="twitter:title" content="{{ seo_meta_title }}">
+        <meta name="twitter:description" content="{{ seo_meta_description }}">
+        <meta name="twitter:image" content="https://withframes.com/library/img/{{ lang }}/og-image.jpg">
         <!-- Open Graph -->
-        <meta property="og:type" content="website" />
-        <meta property="og:site_name" content="Frames" />
-        <meta property="og:title" content="{{ seo_meta_title }}" />
-        <meta property="og:description" content="{{ seo_meta_description }}" />
-        <meta property="og:url" content="{{ canonical_url }}" />
-        <meta property="og:image" content="https://withframes.com/library/img/{{ lang }}/og-image.jpg" />
-        <meta property="og:locale" content="{{ locale }}" />
+        <meta property="og:type" content="website">
+        <meta property="og:site_name" content="Frames">
+        <meta property="og:title" content="{{ seo_meta_title }}">
+        <meta property="og:description" content="{{ seo_meta_description }}">
+        <meta property="og:url" content="{{ canonical_url }}">
+        <meta property="og:image" content="https://withframes.com/library/img/{{ lang }}/og-image.jpg">
+        <meta property="og:locale" content="{{ locale }}">
 
-        <link rel="shortcut icon" href="/favicon.ico"/>
-        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
-        <meta name="theme-color" content="#000" />
-        <meta name="apple-itunes-app" content="app-id=6744057317" />
+        <link rel="shortcut icon" href="/favicon.ico">
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+        <meta name="theme-color" content="#000">
+        <meta name="apple-itunes-app" content="app-id=6744057317">
         <link rel="me" href="https://mastodon.social/@frames">
     </head>
     <body>
@@ -349,9 +350,9 @@
                 </ul>
             </nav>
             <h1 class="sr-only">{{ seo_meta_title }}</h1>
-            <div class="h1 input-wrapper" aria-hidden="true"><input type="text" tabindex="-1" readonly /> <span class="placeholder"></span></div>
+            <div class="h1 input-wrapper" aria-hidden="true"><input type="text" tabindex="-1" readonly> <span class="placeholder"></span></div>
             <div class="download-buttons" role="group" aria-label="Download options">
-                <a href="{{ appstore_url }}" class="button" role="button"><img src="/library/img/icons/icon-apple-dark.svg" alt="Apple Logo" width="24" height="24" loading="lazy" />{{ button_label_download_ios }}</a>
+                <a href="{{ appstore_url }}" class="button" role="button"><img src="/library/img/icons/icon-apple-dark.svg" alt="Apple Logo" width="24" height="24" loading="lazy">{{ button_label_download_ios }}</a>
                 <a href="{{ macappstore_url }}" class="button button-dark desktop-only" role="button">{{ button_label_download_mac }}</a>
             </div>
         </header>
@@ -361,7 +362,7 @@
                 <ul class="grid-3col feature-list-mobile">
                     <li>
                         <article>
-                            <div class="screenshot-container"><img src="/library/img/{{ lang }}/frames-feature-screenshot-1.webp" alt="{{ features_mobile_feature1_imgalt }}" width="504" height="1024" loading="lazy" /></div>
+                            <div class="screenshot-container"><img src="/library/img/{{ lang }}/frames-feature-screenshot-1.webp" alt="{{ features_mobile_feature1_imgalt }}" width="504" height="1024" loading="lazy"></div>
                             <h3>{{ features_mobile_feature1_title }}</h3>
                             <p>{{ features_mobile_feature1_descr }}</p>
                         </article>
@@ -369,7 +370,7 @@
                     <li>
                         <article>
                             <div class="screenshot-container">
-                                <img src="/library/img/{{ lang }}/frames-feature-screenshot-2.webp" alt="{{ features_mobile_feature2_imgalt }}" width="504" height="1024" loading="lazy" />
+                                <img src="/library/img/{{ lang }}/frames-feature-screenshot-2.webp" alt="{{ features_mobile_feature2_imgalt }}" width="504" height="1024" loading="lazy">
                             </div>
                             <h3>{{ features_mobile_feature2_title }}</h3>
                             <p>{{ features_mobile_feature2_descr }}</p>
@@ -378,7 +379,7 @@
                     <li>
                         <article>
                             <div class="screenshot-container">
-                                <img src="/library/img/{{ lang }}/frames-feature-screenshot-3.webp" alt="{{ features_mobile_feature3_imgalt }}" width="504" height="1024" loading="lazy" />
+                                <img src="/library/img/{{ lang }}/frames-feature-screenshot-3.webp" alt="{{ features_mobile_feature3_imgalt }}" width="504" height="1024" loading="lazy">
                             </div>
                             <h3>{{ features_mobile_feature3_title }}</h3>
                             <p>{{ features_mobile_feature3_descr }}</p>
@@ -387,7 +388,7 @@
                     <li>
                         <article>
                             <div class="screenshot-container">
-                                <img src="/library/img/{{ lang }}/frames-feature-screenshot-4.webp" alt="{{ features_mobile_feature4_imgalt }}" width="504" height="1024" loading="lazy" />
+                                <img src="/library/img/{{ lang }}/frames-feature-screenshot-4.webp" alt="{{ features_mobile_feature4_imgalt }}" width="504" height="1024" loading="lazy">
                             </div>
                             <h3>{{ features_mobile_feature4_title }}</h3>
                             <p>{{ features_mobile_feature4_descr }}</p>
@@ -396,7 +397,7 @@
                     <li>
                         <article>
                             <div class="screenshot-container">
-                                <img src="/library/img/{{ lang }}/frames-feature-screenshot-5.webp" alt="{{ features_mobile_feature5_imgalt }}" width="504" height="1024" loading="lazy" />
+                                <img src="/library/img/{{ lang }}/frames-feature-screenshot-5.webp" alt="{{ features_mobile_feature5_imgalt }}" width="504" height="1024" loading="lazy">
                             </div>
                             <h3>{{ features_mobile_feature5_title }}</h3>
                             <p>{{ features_mobile_feature5_descr }}</p>
@@ -410,7 +411,7 @@
                     <li>
                         <article>
                             <div class="screenshot-container screenshot-desktop">
-                                <img src="/library/img/{{ lang }}/frames-feature-screenshot-6.webp" alt="{{ features_desktop_feature1_imgalt }}" width="898" height="572" loading="lazy" />
+                                <img src="/library/img/{{ lang }}/frames-feature-screenshot-6.webp" alt="{{ features_desktop_feature1_imgalt }}" width="898" height="572" loading="lazy">
                             </div>
                             <h3>{{ features_desktop_feature1_title }}</h3>
                             <p>{{ features_desktop_feature1_descr }}</p>
@@ -419,7 +420,7 @@
                     <li>
                         <article>
                             <div class="screenshot-container screenshot-desktop">
-                                <img src="/library/img/{{ lang }}/frames-feature-screenshot-7.webp" alt="{{ features_desktop_feature2_imgalt }}" width="898" height="572" loading="lazy" />
+                                <img src="/library/img/{{ lang }}/frames-feature-screenshot-7.webp" alt="{{ features_desktop_feature2_imgalt }}" width="898" height="572" loading="lazy">
                             </div>
                             <h3>{{ features_desktop_feature2_title }}</h3>
                             <p>{{ features_desktop_feature2_descr }}</p>
@@ -428,7 +429,7 @@
                     <li>
                         <article>
                             <div class="screenshot-container screenshot-desktop">
-                                <img src="/library/img/{{ lang }}/frames-feature-screenshot-8.webp" alt="{{ features_desktop_feature3_imgalt }}" width="898" height="572" loading="lazy" />
+                                <img src="/library/img/{{ lang }}/frames-feature-screenshot-8.webp" alt="{{ features_desktop_feature3_imgalt }}" width="898" height="572" loading="lazy">
                             </div>
                             <h3>{{ features_desktop_feature3_title }}</h3>
                             <p>{{ features_desktop_feature3_descr }}</p>
@@ -467,7 +468,7 @@
                     <li>
                         <figure class="user-review">
                             <blockquote cite="https://withframes.com">
-                                <img src="/library/img/icons/icon-quote.svg" alt="Quote" width="14" height="11" loading="lazy" />
+                                <img src="/library/img/icons/icon-quote.svg" alt="Quote" width="14" height="11" loading="lazy">
                                 <h3 class="sr-only">{{ review1_title }}</h3>
                                 <p>{{ review1_descr }}</p>
                             </blockquote>
@@ -477,7 +478,7 @@
                         </figure>
                         <figure class="user-review">
                             <blockquote cite="https://withframes.com">
-                                <img src="/library/img/icons/icon-quote.svg" alt="Quote" width="14" height="11" loading="lazy" />
+                                <img src="/library/img/icons/icon-quote.svg" alt="Quote" width="14" height="11" loading="lazy">
                                 <h3 class="sr-only">{{ review2_title }}</h3>
                                 <p>{{ review2_descr }}</p>
                             </blockquote>
@@ -487,7 +488,7 @@
                         </figure>
                         <figure class="user-review">
                             <blockquote cite="https://withframes.com">
-                                <img src="/library/img/icons/icon-quote.svg" alt="Quote" width="14" height="11" loading="lazy" />
+                                <img src="/library/img/icons/icon-quote.svg" alt="Quote" width="14" height="11" loading="lazy">
                                 <h3 class="sr-only">{{ review3_title }}</h3>
                                 <p>{{ review3_descr }}</p>
                             </blockquote>
@@ -499,7 +500,7 @@
                     <li>
                         <figure class="user-review">
                             <blockquote cite="https://withframes.com">
-                                <img src="/library/img/icons/icon-quote.svg" alt="Quote" width="14" height="11" loading="lazy" />
+                                <img src="/library/img/icons/icon-quote.svg" alt="Quote" width="14" height="11" loading="lazy">
                                 <h3 class="sr-only">{{ review4_title }}</h3>
                                 <p>{{ review4_descr }}</p>
                             </blockquote>
@@ -510,7 +511,7 @@
 
                         <figure class="user-review">
                             <blockquote cite="https://withframes.com">
-                                <img src="/library/img/icons/icon-quote.svg" alt="Quote" width="14" height="11" loading="lazy" />
+                                <img src="/library/img/icons/icon-quote.svg" alt="Quote" width="14" height="11" loading="lazy">
                                 <h3 class="sr-only">{{ review5_title }}</h3>
                                 <p>{{ review5_descr }}</p>
                             </blockquote>
@@ -521,7 +522,7 @@
 
                         <figure class="user-review">
                             <blockquote cite="https://withframes.com">
-                                <img src="/library/img/icons/icon-quote.svg" alt="Quote" width="14" height="11" loading="lazy" />
+                                <img src="/library/img/icons/icon-quote.svg" alt="Quote" width="14" height="11" loading="lazy">
                                 <h3 class="sr-only">{{ review6_title }}</h3>
                                 <p>{{ review6_descr }}</p>
                             </blockquote>
@@ -533,7 +534,7 @@
                     <li>
                         <figure class="user-review">
                             <blockquote cite="https://withframes.com">
-                                <img src="/library/img/icons/icon-quote.svg" alt="Quote" width="14" height="11" loading="lazy" />
+                                <img src="/library/img/icons/icon-quote.svg" alt="Quote" width="14" height="11" loading="lazy">
                                 <h3 class="sr-only">{{ review7_title }}</h3>
                                 <p>{{ review7_descr }}</p>
                             </blockquote>
