@@ -23,6 +23,12 @@
                 --grid-vgap: 2.25rem;
                 --list-hgap: 0.25rem;
             }
+            html {
+                box-sizing: border-box;
+            }
+            *, *::before, *::after {
+                box-sizing: inherit;
+            }
             body {
                 color: var(--gray-1);
                 font-size: var(--font-size-body);
@@ -35,9 +41,6 @@
                 margin: 0;
                 padding: 0;
                 line-height: 1.334;
-            }
-            *, ::after, ::before {
-                box-sizing: border-box;
             }
             .grid-2col, .grid-3col, .grid-4col {
                 display: grid;
