@@ -6,6 +6,14 @@ html {
         font-optical-sizing: auto;
     }
 
+    h2 {
+    font-size: var(--font-size-heading3);
+        line-height: 1;
+        font-weight: 600;
+        margin-top: 0;
+        margin-bottom: var(--grid-vgap);
+    }
+
 h3 {
   font-size: var(--font-size-heading1);
     line-height: 120%;
@@ -64,6 +72,7 @@ article h3 {
 
 article p {
   margin-top: 1rem;
+  font-size: var(--font-size-body);
 }
 
 blockquote {
@@ -237,6 +246,16 @@ ul.language-list {
 }
 
 @media (min-width: 768px) {
+  .grid-2col {
+      grid-template-columns: repeat(2, 1fr);
+      gap: var(--grid-hgap);
+  }
+
+  .grid-3col {
+      grid-template-columns: repeat(3, 1fr);
+      gap: var(--grid-hgap);
+  }
+  
   .footer-left {
     grid-column: span 3;
   }

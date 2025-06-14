@@ -36,29 +36,21 @@
                 padding: 0;
                 line-height: 1.334;
             }
-            *,
-            ::after,
-            ::before {
+            *, ::after, ::before {
                 box-sizing: border-box;
             }
-            .grid-2col,
-            .grid-3col,
-            .grid-4col {
-            display: grid;
-            gap: var(--grid-hgap);
-            grid-template-columns: 1fr;
-            width: 100%;
+            .grid-2col, .grid-3col, .grid-4col {
+                display: grid;
+                gap: var(--grid-hgap);
+                grid-template-columns: 1fr;
+                width: 100%;
             }
-            .h1,
-            h1,
-            h2,
-            h3 {
+            .h1, h1, h2, h3 {
                 font-family: Geist, sans-serif;
                 font-style: normal;
                 color: #fff;
             }
-            .h1,
-            h1 {
+            .h1, h1 {
                 font-size: var(--font-size-large);
                 line-height: 1;
                 font-weight: 500;
@@ -66,20 +58,10 @@
                 min-height: 8rem;
                 margin-top: calc(100svh - var(--font-size-large) * 2 - 12rem);
             }
-                h2 {
-                font-size: var(--font-size-heading3);
-                    line-height: 1;
-                    font-weight: 600;
-                    margin-top: 0;
-                    margin-bottom: var(--grid-vgap);
-                }
-                article p {
-                    font-size: var(--font-size-body);
-                }
-                section {
-                    margin-top: calc(var(--large-spacing) - 2rem);
-                    padding-top: 2rem;
-                }
+            section {
+                margin-top: calc(var(--large-spacing) - 2rem);
+                padding-top: 2rem;
+            }
             a.logo {
                 font-family: Geist, sans-serif;
                 color: #fff !important;
@@ -99,16 +81,12 @@
                 flex-direction: column;
                 gap: var(--list-hgap);
             }
-            li,
-            ul {
+            li, ul {
                 list-style: none;
                 margin: 0;
                 padding: 0;
             }
-            a,
-            a:active,
-            a:hover,
-            a:visited {
+            a, a:active, a:hover, a:visited {
                 text-decoration: none;
                 color: inherit;
             }
@@ -129,9 +107,7 @@
                 margin: 0;
                 padding: 0;
             }
-            
-            .input-wrapper > .placeholder,
-            .input-wrapper > input {
+            .input-wrapper > .placeholder, .input-wrapper > input {
                 display: block;
                 -webkit-appearance: none;
                 -moz-appearance: none;
@@ -141,17 +117,15 @@
                 background-color: transparent;
                 border: none;
             }
-
             .desktop-only {
                 display: none;
             }
-
             .download-buttons {
                 position: absolute;
-                top: 1.5rem; right: 1rem;
+                top: 1.5rem;
+                right: 1rem;
                 gap: 1.5rem;
             }
-
             @media (min-width: 768px) {
                 :root {
                     --huge-spacing: 16rem;
@@ -168,22 +142,11 @@
                     --grid-vgap: 3rem;
                     --list-hgap: 0.35rem;
                 }
-                .h1,
-                h1 {
+                .h1, h1 {
                     margin-top: calc(100svh - var(--font-size-large) * 2 - 9.5rem);
                     margin-bottom: 0rem;
                     min-height: 16.4375rem;
                 }
-                .grid-2col {
-                    grid-template-columns: repeat(2, 1fr);
-                    gap: var(--grid-hgap);
-                }
-
-                .grid-3col {
-                    grid-template-columns: repeat(3, 1fr);
-                    gap: var(--grid-hgap);
-                }
-
                 .grid-4col {
                     grid-template-columns: repeat(4, 1fr);
                     gap: var(--grid-hgap);
@@ -201,23 +164,21 @@
                     gap: var(--grid-hgap);
                     padding-top: 2rem;
                 }
-
-            .desktop-only {
-                display: inherit;
+                .desktop-only {
+                    display: inherit;
+                }
+                .nav-links {
+                    display: flex;
+                    gap: 2rem;
+                    list-style: none;
+                    margin: 0;
+                    padding: 0;
+                }
+                .download-buttons {
+                    top: 2rem;
+                    right: 3rem;
+                }
             }
-
-            .nav-links {
-                display: flex;
-                gap: 2rem;
-                list-style: none;
-                margin: 0;
-                padding: 0;
-            }
-            
-            .download-buttons {
-                top: 2rem; right: 3rem;
-            }
-        }
         </style>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
