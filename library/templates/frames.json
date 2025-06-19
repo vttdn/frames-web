@@ -4,14 +4,14 @@
         {
           "@type": "MobileApplication",
           "name": "{{ ios_appname }}",
-          "operatingSystem": "iOS 18.2",
+          "operatingSystem": "iOS 18.0",
           "applicationCategory": "MultimediaApplication",
           "inLanguage": "{{ lang }}",
           "description": "{{ seo_meta_description }}",
           "image": "{{ canonical_url }}/library/img/{{ lang }}/og-image.jpg",
           "url": "{{ appstore_url }}",
           "installUrl": "{{ appstore_url }}",
-          "softwareVersion": "1.0.6",
+          "softwareVersion": "1.1.4",
           "screenshot": "{{ canonical_url }}/library/img/{{ lang }}/og-image.jpg",
           "isAccessibleForFree": true,
           "keywords": "{{ seo_meta_keywords }}",
@@ -139,14 +139,14 @@
         {
           "@type": "SoftwareApplication",
           "name": "{{ mac_appname }}",
-          "operatingSystem": "macOS 15.2",
+          "operatingSystem": "macOS 15.0",
           "applicationCategory": "MultimediaApplication",
           "inLanguage": "{{ lang }}",
           "description": "{{ seo_meta_description }}",
           "image": "{{ canonical_url }}/library/img/{{ lang }}/og-image.jpg",
           "url": "{{ macappstore_url }}",
           "installUrl": "{{ macappstore_url }}",
-          "softwareVersion": "1.0.3",
+          "softwareVersion": "1.0.6",
           "mainEntity": {
             "@type": "WebPage",
             "@id": "https://withframes.com/"
