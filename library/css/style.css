@@ -26,10 +26,10 @@ h3 {
 }
 
 .screenshot-container {
-  background-color: rgb(20,20,20);
+  background-color: rgb(12,12,12);
   /* background-color: #0C0C0C; */
-  border-radius: 1.5rem;
-  /* border: 1px solid #333333; */
+  border-radius: 1rem;
+  border: 1px solid rgb(51, 51, 51);
   text-align: center;
   box-sizing: border-box;
 }
@@ -77,9 +77,9 @@ blockquote p {
 figure {
   break-inside: avoid;
   /* background-color: #0C0C0C; */
-  background-color: rgb(20,20,20);
-  border-radius: 1.5rem;
-  /* border: 1px solid #333333; */
+  background-color: rgb(12,12,12);
+  border-radius: 1rem;
+  border: 1px solid rgb(51, 51, 51);
   padding: 1.5rem 1.25rem;
   margin: 0;
   display: flex;
