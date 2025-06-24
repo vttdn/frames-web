@@ -16,7 +16,7 @@ h2 {
 
 h3 {
   font-size: var(--font-size-heading3);
-    line-height: 120%;
+    line-height: 1.5;
     font-weight: 600;
 }
 
@@ -223,7 +223,7 @@ footer h3 {
 
 .subfooter {
   font-size: var(--font-size-small);
-  margin-top: calc(var(--large-spacing) - 2rem);
+  margin-top: var(--huge-spacing);
   color: var(--gray-1);
 }
 
