@@ -2,30 +2,26 @@ html {
   scroll-behavior: smooth;
 }
 
-    body, h1, .h1, h2, h3, a.logo {
-        font-optical-sizing: auto;
-    }
+body, h1, .h1, h2, h3, a.logo {
+  font-optical-sizing: auto;
+}
 
-    h2 {
-    font-size: var(--font-size-heading3);
-        line-height: 1;
-        font-weight: 600;
-        margin-top: 0;
-        margin-bottom: var(--grid-vgap);
-    }
+h2 {
+  font-size: var(--font-size-heading2);
+  line-height: 1;
+  font-weight: 600;
+  margin-top: 0;
+  margin-bottom: var(--grid-vgap);
+}
 
 h3 {
-  font-size: var(--font-size-heading1);
+  font-size: var(--font-size-heading3);
     line-height: 120%;
     font-weight: 600;
 }
 
 .text-bigbody {
-  font-family: "Geist", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
-  color: white;
-  font-size: var(--font-size-heading2);
+  font-size: var(--font-size-body-big);
   margin-top: 0;
   font-weight: 400;
   line-height: 1.25;
@@ -111,7 +107,7 @@ details summary {
   font-family: "Geist", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
-  font-size: var(--font-size-heading1);
+  font-size: var(--font-size-heading3);
   color: white;
   cursor: pointer;
   list-style: none;
@@ -170,12 +166,9 @@ details[open] summary::before {
 }
 
 .footer-left {
-  font-size: var(--font-size-heading4);
-  font-family: "Geist", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
+  font-size: var(--font-size-heading2);
   color: white;
-  line-height: 1.1;
+  line-height: 1.25;
   font-weight: 500;
 }
 
@@ -193,7 +186,7 @@ a.copyright {
 }
 
 button {
-  font-family: "Geist Mono", monospace;
+  font-family: monospace;
   font-size: var(--font-size-small);
   text-transform: uppercase;
   display: inline-flex;
@@ -270,5 +263,9 @@ ul.language-list {
   .feature-list-mobile,
   .feature-list-desktop {
     row-gap: var(--grid-vgap);
+  }
+
+  article p {
+    margin-top: 1.5rem;
   }
 }
