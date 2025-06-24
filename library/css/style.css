@@ -176,9 +176,9 @@ ul.language-list {
   font-size: var(--font-size-body);
   display: none;
   position: absolute;
-  bottom: 0; /* place above the button */
-  right: 0; /* align to right of button */
-  left: auto;
+  bottom: 0;
+  left: 0;
+  right: auto;
   background-color: white;
   min-width: 160px;
   max-height: 188px;
@@ -266,5 +266,10 @@ footer h3 {
 
   details summary::before {
     font-size: 2rem;
+  }
+
+  ul.language-list {
+    right: 0;
+    left: auto;
   }
 }
