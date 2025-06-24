@@ -132,7 +132,7 @@ details[open] summary::before {
 }
 
 .footer {
-  margin-top: var(--huge-spacing);
+  margin-top: var(--large-spacing);
   padding-bottom: 2rem;
   /* gap: var(--grid-hgap); */
 }
@@ -223,7 +223,7 @@ footer h3 {
 
 .subfooter {
   font-size: var(--font-size-small);
-  margin-top: var(--huge-spacing);
+  margin-top: var(--large-spacing);
   color: var(--gray-1);
 }
 
