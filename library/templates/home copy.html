@@ -54,6 +54,14 @@
     </head>
     <body>
         <header class="wrapper" id="frames">
+            <a href="{{ appstore_url }}" class="download-buttons">
+                <img fetchpriority="high" src="/library/img/{{ lang }}/appstore-badge.webp"
+                    srcset="/library/img/{{ lang }}/appstore-badge.webp,
+                        /library/img/{{ lang }}/appstore-badge@2x.webp 2x,
+                        /library/img/{{ lang }}/appstore-badge@3x.webp 3x"
+                    alt="{{ button_label_download_ios }}"
+                    width="{{ appstore_badge_width }}" height="40">
+            </a>
             <nav class="navigation" aria-label="Main navigation">
                 <ul class="grid-4col">
                     <li><a href="{{ canonical_url }}" class="logo">Frames ®</a></li>
@@ -63,16 +71,6 @@
                             <a href="#iphone">{{ navigation_label_forios }}</a>
                             <a href="#mac">{{ navigation_label_formac }}</a>
                         </li>
-                    <li>
-                        <a href="{{ appstore_url }}" class="download-buttons">
-                            <img fetchpriority="high" src="/library/img/{{ lang }}/appstore-badge.webp"
-                                srcset="/library/img/{{ lang }}/appstore-badge.webp,
-                                    /library/img/{{ lang }}/appstore-badge@2x.webp 2x,
-                                    /library/img/{{ lang }}/appstore-badge@3x.webp 3x"
-                                alt="{{ button_label_download_ios }}"
-                                width="{{ appstore_badge_width }}" height="40">
-                        </a>
-                    </li>
                 </ul>
             </nav>
             <h1 class="sr-only">{{ seo_meta_title }}</h1>
