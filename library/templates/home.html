@@ -232,16 +232,16 @@
         <ul class="download-buttons">
             <li class="desktop-only">
                 <a href="{{ macappstore_url }}">
-                    <img src="/library/img/{{ lang }}/appstore-badge-dark.webp" srcset="/library/img/{{ lang }}/appstore-badge-dark.webp,
+                    <img fetchpriority="high" src="/library/img/{{ lang }}/appstore-badge-dark.webp" srcset="/library/img/{{ lang }}/appstore-badge-dark.webp,
                                 /library/img/{{ lang }}/appstore-badge-dark@2x.webp 2x,
-                                /library/img/{{ lang }}/appstore-badge-dark@3x.webp 3x" alt="{{ button_label_download_mac }}" style="width: 157px; height: 40px">
+                                /library/img/{{ lang }}/appstore-badge-dark@3x.webp 3x" alt="{{ button_label_download_mac }}" style="width: auto; height: 40px">
                 </a>
             </li>
             <li>
                 <a href="{{ appstore_url }}">
-                    <img src="/library/img/{{ lang }}/appstore-badge.webp" srcset="/library/img/{{ lang }}/appstore-badge.webp,
+                    <img fetchpriority="high" src="/library/img/{{ lang }}/appstore-badge.webp" srcset="/library/img/{{ lang }}/appstore-badge.webp,
                                 /library/img/{{ lang }}/appstore-badge@2x.webp 2x,
-                                /library/img/{{ lang }}/appstore-badge@3x.webp 3x" alt="{{ button_label_download_ios }}" style="width: {{ appstore_badge_width }}px; height: 40px">
+                                /library/img/{{ lang }}/appstore-badge@3x.webp 3x" alt="{{ button_label_download_ios }}" style="width: auto; height: 40px">
                 </a>
             </li>
         </ul>
