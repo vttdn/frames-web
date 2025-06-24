@@ -15,7 +15,7 @@
             --font-size-heading1: 3.5rem;
             --font-size-heading2: 1.75rem;
             --font-size-heading3: 1.125rem;
-            --grid-hgap: 1rem;
+            --gap: 1rem;
             --grid-vgap: 2.25rem;
             --list-hgap: 0.25rem;
         }
@@ -46,7 +46,7 @@
         .grid-4col,
         .grid-5col {
             display: grid;
-            gap: var(--grid-hgap);
+            gap: var(--gap);
             grid-template-columns: 1fr;
             width: 100%;
         }
@@ -149,7 +149,7 @@
                 --font-size-heading1: 7rem;
                 --font-size-heading2: 3rem;
                 --font-size-heading3: 1.5rem;
-                --grid-hgap: 1.5rem;
+                --gap: 1.5rem;
                 --grid-vgap: 4.5rem;
                 --list-hgap: 0.35rem;
             }
@@ -165,11 +165,10 @@
             }
             .grid-4col {
                 grid-template-columns: repeat(4, 1fr);
-                gap: var(--grid-hgap);
             }
             .wrapper {
-                padding-left: 3rem;
-                padding-right: 3rem;
+                padding-left: 2rem;
+                padding-right: 2rem;
                 max-width: 112rem;
                 margin: 0 auto;
             }
@@ -177,7 +176,7 @@
                 display: flex;
                 justify-content: space-between;
                 align-items: center;
-                gap: var(--grid-hgap);
+                gap: var(--gap);
             }
             .desktop-only {
                 display: inherit;

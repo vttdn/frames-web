@@ -48,7 +48,7 @@ h3 {
 .review-list li {
   display: flex;
   flex-direction: column;
-  gap: var(--grid-hgap);
+  gap: var(--gap);
 }
 
 .review-list h3 {
@@ -60,7 +60,7 @@ article h3 {
 }
 
 article p {
-  margin-top: 1rem;
+  margin-top: var(--gap);;
   font-size: var(--font-size-body);
 }
 
@@ -134,7 +134,6 @@ details[open] summary::before {
 .footer {
   margin-top: var(--large-spacing);
   padding-bottom: 2rem;
-  /* gap: var(--grid-hgap); */
 }
 
 .footer-nav {
@@ -230,24 +229,21 @@ footer h3 {
 @media (min-width: 768px) {
   .grid-2col {
       grid-template-columns: repeat(2, 1fr);
-      gap: var(--grid-hgap);
   }
 
   .grid-3col {
       grid-template-columns: repeat(3, 1fr);
-      gap: var(--grid-hgap);
   }
 
   .grid-5col {
     grid-template-columns: repeat(5, 1fr);
-    gap: var(--grid-hgap);
   }
 
   .footer {
     /* grid-template-columns: repeat(12, 1fr); */
     align-items: end;
     padding-bottom: 2rem;
-    gap: var(--grid-hgap);
+    gap: var(--gap);
   }
 
   .feature-list-mobile,
@@ -257,10 +253,6 @@ footer h3 {
 
   article h3 {
     margin-top: 2rem;
-  }
-
-  article p {
-    margin-top: 1rem;
   }
 
   .subfooter li:last-of-type {
