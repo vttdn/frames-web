@@ -104,6 +104,7 @@ details summary {
   list-style: none;
   position: relative;
   padding-right: 1.5rem;
+  top: -0.125rem;
   height: var(--font-size-heading3) * 3;
 }
 
@@ -121,10 +122,9 @@ details summary::before {
   right: 0;
   top: 50%;
   transform: translateY(-50%);
-  font-family: "Geist", sans-serif;
   font-weight: 400;
   line-height: 1;
-  font-size: 2rem;
+  font-size: 1.25rem;
 }
 
 details[open] summary::before {
@@ -255,8 +255,12 @@ footer h3 {
     row-gap: var(--grid-vgap);
   }
 
+  article h3 {
+    margin-top: 2rem;
+  }
+
   article p {
-    margin-top: 0.875rem;
+    margin-top: 1rem;
   }
 
   .subfooter li:last-of-type {
@@ -264,6 +268,10 @@ footer h3 {
   }
 
   .footer-nav {
+    font-size: 2rem;
+  }
+
+  details summary::before {
     font-size: 2rem;
   }
 }
