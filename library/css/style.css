@@ -56,11 +56,12 @@ h3 {
 }
 
 article h3 {
+  margin-top: var(--gap);
   margin-bottom: 0;
 }
 
 article p {
-  margin-top: 1rem;
+  margin-top: .5rem;
   font-size: var(--font-size-body);
 }
 
@@ -251,12 +252,16 @@ footer h3 {
     row-gap: var(--grid-vgap);
   }
 
-  article h3 {
-    margin-top: 2rem;
-  }
-
   .subfooter li:last-of-type {
     text-align: right;
+  }
+
+  details h3 {
+    margin: 1.75rem 0;
+  }
+
+  article p {
+    margin-top: 1rem;
   }
 
   details summary::before {
