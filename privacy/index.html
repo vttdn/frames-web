@@ -25,9 +25,6 @@
 
     <title>Privacy Policy - Frames</title>
     <meta name="description" content="Read the privacy policy for Frames, the analog photography notebook app. Learn how we handle your data with care on both mobile and desktop." />
-    <meta name="keywords" content="frames privacy,frames app privacy,film photography privacy,analog app data,privacy policy,film notes app,photo metadata app,frames data policy" />
-    <meta name="robots" content="index, follow" />
-    <meta name="author" content="Vincent Tantardini" />
 
     <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image" />
@@ -47,15 +44,9 @@
     <meta property="og:locale" content="en_US" />
 
     <!-- ICO (legacy) + SVG (modern) -->
-    <link rel="shortcut icon" href="/favicon.ico" sizes="any">
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
-
-    <!-- High-res PNG for light/dark modes -->
-    <link rel="icon" href="/favicon-light.png" type="image/png" media="(prefers-color-scheme: light)" sizes="512x512">
-    <link rel="icon" href="/favicon-dark.png" type="image/png" media="(prefers-color-scheme: dark)" sizes="512x512">
-
-    <!-- Apple Touch Icon (iOS) -->
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" href="/favicon.ico" sizes="32x32">
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 
     <meta name="apple-itunes-app" content="app-id=6744057317" />
 
@@ -108,24 +99,30 @@
 
     <style>
       body {
-        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-        line-height: 1.6;
-        margin: 20px;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+        line-height: 1.5;
         padding: 20px;
-        max-width: 800px;
-        margin: auto;
+        padding: 0 1rem;
+        color: #b3b3b3;
+        background-color: black;
       }
-      h2 {
-        font-size: 1.5em;
-        font-weight: 600;
-        margin-top: 20px;
-      }
-      p {
-        margin-bottom: 15px;
+      main {
+        max-width: 30rem;
+        margin: 7.5rem auto;
       }
       .last-updated {
+        font-family: monospace;
         font-style: italic;
-        margin-bottom: 20px;
+      }
+      h1, h2, a {
+        color: white;
+      }
+      h2 {
+        font-weight: 400;
+        font-size: inherit;
+      }
+      .margin-5 {
+        margin-bottom: 5rem;
       }
     </style>
   </head>
@@ -136,36 +133,36 @@
   <meta itemprop="dateModified" content="2025-03-15" />
 
   <main role="main">
-  <article aria-labelledby="privacy-heading">
-    <header>
-      <h1 id="privacy-heading" itemprop="headline">Privacy Policy</h1>
-      <p class="last-updated">Last updated: Mar 15, 2025</p>
-    </header>
+    <article aria-labelledby="privacy-heading">
+      <header>
+        <h1 id="privacy-heading" itemprop="headline">Privacy Policy</h1>
+      </header>
 
-    <section>
-      <h2>Our Commitment to Your Privacy</h2>
-      <p>This app does not collect, store, or share any personal data. All user data is stored locally on your device and never transmitted to any server or third party. We do not use analytics, tracking, or online services that collect user information.</p>
-      <p>However, the app allows you to export files. Any data you choose to share or save externally is under your control. The developer does not track or access exported files.</p>
-    </section>
+      <section>
+        <h2>Our Commitment to Your Privacy</h2>
+        <p>This app does not collect, store, or share any personal data. All user data is stored locally on your device and never transmitted to any server or third party. We do not use analytics, tracking, or online services that collect user information.</p>
+        <p>However, the app allows you to export files. Any data you choose to share or save externally is under your control. The developer does not track or access exported files.</p>
+      </section>
 
-    <section>
-      <h2>Contact</h2>
-      <div>
+      <section class="margin-5">
+        <h2>Contact</h2>
+        <div>
+          <p>
+            If you have any questions or concerns, you can get in touch at:
+            <a href="mailto:&#104;&#105;&#64;&#119;&#105;&#116;&#104;&#102;&#114;&#97;&#109;&#101;&#115;&#46;&#99;&#111;&#109;">&#104;&#105;&#64;&#119;&#105;&#116;&#104;&#102;&#114;&#97;&#109;&#101;&#115;&#46;&#99;&#111;&#109;</a>.
+          </p>
+        </div>
+      </section>
+
+      <footer>
         <p>
-          If you have any questions or concerns, you can get in touch at:
-          <a href="mailto:&#104;&#105;&#64;&#119;&#105;&#116;&#104;&#102;&#114;&#97;&#109;&#101;&#115;&#46;&#99;&#111;&#109;">&#104;&#105;&#64;&#119;&#105;&#116;&#104;&#102;&#114;&#97;&#109;&#101;&#115;&#46;&#99;&#111;&#109;</a>.
+        <span class="last-updated">Last updated: Mar 15, 2025</span><br>
+          <a href="https://withframes.com/" rel="home" title="{{ meta_title }}">
+            Home
+          </a>
         </p>
-      </div>
-    </section>
-
-    <footer>
-      <p>
-        <a href="https://withframes.com/" rel="home" title="{{ meta_title }}">
-          Home
-        </a>
-      </p>
-    </footer>
-  </article>
+      </footer>
+    </article>
   </main>
 </body>
 </html>
