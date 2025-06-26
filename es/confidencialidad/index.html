@@ -124,6 +124,24 @@
       .margin-5 {
         margin-bottom: 5rem;
       }
+      .button {
+        padding: 0.75rem 2.5rem;
+        border-radius: 9999px;
+        border: 1px solid white;
+        text-decoration: none;
+        line-height: 1;
+      }
+      footer { text-align: center; margin-top: 7.5rem}
+        .sr-only {
+            position: absolute;
+            width: 1px;
+            height: 1px;
+            margin: -1px;
+            padding: 0;
+            border: 0;
+            clip: rect(0, 0, 0, 0);
+            overflow: hidden;
+        }
     </style>
   </head>
   <body itemscope itemtype="https://schema.org/WebPage">
@@ -135,7 +153,7 @@
   <main role="main">
     <article aria-labelledby="privacy-heading">
       <header>
-        <h1 id="privacy-heading" itemprop="headline">Política de Privacidad</h1>
+        <h1 id="privacy-heading" itemprop="headline" class="sr-only">Política de Privacidad</h1>
       </header>
 
       <section>
@@ -144,21 +162,23 @@
         <p>Sin embargo, la app te permite exportar archivos. Cualquier dato que elijas compartir o guardar fuera de la aplicación es bajo tu entera responsabilidad. El desarrollador no tiene acceso a tus archivos exportados.</p>
       </section>
 
-      <section class="margin-5">
-        <h2>Contacto</h2>
+      <section>
+        <h2 class="sr-only">Contacto</h2>
         <div>
-          <p>
+          <p class="margin-5">
             Para cualquier pregunta o inquietud, puedes contactarnos en la siguiente dirección:
             <a href="mailto:&#104;&#105;&#64;&#119;&#105;&#116;&#104;&#102;&#114;&#97;&#109;&#101;&#115;&#46;&#99;&#111;&#109;">&#104;&#105;&#64;&#119;&#105;&#116;&#104;&#102;&#114;&#97;&#109;&#101;&#115;&#46;&#99;&#111;&#109;</a>.
+          </p>
+          <p>
+            <span class="last-updated">Última actualización: 15 marzo 2025</span>
           </p>
         </div>
       </section>
 
       <footer>
         <p>
-        <span class="last-updated">Última actualización: 15 marzo 2025</span><br>
-          <a href="https://withframes.com/es/" rel="home" title="{{ meta_title }}">
-            Inicio
+          <a href="https://withframes.com/es/" rel="home" title="Frames - Cuaderno de notas y metadatos para fotografía analógica" class="button">
+            Inicio 
           </a>
         </p>
       </footer>

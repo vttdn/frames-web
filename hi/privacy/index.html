@@ -124,6 +124,24 @@
       .margin-5 {
         margin-bottom: 5rem;
       }
+      .button {
+        padding: 0.75rem 2.5rem;
+        border-radius: 9999px;
+        border: 1px solid white;
+        text-decoration: none;
+        line-height: 1;
+      }
+      footer { text-align: center; margin-top: 7.5rem}
+        .sr-only {
+            position: absolute;
+            width: 1px;
+            height: 1px;
+            margin: -1px;
+            padding: 0;
+            border: 0;
+            clip: rect(0, 0, 0, 0);
+            overflow: hidden;
+        }
     </style>
   </head>
   <body itemscope itemtype="https://schema.org/WebPage">
@@ -135,7 +153,7 @@
   <main role="main">
     <article aria-labelledby="privacy-heading">
       <header>
-        <h1 id="privacy-heading" itemprop="headline">गोपनीयता नीति</h1>
+        <h1 id="privacy-heading" itemprop="headline" class="sr-only">गोपनीयता नीति</h1>
       </header>
 
       <section>
@@ -144,21 +162,23 @@
         <p>हालांकि, ऐप आपको फाइलों को निर्यात करने की अनुमति देता है। ऐप के बाहर साझा करने या सहेजने के लिए आपके द्वारा चुना गया कोई भी डेटा पूरी तरह से आपकी जिम्मेदारी है। डेवलपर के पास आपकी निर्यात की गई फाइलों तक कोई पहुंच नहीं है।</p>
       </section>
 
-      <section class="margin-5">
-        <h2>संपर्क</h2>
+      <section>
+        <h2 class="sr-only">संपर्क</h2>
         <div>
-          <p>
+          <p class="margin-5">
             किसी भी प्रश्न या चिंता के लिए आप हमें निम्न पते पर संपर्क कर सकते हैं:
             <a href="mailto:&#104;&#105;&#64;&#119;&#105;&#116;&#104;&#102;&#114;&#97;&#109;&#101;&#115;&#46;&#99;&#111;&#109;">&#104;&#105;&#64;&#119;&#105;&#116;&#104;&#102;&#114;&#97;&#109;&#101;&#115;&#46;&#99;&#111;&#109;</a>.
+          </p>
+          <p>
+            <span class="last-updated">अंतिम अपडेट: 15 मार्च 2025</span>
           </p>
         </div>
       </section>
 
       <footer>
         <p>
-        <span class="last-updated">अंतिम अपडेट: 15 मार्च 2025</span><br>
-          <a href="https://withframes.com/hi/" rel="home" title="{{ meta_title }}">
-            होम पर जाएं
+          <a href="https://withframes.com/hi/" rel="home" title="Frames - फिल्म फोटोग्राफी के लिए नोटबुक और मेटाडेटा ऐप" class="button">
+            होम पर जाएं 
           </a>
         </p>
       </footer>

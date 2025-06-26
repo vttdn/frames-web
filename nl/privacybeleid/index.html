@@ -124,6 +124,24 @@
       .margin-5 {
         margin-bottom: 5rem;
       }
+      .button {
+        padding: 0.75rem 2.5rem;
+        border-radius: 9999px;
+        border: 1px solid white;
+        text-decoration: none;
+        line-height: 1;
+      }
+      footer { text-align: center; margin-top: 7.5rem}
+        .sr-only {
+            position: absolute;
+            width: 1px;
+            height: 1px;
+            margin: -1px;
+            padding: 0;
+            border: 0;
+            clip: rect(0, 0, 0, 0);
+            overflow: hidden;
+        }
     </style>
   </head>
   <body itemscope itemtype="https://schema.org/WebPage">
@@ -135,7 +153,7 @@
   <main role="main">
     <article aria-labelledby="privacy-heading">
       <header>
-        <h1 id="privacy-heading" itemprop="headline">Privacybeleid</h1>
+        <h1 id="privacy-heading" itemprop="headline" class="sr-only">Privacybeleid</h1>
       </header>
 
       <section>
@@ -144,21 +162,23 @@
         <p>De app staat echter wel bestandsexport toe. Alle gegevens die je buiten de app deelt of opslaat, zijn volledig je eigen verantwoordelijkheid. De ontwikkelaar heeft geen toegang tot je geëxporteerde bestanden.</p>
       </section>
 
-      <section class="margin-5">
-        <h2>Contact</h2>
+      <section>
+        <h2 class="sr-only">Contact</h2>
         <div>
-          <p>
+          <p class="margin-5">
             Voor vragen of opmerkingen kun je contact met ons opnemen via:
             <a href="mailto:&#104;&#105;&#64;&#119;&#105;&#116;&#104;&#102;&#114;&#97;&#109;&#101;&#115;&#46;&#99;&#111;&#109;">&#104;&#105;&#64;&#119;&#105;&#116;&#104;&#102;&#114;&#97;&#109;&#101;&#115;&#46;&#99;&#111;&#109;</a>.
+          </p>
+          <p>
+            <span class="last-updated">Laatst bijgewerkt: 15 maart 2025</span>
           </p>
         </div>
       </section>
 
       <footer>
         <p>
-        <span class="last-updated">Laatst bijgewerkt: 15 maart 2025</span><br>
-          <a href="https://withframes.com/nl/" rel="home" title="{{ meta_title }}">
-            Home
+          <a href="https://withframes.com/nl/" rel="home" title="Frames - Notitieboek en metadata voor analoge fotografie" class="button">
+            Home 
           </a>
         </p>
       </footer>

@@ -124,6 +124,24 @@
       .margin-5 {
         margin-bottom: 5rem;
       }
+      .button {
+        padding: 0.75rem 2.5rem;
+        border-radius: 9999px;
+        border: 1px solid white;
+        text-decoration: none;
+        line-height: 1;
+      }
+      footer { text-align: center; margin-top: 7.5rem}
+        .sr-only {
+            position: absolute;
+            width: 1px;
+            height: 1px;
+            margin: -1px;
+            padding: 0;
+            border: 0;
+            clip: rect(0, 0, 0, 0);
+            overflow: hidden;
+        }
     </style>
   </head>
   <body itemscope itemtype="https://schema.org/WebPage">
@@ -135,7 +153,7 @@
   <main role="main">
     <article aria-labelledby="privacy-heading">
       <header>
-        <h1 id="privacy-heading" itemprop="headline">隐私政策</h1>
+        <h1 id="privacy-heading" itemprop="headline" class="sr-only">隐私政策</h1>
       </header>
 
       <section>
@@ -144,21 +162,23 @@
         <p>但应用允许导出文件。您选择在应用外分享或保存的数据完全由您负责。开发者无法访问您导出的文件。</p>
       </section>
 
-      <section class="margin-5">
-        <h2>联系</h2>
+      <section>
+        <h2 class="sr-only">联系</h2>
         <div>
-          <p>
+          <p class="margin-5">
             如有任何问题或疑虑，请联系：
             <a href="mailto:&#104;&#105;&#64;&#119;&#105;&#116;&#104;&#102;&#114;&#97;&#109;&#101;&#115;&#46;&#99;&#111;&#109;">&#104;&#105;&#64;&#119;&#105;&#116;&#104;&#102;&#114;&#97;&#109;&#101;&#115;&#46;&#99;&#111;&#109;</a>.
+          </p>
+          <p>
+            <span class="last-updated">最后更新：2025年3月15日</span>
           </p>
         </div>
       </section>
 
       <footer>
         <p>
-        <span class="last-updated">最后更新：2025年3月15日</span><br>
-          <a href="https://withframes.com/zh/" rel="home" title="{{ meta_title }}">
-            返回首页
+          <a href="https://withframes.com/zh/" rel="home" title="Frames - 胶片摄影的元数据记录应用" class="button">
+            返回首页 
           </a>
         </p>
       </footer>

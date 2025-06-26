@@ -124,6 +124,24 @@
       .margin-5 {
         margin-bottom: 5rem;
       }
+      .button {
+        padding: 0.75rem 2.5rem;
+        border-radius: 9999px;
+        border: 1px solid white;
+        text-decoration: none;
+        line-height: 1;
+      }
+      footer { text-align: center; margin-top: 7.5rem}
+        .sr-only {
+            position: absolute;
+            width: 1px;
+            height: 1px;
+            margin: -1px;
+            padding: 0;
+            border: 0;
+            clip: rect(0, 0, 0, 0);
+            overflow: hidden;
+        }
     </style>
   </head>
   <body itemscope itemtype="https://schema.org/WebPage">
@@ -135,7 +153,7 @@
   <main role="main">
     <article aria-labelledby="privacy-heading">
       <header>
-        <h1 id="privacy-heading" itemprop="headline">{{ privacy_label }}</h1>
+        <h1 id="privacy-heading" itemprop="headline" class="sr-only">{{ privacy_label }}</h1>
       </header>
 
       <section>
@@ -144,21 +162,23 @@
         <p>{{ privacy_text_block2 }}</p>
       </section>
 
-      <section class="margin-5">
-        <h2>{{ privacy_contact_title }}</h2>
+      <section>
+        <h2 class="sr-only">{{ privacy_contact_title }}</h2>
         <div>
-          <p>
+          <p class="margin-5">
             {{ privacy_contact_text }}
             <a href="mailto:&#104;&#105;&#64;&#119;&#105;&#116;&#104;&#102;&#114;&#97;&#109;&#101;&#115;&#46;&#99;&#111;&#109;">&#104;&#105;&#64;&#119;&#105;&#116;&#104;&#102;&#114;&#97;&#109;&#101;&#115;&#46;&#99;&#111;&#109;</a>.
+          </p>
+          <p>
+            <span class="last-updated">{{ privacy_text_date }}</span>
           </p>
         </div>
       </section>
 
       <footer>
         <p>
-        <span class="last-updated">{{ privacy_text_date }}</span><br>
-          <a href="{{ canonical_url }}" rel="home" title="{{ meta_title }}">
-            {{ button_back_label }}
+          <a href="{{ canonical_url }}" rel="home" title="{{ seo_meta_title }}" class="button">
+            {{ button_back_label }} 
           </a>
         </p>
       </footer>

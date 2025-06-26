@@ -124,6 +124,24 @@
       .margin-5 {
         margin-bottom: 5rem;
       }
+      .button {
+        padding: 0.75rem 2.5rem;
+        border-radius: 9999px;
+        border: 1px solid white;
+        text-decoration: none;
+        line-height: 1;
+      }
+      footer { text-align: center; margin-top: 7.5rem}
+        .sr-only {
+            position: absolute;
+            width: 1px;
+            height: 1px;
+            margin: -1px;
+            padding: 0;
+            border: 0;
+            clip: rect(0, 0, 0, 0);
+            overflow: hidden;
+        }
     </style>
   </head>
   <body itemscope itemtype="https://schema.org/WebPage">
@@ -135,7 +153,7 @@
   <main role="main">
     <article aria-labelledby="privacy-heading">
       <header>
-        <h1 id="privacy-heading" itemprop="headline">プライバシーポリシー</h1>
+        <h1 id="privacy-heading" itemprop="headline" class="sr-only">プライバシーポリシー</h1>
       </header>
 
       <section>
@@ -144,21 +162,23 @@
         <p>ただし、アプリはファイルのエクスポート機能を提供しています。エクスポートしたデータの取扱いはユーザーの責任範囲となります。開発者がエクスポートファイルにアクセスすることはありません。</p>
       </section>
 
-      <section class="margin-5">
-        <h2>連絡先</h2>
+      <section>
+        <h2 class="sr-only">連絡先</h2>
         <div>
-          <p>
+          <p class="margin-5">
             ご質問や懸念がある場合は、以下のアドレスまでご連絡ください:
             <a href="mailto:&#104;&#105;&#64;&#119;&#105;&#116;&#104;&#102;&#114;&#97;&#109;&#101;&#115;&#46;&#99;&#111;&#109;">&#104;&#105;&#64;&#119;&#105;&#116;&#104;&#102;&#114;&#97;&#109;&#101;&#115;&#46;&#99;&#111;&#109;</a>.
+          </p>
+          <p>
+            <span class="last-updated">最終更新: 2025年3月15日</span>
           </p>
         </div>
       </section>
 
       <footer>
         <p>
-        <span class="last-updated">最終更新: 2025年3月15日</span><br>
-          <a href="https://withframes.com/ja/" rel="home" title="{{ meta_title }}">
-            ホームへ戻る
+          <a href="https://withframes.com/ja/" rel="home" title="Frames - フィルム写真のためのメタデータ管理アプリ" class="button">
+            ホームへ戻る 
           </a>
         </p>
       </footer>
