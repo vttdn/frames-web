@@ -505,15 +505,15 @@
             </li>
             <li>
                 <div class="dropdown">
-                    <input type="checkbox" id="dropdown-toggle">
+                    <input type="checkbox" id="dropdown-toggle" aria-hidden="true">
 
-                    <label for="dropdown-toggle" class="dropdown-button">
-                        <img fetchpriority="low" src="/library/img/icons/globe.svg" alt="Globe Icon" loading="lazy">
+                    <label for="dropdown-toggle" class="dropdown-button" aria-expanded="false" aria-haspopup="true" aria-controls="language-menu">
+                        <img fetchpriority="low" src="/library/img/icons/globe.svg" alt="Globe Icon" aria-hidden="true" loading="lazy">
                         <span>{{ footer_label_language }}</span>
-                        <img fetchpriority="low" src="/library/img/icons/chevron.svg" alt="Chevron Icon" loading="lazy">
+                        <img fetchpriority="low" src="/library/img/icons/chevron.svg" alt="Chevron Icon" aria-hidden="true" loading="lazy">
                     </label>
 
-                    <ul class="dropdown-content" role="menu">
+                    <ul class="dropdown-content" id="language-menu" role="menu">
                         <li><a role="menuitem" href="/de/">Deutsch</a></li>
                         <li><a role="menuitem" href="/">English</a></li>
                         <li><a role="menuitem" href="/es/">Español</a></li>
