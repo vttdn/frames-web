@@ -144,7 +144,7 @@
         @media (min-width: 768px) {
             :root {
                 --large-spacing: 10rem;
-                --font-size-small: 0.875rem;
+                --font-size-small: 1rem;
                 --font-size-body: 1.0625rem;
                 --font-size-heading1: 7rem;
                 --font-size-heading2: 3rem;
@@ -500,15 +500,20 @@
         <ul class="grid-2col subfooter">
             <li>
                 <a href="https://vnn.io/" class="copyright" title="Vincent Tantardini – personal website" rel="me">
-                            Copyright © 2025 Vincent Tantardini. Tutti i diritti riservati.
-                        </a>
+                    Copyright © 2025 Vincent Tantardini. Tutti i diritti riservati.
+                </a>
             </li>
             <li>
-                <div class="language-dropdown">
-                    <button class="language-button" aria-haspopup="true" aria-expanded="true">
-                        <img fetchpriority="low" src="/library/img/icons/globe.svg" alt="Globe Icon" width="13" height="13" loading="lazy"> Lingua
-                    </button>
-                    <ul class="language-list" role="menu">
+                <div class="dropdown">
+                    <input type="checkbox" id="dropdown-toggle">
+
+                    <label for="dropdown-toggle" class="dropdown-button">
+                        <img fetchpriority="low" src="/library/img/icons/globe.svg" alt="Globe Icon" loading="lazy">
+                        <span>Lingua</span>
+                        <img fetchpriority="low" src="/library/img/icons/chevron.svg" alt="Chevron Icon" loading="lazy">
+                    </label>
+
+                    <ul class="dropdown-content" role="menu">
                         <li><a role="menuitem" href="/de/">Deutsch</a></li>
                         <li><a role="menuitem" href="/">English</a></li>
                         <li><a role="menuitem" href="/es/">Español</a></li>
