@@ -167,7 +167,7 @@ details[open] summary::before {
   cursor: pointer;
   font-size: var(--font-size-small);
   /* transition: background 0.3s; */
-  min-width: 11.25rem;
+  min-width: 14rem;
   text-align: left;
   z-index: 9999;
 }
@@ -198,7 +198,7 @@ details[open] summary::before {
   left: auto;
   right: 0;
   background-color: black;
-  min-width: 11.25rem;
+  min-width: 14rem;
   max-height: 188px;
   overflow-y: auto;
   margin: 0; 
