@@ -271,10 +271,6 @@ footer h3 {
   color: var(--gray-1);
 }
 
-.takes-2 {
-  span: 2;
-}
-
 @media (min-width: 768px) {
   .grid-2col {
       grid-template-columns: repeat(2, 1fr);
@@ -286,6 +282,10 @@ footer h3 {
 
   .grid-5col {
     grid-template-columns: repeat(5, 1fr);
+  }
+
+  .takes-2 {
+    grid-column: span 2;
   }
 
   .footer {
