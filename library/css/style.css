@@ -211,21 +211,26 @@ details[open] summary::before {
   visibility: hidden;
   transform: translateY(1rem);
   transition: 
-      opacity 0.3s ease,
-      transform 0.3s ease,
-      visibility 0.3s;
+      opacity 0.2s ease,
+      transform 0.2s ease,
+      visibility 0.2s;
 }
 
 /* Style the dropdown links */
 .dropdown-content a {
   color: white;
   text-decoration: none;
-  display: block;
+  display: flex;
   padding: 0.25rem 0.5rem;
   border-radius: 0.3125rem;
   font-weight: 400;
   font-size: var(--font-size-small);
   text-align: left;
+}
+
+.dropdown-content a span:first-of-type {
+  display:flex;
+  flex: 1;
 }
 
 .dropdown-content a:hover {

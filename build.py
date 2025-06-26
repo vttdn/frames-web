@@ -1,5 +1,6 @@
 import os, json
 from pathlib import Path
+import re
 
 ROOT = Path(__file__).parent.resolve()
 TEMPLATES_DIR = ROOT / "library" / "templates"
@@ -8,8 +9,18 @@ LOCALES_DIR = ROOT / "library" / "locales"
 def render_template(template: str, context: dict) -> str:
     result = template
 
+    # Handle {{ if var == "value" }}...{{ endif }}
+    if_pattern = re.compile(r'{{ if (\w+)\s*==\s*"([^"]+)" }}(.*?){{ endif }}', re.DOTALL)
+
+    def render_if(match):
+        var = match.group(1)
+        expected = match.group(2)
+        block = match.group(3)
+        return block if context.get(var) == expected else ""
+
+    result = if_pattern.sub(render_if, result)
+
     # Simple foreach loop rendering: {{ for item in list }} ... {{ endfor }}
-    import re
     for_loop_pattern = re.compile(r"{{ for (\w+) in (\w+) }}(.*?){{ endfor }}", re.DOTALL)
 
     def render_loop(match):
