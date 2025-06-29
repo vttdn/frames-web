@@ -71,7 +71,15 @@ blockquote {
 }
 
 blockquote p {
-  margin-bottom: 0
+  margin-bottom: 0;
+  color: white;
+}
+
+blockquote p.author {
+  margin-top: 5rem;
+  color: inherit;
+  text-transform: uppercase;
+  font-size: 0.9rem;
 }
 
 figure {
@@ -106,7 +114,7 @@ details summary {
   position: relative;
   padding-right: 1.5rem;
   top: -0.125rem;
-  height: var(--font-size-heading3) * 2.5;
+  height: var(--font-size-heading3) * 3;
 }
 
 summary h3 {
