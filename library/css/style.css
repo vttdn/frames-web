@@ -75,11 +75,12 @@ blockquote p {
   color: white;
 }
 
-blockquote p.author {
-  margin-top: 5rem;
+.review-info {
+  margin-top: 4rem;
   color: inherit;
   text-transform: uppercase;
   font-size: 0.9rem;
+  letter-spacing: 0.56px;
 }
 
 figure {
