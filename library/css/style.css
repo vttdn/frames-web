@@ -318,6 +318,10 @@ footer h3 {
   margin-top: var(--huge-spacing);
   color: var(--gray-1);
 }
+.subfooter > :first-child {
+  order: 2; /* Move to second position on mobile */
+}
+
 
 @media (min-width: 768px) {
   .grid-2col {
@@ -347,6 +351,11 @@ footer h3 {
   .feature-list-desktop {
     row-gap: var(--grid-vgap);
   }
+
+  .subfooter > :first-child {
+    order: 0; /* Move to second position on mobile */
+  }
+  
 
   .subfooter li:last-of-type {
     text-align: right;
