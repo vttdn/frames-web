@@ -4,6 +4,14 @@
       "mainEntity": [
         {
           "@type": "Question",
+          "name": "Qu’est-ce qui distingue Frames des autres applications de photo argentique ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Frames a été conçu spécialement pour les photographes argentiques souhaitant apporter une organisation précise et moderne à leur pratique. Contrairement aux applications de prise de notes classiques, elle répond aux besoins spécifiques du travail avec des appareils photo argentiques, comme la saisie des réglages exacts ou le suivi de plusieurs pellicules.Ce qui rend Frames unique parmi les autres applications du genre, c’est la synchronisation fluide entre iPhone et Mac. Vous pouvez enregistrer vos données sur le terrain, puis ajouter vos scans sur ordinateur avec toutes les métadonnées EXIF complètes. Ce type de flux de travail complet pour la photo argentique n’existe pas ailleurs."
+          }
+        },
+        {
+          "@type": "Question",
           "name": "Quels types de métadonnées puis-je enregistrer avec l'app iOS ?",
           "acceptedAnswer": {
             "@type": "Answer",

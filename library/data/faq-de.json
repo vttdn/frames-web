@@ -4,6 +4,14 @@
       "mainEntity": [
         {
           "@type": "Question",
+          "name": "Was unterscheidet Frames von anderen Apps für die Filmfotografie?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Frames wurde speziell für analoge Fotografen entwickelt, die ihre Arbeitsweise so strukturiert wie bei der digitalen Fotografie organisieren möchten. Im Gegensatz zu allgemeinen Notiz-Apps versteht diese App die besonderen Anforderungen beim Fotografieren mit Filmkameras – von der genauen Erfassung der Kameraeinstellungen bis zum Nachverfolgen verschiedener Filmtypen über mehrere Rollen hinweg.Was Frames von anderen Apps für analoge Fotografie wirklich abhebt, ist die nahtlose Synchronisation zwischen iPhone und Mac. So kannst du deine Aufnahmedaten direkt vor Ort erfassen und später am Computer deine gescannten Bilder mit vollständigen EXIF-Metadaten verknüpfen. Einen derart durchgängigen Workflow bietet keine andere Fotografie-App."
+          }
+        },
+        {
+          "@type": "Question",
           "name": "Welche Metadaten kann ich mit der iOS-App speichern?",
           "acceptedAnswer": {
             "@type": "Answer",
