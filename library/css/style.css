@@ -193,7 +193,7 @@ details summary {
 }
 
 .footer-nav ul {
-  margin-top: calc(var(--gap) * 2);
+  margin-top: calc(var(--gap) * 1.5);
 }
 
 /* Basic styling */
@@ -307,10 +307,14 @@ footer h3 {
 
 }
 
-.footer-list li, .footer-nav ul li {
+.footer-list li, .footer-nav li {
   color: white;
   font-weight: 600;
   margin-bottom: 0.5rem;
+}
+
+.footer-nav > li {
+  margin-bottom: 0.25rem;
 }
 
 .subfooter {
