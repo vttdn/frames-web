@@ -185,15 +185,15 @@ details summary {
   padding-bottom: 2rem;
 }
 
-.footer-nav {
+.footer-nav > li {
   font-size: var(--font-size-heading2);
   color: white;
   line-height: 1.25;
   font-weight: 600;
 }
 
-.footer-nav li {
-  margin-bottom: 0.5rem;
+.footer-nav ul {
+  margin-top: calc(var(--gap) * 1.5);
 }
 
 /* Basic styling */
@@ -307,7 +307,7 @@ footer h3 {
 
 }
 
-.footer-list li {
+.footer-list li, .footer-nav ul li {
   color: white;
   font-weight: 600;
   margin-bottom: 0.5rem;
