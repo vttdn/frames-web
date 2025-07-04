@@ -1,0 +1,49 @@
+{
+    "@context": "https://schema.org",
+    "@type": "HowTo",
+    "name": "How to Use Frames",
+    "description": "Step-by-step guide to using Frames, the film photography app for logging analog camera settings and embedding metadata into scanned photos.",
+    "publisher": {
+      "@type": "Organization",
+      "name": "Frames",
+      "url": "https://withframes.com/"
+    },
+    "step": [
+      {
+        "@type": "HowToStep",
+        "position": 1,
+        "name": "Create a New Roll",
+        "text": "Open Frames on your iPhone and tap the icon in the bottom-right corner to start a new roll. Add your film camera, lenses, and choose your film stock. The ISO is set to box speed by default, but you can adjust it to match your light meter. This is where your film photography workflow begins."
+      },
+      {
+        "@type": "HowToStep",
+        "position": 2,
+        "name": "Log Each Shot as You Go",
+        "text": "As you shoot film, record camera settings for each frame: aperture, shutter speed, focal length, flash, creative notes, and more. Geolocation, place names, and timestamps are automatically captured to support a precise analog photography log. You can use the default slider-based controls or switch to a classic form view via the top-right menu."
+      },
+      {
+        "@type": "HowToStep",
+        "position": 3,
+        "name": "Export Your Data",
+        "text": "Once your roll is finished and all shots are logged, export the data as a .frames file. Send it to your Mac using AirDrop, email, or any method you prefer. This file contains all your recorded film shot metadata for later use with your scans."
+      },
+      {
+        "@type": "HowToStep",
+        "position": 4,
+        "name": "Import Your Scans",
+        "text": "After your film is developed and scanned, open the .frames file on your Mac. Simply double-click it or drag it into the Frames app for macOS. Your recorded frames will load instantly, ready to be paired with your scanned photo files."
+      },
+      {
+        "@type": "HowToStep",
+        "position": 5,
+        "name": "Associate Metadata",
+        "text": "Browse your logged shots using list, grid, or full view, and begin associating each scan with its frame data. JPEG and TIFF images are currently supported, with DNG and NEF coming soon. This step links your analog photos with detailed EXIF metadata, preserving the context of every shot."
+      },
+      {
+        "@type": "HowToStep",
+        "position": 6,
+        "name": "Export Your Photos",
+        "text": "Once everything is matched, export your updated images. Metadata is embedded directly into each photo file, ensuring it stays visible across devices, editing tools, and platforms like Flickr. Your film photography gets the searchable, organized benefits of digital, without losing its soul."
+      }
+    ]
+  }
