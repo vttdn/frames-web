@@ -1,6 +1,7 @@
 document.addEventListener('DOMContentLoaded', function() {
     const schemaFiles = [
         '/library/data/frames-en.json',
+        '/library/data/howto-en.json',
         '/library/data/faq-en.json'
     ];
 
