@@ -220,7 +220,7 @@
     <meta property="og:url" content="{{ canonical_url }}">
     <meta property="og:image" content="https://withframes.com/og-image.jpg">
     <meta property="og:locale" content="{{ locale }}">
-    <link rel="icon" href="/favicon.png" type="image/png">
+    <link rel="shortcut icon" href="/favicon.png" type="image/png">
     <link rel="icon" href="/favicon.svg" type="image/svg+xml">
     <link rel="apple-touch-icon" href="/apple-touch-icon.png">
     <meta name="theme-color" content="#000">
@@ -258,11 +258,16 @@
                     </li>
                 </ul>
             </nav>
-            <h1 class="sr-only">{{ seo_meta_title }}</h1>
+            <h1 class="sr-only">{{ heading_h1 }}</h1>
             <div class="h1 input-wrapper" aria-hidden="true"><input type="text" tabindex="-1" readonly> <span class="placeholder"></span></div>
         </div>
     </header>
     <main class="wrapper">
+        <section class="intro sr-only">
+            <h2>{{ intro_title }}</h2>
+            <p>{{ intro_content }}</p>
+        </section>
+
         <section id="iphone" aria-labelledby="features-mobile-heading">
             <h2 id="features-mobile-heading">{{ features_mobile_h2 }}</h2>
             <ul class="grid-3col feature-list-mobile">
@@ -313,6 +318,7 @@
                 </li>
             </ul>
         </section>
+
         <section id="mac" aria-labelledby="features-desktop-heading">
             <h2 id="features-desktop-heading">{{ features_desktop_h2 }}</h2>
             <ul class="grid-2col feature-list-desktop">
@@ -345,137 +351,313 @@
                 </li>
             </ul>
         </section>
-        <section id="faq" aria-labelledby="faq-heading">
-            <h2 id="faq-heading">{{ faq_h2 }}</h2>
-            <div class="faq-list">
+        
+        <section id="how-to-use-frames" class="how-to">
+            <h2>{{ howto_h2_mini }}</h2>
+            <p class="sr-only">{{ howto_descr }}</p>
+            
+            <ul class="grid-2col">
+              <li class="how-to-group">
                 <details>
-                    <summary>
-                        <h3>{{ faq_question1 }}</h3>
-                    </summary>
-                    <p>{{ faq_answer1 }}</p>
+                  <summary>
+                    <div>
+                      <div class="how-to-heading">
+                        <h3>{{ howto_step1_title }}</h3>
+                        <span class="ht-count">1</span>
+                      </div>
+                      <span>{{ howto_step1_plateform }}</span>
+                    </div>
+                  </summary>
+                  <p>{{ howto_step1_content }}</p>
                 </details>
+          
                 <details>
-                    <summary>
-                        <h3>{{ faq_question2 }}</h3>
-                    </summary>
-                    <p>{{ faq_answer2 }}</p>
+                  <summary>
+                    <div>
+                      <div class="how-to-heading">
+                        <h3>{{ howto_step2_title }}</h3>
+                        <span class="ht-count">2</span>
+                      </div>
+                      <span>{{ howto_step2_plateform }}</span>
+                    </div>
+                  </summary>
+                  <p>{{ howto_step2_content }}</p>
                 </details>
+          
                 <details>
-                    <summary>
-                        <h3>{{ faq_question3 }}</h3>
-                    </summary>
-                    <p>{{ faq_answer3 }}</p>
+                  <summary>
+                    <div>
+                      <div class="how-to-heading">
+                        <h3>{{ howto_step3_title }}</h3>
+                        <span class="ht-count">3</span>
+                      </div>
+                      <span>{{ howto_step3_plateform }}</span>
+                    </div>
+                  </summary>
+                  <p>{{ howto_step3_content }}</p>
                 </details>
+              </li>
+          
+              <li class="how-to-group">
                 <details>
-                    <summary>
-                        <h3>{{ faq_question4 }}</h3>
-                    </summary>
-                    <p>{{ faq_answer4 }}</p>
+                  <summary>
+                    <div>
+                      <div class="how-to-heading">
+                        <h3>{{ howto_step4_title }}</h3>
+                        <span class="ht-count">4</span>
+                      </div>
+                      <span>{{ howto_step4_plateform }}</span>
+                    </div>
+                  </summary>
+                  <p>{{ howto_step4_content }}</p>
                 </details>
+          
                 <details>
-                    <summary>
-                        <h3>{{ faq_question5 }}</h3>
-                    </summary>
-                    <p>{{ faq_answer5 }}</p>
+                  <summary>
+                    <div>
+                      <div class="how-to-heading">
+                        <h3>{{ howto_step5_title }}</h3>
+                        <span class="ht-count">5</span>
+                      </div>
+                      <span>{{ howto_step5_plateform }}</span>
+                    </div>
+                  </summary>
+                  <p>{{ howto_step5_content }}</p>
                 </details>
-            </div>
-        </section>
-        <section id="reviews" aria-labelledby="reviews-heading">
-            <h2 id="reviews-heading">{{ reviews_h2 }}</h2>
-            <ul class="grid-3col review-list">
-                <li>
-                    <figure class="user-review">
-                        <blockquote cite="https://withframes.com">
-                            <img src="/library/img/icons/icon-quote.svg" alt="Quote" width="14" height="11" loading="lazy">
-                            <h3 class="sr-only">{{ review1_title }}</h3>
-                            <p>{{ review1_descr }}</p>
-                        </blockquote>
-                        <figcaption class="review-info">
-                            <span class="author">{{ review1_author }}</span> <span class="rating sr-only" aria-label="{{ review1_rating }}" role="img">★★★★★</span> <time datetime="{{ review1_date }}" class="sr-only">{{ review1_date }}</time>
-                        </figcaption>
-                    </figure>
-                    <figure class="user-review">
-                        <blockquote cite="https://withframes.com">
-                            <img src="/library/img/icons/icon-quote.svg" alt="Quote" width="14" height="11" loading="lazy">
-                            <h3 class="sr-only">{{ review2_title }}</h3>
-                            <p>{{ review2_descr }}</p>
-                        </blockquote>
-                        <figcaption class="review-info">
-                            <span class="author">{{ review2_author }}</span> <span class="rating sr-only" aria-label="{{ review2_rating }}" role="img">★★★★★</span> <time datetime="{{ review2_date }}" class="sr-only">{{ review2_date }}</time>
-                        </figcaption>
-                    </figure>
-                    <figure class="user-review">
-                        <blockquote cite="https://withframes.com">
-                            <img src="/library/img/icons/icon-quote.svg" alt="Quote" width="14" height="11" loading="lazy">
-                            <h3 class="sr-only">{{ review3_title }}</h3>
-                            <p>{{ review3_descr }}</p>
-                        </blockquote>
-                        <figcaption class="review-info">
-                            <span class="author">{{ review3_author }}</span> <span class="rating sr-only" aria-label="{{ review3_rating }}" role="img">★★★★★</span> <time datetime="{{ review3_date }}" class="sr-only">{{ review3_date }}</time>
-                        </figcaption>
-                    </figure>
-                </li>
-                <li>
-                    <figure class="user-review">
-                        <blockquote cite="https://withframes.com">
-                            <img src="/library/img/icons/icon-quote.svg" alt="Quote" width="14" height="11" loading="lazy">
-                            <h3 class="sr-only">{{ review4_title }}</h3>
-                            <p>{{ review4_descr }}</p>
-                        </blockquote>
-                        <figcaption class="review-info">
-                            <span class="author">{{ review4_author }}</span> <span class="rating sr-only" aria-label="{{ review4_rating }}" role="img">★★★★★</span> <time datetime="{{ review4_date }}" class="sr-only">{{ review4_date }}</time>
-                        </figcaption>
-                    </figure>
-
-                    <figure class="user-review">
-                        <blockquote cite="https://withframes.com">
-                            <img src="/library/img/icons/icon-quote.svg" alt="Quote" width="14" height="11" loading="lazy">
-                            <h3 class="sr-only">{{ review5_title }}</h3>
-                            <p>{{ review5_descr }}</p>
-                        </blockquote>
-                        <figcaption class="review-info">
-                            <span class="author">{{ review5_author }}</span> <span class="rating sr-only" aria-label="{{ review5_rating }}" role="img">★★★★★</span> <time datetime="{{ review5_date }}" class="sr-only">{{ review5_date }}</time>
-                        </figcaption>
-                    </figure>
-
-                    <figure class="user-review">
-                        <blockquote cite="https://withframes.com">
-                            <img src="/library/img/icons/icon-quote.svg" alt="Quote" width="14" height="11" loading="lazy">
-                            <h3 class="sr-only">{{ review6_title }}</h3>
-                            <p>{{ review6_descr }}</p>
-                        </blockquote>
-                        <figcaption class="review-info">
-                            <span class="author">{{ review6_author }}</span> <span class="rating sr-only" aria-label="{{ review6_rating }}" role="img">★★★★★</span> <time datetime="{{ review6_date }}" class="sr-only">{{ review6_date }}</time>
-                        </figcaption>
-                    </figure>
-                </li>
-                <li>
-                    <figure class="user-review">
-                        <blockquote cite="https://withframes.com">
-                            <img src="/library/img/icons/icon-quote.svg" alt="Quote" width="14" height="11" loading="lazy">
-                            <h3 class="sr-only">{{ review7_title }}</h3>
-                            <p>{{ review7_descr }}</p>
-                        </blockquote>
-                        <figcaption class="review-info">
-                            <span class="author">{{ review7_author }}</span> <span class="rating sr-only" aria-label="{{ review7_rating }}" role="img">★★★★★</span> <time datetime="{{ review7_date }}" class="sr-only">{{ review7_date }}</time>
-                        </figcaption>
-                    </figure>
-                </li>
+          
+                <details>
+                  <summary>
+                    <div>
+                      <div class="how-to-heading">
+                        <h3>{{ howto_step6_title }}</h3>
+                        <span class="ht-count">6</span>
+                      </div>
+                      <span>{{ howto_step6_plateform }}</span>
+                    </div>
+                  </summary>
+                  <p>{{ howto_step6_content }}</p>
+                </details>
+              </li>
             </ul>
-        </section>
+          </section>          
+
+          <section id="faq" aria-labelledby="faq-heading">
+              <h2 id="faq-heading">{{ faq_h2 }}</h2>
+              <div class="faq-list">
+                  <details>
+                      <summary>
+                          <h3>{{ faq_question6 }}</h3>
+                      </summary>
+                      <p>{{ faq_answer6 }}</p>
+                  </details>
+                  <details>
+                      <summary>
+                          <h3>{{ faq_question1 }}</h3>
+                      </summary>
+                      <p>{{ faq_answer1 }}</p>
+                  </details>
+                  <details>
+                      <summary>
+                          <h3>{{ faq_question2 }}</h3>
+                      </summary>
+                      <p>{{ faq_answer2 }}</p>
+                  </details>
+                  <details>
+                      <summary>
+                          <h3>{{ faq_question3 }}</h3>
+                      </summary>
+                      <p>{{ faq_answer3 }}</p>
+                  </details>
+                  <details>
+                      <summary>
+                          <h3>{{ faq_question4 }}</h3>
+                      </summary>
+                      <p>{{ faq_answer4 }}</p>
+                  </details>
+                  <details>
+                      <summary>
+                          <h3>{{ faq_question5 }}</h3>
+                      </summary>
+                      <p>{{ faq_answer5 }}</p>
+                  </details>
+              </div>
+          </section>
+
+          <section id="reviews" aria-labelledby="reviews-heading">
+              <h2 id="reviews-heading">{{ reviews_h2 }}</h2>
+              <ul class="grid-3col review-list">
+                  <li>
+                    <article class="user-review">
+                        <blockquote cite="https://withframes.com">
+                          <img 
+                            src="/library/img/icons/icon-quote.svg" 
+                            alt="" 
+                            width="14" 
+                            height="11" 
+                            loading="lazy"
+                            aria-hidden="true"
+                          >
+                          <div class="sr-only" aria-hidden="false">{{ review1_title }}</div>
+                          <p>{{ review1_descr }}</p>
+                          <footer class="review-info">
+                            <cite>
+                              <span class="author">{{ review1_author }}</span>
+                              <span class="sr-only rating" aria-hidden="true">★★★★★</span>
+                              <time class="sr-only" datetime="{{ review1_date }}">{{ review1_date }}</time>
+                            </cite>
+                          </footer>
+                        </blockquote>
+                      </article>
+
+                      <article class="user-review">
+                          <blockquote cite="https://withframes.com">
+                            <img 
+                              src="/library/img/icons/icon-quote.svg" 
+                              alt="" 
+                              width="14" 
+                              height="11" 
+                              loading="lazy"
+                              aria-hidden="true"
+                            >
+                            <div class="sr-only" aria-hidden="false">{{ review2_title }}</div>
+                            <p>{{ review2_descr }}</p>
+                            <footer class="review-info">
+                              <cite>
+                                <span class="author">{{ review2_author }}</span>
+                                <span class="sr-only rating" aria-hidden="true">★★★★★</span>
+                                <time class="sr-only" datetime="{{ review2_date }}">{{ review2_date }}</time>
+                              </cite>
+                            </footer>
+                          </blockquote>
+                        </article>
+
+                        <article class="user-review">
+                            <blockquote cite="https://withframes.com">
+                              <img 
+                                src="/library/img/icons/icon-quote.svg" 
+                                alt="" 
+                                width="14" 
+                                height="11" 
+                                loading="lazy"
+                                aria-hidden="true"
+                              >
+                              <div class="sr-only" aria-hidden="false">{{ review3_title }}</div>
+                              <p>{{ review3_descr }}</p>
+                              <footer class="review-info">
+                                <cite>
+                                  <span class="author">{{ review3_author }}</span>
+                                  <span class="sr-only rating" aria-hidden="true">★★★★★</span>
+                                  <time class="sr-only" datetime="{{ review3_date }}">{{ review3_date }}</time>
+                                </cite>
+                              </footer>
+                            </blockquote>
+                          </article>
+                  </li>
+                  <li>
+                    <article class="user-review">
+                        <blockquote cite="https://withframes.com">
+                          <img 
+                            src="/library/img/icons/icon-quote.svg" 
+                            alt="" 
+                            width="14" 
+                            height="11" 
+                            loading="lazy"
+                            aria-hidden="true"
+                          >
+                          <div class="sr-only" aria-hidden="false">{{ review4_title }}</div>
+                          <p>{{ review4_descr }}</p>
+                          <footer class="review-info">
+                            <cite>
+                              <span class="author">{{ review4_author }}</span>
+                              <span class="sr-only rating" aria-hidden="true">★★★★★</span>
+                              <time class="sr-only" datetime="{{ review4_date }}">{{ review4_date }}</time>
+                            </cite>
+                          </footer>
+                        </blockquote>
+                      </article>
+
+                  <article class="user-review">
+                      <blockquote cite="https://withframes.com">
+                        <img 
+                          src="/library/img/icons/icon-quote.svg" 
+                          alt="" 
+                          width="14" 
+                          height="11" 
+                          loading="lazy"
+                          aria-hidden="true"
+                        >
+                        <div class="sr-only" aria-hidden="false">{{ review5_title }}</div>
+                        <p>{{ review5_descr }}</p>
+                        <footer class="review-info">
+                          <cite>
+                            <span class="author">{{ review5_author }}</span>
+                            <span class="sr-only rating" aria-hidden="true">★★★★★</span>
+                            <time class="sr-only" datetime="{{ review5_date }}">{{ review5_date }}</time>
+                          </cite>
+                        </footer>
+                      </blockquote>
+                    </article>
+
+                    <article class="user-review">
+                        <blockquote cite="https://withframes.com">
+                          <img 
+                            src="/library/img/icons/icon-quote.svg" 
+                            alt="" 
+                            width="14" 
+                            height="11" 
+                            loading="lazy"
+                            aria-hidden="true"
+                          >
+                          <div class="sr-only" aria-hidden="false">{{ review6_title }}</div>
+                          <p>{{ review6_descr }}</p>
+                          <footer class="review-info">
+                            <cite>
+                              <span class="author">{{ review6_author }}</span>
+                              <span class="sr-only rating" aria-hidden="true">★★★★★</span>
+                              <time class="sr-only" datetime="{{ review6_date }}">{{ review6_date }}</time>
+                            </cite>
+                          </footer>
+                        </blockquote>
+                      </article>
+                  <li>
+                    <article class="user-review">
+                        <blockquote cite="https://withframes.com">
+                          <img 
+                            src="/library/img/icons/icon-quote.svg" 
+                            alt="" 
+                            width="14" 
+                            height="11" 
+                            loading="lazy"
+                            aria-hidden="true"
+                          >
+                          <div class="sr-only" aria-hidden="false">{{ review7_title }}</div>
+                          <p>{{ review7_descr }}</p>
+                          <footer class="review-info">
+                            <cite>
+                              <span class="author">{{ review7_author }}</span>
+                              <span class="sr-only rating" aria-hidden="true">★★★★★</span>
+                              <time class="sr-only" datetime="{{ review7_date }}">{{ review7_date }}</time>
+                            </cite>
+                          </footer>
+                        </blockquote>
+                      </article>
+                  </li>
+              </ul>
+          </section>
     </main>
     <footer class="footer wrapper">
-        <h2 class="sr-only">Frames</h2>
+        <h2 class="sr-only">{{ footer_title }}</h2>
         <div class="grid-4col">
             <div class="takes-2">
                 <h3>{{ footer_label_explore }}</h3>
                 <ul class="footer-nav">
                     <li><a href="#iphone">{{ navigation_label_forios }}</a></li>
                     <li><a href="#mac">{{ navigation_label_formac }}</a></li>
+                    <li><a href="#how-to-use-frames">{{ howto_h2_mini }}</a></li>
                     <li><a href="#faq">{{ footer_label_faq }}</a></li>
                     <li><a href="#reviews">{{ reviews_h2 }}</a></li>
                     <li><a href="{{ canonical_url }}{{ privacy_path }}/">{{ footer_label_privacy }}</a></li>
-                    <li><a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/" target="_blank">{{ footer_label_terms }}</a></li>
+                    <li><a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/" target="_blank" rel="noopener noreferrer">{{ footer_label_terms }}</a></li>
                 </ul>
             </div>
             <div>

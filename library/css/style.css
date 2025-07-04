@@ -14,7 +14,7 @@ h2 {
   margin-bottom: var(--grid-vgap);
 }
 
-h3 {
+h3, .h3 {
   font-size: var(--font-size-heading3);
     line-height: 1.5;
     font-weight: 600;
@@ -83,7 +83,10 @@ blockquote p {
   letter-spacing: 0.56px;
 }
 
-figure {
+cite {
+  font-style: normal;
+}
+figure, .user-review, .how-to details {
   break-inside: avoid;
   /* background-color: #0C0C0C; */
   background-color: rgb(12,12,12);
@@ -95,38 +98,73 @@ figure {
   flex-direction: column;
 }
 
-details {
-  border-top: 1px solid rgb(51, 51, 51);;
+.how-to-group {
+  display: flex;
+  flex-direction: column;
+  gap: var(--gap);
 }
 
-details p {
+.how-to h3 {
+  margin: 0;
+}
+
+.ht-count {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 9999px;
+  background: #000;
+  font-size: var(--font-size-small);
+  color: var(--gray-1);
+  font-family: monospace;
+}
+
+.how-to-heading {
+  display: flex;
+  align-items: center;
+}
+
+.how-to-heading > :first-child {
+  flex: 1;
+}
+
+.faq-list details {
+  border-top: 1px solid rgb(51, 51, 51);
+}
+
+.faq-list details p {
   margin-top: 0;
   max-width: 46.25rem;
   margin-bottom: 3rem;
 }
 
 details summary {
+  cursor: pointer;
+  list-style: none;
+}
+
+.faq-list details summary {
   display: flex;
   align-items: center;
   font-size: var(--font-size-heading3);
   color: white;
-  cursor: pointer;
-  list-style: none;
   position: relative;
   padding-right: 1.5rem;
   top: -0.125rem;
   height: var(--font-size-heading3) * 3;
 }
 
-summary h3 {
+.faq-list summary h3 {
   line-height: 1.5;
 }
 
-details summary::-webkit-details-marker {
+.faq-list details summary::-webkit-details-marker {
   display: none;
 }
 
-details summary::before {
+.faq-list details summary::before {
   content: "+";
   position: absolute;
   right: 0;
@@ -138,7 +176,7 @@ details summary::before {
   font-weight: 300;
 }
 
-details[open] summary::before {
+.faq-list details[open] summary::before {
   content: "−";
 }
 
@@ -314,7 +352,7 @@ footer h3 {
     text-align: right;
   }
 
-  details h3 {
+  .faq-list details h3 {
     margin: 1.75rem 0;
   }
 
@@ -322,7 +360,7 @@ footer h3 {
     margin-top: 1rem;
   }
 
-  details summary::before {
+  .faq-list details summary::before {
     font-size: 2rem;
   }
 
