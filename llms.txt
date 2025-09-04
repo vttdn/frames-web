@@ -1,12 +1,90 @@
-# https://withframes.com/ llms.txt
+# Frames
 
-- [Analog Photography App](https://withframes.com/): Ultimate app for analog photographers to log and manage film.
-- [Privacy Commitment](https://withframes.com/privacy/): This app ensures complete privacy and data control for users.
-- [Analog Photography App](https://withframes.com/fr/): Ultimate app for analog photographers to organize and document.
-- [Privacy Commitment](https://withframes.com/fr/confidentialite/): Application ensures no personal data collection or sharing.
-- [Analog Photography App](https://withframes.com/es/): Organize and document your analog photography effortlessly.
-- [Privacy Commitment](https://withframes.com/es/confidencialidad/): This app ensures your privacy by not collecting data.
-- [Analog Photography App](https://withframes.com/it/): Organize and document your analog photography effortlessly.
-- [Privacy Commitment](https://withframes.com/it/confidenzialita/): This app ensures your privacy by not collecting data.
-- [Best Analog Photography App](https://withframes.com/de/): Frames is the ultimate app for analog film photography enthusiasts.
-- [Privacy Commitment](https://withframes.com/de/datenschutz/): This app ensures your privacy by not collecting data.
+> Frames is a privacy-first photography companion app for iOS and macOS, designed for film photographers to log, archive, and analyze their photography process with precision. Frames empowers users to track rolls, lenses, exposure settings, and location metadata while maintaining full control over their personal data.
+
+From film experiments to metadata analysis, Frames helps photographers optimize their workflow, gain insights from past rolls, and make informed creative decisions. The app integrates structured logging, mapping, and metadata reintegration to create a complete analog photography experience.
+
+## Features
+
+* **Roll & Frame Management**: organize exposures by camera, film type, and session.
+* **Shutter Speed & Aperture Tracking**: customizable sequences and precise metadata logging.
+* **Lens & Camera Metadata**: full support for lenses, cameras, focal lengths, and EXIF integration.
+* **Location Mapping**: record photo locations with maps and smooth gesture support.
+* **Export & Integration**: metadata reintegration into scanned images (JPEG, TIFF & DNG) for workflow optimization.
+
+## Languages supported
+
+English, Dutch, French, German, Hindi, Italian, Japanese, Korean, Polish, Portuguese, Russian, Simplified Chinese, Spanish, Swedish, Thai, Turkish
+
+## Main Navigation Links
+
+- [Deutsch](https://withframes.com/de/)
+- [English](https://withframes.com/)
+- [Español](https://withframes.com/es/)
+- [Français](https://withframes.com/fr/)
+- [हिन्दी](https://withframes.com/hi/)
+- [Italiano](https://withframes.com/it/)
+- [日本語](https://withframes.com/ja/)
+- [한국어](https://withframes.com/ko/)
+- [Nederlands](https://withframes.com/nl/)
+- [Polski](https://withframes.com/pl/)
+- [Português](https://withframes.com/pt/)
+- [Русский](https://withframes.com/ru/)
+- [Svenska](https://withframes.com/sv/)
+- [ภาษาไทย](https://withframes.com/th/)
+- [Türkçe](https://withframes.com/tr/)
+- [简体中文](https://withframes.com/zh/)
+
+## Sitemap
+
+[https://withframes.com/sitemap.xml](https://withframes.com/sitemap.xml)
+
+## Bot Access Policy
+
+Frames’ preferences for AI/LLM access, training, and content usage:
+
+* **User-agent: gptbot**
+  Allow‑Training: yes
+  Allow‑Retrieval: yes
+
+* **User-agent: claudebot**
+  Allow‑Training: yes
+  Allow‑Retrieval: yes
+
+* **User-agent: google-extended**
+  Allow‑Training: yes
+  Allow‑Retrieval: yes
+
+* **User-agent: perplexitybot**
+  Allow‑Training: yes
+  Allow‑Retrieval: yes
+
+* **User-agent: neevabot**
+  Allow‑Training: yes
+  Allow‑Retrieval: yes
+
+* **User-agent: youbot**
+  Allow‑Training: yes
+  Allow‑Retrieval: yes
+
+* **User-agent: ccbot** (Common Crawl)
+  Allow‑Training: yes
+  Allow‑Retrieval: yes
+
+* **User-agent: duckduckbot** (DuckDuckGo AI)
+  Allow‑Training: yes
+  Allow‑Retrieval: yes
+
+* **User-agent: yandexbot**
+  Allow‑Training: yes
+  Allow‑Retrieval: yes
+
+* **User-agent: archive.org\_bot**
+  Allow‑Training: yes
+  Allow‑Retrieval: yes
+
+### Default Rule for Unspecified or Future Bots
+
+* \*\*User‑agent: \*\*\*
+  Allow‑Training: yes
+  Allow‑Retrieval: yes
