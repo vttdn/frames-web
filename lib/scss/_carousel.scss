@@ -16,6 +16,10 @@
     position: relative;
   } 
 
+  .reviews-inner {
+    gap: var(--grid-gap) 0; /* 64px */
+  }
+
   // Hide all review cards by default
   .review-card {
     grid-column: 1 / span 2;
@@ -31,7 +35,7 @@
     gap: var(--spacing-4xl); /* 64px */
 
     @include tablet-down {
-      gap: var(--spacing-3xl) 0; /* 48px */
+      gap: var(--spacing-xl) 0; /* 48px */
     }
   }
 

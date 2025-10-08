@@ -9,7 +9,7 @@
     grid-column-end: -1;
 
     @include tablet-down {
-        padding-top: var(--spacing-2xl);
+        padding-top: var(--spacing-3xl);
     }
 }
 
