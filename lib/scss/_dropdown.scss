@@ -14,19 +14,24 @@
     flex: 1;
 }
 
+// .social-icon {
+//     width: 1rem;
+//     height: 1rem;
+// }
+
 /* Dropdown content - hidden by default */
 .dropdown-content {
     position: absolute;
     left: auto;
     right: 0;
-    min-width: 10rem;
+    min-width: 11rem;
     overflow-y: auto;
     padding: var(--spacing-sm) 0;
     z-index: 1;
 
     font-size: var(--font-size-body);
     background-color: var(--color-background);
-    border-radius: var(--radius-sm);
+    border-radius: var(--radius-md);
     border: 1px solid var(--color-gray-dark2);
 
     opacity: 0;
