@@ -40,3 +40,11 @@
 
 // Hero Section (above the fold)
 @use 'hero';
+
+// Dropdown (share button in header, but not critical)
+@use 'dropdown';
+
+// Overlays (interactive elements)
+@use 'overlay';
+@use 'video-overlay';
+@use 'mobile-menu';
