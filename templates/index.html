@@ -12,6 +12,10 @@
     <link rel="alternate" hreflang="{{ link.hreflang }}" href="{{ link.href }}">
     {% endfor %}
 
+    <!-- Preload LCP image for faster loading -->
+    <link rel="preload" as="image" href="/lib/img/{{ lang }}/hero-mobile.webp" media="(max-width: 480px)" imagesrcset="/lib/img/{{ lang }}/hero-mobile.webp 1x, /lib/img/{{ lang }}/hero-mobile@2x.webp 2x" fetchpriority="high">
+    <link rel="preload" as="image" href="/lib/img/{{ lang }}/hero.webp" media="(min-width: 481px)" imagesrcset="/lib/img/{{ lang }}/hero.webp 1x, /lib/img/{{ lang }}/hero@2x.webp 2x" fetchpriority="high">
+
     <!-- Critical CSS - Inlined for immediate render -->
     {% if critical_css %}
     <style>{{ critical_css|safe }}</style>
@@ -176,7 +180,7 @@
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                         allowfullscreen
                         referrerpolicy="no-referrer-when-downgrade"
-                        sandbox="allow-scripts allow-same-origin allow-presentation">
+                        sandbox="allow-scripts allow-same-origin">
                 </iframe>
             </div>
         </div>
