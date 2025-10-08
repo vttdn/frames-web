@@ -1,0 +1,223 @@
+{
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "MobileApplication",
+          "name": "Frames iOS",
+          "operatingSystem": "iOS 18.0",
+          "applicationCategory": "MultimediaApplication",
+          "inLanguage": "zh-hant",
+          "description": "Frames 是為膠片攝影師設計的應用。記錄每張照片，追蹤相機設定，整理膠卷，在 iPhone 和 Mac 上保存 EXIF 元資料。",
+          "image": "https://withframes.com/zh-hant/og-image.jpg",
+          "url": "https://apps.apple.com/hk/app/frames-膠片攝影筆記/id6744057317?l=zh-Hant",
+          "installUrl": "https://apps.apple.com/hk/app/frames-膠片攝影筆記/id6744057317?l=zh-Hant",
+          "softwareVersion": "1.13.1",
+          "screenshot": "https://withframes.com/zh-hant/og-image.jpg",
+          "isAccessibleForFree": true,
+          "keywords": "film photography app, analog photography, EXIF metadata, film camera notes, photography workflow, film photography organization",
+          "maintainer": {
+            "@type": "Person",
+            "name": "Vincent Tantardini"
+          },
+          "countriesSupported": [
+            "US", "GB", "FR", "DE", "IT", "ES", "CA", "AU",
+            "JP", "KR", "NL", "SE", "NO", "FI", "DK", "NZ"
+          ],
+          "mainEntity": {
+            "@type": "WebPage",
+            "@id": "https://withframes.com/"
+          },
+          "author": {
+            "@type": "Person",
+            "name": "Vincent Tantardini"
+          },
+          "offers": {
+            "@type": "Offer",
+            "price": "0",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock"
+          },
+          "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "4.9",
+            "reviewCount": "12"
+          },
+          "review": [
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "Maria Garcia" },
+            "datePublished": "2025-07-12",
+            "name": "Review by Maria Garcia",
+            "reviewBody": "易於使用、可靠且價格合理的應用，可將拍攝資料（包括地理位置）傳輸到掃描底片的 EXIF 中。開發者傾聽回饋並不斷改進。非常棒！",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            },
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "BHenriquez" },
+            "datePublished": "2025-05-08",
+            "name": "Review by BHenriquez",
+            "reviewBody": "作為在家沖洗膠片的攝影師，我喜歡 Frames 讓我記錄每張照片而不用麻煩地使用筆記本。這是完美而實用的解決方案。升級到 Pro 後再也沒有回頭！",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            },
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "Emma Richardson" },
+            "datePublished": "2025-08-23",
+            "name": "Review by Emma Richardson",
+            "reviewBody": "非常適合在拍攝膠片時記錄曝光和位置，適合分析設定或保留類似 EXIF 的資料。開發者在一天內修復了一個錯誤。強烈推薦！",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            },
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "Roger Nordstrom Photo" },
+            "datePublished": "2025-04-15",
+            "name": "Review by Roger Nordstrom Photo",
+            "reviewBody": "當我重新開始拍攝膠片時，我懷念元資料，直到找到 Frames。它取代了紙質筆記，幫助我保持井然有序，讓我在拍攝時更加用心。膠片攝影師的必備工具！",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            },
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "James Anderson" },
+            "datePublished": "2025-09-05",
+            "name": "Review by James Anderson",
+            "reviewBody": "你可以看出開發者自己也在使用這個應用。每一個小細節都感覺很用心，介面乾淨簡潔。一切運行流暢。絕對是最好的膠片筆記應用！",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            },
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "Maria Garcia" },
+            "datePublished": "2025-07-12",
+            "name": "Review by Maria Garcia",
+            "reviewBody": "易於使用、可靠且價格合理的應用，可將拍攝資料（包括地理位置）傳輸到掃描底片的 EXIF 中。開發者傾聽回饋並不斷改進。非常棒！",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            },
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "BHenriquez" },
+            "datePublished": "2025-05-08",
+            "name": "Review by BHenriquez",
+            "reviewBody": "作為在家沖洗膠片的攝影師，我喜歡 Frames 讓我記錄每張照片而不用麻煩地使用筆記本。這是完美而實用的解決方案。升級到 Pro 後再也沒有回頭！",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            }
+          ]
+        },
+        {
+          "@type": "SoftwareApplication",
+          "name": "Frames macOS",
+          "operatingSystem": "macOS 15.0",
+          "applicationCategory": "MultimediaApplication",
+          "inLanguage": "zh-hant",
+          "description": "Frames 是為膠片攝影師設計的應用。記錄每張照片，追蹤相機設定，整理膠卷，在 iPhone 和 Mac 上保存 EXIF 元資料。",
+          "image": "https://withframes.com/zh-hant/og-image.jpg",
+          "url": "https://apps.apple.com/hk/app/frames-底片中繼資料/id6744063354?mt=12&l=zh-Hant",
+          "installUrl": "https://apps.apple.com/hk/app/frames-底片中繼資料/id6744063354?mt=12&l=zh-Hant",
+          "softwareVersion": "1.8.0",
+          "mainEntity": {
+            "@type": "WebPage",
+            "@id": "https://withframes.com/"
+          },
+          "author": {
+            "@type": "Person",
+            "name": "Vincent Tantardini"
+          },
+          "offers": {
+            "@type": "Offer",
+            "price": "0",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock"
+          },
+          "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "5",
+            "reviewCount": "4"
+          }
+        },
+        {
+          "@type": "WebPage",
+          "@id": "https://withframes.com/zh-hantzh-hant/",
+          "url": "https://withframes.com/zh-hantzh-hant/",
+          "name": "Frames – 胶片攝影筆記和元資料應用",
+          "description": "Frames 是為膠片攝影師設計的應用。記錄每張照片，追蹤相機設定，整理膠卷，在 iPhone 和 Mac 上保存 EXIF 元資料。",
+          "inLanguage": "zh-hant",
+          "publisher": {
+            "@id": "https://withframes.com/#organization"
+          }
+        },
+        {
+          "@type": "VideoObject",
+          "name": "記錄和追蹤膠卷的膠片攝影應用（Frames for iPhone）",
+          "description": "探索 Frames，專為膠片攝影師設計的膠片攝影應用。Frames 使管理您的膠片攝影變得輕鬆，幫助您記錄不僅是您的照片，還有每個膠卷和每一格背後的故事。無論您使用 35mm、中畫幅還是大畫幅膠片，Frames 都能讓您的工作流程井然有序，並確保您的照片元資料在掃描後仍與影像保持一致。",
+          "thumbnailUrl": "https://i.ytimg.com/vi/KRLS5tpmvJM/hqdefault.jpg",
+          "uploadDate": "2025-09-12T00:00:00+00:00",
+          "duration": "PT1M25S",
+          "embedUrl": "https://www.youtube-nocookie.com/embed/KRLS5tpmvJM",
+          "contentUrl": "https://www.youtube.com/watch?v=KRLS5tpmvJM",
+          "publisher": {
+            "@id": "https://withframes.com/#organization"
+          }
+        },
+        {
+          "@type": "Organization",
+          "@id": "https://withframes.com/#organization",
+          "name": "Frames",
+          "url": "https://withframes.com/",
+          "logo": "https://withframes.com/apple-touch-icon.png",
+          "contactPoint": {
+            "@type": "ContactPoint",
+            "email": "bonjour@withframes.com",
+            "contactType": "Customer Support",
+            "areaServed": "Worldwide",
+            "availableLanguage": ["English", "French"]
+          },
+          "sameAs": [
+            "https://twitter.com/withframes",
+            "https://www.facebook.com/framesapp",
+            "https://www.instagram.com/with_frames/",
+            "https://linkedin.com/company/withframes/",
+            "https://pinterest.com/framesapp/",
+            "https://mastodon.social/@frames",
+            "https://bsky.app/profile/withframes.bsky.social",
+            "https://www.tiktok.com/@with_frames",
+            "https://www.youtube.com/@withframes",
+            "https://g.co/kgs/5oEvXT5",
+            "https://apps.apple.com/hk/app/frames-膠片攝影筆記/id6744057317?l=zh-Hant",
+            "https://apps.apple.com/hk/app/frames-底片中繼資料/id6744063354?mt=12&l=zh-Hant"
+          ]
+        }
+      ]
+    }
