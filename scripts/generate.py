@@ -239,6 +239,42 @@ def save_schema(schema_json, schema_name, lang_code):
 
     print(f"✓ Generated: {schema_path.relative_to(OUTPUT_DIR)}")
 
+def generate_javascript(lang_code, locale_data):
+    """Generate JavaScript file for a specific language"""
+
+    # Setup Jinja2 environment
+    env = Environment(
+        loader=FileSystemLoader(TEMPLATES_DIR),
+        autoescape=False,  # Don't escape JavaScript
+        trim_blocks=True,
+        lstrip_blocks=True
+    )
+
+    # Prepare context
+    context = {
+        'lang': lang_code,
+        'locale_data': locale_data
+    }
+
+    # Load and render template
+    template = env.get_template('core.js')
+    javascript = template.render(context)
+
+    return javascript
+
+def save_javascript(javascript, lang_code):
+    """Save generated JavaScript to appropriate location"""
+    # Create language-specific js directory
+    js_dir = PROJECT_ROOT / "lib" / "js" / lang_code
+    js_dir.mkdir(parents=True, exist_ok=True)
+
+    # Write JavaScript file
+    js_path = js_dir / "core.js"
+    with open(js_path, 'w', encoding='utf-8') as f:
+        f.write(javascript)
+
+    print(f"✓ Generated: {js_path.relative_to(OUTPUT_DIR)}")
+
 def main():
     """Main generation function"""
     print("Frames Website Generator")
@@ -280,6 +316,10 @@ def main():
             for schema_template in ['frames.json', 'faq.json']:
                 schema_json = generate_schema(schema_template, lang_code, global_config, locale_data)
                 save_schema(schema_json, schema_template, lang_code)
+
+            # Generate and save JavaScript
+            javascript = generate_javascript(lang_code, locale_data)
+            save_javascript(javascript, lang_code)
 
         except FileNotFoundError:
             print(f"✗ Warning: {lang_code}.json not found, skipping...")
