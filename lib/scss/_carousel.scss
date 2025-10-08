@@ -31,7 +31,7 @@
     gap: var(--spacing-4xl); /* 64px */
 
     @include tablet-down {
-      gap: var(--spacing-3xl); /* 48px */
+      gap: var(--spacing-3xl) 0; /* 48px */
     }
   }
 
