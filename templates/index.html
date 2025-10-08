@@ -170,7 +170,12 @@
         </label>
         <div class="video-container">
             <div class="wrapper">
-                <iframe src="{{ global_config.urls.video.embed }}?autoplay=1&mute=1&rel=0" title="{{ locale_data.video.title }}" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe loading="lazy" 
+                        src="{{ global_config.urls.video.embed }}?autoplay=1&mute=1&rel=0" 
+                        title="{{ locale_data.video.title }}"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                        allowfullscreen>
+                </iframe>
             </div>
         </div>
     </div>
