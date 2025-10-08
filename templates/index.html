@@ -1,0 +1,769 @@
+<!DOCTYPE html>
+<html lang="{{ lang }}">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>{{ locale_data.meta.title }}</title>
+    <meta name="description"
+        content="{{ locale_data.meta.description }}">
+    <link rel="canonical" href="{{ locale_data.meta.canonical_url }}">
+    {% for link in hreflang_links %}
+    <link rel="alternate" hreflang="{{ link.hreflang }}" href="{{ link.href }}">
+    {% endfor %}
+
+    <!-- Critical CSS - Inlined for immediate render -->
+    {% if critical_css %}
+    <style>{{ critical_css|safe }}</style>
+    <!-- Deferred CSS - Loaded asynchronously for below-the-fold content -->
+    <link rel="stylesheet" href="/lib/css/deferred.css" media="print" onload="this.media='all'">
+    <!-- No-JS Fallback -->
+    <noscript>
+        <link rel="stylesheet" href="/lib/css/deferred.css">
+    </noscript>
+    {% else %}
+    <!-- Fallback: Load complete stylesheet if critical CSS not available -->
+    <link rel="stylesheet" href="/lib/css/style.css" media="print" onload="this.media='all'">
+    <!-- No-JS Fallback -->
+    <noscript>
+        <link rel="stylesheet" href="/lib/css/style.css">
+    </noscript>
+    {% endif %}
+
+    <meta name="twitter:card" content="{{ locale_data.meta.twitter_card }}">
+    <meta name="twitter:site" content="{{ locale_data.meta.twitter_site }}">
+    <meta name="twitter:creator" content="{{ locale_data.meta.twitter_creator }}">
+    <meta name="twitter:title" content="{{ locale_data.meta.title }}">
+    <meta name="twitter:description"
+        content="{{ locale_data.meta.description }}">
+    <meta name="twitter:image" content="https://withframes.com/og-image.jpg">
+    <meta property="og:type" content="{{ locale_data.meta.og_type }}">
+    <meta property="og:site_name" content="{{ locale_data.meta.og_site_name }}">
+    <meta property="og:title" content="{{ locale_data.meta.title }}">
+    <meta property="og:description"
+        content="{{ locale_data.meta.description }}">
+    <meta property="og:url" content="{{ locale_data.meta.canonical_url }}">
+    <meta property="og:image" content="https://withframes.com/og-image.jpg">
+    <meta property="og:locale" content="{{ locale_data.meta.locale }}">
+    <link rel="shortcut icon" href="/favicon.png" type="image/png">
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    <meta name="theme-color" content="#000">
+    <meta name="apple-itunes-app" content="app-id=6744057317">
+    <link rel="me" href="https://mastodon.social/@frames">
+</head>
+
+<body>
+    <header class="main-header wrapper">
+        <div class="container-header">
+            <a href="{{ lang_config.path }}" class="logo leading" aria-label="{{ locale_data.header.logo_aria_label }}">
+                <span>{{ locale_data.header.logo_text }}</span>
+            </a>
+
+            <nav class="navigation center" aria-label="{{ locale_data.header.navigation.aria_label }}">
+                <ul class="flex flex-row">
+                    <li class="desktop-only"><a href="#features">{{ locale_data.header.navigation.features }}</a></li>
+                    <li><a href="{{ global_config.urls.documentation }}">{{ locale_data.header.navigation.documentation }}</a></li>
+                    <li><a href="{{ global_config.urls.changelog }}">{{ locale_data.header.navigation.changelog }}</a></li>
+                </ul>
+            </nav>
+
+            <div class="trailing flex flex-row flex-center gap-sm">
+                <div class="dropdown">
+                    <input type="checkbox" id="share-toggle" class="dropdown-toggle">
+
+                    <label for="share-toggle" class="dropdown-button btn btn-sm btn-dark">
+                        <span>{{ locale_data.header.buttons.share }}</span>
+                        <img src="/lib/img/icn/chevron-down-sm.svg" alt="Chevron Down Icon" width="10" height="12" loading="lazy">
+                    </label>
+
+                    <ul class="dropdown-content dropdown-dir-bottom" role="menu">
+                        <li>
+                            <a href="#" onclick="shareOn('facebook'); return false;">
+                                <div class="flex flex-center gap-sm">
+                                    <img src="/lib/img/icn/facebook.svg" alt="Facebook Icon" width="14" height="14" loading="lazy" class="social-icon">
+                                    <span>{{ locale_data.share_dropdown.facebook }}</span>
+                                </div>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#" onclick="shareOn('twitter'); return false;">
+                                <div class="flex flex-center gap-sm">
+                                    <img src="/lib/img/icn/twitter.svg" alt="Twitter Icon" width="14" height="14" loading="lazy" class="social-icon">
+                                    <span>{{ locale_data.share_dropdown.twitter }}</span>
+                                </div>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#" onclick="shareOn('linkedin'); return false;">
+                                <div class="flex flex-center gap-sm">
+                                    <img src="/lib/img/icn/linkedin.svg" alt="LinkedIn Icon" width="14" height="14" loading="lazy" class="social-icon">
+                                    <span>{{ locale_data.share_dropdown.linkedin }}</span>
+                                </div>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#" onclick="shareOn('whatsapp'); return false;">
+                                <div class="flex flex-center gap-sm">
+                                    <img src="/lib/img/icn/whatsapp.svg" alt="WhatsApp Icon" width="14" height="14" loading="lazy" class="social-icon">
+                                    <span>{{ locale_data.share_dropdown.whatsapp }}</span>
+                                </div>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#" onclick="shareOn('reddit'); return false;">
+                                <div class="flex flex-center gap-sm">
+                                    <img src="/lib/img/icn/reddit.svg" alt="Reddit Icon" width="14" height="14" loading="lazy" class="social-icon">
+                                    <span>{{ locale_data.share_dropdown.reddit }}</span>
+                                </div>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#" onclick="shareOn('email'); return false;" class="social-icon">
+                                <div class="flex flex-center gap-sm">
+                                    <img src="/lib/img/icn/envelope.svg" alt="Email Icon" width="14" height="14" loading="lazy" class="social-icon">
+                                    <span>{{ locale_data.share_dropdown.email }}</span>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <a href="{{ locale_data.urls.appstore_macos }}" class="btn btn-sm btn-light desktop-only">{{ locale_data.header.buttons.download }}</a>
+                <a href="{{ locale_data.urls.appstore_ios }}" class="btn btn-sm btn-light mobile-only">{{ locale_data.header.buttons.download }}</a>
+
+                <div class="mobile-menu">
+                    <input type="checkbox" id="mobile-menu-toggle" class="overlay-toggle" aria-hidden="true">
+
+                    <label for="mobile-menu-toggle" class="mobile-menu-toggle" aria-label="{{ locale_data.mobile_menu.open_aria_label }}">
+                        <img src="/lib/img/icn/menu.svg" alt="Menu Icon" width="32" height="32" loading="lazy" aria-hidden="true">
+                    </label>
+
+                    <div class="mobile-menu-overlay overlay">
+                        <label for="mobile-menu-toggle" class="overlay-close" aria-label="{{ locale_data.mobile_menu.close_aria_label }}">
+                            <img src="/lib/img/icn/xmark.svg" alt="x Mark Icon" width="32" height="32" loading="lazy" aria-hidden="true">
+                        </label>
+
+                        <nav class="mobile-menu-nav" aria-label="{{ locale_data.mobile_menu.navigation_aria_label }}">
+                            <ul class="flex flex-col">
+                                <li><a href="#features">{{ locale_data.mobile_menu.features }}</a></li>
+                                <li><a href="{{ global_config.urls.documentation }}">{{ locale_data.mobile_menu.documentation }}</a></li>
+                                <li><a href="{{ global_config.urls.changelog }}">{{ locale_data.mobile_menu.changelog }}</a></li>
+                                <li><a href="{{ locale_data.urls.privacy }}">{{ locale_data.mobile_menu.privacy }}</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Video Overlay -->
+    <input type="checkbox" id="video-toggle" class="overlay-toggle" aria-hidden="true">
+    <div class="video-overlay overlay">
+        <label for="video-toggle" class="overlay-close" aria-label="Close video">
+            <img src="/lib/img/icn/xmark.svg" alt="x Mark Icon" width="32" height="32" loading="lazy" aria-hidden="true">
+        </label>
+        <div class="video-container">
+            <div class="wrapper">
+                <iframe src="{{ global_config.urls.video.embed }}?autoplay=1&mute=1&rel=0" title="{{ locale_data.video.title }}" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+
+    <main class="wrapper">
+        <section class="hero" aria-labelledby="hero-heading">
+            <div class="hero-content flex flex-col gap-xl">
+                <h1 id="hero-heading">{{ locale_data.hero.heading|safe }}</h1>
+                <a href="{{ locale_data.urls.appstore_macos }}" class="btn btn-md btn-light desktop-only" aria-label="{{ locale_data.hero.button_macos_aria_label }}">
+                    <span>{{ locale_data.hero.button_macos_text }}</span>
+                    <img src="/lib/img/icn/arrow-down-to-line.svg" alt="Download Icon" loading="lazy" aria-hidden="true">
+                </a>
+                <a href="{{ locale_data.urls.appstore_ios }}" class="btn btn-md btn-light mobile-only" aria-label="{{ locale_data.hero.button_ios_aria_label }}">
+                    <span>{{ locale_data.hero.button_ios_text }}</span>
+                    <img src="/lib/img/icn/arrow-down-to-line.svg" alt="Download Icon" loading="lazy" aria-hidden="true">
+                </a>
+            </div>
+
+            <figure class="hero-image tile container-ratio ratio-2-1">
+                <img src="/lib/img/{{ lang }}/hero.webp"
+                    srcset="/lib/img/{{ lang }}/hero.webp 1x, /lib/img/{{ lang }}/hero@2x.webp 2x"
+                    alt="{{ locale_data.hero.images.hero.alt }}"
+                    width="1320" height="660" fetchpriority="high" class="mobile-hidden">
+                <img src="/lib/img/{{ lang }}/hero-mobile.webp"
+                    srcset="/lib/img/{{ lang }}/hero-mobile.webp 1x, /lib/img/{{ lang }}/hero-mobile@2x.webp 2x"
+                    alt="{{ locale_data.hero.images.hero_mobile.alt }}"
+                    width="1320" height="990" fetchpriority="high" class="desktop-hidden">
+
+                <label for="video-toggle" class="play-btn" aria-label="{{ locale_data.hero.play_button_aria_label }}">
+                    <img src="/lib/img/icn/play.svg" alt="" width="36" height="36" aria-hidden="true">
+                </label>
+            </figure>
+
+            <aside class="hero-featured flex flex-col flex-center gap-xl" aria-label="{{ locale_data.hero.featured.aria_label }}">
+                <p class="featured-text">{{ locale_data.hero.featured.text }}</p>
+
+                <div class="featured-logos flex flex-row">
+                    <img src="/lib/img/logo/petapixel.svg" alt="Petapixel" width="80" height="24">
+                    <img src="/lib/img/logo/35mmc.svg" alt="35mmc" width="56" height="24">
+                    <img src="/lib/img/logo/msn.svg" alt="MSN" width="61" height="24">
+                    <img src="/lib/img/logo/yahoo.svg" alt="Yahoo!" width="81" height="24">
+                    <img src="/lib/img/logo/youtube.svg" alt="Youtube" width="100" height="24">
+                    <img src="/lib/img/logo/jch.svg" alt="Japan Camera Hunter" width="55" height="24">
+                </div>
+            </aside>
+        </section>
+
+        <section class="preview grid grid-2col">
+            <figure class="tile container-ratio ratio-4-3">
+                <div class="tile-inner">
+                    <img src="/lib/img/{{ lang }}/preview1.webp"
+                        srcset="/lib/img/{{ lang }}/preview1.webp 1x, /lib/img/{{ lang }}/preview1@2x.webp 2x"
+                        alt="{{ locale_data.preview.images.preview1.alt }}"
+                        width="400" height="300" loading="lazy">
+                </div>
+            </figure>
+            <figure class="tile container-ratio ratio-4-3">
+                <div class="tile-inner">
+                    <img src="/lib/img/{{ lang }}/preview2.webp"
+                        srcset="/lib/img/{{ lang }}/preview2.webp 1x, /lib/img/{{ lang }}/preview2@2x.webp 2x"
+                        alt="{{ locale_data.preview.images.preview2.alt }}"
+                        width="400" height="300" loading="lazy">
+                </div>
+            </figure>
+            <figure class="tile container-ratio ratio-4-3">
+                <div class="tile-inner">
+                    <img src="/lib/img/{{ lang }}/preview3.webp"
+                        srcset="/lib/img/{{ lang }}/preview3.webp 1x, /lib/img/{{ lang }}/preview3@2x.webp 2x"
+                        alt="{{ locale_data.preview.images.preview3.alt }}"
+                        width="400" height="300" loading="lazy">
+                </div>
+            </figure>
+            <figure class="tile container-ratio ratio-4-3">
+                <div class="tile-inner">
+                    <img src="/lib/img/{{ lang }}/preview4.webp"
+                        srcset="/lib/img/{{ lang }}/preview4.webp 1x, /lib/img/{{ lang }}/preview4@2x.webp 2x"
+                        alt="{{ locale_data.preview.images.preview4.alt }}"
+                        width="400" height="300" loading="lazy">
+                </div>
+            </figure>
+            <figure class="tile container-ratio ratio-4-3">
+                <div class="tile-inner">
+                    <img src="/lib/img/shared/preview5.webp"
+                        srcset="/lib/img/shared/preview5.webp 1x, /lib/img/shared/preview5@2x.webp 2x"
+                        alt="{{ locale_data.preview.images.preview5.alt }}"
+                        width="400" height="300" loading="lazy">
+                </div>
+            </figure>
+            <figure class="tile container-ratio ratio-4-3">
+                <div class="tile-inner">
+                    <img src="/lib/img/shared/preview6.webp"
+                        srcset="/lib/img/shared/preview6.webp 1x, /lib/img/shared/preview6@2x.webp 2x"
+                        alt="{{ locale_data.preview.images.preview6.alt }}"
+                        width="400" height="300" loading="lazy">
+                </div>
+            </figure>
+        </section>
+
+        <section class="reviews review-carousel" aria-label="{{ locale_data.reviews.aria_label }}">
+            <input type="radio" name="review" id="review-1" checked aria-hidden="true">
+            <input type="radio" name="review" id="review-2" aria-hidden="true">
+            <input type="radio" name="review" id="review-3" aria-hidden="true">
+            <input type="radio" name="review" id="review-4" aria-hidden="true">
+            <input type="radio" name="review" id="review-5" aria-hidden="true">
+
+            <div class="grid grid-4col">
+
+                <!-- Review Content -->
+                <article class="review-card flex flex-col" data-review="0">
+                    <blockquote class="review-quote">
+                        <p>"{{ locale_data.reviews.review1.quote }}"</p>
+                    </blockquote>
+
+                    <footer class="review-author flex flex-row flex-center gap-sm">
+                        <div class="btn btn-circle btn-secondary">
+                            <img src="/lib/img/shared/author1.webp"
+                                srcset="/lib/img/shared/author1.webp 1x, /lib/img/shared/author1@2x.webp 2x"
+                                alt="{{ locale_data.reviews.review1.author_name }}"
+                                width="32" height="32" loading="lazy">
+                        </div>
+                        <div class="author-info flex flex-col">
+                            <cite class="author-name">{{ locale_data.reviews.review1.author_name }}</cite>
+                            <time class="review-date" datetime="{{ locale_data.reviews.review1.datetime }}">{{ locale_data.reviews.review1.date }}</time>
+                        </div>
+                    </footer>
+                </article>
+
+                <article class="review-card flex flex-col" data-review="1">
+                    <blockquote class="review-quote">
+                        <p>"{{ locale_data.reviews.review2.quote }}"</p>
+                    </blockquote>
+
+                    <footer class="review-author flex flex-row flex-center gap-sm">
+                        <div class="btn btn-circle btn-secondary">
+                            <img src="/lib/img/shared/author2.webp"
+                                srcset="/lib/img/shared/author2.webp 1x, /lib/img/shared/author2@2x.webp 2x"
+                                alt="{{ locale_data.reviews.review2.author_name }}"
+                                width="32" height="32" loading="lazy">
+                        </div>
+                        <div class="author-info flex flex-col">
+                            <cite class="author-name">{{ locale_data.reviews.review2.author_name }}</cite>
+                            <time class="review-date" datetime="{{ locale_data.reviews.review2.datetime }}">{{ locale_data.reviews.review2.date }}</time>
+                        </div>
+                    </footer>
+                </article>
+
+                <article class="review-card flex flex-col" data-review="2">
+                    <blockquote class="review-quote">
+                        <p>"{{ locale_data.reviews.review3.quote }}"</p>
+                    </blockquote>
+
+                    <footer class="review-author flex flex-row flex-center gap-sm">
+                        <div class="btn btn-circle btn-secondary">
+                            <img src="/lib/img/shared/author3.webp"
+                                srcset="/lib/img/shared/author3.webp 1x, /lib/img/shared/author3@2x.webp 2x"
+                                alt="{{ locale_data.reviews.review3.author_name }}"
+                                width="32" height="32" loading="lazy">
+                        </div>
+                        <div class="author-info flex flex-col">
+                            <cite class="author-name">{{ locale_data.reviews.review3.author_name }}</cite>
+                            <time class="review-date" datetime="{{ locale_data.reviews.review3.datetime }}">{{ locale_data.reviews.review3.date }}</time>
+                        </div>
+                    </footer>
+                </article>
+
+                <article class="review-card flex flex-col" data-review="3">
+                    <blockquote class="review-quote">
+                        <p>"{{ locale_data.reviews.review4.quote }}"</p>
+                    </blockquote>
+
+                    <footer class="review-author flex flex-row flex-center gap-sm">
+                        <div class="btn btn-circle btn-secondary">
+                            <img src="/lib/img/shared/author4.webp"
+                                srcset="/lib/img/shared/author4.webp 1x, /lib/img/shared/author4@2x.webp 2x"
+                                alt="{{ locale_data.reviews.review4.author_name }}"
+                                width="32" height="32" loading="lazy">
+                        </div>
+                        <div class="author-info flex flex-col">
+                            <cite class="author-name">{{ locale_data.reviews.review4.author_name }}</cite>
+                            <time class="review-date" datetime="{{ locale_data.reviews.review4.datetime }}">{{ locale_data.reviews.review4.date }}</time>
+                        </div>
+                    </footer>
+                </article>
+
+                <article class="review-card flex flex-col" data-review="4">
+                    <blockquote class="review-quote">
+                        <p>"{{ locale_data.reviews.review5.quote }}"</p>
+                    </blockquote>
+
+                    <footer class="review-author flex flex-row flex-center gap-sm">
+                        <div class="btn btn-circle btn-secondary">
+                            <img src="/lib/img/shared/author5.webp"
+                                srcset="/lib/img/shared/author5.webp 1x, /lib/img/shared/author5@2x.webp 2x"
+                                alt="{{ locale_data.reviews.review5.author_name }}"
+                                width="32" height="32" loading="lazy">
+                        </div>
+                        <div class="author-info flex flex-col">
+                            <cite class="author-name">{{ locale_data.reviews.review5.author_name }}</cite>
+                            <time class="review-date" datetime="{{ locale_data.reviews.review5.datetime }}">{{ locale_data.reviews.review5.date }}</time>
+                        </div>
+                    </footer>
+                </article>
+
+                <!-- Review Details & Navigation -->
+                <div class="review-details col-span-2-mobile flex flex-col flex-justify-between">
+                    <p>{{ locale_data.reviews.details.description1 }}</p>
+
+                    <div class="review-footer flex flex-col gap-xl">
+                        <p>{{ locale_data.reviews.details.description2 }}</p>
+
+                        <nav class="review-navigation flex flex-row gap-sm" aria-label="{{ locale_data.reviews.navigation.aria_label }}">
+                            <!-- Review 1 navigation: prev=5, next=2 -->
+                            <label for="review-5" class="btn btn-circle btn-dark" aria-label="{{ locale_data.reviews.navigation.previous_aria_label }}">
+                                <img src="/lib/img/icn/arrow-left.svg" alt="" loading="lazy" aria-hidden="true">
+                            </label>
+                            <label for="review-2" class="btn btn-circle btn-dark" aria-label="{{ locale_data.reviews.navigation.next_aria_label }}">
+                                <img src="/lib/img/icn/arrow-right.svg" alt="" loading="lazy" aria-hidden="true">
+                            </label>
+                            <!-- Review 2 navigation: prev=1, next=3 -->
+                            <label for="review-1" class="btn btn-circle btn-dark" aria-label="{{ locale_data.reviews.navigation.previous_aria_label }}">
+                                <img src="/lib/img/icn/arrow-left.svg" alt="" loading="lazy" aria-hidden="true">
+                            </label>
+                            <label for="review-3" class="btn btn-circle btn-dark" aria-label="{{ locale_data.reviews.navigation.next_aria_label }}">
+                                <img src="/lib/img/icn/arrow-right.svg" alt="" loading="lazy" aria-hidden="true">
+                            </label>
+                            <!-- Review 3 navigation: prev=2, next=4 -->
+                            <label for="review-2" class="btn btn-circle btn-dark" aria-label="{{ locale_data.reviews.navigation.previous_aria_label }}">
+                                <img src="/lib/img/icn/arrow-left.svg" alt="" loading="lazy" aria-hidden="true">
+                            </label>
+                            <label for="review-4" class="btn btn-circle btn-dark" aria-label="{{ locale_data.reviews.navigation.next_aria_label }}">
+                                <img src="/lib/img/icn/arrow-right.svg" alt="" loading="lazy" aria-hidden="true">
+                            </label>
+                            <!-- Review 4 navigation: prev=3, next=5 -->
+                            <label for="review-3" class="btn btn-circle btn-dark" aria-label="{{ locale_data.reviews.navigation.previous_aria_label }}">
+                                <img src="/lib/img/icn/arrow-left.svg" alt="" loading="lazy" aria-hidden="true">
+                            </label>
+                            <label for="review-5" class="btn btn-circle btn-dark" aria-label="{{ locale_data.reviews.navigation.next_aria_label }}">
+                                <img src="/lib/img/icn/arrow-right.svg" alt="" loading="lazy" aria-hidden="true">
+                            </label>
+                            <!-- Review 5 navigation: prev=4, next=1 -->
+                            <label for="review-4" class="btn btn-circle btn-dark" aria-label="{{ locale_data.reviews.navigation.previous_aria_label }}">
+                                <img src="/lib/img/icn/arrow-left.svg" alt="" loading="lazy" aria-hidden="true">
+                            </label>
+                            <label for="review-1" class="btn btn-circle btn-dark" aria-label="{{ locale_data.reviews.navigation.next_aria_label }}">
+                                <img src="/lib/img/icn/arrow-right.svg" alt="" loading="lazy" aria-hidden="true">
+                            </label>
+                        </nav>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="features" aria-labelledby="features-heading">
+            <h2 id="features-heading">{{ locale_data.features.heading }}</h2>
+            <div class="features grid grid-4col">
+                <article class="feature tile container-ratio ratio-1-1">
+                    <div class="feature-inner flex flex-col flex-justify-between">
+                        <header class="feature-header flex flex-col gap-xs">
+                            <span class="feature-label">{{ locale_data.features.feature1.label }}</span>
+                            <h3>{{ locale_data.features.feature1.title }}</h3>
+                        </header>
+                        <p>{{ locale_data.features.feature1.description }}</p>
+                    </div>
+                </article>
+
+                <article class="feature tile container-ratio ratio-1-1">
+                    <div class="feature-inner flex flex-col flex-justify-between">
+                        <header class="feature-header flex flex-col gap-xs">
+                            <span class="feature-label">{{ locale_data.features.feature2.label }}</span>
+                            <h3>{{ locale_data.features.feature2.title }}</h3>
+                        </header>
+                        <p>{{ locale_data.features.feature2.description }}</p>
+                    </div>
+                </article>
+
+                <article class="feature tile container-ratio ratio-1-1">
+                    <div class="feature-inner flex flex-col flex-justify-between">
+                        <header class="feature-header flex flex-col gap-xs">
+                            <span class="feature-label">{{ locale_data.features.feature3.label }}</span>
+                            <h3>{{ locale_data.features.feature3.title }}</h3>
+                        </header>
+                        <p>{{ locale_data.features.feature3.description }}</p>
+                    </div>
+                </article>
+
+                <article class="feature tile container-ratio ratio-1-1">
+                    <div class="feature-inner flex flex-col flex-justify-between">
+                        <header class="feature-header flex flex-col gap-xs">
+                            <span class="feature-label">{{ locale_data.features.feature4.label }}</span>
+                            <h3>{{ locale_data.features.feature4.title }}</h3>
+                        </header>
+                        <p>{{ locale_data.features.feature4.description }}</p>
+                    </div>
+                </article>
+
+                <article class="feature tile container-ratio ratio-1-1">
+                    <div class="feature-inner flex flex-col flex-justify-between">
+                        <header class="feature-header flex flex-col gap-xs">
+                            <span class="feature-label">{{ locale_data.features.feature5.label }}</span>
+                            <h3>{{ locale_data.features.feature5.title }}</h3>
+                        </header>
+                        <p>{{ locale_data.features.feature5.description }}</p>
+                    </div>
+                </article>
+
+                <article class="feature tile container-ratio ratio-1-1">
+                    <div class="feature-inner flex flex-col flex-justify-between">
+                        <header class="feature-header flex flex-col gap-xs">
+                            <span class="feature-label">{{ locale_data.features.feature6.label }}</span>
+                            <h3>{{ locale_data.features.feature6.title }}</h3>
+                        </header>
+                        <p>{{ locale_data.features.feature6.description }}</p>
+                    </div>
+                </article>
+
+                <article class="feature tile container-ratio ratio-1-1">
+                    <div class="feature-inner flex flex-col flex-justify-between">
+                        <header class="feature-header flex flex-col gap-xs">
+                            <span class="feature-label">{{ locale_data.features.feature7.label }}</span>
+                            <h3>{{ locale_data.features.feature7.title }}</h3>
+                        </header>
+                        <p>{{ locale_data.features.feature7.description }}</p>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section aria-labelledby="pricing-heading">
+            <h2 id="pricing-heading">{{ locale_data.pricing.heading }}</h2>
+            <div class="pricing grid grid-4col">
+                <article class="tile container-ratio ratio-3-4 pricing-card">
+                    <div class="pricing-inner flex flex-col flex-justify-between">
+                        <div class="pricing-header flex flex-col gap-lg">
+                            <header class="flex flex-col gap-xs">
+                                <h3 class="pricing-title">{{ locale_data.pricing.ios.title }}</h3>
+                                <div class="pricing-amount">
+                                    <span class="price">{{ locale_data.pricing.ios.price }}</span><span class="price-period">{{ locale_data.pricing.ios.period }}</span>
+                                </div>
+                            </header>
+
+                            <p class="pricing-label">{{ locale_data.pricing.ios.includes_label }}</p>
+
+                            <ul class="pricing-features flex flex-col gap-xs">
+                                {% for feature in locale_data.pricing.ios.features %}
+                                <li class="flex flex-row gap-xs">
+                                    <span class="checkmark">{{ locale_data.pricing.checkmark }}</span>
+                                    {{ feature }}
+                                </li>
+                                {% endfor %}
+                            </ul>
+                        </div>
+
+                        <footer class="pricing-action">
+                            <a href="{{ locale_data.urls.appstore_ios }}" class="btn btn-md btn-light">{{ locale_data.pricing.ios.button_text }}</a>
+                        </footer>
+                    </div>
+                </article>
+
+                <article class="tile container-ratio ratio-3-4 pricing-card">
+                    <div class="pricing-inner flex flex-col flex-justify-between">
+                        <div class="pricing-header flex flex-col gap-lg">
+                            <header class="flex flex-col gap-xs">
+                                <h3 class="pricing-title">{{ locale_data.pricing.macos.title }}</h3>
+                                <div class="pricing-amount">
+                                    <span class="price">{{ locale_data.pricing.macos.price }}</span><span class="price-period">{{ locale_data.pricing.macos.period }}</span>
+                                </div>
+                            </header>
+
+                            <p class="pricing-label">{{ locale_data.pricing.macos.includes_label }}</p>
+
+                            <ul class="pricing-features flex flex-col gap-xs">
+                                {% for feature in locale_data.pricing.macos.features %}
+                                <li class="flex flex-row gap-xs">
+                                    <span class="checkmark">{{ locale_data.pricing.checkmark }}</span>
+                                    {{ feature }}
+                                </li>
+                                {% endfor %}
+                            </ul>
+                        </div>
+
+                        <footer class="pricing-action">
+                            <a href="{{ locale_data.urls.appstore_macos }}" class="btn btn-md btn-secondary">{{ locale_data.pricing.macos.button_text }}</a>
+                        </footer>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section class="qa grid grid-2col" aria-labelledby="qa-heading">
+            <h2 id="qa-heading">{{ locale_data.qa.heading }}</h2>
+
+            <div class="qa-content flex flex-col">
+                <details>
+                    <summary class="flex flex-justify-between">
+                        <h3>{{ locale_data.qa.question1.question }}</h3>
+                        <div class="details-icon flex flex-center flex-justify-center" aria-hidden="true">
+                            <img src="/lib/img/icn/chevron-down.svg" alt="" loading="lazy">
+                        </div>
+                    </summary>
+                    <p>{{ locale_data.qa.question1.answer|safe }}</p>
+                </details>
+
+                <details>
+                    <summary class="flex flex-justify-between">
+                        <h3>{{ locale_data.qa.question2.question }}</h3>
+                        <div class="details-icon flex flex-center flex-justify-center" aria-hidden="true">
+                            <img src="/lib/img/icn/chevron-down.svg" alt="" loading="lazy">
+                        </div>
+                    </summary>
+                    <p>{{ locale_data.qa.question2.answer|safe }}</p>
+                </details>
+
+                <details>
+                    <summary class="flex flex-justify-between">
+                        <h3>{{ locale_data.qa.question3.question }}</h3>
+                        <div class="details-icon flex flex-center flex-justify-center" aria-hidden="true">
+                            <img src="/lib/img/icn/chevron-down.svg" alt="" loading="lazy">
+                        </div>
+                    </summary>
+                    <p>{{ locale_data.qa.question3.answer|safe }}</p>
+                </details>
+
+                <details>
+                    <summary class="flex flex-justify-between">
+                        <h3>{{ locale_data.qa.question4.question }}</h3>
+                        <div class="details-icon flex flex-center flex-justify-center" aria-hidden="true">
+                            <img src="/lib/img/icn/chevron-down.svg" alt="" loading="lazy">
+                        </div>
+                    </summary>
+                    <p>{{ locale_data.qa.question4.answer|safe }}</p>
+                </details>
+
+                <details>
+                    <summary class="flex flex-justify-between">
+                        <h3>{{ locale_data.qa.question5.question }}</h3>
+                        <div class="details-icon flex flex-center flex-justify-center" aria-hidden="true">
+                            <img src="/lib/img/icn/chevron-down.svg" alt="" loading="lazy">
+                        </div>
+                    </summary>
+                    <p>{{ locale_data.qa.question5.answer|safe }}</p>
+                </details>
+
+                <details>
+                    <summary class="flex flex-justify-between">
+                        <h3>{{ locale_data.qa.question6.question }}</h3>
+                        <div class="details-icon flex flex-center flex-justify-center" aria-hidden="true">
+                            <img src="/lib/img/icn/chevron-down.svg" alt="" loading="lazy">
+                        </div>
+                    </summary>
+                    <p>{{ locale_data.qa.question6.answer|safe }}</p>
+                </details>
+            </div>
+        </section>
+
+        <section class="contact tile container-ratio ratio-2-1" aria-labelledby="contact-heading">
+            <div class="contact-inner flex flex-col flex-center flex-justify-center">
+                <h2 id="contact-heading">{{ locale_data.contact.heading }}</h2>
+                <a href="mailto:&#104;&#105;&#64;&#119;&#105;&#116;&#104;&#102;&#114;&#97;&#109;&#101;&#115;&#46;&#99;&#111;&#109;" class="btn btn-md btn-secondary">{{ locale_data.contact.button_text }}</a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="main-footer wrapper flex flex-col gap-6xl">
+        <div class="footer-links grid grid-4col">
+            <img src="/lib/img/logo/frames.svg" alt="{{ locale_data.footer.logo_alt }}">
+            <ul class="flex flex-col gap-sm">
+                <li><h3>{{ locale_data.footer.connect.heading }}</h3></li>
+                <li><a href="{{ global_config.urls.social.instagram }}" target="_blank" rel="noopener noreferrer">{{ locale_data.footer.connect.instagram }}</a></li>
+                <li><a href="{{ global_config.urls.social.threads }}" target="_blank" rel="noopener noreferrer">{{ locale_data.footer.connect.threads }}</a></li>
+                <li><a href="{{ global_config.urls.social.facebook }}" target="_blank" rel="noopener noreferrer">{{ locale_data.footer.connect.facebook }}</a></li>
+                <li><a href="{{ global_config.urls.social.bluesky }}" target="_blank" rel="noopener noreferrer">{{ locale_data.footer.connect.bluesky }}</a></li>
+                <li><a href="{{ global_config.urls.social.mastodon }}" target="_blank" rel="noopener noreferrer">{{ locale_data.footer.connect.mastodon }}</a></li>
+                <li><a href="{{ global_config.urls.social.twitter }}" target="_blank" rel="noopener noreferrer">{{ locale_data.footer.connect.twitter }}</a></li>
+            </ul>
+            <ul class="flex flex-col gap-sm">
+                <li><h3>{{ locale_data.footer.resources.heading }}</h3></li>
+                <li><a href="{{ locale_data.urls.privacy }}">{{ locale_data.footer.resources.privacy_policy }}</a></li>
+                <li><a href="{{ global_config.urls.terms }}" target="_blank" rel="noopener noreferrer">{{ locale_data.footer.resources.terms_of_service }}</a></li>
+                <li><a href="{{ global_config.urls.documentation }}">{{ locale_data.footer.resources.documentation }}</a></li>
+                <li><a href="{{ global_config.urls.changelog }}">{{ locale_data.footer.resources.changelog }}</a></li>
+                <li><a href="{{ global_config.urls.social.youtube }}" target="_blank" rel="noopener noreferrer">{{ locale_data.footer.resources.youtube }}</a></li>
+            </ul>
+            <ul class="flex flex-col gap-sm">
+                <li><h3>{{ locale_data.footer.product.heading }}</h3></li>
+                <li><a href="{{ locale_data.urls.appstore_ios }}">{{ locale_data.footer.product.frames_ios }}</a></li>
+                <li><a href="{{ locale_data.urls.appstore_macos }}">{{ locale_data.footer.product.frames_macos }}</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-bottom flex flex-row flex-justify-between flex-center">
+            <p>{{ locale_data.footer.copyright }} <span class="mobile-hidden">{{ locale_data.footer.all_rights_reserved }}</span></p>
+
+                <div class="dropdown">
+                    <input type="checkbox" class="dropdown-toggle" id="lang-toggle">
+
+                    <label for="lang-toggle" class="dropdown-button btn btn-sm btn-dark">
+                        <img src="/lib/img/icn/globe.svg" alt="Globe Icon" loading="lazy">
+                        <span>{{ locale_data.footer.language_dropdown.label }}</span>
+                        <img src="/lib/img/icn/chevron-down-sm.svg" alt="Chevron Down" width="10" height="12" loading="lazy">
+                    </label>
+
+                    <ul class="dropdown-content dropdown-dir-top" role="menu">
+                        {% for language in all_languages %}
+                        <li>
+                            <a role="menuitem" href="{{ language.url }}">
+                                <span>{{ language.name }}</span>
+                                {% if language.code == lang %}
+                                <span>✓</span>
+                                {% endif %}
+                            </a>
+                        </li>
+                        {% endfor %}
+                    </ul>
+                </div>
+        </div>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const schemaFiles = [
+                '/lib/schema/{{ lang }}/frames.json',
+                '/lib/schema/{{ lang }}/faq.json'
+            ];
+
+            schemaFiles.forEach((url) => {
+                fetch(url)
+                    .then(response => {
+                        if (!response.ok) {
+                            throw new Error(`Failed to fetch ${url}: ${response.status}`);
+                        }
+                        return response.json(); // Parse as JSON
+                    })
+                    .then(jsonData => {
+                        const script = document.createElement('script');
+                        script.type = 'application/ld+json';
+                        script.textContent = JSON.stringify(jsonData); // Convert back to string
+                        document.head.appendChild(script);
+                        console.log(`Successfully injected JSON-LD from ${url}`);
+                    })
+                    .catch(error => {
+                        console.error('Error injecting JSON-LD:', error);
+                    });
+            });
+        });
+
+    // Video overlay - reload iframe to stop video when closing
+    document.getElementById('video-toggle').addEventListener('change', function(e) {
+        if (!e.target.checked) {
+            const iframe = document.querySelector('.video-container iframe');
+            const src = iframe.src;
+            iframe.src = src;
+        }
+    });
+
+    function toggleShareMenu() {
+      const menu = document.getElementById('shareMenu');
+      menu.classList.toggle('active');
+    }
+
+    function shareOn(platform) {
+      const url = encodeURIComponent(window.location.href);
+      const title = encodeURIComponent(document.title);
+      const text = encodeURIComponent('{{ locale_data.meta.description }}');
+      
+      let shareUrl = '';
+
+      switch(platform) {
+        case 'facebook':
+          shareUrl = `https://www.facebook.com/sharer/sharer.php?u=${url}`;
+          break;
+        case 'twitter':
+          shareUrl = `https://twitter.com/intent/tweet?url=${url}&text=${text}`;
+          break;
+        case 'linkedin':
+          shareUrl = `https://www.linkedin.com/sharing/share-offsite/?url=${url}`;
+          break;
+        case 'whatsapp':
+          shareUrl = `https://wa.me/?text=${text}%20${url}`;
+          break;
+        case 'reddit':
+          shareUrl = `https://reddit.com/submit?url=${url}&title=${title}`;
+          break;
+        case 'email':
+          shareUrl = `mailto:?subject=${title}&body=${text}%20${url}`;
+          break;
+      }
+
+      if (shareUrl) {
+        window.open(shareUrl, '_blank', 'width=600,height=400');
+      }
+    }
+  </script>
+</body>
+
+</html>

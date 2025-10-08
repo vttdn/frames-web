@@ -1,0 +1,45 @@
+@use 'mixins' as *;
+
+/* Reviews Section */
+.reviews article {
+    grid-column: span 2;
+}
+
+.review-details {
+    grid-column-end: -1;
+
+    @include tablet-down {
+        padding-top: var(--spacing-2xl);
+    }
+}
+
+.review-quote {
+    font-size: var(--font-size-2xl);
+    line-height: var(--line-height-2xl);
+
+    @include tablet-down {
+        font-size: var(--font-size-xl);
+        line-height: var(--line-height-xl);
+    }
+}
+
+.review-author {
+    .btn {
+        cursor: default !important;
+        background: var(--color-gray-dark2) !important;
+    }
+}
+
+.author-info {
+    font-size: var(--font-size-sm);
+    line-height: var(--line-height-sm);
+}
+
+.review-date {
+    color: var(--color-secondary);
+}
+
+.review-footer {
+    color: var(--color-secondary);
+    margin-top: var(--spacing-lg);
+}

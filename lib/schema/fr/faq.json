@@ -1,0 +1,46 @@
+{
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Quelles métadonnées puis-je enregistrer ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Frames vous permet de noter des informations détaillées pour chaque prise, incluant boîtier, objectif, filtres, numéro de vue, focale, ouverture, vitesse, ISO, mode de mesure, pellicule, flash, localisation GPS, horodatage et notes personnalisées, vous assurant de ne jamais perdre de détails importants de votre photographie argentique."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Quels formats d'image sont supportés ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Frames supporte les formats JPEG, TIFF et DNG, vous permettant d'intégrer vos métadonnées enregistrées directement dans les photos argentiques numérisées pour une organisation fluide sur tous vos appareils."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Frames est-il disponible sur Android ou Windows ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Frames est actuellement disponible pour iPhone et macOS. Des versions pour Android et Windows sont prévues pour 2026, et en attendant, vous pouvez partager et gérer vos données via les exports de fichiers .frames."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Quelles vitesses et ouvertures sont supportées ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Frames fournit des séquences par défaut qui couvrent la plupart des objectifs et boîtiers, et vous pouvez également définir des séquences personnalisées pour votre matériel, le rendant compatible avec n'importe quelle valeur de vitesse ou d'ouverture."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Puis-je noter les trépieds ou accessoires ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Oui, Frames dispose d'un champ de notes dédié où vous pouvez enregistrer les trépieds, flashs et autres accessoires utilisés, ainsi que n'importe quel détail personnalisé que vous souhaitez ajouter à vos prises de vue."
+          }
+        }
+      ]
+    }

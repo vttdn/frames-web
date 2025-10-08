@@ -1,0 +1,57 @@
+/* Responsive Breakpoint Mixins */
+
+/* Mobile: ≤480px */
+@mixin mobile {
+  @media (max-width: 480px) {
+    @content;
+  }
+}
+
+/* Small Tablet: 481px - 768px */
+@mixin small-tablet {
+  @media (max-width: 768px) and (min-width: 481px) {
+    @content;
+  }
+}
+
+/* Tablet and below: ≤768px */
+@mixin tablet-down {
+  @media (max-width: 768px) {
+    @content;
+  }
+}
+
+/* Tablet range: 481px - 1024px */
+@mixin tablet {
+  @media (max-width: 1024px) and (min-width: 481px) {
+    @content;
+  }
+}
+
+/* Large Tablet: 769px - 1024px */
+@mixin large-tablet {
+  @media (max-width: 1024px) and (min-width: 769px) {
+    @content;
+  }
+}
+
+/* Features breakpoint: ≤1140px */
+@mixin features-breakpoint {
+  @media (max-width: 1140px) {
+    @content;
+  }
+}
+
+/* Pricing special breakpoint: 1024px - 1140px */
+@mixin pricing-mid-range {
+  @media (max-width: 1140px) and (min-width: 1025px) {
+    @content;
+  }
+}
+
+/* Desktop and below: ≤1024px */
+@mixin desktop-down {
+  @media (max-width: 1024px) {
+    @content;
+  }
+}

@@ -1,0 +1,46 @@
+{
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What metadata can I record?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Frames lets you log detailed information for every shot, including camera, lens, filters, frame number, focal length, aperture, shutter speed, ISO, metering mode, film stock, flash, GPS location, timestamps, and custom notes, ensuring you never lose track of important analog photography details."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which image formats are supported?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Frames supports JPEG, TIFF, and DNG formats, allowing you to embed your recorded metadata directly into scanned analog photos for seamless organization and workflow across your devices."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Frames on Android or Windows?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Frames is currently available for iPhone and macOS. Versions for Android and Windows are planned for 2026, and in the meantime, you can share and manage your data via .frames file exports."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which shutter speeds and apertures are supported?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Frames provides default sequences that cover most lenses and cameras, and you can also define custom sequences for your gear, making it compatible with any shutter speed or aperture values."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I log tripods or accessories?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, Frames lets you record tripods, flashes, and other accessories. There’s also an extra note field where you can add any custom details you want."
+          }
+        }
+      ]
+    }

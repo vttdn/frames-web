@@ -1,226 +1,56 @@
 <!DOCTYPE html>
 <html lang="hi">
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>Frames - फिल्म फोटोग्राफी के लिए नोटबुक और मेटाडेटा ऐप</title>
-    <meta name="description" content="Frames फिल्म फोटोग्राफर्स के लिए जरूरी ऐप है। अपनी सेटिंग्स, नोट्स रिकॉर्ड करें और स्कैन में मेटाडेटा जोड़ें। iPhone और Mac के लिए उपलब्ध।">
-    <style>
-        :root {
-            --large-spacing: 8rem;
-            --huge-spacing: 10rem;
-            --gray-1: #b3b3b3;
-            --font-size-small: 0.9rem;
-            --font-size-body: 1rem;
-            --font-size-heading1: 3.5rem;
-            --font-size-heading2: 1.75rem;
-            --font-size-heading3: 1.125rem;
-            --gap: 1rem;
-            --grid-vgap: 2.25rem;
-            --list-hgap: 0.25rem;
-        }
-        html {
-            -webkit-text-size-adjust: 100%;
-            box-sizing: border-box;
-        }
-        *,
-        ::after,
-        ::before {
-            box-sizing: inherit;
-        }
-        body {
-            color: var(--gray-1);
-            font-size: var(--font-size-body);
-            background: #000;
-            -webkit-font-smoothing: antialiased;
-            -moz-osx-font-smoothing: grayscale;
-            font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
-            font-weight: 400;
-            font-style: normal;
-            margin: 0;
-            padding: 0;
-            line-height: 1.5;
-            padding-top: 1.5rem;
-        }
-        .grid-2col,
-        .grid-3col,
-        .grid-4col,
-        .grid-5col {
-            display: grid;
-            gap: var(--gap);
-            grid-template-columns: 1fr;
-            width: 100%;
-        }
-        .h1,
-        h1,
-        h2,
-        h3,
-        header a.logo,
-        .footer-left {
-            color: #fff;
-        }
-        .logo { text-transform: uppercase }
-        .logo span { font-weight:300 }
-        .h1,
-        h1 {
-            font-size: var(--font-size-heading1);
-            line-height: 1.05;
-            font-weight: 500;
-            margin-bottom: 0;
-            min-height: 8rem;
-            margin-top: calc(100svh - var(--font-size-heading1) * 2 - 12rem);
-        }
-        .header-content {
-            position: relative;
-        }
-        section {
-            margin-top: calc(var(--large-spacing) - 2rem);
-            padding-top: 2rem;
-        }
-        .wrapper {
-            padding-left: 1rem;
-            padding-right: 1rem;
-        }
-        .navigation {
-            font-size: var(--font-size-small);
-            line-height: 1.4;
-        }
-        .navigation li {
-            display: flex;
-            flex-direction: column;
-            gap: var(--list-hgap);
-        }
-        li,
-        ul {
-            list-style: none;
-            margin: 0;
-            padding: 0;
-        }
-        a,
-        a:active,
-        a:hover,
-        a:visited {
-            text-decoration: none;
-            color: inherit;
-        }
-        .sr-only {
-            position: absolute;
-            width: 1px;
-            height: 1px;
-            margin: -1px;
-            padding: 0;
-            border: 0;
-            clip: rect(0, 0, 0, 0);
-            overflow: hidden;
-        }
-        .input-wrapper > .placeholder,
-        .input-wrapper > input {
-            display: block;
-            -webkit-appearance: none;
-            -moz-appearance: none;
-            appearance: none;
-            width: 100%;
-            height: 100%;
-            background-color: transparent;
-            border: 0;
-        }
-        .desktop-only {
-            display: none;
-        }
-        .download-buttons {
-            position: absolute;
-            top: 0;
-            right: 0;
-            gap: 1.5rem;
-            display: flex;
-        }
-        .download-buttons img {
-            height: 2.5rem;
-            width: auto;
-        }
-        article p {
-            font-size: var(--font-size-body);
-        }
-        @media (min-width: 768px) {
-            :root {
-                --large-spacing: 10rem;
-                --huge-spacing: 12rem;
-                --font-size-small: 1rem;
-                --font-size-body: 1.0625rem;
-                --font-size-heading1: 7rem;
-                --font-size-heading2: 3rem;
-                --font-size-heading3: 1.5rem;
-                --gap: 1.5rem;
-                --grid-vgap: 4.5rem;
-                --list-hgap: 0.35rem;
-            }
-            body {
-                padding-top: 2rem;
-            }
-            .h1,
-            h1 {
-                margin-top: calc(100svh - var(--font-size-heading1) * 2 - 9rem);
-                margin-bottom: 0;
-                min-height: 16.4375rem;
-            }
-            .grid-4col {
-                grid-template-columns: repeat(4, 1fr);
-            }
-            .wrapper {
-                padding-left: 3rem;
-                padding-right: 3rem;
-                max-width: 112rem;
-                margin: 0 auto;
-            }
-            .navigation {
-                display: flex;
-                justify-content: space-between;
-                align-items: center;
-                gap: var(--gap);
-                font-size: 0.9rem;
-            }
-            .desktop-only {
-                display: inherit;
-            }
-            .mobile-only { display: none!important; }
-        }
-    </style>
+    <title>Frames – फ़िल्म फ़ोटोग्राफ़ी ऐप नोट्स और मेटाडेटा के लिए</title>
+    <meta name="description"
+        content="Frames फ़िल्म फ़ोटोग्राफ़रों के लिए ऐप है। हर शॉट लॉग करें, कैमरा सेटिंग्स ट्रैक करें, रोल्स व्यवस्थित करें और iPhone व Mac पर EXIF मेटाडेटा सहेजें।">
     <link rel="canonical" href="https://withframes.com/hi/">
     <link rel="alternate" hreflang="en" href="https://withframes.com/">
     <link rel="alternate" hreflang="fr" href="https://withframes.com/fr/">
+    <link rel="alternate" hreflang="de" href="https://withframes.com/de/">
     <link rel="alternate" hreflang="es" href="https://withframes.com/es/">
     <link rel="alternate" hreflang="it" href="https://withframes.com/it/">
-    <link rel="alternate" hreflang="de" href="https://withframes.com/de/">
     <link rel="alternate" hreflang="nl" href="https://withframes.com/nl/">
     <link rel="alternate" hreflang="pt" href="https://withframes.com/pt/">
     <link rel="alternate" hreflang="ja" href="https://withframes.com/ja/">
     <link rel="alternate" hreflang="ko" href="https://withframes.com/ko/">
-    <link rel="alternate" hreflang="ru" href="https://withframes.com/ru/">
-    <link rel="alternate" hreflang="th" href="https://withframes.com/th/">
-    <link rel="alternate" hreflang="zh" href="https://withframes.com/zh/">
-    <link rel="alternate" hreflang="pl" href="https://withframes.com/pl/">
-    <link rel="alternate" hreflang="tr" href="https://withframes.com/tr/">
-    <link rel="alternate" hreflang="sv" href="https://withframes.com/sv/">
     <link rel="alternate" hreflang="hi" href="https://withframes.com/hi/">
+    <link rel="alternate" hreflang="pl" href="https://withframes.com/pl/">
+    <link rel="alternate" hreflang="ru" href="https://withframes.com/ru/">
+    <link rel="alternate" hreflang="sv" href="https://withframes.com/sv/">
+    <link rel="alternate" hreflang="th" href="https://withframes.com/th/">
+    <link rel="alternate" hreflang="tr" href="https://withframes.com/tr/">
+    <link rel="alternate" hreflang="zh" href="https://withframes.com/zh/">
     <link rel="alternate" hreflang="x-default" href="https://withframes.com/">
-    <link rel="stylesheet" href="/library/css/typewriter-hi.min.css" media="print" onload="this.media='all'">
-    <noscript><link rel="stylesheet" href="/library/css/typewriter-hi.min.css"></noscript>
-    <link rel="stylesheet" href="/library/css/style.min.css" media="print" onload="this.media='all'">
-    <noscript><link rel="stylesheet" href="/library/css/style.min.css"></noscript>
+
+    <!-- Critical CSS - Inlined for immediate render -->
+    <style>:root{--color-black: #0C0B14;--color-white: #ECECED;--color-accent: #FF375F;--color-gray: color-mix(in srgb, var(--color-white) 56%, transparent);--color-gray-dark: #1C1C1E;--color-gray-dark2: #2C2C2E;--color-gray-dark3: #3A3A3C;--color-background: #000;--color-primary: var(--color-white);--color-secondary: var(--color-gray);--color-surface: var(--color-gray-dark);--color-divider: var(--color-gray-dark3);--font-size-xs: 0.8125rem;--font-size-sm: 0.875rem;--font-size-md: 1rem;--font-size-lg: 1.375rem;--font-size-xl: 1.75rem;--font-size-2xl: 2.25rem;--line-height-xs: 1.25rem;--line-height-sm: 1.25rem;--line-height-md: 1.5rem;--line-height-lg: 1.75rem;--line-height-xl: 2.25rem;--line-height-2xl: 2.8125rem;--spacing-xs: 0.25rem;--spacing-sm: 0.5rem;--spacing-md: 0.75rem;--spacing-lg: 1rem;--spacing-xl: 1.5rem;--spacing-2xl: 2rem;--spacing-3xl: 3rem;--spacing-4xl: 4rem;--spacing-5xl: 6rem;--spacing-6xl: 8rem;--grid-gap: var(--spacing-md);--radius-sm: 0.25rem;--radius-md: 0.5rem;--radius-full: 9999px;--transition-fast: 150ms ease;--transition-base: 200ms ease;--transition-slow: 300ms ease}html{scroll-behavior:smooth}body{color:var(--color-primary);font-size:var(--font-size-md);background:var(--color-background);-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Helvetica,Arial,sans-serif;font-weight:400;font-style:normal;margin:0;padding:0 var(--spacing-xl);line-height:var(--line-height-md)}@media(max-width: 768px){body{padding:0 var(--spacing-lg)}}*,*::before,*::after{-webkit-box-sizing:border-box;box-sizing:border-box}ul,ol{list-style:none;margin:0;padding:0}li,p,figure,blockquote{margin:0;padding:0}cite{font-style:normal}h1,h2,h3,h4,h5,h6{margin:0;padding:0;font-weight:400;color:var(--color-primary)}h1,h2{font-size:var(--font-size-xl);line-height:var(--line-height-xl)}@media(max-width: 480px){h1 br{display:none}}h2{margin-bottom:var(--spacing-xl)}h3{font-size:var(--font-size-lg);line-height:var(--line-height-lg)}.tile{background-color:var(--color-surface);border-radius:var(--radius-md)}.wrapper{max-width:82.5rem;margin:0 auto}section{margin-top:var(--spacing-6xl)}.preview{margin-top:var(--spacing-5xl)}.preview .tile-inner{width:100%;height:100%;padding:0 20%;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center}.preview img{max-width:100%;width:100%;height:auto}.contact h2{font-size:var(--font-size-2xl);line-height:var(--line-height-2xl);text-align:center;padding:0 var(--spacing-2xl)}@media(max-width: 768px){.contact h2{font-size:var(--font-size-xl);line-height:var(--line-height-xl)}}@media(max-width: 480px){.mobile-hidden{display:none !important}}.desktop-hidden{display:none !important}@media(max-width: 480px){.desktop-hidden{display:block !important}}@media(max-width: 1024px){.desktop-only{display:none !important}}.mobile-only{display:none !important}@media(max-width: 1024px){.mobile-only{display:-webkit-box !important;display:-ms-flexbox !important;display:flex !important}}.flex{display:-webkit-box;display:-ms-flexbox;display:flex}.flex.flex-row{-webkit-box-orient:horizontal;-webkit-box-direction:normal;-ms-flex-direction:row;flex-direction:row}.flex.flex-col{-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column}.flex.flex-center{-webkit-box-align:center;-ms-flex-align:center;align-items:center}.flex.flex-start{-webkit-box-align:start;-ms-flex-align:start;align-items:flex-start}.flex.flex-end{-webkit-box-align:end;-ms-flex-align:end;align-items:flex-end}.flex.flex-justify-center{-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center}.flex.flex-justify-start{-webkit-box-pack:start;-ms-flex-pack:start;justify-content:flex-start}.flex.flex-justify-end{-webkit-box-pack:end;-ms-flex-pack:end;justify-content:flex-end}.flex.flex-justify-between{-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;gap:0}.flex.flex-justify-around{-ms-flex-pack:distribute;justify-content:space-around;gap:0}.flex.flex-wrap{-ms-flex-wrap:wrap;flex-wrap:wrap}.gap-xs{gap:var(--spacing-xs)}.gap-sm{gap:var(--spacing-sm)}.gap-md{gap:var(--spacing-md)}.gap-lg{gap:var(--spacing-lg)}.gap-xl{gap:var(--spacing-xl)}.gap-2xl{gap:var(--spacing-2xl)}.gap-3xl{gap:var(--spacing-3xl)}.gap-4xl{gap:var(--spacing-4xl)}.gap-5xl{gap:var(--spacing-5xl)}.gap-6xl{gap:var(--spacing-6xl)}.col-span-2{grid-column:span 2}.col-span-3{grid-column:span 3}.col-span-4{grid-column:span 4}.col-start-1{grid-column-start:1}.col-start-2{grid-column-start:2}.col-start-3{grid-column-start:3}.col-start-4{grid-column-start:4}.col-end{grid-column-end:-1}@media(max-width: 768px){.col-span-2-mobile{grid-column:span 2}}.grid{display:grid;gap:var(--grid-gap)}.grid-full{grid-template-columns:1fr}.grid-2col{grid-template-columns:repeat(2, 1fr)}.grid-4col{grid-template-columns:repeat(4, 1fr)}@media(max-width: 1024px)and (min-width: 769px){.features.grid-4col,.pricing.grid-4col{grid-template-columns:repeat(3, 1fr) !important}}@media(max-width: 1140px){.features.grid-4col{-webkit-box-align:stretch;-ms-flex-align:stretch;align-items:stretch}.features .container-ratio::before{display:none !important}.features .container-ratio>*{position:static !important;height:100% !important}}@media(max-width: 1140px)and (min-width: 1025px){.pricing.grid-4col{-webkit-box-align:stretch;-ms-flex-align:stretch;align-items:stretch}.pricing .container-ratio::before{display:none !important}.pricing .container-ratio>*{position:static !important;height:100% !important}}@media(max-width: 1024px)and (min-width: 481px){.pricing.grid-4col{-webkit-box-align:stretch;-ms-flex-align:stretch;align-items:stretch}.pricing .container-ratio::before{display:none !important}.pricing .container-ratio>*{position:static !important;height:100% !important}}@media(max-width: 768px){.grid-4col{grid-template-columns:repeat(2, 1fr)}.grid-2col{grid-template-columns:1fr}}@media(max-width: 768px)and (min-width: 481px){.features.grid-4col,.pricing.grid-4col{grid-template-columns:repeat(2, 1fr) !important}}@media(max-width: 480px){.grid-4col{grid-template-columns:1fr}}.container-ratio{position:relative;width:100%;overflow:hidden}.container-ratio::before{content:"";display:block;padding-top:var(--ratio, 100%)}.container-ratio>*{position:absolute;top:0;left:0;width:100%;height:100%}.container-ratio>img,.container-ratio>video{-o-object-fit:cover;object-fit:cover}.ratio-2-1{--ratio: 50%}@media(max-width: 480px){.ratio-2-1{--ratio: 75%}}.ratio-4-3{--ratio: 75%}.ratio-3-4{--ratio: 133.333%}.ratio-1-1{--ratio: 100%}a{color:inherit;text-decoration:none}a:hover{color:inherit}a:focus-visible{outline:2px solid var(--color-accent);outline-offset:2px;border-radius:2px}.btn{display:-webkit-inline-box;display:-ms-inline-flexbox;display:inline-flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;gap:var(--spacing-xs);border:none;border-radius:var(--radius-full);cursor:pointer;text-decoration:none;text-align:center}.btn:focus-visible{outline:2px solid var(--color-accent);outline-offset:2px}.btn.btn-sm{font-size:var(--font-size-sm);height:27px;padding:0 11px}.btn.btn-sm.btn-uppercase{font-size:var(--font-size-xs);text-transform:uppercase}.btn.btn-md{font-size:var(--font-size-md);padding:10px 22px}.btn.btn-circle{width:44px;height:44px;padding:0;border-radius:var(--radius-full)}.btn.btn-light{background:var(--color-white);color:var(--color-black)}.btn.btn-light svg{fill:var(--color-black)}.btn.btn-light:hover{opacity:.9}.btn.btn-light:active{opacity:1}.btn.btn-dark{background:rgba(0,0,0,0);border:1px solid var(--color-gray-dark3);color:var(--color-white)}.btn.btn-dark svg{fill:var(--color-white)}.btn.btn-dark:hover{border:1px solid color-mix(in srgb, var(--color-gray-dark3) 96%, white 4%)}.btn.btn-dark:active{border:1px solid color-mix(in srgb, var(--color-gray-dark3) 92%, white 8%)}.btn.btn-secondary{background:var(--color-gray-dark2);color:var(--color-white)}.btn.btn-secondary svg{fill:var(--color-white)}.btn.btn-secondary:hover{background:color-mix(in srgb, var(--color-gray-dark2) 98%, white 2%)}.btn.btn-secondary:active{background:var(--color-gray-dark2)}.play-btn{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;height:6rem;width:6rem;position:absolute;top:50%;left:50%;-webkit-transform:translate(-50%, -50%);transform:translate(-50%, -50%);background-color:color-mix(in srgb, var(--color-white) 10%, transparent);border-radius:9999px;backdrop-filter:blur(20px);-webkit-backdrop-filter:blur(20px);will-change:transform}.play-btn:hover{background-color:color-mix(in srgb, var(--color-white) 15%, transparent)}.play-btn:active{background-color:color-mix(in srgb, var(--color-white) 10%, transparent)}@media(max-width: 480px){.play-btn{-webkit-transform:translate(-50%, -50%) scale(0.75);transform:translate(-50%, -50%) scale(0.75)}}@media(max-width: 768px){.play-btn{-webkit-transform:translate(-50%, -50%) scale(0.875);transform:translate(-50%, -50%) scale(0.875)}}.main-header{position:sticky;top:0;background:var(--color-background);font-size:var(--font-size-sm);z-index:100}.container-header{height:3.375rem;display:grid;grid-template-columns:1fr auto 1fr;-webkit-box-align:center;-ms-flex-align:center;align-items:center}.container-header .leading{justify-self:start;-webkit-box-align:center;-ms-flex-align:center;align-items:center}.container-header .center{justify-self:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center}.container-header .trailing{justify-self:end;-webkit-box-align:center;-ms-flex-align:center;align-items:center}@media(max-width: 768px){.container-header{grid-template-columns:1fr auto}}.logo{text-transform:uppercase}.navigation a{height:2.125rem;padding:0 var(--spacing-lg)}.navigation a:hover{opacity:.82}@media(max-width: 768px){.navigation{display:none}}.hero{margin-top:var(--spacing-5xl)}.hero-image{position:relative;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:end;-ms-flex-align:end;align-items:flex-end}.hero-image::before{display:none !important}.hero-image img{position:static;-o-object-fit:cover;object-fit:cover}.hero-content{margin-bottom:var(--spacing-4xl)}.hero-content .btn{-ms-flex-item-align:start;align-self:flex-start}.hero-featured{margin-top:var(--spacing-4xl)}.featured-text{font-size:var(--font-size-sm)}.featured-logos{gap:var(--spacing-lg) 4.5rem;-ms-flex-wrap:wrap;flex-wrap:wrap;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center}@media(max-width: 768px){.featured-logos{gap:var(--spacing-2xl) 4.5rem}}@media(max-width: 480px){.featured-logos{gap:var(--spacing-xl) var(--spacing-2xl)}}</style>
+    <!-- Deferred CSS - Loaded asynchronously for below-the-fold content -->
+    <link rel="stylesheet" href="/lib/css/deferred.css" media="print" onload="this.media='all'">
+    <!-- No-JS Fallback -->
+    <noscript>
+        <link rel="stylesheet" href="/lib/css/deferred.css">
+    </noscript>
+
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:site" content="@withframes">
     <meta name="twitter:creator" content="@withframes">
-    <meta name="twitter:title" content="Frames - फिल्म फोटोग्राफी के लिए नोटबुक और मेटाडेटा ऐप">
-    <meta name="twitter:description" content="Frames फिल्म फोटोग्राफर्स के लिए जरूरी ऐप है। अपनी सेटिंग्स, नोट्स रिकॉर्ड करें और स्कैन में मेटाडेटा जोड़ें। iPhone और Mac के लिए उपलब्ध।">
+    <meta name="twitter:title" content="Frames – फ़िल्म फ़ोटोग्राफ़ी ऐप नोट्स और मेटाडेटा के लिए">
+    <meta name="twitter:description"
+        content="Frames फ़िल्म फ़ोटोग्राफ़रों के लिए ऐप है। हर शॉट लॉग करें, कैमरा सेटिंग्स ट्रैक करें, रोल्स व्यवस्थित करें और iPhone व Mac पर EXIF मेटाडेटा सहेजें।">
     <meta name="twitter:image" content="https://withframes.com/og-image.jpg">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Frames">
-    <meta property="og:title" content="Frames - फिल्म फोटोग्राफी के लिए नोटबुक और मेटाडेटा ऐप">
-    <meta property="og:description" content="Frames फिल्म फोटोग्राफर्स के लिए जरूरी ऐप है। अपनी सेटिंग्स, नोट्स रिकॉर्ड करें और स्कैन में मेटाडेटा जोड़ें। iPhone और Mac के लिए उपलब्ध।">
+    <meta property="og:title" content="Frames – फ़िल्म फ़ोटोग्राफ़ी ऐप नोट्स और मेटाडेटा के लिए">
+    <meta property="og:description"
+        content="Frames फ़िल्म फ़ोटोग्राफ़रों के लिए ऐप है। हर शॉट लॉग करें, कैमरा सेटिंग्स ट्रैक करें, रोल्स व्यवस्थित करें और iPhone व Mac पर EXIF मेटाडेटा सहेजें।">
     <meta property="og:url" content="https://withframes.com/hi/">
     <meta property="og:image" content="https://withframes.com/og-image.jpg">
     <meta property="og:locale" content="hi_IN">
-    <link rel="icon" href="/favicon.png" type="image/png">
+    <link rel="shortcut icon" href="/favicon.png" type="image/png">
     <link rel="icon" href="/favicon.svg" type="image/svg+xml">
     <link rel="apple-touch-icon" href="/apple-touch-icon.png">
     <meta name="theme-color" content="#000">
@@ -229,399 +59,796 @@
 </head>
 
 <body>
-    <header id="frames" class="wrapper">
-        <div class="header-content">
-            <ul class="download-buttons">
-                <li class="desktop-only">
-                    <a href="https://apps.apple.com/in/app/frames-फ-ल-म-म-ट-ड-ट/id6744063354?l=hi">
-                        <img fetchpriority="high" src="/library/img/hi/appstore-badge-dark.webp" srcset="/library/img/hi/appstore-badge-dark.webp,
-                                    /library/img/hi/appstore-badge-dark@2x.webp 2x,
-                                    /library/img/hi/appstore-badge-dark@3x.webp 3x" alt="Mac के लिए डाउनलोड करें">
-                    </a>
-                </li>
-                <li>
-                    <a href="https://apps.apple.com/in/app/frames-फ-ल-म-फ-ट-ड-यर/id6744057317?l=hi">
-                        <img fetchpriority="high" src="/library/img/hi/appstore-badge.webp" srcset="/library/img/hi/appstore-badge.webp,
-                                    /library/img/hi/appstore-badge@2x.webp 2x,
-                                    /library/img/hi/appstore-badge@3x.webp 3x" alt="iPhone के लिए डाउनलोड करें">
-                    </a>
-                </li>
-            </ul>
-            <nav class="navigation" aria-label="Main navigation">
-                <ul class="grid-4col">
-                    <li><a href="https://withframes.com/hi/" class="logo">Frames <span>®</span></a></li>
-                    <li>
-                    </li>
-                    <li class="mobile-only">
-                        <a href="#iphone">iPhone के लिए</a>
-                        <a href="#mac">Mac के लिए</a>
-                    </li>
+    <header class="main-header wrapper">
+        <div class="container-header">
+            <a href="/hi/" class="logo leading" aria-label="Frames होम">
+                <span>Frames</span>
+            </a>
+
+            <nav class="navigation center" aria-label="मुख्य नेविगेशन">
+                <ul class="flex flex-row">
+                    <li class="desktop-only"><a href="#features">विशेषताएं</a></li>
+                    <li><a href="/docs/">दस्तावेज़ीकरण</a></li>
+                    <li><a href="/changelog/">परिवर्तन सूची</a></li>
                 </ul>
             </nav>
-            <h1 class="sr-only">Frames - फिल्म फोटोग्राफी के लिए नोटबुक और मेटाडेटा ऐप</h1>
-            <div class="h1 input-wrapper" aria-hidden="true"><input type="text" tabindex="-1" readonly> <span class="placeholder"></span></div>
-        </div>
-    </header>
-    <main class="wrapper">
-        <section id="iphone" aria-labelledby="features-mobile-heading">
-            <h2 id="features-mobile-heading"><span class='sr-only'>फिल्म फोटोग्राफी ऐप </span>iPhone के लिए</h2>
-            <ul class="grid-3col feature-list-mobile">
-                <li>
-                    <article>
-                        <div class="screenshot-container">
-                            <img fetchpriority="low" src="/library/img/hi/frames-feature-screenshot-1.webp" alt="iOS ऐप में नाम और तारीख से सॉर्ट किए गए फोल्डर्स में व्यवस्थित फिल्में दिख रही हैं" width="504" height="1024" loading="lazy">
-                        </div>
-                        <h3>अपनी लाइब्रेरी व्यवस्थित करें</h3>
-                        <p>फोल्डर्स बनाएं, अपनी फिल्मों को सॉर्ट करें, नाम बदलें या मूव करें। Frames फिल्म फोटोग्राफी के लिए डिज़ाइन किए गए डिजिटल कॉन्टैक्ट शीट की तरह इंट्यूटिव फोटो आर्काइव मैनेजमेंट प्रदान करता है।</p>
-                    </article>
-                </li>
-                <li>
-                    <article>
-                        <div class="screenshot-container">
-                            <img fetchpriority="low" src="/library/img/hi/frames-feature-screenshot-2.webp" alt="iOS स्क्रीन पर एक फिल्म के लिए विस्तृत सेटिंग्स (कैमरा, लेंस, फिल्म) दिखाई दे रही हैं" width="504" height="1024" loading="lazy">
-                        </div>
-                        <h3>अपनी सभी सेटिंग्स रिकॉर्ड करें</h3>
-                        <p>अपना कैमरा, लेंस, फिल्म प्रकार, एक्सपोज़र सेटिंग्स (एपर्चर, शटर स्पीड, फोकल लेंथ, फ्लैश...) और भी बहुत कुछ सेशन के दौरान रिकॉर्ड करें। Frames शूटिंग से लेकर स्कैनिंग तक हर टेक्निकल डिटेल डॉक्यूमेंट करता है।</p>
-                    </article>
-                </li>
-                <li>
-                    <article>
-                        <div class="screenshot-container">
-                            <img fetchpriority="low" src="/library/img/hi/frames-feature-screenshot-3.webp" alt="iOS ऐप में सेटिंग्स व्यू जिसमें हर फिल्म इमेज के लिए तारीख, नोट्स और मैप है" width="504" height="1024" loading="lazy">
-                        </div>
-                        <h3>अपने शॉट्स देखें</h3>
-                        <p>अपनी सभी सेटिंग्स तुरंत देखें: शूटिंग की तारीख और समय, निजी नोट्स, लोकेशन... हर इमेज का अपना कॉन्टेक्स्ट होता है। कभी भी अपने शॉट्स को एडिट या अपडेट करें।</p>
-                    </article>
-                </li>
-                <li>
-                    <article>
-                        <div class="screenshot-container">
-                            <img fetchpriority="low" src="/library/img/hi/frames-feature-screenshot-4.webp" alt="iOS ऐप में मैप जो टेक्निकल डेटा के साथ फोटो लोकेशन दिखा रहा है" width="504" height="1024" loading="lazy">
-                        </div>
-                        <h3>अपने नोट्स को मैप करें</h3>
-                        <p>हर शॉट की GPS पोजीशन को ऑटोमैटिक रिकॉर्ड करें या जरूरत पड़ने पर मैन्युअली एंटर करें। Frames आपको इंटरएक्टिव मैप पर हर फोटो की सटीक शूटिंग लोकेशन देखने देता है।</p>
-                    </article>
-                </li>
-                <li>
-                    <article>
-                        <div class="screenshot-container">
-                            <img fetchpriority="low" src="/library/img/hi/frames-feature-screenshot-5.webp" alt="iOS पर एक्सपोर्ट स्क्रीन जो macOS के लिए तैयार .frames फाइल दिखा रही है" width="504" height="1024" loading="lazy">
-                        </div>
-                        <h3>एक्सपोर्ट और शेयर करें</h3>
-                        <p>अपने नोट्स को एक क्लिक में Mac पर भेजें और अपने काम को सहजता से जारी रखें। .frames फॉर्मेट में एक्सपोर्ट करें, जो एक JSON-आधारित ओपन फॉर्मेट है जिसे पठनीय, हल्का और इंटरऑपरेबल रखने के लिए डिज़ाइन किया गया है।</p>
-                    </article>
-                </li>
-            </ul>
-        </section>
-        <section id="mac" aria-labelledby="features-desktop-heading">
-            <h2 id="features-desktop-heading"><span class='sr-only'>फिल्म फोटोग्राफी ऐप </span>Mac के लिए</h2>
-            <ul class="grid-2col feature-list-desktop">
-                <li>
-                    <article>
-                        <div class="screenshot-container screenshot-desktop">
-                            <img fetchpriority="low" src="/library/img/hi/frames-feature-screenshot-6.webp" alt="macOS इंटरफेस जो .frames फाइल के माध्यम से iOS से इम्पोर्ट की गई फिल्म दिखा रहा है" width="898" height="572" loading="lazy">
-                        </div>
-                        <h3>iPhone से सिंक करें</h3>
-                        <p>iOS ऐप से अपने फिल्म नोट्स को आसानी से इम्पोर्ट करें। बस अपनी .frames फाइल को macOS ऐप में ड्रैग और ड्रॉप करें: आपकी सभी सेटिंग्स, नोट्स और डेटा तुरंत रीलोड हो जाएंगे और उपयोग के लिए तैयार होंगे। कोई अतिरिक्त सेटिंग, सिंक या कॉन्फिगरेशन आवश्यक नहीं है।</p>
-                    </article>
-                </li>
-                <li>
-                    <article>
-                        <div class="screenshot-container screenshot-desktop">
-                            <img fetchpriority="low" src="/library/img/hi/frames-feature-screenshot-7.webp" alt="macOS ऐप जो अटैच्ड स्कैन और लोकेशन के साथ टेक्निकल डेटा दिखा रहा है" width="898" height="572" loading="lazy">
-                        </div>
-                        <h3>हर इमेज एक्सप्लोर करें</h3>
-                        <p>हर शॉट को बारीकी से एक्सप्लोर करें: अपनी सेटिंग्स, इस्तेमाल की गई फिल्म और फोटो की सटीक लोकेशन देखें जो इंटरएक्टिव मैप पर दिखाई देती है। उन्हें अपनी स्कैन की गई इमेज से आसानी से जोड़ें, एक-एक करके या एक बार में सभी फोटो ड्रैग और ड्रॉप करके।</p>
-                    </article>
-                </li>
-                <li>
-                    <article>
-                        <div class="screenshot-container screenshot-desktop">
-                            <img fetchpriority="low" src="/library/img/hi/frames-feature-screenshot-8.webp" alt="macOS EXIF मेटाडेट (कैमरा, लेंस) के साथ एक स्कैन को एक्सपोर्ट कर रहा है" width="898" height="572" loading="lazy">
-                        </div>
-                        <h3>मेटाडेटा के साथ एक्सपोर्ट करें</h3>
-                        <p>अपनी फोटो को उनके सभी EXIF मेटाडेट के साथ सेव करें: लोकेशन, लेंस, बॉडी और बहुत कुछ - आर्काइविंग या शेयरिंग के लिए आदर्श। सार्वभौमिक रूप से मान्यता प्राप्त EXIF फॉर्मेट के कारण, आपका डेटा Apple Photos, Adobe Lightroom, Flickr और अन्य फोटो प्लेटफॉर्म/ऐप्स में ऑटोमैटिक दिखाई देगा।</p>
-                    </article>
-                </li>
-            </ul>
-        </section>
-        <section id="faq" aria-labelledby="faq-heading">
-            <h2 id="faq-heading">सामान्य प्रश्न</h2>
-            <div class="faq-list">
-                <details>
-                    <summary>
-                        <h3>मैं iOS ऐप के साथ किस प्रकार का मेटाडेटा रिकॉर्ड कर सकता हूँ?</h3>
-                    </summary>
-                    <p>आप प्रत्येक शॉट के लिए कैमरा ब्रांड और मॉडल, शटर स्पीड, एपर्चर, फोकल लेंथ, एक्सपोज़र कम्पेंसेशन, फ्लैश यूज़, लेंस डिटेल्स और इस्तेमाल की गई फिल्म टाइप सहित सेटिंग्स और मेटाडेटा का पूरा सेट रिकॉर्ड कर सकते हैं। GPS पोजीशन और तारीख-समय ऑटोमैटिक रिकॉर्ड होता है, लेकिन आप मैन्युअली एडिट कर सकते हैं।<br><br>आप किसी भी कॉन्टेक्स्ट या अतिरिक्त डिटेल को शामिल करने के लिए कस्टम नोट्स भी जोड़ सकते हैं, जो आपको सभी आवश्यक जानकारी संरक्षित करते हुए अपने फिल्म फोटोग्राफी अभ्यास का एक समृद्ध, संरचित आर्काइव बनाने में मदद करता है।</p>
-                </details>
-                <details>
-                    <summary>
-                        <h3>Mac ऐप कौन से फाइल फॉर्मेट सपोर्ट करता है?</h3>
-                    </summary>
-                    <p>macOS साथी ऐप वर्तमान में JPEG (.jpg) और TIFF (.tiff) फ़ाइलों के लिए EXIF मेटाडेटा को जोड़ने और एक्सपोर्ट करने का समर्थन करता है। हम DNG और NEF जैसे अतिरिक्त फ़ॉर्मैट्स का समर्थन जोड़ने पर भी सक्रिय रूप से विचार कर रहे हैं, उपयोगकर्ताओं की ज़रूरतों और व्यवहारिक वर्कफ़्लो के आधार पर। हमारा लक्ष्य एक ऐसा टूल बनाना है जो फ़िल्म फ़ोटोग्राफी के शौकीनों की असल ज़रूरतों को पूरी तरह से समझे – फील्ड में भी और प्रोसेसिंग के समय भी।<br><br>अगर DNG सपोर्ट या कोई और फीचर आपके वर्कफ़्लो को बेहतर बना सकता है, तो हमें ज़रूर बताएं – हम सुन रहे हैं।</p>
-                </details>
-                <details>
-                    <summary>
-                        <h3>क्या मैं ट्राइपॉड या फिल्टर के उपयोग को नोट कर सकता हूँ?</h3>
-                    </summary>
-                    <p>अभी के लिए, ऐप अधिकांश फिल्म फोटोग्राफर्स की जरूरतों को पूरा करने के लिए जानबूझकर सरल और कुशल बनाया गया है। लेकिन आप सीमित नहीं हैं: एक समर्पित नोट्स फील्ड ट्राइपॉड यूज़, फिल्टर टाइप्स, या अन्य हार्डवेयर-संबंधित डिटेल जैसी अतिरिक्त जानकारी रिकॉर्ड करने के लिए उपलब्ध है।<br><br>ये तत्व आधिकारिक EXIF मेटाडेट का हिस्सा नहीं हैं, लेकिन नोट्स फील्ड आपको मुख्य इंटरफेस को अव्यवस्थित किए बिना अपनी प्रक्रिया के लिए महत्वपूर्ण किसी भी चीज़ को शामिल करने की स्वतंत्रता देता है।</p>
-                </details>
-                <details>
-                    <summary>
-                        <h3>क्या Android वर्जन प्लान किया गया है?</h3>
-                    </summary>
-                    <p>Android वर्जन निश्चित रूप से कुछ ऐसा है जिसके बारे में हम सोच रहे हैं - यह हमारे रडार पर है। अभी के लिए, हमारी प्राथमिकता iPhone और macOS पर अनुभव को यथासंभव परिष्कृत, विश्वसनीय और संपूर्ण बनाना है। हम यह सुनिश्चित करना चाहते हैं कि सब कुछ बिना किसी रुकावट के काम करे और हमारे द्वारा निर्धारित गुणवत्ता मानकों को पूरा करे।<br><br>यदि iOS वर्जन सफल होता है और उपयोगकर्ताओं को आकर्षित करना जारी रखता है, तो Android डेवलपमेंट अगला कदम हो सकता है। बने रहें, और यदि आप रुचि रखते हैं तो हमें बताएं - आपका फीडबैक हमारे आगे के काम को निर्देशित करता है।</p>
-                </details>
-                <details>
-                    <summary>
-                        <h3>कौन से फीचर्स प्लान किए गए हैं?</h3>
-                    </summary>
-                    <p>हम ऐप को लगातार बेहतर बनाने के लिए प्रतिबद्ध हैं। भविष्य के अपडेट में इसे व्यापक दर्शकों के लिए सुलभ बनाने के लिए अनुवाद, नए एक्सपोर्ट विकल्प, या यहां तक कि शूटिंग के दौरान त्वरित पहुंच के लिए वॉच कंपेनियन वर्जन शामिल हो सकते हैं। अभी तक कुछ भी अंतिम नहीं है, लेकिन हम इस टूल को समुदाय के साथ मिलकर बना रहे हैं और यह आपकी जरूरतों के अनुसार विकसित हो रहा है।<br><br>ऐप का उपयोग करने का आपका तरीका सीधे नए फीचर्स के लिए हमें प्रेरित करता है - प्रक्रिया का हिस्सा बनने के लिए धन्यवाद।</p>
-                </details>
-            </div>
-        </section>
-        <section id="reviews" aria-labelledby="reviews-heading">
-            <h2 id="reviews-heading">उपयोगकर्ता <span class='sr-only'>फोटोग्राफर</span> समीक्षाएँ</h2>
-            <ul class="grid-3col review-list">
-                <li>
-                    <figure class="user-review">
-                        <blockquote cite="https://withframes.com">
-                            <img src="/library/img/icons/icon-quote.svg" alt="Quote" width="14" height="11" loading="lazy">
-                            <h3 class="sr-only">बिल्कुल सही</h3>
-                            <p>सब कुछ वैसा ही करता है जैसा आप उम्मीद कर सकते हैं, बस। सहज, विश्वसनीय, कोई शिकायत नहीं। इसे मुफ्त में उपलब्ध कराने के लिए धन्यवाद!</p>
-                        </blockquote>
-                        <figcaption class="review-info">
-                            <span class="author">Soliver098</span> <span class="rating sr-only" aria-label="5" role="img">★★★★★</span> <time datetime="2022-08-03" class="sr-only">2022-08-03</time>
-                        </figcaption>
-                    </figure>
-                    <figure class="user-review">
-                        <blockquote cite="https://withframes.com">
-                            <img src="/library/img/icons/icon-quote.svg" alt="Quote" width="14" height="11" loading="lazy">
-                            <h3 class="sr-only">मिनिमलिस्ट और कुशल</h3>
-                            <p>ऐप का उपयोग करना आसान है और बिल्कुल वही करता है जो इसे करना चाहिए। मुझे चल रही फिल्मों को नाम दे पाना पसंद है क्योंकि मैं कभी-कभी भूल जाता हूं कि कुछ तस्वीरें किस कैमरे से ली गई थीं। इंटरफेस साफ और वास्तव में सुंदर है।</p>
-                        </blockquote>
-                        <figcaption class="review-info">
-                            <span class="author">Hivonmarius</span> <span class="rating sr-only" aria-label="5" role="img">★★★★★</span> <time datetime="2022-06-01" class="sr-only">2022-06-01</time>
-                        </figcaption>
-                    </figure>
-                    <figure class="user-review">
-                        <blockquote cite="https://withframes.com">
-                            <img src="/library/img/icons/icon-quote.svg" alt="Quote" width="14" height="11" loading="lazy">
-                            <h3 class="sr-only">पेपर नोटबुक से कहीं बेहतर</h3>
-                            <p>किसी नोटबुक या Apple के नोट्स ऐप में सेटिंग्स नोट करने की तुलना में बहुत अधिक व्यावहारिक। अगले वर्जन का इंतजार है!</p>
-                        </blockquote>
-                        <figcaption class="review-info">
-                            <span class="author">-=Bidiboo=-</span> <span class="rating sr-only" aria-label="5" role="img">★★★★★</span> <time datetime="2022-11-13" class="sr-only">2022-11-13</time>
-                        </figcaption>
-                    </figure>
-                </li>
-                <li>
-                    <figure class="user-review">
-                        <blockquote cite="https://withframes.com">
-                            <img src="/library/img/icons/icon-quote.svg" alt="Quote" width="14" height="11" loading="lazy">
-                            <h3 class="sr-only">इस श्रेणी में सर्वश्रेष्ठ ऐप</h3>
-                            <p>मेरे द्वारा आजमाया गया सबसे अच्छा फिल्म फोटोग्राफी मेटाडेटा ऐप। सरल, तेज और संपूर्ण। कोई विज्ञापन नहीं, कोई डेटा संग्रह नहीं - एक बड़ा फायदा।</p>
-                        </blockquote>
-                        <figcaption class="review-info">
-                            <span class="author">J0nas</span> <span class="rating sr-only" aria-label="5" role="img">★★★★★</span> <time datetime="2022-08-03" class="sr-only">2022-08-03</time>
-                        </figcaption>
-                    </figure>
 
-                    <figure class="user-review">
-                        <blockquote cite="https://withframes.com">
-                            <img src="/library/img/icons/icon-quote.svg" alt="Quote" width="14" height="11" loading="lazy">
-                            <h3 class="sr-only">उत्कृष्ट एप्लिकेशन</h3>
-                            <p>1/3 स्टॉप शटर स्पीड होना अच्छा होगा क्योंकि वे हमेशा वास्तविक शूटिंग सेटिंग से मेल नहीं खाते। ऐप के लिए बधाई!</p>
-                        </blockquote>
-                        <figcaption class="review-info">
-                            <span class="author">SalvatoreEsquilache</span> <span class="rating sr-only" aria-label="5" role="img">★★★★★</span> <time datetime="2023-12-02" class="sr-only">2023-12-02</time>
-                        </figcaption>
-                    </figure>
-
-                    <figure class="user-review">
-                        <blockquote cite="https://withframes.com">
-                            <img src="/library/img/icons/icon-quote.svg" alt="Quote" width="14" height="11" loading="lazy">
-                            <h3 class="sr-only">मेरा शूटिंग कंपेनियन</h3>
-                            <p>शानदार टूल - अपनी फिल्मों को ट्रैक करने के लिए सरल लेकिन संपूर्ण। फील्ड में उपयोग में आसान, अपने डेटा को सेव या प्रोसेस करने के लिए एक्सपोर्ट विकल्प के साथ। पूरी तरह से पांच स्टार!</p>
-                        </blockquote>
-                        <figcaption class="review-info">
-                            <span class="author">rzolau</span> <span class="rating sr-only" aria-label="5" role="img">★★★★★</span> <time datetime="2022-02-26" class="sr-only">2022-02-26</time>
-                        </figcaption>
-                    </figure>
-                </li>
-                <li>
-                    <figure class="user-review">
-                        <blockquote cite="https://withframes.com">
-                            <img src="/library/img/icons/icon-quote.svg" alt="Quote" width="14" height="11" loading="lazy">
-                            <h3 class="sr-only">फिल्म के लिए EXIF समकक्ष</h3>
-                            <p>हाल ही में मुझे फिल्म फोटोग्राफी की याद आने लगी और मैंने दोबारा इसमें रुचि लेना शुरू किया। पहले के मुकाबले अब डिजिटल कैमरे का दौर है, जिसमें शूटिंग की जानकारी EXIF डेटा में अपने आप सेव हो जाती है। ऐसे में मैंने सोचा कि क्या फिल्म से ली गई तस्वीरों के लिए भी किसी तरह वैसी ही रिकॉर्डिंग संभव है — और इस तरह मैं इस ऐप तक पहुँचा। इस ऐप में आप लेंस, अपर्चर और शटर स्पीड जैसे सेटिंग्स को पहले से सेट कर सकते हैं, और फिर हर शॉट के समय बस एक बटन दबाने से फ्रेम नंबर के साथ सारी सेटिंग्स रिकॉर्ड हो जाती हैं। इसके साथ-साथ समय और GPS जानकारी भी सेव होती है, जिससे यह डिजिटल कैमरा के रिकॉर्ड से कम नहीं लगता। हाँ, समय को लेकर कैमरा और iPhone के बीच थोड़ी टाइम लैग हो सकती है, लेकिन इसे नजरअंदाज किया जा सकता है। रिकॉर्ड को TXT या JSON फ़ॉर्मेट में एक्सपोर्ट किया जा सकता है, जिससे अगर आप exiftool के लिए कोई स्क्रिप्ट बनाएं, तो वह डेटा को आसानी से फोटो में लागू कर सकता है। अगर आप अपने कंप्यूटर पर नेगेटिव-टू-पॉजिटिव कन्वर्शन या कलर ट्यूनिंग के बाद JPEG सेव करें, तो उसमें EXIF जोड़कर उसे डिजिटल कैमरा फोटो की तरह बना सकते हैं।</p>
-                        </blockquote>
-                        <figcaption class="review-info">
-                            <span class="author">yaizawa</span> <span class="rating sr-only" aria-label="5" role="img">★★★★★</span> <time datetime="2022-05-13" class="sr-only">2022-05-13</time>
-                        </figcaption>
-                    </figure>
-                </li>
-            </ul>
-        </section>
-    </main>
-    <footer class="footer wrapper">
-        <h2 class="sr-only">Frames</h2>
-        <div class="grid-4col">
-            <div class="takes-2">
-                <h3>Frames एक्सप्लोर करें</h3>
-                <ul class="footer-nav">
-                    <li><a href="#iphone">iPhone के लिए</a></li>
-                    <li><a href="#mac">Mac के लिए</a></li>
-                    <li><a href="#faq">सामान्य प्रश्न</a></li>
-                    <li><a href="#reviews">उपयोगकर्ता <span class='sr-only'>फोटोग्राफर</span> समीक्षाएँ</a></li>
-                    <li><a href="https://withframes.com/hi/privacy/">गोपनीयता</a></li>
-                    <li><a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/" target="_blank">नियम और शर्तें</a></li>
-                </ul>
-            </div>
-            <div>
-                <h3>संपर्क</h3>
-                <ul class="footer-list">
-                    <li><a href="mailto:&#104;&#105;&#64;&#119;&#105;&#116;&#104;&#102;&#114;&#97;&#109;&#101;&#115;&#46;&#99;&#111;&#109;">ईमेल</a></li>
-                    <li><a href="https://instagram.com/with_frames" target="_blank" rel="noopener noreferrer">इंस्टाग्राम</a></li>
-                    <li><a href="https://threads.com/with_frames" target="_blank" rel="noopener noreferrer">थ्रेड्स</a></li>
-                    <li><a href="https://twitter.com/withframes" target="_blank" rel="noopener noreferrer">ट्विटर</a></li>
-                    <li><a href="https://www.facebook.com/framesapp" target="_blank" rel="noopener noreferrer">फेसबुक</a></li>
-                    <li><a href="https://www.linkedin.com/company/withframes/" target="_blank" rel="noopener noreferrer">लिंक्डइन</a></li>
-                </ul>
-            </div>
-            <div>
-                <h3>डाउनलोड</h3>
-                <ul class="footer-list">
-                    <li>
-                        <a href="https://apps.apple.com/in/app/frames-फ-ल-म-फ-ट-ड-यर/id6744057317?l=hi" target="_blank" rel="noopener noreferrer">Frames iOS (1.9.0)</a>
-                    </li>
-                    <li>
-                        <a href="https://apps.apple.com/in/app/frames-फ-ल-म-म-ट-ड-ट/id6744063354?l=hi" target="_blank" rel="noopener noreferrer">Frames macOS (1.5.0)</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-
-        <ul class="grid-2col subfooter">
-            <li>
-                <a href="https://vnn.io/" class="copyright" title="Vincent Tantardini – personal website" rel="me">
-                    कॉपीराइट © 2025 विन्सेंट टैंटार्डिनी। सर्वाधिकार सुरक्षित।
-                </a>
-            </li>
-            <li>
+            <div class="trailing flex flex-row flex-center gap-sm">
                 <div class="dropdown">
-                    <input type="checkbox" id="dropdown-toggle">
+                    <input type="checkbox" id="share-toggle" class="dropdown-toggle">
 
-                    <label for="dropdown-toggle" class="dropdown-button">
-                        <img fetchpriority="low" src="/library/img/icons/globe.svg" alt="Globe Icon" aria-hidden="true" loading="lazy">
-                        <span>भाषा</span>
-                        <img fetchpriority="low" src="/library/img/icons/chevron.svg" alt="Chevron Icon" aria-hidden="true" loading="lazy">
+                    <label for="share-toggle" class="dropdown-button btn btn-sm btn-dark">
+                        <span>साझा करें</span>
+                        <img src="/lib/img/icn/chevron-down-sm.svg" alt="Chevron Down Icon" width="10" height="12" loading="lazy">
                     </label>
 
-                    <ul class="dropdown-content" role="menu">
+                    <ul class="dropdown-content dropdown-dir-bottom" role="menu">
                         <li>
-                            <a role="menuitem" href="/de/">
-                                <span>Deutsch</span>
-                                
+                            <a href="#" onclick="shareOn('facebook'); return false;">
+                                <div class="flex flex-center gap-sm">
+                                    <img src="/lib/img/icn/facebook.svg" alt="Facebook Icon" width="14" height="14" loading="lazy" class="social-icon">
+                                    <span>Facebook</span>
+                                </div>
                             </a>
                         </li>
+
+                        <li>
+                            <a href="#" onclick="shareOn('twitter'); return false;">
+                                <div class="flex flex-center gap-sm">
+                                    <img src="/lib/img/icn/twitter.svg" alt="Twitter Icon" width="14" height="14" loading="lazy" class="social-icon">
+                                    <span>Twitter / X</span>
+                                </div>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#" onclick="shareOn('linkedin'); return false;">
+                                <div class="flex flex-center gap-sm">
+                                    <img src="/lib/img/icn/linkedin.svg" alt="LinkedIn Icon" width="14" height="14" loading="lazy" class="social-icon">
+                                    <span>LinkedIn</span>
+                                </div>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#" onclick="shareOn('whatsapp'); return false;">
+                                <div class="flex flex-center gap-sm">
+                                    <img src="/lib/img/icn/whatsapp.svg" alt="WhatsApp Icon" width="14" height="14" loading="lazy" class="social-icon">
+                                    <span>WhatsApp</span>
+                                </div>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#" onclick="shareOn('reddit'); return false;">
+                                <div class="flex flex-center gap-sm">
+                                    <img src="/lib/img/icn/reddit.svg" alt="Reddit Icon" width="14" height="14" loading="lazy" class="social-icon">
+                                    <span>Reddit</span>
+                                </div>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#" onclick="shareOn('email'); return false;" class="social-icon">
+                                <div class="flex flex-center gap-sm">
+                                    <img src="/lib/img/icn/envelope.svg" alt="Email Icon" width="14" height="14" loading="lazy" class="social-icon">
+                                    <span>ईमेल</span>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <a href="https://apps.apple.com/in/app/frames-%E0%A4%AB-%E0%A4%B2-%E0%A4%AE-%E0%A4%AE-%E0%A4%9F-%E0%A4%A1-%E0%A4%9F/id6744063354?l=hi" class="btn btn-sm btn-light desktop-only">डाउनलोड करें</a>
+                <a href="https://apps.apple.com/in/app/frames-%E0%A4%AB-%E0%A4%B2-%E0%A4%AE-%E0%A4%AB-%E0%A4%9F-%E0%A4%A1-%E0%A4%AF%E0%A4%B0/id6744057317?l=hi" class="btn btn-sm btn-light mobile-only">डाउनलोड करें</a>
+
+                <div class="mobile-menu">
+                    <input type="checkbox" id="mobile-menu-toggle" class="overlay-toggle" aria-hidden="true">
+
+                    <label for="mobile-menu-toggle" class="mobile-menu-toggle" aria-label="मोबाइल मेनू खोलें">
+                        <img src="/lib/img/icn/menu.svg" alt="Menu Icon" width="32" height="32" loading="lazy" aria-hidden="true">
+                    </label>
+
+                    <div class="mobile-menu-overlay overlay">
+                        <label for="mobile-menu-toggle" class="overlay-close" aria-label="मोबाइल मेनू बंद करें">
+                            <img src="/lib/img/icn/xmark.svg" alt="x Mark Icon" width="32" height="32" loading="lazy" aria-hidden="true">
+                        </label>
+
+                        <nav class="mobile-menu-nav" aria-label="मोबाइल नेविगेशन">
+                            <ul class="flex flex-col">
+                                <li><a href="#features">विशेषताएं</a></li>
+                                <li><a href="/docs/">दस्तावेज़ीकरण</a></li>
+                                <li><a href="/changelog/">परिवर्तन सूची</a></li>
+                                <li><a href="privacy/">गोपनीयता</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Video Overlay -->
+    <input type="checkbox" id="video-toggle" class="overlay-toggle" aria-hidden="true">
+    <div class="video-overlay overlay">
+        <label for="video-toggle" class="overlay-close" aria-label="Close video">
+            <img src="/lib/img/icn/xmark.svg" alt="x Mark Icon" width="32" height="32" loading="lazy" aria-hidden="true">
+        </label>
+        <div class="video-container">
+            <div class="wrapper">
+                <iframe src="https://www.youtube.com/embed/KRLS5tpmvJM?autoplay=1&mute=1&rel=0" title="फ़िल्म फ़ोटोग्राफ़ी ऐप अपने रोल्स को लॉग और ट्रैक करने के लिए (iPhone के लिए Frames)" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+
+    <main class="wrapper">
+        <section class="hero" aria-labelledby="hero-heading">
+            <div class="hero-content flex flex-col gap-xl">
+                <h1 id="hero-heading">आवश्यक फ़ोटोग्राफ़ी नोटबुक,<br>
+एनालॉग शूटर्स के लिए डिज़ाइन की गई।</h1>
+                <a href="https://apps.apple.com/in/app/frames-%E0%A4%AB-%E0%A4%B2-%E0%A4%AE-%E0%A4%AE-%E0%A4%9F-%E0%A4%A1-%E0%A4%9F/id6744063354?l=hi" class="btn btn-md btn-light desktop-only" aria-label="macOS के लिए Frames डाउनलोड करें">
+                    <span>macOS के लिए डाउनलोड करें</span>
+                    <img src="/lib/img/icn/arrow-down-to-line.svg" alt="Download Icon" loading="lazy" aria-hidden="true">
+                </a>
+                <a href="https://apps.apple.com/in/app/frames-%E0%A4%AB-%E0%A4%B2-%E0%A4%AE-%E0%A4%AB-%E0%A4%9F-%E0%A4%A1-%E0%A4%AF%E0%A4%B0/id6744057317?l=hi" class="btn btn-md btn-light mobile-only" aria-label="iOS के लिए Frames डाउनलोड करें">
+                    <span>iOS के लिए डाउनलोड करें</span>
+                    <img src="/lib/img/icn/arrow-down-to-line.svg" alt="Download Icon" loading="lazy" aria-hidden="true">
+                </a>
+            </div>
+
+            <figure class="hero-image tile container-ratio ratio-2-1">
+                <img src="/lib/img/hi/hero.webp"
+                    srcset="/lib/img/hi/hero.webp 1x, /lib/img/hi/hero@2x.webp 2x"
+                    alt="Frames फ़िल्म फ़ोटोग्राफ़ी ऐप Mac और iPhone के लिए, फ़िल्म रोल लॉग करने, मेटाडेटा प्रबंधित करने और एनालॉग फ़ोटो संग्रहीत करने के लिए डिज़ाइन किया गया।"
+                    width="1320" height="660" fetchpriority="high" class="mobile-hidden">
+                <img src="/lib/img/hi/hero-mobile.webp"
+                    srcset="/lib/img/hi/hero-mobile.webp 1x, /lib/img/hi/hero-mobile@2x.webp 2x"
+                    alt="Frames फ़िल्म फ़ोटोग्राफ़ी ऐप Mac और iPhone के लिए, फ़िल्म रोल लॉग करने, मेटाडेटा प्रबंधित करने और एनालॉग फ़ोटो संग्रहीत करने के लिए डिज़ाइन किया गया।"
+                    width="1320" height="990" fetchpriority="high" class="desktop-hidden">
+
+                <label for="video-toggle" class="play-btn" aria-label="वीडियो डेमो चलाएं">
+                    <img src="/lib/img/icn/play.svg" alt="" width="36" height="36" aria-hidden="true">
+                </label>
+            </figure>
+
+            <aside class="hero-featured flex flex-col flex-center gap-xl" aria-label="विशेष प्रकाशन">
+                <p class="featured-text">फ़ोटोग्राफ़ी समुदाय में विशेष रुप से प्रदर्शित।</p>
+
+                <div class="featured-logos flex flex-row">
+                    <img src="/lib/img/logo/petapixel.svg" alt="Petapixel" width="80" height="24">
+                    <img src="/lib/img/logo/35mmc.svg" alt="35mmc" width="56" height="24">
+                    <img src="/lib/img/logo/msn.svg" alt="MSN" width="61" height="24">
+                    <img src="/lib/img/logo/yahoo.svg" alt="Yahoo!" width="81" height="24">
+                    <img src="/lib/img/logo/youtube.svg" alt="Youtube" width="100" height="24">
+                    <img src="/lib/img/logo/jch.svg" alt="Japan Camera Hunter" width="55" height="24">
+                </div>
+            </aside>
+        </section>
+
+        <section class="preview grid grid-2col">
+            <figure class="tile container-ratio ratio-4-3">
+                <div class="tile-inner">
+                    <img src="/lib/img/hi/preview1.webp"
+                        srcset="/lib/img/hi/preview1.webp 1x, /lib/img/hi/preview1@2x.webp 2x"
+                        alt="Frames फ़िल्म फ़ोटोग्राफ़ी ऐप रिकॉर्डर इंटरफ़ेस दिखा रहा है जिसमें शटर स्पीड और एपर्चर चयन फ़िल्म एक्सपोज़र लॉग करने के लिए है।"
+                        width="400" height="300" loading="lazy">
+                </div>
+            </figure>
+            <figure class="tile container-ratio ratio-4-3">
+                <div class="tile-inner">
+                    <img src="/lib/img/hi/preview2.webp"
+                        srcset="/lib/img/hi/preview2.webp 1x, /lib/img/hi/preview2@2x.webp 2x"
+                        alt="Frames एनालॉग फ़ोटोग्राफ़ी ऐप विस्तृत मेटाडेटा विकल्प प्रदर्शित कर रहा है जिसमें एक्सपोज़र, फ़िल्म स्टॉक, कैमरा, लेंस और शूटिंग स्थितियां शामिल हैं।"
+                        width="400" height="300" loading="lazy">
+                </div>
+            </figure>
+            <figure class="tile container-ratio ratio-4-3">
+                <div class="tile-inner">
+                    <img src="/lib/img/hi/preview3.webp"
+                        srcset="/lib/img/hi/preview3.webp 1x, /lib/img/hi/preview3@2x.webp 2x"
+                        alt="macOS पर Frames फ़िल्म फ़ोटोग्राफ़ी ऐप लाइब्रेरी व्यू में व्यवस्थित फ़िल्म रोल्स दिखा रहा है जब एनालॉग फ़ोटो के फ़ोल्डर्स ब्राउज़ कर रहे हों।"
+                        width="400" height="300" loading="lazy">
+                </div>
+            </figure>
+            <figure class="tile container-ratio ratio-4-3">
+                <div class="tile-inner">
+                    <img src="/lib/img/hi/preview4.webp"
+                        srcset="/lib/img/hi/preview4.webp 1x, /lib/img/hi/preview4@2x.webp 2x"
+                        alt="Frames एनालॉग फ़ोटोग्राफ़ी ऐप गियर सेटिंग्स प्रस्तुत कर रहा है जिसमें कैमरा, लेंस और फ़िल्टर विवरण एनालॉग फ़ोटोग्राफ़ी उपकरण प्रबंधित करने के लिए है।"
+                        width="400" height="300" loading="lazy">
+                </div>
+            </figure>
+            <figure class="tile container-ratio ratio-4-3">
+                <div class="tile-inner">
+                    <img src="/lib/img/shared/preview5.webp"
+                        srcset="/lib/img/shared/preview5.webp 1x, /lib/img/shared/preview5@2x.webp 2x"
+                        alt="Frames फ़िल्म फ़ोटोग्राफ़ी ऐप डेटा को .frames, .txt या .gpx फ़ाइलों के रूप में निर्यात कर रहा है एनालॉग फ़ोटोग्राफ़ी लॉग और मेटाडेटा बैकअप और साझा करने के लिए।"
+                        width="400" height="300" loading="lazy">
+                </div>
+            </figure>
+            <figure class="tile container-ratio ratio-4-3">
+                <div class="tile-inner">
+                    <img src="/lib/img/shared/preview6.webp"
+                        srcset="/lib/img/shared/preview6.webp 1x, /lib/img/shared/preview6@2x.webp 2x"
+                        alt="Frames एनालॉग फ़ोटोग्राफ़ी ऐप मेटाडेटा Finder, Adobe Lightroom, Adobe Bridge, Google Photos, Darktable और Flickr के साथ एकीकृत है फ़िल्म फ़ोटोग्राफ़रों के लिए।"
+                        width="400" height="300" loading="lazy">
+                </div>
+            </figure>
+        </section>
+
+        <section class="reviews review-carousel" aria-label="ग्राहक समीक्षाएं">
+            <input type="radio" name="review" id="review-1" checked aria-hidden="true">
+            <input type="radio" name="review" id="review-2" aria-hidden="true">
+            <input type="radio" name="review" id="review-3" aria-hidden="true">
+            <input type="radio" name="review" id="review-4" aria-hidden="true">
+            <input type="radio" name="review" id="review-5" aria-hidden="true">
+
+            <div class="grid grid-4col">
+
+                <!-- Review Content -->
+                <article class="review-card flex flex-col" data-review="0">
+                    <blockquote class="review-quote">
+                        <p>"उपयोग में आसान, विश्वसनीय और उचित मूल्य वाला ऐप जो शूटिंग डेटा को स्कैन किए गए नेगेटिव के EXIF में स्थानांतरित करता है, जिसमें भौगोलिक स्थान भी शामिल है। डेवलपर फ़ीडबैक सुनते हैं और लगातार सुधार करते रहते हैं। उत्कृष्ट!"</p>
+                    </blockquote>
+
+                    <footer class="review-author flex flex-row flex-center gap-sm">
+                        <div class="btn btn-circle btn-secondary">
+                            <img src="/lib/img/shared/author1.webp"
+                                srcset="/lib/img/shared/author1.webp 1x, /lib/img/shared/author1@2x.webp 2x"
+                                alt="Maria Garcia"
+                                width="32" height="32" loading="lazy">
+                        </div>
+                        <div class="author-info flex flex-col">
+                            <cite class="author-name">Maria Garcia</cite>
+                            <time class="review-date" datetime="2025-07-12">12 जुलाई 2025</time>
+                        </div>
+                    </footer>
+                </article>
+
+                <article class="review-card flex flex-col" data-review="1">
+                    <blockquote class="review-quote">
+                        <p>"एक फ़िल्म फ़ोटोग्राफ़र के रूप में जो घर पर डेवलप करता है, मुझे पसंद है कि Frames मुझे नोटबुक की परेशानी के बिना हर शॉट लॉग करने देता है। यह एकदम सही और व्यावहारिक समाधान है। Pro में अपग्रेड किया और कभी पीछे मुड़कर नहीं देखा!"</p>
+                    </blockquote>
+
+                    <footer class="review-author flex flex-row flex-center gap-sm">
+                        <div class="btn btn-circle btn-secondary">
+                            <img src="/lib/img/shared/author2.webp"
+                                srcset="/lib/img/shared/author2.webp 1x, /lib/img/shared/author2@2x.webp 2x"
+                                alt="BHenriquez"
+                                width="32" height="32" loading="lazy">
+                        </div>
+                        <div class="author-info flex flex-col">
+                            <cite class="author-name">BHenriquez</cite>
+                            <time class="review-date" datetime="2025-05-08">8 मई 2025</time>
+                        </div>
+                    </footer>
+                </article>
+
+                <article class="review-card flex flex-col" data-review="2">
+                    <blockquote class="review-quote">
+                        <p>"फ़िल्म शूट करते समय एक्सपोज़र और स्थान रिकॉर्ड करने के लिए बेहतरीन, सेटिंग्स का विश्लेषण करने या EXIF-स्टाइल डेटा रखने के लिए आदर्श। डेवलपर ने एक दिन में बग ठीक किया। अत्यधिक अनुशंसित!"</p>
+                    </blockquote>
+
+                    <footer class="review-author flex flex-row flex-center gap-sm">
+                        <div class="btn btn-circle btn-secondary">
+                            <img src="/lib/img/shared/author3.webp"
+                                srcset="/lib/img/shared/author3.webp 1x, /lib/img/shared/author3@2x.webp 2x"
+                                alt="Emma Richardson"
+                                width="32" height="32" loading="lazy">
+                        </div>
+                        <div class="author-info flex flex-col">
+                            <cite class="author-name">Emma Richardson</cite>
+                            <time class="review-date" datetime="2025-08-23">23 अगस्त 2025</time>
+                        </div>
+                    </footer>
+                </article>
+
+                <article class="review-card flex flex-col" data-review="3">
+                    <blockquote class="review-quote">
+                        <p>"फ़िल्म में वापस आने पर, मुझे मेटाडेटा की कमी महसूस हुई जब तक मैंने Frames नहीं खोजा। यह कागज़ी नोट्स की जगह लेता है, मुझे व्यवस्थित रहने में मदद करता है और शूटिंग करते समय सचेत रखता है। फ़िल्म फ़ोटोग्राफ़रों के लिए ज़रूरी है!"</p>
+                    </blockquote>
+
+                    <footer class="review-author flex flex-row flex-center gap-sm">
+                        <div class="btn btn-circle btn-secondary">
+                            <img src="/lib/img/shared/author4.webp"
+                                srcset="/lib/img/shared/author4.webp 1x, /lib/img/shared/author4@2x.webp 2x"
+                                alt="Roger Nordstrom Photo"
+                                width="32" height="32" loading="lazy">
+                        </div>
+                        <div class="author-info flex flex-col">
+                            <cite class="author-name">Roger Nordstrom Photo</cite>
+                            <time class="review-date" datetime="2025-04-15">15 अप्रैल 2025</time>
+                        </div>
+                    </footer>
+                </article>
+
+                <article class="review-card flex flex-col" data-review="4">
+                    <blockquote class="review-quote">
+                        <p>"आप बता सकते हैं कि डेवलपर भी ऐप का उपयोग करता है। हर छोटा विवरण जानबूझकर लगता है, और इंटरफ़ेस साफ़ और सरल है। सब कुछ सहजता से काम करता है। आसानी से उपलब्ध सबसे अच्छा फ़िल्म नोट्स ऐप!"</p>
+                    </blockquote>
+
+                    <footer class="review-author flex flex-row flex-center gap-sm">
+                        <div class="btn btn-circle btn-secondary">
+                            <img src="/lib/img/shared/author5.webp"
+                                srcset="/lib/img/shared/author5.webp 1x, /lib/img/shared/author5@2x.webp 2x"
+                                alt="James Anderson"
+                                width="32" height="32" loading="lazy">
+                        </div>
+                        <div class="author-info flex flex-col">
+                            <cite class="author-name">James Anderson</cite>
+                            <time class="review-date" datetime="2025-09-05">5 सितंबर 2025</time>
+                        </div>
+                    </footer>
+                </article>
+
+                <!-- Review Details & Navigation -->
+                <div class="review-details col-span-2-mobile flex flex-col flex-justify-between">
+                    <p>फ़िल्म समुदाय की प्रतिक्रिया के साथ डिज़ाइन किया गया ताकि डेटा लॉगिंग स्पष्ट और आनंददायक बनाई जा सके।</p>
+
+                    <div class="review-footer flex flex-col gap-xl">
+                        <p>हज़ारों फ़ोटोग्राफ़रों में शामिल हों जो Frames के साथ अपने फ़िल्म शूटिंग अनुभव में व्यवस्था और अंतर्दृष्टि ला रहे हैं।</p>
+
+                        <nav class="review-navigation flex flex-row gap-sm" aria-label="समीक्षा नेविगेशन">
+                            <!-- Review 1 navigation: prev=5, next=2 -->
+                            <label for="review-5" class="btn btn-circle btn-dark" aria-label="पिछली समीक्षा">
+                                <img src="/lib/img/icn/arrow-left.svg" alt="" loading="lazy" aria-hidden="true">
+                            </label>
+                            <label for="review-2" class="btn btn-circle btn-dark" aria-label="अगली समीक्षा">
+                                <img src="/lib/img/icn/arrow-right.svg" alt="" loading="lazy" aria-hidden="true">
+                            </label>
+                            <!-- Review 2 navigation: prev=1, next=3 -->
+                            <label for="review-1" class="btn btn-circle btn-dark" aria-label="पिछली समीक्षा">
+                                <img src="/lib/img/icn/arrow-left.svg" alt="" loading="lazy" aria-hidden="true">
+                            </label>
+                            <label for="review-3" class="btn btn-circle btn-dark" aria-label="अगली समीक्षा">
+                                <img src="/lib/img/icn/arrow-right.svg" alt="" loading="lazy" aria-hidden="true">
+                            </label>
+                            <!-- Review 3 navigation: prev=2, next=4 -->
+                            <label for="review-2" class="btn btn-circle btn-dark" aria-label="पिछली समीक्षा">
+                                <img src="/lib/img/icn/arrow-left.svg" alt="" loading="lazy" aria-hidden="true">
+                            </label>
+                            <label for="review-4" class="btn btn-circle btn-dark" aria-label="अगली समीक्षा">
+                                <img src="/lib/img/icn/arrow-right.svg" alt="" loading="lazy" aria-hidden="true">
+                            </label>
+                            <!-- Review 4 navigation: prev=3, next=5 -->
+                            <label for="review-3" class="btn btn-circle btn-dark" aria-label="पिछली समीक्षा">
+                                <img src="/lib/img/icn/arrow-left.svg" alt="" loading="lazy" aria-hidden="true">
+                            </label>
+                            <label for="review-5" class="btn btn-circle btn-dark" aria-label="अगली समीक्षा">
+                                <img src="/lib/img/icn/arrow-right.svg" alt="" loading="lazy" aria-hidden="true">
+                            </label>
+                            <!-- Review 5 navigation: prev=4, next=1 -->
+                            <label for="review-4" class="btn btn-circle btn-dark" aria-label="पिछली समीक्षा">
+                                <img src="/lib/img/icn/arrow-left.svg" alt="" loading="lazy" aria-hidden="true">
+                            </label>
+                            <label for="review-1" class="btn btn-circle btn-dark" aria-label="अगली समीक्षा">
+                                <img src="/lib/img/icn/arrow-right.svg" alt="" loading="lazy" aria-hidden="true">
+                            </label>
+                        </nav>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="features" aria-labelledby="features-heading">
+            <h2 id="features-heading">विशेषताएं</h2>
+            <div class="features grid grid-4col">
+                <article class="feature tile container-ratio ratio-1-1">
+                    <div class="feature-inner flex flex-col flex-justify-between">
+                        <header class="feature-header flex flex-col gap-xs">
+                            <span class="feature-label">संग्रह</span>
+                            <h3>लाइब्रेरी व्यवस्थित करें</h3>
+                        </header>
+                        <p>अपने सभी फ़िल्म रोल्स को आसानी से ब्राउज़ करें, व्यवस्थित करें और प्रबंधित करें, हर सत्र को स्पष्ट रूप से संरचित, खोजने में आसान और पूरी तरह से व्यवस्थित रखें।</p>
+                    </div>
+                </article>
+
+                <article class="feature tile container-ratio ratio-1-1">
+                    <div class="feature-inner flex flex-col flex-justify-between">
+                        <header class="feature-header flex flex-col gap-xs">
+                            <span class="feature-label">उपकरण</span>
+                            <h3>गियर प्रबंधित करें</h3>
+                        </header>
+                        <p>अपने कैमरों, लेंसों और फ़िल्टरों का विस्तृत रिकॉर्ड रखें ताकि सुसंगत रहें और प्रत्येक शूट के लिए अपनी सभी गियर जानकारी तैयार रखें।</p>
+                    </div>
+                </article>
+
+                <article class="feature tile container-ratio ratio-1-1">
+                    <div class="feature-inner flex flex-col flex-justify-between">
+                        <header class="feature-header flex flex-col gap-xs">
+                            <span class="feature-label">रिकॉर्ड</span>
+                            <h3>सेटिंग्स कैप्चर करें</h3>
+                        </header>
+                        <p>प्रत्येक फ़्रेम के लिए एपर्चर, शटर स्पीड, फ़िल्म स्टॉक और स्थान विवरण तुरंत लॉग करें, हर शॉट की जानकारी सटीक और सुलभ रखें।</p>
+                    </div>
+                </article>
+
+                <article class="feature tile container-ratio ratio-1-1">
+                    <div class="feature-inner flex flex-col flex-justify-between">
+                        <header class="feature-header flex flex-col gap-xs">
+                            <span class="feature-label">इतिहास</span>
+                            <h3>शॉट्स फिर से देखें</h3>
+                        </header>
+                        <p>अपने लॉग किए गए रोल्स पर वापस देखें सेटिंग्स की समीक्षा करने, पिछले सत्रों का विश्लेषण करने, उनसे सीखने और अपने फ़िल्म फ़ोटोग्राफ़ी वर्कफ़्लो को परिष्कृत करने के लिए।</p>
+                    </div>
+                </article>
+
+                <article class="feature tile container-ratio ratio-1-1">
+                    <div class="feature-inner flex flex-col flex-justify-between">
+                        <header class="feature-header flex flex-col gap-xs">
+                            <span class="feature-label">निर्यात</span>
+                            <h3>रिकॉर्ड निर्यात करें</h3>
+                        </header>
+                        <p>अपने रिकॉर्ड को .frames, .txt या .gpx फ़ाइलों के रूप में सहेजें या साझा करें बैकअप, साझाकरण या अन्य ऐप्स या वर्कफ़्लो के साथ डेटा एकीकृत करने के लिए।</p>
+                    </div>
+                </article>
+
+                <article class="feature tile container-ratio ratio-1-1">
+                    <div class="feature-inner flex flex-col flex-justify-between">
+                        <header class="feature-header flex flex-col gap-xs">
+                            <span class="feature-label">मेटाडेटा</span>
+                            <h3>मेटाडेटा सहेजें</h3>
+                        </header>
+                        <p>एनालॉग जानकारी संरक्षित करने के लिए स्कैन की गई छवियों में सभी रिकॉर्ड किए गए डेटा को एम्बेड करें जबकि अपने डिजिटल संग्रह को पूरी तरह से समन्वयित रखें।</p>
+                    </div>
+                </article>
+
+                <article class="feature tile container-ratio ratio-1-1">
+                    <div class="feature-inner flex flex-col flex-justify-between">
+                        <header class="feature-header flex flex-col gap-xs">
+                            <span class="feature-label">सहायता</span>
+                            <h3>ईमेल सहायता</h3>
+                        </header>
+                        <p>सहायता के लिए सीधे डेवलपर से संपर्क करें, फ़ीडबैक साझा करें या किसी भी समय नई सुविधाओं और सुधारों का सुझाव दें, त्वरित प्रतिक्रियाओं के साथ।</p>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section aria-labelledby="pricing-heading">
+            <h2 id="pricing-heading">मूल्य निर्धारण</h2>
+            <div class="pricing grid grid-4col">
+                <article class="tile container-ratio ratio-3-4 pricing-card">
+                    <div class="pricing-inner flex flex-col flex-justify-between">
+                        <div class="pricing-header flex flex-col gap-lg">
+                            <header class="flex flex-col gap-xs">
+                                <h3 class="pricing-title">iOS</h3>
+                                <div class="pricing-amount">
+                                    <span class="price">₹199</span><span class="price-period">/महीना</span>
+                                </div>
+                            </header>
+
+                            <p class="pricing-label">शामिल है:</p>
+
+                            <ul class="pricing-features flex flex-col gap-xs">
+                                <li class="flex flex-row gap-xs">
+                                    <span class="checkmark">✓</span>
+                                    असीमित फ़िल्म रोल्स
+                                </li>
+                                <li class="flex flex-row gap-xs">
+                                    <span class="checkmark">✓</span>
+                                    उप-फ़ोल्डर
+                                </li>
+                                <li class="flex flex-row gap-xs">
+                                    <span class="checkmark">✓</span>
+                                    डेटा को .frames के रूप में निर्यात करें
+                                </li>
+                                <li class="flex flex-row gap-xs">
+                                    <span class="checkmark">✓</span>
+                                    डेटा को .txt या .gpx के रूप में निर्यात करें
+                                </li>
+                            </ul>
+                        </div>
+
+                        <footer class="pricing-action">
+                            <a href="https://apps.apple.com/in/app/frames-%E0%A4%AB-%E0%A4%B2-%E0%A4%AE-%E0%A4%AB-%E0%A4%9F-%E0%A4%A1-%E0%A4%AF%E0%A4%B0/id6744057317?l=hi" class="btn btn-md btn-light">मुफ़्त में आज़माएं</a>
+                        </footer>
+                    </div>
+                </article>
+
+                <article class="tile container-ratio ratio-3-4 pricing-card">
+                    <div class="pricing-inner flex flex-col flex-justify-between">
+                        <div class="pricing-header flex flex-col gap-lg">
+                            <header class="flex flex-col gap-xs">
+                                <h3 class="pricing-title">macOS</h3>
+                                <div class="pricing-amount">
+                                    <span class="price">₹199</span><span class="price-period">/महीना</span>
+                                </div>
+                            </header>
+
+                            <p class="pricing-label">शामिल है:</p>
+
+                            <ul class="pricing-features flex flex-col gap-xs">
+                                <li class="flex flex-row gap-xs">
+                                    <span class="checkmark">✓</span>
+                                    फ़ोटो में मेटाडेटा सहेजें
+                                </li>
+                            </ul>
+                        </div>
+
+                        <footer class="pricing-action">
+                            <a href="https://apps.apple.com/in/app/frames-%E0%A4%AB-%E0%A4%B2-%E0%A4%AE-%E0%A4%AE-%E0%A4%9F-%E0%A4%A1-%E0%A4%9F/id6744063354?l=hi" class="btn btn-md btn-secondary">मुफ़्त में आज़माएं</a>
+                        </footer>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section class="qa grid grid-2col" aria-labelledby="qa-heading">
+            <h2 id="qa-heading">प्रश्न और उत्तर</h2>
+
+            <div class="qa-content flex flex-col">
+                <details>
+                    <summary class="flex flex-justify-between">
+                        <h3>मैं कौन सा मेटाडेटा रिकॉर्ड कर सकता हूं?</h3>
+                        <div class="details-icon flex flex-center flex-justify-center" aria-hidden="true">
+                            <img src="/lib/img/icn/chevron-down.svg" alt="" loading="lazy">
+                        </div>
+                    </summary>
+                    <p>Frames आपको हर शॉट के लिए विस्तृत जानकारी लॉग करने देता है, जिसमें कैमरा, लेंस, फ़िल्टर, फ़्रेम नंबर, फ़ोकल लंबाई, एपर्चर, शटर स्पीड, ISO, मीटरिंग मोड, फ़िल्म स्टॉक, फ़्लैश, GPS स्थान, टाइमस्टैम्प और कस्टम नोट्स शामिल हैं, यह सुनिश्चित करते हुए कि आप महत्वपूर्ण एनालॉग फ़ोटोग्राफ़ी विवरण कभी नहीं खोएं।</p>
+                </details>
+
+                <details>
+                    <summary class="flex flex-justify-between">
+                        <h3>कौन से छवि फ़ॉर्मेट समर्थित हैं?</h3>
+                        <div class="details-icon flex flex-center flex-justify-center" aria-hidden="true">
+                            <img src="/lib/img/icn/chevron-down.svg" alt="" loading="lazy">
+                        </div>
+                    </summary>
+                    <p>Frames JPEG, TIFF और DNG फ़ॉर्मेट का समर्थन करता है, जिससे आप अपने रिकॉर्ड किए गए मेटाडेटा को सीधे स्कैन किए गए एनालॉग फ़ोटो में एम्बेड कर सकते हैं अपने उपकरणों पर निर्बाध संगठन और वर्कफ़्लो के लिए।</p>
+                </details>
+
+                <details>
+                    <summary class="flex flex-justify-between">
+                        <h3>क्या Frames Android या Windows पर है?</h3>
+                        <div class="details-icon flex flex-center flex-justify-center" aria-hidden="true">
+                            <img src="/lib/img/icn/chevron-down.svg" alt="" loading="lazy">
+                        </div>
+                    </summary>
+                    <p>Frames वर्तमान में iPhone और macOS के लिए उपलब्ध है। Android और Windows के लिए संस्करण 2026 के लिए योजनाबद्ध हैं, और इस बीच, आप .frames फ़ाइल निर्यात के माध्यम से अपना डेटा साझा और प्रबंधित कर सकते हैं।</p>
+                </details>
+
+                <details>
+                    <summary class="flex flex-justify-between">
+                        <h3>कौन से शटर स्पीड और एपर्चर समर्थित हैं?</h3>
+                        <div class="details-icon flex flex-center flex-justify-center" aria-hidden="true">
+                            <img src="/lib/img/icn/chevron-down.svg" alt="" loading="lazy">
+                        </div>
+                    </summary>
+                    <p>Frames डिफ़ॉल्ट अनुक्रम प्रदान करता है जो अधिकांश लेंस और कैमरों को कवर करते हैं, और आप अपने गियर के लिए कस्टम अनुक्रम भी परिभाषित कर सकते हैं, जिससे यह किसी भी शटर स्पीड या एपर्चर मानों के साथ संगत हो जाता है।</p>
+                </details>
+
+                <details>
+                    <summary class="flex flex-justify-between">
+                        <h3>क्या मैं ट्राइपॉड या एक्सेसरीज़ लॉग कर सकता हूं?</h3>
+                        <div class="details-icon flex flex-center flex-justify-center" aria-hidden="true">
+                            <img src="/lib/img/icn/chevron-down.svg" alt="" loading="lazy">
+                        </div>
+                    </summary>
+                    <p>हां, Frames आपको ट्राइपॉड, फ़्लैश और अन्य एक्सेसरीज़ रिकॉर्ड करने देता है। एक अतिरिक्त नोट फ़ील्ड भी है जहां आप कोई भी कस्टम विवरण जोड़ सकते हैं जो आप चाहते हैं।</p>
+                </details>
+
+                <details>
+                    <summary class="flex flex-justify-between">
+                        <h3>भविष्य के अपडेट के लिए क्या योजनाएं हैं?</h3>
+                        <div class="details-icon flex flex-center flex-justify-center" aria-hidden="true">
+                            <img src="/lib/img/icn/chevron-down.svg" alt="" loading="lazy">
+                        </div>
+                    </summary>
+                    <p>भविष्य की योजनाओं में वर्कफ़्लो सुविधाओं का विस्तार, उपकरणों में एकीकरण में सुधार, और समुदाय द्वारा अनुरोधित नए उपकरण जोड़ना शामिल है ताकि एनालॉग फ़ोटोग्राफ़ी लॉगिंग को और अधिक लचीला और शक्तिशाली बनाया जा सके।</p>
+                </details>
+            </div>
+        </section>
+
+        <section class="contact tile container-ratio ratio-2-1" aria-labelledby="contact-heading">
+            <div class="contact-inner flex flex-col flex-center flex-justify-center">
+                <h2 id="contact-heading">हमें अपने विचार और सुझाव सुनाएं।</h2>
+                <a href="mailto:&#104;&#105;&#64;&#119;&#105;&#116;&#104;&#102;&#114;&#97;&#109;&#101;&#115;&#46;&#99;&#111;&#109;" class="btn btn-md btn-secondary">हमें ईमेल भेजें</a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="main-footer wrapper flex flex-col gap-6xl">
+        <div class="footer-links grid grid-4col">
+            <img src="/lib/img/logo/frames.svg" alt="Frames">
+            <ul class="flex flex-col gap-sm">
+                <li><h3>जुड़ें</h3></li>
+                <li><a href="https://www.instagram.com/with_frames/" target="_blank" rel="noopener noreferrer">Instagram</a></li>
+                <li><a href="https://www.threads.net/@with_frames" target="_blank" rel="noopener noreferrer">Threads</a></li>
+                <li><a href="https://www.facebook.com/framesapp" target="_blank" rel="noopener noreferrer">Facebook</a></li>
+                <li><a href="https://bsky.app/profile/withframes.bsky.social" target="_blank" rel="noopener noreferrer">Bluesky</a></li>
+                <li><a href="https://mastodon.social/@frames" target="_blank" rel="noopener noreferrer">Mastodon</a></li>
+                <li><a href="https://twitter.com/withframes" target="_blank" rel="noopener noreferrer">Twitter</a></li>
+            </ul>
+            <ul class="flex flex-col gap-sm">
+                <li><h3>संसाधन</h3></li>
+                <li><a href="privacy/">गोपनीयता नीति</a></li>
+                <li><a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/" target="_blank" rel="noopener noreferrer">सेवा की शर्तें</a></li>
+                <li><a href="/docs/">दस्तावेज़ीकरण</a></li>
+                <li><a href="/changelog/">परिवर्तन सूची</a></li>
+                <li><a href="https://www.youtube.com/@withframes" target="_blank" rel="noopener noreferrer">Youtube</a></li>
+            </ul>
+            <ul class="flex flex-col gap-sm">
+                <li><h3>उत्पाद</h3></li>
+                <li><a href="https://apps.apple.com/in/app/frames-%E0%A4%AB-%E0%A4%B2-%E0%A4%AE-%E0%A4%AB-%E0%A4%9F-%E0%A4%A1-%E0%A4%AF%E0%A4%B0/id6744057317?l=hi">Frames iOS</a></li>
+                <li><a href="https://apps.apple.com/in/app/frames-%E0%A4%AB-%E0%A4%B2-%E0%A4%AE-%E0%A4%AE-%E0%A4%9F-%E0%A4%A1-%E0%A4%9F/id6744063354?l=hi">Frames macOS</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-bottom flex flex-row flex-justify-between flex-center">
+            <p>© 2025 Vincent Tantardini. <span class="mobile-hidden">सर्वाधिकार सुरक्षित।</span></p>
+
+                <div class="dropdown">
+                    <input type="checkbox" class="dropdown-toggle" id="lang-toggle">
+
+                    <label for="lang-toggle" class="dropdown-button btn btn-sm btn-dark">
+                        <img src="/lib/img/icn/globe.svg" alt="Globe Icon" loading="lazy">
+                        <span>हिन्दी</span>
+                        <img src="/lib/img/icn/chevron-down-sm.svg" alt="Chevron Down" width="10" height="12" loading="lazy">
+                    </label>
+
+                    <ul class="dropdown-content dropdown-dir-top" role="menu">
                         <li>
                             <a role="menuitem" href="/">
                                 <span>English</span>
-                                
-                            </a>
-                        </li>
-                        <li>
-                            <a role="menuitem" href="/es/">
-                                <span>Español</span>
-                                
                             </a>
                         </li>
                         <li>
                             <a role="menuitem" href="/fr/">
                                 <span>Français</span>
-                                
                             </a>
                         </li>
                         <li>
-                            <a role="menuitem" href="/hi/">
-                                <span>हिन्दी</span>
-                                
-                                <span>✓</span>
-                                
+                            <a role="menuitem" href="/de/">
+                                <span>Deutsch</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a role="menuitem" href="/es/">
+                                <span>Español</span>
                             </a>
                         </li>
                         <li>
                             <a role="menuitem" href="/it/">
                                 <span>Italiano</span>
-                                
-                            </a>
-                        </li>
-                        <li>
-                            <a role="menuitem" href="/ja/">
-                                <span>日本語</span>
-                                
-                            </a>
-                        </li>
-                        <li>
-                            <a role="menuitem" href="/ko/">
-                                <span>한국어</span>
-                                
                             </a>
                         </li>
                         <li>
                             <a role="menuitem" href="/nl/">
                                 <span>Nederlands</span>
-                                
-                            </a>
-                        </li>
-                        <li>
-                            <a role="menuitem" href="/pl/">
-                                <span>Polski</span>
-                                
                             </a>
                         </li>
                         <li>
                             <a role="menuitem" href="/pt/">
                                 <span>Português</span>
-                                
+                            </a>
+                        </li>
+                        <li>
+                            <a role="menuitem" href="/ja/">
+                                <span>日本語</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a role="menuitem" href="/ko/">
+                                <span>한국어</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a role="menuitem" href="/hi/">
+                                <span>हिन्दी</span>
+                                <span>✓</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a role="menuitem" href="/pl/">
+                                <span>Polski</span>
                             </a>
                         </li>
                         <li>
                             <a role="menuitem" href="/ru/">
                                 <span>Русский</span>
-                                
                             </a>
                         </li>
                         <li>
                             <a role="menuitem" href="/sv/">
                                 <span>Svenska</span>
-                                
                             </a>
                         </li>
                         <li>
                             <a role="menuitem" href="/th/">
-                                <span>ภาษาไทย</span>
-                                
+                                <span>ไทย</span>
                             </a>
                         </li>
                         <li>
                             <a role="menuitem" href="/tr/">
                                 <span>Türkçe</span>
-                                
                             </a>
                         </li>
                         <li>
                             <a role="menuitem" href="/zh/">
                                 <span>简体中文</span>
-                                
                             </a>
                         </li>
                     </ul>
                 </div>
-            </li>
-        </ul>
+        </div>
     </footer>
-    <script defer src="/library/js/load_schema-hi.js" fetchpriority="low"></script>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const schemaFiles = [
+                '/lib/schema/hi/frames.json',
+                '/lib/schema/hi/faq.json'
+            ];
+
+            schemaFiles.forEach((url) => {
+                fetch(url)
+                    .then(response => {
+                        if (!response.ok) {
+                            throw new Error(`Failed to fetch ${url}: ${response.status}`);
+                        }
+                        return response.json(); // Parse as JSON
+                    })
+                    .then(jsonData => {
+                        const script = document.createElement('script');
+                        script.type = 'application/ld+json';
+                        script.textContent = JSON.stringify(jsonData); // Convert back to string
+                        document.head.appendChild(script);
+                        console.log(`Successfully injected JSON-LD from ${url}`);
+                    })
+                    .catch(error => {
+                        console.error('Error injecting JSON-LD:', error);
+                    });
+            });
+        });
+
+    // Video overlay - reload iframe to stop video when closing
+    document.getElementById('video-toggle').addEventListener('change', function(e) {
+        if (!e.target.checked) {
+            const iframe = document.querySelector('.video-container iframe');
+            const src = iframe.src;
+            iframe.src = src;
+        }
+    });
+
+    function toggleShareMenu() {
+      const menu = document.getElementById('shareMenu');
+      menu.classList.toggle('active');
+    }
+
+    function shareOn(platform) {
+      const url = encodeURIComponent(window.location.href);
+      const title = encodeURIComponent(document.title);
+      const text = encodeURIComponent('Frames फ़िल्म फ़ोटोग्राफ़रों के लिए ऐप है। हर शॉट लॉग करें, कैमरा सेटिंग्स ट्रैक करें, रोल्स व्यवस्थित करें और iPhone व Mac पर EXIF मेटाडेटा सहेजें।');
+      
+      let shareUrl = '';
+
+      switch(platform) {
+        case 'facebook':
+          shareUrl = `https://www.facebook.com/sharer/sharer.php?u=${url}`;
+          break;
+        case 'twitter':
+          shareUrl = `https://twitter.com/intent/tweet?url=${url}&text=${text}`;
+          break;
+        case 'linkedin':
+          shareUrl = `https://www.linkedin.com/sharing/share-offsite/?url=${url}`;
+          break;
+        case 'whatsapp':
+          shareUrl = `https://wa.me/?text=${text}%20${url}`;
+          break;
+        case 'reddit':
+          shareUrl = `https://reddit.com/submit?url=${url}&title=${title}`;
+          break;
+        case 'email':
+          shareUrl = `mailto:?subject=${title}&body=${text}%20${url}`;
+          break;
+      }
+
+      if (shareUrl) {
+        window.open(shareUrl, '_blank', 'width=600,height=400');
+      }
+    }
+  </script>
 </body>
+
 </html>

@@ -1,0 +1,46 @@
+{
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Quali metadati posso registrare?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Frames ti permette di registrare informazioni dettagliate per ogni scatto, inclusi fotocamera, obiettivo, filtri, numero fotogramma, lunghezza focale, apertura, tempo di scatto, ISO, modalità di misurazione, pellicola, flash, posizione GPS, timestamp e note personalizzate, assicurandoti di non perdere mai dettagli importanti della tua fotografia analogica."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Quali formati immagine sono supportati?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Frames supporta i formati JPEG, TIFF e DNG, permettendoti di incorporare i tuoi metadati registrati direttamente nelle foto analogiche digitalizzate per un'organizzazione fluida e un flusso di lavoro senza interruzioni su tutti i tuoi dispositivi."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Frames è disponibile su Android o Windows?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Frames è attualmente disponibile per iPhone e macOS. Le versioni per Android e Windows sono previste per il 2026, e nel frattempo puoi condividere e gestire i tuoi dati tramite esportazioni di file .frames."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Quali tempi di scatto e aperture sono supportati?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Frames fornisce sequenze predefinite che coprono la maggior parte degli obiettivi e delle fotocamere, e puoi anche definire sequenze personalizzate per la tua attrezzatura, rendendolo compatibile con qualsiasi valore di tempo di scatto o apertura."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Posso registrare treppiedi o accessori?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sì, Frames ti permette di registrare treppiedi, flash e altri accessori. C'è anche un campo note extra dove puoi aggiungere qualsiasi dettaglio personalizzato desideri."
+          }
+        }
+      ]
+    }

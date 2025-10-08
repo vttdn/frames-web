@@ -1,0 +1,223 @@
+{
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "MobileApplication",
+          "name": "Frames iOS",
+          "operatingSystem": "iOS 18.0",
+          "applicationCategory": "MultimediaApplication",
+          "inLanguage": "pt",
+          "description": "Frames é uma app de fotografia analógica. Registe cada exposição, acompanhe definições, organize rolos e guarde metadados EXIF no iPhone & Mac.",
+          "image": "https://withframes.com/pt/og-image.jpg",
+          "url": "https://apps.apple.com/pt/app/frames-anotações-fotográficas/id6744057317",
+          "installUrl": "https://apps.apple.com/pt/app/frames-anotações-fotográficas/id6744057317",
+          "softwareVersion": "1.13.1",
+          "screenshot": "https://withframes.com/pt/og-image.jpg",
+          "isAccessibleForFree": true,
+          "keywords": "film photography app, analog photography, EXIF metadata, film camera notes, photography workflow, film photography organization",
+          "maintainer": {
+            "@type": "Person",
+            "name": "Vincent Tantardini"
+          },
+          "countriesSupported": [
+            "US", "GB", "FR", "DE", "IT", "ES", "CA", "AU",
+            "JP", "KR", "NL", "SE", "NO", "FI", "DK", "NZ"
+          ],
+          "mainEntity": {
+            "@type": "WebPage",
+            "@id": "https://withframes.com/"
+          },
+          "author": {
+            "@type": "Person",
+            "name": "Vincent Tantardini"
+          },
+          "offers": {
+            "@type": "Offer",
+            "price": "0",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock"
+          },
+          "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "4.9",
+            "reviewCount": "12"
+          },
+          "review": [
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "Maria Garcia" },
+            "datePublished": "2025-07-12",
+            "name": "Review by Maria Garcia",
+            "reviewBody": "Fácil de usar, fiável e app com preço justo que transfere dados de captura, incluindo geolocalização, para o EXIF de negativos digitalizados. O programador ouve o feedback e continua a melhorar. Excelente!",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            },
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "BHenriquez" },
+            "datePublished": "2025-05-08",
+            "name": "Review by BHenriquez",
+            "reviewBody": "Como fotógrafo de película que revela em casa, adoro como o Frames me permite registar cada exposição sem o incómodo de cadernos. É a solução perfeita e prática. Aderi ao Pro e nunca olhei para trás!",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            },
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "Emma Richardson" },
+            "datePublished": "2025-08-23",
+            "name": "Review by Emma Richardson",
+            "reviewBody": "Ótimo para registar exposição e localização ao fotografar em película, ideal para analisar definições ou manter dados tipo EXIF. O programador corrigiu um erro em um dia. Altamente recomendado!",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            },
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "Roger Nordstrom Photo" },
+            "datePublished": "2025-04-15",
+            "name": "Review by Roger Nordstrom Photo",
+            "reviewBody": "Ao regressar à fotografia em película, sentia falta de metadados até encontrar o Frames. Substitui notas em papel, ajuda-me a manter-me organizado e mais consciente ao fotografar. Indispensável para fotógrafos de película!",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            },
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "James Anderson" },
+            "datePublished": "2025-09-05",
+            "name": "Review by James Anderson",
+            "reviewBody": "Nota-se que o programador também usa a app. Cada pequeno detalhe parece intencional e a interface é limpa e simples. Tudo funciona perfeitamente. Facilmente a melhor app de notas de película disponível!",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            },
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "Maria Garcia" },
+            "datePublished": "2025-07-12",
+            "name": "Review by Maria Garcia",
+            "reviewBody": "Fácil de usar, fiável e app com preço justo que transfere dados de captura, incluindo geolocalização, para o EXIF de negativos digitalizados. O programador ouve o feedback e continua a melhorar. Excelente!",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            },
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "BHenriquez" },
+            "datePublished": "2025-05-08",
+            "name": "Review by BHenriquez",
+            "reviewBody": "Como fotógrafo de película que revela em casa, adoro como o Frames me permite registar cada exposição sem o incómodo de cadernos. É a solução perfeita e prática. Aderi ao Pro e nunca olhei para trás!",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            }
+          ]
+        },
+        {
+          "@type": "SoftwareApplication",
+          "name": "Frames macOS",
+          "operatingSystem": "macOS 15.0",
+          "applicationCategory": "MultimediaApplication",
+          "inLanguage": "pt",
+          "description": "Frames é uma app de fotografia analógica. Registe cada exposição, acompanhe definições, organize rolos e guarde metadados EXIF no iPhone & Mac.",
+          "image": "https://withframes.com/pt/og-image.jpg",
+          "url": "https://apps.apple.com/pt/app/frames-metadados-foto/id6744063354",
+          "installUrl": "https://apps.apple.com/pt/app/frames-metadados-foto/id6744063354",
+          "softwareVersion": "1.8.0",
+          "mainEntity": {
+            "@type": "WebPage",
+            "@id": "https://withframes.com/"
+          },
+          "author": {
+            "@type": "Person",
+            "name": "Vincent Tantardini"
+          },
+          "offers": {
+            "@type": "Offer",
+            "price": "0",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock"
+          },
+          "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "5",
+            "reviewCount": "4"
+          }
+        },
+        {
+          "@type": "WebPage",
+          "@id": "https://withframes.com/ptpt/",
+          "url": "https://withframes.com/ptpt/",
+          "name": "Frames – App Fotografia Analógica para Notas & Metadados",
+          "description": "Frames é uma app de fotografia analógica. Registe cada exposição, acompanhe definições, organize rolos e guarde metadados EXIF no iPhone & Mac.",
+          "inLanguage": "pt",
+          "publisher": {
+            "@id": "https://withframes.com/#organization"
+          }
+        },
+        {
+          "@type": "VideoObject",
+          "name": "App de Fotografia em Película para Registar os Seus Rolos (Frames para iPhone)",
+          "description": "Descubra o Frames, a app dedicada de fotografia em película criada para fotógrafos analógicos. O Frames torna a gestão da sua fotografia analógica sem esforço, ajudando-o a registar não apenas as suas capturas mas também a história por trás de cada rolo e fotograma. Quer trabalhe com película 35mm, médio formato ou grande formato, o Frames mantém o seu fluxo de trabalho organizado e garante que os metadados das suas fotografias permanecem com as suas imagens, mesmo após digitalização.",
+          "thumbnailUrl": "https://i.ytimg.com/vi/KRLS5tpmvJM/hqdefault.jpg",
+          "uploadDate": "2025-09-12T00:00:00+00:00",
+          "duration": "PT1M25S",
+          "embedUrl": "https://www.youtube.com/embed/KRLS5tpmvJM",
+          "contentUrl": "https://www.youtube.com/watch?v=KRLS5tpmvJM",
+          "publisher": {
+            "@id": "https://withframes.com/#organization"
+          }
+        },
+        {
+          "@type": "Organization",
+          "@id": "https://withframes.com/#organization",
+          "name": "Frames",
+          "url": "https://withframes.com/",
+          "logo": "https://withframes.com/apple-touch-icon.png",
+          "contactPoint": {
+            "@type": "ContactPoint",
+            "email": "bonjour@withframes.com",
+            "contactType": "Customer Support",
+            "areaServed": "Worldwide",
+            "availableLanguage": ["English", "French"]
+          },
+          "sameAs": [
+            "https://twitter.com/withframes",
+            "https://www.facebook.com/framesapp",
+            "https://www.instagram.com/with_frames/",
+            "https://linkedin.com/company/withframes/",
+            "https://pinterest.com/framesapp/",
+            "https://mastodon.social/@frames",
+            "https://bsky.app/profile/withframes.bsky.social",
+            "https://www.tiktok.com/@with_frames",
+            "https://www.youtube.com/@withframes",
+            "https://g.co/kgs/5oEvXT5",
+            "https://apps.apple.com/pt/app/frames-anotações-fotográficas/id6744057317",
+            "https://apps.apple.com/pt/app/frames-metadados-foto/id6744063354"
+          ]
+        }
+      ]
+    }

@@ -1,0 +1,46 @@
+{
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Jakie metadane mogę rejestrować?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Frames pozwala zapisywać szczegółowe informacje dla każdego zdjęcia, w tym aparat, obiektyw, filtry, numer klatki, ogniskową, przysłonę, czas naświetlania, ISO, tryb pomiaru, rodzaj kliszy, flesz, lokalizację GPS, znaczniki czasu i własne notatki, zapewniając, że nigdy nie stracisz ważnych szczegółów fotografii analogowej."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Jakie formaty obrazów są obsługiwane?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Frames obsługuje formaty JPEG, TIFF i DNG, umożliwiając bezpośrednie osadzanie zarejestrowanych metadanych w zeskanowanych zdjęciach analogowych dla płynnej organizacji i przepływu pracy na wszystkich urządzeniach."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Czy Frames jest dostępny na Androida lub Windows?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Frames jest obecnie dostępny dla iPhone i macOS. Wersje dla Androida i Windows są planowane na 2026 rok, a w międzyczasie możesz udostępniać i zarządzać danymi poprzez eksport plików .frames."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Jakie czasy naświetlania i przysłony są obsługiwane?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Frames zapewnia domyślne sekwencje pokrywające większość obiektywów i aparatów, a także możesz definiować własne sekwencje dla swojego sprzętu, co czyni go kompatybilnym z dowolnymi wartościami czasu naświetlania lub przysłony."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Czy mogę rejestrować statywy lub akcesoria?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Tak, Frames pozwala rejestrować statywy, lampy błyskowe i inne akcesoria. Istnieje również dodatkowe pole notatek, w którym możesz dodać dowolne własne szczegóły."
+          }
+        }
+      ]
+    }

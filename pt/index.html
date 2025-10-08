@@ -1,226 +1,56 @@
 <!DOCTYPE html>
 <html lang="pt">
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>Frames - Caderno de notas e metadados para fotografia analógica</title>
-    <meta name="description" content="Frames é o aplicativo essencial para fotógrafos analógicos. Registre configurações, notas e integre metadados aos seus scans. Disponível para iPhone e Mac.">
-    <style>
-        :root {
-            --large-spacing: 8rem;
-            --huge-spacing: 10rem;
-            --gray-1: #b3b3b3;
-            --font-size-small: 0.9rem;
-            --font-size-body: 1rem;
-            --font-size-heading1: 3.5rem;
-            --font-size-heading2: 1.75rem;
-            --font-size-heading3: 1.125rem;
-            --gap: 1rem;
-            --grid-vgap: 2.25rem;
-            --list-hgap: 0.25rem;
-        }
-        html {
-            -webkit-text-size-adjust: 100%;
-            box-sizing: border-box;
-        }
-        *,
-        ::after,
-        ::before {
-            box-sizing: inherit;
-        }
-        body {
-            color: var(--gray-1);
-            font-size: var(--font-size-body);
-            background: #000;
-            -webkit-font-smoothing: antialiased;
-            -moz-osx-font-smoothing: grayscale;
-            font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
-            font-weight: 400;
-            font-style: normal;
-            margin: 0;
-            padding: 0;
-            line-height: 1.5;
-            padding-top: 1.5rem;
-        }
-        .grid-2col,
-        .grid-3col,
-        .grid-4col,
-        .grid-5col {
-            display: grid;
-            gap: var(--gap);
-            grid-template-columns: 1fr;
-            width: 100%;
-        }
-        .h1,
-        h1,
-        h2,
-        h3,
-        header a.logo,
-        .footer-left {
-            color: #fff;
-        }
-        .logo { text-transform: uppercase }
-        .logo span { font-weight:300 }
-        .h1,
-        h1 {
-            font-size: var(--font-size-heading1);
-            line-height: 1.05;
-            font-weight: 500;
-            margin-bottom: 0;
-            min-height: 8rem;
-            margin-top: calc(100svh - var(--font-size-heading1) * 2 - 12rem);
-        }
-        .header-content {
-            position: relative;
-        }
-        section {
-            margin-top: calc(var(--large-spacing) - 2rem);
-            padding-top: 2rem;
-        }
-        .wrapper {
-            padding-left: 1rem;
-            padding-right: 1rem;
-        }
-        .navigation {
-            font-size: var(--font-size-small);
-            line-height: 1.4;
-        }
-        .navigation li {
-            display: flex;
-            flex-direction: column;
-            gap: var(--list-hgap);
-        }
-        li,
-        ul {
-            list-style: none;
-            margin: 0;
-            padding: 0;
-        }
-        a,
-        a:active,
-        a:hover,
-        a:visited {
-            text-decoration: none;
-            color: inherit;
-        }
-        .sr-only {
-            position: absolute;
-            width: 1px;
-            height: 1px;
-            margin: -1px;
-            padding: 0;
-            border: 0;
-            clip: rect(0, 0, 0, 0);
-            overflow: hidden;
-        }
-        .input-wrapper > .placeholder,
-        .input-wrapper > input {
-            display: block;
-            -webkit-appearance: none;
-            -moz-appearance: none;
-            appearance: none;
-            width: 100%;
-            height: 100%;
-            background-color: transparent;
-            border: 0;
-        }
-        .desktop-only {
-            display: none;
-        }
-        .download-buttons {
-            position: absolute;
-            top: 0;
-            right: 0;
-            gap: 1.5rem;
-            display: flex;
-        }
-        .download-buttons img {
-            height: 2.5rem;
-            width: auto;
-        }
-        article p {
-            font-size: var(--font-size-body);
-        }
-        @media (min-width: 768px) {
-            :root {
-                --large-spacing: 10rem;
-                --huge-spacing: 12rem;
-                --font-size-small: 1rem;
-                --font-size-body: 1.0625rem;
-                --font-size-heading1: 7rem;
-                --font-size-heading2: 3rem;
-                --font-size-heading3: 1.5rem;
-                --gap: 1.5rem;
-                --grid-vgap: 4.5rem;
-                --list-hgap: 0.35rem;
-            }
-            body {
-                padding-top: 2rem;
-            }
-            .h1,
-            h1 {
-                margin-top: calc(100svh - var(--font-size-heading1) * 2 - 9rem);
-                margin-bottom: 0;
-                min-height: 16.4375rem;
-            }
-            .grid-4col {
-                grid-template-columns: repeat(4, 1fr);
-            }
-            .wrapper {
-                padding-left: 3rem;
-                padding-right: 3rem;
-                max-width: 112rem;
-                margin: 0 auto;
-            }
-            .navigation {
-                display: flex;
-                justify-content: space-between;
-                align-items: center;
-                gap: var(--gap);
-                font-size: 0.9rem;
-            }
-            .desktop-only {
-                display: inherit;
-            }
-            .mobile-only { display: none!important; }
-        }
-    </style>
+    <title>Frames – App Fotografia Analógica para Notas &amp; Metadados</title>
+    <meta name="description"
+        content="Frames é uma app de fotografia analógica. Registe cada exposição, acompanhe definições, organize rolos e guarde metadados EXIF no iPhone &amp; Mac.">
     <link rel="canonical" href="https://withframes.com/pt/">
     <link rel="alternate" hreflang="en" href="https://withframes.com/">
     <link rel="alternate" hreflang="fr" href="https://withframes.com/fr/">
+    <link rel="alternate" hreflang="de" href="https://withframes.com/de/">
     <link rel="alternate" hreflang="es" href="https://withframes.com/es/">
     <link rel="alternate" hreflang="it" href="https://withframes.com/it/">
-    <link rel="alternate" hreflang="de" href="https://withframes.com/de/">
     <link rel="alternate" hreflang="nl" href="https://withframes.com/nl/">
     <link rel="alternate" hreflang="pt" href="https://withframes.com/pt/">
     <link rel="alternate" hreflang="ja" href="https://withframes.com/ja/">
     <link rel="alternate" hreflang="ko" href="https://withframes.com/ko/">
-    <link rel="alternate" hreflang="ru" href="https://withframes.com/ru/">
-    <link rel="alternate" hreflang="th" href="https://withframes.com/th/">
-    <link rel="alternate" hreflang="zh" href="https://withframes.com/zh/">
-    <link rel="alternate" hreflang="pl" href="https://withframes.com/pl/">
-    <link rel="alternate" hreflang="tr" href="https://withframes.com/tr/">
-    <link rel="alternate" hreflang="sv" href="https://withframes.com/sv/">
     <link rel="alternate" hreflang="hi" href="https://withframes.com/hi/">
+    <link rel="alternate" hreflang="pl" href="https://withframes.com/pl/">
+    <link rel="alternate" hreflang="ru" href="https://withframes.com/ru/">
+    <link rel="alternate" hreflang="sv" href="https://withframes.com/sv/">
+    <link rel="alternate" hreflang="th" href="https://withframes.com/th/">
+    <link rel="alternate" hreflang="tr" href="https://withframes.com/tr/">
+    <link rel="alternate" hreflang="zh" href="https://withframes.com/zh/">
     <link rel="alternate" hreflang="x-default" href="https://withframes.com/">
-    <link rel="stylesheet" href="/library/css/typewriter-pt.min.css" media="print" onload="this.media='all'">
-    <noscript><link rel="stylesheet" href="/library/css/typewriter-pt.min.css"></noscript>
-    <link rel="stylesheet" href="/library/css/style.min.css" media="print" onload="this.media='all'">
-    <noscript><link rel="stylesheet" href="/library/css/style.min.css"></noscript>
+
+    <!-- Critical CSS - Inlined for immediate render -->
+    <style>:root{--color-black: #0C0B14;--color-white: #ECECED;--color-accent: #FF375F;--color-gray: color-mix(in srgb, var(--color-white) 56%, transparent);--color-gray-dark: #1C1C1E;--color-gray-dark2: #2C2C2E;--color-gray-dark3: #3A3A3C;--color-background: #000;--color-primary: var(--color-white);--color-secondary: var(--color-gray);--color-surface: var(--color-gray-dark);--color-divider: var(--color-gray-dark3);--font-size-xs: 0.8125rem;--font-size-sm: 0.875rem;--font-size-md: 1rem;--font-size-lg: 1.375rem;--font-size-xl: 1.75rem;--font-size-2xl: 2.25rem;--line-height-xs: 1.25rem;--line-height-sm: 1.25rem;--line-height-md: 1.5rem;--line-height-lg: 1.75rem;--line-height-xl: 2.25rem;--line-height-2xl: 2.8125rem;--spacing-xs: 0.25rem;--spacing-sm: 0.5rem;--spacing-md: 0.75rem;--spacing-lg: 1rem;--spacing-xl: 1.5rem;--spacing-2xl: 2rem;--spacing-3xl: 3rem;--spacing-4xl: 4rem;--spacing-5xl: 6rem;--spacing-6xl: 8rem;--grid-gap: var(--spacing-md);--radius-sm: 0.25rem;--radius-md: 0.5rem;--radius-full: 9999px;--transition-fast: 150ms ease;--transition-base: 200ms ease;--transition-slow: 300ms ease}html{scroll-behavior:smooth}body{color:var(--color-primary);font-size:var(--font-size-md);background:var(--color-background);-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Helvetica,Arial,sans-serif;font-weight:400;font-style:normal;margin:0;padding:0 var(--spacing-xl);line-height:var(--line-height-md)}@media(max-width: 768px){body{padding:0 var(--spacing-lg)}}*,*::before,*::after{-webkit-box-sizing:border-box;box-sizing:border-box}ul,ol{list-style:none;margin:0;padding:0}li,p,figure,blockquote{margin:0;padding:0}cite{font-style:normal}h1,h2,h3,h4,h5,h6{margin:0;padding:0;font-weight:400;color:var(--color-primary)}h1,h2{font-size:var(--font-size-xl);line-height:var(--line-height-xl)}@media(max-width: 480px){h1 br{display:none}}h2{margin-bottom:var(--spacing-xl)}h3{font-size:var(--font-size-lg);line-height:var(--line-height-lg)}.tile{background-color:var(--color-surface);border-radius:var(--radius-md)}.wrapper{max-width:82.5rem;margin:0 auto}section{margin-top:var(--spacing-6xl)}.preview{margin-top:var(--spacing-5xl)}.preview .tile-inner{width:100%;height:100%;padding:0 20%;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center}.preview img{max-width:100%;width:100%;height:auto}.contact h2{font-size:var(--font-size-2xl);line-height:var(--line-height-2xl);text-align:center;padding:0 var(--spacing-2xl)}@media(max-width: 768px){.contact h2{font-size:var(--font-size-xl);line-height:var(--line-height-xl)}}@media(max-width: 480px){.mobile-hidden{display:none !important}}.desktop-hidden{display:none !important}@media(max-width: 480px){.desktop-hidden{display:block !important}}@media(max-width: 1024px){.desktop-only{display:none !important}}.mobile-only{display:none !important}@media(max-width: 1024px){.mobile-only{display:-webkit-box !important;display:-ms-flexbox !important;display:flex !important}}.flex{display:-webkit-box;display:-ms-flexbox;display:flex}.flex.flex-row{-webkit-box-orient:horizontal;-webkit-box-direction:normal;-ms-flex-direction:row;flex-direction:row}.flex.flex-col{-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column}.flex.flex-center{-webkit-box-align:center;-ms-flex-align:center;align-items:center}.flex.flex-start{-webkit-box-align:start;-ms-flex-align:start;align-items:flex-start}.flex.flex-end{-webkit-box-align:end;-ms-flex-align:end;align-items:flex-end}.flex.flex-justify-center{-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center}.flex.flex-justify-start{-webkit-box-pack:start;-ms-flex-pack:start;justify-content:flex-start}.flex.flex-justify-end{-webkit-box-pack:end;-ms-flex-pack:end;justify-content:flex-end}.flex.flex-justify-between{-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;gap:0}.flex.flex-justify-around{-ms-flex-pack:distribute;justify-content:space-around;gap:0}.flex.flex-wrap{-ms-flex-wrap:wrap;flex-wrap:wrap}.gap-xs{gap:var(--spacing-xs)}.gap-sm{gap:var(--spacing-sm)}.gap-md{gap:var(--spacing-md)}.gap-lg{gap:var(--spacing-lg)}.gap-xl{gap:var(--spacing-xl)}.gap-2xl{gap:var(--spacing-2xl)}.gap-3xl{gap:var(--spacing-3xl)}.gap-4xl{gap:var(--spacing-4xl)}.gap-5xl{gap:var(--spacing-5xl)}.gap-6xl{gap:var(--spacing-6xl)}.col-span-2{grid-column:span 2}.col-span-3{grid-column:span 3}.col-span-4{grid-column:span 4}.col-start-1{grid-column-start:1}.col-start-2{grid-column-start:2}.col-start-3{grid-column-start:3}.col-start-4{grid-column-start:4}.col-end{grid-column-end:-1}@media(max-width: 768px){.col-span-2-mobile{grid-column:span 2}}.grid{display:grid;gap:var(--grid-gap)}.grid-full{grid-template-columns:1fr}.grid-2col{grid-template-columns:repeat(2, 1fr)}.grid-4col{grid-template-columns:repeat(4, 1fr)}@media(max-width: 1024px)and (min-width: 769px){.features.grid-4col,.pricing.grid-4col{grid-template-columns:repeat(3, 1fr) !important}}@media(max-width: 1140px){.features.grid-4col{-webkit-box-align:stretch;-ms-flex-align:stretch;align-items:stretch}.features .container-ratio::before{display:none !important}.features .container-ratio>*{position:static !important;height:100% !important}}@media(max-width: 1140px)and (min-width: 1025px){.pricing.grid-4col{-webkit-box-align:stretch;-ms-flex-align:stretch;align-items:stretch}.pricing .container-ratio::before{display:none !important}.pricing .container-ratio>*{position:static !important;height:100% !important}}@media(max-width: 1024px)and (min-width: 481px){.pricing.grid-4col{-webkit-box-align:stretch;-ms-flex-align:stretch;align-items:stretch}.pricing .container-ratio::before{display:none !important}.pricing .container-ratio>*{position:static !important;height:100% !important}}@media(max-width: 768px){.grid-4col{grid-template-columns:repeat(2, 1fr)}.grid-2col{grid-template-columns:1fr}}@media(max-width: 768px)and (min-width: 481px){.features.grid-4col,.pricing.grid-4col{grid-template-columns:repeat(2, 1fr) !important}}@media(max-width: 480px){.grid-4col{grid-template-columns:1fr}}.container-ratio{position:relative;width:100%;overflow:hidden}.container-ratio::before{content:"";display:block;padding-top:var(--ratio, 100%)}.container-ratio>*{position:absolute;top:0;left:0;width:100%;height:100%}.container-ratio>img,.container-ratio>video{-o-object-fit:cover;object-fit:cover}.ratio-2-1{--ratio: 50%}@media(max-width: 480px){.ratio-2-1{--ratio: 75%}}.ratio-4-3{--ratio: 75%}.ratio-3-4{--ratio: 133.333%}.ratio-1-1{--ratio: 100%}a{color:inherit;text-decoration:none}a:hover{color:inherit}a:focus-visible{outline:2px solid var(--color-accent);outline-offset:2px;border-radius:2px}.btn{display:-webkit-inline-box;display:-ms-inline-flexbox;display:inline-flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;gap:var(--spacing-xs);border:none;border-radius:var(--radius-full);cursor:pointer;text-decoration:none;text-align:center}.btn:focus-visible{outline:2px solid var(--color-accent);outline-offset:2px}.btn.btn-sm{font-size:var(--font-size-sm);height:27px;padding:0 11px}.btn.btn-sm.btn-uppercase{font-size:var(--font-size-xs);text-transform:uppercase}.btn.btn-md{font-size:var(--font-size-md);padding:10px 22px}.btn.btn-circle{width:44px;height:44px;padding:0;border-radius:var(--radius-full)}.btn.btn-light{background:var(--color-white);color:var(--color-black)}.btn.btn-light svg{fill:var(--color-black)}.btn.btn-light:hover{opacity:.9}.btn.btn-light:active{opacity:1}.btn.btn-dark{background:rgba(0,0,0,0);border:1px solid var(--color-gray-dark3);color:var(--color-white)}.btn.btn-dark svg{fill:var(--color-white)}.btn.btn-dark:hover{border:1px solid color-mix(in srgb, var(--color-gray-dark3) 96%, white 4%)}.btn.btn-dark:active{border:1px solid color-mix(in srgb, var(--color-gray-dark3) 92%, white 8%)}.btn.btn-secondary{background:var(--color-gray-dark2);color:var(--color-white)}.btn.btn-secondary svg{fill:var(--color-white)}.btn.btn-secondary:hover{background:color-mix(in srgb, var(--color-gray-dark2) 98%, white 2%)}.btn.btn-secondary:active{background:var(--color-gray-dark2)}.play-btn{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;height:6rem;width:6rem;position:absolute;top:50%;left:50%;-webkit-transform:translate(-50%, -50%);transform:translate(-50%, -50%);background-color:color-mix(in srgb, var(--color-white) 10%, transparent);border-radius:9999px;backdrop-filter:blur(20px);-webkit-backdrop-filter:blur(20px);will-change:transform}.play-btn:hover{background-color:color-mix(in srgb, var(--color-white) 15%, transparent)}.play-btn:active{background-color:color-mix(in srgb, var(--color-white) 10%, transparent)}@media(max-width: 480px){.play-btn{-webkit-transform:translate(-50%, -50%) scale(0.75);transform:translate(-50%, -50%) scale(0.75)}}@media(max-width: 768px){.play-btn{-webkit-transform:translate(-50%, -50%) scale(0.875);transform:translate(-50%, -50%) scale(0.875)}}.main-header{position:sticky;top:0;background:var(--color-background);font-size:var(--font-size-sm);z-index:100}.container-header{height:3.375rem;display:grid;grid-template-columns:1fr auto 1fr;-webkit-box-align:center;-ms-flex-align:center;align-items:center}.container-header .leading{justify-self:start;-webkit-box-align:center;-ms-flex-align:center;align-items:center}.container-header .center{justify-self:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center}.container-header .trailing{justify-self:end;-webkit-box-align:center;-ms-flex-align:center;align-items:center}@media(max-width: 768px){.container-header{grid-template-columns:1fr auto}}.logo{text-transform:uppercase}.navigation a{height:2.125rem;padding:0 var(--spacing-lg)}.navigation a:hover{opacity:.82}@media(max-width: 768px){.navigation{display:none}}.hero{margin-top:var(--spacing-5xl)}.hero-image{position:relative;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:end;-ms-flex-align:end;align-items:flex-end}.hero-image::before{display:none !important}.hero-image img{position:static;-o-object-fit:cover;object-fit:cover}.hero-content{margin-bottom:var(--spacing-4xl)}.hero-content .btn{-ms-flex-item-align:start;align-self:flex-start}.hero-featured{margin-top:var(--spacing-4xl)}.featured-text{font-size:var(--font-size-sm)}.featured-logos{gap:var(--spacing-lg) 4.5rem;-ms-flex-wrap:wrap;flex-wrap:wrap;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center}@media(max-width: 768px){.featured-logos{gap:var(--spacing-2xl) 4.5rem}}@media(max-width: 480px){.featured-logos{gap:var(--spacing-xl) var(--spacing-2xl)}}</style>
+    <!-- Deferred CSS - Loaded asynchronously for below-the-fold content -->
+    <link rel="stylesheet" href="/lib/css/deferred.css" media="print" onload="this.media='all'">
+    <!-- No-JS Fallback -->
+    <noscript>
+        <link rel="stylesheet" href="/lib/css/deferred.css">
+    </noscript>
+
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:site" content="@withframes">
     <meta name="twitter:creator" content="@withframes">
-    <meta name="twitter:title" content="Frames - Caderno de notas e metadados para fotografia analógica">
-    <meta name="twitter:description" content="Frames é o aplicativo essencial para fotógrafos analógicos. Registre configurações, notas e integre metadados aos seus scans. Disponível para iPhone e Mac.">
+    <meta name="twitter:title" content="Frames – App Fotografia Analógica para Notas &amp; Metadados">
+    <meta name="twitter:description"
+        content="Frames é uma app de fotografia analógica. Registe cada exposição, acompanhe definições, organize rolos e guarde metadados EXIF no iPhone &amp; Mac.">
     <meta name="twitter:image" content="https://withframes.com/og-image.jpg">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Frames">
-    <meta property="og:title" content="Frames - Caderno de notas e metadados para fotografia analógica">
-    <meta property="og:description" content="Frames é o aplicativo essencial para fotógrafos analógicos. Registre configurações, notas e integre metadados aos seus scans. Disponível para iPhone e Mac.">
+    <meta property="og:title" content="Frames – App Fotografia Analógica para Notas &amp; Metadados">
+    <meta property="og:description"
+        content="Frames é uma app de fotografia analógica. Registe cada exposição, acompanhe definições, organize rolos e guarde metadados EXIF no iPhone &amp; Mac.">
     <meta property="og:url" content="https://withframes.com/pt/">
     <meta property="og:image" content="https://withframes.com/og-image.jpg">
     <meta property="og:locale" content="pt_PT">
-    <link rel="icon" href="/favicon.png" type="image/png">
+    <link rel="shortcut icon" href="/favicon.png" type="image/png">
     <link rel="icon" href="/favicon.svg" type="image/svg+xml">
     <link rel="apple-touch-icon" href="/apple-touch-icon.png">
     <meta name="theme-color" content="#000">
@@ -229,399 +59,796 @@
 </head>
 
 <body>
-    <header id="frames" class="wrapper">
-        <div class="header-content">
-            <ul class="download-buttons">
-                <li class="desktop-only">
-                    <a href="https://apps.apple.com/pt/app/frames-metadados-foto/id6744063354">
-                        <img fetchpriority="high" src="/library/img/pt/appstore-badge-dark.webp" srcset="/library/img/pt/appstore-badge-dark.webp,
-                                    /library/img/pt/appstore-badge-dark@2x.webp 2x,
-                                    /library/img/pt/appstore-badge-dark@3x.webp 3x" alt="Transferir para Mac">
-                    </a>
-                </li>
-                <li>
-                    <a href="https://apps.apple.com/pt/app/frames-anotações-fotográficas/id6744057317">
-                        <img fetchpriority="high" src="/library/img/pt/appstore-badge.webp" srcset="/library/img/pt/appstore-badge.webp,
-                                    /library/img/pt/appstore-badge@2x.webp 2x,
-                                    /library/img/pt/appstore-badge@3x.webp 3x" alt="Transferir <span class='desktop-only'>para iPhone</span>">
-                    </a>
-                </li>
-            </ul>
-            <nav class="navigation" aria-label="Main navigation">
-                <ul class="grid-4col">
-                    <li><a href="https://withframes.com/pt/" class="logo">Frames <span>®</span></a></li>
-                    <li>
-                    </li>
-                    <li class="mobile-only">
-                        <a href="#iphone">Para iPhone</a>
-                        <a href="#mac">Para Mac</a>
-                    </li>
+    <header class="main-header wrapper">
+        <div class="container-header">
+            <a href="/pt/" class="logo leading" aria-label="Frames Home">
+                <span>Frames</span>
+            </a>
+
+            <nav class="navigation center" aria-label="Navegação principal">
+                <ul class="flex flex-row">
+                    <li class="desktop-only"><a href="#features">Funcionalidades</a></li>
+                    <li><a href="/docs/">Documentação</a></li>
+                    <li><a href="/changelog/">Changelog</a></li>
                 </ul>
             </nav>
-            <h1 class="sr-only">Frames - Caderno de notas e metadados para fotografia analógica</h1>
-            <div class="h1 input-wrapper" aria-hidden="true"><input type="text" tabindex="-1" readonly> <span class="placeholder"></span></div>
-        </div>
-    </header>
-    <main class="wrapper">
-        <section id="iphone" aria-labelledby="features-mobile-heading">
-            <h2 id="features-mobile-heading"><span class='sr-only'>Aplicativo Fotografia Analógica </span>Para iPhone</h2>
-            <ul class="grid-3col feature-list-mobile">
-                <li>
-                    <article>
-                        <div class="screenshot-container">
-                            <img fetchpriority="low" src="/library/img/pt/frames-feature-screenshot-1.webp" alt="App iOS mostrando filmes organizados em pastas, ordenados por nome e data" width="504" height="1024" loading="lazy">
-                        </div>
-                        <h3>Organize sua biblioteca</h3>
-                        <p>Crie pastas, organize seus rolos, renomeie ou mova seus filmes com um gesto. Frames oferece gestão intuitiva do seu arquivo fotográfico, como uma folha de contato digital projetada para fotografia analógica.</p>
-                    </article>
-                </li>
-                <li>
-                    <article>
-                        <div class="screenshot-container">
-                            <img fetchpriority="low" src="/library/img/pt/frames-feature-screenshot-2.webp" alt="Tela iOS mostrando configurações detalhadas (câmera, lente, filme) para um rolo" width="504" height="1024" loading="lazy">
-                        </div>
-                        <h3>Registre todas as configurações</h3>
-                        <p>Registre câmera, lente, tipo de filme, configurações de exposição (abertura, velocidade, distância focal, flash...) e mais durante suas sessões. Frames documenta cada detalhe técnico, desde o momento da captura até a digitalização.</p>
-                    </article>
-                </li>
-                <li>
-                    <article>
-                        <div class="screenshot-container">
-                            <img fetchpriority="low" src="/library/img/pt/frames-feature-screenshot-3.webp" alt="Visualização de configurações no app iOS com data, notas e mapa para cada foto analógica" width="504" height="1024" loading="lazy">
-                        </div>
-                        <h3>Consulte suas capturas</h3>
-                        <p>Encontre instantaneamente todas as configurações: data e hora da foto, notas pessoais, local de captura... Cada imagem é contextualizada. Edite ou complete suas fotos a qualquer momento.</p>
-                    </article>
-                </li>
-                <li>
-                    <article>
-                        <div class="screenshot-container">
-                            <img fetchpriority="low" src="/library/img/pt/frames-feature-screenshot-4.webp" alt="Mapa no app iOS localizando fotos com seus dados técnicos" width="504" height="1024" loading="lazy">
-                        </div>
-                        <h3>Mapeie suas notas</h3>
-                        <p>Registre automaticamente a posição GPS de cada foto ou insira manualmente se necessário. Frames permite visualizar cada foto em um mapa interativo para recuperar o local exato da captura.</p>
-                    </article>
-                </li>
-                <li>
-                    <article>
-                        <div class="screenshot-container">
-                            <img fetchpriority="low" src="/library/img/pt/frames-feature-screenshot-5.webp" alt="Tela de exportação iOS mostrando arquivo .frames pronto para macOS" width="504" height="1024" loading="lazy">
-                        </div>
-                        <h3>Exporte e compartilhe</h3>
-                        <p>Envie suas notas para seu Mac com um clique para continuar seu trabalho sem interrupções. Exporte no formato .frames, um formato aberto baseado em JSON, projetado para ser legível, leve e interoperável.</p>
-                    </article>
-                </li>
-            </ul>
-        </section>
-        <section id="mac" aria-labelledby="features-desktop-heading">
-            <h2 id="features-desktop-heading"><span class='sr-only'>Aplicativo Foto Analógica </span>Para Mac</h2>
-            <ul class="grid-2col feature-list-desktop">
-                <li>
-                    <article>
-                        <div class="screenshot-container screenshot-desktop">
-                            <img fetchpriority="low" src="/library/img/pt/frames-feature-screenshot-6.webp" alt="Interface macOS mostrando filme importado do iOS via arquivo .frames" width="898" height="572" loading="lazy">
-                        </div>
-                        <h3>Sincronização do iPhone</h3>
-                        <p>Importe suas notas analógicas do app iOS com facilidade. Basta arrastar seu arquivo .frames para o app macOS: todas as configurações, notas e dados são carregados imediatamente e prontos para uso. Nenhuma configuração adicional necessária.</p>
-                    </article>
-                </li>
-                <li>
-                    <article>
-                        <div class="screenshot-container screenshot-desktop">
-                            <img fetchpriority="low" src="/library/img/pt/frames-feature-screenshot-7.webp" alt="App macOS mostrando dados técnicos com scan anexado e localização" width="898" height="572" loading="lazy">
-                        </div>
-                        <h3>Explore cada imagem</h3>
-                        <p>Examine cada foto em detalhes: veja configurações, filme usado e localização exata da foto, exibida em mapa interativo. Associe facilmente às imagens digitalizadas, uma por uma ou arrastando todas as fotos de uma vez.</p>
-                    </article>
-                </li>
-                <li>
-                    <article>
-                        <div class="screenshot-container screenshot-desktop">
-                            <img fetchpriority="low" src="/library/img/pt/frames-feature-screenshot-8.webp" alt="macOS exportando scan com metadados EXIF (câmera, lente)" width="898" height="572" loading="lazy">
-                        </div>
-                        <h3>Exporte com metadados</h3>
-                        <p>Salve suas fotos com todos os metadados EXIF: localização, lente, câmera e mais - ideal para arquivamento ou compartilhamento. Graças ao formato EXIF, universalmente reconhecido, seus dados aparecerão automaticamente no Apple Photos, Adobe Lightroom, Flickr e outras plataformas.</p>
-                    </article>
-                </li>
-            </ul>
-        </section>
-        <section id="faq" aria-labelledby="faq-heading">
-            <h2 id="faq-heading">FAQ</h2>
-            <div class="faq-list">
-                <details>
-                    <summary>
-                        <h3>Que tipos de metadados posso registrar com o app iOS?</h3>
-                    </summary>
-                    <p>Você pode registrar um conjunto completo de configurações e metadados para cada foto, incluindo marca e modelo da câmera, velocidade do obturador, abertura, distância focal, compensação de exposição, uso de flash, detalhes da lente e tipo de filme usado. A posição GPS junto com data e hora são registradas automaticamente, mas podem ser modificadas manualmente.<br><br>Você também pode adicionar notas personalizadas para incluir qualquer contexto ou detalhe adicional, ajudando a criar um arquivo rico e bem estruturado da sua prática fotográfica analógica, com todas as informações essenciais preservadas.</p>
-                </details>
-                <details>
-                    <summary>
-                        <h3>Quais formatos de arquivo são suportados pelo app Mac?</h3>
-                    </summary>
-                    <p>O app para macOS atualmente é compatível com arquivos JPEG (.jpg) e TIFF (.tiff) para incorporar e exportar metadados EXIF. Também estamos avaliando o suporte para formatos adicionais como DNG e NEF, com base nos fluxos de trabalho reais e nas necessidades dos usuários. Nosso objetivo é criar uma ferramenta realmente útil para quem ama fotografia analógica, tanto em campo quanto na pós-produção.<br><br>Se o suporte a DNG ou outras funções facilitar seu fluxo de trabalho, fale com a gente – estamos ouvindo.</p>
-                </details>
-                <details>
-                    <summary>
-                        <h3>Posso anotar o uso de tripé ou filtros?</h3>
-                    </summary>
-                    <p>Por enquanto, o app mantém-se deliberadamente simples e eficiente para atender às necessidades da maioria dos fotógrafos analógicos. Mas você não está limitado: um campo de notas dedicado permite registrar informações adicionais como uso de tripé, tipos de filtros ou outros detalhes de equipamento.<br><br>Estes elementos não fazem parte dos metadados EXIF oficiais, mas o campo Notas dá liberdade para incluir tudo o que importa para seu processo, sem sobrecarregar a interface principal.</p>
-                </details>
-                <details>
-                    <summary>
-                        <h3>Uma versão Android está planejada?</h3>
-                    </summary>
-                    <p>Uma versão Android está claramente em nosso radar. Por enquanto, nossa prioridade é oferecer uma experiência em iPhone e macOS tão polida, confiável e completa quanto possível. Queremos garantir que tudo funcione perfeitamente e atinja nosso padrão de qualidade.<br><br>Se a versão iOS for bem-sucedida e continuar agradando usuários, um desenvolvimento para Android pode ser o próximo passo. Fique atento e nos avise se estiver interessado - seu feedback guia nosso trabalho futuro.</p>
-                </details>
-                <details>
-                    <summary>
-                        <h3>Quais funcionalidades estão planejadas?</h3>
-                    </summary>
-                    <p>Comprometemo-nos a melhorar continuamente o app. Futuras atualizações podem incluir traduções para maior acessibilidade, novas opções de exportação, ou até uma versão para relógio para acesso rápido durante capturas. Nada está definido ainda, mas construímos esta ferramenta com a comunidade e ela evolui conforme suas necessidades.<br><br>Sua forma de usar o app inspira diretamente as próximas funcionalidades - obrigado por fazer parte do processo.</p>
-                </details>
-            </div>
-        </section>
-        <section id="reviews" aria-labelledby="reviews-heading">
-            <h2 id="reviews-heading">Seus comentários <span class='sr-only'>de fotógrafo</span></h2>
-            <ul class="grid-3col review-list">
-                <li>
-                    <figure class="user-review">
-                        <blockquote cite="https://withframes.com">
-                            <img src="/library/img/icons/icon-quote.svg" alt="Quote" width="14" height="11" loading="lazy">
-                            <h3 class="sr-only">Simplesmente perfeito</h3>
-                            <p>Faz exatamente o que se espera, de forma simples. Intuitivo, confiável, sem objeções. Obrigado por torná-lo gratuito!</p>
-                        </blockquote>
-                        <figcaption class="review-info">
-                            <span class="author">Soliver098</span> <span class="rating sr-only" aria-label="5" role="img">★★★★★</span> <time datetime="2022-08-03" class="sr-only">2022-08-03</time>
-                        </figcaption>
-                    </figure>
-                    <figure class="user-review">
-                        <blockquote cite="https://withframes.com">
-                            <img src="/library/img/icons/icon-quote.svg" alt="Quote" width="14" height="11" loading="lazy">
-                            <h3 class="sr-only">Minimalista e eficaz</h3>
-                            <p>O app é simples de usar e faz exatamente o que deve. Adoro poder nomear os rolos em uso, pois às vezes esqueço com qual câmera tirei certas fotos. A interface é clara e realmente bonita.</p>
-                        </blockquote>
-                        <figcaption class="review-info">
-                            <span class="author">Hivonmarius</span> <span class="rating sr-only" aria-label="5" role="img">★★★★★</span> <time datetime="2022-06-01" class="sr-only">2022-06-01</time>
-                        </figcaption>
-                    </figure>
-                    <figure class="user-review">
-                        <blockquote cite="https://withframes.com">
-                            <img src="/library/img/icons/icon-quote.svg" alt="Quote" width="14" height="11" loading="lazy">
-                            <h3 class="sr-only">Muito melhor que um caderno</h3>
-                            <p>Muito mais prático que anotar configurações em um caderno ou no app Notas da Apple. Mal posso esperar pelas próximas versões!</p>
-                        </blockquote>
-                        <figcaption class="review-info">
-                            <span class="author">-=Bidiboo=-</span> <span class="rating sr-only" aria-label="5" role="img">★★★★★</span> <time datetime="2022-11-13" class="sr-only">2022-11-13</time>
-                        </figcaption>
-                    </figure>
-                </li>
-                <li>
-                    <figure class="user-review">
-                        <blockquote cite="https://withframes.com">
-                            <img src="/library/img/icons/icon-quote.svg" alt="Quote" width="14" height="11" loading="lazy">
-                            <h3 class="sr-only">O melhor app do gênero</h3>
-                            <p>O melhor app de metadados para fotografia analógica que já testei. Simples, rápido e completo. Sem anúncios, sem coleta de dados - uma enorme vantagem.</p>
-                        </blockquote>
-                        <figcaption class="review-info">
-                            <span class="author">J0nas</span> <span class="rating sr-only" aria-label="5" role="img">★★★★★</span> <time datetime="2022-08-03" class="sr-only">2022-08-03</time>
-                        </figcaption>
-                    </figure>
 
-                    <figure class="user-review">
-                        <blockquote cite="https://withframes.com">
-                            <img src="/library/img/icons/icon-quote.svg" alt="Quote" width="14" height="11" loading="lazy">
-                            <h3 class="sr-only">Aplicativo excelente</h3>
-                            <p>Seria bom ter velocidades em 1/3, pois nem sempre correspondem às configurações reais das fotos. Parabéns pelo app!</p>
-                        </blockquote>
-                        <figcaption class="review-info">
-                            <span class="author">SalvatoreEsquilache</span> <span class="rating sr-only" aria-label="5" role="img">★★★★★</span> <time datetime="2023-12-02" class="sr-only">2023-12-02</time>
-                        </figcaption>
-                    </figure>
-
-                    <figure class="user-review">
-                        <blockquote cite="https://withframes.com">
-                            <img src="/library/img/icons/icon-quote.svg" alt="Quote" width="14" height="11" loading="lazy">
-                            <h3 class="sr-only">Meu companheiro de fotografia</h3>
-                            <p>Ferramenta fantástica - simples mas completa para acompanhar seus rolos. Fácil de usar no campo, com opção de exportar para salvar ou processar seus dados. Cinco estrelas merecidas!</p>
-                        </blockquote>
-                        <figcaption class="review-info">
-                            <span class="author">rzolau</span> <span class="rating sr-only" aria-label="5" role="img">★★★★★</span> <time datetime="2022-02-26" class="sr-only">2022-02-26</time>
-                        </figcaption>
-                    </figure>
-                </li>
-                <li>
-                    <figure class="user-review">
-                        <blockquote cite="https://withframes.com">
-                            <img src="/library/img/icons/icon-quote.svg" alt="Quote" width="14" height="11" loading="lazy">
-                            <h3 class="sr-only">O equivalente EXIF para analógico</h3>
-                            <p>Recentemente, a fotografia analógica me deixou nostálgico e decidi retomá-la. Ao contrário de antes, hoje na era digital é normal preservar dados de captura via metadados EXIF. Perguntei-me se havia algo similar para fotos em filme. Buscando uma solução, encontrei este app. Com ele você pode pré-configurar lente, abertura e velocidade, então pressionar um botão por foto para registrar automaticamente as configurações por número. Hora e posição GPS também são gravadas, oferecendo detalhamento comparável a câmeras digitais. Claro, pode haver pequena diferença horária entre câmera e iPhone, mas é insignificante.</p>
-                        </blockquote>
-                        <figcaption class="review-info">
-                            <span class="author">yaizawa</span> <span class="rating sr-only" aria-label="5" role="img">★★★★★</span> <time datetime="2022-05-13" class="sr-only">2022-05-13</time>
-                        </figcaption>
-                    </figure>
-                </li>
-            </ul>
-        </section>
-    </main>
-    <footer class="footer wrapper">
-        <h2 class="sr-only">Frames</h2>
-        <div class="grid-4col">
-            <div class="takes-2">
-                <h3>Explore o Frames</h3>
-                <ul class="footer-nav">
-                    <li><a href="#iphone">Para iPhone</a></li>
-                    <li><a href="#mac">Para Mac</a></li>
-                    <li><a href="#faq">FAQ</a></li>
-                    <li><a href="#reviews">Seus comentários <span class='sr-only'>de fotógrafo</span></a></li>
-                    <li><a href="https://withframes.com/pt/privacidade/">Privacidade</a></li>
-                    <li><a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/" target="_blank">Termos</a></li>
-                </ul>
-            </div>
-            <div>
-                <h3>Contato</h3>
-                <ul class="footer-list">
-                    <li><a href="mailto:&#104;&#105;&#64;&#119;&#105;&#116;&#104;&#102;&#114;&#97;&#109;&#101;&#115;&#46;&#99;&#111;&#109;">E-mail</a></li>
-                    <li><a href="https://instagram.com/with_frames" target="_blank" rel="noopener noreferrer">Instagram</a></li>
-                    <li><a href="https://threads.com/with_frames" target="_blank" rel="noopener noreferrer">Threads</a></li>
-                    <li><a href="https://twitter.com/withframes" target="_blank" rel="noopener noreferrer">Twitter</a></li>
-                    <li><a href="https://www.facebook.com/framesapp" target="_blank" rel="noopener noreferrer">Facebook</a></li>
-                    <li><a href="https://www.linkedin.com/company/withframes/" target="_blank" rel="noopener noreferrer">Linkedin</a></li>
-                </ul>
-            </div>
-            <div>
-                <h3>Baixar</h3>
-                <ul class="footer-list">
-                    <li>
-                        <a href="https://apps.apple.com/pt/app/frames-anotações-fotográficas/id6744057317" target="_blank" rel="noopener noreferrer">Frames iOS (1.9.0)</a>
-                    </li>
-                    <li>
-                        <a href="https://apps.apple.com/pt/app/frames-metadados-foto/id6744063354" target="_blank" rel="noopener noreferrer">Frames macOS (1.5.0)</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-
-        <ul class="grid-2col subfooter">
-            <li>
-                <a href="https://vnn.io/" class="copyright" title="Vincent Tantardini – personal website" rel="me">
-                    Copyright © 2025 Vincent Tantardini. Todos os direitos reservados.
-                </a>
-            </li>
-            <li>
+            <div class="trailing flex flex-row flex-center gap-sm">
                 <div class="dropdown">
-                    <input type="checkbox" id="dropdown-toggle">
+                    <input type="checkbox" id="share-toggle" class="dropdown-toggle">
 
-                    <label for="dropdown-toggle" class="dropdown-button">
-                        <img fetchpriority="low" src="/library/img/icons/globe.svg" alt="Globe Icon" aria-hidden="true" loading="lazy">
-                        <span>Idioma</span>
-                        <img fetchpriority="low" src="/library/img/icons/chevron.svg" alt="Chevron Icon" aria-hidden="true" loading="lazy">
+                    <label for="share-toggle" class="dropdown-button btn btn-sm btn-dark">
+                        <span>Partilhar</span>
+                        <img src="/lib/img/icn/chevron-down-sm.svg" alt="Chevron Down Icon" width="10" height="12" loading="lazy">
                     </label>
 
-                    <ul class="dropdown-content" role="menu">
+                    <ul class="dropdown-content dropdown-dir-bottom" role="menu">
                         <li>
-                            <a role="menuitem" href="/de/">
-                                <span>Deutsch</span>
-                                
+                            <a href="#" onclick="shareOn('facebook'); return false;">
+                                <div class="flex flex-center gap-sm">
+                                    <img src="/lib/img/icn/facebook.svg" alt="Facebook Icon" width="14" height="14" loading="lazy" class="social-icon">
+                                    <span>Facebook</span>
+                                </div>
                             </a>
                         </li>
+
+                        <li>
+                            <a href="#" onclick="shareOn('twitter'); return false;">
+                                <div class="flex flex-center gap-sm">
+                                    <img src="/lib/img/icn/twitter.svg" alt="Twitter Icon" width="14" height="14" loading="lazy" class="social-icon">
+                                    <span>Twitter / X</span>
+                                </div>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#" onclick="shareOn('linkedin'); return false;">
+                                <div class="flex flex-center gap-sm">
+                                    <img src="/lib/img/icn/linkedin.svg" alt="LinkedIn Icon" width="14" height="14" loading="lazy" class="social-icon">
+                                    <span>LinkedIn</span>
+                                </div>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#" onclick="shareOn('whatsapp'); return false;">
+                                <div class="flex flex-center gap-sm">
+                                    <img src="/lib/img/icn/whatsapp.svg" alt="WhatsApp Icon" width="14" height="14" loading="lazy" class="social-icon">
+                                    <span>WhatsApp</span>
+                                </div>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#" onclick="shareOn('reddit'); return false;">
+                                <div class="flex flex-center gap-sm">
+                                    <img src="/lib/img/icn/reddit.svg" alt="Reddit Icon" width="14" height="14" loading="lazy" class="social-icon">
+                                    <span>Reddit</span>
+                                </div>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#" onclick="shareOn('email'); return false;" class="social-icon">
+                                <div class="flex flex-center gap-sm">
+                                    <img src="/lib/img/icn/envelope.svg" alt="Email Icon" width="14" height="14" loading="lazy" class="social-icon">
+                                    <span>Email</span>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <a href="https://apps.apple.com/pt/app/frames-metadados-foto/id6744063354" class="btn btn-sm btn-light desktop-only">Transferir</a>
+                <a href="https://apps.apple.com/pt/app/frames-anotações-fotográficas/id6744057317" class="btn btn-sm btn-light mobile-only">Transferir</a>
+
+                <div class="mobile-menu">
+                    <input type="checkbox" id="mobile-menu-toggle" class="overlay-toggle" aria-hidden="true">
+
+                    <label for="mobile-menu-toggle" class="mobile-menu-toggle" aria-label="Abrir menu móvel">
+                        <img src="/lib/img/icn/menu.svg" alt="Menu Icon" width="32" height="32" loading="lazy" aria-hidden="true">
+                    </label>
+
+                    <div class="mobile-menu-overlay overlay">
+                        <label for="mobile-menu-toggle" class="overlay-close" aria-label="Fechar menu móvel">
+                            <img src="/lib/img/icn/xmark.svg" alt="x Mark Icon" width="32" height="32" loading="lazy" aria-hidden="true">
+                        </label>
+
+                        <nav class="mobile-menu-nav" aria-label="Navegação móvel">
+                            <ul class="flex flex-col">
+                                <li><a href="#features">Funcionalidades</a></li>
+                                <li><a href="/docs/">Documentação</a></li>
+                                <li><a href="/changelog/">Changelog</a></li>
+                                <li><a href="privacidade/">Privacidade</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Video Overlay -->
+    <input type="checkbox" id="video-toggle" class="overlay-toggle" aria-hidden="true">
+    <div class="video-overlay overlay">
+        <label for="video-toggle" class="overlay-close" aria-label="Close video">
+            <img src="/lib/img/icn/xmark.svg" alt="x Mark Icon" width="32" height="32" loading="lazy" aria-hidden="true">
+        </label>
+        <div class="video-container">
+            <div class="wrapper">
+                <iframe src="https://www.youtube.com/embed/KRLS5tpmvJM?autoplay=1&mute=1&rel=0" title="App de Fotografia em Película para Registar os Seus Rolos (Frames para iPhone)" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+
+    <main class="wrapper">
+        <section class="hero" aria-labelledby="hero-heading">
+            <div class="hero-content flex flex-col gap-xl">
+                <h1 id="hero-heading">O caderno de fotografia essencial,<br>
+criado para fotógrafos analógicos.</h1>
+                <a href="https://apps.apple.com/pt/app/frames-metadados-foto/id6744063354" class="btn btn-md btn-light desktop-only" aria-label="Transferir Frames para macOS">
+                    <span>Transferir para macOS</span>
+                    <img src="/lib/img/icn/arrow-down-to-line.svg" alt="Download Icon" loading="lazy" aria-hidden="true">
+                </a>
+                <a href="https://apps.apple.com/pt/app/frames-anotações-fotográficas/id6744057317" class="btn btn-md btn-light mobile-only" aria-label="Transferir Frames para iOS">
+                    <span>Transferir para iOS</span>
+                    <img src="/lib/img/icn/arrow-down-to-line.svg" alt="Download Icon" loading="lazy" aria-hidden="true">
+                </a>
+            </div>
+
+            <figure class="hero-image tile container-ratio ratio-2-1">
+                <img src="/lib/img/pt/hero.webp"
+                    srcset="/lib/img/pt/hero.webp 1x, /lib/img/pt/hero@2x.webp 2x"
+                    alt="Frames app de fotografia analógica para Mac e iPhone, criada para registar rolos, gerir metadados e arquivar fotografias analógicas."
+                    width="1320" height="660" fetchpriority="high" class="mobile-hidden">
+                <img src="/lib/img/pt/hero-mobile.webp"
+                    srcset="/lib/img/pt/hero-mobile.webp 1x, /lib/img/pt/hero-mobile@2x.webp 2x"
+                    alt="Frames app de fotografia analógica para Mac e iPhone, criada para registar rolos, gerir metadados e arquivar fotografias analógicas."
+                    width="1320" height="990" fetchpriority="high" class="desktop-hidden">
+
+                <label for="video-toggle" class="play-btn" aria-label="Reproduzir demonstração em vídeo">
+                    <img src="/lib/img/icn/play.svg" alt="" width="36" height="36" aria-hidden="true">
+                </label>
+            </figure>
+
+            <aside class="hero-featured flex flex-col flex-center gap-xl" aria-label="Publicações em destaque">
+                <p class="featured-text">Em destaque na comunidade de fotografia.</p>
+
+                <div class="featured-logos flex flex-row">
+                    <img src="/lib/img/logo/petapixel.svg" alt="Petapixel" width="80" height="24">
+                    <img src="/lib/img/logo/35mmc.svg" alt="35mmc" width="56" height="24">
+                    <img src="/lib/img/logo/msn.svg" alt="MSN" width="61" height="24">
+                    <img src="/lib/img/logo/yahoo.svg" alt="Yahoo!" width="81" height="24">
+                    <img src="/lib/img/logo/youtube.svg" alt="Youtube" width="100" height="24">
+                    <img src="/lib/img/logo/jch.svg" alt="Japan Camera Hunter" width="55" height="24">
+                </div>
+            </aside>
+        </section>
+
+        <section class="preview grid grid-2col">
+            <figure class="tile container-ratio ratio-4-3">
+                <div class="tile-inner">
+                    <img src="/lib/img/pt/preview1.webp"
+                        srcset="/lib/img/pt/preview1.webp 1x, /lib/img/pt/preview1@2x.webp 2x"
+                        alt="Frames app de fotografia analógica com interface de registo com seleção de velocidade do obturador e abertura para capturar exposições."
+                        width="400" height="300" loading="lazy">
+                </div>
+            </figure>
+            <figure class="tile container-ratio ratio-4-3">
+                <div class="tile-inner">
+                    <img src="/lib/img/pt/preview2.webp"
+                        srcset="/lib/img/pt/preview2.webp 1x, /lib/img/pt/preview2@2x.webp 2x"
+                        alt="Frames app de fotografia analógica com opções detalhadas de metadados incluindo exposição, tipo de película, câmara, objetiva e condições de captura."
+                        width="400" height="300" loading="lazy">
+                </div>
+            </figure>
+            <figure class="tile container-ratio ratio-4-3">
+                <div class="tile-inner">
+                    <img src="/lib/img/pt/preview3.webp"
+                        srcset="/lib/img/pt/preview3.webp 1x, /lib/img/pt/preview3@2x.webp 2x"
+                        alt="Frames app de fotografia analógica no macOS com rolos organizados na vista de biblioteca ao navegar por pastas de fotografias analógicas."
+                        width="400" height="300" loading="lazy">
+                </div>
+            </figure>
+            <figure class="tile container-ratio ratio-4-3">
+                <div class="tile-inner">
+                    <img src="/lib/img/pt/preview4.webp"
+                        srcset="/lib/img/pt/preview4.webp 1x, /lib/img/pt/preview4@2x.webp 2x"
+                        alt="Frames app de fotografia analógica com definições de equipamento mostrando detalhes de câmara, objetiva e filtros para gerir equipamento fotográfico."
+                        width="400" height="300" loading="lazy">
+                </div>
+            </figure>
+            <figure class="tile container-ratio ratio-4-3">
+                <div class="tile-inner">
+                    <img src="/lib/img/shared/preview5.webp"
+                        srcset="/lib/img/shared/preview5.webp 1x, /lib/img/shared/preview5@2x.webp 2x"
+                        alt="Frames app de fotografia analógica exporta dados como ficheiros .frames, .txt ou .gpx para cópia de segurança e partilha de notas e metadados."
+                        width="400" height="300" loading="lazy">
+                </div>
+            </figure>
+            <figure class="tile container-ratio ratio-4-3">
+                <div class="tile-inner">
+                    <img src="/lib/img/shared/preview6.webp"
+                        srcset="/lib/img/shared/preview6.webp 1x, /lib/img/shared/preview6@2x.webp 2x"
+                        alt="Metadados Frames integrados com Finder, Adobe Lightroom, Adobe Bridge, Google Photos, Darktable e Flickr para fotógrafos analógicos."
+                        width="400" height="300" loading="lazy">
+                </div>
+            </figure>
+        </section>
+
+        <section class="reviews review-carousel" aria-label="Avaliações de clientes">
+            <input type="radio" name="review" id="review-1" checked aria-hidden="true">
+            <input type="radio" name="review" id="review-2" aria-hidden="true">
+            <input type="radio" name="review" id="review-3" aria-hidden="true">
+            <input type="radio" name="review" id="review-4" aria-hidden="true">
+            <input type="radio" name="review" id="review-5" aria-hidden="true">
+
+            <div class="grid grid-4col">
+
+                <!-- Review Content -->
+                <article class="review-card flex flex-col" data-review="0">
+                    <blockquote class="review-quote">
+                        <p>"Fácil de usar, fiável e app com preço justo que transfere dados de captura, incluindo geolocalização, para o EXIF de negativos digitalizados. O programador ouve o feedback e continua a melhorar. Excelente!"</p>
+                    </blockquote>
+
+                    <footer class="review-author flex flex-row flex-center gap-sm">
+                        <div class="btn btn-circle btn-secondary">
+                            <img src="/lib/img/shared/author1.webp"
+                                srcset="/lib/img/shared/author1.webp 1x, /lib/img/shared/author1@2x.webp 2x"
+                                alt="Maria Garcia"
+                                width="32" height="32" loading="lazy">
+                        </div>
+                        <div class="author-info flex flex-col">
+                            <cite class="author-name">Maria Garcia</cite>
+                            <time class="review-date" datetime="2025-07-12">12 de julho de 2025</time>
+                        </div>
+                    </footer>
+                </article>
+
+                <article class="review-card flex flex-col" data-review="1">
+                    <blockquote class="review-quote">
+                        <p>"Como fotógrafo de película que revela em casa, adoro como o Frames me permite registar cada exposição sem o incómodo de cadernos. É a solução perfeita e prática. Aderi ao Pro e nunca olhei para trás!"</p>
+                    </blockquote>
+
+                    <footer class="review-author flex flex-row flex-center gap-sm">
+                        <div class="btn btn-circle btn-secondary">
+                            <img src="/lib/img/shared/author2.webp"
+                                srcset="/lib/img/shared/author2.webp 1x, /lib/img/shared/author2@2x.webp 2x"
+                                alt="BHenriquez"
+                                width="32" height="32" loading="lazy">
+                        </div>
+                        <div class="author-info flex flex-col">
+                            <cite class="author-name">BHenriquez</cite>
+                            <time class="review-date" datetime="2025-05-08">8 de maio de 2025</time>
+                        </div>
+                    </footer>
+                </article>
+
+                <article class="review-card flex flex-col" data-review="2">
+                    <blockquote class="review-quote">
+                        <p>"Ótimo para registar exposição e localização ao fotografar em película, ideal para analisar definições ou manter dados tipo EXIF. O programador corrigiu um erro em um dia. Altamente recomendado!"</p>
+                    </blockquote>
+
+                    <footer class="review-author flex flex-row flex-center gap-sm">
+                        <div class="btn btn-circle btn-secondary">
+                            <img src="/lib/img/shared/author3.webp"
+                                srcset="/lib/img/shared/author3.webp 1x, /lib/img/shared/author3@2x.webp 2x"
+                                alt="Emma Richardson"
+                                width="32" height="32" loading="lazy">
+                        </div>
+                        <div class="author-info flex flex-col">
+                            <cite class="author-name">Emma Richardson</cite>
+                            <time class="review-date" datetime="2025-08-23">23 de agosto de 2025</time>
+                        </div>
+                    </footer>
+                </article>
+
+                <article class="review-card flex flex-col" data-review="3">
+                    <blockquote class="review-quote">
+                        <p>"Ao regressar à fotografia em película, sentia falta de metadados até encontrar o Frames. Substitui notas em papel, ajuda-me a manter-me organizado e mais consciente ao fotografar. Indispensável para fotógrafos de película!"</p>
+                    </blockquote>
+
+                    <footer class="review-author flex flex-row flex-center gap-sm">
+                        <div class="btn btn-circle btn-secondary">
+                            <img src="/lib/img/shared/author4.webp"
+                                srcset="/lib/img/shared/author4.webp 1x, /lib/img/shared/author4@2x.webp 2x"
+                                alt="Roger Nordstrom Photo"
+                                width="32" height="32" loading="lazy">
+                        </div>
+                        <div class="author-info flex flex-col">
+                            <cite class="author-name">Roger Nordstrom Photo</cite>
+                            <time class="review-date" datetime="2025-04-15">15 de abril de 2025</time>
+                        </div>
+                    </footer>
+                </article>
+
+                <article class="review-card flex flex-col" data-review="4">
+                    <blockquote class="review-quote">
+                        <p>"Nota-se que o programador também usa a app. Cada pequeno detalhe parece intencional e a interface é limpa e simples. Tudo funciona perfeitamente. Facilmente a melhor app de notas de película disponível!"</p>
+                    </blockquote>
+
+                    <footer class="review-author flex flex-row flex-center gap-sm">
+                        <div class="btn btn-circle btn-secondary">
+                            <img src="/lib/img/shared/author5.webp"
+                                srcset="/lib/img/shared/author5.webp 1x, /lib/img/shared/author5@2x.webp 2x"
+                                alt="James Anderson"
+                                width="32" height="32" loading="lazy">
+                        </div>
+                        <div class="author-info flex flex-col">
+                            <cite class="author-name">James Anderson</cite>
+                            <time class="review-date" datetime="2025-09-05">5 de setembro de 2025</time>
+                        </div>
+                    </footer>
+                </article>
+
+                <!-- Review Details & Navigation -->
+                <div class="review-details col-span-2-mobile flex flex-col flex-justify-between">
+                    <p>Criada com feedback da comunidade de fotografia em película para tornar o registo de dados claro e agradável.</p>
+
+                    <div class="review-footer flex flex-col gap-xl">
+                        <p>Junte-se a milhares de fotógrafos que trazem estrutura e perceção à sua experiência de fotografia em película com o Frames.</p>
+
+                        <nav class="review-navigation flex flex-row gap-sm" aria-label="Navegação de avaliações">
+                            <!-- Review 1 navigation: prev=5, next=2 -->
+                            <label for="review-5" class="btn btn-circle btn-dark" aria-label="Avaliação anterior">
+                                <img src="/lib/img/icn/arrow-left.svg" alt="" loading="lazy" aria-hidden="true">
+                            </label>
+                            <label for="review-2" class="btn btn-circle btn-dark" aria-label="Próxima avaliação">
+                                <img src="/lib/img/icn/arrow-right.svg" alt="" loading="lazy" aria-hidden="true">
+                            </label>
+                            <!-- Review 2 navigation: prev=1, next=3 -->
+                            <label for="review-1" class="btn btn-circle btn-dark" aria-label="Avaliação anterior">
+                                <img src="/lib/img/icn/arrow-left.svg" alt="" loading="lazy" aria-hidden="true">
+                            </label>
+                            <label for="review-3" class="btn btn-circle btn-dark" aria-label="Próxima avaliação">
+                                <img src="/lib/img/icn/arrow-right.svg" alt="" loading="lazy" aria-hidden="true">
+                            </label>
+                            <!-- Review 3 navigation: prev=2, next=4 -->
+                            <label for="review-2" class="btn btn-circle btn-dark" aria-label="Avaliação anterior">
+                                <img src="/lib/img/icn/arrow-left.svg" alt="" loading="lazy" aria-hidden="true">
+                            </label>
+                            <label for="review-4" class="btn btn-circle btn-dark" aria-label="Próxima avaliação">
+                                <img src="/lib/img/icn/arrow-right.svg" alt="" loading="lazy" aria-hidden="true">
+                            </label>
+                            <!-- Review 4 navigation: prev=3, next=5 -->
+                            <label for="review-3" class="btn btn-circle btn-dark" aria-label="Avaliação anterior">
+                                <img src="/lib/img/icn/arrow-left.svg" alt="" loading="lazy" aria-hidden="true">
+                            </label>
+                            <label for="review-5" class="btn btn-circle btn-dark" aria-label="Próxima avaliação">
+                                <img src="/lib/img/icn/arrow-right.svg" alt="" loading="lazy" aria-hidden="true">
+                            </label>
+                            <!-- Review 5 navigation: prev=4, next=1 -->
+                            <label for="review-4" class="btn btn-circle btn-dark" aria-label="Avaliação anterior">
+                                <img src="/lib/img/icn/arrow-left.svg" alt="" loading="lazy" aria-hidden="true">
+                            </label>
+                            <label for="review-1" class="btn btn-circle btn-dark" aria-label="Próxima avaliação">
+                                <img src="/lib/img/icn/arrow-right.svg" alt="" loading="lazy" aria-hidden="true">
+                            </label>
+                        </nav>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="features" aria-labelledby="features-heading">
+            <h2 id="features-heading">Funcionalidades</h2>
+            <div class="features grid grid-4col">
+                <article class="feature tile container-ratio ratio-1-1">
+                    <div class="feature-inner flex flex-col flex-justify-between">
+                        <header class="feature-header flex flex-col gap-xs">
+                            <span class="feature-label">Arquivo</span>
+                            <h3>Organizar Biblioteca</h3>
+                        </header>
+                        <p>Navegue, organize e gira todos os seus rolos sem esforço, com cada sessão claramente estruturada, fácil de encontrar e perfeitamente organizada.</p>
+                    </div>
+                </article>
+
+                <article class="feature tile container-ratio ratio-1-1">
+                    <div class="feature-inner flex flex-col flex-justify-between">
+                        <header class="feature-header flex flex-col gap-xs">
+                            <span class="feature-label">Equipamento</span>
+                            <h3>Gerir Equipamento</h3>
+                        </header>
+                        <p>Mantenha um registo detalhado das suas câmaras, objetivas e filtros para manter consistência e ter toda a informação pronta para cada sessão fotográfica.</p>
+                    </div>
+                </article>
+
+                <article class="feature tile container-ratio ratio-1-1">
+                    <div class="feature-inner flex flex-col flex-justify-between">
+                        <header class="feature-header flex flex-col gap-xs">
+                            <span class="feature-label">Captura</span>
+                            <h3>Capturar Definições</h3>
+                        </header>
+                        <p>Registe diretamente abertura, velocidade do obturador, tipo de película e dados de localização para cada fotograma, mantendo todas as informações precisas e acessíveis.</p>
+                    </div>
+                </article>
+
+                <article class="feature tile container-ratio ratio-1-1">
+                    <div class="feature-inner flex flex-col flex-justify-between">
+                        <header class="feature-header flex flex-col gap-xs">
+                            <span class="feature-label">Histórico</span>
+                            <h3>Rever Capturas</h3>
+                        </header>
+                        <p>Consulte os seus rolos registados para verificar definições, analisar sessões anteriores, aprender com a experiência e refinar o seu processo criativo.</p>
+                    </div>
+                </article>
+
+                <article class="feature tile container-ratio ratio-1-1">
+                    <div class="feature-inner flex flex-col flex-justify-between">
+                        <header class="feature-header flex flex-col gap-xs">
+                            <span class="feature-label">Exportações</span>
+                            <h3>Exportar Dados</h3>
+                        </header>
+                        <p>Guarde ou partilhe os seus dados como ficheiros .frames, .txt ou .gpx para cópia de segurança, partilha ou integração com outras apps e processos de trabalho.</p>
+                    </div>
+                </article>
+
+                <article class="feature tile container-ratio ratio-1-1">
+                    <div class="feature-inner flex flex-col flex-justify-between">
+                        <header class="feature-header flex flex-col gap-xs">
+                            <span class="feature-label">Metadados</span>
+                            <h3>Guardar Metadados</h3>
+                        </header>
+                        <p>Adicione todos os dados registados às imagens digitalizadas para preservar informação analógica enquanto mantém o seu arquivo digital completamente sincronizado.</p>
+                    </div>
+                </article>
+
+                <article class="feature tile container-ratio ratio-1-1">
+                    <div class="feature-inner flex flex-col flex-justify-between">
+                        <header class="feature-header flex flex-col gap-xs">
+                            <span class="feature-label">Suporte</span>
+                            <h3>Suporte por Email</h3>
+                        </header>
+                        <p>Contacte diretamente o programador para assistência, partilhe feedback ou sugira novas funcionalidades e melhorias, com respostas rápidas e atentas.</p>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section aria-labelledby="pricing-heading">
+            <h2 id="pricing-heading">Preços</h2>
+            <div class="pricing grid grid-4col">
+                <article class="tile container-ratio ratio-3-4 pricing-card">
+                    <div class="pricing-inner flex flex-col flex-justify-between">
+                        <div class="pricing-header flex flex-col gap-lg">
+                            <header class="flex flex-col gap-xs">
+                                <h3 class="pricing-title">iOS</h3>
+                                <div class="pricing-amount">
+                                    <span class="price">1,99 €</span><span class="price-period">/mês</span>
+                                </div>
+                            </header>
+
+                            <p class="pricing-label">Inclui:</p>
+
+                            <ul class="pricing-features flex flex-col gap-xs">
+                                <li class="flex flex-row gap-xs">
+                                    <span class="checkmark">✓</span>
+                                    Rolos ilimitados
+                                </li>
+                                <li class="flex flex-row gap-xs">
+                                    <span class="checkmark">✓</span>
+                                    Subpastas
+                                </li>
+                                <li class="flex flex-row gap-xs">
+                                    <span class="checkmark">✓</span>
+                                    Exportar dados como .frames
+                                </li>
+                                <li class="flex flex-row gap-xs">
+                                    <span class="checkmark">✓</span>
+                                    Exportar dados como .txt ou .gpx
+                                </li>
+                            </ul>
+                        </div>
+
+                        <footer class="pricing-action">
+                            <a href="https://apps.apple.com/pt/app/frames-anotações-fotográficas/id6744057317" class="btn btn-md btn-light">Experimentar Gratuitamente</a>
+                        </footer>
+                    </div>
+                </article>
+
+                <article class="tile container-ratio ratio-3-4 pricing-card">
+                    <div class="pricing-inner flex flex-col flex-justify-between">
+                        <div class="pricing-header flex flex-col gap-lg">
+                            <header class="flex flex-col gap-xs">
+                                <h3 class="pricing-title">macOS</h3>
+                                <div class="pricing-amount">
+                                    <span class="price">1,99 €</span><span class="price-period">/mês</span>
+                                </div>
+                            </header>
+
+                            <p class="pricing-label">Inclui:</p>
+
+                            <ul class="pricing-features flex flex-col gap-xs">
+                                <li class="flex flex-row gap-xs">
+                                    <span class="checkmark">✓</span>
+                                    Guardar metadados em fotografias
+                                </li>
+                            </ul>
+                        </div>
+
+                        <footer class="pricing-action">
+                            <a href="https://apps.apple.com/pt/app/frames-metadados-foto/id6744063354" class="btn btn-md btn-secondary">Experimentar Gratuitamente</a>
+                        </footer>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section class="qa grid grid-2col" aria-labelledby="qa-heading">
+            <h2 id="qa-heading">Perguntas &amp; Respostas</h2>
+
+            <div class="qa-content flex flex-col">
+                <details>
+                    <summary class="flex flex-justify-between">
+                        <h3>Que metadados posso registar?</h3>
+                        <div class="details-icon flex flex-center flex-justify-center" aria-hidden="true">
+                            <img src="/lib/img/icn/chevron-down.svg" alt="" loading="lazy">
+                        </div>
+                    </summary>
+                    <p>O Frames permite registar informação detalhada para cada exposição, incluindo câmara, objetiva, filtros, número do fotograma, distância focal, abertura, velocidade do obturador, ISO, modo de medição, tipo de película, flash, localização GPS, timestamps e notas personalizadas, garantindo que nunca perde detalhes importantes da sua fotografia analógica.</p>
+                </details>
+
+                <details>
+                    <summary class="flex flex-justify-between">
+                        <h3>Que formatos de imagem são suportados?</h3>
+                        <div class="details-icon flex flex-center flex-justify-center" aria-hidden="true">
+                            <img src="/lib/img/icn/chevron-down.svg" alt="" loading="lazy">
+                        </div>
+                    </summary>
+                    <p>O Frames suporta formatos JPEG, TIFF e DNG, permitindo incorporar os seus metadados registados diretamente em fotografias analógicas digitalizadas para organização e fluxo de trabalho perfeitos em todos os seus dispositivos.</p>
+                </details>
+
+                <details>
+                    <summary class="flex flex-justify-between">
+                        <h3>O Frames está disponível para Android ou Windows?</h3>
+                        <div class="details-icon flex flex-center flex-justify-center" aria-hidden="true">
+                            <img src="/lib/img/icn/chevron-down.svg" alt="" loading="lazy">
+                        </div>
+                    </summary>
+                    <p>O Frames está atualmente disponível para iPhone e macOS. Versões para Android e Windows estão planeadas para 2026 e, entretanto, pode partilhar e gerir os seus dados através de exportações de ficheiros .frames.</p>
+                </details>
+
+                <details>
+                    <summary class="flex flex-justify-between">
+                        <h3>Que velocidades do obturador e aberturas são suportadas?</h3>
+                        <div class="details-icon flex flex-center flex-justify-center" aria-hidden="true">
+                            <img src="/lib/img/icn/chevron-down.svg" alt="" loading="lazy">
+                        </div>
+                    </summary>
+                    <p>O Frames oferece sequências predefinidas que cobrem a maioria das objetivas e câmaras, e pode também definir sequências personalizadas para o seu equipamento, tornando-o compatível com qualquer velocidade do obturador ou valor de abertura.</p>
+                </details>
+
+                <details>
+                    <summary class="flex flex-justify-between">
+                        <h3>Posso registar tripés ou acessórios?</h3>
+                        <div class="details-icon flex flex-center flex-justify-center" aria-hidden="true">
+                            <img src="/lib/img/icn/chevron-down.svg" alt="" loading="lazy">
+                        </div>
+                    </summary>
+                    <p>Sim, o Frames permite registar tripés, flashes e outros acessórios. Existe também um campo de notas extra onde pode adicionar qualquer detalhe personalizado que desejar.</p>
+                </details>
+
+                <details>
+                    <summary class="flex flex-justify-between">
+                        <h3>Quais são os planos para futuras atualizações?</h3>
+                        <div class="details-icon flex flex-center flex-justify-center" aria-hidden="true">
+                            <img src="/lib/img/icn/chevron-down.svg" alt="" loading="lazy">
+                        </div>
+                    </summary>
+                    <p>Os planos futuros incluem expandir funcionalidades de fluxo de trabalho, melhorar a integração entre dispositivos e adicionar novas ferramentas solicitadas pela comunidade para tornar o registo de fotografia analógica ainda mais flexível e poderoso.</p>
+                </details>
+            </div>
+        </section>
+
+        <section class="contact tile container-ratio ratio-2-1" aria-labelledby="contact-heading">
+            <div class="contact-inner flex flex-col flex-center flex-justify-center">
+                <h2 id="contact-heading">Queremos ouvir as suas ideias e pensamentos.</h2>
+                <a href="mailto:&#104;&#105;&#64;&#119;&#105;&#116;&#104;&#102;&#114;&#97;&#109;&#101;&#115;&#46;&#99;&#111;&#109;" class="btn btn-md btn-secondary">Envie-nos um email</a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="main-footer wrapper flex flex-col gap-6xl">
+        <div class="footer-links grid grid-4col">
+            <img src="/lib/img/logo/frames.svg" alt="Frames">
+            <ul class="flex flex-col gap-sm">
+                <li><h3>Ligar</h3></li>
+                <li><a href="https://www.instagram.com/with_frames/" target="_blank" rel="noopener noreferrer">Instagram</a></li>
+                <li><a href="https://www.threads.net/@with_frames" target="_blank" rel="noopener noreferrer">Threads</a></li>
+                <li><a href="https://www.facebook.com/framesapp" target="_blank" rel="noopener noreferrer">Facebook</a></li>
+                <li><a href="https://bsky.app/profile/withframes.bsky.social" target="_blank" rel="noopener noreferrer">Bluesky</a></li>
+                <li><a href="https://mastodon.social/@frames" target="_blank" rel="noopener noreferrer">Mastodon</a></li>
+                <li><a href="https://twitter.com/withframes" target="_blank" rel="noopener noreferrer">Twitter</a></li>
+            </ul>
+            <ul class="flex flex-col gap-sm">
+                <li><h3>Recursos</h3></li>
+                <li><a href="privacidade/">Política de Privacidade</a></li>
+                <li><a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/" target="_blank" rel="noopener noreferrer">Termos de Serviço</a></li>
+                <li><a href="/docs/">Documentação</a></li>
+                <li><a href="/changelog/">Changelog</a></li>
+                <li><a href="https://www.youtube.com/@withframes" target="_blank" rel="noopener noreferrer">Youtube</a></li>
+            </ul>
+            <ul class="flex flex-col gap-sm">
+                <li><h3>Produto</h3></li>
+                <li><a href="https://apps.apple.com/pt/app/frames-anotações-fotográficas/id6744057317">Frames iOS</a></li>
+                <li><a href="https://apps.apple.com/pt/app/frames-metadados-foto/id6744063354">Frames macOS</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-bottom flex flex-row flex-justify-between flex-center">
+            <p>© 2025 Vincent Tantardini. <span class="mobile-hidden">Todos os direitos reservados.</span></p>
+
+                <div class="dropdown">
+                    <input type="checkbox" class="dropdown-toggle" id="lang-toggle">
+
+                    <label for="lang-toggle" class="dropdown-button btn btn-sm btn-dark">
+                        <img src="/lib/img/icn/globe.svg" alt="Globe Icon" loading="lazy">
+                        <span>Português</span>
+                        <img src="/lib/img/icn/chevron-down-sm.svg" alt="Chevron Down" width="10" height="12" loading="lazy">
+                    </label>
+
+                    <ul class="dropdown-content dropdown-dir-top" role="menu">
                         <li>
                             <a role="menuitem" href="/">
                                 <span>English</span>
-                                
-                            </a>
-                        </li>
-                        <li>
-                            <a role="menuitem" href="/es/">
-                                <span>Español</span>
-                                
                             </a>
                         </li>
                         <li>
                             <a role="menuitem" href="/fr/">
                                 <span>Français</span>
-                                
                             </a>
                         </li>
                         <li>
-                            <a role="menuitem" href="/hi/">
-                                <span>हिन्दी</span>
-                                
+                            <a role="menuitem" href="/de/">
+                                <span>Deutsch</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a role="menuitem" href="/es/">
+                                <span>Español</span>
                             </a>
                         </li>
                         <li>
                             <a role="menuitem" href="/it/">
                                 <span>Italiano</span>
-                                
-                            </a>
-                        </li>
-                        <li>
-                            <a role="menuitem" href="/ja/">
-                                <span>日本語</span>
-                                
-                            </a>
-                        </li>
-                        <li>
-                            <a role="menuitem" href="/ko/">
-                                <span>한국어</span>
-                                
                             </a>
                         </li>
                         <li>
                             <a role="menuitem" href="/nl/">
                                 <span>Nederlands</span>
-                                
-                            </a>
-                        </li>
-                        <li>
-                            <a role="menuitem" href="/pl/">
-                                <span>Polski</span>
-                                
                             </a>
                         </li>
                         <li>
                             <a role="menuitem" href="/pt/">
                                 <span>Português</span>
-                                
                                 <span>✓</span>
-                                
+                            </a>
+                        </li>
+                        <li>
+                            <a role="menuitem" href="/ja/">
+                                <span>日本語</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a role="menuitem" href="/ko/">
+                                <span>한국어</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a role="menuitem" href="/hi/">
+                                <span>हिन्दी</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a role="menuitem" href="/pl/">
+                                <span>Polski</span>
                             </a>
                         </li>
                         <li>
                             <a role="menuitem" href="/ru/">
                                 <span>Русский</span>
-                                
                             </a>
                         </li>
                         <li>
                             <a role="menuitem" href="/sv/">
                                 <span>Svenska</span>
-                                
                             </a>
                         </li>
                         <li>
                             <a role="menuitem" href="/th/">
-                                <span>ภาษาไทย</span>
-                                
+                                <span>ไทย</span>
                             </a>
                         </li>
                         <li>
                             <a role="menuitem" href="/tr/">
                                 <span>Türkçe</span>
-                                
                             </a>
                         </li>
                         <li>
                             <a role="menuitem" href="/zh/">
                                 <span>简体中文</span>
-                                
                             </a>
                         </li>
                     </ul>
                 </div>
-            </li>
-        </ul>
+        </div>
     </footer>
-    <script defer src="/library/js/load_schema-pt.js" fetchpriority="low"></script>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const schemaFiles = [
+                '/lib/schema/pt/frames.json',
+                '/lib/schema/pt/faq.json'
+            ];
+
+            schemaFiles.forEach((url) => {
+                fetch(url)
+                    .then(response => {
+                        if (!response.ok) {
+                            throw new Error(`Failed to fetch ${url}: ${response.status}`);
+                        }
+                        return response.json(); // Parse as JSON
+                    })
+                    .then(jsonData => {
+                        const script = document.createElement('script');
+                        script.type = 'application/ld+json';
+                        script.textContent = JSON.stringify(jsonData); // Convert back to string
+                        document.head.appendChild(script);
+                        console.log(`Successfully injected JSON-LD from ${url}`);
+                    })
+                    .catch(error => {
+                        console.error('Error injecting JSON-LD:', error);
+                    });
+            });
+        });
+
+    // Video overlay - reload iframe to stop video when closing
+    document.getElementById('video-toggle').addEventListener('change', function(e) {
+        if (!e.target.checked) {
+            const iframe = document.querySelector('.video-container iframe');
+            const src = iframe.src;
+            iframe.src = src;
+        }
+    });
+
+    function toggleShareMenu() {
+      const menu = document.getElementById('shareMenu');
+      menu.classList.toggle('active');
+    }
+
+    function shareOn(platform) {
+      const url = encodeURIComponent(window.location.href);
+      const title = encodeURIComponent(document.title);
+      const text = encodeURIComponent('Frames é uma app de fotografia analógica. Registe cada exposição, acompanhe definições, organize rolos e guarde metadados EXIF no iPhone &amp; Mac.');
+      
+      let shareUrl = '';
+
+      switch(platform) {
+        case 'facebook':
+          shareUrl = `https://www.facebook.com/sharer/sharer.php?u=${url}`;
+          break;
+        case 'twitter':
+          shareUrl = `https://twitter.com/intent/tweet?url=${url}&text=${text}`;
+          break;
+        case 'linkedin':
+          shareUrl = `https://www.linkedin.com/sharing/share-offsite/?url=${url}`;
+          break;
+        case 'whatsapp':
+          shareUrl = `https://wa.me/?text=${text}%20${url}`;
+          break;
+        case 'reddit':
+          shareUrl = `https://reddit.com/submit?url=${url}&title=${title}`;
+          break;
+        case 'email':
+          shareUrl = `mailto:?subject=${title}&body=${text}%20${url}`;
+          break;
+      }
+
+      if (shareUrl) {
+        window.open(shareUrl, '_blank', 'width=600,height=400');
+      }
+    }
+  </script>
 </body>
+
 </html>

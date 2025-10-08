@@ -1,0 +1,46 @@
+{
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Welke metagegevens kan ik vastleggen?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Frames laat je gedetailleerde informatie vastleggen voor elke opname, inclusief camera, lens, filters, framenummer, brandpuntsafstand, diafragma, sluitertijd, ISO, belichtingsmeting, filmsoort, flitser, GPS-locatie, tijdstempels en eigen notities, zodat je nooit belangrijke details van je analoge fotografie kwijtraakt."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Welke afbeeldingsformaten worden ondersteund?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Frames ondersteunt JPEG, TIFF en DNG formaten, waardoor je je geregistreerde metagegevens direct kunt toevoegen aan gescande analoge foto's voor naadloze organisatie en workflow op al je apparaten."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Frames beschikbaar voor Android of Windows?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Frames is momenteel beschikbaar voor iPhone en macOS. Versies voor Android en Windows zijn gepland voor 2026, en in de tussentijd kun je je gegevens delen en beheren via .frames bestandsexporten."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Welke sluitertijden en diafragma's worden ondersteund?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Frames biedt standaardreeksen die de meeste lenzen en camera's dekken, en je kunt ook aangepaste reeksen definiëren voor je eigen apparatuur, waardoor het compatibel is met elke sluitertijd of diafragmawaarde."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Kan ik statieven of accessoires vastleggen?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ja, Frames laat je statieven, flitsers en andere accessoires vastleggen. Er is ook een extra notitieveld waar je elk gewenst detail kunt toevoegen."
+          }
+        }
+      ]
+    }

@@ -1,0 +1,44 @@
+@use 'mixins' as *;
+
+/* Header */
+.main-header {
+    position: sticky;
+    top: 0;
+    background: var(--color-background);
+    font-size: var(--font-size-sm);
+    z-index: 100;
+}
+
+.container-header {
+  height: 3.375rem; /* 54px */
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  align-items: center;
+ 
+  .leading { justify-self: start; align-items: center; }
+  .center { justify-self: center; align-items: center;}
+  .trailing { justify-self: end; align-items: center; }
+
+  @include tablet-down {
+    grid-template-columns: 1fr auto;
+  }
+}
+
+.logo {
+  text-transform: uppercase;
+}
+
+.navigation {
+  a {
+    height: 2.125rem; /* 34px */
+    padding: 0 var(--spacing-lg); /* 16px */
+
+    &:hover {
+        opacity: 0.82;
+    }
+  }
+
+  @include tablet-down {
+    display: none;
+  }
+}

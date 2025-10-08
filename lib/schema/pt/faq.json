@@ -1,0 +1,46 @@
+{
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Que metadados posso registar?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "O Frames permite registar informação detalhada para cada exposição, incluindo câmara, objetiva, filtros, número do fotograma, distância focal, abertura, velocidade do obturador, ISO, modo de medição, tipo de película, flash, localização GPS, timestamps e notas personalizadas, garantindo que nunca perde detalhes importantes da sua fotografia analógica."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Que formatos de imagem são suportados?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "O Frames suporta formatos JPEG, TIFF e DNG, permitindo incorporar os seus metadados registados diretamente em fotografias analógicas digitalizadas para organização e fluxo de trabalho perfeitos em todos os seus dispositivos."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "O Frames está disponível para Android ou Windows?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "O Frames está atualmente disponível para iPhone e macOS. Versões para Android e Windows estão planeadas para 2026 e, entretanto, pode partilhar e gerir os seus dados através de exportações de ficheiros .frames."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Que velocidades do obturador e aberturas são suportadas?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "O Frames oferece sequências predefinidas que cobrem a maioria das objetivas e câmaras, e pode também definir sequências personalizadas para o seu equipamento, tornando-o compatível com qualquer velocidade do obturador ou valor de abertura."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Posso registar tripés ou acessórios?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sim, o Frames permite registar tripés, flashes e outros acessórios. Existe também um campo de notas extra onde pode adicionar qualquer detalhe personalizado que desejar."
+          }
+        }
+      ]
+    }

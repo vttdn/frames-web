@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="{{ lang }}">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="referrer" content="origin" />
+  <link rel="canonical" href="{{ locale_data.privacy.meta.canonical_url }}" />
+  {% for link in hreflang_links %}
+  <link rel="alternate" hreflang="{{ link.hreflang }}" href="{{ link.href }}" />
+  {% endfor %}
+
+  <title>{{ locale_data.privacy.meta.title }}</title>
+  <meta name="description" content="{{ locale_data.privacy.meta.description }}" />
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="{{ locale_data.meta.twitter_card }}" />
+  <meta name="twitter:site" content="{{ locale_data.meta.twitter_site }}" />
+  <meta name="twitter:creator" content="{{ locale_data.meta.twitter_creator }}" />
+  <meta name="twitter:title" content="{{ locale_data.privacy.meta.title }}" />
+  <meta name="twitter:description" content="{{ locale_data.privacy.meta.description }}" />
+  <meta name="twitter:image"
+    content="{{ locale_data.privacy.meta.canonical_url|replace('/privacy/', '') }}/og-image.jpg" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="{{ locale_data.meta.og_type }}" />
+  <meta property="og:site_name" content="{{ locale_data.meta.og_site_name }}" />
+  <meta property="og:title" content="{{ locale_data.privacy.meta.title }}" />
+  <meta property="og:description" content="{{ locale_data.privacy.meta.description }}" />
+  <meta property="og:url" content="{{ locale_data.privacy.meta.canonical_url }}" />
+  <meta property="og:image"
+    content="{{ locale_data.privacy.meta.canonical_url|replace('/privacy/', '') }}/og-image.jpg" />
+  <meta property="og:locale" content="{{ locale_data.meta.locale }}" />
+
+  <!-- ICO (legacy) + SVG (modern) -->
+  <link rel="icon" href="/favicon.ico" sizes="32x32">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+
+  <meta name="apple-itunes-app" content="app-id={{ global_config.apple_itunes_app_id }}" />
+
+  <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "@id": "{{ locale_data.privacy.meta.canonical_url }}",
+        "url": "{{ locale_data.privacy.meta.canonical_url }}",
+        "name": "{{ locale_data.privacy.meta.title }}",
+        "description": "{{ locale_data.privacy.meta.description }}",
+        "inLanguage": "{{ lang }}",
+        "dateModified": "{{ locale_data.privacy.last_updated_iso }}",
+        "publisher": {
+          "@id": "{{ locale_data.meta.canonical_url }}#organization"
+        }
+      }
+    </script>
+
+  <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "{{ locale_data.meta.title }}",
+            "item": "{{ locale_data.meta.canonical_url }}"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "{{ locale_data.privacy.meta.title }}",
+            "item": "{{ locale_data.privacy.meta.canonical_url }}"
+          }
+        ]
+      }
+    </script>
+
+  <style>
+    body {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+      line-height: 1.5;
+      padding: 20px;
+      padding: 0 1rem;
+      color: #D9D9D9;
+      background-color: black;
+      font-size: 1.125rem;
+      line-height: 1.7;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+
+    *,
+    *::before,
+    *::after {
+        box-sizing: border-box;
+    }
+
+    main {
+      max-width: 36rem;
+      margin: 7.5rem auto;
+    }
+
+    a {
+      text-decoration: none;
+      font-weight: 600;
+      color: inherit;
+    }
+
+    .last-updated {
+      color: #646464;
+      line-height: 1.5;
+      font-size: 0.875rem;
+    }
+
+    .divider {
+      background-color: rgb(27, 27, 27);
+      height: 1px;
+      margin-top: 2rem;
+      margin-bottom: 2rem;
+    }
+
+    h1 {
+      font-weight: 400;
+      font-size: 2.5rem;
+      line-height: 2.75rem;
+      font-weight: 400;
+      color: #ececed;
+    }
+
+    .sr-only {
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      margin: -1px;
+      padding: 0;
+      border: 0;
+      clip: rect(0, 0, 0, 0);
+      overflow: hidden;
+    }
+
+    .logo {
+      position: absolute;
+      top: 1rem;
+      left: 1rem;
+    }
+  </style>
+</head>
+
+<body itemscope itemtype="https://schema.org/WebPage">
+  <meta itemprop="name" content="{{ locale_data.privacy.meta.title }}" />
+  <meta itemprop="description" content="{{ locale_data.privacy.meta.description }}" />
+  <meta itemprop="inLanguage" content="{{ lang }}" />
+  <meta itemprop="dateModified" content="{{ locale_data.privacy.last_updated_iso }}" />
+
+  <header>
+    <a href="{{ lang_config.path }}" rel="home" title="{{ locale_data.meta.title }}" class="logo">
+      <img src="/lib/img/logo/frames.svg" alt="{{ locale_data.footer.logo_alt }}" width="48" height="48">
+    </a>
+  </header>
+
+  <main role="main">
+    <article aria-labelledby="privacy-heading">
+      <header>
+        <h1 id="privacy-heading" itemprop="headline">{{ locale_data.privacy.heading }}</h1>
+      </header>
+
+      <section>
+        <h2  class="sr-only">{{ locale_data.privacy.section1.heading }}</h2>
+        <p>{{ locale_data.privacy.section1.paragraph1 }}</p>
+        <p>{{ locale_data.privacy.section1.paragraph2 }}</p>
+      </section>
+
+      <section>
+        <h2 class="sr-only">{{ locale_data.privacy.section2.heading }}</h2>
+        <div>
+          <p>
+            {{ locale_data.privacy.section2.paragraph1 }}
+            <a
+              href="mailto:&#104;&#105;&#64;&#119;&#105;&#116;&#104;&#102;&#114;&#97;&#109;&#101;&#115;&#46;&#99;&#111;&#109;">&#104;&#105;&#64;&#119;&#105;&#116;&#104;&#102;&#114;&#97;&#109;&#101;&#115;&#46;&#99;&#111;&#109;</a>.
+          </p>
+      </section>
+
+      <footer>
+        <div class="divider" role="presentation"></div>
+
+        <p class="last-updated">
+          {{ locale_data.privacy.last_updated_label }}: {{ locale_data.privacy.last_updated }}
+        </p>
+        </div>
+
+      </footer>
+    </article>
+  </main>
+</body>
+
+</html>

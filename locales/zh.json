@@ -1,0 +1,296 @@
+{
+  "meta": {
+    "title": "Frames – 胶片摄影笔记和元数据应用",
+    "description": "Frames 是为胶片摄影师设计的应用。记录每张照片，追踪相机设置，整理胶卷，在 iPhone 和 Mac 上保存 EXIF 元数据。",
+    "locale": "zh_CN",
+    "canonical_url": "https://withframes.com/zh/",
+    "lang": "zh",
+    "twitter_card": "summary_large_image",
+    "twitter_site": "@withframes",
+    "twitter_creator": "@withframes",
+    "og_type": "website",
+    "og_site_name": "Frames"
+  },
+  "header": {
+    "logo_text": "Frames",
+    "logo_aria_label": "Frames 主页",
+    "navigation": {
+      "aria_label": "主导航",
+      "features": "功能特性",
+      "documentation": "文档",
+      "changelog": "更新日志"
+    },
+    "buttons": {
+      "share": "分享",
+      "download": "下载"
+    }
+  },
+  "share_dropdown": {
+    "facebook": "Facebook",
+    "twitter": "Twitter / X",
+    "linkedin": "LinkedIn",
+    "whatsapp": "WhatsApp",
+    "reddit": "Reddit",
+    "email": "电子邮件"
+  },
+  "mobile_menu": {
+    "open_aria_label": "打开移动菜单",
+    "close_aria_label": "关闭移动菜单",
+    "navigation_aria_label": "移动导航",
+    "features": "功能特性",
+    "documentation": "文档",
+    "changelog": "更新日志",
+    "privacy": "隐私"
+  },
+  "hero": {
+    "heading": "完美的摄影笔记本，<br>\n专为胶片摄影师设计。",
+    "button_macos_text": "下载 macOS 版",
+    "button_macos_aria_label": "下载 Frames macOS 版",
+    "button_ios_text": "下载 iOS 版",
+    "button_ios_aria_label": "下载 Frames iOS 版",
+    "play_button_aria_label": "播放演示视频",
+    "images": {
+      "hero": {
+        "src": "/lib/img/zh/hero.png",
+        "alt": "Frames 胶片摄影应用，适用于 Mac 和 iPhone，专为记录胶卷、管理元数据和归档胶片照片而设计。"
+      },
+      "hero_mobile": {
+        "src": "/lib/img/zh/hero-mobile.png",
+        "alt": "Frames 胶片摄影应用，适用于 Mac 和 iPhone，专为记录胶卷、管理元数据和归档胶片照片而设计。"
+      }
+    },
+    "featured": {
+      "aria_label": "特色出版物",
+      "text": "在摄影社区中广受好评。"
+    }
+  },
+  "preview": {
+    "images": {
+      "preview1": {
+        "src": "/lib/img/zh/preview1.png",
+        "alt": "Frames 胶片摄影应用展示了记录界面，可选择快门速度和光圈以记录胶片曝光。"
+      },
+      "preview2": {
+        "src": "/lib/img/zh/preview2.png",
+        "alt": "Frames 胶片摄影应用显示详细的元数据选项，包括曝光、胶片类型、相机、镜头和拍摄条件。"
+      },
+      "preview3": {
+        "src": "/lib/img/zh/preview3.png",
+        "alt": "macOS 上的 Frames 胶片摄影应用在浏览胶片照片文件夹时，在图库视图中显示有序的胶卷。"
+      },
+      "preview4": {
+        "src": "/lib/img/zh/preview4.png",
+        "alt": "Frames 胶片摄影应用展示设备设置，包含相机、镜头和滤镜详情，用于管理胶片摄影设备。"
+      },
+      "preview5": {
+        "src": "/lib/img/zh/preview5.png",
+        "alt": "Frames 胶片摄影应用将数据导出为 .frames、.txt 或 .gpx 文件，用于备份和分享胶片摄影记录与元数据。"
+      },
+      "preview6": {
+        "src": "/lib/img/zh/preview6.png",
+        "alt": "Frames 胶片摄影应用元数据与 Finder、Adobe Lightroom、Adobe Bridge、Google Photos、Darktable 和 Flickr 集成，服务于胶片摄影师。"
+      }
+    }
+  },
+  "reviews": {
+    "aria_label": "用户评价",
+    "review1": {
+      "quote": "易于使用、可靠且价格合理的应用，可将拍摄数据（包括地理位置）传输到扫描底片的 EXIF 中。开发者倾听反馈并不断改进。非常棒！",
+      "author_name": "Maria Garcia",
+      "date": "2025年7月12日",
+      "datetime": "2025-07-12"
+    },
+    "review2": {
+      "quote": "作为在家冲洗胶片的摄影师，我喜欢 Frames 让我记录每张照片而不用麻烦地使用笔记本。这是完美而实用的解决方案。升级到 Pro 后再也没有回头！",
+      "author_name": "BHenriquez",
+      "date": "2025年5月8日",
+      "datetime": "2025-05-08"
+    },
+    "review3": {
+      "quote": "非常适合在拍摄胶片时记录曝光和位置，适合分析设置或保留类似 EXIF 的数据。开发者在一天内修复了一个错误。强烈推荐！",
+      "author_name": "Emma Richardson",
+      "date": "2025年8月23日",
+      "datetime": "2025-08-23"
+    },
+    "review4": {
+      "quote": "当我重新开始拍摄胶片时，我怀念元数据，直到找到 Frames。它取代了纸质笔记，帮助我保持井然有序，让我在拍摄时更加用心。胶片摄影师的必备工具！",
+      "author_name": "Roger Nordstrom Photo",
+      "date": "2025年4月15日",
+      "datetime": "2025-04-15"
+    },
+    "review5": {
+      "quote": "你可以看出开发者自己也在使用这个应用。每一个小细节都感觉很用心，界面干净简洁。一切运行流畅。绝对是最好的胶片笔记应用！",
+      "author_name": "James Anderson",
+      "date": "2025年9月5日",
+      "datetime": "2025-09-05"
+    },
+    "details": {
+      "description1": "根据胶片社区的反馈设计，使数据记录清晰且愉快。",
+      "description2": "加入成千上万的摄影师，使用 Frames 为他们的胶片摄影体验带来条理和洞察。"
+    },
+    "navigation": {
+      "aria_label": "评价导航",
+      "previous_aria_label": "上一条评价",
+      "next_aria_label": "下一条评价"
+    }
+  },
+  "features": {
+    "heading": "功能特性",
+    "feature1": {
+      "label": "归档",
+      "title": "整理图库",
+      "description": "轻松浏览、整理和管理所有胶卷，保持每次拍摄会话结构清晰、易于查找且完美有序。"
+    },
+    "feature2": {
+      "label": "设备",
+      "title": "管理设备",
+      "description": "保留相机、镜头和滤镜的详细清单，以保持一致性并为每次拍摄准备好所有设备信息。"
+    },
+    "feature3": {
+      "label": "记录",
+      "title": "捕捉设置",
+      "description": "直接记录每张照片的光圈、快门速度、胶片类型和位置详情，保持每一帧的信息准确且可访问。"
+    },
+    "feature4": {
+      "label": "历史",
+      "title": "回顾照片",
+      "description": "回顾已记录的胶卷以查看设置，分析之前的拍摄会话，从中学习并改进您的胶片摄影工作流程。"
+    },
+    "feature5": {
+      "label": "导出",
+      "title": "导出记录",
+      "description": "将记录保存或分享为 .frames、.txt 或 .gpx 文件，用于备份、分享或与其他应用或工作流程集成。"
+    },
+    "feature6": {
+      "label": "元数据",
+      "title": "保存元数据",
+      "description": "将所有记录的数据嵌入扫描图像以保留胶片信息，同时保持数字档案完全同步。"
+    },
+    "feature7": {
+      "label": "支持",
+      "title": "电子邮件支持",
+      "description": "随时直接联系开发者寻求帮助、分享反馈或建议新功能和改进，并获得快速回复。"
+    }
+  },
+  "pricing": {
+    "heading": "定价",
+    "ios": {
+      "title": "iOS",
+      "price": "¥15",
+      "period": "/月",
+      "includes_label": "包含：",
+      "features": [
+        "无限胶卷",
+        "子文件夹",
+        "导出数据为 .frames",
+        "导出数据为 .txt 或 .gpx"
+      ],
+      "button_text": "免费试用"
+    },
+    "macos": {
+      "title": "macOS",
+      "price": "¥15",
+      "period": "/月",
+      "includes_label": "包含：",
+      "features": [
+        "将元数据保存到照片"
+      ],
+      "button_text": "免费试用"
+    },
+    "checkmark": "✓"
+  },
+  "qa": {
+    "heading": "常见问题",
+    "question1": {
+      "question": "我可以记录哪些元数据？",
+      "answer": "Frames 允许您为每张照片记录详细信息，包括相机、镜头、滤镜、画幅编号、焦距、光圈、快门速度、ISO、测光模式、胶片类型、闪光灯、GPS 位置、时间戳和自定义笔记，确保您永远不会丢失重要的胶片摄影细节。"
+    },
+    "question2": {
+      "question": "支持哪些图像格式？",
+      "answer": "Frames 支持 JPEG、TIFF 和 DNG 格式，允许您将记录的元数据直接嵌入扫描的胶片照片中，以便在所有设备之间无缝组织和工作流程。"
+    },
+    "question3": {
+      "question": "Frames 有 Android 或 Windows 版本吗？",
+      "answer": "Frames 目前适用于 iPhone 和 macOS。Android 和 Windows 版本计划于 2026 年推出，在此期间，您可以通过 .frames 文件导出分享和管理您的数据。"
+    },
+    "question4": {
+      "question": "支持哪些快门速度和光圈？",
+      "answer": "Frames 提供涵盖大多数镜头和相机的默认序列，您还可以为您的设备定义自定义序列，使其与任何快门速度或光圈值兼容。"
+    },
+    "question5": {
+      "question": "我可以记录三脚架或配件吗？",
+      "answer": "是的，Frames 允许您记录三脚架、闪光灯和其他配件。还有一个额外的笔记字段，您可以在其中添加任何想要的自定义详情。"
+    },
+    "question6": {
+      "question": "未来更新有什么计划？",
+      "answer": "未来计划包括扩展的工作流程功能、改进的跨设备集成以及社区要求的新工具，使胶片摄影记录更加灵活和强大。"
+    }
+  },
+  "contact": {
+    "heading": "我们期待听到您的想法和意见。",
+    "button_text": "给我们发邮件"
+  },
+  "footer": {
+    "logo_alt": "Frames",
+    "connect": {
+      "heading": "关注我们",
+      "instagram": "Instagram",
+      "threads": "Threads",
+      "facebook": "Facebook",
+      "bluesky": "Bluesky",
+      "mastodon": "Mastodon",
+      "twitter": "Twitter"
+    },
+    "resources": {
+      "heading": "资源",
+      "privacy_policy": "隐私政策",
+      "terms_of_service": "服务条款",
+      "documentation": "文档",
+      "changelog": "更新日志",
+      "youtube": "Youtube"
+    },
+    "product": {
+      "heading": "产品",
+      "frames_ios": "Frames iOS",
+      "frames_macos": "Frames macOS"
+    },
+    "copyright": "© 2025 Vincent Tantardini.",
+    "all_rights_reserved": "保留所有权利。",
+    "language_dropdown": {
+      "label": "简体中文",
+      "aria_label": "语言选择器"
+    }
+  },
+  "urls": {
+    "appstore_ios": "https://apps.apple.com/cn/app/frames-%E8%83%B6%E7%89%87%E6%91%84%E5%BD%B1%E7%AC%94%E8%AE%B0/id6744057317?l=zh",
+    "appstore_macos": "https://apps.apple.com/cn/app/frames-%E8%83%B6%E7%89%87%E5%85%83%E6%95%B0%E6%8D%AE/id6744063354?l=zh",
+    "documentation": "doc/",
+    "changelog": "changelog/",
+    "privacy": "privacy/"
+  },
+  "video": {
+    "title": "记录和追踪胶卷的胶片摄影应用（Frames for iPhone）",
+    "description": "探索 Frames，专为胶片摄影师设计的胶片摄影应用。Frames 使管理您的胶片摄影变得轻松，帮助您记录不仅是您的照片，还有每个胶卷和每一帧背后的故事。无论您使用 35mm、中画幅还是大画幅胶片，Frames 都能让您的工作流程井然有序，并确保您的照片元数据在扫描后仍与图像保持一致。"
+  },
+  "privacy": {
+    "meta": {
+      "title": "隐私政策 - Frames",
+      "description": "阅读胶片摄影应用 Frames 的隐私政策。了解我们如何在移动和桌面平台上谨慎处理您的数据。",
+      "canonical_url": "https://withframes.com/zh/privacy/"
+    },
+    "heading": "隐私政策",
+    "section1": {
+      "heading": "我们对您隐私的承诺",
+      "paragraph1": "此应用不收集、存储或共享任何个人数据。所有用户数据都在本地存储在您的设备上，绝不会传输到任何服务器或第三方。我们不使用分析、跟踪或收集用户信息的在线服务。",
+      "paragraph2": "但是，该应用允许导出文件。您选择外部分享或保存的所有数据都在您的控制之下。开发者不会跟踪或访问导出的文件。"
+    },
+    "section2": {
+      "heading": "联系方式",
+      "paragraph1": "如果您有任何问题或疑虑，可以通过以下方式与我们联系："
+    },
+    "last_updated_label": "最后更新",
+    "last_updated": "2025年3月15日",
+    "last_updated_iso": "2025-03-15",
+    "button_home": "主页"
+  }
+}

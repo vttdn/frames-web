@@ -1,0 +1,30 @@
+@use 'mixins' as *;
+/* Pricing Section */
+.pricing-inner {
+    padding: var(--spacing-lg);
+}
+
+.pricing-amount,
+.pricing-label {
+    color: var(--color-secondary);
+}
+
+.pricing-amount {
+    font-size: var(--font-size-lg);
+    line-height: var(--line-height-lg);
+}
+
+.pricing-action {
+    @include pricing-mid-range {
+        margin-top: var(--spacing-3xl);
+    }
+
+    @include desktop-down {
+        margin-top: var(--spacing-3xl);
+    }
+}
+
+.price-period {
+    font-size: var(--font-size-sm);
+    margin-left: var(--spacing-xs);
+}

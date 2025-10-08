@@ -1,0 +1,45 @@
+@use 'mixins' as *;
+
+/* Footer Section */
+.main-footer {
+    margin-top: var(--spacing-5xl);
+    margin-bottom: var(--spacing-2xl);
+    font-size: var(--font-size-sm);
+    line-height: var(--line-height-sm);
+
+    a {
+        &:hover {
+            opacity: 0.82;
+        }
+    }
+
+    h3 {
+        color: var(--color-secondary);
+        font-size: inherit;
+        line-height: inherit;
+    }
+}
+
+.footer-links {
+    @include tablet-down {
+        grid-template-columns: repeat(2, 1fr) !important;
+
+        > :first-child {
+            display: none;
+        }
+
+        > :last-child {
+            margin-top: var(--spacing-2xl);
+        }
+    }
+}
+
+.footer-bottom {
+    color: var(--color-secondary);
+
+    a {
+        &:hover {
+            color: var(--color-primary);
+        }
+    }
+}

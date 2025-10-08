@@ -1,0 +1,46 @@
+{
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "어떤 메타데이터를 기록할 수 있나요?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Frames를 사용하면 카메라, 렌즈, 필터, 프레임 번호, 초점 거리, 조리개, 셔터 스피드, ISO, 측광 모드, 필름 종류, 플래시, GPS 위치, 타임스탬프, 사용자 정의 노트 등 모든 촬영에 대한 상세한 정보를 기록할 수 있어 중요한 아날로그 사진 세부 정보를 놓치지 않습니다."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "어떤 이미지 형식을 지원하나요?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Frames는 JPEG, TIFF, DNG 형식을 지원하므로 스캔한 아날로그 사진에 기록된 메타데이터를 직접 삽입하여 모든 기기에서 원활한 정리와 워크플로우를 구현할 수 있습니다."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Frames가 Android나 Windows에서 사용 가능한가요?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Frames는 현재 iPhone과 macOS에서 사용 가능합니다. Android 및 Windows 버전은 2026년에 출시 예정이며, 그동안 .frames 파일 내보내기를 통해 데이터를 공유하고 관리할 수 있습니다."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "어떤 셔터 스피드와 조리개를 지원하나요?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Frames는 대부분의 렌즈와 카메라를 포괄하는 기본 시퀀스를 제공하며, 장비에 맞는 사용자 정의 시퀀스를 정의할 수도 있어 모든 셔터 스피드 또는 조리개 값과 호환됩니다."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "삼각대나 액세서리를 기록할 수 있나요?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "네, Frames를 사용하면 삼각대, 플래시 및 기타 액세서리를 기록할 수 있습니다. 원하는 사용자 정의 세부 정보를 추가할 수 있는 추가 노트 필드도 있습니다."
+          }
+        }
+      ]
+    }

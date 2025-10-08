@@ -1,0 +1,46 @@
+{
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "どのようなメタデータを記録できますか?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Framesでは、カメラ、レンズ、フィルター、フレーム番号、焦点距離、絞り、シャッター速度、ISO、測光モード、フィルム、フラッシュ、GPS位置情報、タイムスタンプ、カスタムメモなど、すべてのショットの詳細情報を記録でき、重要なアナログ写真の詳細を失うことはありません。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "どの画像フォーマットに対応していますか?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "FramesはJPEG、TIFF、DNG形式に対応しており、記録したメタデータをスキャンしたアナログ写真に直接埋め込むことができ、デバイス間でシームレスな整理とワークフローを実現します。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "FramesはAndroidやWindowsで利用できますか?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Framesは現在iPhoneとmacOSで利用できます。AndroidとWindows版は2026年に予定されており、それまでは.framesファイルのエクスポート経由でデータを共有・管理できます。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "どのシャッター速度と絞りに対応していますか?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Framesはほとんどのレンズとカメラをカバーするデフォルトのシーケンスを提供しており、機材に合わせてカスタムシーケンスも定義できるため、あらゆるシャッター速度や絞り値に対応できます。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "三脚やアクセサリーを記録できますか?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "はい、Framesでは三脚、フラッシュ、その他のアクセサリーを記録できます。また、追加のメモフィールドがあり、任意のカスタム詳細を追加できます。"
+          }
+        }
+      ]
+    }

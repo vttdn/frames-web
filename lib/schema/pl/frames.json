@@ -1,0 +1,223 @@
+{
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "MobileApplication",
+          "name": "Frames iOS",
+          "operatingSystem": "iOS 18.0",
+          "applicationCategory": "MultimediaApplication",
+          "inLanguage": "pl",
+          "description": "Frames to aplikacja do fotografii analogowej. Zapisuj każde zdjęcie, śledź ustawienia aparatu, organizuj klisze i zapisuj metadane EXIF na iPhone i Mac.",
+          "image": "https://withframes.com/pl/og-image.jpg",
+          "url": "https://apps.apple.com/pl/app/frames-notatnik-do-kliszy/id6744057317?l=pl",
+          "installUrl": "https://apps.apple.com/pl/app/frames-notatnik-do-kliszy/id6744057317?l=pl",
+          "softwareVersion": "1.13.1",
+          "screenshot": "https://withframes.com/pl/og-image.jpg",
+          "isAccessibleForFree": true,
+          "keywords": "film photography app, analog photography, EXIF metadata, film camera notes, photography workflow, film photography organization",
+          "maintainer": {
+            "@type": "Person",
+            "name": "Vincent Tantardini"
+          },
+          "countriesSupported": [
+            "US", "GB", "FR", "DE", "IT", "ES", "CA", "AU",
+            "JP", "KR", "NL", "SE", "NO", "FI", "DK", "NZ"
+          ],
+          "mainEntity": {
+            "@type": "WebPage",
+            "@id": "https://withframes.com/"
+          },
+          "author": {
+            "@type": "Person",
+            "name": "Vincent Tantardini"
+          },
+          "offers": {
+            "@type": "Offer",
+            "price": "0",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock"
+          },
+          "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "4.9",
+            "reviewCount": "12"
+          },
+          "review": [
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "Maria Garcia" },
+            "datePublished": "2025-07-12",
+            "name": "Review by Maria Garcia",
+            "reviewBody": "Łatwa w użyciu, niezawodna i uczciwie wyceniona aplikacja, która przenosi dane fotograficzne, w tym geolokalizację, do metadanych EXIF zeskanowanych negatywów. Deweloper słucha opinii i stale się rozwija. Doskonała!",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            },
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "BHenriquez" },
+            "datePublished": "2025-05-08",
+            "name": "Review by BHenriquez",
+            "reviewBody": "Jako fotograf analogowy wywołujący filmy w domu, uwielbiam to, jak Frames pozwala mi rejestrować każde zdjęcie bez kłopotu z notatnikami. To idealne i praktyczne rozwiązanie. Wykupiłem wersję Pro i nigdy nie żałowałem!",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            },
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "Emma Richardson" },
+            "datePublished": "2025-08-23",
+            "name": "Review by Emma Richardson",
+            "reviewBody": "Świetna do zapisywania ekspozycji i lokalizacji podczas fotografowania na kliszy, idealna do analizy ustawień lub przechowywania danych w stylu EXIF. Deweloper naprawił błąd w ciągu dnia. Gorąco polecam!",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            },
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "Roger Nordstrom Photo" },
+            "datePublished": "2025-04-15",
+            "name": "Review by Roger Nordstrom Photo",
+            "reviewBody": "Wracając do fotografii analogowej, brakowało mi metadanych, aż znalazłem Frames. Zastępuje papierowe notatki, pomaga mi pozostać zorganizowanym i bardziej świadomie fotografować. Pozycja obowiązkowa dla fotografów analogowych!",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            },
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "James Anderson" },
+            "datePublished": "2025-09-05",
+            "name": "Review by James Anderson",
+            "reviewBody": "Widać, że deweloper sam używa tej aplikacji. Każdy mały szczegół wydaje się przemyślany, a interfejs jest czysty i prosty. Wszystko działa płynnie. Z łatwością najlepsza aplikacja do notatek filmowych dostępna na rynku!",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            },
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "Maria Garcia" },
+            "datePublished": "2025-07-12",
+            "name": "Review by Maria Garcia",
+            "reviewBody": "Łatwa w użyciu, niezawodna i uczciwie wyceniona aplikacja, która przenosi dane fotograficzne, w tym geolokalizację, do metadanych EXIF zeskanowanych negatywów. Deweloper słucha opinii i stale się rozwija. Doskonała!",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            },
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "BHenriquez" },
+            "datePublished": "2025-05-08",
+            "name": "Review by BHenriquez",
+            "reviewBody": "Jako fotograf analogowy wywołujący filmy w domu, uwielbiam to, jak Frames pozwala mi rejestrować każde zdjęcie bez kłopotu z notatnikami. To idealne i praktyczne rozwiązanie. Wykupiłem wersję Pro i nigdy nie żałowałem!",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            }
+          ]
+        },
+        {
+          "@type": "SoftwareApplication",
+          "name": "Frames macOS",
+          "operatingSystem": "macOS 15.0",
+          "applicationCategory": "MultimediaApplication",
+          "inLanguage": "pl",
+          "description": "Frames to aplikacja do fotografii analogowej. Zapisuj każde zdjęcie, śledź ustawienia aparatu, organizuj klisze i zapisuj metadane EXIF na iPhone i Mac.",
+          "image": "https://withframes.com/pl/og-image.jpg",
+          "url": "https://apps.apple.com/pl/app/frames-metadane-kliszy/id6744063354?l=pl",
+          "installUrl": "https://apps.apple.com/pl/app/frames-metadane-kliszy/id6744063354?l=pl",
+          "softwareVersion": "1.8.0",
+          "mainEntity": {
+            "@type": "WebPage",
+            "@id": "https://withframes.com/"
+          },
+          "author": {
+            "@type": "Person",
+            "name": "Vincent Tantardini"
+          },
+          "offers": {
+            "@type": "Offer",
+            "price": "0",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock"
+          },
+          "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "5",
+            "reviewCount": "4"
+          }
+        },
+        {
+          "@type": "WebPage",
+          "@id": "https://withframes.com/plpl/",
+          "url": "https://withframes.com/plpl/",
+          "name": "Frames – Aplikacja do Fotografii Analogowej i Metadanych",
+          "description": "Frames to aplikacja do fotografii analogowej. Zapisuj każde zdjęcie, śledź ustawienia aparatu, organizuj klisze i zapisuj metadane EXIF na iPhone i Mac.",
+          "inLanguage": "pl",
+          "publisher": {
+            "@id": "https://withframes.com/#organization"
+          }
+        },
+        {
+          "@type": "VideoObject",
+          "name": "Aplikacja do Fotografii Analogowej do Zapisywania i Śledzenia Klisz (Frames dla iPhone)",
+          "description": "Odkryj Frames, dedykowaną aplikację do fotografii analogowej zaprojektowaną dla fotografów analogowych. Frames sprawia, że zarządzanie fotografią analogową jest bezproblemowe, pomagając rejestrować nie tylko zdjęcia, ale także historię każdej kliszy i klatki. Niezależnie od tego, czy pracujesz z kliszami 35mm, średnioformatowymi czy wielkoformatowymi, Frames utrzymuje porządek w przepływie pracy i zapewnia, że metadane zdjęć pozostają z obrazami nawet po skanowaniu.",
+          "thumbnailUrl": "https://i.ytimg.com/vi/KRLS5tpmvJM/hqdefault.jpg",
+          "uploadDate": "2025-09-12T00:00:00+00:00",
+          "duration": "PT1M25S",
+          "embedUrl": "https://www.youtube.com/embed/KRLS5tpmvJM",
+          "contentUrl": "https://www.youtube.com/watch?v=KRLS5tpmvJM",
+          "publisher": {
+            "@id": "https://withframes.com/#organization"
+          }
+        },
+        {
+          "@type": "Organization",
+          "@id": "https://withframes.com/#organization",
+          "name": "Frames",
+          "url": "https://withframes.com/",
+          "logo": "https://withframes.com/apple-touch-icon.png",
+          "contactPoint": {
+            "@type": "ContactPoint",
+            "email": "bonjour@withframes.com",
+            "contactType": "Customer Support",
+            "areaServed": "Worldwide",
+            "availableLanguage": ["English", "French"]
+          },
+          "sameAs": [
+            "https://twitter.com/withframes",
+            "https://www.facebook.com/framesapp",
+            "https://www.instagram.com/with_frames/",
+            "https://linkedin.com/company/withframes/",
+            "https://pinterest.com/framesapp/",
+            "https://mastodon.social/@frames",
+            "https://bsky.app/profile/withframes.bsky.social",
+            "https://www.tiktok.com/@with_frames",
+            "https://www.youtube.com/@withframes",
+            "https://g.co/kgs/5oEvXT5",
+            "https://apps.apple.com/pl/app/frames-notatnik-do-kliszy/id6744057317?l=pl",
+            "https://apps.apple.com/pl/app/frames-metadane-kliszy/id6744063354?l=pl"
+          ]
+        }
+      ]
+    }

@@ -1,0 +1,223 @@
+{
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "MobileApplication",
+          "name": "Frames iOS",
+          "operatingSystem": "iOS 18.0",
+          "applicationCategory": "MultimediaApplication",
+          "inLanguage": "nl",
+          "description": "Frames is een analoge fotografie-app. Leg elke opname vast, volg instellingen, organiseer filmrolletjes en bewaar EXIF-metagegevens op iPhone & Mac.",
+          "image": "https://withframes.com/nl/og-image.jpg",
+          "url": "https://apps.apple.com/nl/app/frames-filmnotities/id6744057317",
+          "installUrl": "https://apps.apple.com/nl/app/frames-filmnotities/id6744057317",
+          "softwareVersion": "1.13.1",
+          "screenshot": "https://withframes.com/nl/og-image.jpg",
+          "isAccessibleForFree": true,
+          "keywords": "film photography app, analog photography, EXIF metadata, film camera notes, photography workflow, film photography organization",
+          "maintainer": {
+            "@type": "Person",
+            "name": "Vincent Tantardini"
+          },
+          "countriesSupported": [
+            "US", "GB", "FR", "DE", "IT", "ES", "CA", "AU",
+            "JP", "KR", "NL", "SE", "NO", "FI", "DK", "NZ"
+          ],
+          "mainEntity": {
+            "@type": "WebPage",
+            "@id": "https://withframes.com/"
+          },
+          "author": {
+            "@type": "Person",
+            "name": "Vincent Tantardini"
+          },
+          "offers": {
+            "@type": "Offer",
+            "price": "0",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock"
+          },
+          "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "4.9",
+            "reviewCount": "12"
+          },
+          "review": [
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "Maria Garcia" },
+            "datePublished": "2025-07-12",
+            "name": "Review by Maria Garcia",
+            "reviewBody": "Gebruiksvriendelijke, betrouwbare en eerlijk geprijsde app die opnamegegevens, inclusief locatie, overbrengt naar de EXIF van gescande negatieven. De ontwikkelaar luistert naar feedback en blijft verbeteren. Uitstekend!",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            },
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "BHenriquez" },
+            "datePublished": "2025-05-08",
+            "name": "Review by BHenriquez",
+            "reviewBody": "Als filmfotograaf die thuis ontwikkelt, vind ik het geweldig hoe Frames me elke opname laat vastleggen zonder gedoe met notitieboekjes. Het is de perfecte en praktische oplossing. Ben overgestapt naar Pro en kijk niet meer terug!",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            },
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "Emma Richardson" },
+            "datePublished": "2025-08-23",
+            "name": "Review by Emma Richardson",
+            "reviewBody": "Ideaal voor het registreren van belichting en locatie bij filmfotografie, perfect voor het analyseren van instellingen of het bewaren van EXIF-achtige gegevens. De ontwikkelaar heeft binnen een dag een bug opgelost. Zeer aan te raden!",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            },
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "Roger Nordstrom Photo" },
+            "datePublished": "2025-04-15",
+            "name": "Review by Roger Nordstrom Photo",
+            "reviewBody": "Toen ik terugkeerde naar filmfotografie, miste ik metagegevens totdat ik Frames vond. Het vervangt papieren notities, helpt me georganiseerd te blijven en bewuster te fotograferen. Een must voor filmfotografen!",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            },
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "James Anderson" },
+            "datePublished": "2025-09-05",
+            "name": "Review by James Anderson",
+            "reviewBody": "Je merkt dat de ontwikkelaar de app zelf ook gebruikt. Elk klein detail voelt doordacht aan en de interface is strak en eenvoudig. Alles werkt soepel. Zonder twijfel de beste filmnotitie-app die er is!",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            },
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "Maria Garcia" },
+            "datePublished": "2025-07-12",
+            "name": "Review by Maria Garcia",
+            "reviewBody": "Gebruiksvriendelijke, betrouwbare en eerlijk geprijsde app die opnamegegevens, inclusief locatie, overbrengt naar de EXIF van gescande negatieven. De ontwikkelaar luistert naar feedback en blijft verbeteren. Uitstekend!",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            },
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "BHenriquez" },
+            "datePublished": "2025-05-08",
+            "name": "Review by BHenriquez",
+            "reviewBody": "Als filmfotograaf die thuis ontwikkelt, vind ik het geweldig hoe Frames me elke opname laat vastleggen zonder gedoe met notitieboekjes. Het is de perfecte en praktische oplossing. Ben overgestapt naar Pro en kijk niet meer terug!",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            }
+          ]
+        },
+        {
+          "@type": "SoftwareApplication",
+          "name": "Frames macOS",
+          "operatingSystem": "macOS 15.0",
+          "applicationCategory": "MultimediaApplication",
+          "inLanguage": "nl",
+          "description": "Frames is een analoge fotografie-app. Leg elke opname vast, volg instellingen, organiseer filmrolletjes en bewaar EXIF-metagegevens op iPhone & Mac.",
+          "image": "https://withframes.com/nl/og-image.jpg",
+          "url": "https://apps.apple.com/nl/app/frames-film-metagegevens/id6744063354",
+          "installUrl": "https://apps.apple.com/nl/app/frames-film-metagegevens/id6744063354",
+          "softwareVersion": "1.8.0",
+          "mainEntity": {
+            "@type": "WebPage",
+            "@id": "https://withframes.com/"
+          },
+          "author": {
+            "@type": "Person",
+            "name": "Vincent Tantardini"
+          },
+          "offers": {
+            "@type": "Offer",
+            "price": "0",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock"
+          },
+          "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "5",
+            "reviewCount": "4"
+          }
+        },
+        {
+          "@type": "WebPage",
+          "@id": "https://withframes.com/nlnl/",
+          "url": "https://withframes.com/nlnl/",
+          "name": "Frames – Analoge fotografie-app voor Notities & Metagegevens",
+          "description": "Frames is een analoge fotografie-app. Leg elke opname vast, volg instellingen, organiseer filmrolletjes en bewaar EXIF-metagegevens op iPhone & Mac.",
+          "inLanguage": "nl",
+          "publisher": {
+            "@id": "https://withframes.com/#organization"
+          }
+        },
+        {
+          "@type": "VideoObject",
+          "name": "Analoge Fotografie-app om je Filmrolletjes Vast te Leggen (Frames voor iPhone)",
+          "description": "Ontdek Frames, de toegewijde analoge fotografie-app ontworpen voor analoge fotografen. Frames maakt het beheren van je analoge fotografie moeiteloos en helpt je niet alleen je opnames vast te leggen maar ook het verhaal achter elk filmrolletje en frame. Of je nu werkt met 35mm, middenformaat of grootformaat film, Frames houdt je workflow georganiseerd en zorgt ervoor dat je foto-metagegevens bij je afbeeldingen blijven, zelfs na het scannen.",
+          "thumbnailUrl": "https://i.ytimg.com/vi/KRLS5tpmvJM/hqdefault.jpg",
+          "uploadDate": "2025-09-12T00:00:00+00:00",
+          "duration": "PT1M25S",
+          "embedUrl": "https://www.youtube.com/embed/KRLS5tpmvJM",
+          "contentUrl": "https://www.youtube.com/watch?v=KRLS5tpmvJM",
+          "publisher": {
+            "@id": "https://withframes.com/#organization"
+          }
+        },
+        {
+          "@type": "Organization",
+          "@id": "https://withframes.com/#organization",
+          "name": "Frames",
+          "url": "https://withframes.com/",
+          "logo": "https://withframes.com/apple-touch-icon.png",
+          "contactPoint": {
+            "@type": "ContactPoint",
+            "email": "bonjour@withframes.com",
+            "contactType": "Customer Support",
+            "areaServed": "Worldwide",
+            "availableLanguage": ["English", "French"]
+          },
+          "sameAs": [
+            "https://twitter.com/withframes",
+            "https://www.facebook.com/framesapp",
+            "https://www.instagram.com/with_frames/",
+            "https://linkedin.com/company/withframes/",
+            "https://pinterest.com/framesapp/",
+            "https://mastodon.social/@frames",
+            "https://bsky.app/profile/withframes.bsky.social",
+            "https://www.tiktok.com/@with_frames",
+            "https://www.youtube.com/@withframes",
+            "https://g.co/kgs/5oEvXT5",
+            "https://apps.apple.com/nl/app/frames-filmnotities/id6744057317",
+            "https://apps.apple.com/nl/app/frames-film-metagegevens/id6744063354"
+          ]
+        }
+      ]
+    }

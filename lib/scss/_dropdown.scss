@@ -1,0 +1,87 @@
+/* Basic styling */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-button {
+    position: relative;
+    z-index: 9999;
+}
+
+.dropdown-button span {
+    width: 100%;
+    flex: 1;
+}
+
+/* Dropdown content - hidden by default */
+.dropdown-content {
+    position: absolute;
+    left: auto;
+    right: 0;
+    min-width: 10rem;
+    overflow-y: auto;
+    padding: var(--spacing-sm) 0;
+    z-index: 1;
+
+    font-size: var(--font-size-body);
+    background-color: var(--color-background);
+    border-radius: var(--radius-sm);
+    border: 1px solid var(--color-gray-dark3);
+
+    opacity: 0;
+    visibility: hidden;
+    transition:
+        opacity 0.1s ease,
+        transform 0.1s ease,
+        visibility 0.1s;
+
+    /* Directions */
+    &.dropdown-dir-bottom {
+        transform: translateY(-1rem);
+        top: 2.25rem;
+    }
+
+    &.dropdown-dir-top {
+        transform: translateY(1rem);
+        bottom: 2.25rem;
+        max-height: 11.5rem;
+    }
+}
+
+/* Style the dropdown links */
+.dropdown-content a {
+    display: flex;
+    align-items: center;
+    padding: var(--spacing-xs) var(--spacing-lg);
+    color: var(--color-primary);
+    font-size: var(--font-size-small);
+
+    &:hover {
+        opacity: 82%;
+    }
+}
+
+.dropdown-content a span:first-of-type {
+    display: flex;
+    flex: 1;
+}
+
+/* Show the dropdown when checkbox is checked */
+.dropdown-toggle:checked~.dropdown-content {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+}
+
+.dropdown-toggle:checked~.dropdown-button img:last-of-type {
+    transform: rotate(180deg);
+}
+
+/* Hide the checkbox */
+.dropdown-toggle {
+    position: absolute;
+    opacity: 0;
+    height: 0;
+    width: 0;
+}

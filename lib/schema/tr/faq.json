@@ -1,0 +1,46 @@
+{
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Hangi metadata'yı kaydedebilirim?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Frames, her çekim için kamera, lens, filtreler, kare numarası, odak uzaklığı, diyafram, enstantane hızı, ISO, ölçüm modu, film stoğu, flaş, GPS konumu, zaman damgaları ve özel notlar dahil detaylı bilgi kaydetmenize olanak tanır, böylece önemli analog fotoğrafçılık detaylarını asla kaybetmezsiniz."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Hangi görüntü formatları destekleniyor?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Frames, JPEG, TIFF ve DNG formatlarını destekler, kaydedilen metadata'nızı doğrudan taranan analog fotoğraflara gömerek cihazlarınız arasında sorunsuz organizasyon ve iş akışı sağlar."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Frames Android veya Windows'ta var mı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Frames şu anda iPhone ve macOS için mevcuttur. Android ve Windows sürümleri 2026 için planlanmıştır ve bu arada .frames dosya dışa aktarma yoluyla verilerinizi paylaşabilir ve yönetebilirsiniz."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Hangi enstantane hızları ve diyaframlar destekleniyor?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Frames, çoğu lensi ve kamerayı kapsayan varsayılan diziler sunar ve ekipmanınız için özel diziler de tanımlayabilirsiniz, bu da onu herhangi bir enstantane hızı veya diyafram değeriyle uyumlu hale getirir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Tripodları veya aksesuarları kaydedebilir miyim?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Evet, Frames tripodları, flaşları ve diğer aksesuarları kaydetmenize izin verir. İstediğiniz özel detayları ekleyebileceğiniz ekstra bir not alanı da vardır."
+          }
+        }
+      ]
+    }

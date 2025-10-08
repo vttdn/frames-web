@@ -1,0 +1,17 @@
+@use 'mixins' as *;
+
+/* Features Section */
+.feature-inner {
+    padding: var(--spacing-lg);
+
+    p,
+    span {
+        color: var(--color-secondary);
+    }
+}
+
+.feature-header {
+    @include features-breakpoint {
+        margin-bottom: var(--spacing-3xl);
+    }
+}

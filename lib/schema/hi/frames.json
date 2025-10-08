@@ -1,0 +1,223 @@
+{
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "MobileApplication",
+          "name": "Frames iOS",
+          "operatingSystem": "iOS 18.0",
+          "applicationCategory": "MultimediaApplication",
+          "inLanguage": "hi",
+          "description": "Frames फ़िल्म फ़ोटोग्राफ़रों के लिए ऐप है। हर शॉट लॉग करें, कैमरा सेटिंग्स ट्रैक करें, रोल्स व्यवस्थित करें और iPhone व Mac पर EXIF मेटाडेटा सहेजें।",
+          "image": "https://withframes.com/hi/og-image.jpg",
+          "url": "https://apps.apple.com/in/app/frames-%E0%A4%AB-%E0%A4%B2-%E0%A4%AE-%E0%A4%AB-%E0%A4%9F-%E0%A4%A1-%E0%A4%AF%E0%A4%B0/id6744057317?l=hi",
+          "installUrl": "https://apps.apple.com/in/app/frames-%E0%A4%AB-%E0%A4%B2-%E0%A4%AE-%E0%A4%AB-%E0%A4%9F-%E0%A4%A1-%E0%A4%AF%E0%A4%B0/id6744057317?l=hi",
+          "softwareVersion": "1.13.1",
+          "screenshot": "https://withframes.com/hi/og-image.jpg",
+          "isAccessibleForFree": true,
+          "keywords": "film photography app, analog photography, EXIF metadata, film camera notes, photography workflow, film photography organization",
+          "maintainer": {
+            "@type": "Person",
+            "name": "Vincent Tantardini"
+          },
+          "countriesSupported": [
+            "US", "GB", "FR", "DE", "IT", "ES", "CA", "AU",
+            "JP", "KR", "NL", "SE", "NO", "FI", "DK", "NZ"
+          ],
+          "mainEntity": {
+            "@type": "WebPage",
+            "@id": "https://withframes.com/"
+          },
+          "author": {
+            "@type": "Person",
+            "name": "Vincent Tantardini"
+          },
+          "offers": {
+            "@type": "Offer",
+            "price": "0",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock"
+          },
+          "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "4.9",
+            "reviewCount": "12"
+          },
+          "review": [
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "Maria Garcia" },
+            "datePublished": "2025-07-12",
+            "name": "Review by Maria Garcia",
+            "reviewBody": "उपयोग में आसान, विश्वसनीय और उचित मूल्य वाला ऐप जो शूटिंग डेटा को स्कैन किए गए नेगेटिव के EXIF में स्थानांतरित करता है, जिसमें भौगोलिक स्थान भी शामिल है। डेवलपर फ़ीडबैक सुनते हैं और लगातार सुधार करते रहते हैं। उत्कृष्ट!",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            },
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "BHenriquez" },
+            "datePublished": "2025-05-08",
+            "name": "Review by BHenriquez",
+            "reviewBody": "एक फ़िल्म फ़ोटोग्राफ़र के रूप में जो घर पर डेवलप करता है, मुझे पसंद है कि Frames मुझे नोटबुक की परेशानी के बिना हर शॉट लॉग करने देता है। यह एकदम सही और व्यावहारिक समाधान है। Pro में अपग्रेड किया और कभी पीछे मुड़कर नहीं देखा!",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            },
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "Emma Richardson" },
+            "datePublished": "2025-08-23",
+            "name": "Review by Emma Richardson",
+            "reviewBody": "फ़िल्म शूट करते समय एक्सपोज़र और स्थान रिकॉर्ड करने के लिए बेहतरीन, सेटिंग्स का विश्लेषण करने या EXIF-स्टाइल डेटा रखने के लिए आदर्श। डेवलपर ने एक दिन में बग ठीक किया। अत्यधिक अनुशंसित!",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            },
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "Roger Nordstrom Photo" },
+            "datePublished": "2025-04-15",
+            "name": "Review by Roger Nordstrom Photo",
+            "reviewBody": "फ़िल्म में वापस आने पर, मुझे मेटाडेटा की कमी महसूस हुई जब तक मैंने Frames नहीं खोजा। यह कागज़ी नोट्स की जगह लेता है, मुझे व्यवस्थित रहने में मदद करता है और शूटिंग करते समय सचेत रखता है। फ़िल्म फ़ोटोग्राफ़रों के लिए ज़रूरी है!",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            },
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "James Anderson" },
+            "datePublished": "2025-09-05",
+            "name": "Review by James Anderson",
+            "reviewBody": "आप बता सकते हैं कि डेवलपर भी ऐप का उपयोग करता है। हर छोटा विवरण जानबूझकर लगता है, और इंटरफ़ेस साफ़ और सरल है। सब कुछ सहजता से काम करता है। आसानी से उपलब्ध सबसे अच्छा फ़िल्म नोट्स ऐप!",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            },
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "Maria Garcia" },
+            "datePublished": "2025-07-12",
+            "name": "Review by Maria Garcia",
+            "reviewBody": "उपयोग में आसान, विश्वसनीय और उचित मूल्य वाला ऐप जो शूटिंग डेटा को स्कैन किए गए नेगेटिव के EXIF में स्थानांतरित करता है, जिसमें भौगोलिक स्थान भी शामिल है। डेवलपर फ़ीडबैक सुनते हैं और लगातार सुधार करते रहते हैं। उत्कृष्ट!",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            },
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "BHenriquez" },
+            "datePublished": "2025-05-08",
+            "name": "Review by BHenriquez",
+            "reviewBody": "एक फ़िल्म फ़ोटोग्राफ़र के रूप में जो घर पर डेवलप करता है, मुझे पसंद है कि Frames मुझे नोटबुक की परेशानी के बिना हर शॉट लॉग करने देता है। यह एकदम सही और व्यावहारिक समाधान है। Pro में अपग्रेड किया और कभी पीछे मुड़कर नहीं देखा!",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            }
+          ]
+        },
+        {
+          "@type": "SoftwareApplication",
+          "name": "Frames macOS",
+          "operatingSystem": "macOS 15.0",
+          "applicationCategory": "MultimediaApplication",
+          "inLanguage": "hi",
+          "description": "Frames फ़िल्म फ़ोटोग्राफ़रों के लिए ऐप है। हर शॉट लॉग करें, कैमरा सेटिंग्स ट्रैक करें, रोल्स व्यवस्थित करें और iPhone व Mac पर EXIF मेटाडेटा सहेजें।",
+          "image": "https://withframes.com/hi/og-image.jpg",
+          "url": "https://apps.apple.com/in/app/frames-%E0%A4%AB-%E0%A4%B2-%E0%A4%AE-%E0%A4%AE-%E0%A4%9F-%E0%A4%A1-%E0%A4%9F/id6744063354?l=hi",
+          "installUrl": "https://apps.apple.com/in/app/frames-%E0%A4%AB-%E0%A4%B2-%E0%A4%AE-%E0%A4%AE-%E0%A4%9F-%E0%A4%A1-%E0%A4%9F/id6744063354?l=hi",
+          "softwareVersion": "1.8.0",
+          "mainEntity": {
+            "@type": "WebPage",
+            "@id": "https://withframes.com/"
+          },
+          "author": {
+            "@type": "Person",
+            "name": "Vincent Tantardini"
+          },
+          "offers": {
+            "@type": "Offer",
+            "price": "0",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock"
+          },
+          "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "5",
+            "reviewCount": "4"
+          }
+        },
+        {
+          "@type": "WebPage",
+          "@id": "https://withframes.com/hihi/",
+          "url": "https://withframes.com/hihi/",
+          "name": "Frames – फ़िल्म फ़ोटोग्राफ़ी ऐप नोट्स और मेटाडेटा के लिए",
+          "description": "Frames फ़िल्म फ़ोटोग्राफ़रों के लिए ऐप है। हर शॉट लॉग करें, कैमरा सेटिंग्स ट्रैक करें, रोल्स व्यवस्थित करें और iPhone व Mac पर EXIF मेटाडेटा सहेजें।",
+          "inLanguage": "hi",
+          "publisher": {
+            "@id": "https://withframes.com/#organization"
+          }
+        },
+        {
+          "@type": "VideoObject",
+          "name": "फ़िल्म फ़ोटोग्राफ़ी ऐप अपने रोल्स को लॉग और ट्रैक करने के लिए (iPhone के लिए Frames)",
+          "description": "Frames की खोज करें, एनालॉग शूटर्स के लिए डिज़ाइन किया गया समर्पित फ़िल्म फ़ोटोग्राफ़ी ऐप। Frames आपकी एनालॉग फ़ोटोग्राफ़ी प्रबंधन को आसान बनाता है, आपको न केवल अपने शॉट्स बल्कि हर रोल और फ़्रेम के पीछे की कहानी भी रिकॉर्ड करने में मदद करता है। चाहे आप 35mm, मध्यम प्रारूप या बड़े प्रारूप की फ़िल्म के साथ काम करें, Frames आपके वर्कफ़्लो को व्यवस्थित रखता है और यह सुनिश्चित करता है कि आपका फ़ोटो मेटाडेटा स्कैनिंग के बाद भी आपकी छवियों के साथ रहे।",
+          "thumbnailUrl": "https://i.ytimg.com/vi/KRLS5tpmvJM/hqdefault.jpg",
+          "uploadDate": "2025-09-12T00:00:00+00:00",
+          "duration": "PT1M25S",
+          "embedUrl": "https://www.youtube.com/embed/KRLS5tpmvJM",
+          "contentUrl": "https://www.youtube.com/watch?v=KRLS5tpmvJM",
+          "publisher": {
+            "@id": "https://withframes.com/#organization"
+          }
+        },
+        {
+          "@type": "Organization",
+          "@id": "https://withframes.com/#organization",
+          "name": "Frames",
+          "url": "https://withframes.com/",
+          "logo": "https://withframes.com/apple-touch-icon.png",
+          "contactPoint": {
+            "@type": "ContactPoint",
+            "email": "bonjour@withframes.com",
+            "contactType": "Customer Support",
+            "areaServed": "Worldwide",
+            "availableLanguage": ["English", "French"]
+          },
+          "sameAs": [
+            "https://twitter.com/withframes",
+            "https://www.facebook.com/framesapp",
+            "https://www.instagram.com/with_frames/",
+            "https://linkedin.com/company/withframes/",
+            "https://pinterest.com/framesapp/",
+            "https://mastodon.social/@frames",
+            "https://bsky.app/profile/withframes.bsky.social",
+            "https://www.tiktok.com/@with_frames",
+            "https://www.youtube.com/@withframes",
+            "https://g.co/kgs/5oEvXT5",
+            "https://apps.apple.com/in/app/frames-%E0%A4%AB-%E0%A4%B2-%E0%A4%AE-%E0%A4%AB-%E0%A4%9F-%E0%A4%A1-%E0%A4%AF%E0%A4%B0/id6744057317?l=hi",
+            "https://apps.apple.com/in/app/frames-%E0%A4%AB-%E0%A4%B2-%E0%A4%AE-%E0%A4%AE-%E0%A4%9F-%E0%A4%A1-%E0%A4%9F/id6744063354?l=hi"
+          ]
+        }
+      ]
+    }

@@ -1,0 +1,167 @@
+@use 'mixins' as *;
+
+/* Utility Classes */
+
+/* Visibility Utilities */
+.mobile-hidden {
+    @include mobile {
+        display: none !important;
+    }
+}
+
+.desktop-hidden {
+    display: none !important;
+
+    @include mobile {
+        display: block !important;
+    }
+}
+
+.desktop-only {
+    @include desktop-down {
+        display: none !important;
+    }
+}
+
+.mobile-only {
+    display: none !important;
+
+    @include desktop-down {
+        display: flex !important;
+    }
+}
+
+/* Flex System */
+.flex {
+  display: flex;
+
+  /* Direction variants */
+  &.flex-row {
+    flex-direction: row;
+  }
+
+  &.flex-col {
+    flex-direction: column;
+  }
+
+  /* Alignment variants */
+  &.flex-center {
+    align-items: center;
+  }
+
+  &.flex-start {
+    align-items: flex-start;
+  }
+
+  &.flex-end {
+    align-items: flex-end;
+  }
+
+  /* Justify variants */
+  &.flex-justify-center {
+    justify-content: center;
+  }
+
+  &.flex-justify-start {
+    justify-content: flex-start;
+  }
+
+  &.flex-justify-end {
+    justify-content: flex-end;
+  }
+
+  &.flex-justify-between {
+    justify-content: space-between;
+    gap: 0;
+  }
+
+  &.flex-justify-around {
+    justify-content: space-around;
+    gap: 0;
+  }
+
+  /* Wrap variant */
+  &.flex-wrap {
+    flex-wrap: wrap;
+  }
+}
+
+/* Gap Utilities */
+.gap-xs {
+  gap: var(--spacing-xs); /* 4px */
+}
+
+.gap-sm {
+  gap: var(--spacing-sm); /* 8px */
+}
+
+.gap-md {
+  gap: var(--spacing-md); /* 12px */
+}
+
+.gap-lg {
+  gap: var(--spacing-lg); /* 16px */
+}
+
+.gap-xl {
+  gap: var(--spacing-xl); /* 24px */
+}
+
+.gap-2xl {
+  gap: var(--spacing-2xl); /* 32px */
+}
+
+.gap-3xl {
+  gap: var(--spacing-3xl); /* 48px */
+}
+
+.gap-4xl {
+  gap: var(--spacing-4xl); /* 64px */
+}
+
+.gap-5xl {
+  gap: var(--spacing-5xl); /* 96px */
+}
+
+.gap-6xl {
+  gap: var(--spacing-6xl); /* 128px */
+}
+
+/* Grid Item Utilities */
+.col-span-2 {
+  grid-column: span 2;
+}
+
+.col-span-3 {
+  grid-column: span 3;
+}
+
+.col-span-4 {
+  grid-column: span 4;
+}
+
+.col-start-1 {
+  grid-column-start: 1;
+}
+
+.col-start-2 {
+  grid-column-start: 2;
+}
+
+.col-start-3 {
+  grid-column-start: 3;
+}
+
+.col-start-4 {
+  grid-column-start: 4;
+}
+
+.col-end {
+  grid-column-end: -1;
+}
+
+@include tablet-down {
+  .col-span-2-mobile {
+    grid-column: span 2;
+  }
+}

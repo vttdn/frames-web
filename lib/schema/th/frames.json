@@ -1,0 +1,223 @@
+{
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "MobileApplication",
+          "name": "Frames iOS",
+          "operatingSystem": "iOS 18.0",
+          "applicationCategory": "MultimediaApplication",
+          "inLanguage": "th",
+          "description": "Frames เป็นแอปถ่ายภาพฟิล์มสำหรับช่างภาพอนาล็อก บันทึกทุกภาพ ติดตามการตั้งค่ากล้อง จัดระเบียบฟิล์ม และบันทึกเมตาดาตา EXIF บน iPhone และ Mac",
+          "image": "https://withframes.com/th/og-image.jpg",
+          "url": "https://apps.apple.com/th/app/frames-film-photography/id6744057317?l=th",
+          "installUrl": "https://apps.apple.com/th/app/frames-film-photography/id6744057317?l=th",
+          "softwareVersion": "1.13.1",
+          "screenshot": "https://withframes.com/th/og-image.jpg",
+          "isAccessibleForFree": true,
+          "keywords": "film photography app, analog photography, EXIF metadata, film camera notes, photography workflow, film photography organization",
+          "maintainer": {
+            "@type": "Person",
+            "name": "Vincent Tantardini"
+          },
+          "countriesSupported": [
+            "US", "GB", "FR", "DE", "IT", "ES", "CA", "AU",
+            "JP", "KR", "NL", "SE", "NO", "FI", "DK", "NZ"
+          ],
+          "mainEntity": {
+            "@type": "WebPage",
+            "@id": "https://withframes.com/"
+          },
+          "author": {
+            "@type": "Person",
+            "name": "Vincent Tantardini"
+          },
+          "offers": {
+            "@type": "Offer",
+            "price": "0",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock"
+          },
+          "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "4.9",
+            "reviewCount": "12"
+          },
+          "review": [
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "Maria Garcia" },
+            "datePublished": "2025-07-12",
+            "name": "Review by Maria Garcia",
+            "reviewBody": "แอปที่ใช้งานง่าย เชื่อถือได้ และราคาสมเหตุสมผลที่ถ่ายโอนข้อมูลการถ่ายภาพรวมถึงตำแหน่งภูมิศาสตร์ไปยัง EXIF ของภาพนิเกตีฟที่สแกน ผู้พัฒนาฟังความคิดเห็นและปรับปรุงอย่างต่อเนื่อง ยอดเยี่ยม!",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            },
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "BHenriquez" },
+            "datePublished": "2025-05-08",
+            "name": "Review by BHenriquez",
+            "reviewBody": "ในฐานะช่างภาพฟิล์มที่ล้างเองที่บ้าน ฉันชอบที่ Frames ให้ฉันบันทึกทุกภาพโดยไม่ต้องยุ่งยากกับสมุดบันทึก มันเป็นวิธีแก้ปัญหาที่สมบูรณ์แบบและใช้งานได้จริง อัปเกรดเป็น Pro แล้วไม่เคยหันกลับ!",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            },
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "Emma Richardson" },
+            "datePublished": "2025-08-23",
+            "name": "Review by Emma Richardson",
+            "reviewBody": "ยอดเยี่ยมสำหรับบันทึกการเปิดรับแสงและตำแหน่งเมื่อถ่ายฟิล์ม เหมาะสำหรับวิเคราะห์การตั้งค่าหรือเก็บข้อมูลแบบ EXIF ผู้พัฒนาแก้ไขบั๊กภายในหนึ่งวัน แนะนำเป็นอย่างยิ่ง!",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            },
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "Roger Nordstrom Photo" },
+            "datePublished": "2025-04-15",
+            "name": "Review by Roger Nordstrom Photo",
+            "reviewBody": "เมื่อฉันกลับมาถ่ายฟิล์ม ฉันคิดถึงเมตาดาตาจนกระทั่งพบ Frames มันทดแทนการจดบันทึกบนกระดาษ ช่วยให้ฉันจัดระเบียบและทำให้ฉันใส่ใจมากขึ้นเมื่อถ่ายภาพ จำเป็นสำหรับช่างภาพฟิล์ม!",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            },
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "James Anderson" },
+            "datePublished": "2025-09-05",
+            "name": "Review by James Anderson",
+            "reviewBody": "คุณสามารถบอกได้ว่าผู้พัฒนาใช้แอปด้วยตัวเอง ทุกรายละเอียดเล็กๆ รู้สึกว่าตั้งใจทำและอินเทอร์เฟซสะอาดและเรียบง่าย ทุกอย่างทำงานได้อย่างราบรื่น เป็นแอปบันทึกฟิล์มที่ดีที่สุดที่มี!",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            },
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "Maria Garcia" },
+            "datePublished": "2025-07-12",
+            "name": "Review by Maria Garcia",
+            "reviewBody": "แอปที่ใช้งานง่าย เชื่อถือได้ และราคาสมเหตุสมผลที่ถ่ายโอนข้อมูลการถ่ายภาพรวมถึงตำแหน่งภูมิศาสตร์ไปยัง EXIF ของภาพนิเกตีฟที่สแกน ผู้พัฒนาฟังความคิดเห็นและปรับปรุงอย่างต่อเนื่อง ยอดเยี่ยม!",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            },
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "BHenriquez" },
+            "datePublished": "2025-05-08",
+            "name": "Review by BHenriquez",
+            "reviewBody": "ในฐานะช่างภาพฟิล์มที่ล้างเองที่บ้าน ฉันชอบที่ Frames ให้ฉันบันทึกทุกภาพโดยไม่ต้องยุ่งยากกับสมุดบันทึก มันเป็นวิธีแก้ปัญหาที่สมบูรณ์แบบและใช้งานได้จริง อัปเกรดเป็น Pro แล้วไม่เคยหันกลับ!",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            }
+          ]
+        },
+        {
+          "@type": "SoftwareApplication",
+          "name": "Frames macOS",
+          "operatingSystem": "macOS 15.0",
+          "applicationCategory": "MultimediaApplication",
+          "inLanguage": "th",
+          "description": "Frames เป็นแอปถ่ายภาพฟิล์มสำหรับช่างภาพอนาล็อก บันทึกทุกภาพ ติดตามการตั้งค่ากล้อง จัดระเบียบฟิล์ม และบันทึกเมตาดาตา EXIF บน iPhone และ Mac",
+          "image": "https://withframes.com/th/og-image.jpg",
+          "url": "https://apps.apple.com/th/app/frames-film-metadata/id6744063354?l=th",
+          "installUrl": "https://apps.apple.com/th/app/frames-film-metadata/id6744063354?l=th",
+          "softwareVersion": "1.8.0",
+          "mainEntity": {
+            "@type": "WebPage",
+            "@id": "https://withframes.com/"
+          },
+          "author": {
+            "@type": "Person",
+            "name": "Vincent Tantardini"
+          },
+          "offers": {
+            "@type": "Offer",
+            "price": "0",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock"
+          },
+          "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "5",
+            "reviewCount": "4"
+          }
+        },
+        {
+          "@type": "WebPage",
+          "@id": "https://withframes.com/thth/",
+          "url": "https://withframes.com/thth/",
+          "name": "Frames – แอปถ่ายภาพฟิล์มสำหรับบันทึกและเมตาดาตา",
+          "description": "Frames เป็นแอปถ่ายภาพฟิล์มสำหรับช่างภาพอนาล็อก บันทึกทุกภาพ ติดตามการตั้งค่ากล้อง จัดระเบียบฟิล์ม และบันทึกเมตาดาตา EXIF บน iPhone และ Mac",
+          "inLanguage": "th",
+          "publisher": {
+            "@id": "https://withframes.com/#organization"
+          }
+        },
+        {
+          "@type": "VideoObject",
+          "name": "แอปถ่ายภาพฟิล์มเพื่อบันทึกและติดตามฟิล์มของคุณ (Frames สำหรับ iPhone)",
+          "description": "ค้นพบ Frames แอปถ่ายภาพฟิล์มเฉพาะทางที่ออกแบบมาสำหรับนักถ่ายภาพอนาล็อก Frames ทำให้การจัดการการถ่ายภาพอนาล็อกของคุณง่ายดาย ช่วยคุณบันทึกไม่เพียงแต่ภาพของคุณเท่านั้น แต่ยังรวมถึงเรื่องราวเบื้องหลังทุกฟิล์มและทุกเฟรม ไม่ว่าคุณจะทำงานกับฟิล์ม 35mm มีเดียมฟอร์แมต หรือลาร์จฟอร์แมต Frames ทำให้ขั้นตอนการทำงานของคุณเป็นระเบียบและรับรองว่าเมตาดาตาภาพของคุณยังคงอยู่กับภาพของคุณแม้หลังจากการสแกน",
+          "thumbnailUrl": "https://i.ytimg.com/vi/KRLS5tpmvJM/hqdefault.jpg",
+          "uploadDate": "2025-09-12T00:00:00+00:00",
+          "duration": "PT1M25S",
+          "embedUrl": "https://www.youtube.com/embed/KRLS5tpmvJM",
+          "contentUrl": "https://www.youtube.com/watch?v=KRLS5tpmvJM",
+          "publisher": {
+            "@id": "https://withframes.com/#organization"
+          }
+        },
+        {
+          "@type": "Organization",
+          "@id": "https://withframes.com/#organization",
+          "name": "Frames",
+          "url": "https://withframes.com/",
+          "logo": "https://withframes.com/apple-touch-icon.png",
+          "contactPoint": {
+            "@type": "ContactPoint",
+            "email": "bonjour@withframes.com",
+            "contactType": "Customer Support",
+            "areaServed": "Worldwide",
+            "availableLanguage": ["English", "French"]
+          },
+          "sameAs": [
+            "https://twitter.com/withframes",
+            "https://www.facebook.com/framesapp",
+            "https://www.instagram.com/with_frames/",
+            "https://linkedin.com/company/withframes/",
+            "https://pinterest.com/framesapp/",
+            "https://mastodon.social/@frames",
+            "https://bsky.app/profile/withframes.bsky.social",
+            "https://www.tiktok.com/@with_frames",
+            "https://www.youtube.com/@withframes",
+            "https://g.co/kgs/5oEvXT5",
+            "https://apps.apple.com/th/app/frames-film-photography/id6744057317?l=th",
+            "https://apps.apple.com/th/app/frames-film-metadata/id6744063354?l=th"
+          ]
+        }
+      ]
+    }

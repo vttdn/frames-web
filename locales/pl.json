@@ -1,0 +1,296 @@
+{
+  "meta": {
+    "title": "Frames – Aplikacja do Fotografii Analogowej i Metadanych",
+    "description": "Frames to aplikacja do fotografii analogowej. Zapisuj każde zdjęcie, śledź ustawienia aparatu, organizuj klisze i zapisuj metadane EXIF na iPhone i Mac.",
+    "locale": "pl_PL",
+    "canonical_url": "https://withframes.com/pl/",
+    "lang": "pl",
+    "twitter_card": "summary_large_image",
+    "twitter_site": "@withframes",
+    "twitter_creator": "@withframes",
+    "og_type": "website",
+    "og_site_name": "Frames"
+  },
+  "header": {
+    "logo_text": "Frames",
+    "logo_aria_label": "Strona główna Frames",
+    "navigation": {
+      "aria_label": "Nawigacja główna",
+      "features": "Funkcje",
+      "documentation": "Dokumentacja",
+      "changelog": "Changelog"
+    },
+    "buttons": {
+      "share": "Udostępnij",
+      "download": "Pobierz"
+    }
+  },
+  "share_dropdown": {
+    "facebook": "Facebook",
+    "twitter": "Twitter / X",
+    "linkedin": "LinkedIn",
+    "whatsapp": "WhatsApp",
+    "reddit": "Reddit",
+    "email": "E-mail"
+  },
+  "mobile_menu": {
+    "open_aria_label": "Otwórz menu mobilne",
+    "close_aria_label": "Zamknij menu mobilne",
+    "navigation_aria_label": "Nawigacja mobilna",
+    "features": "Funkcje",
+    "documentation": "Dokumentacja",
+    "changelog": "Changelog",
+    "privacy": "Prywatność"
+  },
+  "hero": {
+    "heading": "Niezbędny notatnik fotograficzny,<br>\nstworzony dla fotografów analogowych.",
+    "button_macos_text": "Pobierz dla macOS",
+    "button_macos_aria_label": "Pobierz Frames dla macOS",
+    "button_ios_text": "Pobierz dla iOS",
+    "button_ios_aria_label": "Pobierz Frames dla iOS",
+    "play_button_aria_label": "Odtwórz demo wideo",
+    "images": {
+      "hero": {
+        "src": "/lib/img/pl/hero.png",
+        "alt": "Frames aplikacja do fotografii analogowej dla Mac i iPhone, zaprojektowana do rejestrowania klisz, zarządzania metadanymi i archiwizowania zdjęć analogowych."
+      },
+      "hero_mobile": {
+        "src": "/lib/img/pl/hero-mobile.png",
+        "alt": "Frames aplikacja do fotografii analogowej dla Mac i iPhone, zaprojektowana do rejestrowania klisz, zarządzania metadanymi i archiwizowania zdjęć analogowych."
+      }
+    },
+    "featured": {
+      "aria_label": "Wyróżnione publikacje",
+      "text": "Polecana przez społeczność fotograficzną."
+    }
+  },
+  "preview": {
+    "images": {
+      "preview1": {
+        "src": "/lib/img/pl/preview1.png",
+        "alt": "Frames aplikacja do fotografii analogowej pokazująca interfejs nagrywania z wyborem czasu naświetlania i przysłony do rejestrowania ekspozycji."
+      },
+      "preview2": {
+        "src": "/lib/img/pl/preview2.png",
+        "alt": "Frames aplikacja analogowa wyświetlająca szczegółowe opcje metadanych, w tym ekspozycję, rodzaj kliszy, aparat, obiektyw i warunki fotografowania."
+      },
+      "preview3": {
+        "src": "/lib/img/pl/preview3.png",
+        "alt": "Frames aplikacja do fotografii analogowej na macOS pokazująca zorganizowane klisze w widoku biblioteki podczas przeglądania folderów."
+      },
+      "preview4": {
+        "src": "/lib/img/pl/preview4.png",
+        "alt": "Frames aplikacja analogowa prezentująca ustawienia sprzętu z szczegółami aparatu, obiektywu i filtrów do zarządzania wyposażeniem fotograficznym."
+      },
+      "preview5": {
+        "src": "/lib/img/pl/preview5.png",
+        "alt": "Frames aplikacja do fotografii analogowej eksportująca dane jako pliki .frames, .txt lub .gpx do tworzenia kopii zapasowych i udostępniania dzienników i metadanych."
+      },
+      "preview6": {
+        "src": "/lib/img/pl/preview6.png",
+        "alt": "Frames metadane zintegrowane z Finder, Adobe Lightroom, Adobe Bridge, Google Photos, Darktable i Flickr dla fotografów analogowych."
+      }
+    }
+  },
+  "reviews": {
+    "aria_label": "Opinie klientów",
+    "review1": {
+      "quote": "Łatwa w użyciu, niezawodna i uczciwie wyceniona aplikacja, która przenosi dane fotograficzne, w tym geolokalizację, do metadanych EXIF zeskanowanych negatywów. Deweloper słucha opinii i stale się rozwija. Doskonała!",
+      "author_name": "Maria Garcia",
+      "date": "12 lipca 2025",
+      "datetime": "2025-07-12"
+    },
+    "review2": {
+      "quote": "Jako fotograf analogowy wywołujący filmy w domu, uwielbiam to, jak Frames pozwala mi rejestrować każde zdjęcie bez kłopotu z notatnikami. To idealne i praktyczne rozwiązanie. Wykupiłem wersję Pro i nigdy nie żałowałem!",
+      "author_name": "BHenriquez",
+      "date": "8 maja 2025",
+      "datetime": "2025-05-08"
+    },
+    "review3": {
+      "quote": "Świetna do zapisywania ekspozycji i lokalizacji podczas fotografowania na kliszy, idealna do analizy ustawień lub przechowywania danych w stylu EXIF. Deweloper naprawił błąd w ciągu dnia. Gorąco polecam!",
+      "author_name": "Emma Richardson",
+      "date": "23 sierpnia 2025",
+      "datetime": "2025-08-23"
+    },
+    "review4": {
+      "quote": "Wracając do fotografii analogowej, brakowało mi metadanych, aż znalazłem Frames. Zastępuje papierowe notatki, pomaga mi pozostać zorganizowanym i bardziej świadomie fotografować. Pozycja obowiązkowa dla fotografów analogowych!",
+      "author_name": "Roger Nordstrom Photo",
+      "date": "15 kwietnia 2025",
+      "datetime": "2025-04-15"
+    },
+    "review5": {
+      "quote": "Widać, że deweloper sam używa tej aplikacji. Każdy mały szczegół wydaje się przemyślany, a interfejs jest czysty i prosty. Wszystko działa płynnie. Z łatwością najlepsza aplikacja do notatek filmowych dostępna na rynku!",
+      "author_name": "James Anderson",
+      "date": "5 września 2025",
+      "datetime": "2025-09-05"
+    },
+    "details": {
+      "description1": "Zaprojektowana z opinii społeczności fotografów analogowych, aby uczynić rejestrowanie danych przejrzystym i przyjemnym.",
+      "description2": "Dołącz do tysięcy fotografów wprowadzających porządek i wgląd w swoje doświadczenie fotografii analogowej dzięki Frames."
+    },
+    "navigation": {
+      "aria_label": "Nawigacja opinii",
+      "previous_aria_label": "Poprzednia opinia",
+      "next_aria_label": "Następna opinia"
+    }
+  },
+  "features": {
+    "heading": "Funkcje",
+    "feature1": {
+      "label": "Archiwum",
+      "title": "Organizuj Bibliotekę",
+      "description": "Przeglądaj i zarządzaj wszystkimi kliszami bez wysiłku, zachowując każdą sesję klarownie ustrukturyzowaną, łatwą do odnalezienia i idealnie zorganizowaną."
+    },
+    "feature2": {
+      "label": "Wyposażenie",
+      "title": "Zarządzaj Sprzętem",
+      "description": "Prowadź szczegółowy rejestr swoich aparatów, obiektywów i filtrów, aby zachować spójność i mieć wszystkie informacje o sprzęcie gotowe na każdą sesję."
+    },
+    "feature3": {
+      "label": "Nagrywanie",
+      "title": "Zapisuj Ustawienia",
+      "description": "Rejestruj przysłonę, czas naświetlania, rodzaj kliszy i szczegóły lokalizacji natychmiast dla każdej klatki, zachowując informacje dokładne i dostępne."
+    },
+    "feature4": {
+      "label": "Historia",
+      "title": "Przeglądaj Zdjęcia",
+      "description": "Przeglądaj zarejestrowane klisze, aby sprawdzić ustawienia, przeanalizować poprzednie sesje, wyciągnąć z nich wnioski i udoskonalić swój proces fotograficzny."
+    },
+    "feature5": {
+      "label": "Eksporty",
+      "title": "Eksportuj Dane",
+      "description": "Zapisuj lub udostępniaj swoje zapisy jako pliki .frames, .txt lub .gpx do tworzenia kopii zapasowych, udostępniania lub integracji z innymi aplikacjami."
+    },
+    "feature6": {
+      "label": "Metadane",
+      "title": "Zapisuj Metadane",
+      "description": "Osadzaj wszystkie zarejestrowane dane w zeskanowanych obrazach, aby zachować informacje analogowe, jednocześnie synchronizując swoje cyfrowe archiwa."
+    },
+    "feature7": {
+      "label": "Wsparcie",
+      "title": "Pomoc E-mailowa",
+      "description": "Skontaktuj się bezpośrednio z deweloperem, aby uzyskać pomoc, podzielić się opinią lub zasugerować nowe funkcje i ulepszenia w dowolnym momencie, z szybkimi odpowiedziami."
+    }
+  },
+  "pricing": {
+    "heading": "Cennik",
+    "ios": {
+      "title": "iOS",
+      "price": "9,99 zł",
+      "period": "/mies.",
+      "includes_label": "Zawiera:",
+      "features": [
+        "Nieograniczone klisze",
+        "Podfoldery",
+        "Eksport danych jako .frames",
+        "Eksport danych jako .txt lub .gpx"
+      ],
+      "button_text": "Wypróbuj Za Darmo"
+    },
+    "macos": {
+      "title": "macOS",
+      "price": "9,99 zł",
+      "period": "/mies.",
+      "includes_label": "Zawiera:",
+      "features": [
+        "Zapisywanie metadanych do zdjęć"
+      ],
+      "button_text": "Wypróbuj Za Darmo"
+    },
+    "checkmark": "✓"
+  },
+  "qa": {
+    "heading": "Pytania i Odpowiedzi",
+    "question1": {
+      "question": "Jakie metadane mogę rejestrować?",
+      "answer": "Frames pozwala zapisywać szczegółowe informacje dla każdego zdjęcia, w tym aparat, obiektyw, filtry, numer klatki, ogniskową, przysłonę, czas naświetlania, ISO, tryb pomiaru, rodzaj kliszy, flesz, lokalizację GPS, znaczniki czasu i własne notatki, zapewniając, że nigdy nie stracisz ważnych szczegółów fotografii analogowej."
+    },
+    "question2": {
+      "question": "Jakie formaty obrazów są obsługiwane?",
+      "answer": "Frames obsługuje formaty JPEG, TIFF i DNG, umożliwiając bezpośrednie osadzanie zarejestrowanych metadanych w zeskanowanych zdjęciach analogowych dla płynnej organizacji i przepływu pracy na wszystkich urządzeniach."
+    },
+    "question3": {
+      "question": "Czy Frames jest dostępny na Androida lub Windows?",
+      "answer": "Frames jest obecnie dostępny dla iPhone i macOS. Wersje dla Androida i Windows są planowane na 2026 rok, a w międzyczasie możesz udostępniać i zarządzać danymi poprzez eksport plików .frames."
+    },
+    "question4": {
+      "question": "Jakie czasy naświetlania i przysłony są obsługiwane?",
+      "answer": "Frames zapewnia domyślne sekwencje pokrywające większość obiektywów i aparatów, a także możesz definiować własne sekwencje dla swojego sprzętu, co czyni go kompatybilnym z dowolnymi wartościami czasu naświetlania lub przysłony."
+    },
+    "question5": {
+      "question": "Czy mogę rejestrować statywy lub akcesoria?",
+      "answer": "Tak, Frames pozwala rejestrować statywy, lampy błyskowe i inne akcesoria. Istnieje również dodatkowe pole notatek, w którym możesz dodać dowolne własne szczegóły."
+    },
+    "question6": {
+      "question": "Jakie są plany dotyczące przyszłych aktualizacji?",
+      "answer": "Przyszłe plany obejmują rozszerzanie funkcji przepływu pracy, poprawę integracji między urządzeniami i dodawanie nowych narzędzi zgłaszanych przez społeczność, aby uczynić rejestrowanie fotografii analogowej jeszcze bardziej elastycznym i potężnym."
+    }
+  },
+  "contact": {
+    "heading": "Podziel się swoimi pomysłami i przemyśleniami.",
+    "button_text": "Wyślij nam e-mail"
+  },
+  "footer": {
+    "logo_alt": "Frames",
+    "connect": {
+      "heading": "Kontakt",
+      "instagram": "Instagram",
+      "threads": "Threads",
+      "facebook": "Facebook",
+      "bluesky": "Bluesky",
+      "mastodon": "Mastodon",
+      "twitter": "Twitter"
+    },
+    "resources": {
+      "heading": "Zasoby",
+      "privacy_policy": "Polityka Prywatności",
+      "terms_of_service": "Warunki Użytkowania",
+      "documentation": "Dokumentacja",
+      "changelog": "Changelog",
+      "youtube": "Youtube"
+    },
+    "product": {
+      "heading": "Produkt",
+      "frames_ios": "Frames iOS",
+      "frames_macos": "Frames macOS"
+    },
+    "copyright": "© 2025 Vincent Tantardini.",
+    "all_rights_reserved": "Wszelkie prawa zastrzeżone.",
+    "language_dropdown": {
+      "label": "Polski",
+      "aria_label": "Wybór języka"
+    }
+  },
+  "urls": {
+    "appstore_ios": "https://apps.apple.com/pl/app/frames-notatnik-do-kliszy/id6744057317?l=pl",
+    "appstore_macos": "https://apps.apple.com/pl/app/frames-metadane-kliszy/id6744063354?l=pl",
+    "documentation": "doc/",
+    "changelog": "changelog/",
+    "privacy": "polityka-prywatnosci/"
+  },
+  "video": {
+    "title": "Aplikacja do Fotografii Analogowej do Zapisywania i Śledzenia Klisz (Frames dla iPhone)",
+    "description": "Odkryj Frames, dedykowaną aplikację do fotografii analogowej zaprojektowaną dla fotografów analogowych. Frames sprawia, że zarządzanie fotografią analogową jest bezproblemowe, pomagając rejestrować nie tylko zdjęcia, ale także historię każdej kliszy i klatki. Niezależnie od tego, czy pracujesz z kliszami 35mm, średnioformatowymi czy wielkoformatowymi, Frames utrzymuje porządek w przepływie pracy i zapewnia, że metadane zdjęć pozostają z obrazami nawet po skanowaniu."
+  },
+  "privacy": {
+    "meta": {
+      "title": "Polityka Prywatności - Frames",
+      "description": "Przeczytaj politykę prywatności Frames, aplikacji notatnika do fotografii analogowej. Dowiedz się, jak dbamy o Twoje dane na urządzeniach mobilnych i komputerach.",
+      "canonical_url": "https://withframes.com/pl/polityka-prywatnosci/"
+    },
+    "heading": "Polityka Prywatności",
+    "section1": {
+      "heading": "Nasze Zobowiązanie do Twojej Prywatności",
+      "paragraph1": "Ta aplikacja nie zbiera, nie przechowuje ani nie udostępnia żadnych danych osobowych. Wszystkie dane użytkownika są przechowywane lokalnie na Twoim urządzeniu i nigdy nie są przesyłane na żaden serwer ani do stron trzecich. Nie używamy analityki, śledzenia ani usług online, które zbierają informacje o użytkownikach.",
+      "paragraph2": "Aplikacja umożliwia jednak eksportowanie plików. Wszelkie dane, które zdecydujesz się udostępnić lub zapisać zewnętrznie, są pod Twoją kontrolą. Deweloper nie śledzi ani nie uzyskuje dostępu do eksportowanych plików."
+    },
+    "section2": {
+      "heading": "Kontakt",
+      "paragraph1": "Jeśli masz jakieś pytania lub wątpliwości, możesz skontaktować się z nami pod adresem:"
+    },
+    "last_updated_label": "Ostatnia aktualizacja",
+    "last_updated": "15 marca 2025",
+    "last_updated_iso": "2025-03-15",
+    "button_home": "Strona Główna"
+  }
+}

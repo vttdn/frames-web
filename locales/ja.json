@@ -1,0 +1,296 @@
+{
+  "meta": {
+    "title": "Frames – フィルム写真アプリ。撮影記録とメタデータ管理に",
+    "description": "Framesはフィルム写真アプリです。すべてのショットを記録し、カメラ設定を管理、ロールを整理、iPhoneとMacでEXIFメタデータを保存できます。",
+    "locale": "ja_JP",
+    "canonical_url": "https://withframes.com/ja/",
+    "lang": "ja",
+    "twitter_card": "summary_large_image",
+    "twitter_site": "@withframes",
+    "twitter_creator": "@withframes",
+    "og_type": "website",
+    "og_site_name": "Frames"
+  },
+  "header": {
+    "logo_text": "Frames",
+    "logo_aria_label": "Framesホーム",
+    "navigation": {
+      "aria_label": "メインナビゲーション",
+      "features": "機能",
+      "documentation": "ドキュメント",
+      "changelog": "更新履歴"
+    },
+    "buttons": {
+      "share": "シェア",
+      "download": "ダウンロード"
+    }
+  },
+  "share_dropdown": {
+    "facebook": "Facebook",
+    "twitter": "Twitter / X",
+    "linkedin": "LinkedIn",
+    "whatsapp": "WhatsApp",
+    "reddit": "Reddit",
+    "email": "メール"
+  },
+  "mobile_menu": {
+    "open_aria_label": "モバイルメニューを開く",
+    "close_aria_label": "モバイルメニューを閉じる",
+    "navigation_aria_label": "モバイルナビゲーション",
+    "features": "機能",
+    "documentation": "ドキュメント",
+    "changelog": "更新履歴",
+    "privacy": "プライバシー"
+  },
+  "hero": {
+    "heading": "アナログ撮影者のための、<br>\n必須の写真ノートブック。",
+    "button_macos_text": "macOS版をダウンロード",
+    "button_macos_aria_label": "Frames macOS版をダウンロード",
+    "button_ios_text": "iOS版をダウンロード",
+    "button_ios_aria_label": "Frames iOS版をダウンロード",
+    "play_button_aria_label": "デモ動画を再生",
+    "images": {
+      "hero": {
+        "src": "/lib/img/ja/hero.png",
+        "alt": "MacとiPhone向けFramesフィルム写真アプリ。フィルムロールの記録、メタデータ管理、アナログ写真のアーカイブに最適です。"
+      },
+      "hero_mobile": {
+        "src": "/lib/img/ja/hero-mobile.png",
+        "alt": "MacとiPhone向けFramesフィルム写真アプリ。フィルムロールの記録、メタデータ管理、アナログ写真のアーカイブに最適です。"
+      }
+    },
+    "featured": {
+      "aria_label": "掲載メディア",
+      "text": "写真コミュニティで紹介されています。"
+    }
+  },
+  "preview": {
+    "images": {
+      "preview1": {
+        "src": "/lib/img/ja/preview1.png",
+        "alt": "Framesフィルム写真アプリの記録インターフェース。シャッター速度と絞りの選択で露出を記録します。"
+      },
+      "preview2": {
+        "src": "/lib/img/ja/preview2.png",
+        "alt": "Framesアナログ写真アプリ。露出、フィルム、カメラ、レンズ、撮影条件などの詳細なメタデータオプションを表示します。"
+      },
+      "preview3": {
+        "src": "/lib/img/ja/preview3.png",
+        "alt": "macOS版Framesフィルム写真アプリ。ライブラリビューで整理されたフィルムロールを表示します。"
+      },
+      "preview4": {
+        "src": "/lib/img/ja/preview4.png",
+        "alt": "Framesアナログ写真アプリの機材設定画面。カメラ、レンズ、フィルターの詳細を管理します。"
+      },
+      "preview5": {
+        "src": "/lib/img/ja/preview5.png",
+        "alt": "Framesフィルム写真アプリのデータエクスポート機能。.frames、.txt、.gpxファイルでバックアップと共有が可能です。"
+      },
+      "preview6": {
+        "src": "/lib/img/ja/preview6.png",
+        "alt": "Framesアナログ写真アプリのメタデータはFinder、Adobe Lightroom、Adobe Bridge、Google Photos、Darktable、Flickrと統合できます。"
+      }
+    }
+  },
+  "reviews": {
+    "aria_label": "ユーザーレビュー",
+    "review1": {
+      "quote": "使いやすく、信頼性が高く、適正価格のアプリです。位置情報を含む撮影データをスキャンしたネガのEXIFに転送できます。開発者はフィードバックに耳を傾け、改善を続けています。素晴らしい!",
+      "author_name": "Maria Garcia",
+      "date": "2025年7月12日",
+      "datetime": "2025-07-12"
+    },
+    "review2": {
+      "quote": "自家現像するフィルム写真家として、Framesでノートの手間なく全ショットを記録できるのが気に入っています。完璧で実用的なソリューションです。Proにアップグレードして後悔なし!",
+      "author_name": "BHenriquez",
+      "date": "2025年5月8日",
+      "datetime": "2025-05-08"
+    },
+    "review3": {
+      "quote": "フィルム撮影時の露出と位置情報の記録に最適。設定の分析やEXIF形式のデータ保存に理想的です。開発者が1日でバグを修正してくれました。強くおすすめします!",
+      "author_name": "Emma Richardson",
+      "date": "2025年8月23日",
+      "datetime": "2025-08-23"
+    },
+    "review4": {
+      "quote": "フィルム写真に戻ったとき、メタデータがないのが残念でしたが、Framesを見つけました。紙のメモに代わり、整理整頓でき、撮影時の意識も高まります。フィルム写真家必携です!",
+      "author_name": "Roger Nordstrom Photo",
+      "date": "2025年4月15日",
+      "datetime": "2025-04-15"
+    },
+    "review5": {
+      "quote": "開発者自身がアプリを使っていることがわかります。細部まで意図的で、インターフェースはクリーンでシンプル。すべてがスムーズに動作します。間違いなく最高のフィルム記録アプリです!",
+      "author_name": "James Anderson",
+      "date": "2025年9月5日",
+      "datetime": "2025-09-05"
+    },
+    "details": {
+      "description1": "フィルムコミュニティのフィードバックを基に設計され、データ記録を明確で楽しいものにしています。",
+      "description2": "Framesを使って、フィルム撮影体験に秩序と洞察をもたらしている何千人もの写真家の仲間入りをしましょう。"
+    },
+    "navigation": {
+      "aria_label": "レビューナビゲーション",
+      "previous_aria_label": "前のレビュー",
+      "next_aria_label": "次のレビュー"
+    }
+  },
+  "features": {
+    "heading": "機能",
+    "feature1": {
+      "label": "アーカイブ",
+      "title": "ライブラリを整理",
+      "description": "すべてのフィルムロールを簡単に閲覧、整理、管理できます。各セッションを明確に構造化し、簡単に見つけられ、完璧に整理された状態を保ちます。"
+    },
+    "feature2": {
+      "label": "機材",
+      "title": "機材を管理",
+      "description": "カメラ、レンズ、フィルターの詳細な記録を保持し、一貫性を保ちます。各撮影に必要なすべての機材情報をすぐに利用できます。"
+    },
+    "feature3": {
+      "label": "記録",
+      "title": "設定を記録",
+      "description": "各フレームの絞り、シャッター速度、フィルム、位置情報の詳細を即座に記録し、すべてのショット情報を正確でアクセス可能な状態に保ちます。"
+    },
+    "feature4": {
+      "label": "履歴",
+      "title": "撮影を見返す",
+      "description": "記録したロールを振り返って設定を確認し、以前のセッションを分析し、そこから学び、フィルム写真ワークフローを改善できます。"
+    },
+    "feature5": {
+      "label": "エクスポート",
+      "title": "記録をエクスポート",
+      "description": "記録を.frames、.txt、.gpxファイルとして保存または共有し、バックアップ、共有、他のアプリやワークフローとの統合に活用できます。"
+    },
+    "feature6": {
+      "label": "メタデータ",
+      "title": "メタデータを保存",
+      "description": "記録したすべてのデータをスキャンした画像に埋め込み、アナログ情報を保持しながらデジタルアーカイブを完全に同期させます。"
+    },
+    "feature7": {
+      "label": "サポート",
+      "title": "メールサポート",
+      "description": "開発者に直接連絡してヘルプを受けたり、フィードバックを共有したり、新機能を提案したりできます。迅速な対応をお約束します。"
+    }
+  },
+  "pricing": {
+    "heading": "料金",
+    "ios": {
+      "title": "iOS",
+      "price": "¥300",
+      "period": "/月",
+      "includes_label": "含まれる機能:",
+      "features": [
+        "無制限のフィルムロール",
+        "サブフォルダ",
+        ".framesでデータエクスポート",
+        ".txtまたは.gpxでデータエクスポート"
+      ],
+      "button_text": "無料で試す"
+    },
+    "macos": {
+      "title": "macOS",
+      "price": "¥300",
+      "period": "/月",
+      "includes_label": "含まれる機能:",
+      "features": [
+        "写真にメタデータを保存"
+      ],
+      "button_text": "無料で試す"
+    },
+    "checkmark": "✓"
+  },
+  "qa": {
+    "heading": "質問と回答",
+    "question1": {
+      "question": "どのようなメタデータを記録できますか?",
+      "answer": "Framesでは、カメラ、レンズ、フィルター、フレーム番号、焦点距離、絞り、シャッター速度、ISO、測光モード、フィルム、フラッシュ、GPS位置情報、タイムスタンプ、カスタムメモなど、すべてのショットの詳細情報を記録でき、重要なアナログ写真の詳細を失うことはありません。"
+    },
+    "question2": {
+      "question": "どの画像フォーマットに対応していますか?",
+      "answer": "FramesはJPEG、TIFF、DNG形式に対応しており、記録したメタデータをスキャンしたアナログ写真に直接埋め込むことができ、デバイス間でシームレスな整理とワークフローを実現します。"
+    },
+    "question3": {
+      "question": "FramesはAndroidやWindowsで利用できますか?",
+      "answer": "Framesは現在iPhoneとmacOSで利用できます。AndroidとWindows版は2026年に予定されており、それまでは.framesファイルのエクスポート経由でデータを共有・管理できます。"
+    },
+    "question4": {
+      "question": "どのシャッター速度と絞りに対応していますか?",
+      "answer": "Framesはほとんどのレンズとカメラをカバーするデフォルトのシーケンスを提供しており、機材に合わせてカスタムシーケンスも定義できるため、あらゆるシャッター速度や絞り値に対応できます。"
+    },
+    "question5": {
+      "question": "三脚やアクセサリーを記録できますか?",
+      "answer": "はい、Framesでは三脚、フラッシュ、その他のアクセサリーを記録できます。また、追加のメモフィールドがあり、任意のカスタム詳細を追加できます。"
+    },
+    "question6": {
+      "question": "今後のアップデート計画は?",
+      "answer": "今後の計画には、ワークフロー機能の拡張、デバイス間統合の改善、コミュニティから要望された新しいツールの追加が含まれており、アナログ写真の記録をさらに柔軟で強力にします。"
+    }
+  },
+  "contact": {
+    "heading": "あなたのアイデアや考えをお聞かせください。",
+    "button_text": "メールを送る"
+  },
+  "footer": {
+    "logo_alt": "Frames",
+    "connect": {
+      "heading": "つながる",
+      "instagram": "Instagram",
+      "threads": "Threads",
+      "facebook": "Facebook",
+      "bluesky": "Bluesky",
+      "mastodon": "Mastodon",
+      "twitter": "Twitter"
+    },
+    "resources": {
+      "heading": "リソース",
+      "privacy_policy": "プライバシーポリシー",
+      "terms_of_service": "利用規約",
+      "documentation": "ドキュメント",
+      "changelog": "更新履歴",
+      "youtube": "Youtube"
+    },
+    "product": {
+      "heading": "製品",
+      "frames_ios": "Frames iOS",
+      "frames_macos": "Frames macOS"
+    },
+    "copyright": "© 2025 Vincent Tantardini.",
+    "all_rights_reserved": "All rights reserved.",
+    "language_dropdown": {
+      "label": "日本語",
+      "aria_label": "言語選択"
+    }
+  },
+  "urls": {
+    "appstore_ios": "https://apps.apple.com/jp/app/frames-フィルム写真ノート/id6744057317",
+    "appstore_macos": "https://apps.apple.com/jp/app/frames-フィルム写真メタデータ/id6744063354",
+    "documentation": "doc/",
+    "changelog": "changelog/",
+    "privacy": "privacy/"
+  },
+  "video": {
+    "title": "フィルムロールを記録・追跡するフィルム写真アプリ(iPhone版Frames)",
+    "description": "アナログ撮影者のために設計された専用フィルム写真アプリ、Framesをご紹介します。Framesはアナログ写真の管理を簡単にし、ショットだけでなく、すべてのロールとフレームの背景にあるストーリーも記録します。35mm、中判、大判フィルムのどれを使用していても、Framesはワークフローを整理し、スキャン後も写真メタデータを画像と一緒に保持します。"
+  },
+  "privacy": {
+    "meta": {
+      "title": "プライバシーポリシー - Frames",
+      "description": "アナログ写真ノートアプリFramesのプライバシーポリシーをご覧ください。モバイルとデスクトップでデータを大切に扱う方法をご確認ください。",
+      "canonical_url": "https://withframes.com/ja/privacy/"
+    },
+    "heading": "プライバシーポリシー",
+    "section1": {
+      "heading": "プライバシーへの取り組み",
+      "paragraph1": "このアプリは個人データを収集、保存、共有しません。すべてのユーザーデータはデバイスにローカルに保存され、サーバーやサードパーティに送信されることはありません。ユーザー情報を収集する分析、トラッキング、オンラインサービスは使用していません。",
+      "paragraph2": "ただし、アプリではファイルのエクスポートが可能です。外部で共有または保存するデータはすべてユーザーの管理下にあります。開発者はエクスポートされたファイルを追跡またはアクセスすることはありません。"
+    },
+    "section2": {
+      "heading": "お問い合わせ",
+      "paragraph1": "ご質問やご不明な点がございましたら、以下までご連絡ください:"
+    },
+    "last_updated_label": "最終更新",
+    "last_updated": "2025年3月15日",
+    "last_updated_iso": "2025-03-15",
+    "button_home": "ホーム"
+  }
+}

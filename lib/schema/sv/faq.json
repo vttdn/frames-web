@@ -1,0 +1,46 @@
+{
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Vilka metadata kan jag registrera?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Frames låter dig logga detaljerad information för varje bild, inklusive kamera, objektiv, filter, bildnummer, brännvidd, bländare, slutartid, ISO, mätläge, filmtyp, blixt, GPS-plats, tidsstämplar och egna anteckningar, så du aldrig förlorar viktiga analogfotografidetaljer."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Vilka bildformat stöds?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Frames stöder JPEG, TIFF och DNG-format, vilket låter dig bädda in dina registrerade metadata direkt i skannade analoga foton för sömlös organisation och arbetsflöde mellan dina enheter."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Finns Frames på Android eller Windows?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Frames är för närvarande tillgänglig för iPhone och macOS. Versioner för Android och Windows planeras till 2026, och under tiden kan du dela och hantera din data via .frames-filexport."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Vilka slutartider och bländare stöds?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Frames erbjuder standardsekvenser som täcker de flesta objektiv och kameror, och du kan även definiera egna sekvenser för din utrustning, vilket gör den kompatibel med alla slutartids- eller bländarvärden."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Kan jag logga stativ eller tillbehör?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ja, Frames låter dig registrera stativ, blixtar och andra tillbehör. Det finns även ett extra anteckningsfält där du kan lägga till egna detaljer du vill."
+          }
+        }
+      ]
+    }

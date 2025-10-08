@@ -1,0 +1,223 @@
+{
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "MobileApplication",
+          "name": "Frames iOS",
+          "operatingSystem": "iOS 18.0",
+          "applicationCategory": "MultimediaApplication",
+          "inLanguage": "ko",
+          "description": "Frames는 필름 사진 앱입니다. 모든 촬영을 기록하고, 카메라 설정을 추적하며, 롤을 정리하고, iPhone과 Mac에서 EXIF 메타데이터를 저장하세요.",
+          "image": "https://withframes.com/ko/og-image.jpg",
+          "url": "https://apps.apple.com/kr/app/frames-필름-사진-노트/id6744057317",
+          "installUrl": "https://apps.apple.com/kr/app/frames-필름-사진-노트/id6744057317",
+          "softwareVersion": "1.13.1",
+          "screenshot": "https://withframes.com/ko/og-image.jpg",
+          "isAccessibleForFree": true,
+          "keywords": "film photography app, analog photography, EXIF metadata, film camera notes, photography workflow, film photography organization",
+          "maintainer": {
+            "@type": "Person",
+            "name": "Vincent Tantardini"
+          },
+          "countriesSupported": [
+            "US", "GB", "FR", "DE", "IT", "ES", "CA", "AU",
+            "JP", "KR", "NL", "SE", "NO", "FI", "DK", "NZ"
+          ],
+          "mainEntity": {
+            "@type": "WebPage",
+            "@id": "https://withframes.com/"
+          },
+          "author": {
+            "@type": "Person",
+            "name": "Vincent Tantardini"
+          },
+          "offers": {
+            "@type": "Offer",
+            "price": "0",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock"
+          },
+          "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "4.9",
+            "reviewCount": "12"
+          },
+          "review": [
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "Maria Garcia" },
+            "datePublished": "2025-07-12",
+            "name": "Review by Maria Garcia",
+            "reviewBody": "사용하기 쉽고 안정적이며 합리적인 가격의 앱으로, 위치 정보를 포함한 촬영 데이터를 스캔한 네거티브의 EXIF에 전송합니다. 개발자는 피드백을 경청하고 지속적으로 개선합니다. 훌륭합니다!",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            },
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "BHenriquez" },
+            "datePublished": "2025-05-08",
+            "name": "Review by BHenriquez",
+            "reviewBody": "직접 현상하는 필름 사진가로서 Frames가 노트 없이 모든 촬영을 기록할 수 있게 해주는 점이 정말 좋습니다. 완벽하고 실용적인 솔루션입니다. Pro로 업그레이드했고 후회가 없습니다!",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            },
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "Emma Richardson" },
+            "datePublished": "2025-08-23",
+            "name": "Review by Emma Richardson",
+            "reviewBody": "필름 촬영 시 노출과 위치를 기록하기에 훌륭하며, 설정 분석이나 EXIF 스타일 데이터 보관에 이상적입니다. 개발자가 하루 만에 버그를 수정했습니다. 강력 추천합니다!",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            },
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "Roger Nordstrom Photo" },
+            "datePublished": "2025-04-15",
+            "name": "Review by Roger Nordstrom Photo",
+            "reviewBody": "필름으로 돌아오면서 메타데이터가 그리웠는데 Frames를 발견했습니다. 종이 노트를 대체하고, 정리된 상태를 유지하며, 촬영 시 더 신중해지게 합니다. 필름 사진가의 필수품입니다!",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            },
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "James Anderson" },
+            "datePublished": "2025-09-05",
+            "name": "Review by James Anderson",
+            "reviewBody": "개발자도 이 앱을 사용한다는 것을 알 수 있습니다. 모든 작은 디테일이 의도적이고 인터페이스는 깔끔하고 간단합니다. 모든 것이 부드럽게 작동합니다. 사용 가능한 최고의 필름 노트 앱입니다!",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            },
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "Maria Garcia" },
+            "datePublished": "2025-07-12",
+            "name": "Review by Maria Garcia",
+            "reviewBody": "사용하기 쉽고 안정적이며 합리적인 가격의 앱으로, 위치 정보를 포함한 촬영 데이터를 스캔한 네거티브의 EXIF에 전송합니다. 개발자는 피드백을 경청하고 지속적으로 개선합니다. 훌륭합니다!",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            },
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "BHenriquez" },
+            "datePublished": "2025-05-08",
+            "name": "Review by BHenriquez",
+            "reviewBody": "직접 현상하는 필름 사진가로서 Frames가 노트 없이 모든 촬영을 기록할 수 있게 해주는 점이 정말 좋습니다. 완벽하고 실용적인 솔루션입니다. Pro로 업그레이드했고 후회가 없습니다!",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            }
+          ]
+        },
+        {
+          "@type": "SoftwareApplication",
+          "name": "Frames macOS",
+          "operatingSystem": "macOS 15.0",
+          "applicationCategory": "MultimediaApplication",
+          "inLanguage": "ko",
+          "description": "Frames는 필름 사진 앱입니다. 모든 촬영을 기록하고, 카메라 설정을 추적하며, 롤을 정리하고, iPhone과 Mac에서 EXIF 메타데이터를 저장하세요.",
+          "image": "https://withframes.com/ko/og-image.jpg",
+          "url": "https://apps.apple.com/kr/app/frames-필름-사진-메타데이터/id6744063354",
+          "installUrl": "https://apps.apple.com/kr/app/frames-필름-사진-메타데이터/id6744063354",
+          "softwareVersion": "1.8.0",
+          "mainEntity": {
+            "@type": "WebPage",
+            "@id": "https://withframes.com/"
+          },
+          "author": {
+            "@type": "Person",
+            "name": "Vincent Tantardini"
+          },
+          "offers": {
+            "@type": "Offer",
+            "price": "0",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock"
+          },
+          "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "5",
+            "reviewCount": "4"
+          }
+        },
+        {
+          "@type": "WebPage",
+          "@id": "https://withframes.com/koko/",
+          "url": "https://withframes.com/koko/",
+          "name": "Frames – 필름 사진 앱, 아날로그 사진 노트 & 메타데이터",
+          "description": "Frames는 필름 사진 앱입니다. 모든 촬영을 기록하고, 카메라 설정을 추적하며, 롤을 정리하고, iPhone과 Mac에서 EXIF 메타데이터를 저장하세요.",
+          "inLanguage": "ko",
+          "publisher": {
+            "@id": "https://withframes.com/#organization"
+          }
+        },
+        {
+          "@type": "VideoObject",
+          "name": "필름 롤 기록 및 추적을 위한 필름 사진 앱 (iPhone용 Frames)",
+          "description": "아날로그 사진가를 위해 설계된 전용 필름 사진 앱 Frames를 만나보세요. Frames는 아날로그 사진 관리를 간편하게 만들어 촬영뿐만 아니라 모든 롤과 프레임 뒤의 이야기를 기록할 수 있도록 도와줍니다. 35mm, 중형 또는 대형 필름으로 작업하든, Frames는 워크플로우를 정리된 상태로 유지하고 스캔 후에도 사진 메타데이터가 이미지와 함께 유지되도록 보장합니다.",
+          "thumbnailUrl": "https://i.ytimg.com/vi/KRLS5tpmvJM/hqdefault.jpg",
+          "uploadDate": "2025-09-12T00:00:00+00:00",
+          "duration": "PT1M25S",
+          "embedUrl": "https://www.youtube.com/embed/KRLS5tpmvJM",
+          "contentUrl": "https://www.youtube.com/watch?v=KRLS5tpmvJM",
+          "publisher": {
+            "@id": "https://withframes.com/#organization"
+          }
+        },
+        {
+          "@type": "Organization",
+          "@id": "https://withframes.com/#organization",
+          "name": "Frames",
+          "url": "https://withframes.com/",
+          "logo": "https://withframes.com/apple-touch-icon.png",
+          "contactPoint": {
+            "@type": "ContactPoint",
+            "email": "bonjour@withframes.com",
+            "contactType": "Customer Support",
+            "areaServed": "Worldwide",
+            "availableLanguage": ["English", "French"]
+          },
+          "sameAs": [
+            "https://twitter.com/withframes",
+            "https://www.facebook.com/framesapp",
+            "https://www.instagram.com/with_frames/",
+            "https://linkedin.com/company/withframes/",
+            "https://pinterest.com/framesapp/",
+            "https://mastodon.social/@frames",
+            "https://bsky.app/profile/withframes.bsky.social",
+            "https://www.tiktok.com/@with_frames",
+            "https://www.youtube.com/@withframes",
+            "https://g.co/kgs/5oEvXT5",
+            "https://apps.apple.com/kr/app/frames-필름-사진-노트/id6744057317",
+            "https://apps.apple.com/kr/app/frames-필름-사진-메타데이터/id6744063354"
+          ]
+        }
+      ]
+    }

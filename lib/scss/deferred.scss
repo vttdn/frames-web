@@ -1,0 +1,43 @@
+/**
+ * Deferred CSS - Below the Fold
+ *
+ * This file contains styles for content that appears below the fold:
+ * - Preview section
+ * - Reviews carousel
+ * - Features grid
+ * - Pricing section
+ * - Q&A section
+ * - Footer
+ * - Interactive overlays (mobile menu, video, dropdown)
+ *
+ * This should be loaded asynchronously to avoid blocking initial render.
+ */
+
+// Mixins (required for compilation)
+@use 'mixins' as *;
+
+// Dropdown (share button in header, but not critical)
+@use 'dropdown';
+
+// Carousel (reviews section)
+@use 'carousel';
+
+// Reviews Section
+@use 'reviews';
+
+// Features Grid
+@use 'features';
+
+// Pricing Section
+@use 'pricing';
+
+// Q&A Section
+@use 'qa';
+
+// Footer
+@use 'footer';
+
+// Overlays (interactive elements)
+@use 'overlay';
+@use 'video-overlay';
+@use 'mobile-menu';

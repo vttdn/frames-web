@@ -1,0 +1,223 @@
+{
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "MobileApplication",
+          "name": "Frames iOS",
+          "operatingSystem": "iOS 18.0",
+          "applicationCategory": "MultimediaApplication",
+          "inLanguage": "ja",
+          "description": "Framesはフィルム写真アプリです。すべてのショットを記録し、カメラ設定を管理、ロールを整理、iPhoneとMacでEXIFメタデータを保存できます。",
+          "image": "https://withframes.com/ja/og-image.jpg",
+          "url": "https://apps.apple.com/jp/app/frames-フィルム写真ノート/id6744057317",
+          "installUrl": "https://apps.apple.com/jp/app/frames-フィルム写真ノート/id6744057317",
+          "softwareVersion": "1.13.1",
+          "screenshot": "https://withframes.com/ja/og-image.jpg",
+          "isAccessibleForFree": true,
+          "keywords": "film photography app, analog photography, EXIF metadata, film camera notes, photography workflow, film photography organization",
+          "maintainer": {
+            "@type": "Person",
+            "name": "Vincent Tantardini"
+          },
+          "countriesSupported": [
+            "US", "GB", "FR", "DE", "IT", "ES", "CA", "AU",
+            "JP", "KR", "NL", "SE", "NO", "FI", "DK", "NZ"
+          ],
+          "mainEntity": {
+            "@type": "WebPage",
+            "@id": "https://withframes.com/"
+          },
+          "author": {
+            "@type": "Person",
+            "name": "Vincent Tantardini"
+          },
+          "offers": {
+            "@type": "Offer",
+            "price": "0",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock"
+          },
+          "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "4.9",
+            "reviewCount": "12"
+          },
+          "review": [
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "Maria Garcia" },
+            "datePublished": "2025-07-12",
+            "name": "Review by Maria Garcia",
+            "reviewBody": "使いやすく、信頼性が高く、適正価格のアプリです。位置情報を含む撮影データをスキャンしたネガのEXIFに転送できます。開発者はフィードバックに耳を傾け、改善を続けています。素晴らしい!",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            },
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "BHenriquez" },
+            "datePublished": "2025-05-08",
+            "name": "Review by BHenriquez",
+            "reviewBody": "自家現像するフィルム写真家として、Framesでノートの手間なく全ショットを記録できるのが気に入っています。完璧で実用的なソリューションです。Proにアップグレードして後悔なし!",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            },
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "Emma Richardson" },
+            "datePublished": "2025-08-23",
+            "name": "Review by Emma Richardson",
+            "reviewBody": "フィルム撮影時の露出と位置情報の記録に最適。設定の分析やEXIF形式のデータ保存に理想的です。開発者が1日でバグを修正してくれました。強くおすすめします!",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            },
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "Roger Nordstrom Photo" },
+            "datePublished": "2025-04-15",
+            "name": "Review by Roger Nordstrom Photo",
+            "reviewBody": "フィルム写真に戻ったとき、メタデータがないのが残念でしたが、Framesを見つけました。紙のメモに代わり、整理整頓でき、撮影時の意識も高まります。フィルム写真家必携です!",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            },
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "James Anderson" },
+            "datePublished": "2025-09-05",
+            "name": "Review by James Anderson",
+            "reviewBody": "開発者自身がアプリを使っていることがわかります。細部まで意図的で、インターフェースはクリーンでシンプル。すべてがスムーズに動作します。間違いなく最高のフィルム記録アプリです!",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            },
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "Maria Garcia" },
+            "datePublished": "2025-07-12",
+            "name": "Review by Maria Garcia",
+            "reviewBody": "使いやすく、信頼性が高く、適正価格のアプリです。位置情報を含む撮影データをスキャンしたネガのEXIFに転送できます。開発者はフィードバックに耳を傾け、改善を続けています。素晴らしい!",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            },
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "BHenriquez" },
+            "datePublished": "2025-05-08",
+            "name": "Review by BHenriquez",
+            "reviewBody": "自家現像するフィルム写真家として、Framesでノートの手間なく全ショットを記録できるのが気に入っています。完璧で実用的なソリューションです。Proにアップグレードして後悔なし!",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            }
+          ]
+        },
+        {
+          "@type": "SoftwareApplication",
+          "name": "Frames macOS",
+          "operatingSystem": "macOS 15.0",
+          "applicationCategory": "MultimediaApplication",
+          "inLanguage": "ja",
+          "description": "Framesはフィルム写真アプリです。すべてのショットを記録し、カメラ設定を管理、ロールを整理、iPhoneとMacでEXIFメタデータを保存できます。",
+          "image": "https://withframes.com/ja/og-image.jpg",
+          "url": "https://apps.apple.com/jp/app/frames-フィルム写真メタデータ/id6744063354",
+          "installUrl": "https://apps.apple.com/jp/app/frames-フィルム写真メタデータ/id6744063354",
+          "softwareVersion": "1.8.0",
+          "mainEntity": {
+            "@type": "WebPage",
+            "@id": "https://withframes.com/"
+          },
+          "author": {
+            "@type": "Person",
+            "name": "Vincent Tantardini"
+          },
+          "offers": {
+            "@type": "Offer",
+            "price": "0",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock"
+          },
+          "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "5",
+            "reviewCount": "4"
+          }
+        },
+        {
+          "@type": "WebPage",
+          "@id": "https://withframes.com/jaja/",
+          "url": "https://withframes.com/jaja/",
+          "name": "Frames – フィルム写真アプリ。撮影記録とメタデータ管理に",
+          "description": "Framesはフィルム写真アプリです。すべてのショットを記録し、カメラ設定を管理、ロールを整理、iPhoneとMacでEXIFメタデータを保存できます。",
+          "inLanguage": "ja",
+          "publisher": {
+            "@id": "https://withframes.com/#organization"
+          }
+        },
+        {
+          "@type": "VideoObject",
+          "name": "フィルムロールを記録・追跡するフィルム写真アプリ(iPhone版Frames)",
+          "description": "アナログ撮影者のために設計された専用フィルム写真アプリ、Framesをご紹介します。Framesはアナログ写真の管理を簡単にし、ショットだけでなく、すべてのロールとフレームの背景にあるストーリーも記録します。35mm、中判、大判フィルムのどれを使用していても、Framesはワークフローを整理し、スキャン後も写真メタデータを画像と一緒に保持します。",
+          "thumbnailUrl": "https://i.ytimg.com/vi/KRLS5tpmvJM/hqdefault.jpg",
+          "uploadDate": "2025-09-12T00:00:00+00:00",
+          "duration": "PT1M25S",
+          "embedUrl": "https://www.youtube.com/embed/KRLS5tpmvJM",
+          "contentUrl": "https://www.youtube.com/watch?v=KRLS5tpmvJM",
+          "publisher": {
+            "@id": "https://withframes.com/#organization"
+          }
+        },
+        {
+          "@type": "Organization",
+          "@id": "https://withframes.com/#organization",
+          "name": "Frames",
+          "url": "https://withframes.com/",
+          "logo": "https://withframes.com/apple-touch-icon.png",
+          "contactPoint": {
+            "@type": "ContactPoint",
+            "email": "bonjour@withframes.com",
+            "contactType": "Customer Support",
+            "areaServed": "Worldwide",
+            "availableLanguage": ["English", "French"]
+          },
+          "sameAs": [
+            "https://twitter.com/withframes",
+            "https://www.facebook.com/framesapp",
+            "https://www.instagram.com/with_frames/",
+            "https://linkedin.com/company/withframes/",
+            "https://pinterest.com/framesapp/",
+            "https://mastodon.social/@frames",
+            "https://bsky.app/profile/withframes.bsky.social",
+            "https://www.tiktok.com/@with_frames",
+            "https://www.youtube.com/@withframes",
+            "https://g.co/kgs/5oEvXT5",
+            "https://apps.apple.com/jp/app/frames-フィルム写真ノート/id6744057317",
+            "https://apps.apple.com/jp/app/frames-フィルム写真メタデータ/id6744063354"
+          ]
+        }
+      ]
+    }

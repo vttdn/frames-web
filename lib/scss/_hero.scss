@@ -1,0 +1,52 @@
+@use 'mixins' as *;
+
+/* Hero Section */
+.hero {
+  margin-top: var(--spacing-5xl);
+}
+
+.hero-image {
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+
+    /* Override container-ratio for hero images */
+    &::before {
+        display: none !important;
+    }
+
+    img {
+        position: static;
+        object-fit: cover;
+    }
+}
+
+.hero-content {
+    margin-bottom: var(--spacing-4xl);
+
+    .btn {
+        align-self: flex-start;
+    }
+}
+
+.hero-featured {
+    margin-top: var(--spacing-4xl);
+}
+
+.featured-text {
+    font-size: var(--font-size-sm);
+}
+
+.featured-logos {
+    gap: var(--spacing-lg) 4.5rem; /* 16px vertical, 72px horizontal */
+    flex-wrap: wrap;
+    justify-content: center;
+
+    @include tablet-down {
+        gap: var(--spacing-2xl) 4.5rem;
+    }
+
+    @include mobile {
+        gap: var(--spacing-xl) var(--spacing-2xl);
+    }
+}

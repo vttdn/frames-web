@@ -1,0 +1,46 @@
+{
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Welche Metadaten kann ich erfassen?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Frames ermöglicht detaillierte Aufzeichnungen für jede Aufnahme: Kamera, Objektiv, Filter, Bildnummer, Brennweite, Blende, Verschlusszeit, ISO, Messmodus, Filmtyp, Blitz, GPS-Standort, Zeitstempel und individuelle Notizen – damit Sie keine wichtigen Details Ihrer Analogfotografie verlieren."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Welche Bildformate werden unterstützt?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Frames unterstützt JPEG, TIFF und DNG. Sie können Ihre erfassten Metadaten direkt in gescannte analoge Fotos einbetten – für nahtlose Organisation und Workflow auf allen Ihren Geräten."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Gibt es Frames für Android oder Windows?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Frames ist aktuell für iPhone und macOS verfügbar. Versionen für Android und Windows sind für 2026 geplant. In der Zwischenzeit können Sie Ihre Daten über .frames-Dateiexporte teilen und verwalgen."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Welche Verschlusszeiten und Blenden werden unterstützt?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Frames bietet Standardsequenzen für die meisten Objektive und Kameras. Sie können auch eigene Sequenzen für Ihre Ausrüstung definieren – kompatibel mit allen Verschlusszeit- und Blendenwerten."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Kann ich Stative oder Zubehör dokumentieren?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ja, Frames ermöglicht die Erfassung von Stativen, Blitzen und anderem Zubehör. Ein zusätzliches Notizfeld steht für beliebige individuelle Details zur Verfügung."
+          }
+        }
+      ]
+    }

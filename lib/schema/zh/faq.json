@@ -1,0 +1,46 @@
+{
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "我可以记录哪些元数据？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Frames 允许您为每张照片记录详细信息，包括相机、镜头、滤镜、画幅编号、焦距、光圈、快门速度、ISO、测光模式、胶片类型、闪光灯、GPS 位置、时间戳和自定义笔记，确保您永远不会丢失重要的胶片摄影细节。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "支持哪些图像格式？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Frames 支持 JPEG、TIFF 和 DNG 格式，允许您将记录的元数据直接嵌入扫描的胶片照片中，以便在所有设备之间无缝组织和工作流程。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Frames 有 Android 或 Windows 版本吗？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Frames 目前适用于 iPhone 和 macOS。Android 和 Windows 版本计划于 2026 年推出，在此期间，您可以通过 .frames 文件导出分享和管理您的数据。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "支持哪些快门速度和光圈？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Frames 提供涵盖大多数镜头和相机的默认序列，您还可以为您的设备定义自定义序列，使其与任何快门速度或光圈值兼容。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "我可以记录三脚架或配件吗？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "是的，Frames 允许您记录三脚架、闪光灯和其他配件。还有一个额外的笔记字段，您可以在其中添加任何想要的自定义详情。"
+          }
+        }
+      ]
+    }

@@ -1,0 +1,42 @@
+/**
+ * Critical CSS - Above the Fold
+ *
+ * This file contains only the styles needed for initial page render:
+ * - CSS variables
+ * - Base styles and resets
+ * - Header (sticky navigation)
+ * - Hero section
+ * - Essential utilities
+ *
+ * This should be inlined in the <head> for optimal performance.
+ */
+
+// Mixins (required for compilation)
+@use 'mixins' as *;
+
+// CSS Custom Properties
+@use 'root';
+
+// Base Styles & Resets
+@use 'base';
+
+// Essential Utilities
+@use 'utilities';
+
+// Layout System (Grid)
+@use 'layout';
+
+// Aspect Ratio Containers
+@use 'ratio';
+
+// Links
+@use 'links';
+
+// Buttons (for hero CTA and play button)
+@use 'buttons';
+
+// Header (sticky navigation - critical for UX)
+@use 'header';
+
+// Hero Section (above the fold)
+@use 'hero';

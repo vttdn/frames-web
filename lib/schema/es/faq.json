@@ -1,0 +1,46 @@
+{
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "¿Qué metadatos puedo registrar?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Frames te permite registrar información detallada de cada toma, incluyendo cámara, objetivo, filtros, número de fotograma, distancia focal, apertura, velocidad de obturación, ISO, modo de medición, película, flash, ubicación GPS, marcas de tiempo y notas personalizadas, asegurando que nunca pierdas detalles importantes de tu fotografía analógica."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Qué formatos de imagen están soportados?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Frames soporta formatos JPEG, TIFF y DNG, permitiéndote integrar tus metadatos registrados directamente en fotos analógicas escaneadas para una organización fluida y un flujo de trabajo sin interrupciones en todos tus dispositivos."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Está Frames disponible en Android o Windows?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Frames está actualmente disponible para iPhone y macOS. Las versiones para Android y Windows están previstas para 2026, y mientras tanto, puedes compartir y gestionar tus datos mediante exportaciones de archivos .frames."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Qué velocidades de obturación y aperturas están soportadas?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Frames proporciona secuencias predeterminadas que cubren la mayoría de objetivos y cámaras, y también puedes definir secuencias personalizadas para tu equipo, haciéndolo compatible con cualquier valor de velocidad de obturación o apertura."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Puedo registrar trípodes o accesorios?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sí, Frames te permite registrar trípodes, flashes y otros accesorios. También hay un campo de notas adicional donde puedes añadir cualquier detalle personalizado que desees."
+          }
+        }
+      ]
+    }

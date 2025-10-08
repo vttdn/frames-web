@@ -1,0 +1,296 @@
+{
+  "meta": {
+    "title": "Frames – Film Photography App for Analog Notes & Metadata",
+    "description": "Frames is a film photography app for analog photographers. Log every shot, track camera settings, organize rolls, and save EXIF metadata on iPhone & Mac.",
+    "locale": "en_US",
+    "canonical_url": "https://withframes.com/",
+    "lang": "en",
+    "twitter_card": "summary_large_image",
+    "twitter_site": "@withframes",
+    "twitter_creator": "@withframes",
+    "og_type": "website",
+    "og_site_name": "Frames"
+  },
+  "header": {
+    "logo_text": "Frames",
+    "logo_aria_label": "Frames Home",
+    "navigation": {
+      "aria_label": "Main navigation",
+      "features": "Features",
+      "documentation": "Documentation",
+      "changelog": "Changelog"
+    },
+    "buttons": {
+      "share": "Share",
+      "download": "Download"
+    }
+  },
+  "share_dropdown": {
+    "facebook": "Facebook",
+    "twitter": "Twitter / X",
+    "linkedin": "LinkedIn",
+    "whatsapp": "WhatsApp",
+    "reddit": "Reddit",
+    "email": "Email"
+  },
+  "mobile_menu": {
+    "open_aria_label": "Open mobile menu",
+    "close_aria_label": "Close mobile menu",
+    "navigation_aria_label": "Mobile navigation",
+    "features": "Features",
+    "documentation": "Documentation",
+    "changelog": "Changelog",
+    "privacy": "Privacy"
+  },
+  "hero": {
+    "heading": "The essential photography notebook,<br>\ndesigned for analog shooters.",
+    "button_macos_text": "Download for macOS",
+    "button_macos_aria_label": "Download Frames for macOS",
+    "button_ios_text": "Download for iOS",
+    "button_ios_aria_label": "Download Frames for iOS",
+    "play_button_aria_label": "Play video demo",
+    "images": {
+      "hero": {
+        "src": "/lib/img/en/hero.png",
+        "alt": "Frames film photography app and analog photography app for Mac and iPhone, designed to log film rolls, manage metadata, and archive analog photos."
+      },
+      "hero_mobile": {
+        "src": "/lib/img/en/hero-mobile.png",
+        "alt": "Frames film photography app and analog photography app for Mac and iPhone, designed to log film rolls, manage metadata, and archive analog photos."
+      }
+    },
+    "featured": {
+      "aria_label": "Featured publications",
+      "text": "Featured across the photography community."
+    }
+  },
+  "preview": {
+    "images": {
+      "preview1": {
+        "src": "/lib/img/en/preview1.png",
+        "alt": "Frames film photography app and analog photography app showing the recorder interface with shutter speed and aperture selection for logging film exposures."
+      },
+      "preview2": {
+        "src": "/lib/img/en/preview2.png",
+        "alt": "Frames analog photography app displaying detailed metadata options including exposure, film stock, camera, lens, and shooting conditions for film photographers."
+      },
+      "preview3": {
+        "src": "/lib/img/en/preview3.png",
+        "alt": "Frames film photography app on macOS showing organized film rolls in the library view when browsing folders of analog photos."
+      },
+      "preview4": {
+        "src": "/lib/img/en/preview4.png",
+        "alt": "Frames analog photography app presenting gear settings with camera, lens, and filter details to manage analog photography equipment."
+      },
+      "preview5": {
+        "src": "/lib/img/en/preview5.png",
+        "alt": "Frames film photography app exporting data as .frames, .txt, or .gpx files for backing up and sharing analog photography logs and metadata."
+      },
+      "preview6": {
+        "src": "/lib/img/en/preview6.png",
+        "alt": "Frames analog photography app metadata integrated with Finder, Adobe Lightroom, Adobe Bridge, Google Photos, Darktable, and Flickr for film photographers."
+      }
+    }
+  },
+  "reviews": {
+    "aria_label": "Customer reviews",
+    "review1": {
+      "quote": "Easy to use, reliable, and fairly priced app that transfers shooting data, including geolocation, into scanned negatives' EXIF. The developer listens to feedback and keeps improving. Excellent!",
+      "author_name": "Maria Garcia",
+      "date": "July 12, 2025",
+      "datetime": "2025-07-12"
+    },
+    "review2": {
+      "quote": "As a home-developing film photographer, I love how Frames lets me log every shot without the hassle of notebooks. It is the perfect and practical solution. Went Pro and never looked back!",
+      "author_name": "BHenriquez",
+      "date": "May 8, 2025",
+      "datetime": "2025-05-08"
+    },
+    "review3": {
+      "quote": "Great for recording exposure and location when shooting film, ideal for analyzing settings or keeping EXIF-style data. The developer fixed a bug within a day. Highly recommended!",
+      "author_name": "Emma Richardson",
+      "date": "August 23, 2025",
+      "datetime": "2025-08-23"
+    },
+    "review4": {
+      "quote": "Getting back into film, I missed having metadata until I found Frames. It replaces paper notes, helps me stay organized, and keeps me mindful when shooting. A must-have for film photographers!",
+      "author_name": "Roger Nordstrom Photo",
+      "date": "April 15, 2025",
+      "datetime": "2025-04-15"
+    },
+    "review5": {
+      "quote": "You can tell the developer uses the app too. Every small detail feels intentional, and the interface is clean and simple. Everything works smoothly. Easily the best film notes app available!",
+      "author_name": "James Anderson",
+      "date": "September 5, 2025",
+      "datetime": "2025-09-05"
+    },
+    "details": {
+      "description1": "Designed with feedback from the film community to make data logging clear and enjoyable.",
+      "description2": "Join thousands of photographers bringing order and insight to their film shooting experience with Frames."
+    },
+    "navigation": {
+      "aria_label": "Review navigation",
+      "previous_aria_label": "Previous review",
+      "next_aria_label": "Next review"
+    }
+  },
+  "features": {
+    "heading": "Features",
+    "feature1": {
+      "label": "Archive",
+      "title": "Organize Library",
+      "description": "Browse, organize, and manage all your film rolls effortlessly, keeping each session clearly structured, easy to find, and perfectly organized."
+    },
+    "feature2": {
+      "label": "Equipment",
+      "title": "Manage Gears",
+      "description": "Keep a detailed record of your cameras, lenses, and filters to stay consistent and have all your gear info ready for each shoot."
+    },
+    "feature3": {
+      "label": "Record",
+      "title": "Capture Settings",
+      "description": "Log aperture, shutter speed, film stock, and location details instantly for each frame, keeping every shot’s information accurate and accessible."
+    },
+    "feature4": {
+      "label": "History",
+      "title": "Revisit Shots",
+      "description": "Look back at your logged rolls to review settings, analyze previous sessions, learn from them, and refine your film photography workflow."
+    },
+    "feature5": {
+      "label": "Exports",
+      "title": "Export Records",
+      "description": "Save or share your records as .frames, .txt, or .gpx files for backup, sharing, or integrating your data with other apps or workflows."
+    },
+    "feature6": {
+      "label": "Metadata",
+      "title": "Save Metadata",
+      "description": "Embed all recorded data into scanned images to preserve analog information while keeping your digital archives fully synchronized."
+    },
+    "feature7": {
+      "label": "Support",
+      "title": "Email Support",
+      "description": "Reach out directly to the developer for help, share feedback, or suggest new features and improvements anytime, with quick responses."
+    }
+  },
+  "pricing": {
+    "heading": "Pricing",
+    "ios": {
+      "title": "iOS",
+      "price": "$1.99",
+      "period": "/mo.",
+      "includes_label": "Includes:",
+      "features": [
+        "Unlimited film rolls",
+        "Subfolders",
+        "Export data as .frames",
+        "Export data as .txt or .gpx"
+      ],
+      "button_text": "Try it Free"
+    },
+    "macos": {
+      "title": "macOS",
+      "price": "$1.99",
+      "period": "/mo.",
+      "includes_label": "Includes:",
+      "features": [
+        "Save metadata to photos"
+      ],
+      "button_text": "Try it Free"
+    },
+    "checkmark": "✓"
+  },
+  "qa": {
+    "heading": "Questions & Answers",
+    "question1": {
+      "question": "What metadata can I record?",
+      "answer": "Frames lets you log detailed information for every shot, including camera, lens, filters, frame number, focal length, aperture, shutter speed, ISO, metering mode, film stock, flash, GPS location, timestamps, and custom notes, ensuring you never lose track of important analog photography details."
+    },
+    "question2": {
+      "question": "Which image formats are supported?",
+      "answer": "Frames supports JPEG, TIFF, and DNG formats, allowing you to embed your recorded metadata directly into scanned analog photos for seamless organization and workflow across your devices."
+    },
+    "question3": {
+      "question": "Is Frames on Android or Windows?",
+      "answer": "Frames is currently available for iPhone and macOS. Versions for Android and Windows are planned for 2026, and in the meantime, you can share and manage your data via .frames file exports."
+    },
+    "question4": {
+      "question": "Which shutter speeds and apertures are supported?",
+      "answer": "Frames provides default sequences that cover most lenses and cameras, and you can also define custom sequences for your gear, making it compatible with any shutter speed or aperture values."
+    },
+    "question5": {
+      "question": "Can I log tripods or accessories?",
+      "answer": "Yes, Frames lets you record tripods, flashes, and other accessories. There’s also an extra note field where you can add any custom details you want."
+    },
+    "question6": {
+      "question": "What are the plans for future updates?",
+      "answer": "Future plans include expanding workflow features, improving integration across devices, and adding new tools requested by the community to make analog photography logging even more flexible and powerful."
+    }
+  },
+  "contact": {
+    "heading": "Let’s hear your ideas and thoughts.",
+    "button_text": "Send us an email"
+  },
+  "footer": {
+    "logo_alt": "Frames",
+    "connect": {
+      "heading": "Connect",
+      "instagram": "Instagram",
+      "threads": "Threads",
+      "facebook": "Facebook",
+      "bluesky": "Bluesky",
+      "mastodon": "Mastodon",
+      "twitter": "Twitter"
+    },
+    "resources": {
+      "heading": "Resources",
+      "privacy_policy": "Privacy Policy",
+      "terms_of_service": "Terms of Service",
+      "documentation": "Documentation",
+      "changelog": "Changelog",
+      "youtube": "Youtube"
+    },
+    "product": {
+      "heading": "Product",
+      "frames_ios": "Frames iOS",
+      "frames_macos": "Frames macOS"
+    },
+    "copyright": "© 2025 Vincent Tantardini.",
+    "all_rights_reserved": "All rights reserved.",
+    "language_dropdown": {
+      "label": "English",
+      "aria_label": "Language selector"
+    }
+  },
+  "urls": {
+    "appstore_ios": "https://apps.apple.com/app/frames-film-notes/id6744057317",
+    "appstore_macos": "https://apps.apple.com/app/frames-film-metadata/id6744063354",
+    "documentation": "doc/",
+    "changelog": "changelog/",
+    "privacy": "privacy/"
+  },
+  "video": {
+    "title": "Film Photography App to Log & Track Your Rolls (Frames for iPhone)",
+    "description": "Discover Frames, the dedicated film photography app designed for analog shooters. Frames makes managing your analog photography effortless, helping you record not only your shots but also the story behind every roll and frame. Whether you work with 35mm, medium format, or large format film, Frames keeps your workflow organized and ensures your photo metadata stays with your images, even after scanning."
+  },
+  "privacy": {
+    "meta": {
+      "title": "Privacy Policy - Frames",
+      "description": "Read the privacy policy for Frames, the analog photography notebook app. Learn how we handle your data with care on both mobile and desktop.",
+      "canonical_url": "https://withframes.com/privacy/"
+    },
+    "heading": "Privacy Policy",
+    "section1": {
+      "heading": "Our Commitment to Your Privacy",
+      "paragraph1": "This app does not collect, store, or share any personal data. All user data is stored locally on your device and never transmitted to any server or third party. We do not use analytics, tracking, or online services that collect user information.",
+      "paragraph2": "However, the app allows you to export files. Any data you choose to share or save externally is under your control. The developer does not track or access exported files."
+    },
+    "section2": {
+      "heading": "Contact",
+      "paragraph1": "If you have any questions or concerns, you can get in touch at:"
+    },
+    "last_updated_label": "Last updated",
+    "last_updated": "Mar 15, 2025",
+    "last_updated_iso": "2025-03-15",
+    "button_home": "Home"
+  }
+}

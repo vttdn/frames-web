@@ -1,0 +1,223 @@
+{
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "MobileApplication",
+          "name": "Frames iOS",
+          "operatingSystem": "iOS 18.0",
+          "applicationCategory": "MultimediaApplication",
+          "inLanguage": "fr",
+          "description": "Frames est une application photo argentique. Enregistrez chaque prise, suivez les réglages, organisez vos pellicules et sauvegardez les métadonnées EXIF sur iPhone & Mac.",
+          "image": "https://withframes.com/fr/og-image.jpg",
+          "url": "https://apps.apple.com/fr/app/frames-notes-argentiques/id6744057317",
+          "installUrl": "https://apps.apple.com/fr/app/frames-notes-argentiques/id6744057317",
+          "softwareVersion": "1.13.1",
+          "screenshot": "https://withframes.com/fr/og-image.jpg",
+          "isAccessibleForFree": true,
+          "keywords": "film photography app, analog photography, EXIF metadata, film camera notes, photography workflow, film photography organization",
+          "maintainer": {
+            "@type": "Person",
+            "name": "Vincent Tantardini"
+          },
+          "countriesSupported": [
+            "US", "GB", "FR", "DE", "IT", "ES", "CA", "AU",
+            "JP", "KR", "NL", "SE", "NO", "FI", "DK", "NZ"
+          ],
+          "mainEntity": {
+            "@type": "WebPage",
+            "@id": "https://withframes.com/"
+          },
+          "author": {
+            "@type": "Person",
+            "name": "Vincent Tantardini"
+          },
+          "offers": {
+            "@type": "Offer",
+            "price": "0",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock"
+          },
+          "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "4.9",
+            "reviewCount": "12"
+          },
+          "review": [
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "Maria Garcia" },
+            "datePublished": "2025-07-12",
+            "name": "Review by Maria Garcia",
+            "reviewBody": "Application simple, fiable et bien tarifée qui transfère les données de prise de vue, y compris la géolocalisation, dans les EXIF des négatifs numérisés. Le développeur écoute les retours et améliore continuellement. Excellent !",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            },
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "BHenriquez" },
+            "datePublished": "2025-05-08",
+            "name": "Review by BHenriquez",
+            "reviewBody": "En tant que photographe argentique qui développe à la maison, j'adore comment Frames me permet de noter chaque photo sans le tracas des carnets. C'est la solution parfaite et pratique. Je suis passé Pro et je ne reviendrai jamais en arrière !",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            },
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "Emma Richardson" },
+            "datePublished": "2025-08-23",
+            "name": "Review by Emma Richardson",
+            "reviewBody": "Idéal pour enregistrer l'exposition et la localisation lors de prises de vue argentiques, parfait pour analyser les réglages ou conserver des données type EXIF. Le développeur a corrigé un bug en un jour. Hautement recommandé !",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            },
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "Roger Nordstrom Photo" },
+            "datePublished": "2025-04-15",
+            "name": "Review by Roger Nordstrom Photo",
+            "reviewBody": "En revenant à l'argentique, les métadonnées me manquaient jusqu'à ce que je trouve Frames. Il remplace les notes papier, m'aide à rester organisé et conscient lors des prises de vue. Un must pour les photographes argentiques !",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            },
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "James Anderson" },
+            "datePublished": "2025-09-05",
+            "name": "Review by James Anderson",
+            "reviewBody": "On voit que le développeur utilise aussi l'app. Chaque petit détail semble intentionnel, et l'interface est propre et simple. Tout fonctionne parfaitement. Facilement la meilleure app de notes argentiques disponible !",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            },
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "Maria Garcia" },
+            "datePublished": "2025-07-12",
+            "name": "Review by Maria Garcia",
+            "reviewBody": "Application simple, fiable et bien tarifée qui transfère les données de prise de vue, y compris la géolocalisation, dans les EXIF des négatifs numérisés. Le développeur écoute les retours et améliore continuellement. Excellent !",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            },
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "BHenriquez" },
+            "datePublished": "2025-05-08",
+            "name": "Review by BHenriquez",
+            "reviewBody": "En tant que photographe argentique qui développe à la maison, j'adore comment Frames me permet de noter chaque photo sans le tracas des carnets. C'est la solution parfaite et pratique. Je suis passé Pro et je ne reviendrai jamais en arrière !",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            }
+          ]
+        },
+        {
+          "@type": "SoftwareApplication",
+          "name": "Frames macOS",
+          "operatingSystem": "macOS 15.0",
+          "applicationCategory": "MultimediaApplication",
+          "inLanguage": "fr",
+          "description": "Frames est une application photo argentique. Enregistrez chaque prise, suivez les réglages, organisez vos pellicules et sauvegardez les métadonnées EXIF sur iPhone & Mac.",
+          "image": "https://withframes.com/fr/og-image.jpg",
+          "url": "https://apps.apple.com/fr/app/frames-métadonnées/id6744063354",
+          "installUrl": "https://apps.apple.com/fr/app/frames-métadonnées/id6744063354",
+          "softwareVersion": "1.8.0",
+          "mainEntity": {
+            "@type": "WebPage",
+            "@id": "https://withframes.com/"
+          },
+          "author": {
+            "@type": "Person",
+            "name": "Vincent Tantardini"
+          },
+          "offers": {
+            "@type": "Offer",
+            "price": "0",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock"
+          },
+          "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "5",
+            "reviewCount": "4"
+          }
+        },
+        {
+          "@type": "WebPage",
+          "@id": "https://withframes.com/frfr/",
+          "url": "https://withframes.com/frfr/",
+          "name": "Frames – Application Photo Argentique pour Notes & Métadonnées",
+          "description": "Frames est une application photo argentique. Enregistrez chaque prise, suivez les réglages, organisez vos pellicules et sauvegardez les métadonnées EXIF sur iPhone & Mac.",
+          "inLanguage": "fr",
+          "publisher": {
+            "@id": "https://withframes.com/#organization"
+          }
+        },
+        {
+          "@type": "VideoObject",
+          "name": "Application Photo Argentique pour Noter & Suivre Vos Pellicules (Frames pour iPhone)",
+          "description": "Découvrez Frames, l'application photo argentique dédiée conçue pour les photographes analogiques. Frames rend la gestion de votre photographie argentique sans effort, vous aidant à enregistrer non seulement vos prises mais aussi l'histoire derrière chaque pellicule et vue. Que vous travailliez avec du film 35mm, moyen format ou grand format, Frames garde votre processus organisé et assure que vos métadonnées photo restent avec vos images, même après numérisation.",
+          "thumbnailUrl": "https://i.ytimg.com/vi/KRLS5tpmvJM/hqdefault.jpg",
+          "uploadDate": "2025-09-12T00:00:00+00:00",
+          "duration": "PT1M25S",
+          "embedUrl": "https://www.youtube.com/embed/KRLS5tpmvJM",
+          "contentUrl": "https://www.youtube.com/watch?v=KRLS5tpmvJM",
+          "publisher": {
+            "@id": "https://withframes.com/#organization"
+          }
+        },
+        {
+          "@type": "Organization",
+          "@id": "https://withframes.com/#organization",
+          "name": "Frames",
+          "url": "https://withframes.com/",
+          "logo": "https://withframes.com/apple-touch-icon.png",
+          "contactPoint": {
+            "@type": "ContactPoint",
+            "email": "bonjour@withframes.com",
+            "contactType": "Customer Support",
+            "areaServed": "Worldwide",
+            "availableLanguage": ["English", "French"]
+          },
+          "sameAs": [
+            "https://twitter.com/withframes",
+            "https://www.facebook.com/framesapp",
+            "https://www.instagram.com/with_frames/",
+            "https://linkedin.com/company/withframes/",
+            "https://pinterest.com/framesapp/",
+            "https://mastodon.social/@frames",
+            "https://bsky.app/profile/withframes.bsky.social",
+            "https://www.tiktok.com/@with_frames",
+            "https://www.youtube.com/@withframes",
+            "https://g.co/kgs/5oEvXT5",
+            "https://apps.apple.com/fr/app/frames-notes-argentiques/id6744057317",
+            "https://apps.apple.com/fr/app/frames-métadonnées/id6744063354"
+          ]
+        }
+      ]
+    }

@@ -1,226 +1,56 @@
 <!DOCTYPE html>
 <html lang="tr">
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>Frames - Film fotoğrafçıları için not defteri ve meta veri uygulaması</title>
-    <meta name="description" content="Frames, film fotoğrafçılarının vazgeçilmez uygulamasıdır. Çekim ayarlarınızı kaydedin, notlar alın ve taramalarınıza meta veri ekleyin. iPhone ve Mac için kullanılabilir.">
-    <style>
-        :root {
-            --large-spacing: 8rem;
-            --huge-spacing: 10rem;
-            --gray-1: #b3b3b3;
-            --font-size-small: 0.9rem;
-            --font-size-body: 1rem;
-            --font-size-heading1: 3.5rem;
-            --font-size-heading2: 1.75rem;
-            --font-size-heading3: 1.125rem;
-            --gap: 1rem;
-            --grid-vgap: 2.25rem;
-            --list-hgap: 0.25rem;
-        }
-        html {
-            -webkit-text-size-adjust: 100%;
-            box-sizing: border-box;
-        }
-        *,
-        ::after,
-        ::before {
-            box-sizing: inherit;
-        }
-        body {
-            color: var(--gray-1);
-            font-size: var(--font-size-body);
-            background: #000;
-            -webkit-font-smoothing: antialiased;
-            -moz-osx-font-smoothing: grayscale;
-            font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
-            font-weight: 400;
-            font-style: normal;
-            margin: 0;
-            padding: 0;
-            line-height: 1.5;
-            padding-top: 1.5rem;
-        }
-        .grid-2col,
-        .grid-3col,
-        .grid-4col,
-        .grid-5col {
-            display: grid;
-            gap: var(--gap);
-            grid-template-columns: 1fr;
-            width: 100%;
-        }
-        .h1,
-        h1,
-        h2,
-        h3,
-        header a.logo,
-        .footer-left {
-            color: #fff;
-        }
-        .logo { text-transform: uppercase }
-        .logo span { font-weight:300 }
-        .h1,
-        h1 {
-            font-size: var(--font-size-heading1);
-            line-height: 1.05;
-            font-weight: 500;
-            margin-bottom: 0;
-            min-height: 8rem;
-            margin-top: calc(100svh - var(--font-size-heading1) * 2 - 12rem);
-        }
-        .header-content {
-            position: relative;
-        }
-        section {
-            margin-top: calc(var(--large-spacing) - 2rem);
-            padding-top: 2rem;
-        }
-        .wrapper {
-            padding-left: 1rem;
-            padding-right: 1rem;
-        }
-        .navigation {
-            font-size: var(--font-size-small);
-            line-height: 1.4;
-        }
-        .navigation li {
-            display: flex;
-            flex-direction: column;
-            gap: var(--list-hgap);
-        }
-        li,
-        ul {
-            list-style: none;
-            margin: 0;
-            padding: 0;
-        }
-        a,
-        a:active,
-        a:hover,
-        a:visited {
-            text-decoration: none;
-            color: inherit;
-        }
-        .sr-only {
-            position: absolute;
-            width: 1px;
-            height: 1px;
-            margin: -1px;
-            padding: 0;
-            border: 0;
-            clip: rect(0, 0, 0, 0);
-            overflow: hidden;
-        }
-        .input-wrapper > .placeholder,
-        .input-wrapper > input {
-            display: block;
-            -webkit-appearance: none;
-            -moz-appearance: none;
-            appearance: none;
-            width: 100%;
-            height: 100%;
-            background-color: transparent;
-            border: 0;
-        }
-        .desktop-only {
-            display: none;
-        }
-        .download-buttons {
-            position: absolute;
-            top: 0;
-            right: 0;
-            gap: 1.5rem;
-            display: flex;
-        }
-        .download-buttons img {
-            height: 2.5rem;
-            width: auto;
-        }
-        article p {
-            font-size: var(--font-size-body);
-        }
-        @media (min-width: 768px) {
-            :root {
-                --large-spacing: 10rem;
-                --huge-spacing: 12rem;
-                --font-size-small: 1rem;
-                --font-size-body: 1.0625rem;
-                --font-size-heading1: 7rem;
-                --font-size-heading2: 3rem;
-                --font-size-heading3: 1.5rem;
-                --gap: 1.5rem;
-                --grid-vgap: 4.5rem;
-                --list-hgap: 0.35rem;
-            }
-            body {
-                padding-top: 2rem;
-            }
-            .h1,
-            h1 {
-                margin-top: calc(100svh - var(--font-size-heading1) * 2 - 9rem);
-                margin-bottom: 0;
-                min-height: 16.4375rem;
-            }
-            .grid-4col {
-                grid-template-columns: repeat(4, 1fr);
-            }
-            .wrapper {
-                padding-left: 3rem;
-                padding-right: 3rem;
-                max-width: 112rem;
-                margin: 0 auto;
-            }
-            .navigation {
-                display: flex;
-                justify-content: space-between;
-                align-items: center;
-                gap: var(--gap);
-                font-size: 0.9rem;
-            }
-            .desktop-only {
-                display: inherit;
-            }
-            .mobile-only { display: none!important; }
-        }
-    </style>
+    <title>Frames – Film Fotoğrafçılığı için Notlar ve Metadata Uygulaması</title>
+    <meta name="description"
+        content="Frames analog fotoğrafçılar için film fotoğrafçılığı uygulamasıdır. Her çekimi kaydedin, kamera ayarlarını takip edin, rulolarınızı düzenleyin ve iPhone &amp; Mac&#39;te EXIF metadata kaydedin.">
     <link rel="canonical" href="https://withframes.com/tr/">
     <link rel="alternate" hreflang="en" href="https://withframes.com/">
     <link rel="alternate" hreflang="fr" href="https://withframes.com/fr/">
+    <link rel="alternate" hreflang="de" href="https://withframes.com/de/">
     <link rel="alternate" hreflang="es" href="https://withframes.com/es/">
     <link rel="alternate" hreflang="it" href="https://withframes.com/it/">
-    <link rel="alternate" hreflang="de" href="https://withframes.com/de/">
     <link rel="alternate" hreflang="nl" href="https://withframes.com/nl/">
     <link rel="alternate" hreflang="pt" href="https://withframes.com/pt/">
     <link rel="alternate" hreflang="ja" href="https://withframes.com/ja/">
     <link rel="alternate" hreflang="ko" href="https://withframes.com/ko/">
-    <link rel="alternate" hreflang="ru" href="https://withframes.com/ru/">
-    <link rel="alternate" hreflang="th" href="https://withframes.com/th/">
-    <link rel="alternate" hreflang="zh" href="https://withframes.com/zh/">
-    <link rel="alternate" hreflang="pl" href="https://withframes.com/pl/">
-    <link rel="alternate" hreflang="tr" href="https://withframes.com/tr/">
-    <link rel="alternate" hreflang="sv" href="https://withframes.com/sv/">
     <link rel="alternate" hreflang="hi" href="https://withframes.com/hi/">
+    <link rel="alternate" hreflang="pl" href="https://withframes.com/pl/">
+    <link rel="alternate" hreflang="ru" href="https://withframes.com/ru/">
+    <link rel="alternate" hreflang="sv" href="https://withframes.com/sv/">
+    <link rel="alternate" hreflang="th" href="https://withframes.com/th/">
+    <link rel="alternate" hreflang="tr" href="https://withframes.com/tr/">
+    <link rel="alternate" hreflang="zh" href="https://withframes.com/zh/">
     <link rel="alternate" hreflang="x-default" href="https://withframes.com/">
-    <link rel="stylesheet" href="/library/css/typewriter-tr.min.css" media="print" onload="this.media='all'">
-    <noscript><link rel="stylesheet" href="/library/css/typewriter-tr.min.css"></noscript>
-    <link rel="stylesheet" href="/library/css/style.min.css" media="print" onload="this.media='all'">
-    <noscript><link rel="stylesheet" href="/library/css/style.min.css"></noscript>
+
+    <!-- Critical CSS - Inlined for immediate render -->
+    <style>:root{--color-black: #0C0B14;--color-white: #ECECED;--color-accent: #FF375F;--color-gray: color-mix(in srgb, var(--color-white) 56%, transparent);--color-gray-dark: #1C1C1E;--color-gray-dark2: #2C2C2E;--color-gray-dark3: #3A3A3C;--color-background: #000;--color-primary: var(--color-white);--color-secondary: var(--color-gray);--color-surface: var(--color-gray-dark);--color-divider: var(--color-gray-dark3);--font-size-xs: 0.8125rem;--font-size-sm: 0.875rem;--font-size-md: 1rem;--font-size-lg: 1.375rem;--font-size-xl: 1.75rem;--font-size-2xl: 2.25rem;--line-height-xs: 1.25rem;--line-height-sm: 1.25rem;--line-height-md: 1.5rem;--line-height-lg: 1.75rem;--line-height-xl: 2.25rem;--line-height-2xl: 2.8125rem;--spacing-xs: 0.25rem;--spacing-sm: 0.5rem;--spacing-md: 0.75rem;--spacing-lg: 1rem;--spacing-xl: 1.5rem;--spacing-2xl: 2rem;--spacing-3xl: 3rem;--spacing-4xl: 4rem;--spacing-5xl: 6rem;--spacing-6xl: 8rem;--grid-gap: var(--spacing-md);--radius-sm: 0.25rem;--radius-md: 0.5rem;--radius-full: 9999px;--transition-fast: 150ms ease;--transition-base: 200ms ease;--transition-slow: 300ms ease}html{scroll-behavior:smooth}body{color:var(--color-primary);font-size:var(--font-size-md);background:var(--color-background);-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Helvetica,Arial,sans-serif;font-weight:400;font-style:normal;margin:0;padding:0 var(--spacing-xl);line-height:var(--line-height-md)}@media(max-width: 768px){body{padding:0 var(--spacing-lg)}}*,*::before,*::after{-webkit-box-sizing:border-box;box-sizing:border-box}ul,ol{list-style:none;margin:0;padding:0}li,p,figure,blockquote{margin:0;padding:0}cite{font-style:normal}h1,h2,h3,h4,h5,h6{margin:0;padding:0;font-weight:400;color:var(--color-primary)}h1,h2{font-size:var(--font-size-xl);line-height:var(--line-height-xl)}@media(max-width: 480px){h1 br{display:none}}h2{margin-bottom:var(--spacing-xl)}h3{font-size:var(--font-size-lg);line-height:var(--line-height-lg)}.tile{background-color:var(--color-surface);border-radius:var(--radius-md)}.wrapper{max-width:82.5rem;margin:0 auto}section{margin-top:var(--spacing-6xl)}.preview{margin-top:var(--spacing-5xl)}.preview .tile-inner{width:100%;height:100%;padding:0 20%;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center}.preview img{max-width:100%;width:100%;height:auto}.contact h2{font-size:var(--font-size-2xl);line-height:var(--line-height-2xl);text-align:center;padding:0 var(--spacing-2xl)}@media(max-width: 768px){.contact h2{font-size:var(--font-size-xl);line-height:var(--line-height-xl)}}@media(max-width: 480px){.mobile-hidden{display:none !important}}.desktop-hidden{display:none !important}@media(max-width: 480px){.desktop-hidden{display:block !important}}@media(max-width: 1024px){.desktop-only{display:none !important}}.mobile-only{display:none !important}@media(max-width: 1024px){.mobile-only{display:-webkit-box !important;display:-ms-flexbox !important;display:flex !important}}.flex{display:-webkit-box;display:-ms-flexbox;display:flex}.flex.flex-row{-webkit-box-orient:horizontal;-webkit-box-direction:normal;-ms-flex-direction:row;flex-direction:row}.flex.flex-col{-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column}.flex.flex-center{-webkit-box-align:center;-ms-flex-align:center;align-items:center}.flex.flex-start{-webkit-box-align:start;-ms-flex-align:start;align-items:flex-start}.flex.flex-end{-webkit-box-align:end;-ms-flex-align:end;align-items:flex-end}.flex.flex-justify-center{-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center}.flex.flex-justify-start{-webkit-box-pack:start;-ms-flex-pack:start;justify-content:flex-start}.flex.flex-justify-end{-webkit-box-pack:end;-ms-flex-pack:end;justify-content:flex-end}.flex.flex-justify-between{-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;gap:0}.flex.flex-justify-around{-ms-flex-pack:distribute;justify-content:space-around;gap:0}.flex.flex-wrap{-ms-flex-wrap:wrap;flex-wrap:wrap}.gap-xs{gap:var(--spacing-xs)}.gap-sm{gap:var(--spacing-sm)}.gap-md{gap:var(--spacing-md)}.gap-lg{gap:var(--spacing-lg)}.gap-xl{gap:var(--spacing-xl)}.gap-2xl{gap:var(--spacing-2xl)}.gap-3xl{gap:var(--spacing-3xl)}.gap-4xl{gap:var(--spacing-4xl)}.gap-5xl{gap:var(--spacing-5xl)}.gap-6xl{gap:var(--spacing-6xl)}.col-span-2{grid-column:span 2}.col-span-3{grid-column:span 3}.col-span-4{grid-column:span 4}.col-start-1{grid-column-start:1}.col-start-2{grid-column-start:2}.col-start-3{grid-column-start:3}.col-start-4{grid-column-start:4}.col-end{grid-column-end:-1}@media(max-width: 768px){.col-span-2-mobile{grid-column:span 2}}.grid{display:grid;gap:var(--grid-gap)}.grid-full{grid-template-columns:1fr}.grid-2col{grid-template-columns:repeat(2, 1fr)}.grid-4col{grid-template-columns:repeat(4, 1fr)}@media(max-width: 1024px)and (min-width: 769px){.features.grid-4col,.pricing.grid-4col{grid-template-columns:repeat(3, 1fr) !important}}@media(max-width: 1140px){.features.grid-4col{-webkit-box-align:stretch;-ms-flex-align:stretch;align-items:stretch}.features .container-ratio::before{display:none !important}.features .container-ratio>*{position:static !important;height:100% !important}}@media(max-width: 1140px)and (min-width: 1025px){.pricing.grid-4col{-webkit-box-align:stretch;-ms-flex-align:stretch;align-items:stretch}.pricing .container-ratio::before{display:none !important}.pricing .container-ratio>*{position:static !important;height:100% !important}}@media(max-width: 1024px)and (min-width: 481px){.pricing.grid-4col{-webkit-box-align:stretch;-ms-flex-align:stretch;align-items:stretch}.pricing .container-ratio::before{display:none !important}.pricing .container-ratio>*{position:static !important;height:100% !important}}@media(max-width: 768px){.grid-4col{grid-template-columns:repeat(2, 1fr)}.grid-2col{grid-template-columns:1fr}}@media(max-width: 768px)and (min-width: 481px){.features.grid-4col,.pricing.grid-4col{grid-template-columns:repeat(2, 1fr) !important}}@media(max-width: 480px){.grid-4col{grid-template-columns:1fr}}.container-ratio{position:relative;width:100%;overflow:hidden}.container-ratio::before{content:"";display:block;padding-top:var(--ratio, 100%)}.container-ratio>*{position:absolute;top:0;left:0;width:100%;height:100%}.container-ratio>img,.container-ratio>video{-o-object-fit:cover;object-fit:cover}.ratio-2-1{--ratio: 50%}@media(max-width: 480px){.ratio-2-1{--ratio: 75%}}.ratio-4-3{--ratio: 75%}.ratio-3-4{--ratio: 133.333%}.ratio-1-1{--ratio: 100%}a{color:inherit;text-decoration:none}a:hover{color:inherit}a:focus-visible{outline:2px solid var(--color-accent);outline-offset:2px;border-radius:2px}.btn{display:-webkit-inline-box;display:-ms-inline-flexbox;display:inline-flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;gap:var(--spacing-xs);border:none;border-radius:var(--radius-full);cursor:pointer;text-decoration:none;text-align:center}.btn:focus-visible{outline:2px solid var(--color-accent);outline-offset:2px}.btn.btn-sm{font-size:var(--font-size-sm);height:27px;padding:0 11px}.btn.btn-sm.btn-uppercase{font-size:var(--font-size-xs);text-transform:uppercase}.btn.btn-md{font-size:var(--font-size-md);padding:10px 22px}.btn.btn-circle{width:44px;height:44px;padding:0;border-radius:var(--radius-full)}.btn.btn-light{background:var(--color-white);color:var(--color-black)}.btn.btn-light svg{fill:var(--color-black)}.btn.btn-light:hover{opacity:.9}.btn.btn-light:active{opacity:1}.btn.btn-dark{background:rgba(0,0,0,0);border:1px solid var(--color-gray-dark3);color:var(--color-white)}.btn.btn-dark svg{fill:var(--color-white)}.btn.btn-dark:hover{border:1px solid color-mix(in srgb, var(--color-gray-dark3) 96%, white 4%)}.btn.btn-dark:active{border:1px solid color-mix(in srgb, var(--color-gray-dark3) 92%, white 8%)}.btn.btn-secondary{background:var(--color-gray-dark2);color:var(--color-white)}.btn.btn-secondary svg{fill:var(--color-white)}.btn.btn-secondary:hover{background:color-mix(in srgb, var(--color-gray-dark2) 98%, white 2%)}.btn.btn-secondary:active{background:var(--color-gray-dark2)}.play-btn{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;height:6rem;width:6rem;position:absolute;top:50%;left:50%;-webkit-transform:translate(-50%, -50%);transform:translate(-50%, -50%);background-color:color-mix(in srgb, var(--color-white) 10%, transparent);border-radius:9999px;backdrop-filter:blur(20px);-webkit-backdrop-filter:blur(20px);will-change:transform}.play-btn:hover{background-color:color-mix(in srgb, var(--color-white) 15%, transparent)}.play-btn:active{background-color:color-mix(in srgb, var(--color-white) 10%, transparent)}@media(max-width: 480px){.play-btn{-webkit-transform:translate(-50%, -50%) scale(0.75);transform:translate(-50%, -50%) scale(0.75)}}@media(max-width: 768px){.play-btn{-webkit-transform:translate(-50%, -50%) scale(0.875);transform:translate(-50%, -50%) scale(0.875)}}.main-header{position:sticky;top:0;background:var(--color-background);font-size:var(--font-size-sm);z-index:100}.container-header{height:3.375rem;display:grid;grid-template-columns:1fr auto 1fr;-webkit-box-align:center;-ms-flex-align:center;align-items:center}.container-header .leading{justify-self:start;-webkit-box-align:center;-ms-flex-align:center;align-items:center}.container-header .center{justify-self:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center}.container-header .trailing{justify-self:end;-webkit-box-align:center;-ms-flex-align:center;align-items:center}@media(max-width: 768px){.container-header{grid-template-columns:1fr auto}}.logo{text-transform:uppercase}.navigation a{height:2.125rem;padding:0 var(--spacing-lg)}.navigation a:hover{opacity:.82}@media(max-width: 768px){.navigation{display:none}}.hero{margin-top:var(--spacing-5xl)}.hero-image{position:relative;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:end;-ms-flex-align:end;align-items:flex-end}.hero-image::before{display:none !important}.hero-image img{position:static;-o-object-fit:cover;object-fit:cover}.hero-content{margin-bottom:var(--spacing-4xl)}.hero-content .btn{-ms-flex-item-align:start;align-self:flex-start}.hero-featured{margin-top:var(--spacing-4xl)}.featured-text{font-size:var(--font-size-sm)}.featured-logos{gap:var(--spacing-lg) 4.5rem;-ms-flex-wrap:wrap;flex-wrap:wrap;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center}@media(max-width: 768px){.featured-logos{gap:var(--spacing-2xl) 4.5rem}}@media(max-width: 480px){.featured-logos{gap:var(--spacing-xl) var(--spacing-2xl)}}</style>
+    <!-- Deferred CSS - Loaded asynchronously for below-the-fold content -->
+    <link rel="stylesheet" href="/lib/css/deferred.css" media="print" onload="this.media='all'">
+    <!-- No-JS Fallback -->
+    <noscript>
+        <link rel="stylesheet" href="/lib/css/deferred.css">
+    </noscript>
+
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:site" content="@withframes">
     <meta name="twitter:creator" content="@withframes">
-    <meta name="twitter:title" content="Frames - Film fotoğrafçıları için not defteri ve meta veri uygulaması">
-    <meta name="twitter:description" content="Frames, film fotoğrafçılarının vazgeçilmez uygulamasıdır. Çekim ayarlarınızı kaydedin, notlar alın ve taramalarınıza meta veri ekleyin. iPhone ve Mac için kullanılabilir.">
+    <meta name="twitter:title" content="Frames – Film Fotoğrafçılığı için Notlar ve Metadata Uygulaması">
+    <meta name="twitter:description"
+        content="Frames analog fotoğrafçılar için film fotoğrafçılığı uygulamasıdır. Her çekimi kaydedin, kamera ayarlarını takip edin, rulolarınızı düzenleyin ve iPhone &amp; Mac&#39;te EXIF metadata kaydedin.">
     <meta name="twitter:image" content="https://withframes.com/og-image.jpg">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Frames">
-    <meta property="og:title" content="Frames - Film fotoğrafçıları için not defteri ve meta veri uygulaması">
-    <meta property="og:description" content="Frames, film fotoğrafçılarının vazgeçilmez uygulamasıdır. Çekim ayarlarınızı kaydedin, notlar alın ve taramalarınıza meta veri ekleyin. iPhone ve Mac için kullanılabilir.">
+    <meta property="og:title" content="Frames – Film Fotoğrafçılığı için Notlar ve Metadata Uygulaması">
+    <meta property="og:description"
+        content="Frames analog fotoğrafçılar için film fotoğrafçılığı uygulamasıdır. Her çekimi kaydedin, kamera ayarlarını takip edin, rulolarınızı düzenleyin ve iPhone &amp; Mac&#39;te EXIF metadata kaydedin.">
     <meta property="og:url" content="https://withframes.com/tr/">
     <meta property="og:image" content="https://withframes.com/og-image.jpg">
     <meta property="og:locale" content="tr_TR">
-    <link rel="icon" href="/favicon.png" type="image/png">
+    <link rel="shortcut icon" href="/favicon.png" type="image/png">
     <link rel="icon" href="/favicon.svg" type="image/svg+xml">
     <link rel="apple-touch-icon" href="/apple-touch-icon.png">
     <meta name="theme-color" content="#000">
@@ -229,399 +59,796 @@
 </head>
 
 <body>
-    <header id="frames" class="wrapper">
-        <div class="header-content">
-            <ul class="download-buttons">
-                <li class="desktop-only">
-                    <a href="https://apps.apple.com/tr/app/frames-film-meta-verisi/id6744063354?l=tr">
-                        <img fetchpriority="high" src="/library/img/tr/appstore-badge-dark.webp" srcset="/library/img/tr/appstore-badge-dark.webp,
-                                    /library/img/tr/appstore-badge-dark@2x.webp 2x,
-                                    /library/img/tr/appstore-badge-dark@3x.webp 3x" alt="Mac için İndir">
-                    </a>
-                </li>
-                <li>
-                    <a href="https://apps.apple.com/tr/app/frames-film-fotoğraf-günlüğü/id6744057317?l=tr">
-                        <img fetchpriority="high" src="/library/img/tr/appstore-badge.webp" srcset="/library/img/tr/appstore-badge.webp,
-                                    /library/img/tr/appstore-badge@2x.webp 2x,
-                                    /library/img/tr/appstore-badge@3x.webp 3x" alt="İndir iPhone için">
-                    </a>
-                </li>
-            </ul>
-            <nav class="navigation" aria-label="Main navigation">
-                <ul class="grid-4col">
-                    <li><a href="https://withframes.com/tr/" class="logo">Frames <span>®</span></a></li>
-                    <li>
-                    </li>
-                    <li class="mobile-only">
-                        <a href="#iphone">iPhone için</a>
-                        <a href="#mac">Mac için</a>
-                    </li>
+    <header class="main-header wrapper">
+        <div class="container-header">
+            <a href="/tr/" class="logo leading" aria-label="Frames Ana Sayfa">
+                <span>Frames</span>
+            </a>
+
+            <nav class="navigation center" aria-label="Ana navigasyon">
+                <ul class="flex flex-row">
+                    <li class="desktop-only"><a href="#features">Özellikler</a></li>
+                    <li><a href="/docs/">Dokümantasyon</a></li>
+                    <li><a href="/changelog/">Değişiklik Günlüğü</a></li>
                 </ul>
             </nav>
-            <h1 class="sr-only">Frames - Film fotoğrafçıları için not defteri ve meta veri uygulaması</h1>
-            <div class="h1 input-wrapper" aria-hidden="true"><input type="text" tabindex="-1" readonly> <span class="placeholder"></span></div>
-        </div>
-    </header>
-    <main class="wrapper">
-        <section id="iphone" aria-labelledby="features-mobile-heading">
-            <h2 id="features-mobile-heading"><span class='sr-only'>Film Fotoğraf Uygulaması </span>iPhone için</h2>
-            <ul class="grid-3col feature-list-mobile">
-                <li>
-                    <article>
-                        <div class="screenshot-container">
-                            <img fetchpriority="low" src="/library/img/tr/frames-feature-screenshot-1.webp" alt="iOS uygulamasında klasörlerde düzenlenmiş filmler, isim ve tarihe göre sıralanmış" width="504" height="1024" loading="lazy">
-                        </div>
-                        <h3>Kütüphanenizi düzenleyin</h3>
-                        <p>Klasörler oluşturun, filmlerinizi sıralayın, yeniden adlandırın veya taşıyın. Frames, dijital bir kontakt baskı gibi, film fotoğrafçılığı için tasarlanmış sezgisel bir fotoğraf arşivi yönetimi sunar.</p>
-                    </article>
-                </li>
-                <li>
-                    <article>
-                        <div class="screenshot-container">
-                            <img fetchpriority="low" src="/library/img/tr/frames-feature-screenshot-2.webp" alt="iOS ekranında bir film için detaylı ayarlar (kamera, lens, film) gösteriliyor" width="504" height="1024" loading="lazy">
-                        </div>
-                        <h3>Tüm ayarlarınızı kaydedin</h3>
-                        <p>Kameranızı, lensinizi, film türünüzü, pozlama ayarlarınızı (diyafram, enstantane, odak uzaklığı, flaş...) ve daha fazlasını çekim seanslarınızda kaydedin. Frames, çekim anından taramaya kadar her teknik detayı belgeler.</p>
-                    </article>
-                </li>
-                <li>
-                    <article>
-                        <div class="screenshot-container">
-                            <img fetchpriority="low" src="/library/img/tr/frames-feature-screenshot-3.webp" alt="iOS uygulamasında her film görseli için tarih, notlar ve harita ile ayarlar görünümü" width="504" height="1024" loading="lazy">
-                        </div>
-                        <h3>Çekimlerinizi inceleyin</h3>
-                        <p>Tüm ayarlarınızı anında görüntüleyin: çekim tarihi ve saati, kişisel notlar, çekim yeri... Her görsel kendi bağlamında yer alır. Çekimlerinizi istediğiniz zaman düzenleyebilir veya tamamlayabilirsiniz.</p>
-                    </article>
-                </li>
-                <li>
-                    <article>
-                        <div class="screenshot-container">
-                            <img fetchpriority="low" src="/library/img/tr/frames-feature-screenshot-4.webp" alt="iOS uygulamasında teknik verilerle fotoğrafların konumlandığı harita" width="504" height="1024" loading="lazy">
-                        </div>
-                        <h3>Notlarınızı haritalayın</h3>
-                        <p>Her çekimin GPS konumunu otomatik olarak kaydedin veya gerektiğinde manuel olarak girin. Frames, her fotoğrafınızı etkileşimli bir haritada görselleştirerek tam çekim konumunu bulmanızı sağlar.</p>
-                    </article>
-                </li>
-                <li>
-                    <article>
-                        <div class="screenshot-container">
-                            <img fetchpriority="low" src="/library/img/tr/frames-feature-screenshot-5.webp" alt="iOS'ta macOS için hazır bir .frames dosyası gösteren dışa aktarma ekranı" width="504" height="1024" loading="lazy">
-                        </div>
-                        <h3>Dışa aktarın ve paylaşın</h3>
-                        <p>Notlarınızı tek tıkla Mac'inize göndererek çalışmanıza sorunsuz devam edin. Okunabilir, hafif ve uyumlu olması için tasarlanmış, JSON tabanlı açık bir format olan .frames formatında dışa aktarın.</p>
-                    </article>
-                </li>
-            </ul>
-        </section>
-        <section id="mac" aria-labelledby="features-desktop-heading">
-            <h2 id="features-desktop-heading"><span class='sr-only'>Film Fotoğraf Uygulaması </span>Mac için</h2>
-            <ul class="grid-2col feature-list-desktop">
-                <li>
-                    <article>
-                        <div class="screenshot-container screenshot-desktop">
-                            <img fetchpriority="low" src="/library/img/tr/frames-feature-screenshot-6.webp" alt="macOS arayüzünde .frames dosyası üzerinden iOS'tan içe aktarılmış bir film gösteriliyor" width="898" height="572" loading="lazy">
-                        </div>
-                        <h3>iPhone'dan senkronizasyon</h3>
-                        <p>iOS uygulamasından film notlarınızı kolayca içe aktarın. .frames dosyanızı macOS uygulamasına sürükleyip bırakmanız yeterli: tüm ayarlarınız, notlarınız ve verileriniz anında yeniden yüklenir ve kullanıma hazır hale gelir. Ekstra ayar, senkronizasyon veya yapılandırma gerekmez.</p>
-                    </article>
-                </li>
-                <li>
-                    <article>
-                        <div class="screenshot-container screenshot-desktop">
-                            <img fetchpriority="low" src="/library/img/tr/frames-feature-screenshot-7.webp" alt="macOS uygulamasında ekli tarama ve konumlandırma ile teknik veriler gösteriliyor" width="898" height="572" loading="lazy">
-                        </div>
-                        <h3>Her görseli keşfedin</h3>
-                        <p>Her çekimi en ince detayına kadar keşfedin: ayarlarınızı, kullanılan filmi ve fotoğrafın tam konumunu etkileşimli bir haritada görüntüleyin. Taranmış görsellerinizle kolayca ilişkilendirin, tek tek veya tüm fotoğraflarınızı tek seferde sürükleyip bırakarak.</p>
-                    </article>
-                </li>
-                <li>
-                    <article>
-                        <div class="screenshot-container screenshot-desktop">
-                            <img fetchpriority="low" src="/library/img/tr/frames-feature-screenshot-8.webp" alt="macOS'ta EXIF meta verileri (kamera, lens) ile bir taramayı dışa aktarma" width="898" height="572" loading="lazy">
-                        </div>
-                        <h3>Meta verilerle dışa aktarın</h3>
-                        <p>Fotoğraflarınızı tüm EXIF meta verileriyle kaydedin: konum, lens, gövde ve daha fazlası - arşivleme veya paylaşım için ideal. Evrensel olarak tanınan EXIF formatı sayesinde verileriniz Apple Photos, Adobe Lightroom, Flickr ve diğer fotoğraf platformları/uygulamalarında otomatik olarak görüntülenecektir.</p>
-                    </article>
-                </li>
-            </ul>
-        </section>
-        <section id="faq" aria-labelledby="faq-heading">
-            <h2 id="faq-heading">Sık Sorulan Sorular</h2>
-            <div class="faq-list">
-                <details>
-                    <summary>
-                        <h3>iOS uygulamasıyla hangi tür meta verileri kaydedebilirim?</h3>
-                    </summary>
-                    <p>Her çekim için kamera marka ve modeli, enstantane hızı, diyafram, odak uzaklığı, pozlama telafisi, flaş kullanımı, lens detayları ve kullanılan film türü dahil olmak üzere tam bir ayar ve meta veri seti kaydedebilirsiniz. GPS konumu ile tarih ve saat otomatik olarak kaydedilir, ancak gerektiğinde manuel olarak değiştirebilirsiniz.<br><br>Ayrıca herhangi bir bağlam veya ek detay eklemek için özel notlar ekleyebilir, böylece tüm temel bilgilerin korunduğu zengin ve yapılandırılmış bir film fotoğrafçılığı arşivi oluşturabilirsiniz.</p>
-                </details>
-                <details>
-                    <summary>
-                        <h3>Mac uygulaması hangi dosya formatlarını destekliyor?</h3>
-                    </summary>
-                    <p>macOS yardımcı uygulaması şu anda JPEG (.jpg) ve TIFF (.tiff) dosyalarını EXIF verilerini gömmek ve dışa aktarmak için destekliyor. Gerçek kullanım senaryoları ve kullanıcı geri bildirimleri doğrultusunda, DNG ve NEF gibi ek formatlar için de destek eklemeyi aktif olarak değerlendiriyoruz. Amacımız, analog fotoğrafçılıkla ilgilenen kullanıcıların hem sahada hem de düzenleme sürecinde gerçek ihtiyaçlarına hitap eden bir araç geliştirmek.<br><br>Eğer DNG desteği veya başka özellikler iş akışınızı kolaylaştıracaksa, lütfen bizimle paylaşın – sizi dinliyoruz.</p>
-                </details>
-                <details>
-                    <summary>
-                        <h3>Tripod veya filtre kullanımını not edebilir miyim?</h3>
-                    </summary>
-                    <p>Şimdilik uygulama, film fotoğrafçılarının çoğunluğunun ihtiyaçlarını karşılamak için bilinçli olarak basit ve verimli tutulmuştur. Ancak sınırlı değilsiniz: özel bir not alanı, tripod kullanımı, filtre türleri veya ekipmanla ilgili diğer detaylar gibi ek bilgileri kaydetmek için mevcuttur.<br><br>Bu unsurlar resmi EXIF meta verilerinin parçası değildir, ancak Not alanı, ana arayüzü karmaşık hale getirmeden süreciniz için önemli olan her şeyi ekleme özgürlüğü sunar.</p>
-                </details>
-                <details>
-                    <summary>
-                        <h3>Android versiyonu planlanıyor mu?</h3>
-                    </summary>
-                    <p>Android versiyonu kesinlikle düşündüğümüz bir şey - gündemimizde. Şimdilik önceliğimiz, iPhone ve macOS'taki deneyimi mümkün olduğunca özenli, güvenilir ve eksiksiz hale getirmektir. Her şeyin sorunsuz çalıştığından ve belirlediğimiz kalite standartlarına ulaştığından emin olmak istiyoruz.<br><br>iOS versiyonu başarılı olmaya ve kullanıcıları etkilemeye devam ederse, Android geliştirme muhtemelen bir sonraki adım olacaktır. Gelişmeleri takip edin ve ilgileniyorsanız bize bildirin - geri bildirimleriniz çalışmalarımızı yönlendiriyor.</p>
-                </details>
-                <details>
-                    <summary>
-                        <h3>Hangi özellikler planlanıyor?</h3>
-                    </summary>
-                    <p>Uygulamayı sürekli iyileştirmeye kararlıyız. Gelecek güncellemeler, daha geniş bir kitleye ulaşmak için çeviriler, yeni dışa aktarma seçenekleri veya çekimler sırasında hızlı erişim için bir saat uygulaması bile içerebilir. Henüz kesinleşmiş bir şey yok, ancak bu aracı toplulukla birlikte inşa ediyoruz ve ihtiyaçlarınız doğrultusunda evrimleşiyor.<br><br>Uygulamayı kullanma şekliniz, doğrudan yeni özellikler için bize ilham veriyor - sürecin bir parçası olduğunuz için teşekkürler.</p>
-                </details>
-            </div>
-        </section>
-        <section id="reviews" aria-labelledby="reviews-heading">
-            <h2 id="reviews-heading">Kullanıcı <span class='sr-only'>fotoğrafçı</span> yorumları</h2>
-            <ul class="grid-3col review-list">
-                <li>
-                    <figure class="user-review">
-                        <blockquote cite="https://withframes.com">
-                            <img src="/library/img/icons/icon-quote.svg" alt="Quote" width="14" height="11" loading="lazy">
-                            <h3 class="sr-only">Tam anlamıyla mükemmel</h3>
-                            <p>Bekleyebileceğiniz her şeyi basitçe yapıyor. Sezgisel, güvenilir, eleştirecek bir şey yok. Ücretsiz sunduğunuz için teşekkürler!</p>
-                        </blockquote>
-                        <figcaption class="review-info">
-                            <span class="author">Soliver098</span> <span class="rating sr-only" aria-label="5" role="img">★★★★★</span> <time datetime="2022-08-03" class="sr-only">2022-08-03</time>
-                        </figcaption>
-                    </figure>
-                    <figure class="user-review">
-                        <blockquote cite="https://withframes.com">
-                            <img src="/library/img/icons/icon-quote.svg" alt="Quote" width="14" height="11" loading="lazy">
-                            <h3 class="sr-only">Minimalist ve etkili</h3>
-                            <p>Uygulama kullanımı kolay ve tam olarak yapması gerekeni yapıyor. Kullanımda olan filmleri adlandırabilmeyi seviyorum çünkü bazen bazı fotoğrafları hangi kamerayla çektiğimi unutuyorum. Arayüz temiz ve gerçekten güzel.</p>
-                        </blockquote>
-                        <figcaption class="review-info">
-                            <span class="author">Hivonmarius</span> <span class="rating sr-only" aria-label="5" role="img">★★★★★</span> <time datetime="2022-06-01" class="sr-only">2022-06-01</time>
-                        </figcaption>
-                    </figure>
-                    <figure class="user-review">
-                        <blockquote cite="https://withframes.com">
-                            <img src="/library/img/icons/icon-quote.svg" alt="Quote" width="14" height="11" loading="lazy">
-                            <h3 class="sr-only">Kağıt defterden çok daha iyi</h3>
-                            <p>Ayarları bir deftere veya Apple'ın Notlar uygulamasına not almaktan çok daha pratik. Yeni sürümleri sabırsızlıkla bekliyorum!</p>
-                        </blockquote>
-                        <figcaption class="review-info">
-                            <span class="author">-=Bidiboo=-</span> <span class="rating sr-only" aria-label="5" role="img">★★★★★</span> <time datetime="2022-11-13" class="sr-only">2022-11-13</time>
-                        </figcaption>
-                    </figure>
-                </li>
-                <li>
-                    <figure class="user-review">
-                        <blockquote cite="https://withframes.com">
-                            <img src="/library/img/icons/icon-quote.svg" alt="Quote" width="14" height="11" loading="lazy">
-                            <h3 class="sr-only">Türünün en iyi uygulaması</h3>
-                            <p>Denediğim en iyi film fotoğraf meta veri uygulaması. Basit, hızlı ve eksiksiz. Reklam yok, veri toplama yok - büyük bir avantaj.</p>
-                        </blockquote>
-                        <figcaption class="review-info">
-                            <span class="author">J0nas</span> <span class="rating sr-only" aria-label="5" role="img">★★★★★</span> <time datetime="2022-08-03" class="sr-only">2022-08-03</time>
-                        </figcaption>
-                    </figure>
 
-                    <figure class="user-review">
-                        <blockquote cite="https://withframes.com">
-                            <img src="/library/img/icons/icon-quote.svg" alt="Quote" width="14" height="11" loading="lazy">
-                            <h3 class="sr-only">Mükemmel uygulama</h3>
-                            <p>1/3 duraklı enstantanelerin olması güzel olurdu çünkü her zaman gerçek çekim ayarlarıyla eşleşmiyor. Uygulama için tebrikler!</p>
-                        </blockquote>
-                        <figcaption class="review-info">
-                            <span class="author">SalvatoreEsquilache</span> <span class="rating sr-only" aria-label="5" role="img">★★★★★</span> <time datetime="2023-12-02" class="sr-only">2023-12-02</time>
-                        </figcaption>
-                    </figure>
-
-                    <figure class="user-review">
-                        <blockquote cite="https://withframes.com">
-                            <img src="/library/img/icons/icon-quote.svg" alt="Quote" width="14" height="11" loading="lazy">
-                            <h3 class="sr-only">Çekimlerimin vazgeçilmez yoldaşı</h3>
-                            <p>Harika bir araç - filmlerinizi takip etmek için basit ama eksiksiz. Sahada kullanımı kolay, verilerinizi kaydetmek veya işlemek için dışa aktarma seçeneğiyle. Hak edilmiş beş yıldız!</p>
-                        </blockquote>
-                        <figcaption class="review-info">
-                            <span class="author">rzolau</span> <span class="rating sr-only" aria-label="5" role="img">★★★★★</span> <time datetime="2022-02-26" class="sr-only">2022-02-26</time>
-                        </figcaption>
-                    </figure>
-                </li>
-                <li>
-                    <figure class="user-review">
-                        <blockquote cite="https://withframes.com">
-                            <img src="/library/img/icons/icon-quote.svg" alt="Quote" width="14" height="11" loading="lazy">
-                            <h3 class="sr-only">Film için EXIF eşdeğeri</h3>
-                            <p>Yakın zamanda film fotoğrafçılığı bana nostalji yaşattı ve tekrar başlamaya karar verdim. Eskisinin aksine, dijital çağda EXIF meta verileriyle çekim verilerini korumak artık normal. Filmle çekilmiş fotoğraflar için benzer bir şey yapmanın bir yolu olup olmadığını merak ettim. Bir çözüm ararken bu uygulamayı keşfettim. Bu uygulamayla önceden lensi, diyaframı ve enstantane hızını ayarlayabilir, sonra her çekimde bir düğmeye basarak ayarları fotoğraf numarasına göre otomatik olarak kaydedebilirsiniz. Saat ve GPS konumu da kaydedilir, böylece dijital kameralara benzer bir detay seviyesi elde edersiniz. Elbette kamera ile iPhone arasında küçük bir zaman farkı olabilir ama bu önemsizdir.</p>
-                        </blockquote>
-                        <figcaption class="review-info">
-                            <span class="author">yaizawa</span> <span class="rating sr-only" aria-label="5" role="img">★★★★★</span> <time datetime="2022-05-13" class="sr-only">2022-05-13</time>
-                        </figcaption>
-                    </figure>
-                </li>
-            </ul>
-        </section>
-    </main>
-    <footer class="footer wrapper">
-        <h2 class="sr-only">Frames</h2>
-        <div class="grid-4col">
-            <div class="takes-2">
-                <h3>Frames’i Keşfedin</h3>
-                <ul class="footer-nav">
-                    <li><a href="#iphone">iPhone için</a></li>
-                    <li><a href="#mac">Mac için</a></li>
-                    <li><a href="#faq">SSS</a></li>
-                    <li><a href="#reviews">Kullanıcı <span class='sr-only'>fotoğrafçı</span> yorumları</a></li>
-                    <li><a href="https://withframes.com/tr/gizlilik-politikasi/">Gizlilik</a></li>
-                    <li><a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/" target="_blank">Koşullar</a></li>
-                </ul>
-            </div>
-            <div>
-                <h3>İletişim:</h3>
-                <ul class="footer-list">
-                    <li><a href="mailto:&#104;&#105;&#64;&#119;&#105;&#116;&#104;&#102;&#114;&#97;&#109;&#101;&#115;&#46;&#99;&#111;&#109;">E-posta</a></li>
-                    <li><a href="https://instagram.com/with_frames" target="_blank" rel="noopener noreferrer">Instagram</a></li>
-                    <li><a href="https://threads.com/with_frames" target="_blank" rel="noopener noreferrer">Threads</a></li>
-                    <li><a href="https://twitter.com/withframes" target="_blank" rel="noopener noreferrer">Twitter</a></li>
-                    <li><a href="https://www.facebook.com/framesapp" target="_blank" rel="noopener noreferrer">Facebook</a></li>
-                    <li><a href="https://www.linkedin.com/company/withframes/" target="_blank" rel="noopener noreferrer">Linkedin</a></li>
-                </ul>
-            </div>
-            <div>
-                <h3>İndir</h3>
-                <ul class="footer-list">
-                    <li>
-                        <a href="https://apps.apple.com/tr/app/frames-film-fotoğraf-günlüğü/id6744057317?l=tr" target="_blank" rel="noopener noreferrer">Frames iOS (1.9.0)</a>
-                    </li>
-                    <li>
-                        <a href="https://apps.apple.com/tr/app/frames-film-meta-verisi/id6744063354?l=tr" target="_blank" rel="noopener noreferrer">Frames macOS (1.5.0)</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-
-        <ul class="grid-2col subfooter">
-            <li>
-                <a href="https://vnn.io/" class="copyright" title="Vincent Tantardini – personal website" rel="me">
-                    Copyright © 2025 Vincent Tantardini. Tüm hakları saklıdır.
-                </a>
-            </li>
-            <li>
+            <div class="trailing flex flex-row flex-center gap-sm">
                 <div class="dropdown">
-                    <input type="checkbox" id="dropdown-toggle">
+                    <input type="checkbox" id="share-toggle" class="dropdown-toggle">
 
-                    <label for="dropdown-toggle" class="dropdown-button">
-                        <img fetchpriority="low" src="/library/img/icons/globe.svg" alt="Globe Icon" aria-hidden="true" loading="lazy">
-                        <span>Dil</span>
-                        <img fetchpriority="low" src="/library/img/icons/chevron.svg" alt="Chevron Icon" aria-hidden="true" loading="lazy">
+                    <label for="share-toggle" class="dropdown-button btn btn-sm btn-dark">
+                        <span>Paylaş</span>
+                        <img src="/lib/img/icn/chevron-down-sm.svg" alt="Chevron Down Icon" width="10" height="12" loading="lazy">
                     </label>
 
-                    <ul class="dropdown-content" role="menu">
+                    <ul class="dropdown-content dropdown-dir-bottom" role="menu">
                         <li>
-                            <a role="menuitem" href="/de/">
-                                <span>Deutsch</span>
-                                
+                            <a href="#" onclick="shareOn('facebook'); return false;">
+                                <div class="flex flex-center gap-sm">
+                                    <img src="/lib/img/icn/facebook.svg" alt="Facebook Icon" width="14" height="14" loading="lazy" class="social-icon">
+                                    <span>Facebook</span>
+                                </div>
                             </a>
                         </li>
+
+                        <li>
+                            <a href="#" onclick="shareOn('twitter'); return false;">
+                                <div class="flex flex-center gap-sm">
+                                    <img src="/lib/img/icn/twitter.svg" alt="Twitter Icon" width="14" height="14" loading="lazy" class="social-icon">
+                                    <span>Twitter / X</span>
+                                </div>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#" onclick="shareOn('linkedin'); return false;">
+                                <div class="flex flex-center gap-sm">
+                                    <img src="/lib/img/icn/linkedin.svg" alt="LinkedIn Icon" width="14" height="14" loading="lazy" class="social-icon">
+                                    <span>LinkedIn</span>
+                                </div>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#" onclick="shareOn('whatsapp'); return false;">
+                                <div class="flex flex-center gap-sm">
+                                    <img src="/lib/img/icn/whatsapp.svg" alt="WhatsApp Icon" width="14" height="14" loading="lazy" class="social-icon">
+                                    <span>WhatsApp</span>
+                                </div>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#" onclick="shareOn('reddit'); return false;">
+                                <div class="flex flex-center gap-sm">
+                                    <img src="/lib/img/icn/reddit.svg" alt="Reddit Icon" width="14" height="14" loading="lazy" class="social-icon">
+                                    <span>Reddit</span>
+                                </div>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#" onclick="shareOn('email'); return false;" class="social-icon">
+                                <div class="flex flex-center gap-sm">
+                                    <img src="/lib/img/icn/envelope.svg" alt="Email Icon" width="14" height="14" loading="lazy" class="social-icon">
+                                    <span>E-posta</span>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <a href="https://apps.apple.com/tr/app/frames-film-metadata/id6744063354?l=tr" class="btn btn-sm btn-light desktop-only">İndir</a>
+                <a href="https://apps.apple.com/tr/app/frames-film-foto%C4%9Fraf-notlar%C4%B1/id6744057317?l=tr" class="btn btn-sm btn-light mobile-only">İndir</a>
+
+                <div class="mobile-menu">
+                    <input type="checkbox" id="mobile-menu-toggle" class="overlay-toggle" aria-hidden="true">
+
+                    <label for="mobile-menu-toggle" class="mobile-menu-toggle" aria-label="Mobil menüyü aç">
+                        <img src="/lib/img/icn/menu.svg" alt="Menu Icon" width="32" height="32" loading="lazy" aria-hidden="true">
+                    </label>
+
+                    <div class="mobile-menu-overlay overlay">
+                        <label for="mobile-menu-toggle" class="overlay-close" aria-label="Mobil menüyü kapat">
+                            <img src="/lib/img/icn/xmark.svg" alt="x Mark Icon" width="32" height="32" loading="lazy" aria-hidden="true">
+                        </label>
+
+                        <nav class="mobile-menu-nav" aria-label="Mobil navigasyon">
+                            <ul class="flex flex-col">
+                                <li><a href="#features">Özellikler</a></li>
+                                <li><a href="/docs/">Dokümantasyon</a></li>
+                                <li><a href="/changelog/">Değişiklik Günlüğü</a></li>
+                                <li><a href="gizlilik-politikasi/">Gizlilik</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Video Overlay -->
+    <input type="checkbox" id="video-toggle" class="overlay-toggle" aria-hidden="true">
+    <div class="video-overlay overlay">
+        <label for="video-toggle" class="overlay-close" aria-label="Close video">
+            <img src="/lib/img/icn/xmark.svg" alt="x Mark Icon" width="32" height="32" loading="lazy" aria-hidden="true">
+        </label>
+        <div class="video-container">
+            <div class="wrapper">
+                <iframe src="https://www.youtube.com/embed/KRLS5tpmvJM?autoplay=1&mute=1&rel=0" title="Rulolarınızı Kaydetmek ve Takip Etmek için Film Fotoğrafçılığı Uygulaması (iPhone için Frames)" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+
+    <main class="wrapper">
+        <section class="hero" aria-labelledby="hero-heading">
+            <div class="hero-content flex flex-col gap-xl">
+                <h1 id="hero-heading">Mükemmel fotoğraf defteri,<br>
+analog fotoğrafçılar için tasarlandı.</h1>
+                <a href="https://apps.apple.com/tr/app/frames-film-metadata/id6744063354?l=tr" class="btn btn-md btn-light desktop-only" aria-label="Frames&#39;i macOS için indir">
+                    <span>macOS için İndir</span>
+                    <img src="/lib/img/icn/arrow-down-to-line.svg" alt="Download Icon" loading="lazy" aria-hidden="true">
+                </a>
+                <a href="https://apps.apple.com/tr/app/frames-film-foto%C4%9Fraf-notlar%C4%B1/id6744057317?l=tr" class="btn btn-md btn-light mobile-only" aria-label="Frames&#39;i iOS için indir">
+                    <span>iOS için İndir</span>
+                    <img src="/lib/img/icn/arrow-down-to-line.svg" alt="Download Icon" loading="lazy" aria-hidden="true">
+                </a>
+            </div>
+
+            <figure class="hero-image tile container-ratio ratio-2-1">
+                <img src="/lib/img/tr/hero.webp"
+                    srcset="/lib/img/tr/hero.webp 1x, /lib/img/tr/hero@2x.webp 2x"
+                    alt="Mac ve iPhone için Frames film fotoğrafçılığı uygulaması, film rulolarını kaydetmek, metadata yönetmek ve analog fotoğrafları arşivlemek için tasarlandı."
+                    width="1320" height="660" fetchpriority="high" class="mobile-hidden">
+                <img src="/lib/img/tr/hero-mobile.webp"
+                    srcset="/lib/img/tr/hero-mobile.webp 1x, /lib/img/tr/hero-mobile@2x.webp 2x"
+                    alt="Mac ve iPhone için Frames film fotoğrafçılığı uygulaması, film rulolarını kaydetmek, metadata yönetmek ve analog fotoğrafları arşivlemek için tasarlandı."
+                    width="1320" height="990" fetchpriority="high" class="desktop-hidden">
+
+                <label for="video-toggle" class="play-btn" aria-label="Demo videoyu oynat">
+                    <img src="/lib/img/icn/play.svg" alt="" width="36" height="36" aria-hidden="true">
+                </label>
+            </figure>
+
+            <aside class="hero-featured flex flex-col flex-center gap-xl" aria-label="Öne çıkan yayınlar">
+                <p class="featured-text">Fotoğrafçılık topluluğunda öne çıkan.</p>
+
+                <div class="featured-logos flex flex-row">
+                    <img src="/lib/img/logo/petapixel.svg" alt="Petapixel" width="80" height="24">
+                    <img src="/lib/img/logo/35mmc.svg" alt="35mmc" width="56" height="24">
+                    <img src="/lib/img/logo/msn.svg" alt="MSN" width="61" height="24">
+                    <img src="/lib/img/logo/yahoo.svg" alt="Yahoo!" width="81" height="24">
+                    <img src="/lib/img/logo/youtube.svg" alt="Youtube" width="100" height="24">
+                    <img src="/lib/img/logo/jch.svg" alt="Japan Camera Hunter" width="55" height="24">
+                </div>
+            </aside>
+        </section>
+
+        <section class="preview grid grid-2col">
+            <figure class="tile container-ratio ratio-4-3">
+                <div class="tile-inner">
+                    <img src="/lib/img/tr/preview1.webp"
+                        srcset="/lib/img/tr/preview1.webp 1x, /lib/img/tr/preview1@2x.webp 2x"
+                        alt="Frames film fotoğrafçılığı uygulaması, film pozlamalarını kaydetmek için enstantane hızı ve diyafram seçimiyle kayıt arayüzünü gösteriyor."
+                        width="400" height="300" loading="lazy">
+                </div>
+            </figure>
+            <figure class="tile container-ratio ratio-4-3">
+                <div class="tile-inner">
+                    <img src="/lib/img/tr/preview2.webp"
+                        srcset="/lib/img/tr/preview2.webp 1x, /lib/img/tr/preview2@2x.webp 2x"
+                        alt="Frames analog fotoğrafçılık uygulaması, pozlama, film türü, kamera, lens ve çekim koşulları dahil detaylı metadata seçeneklerini gösteriyor."
+                        width="400" height="300" loading="lazy">
+                </div>
+            </figure>
+            <figure class="tile container-ratio ratio-4-3">
+                <div class="tile-inner">
+                    <img src="/lib/img/tr/preview3.webp"
+                        srcset="/lib/img/tr/preview3.webp 1x, /lib/img/tr/preview3@2x.webp 2x"
+                        alt="macOS üzerinde Frames film fotoğrafçılığı uygulaması, analog fotoğraf klasörlerine göz atarken kütüphane görünümünde düzenlenmiş film rulolarını gösteriyor."
+                        width="400" height="300" loading="lazy">
+                </div>
+            </figure>
+            <figure class="tile container-ratio ratio-4-3">
+                <div class="tile-inner">
+                    <img src="/lib/img/tr/preview4.webp"
+                        srcset="/lib/img/tr/preview4.webp 1x, /lib/img/tr/preview4@2x.webp 2x"
+                        alt="Frames analog fotoğrafçılık uygulaması, analog fotoğrafçılık ekipmanını yönetmek için kamera, lens ve filtre detaylarıyla ekipman ayarlarını sunuyor."
+                        width="400" height="300" loading="lazy">
+                </div>
+            </figure>
+            <figure class="tile container-ratio ratio-4-3">
+                <div class="tile-inner">
+                    <img src="/lib/img/shared/preview5.webp"
+                        srcset="/lib/img/shared/preview5.webp 1x, /lib/img/shared/preview5@2x.webp 2x"
+                        alt="Frames film fotoğrafçılığı uygulaması, analog fotoğrafçılık kayıtlarını ve metadata&#39;yı yedeklemek ve paylaşmak için .frames, .txt veya .gpx dosyaları olarak veriyi dışa aktarıyor."
+                        width="400" height="300" loading="lazy">
+                </div>
+            </figure>
+            <figure class="tile container-ratio ratio-4-3">
+                <div class="tile-inner">
+                    <img src="/lib/img/shared/preview6.webp"
+                        srcset="/lib/img/shared/preview6.webp 1x, /lib/img/shared/preview6@2x.webp 2x"
+                        alt="Frames analog fotoğrafçılık uygulaması metadata&#39;sı film fotoğrafçıları için Finder, Adobe Lightroom, Adobe Bridge, Google Photos, Darktable ve Flickr ile entegre."
+                        width="400" height="300" loading="lazy">
+                </div>
+            </figure>
+        </section>
+
+        <section class="reviews review-carousel" aria-label="Müşteri incelemeleri">
+            <input type="radio" name="review" id="review-1" checked aria-hidden="true">
+            <input type="radio" name="review" id="review-2" aria-hidden="true">
+            <input type="radio" name="review" id="review-3" aria-hidden="true">
+            <input type="radio" name="review" id="review-4" aria-hidden="true">
+            <input type="radio" name="review" id="review-5" aria-hidden="true">
+
+            <div class="grid grid-4col">
+
+                <!-- Review Content -->
+                <article class="review-card flex flex-col" data-review="0">
+                    <blockquote class="review-quote">
+                        <p>"Kullanımı kolay, güvenilir ve makul fiyatlı bir uygulama. Çekim verilerini, coğrafi konum dahil, taranan negatiflerin EXIF&#39;ine aktarıyor. Geliştirici geri bildirimleri dinliyor ve sürekli geliştiriyor. Mükemmel!"</p>
+                    </blockquote>
+
+                    <footer class="review-author flex flex-row flex-center gap-sm">
+                        <div class="btn btn-circle btn-secondary">
+                            <img src="/lib/img/shared/author1.webp"
+                                srcset="/lib/img/shared/author1.webp 1x, /lib/img/shared/author1@2x.webp 2x"
+                                alt="Maria Garcia"
+                                width="32" height="32" loading="lazy">
+                        </div>
+                        <div class="author-info flex flex-col">
+                            <cite class="author-name">Maria Garcia</cite>
+                            <time class="review-date" datetime="2025-07-12">12 Temmuz 2025</time>
+                        </div>
+                    </footer>
+                </article>
+
+                <article class="review-card flex flex-col" data-review="1">
+                    <blockquote class="review-quote">
+                        <p>"Evde banyo yapan bir film fotoğrafçısı olarak, Frames&#39;in defter zahmeti olmadan her çekimi kaydetmeme izin vermesi harika. Mükemmel ve pratik bir çözüm. Pro&#39;ya geçtim ve hiç geriye bakmadım!"</p>
+                    </blockquote>
+
+                    <footer class="review-author flex flex-row flex-center gap-sm">
+                        <div class="btn btn-circle btn-secondary">
+                            <img src="/lib/img/shared/author2.webp"
+                                srcset="/lib/img/shared/author2.webp 1x, /lib/img/shared/author2@2x.webp 2x"
+                                alt="BHenriquez"
+                                width="32" height="32" loading="lazy">
+                        </div>
+                        <div class="author-info flex flex-col">
+                            <cite class="author-name">BHenriquez</cite>
+                            <time class="review-date" datetime="2025-05-08">8 Mayıs 2025</time>
+                        </div>
+                    </footer>
+                </article>
+
+                <article class="review-card flex flex-col" data-review="2">
+                    <blockquote class="review-quote">
+                        <p>"Film çekerken pozlamayı ve konumu kaydetmek için harika, ayarları analiz etmek veya EXIF benzeri veri tutmak için ideal. Geliştirici bir hatayı bir gün içinde düzeltti. Şiddetle tavsiye edilir!"</p>
+                    </blockquote>
+
+                    <footer class="review-author flex flex-row flex-center gap-sm">
+                        <div class="btn btn-circle btn-secondary">
+                            <img src="/lib/img/shared/author3.webp"
+                                srcset="/lib/img/shared/author3.webp 1x, /lib/img/shared/author3@2x.webp 2x"
+                                alt="Emma Richardson"
+                                width="32" height="32" loading="lazy">
+                        </div>
+                        <div class="author-info flex flex-col">
+                            <cite class="author-name">Emma Richardson</cite>
+                            <time class="review-date" datetime="2025-08-23">23 Ağustos 2025</time>
+                        </div>
+                    </footer>
+                </article>
+
+                <article class="review-card flex flex-col" data-review="3">
+                    <blockquote class="review-quote">
+                        <p>"Filme geri döndüğümde Frames&#39;i bulana kadar metadata&#39;yı özledim. Kağıt notların yerini alıyor, organize kalmama yardımcı oluyor ve çekim yaparken daha dikkatli olmamı sağlıyor. Film fotoğrafçıları için olmazsa olmaz!"</p>
+                    </blockquote>
+
+                    <footer class="review-author flex flex-row flex-center gap-sm">
+                        <div class="btn btn-circle btn-secondary">
+                            <img src="/lib/img/shared/author4.webp"
+                                srcset="/lib/img/shared/author4.webp 1x, /lib/img/shared/author4@2x.webp 2x"
+                                alt="Roger Nordstrom Photo"
+                                width="32" height="32" loading="lazy">
+                        </div>
+                        <div class="author-info flex flex-col">
+                            <cite class="author-name">Roger Nordstrom Photo</cite>
+                            <time class="review-date" datetime="2025-04-15">15 Nisan 2025</time>
+                        </div>
+                    </footer>
+                </article>
+
+                <article class="review-card flex flex-col" data-review="4">
+                    <blockquote class="review-quote">
+                        <p>"Geliştiricinin de uygulamayı kullandığını anlayabiliyorsunuz. Her küçük detay kasıtlı hissettiriyor ve arayüz temiz ve basit. Her şey sorunsuz çalışıyor. Mevcut en iyi film notları uygulaması!"</p>
+                    </blockquote>
+
+                    <footer class="review-author flex flex-row flex-center gap-sm">
+                        <div class="btn btn-circle btn-secondary">
+                            <img src="/lib/img/shared/author5.webp"
+                                srcset="/lib/img/shared/author5.webp 1x, /lib/img/shared/author5@2x.webp 2x"
+                                alt="James Anderson"
+                                width="32" height="32" loading="lazy">
+                        </div>
+                        <div class="author-info flex flex-col">
+                            <cite class="author-name">James Anderson</cite>
+                            <time class="review-date" datetime="2025-09-05">5 Eylül 2025</time>
+                        </div>
+                    </footer>
+                </article>
+
+                <!-- Review Details & Navigation -->
+                <div class="review-details col-span-2-mobile flex flex-col flex-justify-between">
+                    <p>Veri kaydını net ve keyifli hale getirmek için film topluluğundan gelen geri bildirimlerle tasarlandı.</p>
+
+                    <div class="review-footer flex flex-col gap-xl">
+                        <p>Frames ile film fotoğrafçılığı deneyimine düzen ve içgörü kazandıran binlerce fotoğrafçıya katılın.</p>
+
+                        <nav class="review-navigation flex flex-row gap-sm" aria-label="İnceleme navigasyonu">
+                            <!-- Review 1 navigation: prev=5, next=2 -->
+                            <label for="review-5" class="btn btn-circle btn-dark" aria-label="Önceki inceleme">
+                                <img src="/lib/img/icn/arrow-left.svg" alt="" loading="lazy" aria-hidden="true">
+                            </label>
+                            <label for="review-2" class="btn btn-circle btn-dark" aria-label="Sonraki inceleme">
+                                <img src="/lib/img/icn/arrow-right.svg" alt="" loading="lazy" aria-hidden="true">
+                            </label>
+                            <!-- Review 2 navigation: prev=1, next=3 -->
+                            <label for="review-1" class="btn btn-circle btn-dark" aria-label="Önceki inceleme">
+                                <img src="/lib/img/icn/arrow-left.svg" alt="" loading="lazy" aria-hidden="true">
+                            </label>
+                            <label for="review-3" class="btn btn-circle btn-dark" aria-label="Sonraki inceleme">
+                                <img src="/lib/img/icn/arrow-right.svg" alt="" loading="lazy" aria-hidden="true">
+                            </label>
+                            <!-- Review 3 navigation: prev=2, next=4 -->
+                            <label for="review-2" class="btn btn-circle btn-dark" aria-label="Önceki inceleme">
+                                <img src="/lib/img/icn/arrow-left.svg" alt="" loading="lazy" aria-hidden="true">
+                            </label>
+                            <label for="review-4" class="btn btn-circle btn-dark" aria-label="Sonraki inceleme">
+                                <img src="/lib/img/icn/arrow-right.svg" alt="" loading="lazy" aria-hidden="true">
+                            </label>
+                            <!-- Review 4 navigation: prev=3, next=5 -->
+                            <label for="review-3" class="btn btn-circle btn-dark" aria-label="Önceki inceleme">
+                                <img src="/lib/img/icn/arrow-left.svg" alt="" loading="lazy" aria-hidden="true">
+                            </label>
+                            <label for="review-5" class="btn btn-circle btn-dark" aria-label="Sonraki inceleme">
+                                <img src="/lib/img/icn/arrow-right.svg" alt="" loading="lazy" aria-hidden="true">
+                            </label>
+                            <!-- Review 5 navigation: prev=4, next=1 -->
+                            <label for="review-4" class="btn btn-circle btn-dark" aria-label="Önceki inceleme">
+                                <img src="/lib/img/icn/arrow-left.svg" alt="" loading="lazy" aria-hidden="true">
+                            </label>
+                            <label for="review-1" class="btn btn-circle btn-dark" aria-label="Sonraki inceleme">
+                                <img src="/lib/img/icn/arrow-right.svg" alt="" loading="lazy" aria-hidden="true">
+                            </label>
+                        </nav>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="features" aria-labelledby="features-heading">
+            <h2 id="features-heading">Özellikler</h2>
+            <div class="features grid grid-4col">
+                <article class="feature tile container-ratio ratio-1-1">
+                    <div class="feature-inner flex flex-col flex-justify-between">
+                        <header class="feature-header flex flex-col gap-xs">
+                            <span class="feature-label">Arşiv</span>
+                            <h3>Kütüphaneyi Düzenle</h3>
+                        </header>
+                        <p>Tüm film rulolarınıza kolayca göz atın, düzenleyin ve yönetin, her oturumu net yapılandırılmış, bulması kolay ve mükemmel organize tutun.</p>
+                    </div>
+                </article>
+
+                <article class="feature tile container-ratio ratio-1-1">
+                    <div class="feature-inner flex flex-col flex-justify-between">
+                        <header class="feature-header flex flex-col gap-xs">
+                            <span class="feature-label">Ekipman</span>
+                            <h3>Ekipmanı Yönet</h3>
+                        </header>
+                        <p>Kameralarınızın, lenslerinizin ve filtrelerinizin detaylı bir envanterini tutun, tutarlılık sağlayın ve her çekim için tüm ekipman bilgilerini hazır bulundurun.</p>
+                    </div>
+                </article>
+
+                <article class="feature tile container-ratio ratio-1-1">
+                    <div class="feature-inner flex flex-col flex-justify-between">
+                        <header class="feature-header flex flex-col gap-xs">
+                            <span class="feature-label">Kaydet</span>
+                            <h3>Ayarları Yakala</h3>
+                        </header>
+                        <p>Her fotoğraf için diyafram, enstantane hızı, film türü ve konum detaylarını doğrudan kaydedin, her karenin bilgisini doğru ve erişilebilir tutun.</p>
+                    </div>
+                </article>
+
+                <article class="feature tile container-ratio ratio-1-1">
+                    <div class="feature-inner flex flex-col flex-justify-between">
+                        <header class="feature-header flex flex-col gap-xs">
+                            <span class="feature-label">Geçmiş</span>
+                            <h3>Kareleri Yeniden Ziyaret Et</h3>
+                        </header>
+                        <p>Ayarları gözden geçirmek, önceki oturumları analiz etmek için kaydedilen rulolarınıza geri bakın, onlardan öğrenin ve film fotoğrafçılığı iş akışınızı geliştirin.</p>
+                    </div>
+                </article>
+
+                <article class="feature tile container-ratio ratio-1-1">
+                    <div class="feature-inner flex flex-col flex-justify-between">
+                        <header class="feature-header flex flex-col gap-xs">
+                            <span class="feature-label">Dışa Aktar</span>
+                            <h3>Kayıtları Dışa Aktar</h3>
+                        </header>
+                        <p>Kayıtlarınızı yedekleme, paylaşma veya diğer uygulamalar veya iş akışlarıyla entegrasyon için .frames, .txt veya .gpx dosyaları olarak kaydedin veya paylaşın.</p>
+                    </div>
+                </article>
+
+                <article class="feature tile container-ratio ratio-1-1">
+                    <div class="feature-inner flex flex-col flex-justify-between">
+                        <header class="feature-header flex flex-col gap-xs">
+                            <span class="feature-label">Metadata</span>
+                            <h3>Metadata Kaydet</h3>
+                        </header>
+                        <p>Analog bilgileri korumak için kaydedilen tüm verileri taranan görüntülere gömün, dijital arşivlerinizi tamamen senkronize tutarken.</p>
+                    </div>
+                </article>
+
+                <article class="feature tile container-ratio ratio-1-1">
+                    <div class="feature-inner flex flex-col flex-justify-between">
+                        <header class="feature-header flex flex-col gap-xs">
+                            <span class="feature-label">Destek</span>
+                            <h3>E-posta Desteği</h3>
+                        </header>
+                        <p>Yardım almak, geri bildirim paylaşmak veya yeni özellikler ve iyileştirmeler önermek için istediğiniz zaman hızlı yanıtlarla doğrudan geliştiriciye ulaşın.</p>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section aria-labelledby="pricing-heading">
+            <h2 id="pricing-heading">Fiyatlandırma</h2>
+            <div class="pricing grid grid-4col">
+                <article class="tile container-ratio ratio-3-4 pricing-card">
+                    <div class="pricing-inner flex flex-col flex-justify-between">
+                        <div class="pricing-header flex flex-col gap-lg">
+                            <header class="flex flex-col gap-xs">
+                                <h3 class="pricing-title">iOS</h3>
+                                <div class="pricing-amount">
+                                    <span class="price">99,99 ₺</span><span class="price-period">/ay</span>
+                                </div>
+                            </header>
+
+                            <p class="pricing-label">İçerir:</p>
+
+                            <ul class="pricing-features flex flex-col gap-xs">
+                                <li class="flex flex-row gap-xs">
+                                    <span class="checkmark">✓</span>
+                                    Sınırsız film ruloları
+                                </li>
+                                <li class="flex flex-row gap-xs">
+                                    <span class="checkmark">✓</span>
+                                    Alt klasörler
+                                </li>
+                                <li class="flex flex-row gap-xs">
+                                    <span class="checkmark">✓</span>
+                                    .frames olarak veri dışa aktarma
+                                </li>
+                                <li class="flex flex-row gap-xs">
+                                    <span class="checkmark">✓</span>
+                                    .txt veya .gpx olarak veri dışa aktarma
+                                </li>
+                            </ul>
+                        </div>
+
+                        <footer class="pricing-action">
+                            <a href="https://apps.apple.com/tr/app/frames-film-foto%C4%9Fraf-notlar%C4%B1/id6744057317?l=tr" class="btn btn-md btn-light">Ücretsiz Dene</a>
+                        </footer>
+                    </div>
+                </article>
+
+                <article class="tile container-ratio ratio-3-4 pricing-card">
+                    <div class="pricing-inner flex flex-col flex-justify-between">
+                        <div class="pricing-header flex flex-col gap-lg">
+                            <header class="flex flex-col gap-xs">
+                                <h3 class="pricing-title">macOS</h3>
+                                <div class="pricing-amount">
+                                    <span class="price">99,99 ₺</span><span class="price-period">/ay</span>
+                                </div>
+                            </header>
+
+                            <p class="pricing-label">İçerir:</p>
+
+                            <ul class="pricing-features flex flex-col gap-xs">
+                                <li class="flex flex-row gap-xs">
+                                    <span class="checkmark">✓</span>
+                                    Fotoğraflara metadata kaydet
+                                </li>
+                            </ul>
+                        </div>
+
+                        <footer class="pricing-action">
+                            <a href="https://apps.apple.com/tr/app/frames-film-metadata/id6744063354?l=tr" class="btn btn-md btn-secondary">Ücretsiz Dene</a>
+                        </footer>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section class="qa grid grid-2col" aria-labelledby="qa-heading">
+            <h2 id="qa-heading">Soru &amp; Cevap</h2>
+
+            <div class="qa-content flex flex-col">
+                <details>
+                    <summary class="flex flex-justify-between">
+                        <h3>Hangi metadata&#39;yı kaydedebilirim?</h3>
+                        <div class="details-icon flex flex-center flex-justify-center" aria-hidden="true">
+                            <img src="/lib/img/icn/chevron-down.svg" alt="" loading="lazy">
+                        </div>
+                    </summary>
+                    <p>Frames, her çekim için kamera, lens, filtreler, kare numarası, odak uzaklığı, diyafram, enstantane hızı, ISO, ölçüm modu, film stoğu, flaş, GPS konumu, zaman damgaları ve özel notlar dahil detaylı bilgi kaydetmenize olanak tanır, böylece önemli analog fotoğrafçılık detaylarını asla kaybetmezsiniz.</p>
+                </details>
+
+                <details>
+                    <summary class="flex flex-justify-between">
+                        <h3>Hangi görüntü formatları destekleniyor?</h3>
+                        <div class="details-icon flex flex-center flex-justify-center" aria-hidden="true">
+                            <img src="/lib/img/icn/chevron-down.svg" alt="" loading="lazy">
+                        </div>
+                    </summary>
+                    <p>Frames, JPEG, TIFF ve DNG formatlarını destekler, kaydedilen metadata'nızı doğrudan taranan analog fotoğraflara gömerek cihazlarınız arasında sorunsuz organizasyon ve iş akışı sağlar.</p>
+                </details>
+
+                <details>
+                    <summary class="flex flex-justify-between">
+                        <h3>Frames Android veya Windows&#39;ta var mı?</h3>
+                        <div class="details-icon flex flex-center flex-justify-center" aria-hidden="true">
+                            <img src="/lib/img/icn/chevron-down.svg" alt="" loading="lazy">
+                        </div>
+                    </summary>
+                    <p>Frames şu anda iPhone ve macOS için mevcuttur. Android ve Windows sürümleri 2026 için planlanmıştır ve bu arada .frames dosya dışa aktarma yoluyla verilerinizi paylaşabilir ve yönetebilirsiniz.</p>
+                </details>
+
+                <details>
+                    <summary class="flex flex-justify-between">
+                        <h3>Hangi enstantane hızları ve diyaframlar destekleniyor?</h3>
+                        <div class="details-icon flex flex-center flex-justify-center" aria-hidden="true">
+                            <img src="/lib/img/icn/chevron-down.svg" alt="" loading="lazy">
+                        </div>
+                    </summary>
+                    <p>Frames, çoğu lensi ve kamerayı kapsayan varsayılan diziler sunar ve ekipmanınız için özel diziler de tanımlayabilirsiniz, bu da onu herhangi bir enstantane hızı veya diyafram değeriyle uyumlu hale getirir.</p>
+                </details>
+
+                <details>
+                    <summary class="flex flex-justify-between">
+                        <h3>Tripodları veya aksesuarları kaydedebilir miyim?</h3>
+                        <div class="details-icon flex flex-center flex-justify-center" aria-hidden="true">
+                            <img src="/lib/img/icn/chevron-down.svg" alt="" loading="lazy">
+                        </div>
+                    </summary>
+                    <p>Evet, Frames tripodları, flaşları ve diğer aksesuarları kaydetmenize izin verir. İstediğiniz özel detayları ekleyebileceğiniz ekstra bir not alanı da vardır.</p>
+                </details>
+
+                <details>
+                    <summary class="flex flex-justify-between">
+                        <h3>Gelecekteki güncellemeler için ne gibi planlar var?</h3>
+                        <div class="details-icon flex flex-center flex-justify-center" aria-hidden="true">
+                            <img src="/lib/img/icn/chevron-down.svg" alt="" loading="lazy">
+                        </div>
+                    </summary>
+                    <p>Gelecek planlar, genişletilmiş iş akışı özellikleri, geliştirilmiş cihazlar arası entegrasyon ve topluluk tarafından talep edilen yeni araçları içererek analog fotoğrafçılık kaydını daha da esnek ve güçlü hale getirir.</p>
+                </details>
+            </div>
+        </section>
+
+        <section class="contact tile container-ratio ratio-2-1" aria-labelledby="contact-heading">
+            <div class="contact-inner flex flex-col flex-center flex-justify-center">
+                <h2 id="contact-heading">Fikirlerinizi ve düşüncelerinizi duymak isteriz.</h2>
+                <a href="mailto:&#104;&#105;&#64;&#119;&#105;&#116;&#104;&#102;&#114;&#97;&#109;&#101;&#115;&#46;&#99;&#111;&#109;" class="btn btn-md btn-secondary">Bize e-posta gönderin</a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="main-footer wrapper flex flex-col gap-6xl">
+        <div class="footer-links grid grid-4col">
+            <img src="/lib/img/logo/frames.svg" alt="Frames">
+            <ul class="flex flex-col gap-sm">
+                <li><h3>Bizi Takip Edin</h3></li>
+                <li><a href="https://www.instagram.com/with_frames/" target="_blank" rel="noopener noreferrer">Instagram</a></li>
+                <li><a href="https://www.threads.net/@with_frames" target="_blank" rel="noopener noreferrer">Threads</a></li>
+                <li><a href="https://www.facebook.com/framesapp" target="_blank" rel="noopener noreferrer">Facebook</a></li>
+                <li><a href="https://bsky.app/profile/withframes.bsky.social" target="_blank" rel="noopener noreferrer">Bluesky</a></li>
+                <li><a href="https://mastodon.social/@frames" target="_blank" rel="noopener noreferrer">Mastodon</a></li>
+                <li><a href="https://twitter.com/withframes" target="_blank" rel="noopener noreferrer">Twitter</a></li>
+            </ul>
+            <ul class="flex flex-col gap-sm">
+                <li><h3>Kaynaklar</h3></li>
+                <li><a href="gizlilik-politikasi/">Gizlilik Politikası</a></li>
+                <li><a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/" target="_blank" rel="noopener noreferrer">Hizmet Şartları</a></li>
+                <li><a href="/docs/">Dokümantasyon</a></li>
+                <li><a href="/changelog/">Değişiklik Günlüğü</a></li>
+                <li><a href="https://www.youtube.com/@withframes" target="_blank" rel="noopener noreferrer">Youtube</a></li>
+            </ul>
+            <ul class="flex flex-col gap-sm">
+                <li><h3>Ürün</h3></li>
+                <li><a href="https://apps.apple.com/tr/app/frames-film-foto%C4%9Fraf-notlar%C4%B1/id6744057317?l=tr">Frames iOS</a></li>
+                <li><a href="https://apps.apple.com/tr/app/frames-film-metadata/id6744063354?l=tr">Frames macOS</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-bottom flex flex-row flex-justify-between flex-center">
+            <p>© 2025 Vincent Tantardini. <span class="mobile-hidden">Tüm hakları saklıdır.</span></p>
+
+                <div class="dropdown">
+                    <input type="checkbox" class="dropdown-toggle" id="lang-toggle">
+
+                    <label for="lang-toggle" class="dropdown-button btn btn-sm btn-dark">
+                        <img src="/lib/img/icn/globe.svg" alt="Globe Icon" loading="lazy">
+                        <span>Türkçe</span>
+                        <img src="/lib/img/icn/chevron-down-sm.svg" alt="Chevron Down" width="10" height="12" loading="lazy">
+                    </label>
+
+                    <ul class="dropdown-content dropdown-dir-top" role="menu">
                         <li>
                             <a role="menuitem" href="/">
                                 <span>English</span>
-                                
-                            </a>
-                        </li>
-                        <li>
-                            <a role="menuitem" href="/es/">
-                                <span>Español</span>
-                                
                             </a>
                         </li>
                         <li>
                             <a role="menuitem" href="/fr/">
                                 <span>Français</span>
-                                
                             </a>
                         </li>
                         <li>
-                            <a role="menuitem" href="/hi/">
-                                <span>हिन्दी</span>
-                                
+                            <a role="menuitem" href="/de/">
+                                <span>Deutsch</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a role="menuitem" href="/es/">
+                                <span>Español</span>
                             </a>
                         </li>
                         <li>
                             <a role="menuitem" href="/it/">
                                 <span>Italiano</span>
-                                
-                            </a>
-                        </li>
-                        <li>
-                            <a role="menuitem" href="/ja/">
-                                <span>日本語</span>
-                                
-                            </a>
-                        </li>
-                        <li>
-                            <a role="menuitem" href="/ko/">
-                                <span>한국어</span>
-                                
                             </a>
                         </li>
                         <li>
                             <a role="menuitem" href="/nl/">
                                 <span>Nederlands</span>
-                                
-                            </a>
-                        </li>
-                        <li>
-                            <a role="menuitem" href="/pl/">
-                                <span>Polski</span>
-                                
                             </a>
                         </li>
                         <li>
                             <a role="menuitem" href="/pt/">
                                 <span>Português</span>
-                                
+                            </a>
+                        </li>
+                        <li>
+                            <a role="menuitem" href="/ja/">
+                                <span>日本語</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a role="menuitem" href="/ko/">
+                                <span>한국어</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a role="menuitem" href="/hi/">
+                                <span>हिन्दी</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a role="menuitem" href="/pl/">
+                                <span>Polski</span>
                             </a>
                         </li>
                         <li>
                             <a role="menuitem" href="/ru/">
                                 <span>Русский</span>
-                                
                             </a>
                         </li>
                         <li>
                             <a role="menuitem" href="/sv/">
                                 <span>Svenska</span>
-                                
                             </a>
                         </li>
                         <li>
                             <a role="menuitem" href="/th/">
-                                <span>ภาษาไทย</span>
-                                
+                                <span>ไทย</span>
                             </a>
                         </li>
                         <li>
                             <a role="menuitem" href="/tr/">
                                 <span>Türkçe</span>
-                                
                                 <span>✓</span>
-                                
                             </a>
                         </li>
                         <li>
                             <a role="menuitem" href="/zh/">
                                 <span>简体中文</span>
-                                
                             </a>
                         </li>
                     </ul>
                 </div>
-            </li>
-        </ul>
+        </div>
     </footer>
-    <script defer src="/library/js/load_schema-tr.js" fetchpriority="low"></script>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const schemaFiles = [
+                '/lib/schema/tr/frames.json',
+                '/lib/schema/tr/faq.json'
+            ];
+
+            schemaFiles.forEach((url) => {
+                fetch(url)
+                    .then(response => {
+                        if (!response.ok) {
+                            throw new Error(`Failed to fetch ${url}: ${response.status}`);
+                        }
+                        return response.json(); // Parse as JSON
+                    })
+                    .then(jsonData => {
+                        const script = document.createElement('script');
+                        script.type = 'application/ld+json';
+                        script.textContent = JSON.stringify(jsonData); // Convert back to string
+                        document.head.appendChild(script);
+                        console.log(`Successfully injected JSON-LD from ${url}`);
+                    })
+                    .catch(error => {
+                        console.error('Error injecting JSON-LD:', error);
+                    });
+            });
+        });
+
+    // Video overlay - reload iframe to stop video when closing
+    document.getElementById('video-toggle').addEventListener('change', function(e) {
+        if (!e.target.checked) {
+            const iframe = document.querySelector('.video-container iframe');
+            const src = iframe.src;
+            iframe.src = src;
+        }
+    });
+
+    function toggleShareMenu() {
+      const menu = document.getElementById('shareMenu');
+      menu.classList.toggle('active');
+    }
+
+    function shareOn(platform) {
+      const url = encodeURIComponent(window.location.href);
+      const title = encodeURIComponent(document.title);
+      const text = encodeURIComponent('Frames analog fotoğrafçılar için film fotoğrafçılığı uygulamasıdır. Her çekimi kaydedin, kamera ayarlarını takip edin, rulolarınızı düzenleyin ve iPhone &amp; Mac&#39;te EXIF metadata kaydedin.');
+      
+      let shareUrl = '';
+
+      switch(platform) {
+        case 'facebook':
+          shareUrl = `https://www.facebook.com/sharer/sharer.php?u=${url}`;
+          break;
+        case 'twitter':
+          shareUrl = `https://twitter.com/intent/tweet?url=${url}&text=${text}`;
+          break;
+        case 'linkedin':
+          shareUrl = `https://www.linkedin.com/sharing/share-offsite/?url=${url}`;
+          break;
+        case 'whatsapp':
+          shareUrl = `https://wa.me/?text=${text}%20${url}`;
+          break;
+        case 'reddit':
+          shareUrl = `https://reddit.com/submit?url=${url}&title=${title}`;
+          break;
+        case 'email':
+          shareUrl = `mailto:?subject=${title}&body=${text}%20${url}`;
+          break;
+      }
+
+      if (shareUrl) {
+        window.open(shareUrl, '_blank', 'width=600,height=400');
+      }
+    }
+  </script>
 </body>
+
 </html>
