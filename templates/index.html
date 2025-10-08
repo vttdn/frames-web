@@ -137,7 +137,7 @@
                 <a href="{{ locale_data.urls.appstore_ios }}" class="btn btn-sm btn-light mobile-only">{{ locale_data.header.buttons.download }}</a>
 
                 <div class="mobile-menu">
-                    <input type="checkbox" id="mobile-menu-toggle" class="overlay-toggle" aria-hidden="true">
+                    <input type="checkbox" id="mobile-menu-toggle" class="overlay-toggle" aria-hidden="true" tabindex="-1">
 
                     <label for="mobile-menu-toggle" class="mobile-menu-toggle" aria-label="{{ locale_data.mobile_menu.open_aria_label }}">
                         <img src="/lib/img/icn/menu.svg" alt="Menu Icon" width="32" height="32" loading="lazy" aria-hidden="true">
@@ -163,7 +163,7 @@
     </header>
 
     <!-- Video Overlay -->
-    <input type="checkbox" id="video-toggle" class="overlay-toggle" aria-hidden="true">
+    <input type="checkbox" id="video-toggle" class="overlay-toggle" aria-hidden="true" tabindex="-1">
     <div class="video-overlay overlay">
         <label for="video-toggle" class="overlay-close" aria-label="Close video">
             <img src="/lib/img/icn/xmark.svg" alt="x Mark Icon" width="32" height="32" loading="lazy" aria-hidden="true">
@@ -279,11 +279,11 @@
         </section>
 
         <section class="reviews review-carousel" aria-label="{{ locale_data.reviews.aria_label }}">
-            <input type="radio" name="review" id="review-1" checked aria-hidden="true">
-            <input type="radio" name="review" id="review-2" aria-hidden="true">
-            <input type="radio" name="review" id="review-3" aria-hidden="true">
-            <input type="radio" name="review" id="review-4" aria-hidden="true">
-            <input type="radio" name="review" id="review-5" aria-hidden="true">
+            <input type="radio" name="review" id="review-1" checked aria-hidden="true" tabindex="-1">
+            <input type="radio" name="review" id="review-2" aria-hidden="true" tabindex="-1">
+            <input type="radio" name="review" id="review-3" aria-hidden="true" tabindex="-1">
+            <input type="radio" name="review" id="review-4" aria-hidden="true" tabindex="-1">
+            <input type="radio" name="review" id="review-5" aria-hidden="true" tabindex="-1">
 
             <div class="grid grid-4col">
 
