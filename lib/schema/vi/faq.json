@@ -1,0 +1,46 @@
+{
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Tôi có thể ghi lại siêu dữ liệu gì?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Frames cho phép bạn ghi lại thông tin chi tiết cho mỗi bức ảnh, bao gồm máy ảnh, ống kính, bộ lọc, số khung hình, tiêu cự, khẩu độ, tốc độ màn trập, ISO, chế độ đo sáng, loại phim, đèn flash, vị trí GPS, dấu thời gian và ghi chú tùy chỉnh, đảm bảo bạn không bao giờ mất dấu các chi tiết quan trọng trong nhiếp ảnh analog."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Những định dạng ảnh nào được hỗ trợ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Frames hỗ trợ định dạng JPEG, TIFF và DNG, cho phép bạn nhúng siêu dữ liệu đã ghi trực tiếp vào ảnh analog đã quét để sắp xếp và quy trình làm việc liền mạch trên các thiết bị của bạn."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Frames có trên Android hoặc Windows không?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Frames hiện có sẵn cho iPhone và macOS. Phiên bản cho Android và Windows được lên kế hoạch cho năm 2026, và trong thời gian chờ đợi, bạn có thể chia sẻ và quản lý dữ liệu của mình thông qua xuất tệp .frames."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Tốc độ màn trập và khẩu độ nào được hỗ trợ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Frames cung cấp chuỗi mặc định bao phủ hầu hết ống kính và máy ảnh, và bạn cũng có thể định nghĩa chuỗi tùy chỉnh cho thiết bị của mình, làm cho nó tương thích với bất kỳ giá trị tốc độ màn trập hoặc khẩu độ nào."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Tôi có thể ghi lại chân máy hoặc phụ kiện không?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Có, Frames cho phép bạn ghi lại chân máy, đèn flash và các phụ kiện khác. Còn có trường ghi chú bổ sung nơi bạn có thể thêm bất kỳ chi tiết tùy chỉnh nào bạn muốn."
+          }
+        }
+      ]
+    }

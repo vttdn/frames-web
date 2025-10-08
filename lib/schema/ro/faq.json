@@ -1,0 +1,46 @@
+{
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Ce metadate pot înregistra?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Frames îți permite să notezi informații detaliate pentru fiecare fotografie, inclusiv cameră, obiectiv, filtre, număr cadru, distanță focală, diafragmă, viteză obturator, ISO, mod măsurare, tip film, bliț, locație GPS, marcaje temporale și notițe personalizate, asigurându-te că nu pierzi niciodată detalii importante ale fotografiei analogice."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Ce formate de imagine sunt suportate?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Frames suportă formatele JPEG, TIFF și DNG, permițându-ți să încorporezi metadatele înregistrate direct în fotografiile analogice scanate pentru organizare și flux de lucru fără probleme pe toate dispozitivele tale."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Este Frames pe Android sau Windows?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Frames este disponibil momentan pentru iPhone și macOS. Versiunile pentru Android și Windows sunt planificate pentru 2026, iar între timp poți partaja și gestiona datele prin exporturi de fișiere .frames."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Ce viteze obturator și diafragme sunt suportate?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Frames oferă secvențe implicite care acoperă majoritatea obiectivelor și camerelor, și poți defini și secvențe personalizate pentru echipamentul tău, făcându-l compatibil cu orice valori de viteză obturator sau diafragmă."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Pot înregistra trepiedele sau accesoriile?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Da, Frames îți permite să înregistrezi trepiedele, blițurile și alte accesorii. Există și un câmp suplimentar de notițe unde poți adăuga orice detalii personalizate dorești."
+          }
+        }
+      ]
+    }

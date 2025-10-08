@@ -1,0 +1,46 @@
+{
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Hvilke metadata kan jeg registrere?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Frames lar deg logge detaljert informasjon for hvert bilde, inkludert kamera, objektiv, filtre, rammenummer, brennvidde, blender, lukkertid, ISO, målemodus, filmtype, blits, GPS-posisjon, tidsstempler og egendefinerte notater, slik at du aldri mister viktige analoge fotografidetaljer."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Hvilke bildeformater støttes?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Frames støtter JPEG, TIFF og DNG-formater, slik at du kan bygge inn registrerte metadata direkte i skannede analoge bilder for sømløs organisering og arbeidsflyt på tvers av enhetene dine."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Finnes Frames på Android eller Windows?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Frames er for øyeblikket tilgjengelig for iPhone og macOS. Versjoner for Android og Windows er planlagt for 2026, og i mellomtiden kan du dele og administrere dataene dine via .frames-fileksporter."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Hvilke lukkertider og blendere støttes?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Frames tilbyr standardsekvenser som dekker de fleste objektiver og kameraer, og du kan også definere egendefinerte sekvenser for utstyret ditt, noe som gjør det kompatibelt med alle lukkertid- eller blenderverdier."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Kan jeg logge stativer eller tilbehør?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ja, Frames lar deg registrere stativer, blitser og annet tilbehør. Det er også et ekstra notatfelt hvor du kan legge til egendefinerte detaljer du ønsker."
+          }
+        }
+      ]
+    }

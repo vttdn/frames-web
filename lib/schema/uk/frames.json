@@ -1,0 +1,223 @@
+{
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "MobileApplication",
+          "name": "Frames iOS",
+          "operatingSystem": "iOS 18.0",
+          "applicationCategory": "MultimediaApplication",
+          "inLanguage": "uk",
+          "description": "Frames – додаток плівкової фотографії для аналогових фотографів. Записуйте кожен кадр, відстежуйте налаштування камери, організовуйте плівки та зберігайте EXIF.",
+          "image": "https://withframes.com/uk/og-image.jpg",
+          "url": "https://apps.apple.com/ua/app/frames-нотатки-про-плівку/id6744057317?l=uk",
+          "installUrl": "https://apps.apple.com/ua/app/frames-нотатки-про-плівку/id6744057317?l=uk",
+          "softwareVersion": "1.13.1",
+          "screenshot": "https://withframes.com/uk/og-image.jpg",
+          "isAccessibleForFree": true,
+          "keywords": "film photography app, analog photography, EXIF metadata, film camera notes, photography workflow, film photography organization",
+          "maintainer": {
+            "@type": "Person",
+            "name": "Vincent Tantardini"
+          },
+          "countriesSupported": [
+            "US", "GB", "FR", "DE", "IT", "ES", "CA", "AU",
+            "JP", "KR", "NL", "SE", "NO", "FI", "DK", "NZ"
+          ],
+          "mainEntity": {
+            "@type": "WebPage",
+            "@id": "https://withframes.com/"
+          },
+          "author": {
+            "@type": "Person",
+            "name": "Vincent Tantardini"
+          },
+          "offers": {
+            "@type": "Offer",
+            "price": "0",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock"
+          },
+          "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "4.9",
+            "reviewCount": "12"
+          },
+          "review": [
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "Maria Garcia" },
+            "datePublished": "2025-07-12",
+            "name": "Review by Maria Garcia",
+            "reviewBody": "Простий у використанні, надійний додаток, що переносить дані зйомки, включаючи геолокацію, до EXIF сканованих негативів. Розробник слухає відгуки та постійно покращує. Чудово!",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            },
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "BHenriquez" },
+            "datePublished": "2025-05-08",
+            "name": "Review by BHenriquez",
+            "reviewBody": "Як фотограф на плівці, що проявляє вдома, я люблю, як Frames дозволяє мені записувати кожен кадр без клопоту з блокнотами. Це ідеальне та практичне рішення. Перейшов на Pro і не шкодую!",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            },
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "Emma Richardson" },
+            "datePublished": "2025-08-23",
+            "name": "Review by Emma Richardson",
+            "reviewBody": "Чудово для запису експозиції та місцезнаходження під час зйомки на плівку, ідеально для аналізу налаштувань або збереження даних типу EXIF. Розробник виправив помилку за день. Дуже рекомендую!",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            },
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "Roger Nordstrom Photo" },
+            "datePublished": "2025-04-15",
+            "name": "Review by Roger Nordstrom Photo",
+            "reviewBody": "Повертаючись до плівки, мені не вистачало метаданих, поки я не знайшов Frames. Він замінює паперові нотатки, допомагає залишатися організованим і тримає мене уважним під час зйомки. Обов'язково для фотографів на плівці!",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            },
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "James Anderson" },
+            "datePublished": "2025-09-05",
+            "name": "Review by James Anderson",
+            "reviewBody": "Видно, що розробник теж користується додатком. Кожна дрібниця здається продуманою, а інтерфейс чистий і простий. Все працює гладко. Безумовно найкращий додаток для нотаток про плівку!",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            },
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "Maria Garcia" },
+            "datePublished": "2025-07-12",
+            "name": "Review by Maria Garcia",
+            "reviewBody": "Простий у використанні, надійний додаток, що переносить дані зйомки, включаючи геолокацію, до EXIF сканованих негативів. Розробник слухає відгуки та постійно покращує. Чудово!",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            },
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "BHenriquez" },
+            "datePublished": "2025-05-08",
+            "name": "Review by BHenriquez",
+            "reviewBody": "Як фотограф на плівці, що проявляє вдома, я люблю, як Frames дозволяє мені записувати кожен кадр без клопоту з блокнотами. Це ідеальне та практичне рішення. Перейшов на Pro і не шкодую!",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            }
+          ]
+        },
+        {
+          "@type": "SoftwareApplication",
+          "name": "Frames macOS",
+          "operatingSystem": "macOS 15.0",
+          "applicationCategory": "MultimediaApplication",
+          "inLanguage": "uk",
+          "description": "Frames – додаток плівкової фотографії для аналогових фотографів. Записуйте кожен кадр, відстежуйте налаштування камери, організовуйте плівки та зберігайте EXIF.",
+          "image": "https://withframes.com/uk/og-image.jpg",
+          "url": "https://apps.apple.com/ua/app/frames-метадані-плівки/id6744063354?l=uk",
+          "installUrl": "https://apps.apple.com/ua/app/frames-метадані-плівки/id6744063354?l=uk",
+          "softwareVersion": "1.8.0",
+          "mainEntity": {
+            "@type": "WebPage",
+            "@id": "https://withframes.com/"
+          },
+          "author": {
+            "@type": "Person",
+            "name": "Vincent Tantardini"
+          },
+          "offers": {
+            "@type": "Offer",
+            "price": "0",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock"
+          },
+          "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "5",
+            "reviewCount": "4"
+          }
+        },
+        {
+          "@type": "WebPage",
+          "@id": "https://withframes.com/ukuk/",
+          "url": "https://withframes.com/ukuk/",
+          "name": "Frames – Додаток Плівкової Фотографії для Нотаток & Метаданих",
+          "description": "Frames – додаток плівкової фотографії для аналогових фотографів. Записуйте кожен кадр, відстежуйте налаштування камери, організовуйте плівки та зберігайте EXIF.",
+          "inLanguage": "uk",
+          "publisher": {
+            "@id": "https://withframes.com/#organization"
+          }
+        },
+        {
+          "@type": "VideoObject",
+          "name": "Додаток Плівкової Фотографії для Запису та Відстеження Ваших Плівок (Frames для iPhone)",
+          "description": "Відкрийте для себе Frames, спеціалізований додаток плівкової фотографії, розроблений для аналогових фотографів. Frames робить керування вашою аналоговою фотографією легким, допомагаючи вам записувати не лише ваші знімки, але й історію за кожною плівкою та кадром. Незалежно від того, працюєте ви з 35мм, середньоформатною чи великоформатною плівкою, Frames тримає ваш робочий процес організованим і гарантує, що метадані ваших фотографій залишаються з вашими зображеннями навіть після сканування.",
+          "thumbnailUrl": "https://i.ytimg.com/vi/KRLS5tpmvJM/hqdefault.jpg",
+          "uploadDate": "2025-09-12T00:00:00+00:00",
+          "duration": "PT1M25S",
+          "embedUrl": "https://www.youtube-nocookie.com/embed/KRLS5tpmvJM",
+          "contentUrl": "https://www.youtube.com/watch?v=KRLS5tpmvJM",
+          "publisher": {
+            "@id": "https://withframes.com/#organization"
+          }
+        },
+        {
+          "@type": "Organization",
+          "@id": "https://withframes.com/#organization",
+          "name": "Frames",
+          "url": "https://withframes.com/",
+          "logo": "https://withframes.com/apple-touch-icon.png",
+          "contactPoint": {
+            "@type": "ContactPoint",
+            "email": "bonjour@withframes.com",
+            "contactType": "Customer Support",
+            "areaServed": "Worldwide",
+            "availableLanguage": ["English", "French"]
+          },
+          "sameAs": [
+            "https://twitter.com/withframes",
+            "https://www.facebook.com/framesapp",
+            "https://www.instagram.com/with_frames/",
+            "https://linkedin.com/company/withframes/",
+            "https://pinterest.com/framesapp/",
+            "https://mastodon.social/@frames",
+            "https://bsky.app/profile/withframes.bsky.social",
+            "https://www.tiktok.com/@with_frames",
+            "https://www.youtube.com/@withframes",
+            "https://g.co/kgs/5oEvXT5",
+            "https://apps.apple.com/ua/app/frames-нотатки-про-плівку/id6744057317?l=uk",
+            "https://apps.apple.com/ua/app/frames-метадані-плівки/id6744063354?l=uk"
+          ]
+        }
+      ]
+    }

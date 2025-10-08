@@ -1,0 +1,46 @@
+{
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Hvilke metadata kan jeg optage?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Frames lader dig logge detaljeret information for hvert billede, inkl. kamera, objektiv, filtre, billednummer, brændvidde, blænde, lukkertid, ISO, måletilstand, filmtype, flash, GPS-placering, tidsstempler og brugerdefinerede noter, så du aldrig mister vigtige analoge fotografidetaljer."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Hvilke billedformater understøttes?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Frames understøtter JPEG-, TIFF- og DNG-formater, hvilket giver dig mulighed for at integrere dine optagne metadata direkte i scannede analoge fotos for problemfri organisation og arbejdsgang på tværs af dine enheder."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Er Frames på Android eller Windows?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Frames er i øjeblikket tilgængelig til iPhone og macOS. Versioner til Android og Windows er planlagt til 2026, og i mellemtiden kan du dele og administrere dine data via .frames fileksport."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Hvilke lukkertider og blænder understøttes?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Frames tilbyder standardsekvenser der dækker de fleste objektiver og kameraer, og du kan også definere brugerdefinerede sekvenser til dit udstyr, hvilket gør den kompatibel med alle lukkertids- eller blændeværdier."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Kan jeg logge stativer eller tilbehør?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ja, Frames lader dig optage stativer, blitz og andet tilbehør. Der er også et ekstra notefelt hvor du kan tilføje eventuelle brugerdefinerede detaljer du ønsker."
+          }
+        }
+      ]
+    }

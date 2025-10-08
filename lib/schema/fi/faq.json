@@ -1,0 +1,46 @@
+{
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Mitä metatietoja voin tallentaa?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Framesin avulla voit kirjata yksityiskohtaiset tiedot jokaisesta kuvasta, mukaan lukien kamera, objektiivi, suodattimet, kuvanumero, polttoväli, aukko, suljinaika, ISO, mittaustila, filmityyppi, salama, GPS-sijainti, aikaleima ja mukautetut muistiinpanot varmistaen, ettet koskaan menetä tärkeitä analogisen valokuvauksen yksityiskohtia."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Mitä kuvamuotoja tuetaan?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Frames tukee JPEG-, TIFF- ja DNG-muotoja, jolloin voit upottaa tallennetut metatietosi suoraan skannattuihin analogisiin kuviin saumattomaan järjestelyyn ja työnkulkuun kaikilla laitteillasi."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Onko Frames saatavilla Androidille tai Windowsille?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Frames on tällä hetkellä saatavilla iPhonelle ja macOS:lle. Androidin ja Windowsin versiot on suunniteltu vuodelle 2026, ja sillä välin voit jakaa ja hallita tietojasi .frames-tiedostovientiä käyttäen."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Mitä suljinaika- ja aukkoarvoja tuetaan?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Frames tarjoaa oletussarjat, jotka kattavat useimmat objektiivit ja kamerat, ja voit myös määrittää mukautettuja sarjoja välineillesi, mikä tekee siitä yhteensopivan minkä tahansa suljinaika- tai aukkoarvojen kanssa."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Voinko kirjata jalustoja tai lisävarusteita?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Kyllä, Framesin avulla voit tallentaa jalustoja, salamoita ja muita lisävarusteita. On myös ylimääräinen muistiinpanokenttä, johon voit lisätä mitä tahansa mukautettuja yksityiskohtia."
+          }
+        }
+      ]
+    }

@@ -1,0 +1,223 @@
+{
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "MobileApplication",
+          "name": "Frames iOS",
+          "operatingSystem": "iOS 18.0",
+          "applicationCategory": "MultimediaApplication",
+          "inLanguage": "da",
+          "description": "Frames er en filmfotografi app til analoge fotografer. Log hvert billede, følg kameraindstillinger, organiser film og gem EXIF metadata på iPhone & Mac.",
+          "image": "https://withframes.com/da/og-image.jpg",
+          "url": "https://apps.apple.com/dk/app/frames-filmnotater/id6744057317?l=da",
+          "installUrl": "https://apps.apple.com/dk/app/frames-filmnotater/id6744057317?l=da",
+          "softwareVersion": "1.13.1",
+          "screenshot": "https://withframes.com/da/og-image.jpg",
+          "isAccessibleForFree": true,
+          "keywords": "film photography app, analog photography, EXIF metadata, film camera notes, photography workflow, film photography organization",
+          "maintainer": {
+            "@type": "Person",
+            "name": "Vincent Tantardini"
+          },
+          "countriesSupported": [
+            "US", "GB", "FR", "DE", "IT", "ES", "CA", "AU",
+            "JP", "KR", "NL", "SE", "NO", "FI", "DK", "NZ"
+          ],
+          "mainEntity": {
+            "@type": "WebPage",
+            "@id": "https://withframes.com/"
+          },
+          "author": {
+            "@type": "Person",
+            "name": "Vincent Tantardini"
+          },
+          "offers": {
+            "@type": "Offer",
+            "price": "0",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock"
+          },
+          "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "4.9",
+            "reviewCount": "12"
+          },
+          "review": [
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "Maria Garcia" },
+            "datePublished": "2025-07-12",
+            "name": "Review by Maria Garcia",
+            "reviewBody": "Nem at bruge, pålidelig app der overfører optagelsesdata, inkl. geolokation, til scannede negativers EXIF. Udvikleren lytter til feedback og forbedrer løbende. Fremragende!",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            },
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "BHenriquez" },
+            "datePublished": "2025-05-08",
+            "name": "Review by BHenriquez",
+            "reviewBody": "Som filmfotograf der fremkalder derhjemme, elsker jeg hvordan Frames lader mig logge hvert billede uden besværet med notesbøger. Det er den perfekte og praktiske løsning. Gik Pro og har ikke fortrudt!",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            },
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "Emma Richardson" },
+            "datePublished": "2025-08-23",
+            "name": "Review by Emma Richardson",
+            "reviewBody": "Fantastisk til at optage eksponering og placering ved filmfotografering, ideel til at analysere indstillinger eller bevare EXIF-lignende data. Udvikleren rettede en fejl på en dag. Stærkt anbefalet!",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            },
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "Roger Nordstrom Photo" },
+            "datePublished": "2025-04-15",
+            "name": "Review by Roger Nordstrom Photo",
+            "reviewBody": "Da jeg vendte tilbage til film, savnede jeg metadata indtil jeg fandt Frames. Den erstatter papirnotater, hjælper mig med at holde styr på tingene og holder mig opmærksom ved optagelse. Et must for filmfotografer!",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            },
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "James Anderson" },
+            "datePublished": "2025-09-05",
+            "name": "Review by James Anderson",
+            "reviewBody": "Man kan se at udvikleren også bruger appen. Hver lille detalje føles intentionel, og grænsefladen er ren og enkel. Alt fungerer problemfrit. Nemt den bedste filmnotater app der findes!",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            },
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "Maria Garcia" },
+            "datePublished": "2025-07-12",
+            "name": "Review by Maria Garcia",
+            "reviewBody": "Nem at bruge, pålidelig app der overfører optagelsesdata, inkl. geolokation, til scannede negativers EXIF. Udvikleren lytter til feedback og forbedrer løbende. Fremragende!",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            },
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "BHenriquez" },
+            "datePublished": "2025-05-08",
+            "name": "Review by BHenriquez",
+            "reviewBody": "Som filmfotograf der fremkalder derhjemme, elsker jeg hvordan Frames lader mig logge hvert billede uden besværet med notesbøger. Det er den perfekte og praktiske løsning. Gik Pro og har ikke fortrudt!",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            }
+          ]
+        },
+        {
+          "@type": "SoftwareApplication",
+          "name": "Frames macOS",
+          "operatingSystem": "macOS 15.0",
+          "applicationCategory": "MultimediaApplication",
+          "inLanguage": "da",
+          "description": "Frames er en filmfotografi app til analoge fotografer. Log hvert billede, følg kameraindstillinger, organiser film og gem EXIF metadata på iPhone & Mac.",
+          "image": "https://withframes.com/da/og-image.jpg",
+          "url": "https://apps.apple.com/dk/app/frames-filmmetadata/id6744063354?l=da",
+          "installUrl": "https://apps.apple.com/dk/app/frames-filmmetadata/id6744063354?l=da",
+          "softwareVersion": "1.8.0",
+          "mainEntity": {
+            "@type": "WebPage",
+            "@id": "https://withframes.com/"
+          },
+          "author": {
+            "@type": "Person",
+            "name": "Vincent Tantardini"
+          },
+          "offers": {
+            "@type": "Offer",
+            "price": "0",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock"
+          },
+          "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "5",
+            "reviewCount": "4"
+          }
+        },
+        {
+          "@type": "WebPage",
+          "@id": "https://withframes.com/dada/",
+          "url": "https://withframes.com/dada/",
+          "name": "Frames – Filmfotografi App til Notater & Metadata",
+          "description": "Frames er en filmfotografi app til analoge fotografer. Log hvert billede, følg kameraindstillinger, organiser film og gem EXIF metadata på iPhone & Mac.",
+          "inLanguage": "da",
+          "publisher": {
+            "@id": "https://withframes.com/#organization"
+          }
+        },
+        {
+          "@type": "VideoObject",
+          "name": "Filmfotografi App til at Logge & Følge Dine Ruller (Frames til iPhone)",
+          "description": "Opdag Frames, den dedikerede filmfotografi app designet til analoge fotografer. Frames gør styring af din analoge fotografering ubesværet og hjælper dig med at optage ikke kun dine billeder, men også historien bag hver rulle og hvert billede. Uanset om du arbejder med 35mm, mellemformat eller storformat film, holder Frames din arbejdsgang organiseret og sikrer at dine fotometadata forbliver med dine billeder, selv efter scanning.",
+          "thumbnailUrl": "https://i.ytimg.com/vi/KRLS5tpmvJM/hqdefault.jpg",
+          "uploadDate": "2025-09-12T00:00:00+00:00",
+          "duration": "PT1M25S",
+          "embedUrl": "https://www.youtube-nocookie.com/embed/KRLS5tpmvJM",
+          "contentUrl": "https://www.youtube.com/watch?v=KRLS5tpmvJM",
+          "publisher": {
+            "@id": "https://withframes.com/#organization"
+          }
+        },
+        {
+          "@type": "Organization",
+          "@id": "https://withframes.com/#organization",
+          "name": "Frames",
+          "url": "https://withframes.com/",
+          "logo": "https://withframes.com/apple-touch-icon.png",
+          "contactPoint": {
+            "@type": "ContactPoint",
+            "email": "bonjour@withframes.com",
+            "contactType": "Customer Support",
+            "areaServed": "Worldwide",
+            "availableLanguage": ["English", "French"]
+          },
+          "sameAs": [
+            "https://twitter.com/withframes",
+            "https://www.facebook.com/framesapp",
+            "https://www.instagram.com/with_frames/",
+            "https://linkedin.com/company/withframes/",
+            "https://pinterest.com/framesapp/",
+            "https://mastodon.social/@frames",
+            "https://bsky.app/profile/withframes.bsky.social",
+            "https://www.tiktok.com/@with_frames",
+            "https://www.youtube.com/@withframes",
+            "https://g.co/kgs/5oEvXT5",
+            "https://apps.apple.com/dk/app/frames-filmnotater/id6744057317?l=da",
+            "https://apps.apple.com/dk/app/frames-filmmetadata/id6744063354?l=da"
+          ]
+        }
+      ]
+    }

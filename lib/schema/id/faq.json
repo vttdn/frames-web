@@ -1,0 +1,46 @@
+{
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Metadata apa yang bisa saya rekam?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Frames memungkinkan Anda mencatat informasi terperinci untuk setiap foto, termasuk kamera, lensa, filter, nomor frame, panjang fokus, apertur, kecepatan rana, ISO, mode metering, jenis film, flash, lokasi GPS, cap waktu, dan catatan khusus, memastikan Anda tidak pernah kehilangan detail fotografi analog yang penting."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Format gambar apa yang didukung?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Frames mendukung format JPEG, TIFF, dan DNG, memungkinkan Anda menyisipkan metadata yang direkam langsung ke dalam foto analog yang dipindai untuk organisasi dan alur kerja yang mulus di semua perangkat Anda."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Apakah Frames tersedia di Android atau Windows?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Frames saat ini tersedia untuk iPhone dan macOS. Versi untuk Android dan Windows direncanakan untuk tahun 2026, dan sementara itu, Anda dapat berbagi dan mengelola data Anda melalui ekspor file .frames."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Kecepatan rana dan apertur apa yang didukung?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Frames menyediakan urutan default yang mencakup sebagian besar lensa dan kamera, dan Anda juga dapat menentukan urutan khusus untuk peralatan Anda, membuatnya kompatibel dengan nilai kecepatan rana atau apertur apa pun."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Bisakah saya mencatat tripod atau aksesori?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ya, Frames memungkinkan Anda merekam tripod, flash, dan aksesori lainnya. Ada juga bidang catatan tambahan di mana Anda dapat menambahkan detail khusus apa pun yang Anda inginkan."
+          }
+        }
+      ]
+    }

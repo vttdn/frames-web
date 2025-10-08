@@ -1,0 +1,223 @@
+{
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "MobileApplication",
+          "name": "Frames iOS",
+          "operatingSystem": "iOS 18.0",
+          "applicationCategory": "MultimediaApplication",
+          "inLanguage": "id",
+          "description": "Frames adalah aplikasi fotografi film untuk fotografer analog. Catat setiap foto, lacak pengaturan kamera, atur rol film, dan simpan metadata EXIF di iPhone & Mac.",
+          "image": "https://withframes.com/id/og-image.jpg",
+          "url": "https://apps.apple.com/id/app/frames-catatan-fotografi/id6744057317?l=id",
+          "installUrl": "https://apps.apple.com/id/app/frames-catatan-fotografi/id6744057317?l=id",
+          "softwareVersion": "1.13.1",
+          "screenshot": "https://withframes.com/id/og-image.jpg",
+          "isAccessibleForFree": true,
+          "keywords": "film photography app, analog photography, EXIF metadata, film camera notes, photography workflow, film photography organization",
+          "maintainer": {
+            "@type": "Person",
+            "name": "Vincent Tantardini"
+          },
+          "countriesSupported": [
+            "US", "GB", "FR", "DE", "IT", "ES", "CA", "AU",
+            "JP", "KR", "NL", "SE", "NO", "FI", "DK", "NZ"
+          ],
+          "mainEntity": {
+            "@type": "WebPage",
+            "@id": "https://withframes.com/"
+          },
+          "author": {
+            "@type": "Person",
+            "name": "Vincent Tantardini"
+          },
+          "offers": {
+            "@type": "Offer",
+            "price": "0",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock"
+          },
+          "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "4.9",
+            "reviewCount": "12"
+          },
+          "review": [
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "Maria Garcia" },
+            "datePublished": "2025-07-12",
+            "name": "Review by Maria Garcia",
+            "reviewBody": "Mudah digunakan, aplikasi andal yang mentransfer data pemotretan, termasuk geolokasi, ke EXIF negatif yang dipindai. Developer mendengarkan umpan balik dan terus meningkatkan. Luar biasa!",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            },
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "BHenriquez" },
+            "datePublished": "2025-05-08",
+            "name": "Review by BHenriquez",
+            "reviewBody": "Sebagai fotografer film yang mencuci di rumah, saya suka bagaimana Frames memungkinkan saya mencatat setiap foto tanpa repot menggunakan buku catatan. Ini solusi yang sempurna dan praktis. Upgrade ke Pro dan tidak pernah menyesal!",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            },
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "Emma Richardson" },
+            "datePublished": "2025-08-23",
+            "name": "Review by Emma Richardson",
+            "reviewBody": "Hebat untuk merekam eksposur dan lokasi saat memotret film, ideal untuk menganalisis pengaturan atau menyimpan data bergaya EXIF. Developer memperbaiki bug dalam sehari. Sangat direkomendasikan!",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            },
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "Roger Nordstrom Photo" },
+            "datePublished": "2025-04-15",
+            "name": "Review by Roger Nordstrom Photo",
+            "reviewBody": "Kembali ke film, saya merindukan metadata sampai menemukan Frames. Ini menggantikan catatan kertas, membantu saya tetap terorganisir, dan membuat saya lebih perhatian saat memotret. Wajib untuk fotografer film!",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            },
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "James Anderson" },
+            "datePublished": "2025-09-05",
+            "name": "Review by James Anderson",
+            "reviewBody": "Anda bisa tahu bahwa developer juga menggunakan aplikasi ini. Setiap detail kecil terasa disengaja, dan antarmukanya bersih dan sederhana. Semuanya bekerja dengan lancar. Mudah aplikasi catatan film terbaik yang tersedia!",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            },
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "Maria Garcia" },
+            "datePublished": "2025-07-12",
+            "name": "Review by Maria Garcia",
+            "reviewBody": "Mudah digunakan, aplikasi andal yang mentransfer data pemotretan, termasuk geolokasi, ke EXIF negatif yang dipindai. Developer mendengarkan umpan balik dan terus meningkatkan. Luar biasa!",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            },
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "BHenriquez" },
+            "datePublished": "2025-05-08",
+            "name": "Review by BHenriquez",
+            "reviewBody": "Sebagai fotografer film yang mencuci di rumah, saya suka bagaimana Frames memungkinkan saya mencatat setiap foto tanpa repot menggunakan buku catatan. Ini solusi yang sempurna dan praktis. Upgrade ke Pro dan tidak pernah menyesal!",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            }
+          ]
+        },
+        {
+          "@type": "SoftwareApplication",
+          "name": "Frames macOS",
+          "operatingSystem": "macOS 15.0",
+          "applicationCategory": "MultimediaApplication",
+          "inLanguage": "id",
+          "description": "Frames adalah aplikasi fotografi film untuk fotografer analog. Catat setiap foto, lacak pengaturan kamera, atur rol film, dan simpan metadata EXIF di iPhone & Mac.",
+          "image": "https://withframes.com/id/og-image.jpg",
+          "url": "https://apps.apple.com/id/app/frames-metadata-foto/id6744063354?l=id",
+          "installUrl": "https://apps.apple.com/id/app/frames-metadata-foto/id6744063354?l=id",
+          "softwareVersion": "1.8.0",
+          "mainEntity": {
+            "@type": "WebPage",
+            "@id": "https://withframes.com/"
+          },
+          "author": {
+            "@type": "Person",
+            "name": "Vincent Tantardini"
+          },
+          "offers": {
+            "@type": "Offer",
+            "price": "0",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock"
+          },
+          "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "5",
+            "reviewCount": "4"
+          }
+        },
+        {
+          "@type": "WebPage",
+          "@id": "https://withframes.com/idid/",
+          "url": "https://withframes.com/idid/",
+          "name": "Frames – Aplikasi Fotografi Film untuk Catatan & Metadata",
+          "description": "Frames adalah aplikasi fotografi film untuk fotografer analog. Catat setiap foto, lacak pengaturan kamera, atur rol film, dan simpan metadata EXIF di iPhone & Mac.",
+          "inLanguage": "id",
+          "publisher": {
+            "@id": "https://withframes.com/#organization"
+          }
+        },
+        {
+          "@type": "VideoObject",
+          "name": "Aplikasi Fotografi Film untuk Mencatat & Melacak Rol Anda (Frames untuk iPhone)",
+          "description": "Temukan Frames, aplikasi fotografi film khusus yang dirancang untuk fotografer analog. Frames membuat pengelolaan fotografi analog Anda mudah, membantu Anda merekam tidak hanya foto Anda tetapi juga cerita di balik setiap rol dan frame. Baik Anda bekerja dengan film 35mm, format medium, atau format besar, Frames menjaga alur kerja Anda tetap terorganisir dan memastikan metadata foto Anda tetap bersama gambar Anda, bahkan setelah pemindaian.",
+          "thumbnailUrl": "https://i.ytimg.com/vi/KRLS5tpmvJM/hqdefault.jpg",
+          "uploadDate": "2025-09-12T00:00:00+00:00",
+          "duration": "PT1M25S",
+          "embedUrl": "https://www.youtube-nocookie.com/embed/KRLS5tpmvJM",
+          "contentUrl": "https://www.youtube.com/watch?v=KRLS5tpmvJM",
+          "publisher": {
+            "@id": "https://withframes.com/#organization"
+          }
+        },
+        {
+          "@type": "Organization",
+          "@id": "https://withframes.com/#organization",
+          "name": "Frames",
+          "url": "https://withframes.com/",
+          "logo": "https://withframes.com/apple-touch-icon.png",
+          "contactPoint": {
+            "@type": "ContactPoint",
+            "email": "bonjour@withframes.com",
+            "contactType": "Customer Support",
+            "areaServed": "Worldwide",
+            "availableLanguage": ["English", "French"]
+          },
+          "sameAs": [
+            "https://twitter.com/withframes",
+            "https://www.facebook.com/framesapp",
+            "https://www.instagram.com/with_frames/",
+            "https://linkedin.com/company/withframes/",
+            "https://pinterest.com/framesapp/",
+            "https://mastodon.social/@frames",
+            "https://bsky.app/profile/withframes.bsky.social",
+            "https://www.tiktok.com/@with_frames",
+            "https://www.youtube.com/@withframes",
+            "https://g.co/kgs/5oEvXT5",
+            "https://apps.apple.com/id/app/frames-catatan-fotografi/id6744057317?l=id",
+            "https://apps.apple.com/id/app/frames-metadata-foto/id6744063354?l=id"
+          ]
+        }
+      ]
+    }
