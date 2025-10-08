@@ -15,9 +15,20 @@
         display: none !important;
     }
 
+    picture {
+        position: static;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: flex-end;
+    }
+
     img {
         position: static;
         object-fit: cover;
+        object-position: bottom;
+        width: 100%;
+        height: 100%;
     }
 }
 

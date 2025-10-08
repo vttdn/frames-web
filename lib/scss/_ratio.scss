@@ -22,6 +22,7 @@
 
   /* Only apply object-fit to images */
   > img,
+  > picture,
   > video {
     object-fit: cover;
   }
