@@ -59,5 +59,10 @@
 
     @include mobile {
         gap: var(--spacing-xl) var(--spacing-2xl);
+
+        img {
+            max-height: 1.25rem;
+            width: auto;
+        }
     }
 }
