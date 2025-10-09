@@ -3,13 +3,16 @@
 /* Toggle Container */
 .plans-toggle {
   display: inline-flex;
-  background-color: var(--color-surface);
+//   background-color: var(--color-surface);
+    border: 1px solid var(--color-gray-dark2);
   border-radius: 1000px;
   padding: 0.125rem;
   position: relative;
   /* Add these for dynamic width calculation */
-  --monthly-width: 100px; /* fallback value */
-  --yearly-width: 100px; /* fallback value */
+  --monthly-width: 50px; /* fallback value */
+  --yearly-width: 50px; /* fallback value */
+
+  display: none;
 }
 
 /* Hidden Radio Inputs */
@@ -38,9 +41,11 @@
 /* Active Background Slider */
 .toggle-slider {
   position: absolute;
-  top: 0.125rem;
-  height: calc(100% - calc(0.125rem * 2));
+//   height: 100%;
+  top: 2px;
+  bottom: 2px;
   background: var(--color-gray-dark2);
+    // border: 1px solid var(--color-gray-dark3);
   border-radius: 1000px;
   transition: all 0.15s ease;
   z-index: 0;
@@ -48,14 +53,12 @@
 
 /* Monthly Position - UPDATED */
 #monthly:checked ~ .toggle-slider {
-//   left: 0.125rem;
   width: var(--monthly-width);
   transform: translateX(0);
 }
 
 /* Yearly Position - UPDATED */
 #yearly:checked ~ .toggle-slider {
-//   left: 1.5px;
   width: var(--yearly-width);
   transform: translateX(var(--monthly-width));
 }
