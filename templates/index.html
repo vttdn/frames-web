@@ -161,35 +161,20 @@
         </div>
     </header>
 
-    <input type="checkbox" id="video-toggle" class="overlay-toggle">
-
-    <div class="video-overlay overlay">
-        <label for="video-toggle" class="overlay-close" aria-label="Close video">
+    <div id="youtube-overlay" class="video-overlay">
+        <button id="youtube-overlay-close" class="overlay-close" aria-label="Close video">
             <img src="/lib/img/icn/xmark.svg" alt="x Mark Icon" width="32" height="32" loading="lazy" aria-hidden="true">
-        </label>
-        <div class="video-container">
-            <div class="wrapper" id="youtube-player" data-video-id="KRLS5tpmvJM">
-                <!-- YouTube thumbnail facade - iframe loads on click -->
-                <div class="youtube-facade">
-                    <img src="/lib/img/shared/video-thumbnail.webp"
-                         srcset="/lib/img/shared/video-thumbnail.webp 1x, /lib/img/shared/video-thumbnail@2x.webp 2x"
-                         alt="{{ locale_data.video.title }}"
-                         width="1280"
-                         height="720"
-                         loading="lazy">
-                    <button class="youtube-play-button" aria-label="Play video">
-                        <svg width="68" height="48" viewBox="0 0 68 48" fill="none">
-                            <path d="M66.52 7.74c-.78-2.93-2.49-5.41-5.42-6.19C55.79.13 34 0 34 0S12.21.13 6.9 1.55c-2.93.78-4.63 3.26-5.42 6.19C.06 13.05 0 24 0 24s.06 10.95 1.48 16.26c.78 2.93 2.49 5.41 5.42 6.19C12.21 47.87 34 48 34 48s21.79-.13 27.1-1.55c2.93-.78 4.64-3.26 5.42-6.19C67.94 34.95 68 24 68 24s-.06-10.95-1.48-16.26z" fill="red"/>
-                            <path d="M45 24L27 14v20l18-10z" fill="#fff"/>
-                        </svg>
-                    </button>
-                </div>
+        </button>
+
+        <div class="wrapper flex flex-center flex-justify-center">
+            <div>
+                <div id="youtube-player" data-video-id="KRLS5tpmvJM"></div>
             </div>
         </div>
     </div>
 
     <main class="wrapper">
-        <section class="hero" aria-labelledby="hero-heading">
+        <section class="hero youtube-facade" aria-labelledby="hero-heading">
             <div class="hero-content flex flex-col gap-xl">
                 <h1 id="hero-heading">{{ locale_data.hero.heading|safe }}</h1>
                 <a href="{{ locale_data.urls.appstore_macos }}" class="btn btn-md btn-light desktop-only" aria-label="{{ locale_data.hero.button_macos_aria_label }}">
@@ -216,9 +201,9 @@
                          fetchpriority="high">
                 </picture>
 
-                <label for="video-toggle" class="play-btn" aria-label="{{ locale_data.hero.play_button_aria_label }}">
+                <button id="youtube-video-toggle" class="play-btn" aria-label="{{ locale_data.hero.play_button_aria_label }}">
                     <img src="/lib/img/icn/play.svg" alt="" width="36" height="36" aria-hidden="true">
-                </label>
+                </button>
             </figure>
 
             <aside class="hero-featured flex flex-col flex-center gap-xl" aria-label="{{ locale_data.hero.featured.aria_label }}">

@@ -22,6 +22,11 @@ body {
     }
 }
 
+.body-no-scroll {
+    overflow: hidden;
+    height: 100vh;
+}
+
 /* Box Sizing Reset */
 *,
 *::before,
@@ -41,10 +46,12 @@ li,
 p,
 figure,
 picture,
-blockquote {
+blockquote,
+button {
     margin: 0;
     padding: 0;
     border: 0;
+    background: none;
 }
 
 cite {

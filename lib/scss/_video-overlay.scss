@@ -2,10 +2,20 @@
 
 // Video Overlay
 .video-overlay {
-  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1000;
+  display: none;
   align-items: center;
   justify-content: center;
   padding: var(--spacing-4xl);
+  overflow: hidden;
+
+  opacity: 0;
+  background: var(--color-background);
 
   @include tablet {
     padding: var(--spacing-3xl);
@@ -14,15 +24,11 @@
   @include mobile {
     padding: var(--spacing-xl);
   }
-}
 
-.video-container {
-  position: relative;
-  width: 100%;
-  aspect-ratio: 16 / 9;
-  background: var(--color-background);
-  border-radius: var(--radius-md);
-  overflow: hidden;
+  &.show {
+    opacity: 1;
+    display: flex;
+  }
 
   .wrapper {
     position: relative;
@@ -30,72 +36,20 @@
     height: 100%;
   }
 
-  iframe {
+  #youtube-player {
     position: absolute;
-    top: 0;
-    left: 0;
+    top: auto;
+    left: auto;
+    top: right;
+    left: bottom;
     width: 100%;
-    height: 100%;
-    border: none;
-  }
-}
-
-// YouTube facade styles
-.youtube-facade {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  cursor: pointer;
-
-  img {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
-
-  .youtube-play-button {
-    position: absolute;
-    top: 50%;
-    left: 50%;
+    max-height: 90vh; /* Don't exceed viewport */
     transform: translate(-50%, -50%);
-    background: transparent;
+    aspect-ratio: 16 / 9; /* Additional enforcement */
+  }
+
+  iframe {
     border: none;
-    cursor: pointer;
-    padding: 0;
-    transition: transform 0.2s ease, opacity 0.2s ease;
-    z-index: 1;
-
-    &:hover {
-      transform: translate(-50%, -50%) scale(1.1);
-    }
-
-    &:active {
-      transform: translate(-50%, -50%) scale(0.95);
-    }
-
-    svg {
-      filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.3));
-    }
-  }
-}
-
-// Show video when overlay is checked
-#video-toggle:checked ~ .video-overlay {
-  .video-container {
-    animation: fadeInScale 0.3s ease-out;
-  }
-}
-
-@keyframes fadeInScale {
-  from {
-    opacity: 0;
-    transform: scale(0.95);
-  }
-  to {
-    opacity: 1;
-    transform: scale(1);
+    outline: none;
   }
 }
