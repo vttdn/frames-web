@@ -52,6 +52,7 @@
     gap: var(--spacing-lg) 4.5rem; /* 16px vertical, 72px horizontal */
     flex-wrap: wrap;
     justify-content: center;
+    padding: var(--spacing-xs) 0;
 
     @include tablet-down {
         gap: var(--spacing-2xl) 4.5rem;
