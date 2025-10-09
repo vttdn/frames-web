@@ -40,9 +40,10 @@
 
     opacity: 0;
     visibility: hidden;
-    transition: opacity 0.18s cubic-bezier(0.16, 1, 0.3, 1),
-                        transform 0.2s cubic-bezier(0.16, 1, 0.3, 1),
-                        visibility 0s linear 0.2s; /* delay hiding until others finish */
+    transition:
+    opacity 0.1s cubic-bezier(0.4, 0, 1, 1),       /* ease-in-expo */
+    transform 0.12s cubic-bezier(0.4, 0, 1, 1),
+    visibility 0s linear 0.13s; /* hide after fade ends */
 
     /* Directions */
     &.dropdown-dir-bottom {
@@ -55,6 +56,16 @@
         bottom: 2.25rem;
         max-height: 12.35rem;
     }
+}
+
+/* Show the dropdown when checkbox is checked */
+.dropdown-toggle:checked~.dropdown-content {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+    transition: opacity 0.1s cubic-bezier(0.4, 0, 1, 1),       /* ease-in-expo */
+    transform 0.12s cubic-bezier(0.4, 0, 1, 1),
+                visibility 0s linear 0s; /* make visible immediately */
 }
 
 /* Style the dropdown links */
@@ -74,17 +85,6 @@
 .dropdown-content a span:first-of-type {
     display: flex;
     flex: 1;
-}
-
-/* Show the dropdown when checkbox is checked */
-.dropdown-toggle:checked~.dropdown-content {
-    opacity: 1;
-    visibility: visible;
-    transform: translateY(0);
-    transition:
-    opacity 0.18s cubic-bezier(0.16, 1, 0.3, 1),
-    transform 0.2s cubic-bezier(0.16, 1, 0.3, 1),
-    visibility 0s linear 0s; /* make visible immediately */
 }
 
 .dropdown-toggle:checked~.dropdown-button img:last-of-type {
