@@ -174,10 +174,14 @@
   },
   "pricing": {
     "heading": "ราคา",
+    "label_period": "ต่อเดือน",
+    "label_period_yearly": "ต่อปี",
     "ios": {
       "title": "iOS",
-      "price": "฿79",
+      "price": "79 ฿",
+      "price_yearly": "699 ฿",
       "period": "/เดือน",
+      "period_yearly": "/ปี",
       "includes_label": "รวมถึง:",
       "features": [
         "ฟิล์มไม่จำกัด",
@@ -189,8 +193,10 @@
     },
     "macos": {
       "title": "macOS",
-      "price": "฿79",
+      "price": "79 ฿",
+      "price_yearly": "699 ฿",
       "period": "/เดือน",
+      "period_yearly": "/ปี",
       "includes_label": "รวมถึง:",
       "features": [
         "บันทึกเมตาดาตาลงในภาพถ่าย"

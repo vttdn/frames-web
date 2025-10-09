@@ -174,10 +174,14 @@
   },
   "pricing": {
     "heading": "मूल्य निर्धारण",
+    "label_period": "मासिक",
+    "label_period_yearly": "वार्षिक",
     "ios": {
       "title": "iOS",
       "price": "₹199",
+      "price_yearly": "₹1,999",
       "period": "/महीना",
+      "period_yearly": "/साल",
       "includes_label": "शामिल है:",
       "features": [
         "असीमित फ़िल्म रोल्स",
@@ -190,7 +194,9 @@
     "macos": {
       "title": "macOS",
       "price": "₹199",
+      "price_yearly": "₹1,999",
       "period": "/महीना",
+      "period_yearly": "/साल",
       "includes_label": "शामिल है:",
       "features": [
         "फ़ोटो में मेटाडेटा सहेजें"

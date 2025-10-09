@@ -502,15 +502,31 @@
         </section>
 
         <section aria-labelledby="pricing-heading">
-            <h2 id="pricing-heading">{{ locale_data.pricing.heading }}</h2>
-            <div class="pricing grid grid-4col">
+            <div class="pricing-header-main flex flex-end flex-justify-between gap-lg">
+
+                <h2 id="pricing-heading">{{ locale_data.pricing.heading }}</h2>
+
+                <div class="plans-toggle">
+                    <input type="radio" id="monthly" name="plan" checked>
+                    <input type="radio" id="yearly" name="plan">
+
+                    <label for="monthly" class="toggle-option">{{ locale_data.pricing.label_period }}</label>
+                    <label for="yearly" class="toggle-option">{{ locale_data.pricing.label_period_yearly }}</label>
+
+                    <div class="toggle-slider"></div>
+                </div>
+            </div>
+            <div class="pricing grid grid-4col" id="pricing-plans">
                 <article class="tile container-ratio ratio-3-4 pricing-card">
                     <div class="pricing-inner flex flex-col flex-justify-between">
                         <div class="pricing-header flex flex-col gap-lg">
                             <header class="flex flex-col gap-xs">
                                 <h3 class="pricing-title">{{ locale_data.pricing.ios.title }}</h3>
                                 <div class="pricing-amount">
-                                    <span class="price">{{ locale_data.pricing.ios.price }}</span><span class="price-period">{{ locale_data.pricing.ios.period }}</span>
+                                    <span class="price">{{ locale_data.pricing.ios.price }}</span>
+                                    <span class="price-yearly">{{ locale_data.pricing.ios.price_yearly }}</span>
+                                    <span class="price-period">{{ locale_data.pricing.ios.period }}</span>
+                                    <span class="price-period-yearly">{{ locale_data.pricing.ios.period_yearly }}</span>
                                 </div>
                             </header>
 
@@ -538,7 +554,10 @@
                             <header class="flex flex-col gap-xs">
                                 <h3 class="pricing-title">{{ locale_data.pricing.macos.title }}</h3>
                                 <div class="pricing-amount">
-                                    <span class="price">{{ locale_data.pricing.macos.price }}</span><span class="price-period">{{ locale_data.pricing.macos.period }}</span>
+                                    <span class="price">{{ locale_data.pricing.macos.price }}</span>
+                                    <span class="price-yearly">{{ locale_data.pricing.ios.price_yearly }}</span>
+                                    <span class="price-period">{{ locale_data.pricing.macos.period }}</span>
+                                    <span class="price-period-yearly">{{ locale_data.pricing.ios.period_yearly }}</span>
                                 </div>
                             </header>
 

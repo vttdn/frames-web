@@ -174,9 +174,12 @@
   },
   "pricing": {
     "heading": "Preços",
+    "label_period": "por mês",
+    "label_period_yearly": "por ano",
     "ios": {
       "title": "iOS",
-      "price": "1,99 €",
+      "price": "R$ 12,90",
+      "price_yearly": "R$ 119,90",
       "period": "/mês",
       "includes_label": "Inclui:",
       "features": [
@@ -189,8 +192,10 @@
     },
     "macos": {
       "title": "macOS",
-      "price": "1,99 €",
+      "price": "R$ 12,90",
+      "price_yearly": "R$ 119,90",
       "period": "/mês",
+      "period_yearly": "/ano",
       "includes_label": "Inclui:",
       "features": [
         "Guardar metadados em fotografias"

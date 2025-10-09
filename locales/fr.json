@@ -174,10 +174,14 @@
   },
   "pricing": {
     "heading": "Tarifs",
+    "label_period": "Mensuel",
+    "label_period_yearly": "Annuel",
     "ios": {
       "title": "iOS",
       "price": "1,99 €",
+      "price_yearly": "19,99 €",
       "period": "/mois",
+      "period_yearly": "/an",
       "includes_label": "Inclut :",
       "features": [
         "Pellicules illimitées",
@@ -190,7 +194,9 @@
     "macos": {
       "title": "macOS",
       "price": "1,99 €",
+      "price_yearly": "19,99 €",
       "period": "/mois",
+      "period_yearly": "/an",
       "includes_label": "Inclut :",
       "features": [
         "Sauvegarde des métadonnées dans les photos"

@@ -1,0 +1,67 @@
+@use 'mixins' as *;
+
+/* Toggle Container */
+.plans-toggle {
+  display: inline-flex;
+  background-color: var(--color-surface);
+  border-radius: 1000px;
+  padding: calc(var(--spacing-xs) / 2);
+  position: relative;
+  /* Add these for dynamic width calculation */
+  --monthly-width: 100px; /* fallback value */
+  --yearly-width: 100px; /* fallback value */
+}
+
+/* Hidden Radio Inputs */
+.plans-toggle input[type="radio"] {
+  display: none;
+}
+
+/* Toggle Labels */
+.toggle-option {
+  padding: var(--spacing-xs) var(--spacing-md);
+  border-radius: 20px;
+  cursor: pointer;
+//   transition: all 0.3s ease;
+  z-index: 1;
+  position: relative;
+  color: var(--color-secondary);
+  white-space: nowrap; /* Prevent text wrapping */
+  font-size: var(--font-size-sm);
+  line-height: var(--line-height-sm);
+
+  &:hover {
+    color: var(--color-primary);
+  }
+}
+
+/* Active Background Slider */
+.toggle-slider {
+  position: absolute;
+  top: calc(var(--spacing-xs) / 2);
+  height: calc(100% - calc(var(--spacing-xs)));
+  background: var(--color-gray-dark2);
+  border-radius: 1000px;
+  transition: all 0.15s ease;
+  z-index: 0;
+}
+
+/* Monthly Position - UPDATED */
+#monthly:checked ~ .toggle-slider {
+  left: calc(var(--spacing-xs) / 2);
+  width: var(--monthly-width);
+  transform: translateX(0);
+}
+
+/* Yearly Position - UPDATED */
+#yearly:checked ~ .toggle-slider {
+  left: calc(var(--spacing-xs) / 2);
+  width: var(--yearly-width);
+  transform: translateX(var(--monthly-width));
+}
+
+/* Optional: Style active text */
+#monthly:checked ~ .toggle-option[for="monthly"],
+#yearly:checked ~ .toggle-option[for="yearly"] {
+  color: var(--color-primary);
+}

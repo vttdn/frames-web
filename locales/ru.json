@@ -174,10 +174,14 @@
   },
   "pricing": {
     "heading": "Цены",
+    "label_period": "В месяц",
+    "label_period_yearly": "В год",
     "ios": {
       "title": "iOS",
       "price": "199 ₽",
+      "price_yearly": "1 490 ₽",
       "period": "/мес.",
+      "period_yearly": "/год",
       "includes_label": "Включает:",
       "features": [
         "Неограниченное количество плёнок",
@@ -190,7 +194,9 @@
     "macos": {
       "title": "macOS",
       "price": "199 ₽",
+      "price_yearly": "1 490 ₽",
       "period": "/мес.",
+      "period_yearly": "/год",
       "includes_label": "Включает:",
       "features": [
         "Сохранение метаданных в фотографии"

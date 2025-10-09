@@ -174,10 +174,14 @@
   },
   "pricing": {
     "heading": "Hinnoittelu",
+    "label_period": "Kuukausittain",
+    "label_period_yearly": "Vuosittain",
     "ios": {
       "title": "iOS",
       "price": "1,99 €",
+      "price_yearly": "19,99 €",
       "period": "/kk",
+      "period_yearly": "/vuosi",
       "includes_label": "Sisältää:",
       "features": [
         "Rajoittamattomat filmirullat",
@@ -190,7 +194,9 @@
     "macos": {
       "title": "macOS",
       "price": "1,99 €",
+      "price_yearly": "19,99 €",
       "period": "/kk",
+      "period_yearly": "/vuosi",
       "includes_label": "Sisältää:",
       "features": [
         "Tallenna metatiedot kuviin"

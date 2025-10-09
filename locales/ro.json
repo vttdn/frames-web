@@ -174,9 +174,12 @@
   },
   "pricing": {
     "heading": "Prețuri",
+    "label_period": "Pe lună",
+    "label_period_yearly": "Pe an",
     "ios": {
       "title": "iOS",
-      "price": "9.99 lei",
+      "price": "9,99 lei",
+      "price_yearly": "99,99 lei",
       "period": "/lună",
       "includes_label": "Include:",
       "features": [
@@ -189,8 +192,10 @@
     },
     "macos": {
       "title": "macOS",
-      "price": "9.99 lei",
+      "price": "9,99 lei",
+      "price_yearly": "99,99 lei",
       "period": "/lună",
+      "period_yearly": "/an",
       "includes_label": "Include:",
       "features": [
         "Salvează metadate în fotografii"

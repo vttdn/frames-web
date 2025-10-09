@@ -174,10 +174,14 @@
   },
   "pricing": {
     "heading": "Priser",
+    "label_period": "Månedlig",
+    "label_period_yearly": "Årlig",
     "ios": {
       "title": "iOS",
-      "price": "19 kr.",
+      "price": "19 kr",
+      "price_yearly": "149 kr",
       "period": "/md.",
+      "period_yearly": "/år.",
       "includes_label": "Inkluderer:",
       "features": [
         "Ubegrænsede filmruller",
@@ -189,8 +193,10 @@
     },
     "macos": {
       "title": "macOS",
-      "price": "19 kr.",
+      "price": "19 kr",
+      "price_yearly": "149 kr",
       "period": "/md.",
+      "period_yearly": "/år.",
       "includes_label": "Inkluderer:",
       "features": [
         "Gem metadata til fotos"

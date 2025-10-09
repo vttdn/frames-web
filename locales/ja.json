@@ -174,10 +174,14 @@
   },
   "pricing": {
     "heading": "料金",
+    "label_period": "月額",
+    "label_period_yearly": "年額",
     "ios": {
       "title": "iOS",
       "price": "¥300",
+      "price_yearly": "¥3,000",
       "period": "/月",
+      "period_yearly": "/年",
       "includes_label": "含まれる機能:",
       "features": [
         "無制限のフィルムロール",
@@ -190,7 +194,9 @@
     "macos": {
       "title": "macOS",
       "price": "¥300",
+      "price_yearly": "¥3,000",
       "period": "/月",
+      "period_yearly": "/年",
       "includes_label": "含まれる機能:",
       "features": [
         "写真にメタデータを保存"

@@ -174,10 +174,14 @@
   },
   "pricing": {
     "heading": "Preise",
+    "label_period": "Monatlich",
+    "label_period_yearly": "Jährlich",
     "ios": {
       "title": "iOS",
       "price": "1,99 €",
+      "price_yearly": "19,99 €",
       "period": "/Monat",
+      "period_yearly": "/Jahr",
       "includes_label": "Enthalten:",
       "features": [
         "Unbegrenzte Filme",
@@ -190,7 +194,9 @@
     "macos": {
       "title": "macOS",
       "price": "1,99 €",
+      "price_yearly": "19,99 €",
       "period": "/Monat",
+      "period_yearly": "/Jahr",
       "includes_label": "Enthalten:",
       "features": [
         "Metadaten in Fotos speichern"

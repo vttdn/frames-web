@@ -174,10 +174,14 @@
   },
   "pricing": {
     "heading": "Harga",
+    "label_period": "Bulanan",
+    "label_period_yearly": "Tahunan",
     "ios": {
       "title": "iOS",
       "price": "Rp 29.000",
+      "price_yearly": "Rp 299.000",
       "period": "/bln",
+      "period_yearly": "/thn",
       "includes_label": "Termasuk:",
       "features": [
         "Rol film tanpa batas",
@@ -190,7 +194,9 @@
     "macos": {
       "title": "macOS",
       "price": "Rp 29.000",
+      "price_yearly": "Rp 299.000",
       "period": "/bln",
+      "period_yearly": "/thn",
       "includes_label": "Termasuk:",
       "features": [
         "Simpan metadata ke foto"

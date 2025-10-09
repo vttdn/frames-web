@@ -174,10 +174,14 @@
   },
   "pricing": {
     "heading": "Precios",
+    "label_period": "Mensual",
+    "label_period_yearly": "Anual",
     "ios": {
       "title": "iOS",
       "price": "1,99 €",
+      "price_yearly": "19,99 €",
       "period": "/mes",
+      "period_yearly": "/año",
       "includes_label": "Incluye:",
       "features": [
         "Carretes ilimitados",
@@ -190,7 +194,9 @@
     "macos": {
       "title": "macOS",
       "price": "1,99 €",
+      "price_yearly": "19,99 €",
       "period": "/mes",
+      "period_yearly": "/año",
       "includes_label": "Incluye:",
       "features": [
         "Guardar metadatos en fotos"

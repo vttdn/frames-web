@@ -174,10 +174,14 @@
   },
   "pricing": {
     "heading": "Prezzi",
+    "label_period": "Mensile",
+    "label_period_yearly": "Annuale",
     "ios": {
       "title": "iOS",
       "price": "1,99 €",
+      "price_yearly": "19.99 €",
       "period": "/mese",
+      "period_yearly": "/anno",
       "includes_label": "Include:",
       "features": [
         "Rullini illimitati",
@@ -190,7 +194,9 @@
     "macos": {
       "title": "macOS",
       "price": "1,99 €",
+      "price_yearly": "19.99 €",
       "period": "/mese",
+      "period_yearly": "/anno",
       "includes_label": "Include:",
       "features": [
         "Salva metadati nelle foto"

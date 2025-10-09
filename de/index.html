@@ -517,15 +517,31 @@ entwickelt für Analogfotografen.</h1>
         </section>
 
         <section aria-labelledby="pricing-heading">
-            <h2 id="pricing-heading">Preise</h2>
-            <div class="pricing grid grid-4col">
+            <div class="pricing-header-main flex flex-end flex-justify-between gap-lg">
+
+                <h2 id="pricing-heading">Preise</h2>
+
+                <div class="plans-toggle">
+                    <input type="radio" id="monthly" name="plan" checked>
+                    <input type="radio" id="yearly" name="plan">
+
+                    <label for="monthly" class="toggle-option">Monatlich</label>
+                    <label for="yearly" class="toggle-option">Jährlich</label>
+
+                    <div class="toggle-slider"></div>
+                </div>
+            </div>
+            <div class="pricing grid grid-4col" id="pricing-plans">
                 <article class="tile container-ratio ratio-3-4 pricing-card">
                     <div class="pricing-inner flex flex-col flex-justify-between">
                         <div class="pricing-header flex flex-col gap-lg">
                             <header class="flex flex-col gap-xs">
                                 <h3 class="pricing-title">iOS</h3>
                                 <div class="pricing-amount">
-                                    <span class="price">1,99 €</span><span class="price-period">/Monat</span>
+                                    <span class="price">1,99 €</span>
+                                    <span class="price-yearly">19,99 €</span>
+                                    <span class="price-period">/Monat</span>
+                                    <span class="price-period-yearly">/Jahr</span>
                                 </div>
                             </header>
 
@@ -563,7 +579,10 @@ entwickelt für Analogfotografen.</h1>
                             <header class="flex flex-col gap-xs">
                                 <h3 class="pricing-title">macOS</h3>
                                 <div class="pricing-amount">
-                                    <span class="price">1,99 €</span><span class="price-period">/Monat</span>
+                                    <span class="price">1,99 €</span>
+                                    <span class="price-yearly">19,99 €</span>
+                                    <span class="price-period">/Monat</span>
+                                    <span class="price-period-yearly">/Jahr</span>
                                 </div>
                             </header>
 

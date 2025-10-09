@@ -174,10 +174,14 @@
   },
   "pricing": {
     "heading": "Ціни",
+    "label_period": "На місяць",
+    "label_period_yearly": "На рік",
     "ios": {
       "title": "iOS",
       "price": "$1.99",
+      "price_yearly": "$19.99",
       "period": "/міс",
+      "period_yearly": "/рік",
       "includes_label": "Включає:",
       "features": [
         "Необмежені плівки",
@@ -190,7 +194,9 @@
     "macos": {
       "title": "macOS",
       "price": "$1.99",
+      "price_yearly": "$19.99",
       "period": "/міс",
+      "period_yearly": "/рік",
       "includes_label": "Включає:",
       "features": [
         "Збереження метаданих у фотографії"

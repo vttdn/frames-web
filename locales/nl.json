@@ -174,10 +174,14 @@
   },
   "pricing": {
     "heading": "Prijzen",
+    "label_period": "Per maand",
+    "label_period_yearly": "Per jaar",
     "ios": {
       "title": "iOS",
-      "price": "1,99 €",
+      "price": "€ 1,99",
+      "price_yearly": "€ 19,99",
       "period": "/maand",
+      "period_yearly": "/jaar",
       "includes_label": "Inclusief:",
       "features": [
         "Onbeperkt aantal filmrolletjes",
@@ -189,7 +193,8 @@
     },
     "macos": {
       "title": "macOS",
-      "price": "1,99 €",
+      "price": "€ 1,99",
+      "price_yearly": "€ 19,99",
       "period": "/maand",
       "includes_label": "Inclusief:",
       "features": [

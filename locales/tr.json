@@ -174,10 +174,14 @@
   },
   "pricing": {
     "heading": "Fiyatlandırma",
+    "label_period": "Aylık",
+    "label_period_yearly": "Yıllık",
     "ios": {
       "title": "iOS",
       "price": "99,99 ₺",
+      "price_yearly": "799 ₺",
       "period": "/ay",
+      "period_yearly": "/yıl",
       "includes_label": "İçerir:",
       "features": [
         "Sınırsız film ruloları",
@@ -190,7 +194,9 @@
     "macos": {
       "title": "macOS",
       "price": "99,99 ₺",
+      "price_yearly": "799 ₺",
       "period": "/ay",
+      "period_yearly": "/yıl",
       "includes_label": "İçerir:",
       "features": [
         "Fotoğraflara metadata kaydet"

@@ -174,10 +174,14 @@
   },
   "pricing": {
     "heading": "Priser",
+    "label_period": "Per månad",
+    "label_period_yearly": "Per år",
     "ios": {
       "title": "iOS",
       "price": "29 kr",
+      "price_yearly": "229 kr",
       "period": "/mån",
+      "period_yearly": "/år",
       "includes_label": "Inkluderar:",
       "features": [
         "Obegränsade filmrullar",
@@ -190,7 +194,9 @@
     "macos": {
       "title": "macOS",
       "price": "29 kr",
+      "price_yearly": "229 kr",
       "period": "/mån",
+      "period_yearly": "/år",
       "includes_label": "Inkluderar:",
       "features": [
         "Spara metadata till foton"

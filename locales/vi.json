@@ -174,10 +174,14 @@
   },
   "pricing": {
     "heading": "Bảng Giá",
+    "label_period": "Hàng tháng",
+    "label_period_yearly": "Hàng năm",
     "ios": {
       "title": "iOS",
-      "price": "49.000₫",
+      "price": "49.000 ₫",
+      "price_yearly": "499.000 ₫",
       "period": "/tháng",
+      "period_yearly": "/năm",
       "includes_label": "Bao gồm:",
       "features": [
         "Cuộn phim không giới hạn",
@@ -189,8 +193,10 @@
     },
     "macos": {
       "title": "macOS",
-      "price": "49.000₫",
+      "price": "49.000 ₫",
+      "price_yearly": "499.000 ₫",
       "period": "/tháng",
+      "period_yearly": "/năm",
       "includes_label": "Bao gồm:",
       "features": [
         "Lưu siêu dữ liệu vào ảnh"

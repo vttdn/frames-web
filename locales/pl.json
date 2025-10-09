@@ -174,9 +174,12 @@
   },
   "pricing": {
     "heading": "Cennik",
+    "label_period": "Miesięcznie",
+    "label_period_yearly": "Rocznie",
     "ios": {
       "title": "iOS",
       "price": "9,99 zł",
+      "price_yearly": "99,99 zł",
       "period": "/mies.",
       "includes_label": "Zawiera:",
       "features": [
@@ -190,7 +193,9 @@
     "macos": {
       "title": "macOS",
       "price": "9,99 zł",
+      "price_yearly": "99,99 zł",
       "period": "/mies.",
+      "period_yearly": "/rok",
       "includes_label": "Zawiera:",
       "features": [
         "Zapisywanie metadanych do zdjęć"

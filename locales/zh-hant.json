@@ -174,10 +174,14 @@
   },
   "pricing": {
     "heading": "定價",
+    "label_period": "每月",
+    "label_period_yearly": "每年",
     "ios": {
       "title": "iOS",
-      "price": "$18.00",
+      "price": "HK$18",
+      "price_yearly": "HK$148",
       "period": "/月",
+      "period_yearly": "/年",
       "includes_label": "包含：",
       "features": [
         "無限膠卷",
@@ -189,8 +193,10 @@
     },
     "macos": {
       "title": "macOS",
-      "price": "$18.00",
+      "price": "HK$18",
+      "price_yearly": "HK$148",
       "period": "/月",
+      "period_yearly": "/年",
       "includes_label": "包含：",
       "features": [
         "將元資料保存到照片"

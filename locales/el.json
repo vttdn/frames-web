@@ -174,10 +174,14 @@
   },
   "pricing": {
     "heading": "Τιμολόγηση",
+    "label_period": "Μηνιαία",
+    "label_period_yearly": "Ετήσια",
     "ios": {
       "title": "iOS",
       "price": "1,99 €",
+      "price_yearly": "19,99 €",
       "period": "/μήνα",
+      "period_yearly": "/έτος",
       "includes_label": "Περιλαμβάνει:",
       "features": [
         "Απεριόριστα φιλμ",
@@ -190,7 +194,9 @@
     "macos": {
       "title": "macOS",
       "price": "1,99 €",
+      "price_yearly": "19,99 €",
       "period": "/μήνα",
+      "period_yearly": "/έτος",
       "includes_label": "Περιλαμβάνει:",
       "features": [
         "Αποθήκευση μεταδεδομένων σε φωτογραφίες"
