@@ -46,21 +46,20 @@
 
 .featured-text {
     font-size: var(--font-size-sm);
+    text-align: center;
 }
 
 .featured-logos {
-    gap: var(--spacing-lg) 4.5rem; /* 16px vertical, 72px horizontal */
+    gap: var(--spacing-2xl) var(--spacing-4xl); /* 16px vertical, 72px horizontal */
     flex-wrap: wrap;
     justify-content: center;
-    // padding: var(--spacing-xs) 0;
+    padding: var(--spacing-sm) 0;
 
-    @include tablet-down {
-        gap: var(--spacing-2xl) 4.5rem;
+    img {
+        margin: 0 var(--spacing-xs);
     }
 
-    @include mobile {
-        gap: var(--spacing-xl) var(--spacing-2xl);
-
+    @include tablet-down {
         img {
             height: 1.25rem;
             width: auto;
