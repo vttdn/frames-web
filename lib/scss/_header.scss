@@ -34,7 +34,7 @@
     padding: 0 var(--spacing-lg); /* 16px */
 
     &:hover {
-        opacity: 0.82;
+        color: rgb(from var(--color-primary) r g b / 0.82);
     }
   }
 
