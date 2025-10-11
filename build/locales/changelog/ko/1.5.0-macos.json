@@ -1,0 +1,43 @@
+{
+  "version": "1.5.0",
+  "version_short": "1.5",
+  "url_slug": "1-5-macos",
+  "platform": "macos",
+  "release_date": "2025-09-19T10:00:00.000Z",
+  "title": "주요 성능 및 DNG 처리 개선",
+  "meta_title": "주요 성능 및 DNG 처리 개선 · Frames",
+  "meta_description": "최적화된 캐싱 및 메모리 사용으로 훨씬 빠른 DNG 처리. 더 원활한 메타데이터 워크플로우를 위해 .frames 가져오기 및 Intel Mac 호환성 수정.",
+  "summary": "이번 업데이트는 최적화된 DNG 처리, 향상된 캐싱 및 Intel Mac의 .frames 파일 가져오기 및 DNG 메타데이터 내보내기 수정으로 훨씬 빠른 이미지 처리를 제공합니다.",
+  "sections": [
+    {
+      "type": "paragraph",
+      "content": "이제 DNG 처리 속도 및 안정성에 대한 주요 개선으로 모든 형식에서 이미지 로딩이 훨씬 빠릅니다. 메모리 사용이 최적화되고, 캐싱이 개선되었으며, 동기화된 로딩으로 대용량 이미지 배치에서도 원활한 작업을 보장합니다. 또한 macOS 메뉴 표시줄에서 .frames 파일 가져오기를 수정하고 구형 Intel Mac에서 DNG 메타데이터 내보내기 문제를 해결했습니다."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.10.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.10.0-1@2x.png",
+      "alt": "더 빠른 이미지 처리를 위한 최적화된 DNG 처리 성능이 있는 Frames macOS 앱",
+      "width": "400",
+      "height": "300"
+    }
+  ],
+  "improvements": [
+    "모든 형식에서 훨씬 빠른 이미지 로딩",
+    "더 나은 성능을 위한 최적화된 DNG 처리",
+    "더 원활한 작업을 위한 향상된 캐싱 시스템",
+    "향상된 메모리 사용 효율성",
+    "대용량 이미지 배치를 위한 동기화된 로딩"
+  ],
+  "fixes": [
+    {
+      "title": ".frames 파일 가져오기",
+      "description": "macOS 메뉴 표시줄에서 .frames 파일 가져오기 수정"
+    },
+    {
+      "title": "Intel Mac의 DNG 내보내기",
+      "description": "구형 Intel Mac 모델에서 DNG 메타데이터 내보내기 수정"
+    }
+  ],
+  "patches": []
+}

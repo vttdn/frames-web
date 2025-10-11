@@ -1,0 +1,55 @@
+{
+  "version": "1.5.0",
+  "version_short": "1.5",
+  "url_slug": "1-5-ios",
+  "platform": "ios",
+  "release_date": "2025-09-03T10:00:00.000Z",
+  "title": "새로운 필름 스톡, 재디자인된 조리개 시스템 및 렌즈 전환",
+  "meta_title": "새로운 필름 스톡, 재디자인된 조리개 시스템 및 렌즈 전환 · Frames",
+  "meta_description": "Harman Phoenix II 및 새로운 필름 스톡과 함께 렌즈당 맞춤 조리개 시퀀스. 더 빠르고 정확한 아날로그 기록을 위해 레코더에서 직접 렌즈를 전환합니다.",
+  "summary": "이번 업데이트는 새로운 에멀션으로 필름 스톡 라이브러리를 확장하고, 맞춤 f-스톱 시퀀스로 조리개 관리를 완전히 재디자인하며, 레코더에서 직접 렌즈를 전환하는 기능을 추가합니다.",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "확장된 필름 스톡 라이브러리"
+    },
+    {
+      "type": "paragraph",
+      "content": "이제 필름 스톡 목록에 Harman Phoenix II, Lucky Color 200, Leica Monopan 50 및 기타 여러 인기 에멀션이 포함됩니다. 실험적인 컬러 필름이든 클래식 흑백 스톡이든 Frames는 보다 정확한 기록을 위해 더 넓은 범위의 필름 유형을 지원합니다."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/{{ lang }}/changelog/frames-1.5.0-1.png",
+      "image_2x": "/lib/img/{{ lang }}/changelog/frames-1.5.0-1@2x.png",
+      "alt": "맞춤 조리개 시퀀스 및 확장된 필름 스톡 라이브러리가 있는 Frames 아날로그 사진 앱",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "재디자인된 조리개 관리"
+    },
+    {
+      "type": "paragraph",
+      "content": "조리개 컨트롤이 완전히 재구축되었습니다. 이제 렌즈당 맞춤 f-스톱 시퀀스를 정의하여 렌즈에 실제로 있는 조리개만 표시할 수 있습니다. 이제 레코더 슬라이더가 선택한 조리개 값에 올바르게 중앙에 배치됩니다. 워크플로우를 떠나지 않고 레코더에서 직접 렌즈를 전환하고, 줌 렌즈나 원근 제어 조정을 위해 더 보기 버튼을 통해 초점 거리를 설정합니다."
+    }
+  ],
+  "improvements": [
+    "Harman Phoenix II, Lucky Color 200, Leica Monopan 50 등으로 확장된 필름 스톡 라이브러리",
+    "완전히 재디자인된 조리개 관리 시스템",
+    "렌즈당 맞춤 f-스톱 시퀀스 추가",
+    "레코더에서 직접 렌즈 전환 추가",
+    "이제 레코더의 더 보기 버튼을 통해 초점 거리 조정 가능",
+    "향상된 현지화 일관성",
+    "전반적인 사소한 성능 향상"
+  ],
+  "fixes": [
+    {
+      "title": "조리개 슬라이더 중앙 배치",
+      "description": "레코더의 조리개 슬라이더가 선택한 값에 올바르게 중앙에 배치되지 않는 문제 수정"
+    }
+  ],
+  "patches": []
+}

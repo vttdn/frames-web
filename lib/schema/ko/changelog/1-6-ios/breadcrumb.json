@@ -1,0 +1,23 @@
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://withframes.com/ko/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "변경 내역",
+      "item": "https://withframes.com/ko/changelog/1-6-ios/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "맞춤 셔터 속도 시퀀스 및 지도 개선",
+      "item": "https://withframes.com/ko/changelog/1-6-ios/"
+    }  ]
+}

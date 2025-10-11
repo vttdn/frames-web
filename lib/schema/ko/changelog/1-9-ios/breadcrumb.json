@@ -1,0 +1,23 @@
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://withframes.com/ko/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "변경 내역",
+      "item": "https://withframes.com/ko/changelog/1-9-ios/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "하위 폴더, 스와이프하여 이동 및 TXT 내보내기 개선",
+      "item": "https://withframes.com/ko/changelog/1-9-ios/"
+    }  ]
+}

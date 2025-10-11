@@ -1,0 +1,48 @@
+{
+  "version": "1.2.0",
+  "version_short": "1.2",
+  "url_slug": "1-2-macos",
+  "platform": "macos",
+  "release_date": "2025-08-24T10:00:00.000Z",
+  "title": "필터 지원, 일본어 및 한국어 추가",
+  "meta_title": "필터 지원, 일본어 및 한국어 추가 · Frames",
+  "meta_description": "UV, ND, CPL 필터를 위한 자동 필터 메타데이터 삽입. 카메라 시리얼 번호를 포함한 개선된 EXIF 데이터와 함께 일본어 및 한국어 지원.",
+  "summary": "이제 필터가 사이드바에 표시되며 프레임 저장 시 메타데이터에 자동으로 추가됩니다. 이번 업데이트는 일본어 및 한국어 지원과 중요한 버그 수정도 제공합니다.",
+  "sections": [
+    {
+      "type": "paragraph",
+      "content": "iOS에서 기록한 필터가 이제 macOS 사이드바에 표시되며 재통합 중에 EXIF 메타데이터에 자동으로 삽입됩니다. 이를 통해 UV, ND, CPL 및 기타 필터를 최종 이미지에 포함하여 아날로그 문서화가 완성됩니다. 이제 카메라 시리얼 번호가 메타데이터에 포함되며 플래시 값이 반전되는 버그를 수정했습니다. Frames는 이제 iOS 언어 확장과 일치하는 일본어 및 한국어로 제공됩니다."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-mac-1.2.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-mac-1.2.0-1@2x.png",
+      "alt": "필름 사진 문서화를 위한 필터 메타데이터 사이드바를 보여주는 Frames macOS 앱",
+      "width": "400",
+      "height": "300"
+    }
+  ],
+  "improvements": [
+    "사이드바에 필터 표시 추가",
+    "프레임 저장 시 메타데이터에 필터 자동 추가",
+    "이제 EXIF 메타데이터에 카메라 시리얼 번호 포함",
+    "일본어 지원 추가",
+    "한국어 지원 추가"
+  ],
+  "fixes": [
+    {
+      "title": "플래시 값 반전",
+      "description": "플래시 값이 반전되는 문제 수정('아니오'여야 할 때 '예'로 표시)"
+    }
+  ],
+  "patches": [
+    {
+      "version": "1.2.2",
+      "description": "새로운 언어를 위한 현지화 개선"
+    },
+    {
+      "version": "1.2.1",
+      "description": "iOS 앱과의 일관성을 위한 번역 개선 및 사소한 UI 향상"
+    }
+  ]
+}

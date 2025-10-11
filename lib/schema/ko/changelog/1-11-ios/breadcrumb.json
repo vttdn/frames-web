@@ -1,0 +1,23 @@
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://withframes.com/ko/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "변경 내역",
+      "item": "https://withframes.com/ko/changelog/1-11-ios/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "측광 모드 메타데이터 및 성능 개선",
+      "item": "https://withframes.com/ko/changelog/1-11-ios/"
+    }  ]
+}

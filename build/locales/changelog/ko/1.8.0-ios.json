@@ -1,0 +1,32 @@
+{
+  "version": "1.8.0",
+  "version_short": "1.8",
+  "url_slug": "1-8-ios",
+  "platform": "ios",
+  "release_date": "2025-09-15T10:00:00.000Z",
+  "title": "필름 로그를 위한 TXT 파일 내보내기",
+  "summary": "Pro 사용자는 이제 필름 롤 로그를 TXT 파일로 내보낼 수 있으며, 암실 작업을 위한 필드 노트 또는 빠른 참조 시트를 인쇄하는 데 적합합니다.",
+  "sections": [
+    {
+      "type": "paragraph",
+      "content": "필름 롤 메타데이터를 일반 텍스트 파일로 내보냅니다. 이 형식은 카메라 가방이나 암실에 보관할 컴팩트한 참조 시트를 인쇄하는 데 잘 작동합니다. 각 TXT 내보내기에는 인쇄하거나 랩과 공유하기 쉬운 깔끔하고 읽기 쉬운 형식으로 모든 프레임 세부 정보, 노출 설정 및 노트가 포함됩니다."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.8.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.8.0-1@2x.png",
+      "alt": "필름 롤 노트 및 메타데이터 인쇄를 위한 TXT 내보내기 기능이 있는 Frames 아날로그 사진 앱",
+      "width": "400",
+      "height": "300"
+    }
+  ],
+  "improvements": [
+    "Pro 사용자를 위한 TXT 파일 내보내기 추가",
+    "인쇄 및 가독성을 위한 최적화된 내보내기 형식",
+    "내보내기에 포괄적인 프레임 메타데이터 포함"
+  ],
+  "fixes": [],
+  "patches": [],
+  "meta_title": "필름 로그를 위한 TXT 파일 내보내기 · Frames",
+  "meta_description": "Pro 사용자는 이제 필름 롤 로그를 TXT 파일로 내보낼 수 있으며, 암실 작업을 위한 필드 노트 또는 빠른 참조 시트를 인쇄하는 데 적합합니다."
+}

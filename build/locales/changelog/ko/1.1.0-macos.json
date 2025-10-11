@@ -1,0 +1,37 @@
+{
+  "version": "1.1.0",
+  "version_short": "1.1",
+  "url_slug": "1-1-macos",
+  "platform": "macos",
+  "release_date": "2025-06-27T10:00:00.000Z",
+  "title": "TIFF 파일 지원",
+  "meta_title": "TIFF 파일 지원 · Frames",
+  "meta_description": "전체 메타데이터 삽입으로 TIFF 파일을 가져오고 내보냅니다. 매끄러운 EXIF 통합 워크플로우로 고품질 스캔을 위한 전문 형식 지원.",
+  "summary": "이제 전체 메타데이터 통합으로 TIFF 파일을 가져오고 내보낼 수 있으며, 전문 워크플로우를 위해 JPEG를 넘어서는 형식 지원을 확장합니다.",
+  "sections": [
+    {
+      "type": "paragraph",
+      "content": "TIFF 지원이 Frames macOS에 도착했습니다. TIFF 스캔을 가져오고 JPEG 파일에 사용하는 것과 동일한 워크플로우로 필름 롤 메타데이터를 삽입합니다. TIFF 파일은 메타데이터 재통합 프로세스에서 매끄럽게 작동하여 형식에 관계없이 아날로그 사진 노트가 이미지와 함께 이동하도록 보장합니다."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-mac-1.1.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-mac-1.1.0-1@2x.png",
+      "alt": "전문 아날로그 사진 워크플로우를 위한 TIFF 파일 지원이 있는 Frames macOS 앱",
+      "width": "400",
+      "height": "300"
+    }
+  ],
+  "improvements": [
+    "TIFF 파일 가져오기 지원 추가",
+    "전체 메타데이터 통합을 통한 TIFF 파일 내보내기 추가",
+    "TIFF 파일이 기존 메타데이터 재통합 워크플로우와 매끄럽게 작동"
+  ],
+  "fixes": [],
+  "patches": [
+    {
+      "version": "1.1.1",
+      "description": "특정 상황에서 .frames 파일이 로드되지 않는 문제 수정"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://withframes.com/ko/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "변경 내역",
+      "item": "https://withframes.com/ko/changelog/1-5-ios/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "새로운 필름 스톡, 재디자인된 조리개 시스템 및 렌즈 전환",
+      "item": "https://withframes.com/ko/changelog/1-5-ios/"
+    }  ]
+}

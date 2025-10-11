@@ -1,0 +1,23 @@
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://withframes.com/ko/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "변경 내역",
+      "item": "https://withframes.com/ko/changelog/1-0-ios/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Frames 출시: 아날로그 사진을 위한 디지털 노트",
+      "item": "https://withframes.com/ko/changelog/1-0-ios/"
+    }  ]
+}

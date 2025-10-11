@@ -1,0 +1,23 @@
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://withframes.com/ko/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "변경 내역",
+      "item": "https://withframes.com/ko/changelog/1-12-ios/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "덴마크어, 핀란드어, 노르웨이어, 베트남어 및 4개 추가 언어",
+      "item": "https://withframes.com/ko/changelog/1-12-ios/"
+    }  ]
+}

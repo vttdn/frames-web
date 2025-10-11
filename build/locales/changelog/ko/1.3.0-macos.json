@@ -1,0 +1,37 @@
+{
+  "version": "1.3.0",
+  "version_short": "1.3",
+  "url_slug": "1-3-macos",
+  "platform": "macos",
+  "release_date": "2025-09-01T10:00:00.000Z",
+  "title": "DNG Raw 파일 지원",
+  "meta_title": "DNG Raw 파일 지원 · Frames",
+  "meta_description": "JPEG 및 TIFF 형식과 함께 DNG raw 파일에 메타데이터를 삽입합니다. 전문 후처리를 위한 포괄적인 EXIF 데이터로 완전한 아날로그 워크플로우.",
+  "summary": "이제 JPEG 및 TIFF와 함께 DNG 파일을 가져오고 완전한 아날로그 사진 워크플로우를 위해 raw 이미지에 메타데이터를 직접 재통합할 수 있습니다.",
+  "sections": [
+    {
+      "type": "paragraph",
+      "content": "Raw 이미지 지원이 Frames macOS에 도착했습니다. 기존 JPEG 및 TIFF 워크플로우와 함께 DNG 파일을 가져오고 필름 롤 메타데이터를 raw 파일에 직접 삽입합니다. 이를 통해 노출 설정, 카메라 데이터, 필름 스톡 및 노트가 후처리 및 아카이브를 거쳐 raw 이미지와 함께 이동합니다. 또한 메타데이터 재통합 중에 프레임의 추가 노트가 유지되지 않는 문제를 수정했습니다."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-mac-1.3.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-mac-1.3.0-1@2x.png",
+      "alt": "아날로그 사진 스캔을 위한 DNG raw 파일 메타데이터 삽입이 있는 Frames macOS 앱",
+      "width": "400",
+      "height": "300"
+    }
+  ],
+  "improvements": [
+    "DNG raw 파일 지원 추가",
+    "raw 이미지를 위한 전체 메타데이터 재통합",
+    "DNG 파일이 JPEG 및 TIFF와 함께 매끄럽게 작동"
+  ],
+  "fixes": [
+    {
+      "title": "프레임 노트 유지",
+      "description": "메타데이터 재통합 중에 프레임의 추가 노트가 유지되지 않는 문제 수정"
+    }
+  ],
+  "patches": []
+}

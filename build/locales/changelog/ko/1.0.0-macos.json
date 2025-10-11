@@ -1,0 +1,78 @@
+{
+  "version": "1.0.0",
+  "version_short": "1.0",
+  "url_slug": "1-0-macos",
+  "platform": "macos",
+  "release_date": "2025-04-08T10:00:00.000Z",
+  "title": "Frames macOS 출시",
+  "meta_title": "Frames macOS 출시 · Frames",
+  "meta_description": "스캔한 이미지에 필름 사진 메타데이터를 삽입하고 Lightroom, Capture One, Apple 사진을 위한 EXIF 지원을 제공합니다. iOS 기록 데이터를 매끄럽게 통합합니다.",
+  "summary": "오랫동안 기다려온 macOS 동반 앱이 출시되어 스캔한 필름 이미지에 메타데이터를 매끄럽게 재통합할 수 있게 되었습니다. iOS에서 필름 롤 데이터를 가져와 JPEG 파일에 EXIF 메타데이터를 삽입합니다.",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "스캔한 필름을 위한 메타데이터 재통합"
+    },
+    {
+      "type": "paragraph",
+      "content": "Frames macOS는 필름 사진 커뮤니티에서 가장 많이 요청된 기능인 스캔한 이미지에 메타데이터를 재통합하는 문제를 해결합니다. iOS에서 .frames 파일을 가져오고, 스캔한 JPEG 이미지를 드래그하면 앱이 프레임과 사진을 매칭합니다. 노출 설정, 카메라 데이터, 렌즈 정보, 필름 스톡, 촬영 노트가 Lightroom, Capture One, Apple 사진과 매끄럽게 작동하는 EXIF 메타데이터로 삽입됩니다."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.0.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.0.0-1@2x.png",
+      "alt": "스캔한 필름 사진에 EXIF 메타데이터를 삽입하는 Frames macOS 앱",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "간단한 워크플로우, 전문적인 결과"
+    },
+    {
+      "type": "paragraph",
+      "content": "워크플로우는 간단합니다: .frames 파일을 가져오고, 스캔한 이미지를 추가하고, 프레임을 사진과 매칭하고, 내보냅니다. 앱이 자동으로 EXIF 삽입을 처리하여 아날로그 사진 기록이 영구적인 디지털 기록이 됩니다. iOS에서 현장 기록한 필름 롤 데이터가 macOS에서 최종 아카이브로 매끄럽게 전송됩니다."
+    }
+  ],
+  "improvements": [
+    "iOS에서 .frames 파일 가져오기",
+    "전체 메타데이터 삽입을 지원하는 JPEG 파일",
+    "자동 프레임-사진 매칭",
+    "Lightroom, Capture One, Apple 사진과 호환되는 EXIF 메타데이터 삽입",
+    "Apple의 Human Interface Guidelines를 따르는 네이티브 macOS 디자인",
+    "7개 언어로 제공: 영어, 프랑스어, 스페인어, 이탈리아어, 포르투갈어, 독일어, 네덜란드어"
+  ],
+  "fixes": [],
+  "patches": [
+    {
+      "version": "1.0.1",
+      "description": "프랑스어 지원 추가"
+    },
+    {
+      "version": "1.0.2",
+      "description": "7개 언어로 확장: 영어, 프랑스어, 스페인어, 이탈리아어, 포르투갈어, 독일어, 네덜란드어"
+    },
+    {
+      "version": "1.0.3",
+      "description": "언어 지원 개선"
+    },
+    {
+      "version": "1.0.4",
+      "description": "macOS 15.0 이상과 호환"
+    },
+    {
+      "version": "1.0.5",
+      "description": "내보낸 사진이 이제 원본 파일 이름을 유지합니다"
+    },
+    {
+      "version": "1.0.6",
+      "description": "앱 아이콘 재디자인"
+    },
+    {
+      "version": "1.0.7",
+      "description": "앱 로고 세부 수정"
+    }
+  ]
+}
