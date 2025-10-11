@@ -1,0 +1,78 @@
+{
+  "version": "1.0.0",
+  "version_short": "1.0",
+  "url_slug": "1-0-macos",
+  "platform": "macos",
+  "release_date": "2025-04-08T10:00:00.000Z",
+  "title": "Frames for macOS ローンチ",
+  "meta_title": "Frames for macOS ローンチ · Frames",
+  "meta_description": "スキャンしたフィルム写真にEXIFメタデータを埋め込み、Lightroom、Capture One、Apple Photosに対応。iOSで記録したデータをシームレスに統合します。",
+  "summary": "待望のmacOS版がついにローンチ。スキャンしたフィルム写真へのメタデータ統合がシームレスに実現します。iOSで記録したフィルムロールデータをインポートし、JPEGファイルにEXIFメタデータを埋め込むことができます。",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "スキャンしたフィルムへのメタデータ統合"
+    },
+    {
+      "type": "paragraph",
+      "content": "Frames for macOSは、フィルム写真コミュニティから最も要望の多かった機能を実現します。それは、スキャンした画像へのメタデータ統合です。iOSから.framesファイルをインポートし、スキャンしたJPEG画像をドラッグすると、アプリが自動的にフレームと写真をマッチングします。露出設定、カメラデータ、レンズ情報、フィルムストック、撮影メモがEXIFメタデータとして埋め込まれ、Lightroom、Capture One、Apple Photosとシームレスに連携します。"
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.0.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.0.0-1@2x.png",
+      "alt": "スキャンしたフィルム写真にEXIFメタデータを埋め込むFrames macOSアプリ",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "シンプルなワークフロー、プロフェッショナルな結果"
+    },
+    {
+      "type": "paragraph",
+      "content": "ワークフローは非常にシンプルです。.framesファイルをインポートし、スキャンした画像を追加、フレームと写真をマッチング、そしてエクスポートするだけです。アプリが自動的にEXIF埋め込みを処理し、アナログ写真の記録を永続的なデジタルレコードに変換します。フィルムロールデータは、iOSでのフィールド記録からmacOSでの最終アーカイブまで、シームレスに転送されます。"
+    }
+  ],
+  "improvements": [
+    "iOSから.framesファイルをインポート可能に",
+    "完全なメタデータ埋め込みに対応したJPEGファイルサポート",
+    "自動フレーム・写真マッチング機能",
+    "Lightroom、Capture One、Apple Photosと互換性のあるEXIFメタデータ埋め込み",
+    "AppleのHuman Interface Guidelinesに準拠したネイティブmacOSデザイン",
+    "7言語に対応:英語、フランス語、スペイン語、イタリア語、ポルトガル語、ドイツ語、オランダ語"
+  ],
+  "fixes": [],
+  "patches": [
+    {
+      "version": "1.0.1",
+      "description": "フランス語サポートを追加しました。"
+    },
+    {
+      "version": "1.0.2",
+      "description": "7言語に拡張しました:英語、フランス語、スペイン語、イタリア語、ポルトガル語、ドイツ語、オランダ語。"
+    },
+    {
+      "version": "1.0.3",
+      "description": "言語サポートを改善しました。"
+    },
+    {
+      "version": "1.0.4",
+      "description": "macOS 15.0以降に対応しました。"
+    },
+    {
+      "version": "1.0.5",
+      "description": "エクスポートした写真が元のファイル名を保持するようになりました。"
+    },
+    {
+      "version": "1.0.6",
+      "description": "アプリアイコンを再デザインしました。"
+    },
+    {
+      "version": "1.0.7",
+      "description": "アプリロゴを微調整しました。"
+    }
+  ]
+}

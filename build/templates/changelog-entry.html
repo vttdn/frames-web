@@ -16,12 +16,14 @@
     <meta property="og:description" content="{% if entry.meta_description %}{{ entry.meta_description }}{% else %}{{ entry.summary }}{% endif %}" />
     <meta property="og:url" content="https://withframes.com/changelog/{{ entry.url_slug }}/" />
     <meta property="og:site_name" content="Frames" />
+    <meta property="og:image" content="https://withframes.com/og-image.jpg" />
     <meta property="article:published_time" content="{{ entry.release_date }}" />
 
     <!-- Twitter Card -->
-    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="{% if entry.meta_title %}{{ entry.meta_title }}{% else %}{{ entry.title }} · Frames{% endif %}" />
     <meta name="twitter:description" content="{% if entry.meta_description %}{{ entry.meta_description }}{% else %}{{ entry.summary }}{% endif %}" />
+    <meta name="twitter:image" content="https://withframes.com/og-image.jpg" />
 
     <link rel="icon" href="/favicon.svg" type="image/svg+xml">
     <link rel="apple-touch-icon" href="/apple-touch-icon.png">

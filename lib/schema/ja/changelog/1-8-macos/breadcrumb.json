@@ -1,0 +1,23 @@
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://withframes.com/ja/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "更新履歴",
+      "item": "https://withframes.com/ja/changelog/1-8-macos/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "ヘブライ語、アラビア語、ルーマニア語、ウクライナ語サポート",
+      "item": "https://withframes.com/ja/changelog/1-8-macos/"
+    }  ]
+}

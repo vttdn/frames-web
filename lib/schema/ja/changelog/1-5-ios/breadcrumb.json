@@ -1,0 +1,23 @@
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://withframes.com/ja/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "更新履歴",
+      "item": "https://withframes.com/ja/changelog/1-5-ios/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "新フィルムストック、再設計された絞りシステム、レンズ切り替え",
+      "item": "https://withframes.com/ja/changelog/1-5-ios/"
+    }  ]
+}

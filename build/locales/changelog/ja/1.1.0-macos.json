@@ -1,0 +1,37 @@
+{
+  "version": "1.1.0",
+  "version_short": "1.1",
+  "url_slug": "1-1-macos",
+  "platform": "macos",
+  "release_date": "2025-06-27T10:00:00.000Z",
+  "title": "TIFFファイルサポート",
+  "meta_title": "TIFFファイルサポート · Frames",
+  "meta_description": "完全なメタデータ埋め込みに対応したTIFFファイルのインポートとエクスポート。高品質スキャンに対応するプロフェッショナルフォーマットサポートとシームレスなEXIF統合ワークフロー。",
+  "summary": "完全なメタデータ統合に対応したTIFFファイルのインポートとエクスポートが可能になり、プロフェッショナルワークフロー向けにJPEGを超えるフォーマットサポートを拡張しました。",
+  "sections": [
+    {
+      "type": "paragraph",
+      "content": "Frames for macOSにTIFFサポートが追加されました。TIFFスキャンをインポートし、JPEGファイルと同じワークフローでフィルムロールメタデータを埋め込むことができます。TIFFファイルはメタデータ統合プロセスにシームレスに統合され、フォーマットに関係なくアナログ写真の記録が画像と共に保存されます。"
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-mac-1.1.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-mac-1.1.0-1@2x.png",
+      "alt": "プロフェッショナルなアナログ写真ワークフロー向けTIFFファイルサポートを備えたFrames macOSアプリ",
+      "width": "400",
+      "height": "300"
+    }
+  ],
+  "improvements": [
+    "TIFFファイルのインポートサポートを追加",
+    "完全なメタデータ統合に対応したTIFFファイルエクスポートを追加",
+    "既存のメタデータ統合ワークフローにTIFFファイルがシームレスに統合"
+  ],
+  "fixes": [],
+  "patches": [
+    {
+      "version": "1.1.1",
+      "description": "特定の状況で.framesファイルの読み込みが妨げられる可能性のある問題を修正しました。"
+    }
+  ]
+}

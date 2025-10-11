@@ -1,0 +1,43 @@
+{
+  "version": "1.5.0",
+  "version_short": "1.5",
+  "url_slug": "1-5-macos",
+  "platform": "macos",
+  "release_date": "2025-09-19T10:00:00.000Z",
+  "title": "大幅なパフォーマンスとDNG処理の改善",
+  "meta_title": "大幅なパフォーマンスとDNG処理の改善 · Frames",
+  "meta_description": "最適化されたキャッシングとメモリ使用により大幅に高速化されたDNG処理。よりスムーズなメタデータワークフローのため、.framesインポートとIntel Mac互換性を修正。",
+  "summary": "このアップデートは、最適化されたDNG処理、改善されたキャッシング、Intel Macでの.framesファイルインポートとDNGメタデータエクスポートの修正により、大幅に高速化された画像処理を提供します。",
+  "sections": [
+    {
+      "type": "paragraph",
+      "content": "すべてのフォーマットで画像読み込みが大幅に高速化され、DNG処理速度と信頼性に大きな改善が加えられました。メモリ使用量が最適化され、キャッシングが改善され、同期された読み込みにより、大量の画像でもスムーズな操作が保証されます。また、macOSメニューバーからの.framesファイルインポートを修正し、古いIntel MacでのDNGメタデータエクスポートの問題を解決しました。"
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.10.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.10.0-1@2x.png",
+      "alt": "より高速な画像処理のため最適化されたDNG処理パフォーマンスを備えたFrames macOSアプリ",
+      "width": "400",
+      "height": "300"
+    }
+  ],
+  "improvements": [
+    "すべてのフォーマットで画像読み込みを大幅に高速化",
+    "より良いパフォーマンスのためDNG処理を最適化",
+    "よりスムーズな操作のためキャッシングシステムを改善",
+    "メモリ使用効率を強化",
+    "大量の画像バッチ用の同期読み込み"
+  ],
+  "fixes": [
+    {
+      "title": ".framesファイルインポート",
+      "description": "macOSメニューバーからの.framesファイルインポートを修正しました。"
+    },
+    {
+      "title": "Intel MacでのDNGエクスポート",
+      "description": "古いIntel Macモデルでのメタデータエクスポートを修正しました。"
+    }
+  ],
+  "patches": []
+}
