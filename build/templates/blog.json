@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Blog",
+  "@id": "{{ canonical_url }}",
+  "url": "{{ canonical_url }}",
+  "name": "{{ page_title }}",
+  "description": "{{ page_description }}",
+  "inLanguage": "{{ lang }}",
+  "publisher": {
+    "@id": "https://withframes.com/#organization"
+  },
+  "blogPost": [
+    {% for entry in entries %}
+    {
+      "@type": "BlogPosting",
+      "@id": "https://withframes.com{% if lang != 'en' %}/{{ lang }}{% endif %}/changelog/{{ entry.url_slug }}/",
+      "headline": "{{ entry.title }}",
+      "datePublished": "{{ entry.release_date }}",
+      "dateModified": "{{ build_date }}",
+      "author": {
+        "@type": "Person",
+        "name": "Vincent Tantardini"
+      }
+    }{% if not loop.last %},{% endif %}
+    {% endfor %}
+  ]
+}

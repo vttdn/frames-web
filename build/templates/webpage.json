@@ -1,0 +1,12 @@
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "@id": "{{ canonical_url }}",
+  "url": "{{ canonical_url }}",
+  "name": "{{ seo_meta_title }}",
+  "description": "{{ seo_meta_description }}",
+  "inLanguage": "{{ lang }}",
+  "publisher": {
+    "@id": "https://withframes.com/#organization"
+  }
+}

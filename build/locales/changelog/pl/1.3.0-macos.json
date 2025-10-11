@@ -1,0 +1,37 @@
+{
+  "version": "1.3.0",
+  "version_short": "1.3",
+  "url_slug": "1-3-macos",
+  "platform": "macos",
+  "release_date": "2025-09-01T10:00:00.000Z",
+  "title": "Obsługa plików Raw DNG",
+  "meta_title": "Obsługa plików Raw DNG · Frames",
+  "meta_description": "Importuj pliki raw DNG i osadzaj metadane bezpośrednio w obrazach raw. Kompletny przepływ pracy fotografii analogowej z obsługą JPEG, TIFF i DNG.",
+  "summary": "Możesz teraz importować pliki DNG wraz z JPEG i TIFF oraz reintegrować metadane bezpośrednio w swoich obrazach raw dla kompletnego przepływu pracy fotografii analogowej.",
+  "sections": [
+    {
+      "type": "paragraph",
+      "content": "Obsługa obrazów raw trafia do Frames dla macOS. Importuj pliki DNG wraz z istniejącymi przepływami pracy JPEG i TIFF i osadzaj metadane filmowe bezpośrednio w plikach raw. To zapewnia, że Twoje ustawienia ekspozycji, dane aparatu, filmy i notatki podróżują z Twoimi obrazami raw przez obróbkę i archiwizację. Naprawiliśmy również problem, w którym dodatkowe notatki do klatki nie były zachowywane podczas reintegracji metadanych."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-mac-1.3.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-mac-1.3.0-1@2x.png",
+      "alt": "Aplikacja Frames macOS z osadzaniem metadanych plików raw DNG do skanów fotografii analogowej",
+      "width": "400",
+      "height": "300"
+    }
+  ],
+  "improvements": [
+    "Dodano obsługę plików raw DNG",
+    "Pełna reintegracja metadanych dla obrazów raw",
+    "Pliki DNG działają bezproblemowo wraz z JPEG i TIFF"
+  ],
+  "fixes": [
+    {
+      "title": "Zachowywanie notatek klatki",
+      "description": "Naprawiono problem, w którym dodatkowe notatki do klatki nie były zachowywane podczas reintegracji metadanych."
+    }
+  ],
+  "patches": []
+}

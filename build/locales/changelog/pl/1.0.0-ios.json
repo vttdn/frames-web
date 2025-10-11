@@ -1,0 +1,151 @@
+{
+  "version": "1.0.0",
+  "version_short": "1.0",
+  "url_slug": "1-0-ios",
+  "platform": "ios",
+  "release_date": "2025-04-01T03:02:00.000Z",
+  "title": "Premiera Frames: Twój notatnik do fotografii analogowej",
+  "meta_title": "Premiera Frames: Twój notatnik do fotografii analogowej · Frames",
+  "meta_description": "Kompleksowa aplikacja iOS do rejestrowania metadanych fotografii kliszowej w terenie. Śledź ekspozycję, aparat, obiektyw, film i lokalizację każdej klatki.",
+  "summary": "Frames startuje jako kompletna przebudowa Datafilm, oferując zaawansowaną aplikację iOS do rejestrowania metadanych fotografii klisz w terenie, wraz z nową aplikacją macOS do osadzania tych danych w zeskanowanych obrazach.",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Rejestruj i organizuj swoje filmy"
+    },
+    {
+      "type": "paragraph",
+      "content": "Frames to Twój cyfrowy notatnik do fotografii analogowej, zaprojektowany do śledzenia ustawień ekspozycji i bezproblemowej integracji metadanych w zeskanowanych obrazach. Rejestruj każdy istotny szczegół dla każdej klatki: ogniskową, czas naświetlania, korekcję ekspozycji, przysłonę, ustawienia lampy błyskowej, aparat, obiektyw, film, datę, godzinę i geolokalizację."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.0.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.0.0-1@2x.png",
+      "alt": "Aplikacja Frames do fotografii kliszowej z interfejsem do rejestracji metadanych aparatu analogowego",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "list",
+      "items": [
+        {
+          "title": "Kompletne rejestrowanie metadanych",
+          "description": "Śledź numer klatki, ogniskową, czas naświetlania, korekcję ekspozycji, przysłonę, ustawienia lampy błyskowej, aparat, obiektyw, film, datę, godzinę i lokalizację."
+        },
+        {
+          "title": "Zdjęcia referencyjne",
+          "description": "Dołączaj zdjęcia referencyjne do każdej klatki, aby szybko dopasować skany wizualnie."
+        },
+        {
+          "title": "Interaktywna mapa",
+          "description": "Zobacz swoje ujęcia na interaktywnej mapie, by prześledzić miejsca wykonania każdej klatki."
+        },
+        {
+          "title": "Organizacja folderów",
+          "description": "Organizuj swoją bibliotekę filmów za pomocą folderów i zaawansowanych narzędzi wyszukiwania, aby natychmiast znaleźć każdą klatkę."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Eksportuj i synchronizuj swoje dane"
+    },
+    {
+      "type": "paragraph",
+      "content": "Aplikacja towarzysząca na macOS realizuje najbardziej oczekiwaną funkcję społeczności fotografii kliszowej: reintegrację metadanych w zeskanowane pliki JPEG. Eksportuj swoje metadane jako pliki JSON (.frames), udostępniaj zapisy między urządzeniami Apple i używaj aplikacji macOS do osadzania danych EXIF, które działają bezproblemowo z Lightroom, Capture One i Apple Photos."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Zoptymalizowane dla fotografii analogowej"
+    },
+    {
+      "type": "list",
+      "items": [
+        {
+          "title": "Adaptacyjne sterowanie",
+          "description": "Kontrolki dostosowują się do charakterystyki Twojego sprzętu dla szybszego rejestrowania."
+        },
+        {
+          "title": "Inteligentne autouzupełnianie",
+          "description": "Inteligentne autouzupełnianie dla obiektywu, aparatu, filmu i ISO oszczędza czas w terenie."
+        },
+        {
+          "title": "Ponad 200 filmów",
+          "description": "Wstępnie załadowany wybór popularnych filmów od głównych producentów."
+        },
+        {
+          "title": "Natywny design Apple",
+          "description": "Zgodny z wytycznymi Apple Human Interface Guidelines dla płynnego, intuicyjnego doświadczenia."
+        },
+        {
+          "title": "Zoptymalizowana wydajność",
+          "description": "Działa płynnie nawet na starszych modelach iPhone."
+        }
+      ]
+    }
+  ],
+  "improvements": [
+    "Kompletna przebudowa od podstaw z udoskonaloną architekturą",
+    "Rejestruj kompleksowe metadane klatki: ekspozycję, aparat, obiektyw, film, lokalizację",
+    "Automatyczne znaczniki czasu dla każdej klatki",
+    "Dołączanie zdjęć referencyjnych do dopasowania skanów",
+    "Organizacja folderów dla bibliotek filmowych",
+    "Zaawansowane wyszukiwanie we wszystkich zarejestrowanych klatkach",
+    "Interaktywny widok mapy pokazujący miejsca zdjęć",
+    "Dostępna w 7 językach",
+    "Aplikacja towarzysząca macOS do osadzania metadanych EXIF",
+    "Pełna kompatybilność z Lightroom, Capture One i Apple Photos",
+    "Projektowanie stawiające na prywatność bez kont i zależności od chmury",
+    "Ulepszone narzędzia w pasku",
+    "Obsługa wielu języków: polski, francuski, niemiecki, hiszpański, włoski, niderlandzki, portugalski i szwedzki"
+  ],
+  "fixes": [
+    "Naprawiono: ekran zamrażał się podczas dodawania nowego aparatu lub obiektywu na niektórych urządzeniach",
+    "Poprawiono adres URL recenzji aplikacji"
+  ],
+  "patches": [
+    {
+      "version": "1.0.1",
+      "date": "2025-04-04",
+      "description": "Drobne ulepszenia i poprawki"
+    },
+    {
+      "version": "1.0.2",
+      "date": "2025-04-13",
+      "description": "Drobne poprawki i ulepszone tłumaczenia"
+    },
+    {
+      "version": "1.0.3",
+      "date": "2025-04-15",
+      "description": "Ulepszona lokalizacja"
+    },
+    {
+      "version": "1.0.4",
+      "date": "2025-04-19",
+      "description": "Ulepszony interfejs i nowe języki"
+    },
+    {
+      "version": "1.0.5",
+      "date": "2025-04-21",
+      "description": "Dodano nowe języki"
+    },
+    {
+      "version": "1.0.6",
+      "date": "2025-04-23",
+      "description": "Naprawiono: ekran zamrażał się podczas dodawania nowego aparatu lub obiektywu"
+    },
+    {
+      "version": "1.0.7",
+      "date": "2025-04-28",
+      "description": "Poprawiono adres URL recenzji"
+    },
+    {
+      "version": "1.0.8",
+      "date": "2025-05-20",
+      "description": "Kompatybilność z iOS 18.0 i nowszymi"
+    }
+  ]
+}

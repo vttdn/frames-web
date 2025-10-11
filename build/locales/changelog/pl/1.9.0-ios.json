@@ -1,0 +1,52 @@
+{
+  "version": "1.9.0",
+  "version_short": "1.9",
+  "url_slug": "1-9-ios",
+  "platform": "ios",
+  "release_date": "2025-09-18T10:00:00.000Z",
+  "title": "Podfoldery, przesuwanie do przenoszenia i usprawnienia eksportu TXT",
+  "summary": "Organizuj swoją bibliotekę filmów zagnieżdżonymi podfolderami do 5 poziomów głębokości. Ta aktualizacja przynosi również łatwiejsze zarządzanie filmami gestami przesuwania i ulepszone formatowanie eksportu TXT dla lepszej dokumentacji.",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Zagnieżdżona organizacja folderów dla użytkowników Pro"
+    },
+    {
+      "type": "paragraph",
+      "content": "Użytkownicy Pro mogą teraz tworzyć podfoldery do 5 poziomów głębokości, umożliwiając szczegółową organizację archiwów filmowych. Strukturyzuj swoją bibliotekę według roku, projektu, typu filmu lub dowolnej hierarchii pasującej do Twojego przepływu pracy. To ułatwia lokalizowanie konkretnych zdjęć w obszernych kolekcjach filmowych i utrzymuje powiązane filmy zgrupowane logicznie razem."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/{{ lang }}/changelog/frames-1.9.0-1.png",
+      "image_2x": "/lib/img/{{ lang }}/changelog/frames-1.9.0-1@2x.png",
+      "alt": "Aplikacja Frames do fotografii kliszowej z zagnieżdżoną organizacją folderów dla archiwów filmowych",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Ulepszone zarządzanie filmami"
+    },
+    {
+      "type": "paragraph",
+      "content": "Gesty przesuwania teraz zawierają przycisk Przenieś, ułatwiając przenoszenie filmów i folderów. Naprawiliśmy również problem, w którym eksporty TXT pomijały rok, gdy zgadzał się z bieżącym rokiem, zapewniając kompletne informacje o dacie we wszystkich eksportach."
+    }
+  ],
+  "improvements": [
+    "Dodano obsługę podfolderów do 5 poziomów głębokości dla użytkowników Pro",
+    "Gesty przesuwania teraz zawierają przycisk Przenieś dla filmów i folderów",
+    "Ulepszona nawigacja folderów z obsługą ścieżki nawigacyjnej",
+    "Poprawiona spójność lokalizacji w wielu językach"
+  ],
+  "fixes": [
+    {
+      "title": "Wyświetlanie roku w eksporcie TXT",
+      "description": "Naprawiono problem, w którym eksporty TXT pomijały rok, gdy zgadzał się z bieżącym rokiem. Rok jest teraz zawsze uwzględniany dla kompletnych informacji o dacie."
+    }
+  ],
+  "patches": [],
+  "meta_title": "Podfoldery, przesuwanie do przenoszenia i usprawnienia eksportu TXT · Frames",
+  "meta_description": "Organizuj swoją bibliotekę filmów zagnieżdżonymi podfolderami do 5 poziomów głębokości."
+}

@@ -1,0 +1,72 @@
+{
+  "version": "1.4.0",
+  "version_short": "1.4",
+  "url_slug": "1-4-macos",
+  "platform": "macos",
+  "release_date": "2025-09-18T10:00:00.000Z",
+  "title": "Atalhos de Teclado, Inspetor Nativo e Desempenho",
+  "meta_title": "Atalhos de Teclado, Inspetor Nativo e Desempenho · Frames",
+  "meta_description": "Navegue fotogramas com atalhos de teclado. Inspetor nativo do macOS para interface mais polida. Reintegração de metadados mais rápida e responsiva.",
+  "summary": "Interface aprimorada do macOS com navegação por teclado, painel de inspetor nativo, design mais limpo e desempenho otimizado para reintegração de metadados mais rápida e responsiva.",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Navegação por Teclado e Controles Nativos"
+    },
+    {
+      "type": "paragraph",
+      "content": "Navegue pelos fotogramas rapidamente com as setas do teclado, exclua fotos anexadas com Backspace e pressione Enter para selecionar fotos. A barra lateral personalizada foi substituída por um painel de inspetor nativo do macOS para uma experiência mais polida e integrada ao sistema que segue a linguagem de design da Apple."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-mac-1.4.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-mac-1.4.0-1@2x.png",
+      "alt": "Aplicativo macOS Frames com atalhos de teclado e inspetor nativo para fluxo de trabalho de metadados de filme",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Interface Refinada e Desempenho"
+    },
+    {
+      "type": "paragraph",
+      "content": "Artefatos visuais foram removidos em toda a interface para uma aparência mais limpa e profissional. A arquitetura do código foi otimizada para melhor capacidade de resposta e estabilidade do aplicativo, tornando os fluxos de trabalho de reintegração de metadados mais rápidos e confiáveis."
+    }
+  ],
+  "improvements": [
+    "Adicionada navegação por teclado com setas para navegar pelos fotogramas",
+    "Adicionado atalho Backspace para excluir fotos anexadas",
+    "Adicionado atalho Enter para selecionar fotos",
+    "Substituída barra lateral personalizada por painel de inspetor nativo do macOS",
+    "Removidos artefatos visuais para interface mais limpa",
+    "Arquitetura de código otimizada para melhor desempenho",
+    "Capacidade de resposta do aplicativo aprimorada",
+    "Estabilidade geral aprimorada"
+  ],
+  "fixes": [],
+  "patches": [
+    {
+      "version": "1.3.5",
+      "description": "Ícone do aplicativo atualizado para macOS 26."
+    },
+    {
+      "version": "1.3.4",
+      "description": "A reintegração de metadados para JPEG e TIFF agora preserva dados existentes. Apenas informações registradas pelo Frames são adicionadas."
+    },
+    {
+      "version": "1.3.3",
+      "description": "Adicionada reintegração de abertura máxima e mínima nos metadados EXIF. Adicionado suporte a especificações de lentes."
+    },
+    {
+      "version": "1.3.2",
+      "description": "Pequenas correções de bugs e melhorias de desempenho."
+    },
+    {
+      "version": "1.3.1",
+      "description": "Adicionado suporte para novas velocidades do obturador do iOS. O aplicativo agora prioriza classificação ISO personalizada sobre velocidade padrão da caixa."
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "version": "1.13.0",
+  "version_short": "1.13",
+  "url_slug": "1-13-ios",
+  "platform": "ios",
+  "release_date": "2025-10-06T10:00:00.000Z",
+  "title": "Support linguistique pour l'hébreu, l'arabe, le roumain et l'ukrainien",
+  "summary": "Frames poursuit sa mission d'accompagner les photographes argentiques du monde entier avec cette mise à jour majeure de localisation. L'application intègre désormais le support natif de l'hébreu, de l'arabe, du roumain et de l'ukrainien, avec des traductions affinées et des améliorations d'interface dans toute l'application.",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Quatre nouvelles langues avec support bidirectionnel"
+    },
+    {
+      "type": "paragraph",
+      "content": "Frames prend désormais en charge l'hébreu, l'arabe, le roumain et l'ukrainien. Chaque langue a été soigneusement localisée pour respecter les nuances culturelles et la terminologie photographique. L'hébreu et l'arabe incluent une adaptation complète de l'interface de droite à gauche. Les flux de navigation, le positionnement des boutons et l'alignement du texte sont tous inversés de manière appropriée, tout en préservant les termes techniques tels que les codes de pellicules et les valeurs d'ouverture dans leur format international standard."
+    },
+    {
+      "type": "list",
+      "items": [
+        {
+          "title": "Hébreu (עברית) et arabe (العربية)",
+          "description": "Interface RTL complète avec terminologie native pour les pellicules, les réglages d'appareil et les métadonnées EXIF."
+        },
+        {
+          "title": "Roumain (Română) et ukrainien (Українська)",
+          "description": "Traductions complètes permettant aux photographes de documenter leur travail dans leur langue maternelle."
+        }
+      ]
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.13.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.13.0-1@2x.png",
+      "alt": "Application Frames avec interface RTL hébreu et arabe et support linguistique",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Améliorations des traductions dans toutes les langues"
+    },
+    {
+      "type": "paragraph",
+      "content": "Au-delà des nouvelles langues, nous avons affiné les traductions existantes dans toute l'application en nous basant sur les retours des photographes. Les noms des pellicules restent dans leur langue d'origine (Kodak Portra, Ilford HP5), tandis que les éléments d'interface s'adaptent à la langue choisie. Les préférences linguistiques se synchronisent entre vos appareils, et toutes vos données existantes s'affichent automatiquement dans la langue sélectionnée sans ressaisie ni migration."
+    }
+  ],
+  "improvements": [
+    "Ajout de la localisation complète en hébreu (עברית) avec support d'interface de droite à gauche",
+    "Ajout de la localisation complète en arabe (العربية) avec adaptation de la mise en page RTL",
+    "Ajout de la traduction roumaine (Română) pour la communauté de photographes argentiques",
+    "Ajout du support ukrainien (Українська) avec terminologie native",
+    "Affinement des traductions existantes dans toutes les langues supportées pour améliorer la clarté et la cohérence",
+    "Amélioration de la précision de la terminologie technique dans les champs spécifiques à la photographie",
+    "Amélioration du support de texte bidirectionnel pour le contenu mixte latin et RTL"
+  ],
+  "fixes": [
+    {
+      "title": "Débordement de texte dans les traductions",
+      "description": "Résolution des problèmes de mise en page où les phrases traduites plus longues pouvaient être tronquées dans certains éléments d'interface."
+    },
+    {
+      "title": "Cohérence de la mise en page RTL",
+      "description": "Correction de problèmes mineurs d'alignement dans les langues de droite à gauche pour assurer un effet miroir approprié sur tous les écrans."
+    }
+  ],
+  "patches": [
+    {
+      "version": "1.13.1",
+      "description": "Correction d'un bug qui pouvait provoquer un clignotement répété du menu de partage lors de l'exportation"
+    }
+  ],
+  "meta_title": "Support linguistique pour l'hébreu, l'arabe, le roumain et l'ukrainien · Frames",
+  "meta_description": "Frames poursuit sa mission d'accompagner les photographes argentiques du monde entier avec cette mise à jour majeure de localisation."
+}

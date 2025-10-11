@@ -1,0 +1,52 @@
+{
+  "version": "1.9.0",
+  "version_short": "1.9",
+  "url_slug": "1-9-ios",
+  "platform": "ios",
+  "release_date": "2025-09-18T10:00:00.000Z",
+  "title": "Subcarpetas, deslizar para mover y mejoras de exportación TXT",
+  "summary": "Organiza tu biblioteca de películas con subcarpetas anidadas hasta 5 niveles de profundidad. Esta actualización también trae gestión de rollos más fácil con gestos de deslizamiento y formato de exportación TXT mejorado para mejor documentación.",
+  "meta_title": "Subcarpetas, deslizar para mover y mejoras de exportación TXT · Frames",
+  "meta_description": "Organiza tu biblioteca con subcarpetas anidadas hasta 5 niveles. Gestos de deslizamiento mejorados y formato de exportación TXT perfeccionado para Pro.",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Organización de carpetas anidadas para usuarios Pro"
+    },
+    {
+      "type": "paragraph",
+      "content": "Los usuarios Pro ahora pueden crear subcarpetas hasta 5 niveles de profundidad, permitiendo una organización detallada de archivos de película. Estructura tu biblioteca por año, proyecto, tipo de película o cualquier jerarquía que se adapte a tu flujo de trabajo. Esto facilita localizar disparos específicos dentro de colecciones extensas de película y mantiene rollos relacionados agrupados lógicamente."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/{{ lang }}/changelog/frames-1.9.0-1.png",
+      "image_2x": "/lib/img/{{ lang }}/changelog/frames-1.9.0-1@2x.png",
+      "alt": "Aplicación de fotografía analógica Frames mostrando organización de carpetas anidadas para archivos de rollo",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Gestión mejorada de rollos"
+    },
+    {
+      "type": "paragraph",
+      "content": "Los gestos de deslizamiento ahora incluyen un botón Mover, haciendo más rápido reubicar rollos y carpetas. También hemos corregido un problema donde las exportaciones TXT omitían el año cuando coincidía con el año actual, asegurando información de fecha completa en todas las exportaciones."
+    }
+  ],
+  "improvements": [
+    "Soporte de subcarpetas hasta 5 niveles de profundidad añadido para usuarios Pro",
+    "Gestos de deslizamiento ahora incluyen botón Mover para rollos y carpetas",
+    "Navegación de carpetas mejorada con soporte de ruta de navegación",
+    "Consistencia de localización mejorada en múltiples idiomas"
+  ],
+  "fixes": [
+    {
+      "title": "Visualización de año en exportación TXT",
+      "description": "Corregido un problema donde las exportaciones TXT omitían el año cuando coincidía con el año actual. El año ahora siempre se incluye para información de fecha completa."
+    }
+  ],
+  "patches": []
+}

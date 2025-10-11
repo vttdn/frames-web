@@ -1,0 +1,43 @@
+{
+  "version": "1.4.0",
+  "version_short": "1.4",
+  "url_slug": "1-4-ios",
+  "platform": "ios",
+  "release_date": "2025-08-20T10:00:00.000Z",
+  "title": "Supporto Registrazione Filtri",
+  "summary": "Documenta il tuo flusso di lavoro analogico completo registrando i filtri insieme a fotocamera, obiettivo e pellicola. Ora puoi registrare filtri UV, ND, CPL e altri utilizzati per ogni scatto.",
+  "sections": [
+    {
+      "type": "paragraph",
+      "content": "I filtri fanno ora parte del tuo flusso di lavoro di registrazione pellicole. Registra quali filtri hai usato per ogni fotogramma, inclusi UV, ND, CPL e altri. Questo completa la tua documentazione analogica catturando ogni elemento che influenza la tua immagine finale, dal corpo macchina e obiettivo alla pellicola e ai filtri. I dati dei filtri sono inclusi in tutte le esportazioni e si sincronizzano con l'app Mac per una registrazione completa."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/{{ lang }}/changelog/frames-1.4.0-1.png",
+      "image_2x": "/lib/img/{{ lang }}/changelog/frames-1.4.0-1@2x.png",
+      "alt": "App Frames per fotografia analogica che mostra il supporto registrazione filtri UV, ND e CPL",
+      "width": "400",
+      "height": "300"
+    }
+  ],
+  "improvements": [
+    "Aggiunto supporto registrazione filtri (UV, ND, CPL e altri)",
+    "Filtri inclusi in tutti i formati di esportazione",
+    "I dati dei filtri si sincronizzano con l'app Mac",
+    "Piccoli miglioramenti delle prestazioni",
+    "Miglioramenti generali della stabilità"
+  ],
+  "fixes": [],
+  "patches": [
+    {
+      "version": "1.4.1",
+      "description": "Corretto un problema in cui modificare una pellicola in una sottocartella la spostava nella cartella principale."
+    },
+    {
+      "version": "1.4.2",
+      "description": "Raffinate le traduzioni per coerenza con l'app Mac. Corretta la visualizzazione del paese nella ricerca posizione. Aggiunti valori predefiniti di tempo di esposizione e apertura quando si creano rullini."
+    }
+  ],
+  "meta_title": "Supporto Registrazione Filtri · Frames",
+  "meta_description": "Documenta il tuo flusso di lavoro analogico completo registrando i filtri insieme a fotocamera, obiettivo e pellicola."
+}

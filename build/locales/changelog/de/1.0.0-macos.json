@@ -1,0 +1,78 @@
+{
+  "version": "1.0.0",
+  "version_short": "1.0",
+  "url_slug": "1-0-macos",
+  "platform": "macos",
+  "release_date": "2025-04-08T10:00:00.000Z",
+  "title": "Frames für macOS Launch",
+  "summary": "Die lang erwartete macOS-Begleit-App startet und bringt nahtlose Metadaten-Reintegration in gescannte Filmbilder. Importiere deine Film-Daten von iOS und bette EXIF-Metadaten in JPEG-Dateien ein.",
+  "meta_title": "Frames für macOS Launch · Frames",
+  "meta_description": "Bette Film-Metadaten nahtlos in gescannte Bilder ein. Vollständige EXIF-Integration für Lightroom, Capture One und Apple Fotos auf deinem Mac.",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Metadaten-Reintegration für gescannte Filme"
+    },
+    {
+      "type": "paragraph",
+      "content": "Frames für macOS löst die am häufigsten gewünschte Funktion der Filmfotografie-Community: Metadaten wieder in gescannte Bilder zu integrieren. Importiere deine .frames-Dateien von iOS, ziehe deine gescannten JPEG-Bilder hinein und die App ordnet Bilder den Fotos zu. Deine Belichtungseinstellungen, Kameradaten, Objektivinformationen, Filmtypen und Aufnahmenotizen werden als EXIF-Metadaten eingebettet, die nahtlos mit Lightroom, Capture One und Apple Fotos funktionieren."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.0.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.0.0-1@2x.png",
+      "alt": "Frames macOS-App zum Einbetten von EXIF-Metadaten in gescannte Filmfotografien",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Einfacher Workflow, professionelle Ergebnisse"
+    },
+    {
+      "type": "paragraph",
+      "content": "Der Workflow ist unkompliziert: Importiere deine .frames-Datei, füge deine gescannten Bilder hinzu, ordne Bilder den Fotos zu und exportiere. Die App übernimmt die EXIF-Einbettung automatisch und stellt sicher, dass deine Analogfotografie-Dokumentation zu permanenten digitalen Aufzeichnungen wird. Deine Film-Daten übertragen sich nahtlos von der Felderfassung auf iOS zur finalen Archivierung auf macOS."
+    }
+  ],
+  "improvements": [
+    ".frames-Dateien von iOS importieren",
+    "JPEG-Dateiunterstützung mit vollständiger Metadaten-Einbettung",
+    "Automatische Bild-zu-Foto-Zuordnung",
+    "EXIF-Metadaten-Einbettung kompatibel mit Lightroom, Capture One und Apple Fotos",
+    "Natives macOS-Design gemäß Apples Human Interface Guidelines",
+    "Verfügbar in 7 Sprachen: Englisch, Französisch, Spanisch, Italienisch, Portugiesisch, Deutsch und Niederländisch"
+  ],
+  "fixes": [],
+  "patches": [
+    {
+      "version": "1.0.1",
+      "description": "Französische Sprachunterstützung hinzugefügt."
+    },
+    {
+      "version": "1.0.2",
+      "description": "Auf 7 Sprachen erweitert: Englisch, Französisch, Spanisch, Italienisch, Portugiesisch, Deutsch und Niederländisch."
+    },
+    {
+      "version": "1.0.3",
+      "description": "Verbesserte Sprachunterstützung."
+    },
+    {
+      "version": "1.0.4",
+      "description": "Jetzt kompatibel mit macOS 15.0 und später."
+    },
+    {
+      "version": "1.0.5",
+      "description": "Exportierte Fotos behalten jetzt ihre Original-Dateinamen."
+    },
+    {
+      "version": "1.0.6",
+      "description": "App-Icon überarbeitet."
+    },
+    {
+      "version": "1.0.7",
+      "description": "Kleinere Verfeinerung am App-Logo."
+    }
+  ]
+}

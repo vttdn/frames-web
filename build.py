@@ -3,8 +3,8 @@ from pathlib import Path
 import re
 
 ROOT = Path(__file__).parent.resolve()
-TEMPLATES_DIR = ROOT / "library" / "templates"
-LOCALES_DIR = ROOT / "library" / "locales"
+TEMPLATES_DIR = ROOT / "build" / "templates"
+LOCALES_DIR = ROOT / "build" / "locales"
 
 def render_template(template: str, context: dict) -> str:
     result = template

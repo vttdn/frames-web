@@ -168,17 +168,6 @@
           }
         },
         {
-          "@type": "WebPage",
-          "@id": "https://withframes.com/eses/",
-          "url": "https://withframes.com/eses/",
-          "name": "Frames – App Fotografía Analógica para Notas & Metadatos",
-          "description": "Frames es una app fotografía analógica. Registra cada foto, guarda ajustes, organiza carretes y conserva metadatos EXIF en iPhone & Mac.",
-          "inLanguage": "es",
-          "publisher": {
-            "@id": "https://withframes.com/#organization"
-          }
-        },
-        {
           "@type": "VideoObject",
           "name": "App Fotografía Analógica para Registrar & Seguir tus Carretes (Frames para iPhone)",
           "description": "Descubre Frames, la app de fotografía analógica dedicada diseñada para fotógrafos analógicos. Frames hace que gestionar tu fotografía analógica sea sencillo, ayudándote a registrar no solo tus tomas sino también la historia detrás de cada carrete y fotograma. Ya trabajes con película 35mm, formato medio o gran formato, Frames mantiene tu flujo de trabajo organizado y garantiza que tus metadatos fotográficos permanezcan con tus imágenes, incluso después de escanearlas.",
@@ -190,34 +179,6 @@
           "publisher": {
             "@id": "https://withframes.com/#organization"
           }
-        },
-        {
-          "@type": "Organization",
-          "@id": "https://withframes.com/#organization",
-          "name": "Frames",
-          "url": "https://withframes.com/",
-          "logo": "https://withframes.com/apple-touch-icon.png",
-          "contactPoint": {
-            "@type": "ContactPoint",
-            "email": "bonjour@withframes.com",
-            "contactType": "Customer Support",
-            "areaServed": "Worldwide",
-            "availableLanguage": ["English", "French"]
-          },
-          "sameAs": [
-            "https://twitter.com/withframes",
-            "https://www.facebook.com/framesapp",
-            "https://www.instagram.com/with_frames/",
-            "https://linkedin.com/company/withframes/",
-            "https://pinterest.com/framesapp/",
-            "https://mastodon.social/@frames",
-            "https://bsky.app/profile/withframes.bsky.social",
-            "https://www.tiktok.com/@with_frames",
-            "https://www.youtube.com/@withframes",
-            "https://g.co/kgs/5oEvXT5",
-            "https://apps.apple.com/es/app/frames-notas-analógicas/id6744057317",
-            "https://apps.apple.com/es/app/frames-metadatos-foto/id6744063354"
-          ]
         }
       ]
     }

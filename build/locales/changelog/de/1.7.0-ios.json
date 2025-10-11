@@ -1,0 +1,65 @@
+{
+  "version": "1.7.0",
+  "version_short": "1.7",
+  "url_slug": "1-7-ios",
+  "platform": "ios",
+  "release_date": "2025-09-10T10:00:00.000Z",
+  "title": "Volle Barrierefreiheit & Aufnahme-Verbesserungen",
+  "summary": "Dieses Update bringt umfassende Apple-Barrierefreiheit zusammen mit Verbesserungen am Aufnahme-Workflow und Metadaten-Handling, wodurch Frames für alle Filmfotografen zugänglicher und effizienter wird.",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Apple-Barrierefreiheitsfunktionen"
+    },
+    {
+      "type": "paragraph",
+      "content": "Frames unterstützt jetzt wichtige Apple-Barrierefreiheitsfunktionen einschließlich größerem Text, dunklem Interface, Unterscheidung ohne alleinige Farbe, ausreichendem Kontrast und reduzierter Bewegung. Diese Funktionen stellen sicher, dass die App für Fotografen mit unterschiedlichen visuellen Bedürfnissen und Vorlieben nutzbar ist und volle Funktionalität unabhängig von Barrierefreiheitseinstellungen beibehält."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.7.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.7.0-1@2x.png",
+      "alt": "Frames Filmfotografie-App-Oberfläche mit Barrierefreiheitsfunktionen und großem Text",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Workflow- und Metadaten-Verbesserungen"
+    },
+    {
+      "type": "paragraph",
+      "content": "Die App springt jetzt direkt in deinen neuen Film, sobald er erstellt ist, was deinen Workflow optimiert. Beschriftungen in der gesamten App wurden für bessere Lesbarkeit verfeinert. Benutzerdefinierte Sequenzen füllen jetzt automatisch Min/Max-Blendenwerte aus, was besonders für die Metadaten-Reintegration auf dem Mac nützlich ist. Wir haben auch Bewegungsprobleme im Recorder beim Erfassen von Aufnahmen mit geöffnetem Schieberegler behoben und Wertinitialisierungs-Probleme in der vollständigen Recorder-Ansicht korrigiert."
+    }
+  ],
+  "improvements": [
+    "Unterstützung für Apples Größeren Text-Barrierefreiheitsfunktion hinzugefügt",
+    "Unterstützung für dunkles Interface-Erscheinungsbild hinzugefügt",
+    "Unterstützung für Unterscheidung ohne alleinige Farbe hinzugefügt",
+    "Unterstützung für ausreichenden Kontrast hinzugefügt",
+    "Unterstützung für reduzierte Bewegung hinzugefügt",
+    "Springe direkt in neue Filme nach Erstellung für schnelleren Workflow",
+    "Verbesserte Beschriftungsklarheit in der gesamten App",
+    "Automatisches Ausfüllen von Min/Max-Blende bei benutzerdefinierten Sequenzen"
+  ],
+  "fixes": [
+    {
+      "title": "Recorder-Bewegungsproblem",
+      "description": "Bewegungsproblem im Recorder behoben, wenn eine Aufnahme mit geöffnetem Schieberegler erfasst wird."
+    },
+    {
+      "title": "Recorder-Wertinitialisierung",
+      "description": "Problem behoben, bei dem Werte beim Öffnen des Recorders in vollständiger Ansicht nicht korrekt initialisiert wurden."
+    }
+  ],
+  "patches": [
+    {
+      "version": "1.7.1",
+      "description": "Objektivanzeige korrigiert, die redundante Blendeninfo in Auswahllisten zeigte. Behoben, dass Bilder bearbeitet werden konnten, wenn Bearbeitung deaktiviert war."
+    }
+  ],
+  "meta_title": "Volle Barrierefreiheit & Aufnahme-Verbesserungen · Frames",
+  "meta_description": "Dieses Update bringt umfassende Apple-Barrierefreiheit zusammen mit Verbesserungen am Aufnahme-Workflow und Metadaten-Handling, wodurch Frames für alle..."
+}

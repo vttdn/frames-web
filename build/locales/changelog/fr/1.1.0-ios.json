@@ -1,0 +1,108 @@
+{
+  "version": "1.1.0",
+  "version_short": "1.1",
+  "url_slug": "1-1-ios",
+  "platform": "ios",
+  "release_date": "2025-06-03T05:52:00.000Z",
+  "title": "Découvrez Frames Pro",
+  "meta_title": "Découvrez Frames Pro · Frames",
+  "meta_description": "Passez à Frames Pro pour un nombre illimité de pellicules et l'accès aux fonctionnalités avancées. La version gratuite conserve l'accès à 10 pellicules avec toutes les fonctionnalités essentielles.",
+  "summary": "Frames Pro est désormais disponible, offrant un nombre illimité de pellicules et l'accès aux fonctionnalités avancées au fil de leur sortie. Les utilisateurs gratuits peuvent continuer à utiliser Frames avec jusqu'à 10 pellicules, tandis que Pro libère tout le potentiel de votre flux de travail photographique argentique.",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Pellicules illimitées pour vos archives"
+    },
+    {
+      "type": "paragraph",
+      "content": "Avec Frames Pro, créez autant de pellicules que vous le souhaitez pour documenter l'intégralité de votre collection photographique argentique sans contrainte. Que vous archiviez des centaines de pellicules accumulées au fil des années ou que vous gériez activement des dizaines de projets en cours, Frames Pro s'adapte à vos besoins. Les utilisateurs gratuits conservent un accès complet à toutes les fonctionnalités essentielles avec une limite de 10 pellicules, rendant Frames accessible à tous tout en soutenant ceux qui souhaitent aller plus loin."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.1.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.1.0-1@2x.png",
+      "alt": "Abonnement Frames Pro offrant un nombre illimité de pellicules pour l'archivage photographique argentique",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "paragraph",
+      "content": "Cette version inclut également des optimisations de performance dans toute l'application, des éléments de design affinés pour plus de clarté, et une stabilité renforcée lors de la gestion de bibliothèques volumineuses. La nouvelle icône et l'écran de démarrage reflètent l'évolution de Frames en tant qu'outil professionnel pour les photographes argentiques."
+    },
+    {
+      "type": "list",
+      "items": [
+        {
+          "title": "Abonnement Frames Pro",
+          "description": "Débloquez un nombre illimité de pellicules et accédez en avant-première aux fonctionnalités avancées."
+        },
+        {
+          "title": "Version gratuite préservée",
+          "description": "Continuez d'utiliser toutes les fonctionnalités essentielles avec jusqu'à 10 pellicules gratuitement."
+        },
+        {
+          "title": "Optimisations de performance",
+          "description": "Réactivité et stabilité améliorées dans toute l'application."
+        },
+        {
+          "title": "Design affiné",
+          "description": "Nouvelle icône, écran de démarrage et éléments d'interface pour une expérience soignée."
+        },
+        {
+          "title": "Correction de l'export",
+          "description": "Résolution d'un problème empêchant la régénération des fichiers d'export après modification."
+        }
+      ]
+    }
+  ],
+  "improvements": [
+    "Lancement de l'abonnement Frames Pro avec pellicules illimitées",
+    "Performance et réactivité générales améliorées",
+    "Design de l'interface utilisateur affiné",
+    "Nouvelle icône d'application avec identité visuelle raffinée",
+    "Écran de démarrage repensé pour une meilleure première impression",
+    "Utilisation de mémoire optimisée pour les bibliothèques volumineuses",
+    "Stabilité renforcée lors de l'ajout d'appareils et objectifs"
+  ],
+  "fixes": [
+    "Correction du bug empêchant la régénération des fichiers d'export après modification"
+  ],
+  "patches": [
+    {
+      "version": "1.1.1",
+      "date": "2025-06-11",
+      "description": "Ajustement mineur de l'icône d'application"
+    },
+    {
+      "version": "1.1.2",
+      "date": "2025-06-15",
+      "description": "Améliorations mineures de performance"
+    },
+    {
+      "version": "1.1.3",
+      "date": "2025-06-17",
+      "description": "Nouvelle icône d'application"
+    },
+    {
+      "version": "1.1.4",
+      "date": "2025-06-18",
+      "description": "Refonte de l'icône d'application"
+    },
+    {
+      "version": "1.1.5",
+      "date": "2025-06-20",
+      "description": "Mise à jour de l'écran de démarrage"
+    },
+    {
+      "version": "1.1.6",
+      "date": "2025-06-20",
+      "description": "Correction d'un bug empêchant la régénération correcte du fichier d'export après modifications"
+    },
+    {
+      "version": "1.1.7",
+      "date": "2025-07-12",
+      "description": "Stabilité améliorée lors de l'ajout d'équipement sur iOS 26 Beta"
+    }
+  ]
+}

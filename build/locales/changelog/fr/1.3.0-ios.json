@@ -1,0 +1,33 @@
+{
+  "version": "1.3.0",
+  "version_short": "1.3",
+  "url_slug": "1-3-ios",
+  "platform": "ios",
+  "release_date": "2025-07-18T10:00:00.000Z",
+  "title": "Export GPX et génération de fichiers plus rapide",
+  "summary": "Les utilisateurs Pro peuvent désormais exporter les pellicules sous forme de fichiers GPX pour le suivi de localisation. Cette mise à jour apporte également des améliorations de performance pour des exports de fichiers plus rapides et fiables dans tous les formats.",
+  "meta_title": "Export GPX et génération de fichiers plus rapide · Frames",
+  "meta_description": "Exportez vos localisations de prises de vue en GPX et profitez d'une génération de fichiers significativement plus rapide pour tous vos formats d'export.",
+  "sections": [
+    {
+      "type": "paragraph",
+      "content": "Exportez les localisations de vos pellicules sous forme de fichiers GPX pour visualiser les lieux de prise de vue dans des applications de cartographie ou importer dans un logiciel de gestion de photos. Chaque vue avec données de localisation devient un point de passage dans la trace GPX. Les performances d'export de fichiers ont été améliorées dans tous les formats, rendant plus rapide la génération de fichiers .FRAMES, TXT et GPX même pour les pellicules avec de nombreuses vues."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/{{ lang }}/changelog/frames-1.3.0-1.png",
+      "image_2x": "/lib/img/{{ lang }}/changelog/frames-1.3.0-1@2x.png",
+      "alt": "Application Frames photo argentique avec export localisation GPX et génération fichiers",
+      "width": "400",
+      "height": "300"
+    }
+  ],
+  "improvements": [
+    "Ajout de l'export de fichiers GPX pour les utilisateurs Pro",
+    "Génération d'export de fichiers significativement plus rapide",
+    "Fiabilité d'export améliorée pour les grandes pellicules",
+    "Utilisation de mémoire optimisée pendant les opérations d'export"
+  ],
+  "fixes": [],
+  "patches": []
+}

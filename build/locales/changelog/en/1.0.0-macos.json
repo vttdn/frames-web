@@ -1,0 +1,78 @@
+{
+  "version": "1.0.0",
+  "version_short": "1.0",
+  "url_slug": "1-0-macos",
+  "platform": "macos",
+  "release_date": "2025-04-08T10:00:00.000Z",
+  "title": "Frames for macOS Launch",
+  "meta_title": "Frames for macOS Launch · Frames",
+  "meta_description": "Embed film photography metadata into scanned images with EXIF support for Lightroom, Capture One, and Apple Photos. Seamlessly reintegrate iOS logging data.",
+  "summary": "The long-awaited macOS companion app launches, bringing seamless metadata reintegration into scanned film images. Import your film roll data from iOS and embed EXIF metadata into JPEG files.",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Metadata Reintegration for Scanned Film"
+    },
+    {
+      "type": "paragraph",
+      "content": "Frames for macOS solves the most requested feature from the film photography community: reintegrating metadata into scanned images. Import your .frames files from iOS, drag in your scanned JPEG images, and the app matches frames to photos. Your exposure settings, camera data, lens information, film stocks, and shooting notes are embedded as EXIF metadata that works seamlessly with Lightroom, Capture One, and Apple Photos."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.0.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.0.0-1@2x.png",
+      "alt": "Frames macOS app for embedding EXIF metadata into scanned film photographs",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Simple Workflow, Professional Results"
+    },
+    {
+      "type": "paragraph",
+      "content": "The workflow is straightforward: import your .frames file, add your scanned images, match frames to photos, and export. The app handles EXIF embedding automatically, ensuring your analog photography documentation becomes permanent digital records. Your film roll data transfers seamlessly from field logging on iOS to final archival on macOS."
+    }
+  ],
+  "improvements": [
+    "Import .frames files from iOS",
+    "JPEG file support with full metadata embedding",
+    "Automatic frame-to-photo matching",
+    "EXIF metadata embedding compatible with Lightroom, Capture One, and Apple Photos",
+    "Native macOS design following Apple's Human Interface Guidelines",
+    "Available in 7 languages: English, French, Spanish, Italian, Portuguese, German, and Dutch"
+  ],
+  "fixes": [],
+  "patches": [
+    {
+      "version": "1.0.1",
+      "description": "Added French language support."
+    },
+    {
+      "version": "1.0.2",
+      "description": "Expanded to 7 languages: English, French, Spanish, Italian, Portuguese, German, and Dutch."
+    },
+    {
+      "version": "1.0.3",
+      "description": "Improved language support."
+    },
+    {
+      "version": "1.0.4",
+      "description": "Now compatible with macOS 15.0 and later."
+    },
+    {
+      "version": "1.0.5",
+      "description": "Exported photos now keep their original filenames."
+    },
+    {
+      "version": "1.0.6",
+      "description": "Redesigned the app icon."
+    },
+    {
+      "version": "1.0.7",
+      "description": "Minor refinement on the app logo."
+    }
+  ]
+}

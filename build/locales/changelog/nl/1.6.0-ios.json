@@ -1,0 +1,53 @@
+{
+  "version": "1.6.0",
+  "version_short": "1.6",
+  "url_slug": "1-6-ios",
+  "platform": "ios",
+  "release_date": "2025-09-05T10:00:00.000Z",
+  "title": "Aangepaste sluitertijdreeksen en kaartverbeteringen",
+  "meta_title": "Aangepaste sluitertijdreeksen en kaartverbeteringen · Frames",
+  "meta_description": "Configureer aangepaste sluitertijden per camera, verbeterde kaartfuncties en exportvoortgangsindicatoren voor nauwkeurigere metadata-registratie.",
+  "summary": "Stel aangepaste sluitertijdreeksen in per camera, waarbij alleen de snelheden worden getoond die je camera daadwerkelijk ondersteunt. Deze update brengt ook verbeterde kaartverwerking, extra sluitertijdopties en exportvoortgangsindicatoren.",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Aangepaste sluitertijdbesturing"
+    },
+    {
+      "type": "paragraph",
+      "content": "Configureer welke sluitertijden verschijnen in de recorder-schuifregelaar en frame-instellingen per camera. Als je camera alleen snelheden heeft van 1/1000 tot 1 seconde, kun je de uitgebreide bereikopties verbergen. Dit houdt je recorder-interface schoon en voorkomt dat je per ongeluk snelheden registreert die je camera niet ondersteunt. Aangepaste reeksen synchroniseren met de Mac-app voor consistente metadata op alle apparaten."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/{{ lang }}/changelog/frames-1.6.0-1.png",
+      "image_2x": "/lib/img/{{ lang }}/changelog/frames-1.6.0-1@2x.png",
+      "alt": "Frames filmfotografie-app met aangepaste sluitertijdreeksen en kaartverbeteringen",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Verbeterde kaart- en exportfuncties"
+    },
+    {
+      "type": "paragraph",
+      "content": "Kaartweergave verwerkt nu coördinaten betrouwbaarder met verbeterde gebaarondersteuning voor pannen en zoomen. We hebben veelgebruikte sluitertijden toegevoegd (1/160, 1/80, 1/40, 1/20) die voorheen ontbraken. Exportbewerkingen tonen nu een voortgangsindicator, zodat je weet wanneer je bestanden worden gegenereerd voordat het deelvenster verschijnt."
+    }
+  ],
+  "improvements": [
+    "Aangepaste sluitertijdreeksen per camera toegevoegd",
+    "Verbeterde kaartcoördinatenverwerking en gebaarondersteuning",
+    "Ontbrekende sluitertijden toegevoegd: 1/160, 1/80, 1/40 en 1/20",
+    "Exportvoortgangsindicator toegevoegd voordat deelvenster verschijnt",
+    "Verbeterde nauwkeurigheid schuifregelaar in recorderweergave"
+  ],
+  "fixes": [
+    {
+      "title": "Nauwkeurigheid recorder-schuifregelaar",
+      "description": "Recorder-schuifregelaars aangepast om zowel correcte waarde als visuele positie te matchen."
+    }
+  ],
+  "patches": []
+}

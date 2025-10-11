@@ -1,0 +1,68 @@
+{
+  "version": "1.10.0",
+  "version_short": "1.10",
+  "url_slug": "1-10-ios",
+  "platform": "ios",
+  "release_date": "2025-09-23T10:00:00.000Z",
+  "title": "Grandes Melhorias de Desempenho e Estabilidade",
+  "summary": "Este lançamento traz melhorias significativas por baixo dos panos que tornam o Frames mais rápido, confiável e melhor preparado para recursos futuros. Otimizações de desempenho tocam cada parte do aplicativo, desde gravação de fotogramas até gerenciamento de rolos de filme.",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Fundação para o Futuro"
+    },
+    {
+      "type": "paragraph",
+      "content": "Reconstruímos partes centrais do Frames para melhorar desempenho e estabilidade. A edição de fotogramas parece mais responsiva, a navegação flui mais suavemente e o gerenciamento de grandes coleções de rolos de filme é mais confiável. Essas melhorias arquiteturais também lançam as bases para recursos futuros, garantindo que o Frames permaneça rápido e estável à medida que sua biblioteca cresce."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.10.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.10.0-1@2x.png",
+      "alt": "Aplicativo de fotografia analógica Frames com desempenho aprimorado e velocidade de gravação de fotogramas otimizada",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Mais Fluido em Todos os Aspectos"
+    },
+    {
+      "type": "paragraph",
+      "content": "Você notará tempos de carregamento mais rápidos ao abrir rolos de filme e respostas mais rápidas ao editar metadados de fotogramas. As transições entre telas parecem mais fluidas, e o aplicativo mantém melhor desempenho mesmo com coleções extensas de equipamentos e centenas de fotogramas. As melhorias são mais perceptíveis ao trabalhar com vários rolos de filme ou alternar frequentemente entre as visualizações do gravador e da biblioteca."
+    }
+  ],
+  "improvements": [
+    "Desempenho e capacidade de resposta do aplicativo significativamente aprimorados",
+    "Edição de fotogramas e atualizações de metadados mais rápidas",
+    "Suavidade de navegação aprimorada em todo o aplicativo",
+    "Melhor estabilidade ao gerenciar grandes coleções de rolos de filme",
+    "Desempenho otimizado da lista de equipamentos com bibliotecas extensas de câmeras e lentes",
+    "Gerenciamento de memória aprimorado para desempenho sustentado",
+    "Arquitetura de código mais limpa para desenvolvimento futuro de recursos"
+  ],
+  "fixes": [
+    {
+      "title": "Salvamento de Imagem de Referência",
+      "description": "Corrigido um problema onde imagens de referência nem sempre eram salvas corretamente quando anexadas a fotogramas."
+    }
+  ],
+  "patches": [
+    {
+      "version": "1.10.1",
+      "description": "Resposta mais rápida do gravador de fotogramas e gerenciamento de localização aprimorado para registro mais preciso."
+    },
+    {
+      "version": "1.10.2",
+      "description": "Confiabilidade de exportação aprimorada com manuseio de caracteres especiais. Desempenho aprimorado da visualização de localização e mapa com exportações mais rápidas."
+    },
+    {
+      "version": "1.10.3",
+      "description": "Várias melhorias de interface e refinamentos visuais em toda a interface."
+    }
+  ],
+  "meta_title": "Grandes Melhorias de Desempenho e Estabilidade · Frames",
+  "meta_description": "Este lançamento traz melhorias significativas por baixo dos panos que tornam o Frames mais rápido, confiável e melhor preparado para recursos futuros."
+}

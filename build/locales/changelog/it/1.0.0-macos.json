@@ -1,0 +1,78 @@
+{
+  "version": "1.0.0",
+  "version_short": "1.0",
+  "url_slug": "1-0-macos",
+  "platform": "macos",
+  "release_date": "2025-04-08T10:00:00.000Z",
+  "title": "Lancio di Frames per macOS",
+  "summary": "Arriva la tanto attesa app companion per macOS, portando una perfetta reintegrazione dei metadati nelle immagini analogiche scansionate. Importa i dati dei tuoi rullini da iOS e incorpora i metadati EXIF nei file JPEG.",
+  "meta_title": "Lancio di Frames per macOS · Frames",
+  "meta_description": "Incorpora metadati EXIF nelle tue scansioni analogiche con Frames per macOS. Compatibile con Lightroom, Capture One e Foto di Apple per un archivio digitale completo.",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Reintegrazione dei Metadati per Pellicole Scansionate"
+    },
+    {
+      "type": "paragraph",
+      "content": "Frames per macOS risolve la funzionalità più richiesta dalla community della fotografia analogica: reintegrare i metadati nelle immagini scansionate. Importa i tuoi file .frames da iOS, trascina le tue immagini JPEG scansionate e l'app abbina i fotogrammi alle foto. Le tue impostazioni di esposizione, dati della fotocamera, informazioni dell'obiettivo, pellicole e note di scatto vengono incorporate come metadati EXIF che funzionano perfettamente con Lightroom, Capture One e Foto di Apple."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.0.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.0.0-1@2x.png",
+      "alt": "App Frames per macOS per incorporare metadati EXIF in fotografie analogiche scansionate",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Flusso di Lavoro Semplice, Risultati Professionali"
+    },
+    {
+      "type": "paragraph",
+      "content": "Il flusso di lavoro è diretto: importa il tuo file .frames, aggiungi le tue immagini scansionate, abbina i fotogrammi alle foto ed esporta. L'app gestisce automaticamente l'incorporazione EXIF, assicurando che la tua documentazione fotografica analogica diventi un archivio digitale permanente. I dati del tuo rullino si trasferiscono perfettamente dalla registrazione sul campo su iOS all'archiviazione finale su macOS."
+    }
+  ],
+  "improvements": [
+    "Importa file .frames da iOS",
+    "Supporto file JPEG con incorporazione completa dei metadati",
+    "Abbinamento automatico fotogramma-foto",
+    "Incorporazione metadati EXIF compatibile con Lightroom, Capture One e Foto di Apple",
+    "Design nativo macOS seguendo le Human Interface Guidelines di Apple",
+    "Disponibile in 7 lingue: inglese, francese, spagnolo, italiano, portoghese, tedesco e olandese"
+  ],
+  "fixes": [],
+  "patches": [
+    {
+      "version": "1.0.1",
+      "description": "Aggiunto supporto lingua francese."
+    },
+    {
+      "version": "1.0.2",
+      "description": "Espanso a 7 lingue: inglese, francese, spagnolo, italiano, portoghese, tedesco e olandese."
+    },
+    {
+      "version": "1.0.3",
+      "description": "Migliorato supporto lingue."
+    },
+    {
+      "version": "1.0.4",
+      "description": "Ora compatibile con macOS 15.0 e successivi."
+    },
+    {
+      "version": "1.0.5",
+      "description": "Le foto esportate mantengono ora i loro nomi file originali."
+    },
+    {
+      "version": "1.0.6",
+      "description": "Ridisegnata l'icona dell'app."
+    },
+    {
+      "version": "1.0.7",
+      "description": "Piccolo perfezionamento del logo dell'app."
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "version": "1.11.0",
+  "version_short": "1.11",
+  "url_slug": "1-11-ios",
+  "platform": "ios",
+  "release_date": "2025-10-02T10:00:00.000Z",
+  "title": "Mätningslägesmetadata och prestandaförbättringar",
+  "summary": "Frames fångar nu din kameras mätningsläge tillsammans med exponeringsdata, vilket ger dig en mer komplett registrering av hur varje bild mättes. Denna uppdatering tar även med sig prestandaförbättringar för en snabbare, mer stabil upplevelse genom hela appen.",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Registrering av mätningsläge"
+    },
+    {
+      "type": "paragraph",
+      "content": "Du kan nu registrera vilket mätningsläge din kamera använde för varje bild. Oavsett om du fotograferar med mittenviktad, spot- eller utvärderande mätning fångar Frames denna metadata tillsammans med dina befintliga exponeringsinställningar. Detta hjälper dig att förstå hur din kamera mätte ljus för varje bild och förfina din inställning till exponering över tid."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/{{ lang }}/changelog/frames-1.11.0-1.png",
+      "image_2x": "/lib/img/{{ lang }}/changelog/frames-1.11.0-1@2x.png",
+      "alt": "Frames filmfotografiapp med registrering av mätningslägesmetadata för exponeringsanalys",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Prestandaförbättringar"
+    },
+    {
+      "type": "paragraph",
+      "content": "Under-huven-förbättringar gör Frames snabbare och mer responsiv. Navigation mellan filmrullar, bildregistrering och metadataredigering drar alla nytta av optimerad prestanda. Dessa förfiningar bidrar till en smidigare upplevelse när du hanterar ditt analoga fotografiarbetsflöde."
+    }
+  ],
+  "improvements": [
+    "Tillagt mätningslägesmetadatafält för omfattande exponeringsdokumentation",
+    "Förbättrad appprestanda för snabbare navigation och bildregistrering",
+    "Förbättrad stabilitet vid växling mellan filmrullar och bildredigering",
+    "Optimerad minnesanvändning för smidigare drift med stora filmbibliotek"
+  ],
+  "fixes": [],
+  "patches": [],
+  "meta_title": "Mätningslägesmetadata och prestandaförbättringar · Frames",
+  "meta_description": "Frames fångar nu din kameras mätningsläge tillsammans med exponeringsdata, vilket ger dig en mer komplett registrering av hur varje bild mättes."
+}

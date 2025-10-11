@@ -1,0 +1,65 @@
+{
+  "version": "1.7.0",
+  "version_short": "1.7",
+  "url_slug": "1-7-ios",
+  "platform": "ios",
+  "release_date": "2025-09-10T10:00:00.000Z",
+  "title": "Fullt tillgänglighetsstöd och registreringsförbättringar",
+  "summary": "Denna uppdatering ger omfattande stöd för Apples tillgänglighetsfunktioner tillsammans med förbättringar av registreringsarbetsflöde och metadatahantering, vilket gör Frames mer tillgänglig och effektiv för alla filmfotografer.",
+  "meta_title": "Fullt tillgänglighetsstöd och registreringsförbättringar · Frames",
+  "meta_description": "Komplett stöd för Apples tillgänglighetsfunktioner: Större text, Mörkt gränssnitt, Tillräcklig kontrast. Förbättrat arbetsflöde och automatisk ifyllning av bländarvärden.",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Apples tillgänglighetsfunktioner"
+    },
+    {
+      "type": "paragraph",
+      "content": "Frames stöder nu viktiga Apple-tillgänglighetsfunktioner inklusive Större text, Mörkt gränssnitt, Särskilj utan enbart färg, Tillräcklig kontrast och Reducerad rörelse. Dessa funktioner säkerställer att appen är användbar för fotografer med olika visuella behov och preferenser, och behåller full funktionalitet oavsett tillgänglighetsinställningar."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.7.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.7.0-1@2x.png",
+      "alt": "Frames filmfotografiappgränssnitt med tillgänglighetsfunktioner och stöd för stor text",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Arbetsflödes- och metadataförbättringar"
+    },
+    {
+      "type": "paragraph",
+      "content": "Appen hoppar nu direkt in i din nya filmrulle så snart den skapas, vilket effektiviserar ditt arbetsflöde. Etiketter genom hela appen har förfinats för bättre läsbarhet. Anpassade sekvenser fyller nu automatiskt i min/max bländarvärden, vilket är särskilt användbart för metadataåterintegration på Mac. Vi har även fixat rörelseproblem i registreraren när bilder fångas med öppet reglage och korrigerat värdeinitialiseringsproblem i fullständig registrerarvy."
+    }
+  ],
+  "improvements": [
+    "Tillagt stöd för Apples tillgänglighetsfunktion Större text",
+    "Tillagt stöd för Mörkt gränssnitt",
+    "Tillagt stöd för Särskilj utan enbart färg",
+    "Tillagt stöd för Tillräcklig kontrast",
+    "Tillagt stöd för Reducerad rörelse",
+    "Hoppa direkt in i nya filmrullar efter skapande för snabbare arbetsflöde",
+    "Förbättrad etiketttydlighet genom hela appen",
+    "Automatisk ifyllning av min/max bländare vid användning av anpassade sekvenser"
+  ],
+  "fixes": [
+    {
+      "title": "Rörelseproblem i registreraren",
+      "description": "Fixade rörelseproblem i registreraren när en bild fångas med öppet reglage."
+    },
+    {
+      "title": "Värdeinitialiserare i registreraren",
+      "description": "Fixade ett problem med värden som inte initialiserades korrekt när registreraren öppnades i fullvy."
+    }
+  ],
+  "patches": [
+    {
+      "version": "1.7.1",
+      "description": "Fixade objektivvisning som visade redundant bländarinformation i urvalslistor. Fixade att bilder var redigerbara när redigering var inaktiverad."
+    }
+  ]
+}

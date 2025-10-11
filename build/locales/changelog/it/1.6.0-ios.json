@@ -1,0 +1,53 @@
+{
+  "version": "1.6.0",
+  "version_short": "1.6",
+  "url_slug": "1-6-ios",
+  "platform": "ios",
+  "release_date": "2025-09-05T10:00:00.000Z",
+  "title": "Sequenze Tempo di Esposizione Personalizzate e Miglioramenti Mappa",
+  "summary": "Imposta sequenze tempo di esposizione personalizzate per fotocamera, mostrando solo i tempi che la tua fotocamera supporta effettivamente. Questo aggiornamento porta anche gestione mappa migliorata, opzioni tempo di esposizione aggiuntive e indicatori di progresso esportazione.",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Controllo Tempo di Esposizione Personalizzato"
+    },
+    {
+      "type": "paragraph",
+      "content": "Configura quali tempi di esposizione appaiono nel cursore del registratore e nelle impostazioni fotogramma su base per fotocamera. Se la tua fotocamera ha solo tempi da 1/1000 a 1 secondo, puoi nascondere le opzioni della gamma estesa. Questo mantiene l'interfaccia del registratore pulita e previene la registrazione accidentale di tempi che la tua fotocamera non supporta. Le sequenze personalizzate si sincronizzano con l'app Mac per metadati coerenti tra dispositivi."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/{{ lang }}/changelog/frames-1.6.0-1.png",
+      "image_2x": "/lib/img/{{ lang }}/changelog/frames-1.6.0-1@2x.png",
+      "alt": "App Frames per fotografia analogica che mostra sequenze tempo di esposizione personalizzate e miglioramenti mappa",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Funzionalità Mappa ed Esportazione Migliorate"
+    },
+    {
+      "type": "paragraph",
+      "content": "La vista mappa ora gestisce le coordinate in modo più affidabile con supporto gesti migliorato per panoramica e zoom. Abbiamo aggiunto tempi di esposizione comunemente usati (1/160, 1/80, 1/40, 1/20) che mancavano in precedenza. Le operazioni di esportazione ora mostrano un indicatore di progresso così sai quando i tuoi file vengono generati prima che appaia il foglio di condivisione."
+    }
+  ],
+  "improvements": [
+    "Aggiunte sequenze tempo di esposizione personalizzate per fotocamera",
+    "Migliorata gestione coordinate mappa e supporto gesti",
+    "Aggiunti tempi di esposizione mancanti: 1/160, 1/80, 1/40 e 1/20",
+    "Aggiunto indicatore progresso esportazione prima che appaia il foglio di condivisione",
+    "Migliorata precisione cursore nella vista registratore"
+  ],
+  "fixes": [
+    {
+      "title": "Precisione Cursore Registratore",
+      "description": "Corretti i cursori del registratore per abbinare sia il valore corretto che la posizione visiva."
+    }
+  ],
+  "patches": [],
+  "meta_title": "Sequenze Tempo di Esposizione Personalizzate e Miglioramenti Mappa · Frames",
+  "meta_description": "Imposta sequenze tempo di esposizione personalizzate per fotocamera, mostrando solo i tempi che la tua fotocamera supporta effettivamente."
+}

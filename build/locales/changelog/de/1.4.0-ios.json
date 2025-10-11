@@ -1,0 +1,43 @@
+{
+  "version": "1.4.0",
+  "version_short": "1.4",
+  "url_slug": "1-4-ios",
+  "platform": "ios",
+  "release_date": "2025-08-20T10:00:00.000Z",
+  "title": "Filtererfassung",
+  "summary": "Dokumentiere deinen kompletten Analog-Workflow, indem du Filter neben Kamera, Objektiv und Film erfasst. Jetzt kannst du UV-, ND-, CPL- und andere Filter für jede Aufnahme aufzeichnen.",
+  "meta_title": "Filtererfassung · Frames",
+  "meta_description": "Erfasse UV-, ND- und CPL-Filter für jedes Bild. Vollständige Analog-Dokumentation mit Filtern in allen Exporten und Mac-Synchronisierung.",
+  "sections": [
+    {
+      "type": "paragraph",
+      "content": "Filter sind jetzt Teil deines Film-Workflows. Erfasse welche Filter du für jedes Bild verwendet hast, einschließlich UV, ND, CPL und mehr. Dies vervollständigt deine Analog-Dokumentation, indem jedes Element erfasst wird, das dein fertiges Bild beeinflusst – vom Kameragehäuse und Objektiv bis zum Filmtyp und Filtern. Filterdaten sind in allen Exporten enthalten und synchronisieren sich mit der Mac-App für umfassende Aufzeichnung."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/{{ lang }}/changelog/frames-1.4.0-1.png",
+      "image_2x": "/lib/img/{{ lang }}/changelog/frames-1.4.0-1@2x.png",
+      "alt": "Frames Filmfotografie-App mit Filtererfassung für UV-, ND- und CPL-Filter",
+      "width": "400",
+      "height": "300"
+    }
+  ],
+  "improvements": [
+    "Filtererfassung hinzugefügt (UV, ND, CPL und mehr)",
+    "Filter in allen Exportformaten enthalten",
+    "Filterdaten synchronisieren mit Mac-App",
+    "Kleinere Leistungsverbesserungen",
+    "Allgemeine Stabilitätsverbesserungen"
+  ],
+  "fixes": [],
+  "patches": [
+    {
+      "version": "1.4.1",
+      "description": "Fehler behoben, bei dem das Bearbeiten eines Films in einem Unterordner ihn zurück in den Hauptordner verschob."
+    },
+    {
+      "version": "1.4.2",
+      "description": "Verfeinerte Übersetzungen für Mac-App-Konsistenz. Länderanzeige in Standortsuche korrigiert. Standard-Belichtungszeit und Blendenwerte beim Erstellen von Filmen hinzugefügt."
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "version": "1.13.0",
+  "version_short": "1.13",
+  "url_slug": "1-13-ios",
+  "platform": "ios",
+  "release_date": "2025-10-06T10:00:00.000Z",
+  "title": "Hebrew, Arabic, Romanian & Ukrainian Language Support",
+  "summary": "Frames continues its mission to serve analog photographers worldwide with this significant localization update, bringing native support for Hebrew, Arabic, Romanian, and Ukrainian speakers, alongside refined translations and interface improvements throughout the entire app.",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Four New Languages with Right-to-Left Support"
+    },
+    {
+      "type": "paragraph",
+      "content": "Frames now supports Hebrew, Arabic, Romanian, and Ukrainian, each carefully localized to respect cultural nuances and photography terminology. Hebrew and Arabic include full right-to-left interface adaptation. Navigation flows, button placement, and text alignment all mirror appropriately while preserving technical terms like film stock codes and aperture values in their standard international format."
+    },
+    {
+      "type": "list",
+      "items": [
+        {
+          "title": "Hebrew (עברית) & Arabic (العربية)",
+          "description": "Complete RTL interface with native terminology for film stocks, camera settings, and EXIF metadata."
+        },
+        {
+          "title": "Romanian (Română) & Ukrainian (Українська)",
+          "description": "Full translations supporting photographers documenting their work in their native language."
+        }
+      ]
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.13.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.13.0-1@2x.png",
+      "alt": "Frames film photography app with Hebrew and Arabic RTL interface and language support",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Translation Refinements Across All Languages"
+    },
+    {
+      "type": "paragraph",
+      "content": "Beyond new languages, we've refined existing translations throughout the app based on feedback from photographers. Film stock names remain in their original language (Kodak Portra, Ilford HP5), while interface elements adapt to your chosen language. Language preferences sync across devices, and all existing data automatically displays in your selected language without re-entry or migration."
+    }
+  ],
+  "improvements": [
+    "Added complete Hebrew (עברית) localization with right-to-left interface support",
+    "Added complete Arabic (العربية) localization with RTL layout adaptation",
+    "Added Romanian (Română) translation for the film photography community",
+    "Added Ukrainian (Українська) support with native terminology",
+    "Refined existing translations across all supported languages for improved clarity and consistency",
+    "Improved technical terminology accuracy in photography-specific fields",
+    "Enhanced bidirectional text support for mixed Latin and RTL content"
+  ],
+  "fixes": [
+    {
+      "title": "Text Overflow in Translations",
+      "description": "Resolved layout issues where longer translated phrases could be truncated in certain interface elements."
+    },
+    {
+      "title": "RTL Layout Consistency",
+      "description": "Fixed minor alignment issues in right-to-left languages to ensure proper mirroring across all screens."
+    }
+  ],
+  "patches": [
+    {
+      "version": "1.13.1",
+      "description": "Fixed a bug that could cause the share menu to flicker repeatedly when exporting"
+    }
+  ],
+  "meta_title": "Hebrew, Arabic, Romanian & Ukrainian Language Support · Frames",
+  "meta_description": "Frames continues its mission to serve analog photographers worldwide with this significant localization update, bringing native support for Hebrew, Arabic,..."
+}

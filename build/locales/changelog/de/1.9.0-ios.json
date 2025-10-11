@@ -1,0 +1,52 @@
+{
+  "version": "1.9.0",
+  "version_short": "1.9",
+  "url_slug": "1-9-ios",
+  "platform": "ios",
+  "release_date": "2025-09-18T10:00:00.000Z",
+  "title": "Unterordner, Wischen zum Verschieben & TXT-Export-Verbesserungen",
+  "summary": "Organisiere deine Filmsammlung mit verschachtelten Unterordnern bis zu 5 Ebenen tief. Dieses Update bringt auch einfacheres Film-Management mit Wischgesten und verbesserte TXT-Export-Formatierung für bessere Dokumentation.",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Verschachtelte Ordnerorganisation für Pro-Nutzer"
+    },
+    {
+      "type": "paragraph",
+      "content": "Pro-Nutzer können jetzt Unterordner bis zu 5 Ebenen tief erstellen und so detaillierte Organisation von Filmarchiven ermöglichen. Strukturiere deine Bibliothek nach Jahr, Projekt, Filmtyp oder jeder Hierarchie, die zu deinem Arbeitsablauf passt. Dies macht es einfacher, bestimmte Aufnahmen innerhalb umfangreicher Filmsammlungen zu finden und hält verwandte Filme logisch gruppiert."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/{{ lang }}/changelog/frames-1.9.0-1.png",
+      "image_2x": "/lib/img/{{ lang }}/changelog/frames-1.9.0-1@2x.png",
+      "alt": "Frames Filmfotografie-App mit verschachtelter Ordnerorganisation für Filmarchive",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Verbessertes Film-Management"
+    },
+    {
+      "type": "paragraph",
+      "content": "Wischgesten enthalten jetzt einen Verschieben-Button, was das Verschieben von Filmen und Ordnern schneller macht. Wir haben auch ein Problem behoben, bei dem TXT-Exporte das Jahr wegließen, wenn es mit dem aktuellen Jahr übereinstimmte, sodass jetzt vollständige Datumsinformationen in allen Exporten enthalten sind."
+    }
+  ],
+  "improvements": [
+    "Unterordner-Unterstützung bis zu 5 Ebenen tief für Pro-Nutzer hinzugefügt",
+    "Wischgesten enthalten jetzt Verschieben-Button für Filme und Ordner",
+    "Erweiterte Ordnernavigation mit Breadcrumb-Unterstützung",
+    "Verbesserte Lokalisierungskonsistenz über mehrere Sprachen"
+  ],
+  "fixes": [
+    {
+      "title": "TXT-Export-Jahresanzeige",
+      "description": "Problem behoben, bei dem TXT-Exporte das Jahr wegließen, wenn es mit dem aktuellen Jahr übereinstimmte. Das Jahr ist jetzt immer für vollständige Datumsinformationen enthalten."
+    }
+  ],
+  "patches": [],
+  "meta_title": "Unterordner, Wischen zum Verschieben & TXT-Export-Verbesserungen · Frames",
+  "meta_description": "Organisiere deine Filmsammlung mit verschachtelten Unterordnern bis zu 5 Ebenen tief."
+}

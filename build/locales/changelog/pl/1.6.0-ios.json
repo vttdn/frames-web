@@ -1,0 +1,53 @@
+{
+  "version": "1.6.0",
+  "version_short": "1.6",
+  "url_slug": "1-6-ios",
+  "platform": "ios",
+  "release_date": "2025-09-05T10:00:00.000Z",
+  "title": "Niestandardowe sekwencje czasu naświetlania i ulepszenia mapy",
+  "meta_title": "Niestandardowe sekwencje czasu naświetlania i ulepszenia mapy · Frames",
+  "meta_description": "Konfiguruj czasy naświetlania dla każdego aparatu osobno. Ulepszona obsługa mapy, wskaźniki postępu eksportu i dodatkowe opcje czasów naświetlania.",
+  "summary": "Ustaw niestandardowe sekwencje czasu naświetlania dla każdego aparatu, pokazując tylko czasy obsługiwane przez Twój aparat. Ta aktualizacja przynosi również ulepszoną obsługę mapy, dodatkowe opcje czasu naświetlania i wskaźniki postępu eksportu.",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Niestandardowe sterowanie czasem naświetlania"
+    },
+    {
+      "type": "paragraph",
+      "content": "Konfiguruj, które czasy naświetlania pojawiają się w suwaku rejestratora i ustawieniach klatki dla każdego aparatu osobno. Jeśli Twój aparat ma tylko czasy od 1/1000 do 1 sekundy, możesz ukryć opcje rozszerzonego zakresu. To utrzymuje interfejs rejestratora w czystości i zapobiega przypadkowemu rejestrowania czasów, których Twój aparat nie obsługuje. Niestandardowe sekwencje synchronizują się z aplikacją Mac dla spójnych metadanych na wszystkich urządzeniach."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/{{ lang }}/changelog/frames-1.6.0-1.png",
+      "image_2x": "/lib/img/{{ lang }}/changelog/frames-1.6.0-1@2x.png",
+      "alt": "Aplikacja Frames do fotografii kliszowej z niestandardowymi sekwencjami czasu naświetlania i ulepszeniami mapy",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Ulepszone funkcje mapy i eksportu"
+    },
+    {
+      "type": "paragraph",
+      "content": "Widok mapy obsługuje teraz współrzędne bardziej niezawodnie z ulepszoną obsługą gestów przesuwania i powiększania. Dodaliśmy powszechnie używane czasy naświetlania (1/160, 1/80, 1/40, 1/20), które wcześniej brakowało. Operacje eksportu pokazują teraz wskaźnik postępu, więc wiesz, kiedy Twoje pliki są generowane przed pojawieniem się arkusza udostępniania."
+    }
+  ],
+  "improvements": [
+    "Dodano niestandardowe sekwencje czasu naświetlania dla każdego aparatu",
+    "Poprawiona obsługa współrzędnych mapy i obsługa gestów",
+    "Dodano brakujące czasy naświetlania: 1/160, 1/80, 1/40 i 1/20",
+    "Dodano wskaźnik postępu eksportu przed pojawieniem się arkusza udostępniania",
+    "Zwiększona dokładność suwaków w widoku rejestratora"
+  ],
+  "fixes": [
+    {
+      "title": "Dokładność suwaków rejestratora",
+      "description": "Naprawiono suwaki rejestratora, aby dopasować zarówno prawidłową wartość, jak i pozycję wizualną."
+    }
+  ],
+  "patches": []
+}

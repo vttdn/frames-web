@@ -1,0 +1,32 @@
+{
+  "version": "1.8.0",
+  "version_short": "1.8",
+  "url_slug": "1-8-ios",
+  "platform": "ios",
+  "release_date": "2025-09-15T10:00:00.000Z",
+  "title": "Eksport plików TXT dla logów filmowych",
+  "summary": "Użytkownicy Pro mogą teraz eksportować logi filmowe jako pliki TXT, idealne do drukowania notatek terenowych lub tworzenia szybkich arkuszy referencyjnych do pracy w ciemni.",
+  "sections": [
+    {
+      "type": "paragraph",
+      "content": "Eksportuj metadane swoich filmów jako zwykłe pliki tekstowe. Ten format sprawdza się dobrze do drukowania kompaktowych arkuszy referencyjnych, które możesz trzymać w torbie fotograficznej lub ciemni. Każdy eksport TXT zawiera wszystkie szczegóły klatki, ustawienia ekspozycji i notatki w czystym, czytelnym formacie, łatwym do wydrukowania lub udostępnienia laboratoriom."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.8.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.8.0-1@2x.png",
+      "alt": "Funkcja eksportu TXT aplikacji Frames do fotografii analogowej do drukowania notatek i metadanych filmowych",
+      "width": "400",
+      "height": "300"
+    }
+  ],
+  "improvements": [
+    "Dodano eksport plików TXT dla użytkowników Pro",
+    "Zoptymalizowane formatowanie eksportu dla drukowania i czytelności",
+    "Uwzględniono kompleksowe metadane klatki w eksportach"
+  ],
+  "fixes": [],
+  "patches": [],
+  "meta_title": "Eksport plików TXT dla logów filmowych · Frames",
+  "meta_description": "Użytkownicy Pro mogą teraz eksportować logi filmowe jako pliki TXT, idealne do drukowania notatek terenowych lub tworzenia szybkich arkuszy referencyjnych..."
+}

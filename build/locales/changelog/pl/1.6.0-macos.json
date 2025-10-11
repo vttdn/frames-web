@@ -1,0 +1,38 @@
+{
+  "version": "1.6.0",
+  "version_short": "1.6",
+  "url_slug": "1-6-macos",
+  "platform": "macos",
+  "release_date": "2025-10-01T10:00:00.000Z",
+  "title": "Metadane trybu pomiaru i usprawnienia wydajności",
+  "meta_title": "Metadane trybu pomiaru i usprawnienia wydajności · Frames",
+  "meta_description": "Reintegracja danych trybu pomiaru z logów filmowych w zeskanowanych obrazach. Szybsze przetwarzanie obrazów i lepsza stabilność aplikacji na macOS.",
+  "summary": "Frames dla macOS zawiera teraz obsługę metadanych trybu pomiaru dla kompleksowych danych EXIF, plus usprawnienia wydajności dla szybszego, bardziej stabilnego działania.",
+  "sections": [
+    {
+      "type": "paragraph",
+      "content": "Możesz teraz zobaczyć i reintegrować dane trybu pomiaru z logów filmowych w zeskanowanych obrazach. To odpowiada aktualizacji iOS, zapewniając pełną spójność metadanych na obu platformach. Ulepszenia wydajności w całej aplikacji sprawiają, że reintegracja metadanych jest szybsza i bardziej niezawodna."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/{{ lang }}/changelog/frames-1.11.0-1.png",
+      "image_2x": "/lib/img/{{ lang }}/changelog/frames-1.11.0-1@2x.png",
+      "alt": "Aplikacja Frames macOS z obsługą metadanych trybu pomiaru dla kompletnych danych EXIF",
+      "width": "400",
+      "height": "300"
+    }
+  ],
+  "improvements": [
+    "Dodano obsługę metadanych trybu pomiaru",
+    "Ulepszenia wydajności dla szybszego przetwarzania obrazów",
+    "Poprawiona stabilność aplikacji w całości",
+    "Zwiększona szybkość reintegracji metadanych"
+  ],
+  "fixes": [],
+  "patches": [
+    {
+      "version": "1.5.1",
+      "description": "Różne ulepszenia UI i dopracowania wizualne."
+    }
+  ]
+}

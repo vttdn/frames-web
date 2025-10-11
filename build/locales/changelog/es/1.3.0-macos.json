@@ -1,0 +1,37 @@
+{
+  "version": "1.3.0",
+  "version_short": "1.3",
+  "url_slug": "1-3-macos",
+  "platform": "macos",
+  "release_date": "2025-09-01T10:00:00.000Z",
+  "title": "Soporte de archivos raw DNG",
+  "summary": "Ahora puedes importar archivos DNG junto a JPEG y TIFF, y reintegrar metadatos directamente en tus imágenes raw para un flujo de trabajo completo de fotografía analógica.",
+  "meta_title": "Soporte de archivos raw DNG · Frames",
+  "meta_description": "Incrusta metadatos de fotografía analógica directamente en archivos DNG raw. Soporte completo para flujos de trabajo profesionales junto a JPEG y TIFF.",
+  "sections": [
+    {
+      "type": "paragraph",
+      "content": "El soporte de imágenes raw llega a Frames para macOS. Importa archivos DNG junto a tus flujos de trabajo JPEG y TIFF existentes, e incrusta los metadatos de tu rollo directamente en archivos raw. Esto asegura que tus ajustes de exposición, datos de cámara, películas y notas viajen con tus imágenes raw a través del posprocesamiento y archivo. También hemos corregido un problema donde las notas adicionales de un fotograma no se retenían durante la reintegración de metadatos."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-mac-1.3.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-mac-1.3.0-1@2x.png",
+      "alt": "Aplicación macOS Frames con incrustación de metadatos en archivos raw DNG para escaneos de fotografía analógica",
+      "width": "400",
+      "height": "300"
+    }
+  ],
+  "improvements": [
+    "Soporte de archivos raw DNG añadido",
+    "Reintegración completa de metadatos para imágenes raw",
+    "Los archivos DNG funcionan perfectamente junto a JPEG y TIFF"
+  ],
+  "fixes": [
+    {
+      "title": "Retención de notas de fotograma",
+      "description": "Corregido un problema donde las notas adicionales de un fotograma no se retenían durante la reintegración de metadatos."
+    }
+  ],
+  "patches": []
+}

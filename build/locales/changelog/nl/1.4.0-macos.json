@@ -1,0 +1,72 @@
+{
+  "version": "1.4.0",
+  "version_short": "1.4",
+  "url_slug": "1-4-macos",
+  "platform": "macos",
+  "release_date": "2025-09-18T10:00:00.000Z",
+  "title": "Toetsenbordsneltoetsen, native inspector en prestaties",
+  "summary": "Verbeterde macOS-interface met toetsenbordnavigatie, native inspectorpaneel, schoner ontwerp en geoptimaliseerde prestaties voor snellere, meer responsieve metadata-reïntegratie.",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Toetsenbordnavigatie en native besturing"
+    },
+    {
+      "type": "paragraph",
+      "content": "Navigeer snel door frames met pijltjestoetsen, verwijder gekoppelde foto's met Backspace en druk op Enter om foto's te selecteren. De aangepaste zijbalk is vervangen door een macOS-native inspectorpaneel voor een meer gepolijste, systeemgeïntegreerde ervaring die Apple's ontwerptaal volgt."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-mac-1.4.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-mac-1.4.0-1@2x.png",
+      "alt": "Frames macOS-app met toetsenbordsneltoetsen en native inspector voor film-metadata-workflow",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Verfijnde interface en prestaties"
+    },
+    {
+      "type": "paragraph",
+      "content": "Visuele artefacten zijn verwijderd door de hele interface voor een schoner, professioneler uiterlijk. De code-architectuur is geoptimaliseerd voor betere app-responsiviteit en stabiliteit, waardoor metadata-reïntegratieworkflows sneller en betrouwbaarder worden."
+    }
+  ],
+  "improvements": [
+    "Toetsenbordnavigatie met pijltjestoetsen toegevoegd voor bladeren door frames",
+    "Backspace-sneltoets toegevoegd om gekoppelde foto's te verwijderen",
+    "Enter-sneltoets toegevoegd om foto's te selecteren",
+    "Aangepaste zijbalk vervangen door macOS-native inspectorpaneel",
+    "Visuele artefacten verwijderd voor schonere interface",
+    "Code-architectuur geoptimaliseerd voor betere prestaties",
+    "Verbeterde app-responsiviteit overal",
+    "Verhoogde algehele stabiliteit"
+  ],
+  "fixes": [],
+  "patches": [
+    {
+      "version": "1.3.5",
+      "description": "App-icoon bijgewerkt voor macOS 26."
+    },
+    {
+      "version": "1.3.4",
+      "description": "Metadata-reïntegratie voor JPEG en TIFF behoudt nu bestaande data. Alleen door Frames vastgelegde informatie wordt toegevoegd."
+    },
+    {
+      "version": "1.3.3",
+      "description": "Reïntegratie van max en min diafragma in EXIF-metadata toegevoegd. Lensspecificatie-ondersteuning toegevoegd."
+    },
+    {
+      "version": "1.3.2",
+      "description": "Kleine bugfixes en prestatieverbeteringen."
+    },
+    {
+      "version": "1.3.1",
+      "description": "Ondersteuning toegevoegd voor nieuwe sluitertijden van iOS. App geeft nu prioriteit aan aangepaste ISO-waarde boven standaard boxsnelheid."
+    }
+  ],
+  "meta_title": "Toetsenbordsneltoetsen, native inspector en prestaties · Frames",
+  "meta_description": "Verbeterde macOS-interface met toetsenbordnavigatie, native inspectorpaneel, schoner ontwerp en geoptimaliseerde prestaties voor snellere, meer responsieve..."
+}

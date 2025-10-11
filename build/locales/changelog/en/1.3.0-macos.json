@@ -1,0 +1,37 @@
+{
+  "version": "1.3.0",
+  "version_short": "1.3",
+  "url_slug": "1-3-macos",
+  "platform": "macos",
+  "release_date": "2025-09-01T10:00:00.000Z",
+  "title": "DNG Raw File Support",
+  "meta_title": "DNG Raw File Support · Frames",
+  "meta_description": "Embed metadata into DNG raw files alongside JPEG and TIFF formats. Complete analog workflow with comprehensive EXIF data for professional post-processing.",
+  "summary": "You can now import DNG files alongside JPEG and TIFF, and reintegrate metadata directly into your raw images for a complete analog photography workflow.",
+  "sections": [
+    {
+      "type": "paragraph",
+      "content": "Raw image support arrives on Frames for macOS. Import DNG files alongside your existing JPEG and TIFF workflows, and embed your film roll metadata directly into raw files. This ensures your exposure settings, camera data, film stocks, and notes travel with your raw images through post-processing and archival. We've also fixed an issue where additional notes for a frame were not retained during metadata reintegration."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-mac-1.3.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-mac-1.3.0-1@2x.png",
+      "alt": "Frames macOS app with DNG raw file metadata embedding for analog photography scans",
+      "width": "400",
+      "height": "300"
+    }
+  ],
+  "improvements": [
+    "Added DNG raw file support",
+    "Full metadata reintegration for raw images",
+    "DNG files work seamlessly alongside JPEG and TIFF"
+  ],
+  "fixes": [
+    {
+      "title": "Frame Notes Retention",
+      "description": "Fixed an issue where additional notes for a frame were not retained during metadata reintegration."
+    }
+  ],
+  "patches": []
+}

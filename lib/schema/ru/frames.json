@@ -168,17 +168,6 @@
           }
         },
         {
-          "@type": "WebPage",
-          "@id": "https://withframes.com/ruru/",
-          "url": "https://withframes.com/ruru/",
-          "name": "Frames – Приложение для плёночной фотографии с заметками",
-          "description": "Frames – приложение для плёночной фотографии. Фиксируйте каждый кадр, отслеживайте настройки камеры, упорядочивайте плёнки и сохраняйте метаданные на iPhone и Mac.",
-          "inLanguage": "ru",
-          "publisher": {
-            "@id": "https://withframes.com/#organization"
-          }
-        },
-        {
           "@type": "VideoObject",
           "name": "Приложение для плёночной фотографии: учёт и отслеживание плёнок (Frames для iPhone)",
           "description": "Откройте для себя Frames – специализированное приложение для плёночной фотографии, созданное для аналоговых фотографов. Frames делает управление аналоговой фотографией простым, помогая записывать не только кадры, но и историю каждой плёнки. Работаете ли вы с 35мм, средним или большим форматом, Frames держит ваш рабочий процесс организованным и гарантирует, что метаданные останутся с изображениями даже после сканирования.",
@@ -190,34 +179,6 @@
           "publisher": {
             "@id": "https://withframes.com/#organization"
           }
-        },
-        {
-          "@type": "Organization",
-          "@id": "https://withframes.com/#organization",
-          "name": "Frames",
-          "url": "https://withframes.com/",
-          "logo": "https://withframes.com/apple-touch-icon.png",
-          "contactPoint": {
-            "@type": "ContactPoint",
-            "email": "bonjour@withframes.com",
-            "contactType": "Customer Support",
-            "areaServed": "Worldwide",
-            "availableLanguage": ["English", "French"]
-          },
-          "sameAs": [
-            "https://twitter.com/withframes",
-            "https://www.facebook.com/framesapp",
-            "https://www.instagram.com/with_frames/",
-            "https://linkedin.com/company/withframes/",
-            "https://pinterest.com/framesapp/",
-            "https://mastodon.social/@frames",
-            "https://bsky.app/profile/withframes.bsky.social",
-            "https://www.tiktok.com/@with_frames",
-            "https://www.youtube.com/@withframes",
-            "https://g.co/kgs/5oEvXT5",
-            "https://apps.apple.com/ru/app/frames-заметки-о-плёнке/id6744057317",
-            "https://apps.apple.com/ru/app/frames-метаданные-плёнки/id6744063354?mt=12&l=ru"
-          ]
         }
       ]
     }

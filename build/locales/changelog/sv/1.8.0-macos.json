@@ -1,0 +1,35 @@
+{
+  "version": "1.8.0",
+  "version_short": "1.8",
+  "url_slug": "1-8-macos",
+  "platform": "macos",
+  "release_date": "2025-10-03T10:00:00.000Z",
+  "title": "Hebreiska, arabiska, rumänska och ukrainska språkstöd",
+  "summary": "Frames för macOS fortsätter expandera språkstödet med hebreiska, arabiska, rumänska och ukrainska, tillsammans med gränssnittsförfiningar för ett smidigare metadataåterintegrations­arbetsflöde.",
+  "sections": [
+    {
+      "type": "paragraph",
+      "content": "Denna uppdatering ger nativt stöd för hebreiska och arabiska med fullständig höger-till-vänster-gränssnittsanpassning, plus rumänska och ukrainska översättningar. All språkspecifik terminologi för filmtyper, kamerainställningar och EXIF-metadata har noggrant lokaliserats för att säkerställa konsistens med iOS-appen."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.13.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.13.0-1@2x.png",
+      "alt": "Frames macOS-app med hebreiskt och arabiskt RTL-gränssnitt och språkstöd",
+      "width": "400",
+      "height": "300"
+    }
+  ],
+  "improvements": [
+    "Tillagt hebreisk (עברית) lokalisering med stöd för höger-till-vänster-gränssnitt",
+    "Tillagt arabisk (العربية) lokalisering med RTL-layoutanpassning",
+    "Tillagt rumänsk (Română) översättning",
+    "Tillagt ukrainskt (Українська) stöd",
+    "Gränssnittsförfiningar för smidigare användarupplevelse",
+    "Förbättrad konsistens över alla stödda språk"
+  ],
+  "fixes": [],
+  "patches": [],
+  "meta_title": "Hebreiska, arabiska, rumänska och ukrainska språkstöd · Frames",
+  "meta_description": "Frames för macOS fortsätter expandera språkstödet med hebreiska, arabiska, rumänska och ukrainska, tillsammans med gränssnittsförfiningar för ett smidigare..."
+}

@@ -1,0 +1,34 @@
+{
+  "version": "1.2.0",
+  "version_short": "1.2",
+  "url_slug": "1-2-ios",
+  "platform": "ios",
+  "release_date": "2025-07-17T10:00:00.000Z",
+  "title": "Centralized Settings & Improved Organization",
+  "meta_title": "Centralized Settings & Improved Organization · Frames",
+  "meta_description": "Unified settings page for gear management, subscription, and preferences. Better organization makes film photography logging faster and more intuitive.",
+  "summary": "All app settings are now unified in one centralized Settings page. Manage your gear, subscription, and toolbar preferences from a single location with the same features now easier to access and organize.",
+  "sections": [
+    {
+      "type": "paragraph",
+      "content": "We've consolidated scattered settings into one dedicated Settings page. Gear management, subscription details, and interface customization are all accessible from a single menu. This reorganization makes it easier to find what you need without hunting through different parts of the app. All existing functionality remains unchanged, just better organized for faster access."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/{{ lang }}/changelog/frames-1.2.0-1.png",
+      "image_2x": "/lib/img/{{ lang }}/changelog/frames-1.2.0-1@2x.png",
+      "alt": "Frames film photography app showing centralized settings page for gear and app preferences",
+      "width": "400",
+      "height": "300"
+    }
+  ],
+  "improvements": [
+    "Added centralized Settings page for all app configuration",
+    "Unified gear management in Settings",
+    "Consolidated subscription management",
+    "Improved toolbar appearance customization access",
+    "Minor refinements throughout the app"
+  ],
+  "fixes": [],
+  "patches": []
+}

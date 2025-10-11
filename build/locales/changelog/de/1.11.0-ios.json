@@ -1,0 +1,47 @@
+{
+  "version": "1.11.0",
+  "version_short": "1.11",
+  "url_slug": "1-11-ios",
+  "platform": "ios",
+  "release_date": "2025-10-02T10:00:00.000Z",
+  "title": "Messmethoden-Metadaten & Leistungsverbesserungen",
+  "summary": "Frames erfasst jetzt die Messmethode deiner Kamera neben Belichtungsdaten und gibt dir eine vollständigere Aufzeichnung davon, wie jede Aufnahme gemessen wurde. Dieses Update bringt auch Leistungsverbesserungen für ein schnelleres, stabileres Erlebnis in der gesamten App.",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Messmethoden-Aufzeichnung"
+    },
+    {
+      "type": "paragraph",
+      "content": "Du kannst jetzt aufzeichnen, welche Messmethode deine Kamera für jedes Bild verwendete. Ob du mit mittenbetont, Spot oder Matrixmessung fotografierst, Frames erfasst diese Metadaten neben deinen bestehenden Belichtungseinstellungen. Dies hilft dir zu verstehen, wie deine Kamera Licht für jede Aufnahme gemessen hat und deinen Belichtungsansatz im Laufe der Zeit zu verfeinern."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/{{ lang }}/changelog/frames-1.11.0-1.png",
+      "image_2x": "/lib/img/{{ lang }}/changelog/frames-1.11.0-1@2x.png",
+      "alt": "Frames Filmfotografie-App mit Messmethoden-Metadaten-Aufzeichnung für Belichtungsanalyse",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Leistungsverbesserungen"
+    },
+    {
+      "type": "paragraph",
+      "content": "Verbesserungen unter der Haube machen Frames schneller und reaktionsschneller. Navigation zwischen Filmen, Bildaufnahme und Metadaten-Bearbeitung profitieren alle von optimierter Leistung. Diese Verfeinerungen tragen zu einem geschmeidigeren Erlebnis bei der Verwaltung deines Analogfotografie-Workflows bei."
+    }
+  ],
+  "improvements": [
+    "Messmethoden-Metadatenfeld für umfassende Belichtungsdokumentation hinzugefügt",
+    "Verbesserte App-Leistung für schnellere Navigation und Bildaufnahme",
+    "Erhöhte Stabilität beim Wechseln zwischen Filmen und Bearbeiten von Bildern",
+    "Optimierte Speichernutzung für geschmeidigeren Betrieb mit großen Filmbibliothe ken"
+  ],
+  "fixes": [],
+  "patches": [],
+  "meta_title": "Messmethoden-Metadaten & Leistungsverbesserungen · Frames",
+  "meta_description": "Frames erfasst jetzt die Messmethode deiner Kamera neben Belichtungsdaten und gibt dir eine vollständigere Aufzeichnung davon, wie jede Aufnahme gemessen..."
+}

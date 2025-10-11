@@ -1,0 +1,23 @@
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://withframes.com/pt/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Changelog",
+      "item": "https://withframes.com/pt/changelog/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Lançamento do Frames: Seu Caderno de Fotografia Analógica",
+      "item": "https://withframes.com/pt/changelog/1-0-ios/"
+    }  ]
+}

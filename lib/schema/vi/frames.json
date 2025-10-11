@@ -168,17 +168,6 @@
           }
         },
         {
-          "@type": "WebPage",
-          "@id": "https://withframes.com/vivi/",
-          "url": "https://withframes.com/vivi/",
-          "name": "Frames – Ứng Dụng Chụp Phim cho Ghi Chú & Siêu Dữ Liệu",
-          "description": "Frames là ứng dụng chụp phim dành cho nhiếp ảnh gia analog. Ghi lại từng bức ảnh, theo dõi cài đặt máy, sắp xếp cuộn phim và lưu siêu dữ liệu EXIF.",
-          "inLanguage": "vi",
-          "publisher": {
-            "@id": "https://withframes.com/#organization"
-          }
-        },
-        {
           "@type": "VideoObject",
           "name": "Ứng Dụng Chụp Phim để Ghi Lại & Theo Dõi Cuộn Phim (Frames cho iPhone)",
           "description": "Khám phá Frames, ứng dụng chụp phim chuyên dụng được thiết kế cho nhiếp ảnh gia analog. Frames giúp quản lý nhiếp ảnh analog của bạn một cách dễ dàng, giúp bạn ghi lại không chỉ các bức ảnh mà còn cả câu chuyện đằng sau mỗi cuộn phim và khung hình. Cho dù bạn làm việc với phim 35mm, định dạng trung bình hay định dạng lớn, Frames giữ cho quy trình làm việc của bạn được tổ chức và đảm bảo siêu dữ liệu ảnh của bạn gắn liền với hình ảnh, ngay cả sau khi quét.",
@@ -190,34 +179,6 @@
           "publisher": {
             "@id": "https://withframes.com/#organization"
           }
-        },
-        {
-          "@type": "Organization",
-          "@id": "https://withframes.com/#organization",
-          "name": "Frames",
-          "url": "https://withframes.com/",
-          "logo": "https://withframes.com/apple-touch-icon.png",
-          "contactPoint": {
-            "@type": "ContactPoint",
-            "email": "bonjour@withframes.com",
-            "contactType": "Customer Support",
-            "areaServed": "Worldwide",
-            "availableLanguage": ["English", "French"]
-          },
-          "sameAs": [
-            "https://twitter.com/withframes",
-            "https://www.facebook.com/framesapp",
-            "https://www.instagram.com/with_frames/",
-            "https://linkedin.com/company/withframes/",
-            "https://pinterest.com/framesapp/",
-            "https://mastodon.social/@frames",
-            "https://bsky.app/profile/withframes.bsky.social",
-            "https://www.tiktok.com/@with_frames",
-            "https://www.youtube.com/@withframes",
-            "https://g.co/kgs/5oEvXT5",
-            "https://apps.apple.com/vn/app/frames-ghi-chú-phim-ảnh/id6744057317?l=vi",
-            "https://apps.apple.com/vn/app/frames-siêu-dữ-liệu-phim/id6744063354?l=vi"
-          ]
         }
       ]
     }

@@ -1,0 +1,78 @@
+{
+  "version": "1.0.0",
+  "version_short": "1.0",
+  "url_slug": "1-0-macos",
+  "platform": "macos",
+  "release_date": "2025-04-08T10:00:00.000Z",
+  "title": "Lançamento do Frames para macOS",
+  "meta_title": "Lançamento do Frames para macOS · Frames",
+  "meta_description": "Incorpore metadados EXIF em filmes digitalizados. Compatível com Lightroom, Capture One e Fotos da Apple. Importação de arquivos .frames do iOS.",
+  "summary": "O tão aguardado aplicativo complementar para macOS é lançado, trazendo reintegração perfeita de metadados em imagens de filmes digitalizadas. Importe seus dados de rolos de filme do iOS e incorpore metadados EXIF em arquivos JPEG.",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Reintegração de Metadados para Filmes Digitalizados"
+    },
+    {
+      "type": "paragraph",
+      "content": "O Frames para macOS resolve o recurso mais solicitado pela comunidade de fotografia analógica: reintegrar metadados em imagens digitalizadas. Importe seus arquivos .frames do iOS, arraste suas imagens JPEG digitalizadas e o aplicativo combina fotogramas com fotos. Suas configurações de exposição, dados da câmera, informações da lente, filmes e notas de disparo são incorporados como metadados EXIF que funcionam perfeitamente com Lightroom, Capture One e Fotos da Apple."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.0.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.0.0-1@2x.png",
+      "alt": "Aplicativo macOS Frames para incorporar metadados EXIF em fotografias de filmes digitalizadas",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Fluxo de Trabalho Simples, Resultados Profissionais"
+    },
+    {
+      "type": "paragraph",
+      "content": "O fluxo de trabalho é direto: importe seu arquivo .frames, adicione suas imagens digitalizadas, combine fotogramas com fotos e exporte. O aplicativo lida com a incorporação EXIF automaticamente, garantindo que sua documentação de fotografia analógica se torne registros digitais permanentes. Seus dados de rolos de filme transferem perfeitamente do registro em campo no iOS para o arquivo final no macOS."
+    }
+  ],
+  "improvements": [
+    "Importação de arquivos .frames do iOS",
+    "Suporte a arquivos JPEG com incorporação completa de metadados",
+    "Correspondência automática de fotogramas com fotos",
+    "Incorporação de metadados EXIF compatível com Lightroom, Capture One e Fotos da Apple",
+    "Design nativo do macOS seguindo as Diretrizes de Interface Humana da Apple",
+    "Disponível em 7 idiomas: inglês, francês, espanhol, italiano, português, alemão e holandês"
+  ],
+  "fixes": [],
+  "patches": [
+    {
+      "version": "1.0.1",
+      "description": "Adicionado suporte ao idioma francês."
+    },
+    {
+      "version": "1.0.2",
+      "description": "Expandido para 7 idiomas: inglês, francês, espanhol, italiano, português, alemão e holandês."
+    },
+    {
+      "version": "1.0.3",
+      "description": "Suporte a idiomas aprimorado."
+    },
+    {
+      "version": "1.0.4",
+      "description": "Agora compatível com macOS 15.0 e posterior."
+    },
+    {
+      "version": "1.0.5",
+      "description": "Fotos exportadas agora mantêm seus nomes de arquivo originais."
+    },
+    {
+      "version": "1.0.6",
+      "description": "Ícone do aplicativo redesenhado."
+    },
+    {
+      "version": "1.0.7",
+      "description": "Pequeno refinamento no logotipo do aplicativo."
+    }
+  ]
+}

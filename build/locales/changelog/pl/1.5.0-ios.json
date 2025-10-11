@@ -1,0 +1,55 @@
+{
+  "version": "1.5.0",
+  "version_short": "1.5",
+  "url_slug": "1-5-ios",
+  "platform": "ios",
+  "release_date": "2025-09-03T10:00:00.000Z",
+  "title": "Nowe filmy, przeprojektowany system przysłony i zmiana obiektywów",
+  "summary": "Ta aktualizacja rozszerza bibliotekę filmów o nowe emulsje, całkowicie przeprojektowuje zarządzanie przysłoną z niestandardowymi sekwencjami przysłon, a także dodaje możliwość zmiany obiektywów bezpośrednio z rejestratora.",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Rozszerzona biblioteka filmów"
+    },
+    {
+      "type": "paragraph",
+      "content": "Lista filmów obejmuje teraz Harman Phoenix II, Lucky Color 200, Leica Monopan 50 i kilka innych popularnych emulsji. Niezależnie od tego, czy fotografujesz eksperymentalne filmy kolorowe, czy klasyczne czarno-białe, Frames obsługuje szerszą gamę typów filmów dla dokładniejszego rejestrowania."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/{{ lang }}/changelog/frames-1.5.0-1.png",
+      "image_2x": "/lib/img/{{ lang }}/changelog/frames-1.5.0-1@2x.png",
+      "alt": "Aplikacja Frames do fotografii analogowej z niestandardowymi sekwencjami przysłon i poszerzoną biblioteką filmów",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Przeprojektowane zarządzanie przysłoną"
+    },
+    {
+      "type": "paragraph",
+      "content": "Sterowanie przysłoną zostało całkowicie przebudowane. Możesz teraz definiować niestandardowe sekwencje przysłon dla każdego obiektywu, pokazując tylko przysłony, które Twój obiektyw rzeczywiście posiada. Suwak rejestratora jest teraz prawidłowo wycentrowany na wybranej wartości przysłony. Zmieniaj obiektywy bezpośrednio z rejestratora bez opuszczania przepływu pracy i ustawiaj ogniskową przez przycisk Więcej dla obiektywów zmiennoogniskowych lub korekt perspektywy."
+    }
+  ],
+  "improvements": [
+    "Rozszerzona biblioteka filmów o Harman Phoenix II, Lucky Color 200, Leica Monopan 50 i inne",
+    "Całkowicie przeprojektowany system zarządzania przysłoną",
+    "Dodano niestandardowe sekwencje przysłon dla każdego obiektywu",
+    "Dodano zmianę obiektywów bezpośrednio z rejestratora",
+    "Ogniskowa może być teraz dostosowywana przez przycisk Więcej w rejestratorze",
+    "Poprawiona spójność lokalizacji",
+    "Drobne usprawnienia wydajności"
+  ],
+  "fixes": [
+    {
+      "title": "Centrowanie suwaka przysłony",
+      "description": "Naprawiono problem, w którym suwak przysłony w rejestratorze nie był prawidłowo wycentrowany na wybranej wartości."
+    }
+  ],
+  "patches": [],
+  "meta_title": "Nowe filmy, przeprojektowany system przysłony i zmiana obiektywów · Frames",
+  "meta_description": "Ta aktualizacja rozszerza bibliotekę filmów o nowe emulsje, całkowicie przeprojektowuje zarządzanie przysłoną z niestandardowymi sekwencjami przysłon, a..."
+}

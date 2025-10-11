@@ -1,0 +1,48 @@
+{
+  "version": "1.2.0",
+  "version_short": "1.2",
+  "url_slug": "1-2-macos",
+  "platform": "macos",
+  "release_date": "2025-08-24T10:00:00.000Z",
+  "title": "Filter Support, Japanese & Korean Languages",
+  "meta_title": "Filter Support, Japanese & Korean Languages · Frames",
+  "meta_description": "Automatic filter metadata embedding for UV, ND, and CPL filters. Japanese and Korean language support with improved EXIF data including camera serial numbers.",
+  "summary": "Filters now appear in the sidebar and are automatically added to metadata when saving frames. This update also brings Japanese and Korean language support, plus important bug fixes.",
+  "sections": [
+    {
+      "type": "paragraph",
+      "content": "Filters logged on iOS now display in the macOS sidebar and are automatically embedded into EXIF metadata during reintegration. This completes your analog documentation by including UV, ND, CPL, and other filters in your final images. Camera serial numbers are now included in metadata, and we've fixed a bug where flash values were inverted. Frames is now available in Japanese and Korean, matching the iOS language expansion."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-mac-1.2.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-mac-1.2.0-1@2x.png",
+      "alt": "Frames macOS app showing filter metadata sidebar for film photography documentation",
+      "width": "400",
+      "height": "300"
+    }
+  ],
+  "improvements": [
+    "Added filter display in sidebar",
+    "Filters automatically added to metadata when saving frames",
+    "Camera serial number now included in EXIF metadata",
+    "Added Japanese language support",
+    "Added Korean language support"
+  ],
+  "fixes": [
+    {
+      "title": "Flash Value Inversion",
+      "description": "Corrected an issue where the flash value was inverted (showing 'Yes' when it should have been 'No')."
+    }
+  ],
+  "patches": [
+    {
+      "version": "1.2.2",
+      "description": "Improved localization for new languages."
+    },
+    {
+      "version": "1.2.1",
+      "description": "Improved translations for consistency with the iOS app, plus minor UI enhancements."
+    }
+  ]
+}

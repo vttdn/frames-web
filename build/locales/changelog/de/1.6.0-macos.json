@@ -1,0 +1,38 @@
+{
+  "version": "1.6.0",
+  "version_short": "1.6",
+  "url_slug": "1-6-macos",
+  "platform": "macos",
+  "release_date": "2025-10-01T10:00:00.000Z",
+  "title": "Messmethoden-Metadaten & Leistungsverbesserungen",
+  "summary": "Frames für macOS enthält jetzt Messmethoden-Metadaten-Unterstützung für umfassende EXIF-Daten, plus Leistungsverbesserungen für schnelleren, stabileren Betrieb.",
+  "sections": [
+    {
+      "type": "paragraph",
+      "content": "Du kannst jetzt Messmethoden-Daten aus deinen Film-Logs sehen und in gescannte Bilder reintegrieren. Dies stimmt mit dem iOS-Update überein und stellt vollständige Metadaten-Konsistenz über beide Plattformen sicher. Leistungs-Upgrades in der gesamten App machen Metadaten-Reintegration schneller und zuverlässiger."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/{{ lang }}/changelog/frames-1.11.0-1.png",
+      "image_2x": "/lib/img/{{ lang }}/changelog/frames-1.11.0-1@2x.png",
+      "alt": "Frames macOS-App mit Messmethoden-Metadaten-Unterstützung für vollständige EXIF-Daten",
+      "width": "400",
+      "height": "300"
+    }
+  ],
+  "improvements": [
+    "Messmethoden-Metadaten-Unterstützung hinzugefügt",
+    "Leistungs-Upgrades für schnellere Bildverarbeitung",
+    "Verbesserte App-Stabilität überall",
+    "Erweiterte Metadaten-Reintegrations-Geschwindigkeit"
+  ],
+  "fixes": [],
+  "patches": [
+    {
+      "version": "1.5.1",
+      "description": "Verschiedene UI-Verbesserungen und visuelle Verfeinerungen."
+    }
+  ],
+  "meta_title": "Messmethoden-Metadaten & Leistungsverbesserungen · Frames",
+  "meta_description": "Frames für macOS enthält jetzt Messmethoden-Metadaten-Unterstützung für umfassende EXIF-Daten, plus Leistungsverbesserungen für schnelleren, stabileren Betrieb."
+}

@@ -1,0 +1,43 @@
+{
+  "version": "1.4.0",
+  "version_short": "1.4",
+  "url_slug": "1-4-ios",
+  "platform": "ios",
+  "release_date": "2025-08-20T10:00:00.000Z",
+  "title": "Soporte para registro de filtros",
+  "summary": "Documenta tu flujo de trabajo analógico completo registrando filtros junto a tu cámara, objetivo y película. Ahora puedes registrar filtros UV, ND, CPL y otros para cada disparo.",
+  "meta_title": "Soporte para registro de filtros · Frames",
+  "meta_description": "Registra filtros UV, ND, CPL y más junto a tus datos de exposición. Documentación completa de fotografía analógica sincronizada con la aplicación Mac.",
+  "sections": [
+    {
+      "type": "paragraph",
+      "content": "Los filtros ahora son parte de tu flujo de trabajo de registro de película. Registra qué filtros usaste para cada fotograma, incluyendo UV, ND, CPL y más. Esto completa tu documentación analógica capturando cada elemento que afecta tu imagen final, desde el cuerpo de la cámara y objetivo hasta la película y filtros. Los datos de filtro se incluyen en todas las exportaciones y se sincronizan con la aplicación Mac para un registro completo."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/{{ lang }}/changelog/frames-1.4.0-1.png",
+      "image_2x": "/lib/img/{{ lang }}/changelog/frames-1.4.0-1@2x.png",
+      "alt": "Aplicación de fotografía analógica Frames mostrando soporte de registro de filtros UV, ND y CPL",
+      "width": "400",
+      "height": "300"
+    }
+  ],
+  "improvements": [
+    "Soporte de registro de filtros añadido (UV, ND, CPL y más)",
+    "Filtros incluidos en todos los formatos de exportación",
+    "Datos de filtro sincronizados con aplicación Mac",
+    "Mejoras menores de rendimiento",
+    "Mejoras generales de estabilidad"
+  ],
+  "fixes": [],
+  "patches": [
+    {
+      "version": "1.4.1",
+      "description": "Corregido un problema donde editar una película en una subcarpeta la movía de vuelta a la carpeta raíz."
+    },
+    {
+      "version": "1.4.2",
+      "description": "Traducciones refinadas para consistencia con la aplicación Mac. Corregida visualización de país en búsqueda de ubicación. Añadidos valores predeterminados de velocidad de obturación y apertura al crear rollos."
+    }
+  ]
+}

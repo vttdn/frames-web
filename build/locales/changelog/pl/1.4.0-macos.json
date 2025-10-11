@@ -1,0 +1,72 @@
+{
+  "version": "1.4.0",
+  "version_short": "1.4",
+  "url_slug": "1-4-macos",
+  "platform": "macos",
+  "release_date": "2025-09-18T10:00:00.000Z",
+  "title": "Skróty klawiszowe, natywny inspektor i wydajność",
+  "meta_title": "Skróty klawiszowe, natywny inspektor i wydajność · Frames",
+  "meta_description": "Nawigacja klawiaturowa, natywny panel inspektora macOS i zoptymalizowana wydajność. Szybsza i bardziej responsywna reintegracja metadanych fotografii kliszowej.",
+  "summary": "Ulepszony interfejs macOS z nawigacją klawiaturową, natywnym panelem inspektora, czystszym projektem i zoptymalizowaną wydajnością dla szybszej, bardziej responsywnej reintegracji metadanych.",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Nawigacja klawiaturą i natywne kontrolki"
+    },
+    {
+      "type": "paragraph",
+      "content": "Nawiguj szybko między klatkami strzałkami, usuwaj dołączone zdjęcia klawiszem Backspace i naciskaj Enter, aby wybierać zdjęcia. Niestandardowy pasek boczny został zastąpiony natywnym panelem inspektora macOS dla bardziej dopracowanego, zintegrowanego systemowo doświadczenia zgodnego z językiem projektowym Apple."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-mac-1.4.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-mac-1.4.0-1@2x.png",
+      "alt": "Aplikacja Frames macOS ze skrótami klawiszowymi i natywnym inspektorem do przepływu pracy metadanych filmów",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Dopracowany interfejs i wydajność"
+    },
+    {
+      "type": "paragraph",
+      "content": "Artefakty wizualne zostały usunięte w całym interfejsie dla czystszego, bardziej profesjonalnego wyglądu. Architektura kodu została zoptymalizowana dla lepszej responsywności aplikacji i stabilności, czyniąc przepływy pracy reintegracji metadanych szybszymi i bardziej niezawodnymi."
+    }
+  ],
+  "improvements": [
+    "Dodano nawigację klawiaturą ze strzałkami do przeglądania klatek",
+    "Dodano skrót Backspace do usuwania dołączonych zdjęć",
+    "Dodano skrót Enter do wybierania zdjęć",
+    "Zastąpiono niestandardowy pasek boczny natywnym panelem inspektora macOS",
+    "Usunięto artefakty wizualne dla czystszego interfejsu",
+    "Zoptymalizowano architekturę kodu dla lepszej wydajności",
+    "Poprawiona responsywność aplikacji w całości",
+    "Zwiększona ogólna stabilność"
+  ],
+  "fixes": [],
+  "patches": [
+    {
+      "version": "1.3.5",
+      "description": "Zaktualizowana ikona aplikacji dla macOS 26."
+    },
+    {
+      "version": "1.3.4",
+      "description": "Reintegracja metadanych dla JPEG i TIFF teraz zachowuje istniejące dane. Dodawane są tylko informacje zapisane przez Frames."
+    },
+    {
+      "version": "1.3.3",
+      "description": "Dodano reintegrację maksymalnej i minimalnej przysłony do metadanych EXIF. Dodano obsługę specyfikacji obiektywów."
+    },
+    {
+      "version": "1.3.2",
+      "description": "Drobne poprawki błędów i usprawnienia wydajności."
+    },
+    {
+      "version": "1.3.1",
+      "description": "Dodano obsługę nowych czasów naświetlania z iOS. Aplikacja priorytetowo traktuje niestandardowy rating ISO nad domyślną prędkością pudełkową."
+    }
+  ]
+}

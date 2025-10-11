@@ -1,0 +1,43 @@
+{
+  "version": "1.5.0",
+  "version_short": "1.5",
+  "url_slug": "1-5-macos",
+  "platform": "macos",
+  "release_date": "2025-09-19T10:00:00.000Z",
+  "title": "Stora prestanda- och DNG-bearbetningsförbättringar",
+  "summary": "Denna uppdatering levererar betydligt snabbare bildhantering med optimerad DNG-bearbetning, förbättrad cachning och fixar för .frames-filimport och DNG-metadataexport på Intel-Mac-datorer.",
+  "sections": [
+    {
+      "type": "paragraph",
+      "content": "Bildladdning är nu betydligt snabbare för alla format, med stora förbättringar av DNG-bearbetningshastighet och pålitlighet. Minnesanvändning har optimerats, cachning förbättrats och synkroniserad laddning säkerställer smidig drift även med stora bildgrupper. Vi har även fixat .frames-filimport från macOS menyfält och löst DNG-metadataexportproblem på äldre Intel-Mac-datorer."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.10.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.10.0-1@2x.png",
+      "alt": "Frames macOS-app med optimerad DNG-bearbetningsprestanda för snabbare bildhantering",
+      "width": "400",
+      "height": "300"
+    }
+  ],
+  "improvements": [
+    "Betydligt snabbare bildladdning för alla format",
+    "Optimerad DNG-bearbetning för bättre prestanda",
+    "Förbättrat cachningssystem för smidigare drift",
+    "Förbättrad minnesanvändningseffektivitet",
+    "Synkroniserad laddning för stora bildgrupper"
+  ],
+  "fixes": [
+    {
+      "title": ".frames-filimport",
+      "description": "Fixade .frames-filimport från macOS menyfält."
+    },
+    {
+      "title": "DNG-export på Intel-Mac-datorer",
+      "description": "Fixade DNG-metadataexport på äldre Intel-Mac-modeller."
+    }
+  ],
+  "patches": [],
+  "meta_title": "Stora prestanda- och DNG-bearbetningsförbättringar · Frames",
+  "meta_description": "Denna uppdatering levererar betydligt snabbare bildhantering med optimerad DNG-bearbetning, förbättrad cachning och fixar för .frames-filimport och..."
+}

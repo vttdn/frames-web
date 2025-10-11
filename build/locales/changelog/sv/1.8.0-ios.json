@@ -1,0 +1,32 @@
+{
+  "version": "1.8.0",
+  "version_short": "1.8",
+  "url_slug": "1-8-ios",
+  "platform": "ios",
+  "release_date": "2025-09-15T10:00:00.000Z",
+  "title": "TXT-filexport för filmloggar",
+  "summary": "Pro-användare kan nu exportera filmrullsloggar som TXT-filer, perfekt för att skriva ut fältanteckningar eller skapa snabbreferensark för mörkrumsarbete.",
+  "meta_title": "TXT-filexport för filmloggar · Frames",
+  "meta_description": "Exportera filmrullsmetadata som TXT-filer för utskrift. Perfekt för fältanteckningar och mörkrumsreferens med komplett exponerings- och bildinformation.",
+  "sections": [
+    {
+      "type": "paragraph",
+      "content": "Exportera din filmrullsmetadata som rena textfiler. Detta format fungerar väl för att skriva ut kompakta referensark att ha i kameraväskan eller mörkrummet. Varje TXT-export inkluderar alla bilddetaljer, exponeringsinställningar och anteckningar i ett rent, läsbart format som är enkelt att skriva ut eller dela med labb."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.8.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.8.0-1@2x.png",
+      "alt": "Frames analogfotografiapp med TXT-exportfunktion för utskrift av filmrullsanteckningar och metadata",
+      "width": "400",
+      "height": "300"
+    }
+  ],
+  "improvements": [
+    "Tillagt TXT-filexport för Pro-användare",
+    "Optimerad exportformatering för utskrift och läsbarhet",
+    "Inkluderad omfattande bildmetadata i exporter"
+  ],
+  "fixes": [],
+  "patches": []
+}

@@ -1,0 +1,77 @@
+{
+  "version": "1.13.0",
+  "version_short": "1.13",
+  "url_slug": "1-13-ios",
+  "platform": "ios",
+  "release_date": "2025-10-06T10:00:00.000Z",
+  "title": "Hebreeuws, Arabisch, Roemeens en Oekraïens taalondersteuning",
+  "summary": "Frames zet zijn missie voort om analoge fotografen wereldwijd te bedienen met deze belangrijke lokalisatie-update, die native ondersteuning brengt voor Hebreeuwse, Arabische, Roemeense en Oekraïense sprekers, samen met verfijnde vertalingen en interface-verbeteringen door de hele app.",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Vier nieuwe talen met rechts-naar-links ondersteuning"
+    },
+    {
+      "type": "paragraph",
+      "content": "Frames ondersteunt nu Hebreeuws, Arabisch, Roemeens en Oekraïens, elk zorgvuldig gelokaliseerd met respect voor culturele nuances en fotografie-terminologie. Hebreeuws en Arabisch bevatten volledige rechts-naar-links interface-aanpassing. Navigatiestromen, knopplaatsing en tekstuitlijning spiegelen allemaal passend terwijl technische termen zoals filmstockcodes en diafragmawaarden in hun standaard internationale formaat behouden blijven."
+    },
+    {
+      "type": "list",
+      "items": [
+        {
+          "title": "Hebreeuws (עברית) & Arabisch (العربية)",
+          "description": "Volledige RTL-interface met eigen terminologie voor filmsoorten, camera-instellingen en EXIF-metadata."
+        },
+        {
+          "title": "Roemeens (Română) & Oekraïens (Українська)",
+          "description": "Volledige vertalingen ter ondersteuning van fotografen die hun werk in hun eigen taal documenteren."
+        }
+      ]
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.13.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.13.0-1@2x.png",
+      "alt": "Frames filmfotografie-app met Hebreeuwse en Arabische RTL-interface en taalondersteuning",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Vertalingsverfijningen in alle talen"
+    },
+    {
+      "type": "paragraph",
+      "content": "Naast nieuwe talen hebben we bestaande vertalingen door de hele app verfijnd op basis van feedback van fotografen. Filmstocknamen blijven in hun oorspronkelijke taal (Kodak Portra, Ilford HP5), terwijl interface-elementen zich aanpassen aan je gekozen taal. Taalvoorkeuren synchroniseren tussen apparaten, en alle bestaande data wordt automatisch weergegeven in je geselecteerde taal zonder opnieuw invoeren of migratie."
+    }
+  ],
+  "improvements": [
+    "Volledige Hebreeuwse (עברית) lokalisatie toegevoegd met rechts-naar-links interface-ondersteuning",
+    "Volledige Arabische (العربية) lokalisatie toegevoegd met RTL lay-out aanpassing",
+    "Roemeense (Română) vertaling toegevoegd voor de filmfotografie-gemeenschap",
+    "Oekraïense (Українська) ondersteuning met eigen terminologie toegevoegd",
+    "Bestaande vertalingen verfijnd in alle ondersteunde talen voor verbeterde duidelijkheid en consistentie",
+    "Verbeterde nauwkeurigheid van technische terminologie in fotografiespecifieke velden",
+    "Verbeterde bidirectionele tekstondersteuning voor gemengde Latijnse en RTL-inhoud"
+  ],
+  "fixes": [
+    {
+      "title": "Tekstoverloop in vertalingen",
+      "description": "Lay-outproblemen opgelost waarbij langere vertaalde zinnen konden worden afgekapt in bepaalde interface-elementen."
+    },
+    {
+      "title": "RTL lay-out consistentie",
+      "description": "Kleine uitlijningsproblemen in rechts-naar-links talen verholpen om correcte spiegeling op alle schermen te garanderen."
+    }
+  ],
+  "patches": [
+    {
+      "version": "1.13.1",
+      "description": "Fout verholpen die kon zorgen dat het deelmenu herhaaldelijk flikkerde bij exporteren"
+    }
+  ],
+  "meta_title": "Hebreeuws, Arabisch, Roemeens en Oekraïens taalondersteuning · Frames",
+  "meta_description": "Frames zet zijn missie voort om analoge fotografen wereldwijd te bedienen met deze belangrijke lokalisatie-update, die native ondersteuning brengt voor..."
+}

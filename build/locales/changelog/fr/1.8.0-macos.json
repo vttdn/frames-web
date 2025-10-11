@@ -1,0 +1,35 @@
+{
+  "version": "1.8.0",
+  "version_short": "1.8",
+  "url_slug": "1-8-macos",
+  "platform": "macos",
+  "release_date": "2025-10-03T10:00:00.000Z",
+  "title": "Support linguistique pour l'hébreu, l'arabe, le roumain et l'ukrainien",
+  "summary": "Frames pour macOS continue d'élargir le support linguistique avec l'hébreu, l'arabe, le roumain et l'ukrainien, avec des raffinements d'interface pour une réintégration de métadonnées plus fluide.",
+  "meta_title": "Support linguistique pour l'hébreu, l'arabe, le roumain et l'ukrainien · Frames",
+  "meta_description": "Interface RTL complète pour l'hébreu et l'arabe, plus traductions roumaine et ukrainienne pour accompagner les photographes argentiques du monde entier.",
+  "sections": [
+    {
+      "type": "paragraph",
+      "content": "Cette mise à jour apporte le support natif de l'hébreu et de l'arabe avec adaptation complète de l'interface de droite à gauche, plus les traductions roumaine et ukrainienne. Toute la terminologie spécifique aux pellicules, réglages d'appareil et métadonnées EXIF a été soigneusement localisée pour garantir la cohérence avec l'application iOS."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.13.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.13.0-1@2x.png",
+      "alt": "Application Frames macOS avec interface RTL hébreu et arabe et support linguistique",
+      "width": "400",
+      "height": "300"
+    }
+  ],
+  "improvements": [
+    "Ajout de la localisation en hébreu (עברית) avec support d'interface de droite à gauche",
+    "Ajout de la localisation en arabe (العربية) avec adaptation de mise en page RTL",
+    "Ajout de la traduction roumaine (Română)",
+    "Ajout du support ukrainien (Українська)",
+    "Raffinements d'interface pour une expérience utilisateur plus fluide",
+    "Cohérence améliorée dans toutes les langues supportées"
+  ],
+  "fixes": [],
+  "patches": []
+}

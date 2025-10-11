@@ -1,0 +1,108 @@
+{
+  "version": "1.1.0",
+  "version_short": "1.1",
+  "url_slug": "1-1-ios",
+  "platform": "ios",
+  "release_date": "2025-06-03T05:52:00.000Z",
+  "title": "Introducerar Frames Pro",
+  "meta_title": "Introducerar Frames Pro · Frames",
+  "meta_description": "Uppgradera till Frames Pro för obegränsade filmrullar och avancerade funktioner. Gratisversionen behåller full tillgång till 10 rullar.",
+  "summary": "Frames Pro är här och erbjuder obegränsade filmrullar och tillgång till avancerade funktioner. Gratisanvändare kan fortsätta använda Frames med upp till 10 rullar, medan Pro låser upp den fulla potentialen i ditt analoga arbetsflöde.",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Obegränsad dokumentation för ditt arkiv"
+    },
+    {
+      "type": "paragraph",
+      "content": "Med Frames Pro kan du skapa obegränsade filmrullar för att dokumentera hela din analoga fotosamling utan begränsningar. Oavsett om du arkiverar hundratals rullar från år av fotografering eller aktivt hanterar dussintals pågående projekt, skalar Frames Pro med dina behov. Gratisanvändare behåller full tillgång till alla kärnfunktioner med en gräns på 10 rullar, vilket gör Frames tillgängligt för alla samtidigt som det stödjer dem som vill ta sin dokumentation längre."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.1.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.1.0-1@2x.png",
+      "alt": "Frames Pro subscription offering unlimited film rolls for analog photography logging",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "paragraph",
+      "content": "Den här versionen innehåller även prestandaoptimeringar i hela appen, förfinade designelement för förbättrad tydlighet och ökad stabilitet vid hantering av omfattande bibliotek. Den nya appikonen och startskärmen återspeglar Frames utveckling som ett professionellt verktyg för analoga fotografer."
+    },
+    {
+      "type": "list",
+      "items": [
+        {
+          "title": "Frames Pro-prenumeration",
+          "description": "Lås upp obegränsade filmrullar och tidig tillgång till avancerade funktioner."
+        },
+        {
+          "title": "Gratisversion behållen",
+          "description": "Fortsätt använda alla kärnfunktioner med upp till 10 filmrullar kostnadsfritt."
+        },
+        {
+          "title": "Prestandaförbättringar",
+          "description": "Förbättrad responsivitet och stabilitet i hela appen."
+        },
+        {
+          "title": "Förfinad design",
+          "description": "Ny appikon, startskärm och gränssnittselement för en polerad upplevelse."
+        },
+        {
+          "title": "Exportkorrigering",
+          "description": "Löst problem som förhindrade att exportfiler genererades om korrekt efter ändringar."
+        }
+      ]
+    }
+  ],
+  "improvements": [
+    "Lansering av Frames Pro-prenumeration med obegränsade filmrullar",
+    "Förbättrad övergripande prestanda och responsivitet",
+    "Förfinad gränssnittsdesign",
+    "Ny appikon med förnyad visuell identitet",
+    "Omdesignad startskärm för bättre första intryck",
+    "Optimerad minnesanvändning för omfattande bibliotek",
+    "Ökad stabilitet vid tillägg av kameror och objektiv"
+  ],
+  "fixes": [
+    "Korrigerat fel som förhindrade att exportfiler genererades om efter ändringar"
+  ],
+  "patches": [
+    {
+      "version": "1.1.1",
+      "date": "2025-06-11",
+      "description": "Mindre justering av appikon"
+    },
+    {
+      "version": "1.1.2",
+      "date": "2025-06-15",
+      "description": "Mindre prestandaförbättringar"
+    },
+    {
+      "version": "1.1.3",
+      "date": "2025-06-17",
+      "description": "Ny appikon"
+    },
+    {
+      "version": "1.1.4",
+      "date": "2025-06-18",
+      "description": "Omdesignad appikon"
+    },
+    {
+      "version": "1.1.5",
+      "date": "2025-06-20",
+      "description": "Uppdaterad startskärm"
+    },
+    {
+      "version": "1.1.6",
+      "date": "2025-06-20",
+      "description": "Korrigerat ett fel som förhindrade att exportfilen genererades om korrekt efter ändringar"
+    },
+    {
+      "version": "1.1.7",
+      "date": "2025-07-12",
+      "description": "Förbättrad stabilitet vid tillägg av utrustning i iOS 26 Beta"
+    }
+  ]
+}

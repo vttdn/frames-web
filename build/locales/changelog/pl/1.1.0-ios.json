@@ -1,0 +1,108 @@
+{
+  "version": "1.1.0",
+  "version_short": "1.1",
+  "url_slug": "1-1-ios",
+  "platform": "ios",
+  "release_date": "2025-06-03T05:52:00.000Z",
+  "title": "Przedstawiamy Frames Pro",
+  "meta_title": "Przedstawiamy Frames Pro · Frames",
+  "meta_description": "Przejdź na Frames Pro dla nieograniczonej liczby rolek i zaawansowanych funkcji. Darmowa wersja zachowuje pełny dostęp do 10 rolek.",
+  "summary": "Frames Pro jest już dostępny, oferując nieograniczoną liczbę rolek i dostęp do zaawansowanych funkcji. Darmowi użytkownicy mogą nadal korzystać z Frames z maksymalnie 10 rolkami, podczas gdy Pro odblokowuje pełny potencjał analogowego obiegu pracy fotograficznej.",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Nieograniczona archiwizacja kliszy"
+    },
+    {
+      "type": "paragraph",
+      "content": "Z Frames Pro możesz tworzyć nieograniczoną liczbę rolek, aby udokumentować całą swoją kolekcję fotografii analogowej bez ograniczeń. Niezależnie od tego, czy archiwizujesz setki rolek zgromadzonych przez lata fotografowania, czy aktywnie zarządzasz dziesiątkami bieżących projektów, Frames Pro skaluje się według Twoich potrzeb. Darmowi użytkownicy zachowują pełny dostęp do wszystkich podstawowych funkcji z limitem 10 rolek, dzięki czemu Frames pozostaje dostępny dla wszystkich, jednocześnie wspierając tych, którzy chcą rozwinąć swoje archiwum."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.1.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.1.0-1@2x.png",
+      "alt": "Frames Pro subscription offering unlimited film rolls for analog photography logging",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "paragraph",
+      "content": "Ta wersja zawiera również optymalizacje wydajności w całej aplikacji, dopracowane elementy projektu dla lepszej przejrzystości oraz ulepszoną stabilność podczas zarządzania rozbudowanymi bibliotekami. Nowa ikona i ekran startowy odzwierciedlają ewolucję Frames jako profesjonalnego narzędzia dla fotografów analogowych."
+    },
+    {
+      "type": "list",
+      "items": [
+        {
+          "title": "Subskrypcja Frames Pro",
+          "description": "Odblokuj nieograniczoną liczbę rolek i wczesny dostęp do zaawansowanych funkcji."
+        },
+        {
+          "title": "Darmowa wersja zachowana",
+          "description": "Kontynuuj korzystanie ze wszystkich podstawowych funkcji z maksymalnie 10 rolkami bezpłatnie."
+        },
+        {
+          "title": "Usprawnienia wydajności",
+          "description": "Zwiększona responsywność i stabilność w całej aplikacji."
+        },
+        {
+          "title": "Dopracowany design",
+          "description": "Nowa ikona, ekran startowy i elementy interfejsu dla dopieszczonej obsługi."
+        },
+        {
+          "title": "Naprawa eksportu",
+          "description": "Rozwiązano problem uniemożliwiający regenerację plików eksportu po zmianach."
+        }
+      ]
+    }
+  ],
+  "improvements": [
+    "Wprowadzenie subskrypcji Frames Pro z nieograniczoną liczbą rolek",
+    "Ulepszona ogólna wydajność i responsywność",
+    "Dopracowany design interfejsu użytkownika",
+    "Nowa ikona aplikacji z odświeżoną tożsamością wizualną",
+    "Przeprojektowany ekran startowy dla lepszego pierwszego wrażenia",
+    "Zoptymalizowane zużycie pamięci dla rozbudowanych bibliotek",
+    "Zwiększona stabilność przy dodawaniu aparatów i obiektywów"
+  ],
+  "fixes": [
+    "Naprawiono błąd uniemożliwiający regenerację plików eksportu po zmianach"
+  ],
+  "patches": [
+    {
+      "version": "1.1.1",
+      "date": "2025-06-11",
+      "description": "Drobna zmiana ikony aplikacji"
+    },
+    {
+      "version": "1.1.2",
+      "date": "2025-06-15",
+      "description": "Drobne usprawnienia wydajności"
+    },
+    {
+      "version": "1.1.3",
+      "date": "2025-06-17",
+      "description": "Nowa ikona aplikacji"
+    },
+    {
+      "version": "1.1.4",
+      "date": "2025-06-18",
+      "description": "Przeprojektowana ikona aplikacji"
+    },
+    {
+      "version": "1.1.5",
+      "date": "2025-06-20",
+      "description": "Zaktualizowany ekran startowy"
+    },
+    {
+      "version": "1.1.6",
+      "date": "2025-06-20",
+      "description": "Naprawiono błąd uniemożliwiający poprawną regenerację pliku eksportu po zmianach"
+    },
+    {
+      "version": "1.1.7",
+      "date": "2025-07-12",
+      "description": "Zwiększona stabilność przy dodawaniu sprzętu w iOS 26 Beta"
+    }
+  ]
+}

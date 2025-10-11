@@ -1,0 +1,77 @@
+{
+  "version": "1.13.0",
+  "version_short": "1.13",
+  "url_slug": "1-13-ios",
+  "platform": "ios",
+  "release_date": "2025-10-06T10:00:00.000Z",
+  "title": "Supporto Lingue Ebraico, Arabo, Rumeno e Ucraino",
+  "summary": "Frames continua la sua missione di servire fotografi analogici in tutto il mondo con questo significativo aggiornamento di localizzazione, portando supporto nativo per parlanti di ebraico, arabo, rumeno e ucraino, insieme a traduzioni perfezionate e miglioramenti interfaccia in tutta l'app.",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Quattro Nuove Lingue con Supporto Da Destra a Sinistra"
+    },
+    {
+      "type": "paragraph",
+      "content": "Frames ora supporta ebraico, arabo, rumeno e ucraino, ognuna attentamente localizzata per rispettare sfumature culturali e terminologia fotografica. Ebraico e arabo includono adattamento completo dell'interfaccia da destra a sinistra. Flussi di navigazione, posizionamento pulsanti e allineamento testo si specchiano tutti appropriatamente preservando al contempo termini tecnici come codici pellicola e valori apertura nel loro formato internazionale standard."
+    },
+    {
+      "type": "list",
+      "items": [
+        {
+          "title": "Ebraico (עברית) e Arabo (العربية)",
+          "description": "Interfaccia RTL completa con terminologia nativa per pellicole, impostazioni fotocamera e metadati EXIF."
+        },
+        {
+          "title": "Rumeno (Română) e Ucraino (Українська)",
+          "description": "Traduzioni complete che supportano fotografi che documentano il loro lavoro nella loro lingua nativa."
+        }
+      ]
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.13.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.13.0-1@2x.png",
+      "alt": "App Frames per fotografia analogica con interfaccia RTL ebraico e arabo e supporto linguistico",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Perfezionamenti Traduzione in Tutte le Lingue"
+    },
+    {
+      "type": "paragraph",
+      "content": "Oltre alle nuove lingue, abbiamo perfezionato le traduzioni esistenti in tutta l'app basandoci sui feedback dei fotografi. I nomi delle pellicole rimangono nella loro lingua originale (Kodak Portra, Ilford HP5), mentre gli elementi dell'interfaccia si adattano alla lingua scelta. Le preferenze linguistiche si sincronizzano tra dispositivi e tutti i dati esistenti vengono automaticamente visualizzati nella lingua selezionata senza re-immissione o migrazione."
+    }
+  ],
+  "improvements": [
+    "Aggiunta localizzazione completa ebraico (עברית) con supporto interfaccia da destra a sinistra",
+    "Aggiunta localizzazione completa arabo (العربية) con adattamento layout RTL",
+    "Aggiunta traduzione rumeno (Română) per la community fotografia analogica",
+    "Aggiunto supporto ucraino (Українська) con terminologia nativa",
+    "Perfezionate traduzioni esistenti in tutte le lingue supportate per maggiore chiarezza e coerenza",
+    "Migliorata precisione terminologia tecnica nei campi specifici della fotografia",
+    "Supporto testo bidirezionale migliorato per contenuto misto latino e RTL"
+  ],
+  "fixes": [
+    {
+      "title": "Overflow Testo nelle Traduzioni",
+      "description": "Risolti problemi layout dove frasi tradotte più lunghe potevano essere troncate in alcuni elementi dell'interfaccia."
+    },
+    {
+      "title": "Coerenza Layout RTL",
+      "description": "Corretti problemi minori di allineamento nelle lingue da destra a sinistra per assicurare specchiamento appropriato su tutti gli schermi."
+    }
+  ],
+  "patches": [
+    {
+      "version": "1.13.1",
+      "description": "Corretto un bug che poteva causare lo sfarfallio ripetuto del menu condivisione durante l'esportazione"
+    }
+  ],
+  "meta_title": "Supporto Lingue Ebraico, Arabo, Rumeno e Ucraino · Frames",
+  "meta_description": "Frames continua la sua missione di servire fotografi analogici in tutto il mondo con questo significativo aggiornamento di localizzazione, portando supporto..."
+}

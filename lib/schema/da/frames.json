@@ -168,17 +168,6 @@
           }
         },
         {
-          "@type": "WebPage",
-          "@id": "https://withframes.com/dada/",
-          "url": "https://withframes.com/dada/",
-          "name": "Frames – Filmfotografi App til Notater & Metadata",
-          "description": "Frames er en filmfotografi app til analoge fotografer. Log hvert billede, følg kameraindstillinger, organiser film og gem EXIF metadata på iPhone & Mac.",
-          "inLanguage": "da",
-          "publisher": {
-            "@id": "https://withframes.com/#organization"
-          }
-        },
-        {
           "@type": "VideoObject",
           "name": "Filmfotografi App til at Logge & Følge Dine Ruller (Frames til iPhone)",
           "description": "Opdag Frames, den dedikerede filmfotografi app designet til analoge fotografer. Frames gør styring af din analoge fotografering ubesværet og hjælper dig med at optage ikke kun dine billeder, men også historien bag hver rulle og hvert billede. Uanset om du arbejder med 35mm, mellemformat eller storformat film, holder Frames din arbejdsgang organiseret og sikrer at dine fotometadata forbliver med dine billeder, selv efter scanning.",
@@ -190,34 +179,6 @@
           "publisher": {
             "@id": "https://withframes.com/#organization"
           }
-        },
-        {
-          "@type": "Organization",
-          "@id": "https://withframes.com/#organization",
-          "name": "Frames",
-          "url": "https://withframes.com/",
-          "logo": "https://withframes.com/apple-touch-icon.png",
-          "contactPoint": {
-            "@type": "ContactPoint",
-            "email": "bonjour@withframes.com",
-            "contactType": "Customer Support",
-            "areaServed": "Worldwide",
-            "availableLanguage": ["English", "French"]
-          },
-          "sameAs": [
-            "https://twitter.com/withframes",
-            "https://www.facebook.com/framesapp",
-            "https://www.instagram.com/with_frames/",
-            "https://linkedin.com/company/withframes/",
-            "https://pinterest.com/framesapp/",
-            "https://mastodon.social/@frames",
-            "https://bsky.app/profile/withframes.bsky.social",
-            "https://www.tiktok.com/@with_frames",
-            "https://www.youtube.com/@withframes",
-            "https://g.co/kgs/5oEvXT5",
-            "https://apps.apple.com/dk/app/frames-filmnotater/id6744057317?l=da",
-            "https://apps.apple.com/dk/app/frames-filmmetadata/id6744063354?l=da"
-          ]
         }
       ]
     }

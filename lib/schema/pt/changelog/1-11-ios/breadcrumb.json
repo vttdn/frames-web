@@ -1,0 +1,23 @@
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://withframes.com/pt/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Changelog",
+      "item": "https://withframes.com/pt/changelog/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Metadados de Modo de Medição e Melhorias de Desempenho",
+      "item": "https://withframes.com/pt/changelog/1-11-ios/"
+    }  ]
+}

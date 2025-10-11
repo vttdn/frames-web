@@ -1,0 +1,53 @@
+{
+  "version": "1.6.0",
+  "version_short": "1.6",
+  "url_slug": "1-6-ios",
+  "platform": "ios",
+  "release_date": "2025-09-05T10:00:00.000Z",
+  "title": "Benutzerdefinierte Belichtungszeit-Sequenzen & Kartenverbesserungen",
+  "summary": "Stelle benutzerdefinierte Belichtungszeit-Sequenzen pro Kamera ein und zeige nur die Zeiten, die deine Kamera tatsächlich unterstützt. Dieses Update bringt auch verbesserte Kartenhandhabung, zusätzliche Belichtungszeit-Optionen und Export-Fortschrittsanzeigen.",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Benutzerdefinierte Belichtungszeit-Steuerung"
+    },
+    {
+      "type": "paragraph",
+      "content": "Konfiguriere welche Belichtungszeiten im Recorder-Schieberegler und in den Bildeinstellungen pro Kamera erscheinen. Wenn deine Kamera nur Zeiten von 1/1000 bis 1 Sekunde hat, kannst du die erweiterten Bereichsoptionen ausblenden. Dies hält deine Recorder-Oberfläche sauber und verhindert versehentliches Erfassen von Zeiten, die deine Kamera nicht unterstützt. Benutzerdefinierte Sequenzen synchronisieren sich mit der Mac-App für konsistente Metadaten auf allen Geräten."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/{{ lang }}/changelog/frames-1.6.0-1.png",
+      "image_2x": "/lib/img/{{ lang }}/changelog/frames-1.6.0-1@2x.png",
+      "alt": "Frames Filmfotografie-App mit benutzerdefinierten Belichtungszeit-Sequenzen und Kartenverbesserungen",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Erweiterte Karten- und Export-Funktionen"
+    },
+    {
+      "type": "paragraph",
+      "content": "Die Kartenansicht behandelt Koordinaten jetzt zuverlässiger mit verbesserter Gesten-Unterstützung zum Schwenken und Zoomen. Wir haben häufig verwendete Belichtungszeiten (1/160, 1/80, 1/40, 1/20) hinzugefügt, die zuvor fehlten. Export-Vorgänge zeigen jetzt einen Fortschrittsindikator, damit du weißt, wann deine Dateien generiert werden, bevor das Teilen-Menü erscheint."
+    }
+  ],
+  "improvements": [
+    "Benutzerdefinierte Belichtungszeit-Sequenzen pro Kamera hinzugefügt",
+    "Verbesserte Kartenkoordinaten-Handhabung und Gesten-Unterstützung",
+    "Fehlende Belichtungszeiten hinzugefügt: 1/160, 1/80, 1/40 und 1/20",
+    "Export-Fortschrittsanzeige vor Teilen-Menü hinzugefügt",
+    "Verbesserte Schieberegler-Genauigkeit in Recorder-Ansicht"
+  ],
+  "fixes": [
+    {
+      "title": "Recorder-Schieberegler-Genauigkeit",
+      "description": "Recorder-Schieberegler korrigiert, um sowohl korrekten Wert als auch visuelle Position zu zeigen."
+    }
+  ],
+  "patches": [],
+  "meta_title": "Benutzerdefinierte Belichtungszeit-Sequenzen & Kartenverbesserungen · Frames",
+  "meta_description": "Stelle benutzerdefinierte Belichtungszeit-Sequenzen pro Kamera ein und zeige nur die Zeiten, die deine Kamera tatsächlich unterstützt."
+}

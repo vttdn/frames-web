@@ -1,0 +1,53 @@
+{
+  "version": "1.6.0",
+  "version_short": "1.6",
+  "url_slug": "1-6-ios",
+  "platform": "ios",
+  "release_date": "2025-09-05T10:00:00.000Z",
+  "title": "Anpassade slutartidssekvenser och kartförbättringar",
+  "summary": "Ställ in anpassade slutartidssekvenser per kamera, och visa endast de hastigheter din kamera faktiskt stöder. Denna uppdatering tar även med sig förbättrad karthantering, ytterligare slutartidsalternativ och exportförloppsindikatorer.",
+  "meta_title": "Anpassade slutartidssekvenser och kartförbättringar · Frames",
+  "meta_description": "Konfigurera anpassade slutartidssekvenser per kamera. Förbättrad kartvy med gester, nya slutartidsalternativ och exportförloppsindikator för bättre kontroll.",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Anpassad slutartidskontroll"
+    },
+    {
+      "type": "paragraph",
+      "content": "Konfigurera vilka slutartider som visas i registrerarens reglage och bildinställningar per kamera. Om din kamera bara har hastigheter från 1/1000 till 1 sekund kan du dölja de utökade områdesalternativen. Detta håller ditt registreringsgränssnitt rent och förhindrar att du av misstag loggar hastigheter som din kamera inte stöder. Anpassade sekvenser synkroniseras med Mac-appen för konsekvent metadata mellan enheter."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/{{ lang }}/changelog/frames-1.6.0-1.png",
+      "image_2x": "/lib/img/{{ lang }}/changelog/frames-1.6.0-1@2x.png",
+      "alt": "Frames filmfotografiapp med anpassade slutartidssekvenser och kartförbättringar",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Förbättrad karta och exportfunktioner"
+    },
+    {
+      "type": "paragraph",
+      "content": "Kartvyn hanterar nu koordinater mer pålitligt med förbättrat geststöd för panorering och zoomning. Vi har lagt till vanligt använda slutartider (1/160, 1/80, 1/40, 1/20) som tidigare saknades. Exportoperationer visar nu en förloppsindikator så att du vet när dina filer genereras innan delningsarket visas."
+    }
+  ],
+  "improvements": [
+    "Tillagt anpassade slutartidssekvenser per kamera",
+    "Förbättrad koordinathantering och geststöd för kartan",
+    "Tillagt saknade slutartider: 1/160, 1/80, 1/40 och 1/20",
+    "Tillagt exportförloppsindikator innan delningsarket visas",
+    "Förbättrad reglageprecision i registrerarvyn"
+  ],
+  "fixes": [
+    {
+      "title": "Registreringsreglagets precision",
+      "description": "Fixade registreringsreglage för att matcha både korrekt värde och visuell position."
+    }
+  ],
+  "patches": []
+}

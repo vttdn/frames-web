@@ -1,0 +1,150 @@
+{
+  "version": "1.0.0",
+  "version_short": "1.0",
+  "url_slug": "1-0-ios",
+  "platform": "ios",
+  "release_date": "2025-04-01T03:02:00.000Z",
+  "title": "Frames Launch: Dein Notizbuch für Analogfotografie",
+  "summary": "Frames startet als kompletter Neuaufbau von Datafilm und bringt eine ausgefeilte iOS-App zum Erfassen von Filmfotografie-Metadaten im Feld, kombiniert mit einer neuen macOS-App zum Einbetten dieser Daten in gescannte Bilder.",
+  "meta_title": "Frames Launch: Dein Notizbuch für Analogfotografie · Frames",
+  "meta_description": "Erfasse Filmfotografie-Metadaten unterwegs und bette sie nahtlos in gescannte Bilder ein. Dokumentiere Kamera, Objektiv, Film und Standort professionell.",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Erfasse und organisiere deine Filme"
+    },
+    {
+      "type": "paragraph",
+      "content": "Frames ist dein digitales Notizbuch für Analogfotografie, entwickelt um Aufnahmeeinstellungen festzuhalten und Metadaten nahtlos in gescannte Bilder zu integrieren. Dokumentiere jedes wichtige Detail für jedes Bild: Brennweite, Belichtungszeit, Belichtungskorrektur, Blende, Blitzeinstellungen, Kamera, Objektiv, Filmtyp, Datum, Uhrzeit und Standort."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.0.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.0.0-1@2x.png",
+      "alt": "Frames Filmfotografie-App zum Erfassen analoger Kamerametadaten und Filmdetails",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "list",
+      "items": [
+        {
+          "title": "Umfassende Metadatenerfassung",
+          "description": "Erfasse Bildnummer, Brennweite, Belichtungszeit, Belichtungskorrektur, Blende, Blitzeinstellungen, Kamera, Objektiv, Filmtyp, Datum, Uhrzeit und Standort."
+        },
+        {
+          "title": "Referenzbilder",
+          "description": "Füge Referenzbilder zu jedem Bild hinzu für schnellen visuellen Kontext beim Zuordnen von Scans."
+        },
+        {
+          "title": "Interaktive Kartenansicht",
+          "description": "Sieh deine Filmaufnahmen auf einer interaktiven Karte und verfolge nach, wo jedes Bild aufgenommen wurde."
+        },
+        {
+          "title": "Ordnerorganisation",
+          "description": "Organisiere deine Filmsammlung mit Ordnern und leistungsstarken Suchwerkzeugen, um jedes Bild sofort zu finden."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Exportiere und synchronisiere deine Daten"
+    },
+    {
+      "type": "paragraph",
+      "content": "Die macOS-Begleit-App löst die am häufigsten gewünschte Funktion der Filmfotografie-Community: Metadaten wieder in gescannte JPEG-Bilder zu integrieren. Exportiere deine Metadaten als JSON-Dateien (.frames), teile Aufzeichnungen zwischen Apple-Geräten und nutze die macOS-App zum Einbetten von EXIF-Daten, die nahtlos mit Lightroom, Capture One und Apple Fotos funktionieren."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Optimiert für Analogfotografie"
+    },
+    {
+      "type": "list",
+      "items": [
+        {
+          "title": "Adaptive Bedienelemente",
+          "description": "Bedienelemente passen sich an deine Ausrüstung an für schnellere Erfassung."
+        },
+        {
+          "title": "Intelligente Autovervollständigung",
+          "description": "Intelligente Autovervollständigung für Objektiv, Kamera, Filmtyp und ISO spart Zeit im Feld."
+        },
+        {
+          "title": "Über 200 Filmtypen",
+          "description": "Vorgeladene Auswahl beliebter Filme von führenden Herstellern."
+        },
+        {
+          "title": "Natives Apple-Design",
+          "description": "Folgt Apples Human Interface Guidelines für eine reibungslose, intuitive Erfahrung."
+        },
+        {
+          "title": "Leistungsoptimiert",
+          "description": "Läuft flüssig selbst auf älteren iPhone-Modellen."
+        }
+      ]
+    }
+  ],
+  "improvements": [
+    "Kompletter Neuaufbau mit verfeinerter Architektur",
+    "Umfassende Bild-Metadatenerfassung: Belichtung, Kamera, Objektiv, Film, Standort",
+    "Automatische Zeitstempel für jedes Bild",
+    "Referenzbild-Anhang für Scan-Zuordnung",
+    "Ordnerorganisation für Filmsammlungen",
+    "Leistungsstarke Suche über alle erfassten Bilder",
+    "Interaktive Kartenansicht mit Aufnahmeorten",
+    "MacOS-Begleit-App für EXIF-Metadaten-Einbettung",
+    "Volle Kompatibilität mit Lightroom, Capture One und Apple Fotos",
+    "Privacy-First-Design ohne Konten oder Cloud-Abhängigkeit",
+    "Verbesserte Symbolleiste",
+    "Mehrsprachig verfügbar: Deutsch, Französisch, Spanisch, Italienisch, Niederländisch, Portugiesisch, Polnisch und Schwedisch"
+  ],
+  "fixes": [
+    "Behoben: Bildschirm fror beim Hinzufügen neuer Kameras oder Objektive auf einigen Geräten ein",
+    "Behoben: Review-App-URL korrigiert"
+  ],
+  "patches": [
+    {
+      "version": "1.0.1",
+      "date": "2025-04-04",
+      "description": "Kleinere Verbesserungen und Fehlerbehebungen"
+    },
+    {
+      "version": "1.0.2",
+      "date": "2025-04-13",
+      "description": "Kleinere Korrekturen und Übersetzungsverbesserungen"
+    },
+    {
+      "version": "1.0.3",
+      "date": "2025-04-15",
+      "description": "Verbesserte Lokalisierung"
+    },
+    {
+      "version": "1.0.4",
+      "date": "2025-04-19",
+      "description": "Verbesserte Symbolleiste und erweiterte Sprachunterstützung"
+    },
+    {
+      "version": "1.0.5",
+      "date": "2025-04-21",
+      "description": "Weitere Sprachen hinzugefügt"
+    },
+    {
+      "version": "1.0.6",
+      "date": "2025-04-23",
+      "description": "Behoben: Bildschirm fror beim Hinzufügen neuer Kameras oder Objektive ein"
+    },
+    {
+      "version": "1.0.7",
+      "date": "2025-04-28",
+      "description": "Review-App-URL korrigiert"
+    },
+    {
+      "version": "1.0.8",
+      "date": "2025-05-20",
+      "description": "Kompatibilität mit iOS 18.0 und neuer"
+    }
+  ]
+}

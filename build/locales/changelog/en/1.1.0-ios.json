@@ -1,0 +1,108 @@
+{
+  "version": "1.1.0",
+  "version_short": "1.1",
+  "url_slug": "1-1-ios",
+  "platform": "ios",
+  "release_date": "2025-06-03T05:52:00.000Z",
+  "title": "Introducing Frames Pro",
+  "meta_title": "Introducing Frames Pro · Frames",
+  "meta_description": "Upgrade to Frames Pro for unlimited film rolls and upcoming advanced features. Free users maintain access to 10 rolls with all core functionality.",
+  "summary": "Frames Pro is here, offering unlimited film rolls and access to advanced features as they launch. Free users can continue using Frames with up to 10 rolls, while Pro unlocks the full potential of your analog photography workflow.",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Unlock Unlimited Film Logging"
+    },
+    {
+      "type": "paragraph",
+      "content": "With Frames Pro, you can now create unlimited film rolls to track your entire analog photography collection without constraints. Whether you're documenting hundreds of rolls from years of shooting or actively logging dozens of ongoing projects, Frames Pro scales with your needs. Free users retain full access to all core features with a 10-roll limit, making Frames accessible to everyone while supporting those who want to take their film logging further."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.1.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.1.0-1@2x.png",
+      "alt": "Frames Pro subscription offering unlimited film rolls for analog photography logging",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "paragraph",
+      "content": "This release also includes performance optimizations across the app, refined design elements for improved clarity, and enhanced stability when managing larger film libraries. The updated app icon and splash screen reflect Frames' evolution as a professional tool for film photographers."
+    },
+    {
+      "type": "list",
+      "items": [
+        {
+          "title": "Frames Pro Subscription",
+          "description": "Unlock unlimited film rolls and get early access to advanced features as they're released."
+        },
+        {
+          "title": "Free Tier Maintained",
+          "description": "Continue using all core features with up to 10 film rolls at no cost."
+        },
+        {
+          "title": "Performance Improvements",
+          "description": "Enhanced responsiveness and stability throughout the app."
+        },
+        {
+          "title": "Refined Visual Design",
+          "description": "Updated app icon, splash screen, and interface elements for a polished experience."
+        },
+        {
+          "title": "Export Bug Fix",
+          "description": "Resolved an issue where export files weren't regenerating properly after changes."
+        }
+      ]
+    }
+  ],
+  "improvements": [
+    "Introduced Frames Pro subscription with unlimited film rolls",
+    "Enhanced overall app performance and responsiveness",
+    "Refined user interface design throughout the app",
+    "Updated app icon with refined visual identity",
+    "Redesigned splash screen for improved first impression",
+    "Optimized memory usage for larger film libraries",
+    "Improved stability when adding camera and lens equipment"
+  ],
+  "fixes": [
+    "Fixed bug preventing export files from regenerating after changes"
+  ],
+  "patches": [
+    {
+      "version": "1.1.1",
+      "date": "2025-06-11",
+      "description": "Minor update to the app icon"
+    },
+    {
+      "version": "1.1.2",
+      "date": "2025-06-15",
+      "description": "Minor performance improvements"
+    },
+    {
+      "version": "1.1.3",
+      "date": "2025-06-17",
+      "description": "New app icon"
+    },
+    {
+      "version": "1.1.4",
+      "date": "2025-06-18",
+      "description": "Redesigned the app icon"
+    },
+    {
+      "version": "1.1.5",
+      "date": "2025-06-20",
+      "description": "Updated the app splash screen"
+    },
+    {
+      "version": "1.1.6",
+      "date": "2025-06-20",
+      "description": "Fixed a bug that prevented the export file from being properly regenerated after changes"
+    },
+    {
+      "version": "1.1.7",
+      "date": "2025-07-12",
+      "description": "Improved stability when adding gear on iOS 26 Beta"
+    }
+  ]
+}

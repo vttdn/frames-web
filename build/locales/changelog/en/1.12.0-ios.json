@@ -1,0 +1,84 @@
+{
+  "version": "1.12.0",
+  "version_short": "1.12",
+  "url_slug": "1-12-ios",
+  "platform": "ios",
+  "release_date": "2025-10-03T10:00:00.000Z",
+  "title": "Danish, Finnish, Norwegian, Vietnamese & 4 More Languages",
+  "summary": "This major localization release brings Frames to even more film photographers worldwide, adding support for Danish, Finnish, Norwegian, Vietnamese, Traditional Chinese, Indonesian, Hong Kong Chinese, and Greek, while refining translations across all existing languages for enhanced clarity and consistency.",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Eight New Languages Across Europe and Asia"
+    },
+    {
+      "type": "paragraph",
+      "content": "Frames now supports Danish, Finnish, Norwegian, Vietnamese, Traditional Chinese, Indonesian, Hong Kong Chinese, and Greek. Each translation has been carefully crafted to ensure film photography terminology feels natural while maintaining technical accuracy for camera settings, film stocks, and metadata management."
+    },
+    {
+      "type": "list",
+      "items": [
+        {
+          "title": "Nordic Languages",
+          "description": "Danish (Dansk), Finnish (Suomi), and Norwegian (Norsk) with native terminology for Scandinavian photographers."
+        },
+        {
+          "title": "Asian Languages",
+          "description": "Vietnamese (Tiếng Việt), Traditional Chinese (繁體中文), Indonesian (Bahasa Indonesia), and Hong Kong Chinese."
+        },
+        {
+          "title": "Greek (Ελληνικά)",
+          "description": "Complete translation for photographers across Greece and Cyprus."
+        }
+      ]
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.12.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.12.0-1@2x.png",
+      "alt": "Frames analog photography app with multilingual support for Nordic and Asian languages",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Regional Preferences and Translation Refinements"
+    },
+    {
+      "type": "paragraph",
+      "content": "For Traditional Chinese and Hong Kong Chinese, we've adapted regional preferences for date formats and terminology. The Nordic languages align with how film photographers in these countries discuss their craft. We've also refined existing translations across Spanish, French, German, Italian, Portuguese, Japanese, Korean, Russian, Thai, Polish, Turkish, Swedish, and Hindi based on community feedback."
+    },
+    {
+      "type": "paragraph",
+      "content": "Frames automatically adopts your iOS language preference. All existing film rolls and camera gear remain intact. The interface simply adapts without data migration or re-entry."
+    }
+  ],
+  "improvements": [
+    "Added Danish (Dansk) localization for Denmark's film photography community",
+    "Added Finnish (Suomi) translation with native photography terminology",
+    "Added Norwegian (Norsk) support for Scandinavian photographers",
+    "Added Vietnamese (Tiếng Việt) for Southeast Asia's analog community",
+    "Added Traditional Chinese (繁體中文) for Taiwan, Hong Kong, and Macau",
+    "Added Indonesian (Bahasa Indonesia) localization",
+    "Added Hong Kong Chinese with region-specific preferences",
+    "Added Greek (Ελληνικά) translation for Greece and Cyprus",
+    "Refined all existing language translations for improved clarity and natural phrasing",
+    "Enhanced technical terminology consistency across photography-specific fields",
+    "Improved date format and measurement unit localization for regional preferences"
+  ],
+  "fixes": [
+    {
+      "title": "Translation Consistency",
+      "description": "Standardized terminology across similar features to ensure consistent language throughout the app."
+    },
+    {
+      "title": "Layout Adaptation",
+      "description": "Improved dynamic text sizing to accommodate longer translations without truncation or overflow."
+    }
+  ],
+  "patches": [],
+  "meta_title": "Danish, Finnish, Norwegian, Vietnamese & 4 More Languages · Frames",
+  "meta_description": "This major localization release brings Frames to even more film photographers worldwide, adding support for Danish, Finnish, Norwegian, Vietnamese,..."
+}

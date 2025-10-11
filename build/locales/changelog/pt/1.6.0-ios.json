@@ -1,0 +1,53 @@
+{
+  "version": "1.6.0",
+  "version_short": "1.6",
+  "url_slug": "1-6-ios",
+  "platform": "ios",
+  "release_date": "2025-09-05T10:00:00.000Z",
+  "title": "Sequências Personalizadas de Velocidade do Obturador e Melhorias no Mapa",
+  "meta_title": "Sequências Personalizadas de Velocidade do Obturador e Melhorias no Mapa · Frames",
+  "meta_description": "Configure sequências personalizadas de velocidade do obturador por câmera. Manuseio aprimorado de mapas. Velocidades adicionadas: 1/160, 1/80, 1/40, 1/20.",
+  "summary": "Defina sequências personalizadas de velocidade do obturador por câmera, mostrando apenas as velocidades que sua câmera realmente suporta. Esta atualização também traz manuseio aprimorado de mapas, opções adicionais de velocidade do obturador e indicadores de progresso de exportação.",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Controle Personalizado de Velocidade do Obturador"
+    },
+    {
+      "type": "paragraph",
+      "content": "Configure quais velocidades do obturador aparecem no controle deslizante do gravador e configurações de fotograma por câmera. Se sua câmera tiver apenas velocidades de 1/1000 a 1 segundo, você pode ocultar as opções de alcance estendido. Isso mantém a interface do gravador limpa e evita registrar acidentalmente velocidades que sua câmera não suporta. Sequências personalizadas sincronizam com o aplicativo Mac para metadados consistentes entre dispositivos."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/{{ lang }}/changelog/frames-1.6.0-1.png",
+      "image_2x": "/lib/img/{{ lang }}/changelog/frames-1.6.0-1@2x.png",
+      "alt": "Aplicativo de fotografia analógica Frames mostrando sequências personalizadas de velocidade do obturador e melhorias no mapa",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Recursos Aprimorados de Mapa e Exportação"
+    },
+    {
+      "type": "paragraph",
+      "content": "A visualização do mapa agora lida com coordenadas de forma mais confiável com suporte aprimorado a gestos para panorâmica e zoom. Adicionamos velocidades do obturador comumente usadas (1/160, 1/80, 1/40, 1/20) que estavam faltando anteriormente. As operações de exportação agora mostram um indicador de progresso para que você saiba quando seus arquivos estão sendo gerados antes da folha de compartilhamento aparecer."
+    }
+  ],
+  "improvements": [
+    "Adicionadas sequências personalizadas de velocidade do obturador por câmera",
+    "Manuseio aprimorado de coordenadas de mapa e suporte a gestos",
+    "Adicionadas velocidades do obturador ausentes: 1/160, 1/80, 1/40 e 1/20",
+    "Adicionado indicador de progresso de exportação antes da folha de compartilhamento aparecer",
+    "Precisão aprimorada do controle deslizante na visualização do gravador"
+  ],
+  "fixes": [
+    {
+      "title": "Precisão do Controle Deslizante do Gravador",
+      "description": "Corrigidos controles deslizantes do gravador para corresponder tanto ao valor correto quanto à posição visual."
+    }
+  ],
+  "patches": []
+}

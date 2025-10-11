@@ -1,0 +1,55 @@
+{
+  "version": "1.5.0",
+  "version_short": "1.5",
+  "url_slug": "1-5-ios",
+  "platform": "ios",
+  "release_date": "2025-09-03T10:00:00.000Z",
+  "title": "Neue Filmtypen, überarbeitetes Blendensystem & Objektivwechsel",
+  "summary": "Dieses Update erweitert die Filmtyp-Bibliothek mit neuen Emulsionen, überarbeitet das Blendenmanagement mit benutzerdefinierten Blendenstufen-Sequenzen komplett und ermöglicht den Objektivwechsel direkt aus dem Recorder.",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Erweiterte Filmtyp-Bibliothek"
+    },
+    {
+      "type": "paragraph",
+      "content": "Die Filmtyp-Liste enthält jetzt Harman Phoenix II, Lucky Color 200, Leica Monopan 50 und mehrere andere beliebte Emulsionen. Ob du experimentelle Farbfilme oder klassische Schwarz-Weiß-Filme fotografierst, Frames unterstützt eine größere Bandbreite an Filmtypen für präzisere Erfassung."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/{{ lang }}/changelog/frames-1.5.0-1.png",
+      "image_2x": "/lib/img/{{ lang }}/changelog/frames-1.5.0-1@2x.png",
+      "alt": "Frames Analogfotografie-App mit benutzerdefinierten Blendensequenzen und erweiterter Filmtyp-Bibliothek",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Überarbeitete Blendenverwaltung"
+    },
+    {
+      "type": "paragraph",
+      "content": "Die Blendensteuerung wurde komplett neu entwickelt. Du kannst jetzt benutzerdefinierte Blendenstufen-Sequenzen pro Objektiv definieren und nur die Blenden anzeigen, die dein Objektiv tatsächlich hat. Der Recorder-Schieberegler ist jetzt korrekt auf den ausgewählten Blendenwert zentriert. Wechsle Objektive direkt aus dem Recorder, ohne deinen Workflow zu verlassen, und stelle die Brennweite über den Mehr-Button für Zoom-Objektive oder Perspektivkorrektur-Anpassungen ein."
+    }
+  ],
+  "improvements": [
+    "Erweiterte Filmtyp-Bibliothek mit Harman Phoenix II, Lucky Color 200, Leica Monopan 50 und mehr",
+    "Komplett überarbeitetes Blendenverwaltungssystem",
+    "Benutzerdefinierte Blendenstufen-Sequenzen pro Objektiv hinzugefügt",
+    "Objektivwechsel direkt aus dem Recorder hinzugefügt",
+    "Brennweite kann jetzt über Mehr-Button im Recorder angepasst werden",
+    "Verbesserte Lokalisierungskonsistenz",
+    "Kleinere Leistungsverbesserungen überall"
+  ],
+  "fixes": [
+    {
+      "title": "Blendenschieberegler-Zentrierung",
+      "description": "Fehler behoben, bei dem der Blendenschieberegler im Recorder nicht korrekt auf den ausgewählten Wert zentriert war."
+    }
+  ],
+  "patches": [],
+  "meta_title": "Neue Filmtypen, überarbeitetes Blendensystem & Objektivwechsel · Frames",
+  "meta_description": "Dieses Update erweitert die Filmtyp-Bibliothek mit neuen Emulsionen, überarbeitet das Blendenmanagement mit benutzerdefinierten Blendenstufen-Sequenzen..."
+}

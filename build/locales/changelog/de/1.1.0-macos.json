@@ -1,0 +1,37 @@
+{
+  "version": "1.1.0",
+  "version_short": "1.1",
+  "url_slug": "1-1-macos",
+  "platform": "macos",
+  "release_date": "2025-06-27T10:00:00.000Z",
+  "title": "TIFF-Dateiunterstützung",
+  "summary": "Du kannst jetzt TIFF-Dateien mit voller Metadaten-Integration importieren und exportieren, wodurch die Formatunterstützung über JPEG hinaus für professionelle Workflows erweitert wird.",
+  "meta_title": "TIFF-Dateiunterstützung · Frames",
+  "meta_description": "Erweiterte Formatunterstützung mit TIFF-Import und Export. Bette Film-Metadaten in hochwertige TIFF-Scans für professionelle Analogfotografie-Workflows.",
+  "sections": [
+    {
+      "type": "paragraph",
+      "content": "TIFF-Unterstützung kommt zu Frames für macOS. Importiere TIFF-Scans und bette deine Film-Metadaten mit demselben Workflow ein, den du für JPEG-Dateien verwendest. TIFF-Dateien funktionieren nahtlos im Metadaten-Reintegrationsprozess und stellen sicher, dass deine Analogfotografie-Notizen mit deinen Bildern reisen, unabhängig vom Format."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-mac-1.1.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-mac-1.1.0-1@2x.png",
+      "alt": "Frames macOS-App mit TIFF-Dateiunterstützung für professionelle Analogfotografie-Workflows",
+      "width": "400",
+      "height": "300"
+    }
+  ],
+  "improvements": [
+    "TIFF-Dateiimport-Unterstützung hinzugefügt",
+    "TIFF-Dateiexport mit voller Metadaten-Integration hinzugefügt",
+    "TIFF-Dateien funktionieren nahtlos mit bestehendem Metadaten-Reintegrations-Workflow"
+  ],
+  "fixes": [],
+  "patches": [
+    {
+      "version": "1.1.1",
+      "description": "Problem behoben, das in bestimmten Situationen das Laden von .frames-Dateien verhindern konnte."
+    }
+  ]
+}

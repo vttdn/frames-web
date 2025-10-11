@@ -1,0 +1,68 @@
+{
+  "version": "1.10.0",
+  "version_short": "1.10",
+  "url_slug": "1-10-ios",
+  "platform": "ios",
+  "release_date": "2025-09-23T10:00:00.000Z",
+  "title": "Améliorations majeures de performance et stabilité",
+  "summary": "Cette version apporte des améliorations internes significatives qui rendent Frames plus rapide, plus fiable et mieux préparé pour les fonctionnalités futures. Les optimisations de performance touchent chaque partie de l'application, de l'enregistrement de vues à la gestion des pellicules.",
+  "meta_title": "Améliorations majeures de performance et stabilité · Frames",
+  "meta_description": "Architecture repensée pour des performances exceptionnelles : enregistrement plus rapide, navigation fluide et stabilité accrue pour vos grandes collections de pellicules.",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Fondations pour l'avenir"
+    },
+    {
+      "type": "paragraph",
+      "content": "Nous avons reconstruit les parties essentielles de Frames pour améliorer les performances et la stabilité. La modification de vues semble plus réactive, la navigation est plus fluide et la gestion de grandes collections de pellicules est plus fiable. Ces améliorations architecturales posent également les bases pour les fonctionnalités à venir tout en garantissant que Frames reste rapide et stable à mesure que votre bibliothèque grandit."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.10.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.10.0-1@2x.png",
+      "alt": "Application Frames avec performances améliorées et enregistrement vues optimisé",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Plus fluide partout"
+    },
+    {
+      "type": "paragraph",
+      "content": "Vous remarquerez des temps de chargement plus rapides lors de l'ouverture de pellicules et des réponses plus vives lors de la modification des métadonnées de vues. Les transitions entre écrans semblent plus fluides, et l'application maintient de meilleures performances même avec des collections d'équipement étendues et des centaines de vues. Les améliorations sont plus perceptibles lorsque vous travaillez avec plusieurs pellicules ou basculez fréquemment entre les vues enregistreur et bibliothèque."
+    }
+  ],
+  "improvements": [
+    "Amélioration significative des performances et de la réactivité de l'application",
+    "Modification de vues et mises à jour de métadonnées plus rapides",
+    "Fluidité de navigation améliorée dans toute l'application",
+    "Meilleure stabilité lors de la gestion de grandes collections de pellicules",
+    "Performances optimisées de la liste d'équipement avec des bibliothèques étendues d'appareils et d'objectifs",
+    "Gestion de mémoire améliorée pour des performances soutenues",
+    "Architecture de code plus propre pour le développement de fonctionnalités futures"
+  ],
+  "fixes": [
+    {
+      "title": "Enregistrement d'image de référence",
+      "description": "Correction d'un problème où les images de référence n'étaient pas toujours enregistrées correctement lorsqu'elles étaient attachées aux vues."
+    }
+  ],
+  "patches": [
+    {
+      "version": "1.10.1",
+      "description": "Réponse de l'enregistreur de vues plus rapide et gestion de localisation améliorée pour un enregistrement plus précis."
+    },
+    {
+      "version": "1.10.2",
+      "description": "Fiabilité d'exportation améliorée avec gestion des caractères spéciaux. Performance accrue de la localisation et de la vue carte avec des exportations plus rapides."
+    },
+    {
+      "version": "1.10.3",
+      "description": "Diverses améliorations de l'interface utilisateur et raffinements visuels à travers l'interface."
+    }
+  ]
+}

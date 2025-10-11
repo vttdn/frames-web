@@ -1,0 +1,48 @@
+{
+  "version": "1.2.0",
+  "version_short": "1.2",
+  "url_slug": "1-2-macos",
+  "platform": "macos",
+  "release_date": "2025-08-24T10:00:00.000Z",
+  "title": "Obsługa filtrów, języki japoński i koreański",
+  "meta_title": "Obsługa filtrów, języki japoński i koreański · Frames",
+  "meta_description": "Automatyczne osadzanie filtrów w metadanych EXIF. Wsparcie dla języków japońskiego i koreańskiego. Poprawione wartości lampy błyskowej i numery seryjne aparatów.",
+  "summary": "Filtry pojawiają się teraz na pasku bocznym i są automatycznie dodawane do metadanych podczas zapisywania klatek. Ta aktualizacja przynosi również obsługę języków japońskiego i koreańskiego, plus ważne poprawki błędów.",
+  "sections": [
+    {
+      "type": "paragraph",
+      "content": "Filtry rejestrowane na iOS wyświetlają się teraz na pasku bocznym macOS i są automatycznie osadzane w metadanych EXIF podczas reintegracji. To dopełnia Twoją dokumentację analogową, włączając filtry UV, ND, CPL i inne w finalne obrazy. Numery seryjne aparatów są teraz uwzględnione w metadanych, a naprawiliśmy błąd, w którym wartości lampy błyskowej były odwrócone. Frames jest teraz dostępny w językach japońskim i koreańskim, zgodnie z rozszerzeniem języków iOS."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-mac-1.2.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-mac-1.2.0-1@2x.png",
+      "alt": "Aplikacja Frames macOS z paskiem bocznym metadanych filtrów do dokumentacji fotografii kliszowej",
+      "width": "400",
+      "height": "300"
+    }
+  ],
+  "improvements": [
+    "Dodano wyświetlanie filtrów na pasku bocznym",
+    "Filtry automatycznie dodawane do metadanych podczas zapisywania klatek",
+    "Numer seryjny aparatu teraz uwzględniony w metadanych EXIF",
+    "Dodano obsługę języka japońskiego",
+    "Dodano obsługę języka koreańskiego"
+  ],
+  "fixes": [
+    {
+      "title": "Odwrócenie wartości lampy błyskowej",
+      "description": "Poprawiono problem, w którym wartość lampy błyskowej była odwrócona (pokazywała 'Tak', gdy powinna być 'Nie')."
+    }
+  ],
+  "patches": [
+    {
+      "version": "1.2.2",
+      "description": "Poprawiona lokalizacja dla nowych języków."
+    },
+    {
+      "version": "1.2.1",
+      "description": "Poprawione tłumaczenia dla spójności z aplikacją iOS, plus drobne ulepszenia UI."
+    }
+  ]
+}

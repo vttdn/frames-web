@@ -1,0 +1,65 @@
+{
+  "version": "1.7.0",
+  "version_short": "1.7",
+  "url_slug": "1-7-ios",
+  "platform": "ios",
+  "release_date": "2025-09-10T10:00:00.000Z",
+  "title": "Supporto Accessibilità Completo e Miglioramenti Registrazione",
+  "summary": "Questo aggiornamento porta supporto completo per l'accessibilità Apple insieme a miglioramenti al flusso di lavoro di registrazione e gestione metadati, rendendo Frames più accessibile ed efficiente per tutti i fotografi analogici.",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Funzionalità Accessibilità Apple"
+    },
+    {
+      "type": "paragraph",
+      "content": "Frames ora supporta le principali funzionalità di accessibilità Apple inclusi Testo Più Grande, Interfaccia Scura, Differenziare Senza Solo Colore, Contrasto Sufficiente e Movimento Ridotto. Queste funzionalità assicurano che l'app sia utilizzabile per fotografi con diverse esigenze e preferenze visive, mantenendo piena funzionalità indipendentemente dalle impostazioni di accessibilità."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.7.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.7.0-1@2x.png",
+      "alt": "Interfaccia app Frames per fotografia analogica con funzionalità accessibilità e supporto testo grande",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Miglioramenti Flusso di Lavoro e Metadati"
+    },
+    {
+      "type": "paragraph",
+      "content": "L'app ora salta direttamente nel tuo nuovo rullino non appena viene creato, semplificando il flusso di lavoro. Le etichette in tutta l'app sono state perfezionate per migliore leggibilità. Le sequenze personalizzate ora compilano automaticamente i valori di apertura min/max, particolarmente utile per la reintegrazione metadati su Mac. Abbiamo anche corretto problemi di movimento nel registratore durante la cattura di scatti con il cursore aperto e problemi di inizializzazione valori nella vista completa del registratore."
+    }
+  ],
+  "improvements": [
+    "Aggiunto supporto per funzionalità accessibilità Testo Più Grande di Apple",
+    "Aggiunto supporto per aspetto Interfaccia Scura",
+    "Aggiunto supporto per Differenziare Senza Solo Colore",
+    "Aggiunto supporto per Contrasto Sufficiente",
+    "Aggiunto supporto per Movimento Ridotto",
+    "Salta direttamente nei nuovi rullini dopo la creazione per flusso di lavoro più veloce",
+    "Migliorata chiarezza etichette in tutta l'app",
+    "Compilazione automatica di apertura min/max quando si usano sequenze personalizzate"
+  ],
+  "fixes": [
+    {
+      "title": "Problema Movimento Registratore",
+      "description": "Corretto problema di movimento nel registratore quando uno scatto viene catturato con il cursore aperto."
+    },
+    {
+      "title": "Inizializzazione Valori Registratore",
+      "description": "Corretto un problema con valori che non si inizializzavano correttamente quando si apriva il registratore in vista completa."
+    }
+  ],
+  "patches": [
+    {
+      "version": "1.7.1",
+      "description": "Corretta visualizzazione obiettivo che mostrava informazioni apertura ridondanti negli elenchi di selezione. Corretti fotogrammi modificabili quando la modifica era disabilitata."
+    }
+  ],
+  "meta_title": "Supporto Accessibilità Completo e Miglioramenti Registrazione · Frames",
+  "meta_description": "Questo aggiornamento porta supporto completo per l'accessibilità Apple insieme a miglioramenti al flusso di lavoro di registrazione e gestione metadati,..."
+}

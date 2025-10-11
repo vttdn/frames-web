@@ -1,0 +1,84 @@
+{
+  "version": "1.12.0",
+  "version_short": "1.12",
+  "url_slug": "1-12-ios",
+  "platform": "ios",
+  "release_date": "2025-10-03T10:00:00.000Z",
+  "title": "Języki: duński, fiński, norweski, wietnamski i 4 dodatkowe",
+  "summary": "To główne wydanie lokalizacyjne przynosi Frames jeszcze większej liczbie fotografów kliszowych na całym świecie, dodając obsługę języków duńskiego, fińskiego, norweskiego, wietnamskiego, chińskiego tradycyjnego, indonezyjskiego, chińskiego hongkońskiego i greckiego, przy jednoczesnym udoskonaleniu tłumaczeń we wszystkich istniejących językach dla zwiększonej klarowności i spójności.",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Osiem nowych języków w Europie i Azji"
+    },
+    {
+      "type": "paragraph",
+      "content": "Frames obsługuje teraz języki duński, fiński, norweski, wietnamski, chiński tradycyjny, indonezyjski, chiński hongkoński i grecki. Każde tłumaczenie zostało starannie opracowane, aby zapewnić, że terminologia fotografii kliszowej brzmi naturalnie, przy zachowaniu technicznej precyzji dla ustawień aparatu, filmów i zarządzania metadanymi."
+    },
+    {
+      "type": "list",
+      "items": [
+        {
+          "title": "Języki nordyckie",
+          "description": "Duński (Dansk), fiński (Suomi) i norweski (Norsk) z natywną terminologią dla fotografów skandynawskich."
+        },
+        {
+          "title": "Języki azjatyckie",
+          "description": "Wietnamski (Tiếng Việt), chiński tradycyjny (繁體中文), indonezyjski (Bahasa Indonesia) i chiński hongkoński."
+        },
+        {
+          "title": "Grecki (Ελληνικά)",
+          "description": "Kompletne tłumaczenie dla fotografów w Grecji i na Cyprze."
+        }
+      ]
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.12.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.12.0-1@2x.png",
+      "alt": "Aplikacja Frames do fotografii analogowej z wielojęzyczną obsługą języków nordyckich i azjatyckich",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Preferencje regionalne i dopracowanie tłumaczeń"
+    },
+    {
+      "type": "paragraph",
+      "content": "Dla chińskiego tradycyjnego i hongkońskiego dostosowaliśmy preferencje regionalne dla formatów daty i terminologii. Języki nordyckie są zgodne ze sposobem, w jaki fotografowie kliszowi w tych krajach dyskutują o swoim rzemiośle. Dopracowaliśmy również istniejące tłumaczenia w językach hiszpańskim, francuskim, niemieckim, włoskim, portugalskim, japońskim, koreańskim, rosyjskim, tajskim, polskim, tureckim, szwedzkim i hindi na podstawie opinii społeczności."
+    },
+    {
+      "type": "paragraph",
+      "content": "Frames automatycznie przyjmuje preferencję języka iOS. Wszystkie istniejące filmy i sprzęt fotograficzny pozostają nienaruszone. Interfejs po prostu się dostosowuje bez migracji danych lub ponownego wprowadzania."
+    }
+  ],
+  "improvements": [
+    "Dodano lokalizację duńską (Dansk) dla społeczności fotografii kliszowej w Danii",
+    "Dodano tłumaczenie fińskie (Suomi) z natywną terminologią fotograficzną",
+    "Dodano obsługę norweskiego (Norsk) dla fotografów skandynawskich",
+    "Dodano wietnamski (Tiếng Việt) dla społeczności analogowej Azji Południowo-Wschodniej",
+    "Dodano chiński tradycyjny (繁體中文) dla Tajwanu, Hongkongu i Makau",
+    "Dodano lokalizację indonezyjską (Bahasa Indonesia)",
+    "Dodano chiński hongkoński z preferencjami specyficznymi dla regionu",
+    "Dodano tłumaczenie greckie (Ελληνικά) dla Grecji i Cypru",
+    "Udoskonalone wszystkie istniejące tłumaczenia języków dla lepszej klarowności i naturalnego brzmienia",
+    "Zwiększona spójność terminologii technicznej w polach specyficznych dla fotografii",
+    "Poprawiona lokalizacja formatów daty i jednostek miary dla preferencji regionalnych"
+  ],
+  "fixes": [
+    {
+      "title": "Spójność tłumaczeń",
+      "description": "Ustandaryzowana terminologia w podobnych funkcjach dla zapewnienia spójnego języka w całej aplikacji."
+    },
+    {
+      "title": "Adaptacja układu",
+      "description": "Poprawione dynamiczne rozmiary tekstu, aby pomieścić dłuższe tłumaczenia bez obcinania lub przepełnienia."
+    }
+  ],
+  "patches": [],
+  "meta_title": "Języki: duński, fiński, norweski, wietnamski i 4 dodatkowe · Frames",
+  "meta_description": "To główne wydanie lokalizacyjne przynosi Frames jeszcze większej liczbie fotografów kliszowych na całym świecie, dodając obsługę języków duńskiego,..."
+}

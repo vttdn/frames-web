@@ -1,0 +1,65 @@
+{
+  "version": "1.7.0",
+  "version_short": "1.7",
+  "url_slug": "1-7-ios",
+  "platform": "ios",
+  "release_date": "2025-09-10T10:00:00.000Z",
+  "title": "Soporte completo de accesibilidad y mejoras de grabación",
+  "summary": "Esta actualización trae soporte completo de accesibilidad de Apple junto con mejoras en el flujo de trabajo de grabación y manejo de metadatos, haciendo Frames más accesible y eficiente para todos los fotógrafos analógicos.",
+  "meta_title": "Soporte completo de accesibilidad y mejoras de grabación · Frames",
+  "meta_description": "Accesibilidad completa de Apple con Texto grande, Interfaz oscura y Contraste suficiente. Mejoras en flujo de trabajo y manejo de metadatos.",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Funciones de accesibilidad de Apple"
+    },
+    {
+      "type": "paragraph",
+      "content": "Frames ahora soporta funciones clave de accesibilidad de Apple incluyendo Texto más grande, Interfaz oscura, Diferenciar sin depender solo del color, Contraste suficiente y Movimiento reducido. Estas funciones aseguran que la aplicación sea utilizable para fotógrafos con diferentes necesidades visuales y preferencias, manteniendo funcionalidad completa independientemente de los ajustes de accesibilidad."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.7.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.7.0-1@2x.png",
+      "alt": "Interfaz de aplicación de fotografía analógica Frames con funciones de accesibilidad y soporte de texto grande",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Mejoras de flujo de trabajo y metadatos"
+    },
+    {
+      "type": "paragraph",
+      "content": "La aplicación ahora salta directamente a tu nuevo rollo tan pronto como se crea, agilizando tu flujo de trabajo. Las etiquetas en toda la aplicación han sido refinadas para mejor legibilidad. Las secuencias personalizadas ahora rellenan automáticamente valores de apertura mín/máx, lo cual es particularmente útil para la reintegración de metadatos en Mac. También hemos corregido problemas de movimiento en la grabadora al capturar disparos con el deslizador abierto y problemas de inicialización de valores en la vista completa de la grabadora."
+    }
+  ],
+  "improvements": [
+    "Soporte añadido para función de accesibilidad Texto más grande de Apple",
+    "Soporte añadido para apariencia de Interfaz oscura",
+    "Soporte añadido para Diferenciar sin depender solo del color",
+    "Soporte añadido para Contraste suficiente",
+    "Soporte añadido para Movimiento reducido",
+    "Saltar directamente a nuevos rollos después de la creación para flujo de trabajo más rápido",
+    "Claridad de etiquetas mejorada en toda la aplicación",
+    "Relleno automático de apertura mín/máx al usar secuencias personalizadas"
+  ],
+  "fixes": [
+    {
+      "title": "Problema de movimiento de grabadora",
+      "description": "Corregido problema de movimiento en la grabadora cuando se captura un disparo con el deslizador abierto."
+    },
+    {
+      "title": "Inicialización de valores de grabadora",
+      "description": "Corregido un problema con valores que no se inicializaban correctamente al abrir la grabadora en vista completa."
+    }
+  ],
+  "patches": [
+    {
+      "version": "1.7.1",
+      "description": "Corregida visualización de objetivo mostrando información de apertura redundante en listas de selección. Corregido que los fotogramas fueran editables cuando la edición estaba deshabilitada."
+    }
+  ]
+}

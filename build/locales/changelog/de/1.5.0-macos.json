@@ -1,0 +1,43 @@
+{
+  "version": "1.5.0",
+  "version_short": "1.5",
+  "url_slug": "1-5-macos",
+  "platform": "macos",
+  "release_date": "2025-09-19T10:00:00.000Z",
+  "title": "Große Leistungs- & DNG-Verarbeitungsverbesserungen",
+  "summary": "Dieses Update liefert deutlich schnellere Bildverarbeitung mit optimierter DNG-Verarbeitung, verbessertem Caching und Behebungen für .frames-Dateiimport und DNG-Metadaten-Export auf Intel-Macs.",
+  "sections": [
+    {
+      "type": "paragraph",
+      "content": "Bildladen ist jetzt deutlich schneller über alle Formate hinweg, mit großen Verbesserungen bei DNG-Verarbeitungsgeschwindigkeit und Zuverlässigkeit. Speichernutzung wurde optimiert, Caching verbessert und synchronisiertes Laden sorgt für reibungslosen Betrieb selbst mit großen Bild-Stapeln. Wir haben auch .frames-Dateiimport aus der macOS-Menüleiste behoben und DNG-Metadaten-Export-Probleme auf älteren Intel-Macs gelöst."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.10.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.10.0-1@2x.png",
+      "alt": "Frames macOS-App mit optimierter DNG-Verarbeitungsleistung für schnellere Bildverarbeitung",
+      "width": "400",
+      "height": "300"
+    }
+  ],
+  "improvements": [
+    "Deutlich schnelleres Bildladen über alle Formate",
+    "Optimierte DNG-Verarbeitung für bessere Leistung",
+    "Verbessertes Caching-System für geschmeidigeren Betrieb",
+    "Erweiterte Speichernutzungs-Effizienz",
+    "Synchronisiertes Laden für große Bild-Stapel"
+  ],
+  "fixes": [
+    {
+      "title": ".frames-Dateiimport",
+      "description": ".frames-Dateiimport aus der macOS-Menüleiste behoben."
+    },
+    {
+      "title": "DNG-Export auf Intel-Macs",
+      "description": "DNG-Metadaten-Export auf älteren Intel-Mac-Modellen behoben."
+    }
+  ],
+  "patches": [],
+  "meta_title": "Große Leistungs- & DNG-Verarbeitungsverbesserungen · Frames",
+  "meta_description": "Dieses Update liefert deutlich schnellere Bildverarbeitung mit optimierter DNG-Verarbeitung, verbessertem Caching und Behebungen für .frames-Dateiimport und..."
+}

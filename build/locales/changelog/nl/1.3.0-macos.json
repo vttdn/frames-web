@@ -1,0 +1,37 @@
+{
+  "version": "1.3.0",
+  "version_short": "1.3",
+  "url_slug": "1-3-macos",
+  "platform": "macos",
+  "release_date": "2025-09-01T10:00:00.000Z",
+  "title": "DNG Raw-bestandsondersteuning",
+  "summary": "Je kunt nu DNG-bestanden importeren naast JPEG en TIFF, en metadata direct in je raw-beelden reïntegreren voor een complete analoge fotografie-workflow.",
+  "sections": [
+    {
+      "type": "paragraph",
+      "content": "Raw-beeldondersteuning komt naar Frames voor macOS. Importeer DNG-bestanden naast je bestaande JPEG- en TIFF-workflows, en sluit je filmrolmetadata direct in raw-bestanden in. Dit zorgt ervoor dat je belichtingsinstellingen, cameradata, filmsoorten en notities met je raw-beelden meereizen door nabewerking en archivering. We hebben ook een probleem verholpen waarbij extra notities voor een frame niet werden bewaard tijdens metadata-reïntegratie."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-mac-1.3.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-mac-1.3.0-1@2x.png",
+      "alt": "Frames macOS-app met DNG raw-bestand metadata-insluiting voor analoge fotografie-scans",
+      "width": "400",
+      "height": "300"
+    }
+  ],
+  "improvements": [
+    "DNG raw-bestandsondersteuning toegevoegd",
+    "Volledige metadata-reïntegratie voor raw-beelden",
+    "DNG-bestanden werken naadloos naast JPEG en TIFF"
+  ],
+  "fixes": [
+    {
+      "title": "Behoud frame-notities",
+      "description": "Probleem opgelost waarbij extra notities voor een frame niet werden bewaard tijdens metadata-reïntegratie."
+    }
+  ],
+  "patches": [],
+  "meta_title": "DNG Raw-bestandsondersteuning · Frames",
+  "meta_description": "Je kunt nu DNG-bestanden importeren naast JPEG en TIFF, en metadata direct in je raw-beelden reïntegreren voor een complete analoge fotografie-workflow."
+}

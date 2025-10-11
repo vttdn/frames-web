@@ -1,0 +1,35 @@
+{
+  "version": "1.8.0",
+  "version_short": "1.8",
+  "url_slug": "1-8-macos",
+  "platform": "macos",
+  "release_date": "2025-10-03T10:00:00.000Z",
+  "title": "Hebrew, Arabic, Romanian & Ukrainian Language Support",
+  "summary": "Frames for macOS continues expanding language support with Hebrew, Arabic, Romanian, and Ukrainian, alongside interface refinements for a smoother metadata reintegration workflow.",
+  "sections": [
+    {
+      "type": "paragraph",
+      "content": "This update brings native support for Hebrew and Arabic with full right-to-left interface adaptation, plus Romanian and Ukrainian translations. All language-specific terminology for film stocks, camera settings, and EXIF metadata has been carefully localized to ensure consistency with the iOS app."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.13.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.13.0-1@2x.png",
+      "alt": "Frames macOS app with Hebrew and Arabic RTL interface and language support",
+      "width": "400",
+      "height": "300"
+    }
+  ],
+  "improvements": [
+    "Added Hebrew (עברית) localization with right-to-left interface support",
+    "Added Arabic (العربية) localization with RTL layout adaptation",
+    "Added Romanian (Română) translation",
+    "Added Ukrainian (Українська) support",
+    "Interface refinements for smoother user experience",
+    "Improved consistency across all supported languages"
+  ],
+  "fixes": [],
+  "patches": [],
+  "meta_title": "Hebrew, Arabic, Romanian & Ukrainian Language Support · Frames",
+  "meta_description": "Frames for macOS continues expanding language support with Hebrew, Arabic, Romanian, and Ukrainian, alongside interface refinements for a smoother metadata..."
+}

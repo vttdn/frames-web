@@ -1,0 +1,43 @@
+{
+  "version": "1.4.0",
+  "version_short": "1.4",
+  "url_slug": "1-4-ios",
+  "platform": "ios",
+  "release_date": "2025-08-20T10:00:00.000Z",
+  "title": "Filter Logging Support",
+  "meta_title": "Filter Logging Support · Frames",
+  "meta_description": "Record UV, ND, CPL, and other filters for each frame. Complete analog documentation with comprehensive metadata that syncs to Mac for full EXIF embedding.",
+  "summary": "Document your complete analog workflow by logging filters alongside your camera, lens, and film. Now you can record UV, ND, CPL, and other filters used for each shot.",
+  "sections": [
+    {
+      "type": "paragraph",
+      "content": "Filters are now part of your film logging workflow. Record which filters you used for each frame, including UV, ND, CPL, and more. This completes your analog documentation by capturing every element that affects your final image, from the camera body and lens to the film stock and filters. Filter data is included in all exports and syncs with the Mac app for comprehensive record-keeping."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/{{ lang }}/changelog/frames-1.4.0-1.png",
+      "image_2x": "/lib/img/{{ lang }}/changelog/frames-1.4.0-1@2x.png",
+      "alt": "Frames film photography app showing filter logging support for UV, ND, and CPL filters",
+      "width": "400",
+      "height": "300"
+    }
+  ],
+  "improvements": [
+    "Added filter logging support (UV, ND, CPL, and more)",
+    "Filters included in all export formats",
+    "Filter data syncs with Mac app",
+    "Minor performance enhancements",
+    "General stability improvements"
+  ],
+  "fixes": [],
+  "patches": [
+    {
+      "version": "1.4.1",
+      "description": "Fixed an issue where editing a film in a subfolder would move it back to the root folder."
+    },
+    {
+      "version": "1.4.2",
+      "description": "Refined translations for Mac app consistency. Fixed location search country display. Added default shutter speed and aperture values when creating film rolls."
+    }
+  ]
+}

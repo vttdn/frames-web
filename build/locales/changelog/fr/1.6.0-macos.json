@@ -1,0 +1,38 @@
+{
+  "version": "1.6.0",
+  "version_short": "1.6",
+  "url_slug": "1-6-macos",
+  "platform": "macos",
+  "release_date": "2025-10-01T10:00:00.000Z",
+  "title": "Métadonnées du mode de mesure et améliorations de performance",
+  "summary": "Frames pour macOS inclut désormais le support des métadonnées du mode de mesure pour des données EXIF complètes, avec des améliorations de performance pour un fonctionnement plus rapide et stable.",
+  "meta_title": "Métadonnées du mode de mesure et améliorations de performance · Frames",
+  "meta_description": "Réintégrez les données de mode de mesure dans vos images avec des performances améliorées pour un traitement plus rapide et une stabilité accrue sur macOS.",
+  "sections": [
+    {
+      "type": "paragraph",
+      "content": "Vous pouvez désormais voir et réintégrer les données de mode de mesure de vos journaux de pellicules dans les images numérisées. Cela correspond à la mise à jour iOS, garantissant une cohérence complète des métadonnées sur les deux plateformes. Les améliorations de performance dans toute l'application rendent la réintégration de métadonnées plus rapide et fiable."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/{{ lang }}/changelog/frames-1.11.0-1.png",
+      "image_2x": "/lib/img/{{ lang }}/changelog/frames-1.11.0-1@2x.png",
+      "alt": "Application Frames macOS montrant support métadonnées mode mesure pour données EXIF complètes",
+      "width": "400",
+      "height": "300"
+    }
+  ],
+  "improvements": [
+    "Ajout du support des métadonnées du mode de mesure",
+    "Améliorations de performance pour un traitement d'images plus rapide",
+    "Stabilité de l'application améliorée partout",
+    "Vitesse de réintégration de métadonnées améliorée"
+  ],
+  "fixes": [],
+  "patches": [
+    {
+      "version": "1.5.1",
+      "description": "Diverses améliorations de l'interface utilisateur et raffinements visuels."
+    }
+  ]
+}

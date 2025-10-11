@@ -1,0 +1,53 @@
+{
+  "version": "1.6.0",
+  "version_short": "1.6",
+  "url_slug": "1-6-ios",
+  "platform": "ios",
+  "release_date": "2025-09-05T10:00:00.000Z",
+  "title": "Séquences de vitesses d'obturation personnalisées et améliorations de carte",
+  "summary": "Définissez des séquences de vitesses d'obturation personnalisées par appareil, affichant uniquement les vitesses réellement supportées par votre appareil. Cette mise à jour apporte également une gestion améliorée de la carte, des options de vitesses d'obturation supplémentaires et des indicateurs de progression d'export.",
+  "meta_title": "Séquences de vitesses d'obturation personnalisées et améliorations de carte · Frames",
+  "meta_description": "Personnalisez les vitesses d'obturation par appareil, profitez d'une carte améliorée et de nouvelles vitesses (1/160, 1/80, 1/40, 1/20) avec indicateurs de progression d'export.",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Contrôle personnalisé des vitesses d'obturation"
+    },
+    {
+      "type": "paragraph",
+      "content": "Configurez quelles vitesses d'obturation apparaissent dans le curseur de l'enregistreur et les réglages de vues pour chaque appareil. Si votre appareil n'a que des vitesses de 1/1000 à 1 seconde, vous pouvez masquer les options de plage étendue. Cela garde votre interface d'enregistreur propre et évite d'enregistrer accidentellement des vitesses que votre appareil ne supporte pas. Les séquences personnalisées se synchronisent avec l'application Mac pour des métadonnées cohérentes entre appareils."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/{{ lang }}/changelog/frames-1.6.0-1.png",
+      "image_2x": "/lib/img/{{ lang }}/changelog/frames-1.6.0-1@2x.png",
+      "alt": "Application Frames montrant séquences vitesse obturation personnalisées et améliorations carte",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Fonctionnalités améliorées de carte et d'export"
+    },
+    {
+      "type": "paragraph",
+      "content": "La vue carte gère désormais les coordonnées de manière plus fiable avec un support de gestes amélioré pour le panoramique et le zoom. Nous avons ajouté des vitesses d'obturation couramment utilisées (1/160, 1/80, 1/40, 1/20) qui manquaient auparavant. Les opérations d'export affichent désormais un indicateur de progression pour que vous sachiez quand vos fichiers sont en cours de génération avant l'apparition de la feuille de partage."
+    }
+  ],
+  "improvements": [
+    "Ajout de séquences de vitesses d'obturation personnalisées par appareil",
+    "Gestion améliorée des coordonnées de carte et support de gestes",
+    "Ajout de vitesses d'obturation manquantes : 1/160, 1/80, 1/40 et 1/20",
+    "Ajout d'un indicateur de progression d'export avant l'apparition de la feuille de partage",
+    "Précision du curseur améliorée dans la vue enregistreur"
+  ],
+  "fixes": [
+    {
+      "title": "Précision du curseur de l'enregistreur",
+      "description": "Correction des curseurs de l'enregistreur pour correspondre à la fois à la valeur correcte et à la position visuelle."
+    }
+  ],
+  "patches": []
+}

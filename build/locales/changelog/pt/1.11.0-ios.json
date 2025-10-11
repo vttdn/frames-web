@@ -1,0 +1,47 @@
+{
+  "version": "1.11.0",
+  "version_short": "1.11",
+  "url_slug": "1-11-ios",
+  "platform": "ios",
+  "release_date": "2025-10-02T10:00:00.000Z",
+  "title": "Metadados de Modo de Medição e Melhorias de Desempenho",
+  "summary": "O Frames agora captura o modo de medição da sua câmera junto com dados de exposição, dando a você um registro mais completo de como cada disparo foi medido. Esta atualização também traz melhorias de desempenho para uma experiência mais rápida e estável em todo o aplicativo.",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Registro de Modo de Medição"
+    },
+    {
+      "type": "paragraph",
+      "content": "Agora você pode registrar qual modo de medição sua câmera usou para cada fotograma. Seja fotografando com medição ponderada ao centro, pontual ou avaliativa, o Frames captura esses metadados junto com suas configurações de exposição existentes. Isso ajuda você a entender como sua câmera mediu a luz para cada disparo e refinar sua abordagem de exposição ao longo do tempo."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/{{ lang }}/changelog/frames-1.11.0-1.png",
+      "image_2x": "/lib/img/{{ lang }}/changelog/frames-1.11.0-1@2x.png",
+      "alt": "Aplicativo de fotografia analógica Frames mostrando registro de metadados de modo de medição para análise de exposição",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Aprimoramentos de Desempenho"
+    },
+    {
+      "type": "paragraph",
+      "content": "Melhorias por baixo dos panos tornam o Frames mais rápido e responsivo. Navegação entre rolos de filme, gravação de fotogramas e edição de metadados todos se beneficiam de desempenho otimizado. Esses refinamentos contribuem para uma experiência mais suave ao gerenciar seu fluxo de trabalho de fotografia analógica."
+    }
+  ],
+  "improvements": [
+    "Adicionado campo de metadados de modo de medição para documentação abrangente de exposição",
+    "Desempenho do aplicativo aprimorado para navegação e gravação de fotogramas mais rápidas",
+    "Estabilidade aprimorada ao alternar entre rolos de filme e editar fotogramas",
+    "Uso de memória otimizado para operação mais suave com grandes bibliotecas de filmes"
+  ],
+  "fixes": [],
+  "patches": [],
+  "meta_title": "Metadados de Modo de Medição e Melhorias de Desempenho · Frames",
+  "meta_description": "O Frames agora captura o modo de medição da sua câmera junto com dados de exposição, dando a você um registro mais completo de como cada disparo foi medido."
+}

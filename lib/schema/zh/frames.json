@@ -168,17 +168,6 @@
           }
         },
         {
-          "@type": "WebPage",
-          "@id": "https://withframes.com/zhzh/",
-          "url": "https://withframes.com/zhzh/",
-          "name": "Frames – 胶片摄影笔记和元数据应用",
-          "description": "Frames 是为胶片摄影师设计的应用。记录每张照片，追踪相机设置，整理胶卷，在 iPhone 和 Mac 上保存 EXIF 元数据。",
-          "inLanguage": "zh",
-          "publisher": {
-            "@id": "https://withframes.com/#organization"
-          }
-        },
-        {
           "@type": "VideoObject",
           "name": "记录和追踪胶卷的胶片摄影应用（Frames for iPhone）",
           "description": "探索 Frames，专为胶片摄影师设计的胶片摄影应用。Frames 使管理您的胶片摄影变得轻松，帮助您记录不仅是您的照片，还有每个胶卷和每一帧背后的故事。无论您使用 35mm、中画幅还是大画幅胶片，Frames 都能让您的工作流程井然有序，并确保您的照片元数据在扫描后仍与图像保持一致。",
@@ -190,34 +179,6 @@
           "publisher": {
             "@id": "https://withframes.com/#organization"
           }
-        },
-        {
-          "@type": "Organization",
-          "@id": "https://withframes.com/#organization",
-          "name": "Frames",
-          "url": "https://withframes.com/",
-          "logo": "https://withframes.com/apple-touch-icon.png",
-          "contactPoint": {
-            "@type": "ContactPoint",
-            "email": "bonjour@withframes.com",
-            "contactType": "Customer Support",
-            "areaServed": "Worldwide",
-            "availableLanguage": ["English", "French"]
-          },
-          "sameAs": [
-            "https://twitter.com/withframes",
-            "https://www.facebook.com/framesapp",
-            "https://www.instagram.com/with_frames/",
-            "https://linkedin.com/company/withframes/",
-            "https://pinterest.com/framesapp/",
-            "https://mastodon.social/@frames",
-            "https://bsky.app/profile/withframes.bsky.social",
-            "https://www.tiktok.com/@with_frames",
-            "https://www.youtube.com/@withframes",
-            "https://g.co/kgs/5oEvXT5",
-            "https://apps.apple.com/cn/app/frames-%E8%83%B6%E7%89%87%E6%91%84%E5%BD%B1%E7%AC%94%E8%AE%B0/id6744057317?l=zh",
-            "https://apps.apple.com/cn/app/frames-%E8%83%B6%E7%89%87%E5%85%83%E6%95%B0%E6%8D%AE/id6744063354?l=zh"
-          ]
         }
       ]
     }

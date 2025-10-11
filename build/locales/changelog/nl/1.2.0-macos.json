@@ -1,0 +1,48 @@
+{
+  "version": "1.2.0",
+  "version_short": "1.2",
+  "url_slug": "1-2-macos",
+  "platform": "macos",
+  "release_date": "2025-08-24T10:00:00.000Z",
+  "title": "Filterondersteuning, Japanse en Koreaanse talen",
+  "summary": "Filters verschijnen nu in de zijbalk en worden automatisch toegevoegd aan metadata bij het opslaan van frames. Deze update brengt ook Japanse en Koreaanse taalondersteuning, plus belangrijke bugfixes.",
+  "sections": [
+    {
+      "type": "paragraph",
+      "content": "Filters die op iOS zijn vastgelegd, worden nu weergegeven in de macOS-zijbalk en worden automatisch ingebed in EXIF-metadata tijdens reïntegratie. Dit voltooit je analoge documentatie door UV-, ND-, CPL- en andere filters op te nemen in je eindbeelden. Cameraseriële nummers zijn nu opgenomen in metadata, en we hebben een bug verholpen waarbij flitswaarden waren omgedraaid. Frames is nu beschikbaar in het Japans en Koreaans, passend bij de iOS-taaluitbreiding."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-mac-1.2.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-mac-1.2.0-1@2x.png",
+      "alt": "Frames macOS-app met filter-metadata-zijbalk voor filmfotografie-documentatie",
+      "width": "400",
+      "height": "300"
+    }
+  ],
+  "improvements": [
+    "Filterweergave in zijbalk toegevoegd",
+    "Filters automatisch toegevoegd aan metadata bij opslaan van frames",
+    "Cameraserieel nummer nu opgenomen in EXIF-metadata",
+    "Japanse taalondersteuning toegevoegd",
+    "Koreaanse taalondersteuning toegevoegd"
+  ],
+  "fixes": [
+    {
+      "title": "Omkering flitswaarde",
+      "description": "Probleem gecorrigeerd waarbij de flitswaarde was omgedraaid (toonde 'Ja' wanneer het 'Nee' had moeten zijn)."
+    }
+  ],
+  "patches": [
+    {
+      "version": "1.2.2",
+      "description": "Verbeterde lokalisatie voor nieuwe talen."
+    },
+    {
+      "version": "1.2.1",
+      "description": "Verbeterde vertalingen voor consistentie met de iOS-app, plus kleine UI-verbeteringen."
+    }
+  ],
+  "meta_title": "Filterondersteuning, Japanse en Koreaanse talen · Frames",
+  "meta_description": "Filters verschijnen nu in de zijbalk en worden automatisch toegevoegd aan metadata bij het opslaan van frames."
+}

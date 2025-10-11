@@ -1,0 +1,35 @@
+{
+  "version": "1.8.0",
+  "version_short": "1.8",
+  "url_slug": "1-8-macos",
+  "platform": "macos",
+  "release_date": "2025-10-03T10:00:00.000Z",
+  "title": "Suporte aos Idiomas Hebraico, Árabe, Romeno e Ucraniano",
+  "meta_title": "Suporte aos Idiomas Hebraico, Árabe, Romeno e Ucraniano · Frames",
+  "meta_description": "Interface RTL completa para hebraico e árabe. Traduções em romeno e ucraniano. Refinamentos de interface para fluxo de trabalho mais suave.",
+  "summary": "O Frames para macOS continua expandindo o suporte a idiomas com hebraico, árabe, romeno e ucraniano, junto com refinamentos de interface para um fluxo de trabalho de reintegração de metadados mais suave.",
+  "sections": [
+    {
+      "type": "paragraph",
+      "content": "Esta atualização traz suporte nativo para hebraico e árabe com adaptação completa de interface da direita para a esquerda, além de traduções em romeno e ucraniano. Toda a terminologia específica de idioma para filmes, configurações de câmera e metadados EXIF foi cuidadosamente localizada para garantir consistência com o aplicativo iOS."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.13.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.13.0-1@2x.png",
+      "alt": "Aplicativo macOS Frames com interface RTL em hebraico e árabe e suporte a idiomas",
+      "width": "400",
+      "height": "300"
+    }
+  ],
+  "improvements": [
+    "Adicionada localização em hebraico (עברית) com suporte de interface da direita para a esquerda",
+    "Adicionada localização em árabe (العربية) com adaptação de layout RTL",
+    "Adicionada tradução em romeno (Română)",
+    "Adicionado suporte para ucraniano (Українська)",
+    "Refinamentos de interface para experiência de usuário mais suave",
+    "Consistência aprimorada em todos os idiomas suportados"
+  ],
+  "fixes": [],
+  "patches": []
+}

@@ -1,0 +1,47 @@
+{
+  "version": "1.11.0",
+  "version_short": "1.11",
+  "url_slug": "1-11-ios",
+  "platform": "ios",
+  "release_date": "2025-10-02T10:00:00.000Z",
+  "title": "Metadane trybu pomiaru i usprawnienia wydajności",
+  "summary": "Frames teraz rejestruje tryb pomiaru Twojego aparatu wraz z danymi ekspozycji, dając Ci pełniejszy zapis tego, jak każde ujęcie zostało zmierzone. Ta aktualizacja przynosi również usprawnienia wydajności dla szybszego, bardziej stabilnego doświadczenia w całej aplikacji.",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Rejestrowanie trybu pomiaru"
+    },
+    {
+      "type": "paragraph",
+      "content": "Możesz teraz rejestrować, którego trybu pomiaru użył Twój aparat dla każdej klatki. Niezależnie od tego, czy fotografujesz z pomiarem centralnie ważonym, punktowym czy ewaluacyjnym, Frames przechwytuje te metadane wraz z istniejącymi ustawieniami ekspozycji. To pomaga zrozumieć, jak Twój aparat mierzył światło dla każdego ujęcia i udoskonalić swoje podejście do ekspozycji z czasem."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/{{ lang }}/changelog/frames-1.11.0-1.png",
+      "image_2x": "/lib/img/{{ lang }}/changelog/frames-1.11.0-1@2x.png",
+      "alt": "Aplikacja Frames do fotografii kliszowej z rejestracją metadanych trybu pomiaru do analizy ekspozycji",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Usprawnienia wydajności"
+    },
+    {
+      "type": "paragraph",
+      "content": "Usprawnienia wewnętrzne sprawiają, że Frames jest szybszy i bardziej responsywny. Nawigacja między filmami, rejestrowanie klatek i edycja metadanych - wszystko korzysta z zoptymalizowanej wydajności. Te dopracowania przyczyniają się do płynniejszego doświadczenia podczas zarządzania przepływem pracy fotografii analogowej."
+    }
+  ],
+  "improvements": [
+    "Dodano pole metadanych trybu pomiaru dla kompleksowej dokumentacji ekspozycji",
+    "Poprawiona wydajność aplikacji dla szybszej nawigacji i rejestrowania klatek",
+    "Zwiększona stabilność podczas przełączania między filmami i edycji klatek",
+    "Zoptymalizowane użycie pamięci dla płynniejszej pracy z dużymi bibliotekami filmów"
+  ],
+  "fixes": [],
+  "patches": [],
+  "meta_title": "Metadane trybu pomiaru i usprawnienia wydajności · Frames",
+  "meta_description": "Frames teraz rejestruje tryb pomiaru Twojego aparatu wraz z danymi ekspozycji, dając Ci pełniejszy zapis tego, jak każde ujęcie zostało zmierzone."
+}

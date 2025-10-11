@@ -1,0 +1,47 @@
+{
+  "version": "1.11.0",
+  "version_short": "1.11",
+  "url_slug": "1-11-ios",
+  "platform": "ios",
+  "release_date": "2025-10-02T10:00:00.000Z",
+  "title": "Belichtingsmeting-metadata en prestatieverbeteringen",
+  "summary": "Frames legt nu de belichtingsmetingmodus van je camera vast naast belichtingsdata, wat je een completer overzicht geeft van hoe elke opname is gemeten. Deze update brengt ook prestatieverbeteringen voor een snellere, stabielere ervaring door de hele app.",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Registratie belichtingsmeting"
+    },
+    {
+      "type": "paragraph",
+      "content": "Je kunt nu registreren welke belichtingsmetingmodus je camera gebruikte voor elk frame. Of je nu fotografeert met middenwegend, spot of evaluatieve meting, Frames legt deze metadata vast naast je bestaande belichtingsinstellingen. Dit helpt je begrijpen hoe je camera het licht mat voor elke opname en je benadering van belichting in de loop van de tijd te verfijnen."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/{{ lang }}/changelog/frames-1.11.0-1.png",
+      "image_2x": "/lib/img/{{ lang }}/changelog/frames-1.11.0-1@2x.png",
+      "alt": "Frames filmfotografie-app met belichtingsmetingmodus metadata-registratie voor belichtingsanalyse",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Prestatieverbeteringen"
+    },
+    {
+      "type": "paragraph",
+      "content": "Verbeteringen onder de motorkap maken Frames sneller en responsiever. Navigatie tussen filmrollen, frame-opname en metadata-bewerking profiteren allemaal van geoptimaliseerde prestaties. Deze verfijningen dragen bij aan een vloeiendere ervaring bij het beheren van je analoge fotografie-workflow."
+    }
+  ],
+  "improvements": [
+    "Belichtingsmetingmodus metadata-veld toegevoegd voor uitgebreide belichtingsdocumentatie",
+    "Verbeterde app-prestaties voor snellere navigatie en frame-opname",
+    "Verhoogde stabiliteit bij wisselen tussen filmrollen en bewerken van frames",
+    "Geoptimaliseerd geheugengebruik voor soepelere werking met grote filmbibliotheken"
+  ],
+  "fixes": [],
+  "patches": [],
+  "meta_title": "Belichtingsmeting-metadata en prestatieverbeteringen · Frames",
+  "meta_description": "Frames legt nu de belichtingsmetingmodus van je camera vast naast belichtingsdata, wat je een completer overzicht geeft van hoe elke opname is gemeten."
+}

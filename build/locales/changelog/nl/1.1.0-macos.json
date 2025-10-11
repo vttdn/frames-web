@@ -1,0 +1,37 @@
+{
+  "version": "1.1.0",
+  "version_short": "1.1",
+  "url_slug": "1-1-macos",
+  "platform": "macos",
+  "release_date": "2025-06-27T10:00:00.000Z",
+  "title": "TIFF-bestandsondersteuning",
+  "summary": "Je kunt nu TIFF-bestanden importeren en exporteren met volledige metadata-integratie, wat formaatondersteuning uitbreidt naast JPEG voor professionele workflows.",
+  "sections": [
+    {
+      "type": "paragraph",
+      "content": "TIFF-ondersteuning komt naar Frames voor macOS. Importeer TIFF-scans en sluit je filmrolmetadata in met dezelfde workflow die je gebruikt voor JPEG-bestanden. TIFF-bestanden werken naadloos in het metadata-reïntegratieproces, zodat je analoge fotografie-notities met je beelden meereizen ongeacht het formaat."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-mac-1.1.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-mac-1.1.0-1@2x.png",
+      "alt": "Frames macOS-app met TIFF-bestandsondersteuning voor professionele analoge fotografie-workflows",
+      "width": "400",
+      "height": "300"
+    }
+  ],
+  "improvements": [
+    "TIFF-bestandsimport-ondersteuning toegevoegd",
+    "TIFF-bestandsexport met volledige metadata-integratie toegevoegd",
+    "TIFF-bestanden werken naadloos met bestaande metadata-reïntegratieworkflow"
+  ],
+  "fixes": [],
+  "patches": [
+    {
+      "version": "1.1.1",
+      "description": "Probleem opgelost dat kon voorkomen dat .frames-bestanden in bepaalde situaties werden geladen."
+    }
+  ],
+  "meta_title": "TIFF-bestandsondersteuning · Frames",
+  "meta_description": "Je kunt nu TIFF-bestanden importeren en exporteren met volledige metadata-integratie, wat formaatondersteuning uitbreidt naast JPEG voor professionele..."
+}

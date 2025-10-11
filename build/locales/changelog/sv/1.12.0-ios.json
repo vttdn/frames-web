@@ -1,0 +1,84 @@
+{
+  "version": "1.12.0",
+  "version_short": "1.12",
+  "url_slug": "1-12-ios",
+  "platform": "ios",
+  "release_date": "2025-10-03T10:00:00.000Z",
+  "title": "Danska, finska, norska, vietnamesiska och 4 fler språk",
+  "summary": "Denna stora lokaliseringsrelease tar Frames till ännu fler filmfotografer världen över, med stöd för danska, finska, norska, vietnamesiska, traditionell kinesiska, indonesiska, hongkongkinesiska och grekiska, samtidigt som översättningar förfinats i alla befintliga språk för ökad tydlighet och konsistens.",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Åtta nya språk över Europa och Asien"
+    },
+    {
+      "type": "paragraph",
+      "content": "Frames stöder nu danska, finska, norska, vietnamesiska, traditionell kinesiska, indonesiska, hongkongkinesiska och grekiska. Varje översättning har noggrant utformats för att säkerställa att filmfotografisk terminologi känns naturlig samtidigt som teknisk noggrannhet bibehålls för kamerainställningar, filmtyper och metadatahantering."
+    },
+    {
+      "type": "list",
+      "items": [
+        {
+          "title": "Nordiska språk",
+          "description": "Danska (Dansk), finska (Suomi) och norska (Norsk) med egen terminologi för skandinaviska fotografer."
+        },
+        {
+          "title": "Asiatiska språk",
+          "description": "Vietnamesiska (Tiếng Việt), traditionell kinesiska (繁體中文), indonesiska (Bahasa Indonesia) och hongkongkinesiska."
+        },
+        {
+          "title": "Grekiska (Ελληνικά)",
+          "description": "Komplett översättning för fotografer i Grekland och Cypern."
+        }
+      ]
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.12.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.12.0-1@2x.png",
+      "alt": "Frames analogfotografiapp med flerspråkigt stöd för nordiska och asiatiska språk",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Regionala preferenser och översättningsförfiningar"
+    },
+    {
+      "type": "paragraph",
+      "content": "För traditionell kinesiska och hongkongkinesiska har vi anpassat regionala preferenser för datumformat och terminologi. De nordiska språken anpassar sig till hur filmfotografer i dessa länder diskuterar sitt hantverk. Vi har även förfinat befintliga översättningar i spanska, franska, tyska, italienska, portugisiska, japanska, koreanska, ryska, thailändska, polska, turkiska, svenska och hindi baserat på feedback från communityn."
+    },
+    {
+      "type": "paragraph",
+      "content": "Frames antar automatiskt din iOS-språkpreferens. Alla befintliga filmrullar och kamerautrustning förblir intakta. Gränssnittet anpassar sig helt enkelt utan datamigrering eller återinmatning."
+    }
+  ],
+  "improvements": [
+    "Tillagt komplett danskspråkig (Dansk) lokalisering för Danmarks filmfotosamhälle",
+    "Tillagt finskspråkig (Suomi) översättning med egen fotografi­terminologi",
+    "Tillagt stöd för norska (Norsk) för skandinaviska fotografer",
+    "Tillagt vietnamesiska (Tiếng Việt) för Sydostasiens analoga community",
+    "Tillagt traditionell kinesiska (繁體中文) för Taiwan, Hongkong och Macao",
+    "Tillagt indonesisk (Bahasa Indonesia) lokalisering",
+    "Tillagt hongkongkinesiska med regionspecifika preferenser",
+    "Tillagt grekisk (Ελληνικά) översättning för Grekland och Cypern",
+    "Förfinade alla befintliga språköversättningar för förbättrad tydlighet och naturligt språk",
+    "Förbättrad teknisk terminologikonsistens i fotografispecifika fält",
+    "Förbättrad lokalisering av datumformat och måttenheter för regionala preferenser"
+  ],
+  "fixes": [
+    {
+      "title": "Översättningskonsistens",
+      "description": "Standardiserade terminologi över liknande funktioner för att säkerställa konsekvent språk genom hela appen."
+    },
+    {
+      "title": "Layoutanpassning",
+      "description": "Förbättrad dynamisk textstorlek för att hantera längre översättningar utan trunkering eller överflöde."
+    }
+  ],
+  "patches": [],
+  "meta_title": "Danska, finska, norska, vietnamesiska och 4 fler språk · Frames",
+  "meta_description": "Denna stora lokaliseringsrelease tar Frames till ännu fler filmfotografer världen över, med stöd för danska, finska, norska, vietnamesiska, traditionell..."
+}

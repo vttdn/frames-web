@@ -1,0 +1,78 @@
+{
+  "version": "1.0.0",
+  "version_short": "1.0",
+  "url_slug": "1-0-macos",
+  "platform": "macos",
+  "release_date": "2025-04-08T10:00:00.000Z",
+  "title": "Frames för macOS lanseras",
+  "summary": "Den efterlängtade macOS-kompletteringsappen lanseras och tar med sig sömlös metadataåterintegration i skannade filmbilder. Importera dina filmrullsdata från iOS och bädda in EXIF-metadata i JPEG-filer.",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Metadataåterintegration för skannad film"
+    },
+    {
+      "type": "paragraph",
+      "content": "Frames för macOS löser den mest efterfrågade funktionen från filmfotosamhället: att återintegrera metadata i skannade bilder. Importera dina .frames-filer från iOS, dra in dina skannade JPEG-bilder och appen matchar bilder till foton. Dina exponeringsinställningar, kameradata, objektivinformation, filmtyper och fotograferingsanteckningar bäddas in som EXIF-metadata som fungerar sömlöst med Lightroom, Capture One och Apple Foton."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.0.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.0.0-1@2x.png",
+      "alt": "Frames macOS-app för inbäddning av EXIF-metadata i skannade filmfotografier",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Enkelt arbetsflöde, professionella resultat"
+    },
+    {
+      "type": "paragraph",
+      "content": "Arbetsflödet är enkelt: importera din .frames-fil, lägg till dina skannade bilder, matcha bilder till foton och exportera. Appen hanterar EXIF-inbäddning automatiskt och säkerställer att din analoga fotografidokumentation blir permanenta digitala register. Din filmrullsdata överförs sömlöst från fältloggning på iOS till slutlig arkivering på macOS."
+    }
+  ],
+  "improvements": [
+    "Importera .frames-filer från iOS",
+    "JPEG-filstöd med fullständig metadatainbäddning",
+    "Automatisk bild-till-foto-matchning",
+    "EXIF-metadatainbäddning kompatibel med Lightroom, Capture One och Apple Foton",
+    "Nativ macOS-design som följer Apples designriktlinjer",
+    "Tillgänglig på 7 språk: engelska, franska, spanska, italienska, portugisiska, tyska och nederländska"
+  ],
+  "fixes": [],
+  "patches": [
+    {
+      "version": "1.0.1",
+      "description": "Tillagt stöd för franska språket."
+    },
+    {
+      "version": "1.0.2",
+      "description": "Expanderat till 7 språk: engelska, franska, spanska, italienska, portugisiska, tyska och nederländska."
+    },
+    {
+      "version": "1.0.3",
+      "description": "Förbättrat språkstöd."
+    },
+    {
+      "version": "1.0.4",
+      "description": "Nu kompatibel med macOS 15.0 och senare."
+    },
+    {
+      "version": "1.0.5",
+      "description": "Exporterade foton behåller nu sina originalfilnamn."
+    },
+    {
+      "version": "1.0.6",
+      "description": "Omdesignad appikon."
+    },
+    {
+      "version": "1.0.7",
+      "description": "Mindre förfining av applogotypen."
+    }
+  ],
+  "meta_title": "Frames för macOS lanseras · Frames",
+  "meta_description": "Den efterlängtade macOS-kompletteringsappen lanseras och tar med sig sömlös metadataåterintegration i skannade filmbilder."
+}

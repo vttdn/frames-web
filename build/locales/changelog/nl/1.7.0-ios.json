@@ -1,0 +1,65 @@
+{
+  "version": "1.7.0",
+  "version_short": "1.7",
+  "url_slug": "1-7-ios",
+  "platform": "ios",
+  "release_date": "2025-09-10T10:00:00.000Z",
+  "title": "Volledige toegankelijkheidsondersteuning en opnameverbeteringen",
+  "meta_title": "Volledige toegankelijkheidsondersteuning en opnameverbeteringen · Frames",
+  "meta_description": "Apple toegankelijkheidsfuncties inclusief Grotere Tekst, Donkere Interface en Voldoende Contrast voor een inclusievere filmfotografie-app.",
+  "summary": "Deze update brengt uitgebreide Apple toegankelijkheidsondersteuning samen met verbeteringen aan de opnameworkflow en metadataverwerking, waardoor Frames toegankelijker en efficiënter wordt voor alle filmfotografen.",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Apple toegankelijkheidsfuncties"
+    },
+    {
+      "type": "paragraph",
+      "content": "Frames ondersteunt nu belangrijke Apple toegankelijkheidsfuncties, waaronder Grotere Tekst, Donkere Interface, Onderscheid Zonder Kleur Alleen, Voldoende Contrast en Verminderde Beweging. Deze functies zorgen ervoor dat de app bruikbaar is voor fotografen met verschillende visuele behoeften en voorkeuren, waarbij volledige functionaliteit behouden blijft ongeacht de toegankelijkheidsinstellingen."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.7.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.7.0-1@2x.png",
+      "alt": "Frames filmfotografie-app interface met toegankelijkheidsfuncties en grote tekstondersteuning",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Workflow- en metadataverbeteringen"
+    },
+    {
+      "type": "paragraph",
+      "content": "De app springt nu direct naar je nieuwe filmrol zodra deze is aangemaakt, wat de workflow stroomlijnt. Labels door de hele app zijn verfijnd voor betere leesbaarheid. Aangepaste reeksen vullen nu automatisch min/max diafragmawaarden in, wat bijzonder nuttig is voor metadata-reïntegratie op Mac. We hebben ook bewegingsproblemen in de recorder verholpen bij het vastleggen van opnames met de schuifregelaar open en initialisatieproblemen met waarden in de volledige recorderweergave gecorrigeerd."
+    }
+  ],
+  "improvements": [
+    "Ondersteuning toegevoegd voor Apple Grotere Tekst toegankelijkheidsfunctie",
+    "Ondersteuning toegevoegd voor Donkere Interface-weergave",
+    "Ondersteuning toegevoegd voor Onderscheid Zonder Kleur Alleen",
+    "Ondersteuning toegevoegd voor Voldoende Contrast",
+    "Ondersteuning toegevoegd voor Verminderde Beweging",
+    "Spring direct naar nieuwe filmrollen na aanmaak voor snellere workflow",
+    "Verbeterde duidelijkheid van labels door de hele app",
+    "Automatische invulling van min/max diafragma bij gebruik van aangepaste reeksen"
+  ],
+  "fixes": [
+    {
+      "title": "Bewegingsprobleem recorder",
+      "description": "Bewegingsprobleem in de recorder verholpen wanneer een opname wordt vastgelegd met de schuifregelaar open."
+    },
+    {
+      "title": "Initialisatie recorderwaarden",
+      "description": "Probleem opgelost waarbij waarden niet correct werden geïnitialiseerd bij het openen van de recorder in volledige weergave."
+    }
+  ],
+  "patches": [
+    {
+      "version": "1.7.1",
+      "description": "Lensweergave met overbodige diafragma-info in selectielijsten verholpen. Frames bewerkbaar terwijl bewerking was uitgeschakeld, gerepareerd."
+    }
+  ]
+}

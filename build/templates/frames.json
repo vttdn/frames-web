@@ -1,0 +1,184 @@
+{
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "MobileApplication",
+          "name": "{{ ios_appname }}",
+          "operatingSystem": "iOS 18.0",
+          "applicationCategory": "MultimediaApplication",
+          "inLanguage": "{{ lang }}",
+          "description": "{{ seo_meta_description }}",
+          "image": "{{ canonical_url }}/og-image.jpg",
+          "url": "{{ appstore_url }}",
+          "installUrl": "{{ appstore_url }}",
+          "softwareVersion": "{{ app_version_ios }}",
+          "screenshot": "{{ canonical_url }}/og-image.jpg",
+          "isAccessibleForFree": true,
+          "keywords": "{{ seo_meta_keywords }}",
+          "maintainer": {
+            "@type": "Person",
+            "name": "Vincent Tantardini"
+          },
+          "countriesSupported": [
+            "US", "GB", "FR", "DE", "IT", "ES", "CA", "AU",
+            "JP", "KR", "NL", "SE", "NO", "FI", "DK", "NZ"
+          ],
+          "mainEntity": {
+            "@type": "WebPage",
+            "@id": "https://withframes.com/"
+          },
+          "author": {
+            "@type": "Person",
+            "name": "Vincent Tantardini"
+          },
+          "offers": {
+            "@type": "Offer",
+            "price": "0",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock"
+          },
+          "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "4.9",
+            "reviewCount": "12"
+          },
+          "review": [
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "{{ review1_author }}" },
+            "datePublished": "{{ review1_date }}",
+            "name": "{{ review1_title }}",
+            "reviewBody": "{{ review1_descr }}",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "{{ review1_rating }}",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            },
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "{{ review2_author }}" },
+            "datePublished": "{{ review2_date }}",
+            "name": "{{ review2_title }}",
+            "reviewBody": "{{ review2_descr }}",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "{{ review2_rating }}",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            },
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "{{ review3_author }}" },
+            "datePublished": "{{ review3_date }}",
+            "name": "{{ review3_title }}",
+            "reviewBody": "{{ review3_descr }}",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "{{ review3_rating }}",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            },
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "{{ review4_author }}" },
+            "datePublished": "{{ review4_date }}",
+            "name": "{{ review4_title }}",
+            "reviewBody": "{{ review4_descr }}",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "{{ review4_rating }}",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            },
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "{{ review5_author }}" },
+            "datePublished": "{{ review5_date }}",
+            "name": "{{ review5_title }}",
+            "reviewBody": "{{ review5_descr }}",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "{{ review5_rating }}",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            },
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "{{ review6_author }}" },
+            "datePublished": "{{ review6_date }}",
+            "name": "{{ review6_title }}",
+            "reviewBody": "{{ review6_descr }}",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "{{ review6_rating }}",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            },
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "{{ review7_author }}" },
+            "datePublished": "{{ review7_date }}",
+            "name": "{{ review7_title }}",
+            "reviewBody": "{{ review7_descr }}",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "{{ review7_rating }}",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            }
+          ]
+        },
+        {
+          "@type": "SoftwareApplication",
+          "name": "{{ mac_appname }}",
+          "operatingSystem": "macOS 15.0",
+          "applicationCategory": "MultimediaApplication",
+          "inLanguage": "{{ lang }}",
+          "description": "{{ seo_meta_description }}",
+          "image": "{{ canonical_url }}/og-image.jpg",
+          "url": "{{ macappstore_url }}",
+          "installUrl": "{{ macappstore_url }}",
+          "softwareVersion": "{{ app_version_macos }}",
+          "mainEntity": {
+            "@type": "WebPage",
+            "@id": "https://withframes.com/"
+          },
+          "author": {
+            "@type": "Person",
+            "name": "Vincent Tantardini"
+          },
+          "offers": {
+            "@type": "Offer",
+            "price": "0",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock"
+          },
+          "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "5",
+            "reviewCount": "4"
+          }
+        },
+        {
+          "@type": "VideoObject",
+          "name": "{{ video_title }}",
+          "description": "{{ video_description }}",
+          "thumbnailUrl": "{{ global_urls.video.thumbnail }}",
+          "uploadDate": "2025-09-12T00:00:00+00:00",
+          "duration": "PT1M25S",
+          "embedUrl": "{{ global_urls.video.embed }}",
+          "contentUrl": "{{ global_urls.video.watch }}",
+          "publisher": {
+            "@id": "https://withframes.com/#organization"
+          }
+        }
+      ]
+    }

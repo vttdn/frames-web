@@ -1,0 +1,55 @@
+{
+  "version": "1.5.0",
+  "version_short": "1.5",
+  "url_slug": "1-5-ios",
+  "platform": "ios",
+  "release_date": "2025-09-03T10:00:00.000Z",
+  "title": "Novos Filmes, Sistema de Abertura Redesenhado e Troca de Lentes",
+  "meta_title": "Novos Filmes, Sistema de Abertura Redesenhado e Troca de Lentes · Frames",
+  "meta_description": "Biblioteca expandida com Harman Phoenix II, Lucky Color 200. Sequências personalizadas de f-stop por lente. Troque lentes direto do gravador.",
+  "summary": "Esta atualização expande a biblioteca de filmes com novas emulsões, redesenha completamente o gerenciamento de abertura com sequências personalizadas de f-stop e adiciona a capacidade de trocar lentes diretamente do gravador.",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Biblioteca Expandida de Filmes"
+    },
+    {
+      "type": "paragraph",
+      "content": "A lista de filmes agora inclui Harman Phoenix II, Lucky Color 200, Leica Monopan 50 e várias outras emulsões populares. Seja fotografando filmes coloridos experimentais ou clássicos preto e branco, o Frames suporta uma gama mais ampla de tipos de filme para registro mais preciso."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/{{ lang }}/changelog/frames-1.5.0-1.png",
+      "image_2x": "/lib/img/{{ lang }}/changelog/frames-1.5.0-1@2x.png",
+      "alt": "Aplicativo de fotografia analógica Frames com sequências de abertura personalizadas e biblioteca expandida de filmes",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Gerenciamento de Abertura Redesenhado"
+    },
+    {
+      "type": "paragraph",
+      "content": "O controle de abertura foi completamente reconstruído. Agora você pode definir sequências personalizadas de f-stop por lente, mostrando apenas as aberturas que sua lente realmente possui. O controle deslizante do gravador agora está devidamente centralizado no valor de abertura selecionado. Troque lentes diretamente do gravador sem sair do seu fluxo de trabalho, e defina a distância focal através do botão Mais para lentes zoom ou ajustes de controle de perspectiva."
+    }
+  ],
+  "improvements": [
+    "Biblioteca de filmes expandida com Harman Phoenix II, Lucky Color 200, Leica Monopan 50 e mais",
+    "Sistema de gerenciamento de abertura completamente redesenhado",
+    "Adicionadas sequências personalizadas de f-stop por lente",
+    "Adicionada troca de lentes diretamente do gravador",
+    "Distância focal agora pode ser ajustada através do botão Mais no gravador",
+    "Consistência de localização aprimorada",
+    "Pequenas melhorias de desempenho em todo o aplicativo"
+  ],
+  "fixes": [
+    {
+      "title": "Centralização do Controle de Abertura",
+      "description": "Corrigido um problema onde o controle deslizante de abertura no gravador não estava devidamente centralizado no valor selecionado."
+    }
+  ],
+  "patches": []
+}

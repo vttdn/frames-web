@@ -1,0 +1,150 @@
+{
+  "version": "1.0.0",
+  "version_short": "1.0",
+  "url_slug": "1-0-ios",
+  "platform": "ios",
+  "release_date": "2025-04-01T03:02:00.000Z",
+  "title": "Frames Launch: Your Analog Photography Notebook",
+  "meta_title": "Frames Launch: Your Analog Photography Notebook · Frames",
+  "meta_description": "Track film photography metadata in the field with iOS and embed EXIF data into scanned images with macOS. Complete analog workflow with 200+ film stocks.",
+  "summary": "Frames launches as a complete rebuild of Datafilm, bringing a refined iOS app for logging film photography metadata in the field, paired with a new macOS app for embedding that data into your scanned images.",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Capture & Organize Your Film Rolls"
+    },
+    {
+      "type": "paragraph",
+      "content": "Frames is your digital notebook for analog photography, designed to track shot settings and seamlessly integrate metadata into scanned images. Log every detail that matters for each frame: focal length, shutter speed, exposure compensation, aperture, flash settings, camera, lens, film stock, date, time, and geolocation."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.0.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.0.0-1@2x.png",
+      "alt": "Frames film photography app interface for logging analog camera metadata and roll details",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "list",
+      "items": [
+        {
+          "title": "Complete Metadata Logging",
+          "description": "Track frame number, focal length, shutter speed, exposure compensation, aperture, flash settings, camera, lens, film stock, date, time, and location."
+        },
+        {
+          "title": "Reference Images",
+          "description": "Attach reference images to each frame for quick visual context when matching scans."
+        },
+        {
+          "title": "Interactive Map View",
+          "description": "View your film shots on an interactive map to retrace where each frame was captured."
+        },
+        {
+          "title": "Folder Organization",
+          "description": "Organize your film library with folders and powerful search tools to find any frame instantly."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Export & Sync Your Data"
+    },
+    {
+      "type": "paragraph",
+      "content": "The companion macOS app solves the most requested feature from the film photography community: reintegrating metadata into scanned JPEG images. Export your metadata as JSON (.frames) files, share records across Apple devices, and use the macOS app to embed EXIF data that works seamlessly with Lightroom, Capture One, and Apple Photos."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Optimized for Analog Photography"
+    },
+    {
+      "type": "list",
+      "items": [
+        {
+          "title": "Adaptive Controls",
+          "description": "Controls adapt to your gear characteristics for faster logging."
+        },
+        {
+          "title": "Smart Autofill",
+          "description": "Intelligent autofill for lens, camera, film stock, and ISO saves time in the field."
+        },
+        {
+          "title": "200+ Film Stocks",
+          "description": "Pre-loaded selection of popular film stocks from major manufacturers."
+        },
+        {
+          "title": "Native Apple Design",
+          "description": "Follows Apple's Human Interface Guidelines for a smooth, intuitive experience."
+        },
+        {
+          "title": "Performance Optimized",
+          "description": "Works smoothly even on older iPhone models."
+        }
+      ]
+    }
+  ],
+  "improvements": [
+    "Complete ground-up rebuild with refined architecture",
+    "Log comprehensive frame metadata: exposure, camera, lens, film, location",
+    "Automatic timestamping for every frame",
+    "Reference image attachment for scan matching",
+    "Folder organization for film roll libraries",
+    "Powerful search across all logged frames",
+    "Interactive map view showing shooting locations",
+    "Companion macOS app for EXIF metadata embedding",
+    "Full compatibility with Lightroom, Capture One, and Apple Photos",
+    "Privacy-first design with no accounts or cloud dependency",
+    "Improved toolbar user interface",
+    "Added support for multiple languages including French, German, Spanish, Italian, Dutch, Portuguese, Polish, and Swedish"
+  ],
+  "fixes": [
+    "Fixed issue where adding a new camera or lens was freezing the screen on some devices",
+    "Fixed review app URL"
+  ],
+  "patches": [
+    {
+      "version": "1.0.1",
+      "date": "2025-04-04",
+      "description": "Minor improvements and bug fixes"
+    },
+    {
+      "version": "1.0.2",
+      "date": "2025-04-13",
+      "description": "Minor fixes and translation improvements"
+    },
+    {
+      "version": "1.0.3",
+      "date": "2025-04-15",
+      "description": "Improved localization"
+    },
+    {
+      "version": "1.0.4",
+      "date": "2025-04-19",
+      "description": "Enhanced toolbar UI and expanded localizations"
+    },
+    {
+      "version": "1.0.5",
+      "date": "2025-04-21",
+      "description": "Added localizations"
+    },
+    {
+      "version": "1.0.6",
+      "date": "2025-04-23",
+      "description": "Fixed issue where adding a new camera or lens was freezing the screen on some devices"
+    },
+    {
+      "version": "1.0.7",
+      "date": "2025-04-28",
+      "description": "Fixed review app URL"
+    },
+    {
+      "version": "1.0.8",
+      "date": "2025-05-20",
+      "description": "Added compatibility with iOS 18.0 and later"
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "version": "1.13.0",
+  "version_short": "1.13",
+  "url_slug": "1-13-ios",
+  "platform": "ios",
+  "release_date": "2025-10-06T10:00:00.000Z",
+  "title": "Obsługa języków hebrajskiego, arabskiego, rumuńskiego i ukraińskiego",
+  "summary": "Frames kontynuuje swoją misję służenia fotografom analogowym na całym świecie dzięki tej znaczącej aktualizacji lokalizacyjnej, przynosząc natywną obsługę dla użytkowników języków hebrajskiego, arabskiego, rumuńskiego i ukraińskiego, wraz z udoskonalonymi tłumaczeniami i ulepszeniami interfejsu w całej aplikacji.",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Cztery nowe języki z obsługą pisma od prawej do lewej"
+    },
+    {
+      "type": "paragraph",
+      "content": "Frames obsługuje teraz języki hebrajski, arabski, rumuński i ukraiński, każdy starannie zlokalizowany z poszanowaniem niuansów kulturowych i terminologii fotograficznej. Hebrajski i arabski zawierają pełną adaptację interfejsu od prawej do lewej. Przepływy nawigacji, rozmieszczenie przycisków i wyrównanie tekstu są odpowiednio odbite, przy zachowaniu terminów technicznych jak kody filmów i wartości przysłony w ich standardowym formacie międzynarodowym."
+    },
+    {
+      "type": "list",
+      "items": [
+        {
+          "title": "Hebrajski (עברית) i arabski (العربية)",
+          "description": "Kompletny interfejs RTL z natywną terminologią dla filmów, ustawień aparatu i metadanych EXIF."
+        },
+        {
+          "title": "Rumuński (Română) i ukraiński (Українська)",
+          "description": "Pełne tłumaczenia wspierające fotografów dokumentujących swoją pracę w ich ojczystym języku."
+        }
+      ]
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.13.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.13.0-1@2x.png",
+      "alt": "Aplikacja Frames do fotografii kliszowej z interfejsem RTL w hebrajskim i arabskim oraz obsługą języków",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Dopracowanie tłumaczeń we wszystkich językach"
+    },
+    {
+      "type": "paragraph",
+      "content": "Oprócz nowych języków, udoskonaliliśmy istniejące tłumaczenia w całej aplikacji na podstawie opinii fotografów. Nazwy filmów pozostają w ich oryginalnym języku (Kodak Portra, Ilford HP5), podczas gdy elementy interfejsu dostosowują się do wybranego języka. Preferencje językowe synchronizują się między urządzeniami, a wszystkie istniejące dane automatycznie wyświetlają się w wybranym języku bez ponownego wprowadzania lub migracji."
+    }
+  ],
+  "improvements": [
+    "Dodano kompletną lokalizację hebrajską (עברית) z obsługą interfejsu od prawej do lewej",
+    "Dodano kompletną lokalizację arabską (العربية) z adaptacją układu RTL",
+    "Dodano tłumaczenie rumuńskie (Română) dla społeczności fotografii kliszowej",
+    "Dodano obsługę ukraińskiego (Українська) z natywną terminologią",
+    "Udoskonalone istniejące tłumaczenia we wszystkich obsługiwanych językach dla lepszej klarowności i spójności",
+    "Poprawiona dokładność terminologii technicznej w polach specyficznych dla fotografii",
+    "Zwiększona obsługa tekstu dwukierunkowego dla mieszanej zawartości łacińskiej i RTL"
+  ],
+  "fixes": [
+    {
+      "title": "Przepełnienie tekstu w tłumaczeniach",
+      "description": "Rozwiązano problemy układu, w których dłuższe przetłumaczone frazy mogły być obcięte w niektórych elementach interfejsu."
+    },
+    {
+      "title": "Spójność układu RTL",
+      "description": "Naprawiono drobne problemy wyrównania w językach od prawej do lewej, aby zapewnić prawidłowe odbicie na wszystkich ekranach."
+    }
+  ],
+  "patches": [
+    {
+      "version": "1.13.1",
+      "description": "Naprawiono błąd, który mógł powodować powtarzające się migotanie menu udostępniania podczas eksportowania"
+    }
+  ],
+  "meta_title": "Obsługa języków hebrajskiego, arabskiego, rumuńskiego i ukraińskiego · Frames",
+  "meta_description": "Frames kontynuuje swoją misję służenia fotografom analogowym na całym świecie dzięki tej znaczącej aktualizacji lokalizacyjnej, przynosząc natywną obsługę..."
+}

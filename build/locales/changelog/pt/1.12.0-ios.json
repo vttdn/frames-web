@@ -1,0 +1,84 @@
+{
+  "version": "1.12.0",
+  "version_short": "1.12",
+  "url_slug": "1-12-ios",
+  "platform": "ios",
+  "release_date": "2025-10-03T10:00:00.000Z",
+  "title": "Dinamarquês, Finlandês, Norueguês, Vietnamita e Mais 4 Idiomas",
+  "summary": "Este grande lançamento de localização traz o Frames para ainda mais fotógrafos de filme em todo o mundo, adicionando suporte para dinamarquês, finlandês, norueguês, vietnamita, chinês tradicional, indonésio, chinês de Hong Kong e grego, refinando traduções em todos os idiomas existentes para maior clareza e consistência.",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Oito Novos Idiomas na Europa e Ásia"
+    },
+    {
+      "type": "paragraph",
+      "content": "O Frames agora suporta dinamarquês, finlandês, norueguês, vietnamita, chinês tradicional, indonésio, chinês de Hong Kong e grego. Cada tradução foi cuidadosamente elaborada para garantir que a terminologia de fotografia analógica pareça natural, mantendo precisão técnica para configurações de câmera, filmes e gerenciamento de metadados."
+    },
+    {
+      "type": "list",
+      "items": [
+        {
+          "title": "Idiomas Nórdicos",
+          "description": "Dinamarquês (Dansk), finlandês (Suomi) e norueguês (Norsk) com terminologia nativa para fotógrafos escandinavos."
+        },
+        {
+          "title": "Idiomas Asiáticos",
+          "description": "Vietnamita (Tiếng Việt), chinês tradicional (繁體中文), indonésio (Bahasa Indonesia) e chinês de Hong Kong."
+        },
+        {
+          "title": "Grego (Ελληνικά)",
+          "description": "Tradução completa para fotógrafos em toda a Grécia e Chipre."
+        }
+      ]
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.12.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.12.0-1@2x.png",
+      "alt": "Aplicativo de fotografia analógica Frames com suporte multilíngue para idiomas nórdicos e asiáticos",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Preferências Regionais e Refinamentos de Tradução"
+    },
+    {
+      "type": "paragraph",
+      "content": "Para chinês tradicional e chinês de Hong Kong, adaptamos preferências regionais para formatos de data e terminologia. Os idiomas nórdicos se alinham com como fotógrafos de filme nesses países discutem seu ofício. Também refinamos traduções existentes em espanhol, francês, alemão, italiano, português, japonês, coreano, russo, tailandês, polonês, turco, sueco e hindi com base no feedback da comunidade."
+    },
+    {
+      "type": "paragraph",
+      "content": "O Frames adota automaticamente sua preferência de idioma do iOS. Todos os rolos de filme e equipamentos de câmera existentes permanecem intactos. A interface simplesmente se adapta sem migração de dados ou reinserção."
+    }
+  ],
+  "improvements": [
+    "Adicionada localização em dinamarquês (Dansk) para a comunidade de fotografia analógica da Dinamarca",
+    "Adicionada tradução em finlandês (Suomi) com terminologia nativa de fotografia",
+    "Adicionado suporte para norueguês (Norsk) para fotógrafos escandinavos",
+    "Adicionado vietnamita (Tiếng Việt) para a comunidade analógica do Sudeste Asiático",
+    "Adicionado chinês tradicional (繁體中文) para Taiwan, Hong Kong e Macau",
+    "Adicionada localização em indonésio (Bahasa Indonesia)",
+    "Adicionado chinês de Hong Kong com preferências específicas da região",
+    "Adicionada tradução em grego (Ελληνικά) para Grécia e Chipre",
+    "Refinadas todas as traduções de idiomas existentes para maior clareza e fraseamento natural",
+    "Consistência aprimorada da terminologia técnica em campos específicos de fotografia",
+    "Localização aprimorada de formato de data e unidades de medida para preferências regionais"
+  ],
+  "fixes": [
+    {
+      "title": "Consistência de Tradução",
+      "description": "Padronizada terminologia entre recursos semelhantes para garantir linguagem consistente em todo o aplicativo."
+    },
+    {
+      "title": "Adaptação de Layout",
+      "description": "Dimensionamento dinâmico de texto aprimorado para acomodar traduções mais longas sem truncamento ou estouro."
+    }
+  ],
+  "patches": [],
+  "meta_title": "Dinamarquês, Finlandês, Norueguês, Vietnamita e Mais 4 Idiomas · Frames",
+  "meta_description": "Este grande lançamento de localização traz o Frames para ainda mais fotógrafos de filme em todo o mundo, adicionando suporte para dinamarquês, finlandês,..."
+}

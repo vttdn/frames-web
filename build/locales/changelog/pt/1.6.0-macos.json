@@ -1,0 +1,38 @@
+{
+  "version": "1.6.0",
+  "version_short": "1.6",
+  "url_slug": "1-6-macos",
+  "platform": "macos",
+  "release_date": "2025-10-01T10:00:00.000Z",
+  "title": "Metadados de Modo de Medição e Melhorias de Desempenho",
+  "meta_title": "Metadados de Modo de Medição e Melhorias de Desempenho · Frames",
+  "meta_description": "Reintegre dados de modo de medição em imagens digitalizadas. Processamento de imagens mais rápido. Estabilidade aprimorada para reintegração de metadados.",
+  "summary": "O Frames para macOS agora inclui suporte a metadados de modo de medição para dados EXIF abrangentes, além de melhorias de desempenho para operação mais rápida e estável.",
+  "sections": [
+    {
+      "type": "paragraph",
+      "content": "Agora você pode ver e reintegrar dados de modo de medição de seus registros de filme em imagens digitalizadas. Isso corresponde à atualização do iOS, garantindo consistência completa de metadados em ambas as plataformas. Atualizações de desempenho em todo o aplicativo tornam a reintegração de metadados mais rápida e confiável."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/{{ lang }}/changelog/frames-1.11.0-1.png",
+      "image_2x": "/lib/img/{{ lang }}/changelog/frames-1.11.0-1@2x.png",
+      "alt": "Aplicativo macOS Frames mostrando suporte a metadados de modo de medição para dados EXIF completos",
+      "width": "400",
+      "height": "300"
+    }
+  ],
+  "improvements": [
+    "Adicionado suporte a metadados de modo de medição",
+    "Atualizações de desempenho para processamento de imagens mais rápido",
+    "Estabilidade do aplicativo aprimorada",
+    "Velocidade de reintegração de metadados aprimorada"
+  ],
+  "fixes": [],
+  "patches": [
+    {
+      "version": "1.5.1",
+      "description": "Várias melhorias de interface e refinamentos visuais."
+    }
+  ]
+}

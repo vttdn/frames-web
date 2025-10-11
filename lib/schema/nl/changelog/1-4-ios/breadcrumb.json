@@ -1,0 +1,23 @@
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://withframes.com/nl/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Changelog",
+      "item": "https://withframes.com/nl/changelog/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Ondersteuning voor filterregistratie",
+      "item": "https://withframes.com/nl/changelog/1-4-ios/"
+    }  ]
+}

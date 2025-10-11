@@ -1,0 +1,38 @@
+{
+  "version": "1.6.0",
+  "version_short": "1.6",
+  "url_slug": "1-6-macos",
+  "platform": "macos",
+  "release_date": "2025-10-01T10:00:00.000Z",
+  "title": "Mätningslägesmetadata och prestandaförbättringar",
+  "summary": "Frames för macOS inkluderar nu stöd för mätningslägesmetadata för omfattande EXIF-data, plus prestandaförbättringar för snabbare och mer stabil drift.",
+  "sections": [
+    {
+      "type": "paragraph",
+      "content": "Du kan nu se och återintegrera mätningslägesdata från dina filmloggar i skannade bilder. Detta matchar iOS-uppdateringen och säkerställer fullständig metadatakonsistens över båda plattformarna. Prestandauppgraderingar genom hela appen gör metadataåterintegration snabbare och mer pålitlig."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/{{ lang }}/changelog/frames-1.11.0-1.png",
+      "image_2x": "/lib/img/{{ lang }}/changelog/frames-1.11.0-1@2x.png",
+      "alt": "Frames macOS-app med stöd för mätningslägesmetadata för komplett EXIF-data",
+      "width": "400",
+      "height": "300"
+    }
+  ],
+  "improvements": [
+    "Tillagt stöd för mätningslägesmetadata",
+    "Prestandauppgraderingar för snabbare bildbearbetning",
+    "Förbättrad appstabilitet genom hela appen",
+    "Förbättrad hastighet för metadataåterintegration"
+  ],
+  "fixes": [],
+  "patches": [
+    {
+      "version": "1.5.1",
+      "description": "Olika UI-förbättringar och visuella förfiningar."
+    }
+  ],
+  "meta_title": "Mätningslägesmetadata och prestandaförbättringar · Frames",
+  "meta_description": "Frames för macOS inkluderar nu stöd för mätningslägesmetadata för omfattande EXIF-data, plus prestandaförbättringar för snabbare och mer stabil drift."
+}

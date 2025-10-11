@@ -1,0 +1,68 @@
+{
+  "version": "1.10.0",
+  "version_short": "1.10",
+  "url_slug": "1-10-ios",
+  "platform": "ios",
+  "release_date": "2025-09-23T10:00:00.000Z",
+  "title": "Grote prestatie- en stabiliteitsverbeteringen",
+  "meta_title": "Grote prestatie- en stabiliteitsverbeteringen · Frames",
+  "meta_description": "Ervaar aanzienlijk snellere frame-opname, vloeiendere navigatie en betere stabiliteit bij het beheren van uitgebreide filmrolcollecties.",
+  "summary": "Deze release brengt aanzienlijke verbeteringen onder de motorkap die Frames sneller, betrouwbaarder en beter voorbereid maken op toekomstige functies. Prestatie-optimalisaties raken elk deel van de app, van frame-opname tot filmrolbeheer.",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Fundament voor de toekomst"
+    },
+    {
+      "type": "paragraph",
+      "content": "We hebben kerndelen van Frames opnieuw opgebouwd om prestaties en stabiliteit te verbeteren. Frame-bewerking voelt responsiever aan, navigatie verloopt vloeiender en het beheren van grote collecties filmrollen is betrouwbaarder. Deze architecturale verbeteringen leggen ook de basis voor komende functies en zorgen ervoor dat Frames snel en stabiel blijft naarmate je bibliotheek groeit."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.10.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.10.0-1@2x.png",
+      "alt": "Frames filmfotografie-app met verbeterde prestaties en geoptimaliseerde frame-opnamesnelheid",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Soepeler van begin tot eind"
+    },
+    {
+      "type": "paragraph",
+      "content": "Je zult snellere laadtijden merken bij het openen van filmrollen en snellere reacties bij het bewerken van frame-metadata. Overgangen tussen schermen voelen vloeiender aan, en de app behoudt betere prestaties, zelfs met uitgebreide uitrustingscollecties en honderden frames. De verbeteringen zijn het meest merkbaar bij het werken met meerdere filmrollen of bij het vaak wisselen tussen recorder- en bibliotheekweergaven."
+    }
+  ],
+  "improvements": [
+    "Aanzienlijk verbeterde app-prestaties en responsiviteit",
+    "Snellere frame-bewerking en metadata-updates",
+    "Verbeterde navigatievloeiendheid door de hele app",
+    "Betere stabiliteit bij het beheren van grote filmrolcollecties",
+    "Geoptimaliseerde uitrustingslijstprestaties met uitgebreide camera- en lensbibliotheken",
+    "Verbeterd geheugenbeheer voor aanhoudende prestaties",
+    "Schonere codebase-architectuur voor toekomstige functie-ontwikkeling"
+  ],
+  "fixes": [
+    {
+      "title": "Opslaan referentiebeeld",
+      "description": "Probleem opgelost waarbij referentiebeelden niet altijd correct werden opgeslagen wanneer ze aan frames werden gekoppeld."
+    }
+  ],
+  "patches": [
+    {
+      "version": "1.10.1",
+      "description": "Snellere frame-recorder respons en verbeterd locatiebeheer voor nauwkeurigere registratie."
+    },
+    {
+      "version": "1.10.2",
+      "description": "Verbeterde exportbetrouwbaarheid met verwerking van speciale tekens. Verbeterde locatie- en kaartweergaveprestaties met snellere exporten."
+    },
+    {
+      "version": "1.10.3",
+      "description": "Diverse UI-verbeteringen en visuele verfijningen door de hele interface."
+    }
+  ]
+}

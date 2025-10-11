@@ -1,0 +1,55 @@
+{
+  "version": "1.5.0",
+  "version_short": "1.5",
+  "url_slug": "1-5-ios",
+  "platform": "ios",
+  "release_date": "2025-09-03T10:00:00.000Z",
+  "title": "Nuevas películas, sistema de apertura rediseñado y cambio de objetivo",
+  "summary": "Esta actualización amplía la biblioteca de películas con nuevas emulsiones, rediseña completamente la gestión de apertura con secuencias personalizadas de pasos f, y añade la capacidad de cambiar objetivos directamente desde la grabadora.",
+  "meta_title": "Nuevas películas, sistema de apertura rediseñado y cambio de objetivo · Frames",
+  "meta_description": "Amplía tu biblioteca con nuevas películas como Harman Phoenix II. Sistema de apertura completamente rediseñado con secuencias personalizadas de pasos f.",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Biblioteca de películas ampliada"
+    },
+    {
+      "type": "paragraph",
+      "content": "La lista de películas ahora incluye Harman Phoenix II, Lucky Color 200, Leica Monopan 50 y varias otras emulsiones populares. Ya sea que estés disparando películas de color experimentales o películas clásicas en blanco y negro, Frames soporta una gama más amplia de tipos de película para un registro más preciso."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/{{ lang }}/changelog/frames-1.5.0-1.png",
+      "image_2x": "/lib/img/{{ lang }}/changelog/frames-1.5.0-1@2x.png",
+      "alt": "Aplicación de fotografía analógica Frames con secuencias de apertura personalizadas y biblioteca ampliada de películas",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Gestión de apertura rediseñada"
+    },
+    {
+      "type": "paragraph",
+      "content": "El control de apertura ha sido completamente reconstruido. Ahora puedes definir secuencias personalizadas de pasos f por objetivo, mostrando solo las aperturas que tu objetivo realmente tiene. El deslizador de la grabadora ahora está correctamente centrado en el valor de apertura seleccionado. Cambia objetivos directamente desde la grabadora sin salir de tu flujo de trabajo, y ajusta la distancia focal mediante el botón Más para objetivos zoom o ajustes de control de perspectiva."
+    }
+  ],
+  "improvements": [
+    "Biblioteca de películas ampliada con Harman Phoenix II, Lucky Color 200, Leica Monopan 50 y más",
+    "Sistema de gestión de apertura completamente rediseñado",
+    "Secuencias personalizadas de pasos f por objetivo añadidas",
+    "Cambio de objetivo directamente desde la grabadora añadido",
+    "Distancia focal ahora ajustable mediante botón Más en grabadora",
+    "Consistencia de localización mejorada",
+    "Mejoras menores de rendimiento en general"
+  ],
+  "fixes": [
+    {
+      "title": "Centrado del deslizador de apertura",
+      "description": "Corregido un problema donde el deslizador de apertura en la grabadora no estaba correctamente centrado en el valor seleccionado."
+    }
+  ],
+  "patches": []
+}

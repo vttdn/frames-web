@@ -1,0 +1,53 @@
+{
+  "version": "1.6.0",
+  "version_short": "1.6",
+  "url_slug": "1-6-ios",
+  "platform": "ios",
+  "release_date": "2025-09-05T10:00:00.000Z",
+  "title": "Custom Shutter Speed Sequences & Map Improvements",
+  "summary": "Set custom shutter speed sequences per camera, showing only the speeds your camera actually supports. This update also brings improved map handling, additional shutter speed options, and export progress indicators.",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Custom Shutter Speed Control"
+    },
+    {
+      "type": "paragraph",
+      "content": "Configure which shutter speeds appear in the recorder slider and frame settings on a per-camera basis. If your camera only has speeds from 1/1000 to 1 second, you can hide the extended range options. This keeps your recorder interface clean and prevents accidentally logging speeds your camera doesn't support. Custom sequences sync with the Mac app for consistent metadata across devices."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/{{ lang }}/changelog/frames-1.6.0-1.png",
+      "image_2x": "/lib/img/{{ lang }}/changelog/frames-1.6.0-1@2x.png",
+      "alt": "Frames film photography app showing custom shutter speed sequences and map improvements",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Enhanced Map and Export Features"
+    },
+    {
+      "type": "paragraph",
+      "content": "Map view now handles coordinates more reliably with improved gesture support for panning and zooming. We've added commonly used shutter speeds (1/160, 1/80, 1/40, 1/20) that were previously missing. Export operations now show a progress indicator so you know when your files are being generated before the share sheet appears."
+    }
+  ],
+  "improvements": [
+    "Added custom shutter speed sequences per camera",
+    "Improved map coordinate handling and gesture support",
+    "Added missing shutter speeds: 1/160, 1/80, 1/40, and 1/20",
+    "Added export progress indicator before share sheet appears",
+    "Enhanced slider accuracy in recorder view"
+  ],
+  "fixes": [
+    {
+      "title": "Recorder Slider Accuracy",
+      "description": "Fixed recorder sliders to match both correct value and visual position."
+    }
+  ],
+  "patches": [],
+  "meta_title": "Custom Shutter Speed Sequences & Map Improvements · Frames",
+  "meta_description": "Set custom shutter speed sequences per camera, showing only the speeds your camera actually supports."
+}

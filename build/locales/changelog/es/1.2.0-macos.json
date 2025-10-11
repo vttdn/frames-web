@@ -1,0 +1,48 @@
+{
+  "version": "1.2.0",
+  "version_short": "1.2",
+  "url_slug": "1-2-macos",
+  "platform": "macos",
+  "release_date": "2025-08-24T10:00:00.000Z",
+  "title": "Soporte de filtros, idiomas japonés y coreano",
+  "summary": "Los filtros ahora aparecen en la barra lateral y se añaden automáticamente a los metadatos al guardar fotogramas. Esta actualización también trae soporte de idiomas japonés y coreano, además de correcciones importantes de errores.",
+  "meta_title": "Soporte de filtros, idiomas japonés y coreano · Frames",
+  "meta_description": "Los filtros UV, ND y CPL ahora se incrustan automáticamente en metadatos EXIF. Añadido soporte para japonés y coreano con correcciones importantes.",
+  "sections": [
+    {
+      "type": "paragraph",
+      "content": "Los filtros registrados en iOS ahora se muestran en la barra lateral de macOS y se incrustan automáticamente en metadatos EXIF durante la reintegración. Esto completa tu documentación analógica incluyendo filtros UV, ND, CPL y otros en tus imágenes finales. Los números de serie de cámara ahora se incluyen en los metadatos y hemos corregido un error donde los valores de flash estaban invertidos. Frames ahora está disponible en japonés y coreano, coincidiendo con la expansión de idiomas de iOS."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-mac-1.2.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-mac-1.2.0-1@2x.png",
+      "alt": "Aplicación macOS Frames mostrando barra lateral de metadatos de filtro para documentación de fotografía analógica",
+      "width": "400",
+      "height": "300"
+    }
+  ],
+  "improvements": [
+    "Visualización de filtros añadida en la barra lateral",
+    "Filtros añadidos automáticamente a metadatos al guardar fotogramas",
+    "Número de serie de cámara ahora incluido en metadatos EXIF",
+    "Soporte de idioma japonés añadido",
+    "Soporte de idioma coreano añadido"
+  ],
+  "fixes": [
+    {
+      "title": "Inversión de valor de flash",
+      "description": "Corregido un problema donde el valor de flash estaba invertido (mostraba 'Sí' cuando debería haber sido 'No')."
+    }
+  ],
+  "patches": [
+    {
+      "version": "1.2.2",
+      "description": "Localización mejorada para nuevos idiomas."
+    },
+    {
+      "version": "1.2.1",
+      "description": "Traducciones mejoradas para consistencia con la aplicación iOS, además de mejoras menores de UI."
+    }
+  ]
+}

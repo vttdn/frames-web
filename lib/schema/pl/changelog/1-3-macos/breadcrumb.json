@@ -1,0 +1,23 @@
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://withframes.com/pl/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Changelog",
+      "item": "https://withframes.com/pl/changelog/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Obsługa plików Raw DNG",
+      "item": "https://withframes.com/pl/changelog/1-3-macos/"
+    }  ]
+}

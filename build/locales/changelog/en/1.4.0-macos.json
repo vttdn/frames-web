@@ -1,0 +1,72 @@
+{
+  "version": "1.4.0",
+  "version_short": "1.4",
+  "url_slug": "1-4-macos",
+  "platform": "macos",
+  "release_date": "2025-09-18T10:00:00.000Z",
+  "title": "Keyboard Shortcuts, Native Inspector & Performance",
+  "meta_title": "Keyboard Shortcuts, Native Inspector & Performance · Frames",
+  "meta_description": "Navigate with keyboard shortcuts and native macOS inspector panel. Enhanced performance for faster metadata reintegration with cleaner, more professional interface.",
+  "summary": "Enhanced macOS interface with keyboard navigation, native inspector panel, cleaner design, and optimized performance for faster, more responsive metadata reintegration.",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Keyboard Navigation & Native Controls"
+    },
+    {
+      "type": "paragraph",
+      "content": "Navigate frames quickly with arrow keys, delete attached photos with Backspace, and press Enter to select photos. The custom sidebar has been replaced with a macOS-native inspector panel for a more polished, system-integrated experience that follows Apple's design language."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-mac-1.4.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-mac-1.4.0-1@2x.png",
+      "alt": "Frames macOS app with keyboard shortcuts and native inspector for film metadata workflow",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Refined Interface & Performance"
+    },
+    {
+      "type": "paragraph",
+      "content": "Visual artifacts have been removed throughout the interface for a cleaner, more professional appearance. The code architecture has been optimized for better app responsiveness and stability, making metadata reintegration workflows faster and more reliable."
+    }
+  ],
+  "improvements": [
+    "Added keyboard navigation with arrow keys for frame browsing",
+    "Added Backspace shortcut to delete attached photos",
+    "Added Enter shortcut to select photos",
+    "Replaced custom sidebar with macOS-native inspector panel",
+    "Removed visual artifacts for cleaner interface",
+    "Optimized code architecture for better performance",
+    "Improved app responsiveness throughout",
+    "Enhanced overall stability"
+  ],
+  "fixes": [],
+  "patches": [
+    {
+      "version": "1.3.5",
+      "description": "Updated app icon for macOS 26."
+    },
+    {
+      "version": "1.3.4",
+      "description": "Metadata reintegration for JPEG and TIFF now preserves existing data. Only Frames-recorded information is added."
+    },
+    {
+      "version": "1.3.3",
+      "description": "Added reintegration of max and min aperture into EXIF metadata. Added lens specifications support."
+    },
+    {
+      "version": "1.3.2",
+      "description": "Minor bug fixes and performance improvements."
+    },
+    {
+      "version": "1.3.1",
+      "description": "Added support for new shutter speeds from iOS. App now prioritizes custom ISO rating over default box speed."
+    }
+  ]
+}

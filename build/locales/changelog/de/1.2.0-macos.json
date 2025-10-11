@@ -1,0 +1,48 @@
+{
+  "version": "1.2.0",
+  "version_short": "1.2",
+  "url_slug": "1-2-macos",
+  "platform": "macos",
+  "release_date": "2025-08-24T10:00:00.000Z",
+  "title": "Filterunterstützung, Japanisch & Koreanisch Sprachen",
+  "summary": "Filter erscheinen jetzt in der Seitenleiste und werden automatisch zu Metadaten hinzugefügt beim Speichern von Bildern. Dieses Update bringt auch Japanisch und Koreanisch Sprachunterstützung, plus wichtige Fehlerbehebungen.",
+  "meta_title": "Filterunterstützung, Japanisch & Koreanisch Sprachen · Frames",
+  "meta_description": "Filter-Metadaten in Seitenleiste und EXIF-Daten. Japanische und koreanische Lokalisierung für erweiterte Sprachunterstützung in Frames macOS.",
+  "sections": [
+    {
+      "type": "paragraph",
+      "content": "Auf iOS erfasste Filter werden jetzt in der macOS-Seitenleiste angezeigt und automatisch während der Reintegration in EXIF-Metadaten eingebettet. Dies vervollständigt deine Analog-Dokumentation, indem UV-, ND-, CPL- und andere Filter in deinen finalen Bildern enthalten sind. Kamera-Seriennummern sind jetzt in Metadaten enthalten und wir haben einen Fehler behoben, bei dem Blitzwerte invertiert waren. Frames ist jetzt auf Japanisch und Koreanisch verfügbar, passend zur iOS-Spracherweiterung."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-mac-1.2.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-mac-1.2.0-1@2x.png",
+      "alt": "Frames macOS-App mit Filter-Metadaten-Seitenleiste für Filmfotografie-Dokumentation",
+      "width": "400",
+      "height": "300"
+    }
+  ],
+  "improvements": [
+    "Filteranzeige in Seitenleiste hinzugefügt",
+    "Filter automatisch zu Metadaten beim Speichern von Bildern hinzugefügt",
+    "Kamera-Seriennummer jetzt in EXIF-Metadaten enthalten",
+    "Japanische Sprachunterstützung hinzugefügt",
+    "Koreanische Sprachunterstützung hinzugefügt"
+  ],
+  "fixes": [
+    {
+      "title": "Blitzwert-Invertierung",
+      "description": "Problem behoben, bei dem der Blitzwert invertiert war (zeigte 'Ja' wenn es 'Nein' hätte sein sollen)."
+    }
+  ],
+  "patches": [
+    {
+      "version": "1.2.2",
+      "description": "Verbesserte Lokalisierung für neue Sprachen."
+    },
+    {
+      "version": "1.2.1",
+      "description": "Verbesserte Übersetzungen für Konsistenz mit der iOS-App, plus kleinere UI-Verbesserungen."
+    }
+  ]
+}

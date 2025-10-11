@@ -1,0 +1,34 @@
+{
+  "version": "1.2.0",
+  "version_short": "1.2",
+  "url_slug": "1-2-ios",
+  "platform": "ios",
+  "release_date": "2025-07-17T10:00:00.000Z",
+  "title": "Zentrale Einstellungen & verbesserte Organisation",
+  "summary": "Alle App-Einstellungen sind jetzt in einer zentralen Einstellungsseite vereint. Verwalte deine Ausrüstung, dein Abonnement und Toolbar-Einstellungen von einem einzigen Ort aus – dieselben Funktionen, jetzt einfacher zu finden und zu organisieren.",
+  "meta_title": "Zentrale Einstellungen & verbesserte Organisation · Frames",
+  "meta_description": "Alle App-Einstellungen zentral vereint. Verwalte Ausrüstung, Abonnement und Interface-Anpassungen von einem Ort für optimierten Workflow.",
+  "sections": [
+    {
+      "type": "paragraph",
+      "content": "Wir haben verstreute Einstellungen in einer dedizierten Einstellungsseite zusammengeführt. Ausrüstungsverwaltung, Abonnementdetails und Interface-Anpassung sind alle über ein einziges Menü zugänglich. Diese Neuorganisation macht es einfacher zu finden, was du brauchst, ohne durch verschiedene Teile der App zu suchen. Alle bestehenden Funktionen bleiben unverändert, nur besser organisiert für schnelleren Zugriff."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/{{ lang }}/changelog/frames-1.2.0-1.png",
+      "image_2x": "/lib/img/{{ lang }}/changelog/frames-1.2.0-1@2x.png",
+      "alt": "Frames Filmfotografie-App mit zentraler Einstellungsseite für Ausrüstung und App-Einstellungen",
+      "width": "400",
+      "height": "300"
+    }
+  ],
+  "improvements": [
+    "Zentrale Einstellungsseite für alle App-Konfigurationen hinzugefügt",
+    "Vereinte Ausrüstungsverwaltung in den Einstellungen",
+    "Konsolidierte Abonnementverwaltung",
+    "Verbesserten Zugriff auf Toolbar-Erscheinungsanpassung",
+    "Kleinere Verfeinerungen in der gesamten App"
+  ],
+  "fixes": [],
+  "patches": []
+}

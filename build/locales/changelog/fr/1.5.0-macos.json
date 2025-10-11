@@ -1,0 +1,43 @@
+{
+  "version": "1.5.0",
+  "version_short": "1.5",
+  "url_slug": "1-5-macos",
+  "platform": "macos",
+  "release_date": "2025-09-19T10:00:00.000Z",
+  "title": "Améliorations majeures de performance et traitement DNG",
+  "summary": "Cette mise à jour offre une gestion d'images significativement plus rapide avec un traitement DNG optimisé, une mise en cache améliorée et des corrections pour l'import de fichiers .frames et l'export de métadonnées DNG sur Mac Intel.",
+  "meta_title": "Améliorations majeures de performance et traitement DNG · Frames",
+  "meta_description": "Traitement DNG considérablement plus rapide, mise en cache optimisée et corrections importantes pour l'import et l'export sur Mac Intel pour un flux de travail fluide.",
+  "sections": [
+    {
+      "type": "paragraph",
+      "content": "Le chargement d'images est désormais significativement plus rapide pour tous les formats, avec des améliorations majeures de la vitesse et de la fiabilité du traitement DNG. L'utilisation de la mémoire a été optimisée, la mise en cache améliorée et le chargement synchronisé garantit un fonctionnement fluide même avec de grands lots d'images. Nous avons également corrigé l'import de fichiers .frames depuis la barre de menu macOS et résolu les problèmes d'export de métadonnées DNG sur les anciens Mac Intel."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.10.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.10.0-1@2x.png",
+      "alt": "Application Frames macOS avec traitement DNG optimisé pour performance gestion images rapide",
+      "width": "400",
+      "height": "300"
+    }
+  ],
+  "improvements": [
+    "Chargement d'images significativement plus rapide pour tous les formats",
+    "Traitement DNG optimisé pour de meilleures performances",
+    "Système de mise en cache amélioré pour un fonctionnement plus fluide",
+    "Efficacité d'utilisation de la mémoire améliorée",
+    "Chargement synchronisé pour les grands lots d'images"
+  ],
+  "fixes": [
+    {
+      "title": "Import de fichiers .frames",
+      "description": "Correction de l'import de fichiers .frames depuis la barre de menu macOS."
+    },
+    {
+      "title": "Export DNG sur Mac Intel",
+      "description": "Correction de l'export de métadonnées DNG sur les anciens modèles de Mac Intel."
+    }
+  ],
+  "patches": []
+}

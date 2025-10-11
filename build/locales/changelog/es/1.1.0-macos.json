@@ -1,0 +1,37 @@
+{
+  "version": "1.1.0",
+  "version_short": "1.1",
+  "url_slug": "1-1-macos",
+  "platform": "macos",
+  "release_date": "2025-06-27T10:00:00.000Z",
+  "title": "Soporte de archivos TIFF",
+  "summary": "Ahora puedes importar y exportar archivos TIFF con integración completa de metadatos, expandiendo el soporte de formatos más allá de JPEG para flujos de trabajo profesionales.",
+  "meta_title": "Soporte de archivos TIFF · Frames",
+  "meta_description": "Integra metadatos en archivos TIFF con el mismo flujo de trabajo que JPEG. Soporte completo para escaneos profesionales y reintegración de metadatos EXIF.",
+  "sections": [
+    {
+      "type": "paragraph",
+      "content": "El soporte TIFF llega a Frames para macOS. Importa escaneos TIFF e incrusta los metadatos de tu rollo con el mismo flujo de trabajo que usas para archivos JPEG. Los archivos TIFF funcionan perfectamente en el proceso de reintegración de metadatos, asegurando que tus notas de fotografía analógica viajen con tus imágenes independientemente del formato."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-mac-1.1.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-mac-1.1.0-1@2x.png",
+      "alt": "Aplicación macOS Frames con soporte de archivos TIFF para flujos de trabajo profesionales de fotografía analógica",
+      "width": "400",
+      "height": "300"
+    }
+  ],
+  "improvements": [
+    "Soporte de importación de archivos TIFF añadido",
+    "Exportación de archivos TIFF añadida con integración completa de metadatos",
+    "Los archivos TIFF funcionan perfectamente con el flujo de trabajo de reintegración de metadatos existente"
+  ],
+  "fixes": [],
+  "patches": [
+    {
+      "version": "1.1.1",
+      "description": "Corregido un problema que podía impedir la carga de archivos .frames en ciertas situaciones."
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "version": "1.11.0",
+  "version_short": "1.11",
+  "url_slug": "1-11-ios",
+  "platform": "ios",
+  "release_date": "2025-10-02T10:00:00.000Z",
+  "title": "Metadati Modalità Misurazione e Miglioramenti Prestazioni",
+  "summary": "Frames ora cattura la modalità di misurazione della tua fotocamera insieme ai dati di esposizione, offrendoti un registro più completo di come è stato misurato ogni scatto. Questo aggiornamento porta anche miglioramenti prestazioni per un'esperienza più veloce e stabile in tutta l'app.",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Registrazione Modalità Misurazione"
+    },
+    {
+      "type": "paragraph",
+      "content": "Ora puoi registrare quale modalità di misurazione ha usato la tua fotocamera per ogni fotogramma. Che tu stia scattando con misurazione ponderata centrale, spot o valutativa, Frames cattura questi metadati insieme alle tue impostazioni di esposizione esistenti. Questo ti aiuta a capire come la tua fotocamera ha misurato la luce per ogni scatto e perfezionare il tuo approccio all'esposizione nel tempo."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/{{ lang }}/changelog/frames-1.11.0-1.png",
+      "image_2x": "/lib/img/{{ lang }}/changelog/frames-1.11.0-1@2x.png",
+      "alt": "App Frames per fotografia analogica che mostra registrazione metadati modalità misurazione per analisi esposizione",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Miglioramenti Prestazioni"
+    },
+    {
+      "type": "paragraph",
+      "content": "Miglioramenti sotto il cofano rendono Frames più veloce e reattivo. Navigazione tra rullini, registrazione fotogrammi e modifica metadati beneficiano tutti di prestazioni ottimizzate. Questi perfezionamenti contribuiscono a un'esperienza più fluida quando gestisci il tuo flusso di lavoro di fotografia analogica."
+    }
+  ],
+  "improvements": [
+    "Aggiunto campo metadati modalità misurazione per documentazione esposizione completa",
+    "Prestazioni app migliorate per navigazione e registrazione fotogrammi più veloci",
+    "Stabilità migliorata quando si cambia tra rullini e si modificano fotogrammi",
+    "Uso memoria ottimizzato per funzionamento più fluido con grandi librerie pellicole"
+  ],
+  "fixes": [],
+  "patches": [],
+  "meta_title": "Metadati Modalità Misurazione e Miglioramenti Prestazioni · Frames",
+  "meta_description": "Frames ora cattura la modalità di misurazione della tua fotocamera insieme ai dati di esposizione, offrendoti un registro più completo di come è stato..."
+}

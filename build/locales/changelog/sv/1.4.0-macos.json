@@ -1,0 +1,72 @@
+{
+  "version": "1.4.0",
+  "version_short": "1.4",
+  "url_slug": "1-4-macos",
+  "platform": "macos",
+  "release_date": "2025-09-18T10:00:00.000Z",
+  "title": "Tangentbordsgenvägar, nativ inspektör och prestanda",
+  "summary": "Förbättrat macOS-gränssnitt med tangentbordsnavigation, nativ inspektörpanel, renare design och optimerad prestanda för snabbare och mer responsiv metadataåterintegration.",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Tangentbordsnavigation och nativa kontroller"
+    },
+    {
+      "type": "paragraph",
+      "content": "Navigera bilder snabbt med piltangenterna, radera bifogade foton med Backsteg och tryck Enter för att välja foton. Det anpassade sidofältet har ersatts med en macOS-nativ inspektörpanel för en mer polerad, systemintegrerad upplevelse som följer Apples designspråk."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-mac-1.4.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-mac-1.4.0-1@2x.png",
+      "alt": "Frames macOS-app med tangentbordsgenvägar och nativ inspektör för filmmetadataarbetsflöde",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Förfinat gränssnitt och prestanda"
+    },
+    {
+      "type": "paragraph",
+      "content": "Visuella artefakter har tagits bort genom hela gränssnittet för ett renare, mer professionellt utseende. Kodarkitekturen har optimerats för bättre appresponsivitet och stabilitet, vilket gör metadataåterintegrations­arbetsflöden snabbare och mer pålitliga."
+    }
+  ],
+  "improvements": [
+    "Tillagt tangentbordsnavigation med piltangenter för bildbläddring",
+    "Tillagt Backsteg-genväg för att radera bifogade foton",
+    "Tillagt Enter-genväg för att välja foton",
+    "Ersatt anpassat sidofält med macOS-nativ inspektörpanel",
+    "Tog bort visuella artefakter för renare gränssnitt",
+    "Optimerad kodarkitektur för bättre prestanda",
+    "Förbättrad appresponsivitet genom hela appen",
+    "Förbättrad övergripande stabilitet"
+  ],
+  "fixes": [],
+  "patches": [
+    {
+      "version": "1.3.5",
+      "description": "Uppdaterad appikon för macOS 26."
+    },
+    {
+      "version": "1.3.4",
+      "description": "Metadataåterintegration för JPEG och TIFF bevarar nu befintlig data. Endast Frames-registrerad information läggs till."
+    },
+    {
+      "version": "1.3.3",
+      "description": "Tillagt återintegration av max och min bländare i EXIF-metadata. Tillagt stöd för objektivspecifikationer."
+    },
+    {
+      "version": "1.3.2",
+      "description": "Mindre buggfixar och prestandaförbättringar."
+    },
+    {
+      "version": "1.3.1",
+      "description": "Tillagt stöd för nya slutartider från iOS. Appen prioriterar nu anpassad ISO-klassificering över standard boxhastighet."
+    }
+  ],
+  "meta_title": "Tangentbordsgenvägar, nativ inspektör och prestanda · Frames",
+  "meta_description": "Förbättrat macOS-gränssnitt med tangentbordsnavigation, nativ inspektörpanel, renare design och optimerad prestanda för snabbare och mer responsiv..."
+}

@@ -1,0 +1,52 @@
+{
+  "version": "1.9.0",
+  "version_short": "1.9",
+  "url_slug": "1-9-ios",
+  "platform": "ios",
+  "release_date": "2025-09-18T10:00:00.000Z",
+  "title": "Subpastas, Deslizar para Mover e Melhorias na Exportação TXT",
+  "summary": "Organize sua biblioteca de filmes com subpastas aninhadas até 5 níveis de profundidade. Esta atualização também traz gerenciamento mais fácil de rolos de filme com gestos de deslizar e formatação aprimorada de exportação TXT para melhor documentação.",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Organização com Pastas Aninhadas para Usuários Pro"
+    },
+    {
+      "type": "paragraph",
+      "content": "Usuários Pro agora podem criar subpastas até 5 níveis de profundidade, permitindo organização detalhada de arquivos de filme. Estruture sua biblioteca por ano, projeto, tipo de filme ou qualquer hierarquia que se adapte ao seu fluxo de trabalho. Isso facilita a localização de sessões específicas dentro de coleções extensas de filmes e mantém rolos relacionados agrupados logicamente."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/{{ lang }}/changelog/frames-1.9.0-1.png",
+      "image_2x": "/lib/img/{{ lang }}/changelog/frames-1.9.0-1@2x.png",
+      "alt": "Aplicativo de fotografia analógica Frames mostrando organização de pastas aninhadas para arquivos de rolos de filme",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Gerenciamento Aprimorado de Rolos de Filme"
+    },
+    {
+      "type": "paragraph",
+      "content": "Os gestos de deslizar agora incluem um botão Mover, tornando mais rápido realocar rolos de filme e pastas. Também corrigimos um problema onde exportações TXT omitiam o ano quando correspondia ao ano atual, garantindo informações completas de data em todas as exportações."
+    }
+  ],
+  "improvements": [
+    "Adicionado suporte para subpastas até 5 níveis de profundidade para usuários Pro",
+    "Gestos de deslizar agora incluem botão Mover para rolos de filme e pastas",
+    "Navegação de pastas aprimorada com suporte a breadcrumb",
+    "Consistência de localização aprimorada em vários idiomas"
+  ],
+  "fixes": [
+    {
+      "title": "Exibição de Ano na Exportação TXT",
+      "description": "Corrigido um problema onde exportações TXT omitiam o ano quando correspondia ao ano atual. O ano agora está sempre incluído para informações completas de data."
+    }
+  ],
+  "patches": [],
+  "meta_title": "Subpastas, Deslizar para Mover e Melhorias na Exportação TXT · Frames",
+  "meta_description": "Organize sua biblioteca de filmes com subpastas aninhadas até 5 níveis de profundidade."
+}

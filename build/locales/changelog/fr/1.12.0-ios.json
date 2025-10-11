@@ -1,0 +1,84 @@
+{
+  "version": "1.12.0",
+  "version_short": "1.12",
+  "url_slug": "1-12-ios",
+  "platform": "ios",
+  "release_date": "2025-10-03T10:00:00.000Z",
+  "title": "Danois, finnois, norvégien, vietnamien et 4 langues supplémentaires",
+  "summary": "Cette version majeure de localisation apporte Frames à encore plus de photographes argentiques dans le monde. Elle ajoute le support du danois, du finnois, du norvégien, du vietnamien, du chinois traditionnel, de l'indonésien, du chinois de Hong Kong et du grec, tout en affinant les traductions dans toutes les langues existantes pour une clarté et une cohérence accrues.",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Huit nouvelles langues à travers l'Europe et l'Asie"
+    },
+    {
+      "type": "paragraph",
+      "content": "Frames prend désormais en charge le danois, le finnois, le norvégien, le vietnamien, le chinois traditionnel, l'indonésien, le chinois de Hong Kong et le grec. Chaque traduction a été soigneusement conçue pour que la terminologie photographique semble naturelle tout en maintenant la précision technique pour les réglages d'appareil, les pellicules et la gestion des métadonnées."
+    },
+    {
+      "type": "list",
+      "items": [
+        {
+          "title": "Langues nordiques",
+          "description": "Danois (Dansk), finnois (Suomi) et norvégien (Norsk) avec terminologie native pour les photographes scandinaves."
+        },
+        {
+          "title": "Langues asiatiques",
+          "description": "Vietnamien (Tiếng Việt), chinois traditionnel (繁體中文), indonésien (Bahasa Indonesia) et chinois de Hong Kong."
+        },
+        {
+          "title": "Grec (Ελληνικά)",
+          "description": "Traduction complète pour les photographes de Grèce et de Chypre."
+        }
+      ]
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.12.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.12.0-1@2x.png",
+      "alt": "Application Frames photo argentique avec support multilingue nordique et asiatique",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Préférences régionales et affinements des traductions"
+    },
+    {
+      "type": "paragraph",
+      "content": "Pour le chinois traditionnel et le chinois de Hong Kong, nous avons adapté les préférences régionales pour les formats de date et la terminologie. Les langues nordiques s'alignent sur la façon dont les photographes argentiques de ces pays parlent de leur pratique. Nous avons également affiné les traductions existantes en espagnol, français, allemand, italien, portugais, japonais, coréen, russe, thaï, polonais, turc, suédois et hindi en nous basant sur les retours de la communauté."
+    },
+    {
+      "type": "paragraph",
+      "content": "Frames adopte automatiquement la langue de votre appareil iOS. Toutes vos pellicules et équipements existants restent intacts. L'interface s'adapte simplement sans migration de données ni ressaisie."
+    }
+  ],
+  "improvements": [
+    "Ajout de la localisation danoise (Dansk) pour la communauté de photographes argentiques du Danemark",
+    "Ajout de la traduction finnoise (Suomi) avec terminologie photographique native",
+    "Ajout du support norvégien (Norsk) pour les photographes scandinaves",
+    "Ajout du vietnamien (Tiếng Việt) pour la communauté argentique d'Asie du Sud-Est",
+    "Ajout du chinois traditionnel (繁體中文) pour Taïwan, Hong Kong et Macao",
+    "Ajout de la localisation indonésienne (Bahasa Indonesia)",
+    "Ajout du chinois de Hong Kong avec préférences spécifiques à la région",
+    "Ajout de la traduction grecque (Ελληνικά) pour la Grèce et Chypre",
+    "Affinement de toutes les traductions existantes pour améliorer la clarté et le phrasé naturel",
+    "Amélioration de la cohérence de la terminologie technique dans les champs spécifiques à la photographie",
+    "Amélioration de la localisation des formats de date et des unités de mesure selon les préférences régionales"
+  ],
+  "fixes": [
+    {
+      "title": "Cohérence des traductions",
+      "description": "Standardisation de la terminologie entre fonctionnalités similaires pour assurer un langage cohérent dans toute l'application."
+    },
+    {
+      "title": "Adaptation de la mise en page",
+      "description": "Amélioration du dimensionnement dynamique du texte pour accommoder les traductions plus longues sans troncature ni débordement."
+    }
+  ],
+  "patches": [],
+  "meta_title": "Danois, finnois, norvégien, vietnamien et 4 langues supplémentaires · Frames",
+  "meta_description": "Cette version majeure de localisation apporte Frames à encore plus de photographes argentiques dans le monde."
+}

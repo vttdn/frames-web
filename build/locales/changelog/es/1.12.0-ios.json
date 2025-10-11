@@ -1,0 +1,84 @@
+{
+  "version": "1.12.0",
+  "version_short": "1.12",
+  "url_slug": "1-12-ios",
+  "platform": "ios",
+  "release_date": "2025-10-03T10:00:00.000Z",
+  "title": "Danés, finlandés, noruego, vietnamita y 4 idiomas más",
+  "summary": "Esta importante versión de localización lleva Frames a aún más fotógrafos analógicos en todo el mundo, añadiendo soporte para danés, finlandés, noruego, vietnamita, chino tradicional, indonesio, chino de Hong Kong y griego, mientras refina las traducciones en todos los idiomas existentes para mayor claridad y consistencia.",
+  "meta_title": "Danés, finlandés, noruego, vietnamita y 4 idiomas más · Frames",
+  "meta_description": "Ocho nuevos idiomas para iOS: danés, finlandés, noruego, vietnamita, chino tradicional, indonesio, chino de Hong Kong y griego con traducciones refinadas.",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Ocho nuevos idiomas en Europa y Asia"
+    },
+    {
+      "type": "paragraph",
+      "content": "Frames ahora soporta danés, finlandés, noruego, vietnamita, chino tradicional, indonesio, chino de Hong Kong y griego. Cada traducción ha sido cuidadosamente elaborada para asegurar que la terminología de fotografía analógica se sienta natural mientras mantiene precisión técnica para ajustes de cámara, películas y gestión de metadatos."
+    },
+    {
+      "type": "list",
+      "items": [
+        {
+          "title": "Idiomas nórdicos",
+          "description": "Danés (Dansk), finlandés (Suomi) y noruego (Norsk) con terminología nativa para fotógrafos escandinavos."
+        },
+        {
+          "title": "Idiomas asiáticos",
+          "description": "Vietnamita (Tiếng Việt), chino tradicional (繁體中文), indonesio (Bahasa Indonesia) y chino de Hong Kong."
+        },
+        {
+          "title": "Griego (Ελληνικά)",
+          "description": "Traducción completa para fotógrafos en Grecia y Chipre."
+        }
+      ]
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.12.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.12.0-1@2x.png",
+      "alt": "Aplicación de fotografía analógica Frames con soporte multilingüe para idiomas nórdicos y asiáticos",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Preferencias regionales y refinamientos de traducción"
+    },
+    {
+      "type": "paragraph",
+      "content": "Para chino tradicional y chino de Hong Kong, hemos adaptado preferencias regionales para formatos de fecha y terminología. Los idiomas nórdicos se alinean con cómo los fotógrafos analógicos en estos países discuten su oficio. También hemos refinado las traducciones existentes en español, francés, alemán, italiano, portugués, japonés, coreano, ruso, tailandés, polaco, turco, sueco e hindi basándose en comentarios de la comunidad."
+    },
+    {
+      "type": "paragraph",
+      "content": "Frames adopta automáticamente tu preferencia de idioma de iOS. Todos los rollos existentes y equipo de cámara permanecen intactos. La interfaz simplemente se adapta sin migración de datos o reingreso."
+    }
+  ],
+  "improvements": [
+    "Localización en danés (Dansk) añadida para la comunidad de fotografía analógica de Dinamarca",
+    "Traducción al finlandés (Suomi) añadida con terminología fotográfica nativa",
+    "Soporte de noruego (Norsk) añadido para fotógrafos escandinavos",
+    "Vietnamita (Tiếng Việt) añadido para la comunidad analógica del sudeste asiático",
+    "Chino tradicional (繁體中文) añadido para Taiwán, Hong Kong y Macao",
+    "Localización en indonesio (Bahasa Indonesia) añadida",
+    "Chino de Hong Kong añadido con preferencias específicas de región",
+    "Traducción al griego (Ελληνικά) añadida para Grecia y Chipre",
+    "Todas las traducciones de idiomas existentes refinadas para mayor claridad y fraseo natural",
+    "Consistencia de terminología técnica mejorada en campos específicos de fotografía",
+    "Localización de formato de fecha y unidades de medida mejorada para preferencias regionales"
+  ],
+  "fixes": [
+    {
+      "title": "Consistencia de traducción",
+      "description": "Terminología estandarizada en funciones similares para asegurar lenguaje consistente en toda la aplicación."
+    },
+    {
+      "title": "Adaptación de diseño",
+      "description": "Tamaño de texto dinámico mejorado para acomodar traducciones más largas sin truncamiento o desbordamiento."
+    }
+  ],
+  "patches": []
+}

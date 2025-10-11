@@ -1,0 +1,52 @@
+{
+  "version": "1.9.0",
+  "version_short": "1.9",
+  "url_slug": "1-9-ios",
+  "platform": "ios",
+  "release_date": "2025-09-18T10:00:00.000Z",
+  "title": "Sous-dossiers, déplacement par glissement et améliorations d'export TXT",
+  "summary": "Organisez votre bibliothèque de pellicules avec des sous-dossiers imbriqués jusqu'à 5 niveaux de profondeur. Cette mise à jour apporte également une gestion simplifiée des pellicules avec des gestes de glissement et un formatage d'export TXT amélioré pour une meilleure documentation.",
+  "meta_title": "Sous-dossiers, déplacement par glissement et améliorations d'export TXT · Frames",
+  "meta_description": "Organisation avancée avec sous-dossiers imbriqués jusqu'à 5 niveaux, déplacement par glissement et exports TXT améliorés pour une gestion complète de vos archives.",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Organisation en dossiers imbriqués pour les utilisateurs Pro"
+    },
+    {
+      "type": "paragraph",
+      "content": "Les utilisateurs Pro peuvent désormais créer des sous-dossiers jusqu'à 5 niveaux de profondeur, permettant une organisation détaillée des archives de pellicules. Structurez votre bibliothèque par année, projet, type de pellicule ou toute hiérarchie qui correspond à votre organisation. Cela facilite la localisation de prises de vue spécifiques au sein de collections étendues et maintient les pellicules liées regroupées logiquement."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/{{ lang }}/changelog/frames-1.9.0-1.png",
+      "image_2x": "/lib/img/{{ lang }}/changelog/frames-1.9.0-1@2x.png",
+      "alt": "Application Frames montrant organisation dossiers imbriqués pour archives pellicules photo",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Gestion améliorée des pellicules"
+    },
+    {
+      "type": "paragraph",
+      "content": "Les gestes de glissement incluent désormais un bouton Déplacer, facilitant la relocalisation des pellicules et dossiers. Nous avons également corrigé un problème où les exports TXT omettaient l'année lorsqu'elle correspondait à l'année en cours, garantissant des informations de date complètes dans tous les exports."
+    }
+  ],
+  "improvements": [
+    "Ajout du support de sous-dossiers jusqu'à 5 niveaux de profondeur pour les utilisateurs Pro",
+    "Les gestes de glissement incluent désormais le bouton Déplacer pour les pellicules et dossiers",
+    "Navigation dans les dossiers améliorée avec support de fil d'Ariane",
+    "Cohérence de localisation améliorée dans plusieurs langues"
+  ],
+  "fixes": [
+    {
+      "title": "Affichage de l'année dans l'export TXT",
+      "description": "Correction d'un problème où les exports TXT omettaient l'année lorsqu'elle correspondait à l'année en cours. L'année est désormais toujours incluse pour des informations de date complètes."
+    }
+  ],
+  "patches": []
+}

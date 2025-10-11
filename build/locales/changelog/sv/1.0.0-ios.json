@@ -1,0 +1,151 @@
+{
+  "version": "1.0.0",
+  "version_short": "1.0",
+  "url_slug": "1-0-ios",
+  "platform": "ios",
+  "release_date": "2025-04-01T03:02:00.000Z",
+  "title": "Frames lanseras: Din anteckningsbok för analogfotografi",
+  "summary": "Frames lanseras som en komplett ombyggnad av Datafilm och tar med sig en förfinad iOS-app för att logga filmfotografiska metadata i fält, tillsammans med en ny macOS-app för att bädda in dessa data i dina skannade bilder.",
+  "meta_title": "Frames lanseras: Din anteckningsbok för analogfotografi · Frames",
+  "meta_description": "Logga filmfotografi med omfattande metadata, referensbilder och kartvy. Inkluderar macOS-app för EXIF-inbäddning i skannade bilder för Lightroom och Capture One.",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Dokumentera och organisera dina filmrullar"
+    },
+    {
+      "type": "paragraph",
+      "content": "Frames är din digitala anteckningsbok för analogfotografi, designad för att spåra bildinställningar och sömlöst integrera metadata i skannade bilder. Logga varje viktig detalj för varje bild: brännvidd, slutartid, exponeringskompensering, bländare, blixtstyrning, kamera, objektiv, filmtyp, datum, tid och platsdata."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.0.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.0.0-1@2x.png",
+      "alt": "Frames filmfotografiapp för loggning av analoga kamerametadata och rulldetaljer",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "list",
+      "items": [
+        {
+          "title": "Fullständig metadataloggning",
+          "description": "Spåra bildnummer, brännvidd, slutartid, exponeringskompensering, bländare, blixtstyrning, kamera, objektiv, filmtyp, datum, tid och plats."
+        },
+        {
+          "title": "Referensbilder",
+          "description": "Bifoga referensbilder till varje bild för snabb visuell kontext när du matchar skanningar."
+        },
+        {
+          "title": "Interaktiv kartvy",
+          "description": "Se dina filmbilder på en interaktiv karta för att spåra var varje bild togs."
+        },
+        {
+          "title": "Mapporganisation",
+          "description": "Organisera ditt filmbibliotek med mappar och kraftfulla sökverktyg för att hitta vilken bild som helst direkt."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Exportera och synkronisera din data"
+    },
+    {
+      "type": "paragraph",
+      "content": "Den kompletterande macOS-appen löser den mest efterfrågade funktionen från filmfotosamhället: att återintegrera metadata i skannade JPEG-bilder. Exportera dina metadata som JSON-filer (.frames), dela poster mellan Apple-enheter och använd macOS-appen för att bädda in EXIF-data som fungerar sömlöst med Lightroom, Capture One och Apple Foton."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Optimerad för analogfotografi"
+    },
+    {
+      "type": "list",
+      "items": [
+        {
+          "title": "Adaptiva kontroller",
+          "description": "Kontrollerna anpassas till din utrustnings egenskaper för snabbare loggning."
+        },
+        {
+          "title": "Smart autofyll",
+          "description": "Intelligent autofyll för objektiv, kamera, filmtyp och ISO sparar tid i fält."
+        },
+        {
+          "title": "Över 200 filmtyper",
+          "description": "Förladdat urval av populära filmer från ledande tillverkare."
+        },
+        {
+          "title": "Nativt Apple-gränssnitt",
+          "description": "Följer Apples designriktlinjer för en smidig och intuitiv upplevelse."
+        },
+        {
+          "title": "Prestandaoptimerad",
+          "description": "Fungerar smidigt även på äldre iPhone-modeller."
+        }
+      ]
+    }
+  ],
+  "improvements": [
+    "Fullständig ombyggnad från grunden med förfinad arkitektur",
+    "Logga omfattande bildmetadata: exponering, kamera, objektiv, film, plats",
+    "Automatisk tidsstämpling för varje bild",
+    "Bifogning av referensbilder för skanningsmatchning",
+    "Mapporganisation för filmrullsbibliotek",
+    "Kraftfull sökning över alla loggade bilder",
+    "Interaktiv kartvy som visar fotograferingsplatser",
+    "Tillgänglig på 7 språk",
+    "Kompletterande macOS-app för EXIF-metadatainbäddning",
+    "Full kompatibilitet med Lightroom, Capture One och Apple Foton",
+    "Integritetsfokuserad design utan konton eller molnberoende",
+    "Förbättrat gränssnitt för verktygsfält",
+    "Flerspråksstöd inklusive svenska, franska, tyska, spanska, italienska, nederländska, portugisiska och polska"
+  ],
+  "fixes": [
+    "Åtgärdat: skärmen frös när en ny kamera eller lins lades till på vissa enheter",
+    "Korrigerat gransknings-URL för appen"
+  ],
+  "patches": [
+    {
+      "version": "1.0.1",
+      "date": "2025-04-04",
+      "description": "Mindre förbättringar och buggfixar"
+    },
+    {
+      "version": "1.0.2",
+      "date": "2025-04-13",
+      "description": "Mindre korrigeringar och förbättrade översättningar"
+    },
+    {
+      "version": "1.0.3",
+      "date": "2025-04-15",
+      "description": "Förbättrad lokalisering"
+    },
+    {
+      "version": "1.0.4",
+      "date": "2025-04-19",
+      "description": "Förbättrat gränssnitt och nya språk"
+    },
+    {
+      "version": "1.0.5",
+      "date": "2025-04-21",
+      "description": "Nya språk tillagda"
+    },
+    {
+      "version": "1.0.6",
+      "date": "2025-04-23",
+      "description": "Åtgärdat: skärmen frös när en ny kamera eller lins lades till"
+    },
+    {
+      "version": "1.0.7",
+      "date": "2025-04-28",
+      "description": "Korrigerat gransknings-URL"
+    },
+    {
+      "version": "1.0.8",
+      "date": "2025-05-20",
+      "description": "Kompatibilitet med iOS 18.0 och senare"
+    }
+  ]
+}

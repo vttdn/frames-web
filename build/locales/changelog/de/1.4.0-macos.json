@@ -1,0 +1,72 @@
+{
+  "version": "1.4.0",
+  "version_short": "1.4",
+  "url_slug": "1-4-macos",
+  "platform": "macos",
+  "release_date": "2025-09-18T10:00:00.000Z",
+  "title": "Tastenkombinationen, Native Inspektor & Leistung",
+  "summary": "Verbessertes macOS-Interface mit Tastaturnavigation, nativem Inspektor-Panel, saubererem Design und optimierter Leistung für schnellere, reaktionsschnellere Metadaten-Reintegration.",
+  "meta_title": "Tastenkombinationen, Native Inspektor & Leistung · Frames",
+  "meta_description": "Schnellere Tastaturnavigation mit Pfeiltasten und nativer Inspektor. Optimierte Leistung für reaktionsschnellere Metadaten-Reintegration auf macOS.",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Tastaturnavigation & Native Bedienelemente"
+    },
+    {
+      "type": "paragraph",
+      "content": "Navigiere Bilder schnell mit Pfeiltasten, lösche angehängte Fotos mit Rücktaste und drücke Enter zum Auswählen von Fotos. Die benutzerdefinierte Seitenleiste wurde durch ein macOS-natives Inspektor-Panel für ein ausgereifteres, system-integriertes Erlebnis ersetzt, das Apples Designsprache folgt."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-mac-1.4.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-mac-1.4.0-1@2x.png",
+      "alt": "Frames macOS-App mit Tastenkombinationen und nativem Inspektor für Film-Metadaten-Workflow",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Verfeinertes Interface & Leistung"
+    },
+    {
+      "type": "paragraph",
+      "content": "Visuelle Artefakte wurden in der gesamten Oberfläche für ein saubereres, professionelleres Erscheinungsbild entfernt. Die Code-Architektur wurde für bessere App-Reaktionsfähigkeit und Stabilität optimiert, wodurch Metadaten-Reintegrations-Workflows schneller und zuverlässiger werden."
+    }
+  ],
+  "improvements": [
+    "Tastaturnavigation mit Pfeiltasten zum Durchsuchen von Bildern hinzugefügt",
+    "Rücktaste-Tastenkombination zum Löschen angehängter Fotos hinzugefügt",
+    "Enter-Tastenkombination zum Auswählen von Fotos hinzugefügt",
+    "Benutzerdefinierte Seitenleiste durch macOS-natives Inspektor-Panel ersetzt",
+    "Visuelle Artefakte für saubereres Interface entfernt",
+    "Code-Architektur für bessere Leistung optimiert",
+    "Verbesserte App-Reaktionsfähigkeit überall",
+    "Erhöhte Gesamtstabilität"
+  ],
+  "fixes": [],
+  "patches": [
+    {
+      "version": "1.3.5",
+      "description": "App-Icon für macOS 26 aktualisiert."
+    },
+    {
+      "version": "1.3.4",
+      "description": "Metadaten-Reintegration für JPEG und TIFF bewahrt jetzt bestehende Daten. Nur von Frames aufgezeichnete Informationen werden hinzugefügt."
+    },
+    {
+      "version": "1.3.3",
+      "description": "Reintegration von max und min Blende in EXIF-Metadaten hinzugefügt. Objektivspezifikations-Unterstützung hinzugefügt."
+    },
+    {
+      "version": "1.3.2",
+      "description": "Kleinere Fehlerbehebungen und Leistungsverbesserungen."
+    },
+    {
+      "version": "1.3.1",
+      "description": "Unterstützung für neue Belichtungszeiten von iOS hinzugefügt. App priorisiert jetzt benutzerdefinierte ISO-Bewertung über Standard-Box-Geschwindigkeit."
+    }
+  ]
+}

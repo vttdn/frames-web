@@ -1,0 +1,108 @@
+{
+  "version": "1.1.0",
+  "version_short": "1.1",
+  "url_slug": "1-1-ios",
+  "platform": "ios",
+  "release_date": "2025-06-03T05:52:00.000Z",
+  "title": "Arriva Frames Pro",
+  "meta_title": "Arriva Frames Pro · Frames",
+  "meta_description": "Passa a Frames Pro per rullini illimitati e funzioni avanzate. La versione gratuita mantiene l'accesso completo a 10 rullini.",
+  "summary": "Frames Pro è qui, offrendo rullini illimitati e accesso a funzioni avanzate. Gli utenti gratuiti possono continuare a usare Frames con fino a 10 rullini, mentre Pro sblocca tutto il potenziale del tuo flusso fotografico analogico.",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Archiviazione illimitata per i tuoi rullini"
+    },
+    {
+      "type": "paragraph",
+      "content": "Con Frames Pro, puoi creare rullini illimitati per documentare l'intera tua collezione fotografica analogica senza vincoli. Che tu stia archiviando centinaia di rullini accumulati negli anni o gestendo attivamente decine di progetti in corso, Frames Pro si adatta alle tue esigenze. Gli utenti gratuiti mantengono l'accesso completo a tutte le funzioni principali con un limite di 10 rullini, rendendo Frames accessibile a tutti e supportando chi vuole spingere oltre la propria catalogazione."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.1.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.1.0-1@2x.png",
+      "alt": "Frames Pro subscription offering unlimited film rolls for analog photography logging",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "paragraph",
+      "content": "Questa versione include anche ottimizzazioni delle prestazioni in tutta l'applicazione, elementi di design raffinati per maggiore chiarezza e stabilità migliorata nella gestione di librerie estese. La nuova icona e schermata di avvio riflettono l'evoluzione di Frames come strumento professionale per fotografi analogici."
+    },
+    {
+      "type": "list",
+      "items": [
+        {
+          "title": "Abbonamento Frames Pro",
+          "description": "Sblocca rullini illimitati e accesso anticipato alle funzioni avanzate."
+        },
+        {
+          "title": "Versione gratuita mantenuta",
+          "description": "Continua a usare tutte le funzioni principali con fino a 10 rullini gratuitamente."
+        },
+        {
+          "title": "Miglioramenti prestazionali",
+          "description": "Reattività e stabilità migliorate in tutta l'applicazione."
+        },
+        {
+          "title": "Design raffinato",
+          "description": "Nuova icona, schermata di avvio ed elementi dell'interfaccia per un'esperienza curata."
+        },
+        {
+          "title": "Correzione esportazione",
+          "description": "Risolto il problema che impediva la rigenerazione dei file di esportazione dopo le modifiche."
+        }
+      ]
+    }
+  ],
+  "improvements": [
+    "Lancio dell'abbonamento Frames Pro con rullini illimitati",
+    "Prestazioni generali e reattività migliorate",
+    "Design dell'interfaccia utente raffinato",
+    "Nuova icona dell'app con identità visiva rinnovata",
+    "Schermata di avvio ridisegnata per una migliore prima impressione",
+    "Uso della memoria ottimizzato per librerie estese",
+    "Stabilità migliorata nell'aggiunta di fotocamere e obiettivi"
+  ],
+  "fixes": [
+    "Corretto il bug che impediva la rigenerazione dei file di esportazione dopo le modifiche"
+  ],
+  "patches": [
+    {
+      "version": "1.1.1",
+      "date": "2025-06-11",
+      "description": "Modifica minore all'icona dell'app"
+    },
+    {
+      "version": "1.1.2",
+      "date": "2025-06-15",
+      "description": "Miglioramenti minori delle prestazioni"
+    },
+    {
+      "version": "1.1.3",
+      "date": "2025-06-17",
+      "description": "Nuova icona dell'app"
+    },
+    {
+      "version": "1.1.4",
+      "date": "2025-06-18",
+      "description": "Icona dell'app ridisegnata"
+    },
+    {
+      "version": "1.1.5",
+      "date": "2025-06-20",
+      "description": "Schermata di avvio aggiornata"
+    },
+    {
+      "version": "1.1.6",
+      "date": "2025-06-20",
+      "description": "Corretto un bug che impediva la rigenerazione corretta del file di esportazione dopo le modifiche"
+    },
+    {
+      "version": "1.1.7",
+      "date": "2025-07-12",
+      "description": "Stabilità migliorata nell'aggiunta di attrezzatura su iOS 26 Beta"
+    }
+  ]
+}

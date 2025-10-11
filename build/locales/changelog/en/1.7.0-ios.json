@@ -1,0 +1,65 @@
+{
+  "version": "1.7.0",
+  "version_short": "1.7",
+  "url_slug": "1-7-ios",
+  "platform": "ios",
+  "release_date": "2025-09-10T10:00:00.000Z",
+  "title": "Full Accessibility Support & Recording Improvements",
+  "summary": "This update brings comprehensive Apple accessibility support along with improvements to recording workflow and metadata handling, making Frames more accessible and efficient for all film photographers.",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Apple Accessibility Features"
+    },
+    {
+      "type": "paragraph",
+      "content": "Frames now supports key Apple accessibility features including Larger Text, Dark Interface, Differentiate Without Color Alone, Sufficient Contrast, and Reduced Motion. These features ensure the app is usable for photographers with different visual needs and preferences, maintaining full functionality regardless of accessibility settings."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.7.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.7.0-1@2x.png",
+      "alt": "Frames film photography app interface with accessibility features and large text support",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Workflow and Metadata Improvements"
+    },
+    {
+      "type": "paragraph",
+      "content": "The app now jumps directly into your new film roll as soon as it's created, streamlining your workflow. Labels throughout the app have been refined for better readability. Custom sequences now automatically fill min/max aperture values, which is particularly useful for metadata reintegration on Mac. We've also fixed motion issues in the recorder when capturing shots with the slider open and corrected value initialization problems in full recorder view."
+    }
+  ],
+  "improvements": [
+    "Added support for Apple Larger Text accessibility feature",
+    "Added support for Dark Interface appearance",
+    "Added support for Differentiate Without Color Alone",
+    "Added support for Sufficient Contrast",
+    "Added support for Reduced Motion",
+    "Jump directly into new film rolls after creation for faster workflow",
+    "Improved label clarity throughout the app",
+    "Automatic fill of min/max aperture when using custom sequences"
+  ],
+  "fixes": [
+    {
+      "title": "Recorder Motion Issue",
+      "description": "Fixed motion issue in the recorder when a shot is captured with the slider open."
+    },
+    {
+      "title": "Recorder Value Initialization",
+      "description": "Fixed an issue with values not initializing correctly when opening the recorder in full view."
+    }
+  ],
+  "patches": [
+    {
+      "version": "1.7.1",
+      "description": "Fixed lens display showing redundant aperture info in selection lists. Fixed frames being editable when editing was disabled."
+    }
+  ],
+  "meta_title": "Full Accessibility Support & Recording Improvements · Frames",
+  "meta_description": "This update brings comprehensive Apple accessibility support along with improvements to recording workflow and metadata handling, making Frames more..."
+}

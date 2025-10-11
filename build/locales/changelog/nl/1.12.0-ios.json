@@ -1,0 +1,84 @@
+{
+  "version": "1.12.0",
+  "version_short": "1.12",
+  "url_slug": "1-12-ios",
+  "platform": "ios",
+  "release_date": "2025-10-03T10:00:00.000Z",
+  "title": "Deens, Fins, Noors, Vietnamees en 4 andere talen",
+  "summary": "Deze grote lokalisatie-release brengt Frames naar nog meer filmfotografen wereldwijd, met ondersteuning voor Deens, Fins, Noors, Vietnamees, Traditioneel Chinees, Indonesisch, Hongkongs Chinees en Grieks, terwijl vertalingen in alle bestaande talen zijn verfijnd voor verbeterde duidelijkheid en consistentie.",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Acht nieuwe talen door Europa en Azië"
+    },
+    {
+      "type": "paragraph",
+      "content": "Frames ondersteunt nu Deens, Fins, Noors, Vietnamees, Traditioneel Chinees, Indonesisch, Hongkongs Chinees en Grieks. Elke vertaling is zorgvuldig opgesteld om ervoor te zorgen dat filmfotografie-terminologie natuurlijk aanvoelt met behoud van technische nauwkeurigheid voor camera-instellingen, filmsoorten en metadata-beheer."
+    },
+    {
+      "type": "list",
+      "items": [
+        {
+          "title": "Scandinavische talen",
+          "description": "Deens (Dansk), Fins (Suomi) en Noors (Norsk) met eigen terminologie voor Scandinavische fotografen."
+        },
+        {
+          "title": "Aziatische talen",
+          "description": "Vietnamees (Tiếng Việt), Traditioneel Chinees (繁體中文), Indonesisch (Bahasa Indonesia) en Hongkongs Chinees."
+        },
+        {
+          "title": "Grieks (Ελληνικά)",
+          "description": "Volledige vertaling voor fotografen in Griekenland en Cyprus."
+        }
+      ]
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.12.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.12.0-1@2x.png",
+      "alt": "Frames analoge fotografie-app met meertalige ondersteuning voor Scandinavische en Aziatische talen",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Regionale voorkeuren en vertalingsverfijningen"
+    },
+    {
+      "type": "paragraph",
+      "content": "Voor Traditioneel Chinees en Hongkongs Chinees hebben we regionale voorkeuren aangepast voor datumformaten en terminologie. De Scandinavische talen sluiten aan bij hoe filmfotografen in deze landen over hun vak praten. We hebben ook bestaande vertalingen verfijnd in het Spaans, Frans, Duits, Italiaans, Portugees, Japans, Koreaans, Russisch, Thais, Pools, Turks, Zweeds en Hindi op basis van feedback van de gemeenschap."
+    },
+    {
+      "type": "paragraph",
+      "content": "Frames neemt automatisch je iOS-taalvoorkeur over. Alle bestaande filmrollen en camera-uitrusting blijven intact. De interface past zich eenvoudig aan zonder datamigratie of opnieuw invoeren."
+    }
+  ],
+  "improvements": [
+    "Deense (Dansk) lokalisatie toegevoegd voor de filmfotografie-gemeenschap van Denemarken",
+    "Finse (Suomi) vertaling met eigen fotografie-terminologie toegevoegd",
+    "Noorse (Norsk) ondersteuning voor Scandinavische fotografen toegevoegd",
+    "Vietnamees (Tiếng Việt) voor de analoge gemeenschap van Zuidoost-Azië toegevoegd",
+    "Traditioneel Chinees (繁體中文) voor Taiwan, Hongkong en Macau toegevoegd",
+    "Indonesische (Bahasa Indonesia) lokalisatie toegevoegd",
+    "Hongkongs Chinees met regiospecifieke voorkeuren toegevoegd",
+    "Griekse (Ελληνικά) vertaling voor Griekenland en Cyprus toegevoegd",
+    "Alle bestaande taalvertalingen verfijnd voor verbeterde duidelijkheid en natuurlijke formulering",
+    "Verbeterde consistentie van technische terminologie in fotografiespecifieke velden",
+    "Verbeterde lokalisatie van datumformaat en meeteenheden voor regionale voorkeuren"
+  ],
+  "fixes": [
+    {
+      "title": "Vertaalconsistentie",
+      "description": "Terminologie gestandaardiseerd over vergelijkbare functies om consistente taal door de hele app te garanderen."
+    },
+    {
+      "title": "Lay-outaanpassing",
+      "description": "Dynamische tekstgrootte verbeterd om langere vertalingen te accommoderen zonder afkapping of overloopfouten."
+    }
+  ],
+  "patches": [],
+  "meta_title": "Deens, Fins, Noors, Vietnamees en 4 andere talen · Frames",
+  "meta_description": "Deze grote lokalisatie-release brengt Frames naar nog meer filmfotografen wereldwijd, met ondersteuning voor Deens, Fins, Noors, Vietnamees, Traditioneel..."
+}

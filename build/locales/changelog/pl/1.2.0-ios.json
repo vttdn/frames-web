@@ -1,0 +1,34 @@
+{
+  "version": "1.2.0",
+  "version_short": "1.2",
+  "url_slug": "1-2-ios",
+  "platform": "ios",
+  "release_date": "2025-07-17T10:00:00.000Z",
+  "title": "Scentralizowane ustawienia i lepsza organizacja",
+  "meta_title": "Scentralizowane ustawienia i lepsza organizacja · Frames",
+  "meta_description": "Zunifikowane ustawienia aplikacji w jednym miejscu. Łatwiejsze zarządzanie sprzętem, subskrypcją i preferencjami interfejsu dla szybszego dostępu.",
+  "summary": "Wszystkie ustawienia aplikacji zostały teraz zunifikowane na jednej scentralizowanej stronie Ustawień. Zarządzaj swoim sprzętem, subskrypcją i preferencjami paska narzędzi z jednego miejsca, z tymi samymi funkcjami teraz łatwiejszymi do odnalezienia i uporządkowania.",
+  "sections": [
+    {
+      "type": "paragraph",
+      "content": "Połączyliśmy rozproszone ustawienia na jednej dedykowanej stronie Ustawień. Zarządzanie sprzętem, szczegóły subskrypcji i dostosowanie interfejsu są dostępne z jednego menu. Ta reorganizacja ułatwia znalezienie tego, czego potrzebujesz, bez przeszukiwania różnych części aplikacji. Wszystkie istniejące funkcje pozostają niezmienione, tylko lepiej zorganizowane dla szybszego dostępu."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/{{ lang }}/changelog/frames-1.2.0-1.png",
+      "image_2x": "/lib/img/{{ lang }}/changelog/frames-1.2.0-1@2x.png",
+      "alt": "Aplikacja Frames do fotografii kliszowej ze scentralizowaną stroną ustawień sprzętu i preferencji",
+      "width": "400",
+      "height": "300"
+    }
+  ],
+  "improvements": [
+    "Dodano scentralizowaną stronę Ustawień dla całej konfiguracji aplikacji",
+    "Zunifikowane zarządzanie sprzętem w Ustawieniach",
+    "Skonsolidowane zarządzanie subskrypcją",
+    "Poprawiony dostęp do dostosowywania wyglądu paska narzędzi",
+    "Drobne udoskonalenia w całej aplikacji"
+  ],
+  "fixes": [],
+  "patches": []
+}

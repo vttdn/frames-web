@@ -1,0 +1,52 @@
+{
+  "version": "1.9.0",
+  "version_short": "1.9",
+  "url_slug": "1-9-ios",
+  "platform": "ios",
+  "release_date": "2025-09-18T10:00:00.000Z",
+  "title": "Sottocartelle, Scorri per Spostare e Miglioramenti Esportazione TXT",
+  "summary": "Organizza la tua libreria pellicole con sottocartelle annidate fino a 5 livelli di profondità. Questo aggiornamento porta anche gestione rullini più facile con gesti scorri e formattazione esportazione TXT migliorata per migliore documentazione.",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Organizzazione Cartelle Annidate per Utenti Pro"
+    },
+    {
+      "type": "paragraph",
+      "content": "Gli utenti Pro possono ora creare sottocartelle fino a 5 livelli di profondità, abilitando organizzazione dettagliata degli archivi pellicole. Struttura la tua libreria per anno, progetto, tipo di pellicola o qualsiasi gerarchia che si adatti al tuo flusso di lavoro. Questo rende più facile localizzare scatti specifici all'interno di estese collezioni pellicole e mantiene rullini correlati raggruppati logicamente insieme."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/{{ lang }}/changelog/frames-1.9.0-1.png",
+      "image_2x": "/lib/img/{{ lang }}/changelog/frames-1.9.0-1@2x.png",
+      "alt": "App Frames per fotografia analogica che mostra organizzazione cartelle annidate per archivi rullini",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Gestione Rullini Migliorata"
+    },
+    {
+      "type": "paragraph",
+      "content": "I gesti scorri ora includono un pulsante Sposta, rendendo più veloce riposizionare rullini e cartelle. Abbiamo anche corretto un problema in cui le esportazioni TXT omettevano l'anno quando corrispondeva all'anno corrente, assicurando informazioni di data complete in tutte le esportazioni."
+    }
+  ],
+  "improvements": [
+    "Aggiunto supporto sottocartelle fino a 5 livelli di profondità per utenti Pro",
+    "I gesti scorri ora includono pulsante Sposta per rullini e cartelle",
+    "Navigazione cartelle migliorata con supporto breadcrumb",
+    "Migliorata coerenza localizzazione su più lingue"
+  ],
+  "fixes": [
+    {
+      "title": "Visualizzazione Anno Esportazione TXT",
+      "description": "Corretto un problema in cui le esportazioni TXT omettevano l'anno quando corrispondeva all'anno corrente. L'anno è ora sempre incluso per informazioni di data complete."
+    }
+  ],
+  "patches": [],
+  "meta_title": "Sottocartelle, Scorri per Spostare e Miglioramenti Esportazione TXT · Frames",
+  "meta_description": "Organizza la tua libreria pellicole con sottocartelle annidate fino a 5 livelli di profondità."
+}

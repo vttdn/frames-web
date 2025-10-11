@@ -1,0 +1,78 @@
+{
+  "version": "1.0.0",
+  "version_short": "1.0",
+  "url_slug": "1-0-macos",
+  "platform": "macos",
+  "release_date": "2025-04-08T10:00:00.000Z",
+  "title": "Frames voor macOS lancering",
+  "summary": "De langverwachte macOS bijbehorende app lanceert, met naadloze metadata-reïntegratie in gescande filmbeelden. Importeer je filmroldata van iOS en sluit EXIF-metadata in JPEG-bestanden in.",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Metadata-reïntegratie voor gescande film"
+    },
+    {
+      "type": "paragraph",
+      "content": "Frames voor macOS lost de meest gevraagde functie van de filmfotografie-gemeenschap op: het opnieuw integreren van metadata in gescande beelden. Importeer je .frames-bestanden van iOS, sleep je gescande JPEG-beelden erin, en de app matcht frames met foto's. Je belichtingsinstellingen, cameradata, lensinformatie, filmsoorten en opnamenotities worden ingebed als EXIF-metadata die naadloos werkt met Lightroom, Capture One en Apple Foto's."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.0.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.0.0-1@2x.png",
+      "alt": "Frames macOS-app voor het insluiten van EXIF-metadata in gescande filmfoto's",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Eenvoudige workflow, professionele resultaten"
+    },
+    {
+      "type": "paragraph",
+      "content": "De workflow is eenvoudig: importeer je .frames-bestand, voeg je gescande beelden toe, match frames met foto's en exporteer. De app handelt EXIF-insluiting automatisch af, zodat je analoge fotografie-documentatie permanente digitale records worden. Je filmroldata wordt naadloos overgedragen van veldregistratie op iOS naar definitieve archivering op macOS."
+    }
+  ],
+  "improvements": [
+    ".frames-bestanden importeren van iOS",
+    "JPEG-bestandsondersteuning met volledige metadata-insluiting",
+    "Automatische frame-naar-foto matching",
+    "EXIF-metadata-insluiting compatibel met Lightroom, Capture One en Apple Foto's",
+    "Native macOS-ontwerp volgens Apple's Human Interface Guidelines",
+    "Beschikbaar in 7 talen: Engels, Frans, Spaans, Italiaans, Portugees, Duits en Nederlands"
+  ],
+  "fixes": [],
+  "patches": [
+    {
+      "version": "1.0.1",
+      "description": "Franse taalondersteuning toegevoegd."
+    },
+    {
+      "version": "1.0.2",
+      "description": "Uitgebreid naar 7 talen: Engels, Frans, Spaans, Italiaans, Portugees, Duits en Nederlands."
+    },
+    {
+      "version": "1.0.3",
+      "description": "Verbeterde taalondersteuning."
+    },
+    {
+      "version": "1.0.4",
+      "description": "Nu compatibel met macOS 15.0 en later."
+    },
+    {
+      "version": "1.0.5",
+      "description": "Geëxporteerde foto's behouden nu hun oorspronkelijke bestandsnamen."
+    },
+    {
+      "version": "1.0.6",
+      "description": "App-icoon opnieuw ontworpen."
+    },
+    {
+      "version": "1.0.7",
+      "description": "Kleine verfijning van het app-logo."
+    }
+  ],
+  "meta_title": "Frames voor macOS lancering · Frames",
+  "meta_description": "De langverwachte macOS bijbehorende app lanceert, met naadloze metadata-reïntegratie in gescande filmbeelden."
+}

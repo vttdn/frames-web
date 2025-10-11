@@ -1,0 +1,224 @@
+@use 'mixins' as *;
+
+/* Global - Shared between Changelog and Privacy */
+.changelog,
+.privacy {
+
+  article {
+    align-items: start;
+  }
+
+  h1,
+  .h1 {
+    font-size: var(--font-size-2xl);
+    line-height: var(--line-height-2xl);
+    margin-top: 0;
+    margin-bottom: var(--spacing-3xl);
+    padding-right: 33%;
+    font-weight: 400;
+
+    a {
+      text-decoration: none;
+    }
+  }
+
+  h2.h1 a {
+    &:hover {
+      color: rgb(from var(--color-primary) r g b / 0.90);
+    }
+  }
+
+  h3,
+  h2 {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    font-weight: 700;
+    margin: var(--spacing-2xl) 0 var(--spacing-md);
+  }
+
+  .changelog-header h1 {
+    font-size: var(--font-size-md);
+    line-height: var(--line-height-md);
+    color: var(--color-secondary);
+    margin-bottom: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+  }
+
+  // .changelog-article-main h2 {
+  //   font-size: var(--font-size-2xl);
+  //   line-height: var(--line-height-2xl);
+  //   margin-top: 0;
+  //   margin-bottom: var(--spacing-3xl);
+  //   padding-right: 33%;
+  //   font-weight: 400;
+  // }
+
+  details h3 {
+    margin: 0;
+    font-size: var(--font-size-md);
+    line-height: var(--line-height-md);
+    font-weight: 400;
+
+  }
+
+  p {
+    margin-bottom: var(--spacing-xl);
+  }
+
+  ul {
+    list-style-type: square;
+    padding-left: 20px;
+    color: var(--color-secondary);
+  }
+
+  .bullet-point {
+    color: var(--color-primary);
+  }
+
+  @include desktop-medium-down {
+    .grid-4col {
+      grid-template-columns: repeat(1, 1fr);
+    }
+
+    &.wrapper {
+      max-width: 620px;
+      margin-left: 0;
+      margin-right: auto;
+    }
+
+    .changelog-dot,
+    .release-page-title {
+      display: inline;
+    }
+
+    .changelog-header {
+      display: none;
+    }
+
+    .release-info {
+      margin-top: var(--spacing-5xl);
+      position: static;
+    }
+  }
+}
+    .changelog-dot,
+    .release-page-title {
+      display: none;
+    }
+
+.changelog-divider {
+  border: none;
+  background-color: var(--color-gray-dark2);
+  height: 1px;
+  margin: var(--spacing-6xl) 0;
+
+  @include desktop-medium-down {
+    margin-bottom: var(--spacing-2xl);
+  }
+}
+
+/* Header */
+.changelog-header {
+  margin-top: var(--spacing-5xl);
+  margin-bottom: 0.375rem;
+  color: var(--color-secondary);
+}
+
+.changelog-header, .release-info {
+  a:hover {
+    color: var(--color-primary);
+
+    .release-number {
+      border: 1px solid var(--color-primary);
+    }
+  }
+}
+
+/* Article */
+.changelog-article-main {
+  a {
+    text-underline-offset: .125em;
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-decoration-color: color-mix(in srgb, var(--color-white) 56%, transparent);
+
+    &:hover {
+      color: rgb(from var(--color-primary) r g b / 0.82);
+    }
+  }
+}
+
+/* Release Info */
+.release-info {
+  color: var(--color-secondary);
+  height: max-content;
+  position: sticky;
+  top:64px;
+}
+
+.release-number {
+  font-size: var(--font-size-sm);
+  line-height: var(--line-height-md);
+  border: 1px solid var(--color-gray-dark3);
+  border-radius: var(--radius-full);
+  padding: 0 10px;
+}
+
+.changelog-media {
+  margin: var(--spacing-4xl) 0 var(--spacing-3xl);
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+.changelog-details {
+  margin-top: var(--spacing-4xl);
+}
+
+/* Pagination */
+.changelog .pagination {
+  margin: var(--spacing-6xl) 0 var(--spacing-6xl);
+
+  @include desktop-medium-down {
+    grid-template-columns: repeat(2, 1fr);
+
+    .col-start-2 {
+      grid-column: 1;
+    }
+  }
+
+  .tile {
+    background-color: var(--color-gray-dark);
+
+    a {
+      display: flex;
+      flex-direction: column;
+      text-decoration: none;
+      padding: 1.125rem var(--spacing-lg) 1.125rem;
+    }
+
+    &:hover {
+      background-color: var(--color-gray-dark2);
+    }
+  }
+
+  .pagination-prev {
+    text-align: left;
+  }
+
+  .pagination-next {
+    text-align: right;
+  }
+
+  .pagination-label {
+    color: var(--color-secondary);
+  }
+
+  .pagination-title {
+    color: var(--color-primary);
+    margin-top: var(--spacing-xs2);
+  }
+}

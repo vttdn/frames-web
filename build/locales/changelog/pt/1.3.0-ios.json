@@ -1,0 +1,33 @@
+{
+  "version": "1.3.0",
+  "version_short": "1.3",
+  "url_slug": "1-3-ios",
+  "platform": "ios",
+  "release_date": "2025-07-18T10:00:00.000Z",
+  "title": "Exportação GPX e Geração de Arquivos Mais Rápida",
+  "meta_title": "Exportação GPX e Geração de Arquivos Mais Rápida · Frames",
+  "meta_description": "Exporte localizações como arquivos GPX para visualização em mapas. Geração significativamente mais rápida de arquivos .FRAMES, TXT e GPX para rolos grandes.",
+  "summary": "Usuários Pro agora podem exportar rolos de filme como arquivos GPX para rastreamento de localização. Esta atualização também traz melhorias de desempenho para exportações de arquivos mais rápidas e confiáveis em todos os formatos.",
+  "sections": [
+    {
+      "type": "paragraph",
+      "content": "Exporte as localizações dos seus rolos de filme como arquivos GPX para visualizar locais de disparo em aplicativos de mapeamento ou importar para software de gerenciamento de fotos. Cada fotograma com dados de localização se torna um ponto de referência na trilha GPX. O desempenho de exportação de arquivos foi melhorado em todos os formatos, tornando mais rápida a geração de arquivos .FRAMES, TXT e GPX mesmo para rolos com muitos fotogramas."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/{{ lang }}/changelog/frames-1.3.0-1.png",
+      "image_2x": "/lib/img/{{ lang }}/changelog/frames-1.3.0-1@2x.png",
+      "alt": "Aplicativo de fotografia analógica Frames com exportação de localização GPX e recursos de geração de arquivos",
+      "width": "400",
+      "height": "300"
+    }
+  ],
+  "improvements": [
+    "Adicionada exportação de arquivo GPX para usuários Pro",
+    "Geração de exportação de arquivos significativamente mais rápida",
+    "Confiabilidade de exportação aprimorada para rolos de filme grandes",
+    "Uso de memória otimizado durante operações de exportação"
+  ],
+  "fixes": [],
+  "patches": []
+}

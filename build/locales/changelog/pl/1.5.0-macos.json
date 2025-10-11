@@ -1,0 +1,43 @@
+{
+  "version": "1.5.0",
+  "version_short": "1.5",
+  "url_slug": "1-5-macos",
+  "platform": "macos",
+  "release_date": "2025-09-19T10:00:00.000Z",
+  "title": "Główne usprawnienia wydajności i przetwarzania DNG",
+  "meta_title": "Główne usprawnienia wydajności i przetwarzania DNG · Frames",
+  "meta_description": "Znacznie szybsze ładowanie obrazów i zoptymalizowane przetwarzanie DNG. Poprawiony import plików .frames i eksport metadanych DNG na komputerach Intel Mac.",
+  "summary": "Ta aktualizacja dostarcza znacznie szybszą obsługę obrazów z zoptymalizowanym przetwarzaniem DNG, ulepszonym buforowaniem i poprawkami importu plików .frames oraz eksportu metadanych DNG na komputerach Intel Mac.",
+  "sections": [
+    {
+      "type": "paragraph",
+      "content": "Ładowanie obrazów jest teraz znacznie szybsze we wszystkich formatach, z głównymi usprawnieniami szybkości i niezawodności przetwarzania DNG. Użycie pamięci zostało zoptymalizowane, buforowanie ulepszone, a synchroniczne ładowanie zapewnia płynne działanie nawet z dużymi partiami obrazów. Naprawiliśmy również import plików .frames z paska menu macOS i rozwiązaliśmy problemy z eksportem metadanych DNG na starszych komputerach Intel Mac."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.10.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.10.0-1@2x.png",
+      "alt": "Aplikacja Frames macOS ze zoptymalizowaną wydajnością przetwarzania DNG dla szybszej obsługi obrazów",
+      "width": "400",
+      "height": "300"
+    }
+  ],
+  "improvements": [
+    "Znacznie szybsze ładowanie obrazów we wszystkich formatach",
+    "Zoptymalizowane przetwarzanie DNG dla lepszej wydajności",
+    "Ulepszony system buforowania dla płynniejszego działania",
+    "Zwiększona efektywność użycia pamięci",
+    "Synchroniczne ładowanie dla dużych partii obrazów"
+  ],
+  "fixes": [
+    {
+      "title": "Import plików .frames",
+      "description": "Naprawiono import plików .frames z paska menu macOS."
+    },
+    {
+      "title": "Eksport DNG na komputerach Intel Mac",
+      "description": "Naprawiono eksport metadanych DNG na starszych modelach Intel Mac."
+    }
+  ],
+  "patches": []
+}

@@ -1,0 +1,55 @@
+{
+  "version": "1.5.0",
+  "version_short": "1.5",
+  "url_slug": "1-5-ios",
+  "platform": "ios",
+  "release_date": "2025-09-03T10:00:00.000Z",
+  "title": "Nuove Pellicole, Sistema Apertura Ridisegnato e Cambio Obiettivo",
+  "summary": "Questo aggiornamento espande la libreria di pellicole con nuove emulsioni, ridisegna completamente la gestione dell'apertura con sequenze f-stop personalizzate e aggiunge la possibilità di cambiare obiettivo direttamente dal registratore.",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Libreria Pellicole Ampliata"
+    },
+    {
+      "type": "paragraph",
+      "content": "L'elenco delle pellicole ora include Harman Phoenix II, Lucky Color 200, Leica Monopan 50 e diverse altre emulsioni popolari. Che tu stia fotografando con pellicole a colori sperimentali o classiche pellicole in bianco e nero, Frames supporta una gamma più ampia di tipi di pellicola per una registrazione più accurata."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/{{ lang }}/changelog/frames-1.5.0-1.png",
+      "image_2x": "/lib/img/{{ lang }}/changelog/frames-1.5.0-1@2x.png",
+      "alt": "App Frames per fotografia analogica con sequenze apertura personalizzate e libreria pellicole espansa",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Gestione Apertura Ridisegnata"
+    },
+    {
+      "type": "paragraph",
+      "content": "Il controllo dell'apertura è stato completamente ricostruito. Ora puoi definire sequenze f-stop personalizzate per obiettivo, mostrando solo le aperture che il tuo obiettivo ha realmente. Il cursore del registratore è ora correttamente centrato sul valore di apertura selezionato. Cambia obiettivo direttamente dal registratore senza lasciare il tuo flusso di lavoro e imposta la lunghezza focale tramite il pulsante Altro per zoom o regolazioni di controllo della prospettiva."
+    }
+  ],
+  "improvements": [
+    "Libreria pellicole espansa con Harman Phoenix II, Lucky Color 200, Leica Monopan 50 e altro",
+    "Sistema di gestione apertura completamente ridisegnato",
+    "Aggiunte sequenze f-stop personalizzate per obiettivo",
+    "Aggiunto cambio obiettivo direttamente dal registratore",
+    "La lunghezza focale può ora essere regolata tramite il pulsante Altro nel registratore",
+    "Migliorata coerenza della localizzazione",
+    "Piccoli miglioramenti delle prestazioni in generale"
+  ],
+  "fixes": [
+    {
+      "title": "Centratura Cursore Apertura",
+      "description": "Corretto un problema in cui il cursore dell'apertura nel registratore non era correttamente centrato sul valore selezionato."
+    }
+  ],
+  "patches": [],
+  "meta_title": "Nuove Pellicole, Sistema Apertura Ridisegnato e Cambio Obiettivo · Frames",
+  "meta_description": "Questo aggiornamento espande la libreria di pellicole con nuove emulsioni, ridisegna completamente la gestione dell'apertura con sequenze f-stop..."
+}

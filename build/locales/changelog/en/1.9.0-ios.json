@@ -1,0 +1,52 @@
+{
+  "version": "1.9.0",
+  "version_short": "1.9",
+  "url_slug": "1-9-ios",
+  "platform": "ios",
+  "release_date": "2025-09-18T10:00:00.000Z",
+  "title": "Subfolders, Swipe to Move & TXT Export Improvements",
+  "summary": "Organize your film library with nested subfolders up to 5 levels deep. This update also brings easier film roll management with swipe gestures and improved TXT export formatting for better documentation.",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Nested Folder Organization for Pro Users"
+    },
+    {
+      "type": "paragraph",
+      "content": "Pro users can now create subfolders up to 5 levels deep, enabling detailed organization of film archives. Structure your library by year, project, film type, or any hierarchy that fits your workflow. This makes it easier to locate specific shoots within extensive film collections and keeps related rolls grouped together logically."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/{{ lang }}/changelog/frames-1.9.0-1.png",
+      "image_2x": "/lib/img/{{ lang }}/changelog/frames-1.9.0-1@2x.png",
+      "alt": "Frames film photography app showing nested folder organization for film roll archives",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Improved Film Roll Management"
+    },
+    {
+      "type": "paragraph",
+      "content": "Swipe gestures now include a Move button, making it faster to relocate film rolls and folders. We've also fixed an issue where TXT exports would omit the year when it matched the current year, ensuring complete date information in all exports."
+    }
+  ],
+  "improvements": [
+    "Added subfolder support up to 5 levels deep for Pro users",
+    "Swipe gestures now include Move button for film rolls and folders",
+    "Enhanced folder navigation with breadcrumb support",
+    "Improved localization consistency across multiple languages"
+  ],
+  "fixes": [
+    {
+      "title": "TXT Export Year Display",
+      "description": "Fixed an issue where TXT exports would omit the year when it matched the current year. The year is now always included for complete date information."
+    }
+  ],
+  "patches": [],
+  "meta_title": "Subfolders, Swipe to Move & TXT Export Improvements · Frames",
+  "meta_description": "Organize your film library with nested subfolders up to 5 levels deep."
+}

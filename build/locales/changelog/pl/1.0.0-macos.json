@@ -1,0 +1,78 @@
+{
+  "version": "1.0.0",
+  "version_short": "1.0",
+  "url_slug": "1-0-macos",
+  "platform": "macos",
+  "release_date": "2025-04-08T10:00:00.000Z",
+  "title": "Premiera Frames dla macOS",
+  "meta_title": "Premiera Frames dla macOS · Frames",
+  "meta_description": "Osadzaj metadane EXIF w zeskanowanych fotografiach kliszowych. Importuj dane z iOS i automatycznie dopasowuj klatki do zdjęć w Lightroom i Capture One.",
+  "summary": "Długo oczekiwana aplikacja towarzysząca macOS startuje, przynosząc bezproblemową reintegrację metadanych w zeskanowane obrazy filmowe. Importuj dane filmów z iOS i osadzaj metadane EXIF w plikach JPEG.",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Reintegracja metadanych dla zeskanowanych filmów"
+    },
+    {
+      "type": "paragraph",
+      "content": "Frames dla macOS realizuje najbardziej oczekiwaną funkcję społeczności fotografii kliszowej: reintegrację metadanych w zeskanowane obrazy. Importuj swoje pliki .frames z iOS, przeciągnij zeskanowane pliki JPEG, a aplikacja dopasuje klatki do zdjęć. Twoje ustawienia ekspozycji, dane aparatu, informacje o obiektywach, filmy i notatki o zdjęciach są osadzane jako metadane EXIF, które działają bezproblemowo z Lightroom, Capture One i Apple Photos."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.0.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.0.0-1@2x.png",
+      "alt": "Aplikacja Frames macOS do osadzania metadanych EXIF w zeskanowanych fotografiach kliszowych",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Prosty przepływ pracy, profesjonalne rezultaty"
+    },
+    {
+      "type": "paragraph",
+      "content": "Przepływ pracy jest prosty: zaimportuj swój plik .frames, dodaj zeskanowane obrazy, dopasuj klatki do zdjęć i eksportuj. Aplikacja automatycznie obsługuje osadzanie EXIF, zapewniając, że Twoja dokumentacja fotografii analogowej staje się trwałymi cyfrowymi zapisami. Dane Twoich filmów płynnie przechodzą z rejestrowania w terenie na iOS do ostatecznego archiwizowania na macOS."
+    }
+  ],
+  "improvements": [
+    "Import plików .frames z iOS",
+    "Obsługa plików JPEG z pełnym osadzaniem metadanych",
+    "Automatyczne dopasowanie klatki do zdjęcia",
+    "Osadzanie metadanych EXIF kompatybilne z Lightroom, Capture One i Apple Photos",
+    "Natywny design macOS zgodny z wytycznymi Apple Human Interface Guidelines",
+    "Dostępna w 7 językach: angielskim, francuskim, hiszpańskim, włoskim, portugalskim, niemieckim i niderlandzkim"
+  ],
+  "fixes": [],
+  "patches": [
+    {
+      "version": "1.0.1",
+      "description": "Dodano obsługę języka francuskiego."
+    },
+    {
+      "version": "1.0.2",
+      "description": "Rozszerzono do 7 języków: angielskiego, francuskiego, hiszpańskiego, włoskiego, portugalskiego, niemieckiego i niderlandzkiego."
+    },
+    {
+      "version": "1.0.3",
+      "description": "Poprawiona obsługa języków."
+    },
+    {
+      "version": "1.0.4",
+      "description": "Teraz kompatybilna z macOS 15.0 i nowszymi."
+    },
+    {
+      "version": "1.0.5",
+      "description": "Eksportowane zdjęcia zachowują teraz swoje oryginalne nazwy plików."
+    },
+    {
+      "version": "1.0.6",
+      "description": "Przeprojektowana ikona aplikacji."
+    },
+    {
+      "version": "1.0.7",
+      "description": "Drobne dopracowanie logo aplikacji."
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "version": "1.0.0",
+  "version_short": "1.0",
+  "url_slug": "1-0-macos",
+  "platform": "macos",
+  "release_date": "2025-04-08T10:00:00.000Z",
+  "title": "Lancement de Frames pour macOS",
+  "summary": "L'application macOS compagnon tant attendue se lance, apportant une réintégration transparente de métadonnées dans les images de pellicules numérisées. Importez vos données de pellicules depuis iOS et intégrez les métadonnées EXIF dans les fichiers JPEG.",
+  "meta_title": "Lancement de Frames pour macOS · Frames",
+  "meta_description": "Réintégrez vos métadonnées de pellicules dans vos images numérisées. Compatible avec Lightroom, Capture One et Apple Photos pour un flux de travail professionnel.",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Réintégration de métadonnées pour pellicules numérisées"
+    },
+    {
+      "type": "paragraph",
+      "content": "Frames pour macOS résout la fonctionnalité la plus demandée par la communauté de photographie argentique : réintégrer les métadonnées dans les images numérisées. Importez vos fichiers .frames depuis iOS, glissez vos images JPEG numérisées et l'application associe les vues aux photos. Vos réglages d'exposition, données d'appareil, informations d'objectif, pellicules et notes de prise de vue sont intégrés sous forme de métadonnées EXIF qui fonctionnent de manière transparente avec Lightroom, Capture One et Apple Photos."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.0.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.0.0-1@2x.png",
+      "alt": "Application Frames macOS pour intégrer métadonnées EXIF dans photos pellicules numérisées",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Processus simple, résultats professionnels"
+    },
+    {
+      "type": "paragraph",
+      "content": "Le processus est simple : importez votre fichier .frames, ajoutez vos images numérisées, associez les vues aux photos et exportez. L'application gère l'intégration EXIF automatiquement, garantissant que votre documentation de photographie argentique devient des enregistrements numériques permanents. Vos données de pellicules se transfèrent de manière transparente depuis l'enregistrement sur le terrain sur iOS jusqu'à l'archivage final sur macOS."
+    }
+  ],
+  "improvements": [
+    "Import de fichiers .frames depuis iOS",
+    "Support de fichiers JPEG avec intégration complète de métadonnées",
+    "Association automatique de vues aux photos",
+    "Intégration de métadonnées EXIF compatible avec Lightroom, Capture One et Apple Photos",
+    "Design macOS natif suivant les directives d'interface humaine d'Apple",
+    "Disponible en 7 langues : anglais, français, espagnol, italien, portugais, allemand et néerlandais"
+  ],
+  "fixes": [],
+  "patches": [
+    {
+      "version": "1.0.1",
+      "description": "Ajout du support de la langue française."
+    },
+    {
+      "version": "1.0.2",
+      "description": "Extension à 7 langues : anglais, français, espagnol, italien, portugais, allemand et néerlandais."
+    },
+    {
+      "version": "1.0.3",
+      "description": "Support linguistique amélioré."
+    },
+    {
+      "version": "1.0.4",
+      "description": "Désormais compatible avec macOS 15.0 et ultérieur."
+    },
+    {
+      "version": "1.0.5",
+      "description": "Les photos exportées conservent désormais leurs noms de fichiers d'origine."
+    },
+    {
+      "version": "1.0.6",
+      "description": "Refonte de l'icône d'application."
+    },
+    {
+      "version": "1.0.7",
+      "description": "Raffinement mineur du logo de l'application."
+    }
+  ]
+}

@@ -1,0 +1,329 @@
+{
+  "meta": {
+    "title": "Frames – Filmfotografiapp för Analoga Anteckningar & Metadata",
+    "description": "Frames är en filmfotografiapp för analogfotografer. Logga varje bild, spåra kamerainställningar, organisera rullar och spara EXIF-metadata på iPhone & Mac.",
+    "locale": "sv_SE",
+    "canonical_url": "https://withframes.com/sv/",
+    "lang": "sv",
+    "twitter_card": "summary_large_image",
+    "twitter_site": "@withframes",
+    "twitter_creator": "@withframes",
+    "og_type": "website",
+    "og_site_name": "Frames"
+  },
+  "header": {
+    "logo_text": "Frames",
+    "logo_aria_label": "Frames Startsida",
+    "navigation": {
+      "aria_label": "Huvudnavigering",
+      "features": "Funktioner",
+      "documentation": "Dokumentation",
+      "changelog": "Changelog"
+    },
+    "buttons": {
+      "share": "Dela",
+      "download": "Ladda ner"
+    }
+  },
+  "share_dropdown": {
+    "facebook": "Facebook",
+    "twitter": "Twitter / X",
+    "linkedin": "LinkedIn",
+    "whatsapp": "WhatsApp",
+    "reddit": "Reddit",
+    "email": "E-post"
+  },
+  "mobile_menu": {
+    "open_aria_label": "Öppna mobilmeny",
+    "close_aria_label": "Stäng mobilmeny",
+    "navigation_aria_label": "Mobilnavigering",
+    "features": "Funktioner",
+    "documentation": "Dokumentation",
+    "changelog": "Changelog",
+    "privacy": "Integritet"
+  },
+  "tooltip": {
+    "label_coming_soon": "Kommer Snart"
+  },
+  "hero": {
+    "heading": "Den perfekta fotografianteckningsboken,<br>\nutformad för analogfotografer.",
+    "button_macos_text": "Ladda ner för macOS",
+    "button_macos_aria_label": "Ladda ner Frames för macOS",
+    "button_ios_text": "Ladda ner för iOS",
+    "button_ios_aria_label": "Ladda ner Frames för iOS",
+    "play_button_aria_label": "Spela videodemo",
+    "images": {
+      "hero": {
+        "src": "/lib/img/sv/hero.png",
+        "alt": "Frames filmfotografiapp för Mac och iPhone, utformad för att logga filmrullar, hantera metadata och arkivera analoga foton."
+      },
+      "hero_mobile": {
+        "src": "/lib/img/sv/hero-mobile.png",
+        "alt": "Frames filmfotografiapp för Mac och iPhone, utformad för att logga filmrullar, hantera metadata och arkivera analoga foton."
+      }
+    },
+    "featured": {
+      "aria_label": "Utvalda publikationer",
+      "text": "Uppmärksammad i fotografigemenskapen."
+    }
+  },
+  "preview": {
+    "images": {
+      "preview1": {
+        "src": "/lib/img/sv/preview1.png",
+        "alt": "Frames filmfotografiapp som visar inspelningsgränssnittet med slutartid och bländarval för loggning av filmexponeringar."
+      },
+      "preview2": {
+        "src": "/lib/img/sv/preview2.png",
+        "alt": "Frames analogfotografiapp som visar detaljerade metadataalternativ inklusive exponering, filmtyp, kamera, objektiv och fotograferingsförhållanden."
+      },
+      "preview3": {
+        "src": "/lib/img/sv/preview3.png",
+        "alt": "Frames filmfotografiapp på macOS som visar organiserade filmrullar i biblioteksvyn när man bläddrar genom mappar med analoga foton."
+      },
+      "preview4": {
+        "src": "/lib/img/sv/preview4.png",
+        "alt": "Frames analogfotografiapp som presenterar utrustningsinställningar med kamera-, objektiv- och filterdetaljer för att hantera analogfotografiutrustning."
+      },
+      "preview5": {
+        "src": "/lib/img/sv/preview5.png",
+        "alt": "Frames filmfotografiapp som exporterar data som .frames, .txt eller .gpx-filer för säkerhetskopiering och delning av analogfotografiloggar och metadata."
+      },
+      "preview6": {
+        "src": "/lib/img/sv/preview6.png",
+        "alt": "Frames analogfotografiapp metadata integrerad med Finder, Adobe Lightroom, Adobe Bridge, Google Photos, Darktable och Flickr för filmfotografer."
+      }
+    }
+  },
+  "reviews": {
+    "aria_label": "Kundrecensioner",
+    "review1": {
+      "quote": "Lättanvänd, pålitlig och rättvist prissatt app som överför fotograferingsdata, inklusive geolokalisering, till skannade negativs EXIF. Utvecklaren lyssnar på feedback och fortsätter förbättra. Utmärkt!",
+      "author_name": "Maria Garcia",
+      "date": "12 juli 2025",
+      "datetime": "2025-07-12"
+    },
+    "review2": {
+      "quote": "Som hemframkallande filmfotograf älskar jag hur Frames låter mig logga varje bild utan krångel med anteckningsböcker. Det är den perfekta och praktiska lösningen. Skaffade Pro och har aldrig tittat tillbaka!",
+      "author_name": "BHenriquez",
+      "date": "8 maj 2025",
+      "datetime": "2025-05-08"
+    },
+    "review3": {
+      "quote": "Fantastisk för att registrera exponering och plats vid filmfotografering, perfekt för att analysera inställningar eller behålla EXIF-liknande data. Utvecklaren fixade en bugg inom en dag. Rekommenderas varmt!",
+      "author_name": "Emma Richardson",
+      "date": "23 augusti 2025",
+      "datetime": "2025-08-23"
+    },
+    "review4": {
+      "quote": "När jag kom tillbaka till film saknade jag metadata tills jag hittade Frames. Den ersätter pappersanteckningar, hjälper mig hålla ordning och gör mig mer medveten när jag fotograferar. Ett måste för filmfotografer!",
+      "author_name": "Roger Nordstrom Photo",
+      "date": "15 april 2025",
+      "datetime": "2025-04-15"
+    },
+    "review5": {
+      "quote": "Man märker att utvecklaren använder appen själv. Varje liten detalj känns genomtänkt och gränssnittet är rent och enkelt. Allt fungerar smidigt. Helt klart den bästa filmanteckningsappen som finns!",
+      "author_name": "James Anderson",
+      "date": "5 september 2025",
+      "datetime": "2025-09-05"
+    },
+    "details": {
+      "description1": "Utformad med feedback från filmgemenskapen för att göra dataloggning tydlig och njutbar.",
+      "description2": "Gå med tusentals fotografer som ger ordning och insikt till sin filmfotografiupplevelse med Frames."
+    },
+    "navigation": {
+      "aria_label": "Recensionsnavigering",
+      "previous_aria_label": "Föregående recension",
+      "next_aria_label": "Nästa recension"
+    }
+  },
+  "features": {
+    "heading": "Funktioner",
+    "feature1": {
+      "label": "Arkiv",
+      "title": "Organisera Bibliotek",
+      "description": "Bläddra, organisera och hantera alla dina filmrullar enkelt, håll varje session tydligt strukturerad, lätt att hitta och perfekt organiserad."
+    },
+    "feature2": {
+      "label": "Utrustning",
+      "title": "Hantera Utrustning",
+      "description": "Håll en detaljerad förteckning över dina kameror, objektiv och filter för att vara konsekvent och ha all utrustningsinfo redo för varje fotografering."
+    },
+    "feature3": {
+      "label": "Spela in",
+      "title": "Fånga Inställningar",
+      "description": "Logga bländare, slutartid, filmtyp och platsdetaljer direkt för varje bild, håll varje bilds information korrekt och tillgänglig."
+    },
+    "feature4": {
+      "label": "Historik",
+      "title": "Återbesök Bilder",
+      "description": "Titta tillbaka på dina loggade rullar för att granska inställningar, analysera tidigare sessioner, lär av dem och förfina ditt filmfotografiarbetsflöde."
+    },
+    "feature5": {
+      "label": "Export",
+      "title": "Exportera Poster",
+      "description": "Spara eller dela dina poster som .frames, .txt eller .gpx-filer för säkerhetskopiering, delning eller integrering med andra appar eller arbetsflöden."
+    },
+    "feature6": {
+      "label": "Metadata",
+      "title": "Spara Metadata",
+      "description": "Bädda in all inspelad data i skannade bilder för att bevara analog information samtidigt som dina digitala arkiv hålls helt synkroniserade."
+    },
+    "feature7": {
+      "label": "Support",
+      "title": "E-postsupport",
+      "description": "Kontakta utvecklaren direkt för hjälp, dela feedback eller föreslå nya funktioner och förbättringar när som helst, med snabba svar."
+    }
+  },
+  "pricing": {
+    "heading": "Priser",
+    "label_period": "Per månad",
+    "label_period_yearly": "Per år",
+    "ios": {
+      "title": "iOS",
+      "price": "29 kr",
+      "price_yearly": "229 kr",
+      "period": "/mån",
+      "period_yearly": "/år",
+      "includes_label": "Inkluderar:",
+      "features": [
+        "Obegränsade filmrullar",
+        "Undermappar",
+        "Exportera data som .frames",
+        "Exportera data som .txt eller .gpx"
+      ],
+      "button_text": "Prova Gratis"
+    },
+    "macos": {
+      "title": "macOS",
+      "price": "29 kr",
+      "price_yearly": "229 kr",
+      "period": "/mån",
+      "period_yearly": "/år",
+      "includes_label": "Inkluderar:",
+      "features": [
+        "Spara metadata till foton"
+      ],
+      "button_text": "Prova Gratis"
+    },
+    "checkmark": "✓"
+  },
+  "qa": {
+    "heading": "Frågor & Svar",
+    "question1": {
+      "question": "Vilka metadata kan jag registrera?",
+      "answer": "Frames låter dig logga detaljerad information för varje bild, inklusive kamera, objektiv, filter, bildnummer, brännvidd, bländare, slutartid, ISO, mätläge, filmtyp, blixt, GPS-plats, tidsstämplar och egna anteckningar, så du aldrig förlorar viktiga analogfotografidetaljer."
+    },
+    "question2": {
+      "question": "Vilka bildformat stöds?",
+      "answer": "Frames stöder JPEG, TIFF och DNG-format, vilket låter dig bädda in dina registrerade metadata direkt i skannade analoga foton för sömlös organisation och arbetsflöde mellan dina enheter."
+    },
+    "question3": {
+      "question": "Finns Frames på Android eller Windows?",
+      "answer": "Frames är för närvarande tillgänglig för iPhone och macOS. Versioner för Android och Windows planeras till 2026, och under tiden kan du dela och hantera din data via .frames-filexport."
+    },
+    "question4": {
+      "question": "Vilka slutartider och bländare stöds?",
+      "answer": "Frames erbjuder standardsekvenser som täcker de flesta objektiv och kameror, och du kan även definiera egna sekvenser för din utrustning, vilket gör den kompatibel med alla slutartids- eller bländarvärden."
+    },
+    "question5": {
+      "question": "Kan jag logga stativ eller tillbehör?",
+      "answer": "Ja, Frames låter dig registrera stativ, blixtar och andra tillbehör. Det finns även ett extra anteckningsfält där du kan lägga till egna detaljer du vill."
+    },
+    "question6": {
+      "question": "Vad finns det för planer för framtida uppdateringar?",
+      "answer": "Framtida planer inkluderar utökade arbetsflödesfunktioner, förbättrad integration mellan enheter och nya verktyg som efterfrågats av gemenskapen för att göra analogfotografiloggning ännu mer flexibel och kraftfull."
+    }
+  },
+  "contact": {
+    "heading": "Låt oss höra dina idéer och tankar.",
+    "button_text": "Skicka oss ett e-postmeddelande"
+  },
+  "footer": {
+    "logo_alt": "Frames",
+    "connect": {
+      "heading": "Följ oss",
+      "instagram": "Instagram",
+      "threads": "Threads",
+      "facebook": "Facebook",
+      "bluesky": "Bluesky",
+      "mastodon": "Mastodon",
+      "twitter": "Twitter"
+    },
+    "resources": {
+      "heading": "Resurser",
+      "privacy_policy": "Integritetspolicy",
+      "terms_of_service": "Användarvillkor",
+      "documentation": "Dokumentation",
+      "changelog": "Changelog",
+      "youtube": "Youtube"
+    },
+    "product": {
+      "heading": "Produkt",
+      "frames_ios": "Frames iOS",
+      "frames_macos": "Frames macOS"
+    },
+    "copyright": "© 2025 Vincent Tantardini.",
+    "all_rights_reserved": "Alla rättigheter förbehållna.",
+    "language_dropdown": {
+      "label": "Svenska",
+      "aria_label": "Språkväljare"
+    }
+  },
+  "urls": {
+    "appstore_ios": "https://apps.apple.com/se/app/frames-filmfotonotering/id6744057317",
+    "appstore_macos": "https://apps.apple.com/se/app/frames-filmmetadata/id6744063354?l=sv",
+    "documentation": "doc/",
+    "changelog": "changelog/",
+    "privacy": "integritetspolicy/"
+  },
+  "video": {
+    "title": "Filmfotografiapp för att Logga & Spåra Dina Rullar (Frames för iPhone)",
+    "description": "Upptäck Frames, den dedikerade filmfotografiappen utformad för analogfotografer. Frames gör hanteringen av din analogfotografi enkel och hjälper dig registrera inte bara dina bilder utan också berättelsen bakom varje rulle och bild. Oavsett om du arbetar med 35mm, mellanformat eller storformat, håller Frames ditt arbetsflöde organiserat och säkerställer att dina fotometadata följer med dina bilder, även efter skanning."
+  },
+  "changelog": {
+    "meta": {
+      "title": "Changelog - Frames",
+      "description": "Frames changelog. Håll dig uppdaterad med de senaste funktionerna och förbättringarna för filmfotografiappen.",
+      "canonical_url": "https://withframes.com/sv/changelog/"
+    },
+    "heading": "Changelog",
+    "labels": {
+      "improvements": "Förbättringar",
+      "fixes": "Buggrättningar",
+      "patches": "Patchar",
+      "platform_ios": "iOS",
+      "platform_macos": "macOS",
+      "previous": "Föregående",
+      "next": "Nästa"
+    },
+    "pagination": {
+      "previous": "Föregående",
+      "next": "Nästa",
+      "page": "Sida",
+      "newer_posts": "Nyare inlägg",
+      "older_posts": "Äldre inlägg"
+    }
+  },
+  "privacy": {
+    "meta": {
+      "title": "Integritetspolicy - Frames",
+      "description": "Läs integritetspolicyn för Frames, analogfotografiappen. Lär dig hur vi hanterar dina data med omsorg på både mobil och dator.",
+      "canonical_url": "https://withframes.com/sv/integritetspolicy/"
+    },
+    "heading": "Integritetspolicy",
+    "section1": {
+      "heading": "Vårt Engagemang för Din Integritet",
+      "paragraph1": "Denna app samlar inte in, lagrar eller delar någon personlig data. All användardata lagras lokalt på din enhet och överförs aldrig till någon server eller tredje part. Vi använder inte analytics, spårning eller onlinetjänster som samlar in användarinformation.",
+      "paragraph2": "Appen tillåter dock export av filer. All data du väljer att dela eller spara externt är under din kontroll. Utvecklaren spårar inte eller får tillgång till exporterade filer."
+    },
+    "section2": {
+      "heading": "Kontakt",
+      "paragraph1": "Om du har några frågor eller funderingar kan du kontakta oss på:"
+    },
+    "last_updated_label": "Senast uppdaterad",
+    "last_updated": "15 mars 2025",
+    "last_updated_iso": "2025-03-15",
+    "button_home": "Hem"
+  }
+}

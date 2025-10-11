@@ -1,0 +1,77 @@
+{
+  "version": "1.13.0",
+  "version_short": "1.13",
+  "url_slug": "1-13-ios",
+  "platform": "ios",
+  "release_date": "2025-10-06T10:00:00.000Z",
+  "title": "Soporte de idiomas hebreo, árabe, rumano y ucraniano",
+  "summary": "Frames continúa su misión de servir a fotógrafos analógicos en todo el mundo con esta significativa actualización de localización, trayendo soporte nativo para hablantes de hebreo, árabe, rumano y ucraniano, junto con traducciones refinadas y mejoras de interfaz en toda la aplicación.",
+  "meta_title": "Soporte de idiomas hebreo, árabe, rumano y ucraniano · Frames",
+  "meta_description": "Cuatro nuevos idiomas con interfaz RTL completa para hebreo y árabe. Traducciones al rumano y ucraniano con terminología fotográfica nativa y refinada.",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Cuatro nuevos idiomas con soporte de derecha a izquierda"
+    },
+    {
+      "type": "paragraph",
+      "content": "Frames ahora soporta hebreo, árabe, rumano y ucraniano, cada uno cuidadosamente localizado para respetar matices culturales y terminología fotográfica. Hebreo y árabe incluyen adaptación completa de interfaz de derecha a izquierda. Los flujos de navegación, colocación de botones y alineación de texto se reflejan apropiadamente mientras preservan términos técnicos como códigos de película y valores de apertura en su formato internacional estándar."
+    },
+    {
+      "type": "list",
+      "items": [
+        {
+          "title": "Hebreo (עברית) y árabe (العربية)",
+          "description": "Interfaz RTL completa con terminología nativa para películas, ajustes de cámara y metadatos EXIF."
+        },
+        {
+          "title": "Rumano (Română) y ucraniano (Українська)",
+          "description": "Traducciones completas que apoyan a fotógrafos documentando su trabajo en su idioma nativo."
+        }
+      ]
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.13.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.13.0-1@2x.png",
+      "alt": "Aplicación de fotografía analógica Frames con interfaz RTL en hebreo y árabe y soporte de idiomas",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Refinamientos de traducción en todos los idiomas"
+    },
+    {
+      "type": "paragraph",
+      "content": "Más allá de los nuevos idiomas, hemos refinado las traducciones existentes en toda la aplicación basándose en comentarios de fotógrafos. Los nombres de películas permanecen en su idioma original (Kodak Portra, Ilford HP5), mientras que los elementos de interfaz se adaptan a tu idioma elegido. Las preferencias de idioma se sincronizan entre dispositivos y todos los datos existentes se muestran automáticamente en tu idioma seleccionado sin reingreso o migración."
+    }
+  ],
+  "improvements": [
+    "Localización completa en hebreo (עברית) añadida con soporte de interfaz de derecha a izquierda",
+    "Localización completa en árabe (العربية) añadida con adaptación de diseño RTL",
+    "Traducción al rumano (Română) añadida para la comunidad de fotografía analógica",
+    "Soporte de ucraniano (Українська) añadido con terminología nativa",
+    "Traducciones existentes refinadas en todos los idiomas soportados para mayor claridad y consistencia",
+    "Precisión de terminología técnica mejorada en campos específicos de fotografía",
+    "Soporte de texto bidireccional mejorado para contenido mixto latino y RTL"
+  ],
+  "fixes": [
+    {
+      "title": "Desbordamiento de texto en traducciones",
+      "description": "Problemas de diseño resueltos donde frases traducidas más largas podían truncarse en ciertos elementos de interfaz."
+    },
+    {
+      "title": "Consistencia de diseño RTL",
+      "description": "Problemas menores de alineación corregidos en idiomas de derecha a izquierda para asegurar reflejo apropiado en todas las pantallas."
+    }
+  ],
+  "patches": [
+    {
+      "version": "1.13.1",
+      "description": "Corregido un error que podía causar que el menú para compartir parpadeara repetidamente al exportar"
+    }
+  ]
+}

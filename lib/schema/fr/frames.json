@@ -168,17 +168,6 @@
           }
         },
         {
-          "@type": "WebPage",
-          "@id": "https://withframes.com/frfr/",
-          "url": "https://withframes.com/frfr/",
-          "name": "Frames – Application Photo Argentique pour Notes & Métadonnées",
-          "description": "Frames est une application photo argentique. Enregistrez chaque prise, suivez les réglages, organisez vos pellicules et sauvegardez les métadonnées EXIF sur iPhone & Mac.",
-          "inLanguage": "fr",
-          "publisher": {
-            "@id": "https://withframes.com/#organization"
-          }
-        },
-        {
           "@type": "VideoObject",
           "name": "Application Photo Argentique pour Noter & Suivre Vos Pellicules (Frames pour iPhone)",
           "description": "Découvrez Frames, l'application photo argentique dédiée conçue pour les photographes analogiques. Frames rend la gestion de votre photographie argentique sans effort, vous aidant à enregistrer non seulement vos prises mais aussi l'histoire derrière chaque pellicule et vue. Que vous travailliez avec du film 35mm, moyen format ou grand format, Frames garde votre processus organisé et assure que vos métadonnées photo restent avec vos images, même après numérisation.",
@@ -190,34 +179,6 @@
           "publisher": {
             "@id": "https://withframes.com/#organization"
           }
-        },
-        {
-          "@type": "Organization",
-          "@id": "https://withframes.com/#organization",
-          "name": "Frames",
-          "url": "https://withframes.com/",
-          "logo": "https://withframes.com/apple-touch-icon.png",
-          "contactPoint": {
-            "@type": "ContactPoint",
-            "email": "bonjour@withframes.com",
-            "contactType": "Customer Support",
-            "areaServed": "Worldwide",
-            "availableLanguage": ["English", "French"]
-          },
-          "sameAs": [
-            "https://twitter.com/withframes",
-            "https://www.facebook.com/framesapp",
-            "https://www.instagram.com/with_frames/",
-            "https://linkedin.com/company/withframes/",
-            "https://pinterest.com/framesapp/",
-            "https://mastodon.social/@frames",
-            "https://bsky.app/profile/withframes.bsky.social",
-            "https://www.tiktok.com/@with_frames",
-            "https://www.youtube.com/@withframes",
-            "https://g.co/kgs/5oEvXT5",
-            "https://apps.apple.com/fr/app/frames-notes-argentiques/id6744057317",
-            "https://apps.apple.com/fr/app/frames-métadonnées/id6744063354"
-          ]
         }
       ]
     }

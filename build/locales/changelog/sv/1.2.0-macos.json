@@ -1,0 +1,48 @@
+{
+  "version": "1.2.0",
+  "version_short": "1.2",
+  "url_slug": "1-2-macos",
+  "platform": "macos",
+  "release_date": "2025-08-24T10:00:00.000Z",
+  "title": "Filterstöd, japanska och koreanska språk",
+  "summary": "Filter visas nu i sidofältet och läggs automatiskt till i metadata när bilder sparas. Denna uppdatering tar även med sig stöd för japanska och koreanska språk, plus viktiga buggfixar.",
+  "sections": [
+    {
+      "type": "paragraph",
+      "content": "Filter som loggats på iOS visas nu i macOS-sidofältet och bäddas automatiskt in i EXIF-metadata under återintegration. Detta kompletterar din analoga dokumentation genom att inkludera UV-, ND-, CPL- och andra filter i dina slutliga bilder. Kamerans serienummer inkluderas nu i metadata, och vi har fixat en bugg där blixtvärden var inverterade. Frames finns nu tillgängligt på japanska och koreanska, vilket matchar iOS-språkexpansionen."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-mac-1.2.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-mac-1.2.0-1@2x.png",
+      "alt": "Frames macOS-app med sidofält för filtermetadata för filmfotografidokumentation",
+      "width": "400",
+      "height": "300"
+    }
+  ],
+  "improvements": [
+    "Tillagt filtervisning i sidofältet",
+    "Filter läggs automatiskt till i metadata när bilder sparas",
+    "Kamerans serienummer inkluderas nu i EXIF-metadata",
+    "Tillagt stöd för japanska språket",
+    "Tillagt stöd för koreanska språket"
+  ],
+  "fixes": [
+    {
+      "title": "Inverterade blixtvärden",
+      "description": "Korrigerade ett problem där blixtvärdet var inverterat (visade 'Ja' när det skulle varit 'Nej')."
+    }
+  ],
+  "patches": [
+    {
+      "version": "1.2.2",
+      "description": "Förbättrad lokalisering för nya språk."
+    },
+    {
+      "version": "1.2.1",
+      "description": "Förbättrade översättningar för konsistens med iOS-appen, plus mindre UI-förbättringar."
+    }
+  ],
+  "meta_title": "Filterstöd, japanska och koreanska språk · Frames",
+  "meta_description": "Filter visas nu i sidofältet och läggs automatiskt till i metadata när bilder sparas."
+}

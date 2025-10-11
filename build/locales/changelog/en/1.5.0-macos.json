@@ -1,0 +1,43 @@
+{
+  "version": "1.5.0",
+  "version_short": "1.5",
+  "url_slug": "1-5-macos",
+  "platform": "macos",
+  "release_date": "2025-09-19T10:00:00.000Z",
+  "title": "Major Performance & DNG Processing Improvements",
+  "meta_title": "Major Performance & DNG Processing Improvements · Frames",
+  "meta_description": "Significantly faster DNG processing with optimized caching and memory usage. Fixed .frames import and Intel Mac compatibility for smoother metadata workflow.",
+  "summary": "This update delivers significantly faster image handling with optimized DNG processing, improved caching, and fixes for .frames file import and DNG metadata export on Intel Macs.",
+  "sections": [
+    {
+      "type": "paragraph",
+      "content": "Image loading is now significantly faster across all formats, with major improvements to DNG processing speed and reliability. Memory usage has been optimized, caching improved, and synchronized loading ensures smooth operation even with large batches of images. We've also fixed .frames file import from the macOS menu bar and resolved DNG metadata export issues on older Intel Macs."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.10.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.10.0-1@2x.png",
+      "alt": "Frames macOS app with optimized DNG processing performance for faster image handling",
+      "width": "400",
+      "height": "300"
+    }
+  ],
+  "improvements": [
+    "Significantly faster image loading across all formats",
+    "Optimized DNG processing for better performance",
+    "Improved caching system for smoother operation",
+    "Enhanced memory usage efficiency",
+    "Synchronized loading for large image batches"
+  ],
+  "fixes": [
+    {
+      "title": ".frames File Import",
+      "description": "Fixed .frames file import from the macOS menu bar."
+    },
+    {
+      "title": "DNG Export on Intel Macs",
+      "description": "Fixed DNG metadata export on older Intel Mac models."
+    }
+  ],
+  "patches": []
+}

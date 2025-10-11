@@ -1,0 +1,32 @@
+{
+  "version": "1.8.0",
+  "version_short": "1.8",
+  "url_slug": "1-8-ios",
+  "platform": "ios",
+  "release_date": "2025-09-15T10:00:00.000Z",
+  "title": "TXT File Export for Film Logs",
+  "summary": "Pro users can now export film roll logs as TXT files, perfect for printing field notes or creating quick reference sheets for darkroom work.",
+  "sections": [
+    {
+      "type": "paragraph",
+      "content": "Export your film roll metadata as plain text files. This format works well for printing compact reference sheets to keep in your camera bag or darkroom. Each TXT export includes all frame details, exposure settings, and notes in a clean, readable format that's easy to print or share with labs."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.8.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.8.0-1@2x.png",
+      "alt": "Frames analog photography app TXT export feature for printing film roll notes and metadata",
+      "width": "400",
+      "height": "300"
+    }
+  ],
+  "improvements": [
+    "Added TXT file export for Pro users",
+    "Optimized export formatting for printing and readability",
+    "Included comprehensive frame metadata in exports"
+  ],
+  "fixes": [],
+  "patches": [],
+  "meta_title": "TXT File Export for Film Logs · Frames",
+  "meta_description": "Pro users can now export film roll logs as TXT files, perfect for printing field notes or creating quick reference sheets for darkroom work."
+}

@@ -1,0 +1,151 @@
+{
+  "version": "1.0.0",
+  "version_short": "1.0",
+  "url_slug": "1-0-ios",
+  "platform": "ios",
+  "release_date": "2025-04-01T03:02:00.000Z",
+  "title": "Lancio di Frames: Il Tuo Taccuino per la Fotografia Analogica",
+  "summary": "Frames debutta come ricostruzione completa di Datafilm, portando un'app iOS raffinata per registrare i metadati della fotografia analogica sul campo, abbinata a una nuova app macOS per incorporare questi dati nelle tue immagini scansionate.",
+  "meta_title": "Lancio di Frames: Il Tuo Taccuino per la Fotografia Analogica · Frames",
+  "meta_description": "Registra metadati completi dei tuoi rullini con Frames per iOS. Traccia esposizione, fotocamera, obiettivo e pellicola sul campo, poi incorpora i dati nelle scansioni.",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Cattura e Organizza i Tuoi Rullini"
+    },
+    {
+      "type": "paragraph",
+      "content": "Frames è il tuo taccuino digitale per la fotografia analogica, progettato per tracciare le impostazioni di scatto e integrare perfettamente i metadati nelle immagini scansionate. Registra ogni dettaglio importante per ogni fotogramma: lunghezza focale, tempo di esposizione, compensazione dell'esposizione, apertura, impostazioni del flash, fotocamera, obiettivo, pellicola, data, ora e geolocalizzazione."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.0.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.0.0-1@2x.png",
+      "alt": "Interfaccia dell'app Frames per fotografia analogica per registrare metadati e dettagli dei rullini",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "list",
+      "items": [
+        {
+          "title": "Registrazione Completa dei Metadati",
+          "description": "Traccia numero fotogramma, lunghezza focale, tempo di esposizione, compensazione, apertura, flash, fotocamera, obiettivo, pellicola, data, ora e posizione."
+        },
+        {
+          "title": "Immagini di Riferimento",
+          "description": "Allega immagini di riferimento a ogni fotogramma per un contesto visivo rapido quando abbini le scansioni."
+        },
+        {
+          "title": "Vista Mappa Interattiva",
+          "description": "Visualizza i tuoi scatti su una mappa interattiva per ripercorrere dove è stato catturato ogni fotogramma."
+        },
+        {
+          "title": "Organizzazione in Cartelle",
+          "description": "Organizza la tua libreria di pellicole con cartelle e potenti strumenti di ricerca per trovare qualsiasi fotogramma all'istante."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Esporta e Sincronizza i Tuoi Dati"
+    },
+    {
+      "type": "paragraph",
+      "content": "L'app companion per macOS risolve la funzionalità più richiesta dalla community della fotografia analogica: reintegrare i metadati nelle immagini JPEG scansionate. Esporta i tuoi metadati come file JSON (.frames), condividi i dati tra dispositivi Apple e usa l'app macOS per incorporare dati EXIF che funzionano perfettamente con Lightroom, Capture One e Foto di Apple."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Ottimizzato per la Fotografia Analogica"
+    },
+    {
+      "type": "list",
+      "items": [
+        {
+          "title": "Controlli Adattivi",
+          "description": "I controlli si adattano alle caratteristiche della tua attrezzatura per una registrazione più rapida."
+        },
+        {
+          "title": "Compilazione Intelligente",
+          "description": "Il completamento automatico intelligente per obiettivo, fotocamera, pellicola e ISO fa risparmiare tempo sul campo."
+        },
+        {
+          "title": "Oltre 200 Pellicole",
+          "description": "Selezione precaricata di pellicole popolari dei principali produttori."
+        },
+        {
+          "title": "Design Nativo Apple",
+          "description": "Segue le Human Interface Guidelines di Apple per un'esperienza fluida e intuitiva."
+        },
+        {
+          "title": "Prestazioni Ottimizzate",
+          "description": "Funziona in modo fluido anche sui modelli iPhone più datati."
+        }
+      ]
+    }
+  ],
+  "improvements": [
+    "Ricostruzione completa da zero con architettura raffinata",
+    "Registra metadati completi dei fotogrammi: esposizione, fotocamera, obiettivo, pellicola, posizione",
+    "Timestamp automatico per ogni fotogramma",
+    "Allegato di immagini di riferimento per abbinare le scansioni",
+    "Organizzazione in cartelle per le librerie di rullini",
+    "Ricerca potente su tutti i fotogrammi registrati",
+    "Vista mappa interattiva che mostra le posizioni di scatto",
+    "Disponibile in 7 lingue",
+    "App companion per macOS per incorporare metadati EXIF",
+    "Piena compatibilità con Lightroom, Capture One e Foto di Apple",
+    "Design che privilegia la privacy senza account o dipendenza dal cloud",
+    "Interfaccia della barra degli strumenti migliorata",
+    "Supporto multilingue inclusi italiano, francese, tedesco, spagnolo, olandese, portoghese, polacco e svedese"
+  ],
+  "fixes": [
+    "Risolto: lo schermo si bloccava quando si aggiungeva una nuova fotocamera o obiettivo su alcuni dispositivi",
+    "Corretto l'URL di revisione dell'app"
+  ],
+  "patches": [
+    {
+      "version": "1.0.1",
+      "date": "2025-04-04",
+      "description": "Miglioramenti e correzioni minori"
+    },
+    {
+      "version": "1.0.2",
+      "date": "2025-04-13",
+      "description": "Correzioni minori e miglioramenti delle traduzioni"
+    },
+    {
+      "version": "1.0.3",
+      "date": "2025-04-15",
+      "description": "Localizzazione migliorata"
+    },
+    {
+      "version": "1.0.4",
+      "date": "2025-04-19",
+      "description": "Interfaccia migliorata e nuove lingue"
+    },
+    {
+      "version": "1.0.5",
+      "date": "2025-04-21",
+      "description": "Aggiunte nuove lingue"
+    },
+    {
+      "version": "1.0.6",
+      "date": "2025-04-23",
+      "description": "Risolto: lo schermo si bloccava quando si aggiungeva una nuova fotocamera o obiettivo"
+    },
+    {
+      "version": "1.0.7",
+      "date": "2025-04-28",
+      "description": "Corretto l'URL di revisione"
+    },
+    {
+      "version": "1.0.8",
+      "date": "2025-05-20",
+      "description": "Compatibilità con iOS 18.0 e successivi"
+    }
+  ]
+}

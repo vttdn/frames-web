@@ -1,0 +1,34 @@
+{
+  "version": "1.2.0",
+  "version_short": "1.2",
+  "url_slug": "1-2-ios",
+  "platform": "ios",
+  "release_date": "2025-07-17T10:00:00.000Z",
+  "title": "Réglages centralisés et organisation améliorée",
+  "summary": "Tous les réglages de l'application sont désormais unifiés dans une page Réglages centralisée. Gérez votre équipement, abonnement et préférences de barre d'outils depuis un seul emplacement avec les mêmes fonctionnalités désormais plus faciles d'accès et d'organisation.",
+  "meta_title": "Réglages centralisés et organisation améliorée · Frames",
+  "meta_description": "Gérez votre équipement, abonnement et préférences depuis une page Réglages unifiée pour un accès plus rapide et une meilleure organisation.",
+  "sections": [
+    {
+      "type": "paragraph",
+      "content": "Nous avons consolidé les réglages dispersés dans une page Réglages dédiée. La gestion de l'équipement, les détails d'abonnement et la personnalisation de l'interface sont tous accessibles depuis un seul menu. Cette réorganisation facilite la recherche de ce dont vous avez besoin sans fouiller dans différentes parties de l'application. Toutes les fonctionnalités existantes restent inchangées, simplement mieux organisées pour un accès plus rapide."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/{{ lang }}/changelog/frames-1.2.0-1.png",
+      "image_2x": "/lib/img/{{ lang }}/changelog/frames-1.2.0-1@2x.png",
+      "alt": "Application Frames montrant page paramètres centralisée pour équipement et préférences",
+      "width": "400",
+      "height": "300"
+    }
+  ],
+  "improvements": [
+    "Ajout d'une page Réglages centralisée pour toute la configuration de l'application",
+    "Gestion de l'équipement unifiée dans Réglages",
+    "Gestion de l'abonnement consolidée",
+    "Accès amélioré à la personnalisation de l'apparence de la barre d'outils",
+    "Raffinements mineurs à travers l'application"
+  ],
+  "fixes": [],
+  "patches": []
+}

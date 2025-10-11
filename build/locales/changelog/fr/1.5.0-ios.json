@@ -1,0 +1,55 @@
+{
+  "version": "1.5.0",
+  "version_short": "1.5",
+  "url_slug": "1-5-ios",
+  "platform": "ios",
+  "release_date": "2025-09-03T10:00:00.000Z",
+  "title": "Nouvelles pellicules, système d'ouverture repensé et changement d'objectif",
+  "summary": "Cette mise à jour élargit la bibliothèque de pellicules avec de nouvelles émulsions, repense complètement la gestion de l'ouverture avec des séquences de valeurs f personnalisées et ajoute la possibilité de changer d'objectif directement depuis l'enregistreur.",
+  "meta_title": "Nouvelles pellicules, système d'ouverture repensé et changement d'objectif · Frames",
+  "meta_description": "Bibliothèque élargie avec Harman Phoenix II, Lucky Color 200. Séquences d'ouverture personnalisées par objectif et changement d'objectif direct depuis l'enregistreur.",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Bibliothèque de pellicules élargie"
+    },
+    {
+      "type": "paragraph",
+      "content": "La liste de pellicules inclut désormais Harman Phoenix II, Lucky Color 200, Leica Monopan 50 et plusieurs autres émulsions populaires. Que vous photographiez avec des pellicules couleur expérimentales ou des pellicules noir et blanc classiques, Frames supporte une gamme plus large de types de pellicules pour un enregistrement plus précis."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/{{ lang }}/changelog/frames-1.5.0-1.png",
+      "image_2x": "/lib/img/{{ lang }}/changelog/frames-1.5.0-1@2x.png",
+      "alt": "Application Frames avec séquences ouverture personnalisées et bibliothèque pellicules étendue",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Gestion de l'ouverture repensée"
+    },
+    {
+      "type": "paragraph",
+      "content": "Le contrôle de l'ouverture a été entièrement reconstruit. Vous pouvez désormais définir des séquences de valeurs f personnalisées par objectif, affichant uniquement les ouvertures que votre objectif possède réellement. Le curseur de l'enregistreur est désormais correctement centré sur la valeur d'ouverture sélectionnée. Changez d'objectif directement depuis l'enregistreur sans interruption, et définissez la longueur focale via le bouton Plus pour les zooms ou les ajustements de contrôle de perspective."
+    }
+  ],
+  "improvements": [
+    "Bibliothèque de pellicules élargie avec Harman Phoenix II, Lucky Color 200, Leica Monopan 50 et plus",
+    "Système de gestion de l'ouverture entièrement repensé",
+    "Ajout de séquences de valeurs f personnalisées par objectif",
+    "Ajout du changement d'objectif directement depuis l'enregistreur",
+    "La longueur focale peut désormais être ajustée via le bouton Plus dans l'enregistreur",
+    "Cohérence de localisation améliorée",
+    "Améliorations mineures de performance partout"
+  ],
+  "fixes": [
+    {
+      "title": "Centrage du curseur d'ouverture",
+      "description": "Correction d'un problème où le curseur d'ouverture dans l'enregistreur n'était pas correctement centré sur la valeur sélectionnée."
+    }
+  ],
+  "patches": []
+}

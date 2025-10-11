@@ -1,0 +1,68 @@
+{
+  "version": "1.10.0",
+  "version_short": "1.10",
+  "url_slug": "1-10-ios",
+  "platform": "ios",
+  "release_date": "2025-09-23T10:00:00.000Z",
+  "title": "Major Performance & Stability Improvements",
+  "summary": "This release brings significant under-the-hood improvements that make Frames faster, more reliable, and better prepared for future features. Performance optimizations touch every part of the app, from frame recording to film roll management.",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Foundation for the Future"
+    },
+    {
+      "type": "paragraph",
+      "content": "We've rebuilt core parts of Frames to improve performance and stability. Frame editing feels more responsive, navigation flows more smoothly, and managing large collections of film rolls is more reliable. These architectural improvements also lay the groundwork for upcoming features while ensuring Frames remains fast and stable as your library grows."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.10.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.10.0-1@2x.png",
+      "alt": "Frames film photography app with improved performance and optimized frame recording speed",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Smoother Throughout"
+    },
+    {
+      "type": "paragraph",
+      "content": "You'll notice faster load times when opening film rolls and quicker responses when editing frame metadata. Transitions between screens feel more fluid, and the app maintains better performance even with extensive gear collections and hundreds of frames. The improvements are most noticeable when working with multiple film rolls or switching frequently between the recorder and library views."
+    }
+  ],
+  "improvements": [
+    "Significantly improved app performance and responsiveness",
+    "Faster frame editing and metadata updates",
+    "Enhanced navigation smoothness throughout the app",
+    "Better stability when managing large film roll collections",
+    "Optimized gear list performance with extensive camera and lens libraries",
+    "Improved memory management for sustained performance",
+    "Cleaner codebase architecture for future feature development"
+  ],
+  "fixes": [
+    {
+      "title": "Reference Image Saving",
+      "description": "Fixed an issue where reference images were not always saved correctly when attached to frames."
+    }
+  ],
+  "patches": [
+    {
+      "version": "1.10.1",
+      "description": "Faster frame recorder response and improved location management for more accurate logging."
+    },
+    {
+      "version": "1.10.2",
+      "description": "Improved export reliability with special character handling. Enhanced location and map view performance with faster exports."
+    },
+    {
+      "version": "1.10.3",
+      "description": "Various UI enhancements and visual refinements throughout the interface."
+    }
+  ],
+  "meta_title": "Major Performance & Stability Improvements · Frames",
+  "meta_description": "This release brings significant under-the-hood improvements that make Frames faster, more reliable, and better prepared for future features."
+}

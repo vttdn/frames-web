@@ -1,0 +1,33 @@
+{
+  "version": "1.3.0",
+  "version_short": "1.3",
+  "url_slug": "1-3-ios",
+  "platform": "ios",
+  "release_date": "2025-07-18T10:00:00.000Z",
+  "title": "GPX-Export & schnellere Dateigenerierung",
+  "summary": "Pro-Nutzer können Filme jetzt als GPX-Dateien für Standortverfolgung exportieren. Dieses Update bringt auch Leistungsverbesserungen für schnellere, zuverlässigere Dateiexporte in allen Formaten.",
+  "meta_title": "GPX-Export & schnellere Dateigenerierung · Frames",
+  "meta_description": "Exportiere Film-Standorte als GPX-Dateien für Karten-Apps. Deutlich schnellere Exportgenerierung und verbesserte Zuverlässigkeit für große Filme.",
+  "sections": [
+    {
+      "type": "paragraph",
+      "content": "Exportiere deine Filmstandorte als GPX-Dateien, um Aufnahmeorte in Karten-Apps zu visualisieren oder in Fotoverwaltungssoftware zu importieren. Jedes Bild mit Standortdaten wird zu einem Wegpunkt in der GPX-Spur. Die Export-Leistung wurde in allen Formaten verbessert, sodass .FRAMES-, TXT- und GPX-Dateien schneller generiert werden, auch für Filme mit vielen Bildern."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/{{ lang }}/changelog/frames-1.3.0-1.png",
+      "image_2x": "/lib/img/{{ lang }}/changelog/frames-1.3.0-1@2x.png",
+      "alt": "Frames Analogfotografie-App mit GPX-Standortexport und Dateigenerierungsfunktionen",
+      "width": "400",
+      "height": "300"
+    }
+  ],
+  "improvements": [
+    "GPX-Dateiexport für Pro-Nutzer hinzugefügt",
+    "Deutlich schnellere Exportgenerierung",
+    "Verbesserte Export-Zuverlässigkeit für große Filme",
+    "Optimierte Speichernutzung während Export-Operationen"
+  ],
+  "fixes": [],
+  "patches": []
+}

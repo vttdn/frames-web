@@ -1,0 +1,55 @@
+{
+  "version": "1.5.0",
+  "version_short": "1.5",
+  "url_slug": "1-5-ios",
+  "platform": "ios",
+  "release_date": "2025-09-03T10:00:00.000Z",
+  "title": "Nya filmtyper, omdesignat bländarsystem och objektivbyte",
+  "summary": "Denna uppdatering expanderar filmbiblioteket med nya emulsioner, omdesignar helt bländarhanteringen med anpassade bländarsekvenser och lägger till möjligheten att byta objektiv direkt från registreraren.",
+  "meta_title": "Nya filmtyper, omdesignat bländarsystem och objektivbyte · Frames",
+  "meta_description": "Expanderat filmbibliotek med Harman Phoenix II och Lucky Color 200. Anpassade bländarsekvenser per objektiv och objektivbyte direkt från registreraren för snabbare arbetsflöde.",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Expanderat filmbibliotek"
+    },
+    {
+      "type": "paragraph",
+      "content": "Filmlistan inkluderar nu Harman Phoenix II, Lucky Color 200, Leica Monopan 50 och flera andra populära emulsioner. Oavsett om du fotograferar experimentella färgfilmer eller klassiska svartvita rullar stöder Frames ett bredare utbud av filmtyper för mer exakt loggning."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/{{ lang }}/changelog/frames-1.5.0-1.png",
+      "image_2x": "/lib/img/{{ lang }}/changelog/frames-1.5.0-1@2x.png",
+      "alt": "Frames analogfotografiapp med anpassade bländarsekvenser och expanderat filmbibliotek",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Omdesignad bländarhantering"
+    },
+    {
+      "type": "paragraph",
+      "content": "Bländarkontrollen har byggts om helt. Du kan nu definiera anpassade bländarsekvenser per objektiv, och visa endast de bländarvärden som ditt objektiv faktiskt har. Registrerarens reglage är nu korrekt centrerat på det valda bländarvärdet. Byt objektiv direkt från registreraren utan att lämna ditt arbetsflöde, och ställ in brännvidd via knappen Mer för zoomobjektiv eller perspektivkorrigeringar."
+    }
+  ],
+  "improvements": [
+    "Expanderat filmbibliotek med Harman Phoenix II, Lucky Color 200, Leica Monopan 50 med flera",
+    "Helt omdesignat bländarhanteringssystem",
+    "Tillagt anpassade bländarsekvenser per objektiv",
+    "Tillagt objektivbyte direkt från registreraren",
+    "Brännvidd kan nu justeras via knappen Mer i registreraren",
+    "Förbättrad lokaliseringskonsistens",
+    "Mindre prestandaförbättringar genom hela appen"
+  ],
+  "fixes": [
+    {
+      "title": "Centrering av bländarreglage",
+      "description": "Fixade ett problem där bländarreglaget i registreraren inte centrerades korrekt på det valda värdet."
+    }
+  ],
+  "patches": []
+}

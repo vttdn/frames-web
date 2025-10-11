@@ -1,0 +1,72 @@
+{
+  "version": "1.4.0",
+  "version_short": "1.4",
+  "url_slug": "1-4-macos",
+  "platform": "macos",
+  "release_date": "2025-09-18T10:00:00.000Z",
+  "title": "Scorciatoie da Tastiera, Ispettore Nativo e Prestazioni",
+  "summary": "Interfaccia macOS migliorata con navigazione da tastiera, pannello ispettore nativo, design più pulito e prestazioni ottimizzate per reintegrazione metadati più veloce e reattiva.",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Navigazione da Tastiera e Controlli Nativi"
+    },
+    {
+      "type": "paragraph",
+      "content": "Naviga rapidamente tra i fotogrammi con i tasti freccia, elimina le foto allegate con Backspace e premi Invio per selezionare le foto. La barra laterale personalizzata è stata sostituita con un pannello ispettore nativo macOS per un'esperienza più raffinata e integrata nel sistema che segue il linguaggio di design di Apple."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-mac-1.4.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-mac-1.4.0-1@2x.png",
+      "alt": "App Frames per macOS con scorciatoie da tastiera e ispettore nativo per flusso di lavoro metadati pellicole",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Interfaccia Raffinata e Prestazioni"
+    },
+    {
+      "type": "paragraph",
+      "content": "Gli artefatti visivi sono stati rimossi in tutta l'interfaccia per un aspetto più pulito e professionale. L'architettura del codice è stata ottimizzata per una migliore reattività e stabilità dell'app, rendendo i flussi di lavoro di reintegrazione metadati più veloci e affidabili."
+    }
+  ],
+  "improvements": [
+    "Aggiunta navigazione da tastiera con tasti freccia per esplorare i fotogrammi",
+    "Aggiunta scorciatoia Backspace per eliminare foto allegate",
+    "Aggiunta scorciatoia Invio per selezionare foto",
+    "Sostituita barra laterale personalizzata con pannello ispettore nativo macOS",
+    "Rimossi artefatti visivi per interfaccia più pulita",
+    "Ottimizzata architettura del codice per prestazioni migliori",
+    "Migliorata reattività dell'app in generale",
+    "Maggiore stabilità complessiva"
+  ],
+  "fixes": [],
+  "patches": [
+    {
+      "version": "1.3.5",
+      "description": "Aggiornata icona app per macOS 26."
+    },
+    {
+      "version": "1.3.4",
+      "description": "La reintegrazione metadati per JPEG e TIFF ora preserva i dati esistenti. Vengono aggiunte solo le informazioni registrate da Frames."
+    },
+    {
+      "version": "1.3.3",
+      "description": "Aggiunta reintegrazione di apertura massima e minima nei metadati EXIF. Aggiunto supporto specifiche obiettivo."
+    },
+    {
+      "version": "1.3.2",
+      "description": "Piccole correzioni di bug e miglioramenti delle prestazioni."
+    },
+    {
+      "version": "1.3.1",
+      "description": "Aggiunto supporto per nuovi tempi di esposizione da iOS. L'app ora dà priorità alla sensibilità ISO personalizzata rispetto alla velocità della scatola predefinita."
+    }
+  ],
+  "meta_title": "Scorciatoie da Tastiera, Ispettore Nativo e Prestazioni · Frames",
+  "meta_description": "Interfaccia macOS migliorata con navigazione da tastiera, pannello ispettore nativo, design più pulito e prestazioni ottimizzate per reintegrazione metadati..."
+}

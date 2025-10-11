@@ -1,0 +1,47 @@
+{
+  "version": "1.11.0",
+  "version_short": "1.11",
+  "url_slug": "1-11-ios",
+  "platform": "ios",
+  "release_date": "2025-10-02T10:00:00.000Z",
+  "title": "Metadatos de modo de medición y mejoras de rendimiento",
+  "summary": "Frames ahora captura el modo de medición de tu cámara junto con los datos de exposición, dándote un registro más completo de cómo se midió cada disparo. Esta actualización también trae mejoras de rendimiento para una experiencia más rápida y estable en toda la aplicación.",
+  "meta_title": "Metadatos de modo de medición y mejoras de rendimiento · Frames",
+  "meta_description": "Registra el modo de medición de tu cámara junto a datos de exposición. Mejoras de rendimiento para navegación más rápida y gestión optimizada de rollos.",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Grabación de modo de medición"
+    },
+    {
+      "type": "paragraph",
+      "content": "Ahora puedes registrar qué modo de medición usó tu cámara para cada fotograma. Ya sea que estés disparando con medición ponderada al centro, puntual o evaluativa, Frames captura estos metadatos junto con tus ajustes de exposición existentes. Esto te ayuda a comprender cómo tu cámara midió la luz para cada disparo y refinar tu enfoque de exposición con el tiempo."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/{{ lang }}/changelog/frames-1.11.0-1.png",
+      "image_2x": "/lib/img/{{ lang }}/changelog/frames-1.11.0-1@2x.png",
+      "alt": "Aplicación de fotografía analógica Frames mostrando grabación de metadatos de modo de medición para análisis de exposición",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Mejoras de rendimiento"
+    },
+    {
+      "type": "paragraph",
+      "content": "Las mejoras bajo el capó hacen Frames más rápido y receptivo. La navegación entre rollos, la grabación de fotogramas y la edición de metadatos se benefician de un rendimiento optimizado. Estos refinamientos contribuyen a una experiencia más fluida al gestionar tu flujo de trabajo de fotografía analógica."
+    }
+  ],
+  "improvements": [
+    "Campo de metadatos de modo de medición añadido para documentación completa de exposición",
+    "Rendimiento de la aplicación mejorado para navegación y grabación de fotogramas más rápidas",
+    "Estabilidad mejorada al cambiar entre rollos y editar fotogramas",
+    "Uso de memoria optimizado para operación más fluida con grandes bibliotecas de película"
+  ],
+  "fixes": [],
+  "patches": []
+}

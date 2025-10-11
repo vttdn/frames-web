@@ -1,0 +1,52 @@
+{
+  "version": "1.9.0",
+  "version_short": "1.9",
+  "url_slug": "1-9-ios",
+  "platform": "ios",
+  "release_date": "2025-09-18T10:00:00.000Z",
+  "title": "Submappen, vegen om te verplaatsen en TXT-exportverbeteringen",
+  "meta_title": "Submappen, vegen om te verplaatsen en TXT-exportverbeteringen · Frames",
+  "meta_description": "Organiseer filmrollen met geneste submappen tot 5 niveaus diep en verplaats filmrollen moeiteloos met veeggebaren voor betere structuur.",
+  "summary": "Organiseer je filmbibliotheek met geneste submappen tot 5 niveaus diep. Deze update brengt ook eenvoudiger filmrolbeheer met veeggebaren en verbeterde TXT-exportopmaak voor betere documentatie.",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Geneste maporganisatie voor Pro-gebruikers"
+    },
+    {
+      "type": "paragraph",
+      "content": "Pro-gebruikers kunnen nu submappen aanmaken tot 5 niveaus diep, wat gedetailleerde organisatie van filmarchieven mogelijk maakt. Structureer je bibliotheek op jaar, project, filmtype of elke hiërarchie die bij je workflow past. Dit maakt het gemakkelijker om specifieke opnamen te vinden binnen uitgebreide filmcollecties en houdt gerelateerde rollen logisch gegroepeerd."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/{{ lang }}/changelog/frames-1.9.0-1.png",
+      "image_2x": "/lib/img/{{ lang }}/changelog/frames-1.9.0-1@2x.png",
+      "alt": "Frames filmfotografie-app met geneste maporganisatie voor filmrolarchieven",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Verbeterd filmrolbeheer"
+    },
+    {
+      "type": "paragraph",
+      "content": "Veeggebaren bevatten nu een Verplaats-knop, waardoor het sneller is om filmrollen en mappen te verplaatsen. We hebben ook een probleem verholpen waarbij TXT-exporten het jaar weglieten wanneer dit overeenkwam met het huidige jaar, wat volledige datuminformatie in alle exporten garandeert."
+    }
+  ],
+  "improvements": [
+    "Submapondersteuning tot 5 niveaus diep toegevoegd voor Pro-gebruikers",
+    "Veeggebaren bevatten nu Verplaats-knop voor filmrollen en mappen",
+    "Verbeterde mapnavigatie met broodkruimelondersteuning",
+    "Verbeterde lokalisatieconsistentie in meerdere talen"
+  ],
+  "fixes": [
+    {
+      "title": "TXT-export jaarweergave",
+      "description": "Probleem opgelost waarbij TXT-exporten het jaar weglieten wanneer dit overeenkwam met het huidige jaar. Het jaar wordt nu altijd opgenomen voor volledige datuminformatie."
+    }
+  ],
+  "patches": []
+}

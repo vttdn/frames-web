@@ -1,0 +1,151 @@
+{
+  "version": "1.0.0",
+  "version_short": "1.0",
+  "url_slug": "1-0-ios",
+  "platform": "ios",
+  "release_date": "2025-04-01T03:02:00.000Z",
+  "title": "Lançamento do Frames: Seu Caderno de Fotografia Analógica",
+  "meta_title": "Lançamento do Frames: Seu Caderno de Fotografia Analógica · Frames",
+  "meta_description": "Registre metadados completos de fotografia analógica em campo: exposição, câmera, lente, película, localização. Sincronize com macOS para incorporar EXIF.",
+  "summary": "O Frames chega como uma reconstrução completa do Datafilm, trazendo um aplicativo iOS refinado para registrar metadados de fotografia analógica em campo, combinado com um novo aplicativo macOS para incorporar esses dados em suas imagens digitalizadas.",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Capture e Organize Seus Filmes"
+    },
+    {
+      "type": "paragraph",
+      "content": "O Frames é seu caderno digital para fotografia analógica, projetado para registrar configurações de disparo e integrar perfeitamente metadados em imagens digitalizadas. Registre cada detalhe importante de cada fotograma: distância focal, velocidade do obturador, compensação de exposição, abertura, configurações de flash, câmera, lente, película, data, hora e geolocalização."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.0.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.0.0-1@2x.png",
+      "alt": "Interface do aplicativo Frames para fotografia analógica para registrar metadados e detalhes de filmes",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "list",
+      "items": [
+        {
+          "title": "Registro Completo de Metadados",
+          "description": "Registre número do fotograma, distância focal, velocidade do obturador, compensação de exposição, abertura, flash, câmera, lente, película, data, hora e localização."
+        },
+        {
+          "title": "Imagens de Referência",
+          "description": "Anexe imagens de referência a cada fotograma para contexto visual rápido ao combinar digitalizações."
+        },
+        {
+          "title": "Visualização de Mapa Interativo",
+          "description": "Visualize seus disparos em um mapa interativo para refazer o caminho de onde cada fotograma foi capturado."
+        },
+        {
+          "title": "Organização por Pastas",
+          "description": "Organize sua biblioteca de filmes com pastas e ferramentas de busca poderosas para encontrar qualquer fotograma instantaneamente."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Exporte e Sincronize Seus Dados"
+    },
+    {
+      "type": "paragraph",
+      "content": "O aplicativo complementar para macOS resolve o recurso mais solicitado pela comunidade de fotografia analógica: reintegrar metadados em imagens JPEG digitalizadas. Exporte seus metadados como arquivos JSON (.frames), compartilhe registros entre dispositivos Apple e use o aplicativo macOS para incorporar dados EXIF que funcionam perfeitamente com Lightroom, Capture One e Fotos da Apple."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Otimizado para Fotografia Analógica"
+    },
+    {
+      "type": "list",
+      "items": [
+        {
+          "title": "Controles Adaptativos",
+          "description": "Os controles se adaptam às características do seu equipamento para registro mais rápido."
+        },
+        {
+          "title": "Preenchimento Automático Inteligente",
+          "description": "Preenchimento automático inteligente para lente, câmera, película e ISO economiza tempo em campo."
+        },
+        {
+          "title": "Mais de 200 Películas",
+          "description": "Seleção pré-carregada de películas populares dos principais fabricantes."
+        },
+        {
+          "title": "Design Nativo Apple",
+          "description": "Segue as Diretrizes de Interface Humana da Apple para uma experiência suave e intuitiva."
+        },
+        {
+          "title": "Desempenho Otimizado",
+          "description": "Funciona perfeitamente mesmo em modelos iPhone mais antigos."
+        }
+      ]
+    }
+  ],
+  "improvements": [
+    "Reconstrução completa do zero com arquitetura refinada",
+    "Registre metadados completos de fotogramas: exposição, câmera, lente, película, localização",
+    "Registro automático de data e hora para cada fotograma",
+    "Anexo de imagem de referência para combinação de digitalização",
+    "Organização por pastas para bibliotecas de filmes",
+    "Busca poderosa em todos os fotogramas registrados",
+    "Visualização de mapa interativo mostrando locais de disparo",
+    "Disponível em 7 idiomas",
+    "Aplicativo complementar macOS para incorporação de metadados EXIF",
+    "Compatibilidade total com Lightroom, Capture One e Fotos da Apple",
+    "Design que prioriza a privacidade sem contas ou dependência de nuvem",
+    "Interface da barra de ferramentas melhorada",
+    "Suporte multilíngue incluindo português, francês, alemão, espanhol, italiano, neerlandês, polaco e sueco"
+  ],
+  "fixes": [
+    "Corrigido: ecrã congelava ao adicionar nova câmara ou lente em alguns dispositivos",
+    "Corrigido o URL de avaliação da aplicação"
+  ],
+  "patches": [
+    {
+      "version": "1.0.1",
+      "date": "2025-04-04",
+      "description": "Pequenas melhorias e correções"
+    },
+    {
+      "version": "1.0.2",
+      "date": "2025-04-13",
+      "description": "Pequenas correções e melhorias nas traduções"
+    },
+    {
+      "version": "1.0.3",
+      "date": "2025-04-15",
+      "description": "Localização melhorada"
+    },
+    {
+      "version": "1.0.4",
+      "date": "2025-04-19",
+      "description": "Interface melhorada e novos idiomas"
+    },
+    {
+      "version": "1.0.5",
+      "date": "2025-04-21",
+      "description": "Adicionados novos idiomas"
+    },
+    {
+      "version": "1.0.6",
+      "date": "2025-04-23",
+      "description": "Corrigido: ecrã congelava ao adicionar nova câmara ou lente"
+    },
+    {
+      "version": "1.0.7",
+      "date": "2025-04-28",
+      "description": "Corrigido o URL de avaliação"
+    },
+    {
+      "version": "1.0.8",
+      "date": "2025-05-20",
+      "description": "Compatibilidade com iOS 18.0 e posterior"
+    }
+  ]
+}

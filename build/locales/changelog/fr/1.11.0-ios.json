@@ -1,0 +1,47 @@
+{
+  "version": "1.11.0",
+  "version_short": "1.11",
+  "url_slug": "1-11-ios",
+  "platform": "ios",
+  "release_date": "2025-10-02T10:00:00.000Z",
+  "title": "Métadonnées du mode de mesure et améliorations de performance",
+  "summary": "Frames enregistre désormais le mode de mesure de votre appareil avec les données d'exposition, vous offrant un aperçu plus complet de la façon dont chaque prise de vue a été mesurée. Cette mise à jour apporte également des améliorations de performance pour une expérience plus rapide et stable dans toute l'application.",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Enregistrement du mode de mesure"
+    },
+    {
+      "type": "paragraph",
+      "content": "Vous pouvez désormais enregistrer le mode de mesure utilisé par votre appareil pour chaque vue. Que vous photographiez avec une mesure pondérée centrale, spot ou évaluative, Frames capture ces métadonnées aux côtés de vos réglages d'exposition existants. Cela vous aide à comprendre comment votre appareil a mesuré la lumière pour chaque prise et à affiner votre approche de l'exposition au fil du temps."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/{{ lang }}/changelog/frames-1.11.0-1.png",
+      "image_2x": "/lib/img/{{ lang }}/changelog/frames-1.11.0-1@2x.png",
+      "alt": "Application Frames montrant enregistrement mode mesure pour analyse exposition",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Améliorations de performance"
+    },
+    {
+      "type": "paragraph",
+      "content": "Des améliorations internes rendent Frames plus rapide et réactif. La navigation entre pellicules, l'enregistrement de vues et la modification de métadonnées bénéficient tous de performances optimisées. Ces ajustements contribuent à une expérience plus fluide lors de la gestion de votre processus photographique argentique."
+    }
+  ],
+  "improvements": [
+    "Ajout du champ de métadonnées du mode de mesure pour une documentation d'exposition complète",
+    "Amélioration des performances de l'application pour une navigation et un enregistrement de vues plus rapides",
+    "Stabilité accrue lors du basculement entre pellicules et de la modification de vues",
+    "Optimisation de l'utilisation de la mémoire pour un fonctionnement plus fluide avec de grandes bibliothèques de pellicules"
+  ],
+  "fixes": [],
+  "patches": [],
+  "meta_title": "Métadonnées du mode de mesure et améliorations de performance · Frames",
+  "meta_description": "Frames enregistre désormais le mode de mesure de votre appareil avec les données d'exposition, vous offrant un aperçu plus complet de la façon dont chaque..."
+}

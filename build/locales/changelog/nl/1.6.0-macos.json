@@ -1,0 +1,38 @@
+{
+  "version": "1.6.0",
+  "version_short": "1.6",
+  "url_slug": "1-6-macos",
+  "platform": "macos",
+  "release_date": "2025-10-01T10:00:00.000Z",
+  "title": "Belichtingsmeting-metadata en prestatieverbeteringen",
+  "summary": "Frames voor macOS bevat nu belichtingsmetingmodus metadata-ondersteuning voor uitgebreide EXIF-data, plus prestatieverbeteringen voor snellere, stabielere werking.",
+  "sections": [
+    {
+      "type": "paragraph",
+      "content": "Je kunt nu belichtingsmetingmodus-data van je filmlogs zien en reïntegreren in gescande beelden. Dit komt overeen met de iOS-update en zorgt voor volledige metadata-consistentie op beide platforms. Prestatie-upgrades door de hele app maken metadata-reïntegratie sneller en betrouwbaarder."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/{{ lang }}/changelog/frames-1.11.0-1.png",
+      "image_2x": "/lib/img/{{ lang }}/changelog/frames-1.11.0-1@2x.png",
+      "alt": "Frames macOS-app met belichtingsmetingmodus metadata-ondersteuning voor complete EXIF-data",
+      "width": "400",
+      "height": "300"
+    }
+  ],
+  "improvements": [
+    "Belichtingsmetingmodus metadata-ondersteuning toegevoegd",
+    "Prestatie-upgrades voor snellere beeldverwerking",
+    "Verbeterde app-stabiliteit overal",
+    "Verhoogde metadata-reïntegratiesnelheid"
+  ],
+  "fixes": [],
+  "patches": [
+    {
+      "version": "1.5.1",
+      "description": "Diverse UI-verbeteringen en visuele verfijningen."
+    }
+  ],
+  "meta_title": "Belichtingsmeting-metadata en prestatieverbeteringen · Frames",
+  "meta_description": "Frames voor macOS bevat nu belichtingsmetingmodus metadata-ondersteuning voor uitgebreide EXIF-data, plus prestatieverbeteringen voor snellere, stabielere..."
+}

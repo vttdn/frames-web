@@ -1,0 +1,68 @@
+{
+  "version": "1.10.0",
+  "version_short": "1.10",
+  "url_slug": "1-10-ios",
+  "platform": "ios",
+  "release_date": "2025-09-23T10:00:00.000Z",
+  "title": "Importanti Miglioramenti Prestazioni e Stabilità",
+  "summary": "Questo rilascio porta significativi miglioramenti sotto il cofano che rendono Frames più veloce, affidabile e meglio preparato per funzionalità future. Le ottimizzazioni prestazioni toccano ogni parte dell'app, dalla registrazione fotogrammi alla gestione rullini.",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Fondamenta per il Futuro"
+    },
+    {
+      "type": "paragraph",
+      "content": "Abbiamo ricostruito parti centrali di Frames per migliorare prestazioni e stabilità. La modifica fotogrammi si sente più reattiva, la navigazione scorre più fluidamente e la gestione di grandi collezioni di rullini è più affidabile. Questi miglioramenti architetturali gettano anche le basi per funzionalità in arrivo assicurando al contempo che Frames rimanga veloce e stabile man mano che la tua libreria cresce."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.10.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.10.0-1@2x.png",
+      "alt": "App Frames per fotografia analogica con prestazioni migliorate e velocità registrazione fotogrammi ottimizzata",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Più Fluido Ovunque"
+    },
+    {
+      "type": "paragraph",
+      "content": "Noterai tempi di caricamento più veloci quando apri rullini e risposte più rapide quando modifichi metadati fotogrammi. Le transizioni tra schermate si sentono più fluide e l'app mantiene prestazioni migliori anche con estese collezioni attrezzatura e centinaia di fotogrammi. I miglioramenti sono più evidenti quando si lavora con più rullini o si cambia frequentemente tra il registratore e le viste libreria."
+    }
+  ],
+  "improvements": [
+    "Prestazioni app e reattività significativamente migliorate",
+    "Modifica fotogrammi e aggiornamenti metadati più veloci",
+    "Fluidità navigazione migliorata in tutta l'app",
+    "Stabilità migliore quando si gestiscono grandi collezioni rullini",
+    "Prestazioni lista attrezzatura ottimizzate con estese librerie fotocamere e obiettivi",
+    "Gestione memoria migliorata per prestazioni sostenute",
+    "Architettura codice più pulita per sviluppo funzionalità future"
+  ],
+  "fixes": [
+    {
+      "title": "Salvataggio Immagini di Riferimento",
+      "description": "Corretto un problema in cui le immagini di riferimento non venivano sempre salvate correttamente quando allegate ai fotogrammi."
+    }
+  ],
+  "patches": [
+    {
+      "version": "1.10.1",
+      "description": "Risposta registratore fotogrammi più veloce e gestione posizione migliorata per registrazione più accurata."
+    },
+    {
+      "version": "1.10.2",
+      "description": "Affidabilità esportazione migliorata con gestione caratteri speciali. Prestazioni posizione e vista mappa migliorate con esportazioni più veloci."
+    },
+    {
+      "version": "1.10.3",
+      "description": "Vari miglioramenti interfaccia e perfezionamenti visivi in tutta l'interfaccia."
+    }
+  ],
+  "meta_title": "Importanti Miglioramenti Prestazioni e Stabilità · Frames",
+  "meta_description": "Questo rilascio porta significativi miglioramenti sotto il cofano che rendono Frames più veloce, affidabile e meglio preparato per funzionalità future."
+}

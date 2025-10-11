@@ -1,0 +1,68 @@
+{
+  "version": "1.10.0",
+  "version_short": "1.10",
+  "url_slug": "1-10-ios",
+  "platform": "ios",
+  "release_date": "2025-09-23T10:00:00.000Z",
+  "title": "Główne usprawnienia wydajności i stabilności",
+  "summary": "To wydanie przynosi znaczące usprawnienia wewnętrzne, które sprawiają, że Frames jest szybszy, bardziej niezawodny i lepiej przygotowany na przyszłe funkcje. Optymalizacje wydajności dotykają każdą część aplikacji, od rejestrowania klatek po zarządzanie filmami.",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Fundament pod przyszłość"
+    },
+    {
+      "type": "paragraph",
+      "content": "Przebudowaliśmy podstawowe części Frames, aby poprawić wydajność i stabilność. Edycja klatek jest bardziej responsywna, nawigacja płynie płynniej, a zarządzanie dużymi kolekcjami filmów jest bardziej niezawodne. Te architektoniczne usprawnienia również stanowią fundament dla nadchodzących funkcji, zapewniając jednocześnie, że Frames pozostaje szybki i stabilny wraz z rozrastaniem się Twojej biblioteki."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.10.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.10.0-1@2x.png",
+      "alt": "Aplikacja Frames do fotografii kliszowej z poprawioną wydajnością i zoptymalizowaną szybkością rejestracji klatek",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Płynniej w całości"
+    },
+    {
+      "type": "paragraph",
+      "content": "Zauważysz szybsze czasy ładowania przy otwieraniu filmów i szybsze odpowiedzi podczas edycji metadanych klatek. Przejścia między ekranami są bardziej płynne, a aplikacja utrzymuje lepszą wydajność nawet z rozległymi kolekcjami sprzętu i setkami klatek. Usprawnienia są najbardziej zauważalne podczas pracy z wieloma filmami lub częstego przełączania między rejestratorem a widokami biblioteki."
+    }
+  ],
+  "improvements": [
+    "Znacząco poprawiona wydajność i responsywność aplikacji",
+    "Szybsza edycja klatek i aktualizacje metadanych",
+    "Zwiększona płynność nawigacji w całej aplikacji",
+    "Lepsza stabilność podczas zarządzania dużymi kolekcjami filmów",
+    "Zoptymalizowana wydajność listy sprzętu z rozległymi bibliotekami aparatów i obiektywów",
+    "Ulepszone zarządzanie pamięcią dla trwałej wydajności",
+    "Czystsza architektura kodu dla przyszłego rozwoju funkcji"
+  ],
+  "fixes": [
+    {
+      "title": "Zapisywanie zdjęć referencyjnych",
+      "description": "Naprawiono problem, w którym zdjęcia referencyjne nie zawsze były prawidłowo zapisywane przy dołączaniu do klatek."
+    }
+  ],
+  "patches": [
+    {
+      "version": "1.10.1",
+      "description": "Szybsza reakcja rejestratora klatek i ulepszone zarządzanie lokalizacją dla dokładniejszego rejestrowania."
+    },
+    {
+      "version": "1.10.2",
+      "description": "Poprawiona niezawodność eksportu z obsługą znaków specjalnych. Zwiększona wydajność lokalizacji i widoku mapy z szybszymi eksportami."
+    },
+    {
+      "version": "1.10.3",
+      "description": "Różne ulepszenia UI i dopracowania wizualne w całym interfejsie."
+    }
+  ],
+  "meta_title": "Główne usprawnienia wydajności i stabilności · Frames",
+  "meta_description": "To wydanie przynosi znaczące usprawnienia wewnętrzne, które sprawiają, że Frames jest szybszy, bardziej niezawodny i lepiej przygotowany na przyszłe funkcje."
+}

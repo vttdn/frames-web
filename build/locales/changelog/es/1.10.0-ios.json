@@ -1,0 +1,68 @@
+{
+  "version": "1.10.0",
+  "version_short": "1.10",
+  "url_slug": "1-10-ios",
+  "platform": "ios",
+  "release_date": "2025-09-23T10:00:00.000Z",
+  "title": "Grandes mejoras de rendimiento y estabilidad",
+  "summary": "Esta versión trae mejoras significativas bajo el capó que hacen Frames más rápido, fiable y mejor preparado para funciones futuras. Las optimizaciones de rendimiento tocan cada parte de la aplicación, desde la grabación de fotogramas hasta la gestión de rollos.",
+  "meta_title": "Grandes mejoras de rendimiento y estabilidad · Frames",
+  "meta_description": "Optimizaciones significativas hacen Frames más rápido y fiable. Edición de fotogramas más receptiva y mejor estabilidad para grandes colecciones.",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Fundamento para el futuro"
+    },
+    {
+      "type": "paragraph",
+      "content": "Hemos reconstruido partes fundamentales de Frames para mejorar el rendimiento y la estabilidad. La edición de fotogramas se siente más receptiva, la navegación fluye más suavemente y la gestión de grandes colecciones de rollos es más fiable. Estas mejoras arquitectónicas también sientan las bases para próximas funciones mientras aseguran que Frames permanezca rápido y estable a medida que tu biblioteca crece."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.10.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.10.0-1@2x.png",
+      "alt": "Aplicación de fotografía analógica Frames con rendimiento mejorado y velocidad optimizada de grabación de fotogramas",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Más fluido en general"
+    },
+    {
+      "type": "paragraph",
+      "content": "Notarás tiempos de carga más rápidos al abrir rollos y respuestas más rápidas al editar metadatos de fotograma. Las transiciones entre pantallas se sienten más fluidas y la aplicación mantiene mejor rendimiento incluso con extensas colecciones de equipo y cientos de fotogramas. Las mejoras son más notables al trabajar con múltiples rollos o al cambiar frecuentemente entre las vistas de grabadora y biblioteca."
+    }
+  ],
+  "improvements": [
+    "Rendimiento y capacidad de respuesta de la aplicación significativamente mejorados",
+    "Edición de fotogramas y actualizaciones de metadatos más rápidas",
+    "Suavidad de navegación mejorada en toda la aplicación",
+    "Mejor estabilidad al gestionar grandes colecciones de rollos",
+    "Rendimiento de lista de equipo optimizado con extensas bibliotecas de cámaras y objetivos",
+    "Gestión de memoria mejorada para rendimiento sostenido",
+    "Arquitectura de código más limpia para desarrollo de funciones futuras"
+  ],
+  "fixes": [
+    {
+      "title": "Guardado de imagen de referencia",
+      "description": "Corregido un problema donde las imágenes de referencia no siempre se guardaban correctamente al adjuntarlas a fotogramas."
+    }
+  ],
+  "patches": [
+    {
+      "version": "1.10.1",
+      "description": "Respuesta de grabadora de fotogramas más rápida y gestión de ubicación mejorada para registro más preciso."
+    },
+    {
+      "version": "1.10.2",
+      "description": "Fiabilidad de exportación mejorada con manejo de caracteres especiales. Rendimiento de vista de mapa y ubicación mejorado con exportaciones más rápidas."
+    },
+    {
+      "version": "1.10.3",
+      "description": "Varias mejoras de UI y refinamientos visuales en toda la interfaz."
+    }
+  ]
+}

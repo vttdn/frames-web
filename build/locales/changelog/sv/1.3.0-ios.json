@@ -1,0 +1,33 @@
+{
+  "version": "1.3.0",
+  "version_short": "1.3",
+  "url_slug": "1-3-ios",
+  "platform": "ios",
+  "release_date": "2025-07-18T10:00:00.000Z",
+  "title": "GPX-export och snabbare filgenerering",
+  "summary": "Pro-användare kan nu exportera filmrullar som GPX-filer för platsspårning. Denna uppdatering tar också med sig prestandaförbättringar för snabbare och mer pålitlig filexport i alla format.",
+  "meta_title": "GPX-export och snabbare filgenerering · Frames",
+  "meta_description": "Exportera filmrullar som GPX-filer för kartvisualisering. Snabbare filgenerering i alla format och förbättrad exportpålitlighet för stora filmrullar i Frames Pro.",
+  "sections": [
+    {
+      "type": "paragraph",
+      "content": "Exportera dina filmrullsplatser som GPX-filer för att visualisera fotograferingsplatser i kartapplikationer eller importera i fotohanterings­program. Varje bild med platsdata blir en vägpunkt i GPX-spåret. Filexportprestanda har förbättrats i alla format, vilket gör det snabbare att generera .FRAMES-, TXT- och GPX-filer även för filmrullar med många bilder."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/{{ lang }}/changelog/frames-1.3.0-1.png",
+      "image_2x": "/lib/img/{{ lang }}/changelog/frames-1.3.0-1@2x.png",
+      "alt": "Frames analogfotografiapp med GPX-platsexport och filgenereringsfunktioner",
+      "width": "400",
+      "height": "300"
+    }
+  ],
+  "improvements": [
+    "Tillagt GPX-filexport för Pro-användare",
+    "Betydligt snabbare filexportgenerering",
+    "Förbättrad exportpålitlighet för stora filmrullar",
+    "Optimerad minnesanvändning under exportoperationer"
+  ],
+  "fixes": [],
+  "patches": []
+}

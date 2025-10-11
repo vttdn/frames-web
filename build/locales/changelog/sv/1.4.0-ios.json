@@ -1,0 +1,43 @@
+{
+  "version": "1.4.0",
+  "version_short": "1.4",
+  "url_slug": "1-4-ios",
+  "platform": "ios",
+  "release_date": "2025-08-20T10:00:00.000Z",
+  "title": "Stöd för filterloggning",
+  "summary": "Dokumentera ditt kompletta analoga arbetsflöde genom att logga filter tillsammans med din kamera, objektiv och film. Nu kan du registrera UV-, ND-, CPL- och andra filter som används för varje bild.",
+  "meta_title": "Stöd för filterloggning · Frames",
+  "meta_description": "Logga UV-, ND- och CPL-filter i dina filmfotografier. Komplett dokumentation av analog utrustning med filterdata inkluderad i exporter och Mac-synkronisering.",
+  "sections": [
+    {
+      "type": "paragraph",
+      "content": "Filter är nu en del av ditt filmloggningsarbetsflöde. Registrera vilka filter du använde för varje bild, inklusive UV, ND, CPL med flera. Detta kompletterar din analoga dokumentation genom att fånga varje element som påverkar din slutliga bild, från kamerahuset och objektivet till filmtypen och filtren. Filterdata inkluderas i alla exporter och synkroniseras med Mac-appen för omfattande registrering."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/{{ lang }}/changelog/frames-1.4.0-1.png",
+      "image_2x": "/lib/img/{{ lang }}/changelog/frames-1.4.0-1@2x.png",
+      "alt": "Frames filmfotografiapp med stöd för filterloggning av UV-, ND- och CPL-filter",
+      "width": "400",
+      "height": "300"
+    }
+  ],
+  "improvements": [
+    "Tillagt stöd för filterloggning (UV, ND, CPL med flera)",
+    "Filter inkluderas i alla exportformat",
+    "Filterdata synkroniseras med Mac-appen",
+    "Mindre prestandaförbättringar",
+    "Allmänna stabilitetsförbättringar"
+  ],
+  "fixes": [],
+  "patches": [
+    {
+      "version": "1.4.1",
+      "description": "Fixade ett problem där redigering av en film i en undermapp flyttade den tillbaka till rotmappen."
+    },
+    {
+      "version": "1.4.2",
+      "description": "Förfinade översättningar för Mac-appkonsistens. Fixade visning av land i platssökning. Tillade standardvärden för slutartid och bländare när filmrullar skapas."
+    }
+  ]
+}

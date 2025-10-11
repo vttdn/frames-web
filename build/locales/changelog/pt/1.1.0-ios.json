@@ -1,0 +1,108 @@
+{
+  "version": "1.1.0",
+  "version_short": "1.1",
+  "url_slug": "1-1-ios",
+  "platform": "ios",
+  "release_date": "2025-06-03T05:52:00.000Z",
+  "title": "Apresentamos o Frames Pro",
+  "meta_title": "Apresentamos o Frames Pro · Frames",
+  "meta_description": "Atualize para o Frames Pro para rolos ilimitados e recursos avançados. A versão gratuita mantém acesso completo a 10 rolos.",
+  "summary": "O Frames Pro chegou, oferecendo rolos ilimitados e acesso a recursos avançados. Utilizadores gratuitos podem continuar a usar o Frames com até 10 rolos, enquanto o Pro desbloqueia todo o potencial do seu fluxo de trabalho fotográfico analógico.",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Registo ilimitado para o seu arquivo"
+    },
+    {
+      "type": "paragraph",
+      "content": "Com o Frames Pro, pode criar rolos ilimitados para documentar toda a sua coleção fotográfica analógica sem restrições. Quer esteja a arquivar centenas de rolos acumulados ao longo dos anos ou a gerir ativamente dezenas de projetos em curso, o Frames Pro adapta-se às suas necessidades. Os utilizadores gratuitos mantêm acesso completo a todas as funcionalidades principais com um limite de 10 rolos, tornando o Frames acessível a todos e apoiando quem quer ir mais longe no seu registo."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.1.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.1.0-1@2x.png",
+      "alt": "Frames Pro subscription offering unlimited film rolls for analog photography logging",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "paragraph",
+      "content": "Esta versão também inclui otimizações de desempenho em toda a aplicação, elementos de design refinados para maior clareza e estabilidade melhorada ao gerir bibliotecas extensas. O novo ícone e ecrã inicial refletem a evolução do Frames como ferramenta profissional para fotógrafos analógicos."
+    },
+    {
+      "type": "list",
+      "items": [
+        {
+          "title": "Subscrição Frames Pro",
+          "description": "Desbloqueie rolos ilimitados e acesso antecipado a recursos avançados."
+        },
+        {
+          "title": "Versão gratuita mantida",
+          "description": "Continue a usar todas as funcionalidades principais com até 10 rolos gratuitamente."
+        },
+        {
+          "title": "Melhorias de desempenho",
+          "description": "Maior capacidade de resposta e estabilidade em toda a aplicação."
+        },
+        {
+          "title": "Design refinado",
+          "description": "Novo ícone, ecrã inicial e elementos de interface para uma experiência polida."
+        },
+        {
+          "title": "Correção de exportação",
+          "description": "Resolvido problema que impedia a regeneração de ficheiros de exportação após alterações."
+        }
+      ]
+    }
+  ],
+  "improvements": [
+    "Lançamento da subscrição Frames Pro com rolos ilimitados",
+    "Desempenho geral e capacidade de resposta melhorados",
+    "Design de interface refinado",
+    "Novo ícone da app com identidade visual renovada",
+    "Ecrã inicial redesenhado para uma melhor primeira impressão",
+    "Uso de memória otimizado para bibliotecas extensas",
+    "Estabilidade melhorada ao adicionar câmaras e objetivas"
+  ],
+  "fixes": [
+    "Corrigido erro que impedia a regeneração de ficheiros de exportação após alterações"
+  ],
+  "patches": [
+    {
+      "version": "1.1.1",
+      "date": "2025-06-11",
+      "description": "Ajuste menor ao ícone da app"
+    },
+    {
+      "version": "1.1.2",
+      "date": "2025-06-15",
+      "description": "Melhorias menores de desempenho"
+    },
+    {
+      "version": "1.1.3",
+      "date": "2025-06-17",
+      "description": "Novo ícone da app"
+    },
+    {
+      "version": "1.1.4",
+      "date": "2025-06-18",
+      "description": "Ícone da app redesenhado"
+    },
+    {
+      "version": "1.1.5",
+      "date": "2025-06-20",
+      "description": "Ecrã inicial atualizado"
+    },
+    {
+      "version": "1.1.6",
+      "date": "2025-06-20",
+      "description": "Corrigido um erro que impedia a regeneração correta do ficheiro de exportação após alterações"
+    },
+    {
+      "version": "1.1.7",
+      "date": "2025-07-12",
+      "description": "Estabilidade melhorada ao adicionar equipamento no iOS 26 Beta"
+    }
+  ]
+}

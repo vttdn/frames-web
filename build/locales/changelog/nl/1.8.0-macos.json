@@ -1,0 +1,35 @@
+{
+  "version": "1.8.0",
+  "version_short": "1.8",
+  "url_slug": "1-8-macos",
+  "platform": "macos",
+  "release_date": "2025-10-03T10:00:00.000Z",
+  "title": "Hebreeuws, Arabisch, Roemeens en Oekraïens taalondersteuning",
+  "summary": "Frames voor macOS breidt taalondersteuning verder uit met Hebreeuws, Arabisch, Roemeens en Oekraïens, samen met interface-verfijningen voor een soepelere metadata-reïntegratieworkflow.",
+  "sections": [
+    {
+      "type": "paragraph",
+      "content": "Deze update brengt native ondersteuning voor Hebreeuws en Arabisch met volledige rechts-naar-links interface-aanpassing, plus Roemeense en Oekraïense vertalingen. Alle taalspecifieke terminologie voor filmsoorten, camera-instellingen en EXIF-metadata is zorgvuldig gelokaliseerd om consistentie met de iOS-app te garanderen."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.13.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.13.0-1@2x.png",
+      "alt": "Frames macOS-app met Hebreeuwse en Arabische RTL-interface en taalondersteuning",
+      "width": "400",
+      "height": "300"
+    }
+  ],
+  "improvements": [
+    "Hebreeuwse (עברית) lokalisatie toegevoegd met rechts-naar-links interface-ondersteuning",
+    "Arabische (العربية) lokalisatie toegevoegd met RTL lay-out aanpassing",
+    "Roemeense (Română) vertaling toegevoegd",
+    "Oekraïense (Українська) ondersteuning toegevoegd",
+    "Interface-verfijningen voor soepelere gebruikerservaring",
+    "Verbeterde consistentie in alle ondersteunde talen"
+  ],
+  "fixes": [],
+  "patches": [],
+  "meta_title": "Hebreeuws, Arabisch, Roemeens en Oekraïens taalondersteuning · Frames",
+  "meta_description": "Frames voor macOS breidt taalondersteuning verder uit met Hebreeuws, Arabisch, Roemeens en Oekraïens, samen met interface-verfijningen voor een soepelere..."
+}

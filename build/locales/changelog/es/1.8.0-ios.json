@@ -1,0 +1,32 @@
+{
+  "version": "1.8.0",
+  "version_short": "1.8",
+  "url_slug": "1-8-ios",
+  "platform": "ios",
+  "release_date": "2025-09-15T10:00:00.000Z",
+  "title": "Exportación de archivo TXT para registros de película",
+  "summary": "Los usuarios Pro ahora pueden exportar registros de rollos como archivos TXT, perfectos para imprimir notas de campo o crear hojas de referencia rápidas para trabajo de cuarto oscuro.",
+  "meta_title": "Exportación de archivo TXT para registros de película · Frames",
+  "meta_description": "Exporta metadatos de rollos como archivos TXT para imprimir. Formato perfecto para notas de campo y hojas de referencia de cuarto oscuro con todos los detalles.",
+  "sections": [
+    {
+      "type": "paragraph",
+      "content": "Exporta los metadatos de tus rollos como archivos de texto plano. Este formato funciona bien para imprimir hojas de referencia compactas para guardar en tu bolsa de cámara o cuarto oscuro. Cada exportación TXT incluye todos los detalles de fotograma, ajustes de exposición y notas en un formato limpio y legible que es fácil de imprimir o compartir con laboratorios."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.8.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.8.0-1@2x.png",
+      "alt": "Función de exportación TXT de aplicación de fotografía analógica Frames para imprimir notas de rollo y metadatos",
+      "width": "400",
+      "height": "300"
+    }
+  ],
+  "improvements": [
+    "Exportación de archivo TXT añadida para usuarios Pro",
+    "Formato de exportación optimizado para impresión y legibilidad",
+    "Metadatos completos de fotograma incluidos en exportaciones"
+  ],
+  "fixes": [],
+  "patches": []
+}

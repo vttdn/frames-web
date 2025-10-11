@@ -1,0 +1,43 @@
+{
+  "version": "1.4.0",
+  "version_short": "1.4",
+  "url_slug": "1-4-ios",
+  "platform": "ios",
+  "release_date": "2025-08-20T10:00:00.000Z",
+  "title": "Ondersteuning voor filterregistratie",
+  "meta_title": "Ondersteuning voor filterregistratie · Frames",
+  "meta_description": "Leg UV-, ND-, CPL- en andere filters vast per frame voor complete analoge workflow-documentatie met synchronisatie naar de Mac-app.",
+  "summary": "Documenteer je complete analoge workflow door filters vast te leggen naast je camera, lens en film. Nu kun je UV-, ND-, CPL- en andere filters registreren die zijn gebruikt voor elke opname.",
+  "sections": [
+    {
+      "type": "paragraph",
+      "content": "Filters maken nu deel uit van je filmregistratie-workflow. Leg vast welke filters je hebt gebruikt voor elk frame, inclusief UV, ND, CPL en meer. Dit voltooit je analoge documentatie door elk element vast te leggen dat je eindbeeld beïnvloedt, van de camerabody en lens tot de filmsoort en filters. Filterdata is opgenomen in alle exporten en synchroniseert met de Mac-app voor uitgebreide registratie."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/{{ lang }}/changelog/frames-1.4.0-1.png",
+      "image_2x": "/lib/img/{{ lang }}/changelog/frames-1.4.0-1@2x.png",
+      "alt": "Frames filmfotografie-app met filterregistratie voor UV-, ND- en CPL-filters",
+      "width": "400",
+      "height": "300"
+    }
+  ],
+  "improvements": [
+    "Ondersteuning voor filterregistratie toegevoegd (UV, ND, CPL en meer)",
+    "Filters opgenomen in alle exportformaten",
+    "Filterdata synchroniseert met Mac-app",
+    "Kleine prestatieverbeteringen",
+    "Algemene stabiliteitsverbeteringen"
+  ],
+  "fixes": [],
+  "patches": [
+    {
+      "version": "1.4.1",
+      "description": "Probleem opgelost waarbij het bewerken van een film in een submap deze terugplaatste naar de hoofdmap."
+    },
+    {
+      "version": "1.4.2",
+      "description": "Verfijnde vertalingen voor Mac-app consistentie. Locatiezoek-landweergave gerepareerd. Standaard sluitertijd en diafragmawaarden toegevoegd bij het aanmaken van filmrollen."
+    }
+  ]
+}

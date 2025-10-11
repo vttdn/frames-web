@@ -1,0 +1,34 @@
+{
+  "version": "1.2.0",
+  "version_short": "1.2",
+  "url_slug": "1-2-ios",
+  "platform": "ios",
+  "release_date": "2025-07-17T10:00:00.000Z",
+  "title": "Ajustes centralizados y organización mejorada",
+  "summary": "Todos los ajustes de la aplicación están ahora unificados en una página de Ajustes centralizada. Gestiona tu equipo, suscripción y preferencias de la barra de herramientas desde una única ubicación, con las mismas funciones ahora más fáciles de acceder y organizar.",
+  "meta_title": "Ajustes centralizados y organización mejorada · Frames",
+  "meta_description": "Nueva página de Ajustes centralizada unifica la gestión de equipo, suscripción y preferencias para un acceso más rápido y mejor organización.",
+  "sections": [
+    {
+      "type": "paragraph",
+      "content": "Hemos consolidado los ajustes dispersos en una página dedicada de Ajustes. La gestión de equipo, detalles de suscripción y personalización de la interfaz son todos accesibles desde un solo menú. Esta reorganización facilita encontrar lo que necesitas sin buscar en diferentes partes de la aplicación. Toda la funcionalidad existente permanece sin cambios, solo mejor organizada para un acceso más rápido."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/{{ lang }}/changelog/frames-1.2.0-1.png",
+      "image_2x": "/lib/img/{{ lang }}/changelog/frames-1.2.0-1@2x.png",
+      "alt": "Aplicación de fotografía analógica Frames mostrando página de ajustes centralizada para equipo y preferencias",
+      "width": "400",
+      "height": "300"
+    }
+  ],
+  "improvements": [
+    "Página de Ajustes centralizada añadida para toda la configuración de la aplicación",
+    "Gestión de equipo unificada en Ajustes",
+    "Gestión de suscripción consolidada",
+    "Acceso mejorado a personalización de apariencia de la barra de herramientas",
+    "Mejoras menores en toda la aplicación"
+  ],
+  "fixes": [],
+  "patches": []
+}

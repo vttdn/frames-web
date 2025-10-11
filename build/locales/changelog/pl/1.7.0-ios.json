@@ -1,0 +1,65 @@
+{
+  "version": "1.7.0",
+  "version_short": "1.7",
+  "url_slug": "1-7-ios",
+  "platform": "ios",
+  "release_date": "2025-09-10T10:00:00.000Z",
+  "title": "Pełna obsługa dostępności i usprawnienia rejestrowania",
+  "meta_title": "Pełna obsługa dostępności i usprawnienia rejestrowania · Frames",
+  "meta_description": "Obsługa funkcji dostępności Apple: większy tekst, tryb ciemny, lepszy kontrast. Usprawnienia przepływu pracy i automatyczne wypełnianie przysłon.",
+  "summary": "Ta aktualizacja przynosi kompleksową obsługę funkcji dostępności Apple wraz z ulepszeniami przepływu pracy rejestrowania i obsługi metadanych, czyniąc Frames bardziej dostępnym i wydajnym dla wszystkich fotografów kliszowych.",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Funkcje dostępności Apple"
+    },
+    {
+      "type": "paragraph",
+      "content": "Frames obsługuje teraz kluczowe funkcje dostępności Apple, w tym Większy tekst, Ciemny interfejs, Różnicowanie bez użycia samego koloru, Wystarczający kontrast i Zmniejszony ruch. Te funkcje zapewniają, że aplikacja jest użyteczna dla fotografów o różnych potrzebach wzrokowych i preferencjach, zachowując pełną funkcjonalność niezależnie od ustawień dostępności."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.7.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.7.0-1@2x.png",
+      "alt": "Interfejs aplikacji Frames do fotografii kliszowej z funkcjami dostępności i obsługą dużego tekstu",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Usprawnienia przepływu pracy i metadanych"
+    },
+    {
+      "type": "paragraph",
+      "content": "Aplikacja przechodzi teraz bezpośrednio do nowo utworzonego filmu, usprawniając Twój przepływ pracy. Etykiety w całej aplikacji zostały udoskonalone dla lepszej czytelności. Niestandardowe sekwencje teraz automatycznie wypełniają wartości min/max przysłony, co jest szczególnie przydatne przy reintegracji metadanych na Mac. Naprawiliśmy również problemy z ruchem w rejestratorze podczas przechwytywania ujęć z otwartym suwakiem i poprawiliśmy problemy inicjalizacji wartości w pełnym widoku rejestratora."
+    }
+  ],
+  "improvements": [
+    "Dodano obsługę funkcji dostępności Apple Większy tekst",
+    "Dodano obsługę wyglądu Ciemny interfejs",
+    "Dodano obsługę Różnicowanie bez użycia samego koloru",
+    "Dodano obsługę Wystarczający kontrast",
+    "Dodano obsługę Zmniejszony ruch",
+    "Przejście bezpośrednio do nowych filmów po utworzeniu dla szybszego przepływu pracy",
+    "Poprawiona klarowność etykiet w całej aplikacji",
+    "Automatyczne wypełnianie min/max przysłony przy użyciu niestandardowych sekwencji"
+  ],
+  "fixes": [
+    {
+      "title": "Problem ruchu rejestratora",
+      "description": "Naprawiono problem ruchu w rejestratorze, gdy ujęcie jest przechwytywane z otwartym suwakiem."
+    },
+    {
+      "title": "Inicjalizacja wartości rejestratora",
+      "description": "Naprawiono problem z nieprawidłową inicjalizacją wartości przy otwieraniu rejestratora w pełnym widoku."
+    }
+  ],
+  "patches": [
+    {
+      "version": "1.7.1",
+      "description": "Naprawiono wyświetlanie obiektywu pokazujące zbędne informacje o przysłonie na listach wyboru. Naprawiono możliwość edycji klatek, gdy edycja była wyłączona."
+    }
+  ]
+}

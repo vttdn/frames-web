@@ -1,0 +1,52 @@
+{
+  "version": "1.9.0",
+  "version_short": "1.9",
+  "url_slug": "1-9-ios",
+  "platform": "ios",
+  "release_date": "2025-09-18T10:00:00.000Z",
+  "title": "Undermappar, svep för att flytta och TXT-exportförbättringar",
+  "summary": "Organisera ditt filmbibliotek med nästlade undermappar upp till 5 nivåer djupt. Denna uppdatering ger även enklare filmrullshantering med svepgester och förbättrad TXT-exportformatering för bättre dokumentation.",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Nästlad mapporganisation för Pro-användare"
+    },
+    {
+      "type": "paragraph",
+      "content": "Pro-användare kan nu skapa undermappar upp till 5 nivåer djupt, vilket möjliggör detaljerad organisation av filmarkiv. Strukturera ditt bibliotek efter år, projekt, filmtyp eller vilken hierarki som passar ditt arbetsflöde. Detta gör det enklare att lokalisera specifika fotograferingar inom omfattande filmsamlingar och håller relaterade rullar logiskt grupperade tillsammans."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/{{ lang }}/changelog/frames-1.9.0-1.png",
+      "image_2x": "/lib/img/{{ lang }}/changelog/frames-1.9.0-1@2x.png",
+      "alt": "Frames filmfotografiapp med nästlad mapporganisation för filmrullsarkiv",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Förbättrad filmrullshantering"
+    },
+    {
+      "type": "paragraph",
+      "content": "Svepgester inkluderar nu en Flytta-knapp, vilket gör det snabbare att flytta filmrullar och mappar. Vi har även fixat ett problem där TXT-exporter utelämnade året när det matchade nuvarande år, vilket säkerställer komplett datuminformation i alla exporter."
+    }
+  ],
+  "improvements": [
+    "Tillagt stöd för undermappar upp till 5 nivåer djupt för Pro-användare",
+    "Svepgester inkluderar nu Flytta-knapp för filmrullar och mappar",
+    "Förbättrad mappnavigation med stöd för brödsmulor",
+    "Förbättrad lokaliseringskonsistens för flera språk"
+  ],
+  "fixes": [
+    {
+      "title": "Årsvisning i TXT-export",
+      "description": "Fixade ett problem där TXT-exporter utelämnade året när det matchade nuvarande år. Året inkluderas nu alltid för komplett datuminformation."
+    }
+  ],
+  "patches": [],
+  "meta_title": "Undermappar, svep för att flytta och TXT-exportförbättringar · Frames",
+  "meta_description": "Organisera ditt filmbibliotek med nästlade undermappar upp till 5 nivåer djupt."
+}

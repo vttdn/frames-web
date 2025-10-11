@@ -1,0 +1,108 @@
+{
+  "version": "1.1.0",
+  "version_short": "1.1",
+  "url_slug": "1-1-ios",
+  "platform": "ios",
+  "release_date": "2025-06-03T05:52:00.000Z",
+  "title": "Frames Pro ist da",
+  "meta_title": "Frames Pro ist da · Frames",
+  "meta_description": "Upgrade auf Frames Pro für unbegrenzte Filmrollen und erweiterte Features. Die kostenlose Version bietet weiterhin vollen Zugriff auf 10 Rollen.",
+  "summary": "Frames Pro ist verfügbar und bietet unbegrenzte Filmrollen sowie Zugang zu erweiterten Features. Kostenlose Nutzer können Frames weiterhin mit bis zu 10 Rollen nutzen, während Pro das volle Potenzial deines analogen Workflows freischaltet.",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Unbegrenzte Filmerfassung für dein Archiv"
+    },
+    {
+      "type": "paragraph",
+      "content": "Mit Frames Pro kannst du unbegrenzt Filmrollen anlegen und deine gesamte analoge Fotosammlung ohne Einschränkungen dokumentieren. Ob du hunderte Filme aus Jahren des Fotografierens archivierst oder aktiv an dutzenden laufenden Projekten arbeitest – Frames Pro wächst mit deinen Anforderungen. Kostenlose Nutzer behalten vollen Zugriff auf alle Kernfunktionen mit einem Limit von 10 Rollen, wodurch Frames für alle zugänglich bleibt und gleichzeitig diejenigen unterstützt, die mehr aus ihrer Filmerfassung herausholen möchten."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.1.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.1.0-1@2x.png",
+      "alt": "Frames Pro Abo mit unbegrenzten Filmrollen für analoge Fotoarchivierung",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "paragraph",
+      "content": "Dieses Update bringt außerdem Performance-Optimierungen in der gesamten App, verfeinerte Designelemente für mehr Klarheit und erhöhte Stabilität bei größeren Filmsammlungen. Das neue App-Icon und der Startbildschirm spiegeln die Entwicklung von Frames als professionelles Werkzeug für Analogfotografen wider."
+    },
+    {
+      "type": "list",
+      "items": [
+        {
+          "title": "Frames Pro Abo",
+          "description": "Unbegrenzte Filmrollen und Early Access zu erweiterten Features bei deren Veröffentlichung."
+        },
+        {
+          "title": "Kostenversion erhalten",
+          "description": "Weiterhin alle Kernfunktionen mit bis zu 10 Filmrollen kostenfrei nutzen."
+        },
+        {
+          "title": "Performance-Verbesserungen",
+          "description": "Erhöhte Reaktionsgeschwindigkeit und Stabilität in der gesamten App."
+        },
+        {
+          "title": "Verfeinertes Design",
+          "description": "Neues App-Icon, Startbildschirm und Interface-Elemente für ein ausgefeiltes Erlebnis."
+        },
+        {
+          "title": "Export-Fehler behoben",
+          "description": "Problem gelöst, bei dem Exportdateien nach Änderungen nicht korrekt neu generiert wurden."
+        }
+      ]
+    }
+  ],
+  "improvements": [
+    "Einführung des Frames Pro Abos mit unbegrenzten Filmrollen",
+    "Verbesserte Gesamtleistung und Reaktionsgeschwindigkeit",
+    "Verfeinertes Benutzeroberflächen-Design",
+    "Neues App-Icon mit überarbeiteter visueller Identität",
+    "Neu gestalteter Startbildschirm für besseren ersten Eindruck",
+    "Optimierte Speichernutzung für größere Filmsammlungen",
+    "Erhöhte Stabilität beim Hinzufügen von Kameras und Objektiven"
+  ],
+  "fixes": [
+    "Fehler behoben, der die Neugenerierung von Exportdateien nach Änderungen verhinderte"
+  ],
+  "patches": [
+    {
+      "version": "1.1.1",
+      "date": "2025-06-11",
+      "description": "Kleinere Anpassung des App-Icons"
+    },
+    {
+      "version": "1.1.2",
+      "date": "2025-06-15",
+      "description": "Kleinere Leistungsverbesserungen"
+    },
+    {
+      "version": "1.1.3",
+      "date": "2025-06-17",
+      "description": "Neues App-Icon"
+    },
+    {
+      "version": "1.1.4",
+      "date": "2025-06-18",
+      "description": "Überarbeitetes App-Icon"
+    },
+    {
+      "version": "1.1.5",
+      "date": "2025-06-20",
+      "description": "Aktualisierter Startbildschirm"
+    },
+    {
+      "version": "1.1.6",
+      "date": "2025-06-20",
+      "description": "Fehler behoben, der verhinderte, dass die Exportdatei nach Änderungen korrekt neu generiert wurde"
+    },
+    {
+      "version": "1.1.7",
+      "date": "2025-07-12",
+      "description": "Verbesserte Stabilität beim Hinzufügen von Ausrüstung unter iOS 26 Beta"
+    }
+  ]
+}

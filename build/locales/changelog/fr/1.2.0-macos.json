@@ -1,0 +1,48 @@
+{
+  "version": "1.2.0",
+  "version_short": "1.2",
+  "url_slug": "1-2-macos",
+  "platform": "macos",
+  "release_date": "2025-08-24T10:00:00.000Z",
+  "title": "Support des filtres, langues japonaise et coréenne",
+  "summary": "Les filtres apparaissent désormais dans la barre latérale et sont automatiquement ajoutés aux métadonnées lors de l'enregistrement des vues. Cette mise à jour apporte également le support des langues japonaise et coréenne, plus des corrections de bugs importantes.",
+  "meta_title": "Support des filtres, langues japonaise et coréenne · Frames",
+  "meta_description": "Les filtres s'intègrent automatiquement dans vos métadonnées EXIF. Support étendu au japonais et coréen avec corrections importantes pour un flux de travail optimisé.",
+  "sections": [
+    {
+      "type": "paragraph",
+      "content": "Les filtres enregistrés sur iOS s'affichent désormais dans la barre latérale macOS et sont automatiquement intégrés dans les métadonnées EXIF lors de la réintégration. Cela complète votre documentation argentique en incluant les filtres UV, ND, CPL et autres dans vos images finales. Les numéros de série d'appareil sont désormais inclus dans les métadonnées, et nous avons corrigé un bug où les valeurs de flash étaient inversées. Frames est désormais disponible en japonais et coréen, correspondant à l'expansion linguistique iOS."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-mac-1.2.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-mac-1.2.0-1@2x.png",
+      "alt": "Application Frames macOS montrant barre latérale métadonnées filtres pour documentation photo",
+      "width": "400",
+      "height": "300"
+    }
+  ],
+  "improvements": [
+    "Ajout de l'affichage des filtres dans la barre latérale",
+    "Filtres automatiquement ajoutés aux métadonnées lors de l'enregistrement des vues",
+    "Numéro de série d'appareil désormais inclus dans les métadonnées EXIF",
+    "Ajout du support de la langue japonaise",
+    "Ajout du support de la langue coréenne"
+  ],
+  "fixes": [
+    {
+      "title": "Inversion de la valeur de flash",
+      "description": "Correction d'un problème où la valeur de flash était inversée (affichant 'Oui' alors qu'elle aurait dû être 'Non')."
+    }
+  ],
+  "patches": [
+    {
+      "version": "1.2.2",
+      "description": "Localisation améliorée pour les nouvelles langues."
+    },
+    {
+      "version": "1.2.1",
+      "description": "Traductions améliorées pour la cohérence avec l'application iOS, plus améliorations mineures de l'interface."
+    }
+  ]
+}

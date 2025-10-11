@@ -1,0 +1,77 @@
+{
+  "version": "1.13.0",
+  "version_short": "1.13",
+  "url_slug": "1-13-ios",
+  "platform": "ios",
+  "release_date": "2025-10-06T10:00:00.000Z",
+  "title": "Hebräisch, Arabisch, Rumänisch & Ukrainisch Sprachunterstützung",
+  "summary": "Frames setzt seine Mission fort, Analogfotografen weltweit zu dienen mit diesem bedeutenden Lokalisierungs-Update, das native Unterstützung für Hebräisch-, Arabisch-, Rumänisch- und Ukrainisch-Sprecher bringt, zusammen mit verfeinerten Übersetzungen und Interface-Verbesserungen in der gesamten App.",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Vier neue Sprachen mit Rechts-nach-Links-Unterstützung"
+    },
+    {
+      "type": "paragraph",
+      "content": "Frames unterstützt jetzt Hebräisch, Arabisch, Rumänisch und Ukrainisch, jede sorgfältig lokalisiert, um kulturelle Nuancen und Fotografie-Terminologie zu respektieren. Hebräisch und Arabisch beinhalten vollständige Rechts-nach-Links-Interface-Anpassung. Navigationsflüsse, Button-Platzierung und Textausrichtung spiegeln sich alle angemessen, während technische Begriffe wie Filmtyp-Codes und Blendenwerte in ihrem internationalen Standardformat erhalten bleiben."
+    },
+    {
+      "type": "list",
+      "items": [
+        {
+          "title": "Hebräisch (עברית) & Arabisch (العربية)",
+          "description": "Vollständiges RTL-Interface mit nativer Terminologie für Filmtypen, Kameraeinstellungen und EXIF-Metadaten."
+        },
+        {
+          "title": "Rumänisch (Română) & Ukrainisch (Українська)",
+          "description": "Vollständige Übersetzungen, die Fotografen unterstützen, ihre Arbeit in ihrer Muttersprache zu dokumentieren."
+        }
+      ]
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.13.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.13.0-1@2x.png",
+      "alt": "Frames Filmfotografie-App mit Hebräisch und Arabisch RTL-Interface und Sprachunterstützung",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Übersetzungsverfeinerungen über alle Sprachen"
+    },
+    {
+      "type": "paragraph",
+      "content": "Über neue Sprachen hinaus haben wir bestehende Übersetzungen in der gesamten App basierend auf Fotografen-Feedback verfeinert. Filmtyp-Namen bleiben in ihrer Originalsprache (Kodak Portra, Ilford HP5), während sich Interface-Elemente an deine gewählte Sprache anpassen. Sprachpräferenzen synchronisieren sich über Geräte hinweg und alle bestehenden Daten werden automatisch in deiner ausgewählten Sprache angezeigt, ohne erneute Eingabe oder Migration."
+    }
+  ],
+  "improvements": [
+    "Vollständige Hebräisch (עברית) Lokalisierung mit Rechts-nach-Links-Interface-Unterstützung hinzugefügt",
+    "Vollständige Arabisch (العربية) Lokalisierung mit RTL-Layout-Anpassung hinzugefügt",
+    "Rumänische (Română) Übersetzung für die Filmfotografie-Community hinzugefügt",
+    "Ukrainische (Українська) Unterstützung mit nativer Terminologie hinzugefügt",
+    "Bestehende Übersetzungen über alle unterstützten Sprachen für verbesserte Klarheit und Konsistenz verfeinert",
+    "Verbesserte technische Terminologie-Genauigkeit in fotografiespezifischen Feldern",
+    "Erweiterte bidirektionale Textunterstützung für gemischten lateinischen und RTL-Inhalt"
+  ],
+  "fixes": [
+    {
+      "title": "Textüberlauf in Übersetzungen",
+      "description": "Layout-Probleme behoben, bei denen längere übersetzte Phrasen in bestimmten Interface-Elementen abgeschnitten werden konnten."
+    },
+    {
+      "title": "RTL-Layout-Konsistenz",
+      "description": "Kleinere Ausrichtungsprobleme in Rechts-nach-Links-Sprachen behoben, um korrektes Spiegeln über alle Bildschirme sicherzustellen."
+    }
+  ],
+  "patches": [
+    {
+      "version": "1.13.1",
+      "description": "Fehler behoben, der dazu führen konnte, dass das Teilen-Menü beim Exportieren wiederholt flackert"
+    }
+  ],
+  "meta_title": "Hebräisch, Arabisch, Rumänisch & Ukrainisch Sprachunterstützung · Frames",
+  "meta_description": "Frames setzt seine Mission fort, Analogfotografen weltweit zu dienen mit diesem bedeutenden Lokalisierungs-Update, das native Unterstützung für Hebräisch-,..."
+}

@@ -10,7 +10,7 @@
 @use 'reviews';
 @use 'features';
 @use 'pricing';
-@use 'qa';
+@use 'details';
 @use 'footer';
 @use 'dropdown';
 @use 'carousel';
@@ -18,3 +18,4 @@
 @use 'video-overlay';
 @use 'mobile-menu';
 @use 'toggle';
+@use 'tooltip';

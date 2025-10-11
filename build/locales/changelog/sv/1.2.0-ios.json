@@ -1,0 +1,34 @@
+{
+  "version": "1.2.0",
+  "version_short": "1.2",
+  "url_slug": "1-2-ios",
+  "platform": "ios",
+  "release_date": "2025-07-17T10:00:00.000Z",
+  "title": "Centraliserade inställningar och förbättrad organisation",
+  "summary": "Alla appinställningar är nu samlade på en centraliserad inställningssida. Hantera din utrustning, prenumeration och verktygsfältsinställningar från en enda plats med samma funktioner som nu är enklare att komma åt och organisera.",
+  "meta_title": "Centraliserade inställningar och förbättrad organisation · Frames",
+  "meta_description": "Ny centraliserad inställningssida för Frames. Hantera utrustning, prenumeration och gränssnitt från en plats. Förenklad åtkomst och bättre organisation för filmfotografer.",
+  "sections": [
+    {
+      "type": "paragraph",
+      "content": "Vi har samlat spridda inställningar på en dedikerad inställningssida. Utrustningshantering, prenumerationsdetaljer och gränssnittsanpassning är alla tillgängliga från en enda meny. Denna omorganisation gör det enklare att hitta vad du behöver utan att leta genom olika delar av appen. All befintlig funktionalitet förblir oförändrad, bara bättre organiserad för snabbare åtkomst."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/{{ lang }}/changelog/frames-1.2.0-1.png",
+      "image_2x": "/lib/img/{{ lang }}/changelog/frames-1.2.0-1@2x.png",
+      "alt": "Frames filmfotografiapp med centraliserad inställningssida för utrustning och appinställningar",
+      "width": "400",
+      "height": "300"
+    }
+  ],
+  "improvements": [
+    "Tillagt centraliserad inställningssida för all appkonfiguration",
+    "Enhetlig utrustningshantering i inställningar",
+    "Konsoliderad prenumerationshantering",
+    "Förbättrad åtkomst till verktygsfältets utseendeanpassning",
+    "Mindre förbättringar genom hela appen"
+  ],
+  "fixes": [],
+  "patches": []
+}

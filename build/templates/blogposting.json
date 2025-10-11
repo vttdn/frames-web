@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "@id": "{{ canonical_url }}",
+  "url": "{{ canonical_url }}",
+  "headline": "{{ entry.title }}",
+  "name": "{% if entry.meta_title %}{{ entry.meta_title }}{% else %}{{ entry.title }} · Frames{% endif %}",
+  "description": "{% if entry.meta_description %}{{ entry.meta_description }}{% else %}{{ entry.summary }}{% endif %}",
+  "datePublished": "{{ entry.release_date }}",
+  "dateModified": "{{ build_date }}",
+  "inLanguage": "{{ lang }}",
+  "author": {
+    "@type": "Person",
+    "name": "Vincent Tantardini"
+  },
+  "publisher": {
+    "@id": "https://withframes.com/#organization"
+  }{% if first_image %},
+  "image": {
+    "@type": "ImageObject",
+    "url": "https://withframes.com{{ first_image }}",
+    "width": "{{ image_width }}",
+    "height": "{{ image_height }}"
+  }{% endif %}
+}

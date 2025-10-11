@@ -1,0 +1,77 @@
+{
+  "version": "1.13.0",
+  "version_short": "1.13",
+  "url_slug": "1-13-ios",
+  "platform": "ios",
+  "release_date": "2025-10-06T10:00:00.000Z",
+  "title": "Suporte aos Idiomas Hebraico, Árabe, Romeno e Ucraniano",
+  "summary": "O Frames continua sua missão de servir fotógrafos analógicos em todo o mundo com esta significativa atualização de localização, trazendo suporte nativo para falantes de hebraico, árabe, romeno e ucraniano, junto com traduções refinadas e melhorias de interface em todo o aplicativo.",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Quatro Novos Idiomas com Suporte da Direita para Esquerda"
+    },
+    {
+      "type": "paragraph",
+      "content": "O Frames agora suporta hebraico, árabe, romeno e ucraniano, cada um cuidadosamente localizado para respeitar nuances culturais e terminologia fotográfica. Hebraico e árabe incluem adaptação completa de interface da direita para a esquerda. Fluxos de navegação, posicionamento de botões e alinhamento de texto todos espelham apropriadamente, preservando termos técnicos como códigos de filmes e valores de abertura em seu formato internacional padrão."
+    },
+    {
+      "type": "list",
+      "items": [
+        {
+          "title": "Hebraico (עברית) e Árabe (العربية)",
+          "description": "Interface RTL completa com terminologia nativa para filmes, configurações de câmera e metadados EXIF."
+        },
+        {
+          "title": "Romeno (Română) e Ucraniano (Українська)",
+          "description": "Traduções completas para fotógrafos documentarem seu trabalho em seu idioma nativo."
+        }
+      ]
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.13.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.13.0-1@2x.png",
+      "alt": "Aplicativo de fotografia analógica Frames com interface RTL em hebraico e árabe e suporte a idiomas",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Refinamentos de Tradução em Todos os Idiomas"
+    },
+    {
+      "type": "paragraph",
+      "content": "Além dos novos idiomas, refinamos traduções existentes em todo o aplicativo com base no feedback de fotógrafos. Nomes de filmes permanecem em seu idioma original (Kodak Portra, Ilford HP5), enquanto elementos de interface se adaptam ao seu idioma escolhido. Preferências de idioma sincronizam entre dispositivos, e todos os dados existentes são exibidos automaticamente no seu idioma selecionado sem reinserção ou migração."
+    }
+  ],
+  "improvements": [
+    "Adicionada localização completa em hebraico (עברית) com suporte de interface da direita para a esquerda",
+    "Adicionada localização completa em árabe (العربية) com adaptação de layout RTL",
+    "Adicionada tradução em romeno (Română) para a comunidade de fotografia analógica",
+    "Adicionado suporte para ucraniano (Українська) com terminologia nativa",
+    "Refinadas traduções existentes em todos os idiomas suportados para maior clareza e consistência",
+    "Precisão aprimorada da terminologia técnica em campos específicos de fotografia",
+    "Suporte aprimorado a texto bidirecional para conteúdo misto latino e RTL"
+  ],
+  "fixes": [
+    {
+      "title": "Estouro de Texto em Traduções",
+      "description": "Resolvidos problemas de layout onde frases traduzidas mais longas poderiam ser truncadas em certos elementos de interface."
+    },
+    {
+      "title": "Consistência de Layout RTL",
+      "description": "Corrigidos pequenos problemas de alinhamento em idiomas da direita para a esquerda para garantir espelhamento adequado em todas as telas."
+    }
+  ],
+  "patches": [
+    {
+      "version": "1.13.1",
+      "description": "Corrigido um erro que poderia fazer o menu de compartilhamento piscar repetidamente ao exportar"
+    }
+  ],
+  "meta_title": "Suporte aos Idiomas Hebraico, Árabe, Romeno e Ucraniano · Frames",
+  "meta_description": "O Frames continua sua missão de servir fotógrafos analógicos em todo o mundo com esta significativa atualização de localização, trazendo suporte nativo para..."
+}

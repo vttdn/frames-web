@@ -1,0 +1,150 @@
+{
+  "version": "1.0.0",
+  "version_short": "1.0",
+  "url_slug": "1-0-ios",
+  "platform": "ios",
+  "release_date": "2025-04-01T03:02:00.000Z",
+  "title": "Lancement de Frames : votre carnet de photographie argentique",
+  "summary": "Frames se lance comme une reconstruction complète de Datafilm, apportant une application iOS raffinée pour enregistrer les métadonnées de photographie argentique sur le terrain, associée à une nouvelle application macOS pour intégrer ces données dans vos images numérisées.",
+  "meta_title": "Lancement de Frames : votre carnet de photographie argentique · Frames",
+  "meta_description": "Découvrez Frames, l'application iOS pour enregistrer vos métadonnées de photographie argentique et les intégrer dans vos images numérisées avec l'app macOS.",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Capturez et organisez vos pellicules"
+    },
+    {
+      "type": "paragraph",
+      "content": "Frames est votre carnet numérique pour la photographie argentique, conçu pour suivre les réglages de prise de vue et intégrer de manière transparente les métadonnées dans les images numérisées. Enregistrez chaque détail important pour chaque vue : longueur focale, vitesse d'obturation, compensation d'exposition, ouverture, réglages de flash, appareil, objectif, pellicule, date, heure et géolocalisation."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.0.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.0.0-1@2x.png",
+      "alt": "Interface de l'application Frames pour enregistrer métadonnées et détails de pellicules photo argentique",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "list",
+      "items": [
+        {
+          "title": "Enregistrement complet de métadonnées",
+          "description": "Suivez le numéro de vue, la longueur focale, la vitesse d'obturation, la compensation d'exposition, l'ouverture, les réglages de flash, l'appareil, l'objectif, la pellicule, la date, l'heure et la localisation."
+        },
+        {
+          "title": "Images de référence",
+          "description": "Attachez des images de référence à chaque vue pour un contexte visuel rapide lors de l'association avec les numérisations."
+        },
+        {
+          "title": "Vue carte interactive",
+          "description": "Visualisez vos prises de vue argentiques sur une carte interactive pour retracer où chaque vue a été capturée."
+        },
+        {
+          "title": "Organisation par dossiers",
+          "description": "Organisez votre bibliothèque de pellicules avec des dossiers et des outils de recherche puissants pour trouver n'importe quelle vue instantanément."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Exportez et synchronisez vos données"
+    },
+    {
+      "type": "paragraph",
+      "content": "L'application macOS compagnon résout la fonctionnalité la plus demandée par la communauté de photographie argentique : réintégrer les métadonnées dans les images JPEG numérisées. Exportez vos métadonnées sous forme de fichiers JSON (.frames), partagez les enregistrements entre appareils Apple et utilisez l'application macOS pour intégrer des données EXIF qui fonctionnent de manière transparente avec Lightroom, Capture One et Apple Photos."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Optimisé pour la photographie argentique"
+    },
+    {
+      "type": "list",
+      "items": [
+        {
+          "title": "Contrôles adaptatifs",
+          "description": "Les contrôles s'adaptent aux caractéristiques de votre équipement pour un enregistrement plus rapide."
+        },
+        {
+          "title": "Remplissage automatique intelligent",
+          "description": "Le remplissage automatique intelligent pour l'objectif, l'appareil, la pellicule et l'ISO économise du temps sur le terrain."
+        },
+        {
+          "title": "Plus de 200 pellicules",
+          "description": "Sélection préchargée de pellicules populaires des principaux fabricants."
+        },
+        {
+          "title": "Design Apple natif",
+          "description": "Suit les directives d'interface humaine d'Apple pour une expérience fluide et intuitive."
+        },
+        {
+          "title": "Performance optimisée",
+          "description": "Fonctionne de manière fluide même sur les anciens modèles d'iPhone."
+        }
+      ]
+    }
+  ],
+  "improvements": [
+    "Reconstruction complète de zéro avec architecture raffinée",
+    "Enregistrement de métadonnées de vues complètes : exposition, appareil, objectif, pellicule, localisation",
+    "Horodatage automatique pour chaque vue",
+    "Attachement d'image de référence pour l'association avec les numérisations",
+    "Organisation par dossiers pour les bibliothèques de pellicules",
+    "Recherche puissante à travers toutes les vues enregistrées",
+    "Vue carte interactive montrant les lieux de prise de vue",
+    "Application macOS compagnon pour l'intégration de métadonnées EXIF",
+    "Compatibilité complète avec Lightroom, Capture One et Apple Photos",
+    "Design axé sur la confidentialité sans comptes ni dépendance au cloud",
+    "Interface de barre d'outils repensée",
+    "Support multilingue incluant le français, l'allemand, l'espagnol, l'italien, le néerlandais, le portugais, le polonais et le suédois"
+  ],
+  "fixes": [
+    "Résolution d'un bug provoquant le gel de l'écran lors de l'ajout d'un appareil ou objectif sur certains appareils",
+    "Correction de l'URL de révision de l'application"
+  ],
+  "patches": [
+    {
+      "version": "1.0.1",
+      "date": "2025-04-04",
+      "description": "Améliorations et corrections mineures"
+    },
+    {
+      "version": "1.0.2",
+      "date": "2025-04-13",
+      "description": "Corrections mineures et améliorations des traductions"
+    },
+    {
+      "version": "1.0.3",
+      "date": "2025-04-15",
+      "description": "Amélioration des traductions"
+    },
+    {
+      "version": "1.0.4",
+      "date": "2025-04-19",
+      "description": "Interface de barre d'outils améliorée et nouvelles langues"
+    },
+    {
+      "version": "1.0.5",
+      "date": "2025-04-21",
+      "description": "Ajout de nouvelles langues"
+    },
+    {
+      "version": "1.0.6",
+      "date": "2025-04-23",
+      "description": "Résolution d'un bug provoquant le gel de l'écran lors de l'ajout d'un appareil ou objectif"
+    },
+    {
+      "version": "1.0.7",
+      "date": "2025-04-28",
+      "description": "Correction de l'URL de révision"
+    },
+    {
+      "version": "1.0.8",
+      "date": "2025-05-20",
+      "description": "Compatibilité avec iOS 18.0 et ultérieur"
+    }
+  ]
+}

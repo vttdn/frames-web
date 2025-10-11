@@ -1,0 +1,34 @@
+{
+  "version": "1.2.0",
+  "version_short": "1.2",
+  "url_slug": "1-2-ios",
+  "platform": "ios",
+  "release_date": "2025-07-17T10:00:00.000Z",
+  "title": "Configurações Centralizadas e Organização Aprimorada",
+  "meta_title": "Configurações Centralizadas e Organização Aprimorada · Frames",
+  "meta_description": "Gerencie equipamento, assinatura e preferências em uma única página de configurações. Organização simplificada para acesso mais rápido aos recursos.",
+  "summary": "Todas as configurações do aplicativo agora estão unificadas em uma única página de Configurações. Gerencie seu equipamento, assinatura e preferências da barra de ferramentas em um único local, com os mesmos recursos agora mais fáceis de acessar e organizar.",
+  "sections": [
+    {
+      "type": "paragraph",
+      "content": "Consolidamos as configurações dispersas em uma página de Configurações dedicada. Gerenciamento de equipamentos, detalhes de assinatura e personalização da interface estão todos acessíveis a partir de um único menu. Essa reorganização facilita encontrar o que você precisa sem procurar em diferentes partes do aplicativo. Toda a funcionalidade existente permanece inalterada, apenas melhor organizada para acesso mais rápido."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/{{ lang }}/changelog/frames-1.2.0-1.png",
+      "image_2x": "/lib/img/{{ lang }}/changelog/frames-1.2.0-1@2x.png",
+      "alt": "Aplicativo de fotografia analógica Frames mostrando página centralizada de configurações",
+      "width": "400",
+      "height": "300"
+    }
+  ],
+  "improvements": [
+    "Adicionada página de Configurações centralizada para toda a configuração do aplicativo",
+    "Gerenciamento de equipamentos unificado em Configurações",
+    "Gerenciamento de assinatura consolidado",
+    "Acesso aprimorado à personalização da aparência da barra de ferramentas",
+    "Pequenos refinamentos em todo o aplicativo"
+  ],
+  "fixes": [],
+  "patches": []
+}

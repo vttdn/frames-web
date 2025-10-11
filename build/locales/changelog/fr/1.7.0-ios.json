@@ -1,0 +1,65 @@
+{
+  "version": "1.7.0",
+  "version_short": "1.7",
+  "url_slug": "1-7-ios",
+  "platform": "ios",
+  "release_date": "2025-09-10T10:00:00.000Z",
+  "title": "Support d'accessibilité complet et améliorations d'enregistrement",
+  "summary": "Cette mise à jour apporte un support complet des fonctionnalités d'accessibilité Apple avec des améliorations du processus d'enregistrement et de la gestion des métadonnées, rendant Frames plus accessible et efficace pour tous les photographes argentiques.",
+  "meta_title": "Support d'accessibilité complet et améliorations d'enregistrement · Frames",
+  "meta_description": "Support complet des fonctionnalités d'accessibilité Apple : texte agrandi, interface sombre, contraste élevé et réduction des animations pour tous les photographes.",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Fonctionnalités d'accessibilité Apple"
+    },
+    {
+      "type": "paragraph",
+      "content": "Frames prend désormais en charge les principales fonctionnalités d'accessibilité Apple, incluant le texte agrandi, l'interface sombre, la différenciation sans couleur seule, le contraste suffisant et la réduction des animations. Ces fonctionnalités garantissent que l'application est utilisable pour les photographes ayant différents besoins et préférences visuels, maintenant une fonctionnalité complète quels que soient les réglages d'accessibilité."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.7.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.7.0-1@2x.png",
+      "alt": "Interface application Frames avec fonctionnalités accessibilité et support texte large",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Améliorations du processus d'enregistrement et des métadonnées"
+    },
+    {
+      "type": "paragraph",
+      "content": "L'application ouvre désormais directement votre nouvelle pellicule dès sa création, rendant votre utilisation plus fluide. Les étiquettes ont été affinées dans toute l'application pour une meilleure lisibilité. Les séquences personnalisées remplissent désormais automatiquement les valeurs d'ouverture min/max, particulièrement utile pour la réintégration de métadonnées sur Mac. Nous avons également corrigé les problèmes d'animation dans l'enregistreur lors de la capture de prises avec le curseur ouvert et corrigé les problèmes d'initialisation de valeurs en vue enregistreur complète."
+    }
+  ],
+  "improvements": [
+    "Ajout du support de la fonctionnalité d'accessibilité Texte agrandi d'Apple",
+    "Ajout du support de l'apparence Interface sombre",
+    "Ajout du support de Différencier sans couleur seule",
+    "Ajout du support de Contraste suffisant",
+    "Ajout du support de Réduction des animations",
+    "Ouverture directe des nouvelles pellicules après création pour une utilisation plus rapide",
+    "Clarté des étiquettes améliorée dans toute l'application",
+    "Remplissage automatique de l'ouverture min/max lors de l'utilisation de séquences personnalisées"
+  ],
+  "fixes": [
+    {
+      "title": "Problème d'animation de l'enregistreur",
+      "description": "Correction du problème d'animation dans l'enregistreur lorsqu'une prise est capturée avec le curseur ouvert."
+    },
+    {
+      "title": "Initialisation des valeurs de l'enregistreur",
+      "description": "Correction d'un problème où les valeurs ne s'initialisaient pas correctement lors de l'ouverture de l'enregistreur en vue complète."
+    }
+  ],
+  "patches": [
+    {
+      "version": "1.7.1",
+      "description": "Correction de l'affichage des objectifs montrant des informations d'ouverture redondantes dans les listes de sélection. Correction des vues modifiables alors que la modification était désactivée."
+    }
+  ]
+}

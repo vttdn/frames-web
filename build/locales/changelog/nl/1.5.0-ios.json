@@ -1,0 +1,55 @@
+{
+  "version": "1.5.0",
+  "version_short": "1.5",
+  "url_slug": "1-5-ios",
+  "platform": "ios",
+  "release_date": "2025-09-03T10:00:00.000Z",
+  "title": "Nieuwe filmsoorten, herontworpen diafragmasysteem en lenswisseling",
+  "meta_title": "Nieuwe filmsoorten, herontworpen diafragmasysteem en lenswisseling · Frames",
+  "meta_description": "Uitgebreide filmbibliotheek met Harman Phoenix II, aangepaste f-stop reeksen per lens en lenswisseling direct vanuit de recorder.",
+  "summary": "Deze update breidt de filmbibliotheek uit met nieuwe emulsies, herontwerpt volledig het diafragmabeheer met aangepaste f-stop reeksen, en voegt de mogelijkheid toe om lenzen direct vanuit de recorder te wisselen.",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Uitgebreide filmbibliotheek"
+    },
+    {
+      "type": "paragraph",
+      "content": "De filmlijst bevat nu Harman Phoenix II, Lucky Color 200, Leica Monopan 50 en verschillende andere populaire emulsies. Of je nu experimentele kleurenfilms of klassieke zwart-wit films gebruikt, Frames ondersteunt een breder scala aan filmsoorten voor nauwkeurigere registratie."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/{{ lang }}/changelog/frames-1.5.0-1.png",
+      "image_2x": "/lib/img/{{ lang }}/changelog/frames-1.5.0-1@2x.png",
+      "alt": "Frames analoge fotografie-app met aangepaste diafragmareeksen en uitgebreide filmbibliotheek",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Herontworpen diafragmabeheer"
+    },
+    {
+      "type": "paragraph",
+      "content": "De diafragmabesturing is volledig vernieuwd. Je kunt nu aangepaste f-stop reeksen per lens definiëren, waarbij alleen de diafragma's worden getoond die je lens werkelijk heeft. De recorder-schuifregelaar is nu correct gecentreerd op de geselecteerde diafragmawaarde. Wissel lenzen direct vanuit de recorder zonder je workflow te verlaten, en stel de brandpuntsafstand in via de Meer-knop voor zoomlenzen of perspectief correcties."
+    }
+  ],
+  "improvements": [
+    "Uitgebreide filmbibliotheek met Harman Phoenix II, Lucky Color 200, Leica Monopan 50 en meer",
+    "Volledig herontworpen diafragmabeheersysteem",
+    "Aangepaste f-stop reeksen per lens toegevoegd",
+    "Lenswisseling direct vanuit recorder toegevoegd",
+    "Brandpuntsafstand kan nu worden aangepast via Meer-knop in recorder",
+    "Verbeterde lokalisatieconsistentie",
+    "Kleine prestatieverbeteringen overal"
+  ],
+  "fixes": [
+    {
+      "title": "Centrering diafragmaschuif",
+      "description": "Probleem opgelost waarbij de diafragmaschuif in de recorder niet correct was gecentreerd op de geselecteerde waarde."
+    }
+  ],
+  "patches": []
+}

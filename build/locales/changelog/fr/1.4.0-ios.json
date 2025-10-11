@@ -1,0 +1,43 @@
+{
+  "version": "1.4.0",
+  "version_short": "1.4",
+  "url_slug": "1-4-ios",
+  "platform": "ios",
+  "release_date": "2025-08-20T10:00:00.000Z",
+  "title": "Support de l'enregistrement des filtres",
+  "summary": "Documentez votre processus photographique argentique complet en enregistrant les filtres aux côtés de votre appareil, objectif et pellicule. Vous pouvez désormais enregistrer les filtres UV, ND, CPL et autres utilisés pour chaque prise.",
+  "meta_title": "Support de l'enregistrement des filtres · Frames",
+  "meta_description": "Enregistrez tous vos filtres UV, ND, CPL pour chaque vue et synchronisez ces données avec l'app Mac pour une documentation argentique complète et précise.",
+  "sections": [
+    {
+      "type": "paragraph",
+      "content": "Les filtres font désormais partie de votre processus d'enregistrement de pellicules. Enregistrez quels filtres vous avez utilisés pour chaque vue, incluant UV, ND, CPL et plus encore. Cela complète votre documentation argentique en capturant chaque élément qui affecte votre image finale, du boîtier et de l'objectif à la pellicule et aux filtres. Les données de filtres sont incluses dans tous les exports et se synchronisent avec l'application Mac pour une tenue de registres complète."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/{{ lang }}/changelog/frames-1.4.0-1.png",
+      "image_2x": "/lib/img/{{ lang }}/changelog/frames-1.4.0-1@2x.png",
+      "alt": "Application Frames montrant enregistrement filtres UV, ND et CPL pour photographie argentique",
+      "width": "400",
+      "height": "300"
+    }
+  ],
+  "improvements": [
+    "Ajout du support d'enregistrement des filtres (UV, ND, CPL et plus)",
+    "Filtres inclus dans tous les formats d'export",
+    "Les données de filtres se synchronisent avec l'application Mac",
+    "Améliorations mineures de performance",
+    "Améliorations générales de stabilité"
+  ],
+  "fixes": [],
+  "patches": [
+    {
+      "version": "1.4.1",
+      "description": "Correction d'un problème où la modification d'une pellicule dans un sous-dossier la déplaçait vers le dossier racine."
+    },
+    {
+      "version": "1.4.2",
+      "description": "Traductions affinées pour la cohérence avec l'application Mac. Correction de l'affichage du pays dans la recherche de localisation. Ajout de valeurs par défaut de vitesse d'obturation et d'ouverture lors de la création de pellicules."
+    }
+  ]
+}

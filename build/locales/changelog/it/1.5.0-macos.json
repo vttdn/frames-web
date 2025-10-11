@@ -1,0 +1,43 @@
+{
+  "version": "1.5.0",
+  "version_short": "1.5",
+  "url_slug": "1-5-macos",
+  "platform": "macos",
+  "release_date": "2025-09-19T10:00:00.000Z",
+  "title": "Maggiori Prestazioni e Miglioramenti Elaborazione DNG",
+  "summary": "Questo aggiornamento offre gestione immagini significativamente più veloce con elaborazione DNG ottimizzata, caching migliorato e correzioni per l'importazione file .frames e l'esportazione metadati DNG su Mac Intel.",
+  "sections": [
+    {
+      "type": "paragraph",
+      "content": "Il caricamento delle immagini è ora significativamente più veloce in tutti i formati, con importanti miglioramenti alla velocità e affidabilità dell'elaborazione DNG. L'uso della memoria è stato ottimizzato, il caching migliorato e il caricamento sincronizzato assicura un funzionamento fluido anche con grandi lotti di immagini. Abbiamo anche corretto l'importazione file .frames dalla barra dei menu di macOS e risolto problemi di esportazione metadati DNG su Mac Intel più datati."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.10.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.10.0-1@2x.png",
+      "alt": "App Frames per macOS con prestazioni elaborazione DNG ottimizzate per gestione immagini più veloce",
+      "width": "400",
+      "height": "300"
+    }
+  ],
+  "improvements": [
+    "Caricamento immagini significativamente più veloce in tutti i formati",
+    "Elaborazione DNG ottimizzata per prestazioni migliori",
+    "Sistema di caching migliorato per funzionamento più fluido",
+    "Efficienza uso memoria migliorata",
+    "Caricamento sincronizzato per grandi lotti di immagini"
+  ],
+  "fixes": [
+    {
+      "title": "Importazione File .frames",
+      "description": "Corretta l'importazione file .frames dalla barra dei menu di macOS."
+    },
+    {
+      "title": "Esportazione DNG su Mac Intel",
+      "description": "Corretta l'esportazione metadati DNG su modelli Mac Intel più datati."
+    }
+  ],
+  "patches": [],
+  "meta_title": "Maggiori Prestazioni e Miglioramenti Elaborazione DNG · Frames",
+  "meta_description": "Questo aggiornamento offre gestione immagini significativamente più veloce con elaborazione DNG ottimizzata, caching migliorato e correzioni per..."
+}

@@ -55,3 +55,11 @@
     @content;
   }
 }
+
+
+/* Medium desktop and below: ≤1140px */
+@mixin desktop-medium-down {
+  @media (max-width: 1024px) {
+    @content;
+  }
+}

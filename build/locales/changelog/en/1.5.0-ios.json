@@ -1,0 +1,55 @@
+{
+  "version": "1.5.0",
+  "version_short": "1.5",
+  "url_slug": "1-5-ios",
+  "platform": "ios",
+  "release_date": "2025-09-03T10:00:00.000Z",
+  "title": "New Film Stocks, Redesigned Aperture System & Lens Switching",
+  "meta_title": "New Film Stocks, Redesigned Aperture System & Lens Switching · Frames",
+  "meta_description": "Custom aperture sequences per lens with Harman Phoenix II and new film stocks. Switch lenses directly from recorder for faster, more accurate analog logging.",
+  "summary": "This update expands the film stock library with new emulsions, completely redesigns aperture management with custom f-stop sequences, and adds the ability to switch lenses directly from the recorder.",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Expanded Film Stock Library"
+    },
+    {
+      "type": "paragraph",
+      "content": "The film stock list now includes Harman Phoenix II, Lucky Color 200, Leica Monopan 50, and several other popular emulsions. Whether you're shooting experimental color films or classic black and white stocks, Frames supports a wider range of film types for more accurate logging."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/{{ lang }}/changelog/frames-1.5.0-1.png",
+      "image_2x": "/lib/img/{{ lang }}/changelog/frames-1.5.0-1@2x.png",
+      "alt": "Frames analog photography app with custom aperture sequences and expanded film stock library",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Redesigned Aperture Management"
+    },
+    {
+      "type": "paragraph",
+      "content": "Aperture control has been completely rebuilt. You can now define custom f-stop sequences per lens, showing only the apertures your lens actually has. The recorder slider is now properly centered on the selected aperture value. Switch lenses directly from the recorder without leaving your workflow, and set focal length via the More button for zoom lenses or perspective control adjustments."
+    }
+  ],
+  "improvements": [
+    "Expanded film stock library with Harman Phoenix II, Lucky Color 200, Leica Monopan 50, and more",
+    "Completely redesigned aperture management system",
+    "Added custom f-stop sequences per lens",
+    "Added lens switching directly from recorder",
+    "Focal length can now be adjusted via More button in recorder",
+    "Improved localization consistency",
+    "Minor performance enhancements throughout"
+  ],
+  "fixes": [
+    {
+      "title": "Aperture Slider Centering",
+      "description": "Fixed an issue where the aperture slider in the recorder wasn't properly centered on the selected value."
+    }
+  ],
+  "patches": []
+}

@@ -1,0 +1,68 @@
+{
+  "version": "1.10.0",
+  "version_short": "1.10",
+  "url_slug": "1-10-ios",
+  "platform": "ios",
+  "release_date": "2025-09-23T10:00:00.000Z",
+  "title": "Große Leistungs- & Stabilitätsverbesserungen",
+  "summary": "Diese Version bringt erhebliche Verbesserungen unter der Haube, die Frames schneller, zuverlässiger und besser für zukünftige Funktionen vorbereitet machen. Leistungsoptimierungen betreffen jeden Teil der App, von Bildaufnahme bis zum Film-Management.",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Fundament für die Zukunft"
+    },
+    {
+      "type": "paragraph",
+      "content": "Wir haben Kernteile von Frames neu entwickelt, um Leistung und Stabilität zu verbessern. Bildbearbeitung fühlt sich reaktionsschneller an, Navigation fließt geschmeidiger und das Verwalten großer Filmsammlungen ist zuverlässiger. Diese architektonischen Verbesserungen legen auch den Grundstein für kommende Funktionen und stellen sicher, dass Frames schnell und stabil bleibt, während deine Bibliothek wächst."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.10.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.10.0-1@2x.png",
+      "alt": "Frames Filmfotografie-App mit verbesserter Leistung und optimierter Bildaufnahme-Geschwindigkeit",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Durchgehend geschmeidiger"
+    },
+    {
+      "type": "paragraph",
+      "content": "Du wirst schnellere Ladezeiten beim Öffnen von Filmen und schnellere Reaktionen beim Bearbeiten von Bild-Metadaten bemerken. Übergänge zwischen Bildschirmen fühlen sich flüssiger an und die App behält bessere Leistung selbst mit umfangreichen Ausrüstungssammlungen und Hunderten von Bildern. Die Verbesserungen sind am deutlichsten beim Arbeiten mit mehreren Filmen oder häufigem Wechseln zwischen Recorder- und Bibliotheksansichten."
+    }
+  ],
+  "improvements": [
+    "Deutlich verbesserte App-Leistung und Reaktionsfähigkeit",
+    "Schnellere Bildbearbeitung und Metadaten-Updates",
+    "Verbesserte Navigationsgeschmeidigkeit in der gesamten App",
+    "Bessere Stabilität beim Verwalten großer Filmsammlungen",
+    "Optimierte Ausrüstungslisten-Leistung mit umfangreichen Kamera- und Objektivbibliotheken",
+    "Verbessertes Speichermanagement für nachhaltige Leistung",
+    "Sauberere Codebase-Architektur für zukünftige Feature-Entwicklung"
+  ],
+  "fixes": [
+    {
+      "title": "Referenzbild-Speicherung",
+      "description": "Problem behoben, bei dem Referenzbilder nicht immer korrekt gespeichert wurden, wenn sie an Bilder angehängt wurden."
+    }
+  ],
+  "patches": [
+    {
+      "version": "1.10.1",
+      "description": "Schnellere Bild-Recorder-Reaktion und verbessertes Standort-Management für präzisere Erfassung."
+    },
+    {
+      "version": "1.10.2",
+      "description": "Verbesserte Export-Zuverlässigkeit mit Sonderzeichen-Behandlung. Verbesserte Standort- und Kartenansicht-Leistung mit schnelleren Exporten."
+    },
+    {
+      "version": "1.10.3",
+      "description": "Verschiedene UI-Verbesserungen und visuelle Verfeinerungen in der gesamten Oberfläche."
+    }
+  ],
+  "meta_title": "Große Leistungs- & Stabilitätsverbesserungen · Frames",
+  "meta_description": "Diese Version bringt erhebliche Verbesserungen unter der Haube, die Frames schneller, zuverlässiger und besser für zukünftige Funktionen vorbereitet machen."
+}

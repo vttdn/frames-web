@@ -168,17 +168,6 @@
           }
         },
         {
-          "@type": "WebPage",
-          "@id": "https://withframes.com/roro/",
-          "url": "https://withframes.com/roro/",
-          "name": "Frames – Aplicație Fotografie Film pentru Notițe & Metadate",
-          "description": "Frames este o aplicație fotografie film pentru fotografi analogici. Notează fiecare cadru, urmărește setările camerei, organizează filmele și salvează metadatele EXIF.",
-          "inLanguage": "ro",
-          "publisher": {
-            "@id": "https://withframes.com/#organization"
-          }
-        },
-        {
           "@type": "VideoObject",
           "name": "Aplicație Fotografie Film pentru Înregistrarea & Urmărirea Filmelor Tale (Frames pentru iPhone)",
           "description": "Descoperă Frames, aplicația dedicată de fotografie film proiectată pentru fotografi analogici. Frames face gestionarea fotografiei tale analogice fără efort, ajutându-te să înregistrezi nu doar fotografiile tale, ci și povestea din spatele fiecărui film și cadru. Indiferent dacă lucrezi cu film 35mm, format mediu sau format mare, Frames îți menține fluxul de lucru organizat și asigură că metadatele fotografiilor tale rămân cu imaginile tale, chiar și după scanare.",
@@ -190,34 +179,6 @@
           "publisher": {
             "@id": "https://withframes.com/#organization"
           }
-        },
-        {
-          "@type": "Organization",
-          "@id": "https://withframes.com/#organization",
-          "name": "Frames",
-          "url": "https://withframes.com/",
-          "logo": "https://withframes.com/apple-touch-icon.png",
-          "contactPoint": {
-            "@type": "ContactPoint",
-            "email": "bonjour@withframes.com",
-            "contactType": "Customer Support",
-            "areaServed": "Worldwide",
-            "availableLanguage": ["English", "French"]
-          },
-          "sameAs": [
-            "https://twitter.com/withframes",
-            "https://www.facebook.com/framesapp",
-            "https://www.instagram.com/with_frames/",
-            "https://linkedin.com/company/withframes/",
-            "https://pinterest.com/framesapp/",
-            "https://mastodon.social/@frames",
-            "https://bsky.app/profile/withframes.bsky.social",
-            "https://www.tiktok.com/@with_frames",
-            "https://www.youtube.com/@withframes",
-            "https://g.co/kgs/5oEvXT5",
-            "https://apps.apple.com/ro/app/frames-notițe-film/id6744057317?l=ro",
-            "https://apps.apple.com/ro/app/frames-metadate-film-foto/id6744063354?l=ro"
-          ]
         }
       ]
     }

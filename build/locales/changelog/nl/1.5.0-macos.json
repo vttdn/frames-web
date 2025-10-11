@@ -1,0 +1,43 @@
+{
+  "version": "1.5.0",
+  "version_short": "1.5",
+  "url_slug": "1-5-macos",
+  "platform": "macos",
+  "release_date": "2025-09-19T10:00:00.000Z",
+  "title": "Grote prestatie- en DNG-verwerkingsverbeteringen",
+  "summary": "Deze update levert aanzienlijk snellere beeldverwerking met geoptimaliseerde DNG-verwerking, verbeterde caching en fixes voor .frames-bestandsimport en DNG-metadata-export op Intel Macs.",
+  "sections": [
+    {
+      "type": "paragraph",
+      "content": "Beeldladen is nu aanzienlijk sneller in alle formaten, met grote verbeteringen aan DNG-verwerkingssnelheid en betrouwbaarheid. Geheugengebruik is geoptimaliseerd, caching verbeterd en gesynchroniseerd laden zorgt voor soepele werking, zelfs met grote batches beelden. We hebben ook .frames-bestandsimport vanuit de macOS-menubalk verholpen en DNG-metadata-exportproblemen op oudere Intel Macs opgelost."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.10.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.10.0-1@2x.png",
+      "alt": "Frames macOS-app met geoptimaliseerde DNG-verwerkingsprestaties voor snellere beeldverwerking",
+      "width": "400",
+      "height": "300"
+    }
+  ],
+  "improvements": [
+    "Aanzienlijk sneller beeldladen in alle formaten",
+    "Geoptimaliseerde DNG-verwerking voor betere prestaties",
+    "Verbeterd cachesysteem voor soepelere werking",
+    "Verhoogde efficiëntie van geheugengebruik",
+    "Gesynchroniseerd laden voor grote beeldbatches"
+  ],
+  "fixes": [
+    {
+      "title": ".frames-bestandsimport",
+      "description": ".frames-bestandsimport vanuit de macOS-menubalk verholpen."
+    },
+    {
+      "title": "DNG-export op Intel Macs",
+      "description": "DNG-metadata-export op oudere Intel Mac-modellen verholpen."
+    }
+  ],
+  "patches": [],
+  "meta_title": "Grote prestatie- en DNG-verwerkingsverbeteringen · Frames",
+  "meta_description": "Deze update levert aanzienlijk snellere beeldverwerking met geoptimaliseerde DNG-verwerking, verbeterde caching en fixes voor .frames-bestandsimport en..."
+}

@@ -1,0 +1,53 @@
+{
+  "version": "1.6.0",
+  "version_short": "1.6",
+  "url_slug": "1-6-ios",
+  "platform": "ios",
+  "release_date": "2025-09-05T10:00:00.000Z",
+  "title": "Secuencias personalizadas de velocidad de obturación y mejoras del mapa",
+  "summary": "Configura secuencias personalizadas de velocidad de obturación por cámara, mostrando solo las velocidades que tu cámara realmente soporta. Esta actualización también trae manejo mejorado del mapa, opciones adicionales de velocidad de obturación e indicadores de progreso de exportación.",
+  "meta_title": "Secuencias personalizadas de velocidad de obturación y mejoras del mapa · Frames",
+  "meta_description": "Configura velocidades de obturación personalizadas por cámara mostrando solo las opciones que tu equipo soporta. Manejo de mapa y exportación mejorados.",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Control personalizado de velocidad de obturación"
+    },
+    {
+      "type": "paragraph",
+      "content": "Configura qué velocidades de obturación aparecen en el deslizador de la grabadora y en los ajustes de fotograma por cámara. Si tu cámara solo tiene velocidades de 1/1000 a 1 segundo, puedes ocultar las opciones de rango extendido. Esto mantiene tu interfaz de grabadora limpia y evita registrar accidentalmente velocidades que tu cámara no soporta. Las secuencias personalizadas se sincronizan con la aplicación Mac para metadatos consistentes en todos los dispositivos."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/{{ lang }}/changelog/frames-1.6.0-1.png",
+      "image_2x": "/lib/img/{{ lang }}/changelog/frames-1.6.0-1@2x.png",
+      "alt": "Aplicación de fotografía analógica Frames mostrando secuencias personalizadas de velocidad de obturación y mejoras del mapa",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Funciones mejoradas de mapa y exportación"
+    },
+    {
+      "type": "paragraph",
+      "content": "La vista de mapa ahora maneja coordenadas de manera más fiable con soporte de gestos mejorado para panorámica y zoom. Hemos añadido velocidades de obturación comúnmente usadas (1/160, 1/80, 1/40, 1/20) que faltaban anteriormente. Las operaciones de exportación ahora muestran un indicador de progreso para que sepas cuándo se están generando tus archivos antes de que aparezca el menú para compartir."
+    }
+  ],
+  "improvements": [
+    "Secuencias personalizadas de velocidad de obturación por cámara añadidas",
+    "Manejo de coordenadas del mapa y soporte de gestos mejorados",
+    "Velocidades de obturación faltantes añadidas: 1/160, 1/80, 1/40 y 1/20",
+    "Indicador de progreso de exportación antes del menú para compartir añadido",
+    "Precisión del deslizador mejorada en vista de grabadora"
+  ],
+  "fixes": [
+    {
+      "title": "Precisión del deslizador de grabadora",
+      "description": "Deslizadores de grabadora corregidos para coincidir tanto con el valor correcto como con la posición visual."
+    }
+  ],
+  "patches": []
+}

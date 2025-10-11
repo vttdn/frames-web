@@ -168,17 +168,6 @@
           }
         },
         {
-          "@type": "WebPage",
-          "@id": "https://withframes.com/zh-hantzh-hant/",
-          "url": "https://withframes.com/zh-hantzh-hant/",
-          "name": "Frames – 胶片攝影筆記和元資料應用",
-          "description": "Frames 是為膠片攝影師設計的應用。記錄每張照片，追蹤相機設定，整理膠卷，在 iPhone 和 Mac 上保存 EXIF 元資料。",
-          "inLanguage": "zh-hant",
-          "publisher": {
-            "@id": "https://withframes.com/#organization"
-          }
-        },
-        {
           "@type": "VideoObject",
           "name": "記錄和追蹤膠卷的膠片攝影應用（Frames for iPhone）",
           "description": "探索 Frames，專為膠片攝影師設計的膠片攝影應用。Frames 使管理您的膠片攝影變得輕鬆，幫助您記錄不僅是您的照片，還有每個膠卷和每一格背後的故事。無論您使用 35mm、中畫幅還是大畫幅膠片，Frames 都能讓您的工作流程井然有序，並確保您的照片元資料在掃描後仍與影像保持一致。",
@@ -190,34 +179,6 @@
           "publisher": {
             "@id": "https://withframes.com/#organization"
           }
-        },
-        {
-          "@type": "Organization",
-          "@id": "https://withframes.com/#organization",
-          "name": "Frames",
-          "url": "https://withframes.com/",
-          "logo": "https://withframes.com/apple-touch-icon.png",
-          "contactPoint": {
-            "@type": "ContactPoint",
-            "email": "bonjour@withframes.com",
-            "contactType": "Customer Support",
-            "areaServed": "Worldwide",
-            "availableLanguage": ["English", "French"]
-          },
-          "sameAs": [
-            "https://twitter.com/withframes",
-            "https://www.facebook.com/framesapp",
-            "https://www.instagram.com/with_frames/",
-            "https://linkedin.com/company/withframes/",
-            "https://pinterest.com/framesapp/",
-            "https://mastodon.social/@frames",
-            "https://bsky.app/profile/withframes.bsky.social",
-            "https://www.tiktok.com/@with_frames",
-            "https://www.youtube.com/@withframes",
-            "https://g.co/kgs/5oEvXT5",
-            "https://apps.apple.com/hk/app/frames-膠片攝影筆記/id6744057317?l=zh-Hant",
-            "https://apps.apple.com/hk/app/frames-底片中繼資料/id6744063354?mt=12&l=zh-Hant"
-          ]
         }
       ]
     }

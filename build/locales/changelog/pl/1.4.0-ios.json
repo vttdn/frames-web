@@ -1,0 +1,43 @@
+{
+  "version": "1.4.0",
+  "version_short": "1.4",
+  "url_slug": "1-4-ios",
+  "platform": "ios",
+  "release_date": "2025-08-20T10:00:00.000Z",
+  "title": "Obsługa rejestrowania filtrów",
+  "meta_title": "Obsługa rejestrowania filtrów · Frames",
+  "meta_description": "Dokumentuj użyte filtry UV, ND i CPL wraz z aparatem, obiektywem i filmem. Kompleksowa rejestracja każdego elementu wpływającego na finalne zdjęcie.",
+  "summary": "Dokumentuj swój kompletny proces analogowy, rejestrując filtry wraz z aparatem, obiektywem i filmem. Teraz możesz zapisywać filtry UV, ND, CPL i inne użyte do każdego zdjęcia.",
+  "sections": [
+    {
+      "type": "paragraph",
+      "content": "Filtry są teraz częścią Twojego procesu rejestrowania filmów. Zapisuj, które filtry użyłeś do każdej klatki, w tym UV, ND, CPL i inne. To dopełnia Twoją dokumentację analogową, przechwytując każdy element wpływający na finalny obraz - od korpusu aparatu i obiektywu po film i filtry. Dane filtrów są uwzględnione we wszystkich eksportach i synchronizują się z aplikacją Mac dla kompleksowego prowadzenia dokumentacji."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/{{ lang }}/changelog/frames-1.4.0-1.png",
+      "image_2x": "/lib/img/{{ lang }}/changelog/frames-1.4.0-1@2x.png",
+      "alt": "Aplikacja Frames do fotografii kliszowej z funkcją rejestracji filtrów UV, ND i CPL",
+      "width": "400",
+      "height": "300"
+    }
+  ],
+  "improvements": [
+    "Dodano obsługę rejestrowania filtrów (UV, ND, CPL i inne)",
+    "Filtry uwzględnione we wszystkich formatach eksportu",
+    "Dane filtrów synchronizują się z aplikacją Mac",
+    "Drobne usprawnienia wydajności",
+    "Ogólne poprawki stabilności"
+  ],
+  "fixes": [],
+  "patches": [
+    {
+      "version": "1.4.1",
+      "description": "Naprawiono problem, w którym edycja filmu w podfolderze przenosiła go z powrotem do folderu głównego."
+    },
+    {
+      "version": "1.4.2",
+      "description": "Udoskonalone tłumaczenia dla spójności z aplikacją Mac. Naprawiono wyświetlanie kraju w wyszukiwaniu lokalizacji. Dodano domyślne wartości czasu naświetlania i przysłony podczas tworzenia filmów."
+    }
+  ]
+}

@@ -1,0 +1,151 @@
+{
+  "version": "1.0.0",
+  "version_short": "1.0",
+  "url_slug": "1-0-ios",
+  "platform": "ios",
+  "release_date": "2025-04-01T03:02:00.000Z",
+  "title": "Frames Lancering: Jouw Analoge Fotografie Notitieboek",
+  "meta_title": "Frames Lancering: Jouw Analoge Fotografie Notitieboek · Frames",
+  "meta_description": "Ontdek Frames voor iOS: leg filmfotografie-metadata vast, organiseer filmrollen en integreer EXIF-data naadloos in je analoge workflow.",
+  "summary": "Frames lanceert als een complete herbouw van Datafilm, met een verfijnde iOS-app voor het vastleggen van filmfotografie-metadata in het veld, gecombineerd met een nieuwe macOS-app voor het insluiten van die data in je gescande beelden.",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Leg je filmrollen vast en organiseer ze"
+    },
+    {
+      "type": "paragraph",
+      "content": "Frames is je digitale notitieboek voor analoge fotografie, ontworpen om opname-instellingen vast te leggen en metadata naadloos te integreren in gescande beelden. Leg elk belangrijk detail vast voor elk frame: brandpuntsafstand, sluitertijd, belichtingscorrectie, diafragma, flitsinstellingen, camera, lens, filmsoort, datum, tijd en geolocatie."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.0.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.0.0-1@2x.png",
+      "alt": "Frames filmfotografie-app interface voor het vastleggen van analoge camera-metadata en filmgegevens",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "list",
+      "items": [
+        {
+          "title": "Volledige metadata-registratie",
+          "description": "Leg framenummer, brandpuntsafstand, sluitertijd, belichtingscorrectie, diafragma, flitsinstellingen, camera, lens, filmsoort, datum, tijd en locatie vast."
+        },
+        {
+          "title": "Referentiebeelden",
+          "description": "Voeg referentiebeelden toe aan elk frame voor snelle visuele context bij het matchen van scans."
+        },
+        {
+          "title": "Interactieve kaartweergave",
+          "description": "Bekijk je filmopnames op een interactieve kaart om te achterhalen waar elk frame is vastgelegd."
+        },
+        {
+          "title": "Maporganisatie",
+          "description": "Organiseer je filmbibliotheek met mappen en krachtige zoektools om elk frame direct te vinden."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Exporteer en synchroniseer je data"
+    },
+    {
+      "type": "paragraph",
+      "content": "De bijbehorende macOS-app lost de meest gevraagde functie van de filmfotografie-gemeenschap op: het opnieuw integreren van metadata in gescande JPEG-beelden. Exporteer je metadata als JSON (.frames)-bestanden, deel gegevens tussen Apple-apparaten en gebruik de macOS-app om EXIF-data in te sluiten die naadloos werkt met Lightroom, Capture One en Apple Foto's."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Geoptimaliseerd voor analoge fotografie"
+    },
+    {
+      "type": "list",
+      "items": [
+        {
+          "title": "Adaptieve bediening",
+          "description": "Bedieningselementen passen zich aan de eigenschappen van je uitrusting aan voor snellere registratie."
+        },
+        {
+          "title": "Slim autovullen",
+          "description": "Intelligente automatische invulling voor lens, camera, filmsoort en ISO bespaart tijd in het veld."
+        },
+        {
+          "title": "200+ filmsoorten",
+          "description": "Vooraf geladen selectie van populaire filmsoorten van grote fabrikanten."
+        },
+        {
+          "title": "Native Apple-ontwerp",
+          "description": "Volgt Apple's Human Interface Guidelines voor een vloeiende, intuïtieve ervaring."
+        },
+        {
+          "title": "Prestatie-geoptimaliseerd",
+          "description": "Werkt soepel, zelfs op oudere iPhone-modellen."
+        }
+      ]
+    }
+  ],
+  "improvements": [
+    "Complete herbouw vanaf de grond met verfijnde architectuur",
+    "Leg uitgebreide frame-metadata vast: belichting, camera, lens, film, locatie",
+    "Automatische tijdstempeling voor elk frame",
+    "Referentiebeeld bijlage voor scan-matching",
+    "Maporganisatie voor filmbibliotheek",
+    "Krachtige zoekfunctie door alle vastgelegde frames",
+    "Interactieve kaartweergave met opnamelocaties",
+    "Beschikbaar in 7 talen",
+    "Bijbehorende macOS-app voor EXIF-metadata insluiting",
+    "Volledige compatibiliteit met Lightroom, Capture One en Apple Foto's",
+    "Privacy-first ontwerp zonder accounts of cloudafhankelijkheid",
+    "Verbeterde werkbalk-interface",
+    "Meertalige ondersteuning inclusief Nederlands, Frans, Duits, Spaans, Italiaans, Portugees, Pools en Zweeds"
+  ],
+  "fixes": [
+    "Opgelost: scherm bevroor bij het toevoegen van een nieuwe camera of lens op sommige apparaten",
+    "Review-app URL gecorrigeerd"
+  ],
+  "patches": [
+    {
+      "version": "1.0.1",
+      "date": "2025-04-04",
+      "description": "Kleine verbeteringen en bugfixes"
+    },
+    {
+      "version": "1.0.2",
+      "date": "2025-04-13",
+      "description": "Kleine correcties en verbeterde vertalingen"
+    },
+    {
+      "version": "1.0.3",
+      "date": "2025-04-15",
+      "description": "Verbeterde lokalisatie"
+    },
+    {
+      "version": "1.0.4",
+      "date": "2025-04-19",
+      "description": "Verbeterde interface en nieuwe talen"
+    },
+    {
+      "version": "1.0.5",
+      "date": "2025-04-21",
+      "description": "Nieuwe talen toegevoegd"
+    },
+    {
+      "version": "1.0.6",
+      "date": "2025-04-23",
+      "description": "Opgelost: scherm bevroor bij het toevoegen van een nieuwe camera of lens"
+    },
+    {
+      "version": "1.0.7",
+      "date": "2025-04-28",
+      "description": "Review-URL gecorrigeerd"
+    },
+    {
+      "version": "1.0.8",
+      "date": "2025-05-20",
+      "description": "Compatibiliteit met iOS 18.0 en nieuwer"
+    }
+  ]
+}

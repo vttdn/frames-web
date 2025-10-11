@@ -1,0 +1,68 @@
+{
+  "version": "1.10.0",
+  "version_short": "1.10",
+  "url_slug": "1-10-ios",
+  "platform": "ios",
+  "release_date": "2025-09-23T10:00:00.000Z",
+  "title": "Stora prestanda- och stabilitetsförbättringar",
+  "summary": "Denna release tar med sig betydande under-huven-förbättringar som gör Frames snabbare, mer pålitlig och bättre förberedd för framtida funktioner. Prestandaoptimeringar berör alla delar av appen, från bildregistrering till filmrullshantering.",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Grund för framtiden"
+    },
+    {
+      "type": "paragraph",
+      "content": "Vi har byggt om kärndelar av Frames för att förbättra prestanda och stabilitet. Bildredigering känns mer responsiv, navigering flyter smidigare och hantering av stora samlingar av filmrullar är mer pålitlig. Dessa arkitekturförbättringar lägger även grunden för kommande funktioner samtidigt som Frames förblir snabb och stabil när ditt bibliotek växer."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.10.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.10.0-1@2x.png",
+      "alt": "Frames filmfotografiapp med förbättrad prestanda och optimerad bildregistreringshastighet",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Smidigare överallt"
+    },
+    {
+      "type": "paragraph",
+      "content": "Du kommer att märka snabbare laddningstider när du öppnar filmrullar och snabbare respons när du redigerar bildmetadata. Övergångar mellan skärmar känns mer flytande, och appen behåller bättre prestanda även med omfattande utrustningssamlingar och hundratals bilder. Förbättringarna märks mest när du arbetar med flera filmrullar eller växlar frekvent mellan registreraren och biblioteksvyer."
+    }
+  ],
+  "improvements": [
+    "Betydligt förbättrad appprestanda och responsivitet",
+    "Snabbare bildredigering och metadatauppdateringar",
+    "Förbättrad navigeringssmidigare genom hela appen",
+    "Bättre stabilitet vid hantering av stora filmrullssamlingar",
+    "Optimerad utrustningslistprestanda med omfattande kamera- och objektivbibliotek",
+    "Förbättrad minneshantering för varaktig prestanda",
+    "Renare kodbasarkitektur för framtida funktionsutveckling"
+  ],
+  "fixes": [
+    {
+      "title": "Sparande av referensbilder",
+      "description": "Fixade ett problem där referensbilder inte alltid sparades korrekt när de bifogades till bilder."
+    }
+  ],
+  "patches": [
+    {
+      "version": "1.10.1",
+      "description": "Snabbare bildregistreringsrespons och förbättrad platshantering för mer exakt loggning."
+    },
+    {
+      "version": "1.10.2",
+      "description": "Förbättrad exportpålitlighet med hantering av specialtecken. Förbättrad plats- och kartvyprestanda med snabbare exporter."
+    },
+    {
+      "version": "1.10.3",
+      "description": "Olika UI-förbättringar och visuella förfiningar genom hela gränssnittet."
+    }
+  ],
+  "meta_title": "Stora prestanda- och stabilitetsförbättringar · Frames",
+  "meta_description": "Denna release tar med sig betydande under-huven-förbättringar som gör Frames snabbare, mer pålitlig och bättre förberedd för framtida funktioner."
+}
