@@ -49,7 +49,7 @@
 
 .privacy-article-main {
     grid-column: 2 / span 2;
-    margin-top: var(--spacing-5xl);
+    margin-top: calc(var(--spacing-5xl) + 1.875rem);
     section:first-of-type {
         margin-top: 0;
     }
