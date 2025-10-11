@@ -20,6 +20,17 @@ CHANGELOG_DIR = LOCALES_DIR / "changelog"
 
 ENTRIES_PER_PAGE = 5
 
+def load_changelog_css():
+    """Load changelog CSS content for inlining"""
+    changelog_css_path = PROJECT_ROOT / "lib" / "css" / "changelog.css"
+    try:
+        with open(changelog_css_path, 'r', encoding='utf-8') as f:
+            return f.read()
+    except FileNotFoundError:
+        print(f"⚠ Warning: changelog.css not found at {changelog_css_path}")
+        print("  Please compile it first: sass lib/scss/changelog.scss lib/css/changelog.css --style compressed")
+        return ""
+
 def load_json(filepath):
     """Load JSON file"""
     with open(filepath, 'r', encoding='utf-8') as f:
@@ -166,12 +177,12 @@ def save_schema(schema_json, schema_name, lang_code, page_type='page', page_numb
     with open(schema_path, 'w', encoding='utf-8') as f:
         f.write(schema_json)
 
-def generate_changelog_index(lang_code, global_config, locale_data, entries, page_number, total_pages, available_languages, all_entries):
+def generate_changelog_index(lang_code, global_config, locale_data, entries, page_number, total_pages, available_languages, all_entries, changelog_css):
     """Generate changelog index page with pagination"""
 
-    # Setup Jinja2 environment with multiple template paths
+    # Setup Jinja2 environment
     env = Environment(
-        loader=FileSystemLoader([TEMPLATES_DIR, PROJECT_ROOT / "lib" / "css"]),
+        loader=FileSystemLoader(TEMPLATES_DIR),
         autoescape=select_autoescape(['html', 'xml']),
         trim_blocks=True,
         lstrip_blocks=True
@@ -218,7 +229,8 @@ def generate_changelog_index(lang_code, global_config, locale_data, entries, pag
         'lang': lang_code,
         'changelog_heading': locale_data['changelog']['heading'],
         'canonical_url': canonical_url.rstrip('/') + '/',
-        'entry_title': None
+        'entry_title': None,
+        'page_number': page_number if page_number > 1 else None
     }
     breadcrumb_schema = generate_schema('breadcrumb.json', breadcrumb_context)
     save_schema(breadcrumb_schema, 'breadcrumb.json', lang_code, 'changelog-index', page_number)
@@ -243,7 +255,8 @@ def generate_changelog_index(lang_code, global_config, locale_data, entries, pag
         'available_changelog_languages': available_languages,
         'entries': entries,
         'page_number': page_number,
-        'total_pages': total_pages
+        'total_pages': total_pages,
+        'changelog_css': changelog_css
     }
 
     # Load and render template
@@ -252,12 +265,12 @@ def generate_changelog_index(lang_code, global_config, locale_data, entries, pag
 
     return html
 
-def generate_changelog_entry(lang_code, global_config, locale_data, entry, prev_entry, next_entry, available_languages):
+def generate_changelog_entry(lang_code, global_config, locale_data, entry, prev_entry, next_entry, available_languages, changelog_css):
     """Generate individual changelog entry page"""
 
-    # Setup Jinja2 environment with multiple template paths
+    # Setup Jinja2 environment
     env = Environment(
-        loader=FileSystemLoader([TEMPLATES_DIR, PROJECT_ROOT / "lib" / "css"]),
+        loader=FileSystemLoader(TEMPLATES_DIR),
         autoescape=select_autoescape(['html', 'xml']),
         trim_blocks=True,
         lstrip_blocks=True
@@ -333,7 +346,8 @@ def generate_changelog_entry(lang_code, global_config, locale_data, entry, prev_
         'available_changelog_languages': available_languages,
         'entry': entry,
         'prev_entry': prev_entry,
-        'next_entry': next_entry
+        'next_entry': next_entry,
+        'changelog_css': changelog_css
     }
 
     # Load and render template
@@ -535,6 +549,13 @@ def main():
         print("✗ Error: global.json not found in build/locales/")
         sys.exit(1)
 
+    # Load changelog CSS for inlining
+    changelog_css = load_changelog_css()
+    if changelog_css:
+        print(f"✓ Loaded changelog CSS ({len(changelog_css)} bytes)")
+    else:
+        print("⚠ No changelog CSS loaded - templates will use fallback")
+
     # Detect which languages have changelog translations
     available_languages = []
     for lang_dir in CHANGELOG_DIR.iterdir():
@@ -581,7 +602,8 @@ def main():
                     page,
                     total_pages,
                     available_languages,
-                    entries  # Pass all entries for Blog schema
+                    entries,  # Pass all entries for Blog schema
+                    changelog_css
                 )
                 save_changelog_index(html, page, lang_code)
 
@@ -597,7 +619,8 @@ def main():
                     entry,
                     prev_entry,
                     next_entry,
-                    available_languages
+                    available_languages,
+                    changelog_css
                 )
                 save_changelog_entry(html, entry, lang_code)
 

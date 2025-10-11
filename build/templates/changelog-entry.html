@@ -26,7 +26,7 @@
     <link rel="icon" href="/favicon.svg" type="image/svg+xml">
     <link rel="apple-touch-icon" href="/apple-touch-icon.png">
     <style>
-      {% include 'changelog.css' %}
+      {{ changelog_css | safe }}
     </style>
   </head>
   <body>
@@ -222,7 +222,11 @@
                       {% for fix in entry.fixes %}
                       <li>
                         <div class="bullet-point">
+                          {% if fix is string %}
+                          {{ fix }}
+                          {% else %}
                           <strong>{{ fix.title }}</strong>: {{ fix.description }}
+                          {% endif %}
                         </div>
                       </li>
                       {% endfor %}
