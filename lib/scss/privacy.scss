@@ -47,9 +47,7 @@
     }
 
     section, footer {
-        margin: 0;
-        padding: var(--spacing-3xl) 0 0;
-        scroll-margin-top: 3.375rem;
+        margin: var(--spacing-3xl) 0 0;
 
         &> :last-child {
             margin-bottom: 0;

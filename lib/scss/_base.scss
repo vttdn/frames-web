@@ -22,6 +22,10 @@ body {
     }
 }
 
+* {
+    scroll-margin-top: 4.875rem;
+}
+
 .body-no-scroll {
     overflow: hidden;
     height: 100vh;
