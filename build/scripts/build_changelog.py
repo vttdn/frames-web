@@ -67,10 +67,64 @@ def load_changelog_entries(lang_code='en'):
 
     return entries
 
-def format_date(iso_date):
-    """Format ISO date to human-readable format"""
+def format_date(iso_date, lang_code='en'):
+    """Format ISO date to human-readable format based on language"""
     dt = datetime.fromisoformat(iso_date.replace('Z', '+00:00'))
-    return dt.strftime('%b %d, %Y')
+
+    # Localized month abbreviations per language
+    month_names = {
+        'en': ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],
+        'de': ['Jan', 'Feb', 'Mär', 'Apr', 'Mai', 'Jun', 'Jul', 'Aug', 'Sep', 'Okt', 'Nov', 'Dez'],
+        'es': ['ene', 'feb', 'mar', 'abr', 'may', 'jun', 'jul', 'ago', 'sep', 'oct', 'nov', 'dic'],
+        'fr': ['janv', 'févr', 'mars', 'avr', 'mai', 'juin', 'juil', 'août', 'sept', 'oct', 'nov', 'déc'],
+        'it': ['gen', 'feb', 'mar', 'apr', 'mag', 'giu', 'lug', 'ago', 'set', 'ott', 'nov', 'dic'],
+        'nl': ['jan', 'feb', 'mrt', 'apr', 'mei', 'jun', 'jul', 'aug', 'sep', 'okt', 'nov', 'dec'],
+        'pt': ['jan', 'fev', 'mar', 'abr', 'mai', 'jun', 'jul', 'ago', 'set', 'out', 'nov', 'dez'],
+        'pl': ['sty', 'lut', 'mar', 'kwi', 'maj', 'cze', 'lip', 'sie', 'wrz', 'paź', 'lis', 'gru'],
+        'sv': ['jan', 'feb', 'mars', 'apr', 'maj', 'juni', 'juli', 'aug', 'sep', 'okt', 'nov', 'dec'],
+        'th': ['ม.ค.', 'ก.พ.', 'มี.ค.', 'เม.ย.', 'พ.ค.', 'มิ.ย.', 'ก.ค.', 'ส.ค.', 'ก.ย.', 'ต.ค.', 'พ.ย.', 'ธ.ค.'],
+        'id': ['Jan', 'Feb', 'Mar', 'Apr', 'Mei', 'Jun', 'Jul', 'Agu', 'Sep', 'Okt', 'Nov', 'Des'],
+    }
+
+    # Date format patterns per language
+    date_formats = {
+        'en': '{month} {day}, {year}',      # Apr 01, 2025
+        'de': '{day}. {month} {year}',      # 01. Apr 2025
+        'es': '{day} {month} {year}',       # 01 abr 2025
+        'fr': '{day} {month} {year}',       # 01 avr 2025
+        'it': '{day} {month} {year}',       # 01 apr 2025
+        'nl': '{day} {month} {year}',       # 01 apr 2025
+        'pt': '{day} {month} {year}',       # 01 abr 2025
+        'pl': '{day} {month} {year}',       # 01 kwi 2025
+        'sv': '{day} {month} {year}',       # 01 apr 2025
+        'ja': '{year}年{month}月{day}日',    # 2025年04月01日
+        'ko': '{year}년 {month}월 {day}일',  # 2025년 04월 01일
+        'zh': '{year}年{month}月{day}日',    # 2025年04月01日
+        'zh-hant': '{year}年{month}月{day}日', # 2025年04月01日
+        'th': '{day} {month} {year}',       # 01 เม.ย. 2025
+        'id': '{day} {month} {year}',       # 01 Apr 2025
+    }
+
+    # Get format for language, default to English
+    date_format = date_formats.get(lang_code, '{month} {day}, {year}')
+
+    # For Asian languages (ja, ko, zh, zh-hant), use zero-padded numeric month
+    if lang_code in ['ja', 'ko', 'zh', 'zh-hant']:
+        return date_format.format(
+            year=dt.year,
+            month=str(dt.month).zfill(2),
+            day=str(dt.day).zfill(2)
+        )
+
+    # For other languages, use localized month names
+    months = month_names.get(lang_code, month_names['en'])
+    month_abbr = months[dt.month - 1]
+
+    return date_format.format(
+        year=dt.year,
+        month=month_abbr,
+        day=str(dt.day).zfill(2)
+    )
 
 def generate_language_list(languages):
     """Generate language list for dropdown"""
@@ -195,7 +249,7 @@ def generate_changelog_index(lang_code, global_config, locale_data, entries, pag
 
     # Add formatted dates to entries and process language-specific image paths
     for entry in entries:
-        entry['formatted_date'] = format_date(entry['release_date'])
+        entry['formatted_date'] = format_date(entry['release_date'], lang_code)
         # Process sections to replace {{ lang }} in image paths
         if 'sections' in entry:
             for section in entry['sections']:
@@ -282,7 +336,7 @@ def generate_changelog_entry(lang_code, global_config, locale_data, entry, prev_
         raise ValueError(f"Language {lang_code} not found in global config")
 
     # Add formatted date to entry and process language-specific image paths
-    entry['formatted_date'] = format_date(entry['release_date'])
+    entry['formatted_date'] = format_date(entry['release_date'], lang_code)
     if 'sections' in entry:
         for section in entry['sections']:
             if section.get('type') == 'media':
@@ -292,9 +346,9 @@ def generate_changelog_entry(lang_code, global_config, locale_data, entry, prev_
                     section['image_2x'] = section['image_2x'].replace('{{ lang }}', lang_code)
 
     if prev_entry:
-        prev_entry['formatted_date'] = format_date(prev_entry['release_date'])
+        prev_entry['formatted_date'] = format_date(prev_entry['release_date'], lang_code)
     if next_entry:
-        next_entry['formatted_date'] = format_date(next_entry['release_date'])
+        next_entry['formatted_date'] = format_date(next_entry['release_date'], lang_code)
 
     # Generate and save JSON-LD schemas
     build_date = get_current_build_date()
