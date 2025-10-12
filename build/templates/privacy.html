@@ -57,6 +57,59 @@
             </nav>
 
             <div class="trailing flex flex-row flex-center gap-sm">
+                <div class="dropdown">
+                    <input type="checkbox" id="share-toggle" class="dropdown-toggle">
+
+                    <label for="share-toggle" class="dropdown-button btn btn-sm btn-dark">
+                        <span>{{ locale_data.header.buttons.share }}</span>
+                        <img src="/lib/img/icn/chevron-down-sm.svg" alt="Chevron Down Icon" width="10" height="12" loading="lazy">
+                    </label>
+
+                    <ul class="dropdown-content dropdown-dir-bottom" role="menu">
+                        <li>
+                            <a href="#" onclick="shareOn('facebook'); return false;">
+                                    <span>{{ locale_data.share_dropdown.facebook }}</span>
+                                    <img src="/lib/img/icn/facebook.svg" alt="Facebook Icon" width="14" height="14" loading="lazy" class="social-icon">
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#" onclick="shareOn('twitter'); return false;">
+                                    <span>{{ locale_data.share_dropdown.twitter }}</span>
+                                    <img src="/lib/img/icn/twitter.svg" alt="Twitter Icon" width="14" height="14" loading="lazy" class="social-icon">
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#" onclick="shareOn('linkedin'); return false;">
+                                    <span>{{ locale_data.share_dropdown.linkedin }}</span>
+                                    <img src="/lib/img/icn/linkedin.svg" alt="LinkedIn Icon" width="14" height="14" loading="lazy" class="social-icon">
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#" onclick="shareOn('reddit'); return false;">
+                                    <span>{{ locale_data.share_dropdown.reddit }}</span>
+                                    <img src="/lib/img/icn/reddit.svg" alt="Reddit Icon" width="14" height="14" loading="lazy" class="social-icon">
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#" onclick="shareOn('whatsapp'); return false;">
+                                    <span>{{ locale_data.share_dropdown.whatsapp }}</span>
+                                    <img src="/lib/img/icn/whatsapp.svg" alt="WhatsApp Icon" width="14" height="14" loading="lazy" class="social-icon">
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#" onclick="shareOn('email'); return false;" class="social-icon">
+                                    <span>{{ locale_data.share_dropdown.email }}</span>
+                                    <img src="/lib/img/icn/paperplane.svg" alt="Email Icon" width="14" height="14" loading="lazy" class="social-icon">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                
                 <a href="{{ locale_data.urls.appstore_macos }}" class="btn btn-sm btn-light desktop-only">{{ locale_data.header.buttons.download }}</a>
                 <a href="{{ locale_data.urls.appstore_ios }}" class="btn btn-sm btn-light mobile-only">{{ locale_data.header.buttons.download }}</a>
 
@@ -91,20 +144,71 @@
         <div class="privacy-article-main">
           <header>
             <h1 id="privacy-heading" itemprop="headline">{{ locale_data.privacy.heading }}</h1>
+            <p class="last-updated">
+              {{ locale_data.privacy.last_updated_label }} {{ locale_data.privacy.last_updated }}
+            </p>
           </header>
 
-          <section>
-            <p>{{ locale_data.privacy.section1.paragraph1 }}</p>
-            <p>{{ locale_data.privacy.section1.paragraph2 }}</p>
-            <p>
-              {{ locale_data.privacy.section2.paragraph1 }}
-              <a href="mailto:&#104;&#105;&#64;&#119;&#105;&#116;&#104;&#102;&#114;&#97;&#109;&#101;&#115;&#46;&#99;&#111;&#109;">&#104;&#105;&#64;&#119;&#105;&#116;&#104;&#102;&#114;&#97;&#109;&#101;&#115;&#46;&#99;&#111;&#109;</a>.
-            </p>
+            <nav class="toc" aria-label="Table of contents">
+                <h3>{{ locale_data.privacy.headingtoc }}</h3>
+                <ul>
+                    <li><a href="#intro">{{ locale_data.privacy.section1.heading }}</a></li>
+                    <li><a href="#app">1. {{ locale_data.privacy.section2.heading }}</a></li>
+                    <li><a href="#website">2. {{ locale_data.privacy.section3.heading }}</a></li>
+                    <li><a href="#contact">3. {{ locale_data.privacy.section4.heading }}</a></li>
+                </ul>
+            </nav>
+
+            <section id="intro">
+            <h2>{{ locale_data.privacy.section1.heading }}</h2>
+                <p>{{ locale_data.privacy.section1.paragraph1 }}</p>
+            </section>
+
+          <section id="app">
+            <h2>{{ locale_data.privacy.section2.heading }}</h2>
+            <p>{{ locale_data.privacy.section2.paragraph1a }}<br>{{ locale_data.privacy.section2.paragraph1b }}</p>
+            <p>{{ locale_data.privacy.section2.paragraph2 }}</p>
+            <p>{{ locale_data.privacy.section2.paragraph3 }}</p>
+            <p>{{ locale_data.privacy.section2.paragraph4 }}</p>
+            <p>{{ locale_data.privacy.section2.paragraph5 }}</p>
+
+            <ul>
+                <li>
+                    <div class="bullet-point">
+                        <strong>{{ locale_data.privacy.section2.permissions.line1.title }}</strong>:
+                        {{ locale_data.privacy.section2.permissions.line1.description }}
+                    </div>
+                </li>
+
+                <li>
+                    <div class="bullet-point">
+                        <strong>{{ locale_data.privacy.section2.permissions.line2.title }}</strong>:
+                        {{ locale_data.privacy.section2.permissions.line2.description }}
+                    </div>
+                </li>
+
+                <li>
+                    <div class="bullet-point">
+                        <strong>{{ locale_data.privacy.section2.permissions.line3.title }}</strong>:
+                        {{ locale_data.privacy.section2.permissions.line3.description }}
+                    </div>
+                </li>
+            </ul>
           </section>
 
-          <footer>
-            <p class="last-updated">
-              {{ locale_data.privacy.last_updated_label }}: {{ locale_data.privacy.last_updated }}
+          <section id="website">
+            <h2>{{ locale_data.privacy.section3.heading }}</h2>
+            <p>{{ locale_data.privacy.section3.paragraph1a }}<br>{{ locale_data.privacy.section3.paragraph1b }}</p>
+            <p>{{ locale_data.privacy.section3.paragraph2 }}</p>
+            <p>{{ locale_data.privacy.section3.paragraph3 }}</p>
+            <p>{{ locale_data.privacy.section3.paragraph4 }}</p>
+          </section>
+
+          <footer id="contact">
+            <h2>{{ locale_data.privacy.section4.heading }}</h2>
+            <p>
+                {{ locale_data.privacy.section4.paragraph1 }}
+                <a href="mailto:&#104;&#105;&#64;&#119;&#105;&#116;&#104;&#102;&#114;&#97;&#109;&#101;&#115;&#46;&#99;&#111;&#109;">hi@withframes.com</a>.
             </p>
           </footer>
         </div>

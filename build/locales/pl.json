@@ -311,18 +311,49 @@
       "canonical_url": "https://withframes.com/pl/polityka-prywatnosci/"
     },
     "heading": "Polityka Prywatności",
-    "section1": {
-      "heading": "Nasze Zobowiązanie do Twojej Prywatności",
-      "paragraph1": "Ta aplikacja nie zbiera, nie przechowuje ani nie udostępnia żadnych danych osobowych. Wszystkie dane użytkownika są przechowywane lokalnie na Twoim urządzeniu i nigdy nie są przesyłane na żaden serwer ani do stron trzecich. Nie używamy analityki, śledzenia ani usług online, które zbierają informacje o użytkownikach.",
-      "paragraph2": "Aplikacja umożliwia jednak eksportowanie plików. Wszelkie dane, które zdecydujesz się udostępnić lub zapisać zewnętrznie, są pod Twoją kontrolą. Deweloper nie śledzi ani nie uzyskuje dostępu do eksportowanych plików."
-    },
-    "section2": {
-      "heading": "Kontakt",
-      "paragraph1": "Jeśli masz jakieś pytania lub wątpliwości, możesz skontaktować się z nami pod adresem:"
-    },
+  "headingtoc": "Spis treści",
+  "section1": {
+    "heading": "Wprowadzenie",
+    "paragraph1": "W Frames Twoja prywatność jest naszym priorytetem. Niniejsza polityka prywatności wyjaśnia, w jaki sposób przetwarzamy informacje w naszych aplikacjach na iOS i macOS oraz na naszej stronie internetowej. Dbamy o bezpieczeństwo Twoich danych, działamy w sposób przejrzysty i pozostawiamy Ci pełną kontrolę. Nie zbieramy ani nie śledzimy niepotrzebnych informacji — to Ty decydujesz, jakie dane chcesz udostępniać lub eksportować."
+  },
+  "section2": {
+    "heading": "Frames na iOS i macOS",
+    "paragraph1a": "Frames nie zbiera, nie przechowuje ani nie udostępnia żadnych danych osobowych.",
+    "paragraph1b": "Wszystkie informacje wprowadzone w aplikacji są przechowywane lokalnie na Twoim urządzeniu i nigdy nie są przesyłane na serwery ani do osób trzecich.",
+    "paragraph2": "Aplikacja korzysta z frameworka StoreKit firmy Apple do zarządzania subskrypcjami. Proces ten jest w pełni obsługiwany przez Apple, a deweloper nie ma dostępu do żadnych danych osobowych.",
+    "paragraph3": "Frames nie zawiera narzędzi analitycznych, funkcji śledzenia ani usług online. Aplikacja nie nawiązuje połączeń sieciowych, poza używaniem systemowej usługi lokalizacji (CLLocationManager) do rejestrowania współrzędnych GPS, jeśli zdecydujesz się je zapisać.",
+    "paragraph4": "Podczas eksportowania danych aplikacja może tworzyć pliki .frames, .txt lub .gpx. Udostępnianie tych plików za pomocą systemowego menu udostępniania odbywa się w pełni pod Twoją kontrolą. Deweloper nie ma dostępu ani nie śledzi eksportowanej zawartości.",
+    "paragraph5": "Frames wymaga następujących uprawnień systemowych:",
+    "permissions": {
+      "line1": {
+        "title": "Aparat",
+        "description": "do wykonywania zdjęć bezpośrednio z aplikacji."
+      },
+      "line2": {
+        "title": "Zdjęcia",
+        "description": "do wybierania obrazów referencyjnych z biblioteki zdjęć."
+      },
+      "line3": {
+        "title": "Lokalizacja (podczas korzystania z aplikacji)",
+        "description": "do rejestrowania współrzędnych GPS podczas zapisywania klatek."
+      }
+    }
+  },
+  "section3": {
+    "heading": "Strona internetowa withframes.com",
+    "paragraph1a": "Strona Frames jest statyczną witryną hostowaną na GitHub Pages.",
+    "paragraph1b": "Nie używa plików cookie, narzędzi analitycznych ani skryptów śledzących. Żadne dane osobowe nie są zbierane ani przechowywane.",
+    "paragraph2": "Cloudflare dostarcza podstawowe, anonimowe statystyki ruchu na podstawie logów serwera. Logi te nie zawierają danych pozwalających na identyfikację osoby i nie są wykorzystywane do profilowania ani marketingu.",
+    "paragraph3": "Strona zawiera odnośniki do zewnętrznych witryn i platform mediów społecznościowych w celu udostępniania treści lub wskazania publikacji. Korzystanie z tych stron jest dobrowolne i podlega ich własnym politykom prywatności.",
+    "paragraph4": "Na stronie nie ma formularzy, newsletterów ani innych funkcji interaktywnych zbierających dane."
+  },
+  "section4": {
+    "heading": "Kontakt",
+    "paragraph1": "Jeśli masz pytania lub wątpliwości dotyczące niniejszej polityki prywatności, możesz skontaktować się z deweloperem pod adresem:"
+  },
+  "last_updated": "12 października 2025",
+  "last_updated_iso": "2025-10-12",
     "last_updated_label": "Ostatnia aktualizacja",
-    "last_updated": "15 marca 2025",
-    "last_updated_iso": "2025-03-15",
     "button_home": "Strona Główna"
   }
 }

@@ -312,18 +312,49 @@
       "canonical_url": "https://withframes.com/privacy/"
     },
     "heading": "Privacy Policy",
+    "headingtoc": "Contents",
     "section1": {
-      "heading": "Our Commitment to Your Privacy",
-      "paragraph1": "This app does not collect, store, or share any personal data. All user data is stored locally on your device and never transmitted to any server or third party. We do not use analytics, tracking, or online services that collect user information.",
-      "paragraph2": "However, the app allows you to export files. Any data you choose to share or save externally is under your control. The developer does not track or access exported files."
+      "heading": "Introduction",
+      "paragraph1": "At Frames, your privacy is our priority. This Privacy Policy explains how we handle information across our iOS and macOS apps as well as our website. We are committed to keeping your data secure, transparent, and under your control. No unnecessary tracking or collection occurs, and you always remain in charge of the information you choose to share or export."
     },
     "section2": {
-      "heading": "Contact",
-      "paragraph1": "If you have any questions or concerns, you can get in touch at:"
+      "heading": "Frames for iOS and macOS",
+      "paragraph1a": "Frames does not collect, store, or share any personal data.",
+      "paragraph1b": "All information you enter in the app is stored locally on your device and never transmitted to any server or third party.",
+      "paragraph2": "The app uses Apple’s StoreKit framework to manage subscriptions. This process is handled entirely by Apple, and no personal information is accessible to the developer.",
+      "paragraph3": "Frames does not include analytics, tracking, or any online services. It makes no network connections except when using the system’s location service (CLLocationManager) to capture GPS coordinates if you choose to record them.",
+      "paragraph4": "When exporting data, the app may create .frames, .txt, or .gpx files. Sharing these files through the system share menu is entirely under your control. The developer does not access or track exported content.",
+      "paragraph5": "Frames requests the following system permissions:",
+      "permissions": {
+        "line1": {
+          "title": "Camera",
+          "description": "to take a picture directly from the app."
+        },
+        "line2": {
+          "title": "Photos",
+          "description": "to select reference images from your library."
+        },
+        "line3": {
+          "title": "Location (While Using the App)",
+          "description": "to record your GPS coordinates when capturing frames."
+        }
+      }
     },
+    "section3": {
+      "heading": "withframes.com Website",
+      "paragraph1a": "The Frames website is a static site hosted on GitHub Pages.",
+      "paragraph1b": "It does not use cookies, analytics, or tracking scripts. No personal data is collected or stored.",
+      "paragraph2": "Cloudflare provides basic, anonymous traffic statistics based on server logs. These logs contain no personally identifiable information and are not used for profiling or marketing.",
+      "paragraph3": "The site includes outbound links to external websites and social media platforms for sharing content or acknowledging publications. Visiting those sites is optional and subject to their own privacy policies.",
+      "paragraph4": "No forms, newsletters, or interactive features collect information on this website."
+    },
+    "section4": {
+      "heading": "Contacting us",
+      "paragraph1": "If you have any questions or concerns about this privacy policy, you can reach the developer at:"
+    },
+    "last_updated": "October 12, 2025",
+    "last_updated_iso": "2025-10-12",
     "last_updated_label": "Last updated",
-    "last_updated": "Mar 15, 2025",
-    "last_updated_iso": "2025-03-15",
     "button_home": "Home"
   }
 }

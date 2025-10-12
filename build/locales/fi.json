@@ -288,18 +288,49 @@
       "canonical_url": "https://withframes.com/fi/tietosuojaseloste/"
     },
     "heading": "Tietosuojaseloste",
-    "section1": {
-      "heading": "Sitoutumisemme Yksityisyyteesi",
-      "paragraph1": "Tämä sovellus ei kerää, tallenna tai jaa henkilökohtaisia tietoja. Kaikki käyttäjätiedot tallennetaan paikallisesti laitteellesi, eikä niitä koskaan lähetetä mihinkään palvelimelle tai kolmannelle osapuolelle. Emme käytä analytiikkaa, seurantaa tai verkkopalveluita, jotka keräävät käyttäjätietoja.",
-      "paragraph2": "Sovellus kuitenkin mahdollistaa tiedostojen viennin. Kaikki tiedot, jotka päätät jakaa tai tallentaa ulkoisesti, ovat hallinnassasi. Kehittäjä ei seuraa tai pääse käsiksi vietyihin tiedostoihin."
-    },
-    "section2": {
-      "heading": "Yhteystiedot",
-      "paragraph1": "Jos sinulla on kysymyksiä tai huolenaiheita, voit ottaa yhteyttä osoitteeseen:"
-    },
+  "headingtoc": "Sisällys",
+  "section1": {
+    "heading": "Johdanto",
+    "paragraph1": "Framesissa yksityisyytesi on etusijalla. Tämä tietosuojakäytäntö selittää, miten käsittelemme tietoja iOS- ja macOS-sovelluksissamme sekä verkkosivustollamme. Olemme sitoutuneet pitämään tietosi turvassa, toimimaan läpinäkyvästi ja antamaan sinulle täyden hallinnan. Emme seuraa sinua emmekä kerää tarpeettomia tietoja — sinä päätät aina, mitä tietoja jaat tai viet ulos."
+  },
+  "section2": {
+    "heading": "Frames iOS- ja macOS-sovelluksille",
+    "paragraph1a": "Frames ei kerää, tallenna eikä jaa mitään henkilökohtaisia tietoja.",
+    "paragraph1b": "Kaikki sovellukseen syöttämäsi tiedot tallennetaan paikallisesti laitteellesi, eikä niitä koskaan lähetetä millekään palvelimelle tai kolmannelle osapuolelle.",
+    "paragraph2": "Sovellus käyttää Applen StoreKit-kehystä tilausten hallintaan. Tämä prosessi hoidetaan kokonaan Applen toimesta, eikä kehittäjällä ole pääsyä henkilötietoihin.",
+    "paragraph3": "Frames ei sisällä analytiikkaa, seurantaa tai verkkopalveluita. Se ei muodosta verkkoyhteyksiä, paitsi kun käytetään laitteen sijaintipalvelua (CLLocationManager) GPS-koordinaattien tallentamiseen, jos käyttäjä niin valitsee.",
+    "paragraph4": "Kun viet tietoja ulos, sovellus voi luoda .frames-, .txt- tai .gpx-tiedostoja. Näiden tiedostojen jakaminen käyttöjärjestelmän jakovalikon kautta on täysin sinun hallinnassasi. Kehittäjällä ei ole pääsyä jaettuun sisältöön eikä se seuraa sitä.",
+    "paragraph5": "Frames pyytää seuraavat järjestelmäluvat:",
+    "permissions": {
+      "line1": {
+        "title": "Kamera",
+        "description": "kuvien ottamiseen suoraan sovelluksesta."
+      },
+      "line2": {
+        "title": "Kuvat",
+        "description": "viitekuvien valitsemiseen kirjastostasi."
+      },
+      "line3": {
+        "title": "Sijainti (sovelluksen käytön aikana)",
+        "description": "GPS-koordinaattien tallentamiseen, kun otat kuvia Framesissa."
+      }
+    }
+  },
+  "section3": {
+    "heading": "withframes.com-verkkosivusto",
+    "paragraph1a": "Framesin verkkosivusto on staattinen sivusto, jota isännöidään GitHub Pagesissa.",
+    "paragraph1b": "Sivusto ei käytä evästeitä, analytiikkaa tai seurantaskriptejä. Mitään henkilötietoja ei kerätä tai tallenneta.",
+    "paragraph2": "Cloudflare tarjoaa anonyymejä, perusliikennetilastoja palvelinlokeihin perustuen. Nämä lokit eivät sisällä henkilötietoja, eikä niitä käytetä profilointiin tai markkinointiin.",
+    "paragraph3": "Sivustolla on linkkejä ulkoisille verkkosivuille ja sosiaalisen median alustoille sisällön jakamista tai julkaisujen mainitsemista varten. Näiden sivustojen käyttö on vapaaehtoista ja niiden omien tietosuojakäytäntöjen alaista.",
+    "paragraph4": "Sivustolla ei ole lomakkeita, uutiskirjeitä tai muita vuorovaikutteisia ominaisuuksia, jotka keräisivät tietoja."
+  },
+  "section4": {
+    "heading": "Yhteydenotto",
+    "paragraph1": "Jos sinulla on kysyttävää tai huolenaiheita tästä tietosuojakäytännöstä, voit ottaa yhteyttä kehittäjään osoitteessa:"
+  },
+  "last_updated": "12. lokakuuta 2025",
+  "last_updated_iso": "2025-10-12",
     "last_updated_label": "Viimeksi päivitetty",
-    "last_updated": "15. maalisk. 2025",
-    "last_updated_iso": "2025-03-15",
     "button_home": "Etusivu"
   }
 }

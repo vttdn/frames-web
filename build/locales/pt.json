@@ -311,18 +311,49 @@
       "canonical_url": "https://withframes.com/pt/privacidade/"
     },
     "heading": "Política de Privacidade",
-    "section1": {
-      "heading": "O Nosso Compromisso com a Sua Privacidade",
-      "paragraph1": "Esta app não recolhe, armazena ou partilha quaisquer dados pessoais. Todos os dados do utilizador são armazenados localmente no seu dispositivo e nunca transmitidos para qualquer servidor ou terceiro. Não usamos análises, rastreamento ou serviços online que recolham informação do utilizador.",
-      "paragraph2": "No entanto, a app permite-lhe exportar ficheiros. Quaisquer dados que escolha partilhar ou guardar externamente estão sob o seu controlo. O programador não rastreia nem acede a ficheiros exportados."
-    },
-    "section2": {
-      "heading": "Contacto",
-      "paragraph1": "Se tiver alguma questão ou preocupação, pode entrar em contacto através de:"
-    },
+  "headingtoc": "Conteúdo",
+  "section1": {
+    "heading": "Introdução",
+    "paragraph1": "No Frames, a sua privacidade é nossa prioridade. Esta Política de Privacidade explica como lidamos com informações em nossos apps para iOS e macOS, assim como em nosso site. Comprometemo-nos a manter seus dados seguros, de forma transparente e sob seu controle. Não realizamos rastreamento ou coleta desnecessária — você sempre decide quais informações deseja compartilhar ou exportar."
+  },
+  "section2": {
+    "heading": "Frames para iOS e macOS",
+    "paragraph1a": "O Frames não coleta, armazena ou compartilha dados pessoais.",
+    "paragraph1b": "Todas as informações que você insere no app são armazenadas localmente em seu dispositivo e nunca são transmitidas a servidores ou terceiros.",
+    "paragraph2": "O app utiliza o framework StoreKit da Apple para gerenciar assinaturas. Este processo é totalmente gerenciado pela Apple, e o desenvolvedor não tem acesso a informações pessoais.",
+    "paragraph3": "O Frames não inclui ferramentas de análise, rastreamento ou serviços online. Não realiza conexões de rede, exceto ao usar o serviço de localização do sistema (CLLocationManager) para registrar coordenadas de GPS, caso você opte por isso.",
+    "paragraph4": "Ao exportar dados, o app pode criar arquivos .frames, .txt ou .gpx. Compartilhar esses arquivos através do menu de compartilhamento do sistema está totalmente sob seu controle. O desenvolvedor não acessa nem rastreia o conteúdo exportado.",
+    "paragraph5": "O Frames solicita as seguintes permissões do sistema:",
+    "permissions": {
+      "line1": {
+        "title": "Câmera",
+        "description": "para tirar fotos diretamente pelo app."
+      },
+      "line2": {
+        "title": "Fotos",
+        "description": "para selecionar imagens de referência da sua biblioteca."
+      },
+      "line3": {
+        "title": "Localização (enquanto usa o app)",
+        "description": "para registrar suas coordenadas de GPS ao capturar frames."
+      }
+    }
+  },
+  "section3": {
+    "heading": "Site withframes.com",
+    "paragraph1a": "O site do Frames é um site estático hospedado no GitHub Pages.",
+    "paragraph1b": "Não utiliza cookies, ferramentas de análise ou scripts de rastreamento. Nenhum dado pessoal é coletado ou armazenado.",
+    "paragraph2": "O Cloudflare fornece estatísticas de tráfego básicas e anônimas com base em logs de servidor. Esses logs não contêm informações pessoais e não são usados para perfilamento ou marketing.",
+    "paragraph3": "O site inclui links para sites externos e plataformas de mídia social para compartilhar conteúdo ou reconhecer publicações. Visitar esses sites é opcional e está sujeito às suas próprias políticas de privacidade.",
+    "paragraph4": "O site não possui formulários, newsletters ou recursos interativos que coletem informações."
+  },
+  "section4": {
+    "heading": "Contato",
+    "paragraph1": "Se você tiver perguntas ou dúvidas sobre esta política de privacidade, pode entrar em contato com o desenvolvedor no seguinte endereço:"
+  },
+  "last_updated": "12 de outubro de 2025",
+  "last_updated_iso": "2025-10-12",
     "last_updated_label": "Última atualização",
-    "last_updated": "15 de março de 2025",
-    "last_updated_iso": "2025-03-15",
     "button_home": "Início"
   }
 }

@@ -288,18 +288,49 @@
       "canonical_url": "https://withframes.com/tr/gizlilik-politikasi/"
     },
     "heading": "Gizlilik Politikası",
-    "section1": {
-      "heading": "Gizliliğinize Bağlılığımız",
-      "paragraph1": "Bu uygulama herhangi bir kişisel veri toplamaz, saklamaz veya paylaşmaz. Tüm kullanıcı verileri cihazınızda yerel olarak saklanır ve asla herhangi bir sunucuya veya üçüncü tarafa iletilmez. Kullanıcı bilgisi toplayan analitik, izleme veya çevrimiçi hizmetler kullanmıyoruz.",
-      "paragraph2": "Ancak uygulama dosya dışa aktarmaya izin verir. Harici olarak paylaşmayı veya kaydetmeyi seçtiğiniz tüm veriler sizin kontrolünüzdedir. Geliştirici dışa aktarılan dosyaları izlemez veya bunlara erişmez."
-    },
-    "section2": {
-      "heading": "İletişim",
-      "paragraph1": "Herhangi bir sorunuz veya endişeniz varsa, bizimle şu adresten iletişime geçebilirsiniz:"
-    },
+  "headingtoc": "İçindekiler",
+  "section1": {
+    "heading": "Giriş",
+    "paragraph1": "Frames’te gizliliğiniz bizim önceliğimizdir. Bu gizlilik politikası, iOS ve macOS uygulamalarımız ile web sitemizde bilgilerin nasıl işlendiğini açıklar. Verilerinizin güvenliğini sağlamak, şeffaf bir şekilde işlemek ve kontrolün tamamen sizde olmasını sağlamak için çalışıyoruz. Gereksiz veri toplama veya izleme yapılmaz; hangi bilgileri paylaşmak veya dışa aktarmak istediğinize her zaman siz karar verirsiniz."
+  },
+  "section2": {
+    "heading": "iOS ve macOS için Frames",
+    "paragraph1a": "Frames, herhangi bir kişisel veri toplamaz, saklamaz veya paylaşmaz.",
+    "paragraph1b": "Uygulamaya girdiğiniz tüm bilgiler cihazınızda yerel olarak saklanır ve hiçbir zaman bir sunucuya veya üçüncü tarafa gönderilmez.",
+    "paragraph2": "Uygulama, abonelikleri yönetmek için Apple’ın StoreKit çerçevesini kullanır. Bu süreç tamamen Apple tarafından yönetilir ve geliştirici kişisel bilgilere erişemez.",
+    "paragraph3": "Frames, analiz, izleme veya çevrimiçi hizmet içermez. Uygulama, sistem konum hizmeti (CLLocationManager) dışında ağ bağlantısı kurmaz; GPS koordinatlarını kaydetmeyi seçerseniz sadece bu amaçla kullanılır.",
+    "paragraph4": "Veri dışa aktarılırken, uygulama .frames, .txt veya .gpx dosyaları oluşturabilir. Bu dosyaları sistem paylaşım menüsü aracılığıyla paylaşmak tamamen sizin kontrolünüzdedir. Geliştirici, dışa aktarılan içeriklere erişemez veya takip edemez.",
+    "paragraph5": "Frames aşağıdaki sistem izinlerini ister:",
+    "permissions": {
+      "line1": {
+        "title": "Kamera",
+        "description": "uygulama içinden doğrudan fotoğraf çekmek için."
+      },
+      "line2": {
+        "title": "Fotoğraflar",
+        "description": "kütüphanenizden referans görüntüleri seçmek için."
+      },
+      "line3": {
+        "title": "Konum (Uygulama Kullanılırken)",
+        "description": "Frames kaydederken GPS koordinatlarını kaydetmek için."
+      }
+    }
+  },
+  "section3": {
+    "heading": "withframes.com Web Sitesi",
+    "paragraph1a": "Frames web sitesi, GitHub Pages üzerinde barındırılan statik bir sitedir.",
+    "paragraph1b": "Çerezler, analiz araçları veya izleme betikleri kullanılmaz. Kişisel veri toplanmaz veya saklanmaz.",
+    "paragraph2": "Cloudflare, sunucu günlüklerine dayalı temel, anonim trafik istatistikleri sağlar. Bu günlükler kişisel olarak tanımlanabilir bilgi içermez ve profilleme veya pazarlama için kullanılmaz.",
+    "paragraph3": "Site, içerik paylaşımı veya yayınları göstermek amacıyla dış web sitelerine ve sosyal medya platformlarına bağlantılar içerir. Bu siteleri ziyaret etmek isteğe bağlıdır ve kendi gizlilik politikalarına tabidir.",
+    "paragraph4": "Site, bilgi toplamak için formlar, bültenler veya diğer etkileşimli özellikler içermez."
+  },
+  "section4": {
+    "heading": "İletişim",
+    "paragraph1": "Bu gizlilik politikasıyla ilgili sorularınız veya endişeleriniz varsa, geliştiriciye şu adresten ulaşabilirsiniz:"
+  },
+  "last_updated": "12 Ekim 2025",
+  "last_updated_iso": "2025-10-12",
     "last_updated_label": "Son güncellenme",
-    "last_updated": "15 Mart 2025",
-    "last_updated_iso": "2025-03-15",
     "button_home": "Ana Sayfa"
   }
 }

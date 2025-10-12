@@ -311,18 +311,49 @@
       "canonical_url": "https://withframes.com/nl/privacybeleid/"
     },
     "heading": "Privacybeleid",
-    "section1": {
-      "heading": "Onze Toewijding aan je Privacy",
-      "paragraph1": "Deze app verzamelt, bewaart of deelt geen persoonlijke gegevens. Alle gebruikersgegevens worden lokaal op je apparaat opgeslagen en nooit verzonden naar een server of derde partij. We gebruiken geen analytics, tracking of online diensten die gebruikersinformatie verzamelen.",
-      "paragraph2": "De app stelt je echter in staat om bestanden te exporteren. Alle gegevens die je kiest om extern te delen of op te slaan, staan onder jouw controle. De ontwikkelaar volgt of benadert geëxporteerde bestanden niet."
-    },
-    "section2": {
-      "heading": "Contact",
-      "paragraph1": "Als je vragen of zorgen hebt, kun je contact opnemen via:"
-    },
+  "headingtoc": "Inhoud",
+  "section1": {
+    "heading": "Inleiding",
+    "paragraph1": "Bij Frames staat jouw privacy voorop. In dit privacybeleid leggen we uit hoe we omgaan met informatie binnen onze iOS- en macOS-apps en op onze website. We zetten ons in voor veiligheid, transparantie en volledige controle over jouw gegevens. Er vindt geen onnodige gegevensverzameling of tracking plaats, en jij bepaalt altijd zelf welke informatie je wilt delen of exporteren."
+  },
+  "section2": {
+    "heading": "Frames voor iOS en macOS",
+    "paragraph1a": "Frames verzamelt, bewaart of deelt geen persoonlijke gegevens.",
+    "paragraph1b": "Alle informatie die je in de app invoert, wordt lokaal op je apparaat opgeslagen en nooit verzonden naar een server of derde partij.",
+    "paragraph2": "De app maakt gebruik van Apple’s StoreKit-framework voor het beheren van abonnementen. Dit proces wordt volledig door Apple afgehandeld, en de ontwikkelaar heeft geen toegang tot persoonlijke gegevens.",
+    "paragraph3": "Frames bevat geen analysetools, tracking of online diensten. De app maakt geen netwerkverbindingen, behalve wanneer het systeem de locatiedienst (CLLocationManager) gebruikt om GPS-coördinaten vast te leggen als je daarvoor kiest.",
+    "paragraph4": "Bij het exporteren van gegevens kan de app .frames-, .txt- of .gpx-bestanden aanmaken. Het delen van deze bestanden via het systeemeigen deelmenu gebeurt volledig onder jouw controle. De ontwikkelaar heeft geen toegang tot of inzicht in geëxporteerde inhoud.",
+    "paragraph5": "Frames vraagt de volgende systeemprestaties:",
+    "permissions": {
+      "line1": {
+        "title": "Camera",
+        "description": "om direct vanuit de app een foto te maken."
+      },
+      "line2": {
+        "title": "Foto’s",
+        "description": "om referentieafbeeldingen uit je bibliotheek te selecteren."
+      },
+      "line3": {
+        "title": "Locatie (tijdens gebruik van de app)",
+        "description": "om GPS-coördinaten vast te leggen wanneer je frames opneemt."
+      }
+    }
+  },
+  "section3": {
+    "heading": "De website withframes.com",
+    "paragraph1a": "De Frames-website is een statische site die wordt gehost op GitHub Pages.",
+    "paragraph1b": "Er worden geen cookies, analysetools of tracking-scripts gebruikt. Er worden geen persoonlijke gegevens verzameld of opgeslagen.",
+    "paragraph2": "Cloudflare levert basis, anonieme verkeersstatistieken op basis van serverlogs. Deze logs bevatten geen persoonlijk identificeerbare informatie en worden niet gebruikt voor profilering of marketing.",
+    "paragraph3": "De website bevat externe links naar andere websites en sociale mediaplatforms om inhoud te delen of vermeldingen van Frames te tonen. Het bezoeken van deze sites is optioneel en valt onder hun eigen privacybeleid.",
+    "paragraph4": "Er worden geen formulieren, nieuwsbrieven of interactieve functies gebruikt om gegevens te verzamelen op deze website."
+  },
+  "section4": {
+    "heading": "Contact opnemen",
+    "paragraph1": "Als je vragen of opmerkingen hebt over dit privacybeleid, kun je contact opnemen met de ontwikkelaar via:"
+  },
+  "last_updated": "12 oktober 2025",
+  "last_updated_iso": "2025-10-12",
     "last_updated_label": "Laatst bijgewerkt",
-    "last_updated": "15 maart 2025",
-    "last_updated_iso": "2025-03-15",
     "button_home": "Home"
   }
 }

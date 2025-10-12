@@ -288,18 +288,49 @@
       "canonical_url": "https://withframes.com/zh-hant/privacy/"
     },
     "heading": "隱私政策",
-    "section1": {
-      "heading": "我們對您隱私的承諾",
-      "paragraph1": "此應用不收集、存儲或共享任何個人資料。所有用戶資料都在本地存儲於您的裝置上，絕不會傳輸到任何伺服器或第三方。我們不使用分析、追蹤或收集用戶資訊的線上服務。",
-      "paragraph2": "但是，該應用允許導出檔案。您選擇外部分享或保存的所有資料都在您的控制之下。開發者不會追蹤或訪問導出的檔案。"
-    },
-    "section2": {
-      "heading": "聯絡方式",
-      "paragraph1": "如果您有任何問題或疑慮，可以透過以下方式與我們聯絡："
-    },
+  "headingtoc": "目錄",
+  "section1": {
+    "heading": "介紹",
+    "paragraph1": "在 Frames，您的隱私是我們的首要任務。本隱私政策說明我們如何在 iOS 和 macOS 應用以及網站中處理資訊。我們致力於保障您的資料安全、透明，並完全由您掌控。不進行不必要的追蹤或資料收集，您始終掌握選擇共享或匯出的資訊。"
+  },
+  "section2": {
+    "heading": "iOS 和 macOS 版 Frames",
+    "paragraph1a": "Frames 不收集、存儲或共享任何個人資料。",
+    "paragraph1b": "您在應用中輸入的所有資訊都存儲在您的裝置本地，絕不會傳輸到任何伺服器或第三方。",
+    "paragraph2": "應用使用 Apple 的 StoreKit 框架管理訂閱。此過程完全由 Apple 處理，開發者無法存取任何個人資訊。",
+    "paragraph3": "Frames 不包含分析、追蹤或線上服務。應用不會建立網路連線，除非使用系統定位服務（CLLocationManager）記錄 GPS 座標，前提是您選擇使用此功能。",
+    "paragraph4": "在匯出資料時，應用可能會生成 .frames、.txt 或 .gpx 檔案。透過系統分享選單分享這些檔案完全由您控制。開發者無法存取或追蹤匯出內容。",
+    "paragraph5": "Frames 需要以下系統權限：",
+    "permissions": {
+      "line1": {
+        "title": "相機",
+        "description": "用於直接在應用中拍照。"
+      },
+      "line2": {
+        "title": "照片",
+        "description": "用於從照片庫中選擇參考影像。"
+      },
+      "line3": {
+        "title": "定位（使用應用時）",
+        "description": "用於在記錄框架時記錄 GPS 座標。"
+      }
+    }
+  },
+  "section3": {
+    "heading": "withframes.com 網站",
+    "paragraph1a": "Frames 網站是一個靜態網站，託管於 GitHub Pages。",
+    "paragraph1b": "網站不使用 Cookie、分析工具或追蹤腳本。不收集或儲存任何個人資料。",
+    "paragraph2": "Cloudflare 基於伺服器日誌提供基本的匿名流量統計。這些日誌不包含可識別個人的資訊，也不作為用戶分析或行銷用途。",
+    "paragraph3": "網站包含指向外部網站及社交平台的連結，用於分享內容或引用文章。訪問這些網站為選擇性行為，並受其各自隱私政策約束。",
+    "paragraph4": "網站沒有表單、電子報或其他收集資訊的互動功能。"
+  },
+  "section4": {
+    "heading": "聯絡我們",
+    "paragraph1": "如果您對本隱私政策有任何疑問或關注，可以透過以下方式聯絡開發者："
+  },
+  "last_updated": "2025年10月12日",
+  "last_updated_iso": "2025-10-12",
     "last_updated_label": "最後更新",
-    "last_updated": "2025年3月15日",
-    "last_updated_iso": "2025-03-15",
     "button_home": "主頁"
   },
   "changelog": {

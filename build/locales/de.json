@@ -312,18 +312,49 @@
       "canonical_url": "https://withframes.com/de/datenschutz/"
     },
     "heading": "Datenschutzerklärung",
-    "section1": {
-      "heading": "Unser Engagement für Ihren Datenschutz",
-      "paragraph1": "Diese App sammelt, speichert oder teilt keine persönlichen Daten. Alle Nutzerdaten werden lokal auf Ihrem Gerät gespeichert und niemals an Server oder Dritte übertragen. Wir verwenden keine Analysen, Tracking oder Online-Dienste, die Nutzerinformationen sammeln.",
-      "paragraph2": "Die App ermöglicht jedoch den Export von Dateien. Alle Daten, die Sie extern teilen oder speichern möchten, unterliegen Ihrer Kontrolle. Der Entwickler verfolgt oder greift nicht auf exportierte Dateien zu."
-    },
-    "section2": {
-      "heading": "Kontakt",
-      "paragraph1": "Bei Fragen oder Anliegen können Sie uns kontaktieren unter:"
-    },
+  "headingtoc": "Inhalt",
+  "section1": {
+    "heading": "Einleitung",
+    "paragraph1": "Bei Frames hat der Schutz deiner Privatsphäre höchste Priorität. Diese Datenschutzerklärung erläutert, wie wir Informationen in unseren iOS- und macOS-Apps sowie auf unserer Website verarbeiten. Wir setzen uns dafür ein, deine Daten sicher, transparent und unter deiner Kontrolle zu halten. Es findet keine unnötige Erfassung oder Nachverfolgung statt – du entscheidest stets selbst, welche Informationen du teilen oder exportieren möchtest."
+  },
+  "section2": {
+    "heading": "Frames für iOS und macOS",
+    "paragraph1a": "Frames erfasst, speichert oder teilt keine personenbezogenen Daten.",
+    "paragraph1b": "Alle Informationen, die du in der App eingibst, werden ausschließlich lokal auf deinem Gerät gespeichert und niemals an einen Server oder Dritte übertragen.",
+    "paragraph2": "Die App verwendet Apples StoreKit-Framework zur Verwaltung von Abonnements. Dieser Prozess wird vollständig von Apple abgewickelt, und keine persönlichen Daten sind für den Entwickler zugänglich.",
+    "paragraph3": "Frames enthält keine Analyse-, Tracking- oder Onlinedienste. Die App stellt keine Netzwerkverbindungen her, außer wenn sie den Ortungsdienst des Systems (CLLocationManager) verwendet, um GPS-Koordinaten zu erfassen, sofern du dich dafür entscheidest.",
+    "paragraph4": "Beim Exportieren von Daten kann die App .frames-, .txt- oder .gpx-Dateien erstellen. Das Teilen dieser Dateien über das systemeigene Teilen-Menü liegt vollständig in deiner Kontrolle. Der Entwickler hat keinen Zugriff auf exportierte Inhalte und verfolgt deren Nutzung nicht.",
+    "paragraph5": "Frames erfordert die folgenden Systemberechtigungen:",
+    "permissions": {
+      "line1": {
+        "title": "Kamera",
+        "description": "um direkt in der App Fotos aufzunehmen."
+      },
+      "line2": {
+        "title": "Fotos",
+        "description": "um Referenzbilder aus deiner Mediathek auszuwählen."
+      },
+      "line3": {
+        "title": "Standort (bei App-Nutzung)",
+        "description": "um deine GPS-Koordinaten zu speichern, während du Aufnahmen erstellst."
+      }
+    }
+  },
+  "section3": {
+    "heading": "Website withframes.com",
+    "paragraph1a": "Die Website von Frames ist eine statische Seite, die über GitHub Pages gehostet wird.",
+    "paragraph1b": "Sie verwendet keine Cookies, Analysewerkzeuge oder Tracking-Skripte. Es werden keine personenbezogenen Daten erhoben oder gespeichert.",
+    "paragraph2": "Cloudflare stellt grundlegende, anonyme Verkehrsstatistiken auf Basis von Serverprotokollen bereit. Diese Daten enthalten keine persönlich identifizierbaren Informationen und werden nicht für Profiling oder Marketingzwecke genutzt.",
+    "paragraph3": "Die Website enthält ausgehende Links zu externen Websites und sozialen Plattformen, um Inhalte zu teilen oder Veröffentlichungen zu erwähnen. Der Besuch dieser Seiten ist freiwillig und unterliegt deren eigenen Datenschutzrichtlinien.",
+    "paragraph4": "Auf dieser Website werden keine Daten über Formulare, Newsletter oder interaktive Funktionen erfasst."
+  },
+  "section4": {
+    "heading": "Kontakt",
+    "paragraph1": "Wenn du Fragen oder Bedenken zu dieser Datenschutzerklärung hast, kannst du den Entwickler unter folgender Adresse kontaktieren:"
+  },
+  "last_updated": "12. Oktober 2025",
+  "last_updated_iso": "2025-10-12",
     "last_updated_label": "Zuletzt aktualisiert",
-    "last_updated": "15. März 2025",
-    "last_updated_iso": "2025-03-15",
     "button_home": "Startseite"
   }
 }

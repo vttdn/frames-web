@@ -288,18 +288,49 @@
       "canonical_url": "https://withframes.com/id/kebijakan-privasi/"
     },
     "heading": "Kebijakan Privasi",
-    "section1": {
-      "heading": "Komitmen Kami terhadap Privasi Anda",
-      "paragraph1": "Aplikasi ini tidak mengumpulkan, menyimpan, atau membagikan data pribadi apa pun. Semua data pengguna disimpan secara lokal di perangkat Anda dan tidak pernah dikirimkan ke server atau pihak ketiga mana pun. Kami tidak menggunakan analitik, pelacakan, atau layanan online yang mengumpulkan informasi pengguna.",
-      "paragraph2": "Namun, aplikasi memungkinkan Anda untuk mengekspor file. Data apa pun yang Anda pilih untuk dibagikan atau disimpan secara eksternal berada di bawah kendali Anda. Developer tidak melacak atau mengakses file yang diekspor."
-    },
-    "section2": {
-      "heading": "Kontak",
-      "paragraph1": "Jika Anda memiliki pertanyaan atau kekhawatiran, Anda dapat menghubungi di:"
-    },
+  "headingtoc": "Daftar Isi",
+  "section1": {
+    "heading": "Pendahuluan",
+    "paragraph1": "Di Frames, privasi Anda adalah prioritas kami. Kebijakan Privasi ini menjelaskan bagaimana kami menangani informasi di aplikasi iOS dan macOS kami serta di situs web kami. Kami berkomitmen untuk menjaga keamanan data Anda, bersikap transparan, dan memberi Anda kendali penuh atas informasi Anda. Kami tidak melakukan pelacakan atau pengumpulan data yang tidak perlu — Anda selalu memutuskan data apa yang ingin dibagikan atau diekspor."
+  },
+  "section2": {
+    "heading": "Frames untuk iOS dan macOS",
+    "paragraph1a": "Frames tidak mengumpulkan, menyimpan, atau membagikan data pribadi apa pun.",
+    "paragraph1b": "Semua informasi yang Anda masukkan ke dalam aplikasi disimpan secara lokal di perangkat Anda dan tidak pernah dikirim ke server atau pihak ketiga mana pun.",
+    "paragraph2": "Aplikasi ini menggunakan framework StoreKit dari Apple untuk mengelola langganan. Proses ini sepenuhnya ditangani oleh Apple, dan pengembang tidak memiliki akses ke informasi pribadi Anda.",
+    "paragraph3": "Frames tidak menggunakan analitik, pelacakan, atau layanan daring apa pun. Aplikasi ini tidak membuat koneksi jaringan, kecuali saat menggunakan layanan lokasi sistem (CLLocationManager) untuk mencatat koordinat GPS jika Anda memilih untuk melakukannya.",
+    "paragraph4": "Saat mengekspor data, aplikasi dapat membuat file .frames, .txt, atau .gpx. Berbagi file ini melalui menu berbagi sistem sepenuhnya berada di bawah kendali Anda. Pengembang tidak memiliki akses atau melacak konten yang diekspor.",
+    "paragraph5": "Frames meminta izin sistem berikut:",
+    "permissions": {
+      "line1": {
+        "title": "Kamera",
+        "description": "untuk mengambil foto langsung dari aplikasi."
+      },
+      "line2": {
+        "title": "Foto",
+        "description": "untuk memilih gambar referensi dari pustaka Anda."
+      },
+      "line3": {
+        "title": "Lokasi (Saat Menggunakan Aplikasi)",
+        "description": "untuk merekam koordinat GPS Anda saat mengambil frame."
+      }
+    }
+  },
+  "section3": {
+    "heading": "Situs Web withframes.com",
+    "paragraph1a": "Situs web Frames adalah situs statis yang dihosting di GitHub Pages.",
+    "paragraph1b": "Situs ini tidak menggunakan cookie, analitik, atau skrip pelacakan. Tidak ada data pribadi yang dikumpulkan atau disimpan.",
+    "paragraph2": "Cloudflare menyediakan statistik lalu lintas dasar secara anonim berdasarkan log server. Log ini tidak berisi informasi pribadi dan tidak digunakan untuk profil atau pemasaran.",
+    "paragraph3": "Situs ini menyertakan tautan ke situs web eksternal dan platform media sosial untuk berbagi konten atau menyebutkan publikasi. Mengunjungi situs-situs tersebut bersifat opsional dan tunduk pada kebijakan privasi masing-masing.",
+    "paragraph4": "Situs web ini tidak memiliki formulir, buletin, atau fitur interaktif lain yang mengumpulkan data."
+  },
+  "section4": {
+    "heading": "Menghubungi Kami",
+    "paragraph1": "Jika Anda memiliki pertanyaan atau kekhawatiran mengenai kebijakan privasi ini, Anda dapat menghubungi pengembang di:"
+  },
+  "last_updated": "12 Oktober 2025",
+  "last_updated_iso": "2025-10-12",
     "last_updated_label": "Terakhir diperbarui",
-    "last_updated": "15 Mar 2025",
-    "last_updated_iso": "2025-03-15",
     "button_home": "Beranda"
   },
   "changelog": {

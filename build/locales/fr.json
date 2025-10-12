@@ -312,18 +312,49 @@
       "canonical_url": "https://withframes.com/fr/confidentialite/"
     },
     "heading": "Politique de Confidentialité",
-    "section1": {
-      "heading": "Notre Engagement envers Votre Confidentialité",
-      "paragraph1": "Cette application ne collecte, ne stocke ni ne partage aucune donnée personnelle. Toutes les données utilisateur sont stockées localement sur votre appareil et ne sont jamais transmises à un serveur ou à un tiers. Nous n'utilisons pas d'analytique, de suivi ou de services en ligne qui collectent des informations utilisateur.",
-      "paragraph2": "Cependant, l'application vous permet d'exporter des fichiers. Toutes les données que vous choisissez de partager ou d'enregistrer en externe sont sous votre contrôle. Le développeur ne suit ni n'accède aux fichiers exportés."
-    },
-    "section2": {
-      "heading": "Contact",
-      "paragraph1": "Si vous avez des questions ou des préoccupations, vous pouvez nous contacter à :"
-    },
+    "headingtoc": "Sommaire",
+  "section1": {
+    "heading": "Introduction",
+    "paragraph1": "Chez Frames, la protection de votre vie privée est une priorité. Cette politique de confidentialité décrit la manière dont nous gérons les informations au sein de nos applications iOS et macOS ainsi que sur notre site web. Nous nous engageons à assurer la sécurité et la transparence de vos données, tout en vous laissant un contrôle total. Aucune collecte ni aucun suivi inutile n’ont lieu, et vous restez toujours maître des informations que vous choisissez de partager ou d’exporter."
+  },
+  "section2": {
+    "heading": "Frames pour iOS et macOS",
+    "paragraph1a": "Frames ne collecte, ne stocke ni ne partage aucune donnée personnelle.",
+    "paragraph1b": "Toutes les informations que vous saisissez dans l’application sont enregistrées localement sur votre appareil et ne sont jamais transmises à un serveur ou à un tiers.",
+    "paragraph2": "L’application utilise le framework StoreKit d’Apple pour la gestion des abonnements. Ce processus est entièrement pris en charge par Apple, et aucune information personnelle n’est accessible au développeur.",
+    "paragraph3": "Frames n’intègre aucun service d’analyse, de suivi ou de connexion en ligne. L’application n’effectue aucune connexion réseau, à l’exception de l’utilisation du service de localisation du système (CLLocationManager) lorsque vous choisissez d’enregistrer vos coordonnées GPS.",
+    "paragraph4": "Lors de l’exportation de vos données, l’application peut générer des fichiers .frames, .txt ou .gpx. Le partage de ces fichiers via le menu de partage du système est entièrement sous votre contrôle. Le développeur n’y a jamais accès et ne suit pas leur utilisation.",
+    "paragraph5": "Frames demande les autorisations système suivantes :",
+    "permissions": {
+      "line1": {
+        "title": "Appareil photo",
+        "description": "pour prendre une photo directement depuis l’application."
+      },
+      "line2": {
+        "title": "Photos",
+        "description": "pour sélectionner des images de référence depuis votre bibliothèque."
+      },
+      "line3": {
+        "title": "Localisation (lors de l’utilisation de l’app)",
+        "description": "pour enregistrer vos coordonnées GPS lors de la capture de vos prises de vue."
+      }
+    }
+  },
+  "section3": {
+    "heading": "Site web withframes.com",
+    "paragraph1a": "Le site web de Frames est un site statique hébergé sur GitHub Pages.",
+    "paragraph1b": "Il n’utilise aucun cookie, outil d’analyse ni script de suivi. Aucune donnée personnelle n’est collectée ni conservée.",
+    "paragraph2": "Cloudflare fournit des statistiques de trafic basées sur les journaux serveur. Ces données sont anonymes, ne contiennent aucune information personnelle identifiable et ne sont pas utilisées à des fins de profilage ou de marketing.",
+    "paragraph3": "Le site contient des liens sortants vers d’autres sites web et réseaux sociaux, permettant le partage de contenu ou la mention de publications. La visite de ces sites est facultative et soumise à leurs propres politiques de confidentialité.",
+    "paragraph4": "Aucun formulaire, bulletin d’information ou service interactif ne recueille d’informations sur ce site."
+  },
+  "section4": {
+    "heading": "Nous contacter",
+    "paragraph1": "Pour toute question ou préoccupation concernant cette politique de confidentialité, vous pouvez contacter le développeur à l’adresse suivante :"
+  },
     "last_updated_label": "Dernière mise à jour",
-    "last_updated": "15 mars 2025",
-    "last_updated_iso": "2025-03-15",
+    "last_updated": "12 octobre 2025",
+    "last_updated_iso": "2025-10-12",
     "button_home": "Accueil"
   }
 }

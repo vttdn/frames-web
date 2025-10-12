@@ -288,18 +288,49 @@
       "canonical_url": "https://withframes.com/vi/chinh-sach-rieng-tu/"
     },
     "heading": "Chính Sách Bảo Mật",
-    "section1": {
-      "heading": "Cam Kết của Chúng Tôi về Quyền Riêng Tư",
-      "paragraph1": "Ứng dụng này không thu thập, lưu trữ hoặc chia sẻ bất kỳ dữ liệu cá nhân nào. Tất cả dữ liệu người dùng được lưu trữ cục bộ trên thiết bị của bạn và không bao giờ được truyền đến bất kỳ máy chủ hoặc bên thứ ba nào. Chúng tôi không sử dụng phân tích, theo dõi hoặc các dịch vụ trực tuyến thu thập thông tin người dùng.",
-      "paragraph2": "Tuy nhiên, ứng dụng cho phép bạn xuất tệp. Bất kỳ dữ liệu nào bạn chọn chia sẻ hoặc lưu bên ngoài đều nằm dưới sự kiểm soát của bạn. Nhà phát triển không theo dõi hoặc truy cập các tệp đã xuất."
-    },
-    "section2": {
-      "heading": "Liên Hệ",
-      "paragraph1": "Nếu bạn có bất kỳ câu hỏi hoặc mối quan tâm nào, bạn có thể liên hệ tại:"
-    },
+  "headingtoc": "Mục lục",
+  "section1": {
+    "heading": "Giới thiệu",
+    "paragraph1": "Tại Frames, quyền riêng tư của bạn là ưu tiên hàng đầu của chúng tôi. Chính sách quyền riêng tư này giải thích cách chúng tôi xử lý thông tin trong các ứng dụng iOS và macOS của chúng tôi cũng như trên trang web. Chúng tôi cam kết giữ dữ liệu của bạn an toàn, minh bạch và dưới quyền kiểm soát của bạn. Không có việc theo dõi hoặc thu thập dữ liệu không cần thiết, và bạn luôn là người quyết định thông tin nào muốn chia sẻ hoặc xuất ra."
+  },
+  "section2": {
+    "heading": "Frames cho iOS và macOS",
+    "paragraph1a": "Frames không thu thập, lưu trữ hoặc chia sẻ bất kỳ dữ liệu cá nhân nào.",
+    "paragraph1b": "Tất cả thông tin bạn nhập vào ứng dụng được lưu trữ cục bộ trên thiết bị của bạn và không bao giờ được gửi tới bất kỳ máy chủ hoặc bên thứ ba nào.",
+    "paragraph2": "Ứng dụng sử dụng framework StoreKit của Apple để quản lý đăng ký. Quá trình này được Apple xử lý hoàn toàn, và nhà phát triển không thể truy cập bất kỳ thông tin cá nhân nào.",
+    "paragraph3": "Frames không bao gồm công cụ phân tích, theo dõi hay dịch vụ trực tuyến. Ứng dụng không kết nối mạng, trừ khi sử dụng dịch vụ vị trí của hệ thống (CLLocationManager) để ghi lại tọa độ GPS nếu bạn chọn sử dụng.",
+    "paragraph4": "Khi xuất dữ liệu, ứng dụng có thể tạo các tệp .frames, .txt hoặc .gpx. Việc chia sẻ các tệp này qua menu chia sẻ của hệ thống hoàn toàn dưới quyền kiểm soát của bạn. Nhà phát triển không truy cập hoặc theo dõi nội dung xuất ra.",
+    "paragraph5": "Frames yêu cầu các quyền hệ thống sau:",
+    "permissions": {
+      "line1": {
+        "title": "Camera",
+        "description": "để chụp ảnh trực tiếp từ ứng dụng."
+      },
+      "line2": {
+        "title": "Ảnh",
+        "description": "để chọn hình ảnh tham chiếu từ thư viện của bạn."
+      },
+      "line3": {
+        "title": "Vị trí (Khi sử dụng ứng dụng)",
+        "description": "để ghi lại tọa độ GPS khi ghi lại các khung hình."
+      }
+    }
+  },
+  "section3": {
+    "heading": "Trang web withframes.com",
+    "paragraph1a": "Trang web Frames là một trang tĩnh được lưu trữ trên GitHub Pages.",
+    "paragraph1b": "Trang không sử dụng cookie, công cụ phân tích hay script theo dõi. Không có dữ liệu cá nhân nào được thu thập hoặc lưu trữ.",
+    "paragraph2": "Cloudflare cung cấp thống kê lưu lượng cơ bản, ẩn danh dựa trên nhật ký máy chủ. Các nhật ký này không chứa thông tin cá nhân và không được sử dụng cho mục đích phân tích hồ sơ hoặc tiếp thị.",
+    "paragraph3": "Trang có chứa liên kết đến các trang web bên ngoài và nền tảng mạng xã hội để chia sẻ nội dung hoặc ghi nhận các bài viết. Việc truy cập các trang này là tùy chọn và tuân theo chính sách quyền riêng tư của các trang đó.",
+    "paragraph4": "Trang không có biểu mẫu, bản tin hay các tính năng tương tác khác để thu thập thông tin."
+  },
+  "section4": {
+    "heading": "Liên hệ",
+    "paragraph1": "Nếu bạn có câu hỏi hoặc thắc mắc về chính sách quyền riêng tư này, bạn có thể liên hệ với nhà phát triển tại địa chỉ:"
+  },
+  "last_updated": "12 tháng 10, 2025",
+  "last_updated_iso": "2025-10-12",
     "last_updated_label": "Cập nhật lần cuối",
-    "last_updated": "15 tháng 3, 2025",
-    "last_updated_iso": "2025-03-15",
     "button_home": "Trang Chủ"
   }
 }

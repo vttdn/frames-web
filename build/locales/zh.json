@@ -288,18 +288,49 @@
       "canonical_url": "https://withframes.com/zh/privacy/"
     },
     "heading": "隐私政策",
-    "section1": {
-      "heading": "我们对您隐私的承诺",
-      "paragraph1": "此应用不收集、存储或共享任何个人数据。所有用户数据都在本地存储在您的设备上，绝不会传输到任何服务器或第三方。我们不使用分析、跟踪或收集用户信息的在线服务。",
-      "paragraph2": "但是，该应用允许导出文件。您选择外部分享或保存的所有数据都在您的控制之下。开发者不会跟踪或访问导出的文件。"
-    },
-    "section2": {
-      "heading": "联系方式",
-      "paragraph1": "如果您有任何问题或疑虑，可以通过以下方式与我们联系："
-    },
+  "headingtoc": "目录",
+  "section1": {
+    "heading": "介绍",
+    "paragraph1": "在 Frames，您的隐私是我们的首要任务。本隐私政策说明我们如何在 iOS 和 macOS 应用以及网站中处理信息。我们致力于保障您的数据安全、透明，并且完全由您掌控。不进行不必要的跟踪或数据收集，您始终掌握选择共享或导出的信息。"
+  },
+  "section2": {
+    "heading": "iOS 和 macOS 版 Frames",
+    "paragraph1a": "Frames 不收集、存储或共享任何个人数据。",
+    "paragraph1b": "您在应用中输入的所有信息都存储在您的设备本地，绝不会传输到任何服务器或第三方。",
+    "paragraph2": "应用使用 Apple 的 StoreKit 框架管理订阅。此过程完全由 Apple 处理，开发者无法访问任何个人信息。",
+    "paragraph3": "Frames 不包含分析、跟踪或在线服务。应用不会进行网络连接，除非使用系统定位服务（CLLocationManager）记录 GPS 坐标，前提是您选择使用此功能。",
+    "paragraph4": "在导出数据时，应用可能会生成 .frames、.txt 或 .gpx 文件。通过系统共享菜单分享这些文件完全由您控制。开发者无法访问或跟踪导出内容。",
+    "paragraph5": "Frames 需要以下系统权限：",
+    "permissions": {
+      "line1": {
+        "title": "相机",
+        "description": "用于直接在应用中拍照。"
+      },
+      "line2": {
+        "title": "照片",
+        "description": "用于从照片库中选择参考图像。"
+      },
+      "line3": {
+        "title": "定位（使用应用时）",
+        "description": "用于在记录帧时记录 GPS 坐标。"
+      }
+    }
+  },
+  "section3": {
+    "heading": "withframes.com 网站",
+    "paragraph1a": "Frames 网站是一个静态网站，托管在 GitHub Pages 上。",
+    "paragraph1b": "网站不使用 Cookie、分析工具或跟踪脚本。不收集或存储任何个人数据。",
+    "paragraph2": "Cloudflare 基于服务器日志提供基本的匿名流量统计。这些日志不包含可识别个人的信息，也不用于用户画像或营销。",
+    "paragraph3": "网站包含指向外部网站和社交平台的链接，用于分享内容或引用文章。访问这些网站是可选的，并受其各自隐私政策约束。",
+    "paragraph4": "网站没有表单、通讯订阅或其他收集信息的互动功能。"
+  },
+  "section4": {
+    "heading": "联系我们",
+    "paragraph1": "如果您对本隐私政策有任何疑问或关注，可以通过以下方式联系开发者："
+  },
+  "last_updated": "2025年10月12日",
+  "last_updated_iso": "2025-10-12",
     "last_updated_label": "最后更新",
-    "last_updated": "2025年3月15日",
-    "last_updated_iso": "2025-03-15",
     "button_home": "主页"
   },
   "changelog": {

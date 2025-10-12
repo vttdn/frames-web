@@ -287,18 +287,49 @@
       "canonical_url": "https://withframes.com/ro/politica-confidentialitate/"
     },
     "heading": "Politica de Confidențialitate",
-    "section1": {
-      "heading": "Angajamentul Nostru față de Confidențialitatea Ta",
-      "paragraph1": "Această aplicație nu colectează, nu stochează și nu partajează date personale. Toate datele utilizatorului sunt stocate local pe dispozitivul tău și nu sunt niciodată transmise către niciun server sau terț. Nu folosim analiză, urmărire sau servicii online care colectează informații despre utilizatori.",
-      "paragraph2": "Totuși, aplicația îți permite să exporți fișiere. Orice date pe care alegi să le partajezi sau să le salvezi extern sunt sub controlul tău. Dezvoltatorul nu urmărește și nu are acces la fișierele exportate."
-    },
-    "section2": {
-      "heading": "Contact",
-      "paragraph1": "Dacă ai întrebări sau nelămuriri, ne poți contacta la:"
-    },
+  "headingtoc": "Cuprins",
+  "section1": {
+    "heading": "Introducere",
+    "paragraph1": "La Frames, confidențialitatea ta este prioritatea noastră. Această politică de confidențialitate explică modul în care gestionăm informațiile în aplicațiile noastre pentru iOS și macOS, precum și pe site-ul nostru web. Ne angajăm să păstrăm datele tale în siguranță, să fim transparenți și să îți oferim control complet. Nu colectăm sau urmărim informații inutile — tu decizi întotdeauna ce date dorești să partajezi sau să exporți."
+  },
+  "section2": {
+    "heading": "Frames pentru iOS și macOS",
+    "paragraph1a": "Frames nu colectează, stochează sau distribuie date personale.",
+    "paragraph1b": "Toate informațiile pe care le introduci în aplicație sunt stocate local pe dispozitivul tău și nu sunt niciodată transmise către servere sau terți.",
+    "paragraph2": "Aplicația utilizează framework-ul StoreKit de la Apple pentru gestionarea abonamentelor. Acest proces este gestionat integral de Apple, iar dezvoltatorul nu are acces la informații personale.",
+    "paragraph3": "Frames nu include instrumente de analiză, urmărire sau servicii online. Aplicația nu realizează conexiuni de rețea, cu excepția utilizării serviciului de localizare al sistemului (CLLocationManager) pentru a înregistra coordonate GPS, dacă alegi să faci acest lucru.",
+    "paragraph4": "La exportul datelor, aplicația poate crea fișiere .frames, .txt sau .gpx. Partajarea acestor fișiere prin meniul de partajare al sistemului se află complet sub controlul tău. Dezvoltatorul nu are acces și nu urmărește conținutul exportat.",
+    "paragraph5": "Frames solicită următoarele permisiuni ale sistemului:",
+    "permissions": {
+      "line1": {
+        "title": "Cameră",
+        "description": "pentru a face fotografii direct din aplicație."
+      },
+      "line2": {
+        "title": "Fotografii",
+        "description": "pentru a selecta imagini de referință din biblioteca ta."
+      },
+      "line3": {
+        "title": "Locație (în timpul utilizării aplicației)",
+        "description": "pentru a înregistra coordonatele GPS atunci când capturezi cadre."
+      }
+    }
+  },
+  "section3": {
+    "heading": "Site-ul withframes.com",
+    "paragraph1a": "Site-ul Frames este un site static găzduit pe GitHub Pages.",
+    "paragraph1b": "Nu folosește cookie-uri, instrumente de analiză sau scripturi de urmărire. Nu se colectează și nu se stochează date personale.",
+    "paragraph2": "Cloudflare furnizează statistici de trafic de bază, anonime, pe baza jurnalelor de server. Aceste jurnale nu conțin informații personale și nu sunt folosite pentru profilare sau marketing.",
+    "paragraph3": "Site-ul include linkuri către site-uri externe și platforme de social media pentru partajarea conținutului sau recunoașterea publicațiilor. Vizitarea acestor site-uri este opțională și supusă politicilor lor de confidențialitate.",
+    "paragraph4": "Site-ul nu colectează informații prin formulare, newslettere sau alte funcții interactive."
+  },
+  "section4": {
+    "heading": "Contact",
+    "paragraph1": "Dacă ai întrebări sau nelămuriri privind această politică de confidențialitate, poți contacta dezvoltatorul la următoarea adresă:"
+  },
+  "last_updated": "12 octombrie 2025",
+  "last_updated_iso": "2025-10-12",
     "last_updated_label": "Ultima actualizare",
-    "last_updated": "15 mar. 2025",
-    "last_updated_iso": "2025-03-15",
     "button_home": "Acasă"
   }
 }

@@ -312,18 +312,49 @@
       "canonical_url": "https://withframes.com/sv/integritetspolicy/"
     },
     "heading": "Integritetspolicy",
-    "section1": {
-      "heading": "Vårt Engagemang för Din Integritet",
-      "paragraph1": "Denna app samlar inte in, lagrar eller delar någon personlig data. All användardata lagras lokalt på din enhet och överförs aldrig till någon server eller tredje part. Vi använder inte analytics, spårning eller onlinetjänster som samlar in användarinformation.",
-      "paragraph2": "Appen tillåter dock export av filer. All data du väljer att dela eller spara externt är under din kontroll. Utvecklaren spårar inte eller får tillgång till exporterade filer."
-    },
-    "section2": {
-      "heading": "Kontakt",
-      "paragraph1": "Om du har några frågor eller funderingar kan du kontakta oss på:"
-    },
+  "headingtoc": "Innehåll",
+  "section1": {
+    "heading": "Introduktion",
+    "paragraph1": "På Frames är din integritet vår högsta prioritet. Denna integritetspolicy förklarar hur vi hanterar information i våra iOS- och macOS-appar samt på vår webbplats. Vi arbetar för att hålla dina uppgifter säkra, hantera dem på ett transparent sätt och ge dig full kontroll. Ingen onödig spårning eller insamling sker, och du bestämmer alltid själv vilken information du vill dela eller exportera."
+  },
+  "section2": {
+    "heading": "Frames för iOS och macOS",
+    "paragraph1a": "Frames samlar inte in, lagrar eller delar personuppgifter.",
+    "paragraph1b": "All information som du anger i appen lagras lokalt på din enhet och skickas aldrig till någon server eller tredje part.",
+    "paragraph2": "Appen använder Apples StoreKit-ramverk för att hantera prenumerationer. Denna process hanteras helt av Apple, och utvecklaren har ingen åtkomst till personliga uppgifter.",
+    "paragraph3": "Frames innehåller inga analysverktyg, spårning eller online-tjänster. Appen upprättar inga nätverksanslutningar, förutom när systemets platsfunktion (CLLocationManager) används för att registrera GPS-koordinater om du väljer att göra det.",
+    "paragraph4": "Vid export av data kan appen skapa .frames-, .txt- eller .gpx-filer. Att dela dessa filer via systemets delningsmeny sker helt under din kontroll. Utvecklaren har ingen åtkomst till eller spårar det exporterade innehållet.",
+    "paragraph5": "Frames begär följande systemtillstånd:",
+    "permissions": {
+      "line1": {
+        "title": "Kamera",
+        "description": "för att ta bilder direkt från appen."
+      },
+      "line2": {
+        "title": "Bilder",
+        "description": "för att välja referensbilder från ditt fotobibliotek."
+      },
+      "line3": {
+        "title": "Plats (under användning av appen)",
+        "description": "för att registrera GPS-koordinater när du sparar frames."
+      }
+    }
+  },
+  "section3": {
+    "heading": "Webbplatsen withframes.com",
+    "paragraph1a": "Frames webbplats är en statisk sida som hostas på GitHub Pages.",
+    "paragraph1b": "Den använder inga cookies, analysverktyg eller spårningsskript. Inga personuppgifter samlas in eller lagras.",
+    "paragraph2": "Cloudflare tillhandahåller grundläggande, anonym trafikstatistik baserad på serverloggar. Dessa loggar innehåller ingen personligt identifierbar information och används inte för profilering eller marknadsföring.",
+    "paragraph3": "Webbplatsen innehåller länkar till externa webbplatser och sociala medieplattformar för att dela innehåll eller visa omnämnanden. Besök på dessa sidor är frivilligt och omfattas av deras egna integritetspolicys.",
+    "paragraph4": "Webbplatsen samlar inte in information via formulär, nyhetsbrev eller andra interaktiva funktioner."
+  },
+  "section4": {
+    "heading": "Kontakt",
+    "paragraph1": "Om du har frågor eller funderingar kring denna integritetspolicy kan du kontakta utvecklaren på följande adress:"
+  },
+  "last_updated": "12 oktober 2025",
+  "last_updated_iso": "2025-10-12",
     "last_updated_label": "Senast uppdaterad",
-    "last_updated": "15 mars 2025",
-    "last_updated_iso": "2025-03-15",
     "button_home": "Hem"
   }
 }

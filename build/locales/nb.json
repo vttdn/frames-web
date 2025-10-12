@@ -288,18 +288,49 @@
       "canonical_url": "https://withframes.com/nb/personvern/"
     },
     "heading": "Personvernerklæring",
-    "section1": {
-      "heading": "Vår Forpliktelse til Ditt Personvern",
-      "paragraph1": "Denne appen samler ikke inn, lagrer eller deler personlige data. All brukerdata lagres lokalt på enheten din og overføres aldri til noen server eller tredjepart. Vi bruker ikke analyse, sporing eller nettjenester som samler inn brukerinformasjon.",
-      "paragraph2": "Appen lar deg imidlertid eksportere filer. All data du velger å dele eller lagre eksternt er under din kontroll. Utvikleren sporer ikke eller får tilgang til eksporterte filer."
-    },
-    "section2": {
-      "heading": "Kontakt",
-      "paragraph1": "Hvis du har spørsmål eller bekymringer, kan du ta kontakt på:"
-    },
+  "headingtoc": "Innhold",
+  "section1": {
+    "heading": "Introduksjon",
+    "paragraph1": "I Frames er personvernet ditt vår høyeste prioritet. Denne personvernerklæringen forklarer hvordan vi håndterer informasjon i våre iOS- og macOS-apper, samt på nettstedet vårt. Vi er forpliktet til å holde dataene dine sikre, behandle dem med åpenhet og gi deg full kontroll. Vi samler ikke inn eller sporer unødvendig informasjon, og du har alltid kontroll over hva du velger å dele eller eksportere."
+  },
+  "section2": {
+    "heading": "Frames for iOS og macOS",
+    "paragraph1a": "Frames samler ikke inn, lagrer eller deler personlig data.",
+    "paragraph1b": "All informasjon du legger inn i appen lagres lokalt på enheten din og sendes aldri til noen server eller tredjepart.",
+    "paragraph2": "Appen bruker Apples StoreKit-rammeverk for å håndtere abonnementer. Denne prosessen håndteres fullt ut av Apple, og utvikleren har ingen tilgang til personopplysninger.",
+    "paragraph3": "Frames inneholder ingen analyseverktøy, sporing eller nettbaserte tjenester. Appen oppretter ingen nettverkstilkoblinger, bortsett fra når den bruker systemets posisjonstjeneste (CLLocationManager) for å registrere GPS-koordinater dersom du velger å aktivere det.",
+    "paragraph4": "Når du eksporterer data, kan appen opprette .frames-, .txt- eller .gpx-filer. Deling av disse filene gjennom systemets delingsmeny er helt under din kontroll. Utvikleren har ingen tilgang til eller oversikt over eksportert innhold.",
+    "paragraph5": "Frames ber om følgende systemtillatelser:",
+    "permissions": {
+      "line1": {
+        "title": "Kamera",
+        "description": "for å ta bilder direkte fra appen."
+      },
+      "line2": {
+        "title": "Bilder",
+        "description": "for å velge referansebilder fra bildebiblioteket ditt."
+      },
+      "line3": {
+        "title": "Posisjon (mens appen brukes)",
+        "description": "for å registrere GPS-koordinater når du lagrer rammer."
+      }
+    }
+  },
+  "section3": {
+    "heading": "withframes.com-nettstedet",
+    "paragraph1a": "Frames-nettstedet er et statisk nettsted som hostes på GitHub Pages.",
+    "paragraph1b": "Det bruker ikke informasjonskapsler, analyseverktøy eller sporingsskript. Ingen personopplysninger samles inn eller lagres.",
+    "paragraph2": "Cloudflare leverer grunnleggende, anonyme trafikkstatistikker basert på serverlogger. Disse loggene inneholder ingen personidentifiserbar informasjon og brukes ikke til profilering eller markedsføring.",
+    "paragraph3": "Nettstedet inneholder utgående lenker til eksterne nettsteder og sosiale medier for deling av innhold eller for å vise omtaler av Frames. Besøk på slike nettsteder er valgfritt og underlagt deres egne personvernerklæringer.",
+    "paragraph4": "Nettstedet samler ikke inn informasjon gjennom skjemaer, nyhetsbrev eller interaktive funksjoner."
+  },
+  "section4": {
+    "heading": "Kontakt oss",
+    "paragraph1": "Hvis du har spørsmål eller bekymringer angående denne personvernerklæringen, kan du kontakte utvikleren på:"
+  },
+  "last_updated": "12. oktober 2025",
+  "last_updated_iso": "2025-10-12",
     "last_updated_label": "Sist oppdatert",
-    "last_updated": "15. mars 2025",
-    "last_updated_iso": "2025-03-15",
     "button_home": "Hjem"
   }
 }
