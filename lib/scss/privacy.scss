@@ -15,23 +15,27 @@
 @use 'details';
 
 /* Privacy-specific styles */
+@use 'mixins' as *;
 .privacy {
+    margin-top: 7.875rem; // to mimic the spacing of the changelog
+
   .privacy-article-main {
     header {
       margin-bottom: var(--spacing-3xl);
     }
-    
+
     h1 {
       margin-bottom: var(--spacing-sm);
     }
 
     h2 {
-        margin-top: 0;
-        font-size: var(--font-size-lg);
-        line-height: var(--line-height-ld);
+      margin-top: 0;
+      font-size: var(--font-size-lg);
+      line-height: var(--line-height-ld);
     }
 
-    p, ul {
+    p,
+    ul {
       margin-bottom: var(--spacing-xl);
     }
 
@@ -46,12 +50,13 @@
       }
     }
 
-    section, footer {
-        margin: var(--spacing-3xl) 0 0;
+    section,
+    footer {
+      margin: var(--spacing-3xl) 0 0;
 
-        &> :last-child {
-            margin-bottom: 0;
-        }
+      &> :last-child {
+        margin-bottom: 0;
+      }
     }
   }
 
@@ -60,39 +65,66 @@
   }
 }
 
+nav.toc,
+.privacy-nav {
+  ul {
+    margin: 0 !important;
+    list-style-type: none;
+    padding-left: 0;
+  }
+
+  a {
+    &:hover {
+      color: var(--color-primary);
+    }
+
+    &.current {
+      color: var(--color-primary);
+    }
+  }
+}
+
+.privacy-nav {
+  position: sticky;
+  top:64px;
+
+    @include desktop-medium-down {
+      position: static;
+      margin-bottom: var(--spacing-3xl);
+    }
+
+  li:first-of-type {
+    margin-bottom: 0.125rem;
+  }
+}
+
 nav.toc {
+  font-size: var(--font-size-sm);
+  line-height: var(--line-height-sm);
+  background-color: var(--color-surface);
+  padding: 0.875rem 1rem;
+  border-radius: var(--radius-md);
+
+  li {
+    color: var(--color-primary);
+    line-height: var(--line-height-md);
+  }
+
+  h3 {
+    color: var(--color-secondary);
+    margin-bottom: 0.125rem;
+    margin-top: 0;
     font-size: var(--font-size-sm);
     line-height: var(--line-height-sm);
-    background-color: var(--color-surface);
-    padding: 0.875rem 1rem;
-    border-radius: var(--radius-md);
+    font-weight: 400;
+  }
 
-    ul {
-        margin: 0!important;
-        list-style-type: none;
-        padding-left: 0;
-    }
-
-    li {
-        color: var(--color-primary);
-        line-height: var(--line-height-md);
-    }
-
-    h3 {
-        color: var(--color-secondary);
-        margin-bottom: 0.125rem;
-        margin-top: 0;
-        font-size: var(--font-size-sm);
-        line-height: var(--line-height-sm);
-        font-weight: 400;
-    }
-
-    a {
-        text-decoration: none!important;
-    }
+  a {
+    text-decoration: none !important;
+  }
 }
 
 .privacy-article-main {
-    grid-column: 2 / span 2;
-    margin-top: calc(var(--spacing-5xl) + 1.875rem);
+  // grid-column: 2 / span 2;
+  // margin-top: calc(var(--spacing-5xl) + 1.875rem);
 }

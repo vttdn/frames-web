@@ -141,7 +141,14 @@
 
     <main class="privacy wrapper">
       <article class="grid grid-4col" aria-labelledby="privacy-heading">
-        <div class="privacy-article-main">
+        <div class="privacy-nav">
+            <ul>
+                <li><a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/" target="_blank" rel="noopener noreferrer">{{ locale_data.footer.resources.terms_of_service }}</a></li>
+                <li><a href="{{ lang_config.path }}{{ locale_data.urls.privacy }}" class="current">{{ locale_data.footer.resources.privacy_policy }}</a></li>
+            </ul>
+        </div>
+
+        <div class="privacy-article-main col-span-2">
           <header>
             <h1 id="privacy-heading" itemprop="headline">{{ locale_data.privacy.heading }}</h1>
             <p class="last-updated">
