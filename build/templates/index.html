@@ -65,6 +65,7 @@
 </head>
 
 <body>
+
     <header class="main-header wrapper">
         <div class="container-header">
             <a href="{{ lang_config.path }}" class="logo leading" aria-label="{{ locale_data.header.logo_aria_label }}">
@@ -80,58 +81,10 @@
             </nav>
 
             <div class="trailing flex flex-row flex-center gap-sm">
-                <div class="dropdown">
-                    <input type="checkbox" id="share-toggle" class="dropdown-toggle">
-
-                    <label for="share-toggle" class="dropdown-button btn btn-sm btn-dark">
+                <button class="dropdown-button btn btn-sm btn-dark" id="button-social-share" aria-controls="overlay-social-share" aria-expanded="false">
                         <span>{{ locale_data.header.buttons.share }}</span>
-                        <img src="/lib/img/icn/chevron-down-sm.svg" alt="Chevron Down Icon" width="10" height="12" loading="lazy">
-                    </label>
-
-                    <ul class="dropdown-content dropdown-dir-bottom" role="menu">
-                        <li>
-                            <a href="#" onclick="shareOn('facebook'); return false;">
-                                    <span>{{ locale_data.share_dropdown.facebook }}</span>
-                                    <img src="/lib/img/icn/facebook.svg" alt="Facebook Icon" width="14" height="14" loading="lazy" class="social-icon">
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="shareOn('twitter'); return false;">
-                                    <span>{{ locale_data.share_dropdown.twitter }}</span>
-                                    <img src="/lib/img/icn/twitter.svg" alt="Twitter Icon" width="14" height="14" loading="lazy" class="social-icon">
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="shareOn('linkedin'); return false;">
-                                    <span>{{ locale_data.share_dropdown.linkedin }}</span>
-                                    <img src="/lib/img/icn/linkedin.svg" alt="LinkedIn Icon" width="14" height="14" loading="lazy" class="social-icon">
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="shareOn('reddit'); return false;">
-                                    <span>{{ locale_data.share_dropdown.reddit }}</span>
-                                    <img src="/lib/img/icn/reddit.svg" alt="Reddit Icon" width="14" height="14" loading="lazy" class="social-icon">
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="shareOn('whatsapp'); return false;">
-                                    <span>{{ locale_data.share_dropdown.whatsapp }}</span>
-                                    <img src="/lib/img/icn/whatsapp.svg" alt="WhatsApp Icon" width="14" height="14" loading="lazy" class="social-icon">
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" onclick="shareOn('email'); return false;" class="social-icon">
-                                    <span>{{ locale_data.share_dropdown.email }}</span>
-                                    <img src="/lib/img/icn/paperplane.svg" alt="Email Icon" width="14" height="14" loading="lazy" class="social-icon">
-                            </a>
-                        </li>
-                    </ul>
-                </div>
+                        <!-- <img src="/lib/img/icn/chevron-down-sm.svg" alt="Chevron Down Icon" width="10" height="12" loading="lazy"> -->
+                </button>
                 <a href="{{ locale_data.urls.appstore_macos }}" class="btn btn-sm btn-light desktop-only">{{ locale_data.header.buttons.download }}</a>
                 <a href="{{ locale_data.urls.appstore_ios }}" class="btn btn-sm btn-light mobile-only">{{ locale_data.header.buttons.download }}</a>
 
@@ -713,6 +666,68 @@
                 </div>
         </div>
     </footer>
+
+    <div class="overlay-social-share flex flex-center flex-justify-center" id="overlay-social-share" role="dialog" aria-modal="true" aria-labelledby="overlay-social-share-title">
+    <div class="modal">
+        <div class="flex flex-justify-between flex-center">
+            <h3 id="overlay-social-share-title">{{ locale_data.header.buttons.share }}</h3>
+
+            <button class="overlay-social-share-close flex flex-center flex-justify-center"
+                id="button-social-share-close">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill=""
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                    class="size-4">
+                    <line x1="18" y1="6" x2="6" y2="18"></line>
+                    <line x1="6" y1="6" x2="18" y2="18"></line>
+                </svg>
+            </button>
+        </div>
+
+        <div class="grid grid-3col">
+            <a href="#" onclick="shareOn('facebook'); return false;">
+                <div class="social-share-icon">
+                    <img src="/lib/img/icn/facebook.svg" alt="{{ locale_data.share_dropdown.facebook }} Icon" width="14"
+                        height="14" loading="lazy" class="social-icon">
+                </div>
+            </a>
+
+            <a href="#" onclick="shareOn('twitter'); return false;">
+                <div class="social-share-icon">
+                    <img src="/lib/img/icn/twitter.svg" alt="{{ locale_data.share_dropdown.twitter }} Icon" width="14"
+                        height="14" loading="lazy" class="social-icon">
+                </div>
+            </a>
+
+            <a href="#" onclick="shareOn('linkedin'); return false;">
+                <div class="social-share-icon">
+                    <img src="/lib/img/icn/linkedin.svg" alt="{{ locale_data.share_dropdown.linkedin }} Icon" width="14"
+                        height="14" loading="lazy" class="social-icon">
+                </div>
+            </a>
+
+            <a href="#" onclick="shareOn('whatsapp'); return false;">
+                <div class="social-share-icon">
+                    <img src="/lib/img/icn/whatsapp.svg" alt="{{ locale_data.share_dropdown.whatsapp }} Icon" width="14"
+                        height="14" loading="lazy" class="social-icon">
+                </div>
+            </a>
+
+            <a href="#" onclick="shareOn('reddit'); return false;">
+                <div class="social-share-icon">
+                    <img src="/lib/img/icn/reddit.svg" alt="{{ locale_data.share_dropdown.reddit }} Icon" width="14"
+                        height="14" loading="lazy" class="social-icon">
+                </div>
+            </a>
+
+            <a href="#" onclick="shareOn('email'); return false;">
+                <div class="social-share-icon">
+                    <img src="/lib/img/icn/paperplane.svg" alt="{{ locale_data.share_dropdown.email }} Icon" width="14"
+                        height="14" loading="lazy" class="social-icon">
+                </div>
+            </a>
+        </div>
+    </div>
+</div>
 
     <script defer src="/lib/js/{{ lang }}/core.js"></script>
 </body>

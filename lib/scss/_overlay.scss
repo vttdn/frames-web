@@ -39,8 +39,111 @@
 }
 
 // Show overlay when checkbox is checked
-.overlay-toggle:checked ~ .overlay {
+.overlay-toggle:checked~.overlay {
   opacity: 1;
   visibility: visible;
   pointer-events: auto;
+}
+
+.overlay-social-share {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, .9);
+  z-index: 1000;
+  visibility: hidden;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.3s ease, visibility 0s linear 1s;
+  padding: 1rem;
+
+  &.show {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+    transition: opacity 0.3s ease; /* no delay when showing */
+
+    .modal {
+      top: 0;
+    }
+  }
+
+  .grid {
+    margin-top: var(--spacing-xl);
+  }
+
+  h3 {
+    font-size: 1.5rem;
+    line-height: var(--line-height-lg);
+  }
+
+  .modal {
+    position: relative;
+    width: 100%;
+    max-width: 31.25rem;
+    border-radius: var(--radius-lg);
+    top: 100vh;
+    transition: all 0.3s ease;
+    padding: var(--spacing-lg);
+    border: 1px solid var(--color-gray-dark3);
+    background-color: rgb(12, 12, 12);
+  }
+
+  .social-share-icon {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: var(--radius-md);
+    margin-bottom: var(--spacing-sm);
+    border: 1px solid var(--color-gray-dark2);
+
+    &:hover {
+      border: 1px solid var(--color-gray-dark3);
+      background-color: var(--color-gray-dark);
+    }
+
+    --ratio: 100%;
+
+    &::before {
+      content: '';
+      display: block;
+      padding-top: var(--ratio, 100%);
+    }
+
+    >* {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+    }
+
+    img {
+      width: 1.75rem;
+      height: 1.75rem;
+      transform: translate(-50%, -50%);
+    }
+  }
+
+  // close button
+  .overlay-social-share-close {
+    width: var(--spacing-2xl);
+    height: var(--spacing-2xl);
+    border: 1px solid var(--color-gray-dark2);
+    border-radius: var(--radius-md);
+    background-color: #000;
+
+    cursor: pointer;
+
+    svg {
+      width: var(--spacing-lg);
+      height: var(--spacing-lg);
+      stroke: var(--color-primary);
+    }
+
+    &:hover {
+      border: 1px solid var(--color-gray-dark3);
+    }
+  }
 }

@@ -301,7 +301,7 @@ def save_javascript(javascript, lang_code):
     """Save generated JavaScript to appropriate location"""
     # Create language-specific js directory
     if lang_code == 'en':
-        js_dir = PROJECT_ROOT / "lib" / "js"
+        js_dir = PROJECT_ROOT / "lib" / "js" / lang_code
     else:
         js_dir = PROJECT_ROOT / "lib" / "js" / lang_code
     js_dir.mkdir(parents=True, exist_ok=True)
