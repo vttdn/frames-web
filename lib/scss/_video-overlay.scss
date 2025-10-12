@@ -1,55 +1,55 @@
-@use 'mixins' as *;
+// @use 'mixins' as *;
 
-// Video Overlay
-.video-overlay {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  z-index: 1000;
-  display: none;
-  align-items: center;
-  justify-content: center;
-  padding: var(--spacing-4xl);
-  overflow: hidden;
+// // Video Overlay
+// .video-overlay {
+//   position: fixed;
+//   top: 0;
+//   left: 0;
+//   right: 0;
+//   bottom: 0;
+//   z-index: 1000;
+//   display: none;
+//   align-items: center;
+//   justify-content: center;
+//   padding: var(--spacing-4xl);
+//   overflow: hidden;
 
-  opacity: 0;
-  background: var(--color-background);
+//   opacity: 0;
+//   background: var(--color-background);
 
-  @include tablet {
-    padding: var(--spacing-3xl);
-  }
+//   @include tablet {
+//     padding: var(--spacing-3xl);
+//   }
 
-  @include mobile {
-    padding: var(--spacing-xl);
-  }
+//   @include mobile {
+//     padding: var(--spacing-xl);
+//   }
 
-  &.show {
-    opacity: 1;
-    display: flex;
-  }
+//   &.show {
+//     opacity: 1;
+//     display: flex;
+//   }
 
-  .wrapper {
-    position: relative;
-    width: 100%;
-    height: 100%;
-  }
+//   .wrapper {
+//     position: relative;
+//     width: 100%;
+//     height: 100%;
+//   }
 
-  #youtube-player {
-    position: absolute;
-    top: auto;
-    left: auto;
-    top: right;
-    left: bottom;
-    width: 100%;
-    max-height: 90vh; /* Don't exceed viewport */
-    transform: translate(-50%, -50%);
-    aspect-ratio: 16 / 9; /* Additional enforcement */
-  }
+//   #youtube-player {
+//     position: absolute;
+//     top: auto;
+//     left: auto;
+//     top: right;
+//     left: bottom;
+//     width: 100%;
+//     max-height: 90vh; /* Don't exceed viewport */
+//     transform: translate(-50%, -50%);
+//     aspect-ratio: 16 / 9; /* Additional enforcement */
+//   }
 
-  iframe {
-    border: none;
-    outline: none;
-  }
-}
+//   iframe {
+//     border: none;
+//     outline: none;
+//   }
+// }

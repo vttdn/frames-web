@@ -114,16 +114,24 @@
         </div>
     </header>
 
-    <div id="youtube-overlay" class="video-overlay">
-        <button id="youtube-overlay-close" class="overlay-close" aria-label="Close video">
-            <img src="/lib/img/icn/xmark.svg" alt="x Mark Icon" width="32" height="32" loading="lazy" aria-hidden="true">
-        </button>
+    <div id="youtube-overlay" class="overlay-social-share flex flex-center flex-justify-center" role="dialog" aria-modal="true">
+        <div class="modal large">
 
-        <div class="wrapper flex flex-center flex-justify-center">
-            <div class="youtube-player-wrapper">
+            <div class="video-container">
+                <div class="overlay-button-close-container">
+                <button class="overlay-button-close flex flex-center flex-justify-center"
+                    id="button-youtube-close">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill=""
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                        class="size-4">
+                        <line x1="18" y1="6" x2="6" y2="18"></line>
+                        <line x1="6" y1="6" x2="18" y2="18"></line>
+                    </svg>
+                </button>
+                </div>
                 <div id="youtube-player" data-video-id="KRLS5tpmvJM"></div>
             </div>
-        </div>
+         </div>
     </div>
 
     <main class="wrapper">
@@ -154,7 +162,7 @@
                          fetchpriority="high">
                 </picture>
 
-                <button id="youtube-video-toggle" class="play-btn" aria-label="{{ locale_data.hero.play_button_aria_label }}">
+                <button id="youtube-video-toggle" class="play-btn" aria-label="{{ locale_data.hero.play_button_aria_label }}" aria-controls="youtube-overlay" aria-expanded="false">
                     <img src="/lib/img/icn/play.svg" alt="" width="36" height="36" aria-hidden="true">
                 </button>
             </figure>
@@ -669,10 +677,10 @@
 
     <div class="overlay-social-share flex flex-center flex-justify-center" id="overlay-social-share" role="dialog" aria-modal="true" aria-labelledby="overlay-social-share-title">
     <div class="modal">
-        <div class="flex flex-justify-between flex-center">
+        <div class="modal-header flex flex-justify-between flex-center">
             <h3 id="overlay-social-share-title">{{ locale_data.header.buttons.share }}</h3>
 
-            <button class="overlay-social-share-close flex flex-center flex-justify-center"
+            <button class="overlay-button-close flex flex-center flex-justify-center"
                 id="button-social-share-close">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill=""
                     stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
