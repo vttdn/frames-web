@@ -1,0 +1,43 @@
+{
+  "version": "1.4.0",
+  "version_short": "1.4",
+  "url_slug": "1-4-ios",
+  "platform": "ios",
+  "release_date": "2025-08-20T10:00:00.000Z",
+  "title": "滤镜记录支持",
+  "meta_title": "滤镜记录支持 · Frames",
+  "meta_description": "为每一帧记录 UV、ND、CPL 和其他滤镜。通过与 Mac 同步的完整元数据实现完整的模拟记录,支持完整 EXIF 嵌入。",
+  "summary": "通过在相机、镜头和胶卷旁记录滤镜来记录完整的模拟工作流程。现在您可以记录每次拍摄使用的 UV、ND、CPL 和其他滤镜。",
+  "sections": [
+    {
+      "type": "paragraph",
+      "content": "滤镜现在成为您胶片记录工作流程的一部分。记录每一帧使用的滤镜,包括 UV、ND、CPL 等。这通过捕获影响最终图像的每个元素(从相机机身和镜头到胶卷类型和滤镜)来完成您的模拟记录。滤镜数据包含在所有导出中,并与 Mac 应用同步以实现全面的记录保存。"
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/{{ lang }}/changelog/frames-1.4.0-1.png",
+      "image_2x": "/lib/img/{{ lang }}/changelog/frames-1.4.0-1@2x.png",
+      "alt": "Frames 胶片摄影应用显示 UV、ND 和 CPL 滤镜的滤镜记录支持",
+      "width": "400",
+      "height": "300"
+    }
+  ],
+  "improvements": [
+    "添加了滤镜记录支持(UV、ND、CPL 等)",
+    "滤镜包含在所有导出格式中",
+    "滤镜数据与 Mac 应用同步",
+    "小幅性能增强",
+    "总体稳定性改进"
+  ],
+  "fixes": [],
+  "patches": [
+    {
+      "version": "1.4.1",
+      "description": "修复了编辑子文件夹中的胶卷会将其移回根文件夹的问题。"
+    },
+    {
+      "version": "1.4.2",
+      "description": "改进翻译以与 Mac 应用保持一致。修复了位置搜索国家/地区显示。在创建胶卷时添加了默认快门速度和光圈值。"
+    }
+  ]
+}

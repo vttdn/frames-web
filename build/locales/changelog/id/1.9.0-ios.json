@@ -1,0 +1,52 @@
+{
+  "version": "1.9.0",
+  "version_short": "1.9",
+  "url_slug": "1-9-ios",
+  "platform": "ios",
+  "release_date": "2025-09-18T10:00:00.000Z",
+  "title": "Subfolder, Geser untuk Memindahkan & Peningkatan Ekspor TXT",
+  "summary": "Atur perpustakaan film Anda dengan subfolder bersarang hingga 5 level. Pembaruan ini juga membawa manajemen gulungan film yang lebih mudah dengan gesture geser dan format ekspor TXT yang ditingkatkan untuk dokumentasi yang lebih baik.",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Organisasi Folder Bersarang untuk Pengguna Pro"
+    },
+    {
+      "type": "paragraph",
+      "content": "Pengguna Pro sekarang dapat membuat subfolder hingga 5 level, memungkinkan organisasi terperinci untuk arsip film. Strukturkan perpustakaan Anda berdasarkan tahun, proyek, jenis film, atau hierarki apa pun yang sesuai dengan alur kerja Anda. Ini memudahkan untuk menemukan pemotretan tertentu dalam koleksi film yang luas dan menjaga gulungan terkait dikelompokkan bersama secara logis."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/{{ lang }}/changelog/frames-1.9.0-1.png",
+      "image_2x": "/lib/img/{{ lang }}/changelog/frames-1.9.0-1@2x.png",
+      "alt": "Aplikasi fotografi film Frames menampilkan organisasi folder bersarang untuk arsip gulungan film",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Manajemen Gulungan Film yang Ditingkatkan"
+    },
+    {
+      "type": "paragraph",
+      "content": "Gesture geser sekarang mencakup tombol Pindahkan, membuat pemindahan gulungan film dan folder lebih cepat. Kami juga telah memperbaiki masalah di mana ekspor TXT akan menghilangkan tahun ketika cocok dengan tahun saat ini, memastikan informasi tanggal lengkap dalam semua ekspor."
+    }
+  ],
+  "improvements": [
+    "Ditambahkan dukungan subfolder hingga 5 level untuk pengguna Pro",
+    "Gesture geser sekarang mencakup tombol Pindahkan untuk gulungan film dan folder",
+    "Navigasi folder yang ditingkatkan dengan dukungan breadcrumb",
+    "Konsistensi lokalisasi yang ditingkatkan di berbagai bahasa"
+  ],
+  "fixes": [
+    {
+      "title": "Tampilan Tahun Ekspor TXT",
+      "description": "Memperbaiki masalah di mana ekspor TXT akan menghilangkan tahun ketika cocok dengan tahun saat ini. Tahun sekarang selalu disertakan untuk informasi tanggal lengkap."
+    }
+  ],
+  "patches": [],
+  "meta_title": "Subfolder, Geser untuk Memindahkan & Peningkatan Ekspor TXT · Frames",
+  "meta_description": "Atur perpustakaan film Anda dengan subfolder bersarang hingga 5 level."
+}

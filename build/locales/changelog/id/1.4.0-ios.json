@@ -1,0 +1,43 @@
+{
+  "version": "1.4.0",
+  "version_short": "1.4",
+  "url_slug": "1-4-ios",
+  "platform": "ios",
+  "release_date": "2025-08-20T10:00:00.000Z",
+  "title": "Dukungan Pencatatan Filter",
+  "meta_title": "Dukungan Pencatatan Filter · Frames",
+  "meta_description": "Catat filter UV, ND, CPL, dan lainnya untuk setiap frame. Dokumentasi analog lengkap dengan metadata komprehensif yang disinkronkan ke Mac untuk penyematan EXIF penuh.",
+  "summary": "Dokumentasikan alur kerja analog lengkap Anda dengan mencatat filter di samping kamera, lensa, dan film Anda. Sekarang Anda dapat mencatat filter UV, ND, CPL, dan filter lainnya yang digunakan untuk setiap bidikan.",
+  "sections": [
+    {
+      "type": "paragraph",
+      "content": "Filter sekarang menjadi bagian dari alur kerja pencatatan film Anda. Catat filter mana yang Anda gunakan untuk setiap frame, termasuk UV, ND, CPL, dan lainnya. Ini melengkapi dokumentasi analog Anda dengan menangkap setiap elemen yang memengaruhi gambar akhir Anda, dari bodi kamera dan lensa hingga stok film dan filter. Data filter disertakan dalam semua ekspor dan disinkronkan dengan aplikasi Mac untuk pencatatan yang komprehensif."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/{{ lang }}/changelog/frames-1.4.0-1.png",
+      "image_2x": "/lib/img/{{ lang }}/changelog/frames-1.4.0-1@2x.png",
+      "alt": "Aplikasi fotografi film Frames menampilkan dukungan pencatatan filter untuk filter UV, ND, dan CPL",
+      "width": "400",
+      "height": "300"
+    }
+  ],
+  "improvements": [
+    "Ditambahkan dukungan pencatatan filter (UV, ND, CPL, dan lainnya)",
+    "Filter disertakan dalam semua format ekspor",
+    "Data filter disinkronkan dengan aplikasi Mac",
+    "Peningkatan kinerja kecil",
+    "Peningkatan stabilitas umum"
+  ],
+  "fixes": [],
+  "patches": [
+    {
+      "version": "1.4.1",
+      "description": "Memperbaiki masalah di mana mengedit film di subfolder akan memindahkannya kembali ke folder root."
+    },
+    {
+      "version": "1.4.2",
+      "description": "Terjemahan yang disempurnakan untuk konsistensi aplikasi Mac. Memperbaiki tampilan negara pencarian lokasi. Menambahkan nilai kecepatan rana dan apertur default saat membuat gulungan film."
+    }
+  ]
+}

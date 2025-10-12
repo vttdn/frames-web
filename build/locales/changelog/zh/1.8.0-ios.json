@@ -1,0 +1,32 @@
+{
+  "version": "1.8.0",
+  "version_short": "1.8",
+  "url_slug": "1-8-ios",
+  "platform": "ios",
+  "release_date": "2025-09-15T10:00:00.000Z",
+  "title": "胶片日志的 TXT 文件导出",
+  "summary": "Pro 用户现在可以将胶卷日志导出为 TXT 文件,非常适合打印现场笔记或为暗房工作创建快速参考表。",
+  "sections": [
+    {
+      "type": "paragraph",
+      "content": "将您的胶卷元数据导出为纯文本文件。此格式非常适合打印紧凑的参考表,放在相机包或暗房中。每个 TXT 导出都包含所有帧详细信息、曝光设置和注释,采用清晰易读的格式,易于打印或与冲印店共享。"
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.8.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.8.0-1@2x.png",
+      "alt": "Frames 模拟摄影应用的 TXT 导出功能,用于打印胶卷笔记和元数据",
+      "width": "400",
+      "height": "300"
+    }
+  ],
+  "improvements": [
+    "为 Pro 用户添加了 TXT 文件导出",
+    "优化导出格式以提高打印和可读性",
+    "在导出中包含完整的帧元数据"
+  ],
+  "fixes": [],
+  "patches": [],
+  "meta_title": "胶片日志的 TXT 文件导出 · Frames",
+  "meta_description": "Pro 用户现在可以将胶卷日志导出为 TXT 文件,非常适合打印现场笔记或为暗房工作创建快速参考表。"
+}

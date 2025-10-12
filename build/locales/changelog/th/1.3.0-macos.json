@@ -1,0 +1,37 @@
+{
+  "version": "1.3.0",
+  "version_short": "1.3",
+  "url_slug": "1-3-macos",
+  "platform": "macos",
+  "release_date": "2025-09-01T10:00:00.000Z",
+  "title": "รองรับไฟล์ Raw DNG",
+  "meta_title": "รองรับไฟล์ Raw DNG · Frames",
+  "meta_description": "ฝัง metadata เข้าไปในไฟล์ raw DNG พร้อมกับรูปแบบ JPEG และ TIFF ระบบการทำงาน analog ที่สมบูรณ์พร้อมข้อมูล EXIF ครบถ้วนสำหรับการประมวลผลหลังการถ่ายแบบมืออาชีพ",
+  "summary": "ตอนนี้คุณสามารถนำเข้าไฟล์ DNG พร้อมกับ JPEG และ TIFF และรวม metadata เข้าไปในภาพ raw ของคุณโดยตรงสำหรับระบบการทำงานการถ่ายภาพ analog ที่สมบูรณ์",
+  "sections": [
+    {
+      "type": "paragraph",
+      "content": "การรองรับภาพ Raw มาถึง Frames สำหรับ macOS แล้ว นำเข้าไฟล์ DNG พร้อมกับระบบการทำงาน JPEG และ TIFF ที่มีอยู่ของคุณ และฝัง metadata ม้วนฟิล์มของคุณเข้าไปในไฟล์ raw โดยตรง สิ่งนี้ทำให้มั่นใจว่าการตั้งค่าแสง ข้อมูลกล้อง ฟิล์ม และบันทึกของคุณเดินทางไปกับภาพ raw ของคุณผ่านการประมวลผลหลังการถ่ายและการเก็บถาวร เรายังได้แก้ไขปัญหาที่บันทึกเพิ่มเติมสำหรับเฟรมไม่ได้ถูกเก็บไว้ระหว่างการรวม metadata"
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-mac-1.3.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-mac-1.3.0-1@2x.png",
+      "alt": "แอป Frames บน macOS พร้อมการฝัง metadata ไฟล์ raw DNG สำหรับการสแกนการถ่ายภาพ analog",
+      "width": "400",
+      "height": "300"
+    }
+  ],
+  "improvements": [
+    "เพิ่มการรองรับไฟล์ raw DNG",
+    "การรวม metadata เต็มรูปแบบสำหรับภาพ raw",
+    "ไฟล์ DNG ทำงานได้อย่างราบรื่นพร้อมกับ JPEG และ TIFF"
+  ],
+  "fixes": [
+    {
+      "title": "การเก็บบันทึกเฟรม",
+      "description": "แก้ไขปัญหาที่บันทึกเพิ่มเติมสำหรับเฟรมไม่ได้ถูกเก็บไว้ระหว่างการรวม metadata"
+    }
+  ],
+  "patches": []
+}

@@ -1,0 +1,68 @@
+{
+  "version": "1.10.0",
+  "version_short": "1.10",
+  "url_slug": "1-10-ios",
+  "platform": "ios",
+  "release_date": "2025-09-23T10:00:00.000Z",
+  "title": "Peningkatan Kinerja & Stabilitas yang Besar",
+  "summary": "Rilis ini membawa peningkatan signifikan di balik layar yang membuat Frames lebih cepat, lebih andal, dan lebih siap untuk fitur masa depan. Optimasi kinerja menyentuh setiap bagian aplikasi, dari perekaman frame hingga manajemen gulungan film.",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Fondasi untuk Masa Depan"
+    },
+    {
+      "type": "paragraph",
+      "content": "Kami telah membangun kembali bagian inti Frames untuk meningkatkan kinerja dan stabilitas. Pengeditan frame terasa lebih responsif, navigasi mengalir lebih lancar, dan mengelola koleksi besar gulungan film lebih andal. Peningkatan arsitektur ini juga meletakkan dasar untuk fitur yang akan datang sambil memastikan Frames tetap cepat dan stabil saat perpustakaan Anda berkembang."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.10.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.10.0-1@2x.png",
+      "alt": "Aplikasi fotografi film Frames dengan kinerja yang ditingkatkan dan kecepatan perekaman frame yang dioptimalkan",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Lebih Lancar di Semua Aspek"
+    },
+    {
+      "type": "paragraph",
+      "content": "Anda akan merasakan waktu pemuatan yang lebih cepat saat membuka gulungan film dan respons yang lebih cepat saat mengedit metadata frame. Transisi antar layar terasa lebih lancar, dan aplikasi mempertahankan kinerja yang lebih baik bahkan dengan koleksi peralatan yang luas dan ratusan frame. Peningkatan paling terasa saat bekerja dengan beberapa gulungan film atau beralih secara sering antara perekam dan tampilan perpustakaan."
+    }
+  ],
+  "improvements": [
+    "Kinerja dan responsivitas aplikasi yang jauh lebih baik",
+    "Pengeditan frame dan pembaruan metadata yang lebih cepat",
+    "Kelancaran navigasi yang ditingkatkan di seluruh aplikasi",
+    "Stabilitas yang lebih baik saat mengelola koleksi gulungan film yang besar",
+    "Kinerja daftar peralatan yang dioptimalkan dengan perpustakaan kamera dan lensa yang luas",
+    "Manajemen memori yang ditingkatkan untuk kinerja yang berkelanjutan",
+    "Arsitektur kode yang lebih bersih untuk pengembangan fitur masa depan"
+  ],
+  "fixes": [
+    {
+      "title": "Penyimpanan Gambar Referensi",
+      "description": "Memperbaiki masalah di mana gambar referensi tidak selalu disimpan dengan benar saat dilampirkan ke frame."
+    }
+  ],
+  "patches": [
+    {
+      "version": "1.10.1",
+      "description": "Respons perekam frame yang lebih cepat dan manajemen lokasi yang ditingkatkan untuk pencatatan yang lebih akurat."
+    },
+    {
+      "version": "1.10.2",
+      "description": "Keandalan ekspor yang ditingkatkan dengan penanganan karakter khusus. Kinerja lokasi dan tampilan peta yang ditingkatkan dengan ekspor yang lebih cepat."
+    },
+    {
+      "version": "1.10.3",
+      "description": "Berbagai peningkatan UI dan penyempurnaan visual di seluruh antarmuka."
+    }
+  ],
+  "meta_title": "Peningkatan Kinerja & Stabilitas yang Besar · Frames",
+  "meta_description": "Rilis ini membawa peningkatan signifikan di balik layar yang membuat Frames lebih cepat, lebih andal, dan lebih siap untuk fitur masa depan."
+}

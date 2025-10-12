@@ -1,0 +1,37 @@
+{
+  "version": "1.3.0",
+  "version_short": "1.3",
+  "url_slug": "1-3-macos",
+  "platform": "macos",
+  "release_date": "2025-09-01T10:00:00.000Z",
+  "title": "DNG 原始文件支持",
+  "meta_title": "DNG 原始文件支持 · Frames",
+  "meta_description": "将元数据嵌入 DNG 原始文件,支持 JPEG 和 TIFF 格式。完整的模拟工作流程,为专业后期制作提供全面的 EXIF 数据。",
+  "summary": "现已支持导入 DNG 文件以及 JPEG 和 TIFF,将元数据直接重新集成到原始图像中,实现完整的模拟摄影工作流程。",
+  "sections": [
+    {
+      "type": "paragraph",
+      "content": "原始图像支持登陆 Frames macOS 版。导入 DNG 文件以及现有的 JPEG 和 TIFF 工作流程,将胶卷元数据直接嵌入原始文件。这确保您的曝光设置、相机数据、胶卷型号和笔记随原始图像一起在后期制作和归档过程中传递。我们还修复了帧的附加笔记在元数据重新集成期间未保留的问题。"
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-mac-1.3.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-mac-1.3.0-1@2x.png",
+      "alt": "Frames macOS 应用,支持 DNG 原始文件元数据嵌入用于模拟摄影扫描",
+      "width": "400",
+      "height": "300"
+    }
+  ],
+  "improvements": [
+    "新增 DNG 原始文件支持",
+    "原始图像的完整元数据重新集成",
+    "DNG 文件与 JPEG 和 TIFF 无缝配合"
+  ],
+  "fixes": [
+    {
+      "title": "帧笔记保留",
+      "description": "修复了帧的附加笔记在元数据重新集成期间未保留的问题。"
+    }
+  ],
+  "patches": []
+}

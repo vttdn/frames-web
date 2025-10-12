@@ -1,0 +1,23 @@
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://withframes.com/zh-hant/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "更新日誌",
+      "item": "https://withframes.com/zh-hant/changelog/1-2-ios/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "集中式設定和改進的整理功能",
+      "item": "https://withframes.com/zh-hant/changelog/1-2-ios/"
+    }  ]
+}

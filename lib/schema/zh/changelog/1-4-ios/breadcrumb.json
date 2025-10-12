@@ -1,0 +1,23 @@
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://withframes.com/zh/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "更新日志",
+      "item": "https://withframes.com/zh/changelog/1-4-ios/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "滤镜记录支持",
+      "item": "https://withframes.com/zh/changelog/1-4-ios/"
+    }  ]
+}

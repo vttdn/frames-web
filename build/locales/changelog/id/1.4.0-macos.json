@@ -1,0 +1,72 @@
+{
+  "version": "1.4.0",
+  "version_short": "1.4",
+  "url_slug": "1-4-macos",
+  "platform": "macos",
+  "release_date": "2025-09-18T10:00:00.000Z",
+  "title": "Pintasan Keyboard, Inspector Native & Kinerja",
+  "meta_title": "Pintasan Keyboard, Inspector Native & Kinerja · Frames",
+  "meta_description": "Navigasi dengan pintasan keyboard dan panel inspector native macOS. Kinerja yang ditingkatkan untuk integrasi ulang metadata yang lebih cepat dengan antarmuka yang lebih bersih dan profesional.",
+  "summary": "Antarmuka macOS yang ditingkatkan dengan navigasi keyboard, panel inspector native, desain yang lebih bersih, dan kinerja yang dioptimalkan untuk integrasi ulang metadata yang lebih cepat dan responsif.",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Navigasi Keyboard & Kontrol Native"
+    },
+    {
+      "type": "paragraph",
+      "content": "Navigasi frame dengan cepat menggunakan tombol panah, hapus foto terlampir dengan Backspace, dan tekan Enter untuk memilih foto. Sidebar khusus telah digantikan dengan panel inspector native macOS untuk pengalaman yang lebih halus dan terintegrasi dengan sistem yang mengikuti bahasa desain Apple."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-mac-1.4.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-mac-1.4.0-1@2x.png",
+      "alt": "Aplikasi macOS Frames dengan pintasan keyboard dan inspector native untuk alur kerja metadata film",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Antarmuka & Kinerja yang Disempurnakan"
+    },
+    {
+      "type": "paragraph",
+      "content": "Artefak visual telah dihapus di seluruh antarmuka untuk tampilan yang lebih bersih dan profesional. Arsitektur kode telah dioptimalkan untuk responsivitas dan stabilitas aplikasi yang lebih baik, membuat alur kerja integrasi ulang metadata lebih cepat dan lebih andal."
+    }
+  ],
+  "improvements": [
+    "Ditambahkan navigasi keyboard dengan tombol panah untuk menjelajah frame",
+    "Ditambahkan pintasan Backspace untuk menghapus foto terlampir",
+    "Ditambahkan pintasan Enter untuk memilih foto",
+    "Menggantikan sidebar khusus dengan panel inspector native macOS",
+    "Menghapus artefak visual untuk antarmuka yang lebih bersih",
+    "Mengoptimalkan arsitektur kode untuk kinerja yang lebih baik",
+    "Meningkatkan responsivitas aplikasi secara keseluruhan",
+    "Meningkatkan stabilitas umum"
+  ],
+  "fixes": [],
+  "patches": [
+    {
+      "version": "1.3.5",
+      "description": "Memperbarui ikon aplikasi untuk macOS 26."
+    },
+    {
+      "version": "1.3.4",
+      "description": "Integrasi ulang metadata untuk JPEG dan TIFF sekarang mempertahankan data yang ada. Hanya informasi yang dicatat oleh Frames yang ditambahkan."
+    },
+    {
+      "version": "1.3.3",
+      "description": "Ditambahkan integrasi ulang apertur maksimum dan minimum ke dalam metadata EXIF. Menambahkan dukungan spesifikasi lensa."
+    },
+    {
+      "version": "1.3.2",
+      "description": "Perbaikan bug kecil dan peningkatan kinerja."
+    },
+    {
+      "version": "1.3.1",
+      "description": "Ditambahkan dukungan untuk kecepatan rana baru dari iOS. Aplikasi sekarang memprioritaskan rating ISO khusus daripada kecepatan kotak default."
+    }
+  ]
+}

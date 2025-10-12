@@ -1,0 +1,53 @@
+{
+  "version": "1.6.0",
+  "version_short": "1.6",
+  "url_slug": "1-6-ios",
+  "platform": "ios",
+  "release_date": "2025-09-05T10:00:00.000Z",
+  "title": "Urutan Kecepatan Rana Khusus & Peningkatan Peta",
+  "summary": "Atur urutan kecepatan rana khusus per kamera, hanya menampilkan kecepatan yang sebenarnya didukung kamera Anda. Pembaruan ini juga membawa penanganan peta yang ditingkatkan, opsi kecepatan rana tambahan, dan indikator progres ekspor.",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Kontrol Kecepatan Rana Khusus"
+    },
+    {
+      "type": "paragraph",
+      "content": "Konfigurasikan kecepatan rana mana yang muncul di slider perekam dan pengaturan frame berdasarkan per-kamera. Jika kamera Anda hanya memiliki kecepatan dari 1/1000 hingga 1 detik, Anda dapat menyembunyikan opsi rentang yang diperluas. Ini menjaga antarmuka perekam Anda tetap bersih dan mencegah secara tidak sengaja mencatat kecepatan yang tidak didukung kamera Anda. Urutan khusus disinkronkan dengan aplikasi Mac untuk metadata yang konsisten di seluruh perangkat."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/{{ lang }}/changelog/frames-1.6.0-1.png",
+      "image_2x": "/lib/img/{{ lang }}/changelog/frames-1.6.0-1@2x.png",
+      "alt": "Aplikasi fotografi film Frames menampilkan urutan kecepatan rana khusus dan peningkatan peta",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Fitur Peta dan Ekspor yang Ditingkatkan"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tampilan peta sekarang menangani koordinat dengan lebih andal dengan dukungan gesture yang ditingkatkan untuk panning dan zooming. Kami telah menambahkan kecepatan rana yang umum digunakan (1/160, 1/80, 1/40, 1/20) yang sebelumnya tidak ada. Operasi ekspor sekarang menampilkan indikator progres sehingga Anda tahu kapan file Anda sedang dibuat sebelum lembar berbagi muncul."
+    }
+  ],
+  "improvements": [
+    "Ditambahkan urutan kecepatan rana khusus per kamera",
+    "Penanganan koordinat peta yang ditingkatkan dan dukungan gesture",
+    "Ditambahkan kecepatan rana yang hilang: 1/160, 1/80, 1/40, dan 1/20",
+    "Ditambahkan indikator progres ekspor sebelum lembar berbagi muncul",
+    "Akurasi slider yang ditingkatkan dalam tampilan perekam"
+  ],
+  "fixes": [
+    {
+      "title": "Akurasi Slider Perekam",
+      "description": "Memperbaiki slider perekam agar sesuai dengan nilai yang benar dan posisi visual."
+    }
+  ],
+  "patches": [],
+  "meta_title": "Urutan Kecepatan Rana Khusus & Peningkatan Peta · Frames",
+  "meta_description": "Atur urutan kecepatan rana khusus per kamera, hanya menampilkan kecepatan yang sebenarnya didukung kamera Anda."
+}

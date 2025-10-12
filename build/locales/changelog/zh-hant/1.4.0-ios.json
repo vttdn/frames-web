@@ -1,0 +1,43 @@
+{
+  "version": "1.4.0",
+  "version_short": "1.4",
+  "url_slug": "1-4-ios",
+  "platform": "ios",
+  "release_date": "2025-08-20T10:00:00.000Z",
+  "title": "濾鏡記錄支援",
+  "meta_title": "濾鏡記錄支援 · Frames",
+  "meta_description": "為每一幀記錄 UV、ND、CPL 和其他濾鏡。透過與 Mac 同步的完整詮釋資料實現完整的類比記錄,支援完整 EXIF 嵌入。",
+  "summary": "透過在相機、鏡頭和膠卷旁記錄濾鏡來記錄完整的類比工作流程。現在您可以記錄每次拍攝使用的 UV、ND、CPL 和其他濾鏡。",
+  "sections": [
+    {
+      "type": "paragraph",
+      "content": "濾鏡現在成為您膠片記錄工作流程的一部分。記錄每一幀使用的濾鏡,包括 UV、ND、CPL 等。這透過擷取影響最終影像的每個元素(從相機機身和鏡頭到膠卷類型和濾鏡)來完成您的類比記錄。濾鏡資料包含在所有匯出中,並與 Mac 應用同步以實現全面的記錄保存。"
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/{{ lang }}/changelog/frames-1.4.0-1.png",
+      "image_2x": "/lib/img/{{ lang }}/changelog/frames-1.4.0-1@2x.png",
+      "alt": "Frames 膠片攝影應用顯示 UV、ND 和 CPL 濾鏡的濾鏡記錄支援",
+      "width": "400",
+      "height": "300"
+    }
+  ],
+  "improvements": [
+    "新增了濾鏡記錄支援(UV、ND、CPL 等)",
+    "濾鏡包含在所有匯出格式中",
+    "濾鏡資料與 Mac 應用同步",
+    "小幅效能增強",
+    "總體穩定性改進"
+  ],
+  "fixes": [],
+  "patches": [
+    {
+      "version": "1.4.1",
+      "description": "修復了編輯子資料夾中的膠卷會將其移回根資料夾的問題。"
+    },
+    {
+      "version": "1.4.2",
+      "description": "改進翻譯以與 Mac 應用保持一致。修復了位置搜尋國家/地區顯示。在建立膠卷時新增了預設快門速度和光圈值。"
+    }
+  ]
+}

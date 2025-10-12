@@ -1,0 +1,37 @@
+{
+  "version": "1.3.0",
+  "version_short": "1.3",
+  "url_slug": "1-3-macos",
+  "platform": "macos",
+  "release_date": "2025-09-01T10:00:00.000Z",
+  "title": "DNG 原始檔案支援",
+  "meta_title": "DNG 原始檔案支援 · Frames",
+  "meta_description": "將詮釋資料嵌入 DNG 原始檔案,支援 JPEG 和 TIFF 格式。完整的類比工作流程,為專業後製提供全面的 EXIF 資料。",
+  "summary": "現已支援匯入 DNG 檔案以及 JPEG 和 TIFF,將詮釋資料直接重新整合到原始影像中,實現完整的類比攝影工作流程。",
+  "sections": [
+    {
+      "type": "paragraph",
+      "content": "原始影像支援登陸 Frames macOS 版。匯入 DNG 檔案以及現有的 JPEG 和 TIFF 工作流程,將膠卷詮釋資料直接嵌入原始檔案。這確保您的曝光設定、相機資料、膠卷型號和筆記隨原始影像一起在後製和歸檔過程中傳遞。我們還修復了幀的附加筆記在詮釋資料重新整合期間未保留的問題。"
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-mac-1.3.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-mac-1.3.0-1@2x.png",
+      "alt": "Frames macOS 應用,支援 DNG 原始檔案詮釋資料嵌入用於類比攝影掃描",
+      "width": "400",
+      "height": "300"
+    }
+  ],
+  "improvements": [
+    "新增 DNG 原始檔案支援",
+    "原始影像的完整詮釋資料重新整合",
+    "DNG 檔案與 JPEG 和 TIFF 無縫配合"
+  ],
+  "fixes": [
+    {
+      "title": "幀筆記保留",
+      "description": "修復了幀的附加筆記在詮釋資料重新整合期間未保留的問題。"
+    }
+  ],
+  "patches": []
+}

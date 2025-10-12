@@ -1,0 +1,55 @@
+{
+  "version": "1.5.0",
+  "version_short": "1.5",
+  "url_slug": "1-5-ios",
+  "platform": "ios",
+  "release_date": "2025-09-03T10:00:00.000Z",
+  "title": "新膠卷、重新設計的光圈系統和鏡頭切換",
+  "meta_title": "新膠卷、重新設計的光圈系統和鏡頭切換 · Frames",
+  "meta_description": "為每個鏡頭自訂光圈序列,新增 Harman Phoenix II 和其他膠卷。直接從記錄器切換鏡頭,實現更快更準確的類比記錄。",
+  "summary": "此更新擴展了膠卷庫,新增多款新膠卷,使用自訂光圈序列完全重新設計了光圈管理,並新增了直接從記錄器切換鏡頭的功能。",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "擴展的膠卷庫"
+    },
+    {
+      "type": "paragraph",
+      "content": "膠卷清單現在包括 Harman Phoenix II、Lucky Color 200、Leica Monopan 50 和其他幾種流行的膠卷。無論您是拍攝實驗性彩色膠片還是經典黑白膠片,Frames 都支援更廣泛的膠卷類型,實現更準確的記錄。"
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/{{ lang }}/changelog/frames-1.5.0-1.png",
+      "image_2x": "/lib/img/{{ lang }}/changelog/frames-1.5.0-1@2x.png",
+      "alt": "Frames 類比攝影應用,具有自訂光圈序列和擴展的膠卷庫",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "重新設計的光圈管理"
+    },
+    {
+      "type": "paragraph",
+      "content": "光圈控制已完全重構。您現在可以為每個鏡頭定義自訂光圈序列,只顯示您的鏡頭實際擁有的光圈。記錄器滑桿現在正確置中於所選光圈值。直接從記錄器切換鏡頭而無需離開工作流程,並透過「更多」按鈕為變焦鏡頭或移軸鏡頭設定焦距。"
+    }
+  ],
+  "improvements": [
+    "擴展膠卷庫,新增 Harman Phoenix II、Lucky Color 200、Leica Monopan 50 等",
+    "完全重新設計光圈管理系統",
+    "為每個鏡頭新增自訂光圈序列",
+    "新增直接從記錄器切換鏡頭功能",
+    "現在可以透過記錄器中的「更多」按鈕調整焦距",
+    "改進本地化一致性",
+    "整體小幅效能增強"
+  ],
+  "fixes": [
+    {
+      "title": "光圈滑桿置中",
+      "description": "修復了記錄器中的光圈滑桿未正確置中於所選值的問題。"
+    }
+  ],
+  "patches": []
+}

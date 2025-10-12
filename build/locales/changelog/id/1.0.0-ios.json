@@ -1,0 +1,150 @@
+{
+  "version": "1.0.0",
+  "version_short": "1.0",
+  "url_slug": "1-0-ios",
+  "platform": "ios",
+  "release_date": "2025-04-01T03:02:00.000Z",
+  "title": "Peluncuran Frames: Buku Catatan Fotografi Analog Anda",
+  "meta_title": "Peluncuran Frames: Buku Catatan Fotografi Analog Anda · Frames",
+  "meta_description": "Catat metadata fotografi film di lapangan dengan iOS dan sematkan data EXIF ke dalam gambar yang dipindai dengan macOS. Alur kerja analog lengkap dengan 200+ stok film.",
+  "summary": "Frames diluncurkan sebagai pembuatan ulang lengkap dari Datafilm, menghadirkan aplikasi iOS yang telah disempurnakan untuk mencatat metadata fotografi film di lapangan, dipasangkan dengan aplikasi macOS baru untuk menyematkan data tersebut ke dalam gambar hasil pindaian Anda.",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Catat & Atur Gulungan Film Anda"
+    },
+    {
+      "type": "paragraph",
+      "content": "Frames adalah buku catatan digital Anda untuk fotografi analog, dirancang untuk melacak pengaturan bidikan dan mengintegrasikan metadata ke dalam gambar yang dipindai dengan mulus. Catat setiap detail penting untuk setiap frame: panjang fokal, kecepatan rana, kompensasi eksposur, apertur, pengaturan flash, kamera, lensa, stok film, tanggal, waktu, dan geolokasi."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.0.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.0.0-1@2x.png",
+      "alt": "Antarmuka aplikasi fotografi film Frames untuk mencatat metadata kamera analog dan detail gulungan",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "list",
+      "items": [
+        {
+          "title": "Pencatatan Metadata Lengkap",
+          "description": "Lacak nomor frame, panjang fokal, kecepatan rana, kompensasi eksposur, apertur, pengaturan flash, kamera, lensa, stok film, tanggal, waktu, dan lokasi."
+        },
+        {
+          "title": "Gambar Referensi",
+          "description": "Lampirkan gambar referensi ke setiap frame untuk konteks visual cepat saat mencocokkan hasil pindaian."
+        },
+        {
+          "title": "Tampilan Peta Interaktif",
+          "description": "Lihat bidikan film Anda di peta interaktif untuk melacak kembali di mana setiap frame diambil."
+        },
+        {
+          "title": "Organisasi Folder",
+          "description": "Atur perpustakaan film Anda dengan folder dan alat pencarian canggih untuk menemukan frame apa pun secara instan."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Ekspor & Sinkronkan Data Anda"
+    },
+    {
+      "type": "paragraph",
+      "content": "Aplikasi pendamping macOS menyelesaikan fitur yang paling diminta dari komunitas fotografi film: mengintegrasikan kembali metadata ke dalam gambar JPEG yang dipindai. Ekspor metadata Anda sebagai file JSON (.frames), bagikan catatan di seluruh perangkat Apple, dan gunakan aplikasi macOS untuk menyematkan data EXIF yang bekerja mulus dengan Lightroom, Capture One, dan Apple Photos."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Dioptimalkan untuk Fotografi Analog"
+    },
+    {
+      "type": "list",
+      "items": [
+        {
+          "title": "Kontrol Adaptif",
+          "description": "Kontrol beradaptasi dengan karakteristik peralatan Anda untuk pencatatan yang lebih cepat."
+        },
+        {
+          "title": "Isi Otomatis Cerdas",
+          "description": "Isi otomatis cerdas untuk lensa, kamera, stok film, dan ISO menghemat waktu di lapangan."
+        },
+        {
+          "title": "200+ Stok Film",
+          "description": "Pilihan pra-muat stok film populer dari produsen utama."
+        },
+        {
+          "title": "Desain Native Apple",
+          "description": "Mengikuti Pedoman Antarmuka Manusia Apple untuk pengalaman yang lancar dan intuitif."
+        },
+        {
+          "title": "Kinerja Dioptimalkan",
+          "description": "Bekerja lancar bahkan di model iPhone yang lebih lama."
+        }
+      ]
+    }
+  ],
+  "improvements": [
+    "Pembangunan ulang lengkap dari awal dengan arsitektur yang disempurnakan",
+    "Catat metadata frame yang komprehensif: eksposur, kamera, lensa, film, lokasi",
+    "Pemberian cap waktu otomatis untuk setiap frame",
+    "Lampiran gambar referensi untuk mencocokkan hasil pindaian",
+    "Organisasi folder untuk perpustakaan gulungan film",
+    "Pencarian canggih di semua frame yang dicatat",
+    "Tampilan peta interaktif yang menunjukkan lokasi pengambilan gambar",
+    "Aplikasi pendamping macOS untuk penyematan metadata EXIF",
+    "Kompatibilitas penuh dengan Lightroom, Capture One, dan Apple Photos",
+    "Desain yang mengutamakan privasi tanpa akun atau ketergantungan cloud",
+    "Antarmuka pengguna toolbar yang ditingkatkan",
+    "Ditambahkan dukungan untuk berbagai bahasa termasuk Prancis, Jerman, Spanyol, Italia, Belanda, Portugis, Polandia, dan Swedia"
+  ],
+  "fixes": [
+    "Memperbaiki masalah di mana menambahkan kamera atau lensa baru membekukan layar di beberapa perangkat",
+    "Memperbaiki URL tinjauan aplikasi"
+  ],
+  "patches": [
+    {
+      "version": "1.0.1",
+      "date": "2025-04-04",
+      "description": "Perbaikan kecil dan perbaikan bug"
+    },
+    {
+      "version": "1.0.2",
+      "date": "2025-04-13",
+      "description": "Perbaikan kecil dan peningkatan terjemahan"
+    },
+    {
+      "version": "1.0.3",
+      "date": "2025-04-15",
+      "description": "Lokalisasi yang ditingkatkan"
+    },
+    {
+      "version": "1.0.4",
+      "date": "2025-04-19",
+      "description": "UI toolbar yang ditingkatkan dan lokalisasi yang diperluas"
+    },
+    {
+      "version": "1.0.5",
+      "date": "2025-04-21",
+      "description": "Ditambahkan lokalisasi"
+    },
+    {
+      "version": "1.0.6",
+      "date": "2025-04-23",
+      "description": "Memperbaiki masalah di mana menambahkan kamera atau lensa baru membekukan layar di beberapa perangkat"
+    },
+    {
+      "version": "1.0.7",
+      "date": "2025-04-28",
+      "description": "Memperbaiki URL tinjauan aplikasi"
+    },
+    {
+      "version": "1.0.8",
+      "date": "2025-05-20",
+      "description": "Ditambahkan kompatibilitas dengan iOS 18.0 dan yang lebih baru"
+    }
+  ]
+}

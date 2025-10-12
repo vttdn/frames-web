@@ -1,0 +1,48 @@
+{
+  "version": "1.2.0",
+  "version_short": "1.2",
+  "url_slug": "1-2-macos",
+  "platform": "macos",
+  "release_date": "2025-08-24T10:00:00.000Z",
+  "title": "滤镜支持、日语和韩语",
+  "meta_title": "滤镜支持、日语和韩语 · Frames",
+  "meta_description": "自动嵌入 UV、ND 和 CPL 滤镜元数据。新增日语和韩语支持,改进 EXIF 数据,包含相机序列号。",
+  "summary": "滤镜现已在侧边栏显示,保存帧时会自动添加到元数据。此更新还带来日语和韩语支持,以及重要的错误修复。",
+  "sections": [
+    {
+      "type": "paragraph",
+      "content": "在 iOS 上记录的滤镜现在会显示在 macOS 侧边栏中,并在重新集成期间自动嵌入 EXIF 元数据。这完善了您的模拟记录,将 UV、ND、CPL 和其他滤镜信息包含在最终图像中。相机序列号现在也包含在元数据中,我们还修复了闪光灯值反转的错误。Frames 现已支持日语和韩语,与 iOS 的语言扩展保持一致。"
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-mac-1.2.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-mac-1.2.0-1@2x.png",
+      "alt": "Frames macOS 应用,显示用于胶片摄影记录的滤镜元数据侧边栏",
+      "width": "400",
+      "height": "300"
+    }
+  ],
+  "improvements": [
+    "新增滤镜显示在侧边栏",
+    "保存帧时滤镜自动添加到元数据",
+    "相机序列号现已包含在 EXIF 元数据中",
+    "新增日语支持",
+    "新增韩语支持"
+  ],
+  "fixes": [
+    {
+      "title": "闪光灯值反转",
+      "description": "纠正了闪光灯值反转的问题(本应显示\"否\"时显示\"是\")。"
+    }
+  ],
+  "patches": [
+    {
+      "version": "1.2.2",
+      "description": "改进新语言的本地化。"
+    },
+    {
+      "version": "1.2.1",
+      "description": "改进翻译以与 iOS 应用保持一致,以及界面细微优化。"
+    }
+  ]
+}

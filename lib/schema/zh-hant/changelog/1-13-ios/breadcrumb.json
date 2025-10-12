@@ -1,0 +1,23 @@
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://withframes.com/zh-hant/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "更新日誌",
+      "item": "https://withframes.com/zh-hant/changelog/1-13-ios/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "新增希伯來語、阿拉伯語、羅馬尼亞語和烏克蘭語支援",
+      "item": "https://withframes.com/zh-hant/changelog/1-13-ios/"
+    }  ]
+}

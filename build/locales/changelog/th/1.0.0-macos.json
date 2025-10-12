@@ -1,0 +1,78 @@
+{
+  "version": "1.0.0",
+  "version_short": "1.0",
+  "url_slug": "1-0-macos",
+  "platform": "macos",
+  "release_date": "2025-04-08T10:00:00.000Z",
+  "title": "เปิดตัว Frames สำหรับ macOS",
+  "meta_title": "เปิดตัว Frames สำหรับ macOS · Frames",
+  "meta_description": "ฝัง metadata การถ่ายภาพฟิล์มเข้าไปในภาพที่สแกนด้วยการรองรับ EXIF สำหรับ Lightroom, Capture One และ Apple Photos นำข้อมูลการบันทึก iOS กลับมารวมได้อย่างราบรื่น",
+  "summary": "แอป macOS ที่รอคอยมานานเปิดตัวแล้ว นำมาซึ่งการรวม metadata กลับเข้าไปในภาพฟิล์มที่สแกนได้อย่างราบรื่น นำเข้าข้อมูลม้วนฟิล์มของคุณจาก iOS และฝัง EXIF metadata เข้าไปในไฟล์ JPEG",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "การรวม Metadata สำหรับฟิล์มที่สแกน"
+    },
+    {
+      "type": "paragraph",
+      "content": "Frames สำหรับ macOS แก้ปัญหาฟีเจอร์ที่ชุมชนช่างภาพฟิล์มขอมากที่สุด: การนำ metadata กลับเข้าไปในภาพที่สแกน นำเข้าไฟล์ .frames ของคุณจาก iOS ลากภาพ JPEG ที่สแกนเข้ามา และแอปจับคู่เฟรมกับภาพ การตั้งค่าแสง ข้อมูลกล้อง ข้อมูลเลนส์ ฟิล์ม และบันทึกการถ่ายของคุณถูกฝังเป็น EXIF metadata ที่ทำงานได้อย่างราบรื่นกับ Lightroom, Capture One และ Apple Photos"
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.0.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.0.0-1@2x.png",
+      "alt": "แอป Frames บน macOS สำหรับฝัง EXIF metadata เข้าไปในภาพถ่ายฟิล์มที่สแกน",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "ระบบการทำงานที่เรียบง่าย ผลลัพธ์มืออาชีพ"
+    },
+    {
+      "type": "paragraph",
+      "content": "ระบบการทำงานตรงไปตรงมา: นำเข้าไฟล์ .frames ของคุณ เพิ่มภาพที่สแกน จับคู่เฟรมกับภาพ และส่งออก แอปจัดการการฝัง EXIF โดยอัตโนมัติ ทำให้เอกสารการถ่ายภาพ analog ของคุณกลายเป็นบันทึกดิจิทัลถาวร ข้อมูลม้วนฟิล์มของคุณถ่ายโอนได้อย่างราบรื่นจากการบันทึกในสนามบน iOS ไปยังการเก็บถาวรขั้นสุดท้ายบน macOS"
+    }
+  ],
+  "improvements": [
+    "นำเข้าไฟล์ .frames จาก iOS",
+    "รองรับไฟล์ JPEG พร้อมการฝัง metadata เต็มรูปแบบ",
+    "การจับคู่เฟรมกับภาพอัตโนมัติ",
+    "การฝัง EXIF metadata เข้ากันได้กับ Lightroom, Capture One และ Apple Photos",
+    "การออกแบบ macOS แท้ตาม Human Interface Guidelines ของ Apple",
+    "มีให้บริการใน 7 ภาษา: อังกฤษ ฝรั่งเศส สเปน อิตาลี โปรตุเกส เยอรมัน และดัตช์"
+  ],
+  "fixes": [],
+  "patches": [
+    {
+      "version": "1.0.1",
+      "description": "เพิ่มการรองรับภาษาฝรั่งเศส"
+    },
+    {
+      "version": "1.0.2",
+      "description": "ขยายเป็น 7 ภาษา: อังกฤษ ฝรั่งเศส สเปน อิตาลี โปรตุเกส เยอรมัน และดัตช์"
+    },
+    {
+      "version": "1.0.3",
+      "description": "ปรับปรุงการรองรับภาษา"
+    },
+    {
+      "version": "1.0.4",
+      "description": "ตอนนี้เข้ากันได้กับ macOS 15.0 และใหม่กว่า"
+    },
+    {
+      "version": "1.0.5",
+      "description": "ภาพที่ส่งออกตอนนี้เก็บชื่อไฟล์ต้นฉบับ"
+    },
+    {
+      "version": "1.0.6",
+      "description": "ออกแบบไอคอนแอปใหม่"
+    },
+    {
+      "version": "1.0.7",
+      "description": "ปรับแต่งโลโก้แอปเล็กน้อย"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "version": "1.3.0",
+  "version_short": "1.3",
+  "url_slug": "1-3-ios",
+  "platform": "ios",
+  "release_date": "2025-07-18T10:00:00.000Z",
+  "title": "Ekspor GPX & Pembuatan File Lebih Cepat",
+  "meta_title": "Ekspor GPX & Pembuatan File Lebih Cepat · Frames",
+  "meta_description": "Ekspor lokasi gulungan film sebagai file GPX untuk perangkat lunak pemetaan. Pembuatan file yang jauh lebih cepat dengan keandalan yang ditingkatkan untuk ekspor gulungan film besar.",
+  "summary": "Pengguna Pro sekarang dapat mengekspor gulungan film sebagai file GPX untuk pelacakan lokasi. Pembaruan ini juga membawa peningkatan kinerja untuk ekspor file yang lebih cepat dan lebih andal di semua format.",
+  "sections": [
+    {
+      "type": "paragraph",
+      "content": "Ekspor lokasi gulungan film Anda sebagai file GPX untuk memvisualisasikan lokasi pemotretan dalam aplikasi pemetaan atau impor ke dalam perangkat lunak manajemen foto. Setiap frame dengan data lokasi menjadi titik jalan dalam trek GPX. Kinerja ekspor file telah ditingkatkan di semua format, membuat pembuatan file .FRAMES, TXT, dan GPX lebih cepat bahkan untuk gulungan film dengan banyak frame."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/{{ lang }}/changelog/frames-1.3.0-1.png",
+      "image_2x": "/lib/img/{{ lang }}/changelog/frames-1.3.0-1@2x.png",
+      "alt": "Aplikasi fotografi analog Frames dengan fitur ekspor lokasi GPX dan pembuatan file",
+      "width": "400",
+      "height": "300"
+    }
+  ],
+  "improvements": [
+    "Ditambahkan ekspor file GPX untuk pengguna Pro",
+    "Pembuatan ekspor file yang jauh lebih cepat",
+    "Keandalan ekspor yang ditingkatkan untuk gulungan film besar",
+    "Penggunaan memori yang dioptimalkan selama operasi ekspor"
+  ],
+  "fixes": [],
+  "patches": []
+}

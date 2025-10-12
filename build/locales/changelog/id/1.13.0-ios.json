@@ -1,0 +1,77 @@
+{
+  "version": "1.13.0",
+  "version_short": "1.13",
+  "url_slug": "1-13-ios",
+  "platform": "ios",
+  "release_date": "2025-10-06T10:00:00.000Z",
+  "title": "Dukungan Bahasa Ibrani, Arab, Rumania & Ukraina",
+  "summary": "Frames melanjutkan misinya untuk melayani fotografer analog di seluruh dunia dengan pembaruan lokalisasi signifikan ini, membawa dukungan native untuk penutur bahasa Ibrani, Arab, Rumania, dan Ukraina, bersama dengan terjemahan dan peningkatan antarmuka yang disempurnakan di seluruh aplikasi.",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Empat Bahasa Baru dengan Dukungan Kanan-ke-Kiri"
+    },
+    {
+      "type": "paragraph",
+      "content": "Frames sekarang mendukung bahasa Ibrani, Arab, Rumania, dan Ukraina, masing-masing dilokalisasi dengan hati-hati untuk menghormati nuansa budaya dan terminologi fotografi. Ibrani dan Arab mencakup adaptasi antarmuka kanan-ke-kiri penuh. Alur navigasi, penempatan tombol, dan perataan teks semuanya dicerminkan dengan tepat sambil mempertahankan istilah teknis seperti kode stok film dan nilai apertur dalam format internasional standar mereka."
+    },
+    {
+      "type": "list",
+      "items": [
+        {
+          "title": "Ibrani (עברית) & Arab (العربية)",
+          "description": "Antarmuka RTL lengkap dengan terminologi native untuk stok film, pengaturan kamera, dan metadata EXIF."
+        },
+        {
+          "title": "Rumania (Română) & Ukraina (Українська)",
+          "description": "Terjemahan lengkap mendukung fotografer yang mendokumentasikan pekerjaan mereka dalam bahasa native mereka."
+        }
+      ]
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.13.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.13.0-1@2x.png",
+      "alt": "Aplikasi fotografi film Frames dengan antarmuka RTL Ibrani dan Arab dan dukungan bahasa",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Penyempurnaan Terjemahan di Semua Bahasa"
+    },
+    {
+      "type": "paragraph",
+      "content": "Di luar bahasa baru, kami telah menyempurnakan terjemahan yang ada di seluruh aplikasi berdasarkan umpan balik dari fotografer. Nama stok film tetap dalam bahasa aslinya (Kodak Portra, Ilford HP5), sementara elemen antarmuka beradaptasi dengan bahasa pilihan Anda. Preferensi bahasa disinkronkan di seluruh perangkat, dan semua data yang ada secara otomatis ditampilkan dalam bahasa pilihan Anda tanpa entri ulang atau migrasi."
+    }
+  ],
+  "improvements": [
+    "Ditambahkan lokalisasi bahasa Ibrani (עברית) lengkap dengan dukungan antarmuka kanan-ke-kiri",
+    "Ditambahkan lokalisasi bahasa Arab (العربية) lengkap dengan adaptasi tata letak RTL",
+    "Ditambahkan terjemahan bahasa Rumania (Română) untuk komunitas fotografi film",
+    "Ditambahkan dukungan bahasa Ukraina (Українська) dengan terminologi native",
+    "Terjemahan yang ada disempurnakan di semua bahasa yang didukung untuk kejelasan dan konsistensi yang lebih baik",
+    "Akurasi terminologi teknis yang ditingkatkan dalam bidang khusus fotografi",
+    "Dukungan teks dua arah yang ditingkatkan untuk konten campuran Latin dan RTL"
+  ],
+  "fixes": [
+    {
+      "title": "Overflow Teks dalam Terjemahan",
+      "description": "Menyelesaikan masalah tata letak di mana frasa yang diterjemahkan lebih panjang dapat terpotong dalam elemen antarmuka tertentu."
+    },
+    {
+      "title": "Konsistensi Tata Letak RTL",
+      "description": "Memperbaiki masalah perataan kecil dalam bahasa kanan-ke-kiri untuk memastikan pencerminan yang tepat di semua layar."
+    }
+  ],
+  "patches": [
+    {
+      "version": "1.13.1",
+      "description": "Memperbaiki bug yang dapat menyebabkan menu berbagi berkedip berulang kali saat mengekspor"
+    }
+  ],
+  "meta_title": "Dukungan Bahasa Ibrani, Arab, Rumania & Ukraina · Frames",
+  "meta_description": "Frames melanjutkan misinya untuk melayani fotografer analog di seluruh dunia dengan pembaruan lokalisasi signifikan ini, membawa dukungan native untuk Ibrani, Arab,..."
+}

@@ -1,0 +1,32 @@
+{
+  "version": "1.8.0",
+  "version_short": "1.8",
+  "url_slug": "1-8-ios",
+  "platform": "ios",
+  "release_date": "2025-09-15T10:00:00.000Z",
+  "title": "Ekspor File TXT untuk Catatan Film",
+  "summary": "Pengguna Pro sekarang dapat mengekspor catatan gulungan film sebagai file TXT, sempurna untuk mencetak catatan lapangan atau membuat lembar referensi cepat untuk pekerjaan kamar gelap.",
+  "sections": [
+    {
+      "type": "paragraph",
+      "content": "Ekspor metadata gulungan film Anda sebagai file teks biasa. Format ini bekerja dengan baik untuk mencetak lembar referensi kompak untuk disimpan di tas kamera atau kamar gelap Anda. Setiap ekspor TXT mencakup semua detail frame, pengaturan eksposur, dan catatan dalam format yang bersih dan mudah dibaca yang mudah dicetak atau dibagikan dengan lab."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.8.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.8.0-1@2x.png",
+      "alt": "Fitur ekspor TXT aplikasi fotografi analog Frames untuk mencetak catatan gulungan film dan metadata",
+      "width": "400",
+      "height": "300"
+    }
+  ],
+  "improvements": [
+    "Ditambahkan ekspor file TXT untuk pengguna Pro",
+    "Format ekspor yang dioptimalkan untuk pencetakan dan keterbacaan",
+    "Metadata frame komprehensif disertakan dalam ekspor"
+  ],
+  "fixes": [],
+  "patches": [],
+  "meta_title": "Ekspor File TXT untuk Catatan Film · Frames",
+  "meta_description": "Pengguna Pro sekarang dapat mengekspor catatan gulungan film sebagai file TXT, sempurna untuk mencetak catatan lapangan atau membuat lembar referensi cepat untuk pekerjaan kamar gelap."
+}

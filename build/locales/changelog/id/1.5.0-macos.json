@@ -1,0 +1,43 @@
+{
+  "version": "1.5.0",
+  "version_short": "1.5",
+  "url_slug": "1-5-macos",
+  "platform": "macos",
+  "release_date": "2025-09-19T10:00:00.000Z",
+  "title": "Peningkatan Kinerja & Pemrosesan DNG yang Besar",
+  "meta_title": "Peningkatan Kinerja & Pemrosesan DNG yang Besar · Frames",
+  "meta_description": "Pemrosesan DNG yang jauh lebih cepat dengan caching dan penggunaan memori yang dioptimalkan. Memperbaiki impor .frames dan kompatibilitas Mac Intel untuk alur kerja metadata yang lebih lancar.",
+  "summary": "Pembaruan ini memberikan penanganan gambar yang jauh lebih cepat dengan pemrosesan DNG yang dioptimalkan, caching yang ditingkatkan, dan perbaikan untuk impor file .frames dan ekspor metadata DNG di Mac Intel.",
+  "sections": [
+    {
+      "type": "paragraph",
+      "content": "Pemuatan gambar sekarang jauh lebih cepat di semua format, dengan peningkatan besar pada kecepatan dan keandalan pemrosesan DNG. Penggunaan memori telah dioptimalkan, caching ditingkatkan, dan pemuatan tersinkronisasi memastikan operasi lancar bahkan dengan batch gambar yang besar. Kami juga telah memperbaiki impor file .frames dari menu bar macOS dan menyelesaikan masalah ekspor metadata DNG di Mac Intel yang lebih lama."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.10.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.10.0-1@2x.png",
+      "alt": "Aplikasi macOS Frames dengan kinerja pemrosesan DNG yang dioptimalkan untuk penanganan gambar lebih cepat",
+      "width": "400",
+      "height": "300"
+    }
+  ],
+  "improvements": [
+    "Pemuatan gambar yang jauh lebih cepat di semua format",
+    "Pemrosesan DNG yang dioptimalkan untuk kinerja yang lebih baik",
+    "Sistem caching yang ditingkatkan untuk operasi yang lebih lancar",
+    "Efisiensi penggunaan memori yang ditingkatkan",
+    "Pemuatan tersinkronisasi untuk batch gambar yang besar"
+  ],
+  "fixes": [
+    {
+      "title": "Impor File .frames",
+      "description": "Memperbaiki impor file .frames dari menu bar macOS."
+    },
+    {
+      "title": "Ekspor DNG di Mac Intel",
+      "description": "Memperbaiki ekspor metadata DNG di model Mac Intel yang lebih lama."
+    }
+  ],
+  "patches": []
+}

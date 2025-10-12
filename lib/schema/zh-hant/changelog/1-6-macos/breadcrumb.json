@@ -1,0 +1,23 @@
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://withframes.com/zh-hant/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "更新日誌",
+      "item": "https://withframes.com/zh-hant/changelog/1-6-macos/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "測光模式詮釋資料與效能改進",
+      "item": "https://withframes.com/zh-hant/changelog/1-6-macos/"
+    }  ]
+}

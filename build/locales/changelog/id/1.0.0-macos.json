@@ -1,0 +1,78 @@
+{
+  "version": "1.0.0",
+  "version_short": "1.0",
+  "url_slug": "1-0-macos",
+  "platform": "macos",
+  "release_date": "2025-04-08T10:00:00.000Z",
+  "title": "Peluncuran Frames untuk macOS",
+  "meta_title": "Peluncuran Frames untuk macOS · Frames",
+  "meta_description": "Sematkan metadata fotografi film ke dalam gambar yang dipindai dengan dukungan EXIF untuk Lightroom, Capture One, dan Apple Photos. Integrasi ulang data pencatatan iOS dengan mulus.",
+  "summary": "Aplikasi pendamping macOS yang telah lama ditunggu diluncurkan, menghadirkan integrasi ulang metadata yang mulus ke dalam gambar film yang dipindai. Impor data gulungan film Anda dari iOS dan sematkan metadata EXIF ke dalam file JPEG.",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Integrasi Ulang Metadata untuk Film yang Dipindai"
+    },
+    {
+      "type": "paragraph",
+      "content": "Frames untuk macOS menyelesaikan fitur yang paling diminta dari komunitas fotografi film: mengintegrasikan kembali metadata ke dalam gambar yang dipindai. Impor file .frames Anda dari iOS, seret gambar JPEG yang dipindai, dan aplikasi akan mencocokkan frame dengan foto. Pengaturan eksposur, data kamera, informasi lensa, stok film, dan catatan pemotretan Anda disematkan sebagai metadata EXIF yang bekerja mulus dengan Lightroom, Capture One, dan Apple Photos."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.0.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.0.0-1@2x.png",
+      "alt": "Aplikasi macOS Frames untuk menyematkan metadata EXIF ke dalam foto film yang dipindai",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Alur Kerja Sederhana, Hasil Profesional"
+    },
+    {
+      "type": "paragraph",
+      "content": "Alur kerjanya mudah: impor file .frames Anda, tambahkan gambar yang dipindai, cocokkan frame dengan foto, dan ekspor. Aplikasi menangani penyematan EXIF secara otomatis, memastikan dokumentasi fotografi analog Anda menjadi catatan digital permanen. Data gulungan film Anda berpindah dengan mulus dari pencatatan lapangan di iOS ke pengarsipan akhir di macOS."
+    }
+  ],
+  "improvements": [
+    "Impor file .frames dari iOS",
+    "Dukungan file JPEG dengan penyematan metadata penuh",
+    "Pencocokan frame-ke-foto otomatis",
+    "Penyematan metadata EXIF yang kompatibel dengan Lightroom, Capture One, dan Apple Photos",
+    "Desain macOS native yang mengikuti Pedoman Antarmuka Manusia Apple",
+    "Tersedia dalam 7 bahasa: Inggris, Prancis, Spanyol, Italia, Portugis, Jerman, dan Belanda"
+  ],
+  "fixes": [],
+  "patches": [
+    {
+      "version": "1.0.1",
+      "description": "Ditambahkan dukungan bahasa Prancis."
+    },
+    {
+      "version": "1.0.2",
+      "description": "Diperluas ke 7 bahasa: Inggris, Prancis, Spanyol, Italia, Portugis, Jerman, dan Belanda."
+    },
+    {
+      "version": "1.0.3",
+      "description": "Dukungan bahasa yang ditingkatkan."
+    },
+    {
+      "version": "1.0.4",
+      "description": "Sekarang kompatibel dengan macOS 15.0 dan yang lebih baru."
+    },
+    {
+      "version": "1.0.5",
+      "description": "Foto yang diekspor sekarang mempertahankan nama file aslinya."
+    },
+    {
+      "version": "1.0.6",
+      "description": "Mendesain ulang ikon aplikasi."
+    },
+    {
+      "version": "1.0.7",
+      "description": "Penyempurnaan kecil pada logo aplikasi."
+    }
+  ]
+}

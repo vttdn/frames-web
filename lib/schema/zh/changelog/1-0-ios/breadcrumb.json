@@ -1,0 +1,23 @@
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://withframes.com/zh/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "更新日志",
+      "item": "https://withframes.com/zh/changelog/1-0-ios/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Frames 正式发布:您的胶片摄影笔记本",
+      "item": "https://withframes.com/zh/changelog/1-0-ios/"
+    }  ]
+}

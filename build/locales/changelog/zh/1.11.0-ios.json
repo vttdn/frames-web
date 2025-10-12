@@ -1,0 +1,47 @@
+{
+  "version": "1.11.0",
+  "version_short": "1.11",
+  "url_slug": "1-11-ios",
+  "platform": "ios",
+  "release_date": "2025-10-02T10:00:00.000Z",
+  "title": "测光模式元数据和性能改进",
+  "summary": "Frames 现在可以捕获您相机的测光模式以及曝光数据,为您提供每次拍摄测量方式的更完整记录。此更新还带来性能改进,使整个应用体验更快、更稳定。",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "测光模式记录"
+    },
+    {
+      "type": "paragraph",
+      "content": "您现在可以记录相机为每一帧使用的测光模式。无论您是使用中央重点、点测光还是评价测光,Frames 都会将此元数据与您现有的曝光设置一起捕获。这有助于您了解相机如何测量每次拍摄的光线,并随着时间的推移改进您的曝光方法。"
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/{{ lang }}/changelog/frames-1.11.0-1.png",
+      "image_2x": "/lib/img/{{ lang }}/changelog/frames-1.11.0-1@2x.png",
+      "alt": "Frames 胶片摄影应用显示用于曝光分析的测光模式元数据记录",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "性能增强"
+    },
+    {
+      "type": "paragraph",
+      "content": "底层改进使 Frames 更快更响应。在胶卷之间导航、帧记录和元数据编辑都受益于优化的性能。这些改进有助于在管理模拟摄影工作流程时提供更流畅的体验。"
+    }
+  ],
+  "improvements": [
+    "添加测光模式元数据字段以实现完整的曝光记录",
+    "改进应用性能以实现更快的导航和帧记录",
+    "增强在胶卷之间切换和编辑帧时的稳定性",
+    "优化内存使用以实现更流畅的大型胶片库操作"
+  ],
+  "fixes": [],
+  "patches": [],
+  "meta_title": "测光模式元数据和性能改进 · Frames",
+  "meta_description": "Frames 现在可以捕获您相机的测光模式以及曝光数据,为您提供每次拍摄测量方式的更完整记录。"
+}

@@ -1,0 +1,78 @@
+{
+  "version": "1.0.0",
+  "version_short": "1.0",
+  "url_slug": "1-0-macos",
+  "platform": "macos",
+  "release_date": "2025-04-08T10:00:00.000Z",
+  "title": "Frames macOS 版正式發布",
+  "meta_title": "Frames macOS 版正式發布 · Frames",
+  "meta_description": "將膠片攝影詮釋資料嵌入掃描影像,支援 EXIF 格式,可與 Lightroom、Capture One 和 Apple Photos 無縫配合。輕鬆重新整合 iOS 記錄資料。",
+  "summary": "期待已久的 macOS 配套應用正式發布,為掃描的膠片影像帶來無縫的詮釋資料重新整合。從 iOS 匯入膠卷資料,將 EXIF 詮釋資料嵌入 JPEG 檔案。",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "掃描膠片的詮釋資料重新整合"
+    },
+    {
+      "type": "paragraph",
+      "content": "Frames macOS 版解決了膠片攝影社群最需要的功能:將詮釋資料重新整合到掃描影像中。從 iOS 匯入 .frames 檔案,拖入掃描的 JPEG 影像,應用會自動匹配幀與照片。您的曝光設定、相機資料、鏡頭資訊、膠卷型號和拍攝筆記都將作為 EXIF 詮釋資料嵌入,可與 Lightroom、Capture One 和 Apple Photos 無縫配合。"
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.0.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.0.0-1@2x.png",
+      "alt": "Frames macOS 應用,用於將 EXIF 詮釋資料嵌入掃描的膠片照片",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "簡單的工作流程,專業的成果"
+    },
+    {
+      "type": "paragraph",
+      "content": "工作流程簡潔明瞭:匯入 .frames 檔案,新增掃描影像,匹配幀與照片,然後匯出。應用會自動處理 EXIF 嵌入,確保您的類比攝影記錄成為永久的數位檔案。您的膠卷資料從 iOS 現場記錄無縫傳輸到 macOS 最終歸檔。"
+    }
+  ],
+  "improvements": [
+    "從 iOS 匯入 .frames 檔案",
+    "支援 JPEG 檔案的完整詮釋資料嵌入",
+    "自動幀與照片匹配",
+    "嵌入 EXIF 詮釋資料,相容 Lightroom、Capture One 和 Apple Photos",
+    "遵循 Apple 人機介面指南的原生 macOS 設計",
+    "支援 7 種語言:英語、法語、西班牙語、義大利語、葡萄牙語、德語和荷蘭語"
+  ],
+  "fixes": [],
+  "patches": [
+    {
+      "version": "1.0.1",
+      "description": "新增法語支援。"
+    },
+    {
+      "version": "1.0.2",
+      "description": "擴展至 7 種語言:英語、法語、西班牙語、義大利語、葡萄牙語、德語和荷蘭語。"
+    },
+    {
+      "version": "1.0.3",
+      "description": "改進語言支援。"
+    },
+    {
+      "version": "1.0.4",
+      "description": "現已相容 macOS 15.0 及更高版本。"
+    },
+    {
+      "version": "1.0.5",
+      "description": "匯出的照片現在保留原始檔案名稱。"
+    },
+    {
+      "version": "1.0.6",
+      "description": "重新設計了應用圖示。"
+    },
+    {
+      "version": "1.0.7",
+      "description": "應用標誌的細微改進。"
+    }
+  ]
+}

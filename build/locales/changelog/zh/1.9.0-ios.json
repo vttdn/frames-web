@@ -1,0 +1,52 @@
+{
+  "version": "1.9.0",
+  "version_short": "1.9",
+  "url_slug": "1-9-ios",
+  "platform": "ios",
+  "release_date": "2025-09-18T10:00:00.000Z",
+  "title": "子文件夹、滑动移动和 TXT 导出改进",
+  "summary": "使用最多 5 级深度的嵌套子文件夹整理您的胶片库。此更新还通过滑动手势简化了胶卷管理,并改进了 TXT 导出格式以获得更好的文档。",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Pro 用户的嵌套文件夹整理"
+    },
+    {
+      "type": "paragraph",
+      "content": "Pro 用户现在可以创建最多 5 级深度的子文件夹,实现胶片档案的详细整理。按年份、项目、胶卷类型或任何适合您工作流程的层次结构来构建您的库。这使得在大量胶片收藏中定位特定拍摄更容易,并将相关胶卷逻辑地分组在一起。"
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/{{ lang }}/changelog/frames-1.9.0-1.png",
+      "image_2x": "/lib/img/{{ lang }}/changelog/frames-1.9.0-1@2x.png",
+      "alt": "Frames 胶片摄影应用显示用于胶卷档案的嵌套文件夹整理",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "改进的胶卷管理"
+    },
+    {
+      "type": "paragraph",
+      "content": "滑动手势现在包括移动按钮,使移动胶卷和文件夹更快。我们还修复了一个问题,即当年份与当前年份匹配时,TXT 导出会省略年份,确保所有导出中都有完整的日期信息。"
+    }
+  ],
+  "improvements": [
+    "为 Pro 用户添加最多 5 级深度的子文件夹支持",
+    "滑动手势现在包括胶卷和文件夹的移动按钮",
+    "增强文件夹导航,支持面包屑导航",
+    "改进多种语言的本地化一致性"
+  ],
+  "fixes": [
+    {
+      "title": "TXT 导出年份显示",
+      "description": "修复了当年份与当前年份匹配时 TXT 导出会省略年份的问题。现在始终包含年份以获得完整的日期信息。"
+    }
+  ],
+  "patches": [],
+  "meta_title": "子文件夹、滑动移动和 TXT 导出改进 · Frames",
+  "meta_description": "使用最多 5 级深度的嵌套子文件夹整理您的胶片库。"
+}

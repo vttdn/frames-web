@@ -1,0 +1,43 @@
+{
+  "version": "1.5.0",
+  "version_short": "1.5",
+  "url_slug": "1-5-macos",
+  "platform": "macos",
+  "release_date": "2025-09-19T10:00:00.000Z",
+  "title": "重大性能与 DNG 处理改进",
+  "meta_title": "重大性能与 DNG 处理改进 · Frames",
+  "meta_description": "显著加快 DNG 处理速度,优化缓存和内存使用。修复 .frames 导入和 Intel Mac 兼容性,实现更流畅的元数据工作流程。",
+  "summary": "此更新显著加快图像处理速度,优化 DNG 处理,改进缓存,修复 .frames 文件导入和 Intel Mac 上的 DNG 元数据导出问题。",
+  "sections": [
+    {
+      "type": "paragraph",
+      "content": "所有格式的图像加载速度现在显著加快,DNG 处理速度和可靠性有重大改进。内存使用已优化,缓存已改进,同步加载确保即使处理大批量图像也能流畅运行。我们还修复了从 macOS 菜单栏导入 .frames 文件的问题,以及较旧 Intel Mac 上的 DNG 元数据导出问题。"
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.10.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.10.0-1@2x.png",
+      "alt": "Frames macOS 应用,优化 DNG 处理性能,实现更快的图像处理",
+      "width": "400",
+      "height": "300"
+    }
+  ],
+  "improvements": [
+    "所有格式的图像加载显著加快",
+    "优化 DNG 处理,性能更佳",
+    "改进缓存系统,运行更流畅",
+    "增强内存使用效率",
+    "同步加载大批量图像"
+  ],
+  "fixes": [
+    {
+      "title": ".frames 文件导入",
+      "description": "修复了从 macOS 菜单栏导入 .frames 文件的问题。"
+    },
+    {
+      "title": "Intel Mac 上的 DNG 导出",
+      "description": "修复了较旧 Intel Mac 机型上的 DNG 元数据导出问题。"
+    }
+  ],
+  "patches": []
+}

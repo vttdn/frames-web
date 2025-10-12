@@ -1,0 +1,35 @@
+{
+  "version": "1.8.0",
+  "version_short": "1.8",
+  "url_slug": "1-8-macos",
+  "platform": "macos",
+  "release_date": "2025-10-03T10:00:00.000Z",
+  "title": "新增希伯來語、阿拉伯語、羅馬尼亞語和烏克蘭語支援",
+  "summary": "Frames macOS 版繼續擴展語言支援,新增希伯來語、阿拉伯語、羅馬尼亞語和烏克蘭語,同時最佳化介面,實現更流暢的詮釋資料重新整合工作流程。",
+  "sections": [
+    {
+      "type": "paragraph",
+      "content": "此更新為希伯來語和阿拉伯語帶來原生支援,完整的從右至左介面適配,以及羅馬尼亞語和烏克蘭語翻譯。所有特定語言的膠卷、相機設定和 EXIF 詮釋資料術語都經過精心本地化,以確保與 iOS 應用保持一致。"
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.13.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.13.0-1@2x.png",
+      "alt": "Frames macOS 應用,支援希伯來語和阿拉伯語 RTL 介面和語言",
+      "width": "400",
+      "height": "300"
+    }
+  ],
+  "improvements": [
+    "新增希伯來語 (עברית) 本地化,支援從右至左介面",
+    "新增阿拉伯語 (العربية) 本地化,支援 RTL 版面配置適配",
+    "新增羅馬尼亞語 (Română) 翻譯",
+    "新增烏克蘭語 (Українська) 支援",
+    "介面最佳化,使用者體驗更流暢",
+    "改進所有支援語言的一致性"
+  ],
+  "fixes": [],
+  "patches": [],
+  "meta_title": "新增希伯來語、阿拉伯語、羅馬尼亞語和烏克蘭語支援 · Frames",
+  "meta_description": "Frames macOS 版繼續擴展語言支援,新增希伯來語、阿拉伯語、羅馬尼亞語和烏克蘭語,同時最佳化介面,實現更流暢的詮釋資料..."
+}

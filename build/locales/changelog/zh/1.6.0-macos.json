@@ -1,0 +1,38 @@
+{
+  "version": "1.6.0",
+  "version_short": "1.6",
+  "url_slug": "1-6-macos",
+  "platform": "macos",
+  "release_date": "2025-10-01T10:00:00.000Z",
+  "title": "测光模式元数据与性能改进",
+  "summary": "Frames macOS 版现已支持测光模式元数据,实现全面的 EXIF 数据,以及性能改进,运行更快速、更稳定。",
+  "sections": [
+    {
+      "type": "paragraph",
+      "content": "您现在可以查看并将胶片记录中的测光模式数据重新集成到扫描图像中。这与 iOS 更新保持一致,确保两个平台的元数据完全一致。整个应用的性能升级使元数据重新集成更快速、更可靠。"
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/{{ lang }}/changelog/frames-1.11.0-1.png",
+      "image_2x": "/lib/img/{{ lang }}/changelog/frames-1.11.0-1@2x.png",
+      "alt": "Frames macOS 应用,显示测光模式元数据支持,实现完整的 EXIF 数据",
+      "width": "400",
+      "height": "300"
+    }
+  ],
+  "improvements": [
+    "新增测光模式元数据支持",
+    "性能升级,图像处理更快",
+    "改进整体应用稳定性",
+    "增强元数据重新集成速度"
+  ],
+  "fixes": [],
+  "patches": [
+    {
+      "version": "1.5.1",
+      "description": "各种界面增强和视觉优化。"
+    }
+  ],
+  "meta_title": "测光模式元数据与性能改进 · Frames",
+  "meta_description": "Frames macOS 版现已支持测光模式元数据,实现全面的 EXIF 数据,以及性能改进,运行更快速、更稳定。"
+}

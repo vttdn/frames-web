@@ -1,0 +1,32 @@
+{
+  "version": "1.8.0",
+  "version_short": "1.8",
+  "url_slug": "1-8-ios",
+  "platform": "ios",
+  "release_date": "2025-09-15T10:00:00.000Z",
+  "title": "膠片日誌的 TXT 檔案匯出",
+  "summary": "Pro 使用者現在可以將膠卷日誌匯出為 TXT 檔案,非常適合列印現場筆記或為暗房工作建立快速參考表。",
+  "sections": [
+    {
+      "type": "paragraph",
+      "content": "將您的膠卷詮釋資料匯出為純文字檔案。此格式非常適合列印緊湊的參考表,放在相機包或暗房中。每個 TXT 匯出都包含所有幀詳細資訊、曝光設定和註解,採用清晰易讀的格式,易於列印或與沖印店分享。"
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.8.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.8.0-1@2x.png",
+      "alt": "Frames 類比攝影應用的 TXT 匯出功能,用於列印膠卷筆記和詮釋資料",
+      "width": "400",
+      "height": "300"
+    }
+  ],
+  "improvements": [
+    "為 Pro 使用者新增了 TXT 檔案匯出",
+    "最佳化匯出格式以提高列印和可讀性",
+    "在匯出中包含完整的幀詮釋資料"
+  ],
+  "fixes": [],
+  "patches": [],
+  "meta_title": "膠片日誌的 TXT 檔案匯出 · Frames",
+  "meta_description": "Pro 使用者現在可以將膠卷日誌匯出為 TXT 檔案,非常適合列印現場筆記或為暗房工作建立快速參考表。"
+}

@@ -1,0 +1,38 @@
+{
+  "version": "1.6.0",
+  "version_short": "1.6",
+  "url_slug": "1-6-macos",
+  "platform": "macos",
+  "release_date": "2025-10-01T10:00:00.000Z",
+  "title": "測光模式詮釋資料與效能改進",
+  "summary": "Frames macOS 版現已支援測光模式詮釋資料,實現全面的 EXIF 資料,以及效能改進,運行更快速、更穩定。",
+  "sections": [
+    {
+      "type": "paragraph",
+      "content": "您現在可以檢視並將膠片記錄中的測光模式資料重新整合到掃描影像中。這與 iOS 更新保持一致,確保兩個平台的詮釋資料完全一致。整個應用的效能升級使詮釋資料重新整合更快速、更可靠。"
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/{{ lang }}/changelog/frames-1.11.0-1.png",
+      "image_2x": "/lib/img/{{ lang }}/changelog/frames-1.11.0-1@2x.png",
+      "alt": "Frames macOS 應用,顯示測光模式詮釋資料支援,實現完整的 EXIF 資料",
+      "width": "400",
+      "height": "300"
+    }
+  ],
+  "improvements": [
+    "新增測光模式詮釋資料支援",
+    "效能升級,影像處理更快",
+    "改進整體應用穩定性",
+    "增強詮釋資料重新整合速度"
+  ],
+  "fixes": [],
+  "patches": [
+    {
+      "version": "1.5.1",
+      "description": "各種介面增強和視覺最佳化。"
+    }
+  ],
+  "meta_title": "測光模式詮釋資料與效能改進 · Frames",
+  "meta_description": "Frames macOS 版現已支援測光模式詮釋資料,實現全面的 EXIF 資料,以及效能改進,運行更快速、更穩定。"
+}

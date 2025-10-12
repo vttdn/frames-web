@@ -1,0 +1,48 @@
+{
+  "version": "1.2.0",
+  "version_short": "1.2",
+  "url_slug": "1-2-macos",
+  "platform": "macos",
+  "release_date": "2025-08-24T10:00:00.000Z",
+  "title": "Dukungan Filter, Bahasa Jepang & Korea",
+  "meta_title": "Dukungan Filter, Bahasa Jepang & Korea · Frames",
+  "meta_description": "Penyematan metadata filter otomatis untuk filter UV, ND, dan CPL. Dukungan bahasa Jepang dan Korea dengan data EXIF yang ditingkatkan termasuk nomor seri kamera.",
+  "summary": "Filter sekarang muncul di sidebar dan secara otomatis ditambahkan ke metadata saat menyimpan frame. Pembaruan ini juga membawa dukungan bahasa Jepang dan Korea, ditambah perbaikan bug penting.",
+  "sections": [
+    {
+      "type": "paragraph",
+      "content": "Filter yang dicatat di iOS sekarang ditampilkan di sidebar macOS dan secara otomatis disematkan ke dalam metadata EXIF selama integrasi ulang. Ini melengkapi dokumentasi analog Anda dengan menyertakan filter UV, ND, CPL, dan filter lainnya dalam gambar akhir Anda. Nomor seri kamera sekarang disertakan dalam metadata, dan kami telah memperbaiki bug di mana nilai flash dibalik. Frames sekarang tersedia dalam bahasa Jepang dan Korea, sesuai dengan ekspansi bahasa iOS."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-mac-1.2.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-mac-1.2.0-1@2x.png",
+      "alt": "Aplikasi macOS Frames menampilkan sidebar metadata filter untuk dokumentasi fotografi film",
+      "width": "400",
+      "height": "300"
+    }
+  ],
+  "improvements": [
+    "Ditambahkan tampilan filter di sidebar",
+    "Filter secara otomatis ditambahkan ke metadata saat menyimpan frame",
+    "Nomor seri kamera sekarang disertakan dalam metadata EXIF",
+    "Ditambahkan dukungan bahasa Jepang",
+    "Ditambahkan dukungan bahasa Korea"
+  ],
+  "fixes": [
+    {
+      "title": "Inversi Nilai Flash",
+      "description": "Memperbaiki masalah di mana nilai flash dibalik (menampilkan 'Ya' padahal seharusnya 'Tidak')."
+    }
+  ],
+  "patches": [
+    {
+      "version": "1.2.2",
+      "description": "Lokalisasi yang ditingkatkan untuk bahasa baru."
+    },
+    {
+      "version": "1.2.1",
+      "description": "Terjemahan yang ditingkatkan untuk konsistensi dengan aplikasi iOS, ditambah peningkatan UI kecil."
+    }
+  ]
+}

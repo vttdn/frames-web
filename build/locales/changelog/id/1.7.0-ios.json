@@ -1,0 +1,65 @@
+{
+  "version": "1.7.0",
+  "version_short": "1.7",
+  "url_slug": "1-7-ios",
+  "platform": "ios",
+  "release_date": "2025-09-10T10:00:00.000Z",
+  "title": "Dukungan Aksesibilitas Penuh & Peningkatan Perekaman",
+  "summary": "Pembaruan ini membawa dukungan aksesibilitas Apple yang komprehensif bersama dengan peningkatan pada alur kerja perekaman dan penanganan metadata, membuat Frames lebih mudah diakses dan efisien untuk semua fotografer film.",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Fitur Aksesibilitas Apple"
+    },
+    {
+      "type": "paragraph",
+      "content": "Frames sekarang mendukung fitur aksesibilitas Apple utama termasuk Teks Lebih Besar, Antarmuka Gelap, Diferensiasi Tanpa Warna Saja, Kontras Yang Cukup, dan Gerakan Berkurang. Fitur-fitur ini memastikan aplikasi dapat digunakan oleh fotografer dengan kebutuhan dan preferensi visual yang berbeda, mempertahankan fungsionalitas penuh terlepas dari pengaturan aksesibilitas."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.7.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.7.0-1@2x.png",
+      "alt": "Antarmuka aplikasi fotografi film Frames dengan fitur aksesibilitas dan dukungan teks besar",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Peningkatan Alur Kerja dan Metadata"
+    },
+    {
+      "type": "paragraph",
+      "content": "Aplikasi sekarang langsung masuk ke gulungan film baru Anda segera setelah dibuat, merampingkan alur kerja Anda. Label di seluruh aplikasi telah disempurnakan untuk keterbacaan yang lebih baik. Urutan khusus sekarang secara otomatis mengisi nilai apertur min/max, yang sangat berguna untuk integrasi ulang metadata di Mac. Kami juga telah memperbaiki masalah gerakan di perekam saat menangkap bidikan dengan slider terbuka dan mengoreksi masalah inisialisasi nilai dalam tampilan perekam penuh."
+    }
+  ],
+  "improvements": [
+    "Ditambahkan dukungan untuk fitur aksesibilitas Teks Lebih Besar Apple",
+    "Ditambahkan dukungan untuk tampilan Antarmuka Gelap",
+    "Ditambahkan dukungan untuk Diferensiasi Tanpa Warna Saja",
+    "Ditambahkan dukungan untuk Kontras Yang Cukup",
+    "Ditambahkan dukungan untuk Gerakan Berkurang",
+    "Langsung masuk ke gulungan film baru setelah pembuatan untuk alur kerja yang lebih cepat",
+    "Kejelasan label yang ditingkatkan di seluruh aplikasi",
+    "Pengisian otomatis apertur min/max saat menggunakan urutan khusus"
+  ],
+  "fixes": [
+    {
+      "title": "Masalah Gerakan Perekam",
+      "description": "Memperbaiki masalah gerakan di perekam saat bidikan ditangkap dengan slider terbuka."
+    },
+    {
+      "title": "Inisialisasi Nilai Perekam",
+      "description": "Memperbaiki masalah dengan nilai yang tidak terinisialisasi dengan benar saat membuka perekam dalam tampilan penuh."
+    }
+  ],
+  "patches": [
+    {
+      "version": "1.7.1",
+      "description": "Memperbaiki tampilan lensa yang menampilkan info apertur yang berlebihan dalam daftar pilihan. Memperbaiki frame yang dapat diedit saat pengeditan dinonaktifkan."
+    }
+  ],
+  "meta_title": "Dukungan Aksesibilitas Penuh & Peningkatan Perekaman · Frames",
+  "meta_description": "Pembaruan ini membawa dukungan aksesibilitas Apple yang komprehensif bersama dengan peningkatan pada alur kerja perekaman dan penanganan metadata, membuat Frames lebih..."
+}

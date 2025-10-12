@@ -1,0 +1,72 @@
+{
+  "version": "1.4.0",
+  "version_short": "1.4",
+  "url_slug": "1-4-macos",
+  "platform": "macos",
+  "release_date": "2025-09-18T10:00:00.000Z",
+  "title": "鍵盤快速鍵、原生檢查器與效能提升",
+  "meta_title": "鍵盤快速鍵、原生檢查器與效能提升 · Frames",
+  "meta_description": "使用鍵盤快速鍵導覽和原生 macOS 檢查器面板。增強效能,實現更快的詮釋資料重新整合,介面更清爽、更專業。",
+  "summary": "增強的 macOS 介面,支援鍵盤導覽、原生檢查器面板、更清爽的設計,以及最佳化的效能,實現更快速、更流暢的詮釋資料重新整合。",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "鍵盤導覽與原生控制項"
+    },
+    {
+      "type": "paragraph",
+      "content": "使用方向鍵快速瀏覽幀,用退格鍵刪除附加照片,按 Enter 鍵選擇照片。自訂側邊欄已被 macOS 原生檢查器面板取代,帶來更精緻、與系統整合的體驗,遵循 Apple 的設計語言。"
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-mac-1.4.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-mac-1.4.0-1@2x.png",
+      "alt": "Frames macOS 應用,支援鍵盤快速鍵和原生檢查器用於膠片詮釋資料工作流程",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "精緻的介面與效能"
+    },
+    {
+      "type": "paragraph",
+      "content": "整個介面的視覺瑕疵已被清除,帶來更清爽、更專業的外觀。程式碼架構已最佳化,應用回應速度和穩定性更佳,使詮釋資料重新整合工作流程更快速、更可靠。"
+    }
+  ],
+  "improvements": [
+    "新增鍵盤導覽,支援方向鍵瀏覽幀",
+    "新增退格鍵快速鍵刪除附加照片",
+    "新增 Enter 鍵快速鍵選擇照片",
+    "用 macOS 原生檢查器面板替換自訂側邊欄",
+    "清除視覺瑕疵,介面更清爽",
+    "最佳化程式碼架構,效能更佳",
+    "改進整體應用回應速度",
+    "增強整體穩定性"
+  ],
+  "fixes": [],
+  "patches": [
+    {
+      "version": "1.3.5",
+      "description": "更新了適用於 macOS 26 的應用圖示。"
+    },
+    {
+      "version": "1.3.4",
+      "description": "JPEG 和 TIFF 的詮釋資料重新整合現在保留現有資料。僅新增 Frames 記錄的資訊。"
+    },
+    {
+      "version": "1.3.3",
+      "description": "新增將最大和最小光圈重新整合到 EXIF 詮釋資料。新增鏡頭規格支援。"
+    },
+    {
+      "version": "1.3.2",
+      "description": "小幅錯誤修復和效能改進。"
+    },
+    {
+      "version": "1.3.1",
+      "description": "新增支援來自 iOS 的新快門速度。應用現在優先使用自訂 ISO 評級而非預設感光度。"
+    }
+  ]
+}

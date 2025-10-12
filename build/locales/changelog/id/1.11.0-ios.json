@@ -1,0 +1,47 @@
+{
+  "version": "1.11.0",
+  "version_short": "1.11",
+  "url_slug": "1-11-ios",
+  "platform": "ios",
+  "release_date": "2025-10-02T10:00:00.000Z",
+  "title": "Metadata Mode Metering & Peningkatan Kinerja",
+  "summary": "Frames sekarang menangkap mode metering kamera Anda bersama dengan data eksposur, memberikan Anda catatan yang lebih lengkap tentang bagaimana setiap bidikan diukur. Pembaruan ini juga membawa peningkatan kinerja untuk pengalaman yang lebih cepat dan stabil di seluruh aplikasi.",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Perekaman Mode Metering"
+    },
+    {
+      "type": "paragraph",
+      "content": "Anda sekarang dapat mencatat mode metering mana yang digunakan kamera Anda untuk setiap frame. Baik Anda memotret dengan metering center-weighted, spot, atau evaluative, Frames menangkap metadata ini bersama dengan pengaturan eksposur yang ada. Ini membantu Anda memahami bagaimana kamera Anda mengukur cahaya untuk setiap bidikan dan menyempurnakan pendekatan Anda terhadap eksposur dari waktu ke waktu."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/{{ lang }}/changelog/frames-1.11.0-1.png",
+      "image_2x": "/lib/img/{{ lang }}/changelog/frames-1.11.0-1@2x.png",
+      "alt": "Aplikasi fotografi film Frames menampilkan perekaman metadata mode metering untuk analisis eksposur",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Peningkatan Kinerja"
+    },
+    {
+      "type": "paragraph",
+      "content": "Peningkatan di balik layar membuat Frames lebih cepat dan lebih responsif. Navigasi antar gulungan film, perekaman frame, dan pengeditan metadata semuanya mendapat manfaat dari kinerja yang dioptimalkan. Penyempurnaan ini berkontribusi pada pengalaman yang lebih lancar saat mengelola alur kerja fotografi analog Anda."
+    }
+  ],
+  "improvements": [
+    "Ditambahkan field metadata mode metering untuk dokumentasi eksposur yang komprehensif",
+    "Kinerja aplikasi yang ditingkatkan untuk navigasi dan perekaman frame yang lebih cepat",
+    "Stabilitas yang ditingkatkan saat beralih antar gulungan film dan mengedit frame",
+    "Penggunaan memori yang dioptimalkan untuk operasi yang lebih lancar dengan perpustakaan film yang besar"
+  ],
+  "fixes": [],
+  "patches": [],
+  "meta_title": "Metadata Mode Metering & Peningkatan Kinerja · Frames",
+  "meta_description": "Frames sekarang menangkap mode metering kamera Anda bersama dengan data eksposur, memberikan Anda catatan yang lebih lengkap tentang bagaimana setiap bidikan diukur."
+}

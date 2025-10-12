@@ -1,0 +1,150 @@
+{
+  "version": "1.0.0",
+  "version_short": "1.0",
+  "url_slug": "1-0-ios",
+  "platform": "ios",
+  "release_date": "2025-04-01T03:02:00.000Z",
+  "title": "Frames 正式發布:您的膠片攝影筆記本",
+  "meta_title": "Frames 正式發布:您的膠片攝影筆記本 · Frames",
+  "meta_description": "使用 iOS 應用在拍攝現場記錄膠片攝影詮釋資料,透過 macOS 應用將 EXIF 資料嵌入掃描影像。完整的類比工作流程,支援 200+ 種膠卷。",
+  "summary": "Frames 作為 Datafilm 的全新重構版本正式發布,帶來精心打磨的 iOS 應用用於現場記錄膠片攝影詮釋資料,以及全新的 macOS 應用用於將資料嵌入掃描影像。",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "記錄和整理您的膠卷"
+    },
+    {
+      "type": "paragraph",
+      "content": "Frames 是您專屬的類比攝影數位筆記本,專為記錄拍攝設定並將詮釋資料無縫整合到掃描影像而設計。記錄每一幀的所有重要細節:焦距、快門速度、曝光補償、光圈、閃光燈設定、相機、鏡頭、膠卷類型、日期、時間和地理位置。"
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.0.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.0.0-1@2x.png",
+      "alt": "Frames 膠片攝影應用介面,用於記錄類比相機詮釋資料和膠卷詳細資訊",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "list",
+      "items": [
+        {
+          "title": "完整的詮釋資料記錄",
+          "description": "記錄幀編號、焦距、快門速度、曝光補償、光圈、閃光燈設定、相機、鏡頭、膠卷類型、日期、時間和位置。"
+        },
+        {
+          "title": "參考影像",
+          "description": "為每一幀附加參考影像,在匹配掃描時提供快速的視覺參考。"
+        },
+        {
+          "title": "互動式地圖檢視",
+          "description": "在互動式地圖上查看您的膠片拍攝位置,追溯每一幀的拍攝地點。"
+        },
+        {
+          "title": "資料夾整理",
+          "description": "使用資料夾和強大的搜尋工具整理您的膠片庫,即時找到任何幀。"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "匯出和同步您的資料"
+    },
+    {
+      "type": "paragraph",
+      "content": "配套的 macOS 應用解決了膠片攝影社群最需要的功能:將詮釋資料重新整合到掃描的 JPEG 影像中。將詮釋資料匯出為 JSON (.frames) 檔案,在 Apple 裝置間分享記錄,並使用 macOS 應用嵌入 EXIF 資料,可與 Lightroom、Capture One 和 Apple Photos 無縫配合。"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "專為類比攝影最佳化"
+    },
+    {
+      "type": "list",
+      "items": [
+        {
+          "title": "自適應控制",
+          "description": "控制項根據您的器材特性自適應調整,實現更快的記錄。"
+        },
+        {
+          "title": "智慧自動填充",
+          "description": "鏡頭、相機、膠卷類型和 ISO 的智慧自動填充功能,節省拍攝時間。"
+        },
+        {
+          "title": "200+ 種膠卷",
+          "description": "預先安裝了各大廠商的熱門膠卷選擇。"
+        },
+        {
+          "title": "原生 Apple 設計",
+          "description": "遵循 Apple 人機介面指南,提供流暢直覺的體驗。"
+        },
+        {
+          "title": "效能最佳化",
+          "description": "即使在較舊的 iPhone 機型上也能流暢運行。"
+        }
+      ]
+    }
+  ],
+  "improvements": [
+    "全新架構的徹底重構",
+    "記錄完整的幀詮釋資料:曝光、相機、鏡頭、膠卷、位置",
+    "為每一幀自動新增時間戳記",
+    "附加參考影像用於掃描匹配",
+    "使用資料夾整理膠卷庫",
+    "在所有已記錄幀中進行強大的搜尋",
+    "顯示拍攝位置的互動式地圖檢視",
+    "用於 EXIF 詮釋資料嵌入的配套 macOS 應用",
+    "與 Lightroom、Capture One 和 Apple Photos 完全相容",
+    "隱私優先設計,無需帳戶或雲端依賴",
+    "改進的工具列使用者介面",
+    "新增多語言支援,包括法語、德語、西班牙語、義大利語、荷蘭語、葡萄牙語、波蘭語和瑞典語"
+  ],
+  "fixes": [
+    "修復了在某些裝置上新增新相機或鏡頭時螢幕凍結的問題",
+    "修復了評價應用的 URL"
+  ],
+  "patches": [
+    {
+      "version": "1.0.1",
+      "date": "2025-04-04",
+      "description": "小幅改進和錯誤修復"
+    },
+    {
+      "version": "1.0.2",
+      "date": "2025-04-13",
+      "description": "小幅修復和翻譯改進"
+    },
+    {
+      "version": "1.0.3",
+      "date": "2025-04-15",
+      "description": "改進本地化"
+    },
+    {
+      "version": "1.0.4",
+      "date": "2025-04-19",
+      "description": "增強工具列介面並擴展本地化"
+    },
+    {
+      "version": "1.0.5",
+      "date": "2025-04-21",
+      "description": "新增本地化"
+    },
+    {
+      "version": "1.0.6",
+      "date": "2025-04-23",
+      "description": "修復了在某些裝置上新增新相機或鏡頭時螢幕凍結的問題"
+    },
+    {
+      "version": "1.0.7",
+      "date": "2025-04-28",
+      "description": "修復了評價應用的 URL"
+    },
+    {
+      "version": "1.0.8",
+      "date": "2025-05-20",
+      "description": "新增與 iOS 18.0 及更高版本的相容性"
+    }
+  ]
+}

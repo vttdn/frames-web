@@ -1,0 +1,108 @@
+{
+  "version": "1.1.0",
+  "version_short": "1.1",
+  "url_slug": "1-1-ios",
+  "platform": "ios",
+  "release_date": "2025-06-03T05:52:00.000Z",
+  "title": "Memperkenalkan Frames Pro",
+  "meta_title": "Memperkenalkan Frames Pro · Frames",
+  "meta_description": "Tingkatkan ke Frames Pro untuk gulungan film tanpa batas dan fitur canggih yang akan datang. Pengguna gratis tetap memiliki akses ke 10 gulungan dengan semua fungsi inti.",
+  "summary": "Frames Pro hadir, menawarkan gulungan film tanpa batas dan akses ke fitur canggih saat diluncurkan. Pengguna gratis dapat terus menggunakan Frames dengan hingga 10 gulungan, sementara Pro membuka potensi penuh alur kerja fotografi analog Anda.",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Buka Pencatatan Film Tanpa Batas"
+    },
+    {
+      "type": "paragraph",
+      "content": "Dengan Frames Pro, Anda sekarang dapat membuat gulungan film tanpa batas untuk melacak seluruh koleksi fotografi analog Anda tanpa batasan. Baik Anda mendokumentasikan ratusan gulungan dari tahun-tahun pemotretan atau secara aktif mencatat puluhan proyek yang sedang berjalan, Frames Pro berkembang sesuai kebutuhan Anda. Pengguna gratis mempertahankan akses penuh ke semua fitur inti dengan batas 10 gulungan, membuat Frames dapat diakses oleh semua orang sambil mendukung mereka yang ingin membawa pencatatan film mereka lebih jauh."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.1.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.1.0-1@2x.png",
+      "alt": "Langganan Frames Pro yang menawarkan gulungan film tanpa batas untuk pencatatan fotografi analog",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "paragraph",
+      "content": "Rilis ini juga mencakup optimasi kinerja di seluruh aplikasi, elemen desain yang disempurnakan untuk kejelasan yang lebih baik, dan stabilitas yang ditingkatkan saat mengelola perpustakaan film yang lebih besar. Ikon aplikasi dan layar splash yang diperbarui mencerminkan evolusi Frames sebagai alat profesional untuk fotografer film."
+    },
+    {
+      "type": "list",
+      "items": [
+        {
+          "title": "Langganan Frames Pro",
+          "description": "Buka gulungan film tanpa batas dan dapatkan akses awal ke fitur canggih saat diluncurkan."
+        },
+        {
+          "title": "Tingkat Gratis Dipertahankan",
+          "description": "Lanjutkan menggunakan semua fitur inti dengan hingga 10 gulungan film tanpa biaya."
+        },
+        {
+          "title": "Peningkatan Kinerja",
+          "description": "Responsivitas dan stabilitas yang ditingkatkan di seluruh aplikasi."
+        },
+        {
+          "title": "Desain Visual yang Disempurnakan",
+          "description": "Ikon aplikasi, layar splash, dan elemen antarmuka yang diperbarui untuk pengalaman yang halus."
+        },
+        {
+          "title": "Perbaikan Bug Ekspor",
+          "description": "Menyelesaikan masalah di mana file ekspor tidak dibuat ulang dengan benar setelah perubahan."
+        }
+      ]
+    }
+  ],
+  "improvements": [
+    "Memperkenalkan langganan Frames Pro dengan gulungan film tanpa batas",
+    "Meningkatkan kinerja dan responsivitas aplikasi secara keseluruhan",
+    "Menyempurnakan desain antarmuka pengguna di seluruh aplikasi",
+    "Memperbarui ikon aplikasi dengan identitas visual yang disempurnakan",
+    "Mendesain ulang layar splash untuk kesan pertama yang lebih baik",
+    "Mengoptimalkan penggunaan memori untuk perpustakaan film yang lebih besar",
+    "Meningkatkan stabilitas saat menambahkan peralatan kamera dan lensa"
+  ],
+  "fixes": [
+    "Memperbaiki bug yang mencegah file ekspor dibuat ulang setelah perubahan"
+  ],
+  "patches": [
+    {
+      "version": "1.1.1",
+      "date": "2025-06-11",
+      "description": "Pembaruan kecil pada ikon aplikasi"
+    },
+    {
+      "version": "1.1.2",
+      "date": "2025-06-15",
+      "description": "Peningkatan kinerja kecil"
+    },
+    {
+      "version": "1.1.3",
+      "date": "2025-06-17",
+      "description": "Ikon aplikasi baru"
+    },
+    {
+      "version": "1.1.4",
+      "date": "2025-06-18",
+      "description": "Mendesain ulang ikon aplikasi"
+    },
+    {
+      "version": "1.1.5",
+      "date": "2025-06-20",
+      "description": "Memperbarui layar splash aplikasi"
+    },
+    {
+      "version": "1.1.6",
+      "date": "2025-06-20",
+      "description": "Memperbaiki bug yang mencegah file ekspor dibuat ulang dengan benar setelah perubahan"
+    },
+    {
+      "version": "1.1.7",
+      "date": "2025-07-12",
+      "description": "Meningkatkan stabilitas saat menambahkan peralatan di iOS 26 Beta"
+    }
+  ]
+}

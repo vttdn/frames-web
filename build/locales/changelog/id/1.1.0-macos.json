@@ -1,0 +1,37 @@
+{
+  "version": "1.1.0",
+  "version_short": "1.1",
+  "url_slug": "1-1-macos",
+  "platform": "macos",
+  "release_date": "2025-06-27T10:00:00.000Z",
+  "title": "Dukungan File TIFF",
+  "meta_title": "Dukungan File TIFF · Frames",
+  "meta_description": "Impor dan ekspor file TIFF dengan penyematan metadata penuh. Dukungan format profesional untuk pemindaian berkualitas tinggi dengan alur kerja integrasi EXIF yang mulus.",
+  "summary": "Anda sekarang dapat mengimpor dan mengekspor file TIFF dengan integrasi metadata penuh, memperluas dukungan format di luar JPEG untuk alur kerja profesional.",
+  "sections": [
+    {
+      "type": "paragraph",
+      "content": "Dukungan TIFF tiba di Frames untuk macOS. Impor pemindaian TIFF dan sematkan metadata gulungan film Anda dengan alur kerja yang sama yang Anda gunakan untuk file JPEG. File TIFF bekerja dengan mulus dalam proses integrasi ulang metadata, memastikan catatan fotografi analog Anda bepergian dengan gambar Anda terlepas dari formatnya."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-mac-1.1.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-mac-1.1.0-1@2x.png",
+      "alt": "Aplikasi macOS Frames dengan dukungan file TIFF untuk alur kerja fotografi analog profesional",
+      "width": "400",
+      "height": "300"
+    }
+  ],
+  "improvements": [
+    "Ditambahkan dukungan impor file TIFF",
+    "Ditambahkan ekspor file TIFF dengan integrasi metadata penuh",
+    "File TIFF bekerja dengan mulus dengan alur kerja integrasi ulang metadata yang ada"
+  ],
+  "fixes": [],
+  "patches": [
+    {
+      "version": "1.1.1",
+      "description": "Memperbaiki masalah yang dapat mencegah file .frames dimuat dalam situasi tertentu."
+    }
+  ]
+}

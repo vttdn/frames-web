@@ -1,0 +1,37 @@
+{
+  "version": "1.1.0",
+  "version_short": "1.1",
+  "url_slug": "1-1-macos",
+  "platform": "macos",
+  "release_date": "2025-06-27T10:00:00.000Z",
+  "title": "TIFF 文件支持",
+  "meta_title": "TIFF 文件支持 · Frames",
+  "meta_description": "导入和导出 TIFF 文件,完整元数据嵌入。为高质量扫描提供专业格式支持,EXIF 集成工作流程无缝衔接。",
+  "summary": "现已支持导入和导出 TIFF 文件,完整元数据集成,为专业工作流程扩展 JPEG 之外的格式支持。",
+  "sections": [
+    {
+      "type": "paragraph",
+      "content": "TIFF 支持登陆 Frames macOS 版。导入 TIFF 扫描件,使用与 JPEG 文件相同的工作流程嵌入胶卷元数据。TIFF 文件在元数据重新集成流程中无缝工作,确保您的模拟摄影笔记随图像一起传递,无论何种格式。"
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-mac-1.1.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-mac-1.1.0-1@2x.png",
+      "alt": "Frames macOS 应用,支持 TIFF 文件用于专业模拟摄影工作流程",
+      "width": "400",
+      "height": "300"
+    }
+  ],
+  "improvements": [
+    "新增 TIFF 文件导入支持",
+    "新增 TIFF 文件导出,完整元数据集成",
+    "TIFF 文件与现有元数据重新集成工作流程无缝配合"
+  ],
+  "fixes": [],
+  "patches": [
+    {
+      "version": "1.1.1",
+      "description": "修复了某些情况下可能无法加载 .frames 文件的问题。"
+    }
+  ]
+}

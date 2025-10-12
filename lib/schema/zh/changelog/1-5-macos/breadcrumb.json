@@ -1,0 +1,23 @@
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://withframes.com/zh/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "更新日志",
+      "item": "https://withframes.com/zh/changelog/1-5-macos/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "重大性能与 DNG 处理改进",
+      "item": "https://withframes.com/zh/changelog/1-5-macos/"
+    }  ]
+}

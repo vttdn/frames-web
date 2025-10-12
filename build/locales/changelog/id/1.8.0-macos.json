@@ -1,0 +1,35 @@
+{
+  "version": "1.8.0",
+  "version_short": "1.8",
+  "url_slug": "1-8-macos",
+  "platform": "macos",
+  "release_date": "2025-10-03T10:00:00.000Z",
+  "title": "Dukungan Bahasa Ibrani, Arab, Rumania & Ukraina",
+  "summary": "Frames untuk macOS terus memperluas dukungan bahasa dengan Ibrani, Arab, Rumania, dan Ukraina, bersama dengan penyempurnaan antarmuka untuk alur kerja integrasi ulang metadata yang lebih lancar.",
+  "sections": [
+    {
+      "type": "paragraph",
+      "content": "Pembaruan ini membawa dukungan native untuk Ibrani dan Arab dengan adaptasi antarmuka kanan-ke-kiri penuh, ditambah terjemahan Rumania dan Ukraina. Semua terminologi khusus bahasa untuk stok film, pengaturan kamera, dan metadata EXIF telah dilokalisasi dengan hati-hati untuk memastikan konsistensi dengan aplikasi iOS."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.13.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.13.0-1@2x.png",
+      "alt": "Aplikasi macOS Frames dengan antarmuka RTL Ibrani dan Arab dan dukungan bahasa",
+      "width": "400",
+      "height": "300"
+    }
+  ],
+  "improvements": [
+    "Ditambahkan lokalisasi bahasa Ibrani (עברית) dengan dukungan antarmuka kanan-ke-kiri",
+    "Ditambahkan lokalisasi bahasa Arab (العربية) dengan adaptasi tata letak RTL",
+    "Ditambahkan terjemahan bahasa Rumania (Română)",
+    "Ditambahkan dukungan bahasa Ukraina (Українська)",
+    "Penyempurnaan antarmuka untuk pengalaman pengguna yang lebih lancar",
+    "Konsistensi yang ditingkatkan di semua bahasa yang didukung"
+  ],
+  "fixes": [],
+  "patches": [],
+  "meta_title": "Dukungan Bahasa Ibrani, Arab, Rumania & Ukraina · Frames",
+  "meta_description": "Frames untuk macOS terus memperluas dukungan bahasa dengan Ibrani, Arab, Rumania, dan Ukraina, bersama dengan penyempurnaan antarmuka untuk metadata yang lebih lancar..."
+}

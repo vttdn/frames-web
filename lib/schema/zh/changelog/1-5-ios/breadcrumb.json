@@ -1,0 +1,23 @@
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://withframes.com/zh/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "更新日志",
+      "item": "https://withframes.com/zh/changelog/1-5-ios/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "新胶卷、重新设计的光圈系统和镜头切换",
+      "item": "https://withframes.com/zh/changelog/1-5-ios/"
+    }  ]
+}

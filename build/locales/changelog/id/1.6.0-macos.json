@@ -1,0 +1,38 @@
+{
+  "version": "1.6.0",
+  "version_short": "1.6",
+  "url_slug": "1-6-macos",
+  "platform": "macos",
+  "release_date": "2025-10-01T10:00:00.000Z",
+  "title": "Metadata Mode Metering & Peningkatan Kinerja",
+  "summary": "Frames untuk macOS sekarang mencakup dukungan metadata mode metering untuk data EXIF yang komprehensif, ditambah peningkatan kinerja untuk operasi yang lebih cepat dan stabil.",
+  "sections": [
+    {
+      "type": "paragraph",
+      "content": "Anda sekarang dapat melihat dan mengintegrasikan ulang data mode metering dari catatan film Anda ke dalam gambar yang dipindai. Ini sesuai dengan pembaruan iOS, memastikan konsistensi metadata lengkap di kedua platform. Peningkatan kinerja di seluruh aplikasi membuat integrasi ulang metadata lebih cepat dan lebih andal."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/{{ lang }}/changelog/frames-1.11.0-1.png",
+      "image_2x": "/lib/img/{{ lang }}/changelog/frames-1.11.0-1@2x.png",
+      "alt": "Aplikasi macOS Frames menampilkan dukungan metadata mode metering untuk data EXIF lengkap",
+      "width": "400",
+      "height": "300"
+    }
+  ],
+  "improvements": [
+    "Ditambahkan dukungan metadata mode metering",
+    "Peningkatan kinerja untuk pemrosesan gambar yang lebih cepat",
+    "Stabilitas aplikasi yang ditingkatkan secara keseluruhan",
+    "Kecepatan integrasi ulang metadata yang ditingkatkan"
+  ],
+  "fixes": [],
+  "patches": [
+    {
+      "version": "1.5.1",
+      "description": "Berbagai peningkatan UI dan penyempurnaan visual."
+    }
+  ],
+  "meta_title": "Metadata Mode Metering & Peningkatan Kinerja · Frames",
+  "meta_description": "Frames untuk macOS sekarang mencakup dukungan metadata mode metering untuk data EXIF yang komprehensif, ditambah peningkatan kinerja untuk operasi yang lebih cepat dan stabil."
+}

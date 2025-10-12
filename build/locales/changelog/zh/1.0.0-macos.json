@@ -1,0 +1,78 @@
+{
+  "version": "1.0.0",
+  "version_short": "1.0",
+  "url_slug": "1-0-macos",
+  "platform": "macos",
+  "release_date": "2025-04-08T10:00:00.000Z",
+  "title": "Frames macOS 版正式发布",
+  "meta_title": "Frames macOS 版正式发布 · Frames",
+  "meta_description": "将胶片摄影元数据嵌入扫描图像,支持 EXIF 格式,可与 Lightroom、Capture One 和 Apple Photos 无缝配合。轻松重新集成 iOS 记录数据。",
+  "summary": "期待已久的 macOS 配套应用正式发布,为扫描的胶片图像带来无缝的元数据重新集成。从 iOS 导入胶卷数据,将 EXIF 元数据嵌入 JPEG 文件。",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "扫描胶片的元数据重新集成"
+    },
+    {
+      "type": "paragraph",
+      "content": "Frames macOS 版解决了胶片摄影社区最需要的功能:将元数据重新集成到扫描图像中。从 iOS 导入 .frames 文件,拖入扫描的 JPEG 图像,应用会自动匹配帧与照片。您的曝光设置、相机数据、镜头信息、胶卷型号和拍摄笔记都将作为 EXIF 元数据嵌入,可与 Lightroom、Capture One 和 Apple Photos 无缝配合。"
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.0.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.0.0-1@2x.png",
+      "alt": "Frames macOS 应用,用于将 EXIF 元数据嵌入扫描的胶片照片",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "简单的工作流程,专业的成果"
+    },
+    {
+      "type": "paragraph",
+      "content": "工作流程简洁明了:导入 .frames 文件,添加扫描图像,匹配帧与照片,然后导出。应用会自动处理 EXIF 嵌入,确保您的模拟摄影记录成为永久的数字档案。您的胶卷数据从 iOS 现场记录无缝传输到 macOS 最终归档。"
+    }
+  ],
+  "improvements": [
+    "从 iOS 导入 .frames 文件",
+    "支持 JPEG 文件的完整元数据嵌入",
+    "自动帧与照片匹配",
+    "嵌入 EXIF 元数据,兼容 Lightroom、Capture One 和 Apple Photos",
+    "遵循 Apple 人机界面指南的原生 macOS 设计",
+    "支持 7 种语言:英语、法语、西班牙语、意大利语、葡萄牙语、德语和荷兰语"
+  ],
+  "fixes": [],
+  "patches": [
+    {
+      "version": "1.0.1",
+      "description": "新增法语支持。"
+    },
+    {
+      "version": "1.0.2",
+      "description": "扩展至 7 种语言:英语、法语、西班牙语、意大利语、葡萄牙语、德语和荷兰语。"
+    },
+    {
+      "version": "1.0.3",
+      "description": "改进语言支持。"
+    },
+    {
+      "version": "1.0.4",
+      "description": "现已兼容 macOS 15.0 及更高版本。"
+    },
+    {
+      "version": "1.0.5",
+      "description": "导出的照片现在保留原始文件名。"
+    },
+    {
+      "version": "1.0.6",
+      "description": "重新设计了应用图标。"
+    },
+    {
+      "version": "1.0.7",
+      "description": "应用标志的细微改进。"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "version": "1.5.0",
+  "version_short": "1.5",
+  "url_slug": "1-5-ios",
+  "platform": "ios",
+  "release_date": "2025-09-03T10:00:00.000Z",
+  "title": "Stok Film Baru, Sistem Apertur yang Didesain Ulang & Pergantian Lensa",
+  "meta_title": "Stok Film Baru, Sistem Apertur yang Didesain Ulang & Pergantian Lensa · Frames",
+  "meta_description": "Urutan apertur khusus per lensa dengan Harman Phoenix II dan stok film baru. Ganti lensa langsung dari perekam untuk pencatatan analog yang lebih cepat dan akurat.",
+  "summary": "Pembaruan ini memperluas perpustakaan stok film dengan emulsi baru, mendesain ulang sepenuhnya manajemen apertur dengan urutan f-stop khusus, dan menambahkan kemampuan untuk mengganti lensa langsung dari perekam.",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Perpustakaan Stok Film yang Diperluas"
+    },
+    {
+      "type": "paragraph",
+      "content": "Daftar stok film sekarang mencakup Harman Phoenix II, Lucky Color 200, Leica Monopan 50, dan beberapa emulsi populer lainnya. Baik Anda memotret film warna eksperimental atau stok hitam putih klasik, Frames mendukung berbagai jenis film yang lebih luas untuk pencatatan yang lebih akurat."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/{{ lang }}/changelog/frames-1.5.0-1.png",
+      "image_2x": "/lib/img/{{ lang }}/changelog/frames-1.5.0-1@2x.png",
+      "alt": "Aplikasi fotografi analog Frames dengan urutan apertur khusus dan perpustakaan stok film yang diperluas",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Manajemen Apertur yang Didesain Ulang"
+    },
+    {
+      "type": "paragraph",
+      "content": "Kontrol apertur telah dibangun kembali sepenuhnya. Anda sekarang dapat menentukan urutan f-stop khusus per lensa, hanya menampilkan apertur yang sebenarnya dimiliki lensa Anda. Slider perekam sekarang dipusatkan dengan benar pada nilai apertur yang dipilih. Ganti lensa langsung dari perekam tanpa meninggalkan alur kerja Anda, dan atur panjang fokal melalui tombol More untuk lensa zoom atau penyesuaian kontrol perspektif."
+    }
+  ],
+  "improvements": [
+    "Perpustakaan stok film yang diperluas dengan Harman Phoenix II, Lucky Color 200, Leica Monopan 50, dan lainnya",
+    "Sistem manajemen apertur yang sepenuhnya didesain ulang",
+    "Ditambahkan urutan f-stop khusus per lensa",
+    "Ditambahkan pergantian lensa langsung dari perekam",
+    "Panjang fokal sekarang dapat disesuaikan melalui tombol More di perekam",
+    "Konsistensi lokalisasi yang ditingkatkan",
+    "Peningkatan kinerja kecil di seluruh aplikasi"
+  ],
+  "fixes": [
+    {
+      "title": "Pemusatan Slider Apertur",
+      "description": "Memperbaiki masalah di mana slider apertur di perekam tidak dipusatkan dengan benar pada nilai yang dipilih."
+    }
+  ],
+  "patches": []
+}

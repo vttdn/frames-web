@@ -1,0 +1,84 @@
+{
+  "version": "1.12.0",
+  "version_short": "1.12",
+  "url_slug": "1-12-ios",
+  "platform": "ios",
+  "release_date": "2025-10-03T10:00:00.000Z",
+  "title": "Bahasa Denmark, Finlandia, Norwegia, Vietnam & 4 Bahasa Lainnya",
+  "summary": "Rilis lokalisasi utama ini membawa Frames ke lebih banyak fotografer film di seluruh dunia, menambahkan dukungan untuk bahasa Denmark, Finlandia, Norwegia, Vietnam, Tionghoa Tradisional, Indonesia, Tionghoa Hong Kong, dan Yunani, sambil menyempurnakan terjemahan di semua bahasa yang ada untuk kejelasan dan konsistensi yang lebih baik.",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Delapan Bahasa Baru di Eropa dan Asia"
+    },
+    {
+      "type": "paragraph",
+      "content": "Frames sekarang mendukung bahasa Denmark, Finlandia, Norwegia, Vietnam, Tionghoa Tradisional, Indonesia, Tionghoa Hong Kong, dan Yunani. Setiap terjemahan telah dibuat dengan hati-hati untuk memastikan terminologi fotografi film terasa alami sambil mempertahankan akurasi teknis untuk pengaturan kamera, stok film, dan manajemen metadata."
+    },
+    {
+      "type": "list",
+      "items": [
+        {
+          "title": "Bahasa Nordik",
+          "description": "Bahasa Denmark (Dansk), Finlandia (Suomi), dan Norwegia (Norsk) dengan terminologi native untuk fotografer Skandinavia."
+        },
+        {
+          "title": "Bahasa Asia",
+          "description": "Bahasa Vietnam (Tiếng Việt), Tionghoa Tradisional (繁體中文), Indonesia (Bahasa Indonesia), dan Tionghoa Hong Kong."
+        },
+        {
+          "title": "Yunani (Ελληνικά)",
+          "description": "Terjemahan lengkap untuk fotografer di seluruh Yunani dan Siprus."
+        }
+      ]
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.12.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.12.0-1@2x.png",
+      "alt": "Aplikasi fotografi analog Frames dengan dukungan multibahasa untuk bahasa Nordik dan Asia",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Preferensi Regional dan Penyempurnaan Terjemahan"
+    },
+    {
+      "type": "paragraph",
+      "content": "Untuk Tionghoa Tradisional dan Tionghoa Hong Kong, kami telah menyesuaikan preferensi regional untuk format tanggal dan terminologi. Bahasa Nordik selaras dengan bagaimana fotografer film di negara-negara ini membahas kerajinan mereka. Kami juga telah menyempurnakan terjemahan yang ada di bahasa Spanyol, Prancis, Jerman, Italia, Portugis, Jepang, Korea, Rusia, Thailand, Polandia, Turki, Swedia, dan Hindi berdasarkan umpan balik komunitas."
+    },
+    {
+      "type": "paragraph",
+      "content": "Frames secara otomatis mengadopsi preferensi bahasa iOS Anda. Semua gulungan film dan peralatan kamera yang ada tetap utuh. Antarmuka hanya beradaptasi tanpa migrasi data atau entri ulang."
+    }
+  ],
+  "improvements": [
+    "Ditambahkan lokalisasi bahasa Denmark (Dansk) untuk komunitas fotografi film Denmark",
+    "Ditambahkan terjemahan bahasa Finlandia (Suomi) dengan terminologi fotografi native",
+    "Ditambahkan dukungan bahasa Norwegia (Norsk) untuk fotografer Skandinavia",
+    "Ditambahkan bahasa Vietnam (Tiếng Việt) untuk komunitas analog Asia Tenggara",
+    "Ditambahkan bahasa Tionghoa Tradisional (繁體中文) untuk Taiwan, Hong Kong, dan Makau",
+    "Ditambahkan lokalisasi bahasa Indonesia (Bahasa Indonesia)",
+    "Ditambahkan bahasa Tionghoa Hong Kong dengan preferensi khusus wilayah",
+    "Ditambahkan terjemahan bahasa Yunani (Ελληνικά) untuk Yunani dan Siprus",
+    "Terjemahan bahasa yang ada disempurnakan untuk kejelasan yang lebih baik dan frasa yang alami",
+    "Konsistensi terminologi teknis yang ditingkatkan di bidang khusus fotografi",
+    "Lokalisasi format tanggal dan unit pengukuran yang ditingkatkan untuk preferensi regional"
+  ],
+  "fixes": [
+    {
+      "title": "Konsistensi Terjemahan",
+      "description": "Terminologi yang distandardisasi di seluruh fitur serupa untuk memastikan bahasa yang konsisten di seluruh aplikasi."
+    },
+    {
+      "title": "Adaptasi Tata Letak",
+      "description": "Ukuran teks dinamis yang ditingkatkan untuk mengakomodasi terjemahan yang lebih panjang tanpa pemotongan atau overflow."
+    }
+  ],
+  "patches": [],
+  "meta_title": "Bahasa Denmark, Finlandia, Norwegia, Vietnam & 4 Bahasa Lainnya · Frames",
+  "meta_description": "Rilis lokalisasi utama ini membawa Frames ke lebih banyak fotografer film di seluruh dunia, menambahkan dukungan untuk bahasa Denmark, Finlandia, Norwegia, Vietnam,..."
+}

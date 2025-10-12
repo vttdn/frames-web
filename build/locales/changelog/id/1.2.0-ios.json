@@ -1,0 +1,34 @@
+{
+  "version": "1.2.0",
+  "version_short": "1.2",
+  "url_slug": "1-2-ios",
+  "platform": "ios",
+  "release_date": "2025-07-17T10:00:00.000Z",
+  "title": "Pengaturan Terpusat & Organisasi yang Ditingkatkan",
+  "meta_title": "Pengaturan Terpusat & Organisasi yang Ditingkatkan · Frames",
+  "meta_description": "Halaman pengaturan terpadu untuk manajemen peralatan, langganan, dan preferensi. Organisasi yang lebih baik membuat pencatatan fotografi film lebih cepat dan lebih intuitif.",
+  "summary": "Semua pengaturan aplikasi sekarang disatukan dalam satu halaman Pengaturan terpusat. Kelola peralatan, langganan, dan preferensi toolbar Anda dari satu lokasi dengan fitur yang sama sekarang lebih mudah diakses dan diatur.",
+  "sections": [
+    {
+      "type": "paragraph",
+      "content": "Kami telah mengkonsolidasikan pengaturan yang tersebar ke dalam satu halaman Pengaturan khusus. Manajemen peralatan, detail langganan, dan kustomisasi antarmuka semuanya dapat diakses dari satu menu. Reorganisasi ini memudahkan untuk menemukan apa yang Anda butuhkan tanpa mencari melalui bagian aplikasi yang berbeda. Semua fungsionalitas yang ada tetap tidak berubah, hanya diatur lebih baik untuk akses yang lebih cepat."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/{{ lang }}/changelog/frames-1.2.0-1.png",
+      "image_2x": "/lib/img/{{ lang }}/changelog/frames-1.2.0-1@2x.png",
+      "alt": "Aplikasi fotografi film Frames menampilkan halaman pengaturan terpusat untuk peralatan dan preferensi aplikasi",
+      "width": "400",
+      "height": "300"
+    }
+  ],
+  "improvements": [
+    "Ditambahkan halaman Pengaturan terpusat untuk semua konfigurasi aplikasi",
+    "Manajemen peralatan terpadu dalam Pengaturan",
+    "Manajemen langganan yang dikonsolidasikan",
+    "Akses kustomisasi tampilan toolbar yang ditingkatkan",
+    "Penyempurnaan kecil di seluruh aplikasi"
+  ],
+  "fixes": [],
+  "patches": []
+}

@@ -1,0 +1,47 @@
+{
+  "version": "1.11.0",
+  "version_short": "1.11",
+  "url_slug": "1-11-ios",
+  "platform": "ios",
+  "release_date": "2025-10-02T10:00:00.000Z",
+  "title": "測光模式詮釋資料和效能改進",
+  "summary": "Frames 現在可以擷取您相機的測光模式以及曝光資料,為您提供每次拍攝測量方式的更完整記錄。此更新還帶來效能改進,使整個應用體驗更快、更穩定。",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "測光模式記錄"
+    },
+    {
+      "type": "paragraph",
+      "content": "您現在可以記錄相機為每一幀使用的測光模式。無論您是使用中央重點、點測光還是評價測光,Frames 都會將此詮釋資料與您現有的曝光設定一起擷取。這有助於您了解相機如何測量每次拍攝的光線,並隨著時間的推移改進您的曝光方法。"
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/{{ lang }}/changelog/frames-1.11.0-1.png",
+      "image_2x": "/lib/img/{{ lang }}/changelog/frames-1.11.0-1@2x.png",
+      "alt": "Frames 膠片攝影應用顯示用於曝光分析的測光模式詮釋資料記錄",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "效能增強"
+    },
+    {
+      "type": "paragraph",
+      "content": "底層改進使 Frames 更快更回應。在膠卷之間導覽、幀記錄和詮釋資料編輯都受益於最佳化的效能。這些改進有助於在管理類比攝影工作流程時提供更流暢的體驗。"
+    }
+  ],
+  "improvements": [
+    "新增測光模式詮釋資料欄位以實現完整的曝光記錄",
+    "改進應用效能以實現更快的導覽和幀記錄",
+    "增強在膠卷之間切換和編輯幀時的穩定性",
+    "最佳化記憶體使用以實現更流暢的大型膠片庫操作"
+  ],
+  "fixes": [],
+  "patches": [],
+  "meta_title": "測光模式詮釋資料和效能改進 · Frames",
+  "meta_description": "Frames 現在可以擷取您相機的測光模式以及曝光資料,為您提供每次拍攝測量方式的更完整記錄。"
+}

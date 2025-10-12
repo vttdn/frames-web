@@ -1,0 +1,33 @@
+{
+  "version": "1.3.0",
+  "version_short": "1.3",
+  "url_slug": "1-3-ios",
+  "platform": "ios",
+  "release_date": "2025-07-18T10:00:00.000Z",
+  "title": "GPX 导出和更快的文件生成",
+  "meta_title": "GPX 导出和更快的文件生成 · Frames",
+  "meta_description": "将胶卷位置导出为 GPX 文件用于地图软件。显著加快大型胶卷导出的文件生成速度和可靠性。",
+  "summary": "Pro 用户现在可以将胶卷导出为 GPX 文件进行位置追踪。此更新还带来了性能改进,使所有格式的文件导出更快更可靠。",
+  "sections": [
+    {
+      "type": "paragraph",
+      "content": "将您的胶卷位置导出为 GPX 文件,以在地图应用程序中可视化拍摄位置或导入照片管理软件。每个带有位置数据的帧都会成为 GPX 轨迹中的航点。所有格式的文件导出性能都得到改进,即使对于有许多帧的胶卷,生成 .FRAMES、TXT 和 GPX 文件也更快。"
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/{{ lang }}/changelog/frames-1.3.0-1.png",
+      "image_2x": "/lib/img/{{ lang }}/changelog/frames-1.3.0-1@2x.png",
+      "alt": "Frames 模拟摄影应用,具有 GPX 位置导出和文件生成功能",
+      "width": "400",
+      "height": "300"
+    }
+  ],
+  "improvements": [
+    "为 Pro 用户添加了 GPX 文件导出",
+    "显著加快文件导出生成速度",
+    "提高大型胶卷的导出可靠性",
+    "优化导出操作期间的内存使用"
+  ],
+  "fixes": [],
+  "patches": []
+}

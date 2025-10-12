@@ -1,0 +1,52 @@
+{
+  "version": "1.9.0",
+  "version_short": "1.9",
+  "url_slug": "1-9-ios",
+  "platform": "ios",
+  "release_date": "2025-09-18T10:00:00.000Z",
+  "title": "子資料夾、滑動移動和 TXT 匯出改進",
+  "summary": "使用最多 5 級深度的巢狀子資料夾整理您的膠片庫。此更新還透過滑動手勢簡化了膠卷管理,並改進了 TXT 匯出格式以獲得更好的文件。",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Pro 使用者的巢狀資料夾整理"
+    },
+    {
+      "type": "paragraph",
+      "content": "Pro 使用者現在可以建立最多 5 級深度的子資料夾,實現膠片檔案的詳細整理。按年份、專案、膠卷類型或任何適合您工作流程的階層結構來建構您的庫。這使得在大量膠片收藏中定位特定拍攝更容易,並將相關膠卷邏輯地分組在一起。"
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/{{ lang }}/changelog/frames-1.9.0-1.png",
+      "image_2x": "/lib/img/{{ lang }}/changelog/frames-1.9.0-1@2x.png",
+      "alt": "Frames 膠片攝影應用顯示用於膠卷檔案的巢狀資料夾整理",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "改進的膠卷管理"
+    },
+    {
+      "type": "paragraph",
+      "content": "滑動手勢現在包括移動按鈕,使移動膠卷和資料夾更快。我們還修復了一個問題,即當年份與目前年份符合時,TXT 匯出會省略年份,確保所有匯出中都有完整的日期資訊。"
+    }
+  ],
+  "improvements": [
+    "為 Pro 使用者新增最多 5 級深度的子資料夾支援",
+    "滑動手勢現在包括膠卷和資料夾的移動按鈕",
+    "增強資料夾導覽,支援麵包屑導覽",
+    "改進多種語言的本地化一致性"
+  ],
+  "fixes": [
+    {
+      "title": "TXT 匯出年份顯示",
+      "description": "修復了當年份與目前年份符合時 TXT 匯出會省略年份的問題。現在始終包含年份以獲得完整的日期資訊。"
+    }
+  ],
+  "patches": [],
+  "meta_title": "子資料夾、滑動移動和 TXT 匯出改進 · Frames",
+  "meta_description": "使用最多 5 級深度的巢狀子資料夾整理您的膠片庫。"
+}

@@ -1,0 +1,150 @@
+{
+  "version": "1.0.0",
+  "version_short": "1.0",
+  "url_slug": "1-0-ios",
+  "platform": "ios",
+  "release_date": "2025-04-01T03:02:00.000Z",
+  "title": "Frames 正式发布:您的胶片摄影笔记本",
+  "meta_title": "Frames 正式发布:您的胶片摄影笔记本 · Frames",
+  "meta_description": "使用 iOS 应用在拍摄现场记录胶片摄影元数据,通过 macOS 应用将 EXIF 数据嵌入扫描图像。完整的模拟工作流程,支持 200+ 种胶卷。",
+  "summary": "Frames 作为 Datafilm 的全新重构版本正式发布,带来精心打磨的 iOS 应用用于现场记录胶片摄影元数据,以及全新的 macOS 应用用于将数据嵌入扫描图像。",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "记录和整理您的胶卷"
+    },
+    {
+      "type": "paragraph",
+      "content": "Frames 是您专属的模拟摄影数字笔记本,专为记录拍摄设置并将元数据无缝集成到扫描图像而设计。记录每一帧的所有重要细节:焦距、快门速度、曝光补偿、光圈、闪光灯设置、相机、镜头、胶卷类型、日期、时间和地理位置。"
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.0.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.0.0-1@2x.png",
+      "alt": "Frames 胶片摄影应用界面,用于记录模拟相机元数据和胶卷详细信息",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "list",
+      "items": [
+        {
+          "title": "完整的元数据记录",
+          "description": "记录帧编号、焦距、快门速度、曝光补偿、光圈、闪光灯设置、相机、镜头、胶卷类型、日期、时间和位置。"
+        },
+        {
+          "title": "参考图像",
+          "description": "为每一帧附加参考图像,在匹配扫描时提供快速的视觉参考。"
+        },
+        {
+          "title": "交互式地图视图",
+          "description": "在交互式地图上查看您的胶片拍摄位置,追溯每一帧的拍摄地点。"
+        },
+        {
+          "title": "文件夹整理",
+          "description": "使用文件夹和强大的搜索工具整理您的胶片库,即时找到任何帧。"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "导出和同步您的数据"
+    },
+    {
+      "type": "paragraph",
+      "content": "配套的 macOS 应用解决了胶片摄影社区最需要的功能:将元数据重新集成到扫描的 JPEG 图像中。将元数据导出为 JSON (.frames) 文件,在 Apple 设备间共享记录,并使用 macOS 应用嵌入 EXIF 数据,可与 Lightroom、Capture One 和 Apple Photos 无缝配合。"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "专为模拟摄影优化"
+    },
+    {
+      "type": "list",
+      "items": [
+        {
+          "title": "自适应控制",
+          "description": "控件根据您的器材特性自适应调整,实现更快的记录。"
+        },
+        {
+          "title": "智能自动填充",
+          "description": "镜头、相机、胶卷类型和 ISO 的智能自动填充功能,节省拍摄时间。"
+        },
+        {
+          "title": "200+ 种胶卷",
+          "description": "预装了各大厂商的热门胶卷选择。"
+        },
+        {
+          "title": "原生 Apple 设计",
+          "description": "遵循 Apple 人机界面指南,提供流畅直观的体验。"
+        },
+        {
+          "title": "性能优化",
+          "description": "即使在较旧的 iPhone 机型上也能流畅运行。"
+        }
+      ]
+    }
+  ],
+  "improvements": [
+    "全新架构的彻底重构",
+    "记录完整的帧元数据:曝光、相机、镜头、胶卷、位置",
+    "为每一帧自动添加时间戳",
+    "附加参考图像用于扫描匹配",
+    "使用文件夹整理胶卷库",
+    "在所有已记录帧中进行强大的搜索",
+    "显示拍摄位置的交互式地图视图",
+    "用于 EXIF 元数据嵌入的配套 macOS 应用",
+    "与 Lightroom、Capture One 和 Apple Photos 完全兼容",
+    "隐私优先设计,无需账户或云依赖",
+    "改进的工具栏用户界面",
+    "新增多语言支持,包括法语、德语、西班牙语、意大利语、荷兰语、葡萄牙语、波兰语和瑞典语"
+  ],
+  "fixes": [
+    "修复了在某些设备上添加新相机或镜头时屏幕冻结的问题",
+    "修复了评价应用的 URL"
+  ],
+  "patches": [
+    {
+      "version": "1.0.1",
+      "date": "2025-04-04",
+      "description": "小幅改进和错误修复"
+    },
+    {
+      "version": "1.0.2",
+      "date": "2025-04-13",
+      "description": "小幅修复和翻译改进"
+    },
+    {
+      "version": "1.0.3",
+      "date": "2025-04-15",
+      "description": "改进本地化"
+    },
+    {
+      "version": "1.0.4",
+      "date": "2025-04-19",
+      "description": "增强工具栏界面并扩展本地化"
+    },
+    {
+      "version": "1.0.5",
+      "date": "2025-04-21",
+      "description": "新增本地化"
+    },
+    {
+      "version": "1.0.6",
+      "date": "2025-04-23",
+      "description": "修复了在某些设备上添加新相机或镜头时屏幕冻结的问题"
+    },
+    {
+      "version": "1.0.7",
+      "date": "2025-04-28",
+      "description": "修复了评价应用的 URL"
+    },
+    {
+      "version": "1.0.8",
+      "date": "2025-05-20",
+      "description": "新增与 iOS 18.0 及更高版本的兼容性"
+    }
+  ]
+}

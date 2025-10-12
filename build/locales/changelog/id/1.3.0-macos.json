@@ -1,0 +1,37 @@
+{
+  "version": "1.3.0",
+  "version_short": "1.3",
+  "url_slug": "1-3-macos",
+  "platform": "macos",
+  "release_date": "2025-09-01T10:00:00.000Z",
+  "title": "Dukungan File Raw DNG",
+  "meta_title": "Dukungan File Raw DNG · Frames",
+  "meta_description": "Sematkan metadata ke dalam file raw DNG di samping format JPEG dan TIFF. Alur kerja analog lengkap dengan data EXIF komprehensif untuk pasca-pemrosesan profesional.",
+  "summary": "Anda sekarang dapat mengimpor file DNG di samping JPEG dan TIFF, dan mengintegrasikan ulang metadata langsung ke dalam gambar raw Anda untuk alur kerja fotografi analog yang lengkap.",
+  "sections": [
+    {
+      "type": "paragraph",
+      "content": "Dukungan gambar raw tiba di Frames untuk macOS. Impor file DNG di samping alur kerja JPEG dan TIFF yang ada, dan sematkan metadata gulungan film Anda langsung ke dalam file raw. Ini memastikan pengaturan eksposur, data kamera, stok film, dan catatan Anda bepergian dengan gambar raw Anda melalui pasca-pemrosesan dan pengarsipan. Kami juga telah memperbaiki masalah di mana catatan tambahan untuk frame tidak dipertahankan selama integrasi ulang metadata."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-mac-1.3.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-mac-1.3.0-1@2x.png",
+      "alt": "Aplikasi macOS Frames dengan penyematan metadata file raw DNG untuk pemindaian fotografi analog",
+      "width": "400",
+      "height": "300"
+    }
+  ],
+  "improvements": [
+    "Ditambahkan dukungan file raw DNG",
+    "Integrasi ulang metadata penuh untuk gambar raw",
+    "File DNG bekerja dengan mulus di samping JPEG dan TIFF"
+  ],
+  "fixes": [
+    {
+      "title": "Penyimpanan Catatan Frame",
+      "description": "Memperbaiki masalah di mana catatan tambahan untuk frame tidak dipertahankan selama integrasi ulang metadata."
+    }
+  ],
+  "patches": []
+}
