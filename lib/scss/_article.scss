@@ -191,18 +191,27 @@
   }
 
   .tile {
-    background-color: var(--color-gray-dark);
-
     a {
       display: flex;
       flex-direction: column;
       text-decoration: none;
-      padding: 1.125rem var(--spacing-lg) 1.125rem;
     }
 
     &:hover {
       background-color: var(--color-gray-dark2);
     }
+  }
+
+  .pagination-inner {
+    flex-wrap: nowrap;
+  }
+
+  .pagination-inner > * {
+    flex: 1 1 calc(50% - var(--spacing-sm) / 2);
+  }
+
+  .pagination-inner > :only-child {
+    flex: 1 1 100%; /* full width if only one child */
   }
 
   .pagination-prev {
@@ -215,6 +224,7 @@
 
   .pagination-label {
     color: var(--color-secondary);
+    margin-bottom: 0.125rem;
   }
 
   .pagination-title {

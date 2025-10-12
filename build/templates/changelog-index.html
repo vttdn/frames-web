@@ -279,34 +279,33 @@
 
       {% if total_pages > 1 %}
       <nav class="pagination grid grid-4col" aria-label="Changelog pagination">
-        {% if page_number > 1 %}
-        <div class="pagination-prev col-start-2 tile">
-          {% if page_number == 2 %}
-          <a href="{{ lang_config.path }}{{ locale_data.urls.changelog }}">
-            <span class="pagination-label">← {{ locale_data.changelog.pagination.previous }}</span>
-            <span class="pagination-title">{{ locale_data.changelog.pagination.newer_posts }}</span>
-          </a>
-          {% else %}
-          <a href="{{ lang_config.path }}{{ locale_data.urls.changelog }}page-{{ page_number - 1 }}/">
-            <span class="pagination-label">← {{ locale_data.changelog.pagination.previous }}</span>
-            <span class="pagination-title">{{ locale_data.changelog.pagination.newer_posts }}</span>
-          </a>
+        <div></div>
+        <div class="pagination-inner col-span-2 flex gap-sm2">
+          {% if page_number > 1 %}
+          <div class="pagination-prev col-start-2 tile">
+            {% if page_number == 2 %}
+            <a href="{{ lang_config.path }}{{ locale_data.urls.changelog }}" class="tile-inner">
+              <span class="pagination-label">← {{ locale_data.changelog.pagination.previous }}</span>
+              <span class="pagination-title">{{ locale_data.changelog.pagination.newer_posts }}</span>
+            </a>
+            {% else %}
+            <a href="{{ lang_config.path }}{{ locale_data.urls.changelog }}page-{{ page_number - 1 }}/" class="tile-inner">
+              <span class="pagination-label">← {{ locale_data.changelog.pagination.previous }}</span>
+              <span class="pagination-title">{{ locale_data.changelog.pagination.newer_posts }}</span>
+            </a>
+            {% endif %}
+          </div>
+          {% endif %}
+
+          {% if page_number < total_pages %}
+          <div class="pagination-next tile">
+            <a href="{{ lang_config.path }}{{ locale_data.urls.changelog }}page-{{ page_number + 1 }}/" class="tile-inner">
+              <span class="pagination-label">{{ locale_data.changelog.pagination.next }} →</span>
+              <span class="pagination-title">{{ locale_data.changelog.pagination.older_posts }}</span>
+            </a>
+          </div>
           {% endif %}
         </div>
-        {% else %}
-        <div class="col-start-2"></div>
-        {% endif %}
-
-        {% if page_number < total_pages %}
-        <div class="pagination-next tile">
-          <a href="{{ lang_config.path }}{{ locale_data.urls.changelog }}page-{{ page_number + 1 }}/">
-            <span class="pagination-label">{{ locale_data.changelog.pagination.next }} →</span>
-            <span class="pagination-title">{{ locale_data.changelog.pagination.older_posts }}</span>
-          </a>
-        </div>
-        {% else %}
-        <div></div>
-        {% endif %}
       </nav>
       {% endif %}
     </main>

@@ -260,27 +260,26 @@
       </article>
 
       <nav class="pagination grid grid-4col" aria-label="Changelog entry navigation">
+        <div></div>
+        <div class="pagination-inner col-span-2 flex gap-sm2">
         {% if prev_entry %}
         <div class="pagination-prev col-start-2 tile">
-          <a href="{{ lang_config.path }}{{ locale_data.urls.changelog }}{{ prev_entry.url_slug }}/">
+          <a href="{{ lang_config.path }}{{ locale_data.urls.changelog }}{{ prev_entry.url_slug }}/" class="tile-inner">
             <span class="pagination-label">← {{ locale_data.changelog.labels.previous }}</span>
             <span class="pagination-title">{{ prev_entry.title }}</span>
           </a>
         </div>
-        {% else %}
-        <div class="col-start-2"></div>
         {% endif %}
 
         {% if next_entry %}
         <div class="pagination-next tile">
-          <a href="{{ lang_config.path }}{{ locale_data.urls.changelog }}{{ next_entry.url_slug }}/">
+          <a href="{{ lang_config.path }}{{ locale_data.urls.changelog }}{{ next_entry.url_slug }}/" class="tile-inner">
             <span class="pagination-label">{{ locale_data.changelog.labels.next }} →</span>
             <span class="pagination-title">{{ next_entry.title }}</span>
           </a>
         </div>
-        {% else %}
-        <div></div>
         {% endif %}
+        </div>
       </nav>
     </main>
 

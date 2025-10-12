@@ -1,9 +1,5 @@
 @use 'mixins' as *;
 /* Pricing Section */
-.pricing-inner {
-    padding: var(--spacing-lg);
-}
-
 .pricing-header-main { 
     margin-bottom: var(--spacing-xl);
     width: calc(50% - 0.375rem);
