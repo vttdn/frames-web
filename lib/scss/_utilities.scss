@@ -23,12 +23,34 @@
     }
 }
 
+.desktop-to-tablet {
+    @include desktop-down {
+        display: none !important;
+    }
+}
+
 .mobile-only {
     display: none !important;
 
     @include desktop-down {
         display: flex !important;
     }
+}
+
+.tablet-only {
+    display: none !important;
+
+    @include tablet {
+        display: flex !important;
+    }
+}
+
+.desktop-up {
+    display: none !important;
+
+  @include desktop-up {
+        display: flex !important;
+  }
 }
 
 /* Flex System */
