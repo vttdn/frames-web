@@ -1,0 +1,23 @@
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://withframes.com/ru/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Обновления",
+      "item": "https://withframes.com/ru/changelog/1-13-ios/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Поддержка иврита, арабского, румынского и украинского языков",
+      "item": "https://withframes.com/ru/changelog/1-13-ios/"
+    }  ]
+}

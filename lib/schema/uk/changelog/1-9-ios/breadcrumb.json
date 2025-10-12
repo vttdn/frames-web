@@ -1,0 +1,23 @@
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://withframes.com/uk/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Історія змін",
+      "item": "https://withframes.com/uk/changelog/1-9-ios/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Підпапки, переміщення свайпом та покращення експорту TXT",
+      "item": "https://withframes.com/uk/changelog/1-9-ios/"
+    }  ]
+}
