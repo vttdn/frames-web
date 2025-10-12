@@ -19,6 +19,10 @@
 .privacy {
     margin-top: 7.875rem; // to mimic the spacing of the changelog
 
+    @include desktop-medium-down {
+      margin-top: var(--spacing-5xl);
+    }
+
   .privacy-article-main {
     header {
       margin-bottom: var(--spacing-3xl);
@@ -122,9 +126,4 @@ nav.toc {
   a {
     text-decoration: none !important;
   }
-}
-
-.privacy-article-main {
-  // grid-column: 2 / span 2;
-  // margin-top: calc(var(--spacing-5xl) + 1.875rem);
 }
