@@ -1,0 +1,37 @@
+{
+  "version": "1.3.0",
+  "version_short": "1.3",
+  "url_slug": "1-3-macos",
+  "platform": "macos",
+  "release_date": "2025-09-01T10:00:00.000Z",
+  "title": "DNG Raw फ़ाइल समर्थन",
+  "meta_title": "DNG Raw फ़ाइल समर्थन · Frames",
+  "meta_description": "JPEG और TIFF formats के साथ-साथ DNG raw फ़ाइलों में metadata एम्बेड करें। पेशेवर post-processing के लिए व्यापक EXIF डेटा के साथ संपूर्ण एनालॉग workflow।",
+  "summary": "अब आप संपूर्ण एनालॉग फ़ोटोग्राफ़ी workflow के लिए JPEG और TIFF के साथ-साथ DNG फ़ाइलें import कर सकते हैं, और अपनी raw छवियों में सीधे metadata को पुनः एकीकृत कर सकते हैं।",
+  "sections": [
+    {
+      "type": "paragraph",
+      "content": "macOS के लिए Frames पर raw छवि समर्थन आता है। अपने मौजूदा JPEG और TIFF workflows के साथ-साथ DNG फ़ाइलें import करें, और अपने फ़िल्म roll metadata को सीधे raw फ़ाइलों में एम्बेड करें। यह सुनिश्चित करता है कि आपकी exposure सेटिंग्स, camera डेटा, film stocks और नोट्स post-processing और संग्रहण के माध्यम से आपकी raw छवियों के साथ यात्रा करते हैं। हमने एक समस्या को भी ठीक किया है जहां एक फ़्रेम के लिए अतिरिक्त नोट्स metadata पुनः एकीकरण के दौरान बनाए नहीं रखे गए थे।"
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-mac-1.3.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-mac-1.3.0-1@2x.png",
+      "alt": "एनालॉग फ़ोटोग्राफ़ी स्कैन के लिए DNG raw फ़ाइल metadata एम्बेडिंग के साथ Frames macOS ऐप",
+      "width": "400",
+      "height": "300"
+    }
+  ],
+  "improvements": [
+    "DNG raw फ़ाइल समर्थन जोड़ा गया",
+    "Raw छवियों के लिए पूर्ण metadata पुनः एकीकरण",
+    "DNG फ़ाइलें JPEG और TIFF के साथ-साथ सहजता से काम करती हैं"
+  ],
+  "fixes": [
+    {
+      "title": "फ़्रेम नोट्स प्रतिधारण",
+      "description": "एक समस्या को ठीक किया जहां एक फ़्रेम के लिए अतिरिक्त नोट्स metadata पुनः एकीकरण के दौरान बनाए नहीं रखे गए थे।"
+    }
+  ],
+  "patches": []
+}

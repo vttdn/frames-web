@@ -1,0 +1,37 @@
+{
+  "version": "1.1.0",
+  "version_short": "1.1",
+  "url_slug": "1-1-macos",
+  "platform": "macos",
+  "release_date": "2025-06-27T10:00:00.000Z",
+  "title": "TIFF फ़ाइल समर्थन",
+  "meta_title": "TIFF फ़ाइल समर्थन · Frames",
+  "meta_description": "पूर्ण metadata एम्बेडिंग के साथ TIFF फ़ाइलें import और export करें। सहज EXIF एकीकरण workflow के साथ उच्च-गुणवत्ता स्कैन के लिए पेशेवर format समर्थन।",
+  "summary": "अब आप पेशेवर workflows के लिए JPEG से परे format समर्थन का विस्तार करते हुए, पूर्ण metadata एकीकरण के साथ TIFF फ़ाइलें import और export कर सकते हैं।",
+  "sections": [
+    {
+      "type": "paragraph",
+      "content": "macOS के लिए Frames पर TIFF समर्थन आता है। TIFF स्कैन import करें और अपने फ़िल्म roll metadata को उसी workflow के साथ एम्बेड करें जो आप JPEG फ़ाइलों के लिए उपयोग करते हैं। TIFF फ़ाइलें metadata पुनः एकीकरण प्रक्रिया में सहजता से काम करती हैं, यह सुनिश्चित करते हुए कि आपके एनालॉग फ़ोटोग्राफ़ी नोट्स format की परवाह किए बिना आपकी छवियों के साथ यात्रा करते हैं।"
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-mac-1.1.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-mac-1.1.0-1@2x.png",
+      "alt": "पेशेवर एनालॉग फ़ोटोग्राफ़ी workflows के लिए TIFF फ़ाइल समर्थन के साथ Frames macOS ऐप",
+      "width": "400",
+      "height": "300"
+    }
+  ],
+  "improvements": [
+    "TIFF फ़ाइल import समर्थन जोड़ा गया",
+    "पूर्ण metadata एकीकरण के साथ TIFF फ़ाइल export जोड़ा गया",
+    "TIFF फ़ाइलें मौजूदा metadata पुनः एकीकरण workflow के साथ सहजता से काम करती हैं"
+  ],
+  "fixes": [],
+  "patches": [
+    {
+      "version": "1.1.1",
+      "description": "एक समस्या को ठीक किया जो कुछ स्थितियों में .frames फ़ाइलों को लोड होने से रोक सकती थी।"
+    }
+  ]
+}

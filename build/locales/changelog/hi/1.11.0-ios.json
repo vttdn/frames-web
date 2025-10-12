@@ -1,0 +1,47 @@
+{
+  "version": "1.11.0",
+  "version_short": "1.11",
+  "url_slug": "1-11-ios",
+  "platform": "ios",
+  "release_date": "2025-10-02T10:00:00.000Z",
+  "title": "Metering Mode Metadata और Performance सुधार",
+  "summary": "Frames अब आपके camera की metering mode को exposure डेटा के साथ कैप्चर करता है, जो आपको प्रत्येक शॉट को कैसे मापा गया इसका अधिक संपूर्ण रिकॉर्ड देता है। यह अपडेट पूरे ऐप में तेज़, अधिक स्थिर अनुभव के लिए performance सुधार भी लाता है।",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Metering Mode Recording"
+    },
+    {
+      "type": "paragraph",
+      "content": "अब आप प्रत्येक फ़्रेम के लिए अपने camera ने कौन सी metering mode का उपयोग किया यह रिकॉर्ड कर सकते हैं। चाहे आप center-weighted, spot, या evaluative metering के साथ शूट कर रहे हों, Frames इस metadata को आपकी मौजूदा exposure सेटिंग्स के साथ कैप्चर करता है। यह आपको यह समझने में मदद करता है कि आपके camera ने प्रत्येक शॉट के लिए प्रकाश को कैसे मापा और समय के साथ exposure के लिए अपने दृष्टिकोण को परिष्कृत करें।"
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/{{ lang }}/changelog/frames-1.11.0-1.png",
+      "image_2x": "/lib/img/{{ lang }}/changelog/frames-1.11.0-1@2x.png",
+      "alt": "Exposure विश्लेषण के लिए metering mode metadata recording दिखाने वाला Frames फ़िल्म फ़ोटोग्राफ़ी ऐप",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Performance वृद्धि"
+    },
+    {
+      "type": "paragraph",
+      "content": "अंतर्निहित सुधार Frames को तेज़ और अधिक responsive बनाते हैं। फ़िल्म रोल्स के बीच navigation, फ़्रेम recording और metadata editing सभी अनुकूलित performance से लाभान्वित होते हैं। ये परिष्करण आपके एनालॉग फ़ोटोग्राफ़ी workflow को प्रबंधित करते समय एक सुचारू अनुभव में योगदान करते हैं।"
+    }
+  ],
+  "improvements": [
+    "व्यापक exposure दस्तावेज़ीकरण के लिए metering mode metadata फ़ील्ड जोड़ा गया",
+    "तेज़ navigation और फ़्रेम recording के लिए बेहतर ऐप performance",
+    "फ़िल्म रोल्स के बीच स्विच करते समय और फ़्रेम edit करते समय बेहतर स्थिरता",
+    "बड़ी फ़िल्म लाइब्रेरी के साथ सुचारू संचालन के लिए अनुकूलित मेमोरी उपयोग"
+  ],
+  "fixes": [],
+  "patches": [],
+  "meta_title": "Metering Mode Metadata और Performance सुधार · Frames",
+  "meta_description": "Frames अब आपके camera की metering mode को exposure डेटा के साथ कैप्चर करता है, जो आपको प्रत्येक शॉट को कैसे मापा गया इसका अधिक संपूर्ण रिकॉर्ड देता है।"
+}

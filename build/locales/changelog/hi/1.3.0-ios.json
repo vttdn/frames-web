@@ -1,0 +1,33 @@
+{
+  "version": "1.3.0",
+  "version_short": "1.3",
+  "url_slug": "1-3-ios",
+  "platform": "ios",
+  "release_date": "2025-07-18T10:00:00.000Z",
+  "title": "GPX Export और तेज़ फ़ाइल जनरेशन",
+  "meta_title": "GPX Export और तेज़ फ़ाइल जनरेशन · Frames",
+  "meta_description": "मैपिंग सॉफ़्टवेयर के लिए फ़िल्म roll स्थानों को GPX फ़ाइलों के रूप में export करें। बड़ी फ़िल्म roll exports के लिए बेहतर विश्वसनीयता के साथ काफ़ी तेज़ फ़ाइल जनरेशन।",
+  "summary": "Pro उपयोगकर्ता अब स्थान ट्रैकिंग के लिए फ़िल्म रोल्स को GPX फ़ाइलों के रूप में export कर सकते हैं। यह अपडेट सभी formats में तेज़, अधिक विश्वसनीय फ़ाइल exports के लिए performance सुधार भी लाता है।",
+  "sections": [
+    {
+      "type": "paragraph",
+      "content": "अपने फ़िल्म roll स्थानों को GPX फ़ाइलों के रूप में export करें ताकि मैपिंग एप्लिकेशन में शूटिंग स्थानों की कल्पना की जा सके या फ़ोटो प्रबंधन सॉफ़्टवेयर में import किया जा सके। स्थान डेटा वाला प्रत्येक फ़्रेम GPX ट्रैक में एक waypoint बन जाता है। सभी formats में फ़ाइल export performance में सुधार किया गया है, जिससे कई फ़्रेम्स वाली फ़िल्म रोल्स के लिए भी .FRAMES, TXT और GPX फ़ाइलें जनरेट करना तेज़ हो गया है।"
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/{{ lang }}/changelog/frames-1.3.0-1.png",
+      "image_2x": "/lib/img/{{ lang }}/changelog/frames-1.3.0-1@2x.png",
+      "alt": "GPX स्थान export और फ़ाइल जनरेशन फ़ीचर्स के साथ Frames एनालॉग फ़ोटोग्राफ़ी ऐप",
+      "width": "400",
+      "height": "300"
+    }
+  ],
+  "improvements": [
+    "Pro उपयोगकर्ताओं के लिए GPX फ़ाइल export जोड़ा गया",
+    "काफ़ी तेज़ फ़ाइल export जनरेशन",
+    "बड़ी फ़िल्म रोल्स के लिए बेहतर export विश्वसनीयता",
+    "Export संचालन के दौरान अनुकूलित मेमोरी उपयोग"
+  ],
+  "fixes": [],
+  "patches": []
+}

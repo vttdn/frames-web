@@ -1,0 +1,43 @@
+{
+  "version": "1.5.0",
+  "version_short": "1.5",
+  "url_slug": "1-5-macos",
+  "platform": "macos",
+  "release_date": "2025-09-19T10:00:00.000Z",
+  "title": "प्रमुख Performance और DNG Processing सुधार",
+  "meta_title": "प्रमुख Performance और DNG Processing सुधार · Frames",
+  "meta_description": "अनुकूलित caching और मेमोरी उपयोग के साथ काफ़ी तेज़ DNG processing। सुचारू metadata workflow के लिए .frames import और Intel Mac संगतता को ठीक किया।",
+  "summary": "यह अपडेट अनुकूलित DNG processing, बेहतर caching और .frames फ़ाइल import और Intel Macs पर DNG metadata export के लिए फ़िक्स के साथ काफ़ी तेज़ छवि हैंडलिंग प्रदान करता है।",
+  "sections": [
+    {
+      "type": "paragraph",
+      "content": "DNG processing speed और विश्वसनीयता में प्रमुख सुधार के साथ छवि लोडिंग अब सभी formats में काफ़ी तेज़ है। मेमोरी उपयोग को अनुकूलित किया गया है, caching में सुधार किया गया है, और synchronized loading छवियों के बड़े batches के साथ भी सुचारू संचालन सुनिश्चित करता है। हमने macOS menu bar से .frames फ़ाइल import को भी ठीक किया है और पुराने Intel Macs पर DNG metadata export समस्याओं को हल किया है।"
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.10.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.10.0-1@2x.png",
+      "alt": "तेज़ छवि हैंडलिंग के लिए अनुकूलित DNG processing performance के साथ Frames macOS ऐप",
+      "width": "400",
+      "height": "300"
+    }
+  ],
+  "improvements": [
+    "सभी formats में काफ़ी तेज़ छवि लोडिंग",
+    "बेहतर performance के लिए अनुकूलित DNG processing",
+    "सुचारू संचालन के लिए बेहतर caching system",
+    "बेहतर मेमोरी उपयोग दक्षता",
+    "बड़े छवि batches के लिए synchronized loading"
+  ],
+  "fixes": [
+    {
+      "title": ".frames फ़ाइल Import",
+      "description": "macOS menu bar से .frames फ़ाइल import को ठीक किया।"
+    },
+    {
+      "title": "Intel Macs पर DNG Export",
+      "description": "पुराने Intel Mac मॉडल पर DNG metadata export को ठीक किया।"
+    }
+  ],
+  "patches": []
+}

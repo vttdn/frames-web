@@ -1,0 +1,78 @@
+{
+  "version": "1.0.0",
+  "version_short": "1.0",
+  "url_slug": "1-0-macos",
+  "platform": "macos",
+  "release_date": "2025-04-08T10:00:00.000Z",
+  "title": "macOS के लिए Frames लॉन्च",
+  "meta_title": "macOS के लिए Frames लॉन्च · Frames",
+  "meta_description": "Lightroom, Capture One और Apple Photos के लिए EXIF समर्थन के साथ स्कैन की गई छवियों में फ़िल्म फ़ोटोग्राफ़ी metadata एम्बेड करें। iOS लॉगिंग डेटा को सहजता से पुनः एकीकृत करें।",
+  "summary": "लंबे समय से प्रतीक्षित macOS सहायक ऐप लॉन्च हो रहा है, जो स्कैन की गई फ़िल्म छवियों में सहज metadata पुनः एकीकरण लाता है। iOS से अपने फ़िल्म roll डेटा को import करें और JPEG फ़ाइलों में EXIF metadata एम्बेड करें।",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "स्कैन की गई फ़िल्म के लिए Metadata पुनः एकीकरण"
+    },
+    {
+      "type": "paragraph",
+      "content": "macOS के लिए Frames फ़िल्म फ़ोटोग्राफ़ी समुदाय से सबसे अधिक अनुरोधित फ़ीचर को हल करता है: स्कैन की गई छवियों में metadata को पुनः एकीकृत करना। iOS से अपनी .frames फ़ाइलें import करें, अपनी स्कैन की गई JPEG छवियों को drag करें, और ऐप फ़्रेम्स को फ़ोटो से मिलाता है। आपकी exposure सेटिंग्स, camera डेटा, lens जानकारी, film stocks और शूटिंग नोट्स को EXIF metadata के रूप में एम्बेड किया जाता है जो Lightroom, Capture One और Apple Photos के साथ सहजता से काम करता है।"
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.0.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.0.0-1@2x.png",
+      "alt": "स्कैन की गई फ़िल्म तस्वीरों में EXIF metadata एम्बेड करने के लिए Frames macOS ऐप",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "सरल Workflow, पेशेवर परिणाम"
+    },
+    {
+      "type": "paragraph",
+      "content": "Workflow सीधा है: अपनी .frames फ़ाइल import करें, अपनी स्कैन की गई छवियां जोड़ें, फ़्रेम्स को फ़ोटो से मिलाएं, और export करें। ऐप स्वचालित रूप से EXIF एम्बेडिंग को संभालता है, यह सुनिश्चित करते हुए कि आपका एनालॉग फ़ोटोग्राफ़ी दस्तावेज़ीकरण स्थायी डिजिटल रिकॉर्ड बन जाता है। आपका फ़िल्म roll डेटा iOS पर फ़ील्ड लॉगिंग से लेकर macOS पर अंतिम संग्रहण तक सहजता से transfer होता है।"
+    }
+  ],
+  "improvements": [
+    "iOS से .frames फ़ाइलें import करें",
+    "पूर्ण metadata एम्बेडिंग के साथ JPEG फ़ाइल समर्थन",
+    "स्वचालित फ़्रेम-से-फ़ोटो मिलान",
+    "Lightroom, Capture One और Apple Photos के साथ संगत EXIF metadata एम्बेडिंग",
+    "Apple के Human Interface Guidelines का पालन करने वाला मूल macOS डिज़ाइन",
+    "7 भाषाओं में उपलब्ध: अंग्रेज़ी, French, Spanish, Italian, Portuguese, German और Dutch"
+  ],
+  "fixes": [],
+  "patches": [
+    {
+      "version": "1.0.1",
+      "description": "French भाषा समर्थन जोड़ा गया।"
+    },
+    {
+      "version": "1.0.2",
+      "description": "7 भाषाओं में विस्तारित: अंग्रेज़ी, French, Spanish, Italian, Portuguese, German और Dutch।"
+    },
+    {
+      "version": "1.0.3",
+      "description": "बेहतर भाषा समर्थन।"
+    },
+    {
+      "version": "1.0.4",
+      "description": "अब macOS 15.0 और बाद के संस्करणों के साथ संगत।"
+    },
+    {
+      "version": "1.0.5",
+      "description": "Export की गई फ़ोटो अब अपने मूल filenames रखती हैं।"
+    },
+    {
+      "version": "1.0.6",
+      "description": "ऐप आइकन को पुनः डिज़ाइन किया गया।"
+    },
+    {
+      "version": "1.0.7",
+      "description": "ऐप logo में मामूली परिष्करण।"
+    }
+  ]
+}

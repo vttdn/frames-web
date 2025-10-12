@@ -1,0 +1,48 @@
+{
+  "version": "1.2.0",
+  "version_short": "1.2",
+  "url_slug": "1-2-macos",
+  "platform": "macos",
+  "release_date": "2025-08-24T10:00:00.000Z",
+  "title": "फ़िल्टर समर्थन, Japanese और Korean भाषाएं",
+  "meta_title": "फ़िल्टर समर्थन, Japanese और Korean भाषाएं · Frames",
+  "meta_description": "UV, ND और CPL फ़िल्टर के लिए स्वचालित फ़िल्टर metadata एम्बेडिंग। Camera serial numbers सहित बेहतर EXIF डेटा के साथ Japanese और Korean भाषा समर्थन।",
+  "summary": "फ़िल्टर अब sidebar में दिखाई देते हैं और फ़्रेम सहेजते समय स्वचालित रूप से metadata में जोड़े जाते हैं। यह अपडेट Japanese और Korean भाषा समर्थन के साथ-साथ महत्वपूर्ण बग फ़िक्स भी लाता है।",
+  "sections": [
+    {
+      "type": "paragraph",
+      "content": "iOS पर लॉग किए गए फ़िल्टर अब macOS sidebar में प्रदर्शित होते हैं और पुनः एकीकरण के दौरान स्वचालित रूप से EXIF metadata में एम्बेड होते हैं। यह आपकी अंतिम छवियों में UV, ND, CPL और अन्य फ़िल्टर शामिल करके आपके एनालॉग दस्तावेज़ीकरण को पूरा करता है। Camera serial numbers अब metadata में शामिल हैं, और हमने एक बग को ठीक किया है जहां flash मान उलटे थे। Frames अब Japanese और Korean में उपलब्ध है, iOS भाषा विस्तार से मेल खाता है।"
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-mac-1.2.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-mac-1.2.0-1@2x.png",
+      "alt": "फ़िल्म फ़ोटोग्राफ़ी दस्तावेज़ीकरण के लिए फ़िल्टर metadata sidebar दिखाने वाला Frames macOS ऐप",
+      "width": "400",
+      "height": "300"
+    }
+  ],
+  "improvements": [
+    "Sidebar में फ़िल्टर प्रदर्शन जोड़ा गया",
+    "फ़्रेम सहेजते समय स्वचालित रूप से metadata में फ़िल्टर जोड़े गए",
+    "EXIF metadata में अब camera serial number शामिल है",
+    "Japanese भाषा समर्थन जोड़ा गया",
+    "Korean भाषा समर्थन जोड़ा गया"
+  ],
+  "fixes": [
+    {
+      "title": "Flash मान उलटाव",
+      "description": "एक समस्या को सुधारा जहां flash मान उलटा था (जब 'No' होना चाहिए था तब 'Yes' दिखा रहा था)।"
+    }
+  ],
+  "patches": [
+    {
+      "version": "1.2.2",
+      "description": "नई भाषाओं के लिए बेहतर स्थानीयकरण।"
+    },
+    {
+      "version": "1.2.1",
+      "description": "iOS ऐप के साथ संगति के लिए बेहतर अनुवाद, साथ ही मामूली UI वृद्धि।"
+    }
+  ]
+}

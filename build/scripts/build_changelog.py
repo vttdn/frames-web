@@ -84,6 +84,7 @@ def format_date(iso_date, lang_code='en'):
         'sv': ['jan', 'feb', 'mars', 'apr', 'maj', 'juni', 'juli', 'aug', 'sep', 'okt', 'nov', 'dec'],
         'th': ['ม.ค.', 'ก.พ.', 'มี.ค.', 'เม.ย.', 'พ.ค.', 'มิ.ย.', 'ก.ค.', 'ส.ค.', 'ก.ย.', 'ต.ค.', 'พ.ย.', 'ธ.ค.'],
         'id': ['Jan', 'Feb', 'Mar', 'Apr', 'Mei', 'Jun', 'Jul', 'Agu', 'Sep', 'Okt', 'Nov', 'Des'],
+        'hi': ['जन', 'फ़र', 'मार्च', 'अप्रैल', 'मई', 'जून', 'जुल', 'अग', 'सित', 'अक्टू', 'नव', 'दिस'],
     }
 
     # Date format patterns per language
@@ -103,6 +104,7 @@ def format_date(iso_date, lang_code='en'):
         'zh-hant': '{year}年{month}月{day}日', # 2025年04月01日
         'th': '{day} {month} {year}',       # 01 เม.ย. 2025
         'id': '{day} {month} {year}',       # 01 Apr 2025
+        'hi': '{day} {month} {year}',       # 01 अक्टू 2025
     }
 
     # Get format for language, default to English

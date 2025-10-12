@@ -1,0 +1,150 @@
+{
+  "version": "1.0.0",
+  "version_short": "1.0",
+  "url_slug": "1-0-ios",
+  "platform": "ios",
+  "release_date": "2025-04-01T03:02:00.000Z",
+  "title": "Frames लॉन्च: आपकी एनालॉग फ़ोटोग्राफ़ी नोटबुक",
+  "meta_title": "Frames लॉन्च: आपकी एनालॉग फ़ोटोग्राफ़ी नोटबुक · Frames",
+  "meta_description": "iOS पर फ़िल्म फ़ोटोग्राफ़ी metadata को फ़ील्ड में ट्रैक करें और macOS के साथ स्कैन की गई छवियों में EXIF डेटा एम्बेड करें। 200+ फ़िल्म stocks के साथ संपूर्ण एनालॉग workflow।",
+  "summary": "Frames, Datafilm के संपूर्ण पुनर्निर्माण के रूप में लॉन्च हो रहा है, जो फ़ील्ड में फ़िल्म फ़ोटोग्राफ़ी metadata लॉग करने के लिए एक परिष्कृत iOS ऐप लेकर आता है, साथ ही आपकी स्कैन की गई छवियों में उस डेटा को एम्बेड करने के लिए एक नया macOS ऐप भी है।",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "अपनी फ़िल्म रोल्स को कैप्चर और व्यवस्थित करें"
+    },
+    {
+      "type": "paragraph",
+      "content": "Frames एनालॉग फ़ोटोग्राफ़ी के लिए आपकी डिजिटल नोटबुक है, जिसे शॉट सेटिंग्स ट्रैक करने और स्कैन की गई छवियों में metadata को सहजता से एकीकृत करने के लिए डिज़ाइन किया गया है। प्रत्येक फ़्रेम के लिए महत्वपूर्ण हर विवरण लॉग करें: focal length, shutter speed, exposure compensation, aperture, flash सेटिंग्स, camera, lens, film stock, तारीख, समय और geolocation।"
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.0.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.0.0-1@2x.png",
+      "alt": "एनालॉग camera metadata और roll विवरण लॉग करने के लिए Frames फ़िल्म फ़ोटोग्राफ़ी ऐप इंटरफ़ेस",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "list",
+      "items": [
+        {
+          "title": "संपूर्ण Metadata लॉगिंग",
+          "description": "फ़्रेम नंबर, focal length, shutter speed, exposure compensation, aperture, flash सेटिंग्स, camera, lens, film stock, तारीख, समय और स्थान को ट्रैक करें।"
+        },
+        {
+          "title": "Reference छवियां",
+          "description": "स्कैन्स को मैच करते समय त्वरित दृश्य संदर्भ के लिए प्रत्येक फ़्रेम में reference छवियां संलग्न करें।"
+        },
+        {
+          "title": "Interactive मानचित्र दृश्य",
+          "description": "अपने फ़िल्म शॉट्स को एक interactive मानचित्र पर देखें ताकि यह पता लगाया जा सके कि प्रत्येक फ़्रेम कहाँ कैप्चर किया गया था।"
+        },
+        {
+          "title": "फ़ोल्डर संगठन",
+          "description": "अपनी फ़िल्म लाइब्रेरी को फ़ोल्डर्स और शक्तिशाली खोज टूल्स के साथ व्यवस्थित करें ताकि किसी भी फ़्रेम को तुरंत खोज सकें।"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "अपना डेटा Export और Sync करें"
+    },
+    {
+      "type": "paragraph",
+      "content": "सहायक macOS ऐप फ़िल्म फ़ोटोग्राफ़ी समुदाय से सबसे अधिक अनुरोधित फ़ीचर को हल करता है: स्कैन की गई JPEG छवियों में metadata को फिर से एकीकृत करना। अपने metadata को JSON (.frames) फ़ाइलों के रूप में export करें, Apple डिवाइस के बीच रिकॉर्ड साझा करें, और macOS ऐप का उपयोग करके EXIF डेटा एम्बेड करें जो Lightroom, Capture One और Apple Photos के साथ सहजता से काम करता है।"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "एनालॉग फ़ोटोग्राफ़ी के लिए अनुकूलित"
+    },
+    {
+      "type": "list",
+      "items": [
+        {
+          "title": "Adaptive नियंत्रण",
+          "description": "तेज़ लॉगिंग के लिए आपके gear विशेषताओं के अनुसार नियंत्रण अनुकूलित होते हैं।"
+        },
+        {
+          "title": "Smart Autofill",
+          "description": "Lens, camera, film stock और ISO के लिए बुद्धिमान autofill फ़ील्ड में समय बचाता है।"
+        },
+        {
+          "title": "200+ फ़िल्म Stocks",
+          "description": "प्रमुख निर्माताओं से लोकप्रिय फ़िल्म stocks का पूर्व-लोड किया गया चयन।"
+        },
+        {
+          "title": "Native Apple डिज़ाइन",
+          "description": "एक सुचारू, सहज अनुभव के लिए Apple के Human Interface Guidelines का पालन करता है।"
+        },
+        {
+          "title": "Performance अनुकूलित",
+          "description": "पुराने iPhone मॉडल पर भी सुचारू रूप से काम करता है।"
+        }
+      ]
+    }
+  ],
+  "improvements": [
+    "परिष्कृत आर्किटेक्चर के साथ संपूर्ण ground-up पुनर्निर्माण",
+    "व्यापक फ़्रेम metadata लॉग करें: exposure, camera, lens, film, स्थान",
+    "प्रत्येक फ़्रेम के लिए स्वचालित टाइमस्टैम्पिंग",
+    "स्कैन मैचिंग के लिए reference छवि संलग्नता",
+    "फ़िल्म roll लाइब्रेरी के लिए फ़ोल्डर संगठन",
+    "सभी लॉग किए गए फ़्रेम्स में शक्तिशाली खोज",
+    "शूटिंग स्थानों को दर्शाने वाला interactive मानचित्र दृश्य",
+    "EXIF metadata एम्बेडिंग के लिए सहायक macOS ऐप",
+    "Lightroom, Capture One और Apple Photos के साथ पूर्ण संगतता",
+    "बिना accounts या cloud निर्भरता के गोपनीयता-प्रथम डिज़ाइन",
+    "बेहतर toolbar यूज़र इंटरफ़ेस",
+    "French, German, Spanish, Italian, Dutch, Portuguese, Polish और Swedish सहित कई भाषाओं के लिए समर्थन जोड़ा गया"
+  ],
+  "fixes": [
+    "कुछ डिवाइस पर नया camera या lens जोड़ते समय स्क्रीन फ़्रीज़ होने की समस्या को ठीक किया",
+    "Review ऐप URL ठीक किया"
+  ],
+  "patches": [
+    {
+      "version": "1.0.1",
+      "date": "2025-04-04",
+      "description": "मामूली सुधार और बग फ़िक्स"
+    },
+    {
+      "version": "1.0.2",
+      "date": "2025-04-13",
+      "description": "मामूली फ़िक्स और अनुवाद सुधार"
+    },
+    {
+      "version": "1.0.3",
+      "date": "2025-04-15",
+      "description": "बेहतर स्थानीयकरण"
+    },
+    {
+      "version": "1.0.4",
+      "date": "2025-04-19",
+      "description": "बेहतर toolbar UI और विस्तारित स्थानीयकरण"
+    },
+    {
+      "version": "1.0.5",
+      "date": "2025-04-21",
+      "description": "स्थानीयकरण जोड़े गए"
+    },
+    {
+      "version": "1.0.6",
+      "date": "2025-04-23",
+      "description": "कुछ डिवाइस पर नया camera या lens जोड़ते समय स्क्रीन फ़्रीज़ होने की समस्या को ठीक किया"
+    },
+    {
+      "version": "1.0.7",
+      "date": "2025-04-28",
+      "description": "Review ऐप URL ठीक किया"
+    },
+    {
+      "version": "1.0.8",
+      "date": "2025-05-20",
+      "description": "iOS 18.0 और बाद के संस्करणों के साथ संगतता जोड़ी"
+    }
+  ]
+}

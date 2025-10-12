@@ -1,0 +1,53 @@
+{
+  "version": "1.6.0",
+  "version_short": "1.6",
+  "url_slug": "1-6-ios",
+  "platform": "ios",
+  "release_date": "2025-09-05T10:00:00.000Z",
+  "title": "कस्टम Shutter Speed Sequences और मानचित्र सुधार",
+  "summary": "प्रति camera कस्टम shutter speed sequences सेट करें, केवल वे speeds दिखाएं जिन्हें आपका camera वास्तव में समर्थन करता है। यह अपडेट बेहतर मानचित्र हैंडलिंग, अतिरिक्त shutter speed विकल्प और export प्रगति संकेतक भी लाता है।",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "कस्टम Shutter Speed नियंत्रण"
+    },
+    {
+      "type": "paragraph",
+      "content": "प्रति-camera आधार पर recorder slider और फ़्रेम सेटिंग्स में कौन सी shutter speeds दिखाई देती हैं, यह कॉन्फ़िगर करें। यदि आपके camera में केवल 1/1000 से 1 सेकंड तक की speeds हैं, तो आप विस्तारित range विकल्पों को छुपा सकते हैं। यह आपके recorder इंटरफ़ेस को साफ़ रखता है और गलती से उन speeds को लॉग करने से रोकता है जिन्हें आपका camera समर्थन नहीं करता है। कस्टम sequences डिवाइस के बीच संगत metadata के लिए Mac ऐप के साथ sync होती हैं।"
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/{{ lang }}/changelog/frames-1.6.0-1.png",
+      "image_2x": "/lib/img/{{ lang }}/changelog/frames-1.6.0-1@2x.png",
+      "alt": "कस्टम shutter speed sequences और मानचित्र सुधार दिखाने वाला Frames फ़िल्म फ़ोटोग्राफ़ी ऐप",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "बेहतर मानचित्र और Export फ़ीचर्स"
+    },
+    {
+      "type": "paragraph",
+      "content": "मानचित्र दृश्य अब पैनिंग और ज़ूमिंग के लिए बेहतर gesture समर्थन के साथ coordinates को अधिक विश्वसनीय रूप से संभालता है। हमने आमतौर पर उपयोग की जाने वाली shutter speeds (1/160, 1/80, 1/40, 1/20) जोड़ी हैं जो पहले गायब थीं। Export संचालन अब एक प्रगति संकेतक दिखाते हैं ताकि आप जान सकें कि share sheet दिखाई देने से पहले आपकी फ़ाइलें कब generate की जा रही हैं।"
+    }
+  ],
+  "improvements": [
+    "प्रति camera कस्टम shutter speed sequences जोड़ी गईं",
+    "बेहतर मानचित्र coordinate हैंडलिंग और gesture समर्थन",
+    "गायब shutter speeds जोड़ी गईं: 1/160, 1/80, 1/40 और 1/20",
+    "Share sheet दिखाई देने से पहले export प्रगति संकेतक जोड़ा गया",
+    "Recorder दृश्य में बेहतर slider सटीकता"
+  ],
+  "fixes": [
+    {
+      "title": "Recorder Slider सटीकता",
+      "description": "Recorder sliders को सही मान और दृश्य स्थिति दोनों से मेल खाने के लिए ठीक किया।"
+    }
+  ],
+  "patches": [],
+  "meta_title": "कस्टम Shutter Speed Sequences और मानचित्र सुधार · Frames",
+  "meta_description": "प्रति camera कस्टम shutter speed sequences सेट करें, केवल वे speeds दिखाएं जिन्हें आपका camera वास्तव में समर्थन करता है।"
+}

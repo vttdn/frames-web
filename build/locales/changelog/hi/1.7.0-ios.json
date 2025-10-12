@@ -1,0 +1,65 @@
+{
+  "version": "1.7.0",
+  "version_short": "1.7",
+  "url_slug": "1-7-ios",
+  "platform": "ios",
+  "release_date": "2025-09-10T10:00:00.000Z",
+  "title": "पूर्ण पहुँच-योग्यता समर्थन और Recording सुधार",
+  "summary": "यह अपडेट recording workflow और metadata हैंडलिंग में सुधार के साथ व्यापक Apple पहुँच-योग्यता समर्थन लाता है, जिससे Frames सभी फ़िल्म फ़ोटोग्राफ़रों के लिए अधिक सुलभ और कुशल बनता है।",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Apple पहुँच-योग्यता फ़ीचर्स"
+    },
+    {
+      "type": "paragraph",
+      "content": "Frames अब प्रमुख Apple पहुँच-योग्यता फ़ीचर्स का समर्थन करता है जिसमें Larger Text, Dark Interface, Differentiate Without Color Alone, Sufficient Contrast और Reduced Motion शामिल हैं। ये फ़ीचर्स सुनिश्चित करते हैं कि ऐप विभिन्न दृश्य आवश्यकताओं और प्राथमिकताओं वाले फ़ोटोग्राफ़रों के लिए उपयोग करने योग्य है, पहुँच-योग्यता सेटिंग्स के बावजूद पूर्ण कार्यक्षमता बनाए रखता है।"
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.7.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.7.0-1@2x.png",
+      "alt": "पहुँच-योग्यता फ़ीचर्स और बड़े text समर्थन के साथ Frames फ़िल्म फ़ोटोग्राफ़ी ऐप इंटरफ़ेस",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Workflow और Metadata सुधार"
+    },
+    {
+      "type": "paragraph",
+      "content": "ऐप अब आपकी नई फ़िल्म roll बनते ही सीधे उसमें जाता है, आपके workflow को सुव्यवस्थित करता है। पूरे ऐप में labels को बेहतर पठनीयता के लिए परिष्कृत किया गया है। कस्टम sequences अब स्वचालित रूप से min/max aperture मान भरती हैं, जो Mac पर metadata पुनः एकीकरण के लिए विशेष रूप से उपयोगी है। हमने slider open के साथ शॉट कैप्चर करते समय recorder में motion समस्याओं को भी ठीक किया है और पूर्ण recorder दृश्य में मान initialization समस्याओं को सुधारा है।"
+    }
+  ],
+  "improvements": [
+    "Apple Larger Text पहुँच-योग्यता फ़ीचर के लिए समर्थन जोड़ा गया",
+    "Dark Interface उपस्थिति के लिए समर्थन जोड़ा गया",
+    "Differentiate Without Color Alone के लिए समर्थन जोड़ा गया",
+    "Sufficient Contrast के लिए समर्थन जोड़ा गया",
+    "Reduced Motion के लिए समर्थन जोड़ा गया",
+    "तेज़ workflow के लिए निर्माण के बाद सीधे नई फ़िल्म रोल्स में जाएं",
+    "पूरे ऐप में बेहतर label स्पष्टता",
+    "कस्टम sequences का उपयोग करते समय min/max aperture की स्वचालित भरावट"
+  ],
+  "fixes": [
+    {
+      "title": "Recorder Motion समस्या",
+      "description": "Slider open के साथ एक शॉट कैप्चर करने पर recorder में motion समस्या को ठीक किया।"
+    },
+    {
+      "title": "Recorder मान Initialization",
+      "description": "पूर्ण दृश्य में recorder खोलते समय मान ठीक से initialize नहीं होने की समस्या को ठीक किया।"
+    }
+  ],
+  "patches": [
+    {
+      "version": "1.7.1",
+      "description": "चयन सूचियों में अनावश्यक aperture जानकारी दिखाने वाले lens प्रदर्शन को ठीक किया। जब editing अक्षम थी तब frames editable होने को ठीक किया।"
+    }
+  ],
+  "meta_title": "पूर्ण पहुँच-योग्यता समर्थन और Recording सुधार · Frames",
+  "meta_description": "यह अपडेट recording workflow और metadata हैंडलिंग में सुधार के साथ व्यापक Apple पहुँच-योग्यता समर्थन लाता है, जिससे Frames अधिक..."
+}

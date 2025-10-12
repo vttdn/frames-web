@@ -1,0 +1,55 @@
+{
+  "version": "1.5.0",
+  "version_short": "1.5",
+  "url_slug": "1-5-ios",
+  "platform": "ios",
+  "release_date": "2025-09-03T10:00:00.000Z",
+  "title": "नए फ़िल्म Stocks, पुनः डिज़ाइन की गई Aperture प्रणाली और Lens स्विचिंग",
+  "meta_title": "नए फ़िल्म Stocks, पुनः डिज़ाइन की गई Aperture प्रणाली और Lens स्विचिंग · Frames",
+  "meta_description": "Harman Phoenix II और नए फ़िल्म stocks के साथ प्रति lens कस्टम aperture sequences। तेज़, अधिक सटीक एनालॉग लॉगिंग के लिए recorder से सीधे lenses स्विच करें।",
+  "summary": "यह अपडेट नए emulsions के साथ फ़िल्म stock लाइब्रेरी का विस्तार करता है, कस्टम f-stop sequences के साथ aperture प्रबंधन को पूरी तरह से पुनः डिज़ाइन करता है, और recorder से सीधे lenses स्विच करने की क्षमता जोड़ता है।",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "विस्तारित फ़िल्म Stock लाइब्रेरी"
+    },
+    {
+      "type": "paragraph",
+      "content": "फ़िल्म stock सूची में अब Harman Phoenix II, Lucky Color 200, Leica Monopan 50 और कई अन्य लोकप्रिय emulsions शामिल हैं। चाहे आप प्रयोगात्मक color films या classic black and white stocks शूट कर रहे हों, Frames अधिक सटीक लॉगिंग के लिए फ़िल्म प्रकारों की एक व्यापक श्रृंखला का समर्थन करता है।"
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/{{ lang }}/changelog/frames-1.5.0-1.png",
+      "image_2x": "/lib/img/{{ lang }}/changelog/frames-1.5.0-1@2x.png",
+      "alt": "कस्टम aperture sequences और विस्तारित फ़िल्म stock लाइब्रेरी के साथ Frames एनालॉग फ़ोटोग्राफ़ी ऐप",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "पुनः डिज़ाइन किया गया Aperture प्रबंधन"
+    },
+    {
+      "type": "paragraph",
+      "content": "Aperture नियंत्रण को पूरी तरह से पुनर्निर्मित किया गया है। अब आप प्रति lens कस्टम f-stop sequences परिभाषित कर सकते हैं, केवल वे apertures दिखा रहे हैं जो आपकी lens वास्तव में है। Recorder slider अब चयनित aperture मान पर ठीक से केंद्रित है। अपने workflow को छोड़े बिना recorder से सीधे lenses स्विच करें, और zoom lenses या perspective control समायोजन के लिए More बटन के माध्यम से focal length सेट करें।"
+    }
+  ],
+  "improvements": [
+    "Harman Phoenix II, Lucky Color 200, Leica Monopan 50 और अधिक के साथ विस्तारित फ़िल्म stock लाइब्रेरी",
+    "पूरी तरह से पुनः डिज़ाइन की गई aperture प्रबंधन प्रणाली",
+    "प्रति lens कस्टम f-stop sequences जोड़ी गईं",
+    "Recorder से सीधे lens स्विचिंग जोड़ी गई",
+    "Recorder में More बटन के माध्यम से अब focal length समायोजित की जा सकती है",
+    "बेहतर स्थानीयकरण संगति",
+    "पूरे में मामूली performance वृद्धि"
+  ],
+  "fixes": [
+    {
+      "title": "Aperture Slider केंद्रीकरण",
+      "description": "एक समस्या को ठीक किया जहाँ recorder में aperture slider चयनित मान पर ठीक से केंद्रित नहीं था।"
+    }
+  ],
+  "patches": []
+}

@@ -1,0 +1,84 @@
+{
+  "version": "1.12.0",
+  "version_short": "1.12",
+  "url_slug": "1-12-ios",
+  "platform": "ios",
+  "release_date": "2025-10-03T10:00:00.000Z",
+  "title": "Danish, Finnish, Norwegian, Vietnamese और 4 अधिक भाषाएं",
+  "summary": "यह प्रमुख स्थानीयकरण रिलीज़ Frames को दुनिया भर के और भी अधिक फ़िल्म फ़ोटोग्राफ़रों तक लाती है, जिसमें Danish, Finnish, Norwegian, Vietnamese, Traditional Chinese, Indonesian, Hong Kong Chinese और Greek के लिए समर्थन जोड़ा गया है, जबकि बेहतर स्पष्टता और संगति के लिए सभी मौजूदा भाषाओं में अनुवादों को परिष्कृत किया गया है।",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "यूरोप और एशिया में आठ नई भाषाएं"
+    },
+    {
+      "type": "paragraph",
+      "content": "Frames अब Danish, Finnish, Norwegian, Vietnamese, Traditional Chinese, Indonesian, Hong Kong Chinese और Greek का समर्थन करता है। प्रत्येक अनुवाद को सावधानीपूर्वक तैयार किया गया है ताकि यह सुनिश्चित किया जा सके कि camera सेटिंग्स, film stocks और metadata प्रबंधन के लिए तकनीकी सटीकता बनाए रखते हुए फ़िल्म फ़ोटोग्राफ़ी शब्दावली प्राकृतिक महसूस हो।"
+    },
+    {
+      "type": "list",
+      "items": [
+        {
+          "title": "Nordic भाषाएं",
+          "description": "Scandinavian फ़ोटोग्राफ़रों के लिए मूल शब्दावली के साथ Danish (Dansk), Finnish (Suomi) और Norwegian (Norsk)।"
+        },
+        {
+          "title": "एशियाई भाषाएं",
+          "description": "Vietnamese (Tiếng Việt), Traditional Chinese (繁體中文), Indonesian (Bahasa Indonesia) और Hong Kong Chinese।"
+        },
+        {
+          "title": "Greek (Ελληνικά)",
+          "description": "ग्रीस और साइप्रस के फ़ोटोग्राफ़रों के लिए संपूर्ण अनुवाद।"
+        }
+      ]
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.12.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.12.0-1@2x.png",
+      "alt": "Nordic और एशियाई भाषाओं के लिए बहुभाषी समर्थन के साथ Frames एनालॉग फ़ोटोग्राफ़ी ऐप",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "क्षेत्रीय प्राथमिकताएं और अनुवाद परिष्करण"
+    },
+    {
+      "type": "paragraph",
+      "content": "Traditional Chinese और Hong Kong Chinese के लिए, हमने तारीख formats और शब्दावली के लिए क्षेत्रीय प्राथमिकताओं को अनुकूलित किया है। Nordic भाषाएं इस बात से संरेखित हैं कि इन देशों में फ़िल्म फ़ोटोग्राफ़र अपनी कला के बारे में कैसे चर्चा करते हैं। हमने समुदाय की प्रतिक्रिया के आधार पर Spanish, French, German, Italian, Portuguese, Japanese, Korean, Russian, Thai, Polish, Turkish, Swedish और Hindi में मौजूदा अनुवादों को भी परिष्कृत किया है।"
+    },
+    {
+      "type": "paragraph",
+      "content": "Frames स्वचालित रूप से आपकी iOS भाषा प्राथमिकता अपनाता है। सभी मौजूदा फ़िल्म रोल्स और camera gear बरकरार रहते हैं। इंटरफ़ेस बिना डेटा migration या पुनः-प्रविष्टि के बस अनुकूलित हो जाता है।"
+    }
+  ],
+  "improvements": [
+    "Denmark की फ़िल्म फ़ोटोग्राफ़ी समुदाय के लिए Danish (Dansk) स्थानीयकरण जोड़ा गया",
+    "मूल फ़ोटोग्राफ़ी शब्दावली के साथ Finnish (Suomi) अनुवाद जोड़ा गया",
+    "Scandinavian फ़ोटोग्राफ़रों के लिए Norwegian (Norsk) समर्थन जोड़ा गया",
+    "दक्षिण पूर्व एशिया के एनालॉग समुदाय के लिए Vietnamese (Tiếng Việt) जोड़ा गया",
+    "Taiwan, Hong Kong और Macau के लिए Traditional Chinese (繁體中文) जोड़ा गया",
+    "Indonesian (Bahasa Indonesia) स्थानीयकरण जोड़ा गया",
+    "क्षेत्र-विशिष्ट प्राथमिकताओं के साथ Hong Kong Chinese जोड़ा गया",
+    "ग्रीस और साइप्रस के लिए Greek (Ελληνικά) अनुवाद जोड़ा गया",
+    "बेहतर स्पष्टता और प्राकृतिक वाक्यांश के लिए सभी मौजूदा भाषा अनुवादों को परिष्कृत किया गया",
+    "फ़ोटोग्राफ़ी-विशिष्ट फ़ील्ड्स में बेहतर तकनीकी शब्दावली संगति",
+    "क्षेत्रीय प्राथमिकताओं के लिए बेहतर तारीख format और measurement unit स्थानीयकरण"
+  ],
+  "fixes": [
+    {
+      "title": "अनुवाद संगति",
+      "description": "समान फ़ीचर्स में शब्दावली को मानकीकृत किया ताकि पूरे ऐप में संगत भाषा सुनिश्चित की जा सके।"
+    },
+    {
+      "title": "Layout अनुकूलन",
+      "description": "बिना truncation या overflow के लंबे अनुवादों को समायोजित करने के लिए dynamic text आकार में सुधार किया।"
+    }
+  ],
+  "patches": [],
+  "meta_title": "Danish, Finnish, Norwegian, Vietnamese और 4 अधिक भाषाएं · Frames",
+  "meta_description": "यह प्रमुख स्थानीयकरण रिलीज़ Frames को दुनिया भर के और भी अधिक फ़िल्म फ़ोटोग्राफ़रों तक लाती है, जिसमें Danish, Finnish, Norwegian, Vietnamese के लिए समर्थन जोड़ा गया है..."
+}
