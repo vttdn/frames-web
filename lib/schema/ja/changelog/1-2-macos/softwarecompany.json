@@ -1,0 +1,16 @@
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareCompany",
+  "@id": "https://withframes.com/#softwarecompany",
+  "name": "Frames",
+  "url": "https://withframes.com/",
+  "description": "Framesはフィルム写真アプリです。すべてのショットを記録し、カメラ設定を管理、ロールを整理、iPhoneとMacでEXIFメタデータを保存できます。",
+  "logo": "https://withframes.com/apple-touch-icon.png",
+  "parentOrganization": {
+    "@id": "https://withframes.com/#organization"
+  },
+  "founder": {
+    "@type": "Person",
+    "name": "Vincent Tantardini"
+  }
+}

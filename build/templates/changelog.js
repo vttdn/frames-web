@@ -23,7 +23,8 @@ document.addEventListener('DOMContentLoaded', function () {
         schemaFiles = [
             schemaBasePath + '/blogposting.json',
             schemaBasePath + '/breadcrumb.json',
-            schemaBasePath + '/organization.json'
+            schemaBasePath + '/organization.json',
+            schemaBasePath + '/softwarecompany.json'
         ];
     } else if (isIndexPage) {
         // Check if we're on a paginated page
@@ -34,7 +35,8 @@ document.addEventListener('DOMContentLoaded', function () {
 
         schemaFiles = [
             schemaBasePath + '/breadcrumb.json',
-            schemaBasePath + '/organization.json'
+            schemaBasePath + '/organization.json',
+            schemaBasePath + '/softwarecompany.json'
         ];
 
         // Blog schema only on first page

@@ -522,11 +522,12 @@ def main():
                 schema_json = generate_schema(schema_template, lang_code, global_config, locale_data)
                 save_schema(schema_json, schema_template, lang_code)
 
-            # Generate Organization and WebPage schemas for homepage and privacy
+            # Generate Organization, SoftwareCompany and WebPage schemas for homepage and privacy
             organization_context = {
                 'global_urls': global_config['urls'],
                 'appstore_url': locale_data['urls']['appstore_ios'],
-                'macappstore_url': locale_data['urls']['appstore_macos']
+                'macappstore_url': locale_data['urls']['appstore_macos'],
+                'seo_meta_description': locale_data['meta']['description']
             }
             org_env = Environment(
                 loader=FileSystemLoader(TEMPLATES_DIR),
@@ -535,8 +536,11 @@ def main():
                 lstrip_blocks=True
             )
             org_template = org_env.get_template('organization.json')
+            company_template = org_env.get_template('softwarecompany.json')
             organization_json = org_template.render(organization_context)
+            software_json = company_template.render(organization_context)
             save_schema(organization_json, 'organization.json', lang_code)
+            save_schema(software_json, 'softwarecompany.json', lang_code)
 
             # WebPage schema for homepage
             homepage_webpage_context = {

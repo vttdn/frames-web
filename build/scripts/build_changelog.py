@@ -301,10 +301,13 @@ def generate_changelog_index(lang_code, global_config, locale_data, entries, pag
     org_context = {
         'global_urls': global_config['urls'],
         'appstore_url': locale_data['urls']['appstore_ios'],
-        'macappstore_url': locale_data['urls']['appstore_macos']
+        'macappstore_url': locale_data['urls']['appstore_macos'],
+        'seo_meta_description': locale_data['meta']['description']
     }
     organization_schema = generate_schema('organization.json', org_context)
+    softwarecompany_schema = generate_schema('softwarecompany.json', org_context)
     save_schema(organization_schema, 'organization.json', lang_code, 'changelog-index', page_number)
+    save_schema(softwarecompany_schema, 'softwarecompany.json', lang_code, 'changelog-index', page_number)
 
     # Prepare template context
     context = {
@@ -392,10 +395,13 @@ def generate_changelog_entry(lang_code, global_config, locale_data, entry, prev_
     org_context = {
         'global_urls': global_config['urls'],
         'appstore_url': locale_data['urls']['appstore_ios'],
-        'macappstore_url': locale_data['urls']['appstore_macos']
+        'macappstore_url': locale_data['urls']['appstore_macos'],
+        'seo_meta_description': locale_data['meta']['description']
     }
     organization_schema = generate_schema('organization.json', org_context)
+    softwarecompany_schema = generate_schema('softwarecompany.json', org_context)
     save_schema(organization_schema, 'organization.json', lang_code, 'changelog-entry', url_slug=entry['url_slug'])
+    save_schema(softwarecompany_schema, 'softwarecompany.json', lang_code, 'changelog-entry', url_slug=entry['url_slug'])
 
     # Prepare template context
     context = {

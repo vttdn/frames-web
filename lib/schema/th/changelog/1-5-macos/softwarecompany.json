@@ -1,0 +1,16 @@
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareCompany",
+  "@id": "https://withframes.com/#softwarecompany",
+  "name": "Frames",
+  "url": "https://withframes.com/",
+  "description": "Frames เป็นแอปถ่ายภาพฟิล์มสำหรับช่างภาพอนาล็อก บันทึกทุกภาพ ติดตามการตั้งค่ากล้อง จัดระเบียบฟิล์ม และบันทึกเมตาดาตา EXIF บน iPhone และ Mac",
+  "logo": "https://withframes.com/apple-touch-icon.png",
+  "parentOrganization": {
+    "@id": "https://withframes.com/#organization"
+  },
+  "founder": {
+    "@type": "Person",
+    "name": "Vincent Tantardini"
+  }
+}

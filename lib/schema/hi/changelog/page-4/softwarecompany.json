@@ -1,0 +1,16 @@
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareCompany",
+  "@id": "https://withframes.com/#softwarecompany",
+  "name": "Frames",
+  "url": "https://withframes.com/",
+  "description": "Frames फ़िल्म फ़ोटोग्राफ़रों के लिए ऐप है। हर शॉट लॉग करें, कैमरा सेटिंग्स ट्रैक करें, रोल्स व्यवस्थित करें और iPhone व Mac पर EXIF मेटाडेटा सहेजें।",
+  "logo": "https://withframes.com/apple-touch-icon.png",
+  "parentOrganization": {
+    "@id": "https://withframes.com/#organization"
+  },
+  "founder": {
+    "@type": "Person",
+    "name": "Vincent Tantardini"
+  }
+}

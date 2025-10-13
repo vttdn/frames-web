@@ -11,6 +11,7 @@ document.addEventListener('DOMContentLoaded', function () {
     '/lib/schema/{{ lang }}/frames.json',
     '/lib/schema/{{ lang }}/faq.json',
     '/lib/schema/{{ lang }}/organization.json',
+    '/lib/schema/{{ lang }}/softwarecompany.json',
     '/lib/schema/{{ lang }}/webpage-homepage.json'
   ];
 
@@ -31,41 +32,6 @@ document.addEventListener('DOMContentLoaded', function () {
       .catch(error => {
         console.error('Error injecting JSON-LD:', error);
       });
-  });
-});
-
-
-//
-// Share Overlay — open/close modal with ARIA + scroll lock
-//
-
-// Core JavaScript for Frames website
-// Language: en
-
-//
-// Json-LD Injection
-//
-document.addEventListener('DOMContentLoaded', function () {
-  const schemaFiles = [
-    '/lib/schema/en/frames.json',
-    '/lib/schema/en/faq.json',
-    '/lib/schema/en/organization.json',
-    '/lib/schema/en/webpage-homepage.json'
-  ];
-
-  schemaFiles.forEach((url) => {
-    fetch(url)
-      .then(response => {
-        if (!response.ok) throw new Error(`Failed to fetch ${url}: ${response.status}`);
-        return response.json();
-      })
-      .then(jsonData => {
-        const script = document.createElement('script');
-        script.type = 'application/ld+json';
-        script.textContent = JSON.stringify(jsonData);
-        document.head.appendChild(script);
-      })
-      .catch(error => console.error('Error injecting JSON-LD:', error));
   });
 });
 
@@ -240,20 +206,20 @@ document.addEventListener('DOMContentLoaded', () => {
   // YOUTUBE Modal
   //
   const playBtn = document.getElementById('youtube-video-toggle');
-  if (playBtn) {
-    playBtn.dataset.overlayTrigger = 'youtube';
-    playBtn.addEventListener('click', () => {
-      const videoId = playBtn.dataset.videoId;
-      if (!videoId) return;
+if (playBtn) {
+  playBtn.dataset.overlayTrigger = 'youtube';
+  playBtn.addEventListener('click', () => {
+    const videoId = playBtn.dataset.videoId;
+    if (!videoId) return;
 
-      const iframeHTML = `
+    const iframeHTML = `
       <iframe src="https://www.youtube-nocookie.com/embed/${videoId}?autoplay=1&mute=1&rel=0&modestbranding=1"
               title="YouTube video player"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen"
               referrerpolicy="no-referrer-when-downgrade"
               style="position:absolute;inset:0;width:100%;height:100%;border:0;"></iframe>`;
 
-      const contentHTML = `
+    const contentHTML = `
       <div class="modal-header flex flex-justify-between flex-center">
             <h3>{{ locale_data.actions.watch }}</h3>
         <button class="overlay-button-close flex flex-center flex-justify-center"
@@ -270,24 +236,29 @@ document.addEventListener('DOMContentLoaded', () => {
         ${iframeHTML}
       </div>`;
 
-      // Open overlay
-      openOverlay({
-        type: 'youtube',
-        titleText: '{{ locale_data.hero.play_button_aria_label }}',
-        contentHTML
-      });
-
-      // Add 'large' class to modal container for YouTube
-      modalContainer.classList.add('large');
-
-      // Close button
-      modalContainer.querySelector('.overlay-button-close')
-        .addEventListener('click', () => {
-          modalContainer.classList.remove('large'); // remove class on close
-          closeOverlay();
-        });
+    // Open overlay
+    openOverlay({
+      type: 'youtube',
+      titleText: '{{ locale_data.hero.play_button_aria_label }}',
+      contentHTML
     });
-  }
+
+    // Add 'large' class to modal container for YouTube
+    modalContainer.classList.add('large');
+
+    // Close button
+    modalContainer.querySelector('.overlay-button-close')
+      .addEventListener('click', () => {
+        closeOverlay();
+
+        // Remove 'large' class after 400ms
+        setTimeout(() => {
+          modalContainer.classList.remove('large');
+        }, 350);
+      });
+  });
+}
+
 });
 
 
