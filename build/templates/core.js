@@ -139,7 +139,7 @@ document.addEventListener('DOMContentLoaded', () => {
           <div class="modal-header flex flex-justify-between flex-center">
             <h3>{{ locale_data.header.buttons.share }}</h3>
             <button class="overlay-button-close flex flex-center flex-justify-center"
-                    aria-label="Close">
+                    aria-label="{{ locale_data.actions.close }}">
               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                    viewBox="0 0 24 24" fill="none" stroke="currentColor"
                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="size-4">
@@ -192,7 +192,7 @@ document.addEventListener('DOMContentLoaded', () => {
       const contentHTML = `
       <div class="wrapper">
         <button class="overlay-button-close flex flex-center flex-justify-center"
-                aria-label="{{ locale_data.mobile_menu.close_aria_label }}">
+                aria-label="{{ locale_data.actions.close }}">
             <img src="/lib/img/icn/xmark.svg" alt="x Mark Icon" width="32" height="32" loading="lazy" aria-hidden="true">
         </button>
 
@@ -255,9 +255,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
       const contentHTML = `
       <div class="modal-header flex flex-justify-between flex-center">
-            <h3>Preview</h3>
+            <h3>{{ locale_data.actions.watch }}</h3>
         <button class="overlay-button-close flex flex-center flex-justify-center"
-                aria-label="Close">
+                aria-label="{{ locale_data.actions.close }}">
           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
               viewBox="0 0 24 24" fill="none" stroke="currentColor"
               stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="size-4">
