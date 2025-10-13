@@ -1,0 +1,43 @@
+{
+  "version": "1.4.0",
+  "version_short": "1.4",
+  "url_slug": "1-4-ios",
+  "platform": "ios",
+  "release_date": "2025-08-20T10:00:00.000Z",
+  "title": "Suport pentru înregistrare filtre",
+  "meta_title": "Suport pentru înregistrare filtre · Frames",
+  "meta_description": "Înregistrează filtrele UV, ND, CPL și altele pentru fiecare cadru. Documentare completă analogică cu metadate cuprinzătoare care se sincronizează cu Mac pentru integrare completă EXIF.",
+  "summary": "Documentează fluxul complet de lucru analogic prin înregistrarea filtrelor alături de cameră, obiectiv și film. Acum poți înregistra filtrele UV, ND, CPL și altele folosite pentru fiecare fotografie.",
+  "sections": [
+    {
+      "type": "paragraph",
+      "content": "Filtrele fac acum parte din fluxul tău de înregistrare pe film. Înregistrează ce filtre ai folosit pentru fiecare cadru, inclusiv UV, ND, CPL și altele. Aceasta completează documentația analogică prin capturarea fiecărui element care afectează imaginea finală, de la corpul camerei și obiectiv până la filmul și filtrele. Datele de filtre sunt incluse în toate exporturile și se sincronizează cu aplicația Mac pentru păstrare cuprinzătoare a înregistrărilor."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/{{ lang }}/changelog/frames-1.4.0-1.png",
+      "image_2x": "/lib/img/{{ lang }}/changelog/frames-1.4.0-1@2x.png",
+      "alt": "Aplicația Frames arătând suport pentru înregistrarea filtrelor UV, ND și CPL",
+      "width": "400",
+      "height": "300"
+    }
+  ],
+  "improvements": [
+    "Adăugat suport pentru înregistrarea filtrelor (UV, ND, CPL și altele)",
+    "Filtrele incluse în toate formatele de export",
+    "Datele de filtre se sincronizează cu aplicația Mac",
+    "Îmbunătățiri minore de performanță",
+    "Îmbunătățiri generale de stabilitate"
+  ],
+  "fixes": [],
+  "patches": [
+    {
+      "version": "1.4.1",
+      "description": "Remediat o problemă unde editarea unui film într-un subdosar îl muta înapoi în dosarul rădăcină."
+    },
+    {
+      "version": "1.4.2",
+      "description": "Traduceri rafinate pentru consistență cu aplicația Mac. Remediat afișarea țării în căutarea locațiilor. Adăugate valori implicite pentru viteza obturatorului și diafragmă la crearea filmelor."
+    }
+  ]
+}

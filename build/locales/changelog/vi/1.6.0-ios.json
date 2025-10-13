@@ -1,0 +1,53 @@
+{
+  "version": "1.6.0",
+  "version_short": "1.6",
+  "url_slug": "1-6-ios",
+  "platform": "ios",
+  "release_date": "2025-09-05T10:00:00.000Z",
+  "title": "Chuỗi tốc độ màn trập tùy chỉnh & Cải thiện bản đồ",
+  "summary": "Đặt chuỗi tốc độ màn trập tùy chỉnh cho mỗi máy ảnh, chỉ hiển thị các tốc độ mà máy ảnh của bạn thực sự hỗ trợ. Bản cập nhật này cũng mang đến xử lý bản đồ được cải thiện, tùy chọn tốc độ màn trập bổ sung và chỉ báo tiến trình xuất.",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Điều khiển tốc độ màn trập tùy chỉnh"
+    },
+    {
+      "type": "paragraph",
+      "content": "Cấu hình tốc độ màn trập nào xuất hiện trong thanh trượt bộ ghi và cài đặt khung hình trên cơ sở từng máy ảnh. Nếu máy ảnh của bạn chỉ có tốc độ từ 1/1000 đến 1 giây, bạn có thể ẩn các tùy chọn phạm vi mở rộng. Điều này giúp giao diện bộ ghi của bạn sạch sẽ và ngăn chặn việc vô tình ghi lại các tốc độ mà máy ảnh của bạn không hỗ trợ. Chuỗi tùy chỉnh đồng bộ với ứng dụng Mac để có siêu dữ liệu nhất quán trên các thiết bị."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/{{ lang }}/changelog/frames-1.6.0-1.png",
+      "image_2x": "/lib/img/{{ lang }}/changelog/frames-1.6.0-1@2x.png",
+      "alt": "Ứng dụng nhiếp ảnh phim Frames hiển thị chuỗi tốc độ màn trập tùy chỉnh và cải thiện bản đồ",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Cải thiện bản đồ và tính năng xuất"
+    },
+    {
+      "type": "paragraph",
+      "content": "Chế độ xem bản đồ hiện xử lý tọa độ đáng tin cậy hơn với hỗ trợ cử chỉ được cải thiện để kéo và phóng to. Chúng tôi đã thêm các tốc độ màn trập thường được sử dụng (1/160, 1/80, 1/40, 1/20) trước đây còn thiếu. Các thao tác xuất hiện hiển thị chỉ báo tiến trình để bạn biết khi nào tệp của bạn đang được tạo trước khi bảng chia sẻ xuất hiện."
+    }
+  ],
+  "improvements": [
+    "Thêm chuỗi tốc độ màn trập tùy chỉnh cho mỗi máy ảnh",
+    "Cải thiện xử lý tọa độ bản đồ và hỗ trợ cử chỉ",
+    "Thêm các tốc độ màn trập còn thiếu: 1/160, 1/80, 1/40 và 1/20",
+    "Thêm chỉ báo tiến trình xuất trước khi bảng chia sẻ xuất hiện",
+    "Tăng cường độ chính xác thanh trượt trong chế độ xem bộ ghi"
+  ],
+  "fixes": [
+    {
+      "title": "Độ chính xác thanh trượt bộ ghi",
+      "description": "Khắc phục thanh trượt bộ ghi để khớp cả giá trị chính xác và vị trí trực quan."
+    }
+  ],
+  "patches": [],
+  "meta_title": "Chuỗi tốc độ màn trập tùy chỉnh & Cải thiện bản đồ · Frames",
+  "meta_description": "Đặt chuỗi tốc độ màn trập tùy chỉnh cho mỗi máy ảnh, chỉ hiển thị các tốc độ mà máy ảnh của bạn thực sự hỗ trợ."
+}

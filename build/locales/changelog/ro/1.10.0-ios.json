@@ -1,0 +1,68 @@
+{
+  "version": "1.10.0",
+  "version_short": "1.10",
+  "url_slug": "1-10-ios",
+  "platform": "ios",
+  "release_date": "2025-09-23T10:00:00.000Z",
+  "title": "Îmbunătățiri majore de performanță și stabilitate",
+  "summary": "Această versiune aduce îmbunătățiri semnificative sub capotă care fac Frames mai rapid, mai fiabil și mai bine pregătit pentru funcționalități viitoare. Optimizările de performanță ating fiecare parte a aplicației, de la înregistrarea cadrelor la gestionarea filmelor.",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Fundație pentru viitor"
+    },
+    {
+      "type": "paragraph",
+      "content": "Am reconstruit părți esențiale ale Frames pentru a îmbunătăți performanța și stabilitatea. Editarea cadrelor se simte mai receptivă, navigarea curge mai fluid și gestionarea colecțiilor mari de filme este mai fiabilă. Aceste îmbunătățiri arhitecturale stabilesc și fundamentul pentru funcționalitățile viitoare în timp ce asigură că Frames rămâne rapid și stabil pe măsură ce biblioteca ta crește."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.10.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.10.0-1@2x.png",
+      "alt": "Aplicația Frames cu performanță îmbunătățită și viteză optimizată de înregistrare",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Mai fluid în general"
+    },
+    {
+      "type": "paragraph",
+      "content": "Vei observa timpi de încărcare mai rapizi la deschiderea filmelor și răspunsuri mai rapide la editarea metadatelor cadrelor. Tranzițiile între ecrane se simt mai fluide, iar aplicația menține performanță mai bună chiar și cu colecții extinse de echipament și sute de cadre. Îmbunătățirile sunt cel mai vizibile când lucrezi cu mai multe filme sau comuți frecvent între recorder și vizualizările bibliotecii."
+    }
+  ],
+  "improvements": [
+    "Performanță și reactivitate semnificativ îmbunătățită a aplicației",
+    "Editare mai rapidă a cadrelor și actualizări metadate",
+    "Fluiditate sporită a navigării în întreaga aplicație",
+    "Stabilitate mai bună la gestionarea colecțiilor mari de filme",
+    "Performanță optimizată a listei de echipament cu biblioteci extinse de camere și obiective",
+    "Gestionare îmbunătățită a memoriei pentru performanță susținută",
+    "Arhitectură cod mai curată pentru dezvoltarea funcționalităților viitoare"
+  ],
+  "fixes": [
+    {
+      "title": "Salvare imagine referință",
+      "description": "Remediat o problemă unde imaginile de referință nu erau întotdeauna salvate corect când atașate la cadre."
+    }
+  ],
+  "patches": [
+    {
+      "version": "1.10.1",
+      "description": "Răspuns mai rapid al recorderului de cadre și gestionare îmbunătățită a locației pentru înregistrare mai precisă."
+    },
+    {
+      "version": "1.10.2",
+      "description": "Fiabilitate îmbunătățită a exportului cu gestionarea caracterelor speciale. Performanță sporită a vizualizării locației și hărții cu exporturi mai rapide."
+    },
+    {
+      "version": "1.10.3",
+      "description": "Diverse îmbunătățiri UI și rafinări vizuale în întreaga interfață."
+    }
+  ],
+  "meta_title": "Îmbunătățiri majore de performanță și stabilitate · Frames",
+  "meta_description": "Această versiune aduce îmbunătățiri semnificative sub capotă care fac Frames mai rapid, mai fiabil și mai bine pregătit pentru funcționalități viitoare."
+}

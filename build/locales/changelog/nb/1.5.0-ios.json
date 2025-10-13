@@ -1,0 +1,55 @@
+{
+  "version": "1.5.0",
+  "version_short": "1.5",
+  "url_slug": "1-5-ios",
+  "platform": "ios",
+  "release_date": "2025-09-03T10:00:00.000Z",
+  "title": "Nye filmtyper, redesignet blendersystem og objektivbytte",
+  "meta_title": "Nye filmtyper, redesignet blendersystem og objektivbytte · Frames",
+  "meta_description": "Tilpassede blendersekvenser per objektiv med Harman Phoenix II og nye filmtyper. Bytt objektiv direkte fra opptakeren for raskere, mer nøyaktig analog logging.",
+  "summary": "Denne oppdateringen utvider filmbiblioteket med nye emulsjoner, redesigner fullstendig blenderhåndtering med tilpassede blendertrinn-sekvenser, og legger til muligheten for å bytte objektiv direkte fra opptakeren.",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Utvidet filmbibliotek"
+    },
+    {
+      "type": "paragraph",
+      "content": "Filmtyp-listen inkluderer nå Harman Phoenix II, Lucky Color 200, Leica Monopan 50 og flere andre populære emulsjoner. Enten du fotograferer eksperimentelle fargefilmer eller klassiske svart-hvitt-filmer, støtter Frames et bredere utvalg av filmtyper for mer nøyaktig logging."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/{{ lang }}/changelog/frames-1.5.0-1.png",
+      "image_2x": "/lib/img/{{ lang }}/changelog/frames-1.5.0-1@2x.png",
+      "alt": "Frames analogfotografiapp med tilpassede blendersekvenser og utvidet filmbibliotek",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Redesignet blenderhåndtering"
+    },
+    {
+      "type": "paragraph",
+      "content": "Blenderkontroll er fullstendig ombygget. Du kan nå definere tilpassede blendertrinn-sekvenser per objektiv, og vise bare de blenderåpningene objektivet faktisk har. Opptakerens glidebryter er nå riktig sentrert på valgt blenderverdi. Bytt objektiv direkte fra opptakeren uten å forlate arbeidsflyten din, og sett brennvidde via Mer-knappen for zoomobjektiver eller perspektivkontrolljusteringer."
+    }
+  ],
+  "improvements": [
+    "Utvidet filmbibliotek med Harman Phoenix II, Lucky Color 200, Leica Monopan 50 og mer",
+    "Fullstendig redesignet blenderhåndteringssystem",
+    "Lagt til tilpassede blendertrinn-sekvenser per objektiv",
+    "Lagt til objektivbytte direkte fra opptaker",
+    "Brennvidde kan nå justeres via Mer-knappen i opptakeren",
+    "Forbedret lokaliseringskonsistens",
+    "Mindre ytelsesforbedringer i hele appen"
+  ],
+  "fixes": [
+    {
+      "title": "Blenderglidebrytersentrering",
+      "description": "Fikset et problem der blenderglidebryteren i opptakeren ikke var riktig sentrert på den valgte verdien."
+    }
+  ],
+  "patches": []
+}

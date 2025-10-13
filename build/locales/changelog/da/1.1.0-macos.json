@@ -1,0 +1,37 @@
+{
+  "version": "1.1.0",
+  "version_short": "1.1",
+  "url_slug": "1-1-macos",
+  "platform": "macos",
+  "release_date": "2025-06-27T10:00:00.000Z",
+  "title": "TIFF-filsupport",
+  "meta_title": "TIFF-filsupport · Frames",
+  "meta_description": "Importer og eksporter TIFF-filer med fuld metadataintegration. Professionel formatsupport til scanninger af høj kvalitet med problemfri EXIF-integrationsarbejdsgang.",
+  "summary": "Du kan nu importere og eksportere TIFF-filer med fuld metadataintegration, hvilket udvider formatsupport ud over JPEG til professionelle arbejdsgange.",
+  "sections": [
+    {
+      "type": "paragraph",
+      "content": "TIFF-support ankommer til Frames til macOS. Importer TIFF-scanninger og integrer dine filmrullemetadata med samme arbejdsgang, som du bruger til JPEG-filer. TIFF-filer fungerer problemfrit i metadatagenintegrationsprocessen og sikrer, at dine analoge fotografinotater følger med dine billeder uanset format."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-mac-1.1.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-mac-1.1.0-1@2x.png",
+      "alt": "Frames macOS-app med TIFF-filsupport til professionelle analoge fotografiarbejdsgange",
+      "width": "400",
+      "height": "300"
+    }
+  ],
+  "improvements": [
+    "Tilføjet TIFF-filimportsupport",
+    "Tilføjet TIFF-fileksport med fuld metadataintegration",
+    "TIFF-filer fungerer problemfrit med eksisterende metadatagenintegrationsarbejdsgang"
+  ],
+  "fixes": [],
+  "patches": [
+    {
+      "version": "1.1.1",
+      "description": "Rettet et problem, der kunne forhindre .frames-filer i at indlæse i visse situationer."
+    }
+  ]
+}

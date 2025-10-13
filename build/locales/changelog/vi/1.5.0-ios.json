@@ -1,0 +1,55 @@
+{
+  "version": "1.5.0",
+  "version_short": "1.5",
+  "url_slug": "1-5-ios",
+  "platform": "ios",
+  "release_date": "2025-09-03T10:00:00.000Z",
+  "title": "Loại phim mới, Hệ thống khẩu độ được thiết kế lại & Chuyển đổi ống kính",
+  "meta_title": "Loại phim mới, Hệ thống khẩu độ được thiết kế lại & Chuyển đổi ống kính · Frames",
+  "meta_description": "Chuỗi khẩu độ tùy chỉnh cho mỗi ống kính với Harman Phoenix II và các loại phim mới. Chuyển đổi ống kính trực tiếp từ bộ ghi để ghi lại analog nhanh hơn và chính xác hơn.",
+  "summary": "Bản cập nhật này mở rộng thư viện loại phim với các loại mới, thiết kế lại hoàn toàn quản lý khẩu độ với chuỗi f-stop tùy chỉnh và thêm khả năng chuyển đổi ống kính trực tiếp từ bộ ghi.",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Thư viện loại phim được mở rộng"
+    },
+    {
+      "type": "paragraph",
+      "content": "Danh sách loại phim hiện bao gồm Harman Phoenix II, Lucky Color 200, Leica Monopan 50 và một số loại phổ biến khác. Cho dù bạn đang chụp phim màu thử nghiệm hay các loại đen trắng cổ điển, Frames hỗ trợ phạm vi rộng hơn các loại phim để ghi lại chính xác hơn."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/{{ lang }}/changelog/frames-1.5.0-1.png",
+      "image_2x": "/lib/img/{{ lang }}/changelog/frames-1.5.0-1@2x.png",
+      "alt": "Ứng dụng nhiếp ảnh analog Frames với chuỗi khẩu độ tùy chỉnh và thư viện loại phim được mở rộng",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Quản lý khẩu độ được thiết kế lại"
+    },
+    {
+      "type": "paragraph",
+      "content": "Điều khiển khẩu độ đã được xây dựng lại hoàn toàn. Giờ đây bạn có thể xác định chuỗi f-stop tùy chỉnh cho mỗi ống kính, chỉ hiển thị các khẩu độ mà ống kính của bạn thực sự có. Thanh trượt bộ ghi hiện được căn giữa đúng cách trên giá trị khẩu độ đã chọn. Chuyển đổi ống kính trực tiếp từ bộ ghi mà không cần rời khỏi quy trình làm việc của bạn và đặt tiêu cự qua nút Thêm cho ống kính zoom hoặc điều chỉnh điều khiển góc nhìn."
+    }
+  ],
+  "improvements": [
+    "Mở rộng thư viện loại phim với Harman Phoenix II, Lucky Color 200, Leica Monopan 50 và nhiều hơn",
+    "Thiết kế lại hoàn toàn hệ thống quản lý khẩu độ",
+    "Thêm chuỗi f-stop tùy chỉnh cho mỗi ống kính",
+    "Thêm chuyển đổi ống kính trực tiếp từ bộ ghi",
+    "Tiêu cự hiện có thể được điều chỉnh qua nút Thêm trong bộ ghi",
+    "Cải thiện tính nhất quán bản địa hóa",
+    "Cải thiện hiệu suất nhỏ trong toàn bộ"
+  ],
+  "fixes": [
+    {
+      "title": "Căn giữa thanh trượt khẩu độ",
+      "description": "Khắc phục sự cố khiến thanh trượt khẩu độ trong bộ ghi không được căn giữa đúng cách trên giá trị đã chọn."
+    }
+  ],
+  "patches": []
+}

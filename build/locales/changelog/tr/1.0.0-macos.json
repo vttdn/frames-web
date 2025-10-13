@@ -1,0 +1,78 @@
+{
+  "version": "1.0.0",
+  "version_short": "1.0",
+  "url_slug": "1-0-macos",
+  "platform": "macos",
+  "release_date": "2025-04-08T10:00:00.000Z",
+  "title": "macOS için Frames Lansmanı",
+  "meta_title": "macOS için Frames Lansmanı · Frames",
+  "meta_description": "Lightroom, Capture One ve Apple Photos için EXIF desteğiyle taranmış görüntülere film fotoğrafçılığı meta verilerini yerleştirin. iOS kayıt verilerini sorunsuzca entegre edin.",
+  "summary": "Uzun zamandır beklenen macOS eşlik uygulaması, taranmış film görüntülerine sorunsuz meta veri entegrasyonu getiriyor. iOS'tan film rulosu verilerinizi içe aktarın ve JPEG dosyalarına EXIF meta verileri yerleştirin.",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Taranmış Film için Meta Veri Entegrasyonu"
+    },
+    {
+      "type": "paragraph",
+      "content": "macOS için Frames, film fotoğrafçılığı topluluğunun en çok talep ettiği özelliği çözüyor: meta verileri taranmış görüntülere yeniden entegre etmek. iOS'tan .frames dosyalarınızı içe aktarın, taranmış JPEG görüntülerinizi sürükleyin ve uygulama kareleri fotoğraflarla eşleştirir. Pozlama ayarlarınız, fotoğraf makinesi verileri, lens bilgileri, film stokları ve çekim notlarınız, Lightroom, Capture One ve Apple Photos ile sorunsuz çalışan EXIF meta verileri olarak yerleştirilir."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.0.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.0.0-1@2x.png",
+      "alt": "Taranmış film fotoğraflarına EXIF meta verileri yerleştirmek için Frames macOS uygulaması",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Basit İş Akışı, Profesyonel Sonuçlar"
+    },
+    {
+      "type": "paragraph",
+      "content": "İş akışı basittir: .frames dosyanızı içe aktarın, taranmış görsellerinizi ekleyin, kareleri fotoğraflarla eşleştirin ve dışa aktarın. Uygulama EXIF yerleştirmeyi otomatik olarak yönetir ve analog fotoğrafçılık belgelerinizin kalıcı dijital kayıtlar haline gelmesini sağlar. Film rulosu verileriniz, iOS'taki sahada kayıttan macOS'taki nihai arşivlemeye sorunsuzca aktarılır."
+    }
+  ],
+  "improvements": [
+    "iOS'tan .frames dosyalarını içe aktarma",
+    "Tam meta veri yerleştirme ile JPEG dosya desteği",
+    "Otomatik kare-fotoğraf eşleştirme",
+    "Lightroom, Capture One ve Apple Photos ile uyumlu EXIF meta veri yerleştirme",
+    "Apple'ın İnsan Arayüzü Yönergelerini izleyen doğal macOS tasarımı",
+    "7 dilde mevcuttur: İngilizce, Fransızca, İspanyolca, İtalyanca, Portekizce, Almanca ve Hollandaca"
+  ],
+  "fixes": [],
+  "patches": [
+    {
+      "version": "1.0.1",
+      "description": "Fransızca dil desteği eklendi."
+    },
+    {
+      "version": "1.0.2",
+      "description": "7 dile genişletildi: İngilizce, Fransızca, İspanyolca, İtalyanca, Portekizce, Almanca ve Hollandaca."
+    },
+    {
+      "version": "1.0.3",
+      "description": "İyileştirilmiş dil desteği."
+    },
+    {
+      "version": "1.0.4",
+      "description": "Artık macOS 15.0 ve sonrası ile uyumludur."
+    },
+    {
+      "version": "1.0.5",
+      "description": "Dışa aktarılan fotoğraflar artık orijinal dosya adlarını korur."
+    },
+    {
+      "version": "1.0.6",
+      "description": "Uygulama simgesi yeniden tasarlandı."
+    },
+    {
+      "version": "1.0.7",
+      "description": "Uygulama logosu üzerinde küçük iyileştirme."
+    }
+  ]
+}

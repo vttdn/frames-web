@@ -1,0 +1,38 @@
+{
+  "version": "1.6.0",
+  "version_short": "1.6",
+  "url_slug": "1-6-macos",
+  "platform": "macos",
+  "release_date": "2025-10-01T10:00:00.000Z",
+  "title": "Metadate mod măsurare și îmbunătățiri de performanță",
+  "summary": "Frames pentru macOS include acum suport pentru metadate mod măsurare pentru date EXIF cuprinzătoare, plus îmbunătățiri de performanță pentru operare mai rapidă și mai stabilă.",
+  "sections": [
+    {
+      "type": "paragraph",
+      "content": "Poți acum vedea și reintegra datele modului de măsurare din jurnalele de film în imaginile scanate. Aceasta corespunde actualizării iOS, asigurând consistență completă a metadatelor pe ambele platforme. Îmbunătățirile de performanță în întreaga aplicație fac reintegrarea metadatelor mai rapidă și mai fiabilă."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/{{ lang }}/changelog/frames-1.11.0-1.png",
+      "image_2x": "/lib/img/{{ lang }}/changelog/frames-1.11.0-1@2x.png",
+      "alt": "Aplicația Frames pentru macOS arătând suport metadate mod măsurare",
+      "width": "400",
+      "height": "300"
+    }
+  ],
+  "improvements": [
+    "Adăugat suport pentru metadate mod măsurare",
+    "Îmbunătățiri de performanță pentru procesare mai rapidă a imaginilor",
+    "Stabilitate îmbunătățită a aplicației în general",
+    "Viteză sporită de reintegrare a metadatelor"
+  ],
+  "fixes": [],
+  "patches": [
+    {
+      "version": "1.5.1",
+      "description": "Diverse îmbunătățiri UI și rafinări vizuale."
+    }
+  ],
+  "meta_title": "Metadate mod măsurare și îmbunătățiri de performanță · Frames",
+  "meta_description": "Frames pentru macOS include acum suport pentru metadate mod măsurare pentru date EXIF cuprinzătoare, plus îmbunătățiri de performanță pentru operare mai rapidă și mai stabilă."
+}

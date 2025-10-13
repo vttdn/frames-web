@@ -1,0 +1,43 @@
+{
+  "version": "1.5.0",
+  "version_short": "1.5",
+  "url_slug": "1-5-macos",
+  "platform": "macos",
+  "release_date": "2025-09-19T10:00:00.000Z",
+  "title": "Cải thiện lớn về hiệu suất & Xử lý DNG",
+  "meta_title": "Cải thiện lớn về hiệu suất & Xử lý DNG · Frames",
+  "meta_description": "Xử lý DNG nhanh hơn đáng kể với bộ nhớ đệm và sử dụng bộ nhớ được tối ưu hóa. Khắc phục nhập .frames và tương thích Mac Intel cho quy trình siêu dữ liệu mượt mà hơn.",
+  "summary": "Bản cập nhật này mang đến xử lý ảnh nhanh hơn đáng kể với xử lý DNG được tối ưu hóa, bộ nhớ đệm được cải thiện và các bản sửa cho nhập tệp .frames và xuất siêu dữ liệu DNG trên Mac Intel.",
+  "sections": [
+    {
+      "type": "paragraph",
+      "content": "Tải ảnh hiện nhanh hơn đáng kể trên tất cả các định dạng, với cải thiện lớn về tốc độ và độ tin cậy xử lý DNG. Việc sử dụng bộ nhớ đã được tối ưu hóa, bộ nhớ đệm được cải thiện và tải đồng bộ đảm bảo hoạt động mượt mà ngay cả với hàng loạt ảnh lớn. Chúng tôi cũng đã khắc phục nhập tệp .frames từ thanh menu macOS và giải quyết các sự cố xuất siêu dữ liệu DNG trên Mac Intel cũ hơn."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.10.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.10.0-1@2x.png",
+      "alt": "Ứng dụng Frames cho macOS với hiệu suất xử lý DNG được tối ưu hóa để xử lý ảnh nhanh hơn",
+      "width": "400",
+      "height": "300"
+    }
+  ],
+  "improvements": [
+    "Tải ảnh nhanh hơn đáng kể trên tất cả các định dạng",
+    "Xử lý DNG được tối ưu hóa để có hiệu suất tốt hơn",
+    "Hệ thống bộ nhớ đệm được cải thiện để hoạt động mượt mà hơn",
+    "Hiệu quả sử dụng bộ nhớ được nâng cao",
+    "Tải đồng bộ cho các lô ảnh lớn"
+  ],
+  "fixes": [
+    {
+      "title": "Nhập tệp .frames",
+      "description": "Khắc phục nhập tệp .frames từ thanh menu macOS."
+    },
+    {
+      "title": "Xuất DNG trên Mac Intel",
+      "description": "Khắc phục xuất siêu dữ liệu DNG trên các mẫu Mac Intel cũ hơn."
+    }
+  ],
+  "patches": []
+}

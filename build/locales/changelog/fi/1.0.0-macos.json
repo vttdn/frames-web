@@ -1,0 +1,78 @@
+{
+  "version": "1.0.0",
+  "version_short": "1.0",
+  "url_slug": "1-0-macos",
+  "platform": "macos",
+  "release_date": "2025-04-08T10:00:00.000Z",
+  "title": "Frames macOS:lle julkaisu",
+  "meta_title": "Frames macOS:lle julkaisu · Frames",
+  "meta_description": "Upota filmivalokuvauksen metatiedot skannattuihin kuviin EXIF-tuella Lightroomiin, Capture Oneen ja Apple Photosiin. Integroi iOS-kirjaamistiedot saumattomasti.",
+  "summary": "Kauan odotettu macOS-kumppanisovellus julkaistaan, tuoden saumattoman metatietojen integroinnin skannattuihin filmikuviin. Tuo filmikelatietosi iOS:stä ja upota EXIF-metatiedot JPEG-tiedostoihin.",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Metatietojen integrointi skannatuille filmeille"
+    },
+    {
+      "type": "paragraph",
+      "content": "Frames macOS:lle ratkaisee filmivalokuvausyhteisön eniten pyydetyn ominaisuuden: metatietojen integroimisen takaisin skannattuihin kuviin. Tuo .frames-tiedostosi iOS:stä, vedä skannatut JPEG-kuvat sisään, ja sovellus sovittaa kuvat kuviin. Valotusasetuksesi, kameran tiedot, objektiivin tiedot, filmilaadut ja kuvaukseen liittyvät muistiinpanot upotetaan EXIF-metatietoina, jotka toimivat saumattomasti Lightroomin, Capture Onen ja Apple Photosin kanssa."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.0.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.0.0-1@2x.png",
+      "alt": "Frames macOS-sovellus EXIF-metatietojen upottamiseen skannattuihin filmivalokuviin",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Yksinkertainen työnkulku, ammattimaiset tulokset"
+    },
+    {
+      "type": "paragraph",
+      "content": "Työnkulku on suoraviivainen: tuo .frames-tiedostosi, lisää skannatut kuvat, sovita kuvat kuviin ja vie. Sovellus käsittelee EXIF-upotuksen automaattisesti varmistaen, että analogisen valokuvauksen dokumentoinnista tulee pysyviä digitaalisia tallenteita. Filmikelatietosi siirtyvät saumattomasti kenttäkirjaamisesta iOS:ssä lopulliseen arkistointiin macOS:ssa."
+    }
+  ],
+  "improvements": [
+    "Tuo .frames-tiedostoja iOS:stä",
+    "JPEG-tiedostojen tuki täydellä metatietojen upotuksella",
+    "Automaattinen kuvien sovittaminen kuviin",
+    "EXIF-metatietojen upotus yhteensopiva Lightroomin, Capture Onen ja Apple Photosin kanssa",
+    "Alkuperäinen macOS-suunnittelu Applen käyttöliittymäohjeiden mukaisesti",
+    "Saatavilla 7 kielellä: englanti, ranska, espanja, italia, portugali, saksa ja hollanti"
+  ],
+  "fixes": [],
+  "patches": [
+    {
+      "version": "1.0.1",
+      "description": "Lisätty ranskan kielen tuki."
+    },
+    {
+      "version": "1.0.2",
+      "description": "Laajennettu 7 kieleen: englanti, ranska, espanja, italia, portugali, saksa ja hollanti."
+    },
+    {
+      "version": "1.0.3",
+      "description": "Parannettu kielituki."
+    },
+    {
+      "version": "1.0.4",
+      "description": "Nyt yhteensopiva macOS 15.0:n ja uudempien kanssa."
+    },
+    {
+      "version": "1.0.5",
+      "description": "Viedyt valokuvat säilyttävät nyt alkuperäiset tiedostonimet."
+    },
+    {
+      "version": "1.0.6",
+      "description": "Uudelleensuunniteltu sovelluskuvake."
+    },
+    {
+      "version": "1.0.7",
+      "description": "Pieni hieno sovelluksen logossa."
+    }
+  ]
+}

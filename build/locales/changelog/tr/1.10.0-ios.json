@@ -1,0 +1,68 @@
+{
+  "version": "1.10.0",
+  "version_short": "1.10",
+  "url_slug": "1-10-ios",
+  "platform": "ios",
+  "release_date": "2025-09-23T10:00:00.000Z",
+  "title": "Büyük Performans ve Kararlılık İyileştirmeleri",
+  "summary": "Bu sürüm, Frames'i daha hızlı, daha güvenilir ve gelecekteki özellikler için daha hazır hale getiren önemli altyapı iyileştirmeleri getiriyor. Performans optimizasyonları, kare kaydından film rulosu yönetimine kadar uygulamanın her bölümüne dokunuyor.",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Geleceğin Temeli"
+    },
+    {
+      "type": "paragraph",
+      "content": "Frames'in temel bölümlerini performans ve kararlılığı artırmak için yeniden inşa ettik. Kare düzenleme daha duyarlı hissettiriyor, navigasyon daha akıcı akıyor ve büyük film rulosu koleksiyonlarını yönetmek daha güvenilir. Bu mimari iyileştirmeler ayrıca kitaplığınız büyüdükçe Frames'in hızlı ve kararlı kalmasını sağlarken yaklaşan özellikler için zemin hazırlıyor."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.10.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.10.0-1@2x.png",
+      "alt": "İyileştirilmiş performans ve optimize edilmiş kare kayıt hızı ile Frames film fotoğrafçılığı uygulaması",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Her Yerde Daha Akıcı"
+    },
+    {
+      "type": "paragraph",
+      "content": "Film rulolarını açarken daha hızlı yükleme süreleri ve kare meta verilerini düzenlerken daha hızlı yanıtlar fark edeceksiniz. Ekranlar arasındaki geçişler daha akıcı hissettiriyor ve uygulama kapsamlı ekipman koleksiyonları ve yüzlerce kareyle bile daha iyi performans sürdürüyor. İyileştirmeler, birden fazla film rulosuyla çalışırken veya kaydedici ile kitaplık görünümleri arasında sıkça geçiş yaparken en belirgindir."
+    }
+  ],
+  "improvements": [
+    "Önemli ölçüde iyileştirilmiş uygulama performansı ve yanıt verme",
+    "Daha hızlı kare düzenleme ve meta veri güncellemeleri",
+    "Uygulama genelinde geliştirilmiş navigasyon akıcılığı",
+    "Büyük film rulosu koleksiyonlarını yönetirken daha iyi kararlılık",
+    "Kapsamlı fotoğraf makinesi ve lens kitaplıklarıyla optimize edilmiş ekipman listesi performansı",
+    "Sürekli performans için iyileştirilmiş bellek yönetimi",
+    "Gelecek özellik geliştirme için daha temiz kod tabanı mimarisi"
+  ],
+  "fixes": [
+    {
+      "title": "Referans Görsel Kaydetme",
+      "description": "Referans görsellerin karelere eklendiğinde her zaman doğru kaydedilmediği bir sorun düzeltildi."
+    }
+  ],
+  "patches": [
+    {
+      "version": "1.10.1",
+      "description": "Daha hızlı kare kaydedici yanıtı ve daha doğru kayıt için geliştirilmiş konum yönetimi."
+    },
+    {
+      "version": "1.10.2",
+      "description": "Özel karakter işleme ile iyileştirilmiş dışa aktarma güvenilirliği. Daha hızlı dışa aktarmalarla geliştirilmiş konum ve harita görünümü performansı."
+    },
+    {
+      "version": "1.10.3",
+      "description": "Arayüz genelinde çeşitli kullanıcı arayüzü geliştirmeleri ve görsel iyileştirmeler."
+    }
+  ],
+  "meta_title": "Büyük Performans ve Kararlılık İyileştirmeleri · Frames",
+  "meta_description": "Bu sürüm, Frames'i daha hızlı, daha güvenilir ve gelecekteki özellikler için daha hazır hale getiren önemli altyapı iyileştirmeleri getiriyor."
+}

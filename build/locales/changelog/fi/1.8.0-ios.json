@@ -1,0 +1,32 @@
+{
+  "version": "1.8.0",
+  "version_short": "1.8",
+  "url_slug": "1-8-ios",
+  "platform": "ios",
+  "release_date": "2025-09-15T10:00:00.000Z",
+  "title": "TXT-tiedostovienti filmilokeille",
+  "summary": "Pro-käyttäjät voivat nyt viedä filmikelalogit TXT-tiedostoina, täydellinen kenttämuistiinpanojen tulostamiseen tai pikaviitekorttien luomiseen pimiötyöskentelyyn.",
+  "sections": [
+    {
+      "type": "paragraph",
+      "content": "Vie filmikelan metatiedot pelkkänä tekstinä. Tämä muoto sopii hyvin tiivisten viitekorttien tulostamiseen kameralaukkuun tai pimiöön säilytettäväksi. Jokainen TXT-vienti sisältää kaikki kuvan yksityiskohdat, valotusasetukset ja muistiinpanot siistissä, helppolukuisessa muodossa, joka on helppo tulostaa tai jakaa laboratorioiden kanssa."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.8.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.8.0-1@2x.png",
+      "alt": "Frames-analogisen valokuvauksen sovelluksen TXT-vientiominaisuus filmikelan muistiinpanojen ja metatietojen tulostamiseen",
+      "width": "400",
+      "height": "300"
+    }
+  ],
+  "improvements": [
+    "Lisätty TXT-tiedostovienti Pro-käyttäjille",
+    "Optimoitu viennin muotoilu tulostamista ja luettavuutta varten",
+    "Sisällytetty kattava kuvan metatiedot vienteihin"
+  ],
+  "fixes": [],
+  "patches": [],
+  "meta_title": "TXT-tiedostovienti filmilokeille · Frames",
+  "meta_description": "Pro-käyttäjät voivat nyt viedä filmikelalogit TXT-tiedostoina, täydellinen kenttämuistiinpanojen tulostamiseen tai pikaviitekorttien luomiseen pimiötyöskentelyyn."
+}

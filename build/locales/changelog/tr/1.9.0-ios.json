@@ -1,0 +1,52 @@
+{
+  "version": "1.9.0",
+  "version_short": "1.9",
+  "url_slug": "1-9-ios",
+  "platform": "ios",
+  "release_date": "2025-09-18T10:00:00.000Z",
+  "title": "Alt Klasörler, Kaydırarak Taşı ve TXT Dışa Aktarma İyileştirmeleri",
+  "summary": "Film kitaplığınızı 5 seviyeye kadar iç içe alt klasörlerle düzenleyin. Bu güncelleme ayrıca kaydırma hareketleriyle daha kolay film rulosu yönetimi ve daha iyi belgelendirme için geliştirilmiş TXT dışa aktarma biçimlendirmesi getiriyor.",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Pro Kullanıcılar için İç İçe Klasör Organizasyonu"
+    },
+    {
+      "type": "paragraph",
+      "content": "Pro kullanıcılar artık 5 seviyeye kadar alt klasörler oluşturabilir, film arşivlerinin detaylı organizasyonunu mümkün kılar. Kitaplığınızı yıla, projeye, film türüne veya iş akışınıza uygun herhangi bir hiyerarşiye göre yapılandırın. Bu, kapsamlı film koleksiyonları içinde belirli çekimleri bulmanızı kolaylaştırır ve ilgili ruloları mantıksal olarak bir arada tutar."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/{{ lang }}/changelog/frames-1.9.0-1.png",
+      "image_2x": "/lib/img/{{ lang }}/changelog/frames-1.9.0-1@2x.png",
+      "alt": "Film rulosu arşivleri için iç içe klasör organizasyonu gösteren Frames film fotoğrafçılığı uygulaması",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "İyileştirilmiş Film Rulosu Yönetimi"
+    },
+    {
+      "type": "paragraph",
+      "content": "Kaydırma hareketleri artık film rulolarını ve klasörleri yeniden konumlandırmayı daha hızlı hale getiren bir Taşı düğmesi içeriyor. Ayrıca TXT dışa aktarmalarının mevcut yılla eşleştiğinde yılı atladığı bir sorunu da düzelttik, tüm dışa aktarmalarda eksiksiz tarih bilgisi sağlıyor."
+    }
+  ],
+  "improvements": [
+    "Pro kullanıcılar için 5 seviyeye kadar alt klasör desteği eklendi",
+    "Kaydırma hareketleri artık film ruloları ve klasörler için Taşı düğmesini içeriyor",
+    "Breadcrumb desteği ile geliştirilmiş klasör navigasyonu",
+    "Birden fazla dilde iyileştirilmiş yerelleştirme tutarlılığı"
+  ],
+  "fixes": [
+    {
+      "title": "TXT Dışa Aktarma Yıl Görüntüsü",
+      "description": "TXT dışa aktarmalarının mevcut yılla eşleştiğinde yılı atladığı bir sorun düzeltildi. Yıl artık eksiksiz tarih bilgisi için her zaman dahil edilir."
+    }
+  ],
+  "patches": [],
+  "meta_title": "Alt Klasörler, Kaydırarak Taşı ve TXT Dışa Aktarma İyileştirmeleri · Frames",
+  "meta_description": "Film kitaplığınızı 5 seviyeye kadar iç içe alt klasörlerle düzenleyin."
+}

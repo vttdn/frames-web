@@ -1,0 +1,16 @@
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareCompany",
+  "@id": "https://withframes.com/#softwarecompany",
+  "name": "Frames",
+  "url": "https://withframes.com/",
+  "description": "Frames este o aplicație fotografie film pentru fotografi analogici. Notează fiecare cadru, urmărește setările camerei, organizează filmele și salvează metadatele EXIF.",
+  "logo": "https://withframes.com/apple-touch-icon.png",
+  "parentOrganization": {
+    "@id": "https://withframes.com/#organization"
+  },
+  "founder": {
+    "@type": "Person",
+    "name": "Vincent Tantardini"
+  }
+}

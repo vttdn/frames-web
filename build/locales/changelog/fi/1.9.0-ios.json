@@ -1,0 +1,52 @@
+{
+  "version": "1.9.0",
+  "version_short": "1.9",
+  "url_slug": "1-9-ios",
+  "platform": "ios",
+  "release_date": "2025-09-18T10:00:00.000Z",
+  "title": "Alikansiot, pyyhkäisy siirtämiseen ja TXT-viennin parannukset",
+  "summary": "Järjestä filmikirjastosi sisäkkäisillä alikansioilla jopa 5 tasoa syvältä. Tämä päivitys tuo myös helpomman filmikelojen hallinnan pyyhkäisyeleiden avulla ja parannetun TXT-viennin muotoilun parempaa dokumentointia varten.",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Sisäkkäinen kansioiden järjestäminen Pro-käyttäjille"
+    },
+    {
+      "type": "paragraph",
+      "content": "Pro-käyttäjät voivat nyt luoda alikansioita jopa 5 tasoa syvältä mahdollistaen yksityiskohtaisen filmiarkistojen järjestämisen. Rakenna kirjastosi vuoden, projektin, filmityypin tai minkä tahansa hierarkian mukaan, joka sopii työnkulkuusi. Tämä helpottaa tiettyjen kuvausten löytämistä laajoista filmikokoelmista ja pitää aiheeseen liittyvät kelat loogisesti yhdessä."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/{{ lang }}/changelog/frames-1.9.0-1.png",
+      "image_2x": "/lib/img/{{ lang }}/changelog/frames-1.9.0-1@2x.png",
+      "alt": "Frames-filmivalokuvaussovellus, joka näyttää sisäkkäisen kansioiden järjestämisen filmikelaarkistoille",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Parannettu filmikelojen hallinta"
+    },
+    {
+      "type": "paragraph",
+      "content": "Pyyhkäisyeleet sisältävät nyt Siirrä-painikkeen tehden filmikelojen ja kansioiden siirtämisestä nopeampaa. Olemme myös korjanneet ongelman, jossa TXT-viennit jättivät vuoden pois, kun se vastasi kuluvaa vuotta varmistaen täydelliset päivämäärätiedot kaikissa vienneissä."
+    }
+  ],
+  "improvements": [
+    "Lisätty alikansiotuki jopa 5 tasoa syvältä Pro-käyttäjille",
+    "Pyyhkäisyeleet sisältävät nyt Siirrä-painikkeen filmikeloille ja kansioille",
+    "Parannettu kansionavigaatio leivänmurupolun tuella",
+    "Parannettu lokalisaation johdonmukaisuus useilla kielillä"
+  ],
+  "fixes": [
+    {
+      "title": "TXT-viennin vuoden näyttö",
+      "description": "Korjattu ongelma, jossa TXT-viennit jättivät vuoden pois, kun se vastasi kuluvaa vuotta. Vuosi sisältyy nyt aina täydellisiin päivämäärätietoihin."
+    }
+  ],
+  "patches": [],
+  "meta_title": "Alikansiot, pyyhkäisy siirtämiseen ja TXT-viennin parannukset · Frames",
+  "meta_description": "Järjestä filmikirjastosi sisäkkäisillä alikansioilla jopa 5 tasoa syvältä."
+}

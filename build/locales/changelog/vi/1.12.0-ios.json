@@ -1,0 +1,84 @@
+{
+  "version": "1.12.0",
+  "version_short": "1.12",
+  "url_slug": "1-12-ios",
+  "platform": "ios",
+  "release_date": "2025-10-03T10:00:00.000Z",
+  "title": "Tiếng Đan Mạch, Phần Lan, Na Uy, Việt Nam & 4 ngôn ngữ khác",
+  "summary": "Bản phát hành bản địa hóa lớn này mang Frames đến với nhiều nhiếp ảnh gia phim hơn trên toàn thế giới, thêm hỗ trợ cho tiếng Đan Mạch, Phần Lan, Na Uy, Việt Nam, Trung Quốc Phồn thể, Indonesia, Trung Quốc Hồng Kông và Hy Lạp, đồng thời tinh chỉnh bản dịch trên tất cả các ngôn ngữ hiện có để tăng cường độ rõ ràng và tính nhất quán.",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Tám ngôn ngữ mới trên khắp Châu Âu và Châu Á"
+    },
+    {
+      "type": "paragraph",
+      "content": "Frames hiện hỗ trợ tiếng Đan Mạch, Phần Lan, Na Uy, Việt Nam, Trung Quốc Phồn thể, Indonesia, Trung Quốc Hồng Kông và Hy Lạp. Mỗi bản dịch đã được soạn thảo cẩn thận để đảm bảo thuật ngữ nhiếp ảnh phim cảm thấy tự nhiên trong khi duy trì độ chính xác kỹ thuật cho cài đặt máy ảnh, loại phim và quản lý siêu dữ liệu."
+    },
+    {
+      "type": "list",
+      "items": [
+        {
+          "title": "Các ngôn ngữ Bắc Âu",
+          "description": "Tiếng Đan Mạch (Dansk), Phần Lan (Suomi) và Na Uy (Norsk) với thuật ngữ bản địa cho nhiếp ảnh gia Scandinavia."
+        },
+        {
+          "title": "Các ngôn ngữ Châu Á",
+          "description": "Tiếng Việt (Tiếng Việt), Trung Quốc Phồn thể (繁體中文), Indonesia (Bahasa Indonesia) và Trung Quốc Hồng Kông."
+        },
+        {
+          "title": "Tiếng Hy Lạp (Ελληνικά)",
+          "description": "Bản dịch hoàn chỉnh cho nhiếp ảnh gia trên khắp Hy Lạp và Síp."
+        }
+      ]
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.12.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.12.0-1@2x.png",
+      "alt": "Ứng dụng nhiếp ảnh analog Frames với hỗ trợ đa ngôn ngữ cho các ngôn ngữ Bắc Âu và Châu Á",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Tùy chọn khu vực và tinh chỉnh bản dịch"
+    },
+    {
+      "type": "paragraph",
+      "content": "Đối với Trung Quốc Phồn thể và Trung Quốc Hồng Kông, chúng tôi đã điều chỉnh tùy chọn khu vực cho định dạng ngày và thuật ngữ. Các ngôn ngữ Bắc Âu phù hợp với cách nhiếp ảnh gia phim ở các quốc gia này thảo luận về nghề của họ. Chúng tôi cũng đã tinh chỉnh các bản dịch hiện có trên tiếng Tây Ban Nha, Pháp, Đức, Ý, Bồ Đào Nha, Nhật Bản, Hàn Quốc, Nga, Thái Lan, Ba Lan, Thổ Nhĩ Kỳ, Thụy Điển và Hindi dựa trên phản hồi của cộng đồng."
+    },
+    {
+      "type": "paragraph",
+      "content": "Frames tự động áp dụng tùy chọn ngôn ngữ iOS của bạn. Tất cả các cuộn phim và thiết bị máy ảnh hiện có vẫn còn nguyên vẹn. Giao diện chỉ đơn giản thích ứng mà không cần di chuyển hoặc nhập lại dữ liệu."
+    }
+  ],
+  "improvements": [
+    "Thêm bản địa hóa tiếng Đan Mạch (Dansk) cho cộng đồng nhiếp ảnh phim Đan Mạch",
+    "Thêm bản dịch tiếng Phần Lan (Suomi) với thuật ngữ nhiếp ảnh bản địa",
+    "Thêm hỗ trợ tiếng Na Uy (Norsk) cho nhiếp ảnh gia Scandinavia",
+    "Thêm tiếng Việt (Tiếng Việt) cho cộng đồng analog Đông Nam Á",
+    "Thêm Trung Quốc Phồn thể (繁體中文) cho Đài Loan, Hồng Kông và Ma Cao",
+    "Thêm bản địa hóa tiếng Indonesia (Bahasa Indonesia)",
+    "Thêm Trung Quốc Hồng Kông với tùy chọn cụ thể khu vực",
+    "Thêm bản dịch tiếng Hy Lạp (Ελληνικά) cho Hy Lạp và Síp",
+    "Tinh chỉnh tất cả các bản dịch ngôn ngữ hiện có để cải thiện độ rõ ràng và cách diễn đạt tự nhiên",
+    "Tăng cường tính nhất quán thuật ngữ kỹ thuật trên các lĩnh vực cụ thể nhiếp ảnh",
+    "Cải thiện bản địa hóa định dạng ngày và đơn vị đo cho tùy chọn khu vực"
+  ],
+  "fixes": [
+    {
+      "title": "Tính nhất quán bản dịch",
+      "description": "Chuẩn hóa thuật ngữ trên các tính năng tương tự để đảm bảo ngôn ngữ nhất quán trong toàn bộ ứng dụng."
+    },
+    {
+      "title": "Thích ứng bố cục",
+      "description": "Cải thiện kích thước văn bản động để chứa các bản dịch dài hơn mà không bị cắt xén hoặc tràn."
+    }
+  ],
+  "patches": [],
+  "meta_title": "Tiếng Đan Mạch, Phần Lan, Na Uy, Việt Nam & 4 ngôn ngữ khác · Frames",
+  "meta_description": "Bản phát hành bản địa hóa lớn này mang Frames đến với nhiều nhiếp ảnh gia phim hơn trên toàn thế giới, thêm hỗ trợ cho tiếng Đan Mạch, Phần Lan, Na Uy, Việt Nam,..."
+}

@@ -1,0 +1,77 @@
+{
+  "version": "1.13.0",
+  "version_short": "1.13",
+  "url_slug": "1-13-ios",
+  "platform": "ios",
+  "release_date": "2025-10-06T10:00:00.000Z",
+  "title": "Hỗ trợ ngôn ngữ Do Thái, Ả Rập, Rumani & Ukraina",
+  "summary": "Frames tiếp tục sứ mệnh phục vụ các nhiếp ảnh gia analog trên toàn thế giới với bản cập nhật bản địa hóa quan trọng này, mang đến hỗ trợ gốc cho người nói tiếng Do Thái, Ả Rập, Rumani và Ukraina, cùng với các bản dịch và cải thiện giao diện được tinh chỉnh trong toàn bộ ứng dụng.",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Bốn ngôn ngữ mới với hỗ trợ từ phải sang trái"
+    },
+    {
+      "type": "paragraph",
+      "content": "Frames hiện hỗ trợ tiếng Do Thái, Ả Rập, Rumani và Ukraina, mỗi ngôn ngữ đều được bản địa hóa cẩn thận để tôn trọng các sắc thái văn hóa và thuật ngữ nhiếp ảnh. Tiếng Do Thái và Ả Rập bao gồm thích ứng giao diện từ phải sang trái đầy đủ. Luồng điều hướng, vị trí nút và căn chỉnh văn bản đều phản chiếu một cách phù hợp trong khi vẫn giữ các thuật ngữ kỹ thuật như mã loại phim và giá trị khẩu độ ở định dạng tiêu chuẩn quốc tế của chúng."
+    },
+    {
+      "type": "list",
+      "items": [
+        {
+          "title": "Tiếng Do Thái (עברית) & Ả Rập (العربية)",
+          "description": "Giao diện RTL hoàn chỉnh với thuật ngữ bản địa cho loại phim, cài đặt máy ảnh và siêu dữ liệu EXIF."
+        },
+        {
+          "title": "Tiếng Rumani (Română) & Ukraina (Українська)",
+          "description": "Bản dịch đầy đủ hỗ trợ nhiếp ảnh gia ghi lại công việc của họ bằng ngôn ngữ mẹ đẻ."
+        }
+      ]
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.13.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.13.0-1@2x.png",
+      "alt": "Ứng dụng nhiếp ảnh phim Frames với giao diện RTL tiếng Do Thái và Ả Rập và hỗ trợ ngôn ngữ",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Tinh chỉnh bản dịch trên tất cả các ngôn ngữ"
+    },
+    {
+      "type": "paragraph",
+      "content": "Ngoài các ngôn ngữ mới, chúng tôi đã tinh chỉnh các bản dịch hiện có trong toàn bộ ứng dụng dựa trên phản hồi từ các nhiếp ảnh gia. Tên loại phim vẫn giữ nguyên ngôn ngữ gốc (Kodak Portra, Ilford HP5), trong khi các yếu tố giao diện thích ứng theo ngôn ngữ bạn chọn. Tùy chọn ngôn ngữ đồng bộ trên các thiết bị và tất cả dữ liệu hiện có tự động hiển thị bằng ngôn ngữ bạn đã chọn mà không cần nhập lại hoặc di chuyển."
+    }
+  ],
+  "improvements": [
+    "Thêm bản địa hóa tiếng Do Thái (עברית) hoàn chỉnh với hỗ trợ giao diện từ phải sang trái",
+    "Thêm bản địa hóa tiếng Ả Rập (العربية) hoàn chỉnh với thích ứng bố cục RTL",
+    "Thêm bản dịch tiếng Rumani (Română) cho cộng đồng nhiếp ảnh phim",
+    "Thêm hỗ trợ tiếng Ukraina (Українська) với thuật ngữ bản địa",
+    "Tinh chỉnh các bản dịch hiện có trên tất cả các ngôn ngữ được hỗ trợ để cải thiện độ rõ ràng và tính nhất quán",
+    "Cải thiện độ chính xác thuật ngữ kỹ thuật trong các lĩnh vực cụ thể nhiếp ảnh",
+    "Tăng cường hỗ trợ văn bản hai chiều cho nội dung Latin và RTL hỗn hợp"
+  ],
+  "fixes": [
+    {
+      "title": "Tràn văn bản trong bản dịch",
+      "description": "Giải quyết các vấn đề bố cục nơi các cụm từ được dịch dài hơn có thể bị cắt trong một số yếu tố giao diện nhất định."
+    },
+    {
+      "title": "Tính nhất quán bố cục RTL",
+      "description": "Khắc phục các vấn đề căn chỉnh nhỏ trong các ngôn ngữ từ phải sang trái để đảm bảo phản chiếu đúng trên tất cả các màn hình."
+    }
+  ],
+  "patches": [
+    {
+      "version": "1.13.1",
+      "description": "Khắc phục lỗi có thể khiến menu chia sẻ nhấp nháy liên tục khi xuất"
+    }
+  ],
+  "meta_title": "Hỗ trợ ngôn ngữ Do Thái, Ả Rập, Rumani & Ukraina · Frames",
+  "meta_description": "Frames tiếp tục sứ mệnh phục vụ các nhiếp ảnh gia analog trên toàn thế giới với bản cập nhật bản địa hóa quan trọng này, mang đến hỗ trợ gốc cho tiếng Do Thái, Ả Rập,..."
+}

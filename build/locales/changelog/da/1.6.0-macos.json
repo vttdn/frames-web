@@ -1,0 +1,38 @@
+{
+  "version": "1.6.0",
+  "version_short": "1.6",
+  "url_slug": "1-6-macos",
+  "platform": "macos",
+  "release_date": "2025-10-01T10:00:00.000Z",
+  "title": "Målingsmetode-metadata og ydeevneforbedringer",
+  "summary": "Frames til macOS inkluderer nu målingsmetode-metadatasupport for omfattende EXIF-data plus ydeevneforbedringer for hurtigere, mere stabil drift.",
+  "sections": [
+    {
+      "type": "paragraph",
+      "content": "Du kan nu se og genintegrere målingsmetodedata fra dine filmlogger i scannede billeder. Dette matcher iOS-opdateringen og sikrer fuldstændig metadatakonsistens på tværs af begge platforme. Ydeevneopgraderinger gennem hele appen gør metadatagenintegrering hurtigere og mere pålidelig."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/{{ lang }}/changelog/frames-1.11.0-1.png",
+      "image_2x": "/lib/img/{{ lang }}/changelog/frames-1.11.0-1@2x.png",
+      "alt": "Frames macOS-app, der viser målingsmetode-metadatasupport for komplette EXIF-data",
+      "width": "400",
+      "height": "300"
+    }
+  ],
+  "improvements": [
+    "Tilføjet målingsmetode-metadatasupport",
+    "Ydeevneopgraderinger for hurtigere billedbehandling",
+    "Forbedret app-stabilitet gennem hele",
+    "Forbedret hastighed af metadatagenintegrering"
+  ],
+  "fixes": [],
+  "patches": [
+    {
+      "version": "1.5.1",
+      "description": "Diverse UI-forbedringer og visuelle raffineringer."
+    }
+  ],
+  "meta_title": "Målingsmetode-metadata og ydeevneforbedringer · Frames",
+  "meta_description": "Frames til macOS inkluderer nu målingsmetode-metadatasupport for omfattende EXIF-data plus ydeevneforbedringer for hurtigere, mere stabil drift."
+}

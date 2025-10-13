@@ -1,0 +1,48 @@
+{
+  "version": "1.2.0",
+  "version_short": "1.2",
+  "url_slug": "1-2-macos",
+  "platform": "macos",
+  "release_date": "2025-08-24T10:00:00.000Z",
+  "title": "Filtersupport, japanske og koreanske sprog",
+  "meta_title": "Filtersupport, japanske og koreanske sprog · Frames",
+  "meta_description": "Automatisk filtermetadataintegration til UV-, ND- og CPL-filtre. Japansk og koreansk sprogsupport med forbedrede EXIF-data inklusive kameraserienumre.",
+  "summary": "Filtre vises nu i sidebjælken og tilføjes automatisk til metadata ved lagring af billeder. Denne opdatering bringer også japansk og koreansk sprogsupport plus vigtige fejlrettelser.",
+  "sections": [
+    {
+      "type": "paragraph",
+      "content": "Filtre logget på iOS vises nu i macOS-sidebjælken og integreres automatisk i EXIF-metadata under genintegrering. Dette fuldender din analoge dokumentation ved at inkludere UV-, ND-, CPL- og andre filtre i dine endelige billeder. Kameraserienumre er nu inkluderet i metadata, og vi har rettet en fejl, hvor flashværdier blev inverteret. Frames er nu tilgængelig på japansk og koreansk, som matcher iOS-sprogudvidelsen."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-mac-1.2.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-mac-1.2.0-1@2x.png",
+      "alt": "Frames macOS-app, der viser filtermetadata-sidebjælke til filmfotografidokumentation",
+      "width": "400",
+      "height": "300"
+    }
+  ],
+  "improvements": [
+    "Tilføjet filtervisning i sidebjælke",
+    "Filtre tilføjes automatisk til metadata ved lagring af billeder",
+    "Kameraserienummer er nu inkluderet i EXIF-metadata",
+    "Tilføjet japansk sprogsupport",
+    "Tilføjet koreansk sprogsupport"
+  ],
+  "fixes": [
+    {
+      "title": "Flashværdiinvertering",
+      "description": "Rettet et problem, hvor flashværdien blev inverteret (viste 'Ja', når det skulle have været 'Nej')."
+    }
+  ],
+  "patches": [
+    {
+      "version": "1.2.2",
+      "description": "Forbedret lokalisering for nye sprog."
+    },
+    {
+      "version": "1.2.1",
+      "description": "Forbedrede oversættelser for konsistens med iOS-appen plus mindre UI-forbedringer."
+    }
+  ]
+}

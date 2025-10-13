@@ -1,0 +1,52 @@
+{
+  "version": "1.9.0",
+  "version_short": "1.9",
+  "url_slug": "1-9-ios",
+  "platform": "ios",
+  "release_date": "2025-09-18T10:00:00.000Z",
+  "title": "Subdosare, glisare pentru mutare și îmbunătățiri export TXT",
+  "summary": "Organizează biblioteca de filme cu subdosare imbricate până la 5 niveluri adâncime. Această actualizare aduce și gestionare mai ușoară a filmelor cu gesturi glisare și formatare îmbunătățită a exportului TXT pentru documentare mai bună.",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Organizare cu dosare imbricate pentru utilizatorii Pro"
+    },
+    {
+      "type": "paragraph",
+      "content": "Utilizatorii Pro pot acum crea subdosare până la 5 niveluri adâncime, permițând organizarea detaliată a arhivelor de film. Structurează-ți biblioteca pe an, proiect, tip de film sau orice ierarhie care se potrivește fluxului tău de lucru. Aceasta face mai ușor să localizezi fotografii specifice în colecții extinse de filme și menține filmele conexe grupate logic împreună."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/{{ lang }}/changelog/frames-1.9.0-1.png",
+      "image_2x": "/lib/img/{{ lang }}/changelog/frames-1.9.0-1@2x.png",
+      "alt": "Aplicația Frames arătând organizarea cu dosare imbricate pentru arhive de filme",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Gestionare îmbunătățită a filmelor"
+    },
+    {
+      "type": "paragraph",
+      "content": "Gesturile de glisare includ acum un buton Mută, făcând mai rapid relocarea filmelor și dosarelor. Am remediat și o problemă unde exporturile TXT ar omite anul când acesta se potrivea cu anul curent, asigurând informații complete de dată în toate exporturile."
+    }
+  ],
+  "improvements": [
+    "Adăugat suport pentru subdosare până la 5 niveluri adâncime pentru utilizatorii Pro",
+    "Gesturile de glisare includ acum butonul Mută pentru filme și dosare",
+    "Navigare îmbunătățită în dosare cu suport breadcrumb",
+    "Consistență îmbunătățită a localizării pentru mai multe limbi"
+  ],
+  "fixes": [
+    {
+      "title": "Afișare an export TXT",
+      "description": "Remediat o problemă unde exporturile TXT ar omite anul când acesta se potrivea cu anul curent. Anul este acum întotdeauna inclus pentru informații complete de dată."
+    }
+  ],
+  "patches": [],
+  "meta_title": "Subdosare, glisare pentru mutare și îmbunătățiri export TXT · Frames",
+  "meta_description": "Organizează biblioteca de filme cu subdosare imbricate până la 5 niveluri adâncime."
+}

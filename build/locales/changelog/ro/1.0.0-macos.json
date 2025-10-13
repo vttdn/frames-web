@@ -1,0 +1,78 @@
+{
+  "version": "1.0.0",
+  "version_short": "1.0",
+  "url_slug": "1-0-macos",
+  "platform": "macos",
+  "release_date": "2025-04-08T10:00:00.000Z",
+  "title": "Lansarea Frames pentru macOS",
+  "meta_title": "Lansarea Frames pentru macOS · Frames",
+  "meta_description": "Integrează metadatele de fotografie pe film în imaginile scanate cu suport EXIF pentru Lightroom, Capture One și Apple Photos. Reintegrare perfectă a datelor de pe iOS.",
+  "summary": "Aplicația macOS complementară atât de așteptată este lansată, aducând reintegrare perfectă a metadatelor în imaginile de pe film scanate. Importă datele de pe iOS și integrează metadatele EXIF în fișierele JPEG.",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Reintegrare metadate pentru filmul scanat"
+    },
+    {
+      "type": "paragraph",
+      "content": "Frames pentru macOS rezolvă cea mai solicitată funcționalitate din comunitatea de fotografie pe film: reintegrarea metadatelor în imaginile scanate. Importă fișierele .frames de pe iOS, adaugă imaginile JPEG scanate, iar aplicația potrivește cadrele cu fotografiile. Setările de expunere, datele camerei, informațiile obiectivului, filmele și notele de fotografiere sunt integrate ca metadate EXIF care funcționează perfect cu Lightroom, Capture One și Apple Photos."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.0.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.0.0-1@2x.png",
+      "alt": "Aplicația Frames pentru macOS pentru integrarea metadatelor EXIF în fotografii scanate",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Flux de lucru simplu, rezultate profesionale"
+    },
+    {
+      "type": "paragraph",
+      "content": "Fluxul de lucru este simplu: importă fișierul .frames, adaugă imaginile scanate, potrivește cadrele cu fotografiile și exportă. Aplicația gestionează automat integrarea EXIF, asigurându-te că documentația fotografiei analogice devine înregistrări digitale permanente. Datele de pe film se transferă perfect de la înregistrarea în teren pe iOS la arhivarea finală pe macOS."
+    }
+  ],
+  "improvements": [
+    "Importă fișiere .frames de pe iOS",
+    "Suport pentru fișiere JPEG cu integrare completă a metadatelor",
+    "Potrivire automată cadru-la-fotografie",
+    "Integrare metadate EXIF compatibilă cu Lightroom, Capture One și Apple Photos",
+    "Design nativ macOS conform Ghidurilor de interfață umană Apple",
+    "Disponibil în 7 limbi: engleză, franceză, spaniolă, italiană, portugheză, germană și olandeză"
+  ],
+  "fixes": [],
+  "patches": [
+    {
+      "version": "1.0.1",
+      "description": "Suport adăugat pentru limba franceză."
+    },
+    {
+      "version": "1.0.2",
+      "description": "Extins la 7 limbi: engleză, franceză, spaniolă, italiană, portugheză, germană și olandeză."
+    },
+    {
+      "version": "1.0.3",
+      "description": "Suport lingvistic îmbunătățit."
+    },
+    {
+      "version": "1.0.4",
+      "description": "Acum compatibil cu macOS 15.0 și versiuni ulterioare."
+    },
+    {
+      "version": "1.0.5",
+      "description": "Fotografiile exportate păstrează acum numele original al fișierelor."
+    },
+    {
+      "version": "1.0.6",
+      "description": "Iconiță aplicație reproiectată."
+    },
+    {
+      "version": "1.0.7",
+      "description": "Rafinare minoră a logo-ului aplicației."
+    }
+  ]
+}

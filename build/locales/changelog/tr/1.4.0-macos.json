@@ -1,0 +1,72 @@
+{
+  "version": "1.4.0",
+  "version_short": "1.4",
+  "url_slug": "1-4-macos",
+  "platform": "macos",
+  "release_date": "2025-09-18T10:00:00.000Z",
+  "title": "Klavye Kısayolları, Doğal Denetçi ve Performans",
+  "meta_title": "Klavye Kısayolları, Doğal Denetçi ve Performans · Frames",
+  "meta_description": "Klavye kısayolları ve doğal macOS denetçi paneli ile gezinin. Daha hızlı meta veri entegrasyonu için geliştirilmiş performans, daha temiz ve daha profesyonel arayüz.",
+  "summary": "Klavye navigasyonu, doğal denetçi paneli, daha temiz tasarım ve daha hızlı, daha duyarlı meta veri entegrasyonu için optimize edilmiş performans ile geliştirilmiş macOS arayüzü.",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Klavye Navigasyonu ve Doğal Kontroller"
+    },
+    {
+      "type": "paragraph",
+      "content": "Ok tuşlarıyla karelerde hızlıca gezinin, Backspace ile ekli fotoğrafları silin ve fotoğraf seçmek için Enter'a basın. Özel kenar çubuğu, Apple'ın tasarım diline uyan daha cilalı, sistemle entegre bir deneyim için macOS doğal denetçi paneliyle değiştirildi."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-mac-1.4.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-mac-1.4.0-1@2x.png",
+      "alt": "Film meta veri iş akışı için klavye kısayolları ve doğal denetçiye sahip Frames macOS uygulaması",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Rafine Edilmiş Arayüz ve Performans"
+    },
+    {
+      "type": "paragraph",
+      "content": "Daha temiz, daha profesyonel bir görünüm için arayüz genelinde görsel kusurlar kaldırıldı. Kod mimarisi daha iyi uygulama yanıt verme ve kararlılık için optimize edildi, bu da meta veri entegrasyon iş akışlarını daha hızlı ve daha güvenilir hale getiriyor."
+    }
+  ],
+  "improvements": [
+    "Kare göz atma için ok tuşlarıyla klavye navigasyonu eklendi",
+    "Ekli fotoğrafları silmek için Backspace kısayolu eklendi",
+    "Fotoğraf seçmek için Enter kısayolu eklendi",
+    "Özel kenar çubuğu macOS doğal denetçi paneliyle değiştirildi",
+    "Daha temiz arayüz için görsel kusurlar kaldırıldı",
+    "Daha iyi performans için kod mimarisi optimize edildi",
+    "Uygulama genelinde iyileştirilmiş yanıt verme",
+    "Geliştirilmiş genel kararlılık"
+  ],
+  "fixes": [],
+  "patches": [
+    {
+      "version": "1.3.5",
+      "description": "macOS 26 için uygulama simgesi güncellendi."
+    },
+    {
+      "version": "1.3.4",
+      "description": "JPEG ve TIFF için meta veri entegrasyonu artık mevcut verileri korur. Yalnızca Frames tarafından kaydedilen bilgiler eklenir."
+    },
+    {
+      "version": "1.3.3",
+      "description": "EXIF meta verilerine maksimum ve minimum diyafram entegrasyonu eklendi. Lens özellik desteği eklendi."
+    },
+    {
+      "version": "1.3.2",
+      "description": "Küçük hata düzeltmeleri ve performans iyileştirmeleri."
+    },
+    {
+      "version": "1.3.1",
+      "description": "iOS'tan yeni deklanşör hızları için destek eklendi. Uygulama artık varsayılan kutu hızı yerine özel ISO değerine öncelik veriyor."
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "version": "1.6.0",
+  "version_short": "1.6",
+  "url_slug": "1-6-ios",
+  "platform": "ios",
+  "release_date": "2025-09-05T10:00:00.000Z",
+  "title": "Brugerdefinerede lukkersekvenser og kortforbedringer",
+  "summary": "Indstil brugerdefinerede lukkersekvenser pr. kamera og vis kun de hastigheder, dit kamera faktisk understøtter. Denne opdatering bringer også forbedret korthåndtering, yderligere lukkerhastighedsindstillinger og eksportfremgangsindikatorer.",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Brugerdefineret lukkertidskontrol"
+    },
+    {
+      "type": "paragraph",
+      "content": "Konfigurer hvilke lukkertider, der vises i optagerens skyder og billedindstillinger pr. kamera. Hvis dit kamera kun har hastigheder fra 1/1000 til 1 sekund, kan du skjule de udvidede områdeindstillinger. Dette holder din optagersgrænseflade ren og forhindrer utilsigtet logning af hastigheder, dit kamera ikke understøtter. Brugerdefinerede sekvenser synkroniserer med Mac-appen for konsistente metadata på tværs af enheder."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/{{ lang }}/changelog/frames-1.6.0-1.png",
+      "image_2x": "/lib/img/{{ lang }}/changelog/frames-1.6.0-1@2x.png",
+      "alt": "Frames filmfotografi-app, der viser brugerdefinerede lukkersekvenser og kortforbedringer",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Forbedrede kort- og eksportfunktioner"
+    },
+    {
+      "type": "paragraph",
+      "content": "Kortvisning håndterer nu koordinater mere pålideligt med forbedret gestussupport til panorering og zoom. Vi har tilføjet almindeligt anvendte lukkertider (1/160, 1/80, 1/40, 1/20), som tidligere manglede. Eksportoperationer viser nu en fremgangsindikator, så du ved, hvornår dine filer genereres, før arket til deling vises."
+    }
+  ],
+  "improvements": [
+    "Tilføjet brugerdefinerede lukkersekvenser pr. kamera",
+    "Forbedret korthåndtering af koordinater og gestussupport",
+    "Tilføjet manglende lukkertider: 1/160, 1/80, 1/40 og 1/20",
+    "Tilføjet eksportfremgangsindikator, før arket til deling vises",
+    "Forbedret skyderpræcision i optagervisning"
+  ],
+  "fixes": [
+    {
+      "title": "Optagerskyderpræcision",
+      "description": "Rettede optagerskydere til at matche både korrekt værdi og visuel position."
+    }
+  ],
+  "patches": [],
+  "meta_title": "Brugerdefinerede lukkersekvenser og kortforbedringer · Frames",
+  "meta_description": "Indstil brugerdefinerede lukkersekvenser pr. kamera og vis kun de hastigheder, dit kamera faktisk understøtter."
+}

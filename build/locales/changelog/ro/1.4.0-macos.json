@@ -1,0 +1,72 @@
+{
+  "version": "1.4.0",
+  "version_short": "1.4",
+  "url_slug": "1-4-macos",
+  "platform": "macos",
+  "release_date": "2025-09-18T10:00:00.000Z",
+  "title": "Comenzi rapide tastatură, inspector nativ și performanță",
+  "meta_title": "Comenzi rapide tastatură, inspector nativ și performanță · Frames",
+  "meta_description": "Navighează cu comenzi rapide de tastatură și panou inspector nativ macOS. Performanță sporită pentru reintegrare mai rapidă a metadatelor cu interfață mai curată și profesională.",
+  "summary": "Interfață macOS îmbunătățită cu navigare prin tastatură, panou inspector nativ, design mai curat și performanță optimizată pentru reintegrare mai rapidă și mai receptivă a metadatelor.",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Navigare prin tastatură și controale native"
+    },
+    {
+      "type": "paragraph",
+      "content": "Navighează rapid prin cadre cu săgețile, șterge fotografiile atașate cu Backspace și apasă Enter pentru a selecta fotografii. Bara laterală personalizată a fost înlocuită cu un panou inspector nativ macOS pentru o experiență mai rafinată, integrată în sistem, care urmează limbajul de design Apple."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-mac-1.4.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-mac-1.4.0-1@2x.png",
+      "alt": "Aplicația Frames pentru macOS cu comenzi rapide tastatură și inspector nativ",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Interfață rafinată și performanță"
+    },
+    {
+      "type": "paragraph",
+      "content": "Artefactele vizuale au fost eliminate din întreaga interfață pentru un aspect mai curat și mai profesional. Arhitectura codului a fost optimizată pentru reactivitate și stabilitate mai bună a aplicației, făcând fluxurile de lucru de reintegrare a metadatelor mai rapide și mai fiabile."
+    }
+  ],
+  "improvements": [
+    "Adăugată navigare prin tastatură cu săgeți pentru navigarea cadrelor",
+    "Adăugată comandă rapidă Backspace pentru ștergerea fotografiilor atașate",
+    "Adăugată comandă rapidă Enter pentru selectarea fotografiilor",
+    "Înlocuită bara laterală personalizată cu panou inspector nativ macOS",
+    "Eliminate artefacte vizuale pentru interfață mai curată",
+    "Arhitectură cod optimizată pentru performanță mai bună",
+    "Reactivitate îmbunătățită a aplicației în general",
+    "Stabilitate generală sporită"
+  ],
+  "fixes": [],
+  "patches": [
+    {
+      "version": "1.3.5",
+      "description": "Iconiță aplicație actualizată pentru macOS 26."
+    },
+    {
+      "version": "1.3.4",
+      "description": "Reintegrarea metadatelor pentru JPEG și TIFF păstrează acum datele existente. Doar informațiile înregistrate de Frames sunt adăugate."
+    },
+    {
+      "version": "1.3.3",
+      "description": "Adăugată reintegrare a diafragmei maxime și minime în metadatele EXIF. Adăugat suport pentru specificații obiectiv."
+    },
+    {
+      "version": "1.3.2",
+      "description": "Remedieri minore de erori și îmbunătățiri de performanță."
+    },
+    {
+      "version": "1.3.1",
+      "description": "Adăugat suport pentru viteze noi de obturator de pe iOS. Aplicația prioritizează acum rating ISO personalizat față de viteza cutiei implicite."
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "version": "1.6.0",
+  "version_short": "1.6",
+  "url_slug": "1-6-ios",
+  "platform": "ios",
+  "release_date": "2025-09-05T10:00:00.000Z",
+  "title": "Tilpassede lukkertidssekvenser og kartforbedringer",
+  "summary": "Sett tilpassede lukkertidssekvenser per kamera, og vis bare hastighetene kameraet faktisk støtter. Denne oppdateringen bringer også forbedret karthåndtering, flere lukkertidsalternativer og eksportfremgangsindikatorer.",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Tilpasset lukkertidskontroll"
+    },
+    {
+      "type": "paragraph",
+      "content": "Konfigurer hvilke lukkertider som vises i opptakerens glidebryter og bildeinnstillinger per kamera. Hvis kameraet ditt bare har hastigheter fra 1/1000 til 1 sekund, kan du skjule de utvidede områdealternativene. Dette holder opptakergrensesnittet ditt ryddig og forhindrer utilsiktet logging av hastigheter kameraet ditt ikke støtter. Tilpassede sekvenser synkroniseres med Mac-appen for konsistente metadata på tvers av enheter."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/{{ lang }}/changelog/frames-1.6.0-1.png",
+      "image_2x": "/lib/img/{{ lang }}/changelog/frames-1.6.0-1@2x.png",
+      "alt": "Frames filmfotografiapp som viser tilpassede lukkertidssekvenser og kartforbedringer",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Forbedrede kart- og eksportfunksjoner"
+    },
+    {
+      "type": "paragraph",
+      "content": "Kartvisning håndterer nå koordinater mer pålitelig med forbedret bevegelseskontrollstøtte for panorering og zooming. Vi har lagt til vanlige lukkertider (1/160, 1/80, 1/40, 1/20) som tidligere manglet. Eksportoperasjoner viser nå en fremgangsindikator slik at du vet når filene dine blir generert før delingsarket vises."
+    }
+  ],
+  "improvements": [
+    "Lagt til tilpassede lukkertidssekvenser per kamera",
+    "Forbedret karthåndtering av koordinater og bevegelseskontrollstøtte",
+    "Lagt til manglende lukkertider: 1/160, 1/80, 1/40 og 1/20",
+    "Lagt til eksportfremgangsindikator før delingsarket vises",
+    "Forbedret glidebryternøyaktighet i opptakervisning"
+  ],
+  "fixes": [
+    {
+      "title": "Opptakerglidebryternøyaktighet",
+      "description": "Fikset opptakerglidebrytere slik at de matcher både riktig verdi og visuell posisjon."
+    }
+  ],
+  "patches": [],
+  "meta_title": "Tilpassede lukkertidssekvenser og kartforbedringer · Frames",
+  "meta_description": "Sett tilpassede lukkertidssekvenser per kamera, og vis bare hastighetene kameraet faktisk støtter."
+}

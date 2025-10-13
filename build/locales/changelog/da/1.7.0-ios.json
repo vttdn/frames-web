@@ -1,0 +1,65 @@
+{
+  "version": "1.7.0",
+  "version_short": "1.7",
+  "url_slug": "1-7-ios",
+  "platform": "ios",
+  "release_date": "2025-09-10T10:00:00.000Z",
+  "title": "Fuld tilgængelighedssupport og optageforbedr inger",
+  "summary": "Denne opdatering bringer omfattende Apple-tilgængelighedssupport sammen med forbedringer af optagelsesarbejdsgang og metadatahåndtering, hvilket gør Frames mere tilgængelig og effektiv for alle filmfotografer.",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Apple-tilgængelighedsfunktioner"
+    },
+    {
+      "type": "paragraph",
+      "content": "Frames understøtter nu vigtige Apple-tilgængelighedsfunktioner, herunder større tekst, mørk grænseflade, differentier uden farve alene, tilstrækkelig kontrast og reduceret bevægelse. Disse funktioner sikrer, at appen er brugbar for fotografer med forskellige visuelle behov og præferencer og opretholder fuld funktionalitet uanset tilgængelighedsindstillinger."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.7.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.7.0-1@2x.png",
+      "alt": "Frames filmfotografi-app grænseflade med tilgængelighedsfunktioner og stor tekst-support",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Arbejdsgangs- og metadataforbedringer"
+    },
+    {
+      "type": "paragraph",
+      "content": "Appen springer nu direkte ind i din nye filmrulle, så snart den er oprettet, hvilket strømliner din arbejdsgang. Etiketter gennem hele appen er blevet raffinerede for bedre læsbarhed. Brugerdefinerede sekvenser udfylder nu automatisk min/maks blændeværdier, hvilket er særligt nyttigt til metadatagenintegrering på Mac. Vi har også rettet bevægelsesproblemer i optageren ved optagelse af optagelser med åben skyder og korrigeret værdinitialiseringsproblemer i fuld optagelsesvisning."
+    }
+  ],
+  "improvements": [
+    "Tilføjet support til Apples større tekst-tilgængelighedsfunktion",
+    "Tilføjet support til mørk grænseflade-udseende",
+    "Tilføjet support til differentier uden farve alene",
+    "Tilføjet support til tilstrækkelig kontrast",
+    "Tilføjet support til reduceret bevægelse",
+    "Spring direkte ind i nye filmruller efter oprettelse for hurtigere arbejdsgang",
+    "Forbedret etiketklarhed gennem hele appen",
+    "Automatisk udfyldning af min/maks blænde ved brug af brugerdefinerede sekvenser"
+  ],
+  "fixes": [
+    {
+      "title": "Optagerbevægelsesproblem",
+      "description": "Rettet bevægelsesproblem i optageren, når et optagelse optages med åben skyder."
+    },
+    {
+      "title": "Optagerværdiinitialisering",
+      "description": "Rettet et problem med værdier, der ikke initialiseres korrekt ved åbning af optageren i fuld visning."
+    }
+  ],
+  "patches": [
+    {
+      "version": "1.7.1",
+      "description": "Rettet objektivvisning, der viste redundant blændeinfo i valglister. Rettet billeder, der kunne redigeres, når redigering var deaktiveret."
+    }
+  ],
+  "meta_title": "Fuld tilgængelighedssupport og optageforebedringer · Frames",
+  "meta_description": "Denne opdatering bringer omfattende Apple-tilgængelighedssupport sammen med forbedringer af optagelsesarbejdsgang og metadatahåndtering, hvilket gør Frames mere..."
+}

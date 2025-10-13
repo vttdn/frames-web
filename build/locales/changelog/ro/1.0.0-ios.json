@@ -1,0 +1,150 @@
+{
+  "version": "1.0.0",
+  "version_short": "1.0",
+  "url_slug": "1-0-ios",
+  "platform": "ios",
+  "release_date": "2025-04-01T03:02:00.000Z",
+  "title": "Lansarea Frames: Carnetul tău de fotografie analogică",
+  "meta_title": "Lansarea Frames: Carnetul tău de fotografie analogică · Frames",
+  "meta_description": "Urmărește metadatele de fotografie pe film cu iOS și integrează datele EXIF în imaginile scanate cu macOS. Flux de lucru complet pentru fotografie analogică cu peste 200 de filme.",
+  "summary": "Frames este lansat ca o reconstrucție completă a Datafilm, aducând o aplicație iOS rafinată pentru înregistrarea metadatelor de fotografie pe film în teren, împreună cu o nouă aplicație macOS pentru integrarea acestor date în imaginile scanate.",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Capturează și organizează filmele tale"
+    },
+    {
+      "type": "paragraph",
+      "content": "Frames este carnetul tău digital pentru fotografia analogică, conceput pentru a urmări setările fiecărei fotografii și a integra metadatele în imaginile scanate. Înregistrează fiecare detaliu important pentru fiecare cadru: distanța focală, viteza obturatorului, compensarea expunerii, diafragma, setările blițului, camera, obiectivul, filmul, data, ora și geolocalizarea."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.0.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.0.0-1@2x.png",
+      "alt": "Interfața aplicației Frames pentru înregistrarea metadatelor de fotografie analogică",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "list",
+      "items": [
+        {
+          "title": "Înregistrare completă a metadatelor",
+          "description": "Urmărește numărul cadrului, distanța focală, viteza obturatorului, compensarea expunerii, diafragma, setările blițului, camera, obiectivul, filmul, data, ora și locația."
+        },
+        {
+          "title": "Imagini de referință",
+          "description": "Atașează imagini de referință la fiecare cadru pentru context vizual rapid la potrivirea scanărilor."
+        },
+        {
+          "title": "Vizualizare hartă interactivă",
+          "description": "Vezi fotografiile de pe film pe o hartă interactivă pentru a reface traseul unde a fost capturat fiecare cadru."
+        },
+        {
+          "title": "Organizare în dosare",
+          "description": "Organizează biblioteca de filme cu dosare și instrumente puternice de căutare pentru a găsi orice cadru instant."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Exportă și sincronizează datele tale"
+    },
+    {
+      "type": "paragraph",
+      "content": "Aplicația macOS complementară rezolvă cea mai solicitată funcționalitate din comunitatea de fotografie pe film: reintegrarea metadatelor în imaginile JPEG scanate. Exportă metadatele ca fișiere JSON (.frames), distribuie înregistrările între dispozitivele Apple și folosește aplicația macOS pentru a integra date EXIF care funcționează perfect cu Lightroom, Capture One și Apple Photos."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Optimizat pentru fotografia analogică"
+    },
+    {
+      "type": "list",
+      "items": [
+        {
+          "title": "Controale adaptive",
+          "description": "Controalele se adaptează la caracteristicile echipamentului tău pentru înregistrare mai rapidă."
+        },
+        {
+          "title": "Completare automată inteligentă",
+          "description": "Completarea automată inteligentă pentru obiectiv, cameră, film și ISO economisește timp în teren."
+        },
+        {
+          "title": "Peste 200 de filme",
+          "description": "Selecție preîncărcată de filme populare de la producători majori."
+        },
+        {
+          "title": "Design nativ Apple",
+          "description": "Urmează Ghidurile de interfață umană Apple pentru o experiență fluidă și intuitivă."
+        },
+        {
+          "title": "Performanță optimizată",
+          "description": "Funcționează fluent chiar și pe modelele mai vechi de iPhone."
+        }
+      ]
+    }
+  ],
+  "improvements": [
+    "Reconstrucție completă de la zero cu arhitectură rafinată",
+    "Înregistrează metadate complete ale cadrului: expunere, cameră, obiectiv, film, locație",
+    "Marcare automată a datei și orei pentru fiecare cadru",
+    "Atașare de imagini de referință pentru potrivirea scanărilor",
+    "Organizare în dosare pentru biblioteci de filme",
+    "Căutare puternică în toate cadrele înregistrate",
+    "Vizualizare hartă interactivă care arată locațiile de fotografiere",
+    "Aplicație macOS complementară pentru integrarea metadatelor EXIF",
+    "Compatibilitate completă cu Lightroom, Capture One și Apple Photos",
+    "Design orientat spre confidențialitate, fără conturi sau dependență de cloud",
+    "Interfață de bara de instrumente îmbunătățită",
+    "Suport adăugat pentru mai multe limbi, inclusiv franceză, germană, spaniolă, italiană, olandeză, portugheză, poloneză și suedeză"
+  ],
+  "fixes": [
+    "Remediat problema care bloca ecranul când se adăuga o cameră sau obiectiv nou pe unele dispozitive",
+    "Remediat URL-ul pentru recenzie aplicație"
+  ],
+  "patches": [
+    {
+      "version": "1.0.1",
+      "date": "2025-04-04",
+      "description": "Îmbunătățiri minore și remedieri de erori"
+    },
+    {
+      "version": "1.0.2",
+      "date": "2025-04-13",
+      "description": "Remedieri minore și îmbunătățiri ale traducerilor"
+    },
+    {
+      "version": "1.0.3",
+      "date": "2025-04-15",
+      "description": "Localizare îmbunătățită"
+    },
+    {
+      "version": "1.0.4",
+      "date": "2025-04-19",
+      "description": "Interfață de bara de instrumente îmbunătățită și localizări extinse"
+    },
+    {
+      "version": "1.0.5",
+      "date": "2025-04-21",
+      "description": "Localizări adăugate"
+    },
+    {
+      "version": "1.0.6",
+      "date": "2025-04-23",
+      "description": "Remediat problema care bloca ecranul când se adăuga o cameră sau obiectiv nou"
+    },
+    {
+      "version": "1.0.7",
+      "date": "2025-04-28",
+      "description": "Remediat URL-ul pentru recenzie aplicație"
+    },
+    {
+      "version": "1.0.8",
+      "date": "2025-05-20",
+      "description": "Adăugat compatibilitate cu iOS 18.0 și versiuni ulterioare"
+    }
+  ]
+}

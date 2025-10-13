@@ -1,0 +1,47 @@
+{
+  "version": "1.11.0",
+  "version_short": "1.11",
+  "url_slug": "1-11-ios",
+  "platform": "ios",
+  "release_date": "2025-10-02T10:00:00.000Z",
+  "title": "Målemodusmetadata og ytelsesforbedringer",
+  "summary": "Frames registrerer nå kameraets målemodus sammen med eksponeringsdata, noe som gir deg en mer komplett oversikt over hvordan hvert bilde ble målt. Denne oppdateringen bringer også ytelsesforbedringer for en raskere, mer stabil opplevelse i hele appen.",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Målemodusregistrering"
+    },
+    {
+      "type": "paragraph",
+      "content": "Du kan nå registrere hvilken målemodus kameraet ditt brukte for hvert bilde. Enten du fotograferer med midtveid, punkt eller evaluerende måling, registrerer Frames disse metadataene sammen med dine eksisterende eksponeringsinnstillinger. Dette hjelper deg med å forstå hvordan kameraet ditt målte lys for hvert bilde og finpusse tilnærmingen din til eksponering over tid."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/{{ lang }}/changelog/frames-1.11.0-1.png",
+      "image_2x": "/lib/img/{{ lang }}/changelog/frames-1.11.0-1@2x.png",
+      "alt": "Frames filmfotografiapp som viser målemodusmetadataregistrering for eksponeringsanalyse",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Ytelsesforbedringer"
+    },
+    {
+      "type": "paragraph",
+      "content": "Forbedringer under panseret gjør Frames raskere og mer responsiv. Navigering mellom filmruller, bildeopptak og metadataredigering drar alle nytte av optimalisert ytelse. Disse forbedringene bidrar til en jevnere opplevelse når du håndterer din analoge fotografiarbeidsflyt."
+    }
+  ],
+  "improvements": [
+    "Lagt til målemodusmetadatafelt for omfattende eksponeringsdokumentasjon",
+    "Forbedret app-ytelse for raskere navigering og bildeopptak",
+    "Forbedret stabilitet ved bytte mellom filmruller og redigering av bilder",
+    "Optimalisert minnebruk for jevnere drift med store filmbibliotek"
+  ],
+  "fixes": [],
+  "patches": [],
+  "meta_title": "Målemodusmetadata og ytelsesforbedringer · Frames",
+  "meta_description": "Frames registrerer nå kameraets målemodus sammen med eksponeringsdata, noe som gir deg en mer komplett oversikt over hvordan hvert bilde ble målt."
+}

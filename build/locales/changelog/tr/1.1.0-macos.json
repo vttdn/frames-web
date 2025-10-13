@@ -1,0 +1,37 @@
+{
+  "version": "1.1.0",
+  "version_short": "1.1",
+  "url_slug": "1-1-macos",
+  "platform": "macos",
+  "release_date": "2025-06-27T10:00:00.000Z",
+  "title": "TIFF Dosya Desteği",
+  "meta_title": "TIFF Dosya Desteği · Frames",
+  "meta_description": "Tam meta veri entegrasyonuyla TIFF dosyalarını içe ve dışa aktarın. Sorunsuz EXIF entegrasyon iş akışıyla yüksek kaliteli taramalar için profesyonel format desteği.",
+  "summary": "Artık tam meta veri entegrasyonuyla TIFF dosyalarını içe ve dışa aktarabilir, profesyonel iş akışları için JPEG'in ötesinde format desteğini genişletebilirsiniz.",
+  "sections": [
+    {
+      "type": "paragraph",
+      "content": "TIFF desteği macOS için Frames'e geliyor. TIFF taramalarını içe aktarın ve film rulosu meta verilerinizi JPEG dosyaları için kullandığınız aynı iş akışıyla yerleştirin. TIFF dosyaları meta veri entegrasyon sürecinde sorunsuz çalışır ve analog fotoğrafçılık notlarınızın formatından bağımsız olarak görüntülerinizle birlikte ilerlemesini sağlar."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-mac-1.1.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-mac-1.1.0-1@2x.png",
+      "alt": "Profesyonel analog fotoğrafçılık iş akışları için TIFF dosya desteğine sahip Frames macOS uygulaması",
+      "width": "400",
+      "height": "300"
+    }
+  ],
+  "improvements": [
+    "TIFF dosya içe aktarma desteği eklendi",
+    "Tam meta veri entegrasyonuyla TIFF dosya dışa aktarma eklendi",
+    "TIFF dosyaları mevcut meta veri entegrasyon iş akışıyla sorunsuz çalışır"
+  ],
+  "fixes": [],
+  "patches": [
+    {
+      "version": "1.1.1",
+      "description": "Belirli durumlarda .frames dosyalarının yüklenmesini engelleyebilecek bir sorun düzeltildi."
+    }
+  ]
+}

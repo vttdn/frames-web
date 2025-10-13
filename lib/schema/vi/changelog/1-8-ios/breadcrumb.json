@@ -1,0 +1,23 @@
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://withframes.com/vi/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Nhật Ký Thay Đổi",
+      "item": "https://withframes.com/vi/changelog/1-8-ios/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Xuất tệp TXT cho nhật ký phim",
+      "item": "https://withframes.com/vi/changelog/1-8-ios/"
+    }  ]
+}

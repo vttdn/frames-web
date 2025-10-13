@@ -1,0 +1,43 @@
+{
+  "version": "1.4.0",
+  "version_short": "1.4",
+  "url_slug": "1-4-ios",
+  "platform": "ios",
+  "release_date": "2025-08-20T10:00:00.000Z",
+  "title": "Hỗ trợ ghi lại bộ lọc",
+  "meta_title": "Hỗ trợ ghi lại bộ lọc · Frames",
+  "meta_description": "Ghi lại bộ lọc UV, ND, CPL và các bộ lọc khác cho từng khung hình. Tài liệu analog hoàn chỉnh với siêu dữ liệu toàn diện đồng bộ với Mac để nhúng EXIF đầy đủ.",
+  "summary": "Ghi lại quy trình analog hoàn chỉnh của bạn bằng cách ghi lại bộ lọc cùng với máy ảnh, ống kính và phim. Giờ đây bạn có thể ghi lại bộ lọc UV, ND, CPL và các bộ lọc khác được sử dụng cho mỗi bức ảnh.",
+  "sections": [
+    {
+      "type": "paragraph",
+      "content": "Bộ lọc hiện là một phần trong quy trình ghi lại phim của bạn. Ghi lại bộ lọc nào bạn đã sử dụng cho mỗi khung hình, bao gồm UV, ND, CPL và nhiều hơn nữa. Điều này hoàn thiện tài liệu analog của bạn bằng cách ghi lại mọi yếu tố ảnh hưởng đến ảnh cuối cùng của bạn, từ thân máy ảnh và ống kính đến loại phim và bộ lọc. Dữ liệu bộ lọc được bao gồm trong tất cả các xuất và đồng bộ với ứng dụng Mac để lưu giữ bản ghi toàn diện."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/{{ lang }}/changelog/frames-1.4.0-1.png",
+      "image_2x": "/lib/img/{{ lang }}/changelog/frames-1.4.0-1@2x.png",
+      "alt": "Ứng dụng nhiếp ảnh phim Frames hiển thị hỗ trợ ghi lại bộ lọc cho bộ lọc UV, ND và CPL",
+      "width": "400",
+      "height": "300"
+    }
+  ],
+  "improvements": [
+    "Thêm hỗ trợ ghi lại bộ lọc (UV, ND, CPL và nhiều hơn)",
+    "Bộ lọc được bao gồm trong tất cả định dạng xuất",
+    "Dữ liệu bộ lọc đồng bộ với ứng dụng Mac",
+    "Cải thiện hiệu suất nhỏ",
+    "Cải thiện độ ổn định chung"
+  ],
+  "fixes": [],
+  "patches": [
+    {
+      "version": "1.4.1",
+      "description": "Khắc phục sự cố khiến chỉnh sửa một cuộn phim trong thư mục con sẽ di chuyển nó trở lại thư mục gốc."
+    },
+    {
+      "version": "1.4.2",
+      "description": "Tinh chỉnh bản dịch để nhất quán với ứng dụng Mac. Khắc phục hiển thị quốc gia tìm kiếm vị trí. Thêm giá trị mặc định tốc độ màn trập và khẩu độ khi tạo cuộn phim."
+    }
+  ]
+}

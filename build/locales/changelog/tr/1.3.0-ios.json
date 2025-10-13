@@ -1,0 +1,33 @@
+{
+  "version": "1.3.0",
+  "version_short": "1.3",
+  "url_slug": "1-3-ios",
+  "platform": "ios",
+  "release_date": "2025-07-18T10:00:00.000Z",
+  "title": "GPX Dışa Aktarma ve Daha Hızlı Dosya Oluşturma",
+  "meta_title": "GPX Dışa Aktarma ve Daha Hızlı Dosya Oluşturma · Frames",
+  "meta_description": "Film rulosu konumlarını haritalama yazılımı için GPX dosyaları olarak dışa aktarın. Büyük film rulosu dışa aktarmaları için geliştirilmiş güvenilirlikle önemli ölçüde daha hızlı dosya oluşturma.",
+  "summary": "Pro kullanıcılar artık konum takibi için film rulolarını GPX dosyaları olarak dışa aktarabilir. Bu güncelleme ayrıca tüm formatlarda daha hızlı, daha güvenilir dosya dışa aktarmaları için performans iyileştirmeleri getiriyor.",
+  "sections": [
+    {
+      "type": "paragraph",
+      "content": "Film rulosu konumlarınızı haritalama uygulamalarında çekim konumlarını görselleştirmek veya fotoğraf yönetim yazılımına aktarmak için GPX dosyaları olarak dışa aktarın. Konum verisi olan her kare GPX izinde bir yol noktası haline gelir. Dosya dışa aktarma performansı tüm formatlarda iyileştirildi, bu da birçok kareye sahip film ruloları için bile .FRAMES, TXT ve GPX dosyalarının oluşturulmasını daha hızlı hale getiriyor."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/{{ lang }}/changelog/frames-1.3.0-1.png",
+      "image_2x": "/lib/img/{{ lang }}/changelog/frames-1.3.0-1@2x.png",
+      "alt": "GPX konum dışa aktarma ve dosya oluşturma özellikleri ile Frames analog fotoğrafçılık uygulaması",
+      "width": "400",
+      "height": "300"
+    }
+  ],
+  "improvements": [
+    "Pro kullanıcılar için GPX dosya dışa aktarma eklendi",
+    "Önemli ölçüde daha hızlı dosya dışa aktarma oluşturma",
+    "Büyük film ruloları için geliştirilmiş dışa aktarma güvenilirliği",
+    "Dışa aktarma işlemleri sırasında optimize edilmiş bellek kullanımı"
+  ],
+  "fixes": [],
+  "patches": []
+}

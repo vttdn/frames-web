@@ -1,0 +1,150 @@
+{
+  "version": "1.0.0",
+  "version_short": "1.0",
+  "url_slug": "1-0-ios",
+  "platform": "ios",
+  "release_date": "2025-04-01T03:02:00.000Z",
+  "title": "Frames lancering: Din notesbog til analog fotografering",
+  "meta_title": "Frames lancering: Din notesbog til analog fotografering · Frames",
+  "meta_description": "Registrer filmfotografimetadata i marken med iOS og integrer EXIF-data i scannede billeder med macOS. Komplet analog arbejdsgang med 200+ filmtyper.",
+  "summary": "Frames lanceres som en komplet genopbygning af Datafilm og bringer en raffineret iOS-app til logning af filmfotografimetadata i marken, parret med en ny macOS-app til integrering af disse data i dine scannede billeder.",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Optag og organiser dine filmruller"
+    },
+    {
+      "type": "paragraph",
+      "content": "Frames er din digitale notesbog til analog fotografering, designet til at spore billedindstillinger og problemfrit integrere metadata i scannede billeder. Log alle detaljer, der betyder noget for hvert billede: brændvidde, lukkertid, eksponeringskompensation, blænde, flashindstillinger, kamera, objektiv, filmtype, dato, tidspunkt og geolokation."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.0.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.0.0-1@2x.png",
+      "alt": "Frames filmfotografi-app grænseflade til logning af analoge kamerametadata og rulledetaljer",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "list",
+      "items": [
+        {
+          "title": "Komplet metadatalogning",
+          "description": "Spor billednummer, brændvidde, lukkertid, eksponeringskompensation, blænde, flashindstillinger, kamera, objektiv, filmtype, dato, tidspunkt og lokation."
+        },
+        {
+          "title": "Referencebilleder",
+          "description": "Vedhæft referencebilleder til hvert billede for hurtig visuel kontekst ved matching af scanninger."
+        },
+        {
+          "title": "Interaktiv kortvisning",
+          "description": "Se dine filmoptagelser på et interaktivt kort for at spore, hvor hvert billede blev taget."
+        },
+        {
+          "title": "Mappeorganisering",
+          "description": "Organiser dit filmbibliotek med mapper og kraftfulde søgeværktøjer til at finde ethvert billede øjeblikkeligt."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Eksporter og synkroniser dine data"
+    },
+    {
+      "type": "paragraph",
+      "content": "Følge-macOS-appen løser den mest efterspurgte funktion fra filmfotografisamfundet: genintegrering af metadata i scannede JPEG-billeder. Eksporter dine metadata som JSON (.frames)-filer, del optegnelser på tværs af Apple-enheder, og brug macOS-appen til at integrere EXIF-data, der fungerer problemfrit med Lightroom, Capture One og Apple Fotos."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Optimeret til analog fotografering"
+    },
+    {
+      "type": "list",
+      "items": [
+        {
+          "title": "Adaptive kontrolelementer",
+          "description": "Kontrolelementer tilpasser sig dit udstyrs egenskaber for hurtigere logning."
+        },
+        {
+          "title": "Smart autoudfyldning",
+          "description": "Intelligent autoudfyldning til objektiv, kamera, filmtype og ISO sparer tid i marken."
+        },
+        {
+          "title": "200+ filmtyper",
+          "description": "Forudindlæst udvalg af populære filmtyper fra større producenter."
+        },
+        {
+          "title": "Indbygget Apple-design",
+          "description": "Følger Apples Human Interface Guidelines for en smidig, intuitiv oplevelse."
+        },
+        {
+          "title": "Ydeevneoptimeret",
+          "description": "Fungerer gnidningsløst selv på ældre iPhone-modeller."
+        }
+      ]
+    }
+  ],
+  "improvements": [
+    "Komplet genopbygning fra grunden med raffineret arkitektur",
+    "Log omfattende billedmetadata: eksponering, kamera, objektiv, film, lokation",
+    "Automatisk tidsstempel for hvert billede",
+    "Vedhæftning af referencebillede til scanmatchning",
+    "Mappeorganisering for filmrullebiblioteker",
+    "Kraftfuld søgning på tværs af alle loggede billeder",
+    "Interaktiv kortvisning, der viser optagestederne",
+    "Følge-macOS-app til EXIF-metadataintegration",
+    "Fuld kompatibilitet med Lightroom, Capture One og Apple Fotos",
+    "Privacy-first-design uden konti eller cloud-afhængighed",
+    "Forbedret værktøjslinje-brugergrænseflade",
+    "Tilføjet support for flere sprog, herunder fransk, tysk, spansk, italiensk, hollandsk, portugisisk, polsk og svensk"
+  ],
+  "fixes": [
+    "Rettet problem, hvor tilføjelse af et nyt kamera eller objektiv frøs skærmen på nogle enheder",
+    "Rettet anmeldelses-app-URL"
+  ],
+  "patches": [
+    {
+      "version": "1.0.1",
+      "date": "2025-04-04",
+      "description": "Mindre forbedringer og fejlrettelser"
+    },
+    {
+      "version": "1.0.2",
+      "date": "2025-04-13",
+      "description": "Mindre rettelser og oversættelsesforbedringer"
+    },
+    {
+      "version": "1.0.3",
+      "date": "2025-04-15",
+      "description": "Forbedret lokalisering"
+    },
+    {
+      "version": "1.0.4",
+      "date": "2025-04-19",
+      "description": "Forbedret værktøjslinje-UI og udvidede lokaliseringer"
+    },
+    {
+      "version": "1.0.5",
+      "date": "2025-04-21",
+      "description": "Tilføjet lokaliseringer"
+    },
+    {
+      "version": "1.0.6",
+      "date": "2025-04-23",
+      "description": "Rettet problem, hvor tilføjelse af et nyt kamera eller objektiv frøs skærmen på nogle enheder"
+    },
+    {
+      "version": "1.0.7",
+      "date": "2025-04-28",
+      "description": "Rettet anmeldelses-app-URL"
+    },
+    {
+      "version": "1.0.8",
+      "date": "2025-05-20",
+      "description": "Tilføjet kompatibilitet med iOS 18.0 og senere"
+    }
+  ]
+}

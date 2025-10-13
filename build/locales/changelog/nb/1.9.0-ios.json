@@ -1,0 +1,52 @@
+{
+  "version": "1.9.0",
+  "version_short": "1.9",
+  "url_slug": "1-9-ios",
+  "platform": "ios",
+  "release_date": "2025-09-18T10:00:00.000Z",
+  "title": "Undermapper, sveip for å flytte og TXT-eksportforbedringer",
+  "summary": "Organiser filmbiblioteket ditt med nestede undermapper opptil 5 nivåer dypt. Denne oppdateringen bringer også enklere filmrullehåndtering med sveipebevegelser og forbedret TXT-eksportformatering for bedre dokumentasjon.",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Nestet mappeorganisering for Pro-brukere"
+    },
+    {
+      "type": "paragraph",
+      "content": "Pro-brukere kan nå opprette undermapper opptil 5 nivåer dypt, noe som muliggjør detaljert organisering av filmarkiver. Strukturer biblioteket ditt etter år, prosjekt, filmtype eller ethvert hierarki som passer arbeidsflyten din. Dette gjør det lettere å finne spesifikke fotograferinger i omfattende filmsamlinger og holder relaterte ruller gruppert sammen logisk."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/{{ lang }}/changelog/frames-1.9.0-1.png",
+      "image_2x": "/lib/img/{{ lang }}/changelog/frames-1.9.0-1@2x.png",
+      "alt": "Frames filmfotografiapp som viser nestet mappeorganisering for filmrullearkiver",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Forbedret filmrullehåndtering"
+    },
+    {
+      "type": "paragraph",
+      "content": "Sveipebevegelser inkluderer nå en Flytt-knapp, noe som gjør det raskere å flytte filmruller og mapper. Vi har også fikset et problem der TXT-eksporter ville utelate året når det matchet inneværende år, og sikrer fullstendig datoinformasjon i alle eksporter."
+    }
+  ],
+  "improvements": [
+    "Lagt til undermappestøtte opptil 5 nivåer dypt for Pro-brukere",
+    "Sveipebevegelser inkluderer nå Flytt-knapp for filmruller og mapper",
+    "Forbedret mappenavigering med brødsmulestøtte",
+    "Forbedret lokaliseringskonsistens på tvers av flere språk"
+  ],
+  "fixes": [
+    {
+      "title": "TXT-eksportårsvisning",
+      "description": "Fikset et problem der TXT-eksporter ville utelate året når det matchet inneværende år. Året inkluderes nå alltid for fullstendig datoinformasjon."
+    }
+  ],
+  "patches": [],
+  "meta_title": "Undermapper, sveip for å flytte og TXT-eksportforbedringer · Frames",
+  "meta_description": "Organiser filmbiblioteket ditt med nestede undermapper opptil 5 nivåer dypt."
+}

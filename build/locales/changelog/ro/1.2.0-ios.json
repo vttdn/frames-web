@@ -1,0 +1,34 @@
+{
+  "version": "1.2.0",
+  "version_short": "1.2",
+  "url_slug": "1-2-ios",
+  "platform": "ios",
+  "release_date": "2025-07-17T10:00:00.000Z",
+  "title": "Setări centralizate și organizare îmbunătățită",
+  "meta_title": "Setări centralizate și organizare îmbunătățită · Frames",
+  "meta_description": "Pagină de setări unificată pentru gestionarea echipamentului, abonament și preferințe. Organizare mai bună pentru înregistrare mai rapidă și mai intuitivă.",
+  "summary": "Toate setările aplicației sunt acum unificate într-o singură pagină de Setări centralizată. Gestionează echipamentul, abonamentul și preferințele barei de instrumente dintr-o singură locație, cu aceleași funcționalități acum mai ușor de accesat și organizat.",
+  "sections": [
+    {
+      "type": "paragraph",
+      "content": "Am consolidat setările dispersate într-o singură pagină dedicată de Setări. Gestionarea echipamentului, detaliile abonamentului și personalizarea interfeței sunt toate accesibile dintr-un singur meniu. Această reorganizare face mai ușor să găsești ce ai nevoie fără să cauți prin diferite părți ale aplicației. Toate funcționalitățile existente rămân neschimbate, doar mai bine organizate pentru acces mai rapid."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/{{ lang }}/changelog/frames-1.2.0-1.png",
+      "image_2x": "/lib/img/{{ lang }}/changelog/frames-1.2.0-1@2x.png",
+      "alt": "Aplicația Frames arătând pagina de setări centralizată pentru echipament și preferințe",
+      "width": "400",
+      "height": "300"
+    }
+  ],
+  "improvements": [
+    "Adăugată pagină de Setări centralizată pentru toată configurarea aplicației",
+    "Gestionare unificată a echipamentului în Setări",
+    "Gestionare consolidată a abonamentului",
+    "Acces îmbunătățit la personalizarea aspectului barei de instrumente",
+    "Rafinări minore în întreaga aplicație"
+  ],
+  "fixes": [],
+  "patches": []
+}

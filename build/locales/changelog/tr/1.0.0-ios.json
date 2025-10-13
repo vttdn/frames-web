@@ -1,0 +1,150 @@
+{
+  "version": "1.0.0",
+  "version_short": "1.0",
+  "url_slug": "1-0-ios",
+  "platform": "ios",
+  "release_date": "2025-04-01T03:02:00.000Z",
+  "title": "Frames Lansmanı: Analog Fotoğrafçılık Defteriniz",
+  "meta_title": "Frames Lansmanı: Analog Fotoğrafçılık Defteriniz · Frames",
+  "meta_description": "iOS ile sahadaki film fotoğrafçılığı meta verilerini takip edin ve macOS ile taranmış görüntülere EXIF verisi yerleştirin. 200+ film stoğuyla eksiksiz analog iş akışı.",
+  "summary": "Frames, Datafilm'in tamamen yeniden inşa edilmiş hali olarak, sahadaki film fotoğrafçılığı meta verilerini kaydetmek için geliştirilmiş bir iOS uygulaması ve bu verileri taranmış görsellerinize yerleştirmek için yeni bir macOS uygulamasıyla birlikte geliyor.",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Film Rulolarınızı Yakalayın ve Düzenleyin"
+    },
+    {
+      "type": "paragraph",
+      "content": "Frames, analog fotoğrafçılık için dijital defterinizdir ve çekim ayarlarını takip ederek meta verileri taranmış görüntülere sorunsuzca entegre etmek üzere tasarlanmıştır. Her kare için önemli olan her detayı kaydedin: odak uzaklığı, deklanşör hızı, pozlama telafisi, diyafram, flaş ayarları, fotoğraf makinesi, lens, film stoğu, tarih, saat ve konum bilgisi."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.0.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.0.0-1@2x.png",
+      "alt": "Analog kamera meta verilerini ve rulo detaylarını kaydetmek için Frames film fotoğrafçılığı uygulama arayüzü",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "list",
+      "items": [
+        {
+          "title": "Eksiksiz Meta Veri Kaydı",
+          "description": "Kare numarası, odak uzaklığı, deklanşör hızı, pozlama telafisi, diyafram, flaş ayarları, fotoğraf makinesi, lens, film stoğu, tarih, saat ve konum bilgisini takip edin."
+        },
+        {
+          "title": "Referans Görseller",
+          "description": "Taramaları eşleştirirken hızlı görsel bağlam için her kareye referans görseller ekleyin."
+        },
+        {
+          "title": "Etkileşimli Harita Görünümü",
+          "description": "Film çekimlerinizi etkileşimli bir harita üzerinde görüntüleyerek her karenin nerede çekildiğini takip edin."
+        },
+        {
+          "title": "Klasör Organizasyonu",
+          "description": "Film kitaplığınızı klasörler ve güçlü arama araçlarıyla düzenleyerek herhangi bir kareyi anında bulun."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Verilerinizi Dışa Aktarın ve Senkronize Edin"
+    },
+    {
+      "type": "paragraph",
+      "content": "Eşlik eden macOS uygulaması, film fotoğrafçılığı topluluğunun en çok talep ettiği özelliği çözüyor: meta verileri taranmış JPEG görüntülere yeniden entegre etmek. Meta verilerinizi JSON (.frames) dosyaları olarak dışa aktarın, kayıtları Apple cihazları arasında paylaşın ve Lightroom, Capture One ve Apple Photos ile sorunsuz çalışan EXIF verilerini yerleştirmek için macOS uygulamasını kullanın."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Analog Fotoğrafçılık için Optimize Edildi"
+    },
+    {
+      "type": "list",
+      "items": [
+        {
+          "title": "Uyarlanabilir Kontroller",
+          "description": "Kontroller, daha hızlı kayıt için ekipman özelliklerinize uyum sağlar."
+        },
+        {
+          "title": "Akıllı Otomatik Doldurma",
+          "description": "Lens, fotoğraf makinesi, film stoğu ve ISO için akıllı otomatik doldurma, sahada zaman kazandırır."
+        },
+        {
+          "title": "200+ Film Stoğu",
+          "description": "Büyük üreticilerin popüler film stoklarından oluşan önceden yüklenmiş seçim."
+        },
+        {
+          "title": "Doğal Apple Tasarımı",
+          "description": "Sorunsuz ve sezgisel bir deneyim için Apple'ın İnsan Arayüzü Yönergelerini takip eder."
+        },
+        {
+          "title": "Performans Optimizasyonu",
+          "description": "Eski iPhone modellerinde bile sorunsuz çalışır."
+        }
+      ]
+    }
+  ],
+  "improvements": [
+    "Geliştirilmiş mimariyle sıfırdan tamamen yeniden inşa",
+    "Kapsamlı kare meta verisi kaydı: pozlama, fotoğraf makinesi, lens, film, konum",
+    "Her kare için otomatik zaman damgası",
+    "Tarama eşleştirmesi için referans görsel ekleme",
+    "Film rulosu kitaplıkları için klasör organizasyonu",
+    "Kaydedilen tüm karelerde güçlü arama",
+    "Çekim konumlarını gösteren etkileşimli harita görünümü",
+    "EXIF meta veri yerleştirme için eşlik eden macOS uygulaması",
+    "Lightroom, Capture One ve Apple Photos ile tam uyumluluk",
+    "Hesap veya bulut bağımlılığı olmayan gizlilik odaklı tasarım",
+    "Geliştirilmiş araç çubuğu kullanıcı arayüzü",
+    "Fransızca, Almanca, İspanyolca, İtalyanca, Hollandaca, Portekizce, Lehçe ve İsveççe dahil olmak üzere birden fazla dil desteği eklendi"
+  ],
+  "fixes": [
+    "Bazı cihazlarda yeni bir fotoğraf makinesi veya lens eklerken ekranın donduğu sorun düzeltildi",
+    "İnceleme uygulaması URL'si düzeltildi"
+  ],
+  "patches": [
+    {
+      "version": "1.0.1",
+      "date": "2025-04-04",
+      "description": "Küçük iyileştirmeler ve hata düzeltmeleri"
+    },
+    {
+      "version": "1.0.2",
+      "date": "2025-04-13",
+      "description": "Küçük düzeltmeler ve çeviri iyileştirmeleri"
+    },
+    {
+      "version": "1.0.3",
+      "date": "2025-04-15",
+      "description": "İyileştirilmiş yerelleştirme"
+    },
+    {
+      "version": "1.0.4",
+      "date": "2025-04-19",
+      "description": "Geliştirilmiş araç çubuğu kullanıcı arayüzü ve genişletilmiş yerelleştirmeler"
+    },
+    {
+      "version": "1.0.5",
+      "date": "2025-04-21",
+      "description": "Yerelleştirmeler eklendi"
+    },
+    {
+      "version": "1.0.6",
+      "date": "2025-04-23",
+      "description": "Bazı cihazlarda yeni bir fotoğraf makinesi veya lens eklerken ekranın donduğu sorun düzeltildi"
+    },
+    {
+      "version": "1.0.7",
+      "date": "2025-04-28",
+      "description": "İnceleme uygulaması URL'si düzeltildi"
+    },
+    {
+      "version": "1.0.8",
+      "date": "2025-05-20",
+      "description": "iOS 18.0 ve sonrası ile uyumluluk eklendi"
+    }
+  ]
+}

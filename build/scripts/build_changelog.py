@@ -89,28 +89,42 @@ def format_date(iso_date, lang_code='en'):
         'hi': ['जन', 'फ़र', 'मार्च', 'अप्रैल', 'मई', 'जून', 'जुल', 'अग', 'सित', 'अक्टू', 'नव', 'दिस'],
         'ru': ['янв', 'фев', 'мар', 'апр', 'май', 'июн', 'июл', 'авг', 'сен', 'окт', 'ноя', 'дек'],
         'uk': ['січ', 'лют', 'бер', 'кві', 'тра', 'чер', 'лип', 'сер', 'вер', 'жов', 'лис', 'гру'],
+        'da': ['jan', 'feb', 'mar', 'apr', 'maj', 'jun', 'jul', 'aug', 'sep', 'okt', 'nov', 'dec'],
+        'el': ['Ιαν', 'Φεβ', 'Μαρ', 'Απρ', 'Μαϊ', 'Ιουν', 'Ιουλ', 'Αυγ', 'Σεπ', 'Οκτ', 'Νοε', 'Δεκ'],
+        'fi': ['tammi', 'helmi', 'maalis', 'huhti', 'touko', 'kesä', 'heinä', 'elo', 'syys', 'loka', 'marras', 'joulu'],
+        'nb': ['jan', 'feb', 'mar', 'apr', 'mai', 'jun', 'jul', 'aug', 'sep', 'okt', 'nov', 'des'],
+        'ro': ['ian', 'feb', 'mar', 'apr', 'mai', 'iun', 'iul', 'aug', 'sep', 'oct', 'nov', 'dec'],
+        'tr': ['Oca', 'Şub', 'Mar', 'Nis', 'May', 'Haz', 'Tem', 'Ağu', 'Eyl', 'Eki', 'Kas', 'Ara'],
+        'vi': ['Thg 1', 'Thg 2', 'Thg 3', 'Thg 4', 'Thg 5', 'Thg 6', 'Thg 7', 'Thg 8', 'Thg 9', 'Thg 10', 'Thg 11', 'Thg 12'],
     }
 
     # Date format patterns per language
     date_formats = {
-        'en': '{month} {day}, {year}',      # Apr 01, 2025
-        'de': '{day}. {month} {year}',      # 01. Apr 2025
-        'es': '{day} {month} {year}',       # 01 abr 2025
-        'fr': '{day} {month} {year}',       # 01 avr 2025
-        'it': '{day} {month} {year}',       # 01 apr 2025
-        'nl': '{day} {month} {year}',       # 01 apr 2025
-        'pt': '{day} {month} {year}',       # 01 abr 2025
-        'pl': '{day} {month} {year}',       # 01 kwi 2025
-        'sv': '{day} {month} {year}',       # 01 apr 2025
-        'ja': '{year}年{month}月{day}日',    # 2025年04月01日
-        'ko': '{year}년 {month}월 {day}일',  # 2025년 04월 01일
-        'zh': '{year}年{month}月{day}日',    # 2025年04月01日
-        'zh-hant': '{year}年{month}月{day}日', # 2025年04月01日
-        'th': '{day} {month} {year}',       # 01 เม.ย. 2025
-        'id': '{day} {month} {year}',       # 01 Apr 2025
-        'hi': '{day} {month} {year}',       # 01 अक्टू 2025
-        'ru': '{day} {month} {year}',       # 01 янв 2025
-        'uk': '{day} {month} {year}',       # 01 січ 2025
+        'en': '{month} {day}, {year}',
+        'de': '{day}. {month} {year}',
+        'es': '{day} {month} {year}',
+        'fr': '{day} {month} {year}',
+        'it': '{day} {month} {year}',
+        'nl': '{day} {month} {year}',
+        'pt': '{day} {month} {year}',
+        'pl': '{day} {month} {year}',
+        'sv': '{day} {month} {year}',
+        'ja': '{year}年{month}月{day}日',
+        'ko': '{year}년 {month}월 {day}일',
+        'zh': '{year}年{month}月{day}日',
+        'zh-hant': '{year}年{month}月{day}日',
+        'th': '{day} {month} {year}',
+        'id': '{day} {month} {year}',
+        'hi': '{day} {month} {year}',
+        'ru': '{day} {month} {year}',
+        'uk': '{day} {month} {year}',
+        'da': '{day}. {month} {year}',
+        'el': '{day} {month} {year}',
+        'fi': '{day}. {month} {year}',
+        'nb': '{day}. {month} {year}',
+        'ro': '{day} {month} {year}',
+        'tr': '{day} {month} {year}',
+        'vi': '{day} {month} {year}',
     }
 
     # Get format for language, default to English

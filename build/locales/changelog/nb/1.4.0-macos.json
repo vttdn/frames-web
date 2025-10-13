@@ -1,0 +1,72 @@
+{
+  "version": "1.4.0",
+  "version_short": "1.4",
+  "url_slug": "1-4-macos",
+  "platform": "macos",
+  "release_date": "2025-09-18T10:00:00.000Z",
+  "title": "Tastatursnarveier, naturlig inspektør og ytelse",
+  "meta_title": "Tastatursnarveier, naturlig inspektør og ytelse · Frames",
+  "meta_description": "Naviger med tastatursnarveier og naturlig macOS-inspektørpanel. Forbedret ytelse for raskere metadatareintegrering med renere, mer profesjonelt grensesnitt.",
+  "summary": "Forbedret macOS-grensesnitt med tastaturnavigering, naturlig inspektørpanel, renere design og optimalisert ytelse for raskere, mer responsiv metadatareintegrering.",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Tastaturnavigering og naturlige kontroller"
+    },
+    {
+      "type": "paragraph",
+      "content": "Naviger raskt mellom bilder med piltaster, slett vedlagte foto med Backspace, og trykk Enter for å velge foto. Det tilpassede sidepanelet er erstattet med et macOS-naturlig inspektørpanel for en mer polert, systemintegrert opplevelse som følger Apples designspråk."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-mac-1.4.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-mac-1.4.0-1@2x.png",
+      "alt": "Frames macOS-app med tastatursnarveier og naturlig inspektør for filmmetadataarbeidsflyt",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Forbedret grensesnitt og ytelse"
+    },
+    {
+      "type": "paragraph",
+      "content": "Visuelle artefakter er fjernet i hele grensesnittet for et renere, mer profesjonelt utseende. Kodearkitekturen er optimalisert for bedre app-respons og stabilitet, noe som gjør metadatareintegreringsarbeidsflyter raskere og mer pålitelige."
+    }
+  ],
+  "improvements": [
+    "Lagt til tastaturnavigering med piltaster for bildeblaing",
+    "Lagt til Backspace-snarvei for å slette vedlagte foto",
+    "Lagt til Enter-snarvei for å velge foto",
+    "Erstattet tilpasset sidepanel med macOS-naturlig inspektørpanel",
+    "Fjernet visuelle artefakter for renere grensesnitt",
+    "Optimalisert kodearkitektur for bedre ytelse",
+    "Forbedret app-respons i hele appen",
+    "Forbedret generell stabilitet"
+  ],
+  "fixes": [],
+  "patches": [
+    {
+      "version": "1.3.5",
+      "description": "Oppdatert app-ikon for macOS 26."
+    },
+    {
+      "version": "1.3.4",
+      "description": "Metadatareintegrering for JPEG og TIFF bevarer nå eksisterende data. Bare Frames-innspilte opplysninger legges til."
+    },
+    {
+      "version": "1.3.3",
+      "description": "Lagt til reintegrering av maks og min blenderåpning i EXIF-metadata. Lagt til støtte for objektivspesifikasjoner."
+    },
+    {
+      "version": "1.3.2",
+      "description": "Mindre feilrettinger og ytelsesforbedringer."
+    },
+    {
+      "version": "1.3.1",
+      "description": "Lagt til støtte for nye lukkertider fra iOS. Appen prioriterer nå tilpasset ISO-rating over standard boksehastighet."
+    }
+  ]
+}

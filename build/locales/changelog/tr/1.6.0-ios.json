@@ -1,0 +1,53 @@
+{
+  "version": "1.6.0",
+  "version_short": "1.6",
+  "url_slug": "1-6-ios",
+  "platform": "ios",
+  "release_date": "2025-09-05T10:00:00.000Z",
+  "title": "Özel Deklanşör Hızı Dizileri ve Harita İyileştirmeleri",
+  "summary": "Fotoğraf makinesi başına özel deklanşör hızı dizileri ayarlayın, yalnızca makinenizin gerçekten desteklediği hızları gösterin. Bu güncelleme ayrıca iyileştirilmiş harita işleme, ek deklanşör hızı seçenekleri ve dışa aktarma ilerleme göstergeleri getiriyor.",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Özel Deklanşör Hızı Kontrolü"
+    },
+    {
+      "type": "paragraph",
+      "content": "Fotoğraf makinesi bazında kaydedici kaydırıcısında ve kare ayarlarında hangi deklanşör hızlarının görüneceğini yapılandırın. Makineniz yalnızca 1/1000'den 1 saniyeye kadar hızlara sahipse, genişletilmiş aralık seçeneklerini gizleyebilirsiniz. Bu, kaydedici arayüzünüzü temiz tutar ve makinenizin desteklemediği hızları yanlışlıkla kaydetmenizi önler. Özel diziler, cihazlar arasında tutarlı meta veri için Mac uygulamasıyla senkronize olur."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/{{ lang }}/changelog/frames-1.6.0-1.png",
+      "image_2x": "/lib/img/{{ lang }}/changelog/frames-1.6.0-1@2x.png",
+      "alt": "Özel deklanşör hızı dizileri ve harita iyileştirmeleri gösteren Frames film fotoğrafçılığı uygulaması",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Geliştirilmiş Harita ve Dışa Aktarma Özellikleri"
+    },
+    {
+      "type": "paragraph",
+      "content": "Harita görünümü artık kaydırma ve yakınlaştırma için geliştirilmiş hareket desteğiyle koordinatları daha güvenilir bir şekilde işliyor. Daha önce eksik olan yaygın olarak kullanılan deklanşör hızlarını (1/160, 1/80, 1/40, 1/20) ekledik. Dışa aktarma işlemleri artık paylaşım sayfası görünmeden önce dosyalarınızın ne zaman oluşturulduğunu bilmeniz için bir ilerleme göstergesi gösteriyor."
+    }
+  ],
+  "improvements": [
+    "Fotoğraf makinesi başına özel deklanşör hızı dizileri eklendi",
+    "İyileştirilmiş harita koordinat işleme ve hareket desteği",
+    "Eksik deklanşör hızları eklendi: 1/160, 1/80, 1/40 ve 1/20",
+    "Paylaşım sayfası görünmeden önce dışa aktarma ilerleme göstergesi eklendi",
+    "Kaydedici görünümünde geliştirilmiş kaydırıcı doğruluğu"
+  ],
+  "fixes": [
+    {
+      "title": "Kaydedici Kaydırıcısı Doğruluğu",
+      "description": "Kaydedici kaydırıcılarının hem doğru değer hem de görsel konumla eşleşmesi için düzeltildi."
+    }
+  ],
+  "patches": [],
+  "meta_title": "Özel Deklanşör Hızı Dizileri ve Harita İyileştirmeleri · Frames",
+  "meta_description": "Fotoğraf makinesi başına özel deklanşör hızı dizileri ayarlayın, yalnızca makinenizin gerçekten desteklediği hızları gösterin."
+}

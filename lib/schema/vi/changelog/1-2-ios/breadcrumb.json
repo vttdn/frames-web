@@ -1,0 +1,23 @@
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://withframes.com/vi/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Nhật Ký Thay Đổi",
+      "item": "https://withframes.com/vi/changelog/1-2-ios/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Cài đặt tập trung & Cải thiện tổ chức",
+      "item": "https://withframes.com/vi/changelog/1-2-ios/"
+    }  ]
+}

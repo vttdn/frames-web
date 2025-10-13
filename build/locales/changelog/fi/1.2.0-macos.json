@@ -1,0 +1,48 @@
+{
+  "version": "1.2.0",
+  "version_short": "1.2",
+  "url_slug": "1-2-macos",
+  "platform": "macos",
+  "release_date": "2025-08-24T10:00:00.000Z",
+  "title": "Suodintuki, japanin ja korean kielet",
+  "meta_title": "Suodintuki, japanin ja korean kielet · Frames",
+  "meta_description": "Automaattinen suodinmetatietojen upotus UV-, ND- ja CPL-suotimille. Japanin ja korean kielituki parannetulla EXIF-tiedolla, mukaan lukien kameran sarjanumerot.",
+  "summary": "Suotimet näkyvät nyt sivupalkissa ja lisätään automaattisesti metatietoihin kuvien tallennuksen yhteydessä. Tämä päivitys tuo myös japanin ja korean kielituen sekä tärkeitä vikakorjauksia.",
+  "sections": [
+    {
+      "type": "paragraph",
+      "content": "iOS:ssä kirjatut suotimet näkyvät nyt macOS-sivupalkissa ja upotetaan automaattisesti EXIF-metatietoihin integroinnin aikana. Tämä täydentää analogisen dokumentoinnin sisällyttämällä UV-, ND-, CPL- ja muut suotimet lopullisiin kuviisi. Kameran sarjanumerot sisältyvät nyt metatietoihin, ja olemme korjanneet bugin, jossa salamaarvot olivat käänteisiä. Frames on nyt saatavilla japaniksi ja koreaksi vastaten iOS:n kielilaajenusta."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-mac-1.2.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-mac-1.2.0-1@2x.png",
+      "alt": "Frames macOS-sovellus, joka näyttää suodinmetatietojen sivupalkin filmivalokuvauksen dokumentointiin",
+      "width": "400",
+      "height": "300"
+    }
+  ],
+  "improvements": [
+    "Lisätty suotimien näyttö sivupalkkiin",
+    "Suotimet lisätään automaattisesti metatietoihin kuvien tallennuksen yhteydessä",
+    "Kameran sarjanumero sisältyy nyt EXIF-metatietoihin",
+    "Lisätty japanin kielituki",
+    "Lisätty korean kielituki"
+  ],
+  "fixes": [
+    {
+      "title": "Salamaarvon kääntyminen",
+      "description": "Korjattu ongelma, jossa salamaarvo oli käänteinen (näyttäen 'Kyllä', kun sen olisi pitänyt olla 'Ei')."
+    }
+  ],
+  "patches": [
+    {
+      "version": "1.2.2",
+      "description": "Parannettu lokalisaatio uusille kielille."
+    },
+    {
+      "version": "1.2.1",
+      "description": "Parannetut käännökset johdonmukaisuuden saavuttamiseksi iOS-sovelluksen kanssa sekä pieniä käyttöliittymäparannuksia."
+    }
+  ]
+}

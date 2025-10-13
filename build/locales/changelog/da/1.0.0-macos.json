@@ -1,0 +1,78 @@
+{
+  "version": "1.0.0",
+  "version_short": "1.0",
+  "url_slug": "1-0-macos",
+  "platform": "macos",
+  "release_date": "2025-04-08T10:00:00.000Z",
+  "title": "Frames til macOS lancering",
+  "meta_title": "Frames til macOS lancering · Frames",
+  "meta_description": "Integrer filmfotografimetadata i scannede billeder med EXIF-support til Lightroom, Capture One og Apple Fotos. Genintegrer problemfrit iOS-loggingsdata.",
+  "summary": "Den længe ventede macOS-følgeapp lanceres og bringer problemfri metadatagenintegrering i scannede filmbilleder. Importer dine filmrulledata fra iOS og integrer EXIF-metadata i JPEG-filer.",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Metadatagenintegrering til scannet film"
+    },
+    {
+      "type": "paragraph",
+      "content": "Frames til macOS løser den mest efterspurgte funktion fra filmfotografisamfundet: genintegrering af metadata i scannede billeder. Importer dine .frames-filer fra iOS, træk dine scannede JPEG-billeder ind, og appen matcher billeder til fotos. Dine eksponeringsindstillinger, kameradata, objektivinformation, filmtyper og optagelsesnotater integreres som EXIF-metadata, der fungerer problemfrit med Lightroom, Capture One og Apple Fotos."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.0.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.0.0-1@2x.png",
+      "alt": "Frames macOS-app til integrering af EXIF-metadata i scannede filmfotografier",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Simpel arbejdsgang, professionelle resultater"
+    },
+    {
+      "type": "paragraph",
+      "content": "Arbejdsgangen er ligetil: importer din .frames-fil, tilføj dine scannede billeder, match billeder til fotos og eksporter. Appen håndterer EXIF-integrering automatisk og sikrer, at din analoge fotografidokumentation bliver permanente digitale optegnelser. Dine filmrulledata overføres problemfrit fra feltlogning på iOS til endelig arkivering på macOS."
+    }
+  ],
+  "improvements": [
+    "Importer .frames-filer fra iOS",
+    "JPEG-filsupport med fuld metadataintegration",
+    "Automatisk billede-til-foto-matchning",
+    "EXIF-metadataintegration kompatibel med Lightroom, Capture One og Apple Fotos",
+    "Indbygget macOS-design, der følger Apples Human Interface Guidelines",
+    "Tilgængelig på 7 sprog: engelsk, fransk, spansk, italiensk, portugisisk, tysk og hollandsk"
+  ],
+  "fixes": [],
+  "patches": [
+    {
+      "version": "1.0.1",
+      "description": "Tilføjet fransk sprogsupport."
+    },
+    {
+      "version": "1.0.2",
+      "description": "Udvidet til 7 sprog: engelsk, fransk, spansk, italiensk, portugisisk, tysk og hollandsk."
+    },
+    {
+      "version": "1.0.3",
+      "description": "Forbedret sprogsupport."
+    },
+    {
+      "version": "1.0.4",
+      "description": "Nu kompatibel med macOS 15.0 og senere."
+    },
+    {
+      "version": "1.0.5",
+      "description": "Eksporterede fotos beholder nu deres originale filnavne."
+    },
+    {
+      "version": "1.0.6",
+      "description": "Redesignet app-ikon."
+    },
+    {
+      "version": "1.0.7",
+      "description": "Mindre forbedring af app-logoet."
+    }
+  ]
+}

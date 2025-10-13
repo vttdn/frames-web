@@ -1,0 +1,65 @@
+{
+  "version": "1.7.0",
+  "version_short": "1.7",
+  "url_slug": "1-7-ios",
+  "platform": "ios",
+  "release_date": "2025-09-10T10:00:00.000Z",
+  "title": "Tam Erişilebilirlik Desteği ve Kayıt İyileştirmeleri",
+  "summary": "Bu güncelleme, kayıt iş akışı ve meta veri işleme iyileştirmelerinin yanı sıra kapsamlı Apple erişilebilirlik desteği getirerek Frames'i tüm film fotoğrafçıları için daha erişilebilir ve verimli hale getiriyor.",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Apple Erişilebilirlik Özellikleri"
+    },
+    {
+      "type": "paragraph",
+      "content": "Frames artık Daha Büyük Metin, Koyu Arayüz, Yalnızca Renk Olmadan Farklılaştır, Yeterli Kontrast ve Azaltılmış Hareket dahil olmak üzere önemli Apple erişilebilirlik özelliklerini destekliyor. Bu özellikler, uygulamanın farklı görsel ihtiyaçları ve tercihleri olan fotoğrafçılar için kullanılabilir olmasını sağlar ve erişilebilirlik ayarlarından bağımsız olarak tam işlevselliği korur."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.7.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.7.0-1@2x.png",
+      "alt": "Erişilebilirlik özellikleri ve büyük metin desteği ile Frames film fotoğrafçılığı uygulama arayüzü",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "İş Akışı ve Meta Veri İyileştirmeleri"
+    },
+    {
+      "type": "paragraph",
+      "content": "Uygulama artık oluşturulduğu anda doğrudan yeni film rulonuza atlar, iş akışınızı düzenler. Uygulama genelindeki etiketler daha iyi okunabilirlik için rafine edildi. Özel diziler artık otomatik olarak minimum/maksimum diyafram değerlerini doldurur, bu özellikle Mac'te meta veri entegrasyonu için kullanışlıdır. Ayrıca kaydırıcı açıkken çekim yaparken kaydedicideki hareket sorunlarını düzelttik ve tam kaydedici görünümündeki değer başlatma sorunlarını düzelttik."
+    }
+  ],
+  "improvements": [
+    "Apple Daha Büyük Metin erişilebilirlik özelliği için destek eklendi",
+    "Koyu Arayüz görünümü için destek eklendi",
+    "Yalnızca Renk Olmadan Farklılaştır için destek eklendi",
+    "Yeterli Kontrast için destek eklendi",
+    "Azaltılmış Hareket için destek eklendi",
+    "Daha hızlı iş akışı için oluşturulduktan sonra doğrudan yeni film rulolarına atlayın",
+    "Uygulama genelinde iyileştirilmiş etiket netliği",
+    "Özel diziler kullanırken minimum/maksimum diyaframın otomatik doldurulması"
+  ],
+  "fixes": [
+    {
+      "title": "Kaydedici Hareket Sorunu",
+      "description": "Kaydırıcı açıkken bir çekim yapıldığında kaydedicideki hareket sorunu düzeltildi."
+    },
+    {
+      "title": "Kaydedici Değer Başlatma",
+      "description": "Kaydedici tam görünümde açıldığında değerlerin düzgün başlatılmadığı bir sorun düzeltildi."
+    }
+  ],
+  "patches": [
+    {
+      "version": "1.7.1",
+      "description": "Seçim listelerinde gereksiz diyafram bilgisi gösteren lens görüntüsü düzeltildi. Düzenleme devre dışı bırakıldığında karelerin düzenlenebilir olması düzeltildi."
+    }
+  ],
+  "meta_title": "Tam Erişilebilirlik Desteği ve Kayıt İyileştirmeleri · Frames",
+  "meta_description": "Bu güncelleme, kayıt iş akışı ve meta veri işleme iyileştirmelerinin yanı sıra kapsamlı Apple erişilebilirlik desteği getirerek Frames'i daha..."
+}

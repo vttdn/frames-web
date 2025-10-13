@@ -1,0 +1,37 @@
+{
+  "version": "1.3.0",
+  "version_short": "1.3",
+  "url_slug": "1-3-macos",
+  "platform": "macos",
+  "release_date": "2025-09-01T10:00:00.000Z",
+  "title": "DNG Raw -tiedostojen tuki",
+  "meta_title": "DNG Raw -tiedostojen tuki · Frames",
+  "meta_description": "Upota metatiedot DNG-raw-tiedostoihin JPEG- ja TIFF-muotojen rinnalle. Täydellinen analoginen työnkulku kattavalla EXIF-tiedolla ammattimaiseen jälkikäsittelyyn.",
+  "summary": "Voit nyt tuoda DNG-tiedostoja JPEG:n ja TIFF:n rinnalle ja integroida metatiedot suoraan raw-kuviisi täydellistä analogisen valokuvauksen työnkulkua varten.",
+  "sections": [
+    {
+      "type": "paragraph",
+      "content": "Raw-kuvatuki saapuu Frames macOS:lle. Tuo DNG-tiedostoja olemassa olevien JPEG- ja TIFF-työnkulkujesi rinnalle ja upota filmikelan metatietosi suoraan raw-tiedostoihin. Tämä varmistaa, että valotusasetuksesi, kameran tiedot, filmilaadut ja muistiinpanot kulkevat raw-kuviesi mukana jälkikäsittelyn ja arkistoinnin läpi. Olemme myös korjanneet ongelman, jossa kuvan lisämuistiinpanoja ei säilytetty metatietojen integroinnin aikana."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-mac-1.3.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-mac-1.3.0-1@2x.png",
+      "alt": "Frames macOS-sovellus DNG-raw-tiedoston metatietojen upotuksella analogisten valokuvausskannauksille",
+      "width": "400",
+      "height": "300"
+    }
+  ],
+  "improvements": [
+    "Lisätty DNG-raw-tiedostojen tuki",
+    "Täysi metatietojen integrointi raw-kuville",
+    "DNG-tiedostot toimivat saumattomasti JPEG:n ja TIFF:n rinnalla"
+  ],
+  "fixes": [
+    {
+      "title": "Kuvan muistiinpanojen säilyttäminen",
+      "description": "Korjattu ongelma, jossa kuvan lisämuistiinpanoja ei säilytetty metatietojen integroinnin aikana."
+    }
+  ],
+  "patches": []
+}

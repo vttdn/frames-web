@@ -1,0 +1,84 @@
+{
+  "version": "1.12.0",
+  "version_short": "1.12",
+  "url_slug": "1-12-ios",
+  "platform": "ios",
+  "release_date": "2025-10-03T10:00:00.000Z",
+  "title": "Daneză, finlandeză, norvegiană, vietnameză și încă 4 limbi",
+  "summary": "Această versiune majoră de localizare aduce Frames la și mai mulți fotografi de film din întreaga lume, adăugând suport pentru daneză, finlandeză, norvegiană, vietnameză, chineză tradițională, indoneziană, chineză Hong Kong și greacă, în timp ce rafinează traducerile pentru toate limbile existente pentru claritate și consistență sporite.",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Opt limbi noi din Europa și Asia"
+    },
+    {
+      "type": "paragraph",
+      "content": "Frames suportă acum daneză, finlandeză, norvegiană, vietnameză, chineză tradițională, indoneziană, chineză Hong Kong și greacă. Fiecare traducere a fost elaborată cu atenție pentru a asigura că terminologia de fotografie pe film se simte naturală menținând în același timp acuratețea tehnică pentru setările camerei, filmele și gestionarea metadatelor."
+    },
+    {
+      "type": "list",
+      "items": [
+        {
+          "title": "Limbi nordice",
+          "description": "Daneză (Dansk), finlandeză (Suomi) și norvegiană (Norsk) cu terminologie nativă pentru fotografi scandinavi."
+        },
+        {
+          "title": "Limbi asiatice",
+          "description": "Vietnameză (Tiếng Việt), chineză tradițională (繁體中文), indoneziană (Bahasa Indonesia) și chineză Hong Kong."
+        },
+        {
+          "title": "Greacă (Ελληνικά)",
+          "description": "Traducere completă pentru fotografi din Grecia și Cipru."
+        }
+      ]
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.12.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.12.0-1@2x.png",
+      "alt": "Aplicația Frames cu suport multilingv pentru limbi nordice și asiatice",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Preferințe regionale și rafinări de traducere"
+    },
+    {
+      "type": "paragraph",
+      "content": "Pentru chineză tradițională și chineză Hong Kong, am adaptat preferințele regionale pentru formatele de dată și terminologie. Limbile nordice se aliniază cu modul în care fotografi de film din aceste țări discută despre meseria lor. Am rafinat și traducerile existente pentru spaniolă, franceză, germană, italiană, portugheză, japoneză, coreeană, rusă, thailandeză, poloneză, turcă, suedeză și hindi bazate pe feedback-ul comunității."
+    },
+    {
+      "type": "paragraph",
+      "content": "Frames adoptă automat preferința de limbă iOS. Toate filmele și echipamentul de cameră existent rămân intacte. Interfața se adaptează pur și simplu fără migrare de date sau reintroducere."
+    }
+  ],
+  "improvements": [
+    "Adăugată localizare daneză (Dansk) pentru comunitatea de fotografie pe film din Danemarca",
+    "Adăugată traducere finlandeză (Suomi) cu terminologie nativă de fotografie",
+    "Adăugat suport norvegiană (Norsk) pentru fotografi scandinavi",
+    "Adăugată vietnameză (Tiếng Việt) pentru comunitatea analogică din Asia de Sud-Est",
+    "Adăugată chineză tradițională (繁體中文) pentru Taiwan, Hong Kong și Macao",
+    "Adăugată localizare indoneziană (Bahasa Indonesia)",
+    "Adăugată chineză Hong Kong cu preferințe specifice regiunii",
+    "Adăugată traducere greacă (Ελληνικά) pentru Grecia și Cipru",
+    "Rafinate toate traducerile lingvistice existente pentru claritate îmbunătățită și frazare naturală",
+    "Consistență sporită a terminologiei tehnice în câmpurile specifice fotografiei",
+    "Localizare îmbunătățită a formatului de dată și unităților de măsură pentru preferințele regionale"
+  ],
+  "fixes": [
+    {
+      "title": "Consistență traduceri",
+      "description": "Standardizată terminologia pentru funcționalități similare pentru a asigura limbaj consistent în întreaga aplicație."
+    },
+    {
+      "title": "Adaptare layout",
+      "description": "Dimensionare text dinamică îmbunătățită pentru a accommodate traduceri mai lungi fără trunchiere sau depășire."
+    }
+  ],
+  "patches": [],
+  "meta_title": "Daneză, finlandeză, norvegiană, vietnameză și încă 4 limbi · Frames",
+  "meta_description": "Această versiune majoră de localizare aduce Frames la și mai mulți fotografi de film din întreaga lume, adăugând suport pentru daneză, finlandeză, norvegiană, vietnameză..."
+}

@@ -1,0 +1,48 @@
+{
+  "version": "1.2.0",
+  "version_short": "1.2",
+  "url_slug": "1-2-macos",
+  "platform": "macos",
+  "release_date": "2025-08-24T10:00:00.000Z",
+  "title": "Hỗ trợ bộ lọc, tiếng Nhật & Hàn Quốc",
+  "meta_title": "Hỗ trợ bộ lọc, tiếng Nhật & Hàn Quốc · Frames",
+  "meta_description": "Nhúng siêu dữ liệu bộ lọc tự động cho bộ lọc UV, ND và CPL. Hỗ trợ tiếng Nhật và Hàn Quốc với dữ liệu EXIF được cải thiện bao gồm số sê-ri máy ảnh.",
+  "summary": "Bộ lọc hiện xuất hiện trong thanh bên và được tự động thêm vào siêu dữ liệu khi lưu khung hình. Bản cập nhật này cũng mang đến hỗ trợ tiếng Nhật và Hàn Quốc, cùng với các bản sửa lỗi quan trọng.",
+  "sections": [
+    {
+      "type": "paragraph",
+      "content": "Bộ lọc được ghi trên iOS hiện hiển thị trong thanh bên macOS và được tự động nhúng vào siêu dữ liệu EXIF trong quá trình tích hợp lại. Điều này hoàn thiện tài liệu analog của bạn bằng cách bao gồm bộ lọc UV, ND, CPL và các bộ lọc khác trong ảnh cuối cùng của bạn. Số sê-ri máy ảnh hiện được bao gồm trong siêu dữ liệu và chúng tôi đã khắc phục lỗi khiến giá trị đèn flash bị đảo ngược. Frames hiện có sẵn bằng tiếng Nhật và Hàn Quốc, phù hợp với việc mở rộng ngôn ngữ trên iOS."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-mac-1.2.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-mac-1.2.0-1@2x.png",
+      "alt": "Ứng dụng Frames cho macOS hiển thị thanh bên siêu dữ liệu bộ lọc cho tài liệu nhiếp ảnh phim",
+      "width": "400",
+      "height": "300"
+    }
+  ],
+  "improvements": [
+    "Thêm hiển thị bộ lọc trong thanh bên",
+    "Bộ lọc được tự động thêm vào siêu dữ liệu khi lưu khung hình",
+    "Số sê-ri máy ảnh hiện được bao gồm trong siêu dữ liệu EXIF",
+    "Thêm hỗ trợ tiếng Nhật",
+    "Thêm hỗ trợ tiếng Hàn Quốc"
+  ],
+  "fixes": [
+    {
+      "title": "Đảo ngược giá trị đèn flash",
+      "description": "Sửa lỗi khiến giá trị đèn flash bị đảo ngược (hiển thị 'Có' khi đáng lẽ phải là 'Không')."
+    }
+  ],
+  "patches": [
+    {
+      "version": "1.2.2",
+      "description": "Cải thiện bản địa hóa cho các ngôn ngữ mới."
+    },
+    {
+      "version": "1.2.1",
+      "description": "Cải thiện bản dịch để nhất quán với ứng dụng iOS, cùng với các cải tiến giao diện nhỏ."
+    }
+  ]
+}

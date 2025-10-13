@@ -1,0 +1,16 @@
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareCompany",
+  "@id": "https://withframes.com/#softwarecompany",
+  "name": "Frames",
+  "url": "https://withframes.com/",
+  "description": "Frames là ứng dụng chụp phim dành cho nhiếp ảnh gia analog. Ghi lại từng bức ảnh, theo dõi cài đặt máy, sắp xếp cuộn phim và lưu siêu dữ liệu EXIF.",
+  "logo": "https://withframes.com/apple-touch-icon.png",
+  "parentOrganization": {
+    "@id": "https://withframes.com/#organization"
+  },
+  "founder": {
+    "@type": "Person",
+    "name": "Vincent Tantardini"
+  }
+}

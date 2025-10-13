@@ -1,0 +1,23 @@
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://withframes.com/nb/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Endringslogg",
+      "item": "https://withframes.com/nb/changelog/1-7-ios/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Full tilgjengelighetsstøtte og opptaksforbedringer",
+      "item": "https://withframes.com/nb/changelog/1-7-ios/"
+    }  ]
+}

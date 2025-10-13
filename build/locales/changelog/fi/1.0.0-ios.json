@@ -1,0 +1,150 @@
+{
+  "version": "1.0.0",
+  "version_short": "1.0",
+  "url_slug": "1-0-ios",
+  "platform": "ios",
+  "release_date": "2025-04-01T03:02:00.000Z",
+  "title": "Framesin julkaisu: Analogisen valokuvauksen muistikirja",
+  "meta_title": "Framesin julkaisu: Analogisen valokuvauksen muistikirja · Frames",
+  "meta_description": "Tallenna filmivalokuvauksen metatiedot kentällä iOS:llä ja upota EXIF-tiedot skannattuihin kuviin macOS:lla. Täydellinen analoginen työnkulku yli 200 filmilaadun kanssa.",
+  "summary": "Frames julkaistaan Datafilmin täydellisenä uudelleenrakennuksena, tuoden hienostuneen iOS-sovelluksen filmivalokuvauksen metatietojen kirjaamiseen kentällä yhdistettynä uuteen macOS-sovellukseen näiden tietojen upottamiseen skannattuihin kuviin.",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Tallenna ja järjestä filmikelasi"
+    },
+    {
+      "type": "paragraph",
+      "content": "Frames on digitaalinen muistikirjasi analogiseen valokuvaukseen, suunniteltu kuvausasetusten seurantaan ja metatietojen saumattomaan integrointiin skannattuihin kuviin. Kirjaa jokainen tärkeä yksityiskohta jokaisesta kuvasta: polttoväli, suljinnopeus, valotuskorjaus, aukko, salamaasetusten, kameran, objektiivin, filmilaadun, päivämäärän, ajan ja sijaintitiedot."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.0.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.0.0-1@2x.png",
+      "alt": "Frames-filmivalokuvaussovelluksen käyttöliittymä analogisten kamerametatietojen ja filmikelan tietojen kirjaamiseen",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "list",
+      "items": [
+        {
+          "title": "Kattava metatietojen kirjaaminen",
+          "description": "Seuraa kuvanumeroa, polttoväliä, suljinnopeutta, valotuskorjausta, aukkoa, salamaasetuksia, kameraa, objektiivia, filmilaatua, päivämäärää, aikaa ja sijaintia."
+        },
+        {
+          "title": "Viitekuvat",
+          "description": "Liitä viitekuvia kuhunkin kuvaan nopeaa visuaalista kontekstia varten skannauksia sovitettaessa."
+        },
+        {
+          "title": "Interaktiivinen karttanäkymä",
+          "description": "Näytä filmikuvasi interaktiivisella kartalla jäljittääksesi, missä kukin kuva otettiin."
+        },
+        {
+          "title": "Kansioiden järjestäminen",
+          "description": "Järjestä filmikirjastosi kansioilla ja tehokkailla hakutyökaluilla löytääksesi minkä tahansa kuvan hetkessä."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Vie ja synkronoi tietosi"
+    },
+    {
+      "type": "paragraph",
+      "content": "MacOS-kumppanisovellus ratkaisee filmivalokuvausyhteisön eniten pyydetyn ominaisuuden: metatietojen integroimisen takaisin skannattuihin JPEG-kuviin. Vie metatietosi JSON (.frames) -tiedostoina, jaa tallennuksia Apple-laitteiden välillä ja käytä macOS-sovellusta EXIF-tietojen upottamiseen, joka toimii saumattomasti Lightroomin, Capture Onen ja Apple Photosin kanssa."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Optimoitu analogiseen valokuvaukseen"
+    },
+    {
+      "type": "list",
+      "items": [
+        {
+          "title": "Mukautuvat hallintalaitteet",
+          "description": "Hallintalaitteet mukautuvat laitteistosi ominaisuuksiin nopeampaa kirjaamista varten."
+        },
+        {
+          "title": "Älykäs automaattitäyttö",
+          "description": "Älykäs automaattitäyttö objektiiville, kameralle, filmilaadelle ja ISO-arvolle säästää aikaa kentällä."
+        },
+        {
+          "title": "Yli 200 filmilaatua",
+          "description": "Esiladattu valikoima suosittuja filmilaatuja suurimmilta valmistajilta."
+        },
+        {
+          "title": "Alkuperäinen Apple-suunnittelu",
+          "description": "Noudattaa Applen käyttöliittymäohjeita sujuvaa, intuitiivista käyttökokemusta varten."
+        },
+        {
+          "title": "Suorituskyky optimoitu",
+          "description": "Toimii sujuvasti jopa vanhemmilla iPhone-malleilla."
+        }
+      ]
+    }
+  ],
+  "improvements": [
+    "Täydellinen alusta asti uudelleenrakennus hienostuneella arkkitehtuurilla",
+    "Kirjaa kattavat kuvan metatiedot: valotus, kamera, objektiivi, filmi, sijainti",
+    "Automaattinen aikaleimaus jokaiselle kuvalle",
+    "Viitekuvan liittäminen skannausten sovittamista varten",
+    "Kansioiden järjestäminen filmikelakirjastoille",
+    "Tehokas haku kaikista kirjatuista kuvista",
+    "Interaktiivinen karttanäkymä, joka näyttää kuvauspaikat",
+    "MacOS-kumppanisovellus EXIF-metatietojen upottamiseen",
+    "Täysi yhteensopivuus Lightroomin, Capture Onen ja Apple Photosin kanssa",
+    "Yksityisyyttä painottava suunnittelu ilman tilejä tai pilvipalvelusta riippuvuutta",
+    "Paranneltu työkalupalkin käyttöliittymä",
+    "Lisätty tuki useille kielille, mukaan lukien ranska, saksa, espanja, italia, hollanti, portugali, puola ja ruotsi"
+  ],
+  "fixes": [
+    "Korjattu ongelma, jossa uuden kameran tai objektiivin lisääminen jäädytti näytön joillakin laitteilla",
+    "Korjattu arvostelusovelluksen URL-osoite"
+  ],
+  "patches": [
+    {
+      "version": "1.0.1",
+      "date": "2025-04-04",
+      "description": "Pieniä parannuksia ja vikakorjauksia"
+    },
+    {
+      "version": "1.0.2",
+      "date": "2025-04-13",
+      "description": "Pieniä korjauksia ja käännösparannuksia"
+    },
+    {
+      "version": "1.0.3",
+      "date": "2025-04-15",
+      "description": "Parannettu lokalisaatio"
+    },
+    {
+      "version": "1.0.4",
+      "date": "2025-04-19",
+      "description": "Parannettu työkalupalkin käyttöliittymä ja laajennetut lokalisaatiot"
+    },
+    {
+      "version": "1.0.5",
+      "date": "2025-04-21",
+      "description": "Lisätty lokalisaatioita"
+    },
+    {
+      "version": "1.0.6",
+      "date": "2025-04-23",
+      "description": "Korjattu ongelma, jossa uuden kameran tai objektiivin lisääminen jäädytti näytön joillakin laitteilla"
+    },
+    {
+      "version": "1.0.7",
+      "date": "2025-04-28",
+      "description": "Korjattu arvostelusovelluksen URL-osoite"
+    },
+    {
+      "version": "1.0.8",
+      "date": "2025-05-20",
+      "description": "Lisätty yhteensopivuus iOS 18.0:n ja uudempien kanssa"
+    }
+  ]
+}

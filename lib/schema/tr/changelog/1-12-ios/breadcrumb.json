@@ -1,0 +1,23 @@
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://withframes.com/tr/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Değişiklik Günlüğü",
+      "item": "https://withframes.com/tr/changelog/1-12-ios/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Danca, Fince, Norveççe, Vietnamca ve 4 Dil Daha",
+      "item": "https://withframes.com/tr/changelog/1-12-ios/"
+    }  ]
+}

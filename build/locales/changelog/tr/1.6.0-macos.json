@@ -1,0 +1,38 @@
+{
+  "version": "1.6.0",
+  "version_short": "1.6",
+  "url_slug": "1-6-macos",
+  "platform": "macos",
+  "release_date": "2025-10-01T10:00:00.000Z",
+  "title": "Ölçüm Modu Meta Verisi ve Performans İyileştirmeleri",
+  "summary": "macOS için Frames artık kapsamlı EXIF verileri için ölçüm modu meta veri desteği ve daha hızlı, daha kararlı çalışma için performans iyileştirmeleri içeriyor.",
+  "sections": [
+    {
+      "type": "paragraph",
+      "content": "Artık film kayıtlarınızdan ölçüm modu verilerini görebilir ve taranmış görüntülere entegre edebilirsiniz. Bu, iOS güncellemesiyle eşleşerek her iki platformda da eksiksiz meta veri tutarlılığı sağlıyor. Uygulama genelindeki performans yükseltmeleri, meta veri entegrasyonunu daha hızlı ve daha güvenilir hale getiriyor."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/{{ lang }}/changelog/frames-1.11.0-1.png",
+      "image_2x": "/lib/img/{{ lang }}/changelog/frames-1.11.0-1@2x.png",
+      "alt": "Eksiksiz EXIF verileri için ölçüm modu meta veri desteği gösteren Frames macOS uygulaması",
+      "width": "400",
+      "height": "300"
+    }
+  ],
+  "improvements": [
+    "Ölçüm modu meta veri desteği eklendi",
+    "Daha hızlı görüntü işleme için performans yükseltmeleri",
+    "Uygulama genelinde iyileştirilmiş kararlılık",
+    "Geliştirilmiş meta veri entegrasyon hızı"
+  ],
+  "fixes": [],
+  "patches": [
+    {
+      "version": "1.5.1",
+      "description": "Çeşitli kullanıcı arayüzü geliştirmeleri ve görsel iyileştirmeler."
+    }
+  ],
+  "meta_title": "Ölçüm Modu Meta Verisi ve Performans İyileştirmeleri · Frames",
+  "meta_description": "macOS için Frames artık kapsamlı EXIF verileri için ölçüm modu meta veri desteği ve daha hızlı, daha kararlı çalışma için performans iyileştirmeleri içeriyor."
+}

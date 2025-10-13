@@ -1,0 +1,47 @@
+{
+  "version": "1.11.0",
+  "version_short": "1.11",
+  "url_slug": "1-11-ios",
+  "platform": "ios",
+  "release_date": "2025-10-02T10:00:00.000Z",
+  "title": "Metadate mod măsurare și îmbunătățiri de performanță",
+  "summary": "Frames capturează acum modul de măsurare al camerei tale alături de datele de expunere, oferindu-ți o înregistrare mai completă a modului în care fiecare fotografie a fost măsurată. Această actualizare aduce și îmbunătățiri de performanță pentru o experiență mai rapidă și mai stabilă în întreaga aplicație.",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Înregistrare mod măsurare"
+    },
+    {
+      "type": "paragraph",
+      "content": "Poți acum înregistra ce mod de măsurare a folosit camera ta pentru fiecare cadru. Fie că fotografiezi cu măsurare centrală ponderată, spot sau evaluativă, Frames capturează aceste metadate alături de setările tale existente de expunere. Aceasta te ajută să înțelegi cum a măsurat camera ta lumina pentru fiecare fotografie și să îți rafinezi abordarea expunerii în timp."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/{{ lang }}/changelog/frames-1.11.0-1.png",
+      "image_2x": "/lib/img/{{ lang }}/changelog/frames-1.11.0-1@2x.png",
+      "alt": "Aplicația Frames arătând înregistrarea metadatelor mod măsurare pentru analiza expunerii",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Îmbunătățiri de performanță"
+    },
+    {
+      "type": "paragraph",
+      "content": "Îmbunătățirile sub capotă fac Frames mai rapid și mai receptiv. Navigarea între filme, înregistrarea cadrelor și editarea metadatelor beneficiază toate de performanță optimizată. Aceste rafinări contribuie la o experiență mai fluidă la gestionarea fluxului tău de lucru de fotografie analogică."
+    }
+  ],
+  "improvements": [
+    "Adăugat câmp metadate mod măsurare pentru documentare cuprinzătoare a expunerii",
+    "Performanță îmbunătățită a aplicației pentru navigare și înregistrare mai rapidă a cadrelor",
+    "Stabilitate sporită la comutarea între filme și editarea cadrelor",
+    "Utilizare optimizată a memoriei pentru operare mai fluidă cu biblioteci mari de filme"
+  ],
+  "fixes": [],
+  "patches": [],
+  "meta_title": "Metadate mod măsurare și îmbunătățiri de performanță · Frames",
+  "meta_description": "Frames capturează acum modul de măsurare al camerei tale alături de datele de expunere, oferindu-ți o înregistrare mai completă a modului în care fiecare fotografie a fost măsurată."
+}

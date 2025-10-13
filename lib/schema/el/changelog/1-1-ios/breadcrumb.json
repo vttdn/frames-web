@@ -1,0 +1,23 @@
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://withframes.com/el/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Αρχείο Αλλαγών",
+      "item": "https://withframes.com/el/changelog/1-1-ios/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Παρουσιάζουμε το Frames Pro",
+      "item": "https://withframes.com/el/changelog/1-1-ios/"
+    }  ]
+}

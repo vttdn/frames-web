@@ -1,0 +1,43 @@
+{
+  "version": "1.4.0",
+  "version_short": "1.4",
+  "url_slug": "1-4-ios",
+  "platform": "ios",
+  "release_date": "2025-08-20T10:00:00.000Z",
+  "title": "Filtre Kayıt Desteği",
+  "meta_title": "Filtre Kayıt Desteği · Frames",
+  "meta_description": "Her kare için UV, ND, CPL ve diğer filtreleri kaydedin. Tam EXIF yerleştirme için Mac'e senkronize olan kapsamlı meta verilerle eksiksiz analog belgelendirme.",
+  "summary": "Fotoğraf makineniz, lensiniz ve filminizin yanı sıra filtreleri kaydederek eksiksiz analog iş akışınızı belgeleyin. Artık her çekim için kullanılan UV, ND, CPL ve diğer filtreleri kaydedebilirsiniz.",
+  "sections": [
+    {
+      "type": "paragraph",
+      "content": "Filtreler artık film kayıt iş akışınızın bir parçası. Her kare için kullandığınız filtreleri kaydedin; UV, ND, CPL ve daha fazlası dahil. Bu, fotoğraf makinesi gövdesinden ve lensten film stoğuna ve filtrelere kadar nihai görüntünüzü etkileyen her öğeyi yakalayarak analog belgelerinizi tamamlar. Filtre verileri tüm dışa aktarmalara dahil edilir ve kapsamlı kayıt tutma için Mac uygulamasıyla senkronize olur."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/{{ lang }}/changelog/frames-1.4.0-1.png",
+      "image_2x": "/lib/img/{{ lang }}/changelog/frames-1.4.0-1@2x.png",
+      "alt": "UV, ND ve CPL filtreleri için filtre kayıt desteği gösteren Frames film fotoğrafçılığı uygulaması",
+      "width": "400",
+      "height": "300"
+    }
+  ],
+  "improvements": [
+    "Filtre kayıt desteği eklendi (UV, ND, CPL ve daha fazlası)",
+    "Filtreler tüm dışa aktarma formatlarına dahil edildi",
+    "Filtre verileri Mac uygulamasıyla senkronize olur",
+    "Küçük performans geliştirmeleri",
+    "Genel kararlılık iyileştirmeleri"
+  ],
+  "fixes": [],
+  "patches": [
+    {
+      "version": "1.4.1",
+      "description": "Bir alt klasördeki bir filmi düzenlerken kök klasöre geri taşındığı bir sorun düzeltildi."
+    },
+    {
+      "version": "1.4.2",
+      "description": "Mac uygulama tutarlılığı için rafine edilmiş çeviriler. Konum arama ülke görüntüsü düzeltildi. Film ruloları oluştururken varsayılan deklanşör hızı ve diyafram değerleri eklendi."
+    }
+  ]
+}

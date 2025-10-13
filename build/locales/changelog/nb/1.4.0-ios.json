@@ -1,0 +1,43 @@
+{
+  "version": "1.4.0",
+  "version_short": "1.4",
+  "url_slug": "1-4-ios",
+  "platform": "ios",
+  "release_date": "2025-08-20T10:00:00.000Z",
+  "title": "Filterloggingsstøtte",
+  "meta_title": "Filterloggingsstøtte · Frames",
+  "meta_description": "Registrer UV-, ND-, CPL- og andre filtre for hvert bilde. Komplett analog dokumentasjon med omfattende metadata som synkroniseres til Mac for full EXIF-integrering.",
+  "summary": "Dokumenter din komplette analoge arbeidsflyt ved å logge filtre sammen med kamera, objektiv og film. Nå kan du registrere UV-, ND-, CPL- og andre filtre brukt for hvert bilde.",
+  "sections": [
+    {
+      "type": "paragraph",
+      "content": "Filtre er nå en del av filmloggingsarbeidsflyten din. Registrer hvilke filtre du brukte for hvert bilde, inkludert UV, ND, CPL og mer. Dette fullfører din analoge dokumentasjon ved å fange hvert element som påvirker ditt endelige bilde, fra kamerahuset og objektivet til filmtypen og filtrene. Filterdata er inkludert i alle eksporter og synkroniseres med Mac-appen for omfattende journalføring."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/{{ lang }}/changelog/frames-1.4.0-1.png",
+      "image_2x": "/lib/img/{{ lang }}/changelog/frames-1.4.0-1@2x.png",
+      "alt": "Frames filmfotografiapp som viser filterloggingsstøtte for UV-, ND- og CPL-filtre",
+      "width": "400",
+      "height": "300"
+    }
+  ],
+  "improvements": [
+    "Lagt til filterloggingsstøtte (UV, ND, CPL og mer)",
+    "Filtre inkludert i alle eksportformater",
+    "Filterdata synkroniseres med Mac-app",
+    "Mindre ytelsesforbedringer",
+    "Generelle stabilitetsforbedringer"
+  ],
+  "fixes": [],
+  "patches": [
+    {
+      "version": "1.4.1",
+      "description": "Fikset et problem der redigering av en film i en undermappe ville flytte den tilbake til rotmappen."
+    },
+    {
+      "version": "1.4.2",
+      "description": "Forbedrede oversettelser for konsistens med Mac-appen. Fikset visning av land i posisjonssøk. Lagt til standard lukkertids- og blenderverdier ved oppretting av filmruller."
+    }
+  ]
+}

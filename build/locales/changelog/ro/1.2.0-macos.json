@@ -1,0 +1,48 @@
+{
+  "version": "1.2.0",
+  "version_short": "1.2",
+  "url_slug": "1-2-macos",
+  "platform": "macos",
+  "release_date": "2025-08-24T10:00:00.000Z",
+  "title": "Suport pentru filtre, limbi japoneză și coreeană",
+  "meta_title": "Suport pentru filtre, limbi japoneză și coreeană · Frames",
+  "meta_description": "Integrare automată a metadatelor de filtre pentru filtre UV, ND și CPL. Suport pentru limbile japoneză și coreeană cu date EXIF îmbunătățite, inclusiv numere de serie cameră.",
+  "summary": "Filtrele apar acum în bara laterală și sunt adăugate automat la metadate la salvarea cadrelor. Această actualizare aduce și suport pentru limbile japoneză și coreeană, plus remedieri importante de erori.",
+  "sections": [
+    {
+      "type": "paragraph",
+      "content": "Filtrele înregistrate pe iOS se afișează acum în bara laterală macOS și sunt integrate automat în metadatele EXIF în timpul reintegrării. Aceasta completează documentația analogică prin includerea filtrelor UV, ND, CPL și altele în imaginile finale. Numerele de serie ale camerei sunt acum incluse în metadate, iar am remediat o eroare unde valorile blițului erau inversate. Frames este acum disponibil în japoneză și coreeană, potrivindu-se cu extinderea limbilor pe iOS."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-mac-1.2.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-mac-1.2.0-1@2x.png",
+      "alt": "Aplicația Frames pentru macOS arătând bara laterală cu metadate filtre",
+      "width": "400",
+      "height": "300"
+    }
+  ],
+  "improvements": [
+    "Adăugată afișare filtre în bara laterală",
+    "Filtrele sunt adăugate automat la metadate la salvarea cadrelor",
+    "Numărul de serie al camerei acum inclus în metadatele EXIF",
+    "Adăugat suport pentru limba japoneză",
+    "Adăugat suport pentru limba coreeană"
+  ],
+  "fixes": [
+    {
+      "title": "Inversare valoare bliț",
+      "description": "Corectată o problemă unde valoarea blițului era inversată (afișa 'Da' când ar fi trebuit să fie 'Nu')."
+    }
+  ],
+  "patches": [
+    {
+      "version": "1.2.2",
+      "description": "Localizare îmbunătățită pentru limbile noi."
+    },
+    {
+      "version": "1.2.1",
+      "description": "Traduceri îmbunătățite pentru consistență cu aplicația iOS, plus îmbunătățiri minore UI."
+    }
+  ]
+}

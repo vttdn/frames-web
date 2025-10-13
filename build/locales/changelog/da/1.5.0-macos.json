@@ -1,0 +1,43 @@
+{
+  "version": "1.5.0",
+  "version_short": "1.5",
+  "url_slug": "1-5-macos",
+  "platform": "macos",
+  "release_date": "2025-09-19T10:00:00.000Z",
+  "title": "Større ydeevne- og DNG-behandlingsforbedringer",
+  "meta_title": "Større ydeevne- og DNG-behandlingsforbedringer · Frames",
+  "meta_description": "Væsentligt hurtigere DNG-behandling med optimeret caching og hukommelsesforbrug. Rettet .frames-import og Intel Mac-kompatibilitet for glattere metadataarbejdsgang.",
+  "summary": "Denne opdatering leverer væsentligt hurtigere billedhåndtering med optimeret DNG-behandling, forbedret caching og rettelser til .frames-filimport og DNG-metadataeksport på Intel-Macs.",
+  "sections": [
+    {
+      "type": "paragraph",
+      "content": "Billedindlæsning er nu væsentligt hurtigere på tværs af alle formater, med større forbedringer af DNG-behandlingshastighed og pålidelighed. Hukommelsesforbruget er blevet optimeret, caching forbedret, og synkroniseret indlæsning sikrer glat drift selv med store mængder billeder. Vi har også rettet .frames-filimport fra macOS-menulinjen og løst DNG-metadataeksportproblemer på ældre Intel-Macs."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.10.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.10.0-1@2x.png",
+      "alt": "Frames macOS-app med optimeret DNG-behandlingsydeevne for hurtigere billedhåndtering",
+      "width": "400",
+      "height": "300"
+    }
+  ],
+  "improvements": [
+    "Væsentligt hurtigere billedindlæsning på tværs af alle formater",
+    "Optimeret DNG-behandling for bedre ydeevne",
+    "Forbedret cachesystem for glattere drift",
+    "Forbedret effektivitet af hukommelsesforbrug",
+    "Synkroniseret indlæsning for store billedmængder"
+  ],
+  "fixes": [
+    {
+      "title": ".frames-filimport",
+      "description": "Rettet .frames-filimport fra macOS-menulinjen."
+    },
+    {
+      "title": "DNG-eksport på Intel-Macs",
+      "description": "Rettet DNG-metadataeksport på ældre Intel Mac-modeller."
+    }
+  ],
+  "patches": []
+}

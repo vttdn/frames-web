@@ -1,0 +1,43 @@
+{
+  "version": "1.4.0",
+  "version_short": "1.4",
+  "url_slug": "1-4-ios",
+  "platform": "ios",
+  "release_date": "2025-08-20T10:00:00.000Z",
+  "title": "Filterlogningssupport",
+  "meta_title": "Filterlogningssupport · Frames",
+  "meta_description": "Registrer UV-, ND-, CPL- og andre filtre for hvert billede. Komplet analog dokumentation med omfattende metadata, der synkroniserer til Mac for fuld EXIF-integration.",
+  "summary": "Dokumenter din komplette analoge arbejdsgang ved at logge filtre sammen med dit kamera, objektiv og film. Nu kan du registrere UV-, ND-, CPL- og andre filtre, der bruges til hvert optagelse.",
+  "sections": [
+    {
+      "type": "paragraph",
+      "content": "Filtre er nu en del af din filmlogningsarbejdsgang. Registrer hvilke filtre du brugte til hvert billede, herunder UV, ND, CPL og mere. Dette fuldender din analoge dokumentation ved at fange hvert element, der påvirker dit endelige billede, fra kamerahuset og objektivet til filmtypen og filtrene. Filterdata er inkluderet i alle eksporter og synkroniserer med Mac-appen for omfattende journalføring."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/{{ lang }}/changelog/frames-1.4.0-1.png",
+      "image_2x": "/lib/img/{{ lang }}/changelog/frames-1.4.0-1@2x.png",
+      "alt": "Frames filmfotografi-app, der viser filterlogningssupport til UV-, ND- og CPL-filtre",
+      "width": "400",
+      "height": "300"
+    }
+  ],
+  "improvements": [
+    "Tilføjet filterlogningssupport (UV, ND, CPL og mere)",
+    "Filtre inkluderet i alle eksportformater",
+    "Filterdata synkroniserer med Mac-app",
+    "Mindre ydeevneforbedringer",
+    "Generelle stabilitetsforbedringer"
+  ],
+  "fixes": [],
+  "patches": [
+    {
+      "version": "1.4.1",
+      "description": "Rettet et problem, hvor redigering af en film i en undermappe ville flytte den tilbage til rodmappen."
+    },
+    {
+      "version": "1.4.2",
+      "description": "Raffinerede oversættelser for Mac-app-konsistens. Rettet visning af lokalitetssøgningsland. Tilføjet standardlukkertid og blændeværdier ved oprettelse af filmruller."
+    }
+  ]
+}

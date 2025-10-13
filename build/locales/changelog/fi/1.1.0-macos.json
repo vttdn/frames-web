@@ -1,0 +1,37 @@
+{
+  "version": "1.1.0",
+  "version_short": "1.1",
+  "url_slug": "1-1-macos",
+  "platform": "macos",
+  "release_date": "2025-06-27T10:00:00.000Z",
+  "title": "TIFF-tiedostojen tuki",
+  "meta_title": "TIFF-tiedostojen tuki · Frames",
+  "meta_description": "Tuo ja vie TIFF-tiedostoja täydellä metatietojen upotuksella. Ammattitason tiedostomuodon tuki korkealaatuisille skannauksille saumattomalla EXIF-integraatiotyönkululla.",
+  "summary": "Voit nyt tuoda ja viedä TIFF-tiedostoja täydellä metatietojen integroinnilla laajentaen tiedostomuotojen tukea JPEG:n lisäksi ammattimaisiin työnkulkuihin.",
+  "sections": [
+    {
+      "type": "paragraph",
+      "content": "TIFF-tuki saapuu Frames macOS:lle. Tuo TIFF-skannauksia ja upota filmikelan metatietosi samalla työnkululla, jota käytät JPEG-tiedostoille. TIFF-tiedostot toimivat saumattomasti metatietojen integrointiprosessissa varmistaen, että analogisen valokuvauksen muistiinpanosi kulkevat kuviesi mukana tiedostomuodosta riippumatta."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-mac-1.1.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-mac-1.1.0-1@2x.png",
+      "alt": "Frames macOS-sovellus TIFF-tiedostojen tuella ammattimaisiin analogisen valokuvauksen työnkulkuihin",
+      "width": "400",
+      "height": "300"
+    }
+  ],
+  "improvements": [
+    "Lisätty TIFF-tiedostojen tuontituki",
+    "Lisätty TIFF-tiedostojen vienti täydellä metatietojen integroinnilla",
+    "TIFF-tiedostot toimivat saumattomasti olemassa olevan metatietojen integrointityönkulun kanssa"
+  ],
+  "fixes": [],
+  "patches": [
+    {
+      "version": "1.1.1",
+      "description": "Korjattu ongelma, joka saattoi estää .frames-tiedostojen lataamisen tietyissä tilanteissa."
+    }
+  ]
+}

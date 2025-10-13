@@ -1,0 +1,16 @@
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareCompany",
+  "@id": "https://withframes.com/#softwarecompany",
+  "name": "Frames",
+  "url": "https://withframes.com/",
+  "description": "Frames er en filmfotografi app til analoge fotografer. Log hvert billede, følg kameraindstillinger, organiser film og gem EXIF metadata på iPhone & Mac.",
+  "logo": "https://withframes.com/apple-touch-icon.png",
+  "parentOrganization": {
+    "@id": "https://withframes.com/#organization"
+  },
+  "founder": {
+    "@type": "Person",
+    "name": "Vincent Tantardini"
+  }
+}

@@ -297,3 +297,32 @@ function shareOn(platform) {
     window.open(shareUrl, '_blank', 'width=600,height=400');
   }
 }
+
+
+//
+// Reviews Carousel
+//
+
+document.addEventListener('DOMContentLoaded', () => {
+  const reviews = document.querySelectorAll('.review-card');
+  const prevBtn = document.querySelector('.review-navigation .prev');
+  const nextBtn = document.querySelector('.review-navigation .next');
+  let current = 0;
+
+  const showReview = (index) => {
+    reviews.forEach((r, i) => r.classList.toggle('active', i === index));
+  };
+
+  // Initialize first review on page load
+  showReview(current);
+
+  prevBtn.addEventListener('click', () => {
+    current = (current - 1 + reviews.length) % reviews.length;
+    showReview(current);
+  });
+
+  nextBtn.addEventListener('click', () => {
+    current = (current + 1) % reviews.length;
+    showReview(current);
+  });
+});

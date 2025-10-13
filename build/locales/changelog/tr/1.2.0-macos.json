@@ -1,0 +1,48 @@
+{
+  "version": "1.2.0",
+  "version_short": "1.2",
+  "url_slug": "1-2-macos",
+  "platform": "macos",
+  "release_date": "2025-08-24T10:00:00.000Z",
+  "title": "Filtre Desteği, Japonca ve Korece Diller",
+  "meta_title": "Filtre Desteği, Japonca ve Korece Diller · Frames",
+  "meta_description": "UV, ND ve CPL filtreleri için otomatik filtre meta veri yerleştirme. Japonca ve Korece dil desteği, fotoğraf makinesi seri numaraları dahil geliştirilmiş EXIF verileriyle.",
+  "summary": "Filtreler artık kenar çubuğunda görünüyor ve kareleri kaydederken otomatik olarak meta verilere ekleniyor. Bu güncelleme ayrıca Japonca ve Korece dil desteğini ve önemli hata düzeltmelerini getiriyor.",
+  "sections": [
+    {
+      "type": "paragraph",
+      "content": "iOS'ta kaydedilen filtreler artık macOS kenar çubuğunda görüntüleniyor ve entegrasyon sırasında EXIF meta verilerine otomatik olarak yerleştiriliyor. Bu, UV, ND, CPL ve diğer filtreleri nihai görüntülerinize dahil ederek analog belgelerinizi tamamlar. Fotoğraf makinesi seri numaraları artık meta verilere dahil edildi ve flaş değerlerinin tersine döndüğü bir hatayı düzelttik. Frames artık iOS dil genişlemesiyle eşleşen Japonca ve Korece'de mevcut."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-mac-1.2.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-mac-1.2.0-1@2x.png",
+      "alt": "Film fotoğrafçılığı belgelendirmesi için filtre meta veri kenar çubuğunu gösteren Frames macOS uygulaması",
+      "width": "400",
+      "height": "300"
+    }
+  ],
+  "improvements": [
+    "Kenar çubuğuna filtre görüntüleme eklendi",
+    "Kareleri kaydederken filtreler otomatik olarak meta verilere eklendi",
+    "Fotoğraf makinesi seri numarası artık EXIF meta verilerine dahil",
+    "Japonca dil desteği eklendi",
+    "Korece dil desteği eklendi"
+  ],
+  "fixes": [
+    {
+      "title": "Flaş Değeri Tersine Dönme",
+      "description": "Flaş değerinin tersine döndüğü ('Hayır' olması gerekirken 'Evet' gösterme) bir sorun düzeltildi."
+    }
+  ],
+  "patches": [
+    {
+      "version": "1.2.2",
+      "description": "Yeni diller için iyileştirilmiş yerelleştirme."
+    },
+    {
+      "version": "1.2.1",
+      "description": "iOS uygulamasıyla tutarlılık için iyileştirilmiş çeviriler ve küçük kullanıcı arayüzü geliştirmeleri."
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "version": "1.9.0",
+  "version_short": "1.9",
+  "url_slug": "1-9-ios",
+  "platform": "ios",
+  "release_date": "2025-09-18T10:00:00.000Z",
+  "title": "Thư mục con, Vuốt để di chuyển & Cải thiện xuất TXT",
+  "summary": "Tổ chức thư viện phim của bạn với các thư mục con lồng nhau lên đến 5 cấp sâu. Bản cập nhật này cũng mang đến quản lý cuộn phim dễ dàng hơn với cử chỉ vuốt và định dạng xuất TXT được cải thiện để tài liệu tốt hơn.",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Tổ chức thư mục lồng nhau cho người dùng Pro"
+    },
+    {
+      "type": "paragraph",
+      "content": "Người dùng Pro hiện có thể tạo thư mục con lên đến 5 cấp sâu, cho phép tổ chức chi tiết các kho lưu trữ phim. Cấu trúc thư viện của bạn theo năm, dự án, loại phim hoặc bất kỳ phân cấp nào phù hợp với quy trình làm việc của bạn. Điều này giúp dễ dàng xác định vị trí các buổi chụp cụ thể trong các bộ sưu tập phim rộng lớn và giữ các cuộn liên quan được nhóm lại với nhau một cách logic."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/{{ lang }}/changelog/frames-1.9.0-1.png",
+      "image_2x": "/lib/img/{{ lang }}/changelog/frames-1.9.0-1@2x.png",
+      "alt": "Ứng dụng nhiếp ảnh phim Frames hiển thị tổ chức thư mục lồng nhau cho kho lưu trữ cuộn phim",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Cải thiện quản lý cuộn phim"
+    },
+    {
+      "type": "paragraph",
+      "content": "Cử chỉ vuốt hiện bao gồm nút Di chuyển, giúp di chuyển cuộn phim và thư mục nhanh hơn. Chúng tôi cũng đã khắc phục sự cố khiến xuất TXT bỏ qua năm khi nó khớp với năm hiện tại, đảm bảo thông tin ngày hoàn chỉnh trong tất cả các lần xuất."
+    }
+  ],
+  "improvements": [
+    "Thêm hỗ trợ thư mục con lên đến 5 cấp sâu cho người dùng Pro",
+    "Cử chỉ vuốt hiện bao gồm nút Di chuyển cho cuộn phim và thư mục",
+    "Điều hướng thư mục được cải thiện với hỗ trợ breadcrumb",
+    "Cải thiện tính nhất quán bản địa hóa trên nhiều ngôn ngữ"
+  ],
+  "fixes": [
+    {
+      "title": "Hiển thị năm xuất TXT",
+      "description": "Khắc phục sự cố khiến xuất TXT bỏ qua năm khi nó khớp với năm hiện tại. Năm hiện luôn được bao gồm để có thông tin ngày hoàn chỉnh."
+    }
+  ],
+  "patches": [],
+  "meta_title": "Thư mục con, Vuốt để di chuyển & Cải thiện xuất TXT · Frames",
+  "meta_description": "Tổ chức thư viện phim của bạn với các thư mục con lồng nhau lên đến 5 cấp sâu."
+}

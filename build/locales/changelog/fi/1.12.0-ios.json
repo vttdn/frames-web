@@ -1,0 +1,84 @@
+{
+  "version": "1.12.0",
+  "version_short": "1.12",
+  "url_slug": "1-12-ios",
+  "platform": "ios",
+  "release_date": "2025-10-03T10:00:00.000Z",
+  "title": "Tanska, suomi, norja, vietnam ja 4 muuta kieltä",
+  "summary": "Tämä merkittävä lokalisaatiojulkaisu tuo Framesin vieläkin useammille filmiValokuvaajille maailmanlaajuisesti lisäten tuen tanskalle, suomelle, norjalle, vietnamille, perinteiselle kiinalle, indonesialle, Hongkongin kiinalle ja kreikalle samalla hioen käännöksiä kaikilla olemassa olevilla kielillä parantunutta selkeyttä ja johdonmukaisuutta varten.",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Kahdeksan uutta kieltä Euroopassa ja Aasiassa"
+    },
+    {
+      "type": "paragraph",
+      "content": "Frames tukee nyt tanskaa, suomea, norjaa, vietnamia, perinteistä kiinaa, indonesiaa, Hongkongin kiinaa ja kreikkaa. Jokainen käännös on huolellisesti laadittu varmistaakseen, että filmivalokuvauksen terminologia tuntuu luonnolliselta säilyttäen samalla teknisen tarkkuuden kamera-asetuksille, filmilaatuja ja metatietojen hallintaa varten."
+    },
+    {
+      "type": "list",
+      "items": [
+        {
+          "title": "Pohjoismaiset kielet",
+          "description": "Tanska (Dansk), suomi (Suomi) ja norja (Norsk) alkuperäisellä terminologialla skandinaavisille valokuvaajille."
+        },
+        {
+          "title": "Aasialaiset kielet",
+          "description": "Vietnam (Tiếng Việt), perinteinen kiina (繁體中文), indonesia (Bahasa Indonesia) ja Hongkongin kiina."
+        },
+        {
+          "title": "Kreikka (Ελληνικά)",
+          "description": "Täydellinen käännös valokuvaajille Kreikan ja Kyproksen alueella."
+        }
+      ]
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.12.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.12.0-1@2x.png",
+      "alt": "Frames-analogisen valokuvauksen sovellus monikielisellä tuella pohjoismaisille ja aasialaisille kielille",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": "3",
+      "content": "Alueelliset asetukset ja käännösten hiontoja"
+    },
+    {
+      "type": "paragraph",
+      "content": "Perinteiselle kiinalle ja Hongkongin kiinalle olemme mukautaneet alueelliset asetukset päivämäärämuodoille ja terminologialle. Pohjoismaiset kielet noudattavat sitä, miten filmiValokuvaajat näissä maissa keskustelevat käsityöstään. Olemme myös hioneet olemassa olevia käännöksiä espanjassa, ranskassa, saksassa, italiassa, portugalissa, japaninissa, koreassa, venäjässä, thaimaassa, puolassa, turkissa, ruotsissa ja hindissä yhteisön palautteen perusteella."
+    },
+    {
+      "type": "paragraph",
+      "content": "Frames omaksuu automaattisesti iOS-kieliasetuksesi. Kaikki olemassa olevat filmikelat ja kameralaitteisto säilyvät ennallaan. Käyttöliittymä yksinkertaisesti mukautuu ilman tietojen siirtoa tai uudelleensyöttöä."
+    }
+  ],
+  "improvements": [
+    "Lisätty tanskan (Dansk) lokalisaatio Tanskan filmivalokuvausyhteisölle",
+    "Lisätty suomen (Suomi) käännös alkuperäisellä valokuvauksen terminologialla",
+    "Lisätty norjan (Norsk) tuki skandinaavisille valokuvaajille",
+    "Lisätty vietnamin (Tiếng Việt) Kaakkois-Aasian analogiselle yhteisölle",
+    "Lisätty perinteinen kiina (繁體中文) Taiwanille, Hongkongille ja Macaolle",
+    "Lisätty indonesian (Bahasa Indonesia) lokalisaatio",
+    "Lisätty Hongkongin kiina aluekohtaisilla asetuksilla",
+    "Lisätty kreikan (Ελληνικά) käännös Kreikalle ja Kyprokselle",
+    "Hiottu kaikki olemassa olevat kielten käännökset parantunutta selkeyttä ja luonnollista ilmaisua varten",
+    "Parannettu teknisen terminologian johdonmukaisuus valokuvauskohtaisilla kentillä",
+    "Parannettu päivämäärämuodon ja mittayksiköiden lokalisaatio alueellisille asetuksille"
+  ],
+  "fixes": [
+    {
+      "title": "Käännöksen johdonmukaisuus",
+      "description": "Standardoitu terminologia samankaltaisten ominaisuuksien välillä johdonmukaisen kielen varmistamiseksi koko sovelluksessa."
+    },
+    {
+      "title": "Asettelun mukautus",
+      "description": "Parannettu dynaamista tekstin kokoa pitkempien käännösten mahtumiseksi ilman katkaisua tai ylivuotoa."
+    }
+  ],
+  "patches": [],
+  "meta_title": "Tanska, suomi, norja, vietnam ja 4 muuta kieltä · Frames",
+  "meta_description": "Tämä merkittävä lokalisaatiojulkaisu tuo Framesin vieläkin useammille filmiValokuvaajille maailmanlaajuisesti lisäten tuen tanskalle, suomelle, norjalle, vietnamille,..."
+}

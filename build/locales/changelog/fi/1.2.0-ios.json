@@ -1,0 +1,34 @@
+{
+  "version": "1.2.0",
+  "version_short": "1.2",
+  "url_slug": "1-2-ios",
+  "platform": "ios",
+  "release_date": "2025-07-17T10:00:00.000Z",
+  "title": "Keskitetyt asetukset ja parannettu järjestäminen",
+  "meta_title": "Keskitetyt asetukset ja parannettu järjestäminen · Frames",
+  "meta_description": "Yhdistetty asetussivu laitteiston hallintaan, tilaukseen ja asetuksiin. Parempi järjestäminen tekee filmivalokuvauksen kirjaamisesta nopeampaa ja intuitiivisempaa.",
+  "summary": "Kaikki sovelluksen asetukset on nyt yhdistetty yhteen keskitettyyn Asetukset-sivuun. Hallitse laitteistoasi, tilaustasi ja työkalupalkin asetuksiasi yhdestä paikasta samojen ominaisuuksien ollessa nyt helpommin saavutettavissa ja järjestettävissä.",
+  "sections": [
+    {
+      "type": "paragraph",
+      "content": "Olemme yhdistäneet hajallaan olevat asetukset yhteen omistettuun Asetukset-sivuun. Laitteiston hallinta, tilauksen tiedot ja käyttöliittymän mukauttaminen ovat kaikki saavutettavissa yhdestä valikosta. Tämä uudelleenjärjestely helpottaa tarvitsemasi löytämistä ilman etsintää sovelluksen eri osista. Kaikki olemassa oleva toiminnallisuus säilyy muuttumattomana, vain paremmin järjestettynä nopeampaa pääsyä varten."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/{{ lang }}/changelog/frames-1.2.0-1.png",
+      "image_2x": "/lib/img/{{ lang }}/changelog/frames-1.2.0-1@2x.png",
+      "alt": "Frames-filmivalokuvaussovellus, joka näyttää keskitetyn asetussivun laitteistoa ja sovelluksen asetuksia varten",
+      "width": "400",
+      "height": "300"
+    }
+  ],
+  "improvements": [
+    "Lisätty keskitetty Asetukset-sivu kaikille sovelluksen määrityksille",
+    "Yhdistetty laitteiston hallinta Asetuksissa",
+    "Yhdistetty tilauksen hallinta",
+    "Parannettu työkalupalkin ulkoasun mukauttamisen pääsy",
+    "Pieniä hiontoja koko sovelluksessa"
+  ],
+  "fixes": [],
+  "patches": []
+}

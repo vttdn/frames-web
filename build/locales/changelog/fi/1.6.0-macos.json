@@ -1,0 +1,38 @@
+{
+  "version": "1.6.0",
+  "version_short": "1.6",
+  "url_slug": "1-6-macos",
+  "platform": "macos",
+  "release_date": "2025-10-01T10:00:00.000Z",
+  "title": "Valotustavan metatiedot ja suorituskykyparannukset",
+  "summary": "Frames macOS:lle sisältää nyt valotustavan metatietojen tuen kattavaa EXIF-tietoa varten sekä suorituskykyparannuksia nopeampaan, vakaampaan toimintaan.",
+  "sections": [
+    {
+      "type": "paragraph",
+      "content": "Voit nyt nähdä ja integroida valotustavan tiedot filmilokeistasi skannattuihin kuviin. Tämä vastaa iOS-päivitystä varmistaen täydellisen metatietojen johdonmukaisuuden molemmilla alustoilla. Suorituskykypäivitykset koko sovelluksessa tekevät metatietojen integroinnista nopeampaa ja luotettavampaa."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/{{ lang }}/changelog/frames-1.11.0-1.png",
+      "image_2x": "/lib/img/{{ lang }}/changelog/frames-1.11.0-1@2x.png",
+      "alt": "Frames macOS-sovellus, joka näyttää valotustavan metatietojen tuen täydelliselle EXIF-tiedolle",
+      "width": "400",
+      "height": "300"
+    }
+  ],
+  "improvements": [
+    "Lisätty valotustavan metatietojen tuki",
+    "Suorituskykypäivitykset nopeampaan kuvien käsittelyyn",
+    "Parannettu sovelluksen vakaus kauttaaltaan",
+    "Parannettu metatietojen integrointinopeutta"
+  ],
+  "fixes": [],
+  "patches": [
+    {
+      "version": "1.5.1",
+      "description": "Erilaisia käyttöliittymäparannuksia ja visuaalisia hiontoja."
+    }
+  ],
+  "meta_title": "Valotustavan metatiedot ja suorituskykyparannukset · Frames",
+  "meta_description": "Frames macOS:lle sisältää nyt valotustavan metatietojen tuen kattavaa EXIF-tietoa varten sekä suorituskykyparannuksia nopeampaan, vakaampaan toimintaan."
+}

@@ -1,0 +1,53 @@
+{
+  "version": "1.6.0",
+  "version_short": "1.6",
+  "url_slug": "1-6-ios",
+  "platform": "ios",
+  "release_date": "2025-09-05T10:00:00.000Z",
+  "title": "Mukautetut suljinnopeusjärjestykset ja karttaparannukset",
+  "summary": "Aseta mukautetut suljinopeussekvenssit kamerakohtaisesti näyttäen vain ne nopeudet, joita kamerasi todella tukee. Tämä päivitys tuo myös parannetun karttakäsittelyn, lisäsuljinopeuksia ja viennin edistymisen ilmaisimet.",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Mukautettu suljinopeuden hallinta"
+    },
+    {
+      "type": "paragraph",
+      "content": "Määritä, mitkä suljinnopeudet näkyvät tallentimen liukusäätimessä ja kuvan asetuksissa kamerakohtaisesti. Jos kamerassasi on vain nopeudet 1/1000 - 1 sekunti, voit piilottaa laajennetun vaihtoehdon. Tämä pitää tallentimen käyttöliittymän siistinä ja estää vahingossa kirjaamasta nopeuksia, joita kamerasi ei tue. Mukautetut sekvenssit synkronoituvat Mac-sovelluksen kanssa johdonmukaisten metatietojen saavuttamiseksi laitteiden välillä."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/{{ lang }}/changelog/frames-1.6.0-1.png",
+      "image_2x": "/lib/img/{{ lang }}/changelog/frames-1.6.0-1@2x.png",
+      "alt": "Frames-filmivalokuvaussovellus, joka näyttää mukautetut suljinopeussekvenssit ja karttaparannukset",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Parannetut kartta- ja vientiominaisuudet"
+    },
+    {
+      "type": "paragraph",
+      "content": "Karttanäkymä käsittelee nyt koordinaatteja luotettavammin parannetulla eletuella panorointiin ja zoomaukseen. Olemme lisänneet yleisesti käytettyjä suljinnopeuksia (1/160, 1/80, 1/40, 1/20), jotka aiemmin puuttuivat. Vientitoiminnot näyttävät nyt edistymisen ilmaisimen, joten tiedät, milloin tiedostojasi luodaan ennen jakonäytön ilmestymistä."
+    }
+  ],
+  "improvements": [
+    "Lisätty mukautetut suljinopeussekvenssit kamerakohtaisesti",
+    "Parannettu kartan koordinaattien käsittely ja eletuki",
+    "Lisätty puuttuvat suljinnopeudet: 1/160, 1/80, 1/40 ja 1/20",
+    "Lisätty viennin edistymisen ilmaisin ennen jakonäytön ilmestymistä",
+    "Parannettu liukusäätimen tarkkuus tallentinäkymässä"
+  ],
+  "fixes": [
+    {
+      "title": "Tallentimen liukusäätimen tarkkuus",
+      "description": "Korjattu tallentimen liukusäätimet vastaamaan sekä oikeaa arvoa että visuaalista sijaintia."
+    }
+  ],
+  "patches": [],
+  "meta_title": "Mukautetut suljinnopeusjärjestykset ja karttaparannukset · Frames",
+  "meta_description": "Aseta mukautetut suljinopeussekvenssit kamerakohtaisesti näyttäen vain ne nopeudet, joita kamerasi todella tukee."
+}

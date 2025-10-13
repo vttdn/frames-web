@@ -1,0 +1,34 @@
+{
+  "version": "1.2.0",
+  "version_short": "1.2",
+  "url_slug": "1-2-ios",
+  "platform": "ios",
+  "release_date": "2025-07-17T10:00:00.000Z",
+  "title": "Centraliserede indstillinger og forbedret organisering",
+  "meta_title": "Centraliserede indstillinger og forbedret organisering · Frames",
+  "meta_description": "Samlet indstillingsside til udstyrsadministration, abonnement og præferencer. Bedre organisering gør filmfotografilogning hurtigere og mere intuitiv.",
+  "summary": "Alle app-indstillinger er nu samlet på én centraliseret indstillingsside. Administrer dit udstyr, abonnement og værktøjslinjepræferencer fra ét sted med de samme funktioner, der nu er nemmere at få adgang til og organisere.",
+  "sections": [
+    {
+      "type": "paragraph",
+      "content": "Vi har konsolideret spredte indstillinger til én dedikeret indstillingsside. Udstyrsadministration, abonnementsdetaljer og grænsefladetilpasning er alle tilgængelige fra en enkelt menu. Denne reorganisering gør det nemmere at finde, hvad du har brug for, uden at skulle lede gennem forskellige dele af appen. Al eksisterende funktionalitet forbliver uændret, bare bedre organiseret for hurtigere adgang."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/{{ lang }}/changelog/frames-1.2.0-1.png",
+      "image_2x": "/lib/img/{{ lang }}/changelog/frames-1.2.0-1@2x.png",
+      "alt": "Frames filmfotografi-app, der viser centraliseret indstillingsside til udstyr og app-præferencer",
+      "width": "400",
+      "height": "300"
+    }
+  ],
+  "improvements": [
+    "Tilføjet centraliseret indstillingsside til al app-konfiguration",
+    "Samlet udstyrsadministration i indstillinger",
+    "Konsolideret abonnementsstyring",
+    "Forbedret adgang til tilpasning af værktøjslinjeudseende",
+    "Mindre forbedringer gennem hele appen"
+  ],
+  "fixes": [],
+  "patches": []
+}

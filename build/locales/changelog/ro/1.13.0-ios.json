@@ -1,0 +1,77 @@
+{
+  "version": "1.13.0",
+  "version_short": "1.13",
+  "url_slug": "1-13-ios",
+  "platform": "ios",
+  "release_date": "2025-10-06T10:00:00.000Z",
+  "title": "Suport lingvistic ebraică, arabă, română și ucraineană",
+  "summary": "Frames continuă misiunea de a servi fotografi analogici din întreaga lume cu această actualizare semnificativă de localizare, aducând suport nativ pentru vorbitori de ebraică, arabă, română și ucraineană, alături de traduceri rafinate și îmbunătățiri de interfață în întreaga aplicație.",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Patru limbi noi cu suport de la dreapta la stânga"
+    },
+    {
+      "type": "paragraph",
+      "content": "Frames suportă acum ebraică, arabă, română și ucraineană, fiecare localizată cu atenție pentru a respecta nuanțele culturale și terminologia fotografiei. Ebraica și araba includ adaptare completă a interfeței de la dreapta la stânga. Fluxurile de navigare, plasarea butoanelor și alinierea textului se oglindesc toate în mod corespunzător în timp ce păstrează termenii tehnici precum codurile filmelor și valorile diafragmei în formatul lor internațional standard."
+    },
+    {
+      "type": "list",
+      "items": [
+        {
+          "title": "Ebraică (עברית) și arabă (العربية)",
+          "description": "Interfață completă RTL cu terminologie nativă pentru filme, setări cameră și metadate EXIF."
+        },
+        {
+          "title": "Română (Română) și ucraineană (Українська)",
+          "description": "Traduceri complete sprijinind fotografi care își documentează munca în limba maternă."
+        }
+      ]
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.13.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.13.0-1@2x.png",
+      "alt": "Aplicația Frames cu interfață RTL ebraică și arabă și suport lingvistic",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Rafinări de traducere pentru toate limbile"
+    },
+    {
+      "type": "paragraph",
+      "content": "Dincolo de limbile noi, am rafinat traducerile existente în întreaga aplicație bazate pe feedback-ul fotografilor. Numele filmelor rămân în limba lor originală (Kodak Portra, Ilford HP5), în timp ce elementele de interfață se adaptează la limba ta aleasă. Preferințele de limbă se sincronizează între dispozitive, iar toate datele existente se afișează automat în limba selectată fără reintroducere sau migrare."
+    }
+  ],
+  "improvements": [
+    "Adăugată localizare completă ebraică (עברית) cu suport interfață de la dreapta la stânga",
+    "Adăugată localizare completă arabă (العربية) cu adaptare layout RTL",
+    "Adăugată traducere română (Română) pentru comunitatea de fotografie pe film",
+    "Adăugat suport ucraineană (Українська) cu terminologie nativă",
+    "Rafinate traducerile existente pentru toate limbile suportate pentru claritate și consistență îmbunătățită",
+    "Acuratețe îmbunătățită a terminologiei tehnice în câmpurile specifice fotografiei",
+    "Suport bidirecțional sporit pentru conținut mixt latin și RTL"
+  ],
+  "fixes": [
+    {
+      "title": "Depășire text în traduceri",
+      "description": "Rezolvate problemele de layout unde frazele traduse mai lungi puteau fi trunchiate în anumite elemente de interfață."
+    },
+    {
+      "title": "Consistență layout RTL",
+      "description": "Remediate problemele minore de aliniere în limbile de la dreapta la stânga pentru a asigura oglindirea corectă pe toate ecranele."
+    }
+  ],
+  "patches": [
+    {
+      "version": "1.13.1",
+      "description": "Remediat o eroare care putea face meniul de partajare să pâlpâie repetat la exportare"
+    }
+  ],
+  "meta_title": "Suport lingvistic ebraică, arabă, română și ucraineană · Frames",
+  "meta_description": "Frames continuă misiunea de a servi fotografi analogici din întreaga lume cu această actualizare semnificativă de localizare, aducând suport nativ pentru ebraică, arabă..."
+}

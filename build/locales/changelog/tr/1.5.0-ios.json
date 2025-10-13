@@ -1,0 +1,55 @@
+{
+  "version": "1.5.0",
+  "version_short": "1.5",
+  "url_slug": "1-5-ios",
+  "platform": "ios",
+  "release_date": "2025-09-03T10:00:00.000Z",
+  "title": "Yeni Film Stokları, Yeniden Tasarlanan Diyafram Sistemi ve Lens Değiştirme",
+  "meta_title": "Yeni Film Stokları, Yeniden Tasarlanan Diyafram Sistemi ve Lens Değiştirme · Frames",
+  "meta_description": "Harman Phoenix II ve yeni film stoklarıyla lens başına özel diyafram dizileri. Daha hızlı, daha doğru analog kayıt için kaydedici doğrudan lens değiştirme.",
+  "summary": "Bu güncelleme, yeni emülsiyonlarla film stoğu kitaplığını genişletiyor, özel f-stop dizileriyle diyafram yönetimini tamamen yeniden tasarlıyor ve doğrudan kaydediciden lens değiştirme yeteneği ekliyor.",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Genişletilmiş Film Stoğu Kitaplığı"
+    },
+    {
+      "type": "paragraph",
+      "content": "Film stoğu listesi artık Harman Phoenix II, Lucky Color 200, Leica Monopan 50 ve diğer birçok popüler emülsiyonu içeriyor. Deneysel renkli filmler mi çekiyorsunuz yoksa klasik siyah beyaz stoklar mı, Frames daha doğru kayıt için daha geniş bir film türü yelpazesini destekliyor."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/{{ lang }}/changelog/frames-1.5.0-1.png",
+      "image_2x": "/lib/img/{{ lang }}/changelog/frames-1.5.0-1@2x.png",
+      "alt": "Özel diyafram dizileri ve genişletilmiş film stoğu kitaplığı ile Frames analog fotoğrafçılık uygulaması",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Yeniden Tasarlanan Diyafram Yönetimi"
+    },
+    {
+      "type": "paragraph",
+      "content": "Diyafram kontrolü tamamen yeniden inşa edildi. Artık lens başına özel f-stop dizileri tanımlayabilir, yalnızca lensinizin gerçekten sahip olduğu diyaframları gösterebilirsiniz. Kaydedici kaydırıcısı artık seçilen diyafram değerinde düzgün şekilde ortalanıyor. İş akışınızdan çıkmadan doğrudan kaydediciden lens değiştirin ve zoom lensler veya perspektif kontrol ayarlamaları için Daha Fazla düğmesi aracılığıyla odak uzaklığını ayarlayın."
+    }
+  ],
+  "improvements": [
+    "Harman Phoenix II, Lucky Color 200, Leica Monopan 50 ve daha fazlasıyla genişletilmiş film stoğu kitaplığı",
+    "Tamamen yeniden tasarlanan diyafram yönetim sistemi",
+    "Lens başına özel f-stop dizileri eklendi",
+    "Doğrudan kaydediciden lens değiştirme eklendi",
+    "Odak uzaklığı artık kaydedicideki Daha Fazla düğmesiyle ayarlanabilir",
+    "İyileştirilmiş yerelleştirme tutarlılığı",
+    "Uygulama genelinde küçük performans geliştirmeleri"
+  ],
+  "fixes": [
+    {
+      "title": "Diyafram Kaydırıcısı Ortalama",
+      "description": "Kaydedicideki diyafram kaydırıcısının seçilen değerde düzgün şekilde ortalanmadığı bir sorun düzeltildi."
+    }
+  ],
+  "patches": []
+}

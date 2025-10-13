@@ -1,0 +1,32 @@
+{
+  "version": "1.8.0",
+  "version_short": "1.8",
+  "url_slug": "1-8-ios",
+  "platform": "ios",
+  "release_date": "2025-09-15T10:00:00.000Z",
+  "title": "TXT-fileksport til filmlogger",
+  "summary": "Pro-brugere kan nu eksportere filmrullelogger som TXT-filer, perfekte til udskrivning af feltnotater eller oprettelse af hurtige referencearker til mørkekammerarbejde.",
+  "sections": [
+    {
+      "type": "paragraph",
+      "content": "Eksporter dine filmrullemetadata som almindelige tekstfiler. Dette format fungerer godt til udskrivning af kompakte referencearker til at have i din kamerataske eller mørkekammer. Hver TXT-eksport inkluderer alle billeddetaljer, eksponeringsindstillinger og notater i et rent, læsbart format, der er nemt at udskrive eller dele med laboratorier."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.8.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.8.0-1@2x.png",
+      "alt": "Frames analog fotografi-app TXT-eksportfunktion til udskrivning af filmrullenotater og metadata",
+      "width": "400",
+      "height": "300"
+    }
+  ],
+  "improvements": [
+    "Tilføjet TXT-fileksport for Pro-brugere",
+    "Optimeret eksportformatering til udskrivning og læsbarhed",
+    "Inkluderet omfattende billedmetadata i eksporter"
+  ],
+  "fixes": [],
+  "patches": [],
+  "meta_title": "TXT-fileksport til filmlogger · Frames",
+  "meta_description": "Pro-brugere kan nu eksportere filmrullelogger som TXT-filer, perfekte til udskrivning af feltnotater eller oprettelse af hurtige referencearker til mørkekammerarbejde."
+}

@@ -1,0 +1,35 @@
+{
+  "version": "1.8.0",
+  "version_short": "1.8",
+  "url_slug": "1-8-macos",
+  "platform": "macos",
+  "release_date": "2025-10-03T10:00:00.000Z",
+  "title": "İbranice, Arapça, Rumence ve Ukraynaca Dil Desteği",
+  "summary": "macOS için Frames, daha sorunsuz bir meta veri entegrasyon iş akışı için arayüz iyileştirmelerinin yanı sıra İbranice, Arapça, Rumence ve Ukraynaca ile dil desteğini genişletmeye devam ediyor.",
+  "sections": [
+    {
+      "type": "paragraph",
+      "content": "Bu güncelleme, tam sağdan sola arayüz adaptasyonu ile İbranice ve Arapça için doğal destek ve Rumence ve Ukraynaca çevirilerini getiriyor. Film stokları, fotoğraf makinesi ayarları ve EXIF meta verileri için tüm dile özgü terminoloji, iOS uygulamasıyla tutarlılık sağlamak için dikkatlice yerelleştirildi."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-mac-1.8.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-mac-1.8.0-1@2x.png",
+      "alt": "İbranice ve Arapça RTL arayüzü ve dil desteği ile Frames macOS uygulaması",
+      "width": "400",
+      "height": "300"
+    }
+  ],
+  "improvements": [
+    "Sağdan sola arayüz desteği ile İbranice (עברית) yerelleştirmesi eklendi",
+    "RTL düzen adaptasyonu ile Arapça (العربية) yerelleştirmesi eklendi",
+    "Rumence (Română) çevirisi eklendi",
+    "Ukraynaca (Українська) desteği eklendi",
+    "Daha sorunsuz kullanıcı deneyimi için arayüz iyileştirmeleri",
+    "Desteklenen tüm dillerde iyileştirilmiş tutarlılık"
+  ],
+  "fixes": [],
+  "patches": [],
+  "meta_title": "İbranice, Arapça, Rumence ve Ukraynaca Dil Desteği · Frames",
+  "meta_description": "macOS için Frames, daha sorunsuz bir meta veri entegrasyon için arayüz iyileştirmelerinin yanı sıra İbranice, Arapça, Rumence ve Ukraynaca ile dil desteğini genişletmeye devam ediyor..."
+}

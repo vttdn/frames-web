@@ -1,0 +1,65 @@
+{
+  "version": "1.7.0",
+  "version_short": "1.7",
+  "url_slug": "1-7-ios",
+  "platform": "ios",
+  "release_date": "2025-09-10T10:00:00.000Z",
+  "title": "Suport complet de accesibilitate și îmbunătățiri înregistrare",
+  "summary": "Această actualizare aduce suport cuprinzător pentru funcționalitățile de accesibilitate Apple, împreună cu îmbunătățiri ale fluxului de înregistrare și gestionării metadatelor, făcând Frames mai accesibil și eficient pentru toți fotografii de film.",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Funcționalități de accesibilitate Apple"
+    },
+    {
+      "type": "paragraph",
+      "content": "Frames suportă acum funcționalitățile cheie de accesibilitate Apple, inclusiv Text mai mare, Interfață întunecată, Diferențiere fără culoare, Contrast suficient și Mișcare redusă. Aceste funcționalități asigură că aplicația este utilizabilă pentru fotografi cu nevoi și preferințe vizuale diferite, menținând funcționalitatea completă indiferent de setările de accesibilitate."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.7.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.7.0-1@2x.png",
+      "alt": "Interfața aplicației Frames cu funcționalități de accesibilitate și suport text mare",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Îmbunătățiri flux de lucru și metadate"
+    },
+    {
+      "type": "paragraph",
+      "content": "Aplicația sare acum direct în noul tău film de îndată ce este creat, eficientizând fluxul de lucru. Etichetele din întreaga aplicație au fost rafinate pentru lizibilitate mai bună. Secvențele personalizate completează acum automat valorile min/max diafragmă, ceea ce este util pentru reintegrarea metadatelor pe Mac. Am remediat și problemele de mișcare în recorder la capturarea fotografiilor cu sliderul deschis și corectat problemele de inițializare a valorilor în vizualizarea completă recorder."
+    }
+  ],
+  "improvements": [
+    "Adăugat suport pentru funcționalitatea de accesibilitate Text mai mare Apple",
+    "Adăugat suport pentru aspect Interfață întunecată",
+    "Adăugat suport pentru Diferențiere fără culoare",
+    "Adăugat suport pentru Contrast suficient",
+    "Adăugat suport pentru Mișcare redusă",
+    "Sari direct în filmele noi după creare pentru flux de lucru mai rapid",
+    "Claritate îmbunătățită a etichetelor în întreaga aplicație",
+    "Completare automată a min/max diafragmă la folosirea secvențelor personalizate"
+  ],
+  "fixes": [
+    {
+      "title": "Problemă mișcare recorder",
+      "description": "Remediat problema de mișcare în recorder când o fotografie este capturată cu sliderul deschis."
+    },
+    {
+      "title": "Inițializare valori recorder",
+      "description": "Remediat o problemă cu valorile care nu se inițializau corect la deschiderea recorderului în vizualizare completă."
+    }
+  ],
+  "patches": [
+    {
+      "version": "1.7.1",
+      "description": "Remediat afișarea obiectivului arătând informații redundante despre diafragmă în listele de selecție. Remediat cadrele fiind editabile când editarea era dezactivată."
+    }
+  ],
+  "meta_title": "Suport complet de accesibilitate și îmbunătățiri înregistrare · Frames",
+  "meta_description": "Această actualizare aduce suport cuprinzător pentru funcționalitățile de accesibilitate Apple, împreună cu îmbunătățiri ale fluxului de înregistrare și gestionării metadatelor..."
+}

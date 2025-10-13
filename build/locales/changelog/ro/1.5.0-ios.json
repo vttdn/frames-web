@@ -1,0 +1,55 @@
+{
+  "version": "1.5.0",
+  "version_short": "1.5",
+  "url_slug": "1-5-ios",
+  "platform": "ios",
+  "release_date": "2025-09-03T10:00:00.000Z",
+  "title": "Filme noi, sistem de diafragmă reproiectat și schimbare obiective",
+  "meta_title": "Filme noi, sistem de diafragmă reproiectat și schimbare obiective · Frames",
+  "meta_description": "Secvențe de diafragmă personalizate per obiectiv cu Harman Phoenix II și filme noi. Schimbă obiectivele direct din recorder pentru înregistrare analogică mai rapidă și mai precisă.",
+  "summary": "Această actualizare extinde biblioteca de filme cu emulsii noi, reproiectează complet gestionarea diafragmei cu secvențe f-stop personalizate și adaugă posibilitatea de a schimba obiectivele direct din recorder.",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Bibliotecă extinsă de filme"
+    },
+    {
+      "type": "paragraph",
+      "content": "Lista de filme include acum Harman Phoenix II, Lucky Color 200, Leica Monopan 50 și alte emulsii populare. Fie că fotografiezi filme color experimentale sau filme alb-negru clasice, Frames suportă o gamă mai largă de tipuri de filme pentru înregistrare mai precisă."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/{{ lang }}/changelog/frames-1.5.0-1.png",
+      "image_2x": "/lib/img/{{ lang }}/changelog/frames-1.5.0-1@2x.png",
+      "alt": "Aplicația Frames cu secvențe de diafragmă personalizate și bibliotecă extinsă de filme",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Gestionare reproiectată a diafragmei"
+    },
+    {
+      "type": "paragraph",
+      "content": "Controlul diafragmei a fost complet reconstruit. Poți acum defini secvențe f-stop personalizate per obiectiv, arătând doar diafragmele pe care obiectivul tău le are efectiv. Sliderul din recorder este acum corect centrat pe valoarea diafragmei selectate. Schimbă obiectivele direct din recorder fără să părăsești fluxul de lucru și setează distanța focală prin butonul Mai mult pentru obiective zoom sau ajustări de control perspectivă."
+    }
+  ],
+  "improvements": [
+    "Bibliotecă extinsă de filme cu Harman Phoenix II, Lucky Color 200, Leica Monopan 50 și altele",
+    "Sistem de gestionare a diafragmei complet reproiectat",
+    "Adăugate secvențe f-stop personalizate per obiectiv",
+    "Adăugată schimbare obiective direct din recorder",
+    "Distanța focală poate fi acum ajustată prin butonul Mai mult în recorder",
+    "Consistență îmbunătățită a localizării",
+    "Îmbunătățiri minore de performanță în general"
+  ],
+  "fixes": [
+    {
+      "title": "Centrare slider diafragmă",
+      "description": "Remediat o problemă unde sliderul de diafragmă în recorder nu era corect centrat pe valoarea selectată."
+    }
+  ],
+  "patches": []
+}

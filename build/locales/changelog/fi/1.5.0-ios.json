@@ -1,0 +1,55 @@
+{
+  "version": "1.5.0",
+  "version_short": "1.5",
+  "url_slug": "1-5-ios",
+  "platform": "ios",
+  "release_date": "2025-09-03T10:00:00.000Z",
+  "title": "Uudet filmilaadut, uudelleensuunniteltu aukkojärjestelmä ja objektiivin vaihto",
+  "meta_title": "Uudet filmilaadut, uudelleensuunniteltu aukkojärjestelmä ja objektiivin vaihto · Frames",
+  "meta_description": "Mukautetut aukkosekvenssit objektiivikohtaisesti Harman Phoenix II:n ja uusien filmilaatien kanssa. Vaihda objektiiveja suoraan tallentimesta nopeampaa, tarkempaa analogista kirjaamista varten.",
+  "summary": "Tämä päivitys laajentaa filmilaatu-kirjastoa uusilla emulsioilla, uudelleensuunnittelee aukon hallinnan kokonaan mukautetuilla f-stop-sekvensseillä ja lisää mahdollisuuden vaihtaa objektiiveja suoraan tallentimesta.",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Laajennettu filmilaatu-kirjasto"
+    },
+    {
+      "type": "paragraph",
+      "content": "Filmilaatu-luettelo sisältää nyt Harman Phoenix II:n, Lucky Color 200:n, Leica Monopan 50:n ja useita muita suosittuja emulsioita. Kuvaatpa kokeellisia värifilmejä tai klassisia mustavalkoisia laatuja, Frames tukee laajempaa valikoimaa filmityyppejä tarkempaa kirjaamista varten."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/{{ lang }}/changelog/frames-1.5.0-1.png",
+      "image_2x": "/lib/img/{{ lang }}/changelog/frames-1.5.0-1@2x.png",
+      "alt": "Frames-analogisen valokuvauksen sovellus mukautetuilla aukkosekvensseillä ja laajennetulla filmilaatu-kirjastolla",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Uudelleensuunniteltu aukon hallinta"
+    },
+    {
+      "type": "paragraph",
+      "content": "Aukon hallinta on rakennettu kokonaan uudelleen. Voit nyt määritellä mukautettuja f-stop-sekvenssejä objektiivikohtaisesti näyttäen vain ne aukot, jotka objektiivissasi todellisuudessa on. Tallentimen liukusäädin on nyt kunnolla keskitetty valitulle aukkoarvolle. Vaihda objektiiveja suoraan tallentimesta poistumatta työnkulustasi ja aseta polttoväli Lisää-painikkeen kautta zoomobjektiiveille tai perspektiivinhallinnan säätöjä varten."
+    }
+  ],
+  "improvements": [
+    "Laajennettu filmilaatu-kirjasto Harman Phoenix II:lla, Lucky Color 200:lla, Leica Monopan 50:llä ja muilla",
+    "Kokonaan uudelleensuunniteltu aukon hallintajärjestelmä",
+    "Lisätty mukautetut f-stop-sekvenssit objektiivikohtaisesti",
+    "Lisätty objektiivin vaihto suoraan tallentimesta",
+    "Polttoväliä voi nyt säätää Lisää-painikkeen kautta tallentimessa",
+    "Parannettu lokalisaation johdonmukaisuus",
+    "Pieniä suorituskykyparannuksia kauttaaltaan"
+  ],
+  "fixes": [
+    {
+      "title": "Aukon liukusäätimen keskittäminen",
+      "description": "Korjattu ongelma, jossa tallentimen aukon liukusäädin ei ollut kunnolla keskitetty valitulle arvolle."
+    }
+  ],
+  "patches": []
+}

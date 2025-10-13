@@ -1,0 +1,35 @@
+{
+  "version": "1.8.0",
+  "version_short": "1.8",
+  "url_slug": "1-8-macos",
+  "platform": "macos",
+  "release_date": "2025-10-03T10:00:00.000Z",
+  "title": "Heprea, arabia, romania ja ukraina kielituki",
+  "summary": "Frames macOS:lle jatkaa kielituen laajentamista heprealla, arabialla, romanialla ja ukrainalla sekä käyttöliittymän hionnoilla sujuvampaan metatietojen integrointityönkulkuun.",
+  "sections": [
+    {
+      "type": "paragraph",
+      "content": "Tämä päivitys tuo alkuperäisen tuen heprealle ja arabialle täydellä oikealta-vasemmalle-käyttöliittymän mukautuksella sekä romanian ja ukrainan käännökset. Kaikki kielikohtainen terminologia filmilaatuja, kamera-asetuksia ja EXIF-metatietoja varten on huolellisesti lokalisoitu johdonmukaisuuden varmistamiseksi iOS-sovelluksen kanssa."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-mac-1.8.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-mac-1.8.0-1@2x.png",
+      "alt": "Frames macOS-sovellus heprean ja arabian RTL-käyttöliittymällä ja kielituella",
+      "width": "400",
+      "height": "300"
+    }
+  ],
+  "improvements": [
+    "Lisätty heprean (עברית) lokalisaatio oikealta-vasemmalle-käyttöliittymän tuella",
+    "Lisätty arabian (العربية) lokalisaatio RTL-asettelun mukautuksella",
+    "Lisätty romanian (Română) käännös",
+    "Lisätty ukrainan (Українська) tuki",
+    "Käyttöliittymän hiontoja sujuvampaan käyttökokemukseen",
+    "Parannettu johdonmukaisuus kaikilla tuetuilla kielillä"
+  ],
+  "fixes": [],
+  "patches": [],
+  "meta_title": "Heprea, arabia, romania ja ukraina kielituki · Frames",
+  "meta_description": "Frames macOS:lle jatkaa kielituen laajentamista heprealla, arabialla, romanialla ja ukrainalla sekä käyttöliittymän hionnoilla sujuvampaan metatietojen..."
+}

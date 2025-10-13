@@ -1,0 +1,37 @@
+{
+  "version": "1.1.0",
+  "version_short": "1.1",
+  "url_slug": "1-1-macos",
+  "platform": "macos",
+  "release_date": "2025-06-27T10:00:00.000Z",
+  "title": "Suport pentru fișiere TIFF",
+  "meta_title": "Suport pentru fișiere TIFF · Frames",
+  "meta_description": "Importă și exportă fișiere TIFF cu integrare completă a metadatelor. Suport format profesional pentru scanări de înaltă calitate cu flux de lucru EXIF integrat.",
+  "summary": "Poți acum importa și exporta fișiere TIFF cu integrare completă a metadatelor, extinzând suportul de format dincolo de JPEG pentru fluxuri de lucru profesionale.",
+  "sections": [
+    {
+      "type": "paragraph",
+      "content": "Suportul TIFF sosește pe Frames pentru macOS. Importă scanări TIFF și integrează metadatele filmului cu același flux de lucru pe care îl folosești pentru fișierele JPEG. Fișierele TIFF funcționează perfect în procesul de reintegrare a metadatelor, asigurându-te că notele de fotografie analogică călătoresc cu imaginile tale indiferent de format."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-mac-1.1.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-mac-1.1.0-1@2x.png",
+      "alt": "Aplicația Frames pentru macOS cu suport TIFF pentru fluxuri de lucru profesionale",
+      "width": "400",
+      "height": "300"
+    }
+  ],
+  "improvements": [
+    "Adăugat suport pentru importul fișierelor TIFF",
+    "Adăugat export fișiere TIFF cu integrare completă a metadatelor",
+    "Fișierele TIFF funcționează perfect cu fluxul existent de reintegrare a metadatelor"
+  ],
+  "fixes": [],
+  "patches": [
+    {
+      "version": "1.1.1",
+      "description": "Remediat o problemă care putea împiedica încărcarea fișierelor .frames în anumite situații."
+    }
+  ]
+}

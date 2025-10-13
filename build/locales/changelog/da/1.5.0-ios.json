@@ -1,0 +1,55 @@
+{
+  "version": "1.5.0",
+  "version_short": "1.5",
+  "url_slug": "1-5-ios",
+  "platform": "ios",
+  "release_date": "2025-09-03T10:00:00.000Z",
+  "title": "Nye filmtyper, redesignet blændesystem og objektivskift",
+  "meta_title": "Nye filmtyper, redesignet blændesystem og objektivskift · Frames",
+  "meta_description": "Brugerdefinerede blændesekvenser pr. objektiv med Harman Phoenix II og nye filmtyper. Skift objektiver direkte fra optageren for hurtigere, mere præcis analog logning.",
+  "summary": "Denne opdatering udvider filmtypebiblioteket med nye emulsioner, redesigner fuldstændigt blændehåndtering med brugerdefinerede f-stop-sekvenser og tilføjer muligheden for at skifte objektiver direkte fra optageren.",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Udvidet filmtypebibliotek"
+    },
+    {
+      "type": "paragraph",
+      "content": "Filmtypelisten inkluderer nu Harman Phoenix II, Lucky Color 200, Leica Monopan 50 og flere andre populære emulsioner. Uanset om du optager eksperimentelle farvefilm eller klassiske sort-hvid-typer, understøtter Frames en bredere vifte af filmtyper for mere præcis logning."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/{{ lang }}/changelog/frames-1.5.0-1.png",
+      "image_2x": "/lib/img/{{ lang }}/changelog/frames-1.5.0-1@2x.png",
+      "alt": "Frames analog fotografi-app med brugerdefinerede blændesekvenser og udvidet filmtypebibliotek",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Redesignet blændehåndtering"
+    },
+    {
+      "type": "paragraph",
+      "content": "Blændekontrol er blevet fuldstændigt genopbygget. Du kan nu definere brugerdefinerede f-stop-sekvenser pr. objektiv og vise kun de blænder, dit objektiv faktisk har. Optagerens skyderen er nu korrekt centreret på den valgte blændeværdi. Skift objektiver direkte fra optageren uden at forlade din arbejdsgang, og indstil brændvidde via Mere-knappen til zoomobjektiver eller perspektivkontrol-justeringer."
+    }
+  ],
+  "improvements": [
+    "Udvidet filmtypebibliotek med Harman Phoenix II, Lucky Color 200, Leica Monopan 50 og mere",
+    "Fuldstændigt redesignet blændehåndteringssystem",
+    "Tilføjet brugerdefinerede f-stop-sekvenser pr. objektiv",
+    "Tilføjet objektivskift direkte fra optageren",
+    "Brændvidde kan nu justeres via Mere-knappen i optageren",
+    "Forbedret lokaliseringskonsistens",
+    "Mindre ydeevneforbedringer gennem hele"
+  ],
+  "fixes": [
+    {
+      "title": "Blændeskydercentrering",
+      "description": "Rettet et problem, hvor blændeskyderen i optageren ikke var korrekt centreret på den valgte værdi."
+    }
+  ],
+  "patches": []
+}

@@ -1,0 +1,34 @@
+{
+  "version": "1.2.0",
+  "version_short": "1.2",
+  "url_slug": "1-2-ios",
+  "platform": "ios",
+  "release_date": "2025-07-17T10:00:00.000Z",
+  "title": "Merkezi Ayarlar ve İyileştirilmiş Organizasyon",
+  "meta_title": "Merkezi Ayarlar ve İyileştirilmiş Organizasyon · Frames",
+  "meta_description": "Ekipman yönetimi, abonelik ve tercihler için birleşik ayarlar sayfası. Daha iyi organizasyon, film fotoğrafçılığı kaydını daha hızlı ve daha sezgisel hale getirir.",
+  "summary": "Tüm uygulama ayarları artık tek bir merkezi Ayarlar sayfasında birleştirildi. Ekipmanınızı, aboneliğinizi ve araç çubuğu tercihlerinizi tek bir konumdan yönetin, aynı özellikler artık erişilmesi ve düzenlenmesi daha kolay.",
+  "sections": [
+    {
+      "type": "paragraph",
+      "content": "Dağınık ayarları tek bir özel Ayarlar sayfasında birleştirdik. Ekipman yönetimi, abonelik detayları ve arayüz özelleştirme tek bir menüden erişilebilir. Bu yeniden organizasyon, uygulamanın farklı bölümlerinde aramadan ihtiyacınız olanı bulmanızı kolaylaştırır. Mevcut tüm işlevler değişmeden kalır, sadece daha hızlı erişim için daha iyi düzenlenir."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/{{ lang }}/changelog/frames-1.2.0-1.png",
+      "image_2x": "/lib/img/{{ lang }}/changelog/frames-1.2.0-1@2x.png",
+      "alt": "Ekipman ve uygulama tercihleri için merkezi ayarlar sayfasını gösteren Frames film fotoğrafçılığı uygulaması",
+      "width": "400",
+      "height": "300"
+    }
+  ],
+  "improvements": [
+    "Tüm uygulama yapılandırması için merkezi Ayarlar sayfası eklendi",
+    "Ayarlar'da birleştirilmiş ekipman yönetimi",
+    "Konsolide edilmiş abonelik yönetimi",
+    "İyileştirilmiş araç çubuğu görünümü özelleştirme erişimi",
+    "Uygulama genelinde küçük iyileştirmeler"
+  ],
+  "fixes": [],
+  "patches": []
+}

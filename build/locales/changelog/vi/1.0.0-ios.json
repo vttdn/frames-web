@@ -1,0 +1,150 @@
+{
+  "version": "1.0.0",
+  "version_short": "1.0",
+  "url_slug": "1-0-ios",
+  "platform": "ios",
+  "release_date": "2025-04-01T03:02:00.000Z",
+  "title": "Ra mắt Frames: Sổ tay chụp ảnh phim analog của bạn",
+  "meta_title": "Ra mắt Frames: Sổ tay chụp ảnh phim analog của bạn · Frames",
+  "meta_description": "Ghi lại siêu dữ liệu chụp ảnh phim ngay tại hiện trường với iOS và nhúng dữ liệu EXIF vào ảnh scan với macOS. Quy trình analog hoàn chỉnh với hơn 200 loại phim.",
+  "summary": "Frames ra mắt với phiên bản xây dựng lại hoàn toàn từ Datafilm, mang đến ứng dụng iOS tinh tế để ghi lại siêu dữ liệu chụp ảnh phim tại hiện trường, kết hợp với ứng dụng macOS mới để nhúng dữ liệu đó vào ảnh scan của bạn.",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Ghi lại & Tổ chức các cuộn phim của bạn"
+    },
+    {
+      "type": "paragraph",
+      "content": "Frames là sổ tay kỹ thuật số cho nhiếp ảnh analog, được thiết kế để theo dõi cài đặt chụp và tích hợp siêu dữ liệu một cách liền mạch vào ảnh scan. Ghi lại mọi chi tiết quan trọng cho từng khung hình: tiêu cự, tốc độ màn trập, bù trừ phơi sáng, khẩu độ, cài đặt đèn flash, máy ảnh, ống kính, loại phim, ngày giờ và vị trí địa lý."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.0.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.0.0-1@2x.png",
+      "alt": "Giao diện ứng dụng Frames để ghi lại siêu dữ liệu máy ảnh analog và chi tiết cuộn phim",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "list",
+      "items": [
+        {
+          "title": "Ghi lại siêu dữ liệu đầy đủ",
+          "description": "Theo dõi số khung hình, tiêu cự, tốc độ màn trập, bù trừ phơi sáng, khẩu độ, cài đặt đèn flash, máy ảnh, ống kính, loại phim, ngày giờ và vị trí."
+        },
+        {
+          "title": "Ảnh tham chiếu",
+          "description": "Đính kèm ảnh tham chiếu cho từng khung hình để có ngữ cảnh trực quan nhanh chóng khi khớp với ảnh scan."
+        },
+        {
+          "title": "Chế độ xem bản đồ tương tác",
+          "description": "Xem các bức ảnh phim của bạn trên bản đồ tương tác để truy vết lại nơi mỗi khung hình được chụp."
+        },
+        {
+          "title": "Tổ chức thư mục",
+          "description": "Tổ chức thư viện phim của bạn bằng các thư mục và công cụ tìm kiếm mạnh mẽ để tìm bất kỳ khung hình nào ngay lập tức."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Xuất & Đồng bộ dữ liệu của bạn"
+    },
+    {
+      "type": "paragraph",
+      "content": "Ứng dụng macOS đồng hành giải quyết tính năng được yêu cầu nhiều nhất từ cộng đồng nhiếp ảnh phim: tích hợp lại siêu dữ liệu vào ảnh JPEG đã scan. Xuất siêu dữ liệu của bạn dưới dạng tệp JSON (.frames), chia sẻ bản ghi giữa các thiết bị Apple và sử dụng ứng dụng macOS để nhúng dữ liệu EXIF hoạt động liền mạch với Lightroom, Capture One và Apple Photos."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Tối ưu hóa cho nhiếp ảnh analog"
+    },
+    {
+      "type": "list",
+      "items": [
+        {
+          "title": "Điều khiển thích ứng",
+          "description": "Các điều khiển thích ứng với đặc điểm thiết bị của bạn để ghi lại nhanh hơn."
+        },
+        {
+          "title": "Tự động điền thông minh",
+          "description": "Tự động điền thông minh cho ống kính, máy ảnh, loại phim và ISO tiết kiệm thời gian khi ở hiện trường."
+        },
+        {
+          "title": "Hơn 200 loại phim",
+          "description": "Bộ sưu tập được tải sẵn các loại phim phổ biến từ các nhà sản xuất lớn."
+        },
+        {
+          "title": "Thiết kế Apple gốc",
+          "description": "Tuân theo Nguyên tắc giao diện con người của Apple để có trải nghiệm mượt mà và trực quan."
+        },
+        {
+          "title": "Hiệu suất được tối ưu hóa",
+          "description": "Hoạt động mượt mà ngay cả trên các mẫu iPhone cũ hơn."
+        }
+      ]
+    }
+  ],
+  "improvements": [
+    "Xây dựng lại hoàn toàn từ đầu với kiến trúc tinh tế",
+    "Ghi lại siêu dữ liệu khung hình toàn diện: phơi sáng, máy ảnh, ống kính, phim, vị trí",
+    "Đánh dấu thời gian tự động cho mọi khung hình",
+    "Đính kèm ảnh tham chiếu để khớp với ảnh scan",
+    "Tổ chức thư mục cho thư viện cuộn phim",
+    "Tìm kiếm mạnh mẽ trên tất cả các khung hình đã ghi",
+    "Chế độ xem bản đồ tương tác hiển thị vị trí chụp",
+    "Ứng dụng macOS đồng hành để nhúng siêu dữ liệu EXIF",
+    "Tương thích hoàn toàn với Lightroom, Capture One và Apple Photos",
+    "Thiết kế ưu tiên quyền riêng tư không cần tài khoản hoặc phụ thuộc vào đám mây",
+    "Cải thiện giao diện thanh công cụ",
+    "Thêm hỗ trợ cho nhiều ngôn ngữ bao gồm tiếng Pháp, Đức, Tây Ban Nha, Ý, Hà Lan, Bồ Đào Nha, Ba Lan và Thụy Điển"
+  ],
+  "fixes": [
+    "Khắc phục sự cố làm đóng băng màn hình khi thêm máy ảnh hoặc ống kính mới trên một số thiết bị",
+    "Khắc phục URL đánh giá ứng dụng"
+  ],
+  "patches": [
+    {
+      "version": "1.0.1",
+      "date": "2025-04-04",
+      "description": "Cải thiện và sửa lỗi nhỏ"
+    },
+    {
+      "version": "1.0.2",
+      "date": "2025-04-13",
+      "description": "Sửa lỗi nhỏ và cải thiện bản dịch"
+    },
+    {
+      "version": "1.0.3",
+      "date": "2025-04-15",
+      "description": "Cải thiện bản địa hóa"
+    },
+    {
+      "version": "1.0.4",
+      "date": "2025-04-19",
+      "description": "Cải thiện giao diện thanh công cụ và mở rộng bản địa hóa"
+    },
+    {
+      "version": "1.0.5",
+      "date": "2025-04-21",
+      "description": "Thêm bản địa hóa"
+    },
+    {
+      "version": "1.0.6",
+      "date": "2025-04-23",
+      "description": "Khắc phục sự cố làm đóng băng màn hình khi thêm máy ảnh hoặc ống kính mới trên một số thiết bị"
+    },
+    {
+      "version": "1.0.7",
+      "date": "2025-04-28",
+      "description": "Khắc phục URL đánh giá ứng dụng"
+    },
+    {
+      "version": "1.0.8",
+      "date": "2025-05-20",
+      "description": "Thêm khả năng tương thích với iOS 18.0 trở lên"
+    }
+  ]
+}

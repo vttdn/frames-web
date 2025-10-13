@@ -1,0 +1,33 @@
+{
+  "version": "1.3.0",
+  "version_short": "1.3",
+  "url_slug": "1-3-ios",
+  "platform": "ios",
+  "release_date": "2025-07-18T10:00:00.000Z",
+  "title": "Xuất GPX & Tạo tệp nhanh hơn",
+  "meta_title": "Xuất GPX & Tạo tệp nhanh hơn · Frames",
+  "meta_description": "Xuất vị trí cuộn phim dưới dạng tệp GPX cho phần mềm bản đồ. Tạo tệp nhanh hơn đáng kể với độ tin cậy được cải thiện cho xuất cuộn phim lớn.",
+  "summary": "Người dùng Pro hiện có thể xuất cuộn phim dưới dạng tệp GPX để theo dõi vị trí. Bản cập nhật này cũng mang đến cải thiện hiệu suất cho việc xuất tệp nhanh hơn và đáng tin cậy hơn trên tất cả các định dạng.",
+  "sections": [
+    {
+      "type": "paragraph",
+      "content": "Xuất vị trí cuộn phim của bạn dưới dạng tệp GPX để trực quan hóa vị trí chụp trong các ứng dụng bản đồ hoặc nhập vào phần mềm quản lý ảnh. Mỗi khung hình có dữ liệu vị trí sẽ trở thành một điểm tham chiếu trong lộ trình GPX. Hiệu suất xuất tệp đã được cải thiện trên tất cả các định dạng, giúp tạo tệp .FRAMES, TXT và GPX nhanh hơn ngay cả đối với cuộn phim có nhiều khung hình."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/{{ lang }}/changelog/frames-1.3.0-1.png",
+      "image_2x": "/lib/img/{{ lang }}/changelog/frames-1.3.0-1@2x.png",
+      "alt": "Ứng dụng nhiếp ảnh analog Frames với tính năng xuất vị trí GPX và tạo tệp",
+      "width": "400",
+      "height": "300"
+    }
+  ],
+  "improvements": [
+    "Thêm xuất tệp GPX cho người dùng Pro",
+    "Tạo xuất tệp nhanh hơn đáng kể",
+    "Cải thiện độ tin cậy xuất cho cuộn phim lớn",
+    "Tối ưu hóa việc sử dụng bộ nhớ trong quá trình xuất"
+  ],
+  "fixes": [],
+  "patches": []
+}

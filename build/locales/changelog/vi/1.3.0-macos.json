@@ -1,0 +1,37 @@
+{
+  "version": "1.3.0",
+  "version_short": "1.3",
+  "url_slug": "1-3-macos",
+  "platform": "macos",
+  "release_date": "2025-09-01T10:00:00.000Z",
+  "title": "Hỗ trợ tệp DNG Raw",
+  "meta_title": "Hỗ trợ tệp DNG Raw · Frames",
+  "meta_description": "Nhúng siêu dữ liệu vào tệp raw DNG cùng với định dạng JPEG và TIFF. Quy trình analog hoàn chỉnh với dữ liệu EXIF toàn diện cho xử lý hậu kỳ chuyên nghiệp.",
+  "summary": "Giờ đây bạn có thể nhập tệp DNG cùng với JPEG và TIFF, và tích hợp lại siêu dữ liệu trực tiếp vào ảnh raw của bạn để có quy trình nhiếp ảnh analog hoàn chỉnh.",
+  "sections": [
+    {
+      "type": "paragraph",
+      "content": "Hỗ trợ ảnh raw đã có trên Frames cho macOS. Nhập tệp DNG cùng với quy trình JPEG và TIFF hiện có của bạn, và nhúng siêu dữ liệu cuộn phim của bạn trực tiếp vào tệp raw. Điều này đảm bảo cài đặt phơi sáng, dữ liệu máy ảnh, loại phim và ghi chú của bạn đi cùng với ảnh raw của bạn qua quá trình xử lý hậu kỳ và lưu trữ. Chúng tôi cũng đã khắc phục sự cố khiến ghi chú bổ sung cho một khung hình không được giữ lại trong quá trình tích hợp lại siêu dữ liệu."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-mac-1.3.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-mac-1.3.0-1@2x.png",
+      "alt": "Ứng dụng Frames cho macOS với nhúng siêu dữ liệu tệp raw DNG cho ảnh scan nhiếp ảnh analog",
+      "width": "400",
+      "height": "300"
+    }
+  ],
+  "improvements": [
+    "Thêm hỗ trợ tệp raw DNG",
+    "Tích hợp lại siêu dữ liệu đầy đủ cho ảnh raw",
+    "Tệp DNG hoạt động liền mạch cùng với JPEG và TIFF"
+  ],
+  "fixes": [
+    {
+      "title": "Giữ lại ghi chú khung hình",
+      "description": "Khắc phục sự cố khiến ghi chú bổ sung cho một khung hình không được giữ lại trong quá trình tích hợp lại siêu dữ liệu."
+    }
+  ],
+  "patches": []
+}

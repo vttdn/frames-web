@@ -24,6 +24,12 @@
 }
 
 .review-author {
+    margin-top: var(--spacing-4xl);
+
+    @include tablet-down {
+        margin-top: var(--spacing-xl);
+    }
+
     .btn {
         cursor: default !important;
         background: var(--color-gray-dark2) !important;
@@ -42,4 +48,27 @@
 .review-footer {
     color: var(--color-secondary);
     margin-top: var(--spacing-lg);
+}
+
+.review-carousel {
+    position: relative;
+}
+
+.reviews-inner {
+  position: relative;
+  overflow: hidden;
+  display: block;
+  grid-column: 1 / span 2;
+}
+
+.review-card {
+  opacity: 0;
+  display: none;       // hide inactive reviews
+  pointer-events: none;
+}
+
+.review-card.active {
+  display: block;      // show active review
+  opacity: 1;
+  pointer-events: auto;
 }

@@ -1,0 +1,43 @@
+{
+  "version": "1.5.0",
+  "version_short": "1.5",
+  "url_slug": "1-5-macos",
+  "platform": "macos",
+  "release_date": "2025-09-19T10:00:00.000Z",
+  "title": "Merkittävät suorituskyky- ja DNG-käsittelyparannukset",
+  "meta_title": "Merkittävät suorituskyky- ja DNG-käsittelyparannukset · Frames",
+  "meta_description": "Merkittävästi nopeampi DNG-käsittely optimoidulla välimuistilla ja muistinkäytöllä. Korjattu .frames-tuonti ja Intel Mac -yhteensopivuus sujuvampaan metatietojen työnkulkuun.",
+  "summary": "Tämä päivitys tuo merkittävästi nopeampaa kuvien käsittelyä optimoidulla DNG-käsittelyllä, parannetulla välimuistilla ja korjauksilla .frames-tiedostojen tuontiin sekä DNG-metatietojen vientiin Intel Mac -tietokoneilla.",
+  "sections": [
+    {
+      "type": "paragraph",
+      "content": "Kuvien lataaminen on nyt merkittävästi nopeampaa kaikissa muodoissa merkittävillä parannuksilla DNG-käsittelyn nopeuteen ja luotettavuuteen. Muistinkäyttöä on optimoitu, välimuistia parannettu ja synkronoitu lataaminen varmistaa sujuvan toiminnan jopa suurilla kuvaerillä. Olemme myös korjanneet .frames-tiedostojen tuonnin macOS-valikkoriviltä ja ratkaisseet DNG-metatietojen vientiongelmia vanhemmilla Intel Mac -tietokoneilla."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.10.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.10.0-1@2x.png",
+      "alt": "Frames macOS-sovellus optimoidulla DNG-käsittelysuorituskyvyllä nopeampaan kuvien käsittelyyn",
+      "width": "400",
+      "height": "300"
+    }
+  ],
+  "improvements": [
+    "Merkittävästi nopeampi kuvien lataaminen kaikissa muodoissa",
+    "Optimoitu DNG-käsittely parempaa suorituskykyä varten",
+    "Parannettu välimuistijärjestelmä sujuvampaan toimintaan",
+    "Parannettu muistinkäytön tehokkuus",
+    "Synkronoitu lataaminen suurille kuvaerille"
+  ],
+  "fixes": [
+    {
+      "title": ".frames-tiedostojen tuonti",
+      "description": "Korjattu .frames-tiedostojen tuonti macOS-valikkoriviltä."
+    },
+    {
+      "title": "DNG-vienti Intel Mac -tietokoneilla",
+      "description": "Korjattu DNG-metatietojen vienti vanhemmilla Intel Mac -malleilla."
+    }
+  ],
+  "patches": []
+}

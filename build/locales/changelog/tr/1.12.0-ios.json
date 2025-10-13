@@ -1,0 +1,84 @@
+{
+  "version": "1.12.0",
+  "version_short": "1.12",
+  "url_slug": "1-12-ios",
+  "platform": "ios",
+  "release_date": "2025-10-03T10:00:00.000Z",
+  "title": "Danca, Fince, Norveççe, Vietnamca ve 4 Dil Daha",
+  "summary": "Bu büyük yerelleştirme sürümü, Frames'i dünya çapında daha fazla film fotoğrafçısına ulaştırıyor ve gelişmiş netlik ve tutarlılık için mevcut tüm dillerdeki çevirileri rafine ederken Danca, Fince, Norveççe, Vietnamca, Geleneksel Çince, Endonezyaca, Hong Kong Çincesi ve Yunanca için destek ekliyor.",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Avrupa ve Asya'da Sekiz Yeni Dil"
+    },
+    {
+      "type": "paragraph",
+      "content": "Frames artık Danca, Fince, Norveççe, Vietnamca, Geleneksel Çince, Endonezyaca, Hong Kong Çincesi ve Yunanca'yı destekliyor. Her çeviri, fotoğraf makinesi ayarları, film stokları ve meta veri yönetimi için teknik doğruluğu korurken film fotoğrafçılığı terminolojisinin doğal hissettirmesi için dikkatlice hazırlandı."
+    },
+    {
+      "type": "list",
+      "items": [
+        {
+          "title": "Kuzey Dilleri",
+          "description": "İskandinav fotoğrafçıları için doğal terminoloji ile Danca (Dansk), Fince (Suomi) ve Norveççe (Norsk)."
+        },
+        {
+          "title": "Asya Dilleri",
+          "description": "Vietnamca (Tiếng Việt), Geleneksel Çince (繁體中文), Endonezyaca (Bahasa Indonesia) ve Hong Kong Çincesi."
+        },
+        {
+          "title": "Yunanca (Ελληνικά)",
+          "description": "Yunanistan ve Kıbrıs'taki fotoğrafçılar için eksiksiz çeviri."
+        }
+      ]
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.12.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.12.0-1@2x.png",
+      "alt": "Kuzey ve Asya dilleri için çok dilli destek ile Frames analog fotoğrafçılık uygulaması",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Bölgesel Tercihler ve Çeviri İyileştirmeleri"
+    },
+    {
+      "type": "paragraph",
+      "content": "Geleneksel Çince ve Hong Kong Çincesi için tarih formatları ve terminoloji için bölgesel tercihleri uyarladık. Kuzey dilleri, bu ülkelerdeki film fotoğrafçılarının zanaatlarını nasıl tartıştıklarıyla uyumludur. Ayrıca topluluk geri bildirimlerine dayanarak İspanyolca, Fransızca, Almanca, İtalyanca, Portekizce, Japonca, Korece, Rusça, Tayca, Lehçe, Türkçe, İsveççe ve Hintçe'de mevcut çevirileri de rafine ettik."
+    },
+    {
+      "type": "paragraph",
+      "content": "Frames otomatik olarak iOS dil tercihinizi benimser. Mevcut tüm film ruloları ve fotoğraf makinesi ekipmanları olduğu gibi kalır. Arayüz, veri taşıma veya yeniden giriş olmadan basitçe uyum sağlar."
+    }
+  ],
+  "improvements": [
+    "Danimarka'nın film fotoğrafçılığı topluluğu için Danca (Dansk) yerelleştirmesi eklendi",
+    "Doğal fotoğrafçılık terminolojisi ile Fince (Suomi) çevirisi eklendi",
+    "İskandinav fotoğrafçıları için Norveççe (Norsk) desteği eklendi",
+    "Güneydoğu Asya'nın analog topluluğu için Vietnamca (Tiếng Việt) eklendi",
+    "Tayvan, Hong Kong ve Makao için Geleneksel Çince (繁體中文) eklendi",
+    "Endonezyaca (Bahasa Indonesia) yerelleştirmesi eklendi",
+    "Bölgeye özgü tercihlerle Hong Kong Çincesi eklendi",
+    "Yunanistan ve Kıbrıs için Yunanca (Ελληνικά) çevirisi eklendi",
+    "İyileştirilmiş netlik ve doğal ifade için mevcut tüm dil çevirileri rafine edildi",
+    "Fotoğrafçılığa özgü alanlarda geliştirilmiş teknik terminoloji tutarlılığı",
+    "Bölgesel tercihler için iyileştirilmiş tarih formatı ve ölçüm birimi yerelleştirmesi"
+  ],
+  "fixes": [
+    {
+      "title": "Çeviri Tutarlılığı",
+      "description": "Uygulama genelinde tutarlı dil sağlamak için benzer özellikler arasında standartlaştırılmış terminoloji."
+    },
+    {
+      "title": "Düzen Adaptasyonu",
+      "description": "Kesme veya taşma olmadan daha uzun çevirileri barındırmak için dinamik metin boyutlandırma iyileştirildi."
+    }
+  ],
+  "patches": [],
+  "meta_title": "Danca, Fince, Norveççe, Vietnamca ve 4 Dil Daha · Frames",
+  "meta_description": "Bu büyük yerelleştirme sürümü, Frames'i dünya çapında daha fazla film fotoğrafçısına ulaştırıyor ve Danca, Fince, Norveççe, Vietnamca için destek ekliyor..."
+}

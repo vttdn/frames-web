@@ -1,0 +1,53 @@
+{
+  "version": "1.6.0",
+  "version_short": "1.6",
+  "url_slug": "1-6-ios",
+  "platform": "ios",
+  "release_date": "2025-09-05T10:00:00.000Z",
+  "title": "Secvențe personalizate viteze obturator și îmbunătățiri hartă",
+  "summary": "Setează secvențe personalizate de viteze obturator per cameră, arătând doar vitezele pe care camera ta le suportă efectiv. Această actualizare aduce și gestionare îmbunătățită a hărții, opțiuni suplimentare de viteze obturator și indicatori de progres export.",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Control personalizat viteze obturator"
+    },
+    {
+      "type": "paragraph",
+      "content": "Configurează ce viteze obturator apar în sliderul recorder și setările cadrului pe bază per-cameră. Dacă camera ta are doar viteze de la 1/1000 la 1 secundă, poți ascunde opțiunile de gamă extinsă. Aceasta menține interfața recorderului curată și previne înregistrarea accidentală a vitezelor pe care camera ta nu le suportă. Secvențele personalizate se sincronizează cu aplicația Mac pentru metadate consistente pe toate dispozitivele."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/{{ lang }}/changelog/frames-1.6.0-1.png",
+      "image_2x": "/lib/img/{{ lang }}/changelog/frames-1.6.0-1@2x.png",
+      "alt": "Aplicația Frames arătând secvențe personalizate viteze obturator și îmbunătățiri hartă",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Funcționalități îmbunătățite hartă și export"
+    },
+    {
+      "type": "paragraph",
+      "content": "Vizualizarea hărții gestionează acum coordonatele mai fiabil cu suport îmbunătățit pentru gesturi de panoramare și zoom. Am adăugat viteze obturator frecvent folosite (1/160, 1/80, 1/40, 1/20) care lipseau anterior. Operațiunile de export arată acum un indicator de progres astfel încât știi când fișierele tale sunt generate înainte să apară foaia de partajare."
+    }
+  ],
+  "improvements": [
+    "Adăugate secvențe personalizate de viteze obturator per cameră",
+    "Gestionare îmbunătățită a coordonatelor hărții și suport gesturi",
+    "Adăugate viteze obturator lipsă: 1/160, 1/80, 1/40 și 1/20",
+    "Adăugat indicator de progres export înainte să apară foaia de partajare",
+    "Precizie sporită a sliderului în vizualizarea recorder"
+  ],
+  "fixes": [
+    {
+      "title": "Precizie slider recorder",
+      "description": "Remediat sliderul din recorder pentru a potrivi atât valoarea corectă, cât și poziția vizuală."
+    }
+  ],
+  "patches": [],
+  "meta_title": "Secvențe personalizate viteze obturator și îmbunătățiri hartă · Frames",
+  "meta_description": "Setează secvențe personalizate de viteze obturator per cameră, arătând doar vitezele pe care camera ta le suportă efectiv."
+}

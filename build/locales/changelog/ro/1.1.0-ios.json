@@ -1,0 +1,108 @@
+{
+  "version": "1.1.0",
+  "version_short": "1.1",
+  "url_slug": "1-1-ios",
+  "platform": "ios",
+  "release_date": "2025-06-03T05:52:00.000Z",
+  "title": "Introducere Frames Pro",
+  "meta_title": "Introducere Frames Pro · Frames",
+  "meta_description": "Treci la Frames Pro pentru filme nelimitate și funcționalități avansate viitoare. Utilizatorii gratuiți mențin accesul la 10 filme cu toate funcționalitățile de bază.",
+  "summary": "Frames Pro este aici, oferind filme nelimitate și acces la funcționalități avansate pe măsură ce sunt lansate. Utilizatorii gratuiți pot continua să folosească Frames cu până la 10 filme, în timp ce Pro deblochează întregul potențial al fluxului tău de lucru în fotografie analogică.",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Deblochează înregistrare nelimitată de filme"
+    },
+    {
+      "type": "paragraph",
+      "content": "Cu Frames Pro, poți crea acum filme nelimitate pentru a urmări întreaga colecție de fotografie analogică fără constrângeri. Fie că documentezi sute de filme din ani de fotografiere sau înregistrezi activ zeci de proiecte în desfășurare, Frames Pro se adaptează nevoilor tale. Utilizatorii gratuiți păstrează accesul complet la toate funcționalitățile de bază cu o limită de 10 filme, făcând Frames accesibil tuturor în timp ce susține pe cei care vor să își ducă înregistrarea filmelor mai departe."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.1.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.1.0-1@2x.png",
+      "alt": "Abonament Frames Pro oferind filme nelimitate pentru înregistrare fotografie analogică",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "paragraph",
+      "content": "Această versiune include și optimizări de performanță în întreaga aplicație, elemente de design rafinate pentru claritate îmbunătățită și stabilitate sporită la gestionarea bibliotecilor mai mari de filme. Icoana actualizată a aplicației și ecranul de pornire reflectă evoluția Frames ca instrument profesional pentru fotografi de film."
+    },
+    {
+      "type": "list",
+      "items": [
+        {
+          "title": "Abonament Frames Pro",
+          "description": "Deblochează filme nelimitate și obține acces anticipat la funcționalități avansate pe măsură ce sunt lansate."
+        },
+        {
+          "title": "Nivel gratuit menținut",
+          "description": "Continuă să folosești toate funcționalitățile de bază cu până la 10 filme fără cost."
+        },
+        {
+          "title": "Îmbunătățiri de performanță",
+          "description": "Reactivitate și stabilitate sporită în întreaga aplicație."
+        },
+        {
+          "title": "Design vizual rafinat",
+          "description": "Iconiță aplicație actualizată, ecran de pornire și elemente de interfață pentru o experiență rafinată."
+        },
+        {
+          "title": "Remediere eroare export",
+          "description": "Rezolvat problema în care fișierele de export nu se regenerau corect după modificări."
+        }
+      ]
+    }
+  ],
+  "improvements": [
+    "Introdus abonament Frames Pro cu filme nelimitate",
+    "Performanță și reactivitate generală îmbunătățită a aplicației",
+    "Design rafinat al interfeței utilizator în întreaga aplicație",
+    "Iconiță aplicație actualizată cu identitate vizuală rafinată",
+    "Ecran de pornire reproiectat pentru primă impresie îmbunătățită",
+    "Utilizare optimizată a memoriei pentru biblioteci mai mari de filme",
+    "Stabilitate îmbunătățită la adăugarea echipamentului de camere și obiective"
+  ],
+  "fixes": [
+    "Remediat eroarea care împiedica regenerarea fișierelor de export după modificări"
+  ],
+  "patches": [
+    {
+      "version": "1.1.1",
+      "date": "2025-06-11",
+      "description": "Actualizare minoră a iconiței aplicației"
+    },
+    {
+      "version": "1.1.2",
+      "date": "2025-06-15",
+      "description": "Îmbunătățiri minore de performanță"
+    },
+    {
+      "version": "1.1.3",
+      "date": "2025-06-17",
+      "description": "Iconiță nouă a aplicației"
+    },
+    {
+      "version": "1.1.4",
+      "date": "2025-06-18",
+      "description": "Iconiță aplicație reproiectată"
+    },
+    {
+      "version": "1.1.5",
+      "date": "2025-06-20",
+      "description": "Actualizat ecranul de pornire al aplicației"
+    },
+    {
+      "version": "1.1.6",
+      "date": "2025-06-20",
+      "description": "Remediat eroarea care împiedica regenerarea corectă a fișierului de export după modificări"
+    },
+    {
+      "version": "1.1.7",
+      "date": "2025-07-12",
+      "description": "Stabilitate îmbunătățită la adăugarea echipamentului pe iOS 26 Beta"
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "version": "1.0.0",
+  "version_short": "1.0",
+  "url_slug": "1-0-macos",
+  "platform": "macos",
+  "release_date": "2025-04-08T10:00:00.000Z",
+  "title": "Ra mắt Frames cho macOS",
+  "meta_title": "Ra mắt Frames cho macOS · Frames",
+  "meta_description": "Nhúng siêu dữ liệu nhiếp ảnh phim vào ảnh scan với hỗ trợ EXIF cho Lightroom, Capture One và Apple Photos. Tích hợp lại dữ liệu ghi từ iOS một cách liền mạch.",
+  "summary": "Ứng dụng macOS đồng hành được mong đợi đã ra mắt, mang đến khả năng tích hợp lại siêu dữ liệu một cách liền mạch vào ảnh phim đã scan. Nhập dữ liệu cuộn phim từ iOS và nhúng siêu dữ liệu EXIF vào các tệp JPEG.",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Tích hợp lại siêu dữ liệu cho phim đã scan"
+    },
+    {
+      "type": "paragraph",
+      "content": "Frames cho macOS giải quyết tính năng được yêu cầu nhiều nhất từ cộng đồng nhiếp ảnh phim: tích hợp lại siêu dữ liệu vào ảnh đã scan. Nhập tệp .frames từ iOS, kéo các ảnh JPEG đã scan vào và ứng dụng sẽ khớp các khung hình với ảnh. Cài đặt phơi sáng, dữ liệu máy ảnh, thông tin ống kính, loại phim và ghi chú chụp của bạn được nhúng dưới dạng siêu dữ liệu EXIF hoạt động liền mạch với Lightroom, Capture One và Apple Photos."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.0.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.0.0-1@2x.png",
+      "alt": "Ứng dụng Frames cho macOS để nhúng siêu dữ liệu EXIF vào ảnh phim đã scan",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Quy trình đơn giản, kết quả chuyên nghiệp"
+    },
+    {
+      "type": "paragraph",
+      "content": "Quy trình rất đơn giản: nhập tệp .frames, thêm ảnh đã scan, khớp khung hình với ảnh và xuất. Ứng dụng tự động xử lý việc nhúng EXIF, đảm bảo tài liệu nhiếp ảnh analog của bạn trở thành bản ghi kỹ thuật số lâu dài. Dữ liệu cuộn phim của bạn chuyển liền mạch từ việc ghi lại tại hiện trường trên iOS đến lưu trữ cuối cùng trên macOS."
+    }
+  ],
+  "improvements": [
+    "Nhập tệp .frames từ iOS",
+    "Hỗ trợ tệp JPEG với khả năng nhúng siêu dữ liệu đầy đủ",
+    "Khớp khung hình với ảnh tự động",
+    "Nhúng siêu dữ liệu EXIF tương thích với Lightroom, Capture One và Apple Photos",
+    "Thiết kế macOS gốc tuân theo Nguyên tắc giao diện con người của Apple",
+    "Có sẵn với 7 ngôn ngữ: tiếng Anh, Pháp, Tây Ban Nha, Ý, Bồ Đào Nha, Đức và Hà Lan"
+  ],
+  "fixes": [],
+  "patches": [
+    {
+      "version": "1.0.1",
+      "description": "Thêm hỗ trợ tiếng Pháp."
+    },
+    {
+      "version": "1.0.2",
+      "description": "Mở rộng sang 7 ngôn ngữ: tiếng Anh, Pháp, Tây Ban Nha, Ý, Bồ Đào Nha, Đức và Hà Lan."
+    },
+    {
+      "version": "1.0.3",
+      "description": "Cải thiện hỗ trợ ngôn ngữ."
+    },
+    {
+      "version": "1.0.4",
+      "description": "Hiện tương thích với macOS 15.0 trở lên."
+    },
+    {
+      "version": "1.0.5",
+      "description": "Ảnh đã xuất hiện giữ nguyên tên tệp gốc."
+    },
+    {
+      "version": "1.0.6",
+      "description": "Thiết kế lại biểu tượng ứng dụng."
+    },
+    {
+      "version": "1.0.7",
+      "description": "Tinh chỉnh nhỏ trên logo ứng dụng."
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "version": "1.11.0",
+  "version_short": "1.11",
+  "url_slug": "1-11-ios",
+  "platform": "ios",
+  "release_date": "2025-10-02T10:00:00.000Z",
+  "title": "Siêu dữ liệu chế độ đo sáng & Cải thiện hiệu suất",
+  "summary": "Frames hiện ghi lại chế độ đo sáng của máy ảnh của bạn cùng với dữ liệu phơi sáng, cho bạn bản ghi hoàn chỉnh hơn về cách mỗi bức ảnh được đo. Bản cập nhật này cũng mang đến cải thiện hiệu suất để có trải nghiệm nhanh hơn và ổn định hơn trong toàn bộ ứng dụng.",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Ghi lại chế độ đo sáng"
+    },
+    {
+      "type": "paragraph",
+      "content": "Giờ đây bạn có thể ghi lại chế độ đo sáng nào mà máy ảnh của bạn đã sử dụng cho mỗi khung hình. Cho dù bạn đang chụp với đo sáng trọng số trung tâm, điểm hoặc đánh giá, Frames ghi lại siêu dữ liệu này cùng với cài đặt phơi sáng hiện có của bạn. Điều này giúp bạn hiểu cách máy ảnh của bạn đo ánh sáng cho mỗi bức ảnh và tinh chỉnh cách tiếp cận phơi sáng của bạn theo thời gian."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/{{ lang }}/changelog/frames-1.11.0-1.png",
+      "image_2x": "/lib/img/{{ lang }}/changelog/frames-1.11.0-1@2x.png",
+      "alt": "Ứng dụng nhiếp ảnh phim Frames hiển thị ghi lại siêu dữ liệu chế độ đo sáng để phân tích phơi sáng",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Tăng cường hiệu suất"
+    },
+    {
+      "type": "paragraph",
+      "content": "Các cải thiện dưới mui xe giúp Frames nhanh hơn và phản hồi tốt hơn. Điều hướng giữa các cuộn phim, ghi hình và chỉnh sửa siêu dữ liệu đều hưởng lợi từ hiệu suất được tối ưu hóa. Những tinh chỉnh này góp phần tạo ra trải nghiệm mượt mà hơn khi quản lý quy trình nhiếp ảnh analog của bạn."
+    }
+  ],
+  "improvements": [
+    "Thêm trường siêu dữ liệu chế độ đo sáng để tài liệu phơi sáng toàn diện",
+    "Cải thiện hiệu suất ứng dụng để điều hướng và ghi hình nhanh hơn",
+    "Tăng cường độ ổn định khi chuyển đổi giữa các cuộn phim và chỉnh sửa khung hình",
+    "Tối ưu hóa việc sử dụng bộ nhớ để hoạt động mượt mà hơn với thư viện phim lớn"
+  ],
+  "fixes": [],
+  "patches": [],
+  "meta_title": "Siêu dữ liệu chế độ đo sáng & Cải thiện hiệu suất · Frames",
+  "meta_description": "Frames hiện ghi lại chế độ đo sáng của máy ảnh của bạn cùng với dữ liệu phơi sáng, cho bạn bản ghi hoàn chỉnh hơn về cách mỗi bức ảnh được đo."
+}

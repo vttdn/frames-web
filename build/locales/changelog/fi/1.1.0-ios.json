@@ -1,0 +1,108 @@
+{
+  "version": "1.1.0",
+  "version_short": "1.1",
+  "url_slug": "1-1-ios",
+  "platform": "ios",
+  "release_date": "2025-06-03T05:52:00.000Z",
+  "title": "Esittelyssä Frames Pro",
+  "meta_title": "Esittelyssä Frames Pro · Frames",
+  "meta_description": "Päivitä Frames Prohon saadaksesi rajattomat filmikelat ja tulevat edistyneet ominaisuudet. Ilmaiskäyttäjät säilyttävät pääsyn 10 kelaan kaikilla perustoiminnoilla.",
+  "summary": "Frames Pro on täällä tarjoten rajattomia filmikeloja ja pääsyn edistyneisiin ominaisuuksiin niiden julkaisun myötä. Ilmaiskäyttäjät voivat jatkaa Framesin käyttöä enintään 10 kelalla, kun taas Pro avaa analogisen valokuvaustyönkulkusi täyden potentiaalin.",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Avaa rajaton filmikirjaus"
+    },
+    {
+      "type": "paragraph",
+      "content": "Frames Prolla voit nyt luoda rajattomasti filmikeloja seurataksesi koko analogisen valokuvauskokoelmasi ilman rajoituksia. Dokumentoitpa satoja keloja vuosien kuvaamisesta tai kirjaat aktiivisesti kymmeniä meneillään olevia projekteja, Frames Pro skaalautuu tarpeisiisi. Ilmaiskäyttäjät säilyttävät täyden pääsyn kaikkiin perustoimintoihin 10 kelan rajoituksella, tehden Framesista kaikkien saatavilla samalla tukien niitä, jotka haluavat viedä filmikirjauksensa pidemmälle."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.1.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.1.0-1@2x.png",
+      "alt": "Frames Pro -tilaus, joka tarjoaa rajattomia filmikeloja analogisen valokuvauksen kirjaamiseen",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tämä julkaisu sisältää myös suorituskykyoptimointeja koko sovelluksessa, hienostuneet suunnitteluelementit parantunutta selkeyttä varten ja parannetun vakauden suurempia filmikirjastoja hallittaessa. Päivitetty sovelluskuvake ja aloitusnäyttö heijastavat Framesin kehitystä ammattityökaluna filmiValokuvaajille."
+    },
+    {
+      "type": "list",
+      "items": [
+        {
+          "title": "Frames Pro -tilaus",
+          "description": "Avaa rajattomat filmikelat ja saa varhainen pääsy edistyneisiin ominaisuuksiin niiden julkaisun myötä."
+        },
+        {
+          "title": "Ilmainen taso säilytetty",
+          "description": "Jatka kaikkien perustoimintojen käyttöä enintään 10 filmikelalla ilmaiseksi."
+        },
+        {
+          "title": "Suorituskykyparannukset",
+          "description": "Parannettu reagointikyky ja vakaus koko sovelluksessa."
+        },
+        {
+          "title": "Hienostunut visuaalinen suunnittelu",
+          "description": "Päivitetty sovelluskuvake, aloitusnäyttö ja käyttöliittymäelementit hiottuun käyttökokemukseen."
+        },
+        {
+          "title": "Viennin vikakorjaus",
+          "description": "Korjattu ongelma, jossa vientitiedostot eivät uudelleegeneroituneet kunnolla muutosten jälkeen."
+        }
+      ]
+    }
+  ],
+  "improvements": [
+    "Esitelty Frames Pro -tilaus rajattomilla filmikeloilla",
+    "Parannettu sovelluksen yleistä suorituskykyä ja reagointikykyä",
+    "Hienostunut käyttöliittymän suunnittelu koko sovelluksessa",
+    "Päivitetty sovelluskuvake hienostuneella visuaalisella identiteetillä",
+    "Uudelleensuunniteltu aloitusnäyttö parannettuun ensivaikutelmaan",
+    "Optimoitu muistinkäyttö suuremmille filmikirjastoille",
+    "Parannettu vakaus kameran ja objektiivin lisäämisessä"
+  ],
+  "fixes": [
+    "Korjattu bugi, joka esti vientitiedostojen uudelleengeneroimisen muutosten jälkeen"
+  ],
+  "patches": [
+    {
+      "version": "1.1.1",
+      "date": "2025-06-11",
+      "description": "Pieni päivitys sovelluskuvakkeeseen"
+    },
+    {
+      "version": "1.1.2",
+      "date": "2025-06-15",
+      "description": "Pieniä suorituskykyparannuksia"
+    },
+    {
+      "version": "1.1.3",
+      "date": "2025-06-17",
+      "description": "Uusi sovelluskuvake"
+    },
+    {
+      "version": "1.1.4",
+      "date": "2025-06-18",
+      "description": "Uudelleensuunniteltu sovelluskuvake"
+    },
+    {
+      "version": "1.1.5",
+      "date": "2025-06-20",
+      "description": "Päivitetty sovelluksen aloitusnäyttö"
+    },
+    {
+      "version": "1.1.6",
+      "date": "2025-06-20",
+      "description": "Korjattu bugi, joka esti vientitiedoston kunnollisen uudelleengeneroimisen muutosten jälkeen"
+    },
+    {
+      "version": "1.1.7",
+      "date": "2025-07-12",
+      "description": "Parannettu vakaus laitteistojen lisäämisessä iOS 26 Betassa"
+    }
+  ]
+}

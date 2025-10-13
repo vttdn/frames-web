@@ -1,0 +1,33 @@
+{
+  "version": "1.3.0",
+  "version_short": "1.3",
+  "url_slug": "1-3-ios",
+  "platform": "ios",
+  "release_date": "2025-07-18T10:00:00.000Z",
+  "title": "Export GPX și generare mai rapidă a fișierelor",
+  "meta_title": "Export GPX și generare mai rapidă a fișierelor · Frames",
+  "meta_description": "Exportă locațiile filmelor ca fișiere GPX pentru software de cartografiere. Generare semnificativ mai rapidă a fișierelor cu fiabilitate îmbunătățită pentru exporturi mari.",
+  "summary": "Utilizatorii Pro pot acum exporta filme ca fișiere GPX pentru urmărirea locațiilor. Această actualizare aduce și îmbunătățiri de performanță pentru exporturi de fișiere mai rapide și mai fiabile în toate formatele.",
+  "sections": [
+    {
+      "type": "paragraph",
+      "content": "Exportă locațiile filmelor tale ca fișiere GPX pentru a vizualiza locațiile de fotografiere în aplicații de cartografiere sau importă în software de gestionare foto. Fiecare cadru cu date de locație devine un punct în traseul GPX. Performanța exportului de fișiere a fost îmbunătățită în toate formatele, făcând mai rapidă generarea fișierelor .FRAMES, TXT și GPX chiar și pentru filme cu multe cadre."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/{{ lang }}/changelog/frames-1.3.0-1.png",
+      "image_2x": "/lib/img/{{ lang }}/changelog/frames-1.3.0-1@2x.png",
+      "alt": "Aplicația Frames cu export locații GPX și funcționalități de generare fișiere",
+      "width": "400",
+      "height": "300"
+    }
+  ],
+  "improvements": [
+    "Adăugat export fișiere GPX pentru utilizatorii Pro",
+    "Generare semnificativ mai rapidă a exporturilor de fișiere",
+    "Fiabilitate îmbunătățită a exportului pentru filme mari",
+    "Utilizare optimizată a memoriei în timpul operațiunilor de export"
+  ],
+  "fixes": [],
+  "patches": []
+}

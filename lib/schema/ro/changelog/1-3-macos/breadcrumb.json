@@ -1,0 +1,23 @@
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://withframes.com/ro/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Istoric Modificări",
+      "item": "https://withframes.com/ro/changelog/1-3-macos/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Suport pentru fișiere DNG Raw",
+      "item": "https://withframes.com/ro/changelog/1-3-macos/"
+    }  ]
+}

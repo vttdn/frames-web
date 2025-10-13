@@ -1,0 +1,68 @@
+{
+  "version": "1.10.0",
+  "version_short": "1.10",
+  "url_slug": "1-10-ios",
+  "platform": "ios",
+  "release_date": "2025-09-23T10:00:00.000Z",
+  "title": "Cải thiện lớn về hiệu suất & Độ ổn định",
+  "summary": "Bản phát hành này mang đến những cải thiện đáng kể dưới mui xe giúp Frames nhanh hơn, đáng tin cậy hơn và chuẩn bị tốt hơn cho các tính năng trong tương lai. Tối ưu hóa hiệu suất chạm vào mọi phần của ứng dụng, từ ghi hình đến quản lý cuộn phim.",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Nền tảng cho tương lai"
+    },
+    {
+      "type": "paragraph",
+      "content": "Chúng tôi đã xây dựng lại các phần cốt lõi của Frames để cải thiện hiệu suất và độ ổn định. Chỉnh sửa khung hình cảm thấy phản hồi hơn, điều hướng trôi chảy hơn và quản lý các bộ sưu tập lớn cuộn phim đáng tin cậy hơn. Những cải thiện kiến trúc này cũng đặt nền tảng cho các tính năng sắp tới trong khi đảm bảo Frames vẫn nhanh và ổn định khi thư viện của bạn phát triển."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.10.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.10.0-1@2x.png",
+      "alt": "Ứng dụng nhiếp ảnh phim Frames với hiệu suất được cải thiện và tốc độ ghi hình được tối ưu hóa",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Mượt mà hơn trong toàn bộ"
+    },
+    {
+      "type": "paragraph",
+      "content": "Bạn sẽ nhận thấy thời gian tải nhanh hơn khi mở cuộn phim và phản hồi nhanh hơn khi chỉnh sửa siêu dữ liệu khung hình. Chuyển đổi giữa các màn hình cảm thấy mượt mà hơn và ứng dụng duy trì hiệu suất tốt hơn ngay cả với các bộ sưu tập thiết bị rộng lớn và hàng trăm khung hình. Những cải thiện rõ ràng nhất khi làm việc với nhiều cuộn phim hoặc chuyển đổi thường xuyên giữa chế độ xem bộ ghi và thư viện."
+    }
+  ],
+  "improvements": [
+    "Cải thiện đáng kể hiệu suất và khả năng phản hồi của ứng dụng",
+    "Chỉnh sửa khung hình và cập nhật siêu dữ liệu nhanh hơn",
+    "Tăng cường độ mượt mà điều hướng trong toàn bộ ứng dụng",
+    "Độ ổn định tốt hơn khi quản lý các bộ sưu tập cuộn phim lớn",
+    "Tối ưu hóa hiệu suất danh sách thiết bị với thư viện máy ảnh và ống kính rộng lớn",
+    "Cải thiện quản lý bộ nhớ để có hiệu suất bền vững",
+    "Kiến trúc mã nguồn sạch hơn cho phát triển tính năng trong tương lai"
+  ],
+  "fixes": [
+    {
+      "title": "Lưu ảnh tham chiếu",
+      "description": "Khắc phục sự cố khiến ảnh tham chiếu không phải lúc nào cũng được lưu đúng cách khi đính kèm vào khung hình."
+    }
+  ],
+  "patches": [
+    {
+      "version": "1.10.1",
+      "description": "Phản hồi bộ ghi khung hình nhanh hơn và quản lý vị trí được cải thiện để ghi lại chính xác hơn."
+    },
+    {
+      "version": "1.10.2",
+      "description": "Cải thiện độ tin cậy xuất với xử lý ký tự đặc biệt. Tăng cường hiệu suất vị trí và chế độ xem bản đồ với xuất nhanh hơn."
+    },
+    {
+      "version": "1.10.3",
+      "description": "Các cải tiến giao diện và tinh chỉnh trực quan khác nhau trong toàn bộ giao diện."
+    }
+  ],
+  "meta_title": "Cải thiện lớn về hiệu suất & Độ ổn định · Frames",
+  "meta_description": "Bản phát hành này mang đến những cải thiện đáng kể dưới mui xe giúp Frames nhanh hơn, đáng tin cậy hơn và chuẩn bị tốt hơn cho các tính năng trong tương lai."
+}

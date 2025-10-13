@@ -1,0 +1,77 @@
+{
+  "version": "1.13.0",
+  "version_short": "1.13",
+  "url_slug": "1-13-ios",
+  "platform": "ios",
+  "release_date": "2025-10-06T10:00:00.000Z",
+  "title": "Heprea, arabia, romania ja ukraina kielituki",
+  "summary": "Frames jatkaa tehtäväänsä palvella analogisia valokuvaajia maailmanlaajuisesti tällä merkittävällä lokalisaatiopäivityksellä tuoden alkuperäisen tuen heprean, arabian, romanian ja ukrainan puhujille sekä hiotut käännökset ja käyttöliittymäparannukset koko sovelluksessa.",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Neljä uutta kieltä oikealta-vasemmalle-tuella"
+    },
+    {
+      "type": "paragraph",
+      "content": "Frames tukee nyt hepreaa, arabiaa, romaniaa ja ukrainaa, jokainen huolellisesti lokalisoitu kunnioittaakseen kulttuurisia vivahteita ja valokuvauksen terminologiaa. Heprea ja arabia sisältävät täyden oikealta-vasemmalle-käyttöliittymän mukautuksen. Navigointi virtaa, painikkeiden sijoittelu ja tekstin tasaus kaikki peilaavat asianmukaisesti säilyttäen samalla tekniset termit kuten filmilaatukoodit ja aukkoarvot niiden tavallisessa kansainvälisessä muodossa."
+    },
+    {
+      "type": "list",
+      "items": [
+        {
+          "title": "Heprea (עברית) ja arabia (العربية)",
+          "description": "Täydellinen RTL-käyttöliittymä alkuperäisellä terminologialla filmilaatuja, kamera-asetuksia ja EXIF-metatietoja varten."
+        },
+        {
+          "title": "Romania (Română) ja ukraina (Українська)",
+          "description": "Täydelliset käännökset tukemaan valokuvaajia dokumentoimaan työtään äidinkielellään."
+        }
+      ]
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.13.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.13.0-1@2x.png",
+      "alt": "Frames-filmivalokuvaussovellus heprean ja arabian RTL-käyttöliittymällä ja kielituella",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Käännösten hiontoja kaikilla kielillä"
+    },
+    {
+      "type": "paragraph",
+      "content": "Uusien kielten lisäksi olemme hioneet olemassa olevia käännöksiä koko sovelluksessa valokuvaajien palautteen perusteella. Filmilaatien nimet pysyvät alkuperäisellä kielellään (Kodak Portra, Ilford HP5), kun taas käyttöliittymäelementit mukautuvat valittuun kieleen. Kieliasetukset synkronoituvat laitteiden välillä, ja kaikki olemassa oleva data näytetään automaattisesti valitulla kielellä ilman uudelleensyöttöä tai siirtoa."
+    }
+  ],
+  "improvements": [
+    "Lisätty täydellinen heprean (עברית) lokalisaatio oikealta-vasemmalle-käyttöliittymän tuella",
+    "Lisätty täydellinen arabian (العربية) lokalisaatio RTL-asettelun mukautuksella",
+    "Lisätty romanian (Română) käännös filmivalokuvausyhteisölle",
+    "Lisätty ukrainan (Українська) tuki alkuperäisellä terminologialla",
+    "Hiottu olemassa olevat käännökset kaikilla tuetuilla kielillä parantunutta selkeyttä ja johdonmukaisuutta varten",
+    "Parannettu teknisen terminologian tarkkuus valokuvauskohtaisilla kentillä",
+    "Parannettu kaksisuuntaisen tekstin tuki sekalaisen latinan ja RTL-sisällön osalta"
+  ],
+  "fixes": [
+    {
+      "title": "Tekstin ylivuoto käännöksissä",
+      "description": "Ratkaistu asettelu-ongelmat, joissa pidemmät käännetyt lauseet saattoivat katketa tietyissä käyttöliittymäelementeissä."
+    },
+    {
+      "title": "RTL-asettelun johdonmukaisuus",
+      "description": "Korjattu pienet tasauksen ongelmat oikealta-vasemmalle-kielissä varmistaen kunnollinen peilaus kaikilla näytöillä."
+    }
+  ],
+  "patches": [
+    {
+      "version": "1.13.1",
+      "description": "Korjattu bugi, joka saattoi aiheuttaa jakovalikon välkyttämistä toistuvasti viennin aikana"
+    }
+  ],
+  "meta_title": "Heprea, arabia, romania ja ukraina kielituki · Frames",
+  "meta_description": "Frames jatkaa tehtäväänsä palvella analogisia valokuvaajia maailmanlaajuisesti tällä merkittävällä lokalisaatiopäivityksellä tuoden alkuperäisen tuen heprean, arabian,..."
+}

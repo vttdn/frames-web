@@ -1,0 +1,65 @@
+{
+  "version": "1.7.0",
+  "version_short": "1.7",
+  "url_slug": "1-7-ios",
+  "platform": "ios",
+  "release_date": "2025-09-10T10:00:00.000Z",
+  "title": "Täysi saavutettavuustuki ja tallennuksen parannukset",
+  "summary": "Tämä päivitys tuo kattavan Applen saavutettavuustuen sekä parannuksia tallennustyönkulkuun ja metatietojen käsittelyyn tehden Framesista saavutettavamman ja tehokkaamman kaikille filmiValokuvaajille.",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Applen saavutettavuusominaisuudet"
+    },
+    {
+      "type": "paragraph",
+      "content": "Frames tukee nyt Applen keskeisiä saavutettavuusominaisuuksia, mukaan lukien Suurempi teksti, Tumma käyttöliittymä, Erottele ilman väriä yksinään, Riittävä kontrasti ja Vähennetty liike. Nämä ominaisuudet varmistavat sovelluksen käytettävyyden valokuvaajille, joilla on erilaisia visuaalisia tarpeita ja mieltymyksiä säilyttäen täyden toiminnallisuuden saavutettavuusasetuksista riippumatta."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.7.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.7.0-1@2x.png",
+      "alt": "Frames-filmivalokuvaussovelluksen käyttöliittymä saavutettavuusominaisuuksilla ja suuren tekstin tuella",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Työnkulun ja metatietojen parannukset"
+    },
+    {
+      "type": "paragraph",
+      "content": "Sovellus hyppää nyt suoraan uuteen filmikelaan heti sen luomisen jälkeen tehden työnkulusta sujuvampaa. Tekstejä koko sovelluksessa on hienostunut paremman luettavuuden saavuttamiseksi. Mukautetut sekvenssit täyttävät nyt automaattisesti min/max-aukkoarvot, mikä on erityisen hyödyllistä metatietojen integrointiin Macissa. Olemme myös korjanneet liikeongelmat tallentimessa otoksia siepattaessa liukusäätimen ollessa auki ja korjanneet arvon alustusongelmia täydessä tallentinnäkymässä."
+    }
+  ],
+  "improvements": [
+    "Lisätty tuki Applen Suurempi teksti -saavutettavuusominaisuudelle",
+    "Lisätty tuki Tummalle käyttöliittymälle",
+    "Lisätty tuki Erottele ilman väriä yksinään -ominaisuudelle",
+    "Lisätty tuki Riittävälle kontrastille",
+    "Lisätty tuki Vähennetylle liikkeelle",
+    "Hyppää suoraan uusiin filmikeloihin luomisen jälkeen nopeampaa työnkulkua varten",
+    "Parannettu tekstien selkeyttä koko sovelluksessa",
+    "Automaattinen min/max-aukon täyttö mukautettuja sekvenssejä käytettäessä"
+  ],
+  "fixes": [
+    {
+      "title": "Tallentimen liikeongelma",
+      "description": "Korjattu liikeongelma tallentimessa, kun otos siepattiin liukusäätimen ollessa auki."
+    },
+    {
+      "title": "Tallentimen arvon alustus",
+      "description": "Korjattu ongelma arvojen alustuksessa tallentinta avattaessa täydessä näkymässä."
+    }
+  ],
+  "patches": [
+    {
+      "version": "1.7.1",
+      "description": "Korjattu objektiivin näyttö, joka näytti tarpeettomia aukkotietoja valintaluetteloissa. Korjattu kuvien muokattavuus, kun muokkaus oli poistettu käytöstä."
+    }
+  ],
+  "meta_title": "Täysi saavutettavuustuki ja tallennuksen parannukset · Frames",
+  "meta_description": "Tämä päivitys tuo kattavan Applen saavutettavuustuen sekä parannuksia tallennustyönkulkuun ja metatietojen käsittelyyn tehden Framesista..."
+}

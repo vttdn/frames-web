@@ -1,0 +1,72 @@
+{
+  "version": "1.4.0",
+  "version_short": "1.4",
+  "url_slug": "1-4-macos",
+  "platform": "macos",
+  "release_date": "2025-09-18T10:00:00.000Z",
+  "title": "Phím tắt, Inspector gốc & Hiệu suất",
+  "meta_title": "Phím tắt, Inspector gốc & Hiệu suất · Frames",
+  "meta_description": "Điều hướng bằng phím tắt và bảng inspector macOS gốc. Hiệu suất được nâng cao cho tích hợp lại siêu dữ liệu nhanh hơn với giao diện sạch hơn và chuyên nghiệp hơn.",
+  "summary": "Giao diện macOS được nâng cao với điều hướng bằng bàn phím, bảng inspector gốc, thiết kế sạch hơn và hiệu suất được tối ưu hóa để tích hợp lại siêu dữ liệu nhanh hơn và phản hồi tốt hơn.",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Điều hướng bằng bàn phím & Điều khiển gốc"
+    },
+    {
+      "type": "paragraph",
+      "content": "Điều hướng khung hình nhanh chóng bằng phím mũi tên, xóa ảnh đính kèm bằng Backspace và nhấn Enter để chọn ảnh. Thanh bên tùy chỉnh đã được thay thế bằng bảng inspector gốc của macOS để có trải nghiệm được đánh bóng và tích hợp hệ thống hơn, tuân theo ngôn ngữ thiết kế của Apple."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-mac-1.4.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-mac-1.4.0-1@2x.png",
+      "alt": "Ứng dụng Frames cho macOS với phím tắt và inspector gốc cho quy trình siêu dữ liệu phim",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Giao diện tinh tế & Hiệu suất"
+    },
+    {
+      "type": "paragraph",
+      "content": "Các lỗi hiển thị đã được loại bỏ trong toàn bộ giao diện để có vẻ ngoài sạch hơn và chuyên nghiệp hơn. Kiến trúc mã đã được tối ưu hóa để có khả năng phản hồi và độ ổn định tốt hơn của ứng dụng, giúp quy trình tích hợp lại siêu dữ liệu nhanh hơn và đáng tin cậy hơn."
+    }
+  ],
+  "improvements": [
+    "Thêm điều hướng bằng bàn phím với phím mũi tên để duyệt khung hình",
+    "Thêm phím tắt Backspace để xóa ảnh đính kèm",
+    "Thêm phím tắt Enter để chọn ảnh",
+    "Thay thế thanh bên tùy chỉnh bằng bảng inspector gốc của macOS",
+    "Loại bỏ lỗi hiển thị để có giao diện sạch hơn",
+    "Tối ưu hóa kiến trúc mã để có hiệu suất tốt hơn",
+    "Cải thiện khả năng phản hồi ứng dụng trong toàn bộ",
+    "Tăng cường độ ổn định tổng thể"
+  ],
+  "fixes": [],
+  "patches": [
+    {
+      "version": "1.3.5",
+      "description": "Cập nhật biểu tượng ứng dụng cho macOS 26."
+    },
+    {
+      "version": "1.3.4",
+      "description": "Tích hợp lại siêu dữ liệu cho JPEG và TIFF hiện giữ nguyên dữ liệu hiện có. Chỉ thông tin được ghi bởi Frames được thêm vào."
+    },
+    {
+      "version": "1.3.3",
+      "description": "Thêm tích hợp lại khẩu độ tối đa và tối thiểu vào siêu dữ liệu EXIF. Thêm hỗ trợ thông số kỹ thuật ống kính."
+    },
+    {
+      "version": "1.3.2",
+      "description": "Sửa lỗi nhỏ và cải thiện hiệu suất."
+    },
+    {
+      "version": "1.3.1",
+      "description": "Thêm hỗ trợ cho tốc độ màn trập mới từ iOS. Ứng dụng hiện ưu tiên xếp hạng ISO tùy chỉnh hơn tốc độ hộp mặc định."
+    }
+  ]
+}

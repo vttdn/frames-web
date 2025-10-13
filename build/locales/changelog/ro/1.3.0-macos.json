@@ -1,0 +1,37 @@
+{
+  "version": "1.3.0",
+  "version_short": "1.3",
+  "url_slug": "1-3-macos",
+  "platform": "macos",
+  "release_date": "2025-09-01T10:00:00.000Z",
+  "title": "Suport pentru fișiere DNG Raw",
+  "meta_title": "Suport pentru fișiere DNG Raw · Frames",
+  "meta_description": "Integrează metadate în fișiere raw DNG alături de formatele JPEG și TIFF. Flux de lucru complet pentru fotografia analogică cu date EXIF complete pentru post-procesare profesională.",
+  "summary": "Poți acum importa fișiere DNG alături de JPEG și TIFF, și reintegra metadatele direct în imaginile raw pentru un flux de lucru complet de fotografie analogică.",
+  "sections": [
+    {
+      "type": "paragraph",
+      "content": "Suportul pentru imagini raw sosește pe Frames pentru macOS. Importă fișiere DNG alături de fluxurile tale existente JPEG și TIFF, și integrează metadatele filmului direct în fișierele raw. Aceasta asigură că setările de expunere, datele camerei, filmele și notele călătoresc cu imaginile raw prin post-procesare și arhivare. Am remediat și o problemă unde notele suplimentare pentru un cadru nu erau reținute în timpul reintegrării metadatelor."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-mac-1.3.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-mac-1.3.0-1@2x.png",
+      "alt": "Aplicația Frames pentru macOS cu integrare metadate în fișiere DNG raw",
+      "width": "400",
+      "height": "300"
+    }
+  ],
+  "improvements": [
+    "Adăugat suport pentru fișiere raw DNG",
+    "Reintegrare completă a metadatelor pentru imagini raw",
+    "Fișierele DNG funcționează perfect alături de JPEG și TIFF"
+  ],
+  "fixes": [
+    {
+      "title": "Reținere note cadre",
+      "description": "Remediat o problemă unde notele suplimentare pentru un cadru nu erau reținute în timpul reintegrării metadatelor."
+    }
+  ],
+  "patches": []
+}

@@ -1,0 +1,108 @@
+{
+  "version": "1.1.0",
+  "version_short": "1.1",
+  "url_slug": "1-1-ios",
+  "platform": "ios",
+  "release_date": "2025-06-03T05:52:00.000Z",
+  "title": "Introduktion til Frames Pro",
+  "meta_title": "Introduktion til Frames Pro · Frames",
+  "meta_description": "Opgrader til Frames Pro for ubegrænsede filmruller og kommende avancerede funktioner. Gratis brugere bevarer adgang til 10 ruller med al kernefunktionalitet.",
+  "summary": "Frames Pro er her og tilbyder ubegrænsede filmruller og adgang til avancerede funktioner, efterhånden som de lanceres. Gratis brugere kan fortsætte med at bruge Frames med op til 10 ruller, mens Pro låser det fulde potentiale op for din analoge fotografiarbejdsgang.",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Lås ubegrænset filmlogning op"
+    },
+    {
+      "type": "paragraph",
+      "content": "Med Frames Pro kan du nu oprette ubegrænsede filmruller til at spore hele din analoge fotografisamling uden begrænsninger. Uanset om du dokumenterer hundreder af ruller fra års optagelser eller aktivt logger snesevis af igangværende projekter, skalerer Frames Pro med dine behov. Gratis brugere bevarer fuld adgang til alle kernefunktioner med en grænse på 10 ruller, hvilket gør Frames tilgængelig for alle, samtidig med at den støtter dem, der vil tage deres filmlogning længere."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.1.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.1.0-1@2x.png",
+      "alt": "Frames Pro-abonnement, der tilbyder ubegrænsede filmruller til analog fotografilogning",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "paragraph",
+      "content": "Denne version inkluderer også ydeevneoptimeringer på tværs af appen, raffinerede designelementer for forbedret klarhed og forbedret stabilitet ved håndtering af større filmbiblioteker. Det opdaterede app-ikon og splash-skærm afspejler Frames' udvikling som et professionelt værktøj til filmfotografer."
+    },
+    {
+      "type": "list",
+      "items": [
+        {
+          "title": "Frames Pro-abonnement",
+          "description": "Lås ubegrænsede filmruller op og få tidlig adgang til avancerede funktioner, efterhånden som de udgives."
+        },
+        {
+          "title": "Gratis niveau opretholdt",
+          "description": "Fortsæt med at bruge alle kernefunktioner med op til 10 filmruller uden omkostninger."
+        },
+        {
+          "title": "Ydeevneforbedringer",
+          "description": "Forbedret responsivitet og stabilitet gennem hele appen."
+        },
+        {
+          "title": "Raffineret visuelt design",
+          "description": "Opdateret app-ikon, splash-skærm og grænsefladeelementer for en poleret oplevelse."
+        },
+        {
+          "title": "Eksportfejlrettelse",
+          "description": "Løst et problem, hvor eksportfiler ikke blev regenereret korrekt efter ændringer."
+        }
+      ]
+    }
+  ],
+  "improvements": [
+    "Introduceret Frames Pro-abonnement med ubegrænsede filmruller",
+    "Forbedret overordnet app-ydeevne og responsivitet",
+    "Raffineret brugergrænsefladedesign gennem hele appen",
+    "Opdateret app-ikon med raffineret visuel identitet",
+    "Redesignet splash-skærm for forbedret førstehåndsindtryk",
+    "Optimeret hukommelsesforbrug for større filmbiblioteker",
+    "Forbedret stabilitet ved tilføjelse af kamera- og objektivudstyr"
+  ],
+  "fixes": [
+    "Rettet fejl, der forhindrede eksportfiler i at blive regenereret efter ændringer"
+  ],
+  "patches": [
+    {
+      "version": "1.1.1",
+      "date": "2025-06-11",
+      "description": "Mindre opdatering af app-ikonet"
+    },
+    {
+      "version": "1.1.2",
+      "date": "2025-06-15",
+      "description": "Mindre ydeevneforbedringer"
+    },
+    {
+      "version": "1.1.3",
+      "date": "2025-06-17",
+      "description": "Nyt app-ikon"
+    },
+    {
+      "version": "1.1.4",
+      "date": "2025-06-18",
+      "description": "Redesignet app-ikon"
+    },
+    {
+      "version": "1.1.5",
+      "date": "2025-06-20",
+      "description": "Opdateret app-splash-skærm"
+    },
+    {
+      "version": "1.1.6",
+      "date": "2025-06-20",
+      "description": "Rettet en fejl, der forhindrede eksportfilen i at blive korrekt regenereret efter ændringer"
+    },
+    {
+      "version": "1.1.7",
+      "date": "2025-07-12",
+      "description": "Forbedret stabilitet ved tilføjelse af udstyr på iOS 26 Beta"
+    }
+  ]
+}

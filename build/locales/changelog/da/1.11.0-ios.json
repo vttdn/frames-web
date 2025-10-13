@@ -1,0 +1,47 @@
+{
+  "version": "1.11.0",
+  "version_short": "1.11",
+  "url_slug": "1-11-ios",
+  "platform": "ios",
+  "release_date": "2025-10-02T10:00:00.000Z",
+  "title": "Målingsmetode-metadata og ydeevneforbedringer",
+  "summary": "Frames registrerer nu dit kameras målingsmetode sammen med eksponeringsdata, hvilket giver dig en mere fuldstændig optegnelse af, hvordan hvert optagelse blev målt. Denne opdatering bringer også ydeevneforbedringer for en hurtigere, mere stabil oplevelse gennem hele appen.",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Målingsmetoderegistrering"
+    },
+    {
+      "type": "paragraph",
+      "content": "Du kan nu registrere, hvilken målingsmetode dit kamera brugte til hvert billede. Uanset om du optager med centervægtet, spot- eller evaluerende måling, registrerer Frames disse metadata sammen med dine eksisterende eksponeringsindstillinger. Dette hjælper dig med at forstå, hvordan dit kamera målte lys til hvert optagelse og forfine din tilgang til eksponering over tid."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/{{ lang }}/changelog/frames-1.11.0-1.png",
+      "image_2x": "/lib/img/{{ lang }}/changelog/frames-1.11.0-1@2x.png",
+      "alt": "Frames filmfotografi-app, der viser målingsmetode-metadataregistrering til eksponeringsanalyse",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Ydeevneforbedringer"
+    },
+    {
+      "type": "paragraph",
+      "content": "Under-motorrum-forbedringer gør Frames hurtigere og mere responsiv. Navigation mellem filmruller, billedoptagelse og metadataredigering drager alle fordel af optimeret ydeevne. Disse raffineringer bidrager til en glattere oplevelse ved håndtering af din analoge fotografiarbejdsgang."
+    }
+  ],
+  "improvements": [
+    "Tilføjet målingsmetode-metadatafelt til omfattende eksponeringsdokumentation",
+    "Forbedret app-ydeevne for hurtigere navigation og billedoptagelse",
+    "Forbedret stabilitet ved skift mellem filmruller og redigering af billeder",
+    "Optimeret hukommelsesforbrug for glattere drift med store filmbiblioteker"
+  ],
+  "fixes": [],
+  "patches": [],
+  "meta_title": "Målingsmetode-metadata og ydeevneforbedringer · Frames",
+  "meta_description": "Frames registrerer nu dit kameras målingsmetode sammen med eksponeringsdata, hvilket giver dig en mere fuldstændig optegnelse af, hvordan hvert optagelse blev målt."
+}

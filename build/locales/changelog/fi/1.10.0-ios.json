@@ -1,0 +1,68 @@
+{
+  "version": "1.10.0",
+  "version_short": "1.10",
+  "url_slug": "1-10-ios",
+  "platform": "ios",
+  "release_date": "2025-09-23T10:00:00.000Z",
+  "title": "Merkittävät suorituskyky- ja vakausparannukset",
+  "summary": "Tämä julkaisu tuo merkittäviä sisäisiä parannuksia, jotka tekevät Framesista nopeamman, luotettavamman ja paremmin valmistautuneen tuleviin ominaisuuksiin. Suorituskykyoptimointeja on kaikkialla sovelluksessa kuvien tallennuksesta filmikelojen hallintaan.",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Perusta tulevaisuudelle"
+    },
+    {
+      "type": "paragraph",
+      "content": "Olemme rakentaneet Framesin ydinosia uudelleen suorituskyvyn ja vakauden parantamiseksi. Kuvien muokkaaminen tuntuu reagoivammalta, navigointi sujuu sujuvammin ja suurten filmikelojen kokoelmien hallinta on luotettavampaa. Nämä arkkitehtuuriparannukset luovat myös pohjan tuleville ominaisuuksille varmistaen samalla, että Frames pysyy nopeana ja vakaana kirjastosi kasvaessa."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.10.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.10.0-1@2x.png",
+      "alt": "Frames-filmivalokuvaussovellus parannetulla suorituskyvyllä ja optimoidulla kuvien tallennusnopeudella",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Sujuvampi kauttaaltaan"
+    },
+    {
+      "type": "paragraph",
+      "content": "Huomaat nopeammat latausajat filmikeloja avatessa ja nopeammat vasteet kuvan metatietoja muokatessa. Siirtymät näyttöjen välillä tuntuvat sujuvammilta, ja sovellus säilyttää paremman suorituskyvyn jopa laajan laitteistokokoelman ja satojen kuvien kanssa. Parannukset ovat huomattavimmat työskennellessä useiden filmikelojen kanssa tai vaihdettaessa usein tallentimen ja kirjastonäkymien välillä."
+    }
+  ],
+  "improvements": [
+    "Merkittävästi parannettu sovelluksen suorituskyky ja reagointikyky",
+    "Nopeampi kuvien muokkaus ja metatietojen päivitykset",
+    "Parannettu navigoinnin sujuvuus koko sovelluksessa",
+    "Parempi vakaus suurten filmikelakokoelmien hallinnassa",
+    "Optimoitu laitteistoluettelon suorituskyky laajan kamera- ja objektiivikirjastojen kanssa",
+    "Parannettu muistinhallinta jatkuvaa suorituskykyä varten",
+    "Siistimpi koodipohjan arkkitehtuuri tulevia ominaisuuksien kehitystä varten"
+  ],
+  "fixes": [
+    {
+      "title": "Viitekuvan tallentaminen",
+      "description": "Korjattu ongelma, jossa viitekuvia ei aina tallennettu oikein kuviin liitettäessä."
+    }
+  ],
+  "patches": [
+    {
+      "version": "1.10.1",
+      "description": "Nopeampi kuvien tallentimen vaste ja parannettu sijaintihallinta tarkempaa kirjaamista varten."
+    },
+    {
+      "version": "1.10.2",
+      "description": "Parannettu viennin luotettavuus erikoismerkkien käsittelyllä. Parannettu sijainnin ja karttanäkymän suorituskyky nopeammilla vienneillä."
+    },
+    {
+      "version": "1.10.3",
+      "description": "Erilaisia käyttöliittymäparannuksia ja visuaalisia hiontoja koko käyttöliittymässä."
+    }
+  ],
+  "meta_title": "Merkittävät suorituskyky- ja vakausparannukset · Frames",
+  "meta_description": "Tämä julkaisu tuo merkittäviä sisäisiä parannuksia, jotka tekevät Framesista nopeamman, luotettavamman ja paremmin valmistautuneen tuleviin ominaisuuksiin."
+}

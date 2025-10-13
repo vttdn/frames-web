@@ -1,0 +1,32 @@
+{
+  "version": "1.8.0",
+  "version_short": "1.8",
+  "url_slug": "1-8-ios",
+  "platform": "ios",
+  "release_date": "2025-09-15T10:00:00.000Z",
+  "title": "Export fișiere TXT pentru jurnale de film",
+  "summary": "Utilizatorii Pro pot acum exporta jurnalele de film ca fișiere TXT, perfecte pentru imprimarea notițelor de teren sau crearea de foi de referință rapidă pentru munca în cameră obscură.",
+  "sections": [
+    {
+      "type": "paragraph",
+      "content": "Exportă metadatele filmului ca fișiere text simplu. Acest format funcționează bine pentru imprimarea foilor de referință compacte de păstrat în geanta de cameră sau camera obscură. Fiecare export TXT include toate detaliile cadrului, setările de expunere și notele într-un format curat și lizibil, ușor de imprimat sau distribuit la laboratoare."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.8.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.8.0-1@2x.png",
+      "alt": "Funcționalitatea de export TXT a aplicației Frames pentru imprimarea notițelor de film",
+      "width": "400",
+      "height": "300"
+    }
+  ],
+  "improvements": [
+    "Adăugat export fișiere TXT pentru utilizatorii Pro",
+    "Formatare export optimizată pentru imprimare și lizibilitate",
+    "Incluse metadate cuprinzătoare ale cadrului în exporturi"
+  ],
+  "fixes": [],
+  "patches": [],
+  "meta_title": "Export fișiere TXT pentru jurnale de film · Frames",
+  "meta_description": "Utilizatorii Pro pot acum exporta jurnalele de film ca fișiere TXT, perfecte pentru imprimarea notițelor de teren sau crearea de foi de referință rapidă pentru munca în cameră obscură."
+}

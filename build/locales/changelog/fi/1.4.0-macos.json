@@ -1,0 +1,72 @@
+{
+  "version": "1.4.0",
+  "version_short": "1.4",
+  "url_slug": "1-4-macos",
+  "platform": "macos",
+  "release_date": "2025-09-18T10:00:00.000Z",
+  "title": "Pikanäppäimet, alkuperäinen tarkastuspaneeli ja suorituskyky",
+  "meta_title": "Pikanäppäimet, alkuperäinen tarkastuspaneeli ja suorituskyky · Frames",
+  "meta_description": "Navigoi pikanäppäimillä ja alkuperäisellä macOS-tarkastuspaneelilla. Parannettu suorituskyky nopeampaan metatietojen integrointiin siistimmällä, ammattimaisemmalla käyttöliittymällä.",
+  "summary": "Parannettu macOS-käyttöliittymä näppäimistönavigoinnilla, alkuperäisellä tarkastuspaneelilla, siistimmällä suunnittelulla ja optimoidulla suorituskyvyllä nopeampaan, reagoivampaan metatietojen integrointiin.",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Näppäimistönavigointi ja alkuperäiset hallintalaitteet"
+    },
+    {
+      "type": "paragraph",
+      "content": "Navigoi kuvien välillä nopeasti nuolinäppäimillä, poista liitettyjä kuvia Backspace-näppäimellä ja paina Enter valitaksesi kuvia. Mukautettu sivupalkki on korvattu macOS-alkuperäisellä tarkastuspaneelilla hiotumpaa, järjestelmään integroitua kokemusta varten, joka noudattaa Applen suunnittelukieltä."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-mac-1.4.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-mac-1.4.0-1@2x.png",
+      "alt": "Frames macOS-sovellus pikanäppäimillä ja alkuperäisellä tarkastuspaneelilla filmimetatietojen työnkulkuun",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Hienostunut käyttöliittymä ja suorituskyky"
+    },
+    {
+      "type": "paragraph",
+      "content": "Visuaaliset artefaktit on poistettu koko käyttöliittymästä siistimmän, ammattimaisemman ulkoasun saavuttamiseksi. Koodiarkkitehtuuri on optimoitu parempaa sovelluksen reagointikykyä ja vakautta varten tehden metatietojen integrointityönkuluista nopeampia ja luotettavampia."
+    }
+  ],
+  "improvements": [
+    "Lisätty näppäimistönavigointi nuolinäppäimillä kuvien selaamiseen",
+    "Lisätty Backspace-pikanäppäin liitettyjen kuvien poistamiseen",
+    "Lisätty Enter-pikanäppäin kuvien valitsemiseen",
+    "Korvattu mukautettu sivupalkki macOS-alkuperäisellä tarkastuspaneelilla",
+    "Poistettu visuaaliset artefaktit siistimmän käyttöliittymän saavuttamiseksi",
+    "Optimoitu koodiarkkitehtuuri parempaa suorituskykyä varten",
+    "Parannettu sovelluksen reagointikyky kauttaaltaan",
+    "Parannettu yleinen vakaus"
+  ],
+  "fixes": [],
+  "patches": [
+    {
+      "version": "1.3.5",
+      "description": "Päivitetty sovelluskuvake macOS 26:lle."
+    },
+    {
+      "version": "1.3.4",
+      "description": "JPEG:n ja TIFF:n metatietojen integrointi säilyttää nyt olemassa olevat tiedot. Vain Framesin tallentamat tiedot lisätään."
+    },
+    {
+      "version": "1.3.3",
+      "description": "Lisätty max- ja min-aukon integrointi EXIF-metatietoihin. Lisätty objektiivin spesifikaatioiden tuki."
+    },
+    {
+      "version": "1.3.2",
+      "description": "Pieniä vikakorjauksia ja suorituskykyparannuksia."
+    },
+    {
+      "version": "1.3.1",
+      "description": "Lisätty tuki uusille suljinnopeuksille iOS:stä. Sovellus priorisoi nyt mukautetun ISO-arvioinnin oletuslaakon nopeuden sijaan."
+    }
+  ]
+}

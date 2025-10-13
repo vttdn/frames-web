@@ -1,0 +1,77 @@
+{
+  "version": "1.13.0",
+  "version_short": "1.13",
+  "url_slug": "1-13-ios",
+  "platform": "ios",
+  "release_date": "2025-10-06T10:00:00.000Z",
+  "title": "İbranice, Arapça, Rumence ve Ukraynaca Dil Desteği",
+  "summary": "Frames, bu önemli yerelleştirme güncellemesiyle dünya çapında analog fotoğrafçılara hizmet verme misyonunu sürdürüyor ve İbranice, Arapça, Rumence ve Ukraynaca konuşanlar için doğal destek getirirken tüm uygulama genelinde rafine edilmiş çeviriler ve arayüz iyileştirmeleri sunuyor.",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Sağdan Sola Destekli Dört Yeni Dil"
+    },
+    {
+      "type": "paragraph",
+      "content": "Frames artık İbranice, Arapça, Rumence ve Ukraynaca'yı destekliyor, her biri kültürel nüansları ve fotoğrafçılık terminolojisini saygıyla ele alacak şekilde dikkatlice yerelleştirildi. İbranice ve Arapça, tam sağdan sola arayüz adaptasyonu içeriyor. Navigasyon akışları, düğme yerleşimi ve metin hizalaması uygun şekilde yansıtılırken film stoğu kodları ve diyafram değerleri gibi teknik terimler standart uluslararası formatlarında korunuyor."
+    },
+    {
+      "type": "list",
+      "items": [
+        {
+          "title": "İbranice (עברית) ve Arapça (العربية)",
+          "description": "Film stokları, fotoğraf makinesi ayarları ve EXIF meta verileri için doğal terminoloji ile eksiksiz RTL arayüzü."
+        },
+        {
+          "title": "Rumence (Română) ve Ukraynaca (Українська)",
+          "description": "Çalışmalarını ana dillerinde belgeleyen fotoğrafçıları destekleyen tam çeviriler."
+        }
+      ]
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.13.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.13.0-1@2x.png",
+      "alt": "İbranice ve Arapça RTL arayüzü ve dil desteği ile Frames film fotoğrafçılığı uygulaması",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Tüm Dillerde Çeviri İyileştirmeleri"
+    },
+    {
+      "type": "paragraph",
+      "content": "Yeni dillerin ötesinde, fotoğrafçılardan gelen geri bildirimlere dayanarak uygulama genelinde mevcut çevirileri rafine ettik. Film stoğu adları orijinal dillerinde kalır (Kodak Portra, Ilford HP5), arayüz öğeleri ise seçtiğiniz dile uyum sağlar. Dil tercihleri cihazlar arasında senkronize olur ve mevcut tüm veriler yeniden giriş veya taşıma olmadan seçtiğiniz dilde otomatik olarak görüntülenir."
+    }
+  ],
+  "improvements": [
+    "Sağdan sola arayüz desteği ile eksiksiz İbranice (עברית) yerelleştirmesi eklendi",
+    "RTL düzen adaptasyonu ile eksiksiz Arapça (العربية) yerelleştirmesi eklendi",
+    "Film fotoğrafçılığı topluluğu için Rumence (Română) çevirisi eklendi",
+    "Doğal terminoloji ile Ukraynaca (Українська) desteği eklendi",
+    "İyileştirilmiş netlik ve tutarlılık için desteklenen tüm dillerde mevcut çeviriler rafine edildi",
+    "Fotoğrafçılığa özgü alanlarda iyileştirilmiş teknik terminoloji doğruluğu",
+    "Karışık Latin ve RTL içeriği için geliştirilmiş iki yönlü metin desteği"
+  ],
+  "fixes": [
+    {
+      "title": "Çevirilerde Metin Taşması",
+      "description": "Belirli arayüz öğelerinde daha uzun çevrilmiş ifadelerin kesilebileceği düzen sorunları çözüldü."
+    },
+    {
+      "title": "RTL Düzen Tutarlılığı",
+      "description": "Tüm ekranlarda uygun yansıtma sağlamak için sağdan sola dillerdeki küçük hizalama sorunları düzeltildi."
+    }
+  ],
+  "patches": [
+    {
+      "version": "1.13.1",
+      "description": "Dışa aktarma sırasında paylaşım menüsünün tekrar tekrar titremesine neden olabilecek bir hata düzeltildi"
+    }
+  ],
+  "meta_title": "İbranice, Arapça, Rumence ve Ukraynaca Dil Desteği · Frames",
+  "meta_description": "Frames, bu önemli yerelleştirme güncellemesiyle dünya çapında analog fotoğrafçılara hizmet verme misyonunu sürdürüyor ve İbranice, Arapça için doğal destek getiriyor..."
+}

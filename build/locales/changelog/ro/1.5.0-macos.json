@@ -1,0 +1,43 @@
+{
+  "version": "1.5.0",
+  "version_short": "1.5",
+  "url_slug": "1-5-macos",
+  "platform": "macos",
+  "release_date": "2025-09-19T10:00:00.000Z",
+  "title": "Îmbunătățiri majore de performanță și procesare DNG",
+  "meta_title": "Îmbunătățiri majore de performanță și procesare DNG · Frames",
+  "meta_description": "Procesare DNG semnificativ mai rapidă cu cache optimizat și utilizare memorie. Remediat importul .frames și compatibilitate Mac Intel pentru flux de lucru mai fluid.",
+  "summary": "Această actualizare oferă gestionare semnificativ mai rapidă a imaginilor cu procesare DNG optimizată, cache îmbunătățit și remedieri pentru importul fișierelor .frames și exportul metadatelor DNG pe Mac-uri Intel.",
+  "sections": [
+    {
+      "type": "paragraph",
+      "content": "Încărcarea imaginilor este acum semnificativ mai rapidă în toate formatele, cu îmbunătățiri majore ale vitezei și fiabilității procesării DNG. Utilizarea memoriei a fost optimizată, cache-ul îmbunătățit și încărcarea sincronizată asigură operare fluidă chiar și cu loturi mari de imagini. Am remediat și importul fișierelor .frames din bara de meniu macOS și rezolvat problemele de export metadate DNG pe Mac-uri Intel mai vechi."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.10.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.10.0-1@2x.png",
+      "alt": "Aplicația Frames pentru macOS cu performanță optimizată de procesare DNG",
+      "width": "400",
+      "height": "300"
+    }
+  ],
+  "improvements": [
+    "Încărcare semnificativ mai rapidă a imaginilor în toate formatele",
+    "Procesare DNG optimizată pentru performanță mai bună",
+    "Sistem de cache îmbunătățit pentru operare mai fluidă",
+    "Eficiență sporită a utilizării memoriei",
+    "Încărcare sincronizată pentru loturi mari de imagini"
+  ],
+  "fixes": [
+    {
+      "title": "Import fișiere .frames",
+      "description": "Remediat importul fișierelor .frames din bara de meniu macOS."
+    },
+    {
+      "title": "Export DNG pe Mac-uri Intel",
+      "description": "Remediat exportul metadatelor DNG pe modelele mai vechi de Mac Intel."
+    }
+  ],
+  "patches": []
+}

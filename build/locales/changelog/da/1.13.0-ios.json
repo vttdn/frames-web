@@ -1,0 +1,77 @@
+{
+  "version": "1.13.0",
+  "version_short": "1.13",
+  "url_slug": "1-13-ios",
+  "platform": "ios",
+  "release_date": "2025-10-06T10:00:00.000Z",
+  "title": "Hebraisk, arabisk, rumænsk og ukrainsk sprogsupport",
+  "summary": "Frames fortsætter sin mission om at betjene analoge fotografer verden over med denne betydelige lokaliseringsopdatering, der bringer indbygget support til hebraisk-, arabisk-, rumænsk- og ukrainsktalende, sammen med raffinerede oversættelser og grænsefladerforbedringer gennem hele appen.",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Fire nye sprog med højre-til-venstre-support"
+    },
+    {
+      "type": "paragraph",
+      "content": "Frames understøtter nu hebraisk, arabisk, rumænsk og ukrainsk, hver omhyggeligt lokaliseret til at respektere kulturelle nuancer og fotografiterminologi. Hebraisk og arabisk inkluderer fuld højre-til-venstre-grænsefladetilpasning. Navigationsflows, knapplacering og tekstjustering spejles alle korrekt, samtidig med at tekniske termer som filmtypekoder og blændeværdier bevares i deres standard internationale format."
+    },
+    {
+      "type": "list",
+      "items": [
+        {
+          "title": "Hebraisk (עברית) og arabisk (العربية)",
+          "description": "Komplet RTL-grænseflade med indbygget terminologi til filmtyper, kameraindstillinger og EXIF-metadata."
+        },
+        {
+          "title": "Rumænsk (Română) og ukrainsk (Українська)",
+          "description": "Fulde oversættelser, der understøtter fotografer, der dokumenterer deres arbejde på deres modersmål."
+        }
+      ]
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.13.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.13.0-1@2x.png",
+      "alt": "Frames filmfotografi-app med hebraisk og arabisk RTL-grænseflade og sprogsupport",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Oversættelsesraffinementer på tværs af alle sprog"
+    },
+    {
+      "type": "paragraph",
+      "content": "Ud over nye sprog har vi raffineret eksisterende oversættelser gennem hele appen baseret på feedback fra fotografer. Filmtypenavne forbliver på deres originale sprog (Kodak Portra, Ilford HP5), mens grænsefladeelementer tilpasser sig dit valgte sprog. Sprogpræferencer synkroniserer på tværs af enheder, og alle eksisterende data vises automatisk på dit valgte sprog uden genindtastning eller migrering."
+    }
+  ],
+  "improvements": [
+    "Tilføjet komplet hebraisk (עברית) lokalisering med højre-til-venstre-grænsefladesupport",
+    "Tilføjet komplet arabisk (العربية) lokalisering med RTL-layouttilpasning",
+    "Tilføjet rumænsk (Română) oversættelse til filmfotografisamfundet",
+    "Tilføjet ukrainsk (Українська) support med indbygget terminologi",
+    "Raffinerede eksisterende oversættelser på tværs af alle understøttede sprog for forbedret klarhed og konsistens",
+    "Forbedret teknisk terminologinøjagtighed i fotografispecifikke felter",
+    "Forbedret tovejs tekstsupport til blandet latinsk og RTL-indhold"
+  ],
+  "fixes": [
+    {
+      "title": "Tekstoverløb i oversættelser",
+      "description": "Løst layoutproblemer, hvor længere oversatte sætninger kunne afkortes i visse grænsefladeelementer."
+    },
+    {
+      "title": "RTL-layoutkonsistens",
+      "description": "Rettet mindre justeringsproblemer i højre-til-venstre-sprog for at sikre korrekt spejling på tværs af alle skærme."
+    }
+  ],
+  "patches": [
+    {
+      "version": "1.13.1",
+      "description": "Rettet en fejl, der kunne få delingsmenuen til at flimre gentagne gange ved eksport"
+    }
+  ],
+  "meta_title": "Hebraisk, arabisk, rumænsk og ukrainsk sprogsupport · Frames",
+  "meta_description": "Frames fortsætter sin mission om at betjene analoge fotografer verden over med denne betydelige lokaliseringsopdatering, der bringer indbygget support til hebraisk, arabisk,..."
+}

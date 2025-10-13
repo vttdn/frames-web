@@ -1,0 +1,37 @@
+{
+  "version": "1.1.0",
+  "version_short": "1.1",
+  "url_slug": "1-1-macos",
+  "platform": "macos",
+  "release_date": "2025-06-27T10:00:00.000Z",
+  "title": "Hỗ trợ tệp TIFF",
+  "meta_title": "Hỗ trợ tệp TIFF · Frames",
+  "meta_description": "Nhập và xuất tệp TIFF với khả năng nhúng siêu dữ liệu đầy đủ. Hỗ trợ định dạng chuyên nghiệp cho ảnh scan chất lượng cao với quy trình tích hợp EXIF liền mạch.",
+  "summary": "Giờ đây bạn có thể nhập và xuất tệp TIFF với khả năng tích hợp siêu dữ liệu đầy đủ, mở rộng hỗ trợ định dạng ngoài JPEG cho các quy trình chuyên nghiệp.",
+  "sections": [
+    {
+      "type": "paragraph",
+      "content": "Hỗ trợ TIFF đã có trên Frames cho macOS. Nhập ảnh scan TIFF và nhúng siêu dữ liệu cuộn phim của bạn với cùng quy trình mà bạn sử dụng cho tệp JPEG. Tệp TIFF hoạt động liền mạch trong quy trình tích hợp lại siêu dữ liệu, đảm bảo ghi chú nhiếp ảnh analog của bạn đi cùng với ảnh bất kể định dạng nào."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-mac-1.1.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-mac-1.1.0-1@2x.png",
+      "alt": "Ứng dụng Frames cho macOS với hỗ trợ tệp TIFF cho quy trình nhiếp ảnh analog chuyên nghiệp",
+      "width": "400",
+      "height": "300"
+    }
+  ],
+  "improvements": [
+    "Thêm hỗ trợ nhập tệp TIFF",
+    "Thêm xuất tệp TIFF với tích hợp siêu dữ liệu đầy đủ",
+    "Tệp TIFF hoạt động liền mạch với quy trình tích hợp lại siêu dữ liệu hiện có"
+  ],
+  "fixes": [],
+  "patches": [
+    {
+      "version": "1.1.1",
+      "description": "Khắc phục sự cố có thể ngăn tệp .frames tải trong một số tình huống nhất định."
+    }
+  ]
+}

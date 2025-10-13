@@ -1,0 +1,43 @@
+{
+  "version": "1.5.0",
+  "version_short": "1.5",
+  "url_slug": "1-5-macos",
+  "platform": "macos",
+  "release_date": "2025-09-19T10:00:00.000Z",
+  "title": "Büyük Performans ve DNG İşleme İyileştirmeleri",
+  "meta_title": "Büyük Performans ve DNG İşleme İyileştirmeleri · Frames",
+  "meta_description": "Optimize edilmiş önbellekleme ve bellek kullanımıyla önemli ölçüde daha hızlı DNG işleme. Daha sorunsuz meta veri iş akışı için .frames içe aktarma ve Intel Mac uyumluluğu düzeltildi.",
+  "summary": "Bu güncelleme, optimize edilmiş DNG işleme, geliştirilmiş önbellekleme ve Intel Mac'lerde .frames dosya içe aktarma ve DNG meta veri dışa aktarma düzeltmeleriyle önemli ölçüde daha hızlı görüntü işleme sunuyor.",
+  "sections": [
+    {
+      "type": "paragraph",
+      "content": "Görüntü yükleme artık tüm formatlarda önemli ölçüde daha hızlı, DNG işleme hızı ve güvenilirliğinde büyük iyileştirmeler var. Bellek kullanımı optimize edildi, önbellekleme iyileştirildi ve senkronize yükleme, büyük görüntü gruplarıyla bile sorunsuz çalışma sağlıyor. Ayrıca macOS menü çubuğundan .frames dosya içe aktarmasını düzelttik ve eski Intel Mac'lerdeki DNG meta veri dışa aktarma sorunlarını çözdük."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.10.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.10.0-1@2x.png",
+      "alt": "Daha hızlı görüntü işleme için optimize edilmiş DNG işleme performansına sahip Frames macOS uygulaması",
+      "width": "400",
+      "height": "300"
+    }
+  ],
+  "improvements": [
+    "Tüm formatlarda önemli ölçüde daha hızlı görüntü yükleme",
+    "Daha iyi performans için optimize edilmiş DNG işleme",
+    "Daha sorunsuz çalışma için iyileştirilmiş önbellekleme sistemi",
+    "Geliştirilmiş bellek kullanımı verimliliği",
+    "Büyük görüntü grupları için senkronize yükleme"
+  ],
+  "fixes": [
+    {
+      "title": ".frames Dosya İçe Aktarma",
+      "description": "macOS menü çubuğundan .frames dosya içe aktarma düzeltildi."
+    },
+    {
+      "title": "Intel Mac'lerde DNG Dışa Aktarma",
+      "description": "Eski Intel Mac modellerinde DNG meta veri dışa aktarma düzeltildi."
+    }
+  ],
+  "patches": []
+}
