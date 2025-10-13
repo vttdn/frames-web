@@ -11,6 +11,8 @@ import sys
 from pathlib import Path
 from datetime import datetime
 from jinja2 import Environment, FileSystemLoader, select_autoescape
+import rjsmin
+import htmlmin
 
 # Get project root directory (go up from build/scripts/ to root)
 PROJECT_ROOT = Path(__file__).parent.parent.parent
@@ -439,6 +441,23 @@ def save_changelog_index(html, page_number, lang_code='en'):
 
     print(f"✓ Generated: {path_prefix}/{'index.html' if page_number == 1 else f'page-{page_number}/index.html'}")
 
+def minify_html(html_code: str) -> str:
+    return htmlmin.minify(
+        html_code,
+        remove_comments=True,
+        remove_empty_space=True,
+        reduce_boolean_attributes=True,
+        remove_optional_attribute_quotes=True,
+        keep_pre=True,
+        pre_tags=('pre', 'code', 'textarea'),
+    )
+
+
+        
+def minify_javascript(js_code: str) -> str:
+    """Minify JavaScript and strip comments."""
+    return rjsmin.jsmin(js_code)
+
 def save_changelog_entry(html, entry, lang_code='en'):
     """Save individual changelog entry page"""
     # Determine output directory based on language
@@ -458,28 +477,32 @@ def save_changelog_entry(html, entry, lang_code='en'):
 
     print(f"✓ Generated: {path_prefix}/{entry['url_slug']}/index.html")
 
-def generate_changelog_javascript(lang_code, locale_data):
-    """Generate JavaScript file for changelog pages"""
-
-    # Setup Jinja2 environment
+def generate_changelog_javascript(lang_code, locale_data, global_config):
     env = Environment(
         loader=FileSystemLoader(TEMPLATES_DIR),
-        autoescape=False,  # Don't escape JavaScript
+        autoescape=False,
         trim_blocks=True,
         lstrip_blocks=True
     )
 
-    # Prepare context
+    # Get lang_config for this language
+    lang_config = next((l for l in global_config['languages'] if l['code'] == lang_code), None)
+    if not lang_config:
+        raise ValueError(f"Language {lang_code} not found in global config")
+
     context = {
         'lang': lang_code,
-        'locale_data': locale_data
+        'locale_data': locale_data,
+        'global_config': global_config,
+        'lang_config': lang_config  # ← ADD THIS
     }
 
-    # Load and render template
     template = env.get_template('changelog.js')
     javascript = template.render(context)
 
-    return javascript
+    return minify_javascript(javascript)
+
+
 
 def save_changelog_javascript(javascript, lang_code='en'):
     """Save generated JavaScript to appropriate location"""
@@ -665,6 +688,7 @@ def main():
                     entries,  # Pass all entries for Blog schema
                     changelog_css
                 )
+                html = minify_html(html)
                 save_changelog_index(html, page, lang_code)
 
             # Generate individual entry pages with prev/next navigation
@@ -682,13 +706,14 @@ def main():
                     available_languages,
                     changelog_css
                 )
+                html = minify_html(html)
                 save_changelog_entry(html, entry, lang_code)
 
             # Generate sitemap
             generate_sitemap(entries, lang_code)
 
             # Generate and save JavaScript
-            javascript = generate_changelog_javascript(lang_code, locale_data)
+            javascript = generate_changelog_javascript(lang_code, locale_data, global_config)
             save_changelog_javascript(javascript, lang_code)
 
         except FileNotFoundError:

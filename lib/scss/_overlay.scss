@@ -1,51 +1,7 @@
 @use 'mixins' as *;
 
-// Shared Overlay Styles
+// Overlay global shared styles
 .overlay {
-  position: fixed;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  width: 100%;
-  height: 100%;
-  background: var(--color-background);
-  z-index: 9999;
-  opacity: 0;
-  visibility: hidden;
-  pointer-events: none;
-  transition: opacity 0.25s ease, visibility 0.25s ease;
-}
-
-// Hide checkbox for overlay toggles
-.overlay-toggle {
-  position: absolute;
-  opacity: 0;
-  pointer-events: none;
-}
-
-// Close button for overlays
-.overlay-close {
-  position: absolute;
-  top: 0.9375rem;
-  right: var(--spacing-lg);
-  cursor: pointer;
-  width: 1.5rem;
-  height: 1.5rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  z-index: 10000;
-}
-
-// Show overlay when checkbox is checked
-.overlay-toggle:checked~.overlay {
-  opacity: 1;
-  visibility: visible;
-  pointer-events: auto;
-}
-
-.overlay-social-share {
   position: fixed;
   inset: 0;
   display: flex;
@@ -63,48 +19,77 @@
     opacity: 1;
     visibility: visible;
     pointer-events: auto;
-    transition: opacity 0.3s ease; /* no delay when showing */
+    transition: opacity 0.3s ease;
+    /* no delay when showing */
+  }
+}
 
-    .modal {
-      top: 0;
+// Modal
+.modal:not(.modal-menu) {
+  position: relative;
+  display: block;
+  width: 100%;
+  max-width: 31.25rem;
+  max-height: 100vh;
+  border-radius: var(--radius-lg);
+  top: 100vh;
+  transition: top 0.3s ease;
+  padding: var(--spacing-lg);
+  border: 1px solid var(--color-gray-dark3);
+  background-color: rgb(12, 12, 12);
+
+  &.large {
+    width: 100%;
+    max-width: 64rem;
+    background: rgb(12, 12, 12);
+    border: 1px solid var(--color-gray-dark3);
+    border-radius: var(--radius-lg);
+    padding: var(--spacing-lg);
+    display: flex;
+    flex-direction: column;
+
+    .overlay-button-close {
+      margin-left: auto;
     }
   }
+
+  // close button
+  .overlay-button-close {
+    width: var(--spacing-2xl);
+    height: var(--spacing-2xl);
+    border: 1px solid var(--color-gray-dark2);
+    border-radius: var(--radius-md);
+    background-color: #000;
+
+    cursor: pointer;
+
+    svg {
+      width: var(--spacing-lg);
+      height: var(--spacing-lg);
+      stroke: var(--color-primary);
+    }
+
+    &:hover {
+      border: 1px solid var(--color-gray-dark3);
+    }
+  }
+}
+
+.overlay.show .modal:not(.modal-menu) {
+  top: 0;
+}
+
+.modal-header {
+  margin-bottom: var(--spacing-xl);
 
   h3 {
     font-size: 1.5rem;
     line-height: var(--line-height-lg);
   }
+}
 
-  .modal {
-    position: relative;
-    display: block;
-      width: 100%;
-    max-width: 31.25rem;
-    max-height: 100vh;
-    border-radius: var(--radius-lg);
-    top: 100vh;
-    transition: top 0.3s ease;
-    padding: var(--spacing-lg);
-    border: 1px solid var(--color-gray-dark3);
-    background-color: rgb(12, 12, 12);
-
-    &.large {
-      width: 100%;
-      max-width: 64rem;
-      background: rgb(12, 12, 12);
-      border: 1px solid var(--color-gray-dark3);
-      border-radius: var(--radius-lg);
-      padding: var(--spacing-lg);
-      display: flex;
-      flex-direction: column;
-    }
-  }
-
-  .modal-header {
-    margin-bottom: var(--spacing-xl);
-  }
-
-  .social-share-icon {
+.modal-social-buttons {
+  a {
     position: relative;
     width: 100%;
     overflow: hidden;
@@ -141,70 +126,91 @@
       transform: translate(-50%, -50%);
     }
   }
+}
 
-  // close button
-  .overlay-button-close {
-    width: var(--spacing-2xl);
-    height: var(--spacing-2xl);
-    border: 1px solid var(--color-gray-dark2);
-    border-radius: var(--radius-md);
-    background-color: #000;
+// Video related styles
+.video-container {
+  position: relative;
+  display: block;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  border-radius: var(--radius-lg);
+  // border: 1px solid var(--color-gray-dark2);
+  overflow: hidden;
 
-    cursor: pointer;
-
-    svg {
-      width: var(--spacing-lg);
-      height: var(--spacing-lg);
-      stroke: var(--color-primary);
-    }
-
-    &:hover {
-      border: 1px solid var(--color-gray-dark3);
-    }
-  }
-
-
-  .video-container {
-    position: relative;
-    display: block;
-    width: 100%;
-    aspect-ratio: 16 / 9;
-    border-radius: var(--radius-lg);
-    // border: 1px solid var(--color-gray-dark2);
-    overflow: hidden;
-
-    .overlay-button-close-container {
-      position: absolute;
-      top: 8px;
-      right: 8px;
-      z-index: 99999;
-      width: 80px;
-      height: 96px;
-      display: flex;
-      align-items: start;
-      justify-content: end;
-      background: #000;
-
-    }
-  }
-
-  #youtube-player {
+  .overlay-button-close-container {
     position: absolute;
-    inset: 0;
-    width: 100%;
-    height: 100%; /* fill the parent */
-  }
+    top: 8px;
+    right: 8px;
+    z-index: 99999;
+    width: 80px;
+    height: 96px;
+    display: flex;
+    align-items: start;
+    justify-content: end;
+    background: #000;
 
-  iframe {
-    width: 100%;
-  height: 100%;
-  border: none;
-  outline: none;
   }
 }
 
-#youtube-overlay .modal {
-padding: 0;
-background: #000;
-border-radius: 8px;
+#youtube-player {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  /* fill the parent */
+}
+
+iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+  outline: none;
+}
+
+// Menu
+.mobile-menu-toggle {
+  display: none;
+  
+  @include tablet-down {
+    display: block;
+  }
+}
+.modal-menu {
+  width: 100%;
+  height: 100%;
+
+  .overlay-button-close {
+    position: absolute;
+    top: 0.9375rem;
+    right: var(--spacing-lg);
+    cursor: pointer;
+    width: 1.5rem;
+    height: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10000;
+  }
+
+  .mobile-menu-nav {
+    // flex: 1;
+    // display: flex;
+    margin-top: var(--spacing-5xl);
+    // transform: translateY(-0.75rem);
+    // opacity: 0;
+    // transition: transform 0.25s cubic-bezier(0.16, 1, 0.3, 1),
+                // opacity 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+
+    ul {
+      li {
+          padding: var(--spacing-xs) 0;
+        a {
+          font-size: var(--font-size-2xl);
+          line-height: var(--line-height-2xl);
+          color: var(--color-white);
+        }
+      }
+    }
+  }
 }

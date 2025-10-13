@@ -55,35 +55,20 @@
             </nav>
 
             <div class="trailing flex flex-row flex-center gap-sm">
-                <button class="dropdown-button btn btn-sm btn-dark mobile-hidden" id="button-social-share" aria-controls="overlay-social-share" aria-expanded="false">
-                        <span>{{ locale_data.header.buttons.share }}</span>
+                <button class="btn btn-sm btn-dark mobile-hidden" id="button-social-share"
+                    aria-controls="overlay-social-share" aria-expanded="false">
+                    <span>{{ locale_data.header.buttons.share }}</span>
                 </button>
                 <a href="{{ locale_data.urls.appstore_macos }}" class="btn btn-sm btn-light desktop-up">{{ locale_data.header.buttons.download }}</a>
                 <a href="{{ locale_data.urls.appstore_ios }}" class="btn btn-sm btn-light tablet-only">{{ locale_data.header.buttons.download }}</a>
                 <a href="{{ locale_data.urls.appstore_ios }}" class="btn btn-sm btn-dark desktop-hidden">{{ locale_data.header.buttons.download }}</a>
-
-                <div class="mobile-menu">
-                    <input type="checkbox" id="mobile-menu-toggle" class="overlay-toggle" aria-hidden="true" tabindex="-1">
-
-                    <label for="mobile-menu-toggle" class="mobile-menu-toggle" aria-label="{{ locale_data.mobile_menu.open_aria_label }}">
-                        <img src="/lib/img/icn/menu.svg" alt="Menu Icon" width="32" height="32" loading="lazy" aria-hidden="true">
-                    </label>
-
-                    <div class="mobile-menu-overlay overlay">
-                        <label for="mobile-menu-toggle" class="overlay-close" aria-label="{{ locale_data.mobile_menu.close_aria_label }}">
-                            <img src="/lib/img/icn/xmark.svg" alt="x Mark Icon" width="32" height="32" loading="lazy" aria-hidden="true">
-                        </label>
-
-                        <nav class="mobile-menu-nav" aria-label="{{ locale_data.mobile_menu.navigation_aria_label }}">
-                            <ul class="flex flex-col">
-                                <li><a href="{{ lang_config.path }}#features">{{ locale_data.mobile_menu.features }}</a></li>
-                                <li><a href="/docs/">{{ locale_data.mobile_menu.documentation }}</a></li>
-                                <li><a href="{{ lang_config.path }}{{ locale_data.urls.changelog }}">{{ locale_data.mobile_menu.changelog }}</a></li>
-                                <li><a href="{{ lang_config.path }}{{ locale_data.urls.privacy }}">{{ locale_data.mobile_menu.privacy }}</a></li>
-                            </ul>
-                        </nav>
-                    </div>
-                </div>
+                
+                <button id="menu-toggle" class="mobile-menu-toggle"
+                    aria-label="{{ locale_data.mobile_menu.open_aria_label }}"
+                    aria-controls="overlay"
+                    aria-expanded="false">
+                    <img src="/lib/img/icn/menu.svg" alt="Menu Icon" width="32" height="32" loading="lazy" aria-hidden="true">
+                </button>
             </div>
         </div>
     </header>
@@ -328,67 +313,11 @@
         </div>
     </footer>
 
-    <div class="overlay-social-share flex flex-center flex-justify-center" id="overlay-social-share" role="dialog" aria-modal="true" aria-labelledby="overlay-social-share-title">
-    <div class="modal">
-        <div class="modal-header flex flex-justify-between flex-center">
-            <h3 id="overlay-social-share-title">{{ locale_data.header.buttons.share }}</h3>
-
-            <button class="overlay-button-close flex flex-center flex-justify-center"
-                id="button-social-share-close">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill=""
-                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                    class="size-4">
-                    <line x1="18" y1="6" x2="6" y2="18"></line>
-                    <line x1="6" y1="6" x2="18" y2="18"></line>
-                </svg>
-            </button>
-        </div>
-
-        <div class="grid grid-3col">
-            <a href="#" onclick="shareOn('facebook'); return false;">
-                <div class="social-share-icon">
-                    <img src="/lib/img/icn/facebook.svg" alt="{{ locale_data.share_dropdown.facebook }} Icon" width="14"
-                        height="14" loading="lazy" class="social-icon">
-                </div>
-            </a>
-
-            <a href="#" onclick="shareOn('twitter'); return false;">
-                <div class="social-share-icon">
-                    <img src="/lib/img/icn/twitter.svg" alt="{{ locale_data.share_dropdown.twitter }} Icon" width="14"
-                        height="14" loading="lazy" class="social-icon">
-                </div>
-            </a>
-
-            <a href="#" onclick="shareOn('linkedin'); return false;">
-                <div class="social-share-icon">
-                    <img src="/lib/img/icn/linkedin.svg" alt="{{ locale_data.share_dropdown.linkedin }} Icon" width="14"
-                        height="14" loading="lazy" class="social-icon">
-                </div>
-            </a>
-
-            <a href="#" onclick="shareOn('whatsapp'); return false;">
-                <div class="social-share-icon">
-                    <img src="/lib/img/icn/whatsapp.svg" alt="{{ locale_data.share_dropdown.whatsapp }} Icon" width="14"
-                        height="14" loading="lazy" class="social-icon">
-                </div>
-            </a>
-
-            <a href="#" onclick="shareOn('reddit'); return false;">
-                <div class="social-share-icon">
-                    <img src="/lib/img/icn/reddit.svg" alt="{{ locale_data.share_dropdown.reddit }} Icon" width="14"
-                        height="14" loading="lazy" class="social-icon">
-                </div>
-            </a>
-
-            <a href="#" onclick="shareOn('email'); return false;">
-                <div class="social-share-icon">
-                    <img src="/lib/img/icn/paperplane.svg" alt="{{ locale_data.share_dropdown.email }} Icon" width="14"
-                        height="14" loading="lazy" class="social-icon">
-                </div>
-            </a>
-        </div>
+    <!-- Main Overlay -->
+    <div class="overlay flex flex-center flex-justify-center" id="overlay" role="dialog"
+        aria-modal="true" aria-labelledby="" hidden>
+        <div class="modal" id="modal-container"></div>
     </div>
-</div>
 
     {% if lang == 'en' %}
     <script defer src="/lib/js/changelog/core.js"></script>

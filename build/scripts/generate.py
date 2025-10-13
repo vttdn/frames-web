@@ -9,6 +9,8 @@ import os
 import sys
 from pathlib import Path
 from jinja2 import Environment, FileSystemLoader, select_autoescape
+import rjsmin
+import htmlmin
 
 # Get project root directory (go up from build/scripts/ to root)
 PROJECT_ROOT = Path(__file__).parent.parent.parent
@@ -101,6 +103,16 @@ def detect_available_changelog_languages():
             available_languages.append(lang_dir.name)
 
     return available_languages
+
+def minify_html(html_code: str) -> str:
+    """Minify HTML: remove whitespace, comments, etc."""
+    return htmlmin.minify(
+        html_code,
+        remove_comments=True,
+        remove_empty_space=True,
+        reduce_boolean_attributes=True,
+        remove_optional_attribute_quotes=False
+    )
 
 def generate_html(lang_code, global_config, locale_data, critical_css, available_changelog_languages):
     """Generate HTML for a specific language"""
@@ -231,25 +243,27 @@ def generate_privacy_html(lang_code, global_config, locale_data, privacy_css, av
 
     return html
 
-def save_html(html, lang_config, locale_data=None, page_type='index'):
+def save_html(html, lang_config, locale_data=None, page_type='index', minify=True):
     """Save generated HTML to appropriate location"""
+    
+    # Minify HTML if needed
+    if minify:
+        html = minify_html(html)
+
     # Determine output path
     if page_type == 'index':
         if lang_config['path'] == '/':
             output_path = OUTPUT_DIR / "index.html"
         else:
-            # Remove leading/trailing slashes and create directory
             path_parts = lang_config['path'].strip('/').split('/')
             output_dir = OUTPUT_DIR / '/'.join(path_parts)
             output_dir.mkdir(parents=True, exist_ok=True)
             output_path = output_dir / "index.html"
     elif page_type == 'privacy':
-        # Get privacy path from locale data
         privacy_path = locale_data['urls']['privacy'].strip('/')
         if lang_config['path'] == '/':
             output_dir = OUTPUT_DIR / privacy_path
         else:
-            # Combine language path with privacy path
             lang_path = lang_config['path'].strip('/')
             output_dir = OUTPUT_DIR / lang_path / privacy_path
         output_dir.mkdir(parents=True, exist_ok=True)
@@ -274,21 +288,31 @@ def save_schema(schema_json, schema_name, lang_code):
 
     print(f"✓ Generated: {schema_path.relative_to(OUTPUT_DIR)}")
 
-def generate_javascript(lang_code, locale_data):
+def minify_javascript(js_code: str) -> str:
+    """Minify JavaScript and strip comments."""
+    return rjsmin.jsmin(js_code)
+    
+def generate_javascript(lang_code, locale_data, global_config):
     """Generate JavaScript file for a specific language"""
 
-    # Setup Jinja2 environment
     env = Environment(
         loader=FileSystemLoader(TEMPLATES_DIR),
-        autoescape=False,  # Don't escape JavaScript
+        autoescape=False,
         trim_blocks=True,
         lstrip_blocks=True
     )
 
+    # Get language config
+    lang_config = next((l for l in global_config['languages'] if l['code'] == lang_code), None)
+    if not lang_config:
+        raise ValueError(f"Language {lang_code} not found in global config")
+
     # Prepare context
     context = {
         'lang': lang_code,
-        'locale_data': locale_data
+        'locale_data': locale_data,
+        'global_config': global_config,
+        'lang_config': lang_config  # ← ADD THIS
     }
 
     # Load and render template
@@ -297,13 +321,17 @@ def generate_javascript(lang_code, locale_data):
 
     return javascript
 
-def save_javascript(javascript, lang_code):
+
+import rjsmin
+
+def save_javascript(javascript, lang_code, minify=True):
     """Save generated JavaScript to appropriate location"""
+    # Optionally minify JS
+    if minify:
+        javascript = rjsmin.jsmin(javascript)
+
     # Create language-specific js directory
-    if lang_code == 'en':
-        js_dir = PROJECT_ROOT / "lib" / "js" / lang_code
-    else:
-        js_dir = PROJECT_ROOT / "lib" / "js" / lang_code
+    js_dir = PROJECT_ROOT / "lib" / "js" / lang_code
     js_dir.mkdir(parents=True, exist_ok=True)
 
     # Write JavaScript file
@@ -313,28 +341,34 @@ def save_javascript(javascript, lang_code):
 
     print(f"✓ Generated: {js_path.relative_to(OUTPUT_DIR)}")
 
-def generate_privacy_javascript(lang_code, locale_data):
+def generate_privacy_javascript(lang_code, locale_data, global_config):
     """Generate JavaScript file for privacy page"""
 
-    # Setup Jinja2 environment
     env = Environment(
         loader=FileSystemLoader(TEMPLATES_DIR),
-        autoescape=False,  # Don't escape JavaScript
+        autoescape=False,
         trim_blocks=True,
         lstrip_blocks=True
     )
 
-    # Prepare context
+    # Get language config
+    lang_config = next((l for l in global_config['languages'] if l['code'] == lang_code), None)
+    if not lang_config:
+        raise ValueError(f"Language {lang_code} not found in global config")
+
     context = {
         'lang': lang_code,
-        'locale_data': locale_data
+        'locale_data': locale_data,
+        'global_config': global_config,
+        'lang_config': lang_config  # ← ADD THIS
     }
 
-    # Load and render template
     template = env.get_template('privacy.js')
     javascript = template.render(context)
 
     return javascript
+
+
 
 def save_privacy_javascript(javascript, lang_code):
     """Save generated privacy JavaScript to appropriate location"""
@@ -526,11 +560,11 @@ def main():
             save_schema(privacy_webpage_json, 'webpage-privacy.json', lang_code)
 
             # Generate and save JavaScript
-            javascript = generate_javascript(lang_code, locale_data)
+            javascript = generate_javascript(lang_code, locale_data, global_config)
             save_javascript(javascript, lang_code)
 
             # Generate and save privacy page JavaScript
-            privacy_javascript = generate_privacy_javascript(lang_code, locale_data)
+            privacy_javascript = generate_privacy_javascript(lang_code, locale_data, global_config)
             save_privacy_javascript(privacy_javascript, lang_code)
 
         except FileNotFoundError:
