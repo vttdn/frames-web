@@ -5,35 +5,35 @@
           "@type": "MobileApplication",
           "name": "Frames iOS",
           "operatingSystem": "iOS 18.0",
-          "applicationCategory": "MultimediaApplication",
-          "inLanguage": "vi",
+          "applicationCategory": "PhotoApplication",
+          "publisher": { "@id": "https://withframes.com/#organization" },
           "description": "Frames là ứng dụng chụp phim dành cho nhiếp ảnh gia analog. Ghi lại từng bức ảnh, theo dõi cài đặt máy, sắp xếp cuộn phim và lưu siêu dữ liệu EXIF.",
           "image": "https://withframes.com/vi/og-image.jpg",
           "url": "https://apps.apple.com/vn/app/frames-ghi-chú-phim-ảnh/id6744057317?l=vi",
           "installUrl": "https://apps.apple.com/vn/app/frames-ghi-chú-phim-ảnh/id6744057317?l=vi",
           "softwareVersion": "1.13.1",
           "screenshot": "https://withframes.com/vi/og-image.jpg",
-          "isAccessibleForFree": true,
+          "isAccessibleForFree": false,
           "keywords": "film photography app, analog photography, EXIF metadata, film camera notes, photography workflow, film photography organization",
-          "maintainer": {
-            "@type": "Person",
-            "name": "Vincent Tantardini"
-          },
+          "maintainer": {"@id": "https://withframes.com/#vincent-tantardini"},
           "countriesSupported": [
-            "US", "GB", "FR", "DE", "IT", "ES", "CA", "AU",
-            "JP", "KR", "NL", "SE", "NO", "FI", "DK", "NZ"
+            "US","CA",
+            "AL","AT","BY","BE","BA","BG","HR","CY","CZ","DK","EE","FI","FR","DE","GR","HU","IS","IE","IT","XK","LV","LT","LU","MT","MD","ME","NL","MK","NO","PL","PT","RO","RU","RS","SK","SI","ES","SE","CH","TR","UA","GB",
+            "AF","DZ","AO","AM","AZ","BH","BJ","BW","BF","CM","CV","TD","CD","CG","CI","EG","SZ","GA","GM","GE","GH","GW","IN","IQ","IL","JO","KE","KW","LB","LR","LY","MG","MW","ML","MR","MU","MA","MZ","NA","NE","NG","OM","QA","RW","ST","SA","SN","SC","SL","ZA","TZ","TN","UG","AE","YE","ZM","ZW",
+            "AI","AG","AR","BS","BB","BZ","BM","BO","BR","VG","KY","CL","CO","CR","DM","DO","EC","SV","GD","GT","GY","HN","JM","MX","MS","NI","PA","PY","PE","KN","LC","VC","SR","TT","TC","UY","VE",
+            "AU","BT","BN","KH","CN","FJ","HK","ID","JP","KZ","KR","KG","LA","MO","MY","MV","FM","MN","MM","NR","NP","NZ","PK","PW","PG","PH","SG","SB","LK","TW","TJ","TH","TO","TM","UZ","VU","VN"
           ],
+          "inLanguage": "vi",
           "mainEntity": {
             "@type": "WebPage",
-            "@id": "https://withframes.com/"
+            "@id": "https://withframes.com/vi"
           },
           "author": {
-            "@type": "Person",
-            "name": "Vincent Tantardini"
+            "@id": "https://withframes.com/#vincent-tantardini"
           },
           "offers": {
             "@type": "Offer",
-            "price": "0",
+            "price": "1.99",
             "priceCurrency": "USD",
             "availability": "https://schema.org/InStock"
           },
@@ -107,32 +107,6 @@
                 "bestRating": "5",
                 "worstRating": "1"
             }
-            },
-            {
-            "@type": "Review",
-            "author": { "@type": "Person", "name": "Maria Garcia" },
-            "datePublished": "2025-07-12",
-            "name": "Review by Maria Garcia",
-            "reviewBody": "Ứng dụng dễ sử dụng, đáng tin cậy và giá hợp lý, chuyển dữ liệu chụp bao gồm cả vị trí địa lý vào EXIF của phim âm bản đã quét. Nhà phát triển lắng nghe phản hồi và liên tục cải thiện. Tuyệt vời!",
-            "reviewRating": {
-                "@type": "Rating",
-                "ratingValue": "5",
-                "bestRating": "5",
-                "worstRating": "1"
-            }
-            },
-            {
-            "@type": "Review",
-            "author": { "@type": "Person", "name": "BHenriquez" },
-            "datePublished": "2025-05-08",
-            "name": "Review by BHenriquez",
-            "reviewBody": "Là một nhiếp ảnh gia phim tự tráng tại nhà, tôi thích cách Frames cho phép tôi ghi lại từng bức ảnh mà không phải vất vả với sổ tay. Đây là giải pháp hoàn hảo và thực tế. Đã nâng cấp Pro và không hề hối hận!",
-            "reviewRating": {
-                "@type": "Rating",
-                "ratingValue": "5",
-                "bestRating": "5",
-                "worstRating": "1"
-            }
             }
           ]
         },
@@ -140,8 +114,8 @@
           "@type": "SoftwareApplication",
           "name": "Frames macOS",
           "operatingSystem": "macOS 15.0",
-          "applicationCategory": "MultimediaApplication",
-          "inLanguage": "vi",
+          "applicationCategory": "PhotoApplication",
+          "publisher": { "@id": "https://withframes.com/#organization" },
           "description": "Frames là ứng dụng chụp phim dành cho nhiếp ảnh gia analog. Ghi lại từng bức ảnh, theo dõi cài đặt máy, sắp xếp cuộn phim và lưu siêu dữ liệu EXIF.",
           "image": "https://withframes.com/vi/og-image.jpg",
           "url": "https://apps.apple.com/vn/app/frames-siêu-dữ-liệu-phim/id6744063354?l=vi",
@@ -149,15 +123,23 @@
           "softwareVersion": "1.8.0",
           "mainEntity": {
             "@type": "WebPage",
-            "@id": "https://withframes.com/"
+            "@id": "https://withframes.com/vi"
           },
+          "maintainer": {"@id": "https://withframes.com/#vincent-tantardini"},
+          "countriesSupported": [
+            "US","CA",
+            "AL","AT","BY","BE","BA","BG","HR","CY","CZ","DK","EE","FI","FR","DE","GR","HU","IS","IE","IT","XK","LV","LT","LU","MT","MD","ME","NL","MK","NO","PL","PT","RO","RU","RS","SK","SI","ES","SE","CH","TR","UA","GB",
+            "AF","DZ","AO","AM","AZ","BH","BJ","BW","BF","CM","CV","TD","CD","CG","CI","EG","SZ","GA","GM","GE","GH","GW","IN","IQ","IL","JO","KE","KW","LB","LR","LY","MG","MW","ML","MR","MU","MA","MZ","NA","NE","NG","OM","QA","RW","ST","SA","SN","SC","SL","ZA","TZ","TN","UG","AE","YE","ZM","ZW",
+            "AI","AG","AR","BS","BB","BZ","BM","BO","BR","VG","KY","CL","CO","CR","DM","DO","EC","SV","GD","GT","GY","HN","JM","MX","MS","NI","PA","PY","PE","KN","LC","VC","SR","TT","TC","UY","VE",
+            "AU","BT","BN","KH","CN","FJ","HK","ID","JP","KZ","KR","KG","LA","MO","MY","MV","FM","MN","MM","NR","NP","NZ","PK","PW","PG","PH","SG","SB","LK","TW","TJ","TH","TO","TM","UZ","VU","VN"
+          ],
+          "inLanguage": "vi",
           "author": {
-            "@type": "Person",
-            "name": "Vincent Tantardini"
+            "@id": "https://withframes.com/#vincent-tantardini"
           },
           "offers": {
             "@type": "Offer",
-            "price": "0",
+            "price": "1.99",
             "priceCurrency": "USD",
             "availability": "https://schema.org/InStock"
           },
@@ -176,9 +158,7 @@
           "duration": "PT1M25S",
           "embedUrl": "https://www.youtube-nocookie.com/embed/KRLS5tpmvJM",
           "contentUrl": "https://www.youtube.com/watch?v=KRLS5tpmvJM",
-          "publisher": {
-            "@id": "https://withframes.com/#organization"
-          }
+          "publisher": { "@id": "https://withframes.com/#organization" }
         }
       ]
     }

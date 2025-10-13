@@ -5,35 +5,35 @@
           "@type": "MobileApplication",
           "name": "Frames iOS",
           "operatingSystem": "iOS 18.0",
-          "applicationCategory": "MultimediaApplication",
-          "inLanguage": "zh-hant",
+          "applicationCategory": "PhotoApplication",
+          "publisher": { "@id": "https://withframes.com/#organization" },
           "description": "Frames 是為膠片攝影師設計的應用。記錄每張照片，追蹤相機設定，整理膠卷，在 iPhone 和 Mac 上保存 EXIF 元資料。",
           "image": "https://withframes.com/zh-hant/og-image.jpg",
           "url": "https://apps.apple.com/hk/app/frames-膠片攝影筆記/id6744057317?l=zh-Hant",
           "installUrl": "https://apps.apple.com/hk/app/frames-膠片攝影筆記/id6744057317?l=zh-Hant",
           "softwareVersion": "1.13.1",
           "screenshot": "https://withframes.com/zh-hant/og-image.jpg",
-          "isAccessibleForFree": true,
+          "isAccessibleForFree": false,
           "keywords": "film photography app, analog photography, EXIF metadata, film camera notes, photography workflow, film photography organization",
-          "maintainer": {
-            "@type": "Person",
-            "name": "Vincent Tantardini"
-          },
+          "maintainer": {"@id": "https://withframes.com/#vincent-tantardini"},
           "countriesSupported": [
-            "US", "GB", "FR", "DE", "IT", "ES", "CA", "AU",
-            "JP", "KR", "NL", "SE", "NO", "FI", "DK", "NZ"
+            "US","CA",
+            "AL","AT","BY","BE","BA","BG","HR","CY","CZ","DK","EE","FI","FR","DE","GR","HU","IS","IE","IT","XK","LV","LT","LU","MT","MD","ME","NL","MK","NO","PL","PT","RO","RU","RS","SK","SI","ES","SE","CH","TR","UA","GB",
+            "AF","DZ","AO","AM","AZ","BH","BJ","BW","BF","CM","CV","TD","CD","CG","CI","EG","SZ","GA","GM","GE","GH","GW","IN","IQ","IL","JO","KE","KW","LB","LR","LY","MG","MW","ML","MR","MU","MA","MZ","NA","NE","NG","OM","QA","RW","ST","SA","SN","SC","SL","ZA","TZ","TN","UG","AE","YE","ZM","ZW",
+            "AI","AG","AR","BS","BB","BZ","BM","BO","BR","VG","KY","CL","CO","CR","DM","DO","EC","SV","GD","GT","GY","HN","JM","MX","MS","NI","PA","PY","PE","KN","LC","VC","SR","TT","TC","UY","VE",
+            "AU","BT","BN","KH","CN","FJ","HK","ID","JP","KZ","KR","KG","LA","MO","MY","MV","FM","MN","MM","NR","NP","NZ","PK","PW","PG","PH","SG","SB","LK","TW","TJ","TH","TO","TM","UZ","VU","VN"
           ],
+          "inLanguage": "zh-hant",
           "mainEntity": {
             "@type": "WebPage",
-            "@id": "https://withframes.com/"
+            "@id": "https://withframes.com/zh-hant"
           },
           "author": {
-            "@type": "Person",
-            "name": "Vincent Tantardini"
+            "@id": "https://withframes.com/#vincent-tantardini"
           },
           "offers": {
             "@type": "Offer",
-            "price": "0",
+            "price": "1.99",
             "priceCurrency": "USD",
             "availability": "https://schema.org/InStock"
           },
@@ -107,32 +107,6 @@
                 "bestRating": "5",
                 "worstRating": "1"
             }
-            },
-            {
-            "@type": "Review",
-            "author": { "@type": "Person", "name": "Maria Garcia" },
-            "datePublished": "2025-07-12",
-            "name": "Review by Maria Garcia",
-            "reviewBody": "易於使用、可靠且價格合理的應用，可將拍攝資料（包括地理位置）傳輸到掃描底片的 EXIF 中。開發者傾聽回饋並不斷改進。非常棒！",
-            "reviewRating": {
-                "@type": "Rating",
-                "ratingValue": "5",
-                "bestRating": "5",
-                "worstRating": "1"
-            }
-            },
-            {
-            "@type": "Review",
-            "author": { "@type": "Person", "name": "BHenriquez" },
-            "datePublished": "2025-05-08",
-            "name": "Review by BHenriquez",
-            "reviewBody": "作為在家沖洗膠片的攝影師，我喜歡 Frames 讓我記錄每張照片而不用麻煩地使用筆記本。這是完美而實用的解決方案。升級到 Pro 後再也沒有回頭！",
-            "reviewRating": {
-                "@type": "Rating",
-                "ratingValue": "5",
-                "bestRating": "5",
-                "worstRating": "1"
-            }
             }
           ]
         },
@@ -140,8 +114,8 @@
           "@type": "SoftwareApplication",
           "name": "Frames macOS",
           "operatingSystem": "macOS 15.0",
-          "applicationCategory": "MultimediaApplication",
-          "inLanguage": "zh-hant",
+          "applicationCategory": "PhotoApplication",
+          "publisher": { "@id": "https://withframes.com/#organization" },
           "description": "Frames 是為膠片攝影師設計的應用。記錄每張照片，追蹤相機設定，整理膠卷，在 iPhone 和 Mac 上保存 EXIF 元資料。",
           "image": "https://withframes.com/zh-hant/og-image.jpg",
           "url": "https://apps.apple.com/hk/app/frames-底片中繼資料/id6744063354?mt=12&l=zh-Hant",
@@ -149,15 +123,23 @@
           "softwareVersion": "1.8.0",
           "mainEntity": {
             "@type": "WebPage",
-            "@id": "https://withframes.com/"
+            "@id": "https://withframes.com/zh-hant"
           },
+          "maintainer": {"@id": "https://withframes.com/#vincent-tantardini"},
+          "countriesSupported": [
+            "US","CA",
+            "AL","AT","BY","BE","BA","BG","HR","CY","CZ","DK","EE","FI","FR","DE","GR","HU","IS","IE","IT","XK","LV","LT","LU","MT","MD","ME","NL","MK","NO","PL","PT","RO","RU","RS","SK","SI","ES","SE","CH","TR","UA","GB",
+            "AF","DZ","AO","AM","AZ","BH","BJ","BW","BF","CM","CV","TD","CD","CG","CI","EG","SZ","GA","GM","GE","GH","GW","IN","IQ","IL","JO","KE","KW","LB","LR","LY","MG","MW","ML","MR","MU","MA","MZ","NA","NE","NG","OM","QA","RW","ST","SA","SN","SC","SL","ZA","TZ","TN","UG","AE","YE","ZM","ZW",
+            "AI","AG","AR","BS","BB","BZ","BM","BO","BR","VG","KY","CL","CO","CR","DM","DO","EC","SV","GD","GT","GY","HN","JM","MX","MS","NI","PA","PY","PE","KN","LC","VC","SR","TT","TC","UY","VE",
+            "AU","BT","BN","KH","CN","FJ","HK","ID","JP","KZ","KR","KG","LA","MO","MY","MV","FM","MN","MM","NR","NP","NZ","PK","PW","PG","PH","SG","SB","LK","TW","TJ","TH","TO","TM","UZ","VU","VN"
+          ],
+          "inLanguage": "zh-hant",
           "author": {
-            "@type": "Person",
-            "name": "Vincent Tantardini"
+            "@id": "https://withframes.com/#vincent-tantardini"
           },
           "offers": {
             "@type": "Offer",
-            "price": "0",
+            "price": "1.99",
             "priceCurrency": "USD",
             "availability": "https://schema.org/InStock"
           },
@@ -176,9 +158,7 @@
           "duration": "PT1M25S",
           "embedUrl": "https://www.youtube-nocookie.com/embed/KRLS5tpmvJM",
           "contentUrl": "https://www.youtube.com/watch?v=KRLS5tpmvJM",
-          "publisher": {
-            "@id": "https://withframes.com/#organization"
-          }
+          "publisher": { "@id": "https://withframes.com/#organization" }
         }
       ]
     }

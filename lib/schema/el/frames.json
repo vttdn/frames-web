@@ -5,35 +5,35 @@
           "@type": "MobileApplication",
           "name": "Frames iOS",
           "operatingSystem": "iOS 18.0",
-          "applicationCategory": "MultimediaApplication",
-          "inLanguage": "el",
+          "applicationCategory": "PhotoApplication",
+          "publisher": { "@id": "https://withframes.com/#organization" },
           "description": "Το Frames είναι εφαρμογή φωτογραφίας φιλμ. Καταγράψτε κάθε λήψη, παρακολουθήστε ρυθμίσεις, οργανώστε φιλμ και αποθηκεύστε μεταδεδομένα EXIF στο iPhone & Mac.",
           "image": "https://withframes.com/el/og-image.jpg",
           "url": "https://apps.apple.com/gr/app/frames-σημειώσεις-φιλμ/id6744057317?l=el",
           "installUrl": "https://apps.apple.com/gr/app/frames-σημειώσεις-φιλμ/id6744057317?l=el",
           "softwareVersion": "1.13.1",
           "screenshot": "https://withframes.com/el/og-image.jpg",
-          "isAccessibleForFree": true,
+          "isAccessibleForFree": false,
           "keywords": "film photography app, analog photography, EXIF metadata, film camera notes, photography workflow, film photography organization",
-          "maintainer": {
-            "@type": "Person",
-            "name": "Vincent Tantardini"
-          },
+          "maintainer": {"@id": "https://withframes.com/#vincent-tantardini"},
           "countriesSupported": [
-            "US", "GB", "FR", "DE", "IT", "ES", "CA", "AU",
-            "JP", "KR", "NL", "SE", "NO", "FI", "DK", "NZ"
+            "US","CA",
+            "AL","AT","BY","BE","BA","BG","HR","CY","CZ","DK","EE","FI","FR","DE","GR","HU","IS","IE","IT","XK","LV","LT","LU","MT","MD","ME","NL","MK","NO","PL","PT","RO","RU","RS","SK","SI","ES","SE","CH","TR","UA","GB",
+            "AF","DZ","AO","AM","AZ","BH","BJ","BW","BF","CM","CV","TD","CD","CG","CI","EG","SZ","GA","GM","GE","GH","GW","IN","IQ","IL","JO","KE","KW","LB","LR","LY","MG","MW","ML","MR","MU","MA","MZ","NA","NE","NG","OM","QA","RW","ST","SA","SN","SC","SL","ZA","TZ","TN","UG","AE","YE","ZM","ZW",
+            "AI","AG","AR","BS","BB","BZ","BM","BO","BR","VG","KY","CL","CO","CR","DM","DO","EC","SV","GD","GT","GY","HN","JM","MX","MS","NI","PA","PY","PE","KN","LC","VC","SR","TT","TC","UY","VE",
+            "AU","BT","BN","KH","CN","FJ","HK","ID","JP","KZ","KR","KG","LA","MO","MY","MV","FM","MN","MM","NR","NP","NZ","PK","PW","PG","PH","SG","SB","LK","TW","TJ","TH","TO","TM","UZ","VU","VN"
           ],
+          "inLanguage": "el",
           "mainEntity": {
             "@type": "WebPage",
-            "@id": "https://withframes.com/"
+            "@id": "https://withframes.com/el"
           },
           "author": {
-            "@type": "Person",
-            "name": "Vincent Tantardini"
+            "@id": "https://withframes.com/#vincent-tantardini"
           },
           "offers": {
             "@type": "Offer",
-            "price": "0",
+            "price": "1.99",
             "priceCurrency": "USD",
             "availability": "https://schema.org/InStock"
           },
@@ -107,32 +107,6 @@
                 "bestRating": "5",
                 "worstRating": "1"
             }
-            },
-            {
-            "@type": "Review",
-            "author": { "@type": "Person", "name": "Maria Garcia" },
-            "datePublished": "2025-07-12",
-            "name": "Review by Maria Garcia",
-            "reviewBody": "Εύκολη στη χρήση, αξιόπιστη εφαρμογή που μεταφέρει δεδομένα λήψης, συμπεριλαμβανομένης της γεωεντόπισης, στα EXIF σαρωμένων αρνητικών. Ο developer ακούει τα σχόλια και συνεχώς βελτιώνει την εφαρμογή. Εξαιρετική!",
-            "reviewRating": {
-                "@type": "Rating",
-                "ratingValue": "5",
-                "bestRating": "5",
-                "worstRating": "1"
-            }
-            },
-            {
-            "@type": "Review",
-            "author": { "@type": "Person", "name": "BHenriquez" },
-            "datePublished": "2025-05-08",
-            "name": "Review by BHenriquez",
-            "reviewBody": "Ως φωτογράφος φιλμ που εμφανίζει στο σπίτι, λατρεύω πώς το Frames μου επιτρέπει να καταγράφω κάθε λήψη χωρίς την ταλαιπωρία των σημειωματάριων. Είναι η τέλεια και πρακτική λύση. Πήγα Pro και δεν το μετάνιωσα!",
-            "reviewRating": {
-                "@type": "Rating",
-                "ratingValue": "5",
-                "bestRating": "5",
-                "worstRating": "1"
-            }
             }
           ]
         },
@@ -140,8 +114,8 @@
           "@type": "SoftwareApplication",
           "name": "Frames macOS",
           "operatingSystem": "macOS 15.0",
-          "applicationCategory": "MultimediaApplication",
-          "inLanguage": "el",
+          "applicationCategory": "PhotoApplication",
+          "publisher": { "@id": "https://withframes.com/#organization" },
           "description": "Το Frames είναι εφαρμογή φωτογραφίας φιλμ. Καταγράψτε κάθε λήψη, παρακολουθήστε ρυθμίσεις, οργανώστε φιλμ και αποθηκεύστε μεταδεδομένα EXIF στο iPhone & Mac.",
           "image": "https://withframes.com/el/og-image.jpg",
           "url": "https://apps.apple.com/gr/app/frames-μεταδεδομένα-φιλμ/id6744063354?l=el",
@@ -149,15 +123,23 @@
           "softwareVersion": "1.8.0",
           "mainEntity": {
             "@type": "WebPage",
-            "@id": "https://withframes.com/"
+            "@id": "https://withframes.com/el"
           },
+          "maintainer": {"@id": "https://withframes.com/#vincent-tantardini"},
+          "countriesSupported": [
+            "US","CA",
+            "AL","AT","BY","BE","BA","BG","HR","CY","CZ","DK","EE","FI","FR","DE","GR","HU","IS","IE","IT","XK","LV","LT","LU","MT","MD","ME","NL","MK","NO","PL","PT","RO","RU","RS","SK","SI","ES","SE","CH","TR","UA","GB",
+            "AF","DZ","AO","AM","AZ","BH","BJ","BW","BF","CM","CV","TD","CD","CG","CI","EG","SZ","GA","GM","GE","GH","GW","IN","IQ","IL","JO","KE","KW","LB","LR","LY","MG","MW","ML","MR","MU","MA","MZ","NA","NE","NG","OM","QA","RW","ST","SA","SN","SC","SL","ZA","TZ","TN","UG","AE","YE","ZM","ZW",
+            "AI","AG","AR","BS","BB","BZ","BM","BO","BR","VG","KY","CL","CO","CR","DM","DO","EC","SV","GD","GT","GY","HN","JM","MX","MS","NI","PA","PY","PE","KN","LC","VC","SR","TT","TC","UY","VE",
+            "AU","BT","BN","KH","CN","FJ","HK","ID","JP","KZ","KR","KG","LA","MO","MY","MV","FM","MN","MM","NR","NP","NZ","PK","PW","PG","PH","SG","SB","LK","TW","TJ","TH","TO","TM","UZ","VU","VN"
+          ],
+          "inLanguage": "el",
           "author": {
-            "@type": "Person",
-            "name": "Vincent Tantardini"
+            "@id": "https://withframes.com/#vincent-tantardini"
           },
           "offers": {
             "@type": "Offer",
-            "price": "0",
+            "price": "1.99",
             "priceCurrency": "USD",
             "availability": "https://schema.org/InStock"
           },
@@ -176,9 +158,7 @@
           "duration": "PT1M25S",
           "embedUrl": "https://www.youtube-nocookie.com/embed/KRLS5tpmvJM",
           "contentUrl": "https://www.youtube.com/watch?v=KRLS5tpmvJM",
-          "publisher": {
-            "@id": "https://withframes.com/#organization"
-          }
+          "publisher": { "@id": "https://withframes.com/#organization" }
         }
       ]
     }

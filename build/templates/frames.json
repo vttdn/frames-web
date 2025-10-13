@@ -5,42 +5,42 @@
           "@type": "MobileApplication",
           "name": "{{ ios_appname }}",
           "operatingSystem": "iOS 18.0",
-          "applicationCategory": "MultimediaApplication",
-          "inLanguage": "{{ lang }}",
+          "applicationCategory": "PhotoApplication",
+          "publisher": { "@id": "https://withframes.com/#organization" },
           "description": "{{ seo_meta_description }}",
           "image": "{{ canonical_url }}/og-image.jpg",
           "url": "{{ appstore_url }}",
           "installUrl": "{{ appstore_url }}",
           "softwareVersion": "{{ app_version_ios }}",
           "screenshot": "{{ canonical_url }}/og-image.jpg",
-          "isAccessibleForFree": true,
+          "isAccessibleForFree": false,
           "keywords": "{{ seo_meta_keywords }}",
-          "maintainer": {
-            "@type": "Person",
-            "name": "Vincent Tantardini"
-          },
+          "maintainer": {"@id": "https://withframes.com/#vincent-tantardini"},
           "countriesSupported": [
-            "US", "GB", "FR", "DE", "IT", "ES", "CA", "AU",
-            "JP", "KR", "NL", "SE", "NO", "FI", "DK", "NZ"
+            "US","CA",
+            "AL","AT","BY","BE","BA","BG","HR","CY","CZ","DK","EE","FI","FR","DE","GR","HU","IS","IE","IT","XK","LV","LT","LU","MT","MD","ME","NL","MK","NO","PL","PT","RO","RU","RS","SK","SI","ES","SE","CH","TR","UA","GB",
+            "AF","DZ","AO","AM","AZ","BH","BJ","BW","BF","CM","CV","TD","CD","CG","CI","EG","SZ","GA","GM","GE","GH","GW","IN","IQ","IL","JO","KE","KW","LB","LR","LY","MG","MW","ML","MR","MU","MA","MZ","NA","NE","NG","OM","QA","RW","ST","SA","SN","SC","SL","ZA","TZ","TN","UG","AE","YE","ZM","ZW",
+            "AI","AG","AR","BS","BB","BZ","BM","BO","BR","VG","KY","CL","CO","CR","DM","DO","EC","SV","GD","GT","GY","HN","JM","MX","MS","NI","PA","PY","PE","KN","LC","VC","SR","TT","TC","UY","VE",
+            "AU","BT","BN","KH","CN","FJ","HK","ID","JP","KZ","KR","KG","LA","MO","MY","MV","FM","MN","MM","NR","NP","NZ","PK","PW","PG","PH","SG","SB","LK","TW","TJ","TH","TO","TM","UZ","VU","VN"
           ],
+          "inLanguage": "{{ lang }}",
           "mainEntity": {
             "@type": "WebPage",
-            "@id": "https://withframes.com/"
+            "@id": "{{ canonical_url }}"
           },
           "author": {
-            "@type": "Person",
-            "name": "Vincent Tantardini"
+            "@id": "https://withframes.com/#vincent-tantardini"
           },
           "offers": {
             "@type": "Offer",
-            "price": "0",
+            "price": "1.99",
             "priceCurrency": "USD",
             "availability": "https://schema.org/InStock"
           },
           "aggregateRating": {
             "@type": "AggregateRating",
-            "ratingValue": "4.9",
-            "reviewCount": "12"
+            "ratingValue": "5",
+            "reviewCount": "5"
           },
           "review": [
             {
@@ -107,32 +107,6 @@
                 "bestRating": "5",
                 "worstRating": "1"
             }
-            },
-            {
-            "@type": "Review",
-            "author": { "@type": "Person", "name": "{{ review6_author }}" },
-            "datePublished": "{{ review6_date }}",
-            "name": "{{ review6_title }}",
-            "reviewBody": "{{ review6_descr }}",
-            "reviewRating": {
-                "@type": "Rating",
-                "ratingValue": "{{ review6_rating }}",
-                "bestRating": "5",
-                "worstRating": "1"
-            }
-            },
-            {
-            "@type": "Review",
-            "author": { "@type": "Person", "name": "{{ review7_author }}" },
-            "datePublished": "{{ review7_date }}",
-            "name": "{{ review7_title }}",
-            "reviewBody": "{{ review7_descr }}",
-            "reviewRating": {
-                "@type": "Rating",
-                "ratingValue": "{{ review7_rating }}",
-                "bestRating": "5",
-                "worstRating": "1"
-            }
             }
           ]
         },
@@ -140,8 +114,8 @@
           "@type": "SoftwareApplication",
           "name": "{{ mac_appname }}",
           "operatingSystem": "macOS 15.0",
-          "applicationCategory": "MultimediaApplication",
-          "inLanguage": "{{ lang }}",
+          "applicationCategory": "PhotoApplication",
+          "publisher": { "@id": "https://withframes.com/#organization" },
           "description": "{{ seo_meta_description }}",
           "image": "{{ canonical_url }}/og-image.jpg",
           "url": "{{ macappstore_url }}",
@@ -149,15 +123,23 @@
           "softwareVersion": "{{ app_version_macos }}",
           "mainEntity": {
             "@type": "WebPage",
-            "@id": "https://withframes.com/"
+            "@id": "{{ canonical_url }}"
           },
+          "maintainer": {"@id": "https://withframes.com/#vincent-tantardini"},
+          "countriesSupported": [
+            "US","CA",
+            "AL","AT","BY","BE","BA","BG","HR","CY","CZ","DK","EE","FI","FR","DE","GR","HU","IS","IE","IT","XK","LV","LT","LU","MT","MD","ME","NL","MK","NO","PL","PT","RO","RU","RS","SK","SI","ES","SE","CH","TR","UA","GB",
+            "AF","DZ","AO","AM","AZ","BH","BJ","BW","BF","CM","CV","TD","CD","CG","CI","EG","SZ","GA","GM","GE","GH","GW","IN","IQ","IL","JO","KE","KW","LB","LR","LY","MG","MW","ML","MR","MU","MA","MZ","NA","NE","NG","OM","QA","RW","ST","SA","SN","SC","SL","ZA","TZ","TN","UG","AE","YE","ZM","ZW",
+            "AI","AG","AR","BS","BB","BZ","BM","BO","BR","VG","KY","CL","CO","CR","DM","DO","EC","SV","GD","GT","GY","HN","JM","MX","MS","NI","PA","PY","PE","KN","LC","VC","SR","TT","TC","UY","VE",
+            "AU","BT","BN","KH","CN","FJ","HK","ID","JP","KZ","KR","KG","LA","MO","MY","MV","FM","MN","MM","NR","NP","NZ","PK","PW","PG","PH","SG","SB","LK","TW","TJ","TH","TO","TM","UZ","VU","VN"
+          ],
+          "inLanguage": "{{ lang }}",
           "author": {
-            "@type": "Person",
-            "name": "Vincent Tantardini"
+            "@id": "https://withframes.com/#vincent-tantardini"
           },
           "offers": {
             "@type": "Offer",
-            "price": "0",
+            "price": "1.99",
             "priceCurrency": "USD",
             "availability": "https://schema.org/InStock"
           },
@@ -176,9 +158,7 @@
           "duration": "PT1M25S",
           "embedUrl": "{{ global_urls.video.embed }}",
           "contentUrl": "{{ global_urls.video.watch }}",
-          "publisher": {
-            "@id": "https://withframes.com/#organization"
-          }
+          "publisher": { "@id": "https://withframes.com/#organization" }
         }
       ]
     }
