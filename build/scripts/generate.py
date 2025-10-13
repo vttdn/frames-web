@@ -536,11 +536,8 @@ def main():
                 lstrip_blocks=True
             )
             org_template = org_env.get_template('organization.json')
-            company_template = org_env.get_template('softwarecompany.json')
             organization_json = org_template.render(organization_context)
-            software_json = company_template.render(organization_context)
             save_schema(organization_json, 'organization.json', lang_code)
-            save_schema(software_json, 'softwarecompany.json', lang_code)
 
             # WebPage schema for homepage
             homepage_webpage_context = {

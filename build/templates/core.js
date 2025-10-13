@@ -11,7 +11,6 @@ document.addEventListener('DOMContentLoaded', function () {
     '/lib/schema/{{ lang }}/frames.json',
     '/lib/schema/{{ lang }}/faq.json',
     '/lib/schema/{{ lang }}/organization.json',
-    '/lib/schema/{{ lang }}/softwarecompany.json',
     '/lib/schema/{{ lang }}/webpage-homepage.json'
   ];
 
