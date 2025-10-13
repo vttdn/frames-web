@@ -9,10 +9,7 @@
   "datePublished": "{{ entry.release_date }}",
   "dateModified": "{{ build_date }}",
   "inLanguage": "{{ lang }}",
-  "author": {
-    "@type": "Person",
-    "name": "Vincent Tantardini"
-  },
+  "author": {"@id": "https://withframes.com/#vincent-tantardini"},
   "publisher": {
     "@id": "https://withframes.com/#organization"
   }{% if first_image %},
