@@ -1,16 +1,41 @@
 {
   "@context": "https://schema.org",
-  "@type": "Organization",
   "@id": "https://withframes.com/#organization",
-  "name": "Frames",
-  "url": "https://withframes.com/",
-  "logo": "https://withframes.com/apple-touch-icon.png",
+  "@type": "Organization",
   "contactPoint": {
     "@type": "ContactPoint",
-    "email": "bonjour@withframes.com",
-    "contactType": "Customer Support",
     "areaServed": "Worldwide",
-    "availableLanguage": ["English", "French"]
+    "availableLanguage": [
+      "English",
+      "French"
+    ],
+    "contactType": "Customer Support",
+    "email": "bonjour@withframes.com",
+    "telephone": "+33679323020"
+  },
+  "description": "Framesは、フィルム写真家がアナログ写真プロセスを記録、整理、追跡するのを支援するiOSおよびmacOSアプリです。",
+  "duns": "264295763",
+  "founder": {
+    "@type": "Person",
+    "@id": "https://withframes.com/#vincent-tantardini",
+    "name": "Vincent Tantardini"
+  },
+  "foundingDate": "2025-03-04",
+  "foundingLocation": {
+    "@type": "Place",
+    "name": "Cotignac, France",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "FR",
+      "addressLocality": "Cotignac"
+    }
+  },
+  "logo": "https://withframes.com/apple-touch-icon.png",
+  "name": "Frames",
+  "numberOfEmployees": {
+    "@type": "QuantitativeValue",
+    "unitText": "employees",
+    "value": 1
   },
   "sameAs": [
     "https://twitter.com/withframes",
@@ -25,5 +50,7 @@
     "https://g.co/kgs/5oEvXT5",
     "https://apps.apple.com/jp/app/frames-フィルム写真ノート/id6744057317",
     "https://apps.apple.com/jp/app/frames-フィルム写真メタデータ/id6744063354"
-  ]
+  ],
+  "taxID": "FR 752589168",
+  "url": "https://withframes.com/"
 }

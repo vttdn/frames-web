@@ -527,7 +527,7 @@ def main():
                 'global_urls': global_config['urls'],
                 'appstore_url': locale_data['urls']['appstore_ios'],
                 'macappstore_url': locale_data['urls']['appstore_macos'],
-                'seo_meta_description': locale_data['meta']['description']
+                'company_description': locale_data['company']['description']
             }
             org_env = Environment(
                 loader=FileSystemLoader(TEMPLATES_DIR),

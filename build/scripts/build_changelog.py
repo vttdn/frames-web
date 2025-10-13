@@ -316,7 +316,7 @@ def generate_changelog_index(lang_code, global_config, locale_data, entries, pag
         'global_urls': global_config['urls'],
         'appstore_url': locale_data['urls']['appstore_ios'],
         'macappstore_url': locale_data['urls']['appstore_macos'],
-        'seo_meta_description': locale_data['meta']['description']
+        'company_description': locale_data['company']['description']
     }
     organization_schema = generate_schema('organization.json', org_context)
     save_schema(organization_schema, 'organization.json', lang_code, 'changelog-index', page_number)
@@ -408,7 +408,7 @@ def generate_changelog_entry(lang_code, global_config, locale_data, entry, prev_
         'global_urls': global_config['urls'],
         'appstore_url': locale_data['urls']['appstore_ios'],
         'macappstore_url': locale_data['urls']['appstore_macos'],
-        'seo_meta_description': locale_data['meta']['description']
+        'company_description': locale_data['company']['description']
     }
     organization_schema = generate_schema('organization.json', org_context)
     save_schema(organization_schema, 'organization.json', lang_code, 'changelog-entry', url_slug=entry['url_slug'])
