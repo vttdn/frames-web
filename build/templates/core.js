@@ -204,13 +204,14 @@ document.addEventListener('DOMContentLoaded', () => {
   //
   // YOUTUBE Modal
   //
+  //
+
   const playBtn = document.getElementById('youtube-video-toggle');
-if (playBtn) {
-  playBtn.dataset.overlayTrigger = 'youtube';
-  playBtn.addEventListener('click', () => {
+  if (playBtn) {
     const videoId = playBtn.dataset.videoId;
     if (!videoId) return;
 
+    // Build the iframe HTML
     const iframeHTML = `
       <iframe src="https://www.youtube-nocookie.com/embed/${videoId}?autoplay=1&mute=1&rel=0&modestbranding=1"
               title="YouTube video player"
@@ -218,9 +219,10 @@ if (playBtn) {
               referrerpolicy="no-referrer-when-downgrade"
               style="position:absolute;inset:0;width:100%;height:100%;border:0;"></iframe>`;
 
+    // Build modal content
     const contentHTML = `
       <div class="modal-header flex flex-justify-between flex-center">
-            <h3>{{ locale_data.actions.watch }}</h3>
+        <h3>{{ locale_data.actions.watch }}</h3>
         <button class="overlay-button-close flex flex-center flex-justify-center"
                 aria-label="{{ locale_data.actions.close }}">
           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
@@ -235,29 +237,37 @@ if (playBtn) {
         ${iframeHTML}
       </div>`;
 
-    // Open overlay
-    openOverlay({
-      type: 'youtube',
-      titleText: '{{ locale_data.hero.play_button_aria_label }}',
-      contentHTML
-    });
+    // Pre-inject modal content hidden (so iframe exists for SEO)
+    const preInjectedModal = document.createElement('div');
+    preInjectedModal.id = 'youtube-modal-preinject';
+    preInjectedModal.style.display = 'none'; // keep hidden
+    preInjectedModal.innerHTML = contentHTML;
+    modalContainer.appendChild(preInjectedModal);
 
-    // Add 'large' class to modal container for YouTube
-    modalContainer.classList.add('large');
-
-    // Close button
-    modalContainer.querySelector('.overlay-button-close')
-      .addEventListener('click', () => {
-        closeOverlay();
-
-        // Remove 'large' class after 400ms
-        setTimeout(() => {
-          modalContainer.classList.remove('large');
-        }, 350);
+    // Attach the click handler to open the modal
+    playBtn.dataset.overlayTrigger = 'youtube';
+    playBtn.addEventListener('click', () => {
+      // Open overlay using the pre-injected content
+      openOverlay({
+        type: 'youtube',
+        titleText: '{{ locale_data.hero.play_button_aria_label }}',
+        contentHTML // can reuse the same contentHTML
       });
-  });
-}
 
+      modalContainer.classList.add('large');
+
+      // Close button
+      const closeBtn = modalContainer.querySelector('.overlay-button-close');
+      if (closeBtn) {
+        closeBtn.addEventListener('click', () => {
+          closeOverlay();
+          setTimeout(() => {
+            modalContainer.classList.remove('large');
+          }, 350);
+        }, { once: true }); // ensures listener runs only once
+      }
+    });
+  }
 });
 
 
