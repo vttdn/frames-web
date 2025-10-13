@@ -73,6 +73,7 @@ cite {
 }
 
 h1,
+.h1,
 h2,
 h3,
 h4,
@@ -86,12 +87,14 @@ h6 {
 
 /* Titles */
 h1,
+.h1,
 h2 {
     font-size: var(--font-size-xl);
     line-height: var(--line-height-xl);
 }
 
-h1 {
+h1,
+.h1 {
     @include mobile {
         br {
             display: none;
