@@ -6,6 +6,7 @@
     <title>{% if entry.meta_title %}{{ entry.meta_title }}{% else %}{{ entry.title }} · Frames{% endif %}</title>
     <meta name="description" content="{% if entry.meta_description %}{{ entry.meta_description }}{% else %}{{ entry.summary }}{% endif %}" />
     <link rel="canonical" href="https://withframes.com{{ lang_config.path }}{{ locale_data.urls.changelog }}{{ entry.url_slug }}/" />
+    <link rel="alternate" hreflang="x-default" href="https://withframes.com/changelog/{{ entry.url_slug }}/">
     {% for link in hreflang_links %}
     <link rel="alternate" hreflang="{{ link.hreflang }}" href="{{ link.href }}">
     {% endfor %}

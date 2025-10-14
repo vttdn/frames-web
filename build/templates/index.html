@@ -7,6 +7,7 @@
     <title>{{ locale_data.meta.title }}</title>
     <meta name="description" content="{{ locale_data.meta.description }}">
     <link rel="canonical" href="{{ locale_data.meta.canonical_url }}">
+    <link rel="alternate" hreflang="x-default" href="https://withframes.com/">
     {% for link in hreflang_links %}
     <link rel="alternate" hreflang="{{ link.hreflang }}" href="{{ link.href }}">
     {% endfor %}

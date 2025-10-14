@@ -6,6 +6,7 @@
     <title>{{ locale_data.privacy.meta.title }}</title>
     <meta name="description" content="{{ locale_data.privacy.meta.description }}" />
     <link rel="canonical" href="{{ locale_data.privacy.meta.canonical_url }}" />
+    <link rel="alternate" hreflang="x-default" href="https://withframes.com/privacy/" />
     {% for link in hreflang_links %}
     <link rel="alternate" hreflang="{{ link.hreflang }}" href="{{ link.href }}">
     {% endfor %}
