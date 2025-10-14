@@ -144,7 +144,7 @@
           <div class="changelog-details flex flex-col">
             {% if entry.improvements %}
             <details>
-                    <summary class="flex flex-justify-between">
+                    <summary class="flex flex-justify-between flex-center">
                         <h3>{{ locale_data.changelog.labels.improvements }} ({{ entry.improvements|length }})</h3>
                         <img src="/lib/img/icn/chevron-down.svg" alt="" loading="lazy" aria-hidden="true">
                     </summary>
@@ -162,7 +162,7 @@
 
             {% if entry.fixes %}
             <details>
-                    <summary class="flex flex-justify-between">
+                    <summary class="flex flex-justify-between flex-center">
                         <h3>{{ locale_data.changelog.labels.fixes }} ({{ entry.fixes|length }})</h3>
                         <img src="/lib/img/icn/chevron-down.svg" alt="" loading="lazy" aria-hidden="true">
                     </summary>
@@ -184,7 +184,7 @@
 
             {% if entry.patches %}
             <details>
-                    <summary class="flex flex-justify-between">
+                    <summary class="flex flex-justify-between flex-center">
                         <h3>{{ locale_data.changelog.labels.patches }} ({{ entry.patches|length }})</h3>
                         <img src="/lib/img/icn/chevron-down.svg" alt="" loading="lazy" aria-hidden="true">
                     </summary>
