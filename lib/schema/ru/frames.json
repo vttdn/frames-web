@@ -40,8 +40,7 @@
               "priceSpecification": {
                 "@type": "PriceSpecification",
                 "price": "199",
-                "priceCurrency": "RUB",
-                "billingDuration": "P1M"
+                "priceCurrency": "RUB"
               }
             },
             {
@@ -53,8 +52,7 @@
               "priceSpecification": {
                 "@type": "PriceSpecification",
                 "price": "1490",
-                "priceCurrency": "RUB",
-                "billingDuration": "P1Y"
+                "priceCurrency": "RUB"
               }
             }
           ],
@@ -170,12 +168,32 @@
           "author": {
             "@id": "https://withframes.com/#vincent-tantardini"
           },
-          "offers": {
-            "@type": "Offer",
-            "price": "1.99",
-            "priceCurrency": "USD",
-            "availability": "https://schema.org/InStock"
-          },
+          "offers": [
+            {
+              "@type": "Offer",
+              "name": "Ежемесячная подписка",
+              "price": "199",
+              "priceCurrency": "RUB",
+              "availability": "https://schema.org/InStock",
+              "priceSpecification": {
+                "@type": "PriceSpecification",
+                "price": "199",
+                "priceCurrency": "RUB"
+              }
+            },
+            {
+              "@type": "Offer",
+              "name": "Годовая подписка",
+              "price": "1490",
+              "priceCurrency": "RUB",
+              "availability": "https://schema.org/InStock",
+              "priceSpecification": {
+                "@type": "PriceSpecification",
+                "price": "1490",
+                "priceCurrency": "RUB"
+              }
+            }
+          ],
           "review": [
             {
             "@type": "Review",

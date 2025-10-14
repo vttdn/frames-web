@@ -40,8 +40,7 @@
               "priceSpecification": {
                 "@type": "PriceSpecification",
                 "price": "49000",
-                "priceCurrency": "VND",
-                "billingDuration": "P1M"
+                "priceCurrency": "VND"
               }
             },
             {
@@ -53,8 +52,7 @@
               "priceSpecification": {
                 "@type": "PriceSpecification",
                 "price": "499000",
-                "priceCurrency": "VND",
-                "billingDuration": "P1Y"
+                "priceCurrency": "VND"
               }
             }
           ],
@@ -170,12 +168,32 @@
           "author": {
             "@id": "https://withframes.com/#vincent-tantardini"
           },
-          "offers": {
-            "@type": "Offer",
-            "price": "1.99",
-            "priceCurrency": "USD",
-            "availability": "https://schema.org/InStock"
-          },
+          "offers": [
+            {
+              "@type": "Offer",
+              "name": "Đăng ký hàng tháng",
+              "price": "49000",
+              "priceCurrency": "VND",
+              "availability": "https://schema.org/InStock",
+              "priceSpecification": {
+                "@type": "PriceSpecification",
+                "price": "49000",
+                "priceCurrency": "VND"
+              }
+            },
+            {
+              "@type": "Offer",
+              "name": "Đăng ký hàng năm",
+              "price": "499000",
+              "priceCurrency": "VND",
+              "availability": "https://schema.org/InStock",
+              "priceSpecification": {
+                "@type": "PriceSpecification",
+                "price": "499000",
+                "priceCurrency": "VND"
+              }
+            }
+          ],
           "review": [
             {
             "@type": "Review",

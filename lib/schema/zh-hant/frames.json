@@ -40,8 +40,7 @@
               "priceSpecification": {
                 "@type": "PriceSpecification",
                 "price": "18",
-                "priceCurrency": "HKD",
-                "billingDuration": "P1M"
+                "priceCurrency": "HKD"
               }
             },
             {
@@ -53,8 +52,7 @@
               "priceSpecification": {
                 "@type": "PriceSpecification",
                 "price": "148",
-                "priceCurrency": "HKD",
-                "billingDuration": "P1Y"
+                "priceCurrency": "HKD"
               }
             }
           ],
@@ -170,12 +168,32 @@
           "author": {
             "@id": "https://withframes.com/#vincent-tantardini"
           },
-          "offers": {
-            "@type": "Offer",
-            "price": "1.99",
-            "priceCurrency": "USD",
-            "availability": "https://schema.org/InStock"
-          },
+          "offers": [
+            {
+              "@type": "Offer",
+              "name": "每月訂閱",
+              "price": "18",
+              "priceCurrency": "HKD",
+              "availability": "https://schema.org/InStock",
+              "priceSpecification": {
+                "@type": "PriceSpecification",
+                "price": "18",
+                "priceCurrency": "HKD"
+              }
+            },
+            {
+              "@type": "Offer",
+              "name": "每年訂閱",
+              "price": "148",
+              "priceCurrency": "HKD",
+              "availability": "https://schema.org/InStock",
+              "priceSpecification": {
+                "@type": "PriceSpecification",
+                "price": "148",
+                "priceCurrency": "HKD"
+              }
+            }
+          ],
           "review": [
             {
             "@type": "Review",

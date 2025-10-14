@@ -40,8 +40,7 @@
               "priceSpecification": {
                 "@type": "PriceSpecification",
                 "price": "3300",
-                "priceCurrency": "KRW",
-                "billingDuration": "P1M"
+                "priceCurrency": "KRW"
               }
             },
             {
@@ -53,8 +52,7 @@
               "priceSpecification": {
                 "@type": "PriceSpecification",
                 "price": "25000",
-                "priceCurrency": "KRW",
-                "billingDuration": "P1Y"
+                "priceCurrency": "KRW"
               }
             }
           ],
@@ -170,12 +168,32 @@
           "author": {
             "@id": "https://withframes.com/#vincent-tantardini"
           },
-          "offers": {
-            "@type": "Offer",
-            "price": "1.99",
-            "priceCurrency": "USD",
-            "availability": "https://schema.org/InStock"
-          },
+          "offers": [
+            {
+              "@type": "Offer",
+              "name": "월간 구독",
+              "price": "3300",
+              "priceCurrency": "KRW",
+              "availability": "https://schema.org/InStock",
+              "priceSpecification": {
+                "@type": "PriceSpecification",
+                "price": "3300",
+                "priceCurrency": "KRW"
+              }
+            },
+            {
+              "@type": "Offer",
+              "name": "연간 구독",
+              "price": "25000",
+              "priceCurrency": "KRW",
+              "availability": "https://schema.org/InStock",
+              "priceSpecification": {
+                "@type": "PriceSpecification",
+                "price": "25000",
+                "priceCurrency": "KRW"
+              }
+            }
+          ],
           "review": [
             {
             "@type": "Review",

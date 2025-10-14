@@ -40,8 +40,7 @@
               "priceSpecification": {
                 "@type": "PriceSpecification",
                 "price": "1.99",
-                "priceCurrency": "EUR",
-                "billingDuration": "P1M"
+                "priceCurrency": "EUR"
               }
             },
             {
@@ -53,8 +52,7 @@
               "priceSpecification": {
                 "@type": "PriceSpecification",
                 "price": "19.99",
-                "priceCurrency": "EUR",
-                "billingDuration": "P1Y"
+                "priceCurrency": "EUR"
               }
             }
           ],
@@ -170,12 +168,32 @@
           "author": {
             "@id": "https://withframes.com/#vincent-tantardini"
           },
-          "offers": {
-            "@type": "Offer",
-            "price": "1.99",
-            "priceCurrency": "USD",
-            "availability": "https://schema.org/InStock"
-          },
+          "offers": [
+            {
+              "@type": "Offer",
+              "name": "Monatliches Abonnement",
+              "price": "1.99",
+              "priceCurrency": "EUR",
+              "availability": "https://schema.org/InStock",
+              "priceSpecification": {
+                "@type": "PriceSpecification",
+                "price": "1.99",
+                "priceCurrency": "EUR"
+              }
+            },
+            {
+              "@type": "Offer",
+              "name": "Jährliches Abonnement",
+              "price": "19.99",
+              "priceCurrency": "EUR",
+              "availability": "https://schema.org/InStock",
+              "priceSpecification": {
+                "@type": "PriceSpecification",
+                "price": "19.99",
+                "priceCurrency": "EUR"
+              }
+            }
+          ],
           "review": [
             {
             "@type": "Review",

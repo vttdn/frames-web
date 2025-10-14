@@ -40,8 +40,7 @@
               "priceSpecification": {
                 "@type": "PriceSpecification",
                 "price": "12.90",
-                "priceCurrency": "BRL",
-                "billingDuration": "P1M"
+                "priceCurrency": "BRL"
               }
             },
             {
@@ -53,8 +52,7 @@
               "priceSpecification": {
                 "@type": "PriceSpecification",
                 "price": "119.90",
-                "priceCurrency": "BRL",
-                "billingDuration": "P1Y"
+                "priceCurrency": "BRL"
               }
             }
           ],
@@ -170,12 +168,32 @@
           "author": {
             "@id": "https://withframes.com/#vincent-tantardini"
           },
-          "offers": {
-            "@type": "Offer",
-            "price": "1.99",
-            "priceCurrency": "USD",
-            "availability": "https://schema.org/InStock"
-          },
+          "offers": [
+            {
+              "@type": "Offer",
+              "name": "Assinatura mensal",
+              "price": "12.90",
+              "priceCurrency": "BRL",
+              "availability": "https://schema.org/InStock",
+              "priceSpecification": {
+                "@type": "PriceSpecification",
+                "price": "12.90",
+                "priceCurrency": "BRL"
+              }
+            },
+            {
+              "@type": "Offer",
+              "name": "Assinatura anual",
+              "price": "119.90",
+              "priceCurrency": "BRL",
+              "availability": "https://schema.org/InStock",
+              "priceSpecification": {
+                "@type": "PriceSpecification",
+                "price": "119.90",
+                "priceCurrency": "BRL"
+              }
+            }
+          ],
           "review": [
             {
             "@type": "Review",

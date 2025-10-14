@@ -40,8 +40,7 @@
               "priceSpecification": {
                 "@type": "PriceSpecification",
                 "price": "29000",
-                "priceCurrency": "IDR",
-                "billingDuration": "P1M"
+                "priceCurrency": "IDR"
               }
             },
             {
@@ -53,8 +52,7 @@
               "priceSpecification": {
                 "@type": "PriceSpecification",
                 "price": "299000",
-                "priceCurrency": "IDR",
-                "billingDuration": "P1Y"
+                "priceCurrency": "IDR"
               }
             }
           ],
@@ -170,12 +168,32 @@
           "author": {
             "@id": "https://withframes.com/#vincent-tantardini"
           },
-          "offers": {
-            "@type": "Offer",
-            "price": "1.99",
-            "priceCurrency": "USD",
-            "availability": "https://schema.org/InStock"
-          },
+          "offers": [
+            {
+              "@type": "Offer",
+              "name": "Langganan bulanan",
+              "price": "29000",
+              "priceCurrency": "IDR",
+              "availability": "https://schema.org/InStock",
+              "priceSpecification": {
+                "@type": "PriceSpecification",
+                "price": "29000",
+                "priceCurrency": "IDR"
+              }
+            },
+            {
+              "@type": "Offer",
+              "name": "Langganan tahunan",
+              "price": "299000",
+              "priceCurrency": "IDR",
+              "availability": "https://schema.org/InStock",
+              "priceSpecification": {
+                "@type": "PriceSpecification",
+                "price": "299000",
+                "priceCurrency": "IDR"
+              }
+            }
+          ],
           "review": [
             {
             "@type": "Review",

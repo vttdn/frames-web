@@ -40,8 +40,7 @@
               "priceSpecification": {
                 "@type": "PriceSpecification",
                 "price": "300",
-                "priceCurrency": "JPY",
-                "billingDuration": "P1M"
+                "priceCurrency": "JPY"
               }
             },
             {
@@ -53,8 +52,7 @@
               "priceSpecification": {
                 "@type": "PriceSpecification",
                 "price": "3000",
-                "priceCurrency": "JPY",
-                "billingDuration": "P1Y"
+                "priceCurrency": "JPY"
               }
             }
           ],
@@ -170,12 +168,32 @@
           "author": {
             "@id": "https://withframes.com/#vincent-tantardini"
           },
-          "offers": {
-            "@type": "Offer",
-            "price": "1.99",
-            "priceCurrency": "USD",
-            "availability": "https://schema.org/InStock"
-          },
+          "offers": [
+            {
+              "@type": "Offer",
+              "name": "月額サブスクリプション",
+              "price": "300",
+              "priceCurrency": "JPY",
+              "availability": "https://schema.org/InStock",
+              "priceSpecification": {
+                "@type": "PriceSpecification",
+                "price": "300",
+                "priceCurrency": "JPY"
+              }
+            },
+            {
+              "@type": "Offer",
+              "name": "年額サブスクリプション",
+              "price": "3000",
+              "priceCurrency": "JPY",
+              "availability": "https://schema.org/InStock",
+              "priceSpecification": {
+                "@type": "PriceSpecification",
+                "price": "3000",
+                "priceCurrency": "JPY"
+              }
+            }
+          ],
           "review": [
             {
             "@type": "Review",

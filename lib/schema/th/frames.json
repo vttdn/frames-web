@@ -40,8 +40,7 @@
               "priceSpecification": {
                 "@type": "PriceSpecification",
                 "price": "79",
-                "priceCurrency": "THB",
-                "billingDuration": "P1M"
+                "priceCurrency": "THB"
               }
             },
             {
@@ -53,8 +52,7 @@
               "priceSpecification": {
                 "@type": "PriceSpecification",
                 "price": "699",
-                "priceCurrency": "THB",
-                "billingDuration": "P1Y"
+                "priceCurrency": "THB"
               }
             }
           ],
@@ -170,12 +168,32 @@
           "author": {
             "@id": "https://withframes.com/#vincent-tantardini"
           },
-          "offers": {
-            "@type": "Offer",
-            "price": "1.99",
-            "priceCurrency": "USD",
-            "availability": "https://schema.org/InStock"
-          },
+          "offers": [
+            {
+              "@type": "Offer",
+              "name": "การสมัครสมาชิกแบบรายเดือน",
+              "price": "79",
+              "priceCurrency": "THB",
+              "availability": "https://schema.org/InStock",
+              "priceSpecification": {
+                "@type": "PriceSpecification",
+                "price": "79",
+                "priceCurrency": "THB"
+              }
+            },
+            {
+              "@type": "Offer",
+              "name": "การสมัครสมาชิกแบบรายปี",
+              "price": "699",
+              "priceCurrency": "THB",
+              "availability": "https://schema.org/InStock",
+              "priceSpecification": {
+                "@type": "PriceSpecification",
+                "price": "699",
+                "priceCurrency": "THB"
+              }
+            }
+          ],
           "review": [
             {
             "@type": "Review",

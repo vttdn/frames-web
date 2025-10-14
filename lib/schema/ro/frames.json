@@ -40,8 +40,7 @@
               "priceSpecification": {
                 "@type": "PriceSpecification",
                 "price": "9.99",
-                "priceCurrency": "RON",
-                "billingDuration": "P1M"
+                "priceCurrency": "RON"
               }
             },
             {
@@ -53,8 +52,7 @@
               "priceSpecification": {
                 "@type": "PriceSpecification",
                 "price": "99.99",
-                "priceCurrency": "RON",
-                "billingDuration": "P1Y"
+                "priceCurrency": "RON"
               }
             }
           ],
@@ -170,12 +168,32 @@
           "author": {
             "@id": "https://withframes.com/#vincent-tantardini"
           },
-          "offers": {
-            "@type": "Offer",
-            "price": "1.99",
-            "priceCurrency": "USD",
-            "availability": "https://schema.org/InStock"
-          },
+          "offers": [
+            {
+              "@type": "Offer",
+              "name": "Abonament lunar",
+              "price": "9.99",
+              "priceCurrency": "RON",
+              "availability": "https://schema.org/InStock",
+              "priceSpecification": {
+                "@type": "PriceSpecification",
+                "price": "9.99",
+                "priceCurrency": "RON"
+              }
+            },
+            {
+              "@type": "Offer",
+              "name": "Abonament anual",
+              "price": "99.99",
+              "priceCurrency": "RON",
+              "availability": "https://schema.org/InStock",
+              "priceSpecification": {
+                "@type": "PriceSpecification",
+                "price": "99.99",
+                "priceCurrency": "RON"
+              }
+            }
+          ],
           "review": [
             {
             "@type": "Review",

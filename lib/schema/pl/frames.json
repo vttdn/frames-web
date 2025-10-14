@@ -40,8 +40,7 @@
               "priceSpecification": {
                 "@type": "PriceSpecification",
                 "price": "9.99",
-                "priceCurrency": "PLN",
-                "billingDuration": "P1M"
+                "priceCurrency": "PLN"
               }
             },
             {
@@ -53,8 +52,7 @@
               "priceSpecification": {
                 "@type": "PriceSpecification",
                 "price": "99.99",
-                "priceCurrency": "PLN",
-                "billingDuration": "P1Y"
+                "priceCurrency": "PLN"
               }
             }
           ],
@@ -170,12 +168,32 @@
           "author": {
             "@id": "https://withframes.com/#vincent-tantardini"
           },
-          "offers": {
-            "@type": "Offer",
-            "price": "1.99",
-            "priceCurrency": "USD",
-            "availability": "https://schema.org/InStock"
-          },
+          "offers": [
+            {
+              "@type": "Offer",
+              "name": "Subskrypcja miesięczna",
+              "price": "9.99",
+              "priceCurrency": "PLN",
+              "availability": "https://schema.org/InStock",
+              "priceSpecification": {
+                "@type": "PriceSpecification",
+                "price": "9.99",
+                "priceCurrency": "PLN"
+              }
+            },
+            {
+              "@type": "Offer",
+              "name": "Subskrypcja roczna",
+              "price": "99.99",
+              "priceCurrency": "PLN",
+              "availability": "https://schema.org/InStock",
+              "priceSpecification": {
+                "@type": "PriceSpecification",
+                "price": "99.99",
+                "priceCurrency": "PLN"
+              }
+            }
+          ],
           "review": [
             {
             "@type": "Review",

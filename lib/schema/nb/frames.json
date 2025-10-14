@@ -40,8 +40,7 @@
               "priceSpecification": {
                 "@type": "PriceSpecification",
                 "price": "29",
-                "priceCurrency": "NOK",
-                "billingDuration": "P1M"
+                "priceCurrency": "NOK"
               }
             },
             {
@@ -53,8 +52,7 @@
               "priceSpecification": {
                 "@type": "PriceSpecification",
                 "price": "229",
-                "priceCurrency": "NOK",
-                "billingDuration": "P1Y"
+                "priceCurrency": "NOK"
               }
             }
           ],
@@ -170,12 +168,32 @@
           "author": {
             "@id": "https://withframes.com/#vincent-tantardini"
           },
-          "offers": {
-            "@type": "Offer",
-            "price": "1.99",
-            "priceCurrency": "USD",
-            "availability": "https://schema.org/InStock"
-          },
+          "offers": [
+            {
+              "@type": "Offer",
+              "name": "Månedlig abonnement",
+              "price": "29",
+              "priceCurrency": "NOK",
+              "availability": "https://schema.org/InStock",
+              "priceSpecification": {
+                "@type": "PriceSpecification",
+                "price": "29",
+                "priceCurrency": "NOK"
+              }
+            },
+            {
+              "@type": "Offer",
+              "name": "Årlig abonnement",
+              "price": "229",
+              "priceCurrency": "NOK",
+              "availability": "https://schema.org/InStock",
+              "priceSpecification": {
+                "@type": "PriceSpecification",
+                "price": "229",
+                "priceCurrency": "NOK"
+              }
+            }
+          ],
           "review": [
             {
             "@type": "Review",

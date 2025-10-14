@@ -40,8 +40,7 @@
               "priceSpecification": {
                 "@type": "PriceSpecification",
                 "price": "99.99",
-                "priceCurrency": "TRY",
-                "billingDuration": "P1M"
+                "priceCurrency": "TRY"
               }
             },
             {
@@ -53,8 +52,7 @@
               "priceSpecification": {
                 "@type": "PriceSpecification",
                 "price": "799",
-                "priceCurrency": "TRY",
-                "billingDuration": "P1Y"
+                "priceCurrency": "TRY"
               }
             }
           ],
@@ -170,12 +168,32 @@
           "author": {
             "@id": "https://withframes.com/#vincent-tantardini"
           },
-          "offers": {
-            "@type": "Offer",
-            "price": "1.99",
-            "priceCurrency": "USD",
-            "availability": "https://schema.org/InStock"
-          },
+          "offers": [
+            {
+              "@type": "Offer",
+              "name": "Aylık abonelik",
+              "price": "99.99",
+              "priceCurrency": "TRY",
+              "availability": "https://schema.org/InStock",
+              "priceSpecification": {
+                "@type": "PriceSpecification",
+                "price": "99.99",
+                "priceCurrency": "TRY"
+              }
+            },
+            {
+              "@type": "Offer",
+              "name": "Yıllık abonelik",
+              "price": "799",
+              "priceCurrency": "TRY",
+              "availability": "https://schema.org/InStock",
+              "priceSpecification": {
+                "@type": "PriceSpecification",
+                "price": "799",
+                "priceCurrency": "TRY"
+              }
+            }
+          ],
           "review": [
             {
             "@type": "Review",
