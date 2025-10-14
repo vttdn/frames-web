@@ -14,7 +14,7 @@
     <meta property="og:type" content="article" />
     <meta property="og:title" content="{% if entry.meta_title %}{{ entry.meta_title }}{% else %}{{ entry.title }} · Frames{% endif %}" />
     <meta property="og:description" content="{% if entry.meta_description %}{{ entry.meta_description }}{% else %}{{ entry.summary }}{% endif %}" />
-    <meta property="og:url" content="https://withframes.com/changelog/{{ entry.url_slug }}/" />
+    <meta property="og:url" content="https://withframes.com{{ lang_config.path }}{{ locale_data.urls.changelog }}{{ entry.url_slug }}/" />
     <meta property="og:site_name" content="Frames" />
     <meta property="og:image" content="https://withframes.com/og-image.jpg" />
     <meta property="article:published_time" content="{{ entry.release_date }}" />

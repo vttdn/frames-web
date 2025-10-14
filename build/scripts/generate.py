@@ -62,23 +62,22 @@ def generate_hreflang_links(languages, base_url="https://withframes.com", page="
         try:
             locale_data = load_locale(lang['code'])
 
-            # Choose which URL path to use
-            if page == "privacy":
-                page_path = locale_data['urls']['privacy']
+            # Determine which path to use
+            page_path = locale_data['urls']['privacy'] if page == "privacy" else ''
+
+            # Clean up slashes before building
+            lang_path = lang['path'].strip('/')
+            page_path = page_path.strip('/')
+
+            if not lang_path:
+                # Default language (no lang subdirectory)
+                url = f"{base_url}/{page_path}" if page_path else base_url
             else:
-                page_path = ''  # homepage
+                url = f"{base_url}/{lang_path}"
+                if page_path:
+                    url += f"/{page_path}"
 
-            # Ensure path starts with a slash
-            if page_path and not page_path.startswith('/'):
-                page_path = '/' + page_path
-
-            # Build final URL
-            if lang['path'] == '/':
-                url = f"{base_url}{page_path}"
-            else:
-                url = f"{base_url}{lang['path']}{page_path}"
-
-            # Ensure trailing slash for consistency
+            # Ensure trailing slash
             if not url.endswith('/'):
                 url += '/'
 
@@ -86,8 +85,12 @@ def generate_hreflang_links(languages, base_url="https://withframes.com", page="
                 'hreflang': lang['hreflang'],
                 'href': url
             })
+
         except FileNotFoundError:
             continue
+
+    return links
+
 
     # Add x-default link
     if page == "privacy":
