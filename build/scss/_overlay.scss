@@ -7,19 +7,20 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background: rgba(0, 0, 0, .9);
+  background: rgba(0, 0, 0, 0);
   z-index: 9999;
   visibility: hidden;
   pointer-events: none;
-  opacity: 0;
-  transition: opacity 0.3s ease, visibility 0s linear 1s;
+  transition: background-color 0.25s ease-out, visibility 1s linear 1s;
+  transition-delay: 0s;
   padding: 1rem;
 
   &.show {
-    opacity: 1;
+    background: rgba(0, 0, 0, .9);
     visibility: visible;
     pointer-events: auto;
-    transition: opacity 0.3s ease;
+    transition: background-color 0.25s ease-out, visibility 0s linear 1s;
+    transition-delay: 0.1s;
     /* no delay when showing */
   }
 }
@@ -33,10 +34,11 @@
   max-height: 100vh;
   border-radius: var(--radius-lg);
   top: 100vh;
-  transition: top 0.3s ease;
   padding: var(--spacing-lg);
   border: 1px solid var(--color-gray-dark3);
   background-color: rgb(12, 12, 12);
+  transition: top 0.3s cubic-bezier(0.25, 0.75, 0.3, 1);
+  transition-delay: 0s;
 
   &.large {
     width: 100%;
@@ -77,6 +79,7 @@
 
 .overlay.show .modal:not(.modal-menu) {
   top: 0;
+  transition-delay: .07s;
 }
 
 .modal-header {
