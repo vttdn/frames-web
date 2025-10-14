@@ -7,10 +7,8 @@
     <meta name="description" content="{{ locale_data.changelog.meta.description }}" />
     {% if page_number == 1 %}
     <link rel="canonical" href="{{ locale_data.changelog.meta.canonical_url }}" />
-    <link rel="alternate" hreflang="x-default" href="https://withframes.com/changelog/">
     {% else %}
     <link rel="canonical" href="{{ locale_data.changelog.meta.canonical_url }}page-{{ page_number }}/" />
-    <link rel="alternate" hreflang="x-default" href="https://withframes.com/changelog/page-{{ page_number }}/">
     {% endif %}
     {% for link in hreflang_links %}
     <link rel="alternate" hreflang="{{ link.hreflang }}" href="{{ link.href }}">
