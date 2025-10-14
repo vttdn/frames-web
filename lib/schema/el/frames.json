@@ -5,7 +5,7 @@
           "@type": "MobileApplication",
           "name": "Frames iOS",
           "operatingSystem": "iOS 18.0",
-          "applicationCategory": "PhotoApplication",
+          "applicationCategory": "PhotographyApplication",
           "publisher": { "@id": "https://withframes.com/#organization" },
           "description": "Το Frames είναι εφαρμογή φωτογραφίας φιλμ. Καταγράψτε κάθε λήψη, παρακολουθήστε ρυθμίσεις, οργανώστε φιλμ και αποθηκεύστε μεταδεδομένα EXIF στο iPhone & Mac.",
           "image": "https://withframes.com/el/og-image.jpg",
@@ -15,7 +15,6 @@
           "screenshot": "https://withframes.com/el/og-image.jpg",
           "isAccessibleForFree": false,
           "keywords": "film photography app, analog photography, EXIF metadata, film camera notes, photography workflow, film photography organization",
-          "maintainer": {"@id": "https://withframes.com/#vincent-tantardini"},
           "countriesSupported": [
             "US","CA",
             "AL","AT","BY","BE","BA","BG","HR","CY","CZ","DK","EE","FI","FR","DE","GR","HU","IS","IE","IT","XK","LV","LT","LU","MT","MD","ME","NL","MK","NO","PL","PT","RO","RU","RS","SK","SI","ES","SE","CH","TR","UA","GB",
@@ -40,7 +39,7 @@
           "aggregateRating": {
             "@type": "AggregateRating",
             "ratingValue": "5",
-            "reviewCount": "5"
+            "reviewCount": "6"
           },
           "review": [
             {
@@ -49,19 +48,6 @@
             "datePublished": "2025-07-12",
             "name": "Review by Maria Garcia",
             "reviewBody": "Εύκολη στη χρήση, αξιόπιστη εφαρμογή που μεταφέρει δεδομένα λήψης, συμπεριλαμβανομένης της γεωεντόπισης, στα EXIF σαρωμένων αρνητικών. Ο developer ακούει τα σχόλια και συνεχώς βελτιώνει την εφαρμογή. Εξαιρετική!",
-            "reviewRating": {
-                "@type": "Rating",
-                "ratingValue": "5",
-                "bestRating": "5",
-                "worstRating": "1"
-            }
-            },
-            {
-            "@type": "Review",
-            "author": { "@type": "Person", "name": "BHenriquez" },
-            "datePublished": "2025-05-08",
-            "name": "Review by BHenriquez",
-            "reviewBody": "Ως φωτογράφος φιλμ που εμφανίζει στο σπίτι, λατρεύω πώς το Frames μου επιτρέπει να καταγράφω κάθε λήψη χωρίς την ταλαιπωρία των σημειωματάριων. Είναι η τέλεια και πρακτική λύση. Πήγα Pro και δεν το μετάνιωσα!",
             "reviewRating": {
                 "@type": "Rating",
                 "ratingValue": "5",
@@ -107,6 +93,32 @@
                 "bestRating": "5",
                 "worstRating": "1"
             }
+            },
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "Ingrid Lindholm" },
+            "datePublished": "2025-10-03",
+            "name": "Review by Ingrid Lindholm",
+            "reviewBody": "Η καλύτερη εφαρμογή για αναλογική φωτογραφία που έχω χρησιμοποιήσει. Απλή, γρήγορη και με όλες τις λειτουργίες που χρειάζομαι για να οργανώσω τη δουλειά μου. Χωρίς διαφημίσεις, χωρίς παρακολούθηση, η ιδιωτικότητα σέβεται.",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            },
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "Hivonmarius" },
+            "datePublished": "2025-10-11",
+            "name": "Review by Hivonmarius",
+            "reviewBody": "Η εφαρμογή είναι απλή και κάνει ακριβώς ό,τι πρέπει. Μου αρέσει που μπορώ να ονομάζω τα τρέχοντα φιλμ μου, καθώς μερικές φορές ξεχνάω με ποια κάμερα τράβηξα. Η διεπαφή είναι καθαρή, κομψή και καλά σχεδιασμένη.",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
             }
           ]
         },
@@ -114,7 +126,7 @@
           "@type": "SoftwareApplication",
           "name": "Frames macOS",
           "operatingSystem": "macOS 15.0",
-          "applicationCategory": "PhotoApplication",
+          "applicationCategory": "PhotographyApplication",
           "publisher": { "@id": "https://withframes.com/#organization" },
           "description": "Το Frames είναι εφαρμογή φωτογραφίας φιλμ. Καταγράψτε κάθε λήψη, παρακολουθήστε ρυθμίσεις, οργανώστε φιλμ και αποθηκεύστε μεταδεδομένα EXIF στο iPhone & Mac.",
           "image": "https://withframes.com/el/og-image.jpg",
@@ -125,7 +137,6 @@
             "@type": "WebPage",
             "@id": "https://withframes.com/el"
           },
-          "maintainer": {"@id": "https://withframes.com/#vincent-tantardini"},
           "countriesSupported": [
             "US","CA",
             "AL","AT","BY","BE","BA","BG","HR","CY","CZ","DK","EE","FI","FR","DE","GR","HU","IS","IE","IT","XK","LV","LT","LU","MT","MD","ME","NL","MK","NO","PL","PT","RO","RU","RS","SK","SI","ES","SE","CH","TR","UA","GB",
@@ -143,10 +154,25 @@
             "priceCurrency": "USD",
             "availability": "https://schema.org/InStock"
           },
+          "review": [
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "BHenriquez" },
+            "datePublished": "2025-05-08",
+            "name": "Review by BHenriquez",
+            "reviewBody": "Ως φωτογράφος φιλμ που εμφανίζει στο σπίτι, λατρεύω πώς το Frames μου επιτρέπει να καταγράφω κάθε λήψη χωρίς την ταλαιπωρία των σημειωματάριων. Είναι η τέλεια και πρακτική λύση. Πήγα Pro και δεν το μετάνιωσα!",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            }
+          ],
           "aggregateRating": {
             "@type": "AggregateRating",
             "ratingValue": "5",
-            "reviewCount": "4"
+            "reviewCount": "1"
           }
         },
         {

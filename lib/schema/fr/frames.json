@@ -5,7 +5,7 @@
           "@type": "MobileApplication",
           "name": "Frames iOS",
           "operatingSystem": "iOS 18.0",
-          "applicationCategory": "PhotoApplication",
+          "applicationCategory": "PhotographyApplication",
           "publisher": { "@id": "https://withframes.com/#organization" },
           "description": "Frames est une application photo argentique. Enregistrez chaque prise, suivez les réglages, organisez vos pellicules et sauvegardez les métadonnées EXIF sur iPhone & Mac.",
           "image": "https://withframes.com/fr/og-image.jpg",
@@ -15,7 +15,6 @@
           "screenshot": "https://withframes.com/fr/og-image.jpg",
           "isAccessibleForFree": false,
           "keywords": "film photography app, analog photography, EXIF metadata, film camera notes, photography workflow, film photography organization",
-          "maintainer": {"@id": "https://withframes.com/#vincent-tantardini"},
           "countriesSupported": [
             "US","CA",
             "AL","AT","BY","BE","BA","BG","HR","CY","CZ","DK","EE","FI","FR","DE","GR","HU","IS","IE","IT","XK","LV","LT","LU","MT","MD","ME","NL","MK","NO","PL","PT","RO","RU","RS","SK","SI","ES","SE","CH","TR","UA","GB",
@@ -40,7 +39,7 @@
           "aggregateRating": {
             "@type": "AggregateRating",
             "ratingValue": "5",
-            "reviewCount": "5"
+            "reviewCount": "6"
           },
           "review": [
             {
@@ -49,19 +48,6 @@
             "datePublished": "2025-07-12",
             "name": "Review by Maria Garcia",
             "reviewBody": "Application simple, fiable et bien tarifée qui transfère les données de prise de vue, y compris la géolocalisation, dans les EXIF des négatifs numérisés. Le développeur écoute les retours et améliore continuellement. Excellent !",
-            "reviewRating": {
-                "@type": "Rating",
-                "ratingValue": "5",
-                "bestRating": "5",
-                "worstRating": "1"
-            }
-            },
-            {
-            "@type": "Review",
-            "author": { "@type": "Person", "name": "BHenriquez" },
-            "datePublished": "2025-05-08",
-            "name": "Review by BHenriquez",
-            "reviewBody": "En tant que photographe argentique qui développe à la maison, j'adore comment Frames me permet de noter chaque photo sans le tracas des carnets. C'est la solution parfaite et pratique. Je suis passé Pro et je ne reviendrai jamais en arrière !",
             "reviewRating": {
                 "@type": "Rating",
                 "ratingValue": "5",
@@ -107,6 +93,32 @@
                 "bestRating": "5",
                 "worstRating": "1"
             }
+            },
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "Ingrid Lindholm" },
+            "datePublished": "2025-10-03",
+            "name": "Review by Ingrid Lindholm",
+            "reviewBody": "La meilleure application de photo argentique que j’ai utilisée. Simple, rapide et avec toutes les fonctions dont j’ai besoin pour organiser mon travail. Pas de publicité, pas de suivi, et la vie privée est respectée.",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            },
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "Hivonmarius" },
+            "datePublished": "2025-10-11",
+            "name": "Review by Hivonmarius",
+            "reviewBody": "L’application est simple et fait exactement ce qu’elle doit. J’adore pouvoir nommer mes films en cours, car j’oublie parfois avec quel appareil j’ai pris mes photos. L’interface est claire, élégante et bien conçue.",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
             }
           ]
         },
@@ -114,7 +126,7 @@
           "@type": "SoftwareApplication",
           "name": "Frames macOS",
           "operatingSystem": "macOS 15.0",
-          "applicationCategory": "PhotoApplication",
+          "applicationCategory": "PhotographyApplication",
           "publisher": { "@id": "https://withframes.com/#organization" },
           "description": "Frames est une application photo argentique. Enregistrez chaque prise, suivez les réglages, organisez vos pellicules et sauvegardez les métadonnées EXIF sur iPhone & Mac.",
           "image": "https://withframes.com/fr/og-image.jpg",
@@ -125,7 +137,6 @@
             "@type": "WebPage",
             "@id": "https://withframes.com/fr"
           },
-          "maintainer": {"@id": "https://withframes.com/#vincent-tantardini"},
           "countriesSupported": [
             "US","CA",
             "AL","AT","BY","BE","BA","BG","HR","CY","CZ","DK","EE","FI","FR","DE","GR","HU","IS","IE","IT","XK","LV","LT","LU","MT","MD","ME","NL","MK","NO","PL","PT","RO","RU","RS","SK","SI","ES","SE","CH","TR","UA","GB",
@@ -143,10 +154,25 @@
             "priceCurrency": "USD",
             "availability": "https://schema.org/InStock"
           },
+          "review": [
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "BHenriquez" },
+            "datePublished": "2025-05-08",
+            "name": "Review by BHenriquez",
+            "reviewBody": "En tant que photographe argentique qui développe à la maison, j'adore comment Frames me permet de noter chaque photo sans le tracas des carnets. C'est la solution parfaite et pratique. Je suis passé Pro et je ne reviendrai jamais en arrière !",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            }
+          ],
           "aggregateRating": {
             "@type": "AggregateRating",
             "ratingValue": "5",
-            "reviewCount": "4"
+            "reviewCount": "1"
           }
         },
         {

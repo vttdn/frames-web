@@ -5,7 +5,7 @@
           "@type": "MobileApplication",
           "name": "{{ ios_appname }}",
           "operatingSystem": "iOS 18.0",
-          "applicationCategory": "PhotoApplication",
+          "applicationCategory": "PhotographyApplication",
           "publisher": { "@id": "https://withframes.com/#organization" },
           "description": "{{ seo_meta_description }}",
           "image": "{{ canonical_url }}/og-image.jpg",
@@ -15,7 +15,6 @@
           "screenshot": "{{ canonical_url }}/og-image.jpg",
           "isAccessibleForFree": false,
           "keywords": "{{ seo_meta_keywords }}",
-          "maintainer": {"@id": "https://withframes.com/#vincent-tantardini"},
           "countriesSupported": [
             "US","CA",
             "AL","AT","BY","BE","BA","BG","HR","CY","CZ","DK","EE","FI","FR","DE","GR","HU","IS","IE","IT","XK","LV","LT","LU","MT","MD","ME","NL","MK","NO","PL","PT","RO","RU","RS","SK","SI","ES","SE","CH","TR","UA","GB",
@@ -40,7 +39,7 @@
           "aggregateRating": {
             "@type": "AggregateRating",
             "ratingValue": "5",
-            "reviewCount": "5"
+            "reviewCount": "6"
           },
           "review": [
             {
@@ -52,19 +51,6 @@
             "reviewRating": {
                 "@type": "Rating",
                 "ratingValue": "{{ review1_rating }}",
-                "bestRating": "5",
-                "worstRating": "1"
-            }
-            },
-            {
-            "@type": "Review",
-            "author": { "@type": "Person", "name": "{{ review2_author }}" },
-            "datePublished": "{{ review2_date }}",
-            "name": "{{ review2_title }}",
-            "reviewBody": "{{ review2_descr }}",
-            "reviewRating": {
-                "@type": "Rating",
-                "ratingValue": "{{ review2_rating }}",
                 "bestRating": "5",
                 "worstRating": "1"
             }
@@ -107,6 +93,32 @@
                 "bestRating": "5",
                 "worstRating": "1"
             }
+            },
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "{{ review6_author }}" },
+            "datePublished": "{{ review6_date }}",
+            "name": "{{ review6_title }}",
+            "reviewBody": "{{ review6_descr }}",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "{{ review6_rating }}",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            },
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "{{ review7_author }}" },
+            "datePublished": "{{ review7_date }}",
+            "name": "{{ review7_title }}",
+            "reviewBody": "{{ review7_descr }}",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "{{ review7_rating }}",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
             }
           ]
         },
@@ -114,7 +126,7 @@
           "@type": "SoftwareApplication",
           "name": "{{ mac_appname }}",
           "operatingSystem": "macOS 15.0",
-          "applicationCategory": "PhotoApplication",
+          "applicationCategory": "PhotographyApplication",
           "publisher": { "@id": "https://withframes.com/#organization" },
           "description": "{{ seo_meta_description }}",
           "image": "{{ canonical_url }}/og-image.jpg",
@@ -125,7 +137,6 @@
             "@type": "WebPage",
             "@id": "{{ canonical_url }}"
           },
-          "maintainer": {"@id": "https://withframes.com/#vincent-tantardini"},
           "countriesSupported": [
             "US","CA",
             "AL","AT","BY","BE","BA","BG","HR","CY","CZ","DK","EE","FI","FR","DE","GR","HU","IS","IE","IT","XK","LV","LT","LU","MT","MD","ME","NL","MK","NO","PL","PT","RO","RU","RS","SK","SI","ES","SE","CH","TR","UA","GB",
@@ -143,10 +154,25 @@
             "priceCurrency": "USD",
             "availability": "https://schema.org/InStock"
           },
+          "review": [
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "{{ review2_author }}" },
+            "datePublished": "{{ review2_date }}",
+            "name": "{{ review2_title }}",
+            "reviewBody": "{{ review2_descr }}",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "{{ review2_rating }}",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            }
+          ],
           "aggregateRating": {
             "@type": "AggregateRating",
             "ratingValue": "5",
-            "reviewCount": "4"
+            "reviewCount": "1"
           }
         },
         {

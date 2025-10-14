@@ -5,7 +5,7 @@
           "@type": "MobileApplication",
           "name": "Frames iOS",
           "operatingSystem": "iOS 18.0",
-          "applicationCategory": "PhotoApplication",
+          "applicationCategory": "PhotographyApplication",
           "publisher": { "@id": "https://withframes.com/#organization" },
           "description": "Frames is een analoge fotografie-app. Leg elke opname vast, volg instellingen, organiseer filmrolletjes en bewaar EXIF-metagegevens op iPhone & Mac.",
           "image": "https://withframes.com/nl/og-image.jpg",
@@ -15,7 +15,6 @@
           "screenshot": "https://withframes.com/nl/og-image.jpg",
           "isAccessibleForFree": false,
           "keywords": "film photography app, analog photography, EXIF metadata, film camera notes, photography workflow, film photography organization",
-          "maintainer": {"@id": "https://withframes.com/#vincent-tantardini"},
           "countriesSupported": [
             "US","CA",
             "AL","AT","BY","BE","BA","BG","HR","CY","CZ","DK","EE","FI","FR","DE","GR","HU","IS","IE","IT","XK","LV","LT","LU","MT","MD","ME","NL","MK","NO","PL","PT","RO","RU","RS","SK","SI","ES","SE","CH","TR","UA","GB",
@@ -40,7 +39,7 @@
           "aggregateRating": {
             "@type": "AggregateRating",
             "ratingValue": "5",
-            "reviewCount": "5"
+            "reviewCount": "6"
           },
           "review": [
             {
@@ -49,19 +48,6 @@
             "datePublished": "2025-07-12",
             "name": "Review by Maria Garcia",
             "reviewBody": "Gebruiksvriendelijke, betrouwbare en eerlijk geprijsde app die opnamegegevens, inclusief locatie, overbrengt naar de EXIF van gescande negatieven. De ontwikkelaar luistert naar feedback en blijft verbeteren. Uitstekend!",
-            "reviewRating": {
-                "@type": "Rating",
-                "ratingValue": "5",
-                "bestRating": "5",
-                "worstRating": "1"
-            }
-            },
-            {
-            "@type": "Review",
-            "author": { "@type": "Person", "name": "BHenriquez" },
-            "datePublished": "2025-05-08",
-            "name": "Review by BHenriquez",
-            "reviewBody": "Als filmfotograaf die thuis ontwikkelt, vind ik het geweldig hoe Frames me elke opname laat vastleggen zonder gedoe met notitieboekjes. Het is de perfecte en praktische oplossing. Ben overgestapt naar Pro en kijk niet meer terug!",
             "reviewRating": {
                 "@type": "Rating",
                 "ratingValue": "5",
@@ -107,6 +93,32 @@
                 "bestRating": "5",
                 "worstRating": "1"
             }
+            },
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "Ingrid Lindholm" },
+            "datePublished": "2025-10-03",
+            "name": "Review by Ingrid Lindholm",
+            "reviewBody": "De beste app voor analoge fotografie die ik tot nu toe heb gebruikt. Simpel, snel en met alle functies die ik nodig heb om mijn werk te organiseren. Geen advertenties, geen tracking, privacy wordt gerespecteerd.",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            },
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "Hivonmarius" },
+            "datePublished": "2025-10-11",
+            "name": "Review by Hivonmarius",
+            "reviewBody": "De app is eenvoudig en doet precies wat hij moet. Ik vind het fijn dat ik mijn huidige filmrolletjes kan benoemen, want soms vergeet ik welk camera ik gebruikte. De interface is schoon, elegant en goed ontworpen.",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
             }
           ]
         },
@@ -114,7 +126,7 @@
           "@type": "SoftwareApplication",
           "name": "Frames macOS",
           "operatingSystem": "macOS 15.0",
-          "applicationCategory": "PhotoApplication",
+          "applicationCategory": "PhotographyApplication",
           "publisher": { "@id": "https://withframes.com/#organization" },
           "description": "Frames is een analoge fotografie-app. Leg elke opname vast, volg instellingen, organiseer filmrolletjes en bewaar EXIF-metagegevens op iPhone & Mac.",
           "image": "https://withframes.com/nl/og-image.jpg",
@@ -125,7 +137,6 @@
             "@type": "WebPage",
             "@id": "https://withframes.com/nl"
           },
-          "maintainer": {"@id": "https://withframes.com/#vincent-tantardini"},
           "countriesSupported": [
             "US","CA",
             "AL","AT","BY","BE","BA","BG","HR","CY","CZ","DK","EE","FI","FR","DE","GR","HU","IS","IE","IT","XK","LV","LT","LU","MT","MD","ME","NL","MK","NO","PL","PT","RO","RU","RS","SK","SI","ES","SE","CH","TR","UA","GB",
@@ -143,10 +154,25 @@
             "priceCurrency": "USD",
             "availability": "https://schema.org/InStock"
           },
+          "review": [
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "BHenriquez" },
+            "datePublished": "2025-05-08",
+            "name": "Review by BHenriquez",
+            "reviewBody": "Als filmfotograaf die thuis ontwikkelt, vind ik het geweldig hoe Frames me elke opname laat vastleggen zonder gedoe met notitieboekjes. Het is de perfecte en praktische oplossing. Ben overgestapt naar Pro en kijk niet meer terug!",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            }
+          ],
           "aggregateRating": {
             "@type": "AggregateRating",
             "ratingValue": "5",
-            "reviewCount": "4"
+            "reviewCount": "1"
           }
         },
         {

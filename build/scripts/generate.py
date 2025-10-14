@@ -213,7 +213,7 @@ def generate_schema(template_name, lang_code, global_config, locale_data):
     }
 
     # Add review data
-    for i in range(1, 6):
+    for i in range(1, 8):
         review_key = f'review{i}'
         if review_key in locale_data['reviews']:
             context[f'review{i}_author'] = locale_data['reviews'][review_key]['author_name']
@@ -221,15 +221,6 @@ def generate_schema(template_name, lang_code, global_config, locale_data):
             context[f'review{i}_title'] = f'Review by {locale_data["reviews"][review_key]["author_name"]}'
             context[f'review{i}_descr'] = locale_data['reviews'][review_key]['quote']
             context[f'review{i}_rating'] = '5'
-
-    # Add additional placeholder reviews (6-7) with same data as review 1-2
-    for i in range(6, 8):
-        source_idx = ((i - 1) % 5) + 1
-        context[f'review{i}_author'] = context[f'review{source_idx}_author']
-        context[f'review{i}_date'] = context[f'review{source_idx}_date']
-        context[f'review{i}_title'] = context[f'review{source_idx}_title']
-        context[f'review{i}_descr'] = context[f'review{source_idx}_descr']
-        context[f'review{i}_rating'] = '5'
 
     # Add FAQ data
     for i in range(1, 7):

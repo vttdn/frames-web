@@ -5,7 +5,7 @@
           "@type": "MobileApplication",
           "name": "Frames iOS",
           "operatingSystem": "iOS 18.0",
-          "applicationCategory": "PhotoApplication",
+          "applicationCategory": "PhotographyApplication",
           "publisher": { "@id": "https://withframes.com/#organization" },
           "description": "Frames er en filmfotografi app til analoge fotografer. Log hvert billede, følg kameraindstillinger, organiser film og gem EXIF metadata på iPhone & Mac.",
           "image": "https://withframes.com/da/og-image.jpg",
@@ -15,7 +15,6 @@
           "screenshot": "https://withframes.com/da/og-image.jpg",
           "isAccessibleForFree": false,
           "keywords": "film photography app, analog photography, EXIF metadata, film camera notes, photography workflow, film photography organization",
-          "maintainer": {"@id": "https://withframes.com/#vincent-tantardini"},
           "countriesSupported": [
             "US","CA",
             "AL","AT","BY","BE","BA","BG","HR","CY","CZ","DK","EE","FI","FR","DE","GR","HU","IS","IE","IT","XK","LV","LT","LU","MT","MD","ME","NL","MK","NO","PL","PT","RO","RU","RS","SK","SI","ES","SE","CH","TR","UA","GB",
@@ -40,7 +39,7 @@
           "aggregateRating": {
             "@type": "AggregateRating",
             "ratingValue": "5",
-            "reviewCount": "5"
+            "reviewCount": "6"
           },
           "review": [
             {
@@ -49,19 +48,6 @@
             "datePublished": "2025-07-12",
             "name": "Review by Maria Garcia",
             "reviewBody": "Nem at bruge, pålidelig app der overfører optagelsesdata, inkl. geolokation, til scannede negativers EXIF. Udvikleren lytter til feedback og forbedrer løbende. Fremragende!",
-            "reviewRating": {
-                "@type": "Rating",
-                "ratingValue": "5",
-                "bestRating": "5",
-                "worstRating": "1"
-            }
-            },
-            {
-            "@type": "Review",
-            "author": { "@type": "Person", "name": "BHenriquez" },
-            "datePublished": "2025-05-08",
-            "name": "Review by BHenriquez",
-            "reviewBody": "Som filmfotograf der fremkalder derhjemme, elsker jeg hvordan Frames lader mig logge hvert billede uden besværet med notesbøger. Det er den perfekte og praktiske løsning. Gik Pro og har ikke fortrudt!",
             "reviewRating": {
                 "@type": "Rating",
                 "ratingValue": "5",
@@ -107,6 +93,32 @@
                 "bestRating": "5",
                 "worstRating": "1"
             }
+            },
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "Ingrid Lindholm" },
+            "datePublished": "2025-10-03",
+            "name": "Review by Ingrid Lindholm",
+            "reviewBody": "Den bedste app til analog fotografering, jeg har brugt. Enkel, hurtig og med alle de funktioner, jeg har brug for til at organisere mit arbejde. Ingen reklamer, ingen sporing, privatliv respekteres.",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            },
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "Hivonmarius" },
+            "datePublished": "2025-10-11",
+            "name": "Review by Hivonmarius",
+            "reviewBody": "Appen er enkel og gør præcis, hvad den skal. Jeg elsker at kunne navngive mine aktuelle filmruller, da jeg nogle gange glemmer, hvilket kamera jeg brugte. UI er ren, elegant og veludført.",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
             }
           ]
         },
@@ -114,7 +126,7 @@
           "@type": "SoftwareApplication",
           "name": "Frames macOS",
           "operatingSystem": "macOS 15.0",
-          "applicationCategory": "PhotoApplication",
+          "applicationCategory": "PhotographyApplication",
           "publisher": { "@id": "https://withframes.com/#organization" },
           "description": "Frames er en filmfotografi app til analoge fotografer. Log hvert billede, følg kameraindstillinger, organiser film og gem EXIF metadata på iPhone & Mac.",
           "image": "https://withframes.com/da/og-image.jpg",
@@ -125,7 +137,6 @@
             "@type": "WebPage",
             "@id": "https://withframes.com/da"
           },
-          "maintainer": {"@id": "https://withframes.com/#vincent-tantardini"},
           "countriesSupported": [
             "US","CA",
             "AL","AT","BY","BE","BA","BG","HR","CY","CZ","DK","EE","FI","FR","DE","GR","HU","IS","IE","IT","XK","LV","LT","LU","MT","MD","ME","NL","MK","NO","PL","PT","RO","RU","RS","SK","SI","ES","SE","CH","TR","UA","GB",
@@ -143,10 +154,25 @@
             "priceCurrency": "USD",
             "availability": "https://schema.org/InStock"
           },
+          "review": [
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "BHenriquez" },
+            "datePublished": "2025-05-08",
+            "name": "Review by BHenriquez",
+            "reviewBody": "Som filmfotograf der fremkalder derhjemme, elsker jeg hvordan Frames lader mig logge hvert billede uden besværet med notesbøger. Det er den perfekte og praktiske løsning. Gik Pro og har ikke fortrudt!",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            }
+          ],
           "aggregateRating": {
             "@type": "AggregateRating",
             "ratingValue": "5",
-            "reviewCount": "4"
+            "reviewCount": "1"
           }
         },
         {

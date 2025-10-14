@@ -5,7 +5,7 @@
           "@type": "MobileApplication",
           "name": "Frames iOS",
           "operatingSystem": "iOS 18.0",
-          "applicationCategory": "PhotoApplication",
+          "applicationCategory": "PhotographyApplication",
           "publisher": { "@id": "https://withframes.com/#organization" },
           "description": "Frames is a film photography app for analog photographers. Log every shot, track camera settings, organize rolls, and save EXIF metadata on iPhone & Mac.",
           "image": "https://withframes.com/og-image.jpg",
@@ -15,7 +15,6 @@
           "screenshot": "https://withframes.com/og-image.jpg",
           "isAccessibleForFree": false,
           "keywords": "film photography app, analog photography, EXIF metadata, film camera notes, photography workflow, film photography organization",
-          "maintainer": {"@id": "https://withframes.com/#vincent-tantardini"},
           "countriesSupported": [
             "US","CA",
             "AL","AT","BY","BE","BA","BG","HR","CY","CZ","DK","EE","FI","FR","DE","GR","HU","IS","IE","IT","XK","LV","LT","LU","MT","MD","ME","NL","MK","NO","PL","PT","RO","RU","RS","SK","SI","ES","SE","CH","TR","UA","GB",
@@ -40,7 +39,7 @@
           "aggregateRating": {
             "@type": "AggregateRating",
             "ratingValue": "5",
-            "reviewCount": "5"
+            "reviewCount": "6"
           },
           "review": [
             {
@@ -49,19 +48,6 @@
             "datePublished": "2025-07-12",
             "name": "Review by Maria Garcia",
             "reviewBody": "Easy to use, reliable, and fairly priced app that transfers shooting data, including geolocation, into scanned negatives' EXIF. The developer listens to feedback and keeps improving. Excellent!",
-            "reviewRating": {
-                "@type": "Rating",
-                "ratingValue": "5",
-                "bestRating": "5",
-                "worstRating": "1"
-            }
-            },
-            {
-            "@type": "Review",
-            "author": { "@type": "Person", "name": "BHenriquez" },
-            "datePublished": "2025-05-08",
-            "name": "Review by BHenriquez",
-            "reviewBody": "As a home-developing film photographer, I love how Frames lets me log every shot without the hassle of notebooks. It is the perfect and practical solution. Went Pro and never looked back!",
             "reviewRating": {
                 "@type": "Rating",
                 "ratingValue": "5",
@@ -107,6 +93,32 @@
                 "bestRating": "5",
                 "worstRating": "1"
             }
+            },
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "Ingrid Lindholm" },
+            "datePublished": "2025-10-03",
+            "name": "Review by Ingrid Lindholm",
+            "reviewBody": "The best analog photography app I’ve used so far. It is simple, fast, and includes all the features I really need for organizing my work. No ads, no tracking, and privacy is a major plus.",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            },
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "Hivonmarius" },
+            "datePublished": "2025-10-11",
+            "name": "Review by Hivonmarius",
+            "reviewBody": "The app is simple and does exactly what it should. I love being able to name my current film rolls since I sometimes forget which camera I used. The UI is clean, elegant, and well-crafted.",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
             }
           ]
         },
@@ -114,7 +126,7 @@
           "@type": "SoftwareApplication",
           "name": "Frames macOS",
           "operatingSystem": "macOS 15.0",
-          "applicationCategory": "PhotoApplication",
+          "applicationCategory": "PhotographyApplication",
           "publisher": { "@id": "https://withframes.com/#organization" },
           "description": "Frames is a film photography app for analog photographers. Log every shot, track camera settings, organize rolls, and save EXIF metadata on iPhone & Mac.",
           "image": "https://withframes.com/og-image.jpg",
@@ -125,7 +137,6 @@
             "@type": "WebPage",
             "@id": "https://withframes.com"
           },
-          "maintainer": {"@id": "https://withframes.com/#vincent-tantardini"},
           "countriesSupported": [
             "US","CA",
             "AL","AT","BY","BE","BA","BG","HR","CY","CZ","DK","EE","FI","FR","DE","GR","HU","IS","IE","IT","XK","LV","LT","LU","MT","MD","ME","NL","MK","NO","PL","PT","RO","RU","RS","SK","SI","ES","SE","CH","TR","UA","GB",
@@ -143,10 +154,25 @@
             "priceCurrency": "USD",
             "availability": "https://schema.org/InStock"
           },
+          "review": [
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "BHenriquez" },
+            "datePublished": "2025-05-08",
+            "name": "Review by BHenriquez",
+            "reviewBody": "As a home-developing film photographer, I love how Frames lets me log every shot without the hassle of notebooks. It is the perfect and practical solution. Went Pro and never looked back!",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            }
+          ],
           "aggregateRating": {
             "@type": "AggregateRating",
             "ratingValue": "5",
-            "reviewCount": "4"
+            "reviewCount": "1"
           }
         },
         {

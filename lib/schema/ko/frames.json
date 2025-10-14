@@ -5,7 +5,7 @@
           "@type": "MobileApplication",
           "name": "Frames iOS",
           "operatingSystem": "iOS 18.0",
-          "applicationCategory": "PhotoApplication",
+          "applicationCategory": "PhotographyApplication",
           "publisher": { "@id": "https://withframes.com/#organization" },
           "description": "Frames는 필름 사진 앱입니다. 모든 촬영을 기록하고, 카메라 설정을 추적하며, 롤을 정리하고, iPhone과 Mac에서 EXIF 메타데이터를 저장하세요.",
           "image": "https://withframes.com/ko/og-image.jpg",
@@ -15,7 +15,6 @@
           "screenshot": "https://withframes.com/ko/og-image.jpg",
           "isAccessibleForFree": false,
           "keywords": "film photography app, analog photography, EXIF metadata, film camera notes, photography workflow, film photography organization",
-          "maintainer": {"@id": "https://withframes.com/#vincent-tantardini"},
           "countriesSupported": [
             "US","CA",
             "AL","AT","BY","BE","BA","BG","HR","CY","CZ","DK","EE","FI","FR","DE","GR","HU","IS","IE","IT","XK","LV","LT","LU","MT","MD","ME","NL","MK","NO","PL","PT","RO","RU","RS","SK","SI","ES","SE","CH","TR","UA","GB",
@@ -40,7 +39,7 @@
           "aggregateRating": {
             "@type": "AggregateRating",
             "ratingValue": "5",
-            "reviewCount": "5"
+            "reviewCount": "6"
           },
           "review": [
             {
@@ -49,19 +48,6 @@
             "datePublished": "2025-07-12",
             "name": "Review by Maria Garcia",
             "reviewBody": "사용하기 쉽고 안정적이며 합리적인 가격의 앱으로, 위치 정보를 포함한 촬영 데이터를 스캔한 네거티브의 EXIF에 전송합니다. 개발자는 피드백을 경청하고 지속적으로 개선합니다. 훌륭합니다!",
-            "reviewRating": {
-                "@type": "Rating",
-                "ratingValue": "5",
-                "bestRating": "5",
-                "worstRating": "1"
-            }
-            },
-            {
-            "@type": "Review",
-            "author": { "@type": "Person", "name": "BHenriquez" },
-            "datePublished": "2025-05-08",
-            "name": "Review by BHenriquez",
-            "reviewBody": "직접 현상하는 필름 사진가로서 Frames가 노트 없이 모든 촬영을 기록할 수 있게 해주는 점이 정말 좋습니다. 완벽하고 실용적인 솔루션입니다. Pro로 업그레이드했고 후회가 없습니다!",
             "reviewRating": {
                 "@type": "Rating",
                 "ratingValue": "5",
@@ -107,6 +93,32 @@
                 "bestRating": "5",
                 "worstRating": "1"
             }
+            },
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "Ingrid Lindholm" },
+            "datePublished": "2025-10-03",
+            "name": "Review by Ingrid Lindholm",
+            "reviewBody": "지금까지 사용한 아날로그 사진 앱 중 최고입니다. 간단하고 빠르며, 작업을 정리하는 데 필요한 모든 기능을 갖추고 있습니다. 광고 없음, 추적 없음, 개인정보 보호도 잘 되어 있습니다.",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            },
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "Hivonmarius" },
+            "datePublished": "2025-10-11",
+            "name": "Review by Hivonmarius",
+            "reviewBody": "앱은 단순하며 필요한 기능을 정확히 수행합니다. 현재 필름 롤에 이름을 지정할 수 있어, 어떤 카메라로 촬영했는지 잊을 때도 편리합니다. UI는 깔끔하고 우아하며 잘 제작되었습니다.",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
             }
           ]
         },
@@ -114,7 +126,7 @@
           "@type": "SoftwareApplication",
           "name": "Frames macOS",
           "operatingSystem": "macOS 15.0",
-          "applicationCategory": "PhotoApplication",
+          "applicationCategory": "PhotographyApplication",
           "publisher": { "@id": "https://withframes.com/#organization" },
           "description": "Frames는 필름 사진 앱입니다. 모든 촬영을 기록하고, 카메라 설정을 추적하며, 롤을 정리하고, iPhone과 Mac에서 EXIF 메타데이터를 저장하세요.",
           "image": "https://withframes.com/ko/og-image.jpg",
@@ -125,7 +137,6 @@
             "@type": "WebPage",
             "@id": "https://withframes.com/ko"
           },
-          "maintainer": {"@id": "https://withframes.com/#vincent-tantardini"},
           "countriesSupported": [
             "US","CA",
             "AL","AT","BY","BE","BA","BG","HR","CY","CZ","DK","EE","FI","FR","DE","GR","HU","IS","IE","IT","XK","LV","LT","LU","MT","MD","ME","NL","MK","NO","PL","PT","RO","RU","RS","SK","SI","ES","SE","CH","TR","UA","GB",
@@ -143,10 +154,25 @@
             "priceCurrency": "USD",
             "availability": "https://schema.org/InStock"
           },
+          "review": [
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "BHenriquez" },
+            "datePublished": "2025-05-08",
+            "name": "Review by BHenriquez",
+            "reviewBody": "직접 현상하는 필름 사진가로서 Frames가 노트 없이 모든 촬영을 기록할 수 있게 해주는 점이 정말 좋습니다. 완벽하고 실용적인 솔루션입니다. Pro로 업그레이드했고 후회가 없습니다!",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            }
+          ],
           "aggregateRating": {
             "@type": "AggregateRating",
             "ratingValue": "5",
-            "reviewCount": "4"
+            "reviewCount": "1"
           }
         },
         {

@@ -5,7 +5,7 @@
           "@type": "MobileApplication",
           "name": "Frames iOS",
           "operatingSystem": "iOS 18.0",
-          "applicationCategory": "PhotoApplication",
+          "applicationCategory": "PhotographyApplication",
           "publisher": { "@id": "https://withframes.com/#organization" },
           "description": "Frames फ़िल्म फ़ोटोग्राफ़रों के लिए ऐप है। हर शॉट लॉग करें, कैमरा सेटिंग्स ट्रैक करें, रोल्स व्यवस्थित करें और iPhone व Mac पर EXIF मेटाडेटा सहेजें।",
           "image": "https://withframes.com/hi/og-image.jpg",
@@ -15,7 +15,6 @@
           "screenshot": "https://withframes.com/hi/og-image.jpg",
           "isAccessibleForFree": false,
           "keywords": "film photography app, analog photography, EXIF metadata, film camera notes, photography workflow, film photography organization",
-          "maintainer": {"@id": "https://withframes.com/#vincent-tantardini"},
           "countriesSupported": [
             "US","CA",
             "AL","AT","BY","BE","BA","BG","HR","CY","CZ","DK","EE","FI","FR","DE","GR","HU","IS","IE","IT","XK","LV","LT","LU","MT","MD","ME","NL","MK","NO","PL","PT","RO","RU","RS","SK","SI","ES","SE","CH","TR","UA","GB",
@@ -40,7 +39,7 @@
           "aggregateRating": {
             "@type": "AggregateRating",
             "ratingValue": "5",
-            "reviewCount": "5"
+            "reviewCount": "6"
           },
           "review": [
             {
@@ -49,19 +48,6 @@
             "datePublished": "2025-07-12",
             "name": "Review by Maria Garcia",
             "reviewBody": "उपयोग में आसान, विश्वसनीय और उचित मूल्य वाला ऐप जो शूटिंग डेटा को स्कैन किए गए नेगेटिव के EXIF में स्थानांतरित करता है, जिसमें भौगोलिक स्थान भी शामिल है। डेवलपर फ़ीडबैक सुनते हैं और लगातार सुधार करते रहते हैं। उत्कृष्ट!",
-            "reviewRating": {
-                "@type": "Rating",
-                "ratingValue": "5",
-                "bestRating": "5",
-                "worstRating": "1"
-            }
-            },
-            {
-            "@type": "Review",
-            "author": { "@type": "Person", "name": "BHenriquez" },
-            "datePublished": "2025-05-08",
-            "name": "Review by BHenriquez",
-            "reviewBody": "एक फ़िल्म फ़ोटोग्राफ़र के रूप में जो घर पर डेवलप करता है, मुझे पसंद है कि Frames मुझे नोटबुक की परेशानी के बिना हर शॉट लॉग करने देता है। यह एकदम सही और व्यावहारिक समाधान है। Pro में अपग्रेड किया और कभी पीछे मुड़कर नहीं देखा!",
             "reviewRating": {
                 "@type": "Rating",
                 "ratingValue": "5",
@@ -107,6 +93,32 @@
                 "bestRating": "5",
                 "worstRating": "1"
             }
+            },
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "Ingrid Lindholm" },
+            "datePublished": "2025-10-03",
+            "name": "Review by Ingrid Lindholm",
+            "reviewBody": "अब तक का सबसे अच्छा एनालॉग फोटोग्राफी ऐप जिसे मैंने इस्तेमाल किया है। सरल, तेज़ और मेरे काम को व्यवस्थित करने के लिए सभी आवश्यक सुविधाएँ शामिल हैं। कोई विज्ञापन नहीं, कोई ट्रैकिंग नहीं, और गोपनीयता सुरक्षित रहती है।",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            },
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "Hivonmarius" },
+            "datePublished": "2025-10-11",
+            "name": "Review by Hivonmarius",
+            "reviewBody": "यह ऐप सरल है और बिल्कुल वही करता है जो इसे करना चाहिए। मुझे पसंद है कि मैं अपनी वर्तमान फिल्म रोल्स का नाम रख सकता हूँ, क्योंकि कभी-कभी मैं भूल जाता हूँ कि किस कैमरे से फोटो ली थी। UI साफ, सुंदर और अच्छी तरह से तैयार है।",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
             }
           ]
         },
@@ -114,7 +126,7 @@
           "@type": "SoftwareApplication",
           "name": "Frames macOS",
           "operatingSystem": "macOS 15.0",
-          "applicationCategory": "PhotoApplication",
+          "applicationCategory": "PhotographyApplication",
           "publisher": { "@id": "https://withframes.com/#organization" },
           "description": "Frames फ़िल्म फ़ोटोग्राफ़रों के लिए ऐप है। हर शॉट लॉग करें, कैमरा सेटिंग्स ट्रैक करें, रोल्स व्यवस्थित करें और iPhone व Mac पर EXIF मेटाडेटा सहेजें।",
           "image": "https://withframes.com/hi/og-image.jpg",
@@ -125,7 +137,6 @@
             "@type": "WebPage",
             "@id": "https://withframes.com/hi"
           },
-          "maintainer": {"@id": "https://withframes.com/#vincent-tantardini"},
           "countriesSupported": [
             "US","CA",
             "AL","AT","BY","BE","BA","BG","HR","CY","CZ","DK","EE","FI","FR","DE","GR","HU","IS","IE","IT","XK","LV","LT","LU","MT","MD","ME","NL","MK","NO","PL","PT","RO","RU","RS","SK","SI","ES","SE","CH","TR","UA","GB",
@@ -143,10 +154,25 @@
             "priceCurrency": "USD",
             "availability": "https://schema.org/InStock"
           },
+          "review": [
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "BHenriquez" },
+            "datePublished": "2025-05-08",
+            "name": "Review by BHenriquez",
+            "reviewBody": "एक फ़िल्म फ़ोटोग्राफ़र के रूप में जो घर पर डेवलप करता है, मुझे पसंद है कि Frames मुझे नोटबुक की परेशानी के बिना हर शॉट लॉग करने देता है। यह एकदम सही और व्यावहारिक समाधान है। Pro में अपग्रेड किया और कभी पीछे मुड़कर नहीं देखा!",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            }
+          ],
           "aggregateRating": {
             "@type": "AggregateRating",
             "ratingValue": "5",
-            "reviewCount": "4"
+            "reviewCount": "1"
           }
         },
         {

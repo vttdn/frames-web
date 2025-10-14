@@ -5,7 +5,7 @@
           "@type": "MobileApplication",
           "name": "Frames iOS",
           "operatingSystem": "iOS 18.0",
-          "applicationCategory": "PhotoApplication",
+          "applicationCategory": "PhotographyApplication",
           "publisher": { "@id": "https://withframes.com/#organization" },
           "description": "Frames là ứng dụng chụp phim dành cho nhiếp ảnh gia analog. Ghi lại từng bức ảnh, theo dõi cài đặt máy, sắp xếp cuộn phim và lưu siêu dữ liệu EXIF.",
           "image": "https://withframes.com/vi/og-image.jpg",
@@ -15,7 +15,6 @@
           "screenshot": "https://withframes.com/vi/og-image.jpg",
           "isAccessibleForFree": false,
           "keywords": "film photography app, analog photography, EXIF metadata, film camera notes, photography workflow, film photography organization",
-          "maintainer": {"@id": "https://withframes.com/#vincent-tantardini"},
           "countriesSupported": [
             "US","CA",
             "AL","AT","BY","BE","BA","BG","HR","CY","CZ","DK","EE","FI","FR","DE","GR","HU","IS","IE","IT","XK","LV","LT","LU","MT","MD","ME","NL","MK","NO","PL","PT","RO","RU","RS","SK","SI","ES","SE","CH","TR","UA","GB",
@@ -40,7 +39,7 @@
           "aggregateRating": {
             "@type": "AggregateRating",
             "ratingValue": "5",
-            "reviewCount": "5"
+            "reviewCount": "6"
           },
           "review": [
             {
@@ -49,19 +48,6 @@
             "datePublished": "2025-07-12",
             "name": "Review by Maria Garcia",
             "reviewBody": "Ứng dụng dễ sử dụng, đáng tin cậy và giá hợp lý, chuyển dữ liệu chụp bao gồm cả vị trí địa lý vào EXIF của phim âm bản đã quét. Nhà phát triển lắng nghe phản hồi và liên tục cải thiện. Tuyệt vời!",
-            "reviewRating": {
-                "@type": "Rating",
-                "ratingValue": "5",
-                "bestRating": "5",
-                "worstRating": "1"
-            }
-            },
-            {
-            "@type": "Review",
-            "author": { "@type": "Person", "name": "BHenriquez" },
-            "datePublished": "2025-05-08",
-            "name": "Review by BHenriquez",
-            "reviewBody": "Là một nhiếp ảnh gia phim tự tráng tại nhà, tôi thích cách Frames cho phép tôi ghi lại từng bức ảnh mà không phải vất vả với sổ tay. Đây là giải pháp hoàn hảo và thực tế. Đã nâng cấp Pro và không hề hối hận!",
             "reviewRating": {
                 "@type": "Rating",
                 "ratingValue": "5",
@@ -107,6 +93,32 @@
                 "bestRating": "5",
                 "worstRating": "1"
             }
+            },
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "Ingrid Lindholm" },
+            "datePublished": "2025-10-03",
+            "name": "Review by Ingrid Lindholm",
+            "reviewBody": "Ứng dụng chụp ảnh film tốt nhất mà tôi từng dùng. Đơn giản, nhanh và có tất cả các tính năng cần thiết để tổ chức công việc. Không quảng cáo, không theo dõi, quyền riêng tư được tôn trọng.",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            },
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "Hivonmarius" },
+            "datePublished": "2025-10-11",
+            "name": "Review by Hivonmarius",
+            "reviewBody": "Ứng dụng đơn giản và làm chính xác những gì nó cần làm. Tôi thích có thể đặt tên cho cuộn phim hiện tại vì đôi khi quên máy ảnh đã dùng. Giao diện sạch, thanh lịch và được thiết kế tốt.",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
             }
           ]
         },
@@ -114,7 +126,7 @@
           "@type": "SoftwareApplication",
           "name": "Frames macOS",
           "operatingSystem": "macOS 15.0",
-          "applicationCategory": "PhotoApplication",
+          "applicationCategory": "PhotographyApplication",
           "publisher": { "@id": "https://withframes.com/#organization" },
           "description": "Frames là ứng dụng chụp phim dành cho nhiếp ảnh gia analog. Ghi lại từng bức ảnh, theo dõi cài đặt máy, sắp xếp cuộn phim và lưu siêu dữ liệu EXIF.",
           "image": "https://withframes.com/vi/og-image.jpg",
@@ -125,7 +137,6 @@
             "@type": "WebPage",
             "@id": "https://withframes.com/vi"
           },
-          "maintainer": {"@id": "https://withframes.com/#vincent-tantardini"},
           "countriesSupported": [
             "US","CA",
             "AL","AT","BY","BE","BA","BG","HR","CY","CZ","DK","EE","FI","FR","DE","GR","HU","IS","IE","IT","XK","LV","LT","LU","MT","MD","ME","NL","MK","NO","PL","PT","RO","RU","RS","SK","SI","ES","SE","CH","TR","UA","GB",
@@ -143,10 +154,25 @@
             "priceCurrency": "USD",
             "availability": "https://schema.org/InStock"
           },
+          "review": [
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "BHenriquez" },
+            "datePublished": "2025-05-08",
+            "name": "Review by BHenriquez",
+            "reviewBody": "Là một nhiếp ảnh gia phim tự tráng tại nhà, tôi thích cách Frames cho phép tôi ghi lại từng bức ảnh mà không phải vất vả với sổ tay. Đây là giải pháp hoàn hảo và thực tế. Đã nâng cấp Pro và không hề hối hận!",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            }
+          ],
           "aggregateRating": {
             "@type": "AggregateRating",
             "ratingValue": "5",
-            "reviewCount": "4"
+            "reviewCount": "1"
           }
         },
         {
