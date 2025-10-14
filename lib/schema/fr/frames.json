@@ -3,6 +3,7 @@
       "@graph": [
         {
           "@type": "MobileApplication",
+          "@id": "https://withframes.com/fr/#ios-app",
           "name": "Frames iOS",
           "operatingSystem": "iOS 18.0",
           "applicationCategory": "PhotographyApplication",
@@ -144,6 +145,7 @@
         },
         {
           "@type": "SoftwareApplication",
+          "@id": "https://withframes.com/fr/#macos-app",
           "name": "Frames macOS",
           "operatingSystem": "macOS 15.0",
           "applicationCategory": "PhotographyApplication",

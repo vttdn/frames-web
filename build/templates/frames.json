@@ -3,6 +3,7 @@
       "@graph": [
         {
           "@type": "MobileApplication",
+          "@id": "{{ canonical_url }}/#ios-app",
           "name": "{{ ios_appname }}",
           "operatingSystem": "iOS 18.0",
           "applicationCategory": "PhotographyApplication",
@@ -144,6 +145,7 @@
         },
         {
           "@type": "SoftwareApplication",
+          "@id": "{{ canonical_url }}/#macos-app",
           "name": "{{ mac_appname }}",
           "operatingSystem": "macOS 15.0",
           "applicationCategory": "PhotographyApplication",
