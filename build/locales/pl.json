@@ -203,11 +203,16 @@
     "heading": "Cennik",
     "label_period": "Miesięcznie",
     "label_period_yearly": "Rocznie",
+    "label_subscription_monthly": "Subskrypcja miesięczna",
+    "label_subscription_yearly": "Subskrypcja roczna",
+    "currency": "PLN",
     "ios": {
       "title": "iOS",
       "price": "9,99 zł",
       "price_yearly": "99,99 zł",
       "period": "/mies.",
+      "price_value_monthly": "9.99",
+      "price_value_yearly": "99.99",
       "includes_label": "Zawiera:",
       "features": [
         "Nieograniczone klisze",
@@ -223,6 +228,8 @@
       "price_yearly": "99,99 zł",
       "period": "/mies.",
       "period_yearly": "/rok",
+      "price_value_monthly": "9.99",
+      "price_value_yearly": "99.99",
       "includes_label": "Zawiera:",
       "features": [
         "Zapisywanie metadanych do zdjęć"

@@ -203,12 +203,17 @@
     "heading": "定价",
     "label_period": "每月",
     "label_period_yearly": "每年",
+    "label_subscription_monthly": "月度订阅",
+    "label_subscription_yearly": "年度订阅",
+    "currency": "CNY",
     "ios": {
       "title": "iOS",
       "price": "¥15",
       "price_yearly": "¥128",
       "period": "/月",
       "period_yearly": "/年",
+      "price_value_monthly": "15",
+      "price_value_yearly": "128",
       "includes_label": "包含：",
       "features": [
         "无限胶卷",
@@ -224,6 +229,8 @@
       "price_yearly": "¥128",
       "period": "/月",
       "period_yearly": "/年",
+      "price_value_monthly": "15",
+      "price_value_yearly": "128",
       "includes_label": "包含：",
       "features": [
         "将元数据保存到照片"

@@ -198,6 +198,11 @@ def generate_schema(template_name, lang_code, global_config, locale_data):
     context = {
         'lang': lang_code,
         'canonical_url': locale_data['meta']['canonical_url'].rstrip('/'),
+        'currency': locale_data['pricing']['currency'].rstrip('/'),
+        'monthly_price': locale_data['pricing']['ios']['price_value_monthly'],
+        'yearly_price': locale_data['pricing']['ios']['price_value_yearly'],
+        'monthly_label': locale_data['pricing']['label_subscription_monthly'],
+        'yearly_label': locale_data['pricing']['label_subscription_yearly'],
         'ios_appname': locale_data['footer']['product']['frames_ios'],
         'mac_appname': locale_data['footer']['product']['frames_macos'],
         'seo_meta_title': locale_data['meta']['title'],

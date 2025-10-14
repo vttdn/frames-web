@@ -203,12 +203,17 @@
     "heading": "Priser",
     "label_period": "Månedlig",
     "label_period_yearly": "Årlig",
+    "label_subscription_monthly": "Månedlig abonnement",
+    "label_subscription_yearly": "Årlig abonnement",
+    "currency": "NOK",
     "ios": {
       "title": "iOS",
       "price": "29 kr",
       "price_yearly": "229 kr",
       "period": "/md.",
       "period_yearly": "/år",
+      "price_value_monthly": "29",
+      "price_value_yearly": "229",
       "includes_label": "Inkluderer:",
       "features": [
         "Ubegrensede filmruller",
@@ -224,6 +229,8 @@
       "price_yearly": "229 kr",
       "period": "/md.",
       "period_yearly": "/år",
+      "price_value_monthly": "29",
+      "price_value_yearly": "229",
       "includes_label": "Inkluderer:",
       "features": [
         "Lagre metadata til bilder"

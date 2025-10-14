@@ -30,12 +30,34 @@
           "author": {
             "@id": "https://withframes.com/#vincent-tantardini"
           },
-          "offers": {
-            "@type": "Offer",
-            "price": "1.99",
-            "priceCurrency": "USD",
-            "availability": "https://schema.org/InStock"
-          },
+          "offers": [
+            {
+              "@type": "Offer",
+              "name": "Månedlig abonnement",
+              "price": "29",
+              "priceCurrency": "NOK",
+              "availability": "https://schema.org/InStock",
+              "priceSpecification": {
+                "@type": "PriceSpecification",
+                "price": "29",
+                "priceCurrency": "NOK",
+                "billingDuration": "P1M"
+              }
+            },
+            {
+              "@type": "Offer",
+              "name": "Årlig abonnement",
+              "price": "229",
+              "priceCurrency": "NOK",
+              "availability": "https://schema.org/InStock",
+              "priceSpecification": {
+                "@type": "PriceSpecification",
+                "price": "229",
+                "priceCurrency": "NOK",
+                "billingDuration": "P1Y"
+              }
+            }
+          ],
           "aggregateRating": {
             "@type": "AggregateRating",
             "ratingValue": "5",

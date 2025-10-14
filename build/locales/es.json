@@ -203,12 +203,17 @@
     "heading": "Precios",
     "label_period": "Mensual",
     "label_period_yearly": "Anual",
+    "label_subscription_monthly": "Suscripción mensual",
+    "label_subscription_yearly": "Suscripción anual",
+    "currency": "EUR",
     "ios": {
       "title": "iOS",
       "price": "1,99 €",
       "price_yearly": "19,99 €",
       "period": "/mes",
       "period_yearly": "/año",
+      "price_value_monthly": "1.99",
+      "price_value_yearly": "19.99",
       "includes_label": "Incluye:",
       "features": [
         "Carretes ilimitados",
@@ -224,6 +229,8 @@
       "price_yearly": "19,99 €",
       "period": "/mes",
       "period_yearly": "/año",
+      "price_value_monthly": "1.99",
+      "price_value_yearly": "19.99",
       "includes_label": "Incluye:",
       "features": [
         "Guardar metadatos en fotos"

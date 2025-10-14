@@ -203,12 +203,17 @@
     "heading": "Цены",
     "label_period": "В месяц",
     "label_period_yearly": "В год",
+    "label_subscription_monthly": "Ежемесячная подписка",
+    "label_subscription_yearly": "Годовая подписка",
+    "currency": "RUB",
     "ios": {
       "title": "iOS",
       "price": "199 ₽",
       "price_yearly": "1 490 ₽",
       "period": "/мес.",
       "period_yearly": "/год",
+      "price_value_monthly": "199",
+      "price_value_yearly": "1490",
       "includes_label": "Включает:",
       "features": [
         "Неограниченное количество плёнок",
@@ -224,6 +229,8 @@
       "price_yearly": "1 490 ₽",
       "period": "/мес.",
       "period_yearly": "/год",
+      "price_value_monthly": "199",
+      "price_value_yearly": "1490",
       "includes_label": "Включает:",
       "features": [
         "Сохранение метаданных в фотографии"

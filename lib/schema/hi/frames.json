@@ -30,12 +30,34 @@
           "author": {
             "@id": "https://withframes.com/#vincent-tantardini"
           },
-          "offers": {
-            "@type": "Offer",
-            "price": "1.99",
-            "priceCurrency": "USD",
-            "availability": "https://schema.org/InStock"
-          },
+          "offers": [
+            {
+              "@type": "Offer",
+              "name": "मासिक सदस्यता",
+              "price": "199",
+              "priceCurrency": "INR",
+              "availability": "https://schema.org/InStock",
+              "priceSpecification": {
+                "@type": "PriceSpecification",
+                "price": "199",
+                "priceCurrency": "INR",
+                "billingDuration": "P1M"
+              }
+            },
+            {
+              "@type": "Offer",
+              "name": "वार्षिक सदस्यता",
+              "price": "1999",
+              "priceCurrency": "INR",
+              "availability": "https://schema.org/InStock",
+              "priceSpecification": {
+                "@type": "PriceSpecification",
+                "price": "1999",
+                "priceCurrency": "INR",
+                "billingDuration": "P1Y"
+              }
+            }
+          ],
           "aggregateRating": {
             "@type": "AggregateRating",
             "ratingValue": "5",

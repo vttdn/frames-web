@@ -203,12 +203,17 @@
     "heading": "Priser",
     "label_period": "Per månad",
     "label_period_yearly": "Per år",
+    "label_subscription_monthly": "Månadsabonnemang",
+    "label_subscription_yearly": "Årsabonnemang",
+    "currency": "SEK",
     "ios": {
       "title": "iOS",
       "price": "29 kr",
       "price_yearly": "229 kr",
       "period": "/mån",
       "period_yearly": "/år",
+      "price_value_monthly": "29",
+      "price_value_yearly": "229",
       "includes_label": "Inkluderar:",
       "features": [
         "Obegränsade filmrullar",
@@ -224,6 +229,8 @@
       "price_yearly": "229 kr",
       "period": "/mån",
       "period_yearly": "/år",
+      "price_value_monthly": "29",
+      "price_value_yearly": "229",
       "includes_label": "Inkluderar:",
       "features": [
         "Spara metadata till foton"

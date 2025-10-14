@@ -203,12 +203,17 @@
     "heading": "Pricing",
     "label_period": "Monthly",
     "label_period_yearly": "Yearly",
+    "label_subscription_monthly": "Monthly subscription",
+    "label_subscription_yearly": "Yearly subscription",
+    "currency": "USD",
     "ios": {
       "title": "iOS",
       "price": "$1.99",
       "price_yearly": "$17.99",
       "period": "/mo.",
       "period_yearly": "/yr.",
+      "price_value_monthly": "1.99",
+      "price_value_yearly": "17.99",
       "includes_label": "Includes:",
       "features": [
         "Unlimited film rolls",
@@ -224,6 +229,8 @@
       "price_yearly": "$17.99",
       "period": "/mo.",
       "period_yearly": "/yr.",
+      "price_value_monthly": "1.99",
+      "price_value_yearly": "17.99",
       "includes_label": "Includes:",
       "features": [
         "Save metadata to photos"

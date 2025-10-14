@@ -30,12 +30,34 @@
           "author": {
             "@id": "https://withframes.com/#vincent-tantardini"
           },
-          "offers": {
-            "@type": "Offer",
-            "price": "1.99",
-            "priceCurrency": "USD",
-            "availability": "https://schema.org/InStock"
-          },
+          "offers": [
+            {
+              "@type": "Offer",
+              "name": "月度订阅",
+              "price": "15",
+              "priceCurrency": "CNY",
+              "availability": "https://schema.org/InStock",
+              "priceSpecification": {
+                "@type": "PriceSpecification",
+                "price": "15",
+                "priceCurrency": "CNY",
+                "billingDuration": "P1M"
+              }
+            },
+            {
+              "@type": "Offer",
+              "name": "年度订阅",
+              "price": "128",
+              "priceCurrency": "CNY",
+              "availability": "https://schema.org/InStock",
+              "priceSpecification": {
+                "@type": "PriceSpecification",
+                "price": "128",
+                "priceCurrency": "CNY",
+                "billingDuration": "P1Y"
+              }
+            }
+          ],
           "aggregateRating": {
             "@type": "AggregateRating",
             "ratingValue": "5",

@@ -203,12 +203,17 @@
     "heading": "Preise",
     "label_period": "Monatlich",
     "label_period_yearly": "Jährlich",
+    "label_subscription_monthly": "Monatliches Abonnement",
+    "label_subscription_yearly": "Jährliches Abonnement",
+    "currency": "EUR",
     "ios": {
       "title": "iOS",
       "price": "1,99 €",
       "price_yearly": "19,99 €",
       "period": "/Monat",
       "period_yearly": "/Jahr",
+      "price_value_monthly": "1.99",
+      "price_value_yearly": "19.99",
       "includes_label": "Enthalten:",
       "features": [
         "Unbegrenzte Filme",
@@ -224,6 +229,8 @@
       "price_yearly": "19,99 €",
       "period": "/Monat",
       "period_yearly": "/Jahr",
+      "price_value_monthly": "1.99",
+      "price_value_yearly": "19.99",
       "includes_label": "Enthalten:",
       "features": [
         "Metadaten in Fotos speichern"
