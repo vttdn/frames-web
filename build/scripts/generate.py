@@ -54,20 +54,52 @@ def load_privacy_css():
         print("  Please compile it first: sass lib/scss/privacy.scss lib/css/privacy.css --style compressed")
         return ""
 
-def generate_hreflang_links(languages, base_url="https://withframes.com"):
-    """Generate hreflang alternate links"""
+def generate_hreflang_links(languages, base_url="https://withframes.com", page="home"):
+    """Generate hreflang alternate links for homepage or privacy page"""
     links = []
+
     for lang in languages:
-        url = f"{base_url}{lang['path']}" if lang['path'] != '/' else base_url + '/'
-        links.append({
-            'hreflang': lang['hreflang'],
-            'href': url
-        })
-    # Add x-default
+        try:
+            locale_data = load_locale(lang['code'])
+
+            # Choose which URL path to use
+            if page == "privacy":
+                page_path = locale_data['urls']['privacy']
+            else:
+                page_path = ''  # homepage
+
+            # Ensure path starts with a slash
+            if page_path and not page_path.startswith('/'):
+                page_path = '/' + page_path
+
+            # Build final URL
+            if lang['path'] == '/':
+                url = f"{base_url}{page_path}"
+            else:
+                url = f"{base_url}{lang['path']}{page_path}"
+
+            # Ensure trailing slash for consistency
+            if not url.endswith('/'):
+                url += '/'
+
+            links.append({
+                'hreflang': lang['hreflang'],
+                'href': url
+            })
+        except FileNotFoundError:
+            continue
+
+    # Add x-default link
+    if page == "privacy":
+        x_default = f"{base_url}/privacy/"
+    else:
+        x_default = f"{base_url}/"
+
     links.append({
         'hreflang': 'x-default',
-        'href': base_url + '/'
+        'href': x_default
     })
+
     return links
 
 def generate_language_list(languages):
@@ -136,7 +168,7 @@ def generate_html(lang_code, global_config, locale_data, critical_css, available
         'locale_data': locale_data,
         'global_config': global_config,
         'lang_config': lang_config,
-        'hreflang_links': generate_hreflang_links(global_config['languages']),
+        'hreflang_links': generate_hreflang_links(global_config['languages'], page="home"),
         'all_languages': generate_language_list(global_config['languages']),
         'available_changelog_languages': available_changelog_languages,
         'critical_css': critical_css
@@ -231,7 +263,7 @@ def generate_privacy_html(lang_code, global_config, locale_data, privacy_css, av
         'locale_data': locale_data,
         'global_config': global_config,
         'lang_config': lang_config,
-        'hreflang_links': generate_hreflang_links(global_config['languages']),
+        'hreflang_links': generate_hreflang_links(global_config['languages'], page="privacy"),
         'all_languages': generate_language_list(global_config['languages']),
         'available_changelog_languages': available_changelog_languages,
         'privacy_css': privacy_css
@@ -445,8 +477,12 @@ def generate_privacy_sitemap(languages):
             if not privacy_url.startswith('/'):
                 privacy_url = '/' + privacy_url
 
-            url = f"{base_url}{privacy_url}"
-            priority = "0.8" if lang['code'] == 'en' else "0.7"
+            if lang['code'] == 'en':
+                url = f"{base_url}/{privacy_url.lstrip('/')}"
+                priority = "0.8"
+            else:
+                url = f"{base_url}/{lang['code']}/{privacy_url.lstrip('/')}"
+                priority = "0.7"
 
             sitemap_lines.append('  <url>')
             sitemap_lines.append(f'    <loc>{url}</loc>')
