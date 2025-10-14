@@ -146,9 +146,7 @@
             <details>
                     <summary class="flex flex-justify-between">
                         <h3>{{ locale_data.changelog.labels.improvements }} ({{ entry.improvements|length }})</h3>
-                        <div class="details-icon flex flex-center flex-justify-center" aria-hidden="true">
-                            <img src="/lib/img/icn/chevron-down.svg" alt="" loading="lazy">
-                        </div>
+                        <img src="/lib/img/icn/chevron-down.svg" alt="" loading="lazy" aria-hidden="true">
                     </summary>
                     <ul>
                       {% for improvement in entry.improvements %}
@@ -166,9 +164,7 @@
             <details>
                     <summary class="flex flex-justify-between">
                         <h3>{{ locale_data.changelog.labels.fixes }} ({{ entry.fixes|length }})</h3>
-                        <div class="details-icon flex flex-center flex-justify-center" aria-hidden="true">
-                            <img src="/lib/img/icn/chevron-down.svg" alt="" loading="lazy">
-                        </div>
+                        <img src="/lib/img/icn/chevron-down.svg" alt="" loading="lazy" aria-hidden="true">
                     </summary>
                     <ul>
                       {% for fix in entry.fixes %}
@@ -190,9 +186,7 @@
             <details>
                     <summary class="flex flex-justify-between">
                         <h3>{{ locale_data.changelog.labels.patches }} ({{ entry.patches|length }})</h3>
-                        <div class="details-icon flex flex-center flex-justify-center" aria-hidden="true">
-                            <img src="/lib/img/icn/chevron-down.svg" alt="" loading="lazy">
-                        </div>
+                        <img src="/lib/img/icn/chevron-down.svg" alt="" loading="lazy" aria-hidden="true">
                     </summary>
                     <ul>
                       {% for patch in entry.patches %}
