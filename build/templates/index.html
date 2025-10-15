@@ -12,22 +12,20 @@
     <link rel="alternate" hreflang="{{ link.hreflang }}" href="{{ link.href }}">
     {% endfor %}
 
-    <!-- Preload LCP image for faster loading -->
-    <!-- Mobile -->
-<link rel="preload" as="image"
-      href="/lib/img/{{ lang }}/hero-mobile.webp"
-      media="(max-width: 480px)"
-      imagesrcset="/lib/img/{{ lang }}/hero-mobile.webp 1x, /lib/img/{{ lang }}/hero-mobile@2x.webp 2x"
-      imagesizes="448px"
-      fetchpriority="high">
+    <!-- Preload the LCP image -->
+    <link rel="preload" as="image"
+        href="/lib/img/{{ lang }}/hero-mobile.webp"
+        imagesrcset="/lib/img/{{ lang }}/hero-mobile.webp 1x, /lib/img/{{ lang }}/hero-mobile@2x.webp 2x"
+        imagesizes="448px"
+        media="(max-width: 480px)"
+        fetchpriority="high">
 
-<!-- Desktop -->
-<link rel="preload" as="image"
-      href="/lib/img/{{ lang }}/hero.webp"
-      media="(min-width: 481px)"
-      imagesrcset="/lib/img/{{ lang }}/hero.webp 1x, /lib/img/{{ lang }}/hero@2x.webp 2x"
-      imagesizes="100vw"
-      fetchpriority="high">
+    <link rel="preload" as="image"
+        href="/lib/img/{{ lang }}/hero.webp"
+        imagesrcset="/lib/img/{{ lang }}/hero.webp 1x, /lib/img/{{ lang }}/hero@2x.webp 2x"
+        imagesizes="100vw"
+        media="(min-width: 481px)"
+        fetchpriority="high">
 
     <!-- Critical CSS - Inlined for immediate render -->
     {% if critical_css %}
@@ -129,13 +127,14 @@
 
             <figure class="hero-image tile container-ratio ratio-2-1">
                 <picture>
-                    <!-- Desktop: Load only on screens > 480px -->
                     <source media="(min-width: 481px)"
-                        srcset="/lib/img/{{ lang }}/hero.webp 1x, /lib/img/{{ lang }}/hero@2x.webp 2x">
-                    <!-- Mobile: Fallback for screens ≤ 480px -->
+                            srcset="/lib/img/{{ lang }}/hero.webp 1x, /lib/img/{{ lang }}/hero@2x.webp 2x">
                     <img src="/lib/img/{{ lang }}/hero-mobile.webp"
                         srcset="/lib/img/{{ lang }}/hero-mobile.webp 1x, /lib/img/{{ lang }}/hero-mobile@2x.webp 2x"
-                        alt="{{ locale_data.hero.images.hero.alt }}" width="448" height="336" fetchpriority="high">
+                        alt="{{ locale_data.hero.images.hero.alt }}"
+                        width="448"
+                        height="336"
+                        fetchpriority="high">
                 </picture>
 
                 <button id="youtube-video-toggle" class="play-btn"
