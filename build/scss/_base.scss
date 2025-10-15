@@ -166,7 +166,7 @@ section {
 
 .mobile-menu-toggle {
   display: none;
-  
+
   @include tablet-down {
     display: block;
   }
