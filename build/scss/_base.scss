@@ -75,10 +75,7 @@ cite {
 h1,
 .h1,
 h2,
-h3,
-h4,
-h5,
-h6 {
+h3 {
     margin: 0;
     padding: 0;
     font-weight: 400;
@@ -123,8 +120,7 @@ h3 {
 
 /* Wrapper */
 .wrapper {
-    max-width: 81.25rem;
-    /* 1300px */
+    max-width: 81.25rem; /* 1300px */
     margin: 0 auto;
 }
 
@@ -161,7 +157,6 @@ section {
     line-height: var(--line-height-2xl);
     text-align: center;
     padding: 0 var(--spacing-2xl);
-    font-weight: 400;
 
     @include tablet-down {
         font-size: var(--font-size-xl);
