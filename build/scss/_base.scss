@@ -1,88 +1,136 @@
 @use 'mixins' as *;
 
-/* Smooth scrolling */
 html {
-  scroll-behavior: smooth;
+    scroll-behavior: smooth;
 }
 
-/* Body base styles */
 body {
-  color: var(--color-primary);
-  font-size: var(--font-size-md);
-  background: var(--color-background);
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  line-height: var(--line-height-md);
-  margin: 0;
-  padding: 0 var(--spacing-xl);
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    color: var(--color-primary);
+    font-size: var(--font-size-md);
+    background: var(--color-background);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;
+    padding: 0 var(--spacing-xl);
+    line-height: var(--line-height-md);
 
-  @include tablet-down {
-    padding: 0 var(--spacing-lg);
-  }
+    @include tablet-down {
+        padding: 0 var(--spacing-lg);
+    }
 }
 
-/* Box-sizing & scroll margin reset */
-*, *::before, *::after {
-  box-sizing: border-box;
-  scroll-margin-top: 4.875rem;
+* {
+    scroll-margin-top: 4.875rem;
 }
 
-/* Body scroll lock */
 .body-no-scroll {
-  overflow: hidden;
+    overflow: hidden;
 }
 
-/* Visually hidden utility */
 .ruh {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  padding: 0;
-  border: 0;
-  clip: rect(0, 0, 0, 0);
-  overflow: hidden;
+    position: absolute;
+            width: 1px;
+            height: 1px;
+            margin: -1px;
+            padding: 0;
+            border: 0;
+            clip: rect(0, 0, 0, 0);
+            overflow: hidden;
 }
 
-/* List & element resets */
-ul, ol, li, p, figure, picture, blockquote, button {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  background: none;
-  list-style: none;
+/* Box Sizing Reset */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/* List Reset */
+ul,
+ol {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+li,
+p,
+figure,
+picture,
+blockquote,
+button {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background: none;
 }
 
 cite {
-  font-style: normal;
+    font-style: normal;
 }
 
-/* Headings */
-h1, .h1, h2, h3, h4, h5, h6 {
-  margin: 0;
-  padding: 0;
-  font-weight: 400;
-  color: var(--color-primary);
+h1,
+.h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
+    color: var(--color-primary);
 }
 
-h1, .h1, h2 { font-size: var(--font-size-xl); line-height: var(--line-height-xl); }
-h1, .h1 {
-  @include mobile { br { display: none; } }
+/* Titles */
+h1,
+.h1,
+h2 {
+    font-size: var(--font-size-xl);
+    line-height: var(--line-height-xl);
 }
-h2 { margin-bottom: 1.375rem; }
-h3 { font-size: var(--font-size-lg); line-height: var(--line-height-lg); }
 
-/* Tiles & wrapper */
-.tile { background-color: var(--color-surface); border-radius: var(--radius-md); }
-.tile-inner { padding: 0.875rem 1rem 1rem; }
+h1,
+.h1 {
+    @include mobile {
+        br {
+            display: none;
+        }
+    }
+}
 
-.wrapper { max-width: 81.25rem; margin: 0 auto; }
+h2 {
+    margin-bottom: 1.375rem;
+}
 
-/* Sections */
-section { margin-top: var(--spacing-6xl); }
+h3 {
+    font-size: var(--font-size-lg);
+    line-height: var(--line-height-lg);
+}
+
+/* Surfaces */
+.tile {
+    background-color: var(--color-surface);
+    border-radius: var(--radius-md);
+}
+
+.tile-inner {
+    padding: 0.875rem 1rem 1rem;
+}
+
+/* Wrapper */
+.wrapper {
+    max-width: 81.25rem;
+    /* 1300px */
+    margin: 0 auto;
+}
+
+section {
+    margin-top: var(--spacing-6xl);
+}
 
 /* Preview Section */
 .preview {
@@ -109,22 +157,14 @@ section { margin-top: var(--spacing-6xl); }
 
 /* Contact Section */
 .contact h2#contact-heading {
-  font-size: var(--font-size-2xl);
-  line-height: var(--line-height-2xl);
-  text-align: center;
-  padding: 0 var(--spacing-2xl);
-  font-weight: 400;
+    font-size: var(--font-size-2xl);
+    line-height: var(--line-height-2xl);
+    text-align: center;
+    padding: 0 var(--spacing-2xl);
+    font-weight: 400;
 
-  @include tablet-down {
-    font-size: var(--font-size-xl);
-    line-height: var(--line-height-xl);
-  }
-}
-
-.mobile-menu-toggle {
-  display: none;
-  
-  @include tablet-down {
-    display: block;
-  }
+    @include tablet-down {
+        font-size: var(--font-size-xl);
+        line-height: var(--line-height-xl);
+    }
 }

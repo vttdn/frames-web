@@ -73,11 +73,12 @@
   
     /* Hover states */
     &:hover {
-      border: 1px solid rgba(var(--color-gray-dark3-rgb), 0.96);
+      border: 1px solid rgb(var(--color-gray-dark4-rgb));
     }
     
     &:active {
-      border: 1px solid rgba(var(--color-gray-dark3-rgb), 0.92);
+      // background: color-mix(in srgb, var(--color-black) 92%, white 8%);
+      border: 1px solid var(--color-gray-dark3);
     }
   }
   
