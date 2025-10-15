@@ -671,8 +671,8 @@
 
                 <ul class="dropdown-content dropdown-dir-top" role="menu">
                     {% for language in all_languages %}
-                    <li>
-                        <a role="menuitem" href="{{ language.url }}">
+                    <li role="menuitem">
+                        <a href="{{ language.url }}">
                             <span>{{ language.name }}</span>
                             {% if language.code == lang %}
                             <span>✓</span>
