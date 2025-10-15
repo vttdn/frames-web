@@ -163,3 +163,11 @@ section {
         line-height: var(--line-height-xl);
     }
 }
+
+.mobile-menu-toggle {
+  display: none;
+  
+  @include tablet-down {
+    display: block;
+  }
+}
