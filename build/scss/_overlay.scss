@@ -172,13 +172,6 @@ iframe {
 }
 
 // Menu
-.mobile-menu-toggle {
-  display: none;
-  
-  @include tablet-down {
-    display: block;
-  }
-}
 .modal-menu {
   width: 100%;
   height: 100%;
