@@ -20,6 +20,21 @@
   grid-template-columns: repeat(4, 1fr);
 }
 
+/* Grid Item Utilities */
+.col-span-2 {
+  grid-column: span 2;
+}
+
+.col-start-2 {
+  grid-column-start: 2;
+}
+
+@include tablet-down {
+  .col-span-2-mobile {
+    grid-column: span 2;
+  }
+}
+
 /* Responsive behavior */
 @include large-tablet {
   .features.grid-4col,
