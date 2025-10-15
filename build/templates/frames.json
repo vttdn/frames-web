@@ -14,7 +14,7 @@
           "installUrl": "{{ appstore_url }}",
           "softwareVersion": "{{ app_version_ios }}",
           "screenshot": "{{ canonical_url }}/og-image.jpg",
-          "isAccessibleForFree": false,
+          "isAccessibleForFree": true,
           "keywords": "{{ seo_meta_keywords }}",
           "countriesSupported": [
             "US","CA",
