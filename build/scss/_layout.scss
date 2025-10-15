@@ -8,10 +8,6 @@
 }
 
 /* Layout variants */
-.grid-full {
-  grid-template-columns: 1fr;
-}
-
 .grid-2col {
   grid-template-columns: repeat(2, 1fr);
 }

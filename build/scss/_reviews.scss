@@ -60,15 +60,3 @@
   display: block;
   grid-column: 1 / span 2;
 }
-
-.review-card {
-//   opacity: 0;
-//   display: none;       // hide inactive reviews
-//   pointer-events: none;
-}
-
-.review-card.active {
-//   display: block;      // show active review
-//   opacity: 1;
-//   pointer-events: auto;
-}
