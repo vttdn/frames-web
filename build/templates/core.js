@@ -308,11 +308,22 @@ document.addEventListener('DOMContentLoaded', () => {
   const nextBtn = document.querySelector('.review-navigation .next');
   let current = 0;
 
+  // Initialize: add .ruh to all except the first
+  reviews.forEach((r, i) => {
+    if (i !== 0) r.classList.add('ruh');
+  });
+
   const showReview = (index) => {
-    reviews.forEach((r, i) => r.classList.toggle('active', i === index));
+    reviews.forEach((r, i) => {
+      if (i === index) {
+        r.classList.remove('ruh'); // active one loses .ruh
+      } else {
+        r.classList.add('ruh'); // others get .ruh
+      }
+    });
   };
 
-  // Initialize first review on page load
+  // Initialize first review
   showReview(current);
 
   prevBtn.addEventListener('click', () => {
@@ -325,3 +336,4 @@ document.addEventListener('DOMContentLoaded', () => {
     showReview(current);
   });
 });
+
