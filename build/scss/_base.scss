@@ -97,7 +97,14 @@ section { margin-top: var(--spacing-6xl); }
     justify-content: center;
   }
 
-  img { max-width: 100%; width: 100%; height: auto; }
+  figure {
+    > * {
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+  }
+  img { max-width: 60%; width: 60%; height: auto; }
 }
 
 /* Contact Section */
