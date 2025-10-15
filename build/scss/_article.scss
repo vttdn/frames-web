@@ -24,7 +24,7 @@
 
   h2.h1 a {
     &:hover {
-      color: rgb(from var(--color-primary) r g b / 0.90);
+      color: rgba(var(--color-white-rgb), 0.9);
     }
   }
 
@@ -141,10 +141,10 @@
     text-underline-offset: .125em;
     text-decoration: underline;
     text-decoration-thickness: 1px;
-    text-decoration-color: color-mix(in srgb, var(--color-white) 56%, transparent);
+    text-decoration-color: rgba(var(--color-white-rgb), 0.56);
 
     &:hover {
-      color: rgb(from var(--color-primary) r g b / 0.82);
+      color: rgba(var(--color-white-rgb), 0.82);
     }
   }
 }

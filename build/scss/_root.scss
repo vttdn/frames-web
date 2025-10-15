@@ -1,12 +1,20 @@
 :root {
     /* Color Palette */
     --color-black: #0C0B14;
-    --color-white: #ECECED;
     --color-accent: #FF375F;
-    --color-gray: color-mix(in srgb, var(--color-white) 56%, transparent);
-    --color-gray-dark: #1C1C1E;
-    --color-gray-dark2: #2C2C2E;
-    --color-gray-dark3: #3A3A3C;
+    --color-white-rgb: 236, 236, 237;
+    --color-white: rgb(var(--color-white-rgb));
+    --color-gray: rgba(var(--color-white-rgb), 0.56);
+    
+    /* Dark grays RGB */
+    --color-gray-dark-rgb: 28, 28, 30;
+    --color-gray-dark2-rgb: 44, 44, 46;
+    --color-gray-dark3-rgb: 58, 58, 60;
+
+    /* Full RGB colors */
+    --color-gray-dark: rgb(var(--color-gray-dark-rgb));
+    --color-gray-dark2: rgb(var(--color-gray-dark2-rgb));
+    --color-gray-dark3: rgb(var(--color-gray-dark3-rgb));
 
     --color-background: #000;
     --color-primary: var(--color-white);

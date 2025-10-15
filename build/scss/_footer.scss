@@ -9,7 +9,7 @@
 
     a {
         &:hover {
-            color: rgb(from var(--color-primary) r g b / 0.82);
+            color: rgba(var(--color-white-rgb), 0.82);
         }
     }
 

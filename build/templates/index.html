@@ -103,7 +103,7 @@
         <section class="hero" aria-labelledby="hero-heading">
             <div class="hero-content flex flex-col gap-xl">
                 <h1 class="ruh" id="hero-heading">{{ locale_data.hero.heading_seo|safe }}</h1>
-                <div class="h1">{{ locale_data.hero.heading|safe }}</div>
+                <p class="h1">{{ locale_data.hero.heading|safe }}</p>
                 <a href="{{ locale_data.urls.appstore_macos }}" class="btn btn-md btn-light desktop-only"
                     aria-label="{{ locale_data.hero.button_macos_aria_label }}">
                     <span>{{ locale_data.hero.button_macos_text }}</span>
@@ -207,6 +207,9 @@
             <div class="grid reviews-inner grid-4col">
                 <!-- Review cards -->
                 <article class="review-card flex flex-col active" data-review="0">
+                    <header>
+                        <h3 class="ruh">{{ locale_data.reviews.review1.title }}</h3>
+                    </header>
                     <blockquote class="review-quote">
                         <p>"{{ locale_data.reviews.review1.quote }}"</p>
                     </blockquote>
@@ -227,6 +230,9 @@
                 </article>
 
                 <article class="review-card flex flex-col" data-review="1">
+                    <header>
+                        <h3 class="ruh">{{ locale_data.reviews.review2.title }}</h3>
+                    </header>
                     <blockquote class="review-quote">
                         <p>"{{ locale_data.reviews.review2.quote }}"</p>
                     </blockquote>
@@ -247,6 +253,10 @@
                 </article>
 
                 <article class="review-card flex flex-col" data-review="2">
+                    <header>
+                        <h3 class="ruh">{{ locale_data.reviews.review3.title }}</h3>
+                    </header>
+
                     <blockquote class="review-quote">
                         <p>"{{ locale_data.reviews.review3.quote }}"</p>
                     </blockquote>
@@ -267,6 +277,10 @@
                 </article>
 
                 <article class="review-card flex flex-col" data-review="3">
+                    <header>
+                        <h3 class="ruh">{{ locale_data.reviews.review4.title }}</h3>
+                    </header>
+                    
                     <blockquote class="review-quote">
                         <p>"{{ locale_data.reviews.review4.quote }}"</p>
                     </blockquote>
@@ -287,6 +301,10 @@
                 </article>
 
                 <article class="review-card flex flex-col" data-review="4">
+                    <header>
+                        <h3 class="ruh">{{ locale_data.reviews.review5.title }}</h3>
+                    </header>
+
                     <blockquote class="review-quote">
                         <p>"{{ locale_data.reviews.review5.quote }}"</p>
                     </blockquote>
@@ -307,6 +325,10 @@
                 </article>
 
                 <article class="review-card flex flex-col" data-review="5">
+                    <header>
+                        <h3 class="ruh">{{ locale_data.reviews.review6.title }}</h3>
+                    </header>
+
                     <blockquote class="review-quote">
                         <p>"{{ locale_data.reviews.review6.quote }}"</p>
                     </blockquote>
@@ -327,6 +349,10 @@
                 </article>
 
                 <article class="review-card flex flex-col" data-review="4">
+                    <header>
+                        <h3 class="ruh">{{ locale_data.reviews.review7.title }}</h3>
+                    </header>
+
                     <blockquote class="review-quote">
                         <p>"{{ locale_data.reviews.review7.quote }}"</p>
                     </blockquote>
