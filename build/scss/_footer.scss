@@ -20,6 +20,10 @@
     }
 }
 
+.compliance-icon {
+    margin-right: 3px; /* 3px */
+}
+
 .footer-links {
     @include tablet-down {
         grid-template-columns: repeat(2, 1fr) !important;
