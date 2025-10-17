@@ -1,0 +1,393 @@
+{
+  "meta": {
+    "title": "Frames: Filmivalokuvaussovellus Muistiinpanoihin & Metatietoihin",
+    "description": "Frames on filmivalokuvaussovellus analogisille valokuvaajille. Kirjaa jokainen kuva, seuraa kamera-asetuksia, järjestä filmit ja tallenna EXIF-metatiedot.",
+    "locale": "fi_FI",
+    "canonical_url": "https://withframes.com/fi/",
+    "lang": "fi",
+    "twitter_card": "summary_large_image",
+    "twitter_site": "@withframes",
+    "twitter_creator": "@withframes",
+    "og_type": "website",
+    "og_site_name": "Frames"
+  },
+  "company": {
+    "description": "Frames on iOS- ja macOS-sovellus, joka auttaa valokuvauksen harrastajia kirjaamaan, järjestämään ja seuraamaan heidän analogista valokuvaprosessiaan."
+  },
+  "actions": {
+    "watch": "Katso",
+    "close": "Sulje"
+  },
+  "header": {
+    "logo_text": "Frames",
+    "logo_aria_label": "Frames Etusivu",
+    "navigation": {
+      "aria_label": "Päänavigaatio",
+      "features": "Ominaisuudet",
+      "documentation": "Dokumentaatio",
+      "changelog": "Muutosloki"
+    },
+    "buttons": {
+      "share": "Jaa",
+      "download": "Lataa"
+    }
+  },
+  "share_dropdown": {
+    "facebook": "Facebook",
+    "twitter": "Twitter / X",
+    "linkedin": "LinkedIn",
+    "whatsapp": "WhatsApp",
+    "reddit": "Reddit",
+    "email": "Sähköposti"
+  },
+  "mobile_menu": {
+    "open_aria_label": "Avaa mobiilivalikko",
+    "close_aria_label": "Sulje mobiilivalikko",
+    "navigation_aria_label": "Mobiilinavigaatio",
+    "features": "Ominaisuudet",
+    "documentation": "Dokumentaatio",
+    "changelog": "Muutosloki",
+    "privacy": "Tietosuoja"
+  },
+  "tooltip": {
+    "label_coming_soon": "Tulossa Pian"
+  },
+  "hero": {
+    "heading_seo": "Frames-filmivalokuvaussovellus: Tallenna muistiinpanot ja metatiedot analoogikuvaustasi varten",
+    "heading": "Olennainen valokuvamuistikirja,<br>\nsuunniteltu analogisille valokuvaajille.",
+    "button_macos_text": "Lataa macOS:lle",
+    "button_macos_aria_label": "Lataa Frames macOS:lle",
+    "button_ios_text": "Lataa iOS:lle",
+    "button_ios_aria_label": "Lataa Frames iOS:lle",
+    "play_button_aria_label": "Toista videodemo",
+    "images": {
+      "hero": {
+        "src": "/lib/img/fi/hero.png",
+        "alt": "Frames filmivalokuvaussovellus Macille ja iPhonelle, suunniteltu filmirullien kirjaamiseen, metatietojen hallintaan ja analogisten valokuvien arkistointiin."
+      },
+      "hero_mobile": {
+        "src": "/lib/img/fi/hero-mobile.png",
+        "alt": "Frames filmivalokuvaussovellus Macille ja iPhonelle, suunniteltu filmirullien kirjaamiseen, metatietojen hallintaan ja analogisten valokuvien arkistointiin."
+      }
+    },
+    "featured": {
+      "aria_label": "Esitellyt julkaisut",
+      "text": "Esillä koko valokuvausyhteisössä."
+    }
+  },
+  "preview": {
+    "heading": "Filmivalokuvaussovelluksen esikatselu",
+    "images": {
+      "preview1": {
+        "src": "/lib/img/fi/preview1.png",
+        "alt": "Frames filmivalokuvaussovellus näyttää tallennuskäyttöliittymän suljinaika- ja aukkovalinnoilla filmialtistusten kirjaamiseen."
+      },
+      "preview2": {
+        "src": "/lib/img/fi/preview2.png",
+        "alt": "Frames analoginen valokuvaussovellus näyttää yksityiskohtaiset metatietovaihtoehdot, kuten valotus, filmi, kamera, objektiivi ja kuvausolosuhteet."
+      },
+      "preview3": {
+        "src": "/lib/img/fi/preview3.png",
+        "alt": "Frames filmivalokuvaussovellus macOS:llä näyttää järjestetyt filmirullat kirjastonäkymässä analogisten valokuvien kansioita selatessa."
+      },
+      "preview4": {
+        "src": "/lib/img/fi/preview4.png",
+        "alt": "Frames analoginen valokuvaussovellus esittelee laiteasetukset kameran, objektiivin ja suodattimen tiedoilla analogisen valokuvausvälineistön hallintaan."
+      },
+      "preview5": {
+        "src": "/lib/img/fi/preview5.png",
+        "alt": "Frames filmivalokuvaussovellus vie tiedot .frames-, .txt- tai .gpx-tiedostoina analogisten valokuvamuistiinpanojen ja metatietojen varmuuskopiointiin ja jakamiseen."
+      },
+      "preview6": {
+        "src": "/lib/img/fi/preview6.png",
+        "alt": "Frames analoginen valokuvaussovelluksen metatiedot integroituna Finderin, Adobe Lightroom, Adobe Bridge, Google Photos, Darktable ja Flickr kanssa."
+      }
+    }
+  },
+  "reviews": {
+    "heading": "Mitä käyttäjät sanovat filmivalokuvaussovelluksestamme",
+    "aria_label": "Asiakasarvostelut",
+    "review1": {
+      "title": "Luotettava Filmikuvaussovellus, Joka Siirtää Kuvaustiedot",
+      "quote": "Helppokäyttöinen, luotettava sovellus, joka siirtää kuvaustiedot, mukaan lukien sijaintitiedot, skannattujen negatiivien EXIF-tietoihin. Kehittäjä kuuntelee palautetta ja parantaa jatkuvasti. Erinomainen!",
+      "author_name": "Maria Garcia",
+      "datetime": "2025-07-12"
+    },
+    "review2": {
+      "title": "Täydellinen Sovellus Filmikuvien Kirjaamiseen Ilman Muistikirjoja",
+      "quote": "Kotona filmejä kehittävänä valokuvaajana rakastan, kuinka Frames antaa minun kirjata jokaisen kuvan ilman muistikirjojen vaivaa. Se on täydellinen ja käytännöllinen ratkaisu. Vaihdoin Pro-versioon enkä ole katunut!",
+      "author_name": "BHenriquez",
+      "datetime": "2025-05-08"
+    },
+    "review3": {
+      "title": "Helppo Valotuksen ja Sijainnin Tallentaminen Filmikuvauksessa",
+      "quote": "Loistava valotuksen ja sijainnin tallentamiseen filmikuvauksessa, ihanteellinen asetusten analysointiin tai EXIF-tyyppisten tietojen säilyttämiseen. Kehittäjä korjasi virheen päivässä. Erittäin suositeltava!",
+      "author_name": "Emma Richardson",
+      "datetime": "2025-08-23"
+    },
+    "review4": {
+      "title": "Frames Pidättää Filmikuvaajat Järjestyksessä ja Tarkkaavaisina",
+      "quote": "Palatessani filmiin kaipaisin metatietoja kunnes löysin Framesin. Se korvaa paperimuistiinpanot, auttaa pysymään järjestyksessä ja pitää minut tarkkaavaisena kuvatessa. Pakollinen filmivalokuvaajille!",
+      "author_name": "Roger Nordstrom Photo",
+      "datetime": "2025-04-15"
+    },
+    "review5": {
+      "title": "Selkeä, Yksinkertainen ja Paras Filmimuistiinpanosovellus",
+      "quote": "Huomaa että kehittäjä käyttää sovellusta itsekin. Jokainen pieni yksityiskohta tuntuu tarkoitukselliselta ja käyttöliittymä on selkeä ja yksinkertainen. Kaikki toimii sujuvasti. Helposti paras filmimuistiinpanosovellus!",
+      "author_name": "James Anderson",
+      "datetime": "2025-09-05"
+    },
+    "review6": {
+      "title": "Nopea, Yksityinen ja Monipuolinen Analogisen Valokuvauksen Sovellus",
+      "quote": "Paras analogisen valokuvauksen sovellus, jota olen käyttänyt. Yksinkertainen, nopea ja kaikki ominaisuudet, joita tarvitsen työn järjestämiseen. Ei mainoksia, ei seurantaa, yksityisyys säilyy.",
+      "author_name": "Ingrid Lindholm",
+      "datetime": "2025-10-03"
+    },
+    "review7": {
+      "title": "Tyylikäs ja Huolellisesti Suunniteltu Sovellus Filmirullien Hallintaan",
+      "quote": "Sovellus on yksinkertainen ja tekee juuri sen, mitä sen pitää. Tykkään, että voin nimetä nykyiset filmirullani, sillä joskus unohdan, millä kameralla kuvasin. Käyttöliittymä on selkeä, elegantti ja hyvin tehty.",
+      "author_name": "Hivonmarius",
+      "datetime": "2025-10-11"
+    },
+    "details": {
+      "description1": "Suunniteltu filmiyhteisön palautteen kanssa tekemään tietojen kirjaamisesta selkeää ja nautinnollista.",
+      "description2": "Liity tuhansiin valokuvaajiin, jotka tuovat järjestystä ja ymmärrystä filmivalokuvauskokemuukseensa Framesin avulla."
+    },
+    "navigation": {
+      "aria_label": "Arvostelunavigaatio",
+      "previous_aria_label": "Edellinen arvostelu",
+      "next_aria_label": "Seuraava arvostelu"
+    }
+  },
+  "features": {
+    "heading_seo": "Analoogikuvaussovelluksen ominaisuudet",
+    "heading": "Ominaisuudet",
+    "feature1": {
+      "label": "Arkisto",
+      "title": "Järjestä Kirjasto",
+      "description": "Selaa, järjestä ja hallitse kaikkia filmirulliasi vaivattomasti pitäen jokainen istunto selkeästi jäsenneltynä, helposti löydettävänä ja täydellisesti järjestettynä."
+    },
+    "feature2": {
+      "label": "Välineet",
+      "title": "Hallitse Välineitä",
+      "description": "Pidä yksityiskohtainen kirjaa kameroistasi, objektiiveistasi ja suodattimistasi pysyäksesi johdonmukaisena ja saadaksesi kaikki välinetiedot valmiina jokaiseen kuvaukseen."
+    },
+    "feature3": {
+      "label": "Tallenna",
+      "title": "Tallenna Asetukset",
+      "description": "Kirjaa aukko, suljinaika, filmityyppi ja sijaintitiedot välittömästi jokaisesta kuvasta pitäen jokaisen kuvan tiedot tarkkana ja saatavilla."
+    },
+    "feature4": {
+      "label": "Historia",
+      "title": "Tarkastele Kuvia",
+      "description": "Katso taaksepäin kirjattuja rulliasi tarkastellaksesi asetuksia, analysoidaksesi aiempia istuntoja, oppiaksesi niistä ja hiodaksesi filmivalokuvaustyötäsi."
+    },
+    "feature5": {
+      "label": "Viennit",
+      "title": "Vie Tiedot",
+      "description": "Tallenna tai jaa tietueesi .frames-, .txt- tai .gpx-tiedostoina varmuuskopiointia, jakamista tai integrointia varten muiden sovellusten tai työnkulkujen kanssa."
+    },
+    "feature6": {
+      "label": "Metatiedot",
+      "title": "Tallenna Metatiedot",
+      "description": "Upota kaikki tallennetut tiedot skannattuihin kuviin säilyttääksesi analogiset tiedot pitäen samalla digitaaliset arkistosi täysin synkronoituina."
+    },
+    "feature7": {
+      "label": "Tuki",
+      "title": "Sähköpostituki",
+      "description": "Ota yhteyttä kehittäjään suoraan saadaksesi apua, jaa palautetta tai ehdota uusia ominaisuuksia ja parannuksia milloin tahansa, nopeilla vastauksilla."
+    }
+  },
+  "pricing": {
+    "heading_seo": "Analoogikuvaussovelluksen hinnoittelu",
+    "heading": "Hinnoittelu",
+    "label_period": "Kuukausittain",
+    "label_period_yearly": "Vuosittain",
+    "label_subscription_monthly": "Kuukausitilaus",
+    "label_subscription_yearly": "Vuosittainen tilaus",
+    "currency": "EUR",
+    "ios": {
+      "title": "iOS",
+      "price": "1,99 €",
+      "price_yearly": "19,99 €",
+      "period": "/kk",
+      "period_yearly": "/vuosi",
+      "price_value_monthly": "1.99",
+      "price_value_yearly": "19.99",
+      "includes_label": "Sisältää:",
+      "features": [
+        "Rajoittamattomat filmirullat",
+        "Alikansiot",
+        "Vie tiedot .frames-muodossa",
+        "Vie tiedot .txt- tai .gpx-muodossa"
+      ],
+      "button_text": "Kokeile Ilmaiseksi"
+    },
+    "macos": {
+      "title": "macOS",
+      "price": "1,99 €",
+      "price_yearly": "19,99 €",
+      "period": "/kk",
+      "period_yearly": "/vuosi",
+      "price_value_monthly": "1.99",
+      "price_value_yearly": "19.99",
+      "includes_label": "Sisältää:",
+      "features": [
+        "Tallenna metatiedot kuviin"
+      ],
+      "button_text": "Kokeile Ilmaiseksi"
+    },
+    "checkmark": "✓"
+  },
+  "qa": {
+    "heading_seo": "Filmivalokuvaajilta",
+    "heading": "Kysymyksiä & Vastauksia",
+    "question1": {
+      "question": "Mitä metatietoja voin tallentaa?",
+      "answer": "Framesin avulla voit kirjata yksityiskohtaiset tiedot jokaisesta kuvasta, mukaan lukien kamera, objektiivi, suodattimet, kuvanumero, polttoväli, aukko, suljinaika, ISO, mittaustila, filmityyppi, salama, GPS-sijainti, aikaleima ja mukautetut muistiinpanot varmistaen, ettet koskaan menetä tärkeitä analogisen valokuvauksen yksityiskohtia."
+    },
+    "question2": {
+      "question": "Mitä kuvamuotoja tuetaan?",
+      "answer": "Frames tukee JPEG-, TIFF- ja DNG-muotoja, jolloin voit upottaa tallennetut metatietosi suoraan skannattuihin analogisiin kuviin saumattomaan järjestelyyn ja työnkulkuun kaikilla laitteillasi."
+    },
+    "question3": {
+      "question": "Onko Frames saatavilla Androidille tai Windowsille?",
+      "answer": "Frames on tällä hetkellä saatavilla iPhonelle ja macOS:lle. Androidin ja Windowsin versiot on suunniteltu vuodelle 2026, ja sillä välin voit jakaa ja hallita tietojasi .frames-tiedostovientiä käyttäen."
+    },
+    "question4": {
+      "question": "Mitä suljinaika- ja aukkoarvoja tuetaan?",
+      "answer": "Frames tarjoaa oletussarjat, jotka kattavat useimmat objektiivit ja kamerat, ja voit myös määrittää mukautettuja sarjoja välineillesi, mikä tekee siitä yhteensopivan minkä tahansa suljinaika- tai aukkoarvojen kanssa."
+    },
+    "question5": {
+      "question": "Voinko kirjata jalustoja tai lisävarusteita?",
+      "answer": "Kyllä, Framesin avulla voit tallentaa jalustoja, salamoita ja muita lisävarusteita. On myös ylimääräinen muistiinpanokenttä, johon voit lisätä mitä tahansa mukautettuja yksityiskohtia."
+    },
+    "question6": {
+      "question": "Mitä suunnitelmia on tulevia päivityksiä varten?",
+      "answer": "Tulevaisuuden suunnitelmiin kuuluu työnkulkuominaisuuksien laajentaminen, laitteiden välisen integraation parantaminen ja yhteisön pyytämien uusien työkalujen lisääminen tehdäkseen analogisesta valokuvauskirjaamisesta entistä joustavampaa ja tehokkaampaa."
+    }
+  },
+  "contact": {
+    "heading": "Haluamme kuulla ideasi ja ajatuksesi.",
+    "button_text": "Lähetä meille sähköpostia"
+  },
+  "footer": {
+    "logo_alt": "Frames",
+    "compliance": "GDPR-yhteensopiva",
+    "connect": {
+      "heading": "Yhdistä",
+      "instagram": "Instagram",
+      "threads": "Threads",
+      "facebook": "Facebook",
+      "bluesky": "Bluesky",
+      "mastodon": "Mastodon",
+      "twitter": "Twitter"
+    },
+    "resources": {
+      "heading": "Resurssit",
+      "privacy_policy": "Tietosuojaseloste",
+      "terms_of_service": "Käyttöehdot",
+      "documentation": "Dokumentaatio",
+      "changelog": "Muutosloki",
+      "youtube": "Youtube"
+    },
+    "product": {
+      "heading": "Tuote",
+      "frames_ios": "Frames iOS",
+      "frames_macos": "Frames macOS"
+    },
+    "copyright": "© 2025 Vincent Tantardini.",
+    "all_rights_reserved": "Kaikki oikeudet pidätetään.",
+    "language_dropdown": {
+      "label": "Suomi",
+      "aria_label": "Kielivalitsin"
+    }
+  },
+  "urls": {
+    "appstore_ios": "https://apps.apple.com/fi/app/frames-valokuvamuistiinpanot/id6744057317?l=fi",
+    "appstore_macos": "https://apps.apple.com/fi/app/frames-valokuvametatiedot/id6744063354?l=fi",
+    "documentation": "doc/",
+    "changelog": "changelog/",
+    "privacy": "tietosuojaseloste/"
+  },
+  "video": {
+    "title": "Filmivalokuvaussovellus Rulliesi Kirjaamiseen & Seuraamiseen (Frames iPhonelle)",
+    "description": "Tutustu Framesiin, omistettuun filmivalokuvaussovellukseen, joka on suunniteltu analogisille valokuvaajille. Frames tekee analogisen valokuvauksen hallinnasta vaivatonta auttaen tallentamaan paitsi kuvat myös tarinan jokaisen rullan ja kuvan takana. Työskenteletkö 35mm-, keskiformaatti- tai suurformaattifilmillä, Frames pitää työnkulkusi järjestyksessä ja varmistaa, että valokuvan metatiedot pysyvät kuviesi mukana jopa skannauksen jälkeen."
+  },
+  "changelog": {
+    "meta": {
+      "title": "Muutosloki - Frames",
+      "description": "Framesin muutosloki. Pysy ajan tasalla Framesin uusimmista ominaisuuksista ja parannuksista, filmivalokuvaussovelluksesta.",
+      "canonical_url": "https://withframes.com/fi/changelog/"
+    },
+    "heading": "Muutosloki",
+    "labels": {
+      "improvements": "Parannukset",
+      "fixes": "Korjaukset",
+      "patches": "Päivitykset",
+      "platform_ios": "iOS",
+      "platform_macos": "macOS",
+      "previous": "Edellinen",
+      "next": "Seuraava"
+    },
+    "pagination": {
+      "previous": "Edellinen",
+      "next": "Seuraava",
+      "page": "Sivu",
+      "newer_posts": "Uudemmat julkaisut",
+      "older_posts": "Vanhemmat julkaisut"
+    }
+  },
+  "privacy": {
+    "meta": {
+      "title": "Tietosuojaseloste - Frames",
+      "description": "Lue Framesin tietosuojaseloste, analogisen valokuvamuistikirjasovelluksen. Opi kuinka käsittelemme tietojasi huolellisesti sekä mobiilissa että tietokoneessa.",
+      "canonical_url": "https://withframes.com/fi/tietosuojaseloste/"
+    },
+    "heading": "Tietosuojaseloste",
+    "headingtoc": "Sisällys",
+    "section1": {
+      "heading": "Johdanto",
+      "paragraph1": "Framesissa yksityisyytesi on etusijalla. Tämä tietosuojakäytäntö selittää, miten käsittelemme tietoja iOS- ja macOS-sovelluksissamme sekä verkkosivustollamme. Olemme sitoutuneet pitämään tietosi turvassa, toimimaan läpinäkyvästi ja antamaan sinulle täyden hallinnan. Emme seuraa sinua emmekä kerää tarpeettomia tietoja — sinä päätät aina, mitä tietoja jaat tai viet ulos."
+    },
+    "section2": {
+      "heading": "Frames iOS- ja macOS-sovelluksille",
+      "paragraph1a": "Frames ei kerää, tallenna eikä jaa mitään henkilökohtaisia tietoja.",
+      "paragraph1b": "Kaikki sovellukseen syöttämäsi tiedot tallennetaan paikallisesti laitteellesi, eikä niitä koskaan lähetetä millekään palvelimelle tai kolmannelle osapuolelle.",
+      "paragraph2": "Sovellus käyttää Applen StoreKit-kehystä tilausten hallintaan. Tämä prosessi hoidetaan kokonaan Applen toimesta, eikä kehittäjällä ole pääsyä henkilötietoihin.",
+      "paragraph3": "Frames ei sisällä analytiikkaa, seurantaa tai verkkopalveluita. Se ei muodosta verkkoyhteyksiä, paitsi kun käytetään laitteen sijaintipalvelua (CLLocationManager) GPS-koordinaattien tallentamiseen, jos käyttäjä niin valitsee.",
+      "paragraph4": "Kun viet tietoja ulos, sovellus voi luoda .frames-, .txt- tai .gpx-tiedostoja. Näiden tiedostojen jakaminen käyttöjärjestelmän jakovalikon kautta on täysin sinun hallinnassasi. Kehittäjällä ei ole pääsyä jaettuun sisältöön eikä se seuraa sitä.",
+      "paragraph5": "Frames pyytää seuraavat järjestelmäluvat:",
+      "permissions": {
+        "line1": {
+          "title": "Kamera",
+          "description": "kuvien ottamiseen suoraan sovelluksesta."
+        },
+        "line2": {
+          "title": "Kuvat",
+          "description": "viitekuvien valitsemiseen kirjastostasi."
+        },
+        "line3": {
+          "title": "Sijainti (sovelluksen käytön aikana)",
+          "description": "GPS-koordinaattien tallentamiseen, kun otat kuvia Framesissa."
+        }
+      }
+    },
+    "section3": {
+      "heading": "withframes.com-verkkosivusto",
+      "paragraph1a": "Framesin verkkosivusto on staattinen sivusto, jota isännöidään GitHub Pagesissa.",
+      "paragraph1b": "Sivusto ei käytä evästeitä, analytiikkaa tai seurantaskriptejä. Mitään henkilötietoja ei kerätä tai tallenneta.",
+      "paragraph2": "Cloudflare tarjoaa anonyymejä, perusliikennetilastoja palvelinlokeihin perustuen. Nämä lokit eivät sisällä henkilötietoja, eikä niitä käytetä profilointiin tai markkinointiin.",
+      "paragraph3": "Sivustolla on linkkejä ulkoisille verkkosivuille ja sosiaalisen median alustoille sisällön jakamista tai julkaisujen mainitsemista varten. Näiden sivustojen käyttö on vapaaehtoista ja niiden omien tietosuojakäytäntöjen alaista.",
+      "paragraph4": "Sivustolla ei ole lomakkeita, uutiskirjeitä tai muita vuorovaikutteisia ominaisuuksia, jotka keräisivät tietoja."
+    },
+    "section4": {
+      "heading": "Yhteydenotto",
+      "paragraph1": "Jos sinulla on kysyttävää tai huolenaiheita tästä tietosuojakäytännöstä, voit ottaa yhteyttä kehittäjään osoitteessa:"
+    },
+    "last_updated": "12. lokakuuta 2025",
+    "last_updated_iso": "2025-10-12",
+    "last_updated_label": "Viimeksi päivitetty",
+    "button_home": "Etusivu"
+  }
+}

@@ -1,0 +1,393 @@
+{
+  "meta": {
+    "title": "Frames: Filmfotografi App for Notater & Metadata",
+    "description": "Frames er en filmfotografi app for analoge fotografer. Logg hvert bilde, spor kamerainnstillinger, organiser filmer og lagre EXIF metadata på iPhone & Mac.",
+    "locale": "nb_NO",
+    "canonical_url": "https://withframes.com/nb/",
+    "lang": "nb",
+    "twitter_card": "summary_large_image",
+    "twitter_site": "@withframes",
+    "twitter_creator": "@withframes",
+    "og_type": "website",
+    "og_site_name": "Frames"
+  },
+  "company": {
+    "description": "Frames er en iOS- og macOS-app som hjelper filmfotografer med å loggføre, organisere og spore deres analoge fotografiprosess."
+  },
+  "actions": {
+    "watch": "Se",
+    "close": "Lukk"
+  },
+  "header": {
+    "logo_text": "Frames",
+    "logo_aria_label": "Frames Hjem",
+    "navigation": {
+      "aria_label": "Hovednavigasjon",
+      "features": "Funksjoner",
+      "documentation": "Dokumentasjon",
+      "changelog": "Endringslogg"
+    },
+    "buttons": {
+      "share": "Del",
+      "download": "Last ned"
+    }
+  },
+  "share_dropdown": {
+    "facebook": "Facebook",
+    "twitter": "Twitter / X",
+    "linkedin": "LinkedIn",
+    "whatsapp": "WhatsApp",
+    "reddit": "Reddit",
+    "email": "E-post"
+  },
+  "mobile_menu": {
+    "open_aria_label": "Åpne mobilmeny",
+    "close_aria_label": "Lukk mobilmeny",
+    "navigation_aria_label": "Mobilnavigasjon",
+    "features": "Funksjoner",
+    "documentation": "Dokumentasjon",
+    "changelog": "Endringslogg",
+    "privacy": "Personvern"
+  },
+  "tooltip": {
+    "label_coming_soon": "Kommer Snart"
+  },
+  "hero": {
+    "heading_seo": "Frames Filmfotografi-app: Ta notater og metadata for din analoge fotografering",
+    "heading": "Den essensielle fotografi-notatboken,<br>\nlaget for analoge fotografer.",
+    "button_macos_text": "Last ned for macOS",
+    "button_macos_aria_label": "Last ned Frames for macOS",
+    "button_ios_text": "Last ned for iOS",
+    "button_ios_aria_label": "Last ned Frames for iOS",
+    "play_button_aria_label": "Spill av videodemo",
+    "images": {
+      "hero": {
+        "src": "/lib/img/nb/hero.png",
+        "alt": "Frames filmfotografi app for Mac og iPhone, designet for å logge filmruller, administrere metadata og arkivere analoge bilder."
+      },
+      "hero_mobile": {
+        "src": "/lib/img/nb/hero-mobile.png",
+        "alt": "Frames filmfotografi app for Mac og iPhone, designet for å logge filmruller, administrere metadata og arkivere analoge bilder."
+      }
+    },
+    "featured": {
+      "aria_label": "Fremhevede publikasjoner",
+      "text": "Omtalt i fotografisamfunnet."
+    }
+  },
+  "preview": {
+    "heading": "Forhåndsvisning av filmfotografi-app",
+    "images": {
+      "preview1": {
+        "src": "/lib/img/nb/preview1.png",
+        "alt": "Frames filmfotografi app viser opptaksgrensesnitt med lukkertid og blendervalg for logging av filmeksponeringer."
+      },
+      "preview2": {
+        "src": "/lib/img/nb/preview2.png",
+        "alt": "Frames analog fotografi app viser detaljerte metadataalternativer inkludert eksponering, filmtype, kamera, objektiv og fotograferingsforhold."
+      },
+      "preview3": {
+        "src": "/lib/img/nb/preview3.png",
+        "alt": "Frames filmfotografi app på macOS viser organiserte filmruller i bibliotekvisningen når du blar gjennom mapper med analoge bilder."
+      },
+      "preview4": {
+        "src": "/lib/img/nb/preview4.png",
+        "alt": "Frames analog fotografi app presenterer utstyrsinnstillinger med kamera-, objektiv- og filterdetaljer for å administrere analogt fotoutstyr."
+      },
+      "preview5": {
+        "src": "/lib/img/nb/preview5.png",
+        "alt": "Frames filmfotografi app eksporterer data som .frames, .txt eller .gpx-filer for sikkerhetskopiering og deling av analoge fotologger og metadata."
+      },
+      "preview6": {
+        "src": "/lib/img/nb/preview6.png",
+        "alt": "Frames analog fotografi app metadata integrert med Finder, Adobe Lightroom, Adobe Bridge, Google Photos, Darktable og Flickr."
+      }
+    }
+  },
+  "reviews": {
+    "heading": "Hva brukerne sier om vår filmfotografi-app",
+    "aria_label": "Kundeanmeldelser",
+    "review1": {
+      "title": "Pålitelig filmfotografi-app som overfører fotograferingsdata til EXIF",
+      "quote": "Enkel å bruke, pålitelig app som overfører fotograferingsdata, inkludert geolokalisering, til skannede negativers EXIF. Utvikleren lytter til tilbakemeldinger og forbedrer stadig. Utmerket!",
+      "author_name": "Maria Garcia",
+      "datetime": "2025-07-12"
+    },
+    "review2": {
+      "title": "Logg hvert filmfoto uten notatbøker",
+      "quote": "Som filmfotograf som fremkaller hjemme, elsker jeg hvordan Frames lar meg logge hvert bilde uten bry med notatbøker. Det er den perfekte og praktiske løsningen. Oppgraderte til Pro og har ikke sett meg tilbake!",
+      "author_name": "BHenriquez",
+      "datetime": "2025-05-08"
+    },
+    "review3": {
+      "title": "Registrer eksponering og posisjon enkelt ved filmfotografering",
+      "quote": "Flott for å registrere eksponering og posisjon ved filmfotografering, ideell for å analysere innstillinger eller beholde EXIF-lignende data. Utvikleren fikset en feil innen en dag. Anbefales på det sterkeste!",
+      "author_name": "Emma Richardson",
+      "datetime": "2025-08-23"
+    },
+    "review4": {
+      "title": "Organiserte filmnotater med Frames",
+      "quote": "Da jeg kom tilbake til film, savnet jeg metadata til jeg fant Frames. Den erstatter papirnotater, hjelper meg med å holde meg organisert og oppmerksom når jeg fotograferer. Et must for filmfotografer!",
+      "author_name": "Roger Nordstrom Photo",
+      "datetime": "2025-04-15"
+    },
+    "review5": {
+      "title": "Detaljorientert og intuitiv filmnotat-app",
+      "quote": "Du kan se at utvikleren også bruker appen. Hver liten detalj føles gjennomtenkt, og grensesnittet er rent og enkelt. Alt fungerer problemfritt. Helt klart den beste filmnotat-appen som finnes!",
+      "author_name": "James Anderson",
+      "datetime": "2025-09-05"
+    },
+    "review6": {
+      "title": "Rask og privat app for analog fotografering",
+      "quote": "Den beste appen for analog fotografering jeg har brukt så langt. Enkel, rask og med alle funksjoner jeg trenger for å organisere arbeidet mitt. Ingen annonser, ingen sporing, personvern respekteres.",
+      "author_name": "Ingrid Lindholm",
+      "datetime": "2025-10-03"
+    },
+    "review7": {
+      "title": "Elegant og funksjonell app for filmruller",
+      "quote": "Appen er enkel og gjør nøyaktig det den skal. Jeg liker å kunne gi navn til mine nåværende filmruller, siden jeg noen ganger glemmer hvilket kamera jeg brukte. UI er ren, elegant og godt laget.",
+      "author_name": "Hivonmarius",
+      "datetime": "2025-10-11"
+    },
+    "details": {
+      "description1": "Designet med tilbakemeldinger fra filmmiljøet for å gjøre datalogging klar og hyggelig.",
+      "description2": "Bli med tusenvis av fotografer som bringer orden og innsikt til sin filmfotograferingsopplevelse med Frames."
+    },
+    "navigation": {
+      "aria_label": "Anmeldelsesnavigasjon",
+      "previous_aria_label": "Forrige anmeldelse",
+      "next_aria_label": "Neste anmeldelse"
+    }
+  },
+  "features": {
+    "heading_seo": "Funksjoner i appen for analog fotografering",
+    "heading": "Funksjoner",
+    "feature1": {
+      "label": "Arkiv",
+      "title": "Organiser Bibliotek",
+      "description": "Bla gjennom, organiser og administrer alle filmrullene dine enkelt, hold hver økt tydelig strukturert, lett å finne og perfekt organisert."
+    },
+    "feature2": {
+      "label": "Utstyr",
+      "title": "Administrer Utstyr",
+      "description": "Hold en detaljert oversikt over kameraer, objektiver og filtre for å være konsekvent og ha all utstyrsinformasjon klar til hver fotografering."
+    },
+    "feature3": {
+      "label": "Registrer",
+      "title": "Fang Innstillinger",
+      "description": "Logg blender, lukkertid, filmtype og posisjonsdetaljer øyeblikkelig for hver ramme, hold informasjonen til hvert bilde nøyaktig og tilgjengelig."
+    },
+    "feature4": {
+      "label": "Historikk",
+      "title": "Se Tilbake på Bilder",
+      "description": "Se tilbake på loggede ruller for å gjennomgå innstillinger, analysere tidligere økter, lære av dem og forbedre filmfotografi-arbeidsflyten din."
+    },
+    "feature5": {
+      "label": "Eksporter",
+      "title": "Eksporter Oppføringer",
+      "description": "Lagre eller del oppføringene dine som .frames, .txt eller .gpx-filer for sikkerhetskopiering, deling eller integrering med andre apper eller arbeidsflyter."
+    },
+    "feature6": {
+      "label": "Metadata",
+      "title": "Lagre Metadata",
+      "description": "Bygg inn alle registrerte data i skannede bilder for å bevare analog informasjon mens du holder dine digitale arkiver fullstendig synkronisert."
+    },
+    "feature7": {
+      "label": "Støtte",
+      "title": "E-poststøtte",
+      "description": "Ta kontakt direkte med utvikleren for hjelp, del tilbakemeldinger eller foreslå nye funksjoner og forbedringer når som helst, med raske svar."
+    }
+  },
+  "pricing": {
+    "heading_seo": "Priser på appen for analog fotografering",
+    "heading": "Priser",
+    "label_period": "Månedlig",
+    "label_period_yearly": "Årlig",
+    "label_subscription_monthly": "Månedlig abonnement",
+    "label_subscription_yearly": "Årlig abonnement",
+    "currency": "NOK",
+    "ios": {
+      "title": "iOS",
+      "price": "29 kr",
+      "price_yearly": "229 kr",
+      "period": "/md.",
+      "period_yearly": "/år",
+      "price_value_monthly": "29",
+      "price_value_yearly": "229",
+      "includes_label": "Inkluderer:",
+      "features": [
+        "Ubegrensede filmruller",
+        "Undermapper",
+        "Eksporter data som .frames",
+        "Eksporter data som .txt eller .gpx"
+      ],
+      "button_text": "Prøv Gratis"
+    },
+    "macos": {
+      "title": "macOS",
+      "price": "29 kr",
+      "price_yearly": "229 kr",
+      "period": "/md.",
+      "period_yearly": "/år",
+      "price_value_monthly": "29",
+      "price_value_yearly": "229",
+      "includes_label": "Inkluderer:",
+      "features": [
+        "Lagre metadata til bilder"
+      ],
+      "button_text": "Prøv Gratis"
+    },
+    "checkmark": "✓"
+  },
+  "qa": {
+    "heading_seo": "Fra filmfotografer",
+    "heading": "Spørsmål & Svar",
+    "question1": {
+      "question": "Hvilke metadata kan jeg registrere?",
+      "answer": "Frames lar deg logge detaljert informasjon for hvert bilde, inkludert kamera, objektiv, filtre, rammenummer, brennvidde, blender, lukkertid, ISO, målemodus, filmtype, blits, GPS-posisjon, tidsstempler og egendefinerte notater, slik at du aldri mister viktige analoge fotografidetaljer."
+    },
+    "question2": {
+      "question": "Hvilke bildeformater støttes?",
+      "answer": "Frames støtter JPEG, TIFF og DNG-formater, slik at du kan bygge inn registrerte metadata direkte i skannede analoge bilder for sømløs organisering og arbeidsflyt på tvers av enhetene dine."
+    },
+    "question3": {
+      "question": "Finnes Frames på Android eller Windows?",
+      "answer": "Frames er for øyeblikket tilgjengelig for iPhone og macOS. Versjoner for Android og Windows er planlagt for 2026, og i mellomtiden kan du dele og administrere dataene dine via .frames-fileksporter."
+    },
+    "question4": {
+      "question": "Hvilke lukkertider og blendere støttes?",
+      "answer": "Frames tilbyr standardsekvenser som dekker de fleste objektiver og kameraer, og du kan også definere egendefinerte sekvenser for utstyret ditt, noe som gjør det kompatibelt med alle lukkertid- eller blenderverdier."
+    },
+    "question5": {
+      "question": "Kan jeg logge stativer eller tilbehør?",
+      "answer": "Ja, Frames lar deg registrere stativer, blitser og annet tilbehør. Det er også et ekstra notatfelt hvor du kan legge til egendefinerte detaljer du ønsker."
+    },
+    "question6": {
+      "question": "Hva er planene for fremtidige oppdateringer?",
+      "answer": "Fremtidige planer inkluderer utvidelse av arbeidsflytefunksjoner, forbedring av integrasjon på tvers av enheter og tilføyelse av nye verktøy etterspurt av samfunnet for å gjøre analog fotografilogging enda mer fleksibel og kraftig."
+    }
+  },
+  "contact": {
+    "heading": "La oss høre dine ideer og tanker.",
+    "button_text": "Send oss en e-post"
+  },
+  "footer": {
+    "logo_alt": "Frames",
+    "compliance": "GDPR-kompatibel",
+    "connect": {
+      "heading": "Koble til",
+      "instagram": "Instagram",
+      "threads": "Threads",
+      "facebook": "Facebook",
+      "bluesky": "Bluesky",
+      "mastodon": "Mastodon",
+      "twitter": "Twitter"
+    },
+    "resources": {
+      "heading": "Ressurser",
+      "privacy_policy": "Personvernerklæring",
+      "terms_of_service": "Vilkår for Bruk",
+      "documentation": "Dokumentasjon",
+      "changelog": "Endringslogg",
+      "youtube": "Youtube"
+    },
+    "product": {
+      "heading": "Produkt",
+      "frames_ios": "Frames iOS",
+      "frames_macos": "Frames macOS"
+    },
+    "copyright": "© 2025 Vincent Tantardini.",
+    "all_rights_reserved": "Alle rettigheter reservert.",
+    "language_dropdown": {
+      "label": "Norsk",
+      "aria_label": "Språkvelger"
+    }
+  },
+  "urls": {
+    "appstore_ios": "https://apps.apple.com/no/app/frames-film-notes/id6744057317",
+    "appstore_macos": "https://apps.apple.com/no/app/frames-film-metadata/id6744063354",
+    "documentation": "doc/",
+    "changelog": "changelog/",
+    "privacy": "personvern/"
+  },
+  "video": {
+    "title": "Filmfotografi App for å Logge & Spore Filmrullene Dine (Frames for iPhone)",
+    "description": "Oppdag Frames, den dedikerte filmfotografi appen designet for analoge fotografer. Frames gjør administrering av din analoge fotografering enkel, hjelper deg med å registrere ikke bare bildene dine, men også historien bak hver filmrull og ramme. Enten du jobber med 35mm, mellomformat eller storformat film, holder Frames arbeidsflyten din organisert og sikrer at fotometadataene dine blir med bildene dine, selv etter skanning."
+  },
+  "changelog": {
+    "meta": {
+      "title": "Endringslogg - Frames",
+      "description": "Frames endringslogg. Hold deg oppdatert med de siste funksjonene og forbedringene for Frames, filmfotografi-appen.",
+      "canonical_url": "https://withframes.com/nb/changelog/"
+    },
+    "heading": "Endringslogg",
+    "labels": {
+      "improvements": "Forbedringer",
+      "fixes": "Rettelser",
+      "patches": "Oppdateringer",
+      "platform_ios": "iOS",
+      "platform_macos": "macOS",
+      "previous": "Forrige",
+      "next": "Neste"
+    },
+    "pagination": {
+      "previous": "Forrige",
+      "next": "Neste",
+      "page": "Side",
+      "newer_posts": "Nyere innlegg",
+      "older_posts": "Eldre innlegg"
+    }
+  },
+  "privacy": {
+    "meta": {
+      "title": "Personvernerklæring - Frames",
+      "description": "Les personvernerklæringen for Frames, den analoge fotografi-notatbok-appen. Lær hvordan vi håndterer dataene dine med omhu på både mobil og desktop.",
+      "canonical_url": "https://withframes.com/nb/personvern/"
+    },
+    "heading": "Personvernerklæring",
+    "headingtoc": "Innhold",
+    "section1": {
+      "heading": "Introduksjon",
+      "paragraph1": "I Frames er personvernet ditt vår høyeste prioritet. Denne personvernerklæringen forklarer hvordan vi håndterer informasjon i våre iOS- og macOS-apper, samt på nettstedet vårt. Vi er forpliktet til å holde dataene dine sikre, behandle dem med åpenhet og gi deg full kontroll. Vi samler ikke inn eller sporer unødvendig informasjon, og du har alltid kontroll over hva du velger å dele eller eksportere."
+    },
+    "section2": {
+      "heading": "Frames for iOS og macOS",
+      "paragraph1a": "Frames samler ikke inn, lagrer eller deler personlig data.",
+      "paragraph1b": "All informasjon du legger inn i appen lagres lokalt på enheten din og sendes aldri til noen server eller tredjepart.",
+      "paragraph2": "Appen bruker Apples StoreKit-rammeverk for å håndtere abonnementer. Denne prosessen håndteres fullt ut av Apple, og utvikleren har ingen tilgang til personopplysninger.",
+      "paragraph3": "Frames inneholder ingen analyseverktøy, sporing eller nettbaserte tjenester. Appen oppretter ingen nettverkstilkoblinger, bortsett fra når den bruker systemets posisjonstjeneste (CLLocationManager) for å registrere GPS-koordinater dersom du velger å aktivere det.",
+      "paragraph4": "Når du eksporterer data, kan appen opprette .frames-, .txt- eller .gpx-filer. Deling av disse filene gjennom systemets delingsmeny er helt under din kontroll. Utvikleren har ingen tilgang til eller oversikt over eksportert innhold.",
+      "paragraph5": "Frames ber om følgende systemtillatelser:",
+      "permissions": {
+        "line1": {
+          "title": "Kamera",
+          "description": "for å ta bilder direkte fra appen."
+        },
+        "line2": {
+          "title": "Bilder",
+          "description": "for å velge referansebilder fra bildebiblioteket ditt."
+        },
+        "line3": {
+          "title": "Posisjon (mens appen brukes)",
+          "description": "for å registrere GPS-koordinater når du lagrer rammer."
+        }
+      }
+    },
+    "section3": {
+      "heading": "withframes.com-nettstedet",
+      "paragraph1a": "Frames-nettstedet er et statisk nettsted som hostes på GitHub Pages.",
+      "paragraph1b": "Det bruker ikke informasjonskapsler, analyseverktøy eller sporingsskript. Ingen personopplysninger samles inn eller lagres.",
+      "paragraph2": "Cloudflare leverer grunnleggende, anonyme trafikkstatistikker basert på serverlogger. Disse loggene inneholder ingen personidentifiserbar informasjon og brukes ikke til profilering eller markedsføring.",
+      "paragraph3": "Nettstedet inneholder utgående lenker til eksterne nettsteder og sosiale medier for deling av innhold eller for å vise omtaler av Frames. Besøk på slike nettsteder er valgfritt og underlagt deres egne personvernerklæringer.",
+      "paragraph4": "Nettstedet samler ikke inn informasjon gjennom skjemaer, nyhetsbrev eller interaktive funksjoner."
+    },
+    "section4": {
+      "heading": "Kontakt oss",
+      "paragraph1": "Hvis du har spørsmål eller bekymringer angående denne personvernerklæringen, kan du kontakte utvikleren på:"
+    },
+    "last_updated": "12. oktober 2025",
+    "last_updated_iso": "2025-10-12",
+    "last_updated_label": "Sist oppdatert",
+    "button_home": "Hjem"
+  }
+}

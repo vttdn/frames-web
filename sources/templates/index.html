@@ -1,0 +1,700 @@
+<!DOCTYPE html>
+<html lang="{{ lang }}">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <!-- <link rel="preload" as="image" href="/lib/img/{{ lang }}/hero-mobile.webp" media="(max-width: 480px)" fetchpriority="high">
+    <link rel="preload" as="image" href="/lib/img/{{ lang }}/hero-mobile@2x.webp" media="(max-width: 480px) and (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi)" fetchpriority="high">
+    <link rel="preload" as="image" href="/lib/img/{{ lang }}/hero.webp" media="(min-width: 481px)" fetchpriority="high">
+    <link rel="preload" as="image" href="/lib/img/{{ lang }}/hero@2x.webp" media="(min-width: 481px) and (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi)" fetchpriority="high"> -->
+
+    <title>{{ locale_data.meta.title }}</title>
+    <meta name="description" content="{{ locale_data.meta.description }}">
+    <link rel="canonical" href="{{ locale_data.meta.canonical_url }}">
+    {% for link in hreflang_links %}
+    <link rel="alternate" hreflang="{{ link.hreflang }}" href="{{ link.href }}">
+    {% endfor %}
+
+    <!-- Critical CSS - Inlined for immediate render -->
+    {% if critical_css %}
+    <style>
+        {{ critical_css|safe }}
+    </style>
+    <!-- Deferred CSS - Loaded asynchronously for below-the-fold content -->
+    <link rel="stylesheet" href="/lib/css/deferred.css" media="print" onload="this.media='all'">
+    <!-- No-JS Fallback -->
+    <noscript>
+        <link rel="stylesheet" href="/lib/css/deferred.css">
+    </noscript>
+    {% else %}
+    <!-- Fallback: Load complete stylesheet if critical CSS not available -->
+    <link rel="stylesheet" href="/lib/css/style.css" media="print" onload="this.media='all'">
+    <!-- No-JS Fallback -->
+    <noscript>
+        <link rel="stylesheet" href="/lib/css/style.css">
+    </noscript>
+    {% endif %}
+
+    <meta name="twitter:card" content="{{ locale_data.meta.twitter_card }}">
+    <meta name="twitter:site" content="{{ locale_data.meta.twitter_site }}">
+    <meta name="twitter:creator" content="{{ locale_data.meta.twitter_creator }}">
+    <meta name="twitter:title" content="{{ locale_data.meta.title }}">
+    <meta name="twitter:description" content="{{ locale_data.meta.description }}">
+    <meta name="twitter:image" content="https://withframes.com/og-image.jpg">
+    <meta property="og:type" content="{{ locale_data.meta.og_type }}">
+    <meta property="og:site_name" content="{{ locale_data.meta.og_site_name }}">
+    <meta property="og:title" content="{{ locale_data.meta.title }}">
+    <meta property="og:description" content="{{ locale_data.meta.description }}">
+    <meta property="og:url" content="{{ locale_data.meta.canonical_url }}">
+    <meta property="og:image" content="https://withframes.com/og-image.jpg">
+    <meta property="og:locale" content="{{ locale_data.meta.locale }}">
+    <link rel="shortcut icon" href="/favicon.png" type="image/png">
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    <meta name="theme-color" content="#000">
+    <meta name="apple-itunes-app" content="app-id=6744057317">
+    <link rel="me" href="https://mastodon.social/@frames">
+</head>
+
+<body>
+
+    <header class="main-header wrapper">
+        <div class="container-header">
+            <a href="{{ lang_config.path }}" class="logo leading" aria-label="{{ locale_data.header.logo_aria_label }}">
+                <span>{{ locale_data.header.logo_text }}</span>
+            </a>
+
+            <nav class="navigation center" aria-label="{{ locale_data.header.navigation.aria_label }}">
+                <ul class="flex flex-row">
+                    <li class="desktop-only"><a href="#features">{{ locale_data.header.navigation.features }}</a></li>
+                    <li><a class="tooltip" data-tooltip="{{ locale_data.tooltip.label_coming_soon }}">{{
+                            locale_data.header.navigation.documentation }}</a></li>
+                    <li><a href="{{ lang_config.path }}{{ locale_data.urls.changelog }}">{{ locale_data.header.navigation.changelog }}</a></li>
+                </ul>
+            </nav>
+
+            <div class="trailing flex flex-row flex-center gap-sm">
+                <button class="btn btn-sm btn-dark mobile-hidden" id="button-social-share"
+                    aria-controls="overlay" aria-expanded="false">
+                    <span>{{ locale_data.header.buttons.share }}</span>
+                </button>
+                <a href="{{ locale_data.urls.appstore_macos }}" class="btn btn-sm btn-light desktop-up">{{
+                    locale_data.header.buttons.download }}</a>
+                <a href="{{ locale_data.urls.appstore_ios }}" class="btn btn-sm btn-light tablet-only">{{
+                    locale_data.header.buttons.download }}</a>
+                <a href="{{ locale_data.urls.appstore_ios }}" class="btn btn-sm btn-dark desktop-hidden">{{
+                    locale_data.header.buttons.download }}</a>
+                <button id="menu-toggle" class="mobile-menu-toggle"
+                    aria-label="{{ locale_data.mobile_menu.open_aria_label }}"
+                    aria-controls="overlay"
+                    aria-expanded="false">
+                    <img src="/lib/img/icn/menu.svg" alt="Menu Icon" width="32" height="32" loading="lazy" aria-hidden="true">
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main class="wrapper">
+        <section class="hero" aria-labelledby="hero-heading">
+            <div class="hero-content flex flex-col gap-xl">
+                <h1 class="ruh" id="hero-heading">{{ locale_data.hero.heading_seo|safe }}</h1>
+                <p class="h1">{{ locale_data.hero.heading|safe }}</p>
+                <a href="{{ locale_data.urls.appstore_macos }}" class="btn btn-md btn-light desktop-only w-fit"
+                    aria-label="{{ locale_data.hero.button_macos_aria_label }}">
+                    <span>{{ locale_data.hero.button_macos_text }}</span>
+                    <img src="/lib/img/icn/arrow-down-to-line.svg" alt="Download Icon" fetchpriority="high" width="12"
+                        height="15" aria-hidden="true">
+                </a>
+                <a href="{{ locale_data.urls.appstore_ios }}" class="btn btn-md btn-light mobile-only w-fit"
+                    aria-label="{{ locale_data.hero.button_ios_aria_label }}">
+                    <span>{{ locale_data.hero.button_ios_text }}</span>
+                    <img src="/lib/img/icn/arrow-down-to-line.svg" alt="Download Icon" fetchpriority="high" width="12"
+                        height="15" aria-hidden="true">
+                </a>
+            </div>
+
+            <figure class="hero-image tile container-ratio ratio-2-1">
+                <picture>
+                    <source media="(min-width: 481px)"
+                            srcset="/lib/img/{{ lang }}/hero.webp 1x, /lib/img/{{ lang }}/hero@2x.webp 2x">
+                    <img src="/lib/img/{{ lang }}/hero-mobile.webp"
+                        srcset="/lib/img/{{ lang }}/hero-mobile.webp 1x, /lib/img/{{ lang }}/hero-mobile@2x.webp 2x"
+                        alt="{{ locale_data.hero.images.hero.alt }}"
+                        width="448"
+                        height="336"
+                        fetchpriority="high">
+                </picture>
+
+                <button id="youtube-video-toggle" class="play-btn"
+                    aria-label="{{ locale_data.hero.play_button_aria_label }}" aria-controls="overlay"
+                    aria-expanded="false" data-video-id="KRLS5tpmvJM">
+                    <img src="/lib/img/icn/play.svg" alt="Play Video" width="36" height="36">
+                </button>
+            </figure>
+
+            <aside class="hero-featured flex flex-col flex-center gap-xl"
+                aria-label="{{ locale_data.hero.featured.aria_label }}">
+                <p class="featured-text">{{ locale_data.hero.featured.text }}</p>
+
+                <div class="featured-logos flex flex-row">
+                    <img src="/lib/img/logo/digitalcameraworld.svg" alt="Digital Camera World Logo" width="64" height="24">
+                    <img src="/lib/img/logo/petapixel.svg" alt="Petapixel Logo" width="80" height="24">
+                    <img src="/lib/img/logo/35mmc.svg" alt="35mmc Logo" width="56" height="24">
+                    <img src="/lib/img/logo/msn.svg" alt="MSN Logo" width="61" height="24">
+                    <img src="/lib/img/logo/yahoo.svg" alt="Yahoo! Logo" width="81" height="24">
+                    <img src="/lib/img/logo/youtube.svg" alt="Youtube Logo" width="100" height="24">
+                    <img src="/lib/img/logo/jch.svg" alt="Japan Camera Hunter Logo" width="55" height="24">
+                    <!-- <img src="/lib/img/logo/diyphotography.svg" alt="DIY Photography" width="135" height="24"> -->
+                </div>
+            </aside>
+        </section>
+
+        <section class="preview grid grid-2col">
+            <h2 class="ruh">{{ locale_data.preview.heading|safe }}</h2>
+            <figure class="tile container-ratio ratio-4-3">
+                    <img src="/lib/img/{{ lang }}/preview1.webp"
+                        srcset="/lib/img/{{ lang }}/preview1.webp 1x, /lib/img/{{ lang }}/preview1@2x.webp 2x"
+                        alt="{{ locale_data.preview.images.preview1.alt }}" width="400" height="300" loading="lazy">
+                        <figcaption aria-hidden="true" class="ruh">{{ locale_data.preview.images.preview1.alt }}</figcaption>
+            </figure>
+            <figure class="tile container-ratio ratio-4-3">
+                    <img src="/lib/img/{{ lang }}/preview2.webp"
+                        srcset="/lib/img/{{ lang }}/preview2.webp 1x, /lib/img/{{ lang }}/preview2@2x.webp 2x"
+                        alt="{{ locale_data.preview.images.preview2.alt }}" width="400" height="300" loading="lazy">
+                    <figcaption aria-hidden="true" class="ruh">{{ locale_data.preview.images.preview2.alt }}</figcaption>
+            </figure>
+            <figure class="tile container-ratio ratio-4-3">
+                    <img src="/lib/img/{{ lang }}/preview3.webp"
+                        srcset="/lib/img/{{ lang }}/preview3.webp 1x, /lib/img/{{ lang }}/preview3@2x.webp 2x"
+                        alt="{{ locale_data.preview.images.preview3.alt }}" width="400" height="300" loading="lazy">
+                    <figcaption aria-hidden="true" class="ruh">{{ locale_data.preview.images.preview3.alt }}</figcaption>
+            </figure>
+            <figure class="tile container-ratio ratio-4-3">
+                    <img src="/lib/img/{{ lang }}/preview4.webp"
+                        srcset="/lib/img/{{ lang }}/preview4.webp 1x, /lib/img/{{ lang }}/preview4@2x.webp 2x"
+                        alt="{{ locale_data.preview.images.preview4.alt }}" width="400" height="300" loading="lazy">
+                    <figcaption aria-hidden="true" class="ruh">{{ locale_data.preview.images.preview4.alt }}</figcaption>
+            </figure>
+            <figure class="tile container-ratio ratio-4-3">
+                    <img src="/lib/img/shared/preview5.webp"
+                        srcset="/lib/img/shared/preview5.webp 1x, /lib/img/shared/preview5@2x.webp 2x"
+                        alt="{{ locale_data.preview.images.preview5.alt }}" width="400" height="300" loading="lazy">
+                    <figcaption aria-hidden="true" class="ruh">{{ locale_data.preview.images.preview5.alt }}</figcaption>
+            </figure>
+            <figure class="tile container-ratio ratio-4-3">
+                    <img src="/lib/img/shared/preview6.webp"
+                        srcset="/lib/img/shared/preview6.webp 1x, /lib/img/shared/preview6@2x.webp 2x"
+                        alt="{{ locale_data.preview.images.preview6.alt }}" width="400" height="300" loading="lazy">
+                    <figcaption aria-hidden="true" class="ruh">{{ locale_data.preview.images.preview6.alt }}</figcaption>
+            </figure>
+        </section>
+
+        <section class="reviews review-carousel" aria-label="{{ locale_data.reviews.aria_label }}">
+            <h2 class="ruh">{{ locale_data.reviews.heading|safe }}</h2>
+
+            <div class="grid grid-4col">
+
+            <div class="grid reviews-inner grid-4col">
+                <!-- Review cards -->
+                <article class="review-card flex flex-col" data-review="0">
+                    <header>
+                        <h3 class="ruh">{{ locale_data.reviews.review1.title }}</h3>
+                    </header>
+                    <blockquote class="review-quote">
+                        <p>"{{ locale_data.reviews.review1.quote }}"</p>
+                    </blockquote>
+
+                    <footer class="review-author flex flex-center gap-sm">
+                        <div class="btn btn-circle btn-secondary">
+                            <img src="/lib/img/shared/author1.webp"
+                                srcset="/lib/img/shared/author1.webp 1x, /lib/img/shared/author1@2x.webp 2x"
+                                alt="{{ locale_data.reviews.review1.author_name }}" width="32" height="32"
+                                loading="lazy">
+                        </div>
+                        <div class="author-info flex flex-col">
+                            <cite class="author-name">{{ locale_data.reviews.review1.author_name }}</cite>
+                            <time class="review-date" datetime="{{ locale_data.reviews.review1.datetime }}">{{
+                                formatted_reviews.review1.formatted_date }}</time>
+                        </div>
+                    </footer>
+                </article>
+
+                <article class="review-card flex flex-col ruh" data-review="1">
+                    <header>
+                        <h3 class="ruh">{{ locale_data.reviews.review2.title }}</h3>
+                    </header>
+                    <blockquote class="review-quote">
+                        <p>"{{ locale_data.reviews.review2.quote }}"</p>
+                    </blockquote>
+
+                    <footer class="review-author flex flex-center gap-sm">
+                        <div class="btn btn-circle btn-secondary">
+                            <img src="/lib/img/shared/author2.webp"
+                                srcset="/lib/img/shared/author2.webp 1x, /lib/img/shared/author2@2x.webp 2x"
+                                alt="{{ locale_data.reviews.review2.author_name }}" width="32" height="32"
+                                loading="lazy">
+                        </div>
+                        <div class="author-info flex flex-col">
+                            <cite class="author-name">{{ locale_data.reviews.review2.author_name }}</cite>
+                            <time class="review-date" datetime="{{ locale_data.reviews.review2.datetime }}">{{
+                                formatted_reviews.review2.formatted_date }}</time>
+                        </div>
+                    </footer>
+                </article>
+
+                <article class="review-card flex flex-col ruh" data-review="2">
+                    <header>
+                        <h3 class="ruh">{{ locale_data.reviews.review3.title }}</h3>
+                    </header>
+
+                    <blockquote class="review-quote">
+                        <p>"{{ locale_data.reviews.review3.quote }}"</p>
+                    </blockquote>
+
+                    <footer class="review-author flex flex-center gap-sm">
+                        <div class="btn btn-circle btn-secondary">
+                            <img src="/lib/img/shared/author3.webp"
+                                srcset="/lib/img/shared/author3.webp 1x, /lib/img/shared/author3@2x.webp 2x"
+                                alt="{{ locale_data.reviews.review3.author_name }}" width="32" height="32"
+                                loading="lazy">
+                        </div>
+                        <div class="author-info flex flex-col">
+                            <cite class="author-name">{{ locale_data.reviews.review3.author_name }}</cite>
+                            <time class="review-date" datetime="{{ locale_data.reviews.review3.datetime }}">{{
+                                formatted_reviews.review3.formatted_date }}</time>
+                        </div>
+                    </footer>
+                </article>
+
+                <article class="review-card flex flex-col ruh" data-review="3">
+                    <header>
+                        <h3 class="ruh">{{ locale_data.reviews.review4.title }}</h3>
+                    </header>
+                    
+                    <blockquote class="review-quote">
+                        <p>"{{ locale_data.reviews.review4.quote }}"</p>
+                    </blockquote>
+
+                    <footer class="review-author flex flex-center gap-sm">
+                        <div class="btn btn-circle btn-secondary">
+                            <img src="/lib/img/shared/author4.webp"
+                                srcset="/lib/img/shared/author4.webp 1x, /lib/img/shared/author4@2x.webp 2x"
+                                alt="{{ locale_data.reviews.review4.author_name }}" width="32" height="32"
+                                loading="lazy">
+                        </div>
+                        <div class="author-info flex flex-col">
+                            <cite class="author-name">{{ locale_data.reviews.review4.author_name }}</cite>
+                            <time class="review-date" datetime="{{ locale_data.reviews.review4.datetime }}">{{
+                                formatted_reviews.review4.formatted_date }}</time>
+                        </div>
+                    </footer>
+                </article>
+
+                <article class="review-card flex flex-col ruh" data-review="4">
+                    <header>
+                        <h3 class="ruh">{{ locale_data.reviews.review5.title }}</h3>
+                    </header>
+
+                    <blockquote class="review-quote">
+                        <p>"{{ locale_data.reviews.review5.quote }}"</p>
+                    </blockquote>
+
+                    <footer class="review-author flex flex-center gap-sm">
+                        <div class="btn btn-circle btn-secondary">
+                            <img src="/lib/img/shared/author5.webp"
+                                srcset="/lib/img/shared/author5.webp 1x, /lib/img/shared/author5@2x.webp 2x"
+                                alt="{{ locale_data.reviews.review5.author_name }}" width="32" height="32"
+                                loading="lazy">
+                        </div>
+                        <div class="author-info flex flex-col">
+                            <cite class="author-name">{{ locale_data.reviews.review5.author_name }}</cite>
+                            <time class="review-date" datetime="{{ locale_data.reviews.review5.datetime }}">{{
+                                formatted_reviews.review5.formatted_date }}</time>
+                        </div>
+                    </footer>
+                </article>
+
+                <article class="review-card flex flex-col ruh" data-review="5">
+                    <header>
+                        <h3 class="ruh">{{ locale_data.reviews.review6.title }}</h3>
+                    </header>
+
+                    <blockquote class="review-quote">
+                        <p>"{{ locale_data.reviews.review6.quote }}"</p>
+                    </blockquote>
+
+                    <footer class="review-author flex flex-center gap-sm">
+                        <div class="btn btn-circle btn-secondary">
+                            <img src="/lib/img/shared/author6.webp"
+                                srcset="/lib/img/shared/author6.webp 1x, /lib/img/shared/author6@2x.webp 2x"
+                                alt="{{ locale_data.reviews.review6.author_name }}" width="32" height="32"
+                                loading="lazy">
+                        </div>
+                        <div class="author-info flex flex-col">
+                            <cite class="author-name">{{ locale_data.reviews.review6.author_name }}</cite>
+                            <time class="review-date" datetime="{{ locale_data.reviews.review6.datetime }}">{{
+                                formatted_reviews.review6.formatted_date }}</time>
+                        </div>
+                    </footer>
+                </article>
+
+                <article class="review-card flex flex-col ruh" data-review="4">
+                    <header>
+                        <h3 class="ruh">{{ locale_data.reviews.review7.title }}</h3>
+                    </header>
+
+                    <blockquote class="review-quote">
+                        <p>"{{ locale_data.reviews.review7.quote }}"</p>
+                    </blockquote>
+
+                    <footer class="review-author flex flex-center gap-sm">
+                        <div class="btn btn-circle btn-secondary">
+                            <img src="/lib/img/shared/author7.webp"
+                                srcset="/lib/img/shared/author7.webp 1x, /lib/img/shared/author7@2x.webp 2x"
+                                alt="{{ locale_data.reviews.review7.author_name }}" width="32" height="32"
+                                loading="lazy">
+                        </div>
+                        <div class="author-info flex flex-col">
+                            <cite class="author-name">{{ locale_data.reviews.review7.author_name }}</cite>
+                            <time class="review-date" datetime="{{ locale_data.reviews.review7.datetime }}">{{
+                                formatted_reviews.review7.formatted_date }}</time>
+                        </div>
+                    </footer>
+                </article>
+            </div>
+
+                <!-- Review Details & Navigation -->
+                <div class="review-details col-span-2-mobile flex flex-col flex-justify-between">
+                    <p>{{ locale_data.reviews.details.description1 }}</p>
+
+                    <div class="review-footer flex flex-col gap-xl">
+                        <p>{{ locale_data.reviews.details.description2 }}</p>
+
+                        <nav class="review-navigation flex gap-sm" aria-label="{{ locale_data.reviews.navigation.aria_label }}">
+                            <button class="btn btn-circle btn-dark prev" aria-label="{{ locale_data.reviews.navigation.previous_aria_label }}">
+                                <img src="/lib/img/icn/arrow-left.svg" alt="" aria-hidden="true">
+                            </button>
+                            <button class="btn btn-circle btn-dark next" aria-label="{{ locale_data.reviews.navigation.next_aria_label }}">
+                                <img src="/lib/img/icn/arrow-right.svg" alt="" aria-hidden="true">
+                            </button>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="features" aria-labelledby="features-heading">
+            <h2 id="features-heading">{{ locale_data.features.heading }}<span class="ruh">: {{ locale_data.features.heading_seo }}</span></h2>
+            <div class="features grid grid-4col">
+                <article class="feature tile container-ratio ratio-1-1">
+                    <div class="feature-inner tile-inner flex flex-col flex-justify-between">
+                        <header class="feature-header flex flex-col gap-xxs">
+                            <span class="feature-label">{{ locale_data.features.feature1.label }}</span>
+                            <h3>{{ locale_data.features.feature1.title }}</h3>
+                        </header>
+                        <p>{{ locale_data.features.feature1.description }}</p>
+                    </div>
+                </article>
+
+                <article class="feature tile container-ratio ratio-1-1">
+                    <div class="feature-inner tile-inner flex flex-col flex-justify-between">
+                        <header class="feature-header flex flex-col gap-xxs">
+                            <span class="feature-label">{{ locale_data.features.feature2.label }}</span>
+                            <h3>{{ locale_data.features.feature2.title }}</h3>
+                        </header>
+                        <p>{{ locale_data.features.feature2.description }}</p>
+                    </div>
+                </article>
+
+                <article class="feature tile container-ratio ratio-1-1">
+                    <div class="feature-inner tile-inner flex flex-col flex-justify-between">
+                        <header class="feature-header flex flex-col gap-xxs">
+                            <span class="feature-label">{{ locale_data.features.feature3.label }}</span>
+                            <h3>{{ locale_data.features.feature3.title }}</h3>
+                        </header>
+                        <p>{{ locale_data.features.feature3.description }}</p>
+                    </div>
+                </article>
+
+                <article class="feature tile container-ratio ratio-1-1">
+                    <div class="feature-inner tile-inner flex flex-col flex-justify-between">
+                        <header class="feature-header flex flex-col gap-xxs">
+                            <span class="feature-label">{{ locale_data.features.feature4.label }}</span>
+                            <h3>{{ locale_data.features.feature4.title }}</h3>
+                        </header>
+                        <p>{{ locale_data.features.feature4.description }}</p>
+                    </div>
+                </article>
+
+                <article class="feature tile container-ratio ratio-1-1">
+                    <div class="feature-inner tile-inner flex flex-col flex-justify-between">
+                        <header class="feature-header flex flex-col gap-xxs">
+                            <span class="feature-label">{{ locale_data.features.feature5.label }}</span>
+                            <h3>{{ locale_data.features.feature5.title }}</h3>
+                        </header>
+                        <p>{{ locale_data.features.feature5.description }}</p>
+                    </div>
+                </article>
+
+                <article class="feature tile container-ratio ratio-1-1">
+                    <div class="feature-inner tile-inner flex flex-col flex-justify-between">
+                        <header class="feature-header flex flex-col gap-xxs">
+                            <span class="feature-label">{{ locale_data.features.feature6.label }}</span>
+                            <h3>{{ locale_data.features.feature6.title }}</h3>
+                        </header>
+                        <p>{{ locale_data.features.feature6.description }}</p>
+                    </div>
+                </article>
+
+                <article class="feature tile container-ratio ratio-1-1">
+                    <div class="feature-inner tile-inner flex flex-col flex-justify-between">
+                        <header class="feature-header flex flex-col gap-xxs">
+                            <span class="feature-label">{{ locale_data.features.feature7.label }}</span>
+                            <h3>{{ locale_data.features.feature7.title }}</h3>
+                        </header>
+                        <p>{{ locale_data.features.feature7.description }}</p>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section aria-labelledby="pricing-heading">
+            <div class="pricing-header-main">
+                <h2 id="pricing-heading">{{ locale_data.pricing.heading }}<span class="ruh">: {{ locale_data.pricing.heading_seo }}</span></h2>
+                <!-- 
+                <div class="plans-toggle">
+                    <input type="radio" id="monthly" name="plan" checked>
+                    <input type="radio" id="yearly" name="plan">
+
+                    <label for="monthly" class="toggle-option">{{ locale_data.pricing.label_period }}</label>
+                    <label for="yearly" class="toggle-option">{{ locale_data.pricing.label_period_yearly }}</label>
+
+                    <div class="toggle-slider"></div>
+                </div> -->
+            </div>
+            <div class="pricing grid grid-4col" id="pricing-plans">
+                <article class="tile container-ratio ratio-3-4 pricing-card">
+                    <div class="tile-inner flex flex-col flex-justify-between">
+                        <div class="pricing-header flex flex-col gap-lg">
+                            <header class="flex flex-col gap-xxs">
+                                <h3 class="pricing-title">{{ locale_data.pricing.ios.title }}</h3>
+                                <div class="pricing-amount">
+                                    <span class="price">{{ locale_data.pricing.ios.price }}</span>
+                                    <!-- <span class="price-yearly">{{ locale_data.pricing.ios.price_yearly }}</span> -->
+                                    <span class="price-period">{{ locale_data.pricing.ios.period }}</span>
+                                    <!-- <span class="price-period-yearly">{{ locale_data.pricing.ios.period_yearly }}</span> -->
+                                </div>
+                            </header>
+
+                            <p class="pricing-label">{{ locale_data.pricing.ios.includes_label }}</p>
+
+                            <ul class="pricing-features flex flex-col gap-xs">
+                                {% for feature in locale_data.pricing.ios.features %}
+                                <li class="flex flex-row gap-xs">
+                                    <span class="checkmark">{{ locale_data.pricing.checkmark }}</span>
+                                    {{ feature }}
+                                </li>
+                                {% endfor %}
+                            </ul>
+                        </div>
+
+                        <footer class="pricing-action">
+                            <a href="{{ locale_data.urls.appstore_ios }}" class="btn btn-md btn-light">{{
+                                locale_data.pricing.ios.button_text }}</a>
+                        </footer>
+                    </div>
+                </article>
+
+                <article class="tile container-ratio ratio-3-4 pricing-card">
+                    <div class="tile-inner flex flex-col flex-justify-between">
+                        <div class="pricing-header flex flex-col gap-lg">
+                            <header class="flex flex-col gap-xxs">
+                                <h3 class="pricing-title">{{ locale_data.pricing.macos.title }}</h3>
+                                <div class="pricing-amount">
+                                    <span class="price">{{ locale_data.pricing.macos.price }}</span>
+                                    <!-- <span class="price-yearly">{{ locale_data.pricing.ios.price_yearly }}</span> -->
+                                    <span class="price-period">{{ locale_data.pricing.macos.period }}</span>
+                                    <!-- <span class="price-period-yearly">{{ locale_data.pricing.ios.period_yearly }}</span> -->
+                                </div>
+                            </header>
+
+                            <p class="pricing-label">{{ locale_data.pricing.macos.includes_label }}</p>
+
+                            <ul class="pricing-features flex flex-col gap-xs">
+                                {% for feature in locale_data.pricing.macos.features %}
+                                <li class="flex flex-row gap-xs">
+                                    <span class="checkmark">{{ locale_data.pricing.checkmark }}</span>
+                                    {{ feature }}
+                                </li>
+                                {% endfor %}
+                            </ul>
+                        </div>
+
+                        <footer class="pricing-action">
+                            <a href="{{ locale_data.urls.appstore_macos }}" class="btn btn-md btn-secondary">{{
+                                locale_data.pricing.macos.button_text }}</a>
+                        </footer>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section class="qa grid grid-2col" aria-labelledby="qa-heading">
+            <h2 id="qa-heading">{{ locale_data.qa.heading }}<span class="ruh">: {{ locale_data.qa.heading_seo }}</span></h2>
+
+            <div class="qa-content flex flex-col">
+                <details>
+                    <summary class="flex flex-justify-between flex-center">
+                        <h3>{{ locale_data.qa.question1.question }}</h3>
+                        <img src="/lib/img/icn/chevron-down.svg" alt="" loading="lazy" aria-hidden="true">
+                    </summary>
+                    <p>{{ locale_data.qa.question1.answer|safe }}</p>
+                </details>
+
+                <details>
+                    <summary class="flex flex-justify-between flex-center">
+                        <h3>{{ locale_data.qa.question2.question }}</h3>
+                        <img src="/lib/img/icn/chevron-down.svg" alt="" loading="lazy">
+                    </summary>
+                    <p>{{ locale_data.qa.question2.answer|safe }}</p>
+                </details>
+
+                <details>
+                    <summary class="flex flex-justify-between flex-center">
+                        <h3>{{ locale_data.qa.question3.question }}</h3>
+                        <img src="/lib/img/icn/chevron-down.svg" alt="" loading="lazy">
+                    </summary>
+                    <p>{{ locale_data.qa.question3.answer|safe }}</p>
+                </details>
+
+                <details>
+                    <summary class="flex flex-justify-between flex-center">
+                        <h3>{{ locale_data.qa.question4.question }}</h3>
+                        <img src="/lib/img/icn/chevron-down.svg" alt="" loading="lazy">
+                    </summary>
+                    <p>{{ locale_data.qa.question4.answer|safe }}</p>
+                </details>
+
+                <details>
+                    <summary class="flex flex-justify-between flex-center">
+                        <h3>{{ locale_data.qa.question5.question }}</h3>
+                        <img src="/lib/img/icn/chevron-down.svg" alt="" loading="lazy">
+                    </summary>
+                    <p>{{ locale_data.qa.question5.answer|safe }}</p>
+                </details>
+
+                <details>
+                    <summary class="flex flex-justify-between flex-center">
+                        <h3>{{ locale_data.qa.question6.question }}</h3>
+                        <img src="/lib/img/icn/chevron-down.svg" alt="" loading="lazy">
+                    </summary>
+                    <p>{{ locale_data.qa.question6.answer|safe }}</p>
+                </details>
+            </div>
+        </section>
+
+        <section class="contact tile container-ratio ratio-2-1" aria-labelledby="contact-heading">
+            <div class="contact-inner flex flex-col flex-center flex-justify-center">
+                <h2 id="contact-heading">{{ locale_data.contact.heading }}</h2>
+                <a href="mailto:&#104;&#105;&#64;&#119;&#105;&#116;&#104;&#102;&#114;&#97;&#109;&#101;&#115;&#46;&#99;&#111;&#109;"
+                    class="btn btn-md btn-secondary">{{ locale_data.contact.button_text }}</a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="main-footer wrapper flex flex-col gap-6xl">
+        <div class="footer-links grid grid-4col">
+            <a href="{{ lang_config.path }}" aria-label="{{ locale_data.header.logo_aria_label }}" class="w-fit">
+                <img src="/lib/img/logo/frames.svg" alt="{{ locale_data.footer.logo_alt }}" width="40" height="40">
+            </a>
+            <ul class="flex flex-col gap-sm2">
+                <li>
+                    <h3>{{ locale_data.footer.connect.heading }}</h3>
+                </li>
+                <li><a href="{{ global_config.urls.social.instagram }}" target="_blank" rel="noopener noreferrer">{{
+                        locale_data.footer.connect.instagram }}</a></li>
+                <li><a href="{{ global_config.urls.social.threads }}" target="_blank" rel="noopener noreferrer">{{
+                        locale_data.footer.connect.threads }}</a></li>
+                <li><a href="{{ global_config.urls.social.facebook }}" target="_blank" rel="noopener noreferrer">{{
+                        locale_data.footer.connect.facebook }}</a></li>
+                <li><a href="{{ global_config.urls.social.bluesky }}" target="_blank" rel="noopener noreferrer">{{
+                        locale_data.footer.connect.bluesky }}</a></li>
+                <li><a href="{{ global_config.urls.social.mastodon }}" target="_blank" rel="noopener noreferrer">{{
+                        locale_data.footer.connect.mastodon }}</a></li>
+                <li><a href="{{ global_config.urls.social.twitter }}" target="_blank" rel="noopener noreferrer">{{
+                        locale_data.footer.connect.twitter }}</a></li>
+            </ul>
+            <ul class="flex flex-col gap-sm2">
+                <li>
+                    <h3>{{ locale_data.footer.resources.heading }}</h3>
+                </li>
+                <li><a href="{{ locale_data.urls.privacy }}">{{ locale_data.footer.resources.privacy_policy }}</a></li>
+                <li><a href="{{ global_config.urls.terms }}" target="_blank" rel="noopener noreferrer">{{
+                        locale_data.footer.resources.terms_of_service }}</a></li>
+                <li><a class="tooltip" data-tooltip="{{ locale_data.tooltip.label_coming_soon }}">{{
+                        locale_data.footer.resources.documentation }}</a></li>
+                <li><a
+                        href="{% if lang in available_changelog_languages %}{{ locale_data.urls.changelog }}{% else %}/changelog/{% endif %}">{{
+                        locale_data.footer.resources.changelog }}</a></li>
+                <li><a href="{{ global_config.urls.social.youtube }}" target="_blank" rel="noopener noreferrer">{{
+                        locale_data.footer.resources.youtube }}</a></li>
+            </ul>
+            <ul class="flex flex-col gap-sm2">
+                <li>
+                    <h3>{{ locale_data.footer.product.heading }}</h3>
+                </li>
+                <li><a href="{{ locale_data.urls.appstore_ios }}">{{ locale_data.footer.product.frames_ios }}</a></li>
+                <li><a href="{{ locale_data.urls.appstore_macos }}">{{ locale_data.footer.product.frames_macos }}</a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="footer-bottom flex flex-row flex-justify-between flex-center">
+            <div class="flex flex-center flex-justify-center gap-lg">
+                <p>{{ locale_data.footer.copyright }}</p>
+                {% if locale_data.footer.compliance %}
+                <p class="flex flex-center flex-justify-center mobile-hidden">
+                    <img src="/lib/img/icn/checkmark-shield.svg" width="14" height="14" alt="" loading="lazy" aria-hidden="true" class="compliance-icon">
+                    {{ locale_data.footer.compliance }}
+                </p>
+                {% endif %}
+            </div>
+
+            <div class="dropdown">
+                <input type="checkbox" class="dropdown-toggle" id="lang-toggle">
+
+                <label for="lang-toggle" class="dropdown-button btn btn-sm btn-dark">
+                    <img src="/lib/img/icn/globe.svg" alt="Globe Icon" loading="lazy" aria-hidden="true">
+                    <span>{{ locale_data.footer.language_dropdown.label }}</span>
+                    <img src="/lib/img/icn/chevron-down-sm.svg" alt="Chevron Down" width="10" height="12"
+                        loading="lazy" aria-hidden="true">
+                </label>
+
+                <ul class="dropdown-content dropdown-dir-top" role="menu">
+                    {% for language in all_languages %}
+                    <li role="menuitem">
+                        <a href="{{ language.url }}">
+                            <span>{{ language.name }}</span>
+                            {% if language.code == lang %}
+                            <span>✓</span>
+                            {% endif %}
+                        </a>
+                    </li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Main Overlay -->
+    <div class="overlay flex flex-center flex-justify-center" id="overlay" role="dialog"
+        aria-modal="true" aria-labelledby="" hidden>
+        <div class="modal" id="modal-container"></div>
+    </div>
+
+    <script defer src="/lib/js/{{ lang }}/core.js"></script>
+</body>
+
+</html>

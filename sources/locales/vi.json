@@ -1,0 +1,393 @@
+{
+  "meta": {
+    "title": "Frames: Ứng Dụng Chụp Phim cho Ghi Chú & Siêu Dữ Liệu",
+    "description": "Frames là ứng dụng chụp phim dành cho nhiếp ảnh gia analog. Ghi lại từng bức ảnh, theo dõi cài đặt máy, sắp xếp cuộn phim và lưu siêu dữ liệu EXIF.",
+    "locale": "vi_VN",
+    "canonical_url": "https://withframes.com/vi/",
+    "lang": "vi",
+    "twitter_card": "summary_large_image",
+    "twitter_site": "@withframes",
+    "twitter_creator": "@withframes",
+    "og_type": "website",
+    "og_site_name": "Frames"
+  },
+  "company": {
+    "description": "Frames là một ứng dụng iOS và macOS giúp các nhiếp ảnh gia phim ghi lại, tổ chức và theo dõi quy trình nhiếp ảnh analog của họ."
+  },
+  "actions": {
+    "watch": "Xem",
+    "close": "Đóng"
+  },
+  "header": {
+    "logo_text": "Frames",
+    "logo_aria_label": "Trang Chủ Frames",
+    "navigation": {
+      "aria_label": "Điều hướng chính",
+      "features": "Tính Năng",
+      "documentation": "Tài Liệu",
+      "changelog": "Nhật Ký Thay Đổi"
+    },
+    "buttons": {
+      "share": "Chia Sẻ",
+      "download": "Tải Xuống"
+    }
+  },
+  "share_dropdown": {
+    "facebook": "Facebook",
+    "twitter": "Twitter / X",
+    "linkedin": "LinkedIn",
+    "whatsapp": "WhatsApp",
+    "reddit": "Reddit",
+    "email": "Email"
+  },
+  "mobile_menu": {
+    "open_aria_label": "Mở menu di động",
+    "close_aria_label": "Đóng menu di động",
+    "navigation_aria_label": "Điều hướng di động",
+    "features": "Tính Năng",
+    "documentation": "Tài Liệu",
+    "changelog": "Nhật Ký Thay Đổi",
+    "privacy": "Bảo Mật"
+  },
+  "tooltip": {
+    "label_coming_soon": "Sắp Ra Mắt"
+  },
+  "hero": {
+    "heading_seo": "Ứng dụng Frames Film Photography: Ghi chú và metadata cho nhiếp ảnh phim của bạn",
+    "heading": "Sổ tay nhiếp ảnh thiết yếu,<br>\nđược thiết kế cho nhiếp ảnh gia analog.",
+    "button_macos_text": "Tải cho macOS",
+    "button_macos_aria_label": "Tải Frames cho macOS",
+    "button_ios_text": "Tải cho iOS",
+    "button_ios_aria_label": "Tải Frames cho iOS",
+    "play_button_aria_label": "Phát video demo",
+    "images": {
+      "hero": {
+        "src": "/lib/img/vi/hero.png",
+        "alt": "Ứng dụng chụp phim Frames cho Mac và iPhone, được thiết kế để ghi lại cuộn phim, quản lý siêu dữ liệu và lưu trữ ảnh analog."
+      },
+      "hero_mobile": {
+        "src": "/lib/img/vi/hero-mobile.png",
+        "alt": "Ứng dụng chụp phim Frames cho Mac và iPhone, được thiết kế để ghi lại cuộn phim, quản lý siêu dữ liệu và lưu trữ ảnh analog."
+      }
+    },
+    "featured": {
+      "aria_label": "Ấn phẩm nổi bật",
+      "text": "Được giới thiệu khắp cộng đồng nhiếp ảnh."
+    }
+  },
+  "preview": {
+    "heading": "Xem trước ứng dụng nhiếp ảnh phim",
+    "images": {
+      "preview1": {
+        "src": "/lib/img/vi/preview1.png",
+        "alt": "Ứng dụng chụp phim Frames hiển thị giao diện ghi chép với lựa chọn tốc độ màn trập và khẩu độ để ghi lại phơi sáng trên phim."
+      },
+      "preview2": {
+        "src": "/lib/img/vi/preview2.png",
+        "alt": "Ứng dụng nhiếp ảnh analog Frames hiển thị tùy chọn siêu dữ liệu chi tiết bao gồm phơi sáng, loại phim, máy ảnh, ống kính và điều kiện chụp."
+      },
+      "preview3": {
+        "src": "/lib/img/vi/preview3.png",
+        "alt": "Ứng dụng chụp phim Frames trên macOS hiển thị cuộn phim được sắp xếp trong chế độ xem thư viện khi duyệt qua các thư mục ảnh analog."
+      },
+      "preview4": {
+        "src": "/lib/img/vi/preview4.png",
+        "alt": "Ứng dụng nhiếp ảnh analog Frames trình bày cài đặt thiết bị với chi tiết về máy ảnh, ống kính và bộ lọc để quản lý thiết bị nhiếp ảnh."
+      },
+      "preview5": {
+        "src": "/lib/img/vi/preview5.png",
+        "alt": "Ứng dụng chụp phim Frames xuất dữ liệu dưới dạng tệp .frames, .txt hoặc .gpx để sao lưu và chia sẻ nhật ký cùng siêu dữ liệu nhiếp ảnh."
+      },
+      "preview6": {
+        "src": "/lib/img/vi/preview6.png",
+        "alt": "Siêu dữ liệu ứng dụng nhiếp ảnh analog Frames tích hợp với Finder, Adobe Lightroom, Adobe Bridge, Google Photos, Darktable và Flickr."
+      }
+    }
+  },
+  "reviews": {
+    "heading": "Người dùng nói gì về ứng dụng nhiếp ảnh phim của chúng tôi",
+    "aria_label": "Đánh giá khách hàng",
+    "review1": {
+      "title": "Ứng dụng film đáng tin cậy và dễ sử dụng",
+      "quote": "Ứng dụng dễ sử dụng, đáng tin cậy và giá hợp lý, chuyển dữ liệu chụp bao gồm cả vị trí địa lý vào EXIF của phim âm bản đã quét. Nhà phát triển lắng nghe phản hồi và liên tục cải thiện. Tuyệt vời!",
+      "author_name": "Maria Garcia",
+      "datetime": "2025-07-12"
+    },
+    "review2": {
+      "title": "Ghi lại mọi bức ảnh mà không cần sổ tay",
+      "quote": "Là một nhiếp ảnh gia phim tự tráng tại nhà, tôi thích cách Frames cho phép tôi ghi lại từng bức ảnh mà không phải vất vả với sổ tay. Đây là giải pháp hoàn hảo và thực tế. Đã nâng cấp Pro và không hề hối hận!",
+      "author_name": "BHenriquez",
+      "datetime": "2025-05-08"
+    },
+    "review3": {
+      "title": "Tuyệt vời để ghi phơi sáng và vị trí",
+      "quote": "Tuyệt vời để ghi lại phơi sáng và vị trí khi chụp phim, lý tưởng để phân tích cài đặt hoặc lưu giữ dữ liệu kiểu EXIF. Nhà phát triển đã sửa lỗi trong vòng một ngày. Rất khuyên dùng!",
+      "author_name": "Emma Richardson",
+      "datetime": "2025-08-23"
+    },
+    "review4": {
+      "title": "Quản lý dữ liệu phim gọn gàng và hiệu quả",
+      "quote": "Quay lại với phim, tôi nhớ có siêu dữ liệu cho đến khi tìm thấy Frames. Nó thay thế ghi chú giấy, giúp tôi luôn có tổ chức và chú tâm khi chụp. Bắt buộc phải có cho nhiếp ảnh gia phim!",
+      "author_name": "Roger Nordstrom Photo",
+      "datetime": "2025-04-15"
+    },
+    "review5": {
+      "title": "Giao diện sạch và thiết kế tinh tế",
+      "quote": "Bạn có thể thấy nhà phát triển cũng sử dụng ứng dụng này. Mỗi chi tiết nhỏ đều có chủ đích, và giao diện sạch sẽ, đơn giản. Mọi thứ hoạt động mượt mà. Dễ dàng là ứng dụng ghi chú phim tốt nhất hiện có!",
+      "author_name": "James Anderson",
+      "datetime": "2025-09-05"
+    },
+    "review6": {
+      "title": "Nhanh chóng, đơn giản và bảo mật",
+      "quote": "Ứng dụng chụp ảnh film tốt nhất mà tôi từng dùng. Đơn giản, nhanh và có tất cả các tính năng cần thiết để tổ chức công việc. Không quảng cáo, không theo dõi, quyền riêng tư được tôn trọng.",
+      "author_name": "Ingrid Lindholm",
+      "datetime": "2025-10-03"
+    },
+    "review7": {
+      "title": "Đặt tên cuộn phim và UI tinh tế",
+      "quote": "Ứng dụng đơn giản và làm chính xác những gì nó cần làm. Tôi thích có thể đặt tên cho cuộn phim hiện tại vì đôi khi quên máy ảnh đã dùng. Giao diện sạch, thanh lịch và được thiết kế tốt.",
+      "author_name": "Hivonmarius",
+      "datetime": "2025-10-11"
+    },
+    "details": {
+      "description1": "Được thiết kế với phản hồi từ cộng đồng phim để làm cho việc ghi dữ liệu rõ ràng và thú vị.",
+      "description2": "Tham gia cùng hàng nghìn nhiếp ảnh gia đang mang lại trật tự và hiểu biết sâu sắc cho trải nghiệm chụp phim của họ với Frames."
+    },
+    "navigation": {
+      "aria_label": "Điều hướng đánh giá",
+      "previous_aria_label": "Đánh giá trước",
+      "next_aria_label": "Đánh giá tiếp theo"
+    }
+  },
+  "features": {
+    "heading_seo": "Tính năng của ứng dụng nhiếp ảnh phim",
+    "heading": "Tính Năng",
+    "feature1": {
+      "label": "Lưu Trữ",
+      "title": "Sắp Xếp Thư Viện",
+      "description": "Duyệt, sắp xếp và quản lý tất cả cuộn phim của bạn một cách dễ dàng, giữ cho mỗi phiên được cấu trúc rõ ràng, dễ tìm và được tổ chức hoàn hảo."
+    },
+    "feature2": {
+      "label": "Thiết Bị",
+      "title": "Quản Lý Thiết Bị",
+      "description": "Lưu giữ hồ sơ chi tiết về máy ảnh, ống kính và bộ lọc của bạn để duy trì nhất quán và có sẵn tất cả thông tin thiết bị cho mỗi buổi chụp."
+    },
+    "feature3": {
+      "label": "Ghi Chép",
+      "title": "Ghi Lại Cài Đặt",
+      "description": "Ghi lại khẩu độ, tốc độ màn trập, loại phim và chi tiết vị trí ngay lập tức cho từng khung hình, giữ thông tin mỗi bức ảnh chính xác và dễ truy cập."
+    },
+    "feature4": {
+      "label": "Lịch Sử",
+      "title": "Xem Lại Ảnh",
+      "description": "Nhìn lại các cuộn phim đã ghi để xem lại cài đặt, phân tích các phiên trước, học hỏi từ chúng và tinh chỉnh quy trình nhiếp ảnh phim của bạn."
+    },
+    "feature5": {
+      "label": "Xuất Dữ Liệu",
+      "title": "Xuất Hồ Sơ",
+      "description": "Lưu hoặc chia sẻ hồ sơ của bạn dưới dạng tệp .frames, .txt hoặc .gpx để sao lưu, chia sẻ hoặc tích hợp dữ liệu với các ứng dụng hoặc quy trình khác."
+    },
+    "feature6": {
+      "label": "Siêu Dữ Liệu",
+      "title": "Lưu Siêu Dữ Liệu",
+      "description": "Nhúng tất cả dữ liệu đã ghi vào ảnh đã quét để bảo toàn thông tin analog trong khi giữ cho lưu trữ kỹ thuật số của bạn được đồng bộ hóa hoàn toàn."
+    },
+    "feature7": {
+      "label": "Hỗ Trợ",
+      "title": "Hỗ Trợ Email",
+      "description": "Liên hệ trực tiếp với nhà phát triển để được trợ giúp, chia sẻ phản hồi hoặc đề xuất tính năng và cải tiến mới bất cứ lúc nào, với phản hồi nhanh chóng."
+    }
+  },
+  "pricing": {
+    "heading_seo": "Giá ứng dụng nhiếp ảnh phim",
+    "heading": "Bảng Giá",
+    "label_period": "Hàng tháng",
+    "label_period_yearly": "Hàng năm",
+    "label_subscription_monthly": "Đăng ký hàng tháng",
+    "label_subscription_yearly": "Đăng ký hàng năm",
+    "currency": "VND",
+    "ios": {
+      "title": "iOS",
+      "price": "49.000 ₫",
+      "price_yearly": "499.000 ₫",
+      "period": "/tháng",
+      "period_yearly": "/năm",
+      "price_value_monthly": "49000",
+      "price_value_yearly": "499000",
+      "includes_label": "Bao gồm:",
+      "features": [
+        "Cuộn phim không giới hạn",
+        "Thư mục con",
+        "Xuất dữ liệu dưới dạng .frames",
+        "Xuất dữ liệu dưới dạng .txt hoặc .gpx"
+      ],
+      "button_text": "Dùng Thử Miễn Phí"
+    },
+    "macos": {
+      "title": "macOS",
+      "price": "49.000 ₫",
+      "price_yearly": "499.000 ₫",
+      "period": "/tháng",
+      "period_yearly": "/năm",
+      "price_value_monthly": "49000",
+      "price_value_yearly": "499000",
+      "includes_label": "Bao gồm:",
+      "features": [
+        "Lưu siêu dữ liệu vào ảnh"
+      ],
+      "button_text": "Dùng Thử Miễn Phí"
+    },
+    "checkmark": "✓"
+  },
+  "qa": {
+    "heading_seo": "Từ các nhiếp ảnh gia phim",
+    "heading": "Câu Hỏi & Trả Lời",
+    "question1": {
+      "question": "Tôi có thể ghi lại siêu dữ liệu gì?",
+      "answer": "Frames cho phép bạn ghi lại thông tin chi tiết cho mỗi bức ảnh, bao gồm máy ảnh, ống kính, bộ lọc, số khung hình, tiêu cự, khẩu độ, tốc độ màn trập, ISO, chế độ đo sáng, loại phim, đèn flash, vị trí GPS, dấu thời gian và ghi chú tùy chỉnh, đảm bảo bạn không bao giờ mất dấu các chi tiết quan trọng trong nhiếp ảnh analog."
+    },
+    "question2": {
+      "question": "Những định dạng ảnh nào được hỗ trợ?",
+      "answer": "Frames hỗ trợ định dạng JPEG, TIFF và DNG, cho phép bạn nhúng siêu dữ liệu đã ghi trực tiếp vào ảnh analog đã quét để sắp xếp và quy trình làm việc liền mạch trên các thiết bị của bạn."
+    },
+    "question3": {
+      "question": "Frames có trên Android hoặc Windows không?",
+      "answer": "Frames hiện có sẵn cho iPhone và macOS. Phiên bản cho Android và Windows được lên kế hoạch cho năm 2026, và trong thời gian chờ đợi, bạn có thể chia sẻ và quản lý dữ liệu của mình thông qua xuất tệp .frames."
+    },
+    "question4": {
+      "question": "Tốc độ màn trập và khẩu độ nào được hỗ trợ?",
+      "answer": "Frames cung cấp chuỗi mặc định bao phủ hầu hết ống kính và máy ảnh, và bạn cũng có thể định nghĩa chuỗi tùy chỉnh cho thiết bị của mình, làm cho nó tương thích với bất kỳ giá trị tốc độ màn trập hoặc khẩu độ nào."
+    },
+    "question5": {
+      "question": "Tôi có thể ghi lại chân máy hoặc phụ kiện không?",
+      "answer": "Có, Frames cho phép bạn ghi lại chân máy, đèn flash và các phụ kiện khác. Còn có trường ghi chú bổ sung nơi bạn có thể thêm bất kỳ chi tiết tùy chỉnh nào bạn muốn."
+    },
+    "question6": {
+      "question": "Kế hoạch cho các bản cập nhật tương lai là gì?",
+      "answer": "Kế hoạch tương lai bao gồm mở rộng các tính năng quy trình làm việc, cải thiện tích hợp giữa các thiết bị và thêm các công cụ mới được yêu cầu bởi cộng đồng để làm cho việc ghi chép nhiếp ảnh analog linh hoạt và mạnh mẽ hơn nữa."
+    }
+  },
+  "contact": {
+    "heading": "Hãy cho chúng tôi biết ý tưởng và suy nghĩ của bạn.",
+    "button_text": "Gửi email cho chúng tôi"
+  },
+  "footer": {
+    "logo_alt": "Frames",
+    "compliance": "Tuân thủ PDPD",
+    "connect": {
+      "heading": "Kết Nối",
+      "instagram": "Instagram",
+      "threads": "Threads",
+      "facebook": "Facebook",
+      "bluesky": "Bluesky",
+      "mastodon": "Mastodon",
+      "twitter": "Twitter"
+    },
+    "resources": {
+      "heading": "Tài Nguyên",
+      "privacy_policy": "Chính Sách Bảo Mật",
+      "terms_of_service": "Điều Khoản Dịch Vụ",
+      "documentation": "Tài Liệu",
+      "changelog": "Nhật Ký Thay Đổi",
+      "youtube": "Youtube"
+    },
+    "product": {
+      "heading": "Sản Phẩm",
+      "frames_ios": "Frames iOS",
+      "frames_macos": "Frames macOS"
+    },
+    "copyright": "© 2025 Vincent Tantardini.",
+    "all_rights_reserved": "Đã đăng ký bản quyền.",
+    "language_dropdown": {
+      "label": "Tiếng Việt",
+      "aria_label": "Chọn ngôn ngữ"
+    }
+  },
+  "urls": {
+    "appstore_ios": "https://apps.apple.com/vn/app/frames-ghi-chú-phim-ảnh/id6744057317?l=vi",
+    "appstore_macos": "https://apps.apple.com/vn/app/frames-siêu-dữ-liệu-phim/id6744063354?l=vi",
+    "documentation": "doc/",
+    "changelog": "changelog/",
+    "privacy": "chinh-sach-rieng-tu/"
+  },
+  "video": {
+    "title": "Ứng Dụng Chụp Phim để Ghi Lại & Theo Dõi Cuộn Phim (Frames cho iPhone)",
+    "description": "Khám phá Frames, ứng dụng chụp phim chuyên dụng được thiết kế cho nhiếp ảnh gia analog. Frames giúp quản lý nhiếp ảnh analog của bạn một cách dễ dàng, giúp bạn ghi lại không chỉ các bức ảnh mà còn cả câu chuyện đằng sau mỗi cuộn phim và khung hình. Cho dù bạn làm việc với phim 35mm, định dạng trung bình hay định dạng lớn, Frames giữ cho quy trình làm việc của bạn được tổ chức và đảm bảo siêu dữ liệu ảnh của bạn gắn liền với hình ảnh, ngay cả sau khi quét."
+  },
+  "changelog": {
+    "meta": {
+      "title": "Nhật Ký Thay Đổi - Frames",
+      "description": "Nhật ký thay đổi của Frames. Cập nhật các tính năng và cải tiến mới nhất cho Frames, ứng dụng nhiếp ảnh phim.",
+      "canonical_url": "https://withframes.com/vi/changelog/"
+    },
+    "heading": "Nhật Ký Thay Đổi",
+    "labels": {
+      "improvements": "Cải Tiến",
+      "fixes": "Sửa Lỗi",
+      "patches": "Bản Vá",
+      "platform_ios": "iOS",
+      "platform_macos": "macOS",
+      "previous": "Trước",
+      "next": "Tiếp"
+    },
+    "pagination": {
+      "previous": "Trước",
+      "next": "Tiếp",
+      "page": "Trang",
+      "newer_posts": "Bài viết mới hơn",
+      "older_posts": "Bài viết cũ hơn"
+    }
+  },
+  "privacy": {
+    "meta": {
+      "title": "Chính Sách Bảo Mật - Frames",
+      "description": "Đọc chính sách bảo mật cho Frames, ứng dụng sổ tay nhiếp ảnh analog. Tìm hiểu cách chúng tôi xử lý dữ liệu của bạn một cách cẩn thận trên cả di động và máy tính.",
+      "canonical_url": "https://withframes.com/vi/chinh-sach-rieng-tu/"
+    },
+    "heading": "Chính Sách Bảo Mật",
+    "headingtoc": "Mục lục",
+    "section1": {
+      "heading": "Giới thiệu",
+      "paragraph1": "Tại Frames, quyền riêng tư của bạn là ưu tiên hàng đầu của chúng tôi. Chính sách quyền riêng tư này giải thích cách chúng tôi xử lý thông tin trong các ứng dụng iOS và macOS của chúng tôi cũng như trên trang web. Chúng tôi cam kết giữ dữ liệu của bạn an toàn, minh bạch và dưới quyền kiểm soát của bạn. Không có việc theo dõi hoặc thu thập dữ liệu không cần thiết, và bạn luôn là người quyết định thông tin nào muốn chia sẻ hoặc xuất ra."
+    },
+    "section2": {
+      "heading": "Frames cho iOS và macOS",
+      "paragraph1a": "Frames không thu thập, lưu trữ hoặc chia sẻ bất kỳ dữ liệu cá nhân nào.",
+      "paragraph1b": "Tất cả thông tin bạn nhập vào ứng dụng được lưu trữ cục bộ trên thiết bị của bạn và không bao giờ được gửi tới bất kỳ máy chủ hoặc bên thứ ba nào.",
+      "paragraph2": "Ứng dụng sử dụng framework StoreKit của Apple để quản lý đăng ký. Quá trình này được Apple xử lý hoàn toàn, và nhà phát triển không thể truy cập bất kỳ thông tin cá nhân nào.",
+      "paragraph3": "Frames không bao gồm công cụ phân tích, theo dõi hay dịch vụ trực tuyến. Ứng dụng không kết nối mạng, trừ khi sử dụng dịch vụ vị trí của hệ thống (CLLocationManager) để ghi lại tọa độ GPS nếu bạn chọn sử dụng.",
+      "paragraph4": "Khi xuất dữ liệu, ứng dụng có thể tạo các tệp .frames, .txt hoặc .gpx. Việc chia sẻ các tệp này qua menu chia sẻ của hệ thống hoàn toàn dưới quyền kiểm soát của bạn. Nhà phát triển không truy cập hoặc theo dõi nội dung xuất ra.",
+      "paragraph5": "Frames yêu cầu các quyền hệ thống sau:",
+      "permissions": {
+        "line1": {
+          "title": "Camera",
+          "description": "để chụp ảnh trực tiếp từ ứng dụng."
+        },
+        "line2": {
+          "title": "Ảnh",
+          "description": "để chọn hình ảnh tham chiếu từ thư viện của bạn."
+        },
+        "line3": {
+          "title": "Vị trí (Khi sử dụng ứng dụng)",
+          "description": "để ghi lại tọa độ GPS khi ghi lại các khung hình."
+        }
+      }
+    },
+    "section3": {
+      "heading": "Trang web withframes.com",
+      "paragraph1a": "Trang web Frames là một trang tĩnh được lưu trữ trên GitHub Pages.",
+      "paragraph1b": "Trang không sử dụng cookie, công cụ phân tích hay script theo dõi. Không có dữ liệu cá nhân nào được thu thập hoặc lưu trữ.",
+      "paragraph2": "Cloudflare cung cấp thống kê lưu lượng cơ bản, ẩn danh dựa trên nhật ký máy chủ. Các nhật ký này không chứa thông tin cá nhân và không được sử dụng cho mục đích phân tích hồ sơ hoặc tiếp thị.",
+      "paragraph3": "Trang có chứa liên kết đến các trang web bên ngoài và nền tảng mạng xã hội để chia sẻ nội dung hoặc ghi nhận các bài viết. Việc truy cập các trang này là tùy chọn và tuân theo chính sách quyền riêng tư của các trang đó.",
+      "paragraph4": "Trang không có biểu mẫu, bản tin hay các tính năng tương tác khác để thu thập thông tin."
+    },
+    "section4": {
+      "heading": "Liên hệ",
+      "paragraph1": "Nếu bạn có câu hỏi hoặc thắc mắc về chính sách quyền riêng tư này, bạn có thể liên hệ với nhà phát triển tại địa chỉ:"
+    },
+    "last_updated": "12 tháng 10, 2025",
+    "last_updated_iso": "2025-10-12",
+    "last_updated_label": "Cập nhật lần cuối",
+    "button_home": "Trang Chủ"
+  }
+}
