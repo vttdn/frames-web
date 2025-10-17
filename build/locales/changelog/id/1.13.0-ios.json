@@ -48,28 +48,31 @@
     }
   ],
   "improvements": [
-    "Ditambahkan lokalisasi bahasa Ibrani (עברית) lengkap dengan dukungan antarmuka kanan-ke-kiri",
-    "Ditambahkan lokalisasi bahasa Arab (العربية) lengkap dengan adaptasi tata letak RTL",
-    "Ditambahkan terjemahan bahasa Rumania (Română) untuk komunitas fotografi film",
-    "Ditambahkan dukungan bahasa Ukraina (Українська) dengan terminologi native",
-    "Terjemahan yang ada disempurnakan di semua bahasa yang didukung untuk kejelasan dan konsistensi yang lebih baik",
-    "Akurasi terminologi teknis yang ditingkatkan dalam bidang khusus fotografi",
-    "Dukungan teks dua arah yang ditingkatkan untuk konten campuran Latin dan RTL"
+    "Ditambahkan lokalisasi bahasa Ibrani (עברית) lengkap dengan dukungan antarmuka kanan-ke-kiri.",
+    "Ditambahkan lokalisasi bahasa Arab (العربية) lengkap dengan adaptasi tata letak RTL.",
+    "Ditambahkan terjemahan bahasa Rumania (Română) untuk komunitas fotografi film.",
+    "Ditambahkan dukungan bahasa Ukraina (Українська) dengan terminologi native.",
+    "Akurasi terminologi teknis yang ditingkatkan dalam bidang khusus fotografi.",
+    "Daftar peralatan sekarang diurutkan berdasarkan abjad untuk memudahkan penelusuran."
   ],
   "fixes": [
     {
-      "title": "Overflow Teks dalam Terjemahan",
-      "description": "Menyelesaikan masalah tata letak di mana frasa yang diterjemahkan lebih panjang dapat terpotong dalam elemen antarmuka tertentu."
+      "title": "Menu Berbagi",
+      "description": "Menyelesaikan masalah yang menyebabkan menu berbagi berkedip selama operasi ekspor."
     },
     {
-      "title": "Konsistensi Tata Letak RTL",
-      "description": "Memperbaiki masalah perataan kecil dalam bahasa kanan-ke-kiri untuk memastikan pencerminan yang tepat di semua layar."
+      "title": "Stok Film",
+      "description": "Menyelesaikan masalah di mana nilai ISO untuk stok film yang ditambahkan pengguna tidak disimpan dengan benar."
     }
   ],
   "patches": [
     {
       "version": "1.13.1",
-      "description": "Memperbaiki bug yang dapat menyebabkan menu berbagi berkedip berulang kali saat mengekspor"
+      "description": "Perbaikan menu berbagi"
+    },
+    {
+      "version": "1.13.2",
+      "description": "Perbaikan stok film dan peningkatan UX"
     }
   ],
   "meta_title": "Dukungan Bahasa Ibrani, Arab, Rumania & Ukraina · Frames",

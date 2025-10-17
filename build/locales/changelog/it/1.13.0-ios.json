@@ -48,28 +48,31 @@
     }
   ],
   "improvements": [
-    "Aggiunta localizzazione completa ebraico (עברית) con supporto interfaccia da destra a sinistra",
-    "Aggiunta localizzazione completa arabo (العربية) con adattamento layout RTL",
-    "Aggiunta traduzione rumeno (Română) per la community fotografia analogica",
-    "Aggiunto supporto ucraino (Українська) con terminologia nativa",
-    "Perfezionate traduzioni esistenti in tutte le lingue supportate per maggiore chiarezza e coerenza",
-    "Migliorata precisione terminologia tecnica nei campi specifici della fotografia",
-    "Supporto testo bidirezionale migliorato per contenuto misto latino e RTL"
+    "Aggiunta localizzazione completa ebraico (עברית) con supporto interfaccia da destra a sinistra.",
+    "Aggiunta localizzazione completa arabo (العربية) con adattamento layout RTL.",
+    "Aggiunta traduzione rumeno (Română) per la community fotografia analogica.",
+    "Aggiunto supporto ucraino (Українська) con terminologia nativa.",
+    "Migliorata precisione terminologia tecnica nei campi specifici della fotografia.",
+    "Gli elenchi delle attrezzature sono ora ordinati alfabeticamente per una navigazione più semplice."
   ],
   "fixes": [
     {
-      "title": "Overflow Testo nelle Traduzioni",
-      "description": "Risolti problemi layout dove frasi tradotte più lunghe potevano essere troncate in alcuni elementi dell'interfaccia."
+      "title": "Menu Condivisione",
+      "description": "Risolto un problema che causava lo sfarfallio del menu condivisione durante le operazioni di esportazione."
     },
     {
-      "title": "Coerenza Layout RTL",
-      "description": "Corretti problemi minori di allineamento nelle lingue da destra a sinistra per assicurare specchiamento appropriato su tutti gli schermi."
+      "title": "Pellicole",
+      "description": "Risolto un problema dove il valore ISO per le pellicole aggiunte dall'utente non veniva salvato correttamente."
     }
   ],
   "patches": [
     {
       "version": "1.13.1",
-      "description": "Corretto un bug che poteva causare lo sfarfallio ripetuto del menu condivisione durante l'esportazione"
+      "description": "Correzioni menu condivisione"
+    },
+    {
+      "version": "1.13.2",
+      "description": "Correzioni pellicole e miglioramenti UX"
     }
   ],
   "meta_title": "Supporto Lingue Ebraico, Arabo, Rumeno e Ucraino · Frames",

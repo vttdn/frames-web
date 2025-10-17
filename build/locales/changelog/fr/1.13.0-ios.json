@@ -48,28 +48,31 @@
     }
   ],
   "improvements": [
-    "Ajout de la localisation complète en hébreu (עברית) avec support d'interface de droite à gauche",
-    "Ajout de la localisation complète en arabe (العربية) avec adaptation de la mise en page RTL",
-    "Ajout de la traduction roumaine (Română) pour la communauté de photographes argentiques",
-    "Ajout du support ukrainien (Українська) avec terminologie native",
-    "Affinement des traductions existantes dans toutes les langues supportées pour améliorer la clarté et la cohérence",
-    "Amélioration de la précision de la terminologie technique dans les champs spécifiques à la photographie",
-    "Amélioration du support de texte bidirectionnel pour le contenu mixte latin et RTL"
+    "Ajout de la localisation complète en hébreu (עברית) avec support d'interface de droite à gauche.",
+    "Ajout de la localisation complète en arabe (العربية) avec adaptation de la mise en page RTL.",
+    "Ajout de la traduction roumaine (Română) pour la communauté de photographes argentiques.",
+    "Ajout du support ukrainien (Українська) avec terminologie native.",
+    "Amélioration de la précision de la terminologie technique dans les champs spécifiques à la photographie.",
+    "Les listes d'équipement sont désormais triées par ordre alphabétique pour faciliter la navigation."
   ],
   "fixes": [
     {
-      "title": "Débordement de texte dans les traductions",
-      "description": "Résolution des problèmes de mise en page où les phrases traduites plus longues pouvaient être tronquées dans certains éléments d'interface."
+      "title": "Menu de partage",
+      "description": "Correction d'un problème qui provoquait un clignotement du menu de partage lors des opérations d'exportation."
     },
     {
-      "title": "Cohérence de la mise en page RTL",
-      "description": "Correction de problèmes mineurs d'alignement dans les langues de droite à gauche pour assurer un effet miroir approprié sur tous les écrans."
+      "title": "Pellicules",
+      "description": "Correction d'un problème où la valeur ISO des pellicules ajoutées manuellement n'était pas enregistrée correctement."
     }
   ],
   "patches": [
     {
       "version": "1.13.1",
-      "description": "Correction d'un bug qui pouvait provoquer un clignotement répété du menu de partage lors de l'exportation"
+      "description": "Correction du menu de partage"
+    },
+    {
+      "version": "1.13.2",
+      "description": "Correction des pellicules et améliorations UX"
     }
   ],
   "meta_title": "Support linguistique pour l'hébreu, l'arabe, le roumain et l'ukrainien · Frames",

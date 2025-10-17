@@ -48,28 +48,31 @@
     }
   ],
   "improvements": [
-    "Lagt til fullstendig hebraisk (עברית) lokalisering med høyre-til-venstre-grensesnittstøtte",
-    "Lagt til fullstendig arabisk (العربية) lokalisering med RTL-layouttilpasning",
-    "Lagt til rumensk (Română) oversettelse for filmfotografifellesskapet",
-    "Lagt til ukrainsk (Українська) støtte med naturlig terminologi",
-    "Forbedret eksisterende oversettelser på tvers av alle støttede språk for forbedret klarhet og konsistens",
-    "Forbedret teknisk terminologinøyaktighet i fotografispesifikke felt",
-    "Forbedret toveis tekststøtte for blandet latinsk og RTL-innhold"
+    "Lagt til fullstendig hebraisk (עברית) lokalisering med høyre-til-venstre-grensesnittstøtte.",
+    "Lagt til fullstendig arabisk (العربية) lokalisering med RTL-layouttilpasning.",
+    "Lagt til rumensk (Română) oversettelse for filmfotografifellesskapet.",
+    "Lagt til ukrainsk (Українська) støtte med naturlig terminologi.",
+    "Forbedret teknisk terminologinøyaktighet i fotografispesifikke felt.",
+    "Utstyrslister er nå sortert alfabetisk for enklere navigering."
   ],
   "fixes": [
     {
-      "title": "Tekstoverflyt i oversettelser",
-      "description": "Løste layoutproblemer der lengre oversatte fraser kunne bli avkappet i enkelte grensesnittelementer."
+      "title": "Delingsmeny",
+      "description": "Løste et problem som fikk delingsmenyen til å flimre under eksportoperasjoner."
     },
     {
-      "title": "RTL-layoutkonsistens",
-      "description": "Fikset mindre justeringsproblemer i høyre-til-venstre-språk for å sikre riktig speilvending på tvers av alle skjermer."
+      "title": "Filmtyper",
+      "description": "Løste et problem der ISO-verdien for brukerlagte filmtyper ikke ble lagret korrekt."
     }
   ],
   "patches": [
     {
       "version": "1.13.1",
-      "description": "Fikset en feil som kunne få delingsmenyen til å flimre gjentatte ganger ved eksport"
+      "description": "Rettelser for delingsmeny"
+    },
+    {
+      "version": "1.13.2",
+      "description": "Rettelser for filmtyper og UX-forbedringer"
     }
   ],
   "meta_title": "Hebraisk, arabisk, rumensk og ukrainsk språkstøtte · Frames",

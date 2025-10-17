@@ -48,28 +48,31 @@
     }
   ],
   "improvements": [
-    "Lisätty täydellinen heprean (עברית) lokalisaatio oikealta-vasemmalle-käyttöliittymän tuella",
-    "Lisätty täydellinen arabian (العربية) lokalisaatio RTL-asettelun mukautuksella",
-    "Lisätty romanian (Română) käännös filmivalokuvausyhteisölle",
-    "Lisätty ukrainan (Українська) tuki alkuperäisellä terminologialla",
-    "Hiottu olemassa olevat käännökset kaikilla tuetuilla kielillä parantunutta selkeyttä ja johdonmukaisuutta varten",
-    "Parannettu teknisen terminologian tarkkuus valokuvauskohtaisilla kentillä",
-    "Parannettu kaksisuuntaisen tekstin tuki sekalaisen latinan ja RTL-sisällön osalta"
+    "Lisätty täydellinen heprean (עברית) lokalisaatio oikealta-vasemmalle-käyttöliittymän tuella.",
+    "Lisätty täydellinen arabian (العربية) lokalisaatio RTL-asettelun mukautuksella.",
+    "Lisätty romanian (Română) käännös filmivalokuvausyhteisölle.",
+    "Lisätty ukrainan (Українська) tuki alkuperäisellä terminologialla.",
+    "Parannettu teknisen terminologian tarkkuus valokuvauskohtaisilla kentillä.",
+    "Välinelistat on nyt järjestetty aakkosjärjestykseen helpomman selaamisen mahdollistamiseksi."
   ],
   "fixes": [
     {
-      "title": "Tekstin ylivuoto käännöksissä",
-      "description": "Ratkaistu asettelu-ongelmat, joissa pidemmät käännetyt lauseet saattoivat katketa tietyissä käyttöliittymäelementeissä."
+      "title": "Jakovalikko",
+      "description": "Ratkaistu ongelma, joka aiheutti jakovalikon välkyttämistä vientitoimintojen aikana."
     },
     {
-      "title": "RTL-asettelun johdonmukaisuus",
-      "description": "Korjattu pienet tasauksen ongelmat oikealta-vasemmalle-kielissä varmistaen kunnollinen peilaus kaikilla näytöillä."
+      "title": "Filmilaadut",
+      "description": "Ratkaistu ongelma, jossa käyttäjän lisäämien filmilaatien ISO-arvo ei tallentui oikein."
     }
   ],
   "patches": [
     {
       "version": "1.13.1",
-      "description": "Korjattu bugi, joka saattoi aiheuttaa jakovalikon välkyttämistä toistuvasti viennin aikana"
+      "description": "Jakovalikon korjaukset"
+    },
+    {
+      "version": "1.13.2",
+      "description": "Filmilaatien korjaukset ja UX-parannukset"
     }
   ],
   "meta_title": "Heprea, arabia, romania ja ukraina kielituki · Frames",

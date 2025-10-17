@@ -50,28 +50,31 @@
     }
   ],
   "improvements": [
-    "Localización completa en hebreo (עברית) añadida con soporte de interfaz de derecha a izquierda",
-    "Localización completa en árabe (العربية) añadida con adaptación de diseño RTL",
-    "Traducción al rumano (Română) añadida para la comunidad de fotografía analógica",
-    "Soporte de ucraniano (Українська) añadido con terminología nativa",
-    "Traducciones existentes refinadas en todos los idiomas soportados para mayor claridad y consistencia",
-    "Precisión de terminología técnica mejorada en campos específicos de fotografía",
-    "Soporte de texto bidireccional mejorado para contenido mixto latino y RTL"
+    "Localización completa en hebreo (עברית) añadida con soporte de interfaz de derecha a izquierda.",
+    "Localización completa en árabe (العربية) añadida con adaptación de diseño RTL.",
+    "Traducción al rumano (Română) añadida para la comunidad de fotografía analógica.",
+    "Soporte de ucraniano (Українська) añadido con terminología nativa.",
+    "Precisión de terminología técnica mejorada en campos específicos de fotografía.",
+    "Las listas de equipo ahora están ordenadas alfabéticamente para facilitar la navegación."
   ],
   "fixes": [
     {
-      "title": "Desbordamiento de texto en traducciones",
-      "description": "Problemas de diseño resueltos donde frases traducidas más largas podían truncarse en ciertos elementos de interfaz."
+      "title": "Menú para compartir",
+      "description": "Solucionado un problema que causaba que el menú para compartir parpadeara durante las operaciones de exportación."
     },
     {
-      "title": "Consistencia de diseño RTL",
-      "description": "Problemas menores de alineación corregidos en idiomas de derecha a izquierda para asegurar reflejo apropiado en todas las pantallas."
+      "title": "Películas",
+      "description": "Solucionado un problema donde el valor ISO de películas añadidas por el usuario no se guardaba correctamente."
     }
   ],
   "patches": [
     {
       "version": "1.13.1",
-      "description": "Corregido un error que podía causar que el menú para compartir parpadeara repetidamente al exportar"
+      "description": "Correcciones del menú para compartir"
+    },
+    {
+      "version": "1.13.2",
+      "description": "Correcciones de películas y mejoras de UX"
     }
   ]
 }

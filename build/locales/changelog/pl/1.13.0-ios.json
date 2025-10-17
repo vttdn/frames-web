@@ -48,28 +48,31 @@
     }
   ],
   "improvements": [
-    "Dodano kompletną lokalizację hebrajską (עברית) z obsługą interfejsu od prawej do lewej",
-    "Dodano kompletną lokalizację arabską (العربية) z adaptacją układu RTL",
-    "Dodano tłumaczenie rumuńskie (Română) dla społeczności fotografii kliszowej",
-    "Dodano obsługę ukraińskiego (Українська) z natywną terminologią",
-    "Udoskonalone istniejące tłumaczenia we wszystkich obsługiwanych językach dla lepszej klarowności i spójności",
-    "Poprawiona dokładność terminologii technicznej w polach specyficznych dla fotografii",
-    "Zwiększona obsługa tekstu dwukierunkowego dla mieszanej zawartości łacińskiej i RTL"
+    "Dodano kompletną lokalizację hebrajską (עברית) z obsługą interfejsu od prawej do lewej.",
+    "Dodano kompletną lokalizację arabską (العربية) z adaptacją układu RTL.",
+    "Dodano tłumaczenie rumuńskie (Română) dla społeczności fotografii kliszowej.",
+    "Dodano obsługę ukraińskiego (Українська) z natywną terminologią.",
+    "Poprawiona dokładność terminologii technicznej w polach specyficznych dla fotografii.",
+    "Listy sprzętu są teraz sortowane alfabetycznie dla łatwiejszego przeglądania."
   ],
   "fixes": [
     {
-      "title": "Przepełnienie tekstu w tłumaczeniach",
-      "description": "Rozwiązano problemy układu, w których dłuższe przetłumaczone frazy mogły być obcięte w niektórych elementach interfejsu."
+      "title": "Menu udostępniania",
+      "description": "Rozwiązano problem powodujący migotanie menu udostępniania podczas operacji eksportowania."
     },
     {
-      "title": "Spójność układu RTL",
-      "description": "Naprawiono drobne problemy wyrównania w językach od prawej do lewej, aby zapewnić prawidłowe odbicie na wszystkich ekranach."
+      "title": "Filmy",
+      "description": "Rozwiązano problem, w którym wartość ISO dla filmów dodanych przez użytkownika nie była poprawnie zapisywana."
     }
   ],
   "patches": [
     {
       "version": "1.13.1",
-      "description": "Naprawiono błąd, który mógł powodować powtarzające się migotanie menu udostępniania podczas eksportowania"
+      "description": "Poprawki menu udostępniania"
+    },
+    {
+      "version": "1.13.2",
+      "description": "Poprawki filmów i ulepszenia UX"
     }
   ],
   "meta_title": "Obsługa języków hebrajskiego, arabskiego, rumuńskiego i ukraińskiego · Frames",

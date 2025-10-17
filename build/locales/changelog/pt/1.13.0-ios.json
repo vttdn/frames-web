@@ -48,28 +48,31 @@
     }
   ],
   "improvements": [
-    "Adicionada localização completa em hebraico (עברית) com suporte de interface da direita para a esquerda",
-    "Adicionada localização completa em árabe (العربية) com adaptação de layout RTL",
-    "Adicionada tradução em romeno (Română) para a comunidade de fotografia analógica",
-    "Adicionado suporte para ucraniano (Українська) com terminologia nativa",
-    "Refinadas traduções existentes em todos os idiomas suportados para maior clareza e consistência",
-    "Precisão aprimorada da terminologia técnica em campos específicos de fotografia",
-    "Suporte aprimorado a texto bidirecional para conteúdo misto latino e RTL"
+    "Adicionada localização completa em hebraico (עברית) com suporte de interface da direita para a esquerda.",
+    "Adicionada localização completa em árabe (العربية) com adaptação de layout RTL.",
+    "Adicionada tradução em romeno (Română) para a comunidade de fotografia analógica.",
+    "Adicionado suporte para ucraniano (Українська) com terminologia nativa.",
+    "Precisão aprimorada da terminologia técnica em campos específicos de fotografia.",
+    "As listas de equipamento agora são ordenadas alfabeticamente para facilitar a navegação."
   ],
   "fixes": [
     {
-      "title": "Estouro de Texto em Traduções",
-      "description": "Resolvidos problemas de layout onde frases traduzidas mais longas poderiam ser truncadas em certos elementos de interface."
+      "title": "Menu de compartilhamento",
+      "description": "Resolvido um problema que fazia o menu de compartilhamento piscar durante operações de exportação."
     },
     {
-      "title": "Consistência de Layout RTL",
-      "description": "Corrigidos pequenos problemas de alinhamento em idiomas da direita para a esquerda para garantir espelhamento adequado em todas as telas."
+      "title": "Filmes",
+      "description": "Resolvido um problema onde o valor ISO de filmes adicionados pelo usuário não estava sendo salvo corretamente."
     }
   ],
   "patches": [
     {
       "version": "1.13.1",
-      "description": "Corrigido um erro que poderia fazer o menu de compartilhamento piscar repetidamente ao exportar"
+      "description": "Correções do menu de compartilhamento"
+    },
+    {
+      "version": "1.13.2",
+      "description": "Correções de filmes e melhorias de UX"
     }
   ],
   "meta_title": "Suporte aos Idiomas Hebraico, Árabe, Romeno e Ucraniano · Frames",

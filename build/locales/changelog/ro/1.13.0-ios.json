@@ -48,28 +48,31 @@
     }
   ],
   "improvements": [
-    "Adăugată localizare completă ebraică (עברית) cu suport interfață de la dreapta la stânga",
-    "Adăugată localizare completă arabă (العربية) cu adaptare layout RTL",
-    "Adăugată traducere română (Română) pentru comunitatea de fotografie pe film",
-    "Adăugat suport ucraineană (Українська) cu terminologie nativă",
-    "Rafinate traducerile existente pentru toate limbile suportate pentru claritate și consistență îmbunătățită",
-    "Acuratețe îmbunătățită a terminologiei tehnice în câmpurile specifice fotografiei",
-    "Suport bidirecțional sporit pentru conținut mixt latin și RTL"
+    "Adăugată localizare completă ebraică (עברית) cu suport interfață de la dreapta la stânga.",
+    "Adăugată localizare completă arabă (العربية) cu adaptare layout RTL.",
+    "Adăugată traducere română (Română) pentru comunitatea de fotografie pe film.",
+    "Adăugat suport ucraineană (Українська) cu terminologie nativă.",
+    "Acuratețe îmbunătățită a terminologiei tehnice în câmpurile specifice fotografiei.",
+    "Listele de echipament sunt acum sortate alfabetic pentru o navigare mai ușoară."
   ],
   "fixes": [
     {
-      "title": "Depășire text în traduceri",
-      "description": "Rezolvate problemele de layout unde frazele traduse mai lungi puteau fi trunchiate în anumite elemente de interfață."
+      "title": "Meniul de partajare",
+      "description": "Rezolvată o problemă care făcea meniul de partajare să pâlpâie în timpul operațiunilor de exportare."
     },
     {
-      "title": "Consistență layout RTL",
-      "description": "Remediate problemele minore de aliniere în limbile de la dreapta la stânga pentru a asigura oglindirea corectă pe toate ecranele."
+      "title": "Filme",
+      "description": "Rezolvată o problemă unde valoarea ISO pentru filmele adăugate de utilizator nu era salvată corect."
     }
   ],
   "patches": [
     {
       "version": "1.13.1",
-      "description": "Remediat o eroare care putea face meniul de partajare să pâlpâie repetat la exportare"
+      "description": "Corecții pentru meniul de partajare"
+    },
+    {
+      "version": "1.13.2",
+      "description": "Corecții pentru filme și îmbunătățiri UX"
     }
   ],
   "meta_title": "Suport lingvistic ebraică, arabă, română și ucraineană · Frames",

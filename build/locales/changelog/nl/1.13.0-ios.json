@@ -48,28 +48,31 @@
     }
   ],
   "improvements": [
-    "Volledige Hebreeuwse (עברית) lokalisatie toegevoegd met rechts-naar-links interface-ondersteuning",
-    "Volledige Arabische (العربية) lokalisatie toegevoegd met RTL lay-out aanpassing",
-    "Roemeense (Română) vertaling toegevoegd voor de filmfotografie-gemeenschap",
-    "Oekraïense (Українська) ondersteuning met eigen terminologie toegevoegd",
-    "Bestaande vertalingen verfijnd in alle ondersteunde talen voor verbeterde duidelijkheid en consistentie",
-    "Verbeterde nauwkeurigheid van technische terminologie in fotografiespecifieke velden",
-    "Verbeterde bidirectionele tekstondersteuning voor gemengde Latijnse en RTL-inhoud"
+    "Volledige Hebreeuwse (עברית) lokalisatie toegevoegd met rechts-naar-links interface-ondersteuning.",
+    "Volledige Arabische (العربية) lokalisatie toegevoegd met RTL lay-out aanpassing.",
+    "Roemeense (Română) vertaling toegevoegd voor de filmfotografie-gemeenschap.",
+    "Oekraïense (Українська) ondersteuning met eigen terminologie toegevoegd.",
+    "Verbeterde nauwkeurigheid van technische terminologie in fotografiespecifieke velden.",
+    "Apparatuurlijsten zijn nu alfabetisch gesorteerd voor eenvoudiger bladeren."
   ],
   "fixes": [
     {
-      "title": "Tekstoverloop in vertalingen",
-      "description": "Lay-outproblemen opgelost waarbij langere vertaalde zinnen konden worden afgekapt in bepaalde interface-elementen."
+      "title": "Deelmenu",
+      "description": "Probleem opgelost waarbij het deelmenu flikkerde tijdens exportbewerkingen."
     },
     {
-      "title": "RTL lay-out consistentie",
-      "description": "Kleine uitlijningsproblemen in rechts-naar-links talen verholpen om correcte spiegeling op alle schermen te garanderen."
+      "title": "Filmsoorten",
+      "description": "Probleem opgelost waarbij de ISO-waarde voor door gebruikers toegevoegde filmsoorten niet correct werd opgeslagen."
     }
   ],
   "patches": [
     {
       "version": "1.13.1",
-      "description": "Fout verholpen die kon zorgen dat het deelmenu herhaaldelijk flikkerde bij exporteren"
+      "description": "Herstel van deelmenu"
+    },
+    {
+      "version": "1.13.2",
+      "description": "Herstel van filmsoorten en UX-verbeteringen"
     }
   ],
   "meta_title": "Hebreeuws, Arabisch, Roemeens en Oekraïens taalondersteuning · Frames",

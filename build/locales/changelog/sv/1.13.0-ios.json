@@ -48,28 +48,31 @@
     }
   ],
   "improvements": [
-    "Tillagt komplett hebreisk (עברית) lokalisering med stöd för höger-till-vänster-gränssnitt",
-    "Tillagt komplett arabisk (العربية) lokalisering med RTL-layoutanpassning",
-    "Tillagt rumänsk (Română) översättning för filmfotosamhället",
-    "Tillagt ukrainskt (Українська) stöd med egen terminologi",
-    "Förfinade befintliga översättningar över alla stödda språk för förbättrad tydlighet och konsistens",
-    "Förbättrad teknisk terminologinoggrannhet i fotografispecifika fält",
-    "Förbättrat dubbelriktat textstöd för blandat latinskt och RTL-innehåll"
+    "Tillagt komplett hebreisk (עברית) lokalisering med stöd för höger-till-vänster-gränssnitt.",
+    "Tillagt komplett arabisk (العربية) lokalisering med RTL-layoutanpassning.",
+    "Tillagt rumänsk (Română) översättning för filmfotosamhället.",
+    "Tillagt ukrainskt (Українська) stöd med egen terminologi.",
+    "Förbättrad teknisk terminologinoggrannhet i fotografispecifika fält.",
+    "Utrustningslistor är nu sorterade alfabetiskt för enklare bläddring."
   ],
   "fixes": [
     {
-      "title": "Textöverflöde i översättningar",
-      "description": "Löste layoutproblem där längre översatta fraser kunde trunkeras i vissa gränssnittselement."
+      "title": "Delningsmeny",
+      "description": "Löste ett problem som fick delningsmenyn att flimra under exportoperationer."
     },
     {
-      "title": "RTL-layoutkonsistens",
-      "description": "Fixade mindre justeringsproblem i höger-till-vänster-språk för att säkerställa korrekt spegling över alla skärmar."
+      "title": "Filmtyper",
+      "description": "Löste ett problem där ISO-värdet för användarlagda filmtyper inte sparades korrekt."
     }
   ],
   "patches": [
     {
       "version": "1.13.1",
-      "description": "Fixade en bugg som kunde få delningsmenyn att flimra upprepade gånger vid export"
+      "description": "Fixar för delningsmeny"
+    },
+    {
+      "version": "1.13.2",
+      "description": "Fixar för filmtyper och UX-förbättringar"
     }
   ],
   "meta_title": "Hebreiska, arabiska, rumänska och ukrainska språkstöd · Frames",

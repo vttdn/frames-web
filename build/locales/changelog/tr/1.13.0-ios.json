@@ -48,28 +48,31 @@
     }
   ],
   "improvements": [
-    "Sağdan sola arayüz desteği ile eksiksiz İbranice (עברית) yerelleştirmesi eklendi",
-    "RTL düzen adaptasyonu ile eksiksiz Arapça (العربية) yerelleştirmesi eklendi",
-    "Film fotoğrafçılığı topluluğu için Rumence (Română) çevirisi eklendi",
-    "Doğal terminoloji ile Ukraynaca (Українська) desteği eklendi",
-    "İyileştirilmiş netlik ve tutarlılık için desteklenen tüm dillerde mevcut çeviriler rafine edildi",
-    "Fotoğrafçılığa özgü alanlarda iyileştirilmiş teknik terminoloji doğruluğu",
-    "Karışık Latin ve RTL içeriği için geliştirilmiş iki yönlü metin desteği"
+    "Sağdan sola arayüz desteği ile eksiksiz İbranice (עברית) yerelleştirmesi eklendi.",
+    "RTL düzen adaptasyonu ile eksiksiz Arapça (العربية) yerelleştirmesi eklendi.",
+    "Film fotoğrafçılığı topluluğu için Rumence (Română) çevirisi eklendi.",
+    "Doğal terminoloji ile Ukraynaca (Українська) desteği eklendi.",
+    "Fotoğrafçılığa özgü alanlarda iyileştirilmiş teknik terminoloji doğruluğu.",
+    "Ekipman listeleri daha kolay gezinme için artık alfabetik olarak sıralandı."
   ],
   "fixes": [
     {
-      "title": "Çevirilerde Metin Taşması",
-      "description": "Belirli arayüz öğelerinde daha uzun çevrilmiş ifadelerin kesilebileceği düzen sorunları çözüldü."
+      "title": "Paylaşım menüsü",
+      "description": "Dışa aktarma işlemleri sırasında paylaşım menüsünün titremesine neden olan bir sorun çözüldü."
     },
     {
-      "title": "RTL Düzen Tutarlılığı",
-      "description": "Tüm ekranlarda uygun yansıtma sağlamak için sağdan sola dillerdeki küçük hizalama sorunları düzeltildi."
+      "title": "Filmler",
+      "description": "Kullanıcı tarafından eklenen filmlerin ISO değerinin doğru şekilde kaydedilmediği bir sorun çözüldü."
     }
   ],
   "patches": [
     {
       "version": "1.13.1",
-      "description": "Dışa aktarma sırasında paylaşım menüsünün tekrar tekrar titremesine neden olabilecek bir hata düzeltildi"
+      "description": "Paylaşım menüsü düzeltmeleri"
+    },
+    {
+      "version": "1.13.2",
+      "description": "Film düzeltmeleri ve UX iyileştirmeleri"
     }
   ],
   "meta_title": "İbranice, Arapça, Rumence ve Ukraynaca Dil Desteği · Frames",

@@ -48,28 +48,31 @@
     }
   ],
   "improvements": [
-    "Vollständige Hebräisch (עברית) Lokalisierung mit Rechts-nach-Links-Interface-Unterstützung hinzugefügt",
-    "Vollständige Arabisch (العربية) Lokalisierung mit RTL-Layout-Anpassung hinzugefügt",
-    "Rumänische (Română) Übersetzung für die Filmfotografie-Community hinzugefügt",
-    "Ukrainische (Українська) Unterstützung mit nativer Terminologie hinzugefügt",
-    "Bestehende Übersetzungen über alle unterstützten Sprachen für verbesserte Klarheit und Konsistenz verfeinert",
-    "Verbesserte technische Terminologie-Genauigkeit in fotografiespezifischen Feldern",
-    "Erweiterte bidirektionale Textunterstützung für gemischten lateinischen und RTL-Inhalt"
+    "Vollständige Hebräisch (עברית) Lokalisierung mit Rechts-nach-Links-Interface-Unterstützung hinzugefügt.",
+    "Vollständige Arabisch (العربية) Lokalisierung mit RTL-Layout-Anpassung hinzugefügt.",
+    "Rumänische (Română) Übersetzung für die Filmfotografie-Community hinzugefügt.",
+    "Ukrainische (Українська) Unterstützung mit nativer Terminologie hinzugefügt.",
+    "Verbesserte technische Terminologie-Genauigkeit in fotografiespezifischen Feldern.",
+    "Ausrüstungslisten sind nun alphabetisch sortiert für einfacheres Durchsuchen."
   ],
   "fixes": [
     {
-      "title": "Textüberlauf in Übersetzungen",
-      "description": "Layout-Probleme behoben, bei denen längere übersetzte Phrasen in bestimmten Interface-Elementen abgeschnitten werden konnten."
+      "title": "Teilen-Menü",
+      "description": "Problem behoben, das dazu führte, dass das Teilen-Menü während Export-Operationen flackerte."
     },
     {
-      "title": "RTL-Layout-Konsistenz",
-      "description": "Kleinere Ausrichtungsprobleme in Rechts-nach-Links-Sprachen behoben, um korrektes Spiegeln über alle Bildschirme sicherzustellen."
+      "title": "Filmtypen",
+      "description": "Problem behoben, bei dem der ISO-Wert für benutzerdefinierte Filmtypen nicht korrekt gespeichert wurde."
     }
   ],
   "patches": [
     {
       "version": "1.13.1",
-      "description": "Fehler behoben, der dazu führen konnte, dass das Teilen-Menü beim Exportieren wiederholt flackert"
+      "description": "Fehlerbehebungen für Teilen-Menü"
+    },
+    {
+      "version": "1.13.2",
+      "description": "Fehlerbehebungen für Filmtypen und UX-Verbesserungen"
     }
   ],
   "meta_title": "Hebräisch, Arabisch, Rumänisch & Ukrainisch Sprachunterstützung · Frames",

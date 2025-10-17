@@ -48,28 +48,31 @@
     }
   ],
   "improvements": [
-    "Thêm bản địa hóa tiếng Do Thái (עברית) hoàn chỉnh với hỗ trợ giao diện từ phải sang trái",
-    "Thêm bản địa hóa tiếng Ả Rập (العربية) hoàn chỉnh với thích ứng bố cục RTL",
-    "Thêm bản dịch tiếng Rumani (Română) cho cộng đồng nhiếp ảnh phim",
-    "Thêm hỗ trợ tiếng Ukraina (Українська) với thuật ngữ bản địa",
-    "Tinh chỉnh các bản dịch hiện có trên tất cả các ngôn ngữ được hỗ trợ để cải thiện độ rõ ràng và tính nhất quán",
-    "Cải thiện độ chính xác thuật ngữ kỹ thuật trong các lĩnh vực cụ thể nhiếp ảnh",
-    "Tăng cường hỗ trợ văn bản hai chiều cho nội dung Latin và RTL hỗn hợp"
+    "Thêm bản địa hóa tiếng Do Thái (עברית) hoàn chỉnh với hỗ trợ giao diện từ phải sang trái.",
+    "Thêm bản địa hóa tiếng Ả Rập (العربية) hoàn chỉnh với thích ứng bố cục RTL.",
+    "Thêm bản dịch tiếng Rumani (Română) cho cộng đồng nhiếp ảnh phim.",
+    "Thêm hỗ trợ tiếng Ukraina (Українська) với thuật ngữ bản địa.",
+    "Cải thiện độ chính xác thuật ngữ kỹ thuật trong các lĩnh vực cụ thể nhiếp ảnh.",
+    "Danh sách thiết bị giờ đây được sắp xếp theo thứ tự bảng chữ cái để dễ dàng duyệt hơn."
   ],
   "fixes": [
     {
-      "title": "Tràn văn bản trong bản dịch",
-      "description": "Giải quyết các vấn đề bố cục nơi các cụm từ được dịch dài hơn có thể bị cắt trong một số yếu tố giao diện nhất định."
+      "title": "Menu chia sẻ",
+      "description": "Giải quyết vấn đề khiến menu chia sẻ nhấp nháy trong quá trình thao tác xuất."
     },
     {
-      "title": "Tính nhất quán bố cục RTL",
-      "description": "Khắc phục các vấn đề căn chỉnh nhỏ trong các ngôn ngữ từ phải sang trái để đảm bảo phản chiếu đúng trên tất cả các màn hình."
+      "title": "Loại phim",
+      "description": "Giải quyết vấn đề giá trị ISO của loại phim do người dùng thêm không được lưu đúng cách."
     }
   ],
   "patches": [
     {
       "version": "1.13.1",
-      "description": "Khắc phục lỗi có thể khiến menu chia sẻ nhấp nháy liên tục khi xuất"
+      "description": "Sửa lỗi menu chia sẻ"
+    },
+    {
+      "version": "1.13.2",
+      "description": "Sửa lỗi loại phim và cải thiện UX"
     }
   ],
   "meta_title": "Hỗ trợ ngôn ngữ Do Thái, Ả Rập, Rumani & Ukraina · Frames",

@@ -48,28 +48,31 @@
     }
   ],
   "improvements": [
-    "Added complete Hebrew (עברית) localization with right-to-left interface support",
-    "Added complete Arabic (العربية) localization with RTL layout adaptation",
-    "Added Romanian (Română) translation for the film photography community",
-    "Added Ukrainian (Українська) support with native terminology",
-    "Refined existing translations across all supported languages for improved clarity and consistency",
-    "Improved technical terminology accuracy in photography-specific fields",
-    "Enhanced bidirectional text support for mixed Latin and RTL content"
+    "Added complete Hebrew (עברית) localization with right-to-left interface support.",
+    "Added complete Arabic (العربية) localization with RTL layout adaptation.",
+    "Added Romanian (Română) translation for the film photography community.",
+    "Added Ukrainian (Українська) support with native terminology.",
+    "Improved technical terminology accuracy in photography-specific fields.",
+    "Gear lists are now sorted alphabetically for easier browsing."
   ],
   "fixes": [
     {
-      "title": "Text Overflow in Translations",
-      "description": "Resolved layout issues where longer translated phrases could be truncated in certain interface elements."
+      "title": "Share Menu",
+      "description": "Resolved an issue that caused the share menu to flicker during export operations."
     },
     {
-      "title": "RTL Layout Consistency",
-      "description": "Fixed minor alignment issues in right-to-left languages to ensure proper mirroring across all screens."
+      "title": "Film Stocks",
+      "description": "Resolved an issue where the ISO value for user-added film stocks wasn’t being saved correctly."
     }
   ],
   "patches": [
     {
       "version": "1.13.1",
-      "description": "Fixed a bug that could cause the share menu to flicker repeatedly when exporting"
+      "description": "Share menu fixes"
+    },
+    {
+      "version": "1.13.2",
+      "description": "Film stocks fixes and UX improvements"
     }
   ],
   "meta_title": "Hebrew, Arabic, Romanian & Ukrainian Language Support · Frames",
