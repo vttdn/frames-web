@@ -13,6 +13,7 @@ from datetime import datetime
 from jinja2 import Environment, FileSystemLoader, select_autoescape
 import rjsmin
 import htmlmin
+from PIL import Image
 
 # Get project root directory (go up from build/scripts/ to root)
 PROJECT_ROOT = Path(__file__).parent.parent.parent
@@ -176,6 +177,154 @@ def get_first_image_from_entry(entry):
                 section.get('height', '300')
             )
     return None, None, None
+
+def resolve_source_image_path(image_path, lang_code):
+    """
+    Resolve the actual filesystem path for a changelog image.
+    Checks both language-specific and shared directories.
+    Converts to @2x version for higher quality OG images.
+
+    Args:
+        image_path: Path from JSON (e.g., '/lib/img/shared/changelog/frames-1.13.0-1.png')
+        lang_code: Language code to check for language-specific version
+
+    Returns:
+        Path object to the @2x image, or None if not found
+    """
+    # Strip leading slash and convert to Path
+    relative_path = image_path.lstrip('/')
+
+    # Convert to @2x version
+    path_obj = Path(relative_path)
+    base_name = path_obj.stem
+    extension = path_obj.suffix
+    image_2x_name = f"{base_name}@2x{extension}"
+
+    # Try language-specific version first
+    lang_specific_path = PROJECT_ROOT / "lib" / "img" / lang_code / "changelog" / image_2x_name
+    if lang_specific_path.exists():
+        return lang_specific_path
+
+    # Try shared version
+    shared_path = PROJECT_ROOT / "lib" / "img" / "shared" / "changelog" / image_2x_name
+    if shared_path.exists():
+        return shared_path
+
+    # If @2x doesn't exist, try original path as fallback
+    original_path = PROJECT_ROOT / relative_path
+    if original_path.exists():
+        return original_path
+
+    return None
+
+def generate_og_image(source_image_path, output_path, bg_color=(28, 28, 30)):
+    """
+    Generate OG image from source PNG with transparency.
+
+    Process:
+    1. Opens PNG and flattens transparency with background color
+    2. Scales to 600px width proportionally
+    3. Center-crops to 600×315px
+    4. Saves as JPEG at 85% quality
+
+    Args:
+        source_image_path: Path to source PNG (@2x version preferred)
+        output_path: Path where to save the output JPEG
+        bg_color: RGB tuple for background color (default: rgb(28, 28, 30))
+
+    Returns:
+        True if successful, False otherwise
+    """
+    try:
+        # Check if output already exists
+        if output_path.exists():
+            return True
+
+        # Open source image
+        img = Image.open(source_image_path)
+
+        # Convert RGBA to RGB by compositing on background color
+        if img.mode in ('RGBA', 'LA', 'P'):
+            # Create background with specified color
+            background = Image.new('RGB', img.size, bg_color)
+            if img.mode == 'P':
+                img = img.convert('RGBA')
+            # Composite image onto background
+            if img.mode == 'RGBA':
+                background.paste(img, mask=img.split()[3])  # Use alpha channel as mask
+            else:
+                background.paste(img)
+            img = background
+        elif img.mode != 'RGB':
+            img = img.convert('RGB')
+
+        # Scale to 600px width, maintaining aspect ratio
+        target_width = 600
+        aspect_ratio = img.height / img.width
+        target_height = int(target_width * aspect_ratio)
+        img = img.resize((target_width, target_height), Image.Resampling.LANCZOS)
+
+        # Center-crop to 600×315px
+        target_crop_height = 315
+        if img.height > target_crop_height:
+            # Calculate crop box (equal amounts from top and bottom)
+            crop_top = (img.height - target_crop_height) // 2
+            crop_bottom = crop_top + target_crop_height
+            img = img.crop((0, crop_top, target_width, crop_bottom))
+        elif img.height < target_crop_height:
+            # Image is shorter than target, pad with background color
+            padded = Image.new('RGB', (target_width, target_crop_height), bg_color)
+            paste_y = (target_crop_height - img.height) // 2
+            padded.paste(img, (0, paste_y))
+            img = padded
+
+        # Ensure output directory exists
+        output_path.parent.mkdir(parents=True, exist_ok=True)
+
+        # Save as JPEG with 85% quality
+        img.save(output_path, 'JPEG', quality=85, optimize=True)
+
+        return True
+
+    except Exception as e:
+        print(f"⚠ Warning: Failed to generate OG image {output_path.name}: {e}")
+        return False
+
+def generate_changelog_og_image(lang_code, image_path, filename):
+    """
+    Generate OG image for changelog (index or entry).
+
+    Args:
+        lang_code: Language code
+        image_path: Path to source image from JSON, or None for fallback
+        filename: Output filename (e.g., 'og-image.jpg' or '1-0-ios-og-image.jpg')
+
+    Returns:
+        Relative URL path to use in templates (e.g., '/lib/img/en/changelog/og-image/og-image.jpg')
+        or '/og-image.jpg' as fallback
+    """
+    # Fallback if no image provided
+    if not image_path:
+        return '/og-image.jpg'
+
+    # Resolve actual filesystem path
+    source_path = resolve_source_image_path(image_path, lang_code)
+    if not source_path:
+        print(f"⚠ Warning: Source image not found: {image_path}")
+        return '/og-image.jpg'
+
+    # Define output path
+    output_dir = PROJECT_ROOT / "lib" / "img" / lang_code / "changelog" / "og-image"
+    output_path = output_dir / filename
+
+    # Generate OG image
+    success = generate_og_image(source_path, output_path)
+
+    if success:
+        # Return URL path for template
+        return f"/lib/img/{lang_code}/changelog/og-image/{filename}"
+    else:
+        return '/og-image.jpg'
 
 def generate_schema(template_name, context):
     """Generate JSON-LD schema from template"""
@@ -413,6 +562,12 @@ def generate_changelog_entry(lang_code, global_config, locale_data, entry, prev_
     organization_schema = generate_schema('organization.json', org_context)
     save_schema(organization_schema, 'organization.json', lang_code, 'changelog-entry', url_slug=entry['url_slug'])
 
+    # Generate OG image for this entry (use entry's first image if available)
+    og_image_url = '/og-image.jpg'  # Default fallback
+    if first_image:
+        og_filename = f"{entry['url_slug']}-og-image.jpg"
+        og_image_url = generate_changelog_og_image(lang_code, first_image, og_filename)
+
     # Prepare template context
     context = {
         'lang': lang_code,
@@ -425,7 +580,8 @@ def generate_changelog_entry(lang_code, global_config, locale_data, entry, prev_
         'entry': entry,
         'prev_entry': prev_entry,
         'next_entry': next_entry,
-        'changelog_css': changelog_css
+        'changelog_css': changelog_css,
+        'og_image_url': og_image_url
     }
 
     # Load and render template
