@@ -43,6 +43,7 @@
     <meta name="twitter:title" content="{{ locale_data.meta.title }}">
     <meta name="twitter:description" content="{{ locale_data.meta.description }}">
     <meta name="twitter:image" content="https://withframes.com/og-image.jpg">
+
     <meta property="og:type" content="{{ locale_data.meta.og_type }}">
     <meta property="og:site_name" content="{{ locale_data.meta.og_site_name }}">
     <meta property="og:title" content="{{ locale_data.meta.title }}">
@@ -50,16 +51,15 @@
     <meta property="og:url" content="{{ locale_data.meta.canonical_url }}">
     <meta property="og:image" content="https://withframes.com/og-image.jpg">
     <meta property="og:locale" content="{{ locale_data.meta.locale }}">
+
     <link rel="shortcut icon" href="/favicon.png" type="image/png">
     <link rel="icon" href="/favicon.svg" type="image/svg+xml">
     <link rel="apple-touch-icon" href="/apple-touch-icon.png">
     <meta name="theme-color" content="#000">
     <meta name="apple-itunes-app" content="app-id=6744057317">
-    <link rel="me" href="https://mastodon.social/@frames">
 </head>
 
 <body>
-
     <header class="main-header wrapper">
         <div class="container-header">
             <a href="{{ lang_config.path }}" class="logo leading" aria-label="{{ locale_data.header.logo_aria_label }}">
@@ -571,7 +571,7 @@
         </section>
 
         <section class="contact tile container-ratio ratio-2-1" aria-labelledby="contact-heading">
-            <div class="contact-inner flex flex-col flex-center flex-justify-center">
+            <div class="flex flex-col flex-center flex-justify-center">
                 <h2 id="contact-heading">{{ locale_data.contact.heading }}</h2>
                 <a href="mailto:&#104;&#105;&#64;&#119;&#105;&#116;&#104;&#102;&#114;&#97;&#109;&#101;&#115;&#46;&#99;&#111;&#109;"
                     class="btn btn-md btn-secondary">{{ locale_data.contact.button_text }}</a>
@@ -596,7 +596,7 @@
                         locale_data.footer.connect.facebook }}</a></li>
                 <li><a href="{{ global_config.urls.social.bluesky }}" target="_blank" rel="noopener noreferrer">{{
                         locale_data.footer.connect.bluesky }}</a></li>
-                <li><a href="{{ global_config.urls.social.mastodon }}" target="_blank" rel="noopener noreferrer">{{
+                <li><a href="{{ global_config.urls.social.mastodon }}" target="_blank" rel="me noopener noreferrer">{{
                         locale_data.footer.connect.mastodon }}</a></li>
                 <li><a href="{{ global_config.urls.social.twitter }}" target="_blank" rel="noopener noreferrer">{{
                         locale_data.footer.connect.twitter }}</a></li>
