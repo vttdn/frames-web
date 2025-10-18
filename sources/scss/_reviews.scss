@@ -32,7 +32,7 @@
 
     .btn {
         cursor: default !important;
-        background: var(--color-gray-dark2) !important;
+        background: var(--color-dark2) !important;
         padding: 0.375rem;
     }
 }
@@ -43,11 +43,11 @@
 }
 
 .review-date {
-    color: var(--color-secondary);
+    color: var(--color-gray);
 }
 
 .review-footer {
-    color: var(--color-secondary);
+    color: var(--color-gray);
     margin-top: var(--spacing-lg);
 }
 

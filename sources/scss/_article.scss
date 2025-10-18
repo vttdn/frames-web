@@ -39,7 +39,7 @@
   .changelog-header h1 {
     font-size: var(--font-size-md);
     line-height: var(--line-height-md);
-    color: var(--color-secondary);
+    color: var(--color-gray);
     margin-bottom: 0;
     padding-right: 0;
     padding-bottom: 0;
@@ -69,11 +69,11 @@
   ul {
     list-style-type: square;
     padding-left: 20px;
-    color: var(--color-secondary);
+    color: var(--color-gray);
   }
 
   .bullet-point {
-    color: var(--color-primary);
+    color: var(--color-white);
   }
 
   @include desktop-medium-down {
@@ -109,7 +109,7 @@
 
 .changelog-divider {
   border: none;
-  background-color: var(--color-gray-dark2);
+  background-color: var(--color-dark2);
   height: 1px;
   margin: var(--spacing-6xl) 0;
 
@@ -122,15 +122,15 @@
 .changelog-header {
   margin-top: var(--spacing-5xl);
   margin-bottom: 0.375rem;
-  color: var(--color-secondary);
+  color: var(--color-gray);
 }
 
 .changelog-header, .release-info {
   a:hover {
-    color: var(--color-primary);
+    color: var(--color-white);
 
     .release-number {
-      border: 1px solid var(--color-primary);
+      border: 1px solid var(--color-white);
     }
   }
 }
@@ -151,7 +151,7 @@
 
 /* Release Info */
 .release-info {
-  color: var(--color-secondary);
+  color: var(--color-gray);
   height: max-content;
   position: sticky;
   top:64px;
@@ -160,7 +160,7 @@
 .release-number {
   font-size: var(--font-size-sm);
   line-height: var(--line-height-md);
-  border: 1px solid var(--color-gray-dark3);
+  border: 1px solid var(--color-dark3);
   border-radius: var(--radius-full);
   padding: 0 10px;
 }
@@ -198,7 +198,7 @@
     }
 
     &:hover {
-      background-color: var(--color-gray-dark2);
+      background-color: var(--color-dark2);
     }
   }
 
@@ -223,12 +223,12 @@
   }
 
   .pagination-label {
-    color: var(--color-secondary);
+    color: var(--color-gray);
     margin-bottom: 0.125rem;
   }
 
   .pagination-title {
-    color: var(--color-primary);
+    color: var(--color-white);
     margin-top: var(--spacing-xs2);
   }
 }

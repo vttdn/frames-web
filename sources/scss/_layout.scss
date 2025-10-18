@@ -4,7 +4,7 @@
 /* Base grid container */
 .grid {
   display: grid;
-  gap: var(--grid-gap);
+  gap: var(--spacing-md);
 }
 
 /* Layout variants */

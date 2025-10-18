@@ -4,7 +4,7 @@
 .plans-toggle {
   display: inline-flex;
 //   background-color: var(--color-surface);
-    border: 1px solid var(--color-gray-dark2);
+    border: 1px solid var(--color-dark2);
   border-radius: 1000px;
   padding: 0.125rem;
   position: relative;
@@ -28,13 +28,13 @@
 //   transition: all 0.3s ease;
   z-index: 1;
   position: relative;
-  color: var(--color-secondary);
+  color: var(--color-gray);
   white-space: nowrap; /* Prevent text wrapping */
   font-size: var(--font-size-sm);
   line-height: var(--line-height-sm);
 
   &:hover {
-    color: var(--color-primary);
+    color: var(--color-white);
   }
 }
 
@@ -44,8 +44,8 @@
 //   height: 100%;
   top: 2px;
   bottom: 2px;
-  background: var(--color-gray-dark2);
-    // border: 1px solid var(--color-gray-dark3);
+  background: var(--color-dark2);
+    // border: 1px solid var(--color-dark3);
   border-radius: 1000px;
   transition: all 0.15s ease;
   z-index: 0;
@@ -66,5 +66,5 @@
 /* Optional: Style active text */
 #monthly:checked ~ .toggle-option[for="monthly"],
 #yearly:checked ~ .toggle-option[for="yearly"] {
-  color: var(--color-primary);
+  color: var(--color-white);
 }

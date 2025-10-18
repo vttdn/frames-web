@@ -64,7 +64,7 @@
   
   &.btn-dark {
     background: transparent;
-    border: 1px solid var(--color-gray-dark3);
+    border: 1px solid var(--color-dark3);
     color: var(--color-white);
     
     svg {
@@ -73,17 +73,17 @@
   
     /* Hover states */
     &:hover {
-      border: 1px solid rgb(var(--color-gray-dark4-rgb));
+      border: 1px solid rgb(var(--color-dark4-rgb));
     }
     
     &:active {
       // background: color-mix(in srgb, var(--color-black) 92%, white 8%);
-      border: 1px solid rgb(var(--color-gray-dark5-rgb));
+      border: 1px solid rgb(var(--color-dark5-rgb));
     }
   }
   
   &.btn-secondary {
-    background: var(--color-gray-dark2);
+    background: var(--color-dark2);
     color: var(--color-white);
     
     svg {
@@ -91,11 +91,11 @@
     }
     /* Hover states */
     &:hover {
-      background: var(--color-gray-dark3);
+      background: var(--color-dark3);
     }
     
     &:active {
-      background: rgb(var(--color-gray-dark5-rgb));
+      background: rgb(var(--color-dark5-rgb));
     }
   }
 }

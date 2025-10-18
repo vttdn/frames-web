@@ -49,7 +49,7 @@
       text-decoration-color: rgba(var(--color-white-rgb), 0.56);
 
       &:hover {
-        color: rgba(var(--color-primary-rgb), 0.82);
+        color: rgba(var(--color-white-rgb), 0.82);
       }
     }
 
@@ -64,7 +64,7 @@
   }
 
   .last-updated {
-    color: var(--color-secondary);
+    color: var(--color-gray);
   }
 }
 
@@ -78,11 +78,11 @@ nav.toc,
 
   a {
     &:hover {
-      color: var(--color-primary);
+      color: var(--color-white);
     }
 
     &.current {
-      color: var(--color-primary);
+      color: var(--color-white);
     }
   }
 }
@@ -106,12 +106,12 @@ nav.toc {
   line-height: var(--line-height-sm);
 
   li {
-    color: var(--color-primary);
+    color: var(--color-white);
     line-height: var(--line-height-md);
   }
 
   h3 {
-    color: var(--color-secondary);
+    color: var(--color-gray);
     margin-bottom: 0.125rem;
     margin-top: 0;
     font-size: var(--font-size-sm);

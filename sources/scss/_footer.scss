@@ -14,7 +14,7 @@
     }
 
     h3 {
-        color: var(--color-secondary);
+        color: var(--color-gray);
         font-size: inherit;
         line-height: inherit;
     }
@@ -39,11 +39,11 @@
 }
 
 .footer-bottom {
-    color: var(--color-secondary);
+    color: var(--color-gray);
 
     a {
         &:hover {
-            color: var(--color-primary);
+            color: var(--color-white);
         }
     }
 }

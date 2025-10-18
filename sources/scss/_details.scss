@@ -1,6 +1,6 @@
 /* Q&A / Details Section */
 details {
-    border-top: 1px solid var(--color-gray-dark2);
+    border-top: 1px solid var(--color-dark2);
 
     h3 {
         font-size: var(--font-size-md);
@@ -37,7 +37,7 @@ details {
 
     /* Last details element gets bottom border */
     &:last-child {
-        border-bottom: 1px solid var(--color-gray-dark2);
+        border-bottom: 1px solid var(--color-dark2);
     }
 
     /* When open, rotate the icon */

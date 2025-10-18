@@ -2,27 +2,24 @@
     /* Color Palette */
     --color-black: #0C0B14;
     --color-accent: #FF375F;
-    --color-white-rgb: 236, 236, 237;
-    --color-white: rgb(var(--color-white-rgb));
-    --color-gray: rgba(var(--color-white-rgb), 0.56);
+    --color-bg: #000;
 
     /* Dark grays RGB */
-    --color-gray-dark-rgb: 28, 28, 30;
-    --color-gray-dark2-rgb: 44, 44, 46;
-    --color-gray-dark3-rgb: 58, 58, 60;
-    --color-gray-dark4-rgb: 68, 68, 70;
-    --color-gray-dark5-rgb: 78, 78, 80;
+    --color-white-rgb: 236, 236, 237;
+    --color-dark-rgb: 28, 28, 30;
+    --color-dark2-rgb: 44, 44, 46;
+    --color-dark3-rgb: 58, 58, 60;
+    --color-dark4-rgb: 68, 68, 70;
+    --color-dark5-rgb: 78, 78, 80;
 
     /* Full RGB colors */
-    --color-gray-dark: rgb(var(--color-gray-dark-rgb));
-    --color-gray-dark2: rgb(var(--color-gray-dark2-rgb));
-    --color-gray-dark3: rgb(var(--color-gray-dark3-rgb));
+    --color-white: rgb(var(--color-white-rgb));
+    --color-gray: rgba(var(--color-white-rgb), 0.56);
+    --color-dark: rgb(var(--color-dark-rgb));
+    --color-dark2: rgb(var(--color-dark2-rgb));
+    --color-dark3: rgb(var(--color-dark3-rgb));
 
-    --color-background: #000;
-    --color-primary: var(--color-white);
-    --color-secondary: var(--color-gray);
-    --color-surface: var(--color-gray-dark);
-    --color-divider: var(--color-gray-dark3);
+    --color-surface: var(--color-dark);
 
     /* Font Sizes */ 
     --font-size-xs: 0.8125rem; /* 13px */
@@ -52,17 +49,9 @@
     --spacing-5xl: 6rem;    /* 96px */
     --spacing-6xl: 8rem;    /* 128px */
 
-    /* Layout Sizes */
-    --grid-gap: var(--spacing-md);
-
     /* Border Radius */
     --radius-sm: 0.25rem;   /* 4px */
     --radius-md: 0.5rem;   /* 8px */
     --radius-lg: 1rem; /* 16px */
     --radius-full: 9999px; /* fully rounded */
-
-    /* Transition */
-    --transition-fast: 150ms ease;
-    --transition-base: 200ms ease;
-    --transition-slow: 300ms ease;
 }

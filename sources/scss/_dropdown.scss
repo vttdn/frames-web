@@ -34,9 +34,9 @@
     z-index: 1;
 
     font-size: var(--font-size-body);
-    background-color: var(--color-background);
+    background-color: var(--color-bg);
     border-radius: var(--radius-md);
-    border: 1px solid var(--color-gray-dark2);
+    border: 1px solid var(--color-dark2);
 
     opacity: 0;
     visibility: hidden;
@@ -73,7 +73,7 @@
     display: flex;
     align-items: center;
     padding: 0.3125rem var(--spacing-lg);
-    color: var(--color-primary);
+    color: var(--color-white);
     font-size: var(--font-size-sm);
     line-height: var(--line-height-sm);
 
