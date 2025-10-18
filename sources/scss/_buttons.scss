@@ -69,9 +69,6 @@ button {
 }
 
 .play-btn {
-  display: flex;
-  align-items: center;
-  justify-content: center;
   height: 6rem;
   width: 6rem;
 
@@ -80,15 +77,14 @@ button {
   transform: translate(-50%, -50%);
 
   background-color: rgba(var(--color-white-rgb), 0.1);
-  border-radius: 9999px;
+  border-radius: var(--radius-full);
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(20px);
   isolation: isolate;
 
   color: var(--color-white);
-  line-height: 1;
   font-size: 2.4rem;
-  padding: 0 0 0rem .5rem;
+  padding: 0 0 0rem .5rem; // fix optical alignment
 
   // will-change: transform;
 
