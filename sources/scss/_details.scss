@@ -19,6 +19,7 @@ details {
         display: flex;
         align-items: flex-start;
         padding: var(--spacing-lg) 0;
+        padding-right: var(--spacing-2xl);
 
         // ::before {
         //     content: '‹';                           /* left chevron character */
@@ -60,8 +61,9 @@ details summary::before {
     content: '›';                           /* left chevron character */
             position: absolute;
             right: 0;                               /* align to right edge of summary */
-            top: 50%;                               /* vertical center */
-            transform: translateY(-50%) rotate(90deg); /* rotate left → down */
+            top: 1rem;                               /* vertical center */
+            transform: rotate(90deg); /* rotate left → down */
             font-size: 2rem;
+            line-height: var(--line-height-md);
             font-weight: 200;
 }
