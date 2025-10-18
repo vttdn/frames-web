@@ -87,12 +87,6 @@ document.addEventListener('DOMContentLoaded', () => {
   // --- Global close events ---
   overlay.addEventListener('click', (e) => {
     if (e.target === overlay) closeOverlay();
-
-    // Only handle anchor clicks
-    const anchor = e.target.closest('a[href^="#"]');
-    if (anchor) {
-      closeOverlay();
-    }
   });
 
   document.addEventListener('keydown', (e) => {
@@ -169,7 +163,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         <nav class="mobile-menu-nav" aria-label="{{ locale_data.mobile_menu.navigation_aria_label }}">
           <ul class="flex flex-col">
-            <li><a href="{{ locale_data.meta.canonical_url }}#features">{{ locale_data.mobile_menu.features }}</a></li>
+            <li><a href="#features">{{ locale_data.mobile_menu.features }}</a></li>
             <li><a href="{{ global_config.urls.documentation }}">{{ locale_data.mobile_menu.documentation }}</a></li>
             <li><a href="{{ lang_config.path }}{{ locale_data.urls.changelog }}">{{ locale_data.mobile_menu.changelog }}</a></li>
             <li><a href="{{ lang_config.path }}{{ locale_data.urls.privacy }}">{{ locale_data.mobile_menu.privacy }}</a></li>
@@ -193,6 +187,16 @@ document.addEventListener('DOMContentLoaded', () => {
           closeOverlay();
         });
       }
+
+      // --- NEW: Close overlay when clicking same-page anchors ---
+      const anchors = modalContainer.querySelectorAll('a[href^="#"]');
+      anchors.forEach(anchor => {
+        anchor.addEventListener('click', (e) => {
+          // Optional: you could scroll to the section manually here if needed
+          modalContainer.classList.remove('modal-menu');
+          closeOverlay();
+        });
+      });
 
     });
   }
