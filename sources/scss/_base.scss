@@ -1,9 +1,5 @@
 @use 'mixins' as *;
 
-html {
-    scroll-behavior: smooth;
-}
-
 body {
     color: var(--color-white);
     font-size: var(--font-size-md);
@@ -20,14 +16,6 @@ body {
     @include tablet-down {
         padding: 0 var(--spacing-lg);
     }
-}
-
-* {
-    scroll-margin-top: 4.875rem;
-}
-
-.body-no-scroll {
-    overflow: hidden;
 }
 
 .ruh {
@@ -95,33 +83,16 @@ h1,
     }
 }
 
-h2 {
-    margin-bottom: 1.375rem;
-}
-
-h3 {
-    font-size: var(--font-size-lg);
-    line-height: var(--line-height-lg);
-}
-
 /* Surfaces */
 .tile {
     background-color: var(--color-surface);
     border-radius: var(--radius-md);
 }
 
-.tile-inner {
-    padding: 0.875rem 1rem 1rem;
-}
-
 /* Wrapper */
 .wrapper {
     max-width: 81.25rem; /* 1300px */
     margin: 0 auto;
-}
-
-section {
-    margin-top: var(--spacing-6xl);
 }
 
 .mobile-menu-toggle {
