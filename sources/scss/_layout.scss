@@ -32,75 +32,13 @@
   .col-span-2-mobile {
     grid-column: span 2;
   }
-}
 
-/* Responsive behavior */
-@include large-tablet {
-  .features.grid-4col,
-  .pricing.grid-4col {
-    grid-template-columns: repeat(3, 1fr) !important;
-  }
-}
-
-@include features-breakpoint {
-  .features.grid-4col {
-    align-items: stretch;
-  }
-
-  .features .container-ratio::before {
-    display: none !important;
-  }
-
-  .features .container-ratio > * {
-    position: static !important;
-    height: 100% !important;
-  }
-}
-
-@include pricing-mid-range {
-  .pricing.grid-4col {
-    align-items: stretch;
-  }
-
-  .pricing .container-ratio::before {
-    display: none !important;
-  }
-
-  .pricing .container-ratio > * {
-    position: static !important;
-    height: 100% !important;
-  }
-}
-
-@include tablet {
-  .pricing.grid-4col {
-    align-items: stretch;
-  }
-
-  .pricing .container-ratio::before {
-    display: none !important;
-  }
-
-  .pricing .container-ratio > * {
-    position: static !important;
-    height: 100% !important;
-  }
-}
-
-@include tablet-down {
   .grid-4col {
     grid-template-columns: repeat(2, 1fr);
   }
 
   .grid-2col {
     grid-template-columns: 1fr;
-  }
-}
-
-@include small-tablet {
-  .features.grid-4col,
-  .pricing.grid-4col {
-    grid-template-columns: repeat(2, 1fr) !important;
   }
 }
 

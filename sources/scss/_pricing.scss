@@ -1,5 +1,39 @@
 @use 'mixins' as *;
 
+
+    @media (max-width: 1140px) {
+        .pricing.grid-4col {
+            grid-template-columns: repeat(3, 1fr) !important;
+            p { -webkit-line-clamp: 5!important }
+        }
+    }
+
+    @media (max-width: 768px) {
+        .pricing.grid-4col {
+            grid-template-columns: repeat(2, 1fr) !important;
+        }
+
+        .pricing-card.ratio-3-4 {
+            --ratio: 150%;
+        }
+    }
+
+    @media (max-width: 480px) {
+        .pricing.grid-4col {
+            grid-template-columns: repeat(1, 1fr) !important;
+        }
+
+        .pricing-card.ratio-3-4 {
+            --ratio: 100%;
+        }
+    }
+
+// .pricing-card.ratio-3-4 {
+//     @include mobile {
+//         --ratio: 100%;
+//     }
+// }
+
 .price-yearly,
 .price-period-yearly {
         display: none;
@@ -24,16 +58,6 @@
 .pricing-amount {
     font-size: var(--font-size-lg);
     line-height: var(--line-height-lg);
-}
-
-.pricing-action {
-    @include pricing-mid-range {
-        margin-top: var(--spacing-3xl);
-    }
-
-    @include desktop-down {
-        margin-top: var(--spacing-3xl);
-    }
 }
 
 .price-period, .price-period-yearly {

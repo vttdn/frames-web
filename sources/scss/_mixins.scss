@@ -35,13 +35,6 @@
   }
 }
 
-/* Features breakpoint: ≤1140px */
-@mixin features-breakpoint {
-  @media (max-width: 1140px) {
-    @content;
-  }
-}
-
 /* Pricing special breakpoint: 1024px - 1140px */
 @mixin pricing-mid-range {
   @media (max-width: 1140px) and (min-width: 1025px) {

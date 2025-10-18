@@ -1,7 +1,66 @@
 @use 'mixins' as *;
 
+.feature {
+    p {
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+}
+
+@media (max-width: 1140px) {
+    .features.grid-4col {
+        grid-template-columns: repeat(3, 1fr) !important;
+
+        p {
+            -webkit-line-clamp: 5 !important
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .features.grid-4col {
+        grid-template-columns: repeat(2, 1fr) !important;
+    }
+
+    .feature.ratio-1-1 {
+        --ratio: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .features.grid-4col {
+        grid-template-columns: repeat(1, 1fr) !important;
+    }
+
+    .feature.ratio-1-1 {
+        --ratio: 75%;
+    }
+}
+
+// .feature.ratio-1-1 {
+
+//     @include mobile {
+//         --ratio: 75%;
+//     }
+
+//     @media (max-width: 600px) and (min-width: 481px) {
+//         --ratio: 133.333%;
+//     }
+
+//     @media (max-width: 768px) and (min-width: 601px) {
+//         --ratio: 100%;
+//     }
+
+//     @media (max-width: 875px) and (min-width: 769px) {
+//         --ratio: 133.333%;
+//     }
+// }
+
 /* Features Section */
 .feature-inner {
+
     p,
     span {
         color: var(--color-gray);
@@ -9,7 +68,21 @@
 }
 
 .feature-header {
-    @include features-breakpoint {
-        margin-bottom: var(--spacing-3xl);
-    }
+    // @include features-breakpoint {
+    //     margin-bottom: var(--spacing-3xl);
+    // }
 }
+
+
+.features.grid-4col {
+    // align-items: stretch;
+}
+
+//   .features .container-ratio::before {
+//     display: none !important;
+//   }
+
+//   .features .container-ratio > * {
+//     position: static !important;
+//     height: 100% !important;
+//   }
