@@ -5,6 +5,8 @@
 
   // Tooltip content
   &::after {
+    opacity: 0;
+    visibility: hidden;
     content: attr(data-tooltip);
     position: absolute;
     bottom: -35px; // Position below the element
@@ -24,9 +26,7 @@
     white-space: nowrap;
     
     // Hidden by default
-    opacity: 0;
-    visibility: hidden;
-    transition: opacity 0.3s ease, visibility 0.3s ease;
+    // transition: opacity 0.3s ease, visibility 0.3s ease;
     
     // Prevent tooltip from affecting layout
     pointer-events: none;
