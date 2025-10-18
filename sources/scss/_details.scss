@@ -13,11 +13,22 @@ details {
     }
 
     summary {
+        position: relative;
         list-style: none;
         cursor: pointer;
         display: flex;
         align-items: flex-start;
         padding: var(--spacing-lg) 0;
+
+        // ::before {
+        //     content: '‹';                           /* left chevron character */
+        //     position: absolute;
+        //     right: 0;                               /* align to right edge of summary */
+        //     top: 50%;                               /* vertical center */
+        //     transform: translateY(-50%) rotate(-90deg); /* rotate left → down */
+        //     font-size: 2rem;
+        //     font-weight: 200;
+        // }
 
         /* Remove default marker in different browsers */
         &::-webkit-details-marker {
@@ -39,9 +50,18 @@ details {
     &:last-child {
         border-bottom: 1px solid var(--color-dark2);
     }
+}
 
-    /* When open, rotate the icon */
-    &[open] img {
-        transform: rotate(180deg);
-    }
+details[open] summary::before {
+            content: '‹';
+}
+
+details summary::before {
+    content: '›';                           /* left chevron character */
+            position: absolute;
+            right: 0;                               /* align to right edge of summary */
+            top: 50%;                               /* vertical center */
+            transform: translateY(-50%) rotate(90deg); /* rotate left → down */
+            font-size: 2rem;
+            font-weight: 200;
 }
