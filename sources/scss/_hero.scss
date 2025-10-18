@@ -55,4 +55,10 @@
             width: auto;
         }
     }
+
+    @include mobile {
+        img:first-of-type {
+            display: none;
+        }
+    }
 }
