@@ -1,0 +1,14 @@
+@use 'mixins' as *;
+
+/* Contact Section */
+.contact h2#contact-heading {
+    font-size: var(--font-size-2xl);
+    line-height: var(--line-height-2xl);
+    text-align: center;
+    padding: 0 var(--spacing-2xl);
+
+    @include tablet-down {
+        font-size: var(--font-size-xl);
+        line-height: var(--line-height-xl);
+    }
+}

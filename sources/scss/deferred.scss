@@ -22,6 +22,9 @@
 // Layout System (Grid)
 @use 'layout';
 
+// Q&A Section
+@use 'preview';
+
 // Reviews Section
 @use 'reviews';
 
@@ -33,6 +36,9 @@
 
 // Q&A Section
 @use 'details';
+
+// Contact Section
+@use 'contact';
 
 // Footer
 @use 'footer';
