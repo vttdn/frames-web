@@ -57,6 +57,8 @@
     }
 
     @include mobile {
+        gap: 1.75rem var(--spacing-3xl);
+
         img:first-of-type {
             display: none;
         }
