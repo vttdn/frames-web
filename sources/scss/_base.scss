@@ -20,13 +20,13 @@ body {
 
 .ruh {
     position: absolute;
-            width: 1px;
-            height: 1px;
-            margin: -1px;
-            padding: 0;
-            border: 0;
-            clip: rect(0, 0, 0, 0);
-            overflow: hidden;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    border: 0;
+    clip: rect(0, 0, 0, 0);
+    overflow: hidden;
 }
 
 /* Box Sizing Reset */
@@ -96,14 +96,14 @@ h1,
 }
 
 .mobile-menu-toggle {
-  display: none;
+    display: none;
 
-  @include tablet-down {
-    display: block;
-  }
+    @include tablet-down {
+        display: block;
+    }
 }
 
 a {
-  color: inherit;
-  text-decoration: none;
+    color: inherit;
+    text-decoration: none;
 }
