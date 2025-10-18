@@ -81,56 +81,13 @@
 }
 
 /* Gap Utilities */
-.gap-xxs {
-  gap: 0.125rem; /* 2px */
-}
-
-.gap-xs {
-  gap: var(--spacing-xs); /* 4px */
-}
-
-.gap-xs2 {
-  gap: 0.375rem; /* 6px */
-}
 
 .gap-sm {
   gap: var(--spacing-sm); /* 8px */
 }
 
-.gap-sm2 {
-  gap: 0.625rem; /* 10px */
-}
-
-.gap-md {
-  gap: var(--spacing-md); /* 12px */
-}
-
-.gap-lg {
-  gap: var(--spacing-lg); /* 16px */
-}
-
 .gap-xl {
   gap: var(--spacing-xl); /* 24px */
-}
-
-.gap-2xl {
-  gap: var(--spacing-2xl); /* 32px */
-}
-
-.gap-3xl {
-  gap: var(--spacing-3xl); /* 48px */
-}
-
-.gap-4xl {
-  gap: var(--spacing-4xl); /* 64px */
-}
-
-.gap-5xl {
-  gap: var(--spacing-5xl); /* 96px */
-}
-
-.gap-6xl {
-  gap: var(--spacing-6xl); /* 128px */
 }
 
 /* Width Utilities */
