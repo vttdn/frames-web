@@ -87,6 +87,12 @@ document.addEventListener('DOMContentLoaded', () => {
   // --- Global close events ---
   overlay.addEventListener('click', (e) => {
     if (e.target === overlay) closeOverlay();
+
+    // Only handle anchor clicks
+    const anchor = e.target.closest('a[href^="#"]');
+    if (anchor) {
+      closeOverlay();
+    }
   });
 
   document.addEventListener('keydown', (e) => {
@@ -187,16 +193,6 @@ document.addEventListener('DOMContentLoaded', () => {
           closeOverlay();
         });
       }
-
-      // --- NEW: Close overlay when clicking same-page anchors ---
-      const anchors = modalContainer.querySelectorAll('a[href^="#"]');
-      anchors.forEach(anchor => {
-        anchor.addEventListener('click', (e) => {
-          // Optional: you could scroll to the section manually here if needed
-          modalContainer.classList.remove('modal-menu');
-          closeOverlay();
-        });
-      });
 
     });
   }
