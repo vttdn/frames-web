@@ -21,6 +21,9 @@
 @use 'base_deferred';
 @use 'utilities_deferred';
 
+// Aspect Ratio Containers
+@use 'ratio_deferred';
+
 // Layout System (Grid)
 @use 'layout';
 
