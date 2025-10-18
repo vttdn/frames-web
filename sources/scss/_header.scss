@@ -11,21 +11,16 @@
 
 .container-header {
   height: 3.375rem; /* 54px */
-  display: grid;
   grid-template-columns: 1fr auto 1fr;
   align-items: center;
  
-  .leading { justify-self: start; align-items: center; }
+  .leading { justify-self: start; align-items: center; text-transform: uppercase; }
   .center { justify-self: center; align-items: center;}
   .trailing { justify-self: end; align-items: center; }
 
   @include tablet-down {
     grid-template-columns: 1fr auto;
   }
-}
-
-.logo {
-  text-transform: uppercase;
 }
 
 .navigation {
