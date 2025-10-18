@@ -50,6 +50,12 @@ cite {
     color: var(--color-gray);
 }
 
+.review-navigation {
+    button {
+        font-size: var(--font-size-sm);
+    }
+}
+
 .review-footer {
     color: var(--color-gray);
     margin-top: var(--spacing-lg);
