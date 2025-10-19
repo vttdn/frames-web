@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "Frames: Film Photography App for Analog Notes & Metadata",
-    "description": "Frames is a film photography app for analog photographers. Log every shot, track camera settings, organize rolls, and save EXIF metadata on iPhone & Mac.",
+    "title": "Frames: Film Photography App for Analog Shots & Metadata",
+    "description": "Film photography app for analog shooters. Track camera settings, organize rolls, and embed EXIF metadata into scanned images. Free trial for iPhone & Mac.",
     "locale": "en_US",
     "canonical_url": "https://withframes.com/",
     "lang": "en",
@@ -55,6 +55,9 @@
   "hero": {
     "heading_seo": "Frames Film Photography App: Notes and Metadata for Analog Photography",
     "heading": "The essential photography notebook,<br>\ndesigned for analog shooters.",
+    "paragraph1": "Shooting film is a deliberate, intentional process, but keeping track of your settings shouldn't slow you down. Frames is built specifically for analog photographers who want the precision of digital metadata without sacrificing the tactile joy of film. Whether you're testing new film stocks, perfecting your exposure technique, or simply want to remember what worked on that perfect shot, Frames captures every detail exactly when and where you need it.",
+    "paragraph2": "Unlike generic note-taking apps or paper notebooks, Frames understands film photography. It knows your gear, speaks your language with proper f-stops and shutter speeds, and organizes everything by roll and frame. When your scans come back, you can embed all your shooting data directly into the image files, creating a complete archive that works seamlessly with Lightroom, Bridge, and every other tool in your workflow. Your analog process gets digital precision, without the compromises.",
+    "paragraph3": "Thousands of film photographers trust Frames to be their shooting companion, from weekend hobbyists to professional archive builders. No ads, no tracking, no subscriptions to services you don't need. Just a beautifully crafted tool that respects your creative process and keeps your data private and portable. Start your free trial and see why film shooters are ditching their notebooks for good.",
     "button_macos_text": "Download for macOS",
     "button_macos_aria_label": "Download Frames for macOS",
     "button_ios_text": "Download for iOS",
@@ -80,27 +83,33 @@
     "images": {
       "preview1": {
         "src": "/lib/img/en/preview1.png",
-        "alt": "Frames film photography app and analog photography app showing the recorder interface with shutter speed and aperture selection for logging film exposures."
+        "caption": "Log your shots instantly with intuitive dials for shutter speed and aperture. The streamlined interface lets you capture exposure settings in seconds without interrupting your creative flow, ensuring every frame's details are preserved for later reference.",
+        "alt": "Film camera shot recorder with shutter speed dial and aperture selector for quickly logging exposure settings while shooting analog photography."
       },
       "preview2": {
         "src": "/lib/img/en/preview2.png",
-        "alt": "Frames analog photography app displaying detailed metadata options including exposure, film stock, camera, lens, and shooting conditions for film photographers."
+        "caption": "Track every detail that matters to your photography. Record camera gear, film stock, aperture, focal length, shutter speed, ISO, flash settings, GPS location, and custom notes. Keep comprehensive records that help you learn and improve with each roll you shoot.",
+        "alt": "Complete film metadata tracking fields: camera gear, film stock, aperture, focal length, shutter speed, ISO, flash settings, and GPS location data."
       },
       "preview3": {
         "src": "/lib/img/en/preview3.png",
-        "alt": "Frames film photography app on macOS showing organized film rolls in the library view when browsing folders of analog photos."
+        "caption": "Browse your complete film archive with every roll beautifully organized. See roll names, shooting dates, and film stock at a glance. Search, filter, and revisit past sessions to analyze your work, track your progress, and rediscover forgotten frames.",
+        "alt": "Film roll archive library displaying organized shooting sessions with roll names, capture dates, and film stock details for easy reference and review."
       },
       "preview4": {
         "src": "/lib/img/en/preview4.png",
-        "alt": "Frames analog photography app presenting gear settings with camera, lens, and filter details to manage analog photography equipment."
+        "caption": "Build a complete digital catalog of your photography gear. Add cameras, lenses, filters, and accessories with detailed specifications. Having your equipment organized means faster shooting prep and consistent metadata across all your film rolls.",
+        "alt": "Photography equipment management interface for cataloging and organizing film cameras, lenses, filters, and accessories in your shooting workflow."
       },
       "preview5": {
         "src": "/lib/img/en/preview5.png",
-        "alt": "Frames film photography app exporting data as .frames, .txt, or .gpx files for backing up and sharing analog photography logs and metadata."
+        "caption": "Export your shooting data as portable JSON-based .frames files. Back up your records, share them across devices, or migrate between iPhone and Mac seamlessly. Your data stays accessible and future-proof, giving you complete ownership and control.",
+        "alt": "JSON-based .frames file format icon for exporting film photography data, enabling backup, cross-platform sharing, and metadata transfer between devices."
       },
       "preview6": {
         "src": "/lib/img/en/preview6.png",
-        "alt": "Frames analog photography app metadata integrated with Finder, Adobe Lightroom, Adobe Bridge, Google Photos, Darktable, and Flickr for film photographers."
+        "caption": "Your embedded metadata works everywhere you need it. Apple Finder, Flickr, Google Photos, Adobe Lightroom, Adobe Bridge, and Darktable all recognize and display your film shooting data, creating a unified workflow from analog capture to digital archive.",
+        "alt": "Photography software compatibility: Apple Finder, Flickr, Google Photos, Adobe Lightroom, Adobe Bridge, and Darktable supporting embedded film metadata."
       }
     }
   },
