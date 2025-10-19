@@ -22,6 +22,10 @@
     transition: background-color 0.25s ease-out, visibility 0s linear 1s;
     transition-delay: 0.1s;
     /* no delay when showing */
+
+    &:has(.modal-menu) {
+      background: rgba(0, 0, 0, 1); // fully black background
+    }
   }
 }
 
@@ -178,15 +182,17 @@ iframe {
 
   .overlay-button-close {
     position: absolute;
-    top: 0.9375rem;
+    top: 0.6875rem; // 11px == height - (main-header height / 2)
     right: var(--spacing-lg);
     cursor: pointer;
-    width: 1.5rem;
-    height: 1.5rem;
+    width: var(--spacing-2xl);
+    height: var(--spacing-2xl);
     display: flex;
     justify-content: center;
     align-items: center;
     z-index: 10000;
+    opacity: 0;
+    transition: opacity 0.3s ease-in 0.3s;
   }
 
   .mobile-menu-nav {
@@ -206,6 +212,11 @@ iframe {
       }
     }
   }
+}
+
+.overlay.show .modal-menu .overlay-button-close {
+  opacity: 1;
+  transition: opacity 0.3s ease-in 0.3s;
 }
 
 .overlay.show .mobile-menu-nav ul li {
