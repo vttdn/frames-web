@@ -358,6 +358,28 @@
                             </div>
                         </footer>
                     </article>
+
+                    <article class="review-card flex flex-col ruh" data-review="4">
+                        <header>
+                            <h3 class="ruh">{{ locale_data.reviews.review8.title }}</h3>
+                        </header>
+
+                        <blockquote class="review-quote">
+                            <p>"{{ locale_data.reviews.review8.quote }}"</p>
+                        </blockquote>
+
+                        <footer class="review-author flex flex-center gap-sm">
+                            <img src="/lib/img/shared/author8.webp"
+                                srcset="/lib/img/shared/author8.webp 1x, /lib/img/shared/author8@2x.webp 2x"
+                                alt="{{ locale_data.reviews.review8.author_name }}" width="32" height="32"
+                                loading="lazy" class="btn btn-circle btn-secondary">
+                            <div class="author-info flex flex-col">
+                                <cite class="author-name">{{ locale_data.reviews.review8.author_name }}</cite>
+                                <time class="review-date" datetime="{{ locale_data.reviews.review8.datetime }}">{{
+                                    formatted_reviews.review8.formatted_date }}</time>
+                            </div>
+                        </footer>
+                    </article>
                 </div>
 
                 <!-- Review Details & Navigation -->

@@ -307,7 +307,7 @@ def save_javascript(javascript, lang_code, js_type='core', minify=True):
 def generate_formatted_reviews(locale_data, lang_code):
     """Generate formatted dates for reviews"""
     formatted_reviews = {}
-    for i in range(1, 8):
+    for i in range(1, 9):
         review_key = f'review{i}'
         if review_key in locale_data['reviews'] and 'datetime' in locale_data['reviews'][review_key]:
             iso_date = locale_data['reviews'][review_key]['datetime']
@@ -359,12 +359,12 @@ def generate_homepage_schemas(lang_code, global_config, locale_data):
         }
 
         # Add review data
-        for i in range(1, 8):
+        for i in range(1, 9):
             review_key = f'review{i}'
             if review_key in locale_data['reviews']:
                 context[f'review{i}_author'] = locale_data['reviews'][review_key]['author_name']
                 context[f'review{i}_date'] = locale_data['reviews'][review_key]['datetime']
-                context[f'review{i}_title'] = f'Review by {locale_data["reviews"][review_key]["author_name"]}'
+                context[f'review{i}_title'] = locale_data['reviews'][review_key]['title']
                 context[f'review{i}_descr'] = locale_data['reviews'][review_key]['quote']
                 context[f'review{i}_rating'] = '5'
 

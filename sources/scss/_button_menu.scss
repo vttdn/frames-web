@@ -1,0 +1,80 @@
+@use 'mixins' as *;
+
+#menu-toggle {
+  position: fixed;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  z-index: 99999;
+  top: 12px;
+  right: 16px;
+
+  @include tablet-down {
+    display: flex;
+  }
+
+  @include mobile {
+    right: 12px;
+  }
+}
+
+.button-menu {
+  display: block;
+  height: 24px;
+  width: 23px;
+  // overflow: hidden;
+
+  position: relative;
+  
+  &:before,
+  &:after {
+    display: block;
+    content: '.';
+    overflow: hidden;
+
+    text-indent: 200%;
+    white-space: nowrap;
+  }
+
+  &:before,
+  &:after,
+  .button-menu-bar {
+    width: 23px;
+    height: 1.15px;
+
+    position: absolute;
+    top: 50%;
+    left: 0;
+
+    background: var(--color-white);
+
+    transition: all 0.2s cubic-bezier(0.770, 0.000, 0.175, 1.000);
+  }
+
+  &:before {
+    transform: translateY(-7px);
+  }
+
+  &:after {
+    transform: translateY(7px);
+  }
+}
+
+.morph {
+  .button-menu {
+    &:before {
+      transform: translate(0px, 0px) rotate(45deg);
+      height: 1.7px;
+    }
+    &:after,
+    .button-menu-bar {
+      transform: translate(0px, 0px) rotate(-45deg);
+      height: 1.7px;
+    }
+    .button-menu-bar {
+      opacity: 0;
+    }
+  }
+}

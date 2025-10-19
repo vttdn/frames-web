@@ -208,12 +208,25 @@
                 "bestRating": "5",
                 "worstRating": "1"
             }
+            },
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "{{ review8_author }}" },
+            "datePublished": "{{ review8_date }}",
+            "name": "{{ review8_title }}",
+            "reviewBody": "{{ review8_descr }}",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "{{ review8_rating }}",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
             }
           ],
           "aggregateRating": {
             "@type": "AggregateRating",
             "ratingValue": "5",
-            "reviewCount": "1"
+            "reviewCount": "2"
           }
         },
         {
