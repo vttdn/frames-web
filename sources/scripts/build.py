@@ -370,7 +370,7 @@ def generate_homepage_schemas(lang_code, global_config, locale_data):
                 context[f'review{i}_rating'] = '5'
 
         # Add FAQ data
-        for i in range(1, 7):
+        for i in range(1, 8):
             question_key = f'question{i}'
             if question_key in locale_data['qa']:
                 context[f'faq_question{i}'] = locale_data['qa'][question_key]['question']

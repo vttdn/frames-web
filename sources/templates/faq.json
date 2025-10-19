@@ -49,6 +49,14 @@
             "@type": "Answer",
             "text": "{{ faq_answer6 }}"
           }
+        },
+        {
+          "@type": "Question",
+          "name": "{{ faq_question7 }}",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "{{ faq_answer7 }}"
+          }
         }
       ]
     }
