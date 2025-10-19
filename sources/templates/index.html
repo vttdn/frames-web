@@ -103,6 +103,11 @@
             <div class="hero-content flex flex-col gap-xl">
                 <h1 class="ruh" id="hero-heading">{{ locale_data.hero.heading_seo|safe }}</h1>
                 <p class="h1">{{ locale_data.hero.heading|safe }}</p>
+                <div class="hero-description flex flex-col ruh">
+                    <p>{{ locale_data.hero.paragraph1|safe }}</p>
+                    <p>{{ locale_data.hero.paragraph2|safe }}</p>
+                    <p>{{ locale_data.hero.paragraph3|safe }}</p>
+                </div>
 
                 <a href="{{ locale_data.urls.appstore_macos }}" class="btn btn-md btn-light desktop-only w-fit"
                     aria-label="{{ locale_data.hero.button_macos_aria_label }}">
@@ -160,38 +165,38 @@
             <figure class="tile container-ratio ratio-4-3">
                     <img src="/lib/img/{{ lang }}/preview1.webp"
                         srcset="/lib/img/{{ lang }}/preview1.webp 1x, /lib/img/{{ lang }}/preview1@2x.webp 2x"
-                        alt="{{ locale_data.preview.images.preview1.alt }}" width="400" height="300" loading="lazy">
-                        <figcaption aria-hidden="true" class="ruh">{{ locale_data.preview.images.preview1.alt }}</figcaption>
+                        alt="{{ locale_data.preview.images.preview1.alt|safe }}" width="400" height="300" loading="lazy">
+                        <figcaption class="ruh">{{ locale_data.preview.images.preview1.caption|safe }}</figcaption>
             </figure>
             <figure class="tile container-ratio ratio-4-3">
                     <img src="/lib/img/{{ lang }}/preview2.webp"
                         srcset="/lib/img/{{ lang }}/preview2.webp 1x, /lib/img/{{ lang }}/preview2@2x.webp 2x"
-                        alt="{{ locale_data.preview.images.preview2.alt }}" width="400" height="300" loading="lazy">
-                    <figcaption aria-hidden="true" class="ruh">{{ locale_data.preview.images.preview2.alt }}</figcaption>
+                        alt="{{ locale_data.preview.images.preview2.alt|safe }}" width="400" height="300" loading="lazy">
+                    <figcaption class="ruh">{{ locale_data.preview.images.preview2.caption|safe }}</figcaption>
             </figure>
             <figure class="tile container-ratio ratio-4-3">
                     <img src="/lib/img/{{ lang }}/preview3.webp"
                         srcset="/lib/img/{{ lang }}/preview3.webp 1x, /lib/img/{{ lang }}/preview3@2x.webp 2x"
-                        alt="{{ locale_data.preview.images.preview3.alt }}" width="400" height="300" loading="lazy">
-                    <figcaption aria-hidden="true" class="ruh">{{ locale_data.preview.images.preview3.alt }}</figcaption>
+                        alt="{{ locale_data.preview.images.preview3.alt|safe }}" width="400" height="300" loading="lazy">
+                    <figcaption class="ruh">{{ locale_data.preview.images.preview3.caption|safe }}</figcaption>
             </figure>
             <figure class="tile container-ratio ratio-4-3">
                     <img src="/lib/img/{{ lang }}/preview4.webp"
                         srcset="/lib/img/{{ lang }}/preview4.webp 1x, /lib/img/{{ lang }}/preview4@2x.webp 2x"
-                        alt="{{ locale_data.preview.images.preview4.alt }}" width="400" height="300" loading="lazy">
-                    <figcaption aria-hidden="true" class="ruh">{{ locale_data.preview.images.preview4.alt }}</figcaption>
+                        alt="{{ locale_data.preview.images.preview4.alt|safe }}" width="400" height="300" loading="lazy">
+                    <figcaption class="ruh">{{ locale_data.preview.images.preview4.caption|safe }}</figcaption>
             </figure>
             <figure class="tile container-ratio ratio-4-3">
                     <img src="/lib/img/shared/preview5.webp"
                         srcset="/lib/img/shared/preview5.webp 1x, /lib/img/shared/preview5@2x.webp 2x"
-                        alt="{{ locale_data.preview.images.preview5.alt }}" width="400" height="300" loading="lazy">
-                    <figcaption aria-hidden="true" class="ruh">{{ locale_data.preview.images.preview5.alt }}</figcaption>
+                        alt="{{ locale_data.preview.images.preview5.alt|safe }}" width="400" height="300" loading="lazy">
+                    <figcaption class="ruh">{{ locale_data.preview.images.preview5.caption|safe }}</figcaption>
             </figure>
             <figure class="tile container-ratio ratio-4-3">
                     <img src="/lib/img/shared/preview6.webp"
                         srcset="/lib/img/shared/preview6.webp 1x, /lib/img/shared/preview6@2x.webp 2x"
-                        alt="{{ locale_data.preview.images.preview6.alt }}" width="400" height="300" loading="lazy">
-                    <figcaption aria-hidden="true" class="ruh">{{ locale_data.preview.images.preview6.alt }}</figcaption>
+                        alt="{{ locale_data.preview.images.preview6.alt|safe }}" width="400" height="300" loading="lazy">
+                    <figcaption class="ruh">{{ locale_data.preview.images.preview6.caption|safe }}</figcaption>
             </figure>
         </section>
 

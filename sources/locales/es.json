@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "Frames: App Fotografía Analógica para Notas & Metadatos",
-    "description": "Frames es una app fotografía analógica. Registra cada foto, guarda ajustes, organiza carretes y conserva metadatos EXIF en iPhone & Mac.",
+    "title": "Frames: App fotografía analógica para película",
+    "description": "App de fotografía analógica para fotógrafos. Registra ajustes de cámara, organiza rollos e integra metadatos EXIF en imágenes escaneadas. Prueba gratis iPhone.",
     "locale": "es_ES",
     "canonical_url": "https://withframes.com/es/",
     "lang": "es",
@@ -73,34 +73,43 @@
     "featured": {
       "aria_label": "Publicaciones destacadas",
       "text": "Destacada en la comunidad fotográfica."
-    }
+    },
+    "paragraph1": "Fotografiar en película es un proceso deliberado e intencional, pero llevar un registro de tus ajustes no debería ralentizarte. Frames está diseñado específicamente para fotógrafos analógicos que desean la precisión de los metadatos digitales sin sacrificar el placer táctil de la película. Ya sea que estés probando nuevos tipos de película, perfeccionando tu técnica de exposición o simplemente quieras recordar qué funcionó en esa toma perfecta, Frames captura cada detalle exactamente cuándo y dónde lo necesitas.",
+    "paragraph2": "A diferencia de las aplicaciones genéricas para tomar notas o los cuadernos de papel, Frames entiende la fotografía analógica. Conoce tu equipo, habla tu idioma con aperturas y velocidades de obturación correctas y organiza todo por rollo y fotograma. Cuando regresen tus escaneos, puedes incorporar todos tus datos de captura directamente en los archivos de imagen, creando un archivo completo que funciona perfectamente con Lightroom, Bridge y cualquier otra herramienta de tu flujo de trabajo. Tu proceso analógico obtiene precisión digital, sin compromisos.",
+    "paragraph3": "Miles de fotógrafos analógicos confían en Frames como su compañero de fotografía, desde aficionados de fin de semana hasta constructores de archivos profesionales. Sin anuncios, sin seguimiento, sin suscripciones a servicios que no necesitas. Solo una herramienta magníficamente elaborada que respeta tu proceso creativo y mantiene tus datos privados y portátiles. Comienza tu prueba gratuita y descubre por qué los fotógrafos analógicos están abandonando sus cuadernos definitivamente."
   },
   "preview": {
     "heading": "Vista previa de la aplicación de fotografía analógica",
     "images": {
       "preview1": {
         "src": "/lib/img/es/preview1.png",
-        "alt": "Frames app fotografía analógica mostrando la interfaz de registro con selección de velocidad de obturación y apertura para anotar exposiciones."
+        "alt": "Grabador de fotos de cámara de película con control de velocidad de obturación y selector de apertura para registrar rápidamente configuraciones de exposición durante fotografía analógica.",
+        "caption": "Registra tus fotos instantáneamente con controles intuitivos de velocidad de obturación y apertura. La interfaz simplificada te permite capturar configuraciones de exposición en segundos sin interrumpir tu flujo creativo, asegurando que los detalles de cada cuadro se preserven para referencia futura."
       },
       "preview2": {
         "src": "/lib/img/es/preview2.png",
-        "alt": "Frames app fotografía analógica con opciones detalladas de metadatos incluyendo exposición, película, cámara, objetivo y condiciones de disparo."
+        "alt": "Campos completos de seguimiento de metadatos de película: equipo de cámara, tipo de película, apertura, distancia focal, velocidad de obturación, ISO, configuración de flash y datos de ubicación GPS.",
+        "caption": "Rastrea cada detalle importante para tu fotografía. Registra equipo de cámara, tipo de película, apertura, distancia focal, velocidad de obturación, ISO, configuración de flash, ubicación GPS y notas personalizadas. Mantén registros completos que te ayuden a aprender y mejorar con cada rollo que fotografías."
       },
       "preview3": {
         "src": "/lib/img/es/preview3.png",
-        "alt": "Frames app fotografía analógica en macOS mostrando carretes organizados en la vista de biblioteca al navegar por carpetas de fotos analógicas."
+        "alt": "Biblioteca de archivo de rollos de película que muestra sesiones de captura organizadas con nombres de rollos, fechas de captura y detalles del tipo de película para fácil referencia y revisión.",
+        "caption": "Navega por tu archivo fotográfico completo con cada rollo hermosamente organizado. Ve nombres de rollos, fechas de captura y tipo de película de un vistazo. Busca, filtra y revisa sesiones anteriores para analizar tu trabajo, seguir tu progreso y redescubrir cuadros olvidados."
       },
       "preview4": {
         "src": "/lib/img/es/preview4.png",
-        "alt": "Frames app fotografía analógica presentando ajustes de equipo con detalles de cámara, objetivo y filtros para gestionar equipamiento fotográfico."
+        "alt": "Interfaz de gestión de equipo fotográfico para catalogar y organizar cámaras de película, lentes, filtros y accesorios en tu flujo de trabajo fotográfico.",
+        "caption": "Construye un catálogo digital completo de tu equipo fotográfico. Añade cámaras, lentes, filtros y accesorios con especificaciones detalladas. Tener tu equipo organizado significa preparación más rápida para fotografiar y metadatos consistentes en todos tus rollos de película."
       },
       "preview5": {
         "src": "/lib/img/es/preview5.png",
-        "alt": "Frames app fotografía analógica exportando datos como archivos .frames, .txt o .gpx para hacer copias de seguridad y compartir registros y metadatos."
+        "alt": "Ícono de formato de archivo .frames basado en JSON para exportar datos de fotografía analógica, permitiendo respaldo, compartición multiplataforma y transferencia de metadatos entre dispositivos.",
+        "caption": "Exporta tus datos de captura como archivos .frames portátiles basados en JSON. Respalda tus registros, compártelos entre dispositivos o migra entre iPhone y Mac sin problemas. Tus datos permanecen accesibles y a prueba de futuro, dándote propiedad y control completos."
       },
       "preview6": {
         "src": "/lib/img/es/preview6.png",
-        "alt": "Frames metadatos integrados con Finder, Adobe Lightroom, Adobe Bridge, Google Photos, Darktable y Flickr para fotógrafos analógicos."
+        "alt": "Compatibilidad de software fotográfico: Apple Finder, Flickr, Google Photos, Adobe Lightroom, Adobe Bridge y Darktable soportan metadatos de película integrados.",
+        "caption": "Tus metadatos integrados funcionan en cualquier lugar que los necesites. Apple Finder, Flickr, Google Photos, Adobe Lightroom, Adobe Bridge y Darktable reconocen y muestran todos tus datos de captura en película, creando un flujo de trabajo unificado desde la captura analógica hasta el archivo digital."
       }
     }
   },

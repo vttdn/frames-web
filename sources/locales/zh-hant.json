@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "Frames: 胶片攝影筆記和元資料應用",
-    "description": "Frames 是為膠片攝影師設計的應用。記錄每張照片，追蹤相機設定，整理膠卷，在 iPhone 和 Mac 上保存 EXIF 元資料。",
+    "title": "Frames: 底片攝影應用程式 - 類比拍攝記錄工具",
+    "description": "適合底片攝影師的應用程式。記錄相機設定、整理底片並將 EXIF 中繼資料嵌入掃描影像。iPhone 和 Mac 免費試用。",
     "locale": "zh_HK",
     "canonical_url": "https://withframes.com/zh-hant/",
     "lang": "zh-hant",
@@ -73,34 +73,43 @@
     "featured": {
       "aria_label": "特色出版物",
       "text": "在攝影社群中廣受好評。"
-    }
+    },
+    "paragraph1": "底片攝影是一個刻意而為、有目的性的過程，但記錄設定不應該拖慢你的節奏。Frames 專為類比攝影師打造，讓你在不犧牲底片觸感樂趣的同時獲得數位中繼資料的精確性。無論你是在測試新的底片類型、完善曝光技術，還是只想記住那張完美照片的拍攝參數，Frames 都能在你需要的時間和地點準確捕捉每一個細節。",
+    "paragraph2": "與通用的筆記應用程式或紙質筆記本不同，Frames 理解底片攝影。它了解你的器材，用正確的光圈和快門速度說你的語言，並按底片和畫幅組織所有內容。當你的掃描檔案返回時，你可以將所有拍攝資料直接嵌入影像檔案，建立一個與 Lightroom、Bridge 和工作流程中所有其他工具無縫協作的完整檔案庫。你的類比流程獲得數位精度，沒有妥協。",
+    "paragraph3": "成千上萬的底片攝影師信賴 Frames 作為他們的拍攝夥伴，從週末愛好者到專業檔案建構者。沒有廣告，沒有追蹤，沒有你不需要的服務訂閱。只是一個精心打造的工具，尊重你的創作過程，保持你的資料私密和可攜式。開始免費試用，看看為什麼底片攝影師正在永久放棄他們的筆記本。"
   },
   "preview": {
     "heading": "膠片攝影應用預覽",
     "images": {
       "preview1": {
         "src": "/lib/img/zh-hant/preview1.png",
-        "alt": "Frames 膠片攝影應用展示記錄介面，可選擇快門速度和光圈以記錄膠片曝光。"
+        "alt": "底片相機拍攝記錄器，配有快門速度轉盤和光圈選擇器，用於在類比攝影時快速記錄曝光設定。",
+        "caption": "使用直觀的快門速度和光圈轉盤即時記錄您的拍攝。簡化的介面讓您能在幾秒鐘內捕獲曝光設定，而不會中斷您的創作流程，確保每個畫面的細節都被保存以供日後參考。"
       },
       "preview2": {
         "src": "/lib/img/zh-hant/preview2.png",
-        "alt": "Frames 膠片攝影應用顯示詳細的元資料選項，包括曝光、膠片類型、相機、鏡頭和拍攝條件。"
+        "alt": "完整的底片中繼資料追蹤欄位：相機設備、底片類型、光圈、焦距、快門速度、ISO、閃光燈設定和GPS位置資料。",
+        "caption": "追蹤對您的攝影重要的每個細節。記錄相機設備、底片類型、光圈、焦距、快門速度、ISO、閃光燈設定、GPS位置和自訂筆記。保留全面的記錄，幫助您隨著每卷底片的拍攝而學習和進步。"
       },
       "preview3": {
         "src": "/lib/img/zh-hant/preview3.png",
-        "alt": "macOS 上的 Frames 膠片攝影應用在瀏覽膠片照片資料夾時，在圖庫視圖中顯示有序的膠卷。"
+        "alt": "底片檔案庫，顯示有序的拍攝會話，包含底片名稱、捕獲日期和底片類型詳情，便於參考和回顧。",
+        "caption": "瀏覽您完整的底片檔案庫，每卷底片都井然有序。一目了然地查看底片名稱、拍攝日期和底片類型。搜尋、過濾和重訪過去的拍攝會話，以分析您的作品、追蹤進度並重新發現被遺忘的畫面。"
       },
       "preview4": {
         "src": "/lib/img/zh-hant/preview4.png",
-        "alt": "Frames 膠片攝影應用展示設備設定，包含相機、鏡頭和濾鏡詳情，用於管理膠片攝影設備。"
+        "alt": "攝影設備管理介面，用於在您的拍攝工作流程中對底片相機、鏡頭、濾鏡和配件進行分類和整理。",
+        "caption": "為您的攝影設備建立完整的數位目錄。新增相機、鏡頭、濾鏡和配件及其詳細規格。組織好您的設備意味著更快的拍攝準備和所有底片上一致的中繼資料。"
       },
       "preview5": {
         "src": "/lib/img/zh-hant/preview5.png",
-        "alt": "Frames 膠片攝影應用將資料導出為 .frames、.txt 或 .gpx 檔案，用於備份和分享膠片攝影記錄與元資料。"
+        "alt": "基於JSON的.frames檔案格式圖示，用於匯出底片攝影資料，支援備份、跨平台共享和裝置間中繼資料傳輸。",
+        "caption": "將您的拍攝資料匯出為便攜式的基於JSON的.frames檔案。備份您的記錄，在裝置之間共享它們，或在iPhone和Mac之間無縫遷移。您的資料保持可存取且面向未來，為您提供完全的所有權和控制權。"
       },
       "preview6": {
         "src": "/lib/img/zh-hant/preview6.png",
-        "alt": "Frames 膠片攝影應用元資料與 Finder、Adobe Lightroom、Adobe Bridge、Google Photos、Darktable 和 Flickr 集成，服務於膠片攝影師。"
+        "alt": "攝影軟體相容性：Apple Finder、Flickr、Google Photos、Adobe Lightroom、Adobe Bridge和Darktable支援嵌入的底片中繼資料。",
+        "caption": "您嵌入的中繼資料在您需要的任何地方都能工作。Apple Finder、Flickr、Google Photos、Adobe Lightroom、Adobe Bridge和Darktable都能識別和顯示您的底片拍攝資料，建立從類比捕獲到數位檔案庫的統一工作流程。"
       }
     }
   },

@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "Frames: Film Fotoğrafçılığı için Notlar ve Metadata Uygulaması",
-    "description": "Frames analog fotoğrafçılar için film fotoğrafçılığı uygulamasıdır. Her çekimi kaydedin, kamera ayarlarını takip edin, rulolarınızı düzenleyin ve iPhone & Mac'te EXIF metadata kaydedin.",
+    "title": "Frames: Analog çekimler için film fotoğrafçılık uygulaması",
+    "description": "Analog fotoğrafçılar için film fotoğrafçılık uygulaması. Kamera ayarlarını kaydedin, rulolar düzenleyin ve EXIF meta verisi ekleyin. Ücretsiz deneme iPhone.",
     "locale": "tr_TR",
     "canonical_url": "https://withframes.com/tr/",
     "lang": "tr",
@@ -73,34 +73,43 @@
     "featured": {
       "aria_label": "Öne çıkan yayınlar",
       "text": "Fotoğrafçılık topluluğunda öne çıkan."
-    }
+    },
+    "paragraph1": "Film ile fotoğraf çekmek kasıtlı, bilinçli bir süreçtir, ancak ayarlarınızı takip etmek sizi yavaşlatmamalıdır. Frames, filmin dokunsal keyfinden ödün vermeden dijital meta verilerin hassasiyetini isteyen analog fotoğrafçılar için özel olarak tasarlanmıştır. Yeni film türlerini test ediyor olun, pozlama tekniğinizi mükemmelleştiriyor olun veya o mükemmel çekimde neyin işe yaradığını hatırlamak istiyor olun, Frames her ayrıntıyı tam olarak ne zaman ve nerede ihtiyacınız olduğunda yakalar.",
+    "paragraph2": "Genel not alma uygulamaları veya kağıt defterlerin aksine, Frames film fotoğrafçılığını anlar. Ekipmanınızı tanır, doğru diyafram ve deklanşör hızlarıyla dilinizi konuşur ve her şeyi rulo ve kare bazında düzenler. Taramalarınız geri geldiğinde, tüm çekim verilerinizi doğrudan görüntü dosyalarına gömebilir, Lightroom, Bridge ve iş akışınızdaki diğer tüm araçlarla sorunsuz çalışan eksiksiz bir arşiv oluşturabilirsiniz. Analog süreciniz uzlaşma olmadan dijital hassasiyet kazanır.",
+    "paragraph3": "Binlerce film fotoğrafçısı, hafta sonu hobicilerinden profesyonel arşiv oluşturuculara kadar Frames'e çekim arkadaşları olarak güveniyor. Reklam yok, izleme yok, ihtiyacınız olmayan hizmetlere abonelik yok. Sadece yaratıcı sürecinize saygı gösteren ve verilerinizi özel ve taşınabilir tutan güzel bir şekilde hazırlanmış bir araç. Ücretsiz denemenizi başlatın ve film fotoğrafçılarının defterlerini neden kalıcı olarak terk ettiğini görün."
   },
   "preview": {
     "heading": "Film Fotoğrafçılığı Uygulaması Önizlemesi",
     "images": {
       "preview1": {
         "src": "/lib/img/tr/preview1.png",
-        "alt": "Frames film fotoğrafçılığı uygulaması, film pozlamalarını kaydetmek için enstantane hızı ve diyafram seçimiyle kayıt arayüzünü gösteriyor."
+        "alt": "Analog fotoğraf çekimi sırasında pozlama ayarlarını hızlı bir şekilde kaydetmek için enstantane hızı kadranı ve diyafram seçicisi olan film kamera çekim kaydedici.",
+        "caption": "Enstantane hızı ve diyafram için sezgisel kadranlarla çekimlerinizi anında kaydedin. Basitleştirilmiş arayüz, yaratıcı akışınızı kesintiye uğratmadan saniyeler içinde pozlama ayarlarını yakalamanıza olanak tanır ve her karenin ayrıntılarının daha sonra başvurulmak üzere korunmasını sağlar."
       },
       "preview2": {
         "src": "/lib/img/tr/preview2.png",
-        "alt": "Frames analog fotoğrafçılık uygulaması, pozlama, film türü, kamera, lens ve çekim koşulları dahil detaylı metadata seçeneklerini gösteriyor."
+        "alt": "Eksiksiz film meta veri izleme alanları: kamera ekipmanı, film stoğu, diyafram, odak uzaklığı, enstantane hızı, ISO, flaş ayarları ve GPS konum verileri.",
+        "caption": "Fotoğrafçılığınız için önemli olan her ayrıntıyı takip edin. Kamera ekipmanı, film stoğu, diyafram, odak uzaklığı, enstantane hızı, ISO, flaş ayarları, GPS konumu ve özel notları kaydedin. Çektiğiniz her ruloda öğrenmenize ve gelişmenize yardımcı olan kapsamlı kayıtlar tutun."
       },
       "preview3": {
         "src": "/lib/img/tr/preview3.png",
-        "alt": "macOS üzerinde Frames film fotoğrafçılığı uygulaması, analog fotoğraf klasörlerine göz atarken kütüphane görünümünde düzenlenmiş film rulolarını gösteriyor."
+        "alt": "Kolay referans ve inceleme için rulo adları, yakalama tarihleri ve film türü ayrıntılarıyla düzenlenmiş çekim oturumlarını gösteren film rulosu arşiv kütüphanesi.",
+        "caption": "Her rulonun güzel bir şekilde düzenlendiği eksiksiz film arşivinize göz atın. Bir bakışta rulo adlarını, çekim tarihlerini ve film türünü görün. Çalışmanızı analiz etmek, ilerlemenizi takip etmek ve unutulmuş kareleri yeniden keşfetmek için geçmiş oturumları arayın, filtreleyin ve tekrar ziyaret edin."
       },
       "preview4": {
         "src": "/lib/img/tr/preview4.png",
-        "alt": "Frames analog fotoğrafçılık uygulaması, analog fotoğrafçılık ekipmanını yönetmek için kamera, lens ve filtre detaylarıyla ekipman ayarlarını sunuyor."
+        "alt": "Çekim iş akışınızda film kameraları, lensleri, filtreleri ve aksesuarları kataloglamak ve düzenlemek için fotoğraf ekipmanı yönetim arayüzü.",
+        "caption": "Fotoğraf ekipmanınızın eksiksiz bir dijital kataloğunu oluşturun. Detaylı özelliklerle kameralar, lensler, filtreler ve aksesuarlar ekleyin. Ekipmanınızı düzenli tutmak, daha hızlı çekim hazırlığı ve tüm film rulolarınızda tutarlı meta veriler anlamına gelir."
       },
       "preview5": {
         "src": "/lib/img/tr/preview5.png",
-        "alt": "Frames film fotoğrafçılığı uygulaması, analog fotoğrafçılık kayıtlarını ve metadata'yı yedeklemek ve paylaşmak için .frames, .txt veya .gpx dosyaları olarak veriyi dışa aktarıyor."
+        "alt": "Film fotoğrafçılığı verilerini dışa aktarmak, yedekleme, platformlar arası paylaşım ve cihazlar arası meta veri aktarımını etkinleştirmek için JSON tabanlı .frames dosya biçimi simgesi.",
+        "caption": "Çekim verilerinizi taşınabilir JSON tabanlı .frames dosyaları olarak dışa aktarın. Kayıtlarınızı yedekleyin, cihazlar arasında paylaşın veya iPhone ve Mac arasında sorunsuz bir şekilde geçiş yapın. Verileriniz erişilebilir ve geleceğe hazır kalır, size tam sahiplik ve kontrol verir."
       },
       "preview6": {
         "src": "/lib/img/tr/preview6.png",
-        "alt": "Frames analog fotoğrafçılık uygulaması metadata'sı film fotoğrafçıları için Finder, Adobe Lightroom, Adobe Bridge, Google Photos, Darktable ve Flickr ile entegre."
+        "alt": "Fotoğraf yazılımı uyumluluğu: Apple Finder, Flickr, Google Photos, Adobe Lightroom, Adobe Bridge ve Darktable gömülü film meta verilerini destekler.",
+        "caption": "Gömülü meta verileriniz ihtiyacınız olan her yerde çalışır. Apple Finder, Flickr, Google Photos, Adobe Lightroom, Adobe Bridge ve Darktable tümü film çekim verilerinizi tanır ve görüntüler, analog yakalamadan dijital arşive birleşik bir iş akışı oluşturur."
       }
     }
   },

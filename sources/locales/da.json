@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "Frames: Filmfotografi App til Notater & Metadata",
-    "description": "Frames er en filmfotografi app til analoge fotografer. Log hvert billede, følg kameraindstillinger, organiser film og gem EXIF metadata på iPhone & Mac.",
+    "title": "Frames: Filmfotografi-app til analoge billeder",
+    "description": "Filmfotografi-app til analoge fotografer. Registrer kameraindstillinger, organiser ruller og integrer EXIF-metadata i scannede billeder. Gratis prøveperiode.",
     "locale": "da_DK",
     "canonical_url": "https://withframes.com/da/",
     "lang": "da",
@@ -73,34 +73,43 @@
     "featured": {
       "aria_label": "Fremhævede publikationer",
       "text": "Fremhævet i hele fotografifællesskabet."
-    }
+    },
+    "paragraph1": "At skyde på film er en bevidst, intentionel proces, men det skal ikke tage tid at holde styr på dine indstillinger. Frames er bygget specifikt til analoge fotografer, der ønsker præcisionen af digitale metadata uden at gå på kompromis med den taktile glæde ved film. Uanset om du tester nye filmtyper, perfektionerer din eksponeringsteknik eller bare vil huske, hvad der virkede på det perfekte billede, fanger Frames hver detalje præcis når og hvor du har brug for det.",
+    "paragraph2": "I modsætning til generiske note-apps eller papirblokke forstår Frames filmfotografering. Det kender dit udstyr, taler dit sprog med korrekte blænder og lukkertider og organiserer alt efter rulle og billede. Når dine scanninger kommer tilbage, kan du indlejre alle dine optagelsesdata direkte i billedfilerne og skabe et komplet arkiv, der fungerer problemfrit med Lightroom, Bridge og alle andre værktøjer i dit workflow. Din analoge proces får digital præcision uden kompromiser.",
+    "paragraph3": "Tusindvis af filmfotografer stoler på, at Frames er deres fotografiske ledsager, fra weekendhobbyister til professionelle arkivbyggere. Ingen annoncer, ingen sporing, ingen abonnementer på tjenester, du ikke har brug for. Bare et smukt designet værktøj, der respekterer din kreative proces og holder dine data private og bærbare. Start din gratis prøveperiode og se, hvorfor filmfotografer dropper deres notesbøger for altid."
   },
   "preview": {
     "heading": "Filmfotografi-app-forhåndsvisning",
     "images": {
       "preview1": {
         "src": "/lib/img/da/preview1.png",
-        "alt": "Frames filmfotografi app der viser optagelsesgrænsefladen med valg af lukkertid og blænde til logning af filmeksponeringer."
+        "alt": "Filmkamera-optagelsesregistrering med lukkertidsdrejeknap og blændevælger til hurtig logning af eksponeringsindstillinger under analog fotografering.",
+        "caption": "Log dine optagelser øjeblikkeligt med intuitive drejeknapper til lukkertid og blænde. Den strømlinede grænseflade lader dig fange eksponeringsindstillinger på sekunder uden at afbryde dit kreative flow, hvilket sikrer, at hvert billedes detaljer bevares til senere reference."
       },
       "preview2": {
         "src": "/lib/img/da/preview2.png",
-        "alt": "Frames analog fotografi app der viser detaljerede metadatamuligheder inkl. eksponering, filmtype, kamera, objektiv og optageforhold."
+        "alt": "Komplette filmmetadata-sporingsfelter: kameraudstyr, filmtype, blænde, brændvidde, lukkertid, ISO, flashindstillinger og GPS-placeringsdata.",
+        "caption": "Spor hver detalje, der betyder noget for dit fotografi. Registrer kameraudstyr, filmtype, blænde, brændvidde, lukkertid, ISO, flashindstillinger, GPS-placering og brugerdefinerede noter. Behold omfattende optegnelser, der hjælper dig med at lære og forbedre dig med hver rulle, du tager."
       },
       "preview3": {
         "src": "/lib/img/da/preview3.png",
-        "alt": "Frames filmfotografi app på macOS der viser organiserede filmruller i biblioteksvisningen ved gennemgang af mapper med analoge fotos."
+        "alt": "Filmrullearkivbibliotek, der viser organiserede optagelsessessioner med rullenavne, optagelsesdatoer og filmtypedetaljer til nem reference og gennemgang.",
+        "caption": "Gennemse dit komplette filmarkiv med hver rulle smukt organiseret. Se rullenavne, optagelsesdatoer og filmtype med et blik. Søg, filtrer og genbesøg tidligere sessioner for at analysere dit arbejde, spore dine fremskridt og genopdage glemte billeder."
       },
       "preview4": {
         "src": "/lib/img/da/preview4.png",
-        "alt": "Frames analog fotografi app der præsenterer udstyrsindstillinger med kamera-, objektiv- og filterdetaljer til styring af analogt fotoudstyr."
+        "alt": "Fotografiudstyrsstyringsgrænseflade til katalogisering og organisering af filmkameraer, objektiver, filtre og tilbehør i dit optagelsesworkflow.",
+        "caption": "Byg et komplet digitalt katalog over dit fotografiudstyr. Tilføj kameraer, objektiver, filtre og tilbehør med detaljerede specifikationer. At have dit udstyr organiseret betyder hurtigere forberedelse til optagelser og ensartede metadata på tværs af alle dine filmruller."
       },
       "preview5": {
         "src": "/lib/img/da/preview5.png",
-        "alt": "Frames filmfotografi app der eksporterer data som .frames, .txt eller .gpx filer til sikkerhedskopiering og deling af analoge fotografilogs og metadata."
+        "alt": "JSON-baseret .frames-filformat-ikon til eksport af filmfotografidata, der muliggør sikkerhedskopiering, tværplatformsdeling og metadataoverførsel mellem enheder.",
+        "caption": "Eksporter dine optagelsesdata som bærbare JSON-baserede .frames-filer. Sikkerhedskopier dine optegnelser, del dem på tværs af enheder eller migrer mellem iPhone og Mac problemfrit. Dine data forbliver tilgængelige og fremtidssikre, hvilket giver dig fuld ejerskab og kontrol."
       },
       "preview6": {
         "src": "/lib/img/da/preview6.png",
-        "alt": "Frames analog fotografi app metadata integreret med Finder, Adobe Lightroom, Adobe Bridge, Google Photos, Darktable og Flickr."
+        "alt": "Fotografisoftwarekompatibilitet: Apple Finder, Flickr, Google Photos, Adobe Lightroom, Adobe Bridge og Darktable understøtter indlejrede filmmetadata.",
+        "caption": "Dine indlejrede metadata fungerer overalt, hvor du har brug for dem. Apple Finder, Flickr, Google Photos, Adobe Lightroom, Adobe Bridge og Darktable genkender og viser alle dine filmoptagelsesdata, hvilket skaber et samlet workflow fra analog optagelse til digitalt arkiv."
       }
     }
   },

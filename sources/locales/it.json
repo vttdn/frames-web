@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "Frames: App Fotografia Analogica per Note & Metadati",
-    "description": "Frames è un'app fotografia analogica. Registra ogni scatto, monitora le impostazioni, organizza i rullini e salva i metadati EXIF su iPhone & Mac.",
+    "title": "Frames: App fotografia analogica per scatti film",
+    "description": "App fotografia analogica per fotografi. Registra impostazioni fotocamera, organizza rullini e incorpora metadati EXIF nelle scansioni. Prova gratuita iPhone.",
     "locale": "it_IT",
     "canonical_url": "https://withframes.com/it/",
     "lang": "it",
@@ -73,34 +73,43 @@
     "featured": {
       "aria_label": "Pubblicazioni in evidenza",
       "text": "In evidenza nella comunità fotografica."
-    }
+    },
+    "paragraph1": "Fotografare con la pellicola è un processo deliberato e intenzionale, ma tenere traccia delle impostazioni non dovrebbe rallentarti. Frames è stato creato appositamente per i fotografi analogici che desiderano la precisione dei metadati digitali senza sacrificare il piacere tattile della pellicola. Che tu stia testando nuove pellicole, perfezionando la tua tecnica di esposizione o semplicemente voglia ricordare cosa ha funzionato in quello scatto perfetto, Frames cattura ogni dettaglio esattamente quando e dove ne hai bisogno.",
+    "paragraph2": "A differenza delle app generiche per prendere appunti o dei quaderni di carta, Frames comprende la fotografia analogica. Conosce la tua attrezzatura, parla il tuo linguaggio con diaframmi e tempi di esposizione corretti e organizza tutto per rullino e fotogramma. Quando le tue scansioni tornano indietro, puoi incorporare tutti i dati di scatto direttamente nei file immagine, creando un archivio completo che funziona perfettamente con Lightroom, Bridge e ogni altro strumento del tuo flusso di lavoro. Il tuo processo analogico ottiene precisione digitale, senza compromessi.",
+    "paragraph3": "Migliaia di fotografi analogici si affidano a Frames come compagno di scatto, dagli appassionati del fine settimana ai costruttori di archivi professionali. Nessuna pubblicità, nessun tracciamento, nessun abbonamento a servizi di cui non hai bisogno. Solo uno strumento magnificamente realizzato che rispetta il tuo processo creativo e mantiene i tuoi dati privati e portatili. Inizia la tua prova gratuita e scopri perché i fotografi analogici stanno abbandonando definitivamente i loro quaderni."
   },
   "preview": {
     "heading": "Anteprima dell'app di fotografia su pellicola",
     "images": {
       "preview1": {
         "src": "/lib/img/it/preview1.png",
-        "alt": "Frames app fotografia analogica che mostra l'interfaccia di registrazione con selezione di tempo di scatto e apertura per annotare le esposizioni."
+        "alt": "Registratore di scatti della fotocamera analogica con quadrante del tempo di esposizione e selettore di apertura per registrare rapidamente le impostazioni di esposizione durante la fotografia analogica.",
+        "caption": "Registra i tuoi scatti istantaneamente con quadranti intuitivi per tempo di esposizione e apertura. L'interfaccia semplificata ti permette di acquisire le impostazioni di esposizione in pochi secondi senza interrompere il tuo flusso creativo, assicurando che i dettagli di ogni fotogramma siano preservati per riferimento futuro."
       },
       "preview2": {
         "src": "/lib/img/it/preview2.png",
-        "alt": "Frames app fotografica analogica con opzioni dettagliate di metadati tra cui esposizione, pellicola, fotocamera, obiettivo e condizioni di scatto."
+        "alt": "Campi completi di tracciamento dei metadati della pellicola: attrezzatura fotografica, tipo di pellicola, apertura, lunghezza focale, tempo di esposizione, ISO, impostazioni flash e dati di posizione GPS.",
+        "caption": "Tieni traccia di ogni dettaglio importante per la tua fotografia. Registra attrezzatura fotografica, tipo di pellicola, apertura, lunghezza focale, tempo di esposizione, ISO, impostazioni flash, posizione GPS e note personalizzate. Mantieni registrazioni complete che ti aiutano a imparare e migliorare con ogni rullino che scatti."
       },
       "preview3": {
         "src": "/lib/img/it/preview3.png",
-        "alt": "Frames app fotografia analogica su macOS che mostra i rullini organizzati nella vista libreria durante la navigazione delle cartelle di foto analogiche."
+        "alt": "Libreria archivio rullini che mostra sessioni di scatto organizzate con nomi dei rullini, date di acquisizione e dettagli del tipo di pellicola per facile riferimento e revisione.",
+        "caption": "Sfoglia il tuo archivio fotografico completo con ogni rullino magnificamente organizzato. Visualizza nomi dei rullini, date di scatto e tipo di pellicola a colpo d'occhio. Cerca, filtra e rivisita sessioni passate per analizzare il tuo lavoro, monitorare i tuoi progressi e riscoprire fotogrammi dimenticati."
       },
       "preview4": {
         "src": "/lib/img/it/preview4.png",
-        "alt": "Frames app fotografica analogica che presenta impostazioni dell'attrezzatura con dettagli di fotocamera, obiettivo e filtri per gestire l'equipaggiamento fotografico."
+        "alt": "Interfaccia di gestione dell'attrezzatura fotografica per catalogare e organizzare fotocamere analogiche, obiettivi, filtri e accessori nel tuo flusso di lavoro fotografico.",
+        "caption": "Costruisci un catalogo digitale completo della tua attrezzatura fotografica. Aggiungi fotocamere, obiettivi, filtri e accessori con specifiche dettagliate. Avere la tua attrezzatura organizzata significa preparazione più rapida per gli scatti e metadati coerenti su tutti i tuoi rullini."
       },
       "preview5": {
         "src": "/lib/img/it/preview5.png",
-        "alt": "Frames app fotografia analogica che esporta dati come file .frames, .txt o .gpx per fare backup e condividere registri e metadati fotografici."
+        "alt": "Icona del formato file .frames basato su JSON per esportare dati di fotografia analogica, abilitando backup, condivisione multipiattaforma e trasferimento di metadati tra dispositivi.",
+        "caption": "Esporta i tuoi dati di scatto come file .frames portabili basati su JSON. Fai il backup dei tuoi record, condividili tra dispositivi o migra tra iPhone e Mac senza problemi. I tuoi dati rimangono accessibili e a prova di futuro, dandoti completa proprietà e controllo."
       },
       "preview6": {
         "src": "/lib/img/it/preview6.png",
-        "alt": "Frames metadati integrati con Finder, Adobe Lightroom, Adobe Bridge, Google Photos, Darktable e Flickr per fotografi analogici."
+        "alt": "Compatibilità software fotografico: Apple Finder, Flickr, Google Photos, Adobe Lightroom, Adobe Bridge e Darktable supportano metadati di pellicola incorporati.",
+        "caption": "I tuoi metadati incorporati funzionano ovunque ne hai bisogno. Apple Finder, Flickr, Google Photos, Adobe Lightroom, Adobe Bridge e Darktable riconoscono e visualizzano tutti i tuoi dati di scatto su pellicola, creando un flusso di lavoro unificato dall'acquisizione analogica all'archivio digitale."
       }
     }
   },

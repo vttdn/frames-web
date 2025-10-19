@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "Frames: Aplikacja do Fotografii Analogowej i Metadanych",
-    "description": "Frames to aplikacja do fotografii analogowej. Zapisuj każde zdjęcie, śledź ustawienia aparatu, organizuj klisze i zapisuj metadane EXIF na iPhone i Mac.",
+    "title": "Frames: Aplikacja do fotografii analogowej",
+    "description": "Aplikacja do fotografii analogowej. Śledź ustawienia aparatu, organizuj rolki i osadzaj metadane EXIF w zeskanowanych zdjęciach. Darmowy okres próbny iPhone.",
     "locale": "pl_PL",
     "canonical_url": "https://withframes.com/pl/",
     "lang": "pl",
@@ -73,34 +73,43 @@
     "featured": {
       "aria_label": "Wyróżnione publikacje",
       "text": "Polecana przez społeczność fotograficzną."
-    }
+    },
+    "paragraph1": "Fotografowanie na film to świadomy, przemyślany proces, ale śledzenie ustawień nie powinno Cię spowalniać. Frames został stworzony specjalnie dla fotografów analogowych, którzy chcą precyzji cyfrowych metadanych bez rezygnacji z dotykowej radości z filmu. Niezależnie od tego, czy testujesz nowe typy filmów, doskonalisz technikę naświetlania, czy po prostu chcesz zapamiętać, co zadziałało przy tym idealnym ujęciu, Frames rejestruje każdy szczegół dokładnie wtedy i tam, gdzie tego potrzebujesz.",
+    "paragraph2": "W przeciwieństwie do ogólnych aplikacji do robienia notatek czy papierowych notesów, Frames rozumie fotografię filmową. Zna Twój sprzęt, mówi Twoim językiem z odpowiednimi przysłonami i czasami migawki oraz organizuje wszystko według rolki i klatki. Kiedy wrócą Twoje skany, możesz osadzić wszystkie dane z sesji bezpośrednio w plikach obrazów, tworząc kompletne archiwum, które działa bezproblemowo z Lightroom, Bridge i każdym innym narzędziem w Twoim przepływie pracy. Twój analogowy proces zyskuje cyfrową precyzję, bez kompromisów.",
+    "paragraph3": "Tysiące fotografów filmowych ufa Frames jako swojemu towarzyszowi zdjęciowemu, od weekendowych hobbystów po profesjonalnych twórców archiwów. Bez reklam, bez śledzenia, bez subskrypcji usług, których nie potrzebujesz. Po prostu pięknie wykonane narzędzie, które szanuje Twój proces twórczy i zachowuje Twoje dane prywatne i przenośne. Rozpocznij bezpłatny okres próbny i zobacz, dlaczego fotografowie filmowi porzucają swoje notesy na dobre."
   },
   "preview": {
     "heading": "Podgląd aplikacji do fotografii analogowej",
     "images": {
       "preview1": {
         "src": "/lib/img/pl/preview1.png",
-        "alt": "Frames aplikacja do fotografii analogowej pokazująca interfejs nagrywania z wyborem czasu naświetlania i przysłony do rejestrowania ekspozycji."
+        "alt": "Rejestrator ujęć kamery filmowej z pokrętłem czasu naświetlania i selektorem przysłony do szybkiego logowania ustawień ekspozycji podczas fotografii analogowej.",
+        "caption": "Rejestruj swoje ujęcia natychmiast za pomocą intuicyjnych pokręteł czasu naświetlania i przysłony. Usprawniony interfejs pozwala przechwycić ustawienia ekspozycji w kilka sekund bez przerywania twórczego przepływu, zapewniając zachowanie szczegółów każdej klatki do późniejszego odniesienia."
       },
       "preview2": {
         "src": "/lib/img/pl/preview2.png",
-        "alt": "Frames aplikacja analogowa wyświetlająca szczegółowe opcje metadanych, w tym ekspozycję, rodzaj kliszy, aparat, obiektyw i warunki fotografowania."
+        "alt": "Pełne pola śledzenia metadanych filmu: sprzęt fotograficzny, typ filmu, przysłona, ogniskowa, czas naświetlania, ISO, ustawienia lampy błyskowej i dane lokalizacji GPS.",
+        "caption": "Śledź każdy szczegół, który ma znaczenie dla twojej fotografii. Rejestruj sprzęt fotograficzny, typ filmu, przysłonę, ogniskową, czas naświetlania, ISO, ustawienia lampy błyskowej, lokalizację GPS i niestandardowe notatki. Prowadź kompleksowe zapisy, które pomogą ci uczyć się i doskonalić z każdą rolką, którą robisz."
       },
       "preview3": {
         "src": "/lib/img/pl/preview3.png",
-        "alt": "Frames aplikacja do fotografii analogowej na macOS pokazująca zorganizowane klisze w widoku biblioteki podczas przeglądania folderów."
+        "alt": "Biblioteka archiwum rolek filmowych wyświetlająca zorganizowane sesje zdjęciowe z nazwami rolek, datami przechwytywania i szczegółami typu filmu dla łatwego odniesienia i przeglądu.",
+        "caption": "Przeglądaj swoje kompletne archiwum filmowe z każdą rolką pięknie zorganizowaną. Zobacz nazwy rolek, daty zdjęć i typ filmu jednym spojrzeniem. Wyszukuj, filtruj i wracaj do poprzednich sesji, aby analizować swoją pracę, śledzić postępy i odkrywać na nowo zapomniane klatki."
       },
       "preview4": {
         "src": "/lib/img/pl/preview4.png",
-        "alt": "Frames aplikacja analogowa prezentująca ustawienia sprzętu z szczegółami aparatu, obiektywu i filtrów do zarządzania wyposażeniem fotograficznym."
+        "alt": "Interfejs zarządzania sprzętem fotograficznym do katalogowania i organizowania kamer filmowych, obiektywów, filtrów i akcesoriów w przepływie pracy fotograficznej.",
+        "caption": "Zbuduj kompletny katalog cyfrowy swojego sprzętu fotograficznego. Dodaj aparaty, obiektywy, filtry i akcesoria ze szczegółowymi specyfikacjami. Posiadanie zorganizowanego sprzętu oznacza szybsze przygotowanie do zdjęć i spójne metadane we wszystkich rolkach filmowych."
       },
       "preview5": {
         "src": "/lib/img/pl/preview5.png",
-        "alt": "Frames aplikacja do fotografii analogowej eksportująca dane jako pliki .frames, .txt lub .gpx do tworzenia kopii zapasowych i udostępniania dzienników i metadanych."
+        "alt": "Ikona formatu pliku .frames opartego na JSON do eksportowania danych z fotografii filmowej, umożliwiająca tworzenie kopii zapasowych, udostępnianie międzyplatformowe i transfer metadanych między urządzeniami.",
+        "caption": "Eksportuj swoje dane z sesji jako przenośne pliki .frames oparte na JSON. Twórz kopie zapasowe swoich zapisów, udostępniaj je między urządzeniami lub migruj między iPhone a Mac bezproblemowo. Twoje dane pozostają dostępne i zabezpieczone na przyszłość, dając ci pełną kontrolę i własność."
       },
       "preview6": {
         "src": "/lib/img/pl/preview6.png",
-        "alt": "Frames metadane zintegrowane z Finder, Adobe Lightroom, Adobe Bridge, Google Photos, Darktable i Flickr dla fotografów analogowych."
+        "alt": "Kompatybilność oprogramowania fotograficznego: Apple Finder, Flickr, Google Photos, Adobe Lightroom, Adobe Bridge i Darktable obsługują osadzone metadane filmowe.",
+        "caption": "Twoje osadzone metadane działają wszędzie tam, gdzie ich potrzebujesz. Apple Finder, Flickr, Google Photos, Adobe Lightroom, Adobe Bridge i Darktable rozpoznają i wyświetlają wszystkie dane z twoich sesji filmowych, tworząc zunifikowany przepływ pracy od analogowego przechwytywania do cyfrowego archiwum."
       }
     }
   },

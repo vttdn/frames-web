@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "Frames: Aplikasi Fotografi Film untuk Catatan & Metadata",
-    "description": "Frames adalah aplikasi fotografi film untuk fotografer analog. Catat setiap foto, lacak pengaturan kamera, atur rol film, dan simpan metadata EXIF di iPhone & Mac.",
+    "title": "Frames: Aplikasi fotografi film untuk foto analog",
+    "description": "Aplikasi fotografi film untuk fotografer analog. Lacak pengaturan kamera, atur rol, dan sisipkan metadata EXIF ke gambar scan. Uji coba gratis untuk iPhone.",
     "locale": "id_ID",
     "canonical_url": "https://withframes.com/id/",
     "lang": "id",
@@ -73,34 +73,43 @@
     "featured": {
       "aria_label": "Publikasi unggulan",
       "text": "Ditampilkan di seluruh komunitas fotografi."
-    }
+    },
+    "paragraph1": "Memotret dengan film adalah proses yang disengaja dan penuh pertimbangan, tetapi melacak pengaturan Anda tidak boleh memperlambat Anda. Frames dibuat khusus untuk fotografer analog yang menginginkan presisi metadata digital tanpa mengorbankan kegembiraan taktil dari film. Baik Anda menguji stok film baru, menyempurnakan teknik eksposur, atau hanya ingin mengingat apa yang berhasil pada bidikan sempurna itu, Frames menangkap setiap detail tepat kapan dan di mana Anda membutuhkannya.",
+    "paragraph2": "Tidak seperti aplikasi pencatat umum atau buku catatan kertas, Frames memahami fotografi film. Aplikasi ini mengenal peralatan Anda, berbicara dalam bahasa Anda dengan f-stop dan kecepatan rana yang tepat, dan mengatur semuanya berdasarkan rol dan frame. Ketika hasil scan Anda kembali, Anda dapat menyematkan semua data pemotretan langsung ke dalam file gambar, menciptakan arsip lengkap yang bekerja mulus dengan Lightroom, Bridge, dan setiap alat lain dalam alur kerja Anda. Proses analog Anda mendapatkan presisi digital, tanpa kompromi.",
+    "paragraph3": "Ribuan fotografer film mempercayai Frames sebagai pendamping pemotretan mereka, dari penggemar akhir pekan hingga pembangun arsip profesional. Tanpa iklan, tanpa pelacakan, tanpa langganan layanan yang tidak Anda butuhkan. Hanya alat yang dibuat dengan indah yang menghormati proses kreatif Anda dan menjaga data Anda tetap pribadi dan portabel. Mulai uji coba gratis Anda dan lihat mengapa para penembak film meninggalkan buku catatan mereka untuk selamanya."
   },
   "preview": {
     "heading": "Pratinjau Aplikasi Fotografi Film",
     "images": {
       "preview1": {
         "src": "/lib/img/id/preview1.png",
-        "alt": "Aplikasi fotografi film Frames menampilkan antarmuka perekam dengan pilihan kecepatan rana dan apertur untuk mencatat eksposur film."
+        "alt": "Perekam bidikan kamera film dengan dial kecepatan rana dan pemilih apertur untuk mencatat pengaturan eksposur dengan cepat saat memotret fotografi analog.",
+        "caption": "Catat bidikan Anda secara instan dengan dial intuitif untuk kecepatan rana dan apertur. Antarmuka yang ramping memungkinkan Anda menangkap pengaturan eksposur dalam hitungan detik tanpa mengganggu alur kreatif Anda, memastikan detail setiap frame terpelihara untuk referensi nantinya."
       },
       "preview2": {
         "src": "/lib/img/id/preview2.png",
-        "alt": "Aplikasi fotografi analog Frames menampilkan opsi metadata terperinci termasuk eksposur, jenis film, kamera, lensa, dan kondisi pemotretan."
+        "alt": "Bidang pelacakan metadata film lengkap: peralatan kamera, stok film, apertur, panjang fokus, kecepatan rana, ISO, pengaturan flash, dan data lokasi GPS.",
+        "caption": "Lacak setiap detail yang penting untuk fotografi Anda. Catat peralatan kamera, stok film, apertur, panjang fokus, kecepatan rana, ISO, pengaturan flash, lokasi GPS, dan catatan kustom. Simpan catatan komprehensif yang membantu Anda belajar dan meningkat dengan setiap rol yang Anda potret."
       },
       "preview3": {
         "src": "/lib/img/id/preview3.png",
-        "alt": "Aplikasi fotografi film Frames di macOS menampilkan rol film yang terorganisir dalam tampilan pustaka saat menelusuri folder foto analog."
+        "alt": "Perpustakaan arsip rol film yang menampilkan sesi pemotretan terorganisir dengan nama rol, tanggal pengambilan, dan detail stok film untuk referensi dan tinjauan yang mudah.",
+        "caption": "Jelajahi arsip film lengkap Anda dengan setiap rol yang terorganisir dengan indah. Lihat nama rol, tanggal pemotretan, dan stok film sekilas. Cari, filter, dan kunjungi kembali sesi lalu untuk menganalisis pekerjaan Anda, melacak kemajuan Anda, dan menemukan kembali frame yang terlupakan."
       },
       "preview4": {
         "src": "/lib/img/id/preview4.png",
-        "alt": "Aplikasi fotografi analog Frames menyajikan pengaturan peralatan dengan detail kamera, lensa, dan filter untuk mengelola peralatan fotografi analog."
+        "alt": "Antarmuka manajemen peralatan fotografi untuk mengkatalog dan mengatur kamera film, lensa, filter, dan aksesori dalam alur kerja pemotretan Anda.",
+        "caption": "Bangun katalog digital lengkap peralatan fotografi Anda. Tambahkan kamera, lensa, filter, dan aksesori dengan spesifikasi terperinci. Memiliki peralatan yang terorganisir berarti persiapan pemotretan lebih cepat dan metadata yang konsisten di semua rol film Anda."
       },
       "preview5": {
         "src": "/lib/img/id/preview5.png",
-        "alt": "Aplikasi fotografi film Frames mengekspor data sebagai file .frames, .txt, atau .gpx untuk pencadangan dan berbagi log serta metadata fotografi analog."
+        "alt": "Ikon format file .frames berbasis JSON untuk mengekspor data fotografi film, memungkinkan pencadangan, berbagi lintas platform, dan transfer metadata antar perangkat.",
+        "caption": "Ekspor data pemotretan Anda sebagai file .frames portabel berbasis JSON. Cadangkan catatan Anda, bagikan di berbagai perangkat, atau migrasikan antara iPhone dan Mac dengan mulus. Data Anda tetap dapat diakses dan tahan masa depan, memberi Anda kepemilikan dan kontrol penuh."
       },
       "preview6": {
         "src": "/lib/img/id/preview6.png",
-        "alt": "Metadata aplikasi fotografi analog Frames terintegrasi dengan Finder, Adobe Lightroom, Adobe Bridge, Google Photos, Darktable, dan Flickr."
+        "alt": "Kompatibilitas perangkat lunak fotografi: Apple Finder, Flickr, Google Photos, Adobe Lightroom, Adobe Bridge, dan Darktable mendukung metadata film tertanam.",
+        "caption": "Metadata tertanam Anda berfungsi di mana pun Anda membutuhkannya. Apple Finder, Flickr, Google Photos, Adobe Lightroom, Adobe Bridge, dan Darktable semuanya mengenali dan menampilkan data pemotretan film Anda, menciptakan alur kerja terpadu dari pengambilan analog hingga arsip digital."
       }
     }
   },

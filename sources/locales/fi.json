@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "Frames: Filmivalokuvaussovellus Muistiinpanoihin & Metatietoihin",
-    "description": "Frames on filmivalokuvaussovellus analogisille valokuvaajille. Kirjaa jokainen kuva, seuraa kamera-asetuksia, järjestä filmit ja tallenna EXIF-metatiedot.",
+    "title": "Frames: Filmikuvaussovellus analogisille kuville",
+    "description": "Filmikuvaussovellus analogivalokuvaajille. Tallenna kamera-asetukset, järjestä rullat ja upota EXIF-metadata skannattuihin kuviin. Ilmainen kokeilu iPhonelle.",
     "locale": "fi_FI",
     "canonical_url": "https://withframes.com/fi/",
     "lang": "fi",
@@ -73,34 +73,43 @@
     "featured": {
       "aria_label": "Esitellyt julkaisut",
       "text": "Esillä koko valokuvausyhteisössä."
-    }
+    },
+    "paragraph1": "Filmikuvaus on tarkoituksellinen ja harkittu prosessi, mutta asetusten seuraamisen ei pitäisi hidastaa sinua. Frames on rakennettu erityisesti analogivalokuvaajille, jotka haluavat digitaalisen metadatan tarkkuuden uhraamatta filmin käsin kosketeltavaa iloa. Testasitpa sitten uusia filmirullia, hiodpa valotustekniikkaasi tai haluat vain muistaa, mikä toimi täydellisessä otoksessa, Frames tallentaa jokaisen yksityiskohdan juuri silloin ja siellä, kun tarvitset sitä.",
+    "paragraph2": "Toisin kuin yleiset muistiinpanosovellukset tai paperimuistikirjat, Frames ymmärtää filmikuvausta. Se tuntee laitteistosi, puhuu kieltäsi oikeilla aukkoarvoilla ja valotusajoilla ja järjestää kaiken rullan ja kuvan mukaan. Kun skannauksesi saapuvat, voit upottaa kaikki kuvaustiedot suoraan kuvatiedostoihin luoden täydellisen arkiston, joka toimii saumattomasti Lightroomin, Bridgen ja kaikkien muiden työnkulkusi työkalujen kanssa. Analoginen prosessisi saa digitaalisen tarkkuuden ilman kompromisseja.",
+    "paragraph3": "Tuhannet filmivalokuvaajat luottavat Framesiin kuvauskumppaninaan, viikonloppuharrastajista ammattimaisiin arkistonrakentajiin. Ei mainoksia, ei seurantaa, ei tilauksia palveluihin, joita et tarvitse. Vain kauniisti muotoiltu työkalu, joka kunnioittaa luovaa prosessiasi ja pitää tietosi yksityisinä ja siirrettävinä. Aloita ilmainen kokeilusi ja näe, miksi filmikuvaajat hylkäävät muistikirjansa lopullisesti."
   },
   "preview": {
     "heading": "Filmivalokuvaussovelluksen esikatselu",
     "images": {
       "preview1": {
         "src": "/lib/img/fi/preview1.png",
-        "alt": "Frames filmivalokuvaussovellus näyttää tallennuskäyttöliittymän suljinaika- ja aukkovalinnoilla filmialtistusten kirjaamiseen."
+        "alt": "Filmikameran otostallennin, jossa on sulkimen nopeuden valintapyörä ja aukon valitsin valotusasetusten nopeaa kirjaamista varten analogivalokuvauksen aikana.",
+        "caption": "Kirjaa otoksesi välittömästi intuitiivisilla valintapyörillä sulkimen nopeudelle ja aukolle. Virtaviivainen käyttöliittymä antaa sinun tallentaa valotusasetukset sekunneissa keskeyttämättä luovaa työnkulkuasi, varmistaen että jokaisen kuvan yksityiskohdat säilyvät myöhempää viittausta varten."
       },
       "preview2": {
         "src": "/lib/img/fi/preview2.png",
-        "alt": "Frames analoginen valokuvaussovellus näyttää yksityiskohtaiset metatietovaihtoehdot, kuten valotus, filmi, kamera, objektiivi ja kuvausolosuhteet."
+        "alt": "Täydelliset filmin metadataseurantakentät: kameralaitteisto, filmityyppi, aukko, polttoväli, sulkimen nopeus, ISO, salamaasetukset ja GPS-sijaintitiedot.",
+        "caption": "Seuraa jokaista yksityiskohtaa, joka on tärkeä valokuvauksellesi. Tallenna kameralaitteisto, filmityyppi, aukko, polttoväli, sulkimen nopeus, ISO, salamaasetukset, GPS-sijainti ja mukautetut muistiinpanot. Pidä kattavat tiedot, jotka auttavat sinua oppimaan ja kehittymään jokaisen kuvauksesi kanssa."
       },
       "preview3": {
         "src": "/lib/img/fi/preview3.png",
-        "alt": "Frames filmivalokuvaussovellus macOS:llä näyttää järjestetyt filmirullat kirjastonäkymässä analogisten valokuvien kansioita selatessa."
+        "alt": "Filmirullaarkistokirjasto, joka näyttää järjestetyt kuvausistunnot rullien nimineen, kuvauspäivämäärineen ja filmityyppitietoineen helppoa viittausta ja tarkastelua varten.",
+        "caption": "Selaa täydellistä filmiarkistoasi jokaisen rullan ollessa kauniisti järjestetty. Näe rullien nimet, kuvauspäivämäärät ja filmityyppi yhdellä silmäyksellä. Etsi, suodata ja palaa aikaisempiin istuntoihin analysoidaksesi työtäsi, seurataksesi edistymistäsi ja löytääksesi uudelleen unohtuneet kuvat."
       },
       "preview4": {
         "src": "/lib/img/fi/preview4.png",
-        "alt": "Frames analoginen valokuvaussovellus esittelee laiteasetukset kameran, objektiivin ja suodattimen tiedoilla analogisen valokuvausvälineistön hallintaan."
+        "alt": "Valokuvauslaitteiston hallintakäyttöliittymä filmikameroiden, objektiivien, suodattimien ja lisävarusteiden luettelointiin ja järjestämiseen kuvaustyönkulussasi.",
+        "caption": "Rakenna täydellinen digitaalinen luettelo valokuvauslaitteistostasi. Lisää kamerat, objektiivit, suodattimet ja lisävarusteet yksityiskohtaisine teknisineen tietoineen. Kun laitteistosi on järjestetty, kuvausvalmistelut ovat nopeampia ja metadata on yhdenmukaista kaikissa filmirulli"
       },
       "preview5": {
         "src": "/lib/img/fi/preview5.png",
-        "alt": "Frames filmivalokuvaussovellus vie tiedot .frames-, .txt- tai .gpx-tiedostoina analogisten valokuvamuistiinpanojen ja metatietojen varmuuskopiointiin ja jakamiseen."
+        "alt": "JSON-pohjainen .frames-tiedostomuoto-ikoni filmivalokuvauksen tietojen viemiseen, mahdollistaen varmuuskopioinnin, alustarajat ylittävän jakamisen ja metadatan siirron laitteiden välillä.",
+        "caption": "Vie kuvaustietosi siirrettävinä JSON-pohjaisina .frames-tiedostoina. Varmuuskopioi tietueesi, jaa niitä laitteiden välillä tai siirrä iPhonen ja Macin välillä saumattomasti. Tietosi pysyvät saavutettavina ja tulevaisuuden kestävinä, antaen sinulle täydellisen omistajuuden ja hallinnan."
       },
       "preview6": {
         "src": "/lib/img/fi/preview6.png",
-        "alt": "Frames analoginen valokuvaussovelluksen metatiedot integroituna Finderin, Adobe Lightroom, Adobe Bridge, Google Photos, Darktable ja Flickr kanssa."
+        "alt": "Valokuvausohjelmistoyhteensopivuus: Apple Finder, Flickr, Google Photos, Adobe Lightroom, Adobe Bridge ja Darktable tukevat upotettuja filmin metatietoja.",
+        "caption": "Upotetut metatietosi toimivat kaikkialla, missä niitä tarvitset. Apple Finder, Flickr, Google Photos, Adobe Lightroom, Adobe Bridge ja Darktable tunnistavat ja näyttävät kaikki filmikuvaustietosi, luoden yhtenäisen työnkulun analogisesta kuvauksesta digitaaliseen arkistoon."
       }
     }
   },

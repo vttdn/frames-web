@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "Frames: Ứng Dụng Chụp Phim cho Ghi Chú & Siêu Dữ Liệu",
-    "description": "Frames là ứng dụng chụp phim dành cho nhiếp ảnh gia analog. Ghi lại từng bức ảnh, theo dõi cài đặt máy, sắp xếp cuộn phim và lưu siêu dữ liệu EXIF.",
+    "title": "Frames: Ứng dụng chụp ảnh phim cho ảnh analog",
+    "description": "Ứng dụng chụp ảnh phim cho nhiếp ảnh gia analog. Theo dõi cài đặt máy ảnh, sắp xếp cuộn phim và nhúng siêu dữ liệu EXIF. Dùng thử miễn phí cho iPhone và Mac.",
     "locale": "vi_VN",
     "canonical_url": "https://withframes.com/vi/",
     "lang": "vi",
@@ -55,6 +55,9 @@
   "hero": {
     "heading_seo": "Ứng dụng Frames Film Photography: Ghi chú và metadata cho nhiếp ảnh phim của bạn",
     "heading": "Sổ tay nhiếp ảnh thiết yếu,<br>\nđược thiết kế cho nhiếp ảnh gia analog.",
+    "paragraph1": "Chụp ảnh phim là một quá trình có chủ đích và cân nhắc kỹ lưỡng, nhưng việc theo dõi cài đặt của bạn không nên làm bạn chậm lại. Frames được xây dựng đặc biệt cho các nhiếp ảnh gia analog muốn có độ chính xác của siêu dữ liệu kỹ thuật số mà không hy sinh niềm vui xúc giác của phim. Cho dù bạn đang thử nghiệm loại phim mới, hoàn thiện kỹ thuật phơi sáng hay chỉ đơn giản muốn nhớ điều gì đã hiệu quả trong bức ảnh hoàn hảo đó, Frames ghi lại mọi chi tiết chính xác khi nào và ở đâu bạn cần.",
+    "paragraph2": "Không giống như các ứng dụng ghi chú chung hoặc sổ tay giấy, Frames hiểu nhiếp ảnh phim. Nó biết thiết bị của bạn, nói ngôn ngữ của bạn với khẩu độ và tốc độ màn trập chính xác, và tổ chức mọi thứ theo cuộn và khung hình. Khi các bản quét của bạn trở về, bạn có thể nhúng tất cả dữ liệu chụp trực tiếp vào tệp hình ảnh, tạo một kho lưu trữ hoàn chỉnh hoạt động liền mạch với Lightroom, Bridge và mọi công cụ khác trong quy trình làm việc của bạn. Quy trình analog của bạn có được độ chính xác kỹ thuật số mà không có sự thỏa hiệp.",
+    "paragraph3": "Hàng nghìn nhiếp ảnh gia phim tin tưởng Frames là người bạn đồng hành chụp ảnh của họ, từ những người yêu thích cuối tuần đến những người xây dựng kho lưu trữ chuyên nghiệp. Không có quảng cáo, không có theo dõi, không có đăng ký các dịch vụ bạn không cần. Chỉ là một công cụ được chế tác đẹp mắt tôn trọng quá trình sáng tạo của bạn và giữ dữ liệu của bạn riêng tư và di động. Bắt đầu dùng thử miễn phí và xem tại sao các nhiếp ảnh gia phim đang từ bỏ sổ tay của họ vĩnh viễn.",
     "button_macos_text": "Tải cho macOS",
     "button_macos_aria_label": "Tải Frames cho macOS",
     "button_ios_text": "Tải cho iOS",
@@ -73,34 +76,42 @@
     "featured": {
       "aria_label": "Ấn phẩm nổi bật",
       "text": "Được giới thiệu khắp cộng đồng nhiếp ảnh."
-    }
+    },
+    "paragraph1": "Chụp ảnh phim là một quá trình có chủ đích và cân nhắc kỹ lưỡng, nhưng việc theo dõi cài đặt của bạn không nên làm bạn chậm lại. Frames được xây dựng đặc biệt cho các nhiếp ảnh gia analog muốn có độ chính xác của siêu dữ liệu kỹ thuật số mà không hy sinh niềm vui xúc giác của phim. Cho dù bạn đang thử nghiệm loại phim mới, hoàn thiện kỹ thuật phơi sáng hay chỉ đơn giản muốn nhớ điều gì đã hiệu quả trong bức ảnh hoàn hảo đó, Frames ghi lại mọi chi tiết chính xác khi nào và ở đâu bạn cần.",
+    "paragraph2": "Không giống như các ứng dụng ghi chú chung hoặc sổ tay giấy, Frames hiểu nhiếp ảnh phim. Nó biết thiết bị của bạn, nói ngôn ngữ của bạn với khẩu độ và tốc độ màn trập chính xác, và tổ chức mọi thứ theo cuộn và khung hình. Khi các bản quét của bạn trở về, bạn có thể nhúng tất cả dữ liệu chụp trực tiếp vào tệp hình ảnh, tạo một kho lưu trữ hoàn chỉnh hoạt động liền mạch với Lightroom, Bridge và mọi công cụ khác trong quy trình làm việc của bạn. Quy trình analog của bạn có được độ chính xác kỹ thuật số mà không có sự thỏa hiệp."
   },
   "preview": {
     "heading": "Xem trước ứng dụng nhiếp ảnh phim",
     "images": {
       "preview1": {
         "src": "/lib/img/vi/preview1.png",
-        "alt": "Ứng dụng chụp phim Frames hiển thị giao diện ghi chép với lựa chọn tốc độ màn trập và khẩu độ để ghi lại phơi sáng trên phim."
+        "alt": "Máy ghi ảnh máy ảnh phim với núm xoay tốc độ màn trập và bộ chọn khẩu độ để ghi lại cài đặt phơi sáng nhanh chóng khi chụp ảnh analog.",
+        "caption": "Ghi lại ảnh của bạn ngay lập tức với núm xoay trực quan cho tốc độ màn trập và khẩu độ. Giao diện được sắp xếp hợp lý cho phép bạn chụp cài đặt phơi sáng trong vài giây mà không làm gián đoạn quy trình sáng tạo của bạn, đảm bảo chi tiết của mọi khung hình được lưu giữ để tham khảo sau này."
       },
       "preview2": {
         "src": "/lib/img/vi/preview2.png",
-        "alt": "Ứng dụng nhiếp ảnh analog Frames hiển thị tùy chọn siêu dữ liệu chi tiết bao gồm phơi sáng, loại phim, máy ảnh, ống kính và điều kiện chụp."
+        "alt": "Trường theo dõi siêu dữ liệu phim đầy đủ: thiết bị máy ảnh, loại phim, khẩu độ, tiêu cự, tốc độ màn trập, ISO, cài đặt đèn flash và dữ liệu vị trí GPS.",
+        "caption": "Theo dõi mọi chi tiết quan trọng đối với nhiếp ảnh của bạn. Ghi lại thiết bị máy ảnh, loại phim, khẩu độ, tiêu cự, tốc độ màn trập, ISO, cài đặt đèn flash, vị trí GPS và ghi chú tùy chỉnh. Giữ hồ sơ toàn diện giúp bạn học hỏi và cải thiện với mỗi cuộn phim bạn chụp."
       },
       "preview3": {
         "src": "/lib/img/vi/preview3.png",
-        "alt": "Ứng dụng chụp phim Frames trên macOS hiển thị cuộn phim được sắp xếp trong chế độ xem thư viện khi duyệt qua các thư mục ảnh analog."
+        "alt": "Thư viện kho lưu trữ cuộn phim hiển thị các phiên chụp được sắp xếp với tên cuộn, ngày chụp và chi tiết loại phim để tham khảo và xem xét dễ dàng.",
+        "caption": "Duyệt kho lưu trữ phim hoàn chỉnh của bạn với mọi cuộn được sắp xếp đẹp mắt. Xem tên cuộn, ngày chụp và loại phim trong nháy mắt. Tìm kiếm, lọc và xem lại các phiên trước để phân tích công việc của bạn, theo dõi tiến độ và khám phá lại các khung hình bị lãng quên."
       },
       "preview4": {
         "src": "/lib/img/vi/preview4.png",
-        "alt": "Ứng dụng nhiếp ảnh analog Frames trình bày cài đặt thiết bị với chi tiết về máy ảnh, ống kính và bộ lọc để quản lý thiết bị nhiếp ảnh."
+        "alt": "Giao diện quản lý thiết bị nhiếp ảnh để phân loại và sắp xếp máy ảnh phim, ống kính, bộ lọc và phụ kiện trong quy trình làm việc chụp ảnh của bạn.",
+        "caption": "Xây dựng danh mục kỹ thuật số hoàn chỉnh về thiết bị nhiếp ảnh của bạn. Thêm máy ảnh, ống kính, bộ lọc và phụ kiện với thông số kỹ thuật chi tiết. Việc sắp xếp thiết bị của bạn có nghĩa là chuẩn bị chụp nhanh hơn và siêu dữ liệu nhất quán trên tất cả các cuộn phim của bạn."
       },
       "preview5": {
         "src": "/lib/img/vi/preview5.png",
-        "alt": "Ứng dụng chụp phim Frames xuất dữ liệu dưới dạng tệp .frames, .txt hoặc .gpx để sao lưu và chia sẻ nhật ký cùng siêu dữ liệu nhiếp ảnh."
+        "alt": "Biểu tượng định dạng tệp .frames dựa trên JSON để xuất dữ liệu nhiếp ảnh phim, cho phép sao lưu, chia sẻ đa nền tảng và chuyển siêu dữ liệu giữa các thiết bị.",
+        "caption": "Xuất dữ liệu chụp của bạn dưới dạng tệp .frames di động dựa trên JSON. Sao lưu hồ sơ của bạn, chia sẻ chúng giữa các thiết bị hoặc di chuyển giữa iPhone và Mac một cách liền mạch. Dữ liệu của bạn vẫn có thể truy cập và bền vững, cung cấp cho bạn quyền sở hữu và kiểm soát hoàn toàn."
       },
       "preview6": {
         "src": "/lib/img/vi/preview6.png",
-        "alt": "Siêu dữ liệu ứng dụng nhiếp ảnh analog Frames tích hợp với Finder, Adobe Lightroom, Adobe Bridge, Google Photos, Darktable và Flickr."
+        "alt": "Khả năng tương thích phần mềm nhiếp ảnh: Apple Finder, Flickr, Google Photos, Adobe Lightroom, Adobe Bridge và Darktable hỗ trợ siêu dữ liệu phim được nhúng.",
+        "caption": "Siêu dữ liệu được nhúng của bạn hoạt động ở mọi nơi bạn cần. Apple Finder, Flickr, Google Photos, Adobe Lightroom, Adobe Bridge và Darktable đều nhận diện và hiển thị dữ liệu chụp phim của bạn, tạo quy trình làm việc thống nhất từ chụp analog đến kho lưu trữ kỹ thuật số."
       }
     }
   },

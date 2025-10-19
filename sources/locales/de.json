@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "Frames: Analogfotografie-App für Notizen & Metadaten",
-    "description": "Frames ist die Analogfotografie-App für Film-Fotografen. Aufnahmen dokumentieren, Einstellungen tracken, Filme organisieren und EXIF-Metadaten speichern.",
+    "title": "Frames: Filmfotografie-App für analoge Aufnahmen",
+    "description": "Filmfotografie-App für Analogfotografen. Kameraeinstellungen erfassen, Filme organisieren und EXIF-Metadaten einbetten. Kostenlose Testversion für iPhone.",
     "locale": "de_DE",
     "canonical_url": "https://withframes.com/de/",
     "lang": "de",
@@ -73,34 +73,43 @@
     "featured": {
       "aria_label": "Vorgestellte Publikationen",
       "text": "Empfohlen in der Fotografie-Community."
-    }
+    },
+    "paragraph1": "Filmfotografie ist ein bewusster, absichtlicher Prozess, aber das Festhalten Ihrer Einstellungen sollte Sie nicht verlangsamen. Frames wurde speziell für Analogfotografen entwickelt, die die Präzision digitaler Metadaten wünschen, ohne die haptische Freude am Film zu opfern. Ob Sie neue Filmtypen testen, Ihre Belichtungstechnik perfektionieren oder sich einfach nur merken möchten, was bei dieser perfekten Aufnahme funktioniert hat, Frames erfasst jedes Detail genau dann und dort, wo Sie es brauchen.",
+    "paragraph2": "Im Gegensatz zu generischen Notiz-Apps oder Papiernotizbüchern versteht Frames die Filmfotografie. Es kennt Ihre Ausrüstung, spricht Ihre Sprache mit korrekten Blendenwerten und Verschlusszeiten und organisiert alles nach Film und Bild. Wenn Ihre Scans zurückkommen, können Sie alle Aufnahmedaten direkt in die Bilddateien einbetten und so ein vollständiges Archiv erstellen, das nahtlos mit Lightroom, Bridge und jedem anderen Tool in Ihrem Workflow funktioniert. Ihr analoger Prozess erhält digitale Präzision, ohne Kompromisse.",
+    "paragraph3": "Tausende Filmfotografen vertrauen darauf, dass Frames ihr fotografischer Begleiter ist, von Wochenend-Hobbyisten bis hin zu professionellen Archivaufbauern. Keine Werbung, kein Tracking, keine Abonnements für Dienste, die Sie nicht benötigen. Nur ein wunderschön gestaltetes Tool, das Ihren kreativen Prozess respektiert und Ihre Daten privat und portabel hält. Starten Sie Ihre kostenlose Testversion und sehen Sie, warum Filmfotografen ihre Notizbücher endgültig aufgeben."
   },
   "preview": {
     "heading": "Vorschau der Filmfotografie-App",
     "images": {
       "preview1": {
         "src": "/lib/img/de/preview1.png",
-        "alt": "Frames Analogfotografie-App mit Aufnahme-Interface zur Auswahl von Verschlusszeit und Blende für Film-Belichtungen."
+        "alt": "Filmkamera-Aufnahmerekorder mit Verschlusszeitrad und Blendenauswahl zum schnellen Protokollieren von Belichtungseinstellungen während der Analogfotografie.",
+        "caption": "Protokollieren Sie Ihre Aufnahmen sofort mit intuitiven Rädern für Verschlusszeit und Blende. Die optimierte Benutzeroberfläche ermöglicht es Ihnen, Belichtungseinstellungen in Sekunden zu erfassen, ohne Ihren kreativen Fluss zu unterbrechen, und stellt sicher, dass die Details jedes Bildes für spätere Referenz erhalten bleiben."
       },
       "preview2": {
         "src": "/lib/img/de/preview2.png",
-        "alt": "Frames Analogfotografie-App mit detaillierten Metadaten-Optionen für Belichtung, Filmtyp, Kamera, Objektiv und Aufnahmebedingungen."
+        "alt": "Vollständige Film-Metadaten-Tracking-Felder: Kameraausrüstung, Filmtyp, Blende, Brennweite, Verschlusszeit, ISO, Blitzeinstellungen und GPS-Standortdaten.",
+        "caption": "Verfolgen Sie jedes Detail, das für Ihre Fotografie wichtig ist. Erfassen Sie Kameraausrüstung, Filmtyp, Blende, Brennweite, Verschlusszeit, ISO, Blitzeinstellungen, GPS-Standort und benutzerdefinierte Notizen. Führen Sie umfassende Aufzeichnungen, die Ihnen helfen, mit jedem Film, den Sie aufnehmen, zu lernen und sich zu verbessern."
       },
       "preview3": {
         "src": "/lib/img/de/preview3.png",
-        "alt": "Frames Analogfotografie-App auf macOS mit organisierter Bibliotheksansicht zum Durchsuchen analoger Film-Ordner."
+        "alt": "Filmarchivbibliothek mit organisierten Aufnahmesitzungen mit Filmnamen, Aufnahmedaten und Filmtypdetails für einfache Referenz und Überprüfung.",
+        "caption": "Durchsuchen Sie Ihr vollständiges Filmarchiv mit jedem Film schön organisiert. Sehen Sie Filmnamen, Aufnahmedaten und Filmtyp auf einen Blick. Suchen, filtern und besuchen Sie vergangene Sitzungen erneut, um Ihre Arbeit zu analysieren, Ihren Fortschritt zu verfolgen und vergessene Bilder wiederzuentdecken."
       },
       "preview4": {
         "src": "/lib/img/de/preview4.png",
-        "alt": "Frames Analogfotografie-App mit Ausrüstungseinstellungen für Kamera, Objektiv und Filter zur Verwaltung analoger Fotoausrüstung."
+        "alt": "Fotoausrüstungs-Verwaltungsoberfläche zum Katalogisieren und Organisieren von Filmkameras, Objektiven, Filtern und Zubehör in Ihrem Aufnahme-Workflow.",
+        "caption": "Erstellen Sie einen vollständigen digitalen Katalog Ihrer Fotoausrüstung. Fügen Sie Kameras, Objektive, Filter und Zubehör mit detaillierten Spezifikationen hinzu. Wenn Ihre Ausrüstung organisiert ist, bedeutet dies schnellere Aufnahmevorbereitung und konsistente Metadaten über alle Ihre Filme hinweg."
       },
       "preview5": {
         "src": "/lib/img/de/preview5.png",
-        "alt": "Frames Analogfotografie-App exportiert Daten als .frames-, .txt- oder .gpx-Dateien zum Sichern und Teilen von Film-Protokollen und Metadaten."
+        "alt": "JSON-basiertes .frames-Dateiformat-Symbol zum Exportieren von Filmfotografie-Daten, das Backup, plattformübergreifendes Teilen und Metadatenübertragung zwischen Geräten ermöglicht.",
+        "caption": "Exportieren Sie Ihre Aufnahmedaten als portable JSON-basierte .frames-Dateien. Sichern Sie Ihre Aufzeichnungen, teilen Sie sie über Geräte hinweg oder migrieren Sie nahtlos zwischen iPhone und Mac. Ihre Daten bleiben zugänglich und zukunftssicher, was Ihnen vollständige Kontrolle und Eigentum gibt."
       },
       "preview6": {
         "src": "/lib/img/de/preview6.png",
-        "alt": "Frames Metadaten integriert mit Finder, Adobe Lightroom, Adobe Bridge, Google Photos, Darktable und Flickr für Analogfotografen."
+        "alt": "Fotosoftware-Kompatibilität: Apple Finder, Flickr, Google Photos, Adobe Lightroom, Adobe Bridge und Darktable unterstützen eingebettete Film-Metadaten.",
+        "caption": "Ihre eingebetteten Metadaten funktionieren überall dort, wo Sie sie benötigen. Apple Finder, Flickr, Google Photos, Adobe Lightroom, Adobe Bridge und Darktable erkennen und zeigen alle Ihre Filmaufnahmedaten an und schaffen einen einheitlichen Workflow von der analogen Aufnahme bis zum digitalen Archiv."
       }
     }
   },
