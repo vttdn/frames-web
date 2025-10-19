@@ -3,16 +3,16 @@
       "@graph": [
         {
           "@type": "MobileApplication",
-          "@id": "https://withframes.com/hi/#ios-app",
           "name": "Frames iOS",
           "operatingSystem": "iOS 18.0",
-          "applicationCategory": "PhotographyApplication",
+          "applicationCategory": "Photography",
           "publisher": { "@id": "https://withframes.com/#organization" },
           "description": "एनालॉग फोटोग्राफरों के लिए ऐप। कैमरा सेटिंग्स ट्रैक करें, रोल व्यवस्थित करें और EXIF मेटाडेटा जोड़ें। iPhone और Mac के लिए मुफ्त ट्रायल उपलब्ध।",
           "image": "https://withframes.com/og-image.jpg",
-          "url": "https://apps.apple.com/in/app/frames-फ-ल-म-म-ट-ड-ट/id6744063354?l=hi",
+          "url": "https://withframes.com/hi",
           "installUrl": "https://apps.apple.com/in/app/frames-फ-ल-म-म-ट-ड-ट/id6744063354?l=hi",
           "softwareVersion": "1.13.2",
+          "releaseNotes": "https://withframes.com/hi/changelog/1-13-ios/",
           "screenshot": "https://withframes.com/og-image.jpg",
           "isAccessibleForFree": true,
           "countriesSupported": [
@@ -144,16 +144,16 @@
         },
         {
           "@type": "SoftwareApplication",
-          "@id": "https://withframes.com/hi/#macos-app",
           "name": "Frames macOS",
           "operatingSystem": "macOS 15.0",
-          "applicationCategory": "PhotographyApplication",
+          "applicationCategory": "Photography",
           "publisher": { "@id": "https://withframes.com/#organization" },
           "description": "एनालॉग फोटोग्राफरों के लिए ऐप। कैमरा सेटिंग्स ट्रैक करें, रोल व्यवस्थित करें और EXIF मेटाडेटा जोड़ें। iPhone और Mac के लिए मुफ्त ट्रायल उपलब्ध।",
           "image": "https://withframes.com/og-image.jpg",
-          "url": "https://apps.apple.com/in/app/frames-फ-ल-म-म-ट-ड-ट/id6744063354?l=hi",
+          "url": "https://withframes.com/hi",
           "installUrl": "https://apps.apple.com/in/app/frames-फ-ल-म-म-ट-ड-ट/id6744063354?l=hi",
           "softwareVersion": "1.8.0",
+          "releaseNotes": "https://withframes.com/hi/changelog/1-8-macos/",
           "mainEntity": {
             "@type": "WebPage",
             "@id": "https://withframes.com/hi"

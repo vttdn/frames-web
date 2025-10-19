@@ -3,16 +3,16 @@
       "@graph": [
         {
           "@type": "MobileApplication",
-          "@id": "https://withframes.com/vi/#ios-app",
           "name": "Frames iOS",
           "operatingSystem": "iOS 18.0",
-          "applicationCategory": "PhotographyApplication",
+          "applicationCategory": "Photography",
           "publisher": { "@id": "https://withframes.com/#organization" },
           "description": "Ứng dụng chụp ảnh phim cho nhiếp ảnh gia analog. Theo dõi cài đặt máy ảnh, sắp xếp cuộn phim và nhúng siêu dữ liệu EXIF. Dùng thử miễn phí cho iPhone và Mac.",
           "image": "https://withframes.com/og-image.jpg",
-          "url": "https://apps.apple.com/vn/app/frames-ghi-chú-phim-ảnh/id6744057317?l=vi",
+          "url": "https://withframes.com/vi",
           "installUrl": "https://apps.apple.com/vn/app/frames-ghi-chú-phim-ảnh/id6744057317?l=vi",
           "softwareVersion": "1.13.2",
+          "releaseNotes": "https://withframes.com/vi/changelog/1-13-ios/",
           "screenshot": "https://withframes.com/og-image.jpg",
           "isAccessibleForFree": true,
           "countriesSupported": [
@@ -144,16 +144,16 @@
         },
         {
           "@type": "SoftwareApplication",
-          "@id": "https://withframes.com/vi/#macos-app",
           "name": "Frames macOS",
           "operatingSystem": "macOS 15.0",
-          "applicationCategory": "PhotographyApplication",
+          "applicationCategory": "Photography",
           "publisher": { "@id": "https://withframes.com/#organization" },
           "description": "Ứng dụng chụp ảnh phim cho nhiếp ảnh gia analog. Theo dõi cài đặt máy ảnh, sắp xếp cuộn phim và nhúng siêu dữ liệu EXIF. Dùng thử miễn phí cho iPhone và Mac.",
           "image": "https://withframes.com/og-image.jpg",
-          "url": "https://apps.apple.com/vn/app/frames-siêu-dữ-liệu-phim/id6744063354?l=vi",
+          "url": "https://withframes.com/vi",
           "installUrl": "https://apps.apple.com/vn/app/frames-siêu-dữ-liệu-phim/id6744063354?l=vi",
           "softwareVersion": "1.8.0",
+          "releaseNotes": "https://withframes.com/vi/changelog/1-8-macos/",
           "mainEntity": {
             "@type": "WebPage",
             "@id": "https://withframes.com/vi"

@@ -3,16 +3,16 @@
       "@graph": [
         {
           "@type": "MobileApplication",
-          "@id": "{{ canonical_url }}/#ios-app",
           "name": "{{ ios_appname }}",
           "operatingSystem": "iOS 18.0",
-          "applicationCategory": "PhotographyApplication",
+          "applicationCategory": "Photography",
           "publisher": { "@id": "https://withframes.com/#organization" },
           "description": "{{ seo_meta_description }}",
           "image": "https://withframes.com/og-image.jpg",
-          "url": "{{ appstore_url }}",
+          "url": "{{ canonical_url }}",
           "installUrl": "{{ appstore_url }}",
           "softwareVersion": "{{ app_version_ios }}",
+          "releaseNotes": "{{ canonical_url }}/changelog/1-13-ios/",
           "screenshot": "https://withframes.com/og-image.jpg",
           "isAccessibleForFree": true,
           "countriesSupported": [
@@ -144,16 +144,16 @@
         },
         {
           "@type": "SoftwareApplication",
-          "@id": "{{ canonical_url }}/#macos-app",
           "name": "{{ mac_appname }}",
           "operatingSystem": "macOS 15.0",
-          "applicationCategory": "PhotographyApplication",
+          "applicationCategory": "Photography",
           "publisher": { "@id": "https://withframes.com/#organization" },
           "description": "{{ seo_meta_description }}",
           "image": "https://withframes.com/og-image.jpg",
-          "url": "{{ macappstore_url }}",
+          "url": "{{ canonical_url }}",
           "installUrl": "{{ macappstore_url }}",
           "softwareVersion": "{{ app_version_macos }}",
+          "releaseNotes": "{{ canonical_url }}/changelog/1-8-macos/",
           "mainEntity": {
             "@type": "WebPage",
             "@id": "{{ canonical_url }}"

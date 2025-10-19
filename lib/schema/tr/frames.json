@@ -3,16 +3,16 @@
       "@graph": [
         {
           "@type": "MobileApplication",
-          "@id": "https://withframes.com/tr/#ios-app",
           "name": "Frames iOS",
           "operatingSystem": "iOS 18.0",
-          "applicationCategory": "PhotographyApplication",
+          "applicationCategory": "Photography",
           "publisher": { "@id": "https://withframes.com/#organization" },
           "description": "Analog fotoğrafçılar için film fotoğrafçılık uygulaması. Kamera ayarlarını kaydedin, rulolar düzenleyin ve EXIF meta verisi ekleyin. Ücretsiz deneme iPhone.",
           "image": "https://withframes.com/og-image.jpg",
-          "url": "https://apps.apple.com/tr/app/frames-film-foto%C4%9Fraf-notlar%C4%B1/id6744057317?l=tr",
+          "url": "https://withframes.com/tr",
           "installUrl": "https://apps.apple.com/tr/app/frames-film-foto%C4%9Fraf-notlar%C4%B1/id6744057317?l=tr",
           "softwareVersion": "1.13.2",
+          "releaseNotes": "https://withframes.com/tr/changelog/1-13-ios/",
           "screenshot": "https://withframes.com/og-image.jpg",
           "isAccessibleForFree": true,
           "countriesSupported": [
@@ -144,16 +144,16 @@
         },
         {
           "@type": "SoftwareApplication",
-          "@id": "https://withframes.com/tr/#macos-app",
           "name": "Frames macOS",
           "operatingSystem": "macOS 15.0",
-          "applicationCategory": "PhotographyApplication",
+          "applicationCategory": "Photography",
           "publisher": { "@id": "https://withframes.com/#organization" },
           "description": "Analog fotoğrafçılar için film fotoğrafçılık uygulaması. Kamera ayarlarını kaydedin, rulolar düzenleyin ve EXIF meta verisi ekleyin. Ücretsiz deneme iPhone.",
           "image": "https://withframes.com/og-image.jpg",
-          "url": "https://apps.apple.com/tr/app/frames-film-metadata/id6744063354?l=tr",
+          "url": "https://withframes.com/tr",
           "installUrl": "https://apps.apple.com/tr/app/frames-film-metadata/id6744063354?l=tr",
           "softwareVersion": "1.8.0",
+          "releaseNotes": "https://withframes.com/tr/changelog/1-8-macos/",
           "mainEntity": {
             "@type": "WebPage",
             "@id": "https://withframes.com/tr"

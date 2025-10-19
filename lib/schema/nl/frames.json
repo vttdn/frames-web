@@ -3,16 +3,16 @@
       "@graph": [
         {
           "@type": "MobileApplication",
-          "@id": "https://withframes.com/nl/#ios-app",
           "name": "Frames iOS",
           "operatingSystem": "iOS 18.0",
-          "applicationCategory": "PhotographyApplication",
+          "applicationCategory": "Photography",
           "publisher": { "@id": "https://withframes.com/#organization" },
           "description": "Filmfotografie-app voor analoge fotografen. Leg camera-instellingen vast, organiseer rolletjes en voeg EXIF-metadata toe. Gratis proefversie voor iPhone en Mac.",
           "image": "https://withframes.com/og-image.jpg",
-          "url": "https://apps.apple.com/nl/app/frames-filmnotities/id6744057317",
+          "url": "https://withframes.com/nl",
           "installUrl": "https://apps.apple.com/nl/app/frames-filmnotities/id6744057317",
           "softwareVersion": "1.13.2",
+          "releaseNotes": "https://withframes.com/nl/changelog/1-13-ios/",
           "screenshot": "https://withframes.com/og-image.jpg",
           "isAccessibleForFree": true,
           "countriesSupported": [
@@ -144,16 +144,16 @@
         },
         {
           "@type": "SoftwareApplication",
-          "@id": "https://withframes.com/nl/#macos-app",
           "name": "Frames macOS",
           "operatingSystem": "macOS 15.0",
-          "applicationCategory": "PhotographyApplication",
+          "applicationCategory": "Photography",
           "publisher": { "@id": "https://withframes.com/#organization" },
           "description": "Filmfotografie-app voor analoge fotografen. Leg camera-instellingen vast, organiseer rolletjes en voeg EXIF-metadata toe. Gratis proefversie voor iPhone en Mac.",
           "image": "https://withframes.com/og-image.jpg",
-          "url": "https://apps.apple.com/nl/app/frames-film-metagegevens/id6744063354",
+          "url": "https://withframes.com/nl",
           "installUrl": "https://apps.apple.com/nl/app/frames-film-metagegevens/id6744063354",
           "softwareVersion": "1.8.0",
+          "releaseNotes": "https://withframes.com/nl/changelog/1-8-macos/",
           "mainEntity": {
             "@type": "WebPage",
             "@id": "https://withframes.com/nl"

@@ -3,16 +3,16 @@
       "@graph": [
         {
           "@type": "MobileApplication",
-          "@id": "https://withframes.com/el/#ios-app",
           "name": "Frames iOS",
           "operatingSystem": "iOS 18.0",
-          "applicationCategory": "PhotographyApplication",
+          "applicationCategory": "Photography",
           "publisher": { "@id": "https://withframes.com/#organization" },
           "description": "Εφαρμογή φωτογραφίας φιλμ για αναλογικούς. Καταγράψτε ρυθμίσεις κάμερας, οργανώστε φιλμ και προσθέστε EXIF metadata. Δωρεάν δοκιμή για iPhone και Mac.",
           "image": "https://withframes.com/og-image.jpg",
-          "url": "https://apps.apple.com/gr/app/frames-σημειώσεις-φιλμ/id6744057317?l=el",
+          "url": "https://withframes.com/el",
           "installUrl": "https://apps.apple.com/gr/app/frames-σημειώσεις-φιλμ/id6744057317?l=el",
           "softwareVersion": "1.13.2",
+          "releaseNotes": "https://withframes.com/el/changelog/1-13-ios/",
           "screenshot": "https://withframes.com/og-image.jpg",
           "isAccessibleForFree": true,
           "countriesSupported": [
@@ -144,16 +144,16 @@
         },
         {
           "@type": "SoftwareApplication",
-          "@id": "https://withframes.com/el/#macos-app",
           "name": "Frames macOS",
           "operatingSystem": "macOS 15.0",
-          "applicationCategory": "PhotographyApplication",
+          "applicationCategory": "Photography",
           "publisher": { "@id": "https://withframes.com/#organization" },
           "description": "Εφαρμογή φωτογραφίας φιλμ για αναλογικούς. Καταγράψτε ρυθμίσεις κάμερας, οργανώστε φιλμ και προσθέστε EXIF metadata. Δωρεάν δοκιμή για iPhone και Mac.",
           "image": "https://withframes.com/og-image.jpg",
-          "url": "https://apps.apple.com/gr/app/frames-μεταδεδομένα-φιλμ/id6744063354?l=el",
+          "url": "https://withframes.com/el",
           "installUrl": "https://apps.apple.com/gr/app/frames-μεταδεδομένα-φιλμ/id6744063354?l=el",
           "softwareVersion": "1.8.0",
+          "releaseNotes": "https://withframes.com/el/changelog/1-8-macos/",
           "mainEntity": {
             "@type": "WebPage",
             "@id": "https://withframes.com/el"

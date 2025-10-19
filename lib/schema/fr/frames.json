@@ -3,16 +3,16 @@
       "@graph": [
         {
           "@type": "MobileApplication",
-          "@id": "https://withframes.com/fr/#ios-app",
           "name": "Frames iOS",
           "operatingSystem": "iOS 18.0",
-          "applicationCategory": "PhotographyApplication",
+          "applicationCategory": "Photography",
           "publisher": { "@id": "https://withframes.com/#organization" },
           "description": "App photo argentique pour photographes. Enregistrez les réglages caméra, organisez vos pellicules et intégrez les métadonnées EXIF. Essai gratuit iPhone et Mac.",
           "image": "https://withframes.com/og-image.jpg",
-          "url": "https://apps.apple.com/fr/app/frames-notes-argentiques/id6744057317",
+          "url": "https://withframes.com/fr",
           "installUrl": "https://apps.apple.com/fr/app/frames-notes-argentiques/id6744057317",
           "softwareVersion": "1.13.2",
+          "releaseNotes": "https://withframes.com/fr/changelog/1-13-ios/",
           "screenshot": "https://withframes.com/og-image.jpg",
           "isAccessibleForFree": true,
           "countriesSupported": [
@@ -144,16 +144,16 @@
         },
         {
           "@type": "SoftwareApplication",
-          "@id": "https://withframes.com/fr/#macos-app",
           "name": "Frames macOS",
           "operatingSystem": "macOS 15.0",
-          "applicationCategory": "PhotographyApplication",
+          "applicationCategory": "Photography",
           "publisher": { "@id": "https://withframes.com/#organization" },
           "description": "App photo argentique pour photographes. Enregistrez les réglages caméra, organisez vos pellicules et intégrez les métadonnées EXIF. Essai gratuit iPhone et Mac.",
           "image": "https://withframes.com/og-image.jpg",
-          "url": "https://apps.apple.com/fr/app/frames-métadonnées/id6744063354",
+          "url": "https://withframes.com/fr",
           "installUrl": "https://apps.apple.com/fr/app/frames-métadonnées/id6744063354",
           "softwareVersion": "1.8.0",
+          "releaseNotes": "https://withframes.com/fr/changelog/1-8-macos/",
           "mainEntity": {
             "@type": "WebPage",
             "@id": "https://withframes.com/fr"
