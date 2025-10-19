@@ -349,7 +349,6 @@ def generate_homepage_schemas(lang_code, global_config, locale_data):
             'mac_appname': locale_data['footer']['product']['frames_macos'],
             'seo_meta_title': locale_data['meta']['title'],
             'seo_meta_description': locale_data['meta']['description'],
-            'seo_meta_keywords': 'film photography app, analog photography, EXIF metadata, film camera notes, photography workflow, film photography organization',
             'appstore_url': locale_data['urls']['appstore_ios'],
             'macappstore_url': locale_data['urls']['appstore_macos'],
             'video_title': locale_data['video']['title'],
