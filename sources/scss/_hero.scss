@@ -43,7 +43,12 @@
     gap: var(--spacing-2xl) var(--spacing-4xl); /* 16px vertical, 72px horizontal */
     flex-wrap: wrap;
     justify-content: center;
-    padding: var(--spacing-sm) 0;
+    padding: var(--spacing-sm) var(--spacing-6xl);
+    width: 100%;
+
+    li {
+        text-align:center
+    }
 
     img {
         margin: 0 var(--spacing-xs);
@@ -56,11 +61,11 @@
         }
     }
 
-    @include mobile {
-        gap: 1.75rem var(--spacing-3xl);
+    // @include mobile {
+    //     gap: 1.75rem var(--spacing-3xl);
 
-        img:first-of-type {
-            display: none;
-        }
-    }
+    //     img:first-of-type {
+    //         display: none;
+    //     }
+    // }
 }

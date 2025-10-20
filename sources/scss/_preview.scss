@@ -1,6 +1,5 @@
 /* Preview Section */
-.preview {
-  margin-top: var(--spacing-5xl);
+.preview, .howto {
 
   .tile-inner {
     width: 100%;
@@ -19,4 +18,8 @@
     }
   }
   img { max-width: 60%; width: 60%; height: auto; }
+}
+
+.preview {
+  margin-top: var(--spacing-5xl);
 }

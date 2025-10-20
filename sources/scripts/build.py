@@ -317,6 +317,16 @@ def generate_formatted_reviews(locale_data, lang_code):
     return formatted_reviews
 
 
+def get_latest_changelog_entries(lang_code, limit=4):
+    """Get the latest N changelog entries for homepage display"""
+    entries = load_changelog_entries(lang_code)
+    latest_entries = []
+    for entry in entries[:limit]:
+        formatted_entry = format_changelog_entry(entry.copy(), lang_code)
+        latest_entries.append(formatted_entry)
+    return latest_entries
+
+
 def generate_homepage_schemas(lang_code, global_config, locale_data):
     """Generate all schemas for homepage"""
     schemas_to_generate = [
@@ -412,7 +422,8 @@ def build_homepage(global_config, languages):
             extra_context = {
                 'hreflang_links': generate_hreflang_links(global_config['languages'], page="home"),
                 'critical_css': critical_css,
-                'formatted_reviews': generate_formatted_reviews(locale_data, lang_code)
+                'formatted_reviews': generate_formatted_reviews(locale_data, lang_code),
+                'latest_changelog_entries': get_latest_changelog_entries(lang_code)
             }
             html = generate_html_page('index.html', lang_code, global_config, locale_data,
                                      available_changelog_languages, extra_context)
