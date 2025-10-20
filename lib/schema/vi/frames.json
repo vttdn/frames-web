@@ -5,28 +5,23 @@
           "@type": "MobileApplication",
           "name": "Frames iOS",
           "operatingSystem": "iOS 18.0",
-          "applicationCategory": "Photography",
+          "applicationCategory": "LifestyleApplication",
+          "applicationSubCategory": "Photography",
           "publisher": { "@id": "https://withframes.com/#organization" },
           "description": "Ứng dụng chụp ảnh phim cho nhiếp ảnh gia analog. Theo dõi cài đặt máy ảnh, sắp xếp cuộn phim và nhúng siêu dữ liệu EXIF. Dùng thử miễn phí cho iPhone và Mac.",
-          "image": "https://withframes.com/og-image.jpg",
+          "image": "https://withframes.com/lib/img/shared/app-icon.png",
           "url": "https://withframes.com/vi",
           "installUrl": "https://apps.apple.com/vn/app/frames-ghi-chú-phim-ảnh/id6744057317?l=vi",
           "softwareVersion": "1.13.2",
           "releaseNotes": "https://withframes.com/vi/changelog/1-13-ios/",
           "isAccessibleForFree": true,
-          "countriesSupported": [
-            "US","CA",
-            "AL","AT","BY","BE","BA","BG","HR","CY","CZ","DK","EE","FI","FR","DE","GR","HU","IS","IE","IT","XK","LV","LT","LU","MT","MD","ME","NL","MK","NO","PL","PT","RO","RU","RS","SK","SI","ES","SE","CH","TR","UA","GB",
-            "AF","DZ","AO","AM","AZ","BH","BJ","BW","BF","CM","CV","TD","CD","CG","CI","EG","SZ","GA","GM","GE","GH","GW","IN","IQ","IL","JO","KE","KW","LB","LR","LY","MG","MW","ML","MR","MU","MA","MZ","NA","NE","NG","OM","QA","RW","ST","SA","SN","SC","SL","ZA","TZ","TN","UG","AE","YE","ZM","ZW",
-            "AI","AG","AR","BS","BB","BZ","BM","BO","BR","VG","KY","CL","CO","CR","DM","DO","EC","SV","GD","GT","GY","HN","JM","MX","MS","NI","PA","PY","PE","KN","LC","VC","SR","TT","TC","UY","VE",
-            "AU","BT","BN","KH","CN","FJ","HK","ID","JP","KZ","KR","KG","LA","MO","MY","MV","FM","MN","MM","NR","NP","NZ","PK","PW","PG","PH","SG","SB","LK","TW","TJ","TH","TO","TM","UZ","VU","VN"
-          ],
+          "contentRating": "4+",
           "inLanguage": "vi",
           "mainEntity": {
             "@type": "WebPage",
             "@id": "https://withframes.com/vi"
           },
-          "author": {
+          "developer": {
             "@id": "https://withframes.com/#vincent-tantardini"
           },
           "offers": [
@@ -145,27 +140,23 @@
           "@type": "SoftwareApplication",
           "name": "Frames macOS",
           "operatingSystem": "macOS 15.0",
-          "applicationCategory": "Photography",
+          "applicationCategory": "LifestyleApplication",
+          "applicationSubCategory": "Photography",
           "publisher": { "@id": "https://withframes.com/#organization" },
           "description": "Ứng dụng chụp ảnh phim cho nhiếp ảnh gia analog. Theo dõi cài đặt máy ảnh, sắp xếp cuộn phim và nhúng siêu dữ liệu EXIF. Dùng thử miễn phí cho iPhone và Mac.",
-          "image": "https://withframes.com/og-image.jpg",
+          "image": "https://withframes.com/lib/img/shared/app-icon.png",
           "url": "https://withframes.com/vi",
           "installUrl": "https://apps.apple.com/vn/app/frames-siêu-dữ-liệu-phim/id6744063354?l=vi",
           "softwareVersion": "1.8.0",
           "releaseNotes": "https://withframes.com/vi/changelog/1-8-macos/",
+          "contentRating": "4+",
+          "isAccessibleForFree": true,
           "mainEntity": {
             "@type": "WebPage",
             "@id": "https://withframes.com/vi"
           },
-          "countriesSupported": [
-            "US","CA",
-            "AL","AT","BY","BE","BA","BG","HR","CY","CZ","DK","EE","FI","FR","DE","GR","HU","IS","IE","IT","XK","LV","LT","LU","MT","MD","ME","NL","MK","NO","PL","PT","RO","RU","RS","SK","SI","ES","SE","CH","TR","UA","GB",
-            "AF","DZ","AO","AM","AZ","BH","BJ","BW","BF","CM","CV","TD","CD","CG","CI","EG","SZ","GA","GM","GE","GH","GW","IN","IQ","IL","JO","KE","KW","LB","LR","LY","MG","MW","ML","MR","MU","MA","MZ","NA","NE","NG","OM","QA","RW","ST","SA","SN","SC","SL","ZA","TZ","TN","UG","AE","YE","ZM","ZW",
-            "AI","AG","AR","BS","BB","BZ","BM","BO","BR","VG","KY","CL","CO","CR","DM","DO","EC","SV","GD","GT","GY","HN","JM","MX","MS","NI","PA","PY","PE","KN","LC","VC","SR","TT","TC","UY","VE",
-            "AU","BT","BN","KH","CN","FJ","HK","ID","JP","KZ","KR","KG","LA","MO","MY","MV","FM","MN","MM","NR","NP","NZ","PK","PW","PG","PH","SG","SB","LK","TW","TJ","TH","TO","TM","UZ","VU","VN"
-          ],
           "inLanguage": "vi",
-          "author": {
+          "developer": {
             "@id": "https://withframes.com/#vincent-tantardini"
           },
           "offers": [
