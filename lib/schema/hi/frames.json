@@ -3,6 +3,7 @@
       "@graph": [
         {
           "@type": "MobileApplication",
+          "@id": "https://withframes.com/#frames-ios",
           "name": "Frames iOS",
           "operatingSystem": "iOS 18.0",
           "applicationCategory": "LifestyleApplication",
@@ -138,6 +139,7 @@
         },
         {
           "@type": "SoftwareApplication",
+          "@id": "https://withframes.com/#frames-macos",
           "name": "Frames macOS",
           "operatingSystem": "macOS 15.0",
           "applicationCategory": "LifestyleApplication",
@@ -221,6 +223,7 @@
         },
         {
           "@type": "VideoObject",
+          "@id": "https://withframes.com/#frames-video",
           "name": "फ़िल्म फ़ोटोग्राफ़ी ऐप अपने रोल्स को लॉग और ट्रैक करने के लिए (iPhone के लिए Frames)",
           "description": "Frames की खोज करें, एनालॉग शूटर्स के लिए डिज़ाइन किया गया समर्पित फ़िल्म फ़ोटोग्राफ़ी ऐप। Frames आपकी एनालॉग फ़ोटोग्राफ़ी प्रबंधन को आसान बनाता है, आपको न केवल अपने शॉट्स बल्कि हर रोल और फ़्रेम के पीछे की कहानी भी रिकॉर्ड करने में मदद करता है। चाहे आप 35mm, मध्यम प्रारूप या बड़े प्रारूप की फ़िल्म के साथ काम करें, Frames आपके वर्कफ़्लो को व्यवस्थित रखता है और यह सुनिश्चित करता है कि आपका फ़ोटो मेटाडेटा स्कैनिंग के बाद भी आपकी छवियों के साथ रहे।",
           "thumbnailUrl": "https://i.ytimg.com/vi/KRLS5tpmvJM/hqdefault.jpg",

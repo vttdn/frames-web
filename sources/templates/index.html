@@ -548,8 +548,7 @@
         </section>
 
 
-        {% if locale_data.meta.lang == "en" %}
-        <section class="howto" id="howto">
+        <section class="howto">
             <h2>How to</h2>
 
             <div class="grid grid-2col">
@@ -566,7 +565,7 @@
                 {% endfor %}
             </div>
         </section>
-{% endif %}
+
         <section class="reviews review-carousel" aria-label="{{ locale_data.reviews.aria_label }}">
             <h2>{{ locale_data.reviews.heading2 }}<span class="ruh">: {{ locale_data.reviews.heading }}</span></h2>
 

@@ -3,6 +3,7 @@
       "@graph": [
         {
           "@type": "MobileApplication",
+          "@id": "https://withframes.com/#frames-ios",
           "name": "{{ ios_appname }}",
           "operatingSystem": "iOS 18.0",
           "applicationCategory": "LifestyleApplication",
@@ -138,6 +139,7 @@
         },
         {
           "@type": "SoftwareApplication",
+          "@id": "https://withframes.com/#frames-macos",
           "name": "{{ mac_appname }}",
           "operatingSystem": "macOS 15.0",
           "applicationCategory": "LifestyleApplication",
@@ -221,6 +223,7 @@
         },
         {
           "@type": "VideoObject",
+          "@id": "https://withframes.com/#frames-video",
           "name": "{{ video_title }}",
           "description": "{{ video_description }}",
           "thumbnailUrl": "{{ global_urls.video.thumbnail }}",

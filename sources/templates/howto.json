@@ -1,0 +1,62 @@
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "{{ locale_data.howto.meta.title }}",
+  "description": "{{ locale_data.howto.meta.description }}",
+  "image": "https://withframes.com/lib/img/shared/app-icon.png",
+  "totalTime": "PT10M",
+  "inLanguage": "{{ locale_data.meta.lang }}",
+  "publisher": {
+    "@id": "https://withframes.com/#organization"
+  },
+  "author": {
+    "@type": "Organization",
+    "@id": "https://withframes.com/#organization"
+  },
+  "tool": [
+    { "@type": "MobileApplication", "@id": "https://withframes.com/#frames-ios" },
+    { "@type": "SoftwareApplication", "@id": "https://withframes.com/#frames-macos" }
+  ],
+  "video": {
+    "@type": "VideoObject",
+    "@id": "https://withframes.com/#frames-video"
+  },
+  "step": [
+    {
+      "@type": "HowToStep",
+      "position": 1,
+      "name": "{{ locale_data.howto.howto1.heading }}",
+      "text": "{{ locale_data.howto.howto1.description }}"
+    },
+    {
+      "@type": "HowToStep",
+      "position": 2,
+      "name": "{{ locale_data.howto.howto2.heading }}",
+      "text": "{{ locale_data.howto.howto2.description }}"
+    },
+    {
+      "@type": "HowToStep",
+      "position": 3,
+      "name": "{{ locale_data.howto.howto3.heading }}",
+      "text": "{{ locale_data.howto.howto3.description }}"
+    },
+    {
+      "@type": "HowToStep",
+      "position": 4,
+      "name": "{{ locale_data.howto.howto4.heading }}",
+      "text": "{{ locale_data.howto.howto4.description }}"
+    },
+    {
+      "@type": "HowToStep",
+      "position": 5,
+      "name": "{{ locale_data.howto.howto5.heading }}",
+      "text": "{{ locale_data.howto.howto5.description }}"
+    },
+    {
+      "@type": "HowToStep",
+      "position": 6,
+      "name": "{{ locale_data.howto.howto6.heading }}",
+      "text": "{{ locale_data.howto.howto6.description }}"
+    }
+  ]
+}

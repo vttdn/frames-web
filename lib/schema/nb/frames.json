@@ -3,6 +3,7 @@
       "@graph": [
         {
           "@type": "MobileApplication",
+          "@id": "https://withframes.com/#frames-ios",
           "name": "Frames iOS",
           "operatingSystem": "iOS 18.0",
           "applicationCategory": "LifestyleApplication",
@@ -138,6 +139,7 @@
         },
         {
           "@type": "SoftwareApplication",
+          "@id": "https://withframes.com/#frames-macos",
           "name": "Frames macOS",
           "operatingSystem": "macOS 15.0",
           "applicationCategory": "LifestyleApplication",
@@ -221,6 +223,7 @@
         },
         {
           "@type": "VideoObject",
+          "@id": "https://withframes.com/#frames-video",
           "name": "Filmfotografi App for å Logge & Spore Filmrullene Dine (Frames for iPhone)",
           "description": "Oppdag Frames, den dedikerte filmfotografi appen designet for analoge fotografer. Frames gjør administrering av din analoge fotografering enkel, hjelper deg med å registrere ikke bare bildene dine, men også historien bak hver filmrull og ramme. Enten du jobber med 35mm, mellomformat eller storformat film, holder Frames arbeidsflyten din organisert og sikrer at fotometadataene dine blir med bildene dine, selv etter skanning.",
           "thumbnailUrl": "https://i.ytimg.com/vi/KRLS5tpmvJM/hqdefault.jpg",

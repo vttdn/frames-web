@@ -3,6 +3,7 @@
       "@graph": [
         {
           "@type": "MobileApplication",
+          "@id": "https://withframes.com/#frames-ios",
           "name": "Frames iOS",
           "operatingSystem": "iOS 18.0",
           "applicationCategory": "LifestyleApplication",
@@ -138,6 +139,7 @@
         },
         {
           "@type": "SoftwareApplication",
+          "@id": "https://withframes.com/#frames-macos",
           "name": "Frames macOS",
           "operatingSystem": "macOS 15.0",
           "applicationCategory": "LifestyleApplication",
@@ -221,6 +223,7 @@
         },
         {
           "@type": "VideoObject",
+          "@id": "https://withframes.com/#frames-video",
           "name": "Analoge Fotografie-app om je Filmrolletjes Vast te Leggen (Frames voor iPhone)",
           "description": "Ontdek Frames, de toegewijde analoge fotografie-app ontworpen voor analoge fotografen. Frames maakt het beheren van je analoge fotografie moeiteloos en helpt je niet alleen je opnames vast te leggen maar ook het verhaal achter elk filmrolletje en frame. Of je nu werkt met 35mm, middenformaat of grootformaat film, Frames houdt je workflow georganiseerd en zorgt ervoor dat je foto-metagegevens bij je afbeeldingen blijven, zelfs na het scannen.",
           "thumbnailUrl": "https://i.ytimg.com/vi/KRLS5tpmvJM/hqdefault.jpg",

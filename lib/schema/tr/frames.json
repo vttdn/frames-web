@@ -3,6 +3,7 @@
       "@graph": [
         {
           "@type": "MobileApplication",
+          "@id": "https://withframes.com/#frames-ios",
           "name": "Frames iOS",
           "operatingSystem": "iOS 18.0",
           "applicationCategory": "LifestyleApplication",
@@ -138,6 +139,7 @@
         },
         {
           "@type": "SoftwareApplication",
+          "@id": "https://withframes.com/#frames-macos",
           "name": "Frames macOS",
           "operatingSystem": "macOS 15.0",
           "applicationCategory": "LifestyleApplication",
@@ -221,6 +223,7 @@
         },
         {
           "@type": "VideoObject",
+          "@id": "https://withframes.com/#frames-video",
           "name": "Rulolarınızı Kaydetmek ve Takip Etmek için Film Fotoğrafçılığı Uygulaması (iPhone için Frames)",
           "description": "Analog çekiciler için tasarlanmış özel film fotoğrafçılığı uygulaması Frames'i keşfedin. Frames, analog fotoğrafçılığınızı yönetmeyi zahmetsiz hale getirir, yalnızca çekimlerinizi değil, her rulo ve karenin arkasındaki hikayeyi kaydetmenize yardımcı olur. 35mm, orta format veya büyük format film ile çalışıyor olun, Frames iş akışınızı düzenli tutar ve fotoğraf metadata'nızın taramadan sonra bile görüntülerinizle kalmasını sağlar.",
           "thumbnailUrl": "https://i.ytimg.com/vi/KRLS5tpmvJM/hqdefault.jpg",

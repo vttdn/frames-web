@@ -3,6 +3,7 @@
       "@graph": [
         {
           "@type": "MobileApplication",
+          "@id": "https://withframes.com/#frames-ios",
           "name": "Frames iOS",
           "operatingSystem": "iOS 18.0",
           "applicationCategory": "LifestyleApplication",
@@ -138,6 +139,7 @@
         },
         {
           "@type": "SoftwareApplication",
+          "@id": "https://withframes.com/#frames-macos",
           "name": "Frames macOS",
           "operatingSystem": "macOS 15.0",
           "applicationCategory": "LifestyleApplication",
@@ -221,6 +223,7 @@
         },
         {
           "@type": "VideoObject",
+          "@id": "https://withframes.com/#frames-video",
           "name": "App Fotografía Analógica para Registrar & Seguir tus Carretes (Frames para iPhone)",
           "description": "Descubre Frames, la app de fotografía analógica dedicada diseñada para fotógrafos analógicos. Frames hace que gestionar tu fotografía analógica sea sencillo, ayudándote a registrar no solo tus tomas sino también la historia detrás de cada carrete y fotograma. Ya trabajes con película 35mm, formato medio o gran formato, Frames mantiene tu flujo de trabajo organizado y garantiza que tus metadatos fotográficos permanezcan con tus imágenes, incluso después de escanearlas.",
           "thumbnailUrl": "https://i.ytimg.com/vi/KRLS5tpmvJM/hqdefault.jpg",

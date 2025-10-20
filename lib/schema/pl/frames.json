@@ -3,6 +3,7 @@
       "@graph": [
         {
           "@type": "MobileApplication",
+          "@id": "https://withframes.com/#frames-ios",
           "name": "Frames iOS",
           "operatingSystem": "iOS 18.0",
           "applicationCategory": "LifestyleApplication",
@@ -138,6 +139,7 @@
         },
         {
           "@type": "SoftwareApplication",
+          "@id": "https://withframes.com/#frames-macos",
           "name": "Frames macOS",
           "operatingSystem": "macOS 15.0",
           "applicationCategory": "LifestyleApplication",
@@ -221,6 +223,7 @@
         },
         {
           "@type": "VideoObject",
+          "@id": "https://withframes.com/#frames-video",
           "name": "Aplikacja do Fotografii Analogowej do Zapisywania i Śledzenia Klisz (Frames dla iPhone)",
           "description": "Odkryj Frames, dedykowaną aplikację do fotografii analogowej zaprojektowaną dla fotografów analogowych. Frames sprawia, że zarządzanie fotografią analogową jest bezproblemowe, pomagając rejestrować nie tylko zdjęcia, ale także historię każdej kliszy i klatki. Niezależnie od tego, czy pracujesz z kliszami 35mm, średnioformatowymi czy wielkoformatowymi, Frames utrzymuje porządek w przepływie pracy i zapewnia, że metadane zdjęć pozostają z obrazami nawet po skanowaniu.",
           "thumbnailUrl": "https://i.ytimg.com/vi/KRLS5tpmvJM/hqdefault.jpg",

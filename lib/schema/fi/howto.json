@@ -1,0 +1,62 @@
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "Filmivalokuvauksen metatietojen kirjaaminen ja upottaminen Framesilla",
+  "description": "Opi käyttämään Framesia filmikameran asetusten kirjaamiseen, filmien organisointiin ja EXIF-metatietojen upottamiseen skannattuihin kuviin iPhonessa ja Macissa.",
+  "image": "https://withframes.com/lib/img/shared/app-icon.png",
+  "totalTime": "PT10M",
+  "inLanguage": "fi",
+  "publisher": {
+    "@id": "https://withframes.com/#organization"
+  },
+  "author": {
+    "@type": "Organization",
+    "@id": "https://withframes.com/#organization"
+  },
+  "tool": [
+    { "@type": "MobileApplication", "@id": "https://withframes.com/#frames-ios" },
+    { "@type": "SoftwareApplication", "@id": "https://withframes.com/#frames-macos" }
+  ],
+  "video": {
+    "@type": "VideoObject",
+    "@id": "https://withframes.com/#frames-video"
+  },
+  "step": [
+    {
+      "@type": "HowToStep",
+      "position": 1,
+      "name": "1. Luo uusi filmi",
+      "text": "Avaa Frames iPhonessasi ja napauta oikeassa alakulmassa olevaa kuvaketta aloittaaksesi uuden filmin. Lisää filmikamerasi, objektiivisi ja valitse filmityyppi. ISO-arvo on oletuksena asetettu filmin pakkauksen herkkyydelle, mutta voit säätää sen vastaamaan valotusmittariasi. Tästä alkaa filmivalokuvaustyönkulkusi."
+    },
+    {
+      "@type": "HowToStep",
+      "position": 2,
+      "name": "2. Kirjaa jokainen kuva sitä mukaa",
+      "text": "Kun kuvaat filmille, kirjaa kameran asetukset jokaiselle kuvalle: aukko, suljinnopeus, polttoväli, salama, luovat muistiinpanot ja paljon muuta. Sijaintitieto, paikkojen nimet ja aikaleima tallennetaan automaattisesti tukemaan tarkkaa analogista valokuvauslokia. Voit käyttää oletusliukusäätimiä tai vaihtaa klassiseen lomakenäkymään oikeasta yläkulmasta."
+    },
+    {
+      "@type": "HowToStep",
+      "position": 3,
+      "name": "3. Vie tietosi",
+      "text": "Kun filmisi on valmis ja kaikki kuvat on kirjattu, vie tiedot .frames-tiedostona. Lähetä se Macillesi AirDropin, sähköpostin tai muun haluamasi menetelmän kautta. Tämä tiedosto sisältää kaikki tallennetut filmikuvaustiedot myöhempää käyttöä varten skannaustesi kanssa."
+    },
+    {
+      "@type": "HowToStep",
+      "position": 4,
+      "name": "4. Lataa tietosi",
+      "text": "Kun filmisi on kehitetty ja skannattu, avaa .frames-tiedosto Macissasi. Kaksoisnapsauta sitä tai vedä se Frames-sovellukseen macOS:lle. Tallennetut kuvasi latautuvat välittömästi, valmiina yhdistettäväksi skannattuihin kuvatiedostoihisi."
+    },
+    {
+      "@type": "HowToStep",
+      "position": 5,
+      "name": "5. Yhdistä tiedot valokuviin",
+      "text": "Selaa tallennettuja kuviasi lista-, ruudukko- tai koko näkymässä ja aloita kunkin skannauksen yhdistäminen sen kuvatietoihin. JPEG-, TIFF- ja DNG-kuvia tuetaan tällä hetkellä, CR2 ja NEF tulevat pian. Tämä vaihe yhdistää analogiset valokuvasi yksityiskohtaisiin EXIF-metatietoihin säilyttäen jokaisen kuvan kontekstin."
+    },
+    {
+      "@type": "HowToStep",
+      "position": 6,
+      "name": "6. Vie valokuvasi",
+      "text": "Kun kaikki on yhdistetty, vie päivitetyt kuvasi. Metatiedot upotetaan suoraan jokaiseen kuvatiedostoon, jolloin ne pysyvät näkyvissä eri laitteissa, muokkaustyökaluissa ja alustoilla, kuten Flickrissä. Filmivalokuvauksesi saa digitaalin hakukelpoiset, järjestetyt edut menettämättä sieluaan."
+    }
+  ]
+}

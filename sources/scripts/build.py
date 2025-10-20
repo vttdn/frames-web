@@ -343,7 +343,8 @@ def generate_homepage_schemas(lang_code, global_config, locale_data):
             'canonical_url': locale_data['meta']['canonical_url'].rstrip('/') + '/',
             'seo_meta_title': locale_data['meta']['title'],
             'seo_meta_description': locale_data['meta']['description']
-        })
+        }),
+        ('howto.json', {})
     ]
 
     for schema_name, extra_context in schemas_to_generate:
@@ -384,6 +385,10 @@ def generate_homepage_schemas(lang_code, global_config, locale_data):
             if question_key in locale_data['qa']:
                 context[f'faq_question{i}'] = locale_data['qa'][question_key]['question']
                 context[f'faq_answer{i}'] = locale_data['qa'][question_key]['answer']
+
+        # Add howto data
+        if 'howto' in locale_data:
+            context['locale_data'] = locale_data
 
         context.update(extra_context)
 

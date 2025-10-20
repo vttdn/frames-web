@@ -412,5 +412,36 @@
     "last_updated_iso": "2025-10-12",
     "last_updated_label": "Viimeksi päivitetty",
     "button_home": "Etusivu"
+  },
+  "howto": {
+    "heading": "Käyttöohje",
+    "howto1": {
+      "heading": "1. Luo uusi filmi",
+      "description": "Avaa Frames iPhonessasi ja napauta oikeassa alakulmassa olevaa kuvaketta aloittaaksesi uuden filmin. Lisää filmikamerasi, objektiivisi ja valitse filmityyppi. ISO-arvo on oletuksena asetettu filmin pakkauksen herkkyydelle, mutta voit säätää sen vastaamaan valotusmittariasi. Tästä alkaa filmivalokuvaustyönkulkusi."
+    },
+    "howto2": {
+      "heading": "2. Kirjaa jokainen kuva sitä mukaa",
+      "description": "Kun kuvaat filmille, kirjaa kameran asetukset jokaiselle kuvalle: aukko, suljinnopeus, polttoväli, salama, luovat muistiinpanot ja paljon muuta. Sijaintitieto, paikkojen nimet ja aikaleima tallennetaan automaattisesti tukemaan tarkkaa analogista valokuvauslokia. Voit käyttää oletusliukusäätimiä tai vaihtaa klassiseen lomakenäkymään oikeasta yläkulmasta."
+    },
+    "howto3": {
+      "heading": "3. Vie tietosi",
+      "description": "Kun filmisi on valmis ja kaikki kuvat on kirjattu, vie tiedot .frames-tiedostona. Lähetä se Macillesi AirDropin, sähköpostin tai muun haluamasi menetelmän kautta. Tämä tiedosto sisältää kaikki tallennetut filmikuvaustiedot myöhempää käyttöä varten skannaustesi kanssa."
+    },
+    "howto4": {
+      "heading": "4. Lataa tietosi",
+      "description": "Kun filmisi on kehitetty ja skannattu, avaa .frames-tiedosto Macissasi. Kaksoisnapsauta sitä tai vedä se Frames-sovellukseen macOS:lle. Tallennetut kuvasi latautuvat välittömästi, valmiina yhdistettäväksi skannattuihin kuvatiedostoihisi."
+    },
+    "howto5": {
+      "heading": "5. Yhdistä tiedot valokuviin",
+      "description": "Selaa tallennettuja kuviasi lista-, ruudukko- tai koko näkymässä ja aloita kunkin skannauksen yhdistäminen sen kuvatietoihin. JPEG-, TIFF- ja DNG-kuvia tuetaan tällä hetkellä, CR2 ja NEF tulevat pian. Tämä vaihe yhdistää analogiset valokuvasi yksityiskohtaisiin EXIF-metatietoihin säilyttäen jokaisen kuvan kontekstin."
+    },
+    "howto6": {
+      "heading": "6. Vie valokuvasi",
+      "description": "Kun kaikki on yhdistetty, vie päivitetyt kuvasi. Metatiedot upotetaan suoraan jokaiseen kuvatiedostoon, jolloin ne pysyvät näkyvissä eri laitteissa, muokkaustyökaluissa ja alustoilla, kuten Flickrissä. Filmivalokuvauksesi saa digitaalin hakukelpoiset, järjestetyt edut menettämättä sieluaan."
+    },
+    "meta": {
+      "title": "Filmivalokuvauksen metatietojen kirjaaminen ja upottaminen Framesilla",
+      "description": "Opi käyttämään Framesia filmikameran asetusten kirjaamiseen, filmien organisointiin ja EXIF-metatietojen upottamiseen skannattuihin kuviin iPhonessa ja Macissa."
+    }
   }
 }

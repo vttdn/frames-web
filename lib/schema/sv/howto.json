@@ -1,0 +1,62 @@
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "Hur du loggar och bäddar in filmfotografimetadata med Frames",
+  "description": "Lär dig hur du använder Frames för att logga filmkamerainställningar, organisera dina rullar och bädda in EXIF-metadata i dina skannade bilder på iPhone och Mac.",
+  "image": "https://withframes.com/lib/img/shared/app-icon.png",
+  "totalTime": "PT10M",
+  "inLanguage": "sv",
+  "publisher": {
+    "@id": "https://withframes.com/#organization"
+  },
+  "author": {
+    "@type": "Organization",
+    "@id": "https://withframes.com/#organization"
+  },
+  "tool": [
+    { "@type": "MobileApplication", "@id": "https://withframes.com/#frames-ios" },
+    { "@type": "SoftwareApplication", "@id": "https://withframes.com/#frames-macos" }
+  ],
+  "video": {
+    "@type": "VideoObject",
+    "@id": "https://withframes.com/#frames-video"
+  },
+  "step": [
+    {
+      "@type": "HowToStep",
+      "position": 1,
+      "name": "1. Skapa en ny rulle",
+      "text": "Öppna Frames på din iPhone och tryck på ikonen i nedre högra hörnet för att starta en ny rulle. Lägg till din filmkamera, objektiv och välj din filmtyp. ISO är inställt på boxhastighet som standard, men du kan justera det till din ljusmätare. Här börjar ditt arbetsflöde för filmfotografering."
+    },
+    {
+      "@type": "HowToStep",
+      "position": 2,
+      "name": "2. Logga varje bild medan du fotograferar",
+      "text": "När du fotograferar på film, registrera kamerainställningarna för varje bild: bländare, slutartid, brännvidd, blixt, kreativa anteckningar och mer. Geolokalisering, platsnamn och tidsstämplar fångas automatiskt för att stödja en exakt analog fotografilogg. Du kan använda standardreglage eller byta till en klassisk formulärvy via menyn längst upp till höger."
+    },
+    {
+      "@type": "HowToStep",
+      "position": 3,
+      "name": "3. Exportera dina data",
+      "text": "När din rulle är klar och alla bilder är loggade, exportera datan som en .frames-fil. Skicka den till din Mac med AirDrop, e-post eller valfri metod. Denna fil innehåller alla dina inspelade filmfotograferingsmetadata för senare användning med dina skanningar."
+    },
+    {
+      "@type": "HowToStep",
+      "position": 4,
+      "name": "4. Ladda dina data",
+      "text": "Efter att din film har framkallats och skannats, öppna .frames-filen på din Mac. Dubbelklicka bara på den eller dra den till Frames-appen för macOS. Dina inspelade bilder laddas omedelbart, redo att paras ihop med dina skannade fotofiler."
+    },
+    {
+      "@type": "HowToStep",
+      "position": 5,
+      "name": "5. Koppla data till bilder",
+      "text": "Bläddra igenom dina loggade bilder i list-, rutnäts- eller hel vy och börja koppla varje skanning till dess bilddata. JPEG-, TIFF- och DNG-bilder stöds för närvarande, med CR2 och NEF på gång. Detta steg kopplar dina analoga bilder till detaljerad EXIF-metadata och bevarar sammanhanget för varje bild."
+    },
+    {
+      "@type": "HowToStep",
+      "position": 6,
+      "name": "6. Exportera dina bilder",
+      "text": "När allt är ihopkopplat, exportera dina uppdaterade bilder. Metadata bäddas in direkt i varje fotofil, vilket säkerställer att de förblir synliga på alla enheter, redigeringsverktyg och plattformar som Flickr. Din filmfotografering får de sökbara, organiserade fördelarna med digitalt, utan att förlora sin själ."
+    }
+  ]
+}

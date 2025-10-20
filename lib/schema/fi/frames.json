@@ -3,6 +3,7 @@
       "@graph": [
         {
           "@type": "MobileApplication",
+          "@id": "https://withframes.com/#frames-ios",
           "name": "Frames iOS",
           "operatingSystem": "iOS 18.0",
           "applicationCategory": "LifestyleApplication",
@@ -138,6 +139,7 @@
         },
         {
           "@type": "SoftwareApplication",
+          "@id": "https://withframes.com/#frames-macos",
           "name": "Frames macOS",
           "operatingSystem": "macOS 15.0",
           "applicationCategory": "LifestyleApplication",
@@ -221,6 +223,7 @@
         },
         {
           "@type": "VideoObject",
+          "@id": "https://withframes.com/#frames-video",
           "name": "Filmivalokuvaussovellus Rulliesi Kirjaamiseen & Seuraamiseen (Frames iPhonelle)",
           "description": "Tutustu Framesiin, omistettuun filmivalokuvaussovellukseen, joka on suunniteltu analogisille valokuvaajille. Frames tekee analogisen valokuvauksen hallinnasta vaivatonta auttaen tallentamaan paitsi kuvat myös tarinan jokaisen rullan ja kuvan takana. Työskenteletkö 35mm-, keskiformaatti- tai suurformaattifilmillä, Frames pitää työnkulkusi järjestyksessä ja varmistaa, että valokuvan metatiedot pysyvät kuviesi mukana jopa skannauksen jälkeen.",
           "thumbnailUrl": "https://i.ytimg.com/vi/KRLS5tpmvJM/hqdefault.jpg",

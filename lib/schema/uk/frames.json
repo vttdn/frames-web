@@ -3,6 +3,7 @@
       "@graph": [
         {
           "@type": "MobileApplication",
+          "@id": "https://withframes.com/#frames-ios",
           "name": "Frames iOS",
           "operatingSystem": "iOS 18.0",
           "applicationCategory": "LifestyleApplication",
@@ -138,6 +139,7 @@
         },
         {
           "@type": "SoftwareApplication",
+          "@id": "https://withframes.com/#frames-macos",
           "name": "Frames macOS",
           "operatingSystem": "macOS 15.0",
           "applicationCategory": "LifestyleApplication",
@@ -221,6 +223,7 @@
         },
         {
           "@type": "VideoObject",
+          "@id": "https://withframes.com/#frames-video",
           "name": "Додаток Плівкової Фотографії для Запису та Відстеження Ваших Плівок (Frames для iPhone)",
           "description": "Відкрийте для себе Frames, спеціалізований додаток плівкової фотографії, розроблений для аналогових фотографів. Frames робить керування вашою аналоговою фотографією легким, допомагаючи вам записувати не лише ваші знімки, але й історію за кожною плівкою та кадром. Незалежно від того, працюєте ви з 35мм, середньоформатною чи великоформатною плівкою, Frames тримає ваш робочий процес організованим і гарантує, що метадані ваших фотографій залишаються з вашими зображеннями навіть після сканування.",
           "thumbnailUrl": "https://i.ytimg.com/vi/KRLS5tpmvJM/hqdefault.jpg",

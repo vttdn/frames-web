@@ -412,5 +412,36 @@
     "last_updated_iso": "2025-10-12",
     "last_updated_label": "Última actualización",
     "button_home": "Inicio"
+  },
+  "howto": {
+    "heading": "Cómo usar",
+    "howto1": {
+      "heading": "1. Crear un nuevo rollo",
+      "description": "Abre Frames en tu iPhone y toca el icono en la esquina inferior derecha para comenzar un nuevo rollo. Añade tu cámara de película, objetivos y elige tu tipo de película. El ISO está configurado por defecto a la sensibilidad de la caja, pero puedes ajustarlo según tu fotómetro. Aquí comienza tu flujo de trabajo de fotografía analógica."
+    },
+    "howto2": {
+      "heading": "2. Registrar cada disparo sobre la marcha",
+      "description": "Mientras fotografías en película, registra la configuración de la cámara para cada fotograma: apertura, velocidad de obturación, distancia focal, flash, notas creativas y más. La geolocalización, nombres de lugares y marcas temporales se capturan automáticamente para respaldar un registro preciso de fotografía analógica. Puedes usar los controles deslizantes predeterminados o cambiar a una vista de formulario clásica a través del menú superior derecho."
+    },
+    "howto3": {
+      "heading": "3. Exportar tus datos",
+      "description": "Una vez que tu rollo esté terminado y todos los disparos registrados, exporta los datos como un archivo .frames. Envíalo a tu Mac usando AirDrop, correo electrónico o cualquier método que prefieras. Este archivo contiene todos los metadatos de fotografía en película registrados para uso posterior con tus escaneos."
+    },
+    "howto4": {
+      "heading": "4. Cargar tus datos",
+      "description": "Después de que tu película sea revelada y escaneada, abre el archivo .frames en tu Mac. Simplemente haz doble clic en él o arrástralo a la aplicación Frames para macOS. Tus fotogramas registrados se cargarán instantáneamente, listos para emparejarse con tus archivos de fotos escaneadas."
+    },
+    "howto5": {
+      "heading": "5. Asociar datos con fotos",
+      "description": "Navega por tus disparos registrados usando vista de lista, cuadrícula o completa, y comienza a asociar cada escaneo con sus datos de fotograma. Las imágenes JPEG, TIFF y DNG están actualmente soportadas, con CR2 y NEF próximamente. Este paso vincula tus fotos analógicas con metadatos EXIF detallados, preservando el contexto de cada disparo."
+    },
+    "howto6": {
+      "heading": "6. Exportar tus fotos",
+      "description": "Una vez que todo esté emparejado, exporta tus imágenes actualizadas. Los metadatos se incrustan directamente en cada archivo de foto, asegurando que permanezcan visibles en todos los dispositivos, herramientas de edición y plataformas como Flickr. Tu fotografía analógica obtiene los beneficios buscables y organizados de lo digital, sin perder su alma."
+    },
+    "meta": {
+      "title": "Cómo registrar e incrustar metadatos de fotografía analógica con Frames",
+      "description": "Aprende a usar Frames para registrar ajustes de cámara analógica, organizar tus carretes e incrustar metadatos EXIF en tus imágenes escaneadas en iPhone y Mac."
+    }
   }
 }

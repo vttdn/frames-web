@@ -1,6 +1,13 @@
 {
       "@context": "https://schema.org",
       "@type": "FAQPage",
+      "publisher": {
+        "@id": "https://withframes.com/#organization"
+      },
+      "author": {
+        "@type": "Organization",
+        "@id": "https://withframes.com/#organization"
+      },
       "mainEntity": [
         {
           "@type": "Question",

@@ -412,5 +412,36 @@
     "last_updated_iso": "2025-10-12",
     "last_updated_label": "Sist oppdatert",
     "button_home": "Hjem"
+  },
+  "howto": {
+    "heading": "Slik bruker du appen",
+    "howto1": {
+      "heading": "1. Opprett en ny rull",
+      "description": "Åpne Frames på iPhone og trykk på ikonet i nedre høyre hjørne for å starte en ny rull. Legg til filmkameraet ditt, objektiver og velg filmtype. ISO er som standard satt til kassens lysfølsomhet, men du kan justere den til lysmåleren din. Her begynner arbeidsflyten din for filmfotografering."
+    },
+    "howto2": {
+      "heading": "2. Logg hvert bilde underveis",
+      "description": "Når du fotograferer på film, skal du registrere kamerainnstillingene for hvert bilde: blenderåpning, lukkertid, brennvidde, blits, kreative notater og mer. Geolokasjon, stedsnavn og tidsstempler blir automatisk registrert for å støtte en presis analog fotografilogg. Du kan bruke standard glidebrytere eller bytte til en klassisk skjemavisning via menyen øverst til høyre."
+    },
+    "howto3": {
+      "heading": "3. Eksporter dataene dine",
+      "description": "Når rullen din er ferdig og alle bilder er registrert, eksporter dataene som en .frames-fil. Send den til Mac-en din via AirDrop, e-post eller annen foretrukket metode. Denne filen inneholder alle dine registrerte filmopptaksmetadata for senere bruk med skanningene dine."
+    },
+    "howto4": {
+      "heading": "4. Last inn dataene dine",
+      "description": "Etter at filmen din er framkalt og skannet, åpner du .frames-filen på Mac-en din. Dobbeltklikk på den eller dra den inn i Frames-appen for macOS. Dine registrerte bilder lastes øyeblikkelig, klar til å bli paret med de skannede fotofilene dine."
+    },
+    "howto5": {
+      "heading": "5. Knytt data til bilder",
+      "description": "Bla gjennom de registrerte bildene dine i liste-, rutenett- eller fullvisning, og begynn å knytte hver skanning til bildedataene. JPEG-, TIFF- og DNG-bilder støttes for øyeblikket, mens CR2 og NEF kommer snart. Dette trinnet kobler dine analoge bilder til detaljerte EXIF-metadata og bevarer konteksten for hvert bilde."
+    },
+    "howto6": {
+      "heading": "6. Eksporter bildene dine",
+      "description": "Når alt er matchet, eksporter de oppdaterte bildene dine. Metadata bygges direkte inn i hver fotofil, noe som sikrer at den forblir synlig på tvers av enheter, redigeringsverktøy og plattformer som Flickr. Filmfotograferingen din får de søkbare, organiserte fordelene ved digitalt, uten å miste sin sjel."
+    },
+    "meta": {
+      "title": "Slik registrerer og bygger inn filmfotograferingsmetadata med Frames",
+      "description": "Lær hvordan du bruker Frames til å registrere filmkamerainnstillinger, organisere rullene dine og bygge inn EXIF-metadata i de skannede bildene dine på iPhone og Mac."
+    }
   }
 }

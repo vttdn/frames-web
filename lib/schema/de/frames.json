@@ -3,6 +3,7 @@
       "@graph": [
         {
           "@type": "MobileApplication",
+          "@id": "https://withframes.com/#frames-ios",
           "name": "Frames iOS",
           "operatingSystem": "iOS 18.0",
           "applicationCategory": "LifestyleApplication",
@@ -138,6 +139,7 @@
         },
         {
           "@type": "SoftwareApplication",
+          "@id": "https://withframes.com/#frames-macos",
           "name": "Frames macOS",
           "operatingSystem": "macOS 15.0",
           "applicationCategory": "LifestyleApplication",
@@ -221,6 +223,7 @@
         },
         {
           "@type": "VideoObject",
+          "@id": "https://withframes.com/#frames-video",
           "name": "Analogfotografie-App zum Dokumentieren & Tracken Ihrer Filme (Frames für iPhone)",
           "description": "Entdecken Sie Frames, die spezialisierte Analogfotografie-App für analoge Fotografen. Frames macht die Verwaltung Ihrer Analogfotografie mühelos und hilft Ihnen, nicht nur Ihre Aufnahmen zu dokumentieren, sondern auch die Geschichte hinter jedem Film und Bild festzuhalten. Ob 35mm, Mittelformat oder Großformat – Frames hält Ihren Workflow organisiert und stellt sicher, dass Ihre Foto-Metadaten auch nach dem Scannen bei Ihren Bildern bleiben.",
           "thumbnailUrl": "https://i.ytimg.com/vi/KRLS5tpmvJM/hqdefault.jpg",

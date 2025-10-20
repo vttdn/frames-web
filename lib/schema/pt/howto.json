@@ -1,0 +1,62 @@
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "Como registar e incorporar metadados de fotografia analógica com Frames",
+  "description": "Aprenda a usar o Frames para registar definições de câmara analógica, organizar os seus rolos e incorporar metadados EXIF nas suas imagens digitalizadas no iPhone e Mac.",
+  "image": "https://withframes.com/lib/img/shared/app-icon.png",
+  "totalTime": "PT10M",
+  "inLanguage": "pt",
+  "publisher": {
+    "@id": "https://withframes.com/#organization"
+  },
+  "author": {
+    "@type": "Organization",
+    "@id": "https://withframes.com/#organization"
+  },
+  "tool": [
+    { "@type": "MobileApplication", "@id": "https://withframes.com/#frames-ios" },
+    { "@type": "SoftwareApplication", "@id": "https://withframes.com/#frames-macos" }
+  ],
+  "video": {
+    "@type": "VideoObject",
+    "@id": "https://withframes.com/#frames-video"
+  },
+  "step": [
+    {
+      "@type": "HowToStep",
+      "position": 1,
+      "name": "1. Criar um novo rolo",
+      "text": "Abra o Frames no seu iPhone e toque no ícone no canto inferior direito para iniciar um novo rolo. Adicione a sua câmara de filme, lentes e escolha o tipo de película. O ISO está definido para a sensibilidade da caixa por padrão, mas pode ajustá-lo ao seu fotómetro. É aqui que começa o seu fluxo de trabalho de fotografia analógica."
+    },
+    {
+      "@type": "HowToStep",
+      "position": 2,
+      "name": "2. Registar cada fotografia à medida que fotografa",
+      "text": "Ao fotografar em película, registe as definições da câmara para cada fotograma: abertura, velocidade do obturador, distância focal, flash, notas criativas e muito mais. Geolocalização, nomes de locais e marcas temporais são automaticamente capturados para suportar um registo preciso de fotografia analógica. Pode usar os controlos deslizantes padrão ou mudar para uma vista de formulário clássica através do menu no canto superior direito."
+    },
+    {
+      "@type": "HowToStep",
+      "position": 3,
+      "name": "3. Exportar os seus dados",
+      "text": "Assim que o seu rolo estiver concluído e todas as fotografias registadas, exporte os dados como um ficheiro .frames. Envie-o para o seu Mac usando AirDrop, e-mail ou qualquer método que preferir. Este ficheiro contém todos os metadados de fotografia em película registados para uso posterior com as suas digitalizações."
+    },
+    {
+      "@type": "HowToStep",
+      "position": 4,
+      "name": "4. Carregar os seus dados",
+      "text": "Depois de a sua película ser revelada e digitalizada, abra o ficheiro .frames no seu Mac. Basta fazer duplo clique nele ou arrastá-lo para a aplicação Frames para macOS. Os seus fotogramas registados serão carregados instantaneamente, prontos para serem associados aos seus ficheiros fotográficos digitalizados."
+    },
+    {
+      "@type": "HowToStep",
+      "position": 5,
+      "name": "5. Associar dados às fotografias",
+      "text": "Navegue pelas suas fotografias registadas usando vista de lista, grelha ou completa, e comece a associar cada digitalização aos seus dados de fotograma. As imagens JPEG, TIFF e DNG são atualmente suportadas, com CR2 e NEF a chegar em breve. Este passo liga as suas fotografias analógicas a metadados EXIF detalhados, preservando o contexto de cada fotografia."
+    },
+    {
+      "@type": "HowToStep",
+      "position": 6,
+      "name": "6. Exportar as suas fotografias",
+      "text": "Assim que tudo estiver associado, exporte as suas imagens atualizadas. Os metadados são incorporados diretamente em cada ficheiro fotográfico, garantindo que permanecem visíveis em todos os dispositivos, ferramentas de edição e plataformas como o Flickr. A sua fotografia em película obtém os benefícios pesquisáveis e organizados do digital, sem perder a sua alma."
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "如何使用Frames記錄和嵌入底片攝影中繼資料",
+  "description": "了解如何使用Frames記錄底片相機設定，整理底片，並在iPhone和Mac上將EXIF中繼資料嵌入掃描影像中。",
+  "image": "https://withframes.com/lib/img/shared/app-icon.png",
+  "totalTime": "PT10M",
+  "inLanguage": "zh-hant",
+  "publisher": {
+    "@id": "https://withframes.com/#organization"
+  },
+  "author": {
+    "@type": "Organization",
+    "@id": "https://withframes.com/#organization"
+  },
+  "tool": [
+    { "@type": "MobileApplication", "@id": "https://withframes.com/#frames-ios" },
+    { "@type": "SoftwareApplication", "@id": "https://withframes.com/#frames-macos" }
+  ],
+  "video": {
+    "@type": "VideoObject",
+    "@id": "https://withframes.com/#frames-video"
+  },
+  "step": [
+    {
+      "@type": "HowToStep",
+      "position": 1,
+      "name": "1. 建立新底片",
+      "text": "在 iPhone 上開啟 Frames 並點擊右下角的圖示以開始新底片。新增您的底片相機、鏡頭並選擇底片類型。ISO 預設設定為包裝盒速度，但您可以根據測光錶進行調整。這是您的底片攝影工作流程的起點。"
+    },
+    {
+      "@type": "HowToStep",
+      "position": 2,
+      "name": "2. 隨拍隨記錄每張照片",
+      "text": "在底片上拍攝時，記錄每一格的相機設定：光圈、快門速度、焦距、閃光燈、創意筆記等。地理位置、地名和時間戳記會自動擷取，以支援精確的類比攝影日誌。您可以使用預設的滑桿控制，或透過右上角選單切換到經典表單檢視。"
+    },
+    {
+      "@type": "HowToStep",
+      "position": 3,
+      "name": "3. 匯出資料",
+      "text": "底片拍完並記錄所有照片後，將資料匯出為 .frames 檔案。使用 AirDrop、電子郵件或任何您喜歡的方法將其傳送到 Mac。此檔案包含所有記錄的底片拍攝中繼資料，以便稍後與掃描件一起使用。"
+    },
+    {
+      "@type": "HowToStep",
+      "position": 4,
+      "name": "4. 載入資料",
+      "text": "底片沖洗和掃描後，在 Mac 上開啟 .frames 檔案。只需按兩下它或將其拖到 macOS 版 Frames 應用程式中。您記錄的畫面將立即載入，準備好與掃描的照片檔案配對。"
+    },
+    {
+      "@type": "HowToStep",
+      "position": 5,
+      "name": "5. 將資料與照片關聯",
+      "text": "使用清單、格狀或完整檢視瀏覽您記錄的照片，並開始將每次掃描與其畫面資料關聯。目前支援 JPEG、TIFF 和 DNG 影像，CR2 和 NEF 即將推出。此步驟將您的類比照片與詳細的 EXIF 中繼資料連結起來，保留每張照片的背景。"
+    },
+    {
+      "@type": "HowToStep",
+      "position": 6,
+      "name": "6. 匯出照片",
+      "text": "一切配對後，匯出更新的影像。中繼資料直接嵌入每個照片檔案中，確保它們在所有裝置、編輯工具和平台（如 Flickr）上保持可見。您的底片攝影獲得了數位化的可搜尋、有組織的優勢，而不會失去靈魂。"
+    }
+  ]
+}

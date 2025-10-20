@@ -3,6 +3,7 @@
       "@graph": [
         {
           "@type": "MobileApplication",
+          "@id": "https://withframes.com/#frames-ios",
           "name": "Frames iOS",
           "operatingSystem": "iOS 18.0",
           "applicationCategory": "LifestyleApplication",
@@ -138,6 +139,7 @@
         },
         {
           "@type": "SoftwareApplication",
+          "@id": "https://withframes.com/#frames-macos",
           "name": "Frames macOS",
           "operatingSystem": "macOS 15.0",
           "applicationCategory": "LifestyleApplication",
@@ -221,6 +223,7 @@
         },
         {
           "@type": "VideoObject",
+          "@id": "https://withframes.com/#frames-video",
           "name": "App Fotografia Analogica per Registrare e Tracciare i Tuoi Rullini (Frames per iPhone)",
           "description": "Scopri Frames, l'app fotografia analogica dedicata progettata per fotografi analogici. Frames rende la gestione della tua fotografia analogica semplice, aiutandoti a registrare non solo i tuoi scatti ma anche la storia dietro ogni rullino e fotogramma. Che tu lavori con pellicola 35mm, medio formato o grande formato, Frames mantiene il tuo flusso di lavoro organizzato e garantisce che i tuoi metadati fotografici restino con le tue immagini, anche dopo la digitalizzazione.",
           "thumbnailUrl": "https://i.ytimg.com/vi/KRLS5tpmvJM/hqdefault.jpg",

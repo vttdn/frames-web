@@ -1,0 +1,62 @@
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "Filmfotografie-Metadaten mit Frames protokollieren und einbetten",
+  "description": "Erfahren Sie, wie Sie Frames verwenden, um Filmkamera-Einstellungen zu protokollieren, Ihre Filme zu organisieren und EXIF-Metadaten in Ihre gescannten Bilder auf iPhone und Mac einzubetten.",
+  "image": "https://withframes.com/lib/img/shared/app-icon.png",
+  "totalTime": "PT10M",
+  "inLanguage": "de",
+  "publisher": {
+    "@id": "https://withframes.com/#organization"
+  },
+  "author": {
+    "@type": "Organization",
+    "@id": "https://withframes.com/#organization"
+  },
+  "tool": [
+    { "@type": "MobileApplication", "@id": "https://withframes.com/#frames-ios" },
+    { "@type": "SoftwareApplication", "@id": "https://withframes.com/#frames-macos" }
+  ],
+  "video": {
+    "@type": "VideoObject",
+    "@id": "https://withframes.com/#frames-video"
+  },
+  "step": [
+    {
+      "@type": "HowToStep",
+      "position": 1,
+      "name": "1. Neuen Film erstellen",
+      "text": "Öffne Frames auf deinem iPhone und tippe auf das Symbol unten rechts, um einen neuen Film zu starten. Füge deine Filmkamera, Objektive hinzu und wähle deine Filmsorte. Die ISO ist standardmäßig auf die Empfindlichkeit der Verpackung eingestellt, aber du kannst sie an deinen Belichtungsmesser anpassen. Hier beginnt dein Workflow für analoge Fotografie."
+    },
+    {
+      "@type": "HowToStep",
+      "position": 2,
+      "name": "2. Jede Aufnahme unterwegs protokollieren",
+      "text": "Während du auf Film fotografierst, protokolliere die Kameraeinstellungen für jedes Bild: Blende, Verschlusszeit, Brennweite, Blitz, kreative Notizen und mehr. Geolokalisierung, Ortsnamen und Zeitstempel werden automatisch erfasst, um ein präzises analoges Fotoprotokoll zu unterstützen. Du kannst die Standard-Schieberegler verwenden oder über das Menü oben rechts zu einer klassischen Formularansicht wechseln."
+    },
+    {
+      "@type": "HowToStep",
+      "position": 3,
+      "name": "3. Daten exportieren",
+      "text": "Sobald dein Film fertig ist und alle Aufnahmen protokolliert sind, exportiere die Daten als .frames-Datei. Sende sie per AirDrop, E-Mail oder einer anderen Methode an deinen Mac. Diese Datei enthält alle deine protokollierten Filmaufnahme-Metadaten zur späteren Verwendung mit deinen Scans."
+    },
+    {
+      "@type": "HowToStep",
+      "position": 4,
+      "name": "4. Daten laden",
+      "text": "Nachdem dein Film entwickelt und gescannt wurde, öffne die .frames-Datei auf deinem Mac. Doppelklicke einfach darauf oder ziehe sie in die Frames-App für macOS. Deine protokollierten Bilder werden sofort geladen, bereit zur Zuordnung mit deinen gescannten Fotodateien."
+    },
+    {
+      "@type": "HowToStep",
+      "position": 5,
+      "name": "5. Daten mit Fotos verknüpfen",
+      "text": "Durchsuche deine protokollierten Aufnahmen in Listen-, Raster- oder Vollansicht und beginne, jeden Scan mit seinen Bilddaten zu verknüpfen. JPEG-, TIFF- und DNG-Bilder werden derzeit unterstützt, CR2 und NEF kommen bald. Dieser Schritt verbindet deine analogen Fotos mit detaillierten EXIF-Metadaten und bewahrt den Kontext jeder Aufnahme."
+    },
+    {
+      "@type": "HowToStep",
+      "position": 6,
+      "name": "6. Fotos exportieren",
+      "text": "Sobald alles zugeordnet ist, exportiere deine aktualisierten Bilder. Metadaten werden direkt in jede Fotodatei eingebettet und bleiben so auf allen Geräten, Bearbeitungstools und Plattformen wie Flickr sichtbar. Deine analoge Fotografie erhält die durchsuchbaren, organisierten Vorteile der digitalen Welt, ohne ihre Seele zu verlieren."
+    }
+  ]
+}

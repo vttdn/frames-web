@@ -3,6 +3,7 @@
       "@graph": [
         {
           "@type": "MobileApplication",
+          "@id": "https://withframes.com/#frames-ios",
           "name": "Frames iOS",
           "operatingSystem": "iOS 18.0",
           "applicationCategory": "LifestyleApplication",
@@ -138,6 +139,7 @@
         },
         {
           "@type": "SoftwareApplication",
+          "@id": "https://withframes.com/#frames-macos",
           "name": "Frames macOS",
           "operatingSystem": "macOS 15.0",
           "applicationCategory": "LifestyleApplication",
@@ -221,6 +223,7 @@
         },
         {
           "@type": "VideoObject",
+          "@id": "https://withframes.com/#frames-video",
           "name": "Film Photography App to Log & Track Your Rolls (Frames for iPhone)",
           "description": "Discover Frames, the dedicated film photography app designed for analog shooters. Frames makes managing your analog photography effortless, helping you record not only your shots but also the story behind every roll and frame. Whether you work with 35mm, medium format, or large format film, Frames keeps your workflow organized and ensures your photo metadata stays with your images, even after scanning.",
           "thumbnailUrl": "https://i.ytimg.com/vi/KRLS5tpmvJM/hqdefault.jpg",

@@ -11,7 +11,8 @@ document.addEventListener('DOMContentLoaded', function () {
     '/lib/schema/{{ lang }}/frames.json',
     '/lib/schema/{{ lang }}/faq.json',
     '/lib/schema/{{ lang }}/organization.json',
-    '/lib/schema/{{ lang }}/webpage-homepage.json'
+    '/lib/schema/{{ lang }}/webpage-homepage.json',
+    '/lib/schema/{{ lang }}/howto.json'
   ];
 
   schemaFiles.forEach((url) => {

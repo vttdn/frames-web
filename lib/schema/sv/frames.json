@@ -3,6 +3,7 @@
       "@graph": [
         {
           "@type": "MobileApplication",
+          "@id": "https://withframes.com/#frames-ios",
           "name": "Frames iOS",
           "operatingSystem": "iOS 18.0",
           "applicationCategory": "LifestyleApplication",
@@ -138,6 +139,7 @@
         },
         {
           "@type": "SoftwareApplication",
+          "@id": "https://withframes.com/#frames-macos",
           "name": "Frames macOS",
           "operatingSystem": "macOS 15.0",
           "applicationCategory": "LifestyleApplication",
@@ -221,6 +223,7 @@
         },
         {
           "@type": "VideoObject",
+          "@id": "https://withframes.com/#frames-video",
           "name": "Filmfotografiapp för att Logga & Spåra Dina Rullar (Frames för iPhone)",
           "description": "Upptäck Frames, den dedikerade filmfotografiappen utformad för analogfotografer. Frames gör hanteringen av din analogfotografi enkel och hjälper dig registrera inte bara dina bilder utan också berättelsen bakom varje rulle och bild. Oavsett om du arbetar med 35mm, mellanformat eller storformat, håller Frames ditt arbetsflöde organiserat och säkerställer att dina fotometadata följer med dina bilder, även efter skanning.",
           "thumbnailUrl": "https://i.ytimg.com/vi/KRLS5tpmvJM/hqdefault.jpg",
