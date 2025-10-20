@@ -21,37 +21,37 @@
     {
       "@type": "HowToStep",
       "position": 1,
-      "name": "{{ locale_data.howto.howto1.heading }}",
+      "name": "{{ locale_data.howto.howto1.heading | regex_replace('^\\d+\\.\\s*', '') }}",
       "text": "{{ locale_data.howto.howto1.description }}"
     },
     {
       "@type": "HowToStep",
       "position": 2,
-      "name": "{{ locale_data.howto.howto2.heading }}",
+      "name": "{{ locale_data.howto.howto2.heading | regex_replace('^\\d+\\.\\s*', '') }}",
       "text": "{{ locale_data.howto.howto2.description }}"
     },
     {
       "@type": "HowToStep",
       "position": 3,
-      "name": "{{ locale_data.howto.howto3.heading }}",
+      "name": "{{ locale_data.howto.howto3.heading | regex_replace('^\\d+\\.\\s*', '') }}",
       "text": "{{ locale_data.howto.howto3.description }}"
     },
     {
       "@type": "HowToStep",
       "position": 4,
-      "name": "{{ locale_data.howto.howto4.heading }}",
+      "name": "{{ locale_data.howto.howto4.heading | regex_replace('^\\d+\\.\\s*', '') }}",
       "text": "{{ locale_data.howto.howto4.description }}"
     },
     {
       "@type": "HowToStep",
       "position": 5,
-      "name": "{{ locale_data.howto.howto5.heading }}",
+      "name": "{{ locale_data.howto.howto5.heading | regex_replace('^\\d+\\.\\s*', '') }}",
       "text": "{{ locale_data.howto.howto5.description }}"
     },
     {
       "@type": "HowToStep",
       "position": 6,
-      "name": "{{ locale_data.howto.howto6.heading }}",
+      "name": "{{ locale_data.howto.howto6.heading | regex_replace('^\\d+\\.\\s*', '') }}",
       "text": "{{ locale_data.howto.howto6.description }}"
     }
   ]
