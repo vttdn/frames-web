@@ -3,6 +3,7 @@
       "@graph": [
         {
           "@type": "SoftwareApplication",
+          "@id": "https://withframes.com/#frames-ios",
           "name": "Frames iOS",
           "operatingSystem": "iOS 18.0",
           "applicationCategory": "LifestyleApplication",
@@ -20,9 +21,6 @@
           "mainEntity": {
             "@type": "WebPage",
             "@id": "https://withframes.com/vi"
-          },
-          "developer": {
-            "@id": "https://withframes.com/#vincent-tantardini"
           },
           "offers": [
             {
@@ -138,6 +136,7 @@
         },
         {
           "@type": "SoftwareApplication",
+          "@id": "https://withframes.com/#frames-macos",
           "name": "Frames macOS",
           "operatingSystem": "macOS 15.0",
           "applicationCategory": "LifestyleApplication",
@@ -156,9 +155,6 @@
             "@id": "https://withframes.com/vi"
           },
           "inLanguage": "vi",
-          "developer": {
-            "@id": "https://withframes.com/#vincent-tantardini"
-          },
           "offers": [
             {
               "@type": "Offer",
