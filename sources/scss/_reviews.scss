@@ -75,6 +75,11 @@
     .feature-inner p, .feature-inner span {
         color: var(--color-white);
     }
+
+span.quote-icon {
+    font-size: var(--font-size-2xl);
+    line-height: var(--line-height-2xl);
+}
 }
 .review-quote {
     font-size: var(--font-size-md);
