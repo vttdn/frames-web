@@ -2,7 +2,7 @@
       "@context": "https://schema.org",
       "@graph": [
         {
-          "@type": "MobileApplication",
+          "@type": "SoftwareApplication",
           "@id": "https://withframes.com/#frames-ios",
           "name": "{{ ios_appname }}",
           "operatingSystem": "iOS 18.0",
