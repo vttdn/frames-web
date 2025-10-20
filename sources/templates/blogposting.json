@@ -4,7 +4,6 @@
   "@id": "{{ canonical_url }}",
   "url": "{{ canonical_url }}",
   "headline": "{{ entry.title }}",
-  "name": "{% if entry.meta_title %}{{ entry.meta_title }}{% else %}{{ entry.title }} · Frames{% endif %}",
   "description": "{% if entry.meta_description %}{{ entry.meta_description }}{% else %}{{ entry.summary }}{% endif %}",
   "datePublished": "{{ entry.release_date }}",
   "dateModified": "{{ build_date }}",
