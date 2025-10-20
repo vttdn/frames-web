@@ -321,7 +321,21 @@ document.addEventListener('DOMContentLoaded', () => {
       const figcaption = figure.querySelector('figcaption');
 
       if (img && figcaption) {
-        // Check current state - if figcaption has 'ruh', we're in default state
+        // First, reset all OTHER figures to default state
+        howtoFigures.forEach(otherFigure => {
+          if (otherFigure !== figure) {
+            const otherImg = otherFigure.querySelector('img');
+            const otherFigcaption = otherFigure.querySelector('figcaption');
+
+            if (otherImg && otherFigcaption) {
+              otherImg.classList.remove('ruh');
+              otherFigcaption.classList.add('ruh');
+              otherFigure.setAttribute('aria-pressed', 'false');
+            }
+          }
+        });
+
+        // Then toggle the current figure
         const isDefaultState = figcaption.classList.contains('ruh');
 
         if (isDefaultState) {
