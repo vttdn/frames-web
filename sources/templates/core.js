@@ -297,3 +297,58 @@ function shareOn(platform) {
   }
 }
 
+
+//
+// How-to Section Toggle
+//
+document.addEventListener('DOMContentLoaded', () => {
+  const howtoFigures = document.querySelectorAll('.howto figure.tile');
+
+  if (howtoFigures.length === 0) return;
+
+  howtoFigures.forEach(figure => {
+    // Make figure focusable for keyboard users
+    figure.setAttribute('tabindex', '0');
+    figure.style.cursor = 'pointer';
+
+    // Add ARIA attribute to indicate it's interactive
+    figure.setAttribute('role', 'button');
+    figure.setAttribute('aria-pressed', 'false');
+
+    // Click handler
+    const toggleContent = () => {
+      const img = figure.querySelector('img');
+      const figcaption = figure.querySelector('figcaption');
+
+      if (img && figcaption) {
+        // Check current state - if figcaption has 'ruh', we're in default state
+        const isDefaultState = figcaption.classList.contains('ruh');
+
+        if (isDefaultState) {
+          // Switch to toggled state: show img, hide figcaption
+          figcaption.classList.remove('ruh');
+          img.classList.add('ruh');
+        } else {
+          // Switch back to default state: hide img, show figcaption
+          img.classList.remove('ruh');
+          figcaption.classList.add('ruh');
+        }
+
+        // Update aria-pressed state (pressed = showing image)
+        figure.setAttribute('aria-pressed', (!isDefaultState).toString());
+      }
+    };
+
+    // Mouse click
+    figure.addEventListener('click', toggleContent);
+
+    // Keyboard support (Space or Enter)
+    figure.addEventListener('keydown', (e) => {
+      if (e.key === ' ' || e.key === 'Enter') {
+        e.preventDefault();
+        toggleContent();
+      }
+    });
+  });
+});
+

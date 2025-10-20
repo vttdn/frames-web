@@ -548,7 +548,25 @@
         </section>
 
 
+        {% if locale_data.meta.lang == "en" %}
+        <section class="howto" id="howto">
+            <h2>How to</h2>
 
+            <div class="grid grid-2col">
+                {% for i in range(1, 7) %}
+                <figure class="tile container-ratio ratio-4-3">
+                    <img src="/lib/img/shared/howto{{ i }}.webp"
+                        srcset="/lib/img/shared/howto{{ i }}.webp 1x, /lib/img/shared/howto{{ i }}@2x.webp 2x"
+                        alt="{{ locale_data.howto['howto' ~ i].heading }}" width="400" height="300" loading="lazy">
+                    <figcaption class="howto-caption flex flex-col flex-justify-between ruh">
+                        <h3>{{ locale_data.howto['howto' ~ i].heading }}</h3>
+                        <p>{{ locale_data.howto['howto' ~ i].description }}</p>
+                    </figcaption>
+                </figure>
+                {% endfor %}
+            </div>
+        </section>
+{% endif %}
         <section class="reviews review-carousel" aria-label="{{ locale_data.reviews.aria_label }}">
             <h2>{{ locale_data.reviews.heading2 }}<span class="ruh">: {{ locale_data.reviews.heading }}</span></h2>
 
@@ -779,50 +797,6 @@
                 <a href="{{ locale_data.meta.canonical_url }}/changelog/">What’s New →</a>
             </footer> -->
         </section>
-
-        <!-- <section class="howto">
-            <h2>How to</h2>
-
-            <div class="grid grid-2col">
-
-            <figure class="tile container-ratio ratio-4-3">
-                    <img src="/lib/img/shared/howto1.png"
-                        srcset="/lib/img/shared/howto1.png 1x, /lib/img/shared/howto1@2x.png 2x"
-                        alt="{{ locale_data.preview.images.preview2.alt|safe }}" width="400" height="300" loading="lazy">
-                    <figcaption class="ruh">{{ locale_data.preview.images.preview2.caption|safe }}</figcaption>
-            </figure>
-            <figure class="tile container-ratio ratio-4-3">
-                    <img src="/lib/img/shared/howto2.png"
-                        srcset="/lib/img/shared/howto2.png 1x, /lib/img/shared/howto2@2x.png 2x"
-                        alt="{{ locale_data.preview.images.preview3.alt|safe }}" width="400" height="300" loading="lazy">
-                    <figcaption class="ruh">{{ locale_data.preview.images.preview3.caption|safe }}</figcaption>
-            </figure>
-            <figure class="tile container-ratio ratio-4-3">
-                    <img src="/lib/img/shared/howto3.png"
-                        srcset="/lib/img/shared/howto3.png 1x, /lib/img/shared/howto3@2x.png 2x"
-                        alt="{{ locale_data.preview.images.preview4.alt|safe }}" width="400" height="300" loading="lazy">
-                    <figcaption class="ruh">{{ locale_data.preview.images.preview4.caption|safe }}</figcaption>
-            </figure>
-            <figure class="tile container-ratio ratio-4-3">
-                    <img src="/lib/img/shared/howto4.png"
-                        srcset="/lib/img/shared/howto4.png 1x, /lib/img/shared/howto4@2x.png 2x"
-                        alt="{{ locale_data.preview.images.preview5.alt|safe }}" width="400" height="300" loading="lazy">
-                    <figcaption class="ruh">{{ locale_data.preview.images.preview5.caption|safe }}</figcaption>
-            </figure>
-            <figure class="tile container-ratio ratio-4-3">
-                    <img src="/lib/img/shared/howto5.png"
-                        srcset="/lib/img/shared/howto5.png 1x, /lib/img/shared/howto5@2x.png 2x"
-                        alt="{{ locale_data.preview.images.preview5.alt|safe }}" width="400" height="300" loading="lazy">
-                    <figcaption class="ruh">{{ locale_data.preview.images.preview5.caption|safe }}</figcaption>
-            </figure>
-            <figure class="tile container-ratio ratio-4-3">
-                    <img src="/lib/img/shared/howto6.png"
-                        srcset="/lib/img/shared/howto6.png 1x, /lib/img/shared/howto6@2x.png 2x"
-                        alt="{{ locale_data.preview.images.preview6.alt|safe }}" width="400" height="300" loading="lazy">
-                    <figcaption class="ruh">{{ locale_data.preview.images.preview6.caption|safe }}</figcaption>
-            </figure>
-            </div>
-        </section> -->
 
 
         

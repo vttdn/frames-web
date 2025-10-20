@@ -1,0 +1,33 @@
+.howto {
+    // figure:hover {
+    //     img {
+    //         opacity: 0;
+    //     }
+    //     .howto-caption {
+    //         opacity: 1;
+    //     }
+    // }
+
+    // img:hover {
+    //     opacity: 0.5;
+    // }
+    figure {
+        cursor: pointer;
+    }
+    .howto-caption {
+        position:absolute;
+        top: 0!important;
+        left: 0!important;
+        transform: none!important;
+        padding: 14px 16px 16px;
+            p {
+                color : var(--color-gray);
+            }
+    }
+}
+
+@media (max-width: 1024px) {
+    .howto {
+        display: none;
+    }
+}
