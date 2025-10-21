@@ -14,6 +14,10 @@
     figure {
         cursor: pointer;
     }
+
+    .tile:hover {
+        background-color: var(--color-dark2);
+    }
     
     .howto-caption {
         position:absolute;
