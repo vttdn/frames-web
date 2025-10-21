@@ -82,7 +82,7 @@
       </header>
 
       {% for entry in entries %}
-      <article class="grid grid-4col" itemscope itemtype="https://schema.org/SoftwareApplication">
+      <article class="grid grid-4col" itemscope itemtype="https://schema.org/BlogPosting">
         <link itemprop="url" href="https://withframes.com/changelog/{{ entry.url_slug }}/" />
         <div class="release-info">
           <div class="release-info-inner flex flex-center flex-justify-start gap-xs2">
@@ -102,11 +102,11 @@
         </div>
 
         <div class="changelog-article-main col-span-2">
-          <h2 class="h1" itemprop="name"><a href="{{ lang_config.path }}{{ locale_data.urls.changelog }}{{ entry.url_slug }}/">{{ entry.title }}</a></h2>
+          <h2 class="h1" itemprop="headline"><a href="{{ lang_config.path }}{{ locale_data.urls.changelog }}{{ entry.url_slug }}/">{{ entry.title }}</a></h2>
           <p itemprop="description">{{ entry.summary }}</p>
-          <meta itemprop="softwareVersion" content="{{ entry.version }}" />
           <meta itemprop="datePublished" content="{{ entry.release_date }}" />
-          <meta itemprop="operatingSystem" content="{% if entry.platform == 'ios' %}iOS{% else %}macOS{% endif %}" />
+          <meta itemprop="author" content="Vincent Tantardini" />
+          <link itemprop="publisher" href="https://withframes.com/#organization" />
 
           {% for section in entry.sections %}
           {% if section.type == 'heading' %}
