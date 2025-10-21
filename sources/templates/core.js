@@ -300,10 +300,10 @@ function shareOn(platform) {
 
 
 //
-// How-to Section Toggle
+// How-to and Preview Section Toggle
 //
 document.addEventListener('DOMContentLoaded', () => {
-  const howtoFigures = document.querySelectorAll('.howto figure.tile');
+  const howtoFigures = document.querySelectorAll('.howto figure.tile, .preview figure.tile');
 
   if (howtoFigures.length === 0) return;
 

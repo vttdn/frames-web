@@ -1,16 +1,10 @@
-.howto {
-    // figure:hover {
-    //     img {
-    //         opacity: 0;
-    //     }
-    //     .howto-caption {
-    //         opacity: 1;
-    //     }
-    // }
+.howto, .preview {
 
-    // img:hover {
-    //     opacity: 0.5;
-    // }
+    strong {
+        font-size: var(--font-size-lg);
+        line-height: var(--line-height-lg);
+        font-weight: 400;
+    }
     figure {
         cursor: pointer;
     }
