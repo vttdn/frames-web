@@ -15,6 +15,13 @@
     border-radius: var(--radius-full);
   }
 
+  &.btn-square {
+    width: 44px;
+    height: 44px;
+    padding: 0;
+    border-radius: var(--radius-sm);
+  }
+
   &.btn-light {
     /* Hover states */
     &:hover {
@@ -65,3 +72,27 @@
     background-color: rgba(var(--color-white-rgb), 0.1);
   }
 }
+
+.menu-icon {
+  width: 24px;
+  height: 24px;
+  position: relative;
+  background: linear-gradient(#EDECEC 0 0) no-repeat;
+  background-size: calc(100% - 7.5px) 1.125px; /* middle line */
+  background-position: center;
+  border-radius: 1px;
+}
+
+.menu-icon::before,
+.menu-icon::after {
+  content: "";
+  position: absolute;
+  left: 3.75px;
+  right: 3.75px;
+  height: 1.125px;
+  background: #EDECEC;
+  border-radius: 1px; /* round caps */
+}
+
+.menu-icon::before { top: 6.75px; }  /* first line */
+.menu-icon::after  { top: 17.25px; } /* last line */
