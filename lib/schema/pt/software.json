@@ -1,0 +1,232 @@
+{
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "SoftwareApplication",
+          "@id": "https://withframes.com/#frames-ios",
+          "name": "Frames iOS",
+          "operatingSystem": "iOS 18.0",
+          "applicationCategory": "LifestyleApplication",
+          "applicationSubCategory": "Photography",
+          "publisher": { "@id": "https://withframes.com/#organization" },
+          "description": "App de fotografia analógica para fotógrafos. Registre configurações da câmera, organize rolos e incorpore metadados EXIF em imagens. Teste grátis para iPhone.",
+          "image": "https://withframes.com/lib/img/shared/app-icon.png",
+          "url": "https://withframes.com/pt",
+          "installUrl": "https://apps.apple.com/pt/app/frames-anotações-fotográficas/id6744057317",
+          "softwareVersion": "1.13.2",
+          "releaseNotes": "https://withframes.com/pt/changelog/1-13-ios/",
+          "isAccessibleForFree": true,
+          "contentRating": "4+",
+          "inLanguage": "pt",
+          "mainEntity": {
+            "@type": "WebPage",
+            "@id": "https://withframes.com/pt"
+          },
+          "offers": [
+            {
+              "@type": "Offer",
+              "name": "Assinatura mensal",
+              "price": "12.90",
+              "priceCurrency": "BRL",
+              "availability": "https://schema.org/InStock",
+              "priceSpecification": {
+                "@type": "PriceSpecification",
+                "price": "12.90",
+                "priceCurrency": "BRL"
+              }
+            },
+            {
+              "@type": "Offer",
+              "name": "Assinatura anual",
+              "price": "119.90",
+              "priceCurrency": "BRL",
+              "availability": "https://schema.org/InStock",
+              "priceSpecification": {
+                "@type": "PriceSpecification",
+                "price": "119.90",
+                "priceCurrency": "BRL"
+              }
+            }
+          ],
+          "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "5",
+            "reviewCount": "7"
+          },
+          "review": [
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "Maria Garcia" },
+            "datePublished": "2025-07-12",
+            "name": "App confiável para fotografias analógicas com EXIF",
+            "reviewBody": "Fácil de usar, fiável e app com preço justo que transfere dados de captura, incluindo geolocalização, para o EXIF de negativos digitalizados. O programador ouve o feedback e continua a melhorar. Excelente!",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            },
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "Emma Richardson" },
+            "datePublished": "2025-08-23",
+            "name": "Ideal para registar exposição e localização",
+            "reviewBody": "Ótimo para registar exposição e localização ao fotografar em película, ideal para analisar definições ou manter dados tipo EXIF. O programador corrigiu um erro em um dia. Altamente recomendado!",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            },
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "Roger Nordstrom Photo" },
+            "datePublished": "2025-04-15",
+            "name": "Organize notas de fotografia analógica",
+            "reviewBody": "Ao regressar à fotografia em película, sentia falta de metadados até encontrar o Frames. Substitui notas em papel, ajuda-me a manter-me organizado e mais consciente ao fotografar. Indispensável para fotógrafos de película!",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            },
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "James Anderson" },
+            "datePublished": "2025-09-05",
+            "name": "Interface limpa e detalhes intencionais",
+            "reviewBody": "Nota-se que o programador também usa a app. Cada pequeno detalhe parece intencional e a interface é limpa e simples. Tudo funciona perfeitamente. Facilmente a melhor app de notas de película disponível!",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            },
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "Ingrid Lindholm" },
+            "datePublished": "2025-10-03",
+            "name": "Rápida, simples e respeita a privacidade",
+            "reviewBody": "O melhor aplicativo de fotografia analógica que já usei. Simples, rápido e com todos os recursos que preciso para organizar meu trabalho. Sem anúncios, sem rastreamento e a privacidade é respeitada.",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            },
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "Hivonmarius" },
+            "datePublished": "2025-10-11",
+            "name": "App elegante e funcional para rolos de filme",
+            "reviewBody": "O aplicativo é simples e faz exatamente o que deve. Gosto de poder nomear meus rolos de filme atuais, pois às vezes esqueço qual câmera usei. A interface é limpa, elegante e bem elaborada.",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            },
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "ガーティ・ルー" },
+            "datePublished": "2025-10-19",
+            "name": "O aplicativo perfeito",
+            "reviewBody": "Obrigado por criar o app de fotografia analógica que eu queria fazer! É realmente um aplicativo excepcional. Tem todas as funcionalidades essenciais para documentar fotografias em filme. As opções de personalização são ótimas e poder adicionar seus próprios filmes é perfeito. Estou completamente satisfeito.",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            }
+          ]
+        },
+        {
+          "@type": "SoftwareApplication",
+          "@id": "https://withframes.com/#frames-macos",
+          "name": "Frames macOS",
+          "operatingSystem": "macOS 15.0",
+          "applicationCategory": "LifestyleApplication",
+          "applicationSubCategory": "Photography",
+          "publisher": { "@id": "https://withframes.com/#organization" },
+          "description": "App de fotografia analógica para fotógrafos. Registre configurações da câmera, organize rolos e incorpore metadados EXIF em imagens. Teste grátis para iPhone.",
+          "image": "https://withframes.com/lib/img/shared/app-icon.png",
+          "url": "https://withframes.com/pt",
+          "installUrl": "https://apps.apple.com/pt/app/frames-metadados-foto/id6744063354",
+          "softwareVersion": "1.8.1",
+          "releaseNotes": "https://withframes.com/pt/changelog/1-8-macos/",
+          "contentRating": "4+",
+          "isAccessibleForFree": true,
+          "mainEntity": {
+            "@type": "WebPage",
+            "@id": "https://withframes.com/pt"
+          },
+          "inLanguage": "pt",
+          "offers": [
+            {
+              "@type": "Offer",
+              "name": "Assinatura mensal",
+              "price": "12.90",
+              "priceCurrency": "BRL",
+              "availability": "https://schema.org/InStock",
+              "priceSpecification": {
+                "@type": "PriceSpecification",
+                "price": "12.90",
+                "priceCurrency": "BRL"
+              }
+            },
+            {
+              "@type": "Offer",
+              "name": "Assinatura anual",
+              "price": "119.90",
+              "priceCurrency": "BRL",
+              "availability": "https://schema.org/InStock",
+              "priceSpecification": {
+                "@type": "PriceSpecification",
+                "price": "119.90",
+                "priceCurrency": "BRL"
+              }
+            }
+          ],
+          "review": [
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "BHenriquez" },
+            "datePublished": "2025-05-08",
+            "name": "Registe cada exposição sem cadernos",
+            "reviewBody": "Como fotógrafo de película que revela em casa, adoro como o Frames me permite registar cada exposição sem o incómodo de cadernos. É a solução perfeita e prática. Aderi ao Pro e nunca olhei para trás!",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            },
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "Hedley Wright" },
+            "datePublished": "2025-10-18",
+            "name": "Indispensável para entusiastas de fotografia analógica",
+            "reviewBody": "Ferramenta essencial para fotógrafos analógicos. Perfeito para adicionar metadados a digitalizações: abertura, velocidade, filtros, local, filme. Atualizações regulares, ótimo suporte. Altamente recomendado.",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            }
+          ],
+          "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "5",
+            "reviewCount": "2"
+          }
+        }
+      ]
+    }

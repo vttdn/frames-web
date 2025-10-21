@@ -1,0 +1,232 @@
+{
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "SoftwareApplication",
+          "@id": "https://withframes.com/#frames-ios",
+          "name": "Frames iOS",
+          "operatingSystem": "iOS 18.0",
+          "applicationCategory": "LifestyleApplication",
+          "applicationSubCategory": "Photography",
+          "publisher": { "@id": "https://withframes.com/#organization" },
+          "description": "アナログ写真家向けフィルム写真アプリ。カメラ設定を記録、ロールを整理、スキャン画像にEXIFメタデータを埋め込み。iPhone & Mac無料トライアル。",
+          "image": "https://withframes.com/lib/img/shared/app-icon.png",
+          "url": "https://withframes.com/ja",
+          "installUrl": "https://apps.apple.com/jp/app/frames-フィルム写真ノート/id6744057317",
+          "softwareVersion": "1.13.2",
+          "releaseNotes": "https://withframes.com/ja/changelog/1-13-ios/",
+          "isAccessibleForFree": true,
+          "contentRating": "4+",
+          "inLanguage": "ja",
+          "mainEntity": {
+            "@type": "WebPage",
+            "@id": "https://withframes.com/ja"
+          },
+          "offers": [
+            {
+              "@type": "Offer",
+              "name": "月額サブスクリプション",
+              "price": "300",
+              "priceCurrency": "JPY",
+              "availability": "https://schema.org/InStock",
+              "priceSpecification": {
+                "@type": "PriceSpecification",
+                "price": "300",
+                "priceCurrency": "JPY"
+              }
+            },
+            {
+              "@type": "Offer",
+              "name": "年額サブスクリプション",
+              "price": "3000",
+              "priceCurrency": "JPY",
+              "availability": "https://schema.org/InStock",
+              "priceSpecification": {
+                "@type": "PriceSpecification",
+                "price": "3000",
+                "priceCurrency": "JPY"
+              }
+            }
+          ],
+          "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "5",
+            "reviewCount": "7"
+          },
+          "review": [
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "Maria Garcia" },
+            "datePublished": "2025-07-12",
+            "name": "信頼性の高いフィルム写真アプリで撮影データをEXIFに転送",
+            "reviewBody": "使いやすく、信頼性が高く、適正価格のアプリです。位置情報を含む撮影データをスキャンしたネガのEXIFに転送できます。開発者はフィードバックに耳を傾け、改善を続けています。素晴らしい!",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            },
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "Emma Richardson" },
+            "datePublished": "2025-08-23",
+            "name": "フィルム撮影時の露出と位置情報を簡単に記録",
+            "reviewBody": "フィルム撮影時の露出と位置情報の記録に最適。設定の分析やEXIF形式のデータ保存に理想的です。開発者が1日でバグを修正してくれました。強くおすすめします!",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            },
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "Roger Nordstrom Photo" },
+            "datePublished": "2025-04-15",
+            "name": "フィルム写真家を整理整頓と意識向上に導くFrames",
+            "reviewBody": "フィルム写真に戻ったとき、メタデータがないのが残念でしたが、Framesを見つけました。紙のメモに代わり、整理整頓でき、撮影時の意識も高まります。フィルム写真家必携です!",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            },
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "James Anderson" },
+            "datePublished": "2025-09-05",
+            "name": "クリーンでシンプル、最高のフィルム記録アプリ",
+            "reviewBody": "開発者自身がアプリを使っていることがわかります。細部まで意図的で、インターフェースはクリーンでシンプル。すべてがスムーズに動作します。間違いなく最高のフィルム記録アプリです!",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            },
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "Ingrid Lindholm" },
+            "datePublished": "2025-10-03",
+            "name": "高速でプライベート、機能豊富なアナログ写真アプリ",
+            "reviewBody": "これまで使った中で最高のアナログ写真アプリです。シンプルで高速、作業を整理するために必要な機能がすべて揃っています。広告なし、追跡なし、プライバシーも守られています。",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            },
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "Hivonmarius" },
+            "datePublished": "2025-10-11",
+            "name": "フィルムロール管理に最適なエレガントなアプリ",
+            "reviewBody": "アプリはシンプルで、必要なことを正確に行います。現在のフィルムロールに名前を付けられるのが便利で、どのカメラで撮ったか忘れることもありません。UIは清潔でエレガント、よく作られています。",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            },
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "ガーティ・ルー" },
+            "datePublished": "2025-10-19",
+            "name": "理想的なアプリ",
+            "reviewBody": "自分で作りたかったフィルム撮影記録アプリを実現してくれて感謝しています！本当に素晴らしいアプリです。フィルム撮影に必要な機能が全て揃っています。カスタマイズ可能な点も優れているし、フィルムを自由に登録できる機能も完璧です。とても満足しています。",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            }
+          ]
+        },
+        {
+          "@type": "SoftwareApplication",
+          "@id": "https://withframes.com/#frames-macos",
+          "name": "Frames macOS",
+          "operatingSystem": "macOS 15.0",
+          "applicationCategory": "LifestyleApplication",
+          "applicationSubCategory": "Photography",
+          "publisher": { "@id": "https://withframes.com/#organization" },
+          "description": "アナログ写真家向けフィルム写真アプリ。カメラ設定を記録、ロールを整理、スキャン画像にEXIFメタデータを埋め込み。iPhone & Mac無料トライアル。",
+          "image": "https://withframes.com/lib/img/shared/app-icon.png",
+          "url": "https://withframes.com/ja",
+          "installUrl": "https://apps.apple.com/jp/app/frames-フィルム写真メタデータ/id6744063354",
+          "softwareVersion": "1.8.1",
+          "releaseNotes": "https://withframes.com/ja/changelog/1-8-macos/",
+          "contentRating": "4+",
+          "isAccessibleForFree": true,
+          "mainEntity": {
+            "@type": "WebPage",
+            "@id": "https://withframes.com/ja"
+          },
+          "inLanguage": "ja",
+          "offers": [
+            {
+              "@type": "Offer",
+              "name": "月額サブスクリプション",
+              "price": "300",
+              "priceCurrency": "JPY",
+              "availability": "https://schema.org/InStock",
+              "priceSpecification": {
+                "@type": "PriceSpecification",
+                "price": "300",
+                "priceCurrency": "JPY"
+              }
+            },
+            {
+              "@type": "Offer",
+              "name": "年額サブスクリプション",
+              "price": "3000",
+              "priceCurrency": "JPY",
+              "availability": "https://schema.org/InStock",
+              "priceSpecification": {
+                "@type": "PriceSpecification",
+                "price": "3000",
+                "priceCurrency": "JPY"
+              }
+            }
+          ],
+          "review": [
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "BHenriquez" },
+            "datePublished": "2025-05-08",
+            "name": "ノート不要でフィルム写真を簡単に記録できるアプリ",
+            "reviewBody": "自家現像するフィルム写真家として、Framesでノートの手間なく全ショットを記録できるのが気に入っています。完璧で実用的なソリューションです。Proにアップグレードして後悔なし!",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            },
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "Hedley Wright" },
+            "datePublished": "2025-10-18",
+            "name": "フィルム写真愛好家に不可欠",
+            "reviewBody": "フィルム写真家の必須ツール。スキャンへのメタデータ追加に最適：絞り、シャッター速度、フィルター、場所、フィルムストック。定期的なアップデート、優れたサポート。強くお勧めします。",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            }
+          ],
+          "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "5",
+            "reviewCount": "2"
+          }
+        }
+      ]
+    }

@@ -1,0 +1,232 @@
+{
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "SoftwareApplication",
+          "@id": "https://withframes.com/#frames-ios",
+          "name": "Frames iOS",
+          "operatingSystem": "iOS 18.0",
+          "applicationCategory": "LifestyleApplication",
+          "applicationSubCategory": "Photography",
+          "publisher": { "@id": "https://withframes.com/#organization" },
+          "description": "Aplikasi fotografi film untuk fotografer analog. Lacak pengaturan kamera, atur rol, dan sisipkan metadata EXIF ke gambar scan. Uji coba gratis untuk iPhone.",
+          "image": "https://withframes.com/lib/img/shared/app-icon.png",
+          "url": "https://withframes.com/id",
+          "installUrl": "https://apps.apple.com/id/app/frames-catatan-fotografi/id6744057317?l=id",
+          "softwareVersion": "1.13.2",
+          "releaseNotes": "https://withframes.com/id/changelog/1-13-ios/",
+          "isAccessibleForFree": true,
+          "contentRating": "4+",
+          "inLanguage": "id",
+          "mainEntity": {
+            "@type": "WebPage",
+            "@id": "https://withframes.com/id"
+          },
+          "offers": [
+            {
+              "@type": "Offer",
+              "name": "Langganan bulanan",
+              "price": "29000",
+              "priceCurrency": "IDR",
+              "availability": "https://schema.org/InStock",
+              "priceSpecification": {
+                "@type": "PriceSpecification",
+                "price": "29000",
+                "priceCurrency": "IDR"
+              }
+            },
+            {
+              "@type": "Offer",
+              "name": "Langganan tahunan",
+              "price": "299000",
+              "priceCurrency": "IDR",
+              "availability": "https://schema.org/InStock",
+              "priceSpecification": {
+                "@type": "PriceSpecification",
+                "price": "299000",
+                "priceCurrency": "IDR"
+              }
+            }
+          ],
+          "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "5",
+            "reviewCount": "7"
+          },
+          "review": [
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "Maria Garcia" },
+            "datePublished": "2025-07-12",
+            "name": "Aplikasi Fotografi Film Andal yang Mentransfer Data Pemotretan",
+            "reviewBody": "Mudah digunakan, aplikasi andal yang mentransfer data pemotretan, termasuk geolokasi, ke EXIF negatif yang dipindai. Developer mendengarkan umpan balik dan terus meningkatkan. Luar biasa!",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            },
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "Emma Richardson" },
+            "datePublished": "2025-08-23",
+            "name": "Merekam Eksposur dan Lokasi dengan Mudah Saat Memotret Film",
+            "reviewBody": "Hebat untuk merekam eksposur dan lokasi saat memotret film, ideal untuk menganalisis pengaturan atau menyimpan data bergaya EXIF. Developer memperbaiki bug dalam sehari. Sangat direkomendasikan!",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            },
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "Roger Nordstrom Photo" },
+            "datePublished": "2025-04-15",
+            "name": "Frames Membantu Fotografer Film Tetap Terorganisir dan Sadar",
+            "reviewBody": "Kembali ke film, saya merindukan metadata sampai menemukan Frames. Ini menggantikan catatan kertas, membantu saya tetap terorganisir, dan membuat saya lebih perhatian saat memotret. Wajib untuk fotografer film!",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            },
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "James Anderson" },
+            "datePublished": "2025-09-05",
+            "name": "Bersih, Sederhana, dan Aplikasi Catatan Film Terbaik",
+            "reviewBody": "Anda bisa tahu bahwa developer juga menggunakan aplikasi ini. Setiap detail kecil terasa disengaja, dan antarmukanya bersih dan sederhana. Semuanya bekerja dengan lancar. Mudah aplikasi catatan film terbaik yang tersedia!",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            },
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "Ingrid Lindholm" },
+            "datePublished": "2025-10-03",
+            "name": "Cepat, Privat, dan Aplikasi Fotografi Analog Kaya Fitur",
+            "reviewBody": "Aplikasi fotografi analog terbaik yang pernah saya gunakan. Sederhana, cepat, dan memiliki semua fitur yang saya butuhkan untuk mengatur pekerjaan saya. Tanpa iklan, tanpa pelacakan, privasi tetap terjaga.",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            },
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "Hivonmarius" },
+            "datePublished": "2025-10-11",
+            "name": "Aplikasi Elegan dan Terbaik untuk Mengelola Roll Film",
+            "reviewBody": "Aplikasinya sederhana dan melakukan persis apa yang seharusnya. Saya suka bisa memberi nama pada roll film saya saat ini karena kadang lupa kamera mana yang saya pakai. UI bersih, elegan, dan dirancang dengan baik.",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            },
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "ガーティ・ルー" },
+            "datePublished": "2025-10-19",
+            "name": "Aplikasi yang sempurna",
+            "reviewBody": "Terima kasih telah membuat aplikasi fotografi film yang selama ini ingin saya buat sendiri! Ini benar-benar aplikasi yang luar biasa. Semua fitur penting untuk mencatat pemotretan film tersedia lengkap. Opsi kustomisasinya sangat bagus dan kemampuan menambahkan stok film sendiri sangat sempurna. Saya sangat puas.",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            }
+          ]
+        },
+        {
+          "@type": "SoftwareApplication",
+          "@id": "https://withframes.com/#frames-macos",
+          "name": "Frames macOS",
+          "operatingSystem": "macOS 15.0",
+          "applicationCategory": "LifestyleApplication",
+          "applicationSubCategory": "Photography",
+          "publisher": { "@id": "https://withframes.com/#organization" },
+          "description": "Aplikasi fotografi film untuk fotografer analog. Lacak pengaturan kamera, atur rol, dan sisipkan metadata EXIF ke gambar scan. Uji coba gratis untuk iPhone.",
+          "image": "https://withframes.com/lib/img/shared/app-icon.png",
+          "url": "https://withframes.com/id",
+          "installUrl": "https://apps.apple.com/id/app/frames-metadata-foto/id6744063354?l=id",
+          "softwareVersion": "1.8.1",
+          "releaseNotes": "https://withframes.com/id/changelog/1-8-macos/",
+          "contentRating": "4+",
+          "isAccessibleForFree": true,
+          "mainEntity": {
+            "@type": "WebPage",
+            "@id": "https://withframes.com/id"
+          },
+          "inLanguage": "id",
+          "offers": [
+            {
+              "@type": "Offer",
+              "name": "Langganan bulanan",
+              "price": "29000",
+              "priceCurrency": "IDR",
+              "availability": "https://schema.org/InStock",
+              "priceSpecification": {
+                "@type": "PriceSpecification",
+                "price": "29000",
+                "priceCurrency": "IDR"
+              }
+            },
+            {
+              "@type": "Offer",
+              "name": "Langganan tahunan",
+              "price": "299000",
+              "priceCurrency": "IDR",
+              "availability": "https://schema.org/InStock",
+              "priceSpecification": {
+                "@type": "PriceSpecification",
+                "price": "299000",
+                "priceCurrency": "IDR"
+              }
+            }
+          ],
+          "review": [
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "BHenriquez" },
+            "datePublished": "2025-05-08",
+            "name": "Aplikasi Sempurna untuk Mencatat Foto Film Tanpa Buku Catatan",
+            "reviewBody": "Sebagai fotografer film yang mencuci di rumah, saya suka bagaimana Frames memungkinkan saya mencatat setiap foto tanpa repot menggunakan buku catatan. Ini solusi yang sempurna dan praktis. Upgrade ke Pro dan tidak pernah menyesal!",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            },
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "Hedley Wright" },
+            "datePublished": "2025-10-18",
+            "name": "Sangat penting untuk penggemar fotografi film",
+            "reviewBody": "Alat penting untuk fotografer film. Sempurna untuk menambahkan metadata ke scan: apertur, kecepatan rana, filter, lokasi, stok film. Update rutin, dukungan hebat. Sangat direkomendasikan.",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            }
+          ],
+          "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "5",
+            "reviewCount": "2"
+          }
+        }
+      ]
+    }

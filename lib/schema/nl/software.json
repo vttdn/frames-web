@@ -1,0 +1,232 @@
+{
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "SoftwareApplication",
+          "@id": "https://withframes.com/#frames-ios",
+          "name": "Frames iOS",
+          "operatingSystem": "iOS 18.0",
+          "applicationCategory": "LifestyleApplication",
+          "applicationSubCategory": "Photography",
+          "publisher": { "@id": "https://withframes.com/#organization" },
+          "description": "Filmfotografie-app voor analoge fotografen. Leg camera-instellingen vast, organiseer rolletjes en voeg EXIF-metadata toe. Gratis proefversie voor iPhone en Mac.",
+          "image": "https://withframes.com/lib/img/shared/app-icon.png",
+          "url": "https://withframes.com/nl",
+          "installUrl": "https://apps.apple.com/nl/app/frames-filmnotities/id6744057317",
+          "softwareVersion": "1.13.2",
+          "releaseNotes": "https://withframes.com/nl/changelog/1-13-ios/",
+          "isAccessibleForFree": true,
+          "contentRating": "4+",
+          "inLanguage": "nl",
+          "mainEntity": {
+            "@type": "WebPage",
+            "@id": "https://withframes.com/nl"
+          },
+          "offers": [
+            {
+              "@type": "Offer",
+              "name": "Maandelijks abonnement",
+              "price": "1.99",
+              "priceCurrency": "EUR",
+              "availability": "https://schema.org/InStock",
+              "priceSpecification": {
+                "@type": "PriceSpecification",
+                "price": "1.99",
+                "priceCurrency": "EUR"
+              }
+            },
+            {
+              "@type": "Offer",
+              "name": "Jaarabonnement",
+              "price": "19.99",
+              "priceCurrency": "EUR",
+              "availability": "https://schema.org/InStock",
+              "priceSpecification": {
+                "@type": "PriceSpecification",
+                "price": "19.99",
+                "priceCurrency": "EUR"
+              }
+            }
+          ],
+          "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "5",
+            "reviewCount": "7"
+          },
+          "review": [
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "Maria Garcia" },
+            "datePublished": "2025-07-12",
+            "name": "Betrouwbare filmfotografie-app die opnamegegevens naar EXIF overbrengt",
+            "reviewBody": "Gebruiksvriendelijke, betrouwbare en eerlijk geprijsde app die opnamegegevens, inclusief locatie, overbrengt naar de EXIF van gescande negatieven. De ontwikkelaar luistert naar feedback en blijft verbeteren. Uitstekend!",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            },
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "Emma Richardson" },
+            "datePublished": "2025-08-23",
+            "name": "Registreer belichting en locatie eenvoudig bij filmfotografie",
+            "reviewBody": "Ideaal voor het registreren van belichting en locatie bij filmfotografie, perfect voor het analyseren van instellingen of het bewaren van EXIF-achtige gegevens. De ontwikkelaar heeft binnen een dag een bug opgelost. Zeer aan te raden!",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            },
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "Roger Nordstrom Photo" },
+            "datePublished": "2025-04-15",
+            "name": "Organiseer filmnotities met Frames",
+            "reviewBody": "Toen ik terugkeerde naar filmfotografie, miste ik metagegevens totdat ik Frames vond. Het vervangt papieren notities, helpt me georganiseerd te blijven en bewuster te fotograferen. Een must voor filmfotografen!",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            },
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "James Anderson" },
+            "datePublished": "2025-09-05",
+            "name": "Doordachte en intuïtieve filmnotitie-app",
+            "reviewBody": "Je merkt dat de ontwikkelaar de app zelf ook gebruikt. Elk klein detail voelt doordacht aan en de interface is strak en eenvoudig. Alles werkt soepel. Zonder twijfel de beste filmnotitie-app die er is!",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            },
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "Ingrid Lindholm" },
+            "datePublished": "2025-10-03",
+            "name": "Snel en privé voor analoge fotografie",
+            "reviewBody": "De beste app voor analoge fotografie die ik tot nu toe heb gebruikt. Simpel, snel en met alle functies die ik nodig heb om mijn werk te organiseren. Geen advertenties, geen tracking, privacy wordt gerespecteerd.",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            },
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "Hivonmarius" },
+            "datePublished": "2025-10-11",
+            "name": "Elegante en functionele app voor filmrolletjes",
+            "reviewBody": "De app is eenvoudig en doet precies wat hij moet. Ik vind het fijn dat ik mijn huidige filmrolletjes kan benoemen, want soms vergeet ik welk camera ik gebruikte. De interface is schoon, elegant en goed ontworpen.",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            },
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "ガーティ・ルー" },
+            "datePublished": "2025-10-19",
+            "name": "Uitstekende app",
+            "reviewBody": "Bedankt dat je de filmfotografie-app hebt gemaakt die ik zelf wilde ontwikkelen! Het is echt een topapp. Alle essentiële functies voor het bijhouden van filmopnames zijn aanwezig. De aanpasmogelijkheden zijn geweldig en het kunnen toevoegen van eigen filmtypes is perfect. Helemaal tevreden.",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            }
+          ]
+        },
+        {
+          "@type": "SoftwareApplication",
+          "@id": "https://withframes.com/#frames-macos",
+          "name": "Frames macOS",
+          "operatingSystem": "macOS 15.0",
+          "applicationCategory": "LifestyleApplication",
+          "applicationSubCategory": "Photography",
+          "publisher": { "@id": "https://withframes.com/#organization" },
+          "description": "Filmfotografie-app voor analoge fotografen. Leg camera-instellingen vast, organiseer rolletjes en voeg EXIF-metadata toe. Gratis proefversie voor iPhone en Mac.",
+          "image": "https://withframes.com/lib/img/shared/app-icon.png",
+          "url": "https://withframes.com/nl",
+          "installUrl": "https://apps.apple.com/nl/app/frames-film-metagegevens/id6744063354",
+          "softwareVersion": "1.8.1",
+          "releaseNotes": "https://withframes.com/nl/changelog/1-8-macos/",
+          "contentRating": "4+",
+          "isAccessibleForFree": true,
+          "mainEntity": {
+            "@type": "WebPage",
+            "@id": "https://withframes.com/nl"
+          },
+          "inLanguage": "nl",
+          "offers": [
+            {
+              "@type": "Offer",
+              "name": "Maandelijks abonnement",
+              "price": "1.99",
+              "priceCurrency": "EUR",
+              "availability": "https://schema.org/InStock",
+              "priceSpecification": {
+                "@type": "PriceSpecification",
+                "price": "1.99",
+                "priceCurrency": "EUR"
+              }
+            },
+            {
+              "@type": "Offer",
+              "name": "Jaarabonnement",
+              "price": "19.99",
+              "priceCurrency": "EUR",
+              "availability": "https://schema.org/InStock",
+              "priceSpecification": {
+                "@type": "PriceSpecification",
+                "price": "19.99",
+                "priceCurrency": "EUR"
+              }
+            }
+          ],
+          "review": [
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "BHenriquez" },
+            "datePublished": "2025-05-08",
+            "name": "Log elke opname zonder notitieboekjes",
+            "reviewBody": "Als filmfotograaf die thuis ontwikkelt, vind ik het geweldig hoe Frames me elke opname laat vastleggen zonder gedoe met notitieboekjes. Het is de perfecte en praktische oplossing. Ben overgestapt naar Pro en kijk niet meer terug!",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            },
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "Hedley Wright" },
+            "datePublished": "2025-10-18",
+            "name": "Onmisbaar voor filmfotografie liefhebbers",
+            "reviewBody": "Essentieel hulpmiddel voor filmfotografen. Perfect voor het toevoegen van metadata aan scans: diafragma, sluitertijd, filters, locatie, filmtype. Regelmatige updates, geweldige ondersteuning. Sterk aanbevolen.",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            }
+          ],
+          "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "5",
+            "reviewCount": "2"
+          }
+        }
+      ]
+    }

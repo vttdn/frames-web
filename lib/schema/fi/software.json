@@ -1,0 +1,232 @@
+{
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "SoftwareApplication",
+          "@id": "https://withframes.com/#frames-ios",
+          "name": "Frames iOS",
+          "operatingSystem": "iOS 18.0",
+          "applicationCategory": "LifestyleApplication",
+          "applicationSubCategory": "Photography",
+          "publisher": { "@id": "https://withframes.com/#organization" },
+          "description": "Filmikuvaussovellus analogivalokuvaajille. Tallenna kamera-asetukset, järjestä rullat ja upota EXIF-metadata skannattuihin kuviin. Ilmainen kokeilu iPhonelle.",
+          "image": "https://withframes.com/lib/img/shared/app-icon.png",
+          "url": "https://withframes.com/fi",
+          "installUrl": "https://apps.apple.com/fi/app/frames-valokuvamuistiinpanot/id6744057317?l=fi",
+          "softwareVersion": "1.13.2",
+          "releaseNotes": "https://withframes.com/fi/changelog/1-13-ios/",
+          "isAccessibleForFree": true,
+          "contentRating": "4+",
+          "inLanguage": "fi",
+          "mainEntity": {
+            "@type": "WebPage",
+            "@id": "https://withframes.com/fi"
+          },
+          "offers": [
+            {
+              "@type": "Offer",
+              "name": "Kuukausitilaus",
+              "price": "1.99",
+              "priceCurrency": "EUR",
+              "availability": "https://schema.org/InStock",
+              "priceSpecification": {
+                "@type": "PriceSpecification",
+                "price": "1.99",
+                "priceCurrency": "EUR"
+              }
+            },
+            {
+              "@type": "Offer",
+              "name": "Vuosittainen tilaus",
+              "price": "19.99",
+              "priceCurrency": "EUR",
+              "availability": "https://schema.org/InStock",
+              "priceSpecification": {
+                "@type": "PriceSpecification",
+                "price": "19.99",
+                "priceCurrency": "EUR"
+              }
+            }
+          ],
+          "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "5",
+            "reviewCount": "7"
+          },
+          "review": [
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "Maria Garcia" },
+            "datePublished": "2025-07-12",
+            "name": "Luotettava Filmikuvaussovellus, Joka Siirtää Kuvaustiedot",
+            "reviewBody": "Helppokäyttöinen, luotettava sovellus, joka siirtää kuvaustiedot, mukaan lukien sijaintitiedot, skannattujen negatiivien EXIF-tietoihin. Kehittäjä kuuntelee palautetta ja parantaa jatkuvasti. Erinomainen!",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            },
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "Emma Richardson" },
+            "datePublished": "2025-08-23",
+            "name": "Helppo Valotuksen ja Sijainnin Tallentaminen Filmikuvauksessa",
+            "reviewBody": "Loistava valotuksen ja sijainnin tallentamiseen filmikuvauksessa, ihanteellinen asetusten analysointiin tai EXIF-tyyppisten tietojen säilyttämiseen. Kehittäjä korjasi virheen päivässä. Erittäin suositeltava!",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            },
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "Roger Nordstrom Photo" },
+            "datePublished": "2025-04-15",
+            "name": "Frames Pidättää Filmikuvaajat Järjestyksessä ja Tarkkaavaisina",
+            "reviewBody": "Palatessani filmiin kaipaisin metatietoja kunnes löysin Framesin. Se korvaa paperimuistiinpanot, auttaa pysymään järjestyksessä ja pitää minut tarkkaavaisena kuvatessa. Pakollinen filmivalokuvaajille!",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            },
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "James Anderson" },
+            "datePublished": "2025-09-05",
+            "name": "Selkeä, Yksinkertainen ja Paras Filmimuistiinpanosovellus",
+            "reviewBody": "Huomaa että kehittäjä käyttää sovellusta itsekin. Jokainen pieni yksityiskohta tuntuu tarkoitukselliselta ja käyttöliittymä on selkeä ja yksinkertainen. Kaikki toimii sujuvasti. Helposti paras filmimuistiinpanosovellus!",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            },
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "Ingrid Lindholm" },
+            "datePublished": "2025-10-03",
+            "name": "Nopea, Yksityinen ja Monipuolinen Analogisen Valokuvauksen Sovellus",
+            "reviewBody": "Paras analogisen valokuvauksen sovellus, jota olen käyttänyt. Yksinkertainen, nopea ja kaikki ominaisuudet, joita tarvitsen työn järjestämiseen. Ei mainoksia, ei seurantaa, yksityisyys säilyy.",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            },
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "Hivonmarius" },
+            "datePublished": "2025-10-11",
+            "name": "Tyylikäs ja Huolellisesti Suunniteltu Sovellus Filmirullien Hallintaan",
+            "reviewBody": "Sovellus on yksinkertainen ja tekee juuri sen, mitä sen pitää. Tykkään, että voin nimetä nykyiset filmirullani, sillä joskus unohdan, millä kameralla kuvasin. Käyttöliittymä on selkeä, elegantti ja hyvin tehty.",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            },
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "ガーティ・ルー" },
+            "datePublished": "2025-10-19",
+            "name": "Täydellinen sovellus",
+            "reviewBody": "Kiitos, että loit filmikuvaussovelluksen, jonka itse halusin tehdä! Tämä on todella loistava sovellus. Siinä on kaikki tarvittavat toiminnot filmikuvausten dokumentointiin. Mukautusmahdollisuudet ovat erinomaiset ja mahdollisuus lisätä omia filimityyppejä on täydellistä. Olen erittäin tyytyväinen.",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            }
+          ]
+        },
+        {
+          "@type": "SoftwareApplication",
+          "@id": "https://withframes.com/#frames-macos",
+          "name": "Frames macOS",
+          "operatingSystem": "macOS 15.0",
+          "applicationCategory": "LifestyleApplication",
+          "applicationSubCategory": "Photography",
+          "publisher": { "@id": "https://withframes.com/#organization" },
+          "description": "Filmikuvaussovellus analogivalokuvaajille. Tallenna kamera-asetukset, järjestä rullat ja upota EXIF-metadata skannattuihin kuviin. Ilmainen kokeilu iPhonelle.",
+          "image": "https://withframes.com/lib/img/shared/app-icon.png",
+          "url": "https://withframes.com/fi",
+          "installUrl": "https://apps.apple.com/fi/app/frames-valokuvametatiedot/id6744063354?l=fi",
+          "softwareVersion": "1.8.1",
+          "releaseNotes": "https://withframes.com/fi/changelog/1-8-macos/",
+          "contentRating": "4+",
+          "isAccessibleForFree": true,
+          "mainEntity": {
+            "@type": "WebPage",
+            "@id": "https://withframes.com/fi"
+          },
+          "inLanguage": "fi",
+          "offers": [
+            {
+              "@type": "Offer",
+              "name": "Kuukausitilaus",
+              "price": "1.99",
+              "priceCurrency": "EUR",
+              "availability": "https://schema.org/InStock",
+              "priceSpecification": {
+                "@type": "PriceSpecification",
+                "price": "1.99",
+                "priceCurrency": "EUR"
+              }
+            },
+            {
+              "@type": "Offer",
+              "name": "Vuosittainen tilaus",
+              "price": "19.99",
+              "priceCurrency": "EUR",
+              "availability": "https://schema.org/InStock",
+              "priceSpecification": {
+                "@type": "PriceSpecification",
+                "price": "19.99",
+                "priceCurrency": "EUR"
+              }
+            }
+          ],
+          "review": [
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "BHenriquez" },
+            "datePublished": "2025-05-08",
+            "name": "Täydellinen Sovellus Filmikuvien Kirjaamiseen Ilman Muistikirjoja",
+            "reviewBody": "Kotona filmejä kehittävänä valokuvaajana rakastan, kuinka Frames antaa minun kirjata jokaisen kuvan ilman muistikirjojen vaivaa. Se on täydellinen ja käytännöllinen ratkaisu. Vaihdoin Pro-versioon enkä ole katunut!",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            },
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "Hedley Wright" },
+            "datePublished": "2025-10-18",
+            "name": "Välttämätön filmikuvausharrastajille",
+            "reviewBody": "Olennainen työkalu filmikuvaajille. Täydellinen metadatan lisäämiseen skannauksiin: aukko, suljin, suodattimet, sijainti, filmityyppi. Säännölliset päivitykset, loistava tuki. Erittäin suositeltava.",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            }
+          ],
+          "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "5",
+            "reviewCount": "2"
+          }
+        }
+      ]
+    }

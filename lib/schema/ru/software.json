@@ -1,0 +1,232 @@
+{
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "SoftwareApplication",
+          "@id": "https://withframes.com/#frames-ios",
+          "name": "Frames iOS",
+          "operatingSystem": "iOS 18.0",
+          "applicationCategory": "LifestyleApplication",
+          "applicationSubCategory": "Photography",
+          "publisher": { "@id": "https://withframes.com/#organization" },
+          "description": "Приложение для плёночной фотографии и аналоговых снимков. Записывайте настройки камеры, организуйте плёнки и встраивайте EXIF. Бесплатная пробная версия.",
+          "image": "https://withframes.com/lib/img/shared/app-icon.png",
+          "url": "https://withframes.com/ru",
+          "installUrl": "https://apps.apple.com/ru/app/frames-заметки-о-плёнке/id6744057317",
+          "softwareVersion": "1.13.2",
+          "releaseNotes": "https://withframes.com/ru/changelog/1-13-ios/",
+          "isAccessibleForFree": true,
+          "contentRating": "4+",
+          "inLanguage": "ru",
+          "mainEntity": {
+            "@type": "WebPage",
+            "@id": "https://withframes.com/ru"
+          },
+          "offers": [
+            {
+              "@type": "Offer",
+              "name": "Ежемесячная подписка",
+              "price": "199",
+              "priceCurrency": "RUB",
+              "availability": "https://schema.org/InStock",
+              "priceSpecification": {
+                "@type": "PriceSpecification",
+                "price": "199",
+                "priceCurrency": "RUB"
+              }
+            },
+            {
+              "@type": "Offer",
+              "name": "Годовая подписка",
+              "price": "1490",
+              "priceCurrency": "RUB",
+              "availability": "https://schema.org/InStock",
+              "priceSpecification": {
+                "@type": "PriceSpecification",
+                "price": "1490",
+                "priceCurrency": "RUB"
+              }
+            }
+          ],
+          "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "5",
+            "reviewCount": "7"
+          },
+          "review": [
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "Maria Garcia" },
+            "datePublished": "2025-07-12",
+            "name": "Надёжное приложение для аналоговой фотографии с EXIF",
+            "reviewBody": "Простое, надёжное и честно оценённое приложение, которое переносит данные съёмки, включая геолокацию, в EXIF отсканированных негативов. Разработчик прислушивается к отзывам и постоянно улучшает продукт. Отлично!",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            },
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "Emma Richardson" },
+            "datePublished": "2025-08-23",
+            "name": "Идеально для экспозиции и локации на плёнке",
+            "reviewBody": "Отлично подходит для записи экспозиции и местоположения при съёмке на плёнку, идеально для анализа настроек или сохранения данных в стиле EXIF. Разработчик исправил баг за день. Настоятельно рекомендую!",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            },
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "Roger Nordstrom Photo" },
+            "datePublished": "2025-04-15",
+            "name": "Организация заметок для плёночных фотографов",
+            "reviewBody": "Возвращаясь к плёнке, мне не хватало метаданных, пока не нашёл Frames. Он заменяет бумажные заметки, помогает быть организованным и осознанным при съёмке. Обязателен для плёночных фотографов!",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            },
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "James Anderson" },
+            "datePublished": "2025-09-05",
+            "name": "Чистый интерфейс и продуманные детали",
+            "reviewBody": "Видно, что разработчик сам пользуется приложением. Каждая деталь продумана, интерфейс чистый и простой. Всё работает безупречно. Однозначно лучшее приложение для заметок о плёнке!",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            },
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "Ingrid Lindholm" },
+            "datePublished": "2025-10-03",
+            "name": "Быстро, просто и с защитой конфиденциальности",
+            "reviewBody": "Лучшая приложение для аналоговой фотографии, которое я использовал. Простое, быстрое и со всеми функциями, необходимыми для организации работы. Без рекламы, без отслеживания, конфиденциальность соблюдается.",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            },
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "Hivonmarius" },
+            "datePublished": "2025-10-11",
+            "name": "Элегантное и функциональное приложение для плёнки",
+            "reviewBody": "Приложение простое и делает именно то, что должно. Мне нравится, что я могу назвать текущие катушки плёнки, так как иногда забываю, какой камерой снимал. Интерфейс чистый, элегантный и тщательно проработанный.",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            },
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "ガーティ・ルー" },
+            "datePublished": "2025-10-19",
+            "name": "Идеальное приложение",
+            "reviewBody": "Спасибо, что создали приложение для плёночной фотографии, которое я сам хотел сделать! Это действительно превосходное приложение. В нём есть все необходимые функции для документирования съёмки на плёнку. Возможности настройки отличные, а функция добавления своих типов плёнки просто идеальна. Полностью доволен.",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            }
+          ]
+        },
+        {
+          "@type": "SoftwareApplication",
+          "@id": "https://withframes.com/#frames-macos",
+          "name": "Frames macOS",
+          "operatingSystem": "macOS 15.0",
+          "applicationCategory": "LifestyleApplication",
+          "applicationSubCategory": "Photography",
+          "publisher": { "@id": "https://withframes.com/#organization" },
+          "description": "Приложение для плёночной фотографии и аналоговых снимков. Записывайте настройки камеры, организуйте плёнки и встраивайте EXIF. Бесплатная пробная версия.",
+          "image": "https://withframes.com/lib/img/shared/app-icon.png",
+          "url": "https://withframes.com/ru",
+          "installUrl": "https://apps.apple.com/ru/app/frames-метаданные-плёнки/id6744063354?mt=12&l=ru",
+          "softwareVersion": "1.8.1",
+          "releaseNotes": "https://withframes.com/ru/changelog/1-8-macos/",
+          "contentRating": "4+",
+          "isAccessibleForFree": true,
+          "mainEntity": {
+            "@type": "WebPage",
+            "@id": "https://withframes.com/ru"
+          },
+          "inLanguage": "ru",
+          "offers": [
+            {
+              "@type": "Offer",
+              "name": "Ежемесячная подписка",
+              "price": "199",
+              "priceCurrency": "RUB",
+              "availability": "https://schema.org/InStock",
+              "priceSpecification": {
+                "@type": "PriceSpecification",
+                "price": "199",
+                "priceCurrency": "RUB"
+              }
+            },
+            {
+              "@type": "Offer",
+              "name": "Годовая подписка",
+              "price": "1490",
+              "priceCurrency": "RUB",
+              "availability": "https://schema.org/InStock",
+              "priceSpecification": {
+                "@type": "PriceSpecification",
+                "price": "1490",
+                "priceCurrency": "RUB"
+              }
+            }
+          ],
+          "review": [
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "BHenriquez" },
+            "datePublished": "2025-05-08",
+            "name": "Фиксируйте каждый кадр без блокнотов",
+            "reviewBody": "Как фотограф, проявляющий плёнку дома, обожаю, как Frames позволяет фиксировать каждый кадр без блокнотов. Это идеальное практичное решение. Перешёл на Pro и ни разу не пожалел!",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            },
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "Hedley Wright" },
+            "datePublished": "2025-10-18",
+            "name": "Незаменимо для энтузиастов плёночной фотографии",
+            "reviewBody": "Необходимый инструмент для плёночных фотографов. Идеально для добавления метаданных к сканам: диафрагма, выдержка, фильтры, место, плёнка. Регулярные обновления, отличная поддержка. Очень рекомендую.",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            }
+          ],
+          "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "5",
+            "reviewCount": "2"
+          }
+        }
+      ]
+    }

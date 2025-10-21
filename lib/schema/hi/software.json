@@ -1,0 +1,232 @@
+{
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "SoftwareApplication",
+          "@id": "https://withframes.com/#frames-ios",
+          "name": "Frames iOS",
+          "operatingSystem": "iOS 18.0",
+          "applicationCategory": "LifestyleApplication",
+          "applicationSubCategory": "Photography",
+          "publisher": { "@id": "https://withframes.com/#organization" },
+          "description": "एनालॉग फोटोग्राफरों के लिए ऐप। कैमरा सेटिंग्स ट्रैक करें, रोल व्यवस्थित करें और EXIF मेटाडेटा जोड़ें। iPhone और Mac के लिए मुफ्त ट्रायल उपलब्ध।",
+          "image": "https://withframes.com/lib/img/shared/app-icon.png",
+          "url": "https://withframes.com/hi",
+          "installUrl": "https://apps.apple.com/in/app/frames-फ-ल-म-म-ट-ड-ट/id6744063354?l=hi",
+          "softwareVersion": "1.13.2",
+          "releaseNotes": "https://withframes.com/hi/changelog/1-13-ios/",
+          "isAccessibleForFree": true,
+          "contentRating": "4+",
+          "inLanguage": "hi",
+          "mainEntity": {
+            "@type": "WebPage",
+            "@id": "https://withframes.com/hi"
+          },
+          "offers": [
+            {
+              "@type": "Offer",
+              "name": "मासिक सदस्यता",
+              "price": "199",
+              "priceCurrency": "INR",
+              "availability": "https://schema.org/InStock",
+              "priceSpecification": {
+                "@type": "PriceSpecification",
+                "price": "199",
+                "priceCurrency": "INR"
+              }
+            },
+            {
+              "@type": "Offer",
+              "name": "वार्षिक सदस्यता",
+              "price": "1999",
+              "priceCurrency": "INR",
+              "availability": "https://schema.org/InStock",
+              "priceSpecification": {
+                "@type": "PriceSpecification",
+                "price": "1999",
+                "priceCurrency": "INR"
+              }
+            }
+          ],
+          "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "5",
+            "reviewCount": "7"
+          },
+          "review": [
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "Maria Garcia" },
+            "datePublished": "2025-07-12",
+            "name": "विश्वसनीय फिल्म फोटोग्राफी ऐप जो शूटिंग डेटा ट्रांसफर करता है",
+            "reviewBody": "उपयोग में आसान, विश्वसनीय और उचित मूल्य वाला ऐप जो शूटिंग डेटा को स्कैन किए गए नेगेटिव के EXIF में स्थानांतरित करता है, जिसमें भौगोलिक स्थान भी शामिल है। डेवलपर फ़ीडबैक सुनते हैं और लगातार सुधार करते रहते हैं। उत्कृष्ट!",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            },
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "Emma Richardson" },
+            "datePublished": "2025-08-23",
+            "name": "फ़िल्म शूटिंग के दौरान एक्सपोज़र और लोकेशन रिकॉर्ड करना आसान",
+            "reviewBody": "फ़िल्म शूट करते समय एक्सपोज़र और स्थान रिकॉर्ड करने के लिए बेहतरीन, सेटिंग्स का विश्लेषण करने या EXIF-स्टाइल डेटा रखने के लिए आदर्श। डेवलपर ने एक दिन में बग ठीक किया। अत्यधिक अनुशंसित!",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            },
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "Roger Nordstrom Photo" },
+            "datePublished": "2025-04-15",
+            "name": "Frames फ़िल्म फ़ोटोग्राफ़रों को व्यवस्थित और सचेत रखता है",
+            "reviewBody": "फ़िल्म में वापस आने पर, मुझे मेटाडेटा की कमी महसूस हुई जब तक मैंने Frames नहीं खोजा। यह कागज़ी नोट्स की जगह लेता है, मुझे व्यवस्थित रहने में मदद करता है और शूटिंग करते समय सचेत रखता है। फ़िल्म फ़ोटोग्राफ़रों के लिए ज़रूरी है!",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            },
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "James Anderson" },
+            "datePublished": "2025-09-05",
+            "name": "साफ़-सुथरा, सरल और सर्वश्रेष्ठ फ़िल्म नोट्स ऐप",
+            "reviewBody": "आप बता सकते हैं कि डेवलपर भी ऐप का उपयोग करता है। हर छोटा विवरण जानबूझकर लगता है, और इंटरफ़ेस साफ़ और सरल है। सब कुछ सहजता से काम करता है। आसानी से उपलब्ध सबसे अच्छा फ़िल्म नोट्स ऐप!",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            },
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "Ingrid Lindholm" },
+            "datePublished": "2025-10-03",
+            "name": "तेज़, निजी और फीचर-समृद्ध एनालॉग फोटोग्राफी ऐप",
+            "reviewBody": "अब तक का सबसे अच्छा एनालॉग फोटोग्राफी ऐप जिसे मैंने इस्तेमाल किया है। सरल, तेज़ और मेरे काम को व्यवस्थित करने के लिए सभी आवश्यक सुविधाएँ शामिल हैं। कोई विज्ञापन नहीं, कोई ट्रैकिंग नहीं, और गोपनीयता सुरक्षित रहती है।",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            },
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "Hivonmarius" },
+            "datePublished": "2025-10-11",
+            "name": "सुगठित और अच्छे से डिज़ाइन किया गया फिल्म रॉल प्रबंधन ऐप",
+            "reviewBody": "यह ऐप सरल है और बिल्कुल वही करता है जो इसे करना चाहिए। मुझे पसंद है कि मैं अपनी वर्तमान फिल्म रोल्स का नाम रख सकता हूँ, क्योंकि कभी-कभी मैं भूल जाता हूँ कि किस कैमरे से फोटो ली थी। UI साफ, सुंदर और अच्छी तरह से तैयार है।",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            },
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "ガーティ・ルー" },
+            "datePublished": "2025-10-19",
+            "name": "बेहतरीन ऐप",
+            "reviewBody": "उस फिल्म फोटोग्राफी ऐप को बनाने के लिए धन्यवाद जिसे मैं खुद बनाना चाहता था! यह सच में एक शानदार ऐप है। फिल्म शूटिंग को रिकॉर्ड करने के लिए सभी जरूरी फीचर्स मौजूद हैं। कस्टमाइजेशन के विकल्प बेहतरीन हैं और अपनी फिल्म स्टॉक जोड़ने की सुविधा परफेक्ट है। पूरी तरह से संतुष्ट हूं।",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            }
+          ]
+        },
+        {
+          "@type": "SoftwareApplication",
+          "@id": "https://withframes.com/#frames-macos",
+          "name": "Frames macOS",
+          "operatingSystem": "macOS 15.0",
+          "applicationCategory": "LifestyleApplication",
+          "applicationSubCategory": "Photography",
+          "publisher": { "@id": "https://withframes.com/#organization" },
+          "description": "एनालॉग फोटोग्राफरों के लिए ऐप। कैमरा सेटिंग्स ट्रैक करें, रोल व्यवस्थित करें और EXIF मेटाडेटा जोड़ें। iPhone और Mac के लिए मुफ्त ट्रायल उपलब्ध।",
+          "image": "https://withframes.com/lib/img/shared/app-icon.png",
+          "url": "https://withframes.com/hi",
+          "installUrl": "https://apps.apple.com/in/app/frames-फ-ल-म-म-ट-ड-ट/id6744063354?l=hi",
+          "softwareVersion": "1.8.1",
+          "releaseNotes": "https://withframes.com/hi/changelog/1-8-macos/",
+          "contentRating": "4+",
+          "isAccessibleForFree": true,
+          "mainEntity": {
+            "@type": "WebPage",
+            "@id": "https://withframes.com/hi"
+          },
+          "inLanguage": "hi",
+          "offers": [
+            {
+              "@type": "Offer",
+              "name": "मासिक सदस्यता",
+              "price": "199",
+              "priceCurrency": "INR",
+              "availability": "https://schema.org/InStock",
+              "priceSpecification": {
+                "@type": "PriceSpecification",
+                "price": "199",
+                "priceCurrency": "INR"
+              }
+            },
+            {
+              "@type": "Offer",
+              "name": "वार्षिक सदस्यता",
+              "price": "1999",
+              "priceCurrency": "INR",
+              "availability": "https://schema.org/InStock",
+              "priceSpecification": {
+                "@type": "PriceSpecification",
+                "price": "1999",
+                "priceCurrency": "INR"
+              }
+            }
+          ],
+          "review": [
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "BHenriquez" },
+            "datePublished": "2025-05-08",
+            "name": "फ़िल्म शॉट्स लॉग करने के लिए परफेक्ट ऐप बिना नोटबुक के",
+            "reviewBody": "एक फ़िल्म फ़ोटोग्राफ़र के रूप में जो घर पर डेवलप करता है, मुझे पसंद है कि Frames मुझे नोटबुक की परेशानी के बिना हर शॉट लॉग करने देता है। यह एकदम सही और व्यावहारिक समाधान है। Pro में अपग्रेड किया और कभी पीछे मुड़कर नहीं देखा!",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            },
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "Hedley Wright" },
+            "datePublished": "2025-10-18",
+            "name": "फिल्म फोटोग्राफी प्रेमियों के लिए अनिवार्य",
+            "reviewBody": "फिल्म फोटोग्राफरों के लिए आवश्यक टूल। स्कैन में मेटाडेटा जोड़ने के लिए बिल्कुल सही: अपर्चर, शटर स्पीड, फिल्टर, स्थान, फिल्म स्टॉक। नियमित अपडेट, बेहतरीन सपोर्ट। अत्यधिक अनुशंसित।",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            }
+          ],
+          "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "5",
+            "reviewCount": "2"
+          }
+        }
+      ]
+    }

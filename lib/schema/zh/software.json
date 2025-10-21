@@ -1,0 +1,232 @@
+{
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "SoftwareApplication",
+          "@id": "https://withframes.com/#frames-ios",
+          "name": "Frames iOS",
+          "operatingSystem": "iOS 18.0",
+          "applicationCategory": "LifestyleApplication",
+          "applicationSubCategory": "Photography",
+          "publisher": { "@id": "https://withframes.com/#organization" },
+          "description": "适合胶片摄影师的应用程序。记录相机设置、整理胶卷并将 EXIF 元数据嵌入扫描图像。iPhone 和 Mac 免费试用。",
+          "image": "https://withframes.com/lib/img/shared/app-icon.png",
+          "url": "https://withframes.com/zh",
+          "installUrl": "https://apps.apple.com/cn/app/frames-%E8%83%B6%E7%89%87%E6%91%84%E5%BD%B1%E7%AC%94%E8%AE%B0/id6744057317?l=zh",
+          "softwareVersion": "1.13.2",
+          "releaseNotes": "https://withframes.com/zh/changelog/1-13-ios/",
+          "isAccessibleForFree": true,
+          "contentRating": "4+",
+          "inLanguage": "zh",
+          "mainEntity": {
+            "@type": "WebPage",
+            "@id": "https://withframes.com/zh"
+          },
+          "offers": [
+            {
+              "@type": "Offer",
+              "name": "月度订阅",
+              "price": "15",
+              "priceCurrency": "CNY",
+              "availability": "https://schema.org/InStock",
+              "priceSpecification": {
+                "@type": "PriceSpecification",
+                "price": "15",
+                "priceCurrency": "CNY"
+              }
+            },
+            {
+              "@type": "Offer",
+              "name": "年度订阅",
+              "price": "128",
+              "priceCurrency": "CNY",
+              "availability": "https://schema.org/InStock",
+              "priceSpecification": {
+                "@type": "PriceSpecification",
+                "price": "128",
+                "priceCurrency": "CNY"
+              }
+            }
+          ],
+          "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "5",
+            "reviewCount": "7"
+          },
+          "review": [
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "Maria Garcia" },
+            "datePublished": "2025-07-12",
+            "name": "可靠易用的胶片摄影应用",
+            "reviewBody": "易于使用、可靠且价格合理的应用，可将拍摄数据（包括地理位置）传输到扫描底片的 EXIF 中。开发者倾听反馈并不断改进。非常棒！",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            },
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "Emma Richardson" },
+            "datePublished": "2025-08-23",
+            "name": "拍摄胶片时的曝光与位置记录利器",
+            "reviewBody": "非常适合在拍摄胶片时记录曝光和位置，适合分析设置或保留类似 EXIF 的数据。开发者在一天内修复了一个错误。强烈推荐！",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            },
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "Roger Nordstrom Photo" },
+            "datePublished": "2025-04-15",
+            "name": "替代纸质笔记，保持拍摄有序",
+            "reviewBody": "当我重新开始拍摄胶片时，我怀念元数据，直到找到 Frames。它取代了纸质笔记，帮助我保持井然有序，让我在拍摄时更加用心。胶片摄影师的必备工具！",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            },
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "James Anderson" },
+            "datePublished": "2025-09-05",
+            "name": "界面简洁，设计精良",
+            "reviewBody": "你可以看出开发者自己也在使用这个应用。每一个小细节都感觉很用心，界面干净简洁。一切运行流畅。绝对是最好的胶片笔记应用！",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            },
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "Ingrid Lindholm" },
+            "datePublished": "2025-10-03",
+            "name": "快速简单且保护隐私",
+            "reviewBody": "迄今为止我用过最好的胶片摄影应用。简单、快速，包含整理工作所需的所有功能。无广告，无追踪，隐私得到保障。",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            },
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "Hivonmarius" },
+            "datePublished": "2025-10-11",
+            "name": "命名胶卷与优雅界面",
+            "reviewBody": "应用简单，完全能做到应有的功能。我喜欢能为当前的胶卷命名，因为有时会忘记用哪台相机拍摄。界面清晰、优雅且设计精良。",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            },
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "ガーティ・ルー" },
+            "datePublished": "2025-10-19",
+            "name": "完美的应用",
+            "reviewBody": "感谢你开发了我一直想做的胶片摄影记录应用！这真是一个出色的应用。它具备记录胶片拍摄所需的所有功能。自定义选项非常棒，能够添加自己的胶卷类型更是完美。我非常满意。",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            }
+          ]
+        },
+        {
+          "@type": "SoftwareApplication",
+          "@id": "https://withframes.com/#frames-macos",
+          "name": "Frames macOS",
+          "operatingSystem": "macOS 15.0",
+          "applicationCategory": "LifestyleApplication",
+          "applicationSubCategory": "Photography",
+          "publisher": { "@id": "https://withframes.com/#organization" },
+          "description": "适合胶片摄影师的应用程序。记录相机设置、整理胶卷并将 EXIF 元数据嵌入扫描图像。iPhone 和 Mac 免费试用。",
+          "image": "https://withframes.com/lib/img/shared/app-icon.png",
+          "url": "https://withframes.com/zh",
+          "installUrl": "https://apps.apple.com/cn/app/frames-%E8%83%B6%E7%89%87%E5%85%83%E6%95%B0%E6%8D%AE/id6744063354?l=zh",
+          "softwareVersion": "1.8.1",
+          "releaseNotes": "https://withframes.com/zh/changelog/1-8-macos/",
+          "contentRating": "4+",
+          "isAccessibleForFree": true,
+          "mainEntity": {
+            "@type": "WebPage",
+            "@id": "https://withframes.com/zh"
+          },
+          "inLanguage": "zh",
+          "offers": [
+            {
+              "@type": "Offer",
+              "name": "月度订阅",
+              "price": "15",
+              "priceCurrency": "CNY",
+              "availability": "https://schema.org/InStock",
+              "priceSpecification": {
+                "@type": "PriceSpecification",
+                "price": "15",
+                "priceCurrency": "CNY"
+              }
+            },
+            {
+              "@type": "Offer",
+              "name": "年度订阅",
+              "price": "128",
+              "priceCurrency": "CNY",
+              "availability": "https://schema.org/InStock",
+              "priceSpecification": {
+                "@type": "PriceSpecification",
+                "price": "128",
+                "priceCurrency": "CNY"
+              }
+            }
+          ],
+          "review": [
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "BHenriquez" },
+            "datePublished": "2025-05-08",
+            "name": "无需笔记本即可记录每张照片",
+            "reviewBody": "作为在家冲洗胶片的摄影师，我喜欢 Frames 让我记录每张照片而不用麻烦地使用笔记本。这是完美而实用的解决方案。升级到 Pro 后再也没有回头！",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            },
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "Hedley Wright" },
+            "datePublished": "2025-10-18",
+            "name": "胶片摄影爱好者必备",
+            "reviewBody": "胶片摄影师的必备工具。完美地为扫描添加元数据：光圈、快门速度、滤镜、位置、胶片类型。定期更新，出色支持。强烈推荐。",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            }
+          ],
+          "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "5",
+            "reviewCount": "2"
+          }
+        }
+      ]
+    }

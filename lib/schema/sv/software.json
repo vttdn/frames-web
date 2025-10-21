@@ -1,0 +1,232 @@
+{
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "SoftwareApplication",
+          "@id": "https://withframes.com/#frames-ios",
+          "name": "Frames iOS",
+          "operatingSystem": "iOS 18.0",
+          "applicationCategory": "LifestyleApplication",
+          "applicationSubCategory": "Photography",
+          "publisher": { "@id": "https://withframes.com/#organization" },
+          "description": "Filmfotografi-app för analoga fotografer. Spåra kamerainställningar, organisera rullar och bädda in EXIF-metadata i skannade bilder. Gratis prov för iPhone.",
+          "image": "https://withframes.com/lib/img/shared/app-icon.png",
+          "url": "https://withframes.com/sv",
+          "installUrl": "https://apps.apple.com/se/app/frames-filmfotonotering/id6744057317",
+          "softwareVersion": "1.13.2",
+          "releaseNotes": "https://withframes.com/sv/changelog/1-13-ios/",
+          "isAccessibleForFree": true,
+          "contentRating": "4+",
+          "inLanguage": "sv",
+          "mainEntity": {
+            "@type": "WebPage",
+            "@id": "https://withframes.com/sv"
+          },
+          "offers": [
+            {
+              "@type": "Offer",
+              "name": "Månadsabonnemang",
+              "price": "29",
+              "priceCurrency": "SEK",
+              "availability": "https://schema.org/InStock",
+              "priceSpecification": {
+                "@type": "PriceSpecification",
+                "price": "29",
+                "priceCurrency": "SEK"
+              }
+            },
+            {
+              "@type": "Offer",
+              "name": "Årsabonnemang",
+              "price": "229",
+              "priceCurrency": "SEK",
+              "availability": "https://schema.org/InStock",
+              "priceSpecification": {
+                "@type": "PriceSpecification",
+                "price": "229",
+                "priceCurrency": "SEK"
+              }
+            }
+          ],
+          "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "5",
+            "reviewCount": "7"
+          },
+          "review": [
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "Maria Garcia" },
+            "datePublished": "2025-07-12",
+            "name": "Pålitlig app för analog fotografering med EXIF",
+            "reviewBody": "Lättanvänd, pålitlig och rättvist prissatt app som överför fotograferingsdata, inklusive geolokalisering, till skannade negativs EXIF. Utvecklaren lyssnar på feedback och fortsätter förbättra. Utmärkt!",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            },
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "Emma Richardson" },
+            "datePublished": "2025-08-23",
+            "name": "Perfekt för exponering och plats på film",
+            "reviewBody": "Fantastisk för att registrera exponering och plats vid filmfotografering, perfekt för att analysera inställningar eller behålla EXIF-liknande data. Utvecklaren fixade en bugg inom en dag. Rekommenderas varmt!",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            },
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "Roger Nordstrom Photo" },
+            "datePublished": "2025-04-15",
+            "name": "Organisering av filmfotografens anteckningar",
+            "reviewBody": "När jag kom tillbaka till film saknade jag metadata tills jag hittade Frames. Den ersätter pappersanteckningar, hjälper mig hålla ordning och gör mig mer medveten när jag fotograferar. Ett måste för filmfotografer!",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            },
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "James Anderson" },
+            "datePublished": "2025-09-05",
+            "name": "Ren och genomtänkt användargränssnitt",
+            "reviewBody": "Man märker att utvecklaren använder appen själv. Varje liten detalj känns genomtänkt och gränssnittet är rent och enkelt. Allt fungerar smidigt. Helt klart den bästa filmanteckningsappen som finns!",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            },
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "Ingrid Lindholm" },
+            "datePublished": "2025-10-03",
+            "name": "Snabb, enkel och integritetsskyddad",
+            "reviewBody": "Den bästa appen för analog fotografering jag har använt hittills. Enkel, snabb och med alla funktioner jag behöver för att organisera mitt arbete. Inga annonser, ingen spårning, integritet respekteras.",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            },
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "Hivonmarius" },
+            "datePublished": "2025-10-11",
+            "name": "Elegant och funktionell filmapp",
+            "reviewBody": "Appen är enkel och gör precis det den ska. Jag gillar att kunna namnge mina aktuella filmrullar eftersom jag ibland glömmer vilken kamera jag använde. UI är ren, elegant och välgjord.",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            },
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "ガーティ・ルー" },
+            "datePublished": "2025-10-19",
+            "name": "Den perfekta appen",
+            "reviewBody": "Tack för att du skapade filmfotografi-appen som jag själv ville göra! Det här är verkligen en fantastisk app. Den har alla nödvändiga funktioner för att dokumentera filmfotografering. Anpassningsmöjligheterna är utmärkta och att kunna lägga till egna filmtyper är perfekt. Jag är helt nöjd.",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            }
+          ]
+        },
+        {
+          "@type": "SoftwareApplication",
+          "@id": "https://withframes.com/#frames-macos",
+          "name": "Frames macOS",
+          "operatingSystem": "macOS 15.0",
+          "applicationCategory": "LifestyleApplication",
+          "applicationSubCategory": "Photography",
+          "publisher": { "@id": "https://withframes.com/#organization" },
+          "description": "Filmfotografi-app för analoga fotografer. Spåra kamerainställningar, organisera rullar och bädda in EXIF-metadata i skannade bilder. Gratis prov för iPhone.",
+          "image": "https://withframes.com/lib/img/shared/app-icon.png",
+          "url": "https://withframes.com/sv",
+          "installUrl": "https://apps.apple.com/se/app/frames-filmmetadata/id6744063354?l=sv",
+          "softwareVersion": "1.8.1",
+          "releaseNotes": "https://withframes.com/sv/changelog/1-8-macos/",
+          "contentRating": "4+",
+          "isAccessibleForFree": true,
+          "mainEntity": {
+            "@type": "WebPage",
+            "@id": "https://withframes.com/sv"
+          },
+          "inLanguage": "sv",
+          "offers": [
+            {
+              "@type": "Offer",
+              "name": "Månadsabonnemang",
+              "price": "29",
+              "priceCurrency": "SEK",
+              "availability": "https://schema.org/InStock",
+              "priceSpecification": {
+                "@type": "PriceSpecification",
+                "price": "29",
+                "priceCurrency": "SEK"
+              }
+            },
+            {
+              "@type": "Offer",
+              "name": "Årsabonnemang",
+              "price": "229",
+              "priceCurrency": "SEK",
+              "availability": "https://schema.org/InStock",
+              "priceSpecification": {
+                "@type": "PriceSpecification",
+                "price": "229",
+                "priceCurrency": "SEK"
+              }
+            }
+          ],
+          "review": [
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "BHenriquez" },
+            "datePublished": "2025-05-08",
+            "name": "Logga varje bild utan anteckningsböcker",
+            "reviewBody": "Som hemframkallande filmfotograf älskar jag hur Frames låter mig logga varje bild utan krångel med anteckningsböcker. Det är den perfekta och praktiska lösningen. Skaffade Pro och har aldrig tittat tillbaka!",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            },
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "Hedley Wright" },
+            "datePublished": "2025-10-18",
+            "name": "Oumbärlig för filmfotografiентusiaster",
+            "reviewBody": "Viktigt verktyg för filmfotografer. Perfekt för att lägga till metadata till scanningar: bländare, slutartid, filter, plats, filmtyp. Regelbundna uppdateringar, utmärkt support. Rekommenderas starkt.",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            }
+          ],
+          "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "5",
+            "reviewCount": "2"
+          }
+        }
+      ]
+    }

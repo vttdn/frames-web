@@ -339,21 +339,22 @@ def get_latest_changelog_entries(lang_code, limit=4):
 def generate_homepage_schemas(lang_code, global_config, locale_data):
     """Generate all schemas for homepage"""
     schemas_to_generate = [
-        ('frames.json', {}),
-        ('faq.json', {}),
-        ('organization.json', {
+        ('schemas/software.json', {}),
+        ('schemas/video.json', {}),
+        ('schemas/faq.json', {}),
+        ('schemas/organization.json', {
             'global_urls': global_config['urls'],
             'appstore_url': locale_data['urls']['appstore_ios'],
             'macappstore_url': locale_data['urls']['appstore_macos'],
             'company_description': locale_data['company']['description']
         }),
-        ('webpage-homepage.json', {
+        ('schemas/webpage-homepage.json', {
             'lang': lang_code,
             'canonical_url': locale_data['meta']['canonical_url'].rstrip('/') + '/',
             'seo_meta_title': locale_data['meta']['title'],
             'seo_meta_description': locale_data['meta']['description']
         }),
-        ('howto.json', {})
+        ('schemas/howto.json', {})
     ]
 
     for schema_name, extra_context in schemas_to_generate:
@@ -403,12 +404,14 @@ def generate_homepage_schemas(lang_code, global_config, locale_data):
 
         # Use correct template name
         template_map = {
-            'webpage-homepage.json': 'webpage.json'
+            'schemas/webpage-homepage.json': 'schemas/webpage.json'
         }
         template_name = template_map.get(schema_name, schema_name)
 
         schema_json = generate_schema_file(template_name, context)
-        save_schema(schema_json, schema_name, lang_code)
+        # Remove 'schemas/' prefix from schema_name for saving
+        output_name = schema_name.replace('schemas/', '')
+        save_schema(schema_json, output_name, lang_code)
 
 
 def build_homepage(global_config, languages):
@@ -447,7 +450,7 @@ def build_homepage(global_config, languages):
             generate_homepage_schemas(lang_code, global_config, locale_data)
 
             # Generate JavaScript
-            javascript = generate_javascript_file('core.js', lang_code, locale_data, global_config)
+            javascript = generate_javascript_file('js/core.js', lang_code, locale_data, global_config)
             save_javascript(javascript, lang_code, 'core')
 
         except FileNotFoundError:
@@ -499,11 +502,11 @@ def build_privacy(global_config, languages):
                 'seo_meta_title': locale_data['privacy']['meta']['title'],
                 'seo_meta_description': locale_data['privacy']['meta']['description']
             }
-            webpage_json = generate_schema_file('webpage.json', webpage_context)
+            webpage_json = generate_schema_file('schemas/webpage.json', webpage_context)
             save_schema(webpage_json, 'webpage-privacy.json', lang_code)
 
             # Generate JavaScript
-            javascript = generate_javascript_file('privacy.js', lang_code, locale_data, global_config)
+            javascript = generate_javascript_file('js/privacy.js', lang_code, locale_data, global_config)
             save_javascript(javascript, lang_code, 'privacy')
 
         except FileNotFoundError:
@@ -748,7 +751,7 @@ def generate_changelog_schemas(lang_code, locale_data, global_config, page_type,
         'macappstore_url': locale_data['urls']['appstore_macos'],
         'company_description': locale_data['company']['description']
     }
-    organization_schema = generate_schema_file('organization.json', org_context)
+    organization_schema = generate_schema_file('schemas/organization.json', org_context)
     save_changelog_schema(organization_schema, 'organization.json', lang_code, page_type, page_number, url_slug)
 
     # Breadcrumb schema
@@ -759,7 +762,7 @@ def generate_changelog_schemas(lang_code, locale_data, global_config, page_type,
         'entry_title': kwargs.get('entry_title'),
         'page_number': kwargs.get('page_number') if kwargs.get('page_number', 1) > 1 else None
     }
-    breadcrumb_schema = generate_schema_file('breadcrumb.json', breadcrumb_context)
+    breadcrumb_schema = generate_schema_file('schemas/breadcrumb.json', breadcrumb_context)
     save_changelog_schema(breadcrumb_schema, 'breadcrumb.json', lang_code, page_type, page_number, url_slug)
 
     # Page-specific schemas
@@ -772,7 +775,7 @@ def generate_changelog_schemas(lang_code, locale_data, global_config, page_type,
             'entries': kwargs.get('all_entries', []),
             'build_date': build_date
         }
-        blog_schema = generate_schema_file('blog.json', blog_context)
+        blog_schema = generate_schema_file('schemas/blog.json', blog_context)
         save_changelog_schema(blog_schema, 'blog.json', lang_code, page_type, page_number, url_slug)
 
     elif page_type == 'changelog-entry':
@@ -788,7 +791,7 @@ def generate_changelog_schemas(lang_code, locale_data, global_config, page_type,
             'image_width': image_width,
             'image_height': image_height
         }
-        blogposting_schema = generate_schema_file('blogposting.json', blogposting_context)
+        blogposting_schema = generate_schema_file('schemas/blogposting.json', blogposting_context)
         save_changelog_schema(blogposting_schema, 'blogposting.json', lang_code, page_type, page_number, url_slug)
 
 
@@ -929,7 +932,7 @@ def build_changelog_pages(global_config):
             generate_changelog_sitemap(entries, lang_code)
 
             # Generate JavaScript
-            javascript = generate_javascript_file('changelog.js', lang_code, locale_data, global_config)
+            javascript = generate_javascript_file('js/changelog.js', lang_code, locale_data, global_config)
             save_javascript(javascript, lang_code, 'changelog')
 
         except FileNotFoundError:

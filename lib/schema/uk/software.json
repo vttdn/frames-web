@@ -1,0 +1,232 @@
+{
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "SoftwareApplication",
+          "@id": "https://withframes.com/#frames-ios",
+          "name": "Frames iOS",
+          "operatingSystem": "iOS 18.0",
+          "applicationCategory": "LifestyleApplication",
+          "applicationSubCategory": "Photography",
+          "publisher": { "@id": "https://withframes.com/#organization" },
+          "description": "Додаток для плівкової фотографії. Записуйте налаштування камери, організовуйте плівки та вбудовуйте EXIF-метадані. Безкоштовна пробна версія для iPhone.",
+          "image": "https://withframes.com/lib/img/shared/app-icon.png",
+          "url": "https://withframes.com/uk",
+          "installUrl": "https://apps.apple.com/ua/app/frames-нотатки-про-плівку/id6744057317?l=uk",
+          "softwareVersion": "1.13.2",
+          "releaseNotes": "https://withframes.com/uk/changelog/1-13-ios/",
+          "isAccessibleForFree": true,
+          "contentRating": "4+",
+          "inLanguage": "uk",
+          "mainEntity": {
+            "@type": "WebPage",
+            "@id": "https://withframes.com/uk"
+          },
+          "offers": [
+            {
+              "@type": "Offer",
+              "name": "Місячна підписка",
+              "price": "1.99",
+              "priceCurrency": "USD",
+              "availability": "https://schema.org/InStock",
+              "priceSpecification": {
+                "@type": "PriceSpecification",
+                "price": "1.99",
+                "priceCurrency": "USD"
+              }
+            },
+            {
+              "@type": "Offer",
+              "name": "Річна підписка",
+              "price": "19.99",
+              "priceCurrency": "USD",
+              "availability": "https://schema.org/InStock",
+              "priceSpecification": {
+                "@type": "PriceSpecification",
+                "price": "19.99",
+                "priceCurrency": "USD"
+              }
+            }
+          ],
+          "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "5",
+            "reviewCount": "7"
+          },
+          "review": [
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "Maria Garcia" },
+            "datePublished": "2025-07-12",
+            "name": "Надійний та простий у використанні додаток для плівкової фотографії",
+            "reviewBody": "Простий у використанні, надійний додаток, що переносить дані зйомки, включаючи геолокацію, до EXIF сканованих негативів. Розробник слухає відгуки та постійно покращує. Чудово!",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            },
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "Emma Richardson" },
+            "datePublished": "2025-08-23",
+            "name": "Ідеальний для запису експозиції та місцезнаходження",
+            "reviewBody": "Чудово для запису експозиції та місцезнаходження під час зйомки на плівку, ідеально для аналізу налаштувань або збереження даних типу EXIF. Розробник виправив помилку за день. Дуже рекомендую!",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            },
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "Roger Nordstrom Photo" },
+            "datePublished": "2025-04-15",
+            "name": "Організовані нотатки для плівкових фотографів",
+            "reviewBody": "Повертаючись до плівки, мені не вистачало метаданих, поки я не знайшов Frames. Він замінює паперові нотатки, допомагає залишатися організованим і тримає мене уважним під час зйомки. Обов'язково для фотографів на плівці!",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            },
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "James Anderson" },
+            "datePublished": "2025-09-05",
+            "name": "Чистий та продуманий інтерфейс",
+            "reviewBody": "Видно, що розробник теж користується додатком. Кожна дрібниця здається продуманою, а інтерфейс чистий і простий. Все працює гладко. Безумовно найкращий додаток для нотаток про плівку!",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            },
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "Ingrid Lindholm" },
+            "datePublished": "2025-10-03",
+            "name": "Швидкий, простий і приватний додаток",
+            "reviewBody": "Найкращий додаток для аналогової фотографії, який я коли-небудь використовував. Простий, швидкий і з усіма функціями, необхідними для організації моєї роботи. Без реклами, без відстеження, конфіденційність зберігається.",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            },
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "Hivonmarius" },
+            "datePublished": "2025-10-11",
+            "name": "Елегантний та добре продуманий інтерфейс",
+            "reviewBody": "Додаток простий і виконує саме те, що має. Мені подобається, що я можу називати свої поточні рулони плівки, бо інколи забуваю, якою камерою робив знімки. Інтерфейс чистий, елегантний і добре виконаний.",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            },
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "ガーティ・ルー" },
+            "datePublished": "2025-10-19",
+            "name": "Ідеальний додаток",
+            "reviewBody": "Дякую, що створили додаток для плівкової фотографії, який я сам хотів зробити! Це справді чудовий додаток. У ньому є всі необхідні функції для документування зйомки на плівку. Можливості налаштування чудові, а функція додавання власних типів плівки просто ідеальна. Повністю задоволений.",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            }
+          ]
+        },
+        {
+          "@type": "SoftwareApplication",
+          "@id": "https://withframes.com/#frames-macos",
+          "name": "Frames macOS",
+          "operatingSystem": "macOS 15.0",
+          "applicationCategory": "LifestyleApplication",
+          "applicationSubCategory": "Photography",
+          "publisher": { "@id": "https://withframes.com/#organization" },
+          "description": "Додаток для плівкової фотографії. Записуйте налаштування камери, організовуйте плівки та вбудовуйте EXIF-метадані. Безкоштовна пробна версія для iPhone.",
+          "image": "https://withframes.com/lib/img/shared/app-icon.png",
+          "url": "https://withframes.com/uk",
+          "installUrl": "https://apps.apple.com/ua/app/frames-метадані-плівки/id6744063354?l=uk",
+          "softwareVersion": "1.8.1",
+          "releaseNotes": "https://withframes.com/uk/changelog/1-8-macos/",
+          "contentRating": "4+",
+          "isAccessibleForFree": true,
+          "mainEntity": {
+            "@type": "WebPage",
+            "@id": "https://withframes.com/uk"
+          },
+          "inLanguage": "uk",
+          "offers": [
+            {
+              "@type": "Offer",
+              "name": "Місячна підписка",
+              "price": "1.99",
+              "priceCurrency": "USD",
+              "availability": "https://schema.org/InStock",
+              "priceSpecification": {
+                "@type": "PriceSpecification",
+                "price": "1.99",
+                "priceCurrency": "USD"
+              }
+            },
+            {
+              "@type": "Offer",
+              "name": "Річна підписка",
+              "price": "19.99",
+              "priceCurrency": "USD",
+              "availability": "https://schema.org/InStock",
+              "priceSpecification": {
+                "@type": "PriceSpecification",
+                "price": "19.99",
+                "priceCurrency": "USD"
+              }
+            }
+          ],
+          "review": [
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "BHenriquez" },
+            "datePublished": "2025-05-08",
+            "name": "Записуйте всі кадри без блокнотів",
+            "reviewBody": "Як фотограф на плівці, що проявляє вдома, я люблю, як Frames дозволяє мені записувати кожен кадр без клопоту з блокнотами. Це ідеальне та практичне рішення. Перейшов на Pro і не шкодую!",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            },
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "Hedley Wright" },
+            "datePublished": "2025-10-18",
+            "name": "Незамінно для ентузіастів плівкової фотографії",
+            "reviewBody": "Необхідний інструмент для плівкових фотографів. Ідеально для додавання метаданих до сканів: діафрагма, витримка, фільтри, місце, плівка. Регулярні оновлення, чудова підтримка. Дуже рекомендую.",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            }
+          ],
+          "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "5",
+            "reviewCount": "2"
+          }
+        }
+      ]
+    }

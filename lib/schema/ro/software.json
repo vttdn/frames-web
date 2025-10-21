@@ -1,0 +1,232 @@
+{
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "SoftwareApplication",
+          "@id": "https://withframes.com/#frames-ios",
+          "name": "Frames iOS",
+          "operatingSystem": "iOS 18.0",
+          "applicationCategory": "LifestyleApplication",
+          "applicationSubCategory": "Photography",
+          "publisher": { "@id": "https://withframes.com/#organization" },
+          "description": "Aplicație fotografie pe film pentru fotografi analogici. Urmărește setările camerei, organizează filmele și integrează metadate EXIF. Încercare gratuită.",
+          "image": "https://withframes.com/lib/img/shared/app-icon.png",
+          "url": "https://withframes.com/ro",
+          "installUrl": "https://apps.apple.com/ro/app/frames-notițe-film/id6744057317?l=ro",
+          "softwareVersion": "1.13.2",
+          "releaseNotes": "https://withframes.com/ro/changelog/1-13-ios/",
+          "isAccessibleForFree": true,
+          "contentRating": "4+",
+          "inLanguage": "ro",
+          "mainEntity": {
+            "@type": "WebPage",
+            "@id": "https://withframes.com/ro"
+          },
+          "offers": [
+            {
+              "@type": "Offer",
+              "name": "Abonament lunar",
+              "price": "9.99",
+              "priceCurrency": "RON",
+              "availability": "https://schema.org/InStock",
+              "priceSpecification": {
+                "@type": "PriceSpecification",
+                "price": "9.99",
+                "priceCurrency": "RON"
+              }
+            },
+            {
+              "@type": "Offer",
+              "name": "Abonament anual",
+              "price": "99.99",
+              "priceCurrency": "RON",
+              "availability": "https://schema.org/InStock",
+              "priceSpecification": {
+                "@type": "PriceSpecification",
+                "price": "99.99",
+                "priceCurrency": "RON"
+              }
+            }
+          ],
+          "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "5",
+            "reviewCount": "7"
+          },
+          "review": [
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "Maria Garcia" },
+            "datePublished": "2025-07-12",
+            "name": "Aplicație fiabilă pentru fotografii analogice cu EXIF",
+            "reviewBody": "Aplicație ușor de folosit, fiabilă, care transferă datele de fotografiere, inclusiv geolocalizarea, în EXIF-ul negativelor scanate. Dezvoltatorul ascultă feedback-ul și îmbunătățește constant. Excelent!",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            },
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "Emma Richardson" },
+            "datePublished": "2025-08-23",
+            "name": "Ideal pentru expunere și locație pe film",
+            "reviewBody": "Excelent pentru înregistrarea expunerii și locației la fotografierea pe film, ideal pentru analizarea setărilor sau păstrarea datelor tip EXIF. Dezvoltatorul a corectat un bug într-o zi. Foarte recomandat!",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            },
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "Roger Nordstrom Photo" },
+            "datePublished": "2025-04-15",
+            "name": "Organizează notițele pentru fotografii film",
+            "reviewBody": "Revenind la film, îmi lipseau metadatele până am găsit Frames. Înlocuiește notițele pe hârtie, mă ajută să rămân organizat și mă ține atent când fotografiez. Obligatoriu pentru fotografi film!",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            },
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "James Anderson" },
+            "datePublished": "2025-09-05",
+            "name": "Interfață curată și detalii deliberate",
+            "reviewBody": "Se vede că dezvoltatorul folosește și el aplicația. Fiecare detaliu mic pare intenționat, iar interfața este curată și simplă. Totul funcționează perfect. Cu siguranță cea mai bună aplicație de notițe film disponibilă!",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            },
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "Ingrid Lindholm" },
+            "datePublished": "2025-10-03",
+            "name": "Rapidă, simplă și respectă confidențialitatea",
+            "reviewBody": "Cea mai bună aplicație de fotografie analogică pe care am folosit-o până acum. Simplă, rapidă și cu toate funcțiile de care am nevoie pentru a-mi organiza munca. Fără reclame, fără urmărire, confidențialitatea este respectată.",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            },
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "Hivonmarius" },
+            "datePublished": "2025-10-11",
+            "name": "Aplicație elegantă și funcțională pentru role de film",
+            "reviewBody": "Aplicația este simplă și face exact ceea ce trebuie. Îmi place să pot denumi rolele de film curente, pentru că uneori uit cu ce aparat am fotografiat. Interfața este clară, elegantă și bine realizată.",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            },
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "ガーティ・ルー" },
+            "datePublished": "2025-10-19",
+            "name": "Aplicația perfectă",
+            "reviewBody": "Mulțumesc că ai creat aplicația de fotografie pe film pe care vroiam să o fac eu însumi! Este cu adevărat o aplicație excepțională. Are toate funcțiile esențiale pentru documentarea fotografiilor pe film. Opțiunile de personalizare sunt minunate și posibilitatea de a adăuga propriile tipuri de film este perfectă. Sunt complet mulțumit.",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            }
+          ]
+        },
+        {
+          "@type": "SoftwareApplication",
+          "@id": "https://withframes.com/#frames-macos",
+          "name": "Frames macOS",
+          "operatingSystem": "macOS 15.0",
+          "applicationCategory": "LifestyleApplication",
+          "applicationSubCategory": "Photography",
+          "publisher": { "@id": "https://withframes.com/#organization" },
+          "description": "Aplicație fotografie pe film pentru fotografi analogici. Urmărește setările camerei, organizează filmele și integrează metadate EXIF. Încercare gratuită.",
+          "image": "https://withframes.com/lib/img/shared/app-icon.png",
+          "url": "https://withframes.com/ro",
+          "installUrl": "https://apps.apple.com/ro/app/frames-metadate-film-foto/id6744063354?l=ro",
+          "softwareVersion": "1.8.1",
+          "releaseNotes": "https://withframes.com/ro/changelog/1-8-macos/",
+          "contentRating": "4+",
+          "isAccessibleForFree": true,
+          "mainEntity": {
+            "@type": "WebPage",
+            "@id": "https://withframes.com/ro"
+          },
+          "inLanguage": "ro",
+          "offers": [
+            {
+              "@type": "Offer",
+              "name": "Abonament lunar",
+              "price": "9.99",
+              "priceCurrency": "RON",
+              "availability": "https://schema.org/InStock",
+              "priceSpecification": {
+                "@type": "PriceSpecification",
+                "price": "9.99",
+                "priceCurrency": "RON"
+              }
+            },
+            {
+              "@type": "Offer",
+              "name": "Abonament anual",
+              "price": "99.99",
+              "priceCurrency": "RON",
+              "availability": "https://schema.org/InStock",
+              "priceSpecification": {
+                "@type": "PriceSpecification",
+                "price": "99.99",
+                "priceCurrency": "RON"
+              }
+            }
+          ],
+          "review": [
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "BHenriquez" },
+            "datePublished": "2025-05-08",
+            "name": "Înregistrează fiecare cadru fără carnet",
+            "reviewBody": "Ca fotograf film care developează acasă, iubesc cum Frames îmi permite să notez fiecare cadru fără bătaia de cap a carnetelor. Este soluția perfectă și practică. Am trecut la Pro și nu regret!",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            },
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "Hedley Wright" },
+            "datePublished": "2025-10-18",
+            "name": "Indispensabil pentru pasionații de fotografie pe film",
+            "reviewBody": "Instrument esențial pentru fotografi pe film. Perfect pentru adăugarea de metadate la scanări: diafragmă, viteză, filtre, locație, film. Actualizări regulate, suport excelent. Foarte recomandat.",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            }
+          ],
+          "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "5",
+            "reviewCount": "2"
+          }
+        }
+      ]
+    }

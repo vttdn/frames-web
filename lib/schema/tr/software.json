@@ -1,0 +1,232 @@
+{
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "SoftwareApplication",
+          "@id": "https://withframes.com/#frames-ios",
+          "name": "Frames iOS",
+          "operatingSystem": "iOS 18.0",
+          "applicationCategory": "LifestyleApplication",
+          "applicationSubCategory": "Photography",
+          "publisher": { "@id": "https://withframes.com/#organization" },
+          "description": "Analog fotoğrafçılar için film fotoğrafçılık uygulaması. Kamera ayarlarını kaydedin, rulolar düzenleyin ve EXIF meta verisi ekleyin. Ücretsiz deneme iPhone.",
+          "image": "https://withframes.com/lib/img/shared/app-icon.png",
+          "url": "https://withframes.com/tr",
+          "installUrl": "https://apps.apple.com/tr/app/frames-film-foto%C4%9Fraf-notlar%C4%B1/id6744057317?l=tr",
+          "softwareVersion": "1.13.2",
+          "releaseNotes": "https://withframes.com/tr/changelog/1-13-ios/",
+          "isAccessibleForFree": true,
+          "contentRating": "4+",
+          "inLanguage": "tr",
+          "mainEntity": {
+            "@type": "WebPage",
+            "@id": "https://withframes.com/tr"
+          },
+          "offers": [
+            {
+              "@type": "Offer",
+              "name": "Aylık abonelik",
+              "price": "99.99",
+              "priceCurrency": "TRY",
+              "availability": "https://schema.org/InStock",
+              "priceSpecification": {
+                "@type": "PriceSpecification",
+                "price": "99.99",
+                "priceCurrency": "TRY"
+              }
+            },
+            {
+              "@type": "Offer",
+              "name": "Yıllık abonelik",
+              "price": "799",
+              "priceCurrency": "TRY",
+              "availability": "https://schema.org/InStock",
+              "priceSpecification": {
+                "@type": "PriceSpecification",
+                "price": "799",
+                "priceCurrency": "TRY"
+              }
+            }
+          ],
+          "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "5",
+            "reviewCount": "7"
+          },
+          "review": [
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "Maria Garcia" },
+            "datePublished": "2025-07-12",
+            "name": "Güvenilir ve Kullanımı Kolay Film Fotoğrafçılığı Uygulaması",
+            "reviewBody": "Kullanımı kolay, güvenilir ve makul fiyatlı bir uygulama. Çekim verilerini, coğrafi konum dahil, taranan negatiflerin EXIF'ine aktarıyor. Geliştirici geri bildirimleri dinliyor ve sürekli geliştiriyor. Mükemmel!",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            },
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "Emma Richardson" },
+            "datePublished": "2025-08-23",
+            "name": "Pozlama ve Konum Kaydı İçin İdeal",
+            "reviewBody": "Film çekerken pozlamayı ve konumu kaydetmek için harika, ayarları analiz etmek veya EXIF benzeri veri tutmak için ideal. Geliştirici bir hatayı bir gün içinde düzeltti. Şiddetle tavsiye edilir!",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            },
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "Roger Nordstrom Photo" },
+            "datePublished": "2025-04-15",
+            "name": "Film Fotoğrafçılığı İçin Düzenli Not Tutma",
+            "reviewBody": "Filme geri döndüğümde Frames'i bulana kadar metadata'yı özledim. Kağıt notların yerini alıyor, organize kalmama yardımcı oluyor ve çekim yaparken daha dikkatli olmamı sağlıyor. Film fotoğrafçıları için olmazsa olmaz!",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            },
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "James Anderson" },
+            "datePublished": "2025-09-05",
+            "name": "Temiz ve Basit Arayüz",
+            "reviewBody": "Geliştiricinin de uygulamayı kullandığını anlayabiliyorsunuz. Her küçük detay kasıtlı hissettiriyor ve arayüz temiz ve basit. Her şey sorunsuz çalışıyor. Mevcut en iyi film notları uygulaması!",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            },
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "Ingrid Lindholm" },
+            "datePublished": "2025-10-03",
+            "name": "Hızlı, Basit ve Gizliliği Koruyan Uygulama",
+            "reviewBody": "Şimdiye kadar kullandığım en iyi analog fotoğrafçılık uygulaması. Basit, hızlı ve işimi düzenlemek için gereken tüm özelliklere sahip. Reklam yok, takip yok ve gizlilik korunuyor.",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            },
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "Hivonmarius" },
+            "datePublished": "2025-10-11",
+            "name": "Şık ve İyi Tasarlanmış Arayüz",
+            "reviewBody": "Uygulama basit ve olması gerekeni tam olarak yapıyor. Mevcut film rulolarımı adlandırabilmeyi seviyorum, çünkü bazen hangi kamerayı kullandığımı unutuyorum. Arayüz temiz, şık ve iyi tasarlanmış.",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            },
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "ガーティ・ルー" },
+            "datePublished": "2025-10-19",
+            "name": "Mükemmel uygulama",
+            "reviewBody": "Kendim yapmak istediğim film fotoğrafçılığı uygulamasını oluşturduğun için teşekkür ederim! Gerçekten harika bir uygulama. Film çekimlerini kaydetmek için gereken tüm özelliklere sahip. Özelleştirme seçenekleri muhteşem ve kendi film türlerini ekleyebilme özelliği mükemmel. Tamamen memnunum.",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            }
+          ]
+        },
+        {
+          "@type": "SoftwareApplication",
+          "@id": "https://withframes.com/#frames-macos",
+          "name": "Frames macOS",
+          "operatingSystem": "macOS 15.0",
+          "applicationCategory": "LifestyleApplication",
+          "applicationSubCategory": "Photography",
+          "publisher": { "@id": "https://withframes.com/#organization" },
+          "description": "Analog fotoğrafçılar için film fotoğrafçılık uygulaması. Kamera ayarlarını kaydedin, rulolar düzenleyin ve EXIF meta verisi ekleyin. Ücretsiz deneme iPhone.",
+          "image": "https://withframes.com/lib/img/shared/app-icon.png",
+          "url": "https://withframes.com/tr",
+          "installUrl": "https://apps.apple.com/tr/app/frames-film-metadata/id6744063354?l=tr",
+          "softwareVersion": "1.8.1",
+          "releaseNotes": "https://withframes.com/tr/changelog/1-8-macos/",
+          "contentRating": "4+",
+          "isAccessibleForFree": true,
+          "mainEntity": {
+            "@type": "WebPage",
+            "@id": "https://withframes.com/tr"
+          },
+          "inLanguage": "tr",
+          "offers": [
+            {
+              "@type": "Offer",
+              "name": "Aylık abonelik",
+              "price": "99.99",
+              "priceCurrency": "TRY",
+              "availability": "https://schema.org/InStock",
+              "priceSpecification": {
+                "@type": "PriceSpecification",
+                "price": "99.99",
+                "priceCurrency": "TRY"
+              }
+            },
+            {
+              "@type": "Offer",
+              "name": "Yıllık abonelik",
+              "price": "799",
+              "priceCurrency": "TRY",
+              "availability": "https://schema.org/InStock",
+              "priceSpecification": {
+                "@type": "PriceSpecification",
+                "price": "799",
+                "priceCurrency": "TRY"
+              }
+            }
+          ],
+          "review": [
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "BHenriquez" },
+            "datePublished": "2025-05-08",
+            "name": "Defter Zahmeti Olmadan Tüm Çekimleri Kaydedin",
+            "reviewBody": "Evde banyo yapan bir film fotoğrafçısı olarak, Frames'in defter zahmeti olmadan her çekimi kaydetmeme izin vermesi harika. Mükemmel ve pratik bir çözüm. Pro'ya geçtim ve hiç geriye bakmadım!",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            },
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "Hedley Wright" },
+            "datePublished": "2025-10-18",
+            "name": "Film fotoğrafçılığı meraklıları için vazgeçilmez",
+            "reviewBody": "Film fotoğrafçıları için gerekli araç. Taramalara metadata eklemek için mükemmel: diyafram, enstantane, filtreler, konum, film. Düzenli güncellemeler, harika destek. Şiddetle tavsiye edilir.",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            }
+          ],
+          "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "5",
+            "reviewCount": "2"
+          }
+        }
+      ]
+    }

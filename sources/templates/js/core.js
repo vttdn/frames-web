@@ -8,7 +8,8 @@
 document.addEventListener('DOMContentLoaded', function () {
   // Inject JSON-LD schemas
   const schemaFiles = [
-    '/lib/schema/{{ lang }}/frames.json',
+    '/lib/schema/{{ lang }}/software.json',
+    '/lib/schema/{{ lang }}/video.json',
     '/lib/schema/{{ lang }}/faq.json',
     '/lib/schema/{{ lang }}/organization.json',
     '/lib/schema/{{ lang }}/webpage-homepage.json',
