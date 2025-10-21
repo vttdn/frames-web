@@ -51,7 +51,7 @@
           "aggregateRating": {
             "@type": "AggregateRating",
             "ratingValue": "5",
-            "reviewCount": "6"
+            "reviewCount": "7"
           },
           "review": [
             {
@@ -125,6 +125,19 @@
             "datePublished": "2025-10-11",
             "name": "Đặt tên cuộn phim và UI tinh tế",
             "reviewBody": "Ứng dụng đơn giản và làm chính xác những gì nó cần làm. Tôi thích có thể đặt tên cho cuộn phim hiện tại vì đôi khi quên máy ảnh đã dùng. Giao diện sạch, thanh lịch và được thiết kế tốt.",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            },
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "ガーティ・ルー" },
+            "datePublished": "2025-10-19",
+            "name": "Ứng dụng hoàn hảo",
+            "reviewBody": "Cảm ơn vì đã tạo ra ứng dụng nhiếp ảnh film mà tôi muốn làm! Đây thực sự là một ứng dụng xuất sắc. Nó có đầy đủ các tính năng cần thiết để ghi lại việc chụp ảnh film. Các tùy chọn tùy chỉnh rất tuyệt vời và khả năng thêm các loại film của riêng mình thật hoàn hảo. Tôi hoàn toàn hài lòng.",
             "reviewRating": {
                 "@type": "Rating",
                 "ratingValue": "5",

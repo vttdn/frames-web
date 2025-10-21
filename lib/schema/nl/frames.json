@@ -51,7 +51,7 @@
           "aggregateRating": {
             "@type": "AggregateRating",
             "ratingValue": "5",
-            "reviewCount": "6"
+            "reviewCount": "7"
           },
           "review": [
             {
@@ -125,6 +125,19 @@
             "datePublished": "2025-10-11",
             "name": "Elegante en functionele app voor filmrolletjes",
             "reviewBody": "De app is eenvoudig en doet precies wat hij moet. Ik vind het fijn dat ik mijn huidige filmrolletjes kan benoemen, want soms vergeet ik welk camera ik gebruikte. De interface is schoon, elegant en goed ontworpen.",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            },
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "ガーティ・ルー" },
+            "datePublished": "2025-10-19",
+            "name": "Uitstekende app",
+            "reviewBody": "Bedankt dat je de filmfotografie-app hebt gemaakt die ik zelf wilde ontwikkelen! Het is echt een topapp. Alle essentiële functies voor het bijhouden van filmopnames zijn aanwezig. De aanpasmogelijkheden zijn geweldig en het kunnen toevoegen van eigen filmtypes is perfect. Helemaal tevreden.",
             "reviewRating": {
                 "@type": "Rating",
                 "ratingValue": "5",

@@ -51,7 +51,7 @@
           "aggregateRating": {
             "@type": "AggregateRating",
             "ratingValue": "5",
-            "reviewCount": "6"
+            "reviewCount": "7"
           },
           "review": [
             {
@@ -125,6 +125,19 @@
             "datePublished": "2025-10-11",
             "name": "Aplikasi Elegan dan Terbaik untuk Mengelola Roll Film",
             "reviewBody": "Aplikasinya sederhana dan melakukan persis apa yang seharusnya. Saya suka bisa memberi nama pada roll film saya saat ini karena kadang lupa kamera mana yang saya pakai. UI bersih, elegan, dan dirancang dengan baik.",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            },
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "ガーティ・ルー" },
+            "datePublished": "2025-10-19",
+            "name": "Aplikasi yang sempurna",
+            "reviewBody": "Terima kasih telah membuat aplikasi fotografi film yang selama ini ingin saya buat sendiri! Ini benar-benar aplikasi yang luar biasa. Semua fitur penting untuk mencatat pemotretan film tersedia lengkap. Opsi kustomisasinya sangat bagus dan kemampuan menambahkan stok film sendiri sangat sempurna. Saya sangat puas.",
             "reviewRating": {
                 "@type": "Rating",
                 "ratingValue": "5",

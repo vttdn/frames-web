@@ -51,7 +51,7 @@
           "aggregateRating": {
             "@type": "AggregateRating",
             "ratingValue": "5",
-            "reviewCount": "6"
+            "reviewCount": "7"
           },
           "review": [
             {
@@ -128,6 +128,19 @@
             "reviewRating": {
                 "@type": "Rating",
                 "ratingValue": "{{ review7_rating }}",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            },
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "{{ review9_author }}" },
+            "datePublished": "{{ review9_date }}",
+            "name": "{{ review9_title }}",
+            "reviewBody": "{{ review9_descr }}",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "{{ review9_rating }}",
                 "bestRating": "5",
                 "worstRating": "1"
             }

@@ -51,7 +51,7 @@
           "aggregateRating": {
             "@type": "AggregateRating",
             "ratingValue": "5",
-            "reviewCount": "6"
+            "reviewCount": "7"
           },
           "review": [
             {
@@ -125,6 +125,19 @@
             "datePublished": "2025-10-11",
             "name": "命名胶卷与优雅界面",
             "reviewBody": "应用简单，完全能做到应有的功能。我喜欢能为当前的胶卷命名，因为有时会忘记用哪台相机拍摄。界面清晰、优雅且设计精良。",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            },
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "ガーティ・ルー" },
+            "datePublished": "2025-10-19",
+            "name": "完美的应用",
+            "reviewBody": "感谢你开发了我一直想做的胶片摄影记录应用！这真是一个出色的应用。它具备记录胶片拍摄所需的所有功能。自定义选项非常棒，能够添加自己的胶卷类型更是完美。我非常满意。",
             "reviewRating": {
                 "@type": "Rating",
                 "ratingValue": "5",

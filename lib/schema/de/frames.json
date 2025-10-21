@@ -51,7 +51,7 @@
           "aggregateRating": {
             "@type": "AggregateRating",
             "ratingValue": "5",
-            "reviewCount": "6"
+            "reviewCount": "7"
           },
           "review": [
             {
@@ -125,6 +125,19 @@
             "datePublished": "2025-10-11",
             "name": "Elegante Und Gut Gestaltete App Zur Verwaltung Von Filmrollen",
             "reviewBody": "Die App ist einfach und tut genau das, was sie soll. Ich finde es praktisch, dass ich meine aktuellen Filmrollen benennen kann, da ich manchmal vergesse, mit welcher Kamera ich fotografiert habe. Die UI ist klar, elegant und gut gestaltet.",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            },
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "ガーティ・ルー" },
+            "datePublished": "2025-10-19",
+            "name": "Die perfekte App",
+            "reviewBody": "Vielen Dank, dass du die Filmfotografie-App entwickelt hast, die ich selbst machen wollte! Das ist wirklich eine hervorragende App. Alle wichtigen Funktionen zur Dokumentation von Filmaufnahmen sind vorhanden. Die Anpassungsmöglichkeiten sind großartig und dass man eigene Filmtypen hinzufügen kann, ist perfekt. Ich bin rundum zufrieden.",
             "reviewRating": {
                 "@type": "Rating",
                 "ratingValue": "5",

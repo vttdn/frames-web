@@ -51,7 +51,7 @@
           "aggregateRating": {
             "@type": "AggregateRating",
             "ratingValue": "5",
-            "reviewCount": "6"
+            "reviewCount": "7"
           },
           "review": [
             {
@@ -125,6 +125,19 @@
             "datePublished": "2025-10-11",
             "name": "Aplicație elegantă și funcțională pentru role de film",
             "reviewBody": "Aplicația este simplă și face exact ceea ce trebuie. Îmi place să pot denumi rolele de film curente, pentru că uneori uit cu ce aparat am fotografiat. Interfața este clară, elegantă și bine realizată.",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            },
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "ガーティ・ルー" },
+            "datePublished": "2025-10-19",
+            "name": "Aplicația perfectă",
+            "reviewBody": "Mulțumesc că ai creat aplicația de fotografie pe film pe care vroiam să o fac eu însumi! Este cu adevărat o aplicație excepțională. Are toate funcțiile esențiale pentru documentarea fotografiilor pe film. Opțiunile de personalizare sunt minunate și posibilitatea de a adăuga propriile tipuri de film este perfectă. Sunt complet mulțumit.",
             "reviewRating": {
                 "@type": "Rating",
                 "ratingValue": "5",

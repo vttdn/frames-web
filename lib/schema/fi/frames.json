@@ -51,7 +51,7 @@
           "aggregateRating": {
             "@type": "AggregateRating",
             "ratingValue": "5",
-            "reviewCount": "6"
+            "reviewCount": "7"
           },
           "review": [
             {
@@ -125,6 +125,19 @@
             "datePublished": "2025-10-11",
             "name": "Tyylikäs ja Huolellisesti Suunniteltu Sovellus Filmirullien Hallintaan",
             "reviewBody": "Sovellus on yksinkertainen ja tekee juuri sen, mitä sen pitää. Tykkään, että voin nimetä nykyiset filmirullani, sillä joskus unohdan, millä kameralla kuvasin. Käyttöliittymä on selkeä, elegantti ja hyvin tehty.",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            },
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "ガーティ・ルー" },
+            "datePublished": "2025-10-19",
+            "name": "Täydellinen sovellus",
+            "reviewBody": "Kiitos, että loit filmikuvaussovelluksen, jonka itse halusin tehdä! Tämä on todella loistava sovellus. Siinä on kaikki tarvittavat toiminnot filmikuvausten dokumentointiin. Mukautusmahdollisuudet ovat erinomaiset ja mahdollisuus lisätä omia filimityyppejä on täydellistä. Olen erittäin tyytyväinen.",
             "reviewRating": {
                 "@type": "Rating",
                 "ratingValue": "5",

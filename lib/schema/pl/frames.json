@@ -51,7 +51,7 @@
           "aggregateRating": {
             "@type": "AggregateRating",
             "ratingValue": "5",
-            "reviewCount": "6"
+            "reviewCount": "7"
           },
           "review": [
             {
@@ -125,6 +125,19 @@
             "datePublished": "2025-10-11",
             "name": "Elegancka i funkcjonalna aplikacja do filmów",
             "reviewBody": "Aplikacja jest prosta i robi dokładnie to, co powinna. Lubię móc nazywać moje aktualne rolki filmowe, bo czasem zapominam, którym aparatem robiłem zdjęcia. Interfejs jest czysty, elegancki i starannie wykonany.",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            },
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "ガーティ・ルー" },
+            "datePublished": "2025-10-19",
+            "name": "Idealna aplikacja",
+            "reviewBody": "Dziękuję za stworzenie aplikacji do fotografii analogowej, którą sam chciałem zrobić! To naprawdę wspaniała aplikacja. Ma wszystkie niezbędne funkcje do dokumentowania zdjęć na kliszy. Możliwości dostosowania są świetne, a opcja dodawania własnych filmów jest doskonała. Jestem w pełni usatysfakcjonowany.",
             "reviewRating": {
                 "@type": "Rating",
                 "ratingValue": "5",

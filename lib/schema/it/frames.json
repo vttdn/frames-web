@@ -51,7 +51,7 @@
           "aggregateRating": {
             "@type": "AggregateRating",
             "ratingValue": "5",
-            "reviewCount": "6"
+            "reviewCount": "7"
           },
           "review": [
             {
@@ -125,6 +125,19 @@
             "datePublished": "2025-10-11",
             "name": "App Elegante e Ben Progettata per Gestire i Rullini di Film",
             "reviewBody": "L’app è semplice e fa esattamente ciò che deve. Mi piace poter dare un nome ai rullini in corso, perché a volte dimentico con quale fotocamera ho scattato. L’interfaccia è chiara, elegante e ben realizzata.",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            },
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "ガーティ・ルー" },
+            "datePublished": "2025-10-19",
+            "name": "L'app perfetta",
+            "reviewBody": "Grazie per aver creato l'app per la fotografia analogica che volevo realizzare io stesso! È davvero un'applicazione eccezionale. Ha tutte le funzionalità essenziali per documentare gli scatti su pellicola. Le possibilità di personalizzazione sono fantastiche e poter aggiungere le proprie pellicole è perfetto. Sono completamente soddisfatto.",
             "reviewRating": {
                 "@type": "Rating",
                 "ratingValue": "5",

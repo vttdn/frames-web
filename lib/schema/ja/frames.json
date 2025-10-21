@@ -51,7 +51,7 @@
           "aggregateRating": {
             "@type": "AggregateRating",
             "ratingValue": "5",
-            "reviewCount": "6"
+            "reviewCount": "7"
           },
           "review": [
             {
@@ -125,6 +125,19 @@
             "datePublished": "2025-10-11",
             "name": "フィルムロール管理に最適なエレガントなアプリ",
             "reviewBody": "アプリはシンプルで、必要なことを正確に行います。現在のフィルムロールに名前を付けられるのが便利で、どのカメラで撮ったか忘れることもありません。UIは清潔でエレガント、よく作られています。",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            },
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "ガーティ・ルー" },
+            "datePublished": "2025-10-19",
+            "name": "理想的なアプリ",
+            "reviewBody": "自分で作りたかったフィルム撮影記録アプリを実現してくれて感謝しています！本当に素晴らしいアプリです。フィルム撮影に必要な機能が全て揃っています。カスタマイズ可能な点も優れているし、フィルムを自由に登録できる機能も完璧です。とても満足しています。",
             "reviewRating": {
                 "@type": "Rating",
                 "ratingValue": "5",

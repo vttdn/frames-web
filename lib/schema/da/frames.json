@@ -51,7 +51,7 @@
           "aggregateRating": {
             "@type": "AggregateRating",
             "ratingValue": "5",
-            "reviewCount": "6"
+            "reviewCount": "7"
           },
           "review": [
             {
@@ -125,6 +125,19 @@
             "datePublished": "2025-10-11",
             "name": "Elegant Og Veludført App Til Håndtering Af Filmruller",
             "reviewBody": "Appen er enkel og gør præcis, hvad den skal. Jeg elsker at kunne navngive mine aktuelle filmruller, da jeg nogle gange glemmer, hvilket kamera jeg brugte. UI er ren, elegant og veludført.",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            },
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "ガーティ・ルー" },
+            "datePublished": "2025-10-19",
+            "name": "Den perfekte app",
+            "reviewBody": "Tak fordi du har skabt den filmfotografering-app, jeg selv drømte om at lave! Det er virkelig en fantastisk app. Den har alle de funktioner, man har brug for til at dokumentere sine filmoptagelser. Mulighederne for tilpasning er fremragende, og at man kan tilføje sine egne filmtyper er perfekt. Jeg er helt tilfreds.",
             "reviewRating": {
                 "@type": "Rating",
                 "ratingValue": "5",

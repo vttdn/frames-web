@@ -51,7 +51,7 @@
           "aggregateRating": {
             "@type": "AggregateRating",
             "ratingValue": "5",
-            "reviewCount": "6"
+            "reviewCount": "7"
           },
           "review": [
             {
@@ -125,6 +125,19 @@
             "datePublished": "2025-10-11",
             "name": "Application Élégante et Bien Conçue pour Gérer Vos Films Argentiques",
             "reviewBody": "L’application est simple et fait exactement ce qu’elle doit. J’adore pouvoir nommer mes films en cours, car j’oublie parfois avec quel appareil j’ai pris mes photos. L’interface est claire, élégante et bien conçue.",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            },
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "ガーティ・ルー" },
+            "datePublished": "2025-10-19",
+            "name": "L'application idéale",
+            "reviewBody": "Merci d'avoir créé l'application de suivi photo argentique dont je rêvais ! C'est vraiment une application exceptionnelle. Toutes les fonctionnalités essentielles pour documenter ses pellicules sont présentes. Les possibilités de personnalisation sont formidables et pouvoir ajouter ses propres films est parfait. Je suis totalement satisfait.",
             "reviewRating": {
                 "@type": "Rating",
                 "ratingValue": "5",

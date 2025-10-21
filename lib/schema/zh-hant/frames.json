@@ -51,7 +51,7 @@
           "aggregateRating": {
             "@type": "AggregateRating",
             "ratingValue": "5",
-            "reviewCount": "6"
+            "reviewCount": "7"
           },
           "review": [
             {
@@ -125,6 +125,19 @@
             "datePublished": "2025-10-11",
             "name": "命名底片卷軸與優雅介面",
             "reviewBody": "應用程式簡單，完全能做到應有的功能。我喜歡可以為目前的底片命名，因為有時會忘記使用哪台相機。介面清晰、優雅且設計精良。",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            },
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "ガーティ・ルー" },
+            "datePublished": "2025-10-19",
+            "name": "完美的應用程式",
+            "reviewBody": "感謝你開發了我一直想做的底片攝影記錄應用！這真是一個出色的應用程式。它具備記錄底片拍攝所需的所有功能。自訂選項非常棒，能夠新增自己的底片類型更是完美。我非常滿意。",
             "reviewRating": {
                 "@type": "Rating",
                 "ratingValue": "5",

@@ -51,7 +51,7 @@
           "aggregateRating": {
             "@type": "AggregateRating",
             "ratingValue": "5",
-            "reviewCount": "6"
+            "reviewCount": "7"
           },
           "review": [
             {
@@ -125,6 +125,19 @@
             "datePublished": "2025-10-11",
             "name": "Şık ve İyi Tasarlanmış Arayüz",
             "reviewBody": "Uygulama basit ve olması gerekeni tam olarak yapıyor. Mevcut film rulolarımı adlandırabilmeyi seviyorum, çünkü bazen hangi kamerayı kullandığımı unutuyorum. Arayüz temiz, şık ve iyi tasarlanmış.",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            },
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "ガーティ・ルー" },
+            "datePublished": "2025-10-19",
+            "name": "Mükemmel uygulama",
+            "reviewBody": "Kendim yapmak istediğim film fotoğrafçılığı uygulamasını oluşturduğun için teşekkür ederim! Gerçekten harika bir uygulama. Film çekimlerini kaydetmek için gereken tüm özelliklere sahip. Özelleştirme seçenekleri muhteşem ve kendi film türlerini ekleyebilme özelliği mükemmel. Tamamen memnunum.",
             "reviewRating": {
                 "@type": "Rating",
                 "ratingValue": "5",

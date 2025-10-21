@@ -51,7 +51,7 @@
           "aggregateRating": {
             "@type": "AggregateRating",
             "ratingValue": "5",
-            "reviewCount": "6"
+            "reviewCount": "7"
           },
           "review": [
             {
@@ -125,6 +125,19 @@
             "datePublished": "2025-10-11",
             "name": "Elegante y Bien Diseñada App Para Gestionar Rollos de Película",
             "reviewBody": "La app es simple y hace exactamente lo que debe. Me gusta poder nombrar mis rollos de película actuales, ya que a veces olvido qué cámara usé. La interfaz es limpia, elegante y bien diseñada.",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            },
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "ガーティ・ルー" },
+            "datePublished": "2025-10-19",
+            "name": "La aplicación perfecta",
+            "reviewBody": "¡Gracias por crear la aplicación de fotografía analógica que yo quería hacer! Es realmente una aplicación excepcional. Tiene todas las funciones esenciales para documentar las tomas en película. Las opciones de personalización son geniales y poder añadir tus propios tipos de película es perfecto. Estoy completamente satisfecho.",
             "reviewRating": {
                 "@type": "Rating",
                 "ratingValue": "5",
