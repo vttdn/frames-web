@@ -51,18 +51,26 @@
         },
         {
           "@type": "Question",
-          "name": "Jakie są plany dotyczące przyszłych aktualizacji?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Przyszłe plany obejmują rozszerzanie funkcji przepływu pracy, poprawę integracji między urządzeniami i dodawanie nowych narzędzi zgłaszanych przez społeczność, aby uczynić rejestrowanie fotografii analogowej jeszcze bardziej elastycznym i potężnym."
-          }
-        },
-        {
-          "@type": "Question",
           "name": "Czy mogę synchronizować swoje dane między iPhone a Mac?",
           "acceptedAnswer": {
             "@type": "Answer",
             "text": "Tak, możesz bezproblemowo przesyłać swoje dane z fotografii filmowej między iPhone a Mac za pomocą eksportu plików .frames. Po prostu wyeksportuj swoje rolki z jednego urządzenia i zaimportuj je na drugim. Chociaż automatyczna synchronizacja w chmurze nie jest obecnie dostępna, aby chronić Twoją prywatność i własność danych, format .frames sprawia, że ręczna synchronizacja jest szybka i prosta."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Czy Frames działa offline?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Oczywiście. Frames został zaprojektowany do pracy całkowicie offline, co czyni go idealnym do fotografowania w odległych lokalizacjach bez łączności internetowej. Wszystkie Twoje dane są przechowywane lokalnie na urządzeniu, więc możesz logować zdjęcia, zarządzać archiwum i organizować sprzęt gdziekolwiek jesteś. Tagowanie lokalizacji GPS również działa offline i zostanie zapisane podczas rejestrowania każdej klatki. Internet jest potrzebny tylko podczas eksportowania metadanych do zeskanowanych obrazów lub sprawdzania aktualizacji aplikacji."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Jakie są plany dotyczące przyszłych aktualizacji?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Przyszłe plany obejmują rozszerzanie funkcji przepływu pracy, poprawę integracji między urządzeniami i dodawanie nowych narzędzi zgłaszanych przez społeczność, aby uczynić rejestrowanie fotografii analogowej jeszcze bardziej elastycznym i potężnym."
           }
         }
       ]

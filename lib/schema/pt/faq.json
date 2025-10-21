@@ -51,18 +51,26 @@
         },
         {
           "@type": "Question",
-          "name": "Quais são os planos para futuras atualizações?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Os planos futuros incluem expandir funcionalidades de fluxo de trabalho, melhorar a integração entre dispositivos e adicionar novas ferramentas solicitadas pela comunidade para tornar o registo de fotografia analógica ainda mais flexível e poderoso."
-          }
-        },
-        {
-          "@type": "Question",
           "name": "Posso sincronizar meus dados entre iPhone e Mac?",
           "acceptedAnswer": {
             "@type": "Answer",
             "text": "Sim, você pode transferir perfeitamente seus dados de fotografia analógica entre iPhone e Mac usando exportações de arquivo .frames. Simplesmente exporte seus rolos de um dispositivo e importe-os em outro. Embora a sincronização automática na nuvem não esteja disponível no momento para manter sua privacidade e propriedade dos dados, o formato .frames torna a sincronização manual rápida e direta."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "O Frames funciona offline?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Com certeza. O Frames foi projetado para funcionar completamente offline, tornando-o perfeito para fotografar em locais remotos sem conectividade à internet. Todos os seus dados são armazenados localmente no seu dispositivo, para que você possa registrar fotos, gerenciar seu arquivo e organizar seu equipamento em qualquer lugar. A marcação de localização GPS também funciona offline e será salva quando você registrar cada quadro. Você só precisa de internet ao exportar metadados para imagens digitalizadas ou verificar atualizações do aplicativo."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Quais são os planos para futuras atualizações?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Os planos futuros incluem expandir funcionalidades de fluxo de trabalho, melhorar a integração entre dispositivos e adicionar novas ferramentas solicitadas pela comunidade para tornar o registo de fotografia analógica ainda mais flexível e poderoso."
           }
         }
       ]

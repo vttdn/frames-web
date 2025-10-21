@@ -162,134 +162,33 @@
         <section class="preview grid grid-2col">
             <h2 class="ruh">{{ locale_data.preview.heading|safe }}</h2>
 
+            {% for i in range(1, 7) %}
             <figure class="tile container-ratio ratio-4-3">
-                    <img src="/lib/img/{{ lang }}/preview1.webp"
-                        srcset="/lib/img/{{ lang }}/preview1.webp 1x, /lib/img/{{ lang }}/preview1@2x.webp 2x"
-                        alt="{{ locale_data.preview.images.preview1.alt|safe }}" width="400" height="300" loading="lazy">
-                        <figcaption class="howto-caption flex flex-col flex-justify-between ruh">
-                            <strong>{{ locale_data.preview.images.preview1.heading }}</strong>
-                            <p>{{ locale_data.preview.images.preview1.caption|safe }}</p>
-                        </figcaption>
-            </figure>
-            <figure class="tile container-ratio ratio-4-3">
-                    <img src="/lib/img/{{ lang }}/preview2.webp"
-                        srcset="/lib/img/{{ lang }}/preview2.webp 1x, /lib/img/{{ lang }}/preview2@2x.webp 2x"
-                        alt="{{ locale_data.preview.images.preview2.alt|safe }}" width="400" height="300" loading="lazy">
+                    <img src="/lib/img/{% if i <= 4 %}{{ lang }}{% else %}shared{% endif %}/preview{{ i }}.webp"
+                        srcset="/lib/img/{% if i <= 4 %}{{ lang }}{% else %}shared{% endif %}/preview{{ i }}.webp 1x, /lib/img/{% if i <= 4 %}{{ lang }}{% else %}shared{% endif %}/preview{{ i }}@2x.webp 2x"
+                        alt="{{ locale_data.preview.images['preview' ~ i].alt|safe }}" width="400" height="300" loading="lazy">
                     <figcaption class="howto-caption flex flex-col flex-justify-between ruh">
-                        <strong>{{ locale_data.preview.images.preview2.heading }}</strong>
-                        <p>{{ locale_data.preview.images.preview2.caption|safe }}</p>
+                        <strong>{{ locale_data.preview.images['preview' ~ i].heading }}</strong>
+                        <p>{{ locale_data.preview.images['preview' ~ i].caption|safe }}</p>
                     </figcaption>
             </figure>
-            <figure class="tile container-ratio ratio-4-3">
-                    <img src="/lib/img/{{ lang }}/preview3.webp"
-                        srcset="/lib/img/{{ lang }}/preview3.webp 1x, /lib/img/{{ lang }}/preview3@2x.webp 2x"
-                        alt="{{ locale_data.preview.images.preview3.alt|safe }}" width="400" height="300" loading="lazy">
-                    <figcaption class="howto-caption flex flex-col flex-justify-between ruh">
-                        <strong>{{ locale_data.preview.images.preview3.heading }}</strong>
-                        <p>{{ locale_data.preview.images.preview3.caption|safe }}</p>
-                    </figcaption>
-            </figure>
-            <figure class="tile container-ratio ratio-4-3">
-                    <img src="/lib/img/{{ lang }}/preview4.webp"
-                        srcset="/lib/img/{{ lang }}/preview4.webp 1x, /lib/img/{{ lang }}/preview4@2x.webp 2x"
-                        alt="{{ locale_data.preview.images.preview4.alt|safe }}" width="400" height="300" loading="lazy">
-                    <figcaption class="howto-caption flex flex-col flex-justify-between ruh">
-                        <strong>{{ locale_data.preview.images.preview4.heading }}</strong>
-                        <p>{{ locale_data.preview.images.preview4.caption|safe }}</p>
-                    </figcaption>
-            </figure>
-            <figure class="tile container-ratio ratio-4-3">
-                    <img src="/lib/img/shared/preview5.webp"
-                        srcset="/lib/img/shared/preview5.webp 1x, /lib/img/shared/preview5@2x.webp 2x"
-                        alt="{{ locale_data.preview.images.preview5.alt|safe }}" width="400" height="300" loading="lazy">
-                    <figcaption class="howto-caption flex flex-col flex-justify-between ruh">
-                        <strong>{{ locale_data.preview.images.preview5.heading }}</strong>
-                        <p>{{ locale_data.preview.images.preview5.caption|safe }}</p>
-                    </figcaption>
-            </figure>
-            <figure class="tile container-ratio ratio-4-3">
-                    <img src="/lib/img/shared/preview6.webp"
-                        srcset="/lib/img/shared/preview6.webp 1x, /lib/img/shared/preview6@2x.webp 2x"
-                        alt="{{ locale_data.preview.images.preview6.alt|safe }}" width="400" height="300" loading="lazy">
-                    <figcaption class="howto-caption flex flex-col flex-justify-between ruh">
-                        <strong>{{ locale_data.preview.images.preview6.heading }}</strong>
-                        <p>{{ locale_data.preview.images.preview6.caption|safe }}</p>
-                    </figcaption>
-            </figure>
+            {% endfor %}
         </section>
         
         <section id="features" aria-labelledby="features-heading">
             <h2 id="features-heading">{{ locale_data.features.heading }}<span class="ruh">: {{ locale_data.features.heading_seo }}</span></h2>
             <div class="features grid grid-3col">
+                {% for i in range(1, 8) %}
                 <article class="feature tile container-ratio ratio-4-3">
                     <div class="feature-inner tile-inner flex flex-col flex-justify-between">
                         <header class="feature-header flex flex-col gap-xxs">
-                            <span class="feature-label">{{ locale_data.features.feature1.label }}</span>
-                            <h3>{{ locale_data.features.feature1.title }}</h3>
+                            <span class="feature-label">{{ locale_data.features['feature' ~ i].label }}</span>
+                            <h3>{{ locale_data.features['feature' ~ i].title }}</h3>
                         </header>
-                        <p>{{ locale_data.features.feature1.description }}</p>
+                        <p>{{ locale_data.features['feature' ~ i].description }}</p>
                     </div>
                 </article>
-
-                <article class="feature tile container-ratio ratio-4-3">
-                    <div class="feature-inner tile-inner flex flex-col flex-justify-between">
-                        <header class="feature-header flex flex-col gap-xxs">
-                            <span class="feature-label">{{ locale_data.features.feature2.label }}</span>
-                            <h3>{{ locale_data.features.feature2.title }}</h3>
-                        </header>
-                        <p>{{ locale_data.features.feature2.description }}</p>
-                    </div>
-                </article>
-
-                <article class="feature tile container-ratio ratio-4-3">
-                    <div class="feature-inner tile-inner flex flex-col flex-justify-between">
-                        <header class="feature-header flex flex-col gap-xxs">
-                            <span class="feature-label">{{ locale_data.features.feature3.label }}</span>
-                            <h3>{{ locale_data.features.feature3.title }}</h3>
-                        </header>
-                        <p>{{ locale_data.features.feature3.description }}</p>
-                    </div>
-                </article>
-
-                <article class="feature tile container-ratio ratio-4-3">
-                    <div class="feature-inner tile-inner flex flex-col flex-justify-between">
-                        <header class="feature-header flex flex-col gap-xxs">
-                            <span class="feature-label">{{ locale_data.features.feature4.label }}</span>
-                            <h3>{{ locale_data.features.feature4.title }}</h3>
-                        </header>
-                        <p>{{ locale_data.features.feature4.description }}</p>
-                    </div>
-                </article>
-
-                <article class="feature tile container-ratio ratio-4-3">
-                    <div class="feature-inner tile-inner flex flex-col flex-justify-between">
-                        <header class="feature-header flex flex-col gap-xxs">
-                            <span class="feature-label">{{ locale_data.features.feature5.label }}</span>
-                            <h3>{{ locale_data.features.feature5.title }}</h3>
-                        </header>
-                        <p>{{ locale_data.features.feature5.description }}</p>
-                    </div>
-                </article>
-
-                <article class="feature tile container-ratio ratio-4-3">
-                    <div class="feature-inner tile-inner flex flex-col flex-justify-between">
-                        <header class="feature-header flex flex-col gap-xxs">
-                            <span class="feature-label">{{ locale_data.features.feature6.label }}</span>
-                            <h3>{{ locale_data.features.feature6.title }}</h3>
-                        </header>
-                        <p>{{ locale_data.features.feature6.description }}</p>
-                    </div>
-                </article>
-
-                 <article class="feature tile container-ratio ratio-4-3">
-                    <div class="feature-inner tile-inner flex flex-col flex-justify-between">
-                        <header class="feature-header flex flex-col gap-xxs">
-                            <span class="feature-label">{{ locale_data.features.feature7.label }}</span>
-                            <h3>{{ locale_data.features.feature7.title }}</h3>
-                        </header>
-                        <p>{{ locale_data.features.feature7.description }}</p>
-                    </div>
-                </article>
+                {% endfor %}
             </div>
         </section>
 
@@ -394,207 +293,32 @@
             <h2>{{ locale_data.reviews.heading2 }}<span class="ruh">: {{ locale_data.reviews.heading }}</span></h2>
 
             <div class="grid grid-3col">
-
-                <article class="feature tile container-ratio ratio-4-3">
+                {% for i in range(1, 9) %}
+                <article class="feature tile container-ratio ratio-4-3{% if i > 6 %} ruh{% endif %}">
                     <div class="feature-inner tile-inner flex flex-col flex-justify-between">
                         <header class="ruh">
-                            <h3>{{ locale_data.reviews.review1.title }}</h3>
+                            <h3>{{ locale_data.reviews['review' ~ i].title }}</h3>
                         </header>
-                        
+
                         <blockquote class="review-quote">
-                            <span class="quote-icon" aria-hidden="true">”</span>
-                            <p>{{ locale_data.reviews.review1.quote }}</p>
+                            <span class="quote-icon" aria-hidden="true">"</span>
+                            <p>{{ locale_data.reviews['review' ~ i].quote }}</p>
                         </blockquote>
 
                         <footer class="review-author flex flex-center gap-sm">
-                            <img src="/lib/img/shared/author1.webp"
-                                alt="{{ locale_data.reviews.review1.author_name }}" width="32" height="32"
-                                srcset="/lib/img/shared/author1.webp 1x, /lib/img/shared/author1@2x.webp 2x"
+                            <img src="/lib/img/shared/author{{ i }}.webp"
+                                alt="{{ locale_data.reviews['review' ~ i].author_name }}" width="32" height="32"
+                                srcset="/lib/img/shared/author{{ i }}.webp 1x, /lib/img/shared/author{{ i }}@2x.webp 2x"
                                 loading="lazy" class="btn btn-square btn-secondary">
                             <div class="author-info flex flex-col">
-                                <cite class="author-name">{{ locale_data.reviews.review1.author_name }}</cite>
-                                <time class="review-date" datetime="{{ locale_data.reviews.review1.datetime }}">{{
-                                    formatted_reviews.review1.formatted_date }}</time>
+                                <cite class="author-name">{{ locale_data.reviews['review' ~ i].author_name }}</cite>
+                                <time class="review-date" datetime="{{ locale_data.reviews['review' ~ i].datetime }}">{{
+                                    formatted_reviews['review' ~ i].formatted_date }}</time>
                             </div>
                         </footer>
                     </div>
                 </article>
-
-                <article class="feature tile container-ratio ratio-4-3">
-                    <div class="feature-inner tile-inner flex flex-col flex-justify-between">
-                        <header class="ruh">
-                            <h3>{{ locale_data.reviews.review2.title }}</h3>
-                        </header>
-                        
-                        <blockquote class="review-quote">
-                            <span class="quote-icon" aria-hidden="true">”</span>
-                            <p>{{ locale_data.reviews.review2.quote }}</p>
-                        </blockquote>
-
-                        <footer class="review-author flex flex-center gap-sm">
-                            <img src="/lib/img/shared/author2.webp"
-                                alt="{{ locale_data.reviews.review2.author_name }}" width="32" height="32"
-                                srcset="/lib/img/shared/author2.webp 1x, /lib/img/shared/author2@2x.webp 2x"
-                                loading="lazy" class="btn btn-square btn-secondary">
-                            <div class="author-info flex flex-col">
-                                <cite class="author-name">{{ locale_data.reviews.review2.author_name }}</cite>
-                                <time class="review-date" datetime="{{ locale_data.reviews.review2.datetime }}">{{
-                                    formatted_reviews.review2.formatted_date }}</time>
-                            </div>
-                        </footer>
-                    </div>
-                </article>
-
-                <article class="feature tile container-ratio ratio-4-3">
-                    <div class="feature-inner tile-inner flex flex-col flex-justify-between">
-                        <header class="ruh">
-                            <h3>{{ locale_data.reviews.review3.title }}</h3>
-                        </header>
-                        
-                        <blockquote class="review-quote">
-                            <span class="quote-icon" aria-hidden="true">”</span>
-                            <p>{{ locale_data.reviews.review3.quote }}</p>
-                        </blockquote>
-
-                        <footer class="review-author flex flex-center gap-sm">
-                            <img src="/lib/img/shared/author3.webp"
-                                alt="{{ locale_data.reviews.review3.author_name }}" width="32" height="32"
-                                srcset="/lib/img/shared/author3.webp 1x, /lib/img/shared/author3@2x.webp 2x"
-                                loading="lazy" class="btn btn-square btn-secondary">
-                            <div class="author-info flex flex-col">
-                                <cite class="author-name">{{ locale_data.reviews.review3.author_name }}</cite>
-                                <time class="review-date" datetime="{{ locale_data.reviews.review3.datetime }}">{{
-                                    formatted_reviews.review3.formatted_date }}</time>
-                            </div>
-                        </footer>
-                    </div>
-                </article>
-
-                <article class="feature tile container-ratio ratio-4-3">
-                    <div class="feature-inner tile-inner flex flex-col flex-justify-between">
-                        <header class="ruh">
-                            <h3>{{ locale_data.reviews.review4.title }}</h3>
-                        </header>
-                        
-                        <blockquote class="review-quote">
-                            <span class="quote-icon" aria-hidden="true">”</span>
-                            <p>{{ locale_data.reviews.review4.quote }}</p>
-                        </blockquote>
-
-                        <footer class="review-author flex flex-center gap-sm">
-                            <img src="/lib/img/shared/author4.webp"
-                                alt="{{ locale_data.reviews.review4.author_name }}" width="32" height="32"
-                                srcset="/lib/img/shared/author4.webp 1x, /lib/img/shared/author4@2x.webp 2x"
-                                loading="lazy" class="btn btn-square btn-secondary">
-                            <div class="author-info flex flex-col">
-                                <cite class="author-name">{{ locale_data.reviews.review4.author_name }}</cite>
-                                <time class="review-date" datetime="{{ locale_data.reviews.review4.datetime }}">{{
-                                    formatted_reviews.review4.formatted_date }}</time>
-                            </div>
-                        </footer>
-                    </div>
-                </article>
-
-                <article class="feature tile container-ratio ratio-4-3">
-                    <div class="feature-inner tile-inner flex flex-col flex-justify-between">
-                        <header class="ruh">
-                            <h3>{{ locale_data.reviews.review5.title }}</h3>
-                        </header>
-                        
-                        <blockquote class="review-quote">
-                            <span class="quote-icon" aria-hidden="true">”</span>
-                            <p>{{ locale_data.reviews.review5.quote }}</p>
-                        </blockquote>
-
-                        <footer class="review-author flex flex-center gap-sm">
-                            <img src="/lib/img/shared/author5.webp"
-                                alt="{{ locale_data.reviews.review5.author_name }}" width="32" height="32"
-                                srcset="/lib/img/shared/author5.webp 1x, /lib/img/shared/author5@2x.webp 2x"
-                                loading="lazy" class="btn btn-square btn-secondary">
-                            <div class="author-info flex flex-col">
-                                <cite class="author-name">{{ locale_data.reviews.review5.author_name }}</cite>
-                                <time class="review-date" datetime="{{ locale_data.reviews.review5.datetime }}">{{
-                                    formatted_reviews.review5.formatted_date }}</time>
-                            </div>
-                        </footer>
-                    </div>
-                </article>
-
-                <article class="feature tile container-ratio ratio-4-3">
-                    <div class="feature-inner tile-inner flex flex-col flex-justify-between">
-                        <header class="ruh">
-                            <h3>{{ locale_data.reviews.review6.title }}</h3>
-                        </header>
-                        
-                        <blockquote class="review-quote">
-                            <span class="quote-icon" aria-hidden="true">”</span>
-                            <p>{{ locale_data.reviews.review6.quote }}</p>
-                        </blockquote>
-
-                        <footer class="review-author flex flex-center gap-sm">
-                            <img src="/lib/img/shared/author6.webp"
-                                alt="{{ locale_data.reviews.review6.author_name }}" width="32" height="32"
-                                srcset="/lib/img/shared/author6.webp 1x, /lib/img/shared/author6@2x.webp 2x"
-                                loading="lazy" class="btn btn-square btn-secondary">
-                            <div class="author-info flex flex-col">
-                                <cite class="author-name">{{ locale_data.reviews.review6.author_name }}</cite>
-                                <time class="review-date" datetime="{{ locale_data.reviews.review6.datetime }}">{{
-                                    formatted_reviews.review6.formatted_date }}</time>
-                            </div>
-                        </footer>
-                    </div>
-                </article>
-
-                <article class="feature tile container-ratio ratio-4-3 ruh">
-                    <div class="feature-inner tile-inner flex flex-col flex-justify-between">
-                        <header class="ruh">
-                            <h3>{{ locale_data.reviews.review7.title }}</h3>
-                        </header>
-                        
-                        <blockquote class="review-quote">
-                            <span class="quote-icon" aria-hidden="true">”</span>
-                            <p>{{ locale_data.reviews.review7.quote }}</p>
-                        </blockquote>
-
-                        <footer class="review-author flex flex-center gap-sm">
-                            <img src="/lib/img/shared/author7.webp"
-                                alt="{{ locale_data.reviews.review7.author_name }}" width="32" height="32"
-                                srcset="/lib/img/shared/author7.webp 1x, /lib/img/shared/author7@2x.webp 2x"
-                                loading="lazy" class="btn btn-square btn-secondary">
-                            <div class="author-info flex flex-col">
-                                <cite class="author-name">{{ locale_data.reviews.review7.author_name }}</cite>
-                                <time class="review-date" datetime="{{ locale_data.reviews.review7.datetime }}">{{
-                                    formatted_reviews.review7.formatted_date }}</time>
-                            </div>
-                        </footer>
-                    </div>
-                </article>
-
-                <article class="feature tile container-ratio ratio-4-3 ruh">
-                    <div class="feature-inner tile-inner flex flex-col flex-justify-between">
-                        <header class="ruh">
-                            <h3>{{ locale_data.reviews.review8.title }}</h3>
-                        </header>
-                        
-                        <blockquote class="review-quote">
-                            <span class="quote-icon" aria-hidden="true">”</span>
-                            <p>{{ locale_data.reviews.review8.quote }}</p>
-                        </blockquote>
-
-                        <footer class="review-author flex flex-center gap-sm">
-                            <img src="/lib/img/shared/author8.webp"
-                                alt="{{ locale_data.reviews.review8.author_name }}" width="32" height="32"
-                                srcset="/lib/img/shared/author8.webp 1x, /lib/img/shared/author8@2x.webp 2x"
-                                loading="lazy" class="btn btn-square btn-secondary">
-                            <div class="author-info flex flex-col">
-                                <cite class="author-name">{{ locale_data.reviews.review8.author_name }}</cite>
-                                <time class="review-date" datetime="{{ locale_data.reviews.review8.datetime }}">{{
-                                    formatted_reviews.review8.formatted_date }}</time>
-                            </div>
-                        </footer>
-                    </div>
-                </article>
-
+                {% endfor %}
             </div>
         </section>
 
@@ -627,54 +351,14 @@
             <h2 id="qa-heading">{{ locale_data.qa.heading }}<span class="ruh">: {{ locale_data.qa.heading_seo }}</span></h2>
 
             <div class="qa-content flex flex-col">
+                {% for key, value in locale_data.qa.items() if key.startswith('question') %}
                 <details>
                     <summary class="flex flex-justify-between flex-center">
-                        <h3>{{ locale_data.qa.question1.question }}</h3>
+                        <h3>{{ value.question|safe }}</h3>
                     </summary>
-                    <p>{{ locale_data.qa.question1.answer|safe }}</p>
+                    <p>{{ value.answer|safe }}</p>
                 </details>
-
-                <details>
-                    <summary class="flex flex-justify-between flex-center">
-                        <h3>{{ locale_data.qa.question2.question }}</h3>
-                    </summary>
-                    <p>{{ locale_data.qa.question2.answer|safe }}</p>
-                </details>
-
-                <details>
-                    <summary class="flex flex-justify-between flex-center">
-                        <h3>{{ locale_data.qa.question3.question }}</h3>
-                    </summary>
-                    <p>{{ locale_data.qa.question3.answer|safe }}</p>
-                </details>
-
-                <details>
-                    <summary class="flex flex-justify-between flex-center">
-                        <h3>{{ locale_data.qa.question4.question }}</h3>
-                    </summary>
-                    <p>{{ locale_data.qa.question4.answer|safe }}</p>
-                </details>
-
-                <details>
-                    <summary class="flex flex-justify-between flex-center">
-                        <h3>{{ locale_data.qa.question5.question }}</h3>
-                    </summary>
-                    <p>{{ locale_data.qa.question5.answer|safe }}</p>
-                </details>
-
-                <details>
-                    <summary class="flex flex-justify-between flex-center">
-                        <h3>{{ locale_data.qa.question7.question }}</h3>
-                    </summary>
-                    <p>{{ locale_data.qa.question7.answer|safe }}</p>
-                </details>
-
-                <details>
-                    <summary class="flex flex-justify-between flex-center">
-                        <h3>{{ locale_data.qa.question6.question }}</h3>
-                    </summary>
-                    <p>{{ locale_data.qa.question6.answer|safe }}</p>
-                </details>
+                {% endfor %}
             </div>
         </section>
 

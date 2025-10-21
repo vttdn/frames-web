@@ -51,18 +51,26 @@
         },
         {
           "@type": "Question",
-          "name": "Mitä suunnitelmia on tulevia päivityksiä varten?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Tulevaisuuden suunnitelmiin kuuluu työnkulkuominaisuuksien laajentaminen, laitteiden välisen integraation parantaminen ja yhteisön pyytämien uusien työkalujen lisääminen tehdäkseen analogisesta valokuvauskirjaamisesta entistä joustavampaa ja tehokkaampaa."
-          }
-        },
-        {
-          "@type": "Question",
           "name": "Voinko synkronoida tietoni iPhonen ja Macin välillä?",
           "acceptedAnswer": {
             "@type": "Answer",
             "text": "Kyllä, voit siirtää filmivalokuvauksen tietosi saumattomasti iPhonen ja Macin välillä käyttämällä .frames-tiedostojen vientiä. Vie yksinkertaisesti rullasi yhdestä laitteesta ja tuo ne toiseen. Vaikka automaattinen pilvisynkronointi ei ole tällä hetkellä saatavilla yksityisyytesi ja tietojesi omistajuuden säilyttämiseksi, .frames-muoto tekee manuaalisesta synkronoinnista nopeaa ja suoraviivaista."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Toimiiko Frames offline-tilassa?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ehdottomasti. Frames on suunniteltu toimimaan täysin offline-tilassa, mikä tekee siitä täydellisen kuvien ottamiseen syrjäisillä paikoilla ilman internetyhteyttä. Kaikki tietosi tallennetaan paikallisesti laitteellesi, joten voit kirjata kuvia, hallita arkistoasi ja järjestää laitteistosi missä tahansa. GPS-paikannusmerkintä toimii myös offline-tilassa ja tallentuu, kun tallennat jokaisen kuvan. Tarvitset internetiä vain viedessäsi metatietoja skannattuihin kuviin tai tarkistaessasi sovelluspäivityksiä."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Mitä suunnitelmia on tulevia päivityksiä varten?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Tulevaisuuden suunnitelmiin kuuluu työnkulkuominaisuuksien laajentaminen, laitteiden välisen integraation parantaminen ja yhteisön pyytämien uusien työkalujen lisääminen tehdäkseen analogisesta valokuvauskirjaamisesta entistä joustavampaa ja tehokkaampaa."
           }
         }
       ]

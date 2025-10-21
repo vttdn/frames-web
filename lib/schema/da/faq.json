@@ -51,18 +51,26 @@
         },
         {
           "@type": "Question",
-          "name": "Hvad er planerne for fremtidige opdateringer?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Fremtidige planer inkluderer udvidelse af arbejdsgangsfunktioner, forbedring af integration på tværs af enheder og tilføjelse af nye værktøjer anmodet af fællesskabet for at gøre analog fotografilogning endnu mere fleksibel og kraftfuld."
-          }
-        },
-        {
-          "@type": "Question",
           "name": "Kan jeg synkronisere mine data mellem iPhone og Mac?",
           "acceptedAnswer": {
             "@type": "Answer",
             "text": "Ja, du kan problemfrit overføre dine filmfotografidata mellem iPhone og Mac ved hjælp af .frames-fileksport. Eksporter simpelthen dine ruller fra én enhed og importer dem på en anden. Selvom automatisk cloud-synkronisering ikke er tilgængelig i øjeblikket for at bevare dit privatliv og dit dataejerskab, gør .frames-formatet manuel synkronisering hurtig og ligetil."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Fungerer Frames offline?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Absolut. Frames er designet til at fungere fuldstændigt offline, hvilket gør den perfekt til fotografering på fjerne steder uden internetforbindelse. Alle dine data gemmes lokalt på din enhed, så du kan logge billeder, administrere dit arkiv og organisere dit udstyr hvor som helst. GPS-placeringsmarkering fungerer også offline og gemmes når du optager hver ramme. Du behøver kun internet når du eksporterer metadata til scannede billeder eller tjekker for appopdateringer."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Hvad er planerne for fremtidige opdateringer?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Fremtidige planer inkluderer udvidelse af arbejdsgangsfunktioner, forbedring af integration på tværs af enheder og tilføjelse af nye værktøjer anmodet af fællesskabet for at gøre analog fotografilogning endnu mere fleksibel og kraftfuld."
           }
         }
       ]

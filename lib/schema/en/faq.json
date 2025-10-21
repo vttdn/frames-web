@@ -51,18 +51,26 @@
         },
         {
           "@type": "Question",
-          "name": "What are the plans for future updates?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Future plans include expanding workflow features, improving integration across devices, and adding new tools requested by the community to make analog photography logging even more flexible and powerful."
-          }
-        },
-        {
-          "@type": "Question",
           "name": "Can I sync my data between iPhone and Mac?",
           "acceptedAnswer": {
             "@type": "Answer",
             "text": "Yes, you can seamlessly transfer your film photography data between iPhone and Mac using .frames file exports. Simply export your rolls from one device and import them on another. While automatic cloud sync isn't currently available to maintain your privacy and data ownership, the .frames format makes manual syncing quick and straightforward."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does Frames work offline?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Absolutely. Frames is designed to work completely offline, making it perfect for shooting in remote locations without internet connectivity. All your data is stored locally on your device, so you can log shots, manage your archive, and organize your gear anywhere. GPS location tagging also works offline and will be saved when you record each frame. The only time you need internet is when exporting metadata to scanned images or checking for app updates."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What are the plans for future updates?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Future plans include expanding workflow features, improving integration across devices, and adding new tools requested by the community to make analog photography logging even more flexible and powerful."
           }
         }
       ]

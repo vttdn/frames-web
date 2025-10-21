@@ -51,18 +51,26 @@
         },
         {
           "@type": "Question",
-          "name": "Vad finns det för planer för framtida uppdateringar?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Framtida planer inkluderar utökade arbetsflödesfunktioner, förbättrad integration mellan enheter och nya verktyg som efterfrågats av gemenskapen för att göra analogfotografiloggning ännu mer flexibel och kraftfull."
-          }
-        },
-        {
-          "@type": "Question",
           "name": "Kan jag synkronisera mina data mellan iPhone och Mac?",
           "acceptedAnswer": {
             "@type": "Answer",
             "text": "Ja, du kan sömlöst överföra dina filmfotograferingsdata mellan iPhone och Mac med hjälp av .frames-filexporter. Exportera helt enkelt dina rullar från en enhet och importera dem på en annan. Även om automatisk molnsynkronisering inte är tillgänglig för närvarande för att behålla din integritet och dataäganderätt, gör .frames-formatet manuell synkronisering snabb och enkel."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Fungerar Frames offline?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Absolut. Frames är utformat för att fungera helt offline, vilket gör den perfekt för fotografering på avlägsna platser utan internetanslutning. All din data lagras lokalt på din enhet, så du kan logga bilder, hantera ditt arkiv och organisera din utrustning var som helst. GPS-platstaggar fungerar också offline och sparas när du spelar in varje bildruta. Du behöver endast internet när du exporterar metadata till skannade bilder eller kontrollerar appuppdateringar."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Vad finns det för planer för framtida uppdateringar?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Framtida planer inkluderar utökade arbetsflödesfunktioner, förbättrad integration mellan enheter och nya verktyg som efterfrågats av gemenskapen för att göra analogfotografiloggning ännu mer flexibel och kraftfull."
           }
         }
       ]

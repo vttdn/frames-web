@@ -51,18 +51,26 @@
         },
         {
           "@type": "Question",
-          "name": "Apa rencana untuk pembaruan di masa depan?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Rencana masa depan termasuk memperluas fitur alur kerja, meningkatkan integrasi lintas perangkat, dan menambahkan alat baru yang diminta oleh komunitas untuk membuat pencatatan fotografi analog lebih fleksibel dan kuat."
-          }
-        },
-        {
-          "@type": "Question",
           "name": "Bisakah saya menyinkronkan data saya antara iPhone dan Mac?",
           "acceptedAnswer": {
             "@type": "Answer",
             "text": "Ya, Anda dapat mentransfer data fotografi film Anda dengan mulus antara iPhone dan Mac menggunakan ekspor file .frames. Cukup ekspor rol Anda dari satu perangkat dan impor ke perangkat lain. Meskipun sinkronisasi cloud otomatis saat ini tidak tersedia untuk menjaga privasi dan kepemilikan data Anda, format .frames membuat sinkronisasi manual menjadi cepat dan mudah."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Apakah Frames bekerja secara offline?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Tentu saja. Frames dirancang untuk bekerja sepenuhnya secara offline, membuatnya sempurna untuk pemotretan di lokasi terpencil tanpa koneksi internet. Semua data Anda disimpan secara lokal di perangkat Anda, sehingga Anda dapat mencatat pemotretan, mengelola arsip, dan mengatur peralatan di mana saja. Penandaan lokasi GPS juga bekerja secara offline dan akan disimpan saat Anda merekam setiap frame. Anda hanya memerlukan internet saat mengekspor metadata ke gambar yang dipindai atau memeriksa pembaruan aplikasi."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Apa rencana untuk pembaruan di masa depan?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Rencana masa depan termasuk memperluas fitur alur kerja, meningkatkan integrasi lintas perangkat, dan menambahkan alat baru yang diminta oleh komunitas untuk membuat pencatatan fotografi analog lebih fleksibel dan kuat."
           }
         }
       ]
