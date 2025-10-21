@@ -330,7 +330,7 @@
                 {% for entry in latest_changelog_entries %}
                     <article class="changelog tile">
                         <a href="{{ lang_config.path }}changelog/{{ entry.url_slug }}/" class="changelog-inner tile-inner flex flex-col flex-justify-between">
-                            <div class="flex flex-center flex-justify-start gap-xs2">
+                            <div class="flex flex-center flex-justify-start gap-md">
                                 <span class="changelog-number">{{ 'iOS' if entry.platform == 'ios' else 'macOS' }} {{ entry.version_short }}</span>
                                 <time datetime="{{ entry.release_date }}" class="changelog-datetime">{{ entry.formatted_date }}</time>
                             </div>

@@ -85,9 +85,9 @@
       <article class="grid grid-4col" itemscope itemtype="https://schema.org/BlogPosting">
         <link itemprop="url" href="https://withframes.com/changelog/{{ entry.url_slug }}/" />
         <div class="release-info">
-          <div class="release-info-inner flex flex-center flex-justify-start gap-xs2">
+          <div class="release-info-inner flex flex-center flex-justify-start gap-sm">
 
-          <a href="{{ lang_config.path }}{{ locale_data.urls.changelog }}{{ entry.url_slug }}/" class="flex flex-center flex-justify-start gap-xs2">
+          <a href="{{ lang_config.path }}{{ locale_data.urls.changelog }}{{ entry.url_slug }}/" class="flex flex-center flex-justify-start gap-sm">
             <span class="release-number">{{ locale_data.changelog.labels['platform_' + entry.platform] }} {{ entry.version_short }}</span>
             <time datetime="{{ entry.release_date }}" class="release-datetime">{{ entry.formatted_date }}</time>
           </a>
