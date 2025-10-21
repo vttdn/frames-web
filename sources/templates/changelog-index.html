@@ -105,6 +105,7 @@
           <h2 class="h1" itemprop="headline"><a href="{{ lang_config.path }}{{ locale_data.urls.changelog }}{{ entry.url_slug }}/">{{ entry.title }}</a></h2>
           <p itemprop="description">{{ entry.summary }}</p>
           <meta itemprop="datePublished" content="{{ entry.release_date }}" />
+          <meta itemprop="author" content="Vincent Tantardini" url="https://withframes.com/"/>
           {% if entry.sections and entry.sections|selectattr('type', 'equalto', 'media')|list|length > 0 %}
           <link itemprop="image" href="https://withframes.com{{ (entry.sections|selectattr('type', 'equalto', 'media')|first).image_2x }}" />
           <meta itemprop="width" content="{{ (entry.sections|selectattr('type', 'equalto', 'media')|first).width }}" />
