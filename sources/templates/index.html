@@ -554,9 +554,15 @@
             <div class="grid grid-2col">
                 {% for i in range(1, 7) %}
                 <figure class="tile container-ratio ratio-4-3">
+                    {% if i == 2 %}
+                    <img src="/lib/img/{{ lang }}/howto{{ i }}.webp"
+                        srcset="/lib/img/{{ lang }}/howto{{ i }}.webp 1x, /lib/img/{{ lang }}/howto{{ i }}@2x.webp 2x"
+                        alt="{{ locale_data.howto['howto' ~ i].heading }}" width="400" height="300" loading="lazy">
+                    {% else %}
                     <img src="/lib/img/shared/howto{{ i }}.webp"
                         srcset="/lib/img/shared/howto{{ i }}.webp 1x, /lib/img/shared/howto{{ i }}@2x.webp 2x"
                         alt="{{ locale_data.howto['howto' ~ i].heading }}" width="400" height="300" loading="lazy">
+                    {% endif %}
                     <figcaption class="howto-caption flex flex-col flex-justify-between ruh">
                         <h3>{{ locale_data.howto['howto' ~ i].heading }}</h3>
                         <p>{{ locale_data.howto['howto' ~ i].description }}</p>

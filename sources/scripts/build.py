@@ -69,12 +69,21 @@ def load_css_file(css_name):
 
 def create_jinja_env(autoescape_enabled=True):
     """Create standardized Jinja2 environment"""
-    return Environment(
+    env = Environment(
         loader=FileSystemLoader(TEMPLATES_DIR),
         autoescape=select_autoescape(['html', 'xml']) if autoescape_enabled else False,
         trim_blocks=True,
         lstrip_blocks=True
     )
+
+    # Add custom filter to remove step numbers (e.g., "1. " from beginning of string)
+    def regex_replace(s, pattern, replacement):
+        import re
+        return re.sub(pattern, replacement, s)
+
+    env.filters['regex_replace'] = regex_replace
+
+    return env
 
 
 def get_lang_config(global_config, lang_code):
