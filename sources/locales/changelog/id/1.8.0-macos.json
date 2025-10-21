@@ -28,8 +28,18 @@
     "Penyempurnaan antarmuka untuk pengalaman pengguna yang lebih lancar",
     "Konsistensi yang ditingkatkan di semua bahasa yang didukung"
   ],
-  "fixes": [],
-  "patches": [],
+  "fixes": [
+    {
+      "title": "Koordinat GPS",
+      "description": "Memperbaiki masalah di mana nilai garis bujur GPS terbalik (timur/barat) di belahan bumi barat saat mengekspor file DNG atau RAW."
+    }
+  ],
+  "patches": [
+    {
+      "version": "1.8.1",
+      "description": "Perbaikan koordinat geolokasi"
+    }
+  ],
   "meta_title": "Dukungan Bahasa Ibrani, Arab, Rumania & Ukraina · Frames",
   "meta_description": "Frames untuk macOS terus memperluas dukungan bahasa dengan Ibrani, Arab, Rumania, dan Ukraina, bersama dengan penyempurnaan antarmuka untuk metadata yang lebih lancar..."
 }

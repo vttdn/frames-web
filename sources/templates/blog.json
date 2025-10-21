@@ -14,13 +14,22 @@
     {
       "@type": "BlogPosting",
       "@id": "https://withframes.com{% if lang != 'en' %}/{{ lang }}{% endif %}/changelog/{{ entry.url_slug }}/",
+      "url": "https://withframes.com{% if lang != 'en' %}/{{ lang }}{% endif %}/changelog/{{ entry.url_slug }}/",
       "headline": "{{ entry.title }}",
+      "description": "{% if entry.meta_description %}{{ entry.meta_description }}{% else %}{{ entry.summary }}{% endif %}",
       "datePublished": "{{ entry.release_date }}",
       "dateModified": "{{ build_date }}",
-      "author": {
-        "@type": "Person",
-        "name": "Vincent Tantardini"
-      }
+      "inLanguage": "{{ lang }}",
+      "author": {"@id": "https://withframes.com/#vincent-tantardini"},
+      "publisher": {
+        "@id": "https://withframes.com/#organization"
+      }{% if entry.sections and entry.sections|selectattr('type', 'equalto', 'media')|list|length > 0 %},
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://withframes.com{{ (entry.sections|selectattr('type', 'equalto', 'media')|first).image_2x }}",
+        "width": "{{ (entry.sections|selectattr('type', 'equalto', 'media')|first).width }}",
+        "height": "{{ (entry.sections|selectattr('type', 'equalto', 'media')|first).height }}"
+      }{% endif %}
     }{% if not loop.last %},{% endif %}
     {% endfor %}
   ]

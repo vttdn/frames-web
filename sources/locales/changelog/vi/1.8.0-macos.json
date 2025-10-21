@@ -28,8 +28,18 @@
     "Tinh chỉnh giao diện để có trải nghiệm người dùng mượt mà hơn",
     "Cải thiện tính nhất quán trên tất cả các ngôn ngữ được hỗ trợ"
   ],
-  "fixes": [],
-  "patches": [],
+  "fixes": [
+    {
+      "title": "Tọa độ GPS",
+      "description": "Đã khắc phục sự cố mà các giá trị kinh độ GPS bị đảo ngược (đông/tây) ở bán cầu tây khi xuất file DNG hoặc RAW."
+    }
+  ],
+  "patches": [
+    {
+      "version": "1.8.1",
+      "description": "Sửa lỗi tọa độ định vị địa lý"
+    }
+  ],
   "meta_title": "Hỗ trợ tiếng Do Thái, Ả Rập, Rumani & Ukraina · Frames",
   "meta_description": "Frames cho macOS tiếp tục mở rộng hỗ trợ ngôn ngữ với tiếng Do Thái, Ả Rập, Rumani và Ukraina, cùng với tinh chỉnh giao diện để có siêu dữ liệu mượt mà hơn..."
 }

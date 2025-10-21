@@ -28,8 +28,18 @@
     "Dopracowania interfejsu dla płynniejszego doświadczenia użytkownika",
     "Poprawiona spójność we wszystkich obsługiwanych językach"
   ],
-  "fixes": [],
-  "patches": [],
+  "fixes": [
+    {
+      "title": "Współrzędne GPS",
+      "description": "Naprawiono problem, w którym wartości długości geograficznej GPS były odwrócone (wschód/zachód) na zachodniej półkuli podczas eksportowania plików DNG lub RAW."
+    }
+  ],
+  "patches": [
+    {
+      "version": "1.8.1",
+      "description": "Poprawka współrzędnych geolokalizacji"
+    }
+  ],
   "meta_title": "Obsługa języków hebrajskiego, arabskiego, rumuńskiego i ukraińskiego · Frames",
   "meta_description": "Frames dla macOS kontynuuje rozszerzanie obsługi języków hebrajskim, arabskim, rumuńskim i ukraińskim, wraz z dopracowaniami interfejsu dla płynniejszego..."
 }

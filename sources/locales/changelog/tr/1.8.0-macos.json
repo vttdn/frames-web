@@ -28,8 +28,18 @@
     "Daha sorunsuz kullanıcı deneyimi için arayüz iyileştirmeleri",
     "Desteklenen tüm dillerde iyileştirilmiş tutarlılık"
   ],
-  "fixes": [],
-  "patches": [],
+  "fixes": [
+    {
+      "title": "GPS Koordinatları",
+      "description": "DNG veya RAW dosyaları dışa aktarılırken batı yarımkürede GPS boylam değerlerinin ters (doğu/batı) olduğu bir sorun düzeltildi."
+    }
+  ],
+  "patches": [
+    {
+      "version": "1.8.1",
+      "description": "Coğrafi konum koordinat düzeltmesi"
+    }
+  ],
   "meta_title": "İbranice, Arapça, Rumence ve Ukraynaca Dil Desteği · Frames",
   "meta_description": "macOS için Frames, daha sorunsuz bir meta veri entegrasyon için arayüz iyileştirmelerinin yanı sıra İbranice, Arapça, Rumence ve Ukraynaca ile dil desteğini genişletmeye devam ediyor..."
 }

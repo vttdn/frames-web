@@ -28,8 +28,18 @@
     "Käyttöliittymän hiontoja sujuvampaan käyttökokemukseen",
     "Parannettu johdonmukaisuus kaikilla tuetuilla kielillä"
   ],
-  "fixes": [],
-  "patches": [],
+  "fixes": [
+    {
+      "title": "GPS-koordinaatit",
+      "description": "Korjattu ongelma, jossa GPS-pituuspiiriarvot kääntyivät päinvastaisiksi (itä/länsi) läntisellä pallonpuoliskolla vietäessä DNG- tai RAW-tiedostoja."
+    }
+  ],
+  "patches": [
+    {
+      "version": "1.8.1",
+      "description": "Geolokointikoordinaattien korjaus"
+    }
+  ],
   "meta_title": "Heprea, arabia, romania ja ukraina kielituki · Frames",
   "meta_description": "Frames macOS:lle jatkaa kielituen laajentamista heprealla, arabialla, romanialla ja ukrainalla sekä käyttöliittymän hionnoilla sujuvampaan metatietojen..."
 }

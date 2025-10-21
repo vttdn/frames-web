@@ -28,8 +28,18 @@
     "Interface refinements for smoother user experience",
     "Improved consistency across all supported languages"
   ],
-  "fixes": [],
-  "patches": [],
+  "fixes": [
+    {
+      "title": "GPS Coordinates",
+      "description": "Fixed an issue where GPS longitude values were reversed (East/West) in the Western Hemisphere when exporting DNG or RAW files."
+    }
+  ],
+  "patches": [
+    {
+      "version": "1.8.1",
+      "description": "Geolocation Coordinate Fix"
+    }
+  ],
   "meta_title": "Hebrew, Arabic, Romanian & Ukrainian Language Support · Frames",
   "meta_description": "Frames for macOS continues expanding language support with Hebrew, Arabic, Romanian, and Ukrainian, alongside interface refinements for a smoother metadata..."
 }

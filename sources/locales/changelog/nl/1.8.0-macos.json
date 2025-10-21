@@ -28,8 +28,18 @@
     "Interface-verfijningen voor soepelere gebruikerservaring",
     "Verbeterde consistentie in alle ondersteunde talen"
   ],
-  "fixes": [],
-  "patches": [],
+  "fixes": [
+    {
+      "title": "GPS-coördinaten",
+      "description": "Een probleem opgelost waarbij GPS-lengtegraadwaarden omgekeerd werden (oost/west) op het westelijk halfrond bij het exporteren van DNG- of RAW-bestanden."
+    }
+  ],
+  "patches": [
+    {
+      "version": "1.8.1",
+      "description": "Correctie geolocatiecoördinaten"
+    }
+  ],
   "meta_title": "Hebreeuws, Arabisch, Roemeens en Oekraïens taalondersteuning · Frames",
   "meta_description": "Frames voor macOS breidt taalondersteuning verder uit met Hebreeuws, Arabisch, Roemeens en Oekraïens, samen met interface-verfijningen voor een soepelere..."
 }

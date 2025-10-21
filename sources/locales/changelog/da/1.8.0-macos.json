@@ -28,8 +28,18 @@
     "Grænsefladerforbedringer for glattere brugeroplevelse",
     "Forbedret konsistens på tværs af alle understøttede sprog"
   ],
-  "fixes": [],
-  "patches": [],
+  "fixes": [
+    {
+      "title": "GPS-koordinater",
+      "description": "Rettet et problem, hvor GPS-længdegradsværdier blev vendt om (øst/vest) på den vestlige halvkugle ved eksport af DNG- eller RAW-filer."
+    }
+  ],
+  "patches": [
+    {
+      "version": "1.8.1",
+      "description": "Rettelse af geolokationskoordinater"
+    }
+  ],
   "meta_title": "Hebraisk, arabisk, rumænsk og ukrainsk sprogsupport · Frames",
   "meta_description": "Frames til macOS fortsætter med at udvide sprogsupport med hebraisk, arabisk, rumænsk og ukrainsk sammen med grænsefladerforbedringer for en glattere metadata..."
 }

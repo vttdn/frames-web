@@ -28,8 +28,18 @@
     "सुचारू उपयोगकर्ता अनुभव के लिए इंटरफ़ेस परिष्करण",
     "सभी समर्थित भाषाओं में बेहतर संगति"
   ],
-  "fixes": [],
-  "patches": [],
+  "fixes": [
+    {
+      "title": "GPS निर्देशांक",
+      "description": "एक समस्या को ठीक किया गया जहां DNG या RAW फ़ाइलें एक्सपोर्ट करते समय पश्चिमी गोलार्ध में GPS देशांतर मान उल्टे (पूर्व/पश्चिम) थे।"
+    }
+  ],
+  "patches": [
+    {
+      "version": "1.8.1",
+      "description": "भू-स्थान निर्देशांक सुधार"
+    }
+  ],
   "meta_title": "Hebrew, Arabic, Romanian और Ukrainian भाषा समर्थन · Frames",
   "meta_description": "macOS के लिए Frames सुचारू metadata पुनः एकीकरण workflow के लिए इंटरफ़ेस परिष्करण के साथ-साथ Hebrew, Arabic, Romanian और Ukrainian के साथ भाषा समर्थन का विस्तार जारी रखता है..."
 }

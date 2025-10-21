@@ -28,8 +28,18 @@
     "Perfezionamenti interfaccia per esperienza utente più fluida",
     "Migliorata coerenza in tutte le lingue supportate"
   ],
-  "fixes": [],
-  "patches": [],
+  "fixes": [
+    {
+      "title": "Coordinate GPS",
+      "description": "Risolto un problema per cui i valori di longitudine GPS erano invertiti (est/ovest) nell'emisfero occidentale durante l'esportazione di file DNG o RAW."
+    }
+  ],
+  "patches": [
+    {
+      "version": "1.8.1",
+      "description": "Correzione coordinate di geolocalizzazione"
+    }
+  ],
   "meta_title": "Supporto Lingue Ebraico, Arabo, Rumeno e Ucraino · Frames",
   "meta_description": "Frames per macOS continua ad espandere il supporto linguistico con ebraico, arabo, rumeno e ucraino, insieme a perfezionamenti dell'interfaccia per un..."
 }

@@ -30,6 +30,16 @@
     "Refinamentos de interface para experiência de usuário mais suave",
     "Consistência aprimorada em todos os idiomas suportados"
   ],
-  "fixes": [],
-  "patches": []
+  "fixes": [
+    {
+      "title": "Coordenadas GPS",
+      "description": "Corrigido um problema em que os valores de longitude GPS eram invertidos (leste/oeste) no hemisfério ocidental ao exportar arquivos DNG ou RAW."
+    }
+  ],
+  "patches": [
+    {
+      "version": "1.8.1",
+      "description": "Correção de coordenadas de geolocalização"
+    }
+  ]
 }
