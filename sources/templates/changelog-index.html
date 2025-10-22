@@ -105,10 +105,10 @@
           <h2 class="h1" itemprop="headline"><a href="{{ lang_config.path }}{{ locale_data.urls.changelog }}{{ entry.url_slug }}/">{{ entry.title }}</a></h2>
           <p itemprop="description">{{ entry.summary }}</p>
           <meta itemprop="datePublished" content="{{ entry.release_date }}" />
-          {% if entry.sections and entry.sections|selectattr('type', 'equalto', 'media')|list|length > 0 %}
-          <link itemprop="image" href="https://withframes.com{{ (entry.sections|selectattr('type', 'equalto', 'media')|first).image_2x }}" />
-          <meta itemprop="width" content="{{ (entry.sections|selectattr('type', 'equalto', 'media')|first).width }}" />
-          <meta itemprop="height" content="{{ (entry.sections|selectattr('type', 'equalto', 'media')|first).height }}" />
+          {% if entry.og_image_url and entry.og_image_url != '/og-image.jpg' %}
+          <link itemprop="image" href="https://withframes.com{{ entry.og_image_url }}" />
+          <meta itemprop="width" content="1200" />
+          <meta itemprop="height" content="630" />
           {% endif %}
 
           {% for section in entry.sections %}

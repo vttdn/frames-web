@@ -23,12 +23,12 @@
       "author": {"@id": "https://withframes.com/#vincent-tantardini"},
       "publisher": {
         "@id": "https://withframes.com/#organization"
-      }{% if entry.sections and entry.sections|selectattr('type', 'equalto', 'media')|list|length > 0 %},
+      }{% if entry.og_image_url and entry.og_image_url != '/og-image.jpg' %},
       "image": {
         "@type": "ImageObject",
-        "url": "https://withframes.com{{ (entry.sections|selectattr('type', 'equalto', 'media')|first).image_2x }}",
-        "width": "{{ (entry.sections|selectattr('type', 'equalto', 'media')|first).width }}",
-        "height": "{{ (entry.sections|selectattr('type', 'equalto', 'media')|first).height }}"
+        "url": "https://withframes.com{{ entry.og_image_url }}",
+        "width": "1200",
+        "height": "630"
       }{% endif %}
     }{% if not loop.last %},{% endif %}
     {% endfor %}

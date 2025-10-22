@@ -11,11 +11,11 @@
   "author": {"@id": "https://withframes.com/#vincent-tantardini"},
   "publisher": {
     "@id": "https://withframes.com/#organization"
-  }{% if first_image %},
+  }{% if og_image_url and og_image_url != '/og-image.jpg' %},
   "image": {
     "@type": "ImageObject",
-    "url": "https://withframes.com{{ first_image }}",
-    "width": "{{ image_width }}",
-    "height": "{{ image_height }}"
+    "url": "https://withframes.com{{ og_image_url }}",
+    "width": "1200",
+    "height": "630"
   }{% endif %}
 }

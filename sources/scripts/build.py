@@ -627,23 +627,18 @@ def generate_og_image(source_image_path, output_path, bg_color=(28, 28, 30)):
         elif img.mode != 'RGB':
             img = img.convert('RGB')
 
-        # Scale to 600px width
-        target_width = 600
-        aspect_ratio = img.height / img.width
-        target_height = int(target_width * aspect_ratio)
-        img = img.resize((target_width, target_height), Image.Resampling.LANCZOS)
+        # Scale to 315px height
+        target_height = 315
+        aspect_ratio = img.width / img.height
+        scaled_width = int(target_height * aspect_ratio)
+        img = img.resize((scaled_width, target_height), Image.Resampling.LANCZOS)
 
-        # Center-crop to 600×315px
-        target_crop_height = 315
-        if img.height > target_crop_height:
-            crop_top = (img.height - target_crop_height) // 2
-            crop_bottom = crop_top + target_crop_height
-            img = img.crop((0, crop_top, target_width, crop_bottom))
-        elif img.height < target_crop_height:
-            padded = Image.new('RGB', (target_width, target_crop_height), bg_color)
-            paste_y = (target_crop_height - img.height) // 2
-            padded.paste(img, (0, paste_y))
-            img = padded
+        # Center horizontally in 600×315px canvas
+        target_width = 600
+        canvas = Image.new('RGB', (target_width, target_height), bg_color)
+        paste_x = (target_width - scaled_width) // 2
+        canvas.paste(img, (paste_x, 0))
+        img = canvas
 
         output_path.parent.mkdir(parents=True, exist_ok=True)
         img.save(output_path, 'JPEG', quality=85, optimize=True)
@@ -674,6 +669,18 @@ def generate_changelog_og_image(lang_code, image_path, filename):
         return f"/lib/img/{lang_code}/changelog/og-image/{filename}"
     else:
         return '/og-image.jpg'
+
+
+def generate_all_changelog_og_images(entries, lang_code):
+    """Generate OG images for all changelog entries upfront"""
+    for entry in entries:
+        first_image, _, _ = get_first_image_from_entry(entry)
+        if first_image:
+            og_filename = f"{entry['url_slug']}-og-image.jpg"
+            og_image_url = generate_changelog_og_image(lang_code, first_image, og_filename)
+            entry['og_image_url'] = og_image_url
+        else:
+            entry['og_image_url'] = '/og-image.jpg'
 
 
 def generate_changelog_hreflang_links(languages, page_type='index', page_number=1, url_slug=None, base_url="https://withframes.com"):
@@ -780,16 +787,13 @@ def generate_changelog_schemas(lang_code, locale_data, global_config, page_type,
 
     elif page_type == 'changelog-entry':
         entry = kwargs.get('entry')
-        first_image, image_width, image_height = get_first_image_from_entry(entry)
 
         blogposting_context = {
             'lang': lang_code,
             'canonical_url': kwargs['canonical_url'],
             'entry': entry,
             'build_date': build_date,
-            'first_image': first_image,
-            'image_width': image_width,
-            'image_height': image_height
+            'og_image_url': entry.get('og_image_url', '/og-image.jpg')
         }
         blogposting_schema = generate_schema_file('schemas/blogposting.json', blogposting_context)
         save_changelog_schema(blogposting_schema, 'blogposting.json', lang_code, page_type, page_number, url_slug)
@@ -863,6 +867,10 @@ def build_changelog_pages(global_config):
 
             print(f"✓ Loaded {len(entries)} changelog entries")
 
+            # Generate OG images for all entries upfront
+            generate_all_changelog_og_images(entries, lang_code)
+            print(f"✓ Generated OG images for changelog entries")
+
             total_pages = math.ceil(len(entries) / ENTRIES_PER_PAGE)
             print(f"✓ Total pages: {total_pages}")
 
@@ -902,20 +910,13 @@ def build_changelog_pages(global_config):
 
                 canonical_url = f"https://withframes.com{'/' + lang_code if lang_code != 'en' else ''}/changelog/{entry['url_slug']}/"
 
-                # Generate OG image
-                first_image, _, _ = get_first_image_from_entry(entry)
-                og_image_url = '/og-image.jpg'
-                if first_image:
-                    og_filename = f"{entry['url_slug']}-og-image.jpg"
-                    og_image_url = generate_changelog_og_image(lang_code, first_image, og_filename)
-
                 extra_context = {
                     'hreflang_links': generate_changelog_hreflang_links(global_config['languages'], page_type='entry', url_slug=entry['url_slug']),
                     'entry': entry,
                     'prev_entry': prev_entry,
                     'next_entry': next_entry,
                     'changelog_css': changelog_css,
-                    'og_image_url': og_image_url
+                    'og_image_url': entry.get('og_image_url', '/og-image.jpg')
                 }
 
                 html = generate_html_page('changelog-entry.html', lang_code, global_config, locale_data,
