@@ -41,6 +41,20 @@
 .footer-bottom {
     color: var(--color-gray);
 
+    @include tablet-down {
+        align-items: flex-end!important;
+
+        > :first-child {
+            flex-direction: column;
+            gap: var(--spacing-xs);
+            align-items: start;
+            
+            > :first-child {
+                order: 2;
+            }
+        }
+    }
+
     a {
         &:hover {
             color: var(--color-white);
