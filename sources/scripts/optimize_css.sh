@@ -1,8 +1,8 @@
 #!/bin/bash
 set -euo pipefail
 
-# Adjust path to your project root
-CSS_DIR="../../lib/css"
+# Path relative to project root
+CSS_DIR="lib/css"
 
 # Check if directory exists
 if [ ! -d "$CSS_DIR" ]; then

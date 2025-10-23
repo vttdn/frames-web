@@ -15,6 +15,7 @@ import argparse
 import json
 import math
 import os
+import subprocess
 import sys
 from pathlib import Path
 from datetime import datetime
@@ -1121,6 +1122,28 @@ Examples:
 
     print("Frames Website Builder")
     print("=" * 50)
+
+    # Run CSS optimization first
+    print("\n🎨 Optimizing CSS...")
+    optimize_css_script = PROJECT_ROOT / "sources" / "scripts" / "optimize_css.sh"
+    if optimize_css_script.exists():
+        try:
+            result = subprocess.run(
+                ["bash", str(optimize_css_script)],
+                cwd=PROJECT_ROOT,
+                capture_output=True,
+                text=True,
+                check=True
+            )
+            print("✓ CSS optimization completed")
+            if result.stdout:
+                print(result.stdout.strip())
+        except subprocess.CalledProcessError as e:
+            print(f"⚠ Warning: CSS optimization failed: {e}")
+            if e.stderr:
+                print(e.stderr.strip())
+    else:
+        print(f"⚠ Warning: optimize_css.sh not found at {optimize_css_script}")
 
     # Load global config
     try:

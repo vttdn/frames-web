@@ -163,15 +163,17 @@
             <h2 class="ruh">{{ locale_data.preview.heading|safe }}</h2>
 
             {% for i in range(1, 7) %}
-            <figure class="tile container-ratio ratio-4-3">
-                    <img src="/lib/img/{% if i <= 4 %}{{ lang }}{% else %}shared{% endif %}/preview{{ i }}.webp"
-                        srcset="/lib/img/{% if i <= 4 %}{{ lang }}{% else %}shared{% endif %}/preview{{ i }}.webp 1x, /lib/img/{% if i <= 4 %}{{ lang }}{% else %}shared{% endif %}/preview{{ i }}@2x.webp 2x"
-                        alt="{{ locale_data.preview.images['preview' ~ i].alt|safe }}" width="400" height="300" loading="lazy">
-                    <figcaption class="howto-caption flex flex-col flex-justify-between ruh">
-                        <strong>{{ locale_data.preview.images['preview' ~ i].heading }}</strong>
-                        <p>{{ locale_data.preview.images['preview' ~ i].caption|safe }}</p>
-                    </figcaption>
-            </figure>
+            <a href="#preview{{ i }}">
+                <figure id="preview{{ i }}" class="tile container-ratio ratio-4-3">
+                        <img src="/lib/img/{% if i <= 4 %}{{ lang }}{% else %}shared{% endif %}/preview{{ i }}.webp"
+                            srcset="/lib/img/{% if i <= 4 %}{{ lang }}{% else %}shared{% endif %}/preview{{ i }}.webp 1x, /lib/img/{% if i <= 4 %}{{ lang }}{% else %}shared{% endif %}/preview{{ i }}@2x.webp 2x"
+                            alt="{{ locale_data.preview.images['preview' ~ i].alt|safe }}" width="400" height="300" loading="lazy">
+                        <figcaption class="howto-caption flex flex-col flex-justify-between ruh">
+                            <strong>{{ locale_data.preview.images['preview' ~ i].heading }}</strong>
+                            <p>{{ locale_data.preview.images['preview' ~ i].caption|safe }}</p>
+                        </figcaption>
+                </figure>
+            </a>
             {% endfor %}
         </section>
         
@@ -270,21 +272,23 @@
 
             <div class="grid grid-2col">
                 {% for i in range(1, 7) %}
-                <figure class="tile container-ratio ratio-4-3">
-                    {% if i == 2 %}
-                    <img src="/lib/img/{{ lang }}/howto{{ i }}.webp"
-                        srcset="/lib/img/{{ lang }}/howto{{ i }}.webp 1x, /lib/img/{{ lang }}/howto{{ i }}@2x.webp 2x"
-                        alt="{{ locale_data.howto['howto' ~ i].heading }}" width="400" height="300" loading="lazy">
-                    {% else %}
-                    <img src="/lib/img/shared/howto{{ i }}.webp"
-                        srcset="/lib/img/shared/howto{{ i }}.webp 1x, /lib/img/shared/howto{{ i }}@2x.webp 2x"
-                        alt="{{ locale_data.howto['howto' ~ i].heading }}" width="400" height="300" loading="lazy">
-                    {% endif %}
-                    <figcaption class="howto-caption flex flex-col flex-justify-between ruh">
-                        <strong>{{ locale_data.howto['howto' ~ i].heading }}</strong>
-                        <p>{{ locale_data.howto['howto' ~ i].description }}</p>
-                    </figcaption>
-                </figure>
+                <a href="#howto{{ i }}">
+                    <figure id="howto{{ i }}" class="tile container-ratio ratio-4-3">
+                        {% if i == 2 %}
+                        <img src="/lib/img/{{ lang }}/howto{{ i }}.webp"
+                            srcset="/lib/img/{{ lang }}/howto{{ i }}.webp 1x, /lib/img/{{ lang }}/howto{{ i }}@2x.webp 2x"
+                            alt="{{ locale_data.howto['howto' ~ i].heading }}" width="400" height="300" loading="lazy">
+                        {% else %}
+                        <img src="/lib/img/shared/howto{{ i }}.webp"
+                            srcset="/lib/img/shared/howto{{ i }}.webp 1x, /lib/img/shared/howto{{ i }}@2x.webp 2x"
+                            alt="{{ locale_data.howto['howto' ~ i].heading }}" width="400" height="300" loading="lazy">
+                        {% endif %}
+                        <figcaption class="howto-caption flex flex-col flex-justify-between ruh">
+                            <strong>{{ locale_data.howto['howto' ~ i].heading }}</strong>
+                            <p>{{ locale_data.howto['howto' ~ i].description }}</p>
+                        </figcaption>
+                    </figure>
+                </a>
                 {% endfor %}
             </div>
         </section>
