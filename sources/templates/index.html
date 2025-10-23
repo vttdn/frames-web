@@ -163,7 +163,7 @@
             <h2 class="ruh">{{ locale_data.preview.heading|safe }}</h2>
 
             {% for i in range(1, 7) %}
-            <a href="#preview{{ i }}">
+            <a href="#preview{{ i }}" class="preview-link">
                 <figure id="preview{{ i }}" class="tile container-ratio ratio-4-3">
                         <img src="/lib/img/{% if i <= 4 %}{{ lang }}{% else %}shared{% endif %}/preview{{ i }}.webp"
                             srcset="/lib/img/{% if i <= 4 %}{{ lang }}{% else %}shared{% endif %}/preview{{ i }}.webp 1x, /lib/img/{% if i <= 4 %}{{ lang }}{% else %}shared{% endif %}/preview{{ i }}@2x.webp 2x"
@@ -272,7 +272,7 @@
 
             <div class="grid grid-2col">
                 {% for i in range(1, 7) %}
-                <a href="#howto{{ i }}">
+                <a href="#howto{{ i }}" class="howto-link">
                     <figure id="howto{{ i }}" class="tile container-ratio ratio-4-3">
                         {% if i == 2 %}
                         <img src="/lib/img/{{ lang }}/howto{{ i }}.webp"

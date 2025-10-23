@@ -317,6 +317,16 @@ document.addEventListener('DOMContentLoaded', () => {
     figure.setAttribute('role', 'button');
     figure.setAttribute('aria-pressed', 'false');
 
+    // Prevent anchor scroll on mobile (viewport < 768px)
+    const anchorLink = figure.closest('a');
+    if (anchorLink) {
+      anchorLink.addEventListener('click', (e) => {
+        if (window.innerWidth < 768) {
+          e.preventDefault();
+        }
+      });
+    }
+
     // Click handler
     const toggleContent = () => {
       const img = figure.querySelector('img');
