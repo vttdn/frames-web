@@ -9,8 +9,10 @@
         cursor: pointer;
     }
 
-    .tile:hover {
-        background-color: var(--color-dark2);
+    @media (hover: hover) {
+        .tile:hover {
+            background-color: var(--color-dark2);
+        }
     }
     
     .howto-caption {
