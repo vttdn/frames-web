@@ -8,9 +8,9 @@
   right: 0;
   bottom: 0;
   /* Add this for iOS Safari */
-  height: 100dvh; /* dvh = dynamic viewport height */
+  height: 100svh; 
   width: 100vw;
-  
+
   display: flex;
   align-items: center;
   justify-content: center;
