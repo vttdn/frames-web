@@ -1,0 +1,18 @@
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://withframes.com/el/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Πολιτική Απορρήτου",
+      "item": "https://withframes.com/el/politiki-aporritou/"
+    }
+  ]
+}

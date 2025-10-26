@@ -506,6 +506,15 @@ def build_privacy(global_config, languages):
             webpage_json = generate_schema_file('schemas/webpage.json', webpage_context)
             save_schema(webpage_json, 'webpage-privacy.json', lang_code)
 
+            # Generate Breadcrumb schema
+            breadcrumb_context = {
+                'lang': lang_code,
+                'privacy_heading': locale_data['privacy']['heading'],
+                'canonical_url': locale_data['privacy']['meta']['canonical_url'].rstrip('/') + '/'
+            }
+            breadcrumb_json = generate_schema_file('schemas/breadcrumb-privacy.json', breadcrumb_context)
+            save_schema(breadcrumb_json, 'breadcrumb-privacy.json', lang_code)
+
             # Generate JavaScript
             javascript = generate_javascript_file('js/privacy.js', lang_code, locale_data, global_config)
             save_javascript(javascript, lang_code, 'privacy')

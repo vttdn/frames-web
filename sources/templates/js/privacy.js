@@ -5,6 +5,7 @@
 document.addEventListener('DOMContentLoaded', function () {
     // Inject JSON-LD schemas
     const schemaFiles = [
+        '/lib/schema/{{ lang }}/breadcrumb-privacy.json',
         '/lib/schema/{{ lang }}/organization.json',
         '/lib/schema/{{ lang }}/webpage-privacy.json'
     ];
