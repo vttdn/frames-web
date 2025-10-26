@@ -1,0 +1,73 @@
+{
+  "version": "1.9.0",
+  "version_short": "1.9",
+  "url_slug": "1-9-macos",
+  "platform": "macos",
+  "release_date": "2025-10-26T10:00:00.000Z",
+  "title": "Przeprojektowany inspektor i ulepszone zarządzanie metadanymi",
+  "summary": "Wersja 1.9 wprowadza całkowicie przeprojektowany inspektor z udoskonaloną nawigacją zakładkową, rozszerzoną wizualizacją metadanych oraz dedykowaną zakładką Zdjęć dla przejrzystszego procesu parowania obrazów, a także istotne poprawki kompatybilności TIFF z Lightroomem.",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Zmodernizowany inspektor z dedykowaną zakładką Zdjęć"
+    },
+    {
+      "type": "paragraph",
+      "content": "Panel inspektora został całkowicie przeprojektowany z bardziej dopracowanym, nowoczesnym interfejsem, który jest łatwiejszy do przeglądania i nawigacji. Struktura czterech zakładek teraz wyraźnie rozdziela funkcje: Informacje dla metadanych klatki, Lokalizacja dla danych geograficznych, Notatki dla adnotacji oraz nowa zakładka Zdjęć dedykowana wyłącznie do parowania obrazów."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-mac-1.9.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-mac-1.9.0-1@2x.png",
+      "alt": "Aplikacja Frames na macOS z przeprojektowanym inspektorem i nawigacją zakładkową",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "paragraph",
+      "content": "Wcześniej parowanie zdjęć znajdowało się w zakładce Informacje, co mogło wprowadzać zamieszanie. Teraz każda zakładka ma pojedynczy, dobrze określony cel, co czyni przepływ pracy bardziej intuicyjnym przy jednoczesnym zachowaniu łatwego dostępu do wszystkich narzędzi."
+    },
+    {
+      "type": "list",
+      "items": [
+        {
+          "title": "Nawigacja zakładkowa",
+          "description": "Zakładki Informacje, Lokalizacja, Notatki i Zdjęcia zapewniają wyraźny podział kategorii metadanych dla szybszej nawigacji."
+        },
+        {
+          "title": "Dedykowana zakładka Zdjęć",
+          "description": "Parowanie obrazów ma teraz własną przestrzeń, wyświetlającą szczegółowe informacje techniczne, takie jak wymiary, format pliku, rozmiar i znaczniki czasu digitalizacji."
+        },
+        {
+          "title": "Zwijane sekcje",
+          "description": "Dostosuj swoją przestrzeń roboczą, zwijając sekcje, których aktualnie nie potrzebujesz, redukując wizualny bałagan przy zachowaniu szybkiego dostępu."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Rozszerzona wizualizacja metadanych"
+    },
+    {
+      "type": "paragraph",
+      "content": "Przeprojektowany inspektor wyświetla więcej metadanych technicznych niż kiedykolwiek wcześniej. Fotografowie mogą teraz przeglądać typ czułości, numery seryjne aparatu i obiektywu, znaczniki czasu digitalizacji obrazu oraz dodatkowe pola EXIF, które wcześniej były ukryte. Ta głębsza widoczność pomaga w katalogowaniu, weryfikacji sparowanych obrazów i prowadzeniu kompleksowej dokumentacji analogowego przepływu pracy fotograficznej od przechwycenia do digitalizacji."
+    }
+  ],
+  "improvements": [
+    "Całkowicie przeprojektowany inspektor z dopracowanym wizualnym designem i lepszą czytelnością",
+    "Dodano dedykowaną zakładkę Zdjęć do parowania obrazów ze szczegółowymi informacjami technicznymi",
+    "Rozszerzona wizualizacja metadanych zawierająca typ czułości, numery seryjne i znaczniki czasu digitalizacji",
+    "Wprowadzono zwijane sekcje dla czystszego, bardziej konfigurowalnego interfejsu",
+    "Ulepszona nawigacja zakładkowa z wyraźniejszym podziałem między Informacjami, Lokalizacją, Notatkami i Zdjęciami"
+  ],
+  "fixes": [
+    {
+      "title": "Synchronizacja dat TIFF w Lightroomie",
+      "description": "Rozwiązano problem, w którym data utworzenia nie była poprawnie wyświetlana w Adobe Lightroom dla plików TIFF. Frames teraz zapisuje zarówno pole metadanych EXIF Date Created, jak i TIFF Date Created, aby zapewnić prawidłową synchronizację dat we wszystkich aplikacjach."
+    }
+  ],
+  "meta_title": "Przeprojektowany inspektor i ulepszone zarządzanie metadanymi · Frames",
+  "meta_description": "Wersja 1.9 wprowadza całkowicie przeprojektowany inspektor z udoskonaloną nawigacją zakładkową, rozszerzoną wizualizacją metadanych oraz dedykowaną..."
+}

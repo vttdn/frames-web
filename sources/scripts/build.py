@@ -628,18 +628,25 @@ def generate_og_image(source_image_path, output_path, bg_color=(28, 28, 30)):
         elif img.mode != 'RGB':
             img = img.convert('RGB')
 
-        # Scale to 315px height
-        target_height = 315
-        aspect_ratio = img.width / img.height
-        scaled_width = int(target_height * aspect_ratio)
-        img = img.resize((scaled_width, target_height), Image.Resampling.LANCZOS)
-
-        # Center horizontally in 600×315px canvas
+        # Scale to 600px width
         target_width = 600
-        canvas = Image.new('RGB', (target_width, target_height), bg_color)
-        paste_x = (target_width - scaled_width) // 2
-        canvas.paste(img, (paste_x, 0))
-        img = canvas
+        target_height = 315
+        aspect_ratio = img.height / img.width
+        scaled_height = int(target_width * aspect_ratio)
+        img = img.resize((target_width, scaled_height), Image.Resampling.LANCZOS)
+
+        # Crop or pad vertically to center at 315px height
+        if scaled_height > target_height:
+            # Crop vertically from center
+            crop_top = (scaled_height - target_height) // 2
+            crop_bottom = crop_top + target_height
+            img = img.crop((0, crop_top, target_width, crop_bottom))
+        elif scaled_height < target_height:
+            # Pad vertically to center (edge case for very wide images)
+            canvas = Image.new('RGB', (target_width, target_height), bg_color)
+            paste_y = (target_height - scaled_height) // 2
+            canvas.paste(img, (0, paste_y))
+            img = canvas
 
         output_path.parent.mkdir(parents=True, exist_ok=True)
         img.save(output_path, 'JPEG', quality=85, optimize=True)

@@ -1,0 +1,73 @@
+{
+  "version": "1.9.0",
+  "version_short": "1.9",
+  "url_slug": "1-9-macos",
+  "platform": "macos",
+  "release_date": "2025-10-26T10:00:00.000Z",
+  "title": "Neu gestalteter Inspektor & verbesserte Metadatenverwaltung",
+  "summary": "Version 1.9 bringt einen komplett neu gestalteten Inspektor mit verfeinerter Tab-Navigation, erweiterter Metadatenanzeige und einem dedizierten Foto-Tab für einen übersichtlicheren Workflow bei der Bildzuordnung sowie wichtige Korrekturen für die TIFF-Kompatibilität mit Lightroom.",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Modernisierter Inspektor mit dediziertem Foto-Tab"
+    },
+    {
+      "type": "paragraph",
+      "content": "Der Inspektor wurde komplett neu gestaltet mit einer moderneren, übersichtlicheren Benutzeroberfläche, die sich leichter überblicken und navigieren lässt. Die Vier-Tab-Struktur trennt nun klar die verschiedenen Bereiche: Info für Frame-Metadaten, Standort für geografische Daten, Notizen für Anmerkungen und der neue Foto-Tab ausschließlich für die Bildzuordnung."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-mac-1.9.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-mac-1.9.0-1@2x.png",
+      "alt": "Frames macOS App mit neu gestaltetem Inspektor und Tab-Navigation",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "paragraph",
+      "content": "Zuvor befand sich die Bildzuordnung im Info-Tab, was zu Verwirrung führen konnte. Jetzt hat jeder Tab einen klar definierten Zweck, was den Workflow intuitiver macht und gleichzeitig alle Werkzeuge leicht zugänglich hält."
+    },
+    {
+      "type": "list",
+      "items": [
+        {
+          "title": "Tab-Navigation",
+          "description": "Die Tabs Info, Standort, Notizen und Foto bieten eine klare Trennung der Metadaten-Kategorien für schnellere Navigation."
+        },
+        {
+          "title": "Dedizierter Foto-Tab",
+          "description": "Die Bildzuordnung hat nun einen eigenen Bereich, der detaillierte technische Informationen wie Abmessungen, Dateiformat, Größe und Digitalisierungszeitstempel anzeigt."
+        },
+        {
+          "title": "Einklappbare Bereiche",
+          "description": "Passen Sie Ihren Arbeitsbereich an, indem Sie nicht benötigte Bereiche einklappen und so die visuelle Übersichtlichkeit verbessern, während Sie schnellen Zugriff behalten."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Erweiterte Metadatenanzeige"
+    },
+    {
+      "type": "paragraph",
+      "content": "Der neu gestaltete Inspektor zeigt mehr technische Metadaten als je zuvor. Fotografen können nun Empfindlichkeitstyp, Kamera- und Objektivseriennummern, Digitalisierungszeitstempel sowie zusätzliche EXIF-Felder einsehen, die zuvor verborgen waren. Diese erweiterte Transparenz hilft beim Katalogisieren, beim Überprüfen zugeordneter Bilder und beim Führen umfassender Aufzeichnungen Ihres analogen Fotografie-Workflows von der Aufnahme bis zur Digitalisierung."
+    }
+  ],
+  "improvements": [
+    "Komplett neu gestalteter Inspektor mit verfeinertem visuellem Design und verbesserter Lesbarkeit",
+    "Hinzugefügter dedizierter Foto-Tab für Bildzuordnung mit detaillierten technischen Informationen",
+    "Erweiterte Metadatenanzeige inklusive Empfindlichkeitstyp, Seriennummern und Digitalisierungszeitstempel",
+    "Einführung einklappbarer Bereiche für eine übersichtlichere, anpassbare Oberfläche",
+    "Verbesserte Tab-Navigation mit klarerer Trennung zwischen Info, Standort, Notizen und Foto"
+  ],
+  "fixes": [
+    {
+      "title": "Lightroom TIFF-Datumssynchronisierung",
+      "description": "Ein Problem wurde behoben, bei dem das Erstellungsdatum in Adobe Lightroom für TIFF-Dateien nicht korrekt angezeigt wurde. Frames schreibt nun sowohl EXIF Date Created als auch TIFF Date Created Metadatenfelder, um eine korrekte Datumssynchronisierung über alle Anwendungen hinweg sicherzustellen."
+    }
+  ],
+  "meta_title": "Neu gestalteter Inspektor & verbesserte Metadatenverwaltung · Frames",
+  "meta_description": "Version 1.9 bringt einen komplett neu gestalteten Inspektor mit verfeinerter Tab-Navigation, erweiterter Metadatenanzeige und einem dedizierten Foto-Tab..."
+}

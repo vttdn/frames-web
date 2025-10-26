@@ -1,0 +1,73 @@
+{
+  "version": "1.9.0",
+  "version_short": "1.9",
+  "url_slug": "1-9-macos",
+  "platform": "macos",
+  "release_date": "2025-10-26T10:00:00.000Z",
+  "title": "Vernieuwde inspector & verbeterd metadatabeheer",
+  "summary": "Versie 1.9 brengt een volledig vernieuwde inspector met verfijnde tabnavigatie, uitgebreide metadataweergave en een speciale Foto-tab voor een duidelijkere workflow bij het koppelen van afbeeldingen, samen met belangrijke oplossingen voor Lightroom TIFF-compatibiliteit.",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Gemoderniseerde inspector met speciale Foto-tab"
+    },
+    {
+      "type": "paragraph",
+      "content": "De inspector is volledig opnieuw ontworpen met een meer gepolijste, moderne interface die gemakkelijker te scannen en te navigeren is. De structuur met vier tabbladen scheidt nu duidelijk de verschillende functies: Info voor frame-metadata, Locatie voor geografische gegevens, Notitie voor aantekeningen en de nieuwe Foto-tab exclusief gewijd aan het koppelen van afbeeldingen."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-mac-1.9.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-mac-1.9.0-1@2x.png",
+      "alt": "Frames macOS-app met vernieuwde inspector en tabnavigatie",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "paragraph",
+      "content": "Voorheen bevond het koppelen van afbeeldingen zich in de Info-tab, wat tot verwarring kon leiden. Nu heeft elk tabblad een enkelvoudig, goed gedefinieerd doel, waardoor de workflow intuïtiever wordt terwijl alle tools gemakkelijk toegankelijk blijven."
+    },
+    {
+      "type": "list",
+      "items": [
+        {
+          "title": "Tabnavigatie",
+          "description": "De tabbladen Info, Locatie, Notitie en Foto bieden een duidelijke scheiding van metadatacategorieën voor snellere navigatie."
+        },
+        {
+          "title": "Speciale Foto-tab",
+          "description": "Het koppelen van afbeeldingen heeft nu een eigen ruimte, met gedetailleerde technische informatie zoals afmetingen, bestandsformaat, grootte en digitaliseringstijdstempels."
+        },
+        {
+          "title": "Inklapbare secties",
+          "description": "Pas uw werkruimte aan door secties die u niet actief nodig heeft in te klappen, waardoor visuele rommel wordt verminderd terwijl u snelle toegang behoudt."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Uitgebreide metadataweergave"
+    },
+    {
+      "type": "paragraph",
+      "content": "De vernieuwde inspector toont meer technische metadata dan ooit tevoren. Fotografen kunnen nu het gevoeligheidstype, camera- en lensserienummers, digitaliseringstijdstempels van afbeeldingen en extra EXIF-velden bekijken die voorheen verborgen waren. Deze diepere zichtbaarheid helpt bij het catalogiseren, verifiëren van gekoppelde afbeeldingen en het bijhouden van uitgebreide gegevens van uw analoge fotografieworkflow van opname tot digitalisering."
+    }
+  ],
+  "improvements": [
+    "Volledig vernieuwde inspector met verfijnd visueel ontwerp en verbeterde leesbaarheid",
+    "Toegevoegde speciale Foto-tab voor het koppelen van afbeeldingen met gedetailleerde technische informatie",
+    "Uitgebreide metadataweergave inclusief gevoeligheidstype, serienummers en digitaliseringstijdstempels",
+    "Geïntroduceerde inklapbare secties voor een schonere, meer aanpasbare interface",
+    "Verbeterde tabnavigatie met duidelijker scheiding tussen Info, Locatie, Notitie en Foto"
+  ],
+  "fixes": [
+    {
+      "title": "Lightroom TIFF-datumsynchronisatie",
+      "description": "Een probleem opgelost waarbij de aanmaakdatum niet correct werd weergegeven in Adobe Lightroom voor TIFF-bestanden. Frames schrijft nu zowel EXIF Date Created als TIFF Date Created metadatavelden om correcte datumsynchronisatie in alle applicaties te garanderen."
+    }
+  ],
+  "meta_title": "Vernieuwde inspector & verbeterd metadatabeheer · Frames",
+  "meta_description": "Versie 1.9 brengt een volledig vernieuwde inspector met verfijnde tabnavigatie, uitgebreide metadataweergave en een speciale Foto-tab voor een duidelijkere..."
+}

@@ -1,0 +1,73 @@
+{
+  "version": "1.9.0",
+  "version_short": "1.9",
+  "url_slug": "1-9-macos",
+  "platform": "macos",
+  "release_date": "2025-10-26T10:00:00.000Z",
+  "title": "Omdesignad inspektör & förbättrad metadatahantering",
+  "summary": "Version 1.9 introducerar en helt omdesignad inspektör med förfinad fliknavigering, utökad metadatavisning och en dedikerad Foto-flik för ett tydligare arbetsflöde vid bildkoppling samt viktiga korrigeringar för Lightroom TIFF-kompatibilitet.",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Moderniserad inspektör med dedikerad Foto-flik"
+    },
+    {
+      "type": "paragraph",
+      "content": "Inspektören har designats om helt med ett mer polerat, modernt gränssnitt som är lättare att överblicka och navigera. Strukturen med fyra flikar separerar nu tydligt funktionerna: Information för frame-metadata, Plats för geografiska data, Anteckning för noteringar och den nya Foto-fliken exklusivt dedikerad till bildkoppling."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-mac-1.9.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-mac-1.9.0-1@2x.png",
+      "alt": "Frames macOS-app med omdesignad inspektör och fliknavigering",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tidigare låg bildkopplingen i Information-fliken, vilket kunde skapa förvirring. Nu har varje flik ett enskilt, väldefinierat syfte, vilket gör arbetsflödet mer intuitivt samtidigt som alla verktyg förblir lättillgängliga."
+    },
+    {
+      "type": "list",
+      "items": [
+        {
+          "title": "Fliknavigering",
+          "description": "Flikarna Information, Plats, Anteckning och Foto ger en tydlig separation av metadatakategorier för snabbare navigering."
+        },
+        {
+          "title": "Dedikerad Foto-flik",
+          "description": "Bildkoppling har nu ett eget utrymme som visar detaljerad teknisk information som dimensioner, filformat, storlek och digitaliseringstidsstämplar."
+        },
+        {
+          "title": "Hopfällbara sektioner",
+          "description": "Anpassa din arbetsyta genom att fälla ihop sektioner du inte aktivt behöver, minska visuellt brus samtidigt som du behåller snabb åtkomst."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Utökad metadatavisning"
+    },
+    {
+      "type": "paragraph",
+      "content": "Den omdesignade inspektören visar mer teknisk metadata än någonsin tidigare. Fotografer kan nu se känslighetstyp, kamera- och objektivserienummer, bilddigitaliseringstidsstämplar samt ytterligare EXIF-fält som tidigare var dolda. Denna djupare insyn hjälper med katalogisering, verifiering av kopplade bilder och upprätthållande av omfattande register över ditt analoga fotografiarbetsflöde från fotografering till digitalisering."
+    }
+  ],
+  "improvements": [
+    "Helt omdesignad inspektör med förfinad visuell design och förbättrad läsbarhet",
+    "Tillagd dedikerad Foto-flik för bildkoppling med detaljerad teknisk information",
+    "Utökad metadatavisning inklusive känslighetstyp, serienummer och digitaliseringstidsstämplar",
+    "Introducerade hopfällbara sektioner för ett renare, mer anpassningsbart gränssnitt",
+    "Förbättrad fliknavigering med tydligare separation mellan Information, Plats, Anteckning och Foto"
+  ],
+  "fixes": [
+    {
+      "title": "Lightroom TIFF-datumsynkronisering",
+      "description": "Åtgärdat ett problem där skapelsedatumet inte visades korrekt i Adobe Lightroom för TIFF-filer. Frames skriver nu både EXIF Date Created och TIFF Date Created metadatafält för att säkerställa korrekt datumsynkronisering i alla applikationer."
+    }
+  ],
+  "meta_title": "Omdesignad inspektör & förbättrad metadatahantering · Frames",
+  "meta_description": "Version 1.9 introducerar en helt omdesignad inspektör med förfinad fliknavigering, utökad metadatavisning och en dedikerad Foto-flik för ett tydligare..."
+}

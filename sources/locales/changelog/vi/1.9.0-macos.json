@@ -1,0 +1,73 @@
+{
+  "version": "1.9.0",
+  "version_short": "1.9",
+  "url_slug": "1-9-macos",
+  "platform": "macos",
+  "release_date": "2025-10-26T10:00:00.000Z",
+  "title": "Thanh Kiểm Tra được thiết kế lại & Quản lý siêu dữ liệu được cải thiện",
+  "summary": "Phiên bản 1.9 mang đến Thanh Kiểm Tra được thiết kế lại hoàn toàn với điều hướng tab được tinh chỉnh, hiển thị siêu dữ liệu mở rộng và tab Ảnh chuyên dụng cho quy trình ghép ảnh rõ ràng hơn, cùng với các bản sửa lỗi quan trọng cho khả năng tương thích TIFF với Lightroom.",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Thanh Kiểm Tra hiện đại với tab Ảnh chuyên dụng"
+    },
+    {
+      "type": "paragraph",
+      "content": "Thanh bên Thanh Kiểm Tra đã được thiết kế lại hoàn toàn với giao diện hiện đại, tinh tế hơn, dễ quét và điều hướng hơn. Cấu trúc bốn tab hiện phân tách rõ ràng các chức năng: Thông Tin cho siêu dữ liệu khung hình, Vị Trí cho dữ liệu địa lý, Ghi Chú cho chú thích, và tab Ảnh mới dành riêng cho việc ghép ảnh."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-mac-1.9.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-mac-1.9.0-1@2x.png",
+      "alt": "Ứng dụng Frames cho macOS với Thanh Kiểm Tra được thiết kế lại và điều hướng tab",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "paragraph",
+      "content": "Trước đây, việc ghép ảnh nằm trong tab Thông Tin, điều này có thể gây nhầm lẫn. Giờ đây, mỗi tab có một mục đích duy nhất, được xác định rõ ràng, làm cho quy trình làm việc trực quan hơn trong khi vẫn giữ tất cả các công cụ dễ dàng tiếp cận."
+    },
+    {
+      "type": "list",
+      "items": [
+        {
+          "title": "Điều hướng tab",
+          "description": "Các tab Thông Tin, Vị Trí, Ghi Chú và Ảnh cung cấp sự phân tách rõ ràng các danh mục siêu dữ liệu để điều hướng nhanh hơn."
+        },
+        {
+          "title": "Tab Ảnh chuyên dụng",
+          "description": "Ghép ảnh giờ đây có không gian riêng, hiển thị thông tin kỹ thuật chi tiết như kích thước, định dạng tệp, kích cỡ và dấu thời gian số hóa."
+        },
+        {
+          "title": "Các phần có thể thu gọn",
+          "description": "Tùy chỉnh không gian làm việc của bạn bằng cách thu gọn các phần bạn không cần sử dụng tích cực, giảm sự lộn xộn trực quan trong khi vẫn duy trì truy cập nhanh."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Hiển thị siêu dữ liệu mở rộng"
+    },
+    {
+      "type": "paragraph",
+      "content": "Thanh Kiểm Tra được thiết kế lại hiển thị nhiều siêu dữ liệu kỹ thuật hơn bao giờ hết. Nhiếp ảnh gia giờ đây có thể xem Loại độ nhạy sáng, số sê-ri máy ảnh và ống kính, dấu thời gian số hóa hình ảnh và các trường EXIF bổ sung trước đây bị ẩn. Khả năng hiển thị sâu hơn này giúp phân loại, xác minh hình ảnh được ghép và duy trì hồ sơ toàn diện về quy trình nhiếp ảnh phim của bạn từ chụp đến số hóa."
+    }
+  ],
+  "improvements": [
+    "Thanh Kiểm Tra được thiết kế lại hoàn toàn với thiết kế trực quan được tinh chỉnh và khả năng đọc được cải thiện",
+    "Thêm tab Ảnh chuyên dụng cho ghép ảnh với thông tin kỹ thuật chi tiết",
+    "Hiển thị siêu dữ liệu mở rộng bao gồm Loại độ nhạy sáng, số sê-ri và dấu thời gian số hóa",
+    "Giới thiệu các phần có thể thu gọn cho giao diện sạch hơn, có thể tùy chỉnh hơn",
+    "Điều hướng tab được cải thiện với sự phân tách rõ ràng hơn giữa Thông Tin, Vị Trí, Ghi Chú và Ảnh"
+  ],
+  "fixes": [
+    {
+      "title": "Đồng bộ hóa ngày TIFF trong Lightroom",
+      "description": "Đã giải quyết sự cố mà Ngày tạo không hiển thị chính xác trong Adobe Lightroom cho các tệp TIFF. Frames giờ đây ghi cả trường siêu dữ liệu EXIF Date Created và TIFF Date Created để đảm bảo đồng bộ hóa ngày phù hợp trên tất cả các ứng dụng."
+    }
+  ],
+  "meta_title": "Thanh Kiểm Tra được thiết kế lại & Quản lý siêu dữ liệu được cải thiện · Frames",
+  "meta_description": "Phiên bản 1.9 mang đến Thanh Kiểm Tra được thiết kế lại hoàn toàn với điều hướng tab được tinh chỉnh, hiển thị siêu dữ liệu mở rộng và tab Ảnh chuyên dụng..."
+}

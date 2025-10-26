@@ -12,12 +12,30 @@
   "blogPost": [
     {
       "@type": "BlogPosting",
+      "@id": "https://withframes.com/changelog/1-9-macos/",
+      "url": "https://withframes.com/changelog/1-9-macos/",
+      "headline": "Redesigned Inspector & Improved Metadata Management",
+      "description": "Version 1.9 brings a completely redesigned inspector sidebar with refined tabbed navigation, enhanced metadata display, and a dedicated Photo tab for clearer...",
+      "datePublished": "2025-10-26T10:00:00.000Z",
+      "dateModified": "2025-10-25T16:42:43+00:00",
+      "inLanguage": "en",
+      "author": {"@id": "https://withframes.com/#vincent-tantardini"},
+      "publisher": {
+        "@id": "https://withframes.com/#organization"
+      },
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://withframes.com/lib/img/en/changelog/og-image/1-9-macos-og-image.jpg",
+        "width": "1200",
+        "height": "630"
+      }    },    {
+      "@type": "BlogPosting",
       "@id": "https://withframes.com/changelog/1-13-ios/",
       "url": "https://withframes.com/changelog/1-13-ios/",
       "headline": "Hebrew, Arabic, Romanian & Ukrainian Language Support",
       "description": "Frames continues its mission to serve analog photographers worldwide with this significant localization update, bringing native support for Hebrew, Arabic,...",
       "datePublished": "2025-10-06T10:00:00.000Z",
-      "dateModified": "2025-10-23T16:03:10+00:00",
+      "dateModified": "2025-10-25T16:42:43+00:00",
       "inLanguage": "en",
       "author": {"@id": "https://withframes.com/#vincent-tantardini"},
       "publisher": {
@@ -35,7 +53,7 @@
       "headline": "Danish, Finnish, Norwegian, Vietnamese & 4 More Languages",
       "description": "This major localization release brings Frames to even more film photographers worldwide, adding support for Danish, Finnish, Norwegian, Vietnamese,...",
       "datePublished": "2025-10-03T10:00:00.000Z",
-      "dateModified": "2025-10-23T16:03:10+00:00",
+      "dateModified": "2025-10-25T16:42:43+00:00",
       "inLanguage": "en",
       "author": {"@id": "https://withframes.com/#vincent-tantardini"},
       "publisher": {
@@ -53,7 +71,7 @@
       "headline": "Hebrew, Arabic, Romanian & Ukrainian Language Support",
       "description": "Frames for macOS continues expanding language support with Hebrew, Arabic, Romanian, and Ukrainian, alongside interface refinements for a smoother metadata...",
       "datePublished": "2025-10-03T10:00:00.000Z",
-      "dateModified": "2025-10-23T16:03:10+00:00",
+      "dateModified": "2025-10-25T16:42:43+00:00",
       "inLanguage": "en",
       "author": {"@id": "https://withframes.com/#vincent-tantardini"},
       "publisher": {
@@ -71,7 +89,7 @@
       "headline": "Danish, Finnish, Norwegian, Vietnamese & 4 More Languages",
       "description": "This major localization release brings Frames for macOS to even more users worldwide, adding support for eight new languages while refining translations...",
       "datePublished": "2025-10-02T10:00:00.000Z",
-      "dateModified": "2025-10-23T16:03:10+00:00",
+      "dateModified": "2025-10-25T16:42:43+00:00",
       "inLanguage": "en",
       "author": {"@id": "https://withframes.com/#vincent-tantardini"},
       "publisher": {
@@ -89,7 +107,7 @@
       "headline": "Metering Mode Metadata & Performance Improvements",
       "description": "Frames now captures your camera's metering mode alongside exposure data, giving you a more complete record of how each shot was measured.",
       "datePublished": "2025-10-02T10:00:00.000Z",
-      "dateModified": "2025-10-23T16:03:10+00:00",
+      "dateModified": "2025-10-25T16:42:43+00:00",
       "inLanguage": "en",
       "author": {"@id": "https://withframes.com/#vincent-tantardini"},
       "publisher": {
@@ -107,7 +125,7 @@
       "headline": "Metering Mode Metadata & Performance Improvements",
       "description": "Frames for macOS now includes metering mode metadata support for comprehensive EXIF data, plus performance improvements for faster, more stable operation.",
       "datePublished": "2025-10-01T10:00:00.000Z",
-      "dateModified": "2025-10-23T16:03:10+00:00",
+      "dateModified": "2025-10-25T16:42:43+00:00",
       "inLanguage": "en",
       "author": {"@id": "https://withframes.com/#vincent-tantardini"},
       "publisher": {
@@ -125,7 +143,7 @@
       "headline": "Major Performance & Stability Improvements",
       "description": "This release brings significant under-the-hood improvements that make Frames faster, more reliable, and better prepared for future features.",
       "datePublished": "2025-09-23T10:00:00.000Z",
-      "dateModified": "2025-10-23T16:03:10+00:00",
+      "dateModified": "2025-10-25T16:42:43+00:00",
       "inLanguage": "en",
       "author": {"@id": "https://withframes.com/#vincent-tantardini"},
       "publisher": {
@@ -143,7 +161,7 @@
       "headline": "Major Performance & DNG Processing Improvements",
       "description": "Significantly faster DNG processing with optimized caching and memory usage. Fixed .frames import and Intel Mac compatibility for smoother metadata workflow.",
       "datePublished": "2025-09-19T10:00:00.000Z",
-      "dateModified": "2025-10-23T16:03:10+00:00",
+      "dateModified": "2025-10-25T16:42:43+00:00",
       "inLanguage": "en",
       "author": {"@id": "https://withframes.com/#vincent-tantardini"},
       "publisher": {
@@ -161,7 +179,7 @@
       "headline": "Keyboard Shortcuts, Native Inspector & Performance",
       "description": "Navigate with keyboard shortcuts and native macOS inspector panel. Enhanced performance for faster metadata reintegration with cleaner, more professional interface.",
       "datePublished": "2025-09-18T10:00:00.000Z",
-      "dateModified": "2025-10-23T16:03:10+00:00",
+      "dateModified": "2025-10-25T16:42:43+00:00",
       "inLanguage": "en",
       "author": {"@id": "https://withframes.com/#vincent-tantardini"},
       "publisher": {
@@ -179,7 +197,7 @@
       "headline": "Subfolders, Swipe to Move & TXT Export Improvements",
       "description": "Organize your film library with nested subfolders up to 5 levels deep.",
       "datePublished": "2025-09-18T10:00:00.000Z",
-      "dateModified": "2025-10-23T16:03:10+00:00",
+      "dateModified": "2025-10-25T16:42:43+00:00",
       "inLanguage": "en",
       "author": {"@id": "https://withframes.com/#vincent-tantardini"},
       "publisher": {
@@ -197,7 +215,7 @@
       "headline": "TXT File Export for Film Logs",
       "description": "Pro users can now export film roll logs as TXT files, perfect for printing field notes or creating quick reference sheets for darkroom work.",
       "datePublished": "2025-09-15T10:00:00.000Z",
-      "dateModified": "2025-10-23T16:03:10+00:00",
+      "dateModified": "2025-10-25T16:42:43+00:00",
       "inLanguage": "en",
       "author": {"@id": "https://withframes.com/#vincent-tantardini"},
       "publisher": {
@@ -215,7 +233,7 @@
       "headline": "Full Accessibility Support & Recording Improvements",
       "description": "This update brings comprehensive Apple accessibility support along with improvements to recording workflow and metadata handling, making Frames more...",
       "datePublished": "2025-09-10T10:00:00.000Z",
-      "dateModified": "2025-10-23T16:03:10+00:00",
+      "dateModified": "2025-10-25T16:42:43+00:00",
       "inLanguage": "en",
       "author": {"@id": "https://withframes.com/#vincent-tantardini"},
       "publisher": {
@@ -233,7 +251,7 @@
       "headline": "Custom Shutter Speed Sequences & Map Improvements",
       "description": "Set custom shutter speed sequences per camera, showing only the speeds your camera actually supports.",
       "datePublished": "2025-09-05T10:00:00.000Z",
-      "dateModified": "2025-10-23T16:03:10+00:00",
+      "dateModified": "2025-10-25T16:42:43+00:00",
       "inLanguage": "en",
       "author": {"@id": "https://withframes.com/#vincent-tantardini"},
       "publisher": {
@@ -251,7 +269,7 @@
       "headline": "New Film Stocks, Redesigned Aperture System & Lens Switching",
       "description": "Custom aperture sequences per lens with Harman Phoenix II and new film stocks. Switch lenses directly from recorder for faster, more accurate analog logging.",
       "datePublished": "2025-09-03T10:00:00.000Z",
-      "dateModified": "2025-10-23T16:03:10+00:00",
+      "dateModified": "2025-10-25T16:42:43+00:00",
       "inLanguage": "en",
       "author": {"@id": "https://withframes.com/#vincent-tantardini"},
       "publisher": {
@@ -269,7 +287,7 @@
       "headline": "DNG Raw File Support",
       "description": "Embed metadata into DNG raw files alongside JPEG and TIFF formats. Complete analog workflow with comprehensive EXIF data for professional post-processing.",
       "datePublished": "2025-09-01T10:00:00.000Z",
-      "dateModified": "2025-10-23T16:03:10+00:00",
+      "dateModified": "2025-10-25T16:42:43+00:00",
       "inLanguage": "en",
       "author": {"@id": "https://withframes.com/#vincent-tantardini"},
       "publisher": {
@@ -287,7 +305,7 @@
       "headline": "Filter Support, Japanese & Korean Languages",
       "description": "Automatic filter metadata embedding for UV, ND, and CPL filters. Japanese and Korean language support with improved EXIF data including camera serial numbers.",
       "datePublished": "2025-08-24T10:00:00.000Z",
-      "dateModified": "2025-10-23T16:03:10+00:00",
+      "dateModified": "2025-10-25T16:42:43+00:00",
       "inLanguage": "en",
       "author": {"@id": "https://withframes.com/#vincent-tantardini"},
       "publisher": {
@@ -305,7 +323,7 @@
       "headline": "Filter Logging Support",
       "description": "Record UV, ND, CPL, and other filters for each frame. Complete analog documentation with comprehensive metadata that syncs to Mac for full EXIF embedding.",
       "datePublished": "2025-08-20T10:00:00.000Z",
-      "dateModified": "2025-10-23T16:03:10+00:00",
+      "dateModified": "2025-10-25T16:42:43+00:00",
       "inLanguage": "en",
       "author": {"@id": "https://withframes.com/#vincent-tantardini"},
       "publisher": {
@@ -323,7 +341,7 @@
       "headline": "GPX Export & Faster File Generation",
       "description": "Export film roll locations as GPX files for mapping software. Significantly faster file generation with improved reliability for large film roll exports.",
       "datePublished": "2025-07-18T10:00:00.000Z",
-      "dateModified": "2025-10-23T16:03:10+00:00",
+      "dateModified": "2025-10-25T16:42:43+00:00",
       "inLanguage": "en",
       "author": {"@id": "https://withframes.com/#vincent-tantardini"},
       "publisher": {
@@ -341,7 +359,7 @@
       "headline": "Centralized Settings & Improved Organization",
       "description": "Unified settings page for gear management, subscription, and preferences. Better organization makes film photography logging faster and more intuitive.",
       "datePublished": "2025-07-17T10:00:00.000Z",
-      "dateModified": "2025-10-23T16:03:10+00:00",
+      "dateModified": "2025-10-25T16:42:43+00:00",
       "inLanguage": "en",
       "author": {"@id": "https://withframes.com/#vincent-tantardini"},
       "publisher": {
@@ -359,7 +377,7 @@
       "headline": "TIFF File Support",
       "description": "Import and export TIFF files with full metadata embedding. Professional format support for high-quality scans with seamless EXIF integration workflow.",
       "datePublished": "2025-06-27T10:00:00.000Z",
-      "dateModified": "2025-10-23T16:03:10+00:00",
+      "dateModified": "2025-10-25T16:42:43+00:00",
       "inLanguage": "en",
       "author": {"@id": "https://withframes.com/#vincent-tantardini"},
       "publisher": {
@@ -377,7 +395,7 @@
       "headline": "Introducing Frames Pro",
       "description": "Upgrade to Frames Pro for unlimited film rolls and upcoming advanced features. Free users maintain access to 10 rolls with all core functionality.",
       "datePublished": "2025-06-03T05:52:00.000Z",
-      "dateModified": "2025-10-23T16:03:10+00:00",
+      "dateModified": "2025-10-25T16:42:43+00:00",
       "inLanguage": "en",
       "author": {"@id": "https://withframes.com/#vincent-tantardini"},
       "publisher": {
@@ -395,7 +413,7 @@
       "headline": "Frames for macOS Launch",
       "description": "Embed film photography metadata into scanned images with EXIF support for Lightroom, Capture One, and Apple Photos. Seamlessly reintegrate iOS logging data.",
       "datePublished": "2025-04-08T10:00:00.000Z",
-      "dateModified": "2025-10-23T16:03:10+00:00",
+      "dateModified": "2025-10-25T16:42:43+00:00",
       "inLanguage": "en",
       "author": {"@id": "https://withframes.com/#vincent-tantardini"},
       "publisher": {
@@ -413,7 +431,7 @@
       "headline": "Frames Launch: Your Analog Photography Notebook",
       "description": "Track film photography metadata in the field with iOS and embed EXIF data into scanned images with macOS. Complete analog workflow with 200+ film stocks.",
       "datePublished": "2025-04-01T03:02:00.000Z",
-      "dateModified": "2025-10-23T16:03:10+00:00",
+      "dateModified": "2025-10-25T16:42:43+00:00",
       "inLanguage": "en",
       "author": {"@id": "https://withframes.com/#vincent-tantardini"},
       "publisher": {

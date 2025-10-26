@@ -1,0 +1,73 @@
+{
+  "version": "1.9.0",
+  "version_short": "1.9",
+  "url_slug": "1-9-macos",
+  "platform": "macos",
+  "release_date": "2025-10-26T10:00:00.000Z",
+  "title": "Redesignet inspektør & forbedret metadatahåndtering",
+  "summary": "Version 1.9 bringer en helt redesignet inspektør med forbedret fanenavigation, udvidet metadatavisning og en dedikeret Foto-fane for et klarere workflow til billedparring samt vigtige rettelser til Lightroom TIFF-kompatibilitet.",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Moderniseret inspektør med dedikeret Foto-fane"
+    },
+    {
+      "type": "paragraph",
+      "content": "Inspektøren er blevet helt redesignet med en mere poleret, moderne grænseflade, der er lettere at scanne og navigere. Strukturen med fire faner adskiller nu tydeligt funktionerne: Info til frame-metadata, Sted til geografiske data, Note til annotationer og den nye Foto-fane udelukkende dedikeret til billedparring."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-mac-1.9.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-mac-1.9.0-1@2x.png",
+      "alt": "Frames macOS-app med redesignet inspektør og fanenavigation",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tidligere lå billedparring i Info-fanen, hvilket kunne skabe forvirring. Nu har hver fane et enkelt, veldefineret formål, hvilket gør arbejdsgangen mere intuitiv og samtidig holder alle værktøjer let tilgængelige."
+    },
+    {
+      "type": "list",
+      "items": [
+        {
+          "title": "Fanenavigation",
+          "description": "Fanerne Info, Sted, Note og Foto giver en klar adskillelse af metadatakategorier for hurtigere navigation."
+        },
+        {
+          "title": "Dedikeret Foto-fane",
+          "description": "Billedparring har nu sit eget område, der viser detaljerede tekniske oplysninger som dimensioner, filformat, størrelse og digitaliseringstidsstempler."
+        },
+        {
+          "title": "Sammenklappelige sektioner",
+          "description": "Tilpas dit arbejdsområde ved at sammenfolde sektioner, du ikke aktivt har brug for, og reducer dermed visuelt rod og samtidig bevarer hurtig adgang."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Udvidet metadatavisning"
+    },
+    {
+      "type": "paragraph",
+      "content": "Den redesignede inspektør viser flere tekniske metadata end nogensinde før. Fotografer kan nu se følsomhedstype, kamera- og objektivserienumre, billeddigitaliseringstidsstempler samt yderligere EXIF-felter, der tidligere var skjulte. Denne dybere synlighed hjælper med katalogisering, verificering af parrede billeder og vedligeholdelse af omfattende registreringer af dit analoge fotografiworkflow fra optagelse til digitalisering."
+    }
+  ],
+  "improvements": [
+    "Helt redesignet inspektør med forfinet visuelt design og forbedret læsbarhed",
+    "Tilføjet dedikeret Foto-fane til billedparring med detaljerede tekniske oplysninger",
+    "Udvidet metadatavisning inklusive følsomhedstype, serienumre og digitaliseringstidsstempler",
+    "Introduceret sammenklappelige sektioner for en renere, mere tilpasselig grænseflade",
+    "Forbedret fanenavigation med klarere adskillelse mellem Info, Sted, Note og Foto"
+  ],
+  "fixes": [
+    {
+      "title": "Lightroom TIFF-datosynkronisering",
+      "description": "Løst et problem, hvor oprettelsesdatoen ikke blev vist korrekt i Adobe Lightroom for TIFF-filer. Frames skriver nu både EXIF Date Created og TIFF Date Created metadatafelter for at sikre korrekt datosynkronisering på tværs af alle applikationer."
+    }
+  ],
+  "meta_title": "Redesignet inspektør & forbedret metadatahåndtering · Frames",
+  "meta_description": "Version 1.9 bringer en helt redesignet inspektør med forbedret fanenavigation, udvidet metadatavisning og en dedikeret Foto-fane for et klarere..."
+}

@@ -1,0 +1,73 @@
+{
+  "version": "1.9.0",
+  "version_short": "1.9",
+  "url_slug": "1-9-macos",
+  "platform": "macos",
+  "release_date": "2025-10-26T10:00:00.000Z",
+  "title": "Uudelleensuunniteltu tarkastin ja parannettu metatietojen hallinta",
+  "summary": "Versio 1.9 tuo täysin uudelleensuunnitellun tarkastimen hiotulla välilehtinavigaatiolla, laajennetulla metatietonäkymällä ja omistetulla Valokuva-välilehdellä selkeämpään kuvien paritustyönkulkuun sekä tärkeitä korjauksia Lightroom TIFF -yhteensopivuuteen.",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Modernisoidtu tarkastin omistetulla Valokuva-välilehdellä"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tarkastimen sivupalkki on suunniteltu täysin uudelleen hiotummalla, modernimmalla käyttöliittymällä, jota on helpompi tarkastella ja navigoida. Neljän välilehden rakenne erottaa nyt selkeästi toiminnot: Tiedot kehyksen metatiedoille, Sijainti maantieteellisille tiedoille, Muistiinpano huomautuksille ja uusi Valokuva-välilehti omistettu yksinomaan kuvien paritukselle."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-mac-1.9.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-mac-1.9.0-1@2x.png",
+      "alt": "Frames macOS -sovellus uudelleensuunnitellulla tarkastimella ja välilehtinavigaatiolla",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "paragraph",
+      "content": "Aiemmin kuvien paritus sijaitsi Tiedot-välilehdellä, mikä saattoi aiheuttaa hämmennystä. Nyt jokaisella välilehdellä on yksi, hyvin määritelty tarkoitus, mikä tekee työnkulusta intuitiivisemman pitäen kaikki työkalut helposti saatavilla."
+    },
+    {
+      "type": "list",
+      "items": [
+        {
+          "title": "Välilehtinavigaatio",
+          "description": "Tiedot-, Sijainti-, Muistiinpano- ja Valokuva-välilehdet tarjoavat selkeän metatietokategorioiden erottelun nopeampaa navigointia varten."
+        },
+        {
+          "title": "Omistettu Valokuva-välilehti",
+          "description": "Kuvien parituksella on nyt oma tilansa, joka näyttää yksityiskohtaisia teknisiä tietoja kuten mitat, tiedostomuoto, koko ja digitoinnin aikaleimoja."
+        },
+        {
+          "title": "Tiivistettävät osiot",
+          "description": "Mukauta työtilaa tiivistämällä osiot, joita et aktiivisesti tarvitse, vähentäen visuaalista sotkua samalla kun säilytät nopean pääsyn."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Laajennettu metatietonäkymä"
+    },
+    {
+      "type": "paragraph",
+      "content": "Uudelleensuunniteltu tarkastin näyttää enemmän teknisiä metatietoja kuin koskaan aiemmin. Valokuvaajat voivat nyt nähdä herkkyystyypin, kameran ja objektiivin sarjanumerot, kuvan digitoinnin aikaleimat sekä lisää EXIF-kenttiä, jotka olivat aiemmin piilossa. Tämä syvempi näkyvyys auttaa luetteloinnissa, paritettujen kuvien todentamisessa ja kattavien tietueiden ylläpidossa analogisen valokuvauksen työnkulkusi kuvaamisesta digitointiin."
+    }
+  ],
+  "improvements": [
+    "Täysin uudelleensuunniteltu tarkastin hiotulla visuaalisella suunnittelulla ja parannetulla luettavuudella",
+    "Lisätty omistettu Valokuva-välilehti kuvien paritukselle yksityiskohtaisilla teknisillä tiedoilla",
+    "Laajennettu metatietonäkymä sisältäen herkkyystyypin, sarjanumerot ja digitoinnin aikaleimat",
+    "Otettu käyttöön tiivistettävät osiot puhtaammalle, muokattavammalle käyttöliittymälle",
+    "Parannettu välilehtinavigaatio selkeämmällä erottelulla Tietojen, Sijainnin, Muistiinpanon ja Valokuvan välillä"
+  ],
+  "fixes": [
+    {
+      "title": "Lightroom TIFF-päivämäärän synkronointi",
+      "description": "Korjattu ongelma, jossa luontipäivämäärä ei näkynyt oikein Adobe Lightroomissa TIFF-tiedostoille. Frames kirjoittaa nyt sekä EXIF Date Created että TIFF Date Created metatietokentät varmistaakseen oikean päivämäärän synkronoinnin kaikissa sovelluksissa."
+    }
+  ],
+  "meta_title": "Uudelleensuunniteltu tarkastin ja parannettu metatietojen hallinta · Frames",
+  "meta_description": "Versio 1.9 tuo täysin uudelleensuunnitellun tarkastimen hiotulla välilehtinavigaatiolla, laajennetulla metatietonäkymällä ja omistetulla Valokuva-välilehdellä..."
+}

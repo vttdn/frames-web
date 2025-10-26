@@ -1,0 +1,73 @@
+{
+  "version": "1.9.0",
+  "version_short": "1.9",
+  "url_slug": "1-9-macos",
+  "platform": "macos",
+  "release_date": "2025-10-26T10:00:00.000Z",
+  "title": "Ispettore riprogettato e gestione metadati migliorata",
+  "summary": "La versione 1.9 introduce un ispettore completamente riprogettato con navigazione a schede raffinata, visualizzazione ampliata dei metadati e una scheda Foto dedicata per un flusso di lavoro più chiaro nell'abbinamento delle immagini, insieme a correzioni importanti per la compatibilità TIFF con Lightroom.",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Ispettore modernizzato con scheda Foto dedicata"
+    },
+    {
+      "type": "paragraph",
+      "content": "La barra laterale dell'ispettore è stata completamente riprogettata con un'interfaccia più raffinata e moderna, più facile da consultare e navigare. La struttura a quattro schede ora separa chiaramente le funzioni: Informazioni per i metadati del fotogramma, Posizione per i dati geografici, Note per le annotazioni e la nuova scheda Foto dedicata esclusivamente all'abbinamento delle immagini."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-mac-1.9.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-mac-1.9.0-1@2x.png",
+      "alt": "App Frames per macOS con ispettore riprogettato e navigazione a schede",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "paragraph",
+      "content": "In precedenza, l'abbinamento delle foto si trovava nella scheda Informazioni, il che poteva creare confusione. Ora ogni scheda ha uno scopo singolo e ben definito, rendendo il flusso di lavoro più intuitivo mantenendo tutti gli strumenti facilmente accessibili."
+    },
+    {
+      "type": "list",
+      "items": [
+        {
+          "title": "Navigazione a schede",
+          "description": "Le schede Informazioni, Posizione, Note e Foto offrono una chiara separazione delle categorie di metadati per una navigazione più rapida."
+        },
+        {
+          "title": "Scheda Foto dedicata",
+          "description": "L'abbinamento delle immagini ora ha il proprio spazio, mostrando informazioni tecniche dettagliate come dimensioni, formato file, dimensione e timestamp di digitalizzazione."
+        },
+        {
+          "title": "Sezioni comprimibili",
+          "description": "Personalizza il tuo spazio di lavoro comprimendo le sezioni di cui non hai attivamente bisogno, riducendo il disordine visivo mantenendo un accesso rapido."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Visualizzazione ampliata dei metadati"
+    },
+    {
+      "type": "paragraph",
+      "content": "L'ispettore riprogettato mostra più metadati tecnici che mai. I fotografi possono ora visualizzare il tipo di sensibilità, i numeri di serie della fotocamera e dell'obiettivo, i timestamp di digitalizzazione dell'immagine e campi EXIF aggiuntivi che in precedenza erano nascosti. Questa maggiore visibilità aiuta con la catalogazione, la verifica delle immagini abbinate e il mantenimento di registri completi del tuo flusso di lavoro di fotografia analogica dalla cattura alla digitalizzazione."
+    }
+  ],
+  "improvements": [
+    "Ispettore completamente riprogettato con design visivo raffinato e leggibilità migliorata",
+    "Aggiunta scheda Foto dedicata per l'abbinamento delle immagini con informazioni tecniche dettagliate",
+    "Visualizzazione ampliata dei metadati inclusi tipo di sensibilità, numeri di serie e timestamp di digitalizzazione",
+    "Introdotte sezioni comprimibili per un'interfaccia più pulita e personalizzabile",
+    "Navigazione a schede migliorata con separazione più chiara tra Informazioni, Posizione, Note e Foto"
+  ],
+  "fixes": [
+    {
+      "title": "Sincronizzazione date TIFF in Lightroom",
+      "description": "Risolto un problema per cui la data di creazione non veniva visualizzata correttamente in Adobe Lightroom per i file TIFF. Frames ora scrive sia il campo metadati EXIF Date Created che TIFF Date Created per garantire una corretta sincronizzazione delle date in tutte le applicazioni."
+    }
+  ],
+  "meta_title": "Ispettore riprogettato e gestione metadati migliorata · Frames",
+  "meta_description": "La versione 1.9 introduce un ispettore completamente riprogettato con navigazione a schede raffinata, visualizzazione ampliata dei metadati e una scheda Foto..."
+}

@@ -1,0 +1,73 @@
+{
+  "version": "1.9.0",
+  "version_short": "1.9",
+  "url_slug": "1-9-macos",
+  "platform": "macos",
+  "release_date": "2025-10-26T10:00:00.000Z",
+  "title": "Inspector rediseñado y gestión de metadatos mejorada",
+  "summary": "La versión 1.9 presenta un inspector completamente rediseñado con navegación por pestañas refinada, visualización ampliada de metadatos y una pestaña de Fotos dedicada para un flujo de trabajo más claro en el emparejamiento de imágenes, junto con correcciones importantes para la compatibilidad TIFF con Lightroom.",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Inspector modernizado con pestaña de Fotos dedicada"
+    },
+    {
+      "type": "paragraph",
+      "content": "El inspector lateral se ha rediseñado completamente con una interfaz más pulida y moderna, más fácil de examinar y navegar. La estructura de cuatro pestañas ahora separa claramente las funciones: Información para los metadatos del fotograma, Ubicación para datos geográficos, Notas para anotaciones y la nueva pestaña de Fotos dedicada exclusivamente al emparejamiento de imágenes."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-mac-1.9.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-mac-1.9.0-1@2x.png",
+      "alt": "Aplicación Frames para macOS con inspector rediseñado y navegación por pestañas",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "paragraph",
+      "content": "Anteriormente, el emparejamiento de fotos se encontraba en la pestaña de Información, lo que podía causar confusión. Ahora cada pestaña tiene un propósito único y bien definido, haciendo el flujo de trabajo más intuitivo mientras mantiene todas las herramientas fácilmente accesibles."
+    },
+    {
+      "type": "list",
+      "items": [
+        {
+          "title": "Navegación por pestañas",
+          "description": "Las pestañas de Información, Ubicación, Notas y Fotos proporcionan una separación clara de las categorías de metadatos para una navegación más rápida."
+        },
+        {
+          "title": "Pestaña de Fotos dedicada",
+          "description": "El emparejamiento de imágenes ahora tiene su propio espacio, mostrando información técnica detallada como dimensiones, formato de archivo, tamaño y marcas de tiempo de digitalización."
+        },
+        {
+          "title": "Secciones plegables",
+          "description": "Personaliza tu espacio de trabajo plegando las secciones que no necesites activamente, reduciendo el desorden visual mientras mantienes un acceso rápido."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Visualización ampliada de metadatos"
+    },
+    {
+      "type": "paragraph",
+      "content": "El inspector rediseñado muestra más metadatos técnicos que nunca. Los fotógrafos ahora pueden ver el tipo de sensibilidad, números de serie de la cámara y el objetivo, marcas de tiempo de digitalización de imagen y campos EXIF adicionales que anteriormente estaban ocultos. Esta mayor visibilidad ayuda con la catalogación, verificación de imágenes emparejadas y el mantenimiento de registros completos de tu flujo de trabajo de fotografía analógica desde la captura hasta la digitalización."
+    }
+  ],
+  "improvements": [
+    "Inspector completamente rediseñado con diseño visual refinado y legibilidad mejorada",
+    "Añadida pestaña de Fotos dedicada para el emparejamiento de imágenes con información técnica detallada",
+    "Visualización ampliada de metadatos incluyendo tipo de sensibilidad, números de serie y marcas de tiempo de digitalización",
+    "Introducidas secciones plegables para una interfaz más limpia y personalizable",
+    "Navegación por pestañas mejorada con separación más clara entre Información, Ubicación, Notas y Fotos"
+  ],
+  "fixes": [
+    {
+      "title": "Sincronización de fechas TIFF en Lightroom",
+      "description": "Se ha resuelto un problema por el cual la fecha de creación no se mostraba correctamente en Adobe Lightroom para archivos TIFF. Frames ahora escribe tanto el campo de metadatos EXIF Date Created como TIFF Date Created para garantizar una sincronización correcta de fechas en todas las aplicaciones."
+    }
+  ],
+  "meta_title": "Inspector rediseñado y gestión de metadatos mejorada · Frames",
+  "meta_description": "La versión 1.9 presenta un inspector completamente rediseñado con navegación por pestañas refinada, visualización ampliada de metadatos y una pestaña de Fotos..."
+}

@@ -1,0 +1,73 @@
+{
+  "version": "1.9.0",
+  "version_short": "1.9",
+  "url_slug": "1-9-macos",
+  "platform": "macos",
+  "release_date": "2025-10-26T10:00:00.000Z",
+  "title": "Inspektor yang Didesain Ulang & Pengelolaan Metadata yang Ditingkatkan",
+  "summary": "Versi 1.9 menghadirkan inspektor yang sepenuhnya didesain ulang dengan navigasi tab yang disempurnakan, tampilan metadata yang diperluas, dan tab Foto khusus untuk alur kerja penggandaan gambar yang lebih jelas, bersama dengan perbaikan penting untuk kompatibilitas TIFF Lightroom.",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Inspektor Modern dengan Tab Foto Khusus"
+    },
+    {
+      "type": "paragraph",
+      "content": "Sidebar inspektor telah sepenuhnya didesain ulang dengan antarmuka yang lebih halus dan modern yang lebih mudah dipindai dan dinavigasi. Struktur empat tab kini dengan jelas memisahkan fungsi: Info untuk metadata bingkai, Lokasi untuk data geografis, Catatan untuk anotasi, dan tab Foto baru yang didedikasikan secara eksklusif untuk penggandaan gambar."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-mac-1.9.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-mac-1.9.0-1@2x.png",
+      "alt": "Aplikasi Frames macOS dengan inspektor yang didesain ulang dan navigasi tab",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "paragraph",
+      "content": "Sebelumnya, penggandaan foto berada di dalam tab Info, yang dapat menyebabkan kebingungan. Kini setiap tab memiliki tujuan tunggal yang jelas, membuat alur kerja lebih intuitif sambil menjaga semua alat tetap mudah diakses."
+    },
+    {
+      "type": "list",
+      "items": [
+        {
+          "title": "Navigasi Tab",
+          "description": "Tab Info, Lokasi, Catatan, dan Foto memberikan pemisahan yang jelas dari kategori metadata untuk navigasi yang lebih cepat."
+        },
+        {
+          "title": "Tab Foto Khusus",
+          "description": "Penggandaan gambar kini memiliki ruang sendiri, menampilkan informasi teknis terperinci seperti dimensi, format file, ukuran, dan cap waktu digitalisasi."
+        },
+        {
+          "title": "Bagian yang Dapat Diciutkan",
+          "description": "Sesuaikan ruang kerja Anda dengan menciutkan bagian yang tidak Anda butuhkan secara aktif, mengurangi kekacauan visual sambil mempertahankan akses cepat."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Tampilan Metadata yang Diperluas"
+    },
+    {
+      "type": "paragraph",
+      "content": "Inspektor yang didesain ulang menampilkan lebih banyak metadata teknis daripada sebelumnya. Fotografer kini dapat melihat Tipe Sensitivitas, nomor seri kamera dan lensa, cap waktu digitalisasi gambar, dan bidang EXIF tambahan yang sebelumnya tersembunyi. Visibilitas yang lebih dalam ini membantu dengan pengkatalogan, verifikasi gambar yang digandakan, dan pemeliharaan catatan komprehensif dari alur kerja fotografi analog Anda dari pengambilan hingga digitalisasi."
+    }
+  ],
+  "improvements": [
+    "Inspektor yang sepenuhnya didesain ulang dengan desain visual yang disempurnakan dan keterbacaan yang ditingkatkan",
+    "Menambahkan tab Foto khusus untuk penggandaan gambar dengan informasi teknis terperinci",
+    "Tampilan metadata yang diperluas termasuk Tipe Sensitivitas, nomor seri, dan cap waktu digitalisasi",
+    "Memperkenalkan bagian yang dapat diciutkan untuk antarmuka yang lebih bersih dan dapat disesuaikan",
+    "Navigasi tab yang ditingkatkan dengan pemisahan yang lebih jelas antara Info, Lokasi, Catatan, dan Foto"
+  ],
+  "fixes": [
+    {
+      "title": "Sinkronisasi Tanggal TIFF Lightroom",
+      "description": "Mengatasi masalah di mana Tanggal Pembuatan tidak ditampilkan dengan benar di Adobe Lightroom untuk file TIFF. Frames kini menulis bidang metadata EXIF Date Created dan TIFF Date Created untuk memastikan sinkronisasi tanggal yang tepat di semua aplikasi."
+    }
+  ],
+  "meta_title": "Inspektor yang Didesain Ulang & Pengelolaan Metadata yang Ditingkatkan · Frames",
+  "meta_description": "Versi 1.9 menghadirkan inspektor yang sepenuhnya didesain ulang dengan navigasi tab yang disempurnakan, tampilan metadata yang diperluas, dan tab Foto khusus..."
+}

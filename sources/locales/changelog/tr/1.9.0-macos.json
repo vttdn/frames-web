@@ -1,0 +1,73 @@
+{
+  "version": "1.9.0",
+  "version_short": "1.9",
+  "url_slug": "1-9-macos",
+  "platform": "macos",
+  "release_date": "2025-10-26T10:00:00.000Z",
+  "title": "Yeniden Tasarlanan Denetleyici ve Geliştirilmiş Meta Veri Yönetimi",
+  "summary": "Sürüm 1.9, geliştirilmiş sekme navigasyonu, genişletilmiş meta veri görüntüleme ve daha net görüntü eşleştirme iş akışı için özel bir Fotoğraf sekmesi içeren tamamen yeniden tasarlanmış bir denetleyici ve Lightroom TIFF uyumluluğu için kritik düzeltmeler getiriyor.",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Özel Fotoğraf Sekmeli Modernize Edilmiş Denetleyici"
+    },
+    {
+      "type": "paragraph",
+      "content": "Denetleyici kenar çubuğu, taranması ve gezinmesi daha kolay olan daha cilalı, modern bir arayüzle tamamen yeniden tasarlandı. Dört sekme yapısı artık işlevleri açıkça ayırıyor: Kare meta verileri için Bilgi, coğrafi veriler için Konum, ek açıklamalar için Not ve görüntü eşleştirmeye özel olarak ayrılmış yeni Fotoğraf sekmesi."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-mac-1.9.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-mac-1.9.0-1@2x.png",
+      "alt": "Yeniden tasarlanan denetleyici ve sekme navigasyonuna sahip Frames macOS uygulaması",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "paragraph",
+      "content": "Daha önce, fotoğraf eşleştirme Bilgi sekmesinin içindeydi ve bu karışıklığa neden olabiliyordu. Şimdi her sekmenin tek, iyi tanımlanmış bir amacı var, tüm araçları kolayca erişilebilir tutarken iş akışını daha sezgisel hale getiriyor."
+    },
+    {
+      "type": "list",
+      "items": [
+        {
+          "title": "Sekme Navigasyonu",
+          "description": "Bilgi, Konum, Not ve Fotoğraf sekmeleri, daha hızlı gezinme için meta veri kategorilerinin net bir şekilde ayrılmasını sağlar."
+        },
+        {
+          "title": "Özel Fotoğraf Sekmesi",
+          "description": "Görüntü eşleştirmenin artık boyutlar, dosya formatı, boyut ve dijitalleştirme zaman damgaları gibi ayrıntılı teknik bilgileri gösteren kendi alanı var."
+        },
+        {
+          "title": "Daraltılabilir Bölümler",
+          "description": "Aktif olarak ihtiyaç duymadığınız bölümleri daraltarak çalışma alanınızı özelleştirin, hızlı erişimi korurken görsel dağınıklığı azaltın."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Genişletilmiş Meta Veri Görüntüleme"
+    },
+    {
+      "type": "paragraph",
+      "content": "Yeniden tasarlanan denetleyici her zamankinden daha fazla teknik meta veri gösteriyor. Fotoğrafçılar artık Duyarlılık Türü, kamera ve lens seri numaraları, görüntü dijitalleştirme zaman damgaları ve daha önce gizlenmiş ek EXIF alanlarını görüntüleyebilir. Bu daha derin görünürlük, kataloglama, eşleştirilmiş görüntüleri doğrulama ve analog fotoğrafçılık iş akışınızın çekimden dijitalleştirmeye kadar kapsamlı kayıtlarını tutma konusunda yardımcı olur."
+    }
+  ],
+  "improvements": [
+    "Geliştirilmiş görsel tasarım ve iyileştirilmiş okunabilirlikle tamamen yeniden tasarlanmış denetleyici",
+    "Ayrıntılı teknik bilgilerle görüntü eşleştirme için özel Fotoğraf sekmesi eklendi",
+    "Duyarlılık Türü, seri numaraları ve dijitalleştirme zaman damgaları dahil genişletilmiş meta veri görüntüleme",
+    "Daha temiz, daha özelleştirilebilir bir arayüz için daraltılabilir bölümler tanıtıldı",
+    "Bilgi, Konum, Not ve Fotoğraf arasında daha net ayrımla geliştirilmiş sekme navigasyonu"
+  ],
+  "fixes": [
+    {
+      "title": "Lightroom TIFF Tarih Senkronizasyonu",
+      "description": "TIFF dosyaları için Adobe Lightroom'da Oluşturma Tarihinin doğru görüntülenmediği bir sorun çözüldü. Frames artık tüm uygulamalarda uygun tarih senkronizasyonunu sağlamak için hem EXIF Date Created hem de TIFF Date Created meta veri alanlarını yazıyor."
+    }
+  ],
+  "meta_title": "Yeniden Tasarlanan Denetleyici ve Geliştirilmiş Meta Veri Yönetimi · Frames",
+  "meta_description": "Sürüm 1.9, geliştirilmiş sekme navigasyonu, genişletilmiş meta veri görüntüleme ve daha net görüntü eşleştirme iş akışı için özel bir Fotoğraf sekmesi..."
+}

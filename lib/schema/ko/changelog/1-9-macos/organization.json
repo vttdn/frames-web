@@ -1,0 +1,57 @@
+{
+  "@context": "https://schema.org",
+  "@id": "https://withframes.com/#organization",
+  "@type": "Organization",
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "areaServed": "Worldwide",
+    "availableLanguage": [
+      "English",
+      "French"
+    ],
+    "contactType": "Customer Service",
+    "email": "bonjour@withframes.com",
+    "telephone": "+33-67-932-3020"
+  },
+  "description": "Frames는 필름 사진가들이 아날로그 사진 프로세스를 기록, 정리 및 추적할 수 있도록 돕는 iOS 및 macOS 앱입니다.",
+  "duns": "264295763",
+  "founder": {
+    "@type": "Person",
+    "@id": "https://withframes.com/#vincent-tantardini",
+    "name": "Vincent Tantardini",
+    "url": "https://vnn.io/"
+  },
+  "foundingDate": "2025-03-04",
+  "foundingLocation": {
+    "@type": "Place",
+    "name": "Cotignac, France",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "FR",
+      "addressLocality": "Cotignac"
+    }
+  },
+  "logo": "https://withframes.com/lib/img/shared/app-icon.png",
+  "name": "Frames",
+  "numberOfEmployees": {
+    "@type": "QuantitativeValue",
+    "unitText": "employees",
+    "value": 1
+  },
+  "sameAs": [
+    "https://twitter.com/withframes",
+    "https://www.facebook.com/framesapp",
+    "https://www.instagram.com/with_frames/",
+    "https://linkedin.com/company/withframes/",
+    "https://pinterest.com/framesapp/",
+    "https://mastodon.social/@frames",
+    "https://bsky.app/profile/withframes.com",
+    "https://www.tiktok.com/@with_frames",
+    "https://www.youtube.com/@withframes",
+    "https://g.co/kgs/5oEvXT5",
+    "https://apps.apple.com/kr/app/frames-필름-사진-노트/id6744057317",
+    "https://apps.apple.com/kr/app/frames-필름-사진-메타데이터/id6744063354"
+  ],
+  "taxID": "FR752589168",
+  "url": "https://withframes.com/"
+}

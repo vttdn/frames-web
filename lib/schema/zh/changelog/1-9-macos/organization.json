@@ -1,0 +1,57 @@
+{
+  "@context": "https://schema.org",
+  "@id": "https://withframes.com/#organization",
+  "@type": "Organization",
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "areaServed": "Worldwide",
+    "availableLanguage": [
+      "English",
+      "French"
+    ],
+    "contactType": "Customer Service",
+    "email": "bonjour@withframes.com",
+    "telephone": "+33-67-932-3020"
+  },
+  "description": "Frames 是一款 iOS 和 macOS 应用，帮助胶片摄影师记录、组织和跟踪他们的模拟摄影过程。",
+  "duns": "264295763",
+  "founder": {
+    "@type": "Person",
+    "@id": "https://withframes.com/#vincent-tantardini",
+    "name": "Vincent Tantardini",
+    "url": "https://vnn.io/"
+  },
+  "foundingDate": "2025-03-04",
+  "foundingLocation": {
+    "@type": "Place",
+    "name": "Cotignac, France",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "FR",
+      "addressLocality": "Cotignac"
+    }
+  },
+  "logo": "https://withframes.com/lib/img/shared/app-icon.png",
+  "name": "Frames",
+  "numberOfEmployees": {
+    "@type": "QuantitativeValue",
+    "unitText": "employees",
+    "value": 1
+  },
+  "sameAs": [
+    "https://twitter.com/withframes",
+    "https://www.facebook.com/framesapp",
+    "https://www.instagram.com/with_frames/",
+    "https://linkedin.com/company/withframes/",
+    "https://pinterest.com/framesapp/",
+    "https://mastodon.social/@frames",
+    "https://bsky.app/profile/withframes.com",
+    "https://www.tiktok.com/@with_frames",
+    "https://www.youtube.com/@withframes",
+    "https://g.co/kgs/5oEvXT5",
+    "https://apps.apple.com/cn/app/frames-%E8%83%B6%E7%89%87%E6%91%84%E5%BD%B1%E7%AC%94%E8%AE%B0/id6744057317?l=zh",
+    "https://apps.apple.com/cn/app/frames-%E8%83%B6%E7%89%87%E5%85%83%E6%95%B0%E6%8D%AE/id6744063354?l=zh"
+  ],
+  "taxID": "FR752589168",
+  "url": "https://withframes.com/"
+}

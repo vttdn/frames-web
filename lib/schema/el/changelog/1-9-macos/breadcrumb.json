@@ -1,0 +1,23 @@
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://withframes.com/el/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Αρχείο Αλλαγών",
+      "item": "https://withframes.com/el/changelog/1-9-macos/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Ανασχεδιασμένος επιθεωρητής και βελτιωμένη διαχείριση μεταδεδομένων",
+      "item": "https://withframes.com/el/changelog/1-9-macos/"
+    }  ]
+}

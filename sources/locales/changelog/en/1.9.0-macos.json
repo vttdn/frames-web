@@ -1,0 +1,73 @@
+{
+  "version": "1.9.0",
+  "version_short": "1.9",
+  "url_slug": "1-9-macos",
+  "platform": "macos",
+  "release_date": "2025-10-26T10:00:00.000Z",
+  "title": "Redesigned Inspector & Improved Metadata Management",
+  "summary": "Version 1.9 brings a completely redesigned inspector sidebar with refined tabbed navigation, enhanced metadata display, and a dedicated Photo tab for clearer image pairing workflow, alongside critical fixes for Lightroom TIFF compatibility.",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Modernized Inspector with Dedicated Photo Tab"
+    },
+    {
+      "type": "paragraph",
+      "content": "The inspector sidebar has been completely redesigned with a more polished, modern interface that's easier to scan and navigate. The four-tab structure now clearly separates concerns: Info for frame metadata, Location for geographic data, Notes for annotations, and the new Photo tab dedicated exclusively to image pairing."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-mac-1.9.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-mac-1.9.0-1@2x.png",
+      "alt": "Frames macOS app redesigned inspector sidebar with tabbed navigation",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "paragraph",
+      "content": "Previously, photo pairing lived within the Info tab, which could cause confusion. Now each tab has a singular, well-defined purpose, making the workflow more intuitive while keeping all tools readily accessible."
+    },
+    {
+      "type": "list",
+      "items": [
+        {
+          "title": "Tabbed Navigation",
+          "description": "Info, Location, Notes, and Photo tabs provide clear separation of metadata categories for faster navigation."
+        },
+        {
+          "title": "Dedicated Photo Tab",
+          "description": "Image pairing now has its own space, displaying detailed technical information like dimensions, file format, size, and digitization timestamps."
+        },
+        {
+          "title": "Collapsible Sections",
+          "description": "Customize your workspace by collapsing sections you don't actively need, reducing visual clutter while maintaining quick access."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Expanded Metadata Display"
+    },
+    {
+      "type": "paragraph",
+      "content": "The redesigned inspector surfaces more technical metadata than ever before. Photographers can now view Sensitivity Type, camera and lens serial numbers, image digitization timestamps, and additional EXIF fields that were previously hidden. This deeper visibility helps with cataloging, verifying paired images, and maintaining comprehensive records of your analog photography workflow from capture through digitization."
+    }
+  ],
+  "improvements": [
+    "Completely redesigned inspector sidebar with refined visual design and improved readability",
+    "Added dedicated Photo tab for image pairing with detailed technical information",
+    "Enhanced metadata display including Sensitivity Type, serial numbers, and digitization timestamps",
+    "Introduced collapsible sections for a cleaner, more customizable interface",
+    "Improved tabbed navigation with clearer separation between Info, Location, Notes, and Photo"
+  ],
+  "fixes": [
+    {
+      "title": "Lightroom TIFF Date Synchronization",
+      "description": "Resolved an issue where the Creation Date wasn't displaying correctly in Adobe Lightroom for TIFF files. Frames now writes both EXIF Date Created and TIFF Date Created metadata fields to ensure proper date synchronization across all applications."
+    }
+  ],
+  "meta_title": "Redesigned Inspector & Improved Metadata Management · Frames",
+  "meta_description": "Version 1.9 brings a completely redesigned inspector sidebar with refined tabbed navigation, enhanced metadata display, and a dedicated Photo tab for clearer..."
+}

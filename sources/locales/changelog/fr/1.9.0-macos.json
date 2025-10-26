@@ -1,0 +1,73 @@
+{
+  "version": "1.9.0",
+  "version_short": "1.9",
+  "url_slug": "1-9-macos",
+  "platform": "macos",
+  "release_date": "2025-10-26T10:00:00.000Z",
+  "title": "Inspecteur repensé & gestion des métadonnées améliorée",
+  "summary": "La version 1.9 propose un inspecteur entièrement repensé avec une navigation par onglets affinée, un affichage enrichi des métadonnées et un nouvel onglet Photo dédié à l'association d'images, ainsi que des corrections importantes pour la compatibilité TIFF avec Lightroom.",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Inspecteur modernisé avec onglet photo dédié"
+    },
+    {
+      "type": "paragraph",
+      "content": "La barre latérale de l'inspecteur a été entièrement repensée avec une interface plus moderne et soignée, plus facile à parcourir et à consulter. La structure à quatre onglets sépare désormais clairement les différentes fonctions : Infos pour les métadonnées de la vue, Localisation pour les données géographiques, Notes pour les annotations, et le nouvel onglet Photo dédié exclusivement à l'association d'images."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-mac-1.9.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-mac-1.9.0-1@2x.png",
+      "alt": "Application Frames pour macOS avec inspecteur repensé et navigation par onglets",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "paragraph",
+      "content": "Auparavant, l'association d'images se trouvait dans l'onglet Infos, ce qui pouvait prêter à confusion. Désormais, chaque onglet a un rôle unique et bien défini, rendant le flux de travail plus intuitif tout en gardant tous les outils facilement accessibles."
+    },
+    {
+      "type": "list",
+      "items": [
+        {
+          "title": "Navigation par onglets",
+          "description": "Les onglets Infos, Localisation, Notes et Photo offrent une séparation claire des catégories de métadonnées pour une navigation plus rapide."
+        },
+        {
+          "title": "Onglet photo dédié",
+          "description": "L'association d'images dispose maintenant de son propre espace, affichant des informations techniques détaillées comme les dimensions, le format de fichier, la taille et les horodatages de numérisation."
+        },
+        {
+          "title": "Sections repliables",
+          "description": "Personnalisez votre espace de travail en repliant les sections dont vous n'avez pas besoin, réduisant ainsi l'encombrement visuel tout en conservant un accès rapide."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Affichage étendu des métadonnées"
+    },
+    {
+      "type": "paragraph",
+      "content": "L'inspecteur repensé affiche désormais davantage de métadonnées techniques. Les photographes peuvent maintenant consulter le type de sensibilité, les numéros de série de l'appareil et de l'objectif, les horodatages de numérisation de l'image, ainsi que des champs EXIF supplémentaires qui étaient auparavant masqués. Cette visibilité accrue facilite le catalogage, la vérification des images associées et la tenue de registres complets de votre flux de travail en photographie argentique, de la prise de vue à la numérisation."
+    }
+  ],
+  "improvements": [
+    "Inspecteur entièrement repensé avec un design visuel affiné et une meilleure lisibilité",
+    "Ajout d'un onglet Photo dédié à l'association d'images avec des informations techniques détaillées",
+    "Affichage enrichi des métadonnées incluant le type de sensibilité, les numéros de série et les horodatages de numérisation",
+    "Introduction de sections repliables pour une interface plus épurée et personnalisable",
+    "Navigation par onglets améliorée avec une séparation plus claire entre Infos, Localisation, Notes et Photo"
+  ],
+  "fixes": [
+    {
+      "title": "Synchronisation des Dates TIFF avec Lightroom",
+      "description": "Correction d'un problème où la date de création ne s'affichait pas correctement dans Adobe Lightroom pour les fichiers TIFF. Frames écrit désormais à la fois les champs de métadonnées EXIF Date Created et TIFF Date Created pour garantir une synchronisation correcte des dates dans toutes les applications."
+    }
+  ],
+  "meta_title": "Inspecteur Repensé & Gestion des Métadonnées Améliorée · Frames",
+  "meta_description": "La version 1.9 propose un inspecteur entièrement repensé avec une navigation par onglets affinée, un affichage enrichi des métadonnées et un nouvel onglet Photo..."
+}

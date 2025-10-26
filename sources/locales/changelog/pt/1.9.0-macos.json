@@ -1,0 +1,73 @@
+{
+  "version": "1.9.0",
+  "version_short": "1.9",
+  "url_slug": "1-9-macos",
+  "platform": "macos",
+  "release_date": "2025-10-26T10:00:00.000Z",
+  "title": "Inspetor redesenhado e gerenciamento de metadados aprimorado",
+  "summary": "A versão 1.9 traz um inspetor completamente redesenhado com navegação por abas refinada, exibição ampliada de metadados e uma aba de Fotos dedicada para um fluxo de trabalho mais claro no pareamento de imagens, além de correções importantes para compatibilidade TIFF com o Lightroom.",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Inspetor modernizado com aba de Fotos dedicada"
+    },
+    {
+      "type": "paragraph",
+      "content": "A barra lateral do inspetor foi completamente redesenhada com uma interface mais refinada e moderna, mais fácil de visualizar e navegar. A estrutura de quatro abas agora separa claramente as funções: Informações para metadados do quadro, Localização para dados geográficos, Notas para anotações e a nova aba de Fotos dedicada exclusivamente ao pareamento de imagens."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-mac-1.9.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-mac-1.9.0-1@2x.png",
+      "alt": "App Frames para macOS com inspetor redesenhado e navegação por abas",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "paragraph",
+      "content": "Anteriormente, o pareamento de fotos ficava na aba de Informações, o que podia causar confusão. Agora cada aba tem um propósito único e bem definido, tornando o fluxo de trabalho mais intuitivo enquanto mantém todas as ferramentas facilmente acessíveis."
+    },
+    {
+      "type": "list",
+      "items": [
+        {
+          "title": "Navegação por abas",
+          "description": "As abas de Informações, Localização, Notas e Fotos oferecem uma separação clara das categorias de metadados para navegação mais rápida."
+        },
+        {
+          "title": "Aba de Fotos dedicada",
+          "description": "O pareamento de imagens agora tem seu próprio espaço, exibindo informações técnicas detalhadas como dimensões, formato de arquivo, tamanho e timestamps de digitalização."
+        },
+        {
+          "title": "Seções recolhíveis",
+          "description": "Personalize seu espaço de trabalho recolhendo seções que você não precisa ativamente, reduzindo a poluição visual enquanto mantém acesso rápido."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Exibição ampliada de metadados"
+    },
+    {
+      "type": "paragraph",
+      "content": "O inspetor redesenhado exibe mais metadados técnicos do que nunca. Fotógrafos agora podem visualizar o tipo de sensibilidade, números de série da câmera e lente, timestamps de digitalização da imagem e campos EXIF adicionais que antes estavam ocultos. Essa visibilidade mais profunda ajuda na catalogação, verificação de imagens pareadas e manutenção de registros completos do seu fluxo de trabalho de fotografia analógica desde a captura até a digitalização."
+    }
+  ],
+  "improvements": [
+    "Inspetor completamente redesenhado com design visual refinado e legibilidade aprimorada",
+    "Adicionada aba de Fotos dedicada para pareamento de imagens com informações técnicas detalhadas",
+    "Exibição ampliada de metadados incluindo tipo de sensibilidade, números de série e timestamps de digitalização",
+    "Introdução de seções recolhíveis para uma interface mais limpa e personalizável",
+    "Navegação por abas aprimorada com separação mais clara entre Informações, Localização, Notas e Fotos"
+  ],
+  "fixes": [
+    {
+      "title": "Sincronização de datas TIFF no Lightroom",
+      "description": "Resolvido um problema em que a data de criação não era exibida corretamente no Adobe Lightroom para arquivos TIFF. O Frames agora grava tanto o campo de metadados EXIF Date Created quanto TIFF Date Created para garantir sincronização correta de datas em todos os aplicativos."
+    }
+  ],
+  "meta_title": "Inspetor redesenhado e gerenciamento de metadados aprimorado · Frames",
+  "meta_description": "A versão 1.9 traz um inspetor completamente redesenhado com navegação por abas refinada, exibição ampliada de metadados e uma aba de Fotos dedicada..."
+}

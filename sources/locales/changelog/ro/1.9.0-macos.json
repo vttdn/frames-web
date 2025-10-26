@@ -1,0 +1,73 @@
+{
+  "version": "1.9.0",
+  "version_short": "1.9",
+  "url_slug": "1-9-macos",
+  "platform": "macos",
+  "release_date": "2025-10-26T10:00:00.000Z",
+  "title": "Panou reproiectat și gestionare îmbunătățită a metadatelor",
+  "summary": "Versiunea 1.9 aduce un panou complet reproiectat cu navigare pe file rafinată, afișare extinsă a metadatelor și o filă Fotografii dedicată pentru un flux de lucru mai clar la asocierea imaginilor, alături de corecții importante pentru compatibilitatea TIFF cu Lightroom.",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Panou modernizat cu filă Fotografii dedicată"
+    },
+    {
+      "type": "paragraph",
+      "content": "Bara laterală a panoului a fost complet reproiectată cu o interfață mai rafinată și modernă, mai ușor de parcurs și navigat. Structura cu patru file separă acum clar funcțiile: Informații pentru metadatele cadrului, Locație pentru date geografice, Notițe pentru adnotări și noua filă Fotografii dedicată exclusiv asocierii imaginilor."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-mac-1.9.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-mac-1.9.0-1@2x.png",
+      "alt": "Aplicația Frames pentru macOS cu panou reproiectat și navigare pe file",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "paragraph",
+      "content": "Anterior, asocierea fotografiilor se afla în fila Informații, ceea ce putea crea confuzie. Acum fiecare filă are un scop unic și bine definit, făcând fluxul de lucru mai intuitiv în timp ce păstrează toate instrumentele ușor accesibile."
+    },
+    {
+      "type": "list",
+      "items": [
+        {
+          "title": "Navigare pe file",
+          "description": "Filele Informații, Locație, Notițe și Fotografii oferă o separare clară a categoriilor de metadate pentru o navigare mai rapidă."
+        },
+        {
+          "title": "Filă Fotografii dedicată",
+          "description": "Asocierea imaginilor are acum propriul spațiu, afișând informații tehnice detaliate precum dimensiuni, format de fișier, mărime și marcaje temporale de digitizare."
+        },
+        {
+          "title": "Secțiuni pliabile",
+          "description": "Personalizați-vă spațiul de lucru prin plierea secțiunilor de care nu aveți nevoie activ, reducând dezordinea vizuală în timp ce mențineți accesul rapid."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Afișare extinsă a metadatelor"
+    },
+    {
+      "type": "paragraph",
+      "content": "Panoul reproiectat afișează mai multe metadate tehnice ca niciodată. Fotografii pot acum vizualiza tipul de sensibilitate, numerele de serie ale camerei și obiectivului, marcajele temporale de digitizare a imaginii și câmpuri EXIF suplimentare care anterior erau ascunse. Această vizibilitate mai profundă ajută la catalogare, verificarea imaginilor asociate și menținerea înregistrărilor complete ale fluxului dumneavoastră de lucru în fotografia analogică de la captură până la digitizare."
+    }
+  ],
+  "improvements": [
+    "Panou complet reproiectat cu design vizual rafinat și lizibilitate îmbunătățită",
+    "Adăugată filă Fotografii dedicată pentru asocierea imaginilor cu informații tehnice detaliate",
+    "Afișare extinsă a metadatelor incluzând tipul de sensibilitate, numere de serie și marcaje temporale de digitizare",
+    "Introducere de secțiuni pliabile pentru o interfață mai curată și personalizabilă",
+    "Navigare pe file îmbunătățită cu separare mai clară între Informații, Locație, Notițe și Fotografii"
+  ],
+  "fixes": [
+    {
+      "title": "Sincronizarea datelor TIFF în Lightroom",
+      "description": "Rezolvată o problemă prin care data creării nu era afișată corect în Adobe Lightroom pentru fișierele TIFF. Frames scrie acum atât câmpul de metadate EXIF Date Created cât și TIFF Date Created pentru a asigura sincronizarea corectă a datelor în toate aplicațiile."
+    }
+  ],
+  "meta_title": "Panou reproiectat și gestionare îmbunătățită a metadatelor · Frames",
+  "meta_description": "Versiunea 1.9 aduce un panou complet reproiectat cu navigare pe file rafinată, afișare extinsă a metadatelor și o filă Fotografii dedicată pentru un flux..."
+}
