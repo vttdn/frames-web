@@ -53,7 +53,8 @@
     "Lisätty romanian (Română) käännös filmivalokuvausyhteisölle.",
     "Lisätty ukrainan (Українська) tuki alkuperäisellä terminologialla.",
     "Parannettu teknisen terminologian tarkkuus valokuvauskohtaisilla kentillä.",
-    "Välinelistat on nyt järjestetty aakkosjärjestykseen helpomman selaamisen mahdollistamiseksi."
+    "Välinelistat on nyt järjestetty aakkosjärjestykseen helpomman selaamisen mahdollistamiseksi.",
+    "Välistystä ja typografiaa säädetty tasapainoisemman käyttöliittymän saavuttamiseksi."
   ],
   "fixes": [
     {
@@ -63,6 +64,10 @@
     {
       "title": "Filmilaadut",
       "description": "Ratkaistu ongelma, jossa käyttäjän lisäämien filmilaatien ISO-arvo ei tallentui oikein."
+    },
+    {
+      "title": "Kansioanimaatiot",
+      "description": "Korjattu animaatio-ongelmat kansioita laajennettaessa ja tiivistettäessä."
     }
   ],
   "patches": [
@@ -73,6 +78,10 @@
     {
       "version": "1.13.2",
       "description": "Filmilaatien korjaukset ja UX-parannukset"
+    },
+    {
+      "version": "1.13.3",
+      "description": "Käyttöliittymäparannukset ja animaatiokorjaukset"
     }
   ],
   "meta_title": "Heprea, arabia, romania ja ukraina kielituki · Frames",

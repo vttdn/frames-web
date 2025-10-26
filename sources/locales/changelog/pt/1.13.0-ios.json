@@ -53,7 +53,8 @@
     "Adicionada tradução em romeno (Română) para a comunidade de fotografia analógica.",
     "Adicionado suporte para ucraniano (Українська) com terminologia nativa.",
     "Precisão aprimorada da terminologia técnica em campos específicos de fotografia.",
-    "As listas de equipamento agora são ordenadas alfabeticamente para facilitar a navegação."
+    "As listas de equipamento agora são ordenadas alfabeticamente para facilitar a navegação.",
+    "Espaçamento e tipografia ajustados para uma interface mais equilibrada."
   ],
   "fixes": [
     {
@@ -63,6 +64,10 @@
     {
       "title": "Filmes",
       "description": "Resolvido um problema onde o valor ISO de filmes adicionados pelo usuário não estava sendo salvo corretamente."
+    },
+    {
+      "title": "Animações de pastas",
+      "description": "Corrigidos problemas de animação ao expandir e recolher pastas."
     }
   ],
   "patches": [
@@ -73,6 +78,10 @@
     {
       "version": "1.13.2",
       "description": "Correções de filmes e melhorias de UX"
+    },
+    {
+      "version": "1.13.3",
+      "description": "Melhorias de interface e correções de animações"
     }
   ],
   "meta_title": "Suporte aos Idiomas Hebraico, Árabe, Romeno e Ucraniano · Frames",

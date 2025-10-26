@@ -53,7 +53,8 @@
     "Ajout de la traduction roumaine (Română) pour la communauté de photographes argentiques.",
     "Ajout du support ukrainien (Українська) avec terminologie native.",
     "Amélioration de la précision de la terminologie technique dans les champs spécifiques à la photographie.",
-    "Les listes d'équipement sont désormais triées par ordre alphabétique pour faciliter la navigation."
+    "Les listes d'équipement sont désormais triées par ordre alphabétique pour faciliter la navigation.",
+    "Ajustement des espacements et de la typographie pour une interface mieux équilibrée."
   ],
   "fixes": [
     {
@@ -63,6 +64,10 @@
     {
       "title": "Pellicules",
       "description": "Correction d'un problème où la valeur ISO des pellicules ajoutées manuellement n'était pas enregistrée correctement."
+    },
+    {
+      "title": "Animations des dossiers",
+      "description": "Correction des animations lors du dépliage et repliage des dossiers."
     }
   ],
   "patches": [
@@ -73,6 +78,10 @@
     {
       "version": "1.13.2",
       "description": "Correction des pellicules et améliorations UX"
+    },
+    {
+      "version": "1.13.3",
+      "description": "Améliorations de l'interface et corrections d'animations"
     }
   ],
   "meta_title": "Support linguistique pour l'hébreu, l'arabe, le roumain et l'ukrainien · Frames",

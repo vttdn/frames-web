@@ -53,7 +53,8 @@
     "Adăugată traducere română (Română) pentru comunitatea de fotografie pe film.",
     "Adăugat suport ucraineană (Українська) cu terminologie nativă.",
     "Acuratețe îmbunătățită a terminologiei tehnice în câmpurile specifice fotografiei.",
-    "Listele de echipament sunt acum sortate alfabetic pentru o navigare mai ușoară."
+    "Listele de echipament sunt acum sortate alfabetic pentru o navigare mai ușoară.",
+    "Ajustat spațierea și tipografia pentru o interfață mai echilibrată."
   ],
   "fixes": [
     {
@@ -63,6 +64,10 @@
     {
       "title": "Filme",
       "description": "Rezolvată o problemă unde valoarea ISO pentru filmele adăugate de utilizator nu era salvată corect."
+    },
+    {
+      "title": "Animații dosare",
+      "description": "Corectate problemele de animație la extinderea și restrângerea dosarelor."
     }
   ],
   "patches": [
@@ -73,6 +78,10 @@
     {
       "version": "1.13.2",
       "description": "Corecții pentru filme și îmbunătățiri UX"
+    },
+    {
+      "version": "1.13.3",
+      "description": "Îmbunătățiri de interfață și corecții de animații"
     }
   ],
   "meta_title": "Suport lingvistic ebraică, arabă, română și ucraineană · Frames",

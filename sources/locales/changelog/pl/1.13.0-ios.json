@@ -53,7 +53,8 @@
     "Dodano tłumaczenie rumuńskie (Română) dla społeczności fotografii kliszowej.",
     "Dodano obsługę ukraińskiego (Українська) z natywną terminologią.",
     "Poprawiona dokładność terminologii technicznej w polach specyficznych dla fotografii.",
-    "Listy sprzętu są teraz sortowane alfabetycznie dla łatwiejszego przeglądania."
+    "Listy sprzętu są teraz sortowane alfabetycznie dla łatwiejszego przeglądania.",
+    "Dostosowano odstępy i typografię dla bardziej zrównoważonego interfejsu."
   ],
   "fixes": [
     {
@@ -63,6 +64,10 @@
     {
       "title": "Filmy",
       "description": "Rozwiązano problem, w którym wartość ISO dla filmów dodanych przez użytkownika nie była poprawnie zapisywana."
+    },
+    {
+      "title": "Animacje folderów",
+      "description": "Naprawiono problemy z animacją podczas rozwijania i zwijania folderów."
     }
   ],
   "patches": [
@@ -73,6 +78,10 @@
     {
       "version": "1.13.2",
       "description": "Poprawki filmów i ulepszenia UX"
+    },
+    {
+      "version": "1.13.3",
+      "description": "Ulepszenia interfejsu i poprawki animacji"
     }
   ],
   "meta_title": "Obsługa języków hebrajskiego, arabskiego, rumuńskiego i ukraińskiego · Frames",

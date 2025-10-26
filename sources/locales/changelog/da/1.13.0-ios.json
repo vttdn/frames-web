@@ -53,7 +53,8 @@
     "Tilføjet rumænsk (Română) oversættelse til filmfotografisamfundet.",
     "Tilføjet ukrainsk (Українська) support med indbygget terminologi.",
     "Forbedret teknisk terminologinøjagtighed i fotografispecifikke felter.",
-    "Udstyrslister er nu sorteret alfabetisk for lettere gennemsyn."
+    "Udstyrslister er nu sorteret alfabetisk for lettere gennemsyn.",
+    "Justeret mellemrum og typografi for en mere afbalanceret grænseflade."
   ],
   "fixes": [
     {
@@ -63,6 +64,10 @@
     {
       "title": "Filmtyper",
       "description": "Løst et problem, hvor ISO-værdien for bruger-tilføjede filmtyper ikke blev gemt korrekt."
+    },
+    {
+      "title": "Mappeanimationer",
+      "description": "Rettet animationsproblemer ved udviding og sammenklapning af mapper."
     }
   ],
   "patches": [
@@ -73,6 +78,10 @@
     {
       "version": "1.13.2",
       "description": "Rettelser til filmtyper og UX-forbedringer"
+    },
+    {
+      "version": "1.13.3",
+      "description": "Grænsefladeforbedringer og animationsrettelser"
     }
   ],
   "meta_title": "Hebraisk, arabisk, rumænsk og ukrainsk sprogsupport · Frames",

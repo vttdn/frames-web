@@ -53,7 +53,8 @@
     "Aggiunta traduzione rumeno (Română) per la community fotografia analogica.",
     "Aggiunto supporto ucraino (Українська) con terminologia nativa.",
     "Migliorata precisione terminologia tecnica nei campi specifici della fotografia.",
-    "Gli elenchi delle attrezzature sono ora ordinati alfabeticamente per una navigazione più semplice."
+    "Gli elenchi delle attrezzature sono ora ordinati alfabeticamente per una navigazione più semplice.",
+    "Spaziature e tipografia ottimizzate per un'interfaccia più equilibrata."
   ],
   "fixes": [
     {
@@ -63,6 +64,10 @@
     {
       "title": "Pellicole",
       "description": "Risolto un problema dove il valore ISO per le pellicole aggiunte dall'utente non veniva salvato correttamente."
+    },
+    {
+      "title": "Animazioni cartelle",
+      "description": "Corretti problemi di animazione durante l'espansione e la compressione delle cartelle."
     }
   ],
   "patches": [
@@ -73,6 +78,10 @@
     {
       "version": "1.13.2",
       "description": "Correzioni pellicole e miglioramenti UX"
+    },
+    {
+      "version": "1.13.3",
+      "description": "Miglioramenti interfaccia e correzioni animazioni"
     }
   ],
   "meta_title": "Supporto Lingue Ebraico, Arabo, Rumeno e Ucraino · Frames",

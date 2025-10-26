@@ -53,7 +53,8 @@
     "Ditambahkan terjemahan bahasa Rumania (Română) untuk komunitas fotografi film.",
     "Ditambahkan dukungan bahasa Ukraina (Українська) dengan terminologi native.",
     "Akurasi terminologi teknis yang ditingkatkan dalam bidang khusus fotografi.",
-    "Daftar peralatan sekarang diurutkan berdasarkan abjad untuk memudahkan penelusuran."
+    "Daftar peralatan sekarang diurutkan berdasarkan abjad untuk memudahkan penelusuran.",
+    "Disesuaikan spasi dan tipografi untuk antarmuka yang lebih seimbang."
   ],
   "fixes": [
     {
@@ -63,6 +64,10 @@
     {
       "title": "Stok Film",
       "description": "Menyelesaikan masalah di mana nilai ISO untuk stok film yang ditambahkan pengguna tidak disimpan dengan benar."
+    },
+    {
+      "title": "Animasi Folder",
+      "description": "Memperbaiki masalah animasi saat memperluas dan menciutkan folder."
     }
   ],
   "patches": [
@@ -73,6 +78,10 @@
     {
       "version": "1.13.2",
       "description": "Perbaikan stok film dan peningkatan UX"
+    },
+    {
+      "version": "1.13.3",
+      "description": "Peningkatan antarmuka dan perbaikan animasi"
     }
   ],
   "meta_title": "Dukungan Bahasa Ibrani, Arab, Rumania & Ukraina · Frames",

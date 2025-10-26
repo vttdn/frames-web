@@ -55,7 +55,8 @@
     "Traducción al rumano (Română) añadida para la comunidad de fotografía analógica.",
     "Soporte de ucraniano (Українська) añadido con terminología nativa.",
     "Precisión de terminología técnica mejorada en campos específicos de fotografía.",
-    "Las listas de equipo ahora están ordenadas alfabéticamente para facilitar la navegación."
+    "Las listas de equipo ahora están ordenadas alfabéticamente para facilitar la navegación.",
+    "Espaciado y tipografía ajustados para una interfaz más equilibrada."
   ],
   "fixes": [
     {
@@ -65,6 +66,10 @@
     {
       "title": "Películas",
       "description": "Solucionado un problema donde el valor ISO de películas añadidas por el usuario no se guardaba correctamente."
+    },
+    {
+      "title": "Animaciones de carpetas",
+      "description": "Corregidos problemas de animación al expandir y contraer carpetas."
     }
   ],
   "patches": [
@@ -75,6 +80,10 @@
     {
       "version": "1.13.2",
       "description": "Correcciones de películas y mejoras de UX"
+    },
+    {
+      "version": "1.13.3",
+      "description": "Mejoras de interfaz y correcciones de animaciones"
     }
   ]
 }

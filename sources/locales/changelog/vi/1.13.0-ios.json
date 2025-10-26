@@ -53,7 +53,8 @@
     "Thêm bản dịch tiếng Rumani (Română) cho cộng đồng nhiếp ảnh phim.",
     "Thêm hỗ trợ tiếng Ukraina (Українська) với thuật ngữ bản địa.",
     "Cải thiện độ chính xác thuật ngữ kỹ thuật trong các lĩnh vực cụ thể nhiếp ảnh.",
-    "Danh sách thiết bị giờ đây được sắp xếp theo thứ tự bảng chữ cái để dễ dàng duyệt hơn."
+    "Danh sách thiết bị giờ đây được sắp xếp theo thứ tự bảng chữ cái để dễ dàng duyệt hơn.",
+    "Điều chỉnh khoảng cách và kiểu chữ để có giao diện cân đối hơn."
   ],
   "fixes": [
     {
@@ -63,6 +64,10 @@
     {
       "title": "Loại phim",
       "description": "Giải quyết vấn đề giá trị ISO của loại phim do người dùng thêm không được lưu đúng cách."
+    },
+    {
+      "title": "Hoạt ảnh thư mục",
+      "description": "Khắc phục các vấn đề hoạt ảnh khi mở rộng và thu gọn thư mục."
     }
   ],
   "patches": [
@@ -73,6 +78,10 @@
     {
       "version": "1.13.2",
       "description": "Sửa lỗi loại phim và cải thiện UX"
+    },
+    {
+      "version": "1.13.3",
+      "description": "Cải thiện giao diện và sửa lỗi hoạt ảnh"
     }
   ],
   "meta_title": "Hỗ trợ ngôn ngữ Do Thái, Ả Rập, Rumani & Ukraina · Frames",

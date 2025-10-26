@@ -53,7 +53,8 @@
     "Rumänische (Română) Übersetzung für die Filmfotografie-Community hinzugefügt.",
     "Ukrainische (Українська) Unterstützung mit nativer Terminologie hinzugefügt.",
     "Verbesserte technische Terminologie-Genauigkeit in fotografiespezifischen Feldern.",
-    "Ausrüstungslisten sind nun alphabetisch sortiert für einfacheres Durchsuchen."
+    "Ausrüstungslisten sind nun alphabetisch sortiert für einfacheres Durchsuchen.",
+    "Abstände und Typografie für eine ausgewogenere Benutzeroberfläche angepasst."
   ],
   "fixes": [
     {
@@ -63,6 +64,10 @@
     {
       "title": "Filmtypen",
       "description": "Problem behoben, bei dem der ISO-Wert für benutzerdefinierte Filmtypen nicht korrekt gespeichert wurde."
+    },
+    {
+      "title": "Ordner-Animationen",
+      "description": "Animationsprobleme beim Auf- und Zuklappen von Ordnern behoben."
     }
   ],
   "patches": [
@@ -73,6 +78,10 @@
     {
       "version": "1.13.2",
       "description": "Fehlerbehebungen für Filmtypen und UX-Verbesserungen"
+    },
+    {
+      "version": "1.13.3",
+      "description": "Interface-Verbesserungen und Animationskorrekturen"
     }
   ],
   "meta_title": "Hebräisch, Arabisch, Rumänisch & Ukrainisch Sprachunterstützung · Frames",

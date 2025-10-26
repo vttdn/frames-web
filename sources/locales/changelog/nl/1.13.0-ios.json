@@ -53,7 +53,8 @@
     "Roemeense (Română) vertaling toegevoegd voor de filmfotografie-gemeenschap.",
     "Oekraïense (Українська) ondersteuning met eigen terminologie toegevoegd.",
     "Verbeterde nauwkeurigheid van technische terminologie in fotografiespecifieke velden.",
-    "Apparatuurlijsten zijn nu alfabetisch gesorteerd voor eenvoudiger bladeren."
+    "Apparatuurlijsten zijn nu alfabetisch gesorteerd voor eenvoudiger bladeren.",
+    "Spacing en typografie aangepast voor een evenwichtiger interface."
   ],
   "fixes": [
     {
@@ -63,6 +64,10 @@
     {
       "title": "Filmsoorten",
       "description": "Probleem opgelost waarbij de ISO-waarde voor door gebruikers toegevoegde filmsoorten niet correct werd opgeslagen."
+    },
+    {
+      "title": "Map-animaties",
+      "description": "Animatieproblemen bij het uitklappen en inklappen van mappen opgelost."
     }
   ],
   "patches": [
@@ -73,6 +78,10 @@
     {
       "version": "1.13.2",
       "description": "Herstel van filmsoorten en UX-verbeteringen"
+    },
+    {
+      "version": "1.13.3",
+      "description": "Interface-verbeteringen en animatiecorrecties"
     }
   ],
   "meta_title": "Hebreeuws, Arabisch, Roemeens en Oekraïens taalondersteuning · Frames",

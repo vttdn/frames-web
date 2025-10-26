@@ -53,7 +53,8 @@
     "Film fotoğrafçılığı topluluğu için Rumence (Română) çevirisi eklendi.",
     "Doğal terminoloji ile Ukraynaca (Українська) desteği eklendi.",
     "Fotoğrafçılığa özgü alanlarda iyileştirilmiş teknik terminoloji doğruluğu.",
-    "Ekipman listeleri daha kolay gezinme için artık alfabetik olarak sıralandı."
+    "Ekipman listeleri daha kolay gezinme için artık alfabetik olarak sıralandı.",
+    "Daha dengeli bir arayüz için boşluk ve tipografi ayarlandı."
   ],
   "fixes": [
     {
@@ -63,6 +64,10 @@
     {
       "title": "Filmler",
       "description": "Kullanıcı tarafından eklenen filmlerin ISO değerinin doğru şekilde kaydedilmediği bir sorun çözüldü."
+    },
+    {
+      "title": "Klasör animasyonları",
+      "description": "Klasörleri genişletme ve daraltma sırasındaki animasyon sorunları düzeltildi."
     }
   ],
   "patches": [
@@ -73,6 +78,10 @@
     {
       "version": "1.13.2",
       "description": "Film düzeltmeleri ve UX iyileştirmeleri"
+    },
+    {
+      "version": "1.13.3",
+      "description": "Arayüz iyileştirmeleri ve animasyon düzeltmeleri"
     }
   ],
   "meta_title": "İbranice, Arapça, Rumence ve Ukraynaca Dil Desteği · Frames",

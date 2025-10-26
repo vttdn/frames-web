@@ -53,7 +53,8 @@
     "Added Romanian (Română) translation for the film photography community.",
     "Added Ukrainian (Українська) support with native terminology.",
     "Improved technical terminology accuracy in photography-specific fields.",
-    "Gear lists are now sorted alphabetically for easier browsing."
+    "Gear lists are now sorted alphabetically for easier browsing.",
+    "Adjusted spacing and typography for a more balanced interface."
   ],
   "fixes": [
     {
@@ -62,7 +63,11 @@
     },
     {
       "title": "Film Stocks",
-      "description": "Resolved an issue where the ISO value for user-added film stocks wasn’t being saved correctly."
+      "description": "Resolved an issue where the ISO value for user-added film stocks wasn't being saved correctly."
+    },
+    {
+      "title": "Folder Animations",
+      "description": "Fixed animation issues when expanding or collapsing folders."
     }
   ],
   "patches": [
@@ -73,6 +78,10 @@
     {
       "version": "1.13.2",
       "description": "Film stocks fixes and UX improvements"
+    },
+    {
+      "version": "1.13.3",
+      "description": "UI improvements and animation fixes"
     }
   ],
   "meta_title": "Hebrew, Arabic, Romanian & Ukrainian Language Support · Frames",
