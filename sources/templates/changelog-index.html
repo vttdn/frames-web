@@ -13,6 +13,7 @@
     {% for link in hreflang_links %}
     <link rel="alternate" hreflang="{{ link.hreflang }}" href="{{ link.href }}">
     {% endfor %}
+    <link rel="alternate" type="application/rss+xml" title="{{ locale_data.changelog.meta.title }}" href="/lib/rss/{{ lang }}/feed.xml">
 
     <!-- Open Graph -->
     <meta property="og:type" content="website" />

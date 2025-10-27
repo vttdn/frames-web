@@ -949,6 +949,9 @@ def build_changelog_pages(global_config):
             # Generate sitemap
             generate_changelog_sitemap(entries, lang_code)
 
+            # Generate RSS feed
+            generate_rss_feed(entries, lang_code, locale_data)
+
             # Generate JavaScript
             javascript = generate_javascript_file('js/changelog.js', lang_code, locale_data, global_config)
             save_javascript(javascript, lang_code, 'changelog')
@@ -1020,6 +1023,67 @@ def generate_sitemap(languages, sitemap_type):
 
     print(f"✓ Generated: sitemap-{sitemap_type}.xml")
     return sitemap_path
+
+
+def generate_rss_feed(entries, lang_code, locale_data):
+    """Generate RSS feed for changelog"""
+    from email.utils import formatdate
+    from xml.sax.saxutils import escape
+
+    base_url = "https://withframes.com"
+
+    # Build canonical URL for changelog
+    if lang_code == 'en':
+        canonical_url = f"{base_url}/changelog/"
+        feed_url = f"{base_url}/lib/rss/en/feed.xml"
+    else:
+        canonical_url = f"{base_url}/{lang_code}/changelog/"
+        feed_url = f"{base_url}/lib/rss/{lang_code}/feed.xml"
+
+    # Format entries for RSS
+    rss_entries = []
+    for entry in entries:
+        # Convert ISO date to RFC 822 format for RSS
+        release_date = datetime.fromisoformat(entry['release_date'].replace('Z', '+00:00'))
+        pub_date = formatdate(release_date.timestamp(), usegmt=True)
+
+        # Build entry canonical URL
+        if lang_code == 'en':
+            entry_url = f"{base_url}/changelog/{entry['url_slug']}/"
+        else:
+            entry_url = f"{base_url}/{lang_code}/changelog/{entry['url_slug']}/"
+
+        rss_entries.append({
+            'title': escape(entry['title']),
+            'summary': escape(entry['summary']),
+            'canonical_url': entry_url,
+            'pub_date': pub_date
+        })
+
+    # Get current build date in RFC 822 format
+    build_date = formatdate(datetime.now().timestamp(), usegmt=True)
+
+    # Render RSS template
+    context = {
+        'lang': lang_code,
+        'locale_data': locale_data,
+        'canonical_url': canonical_url,
+        'feed_url': feed_url,
+        'build_date': build_date,
+        'entries': rss_entries
+    }
+
+    rss_content = render_template('rss/feed.xml', context, autoescape_enabled=False)
+
+    # Save RSS feed
+    rss_dir = PROJECT_ROOT / "lib" / "rss" / lang_code
+    rss_dir.mkdir(parents=True, exist_ok=True)
+
+    rss_path = rss_dir / "feed.xml"
+    with open(rss_path, 'w', encoding='utf-8') as f:
+        f.write(rss_content)
+
+    print(f"✓ Generated RSS feed: {rss_path.relative_to(OUTPUT_DIR)}")
 
 
 def generate_changelog_sitemap(entries, lang_code='en'):
