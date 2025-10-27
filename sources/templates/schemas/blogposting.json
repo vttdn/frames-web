@@ -3,6 +3,10 @@
   "@type": "BlogPosting",
   "@id": "{{ canonical_url }}",
   "url": "{{ canonical_url }}",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "{{ canonical_url }}"
+  },
   "headline": "{{ entry.title }}",
   "description": "{% if entry.meta_description %}{{ entry.meta_description }}{% else %}{{ entry.summary }}{% endif %}",
   "datePublished": "{{ entry.release_date }}",
