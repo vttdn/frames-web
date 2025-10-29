@@ -1,0 +1,93 @@
+{
+  "version": "1.14.0",
+  "version_short": "1.14",
+  "url_slug": "1-14-ios",
+  "platform": "ios",
+  "release_date": "2025-10-30T10:00:00.000Z",
+  "title": "Hiottu käyttöliittymä Applen uudella Liquid Glass Designilla",
+  "summary": "Frames omaksuu Applen modernin suunnittelukielen täydellisellä käyttöliittymän uudistuksella, joka on saanut inspiraationsa Liquid Glass Design -estetiikasta. Täysin uudelleensuunnitellusta tallennustyökalupalkista hiotttuihin luetteloihin ja säätimiin koko sovelluksessa – jokainen vuorovaikutus muuttuu sujuvammaksi, johdonmukaisemmaksi ja intuitiivisemmaksi.",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Moderni, sujuva käyttöliittymä"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tämä päivitys tuo Applen Liquid Glass Designin Framesiin, muuttaen sovelluksen visuaalisen identiteetin hienovaraisilla animaatioilla, hioiduilla väleillä ja nykyaikaisemmalla estetiikalla. Työkalupalkit ja luettelot koko sovelluksessa esittelevät nyt modernin iOS-suunnittelun tunnusomaisen sujuvan ja harmonisen tunnelman, tarjoten yhtenäisemmän ja harkitumman kokemuksen, joka sulautuu täydellisesti laitteeseesi."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.14.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.14.0-1@2x.png",
+      "alt": "Frames-filminvalokuvaussovellus Applen uudella Liquid Design -käyttöliittymällä ja uudelleensuunnitellulla tallennustyökalupalkilla",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Uudelleensuunniteltu tallennustyökalupalkki"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tämän päivityksen sydän on täysin uudelleensuunniteltu tallennustyökalupalkki. Se, mikä aikaisemmin oli yksinkertaisesti toiminnallinen, muuttuu nyt elegantiksi ja huomattavasti käytännöllisemmäksi. Olennaiset säätimet kuten kuvannumero, aukko, suljinnopeus, valotuskorjaus ja salama sisältävät nyt suuremmat, kosketusmukavammat painikkeet, jotka on helpompi lukea yhdellä silmäyksellä."
+    },
+    {
+      "type": "paragraph",
+      "content": "Kun kosketat asetusta, työkalupalki muuntuu elegantisti vieritysvalitsimeksi sujuvilla ja täsmällisillä animaatioilla, jotka siirtyvät luonnollisesti. Vuorovaikutus pysyy tuttuna, mutta nyt modernilla viimeistelyllä, joka tekee kuviesi tallentamisesta yksinkertaista ja miellyttävää. Lisäasetukset pysyvät helposti saatavilla lisää-painikkeen kautta, pitäen käyttöliittymän siistinä samalla kun varmistaa, että kaikki työkalut ovat ulottuvilla."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.14.0-2.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.14.0-2@2x.png",
+      "alt": "Frames-filminvalokuvaussovellus Applen uudella Liquid Design -käyttöliittymällä ja uudelleensuunnitellulla tallennustyökalupalkilla",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "list",
+      "items": [
+        {
+          "title": "Uudelleensuunnitellut säätimet",
+          "description": "Suuremmat, luettavammat painikkeet kuvannumerolle, aukolle, suljinopeudelle, valotuskorjaukselle ja salamalle."
+        },
+        {
+          "title": "Sujuva muunnoksen animaatio",
+          "description": "Pehmeät, hienovaraiset siirtymät, kun palkki muuntuu vieritysvalitsimiksi tarkkaa arvojen valintaa varten."
+        },
+        {
+          "title": "Parannettu luettavuus",
+          "description": "Parannettu typografia ja välit helpottavat arvojen lukemista kuvattaessa kentällä."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Kirjaston haku"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tiettyjen kelien löytäminen on nyt nopeampaa ja intuitiivisempaa uuden hakukentän ansiosta kirjastossa. Saatavilla suoraan sovelluksen ensimmäiseltä ruudulta, voit nopeasti paikantaa minkä tahansa kelan nimen perusteella, mikä helpottaa suurten kokoelmien selaamista tai tietyn etsimäsi kelan löytämistä."
+    }
+  ],
+  "improvements": [
+    "Uudelleensuunniteltu käyttöliittymä Applen Liquid Glass Designilla kaikissa työkalupalkeissa ja luetteloissa.",
+    "Täysin uudelleensuunniteltu tallennustyökalupalkki suuremmilla, helpommin saavutettavilla säätimillä.",
+    "Sujuvat muunnoksen animaatiot siirryttäessä vieritysvalitsimiin.",
+    "Parannettu painikkeiden luettavuus optimoidulla typografialla ja visuaalisella hierarkialla.",
+    "Lisätty hakukenttä kirjastoon kelojesi nopeaa löytämistä varten.",
+    "Hiotut fonttikoot koko sovelluksessa parempaa johdonmukaisuutta ja luettavuutta varten.",
+    "Hiotut animaatiot ja siirtymät hienostuneemman, modernimman tunnelman luomiseksi."
+  ],
+  "fixes": [
+    {
+      "title": "iOS 18 vieritysvalitsimen synkronointi",
+      "description": "Korjattu synkronointiongelmia iOS 18:ssa, joissa vieritysvalitsimen arvot (aukko, suljinnopeus, kuvannumero, valotuskorjaus) näyttivät vääriä sijainteja asetusten muuttamisen jälkeen yksityiskohtaisen näkymän kautta."
+    }
+  ],
+  "patches": [],
+  "meta_title": "Käyttöliittymä Applen Liquid Designilla · Frames",
+  "meta_description": "Frames omaksuu Applen modernin suunnittelukielen täydellisellä käyttöliittymän uudistuksella, joka on saanut inspiraationsa Liquid Glass Design -estetiikasta. Täysin uudelleensuunnitellusta tallennustyökalupalkista..."
+}

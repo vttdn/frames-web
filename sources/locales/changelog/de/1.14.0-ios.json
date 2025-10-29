@@ -1,0 +1,93 @@
+{
+  "version": "1.14.0",
+  "version_short": "1.14",
+  "url_slug": "1-14-ios",
+  "platform": "ios",
+  "release_date": "2025-10-30T10:00:00.000Z",
+  "title": "Modernisierte Oberfläche mit Apples neuem Liquid Glass Design",
+  "summary": "Frames übernimmt Apples moderne Designsprache mit einer umfassenden Neugestaltung der Oberfläche, inspiriert von der Liquid Glass Ästhetik. Von der komplett überarbeiteten Aufnahmeleiste bis zu verfeinerten Listen und Bedienelementen in der gesamten App wird jede Interaktion flüssiger, konsistenter und intuitiver.",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Eine moderne, fließende Oberfläche"
+    },
+    {
+      "type": "paragraph",
+      "content": "Dieses Update bringt Apples Liquid Glass Design zu Frames und verwandelt die visuelle Identität der App mit subtilen Animationen, verfeinerten Abständen und einer zeitgemäßeren Ästhetik. Symbolleisten und Listen in der gesamten App zeigen nun den charakteristisch geschmeidigen und harmonischen Charakter des modernen iOS-Designs und bieten ein stimmigeres und durchdachteres Erlebnis, das sich nahtlos in dein Gerät einfügt."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.14.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.14.0-1@2x.png",
+      "alt": "Frames Analogfotografie-App mit neuer Apple Liquid Design Oberfläche und neu gestalteter Aufnahmeleiste",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Neu gestaltete Aufnahmeleiste"
+    },
+    {
+      "type": "paragraph",
+      "content": "Das Herzstück dieses Updates ist die komplett überarbeitete Aufnahmeleiste. Was früher einfach funktional war, wird nun elegant und deutlich praktischer. Wichtige Bedienelemente wie Bildnummer, Blende, Verschlusszeit, Belichtungskorrektur und Blitz verfügen jetzt über größere, besser bedienbare Schaltflächen, die auf einen Blick leichter abzulesen sind."
+    },
+    {
+      "type": "paragraph",
+      "content": "Wenn du eine Einstellung antippst, verwandelt sich die Symbolleiste elegant in eine Auswahlrolle mit flüssigen und präzisen Animationen, die natürlich wirken. Die Interaktion bleibt vertraut, erhält aber einen modernen Schliff, der das Dokumentieren deiner Aufnahmen einfach und angenehm macht. Zusätzliche Einstellungen bleiben über die Mehr-Schaltfläche leicht erreichbar, sodass die Oberfläche aufgeräumt bleibt und gleichzeitig alle Werkzeuge griffbereit sind."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.14.0-2.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.14.0-2@2x.png",
+      "alt": "Frames Analogfotografie-App mit neuer Apple Liquid Design Oberfläche und neu gestalteter Aufnahmeleiste",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "list",
+      "items": [
+        {
+          "title": "Neu gestaltete Bedienelemente",
+          "description": "Größere, besser lesbare Schaltflächen für Bildnummer, Blende, Verschlusszeit, Belichtungskorrektur und Blitz."
+        },
+        {
+          "title": "Fließende Transformationsanimation",
+          "description": "Sanfte, subtile Übergänge, während sich die Leiste in Auswahlrollen für präzise Wertauswahl verwandelt."
+        },
+        {
+          "title": "Verbesserte Lesbarkeit",
+          "description": "Optimierte Typografie und Abstände erleichtern das Ablesen der Werte beim Fotografieren im Freien."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Suche in der Bibliothek"
+    },
+    {
+      "type": "paragraph",
+      "content": "Das Finden bestimmter Filme ist jetzt schneller und intuitiver dank des neuen Suchfelds in der Bibliothek. Direkt vom ersten Bildschirm der App aus kannst du jeden Film schnell nach Namen finden, was die Navigation in großen Sammlungen oder die Suche nach einem bestimmten Film erleichtert."
+    }
+  ],
+  "improvements": [
+    "Neu gestaltete Oberfläche mit Apples Liquid Glass Design in allen Symbolleisten und Listen.",
+    "Komplett überarbeitete Aufnahmeleiste mit größeren, besser zugänglichen Bedienelementen.",
+    "Fließende Transformationsanimationen beim Wechsel zu Auswahlrollen.",
+    "Verbesserte Lesbarkeit der Schaltflächen mit optimierter Typografie und visueller Hierarchie.",
+    "Suchfeld zur Bibliothek hinzugefügt, um deine Filme schnell zu finden.",
+    "Verfeinerte Schriftgrößen in der gesamten App für bessere Konsistenz und Lesbarkeit.",
+    "Geschliffene Animationen und Übergänge für ein raffinierteres, moderneres Gefühl."
+  ],
+  "fixes": [
+    {
+      "title": "iOS 18 Auswahlrollen-Synchronisation",
+      "description": "Behebung von Synchronisationsproblemen unter iOS 18, bei denen Auswahlrollenwerte (Blende, Verschlusszeit, Bildnummer, Belichtungskorrektur) nach Änderung der Einstellungen über die Detailansicht falsche Positionen anzeigten."
+    }
+  ],
+  "patches": [],
+  "meta_title": "Oberfläche mit Apples Liquid Glass Design · Frames",
+  "meta_description": "Frames übernimmt Apples moderne Designsprache mit einer umfassenden Neugestaltung der Oberfläche, inspiriert von der Liquid Glass Ästhetik. Von der komplett überarbeiteten Aufnahmeleiste..."
+}

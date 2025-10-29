@@ -1,0 +1,93 @@
+{
+  "version": "1.14.0",
+  "version_short": "1.14",
+  "url_slug": "1-14-ios",
+  "platform": "ios",
+  "release_date": "2025-10-30T10:00:00.000Z",
+  "title": "Interfaccia rinnovata con il nuovo Liquid Glass Design di Apple",
+  "summary": "Frames adotta il nuovo linguaggio di design di Apple con una rinnovazione completa dell'interfaccia ispirata all'estetica Liquid Glass Design. Dalla barra di registrazione completamente ridisegnata alle liste e controlli raffinati in tutta l'app, ogni interazione diventa più fluida, coerente e intuitiva.",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Un'interfaccia moderna e fluida"
+    },
+    {
+      "type": "paragraph",
+      "content": "Questo aggiornamento porta il Liquid Glass Design di Apple a Frames, trasformando l'identità visiva dell'app con animazioni sottili, spaziature raffinate e un'estetica più contemporanea. Le barre degli strumenti e le liste in tutta l'app ora presentano la caratteristica sensazione fluida e armoniosa del design iOS moderno, offrendo un'esperienza più coesa e curata che si integra perfettamente con il tuo dispositivo."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.14.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.14.0-1@2x.png",
+      "alt": "App di fotografia analogica Frames con la nuova interfaccia Liquid Design di Apple e barra di registrazione ridisegnata",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Barra di registrazione ridisegnata"
+    },
+    {
+      "type": "paragraph",
+      "content": "Il cuore di questo aggiornamento è la barra di registrazione completamente ridisegnata. Ciò che prima era semplicemente funzionale ora diventa elegante e notevolmente più pratico. I controlli essenziali come numero fotogramma, apertura, tempo di posa, compensazione dell'esposizione e flash ora presentano pulsanti più grandi e tattili, più facili da leggere a colpo d'occhio."
+    },
+    {
+      "type": "paragraph",
+      "content": "Quando tocchi un'impostazione, la barra degli strumenti si trasforma elegantemente in un selettore con animazioni fluide e precise che transizionano naturalmente. L'interazione rimane familiare, ma ora con una finitura moderna che rende la registrazione dei tuoi scatti semplice e piacevole. Le impostazioni aggiuntive rimangono facilmente accessibili tramite il pulsante altro, mantenendo l'interfaccia pulita garantendo che tutti gli strumenti siano a portata di mano."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.14.0-2.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.14.0-2@2x.png",
+      "alt": "App di fotografia analogica Frames con la nuova interfaccia Liquid Design di Apple e barra di registrazione ridisegnata",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "list",
+      "items": [
+        {
+          "title": "Controlli ridisegnati",
+          "description": "Pulsanti più grandi e leggibili per numero fotogramma, apertura, tempo di posa, compensazione dell'esposizione e flash."
+        },
+        {
+          "title": "Animazione di trasformazione fluida",
+          "description": "Transizioni morbide e sottili mentre la barra si trasforma in selettori per una selezione precisa dei valori."
+        },
+        {
+          "title": "Leggibilità migliorata",
+          "description": "Tipografia e spaziatura migliorate per facilitare la lettura dei valori durante le riprese sul campo."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Ricerca nella libreria"
+    },
+    {
+      "type": "paragraph",
+      "content": "Trovare rullini specifici è ora più veloce e intuitivo grazie al nuovo campo di ricerca nella libreria. Disponibile dalla prima schermata dell'app, puoi localizzare rapidamente qualsiasi rullino per nome, facilitando la navigazione in grandi collezioni o la ricerca di quel rullino specifico che stai cercando."
+    }
+  ],
+  "improvements": [
+    "Interfaccia ridisegnata con il Liquid Glass Design di Apple in tutte le barre degli strumenti e liste.",
+    "Barra di registrazione completamente ridisegnata con controlli più grandi e accessibili.",
+    "Animazioni di trasformazione fluide durante la transizione ai selettori.",
+    "Leggibilità dei pulsanti migliorata con tipografia e gerarchia visiva ottimizzate.",
+    "Campo di ricerca aggiunto alla libreria per trovare rapidamente i tuoi rullini.",
+    "Dimensioni dei caratteri raffinate in tutta l'app per migliore coerenza e leggibilità.",
+    "Animazioni e transizioni raffinate per una sensazione più curata e moderna."
+  ],
+  "fixes": [
+    {
+      "title": "Sincronizzazione selettori iOS 18",
+      "description": "Risolti problemi di sincronizzazione su iOS 18 dove i valori dei selettori (apertura, tempo di posa, numero fotogramma, compensazione dell'esposizione) mostravano posizioni errate dopo aver modificato le impostazioni tramite la vista dettagliata."
+    }
+  ],
+  "patches": [],
+  "meta_title": "Interfaccia con Liquid Design di Apple · Frames",
+  "meta_description": "Frames adotta il nuovo linguaggio di design di Apple con una rinnovazione completa dell'interfaccia ispirata all'estetica Liquid Glass Design. Dalla barra di registrazione completamente ridisegnata..."
+}

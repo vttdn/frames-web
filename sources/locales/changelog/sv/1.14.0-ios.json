@@ -1,0 +1,93 @@
+{
+  "version": "1.14.0",
+  "version_short": "1.14",
+  "url_slug": "1-14-ios",
+  "platform": "ios",
+  "release_date": "2025-10-30T10:00:00.000Z",
+  "title": "Förfinat gränssnitt med Apples nya Liquid Glass Design",
+  "summary": "Frames anammar Apples moderna designspråk med en omfattande gränssnittsförnyelse inspirerad av Liquid Glass Design-estetiken. Från en helt omdesignad inspelningsverktygsfält till förfinade listor och kontroller i hela appen, blir varje interaktion mer flytande, sammanhängande och intuitiv.",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Ett modernt, flytande gränssnitt"
+    },
+    {
+      "type": "paragraph",
+      "content": "Denna uppdatering tar Apples Liquid Glass Design till Frames och förvandlar appens visuella identitet med subtila animationer, förfinade avstånd och en mer modern estetik. Verktygsfält och listor genom hela appen visar nu den karaktäristiska smidiga och harmoniska känslan av modern iOS-design, vilket skapar en mer sammanhängande och genomtänkt upplevelse som integreras perfekt med din enhet."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.14.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.14.0-1@2x.png",
+      "alt": "Frames filmfotografi-app med nytt Apple Liquid Design-gränssnitt och omdesignat inspelningsverktygsfält",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Omdesignat inspelningsverktygsfält"
+    },
+    {
+      "type": "paragraph",
+      "content": "Hjärtat i denna uppdatering är det helt omdesignade inspelningsverktygsfältet. Det som tidigare var enkelt funktionellt blir nu elegant och märkbart mer praktiskt. Väsentliga kontroller som bildnummer, bländare, slutartid, exponeringskompensation och blixt har nu större, mer beröringsvänliga knappar som är lättare att läsa av med en blick."
+    },
+    {
+      "type": "paragraph",
+      "content": "När du trycker på en inställning förvandlas verktygsfältet elegant till en rullväljare med flytande och precisa animationer som övergår naturligt. Interaktionen förblir bekant, men nu med en modern finish som gör registreringen av dina bilder enkel och trevlig. Ytterligare inställningar förblir lättillgängliga via mer-knappen, vilket håller gränssnittet rent samtidigt som det säkerställer att alla verktyg är inom räckhåll."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.14.0-2.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.14.0-2@2x.png",
+      "alt": "Frames filmfotografi-app med nytt Apple Liquid Design-gränssnitt och omdesignat inspelningsverktygsfält",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "list",
+      "items": [
+        {
+          "title": "Omdesignade kontroller",
+          "description": "Större, mer läsbara knappar för bildnummer, bländare, slutartid, exponeringskompensation och blixt."
+        },
+        {
+          "title": "Flytande transformeringsanimation",
+          "description": "Smidiga, subtila övergångar när fältet förvandlas till rullväljare för precis värdeväljning."
+        },
+        {
+          "title": "Förbättrad läsbarhet",
+          "description": "Förbättrad typografi och avstånd gör värden lättare att läsa under fotografering i fält."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Bibliotekssökning"
+    },
+    {
+      "type": "paragraph",
+      "content": "Att hitta specifika rullar är nu snabbare och mer intuitivt tack vare det nya sökfältet i biblioteket. Tillgängligt direkt från appens första skärm kan du snabbt hitta vilken rulle som helst efter namn, vilket gör det enkelt att navigera i stora samlingar eller hitta just den rulle du letar efter."
+    }
+  ],
+  "improvements": [
+    "Omdesignat gränssnitt med Apples Liquid Glass Design i alla verktygsfält och listor.",
+    "Helt omdesignat inspelningsverktygsfält med större, mer tillgängliga kontroller.",
+    "Flytande transformeringsanimationer vid övergång till rullväljare.",
+    "Förbättrad knappläsbarhet med optimerad typografi och visuell hierarki.",
+    "Sökfält tillagt i biblioteket för att snabbt hitta dina rullar.",
+    "Förfinade typsnittsstorlekar genom hela appen för bättre konsekvens och läsbarhet.",
+    "Polerade animationer och övergångar för en mer förfinad, modern känsla."
+  ],
+  "fixes": [
+    {
+      "title": "iOS 18 rullväljare synkronisering",
+      "description": "Löst synkroniseringsproblem på iOS 18 där rullväljarvärden (bländare, slutartid, bildnummer, exponeringskompensation) visade felaktiga positioner efter ändring av inställningar via den detaljerade vyn."
+    }
+  ],
+  "patches": [],
+  "meta_title": "Gränssnitt med Apples Liquid Design · Frames",
+  "meta_description": "Frames anammar Apples moderna designspråk med en omfattande gränssnittsförnyelse inspirerad av Liquid Glass Design-estetiken. Från en helt omdesignad inspelningsverktygsfält..."
+}

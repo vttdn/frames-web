@@ -1,0 +1,93 @@
+{
+  "version": "1.14.0",
+  "version_short": "1.14",
+  "url_slug": "1-14-ios",
+  "platform": "ios",
+  "release_date": "2025-10-30T10:00:00.000Z",
+  "title": "Interface modernisée selon le nouveau design Liquid Glass d’Apple",
+  "summary": "Frames adopte le nouveau langage de design d’Apple avec une refonte complète de son interface inspirée de l’esthétique Liquid Glass. De la barre d’enregistrement entièrement repensée aux listes et contrôles affinés dans toute l’application, chaque interaction devient plus fluide, cohérente et intuitive.",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Une interface moderne et fluide"
+    },
+    {
+      "type": "paragraph",
+      "content": "Cette mise à jour applique le design Liquid Glass d'Apple à Frames, transformant l'identité visuelle de l'application avec des animations subtiles, des espacements affinés et une esthétique plus contemporaine. Les barres d'outils et listes dans toute l'application adoptent désormais le caractère fluide et harmonieux du design iOS moderne, offrant une expérience plus cohérente et soignée qui s'intègre parfaitement à votre appareil."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.14.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.14.0-1@2x.png",
+      "alt": "Application de photographie argentique Frames avec la nouvelle interface Liquid Design d'Apple et la barre d'enregistrement redessinée",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Barre d'enregistrement redessinée"
+    },
+    {
+      "type": "paragraph",
+      "content": "Le cœur de cette mise à jour est la barre d'enregistrement entièrement repensée. Ce qui était simplement fonctionnel devient désormais à la fois élégant et remarquablement plus pratique. Les contrôles essentiels comme le numéro de vue, l'ouverture, la vitesse d'obturation, la correction d'exposition et le flash bénéficient désormais de boutons plus grands et tactiles, plus faciles à lire d'un coup d'œil."
+    },
+    {
+      "type": "paragraph",
+      "content": "Lorsque vous touchez un réglage, la barre d'outils se transforme élégamment en sélecteur avec des animations fluides et précises qui transitionnent naturellement. L’interaction reste familière, tout en gagnant une finition moderne qui rend l'enregistrement de vos prises de vue simple et agréable. Les réglages supplémentaires restent facilement accessibles via le bouton plus, gardant l'interface épurée tout en assurant que tous les outils sont à portée de main."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.14.0-2.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.14.0-2@2x.png",
+      "alt": "Application de photographie argentique Frames avec la nouvelle interface Liquid Design d'Apple et la barre d'enregistrement redessinée",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "list",
+      "items": [
+        {
+          "title": "Contrôles redessinés",
+          "description": "Boutons plus grands et lisibles pour le numéro de vue, l'ouverture, la vitesse d'obturation, la correction d'exposition et le flash."
+        },
+        {
+          "title": "Animation de transformation fluide",
+          "description": "Transitions douces et subtiles lorsque la barre se transforme en sélecteurs pour une sélection précise des valeurs."
+        },
+        {
+          "title": "Lisibilité améliorée",
+          "description": "Typographie et espacement améliorés pour faciliter la lecture des valeurs lors de vos prises de vue sur le terrain."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Recherche dans la bibliothèque"
+    },
+    {
+      "type": "paragraph",
+      "content": "Trouver des pellicules spécifiques est désormais plus rapide et intuitif grâce au nouveau champ de recherche dans la bibliothèque. Disponible dès le premier écran de l'application, vous pouvez rapidement localiser n'importe quelle pellicule par son nom, facilitant la navigation dans les grandes collections ou la recherche d'une pellicule précise."
+    }
+  ],
+  "improvements": [
+    "Interface redessinée avec le liquid glass design d'Apple dans toutes les barres d'outils et listes.",
+    "Barre d'enregistrement entièrement repensée avec des contrôles plus grands et accessibles.",
+    "Animations de transformation fluides lors de la transition vers les sélecteurs.",
+    "Lisibilité des boutons améliorée avec une typographie et une hiérarchie visuelle optimisées.",
+    "Ajout d'un champ de recherche dans la bibliothèque pour trouver rapidement vos pellicules.",
+    "Tailles de police affinées dans toute l'application pour une meilleure cohérence et lisibilité.",
+    "Animations et transitions peaufinées pour une sensation plus raffinée et moderne."
+  ],
+  "fixes": [
+    {
+      "title": "Synchronisation des sélecteurs iOS 18",
+      "description": "Résolution des problèmes de synchronisation sur iOS 18 où les valeurs des sélecteurs (ouverture, vitesse d'obturation, numéro de vue, correction d'exposition) affichaient des positions incorrectes après modification des réglages via la vue détaillée."
+    }
+  ],
+  "patches": [],
+  "meta_title": "Interface Liquid Design d'Apple · Frames",
+  "meta_description": "Frames adopte le langage de design moderne d'Apple avec une refonte complète de l'interface intégrant la nouvelle esthétique liquid glass design. D'une barre d'enregistrement entièrement repensée..."
+}

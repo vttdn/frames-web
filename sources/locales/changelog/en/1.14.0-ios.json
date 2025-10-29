@@ -1,0 +1,93 @@
+{
+  "version": "1.14.0",
+  "version_short": "1.14",
+  "url_slug": "1-14-ios",
+  "platform": "ios",
+  "release_date": "2025-10-30T10:00:00.000Z",
+  "title": "Refined Interface with Apple’s New Liquid Glass Design",
+  "summary": "Frames embraces Apple's modern design language with a comprehensive interface redesign featuring the new liquid glass design aesthetic. From a completely reimagined recorder toolbar to refined lists and controls throughout the app, every interaction now feels more fluid, polished, and purposeful.",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "A Modern, Fluid Interface"
+    },
+    {
+      "type": "paragraph",
+      "content": "This update brings Apple's liquid glass design language to Frames, transforming the app's visual identity with subtle animations, refined spacing, and a more contemporary aesthetic. Toolbars and lists throughout the app now feature the characteristic smooth, flowing feel of modern iOS design, creating a more cohesive and polished experience that feels right at home on your device."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.14.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.14.0-1@2x.png",
+      "alt": "Frames film photography app with new Apple Liquid Design interface and redesigned recorder toolbar",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Redesigned Recorder Toolbar"
+    },
+    {
+      "type": "paragraph",
+      "content": "The heart of this update is the completely reimagined recorder toolbar. What was once functional is now both beautiful and remarkably more convenient. Essential controls like frame number, aperture, shutter speed, exposure compensation, and flash now feature larger, more touchable buttons that are easier to read at a glance."
+    },
+    {
+      "type": "paragraph",
+      "content": "When you tap a setting, the toolbar elegantly morphs into a scroll picker with fluid animations that feel natural and refined. The interaction remains familiar but now with a modern polish that makes documenting your shots feel effortless and enjoyable. Additional settings remain easily accessible through the more button, keeping the interface clean while ensuring all tools are within reach."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.14.0-2.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.14.0-2@2x.png",
+      "alt": "Frames film photography app with new Apple Liquid Design interface and redesigned recorder toolbar",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "list",
+      "items": [
+        {
+          "title": "Redesigned Controls",
+          "description": "Larger, more legible buttons for frame number, aperture, shutter speed, exposure compensation, and flash settings."
+        },
+        {
+          "title": "Fluid Morphing Animation",
+          "description": "Smooth, subtle transitions as the toolbar transforms into scroll pickers for precise value selection."
+        },
+        {
+          "title": "Enhanced Readability",
+          "description": "Improved typography and spacing make values easier to read while shooting in the field."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Library Search"
+    },
+    {
+      "type": "paragraph",
+      "content": "Finding specific rolls is now faster and more intuitive with the new search field in the Library. Available right from the first screen of the app, you can quickly locate any roll by name, making it effortless to navigate large collections or find that specific roll you're looking for."
+    }
+  ],
+  "improvements": [
+    "Redesigned interface with Apple's liquid glass design language throughout toolbars and lists.",
+    "Completely reimagined recorder toolbar with larger, more accessible controls.",
+    "Implemented fluid morphing animations when transitioning to scroll pickers.",
+    "Enhanced button readability with improved typography and visual hierarchy.",
+    "Added search field to Library for quick film roll discovery.",
+    "Refined font sizes throughout the app for better consistency and readability.",
+    "Polished animations and transitions for a more refined, modern feel."
+  ],
+  "fixes": [
+    {
+      "title": "iOS 18 Scroll Picker Sync",
+      "description": "Resolved synchronization issues on iOS 18 where scroll picker values (aperture, shutter speed, frame number, exposure compensation) displayed incorrect positions after modifying settings through the detailed view."
+    }
+  ],
+  "patches": [],
+  "meta_title": "Apple Liquid Design Interface · Frames",
+  "meta_description": "Frames embraces Apple's modern design language with a comprehensive interface redesign featuring the new liquid glass design aesthetic. From a completely reimagined recorder toolbar..."
+}

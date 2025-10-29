@@ -1,0 +1,93 @@
+{
+  "version": "1.14.0",
+  "version_short": "1.14",
+  "url_slug": "1-14-ios",
+  "platform": "ios",
+  "release_date": "2025-10-30T10:00:00.000Z",
+  "title": "Interfață rafinată cu noul Liquid Glass Design de la Apple",
+  "summary": "Frames adoptă limbajul de design modern al Apple printr-o reînnoire completă a interfeței inspirată de estetica Liquid Glass Design. De la bara de înregistrare complet reproiectată până la listele și comenzile rafinate din întreaga aplicație, fiecare interacțiune devine mai fluidă, mai coerentă și mai intuitivă.",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "O interfață modernă și fluidă"
+    },
+    {
+      "type": "paragraph",
+      "content": "Această actualizare aduce Liquid Glass Design de la Apple în Frames, transformând identitatea vizuală a aplicației cu animații subtile, spațieri rafinate și o estetică mai contemporană. Barele de instrumente și listele din întreaga aplicație prezintă acum senzația caracteristică netedă și armonioasă a designului iOS modern, oferind o experiență mai coerentă și mai atentă care se integrează perfect cu dispozitivul tău."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.14.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.14.0-1@2x.png",
+      "alt": "Aplicația de fotografie pe film Frames cu noua interfață Apple Liquid Design și bara de înregistrare reproiectată",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Bară de înregistrare reproiectată"
+    },
+    {
+      "type": "paragraph",
+      "content": "Inima acestei actualizări este bara de înregistrare complet reproiectată. Ceea ce înainte era pur și simplu funcțional devine acum elegant și mult mai practic. Comenzile esențiale precum numărul cadrului, diafragma, viteza obturatorului, compensarea expunerii și blițul au acum butoane mai mari și mai tactile, mai ușor de citit dintr-o privire."
+    },
+    {
+      "type": "paragraph",
+      "content": "Când atingi o setare, bara de instrumente se transformă elegant într-un selector cu animații fluide și precise care trec natural. Interacțiunea rămâne familiară, dar acum cu o finisare modernă care face înregistrarea fotografiilor tale simplă și plăcută. Setările suplimentare rămân ușor accesibile prin butonul mai multe, menținând interfața curată în timp ce asigură că toate instrumentele sunt la îndemână."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.14.0-2.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.14.0-2@2x.png",
+      "alt": "Aplicația de fotografie pe film Frames cu noua interfață Apple Liquid Design și bara de înregistrare reproiectată",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "list",
+      "items": [
+        {
+          "title": "Comenzi reproiectate",
+          "description": "Butoane mai mari și mai lizibile pentru numărul cadrului, diafragma, viteza obturatorului, compensarea expunerii și bliț."
+        },
+        {
+          "title": "Animație de transformare fluidă",
+          "description": "Tranziții netede și subtile pe măsură ce bara se transformă în selectoare pentru selectarea precisă a valorilor."
+        },
+        {
+          "title": "Lizibilitate îmbunătățită",
+          "description": "Tipografie și spațiere îmbunătățite care facilitează citirea valorilor în timpul fotografierii pe teren."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Căutare în bibliotecă"
+    },
+    {
+      "type": "paragraph",
+      "content": "Găsirea rolelor specifice este acum mai rapidă și mai intuitivă datorită noului câmp de căutare din bibliotecă. Disponibil direct din primul ecran al aplicației, poți localiza rapid orice rolă după nume, facilitând navigarea în colecții mari sau găsirea acelei role specifice pe care o cauți."
+    }
+  ],
+  "improvements": [
+    "Interfață reproiectată cu Liquid Glass Design de la Apple în toate barele de instrumente și listele.",
+    "Bară de înregistrare complet reproiectată cu comenzi mai mari și mai accesibile.",
+    "Animații de transformare fluide la tranziția către selectoare.",
+    "Lizibilitate îmbunătățită a butoanelor cu tipografie și ierarhie vizuală optimizate.",
+    "Câmp de căutare adăugat în bibliotecă pentru a găsi rapid rolele tale.",
+    "Dimensiuni de font rafinate în întreaga aplicație pentru o mai bună consistență și lizibilitate.",
+    "Animații și tranziții rafinate pentru o senzație mai rafinată și mai modernă."
+  ],
+  "fixes": [
+    {
+      "title": "Sincronizarea selectorului iOS 18",
+      "description": "Rezolvate problemele de sincronizare pe iOS 18 unde valorile selectorului (diafragma, viteza obturatorului, numărul cadrului, compensarea expunerii) afișau poziții incorecte după modificarea setărilor prin vizualizarea detaliată."
+    }
+  ],
+  "patches": [],
+  "meta_title": "Interfață cu Liquid Design de la Apple · Frames",
+  "meta_description": "Frames adoptă limbajul de design modern al Apple printr-o reînnoire completă a interfeței inspirată de estetica Liquid Glass Design. De la bara de înregistrare complet reproiectată..."
+}

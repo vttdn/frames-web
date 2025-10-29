@@ -61,3 +61,11 @@
         }
     }
 }
+
+a[rel~="author"] {
+  text-decoration: none;
+}
+
+a[rel~="author"]:hover {
+  color: var(--color-white);
+}

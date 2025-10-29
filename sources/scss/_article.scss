@@ -147,6 +147,10 @@
       color: rgba(var(--color-white-rgb), 0.82);
     }
   }
+
+  & > ul {
+    margin-bottom: var(--spacing-2xl);
+  }
 }
 
 /* Release Info */
@@ -166,7 +170,7 @@
 }
 
 .changelog-media {
-  margin: var(--spacing-4xl) 0 var(--spacing-3xl);
+  margin: var(--spacing-3xl) 0 var(--spacing-3xl);
 
   img {
     width: 100%;

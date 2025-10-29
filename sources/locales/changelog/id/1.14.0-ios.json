@@ -1,0 +1,93 @@
+{
+  "version": "1.14.0",
+  "version_short": "1.14",
+  "url_slug": "1-14-ios",
+  "platform": "ios",
+  "release_date": "2025-10-30T10:00:00.000Z",
+  "title": "Antarmuka yang disempurnakan dengan Liquid Glass Design baru dari Apple",
+  "summary": "Frames mengadopsi bahasa desain modern Apple dengan pembaruan antarmuka menyeluruh yang terinspirasi dari estetika Liquid Glass Design. Dari bilah perekaman yang benar-benar dirancang ulang hingga daftar dan kontrol yang disempurnakan di seluruh aplikasi, setiap interaksi menjadi lebih lancar, konsisten, dan intuitif.",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Antarmuka modern yang mengalir"
+    },
+    {
+      "type": "paragraph",
+      "content": "Pembaruan ini menghadirkan Liquid Glass Design dari Apple ke Frames, mengubah identitas visual aplikasi dengan animasi halus, jarak yang disempurnakan, dan estetika yang lebih kontemporer. Bilah alat dan daftar di seluruh aplikasi kini menampilkan nuansa halus dan harmonis khas desain iOS modern, menciptakan pengalaman yang lebih kohesif dan matang yang terintegrasi sempurna dengan perangkat Anda."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.14.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.14.0-1@2x.png",
+      "alt": "Aplikasi fotografi film Frames dengan antarmuka Apple Liquid Design baru dan bilah perekaman yang dirancang ulang",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Bilah perekaman yang dirancang ulang"
+    },
+    {
+      "type": "paragraph",
+      "content": "Inti dari pembaruan ini adalah bilah perekaman yang benar-benar dirancang ulang. Yang sebelumnya hanya fungsional kini menjadi elegan dan jauh lebih praktis. Kontrol penting seperti nomor frame, aperture, kecepatan rana, kompensasi eksposur, dan flash kini memiliki tombol yang lebih besar dan lebih mudah disentuh, lebih mudah dibaca sekilas."
+    },
+    {
+      "type": "paragraph",
+      "content": "Saat Anda mengetuk pengaturan, bilah alat berubah dengan elegan menjadi pemilih dengan animasi yang lancar dan presisi yang bertransisi secara alami. Interaksi tetap familiar, tetapi kini dengan sentuhan modern yang membuat pencatatan bidikan Anda menjadi sederhana dan menyenangkan. Pengaturan tambahan tetap mudah diakses melalui tombol lainnya, menjaga antarmuka tetap bersih sambil memastikan semua alat berada dalam jangkauan."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.14.0-2.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.14.0-2@2x.png",
+      "alt": "Aplikasi fotografi film Frames dengan antarmuka Apple Liquid Design baru dan bilah perekaman yang dirancang ulang",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "list",
+      "items": [
+        {
+          "title": "Kontrol yang dirancang ulang",
+          "description": "Tombol yang lebih besar dan lebih mudah dibaca untuk nomor frame, aperture, kecepatan rana, kompensasi eksposur, dan flash."
+        },
+        {
+          "title": "Animasi transformasi yang lancar",
+          "description": "Transisi halus dan lembut saat bilah berubah menjadi pemilih untuk pemilihan nilai yang presisi."
+        },
+        {
+          "title": "Keterbacaan yang ditingkatkan",
+          "description": "Tipografi dan spasi yang ditingkatkan membuat nilai lebih mudah dibaca saat memotret di lapangan."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Pencarian perpustakaan"
+    },
+    {
+      "type": "paragraph",
+      "content": "Menemukan roll tertentu kini lebih cepat dan lebih intuitif berkat kolom pencarian baru di perpustakaan. Tersedia langsung dari layar pertama aplikasi, Anda dapat dengan cepat menemukan roll mana pun berdasarkan nama, memudahkan navigasi koleksi besar atau menemukan roll spesifik yang Anda cari."
+    }
+  ],
+  "improvements": [
+    "Antarmuka yang dirancang ulang dengan Liquid Glass Design dari Apple di semua bilah alat dan daftar.",
+    "Bilah perekaman yang benar-benar dirancang ulang dengan kontrol yang lebih besar dan lebih mudah diakses.",
+    "Animasi transformasi yang lancar saat bertransisi ke pemilih.",
+    "Keterbacaan tombol yang ditingkatkan dengan tipografi dan hierarki visual yang dioptimalkan.",
+    "Kolom pencarian ditambahkan ke perpustakaan untuk menemukan roll Anda dengan cepat.",
+    "Ukuran font yang disempurnakan di seluruh aplikasi untuk konsistensi dan keterbacaan yang lebih baik.",
+    "Animasi dan transisi yang dipoles untuk nuansa yang lebih halus dan modern."
+  ],
+  "fixes": [
+    {
+      "title": "Sinkronisasi pemilih iOS 18",
+      "description": "Menyelesaikan masalah sinkronisasi di iOS 18 di mana nilai pemilih (aperture, kecepatan rana, nomor frame, kompensasi eksposur) menampilkan posisi yang salah setelah mengubah pengaturan melalui tampilan detail."
+    }
+  ],
+  "patches": [],
+  "meta_title": "Antarmuka dengan Liquid Design dari Apple · Frames",
+  "meta_description": "Frames mengadopsi bahasa desain modern Apple dengan pembaruan antarmuka menyeluruh yang terinspirasi dari estetika Liquid Glass Design. Dari bilah perekaman yang benar-benar dirancang ulang..."
+}

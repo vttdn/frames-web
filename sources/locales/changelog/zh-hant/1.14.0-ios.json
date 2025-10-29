@@ -1,0 +1,93 @@
+{
+  "version": "1.14.0",
+  "version_short": "1.14",
+  "url_slug": "1-14-ios",
+  "platform": "ios",
+  "release_date": "2025-10-30T10:00:00.000Z",
+  "title": "採用 Apple 全新 Liquid Glass Design 的精緻介面",
+  "summary": "Frames 採用 Apple 現代設計語言，基於全新 Liquid Glass Design 美學進行了全面的介面重新設計。從完全重新構想的記錄工具列，到整個應用程式中精緻的列表和控制項，每一次互動都變得更加流暢、統一和直覺。",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "現代流暢的介面"
+    },
+    {
+      "type": "paragraph",
+      "content": "此次更新將 Apple 的 Liquid Glass Design 引入 Frames，透過精緻的動畫、優化的間距和更現代的美學，徹底改變了應用程式的視覺風格。整個應用程式中的工具列和列表現在都呈現出現代 iOS 設計特有的流暢和諧感，為您帶來更加統一精緻的體驗，與您的裝置完美融合。"
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.14.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.14.0-1@2x.png",
+      "alt": "採用 Apple 全新 Liquid Design 介面和重新設計的記錄工具列的 Frames 底片攝影應用程式",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "重新設計的記錄工具列"
+    },
+    {
+      "type": "paragraph",
+      "content": "此次更新的核心是完全重新設計的記錄工具列。曾經只是功能性的設計，現在變得既優雅又更加實用。畫幅編號、光圈、快門速度、曝光補償和閃光燈等基本控制項現在都採用了更大、更易觸控的按鈕，一目了然，更易讀取。"
+    },
+    {
+      "type": "paragraph",
+      "content": "當您輕觸某個設定時，工具列會優雅地變換為滾動選擇器，配以流暢精準的動畫，自然過渡。互動方式保持熟悉，但現在擁有現代化的精緻體驗，讓記錄拍攝變得簡單而愉快。其他設定仍可透過「更多」按鈕輕鬆存取，保持介面簡潔的同時確保所有工具觸手可及。"
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.14.0-2.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.14.0-2@2x.png",
+      "alt": "採用 Apple 全新 Liquid Design 介面和重新設計的記錄工具列的 Frames 底片攝影應用程式",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "list",
+      "items": [
+        {
+          "title": "重新設計的控制項",
+          "description": "畫幅編號、光圈、快門速度、曝光補償和閃光燈的按鈕更大、更清晰易讀。"
+        },
+        {
+          "title": "流暢的變換動畫",
+          "description": "工具列轉換為滾動選擇器時的平滑細膩過渡，實現精確的數值選擇。"
+        },
+        {
+          "title": "增強的可讀性",
+          "description": "改進的字型和間距設計，讓您在外拍攝時也能輕鬆讀取數值。"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "圖庫搜尋"
+    },
+    {
+      "type": "paragraph",
+      "content": "藉助新增的搜尋欄，查找特定底片現在變得更快更直覺。您可以直接在應用程式的第一個畫面使用搜尋功能，按名稱快速定位任何底片，輕鬆瀏覽大型收藏或查找特定的底片。"
+    }
+  ],
+  "improvements": [
+    "採用 Apple 的 Liquid Glass Design 重新設計了所有工具列和列表的介面。",
+    "完全重新構想的記錄工具列，配備更大、更易存取的控制項。",
+    "實現了過渡到滾動選擇器時的流暢變換動畫。",
+    "透過優化的字型和視覺層次增強了按鈕的可讀性。",
+    "在圖庫中新增了搜尋欄，可快速查找您的底片。",
+    "優化了整個應用程式的字型大小，提高一致性和可讀性。",
+    "精緻的動畫和過渡效果，帶來更優雅、更現代的感受。"
+  ],
+  "fixes": [
+    {
+      "title": "iOS 18 滾動選擇器同步",
+      "description": "修復了 iOS 18 上的同步問題，該問題導致透過詳細檢視修改設定後，滾動選擇器的數值（光圈、快門速度、畫幅編號、曝光補償）顯示錯誤的位置。"
+    }
+  ],
+  "patches": [],
+  "meta_title": "採用 Apple Liquid Design 的介面 · Frames",
+  "meta_description": "Frames 採用 Apple 現代設計語言，基於全新 Liquid Glass Design 美學進行了全面的介面重新設計。從完全重新構想的記錄工具列..."
+}

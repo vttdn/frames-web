@@ -1,0 +1,93 @@
+{
+  "version": "1.14.0",
+  "version_short": "1.14",
+  "url_slug": "1-14-ios",
+  "platform": "ios",
+  "release_date": "2025-10-30T10:00:00.000Z",
+  "title": "Verfijnde interface met Apple's nieuwe Liquid Glass Design",
+  "summary": "Frames omarmt Apple's moderne ontwerptaal met een complete interface-vernieuwing geïnspireerd op de Liquid Glass Design-esthetiek. Van een volledig opnieuw ontworpen opnamebalk tot verfijnde lijsten en bedieningselementen door de hele app, elke interactie wordt vloeiender, consistenter en intuïtiever.",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Een moderne, vloeiende interface"
+    },
+    {
+      "type": "paragraph",
+      "content": "Deze update brengt Apple's Liquid Glass Design naar Frames en transformeert de visuele identiteit van de app met subtiele animaties, verfijnde ruimtes en een meer eigentijdse esthetiek. Werkbalken en lijsten door de hele app tonen nu het karakteristieke vloeiende en harmonieuze gevoel van modern iOS-design, en bieden een meer samenhangende en verzorgde ervaring die perfect integreert met je apparaat."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.14.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.14.0-1@2x.png",
+      "alt": "Frames filmfotografie-app met nieuwe Apple Liquid Design-interface en opnieuw ontworpen opnamebalk",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Opnieuw ontworpen opnamebalk"
+    },
+    {
+      "type": "paragraph",
+      "content": "Het hart van deze update is de volledig opnieuw ontworpen opnamebalk. Wat voorheen simpelweg functioneel was, wordt nu elegant en aanzienlijk praktischer. Essentiële bedieningselementen zoals framenummer, diafragma, sluitertijd, belichtingscorrectie en flitser hebben nu grotere, meer tastbare knoppen die in één oogopslag gemakkelijker af te lezen zijn."
+    },
+    {
+      "type": "paragraph",
+      "content": "Wanneer je een instelling aanraakt, transformeert de werkbalk elegant naar een kiezer met vloeiende en precieze animaties die natuurlijk verlopen. De interactie blijft vertrouwd, maar krijgt nu een moderne afwerking die het vastleggen van je opnames eenvoudig en prettig maakt. Extra instellingen blijven gemakkelijk toegankelijk via de meer-knop, waardoor de interface overzichtelijk blijft terwijl alle tools binnen handbereik zijn."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.14.0-2.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.14.0-2@2x.png",
+      "alt": "Frames filmfotografie-app met nieuwe Apple Liquid Design-interface en opnieuw ontworpen opnamebalk",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "list",
+      "items": [
+        {
+          "title": "Opnieuw ontworpen bedieningselementen",
+          "description": "Grotere, beter leesbare knoppen voor framenummer, diafragma, sluitertijd, belichtingscorrectie en flitser."
+        },
+        {
+          "title": "Vloeiende transformatie-animatie",
+          "description": "Soepele, subtiele overgangen terwijl de balk transformeert naar kiezers voor nauwkeurige waardeselectie."
+        },
+        {
+          "title": "Verbeterde leesbaarheid",
+          "description": "Verbeterde typografie en ruimtes maken waarden gemakkelijker af te lezen tijdens opnames in het veld."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Bibliotheek zoeken"
+    },
+    {
+      "type": "paragraph",
+      "content": "Specifieke rolletjes vinden is nu sneller en intuïtiever dankzij het nieuwe zoekveld in de bibliotheek. Beschikbaar vanaf het eerste scherm van de app, kun je snel elk rolletje op naam vinden, wat navigeren door grote collecties of het zoeken naar dat specifieke rolletje eenvoudiger maakt."
+    }
+  ],
+  "improvements": [
+    "Opnieuw ontworpen interface met Apple's Liquid Glass Design in alle werkbalken en lijsten.",
+    "Volledig opnieuw ontworpen opnamebalk met grotere, toegankelijkere bedieningselementen.",
+    "Vloeiende transformatie-animaties bij overgang naar kiezers.",
+    "Verbeterde leesbaarheid van knoppen met geoptimaliseerde typografie en visuele hiërarchie.",
+    "Zoekveld toegevoegd aan bibliotheek om je rolletjes snel te vinden.",
+    "Verfijnde lettergroottes door de hele app voor betere consistentie en leesbaarheid.",
+    "Gepolijste animaties en overgangen voor een verfijnder, moderner gevoel."
+  ],
+  "fixes": [
+    {
+      "title": "iOS 18 kiezersynchronisatie",
+      "description": "Synchronisatieproblemen op iOS 18 opgelost waarbij kiezerwaarden (diafragma, sluitertijd, framenummer, belichtingscorrectie) onjuiste posities toonden na het wijzigen van instellingen via de gedetailleerde weergave."
+    }
+  ],
+  "patches": [],
+  "meta_title": "Interface met Apple's Liquid Design · Frames",
+  "meta_description": "Frames omarmt Apple's moderne ontwerptaal met een complete interface-vernieuwing geïnspireerd op de Liquid Glass Design-esthetiek. Van een volledig opnieuw ontworpen opnamebalk..."
+}

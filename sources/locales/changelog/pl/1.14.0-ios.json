@@ -1,0 +1,93 @@
+{
+  "version": "1.14.0",
+  "version_short": "1.14",
+  "url_slug": "1-14-ios",
+  "platform": "ios",
+  "release_date": "2025-10-30T10:00:00.000Z",
+  "title": "Udoskonalony interfejs z nowym Liquid Glass Design od Apple",
+  "summary": "Frames przyjmuje nowoczesny język projektowania Apple wraz z kompleksowym odnowieniem interfejsu inspirowanym estetyką Liquid Glass Design. Od całkowicie przeprojektowanego paska rejestracji po udoskonalone listy i elementy sterujące w całej aplikacji, każda interakcja staje się bardziej płynna, spójna i intuicyjna.",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Nowoczesny, płynny interfejs"
+    },
+    {
+      "type": "paragraph",
+      "content": "Ta aktualizacja wprowadza Liquid Glass Design od Apple do Frames, przekształcając wizualną tożsamość aplikacji za pomocą subtelnych animacji, udoskonalonych odstępów i bardziej współczesnej estetyki. Paski narzędzi i listy w całej aplikacji prezentują teraz charakterystyczne płynne i harmonijne odczucie nowoczesnego designu iOS, tworząc bardziej spójne i przemyślane doświadczenie, które idealnie integruje się z Twoim urządzeniem."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.14.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.14.0-1@2x.png",
+      "alt": "Aplikacja do fotografii analogowej Frames z nowym interfejsem Apple Liquid Design i przeprojektowanym paskiem rejestracji",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Przeprojektowany pasek rejestracji"
+    },
+    {
+      "type": "paragraph",
+      "content": "Sercem tej aktualizacji jest całkowicie przeprojektowany pasek rejestracji. To, co wcześniej było po prostu funkcjonalne, teraz staje się eleganckie i wyraźnie bardziej praktyczne. Podstawowe elementy sterujące, takie jak numer klatki, przysłona, czas naświetlania, kompensacja ekspozycji i lampa błyskowa, mają teraz większe, bardziej dotykowe przyciski, które są łatwiejsze do odczytania na pierwszy rzut oka."
+    },
+    {
+      "type": "paragraph",
+      "content": "Gdy dotkniesz ustawienia, pasek narzędzi elegancko przekształca się w selektor z płynnymi i precyzyjnymi animacjami, które przechodzą naturalnie. Interakcja pozostaje znajoma, ale teraz z nowoczesnym wykończeniem, które sprawia, że rejestrowanie zdjęć jest proste i przyjemne. Dodatkowe ustawienia pozostają łatwo dostępne za pomocą przycisku więcej, utrzymując interfejs w czystości, jednocześnie zapewniając, że wszystkie narzędzia są w zasięgu ręki."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.14.0-2.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.14.0-2@2x.png",
+      "alt": "Aplikacja do fotografii analogowej Frames z nowym interfejsem Apple Liquid Design i przeprojektowanym paskiem rejestracji",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "list",
+      "items": [
+        {
+          "title": "Przeprojektowane elementy sterujące",
+          "description": "Większe, bardziej czytelne przyciski dla numeru klatki, przysłony, czasu naświetlania, kompensacji ekspozycji i lampy błyskowej."
+        },
+        {
+          "title": "Płynna animacja transformacji",
+          "description": "Gładkie, subtelne przejścia, gdy pasek przekształca się w selektory do precyzyjnego wyboru wartości."
+        },
+        {
+          "title": "Ulepszona czytelność",
+          "description": "Ulepszona typografia i odstępy ułatwiają odczytywanie wartości podczas fotografowania w terenie."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Wyszukiwanie w bibliotece"
+    },
+    {
+      "type": "paragraph",
+      "content": "Znajdowanie konkretnych rolek jest teraz szybsze i bardziej intuicyjne dzięki nowemu polu wyszukiwania w bibliotece. Dostępne bezpośrednio z pierwszego ekranu aplikacji, możesz szybko zlokalizować dowolną rolkę według nazwy, ułatwiając nawigację po dużych kolekcjach lub wyszukiwanie konkretnej rolki, której szukasz."
+    }
+  ],
+  "improvements": [
+    "Przeprojektowany interfejs z Liquid Glass Design od Apple we wszystkich paskach narzędzi i listach.",
+    "Całkowicie przeprojektowany pasek rejestracji z większymi, bardziej dostępnymi elementami sterującymi.",
+    "Płynne animacje transformacji przy przejściu do selektorów.",
+    "Ulepszona czytelność przycisków z zoptymalizowaną typografią i hierarchią wizualną.",
+    "Dodano pole wyszukiwania do biblioteki w celu szybkiego znajdowania rolek.",
+    "Udoskonalone rozmiary czcionek w całej aplikacji dla lepszej spójności i czytelności.",
+    "Dopracowane animacje i przejścia dla bardziej wyrafinowanego, nowoczesnego wrażenia."
+  ],
+  "fixes": [
+    {
+      "title": "Synchronizacja selektora iOS 18",
+      "description": "Rozwiązano problemy z synchronizacją w iOS 18, gdzie wartości selektora (przysłona, czas naświetlania, numer klatki, kompensacja ekspozycji) wyświetlały nieprawidłowe pozycje po modyfikacji ustawień przez widok szczegółowy."
+    }
+  ],
+  "patches": [],
+  "meta_title": "Interfejs z Liquid Design od Apple · Frames",
+  "meta_description": "Frames przyjmuje nowoczesny język projektowania Apple wraz z kompleksowym odnowieniem interfejsu inspirowanym estetyką Liquid Glass Design. Od całkowicie przeprojektowanego paska rejestracji..."
+}

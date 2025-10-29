@@ -1,0 +1,93 @@
+{
+  "version": "1.14.0",
+  "version_short": "1.14",
+  "url_slug": "1-14-ios",
+  "platform": "ios",
+  "release_date": "2025-10-30T10:00:00.000Z",
+  "title": "采用 Apple 全新 Liquid Glass Design 的精致界面",
+  "summary": "Frames 采用 Apple 现代设计语言，基于全新 Liquid Glass Design 美学进行了全面的界面重新设计。从完全重新构想的记录工具栏，到整个应用中精致的列表和控件，每一次交互都变得更加流畅、统一和直观。",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "现代流畅的界面"
+    },
+    {
+      "type": "paragraph",
+      "content": "此次更新将 Apple 的 Liquid Glass Design 引入 Frames，通过精致的动画、优化的间距和更现代的美学，彻底改变了应用的视觉风格。整个应用中的工具栏和列表现在都呈现出现代 iOS 设计特有的流畅和谐感，为您带来更加统一精致的体验，与您的设备完美融合。"
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.14.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.14.0-1@2x.png",
+      "alt": "采用 Apple 全新 Liquid Design 界面和重新设计的记录工具栏的 Frames 胶片摄影应用",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "重新设计的记录工具栏"
+    },
+    {
+      "type": "paragraph",
+      "content": "此次更新的核心是完全重新设计的记录工具栏。曾经只是功能性的设计，现在变得既优雅又更加实用。画幅编号、光圈、快门速度、曝光补偿和闪光灯等基本控件现在都采用了更大、更易触控的按钮，一目了然，更易读取。"
+    },
+    {
+      "type": "paragraph",
+      "content": "当您轻触某个设置时，工具栏会优雅地变换为滚动选择器，配以流畅精准的动画，自然过渡。交互方式保持熟悉，但现在拥有现代化的精致体验，让记录拍摄变得简单而愉快。其他设置仍可通过"更多"按钮轻松访问，保持界面简洁的同时确保所有工具触手可及。"
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.14.0-2.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.14.0-2@2x.png",
+      "alt": "采用 Apple 全新 Liquid Design 界面和重新设计的记录工具栏的 Frames 胶片摄影应用",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "list",
+      "items": [
+        {
+          "title": "重新设计的控件",
+          "description": "画幅编号、光圈、快门速度、曝光补偿和闪光灯的按钮更大、更清晰易读。"
+        },
+        {
+          "title": "流畅的变换动画",
+          "description": "工具栏转换为滚动选择器时的平滑细腻过渡，实现精确的数值选择。"
+        },
+        {
+          "title": "增强的可读性",
+          "description": "改进的字体和间距设计，让您在外拍摄时也能轻松读取数值。"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "图库搜索"
+    },
+    {
+      "type": "paragraph",
+      "content": "借助新增的搜索栏，查找特定胶卷现在变得更快更直观。您可以直接在应用的第一个屏幕使用搜索功能，按名称快速定位任何胶卷，轻松浏览大型收藏或查找特定的胶卷。"
+    }
+  ],
+  "improvements": [
+    "采用 Apple 的 Liquid Glass Design 重新设计了所有工具栏和列表的界面。",
+    "完全重新构想的记录工具栏，配备更大、更易访问的控件。",
+    "实现了过渡到滚动选择器时的流畅变换动画。",
+    "通过优化的字体和视觉层次增强了按钮的可读性。",
+    "在图库中添加了搜索栏，可快速查找您的胶卷。",
+    "优化了整个应用的字体大小，提高一致性和可读性。",
+    "精致的动画和过渡效果，带来更优雅、更现代的感受。"
+  ],
+  "fixes": [
+    {
+      "title": "iOS 18 滚动选择器同步",
+      "description": "修复了 iOS 18 上的同步问题，该问题导致通过详细视图修改设置后，滚动选择器的数值（光圈、快门速度、画幅编号、曝光补偿）显示错误的位置。"
+    }
+  ],
+  "patches": [],
+  "meta_title": "采用 Apple Liquid Design 的界面 · Frames",
+  "meta_description": "Frames 采用 Apple 现代设计语言，基于全新 Liquid Glass Design 美学进行了全面的界面重新设计。从完全重新构想的记录工具栏..."
+}

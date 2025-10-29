@@ -1,0 +1,93 @@
+{
+  "version": "1.14.0",
+  "version_short": "1.14",
+  "url_slug": "1-14-ios",
+  "platform": "ios",
+  "release_date": "2025-10-30T10:00:00.000Z",
+  "title": "Apple'ın yeni Liquid Glass Design'ı ile rafine arayüz",
+  "summary": "Frames, Liquid Glass Design estetiğinden ilham alan kapsamlı bir arayüz yenilemesiyle Apple'ın modern tasarım dilini benimsiyor. Tamamen yeniden tasarlanan kayıt araç çubuğundan, uygulamanın tamamındaki rafine listelere ve kontrollere kadar her etkileşim daha akıcı, tutarlı ve sezgisel hale geliyor.",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Modern, akıcı bir arayüz"
+    },
+    {
+      "type": "paragraph",
+      "content": "Bu güncelleme, Apple'ın Liquid Glass Design'ını Frames'e getirerek uygulamanın görsel kimliğini incelikli animasyonlar, rafine aralıklar ve daha çağdaş bir estetikle dönüştürüyor. Uygulamanın tamamındaki araç çubukları ve listeler artık modern iOS tasarımının karakteristik pürüzsüz ve uyumlu hissini sergiliyor ve cihazınızla mükemmel şekilde bütünleşen daha tutarlı ve özenli bir deneyim sunuyor."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.14.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.14.0-1@2x.png",
+      "alt": "Yeni Apple Liquid Design arayüzü ve yeniden tasarlanan kayıt araç çubuğuyla Frames film fotoğrafçılığı uygulaması",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Yeniden tasarlanan kayıt araç çubuğu"
+    },
+    {
+      "type": "paragraph",
+      "content": "Bu güncellemenin kalbi, tamamen yeniden tasarlanan kayıt araç çubuğudur. Daha önce basitçe işlevsel olan şey, şimdi hem zarif hem de belirgin şekilde daha pratik hale geliyor. Kare numarası, diyafram, deklanşör hızı, pozlama telafisi ve flaş gibi temel kontroller artık bir bakışta okunması daha kolay olan daha büyük, daha dokunmatik düğmelere sahip."
+    },
+    {
+      "type": "paragraph",
+      "content": "Bir ayara dokunduğunuzda, araç çubuğu akıcı ve hassas animasyonlarla zarif bir şekilde seçiciye dönüşüyor ve doğal bir geçiş yapıyor. Etkileşim tanıdık kalıyor, ancak artık çekimlerinizi kaydetmeyi basit ve keyifli hale getiren modern bir cilalama ile. Ek ayarlar, daha fazla düğmesi aracılığıyla kolayca erişilebilir durumda kalarak arayüzü temiz tutuyor ve tüm araçların elinizin altında olmasını sağlıyor."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.14.0-2.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.14.0-2@2x.png",
+      "alt": "Yeni Apple Liquid Design arayüzü ve yeniden tasarlanan kayıt araç çubuğuyla Frames film fotoğrafçılığı uygulaması",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "list",
+      "items": [
+        {
+          "title": "Yeniden tasarlanan kontroller",
+          "description": "Kare numarası, diyafram, deklanşör hızı, pozlama telafisi ve flaş için daha büyük, daha okunaklı düğmeler."
+        },
+        {
+          "title": "Akıcı dönüşüm animasyonu",
+          "description": "Araç çubuğu hassas değer seçimi için seçicilere dönüşürken pürüzsüz, incelikli geçişler."
+        },
+        {
+          "title": "Geliştirilmiş okunabilirlik",
+          "description": "Geliştirilmiş tipografi ve aralıklar, sahada çekim yaparken değerleri okumayı kolaylaştırıyor."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Kütüphane araması"
+    },
+    {
+      "type": "paragraph",
+      "content": "Belirli ruloları bulmak, kütüphanedeki yeni arama alanı sayesinde artık daha hızlı ve daha sezgisel. Uygulamanın ilk ekranından hemen kullanılabilen bu özellikle, herhangi bir ruloyu adına göre hızlıca bulabilir, büyük koleksiyonlarda gezinmeyi veya aradığınız belirli ruloyu bulmayı kolaylaştırabilirsiniz."
+    }
+  ],
+  "improvements": [
+    "Tüm araç çubuklarında ve listelerde Apple'ın Liquid Glass Design'ı ile yeniden tasarlanan arayüz.",
+    "Daha büyük, daha erişilebilir kontrollerle tamamen yeniden tasarlanan kayıt araç çubuğu.",
+    "Seçicilere geçiş yaparken akıcı dönüşüm animasyonları.",
+    "Optimize edilmiş tipografi ve görsel hiyerarşi ile geliştirilmiş düğme okunabilirliği.",
+    "Rulolarınızı hızlıca bulmak için kütüphaneye arama alanı eklendi.",
+    "Daha iyi tutarlılık ve okunabilirlik için uygulamanın tamamında rafine yazı tipi boyutları.",
+    "Daha rafine, daha modern bir his için cilalanmış animasyonlar ve geçişler."
+  ],
+  "fixes": [
+    {
+      "title": "iOS 18 seçici senkronizasyonu",
+      "description": "iOS 18'de, detaylı görünüm üzerinden ayarları değiştirdikten sonra seçici değerlerinin (diyafram, deklanşör hızı, kare numarası, pozlama telafisi) yanlış konumlar gösterdiği senkronizasyon sorunları çözüldü."
+    }
+  ],
+  "patches": [],
+  "meta_title": "Apple'ın Liquid Design arayüzü · Frames",
+  "meta_description": "Frames, Liquid Glass Design estetiğinden ilham alan kapsamlı bir arayüz yenilemesiyle Apple'ın modern tasarım dilini benimsiyor. Tamamen yeniden tasarlanan kayıt araç çubuğundan..."
+}

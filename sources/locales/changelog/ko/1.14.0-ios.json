@@ -1,0 +1,93 @@
+{
+  "version": "1.14.0",
+  "version_short": "1.14",
+  "url_slug": "1-14-ios",
+  "platform": "ios",
+  "release_date": "2025-10-30T10:00:00.000Z",
+  "title": "Apple의 새로운 Liquid Glass Design으로 세련된 인터페이스",
+  "summary": "Frames가 Liquid Glass Design 미학을 바탕으로 한 전면적인 인터페이스 개편을 통해 Apple의 최신 디자인 언어를 채택했습니다. 완전히 재설계된 기록 도구 막대부터 앱 전체에서 세련된 목록과 컨트롤까지, 모든 상호작용이 더 유동적이고 일관되며 직관적으로 변했습니다.",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "현대적이고 유려한 인터페이스"
+    },
+    {
+      "type": "paragraph",
+      "content": "이번 업데이트는 Apple의 Liquid Glass Design을 Frames에 도입하여, 섬세한 애니메이션, 세련된 여백, 그리고 더욱 현대적인 미학으로 앱의 시각적 정체성을 변모시킵니다. 앱 전체의 도구 막대와 목록은 이제 현대적인 iOS 디자인의 특징인 부드럽고 유려한 느낌을 구현하여, 기기에 완벽하게 어울리는 더 일관되고 세련된 경험을 제공합니다."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.14.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.14.0-1@2x.png",
+      "alt": "Apple의 새로운 Liquid Design 인터페이스와 재설계된 기록 도구 막대가 적용된 Frames 필름 사진 앱",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "재설계된 기록 도구 막대"
+    },
+    {
+      "type": "paragraph",
+      "content": "이번 업데이트의 핵심은 완전히 재설계된 기록 도구 막대입니다. 이전에는 단순히 기능적이었던 것이 이제는 우아하고 훨씬 더 편리해졌습니다. 프레임 번호, 조리개, 셔터 속도, 노출 보정, 플래시와 같은 필수 컨트롤이 이제 더 크고 터치하기 쉬운 버튼으로 제공되어 한눈에 읽기 쉬워졌습니다."
+    },
+    {
+      "type": "paragraph",
+      "content": "설정을 탭하면 도구 막대가 유려하고 정확한 애니메이션으로 우아하게 피커로 변환되며 자연스럽게 전환됩니다. 상호작용은 익숙하게 유지되면서도 현대적인 마무리로 촬영 기록을 간단하고 즐겁게 만들어줍니다. 추가 설정은 더보기 버튼을 통해 쉽게 접근할 수 있어 인터페이스를 깔끔하게 유지하면서 모든 도구를 바로 사용할 수 있습니다."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.14.0-2.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.14.0-2@2x.png",
+      "alt": "Apple의 새로운 Liquid Design 인터페이스와 재설계된 기록 도구 막대가 적용된 Frames 필름 사진 앱",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "list",
+      "items": [
+        {
+          "title": "재설계된 컨트롤",
+          "description": "프레임 번호, 조리개, 셔터 속도, 노출 보정, 플래시를 위한 더 크고 읽기 쉬운 버튼."
+        },
+        {
+          "title": "유려한 변환 애니메이션",
+          "description": "도구 막대가 정확한 값 선택을 위한 피커로 변환될 때 부드럽고 섬세한 전환."
+        },
+        {
+          "title": "향상된 가독성",
+          "description": "개선된 타이포그래피와 여백으로 야외에서 촬영할 때도 값을 더 쉽게 읽을 수 있습니다."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "라이브러리 검색"
+    },
+    {
+      "type": "paragraph",
+      "content": "새로운 검색 필드 덕분에 특정 롤을 찾는 것이 더 빠르고 직관적으로 바뀌었습니다. 앱의 첫 화면에서 바로 사용할 수 있으며, 이름으로 모든 롤을 빠르게 찾을 수 있어 대규모 컬렉션을 탐색하거나 특정 롤을 찾는 것이 수월해집니다."
+    }
+  ],
+  "improvements": [
+    "모든 도구 막대와 목록에 Apple의 Liquid Glass Design을 적용하여 재설계된 인터페이스.",
+    "더 크고 접근하기 쉬운 컨트롤을 갖춘 완전히 재설계된 기록 도구 막대.",
+    "피커로 전환할 때 유려한 변환 애니메이션 구현.",
+    "최적화된 타이포그래피와 시각적 계층 구조로 향상된 버튼 가독성.",
+    "빠르게 롤을 찾을 수 있는 검색 필드를 라이브러리에 추가.",
+    "더 나은 일관성과 가독성을 위해 앱 전체에서 글꼴 크기 개선.",
+    "더 세련되고 현대적인 느낌을 위한 세밀한 애니메이션과 전환."
+  ],
+  "fixes": [
+    {
+      "title": "iOS 18 피커 동기화",
+      "description": "상세 보기를 통해 설정을 수정한 후 피커 값(조리개, 셔터 속도, 프레임 번호, 노출 보정)이 잘못된 위치를 표시하던 iOS 18의 동기화 문제를 해결했습니다."
+    }
+  ],
+  "patches": [],
+  "meta_title": "Apple의 Liquid Design 인터페이스 · Frames",
+  "meta_description": "Frames가 Liquid Glass Design 미학을 바탕으로 한 전면적인 인터페이스 개편을 통해 Apple의 최신 디자인 언어를 채택했습니다. 완전히 재설계된 기록 도구 막대부터..."
+}
