@@ -1,0 +1,51 @@
+{
+  "version": "1.10.0",
+  "version_short": "1.10",
+  "url_slug": "1-10-macos",
+  "platform": "macos",
+  "release_date": "2025-10-31T10:00:00.000Z",
+  "title": "提升生產力的 UX 改進",
+  "meta_title": "提升生產力的 UX 改進 - Frames",
+  "meta_description": "透過 ESC 鍵導覽、持久側邊欄狀態、macOS Tahoe 的精緻工具列佈局以及改進的視覺階層來增強工作流程，實現更快速、更有效率的中繼資料管理。",
+  "summary": "透過增強的鍵盤快速鍵、智慧側邊欄記憶和精緻的介面，實現更高效、更高產的中繼資料工作流程，優化 macOS 體驗。",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "增強的鍵盤導覽"
+    },
+    {
+      "type": "paragraph",
+      "content": "ESC 鍵現已加入現有的鍵盤快速鍵，讓您的工作流程更加流暢。按 ESC 可快速取消選取畫格並返回檢閱器中的底片概覽，在畫格和底片詳細資訊之間無縫切換而不會中斷您的專注。結合方向鍵導覽、Return 鍵關聯影像以及 Delete 鍵刪除影像，您現在可以完全透過鍵盤控制中繼資料工作流程。"
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-mac-1.10.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-mac-1.10.0-1@2x.png",
+      "alt": "具有增強鍵盤導覽和精緻介面的 Frames macOS 應用程式，實現高效的底片中繼資料工作流程",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "更智慧的側邊欄和精緻的介面"
+    },
+    {
+      "type": "paragraph",
+      "content": "側邊欄現在會智慧地記住您希望展開或摺疊的部分——無論是相機、鏡頭、濾鏡、底片類型、GPS 座標、地圖還是影像預覽。您的工作空間始終按照您喜歡的方式組織，節省時間並減少日常工作流程中的摩擦。"
+    },
+    {
+      "type": "paragraph",
+      "content": "工具列針對 macOS Tahoe 進行了精緻設計，改進的間距突顯了匯出按鈕，使其一眼就能輕鬆找到。增強的視覺階層創造了更簡潔、更專業的外觀，同時保持相同的熟悉功能。此外，應用程式圖示已更新以匹配 iOS 版本，確保在您的所有裝置上提供統一的體驗。"
+    }
+  ],
+  "improvements": [
+    "新增 ESC 鍵以取消選取畫格並在畫格和底片詳細資訊之間切換",
+    "側邊欄部分（相機、鏡頭、濾鏡、底片類型、GPS、地圖、影像預覽）現在會記住其展開/摺疊狀態",
+    "改進工具列間距以突顯匯出按鈕並改善 macOS Tahoe 上的視覺階層",
+    "更新應用程式圖示以與 iOS 應用程式保持一致的外觀"
+  ],
+  "fixes": [],
+  "patches": []
+}

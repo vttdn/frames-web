@@ -1,0 +1,51 @@
+{
+  "version": "1.10.0",
+  "version_short": "1.10",
+  "url_slug": "1-10-macos",
+  "platform": "macos",
+  "release_date": "2025-10-31T10:00:00.000Z",
+  "title": "Îmbunătățiri UX pentru o productivitate mai bună",
+  "meta_title": "Îmbunătățiri UX pentru o productivitate mai bună - Frames",
+  "meta_description": "Flux de lucru îmbunătățit cu navigare prin tasta ESC, stare persistentă a barei laterale, aspect rafinat al barei de instrumente pentru macOS Tahoe și ierarhie vizuală îmbunătățită pentru o gestionare mai rapidă și mai eficientă a metadatelor.",
+  "summary": "Experiență macOS raționalizată cu comenzi rapide de tastatură îmbunătățite, memorie inteligentă a barei laterale și interfață rafinată pentru un flux de lucru al metadatelor mai eficient și mai productiv.",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Navigare îmbunătățită cu tastatura"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tasta ESC se alătură acum comenzilor rapide de tastatură existente pentru a face fluxul de lucru și mai fluid. Apăsați ESC pentru a deselecta rapid un cadru și a reveni la prezentarea generală a filmului în inspector, comutând fără probleme între detaliile cadrului și ale filmului fără a vă întrerupe concentrarea. Combinată cu navigarea cu tastele săgeți, Return pentru atașarea imaginilor și Delete pentru eliminarea lor, acum aveți control complet de la tastatură asupra fluxului de lucru al metadatelor."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-mac-1.10.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-mac-1.10.0-1@2x.png",
+      "alt": "Aplicația Frames pentru macOS cu navigare îmbunătățită cu tastatura și interfață rafinată pentru flux de lucru eficient al metadatelor filmului",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Bară laterală mai inteligentă și interfață rafinată"
+    },
+    {
+      "type": "paragraph",
+      "content": "Bara laterală reține acum inteligent care secțiuni preferați extinse sau restrânse – fie că este vorba de camere, obiective, filtre, tipuri de film, coordonate GPS, hartă sau previzualizare imagine. Spațiul de lucru rămâne organizat exact cum vă place, economisind timp și reducând frecarea în fluxul de lucru zilnic."
+    },
+    {
+      "type": "paragraph",
+      "content": "Bara de instrumente a fost rafinată pentru macOS Tahoe cu spațiere îmbunătățită care evidențiază butonul Exportă, făcându-l mai ușor de localizat dintr-o privire. Ierarhia vizuală îmbunătățită creează un aspect mai curat și mai profesional, menținând în același timp aceeași funcționalitate familiară. În plus, pictograma aplicației a fost actualizată pentru a se potrivi cu versiunea iOS, asigurând o experiență unificată pe toate dispozitivele dvs."
+    }
+  ],
+  "improvements": [
+    "Adăugată tasta ESC pentru deselectarea cadrelor și comutarea între detaliile cadrului și ale filmului",
+    "Secțiunile barei laterale (camere, obiective, filtre, tipuri de film, GPS, hartă, previzualizare imagine) rețin acum starea lor extinsă/restrânsă",
+    "Spațiere îmbunătățită a barei de instrumente pentru a evidenția butonul Exportă și a îmbunătăți ierarhia vizuală pe macOS Tahoe",
+    "Pictogramă aplicație actualizată pentru aspect consistent cu aplicația iOS"
+  ],
+  "fixes": [],
+  "patches": []
+}

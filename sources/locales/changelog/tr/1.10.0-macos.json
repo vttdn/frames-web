@@ -1,0 +1,51 @@
+{
+  "version": "1.10.0",
+  "version_short": "1.10",
+  "url_slug": "1-10-macos",
+  "platform": "macos",
+  "release_date": "2025-10-31T10:00:00.000Z",
+  "title": "Daha İyi Üretkenlik için UX İyileştirmeleri",
+  "meta_title": "Daha İyi Üretkenlik için UX İyileştirmeleri - Frames",
+  "meta_description": "ESC tuşu navigasyonu, kalıcı kenar çubuğu durumu, macOS Tahoe için geliştirilmiş araç çubuğu düzeni ve daha hızlı ve verimli metadata yönetimi için geliştirilmiş görsel hiyerarşi ile geliştirilmiş iş akışı.",
+  "summary": "Geliştirilmiş klavye kısayolları, akıllı kenar çubuğu belleği ve daha verimli ve üretken bir metadata iş akışı için geliştirilmiş arayüz ile optimize edilmiş macOS deneyimi.",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Geliştirilmiş Klavye Navigasyonu"
+    },
+    {
+      "type": "paragraph",
+      "content": "ESC tuşu artık mevcut klavye kısayollarına katılarak iş akışınızı daha da akıcı hale getiriyor. Bir kareyi hızlıca seçimden çıkarmak ve denetleyicideki film genel görünümüne dönmek için ESC'ye basın, odağınızı kesmeden kare ve film ayrıntıları arasında sorunsuzca geçiş yapın. Ok tuşu navigasyonu, görselleri eklemek için Return ve bunları kaldırmak için Delete ile birleştirildiğinde, artık metadata iş akışınız üzerinde tam klavye kontrolüne sahipsiniz."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-mac-1.10.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-mac-1.10.0-1@2x.png",
+      "alt": "Geliştirilmiş klavye navigasyonu ve verimli film metadata iş akışı için geliştirilmiş arayüze sahip Frames macOS uygulaması",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Daha Akıllı Kenar Çubuğu ve Geliştirilmiş Arayüz"
+    },
+    {
+      "type": "paragraph",
+      "content": "Kenar çubuğu artık hangi bölümleri genişletilmiş veya daraltılmış tercih ettiğinizi akıllıca hatırlıyor—kameralar, lensler, filtreler, film stokları, GPS koordinatları, harita veya görsel önizlemesi olsun. Çalışma alanınız tam istediğiniz gibi düzenli kalıyor, zaman kazandırıyor ve günlük iş akışınızdaki sürtüşmeyi azaltıyor."
+    },
+    {
+      "type": "paragraph",
+      "content": "Araç çubuğu, Dışa Aktar düğmesini vurgulayan ve bir bakışta bulunmasını kolaylaştıran geliştirilmiş boşlukla macOS Tahoe için geliştirildi. Geliştirilmiş görsel hiyerarşi, aynı tanıdık işlevselliği korurken daha temiz ve profesyonel bir görünüm yaratıyor. Ayrıca, uygulama simgesi iOS sürümüyle eşleşecek şekilde güncellenerek tüm cihazlarınızda birleşik bir deneyim sağlanıyor."
+    }
+  ],
+  "improvements": [
+    "Karelerin seçimini kaldırmak ve kare ile film ayrıntıları arasında geçiş yapmak için ESC tuşu eklendi",
+    "Kenar çubuğu bölümleri (kameralar, lensler, filtreler, film stokları, GPS, harita, görsel önizlemesi) artık genişletilmiş/daraltılmış durumlarını hatırlıyor",
+    "Dışa Aktar düğmesini vurgulamak ve macOS Tahoe'da görsel hiyerarşiyi geliştirmek için araç çubuğu boşluğu geliştirildi",
+    "iOS uygulamasıyla tutarlı görünüm için uygulama simgesi güncellendi"
+  ],
+  "fixes": [],
+  "patches": []
+}

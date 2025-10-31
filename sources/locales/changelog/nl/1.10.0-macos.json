@@ -1,0 +1,51 @@
+{
+  "version": "1.10.0",
+  "version_short": "1.10",
+  "url_slug": "1-10-macos",
+  "platform": "macos",
+  "release_date": "2025-10-31T10:00:00.000Z",
+  "title": "UX-verbeteringen voor betere productiviteit",
+  "meta_title": "UX-verbeteringen voor betere productiviteit - Frames",
+  "meta_description": "Verbeterde workflow met ESC-toetsnavigatie, blijvende zijbalkstatus, verfijnde werkbalkindeling voor macOS Tahoe en verbeterde visuele hiërarchie voor sneller en efficiënter metadatabeheer.",
+  "summary": "Gestroomlijnde macOS-ervaring met verbeterde toetsenbordsneltoetsen, intelligent zijbalkgeheugen en verfijnde interface voor een efficiëntere en productievere metadataworkflow.",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Verbeterde toetsenbordnavigatie"
+    },
+    {
+      "type": "paragraph",
+      "content": "De ESC-toets voegt zich nu bij de bestaande toetsenbordsneltoetsen om je workflow nog vloeiender te maken. Druk op ESC om snel een filmframe te deselecteren en terug te keren naar het filmoverzicht in de inspector, waarbij je naadloos schakelt tussen filmframe- en filmdetails zonder je concentratie te onderbreken. Gecombineerd met pijltjestoetsnavigatie, Return om afbeeldingen te koppelen en Delete om ze te verwijderen, heb je nu volledige toetsenbordcontrole over je metadataworkflow."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-mac-1.10.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-mac-1.10.0-1@2x.png",
+      "alt": "Frames macOS-app met verbeterde toetsenbordnavigatie en verfijnde interface voor efficiënte filmmetadataworkflow",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Slimmere zijbalk en verfijnde interface"
+    },
+    {
+      "type": "paragraph",
+      "content": "De zijbalk onthoudt nu intelligent welke secties je liever uitgeklapt of ingeklapt hebt – of het nu gaat om camera's, lenzen, filters, filmsoorten, GPS-coördinaten, kaart of afbeeldingsvoorbeeld. Je werkruimte blijft exact georganiseerd zoals jij het wilt, wat tijd bespaart en wrijving in je dagelijkse workflow vermindert."
+    },
+    {
+      "type": "paragraph",
+      "content": "De werkbalk is verfijnd voor macOS Tahoe met verbeterde afstand die de Exporteren-knop benadrukt, waardoor deze gemakkelijker te vinden is met een oogopslag. De verbeterde visuele hiërarchie creëert een schonere en professionelere uitstraling terwijl dezelfde vertrouwde functionaliteit behouden blijft. Daarnaast is het app-icoon bijgewerkt om overeen te komen met de iOS-versie, wat zorgt voor een uniforme ervaring op al je apparaten."
+    }
+  ],
+  "improvements": [
+    "ESC-toets toegevoegd om filmframes te deselecteren en te schakelen tussen filmframe- en filmdetails",
+    "Zijbalksecties (camera's, lenzen, filters, filmsoorten, GPS, kaart, afbeeldingsvoorbeeld) onthouden nu hun uitgeklapte/ingeklapte status",
+    "Verbeterde werkbalkafstand om de Exporteren-knop te benadrukken en de visuele hiërarchie op macOS Tahoe te verbeteren",
+    "App-icoon bijgewerkt voor consistente uitstraling met de iOS-app"
+  ],
+  "fixes": [],
+  "patches": []
+}

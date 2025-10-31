@@ -1,0 +1,51 @@
+{
+  "version": "1.10.0",
+  "version_short": "1.10",
+  "url_slug": "1-10-macos",
+  "platform": "macos",
+  "release_date": "2025-10-31T10:00:00.000Z",
+  "title": "Améliorations ergonomiques pour plus d'efficacité",
+  "meta_title": "Améliorations ergonomiques pour plus d'efficacité - Frames",
+  "meta_description": "Flux de travail optimisé avec la navigation par touche ESC, mémorisation de l'état de la barre d'inspection, mise en page affinée pour macOS Tahoe, et hiérarchie visuelle améliorée pour une gestion des métadonnées plus rapide et efficace.",
+  "summary": "Expérience macOS optimisée avec des raccourcis clavier étendus, une barre d'inspection intelligente qui mémorise vos préférences, et un affinement général de l'interface pour une gestion des métadonnées plus fluide et productive.",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Navigation clavier enrichie"
+    },
+    {
+      "type": "paragraph",
+      "content": "La touche ESC rejoint les raccourcis clavier existants pour rendre votre expérience encore plus fluide. Appuyez sur ESC pour désélectionner rapidement une frame et revenir aux informations de la pellicule dans l'inspecteur, passant ainsi de façon pratique entre les détails d'une frame et ceux de la pellicule sans interrompre votre concentration. Combinée à la navigation via les flèches, la touche Entrée pour associer des images, et Suppr pour les dissocier, vous disposez désormais d'un contrôle clavier complet pour interagir avec l'application."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-mac-1.10.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-mac-1.10.0-1@2x.png",
+      "alt": "Application Frames pour macOS avec navigation clavier améliorée et interface raffinée pour une gestion efficace des métadonnées de pellicule",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Barre latérale intelligente et interface raffinée"
+    },
+    {
+      "type": "paragraph",
+      "content": "La barre latérale mémorise désormais intelligemment les sections que vous préférez voir déployées ou réduites, qu'il s'agisse des boîtiers, des objectifs, des filtres, des pellicules, des coordonnées GPS, de la carte ou de l'aperçu d'image. Votre espace de travail reste organisé exactement comme vous l'aimez, vous faisant gagner du temps et éliminant les frictions dans votre routine quotidienne."
+    },
+    {
+      "type": "paragraph",
+      "content": "La barre d'outils a été affinée pour macOS Tahoe avec un espacement amélioré qui met en valeur le bouton Exporter, le rendant plus facile à repérer au premier coup d'œil. Cette hiérarchie visuelle renforcée offre une apparence plus épurée et professionnelle tout en conservant la même fonctionnalité familière. De plus, l'icône de l'application a été mise à jour pour correspondre à la version iOS, garantissant une expérience unifiée sur tous vos appareils."
+    }
+  ],
+  "improvements": [
+    "Ajout de la touche ESC pour désélectionner une frame et basculer entre ses détails et ceux de la pellicule",
+    "Les sections de la barre latérale (boîtiers, objectifs, filtres, pellicules, GPS, carte, aperçu d'image) mémorisent désormais leur état déployé ou réduit",
+    "Espacement amélioré de la barre d'outils pour mettre en valeur le bouton Exporter et améliorer la hiérarchie visuelle sur macOS Tahoe",
+    "Mise à jour de l'icône de l'application pour une apparence cohérente avec l'app iOS"
+  ],
+  "fixes": [],
+  "patches": []
+}

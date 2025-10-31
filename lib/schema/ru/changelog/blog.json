@@ -12,12 +12,30 @@
   "blogPost": [
     {
       "@type": "BlogPosting",
+      "@id": "https://withframes.com/ru/changelog/1-10-macos/",
+      "url": "https://withframes.com/ru/changelog/1-10-macos/",
+      "headline": "Улучшения UX для повышения продуктивности",
+      "description": "Улучшенный рабочий процесс с навигацией клавишей ESC, сохраняемым состоянием боковой панели, усовершенствованной компоновкой панели инструментов для macOS Tahoe и улучшенной визуальной иерархией для более быстрого и эффективного управления метаданными.",
+      "datePublished": "2025-10-31T10:00:00.000Z",
+      "dateModified": "2025-10-31T18:35:24+00:00",
+      "inLanguage": "ru",
+      "author": {"@id": "https://withframes.com/#vincent-tantardini"},
+      "publisher": {
+        "@id": "https://withframes.com/#organization"
+      },
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://withframes.com/lib/img/ru/changelog/og-image/1-10-macos-og-image.jpg",
+        "width": "1200",
+        "height": "630"
+      }    },    {
+      "@type": "BlogPosting",
       "@id": "https://withframes.com/ru/changelog/1-14-ios/",
       "url": "https://withframes.com/ru/changelog/1-14-ios/",
       "headline": "Обновлённый интерфейс с новым Liquid Glass Design от Apple",
       "description": "Frames использует современный язык дизайна Apple с полным обновлением интерфейса, вдохновлённым эстетикой Liquid Glass Design. От полностью переработанной панели записи...",
       "datePublished": "2025-10-30T10:00:00.000Z",
-      "dateModified": "2025-10-31T16:31:13+00:00",
+      "dateModified": "2025-10-31T18:35:24+00:00",
       "inLanguage": "ru",
       "author": {"@id": "https://withframes.com/#vincent-tantardini"},
       "publisher": {
@@ -35,7 +53,7 @@
       "headline": "Переработанный инспектор и улучшенное управление метаданными",
       "description": "Версия 1.9 представляет полностью переработанный инспектор с усовершенствованной навигацией по вкладкам, расширенным отображением метаданных и выделенной...",
       "datePublished": "2025-10-26T10:00:00.000Z",
-      "dateModified": "2025-10-31T16:31:13+00:00",
+      "dateModified": "2025-10-31T18:35:24+00:00",
       "inLanguage": "ru",
       "author": {"@id": "https://withframes.com/#vincent-tantardini"},
       "publisher": {
@@ -53,7 +71,7 @@
       "headline": "Поддержка иврита, арабского, румынского и украинского языков",
       "description": "Frames продолжает свою миссию по обслуживанию аналоговых фотографов по всему миру с этим значительным обновлением локализации, принося нативную поддержку для говорящих на иврите, арабском,...",
       "datePublished": "2025-10-06T10:00:00.000Z",
-      "dateModified": "2025-10-31T16:31:13+00:00",
+      "dateModified": "2025-10-31T18:35:24+00:00",
       "inLanguage": "ru",
       "author": {"@id": "https://withframes.com/#vincent-tantardini"},
       "publisher": {
@@ -71,7 +89,7 @@
       "headline": "Датский, финский, норвежский, вьетнамский и ещё 4 языка",
       "description": "Этот крупный релиз локализации приносит Frames ещё большему числу плёночных фотографов по всему миру, добавляя поддержку датского, финского, норвежского, вьетнамского,...",
       "datePublished": "2025-10-03T10:00:00.000Z",
-      "dateModified": "2025-10-31T16:31:13+00:00",
+      "dateModified": "2025-10-31T18:35:24+00:00",
       "inLanguage": "ru",
       "author": {"@id": "https://withframes.com/#vincent-tantardini"},
       "publisher": {
@@ -89,7 +107,7 @@
       "headline": "Поддержка иврита, арабского, румынского и украинского языков",
       "description": "Frames для macOS продолжает расширять языковую поддержку с ивритом, арабским, румынским и украинским языками, наряду с доработками интерфейса для более плавного процесса метаданных...",
       "datePublished": "2025-10-03T10:00:00.000Z",
-      "dateModified": "2025-10-31T16:31:13+00:00",
+      "dateModified": "2025-10-31T18:35:24+00:00",
       "inLanguage": "ru",
       "author": {"@id": "https://withframes.com/#vincent-tantardini"},
       "publisher": {
@@ -107,7 +125,7 @@
       "headline": "Датский, финский, норвежский, вьетнамский и ещё 4 языка",
       "description": "Этот крупный релиз локализации приносит Frames для macOS ещё большему числу пользователей по всему миру, добавляя поддержку восьми новых языков, одновременно улучшая переводы...",
       "datePublished": "2025-10-02T10:00:00.000Z",
-      "dateModified": "2025-10-31T16:31:13+00:00",
+      "dateModified": "2025-10-31T18:35:24+00:00",
       "inLanguage": "ru",
       "author": {"@id": "https://withframes.com/#vincent-tantardini"},
       "publisher": {
@@ -125,7 +143,7 @@
       "headline": "Метаданные режима замера и улучшения производительности",
       "description": "Frames теперь захватывает режим замера вашей камеры вместе с данными экспозиции, давая вам более полную запись того, как был измерен каждый кадр.",
       "datePublished": "2025-10-02T10:00:00.000Z",
-      "dateModified": "2025-10-31T16:31:13+00:00",
+      "dateModified": "2025-10-31T18:35:24+00:00",
       "inLanguage": "ru",
       "author": {"@id": "https://withframes.com/#vincent-tantardini"},
       "publisher": {
@@ -143,7 +161,7 @@
       "headline": "Метаданные режима замера и улучшения производительности",
       "description": "Frames для macOS теперь включает поддержку метаданных режима замера для комплексных EXIF-данных, плюс улучшения производительности для более быстрой и стабильной работы.",
       "datePublished": "2025-10-01T10:00:00.000Z",
-      "dateModified": "2025-10-31T16:31:13+00:00",
+      "dateModified": "2025-10-31T18:35:24+00:00",
       "inLanguage": "ru",
       "author": {"@id": "https://withframes.com/#vincent-tantardini"},
       "publisher": {
@@ -161,7 +179,7 @@
       "headline": "Значительные улучшения производительности и стабильности",
       "description": "Этот релиз приносит значительные улучшения под капотом, которые делают Frames быстрее, надёжнее и лучше подготовленным к будущим функциям.",
       "datePublished": "2025-09-23T10:00:00.000Z",
-      "dateModified": "2025-10-31T16:31:13+00:00",
+      "dateModified": "2025-10-31T18:35:24+00:00",
       "inLanguage": "ru",
       "author": {"@id": "https://withframes.com/#vincent-tantardini"},
       "publisher": {
@@ -179,7 +197,7 @@
       "headline": "Значительные улучшения производительности и обработки DNG",
       "description": "Значительно более быстрая обработка DNG с оптимизированным кешированием и использованием памяти. Исправлен импорт .frames и совместимость с Intel Mac для более плавного процесса работы с метаданными.",
       "datePublished": "2025-09-19T10:00:00.000Z",
-      "dateModified": "2025-10-31T16:31:13+00:00",
+      "dateModified": "2025-10-31T18:35:24+00:00",
       "inLanguage": "ru",
       "author": {"@id": "https://withframes.com/#vincent-tantardini"},
       "publisher": {
@@ -197,7 +215,7 @@
       "headline": "Горячие клавиши, нативный инспектор и производительность",
       "description": "Навигация с горячими клавишами и нативной панелью инспектора macOS. Повышенная производительность для более быстрой реинтеграции метаданных с более чистым и профессиональным интерфейсом.",
       "datePublished": "2025-09-18T10:00:00.000Z",
-      "dateModified": "2025-10-31T16:31:13+00:00",
+      "dateModified": "2025-10-31T18:35:24+00:00",
       "inLanguage": "ru",
       "author": {"@id": "https://withframes.com/#vincent-tantardini"},
       "publisher": {
@@ -215,7 +233,7 @@
       "headline": "Подпапки, перемещение свайпом и улучшения TXT-экспорта",
       "description": "Организуйте вашу библиотеку плёнок с вложенными подпапками до 5 уровней глубиной.",
       "datePublished": "2025-09-18T10:00:00.000Z",
-      "dateModified": "2025-10-31T16:31:13+00:00",
+      "dateModified": "2025-10-31T18:35:24+00:00",
       "inLanguage": "ru",
       "author": {"@id": "https://withframes.com/#vincent-tantardini"},
       "publisher": {
@@ -233,7 +251,7 @@
       "headline": "Экспорт TXT-файлов для журналов плёнок",
       "description": "Пользователи Pro теперь могут экспортировать журналы плёнок как TXT-файлы, идеально подходящие для печати полевых заметок или создания быстрых справочных листов для работы в тёмной комнате.",
       "datePublished": "2025-09-15T10:00:00.000Z",
-      "dateModified": "2025-10-31T16:31:13+00:00",
+      "dateModified": "2025-10-31T18:35:24+00:00",
       "inLanguage": "ru",
       "author": {"@id": "https://withframes.com/#vincent-tantardini"},
       "publisher": {
@@ -251,7 +269,7 @@
       "headline": "Полная поддержка специальных возможностей и улучшения записи",
       "description": "Это обновление приносит комплексную поддержку специальных возможностей Apple наряду с улучшениями процесса записи и обработки метаданных, делая Frames более...",
       "datePublished": "2025-09-10T10:00:00.000Z",
-      "dateModified": "2025-10-31T16:31:13+00:00",
+      "dateModified": "2025-10-31T18:35:24+00:00",
       "inLanguage": "ru",
       "author": {"@id": "https://withframes.com/#vincent-tantardini"},
       "publisher": {
@@ -269,7 +287,7 @@
       "headline": "Пользовательские последовательности выдержек и улучшения карты",
       "description": "Устанавливайте пользовательские последовательности выдержек для каждой камеры, показывая только те скорости, которые фактически поддерживает ваша камера.",
       "datePublished": "2025-09-05T10:00:00.000Z",
-      "dateModified": "2025-10-31T16:31:13+00:00",
+      "dateModified": "2025-10-31T18:35:24+00:00",
       "inLanguage": "ru",
       "author": {"@id": "https://withframes.com/#vincent-tantardini"},
       "publisher": {
@@ -287,7 +305,7 @@
       "headline": "Новые плёнки, переработанная система диафрагмы и переключение объективов",
       "description": "Пользовательские последовательности диафрагм для каждого объектива с Harman Phoenix II и новыми плёнками. Переключайте объективы прямо из рекордера для более быстрой и точной аналоговой записи.",
       "datePublished": "2025-09-03T10:00:00.000Z",
-      "dateModified": "2025-10-31T16:31:13+00:00",
+      "dateModified": "2025-10-31T18:35:24+00:00",
       "inLanguage": "ru",
       "author": {"@id": "https://withframes.com/#vincent-tantardini"},
       "publisher": {
@@ -305,7 +323,7 @@
       "headline": "Поддержка DNG Raw-файлов",
       "description": "Встраивайте метаданные в DNG raw-файлы наряду с форматами JPEG и TIFF. Полный аналоговый процесс с комплексными EXIF-данными для профессиональной постобработки.",
       "datePublished": "2025-09-01T10:00:00.000Z",
-      "dateModified": "2025-10-31T16:31:13+00:00",
+      "dateModified": "2025-10-31T18:35:24+00:00",
       "inLanguage": "ru",
       "author": {"@id": "https://withframes.com/#vincent-tantardini"},
       "publisher": {
@@ -323,7 +341,7 @@
       "headline": "Поддержка фильтров, японский и корейский языки",
       "description": "Автоматическое встраивание метаданных фильтров для UV, ND и CPL фильтров. Поддержка японского и корейского языков с улучшенными EXIF-данными, включая серийные номера камер.",
       "datePublished": "2025-08-24T10:00:00.000Z",
-      "dateModified": "2025-10-31T16:31:13+00:00",
+      "dateModified": "2025-10-31T18:35:24+00:00",
       "inLanguage": "ru",
       "author": {"@id": "https://withframes.com/#vincent-tantardini"},
       "publisher": {
@@ -341,7 +359,7 @@
       "headline": "Поддержка записи фильтров",
       "description": "Записывайте UV, ND, CPL и другие фильтры для каждого кадра. Полная аналоговая документация с комплексными метаданными, которые синхронизируются с Mac для полного встраивания EXIF.",
       "datePublished": "2025-08-20T10:00:00.000Z",
-      "dateModified": "2025-10-31T16:31:13+00:00",
+      "dateModified": "2025-10-31T18:35:24+00:00",
       "inLanguage": "ru",
       "author": {"@id": "https://withframes.com/#vincent-tantardini"},
       "publisher": {
@@ -359,7 +377,7 @@
       "headline": "Экспорт GPX и ускоренная генерация файлов",
       "description": "Экспортируйте местоположения плёнок как GPX-файлы для картографического ПО. Значительно более быстрая генерация файлов с улучшенной надёжностью для экспорта больших плёнок.",
       "datePublished": "2025-07-18T10:00:00.000Z",
-      "dateModified": "2025-10-31T16:31:13+00:00",
+      "dateModified": "2025-10-31T18:35:24+00:00",
       "inLanguage": "ru",
       "author": {"@id": "https://withframes.com/#vincent-tantardini"},
       "publisher": {
@@ -377,7 +395,7 @@
       "headline": "Централизованные настройки и улучшенная организация",
       "description": "Единая страница настроек для управления техникой, подпиской и предпочтениями. Лучшая организация делает запись плёночной фотографии быстрее и интуитивнее.",
       "datePublished": "2025-07-17T10:00:00.000Z",
-      "dateModified": "2025-10-31T16:31:13+00:00",
+      "dateModified": "2025-10-31T18:35:24+00:00",
       "inLanguage": "ru",
       "author": {"@id": "https://withframes.com/#vincent-tantardini"},
       "publisher": {
@@ -395,7 +413,7 @@
       "headline": "Поддержка TIFF-файлов",
       "description": "Импортируйте и экспортируйте TIFF-файлы с полным встраиванием метаданных. Поддержка профессионального формата для высококачественных сканов с бесшовным процессом интеграции EXIF.",
       "datePublished": "2025-06-27T10:00:00.000Z",
-      "dateModified": "2025-10-31T16:31:13+00:00",
+      "dateModified": "2025-10-31T18:35:24+00:00",
       "inLanguage": "ru",
       "author": {"@id": "https://withframes.com/#vincent-tantardini"},
       "publisher": {
@@ -413,7 +431,7 @@
       "headline": "Представляем Frames Pro",
       "description": "Перейдите на Frames Pro для неограниченного количества плёнок и будущих расширенных функций. Бесплатные пользователи сохраняют доступ к 10 плёнкам со всем основным функционалом.",
       "datePublished": "2025-06-03T05:52:00.000Z",
-      "dateModified": "2025-10-31T16:31:13+00:00",
+      "dateModified": "2025-10-31T18:35:24+00:00",
       "inLanguage": "ru",
       "author": {"@id": "https://withframes.com/#vincent-tantardini"},
       "publisher": {
@@ -431,7 +449,7 @@
       "headline": "Запуск Frames для macOS",
       "description": "Встраивайте метаданные плёночной фотографии в отсканированные изображения с поддержкой EXIF для Lightroom, Capture One и Apple Photos. Бесшовная реинтеграция данных записи iOS.",
       "datePublished": "2025-04-08T10:00:00.000Z",
-      "dateModified": "2025-10-31T16:31:13+00:00",
+      "dateModified": "2025-10-31T18:35:24+00:00",
       "inLanguage": "ru",
       "author": {"@id": "https://withframes.com/#vincent-tantardini"},
       "publisher": {
@@ -449,7 +467,7 @@
       "headline": "Запуск Frames: Ваш цифровой блокнот для плёночной фотографии",
       "description": "Фиксируйте метаданные плёночной фотографии в полевых условиях на iOS и встраивайте EXIF-данные в отсканированные изображения на macOS. Полный аналоговый процесс с более чем 200 плёнками.",
       "datePublished": "2025-04-01T03:02:00.000Z",
-      "dateModified": "2025-10-31T16:31:13+00:00",
+      "dateModified": "2025-10-31T18:35:24+00:00",
       "inLanguage": "ru",
       "author": {"@id": "https://withframes.com/#vincent-tantardini"},
       "publisher": {

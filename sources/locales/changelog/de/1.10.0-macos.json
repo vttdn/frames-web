@@ -1,0 +1,51 @@
+{
+  "version": "1.10.0",
+  "version_short": "1.10",
+  "url_slug": "1-10-macos",
+  "platform": "macos",
+  "release_date": "2025-10-31T10:00:00.000Z",
+  "title": "UX-Verbesserungen für mehr Produktivität",
+  "meta_title": "UX-Verbesserungen für mehr Produktivität - Frames",
+  "meta_description": "Optimierter Workflow mit ESC-Tasten-Navigation, persistentem Seitenleistenstatus, verfeinertem Symbolleistenlayout für macOS Tahoe und verbesserter visueller Hierarchie für schnellere und effizientere Metadatenverwaltung.",
+  "summary": "Optimiertes macOS-Erlebnis mit erweiterten Tastaturkürzeln, intelligenter Seitenleistenspeicherung und verfeinertem Interface für einen effizienteren und produktiveren Metadaten-Workflow.",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Erweiterte Tastaturnavigation"
+    },
+    {
+      "type": "paragraph",
+      "content": "Die ESC-Taste erweitert jetzt die vorhandenen Tastaturkürzel und macht Ihren Workflow noch flüssiger. Drücken Sie ESC, um ein Einzelbild schnell abzuwählen und zur Filmübersicht im Inspektor zurückzukehren – so wechseln Sie nahtlos zwischen Einzelbild- und Filmdetails, ohne Ihren Fokus zu unterbrechen. In Kombination mit der Pfeiltastennavigation, der Eingabetaste zum Anhängen von Bildern und der Löschtaste zum Entfernen haben Sie nun die vollständige Tastaturkontrolle über Ihren Metadaten-Workflow."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-mac-1.10.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-mac-1.10.0-1@2x.png",
+      "alt": "Frames macOS-App mit verbesserter Tastaturnavigation und verfeinerter Benutzeroberfläche für effiziente Film-Metadatenverwaltung",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Intelligentere Seitenleiste und verfeinerte Oberfläche"
+    },
+    {
+      "type": "paragraph",
+      "content": "Die Seitenleiste merkt sich jetzt intelligent, welche Bereiche Sie lieber ausgeklappt oder eingeklappt haben möchten – ob Kameras, Objektive, Filter, Filmtypen, GPS-Koordinaten, Karte oder Bildvorschau. Ihr Arbeitsbereich bleibt genau so organisiert, wie Sie es mögen, spart Zeit und reduziert Reibung in Ihrem täglichen Workflow."
+    },
+    {
+      "type": "paragraph",
+      "content": "Die Symbolleiste wurde für macOS Tahoe verfeinert, mit verbessertem Abstand, der die Exportieren-Schaltfläche hervorhebt und auf einen Blick leichter auffindbar macht. Die verbesserte visuelle Hierarchie schafft ein klareres und professionelleres Erscheinungsbild bei gleichbleibender vertrauter Funktionalität. Außerdem wurde das App-Symbol aktualisiert, um der iOS-Version zu entsprechen und ein einheitliches Erlebnis auf allen Ihren Geräten zu gewährleisten."
+    }
+  ],
+  "improvements": [
+    "ESC-Taste hinzugefügt, um Einzelbilder abzuwählen und zwischen Einzelbild- und Filmdetails zu wechseln",
+    "Seitenleistenbereiche (Kameras, Objektive, Filter, Filmtypen, GPS, Karte, Bildvorschau) merken sich jetzt ihren ausgeklappten/eingeklappten Zustand",
+    "Verbesserter Symbolleistenabstand zur Hervorhebung der Exportieren-Schaltfläche und Verbesserung der visuellen Hierarchie auf macOS Tahoe",
+    "App-Symbol aktualisiert für einheitliches Erscheinungsbild mit der iOS-App"
+  ],
+  "fixes": [],
+  "patches": []
+}

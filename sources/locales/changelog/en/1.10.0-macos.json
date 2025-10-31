@@ -1,0 +1,51 @@
+{
+  "version": "1.10.0",
+  "version_short": "1.10",
+  "url_slug": "1-10-macos",
+  "platform": "macos",
+  "release_date": "2025-10-31T10:00:00.000Z",
+  "title": "UX Improvements for Better Productivity",
+  "meta_title": "UX Improvements for Better Productivity - Frames",
+  "meta_description": "Enhanced workflow with ESC key navigation, persistent sidebar state, refined toolbar layout for macOS Tahoe, and improved visual hierarchy for faster, more efficient metadata management.",
+  "summary": "Streamlined macOS experience with enhanced keyboard shortcuts, intelligent sidebar memory, and refined interface polish for a more efficient and productive metadata workflow.",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Enhanced Keyboard Navigation"
+    },
+    {
+      "type": "paragraph",
+      "content": "The ESC key now joins the existing keyboard shortcuts to make your workflow even more fluid. Press ESC to quickly deselect a frame and return to the film overview in the inspector, seamlessly switching between frame and film details without interrupting your focus. Combined with arrow key navigation, Return to attach images, and Delete to remove them, you now have complete keyboard control over your metadata workflow."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-mac-1.10.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-mac-1.10.0-1@2x.png",
+      "alt": "Frames macOS app with enhanced keyboard navigation and refined interface for efficient film metadata workflow",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Smarter Sidebar & Refined Interface"
+    },
+    {
+      "type": "paragraph",
+      "content": "The sidebar now intelligently remembers which sections you prefer expanded or collapsed—whether it's cameras, lenses, filters, film stocks, GPS coordinates, map, or image preview. Your workspace stays organized exactly the way you like it, saving time and reducing friction in your daily workflow."
+    },
+    {
+      "type": "paragraph",
+      "content": "The toolbar has been refined for macOS Tahoe with improved spacing that highlights the Export button, making it easier to locate at a glance. The enhanced visual hierarchy creates a cleaner, more professional appearance while maintaining the same familiar functionality. Plus, the app icon has been updated to match the iOS version for a unified experience across all your devices."
+    }
+  ],
+  "improvements": [
+    "Added ESC key to deselect frames and switch between frame and film details",
+    "Sidebar sections (cameras, lenses, filters, film stocks, GPS, map, image preview) now remember their expanded/collapsed state",
+    "Enhanced toolbar spacing to highlight the Export button and improve visual hierarchy on macOS Tahoe",
+    "Updated app icon for consistent appearance with iOS app"
+  ],
+  "fixes": [],
+  "patches": []
+}

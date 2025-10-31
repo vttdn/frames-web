@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>{% if entry.meta_title %}{{ entry.meta_title }}{% else %}{{ entry.title }} · Frames{% endif %}</title>
+    <title>{% if entry.meta_title %}{{ entry.meta_title }}{% else %}{{ entry.title }} - Frames{% endif %}</title>
     <meta name="description" content="{% if entry.meta_description %}{{ entry.meta_description }}{% else %}{{ entry.summary }}{% endif %}" />
     <link rel="canonical" href="https://withframes.com{{ lang_config.path }}{{ locale_data.urls.changelog }}{{ entry.url_slug }}/" />
     {% for link in hreflang_links %}
@@ -12,7 +12,7 @@
 
     <!-- Open Graph -->
     <meta property="og:type" content="article" />
-    <meta property="og:title" content="{% if entry.meta_title %}{{ entry.meta_title }}{% else %}{{ entry.title }} · Frames{% endif %}" />
+    <meta property="og:title" content="{% if entry.meta_title %}{{ entry.meta_title }}{% else %}{{ entry.title }} - Frames{% endif %}" />
     <meta property="og:description" content="{% if entry.meta_description %}{{ entry.meta_description }}{% else %}{{ entry.summary }}{% endif %}" />
     <meta property="og:url" content="https://withframes.com{{ lang_config.path }}{{ locale_data.urls.changelog }}{{ entry.url_slug }}/" />
     <meta property="og:site_name" content="Frames" />
@@ -21,7 +21,7 @@
 
     <!-- Twitter Card -->
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="{% if entry.meta_title %}{{ entry.meta_title }}{% else %}{{ entry.title }} · Frames{% endif %}" />
+    <meta name="twitter:title" content="{% if entry.meta_title %}{{ entry.meta_title }}{% else %}{{ entry.title }} - Frames{% endif %}" />
     <meta name="twitter:description" content="{% if entry.meta_description %}{{ entry.meta_description }}{% else %}{{ entry.summary }}{% endif %}" />
     <meta name="twitter:image" content="https://withframes.com{{ og_image_url }}" />
 

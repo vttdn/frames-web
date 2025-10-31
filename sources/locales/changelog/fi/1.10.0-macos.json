@@ -1,0 +1,51 @@
+{
+  "version": "1.10.0",
+  "version_short": "1.10",
+  "url_slug": "1-10-macos",
+  "platform": "macos",
+  "release_date": "2025-10-31T10:00:00.000Z",
+  "title": "Käyttökokemuksen parannukset tuottavuuden tehostamiseksi",
+  "meta_title": "Käyttökokemuksen parannukset tuottavuuden tehostamiseksi - Frames",
+  "meta_description": "Parannettu työnkulku ESC-näppäimen navigoinnilla, pysyvällä sivupalkin tilalla, hiotulla työkalupalkin asettelulla macOS Tahoelle ja parannetulla visuaalisella hierarkialla nopeampaan ja tehokkaampaan metatietojen hallintaan.",
+  "summary": "Virtaviivaistettu macOS-kokemus parannetuilla pikanäppäimillä, älykkäällä sivupalkin muistilla ja hiotulla käyttöliittymällä tehokkaampaan ja tuottavampaan metatietojen hallintaan.",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Parannettu näppäimistönavigaatio"
+    },
+    {
+      "type": "paragraph",
+      "content": "ESC-näppäin liittyy nyt olemassa oleviin pikanäppäimiin tehden työnkulustasi entistäkin sujuvamman. Paina ESC poistaaksesi kehyksen valinnan nopeasti ja palataksesi filmin yleiskatsaukseen tarkastimessa, vaihtaen saumattomasti kehyksen ja filmin tietojen välillä keskeyttämättä keskittymistäsi. Yhdistettynä nuolinäppäimien navigointiin, Return-näppäimeen kuvien liittämiseen ja Delete-näppäimeen niiden poistamiseen, sinulla on nyt täysi näppäimistöhallinta metatietojen työnkulussasi."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-mac-1.10.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-mac-1.10.0-1@2x.png",
+      "alt": "Frames macOS-sovellus parannetulla näppäimistönavigoinnilla ja hiotulla käyttöliittymällä tehokkaaseen filmin metatietojen hallintaan",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Älykkäämpi sivupalkki ja hiottu käyttöliittymä"
+    },
+    {
+      "type": "paragraph",
+      "content": "Sivupalkki muistaa nyt älykkäästi, mitkä osiot haluat laajennettuna tai kutistettuna – olipa kyse kameroista, objektiiveista, suodattimista, filmeistä, GPS-koordinaateista, kartasta tai kuvan esikatselusta. Työtilasi pysyy järjestettynä juuri niin kuin haluat, säästäen aikaa ja vähentäen kitkaa päivittäisessä työnkulussasi."
+    },
+    {
+      "type": "paragraph",
+      "content": "Työkalupalkki on hiottu macOS Tahoelle parannetulla välistyksellä, joka korostaa Vie-painiketta ja tekee siitä helpommin havaittavan yhdellä silmäyksellä. Parannettu visuaalinen hierarkia luo siistimmän ja ammattimaisemman ulkoasun säilyttäen saman tutun toiminnallisuuden. Lisäksi sovelluksen kuvake on päivitetty vastaamaan iOS-versiota, mikä takaa yhtenäisen kokemuksen kaikilla laitteillasi."
+    }
+  ],
+  "improvements": [
+    "Lisätty ESC-näppäin kehysten valinnan poistoon ja kehyksen ja filmin tietojen välillä vaihtamiseen",
+    "Sivupalkin osiot (kamerat, objektiivit, suodattimet, filmit, GPS, kartta, kuvan esikatselu) muistavat nyt laajennetun/kutistetun tilansa",
+    "Parannettu työkalupalkin välistys Vie-painikkeen korostamiseksi ja visuaalisen hierarkian parantamiseksi macOS Tahoella",
+    "Päivitetty sovelluksen kuvake yhtenäisen ulkoasun saavuttamiseksi iOS-sovelluksen kanssa"
+  ],
+  "fixes": [],
+  "patches": []
+}

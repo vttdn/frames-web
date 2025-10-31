@@ -1,0 +1,51 @@
+{
+  "version": "1.10.0",
+  "version_short": "1.10",
+  "url_slug": "1-10-macos",
+  "platform": "macos",
+  "release_date": "2025-10-31T10:00:00.000Z",
+  "title": "提升生产力的 UX 改进",
+  "meta_title": "提升生产力的 UX 改进 - Frames",
+  "meta_description": "通过 ESC 键导航、持久侧边栏状态、macOS Tahoe 的精致工具栏布局以及改进的视觉层次结构来增强工作流程，实现更快、更高效的元数据管理。",
+  "summary": "通过增强的键盘快捷键、智能侧边栏记忆和精致的界面，实现更高效、更高产的元数据工作流程，优化 macOS 体验。",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "增强的键盘导航"
+    },
+    {
+      "type": "paragraph",
+      "content": "ESC 键现已加入现有的键盘快捷键，让您的工作流程更加流畅。按 ESC 可快速取消选择帧并返回检查器中的胶卷概览，在帧和胶卷详情之间无缝切换而不会中断您的专注。结合方向键导航、Return 键关联图像以及 Delete 键删除图像，您现在可以完全通过键盘控制元数据工作流程。"
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-mac-1.10.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-mac-1.10.0-1@2x.png",
+      "alt": "具有增强键盘导航和精致界面的 Frames macOS 应用，实现高效的胶片元数据工作流程",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "更智能的侧边栏和精致的界面"
+    },
+    {
+      "type": "paragraph",
+      "content": "侧边栏现在会智能地记住您希望展开或折叠的部分——无论是相机、镜头、滤镜、胶片类型、GPS 坐标、地图还是图像预览。您的工作空间始终按照您喜欢的方式组织，节省时间并减少日常工作流程中的摩擦。"
+    },
+    {
+      "type": "paragraph",
+      "content": "工具栏针对 macOS Tahoe 进行了精致设计，改进的间距突出显示了导出按钮，使其一眼就能轻松找到。增强的视觉层次结构创造了更简洁、更专业的外观，同时保持相同的熟悉功能。此外，应用图标已更新以匹配 iOS 版本，确保在您的所有设备上提供统一的体验。"
+    }
+  ],
+  "improvements": [
+    "添加 ESC 键以取消选择帧并在帧和胶卷详情之间切换",
+    "侧边栏部分（相机、镜头、滤镜、胶片类型、GPS、地图、图像预览）现在会记住其展开/折叠状态",
+    "改进工具栏间距以突出显示导出按钮并改善 macOS Tahoe 上的视觉层次结构",
+    "更新应用图标以与 iOS 应用保持一致的外观"
+  ],
+  "fixes": [],
+  "patches": []
+}

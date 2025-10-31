@@ -1,0 +1,51 @@
+{
+  "version": "1.10.0",
+  "version_short": "1.10",
+  "url_slug": "1-10-macos",
+  "platform": "macos",
+  "release_date": "2025-10-31T10:00:00.000Z",
+  "title": "Ulepszenia UX dla lepszej produktywności",
+  "meta_title": "Ulepszenia UX dla lepszej produktywności - Frames",
+  "meta_description": "Ulepszony przepływ pracy z nawigacją klawiszem ESC, trwałym stanem paska bocznego, dopracowanym układem paska narzędzi dla macOS Tahoe oraz ulepszoną hierarchią wizualną dla szybszego i bardziej efektywnego zarządzania metadanymi.",
+  "summary": "Usprawnienie systemu macOS dzięki ulepszonym skrótom klawiszowym, inteligentnej pamięci paska bocznego i dopracowanemu interfejsowi dla bardziej wydajnego i produktywnego przepływu pracy z metadanymi.",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Ulepszona nawigacja klawiaturą"
+    },
+    {
+      "type": "paragraph",
+      "content": "Klawisz ESC dołącza teraz do istniejących skrótów klawiszowych, aby Twój przepływ pracy był jeszcze płynniejszy. Naciśnij ESC, aby szybko odznaczyć klatkę i wrócić do przeglądu filmu w inspektorze, płynnie przełączając się między szczegółami klatki i filmu bez przerywania koncentracji. W połączeniu z nawigacją klawiszami strzałek, klawiszem Return do dołączania obrazów i Delete do ich usuwania, masz teraz pełną kontrolę klawiatury nad przepływem pracy z metadanymi."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-mac-1.10.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-mac-1.10.0-1@2x.png",
+      "alt": "Aplikacja Frames dla macOS z ulepszoną nawigacją klawiaturą i dopracowanym interfejsem dla wydajnego przepływu pracy z metadanymi filmu",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Inteligentniejszy pasek boczny i dopracowany interfejs"
+    },
+    {
+      "type": "paragraph",
+      "content": "Pasek boczny inteligentnie zapamiętuje teraz, które sekcje wolisz rozwinięte lub zwinięte – czy to aparaty, obiektywy, filtry, typy filmów, współrzędne GPS, mapa czy podgląd obrazu. Twój obszar roboczy pozostaje zorganizowany dokładnie tak, jak lubisz, oszczędzając czas i redukując tarcia w codziennym przepływie pracy."
+    },
+    {
+      "type": "paragraph",
+      "content": "Pasek narzędzi został dopracowany dla macOS Tahoe z ulepszonym odstępem, który podkreśla przycisk Eksportuj, ułatwiając jego zlokalizowanie od razu. Ulepszona hierarchia wizualna tworzy czystszy i bardziej profesjonalny wygląd, zachowując tę samą znajomą funkcjonalność. Ponadto ikona aplikacji została zaktualizowana, aby odpowiadała wersji iOS, zapewniając zunifikowane doświadczenie na wszystkich Twoich urządzeniach."
+    }
+  ],
+  "improvements": [
+    "Dodano klawisz ESC do odznaczania klatek i przełączania między szczegółami klatki i filmu",
+    "Sekcje paska bocznego (aparaty, obiektywy, filtry, typy filmów, GPS, mapa, podgląd obrazu) zapamiętują teraz swój stan rozwinięty/zwinięty",
+    "Ulepszony odstęp paska narzędzi, aby podkreślić przycisk Eksportuj i ulepszyć hierarchię wizualną w macOS Tahoe",
+    "Zaktualizowano ikonę aplikacji dla spójnego wyglądu z aplikacją iOS"
+  ],
+  "fixes": [],
+  "patches": []
+}

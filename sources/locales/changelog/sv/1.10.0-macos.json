@@ -1,0 +1,51 @@
+{
+  "version": "1.10.0",
+  "version_short": "1.10",
+  "url_slug": "1-10-macos",
+  "platform": "macos",
+  "release_date": "2025-10-31T10:00:00.000Z",
+  "title": "UX-förbättringar för bättre produktivitet",
+  "meta_title": "UX-förbättringar för bättre produktivitet - Frames",
+  "meta_description": "Förbättrat arbetsflöde med ESC-tangentersnavigering, beständigt sidopanelläge, förfinat verktygsfältslayout för macOS Tahoe och förbättrad visuell hierarki för snabbare och mer effektiv metadatahantering.",
+  "summary": "Strömlinjeformad macOS-upplevelse med förbättrade tangentbordsgenvägar, intelligent sidopanelsminne och förfinat gränssnitt för ett mer effektivt och produktivt metadataarbetsflöde.",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Förbättrad tangentbordsnavigering"
+    },
+    {
+      "type": "paragraph",
+      "content": "ESC-tangenten ansluter sig nu till befintliga tangentbordsgenvägar för att göra ditt arbetsflöde ännu smidigare. Tryck på ESC för att snabbt avmarkera en ruta och återgå till filmöversikten i inspektören, och växla sömlöst mellan rut- och filmdetaljer utan att avbryta ditt fokus. I kombination med piltangentersnavigering, Return för att bifoga bilder och Delete för att ta bort dem, har du nu fullständig tangentbordskontroll över ditt metadataarbetsflöde."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-mac-1.10.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-mac-1.10.0-1@2x.png",
+      "alt": "Frames macOS-app med förbättrad tangentbordsnavigering och förfinat gränssnitt för effektivt filmmetadataarbetsflöde",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Smartare sidopanel och förfinat gränssnitt"
+    },
+    {
+      "type": "paragraph",
+      "content": "Sidopanelen kommer nu intelligent ihåg vilka sektioner du föredrar expanderade eller komprimerade – oavsett om det är kameror, objektiv, filter, filmtyper, GPS-koordinater, karta eller bildförhandsvisning. Din arbetsyta förblir organiserad exakt som du vill ha den, vilket sparar tid och minskar friktion i ditt dagliga arbetsflöde."
+    },
+    {
+      "type": "paragraph",
+      "content": "Verktygsfältet har förfinats för macOS Tahoe med förbättrat avstånd som framhäver Exportera-knappen och gör den lättare att hitta med en blick. Den förbättrade visuella hierarkin skapar ett renare och mer professionellt utseende samtidigt som samma välbekanta funktionalitet bibehålls. Dessutom har appikonen uppdaterats för att matcha iOS-versionen, vilket säkerställer en enhetlig upplevelse på alla dina enheter."
+    }
+  ],
+  "improvements": [
+    "Lade till ESC-tangent för att avmarkera rutor och växla mellan rut- och filmdetaljer",
+    "Sidopanelsektioner (kameror, objektiv, filter, filmtyper, GPS, karta, bildförhandsvisning) kommer nu ihåg sitt expanderade/komprimerade tillstånd",
+    "Förbättrat verktygsfältsavstånd för att framhäva Exportera-knappen och förbättra den visuella hierarkin på macOS Tahoe",
+    "Uppdaterad appikon för konsekvent utseende med iOS-appen"
+  ],
+  "fixes": [],
+  "patches": []
+}

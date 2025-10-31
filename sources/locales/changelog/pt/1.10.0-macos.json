@@ -1,0 +1,51 @@
+{
+  "version": "1.10.0",
+  "version_short": "1.10",
+  "url_slug": "1-10-macos",
+  "platform": "macos",
+  "release_date": "2025-10-31T10:00:00.000Z",
+  "title": "Melhorias de UX para maior produtividade",
+  "meta_title": "Melhorias de UX para maior produtividade - Frames",
+  "meta_description": "Fluxo de trabalho aprimorado com navegação pela tecla ESC, estado persistente da barra lateral, layout refinado da barra de ferramentas para macOS Tahoe e hierarquia visual melhorada para gestão de metadados mais rápida e eficiente.",
+  "summary": "Experiência macOS otimizada com atalhos de teclado aprimorados, memória inteligente da barra lateral e interface refinada para um fluxo de trabalho de metadados mais eficiente e produtivo.",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Navegação por teclado aprimorada"
+    },
+    {
+      "type": "paragraph",
+      "content": "A tecla ESC junta-se agora aos atalhos de teclado existentes para tornar o seu fluxo de trabalho ainda mais fluido. Prima ESC para desselecionar rapidamente um fotograma e regressar à visão geral do filme no inspetor, alternando perfeitamente entre os detalhes do fotograma e do filme sem interromper a sua concentração. Combinada com a navegação por setas, a tecla Return para anexar imagens e Delete para removê-las, tem agora controlo total por teclado sobre o seu fluxo de trabalho de metadados."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-mac-1.10.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-mac-1.10.0-1@2x.png",
+      "alt": "Aplicação Frames para macOS com navegação por teclado aprimorada e interface refinada para fluxo de trabalho eficiente de metadados de filme",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Barra lateral mais inteligente e interface refinada"
+    },
+    {
+      "type": "paragraph",
+      "content": "A barra lateral memoriza agora de forma inteligente quais as secções que prefere expandidas ou recolhidas – sejam câmaras, objetivas, filtros, tipos de filme, coordenadas GPS, mapa ou pré-visualização de imagem. O seu espaço de trabalho permanece organizado exatamente como prefere, poupando tempo e reduzindo o atrito no seu fluxo de trabalho diário."
+    },
+    {
+      "type": "paragraph",
+      "content": "A barra de ferramentas foi refinada para o macOS Tahoe com um espaçamento melhorado que destaca o botão Exportar, facilitando a sua localização num relance. A hierarquia visual melhorada cria uma aparência mais limpa e profissional mantendo a mesma funcionalidade familiar. Além disso, o ícone da aplicação foi atualizado para corresponder à versão iOS, garantindo uma experiência unificada em todos os seus dispositivos."
+    }
+  ],
+  "improvements": [
+    "Adicionada tecla ESC para desselecionar fotogramas e alternar entre os detalhes do fotograma e do filme",
+    "As secções da barra lateral (câmaras, objetivas, filtros, tipos de filme, GPS, mapa, pré-visualização de imagem) memorizam agora o seu estado expandido/recolhido",
+    "Espaçamento melhorado da barra de ferramentas para destacar o botão Exportar e melhorar a hierarquia visual no macOS Tahoe",
+    "Ícone da aplicação atualizado para aparência consistente com a app iOS"
+  ],
+  "fixes": [],
+  "patches": []
+}
