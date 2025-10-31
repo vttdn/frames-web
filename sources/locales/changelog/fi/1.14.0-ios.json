@@ -83,11 +83,20 @@
   ],
   "fixes": [
     {
-      "title": "iOS 18 vieritysvalitsimen synkronointi",
+      "title": "Vieritysvalitsin",
       "description": "Korjattu synkronointiongelmia iOS 18:ssa, joissa vieritysvalitsimen arvot (aukko, suljinnopeus, kuvannumero, valotuskorjaus) näyttivät vääriä sijainteja asetusten muuttamisen jälkeen yksityiskohtaisen näkymän kautta."
+    },
+    {
+      "title": "Kirjaus",
+      "description": "Optimoitu kirjaussuorituskyky nopeampaa ja luotettavampaa tallennusta varten."
     }
   ],
-  "patches": [],
+  "patches": [
+    {
+      "version": "1.14.1",
+      "description": "Kirjauskorjaukset ja luettavuusparannukset"
+    }
+  ],
   "meta_title": "Käyttöliittymä Applen Liquid Designilla · Frames",
   "meta_description": "Frames omaksuu Applen modernin suunnittelukielen täydellisellä käyttöliittymän uudistuksella, joka on saanut inspiraationsa Liquid Glass Design -estetiikasta. Täysin uudelleensuunnitellusta tallennustyökalupalkista..."
 }

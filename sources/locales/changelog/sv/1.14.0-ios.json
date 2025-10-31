@@ -83,11 +83,20 @@
   ],
   "fixes": [
     {
-      "title": "iOS 18 rullväljare synkronisering",
+      "title": "Rullväljare",
       "description": "Löst synkroniseringsproblem på iOS 18 där rullväljarvärden (bländare, slutartid, bildnummer, exponeringskompensation) visade felaktiga positioner efter ändring av inställningar via den detaljerade vyn."
+    },
+    {
+      "title": "Registrering",
+      "description": "Optimerad registreringsprestanda för snabbare och mer tillförlitlig datainsamling."
     }
   ],
-  "patches": [],
+  "patches": [
+    {
+      "version": "1.14.1",
+      "description": "Registreringsfel och läsbarhetsförbättringar"
+    }
+  ],
   "meta_title": "Gränssnitt med Apples Liquid Design · Frames",
   "meta_description": "Frames anammar Apples moderna designspråk med en omfattande gränssnittsförnyelse inspirerad av Liquid Glass Design-estetiken. Från en helt omdesignad inspelningsverktygsfält..."
 }

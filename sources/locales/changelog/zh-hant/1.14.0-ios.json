@@ -83,11 +83,20 @@
   ],
   "fixes": [
     {
-      "title": "iOS 18 滾動選擇器同步",
+      "title": "滾動選擇器",
       "description": "修復了 iOS 18 上的同步問題，該問題導致透過詳細檢視修改設定後，滾動選擇器的數值（光圈、快門速度、畫幅編號、曝光補償）顯示錯誤的位置。"
+    },
+    {
+      "title": "記錄器",
+      "description": "優化記錄器效能，實現更快速、更可靠的資料記錄。"
     }
   ],
-  "patches": [],
+  "patches": [
+    {
+      "version": "1.14.1",
+      "description": "記錄器修復和可讀性改進"
+    }
+  ],
   "meta_title": "採用 Apple Liquid Design 的介面 · Frames",
   "meta_description": "Frames 採用 Apple 現代設計語言，基於全新 Liquid Glass Design 美學進行了全面的介面重新設計。從完全重新構想的記錄工具列..."
 }

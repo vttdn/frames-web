@@ -83,11 +83,20 @@
   ],
   "fixes": [
     {
-      "title": "Synchronizacja selektora iOS 18",
+      "title": "Selektor",
       "description": "Rozwiązano problemy z synchronizacją w iOS 18, gdzie wartości selektora (przysłona, czas naświetlania, numer klatki, kompensacja ekspozycji) wyświetlały nieprawidłowe pozycje po modyfikacji ustawień przez widok szczegółowy."
+    },
+    {
+      "title": "Rejestrator",
+      "description": "Zoptymalizowano wydajność rejestratora dla szybszego i bardziej niezawodnego zapisywania danych."
     }
   ],
-  "patches": [],
+  "patches": [
+    {
+      "version": "1.14.1",
+      "description": "Poprawki rejestratora i ulepszenia czytelności"
+    }
+  ],
   "meta_title": "Interfejs z Liquid Design od Apple · Frames",
   "meta_description": "Frames przyjmuje nowoczesny język projektowania Apple wraz z kompleksowym odnowieniem interfejsu inspirowanym estetyką Liquid Glass Design. Od całkowicie przeprojektowanego paska rejestracji..."
 }

@@ -83,11 +83,20 @@
   ],
   "fixes": [
     {
-      "title": "Sincronizarea selectorului iOS 18",
+      "title": "Selector",
       "description": "Rezolvate problemele de sincronizare pe iOS 18 unde valorile selectorului (diafragma, viteza obturatorului, numărul cadrului, compensarea expunerii) afișau poziții incorecte după modificarea setărilor prin vizualizarea detaliată."
+    },
+    {
+      "title": "Înregistrator",
+      "description": "Performanță optimizată a înregistratorului pentru o jurnalizare mai rapidă și mai fiabilă."
     }
   ],
-  "patches": [],
+  "patches": [
+    {
+      "version": "1.14.1",
+      "description": "Corecții înregistrator și îmbunătățiri lizibilitate"
+    }
+  ],
   "meta_title": "Interfață cu Liquid Design de la Apple · Frames",
   "meta_description": "Frames adoptă limbajul de design modern al Apple printr-o reînnoire completă a interfeței inspirată de estetica Liquid Glass Design. De la bara de înregistrare complet reproiectată..."
 }

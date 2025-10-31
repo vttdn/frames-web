@@ -83,11 +83,20 @@
   ],
   "fixes": [
     {
-      "title": "iOS 18 kiezersynchronisatie",
+      "title": "Kiezer",
       "description": "Synchronisatieproblemen op iOS 18 opgelost waarbij kiezerwaarden (diafragma, sluitertijd, framenummer, belichtingscorrectie) onjuiste posities toonden na het wijzigen van instellingen via de gedetailleerde weergave."
+    },
+    {
+      "title": "Registratie",
+      "description": "Geoptimaliseerde registratieprestaties voor snellere en betrouwbaardere gegevensopslag."
     }
   ],
-  "patches": [],
+  "patches": [
+    {
+      "version": "1.14.1",
+      "description": "Registratiefouten en leesbaarheidsverbeteringen"
+    }
+  ],
   "meta_title": "Interface met Apple's Liquid Design · Frames",
   "meta_description": "Frames omarmt Apple's moderne ontwerptaal met een complete interface-vernieuwing geïnspireerd op de Liquid Glass Design-esthetiek. Van een volledig opnieuw ontworpen opnamebalk..."
 }

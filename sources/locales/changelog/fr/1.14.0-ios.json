@@ -83,11 +83,20 @@
   ],
   "fixes": [
     {
-      "title": "Synchronisation des sélecteurs iOS 18",
+      "title": "Sélecteurs",
       "description": "Résolution des problèmes de synchronisation sur iOS 18 où les valeurs des sélecteurs (ouverture, vitesse d'obturation, numéro de vue, correction d'exposition) affichaient des positions incorrectes après modification des réglages via la vue détaillée."
+    },
+    {
+      "title": "Enregistreur",
+      "description": "Performances d'enregistrement optimisées pour une journalisation plus rapide et plus fiable."
     }
   ],
-  "patches": [],
+  "patches": [
+    {
+      "version": "1.14.1",
+      "description": "Corrections de l'enregistreur et améliorations de la lisibilité"
+    }
+  ],
   "meta_title": "Interface Liquid Design d'Apple · Frames",
   "meta_description": "Frames adopte le langage de design moderne d'Apple avec une refonte complète de l'interface intégrant la nouvelle esthétique liquid glass design. D'une barre d'enregistrement entièrement repensée..."
 }

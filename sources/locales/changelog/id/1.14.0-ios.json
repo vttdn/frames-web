@@ -83,11 +83,20 @@
   ],
   "fixes": [
     {
-      "title": "Sinkronisasi pemilih iOS 18",
+      "title": "Pemilih",
       "description": "Menyelesaikan masalah sinkronisasi di iOS 18 di mana nilai pemilih (aperture, kecepatan rana, nomor frame, kompensasi eksposur) menampilkan posisi yang salah setelah mengubah pengaturan melalui tampilan detail."
+    },
+    {
+      "title": "Pencatatan",
+      "description": "Kinerja pencatatan dioptimalkan untuk logging yang lebih cepat dan andal."
     }
   ],
-  "patches": [],
+  "patches": [
+    {
+      "version": "1.14.1",
+      "description": "Perbaikan pencatatan dan peningkatan keterbacaan"
+    }
+  ],
   "meta_title": "Antarmuka dengan Liquid Design dari Apple · Frames",
   "meta_description": "Frames mengadopsi bahasa desain modern Apple dengan pembaruan antarmuka menyeluruh yang terinspirasi dari estetika Liquid Glass Design. Dari bilah perekaman yang benar-benar dirancang ulang..."
 }

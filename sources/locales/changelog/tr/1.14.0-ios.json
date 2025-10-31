@@ -83,11 +83,20 @@
   ],
   "fixes": [
     {
-      "title": "iOS 18 seçici senkronizasyonu",
+      "title": "Seçici",
       "description": "iOS 18'de, detaylı görünüm üzerinden ayarları değiştirdikten sonra seçici değerlerinin (diyafram, deklanşör hızı, kare numarası, pozlama telafisi) yanlış konumlar gösterdiği senkronizasyon sorunları çözüldü."
+    },
+    {
+      "title": "Kaydedici",
+      "description": "Daha hızlı ve güvenilir kayıt için kaydedici performansı optimize edildi."
     }
   ],
-  "patches": [],
+  "patches": [
+    {
+      "version": "1.14.1",
+      "description": "Kaydedici düzeltmeleri ve okunabilirlik iyileştirmeleri"
+    }
+  ],
   "meta_title": "Apple'ın Liquid Design arayüzü · Frames",
   "meta_description": "Frames, Liquid Glass Design estetiğinden ilham alan kapsamlı bir arayüz yenilemesiyle Apple'ın modern tasarım dilini benimsiyor. Tamamen yeniden tasarlanan kayıt araç çubuğundan..."
 }

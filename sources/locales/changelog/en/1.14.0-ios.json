@@ -83,11 +83,20 @@
   ],
   "fixes": [
     {
-      "title": "iOS 18 Scroll Picker Sync",
+      "title": "Scroll Picker",
       "description": "Resolved synchronization issues on iOS 18 where scroll picker values (aperture, shutter speed, frame number, exposure compensation) displayed incorrect positions after modifying settings through the detailed view."
+    },
+    {
+      "title": "Recorder",
+      "description": "Optimized recorder performance for faster, more reliable logging."
     }
   ],
-  "patches": [],
+  "patches": [
+    {
+      "version": "1.14.1",
+      "description": "Recorder fixes and readability improvements"
+    }
+  ],
   "meta_title": "Apple Liquid Design Interface · Frames",
   "meta_description": "Frames embraces Apple's modern design language with a comprehensive interface redesign featuring the new liquid glass design aesthetic. From a completely reimagined recorder toolbar..."
 }

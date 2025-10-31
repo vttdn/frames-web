@@ -83,11 +83,20 @@
   ],
   "fixes": [
     {
-      "title": "Đồng bộ bộ chọn cuộn iOS 18",
+      "title": "Bộ chọn cuộn",
       "description": "Đã giải quyết các vấn đề đồng bộ hóa trên iOS 18 khi các giá trị bộ chọn cuộn (khẩu độ, tốc độ màn trập, số khung hình, bù sáng) hiển thị vị trí không chính xác sau khi sửa đổi cài đặt thông qua chế độ xem chi tiết."
+    },
+    {
+      "title": "Ghi dữ liệu",
+      "description": "Tối ưu hóa hiệu suất ghi dữ liệu để lưu trữ nhanh hơn và đáng tin cậy hơn."
     }
   ],
-  "patches": [],
+  "patches": [
+    {
+      "version": "1.14.1",
+      "description": "Sửa lỗi ghi dữ liệu và cải thiện khả năng đọc"
+    }
+  ],
   "meta_title": "Giao diện với Liquid Design của Apple · Frames",
   "meta_description": "Frames áp dụng ngôn ngữ thiết kế hiện đại của Apple với một bản cải tiến giao diện toàn diện lấy cảm hứng từ thẩm mỹ Liquid Glass Design. Từ thanh ghi hình được thiết kế lại hoàn toàn..."
 }

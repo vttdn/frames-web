@@ -83,11 +83,20 @@
   ],
   "fixes": [
     {
-      "title": "iOS 18 피커 동기화",
+      "title": "피커",
       "description": "상세 보기를 통해 설정을 수정한 후 피커 값(조리개, 셔터 속도, 프레임 번호, 노출 보정)이 잘못된 위치를 표시하던 iOS 18의 동기화 문제를 해결했습니다."
+    },
+    {
+      "title": "레코더",
+      "description": "더 빠르고 안정적인 로깅을 위해 레코더 성능을 최적화했습니다."
     }
   ],
-  "patches": [],
+  "patches": [
+    {
+      "version": "1.14.1",
+      "description": "레코더 수정 및 가독성 개선"
+    }
+  ],
   "meta_title": "Apple의 Liquid Design 인터페이스 · Frames",
   "meta_description": "Frames가 Liquid Glass Design 미학을 바탕으로 한 전면적인 인터페이스 개편을 통해 Apple의 최신 디자인 언어를 채택했습니다. 완전히 재설계된 기록 도구 막대부터..."
 }

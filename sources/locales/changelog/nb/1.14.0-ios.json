@@ -83,11 +83,20 @@
   ],
   "fixes": [
     {
-      "title": "iOS 18 rulleველger synkronisering",
+      "title": "Rulleველger",
       "description": "Løst synkroniseringsproblemer på iOS 18 der rulleველger-verdier (blenderåpning, lukkertid, bildenummer, eksponeringskompensasjon) viste feil posisjoner etter endring av innstillinger via den detaljerte visningen."
+    },
+    {
+      "title": "Registrering",
+      "description": "Optimalisert registreringsytelse for raskere og mer pålitelig datalagring."
     }
   ],
-  "patches": [],
+  "patches": [
+    {
+      "version": "1.14.1",
+      "description": "Registreringsfeil og lesbarhetsforbedringer"
+    }
+  ],
   "meta_title": "Grensesnitt med Apples Liquid Design · Frames",
   "meta_description": "Frames omfavner Apples moderne designspråk med en omfattende grensesnittfornyelse inspirert av Liquid Glass Design-estetikken. Fra en helt redesignet opptaksverktøylinje..."
 }
