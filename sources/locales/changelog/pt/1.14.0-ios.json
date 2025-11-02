@@ -79,7 +79,11 @@
     "Legibilidade dos botões aprimorada com tipografia e hierarquia visual otimizadas.",
     "Campo de busca adicionado à biblioteca para encontrar rapidamente seus rolos.",
     "Tamanhos de fonte refinados em todo o aplicativo para melhor consistência e legibilidade.",
-    "Animações e transições polidas para uma sensação mais refinada e moderna."
+    "Transições refinadas com animações mais fluidas e modernas.",
+    "Redesenho da tela de boas-vindas para um visual mais limpo.",
+    "Adicionado feedback tátil aos botões de gravação.",
+    "Melhoria do espaçamento da primeira coluna na lista de fotogramas.",
+    "Busca em pastas que agora inclui rolos das subpastas."
   ],
   "fixes": [
     {
@@ -89,12 +93,24 @@
     {
       "title": "Gravação",
       "description": "Desempenho de gravação otimizado para registro mais rápido e confiável."
+    },
+    {
+      "title": "Tela de boas-vindas",
+      "description": "Corrigidos problemas de tradução para melhor localização."
+    },
+    {
+      "title": "Barra de busca e vista de mapa",
+      "description": "Corrigidos problemas para animações mais fluidas e resultados consistentes."
     }
   ],
   "patches": [
     {
       "version": "1.14.1",
       "description": "Correções de gravação e melhorias de legibilidade"
+    },
+    {
+      "version": "1.14.2",
+      "description": "Refinamentos da interface e correções"
     }
   ],
   "meta_title": "Interface com Liquid Design da Apple - Frames",

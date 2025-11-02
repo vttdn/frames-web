@@ -79,7 +79,11 @@
     "Lizibilitate îmbunătățită a butoanelor cu tipografie și ierarhie vizuală optimizate.",
     "Câmp de căutare adăugat în bibliotecă pentru a găsi rapid rolele tale.",
     "Dimensiuni de font rafinate în întreaga aplicație pentru o mai bună consistență și lizibilitate.",
-    "Animații și tranziții rafinate pentru o senzație mai rafinată și mai modernă."
+    "Tranziții rafinate cu animații mai fluide și mai moderne.",
+    "Ecranul de bun venit redesenat pentru un aspect mai curat.",
+    "Feedback haptic adăugat la butoanele de înregistrare.",
+    "Spațiere îmbunătățită a primei coloane în lista de Cadre.",
+    "Căutare în dosare îmbunătățită pentru a include filme din subdosare."
   ],
   "fixes": [
     {
@@ -89,12 +93,24 @@
     {
       "title": "Înregistrator",
       "description": "Performanță optimizată a înregistratorului pentru o jurnalizare mai rapidă și mai fiabilă."
+    },
+    {
+      "title": "Ecran de bun venit",
+      "description": "Remediate problemele de traducere pentru o localizare mai bună."
+    },
+    {
+      "title": "Bară de căutare și vizualizare hartă",
+      "description": "Remediate erori pentru animații mai fluide și rezultate consistente."
     }
   ],
   "patches": [
     {
       "version": "1.14.1",
       "description": "Corecții înregistrator și îmbunătățiri lizibilitate"
+    },
+    {
+      "version": "1.14.2",
+      "description": "Rafinări interfață și remedieri"
     }
   ],
   "meta_title": "Interfață cu Liquid Design de la Apple - Frames",

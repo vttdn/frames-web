@@ -79,7 +79,11 @@
     "Parannettu painikkeiden luettavuus optimoidulla typografialla ja visuaalisella hierarkialla.",
     "Lisätty hakukenttä kirjastoon kelojesi nopeaa löytämistä varten.",
     "Hiotut fonttikoot koko sovelluksessa parempaa johdonmukaisuutta ja luettavuutta varten.",
-    "Hiotut animaatiot ja siirtymät hienostuneemman, modernimman tunnelman luomiseksi."
+    "Hiotut siirtymät pehmeämmillä ja modernimmilla animaatioilla.",
+    "Tervetuloruutu uudelleensuunniteltu siistimmäksi.",
+    "Haptinen palaute lisätty tallennuspainikkeisiin.",
+    "Parannettu ensimmäisen sarakkeen välit Kehys-luettelossa.",
+    "Parannettu kansioiden haku sisältämään filmejä alikansioista."
   ],
   "fixes": [
     {
@@ -89,12 +93,24 @@
     {
       "title": "Kirjaus",
       "description": "Optimoitu kirjaussuorituskyky nopeampaa ja luotettavampaa tallennusta varten."
+    },
+    {
+      "title": "Tervetuloruutu",
+      "description": "Korjattu käännösongelmat parempaa lokalisointia varten."
+    },
+    {
+      "title": "Hakukenttä ja karttanäkymä",
+      "description": "Korjattu virheet pehmeämpien animaatioiden ja johdonmukaisten tulosten saamiseksi."
     }
   ],
   "patches": [
     {
       "version": "1.14.1",
       "description": "Kirjauskorjaukset ja luettavuusparannukset"
+    },
+    {
+      "version": "1.14.2",
+      "description": "Käyttöliittymäparannukset ja korjaukset"
     }
   ],
   "meta_title": "Käyttöliittymä Applen Liquid Designilla - Frames",

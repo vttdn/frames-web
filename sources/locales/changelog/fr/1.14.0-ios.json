@@ -79,7 +79,11 @@
     "Lisibilité des boutons améliorée avec une typographie et une hiérarchie visuelle optimisées.",
     "Ajout d'un champ de recherche dans la bibliothèque pour trouver rapidement vos pellicules.",
     "Tailles de police affinées dans toute l'application pour une meilleure cohérence et lisibilité.",
-    "Animations et transitions peaufinées pour une sensation plus raffinée et moderne."
+    "Transitions peaufinées avec des animations plus fluides et modernes.",
+    "Refonte de l'écran d'accueil pour un design plus épuré.",
+    "Ajout de retours haptiques aux boutons de l'enregistreur.",
+    "Amélioration de l'espacement de la première colonne dans la liste des frames.",
+    "Recherche dans les dossiers incluant désormais les pellicules des sous-dossiers."
   ],
   "fixes": [
     {
@@ -89,12 +93,24 @@
     {
       "title": "Enregistreur",
       "description": "Performances d'enregistrement optimisées pour une journalisation plus rapide et plus fiable."
+    },
+    {
+      "title": "Écran d'accueil",
+      "description": "Correction des problèmes de traduction pour une meilleure localisation."
+    },
+    {
+      "title": "Barre de recherche et vue carte",
+      "description": "Correction des problèmes d'affichage pour des animations plus fluides et des résultats cohérents."
     }
   ],
   "patches": [
     {
       "version": "1.14.1",
       "description": "Corrections de l'enregistreur et améliorations de la lisibilité"
+    },
+    {
+      "version": "1.14.2",
+      "description": "Améliorations de l'interface et corrections"
     }
   ],
   "meta_title": "Interface Liquid Design d'Apple - Frames",

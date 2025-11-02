@@ -79,7 +79,11 @@
     "Verbesserte Lesbarkeit der Schaltflächen mit optimierter Typografie und visueller Hierarchie.",
     "Suchfeld zur Bibliothek hinzugefügt, um deine Filme schnell zu finden.",
     "Verfeinerte Schriftgrößen in der gesamten App für bessere Konsistenz und Lesbarkeit.",
-    "Geschliffene Animationen und Übergänge für ein raffinierteres, moderneres Gefühl."
+    "Verfeinerte Übergänge mit flüssigeren und moderneren Animationen.",
+    "Neugestaltung des Willkommensbildschirms für ein klareres Erscheinungsbild.",
+    "Haptisches Feedback zu Aufzeichnungstasten hinzugefügt.",
+    "Verbesserter Abstand der ersten Spalte in der Einzelbildliste.",
+    "Ordnersuche umfasst jetzt Filme aus Unterordnern."
   ],
   "fixes": [
     {
@@ -89,12 +93,24 @@
     {
       "title": "Aufzeichnung",
       "description": "Optimierte Aufzeichnungsleistung für schnellere und zuverlässigere Datenerfassung."
+    },
+    {
+      "title": "Willkommensbildschirm",
+      "description": "Behebung von Übersetzungsproblemen für bessere Lokalisierung."
+    },
+    {
+      "title": "Suchleiste und Kartenansicht",
+      "description": "Behebung von Problemen für flüssigere Animationen und konsistente Ergebnisse."
     }
   ],
   "patches": [
     {
       "version": "1.14.1",
       "description": "Aufzeichnungsfehler und Lesbarkeitsverbesserungen"
+    },
+    {
+      "version": "1.14.2",
+      "description": "UI-Verbesserungen und Fehlerbehebungen"
     }
   ],
   "meta_title": "Oberfläche mit Apples Liquid Glass Design - Frames",

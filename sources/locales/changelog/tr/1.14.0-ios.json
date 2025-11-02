@@ -79,7 +79,11 @@
     "Optimize edilmiş tipografi ve görsel hiyerarşi ile geliştirilmiş düğme okunabilirliği.",
     "Rulolarınızı hızlıca bulmak için kütüphaneye arama alanı eklendi.",
     "Daha iyi tutarlılık ve okunabilirlik için uygulamanın tamamında rafine yazı tipi boyutları.",
-    "Daha rafine, daha modern bir his için cilalanmış animasyonlar ve geçişler."
+    "Daha yumuşak ve daha modern animasyonlarla rafine geçişler.",
+    "Daha temiz bir görünüm için hoş geldiniz ekranı yeniden tasarlandı.",
+    "Kayıt düğmelerine haptik geri bildirim eklendi.",
+    "Kare listesindeki ilk sütun aralığı iyileştirildi.",
+    "Alt klasörlerden filmleri dahil etmek için klasör araması geliştirildi."
   ],
   "fixes": [
     {
@@ -89,12 +93,24 @@
     {
       "title": "Kaydedici",
       "description": "Daha hızlı ve güvenilir kayıt için kaydedici performansı optimize edildi."
+    },
+    {
+      "title": "Hoş Geldiniz Ekranı",
+      "description": "Daha iyi yerelleştirme için çeviri sorunları düzeltildi."
+    },
+    {
+      "title": "Arama Çubuğu ve Harita Görünümü",
+      "description": "Daha yumuşak animasyonlar ve tutarlı sonuçlar için hatalar düzeltildi."
     }
   ],
   "patches": [
     {
       "version": "1.14.1",
       "description": "Kaydedici düzeltmeleri ve okunabilirlik iyileştirmeleri"
+    },
+    {
+      "version": "1.14.2",
+      "description": "Arayüz iyileştirmeleri ve düzeltmeler"
     }
   ],
   "meta_title": "Apple'ın Liquid Design arayüzü - Frames",

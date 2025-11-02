@@ -79,7 +79,11 @@
     "Khả năng đọc nút được cải thiện với kiểu chữ và phân cấp hình ảnh được tối ưu hóa.",
     "Đã thêm trường tìm kiếm vào thư viện để nhanh chóng tìm các cuộn phim của bạn.",
     "Cỡ chữ được tinh chỉnh trong toàn bộ ứng dụng để có tính nhất quán và khả năng đọc tốt hơn.",
-    "Hoạt ảnh và chuyển tiếp được trau chuốt để có cảm giác tinh tế và hiện đại hơn."
+    "Chuyển tiếp được tinh chỉnh với hoạt ảnh mượt mà và hiện đại hơn.",
+    "Màn hình chào mừng được thiết kế lại để có diện mạo gọn gàng hơn.",
+    "Thêm phản hồi xúc giác cho các nút ghi hình.",
+    "Cải thiện khoảng cách cột đầu tiên trong danh sách Khung Hình.",
+    "Tìm kiếm thư mục được cải thiện để bao gồm phim từ các thư mục con."
   ],
   "fixes": [
     {
@@ -89,12 +93,24 @@
     {
       "title": "Ghi dữ liệu",
       "description": "Tối ưu hóa hiệu suất ghi dữ liệu để lưu trữ nhanh hơn và đáng tin cậy hơn."
+    },
+    {
+      "title": "Màn hình chào mừng",
+      "description": "Sửa lỗi dịch thuật để có bản địa hóa tốt hơn."
+    },
+    {
+      "title": "Thanh tìm kiếm và Chế độ xem bản đồ",
+      "description": "Sửa lỗi để có hoạt ảnh mượt mà hơn và kết quả nhất quán."
     }
   ],
   "patches": [
     {
       "version": "1.14.1",
       "description": "Sửa lỗi ghi dữ liệu và cải thiện khả năng đọc"
+    },
+    {
+      "version": "1.14.2",
+      "description": "Tinh chỉnh giao diện và sửa lỗi"
     }
   ],
   "meta_title": "Giao diện với Liquid Design của Apple - Frames",

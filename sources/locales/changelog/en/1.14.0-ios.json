@@ -79,7 +79,11 @@
     "Enhanced button readability with improved typography and visual hierarchy.",
     "Added search field to Library for quick film roll discovery.",
     "Refined font sizes throughout the app for better consistency and readability.",
-    "Polished animations and transitions for a more refined, modern feel."
+    "Polished animations and transitions for a more refined, modern feel.",
+    "Redesigned the welcome screen for a cleaner look.",
+    "Added haptic feedback to recorder buttons.",
+    "Improved first column spacing in frames rows.",
+    "Enhanced folder search to include films from subfolders."
   ],
   "fixes": [
     {
@@ -89,12 +93,24 @@
     {
       "title": "Recorder",
       "description": "Optimized recorder performance for faster, more reliable logging."
+    },
+    {
+      "title": "Welcome Screen",
+      "description": "Fixed translation issues for better localization."
+    },
+    {
+      "title": "Search Bar and Map View",
+      "description": "Fixed glitches for smoother animations and consistent results."
     }
   ],
   "patches": [
     {
       "version": "1.14.1",
       "description": "Recorder fixes and readability improvements"
+    },
+    {
+      "version": "1.14.2",
+      "description": "UI Refinements and fixes"
     }
   ],
   "meta_title": "Apple Liquid Design Interface - Frames",

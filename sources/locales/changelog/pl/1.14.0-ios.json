@@ -79,7 +79,11 @@
     "Ulepszona czytelność przycisków z zoptymalizowaną typografią i hierarchią wizualną.",
     "Dodano pole wyszukiwania do biblioteki w celu szybkiego znajdowania rolek.",
     "Udoskonalone rozmiary czcionek w całej aplikacji dla lepszej spójności i czytelności.",
-    "Dopracowane animacje i przejścia dla bardziej wyrafinowanego, nowoczesnego wrażenia."
+    "Udoskonalone przejścia z płynniejszymi i nowocześniejszymi animacjami.",
+    "Przeprojektowany ekran powitalny dla czystszego wyglądu.",
+    "Dodano sprzężenie zwrotne haptyczne do przycisków rejestratora.",
+    "Poprawiono odstępy pierwszej kolumny na liście klatek.",
+    "Wyszukiwanie w folderach teraz obejmuje rolki z podfolderów."
   ],
   "fixes": [
     {
@@ -89,12 +93,24 @@
     {
       "title": "Rejestrator",
       "description": "Zoptymalizowano wydajność rejestratora dla szybszego i bardziej niezawodnego zapisywania danych."
+    },
+    {
+      "title": "Ekran powitalny",
+      "description": "Naprawiono problemy z tłumaczeniem dla lepszej lokalizacji."
+    },
+    {
+      "title": "Pasek wyszukiwania i widok mapy",
+      "description": "Naprawiono usterki dla płynniejszych animacji i spójnych wyników."
     }
   ],
   "patches": [
     {
       "version": "1.14.1",
       "description": "Poprawki rejestratora i ulepszenia czytelności"
+    },
+    {
+      "version": "1.14.2",
+      "description": "Ulepszenia interfejsu i poprawki"
     }
   ],
   "meta_title": "Interfejs z Liquid Design od Apple - Frames",

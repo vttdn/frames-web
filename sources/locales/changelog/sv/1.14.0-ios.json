@@ -79,7 +79,11 @@
     "Förbättrad knappläsbarhet med optimerad typografi och visuell hierarki.",
     "Sökfält tillagt i biblioteket för att snabbt hitta dina rullar.",
     "Förfinade typsnittsstorlekar genom hela appen för bättre konsekvens och läsbarhet.",
-    "Polerade animationer och övergångar för en mer förfinad, modern känsla."
+    "Förfinade övergångar med mjukare och mer moderna animationer.",
+    "Välkomstskärmen omdesignad för en renare look.",
+    "Haptisk återkoppling tillagd till inspelningsknappar.",
+    "Förbättrat avstånd i första kolumnen i Ruta-listan.",
+    "Förbättrad mappsökning för att inkludera filmer från undermappar."
   ],
   "fixes": [
     {
@@ -89,12 +93,24 @@
     {
       "title": "Registrering",
       "description": "Optimerad registreringsprestanda för snabbare och mer tillförlitlig datainsamling."
+    },
+    {
+      "title": "Välkomstskärm",
+      "description": "Åtgärdade översättningsproblem för bättre lokalisering."
+    },
+    {
+      "title": "Sökfält och kartvy",
+      "description": "Åtgärdade buggar för mjukare animationer och konsekventa resultat."
     }
   ],
   "patches": [
     {
       "version": "1.14.1",
       "description": "Registreringsfel och läsbarhetsförbättringar"
+    },
+    {
+      "version": "1.14.2",
+      "description": "UI-förfiningar och bugfixar"
     }
   ],
   "meta_title": "Gränssnitt med Apples Liquid Design - Frames",

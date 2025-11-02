@@ -79,7 +79,11 @@
     "Legibilidad de botones mejorada con tipografía y jerarquía visual optimizadas.",
     "Campo de búsqueda añadido a la biblioteca para encontrar rápidamente tus rollos.",
     "Tamaños de fuente refinados en toda la aplicación para mejor consistencia y legibilidad.",
-    "Animaciones y transiciones pulidas para una sensación más refinada y moderna."
+    "Transiciones refinadas con animaciones más fluidas y modernas.",
+    "Rediseño de la pantalla de bienvenida para un aspecto más limpio.",
+    "Añadida retroalimentación háptica a los botones del grabador.",
+    "Mejora del espaciado de la primera columna en la lista de fotogramas.",
+    "Búsqueda en carpetas que incluye ahora rollos de las subcarpetas."
   ],
   "fixes": [
     {
@@ -89,12 +93,24 @@
     {
       "title": "Grabador",
       "description": "Rendimiento del grabador optimizado para un registro más rápido y confiable."
+    },
+    {
+      "title": "Pantalla de bienvenida",
+      "description": "Corrección de problemas de traducción para mejor localización."
+    },
+    {
+      "title": "Barra de búsqueda y vista de mapa",
+      "description": "Corrección de errores para animaciones más fluidas y resultados consistentes."
     }
   ],
   "patches": [
     {
       "version": "1.14.1",
       "description": "Correcciones del grabador y mejoras de legibilidad"
+    },
+    {
+      "version": "1.14.2",
+      "description": "Mejoras de interfaz y correcciones"
     }
   ],
   "meta_title": "Interfaz con diseño Liquid Glass de Apple - Frames",

@@ -79,7 +79,11 @@
     "Forbedret knaplæsbarhed med optimeret typografi og visuel hierarki.",
     "Søgefelt tilføjet til biblioteket for hurtigt at finde dine ruller.",
     "Forfinede skriftstørrelser gennem hele appen for bedre konsistens og læsbarhed.",
-    "Polerede animationer og overgange for en mere raffineret, moderne følelse."
+    "Forfinede overgange med jævnere og mere moderne animationer.",
+    "Velkomstskærmen redesignet for et renere look.",
+    "Haptisk feedback tilføjet til optagelsesknapper.",
+    "Forbedret afstand i første kolonne i Ramme-listen.",
+    "Forbedret mappesøgning for at inkludere film fra undermapper."
   ],
   "fixes": [
     {
@@ -89,12 +93,24 @@
     {
       "title": "Registrering",
       "description": "Optimeret registreringsydelse for hurtigere og mere pålidelig dataoptagelse."
+    },
+    {
+      "title": "Velkomstskærm",
+      "description": "Rettet oversættelsesproblemer for bedre lokalisering."
+    },
+    {
+      "title": "Søgefelt og kortvisning",
+      "description": "Rettet fejl for jævnere animationer og konsekvente resultater."
     }
   ],
   "patches": [
     {
       "version": "1.14.1",
       "description": "Registreringsfejl og læsbarhedsforbedringer"
+    },
+    {
+      "version": "1.14.2",
+      "description": "UI-forbedringer og fejlrettelser"
     }
   ],
   "meta_title": "Interface med Apples Liquid Design - Frames",

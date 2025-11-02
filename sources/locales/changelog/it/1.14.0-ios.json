@@ -79,7 +79,11 @@
     "Leggibilità dei pulsanti migliorata con tipografia e gerarchia visiva ottimizzate.",
     "Campo di ricerca aggiunto alla libreria per trovare rapidamente i tuoi rullini.",
     "Dimensioni dei caratteri raffinate in tutta l'app per migliore coerenza e leggibilità.",
-    "Animazioni e transizioni raffinate per una sensazione più curata e moderna."
+    "Transizioni raffinate con animazioni più fluide e moderne.",
+    "Riprogettazione della schermata di benvenuto per un aspetto più pulito.",
+    "Aggiunto feedback aptico ai pulsanti di registrazione.",
+    "Miglioramento della spaziatura della prima colonna nell'elenco dei fotogrammi.",
+    "Ricerca nelle cartelle che ora include rullini dalle sottocartelle."
   ],
   "fixes": [
     {
@@ -89,12 +93,24 @@
     {
       "title": "Registrazione",
       "description": "Prestazioni di registrazione ottimizzate per un logging più veloce e affidabile."
+    },
+    {
+      "title": "Schermata di benvenuto",
+      "description": "Risolti problemi di traduzione per una migliore localizzazione."
+    },
+    {
+      "title": "Barra di ricerca e vista mappa",
+      "description": "Risolti problemi per animazioni più fluide e risultati coerenti."
     }
   ],
   "patches": [
     {
       "version": "1.14.1",
       "description": "Correzioni di registrazione e miglioramenti di leggibilità"
+    },
+    {
+      "version": "1.14.2",
+      "description": "Perfezionamenti dell'interfaccia e correzioni"
     }
   ],
   "meta_title": "Interfaccia con Liquid Design di Apple - Frames",

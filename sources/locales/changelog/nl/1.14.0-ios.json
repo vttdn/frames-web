@@ -79,7 +79,11 @@
     "Verbeterde leesbaarheid van knoppen met geoptimaliseerde typografie en visuele hiërarchie.",
     "Zoekveld toegevoegd aan bibliotheek om je rolletjes snel te vinden.",
     "Verfijnde lettergroottes door de hele app voor betere consistentie en leesbaarheid.",
-    "Gepolijste animaties en overgangen voor een verfijnder, moderner gevoel."
+    "Verfijnde overgangen met vloeiendere en modernere animaties.",
+    "Welkomstscherm opnieuw ontworpen voor een schonere uitstraling.",
+    "Haptische feedback toegevoegd aan opnameknoppen.",
+    "Verbeterde spatiëring van eerste kolom in filmframelijst.",
+    "Uitgebreide mapzoekfunctie inclusief filmframes uit submappen."
   ],
   "fixes": [
     {
@@ -89,12 +93,24 @@
     {
       "title": "Registratie",
       "description": "Geoptimaliseerde registratieprestaties voor snellere en betrouwbaardere gegevensopslag."
+    },
+    {
+      "title": "Welkomstscherm",
+      "description": "Vertaalproblemen opgelost voor betere lokalisatie."
+    },
+    {
+      "title": "Zoekbalk en kaartweergave",
+      "description": "Storingen opgelost voor vloeiendere animaties en consistente resultaten."
     }
   ],
   "patches": [
     {
       "version": "1.14.1",
       "description": "Registratiefouten en leesbaarheidsverbeteringen"
+    },
+    {
+      "version": "1.14.2",
+      "description": "UI-verbeteringen en correcties"
     }
   ],
   "meta_title": "Interface met Apple's Liquid Design - Frames",

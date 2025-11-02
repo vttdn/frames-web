@@ -79,7 +79,11 @@
     "Keterbacaan tombol yang ditingkatkan dengan tipografi dan hierarki visual yang dioptimalkan.",
     "Kolom pencarian ditambahkan ke perpustakaan untuk menemukan roll Anda dengan cepat.",
     "Ukuran font yang disempurnakan di seluruh aplikasi untuk konsistensi dan keterbacaan yang lebih baik.",
-    "Animasi dan transisi yang dipoles untuk nuansa yang lebih halus dan modern."
+    "Transisi yang disempurnakan dengan animasi yang lebih halus dan modern.",
+    "Layar selamat datang dirancang ulang untuk tampilan yang lebih bersih.",
+    "Umpan balik haptik ditambahkan ke tombol perekam.",
+    "Jarak kolom pertama yang diperbaiki dalam daftar Frame.",
+    "Pencarian folder yang ditingkatkan untuk menyertakan film dari subfolder."
   ],
   "fixes": [
     {
@@ -89,12 +93,24 @@
     {
       "title": "Pencatatan",
       "description": "Kinerja pencatatan dioptimalkan untuk logging yang lebih cepat dan andal."
+    },
+    {
+      "title": "Layar Selamat Datang",
+      "description": "Memperbaiki masalah terjemahan untuk lokalisasi yang lebih baik."
+    },
+    {
+      "title": "Bilah Pencarian dan Tampilan Peta",
+      "description": "Memperbaiki bug untuk animasi yang lebih halus dan hasil yang konsisten."
     }
   ],
   "patches": [
     {
       "version": "1.14.1",
       "description": "Perbaikan pencatatan dan peningkatan keterbacaan"
+    },
+    {
+      "version": "1.14.2",
+      "description": "Penyempurnaan UI dan perbaikan"
     }
   ],
   "meta_title": "Antarmuka dengan Liquid Design dari Apple - Frames",
