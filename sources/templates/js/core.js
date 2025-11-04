@@ -1,6 +1,10 @@
 // Core JavaScript for Frames website
 // Language: {{ lang }}
 
+// Twitter sharing configuration
+const TWITTER_HANDLE = "{{ locale_data.social.twitter if locale_data.social is defined and locale_data.social.twitter else global_config.urls.social.handle.twitter }}";
+const VIA_TEXT = "{{ locale_data.share_dropdown.via }}";
+
 //
 // Json-LD Injection
 //
@@ -278,13 +282,13 @@ function shareOn(platform) {
       shareUrl = `https://www.facebook.com/sharer/sharer.php?u=${url}`;
       break;
     case 'twitter':
-      shareUrl = `https://twitter.com/intent/tweet?url=${url}&text=${text}`;
+      shareUrl = `https://twitter.com/intent/tweet?url=${url}&text=${title} ${VIA_TEXT} @${TWITTER_HANDLE}`;
       break;
     case 'linkedin':
       shareUrl = `https://www.linkedin.com/sharing/share-offsite/?url=${url}`;
       break;
     case 'whatsapp':
-      shareUrl = `https://wa.me/?text=${text}%20${url}`;
+      shareUrl = `https://wa.me/?text=${title}%20${url}`;
       break;
     case 'reddit':
       shareUrl = `https://reddit.com/submit?url=${url}&title=${title}`;
