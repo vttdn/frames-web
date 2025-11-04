@@ -38,8 +38,8 @@
     {% endif %}
 
     <meta name="twitter:card" content="{{ locale_data.meta.twitter_card }}">
-    <meta name="twitter:site" content="{{ locale_data.meta.twitter_site }}">
-    <meta name="twitter:creator" content="{{ locale_data.meta.twitter_creator }}">
+    <meta name="twitter:site" content="@{{ locale_data.social.twitter if locale_data.social is defined and locale_data.social.twitter else global_config.urls.social.handle.twitter }}">
+    <meta name="twitter:creator" content="@{{ locale_data.social.twitter if locale_data.social is defined and locale_data.social.twitter else global_config.urls.social.handle.twitter }}">
     <meta name="twitter:title" content="{{ locale_data.meta.title }}">
     <meta name="twitter:description" content="{{ locale_data.meta.description }}">
     <meta name="twitter:image" content="https://withframes.com/og-image.jpg">
@@ -384,7 +384,7 @@
                 <li>
                     <h3>{{ locale_data.footer.connect.heading }}</h3>
                 </li>
-                <li><a href="{{ global_config.urls.social.instagram }}" target="_blank" rel="noopener noreferrer">{{
+                <li><a href="https://www.instagram.com/{{ locale_data.social.instagram if locale_data.social is defined and locale_data.social.instagram else global_config.urls.social.handle.instagram }}" target="_blank" rel="noopener noreferrer">{{
                         locale_data.footer.connect.instagram }}</a></li>
                 <li><a href="{{ global_config.urls.social.threads }}" target="_blank" rel="noopener noreferrer">{{
                         locale_data.footer.connect.threads }}</a></li>
@@ -394,7 +394,7 @@
                         locale_data.footer.connect.bluesky }}</a></li>
                 <li><a href="{{ global_config.urls.social.mastodon }}" target="_blank" rel="me noopener noreferrer">{{
                         locale_data.footer.connect.mastodon }}</a></li>
-                <li><a href="{{ global_config.urls.social.twitter }}" target="_blank" rel="noopener noreferrer">{{
+                <li><a href="https://x.com/{{ locale_data.social.twitter if locale_data.social is defined and locale_data.social.twitter else global_config.urls.social.handle.twitter }}" target="_blank" rel="noopener noreferrer">{{
                         locale_data.footer.connect.twitter }}</a></li>
             </ul>
             <ul class="flex flex-col gap-sm2">

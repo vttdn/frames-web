@@ -21,6 +21,8 @@
 
     <!-- Twitter Card -->
     <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@{{ locale_data.social.twitter if locale_data.social is defined and locale_data.social.twitter else global_config.urls.social.handle.twitter }}" />
+    <meta name="twitter:creator" content="@{{ locale_data.social.twitter if locale_data.social is defined and locale_data.social.twitter else global_config.urls.social.handle.twitter }}" />
     <meta name="twitter:title" content="{% if entry.meta_title %}{{ entry.meta_title }}{% else %}{{ entry.title }} - Frames{% endif %}" />
     <meta name="twitter:description" content="{% if entry.meta_description %}{{ entry.meta_description }}{% else %}{{ entry.summary }}{% endif %}" />
     <meta name="twitter:image" content="https://withframes.com{{ og_image_url }}" />
@@ -229,12 +231,14 @@
             </a>
             <ul class="flex flex-col gap-sm2">
                 <li><h3>{{ locale_data.footer.connect.heading }}</h3></li>
-                <li><a href="https://www.instagram.com/with_frames/" target="_blank" rel="noopener noreferrer">{{ locale_data.footer.connect.instagram }}</a></li>
+                <li><a href="https://www.instagram.com/{{ locale_data.social.instagram if locale_data.social is defined and locale_data.social.instagram else global_config.urls.social.handle.instagram }}" target="_blank" rel="noopener noreferrer">{{
+                        locale_data.footer.connect.instagram }}</a></li>
                 <li><a href="https://www.threads.net/@with_frames" target="_blank" rel="noopener noreferrer">{{ locale_data.footer.connect.threads }}</a></li>
                 <li><a href="https://www.facebook.com/framesapp" target="_blank" rel="noopener noreferrer">{{ locale_data.footer.connect.facebook }}</a></li>
                 <li><a href="https://bsky.app/profile/withframes.bsky.social" target="_blank" rel="noopener noreferrer">{{ locale_data.footer.connect.bluesky }}</a></li>
                 <li><a href="https://mastodon.social/@frames" target="_blank" rel="me noopener noreferrer">{{ locale_data.footer.connect.mastodon }}</a></li>
-                <li><a href="https://twitter.com/withframes" target="_blank" rel="noopener noreferrer">{{ locale_data.footer.connect.twitter }}</a></li>
+                <li><a href="https://x.com/{{ locale_data.social.twitter if locale_data.social is defined and locale_data.social.twitter else global_config.urls.social.handle.twitter }}" target="_blank" rel="noopener noreferrer">{{
+                        locale_data.footer.connect.twitter }}</a></li>
             </ul>
             <ul class="flex flex-col gap-sm2">
                 <li><h3>{{ locale_data.footer.resources.heading }}</h3></li>
