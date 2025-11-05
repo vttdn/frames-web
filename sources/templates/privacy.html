@@ -184,6 +184,7 @@
                 <li><a href="https://mastodon.social/@frames" target="_blank" rel="me noopener noreferrer">{{ locale_data.footer.connect.mastodon }}</a></li>
                 <li><a href="https://x.com/{{ locale_data.social.twitter if locale_data.social is defined and locale_data.social.twitter else global_config.urls.social.handle.twitter }}" target="_blank" rel="noopener noreferrer">{{
                         locale_data.footer.connect.twitter }}</a></li>
+                <li><a href="{{ global_config.urls.social.linkedin }}" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
             </ul>
             <ul class="flex flex-col gap-sm2">
                 <li><h3>{{ locale_data.footer.resources.heading }}</h3></li>
@@ -191,6 +192,7 @@
                 <li><a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/" target="_blank" rel="noopener noreferrer">{{ locale_data.footer.resources.terms_of_service }}</a></li>
                 <li><a class="tooltip" data-tooltip="{{ locale_data.tooltip.label_coming_soon }}">{{ locale_data.footer.resources.documentation }}</a></li>
                 <li><a href="{{ lang_config.path }}{{ locale_data.urls.changelog }}">{{ locale_data.footer.resources.changelog }}</a></li>
+                <li><a href="{% if lang == 'en' %}/changelog/rss/index.rss{% else %}/{{ lang }}/changelog/rss/index.rss{% endif %}">RSS</a></li>
                 <li><a href="https://www.youtube.com/@withframes" target="_blank" rel="noopener noreferrer">{{ locale_data.footer.resources.youtube }}</a></li>
             </ul>
             <ul class="flex flex-col gap-sm2">

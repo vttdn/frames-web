@@ -1035,10 +1035,10 @@ def generate_rss_feed(entries, lang_code, locale_data):
     # Build canonical URL for changelog
     if lang_code == 'en':
         canonical_url = f"{base_url}/changelog/"
-        feed_url = f"{base_url}/lib/rss/en/feed.xml"
+        feed_url = f"{base_url}/changelog/rss/index.rss"
     else:
         canonical_url = f"{base_url}/{lang_code}/changelog/"
-        feed_url = f"{base_url}/lib/rss/{lang_code}/feed.xml"
+        feed_url = f"{base_url}/{lang_code}/changelog/rss/index.rss"
 
     # Format entries for RSS
     rss_entries = []
@@ -1076,14 +1076,18 @@ def generate_rss_feed(entries, lang_code, locale_data):
     rss_content = render_template('rss/feed.xml', context, autoescape_enabled=False)
 
     # Save RSS feed
-    rss_dir = PROJECT_ROOT / "lib" / "rss" / lang_code
+    if lang_code == 'en':
+        rss_dir = PROJECT_ROOT / "changelog" / "rss"
+    else:
+        rss_dir = PROJECT_ROOT / lang_code / "changelog" / "rss"
+
     rss_dir.mkdir(parents=True, exist_ok=True)
 
-    rss_path = rss_dir / "feed.xml"
+    rss_path = rss_dir / "index.rss"
     with open(rss_path, 'w', encoding='utf-8') as f:
         f.write(rss_content)
 
-    print(f"✓ Generated RSS feed: {rss_path.relative_to(OUTPUT_DIR)}")
+    print(f"✓ Generated RSS feed: {rss_path.relative_to(PROJECT_ROOT)}")
 
 
 def generate_changelog_sitemap(entries, lang_code='en'):

@@ -396,6 +396,7 @@
                         locale_data.footer.connect.mastodon }}</a></li>
                 <li><a href="https://x.com/{{ locale_data.social.twitter if locale_data.social is defined and locale_data.social.twitter else global_config.urls.social.handle.twitter }}" target="_blank" rel="noopener noreferrer">{{
                         locale_data.footer.connect.twitter }}</a></li>
+                <li><a href="{{ global_config.urls.social.linkedin }}" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
             </ul>
             <ul class="flex flex-col gap-sm2">
                 <li>
@@ -409,6 +410,7 @@
                 <li><a
                         href="{% if lang in available_changelog_languages %}{{ locale_data.urls.changelog }}{% else %}/changelog/{% endif %}">{{
                         locale_data.footer.resources.changelog }}</a></li>
+                <li><a href="{% if lang == 'en' %}/changelog/rss/index.rss{% else %}/{{ lang }}/changelog/rss/index.rss{% endif %}">RSS</a></li>
                 <li><a href="{{ global_config.urls.social.youtube }}" target="_blank" rel="noopener noreferrer">{{
                         locale_data.footer.resources.youtube }}</a></li>
             </ul>
