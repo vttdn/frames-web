@@ -410,7 +410,7 @@
                 <li><a
                         href="{% if lang in available_changelog_languages %}{{ locale_data.urls.changelog }}{% else %}/changelog/{% endif %}">{{
                         locale_data.footer.resources.changelog }}</a></li>
-                <li><a href="{% if lang == 'en' %}/changelog/rss/index.rss{% else %}/{{ lang }}/changelog/rss/index.rss{% endif %}">RSS</a></li>
+                <li><a href="{% if lang == 'en' %}/changelog/rss/index.rss{% else %}/{{ lang }}/changelog/rss/index.rss{% endif %}">{{ locale_data.footer.resources.rss }}</a></li>
                 <li><a href="{{ global_config.urls.social.youtube }}" target="_blank" rel="noopener noreferrer">{{
                         locale_data.footer.resources.youtube }}</a></li>
             </ul>
