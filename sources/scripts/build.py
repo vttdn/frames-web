@@ -558,18 +558,17 @@ def get_current_build_date():
 
 
 def get_first_image_from_entry(entry):
-    """Extract the first image from an entry's sections"""
+    """Extract the first image and alt text from an entry's sections"""
     if 'sections' not in entry:
-        return None, None, None
+        return None, None
 
     for section in entry['sections']:
         if section.get('type') == 'media' and 'image' in section:
             return (
                 section['image'],
-                section.get('width', '400'),
-                section.get('height', '300')
+                section.get('alt', '')
             )
-    return None, None, None
+    return None, None
 
 
 def process_entry_images(entry, lang_code):
@@ -691,13 +690,15 @@ def generate_changelog_og_image(lang_code, image_path, filename):
 def generate_all_changelog_og_images(entries, lang_code):
     """Generate OG images for all changelog entries upfront"""
     for entry in entries:
-        first_image, _, _ = get_first_image_from_entry(entry)
+        first_image, alt_text = get_first_image_from_entry(entry)
         if first_image:
             og_filename = f"{entry['url_slug']}-og-image.jpg"
             og_image_url = generate_changelog_og_image(lang_code, first_image, og_filename)
             entry['og_image_url'] = og_image_url
+            entry['og_image_alt'] = alt_text
         else:
             entry['og_image_url'] = '/og-image.jpg'
+            entry['og_image_alt'] = ''
 
 
 def generate_changelog_hreflang_links(languages, page_type='index', page_number=1, url_slug=None, base_url="https://withframes.com"):
@@ -810,7 +811,8 @@ def generate_changelog_schemas(lang_code, locale_data, global_config, page_type,
             'canonical_url': kwargs['canonical_url'],
             'entry': entry,
             'build_date': build_date,
-            'og_image_url': entry.get('og_image_url', '/og-image.jpg')
+            'og_image_url': entry.get('og_image_url', '/og-image.jpg'),
+            'og_image_alt': entry.get('og_image_alt', '')
         }
         blogposting_schema = generate_schema_file('schemas/blogposting.json', blogposting_context)
         save_changelog_schema(blogposting_schema, 'blogposting.json', lang_code, page_type, page_number, url_slug)

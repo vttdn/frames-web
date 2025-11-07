@@ -19,7 +19,8 @@
   "image": {
     "@type": "ImageObject",
     "url": "https://withframes.com{{ og_image_url }}",
-    "width": "1200",
-    "height": "630"
+    "contentUrl": "https://withframes.com{{ og_image_url }}",
+    "dateCreated": "{{ entry.release_date }}",
+    "caption": "{{ og_image_alt }}"
   }{% endif %}
 }
