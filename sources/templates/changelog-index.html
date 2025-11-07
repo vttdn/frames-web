@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>{{ locale_data.changelog.meta.title }}</title>
+    <title>{% if page_number > 1 %}{% if lang in ['zh', 'zh-hant'] %}{{ locale_data.changelog.meta.title.replace(' - Frames', '') }} {{ locale_data.changelog.pagination.page }}{{ page_number }}{{ locale_data.changelog.pagination.page_suffix }} - Frames{% else %}{{ locale_data.changelog.meta.title.replace(' - Frames', '') }} {{ locale_data.changelog.pagination.page }} {{ page_number }} - Frames{% endif %}{% else %}{{ locale_data.changelog.meta.title }}{% endif %}</title>
     <meta name="description" content="{{ locale_data.changelog.meta.description }}" />
     {% if page_number == 1 %}
     <link rel="canonical" href="{{ locale_data.changelog.meta.canonical_url }}" />
@@ -17,7 +17,7 @@
 
     <!-- Open Graph -->
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="{{ locale_data.changelog.meta.title }}" />
+    <meta property="og:title" content="{% if page_number > 1 %}{% if lang in ['zh', 'zh-hant'] %}{{ locale_data.changelog.meta.title.replace(' - Frames', '') }} {{ locale_data.changelog.pagination.page }}{{ page_number }}{{ locale_data.changelog.pagination.page_suffix }} - Frames{% else %}{{ locale_data.changelog.meta.title.replace(' - Frames', '') }} {{ locale_data.changelog.pagination.page }} {{ page_number }} - Frames{% endif %}{% else %}{{ locale_data.changelog.meta.title }}{% endif %}" />
     <meta property="og:description" content="{{ locale_data.changelog.meta.description }}" />
     {% if page_number == 1 %}
     <meta property="og:url" content="{{ locale_data.changelog.meta.canonical_url }}" />
@@ -31,7 +31,7 @@
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:site" content="@{{ locale_data.social.twitter if locale_data.social is defined and locale_data.social.twitter else global_config.urls.social.handle.twitter }}" />
     <meta name="twitter:creator" content="@{{ locale_data.social.twitter if locale_data.social is defined and locale_data.social.twitter else global_config.urls.social.handle.twitter }}" />
-    <meta name="twitter:title" content="{{ locale_data.changelog.meta.title }}" />
+    <meta name="twitter:title" content="{% if page_number > 1 %}{% if lang in ['zh', 'zh-hant'] %}{{ locale_data.changelog.meta.title.replace(' - Frames', '') }} {{ locale_data.changelog.pagination.page }}{{ page_number }}{{ locale_data.changelog.pagination.page_suffix }} - Frames{% else %}{{ locale_data.changelog.meta.title.replace(' - Frames', '') }} {{ locale_data.changelog.pagination.page }} {{ page_number }} - Frames{% endif %}{% else %}{{ locale_data.changelog.meta.title }}{% endif %}" />
     <meta name="twitter:description" content="{{ locale_data.changelog.meta.description }}" />
     <meta name="twitter:image" content="https://withframes.com/og-image.jpg" />
 
