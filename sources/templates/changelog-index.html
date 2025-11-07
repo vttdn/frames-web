@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>{% if page_number > 1 %}{% if lang in ['zh', 'zh-hant'] %}{{ locale_data.changelog.meta.title.replace(' - Frames', '') }} {{ locale_data.changelog.pagination.page }}{{ page_number }}{{ locale_data.changelog.pagination.page_suffix }} - Frames{% else %}{{ locale_data.changelog.meta.title.replace(' - Frames', '') }} {{ locale_data.changelog.pagination.page }} {{ page_number }} - Frames{% endif %}{% else %}{{ locale_data.changelog.meta.title }}{% endif %}</title>
-    <meta name="description" content="{{ locale_data.changelog.meta.description }}" />
+    <meta name="description" content="{% if page_number > 1 %}{% if lang in ['zh', 'zh-hant'] %}{{ locale_data.changelog.meta.description.replace('。', ' ' + locale_data.changelog.pagination.page + page_number|string + locale_data.changelog.pagination.page_suffix + '。', 1) }}{% elif lang in ['ja', 'ko', 'hi'] %}{{ locale_data.changelog.meta.description.replace('. ', ' ' + locale_data.changelog.pagination.page + ' ' + page_number|string + '. ', 1) }}{% else %}{{ locale_data.changelog.meta.description.replace('. ', ', ' + locale_data.changelog.pagination.page + ' ' + page_number|string + '. ', 1) }}{% endif %}{% else %}{{ locale_data.changelog.meta.description }}{% endif %}" />
     {% if page_number == 1 %}
     <link rel="canonical" href="{{ locale_data.changelog.meta.canonical_url }}" />
     {% else %}
@@ -265,7 +265,7 @@
                         locale_data.footer.connect.instagram }}</a></li>
                 <li><a href="https://www.threads.net/@with_frames" target="_blank" rel="noopener noreferrer">{{ locale_data.footer.connect.threads }}</a></li>
                 <li><a href="https://www.facebook.com/framesapp" target="_blank" rel="noopener noreferrer">{{ locale_data.footer.connect.facebook }}</a></li>
-                <li><a href="https://bsky.app/profile/withframes.bsky.social" target="_blank" rel="noopener noreferrer">{{ locale_data.footer.connect.bluesky }}</a></li>
+                <li><a href="https://bsky.app/profile/withframes.com" target="_blank" rel="noopener noreferrer">{{ locale_data.footer.connect.bluesky }}</a></li>
                 <li><a href="https://mastodon.social/@frames" target="_blank" rel="me noopener noreferrer">{{ locale_data.footer.connect.mastodon }}</a></li>
                 <li><a href="https://x.com/{{ locale_data.social.twitter if locale_data.social is defined and locale_data.social.twitter else global_config.urls.social.handle.twitter }}" target="_blank" rel="noopener noreferrer">{{
                         locale_data.footer.connect.twitter }}</a></li>
