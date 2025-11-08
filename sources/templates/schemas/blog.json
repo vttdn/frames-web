@@ -6,6 +6,7 @@
   "name": "{{ page_title }}",
   "description": "{{ page_description }}",
   "inLanguage": "{{ lang }}",
+  "keywords": "{{ keywords }}",
   "publisher": {
     "@id": "https://withframes.com/#organization"
   },
@@ -20,6 +21,7 @@
       "datePublished": "{{ entry.release_date }}",
       "dateModified": "{{ build_date }}",
       "inLanguage": "{{ lang }}",
+      "keywords": "{{ keywords }}",
       "author": {"@id": "https://withframes.com/#vincent-tantardini"},
       "publisher": {
         "@id": "https://withframes.com/#organization"

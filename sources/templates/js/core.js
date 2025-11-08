@@ -12,10 +12,10 @@ const VIA_TEXT = "{{ locale_data.share_dropdown.via }}";
 document.addEventListener('DOMContentLoaded', function () {
   // Inject JSON-LD schemas
   const schemaFiles = [
+    '/lib/schema/{{ lang }}/organization.json',
     '/lib/schema/{{ lang }}/software.json',
     '/lib/schema/{{ lang }}/video.json',
     '/lib/schema/{{ lang }}/faq.json',
-    '/lib/schema/{{ lang }}/organization.json',
     '/lib/schema/{{ lang }}/webpage-homepage.json',
     '/lib/schema/{{ lang }}/howto.json'
   ];

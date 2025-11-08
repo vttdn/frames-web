@@ -12,6 +12,7 @@
 
     <title>{{ locale_data.meta.title }}</title>
     <meta name="description" content="{{ locale_data.meta.description }}">
+    <meta name="keywords" content="{{ locale_data.meta.keywords }}">
     <link rel="canonical" href="{{ locale_data.meta.canonical_url }}">
     {% for link in hreflang_links %}
     <link rel="alternate" hreflang="{{ link.hreflang }}" href="{{ link.href }}">
@@ -101,8 +102,9 @@
     <main class="wrapper">
         <section class="hero" aria-labelledby="hero-heading">
             <div class="hero-content flex flex-col gap-xl">
-                <h1 class="ruh" id="hero-heading">{{ locale_data.hero.heading_seo|safe }}</h1>
-                <p class="h1">{{ locale_data.hero.heading|safe }}</p>
+                <h1 id="hero-heading">{{ locale_data.hero.heading|safe }}</h1>
+                <!-- <h1 class="ruh" id="hero-heading">{{ locale_data.hero.heading_seo|safe }}</h1>
+                <p class="h1">{{ locale_data.hero.heading|safe }}</p> -->
                 <div class="hero-description flex flex-col ruh">
                     <p>{{ locale_data.hero.paragraph1|safe }}</p>
                     <p>{{ locale_data.hero.paragraph2|safe }}</p>
@@ -439,7 +441,7 @@
                 <input type="checkbox" class="dropdown-toggle" id="lang-toggle">
 
                 <label for="lang-toggle" class="dropdown-button btn btn-sm btn-dark">
-                    <img src="/lib/img/icn/globe.svg" alt="" loading="lazy" aria-hidden="true">
+                    <img src="/lib/img/icn/globe.svg" alt="" loading="lazy" aria-hidden="true" width="14" height="12">
                     <span>{{ locale_data.footer.language_dropdown.label }}</span>
                     <img src="/lib/img/icn/chevron-down-sm.svg" alt="" width="10" height="12"
                         loading="lazy" aria-hidden="true">

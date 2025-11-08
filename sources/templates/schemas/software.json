@@ -18,6 +18,7 @@
           "isAccessibleForFree": true,
           "contentRating": "4+",
           "inLanguage": "{{ lang }}",
+          "keywords": "{{ keywords }}",
           "mainEntity": {
             "@type": "WebPage",
             "@id": "{{ canonical_url }}"
@@ -168,6 +169,7 @@
             "@id": "{{ canonical_url }}"
           },
           "inLanguage": "{{ lang }}",
+          "keywords": "{{ keywords }}",
           "offers": [
             {
               "@type": "Offer",

@@ -3,6 +3,7 @@
   "@type": "HowTo",
   "name": "{{ locale_data.howto.meta.title }}",
   "description": "{{ locale_data.howto.meta.description }}",
+  "keywords": "{{ keywords }}",
   "image": "https://withframes.com/lib/img/shared/app-icon.png",
   "totalTime": "PT10M",
   "inLanguage": "{{ locale_data.meta.lang }}",

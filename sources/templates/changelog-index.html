@@ -5,10 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>{% if page_number > 1 %}{% if lang in ['zh', 'zh-hant'] %}{{ locale_data.changelog.meta.title.replace(' - Frames', '') }} {{ locale_data.changelog.pagination.page }}{{ page_number }}{{ locale_data.changelog.pagination.page_suffix }} - Frames{% else %}{{ locale_data.changelog.meta.title.replace(' - Frames', '') }} {{ locale_data.changelog.pagination.page }} {{ page_number }} - Frames{% endif %}{% else %}{{ locale_data.changelog.meta.title }}{% endif %}</title>
     <meta name="description" content="{% if page_number > 1 %}{% if lang in ['zh', 'zh-hant'] %}{{ locale_data.changelog.meta.description.replace('。', ' ' + locale_data.changelog.pagination.page + page_number|string + locale_data.changelog.pagination.page_suffix + '。', 1) }}{% elif lang in ['ja', 'ko', 'hi'] %}{{ locale_data.changelog.meta.description.replace('. ', ' ' + locale_data.changelog.pagination.page + ' ' + page_number|string + '. ', 1) }}{% else %}{{ locale_data.changelog.meta.description.replace('. ', ', ' + locale_data.changelog.pagination.page + ' ' + page_number|string + '. ', 1) }}{% endif %}{% else %}{{ locale_data.changelog.meta.description }}{% endif %}" />
+    <meta name="keywords" content="{{ locale_data.meta.keywords }}" />
     {% if page_number == 1 %}
     <link rel="canonical" href="{{ locale_data.changelog.meta.canonical_url }}" />
     {% else %}
     <link rel="canonical" href="{{ locale_data.changelog.meta.canonical_url }}page-{{ page_number }}/" />
+    {% endif %}
+    {% if page_number > 1 %}
+    {% if page_number == 2 %}
+    <link rel="prev" href="{{ locale_data.changelog.meta.canonical_url }}" />
+    {% else %}
+    <link rel="prev" href="{{ locale_data.changelog.meta.canonical_url }}page-{{ page_number - 1 }}/" />
+    {% endif %}
+    {% endif %}
+    {% if page_number < total_pages %}
+    <link rel="next" href="{{ locale_data.changelog.meta.canonical_url }}page-{{ page_number + 1 }}/" />
     {% endif %}
     {% for link in hreflang_links %}
     <link rel="alternate" hreflang="{{ link.hreflang }}" href="{{ link.href }}">
@@ -26,6 +37,7 @@
     {% endif %}
     <meta property="og:site_name" content="Frames" />
     <meta property="og:image" content="https://withframes.com/og-image.jpg" />
+    <meta property="og:locale" content="{{ lang_config.locale }}" />
 
     <!-- Twitter Card -->
     <meta name="twitter:card" content="summary_large_image" />
@@ -302,9 +314,9 @@
                     <input type="checkbox" class="dropdown-toggle" id="lang-toggle">
 
                     <label for="lang-toggle" class="dropdown-button btn btn-sm btn-dark">
-                        <img src="/lib/img/icn/globe.svg" alt="Globe Icon" loading="lazy">
+                        <img src="/lib/img/icn/globe.svg" alt="Globe Icon" loading="lazy" width="14" height="12" aria-hidden="true">
                         <span>{{ locale_data.footer.language_dropdown.label }}</span>
-                        <img src="/lib/img/icn/chevron-down-sm.svg" alt="Chevron Down" width="10" height="12" loading="lazy">
+                        <img src="/lib/img/icn/chevron-down-sm.svg" alt="Chevron Down" width="10" height="12" loading="lazy" aria-hidden="true">
                     </label>
 
                     <ul class="dropdown-content dropdown-dir-top" role="menu">

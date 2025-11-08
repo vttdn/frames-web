@@ -25,9 +25,9 @@ document.addEventListener('DOMContentLoaded', function () {
         const slug = path.match(/\/changelog\/([^/]+)\/?$/)[1];
         schemaBasePath += '/' + slug;
         schemaFiles = [
+            schemaBasePath + '/organization.json',
             schemaBasePath + '/blogposting.json',
-            schemaBasePath + '/breadcrumb.json',
-            schemaBasePath + '/organization.json'
+            schemaBasePath + '/breadcrumb.json'
         ];
     } else if (isIndexPage) {
         // Check if we're on a paginated page
@@ -37,8 +37,8 @@ document.addEventListener('DOMContentLoaded', function () {
         }
 
         schemaFiles = [
-            schemaBasePath + '/breadcrumb.json',
-            schemaBasePath + '/organization.json'
+            schemaBasePath + '/organization.json',
+            schemaBasePath + '/breadcrumb.json'
         ];
 
         // Blog schema only on first page

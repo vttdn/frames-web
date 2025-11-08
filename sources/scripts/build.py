@@ -377,7 +377,8 @@ def generate_homepage_schemas(lang_code, global_config, locale_data):
             'video_description': locale_data['video']['description'],
             'global_urls': global_config['urls'],
             'app_version_ios': global_config['app_version_ios'],
-            'app_version_macos': global_config['app_version_macos']
+            'app_version_macos': global_config['app_version_macos'],
+            'keywords': locale_data['meta']['keywords']
         }
 
         # Add review data
@@ -501,7 +502,8 @@ def build_privacy(global_config, languages):
                 'lang': lang_code,
                 'canonical_url': locale_data['privacy']['meta']['canonical_url'].rstrip('/') + '/',
                 'seo_meta_title': locale_data['privacy']['meta']['title'],
-                'seo_meta_description': locale_data['privacy']['meta']['description']
+                'seo_meta_description': locale_data['privacy']['meta']['description'],
+                'keywords': locale_data['meta']['keywords']
             }
             webpage_json = generate_schema_file('schemas/webpage.json', webpage_context)
             save_schema(webpage_json, 'webpage-privacy.json', lang_code)
@@ -798,7 +800,8 @@ def generate_changelog_schemas(lang_code, locale_data, global_config, page_type,
             'page_title': locale_data['changelog']['meta']['title'],
             'page_description': locale_data['changelog']['meta']['description'],
             'entries': kwargs.get('all_entries', []),
-            'build_date': build_date
+            'build_date': build_date,
+            'keywords': locale_data['meta']['keywords']
         }
         blog_schema = generate_schema_file('schemas/blog.json', blog_context)
         save_changelog_schema(blog_schema, 'blog.json', lang_code, page_type, page_number, url_slug)
@@ -812,7 +815,8 @@ def generate_changelog_schemas(lang_code, locale_data, global_config, page_type,
             'entry': entry,
             'build_date': build_date,
             'og_image_url': entry.get('og_image_url', '/og-image.jpg'),
-            'og_image_alt': entry.get('og_image_alt', '')
+            'og_image_alt': entry.get('og_image_alt', ''),
+            'keywords': locale_data['meta']['keywords']
         }
         blogposting_schema = generate_schema_file('schemas/blogposting.json', blogposting_context)
         save_changelog_schema(blogposting_schema, 'blogposting.json', lang_code, page_type, page_number, url_slug)
