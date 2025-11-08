@@ -183,9 +183,10 @@
                 <li><a href="https://www.facebook.com/framesapp" target="_blank" rel="noopener noreferrer">{{ locale_data.footer.connect.facebook }}</a></li>
                 <li><a href="https://bsky.app/profile/withframes.com" target="_blank" rel="noopener noreferrer">{{ locale_data.footer.connect.bluesky }}</a></li>
                 <li><a href="https://mastodon.social/@frames" target="_blank" rel="me noopener noreferrer">{{ locale_data.footer.connect.mastodon }}</a></li>
+                <li><a href="{{ global_config.urls.social.linkedin }}" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+                <li><a href="{{ global_config.urls.social.pinterest }}" target="_blank" rel="noopener noreferrer">Pinterest</a></li>
                 <li><a href="https://x.com/{{ locale_data.social.twitter if locale_data.social is defined and locale_data.social.twitter else global_config.urls.social.handle.twitter }}" target="_blank" rel="noopener noreferrer">{{
                         locale_data.footer.connect.twitter }}</a></li>
-                <li><a href="{{ global_config.urls.social.linkedin }}" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
             </ul>
             <ul class="flex flex-col gap-sm2">
                 <li><h3>{{ locale_data.footer.resources.heading }}</h3></li>
