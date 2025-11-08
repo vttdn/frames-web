@@ -10,7 +10,6 @@
   "headline": "{{ entry.title }}",
   "description": "{% if entry.meta_description %}{{ entry.meta_description }}{% else %}{{ entry.summary }}{% endif %}",
   "datePublished": "{{ entry.release_date }}",
-  "dateModified": "{{ build_date }}",
   "inLanguage": "{{ lang }}",
   "keywords": "{{ keywords }}",
   "author": {"@id": "https://withframes.com/#vincent-tantardini"},
