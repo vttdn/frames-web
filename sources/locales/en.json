@@ -380,13 +380,20 @@
   "urls": {
     "appstore_ios": "https://apps.apple.com/app/frames-film-notes/id6744057317",
     "appstore_macos": "https://apps.apple.com/app/frames-film-metadata/id6744063354",
-    "documentation": "doc/",
+    "documentation": "docs/",
     "changelog": "changelog/",
     "privacy": "privacy/"
   },
   "video": {
     "title": "Film Photography App to Log & Track Your Rolls (Frames for iPhone)",
     "description": "Discover Frames, the dedicated film photography app designed for analog shooters. Frames makes managing your analog photography effortless, helping you record not only your shots but also the story behind every roll and frame. Whether you work with 35mm, medium format, or large format film, Frames keeps your workflow organized and ensures your photo metadata stays with your images, even after scanning."
+  },
+  "docs": {
+    "meta": {
+      "title": "Documentation - Frames",
+      "description": "Learn how to use Frames, the film photography app. Complete guides, tutorials, and tips for tracking analog shots and managing film metadata.",
+      "canonical_url": "https://withframes.com/docs/"
+    }
   },
   "changelog": {
     "meta": {

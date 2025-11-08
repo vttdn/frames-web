@@ -65,7 +65,7 @@
             <nav class="navigation center" aria-label="{{ locale_data.header.navigation.aria_label }}">
                 <ul class="flex flex-row">
                     <li class="desktop-only"><a href="{{ locale_data.meta.canonical_url }}#features">{{ locale_data.header.navigation.features }}</a></li>
-                    <li><a class="tooltip" data-tooltip="{{ locale_data.tooltip.label_coming_soon }}">{{ locale_data.header.navigation.documentation }}</a></li>
+                    <li><a onclick="return false;" class="tooltip" data-tooltip="{{ locale_data.tooltip.label_coming_soon }}" href="{{ lang_config.path }}{{ locale_data.urls.documentation }}">{{ locale_data.header.navigation.documentation }}</a></li>
                     <li><a aria-current="page" href="{{ lang_config.path }}{{ locale_data.urls.changelog }}">{{ locale_data.header.navigation.changelog }}</a></li>
                 </ul>
             </nav>
@@ -288,7 +288,7 @@
                 <li><h3>{{ locale_data.footer.resources.heading }}</h3></li>
                 <li><a href="{{ lang_config.path }}{{ locale_data.urls.privacy }}">{{ locale_data.footer.resources.privacy_policy }}</a></li>
                 <li><a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/" target="_blank" rel="noopener noreferrer">{{ locale_data.footer.resources.terms_of_service }}</a></li>
-                <li><a class="tooltip" data-tooltip="{{ locale_data.tooltip.label_coming_soon }}">{{ locale_data.footer.resources.documentation }}</a></li>
+                <li><a href="{{ lang_config.path }}{{ locale_data.urls.documentation }}">{{ locale_data.footer.resources.documentation }}</a></li>
                 <li><a href="{{ lang_config.path }}{{ locale_data.urls.changelog }}">{{ locale_data.footer.resources.changelog }}</a></li>
                 <li><a href="{% if lang == 'en' %}/changelog/rss/index.rss{% else %}/{{ lang }}/changelog/rss/index.rss{% endif %}">{{ locale_data.footer.resources.rss }}</a></li>
                 <li><a href="https://www.youtube.com/@withframes" target="_blank" rel="noopener noreferrer">{{ locale_data.footer.resources.youtube }}</a></li>

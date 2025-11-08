@@ -114,13 +114,18 @@ def build_base_context(lang_code, global_config, locale_data, available_changelo
 # ============================================================================
 
 def generate_hreflang_links(languages, base_url="https://withframes.com", page="home"):
-    """Generate hreflang alternate links for homepage or privacy page"""
+    """Generate hreflang alternate links for homepage, privacy, or docs page"""
     links = []
 
     for lang in languages:
         try:
             locale_data = load_locale(lang['code'])
-            page_path = locale_data['urls']['privacy'] if page == "privacy" else ''
+            if page == "privacy":
+                page_path = locale_data['urls']['privacy']
+            elif page == "docs":
+                page_path = locale_data['urls']['documentation']
+            else:
+                page_path = ''
 
             lang_path = lang['path'].strip('/')
             page_path = page_path.strip('/')
@@ -144,7 +149,12 @@ def generate_hreflang_links(languages, base_url="https://withframes.com", page="
             continue
 
     # Add x-default link
-    x_default = f"{base_url}/privacy/" if page == "privacy" else f"{base_url}/"
+    if page == "privacy":
+        x_default = f"{base_url}/privacy/"
+    elif page == "docs":
+        x_default = f"{base_url}/docs/"
+    else:
+        x_default = f"{base_url}/"
     links.append({
         'hreflang': 'x-default',
         'href': x_default
@@ -160,14 +170,17 @@ def generate_language_list(languages):
         try:
             locale_data = load_locale(lang['code'])
             privacy_path = locale_data['urls']['privacy']
+            docs_path = locale_data['urls']['documentation']
         except:
             privacy_path = 'privacy/'
+            docs_path = 'docs/'
 
         lang_list.append({
             'code': lang['code'],
             'name': lang['name'],
             'url': lang['path'],
-            'privacy_path': privacy_path
+            'privacy_path': privacy_path,
+            'docs_path': docs_path
         })
     return lang_list
 
@@ -251,6 +264,16 @@ def get_output_path(lang_config, locale_data=None, page_type='index'):
         output_dir.mkdir(parents=True, exist_ok=True)
         return output_dir / "index.html"
 
+    elif page_type == 'docs':
+        docs_path = locale_data['urls']['documentation'].strip('/')
+        if lang_config['path'] == '/':
+            output_dir = OUTPUT_DIR / docs_path
+        else:
+            lang_path = lang_config['path'].strip('/')
+            output_dir = OUTPUT_DIR / lang_path / docs_path
+        output_dir.mkdir(parents=True, exist_ok=True)
+        return output_dir / "index.html"
+
 
 def save_html(html, lang_config, locale_data=None, page_type='index', minify=True):
     """Save generated HTML to appropriate location"""
@@ -294,6 +317,12 @@ def get_javascript_output_path(lang_code, js_type='core'):
         else:
             js_dir = PROJECT_ROOT / "lib" / "js" / lang_code / "changelog"
         return js_dir / "core.js"
+    elif js_type == 'docs':
+        if lang_code == 'en':
+            js_dir = PROJECT_ROOT / "lib" / "js"
+        else:
+            js_dir = PROJECT_ROOT / "lib" / "js" / lang_code
+        return js_dir / "docs.js"
 
 
 def save_javascript(javascript, lang_code, js_type='core', minify=True):
@@ -511,6 +540,7 @@ def build_privacy(global_config, languages):
             # Generate Breadcrumb schema
             breadcrumb_context = {
                 'lang': lang_code,
+                'button_home': locale_data['privacy']['button_home'],
                 'privacy_heading': locale_data['privacy']['heading'],
                 'canonical_url': locale_data['privacy']['meta']['canonical_url'].rstrip('/') + '/'
             }
@@ -528,6 +558,83 @@ def build_privacy(global_config, languages):
 
     print("\nGenerating privacy sitemap...")
     generate_sitemap(languages, 'privacy')
+
+
+# ============================================================================
+# DOCUMENTATION PAGES GENERATION
+# ============================================================================
+
+def build_docs(global_config, languages):
+    """Build documentation pages for all languages"""
+    print("\n" + "=" * 50)
+    print("Building Documentation Pages")
+    print("=" * 50)
+
+    docs_css = load_css_file('docs')
+    if docs_css:
+        print(f"✓ Loaded docs CSS ({len(docs_css)} bytes)")
+    else:
+        print("⚠ No docs CSS loaded - templates will use fallback")
+
+    available_changelog_languages = detect_available_changelog_languages()
+
+    for lang in languages:
+        lang_code = lang['code']
+        try:
+            locale_data = load_locale(lang_code)
+            print(f"✓ Loaded locale: {lang_code}")
+
+            # Generate HTML
+            extra_context = {
+                'hreflang_links': generate_hreflang_links(global_config['languages'], page="docs"),
+                'docs_css': docs_css
+            }
+            html = generate_html_page('docs.html', lang_code, global_config, locale_data,
+                                     available_changelog_languages, extra_context)
+            save_html(html, lang, locale_data, 'docs')
+
+            # Generate WebPage schema
+            webpage_context = {
+                'lang': lang_code,
+                'canonical_url': locale_data['docs']['meta']['canonical_url'].rstrip('/') + '/',
+                'seo_meta_title': locale_data['docs']['meta']['title'],
+                'seo_meta_description': locale_data['docs']['meta']['description'],
+                'keywords': locale_data['meta']['keywords']
+            }
+            webpage_json = generate_schema_file('schemas/webpage.json', webpage_context)
+            save_schema(webpage_json, 'webpage-docs.json', lang_code)
+
+            # Generate Breadcrumb schema
+            breadcrumb_context = {
+                'lang': lang_code,
+                'button_home': locale_data['privacy']['button_home'],
+                'docs_heading': locale_data['header']['navigation']['documentation'],
+                'canonical_url': locale_data['docs']['meta']['canonical_url'].rstrip('/') + '/'
+            }
+            breadcrumb_json = generate_schema_file('schemas/breadcrumb-docs.json', breadcrumb_context)
+            save_schema(breadcrumb_json, 'breadcrumb-docs.json', lang_code)
+
+            # Generate Video schema
+            video_context = {
+                'video_title': locale_data['video']['title'],
+                'video_description': locale_data['video']['description'],
+                'keywords': locale_data['meta']['keywords'],
+                'global_urls': global_config['urls']
+            }
+            video_json = generate_schema_file('schemas/video.json', video_context)
+            save_schema(video_json, 'video.json', lang_code)
+
+            # Generate JavaScript
+            javascript = generate_javascript_file('js/docs.js', lang_code, locale_data, global_config)
+            save_javascript(javascript, lang_code, 'docs')
+
+        except FileNotFoundError:
+            print(f"✗ Warning: {lang_code}.json not found, skipping...")
+        except Exception as e:
+            print(f"✗ Error generating docs for {lang_code}: {e}")
+
+    print("\nGenerating docs sitemap...")
+    generate_sitemap(languages, 'docs')
 
 
 # ============================================================================
@@ -784,6 +891,7 @@ def generate_changelog_schemas(lang_code, locale_data, global_config, page_type,
     # Breadcrumb schema
     breadcrumb_context = {
         'lang': lang_code,
+        'button_home': locale_data['privacy']['button_home'],
         'changelog_heading': locale_data['changelog']['heading'],
         'canonical_url': kwargs.get('canonical_url'),
         'entry_title': kwargs.get('entry_title'),
@@ -1010,6 +1118,20 @@ def generate_sitemap(languages, sitemap_type):
                     priority = "0.7"
                 changefreq = 'yearly'
 
+            elif sitemap_type == 'docs':
+                locale_data = load_locale(lang['code'])
+                docs_url = locale_data['urls']['documentation']
+                if not docs_url.startswith('/'):
+                    docs_url = '/' + docs_url
+
+                if lang['code'] == 'en':
+                    url = f"{base_url}/{docs_url.lstrip('/')}"
+                    priority = "0.8"
+                else:
+                    url = f"{base_url}/{lang['code']}/{docs_url.lstrip('/')}"
+                    priority = "0.7"
+                changefreq = 'monthly'
+
             sitemap_lines.append('  <url>')
             sitemap_lines.append(f'    <loc>{url}</loc>')
             sitemap_lines.append(f'    <lastmod>{current_date}</lastmod>')
@@ -1196,6 +1318,7 @@ Examples:
   python build.py                    Build everything
   python build.py --homepage         Build only homepage
   python build.py --privacy          Build only privacy pages
+  python build.py --docs             Build only documentation pages
   python build.py --changelog        Build only changelog
   python build.py --homepage --privacy   Build homepage and privacy
         """
@@ -1203,12 +1326,13 @@ Examples:
 
     parser.add_argument('--homepage', action='store_true', help='Build homepage')
     parser.add_argument('--privacy', action='store_true', help='Build privacy pages')
+    parser.add_argument('--docs', action='store_true', help='Build documentation pages')
     parser.add_argument('--changelog', action='store_true', help='Build changelog')
 
     args = parser.parse_args()
 
     # If no arguments provided, build everything
-    build_all = not (args.homepage or args.privacy or args.changelog)
+    build_all = not (args.homepage or args.privacy or args.docs or args.changelog)
 
     print("Frames Website Builder")
     print("=" * 50)
@@ -1251,6 +1375,9 @@ Examples:
 
     if build_all or args.privacy:
         build_privacy(global_config, languages)
+
+    if build_all or args.docs:
+        build_docs(global_config, languages)
 
     if build_all or args.changelog:
         build_changelog_pages(global_config)

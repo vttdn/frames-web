@@ -1,0 +1,18 @@
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Inicio",
+      "item": "https://withframes.com/es/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Documentación",
+      "item": "https://withframes.com/es/docs/"
+    }
+  ]
+}

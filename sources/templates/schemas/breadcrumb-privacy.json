@@ -5,7 +5,7 @@
     {
       "@type": "ListItem",
       "position": 1,
-      "name": "Home",
+      "name": "{{ button_home }}",
       "item": "https://withframes.com{% if lang != 'en' %}/{{ lang }}{% endif %}/"
     },
     {
