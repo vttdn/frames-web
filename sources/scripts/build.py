@@ -413,6 +413,33 @@ def get_latest_changelog_entries(lang_code, limit=4):
     return latest_entries
 
 
+def get_latest_mixed_entries(lang_code, limit=4):
+    """Get the latest N entries from both blog and changelog for homepage display (English only)"""
+    mixed_entries = []
+
+    # Load changelog entries
+    changelog_entries = load_changelog_entries(lang_code)
+    for entry in changelog_entries:
+        formatted_entry = format_changelog_entry(entry.copy(), lang_code)
+        formatted_entry['entry_type'] = 'changelog'
+        formatted_entry['sort_date'] = entry['release_date']
+        mixed_entries.append(formatted_entry)
+
+    # Load blog entries
+    blog_entries = load_blog_entries(lang_code)
+    for entry in blog_entries:
+        formatted_entry = format_blog_entry(entry.copy(), lang_code)
+        formatted_entry['entry_type'] = 'blog'
+        formatted_entry['sort_date'] = entry['publish_date']
+        mixed_entries.append(formatted_entry)
+
+    # Sort by date (newest first)
+    mixed_entries.sort(key=lambda x: x['sort_date'], reverse=True)
+
+    # Return top N entries
+    return mixed_entries[:limit]
+
+
 def generate_homepage_schemas(lang_code, global_config, locale_data):
     """Generate all schemas for homepage"""
     schemas_to_generate = [
@@ -520,7 +547,7 @@ def build_homepage(global_config, languages):
                 'hreflang_links': generate_hreflang_links(global_config['languages'], page="home"),
                 'critical_css': critical_css,
                 'formatted_reviews': generate_formatted_reviews(locale_data, lang_code),
-                'latest_changelog_entries': get_latest_changelog_entries(lang_code)
+                'latest_changelog_entries': get_latest_mixed_entries(lang_code) if lang_code == 'en' else get_latest_changelog_entries(lang_code)
             }
             html = generate_html_page('index.html', lang_code, global_config, locale_data,
                                      available_changelog_languages, extra_context, available_blog_languages)
