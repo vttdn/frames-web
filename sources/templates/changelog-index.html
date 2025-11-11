@@ -9,17 +9,17 @@
     {% if page_number == 1 %}
     <link rel="canonical" href="{{ locale_data.changelog.meta.canonical_url }}" />
     {% else %}
-    <link rel="canonical" href="{{ locale_data.changelog.meta.canonical_url }}page-{{ page_number }}/" />
+    <link rel="canonical" href="{{ locale_data.changelog.meta.canonical_url }}page/{{ page_number }}/" />
     {% endif %}
     {% if page_number > 1 %}
     {% if page_number == 2 %}
     <link rel="prev" href="{{ locale_data.changelog.meta.canonical_url }}" />
     {% else %}
-    <link rel="prev" href="{{ locale_data.changelog.meta.canonical_url }}page-{{ page_number - 1 }}/" />
+    <link rel="prev" href="{{ locale_data.changelog.meta.canonical_url }}page/{{ page_number - 1 }}/" />
     {% endif %}
     {% endif %}
     {% if page_number < total_pages %}
-    <link rel="next" href="{{ locale_data.changelog.meta.canonical_url }}page-{{ page_number + 1 }}/" />
+    <link rel="next" href="{{ locale_data.changelog.meta.canonical_url }}page/{{ page_number + 1 }}/" />
     {% endif %}
     {% for link in hreflang_links %}
     <link rel="alternate" hreflang="{{ link.hreflang }}" href="{{ link.href }}">
@@ -33,7 +33,7 @@
     {% if page_number == 1 %}
     <meta property="og:url" content="{{ locale_data.changelog.meta.canonical_url }}" />
     {% else %}
-    <meta property="og:url" content="{{ locale_data.changelog.meta.canonical_url }}page-{{ page_number }}/" />
+    <meta property="og:url" content="{{ locale_data.changelog.meta.canonical_url }}page/{{ page_number }}/" />
     {% endif %}
     <meta property="og:site_name" content="Frames" />
     <meta property="og:image" content="https://withframes.com/og-image.jpg" />
@@ -236,7 +236,7 @@
               <span class="pagination-title">{{ locale_data.changelog.pagination.newer_posts }}</span>
             </a>
             {% else %}
-            <a href="{{ lang_config.path }}{{ locale_data.urls.changelog }}page-{{ page_number - 1 }}/" class="tile-inner">
+            <a href="{{ lang_config.path }}{{ locale_data.urls.changelog }}page/{{ page_number - 1 }}/" class="tile-inner">
               <span class="pagination-label">← {{ locale_data.changelog.pagination.previous }}</span>
               <span class="pagination-title">{{ locale_data.changelog.pagination.newer_posts }}</span>
             </a>
@@ -246,7 +246,7 @@
 
           {% if page_number < total_pages %}
           <div class="pagination-next tile">
-            <a href="{{ lang_config.path }}{{ locale_data.urls.changelog }}page-{{ page_number + 1 }}/" class="tile-inner">
+            <a href="{{ lang_config.path }}{{ locale_data.urls.changelog }}page/{{ page_number + 1 }}/" class="tile-inner">
               <span class="pagination-label">{{ locale_data.changelog.pagination.next }} →</span>
               <span class="pagination-title">{{ locale_data.changelog.pagination.older_posts }}</span>
             </a>
@@ -324,7 +324,7 @@
                     <ul class="dropdown-content dropdown-dir-top" role="menu">
                         {% for language in all_languages %}
                         <li>
-                            <a role="menuitem" href="{% if language.code in available_changelog_languages %}{{ language.url }}changelog/{% if page_number > 1 %}page-{{ page_number }}/{% endif %}{% else %}/changelog/{% if page_number > 1 %}page-{{ page_number }}/{% endif %}{% endif %}">
+                            <a role="menuitem" href="{% if language.code in available_changelog_languages %}{{ language.url }}changelog/{% if page_number > 1 %}page/{{ page_number }}/{% endif %}{% else %}/changelog/{% if page_number > 1 %}page/{{ page_number }}/{% endif %}{% endif %}">
                                 <span>{{ language.name }}</span>
                                 {% if language.code == lang %}
                                 <span>✓</span>

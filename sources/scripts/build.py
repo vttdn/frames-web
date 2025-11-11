@@ -727,6 +727,7 @@ def load_blog_entries(lang_code='en'):
 def format_blog_entry(entry, lang_code):
     """Add formatted date for blog entry"""
     entry['formatted_date'] = format_date(entry['publish_date'], lang_code)
+    entry['url_slug'] = entry['slug']  # Ensure url_slug is available for templates
     return entry
 
 
@@ -1477,7 +1478,7 @@ def generate_changelog_hreflang_links(languages, page_type='index', page_number=
                 url_path = f"/{lang['code']}/changelog/"
 
             if page_number > 1:
-                url_path = url_path.rstrip('/') + f"/page-{page_number}/"
+                url_path = url_path.rstrip('/') + f"/page/{page_number}/"
 
         elif page_type == 'entry':
             if lang['code'] == 'en':
@@ -1493,7 +1494,7 @@ def generate_changelog_hreflang_links(languages, page_type='index', page_number=
 
     # Add x-default
     if page_type == 'index':
-        x_default_path = '/changelog/' if page_number == 1 else f'/changelog/page-{page_number}/'
+        x_default_path = '/changelog/' if page_number == 1 else f'/changelog/page/{page_number}/'
     else:
         x_default_path = f'/changelog/{url_slug}/'
 
@@ -1513,7 +1514,7 @@ def save_changelog_schema(schema_json, schema_name, lang_code, page_type='page',
         if page_number == 1:
             schema_dir = schema_base_dir / lang_code / "changelog"
         else:
-            schema_dir = schema_base_dir / lang_code / "changelog" / f"page-{page_number}"
+            schema_dir = schema_base_dir / lang_code / "changelog" / "page" / str(page_number)
     elif page_type == 'changelog-entry':
         schema_dir = schema_base_dir / lang_code / "changelog" / url_slug
     else:
@@ -1600,14 +1601,14 @@ def save_changelog_html(html, page_type, lang_code='en', page_number=None, entry
             output_path = output_base / "index.html"
             output_base.mkdir(parents=True, exist_ok=True)
         else:
-            output_dir = output_base / f"page-{page_number}"
+            output_dir = output_base / "page" / str(page_number)
             output_dir.mkdir(parents=True, exist_ok=True)
             output_path = output_dir / "index.html"
 
         with open(output_path, 'w', encoding='utf-8') as f:
             f.write(html)
 
-        print(f"✓ Generated: {path_prefix}/{'index.html' if page_number == 1 else f'page-{page_number}/index.html'}")
+        print(f"✓ Generated: {path_prefix}/{'index.html' if page_number == 1 else f'page/{page_number}/index.html'}")
 
     elif page_type == 'entry':
         output_dir = output_base / entry['url_slug']
@@ -1618,6 +1619,44 @@ def save_changelog_html(html, page_type, lang_code='en', page_number=None, entry
             f.write(html)
 
         print(f"✓ Generated: {path_prefix}/{entry['url_slug']}/index.html")
+
+
+def generate_changelog_redirect_pages(lang_code, locale_data, global_config, total_pages):
+    """Generate redirect pages for old pagination URLs (page-2/ -> page/2/)"""
+    lang_config = get_lang_config(global_config, lang_code)
+
+    # Determine base paths
+    if lang_code == 'en':
+        output_base = PROJECT_ROOT / "changelog"
+        base_url = "https://withframes.com/changelog/"
+    else:
+        output_base = PROJECT_ROOT / lang_code / "changelog"
+        base_url = f"https://withframes.com/{lang_code}/changelog/"
+
+    # Generate redirects for pages 2 through total_pages
+    for page_num in range(2, total_pages + 1):
+        # Old location: changelog/page-2/
+        old_dir = output_base / f"page-{page_num}"
+        old_dir.mkdir(parents=True, exist_ok=True)
+
+        # New URL: changelog/page/2/
+        new_url = f"{base_url}page/{page_num}/"
+
+        # Render redirect template
+        context = {
+            'lang': lang_code,
+            'locale_data': locale_data,
+            'new_url': new_url
+        }
+
+        redirect_html = render_template('redirect-changelog-pagination.html', context)
+
+        # Save redirect page
+        redirect_path = old_dir / "index.html"
+        with open(redirect_path, 'w', encoding='utf-8') as f:
+            f.write(redirect_html)
+
+        print(f"✓ Generated redirect: {old_dir.relative_to(PROJECT_ROOT)}/index.html → {new_url}")
 
 
 def build_changelog_pages(global_config):
@@ -1664,6 +1703,10 @@ def build_changelog_pages(global_config):
             total_pages = math.ceil(len(entries) / ENTRIES_PER_PAGE)
             print(f"✓ Total pages: {total_pages}")
 
+            # Generate redirect pages for old pagination URLs (page-2/ -> page/2/)
+            if total_pages > 1:
+                generate_changelog_redirect_pages(lang_code, locale_data, global_config, total_pages)
+
             # Generate index pages
             for page in range(1, total_pages + 1):
                 start_idx = (page - 1) * ENTRIES_PER_PAGE
@@ -1672,7 +1715,7 @@ def build_changelog_pages(global_config):
 
                 canonical_url = f"https://withframes.com{'/' + lang_code if lang_code != 'en' else ''}/changelog/"
                 if page > 1:
-                    canonical_url += f"page-{page}/"
+                    canonical_url += f"page/{page}/"
 
                 extra_context = {
                     'hreflang_links': generate_changelog_hreflang_links(global_config['languages'], page_type='index', page_number=page),
@@ -1906,7 +1949,7 @@ def generate_changelog_sitemap(entries, lang_code='en'):
     total_pages = math.ceil(len(entries) / ENTRIES_PER_PAGE)
     for page in range(2, total_pages + 1):
         sitemap_lines.append('  <url>')
-        sitemap_lines.append(f'    <loc>{base_url}{url_prefix}/page-{page}/</loc>')
+        sitemap_lines.append(f'    <loc>{base_url}{url_prefix}/page/{page}/</loc>')
         sitemap_lines.append(f'    <lastmod>{current_date}</lastmod>')
         sitemap_lines.append('    <changefreq>weekly</changefreq>')
         sitemap_lines.append('    <priority>0.7</priority>')

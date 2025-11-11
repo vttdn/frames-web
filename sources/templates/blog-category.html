@@ -239,7 +239,7 @@
                     <ul class="dropdown-content dropdown-dir-top" role="menu">
                         {% for language in all_languages %}
                         <li>
-                            <a role="menuitem" href="{% if language.code in available_blog_languages %}{{ language.url }}blog/topic/{{ category_slug }}/{% if page_number > 1 %}page/{{ page_number }}/{% endif %}{% else %}/blog/topic/{{ category_slug }}/{% if page_number > 1 %}page/{{ page_number }}/{% endif %}{% endif %}">
+                            <a role="menuitem" href="{% if language.code in available_blog_languages %}{{ language.url }}blog/topic/{{ category_slug }}/{% if page_number > 1 %}page/{{ page_number }}/{% endif %}{% else %}{{ language.url }}{% endif %}">
                                 <span>{{ language.name }}</span>
                                 {% if language.code == lang %}
                                 <span>✓</span>

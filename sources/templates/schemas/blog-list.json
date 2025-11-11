@@ -21,7 +21,7 @@
       "datePublished": "{{ entry.publish_date }}",
       "dateModified": "{{ build_date }}",
       "inLanguage": "{{ lang }}",
-      "keywords": "{{ keywords }}",
+      "keywords": "{% if entry.meta_keywords %}{{ entry.meta_keywords }}{% else %}{{ keywords }}{% endif %}",
       "author": {"@id": "https://withframes.com/#vincent-tantardini"},
       "publisher": {
         "@id": "https://withframes.com/#organization"

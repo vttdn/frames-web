@@ -259,7 +259,7 @@
                     <ul class="dropdown-content dropdown-dir-top" role="menu">
                         {% for language in all_languages %}
                         <li>
-                            <a role="menuitem" href="{% if language.code in available_blog_languages %}{{ language.url }}blog/{{ entry.url_slug }}/{% else %}/blog/{{ entry.url_slug }}/{% endif %}">
+                            <a role="menuitem" href="{% if language.code in available_blog_languages %}{{ language.url }}blog/{{ entry.url_slug }}/{% else %}{{ language.url }}{% endif %}">
                                 <span>{{ language.name }}</span>
                                 {% if language.code == lang %}
                                 <span>✓</span>
