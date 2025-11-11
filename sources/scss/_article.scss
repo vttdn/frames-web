@@ -2,7 +2,8 @@
 
 /* Global - Shared between Changelog and Privacy */
 .changelog,
-.privacy {
+.privacy,
+.blog-entry {
 
   article {
     align-items: start;
@@ -169,7 +170,8 @@
   padding: 0 10px;
 }
 
-.changelog-media {
+.changelog-media,
+.blog-media {
   margin: var(--spacing-3xl) 0 var(--spacing-3xl);
 
   .tile-inner {

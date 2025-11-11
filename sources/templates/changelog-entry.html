@@ -104,12 +104,7 @@
           {% if section.type == 'heading' %}
           <h2>{{ section.content }}</h2>
           {% elif section.type == 'paragraph' %}
-          <p>
-            {{ section.content }}
-            {% if section.link %}
-            <a href="{{ section.link.url }}">{{ section.link.text }}</a>
-            {% endif %}
-          </p>
+          <p>{{ section.content|convert_links|safe }}</p>
           {% elif section.type == 'list' %}
           <ul>
             {% for item in section['items'] %}
@@ -122,13 +117,18 @@
           </ul>
           {% elif section.type == 'media' %}
           <div class="changelog-media">
-            <figure class="tile container-ratio ratio-4-3">
-                <div class="tile-inner">
-                    <img src="{{ section.image }}"
-                        srcset="{{ section.image }} 1x, {{ section.image_2x }} 2x"
-                        alt="{{ section.alt }}"
-                        width="{{ section.width }}" height="{{ section.height }}" loading="lazy">
+            <figure>
+                <div class="tile container-ratio ratio-4-3">
+                    <div class="tile-inner">
+                        <img src="{{ section.image }}"
+                            srcset="{{ section.image }} 1x, {{ section.image_2x }} 2x"
+                            alt="{{ section.alt }}"
+                            width="{{ section.width }}" height="{{ section.height }}" loading="lazy">
+                    </div>
                 </div>
+                {% if section.caption %}
+                <figcaption>{{ section.caption }}</figcaption>
+                {% endif %}
             </figure>
           </div>
           {% endif %}
@@ -252,6 +252,7 @@
                 <li><a href="{{ lang_config.path }}{{ locale_data.urls.changelog }}">{{ locale_data.footer.resources.changelog }}</a></li>
                 <li><a href="{% if lang == 'en' %}/changelog/rss/index.rss{% else %}/{{ lang }}/changelog/rss/index.rss{% endif %}">{{ locale_data.footer.resources.rss }}</a></li>
                 <li><a href="https://www.youtube.com/@withframes" target="_blank" rel="noopener noreferrer">{{ locale_data.footer.resources.youtube }}</a></li>
+                <li><a href="{% if lang in available_blog_languages %}{{ lang_config.path }}{{ locale_data.urls.blog }}{% else %}/blog/{% endif %}">{{ locale_data.footer.resources.blog }}</a></li>
             </ul>
             <ul class="flex flex-col gap-sm2">
                 <li><h3>{{ locale_data.footer.product.heading }}</h3></li>

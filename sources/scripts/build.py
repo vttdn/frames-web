@@ -30,10 +30,12 @@ PROJECT_ROOT = Path(__file__).parent.parent.parent
 TEMPLATES_DIR = PROJECT_ROOT / "sources" / "templates"
 LOCALES_DIR = PROJECT_ROOT / "sources" / "locales"
 CHANGELOG_DIR = LOCALES_DIR / "changelog"
+BLOG_DIR = LOCALES_DIR / "blog"
 OUTPUT_DIR = PROJECT_ROOT
 SCHEMA_OUTPUT_DIR = PROJECT_ROOT / "lib" / "schema"
 
 ENTRIES_PER_PAGE = 5
+BLOG_POSTS_PER_PAGE = 10
 
 
 # ============================================================================
@@ -84,6 +86,28 @@ def create_jinja_env(autoescape_enabled=True):
 
     env.filters['regex_replace'] = regex_replace
 
+    # Add custom filter to convert markdown-style links to HTML with article-link class
+    def convert_links(text):
+        import re
+
+        def replace_link(match):
+            link_text = match.group(1)
+            url = match.group(2)
+
+            # Check if it's an external link (starts with http/https but not withframes.com)
+            is_external = (url.startswith('http://') or url.startswith('https://')) and 'withframes.com' not in url
+
+            if is_external:
+                return f'<a href="{url}" class="article-link" target="_blank" rel="noopener noreferrer">{link_text}</a>'
+            else:
+                return f'<a href="{url}" class="article-link">{link_text}</a>'
+
+        # Convert [text](url) to appropriate <a> tag
+        pattern = r'\[([^\]]+)\]\(([^\)]+)\)'
+        return re.sub(pattern, replace_link, text)
+
+    env.filters['convert_links'] = convert_links
+
     return env
 
 
@@ -95,9 +119,12 @@ def get_lang_config(global_config, lang_code):
     return lang_config
 
 
-def build_base_context(lang_code, global_config, locale_data, available_changelog_languages):
+def build_base_context(lang_code, global_config, locale_data, available_changelog_languages, available_blog_languages=None):
     """Build common context used across all templates"""
     lang_config = get_lang_config(global_config, lang_code)
+
+    if available_blog_languages is None:
+        available_blog_languages = []
 
     return {
         'lang': lang_code,
@@ -105,7 +132,8 @@ def build_base_context(lang_code, global_config, locale_data, available_changelo
         'global_config': global_config,
         'lang_config': lang_config,
         'all_languages': generate_language_list(global_config['languages']),
-        'available_changelog_languages': available_changelog_languages
+        'available_changelog_languages': available_changelog_languages,
+        'available_blog_languages': available_blog_languages
     }
 
 
@@ -198,6 +226,19 @@ def detect_available_changelog_languages():
     return available_languages
 
 
+def detect_available_blog_languages():
+    """Detect which languages have blog content"""
+    available_languages = []
+    if not BLOG_DIR.exists():
+        return available_languages
+
+    for lang_dir in BLOG_DIR.iterdir():
+        if lang_dir.is_dir() and any(lang_dir.glob("*.json")):
+            available_languages.append(lang_dir.name)
+
+    return available_languages
+
+
 # ============================================================================
 # GENERIC RENDERING FUNCTIONS
 # ============================================================================
@@ -210,9 +251,9 @@ def render_template(template_name, context, autoescape_enabled=True):
 
 
 def generate_html_page(template_name, lang_code, global_config, locale_data,
-                       available_changelog_languages, extra_context=None):
+                       available_changelog_languages, extra_context=None, available_blog_languages=None):
     """Generic HTML page generation"""
-    context = build_base_context(lang_code, global_config, locale_data, available_changelog_languages)
+    context = build_base_context(lang_code, global_config, locale_data, available_changelog_languages, available_blog_languages)
 
     if extra_context:
         context.update(extra_context)
@@ -323,6 +364,12 @@ def get_javascript_output_path(lang_code, js_type='core'):
         else:
             js_dir = PROJECT_ROOT / "lib" / "js" / lang_code
         return js_dir / "docs.js"
+    elif js_type == 'blog':
+        if lang_code == 'en':
+            js_dir = PROJECT_ROOT / "lib" / "js" / "blog"
+        else:
+            js_dir = PROJECT_ROOT / "lib" / "js" / lang_code / "blog"
+        return js_dir / "core.js"
 
 
 def save_javascript(javascript, lang_code, js_type='core', minify=True):
@@ -458,7 +505,9 @@ def build_homepage(global_config, languages):
         print("⚠ No critical CSS loaded - templates will use fallback")
 
     available_changelog_languages = detect_available_changelog_languages()
+    available_blog_languages = detect_available_blog_languages()
     print(f"✓ Detected {len(available_changelog_languages)} languages with changelog translations")
+    print(f"✓ Detected {len(available_blog_languages)} languages with blog content")
 
     for lang in languages:
         lang_code = lang['code']
@@ -474,7 +523,7 @@ def build_homepage(global_config, languages):
                 'latest_changelog_entries': get_latest_changelog_entries(lang_code)
             }
             html = generate_html_page('index.html', lang_code, global_config, locale_data,
-                                     available_changelog_languages, extra_context)
+                                     available_changelog_languages, extra_context, available_blog_languages)
             save_html(html, lang, locale_data, 'index')
 
             # Generate schemas
@@ -510,6 +559,7 @@ def build_privacy(global_config, languages):
         print("⚠ No privacy CSS loaded - templates will use fallback")
 
     available_changelog_languages = detect_available_changelog_languages()
+    available_blog_languages = detect_available_blog_languages()
 
     for lang in languages:
         lang_code = lang['code']
@@ -523,7 +573,7 @@ def build_privacy(global_config, languages):
                 'privacy_css': privacy_css
             }
             html = generate_html_page('privacy.html', lang_code, global_config, locale_data,
-                                     available_changelog_languages, extra_context)
+                                     available_changelog_languages, extra_context, available_blog_languages)
             save_html(html, lang, locale_data, 'privacy')
 
             # Generate WebPage schema
@@ -577,6 +627,7 @@ def build_docs(global_config, languages):
         print("⚠ No docs CSS loaded - templates will use fallback")
 
     available_changelog_languages = detect_available_changelog_languages()
+    available_blog_languages = detect_available_blog_languages()
 
     for lang in languages:
         lang_code = lang['code']
@@ -590,7 +641,7 @@ def build_docs(global_config, languages):
                 'docs_css': docs_css
             }
             html = generate_html_page('docs.html', lang_code, global_config, locale_data,
-                                     available_changelog_languages, extra_context)
+                                     available_changelog_languages, extra_context, available_blog_languages)
             save_html(html, lang, locale_data, 'docs')
 
             # Generate WebPage schema
@@ -635,6 +686,610 @@ def build_docs(global_config, languages):
 
     print("\nGenerating docs sitemap...")
     generate_sitemap(languages, 'docs')
+
+
+# ============================================================================
+# BLOG GENERATION
+# ============================================================================
+
+def load_blog_config():
+    """Load blog configuration"""
+    blog_conf_path = BLOG_DIR / "blog.conf"
+    return load_json(blog_conf_path)
+
+
+def load_blog_entries(lang_code='en'):
+    """Load all blog entries and sort by date (newest first)"""
+    entries = []
+    lang_blog_dir = BLOG_DIR / lang_code
+
+    if not lang_blog_dir.exists():
+        print(f"✗ Blog directory not found: {lang_blog_dir}")
+        return entries
+
+    for entry_file in lang_blog_dir.glob("*.json"):
+        try:
+            entry_data = load_json(entry_file)
+            # Extract date from filename for sorting: YYYY-MM-DD-slug.json
+            filename = entry_file.stem
+            date_parts = filename.split('-')[:3]
+            if len(date_parts) == 3:
+                entry_data['filename_date'] = '-'.join(date_parts)
+            entries.append(entry_data)
+        except Exception as e:
+            print(f"✗ Error loading {entry_file}: {e}")
+
+    # Sort by publish_date (newest first)
+    entries.sort(key=lambda x: x['publish_date'], reverse=True)
+    return entries
+
+
+def format_blog_entry(entry, lang_code):
+    """Add formatted date for blog entry"""
+    entry['formatted_date'] = format_date(entry['publish_date'], lang_code)
+    return entry
+
+
+def generate_blog_hreflang_links(available_blog_languages, languages, page_type='index', page_number=1, url_slug=None, category_slug=None, base_url="https://withframes.com"):
+    """Generate hreflang alternate links for blog pages"""
+    links = []
+
+    for lang in languages:
+        if lang['code'] not in available_blog_languages:
+            continue
+
+        if page_type == 'index':
+            if lang['code'] == 'en':
+                url_path = '/blog/'
+            else:
+                url_path = f"/{lang['code']}/blog/"
+
+            if page_number > 1:
+                url_path = url_path.rstrip('/') + f"/page/{page_number}/"
+
+        elif page_type == 'entry':
+            if lang['code'] == 'en':
+                url_path = f'/blog/{url_slug}/'
+            else:
+                url_path = f"/{lang['code']}/blog/{url_slug}/"
+
+        elif page_type == 'category':
+            if lang['code'] == 'en':
+                url_path = f'/blog/topic/{category_slug}/'
+            else:
+                url_path = f"/{lang['code']}/blog/topic/{category_slug}/"
+
+            if page_number > 1:
+                url_path = url_path.rstrip('/') + f"/page/{page_number}/"
+
+        url = f"{base_url}{url_path}"
+        links.append({
+            'hreflang': lang['hreflang'],
+            'href': url
+        })
+
+    # Add x-default
+    if page_type == 'index':
+        x_default_path = '/blog/' if page_number == 1 else f'/blog/page/{page_number}/'
+    elif page_type == 'entry':
+        x_default_path = f'/blog/{url_slug}/'
+    elif page_type == 'category':
+        x_default_path = f'/blog/topic/{category_slug}/' if page_number == 1 else f'/blog/topic/{category_slug}/page/{page_number}/'
+
+    links.append({
+        'hreflang': 'x-default',
+        'href': base_url + x_default_path
+    })
+
+    return links
+
+
+def save_blog_schema(schema_json, schema_name, lang_code, page_type='page', page_number=None, url_slug=None, category_slug=None):
+    """Save generated JSON-LD schema to appropriate location"""
+    schema_base_dir = PROJECT_ROOT / "lib" / "schema"
+
+    if page_type == 'blog-index':
+        if page_number == 1:
+            schema_dir = schema_base_dir / lang_code / "blog"
+        else:
+            schema_dir = schema_base_dir / lang_code / "blog" / "page" / str(page_number)
+    elif page_type == 'blog-entry':
+        schema_dir = schema_base_dir / lang_code / "blog" / url_slug
+    elif page_type == 'blog-category':
+        if page_number == 1:
+            schema_dir = schema_base_dir / lang_code / "blog" / "topic" / category_slug
+        else:
+            schema_dir = schema_base_dir / lang_code / "blog" / "topic" / category_slug / "page" / str(page_number)
+    else:
+        schema_dir = schema_base_dir / lang_code
+
+    schema_dir.mkdir(parents=True, exist_ok=True)
+
+    schema_path = schema_dir / schema_name
+    with open(schema_path, 'w', encoding='utf-8') as f:
+        f.write(schema_json)
+
+
+def generate_blog_schemas(lang_code, locale_data, global_config, blog_config, page_type, **kwargs):
+    """Generate schemas for blog pages"""
+    build_date = get_current_build_date()
+
+    # Extract parameters
+    page_number = kwargs.get('page_number')
+    url_slug = kwargs.get('url_slug')
+    category_slug = kwargs.get('category_slug')
+
+    # Common organization schema
+    org_context = {
+        'global_urls': global_config['urls'],
+        'appstore_url': locale_data['urls']['appstore_ios'],
+        'macappstore_url': locale_data['urls']['appstore_macos'],
+        'company_description': locale_data['company']['description']
+    }
+    organization_schema = generate_schema_file('schemas/organization.json', org_context)
+    save_blog_schema(organization_schema, 'organization.json', lang_code, page_type, page_number, url_slug, category_slug)
+
+    # Breadcrumb schema
+    breadcrumb_template = 'schemas/breadcrumb-blog-category.json' if page_type == 'blog-category' else 'schemas/breadcrumb-blog.json'
+    breadcrumb_filename = 'breadcrumb-blog-category.json' if page_type == 'blog-category' else 'breadcrumb-blog.json'
+    breadcrumb_context = {
+        'lang': lang_code,
+        'button_home': locale_data['privacy']['button_home'],
+        'blog_heading': locale_data['blog']['heading'],
+        'canonical_url': kwargs.get('canonical_url'),
+        'entry_title': kwargs.get('entry_title'),
+        'category_name': kwargs.get('category_name'),
+        'page_number': kwargs.get('page_number') if kwargs.get('page_number', 1) > 1 else None
+    }
+    breadcrumb_schema = generate_schema_file(breadcrumb_template, breadcrumb_context)
+    save_blog_schema(breadcrumb_schema, breadcrumb_filename, lang_code, page_type, page_number, url_slug, category_slug)
+
+    # Page-specific schemas
+    if page_type in ['blog-index', 'blog-category']:
+        # Blog list schema
+        blog_list_context = {
+            'lang': lang_code,
+            'canonical_url': kwargs['canonical_url'],
+            'page_title': kwargs.get('page_title', locale_data['blog']['meta']['title']),
+            'page_description': kwargs.get('page_description', locale_data['blog']['meta']['description']),
+            'entries': kwargs.get('all_entries', []),
+            'build_date': build_date,
+            'keywords': locale_data['meta']['keywords']
+        }
+        blog_list_schema = generate_schema_file('schemas/blog-list.json', blog_list_context)
+        save_blog_schema(blog_list_schema, 'blog-list.json', lang_code, page_type, page_number, url_slug, category_slug)
+
+    elif page_type == 'blog-entry':
+        entry = kwargs.get('entry')
+
+        blogposting_context = {
+            'lang': lang_code,
+            'canonical_url': kwargs['canonical_url'],
+            'entry': entry,
+            'build_date': build_date,
+            'og_image_url': entry.get('og_image_url', '/og-image.jpg'),
+            'og_image_alt': entry.get('og_image_alt', ''),
+            'keywords': locale_data['meta']['keywords']
+        }
+        blogposting_schema = generate_schema_file('schemas/blogposting.json', blogposting_context)
+        save_blog_schema(blogposting_schema, 'blogposting.json', lang_code, page_type, page_number, url_slug, category_slug)
+
+
+def save_blog_html(html, page_type, lang_code='en', page_number=None, entry=None, category_slug=None):
+    """Save blog HTML to appropriate location"""
+    if lang_code == 'en':
+        output_base = PROJECT_ROOT / "blog"
+        path_prefix = "blog"
+    else:
+        output_base = PROJECT_ROOT / lang_code / "blog"
+        path_prefix = f"{lang_code}/blog"
+
+    if page_type == 'index':
+        if page_number == 1:
+            output_path = output_base / "index.html"
+            output_base.mkdir(parents=True, exist_ok=True)
+        else:
+            output_dir = output_base / "page" / str(page_number)
+            output_dir.mkdir(parents=True, exist_ok=True)
+            output_path = output_dir / "index.html"
+
+        with open(output_path, 'w', encoding='utf-8') as f:
+            f.write(html)
+
+        print(f"✓ Generated: {path_prefix}/{'index.html' if page_number == 1 else f'page/{page_number}/index.html'}")
+
+    elif page_type == 'entry':
+        output_dir = output_base / entry['slug']
+        output_dir.mkdir(parents=True, exist_ok=True)
+        output_path = output_dir / "index.html"
+
+        with open(output_path, 'w', encoding='utf-8') as f:
+            f.write(html)
+
+        print(f"✓ Generated: {path_prefix}/{entry['slug']}/index.html")
+
+    elif page_type == 'category':
+        if page_number == 1:
+            output_dir = output_base / "topic" / category_slug
+            output_dir.mkdir(parents=True, exist_ok=True)
+            output_path = output_dir / "index.html"
+        else:
+            output_dir = output_base / "topic" / category_slug / "page" / str(page_number)
+            output_dir.mkdir(parents=True, exist_ok=True)
+            output_path = output_dir / "index.html"
+
+        with open(output_path, 'w', encoding='utf-8') as f:
+            f.write(html)
+
+        if page_number == 1:
+            print(f"✓ Generated: {path_prefix}/topic/{category_slug}/index.html")
+        else:
+            print(f"✓ Generated: {path_prefix}/topic/{category_slug}/page/{page_number}/index.html")
+
+
+def build_blog_pages(global_config):
+    """Build blog pages for all languages"""
+    print("\n" + "=" * 50)
+    print("Building Blog")
+    print("=" * 50)
+
+    # Load blog config
+    try:
+        blog_config = load_blog_config()
+        print(f"✓ Loaded blog configuration")
+    except FileNotFoundError:
+        print("✗ Error: blog.conf not found")
+        return
+
+    # Load blog CSS
+    blog_css = load_css_file('blog')
+    if blog_css:
+        print(f"✓ Loaded blog CSS ({len(blog_css)} bytes)")
+    else:
+        print("⚠ No blog CSS loaded - templates will use fallback")
+
+    # Detect available blog languages
+    available_blog_languages = detect_available_blog_languages()
+    if not available_blog_languages:
+        print("⚠ No blog languages detected")
+        return
+
+    print(f"✓ Detected {len(available_blog_languages)} languages with blog content: {', '.join(sorted(available_blog_languages))}")
+
+    for lang_code in available_blog_languages:
+        print(f"\n--- Generating blog for {lang_code} ---")
+
+        try:
+            locale_data = load_locale(lang_code)
+            print(f"✓ Loaded locale: {lang_code}")
+
+            entries = load_blog_entries(lang_code)
+
+            if not entries:
+                print(f"⚠ No blog entries found for {lang_code}")
+                continue
+
+            print(f"✓ Loaded {len(entries)} blog entries")
+
+            # Generate OG images for all entries upfront
+            for entry in entries:
+                first_image, alt_text = get_first_image_from_entry(entry)
+                if first_image:
+                    og_filename = f"{entry['slug']}-og-image.jpg"
+                    og_image_url = generate_changelog_og_image(lang_code, first_image, og_filename)
+                    entry['og_image_url'] = og_image_url
+                    entry['og_image_alt'] = alt_text
+                else:
+                    entry['og_image_url'] = '/og-image.jpg'
+                    entry['og_image_alt'] = ''
+
+            print(f"✓ Generated OG images for blog entries")
+
+            total_pages = math.ceil(len(entries) / BLOG_POSTS_PER_PAGE)
+            print(f"✓ Total pages: {total_pages}")
+
+            # Generate index pages
+            for page in range(1, total_pages + 1):
+                start_idx = (page - 1) * BLOG_POSTS_PER_PAGE
+                end_idx = start_idx + BLOG_POSTS_PER_PAGE
+                page_entries = [format_blog_entry(e.copy(), lang_code) for e in entries[start_idx:end_idx]]
+
+                canonical_url = f"https://withframes.com{'/' + lang_code if lang_code != 'en' else ''}/blog/"
+                if page > 1:
+                    canonical_url += f"page/{page}/"
+
+                extra_context = {
+                    'hreflang_links': generate_blog_hreflang_links(available_blog_languages, global_config['languages'], page_type='index', page_number=page),
+                    'entries': page_entries,
+                    'page_number': page,
+                    'total_pages': total_pages,
+                    'blog_css': blog_css,
+                    'blog_config': blog_config
+                }
+
+                html = generate_html_page('blog-index.html', lang_code, global_config, locale_data,
+                                         detect_available_changelog_languages(), extra_context, available_blog_languages)
+                html = minify_html(html)
+                save_blog_html(html, 'index', lang_code, page_number=page)
+
+                # Generate schemas
+                generate_blog_schemas(lang_code, locale_data, global_config, blog_config, 'blog-index',
+                                     page_number=page, canonical_url=canonical_url,
+                                     all_entries=entries)
+
+            # Generate category pages
+            categories = blog_config.get('categories', {})
+            for category_slug, category_data in categories.items():
+                category_entries = [e for e in entries if e.get('category') == category_slug]
+
+                if not category_entries:
+                    continue
+
+                category_total_pages = math.ceil(len(category_entries) / BLOG_POSTS_PER_PAGE)
+                category_info = category_data.get(lang_code, {})
+
+                for page in range(1, category_total_pages + 1):
+                    start_idx = (page - 1) * BLOG_POSTS_PER_PAGE
+                    end_idx = start_idx + BLOG_POSTS_PER_PAGE
+                    page_entries = [format_blog_entry(e.copy(), lang_code) for e in category_entries[start_idx:end_idx]]
+
+                    canonical_url = f"https://withframes.com{'/' + lang_code if lang_code != 'en' else ''}/blog/topic/{category_slug}/"
+                    if page > 1:
+                        canonical_url += f"page/{page}/"
+
+                    extra_context = {
+                        'hreflang_links': generate_blog_hreflang_links(available_blog_languages, global_config['languages'], page_type='category', page_number=page, category_slug=category_slug),
+                        'entries': page_entries,
+                        'page_number': page,
+                        'total_pages': category_total_pages,
+                        'blog_css': blog_css,
+                        'blog_config': blog_config,
+                        'category_slug': category_slug,
+                        'category_name': category_info.get('name', ''),
+                        'category_description': category_info.get('description', '')
+                    }
+
+                    html = generate_html_page('blog-category.html', lang_code, global_config, locale_data,
+                                             detect_available_changelog_languages(), extra_context, available_blog_languages)
+                    html = minify_html(html)
+                    save_blog_html(html, 'category', lang_code, page_number=page, category_slug=category_slug)
+
+                    # Generate schemas
+                    generate_blog_schemas(lang_code, locale_data, global_config, blog_config, 'blog-category',
+                                         page_number=page, canonical_url=canonical_url,
+                                         category_slug=category_slug, category_name=category_info.get('name', ''),
+                                         page_title=category_info.get('meta_title', ''),
+                                         page_description=category_info.get('meta_description', ''),
+                                         all_entries=category_entries)
+
+            # Generate individual entry pages
+            for i, entry in enumerate(entries):
+                entry = format_blog_entry(entry.copy(), lang_code)
+                prev_entry = format_blog_entry(entries[i - 1].copy(), lang_code) if i > 0 else None
+                next_entry = format_blog_entry(entries[i + 1].copy(), lang_code) if i < len(entries) - 1 else None
+
+                canonical_url = f"https://withframes.com{'/' + lang_code if lang_code != 'en' else ''}/blog/{entry['slug']}/"
+
+                # Get category info
+                category_slug = entry.get('category', '')
+                category_info = categories.get(category_slug, {}).get(lang_code, {})
+
+                extra_context = {
+                    'hreflang_links': generate_blog_hreflang_links(available_blog_languages, global_config['languages'], page_type='entry', url_slug=entry['slug']),
+                    'entry': entry,
+                    'prev_entry': prev_entry,
+                    'next_entry': next_entry,
+                    'blog_css': blog_css,
+                    'blog_config': blog_config,
+                    'og_image_url': entry.get('og_image_url', '/og-image.jpg'),
+                    'category_info': category_info
+                }
+
+                html = generate_html_page('blog-entry.html', lang_code, global_config, locale_data,
+                                         detect_available_changelog_languages(), extra_context, available_blog_languages)
+                html = minify_html(html)
+                save_blog_html(html, 'entry', lang_code, entry=entry)
+
+                # Generate schemas
+                generate_blog_schemas(lang_code, locale_data, global_config, blog_config, 'blog-entry',
+                                     canonical_url=canonical_url, entry=entry,
+                                     url_slug=entry['slug'], entry_title=entry['title'])
+
+            # Generate sitemap
+            generate_blog_sitemap(entries, categories, lang_code)
+
+            # Generate RSS feed
+            generate_blog_rss_feed(entries, lang_code, locale_data)
+
+            # Generate JavaScript
+            javascript = generate_javascript_file('js/blog.js', lang_code, locale_data, global_config)
+            save_javascript(javascript, lang_code, 'blog')
+
+        except FileNotFoundError:
+            print(f"✗ Warning: {lang_code}.json not found, skipping...")
+        except Exception as e:
+            print(f"✗ Error generating blog for {lang_code}: {e}")
+            import traceback
+            traceback.print_exc()
+
+    print("\nGenerating blog sitemap index...")
+    generate_blog_sitemap_index(available_blog_languages)
+
+
+def generate_blog_rss_feed(entries, lang_code, locale_data):
+    """Generate RSS feed for blog"""
+    from email.utils import formatdate
+    from xml.sax.saxutils import escape
+
+    base_url = "https://withframes.com"
+
+    # Build canonical URL for blog
+    if lang_code == 'en':
+        canonical_url = f"{base_url}/blog/"
+        feed_url = f"{base_url}/blog/rss/index.rss"
+    else:
+        canonical_url = f"{base_url}/{lang_code}/blog/"
+        feed_url = f"{base_url}/{lang_code}/blog/rss/index.rss"
+
+    # Format entries for RSS
+    rss_entries = []
+    for entry in entries:
+        # Convert ISO date to RFC 822 format for RSS
+        publish_date = datetime.fromisoformat(entry['publish_date'].replace('Z', '+00:00'))
+        pub_date = formatdate(publish_date.timestamp(), usegmt=True)
+
+        # Build entry canonical URL
+        if lang_code == 'en':
+            entry_url = f"{base_url}/blog/{entry['slug']}/"
+        else:
+            entry_url = f"{base_url}/{lang_code}/blog/{entry['slug']}/"
+
+        rss_entries.append({
+            'title': escape(entry['title']),
+            'summary': escape(entry['summary']),
+            'canonical_url': entry_url,
+            'pub_date': pub_date,
+            'author': escape(entry.get('author', ''))
+        })
+
+    # Get current build date in RFC 822 format
+    build_date = formatdate(datetime.now().timestamp(), usegmt=True)
+
+    # Render RSS template
+    context = {
+        'lang': lang_code,
+        'locale_data': locale_data,
+        'canonical_url': canonical_url,
+        'feed_url': feed_url,
+        'build_date': build_date,
+        'entries': rss_entries
+    }
+
+    rss_content = render_template('rss/blog-feed.xml', context, autoescape_enabled=False)
+
+    # Save RSS feed
+    if lang_code == 'en':
+        rss_dir = PROJECT_ROOT / "blog" / "rss"
+    else:
+        rss_dir = PROJECT_ROOT / lang_code / "blog" / "rss"
+
+    rss_dir.mkdir(parents=True, exist_ok=True)
+
+    rss_path = rss_dir / "index.rss"
+    with open(rss_path, 'w', encoding='utf-8') as f:
+        f.write(rss_content)
+
+    print(f"✓ Generated RSS feed: {rss_path.relative_to(PROJECT_ROOT)}")
+
+
+def generate_blog_sitemap(entries, categories, lang_code='en'):
+    """Generate blog-specific sitemap"""
+    sitemap_lines = ['<?xml version="1.0" encoding="UTF-8"?>']
+    sitemap_lines.append('<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">')
+
+    base_url = "https://withframes.com"
+    current_date = datetime.now().strftime('%Y-%m-%d')
+
+    if lang_code == 'en':
+        url_prefix = "/blog"
+        output_base = PROJECT_ROOT / "blog"
+        path_prefix = "blog"
+    else:
+        url_prefix = f"/{lang_code}/blog"
+        output_base = PROJECT_ROOT / lang_code / "blog"
+        path_prefix = f"{lang_code}/blog"
+
+    # Add blog index
+    sitemap_lines.append('  <url>')
+    sitemap_lines.append(f'    <loc>{base_url}{url_prefix}/</loc>')
+    sitemap_lines.append(f'    <lastmod>{current_date}</lastmod>')
+    sitemap_lines.append('    <changefreq>weekly</changefreq>')
+    sitemap_lines.append('    <priority>0.8</priority>')
+    sitemap_lines.append('  </url>')
+
+    # Add pagination pages
+    total_pages = math.ceil(len(entries) / BLOG_POSTS_PER_PAGE)
+    for page in range(2, total_pages + 1):
+        sitemap_lines.append('  <url>')
+        sitemap_lines.append(f'    <loc>{base_url}{url_prefix}/page/{page}/</loc>')
+        sitemap_lines.append(f'    <lastmod>{current_date}</lastmod>')
+        sitemap_lines.append('    <changefreq>weekly</changefreq>')
+        sitemap_lines.append('    <priority>0.7</priority>')
+        sitemap_lines.append('  </url>')
+
+    # Add category pages
+    for category_slug in categories.keys():
+        category_entries = [e for e in entries if e.get('category') == category_slug]
+        if not category_entries:
+            continue
+
+        # Category index
+        sitemap_lines.append('  <url>')
+        sitemap_lines.append(f'    <loc>{base_url}{url_prefix}/topic/{category_slug}/</loc>')
+        sitemap_lines.append(f'    <lastmod>{current_date}</lastmod>')
+        sitemap_lines.append('    <changefreq>weekly</changefreq>')
+        sitemap_lines.append('    <priority>0.7</priority>')
+        sitemap_lines.append('  </url>')
+
+        # Category pagination
+        category_total_pages = math.ceil(len(category_entries) / BLOG_POSTS_PER_PAGE)
+        for page in range(2, category_total_pages + 1):
+            sitemap_lines.append('  <url>')
+            sitemap_lines.append(f'    <loc>{base_url}{url_prefix}/topic/{category_slug}/page/{page}/</loc>')
+            sitemap_lines.append(f'    <lastmod>{current_date}</lastmod>')
+            sitemap_lines.append('    <changefreq>weekly</changefreq>')
+            sitemap_lines.append('    <priority>0.6</priority>')
+            sitemap_lines.append('  </url>')
+
+    # Add individual entries
+    for entry in entries:
+        sitemap_lines.append('  <url>')
+        sitemap_lines.append(f'    <loc>{base_url}{url_prefix}/{entry["slug"]}/</loc>')
+        sitemap_lines.append(f'    <lastmod>{current_date}</lastmod>')
+        sitemap_lines.append('    <changefreq>monthly</changefreq>')
+        sitemap_lines.append('    <priority>0.6</priority>')
+        sitemap_lines.append('  </url>')
+
+    sitemap_lines.append('</urlset>')
+    sitemap_content = '\n'.join(sitemap_lines)
+
+    output_base.mkdir(parents=True, exist_ok=True)
+    sitemap_path = output_base / "sitemap.xml"
+    with open(sitemap_path, 'w', encoding='utf-8') as f:
+        f.write(sitemap_content)
+
+    print(f"✓ Generated: {path_prefix}/sitemap.xml")
+    return sitemap_path
+
+
+def generate_blog_sitemap_index(available_languages):
+    """Generate sitemap index for all blog sitemaps"""
+    sitemap_lines = ['<?xml version="1.0" encoding="UTF-8"?>']
+    sitemap_lines.append('<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">')
+
+    base_url = "https://withframes.com"
+    current_date = datetime.now().strftime('%Y-%m-%d')
+
+    for lang_code in sorted(available_languages):
+        if lang_code == 'en':
+            sitemap_url = f"{base_url}/blog/sitemap.xml"
+        else:
+            sitemap_url = f"{base_url}/{lang_code}/blog/sitemap.xml"
+
+        sitemap_lines.append('  <sitemap>')
+        sitemap_lines.append(f'    <loc>{sitemap_url}</loc>')
+        sitemap_lines.append(f'    <lastmod>{current_date}</lastmod>')
+        sitemap_lines.append('  </sitemap>')
+
+    sitemap_lines.append('</sitemapindex>')
+    sitemap_content = '\n'.join(sitemap_lines)
+
+    sitemap_path = PROJECT_ROOT / "sitemap-blog.xml"
+    with open(sitemap_path, 'w', encoding='utf-8') as f:
+        f.write(sitemap_content)
+
+    print(f"✓ Generated: sitemap-blog.xml")
+    return sitemap_path
 
 
 # ============================================================================
@@ -725,7 +1380,7 @@ def resolve_source_image_path(image_path, lang_code):
 
 
 def generate_og_image(source_image_path, output_path, bg_color=(28, 28, 30)):
-    """Generate OG image from source PNG with transparency"""
+    """Generate OG image from source PNG with transparency, preserving @2x dimensions"""
     try:
         if output_path.exists():
             return True
@@ -733,6 +1388,7 @@ def generate_og_image(source_image_path, output_path, bg_color=(28, 28, 30)):
         img = Image.open(source_image_path)
 
         # Convert RGBA to RGB by compositing on background color
+        # Keep original dimensions from @2x image
         if img.mode in ('RGBA', 'LA', 'P'):
             background = Image.new('RGB', img.size, bg_color)
             if img.mode == 'P':
@@ -745,25 +1401,25 @@ def generate_og_image(source_image_path, output_path, bg_color=(28, 28, 30)):
         elif img.mode != 'RGB':
             img = img.convert('RGB')
 
-        # Scale to 600px width
-        target_width = 600
-        target_height = 315
-        aspect_ratio = img.height / img.width
-        scaled_height = int(target_width * aspect_ratio)
-        img = img.resize((target_width, scaled_height), Image.Resampling.LANCZOS)
+        # # Scale to 600px width (commented out - preserving @2x dimensions instead)
+        # target_width = 600
+        # target_height = 315
+        # aspect_ratio = img.height / img.width
+        # scaled_height = int(target_width * aspect_ratio)
+        # img = img.resize((target_width, scaled_height), Image.Resampling.LANCZOS)
 
-        # Crop or pad vertically to center at 315px height
-        if scaled_height > target_height:
-            # Crop vertically from center
-            crop_top = (scaled_height - target_height) // 2
-            crop_bottom = crop_top + target_height
-            img = img.crop((0, crop_top, target_width, crop_bottom))
-        elif scaled_height < target_height:
-            # Pad vertically to center (edge case for very wide images)
-            canvas = Image.new('RGB', (target_width, target_height), bg_color)
-            paste_y = (target_height - scaled_height) // 2
-            canvas.paste(img, (0, paste_y))
-            img = canvas
+        # # Crop or pad vertically to center at 315px height
+        # if scaled_height > target_height:
+        #     # Crop vertically from center
+        #     crop_top = (scaled_height - target_height) // 2
+        #     crop_bottom = crop_top + target_height
+        #     img = img.crop((0, crop_top, target_width, crop_bottom))
+        # elif scaled_height < target_height:
+        #     # Pad vertically to center (edge case for very wide images)
+        #     canvas = Image.new('RGB', (target_width, target_height), bg_color)
+        #     paste_y = (target_height - scaled_height) // 2
+        #     canvas.paste(img, (0, paste_y))
+        #     img = canvas
 
         output_path.parent.mkdir(parents=True, exist_ok=True)
         img.save(output_path, 'JPEG', quality=85, optimize=True)
@@ -981,7 +1637,10 @@ def build_changelog_pages(global_config):
         if lang_dir.is_dir() and (lang_dir / "1.0.0-ios.json").exists():
             available_languages.append(lang_dir.name)
 
+    available_blog_languages = detect_available_blog_languages()
+
     print(f"✓ Detected {len(available_languages)} languages with changelog translations: {', '.join(sorted(available_languages))}")
+    print(f"✓ Detected {len(available_blog_languages)} languages with blog content")
 
     for lang_code in available_languages:
         print(f"\n--- Generating changelog for {lang_code} ---")
@@ -1024,7 +1683,7 @@ def build_changelog_pages(global_config):
                 }
 
                 html = generate_html_page('changelog-index.html', lang_code, global_config, locale_data,
-                                         available_languages, extra_context)
+                                         available_languages, extra_context, available_blog_languages)
                 html = minify_html(html)
                 save_changelog_html(html, 'index', lang_code, page_number=page)
 
@@ -1051,7 +1710,7 @@ def build_changelog_pages(global_config):
                 }
 
                 html = generate_html_page('changelog-entry.html', lang_code, global_config, locale_data,
-                                         available_languages, extra_context)
+                                         available_languages, extra_context, available_blog_languages)
                 html = minify_html(html)
                 save_changelog_html(html, 'entry', lang_code, entry=entry)
 
@@ -1327,12 +1986,13 @@ Examples:
     parser.add_argument('--homepage', action='store_true', help='Build homepage')
     parser.add_argument('--privacy', action='store_true', help='Build privacy pages')
     parser.add_argument('--docs', action='store_true', help='Build documentation pages')
+    parser.add_argument('--blog', action='store_true', help='Build blog')
     parser.add_argument('--changelog', action='store_true', help='Build changelog')
 
     args = parser.parse_args()
 
     # If no arguments provided, build everything
-    build_all = not (args.homepage or args.privacy or args.docs or args.changelog)
+    build_all = not (args.homepage or args.privacy or args.docs or args.blog or args.changelog)
 
     print("Frames Website Builder")
     print("=" * 50)
@@ -1378,6 +2038,9 @@ Examples:
 
     if build_all or args.docs:
         build_docs(global_config, languages)
+
+    if build_all or args.blog:
+        build_blog_pages(global_config)
 
     if build_all or args.changelog:
         build_changelog_pages(global_config)

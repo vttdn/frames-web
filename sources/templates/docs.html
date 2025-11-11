@@ -134,6 +134,7 @@
                 <li><a href="{{ lang_config.path }}{{ locale_data.urls.changelog }}">{{ locale_data.footer.resources.changelog }}</a></li>
                 <li><a href="{% if lang == 'en' %}/changelog/rss/index.rss{% else %}/{{ lang }}/changelog/rss/index.rss{% endif %}">{{ locale_data.footer.resources.rss }}</a></li>
                 <li><a href="https://www.youtube.com/@withframes" target="_blank" rel="noopener noreferrer">{{ locale_data.footer.resources.youtube }}</a></li>
+                <li><a href="{% if lang in available_blog_languages %}{{ lang_config.path }}{{ locale_data.urls.blog }}{% else %}/blog/{% endif %}">{{ locale_data.footer.resources.blog }}</a></li>
             </ul>
             <ul class="flex flex-col gap-sm2">
                 <li><h3>{{ locale_data.footer.product.heading }}</h3></li>

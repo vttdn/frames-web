@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>{{ locale_data.blog.meta.title }}</title>
+    <link>{{ canonical_url }}</link>
+    <description>{{ locale_data.blog.meta.description }}</description>
+    <language>{{ lang }}</language>
+    <atom:link href="{{ feed_url }}" rel="self" type="application/rss+xml" />
+    <lastBuildDate>{{ build_date }}</lastBuildDate>
+    <generator>Frames Website Builder</generator>
+    {% for entry in entries %}
+    <item>
+      <title>{{ entry.title }}</title>
+      <link>{{ entry.canonical_url }}</link>
+      <description>{{ entry.summary }}</description>
+      <pubDate>{{ entry.pub_date }}</pubDate>
+      <guid isPermaLink="true">{{ entry.canonical_url }}</guid>
+      {% if entry.author %}<dc:creator>{{ entry.author }}</dc:creator>{% endif %}
+    </item>
+    {% endfor %}
+  </channel>
+</rss>

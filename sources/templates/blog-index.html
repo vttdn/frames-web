@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="{{ lang }}">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{% if page_number > 1 %}{% if lang in ['zh', 'zh-hant'] %}{{ blog_config.languages[lang].meta.title.replace(' - Frames', '') }} {{ locale_data.blog.pagination.page }}{{ page_number }}{{ locale_data.blog.pagination.page_suffix }} - Frames{% else %}{{ blog_config.languages[lang].meta.title.replace(' - Frames', '') }} {{ locale_data.blog.pagination.page }} {{ page_number }} - Frames{% endif %}{% else %}{{ blog_config.languages[lang].meta.title }}{% endif %}</title>
+    <meta name="description" content="{% if page_number > 1 %}{% if lang in ['zh', 'zh-hant'] %}{{ blog_config.languages[lang].meta.description.replace('。', ' ' + locale_data.blog.pagination.page + page_number|string + locale_data.blog.pagination.page_suffix + '。', 1) }}{% elif lang in ['ja', 'ko', 'hi'] %}{{ blog_config.languages[lang].meta.description.replace('. ', ' ' + locale_data.blog.pagination.page + ' ' + page_number|string + '. ', 1) }}{% else %}{{ blog_config.languages[lang].meta.description.replace('. ', ', ' + locale_data.blog.pagination.page + ' ' + page_number|string + '. ', 1) }}{% endif %}{% else %}{{ blog_config.languages[lang].meta.description }}{% endif %}" />
+    <meta name="keywords" content="{{ locale_data.meta.keywords }}" />
+    {% if page_number == 1 %}
+    <link rel="canonical" href="{{ locale_data.blog.meta.canonical_url }}" />
+    {% else %}
+    <link rel="canonical" href="{{ locale_data.blog.meta.canonical_url }}page/{{ page_number }}/" />
+    {% endif %}
+    {% if page_number > 1 %}
+    {% if page_number == 2 %}
+    <link rel="prev" href="{{ locale_data.blog.meta.canonical_url }}" />
+    {% else %}
+    <link rel="prev" href="{{ locale_data.blog.meta.canonical_url }}page/{{ page_number - 1 }}/" />
+    {% endif %}
+    {% endif %}
+    {% if page_number < total_pages %}
+    <link rel="next" href="{{ locale_data.blog.meta.canonical_url }}page/{{ page_number + 1 }}/" />
+    {% endif %}
+    {% for link in hreflang_links %}
+    <link rel="alternate" hreflang="{{ link.hreflang }}" href="{{ link.href }}">
+    {% endfor %}
+    <link rel="alternate" type="application/rss+xml" title="{{ locale_data.blog.meta.title }}" href="{% if lang == 'en' %}/blog/rss/index.rss{% else %}/{{ lang }}/blog/rss/index.rss{% endif %}">
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="{% if page_number > 1 %}{% if lang in ['zh', 'zh-hant'] %}{{ blog_config.languages[lang].meta.title.replace(' - Frames', '') }} {{ locale_data.blog.pagination.page }}{{ page_number }}{{ locale_data.blog.pagination.page_suffix }} - Frames{% else %}{{ blog_config.languages[lang].meta.title.replace(' - Frames', '') }} {{ locale_data.blog.pagination.page }} {{ page_number }} - Frames{% endif %}{% else %}{{ blog_config.languages[lang].meta.title }}{% endif %}" />
+    <meta property="og:description" content="{{ blog_config.languages[lang].meta.description }}" />
+    {% if page_number == 1 %}
+    <meta property="og:url" content="{{ locale_data.blog.meta.canonical_url }}" />
+    {% else %}
+    <meta property="og:url" content="{{ locale_data.blog.meta.canonical_url }}page/{{ page_number }}/" />
+    {% endif %}
+    <meta property="og:site_name" content="Frames" />
+    <meta property="og:image" content="https://withframes.com/og-image.jpg" />
+    <meta property="og:locale" content="{{ lang_config.locale }}" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@{{ locale_data.social.twitter if locale_data.social is defined and locale_data.social.twitter else global_config.urls.social.handle.twitter }}" />
+    <meta name="twitter:creator" content="@{{ locale_data.social.twitter if locale_data.social is defined and locale_data.social.twitter else global_config.urls.social.handle.twitter }}" />
+    <meta name="twitter:title" content="{% if page_number > 1 %}{% if lang in ['zh', 'zh-hant'] %}{{ blog_config.languages[lang].meta.title.replace(' - Frames', '') }} {{ locale_data.blog.pagination.page }}{{ page_number }}{{ locale_data.blog.pagination.page_suffix }} - Frames{% else %}{{ blog_config.languages[lang].meta.title.replace(' - Frames', '') }} {{ locale_data.blog.pagination.page }} {{ page_number }} - Frames{% endif %}{% else %}{{ blog_config.languages[lang].meta.title }}{% endif %}" />
+    <meta name="twitter:description" content="{{ blog_config.languages[lang].meta.description }}" />
+    <meta name="twitter:image" content="https://withframes.com/og-image.jpg" />
+
+    <link rel="shortcut icon" href="/favicon.png" type="image/png">
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    <style>
+      {{ blog_css | safe }}
+    </style>
+  </head>
+  <body>
+
+    <header class="main-header wrapper">
+        <div class="container-header grid">
+            <a href="{{ lang_config.path }}" class="logo leading" aria-label="{{ locale_data.header.logo_aria_label }}">
+                {{ locale_data.header.logo_text }}
+            </a>
+
+            <nav class="navigation center" aria-label="{{ locale_data.header.navigation.aria_label }}">
+                <ul class="flex flex-row">
+                    <li class="desktop-only"><a href="{{ locale_data.meta.canonical_url }}#features">{{ locale_data.header.navigation.features }}</a></li>
+                    <li><a onclick="return false;" class="tooltip" data-tooltip="{{ locale_data.tooltip.label_coming_soon }}" href="{{ lang_config.path }}{{ locale_data.urls.documentation }}">{{ locale_data.header.navigation.documentation }}</a></li>
+                    <li><a href="{{ lang_config.path }}{{ locale_data.urls.changelog }}">{{ locale_data.header.navigation.changelog }}</a></li>
+                    <li><a aria-current="page" href="{{ lang_config.path }}{{ locale_data.urls.blog }}">{{ locale_data.header.navigation.blog }}</a></li>
+                </ul>
+            </nav>
+
+            <div class="trailing flex flex-row flex-center gap-sm">
+                <button class="btn btn-sm btn-dark mobile-hidden" id="button-social-share"
+                    aria-controls="overlay" aria-expanded="false">
+                    <span>{{ locale_data.header.buttons.share }}</span>
+                </button>
+                <a href="{{ locale_data.urls.appstore_macos }}" class="btn btn-sm btn-light desktop-up">{{ locale_data.header.buttons.download }}</a>
+                <a href="{{ locale_data.urls.appstore_ios }}" class="btn btn-sm btn-light tablet-only">{{ locale_data.header.buttons.download }}</a>
+                <a href="{{ locale_data.urls.appstore_ios }}" class="btn btn-sm btn-dark desktop-hidden">{{ locale_data.header.buttons.download }}</a>
+
+                <button id="menu-toggle" class="mobile-menu-toggle"
+                    aria-label="{{ locale_data.mobile_menu.open_aria_label }}"
+                    aria-controls="overlay"
+                    aria-expanded="false">
+                    <img src="/lib/img/icn/menu.svg" alt="Menu Icon" width="32" height="32" loading="lazy" aria-hidden="true">
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main class="blog wrapper">
+      <header class="blog-header hero">
+        <div class="hero-content flex">
+          <h1 class="blog-index-h1"><a href="{{ lang_config.path }}{{ locale_data.urls.blog }}">{{ locale_data.blog.heading }}</a></h1>
+        </div>
+      </header>
+
+      <div class="blog-posts grid grid-4col">
+        <div class="topics-nav">
+          <ul class="flex flex-col gap-xs flex-justify-start">
+            <li>
+              <a href="{{ lang_config.path }}{{ locale_data.urls.blog }}" class="flex flex-center flex-justify-start gap-sm current">{{ blog_config.languages[lang].labels.all_posts }}</a>
+            </li>
+            {% for category_key, category_data in blog_config.categories.items()|sort %}
+            <li>
+              <a href="{{ lang_config.path }}{{ locale_data.urls.blog }}topic/{{ category_data.slug }}/" class="flex flex-center flex-justify-start gap-sm">{{ category_data[lang].name }}</a>
+            </li>
+            {% endfor %}
+          </ul>
+        </div>
+
+        <div class="blog-posts-list col-span-2">
+          {% for entry in entries %}
+          <article class="blog-post-tile tile" itemscope itemtype="https://schema.org/BlogPosting">
+            <a href="{{ lang_config.path }}{{ locale_data.urls.blog }}{{ entry.slug }}/" class="tile-inner">
+              <h2 itemprop="headline">{{ entry.title }}</h2>
+              <p itemprop="description">{{ entry.summary }}</p>
+              <meta itemprop="url" content="https://withframes.com{{ lang_config.path }}{{ locale_data.urls.blog }}{{ entry.url_slug }}/" />
+              {% if entry.og_image_url and entry.og_image_url != '/og-image.jpg' %}
+              <link itemprop="image" href="https://withframes.com{{ entry.og_image_url }}" />
+              {% endif %}
+              <div class="blog-post-meta">
+                {% if entry.category %}
+                <span class="blog-category badge">{{ blog_config.categories[entry.category][lang].name }}</span>
+                <span> · </span>
+                {% endif %}
+                <time datetime="{{ entry.publish_date }}" itemprop="datePublished">{{ entry.formatted_date }}</time>
+              </div>
+            </a>
+          </article>
+          {% endfor %}
+        </div>
+      </div>
+
+      {% if total_pages > 1 %}
+      <nav class="pagination grid grid-4col" aria-label="Blog pagination">
+        <div></div>
+        <div class="pagination-inner col-span-2 flex gap-sm2">
+          {% if page_number > 1 %}
+          <div class="pagination-prev col-start-2 tile">
+            {% if page_number == 2 %}
+            <a href="{{ lang_config.path }}{{ locale_data.urls.blog }}" class="tile-inner">
+              <span class="pagination-label">← {{ locale_data.blog.pagination.previous }}</span>
+              <span class="pagination-title">{{ locale_data.blog.pagination.newer_posts }}</span>
+            </a>
+            {% else %}
+            <a href="{{ lang_config.path }}{{ locale_data.urls.blog }}page/{{ page_number - 1 }}/" class="tile-inner">
+              <span class="pagination-label">← {{ locale_data.blog.pagination.previous }}</span>
+              <span class="pagination-title">{{ locale_data.blog.pagination.newer_posts }}</span>
+            </a>
+            {% endif %}
+          </div>
+          {% endif %}
+
+          {% if page_number < total_pages %}
+          <div class="pagination-next tile">
+            <a href="{{ lang_config.path }}{{ locale_data.urls.blog }}page/{{ page_number + 1 }}/" class="tile-inner">
+              <span class="pagination-label">{{ locale_data.blog.pagination.next }} →</span>
+              <span class="pagination-title">{{ locale_data.blog.pagination.older_posts }}</span>
+            </a>
+          </div>
+          {% endif %}
+        </div>
+      </nav>
+      {% endif %}
+    </main>
+
+    <aside class="wrapper">
+        <section class="contact tile container-ratio ratio-2-1" aria-labelledby="contact-heading">
+            <div class="contact-inner flex flex-col flex-center flex-justify-center">
+                <h2 id="contact-heading">{{ locale_data.contact.heading }}</h2>
+                <a href="mailto:&#98;&#111;&#110;&#106;&#111;&#117;&#114;&#64;&#119;&#105;&#116;&#104;&#102;&#114;&#97;&#109;&#101;&#115;&#46;&#99;&#111;&#109;" class="btn btn-md btn-secondary">{{ locale_data.contact.button_text }}</a>
+            </div>
+        </section>
+    </aside>
+
+    <footer class="main-footer wrapper flex flex-col gap-6xl">
+        <div class="footer-links grid grid-4col">
+            <a href="{{ lang_config.path }}" aria-label="{{ locale_data.header.logo_aria_label }}" class="w-fit">
+                <img src="/lib/img/logo/frames.svg" alt="{{ locale_data.footer.logo_alt }}" width="40" height="40">
+            </a>
+            <ul class="flex flex-col gap-sm2">
+                <li><h3>{{ locale_data.footer.connect.heading }}</h3></li>
+                <li><a href="https://www.instagram.com/{{ locale_data.social.instagram if locale_data.social is defined and locale_data.social.instagram else global_config.urls.social.handle.instagram }}" target="_blank" rel="noopener noreferrer">{{
+                        locale_data.footer.connect.instagram }}</a></li>
+                <li><a href="https://www.threads.net/@with_frames" target="_blank" rel="noopener noreferrer">{{ locale_data.footer.connect.threads }}</a></li>
+                <li><a href="https://www.facebook.com/framesapp" target="_blank" rel="noopener noreferrer">{{ locale_data.footer.connect.facebook }}</a></li>
+                <li><a href="https://bsky.app/profile/withframes.com" target="_blank" rel="noopener noreferrer">{{ locale_data.footer.connect.bluesky }}</a></li>
+                <li><a href="https://mastodon.social/@frames" target="_blank" rel="me noopener noreferrer">{{ locale_data.footer.connect.mastodon }}</a></li>
+                <li><a href="{{ global_config.urls.social.linkedin }}" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+                <li><a href="{{ global_config.urls.social.pinterest }}" target="_blank" rel="noopener noreferrer">Pinterest</a></li>
+                <li><a href="https://x.com/{{ locale_data.social.twitter if locale_data.social is defined and locale_data.social.twitter else global_config.urls.social.handle.twitter }}" target="_blank" rel="noopener noreferrer">{{
+                        locale_data.footer.connect.twitter }}</a></li>
+            </ul>
+            <ul class="flex flex-col gap-sm2">
+                <li><h3>{{ locale_data.footer.resources.heading }}</h3></li>
+                <li><a href="{{ lang_config.path }}{{ locale_data.urls.privacy }}">{{ locale_data.footer.resources.privacy_policy }}</a></li>
+                <li><a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/" target="_blank" rel="noopener noreferrer">{{ locale_data.footer.resources.terms_of_service }}</a></li>
+                <li><a href="{{ lang_config.path }}{{ locale_data.urls.documentation }}">{{ locale_data.footer.resources.documentation }}</a></li>
+                <li><a href="{{ lang_config.path }}{{ locale_data.urls.changelog }}">{{ locale_data.footer.resources.changelog }}</a></li>
+                <!-- <li><a href="{% if lang == 'en' %}/changelog/rss/index.rss{% else %}/{{ lang }}/changelog/rss/index.rss{% endif %}">{{ locale_data.footer.resources.rss }}</a></li> -->
+                <li><a href="{{ global_config.urls.social.youtube }}" target="_blank" rel="noopener noreferrer">{{
+                        locale_data.footer.resources.youtube }}</a></li>
+                <li><a href="{% if lang in available_blog_languages %}{{ lang_config.path }}{{ locale_data.urls.blog }}{% else %}/blog/{% endif %}">{{ locale_data.footer.resources.blog }}</a></li>
+            </ul>
+            <ul class="flex flex-col gap-sm2">
+                <li><h3>{{ locale_data.footer.product.heading }}</h3></li>
+                <li><a href="{{ locale_data.urls.appstore_ios }}">{{ locale_data.footer.product.frames_ios }}</a></li>
+                <li><a href="{{ locale_data.urls.appstore_macos }}">{{ locale_data.footer.product.frames_macos }}</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-bottom flex flex-row flex-justify-between flex-center">
+            <div class="flex flex-center flex-justify-center gap-lg">
+                <p>© 2025 <a href="https://vnn.io/" rel="noopener noreferrer author" target="_blank">Vincent Tantardini</a>.</p>
+                {% if locale_data.footer.compliance %}
+                <p class="flex flex-center flex-justify-center mobile-hidden">
+                    <img src="/lib/img/icn/checkmark-shield.svg" width="14" height="14" alt="" loading="lazy" aria-hidden="true" class="compliance-icon">
+                    {{ locale_data.footer.compliance }}
+                </p>
+                {% endif %}
+            </div>
+
+                <div class="dropdown">
+                    <input type="checkbox" class="dropdown-toggle" id="lang-toggle">
+
+                    <label for="lang-toggle" class="dropdown-button btn btn-sm btn-dark">
+                        <img src="/lib/img/icn/globe.svg" alt="Globe Icon" loading="lazy" width="14" height="12" aria-hidden="true">
+                        <span>{{ locale_data.footer.language_dropdown.label }}</span>
+                        <img src="/lib/img/icn/chevron-down-sm.svg" alt="Chevron Down" width="10" height="12" loading="lazy" aria-hidden="true">
+                    </label>
+
+                    <ul class="dropdown-content dropdown-dir-top" role="menu">
+                        {% for language in all_languages %}
+                        <li>
+                            <a role="menuitem" href="{% if language.code in available_blog_languages %}{{ language.url }}blog/{% if page_number > 1 %}page/{{ page_number }}/{% endif %}{% else %}/blog/{% if page_number > 1 %}page/{{ page_number }}/{% endif %}{% endif %}">
+                                <span>{{ language.name }}</span>
+                                {% if language.code == lang %}
+                                <span>✓</span>
+                                {% endif %}
+                            </a>
+                        </li>
+                        {% endfor %}
+                    </ul>
+                </div>
+        </div>
+    </footer>
+
+    <!-- Main Overlay -->
+    <div class="overlay flex flex-center flex-justify-center" id="overlay" role="dialog"
+        aria-modal="true" aria-labelledby="" hidden>
+        <div class="modal" id="modal-container"></div>
+    </div>
+
+    {% if lang == 'en' %}
+    <script defer src="/lib/js/blog/core.js"></script>
+    {% else %}
+    <script defer src="/lib/js/{{ lang }}/blog/core.js"></script>
+    {% endif %}
+  </body>
+</html>

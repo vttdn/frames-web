@@ -361,6 +361,7 @@
       "privacy_policy": "Privacy Policy",
       "terms_of_service": "Terms of Service",
       "documentation": "Documentation",
+      "blog": "Blog",
       "changelog": "Changelog",
       "rss": "RSS Feed",
       "youtube": "Youtube"
@@ -381,6 +382,7 @@
     "appstore_ios": "https://apps.apple.com/app/frames-film-notes/id6744057317",
     "appstore_macos": "https://apps.apple.com/app/frames-film-metadata/id6744063354",
     "documentation": "docs/",
+    "blog": "blog/",
     "changelog": "changelog/",
     "privacy": "privacy/"
   },
@@ -393,6 +395,34 @@
       "title": "Documentation - Frames",
       "description": "Learn how to use Frames, the film photography app. Complete guides, tutorials, and tips for tracking analog shots and managing film metadata.",
       "canonical_url": "https://withframes.com/docs/"
+    }
+  },
+  "blog": {
+    "meta": {
+      "title": "Blog - Frames",
+      "description": "Articles, tips, and insights about film photography and the Frames app.",
+      "canonical_url": "https://withframes.com/blog/"
+    },
+    "heading": "Blog",
+    "labels": {
+      "by_author": "by",
+      "published_on": "Published on",
+      "category": "Category",
+      "all_posts": "All Posts",
+      "in_category": "in",
+      "previous": "Previous",
+      "next": "Next",
+      "contents": "Contents",
+      "filed_under": "Filed under",
+      "author": "Author"
+    },
+    "pagination": {
+      "previous": "Previous",
+      "next": "Next",
+      "page": "Page",
+      "page_suffix": "",
+      "newer_posts": "Newer posts",
+      "older_posts": "Older posts"
     }
   },
   "changelog": {
