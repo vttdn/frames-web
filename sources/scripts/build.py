@@ -986,6 +986,9 @@ def build_blog_pages(global_config):
 
             print(f"✓ Generated OG images for blog entries")
 
+            # Format all entries upfront for schema generation
+            entries = [format_blog_entry(e, lang_code) for e in entries]
+
             total_pages = math.ceil(len(entries) / BLOG_POSTS_PER_PAGE)
             print(f"✓ Total pages: {total_pages}")
 
@@ -993,7 +996,7 @@ def build_blog_pages(global_config):
             for page in range(1, total_pages + 1):
                 start_idx = (page - 1) * BLOG_POSTS_PER_PAGE
                 end_idx = start_idx + BLOG_POSTS_PER_PAGE
-                page_entries = [format_blog_entry(e.copy(), lang_code) for e in entries[start_idx:end_idx]]
+                page_entries = entries[start_idx:end_idx]
 
                 canonical_url = f"https://withframes.com{'/' + lang_code if lang_code != 'en' else ''}/blog/"
                 if page > 1:
@@ -1032,7 +1035,7 @@ def build_blog_pages(global_config):
                 for page in range(1, category_total_pages + 1):
                     start_idx = (page - 1) * BLOG_POSTS_PER_PAGE
                     end_idx = start_idx + BLOG_POSTS_PER_PAGE
-                    page_entries = [format_blog_entry(e.copy(), lang_code) for e in category_entries[start_idx:end_idx]]
+                    page_entries = category_entries[start_idx:end_idx]
 
                     canonical_url = f"https://withframes.com{'/' + lang_code if lang_code != 'en' else ''}/blog/topic/{category_slug}/"
                     if page > 1:
@@ -1065,9 +1068,8 @@ def build_blog_pages(global_config):
 
             # Generate individual entry pages
             for i, entry in enumerate(entries):
-                entry = format_blog_entry(entry.copy(), lang_code)
-                prev_entry = format_blog_entry(entries[i - 1].copy(), lang_code) if i > 0 else None
-                next_entry = format_blog_entry(entries[i + 1].copy(), lang_code) if i < len(entries) - 1 else None
+                prev_entry = entries[i - 1] if i > 0 else None
+                next_entry = entries[i + 1] if i < len(entries) - 1 else None
 
                 canonical_url = f"https://withframes.com{'/' + lang_code if lang_code != 'en' else ''}/blog/{entry['slug']}/"
 
