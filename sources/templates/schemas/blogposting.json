@@ -9,7 +9,8 @@
   },
   "headline": "{{ entry.title }}",
   "description": "{% if entry.meta_description %}{{ entry.meta_description }}{% else %}{{ entry.summary }}{% endif %}",
-  "datePublished": "{% if entry.publish_date %}{{ entry.publish_date }}{% else %}{{ entry.release_date }}{% endif %}",
+  "datePublished": "{% if entry.publish_date %}{{ entry.publish_date }}{% else %}{{ entry.release_date }}{% endif %}",{% if entry.update_date %}
+  "dateModified": "{{ entry.update_date }}",{% endif %}
   "inLanguage": "{{ lang }}",
   "keywords": "{% if entry.meta_keywords %}{{ entry.meta_keywords }}{% else %}{{ keywords }}{% endif %}",
   "author": {"@id": "https://withframes.com/#vincent-tantardini"},

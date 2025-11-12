@@ -755,6 +755,8 @@ def format_blog_entry(entry, lang_code):
     """Add formatted date for blog entry"""
     entry['formatted_date'] = format_date(entry['publish_date'], lang_code)
     entry['url_slug'] = entry['slug']  # Ensure url_slug is available for templates
+    if 'update_date' in entry and entry['update_date']:
+        entry['formatted_update_date'] = format_date(entry['update_date'], lang_code)
     return entry
 
 

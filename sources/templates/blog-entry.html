@@ -163,6 +163,11 @@
               <span>{{ locale_data.blog.labels.author }}:</span> {{ entry.author }}
             </div>
             {% endif %}
+            {% if entry.update_date %}
+            <div>
+              <span>{{ locale_data.blog.labels.updated }}:</span> {{ entry.formatted_update_date }}
+            </div>
+            {% endif %}
           </footer>
         </div>
       </article>
