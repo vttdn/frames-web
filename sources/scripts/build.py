@@ -98,7 +98,7 @@ def create_jinja_env(autoescape_enabled=True):
             is_external = (url.startswith('http://') or url.startswith('https://')) and 'withframes.com' not in url
 
             if is_external:
-                return f'<a href="{url}" class="article-link" target="_blank" rel="noopener noreferrer">{link_text}</a>'
+                return f'<a href="{url}" class="article-link" target="_blank" rel="noopener">{link_text}</a>'
             else:
                 return f'<a href="{url}" class="article-link">{link_text}</a>'
 
