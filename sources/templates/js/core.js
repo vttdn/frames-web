@@ -308,7 +308,7 @@ function shareOn(platform) {
 // How-to and Preview Section Toggle
 //
 document.addEventListener('DOMContentLoaded', () => {
-  const howtoFigures = document.querySelectorAll('.howto a figure.tile, .preview a figure.tile');
+  const howtoFigures = document.querySelectorAll('.howto figure.tile, .preview figure.tile');
 
   if (howtoFigures.length === 0) return;
 
@@ -322,7 +322,7 @@ document.addEventListener('DOMContentLoaded', () => {
     figure.setAttribute('aria-pressed', 'false');
 
     // Prevent anchor scroll on mobile (viewport < 768px)
-    const anchorLink = figure.closest('a');
+    const anchorLink = figure.closest('figure');
     if (anchorLink) {
       anchorLink.addEventListener('click', (e) => {
         if (window.innerWidth < 768) {
