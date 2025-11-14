@@ -1652,44 +1652,6 @@ def save_changelog_html(html, page_type, lang_code='en', page_number=None, entry
         print(f"✓ Generated: {path_prefix}/{entry['url_slug']}/index.html")
 
 
-def generate_changelog_redirect_pages(lang_code, locale_data, global_config, total_pages):
-    """Generate redirect pages for old pagination URLs (page-2/ -> page/2/)"""
-    lang_config = get_lang_config(global_config, lang_code)
-
-    # Determine base paths
-    if lang_code == 'en':
-        output_base = PROJECT_ROOT / "changelog"
-        base_url = "https://withframes.com/changelog/"
-    else:
-        output_base = PROJECT_ROOT / lang_code / "changelog"
-        base_url = f"https://withframes.com/{lang_code}/changelog/"
-
-    # Generate redirects for pages 2 through total_pages
-    for page_num in range(2, total_pages + 1):
-        # Old location: changelog/page-2/
-        old_dir = output_base / f"page-{page_num}"
-        old_dir.mkdir(parents=True, exist_ok=True)
-
-        # New URL: changelog/page/2/
-        new_url = f"{base_url}page/{page_num}/"
-
-        # Render redirect template
-        context = {
-            'lang': lang_code,
-            'locale_data': locale_data,
-            'new_url': new_url
-        }
-
-        redirect_html = render_template('redirect-changelog-pagination.html', context)
-
-        # Save redirect page
-        redirect_path = old_dir / "index.html"
-        with open(redirect_path, 'w', encoding='utf-8') as f:
-            f.write(redirect_html)
-
-        print(f"✓ Generated redirect: {old_dir.relative_to(PROJECT_ROOT)}/index.html → {new_url}")
-
-
 def build_changelog_pages(global_config):
     """Build changelog pages for all languages"""
     print("\n" + "=" * 50)
@@ -1733,10 +1695,6 @@ def build_changelog_pages(global_config):
 
             total_pages = math.ceil(len(entries) / ENTRIES_PER_PAGE)
             print(f"✓ Total pages: {total_pages}")
-
-            # Generate redirect pages for old pagination URLs (page-2/ -> page/2/)
-            if total_pages > 1:
-                generate_changelog_redirect_pages(lang_code, locale_data, global_config, total_pages)
 
             # Generate index pages
             for page in range(1, total_pages + 1):
