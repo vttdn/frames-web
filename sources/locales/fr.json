@@ -351,6 +351,7 @@
     "appstore_ios": "https://apps.apple.com/fr/app/frames-notes-argentiques/id6744057317",
     "appstore_macos": "https://apps.apple.com/fr/app/frames-métadonnées/id6744063354",
     "documentation": "docs/",
+    "blog": "blog/",
     "changelog": "changelog/",
     "privacy": "confidentialite/"
   },
@@ -363,6 +364,35 @@
       "title": "Documentation - Frames",
       "description": "Apprenez à utiliser Frames, l'app photo argentique. Guides complets, tutoriels et astuces pour suivre vos prises et gérer les métadonnées.",
       "canonical_url": "https://withframes.com/fr/docs/"
+    }
+  },
+  "blog": {
+    "meta": {
+      "title": "Blog - Frames",
+      "description": "Articles, conseils et analyses sur la photographie argentique et l'application Frames.",
+      "canonical_url": "https://withframes.com/fr/blog/"
+    },
+    "heading": "Blog",
+    "labels": {
+      "by_author": "par",
+      "published_on": "Publié le",
+      "category": "Catégorie",
+      "all_posts": "Tous les articles",
+      "in_category": "dans",
+      "previous": "Précédent",
+      "next": "Suivant",
+      "contents": "Sommaire",
+      "filed_under": "Classé dans",
+      "author": "Auteur",
+      "updated": "Mis à jour"
+    },
+    "pagination": {
+      "previous": "Précédent",
+      "next": "Suivant",
+      "page": "Page",
+      "page_suffix": "",
+      "newer_posts": "Articles plus récents",
+      "older_posts": "Articles plus anciens"
     }
   },
   "changelog": {

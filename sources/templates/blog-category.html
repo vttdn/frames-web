@@ -3,8 +3,8 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>{% if page_number > 1 %}{% if lang in ['zh', 'zh-hant'] %}{{ blog_config.categories[category_slug][lang].meta_title }} {{ locale_data.blog.pagination.page }}{{ page_number }}{{ locale_data.blog.pagination.page_suffix }}{% else %}{{ blog_config.categories[category_slug][lang].meta_title }} {{ locale_data.blog.pagination.page }} {{ page_number }}{% endif %}{% else %}{{ blog_config.categories[category_slug][lang].meta_title }}{% endif %}</title>
-    <meta name="description" content="{% if page_number > 1 %}{% if lang in ['zh', 'zh-hant'] %}{{ blog_config.categories[category_slug][lang].meta_description }} {{ locale_data.blog.pagination.page }}{{ page_number }}{{ locale_data.blog.pagination.page_suffix }}。{% elif lang in ['ja', 'ko', 'hi'] %}{{ blog_config.categories[category_slug][lang].meta_description }} {{ locale_data.blog.pagination.page }} {{ page_number }}。{% else %}{{ blog_config.categories[category_slug][lang].meta_description }}, {{ locale_data.blog.pagination.page }} {{ page_number }}.{% endif %}{% else %}{{ blog_config.categories[category_slug][lang].meta_description }}{% endif %}" />
+    <title>{% if page_number > 1 %}{% if lang in ['zh', 'zh-hant'] %}{{ blog_config.categories[category_key][lang].meta_title }} {{ locale_data.blog.pagination.page }}{{ page_number }}{{ locale_data.blog.pagination.page_suffix }}{% else %}{{ blog_config.categories[category_key][lang].meta_title }} {{ locale_data.blog.pagination.page }} {{ page_number }}{% endif %}{% else %}{{ blog_config.categories[category_key][lang].meta_title }}{% endif %}</title>
+    <meta name="description" content="{% if page_number > 1 %}{% if lang in ['zh', 'zh-hant'] %}{{ blog_config.categories[category_key][lang].meta_description }} {{ locale_data.blog.pagination.page }}{{ page_number }}{{ locale_data.blog.pagination.page_suffix }}。{% elif lang in ['ja', 'ko', 'hi'] %}{{ blog_config.categories[category_key][lang].meta_description }} {{ locale_data.blog.pagination.page }} {{ page_number }}。{% else %}{{ blog_config.categories[category_key][lang].meta_description }}, {{ locale_data.blog.pagination.page }} {{ page_number }}.{% endif %}{% else %}{{ blog_config.categories[category_key][lang].meta_description }}{% endif %}" />
     <meta name="keywords" content="{{ locale_data.meta.keywords }}" />
     {% if page_number == 1 %}
     <link rel="canonical" href="https://withframes.com{{ lang_config.path }}{{ locale_data.urls.blog }}topic/{{ category_slug }}/" />
@@ -28,8 +28,8 @@
 
     <!-- Open Graph -->
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="{% if page_number > 1 %}{% if lang in ['zh', 'zh-hant'] %}{{ blog_config.categories[category_slug][lang].meta_title }} {{ locale_data.blog.pagination.page }}{{ page_number }}{{ locale_data.blog.pagination.page_suffix }}{% else %}{{ blog_config.categories[category_slug][lang].meta_title }} {{ locale_data.blog.pagination.page }} {{ page_number }}{% endif %}{% else %}{{ blog_config.categories[category_slug][lang].meta_title }}{% endif %}" />
-    <meta property="og:description" content="{{ blog_config.categories[category_slug][lang].meta_description }}" />
+    <meta property="og:title" content="{% if page_number > 1 %}{% if lang in ['zh', 'zh-hant'] %}{{ blog_config.categories[category_key][lang].meta_title }} {{ locale_data.blog.pagination.page }}{{ page_number }}{{ locale_data.blog.pagination.page_suffix }}{% else %}{{ blog_config.categories[category_key][lang].meta_title }} {{ locale_data.blog.pagination.page }} {{ page_number }}{% endif %}{% else %}{{ blog_config.categories[category_key][lang].meta_title }}{% endif %}" />
+    <meta property="og:description" content="{{ blog_config.categories[category_key][lang].meta_description }}" />
     {% if page_number == 1 %}
     <meta property="og:url" content="https://withframes.com{{ lang_config.path }}{{ locale_data.urls.blog }}topic/{{ category_slug }}/" />
     {% else %}
@@ -43,8 +43,8 @@
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:site" content="@{{ locale_data.social.twitter if locale_data.social is defined and locale_data.social.twitter else global_config.urls.social.handle.twitter }}" />
     <meta name="twitter:creator" content="@{{ locale_data.social.twitter if locale_data.social is defined and locale_data.social.twitter else global_config.urls.social.handle.twitter }}" />
-    <meta name="twitter:title" content="{% if page_number > 1 %}{% if lang in ['zh', 'zh-hant'] %}{{ blog_config.categories[category_slug][lang].meta_title }} {{ locale_data.blog.pagination.page }}{{ page_number }}{{ locale_data.blog.pagination.page_suffix }}{% else %}{{ blog_config.categories[category_slug][lang].meta_title }} {{ locale_data.blog.pagination.page }} {{ page_number }}{% endif %}{% else %}{{ blog_config.categories[category_slug][lang].meta_title }}{% endif %}" />
-    <meta name="twitter:description" content="{{ blog_config.categories[category_slug][lang].meta_description }}" />
+    <meta name="twitter:title" content="{% if page_number > 1 %}{% if lang in ['zh', 'zh-hant'] %}{{ blog_config.categories[category_key][lang].meta_title }} {{ locale_data.blog.pagination.page }}{{ page_number }}{{ locale_data.blog.pagination.page_suffix }}{% else %}{{ blog_config.categories[category_key][lang].meta_title }} {{ locale_data.blog.pagination.page }} {{ page_number }}{% endif %}{% else %}{{ blog_config.categories[category_key][lang].meta_title }}{% endif %}" />
+    <meta name="twitter:description" content="{{ blog_config.categories[category_key][lang].meta_description }}" />
     <meta name="twitter:image" content="https://withframes.com/og-image.jpg" />
 
     <link rel="shortcut icon" href="/favicon.png" type="image/png">
@@ -107,9 +107,9 @@
             <li>
               <a href="{{ lang_config.path }}{{ locale_data.urls.blog }}" class="flex flex-center flex-justify-start gap-sm">{{ blog_config.languages[lang].labels.all_posts }}</a>
             </li>
-            {% for category_key, category_data in blog_config.categories.items()|sort %}
+            {% for cat_key, cat_data in blog_config.categories.items()|sort %}
             <li>
-              <a href="{{ lang_config.path }}{{ locale_data.urls.blog }}topic/{{ category_data.slug }}/" class="flex flex-center flex-justify-start gap-sm{% if category_data.slug == category_slug %} current{% endif %}">{{ category_data[lang].name }}</a>
+              <a href="{{ lang_config.path }}{{ locale_data.urls.blog }}topic/{{ cat_data[lang].slug }}/" class="flex flex-center flex-justify-start gap-sm{% if cat_key == category_key %} current{% endif %}">{{ cat_data[lang].name }}</a>
             </li>
             {% endfor %}
           </ul>
@@ -202,7 +202,7 @@
                 <li><h3>{{ locale_data.footer.resources.heading }}</h3></li>
                 <li><a href="{{ lang_config.path }}{{ locale_data.urls.privacy }}">{{ locale_data.footer.resources.privacy_policy }}</a></li>
                 <li><a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/" target="_blank" rel="noopener noreferrer">{{ locale_data.footer.resources.terms_of_service }}</a></li>
-                <li><a href="{{ lang_config.path }}{{ locale_data.urls.documentation }}">{{ locale_data.footer.resources.documentation }}</a></li>
+                <li><a onclick="return false;" class="tooltip" data-tooltip="{{ locale_data.tooltip.label_coming_soon }}" href="{{ lang_config.path }}{{ locale_data.urls.documentation }}">{{ locale_data.header.navigation.documentation }}</a></li>
                 <li><a href="{{ lang_config.path }}{{ locale_data.urls.changelog }}">{{ locale_data.footer.resources.changelog }}</a></li>
                 <!-- <li><a href="{% if lang == 'en' %}/changelog/rss/index.rss{% else %}/{{ lang }}/changelog/rss/index.rss{% endif %}">{{ locale_data.footer.resources.rss }}</a></li> -->
                 <li><a href="{{ global_config.urls.social.youtube }}" target="_blank" rel="noopener noreferrer">{{
@@ -239,7 +239,7 @@
                     <ul class="dropdown-content dropdown-dir-top" role="menu">
                         {% for language in all_languages %}
                         <li>
-                            <a role="menuitem" href="{% if language.code in available_blog_languages %}{{ language.url }}blog/topic/{{ category_slug }}/{% if page_number > 1 %}page/{{ page_number }}/{% endif %}{% else %}{{ language.url }}{% endif %}">
+                            <a role="menuitem" href="{% if language.code in available_blog_languages %}{% set lang_cat_slug = blog_config.categories[category_key][language.code].slug if language.code in blog_config.categories[category_key] else category_slug %}{{ language.url }}blog/topic/{{ lang_cat_slug }}/{% if page_number > 1 %}page/{{ page_number }}/{% endif %}{% else %}{{ language.url }}{% endif %}">
                                 <span>{{ language.name }}</span>
                                 {% if language.code == lang %}
                                 <span>✓</span>

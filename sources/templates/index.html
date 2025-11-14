@@ -413,7 +413,7 @@
                 <li><a href="{{ locale_data.urls.privacy }}">{{ locale_data.footer.resources.privacy_policy }}</a></li>
                 <li><a href="{{ global_config.urls.terms }}" target="_blank" rel="noopener noreferrer">{{
                         locale_data.footer.resources.terms_of_service }}</a></li>
-                <li><a href="{{ lang_config.path }}{{ locale_data.urls.documentation }}">{{ locale_data.footer.resources.documentation }}</a></li>
+                <li><a onclick="return false;" class="tooltip" data-tooltip="{{ locale_data.tooltip.label_coming_soon }}" href="{{ lang_config.path }}{{ locale_data.urls.documentation }}">{{ locale_data.header.navigation.documentation }}</a></li>
                 <li><a
                         href="{% if lang in available_changelog_languages %}{{ locale_data.urls.changelog }}{% else %}/changelog/{% endif %}">{{
                         locale_data.footer.resources.changelog }}</a></li>

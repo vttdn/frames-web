@@ -547,7 +547,7 @@ def build_homepage(global_config, languages):
                 'hreflang_links': generate_hreflang_links(global_config['languages'], page="home"),
                 'critical_css': critical_css,
                 'formatted_reviews': generate_formatted_reviews(locale_data, lang_code),
-                'latest_changelog_entries': get_latest_mixed_entries(lang_code) if lang_code == 'en' else get_latest_changelog_entries(lang_code)
+                'latest_changelog_entries': get_latest_mixed_entries(lang_code) if lang_code in available_blog_languages else get_latest_changelog_entries(lang_code)
             }
             html = generate_html_page('index.html', lang_code, global_config, locale_data,
                                      available_changelog_languages, extra_context, available_blog_languages)
@@ -760,9 +760,31 @@ def format_blog_entry(entry, lang_code):
     return entry
 
 
-def generate_blog_hreflang_links(available_blog_languages, languages, page_type='index', page_number=1, url_slug=None, category_slug=None, base_url="https://withframes.com"):
+def generate_blog_hreflang_links(available_blog_languages, languages, page_type='index', page_number=1, url_slug=None, category_slug=None, article_id=None, category_id=None, base_url="https://withframes.com"):
     """Generate hreflang alternate links for blog pages"""
     links = []
+
+    # For blog entries, build a map of language -> slug based on article_id
+    lang_slug_map = {}
+    if page_type == 'entry' and article_id:
+        for lang_code in available_blog_languages:
+            entries = load_blog_entries(lang_code)
+            for entry in entries:
+                if entry.get('article_id') == article_id:
+                    lang_slug_map[lang_code] = entry['slug']
+                    break
+
+    # For categories, build a map of language -> category slug based on category_id
+    lang_category_slug_map = {}
+    if page_type == 'category' and category_id:
+        blog_config = load_blog_config()
+        categories = blog_config.get('categories', {})
+        for cat_key, cat_data in categories.items():
+            if cat_data.get('category_id') == category_id:
+                for lang_code in available_blog_languages:
+                    if lang_code in cat_data:
+                        lang_category_slug_map[lang_code] = cat_data[lang_code].get('slug')
+                break
 
     for lang in languages:
         if lang['code'] not in available_blog_languages:
@@ -778,16 +800,34 @@ def generate_blog_hreflang_links(available_blog_languages, languages, page_type=
                 url_path = url_path.rstrip('/') + f"/page/{page_number}/"
 
         elif page_type == 'entry':
-            if lang['code'] == 'en':
-                url_path = f'/blog/{url_slug}/'
+            # Use article_id-based slug mapping if available
+            if article_id and lang['code'] in lang_slug_map:
+                lang_specific_slug = lang_slug_map[lang['code']]
             else:
-                url_path = f"/{lang['code']}/blog/{url_slug}/"
+                # Fallback to original behavior (skip if no translation found)
+                if article_id:
+                    continue
+                lang_specific_slug = url_slug
+
+            if lang['code'] == 'en':
+                url_path = f'/blog/{lang_specific_slug}/'
+            else:
+                url_path = f"/{lang['code']}/blog/{lang_specific_slug}/"
 
         elif page_type == 'category':
-            if lang['code'] == 'en':
-                url_path = f'/blog/topic/{category_slug}/'
+            # Use category_id-based slug mapping if available
+            if category_id and lang['code'] in lang_category_slug_map:
+                lang_specific_category_slug = lang_category_slug_map[lang['code']]
             else:
-                url_path = f"/{lang['code']}/blog/topic/{category_slug}/"
+                # Fallback to original behavior (skip if no translation found)
+                if category_id:
+                    continue
+                lang_specific_category_slug = category_slug
+
+            if lang['code'] == 'en':
+                url_path = f'/blog/topic/{lang_specific_category_slug}/'
+            else:
+                url_path = f"/{lang['code']}/blog/topic/{lang_specific_category_slug}/"
 
             if page_number > 1:
                 url_path = url_path.rstrip('/') + f"/page/{page_number}/"
@@ -798,13 +838,17 @@ def generate_blog_hreflang_links(available_blog_languages, languages, page_type=
             'href': url
         })
 
-    # Add x-default
+    # Add x-default (use English version)
     if page_type == 'index':
         x_default_path = '/blog/' if page_number == 1 else f'/blog/page/{page_number}/'
     elif page_type == 'entry':
-        x_default_path = f'/blog/{url_slug}/'
+        # Use English slug from lang_slug_map if available, otherwise fallback to url_slug
+        en_slug = lang_slug_map.get('en', url_slug) if article_id and lang_slug_map else url_slug
+        x_default_path = f'/blog/{en_slug}/'
     elif page_type == 'category':
-        x_default_path = f'/blog/topic/{category_slug}/' if page_number == 1 else f'/blog/topic/{category_slug}/page/{page_number}/'
+        # Use English category slug from lang_category_slug_map if available
+        en_category_slug = lang_category_slug_map.get('en', category_slug) if category_id and lang_category_slug_map else category_slug
+        x_default_path = f'/blog/topic/{en_category_slug}/' if page_number == 1 else f'/blog/topic/{en_category_slug}/page/{page_number}/'
 
     links.append({
         'hreflang': 'x-default',
@@ -1052,8 +1096,8 @@ def build_blog_pages(global_config):
 
             # Generate category pages
             categories = blog_config.get('categories', {})
-            for category_slug, category_data in categories.items():
-                category_entries = [e for e in entries if e.get('category') == category_slug]
+            for category_key, category_data in categories.items():
+                category_entries = [e for e in entries if e.get('category') == category_key]
 
                 if not category_entries:
                     continue
@@ -1061,23 +1105,28 @@ def build_blog_pages(global_config):
                 category_total_pages = math.ceil(len(category_entries) / BLOG_POSTS_PER_PAGE)
                 category_info = category_data.get(lang_code, {})
 
+                # Get language-specific category slug and metadata
+                lang_category_slug = category_info.get('slug', category_key)
+                category_id = category_data.get('category_id', category_key)
+
                 for page in range(1, category_total_pages + 1):
                     start_idx = (page - 1) * BLOG_POSTS_PER_PAGE
                     end_idx = start_idx + BLOG_POSTS_PER_PAGE
                     page_entries = category_entries[start_idx:end_idx]
 
-                    canonical_url = f"https://withframes.com{'/' + lang_code if lang_code != 'en' else ''}/blog/topic/{category_slug}/"
+                    canonical_url = f"https://withframes.com{'/' + lang_code if lang_code != 'en' else ''}/blog/topic/{lang_category_slug}/"
                     if page > 1:
                         canonical_url += f"page/{page}/"
 
                     extra_context = {
-                        'hreflang_links': generate_blog_hreflang_links(available_blog_languages, global_config['languages'], page_type='category', page_number=page, category_slug=category_slug),
+                        'hreflang_links': generate_blog_hreflang_links(available_blog_languages, global_config['languages'], page_type='category', page_number=page, category_slug=lang_category_slug, category_id=category_id),
                         'entries': page_entries,
                         'page_number': page,
                         'total_pages': category_total_pages,
                         'blog_css': blog_css,
                         'blog_config': blog_config,
-                        'category_slug': category_slug,
+                        'category_key': category_key,
+                        'category_slug': lang_category_slug,
                         'category_name': category_info.get('name', ''),
                         'category_description': category_info.get('description', '')
                     }
@@ -1085,12 +1134,13 @@ def build_blog_pages(global_config):
                     html = generate_html_page('blog-category.html', lang_code, global_config, locale_data,
                                              detect_available_changelog_languages(), extra_context, available_blog_languages)
                     html = minify_html(html)
-                    save_blog_html(html, 'category', lang_code, page_number=page, category_slug=category_slug)
+                    save_blog_html(html, 'category', lang_code, page_number=page, category_slug=lang_category_slug)
 
                     # Generate schemas
                     generate_blog_schemas(lang_code, locale_data, global_config, blog_config, 'blog-category',
                                          page_number=page, canonical_url=canonical_url,
-                                         category_slug=category_slug, category_name=category_info.get('name', ''),
+                                         category_slug=lang_category_slug,
+                                         category_name=category_info.get('name', ''),
                                          page_title=category_info.get('meta_title', ''),
                                          page_description=category_info.get('meta_description', ''),
                                          all_entries=category_entries)
@@ -1106,15 +1156,27 @@ def build_blog_pages(global_config):
                 category_slug = entry.get('category', '')
                 category_info = categories.get(category_slug, {}).get(lang_code, {})
 
+                # Build language -> slug mapping for article translations
+                article_translations = {}
+                article_id = entry.get('article_id')
+                if article_id:
+                    for target_lang in available_blog_languages:
+                        target_entries = load_blog_entries(target_lang)
+                        for target_entry in target_entries:
+                            if target_entry.get('article_id') == article_id:
+                                article_translations[target_lang] = target_entry['slug']
+                                break
+
                 extra_context = {
-                    'hreflang_links': generate_blog_hreflang_links(available_blog_languages, global_config['languages'], page_type='entry', url_slug=entry['slug']),
+                    'hreflang_links': generate_blog_hreflang_links(available_blog_languages, global_config['languages'], page_type='entry', url_slug=entry['slug'], article_id=entry.get('article_id')),
                     'entry': entry,
                     'prev_entry': prev_entry,
                     'next_entry': next_entry,
                     'blog_css': blog_css,
                     'blog_config': blog_config,
                     'og_image_url': entry.get('og_image_url', '/og-image.jpg'),
-                    'category_info': category_info
+                    'category_info': category_info,
+                    'article_translations': article_translations
                 }
 
                 html = generate_html_page('blog-entry.html', lang_code, global_config, locale_data,
@@ -1250,14 +1312,18 @@ def generate_blog_sitemap(entries, categories, lang_code='en'):
         sitemap_lines.append('  </url>')
 
     # Add category pages
-    for category_slug in categories.keys():
-        category_entries = [e for e in entries if e.get('category') == category_slug]
+    for category_key, category_data in categories.items():
+        category_entries = [e for e in entries if e.get('category') == category_key]
         if not category_entries:
             continue
 
+        # Get language-specific category slug
+        category_info = category_data.get(lang_code, {})
+        lang_category_slug = category_info.get('slug', category_key)
+
         # Category index
         sitemap_lines.append('  <url>')
-        sitemap_lines.append(f'    <loc>{base_url}{url_prefix}/topic/{category_slug}/</loc>')
+        sitemap_lines.append(f'    <loc>{base_url}{url_prefix}/topic/{lang_category_slug}/</loc>')
         sitemap_lines.append(f'    <lastmod>{current_date}</lastmod>')
         sitemap_lines.append('    <changefreq>weekly</changefreq>')
         sitemap_lines.append('    <priority>0.7</priority>')
@@ -1267,7 +1333,7 @@ def generate_blog_sitemap(entries, categories, lang_code='en'):
         category_total_pages = math.ceil(len(category_entries) / BLOG_POSTS_PER_PAGE)
         for page in range(2, category_total_pages + 1):
             sitemap_lines.append('  <url>')
-            sitemap_lines.append(f'    <loc>{base_url}{url_prefix}/topic/{category_slug}/page/{page}/</loc>')
+            sitemap_lines.append(f'    <loc>{base_url}{url_prefix}/topic/{lang_category_slug}/page/{page}/</loc>')
             sitemap_lines.append(f'    <lastmod>{current_date}</lastmod>')
             sitemap_lines.append('    <changefreq>weekly</changefreq>')
             sitemap_lines.append('    <priority>0.6</priority>')

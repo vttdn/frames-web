@@ -80,7 +80,7 @@
             <a href="{{ lang_config.path }}{{ locale_data.urls.blog }}">{{ locale_data.blog.heading }}</a>
             {% if entry.category %}
             <span> / </span>
-            <a href="{{ lang_config.path }}{{ locale_data.urls.blog }}topic/{{ entry.category }}/" class="blog-entry-category badge">
+            <a href="{{ lang_config.path }}{{ locale_data.urls.blog }}topic/{{ blog_config.categories[entry.category][lang].slug }}/" class="blog-entry-category badge">
             {{ blog_config.categories[entry.category][lang].name }}
             </a>
             {% endif %}
@@ -155,7 +155,7 @@
             {% if entry.category %}
             <div>
               <span>{{ locale_data.blog.labels.filed_under }}: </span>
-              <a href="{{ lang_config.path }}{{ locale_data.urls.blog }}topic/{{ entry.category }}/">{{ blog_config.categories[entry.category][lang].name }}</a>
+              <a href="{{ lang_config.path }}{{ locale_data.urls.blog }}topic/{{ blog_config.categories[entry.category][lang].slug }}/">{{ blog_config.categories[entry.category][lang].name }}</a>
             </div>
             {% endif %}
             {% if entry.author %}
@@ -227,7 +227,7 @@
                 <li><h3>{{ locale_data.footer.resources.heading }}</h3></li>
                 <li><a href="{{ lang_config.path }}{{ locale_data.urls.privacy }}">{{ locale_data.footer.resources.privacy_policy }}</a></li>
                 <li><a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/" target="_blank" rel="noopener noreferrer">{{ locale_data.footer.resources.terms_of_service }}</a></li>
-                <li><a href="{{ lang_config.path }}{{ locale_data.urls.documentation }}">{{ locale_data.footer.resources.documentation }}</a></li>
+                <li><a onclick="return false;" class="tooltip" data-tooltip="{{ locale_data.tooltip.label_coming_soon }}" href="{{ lang_config.path }}{{ locale_data.urls.documentation }}">{{ locale_data.header.navigation.documentation }}</a></li>
                 <li><a href="{{ lang_config.path }}{{ locale_data.urls.changelog }}">{{ locale_data.footer.resources.changelog }}</a></li>
                 <!-- <li><a href="{% if lang == 'en' %}/changelog/rss/index.rss{% else %}/{{ lang }}/changelog/rss/index.rss{% endif %}">{{ locale_data.footer.resources.rss }}</a></li> -->
                 <li><a href="{{ global_config.urls.social.youtube }}" target="_blank" rel="noopener noreferrer">{{
@@ -264,7 +264,7 @@
                     <ul class="dropdown-content dropdown-dir-top" role="menu">
                         {% for language in all_languages %}
                         <li>
-                            <a role="menuitem" href="{% if language.code in available_blog_languages %}{{ language.url }}blog/{{ entry.url_slug }}/{% else %}{{ language.url }}{% endif %}">
+                            <a role="menuitem" href="{% if language.code in available_blog_languages and language.code in article_translations %}{{ language.url }}blog/{{ article_translations[language.code] }}/{% else %}{{ language.url }}{% endif %}">
                                 <span>{{ language.name }}</span>
                                 {% if language.code == lang %}
                                 <span>✓</span>

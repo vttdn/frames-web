@@ -105,7 +105,7 @@
             </li>
             {% for category_key, category_data in blog_config.categories.items()|sort %}
             <li>
-              <a href="{{ lang_config.path }}{{ locale_data.urls.blog }}topic/{{ category_data.slug }}/" class="flex flex-center flex-justify-start gap-sm">{{ category_data[lang].name }}</a>
+              <a href="{{ lang_config.path }}{{ locale_data.urls.blog }}topic/{{ category_data[lang].slug }}/" class="flex flex-center flex-justify-start gap-sm">{{ category_data[lang].name }}</a>
             </li>
             {% endfor %}
           </ul>
@@ -198,7 +198,7 @@
                 <li><h3>{{ locale_data.footer.resources.heading }}</h3></li>
                 <li><a href="{{ lang_config.path }}{{ locale_data.urls.privacy }}">{{ locale_data.footer.resources.privacy_policy }}</a></li>
                 <li><a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/" target="_blank" rel="noopener noreferrer">{{ locale_data.footer.resources.terms_of_service }}</a></li>
-                <li><a href="{{ lang_config.path }}{{ locale_data.urls.documentation }}">{{ locale_data.footer.resources.documentation }}</a></li>
+                <li><a onclick="return false;" class="tooltip" data-tooltip="{{ locale_data.tooltip.label_coming_soon }}" href="{{ lang_config.path }}{{ locale_data.urls.documentation }}">{{ locale_data.header.navigation.documentation }}</a></li>
                 <li><a href="{{ lang_config.path }}{{ locale_data.urls.changelog }}">{{ locale_data.footer.resources.changelog }}</a></li>
                 <!-- <li><a href="{% if lang == 'en' %}/changelog/rss/index.rss{% else %}/{{ lang }}/changelog/rss/index.rss{% endif %}">{{ locale_data.footer.resources.rss }}</a></li> -->
                 <li><a href="{{ global_config.urls.social.youtube }}" target="_blank" rel="noopener noreferrer">{{
