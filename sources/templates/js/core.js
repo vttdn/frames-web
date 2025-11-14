@@ -211,58 +211,94 @@ document.addEventListener('DOMContentLoaded', () => {
   // YOUTUBE Modal
   //
   const playBtn = document.getElementById('youtube-video-toggle');
-if (playBtn) {
-  playBtn.dataset.overlayTrigger = 'youtube';
-  playBtn.addEventListener('click', () => {
-    const videoId = playBtn.dataset.videoId;
-    if (!videoId) return;
+  let ytApiLoaded = false;
+  let ytPlayer = null;
 
-    const iframeHTML = `
-      <iframe src="https://www.youtube-nocookie.com/embed/${videoId}?autoplay=1&mute=1&rel=0&modestbranding=1"
-              title="YouTube video player"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen"
-              referrerpolicy="no-referrer-when-downgrade"
-              style="position:absolute;inset:0;width:100%;height:100%;border:0;"></iframe>`;
+  if (playBtn) {
+    playBtn.dataset.overlayTrigger = 'youtube';
+    playBtn.addEventListener('click', () => {
+      const videoId = playBtn.dataset.videoId;
+      if (!videoId) return;
 
-    const contentHTML = `
-      <div class="modal-header flex flex-justify-between flex-center">
-            <h3>{{ locale_data.actions.watch }}</h3>
-        <button class="overlay-button-close flex flex-center flex-justify-center"
-                aria-label="{{ locale_data.actions.close }}">
-          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-              viewBox="0 0 24 24" fill="none" stroke="currentColor"
-              stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="size-4">
-            <line x1="18" y1="6" x2="6" y2="18"></line>
-            <line x1="6" y1="6" x2="18" y2="18"></line>
-          </svg>
-        </button>
-      </div>
-      <div class="video-wrapper" style="position:relative;padding-top:56.25%;">
-        ${iframeHTML}
-      </div>`;
+      // Load YouTube iframe API script if not already loaded
+      if (!ytApiLoaded) {
+        const tag = document.createElement('script');
+        tag.src = 'https://www.youtube.com/iframe_api';
+        const firstScriptTag = document.getElementsByTagName('script')[0];
+        firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+        ytApiLoaded = true;
+      }
 
-    // Open overlay
-    openOverlay({
-      type: 'youtube',
-      titleText: '{{ locale_data.hero.play_button_aria_label }}',
-      contentHTML
-    });
+      const iframeHTML = `
+        <iframe id="youtube-player"
+                src="https://www.youtube.com/embed/${videoId}?autoplay=0&rel=0&modestbranding=1&enablejsapi=1"
+                title="YouTube video player"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen"
+                referrerpolicy="no-referrer-when-downgrade"
+                style="position:absolute;inset:0;width:100%;height:100%;border:0;"></iframe>`;
 
-    // Add 'large' class to modal container for YouTube
-    modalContainer.classList.add('large');
+      const contentHTML = `
+        <div class="modal-header flex flex-justify-between flex-center">
+              <h3>{{ locale_data.actions.watch }}</h3>
+          <button class="overlay-button-close flex flex-center flex-justify-center"
+                  aria-label="{{ locale_data.actions.close }}">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="size-4">
+              <line x1="18" y1="6" x2="6" y2="18"></line>
+              <line x1="6" y1="6" x2="18" y2="18"></line>
+            </svg>
+          </button>
+        </div>
+        <div class="video-wrapper" style="position:relative;padding-top:56.25%;">
+          ${iframeHTML}
+        </div>`;
 
-    // Close button
-    modalContainer.querySelector('.overlay-button-close')
-      .addEventListener('click', () => {
-        closeOverlay();
-
-        // Remove 'large' class after 400ms
-        setTimeout(() => {
-          modalContainer.classList.remove('large');
-        }, 350);
+      // Open overlay
+      openOverlay({
+        type: 'youtube',
+        titleText: '{{ locale_data.hero.play_button_aria_label }}',
+        contentHTML
       });
-  });
-}
+
+      // Add 'large' class to modal container for YouTube
+      modalContainer.classList.add('large');
+
+      // Initialize YouTube player and play with sound once API is ready
+      function onYouTubeIframeAPIReady() {
+        ytPlayer = new YT.Player('youtube-player', {
+          events: {
+            'onReady': (event) => {
+              event.target.playVideo();
+            }
+          }
+        });
+      }
+
+      // Wait for YouTube API to be ready
+      if (window.YT && window.YT.Player) {
+        onYouTubeIframeAPIReady();
+      } else {
+        window.onYouTubeIframeAPIReady = onYouTubeIframeAPIReady;
+      }
+
+      // Close button
+      modalContainer.querySelector('.overlay-button-close')
+        .addEventListener('click', () => {
+          // Stop video if playing
+          if (ytPlayer && ytPlayer.stopVideo) {
+            ytPlayer.stopVideo();
+          }
+
+          closeOverlay();
+
+          // Remove 'large' class after 400ms
+          setTimeout(() => {
+            modalContainer.classList.remove('large');
+          }, 350);
+        });
+    });
+  }
 
 });
 
