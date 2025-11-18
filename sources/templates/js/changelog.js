@@ -25,7 +25,7 @@ document.addEventListener('DOMContentLoaded', function () {
         const slug = path.match(/\/changelog\/([^/]+)\/?$/)[1];
         schemaBasePath += '/' + slug;
         schemaFiles = [
-            schemaBasePath + '/organization.json',
+            '/lib/schema/' + lang + '/organization.json',
             schemaBasePath + '/blogposting.json',
             schemaBasePath + '/breadcrumb.json'
         ];
@@ -37,13 +37,13 @@ document.addEventListener('DOMContentLoaded', function () {
         }
 
         schemaFiles = [
-            schemaBasePath + '/organization.json',
+            '/lib/schema/' + lang + '/organization.json',
             schemaBasePath + '/breadcrumb.json'
         ];
 
         // Blog schema only on first page
         if (!pageMatch) {
-            schemaFiles.unshift(schemaBasePath + '/blog.json');
+            schemaFiles.splice(1, 0, schemaBasePath + '/blog.json');
         }
     }
 

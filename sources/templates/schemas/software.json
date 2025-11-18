@@ -2,7 +2,7 @@
       "@context": "https://schema.org",
       "@graph": [
         {
-          "@type": "SoftwareApplication",
+          "@type": "MobileApplication",
           "@id": "https://withframes.com/#frames-ios",
           "name": "{{ ios_appname }}",
           "operatingSystem": "iOS 18.0",
@@ -10,7 +10,13 @@
           "applicationSubCategory": "Photography",
           "publisher": { "@id": "https://withframes.com/#organization" },
           "description": "{{ seo_meta_description }}",
-          "image": "https://withframes.com/lib/img/shared/app-icon.png",
+          "image": [
+            "https://withframes.com/lib/img/shared/software/frames-logo.png",
+            "https://withframes.com/lib/img/shared/software/ios/screenshot-1.png",
+            "https://withframes.com/lib/img/shared/software/ios/screenshot-2.png",
+            "https://withframes.com/lib/img/shared/software/ios/screenshot-3.png",
+            "https://withframes.com/lib/img/shared/software/ios/screenshot-4.png"
+          ],
           "url": "{{ canonical_url }}",
           "installUrl": "{{ appstore_url }}",
           "softwareVersion": "{{ app_version_ios }}",
@@ -157,7 +163,12 @@
           "applicationSubCategory": "Photography",
           "publisher": { "@id": "https://withframes.com/#organization" },
           "description": "{{ seo_meta_description }}",
-          "image": "https://withframes.com/lib/img/shared/app-icon.png",
+          "image": [
+            "https://withframes.com/lib/img/shared/software/frames-logo.png",
+            "https://withframes.com/lib/img/shared/software/macos/screenshot-1.png",
+            "https://withframes.com/lib/img/shared/software/macos/screenshot-2.png",
+            "https://withframes.com/lib/img/shared/software/macos/screenshot-3.png"
+          ],
           "url": "{{ canonical_url }}",
           "installUrl": "{{ macappstore_url }}",
           "softwareVersion": "{{ app_version_macos }}",

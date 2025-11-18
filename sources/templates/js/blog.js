@@ -26,7 +26,7 @@ document.addEventListener('DOMContentLoaded', function () {
         const slug = path.match(/\/blog\/([^/]+)\/?$/)[1];
         schemaBasePath += '/' + slug;
         schemaFiles = [
-            schemaBasePath + '/organization.json',
+            '/lib/schema/' + lang + '/organization.json',
             schemaBasePath + '/blogposting.json',
             schemaBasePath + '/breadcrumb-blog.json'
         ];
@@ -42,7 +42,7 @@ document.addEventListener('DOMContentLoaded', function () {
         }
 
         schemaFiles = [
-            schemaBasePath + '/organization.json',
+            '/lib/schema/' + lang + '/organization.json',
             schemaBasePath + '/blog-list.json',
             schemaBasePath + '/breadcrumb-blog-category.json'
         ];
@@ -54,13 +54,13 @@ document.addEventListener('DOMContentLoaded', function () {
         }
 
         schemaFiles = [
-            schemaBasePath + '/organization.json',
+            '/lib/schema/' + lang + '/organization.json',
             schemaBasePath + '/breadcrumb-blog.json'
         ];
 
         // Blog list schema only on first page
         if (!pageMatch) {
-            schemaFiles.unshift(schemaBasePath + '/blog-list.json');
+            schemaFiles.splice(1, 0, schemaBasePath + '/blog-list.json');
         }
     }
 

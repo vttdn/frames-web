@@ -452,6 +452,12 @@ def generate_homepage_schemas(lang_code, global_config, locale_data):
             'macappstore_url': locale_data['urls']['appstore_macos'],
             'company_description': locale_data['company']['description']
         }),
+        ('schemas/website.json', {
+            'lang': lang_code,
+            'canonical_url': locale_data['meta']['canonical_url'].rstrip('/') + '/',
+            'seo_meta_description': locale_data['meta']['description'],
+            'keywords': locale_data['meta']['keywords']
+        }),
         ('schemas/webpage-homepage.json', {
             'lang': lang_code,
             'canonical_url': locale_data['meta']['canonical_url'].rstrip('/') + '/',
@@ -892,16 +898,6 @@ def generate_blog_schemas(lang_code, locale_data, global_config, blog_config, pa
     page_number = kwargs.get('page_number')
     url_slug = kwargs.get('url_slug')
     category_slug = kwargs.get('category_slug')
-
-    # Common organization schema
-    org_context = {
-        'global_urls': global_config['urls'],
-        'appstore_url': locale_data['urls']['appstore_ios'],
-        'macappstore_url': locale_data['urls']['appstore_macos'],
-        'company_description': locale_data['company']['description']
-    }
-    organization_schema = generate_schema_file('schemas/organization.json', org_context)
-    save_blog_schema(organization_schema, 'organization.json', lang_code, page_type, page_number, url_slug, category_slug)
 
     # Breadcrumb schema
     breadcrumb_template = 'schemas/breadcrumb-blog-category.json' if page_type == 'blog-category' else 'schemas/breadcrumb-blog.json'
@@ -1631,16 +1627,6 @@ def generate_changelog_schemas(lang_code, locale_data, global_config, page_type,
     # Extract only the parameters save_changelog_schema needs
     page_number = kwargs.get('page_number')
     url_slug = kwargs.get('url_slug')
-
-    # Common organization schema
-    org_context = {
-        'global_urls': global_config['urls'],
-        'appstore_url': locale_data['urls']['appstore_ios'],
-        'macappstore_url': locale_data['urls']['appstore_macos'],
-        'company_description': locale_data['company']['description']
-    }
-    organization_schema = generate_schema_file('schemas/organization.json', org_context)
-    save_changelog_schema(organization_schema, 'organization.json', lang_code, page_type, page_number, url_slug)
 
     # Breadcrumb schema
     breadcrumb_context = {

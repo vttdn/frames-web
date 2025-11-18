@@ -2,7 +2,7 @@
       "@context": "https://schema.org",
       "@graph": [
         {
-          "@type": "SoftwareApplication",
+          "@type": "MobileApplication",
           "@id": "https://withframes.com/#frames-ios",
           "name": "Frames iOS",
           "operatingSystem": "iOS 18.0",
@@ -10,7 +10,13 @@
           "applicationSubCategory": "Photography",
           "publisher": { "@id": "https://withframes.com/#organization" },
           "description": "एनालॉग फोटोग्राफरों के लिए ऐप। कैमरा सेटिंग्स ट्रैक करें, रोल व्यवस्थित करें और EXIF मेटाडेटा जोड़ें। iPhone और Mac के लिए मुफ्त ट्रायल उपलब्ध।",
-          "image": "https://withframes.com/lib/img/shared/app-icon.png",
+          "image": [
+            "https://withframes.com/lib/img/shared/software/frames-logo.png",
+            "https://withframes.com/lib/img/shared/software/ios/screenshot-1.png",
+            "https://withframes.com/lib/img/shared/software/ios/screenshot-2.png",
+            "https://withframes.com/lib/img/shared/software/ios/screenshot-3.png",
+            "https://withframes.com/lib/img/shared/software/ios/screenshot-4.png"
+          ],
           "url": "https://withframes.com/hi",
           "installUrl": "https://apps.apple.com/in/app/frames-फ-ल-म-म-ट-ड-ट/id6744063354?l=hi",
           "softwareVersion": "1.14.3",
@@ -157,7 +163,12 @@
           "applicationSubCategory": "Photography",
           "publisher": { "@id": "https://withframes.com/#organization" },
           "description": "एनालॉग फोटोग्राफरों के लिए ऐप। कैमरा सेटिंग्स ट्रैक करें, रोल व्यवस्थित करें और EXIF मेटाडेटा जोड़ें। iPhone और Mac के लिए मुफ्त ट्रायल उपलब्ध।",
-          "image": "https://withframes.com/lib/img/shared/app-icon.png",
+          "image": [
+            "https://withframes.com/lib/img/shared/software/frames-logo.png",
+            "https://withframes.com/lib/img/shared/software/macos/screenshot-1.png",
+            "https://withframes.com/lib/img/shared/software/macos/screenshot-2.png",
+            "https://withframes.com/lib/img/shared/software/macos/screenshot-3.png"
+          ],
           "url": "https://withframes.com/hi",
           "installUrl": "https://apps.apple.com/in/app/frames-फ-ल-म-म-ट-ड-ट/id6744063354?l=hi",
           "softwareVersion": "1.10.0",

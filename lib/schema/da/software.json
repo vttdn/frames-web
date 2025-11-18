@@ -2,7 +2,7 @@
       "@context": "https://schema.org",
       "@graph": [
         {
-          "@type": "SoftwareApplication",
+          "@type": "MobileApplication",
           "@id": "https://withframes.com/#frames-ios",
           "name": "Frames iOS",
           "operatingSystem": "iOS 18.0",
@@ -10,7 +10,13 @@
           "applicationSubCategory": "Photography",
           "publisher": { "@id": "https://withframes.com/#organization" },
           "description": "Filmfotografi-app til analoge fotografer. Registrer kameraindstillinger, organiser ruller og integrer EXIF-metadata i scannede billeder. Gratis prøveperiode.",
-          "image": "https://withframes.com/lib/img/shared/app-icon.png",
+          "image": [
+            "https://withframes.com/lib/img/shared/software/frames-logo.png",
+            "https://withframes.com/lib/img/shared/software/ios/screenshot-1.png",
+            "https://withframes.com/lib/img/shared/software/ios/screenshot-2.png",
+            "https://withframes.com/lib/img/shared/software/ios/screenshot-3.png",
+            "https://withframes.com/lib/img/shared/software/ios/screenshot-4.png"
+          ],
           "url": "https://withframes.com/da",
           "installUrl": "https://apps.apple.com/dk/app/frames-filmnotater/id6744057317?l=da",
           "softwareVersion": "1.14.3",
@@ -157,7 +163,12 @@
           "applicationSubCategory": "Photography",
           "publisher": { "@id": "https://withframes.com/#organization" },
           "description": "Filmfotografi-app til analoge fotografer. Registrer kameraindstillinger, organiser ruller og integrer EXIF-metadata i scannede billeder. Gratis prøveperiode.",
-          "image": "https://withframes.com/lib/img/shared/app-icon.png",
+          "image": [
+            "https://withframes.com/lib/img/shared/software/frames-logo.png",
+            "https://withframes.com/lib/img/shared/software/macos/screenshot-1.png",
+            "https://withframes.com/lib/img/shared/software/macos/screenshot-2.png",
+            "https://withframes.com/lib/img/shared/software/macos/screenshot-3.png"
+          ],
           "url": "https://withframes.com/da",
           "installUrl": "https://apps.apple.com/dk/app/frames-filmmetadata/id6744063354?l=da",
           "softwareVersion": "1.10.0",
