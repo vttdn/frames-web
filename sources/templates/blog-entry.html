@@ -90,7 +90,7 @@
           <header class="blog-entry-header flex flex-col gap-sm">
             <h1>{{ entry.title }}</h1>
             <p class="blog-entry-meta">
-              <time datetime="{{ entry.publish_date }}">{{ entry.formatted_date }}</time>
+              <time datetime="{{ entry.update_date }}">{{ entry.formatted_update_date }}</time>
               {% if entry.author %}
               <span> {{ locale_data.blog.labels.by_author }} {{ entry.author }}</span>
               {% endif %}
@@ -165,7 +165,7 @@
             {% endif %}
             {% if entry.update_date %}
             <div>
-              <span>{{ locale_data.blog.labels.updated }}:</span> {{ entry.formatted_update_date }}
+              <span>{{ locale_data.blog.labels.published_on }}:</span> <time datetime="{{ entry.publish_date }}">{{ entry.formatted_date }}</time>
             </div>
             {% endif %}
           </footer>
