@@ -6,6 +6,8 @@
     <description>{{ locale_data.blog.meta.description }}</description>
     <language>{{ lang }}</language>
     <atom:link href="{{ feed_url }}" rel="self" type="application/rss+xml" />
+    <atom:link rel="alternate" hreflang="en" href="https://withframes.com/blog/rss/index.rss" type="application/rss+xml" />
+    <atom:link rel="alternate" hreflang="fr" href="https://withframes.com/fr/blog/rss/index.rss" type="application/rss+xml" />
     <lastBuildDate>{{ build_date }}</lastBuildDate>
     <generator>Frames Website Builder</generator>
     {% for entry in entries %}

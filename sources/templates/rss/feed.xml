@@ -6,6 +6,9 @@
     <description>{{ locale_data.changelog.meta.description }}</description>
     <language>{{ lang }}</language>
     <atom:link href="{{ feed_url }}" rel="self" type="application/rss+xml" />
+    {% for alt_lang in all_languages %}
+    <atom:link rel="alternate" hreflang="{{ alt_lang.code }}" href="https://withframes.com{{ alt_lang.path }}changelog/rss/index.rss" type="application/rss+xml" />
+    {% endfor %}
     <lastBuildDate>{{ build_date }}</lastBuildDate>
     <generator>Frames Website Builder</generator>
     {% for entry in entries %}

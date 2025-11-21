@@ -1807,7 +1807,7 @@ def build_changelog_pages(global_config):
             generate_changelog_sitemap(entries, lang_code)
 
             # Generate RSS feed
-            generate_rss_feed(entries, lang_code, locale_data)
+            generate_rss_feed(entries, lang_code, locale_data, global_config)
 
             # Generate JavaScript
             javascript = generate_javascript_file('js/changelog.js', lang_code, locale_data, global_config)
@@ -1896,7 +1896,7 @@ def generate_sitemap(languages, sitemap_type):
     return sitemap_path
 
 
-def generate_rss_feed(entries, lang_code, locale_data):
+def generate_rss_feed(entries, lang_code, locale_data, global_config):
     """Generate RSS feed for changelog"""
     from email.utils import formatdate
     from xml.sax.saxutils import escape
@@ -1941,7 +1941,8 @@ def generate_rss_feed(entries, lang_code, locale_data):
         'canonical_url': canonical_url,
         'feed_url': feed_url,
         'build_date': build_date,
-        'entries': rss_entries
+        'entries': rss_entries,
+        'all_languages': generate_language_list(global_config['languages'])
     }
 
     rss_content = render_template('rss/feed.xml', context, autoescape_enabled=False)
