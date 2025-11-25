@@ -1,0 +1,51 @@
+{
+  "version": "1.15.0",
+  "version_short": "1.15",
+  "url_slug": "1-15-ios",
+  "platform": "ios",
+  "release_date": "2025-11-25T10:00:00.000Z",
+  "title": "Omdesignat verktygsfält och smidigare upplevelse",
+  "summary": "Spelarens verktygsfält får en betydande uppdatering med en mer praktisk layout som håller alla viktiga kontroller synliga och tillgängliga. Kombinerat med förfinade animationer och bättre prestanda känns inspelning av dina bilder nu snabbare och mer responsiv.",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Alltid synliga verktygsfältskontroller"
+    },
+    {
+      "type": "paragraph",
+      "content": "För iOS 18-användare visar spelarens verktygsfält nu alla viktiga kontroller på en gång, i linje med layouten som iOS 26-användare har haft sedan föregående uppdatering. Rutanummer, bländare, slutartid, exponeringskompensation och blixt är alltid synliga – ingen scrollning behövs för att hitta det du behöver. En dedikerad knapp ger dig snabb åtkomst till ytterligare inställningar vid behov, och håller gränssnittet rent medan allt förblir inom räckhåll."
+    },
+    {
+      "type": "paragraph",
+      "content": "Oavsett om du använder iOS 18 eller iOS 26 kommer du att märka förbättrade animationer och bättre prestanda i hela verktygsfältet. Resultatet är ett mer praktiskt och lättanvänt gränssnitt som håller sig undan när du är fokuserad på att fotografera."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.15.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.15.0-1@2x.png",
+      "alt": "Frames analog foto-app med omdesignat spelarverktygsfält",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Förfinade animationer och prestanda"
+    },
+    {
+      "type": "paragraph",
+      "content": "Animationerna vid justering av inställningar är nu smidigare och mer responsiva. Övergångar mellan kontroller känns snabbare, och den övergripande upplevelsen är märkbart snabbare. Dessa förbättringar gör inspelning av rutor smidigare, oavsett om du snabbt dokumenterar inställningar eller tar dig tid att ställa in exakta värden."
+    }
+  ],
+  "improvements": [
+    "Verktygsfältsdesignen på iOS 18 är nu i linje med iOS 26 för en enhetlig upplevelse",
+    "Förbättrade animationer vid visning och justering av kontrollvärden på både iOS 18 och iOS 26",
+    "Lagt till ikoner till kamera-, objektiv-, filter- och filmtypsetiketter för tydligare identifiering",
+    "Minskad fördröjning vid byte mellan verktygsfältskontroller"
+  ],
+  "fixes": [],
+  "patches": [],
+  "meta_title": "Omdesignat verktygsfält och smidigare upplevelse - Frames",
+  "meta_description": "Spelarens verktygsfält får en betydande uppdatering med en mer praktisk layout som håller alla viktiga kontroller synliga och tillgängliga."
+}

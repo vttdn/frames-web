@@ -1,0 +1,51 @@
+{
+  "version": "1.15.0",
+  "version_short": "1.15",
+  "url_slug": "1-15-ios",
+  "platform": "ios",
+  "release_date": "2025-11-25T10:00:00.000Z",
+  "title": "Nyt værktøjslinjedesign og mere flydende oplevelse",
+  "summary": "Optagerens værktøjslinje får en stor opdatering med et mere praktisk layout, der holder alle dine vigtige kontroller synlige og tilgængelige. Kombineret med forbedrede animationer og bedre ydeevne føles optagelse af dine billeder nu hurtigere og mere responsiv.",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Altid synlige værktøjslinjekontroller"
+    },
+    {
+      "type": "paragraph",
+      "content": "For iOS 18-brugere viser optagerens værktøjslinje nu alle dine vigtige kontroller på én gang, så den matcher det layout, som iOS 26-brugere har nydt godt af siden den forrige opdatering. Rammenummer, blænde, lukkertid, eksponeringskompensation og flash er altid synlige – ingen grund til at scrolle for at finde det, du har brug for. En dedikeret knap giver dig hurtig adgang til yderligere indstillinger, når det er nødvendigt, og holder brugerfladen ren, mens alt forbliver inden for rækkevidde."
+    },
+    {
+      "type": "paragraph",
+      "content": "Uanset om du bruger iOS 18 eller iOS 26, vil du bemærke forbedrede animationer og bedre ydeevne i hele værktøjslinjen. Resultatet er en mere praktisk og brugervenlig brugerflade, der træder i baggrunden, når du er fokuseret på at fotografere."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.15.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.15.0-1@2x.png",
+      "alt": "Frames analog foto-app med nydesignet optagerværktøjslinje",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Forbedrede animationer og ydeevne"
+    },
+    {
+      "type": "paragraph",
+      "content": "Animationerne ved justering af indstillinger er nu mere flydende og responsive. Overgange mellem kontroller føles hurtigere, og den samlede oplevelse er mærkbart hurtigere. Disse forbedringer gør optagelse af rammer mere flydende, uanset om du hurtigt dokumenterer indstillinger eller tager dig tid til at indstille præcise værdier."
+    }
+  ],
+  "improvements": [
+    "Værktøjslinjedesignet på iOS 18 er nu på linje med iOS 26 for en ensartet oplevelse",
+    "Forbedrede animationer ved visning og justering af kontrolværdier på både iOS 18 og iOS 26",
+    "Tilføjet ikoner til kamera-, objektiv-, filter- og filmtype-etiketter for lettere identifikation",
+    "Reduceret forsinkelse ved skift mellem værktøjslinjekontroller"
+  ],
+  "fixes": [],
+  "patches": [],
+  "meta_title": "Nyt værktøjslinjedesign og mere flydende oplevelse - Frames",
+  "meta_description": "Optagerens værktøjslinje får en stor opdatering med et mere praktisk layout, der holder alle dine vigtige kontroller synlige og tilgængelige."
+}

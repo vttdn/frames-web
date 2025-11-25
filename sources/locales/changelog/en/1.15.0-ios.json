@@ -1,0 +1,51 @@
+{
+  "version": "1.15.0",
+  "version_short": "1.15",
+  "url_slug": "1-15-ios",
+  "platform": "ios",
+  "release_date": "2025-11-25T10:00:00.000Z",
+  "title": "Redesigned Toolbar & Smoother Experience",
+  "summary": "The recorder toolbar gets a significant update with a more practical layout that keeps all your essential controls visible and accessible. Combined with refined animations and better performance, recording your shots now feels faster and more responsive.",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Always-Visible Toolbar Controls"
+    },
+    {
+      "type": "paragraph",
+      "content": "For iOS 18 users, the recorder toolbar now displays all your essential controls at once, bringing it in line with the layout iOS 26 users have been enjoying since the previous update. Frame number, aperture, shutter speed, exposure compensation, and flash are always visible, no more scrolling to find what you need. A dedicated button gives you quick access to additional settings when needed, keeping the interface clean while ensuring everything is within reach."
+    },
+    {
+      "type": "paragraph",
+      "content": "Whether you're on iOS 18 or iOS 26, you'll notice improved animations and better performance throughout the toolbar. The result is a more practical, easier-to-use interface that gets out of your way when you're focused on shooting."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.15.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.15.0-1@2x.png",
+      "alt": "Frames film photography app with redesigned recorder toolbar showing all controls visible",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Refined Animations and Performance"
+    },
+    {
+      "type": "paragraph",
+      "content": "The animations when adjusting settings are now smoother and more responsive. Transitions between controls feel snappier, and the overall experience is noticeably faster. These improvements make recording frames feel more fluid, whether you're quickly documenting settings or taking your time to dial in precise values."
+    }
+  ],
+  "improvements": [
+    "Brought iOS 18 toolbar design in line with iOS 26 for a consistent experience",
+    "Improved animations when displaying and adjusting control values on both iOS 18 and iOS 26",
+    "Added icons to camera, lens, filter, and film stock labels for clearer identification",
+    "Reduced lag when switching between toolbar controls"
+  ],
+  "fixes": [],
+  "patches": [],
+  "meta_title": "Redesigned Toolbar & Smoother Experience - Frames",
+  "meta_description": "The recorder toolbar gets a significant update with a more practical layout that keeps all your essential controls visible and accessible."
+}

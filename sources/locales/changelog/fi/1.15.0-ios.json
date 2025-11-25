@@ -1,0 +1,51 @@
+{
+  "version": "1.15.0",
+  "version_short": "1.15",
+  "url_slug": "1-15-ios",
+  "platform": "ios",
+  "release_date": "2025-11-25T10:00:00.000Z",
+  "title": "Uudistettu työkalupalkki ja sujuvampi käyttökokemus",
+  "summary": "Tallentimen työkalupalkki saa merkittävän päivityksen käytännöllisemmällä asettelulla, joka pitää kaikki tärkeät säätimet näkyvissä ja helposti saatavilla. Yhdistettynä hienosäädettyihin animaatioihin ja parempaan suorituskykyyn kuviesi tallentaminen tuntuu nyt nopeammalta ja reagoivammalta.",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Aina näkyvissä olevat työkalupalkin säätimet"
+    },
+    {
+      "type": "paragraph",
+      "content": "iOS 18 -käyttäjille tallentimen työkalupalkki näyttää nyt kaikki tärkeät säätimet kerralla, vastaten asettelua, josta iOS 26 -käyttäjät ovat nauttineet edellisestä päivityksestä lähtien. Kehysnumero, aukko, suljinaika, valotuksen korjaus ja salama ovat aina näkyvissä – ei enää vierittämistä löytääksesi tarvitsemasi. Erillinen painike antaa nopean pääsyn lisäasetuksiin tarvittaessa pitäen käyttöliittymän siistinä samalla kun kaikki pysyy käden ulottuvilla."
+    },
+    {
+      "type": "paragraph",
+      "content": "Käytitpä iOS 18:aa tai iOS 26:ta, huomaat parannetut animaatiot ja paremman suorituskyvyn koko työkalupalkissa. Tuloksena on käytännöllisempi ja helppokäyttöisempi käyttöliittymä, joka pysyy poissa tieltä, kun keskityt kuvaamiseen."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.15.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.15.0-1@2x.png",
+      "alt": "Frames-filmikuvasovellus uudistetulla tallentimen työkalupalkilla",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Hienosäädetyt animaatiot ja suorituskyky"
+    },
+    {
+      "type": "paragraph",
+      "content": "Animaatiot asetuksia säädettäessä ovat nyt sujuvampia ja reagoivampia. Siirtymät säätimien välillä tuntuvat nopeammilta, ja kokonaiskokemus on huomattavasti nopeampi. Nämä parannukset tekevät kehysten tallentamisesta sujuvampaa, dokumentoitpa asetuksia nopeasti tai käytätpä aikaa tarkkojen arvojen säätämiseen."
+    }
+  ],
+  "improvements": [
+    "iOS 18:n työkalupalkin ulkoasu yhtenäistettiin iOS 26:n kanssa johdonmukaisen kokemuksen takaamiseksi",
+    "Parannetut animaatiot säätöarvojen näyttämisessä ja säätämisessä sekä iOS 18:ssa että iOS 26:ssa",
+    "Lisättiin kuvakkeet kameran, objektiivin, suodattimen ja filmityypin tunnisteisiin selkeämpää tunnistusta varten",
+    "Vähennetty viivettä työkalupalkin säätimien välillä vaihdettaessa"
+  ],
+  "fixes": [],
+  "patches": [],
+  "meta_title": "Uudistettu työkalupalkki ja sujuvampi käyttökokemus - Frames",
+  "meta_description": "Tallentimen työkalupalkki saa merkittävän päivityksen käytännöllisemmällä asettelulla, joka pitää kaikki tärkeät säätimet näkyvissä ja helposti saatavilla."
+}

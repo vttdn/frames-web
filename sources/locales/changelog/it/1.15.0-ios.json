@@ -1,0 +1,51 @@
+{
+  "version": "1.15.0",
+  "version_short": "1.15",
+  "url_slug": "1-15-ios",
+  "platform": "ios",
+  "release_date": "2025-11-25T10:00:00.000Z",
+  "title": "Barra degli strumenti ridisegnata ed esperienza più fluida",
+  "summary": "La barra degli strumenti del registratore riceve un aggiornamento significativo con un layout più pratico che mantiene tutti i controlli essenziali visibili e accessibili. Combinato con animazioni perfezionate e prestazioni migliori, registrare i tuoi scatti ora risulta più veloce e reattivo.",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Controlli della barra degli strumenti sempre visibili"
+    },
+    {
+      "type": "paragraph",
+      "content": "Per gli utenti iOS 18, la barra degli strumenti del registratore ora mostra tutti i controlli essenziali contemporaneamente, allineandosi al layout di cui gli utenti iOS 26 beneficiano dall'aggiornamento precedente. Numero di fotogramma, apertura, tempo di scatto, compensazione dell'esposizione e flash sono sempre visibili – non è più necessario scorrere per trovare ciò che serve. Un pulsante dedicato offre accesso rapido alle impostazioni aggiuntive quando necessario, mantenendo l'interfaccia pulita mentre tutto resta a portata di mano."
+    },
+    {
+      "type": "paragraph",
+      "content": "Che tu stia usando iOS 18 o iOS 26, noterai animazioni migliorate e prestazioni superiori in tutta la barra degli strumenti. Il risultato è un'interfaccia più pratica e facile da usare che si fa da parte quando sei concentrato sullo scatto."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.15.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.15.0-1@2x.png",
+      "alt": "App di fotografia analogica Frames con barra degli strumenti del registratore ridisegnata",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Animazioni e prestazioni perfezionate"
+    },
+    {
+      "type": "paragraph",
+      "content": "Le animazioni durante la regolazione delle impostazioni sono ora più fluide e reattive. Le transizioni tra i controlli risultano più rapide, e l'esperienza complessiva è notevolmente più veloce. Questi miglioramenti rendono la registrazione dei fotogrammi più fluida, sia che tu stia documentando rapidamente le impostazioni sia che ti stia prendendo il tempo per impostare valori precisi."
+    }
+  ],
+  "improvements": [
+    "Il design della barra degli strumenti di iOS 18 è stato allineato a iOS 26 per un'esperienza coerente",
+    "Animazioni migliorate durante la visualizzazione e regolazione dei valori di controllo su iOS 18 e iOS 26",
+    "Aggiunte icone alle etichette di fotocamera, obiettivo, filtro e tipo di pellicola per un'identificazione più chiara",
+    "Ridotto il ritardo nel passaggio tra i controlli della barra degli strumenti"
+  ],
+  "fixes": [],
+  "patches": [],
+  "meta_title": "Barra degli strumenti ridisegnata ed esperienza più fluida - Frames",
+  "meta_description": "La barra degli strumenti del registratore riceve un aggiornamento significativo con un layout più pratico che mantiene tutti i controlli essenziali visibili e accessibili."
+}

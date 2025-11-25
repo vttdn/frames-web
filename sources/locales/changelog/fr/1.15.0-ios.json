@@ -1,0 +1,51 @@
+{
+  "version": "1.15.0",
+  "version_short": "1.15",
+  "url_slug": "1-15-ios",
+  "platform": "ios",
+  "release_date": "2025-11-25T10:00:00.000Z",
+  "title": "Barre d'outils repensée et expérience plus fluide",
+  "summary": "La barre d'outils de l'enregistreur bénéficie d'une mise à jour importante avec une disposition plus pratique qui garde tous vos contrôles essentiels visibles et accessibles. Combiné à des animations affinées et de meilleures performances, l'enregistrement de vos prises de vue est désormais plus rapide et réactif.",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Contrôles de barre d'outils toujours visibles"
+    },
+    {
+      "type": "paragraph",
+      "content": "Pour les utilisateurs d'iOS 18, la barre d'outils de l'enregistreur affiche désormais tous vos contrôles essentiels en même temps, s'alignant sur la disposition dont profitent les utilisateurs d'iOS 26 depuis la mise à jour précédente. Le numéro de vue, l'ouverture, la vitesse d'obturation, la compensation d'exposition et le flash sont toujours visibles, plus besoin de faire défiler pour trouver ce dont vous avez besoin. Un bouton dédié vous donne un accès rapide aux paramètres supplémentaires si nécessaire, gardant l'interface épurée tout en garantissant que tout est à portée de main."
+    },
+    {
+      "type": "paragraph",
+      "content": "Que vous soyez sur iOS 18 ou iOS 26, vous remarquerez des animations améliorées et de meilleures performances dans toute la barre d'outils. Le résultat est une interface plus pratique et plus facile à utiliser qui s'efface quand vous êtes concentré sur la prise de vue."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.15.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.15.0-1@2x.png",
+      "alt": "Application de photographie argentique Frames avec barre d'outils de l'enregistreur repensée",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Animations et performances affinées"
+    },
+    {
+      "type": "paragraph",
+      "content": "Les animations lors de l'ajustement des paramètres sont désormais plus fluides et plus réactives. Les transitions entre les contrôles sont plus rapides, et l'expérience globale est sensiblement plus rapide. Ces améliorations rendent l'enregistrement des frames plus fluide, que vous documentiez rapidement les réglages ou que vous preniez votre temps pour ajuster des valeurs précises."
+    }
+  ],
+  "improvements": [
+    "Alignement de la conception de la barre d'outils iOS 18 sur iOS 26 pour une expérience cohérente",
+    "Animations améliorées lors de l'affichage et de l'ajustement des valeurs de contrôle sur iOS 18 et iOS 26",
+    "Ajout d'icônes aux libellés d'appareil photo, d'objectif, de filtre et de pellicule pour une identification plus claire",
+    "Réduction de la latence lors du basculement entre les contrôles de la barre d'outils"
+  ],
+  "fixes": [],
+  "patches": [],
+  "meta_title": "Barre d'outils repensée et expérience plus fluide - Frames",
+  "meta_description": "La barre d'outils de l'enregistreur bénéficie d'une mise à jour importante avec une disposition plus pratique qui garde tous vos contrôles essentiels visibles et accessibles."
+}

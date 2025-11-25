@@ -1,0 +1,51 @@
+{
+  "version": "1.15.0",
+  "version_short": "1.15",
+  "url_slug": "1-15-ios",
+  "platform": "ios",
+  "release_date": "2025-11-25T10:00:00.000Z",
+  "title": "Barra de ferramentas redesenhada e experiência mais fluida",
+  "summary": "A barra de ferramentas do gravador recebe uma atualização significativa com um layout mais prático que mantém todos os controlos essenciais visíveis e acessíveis. Combinado com animações refinadas e melhor desempenho, gravar as suas fotos agora é mais rápido e responsivo.",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Controlos da barra de ferramentas sempre visíveis"
+    },
+    {
+      "type": "paragraph",
+      "content": "Para utilizadores de iOS 18, a barra de ferramentas do gravador agora mostra todos os controlos essenciais de uma vez, alinhando-se com o layout que os utilizadores de iOS 26 têm desfrutado desde a atualização anterior. Número de fotograma, abertura, velocidade do obturador, compensação de exposição e flash estão sempre visíveis – não é preciso fazer scroll para encontrar o que precisa. Um botão dedicado dá-lhe acesso rápido a definições adicionais quando necessário, mantendo a interface limpa enquanto tudo permanece ao alcance."
+    },
+    {
+      "type": "paragraph",
+      "content": "Quer esteja no iOS 18 ou iOS 26, vai notar animações melhoradas e melhor desempenho em toda a barra de ferramentas. O resultado é uma interface mais prática e fácil de usar que se mantém discreta quando está focado em fotografar."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.15.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.15.0-1@2x.png",
+      "alt": "Aplicação de fotografia analógica Frames com barra de ferramentas do gravador redesenhada",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Animações e desempenho refinados"
+    },
+    {
+      "type": "paragraph",
+      "content": "As animações ao ajustar definições são agora mais suaves e responsivas. As transições entre controlos são mais rápidas, e a experiência geral é notavelmente mais rápida. Estas melhorias tornam a gravação de fotogramas mais fluida, quer esteja a documentar definições rapidamente ou a dedicar tempo para ajustar valores precisos."
+    }
+  ],
+  "improvements": [
+    "O design da barra de ferramentas do iOS 18 foi alinhado com o iOS 26 para uma experiência consistente",
+    "Animações melhoradas ao mostrar e ajustar valores de controlo no iOS 18 e iOS 26",
+    "Adicionados ícones às etiquetas de câmara, objetiva, filtro e tipo de película para identificação mais clara",
+    "Reduzido o atraso ao alternar entre controlos da barra de ferramentas"
+  ],
+  "fixes": [],
+  "patches": [],
+  "meta_title": "Barra de ferramentas redesenhada e experiência mais fluida - Frames",
+  "meta_description": "A barra de ferramentas do gravador recebe uma atualização significativa com um layout mais prático que mantém todos os controlos essenciais visíveis e acessíveis."
+}

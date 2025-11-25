@@ -1,0 +1,23 @@
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Inicio",
+      "item": "https://withframes.com/es/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Changelog",
+      "item": "https://withframes.com/es/changelog/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Barra de herramientas rediseñada y experiencia más fluida",
+      "item": "https://withframes.com/es/changelog/1-15-ios/"
+    }  ]
+}

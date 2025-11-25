@@ -1,0 +1,51 @@
+{
+  "version": "1.15.0",
+  "version_short": "1.15",
+  "url_slug": "1-15-ios",
+  "platform": "ios",
+  "release_date": "2025-11-25T10:00:00.000Z",
+  "title": "Przeprojektowany pasek narzędzi i płynniejsze działanie",
+  "summary": "Pasek narzędzi rejestratora otrzymuje znaczącą aktualizację z bardziej praktycznym układem, który utrzymuje wszystkie niezbędne elementy sterowania widoczne i dostępne. W połączeniu z dopracowanymi animacjami i lepszą wydajnością, rejestrowanie zdjęć jest teraz szybsze i bardziej responsywne.",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Zawsze widoczne elementy sterowania"
+    },
+    {
+      "type": "paragraph",
+      "content": "Dla użytkowników iOS 18 pasek narzędzi rejestratora wyświetla teraz wszystkie niezbędne elementy sterowania jednocześnie, dopasowując się do układu, z którego użytkownicy iOS 26 korzystają od poprzedniej aktualizacji. Numer klatki, przysłona, czas naświetlania, kompensacja ekspozycji i lampa błyskowa są zawsze widoczne – koniec z przewijaniem w poszukiwaniu potrzebnych opcji. Dedykowany przycisk zapewnia szybki dostęp do dodatkowych ustawień w razie potrzeby, utrzymując interfejs w czystości, podczas gdy wszystko pozostaje w zasięgu ręki."
+    },
+    {
+      "type": "paragraph",
+      "content": "Niezależnie od tego, czy używasz iOS 18 czy iOS 26, zauważysz ulepszone animacje i lepszą wydajność w całym pasku narzędzi. Rezultatem jest bardziej praktyczny i łatwiejszy w użyciu interfejs, który nie przeszkadza, gdy koncentrujesz się na fotografowaniu."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.15.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.15.0-1@2x.png",
+      "alt": "Aplikacja do fotografii analogowej Frames z przeprojektowanym paskiem narzędzi rejestratora",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Dopracowane animacje i wydajność"
+    },
+    {
+      "type": "paragraph",
+      "content": "Animacje podczas dostosowywania ustawień są teraz płynniejsze i bardziej responsywne. Przejścia między elementami sterowania są szybsze, a ogólne wrażenia są zauważalnie lepsze. Te ulepszenia sprawiają, że rejestrowanie klatek jest płynniejsze, niezależnie od tego, czy szybko dokumentujesz ustawienia, czy poświęcasz czas na ustawienie precyzyjnych wartości."
+    }
+  ],
+  "improvements": [
+    "Wygląd paska narzędzi iOS 18 został ujednolicony z iOS 26 dla spójnego doświadczenia",
+    "Ulepszone animacje podczas wyświetlania i dostosowywania wartości sterowania na iOS 18 i iOS 26",
+    "Dodano ikony do etykiet aparatu, obiektywu, filtra i typu filmu dla łatwiejszej identyfikacji",
+    "Zmniejszone opóźnienie podczas przełączania między elementami sterowania paska narzędzi"
+  ],
+  "fixes": [],
+  "patches": [],
+  "meta_title": "Przeprojektowany pasek narzędzi i płynniejsze działanie - Frames",
+  "meta_description": "Pasek narzędzi rejestratora otrzymuje znaczącą aktualizację z bardziej praktycznym układem, który utrzymuje wszystkie niezbędne elementy sterowania widoczne i dostępne."
+}
