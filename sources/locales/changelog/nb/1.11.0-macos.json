@@ -1,0 +1,52 @@
+{
+  "version": "1.11.0",
+  "version_short": "1.11",
+  "url_slug": "1-11-macos",
+  "platform": "macos",
+  "release_date": "2025-11-29T10:00:00.000Z",
+  "title": "Livstidskjøpsalternativ og samlet prissetting",
+  "meta_title": "Livstidskjøpsalternativ og samlet prissetting - Frames",
+  "meta_description": "Nytt engangskjøpsalternativ for livstidstilgang. macOS-appen er nå inkludert i iOS-abonnementet uten ekstra kostnad. Forenklet prissetting som gir deg valget mellom abonnement eller permanent eierskap.",
+  "summary": "Velg hvordan du vil eie Frames med et nytt livstidskjøpsalternativ. Mac-appen er nå inkludert i iOS-abonnementet ditt uten ekstra kostnad, noe som gjør alt enklere og mer fleksibelt.",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Prissetting som passer deg"
+    },
+    {
+      "type": "paragraph",
+      "content": "Etter å ha lyttet til analog fotografifellesskapet på Reddit, ble det klart at mange av dere ønsket muligheten til å eie appen permanent i stedet for å abonnere. Jeg forstår det, det er noe betryggende ved et engangskjøp som er ditt for alltid. Så jeg har lagt til en livstidsplan som inkluderer alle nåværende funksjoner og Mac-appen. Den er din permanent, uten utløp."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-mac-1.11.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-mac-1.11.0-1@2x.png",
+      "alt": "Apple kjøpsikon som representerer det nye livstidsplanalternativet for Frames filmfotografiapp",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "paragraph",
+      "content": "Samtidig har Mac-appen ikke lenger sitt eget separate abonnement. I stedet er den nå inkludert i iOS-abonnementet ditt uten ekstra kostnad. Dette gjør ting klarere og mer rettferdig—ett abonnement gir deg tilgang til begge appene. Enten du foretrekker å abonnere eller kjøpe én gang, er valget ditt. Begge alternativene gir deg den fullstendige Frames-opplevelsen på iPhone og Mac."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Forbedringer av sidefeltet"
+    },
+    {
+      "type": "paragraph",
+      "content": "Sidefeltet er oppdatert med forbedrede farger som gir bedre kontrast, noe som gjør det lettere å lese og navigere i filmmetadataene dine. En liten endring, men den gjør en merkbar forskjell når du jobber med arkivet ditt."
+    }
+  ],
+  "improvements": [
+    "Lagt til livstidskjøpsalternativ for permanent eierskap av alle funksjoner",
+    "Mac-appen er nå inkludert i iOS-abonnementet uten ekstra kostnad",
+    "Fjernet separat macOS-abonnement for enklere, samlet prissetting",
+    "Forbedrede farger i sidefeltet for bedre kontrast og lesbarhet",
+    "Mindre grensesnittforbedringer"
+  ],
+  "fixes": [],
+  "patches": []
+}

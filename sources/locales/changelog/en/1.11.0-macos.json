@@ -1,0 +1,52 @@
+{
+  "version": "1.11.0",
+  "version_short": "1.11",
+  "url_slug": "1-11-macos",
+  "platform": "macos",
+  "release_date": "2025-11-29T10:00:00.000Z",
+  "title": "Lifetime Purchase Option & Unified Pricing",
+  "meta_title": "Lifetime Purchase Option & Unified Pricing - Frames",
+  "meta_description": "New one-time purchase option for lifetime access. macOS app now included with iOS subscription at no extra cost. Simplified pricing that gives you the choice between subscription or permanent ownership.",
+  "summary": "Choose how you want to own Frames with a new lifetime purchase option. The Mac app is now included with your iOS subscription at no extra cost, making everything simpler and more flexible.",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Pricing That Works For You"
+    },
+    {
+      "type": "paragraph",
+      "content": "After hearing from the analog photography community on Reddit, it became clear that many of you wanted the option to own the app outright rather than subscribe. I get it, there's something reassuring about a one-time purchase that's yours forever. So I've added a lifetime plan that includes all current features and the Mac app. It's yours permanently, no expiration."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-mac-1.11.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-mac-1.11.0-1@2x.png",
+      "alt": "Apple purchase icon representing the new Frames film photography app lifetime plan option",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "paragraph",
+      "content": "At the same time, the Mac app no longer has its own separate subscription. Instead, it's now included with your iOS subscription at no extra cost. This makes things clearer and fairer, one subscription gets you both apps. Whether you prefer subscribing or buying once, the choice is yours. Both options give you the full Frames experience across iPhone and Mac."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Sidebar Polish"
+    },
+    {
+      "type": "paragraph",
+      "content": "The sidebar has been updated with improved colors that provide better contrast, making it easier to read and navigate your film metadata. Small change, but it makes a noticeable difference when you're working through your archive."
+    }
+  ],
+  "improvements": [
+    "Added lifetime purchase option for permanent ownership of all features",
+    "Mac app now included with iOS subscription at no extra cost",
+    "Removed separate macOS subscription for simpler, unified pricing",
+    "Improved sidebar colors for better contrast and readability",
+    "Minor interface refinements"
+  ],
+  "fixes": [],
+  "patches": []
+}

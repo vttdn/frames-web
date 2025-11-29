@@ -1,0 +1,52 @@
+{
+  "version": "1.11.0",
+  "version_short": "1.11",
+  "url_slug": "1-11-macos",
+  "platform": "macos",
+  "release_date": "2025-11-29T10:00:00.000Z",
+  "title": "Livstidsköpsalternativ och enhetlig prissättning",
+  "meta_title": "Livstidsköpsalternativ och enhetlig prissättning - Frames",
+  "meta_description": "Nytt engångsköpsalternativ för livstidsåtkomst. macOS-appen ingår nu i iOS-prenumerationen utan extra kostnad. Förenklad prissättning som ger dig valet mellan prenumeration eller permanent ägarskap.",
+  "summary": "Välj hur du vill äga Frames med ett nytt livstidsköpsalternativ. Mac-appen ingår nu i din iOS-prenumeration utan extra kostnad, vilket gör allt enklare och mer flexibelt.",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Prissättning som passar dig"
+    },
+    {
+      "type": "paragraph",
+      "content": "Efter att ha lyssnat på analog fotografigemenskap på Reddit blev det tydligt att många av er ville ha alternativet att äga appen permanent istället för att prenumerera. Jag förstår det, det finns något lugnande med ett engångsköp som är ditt för alltid. Så jag har lagt till en livstidsplan som inkluderar alla nuvarande funktioner och Mac-appen. Den är din permanent, utan utgångsdatum."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-mac-1.11.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-mac-1.11.0-1@2x.png",
+      "alt": "Apple köpikon som representerar det nya livstidsplansalternativet för Frames filmfotografiapp",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "paragraph",
+      "content": "Samtidigt har Mac-appen inte längre sin egen separata prenumeration. Istället ingår den nu i din iOS-prenumeration utan extra kostnad. Detta gör saker och ting tydligare och rättvisare—en prenumeration ger dig tillgång till båda apparna. Oavsett om du föredrar att prenumerera eller köpa en gång, valet är ditt. Båda alternativen ger dig den fullständiga Frames-upplevelsen på iPhone och Mac."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Förbättringar av sidofältet"
+    },
+    {
+      "type": "paragraph",
+      "content": "Sidofältet har uppdaterats med förbättrade färger som ger bättre kontrast, vilket gör det enklare att läsa och navigera i din filmmetadata. En liten förändring, men den gör märkbar skillnad när du arbetar med ditt arkiv."
+    }
+  ],
+  "improvements": [
+    "Lagt till livstidsköpsalternativ för permanent ägarskap av alla funktioner",
+    "Mac-appen ingår nu i iOS-prenumerationen utan extra kostnad",
+    "Tagit bort separat macOS-prenumeration för enklare, enhetlig prissättning",
+    "Förbättrade färger i sidofältet för bättre kontrast och läsbarhet",
+    "Små gränssnittsförbättringar"
+  ],
+  "fixes": [],
+  "patches": []
+}
