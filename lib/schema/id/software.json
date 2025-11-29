@@ -1,10 +1,8 @@
 {
       "@context": "https://schema.org",
-      "@graph": [
-        {
-          "@type": "MobileApplication",
+      "@type": "MobileApplication",
           "@id": "https://withframes.com/#frames-ios",
-          "name": "Frames iOS",
+          "name": "Frames",
           "operatingSystem": "iOS 18.0",
           "applicationCategory": "LifestyleApplication",
           "applicationSubCategory": "Photography",
@@ -33,24 +31,24 @@
             {
               "@type": "Offer",
               "name": "Langganan bulanan",
-              "price": "29000",
+              "price": "49000",
               "priceCurrency": "IDR",
               "availability": "https://schema.org/InStock",
               "priceSpecification": {
                 "@type": "PriceSpecification",
-                "price": "29000",
+                "price": "49000",
                 "priceCurrency": "IDR"
               }
             },
             {
               "@type": "Offer",
               "name": "Langganan tahunan",
-              "price": "299000",
+              "price": "349000",
               "priceCurrency": "IDR",
               "availability": "https://schema.org/InStock",
               "priceSpecification": {
                 "@type": "PriceSpecification",
-                "price": "299000",
+                "price": "349000",
                 "priceCurrency": "IDR"
               }
             }
@@ -58,7 +56,7 @@
           "aggregateRating": {
             "@type": "AggregateRating",
             "ratingValue": "5",
-            "reviewCount": "7"
+            "reviewCount": "9"
           },
           "review": [
             {
@@ -151,63 +149,7 @@
                 "bestRating": "5",
                 "worstRating": "1"
             }
-            }
-          ]
-        },
-        {
-          "@type": "SoftwareApplication",
-          "@id": "https://withframes.com/#frames-macos",
-          "name": "Frames macOS",
-          "operatingSystem": "macOS 15.0",
-          "applicationCategory": "LifestyleApplication",
-          "applicationSubCategory": "Photography",
-          "publisher": { "@id": "https://withframes.com/#organization" },
-          "description": "Aplikasi fotografi film untuk fotografer analog. Lacak pengaturan kamera, atur rol, dan sisipkan metadata EXIF ke gambar scan. Uji coba gratis untuk iPhone.",
-          "image": [
-            "https://withframes.com/lib/img/shared/software/frames-logo.png",
-            "https://withframes.com/lib/img/shared/software/macos/screenshot-1.png",
-            "https://withframes.com/lib/img/shared/software/macos/screenshot-2.png",
-            "https://withframes.com/lib/img/shared/software/macos/screenshot-3.png"
-          ],
-          "url": "https://withframes.com/id",
-          "installUrl": "https://apps.apple.com/id/app/frames-metadata-foto/id6744063354?l=id",
-          "softwareVersion": "1.10.0",
-          "releaseNotes": "https://withframes.com/id/changelog/1-10-macos/",
-          "contentRating": "4+",
-          "isAccessibleForFree": true,
-          "mainEntity": {
-            "@type": "WebPage",
-            "@id": "https://withframes.com/id"
-          },
-          "inLanguage": "id",
-          "keywords": "fotografi,catatan,analog,film,rol,negatif,buku,exif,metadata,kamera,35mm,gambar,scan,filmfoto,shot,foto,aplikasi,iOS,iPhone,Mac",
-          "offers": [
-            {
-              "@type": "Offer",
-              "name": "Langganan bulanan",
-              "price": "29000",
-              "priceCurrency": "IDR",
-              "availability": "https://schema.org/InStock",
-              "priceSpecification": {
-                "@type": "PriceSpecification",
-                "price": "29000",
-                "priceCurrency": "IDR"
-              }
             },
-            {
-              "@type": "Offer",
-              "name": "Langganan tahunan",
-              "price": "299000",
-              "priceCurrency": "IDR",
-              "availability": "https://schema.org/InStock",
-              "priceSpecification": {
-                "@type": "PriceSpecification",
-                "price": "299000",
-                "priceCurrency": "IDR"
-              }
-            }
-          ],
-          "review": [
             {
             "@type": "Review",
             "author": { "@type": "Person", "name": "BHenriquez" },
@@ -234,12 +176,5 @@
                 "worstRating": "1"
             }
             }
-          ],
-          "aggregateRating": {
-            "@type": "AggregateRating",
-            "ratingValue": "5",
-            "reviewCount": "2"
-          }
-        }
-      ]
+          ]
     }

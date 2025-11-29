@@ -1,0 +1,30 @@
+pip3 install pillow
+pip3 install jinja2
+pip3 install htmlmin
+pip3 install rjsmin
+
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+brew install node
+npm install --save-dev postcss cssnano lightningcss
+
+vscode livesasscompiler config:
+{
+    "liveSassCompile.settings.formats": [
+        {
+            "format": "compressed",        // minified CSS
+            "extensionName": ".css",
+            "savePath": "/lib/css",        // relative to workspace root
+            "savePathReplacementPairs": null
+        }
+    ],
+    "liveSassCompile.settings.includeItems": [
+        "sources/scss/**/*.scss"          // which SCSS files to compile
+    ],
+    "liveSassCompile.settings.autoprefix": [
+        "> 1%", 
+        "last 2 versions"
+    ],
+    "liveSassCompile.settings.generateMap": false   // optional: disable source maps if you want
+}
+
+python3 -m http.server 8000

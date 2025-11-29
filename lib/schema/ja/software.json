@@ -1,10 +1,8 @@
 {
       "@context": "https://schema.org",
-      "@graph": [
-        {
-          "@type": "MobileApplication",
+      "@type": "MobileApplication",
           "@id": "https://withframes.com/#frames-ios",
-          "name": "Frames iOS",
+          "name": "Frames",
           "operatingSystem": "iOS 18.0",
           "applicationCategory": "LifestyleApplication",
           "applicationSubCategory": "Photography",
@@ -33,12 +31,12 @@
             {
               "@type": "Offer",
               "name": "月額サブスクリプション",
-              "price": "300",
+              "price": "500",
               "priceCurrency": "JPY",
               "availability": "https://schema.org/InStock",
               "priceSpecification": {
                 "@type": "PriceSpecification",
-                "price": "300",
+                "price": "500",
                 "priceCurrency": "JPY"
               }
             },
@@ -58,7 +56,7 @@
           "aggregateRating": {
             "@type": "AggregateRating",
             "ratingValue": "5",
-            "reviewCount": "7"
+            "reviewCount": "9"
           },
           "review": [
             {
@@ -151,63 +149,7 @@
                 "bestRating": "5",
                 "worstRating": "1"
             }
-            }
-          ]
-        },
-        {
-          "@type": "SoftwareApplication",
-          "@id": "https://withframes.com/#frames-macos",
-          "name": "Frames macOS",
-          "operatingSystem": "macOS 15.0",
-          "applicationCategory": "LifestyleApplication",
-          "applicationSubCategory": "Photography",
-          "publisher": { "@id": "https://withframes.com/#organization" },
-          "description": "アナログ写真家向けフィルム写真アプリ。カメラ設定を記録、ロールを整理、スキャン画像にEXIFメタデータを埋め込み。iPhone & Mac無料トライアル。",
-          "image": [
-            "https://withframes.com/lib/img/shared/software/frames-logo.png",
-            "https://withframes.com/lib/img/shared/software/macos/screenshot-1.png",
-            "https://withframes.com/lib/img/shared/software/macos/screenshot-2.png",
-            "https://withframes.com/lib/img/shared/software/macos/screenshot-3.png"
-          ],
-          "url": "https://withframes.com/ja",
-          "installUrl": "https://apps.apple.com/jp/app/frames-フィルム写真メタデータ/id6744063354",
-          "softwareVersion": "1.10.0",
-          "releaseNotes": "https://withframes.com/ja/changelog/1-10-macos/",
-          "contentRating": "4+",
-          "isAccessibleForFree": true,
-          "mainEntity": {
-            "@type": "WebPage",
-            "@id": "https://withframes.com/ja"
-          },
-          "inLanguage": "ja",
-          "keywords": "写真,メモ,アナログ,フィルム,ロール,ネガ,ノート,EXIF,メタデータ,カメラ,35mm,画像,スキャン,フィルム写真,フィルムカメラ,撮影記録,手帳,現像写真,混合現像,レンズ,120mm,アプリ,アプリケーション,iOS,iPhone,Mac",
-          "offers": [
-            {
-              "@type": "Offer",
-              "name": "月額サブスクリプション",
-              "price": "300",
-              "priceCurrency": "JPY",
-              "availability": "https://schema.org/InStock",
-              "priceSpecification": {
-                "@type": "PriceSpecification",
-                "price": "300",
-                "priceCurrency": "JPY"
-              }
             },
-            {
-              "@type": "Offer",
-              "name": "年額サブスクリプション",
-              "price": "3000",
-              "priceCurrency": "JPY",
-              "availability": "https://schema.org/InStock",
-              "priceSpecification": {
-                "@type": "PriceSpecification",
-                "price": "3000",
-                "priceCurrency": "JPY"
-              }
-            }
-          ],
-          "review": [
             {
             "@type": "Review",
             "author": { "@type": "Person", "name": "BHenriquez" },
@@ -234,12 +176,5 @@
                 "worstRating": "1"
             }
             }
-          ],
-          "aggregateRating": {
-            "@type": "AggregateRating",
-            "ratingValue": "5",
-            "reviewCount": "2"
-          }
-        }
-      ]
+          ]
     }

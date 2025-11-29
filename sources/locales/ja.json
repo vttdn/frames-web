@@ -243,33 +243,27 @@
     "label_subscription_monthly": "月額サブスクリプション",
     "label_subscription_yearly": "年額サブスクリプション",
     "currency": "JPY",
+    "or": "または",
+    "plan_type": {
+      "subscription": "サブスクリプション",
+      "lifetime": "永久アクセス"
+    },
     "ios": {
       "title": "iOS",
-      "price": "¥300",
+      "price": "¥500",
       "price_yearly": "¥3,000",
+      "price_lifetime": "¥8,000",
       "period": "/月",
       "period_yearly": "/年",
-      "price_value_monthly": "300",
+      "price_value_monthly": "500",
       "price_value_yearly": "3000",
+      "price_value_lifetime": "8000",
       "includes_label": "含まれる機能:",
       "features": [
         "無制限のフィルムロール",
         "サブフォルダ",
         ".framesでデータエクスポート",
-        ".txtまたは.gpxでデータエクスポート"
-      ],
-      "button_text": "無料で試す"
-    },
-    "macos": {
-      "title": "macOS",
-      "price": "¥300",
-      "price_yearly": "¥3,000",
-      "period": "/月",
-      "period_yearly": "/年",
-      "price_value_monthly": "300",
-      "price_value_yearly": "3000",
-      "includes_label": "含まれる機能:",
-      "features": [
+        ".txtまたは.gpxでデータエクスポート",
         "写真にメタデータを保存"
       ],
       "button_text": "無料で試す"

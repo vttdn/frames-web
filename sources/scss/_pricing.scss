@@ -34,10 +34,10 @@
 //     }
 // }
 
-.price-yearly,
-.price-period-yearly {
-        display: none;
-    }
+// .price-yearly,
+// .price-period-yearly {
+//         display: none;
+//     }
 
 .yearly {
     .price,
@@ -48,6 +48,12 @@
     .price-period-yearly {
         display: inline-block;
     }
+}
+
+.pricing-or {
+    display: inline-block;
+    font-size: var(--font-size-sm);
+    margin: 0 0.25rem;
 }
 
 .pricing-amount,

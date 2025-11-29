@@ -1,10 +1,8 @@
 {
       "@context": "https://schema.org",
-      "@graph": [
-        {
-          "@type": "MobileApplication",
+      "@type": "MobileApplication",
           "@id": "https://withframes.com/#frames-ios",
-          "name": "Frames iOS",
+          "name": "Frames",
           "operatingSystem": "iOS 18.0",
           "applicationCategory": "LifestyleApplication",
           "applicationSubCategory": "Photography",
@@ -33,24 +31,24 @@
             {
               "@type": "Offer",
               "name": "Månedligt abonnement",
-              "price": "19",
+              "price": "29",
               "priceCurrency": "DKK",
               "availability": "https://schema.org/InStock",
               "priceSpecification": {
                 "@type": "PriceSpecification",
-                "price": "19",
+                "price": "29",
                 "priceCurrency": "DKK"
               }
             },
             {
               "@type": "Offer",
               "name": "Årligt abonnement",
-              "price": "149",
+              "price": "179",
               "priceCurrency": "DKK",
               "availability": "https://schema.org/InStock",
               "priceSpecification": {
                 "@type": "PriceSpecification",
-                "price": "149",
+                "price": "179",
                 "priceCurrency": "DKK"
               }
             }
@@ -58,7 +56,7 @@
           "aggregateRating": {
             "@type": "AggregateRating",
             "ratingValue": "5",
-            "reviewCount": "7"
+            "reviewCount": "9"
           },
           "review": [
             {
@@ -151,63 +149,7 @@
                 "bestRating": "5",
                 "worstRating": "1"
             }
-            }
-          ]
-        },
-        {
-          "@type": "SoftwareApplication",
-          "@id": "https://withframes.com/#frames-macos",
-          "name": "Frames macOS",
-          "operatingSystem": "macOS 15.0",
-          "applicationCategory": "LifestyleApplication",
-          "applicationSubCategory": "Photography",
-          "publisher": { "@id": "https://withframes.com/#organization" },
-          "description": "Filmfotografi-app til analoge fotografer. Registrer kameraindstillinger, organiser ruller og integrer EXIF-metadata i scannede billeder. Gratis prøveperiode.",
-          "image": [
-            "https://withframes.com/lib/img/shared/software/frames-logo.png",
-            "https://withframes.com/lib/img/shared/software/macos/screenshot-1.png",
-            "https://withframes.com/lib/img/shared/software/macos/screenshot-2.png",
-            "https://withframes.com/lib/img/shared/software/macos/screenshot-3.png"
-          ],
-          "url": "https://withframes.com/da",
-          "installUrl": "https://apps.apple.com/dk/app/frames-filmmetadata/id6744063354?l=da",
-          "softwareVersion": "1.10.0",
-          "releaseNotes": "https://withframes.com/da/changelog/1-10-macos/",
-          "contentRating": "4+",
-          "isAccessibleForFree": true,
-          "mainEntity": {
-            "@type": "WebPage",
-            "@id": "https://withframes.com/da"
-          },
-          "inLanguage": "da",
-          "keywords": "fotografi,noter,analog,film,rolle,negativ,notesbog,exif,metadata,kamera,35mm,billede,scan,filmfoto,foto,app,applikation,iOS,iPhone,Mac",
-          "offers": [
-            {
-              "@type": "Offer",
-              "name": "Månedligt abonnement",
-              "price": "19",
-              "priceCurrency": "DKK",
-              "availability": "https://schema.org/InStock",
-              "priceSpecification": {
-                "@type": "PriceSpecification",
-                "price": "19",
-                "priceCurrency": "DKK"
-              }
             },
-            {
-              "@type": "Offer",
-              "name": "Årligt abonnement",
-              "price": "149",
-              "priceCurrency": "DKK",
-              "availability": "https://schema.org/InStock",
-              "priceSpecification": {
-                "@type": "PriceSpecification",
-                "price": "149",
-                "priceCurrency": "DKK"
-              }
-            }
-          ],
-          "review": [
             {
             "@type": "Review",
             "author": { "@type": "Person", "name": "BHenriquez" },
@@ -234,12 +176,5 @@
                 "worstRating": "1"
             }
             }
-          ],
-          "aggregateRating": {
-            "@type": "AggregateRating",
-            "ratingValue": "5",
-            "reviewCount": "2"
-          }
-        }
-      ]
+          ]
     }

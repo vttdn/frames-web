@@ -1,10 +1,8 @@
 {
       "@context": "https://schema.org",
-      "@graph": [
-        {
-          "@type": "MobileApplication",
+      "@type": "MobileApplication",
           "@id": "https://withframes.com/#frames-ios",
-          "name": "{{ ios_appname }}",
+          "name": "Frames",
           "operatingSystem": "iOS 18.0",
           "applicationCategory": "LifestyleApplication",
           "applicationSubCategory": "Photography",
@@ -58,7 +56,7 @@
           "aggregateRating": {
             "@type": "AggregateRating",
             "ratingValue": "5",
-            "reviewCount": "7"
+            "reviewCount": "9"
           },
           "review": [
             {
@@ -151,63 +149,7 @@
                 "bestRating": "5",
                 "worstRating": "1"
             }
-            }
-          ]
-        },
-        {
-          "@type": "SoftwareApplication",
-          "@id": "https://withframes.com/#frames-macos",
-          "name": "{{ mac_appname }}",
-          "operatingSystem": "macOS 15.0",
-          "applicationCategory": "LifestyleApplication",
-          "applicationSubCategory": "Photography",
-          "publisher": { "@id": "https://withframes.com/#organization" },
-          "description": "{{ seo_meta_description }}",
-          "image": [
-            "https://withframes.com/lib/img/shared/software/frames-logo.png",
-            "https://withframes.com/lib/img/shared/software/macos/screenshot-1.png",
-            "https://withframes.com/lib/img/shared/software/macos/screenshot-2.png",
-            "https://withframes.com/lib/img/shared/software/macos/screenshot-3.png"
-          ],
-          "url": "{{ canonical_url }}",
-          "installUrl": "{{ macappstore_url }}",
-          "softwareVersion": "{{ app_version_macos }}",
-          "releaseNotes": "{{ canonical_url }}/changelog/1-10-macos/",
-          "contentRating": "4+",
-          "isAccessibleForFree": true,
-          "mainEntity": {
-            "@type": "WebPage",
-            "@id": "{{ canonical_url }}"
-          },
-          "inLanguage": "{{ lang }}",
-          "keywords": "{{ keywords }}",
-          "offers": [
-            {
-              "@type": "Offer",
-              "name": "{{ monthly_label }}",
-              "price": "{{ monthly_price }}",
-              "priceCurrency": "{{ currency }}",
-              "availability": "https://schema.org/InStock",
-              "priceSpecification": {
-                "@type": "PriceSpecification",
-                "price": "{{ monthly_price }}",
-                "priceCurrency": "{{ currency }}"
-              }
             },
-            {
-              "@type": "Offer",
-              "name": "{{ yearly_label }}",
-              "price": "{{ yearly_price }}",
-              "priceCurrency": "{{ currency }}",
-              "availability": "https://schema.org/InStock",
-              "priceSpecification": {
-                "@type": "PriceSpecification",
-                "price": "{{ yearly_price }}",
-                "priceCurrency": "{{ currency }}"
-              }
-            }
-          ],
-          "review": [
             {
             "@type": "Review",
             "author": { "@type": "Person", "name": "{{ review2_author }}" },
@@ -234,12 +176,5 @@
                 "worstRating": "1"
             }
             }
-          ],
-          "aggregateRating": {
-            "@type": "AggregateRating",
-            "ratingValue": "5",
-            "reviewCount": "2"
-          }
-        }
-      ]
+          ]
     }

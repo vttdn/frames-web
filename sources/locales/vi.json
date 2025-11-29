@@ -240,33 +240,27 @@
     "label_subscription_monthly": "Đăng ký hàng tháng",
     "label_subscription_yearly": "Đăng ký hàng năm",
     "currency": "VND",
+    "or": "hoặc",
+    "plan_type": {
+      "subscription": "Đăng ký",
+      "lifetime": "Truy cập trọn đời"
+    },
     "ios": {
       "title": "iOS",
-      "price": "49.000 ₫",
-      "price_yearly": "499.000 ₫",
+      "price": "99.000 ₫",
+      "price_yearly": "599.000 ₫",
+      "price_lifetime": "1.499.000 ₫",
       "period": "/tháng",
       "period_yearly": "/năm",
-      "price_value_monthly": "49000",
-      "price_value_yearly": "499000",
+      "price_value_monthly": "99000",
+      "price_value_yearly": "599000",
+      "price_value_lifetime": "1499000",
       "includes_label": "Bao gồm:",
       "features": [
         "Cuộn phim không giới hạn",
         "Thư mục con",
         "Xuất dữ liệu dưới dạng .frames",
-        "Xuất dữ liệu dưới dạng .txt hoặc .gpx"
-      ],
-      "button_text": "Dùng Thử Miễn Phí"
-    },
-    "macos": {
-      "title": "macOS",
-      "price": "49.000 ₫",
-      "price_yearly": "499.000 ₫",
-      "period": "/tháng",
-      "period_yearly": "/năm",
-      "price_value_monthly": "49000",
-      "price_value_yearly": "499000",
-      "includes_label": "Bao gồm:",
-      "features": [
+        "Xuất dữ liệu dưới dạng .txt hoặc .gpx",
         "Lưu siêu dữ liệu vào ảnh"
       ],
       "button_text": "Dùng Thử Miễn Phí"

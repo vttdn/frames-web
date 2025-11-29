@@ -1,10 +1,8 @@
 {
       "@context": "https://schema.org",
-      "@graph": [
-        {
-          "@type": "MobileApplication",
+      "@type": "MobileApplication",
           "@id": "https://withframes.com/#frames-ios",
-          "name": "Frames iOS",
+          "name": "Frames",
           "operatingSystem": "iOS 18.0",
           "applicationCategory": "LifestyleApplication",
           "applicationSubCategory": "Photography",
@@ -33,24 +31,24 @@
             {
               "@type": "Offer",
               "name": "Aylık abonelik",
-              "price": "99.99",
+              "price": "149.99",
               "priceCurrency": "TRY",
               "availability": "https://schema.org/InStock",
               "priceSpecification": {
                 "@type": "PriceSpecification",
-                "price": "99.99",
+                "price": "149.99",
                 "priceCurrency": "TRY"
               }
             },
             {
               "@type": "Offer",
               "name": "Yıllık abonelik",
-              "price": "799",
+              "price": "999.99",
               "priceCurrency": "TRY",
               "availability": "https://schema.org/InStock",
               "priceSpecification": {
                 "@type": "PriceSpecification",
-                "price": "799",
+                "price": "999.99",
                 "priceCurrency": "TRY"
               }
             }
@@ -58,7 +56,7 @@
           "aggregateRating": {
             "@type": "AggregateRating",
             "ratingValue": "5",
-            "reviewCount": "7"
+            "reviewCount": "9"
           },
           "review": [
             {
@@ -151,63 +149,7 @@
                 "bestRating": "5",
                 "worstRating": "1"
             }
-            }
-          ]
-        },
-        {
-          "@type": "SoftwareApplication",
-          "@id": "https://withframes.com/#frames-macos",
-          "name": "Frames macOS",
-          "operatingSystem": "macOS 15.0",
-          "applicationCategory": "LifestyleApplication",
-          "applicationSubCategory": "Photography",
-          "publisher": { "@id": "https://withframes.com/#organization" },
-          "description": "Analog fotoğrafçılar için film fotoğrafçılık uygulaması. Kamera ayarlarını kaydedin, rulolar düzenleyin ve EXIF meta verisi ekleyin. Ücretsiz deneme iPhone.",
-          "image": [
-            "https://withframes.com/lib/img/shared/software/frames-logo.png",
-            "https://withframes.com/lib/img/shared/software/macos/screenshot-1.png",
-            "https://withframes.com/lib/img/shared/software/macos/screenshot-2.png",
-            "https://withframes.com/lib/img/shared/software/macos/screenshot-3.png"
-          ],
-          "url": "https://withframes.com/tr",
-          "installUrl": "https://apps.apple.com/tr/app/frames-film-metadata/id6744063354?l=tr",
-          "softwareVersion": "1.10.0",
-          "releaseNotes": "https://withframes.com/tr/changelog/1-10-macos/",
-          "contentRating": "4+",
-          "isAccessibleForFree": true,
-          "mainEntity": {
-            "@type": "WebPage",
-            "@id": "https://withframes.com/tr"
-          },
-          "inLanguage": "tr",
-          "keywords": "fotoğraf,notlar,analog,film,rulo,negatif,defter,exif,veri,makinesi,35mm,resim,tarama,filmfoto,120mm,uygulama,iOS,iPhone,Mac",
-          "offers": [
-            {
-              "@type": "Offer",
-              "name": "Aylık abonelik",
-              "price": "99.99",
-              "priceCurrency": "TRY",
-              "availability": "https://schema.org/InStock",
-              "priceSpecification": {
-                "@type": "PriceSpecification",
-                "price": "99.99",
-                "priceCurrency": "TRY"
-              }
             },
-            {
-              "@type": "Offer",
-              "name": "Yıllık abonelik",
-              "price": "799",
-              "priceCurrency": "TRY",
-              "availability": "https://schema.org/InStock",
-              "priceSpecification": {
-                "@type": "PriceSpecification",
-                "price": "799",
-                "priceCurrency": "TRY"
-              }
-            }
-          ],
-          "review": [
             {
             "@type": "Review",
             "author": { "@type": "Person", "name": "BHenriquez" },
@@ -234,12 +176,5 @@
                 "worstRating": "1"
             }
             }
-          ],
-          "aggregateRating": {
-            "@type": "AggregateRating",
-            "ratingValue": "5",
-            "reviewCount": "2"
-          }
-        }
-      ]
+          ]
     }

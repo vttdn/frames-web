@@ -240,33 +240,27 @@
     "label_subscription_monthly": "Suscripción mensual",
     "label_subscription_yearly": "Suscripción anual",
     "currency": "EUR",
+    "or": "o",
+    "plan_type": {
+      "subscription": "Suscripción",
+      "lifetime": "Acceso de por vida"
+    },
     "ios": {
       "title": "iOS",
-      "price": "1,99 €",
-      "price_yearly": "19,99 €",
+      "price": "2,99 €",
+      "price_yearly": "22,99 €",
+      "price_lifetime": "59,99 €",
       "period": "/mes",
       "period_yearly": "/año",
-      "price_value_monthly": "1.99",
-      "price_value_yearly": "19.99",
+      "price_value_monthly": "2.99",
+      "price_value_yearly": "22.99",
+      "price_value_lifetime": "59.99",
       "includes_label": "Incluye:",
       "features": [
         "Carretes ilimitados",
         "Subcarpetas",
         "Exportar datos como .frames",
-        "Exportar datos como .txt o .gpx"
-      ],
-      "button_text": "Pruébalo Gratis"
-    },
-    "macos": {
-      "title": "macOS",
-      "price": "1,99 €",
-      "price_yearly": "19,99 €",
-      "period": "/mes",
-      "period_yearly": "/año",
-      "price_value_monthly": "1.99",
-      "price_value_yearly": "19.99",
-      "includes_label": "Incluye:",
-      "features": [
+        "Exportar datos como .txt o .gpx",
         "Guardar metadatos en fotos"
       ],
       "button_text": "Pruébalo Gratis"

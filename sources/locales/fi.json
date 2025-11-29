@@ -240,33 +240,27 @@
     "label_subscription_monthly": "Kuukausitilaus",
     "label_subscription_yearly": "Vuosittainen tilaus",
     "currency": "EUR",
+    "or": "tai",
+    "plan_type": {
+      "subscription": "Tilaus",
+      "lifetime": "Elinikäinen käyttöoikeus"
+    },
     "ios": {
       "title": "iOS",
-      "price": "1,99 €",
-      "price_yearly": "19,99 €",
+      "price": "2,99 €",
+      "price_yearly": "22,99 €",
+      "price_lifetime": "59,99 €",
       "period": "/kk",
       "period_yearly": "/vuosi",
-      "price_value_monthly": "1.99",
-      "price_value_yearly": "19.99",
+      "price_value_monthly": "2.99",
+      "price_value_yearly": "22.99",
+      "price_value_lifetime": "59.99",
       "includes_label": "Sisältää:",
       "features": [
         "Rajoittamattomat filmirullat",
         "Alikansiot",
         "Vie tiedot .frames-muodossa",
-        "Vie tiedot .txt- tai .gpx-muodossa"
-      ],
-      "button_text": "Kokeile Ilmaiseksi"
-    },
-    "macos": {
-      "title": "macOS",
-      "price": "1,99 €",
-      "price_yearly": "19,99 €",
-      "period": "/kk",
-      "period_yearly": "/vuosi",
-      "price_value_monthly": "1.99",
-      "price_value_yearly": "19.99",
-      "includes_label": "Sisältää:",
-      "features": [
+        "Vie tiedot .txt- tai .gpx-muodossa",
         "Tallenna metatiedot kuviin"
       ],
       "button_text": "Kokeile Ilmaiseksi"

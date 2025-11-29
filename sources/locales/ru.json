@@ -240,33 +240,27 @@
     "label_subscription_monthly": "Ежемесячная подписка",
     "label_subscription_yearly": "Годовая подписка",
     "currency": "RUB",
+    "or": "или",
+    "plan_type": {
+      "subscription": "Подписка",
+      "lifetime": "Пожизненный доступ"
+    },
     "ios": {
       "title": "iOS",
-      "price": "199 ₽",
-      "price_yearly": "1 490 ₽",
+      "price": "249 ₽",
+      "price_yearly": "1 790 ₽",
+      "price_lifetime": "4490 ₽",
       "period": "/мес.",
       "period_yearly": "/год",
-      "price_value_monthly": "199",
-      "price_value_yearly": "1490",
+      "price_value_monthly": "249",
+      "price_value_yearly": "1790",
+      "price_value_lifetime": "4490",
       "includes_label": "Включает:",
       "features": [
         "Неограниченное количество плёнок",
         "Подпапки",
         "Экспорт данных в .frames",
-        "Экспорт данных в .txt или .gpx"
-      ],
-      "button_text": "Попробовать бесплатно"
-    },
-    "macos": {
-      "title": "macOS",
-      "price": "199 ₽",
-      "price_yearly": "1 490 ₽",
-      "period": "/мес.",
-      "period_yearly": "/год",
-      "price_value_monthly": "199",
-      "price_value_yearly": "1490",
-      "includes_label": "Включает:",
-      "features": [
+        "Экспорт данных в .txt или .gpx",
         "Сохранение метаданных в фотографии"
       ],
       "button_text": "Попробовать бесплатно"

@@ -240,32 +240,26 @@
     "label_subscription_monthly": "Abonament lunar",
     "label_subscription_yearly": "Abonament anual",
     "currency": "RON",
+    "or": "sau",
+    "plan_type": {
+      "subscription": "Abonament",
+      "lifetime": "Acces pe viață"
+    },
     "ios": {
       "title": "iOS",
-      "price": "9,99 lei",
+      "price": "14,99 lei",
       "price_yearly": "99,99 lei",
+      "price_lifetime": "299,99 lei",
       "period": "/lună",
-      "price_value_monthly": "9.99",
+      "price_value_monthly": "14.99",
       "price_value_yearly": "99.99",
+      "price_value_lifetime": "299.99",
       "includes_label": "Include:",
       "features": [
         "Filme nelimitate",
         "Subdosare",
         "Exportă date ca .frames",
-        "Exportă date ca .txt sau .gpx"
-      ],
-      "button_text": "Încearcă Gratuit"
-    },
-    "macos": {
-      "title": "macOS",
-      "price": "9,99 lei",
-      "price_yearly": "99,99 lei",
-      "period": "/lună",
-      "period_yearly": "/an",
-      "price_value_monthly": "9.99",
-      "price_value_yearly": "99.99",
-      "includes_label": "Include:",
-      "features": [
+        "Exportă date ca .txt sau .gpx",
         "Salvează metadate în fotografii"
       ],
       "button_text": "Încearcă Gratuit"

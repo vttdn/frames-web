@@ -1,10 +1,8 @@
 {
       "@context": "https://schema.org",
-      "@graph": [
-        {
-          "@type": "MobileApplication",
+      "@type": "MobileApplication",
           "@id": "https://withframes.com/#frames-ios",
-          "name": "Frames iOS",
+          "name": "Frames",
           "operatingSystem": "iOS 18.0",
           "applicationCategory": "LifestyleApplication",
           "applicationSubCategory": "Photography",
@@ -33,24 +31,24 @@
             {
               "@type": "Offer",
               "name": "Monthly subscription",
-              "price": "1.99",
+              "price": "2.99",
               "priceCurrency": "USD",
               "availability": "https://schema.org/InStock",
               "priceSpecification": {
                 "@type": "PriceSpecification",
-                "price": "1.99",
+                "price": "2.99",
                 "priceCurrency": "USD"
               }
             },
             {
               "@type": "Offer",
               "name": "Yearly subscription",
-              "price": "17.99",
+              "price": "19.99",
               "priceCurrency": "USD",
               "availability": "https://schema.org/InStock",
               "priceSpecification": {
                 "@type": "PriceSpecification",
-                "price": "17.99",
+                "price": "19.99",
                 "priceCurrency": "USD"
               }
             }
@@ -58,7 +56,7 @@
           "aggregateRating": {
             "@type": "AggregateRating",
             "ratingValue": "5",
-            "reviewCount": "7"
+            "reviewCount": "9"
           },
           "review": [
             {
@@ -151,63 +149,7 @@
                 "bestRating": "5",
                 "worstRating": "1"
             }
-            }
-          ]
-        },
-        {
-          "@type": "SoftwareApplication",
-          "@id": "https://withframes.com/#frames-macos",
-          "name": "Frames macOS",
-          "operatingSystem": "macOS 15.0",
-          "applicationCategory": "LifestyleApplication",
-          "applicationSubCategory": "Photography",
-          "publisher": { "@id": "https://withframes.com/#organization" },
-          "description": "Film photography app for analog shooters. Track camera settings, organize rolls, and embed EXIF metadata into scanned images. Free trial for iPhone & Mac.",
-          "image": [
-            "https://withframes.com/lib/img/shared/software/frames-logo.png",
-            "https://withframes.com/lib/img/shared/software/macos/screenshot-1.png",
-            "https://withframes.com/lib/img/shared/software/macos/screenshot-2.png",
-            "https://withframes.com/lib/img/shared/software/macos/screenshot-3.png"
-          ],
-          "url": "https://withframes.com",
-          "installUrl": "https://apps.apple.com/app/frames-film-metadata/id6744063354",
-          "softwareVersion": "1.10.0",
-          "releaseNotes": "https://withframes.com/changelog/1-10-macos/",
-          "contentRating": "4+",
-          "isAccessibleForFree": true,
-          "mainEntity": {
-            "@type": "WebPage",
-            "@id": "https://withframes.com"
-          },
-          "inLanguage": "en",
-          "keywords": "photography,notes,notebook,analog,film,roll,negative,exif,metadata,camera,35mm,image,scan,exposure,photo,app,application,iOS,iPhone,Mac",
-          "offers": [
-            {
-              "@type": "Offer",
-              "name": "Monthly subscription",
-              "price": "1.99",
-              "priceCurrency": "USD",
-              "availability": "https://schema.org/InStock",
-              "priceSpecification": {
-                "@type": "PriceSpecification",
-                "price": "1.99",
-                "priceCurrency": "USD"
-              }
             },
-            {
-              "@type": "Offer",
-              "name": "Yearly subscription",
-              "price": "17.99",
-              "priceCurrency": "USD",
-              "availability": "https://schema.org/InStock",
-              "priceSpecification": {
-                "@type": "PriceSpecification",
-                "price": "17.99",
-                "priceCurrency": "USD"
-              }
-            }
-          ],
-          "review": [
             {
             "@type": "Review",
             "author": { "@type": "Person", "name": "BHenriquez" },
@@ -234,12 +176,5 @@
                 "worstRating": "1"
             }
             }
-          ],
-          "aggregateRating": {
-            "@type": "AggregateRating",
-            "ratingValue": "5",
-            "reviewCount": "2"
-          }
-        }
-      ]
+          ]
     }

@@ -243,33 +243,27 @@
     "label_subscription_monthly": "월간 구독",
     "label_subscription_yearly": "연간 구독",
     "currency": "KRW",
+    "or": "또는",
+    "plan_type": {
+      "subscription": "구독",
+      "lifetime": "평생 액세스"
+    },
     "ios": {
       "title": "iOS",
-      "price": "₩3,300",
-      "price_yearly": "₩25,000",
+      "price": "₩4,400",
+      "price_yearly": "₩29,000",
+      "price_lifetime": "₩66,000",
       "period": "/월",
       "period_yearly": "/년",
-      "price_value_monthly": "3300",
-      "price_value_yearly": "25000",
+      "price_value_monthly": "4400",
+      "price_value_yearly": "29000",
+      "price_value_lifetime": "66000",
       "includes_label": "포함:",
       "features": [
         "무제한 필름 롤",
         "하위 폴더",
         ".frames로 데이터 내보내기",
-        ".txt 또는 .gpx로 데이터 내보내기"
-      ],
-      "button_text": "무료 체험"
-    },
-    "macos": {
-      "title": "macOS",
-      "price": "₩3,300",
-      "price_yearly": "₩25,000",
-      "period": "/월",
-      "period_yearly": "/년",
-      "price_value_monthly": "3300",
-      "price_value_yearly": "25000",
-      "includes_label": "포함:",
-      "features": [
+        ".txt 또는 .gpx로 데이터 내보내기",
         "사진에 메타데이터 저장"
       ],
       "button_text": "무료 체험"

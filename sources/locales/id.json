@@ -240,33 +240,27 @@
     "label_subscription_monthly": "Langganan bulanan",
     "label_subscription_yearly": "Langganan tahunan",
     "currency": "IDR",
+    "or": "atau",
+    "plan_type": {
+      "subscription": "Langganan",
+      "lifetime": "Akses Seumur Hidup"
+    },
     "ios": {
       "title": "iOS",
-      "price": "Rp 29.000",
-      "price_yearly": "Rp 299.000",
+      "price": "Rp 49.000",
+      "price_yearly": "Rp 349.000",
+      "price_lifetime": "Rp 799.000",
       "period": "/bln",
       "period_yearly": "/thn",
-      "price_value_monthly": "29000",
-      "price_value_yearly": "299000",
+      "price_value_monthly": "49000",
+      "price_value_yearly": "349000",
+      "price_value_lifetime": "799000",
       "includes_label": "Termasuk:",
       "features": [
         "Rol film tanpa batas",
         "Subfolder",
         "Ekspor data sebagai .frames",
-        "Ekspor data sebagai .txt atau .gpx"
-      ],
-      "button_text": "Coba Gratis"
-    },
-    "macos": {
-      "title": "macOS",
-      "price": "Rp 29.000",
-      "price_yearly": "Rp 299.000",
-      "period": "/bln",
-      "period_yearly": "/thn",
-      "price_value_monthly": "29000",
-      "price_value_yearly": "299000",
-      "includes_label": "Termasuk:",
-      "features": [
+        "Ekspor data sebagai .txt atau .gpx",
         "Simpan metadata ke foto"
       ],
       "button_text": "Coba Gratis"

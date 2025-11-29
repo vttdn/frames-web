@@ -240,33 +240,27 @@
     "label_subscription_monthly": "Місячна підписка",
     "label_subscription_yearly": "Річна підписка",
     "currency": "USD",
+    "or": "або",
+    "plan_type": {
+      "subscription": "Підписка",
+      "lifetime": "Довічний доступ"
+    },
     "ios": {
       "title": "iOS",
-      "price": "$1.99",
-      "price_yearly": "$19.99",
+      "price": "$3.99",
+      "price_yearly": "$22.99",
+      "price_lifetime": "$59.99",
       "period": "/міс",
       "period_yearly": "/рік",
-      "price_value_monthly": "1.99",
-      "price_value_yearly": "19.99",
+      "price_value_monthly": "3.99",
+      "price_value_yearly": "22.99",
+      "price_value_lifetime": "59.99",
       "includes_label": "Включає:",
       "features": [
         "Необмежені плівки",
         "Підпапки",
         "Експорт даних як .frames",
-        "Експорт даних як .txt або .gpx"
-      ],
-      "button_text": "Спробувати Безкоштовно"
-    },
-    "macos": {
-      "title": "macOS",
-      "price": "$1.99",
-      "price_yearly": "$19.99",
-      "period": "/міс",
-      "period_yearly": "/рік",
-      "price_value_monthly": "1.99",
-      "price_value_yearly": "19.99",
-      "includes_label": "Включає:",
-      "features": [
+        "Експорт даних як .txt або .gpx",
         "Збереження метаданих у фотографії"
       ],
       "button_text": "Спробувати Безкоштовно"

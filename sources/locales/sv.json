@@ -240,33 +240,27 @@
     "label_subscription_monthly": "Månadsabonnemang",
     "label_subscription_yearly": "Årsabonnemang",
     "currency": "SEK",
+    "or": "eller",
+    "plan_type": {
+      "subscription": "Prenumeration",
+      "lifetime": "Livstidsåtkomst"
+    },
     "ios": {
       "title": "iOS",
-      "price": "29 kr",
-      "price_yearly": "229 kr",
+      "price": "39 kr",
+      "price_yearly": "249 kr",
+      "price_lifetime": "599 kr",
       "period": "/mån",
       "period_yearly": "/år",
-      "price_value_monthly": "29",
-      "price_value_yearly": "229",
+      "price_value_monthly": "39",
+      "price_value_yearly": "249",
+      "price_value_lifetime": "599",
       "includes_label": "Inkluderar:",
       "features": [
         "Obegränsade filmrullar",
         "Undermappar",
         "Exportera data som .frames",
-        "Exportera data som .txt eller .gpx"
-      ],
-      "button_text": "Prova Gratis"
-    },
-    "macos": {
-      "title": "macOS",
-      "price": "29 kr",
-      "price_yearly": "229 kr",
-      "period": "/mån",
-      "period_yearly": "/år",
-      "price_value_monthly": "29",
-      "price_value_yearly": "229",
-      "includes_label": "Inkluderar:",
-      "features": [
+        "Exportera data som .txt eller .gpx",
         "Spara metadata till foton"
       ],
       "button_text": "Prova Gratis"

@@ -1,10 +1,8 @@
 {
       "@context": "https://schema.org",
-      "@graph": [
-        {
-          "@type": "MobileApplication",
+      "@type": "MobileApplication",
           "@id": "https://withframes.com/#frames-ios",
-          "name": "Frames iOS",
+          "name": "Frames",
           "operatingSystem": "iOS 18.0",
           "applicationCategory": "LifestyleApplication",
           "applicationSubCategory": "Photography",
@@ -33,24 +31,24 @@
             {
               "@type": "Offer",
               "name": "Місячна підписка",
-              "price": "1.99",
+              "price": "3.99",
               "priceCurrency": "USD",
               "availability": "https://schema.org/InStock",
               "priceSpecification": {
                 "@type": "PriceSpecification",
-                "price": "1.99",
+                "price": "3.99",
                 "priceCurrency": "USD"
               }
             },
             {
               "@type": "Offer",
               "name": "Річна підписка",
-              "price": "19.99",
+              "price": "22.99",
               "priceCurrency": "USD",
               "availability": "https://schema.org/InStock",
               "priceSpecification": {
                 "@type": "PriceSpecification",
-                "price": "19.99",
+                "price": "22.99",
                 "priceCurrency": "USD"
               }
             }
@@ -58,7 +56,7 @@
           "aggregateRating": {
             "@type": "AggregateRating",
             "ratingValue": "5",
-            "reviewCount": "7"
+            "reviewCount": "9"
           },
           "review": [
             {
@@ -151,63 +149,7 @@
                 "bestRating": "5",
                 "worstRating": "1"
             }
-            }
-          ]
-        },
-        {
-          "@type": "SoftwareApplication",
-          "@id": "https://withframes.com/#frames-macos",
-          "name": "Frames macOS",
-          "operatingSystem": "macOS 15.0",
-          "applicationCategory": "LifestyleApplication",
-          "applicationSubCategory": "Photography",
-          "publisher": { "@id": "https://withframes.com/#organization" },
-          "description": "Додаток для плівкової фотографії. Записуйте налаштування камери, організовуйте плівки та вбудовуйте EXIF-метадані. Безкоштовна пробна версія для iPhone.",
-          "image": [
-            "https://withframes.com/lib/img/shared/software/frames-logo.png",
-            "https://withframes.com/lib/img/shared/software/macos/screenshot-1.png",
-            "https://withframes.com/lib/img/shared/software/macos/screenshot-2.png",
-            "https://withframes.com/lib/img/shared/software/macos/screenshot-3.png"
-          ],
-          "url": "https://withframes.com/uk",
-          "installUrl": "https://apps.apple.com/ua/app/frames-метадані-плівки/id6744063354?l=uk",
-          "softwareVersion": "1.10.0",
-          "releaseNotes": "https://withframes.com/uk/changelog/1-10-macos/",
-          "contentRating": "4+",
-          "isAccessibleForFree": true,
-          "mainEntity": {
-            "@type": "WebPage",
-            "@id": "https://withframes.com/uk"
-          },
-          "inLanguage": "uk",
-          "keywords": "фотографія,нотатки,аналог,плівка,рол,негатив,нотатник,exif,метадані,камера,35mm,зображення,скан,120mm,фото,додаток,iOS,iPhone,Mac",
-          "offers": [
-            {
-              "@type": "Offer",
-              "name": "Місячна підписка",
-              "price": "1.99",
-              "priceCurrency": "USD",
-              "availability": "https://schema.org/InStock",
-              "priceSpecification": {
-                "@type": "PriceSpecification",
-                "price": "1.99",
-                "priceCurrency": "USD"
-              }
             },
-            {
-              "@type": "Offer",
-              "name": "Річна підписка",
-              "price": "19.99",
-              "priceCurrency": "USD",
-              "availability": "https://schema.org/InStock",
-              "priceSpecification": {
-                "@type": "PriceSpecification",
-                "price": "19.99",
-                "priceCurrency": "USD"
-              }
-            }
-          ],
-          "review": [
             {
             "@type": "Review",
             "author": { "@type": "Person", "name": "BHenriquez" },
@@ -234,12 +176,5 @@
                 "worstRating": "1"
             }
             }
-          ],
-          "aggregateRating": {
-            "@type": "AggregateRating",
-            "ratingValue": "5",
-            "reviewCount": "2"
-          }
-        }
-      ]
+          ]
     }

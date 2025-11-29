@@ -203,12 +203,11 @@
                     <div class="tile-inner flex flex-col flex-justify-between">
                         <div class="pricing-header flex flex-col gap-lg">
                             <header class="flex flex-col gap-xxs">
-                                <h3 class="pricing-title">{{ locale_data.pricing.ios.title }}</h3>
+                                <h3 class="pricing-title">{{ locale_data.pricing.plan_type.subscription }}</h3>
                                 <div class="pricing-amount">
-                                    <span class="price">{{ locale_data.pricing.ios.price }}</span>
-                                    <!-- <span class="price-yearly">{{ locale_data.pricing.ios.price_yearly }}</span> -->
-                                    <span class="price-period">{{ locale_data.pricing.ios.period }}</span>
-                                    <!-- <span class="price-period-yearly">{{ locale_data.pricing.ios.period_yearly }}</span> -->
+                                    <span class="price">{{ locale_data.pricing.ios.price_yearly }}</span>
+                                    <span class="price-period">{{ locale_data.pricing.ios.period_yearly }}</span>
+                                    <span class="pricing-or">({{ locale_data.pricing.or }} {{ locale_data.pricing.ios.price }}{{ locale_data.pricing.ios.period }})</span>
                                 </div>
                             </header>
 
@@ -235,19 +234,17 @@
                     <div class="tile-inner flex flex-col flex-justify-between">
                         <div class="pricing-header flex flex-col gap-lg">
                             <header class="flex flex-col gap-xxs">
-                                <h3 class="pricing-title">{{ locale_data.pricing.macos.title }}</h3>
+                                <h3 class="pricing-title">{{ locale_data.pricing.plan_type.lifetime }}</h3>
                                 <div class="pricing-amount">
-                                    <span class="price">{{ locale_data.pricing.macos.price }}</span>
-                                    <!-- <span class="price-yearly">{{ locale_data.pricing.ios.price_yearly }}</span> -->
-                                    <span class="price-period">{{ locale_data.pricing.macos.period }}</span>
-                                    <!-- <span class="price-period-yearly">{{ locale_data.pricing.ios.period_yearly }}</span> -->
+                                    <span class="price">{{ locale_data.pricing.ios.price_lifetime }}</span>
+                                    <!-- <span class="price-period">{{ locale_data.pricing.ios.period_lifetime }}</span> -->
                                 </div>
                             </header>
 
-                            <p class="pricing-label">{{ locale_data.pricing.macos.includes_label }}</p>
+                            <p class="pricing-label">{{ locale_data.pricing.ios.includes_label }}</p>
 
                             <ul class="pricing-features flex flex-col gap-xs">
-                                {% for feature in locale_data.pricing.macos.features %}
+                                {% for feature in locale_data.pricing.ios.features %}
                                 <li class="flex flex-row gap-xs">
                                     <span class="checkmark">{{ locale_data.pricing.checkmark }}</span>
                                     {{ feature }}
@@ -258,7 +255,7 @@
 
                         <footer class="pricing-action">
                             <a href="{{ locale_data.urls.appstore_macos }}" class="btn btn-md btn-secondary">{{
-                                locale_data.pricing.macos.button_text }}</a>
+                                locale_data.pricing.ios.button_text }}</a>
                         </footer>
                     </div>
                 </article>

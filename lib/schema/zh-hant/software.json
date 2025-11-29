@@ -1,10 +1,8 @@
 {
       "@context": "https://schema.org",
-      "@graph": [
-        {
-          "@type": "MobileApplication",
+      "@type": "MobileApplication",
           "@id": "https://withframes.com/#frames-ios",
-          "name": "Frames iOS",
+          "name": "Frames",
           "operatingSystem": "iOS 18.0",
           "applicationCategory": "LifestyleApplication",
           "applicationSubCategory": "Photography",
@@ -33,12 +31,12 @@
             {
               "@type": "Offer",
               "name": "每月訂閱",
-              "price": "18",
+              "price": "22",
               "priceCurrency": "HKD",
               "availability": "https://schema.org/InStock",
               "priceSpecification": {
                 "@type": "PriceSpecification",
-                "price": "18",
+                "price": "22",
                 "priceCurrency": "HKD"
               }
             },
@@ -58,7 +56,7 @@
           "aggregateRating": {
             "@type": "AggregateRating",
             "ratingValue": "5",
-            "reviewCount": "7"
+            "reviewCount": "9"
           },
           "review": [
             {
@@ -151,63 +149,7 @@
                 "bestRating": "5",
                 "worstRating": "1"
             }
-            }
-          ]
-        },
-        {
-          "@type": "SoftwareApplication",
-          "@id": "https://withframes.com/#frames-macos",
-          "name": "Frames macOS",
-          "operatingSystem": "macOS 15.0",
-          "applicationCategory": "LifestyleApplication",
-          "applicationSubCategory": "Photography",
-          "publisher": { "@id": "https://withframes.com/#organization" },
-          "description": "適合底片攝影師的應用程式。記錄相機設定、整理底片並將 EXIF 中繼資料嵌入掃描影像。iPhone 和 Mac 免費試用。",
-          "image": [
-            "https://withframes.com/lib/img/shared/software/frames-logo.png",
-            "https://withframes.com/lib/img/shared/software/macos/screenshot-1.png",
-            "https://withframes.com/lib/img/shared/software/macos/screenshot-2.png",
-            "https://withframes.com/lib/img/shared/software/macos/screenshot-3.png"
-          ],
-          "url": "https://withframes.com/zh-hant",
-          "installUrl": "https://apps.apple.com/hk/app/frames-底片中繼資料/id6744063354?mt=12&l=zh-Hant",
-          "softwareVersion": "1.10.0",
-          "releaseNotes": "https://withframes.com/zh-hant/changelog/1-10-macos/",
-          "contentRating": "4+",
-          "isAccessibleForFree": true,
-          "mainEntity": {
-            "@type": "WebPage",
-            "@id": "https://withframes.com/zh-hant"
-          },
-          "inLanguage": "zh-hant",
-          "keywords": "攝影,筆記,模擬,膠片,卷,底片,筆記本,EXIF,元資料,相機,35mm,圖像,掃描,膠片照片,模擬攝影,照片,記錄,膠卷,畫幅,應用,暗房,拍攝,120mm,film,analog,應用程式,iOS,iPhone,Mac",
-          "offers": [
-            {
-              "@type": "Offer",
-              "name": "每月訂閱",
-              "price": "18",
-              "priceCurrency": "HKD",
-              "availability": "https://schema.org/InStock",
-              "priceSpecification": {
-                "@type": "PriceSpecification",
-                "price": "18",
-                "priceCurrency": "HKD"
-              }
             },
-            {
-              "@type": "Offer",
-              "name": "每年訂閱",
-              "price": "148",
-              "priceCurrency": "HKD",
-              "availability": "https://schema.org/InStock",
-              "priceSpecification": {
-                "@type": "PriceSpecification",
-                "price": "148",
-                "priceCurrency": "HKD"
-              }
-            }
-          ],
-          "review": [
             {
             "@type": "Review",
             "author": { "@type": "Person", "name": "BHenriquez" },
@@ -234,12 +176,5 @@
                 "worstRating": "1"
             }
             }
-          ],
-          "aggregateRating": {
-            "@type": "AggregateRating",
-            "ratingValue": "5",
-            "reviewCount": "2"
-          }
-        }
-      ]
+          ]
     }

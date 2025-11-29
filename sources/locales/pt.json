@@ -240,32 +240,26 @@
     "label_subscription_monthly": "Assinatura mensal",
     "label_subscription_yearly": "Assinatura anual",
     "currency": "BRL",
+    "or": "ou",
+    "plan_type": {
+      "subscription": "Assinatura",
+      "lifetime": "Acesso vitalício"
+    },
     "ios": {
       "title": "iOS",
-      "price": "R$ 12,90",
-      "price_yearly": "R$ 119,90",
+      "price": "R$ 19,90",
+      "price_yearly": "R$ 129,90",
+      "price_lifetime": "R$ 299,90",
       "period": "/mês",
-      "price_value_monthly": "12.90",
-      "price_value_yearly": "119.90",
+      "price_value_monthly": "19.90",
+      "price_value_yearly": "129.90",
+      "price_value_lifetime": "299.90",
       "includes_label": "Inclui:",
       "features": [
         "Rolos ilimitados",
         "Subpastas",
         "Exportar dados como .frames",
-        "Exportar dados como .txt ou .gpx"
-      ],
-      "button_text": "Experimentar Gratuitamente"
-    },
-    "macos": {
-      "title": "macOS",
-      "price": "R$ 12,90",
-      "price_yearly": "R$ 119,90",
-      "period": "/mês",
-      "period_yearly": "/ano",
-      "price_value_monthly": "12.90",
-      "price_value_yearly": "119.90",
-      "includes_label": "Inclui:",
-      "features": [
+        "Exportar dados como .txt ou .gpx",
         "Guardar metadados em fotografias"
       ],
       "button_text": "Experimentar Gratuitamente"

@@ -240,33 +240,27 @@
     "label_subscription_monthly": "मासिक सदस्यता",
     "label_subscription_yearly": "वार्षिक सदस्यता",
     "currency": "INR",
+    "or": "या",
+    "plan_type": {
+      "subscription": "सदस्यता",
+      "lifetime": "आजीवन पहुँच"
+    },
     "ios": {
       "title": "iOS",
-      "price": "₹199",
+      "price": "₹299",
       "price_yearly": "₹1,999",
+      "price_lifetime": "₹4,999",
       "period": "/महीना",
       "period_yearly": "/साल",
       "price_value_monthly": "199",
       "price_value_yearly": "1999",
+      "price_value_lifetime": "4999",
       "includes_label": "शामिल है:",
       "features": [
         "असीमित फ़िल्म रोल्स",
         "उप-फ़ोल्डर",
         "डेटा को .frames के रूप में निर्यात करें",
-        "डेटा को .txt या .gpx के रूप में निर्यात करें"
-      ],
-      "button_text": "मुफ़्त में आज़माएं"
-    },
-    "macos": {
-      "title": "macOS",
-      "price": "₹199",
-      "price_yearly": "₹1,999",
-      "period": "/महीना",
-      "period_yearly": "/साल",
-      "price_value_monthly": "199",
-      "price_value_yearly": "1999",
-      "includes_label": "शामिल है:",
-      "features": [
+        "डेटा को .txt या .gpx के रूप में निर्यात करें",
         "फ़ोटो में मेटाडेटा सहेजें"
       ],
       "button_text": "मुफ़्त में आज़माएं"

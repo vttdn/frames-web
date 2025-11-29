@@ -240,33 +240,27 @@
     "label_subscription_monthly": "Monatliches Abonnement",
     "label_subscription_yearly": "Jährliches Abonnement",
     "currency": "EUR",
+    "or": "oder",
+    "plan_type": {
+      "subscription": "Abonnement",
+      "lifetime": "Lebenslanger Zugriff"
+    },
     "ios": {
       "title": "iOS",
-      "price": "1,99 €",
-      "price_yearly": "19,99 €",
+      "price": "2,99 €",
+      "price_yearly": "22,99 €",
+      "price_lifetime": "59,99 €",
       "period": "/Monat",
       "period_yearly": "/Jahr",
-      "price_value_monthly": "1.99",
-      "price_value_yearly": "19.99",
+      "price_value_monthly": "2.99",
+      "price_value_yearly": "22.99",
+      "price_value_lifetime": "59.99",
       "includes_label": "Enthalten:",
       "features": [
         "Unbegrenzte Filme",
         "Unterordner",
         "Datenexport als .frames",
-        "Datenexport als .txt oder .gpx"
-      ],
-      "button_text": "Kostenlos Testen"
-    },
-    "macos": {
-      "title": "macOS",
-      "price": "1,99 €",
-      "price_yearly": "19,99 €",
-      "period": "/Monat",
-      "period_yearly": "/Jahr",
-      "price_value_monthly": "1.99",
-      "price_value_yearly": "19.99",
-      "includes_label": "Enthalten:",
-      "features": [
+        "Datenexport als .txt oder .gpx",
         "Metadaten in Fotos speichern"
       ],
       "button_text": "Kostenlos Testen"

@@ -240,33 +240,27 @@
     "label_subscription_monthly": "การสมัครสมาชิกแบบรายเดือน",
     "label_subscription_yearly": "การสมัครสมาชิกแบบรายปี",
     "currency": "THB",
+    "or": "หรือ",
+    "plan_type": {
+      "subscription": "การสมัครสมาชิก",
+      "lifetime": "การเข้าถึงตลอดชีพ"
+    },
     "ios": {
       "title": "iOS",
-      "price": "79 ฿",
+      "price": "99 ฿",
       "price_yearly": "699 ฿",
+      "price_lifetime": "1990 ฿",
       "period": "/เดือน",
       "period_yearly": "/ปี",
-      "price_value_monthly": "79",
+      "price_value_monthly": "99",
       "price_value_yearly": "699",
+      "price_value_lifetime": "1990",
       "includes_label": "รวมถึง:",
       "features": [
         "ฟิล์มไม่จำกัด",
         "โฟลเดอร์ย่อย",
         "ส่งออกข้อมูลเป็น .frames",
-        "ส่งออกข้อมูลเป็น .txt หรือ .gpx"
-      ],
-      "button_text": "ทดลองใช้ฟรี"
-    },
-    "macos": {
-      "title": "macOS",
-      "price": "79 ฿",
-      "price_yearly": "699 ฿",
-      "period": "/เดือน",
-      "period_yearly": "/ปี",
-      "price_value_monthly": "79",
-      "price_value_yearly": "699",
-      "includes_label": "รวมถึง:",
-      "features": [
+        "ส่งออกข้อมูลเป็น .txt หรือ .gpx",
         "บันทึกเมตาดาตาลงในภาพถ่าย"
       ],
       "button_text": "ทดลองใช้ฟรี"

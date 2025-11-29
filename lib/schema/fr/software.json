@@ -1,10 +1,8 @@
 {
       "@context": "https://schema.org",
-      "@graph": [
-        {
-          "@type": "MobileApplication",
+      "@type": "MobileApplication",
           "@id": "https://withframes.com/#frames-ios",
-          "name": "Frames iOS",
+          "name": "Frames",
           "operatingSystem": "iOS 18.0",
           "applicationCategory": "LifestyleApplication",
           "applicationSubCategory": "Photography",
@@ -33,24 +31,24 @@
             {
               "@type": "Offer",
               "name": "Abonnement mensuel",
-              "price": "1.99",
+              "price": "2.99",
               "priceCurrency": "EUR",
               "availability": "https://schema.org/InStock",
               "priceSpecification": {
                 "@type": "PriceSpecification",
-                "price": "1.99",
+                "price": "2.99",
                 "priceCurrency": "EUR"
               }
             },
             {
               "@type": "Offer",
               "name": "Abonnement annuel",
-              "price": "19.99",
+              "price": "22.99",
               "priceCurrency": "EUR",
               "availability": "https://schema.org/InStock",
               "priceSpecification": {
                 "@type": "PriceSpecification",
-                "price": "19.99",
+                "price": "22.99",
                 "priceCurrency": "EUR"
               }
             }
@@ -58,7 +56,7 @@
           "aggregateRating": {
             "@type": "AggregateRating",
             "ratingValue": "5",
-            "reviewCount": "7"
+            "reviewCount": "9"
           },
           "review": [
             {
@@ -151,63 +149,7 @@
                 "bestRating": "5",
                 "worstRating": "1"
             }
-            }
-          ]
-        },
-        {
-          "@type": "SoftwareApplication",
-          "@id": "https://withframes.com/#frames-macos",
-          "name": "Frames macOS",
-          "operatingSystem": "macOS 15.0",
-          "applicationCategory": "LifestyleApplication",
-          "applicationSubCategory": "Photography",
-          "publisher": { "@id": "https://withframes.com/#organization" },
-          "description": "App photo argentique pour photographes. Enregistrez les réglages caméra, organisez vos pellicules et intégrez les métadonnées EXIF. Essai gratuit iPhone et Mac.",
-          "image": [
-            "https://withframes.com/lib/img/shared/software/frames-logo.png",
-            "https://withframes.com/lib/img/shared/software/macos/screenshot-1.png",
-            "https://withframes.com/lib/img/shared/software/macos/screenshot-2.png",
-            "https://withframes.com/lib/img/shared/software/macos/screenshot-3.png"
-          ],
-          "url": "https://withframes.com/fr",
-          "installUrl": "https://apps.apple.com/fr/app/frames-métadonnées/id6744063354",
-          "softwareVersion": "1.10.0",
-          "releaseNotes": "https://withframes.com/fr/changelog/1-10-macos/",
-          "contentRating": "4+",
-          "isAccessibleForFree": true,
-          "mainEntity": {
-            "@type": "WebPage",
-            "@id": "https://withframes.com/fr"
-          },
-          "inLanguage": "fr",
-          "keywords": "photographie,notes,argentique,film,pellicule,négatif,carnet,exif,métadonnée,appareil,35mm,image,scan,photo,app,application,iOS,iPhone,Mac",
-          "offers": [
-            {
-              "@type": "Offer",
-              "name": "Abonnement mensuel",
-              "price": "1.99",
-              "priceCurrency": "EUR",
-              "availability": "https://schema.org/InStock",
-              "priceSpecification": {
-                "@type": "PriceSpecification",
-                "price": "1.99",
-                "priceCurrency": "EUR"
-              }
             },
-            {
-              "@type": "Offer",
-              "name": "Abonnement annuel",
-              "price": "19.99",
-              "priceCurrency": "EUR",
-              "availability": "https://schema.org/InStock",
-              "priceSpecification": {
-                "@type": "PriceSpecification",
-                "price": "19.99",
-                "priceCurrency": "EUR"
-              }
-            }
-          ],
-          "review": [
             {
             "@type": "Review",
             "author": { "@type": "Person", "name": "BHenriquez" },
@@ -234,12 +176,5 @@
                 "worstRating": "1"
             }
             }
-          ],
-          "aggregateRating": {
-            "@type": "AggregateRating",
-            "ratingValue": "5",
-            "reviewCount": "2"
-          }
-        }
-      ]
+          ]
     }

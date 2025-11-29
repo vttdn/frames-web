@@ -240,33 +240,27 @@
     "label_subscription_monthly": "月度订阅",
     "label_subscription_yearly": "年度订阅",
     "currency": "CNY",
+    "or": "或",
+    "plan_type": {
+      "subscription": "订阅",
+      "lifetime": "终身访问"
+    },
     "ios": {
       "title": "iOS",
-      "price": "¥15",
-      "price_yearly": "¥128",
+      "price": "¥22",
+      "price_yearly": "¥148",
+      "price_lifetime": "¥328",
       "period": "/月",
       "period_yearly": "/年",
-      "price_value_monthly": "15",
-      "price_value_yearly": "128",
+      "price_value_monthly": "22",
+      "price_value_yearly": "148",
+      "price_value_lifetime": "328",
       "includes_label": "包含：",
       "features": [
         "无限胶卷",
         "子文件夹",
         "导出数据为 .frames",
-        "导出数据为 .txt 或 .gpx"
-      ],
-      "button_text": "免费试用"
-    },
-    "macos": {
-      "title": "macOS",
-      "price": "¥15",
-      "price_yearly": "¥128",
-      "period": "/月",
-      "period_yearly": "/年",
-      "price_value_monthly": "15",
-      "price_value_yearly": "128",
-      "includes_label": "包含：",
-      "features": [
+        "导出数据为 .txt 或 .gpx",
         "将元数据保存到照片"
       ],
       "button_text": "免费试用"

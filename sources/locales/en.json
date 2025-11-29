@@ -271,33 +271,28 @@
     "label_subscription_monthly": "Monthly subscription",
     "label_subscription_yearly": "Yearly subscription",
     "currency": "USD",
+    "or": "or",
+    "plan_type": {
+      "subscription": "Subscription",
+      "lifetime": "Lifetime Access"
+    },
     "ios": {
       "title": "iOS",
-      "price": "$1.99",
-      "price_yearly": "$17.99",
+      "price": "$2.99",
+      "price_yearly": "$19.99",
+      "price_lifetime": "$49.99",
       "period": "/mo.",
       "period_yearly": "/yr.",
-      "price_value_monthly": "1.99",
-      "price_value_yearly": "17.99",
+      "period_lifetime": "(one-time)",
+      "price_value_monthly": "2.99",
+      "price_value_yearly": "19.99",
+      "price_value_lifetime": "49.99",
       "includes_label": "Includes:",
       "features": [
         "Unlimited film rolls",
         "Subfolders",
         "Export data as .frames",
-        "Export data as .txt or .gpx"
-      ],
-      "button_text": "Try it Free"
-    },
-    "macos": {
-      "title": "macOS",
-      "price": "$1.99",
-      "price_yearly": "$17.99",
-      "period": "/mo.",
-      "period_yearly": "/yr.",
-      "price_value_monthly": "1.99",
-      "price_value_yearly": "17.99",
-      "includes_label": "Includes:",
-      "features": [
+        "Export data as .txt or .gpx",
         "Save metadata to photos"
       ],
       "button_text": "Try it Free"

@@ -240,33 +240,27 @@
     "label_subscription_monthly": "Abonnement mensuel",
     "label_subscription_yearly": "Abonnement annuel",
     "currency": "EUR",
+    "or": "ou",
+    "plan_type": {
+      "subscription": "Abonnement",
+      "lifetime": "Accès à vie"
+    },
     "ios": {
       "title": "iOS",
-      "price": "1,99 €",
-      "price_yearly": "19,99 €",
+      "price": "2,99 €",
+      "price_yearly": "22,99 €",
+      "price_lifetime": "59,99 €",
       "period": "/mois",
       "period_yearly": "/an",
-      "price_value_monthly": "1.99",
-      "price_value_yearly": "19.99",
+      "price_value_monthly": "2.99",
+      "price_value_yearly": "22.99",
+      "price_value_lifetime": "59.99",
       "includes_label": "Inclut :",
       "features": [
         "Pellicules illimitées",
         "Sous-dossiers",
         "Export de données en .frames",
-        "Export de données en .txt ou .gpx"
-      ],
-      "button_text": "Essai Gratuit"
-    },
-    "macos": {
-      "title": "macOS",
-      "price": "1,99 €",
-      "price_yearly": "19,99 €",
-      "period": "/mois",
-      "period_yearly": "/an",
-      "price_value_monthly": "1.99",
-      "price_value_yearly": "19.99",
-      "includes_label": "Inclut :",
-      "features": [
+        "Export de données en .txt ou .gpx",
         "Sauvegarde des métadonnées dans les photos"
       ],
       "button_text": "Essai Gratuit"

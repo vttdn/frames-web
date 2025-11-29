@@ -1,10 +1,8 @@
 {
       "@context": "https://schema.org",
-      "@graph": [
-        {
-          "@type": "MobileApplication",
+      "@type": "MobileApplication",
           "@id": "https://withframes.com/#frames-ios",
-          "name": "Frames iOS",
+          "name": "Frames",
           "operatingSystem": "iOS 18.0",
           "applicationCategory": "LifestyleApplication",
           "applicationSubCategory": "Photography",
@@ -33,12 +31,12 @@
             {
               "@type": "Offer",
               "name": "การสมัครสมาชิกแบบรายเดือน",
-              "price": "79",
+              "price": "99",
               "priceCurrency": "THB",
               "availability": "https://schema.org/InStock",
               "priceSpecification": {
                 "@type": "PriceSpecification",
-                "price": "79",
+                "price": "99",
                 "priceCurrency": "THB"
               }
             },
@@ -58,7 +56,7 @@
           "aggregateRating": {
             "@type": "AggregateRating",
             "ratingValue": "5",
-            "reviewCount": "7"
+            "reviewCount": "9"
           },
           "review": [
             {
@@ -151,63 +149,7 @@
                 "bestRating": "5",
                 "worstRating": "1"
             }
-            }
-          ]
-        },
-        {
-          "@type": "SoftwareApplication",
-          "@id": "https://withframes.com/#frames-macos",
-          "name": "Frames macOS",
-          "operatingSystem": "macOS 15.0",
-          "applicationCategory": "LifestyleApplication",
-          "applicationSubCategory": "Photography",
-          "publisher": { "@id": "https://withframes.com/#organization" },
-          "description": "แอปถ่ายภาพฟิล์มสำหรับช่างภาพอนาล็อก ติดตามการตั้งค่ากล้อง จัดระเบียบฟิล์ม และฝังข้อมูล EXIF ในภาพสแกน ทดลองใช้ฟรีสำหรับ iPhone และ Mac",
-          "image": [
-            "https://withframes.com/lib/img/shared/software/frames-logo.png",
-            "https://withframes.com/lib/img/shared/software/macos/screenshot-1.png",
-            "https://withframes.com/lib/img/shared/software/macos/screenshot-2.png",
-            "https://withframes.com/lib/img/shared/software/macos/screenshot-3.png"
-          ],
-          "url": "https://withframes.com/th",
-          "installUrl": "https://apps.apple.com/th/app/frames-film-metadata/id6744063354?l=th",
-          "softwareVersion": "1.10.0",
-          "releaseNotes": "https://withframes.com/th/changelog/1-10-macos/",
-          "contentRating": "4+",
-          "isAccessibleForFree": true,
-          "mainEntity": {
-            "@type": "WebPage",
-            "@id": "https://withframes.com/th"
-          },
-          "inLanguage": "th",
-          "keywords": "การถ่ายภาพ,บันทึก,อะนาล็อก,ฟิล์ม,ม้วน,ฟิล์มลบ,สมุดบันทึก,EXIF,เมทาดาต้า,กล้อง,35mm,ภาพ,สแกน,ภาพฟิล์ม,120mm,ภาพถ่าย,แอป,แอปพลิเคชัน,iOS,iPhone,Mac",
-          "offers": [
-            {
-              "@type": "Offer",
-              "name": "การสมัครสมาชิกแบบรายเดือน",
-              "price": "79",
-              "priceCurrency": "THB",
-              "availability": "https://schema.org/InStock",
-              "priceSpecification": {
-                "@type": "PriceSpecification",
-                "price": "79",
-                "priceCurrency": "THB"
-              }
             },
-            {
-              "@type": "Offer",
-              "name": "การสมัครสมาชิกแบบรายปี",
-              "price": "699",
-              "priceCurrency": "THB",
-              "availability": "https://schema.org/InStock",
-              "priceSpecification": {
-                "@type": "PriceSpecification",
-                "price": "699",
-                "priceCurrency": "THB"
-              }
-            }
-          ],
-          "review": [
             {
             "@type": "Review",
             "author": { "@type": "Person", "name": "BHenriquez" },
@@ -234,12 +176,5 @@
                 "worstRating": "1"
             }
             }
-          ],
-          "aggregateRating": {
-            "@type": "AggregateRating",
-            "ratingValue": "5",
-            "reviewCount": "2"
-          }
-        }
-      ]
+          ]
     }

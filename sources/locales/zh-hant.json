@@ -240,33 +240,27 @@
     "label_subscription_monthly": "每月訂閱",
     "label_subscription_yearly": "每年訂閱",
     "currency": "HKD",
+    "or": "或",
+    "plan_type": {
+      "subscription": "訂閱",
+      "lifetime": "終身存取"
+    },
     "ios": {
       "title": "iOS",
-      "price": "HK$18",
+      "price": "HK$22",
       "price_yearly": "HK$148",
+      "price_lifetime": "HK$388",
       "period": "/月",
       "period_yearly": "/年",
-      "price_value_monthly": "18",
+      "price_value_monthly": "22",
       "price_value_yearly": "148",
+      "price_value_lifetime": "388",
       "includes_label": "包含：",
       "features": [
         "無限膠卷",
         "子資料夾",
         "導出資料為 .frames",
-        "導出資料為 .txt 或 .gpx"
-      ],
-      "button_text": "免費試用"
-    },
-    "macos": {
-      "title": "macOS",
-      "price": "HK$18",
-      "price_yearly": "HK$148",
-      "period": "/月",
-      "period_yearly": "/年",
-      "price_value_monthly": "18",
-      "price_value_yearly": "148",
-      "includes_label": "包含：",
-      "features": [
+        "導出資料為 .txt 或 .gpx",
         "將元資料保存到照片"
       ],
       "button_text": "免費試用"

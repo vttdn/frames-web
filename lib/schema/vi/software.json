@@ -1,10 +1,8 @@
 {
       "@context": "https://schema.org",
-      "@graph": [
-        {
-          "@type": "MobileApplication",
+      "@type": "MobileApplication",
           "@id": "https://withframes.com/#frames-ios",
-          "name": "Frames iOS",
+          "name": "Frames",
           "operatingSystem": "iOS 18.0",
           "applicationCategory": "LifestyleApplication",
           "applicationSubCategory": "Photography",
@@ -33,24 +31,24 @@
             {
               "@type": "Offer",
               "name": "Đăng ký hàng tháng",
-              "price": "49000",
+              "price": "99000",
               "priceCurrency": "VND",
               "availability": "https://schema.org/InStock",
               "priceSpecification": {
                 "@type": "PriceSpecification",
-                "price": "49000",
+                "price": "99000",
                 "priceCurrency": "VND"
               }
             },
             {
               "@type": "Offer",
               "name": "Đăng ký hàng năm",
-              "price": "499000",
+              "price": "599000",
               "priceCurrency": "VND",
               "availability": "https://schema.org/InStock",
               "priceSpecification": {
                 "@type": "PriceSpecification",
-                "price": "499000",
+                "price": "599000",
                 "priceCurrency": "VND"
               }
             }
@@ -58,7 +56,7 @@
           "aggregateRating": {
             "@type": "AggregateRating",
             "ratingValue": "5",
-            "reviewCount": "7"
+            "reviewCount": "9"
           },
           "review": [
             {
@@ -151,63 +149,7 @@
                 "bestRating": "5",
                 "worstRating": "1"
             }
-            }
-          ]
-        },
-        {
-          "@type": "SoftwareApplication",
-          "@id": "https://withframes.com/#frames-macos",
-          "name": "Frames macOS",
-          "operatingSystem": "macOS 15.0",
-          "applicationCategory": "LifestyleApplication",
-          "applicationSubCategory": "Photography",
-          "publisher": { "@id": "https://withframes.com/#organization" },
-          "description": "Ứng dụng chụp ảnh phim cho nhiếp ảnh gia analog. Theo dõi cài đặt máy ảnh, sắp xếp cuộn phim và nhúng siêu dữ liệu EXIF. Dùng thử miễn phí cho iPhone và Mac.",
-          "image": [
-            "https://withframes.com/lib/img/shared/software/frames-logo.png",
-            "https://withframes.com/lib/img/shared/software/macos/screenshot-1.png",
-            "https://withframes.com/lib/img/shared/software/macos/screenshot-2.png",
-            "https://withframes.com/lib/img/shared/software/macos/screenshot-3.png"
-          ],
-          "url": "https://withframes.com/vi",
-          "installUrl": "https://apps.apple.com/vn/app/frames-siêu-dữ-liệu-phim/id6744063354?l=vi",
-          "softwareVersion": "1.10.0",
-          "releaseNotes": "https://withframes.com/vi/changelog/1-10-macos/",
-          "contentRating": "4+",
-          "isAccessibleForFree": true,
-          "mainEntity": {
-            "@type": "WebPage",
-            "@id": "https://withframes.com/vi"
-          },
-          "inLanguage": "vi",
-          "keywords": "nhiếpảnh,chú thích,tương tự,film,cuộn,âm bản,sổ tay,exif,dữ liệu máy ảnh,máy ảnh,35mm,hình ảnh,quét,120mm,ảnh,ứng dụng,iOS,iPhone,Mac",
-          "offers": [
-            {
-              "@type": "Offer",
-              "name": "Đăng ký hàng tháng",
-              "price": "49000",
-              "priceCurrency": "VND",
-              "availability": "https://schema.org/InStock",
-              "priceSpecification": {
-                "@type": "PriceSpecification",
-                "price": "49000",
-                "priceCurrency": "VND"
-              }
             },
-            {
-              "@type": "Offer",
-              "name": "Đăng ký hàng năm",
-              "price": "499000",
-              "priceCurrency": "VND",
-              "availability": "https://schema.org/InStock",
-              "priceSpecification": {
-                "@type": "PriceSpecification",
-                "price": "499000",
-                "priceCurrency": "VND"
-              }
-            }
-          ],
-          "review": [
             {
             "@type": "Review",
             "author": { "@type": "Person", "name": "BHenriquez" },
@@ -234,12 +176,5 @@
                 "worstRating": "1"
             }
             }
-          ],
-          "aggregateRating": {
-            "@type": "AggregateRating",
-            "ratingValue": "5",
-            "reviewCount": "2"
-          }
-        }
-      ]
+          ]
     }

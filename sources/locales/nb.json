@@ -240,33 +240,27 @@
     "label_subscription_monthly": "Månedlig abonnement",
     "label_subscription_yearly": "Årlig abonnement",
     "currency": "NOK",
+    "or": "eller",
+    "plan_type": {
+      "subscription": "Abonnement",
+      "lifetime": "Livstidstilgang"
+    },
     "ios": {
       "title": "iOS",
-      "price": "29 kr",
-      "price_yearly": "229 kr",
+      "price": "39 kr",
+      "price_yearly": "249 kr",
+      "price_lifetime": "599 kr",
       "period": "/md.",
       "period_yearly": "/år",
-      "price_value_monthly": "29",
-      "price_value_yearly": "229",
+      "price_value_monthly": "39",
+      "price_value_yearly": "249",
+      "price_value_lifetime": "599",
       "includes_label": "Inkluderer:",
       "features": [
         "Ubegrensede filmruller",
         "Undermapper",
         "Eksporter data som .frames",
-        "Eksporter data som .txt eller .gpx"
-      ],
-      "button_text": "Prøv Gratis"
-    },
-    "macos": {
-      "title": "macOS",
-      "price": "29 kr",
-      "price_yearly": "229 kr",
-      "period": "/md.",
-      "period_yearly": "/år",
-      "price_value_monthly": "29",
-      "price_value_yearly": "229",
-      "includes_label": "Inkluderer:",
-      "features": [
+        "Eksporter data som .txt eller .gpx",
         "Lagre metadata til bilder"
       ],
       "button_text": "Prøv Gratis"

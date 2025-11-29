@@ -1,0 +1,245 @@
+{
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "MobileApplication",
+          "@id": "https://withframes.com/#frames-ios",
+          "name": "{{ ios_appname }}",
+          "operatingSystem": "iOS 18.0",
+          "applicationCategory": "LifestyleApplication",
+          "applicationSubCategory": "Photography",
+          "publisher": { "@id": "https://withframes.com/#organization" },
+          "description": "{{ seo_meta_description }}",
+          "image": [
+            "https://withframes.com/lib/img/shared/software/frames-logo.png",
+            "https://withframes.com/lib/img/shared/software/ios/screenshot-1.png",
+            "https://withframes.com/lib/img/shared/software/ios/screenshot-2.png",
+            "https://withframes.com/lib/img/shared/software/ios/screenshot-3.png",
+            "https://withframes.com/lib/img/shared/software/ios/screenshot-4.png"
+          ],
+          "url": "{{ canonical_url }}",
+          "installUrl": "{{ appstore_url }}",
+          "softwareVersion": "{{ app_version_ios }}",
+          "releaseNotes": "{{ canonical_url }}/changelog/1-15-ios/",
+          "isAccessibleForFree": true,
+          "contentRating": "4+",
+          "inLanguage": "{{ lang }}",
+          "keywords": "{{ keywords }}",
+          "mainEntity": {
+            "@type": "WebPage",
+            "@id": "{{ canonical_url }}"
+          },
+          "offers": [
+            {
+              "@type": "Offer",
+              "name": "{{ monthly_label }}",
+              "price": "{{ monthly_price }}",
+              "priceCurrency": "{{ currency }}",
+              "availability": "https://schema.org/InStock",
+              "priceSpecification": {
+                "@type": "PriceSpecification",
+                "price": "{{ monthly_price }}",
+                "priceCurrency": "{{ currency }}"
+              }
+            },
+            {
+              "@type": "Offer",
+              "name": "{{ yearly_label }}",
+              "price": "{{ yearly_price }}",
+              "priceCurrency": "{{ currency }}",
+              "availability": "https://schema.org/InStock",
+              "priceSpecification": {
+                "@type": "PriceSpecification",
+                "price": "{{ yearly_price }}",
+                "priceCurrency": "{{ currency }}"
+              }
+            }
+          ],
+          "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "5",
+            "reviewCount": "7"
+          },
+          "review": [
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "{{ review1_author }}" },
+            "datePublished": "{{ review1_date }}",
+            "name": "{{ review1_title }}",
+            "reviewBody": "{{ review1_descr }}",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "{{ review1_rating }}",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            },
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "{{ review3_author }}" },
+            "datePublished": "{{ review3_date }}",
+            "name": "{{ review3_title }}",
+            "reviewBody": "{{ review3_descr }}",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "{{ review3_rating }}",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            },
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "{{ review4_author }}" },
+            "datePublished": "{{ review4_date }}",
+            "name": "{{ review4_title }}",
+            "reviewBody": "{{ review4_descr }}",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "{{ review4_rating }}",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            },
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "{{ review5_author }}" },
+            "datePublished": "{{ review5_date }}",
+            "name": "{{ review5_title }}",
+            "reviewBody": "{{ review5_descr }}",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "{{ review5_rating }}",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            },
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "{{ review6_author }}" },
+            "datePublished": "{{ review6_date }}",
+            "name": "{{ review6_title }}",
+            "reviewBody": "{{ review6_descr }}",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "{{ review6_rating }}",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            },
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "{{ review7_author }}" },
+            "datePublished": "{{ review7_date }}",
+            "name": "{{ review7_title }}",
+            "reviewBody": "{{ review7_descr }}",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "{{ review7_rating }}",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            },
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "{{ review9_author }}" },
+            "datePublished": "{{ review9_date }}",
+            "name": "{{ review9_title }}",
+            "reviewBody": "{{ review9_descr }}",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "{{ review9_rating }}",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            }
+          ]
+        },
+        {
+          "@type": "SoftwareApplication",
+          "@id": "https://withframes.com/#frames-macos",
+          "name": "{{ mac_appname }}",
+          "operatingSystem": "macOS 15.0",
+          "applicationCategory": "LifestyleApplication",
+          "applicationSubCategory": "Photography",
+          "publisher": { "@id": "https://withframes.com/#organization" },
+          "description": "{{ seo_meta_description }}",
+          "image": [
+            "https://withframes.com/lib/img/shared/software/frames-logo.png",
+            "https://withframes.com/lib/img/shared/software/macos/screenshot-1.png",
+            "https://withframes.com/lib/img/shared/software/macos/screenshot-2.png",
+            "https://withframes.com/lib/img/shared/software/macos/screenshot-3.png"
+          ],
+          "url": "{{ canonical_url }}",
+          "installUrl": "{{ macappstore_url }}",
+          "softwareVersion": "{{ app_version_macos }}",
+          "releaseNotes": "{{ canonical_url }}/changelog/1-10-macos/",
+          "contentRating": "4+",
+          "isAccessibleForFree": true,
+          "mainEntity": {
+            "@type": "WebPage",
+            "@id": "{{ canonical_url }}"
+          },
+          "inLanguage": "{{ lang }}",
+          "keywords": "{{ keywords }}",
+          "offers": [
+            {
+              "@type": "Offer",
+              "name": "{{ monthly_label }}",
+              "price": "{{ monthly_price }}",
+              "priceCurrency": "{{ currency }}",
+              "availability": "https://schema.org/InStock",
+              "priceSpecification": {
+                "@type": "PriceSpecification",
+                "price": "{{ monthly_price }}",
+                "priceCurrency": "{{ currency }}"
+              }
+            },
+            {
+              "@type": "Offer",
+              "name": "{{ yearly_label }}",
+              "price": "{{ yearly_price }}",
+              "priceCurrency": "{{ currency }}",
+              "availability": "https://schema.org/InStock",
+              "priceSpecification": {
+                "@type": "PriceSpecification",
+                "price": "{{ yearly_price }}",
+                "priceCurrency": "{{ currency }}"
+              }
+            }
+          ],
+          "review": [
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "{{ review2_author }}" },
+            "datePublished": "{{ review2_date }}",
+            "name": "{{ review2_title }}",
+            "reviewBody": "{{ review2_descr }}",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "{{ review2_rating }}",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            },
+            {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "{{ review8_author }}" },
+            "datePublished": "{{ review8_date }}",
+            "name": "{{ review8_title }}",
+            "reviewBody": "{{ review8_descr }}",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "{{ review8_rating }}",
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+            }
+          ],
+          "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "5",
+            "reviewCount": "2"
+          }
+        }
+      ]
+    }

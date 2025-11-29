@@ -1,10 +1,8 @@
 {
       "@context": "https://schema.org",
-      "@graph": [
-        {
-          "@type": "MobileApplication",
+      "@type": "MobileApplication",
           "@id": "https://withframes.com/#frames-ios",
-          "name": "Frames iOS",
+          "name": "Frames",
           "operatingSystem": "iOS 18.0",
           "applicationCategory": "LifestyleApplication",
           "applicationSubCategory": "Photography",
@@ -33,24 +31,24 @@
             {
               "@type": "Offer",
               "name": "Ежемесячная подписка",
-              "price": "199",
+              "price": "249",
               "priceCurrency": "RUB",
               "availability": "https://schema.org/InStock",
               "priceSpecification": {
                 "@type": "PriceSpecification",
-                "price": "199",
+                "price": "249",
                 "priceCurrency": "RUB"
               }
             },
             {
               "@type": "Offer",
               "name": "Годовая подписка",
-              "price": "1490",
+              "price": "1790",
               "priceCurrency": "RUB",
               "availability": "https://schema.org/InStock",
               "priceSpecification": {
                 "@type": "PriceSpecification",
-                "price": "1490",
+                "price": "1790",
                 "priceCurrency": "RUB"
               }
             }
@@ -58,7 +56,7 @@
           "aggregateRating": {
             "@type": "AggregateRating",
             "ratingValue": "5",
-            "reviewCount": "7"
+            "reviewCount": "9"
           },
           "review": [
             {
@@ -151,63 +149,7 @@
                 "bestRating": "5",
                 "worstRating": "1"
             }
-            }
-          ]
-        },
-        {
-          "@type": "SoftwareApplication",
-          "@id": "https://withframes.com/#frames-macos",
-          "name": "Frames macOS",
-          "operatingSystem": "macOS 15.0",
-          "applicationCategory": "LifestyleApplication",
-          "applicationSubCategory": "Photography",
-          "publisher": { "@id": "https://withframes.com/#organization" },
-          "description": "Приложение для плёночной фотографии и аналоговых снимков. Записывайте настройки камеры, организуйте плёнки и встраивайте EXIF. Бесплатная пробная версия.",
-          "image": [
-            "https://withframes.com/lib/img/shared/software/frames-logo.png",
-            "https://withframes.com/lib/img/shared/software/macos/screenshot-1.png",
-            "https://withframes.com/lib/img/shared/software/macos/screenshot-2.png",
-            "https://withframes.com/lib/img/shared/software/macos/screenshot-3.png"
-          ],
-          "url": "https://withframes.com/ru",
-          "installUrl": "https://apps.apple.com/ru/app/frames-метаданные-плёнки/id6744063354?mt=12&l=ru",
-          "softwareVersion": "1.10.0",
-          "releaseNotes": "https://withframes.com/ru/changelog/1-10-macos/",
-          "contentRating": "4+",
-          "isAccessibleForFree": true,
-          "mainEntity": {
-            "@type": "WebPage",
-            "@id": "https://withframes.com/ru"
-          },
-          "inLanguage": "ru",
-          "keywords": "фотография,заметки,аналог,плёнка,ролл,негатив,блокнот,exif,метаданные,камера,35mm,изображение,скан,фото,приложение,iOS,iPhone,Mac",
-          "offers": [
-            {
-              "@type": "Offer",
-              "name": "Ежемесячная подписка",
-              "price": "199",
-              "priceCurrency": "RUB",
-              "availability": "https://schema.org/InStock",
-              "priceSpecification": {
-                "@type": "PriceSpecification",
-                "price": "199",
-                "priceCurrency": "RUB"
-              }
             },
-            {
-              "@type": "Offer",
-              "name": "Годовая подписка",
-              "price": "1490",
-              "priceCurrency": "RUB",
-              "availability": "https://schema.org/InStock",
-              "priceSpecification": {
-                "@type": "PriceSpecification",
-                "price": "1490",
-                "priceCurrency": "RUB"
-              }
-            }
-          ],
-          "review": [
             {
             "@type": "Review",
             "author": { "@type": "Person", "name": "BHenriquez" },
@@ -234,12 +176,5 @@
                 "worstRating": "1"
             }
             }
-          ],
-          "aggregateRating": {
-            "@type": "AggregateRating",
-            "ratingValue": "5",
-            "reviewCount": "2"
-          }
-        }
-      ]
+          ]
     }

@@ -240,33 +240,27 @@
     "label_subscription_monthly": "Abbonamento mensile",
     "label_subscription_yearly": "Abbonamento annuale",
     "currency": "EUR",
+    "or": "oppure",
+    "plan_type": {
+      "subscription": "Abbonamento",
+      "lifetime": "Accesso a vita"
+    },
     "ios": {
       "title": "iOS",
-      "price": "1,99 €",
-      "price_yearly": "19.99 €",
+      "price": "2,99 €",
+      "price_yearly": "22,99 €",
+      "price_lifetime": "59,99 €",
       "period": "/mese",
       "period_yearly": "/anno",
-      "price_value_monthly": "1.99",
+      "price_value_monthly": "2.99",
       "price_value_yearly": "19.99",
+      "price_value_lifetime": "59.99",
       "includes_label": "Include:",
       "features": [
         "Rullini illimitati",
         "Sottocartelle",
         "Esporta dati come .frames",
-        "Esporta dati come .txt o .gpx"
-      ],
-      "button_text": "Prova Gratis"
-    },
-    "macos": {
-      "title": "macOS",
-      "price": "1,99 €",
-      "price_yearly": "19.99 €",
-      "period": "/mese",
-      "period_yearly": "/anno",
-      "price_value_monthly": "1.99",
-      "price_value_yearly": "19.99",
-      "includes_label": "Include:",
-      "features": [
+        "Esporta dati come .txt o .gpx",
         "Salva metadati nelle foto"
       ],
       "button_text": "Prova Gratis"

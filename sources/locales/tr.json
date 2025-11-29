@@ -240,33 +240,27 @@
     "label_subscription_monthly": "Aylık abonelik",
     "label_subscription_yearly": "Yıllık abonelik",
     "currency": "TRY",
+    "or": "veya",
+    "plan_type": {
+      "subscription": "Abonelik",
+      "lifetime": "Ömür Boyu Erişim"
+    },
     "ios": {
       "title": "iOS",
-      "price": "99,99 ₺",
-      "price_yearly": "799 ₺",
+      "price": "149,99 ₺",
+      "price_yearly": "999,99 ₺",
+      "price_lifetime": "2499,99 ₺",
       "period": "/ay",
       "period_yearly": "/yıl",
-      "price_value_monthly": "99.99",
-      "price_value_yearly": "799",
+      "price_value_monthly": "149.99",
+      "price_value_yearly": "999.99",
+      "price_value_lifetime": "2499.99",
       "includes_label": "İçerir:",
       "features": [
         "Sınırsız film ruloları",
         "Alt klasörler",
         ".frames olarak veri dışa aktarma",
-        ".txt veya .gpx olarak veri dışa aktarma"
-      ],
-      "button_text": "Ücretsiz Dene"
-    },
-    "macos": {
-      "title": "macOS",
-      "price": "99,99 ₺",
-      "price_yearly": "799 ₺",
-      "period": "/ay",
-      "period_yearly": "/yıl",
-      "price_value_monthly": "99.99",
-      "price_value_yearly": "799",
-      "includes_label": "İçerir:",
-      "features": [
+        ".txt veya .gpx olarak veri dışa aktarma",
         "Fotoğraflara metadata kaydet"
       ],
       "button_text": "Ücretsiz Dene"

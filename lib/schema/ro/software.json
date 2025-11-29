@@ -1,10 +1,8 @@
 {
       "@context": "https://schema.org",
-      "@graph": [
-        {
-          "@type": "MobileApplication",
+      "@type": "MobileApplication",
           "@id": "https://withframes.com/#frames-ios",
-          "name": "Frames iOS",
+          "name": "Frames",
           "operatingSystem": "iOS 18.0",
           "applicationCategory": "LifestyleApplication",
           "applicationSubCategory": "Photography",
@@ -33,12 +31,12 @@
             {
               "@type": "Offer",
               "name": "Abonament lunar",
-              "price": "9.99",
+              "price": "14.99",
               "priceCurrency": "RON",
               "availability": "https://schema.org/InStock",
               "priceSpecification": {
                 "@type": "PriceSpecification",
-                "price": "9.99",
+                "price": "14.99",
                 "priceCurrency": "RON"
               }
             },
@@ -58,7 +56,7 @@
           "aggregateRating": {
             "@type": "AggregateRating",
             "ratingValue": "5",
-            "reviewCount": "7"
+            "reviewCount": "9"
           },
           "review": [
             {
@@ -151,63 +149,7 @@
                 "bestRating": "5",
                 "worstRating": "1"
             }
-            }
-          ]
-        },
-        {
-          "@type": "SoftwareApplication",
-          "@id": "https://withframes.com/#frames-macos",
-          "name": "Frames macOS",
-          "operatingSystem": "macOS 15.0",
-          "applicationCategory": "LifestyleApplication",
-          "applicationSubCategory": "Photography",
-          "publisher": { "@id": "https://withframes.com/#organization" },
-          "description": "Aplicație fotografie pe film pentru fotografi analogici. Urmărește setările camerei, organizează filmele și integrează metadate EXIF. Încercare gratuită.",
-          "image": [
-            "https://withframes.com/lib/img/shared/software/frames-logo.png",
-            "https://withframes.com/lib/img/shared/software/macos/screenshot-1.png",
-            "https://withframes.com/lib/img/shared/software/macos/screenshot-2.png",
-            "https://withframes.com/lib/img/shared/software/macos/screenshot-3.png"
-          ],
-          "url": "https://withframes.com/ro",
-          "installUrl": "https://apps.apple.com/ro/app/frames-metadate-film-foto/id6744063354?l=ro",
-          "softwareVersion": "1.10.0",
-          "releaseNotes": "https://withframes.com/ro/changelog/1-10-macos/",
-          "contentRating": "4+",
-          "isAccessibleForFree": true,
-          "mainEntity": {
-            "@type": "WebPage",
-            "@id": "https://withframes.com/ro"
-          },
-          "inLanguage": "ro",
-          "keywords": "fotografie,notițe,analog,film,rolă,negativ,caiet,exif,metadata,aparat,35mm,imagine,scan,filmfoto,120mm,aplicație,iOS,iPhone,Mac",
-          "offers": [
-            {
-              "@type": "Offer",
-              "name": "Abonament lunar",
-              "price": "9.99",
-              "priceCurrency": "RON",
-              "availability": "https://schema.org/InStock",
-              "priceSpecification": {
-                "@type": "PriceSpecification",
-                "price": "9.99",
-                "priceCurrency": "RON"
-              }
             },
-            {
-              "@type": "Offer",
-              "name": "Abonament anual",
-              "price": "99.99",
-              "priceCurrency": "RON",
-              "availability": "https://schema.org/InStock",
-              "priceSpecification": {
-                "@type": "PriceSpecification",
-                "price": "99.99",
-                "priceCurrency": "RON"
-              }
-            }
-          ],
-          "review": [
             {
             "@type": "Review",
             "author": { "@type": "Person", "name": "BHenriquez" },
@@ -234,12 +176,5 @@
                 "worstRating": "1"
             }
             }
-          ],
-          "aggregateRating": {
-            "@type": "AggregateRating",
-            "ratingValue": "5",
-            "reviewCount": "2"
-          }
-        }
-      ]
+          ]
     }

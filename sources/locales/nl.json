@@ -240,32 +240,27 @@
     "label_subscription_monthly": "Maandelijks abonnement",
     "label_subscription_yearly": "Jaarabonnement",
     "currency": "EUR",
+    "or": "of",
+    "plan_type": {
+      "subscription": "Abonnement",
+      "lifetime": "Levenslange toegang"
+    },
     "ios": {
       "title": "iOS",
-      "price": "€ 1,99",
-      "price_yearly": "€ 19,99",
+      "price": "2,99 €",
+      "price_yearly": "22,99 €",
+      "price_lifetime": "59,99 €",
       "period": "/maand",
       "period_yearly": "/jaar",
-      "price_value_monthly": "1.99",
-      "price_value_yearly": "19.99",
+      "price_value_monthly": "2.99",
+      "price_value_yearly": "22.99",
+      "price_value_lifetime": "59.99",
       "includes_label": "Inclusief:",
       "features": [
         "Onbeperkt aantal filmrolletjes",
         "Submappen",
         "Gegevens exporteren als .frames",
-        "Gegevens exporteren als .txt of .gpx"
-      ],
-      "button_text": "Gratis Proberen"
-    },
-    "macos": {
-      "title": "macOS",
-      "price": "€ 1,99",
-      "price_yearly": "€ 19,99",
-      "period": "/maand",
-      "price_value_monthly": "1.99",
-      "price_value_yearly": "19.99",
-      "includes_label": "Inclusief:",
-      "features": [
+        "Gegevens exporteren als .txt of .gpx",
         "Metagegevens opslaan in foto's"
       ],
       "button_text": "Gratis Proberen"
