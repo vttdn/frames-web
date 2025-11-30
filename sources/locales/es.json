@@ -57,7 +57,7 @@
   },
   "hero": {
     "heading_seo": "App Frames Film Photography: Captura notas y metadatos para tu fotografía analógica",
-    "heading": "El cuaderno fotográfico esencial,<br>\ndiseñado para fotógrafos analógicos.",
+    "heading": "El cuaderno de fotografía analógica,<br>\ncreado para fotógrafos.",
     "button_macos_text": "Descargar para macOS",
     "button_macos_aria_label": "Descargar Frames para macOS",
     "button_ios_text": "Descargar para iOS",
@@ -86,14 +86,14 @@
     "images": {
       "preview1": {
         "src": "/lib/img/es/preview1.png",
-        "alt": "Grabador de fotos de cámara de película con control de velocidad de obturación y selector de apertura para registrar rápidamente configuraciones de exposición durante fotografía analógica.",
-        "caption": "Registra tus fotos instantáneamente con controles intuitivos de velocidad de obturación y apertura. La interfaz simplificada te permite capturar configuraciones de exposición en segundos sin interrumpir tu flujo creativo, asegurando que los detalles de cada cuadro se preserven para referencia futura.",
+        "alt": "Grabador de fotos de cámara de película con control de velocidad de obturación, selector de apertura y compensación de exposición para registrar rápidamente configuraciones de exposición durante fotografía analógica.",
+        "caption": "Registra tus fotos instantáneamente con controles intuitivos de velocidad de obturación, apertura y compensación de exposición. La interfaz te permite capturar configuraciones de exposición en segundos sin interrumpir tu proceso creativo, asegurando que los detalles de cada cuadro se preserven para referencia futura.",
         "heading": "Registro Rápido de Tomas"
       },
       "preview2": {
         "src": "/lib/img/es/preview2.png",
         "alt": "Campos completos de seguimiento de metadatos de película: equipo de cámara, tipo de película, apertura, distancia focal, velocidad de obturación, ISO, configuración de flash y datos de ubicación GPS.",
-        "caption": "Rastrea cada detalle importante para tu fotografía. Registra equipo de cámara, tipo de película, apertura, distancia focal, velocidad de obturación, ISO, configuración de flash, ubicación GPS y notas personalizadas. Mantén registros completos que te ayuden a aprender y mejorar con cada rollo que fotografías.",
+        "caption": "Rastrea cada detalle importante para tu fotografía. Registra equipo de cámara, tipo de película, apertura, distancia focal, velocidad de obturación, ISO, configuración de flash, ubicación GPS y notas personalizadas. Crea registros completos que te ayuden a aprender y mejorar con cada rollo que fotografías.",
         "heading": "Metadatos Completos"
       },
       "preview3": {
@@ -206,7 +206,7 @@
     "feature3": {
       "label": "Registrar",
       "title": "Capturar Ajustes",
-      "description": "Registra apertura, velocidad de obturación, película y ubicación al instante para cada fotograma, manteniendo la información de cada toma precisa y accesible."
+      "description": "Registra apertura, velocidad de obturación, película y ubicación para cada fotograma. Tu información de cada toma permanece precisa y accesible."
     },
     "feature4": {
       "label": "Historial",
@@ -284,11 +284,11 @@
     },
     "question4": {
       "question": "¿Qué velocidades de obturación y aperturas están soportadas?",
-      "answer": "Frames proporciona secuencias predeterminadas que cubren la mayoría de objetivos y cámaras, y también puedes definir secuencias personalizadas para tu equipo, haciéndolo compatible con cualquier valor de velocidad de obturación o apertura."
+      "answer": "Frames proporciona secuencias predefinidas de apertura (f/1.0 a f/64) y velocidad de obturación (1/8000s a 60s) que cubren la mayoría de objetivos y cámaras. También puedes definir secuencias personalizadas para tu equipo específico, garantizando compatibilidad con cualquier valor personalizado de apertura o velocidad de obturación."
     },
     "question5": {
       "question": "¿Puedo registrar trípodes o accesorios?",
-      "answer": "Sí, Frames te permite registrar trípodes, flashes y otros accesorios. También hay un campo de notas adicional donde puedes añadir cualquier detalle personalizado que desees."
+      "answer": "Sí, Frames te permite registrar trípodes y fuentes de iluminación como flashes de zapata, flashes anulares, cajas de luz, reflectores o modificadores de luz. También hay un campo de notas adicional donde puedes añadir cualquier detalle personalizado que desees."
     },
     "question6": {
       "question": "¿Puedo sincronizar mis datos entre iPhone y Mac?",
@@ -296,15 +296,15 @@
     },
     "question7": {
       "question": "¿Frames funciona sin conexión?",
-      "answer": "Por supuesto. Frames está diseñado para funcionar completamente sin conexión, lo que lo hace perfecto para fotografiar en lugares remotos sin conectividad a internet. Todos tus datos se almacenan localmente en tu dispositivo, para que puedas registrar fotos, gestionar tu archivo y organizar tu equipo en cualquier lugar. El etiquetado de ubicación GPS también funciona sin conexión y se guardará cuando registres cada cuadro. Solo necesitas internet cuando exportas metadatos a imágenes escaneadas o verificas actualizaciones de la aplicación."
+      "answer": "Por supuesto. Frames está diseñado para funcionar completamente sin conexión, lo que lo hace perfecto para fotografiar en lugares remotos sin conectividad a internet. Todos tus datos se almacenan localmente en tu dispositivo, para que puedas registrar fotos, gestionar tu archivo y organizar tu equipo en cualquier lugar. El etiquetado de ubicación GPS también funciona sin conexión y se guardará automáticamente cuando registres cada fotograma. Solo necesitas internet cuando verificas actualizaciones de la aplicación."
     },
     "question8": {
       "question": "¿Cuáles son los planes para futuras actualizaciones?",
-      "answer": "Los planes futuros incluyen ampliar las funciones de flujo de trabajo, mejorar la integración entre dispositivos y añadir nuevas herramientas solicitadas por la comunidad para hacer el registro de fotografía analógica aún más flexible y potente."
+      "answer": "Las futuras actualizaciones ampliarán las funcionalidades relacionadas con el proceso de trabajo, mejorarán la integración entre dispositivos y añadirán nuevas herramientas solicitadas por la comunidad. Esto hará que el registro de fotografía analógica sea aún más flexible y potente."
     }
   },
   "contact": {
-    "heading": "Queremos conocer tus ideas y opiniones.",
+    "heading": "Comparte tus ideas y opiniones.",
     "button_text": "Envíanos un email"
   },
   "footer": {
@@ -444,11 +444,11 @@
     },
     "howto2": {
       "heading": "2. Registrar cada disparo sobre la marcha",
-      "description": "Mientras fotografías en película, registra la configuración de la cámara para cada fotograma: apertura, velocidad de obturación, distancia focal, flash, notas creativas y más. La geolocalización, nombres de lugares y marcas temporales se capturan automáticamente para respaldar un registro preciso de fotografía analógica. Puedes usar los controles deslizantes predeterminados o cambiar a una vista de formulario clásica a través del menú superior derecho."
+      "description": "Mientras fotografías en película, registra la configuración de la cámara para cada fotograma: apertura, velocidad de obturación, distancia focal, flash, notas creativas y más. La geolocalización, nombres de lugares y marcas temporales se capturan automáticamente para crear un registro preciso de fotografía analógica. Puedes usar los controles deslizantes predeterminados o cambiar a una vista de formulario clásica a través del menú superior derecho."
     },
     "howto3": {
       "heading": "3. Exportar tus datos",
-      "description": "Una vez que tu rollo esté terminado y todos los disparos registrados, exporta los datos como un archivo .frames. Envíalo a tu Mac usando AirDrop, correo electrónico o cualquier método que prefieras. Este archivo contiene todos los metadatos de fotografía en película registrados para uso posterior con tus escaneos."
+      "description": "Una vez que tu rollo esté terminado y todos los disparos registrados, exporta los datos como un archivo .frames. Envíalo a tu Mac usando AirDrop, correo electrónico o cualquier método que prefieras. Este archivo contiene todos los metadatos fotográficos registrados para uso posterior con tus escaneos."
     },
     "howto4": {
       "heading": "4. Cargar tus datos",
