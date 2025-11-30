@@ -51,6 +51,18 @@
                 "price": "999.99",
                 "priceCurrency": "TRY"
               }
+            },
+            {
+              "@type": "Offer",
+              "name": "Ömür Boyu Erişim",
+              "price": "2499.99",
+              "priceCurrency": "TRY",
+              "availability": "https://schema.org/InStock",
+              "priceSpecification": {
+                "@type": "PriceSpecification",
+                "price": "2499.99",
+                "priceCurrency": "TRY"
+              }
             }
           ],
           "aggregateRating": {

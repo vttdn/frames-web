@@ -51,6 +51,18 @@
                 "price": "99.99",
                 "priceCurrency": "RON"
               }
+            },
+            {
+              "@type": "Offer",
+              "name": "Acces pe viață",
+              "price": "299.99",
+              "priceCurrency": "RON",
+              "availability": "https://schema.org/InStock",
+              "priceSpecification": {
+                "@type": "PriceSpecification",
+                "price": "299.99",
+                "priceCurrency": "RON"
+              }
             }
           ],
           "aggregateRating": {

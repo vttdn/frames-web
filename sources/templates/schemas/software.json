@@ -51,6 +51,18 @@
                 "price": "{{ yearly_price }}",
                 "priceCurrency": "{{ currency }}"
               }
+            },
+            {
+              "@type": "Offer",
+              "name": "{{ lifetime_label }}",
+              "price": "{{ lifetime_price }}",
+              "priceCurrency": "{{ currency }}",
+              "availability": "https://schema.org/InStock",
+              "priceSpecification": {
+                "@type": "PriceSpecification",
+                "price": "{{ lifetime_price }}",
+                "priceCurrency": "{{ currency }}"
+              }
             }
           ],
           "aggregateRating": {

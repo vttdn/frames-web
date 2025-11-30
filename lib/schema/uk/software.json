@@ -51,6 +51,18 @@
                 "price": "22.99",
                 "priceCurrency": "USD"
               }
+            },
+            {
+              "@type": "Offer",
+              "name": "Довічний доступ",
+              "price": "59.99",
+              "priceCurrency": "USD",
+              "availability": "https://schema.org/InStock",
+              "priceSpecification": {
+                "@type": "PriceSpecification",
+                "price": "59.99",
+                "priceCurrency": "USD"
+              }
             }
           ],
           "aggregateRating": {

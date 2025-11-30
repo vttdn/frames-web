@@ -51,6 +51,18 @@
                 "price": "1999",
                 "priceCurrency": "INR"
               }
+            },
+            {
+              "@type": "Offer",
+              "name": "आजीवन पहुँच",
+              "price": "4999",
+              "priceCurrency": "INR",
+              "availability": "https://schema.org/InStock",
+              "priceSpecification": {
+                "@type": "PriceSpecification",
+                "price": "4999",
+                "priceCurrency": "INR"
+              }
             }
           ],
           "aggregateRating": {

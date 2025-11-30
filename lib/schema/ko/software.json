@@ -51,6 +51,18 @@
                 "price": "29000",
                 "priceCurrency": "KRW"
               }
+            },
+            {
+              "@type": "Offer",
+              "name": "평생 액세스",
+              "price": "66000",
+              "priceCurrency": "KRW",
+              "availability": "https://schema.org/InStock",
+              "priceSpecification": {
+                "@type": "PriceSpecification",
+                "price": "66000",
+                "priceCurrency": "KRW"
+              }
             }
           ],
           "aggregateRating": {

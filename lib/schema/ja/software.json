@@ -51,6 +51,18 @@
                 "price": "3000",
                 "priceCurrency": "JPY"
               }
+            },
+            {
+              "@type": "Offer",
+              "name": "永久アクセス",
+              "price": "8000",
+              "priceCurrency": "JPY",
+              "availability": "https://schema.org/InStock",
+              "priceSpecification": {
+                "@type": "PriceSpecification",
+                "price": "8000",
+                "priceCurrency": "JPY"
+              }
             }
           ],
           "aggregateRating": {

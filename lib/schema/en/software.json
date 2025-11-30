@@ -51,6 +51,18 @@
                 "price": "19.99",
                 "priceCurrency": "USD"
               }
+            },
+            {
+              "@type": "Offer",
+              "name": "Lifetime Access",
+              "price": "49.99",
+              "priceCurrency": "USD",
+              "availability": "https://schema.org/InStock",
+              "priceSpecification": {
+                "@type": "PriceSpecification",
+                "price": "49.99",
+                "priceCurrency": "USD"
+              }
             }
           ],
           "aggregateRating": {

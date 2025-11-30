@@ -51,6 +51,18 @@
                 "price": "349000",
                 "priceCurrency": "IDR"
               }
+            },
+            {
+              "@type": "Offer",
+              "name": "Akses Seumur Hidup",
+              "price": "799000",
+              "priceCurrency": "IDR",
+              "availability": "https://schema.org/InStock",
+              "priceSpecification": {
+                "@type": "PriceSpecification",
+                "price": "799000",
+                "priceCurrency": "IDR"
+              }
             }
           ],
           "aggregateRating": {

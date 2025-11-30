@@ -51,6 +51,18 @@
                 "price": "19.99",
                 "priceCurrency": "EUR"
               }
+            },
+            {
+              "@type": "Offer",
+              "name": "Accesso a vita",
+              "price": "59.99",
+              "priceCurrency": "EUR",
+              "availability": "https://schema.org/InStock",
+              "priceSpecification": {
+                "@type": "PriceSpecification",
+                "price": "59.99",
+                "priceCurrency": "EUR"
+              }
             }
           ],
           "aggregateRating": {

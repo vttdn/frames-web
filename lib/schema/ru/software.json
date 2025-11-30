@@ -51,6 +51,18 @@
                 "price": "1790",
                 "priceCurrency": "RUB"
               }
+            },
+            {
+              "@type": "Offer",
+              "name": "Пожизненный доступ",
+              "price": "4490",
+              "priceCurrency": "RUB",
+              "availability": "https://schema.org/InStock",
+              "priceSpecification": {
+                "@type": "PriceSpecification",
+                "price": "4490",
+                "priceCurrency": "RUB"
+              }
             }
           ],
           "aggregateRating": {

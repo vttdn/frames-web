@@ -51,6 +51,18 @@
                 "price": "249",
                 "priceCurrency": "SEK"
               }
+            },
+            {
+              "@type": "Offer",
+              "name": "Livstidsåtkomst",
+              "price": "599",
+              "priceCurrency": "SEK",
+              "availability": "https://schema.org/InStock",
+              "priceSpecification": {
+                "@type": "PriceSpecification",
+                "price": "599",
+                "priceCurrency": "SEK"
+              }
             }
           ],
           "aggregateRating": {

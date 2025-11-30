@@ -51,6 +51,18 @@
                 "price": "22.99",
                 "priceCurrency": "EUR"
               }
+            },
+            {
+              "@type": "Offer",
+              "name": "Lebenslanger Zugriff",
+              "price": "59.99",
+              "priceCurrency": "EUR",
+              "availability": "https://schema.org/InStock",
+              "priceSpecification": {
+                "@type": "PriceSpecification",
+                "price": "59.99",
+                "priceCurrency": "EUR"
+              }
             }
           ],
           "aggregateRating": {

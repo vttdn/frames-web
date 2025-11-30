@@ -51,6 +51,18 @@
                 "price": "179",
                 "priceCurrency": "DKK"
               }
+            },
+            {
+              "@type": "Offer",
+              "name": "Livstidsadgang",
+              "price": "399",
+              "priceCurrency": "DKK",
+              "availability": "https://schema.org/InStock",
+              "priceSpecification": {
+                "@type": "PriceSpecification",
+                "price": "399",
+                "priceCurrency": "DKK"
+              }
             }
           ],
           "aggregateRating": {

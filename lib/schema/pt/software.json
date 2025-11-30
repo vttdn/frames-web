@@ -51,6 +51,18 @@
                 "price": "129.90",
                 "priceCurrency": "BRL"
               }
+            },
+            {
+              "@type": "Offer",
+              "name": "Acesso vitalício",
+              "price": "299.90",
+              "priceCurrency": "BRL",
+              "availability": "https://schema.org/InStock",
+              "priceSpecification": {
+                "@type": "PriceSpecification",
+                "price": "299.90",
+                "priceCurrency": "BRL"
+              }
             }
           ],
           "aggregateRating": {
