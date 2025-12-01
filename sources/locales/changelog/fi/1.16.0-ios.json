@@ -1,0 +1,50 @@
+{
+  "version": "1.16.0",
+  "version_short": "1.16",
+  "url_slug": "1-16-ios",
+  "platform": "ios",
+  "release_date": "2025-12-01T10:00:00.000Z",
+  "title": "Elinikäinen osto nyt saatavilla",
+  "meta_title": "Elinikäinen osto nyt saatavilla - Frames",
+  "meta_description": "Voit nyt ostaa Framesin kertamaksulla ja omistaa sen pysyvästi iPhonella ja iPadilla. Mac-sovellus sisältyy automaattisesti kaikkiin tilauksiin, ja käyttöliittymää on hiottu kevyesti.",
+  "summary": "Useiden toivoma kertamaksuvaihtoehto on nyt saatavilla iOS:lle. Maksa kerran ja omista Frames ikuisesti iPhonella, iPadilla ja Macilla. Tilaukset sisältävät nyt myös täydellisen Mac-sovelluksen ilman lisäkuluja.",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Omista Frames pysyvästi"
+    },
+    {
+      "type": "paragraph",
+      "content": "Monet teistä kertoivat Redditissä ja sähköposteissa, että haluaisitte mieluummin ostaa sovelluksen kuin tilata sen. Ymmärrän sen hyvin — on rauhoittavaa tietää, että sovellus on omasi pysyvästi. Kertamaksuvaihtoehto on nyt käytettävissä suoraan iOS-sovelluksessa. Yksi maksu antaa pääsyn kaikkiin nykyisiin ominaisuuksiin, tuleviin päivityksiin ja täyteen Mac-versioon ikuisesti."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.16.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.16.0-1@2x.png",
+      "alt": "Frames kertamaksu iPhonelle ja Macille",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "paragraph",
+      "content": "Jos haluat jatkaa tilausta, mikään ei muutu — paitsi että nykyinen iOS-tilauksesi avaa nyt automaattisesti täyden Mac-sovelluksen, mukaan lukien metadatan upotus. Ei lisätoimia, ei lisämaksuja."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Pieniä parannuksia kautta linjan"
+    },
+    {
+      "type": "paragraph",
+      "content": "Kuten aina, teimme joukon pieniä parannuksia ja visuaalisia viilauksia — erityisesti tallennustyökalupalkkiin, jotta käyttö tuntuisi hieman selkeämmältä ja miellyttävämmältä."
+    }
+  ],
+  "improvements": [
+    "Lisätty kertamaksuvaihtoehto iOS-sovellukseen (kertamaksu, pysyvä käyttöoikeus iPhone-, iPad- ja Mac-versioihin)",
+    "macOS-sovellus metadatan upotuksella avautuu nyt automaattisesti kaikille aktiivisille iOS-tilaajille ilman lisäkustannuksia",
+    "Pieniä käyttöliittymäparannuksia ja parempi kontrasti työkalupalkissa"
+  ],
+  "fixes": [],
+  "patches": []
+}

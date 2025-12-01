@@ -1,0 +1,50 @@
+{
+  "version": "1.16.0",
+  "version_short": "1.16",
+  "url_slug": "1-16-ios",
+  "platform": "ios",
+  "release_date": "2025-12-01T10:00:00.000Z",
+  "title": "Livstidskøb nu tilgængeligt",
+  "meta_title": "Livstidskøb nu tilgængeligt - Frames",
+  "meta_description": "Du kan nu købe Frames én gang og eje det for altid på iPhone og iPad. Mac-appen følger automatisk med i alle abonnementer, og små visuelle justeringer gør appen endnu mere behagelig.",
+  "summary": "Muligheden for et engangskøb, som mange har efterspurgt, er nu tilgængelig på iOS. Betal én gang og behold Frames for altid på din iPhone, iPad og Mac. Abonnementer inkluderer nu også hele Mac-appen uden ekstra omkostninger.",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Behold Frames for altid"
+    },
+    {
+      "type": "paragraph",
+      "content": "Mange af jer har skrevet på Reddit og i emails, at I foretrækker at købe appen fremfor at abonnere. Det forstår jeg godt — det giver ro at vide, at appen er jeres for altid. Engangskøbet er derfor nu tilgængeligt direkte i iOS-appen. Én betaling giver adgang til alle nuværende funktioner, kommende opdateringer og den fulde Mac-app resten af tiden."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.16.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.16.0-1@2x.png",
+      "alt": "Frames engangskøb til iPhone og Mac",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "paragraph",
+      "content": "Hvis du hellere vil fortsætte med dit abonnement, ændrer intet sig — bortset fra, at dit nuværende iOS-abonnement nu automatisk låser hele Mac-appen op, inklusive metadata-indlejring. Ingen ekstra trin, ingen ekstra betaling."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Små forbedringer overalt"
+    },
+    {
+      "type": "paragraph",
+      "content": "Som altid er der lavet små forbedringer og visuelle justeringer — denne gang især i optageværktøjslinjen, så alt føles lidt mere præcist og behageligt at bruge."
+    }
+  ],
+  "improvements": [
+    "Tilføjet mulighed for engangskøb i iOS-appen (engangsbetaling, permanent adgang til iPhone-, iPad- og Mac-versioner)",
+    "macOS-appen med metadata-indlejring låses nu automatisk op for alle aktive iOS-abonnenter uden ekstra betaling",
+    "Mindre visuelle forbedringer og bedre kontrast i værktøjslinjen"
+  ],
+  "fixes": [],
+  "patches": []
+}

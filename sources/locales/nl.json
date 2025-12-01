@@ -57,7 +57,7 @@
   },
   "hero": {
     "heading_seo": "Frames Filmfotografie-app: Noteer en beheer metadata voor je analoge fotografie",
-    "heading": "Het essentiële fotografie-notitieboek,<br>\nontworpen voor analoge fotografen.",
+    "heading": "Het filmfotografie-notitieboek,<br>\ngemaakt voor analoge fotografen.",
     "button_macos_text": "Download voor macOS",
     "button_macos_aria_label": "Download Frames voor macOS",
     "button_ios_text": "Download voor iOS",
@@ -86,14 +86,14 @@
     "images": {
       "preview1": {
         "src": "/lib/img/nl/preview1.png",
-        "alt": "Filmcamera-opnameopnemer met sluitertijdknop en diafragmaselector voor snel loggen van belichtingsinstellingen tijdens analoge fotografie.",
-        "caption": "Log je opnames direct met intuïtieve knoppen voor sluitertijd en diafragma. De gestroomlijnde interface laat je belichtingsinstellingen in seconden vastleggen zonder je creatieve flow te onderbreken, waardoor de details van elk frame bewaard blijven voor latere referentie.",
+        "alt": "Filmcamera-opnameopnemer met sluitertijdknop, diafragmaselector en belichtingscompensatie voor snel loggen van belichtingsinstellingen tijdens analoge fotografie.",
+        "caption": "Log je opnames direct met intuïtieve knoppen voor sluitertijd, diafragma en belichtingscompensatie. De interface laat je belichtingsinstellingen in seconden vastleggen zonder je creatief proces te onderbreken, waardoor de details van elk frame bewaard blijven voor latere referentie.",
         "heading": "Snelle Opname-logging"
       },
       "preview2": {
         "src": "/lib/img/nl/preview2.png",
         "alt": "Volledige filmmetadata-volgvelden: camera-uitrusting, filmtype, diafragma, brandpuntsafstand, sluitertijd, ISO, flitsinstellingen en GPS-locatiegegevens.",
-        "caption": "Houd elk detail bij dat belangrijk is voor je fotografie. Registreer camera-uitrusting, filmtype, diafragma, brandpuntsafstand, sluitertijd, ISO, flitsinstellingen, GPS-locatie en aangepaste notities. Bewaar uitgebreide gegevens die je helpen leren en verbeteren met elk rolletje dat je schiet.",
+        "caption": "Houd elk detail bij dat belangrijk is voor je fotografie. Registreer camera-uitrusting, filmtype, diafragma, brandpuntsafstand, sluitertijd, ISO, flitsinstellingen, GPS-locatie en aangepaste notities. Creëer volledige gegevens die je helpen leren en verbeteren met elk rolletje dat je schiet.",
         "heading": "Uitgebreide Metadata"
       },
       "preview3": {
@@ -206,7 +206,7 @@
     "feature3": {
       "label": "Vastleggen",
       "title": "Instellingen Vastleggen",
-      "description": "Leg direct diafragma, sluitertijd, filmsoort en locatiegegevens vast voor elk frame, zodat alle informatie nauwkeurig en toegankelijk blijft."
+      "description": "Leg diafragma, sluitertijd, filmsoort en locatiegegevens vast voor elk frame. Je informatie blijft nauwkeurig en toegankelijk."
     },
     "feature4": {
       "label": "Geschiedenis",
@@ -257,12 +257,11 @@
       "price_value_lifetime": "59.99",
       "includes_label": "Inclusief:",
       "features": [
-        "Onbeperkt aantal filmrolletjes",
+        "Onbeperkte films",
         "Submappen",
-        "Gegevens exporteren als .frames",
-        "Gegevens exporteren als .txt of .gpx",
-        "Metagegevens opslaan in foto's",
-        "iPhone- en Mac-apps inbegrepen"
+        "Gegevensexport",
+        "Metagegevens insluiten",
+        "iPhone- en Mac-apps"
       ],
       "button_text": "Gratis Proberen"
     },
@@ -285,11 +284,11 @@
     },
     "question4": {
       "question": "Welke sluitertijden en diafragma's worden ondersteund?",
-      "answer": "Frames biedt standaardreeksen die de meeste lenzen en camera's dekken, en je kunt ook aangepaste reeksen definiëren voor je eigen apparatuur, waardoor het compatibel is met elke sluitertijd of diafragmawaarde."
+      "answer": "Frames biedt vooraf gedefinieerde reeksen voor diafragma (f/1.0 tot f/64) en sluitertijd (1/8000s tot 60s) die de meeste lenzen en camera's dekken. Je kunt ook aangepaste reeksen definiëren voor je specifieke apparatuur, waardoor compatibiliteit met elke aangepaste diafragma- of sluitertijdwaarde gegarandeerd is."
     },
     "question5": {
       "question": "Kan ik statieven of accessoires vastleggen?",
-      "answer": "Ja, Frames laat je statieven, flitsers en andere accessoires vastleggen. Er is ook een extra notitieveld waar je elk gewenst detail kunt toevoegen."
+      "answer": "Ja, Frames laat je statieven en lichtbronnen vastleggen zoals flitsers, ringflitsers, softboxen, reflectoren of lichtmodificatoren. Er is ook een extra notitieveld waar je elk gewenst detail kunt toevoegen."
     },
     "question6": {
       "question": "Kan ik mijn gegevens synchroniseren tussen iPhone en Mac?",
@@ -297,15 +296,15 @@
     },
     "question7": {
       "question": "Werkt Frames offline?",
-      "answer": "Absoluut. Frames is ontworpen om volledig offline te werken, waardoor het perfect is voor fotograferen op afgelegen locaties zonder internetverbinding. Al je gegevens worden lokaal op je apparaat opgeslagen, zodat je overal opnames kunt loggen, je archief kunt beheren en je apparatuur kunt organiseren. GPS-locatietagging werkt ook offline en wordt opgeslagen wanneer je elk frame vastlegt. Je hebt alleen internet nodig bij het exporteren van metadata naar gescande afbeeldingen of bij het controleren op app-updates."
+      "answer": "Absoluut. Frames is ontworpen om volledig offline te werken, waardoor het perfect is voor fotograferen op afgelegen locaties zonder internetverbinding. Al je gegevens worden lokaal op je apparaat opgeslagen, zodat je overal opnames kunt loggen, je archief kunt beheren en je apparatuur kunt organiseren. GPS-locatietagging werkt ook offline en wordt automatisch opgeslagen wanneer je elk frame vastlegt. Je hebt alleen internet nodig bij het controleren op app-updates."
     },
     "question8": {
       "question": "Wat zijn de plannen voor toekomstige updates?",
-      "answer": "Toekomstige plannen omvatten het uitbreiden van workflowfuncties, het verbeteren van integratie tussen apparaten en het toevoegen van nieuwe tools die door de gemeenschap zijn gevraagd om analoge fotografieregistratie nog flexibeler en krachtiger te maken."
+      "answer": "Toekomstige updates zullen workflowfuncties uitbreiden, integratie tussen apparaten verbeteren en nieuwe tools toevoegen die door de gemeenschap zijn gevraagd. Dit zal analoge fotografieregistratie nog flexibeler en krachtiger maken."
     }
   },
   "contact": {
-    "heading": "Laat ons je ideeën en gedachten horen.",
+    "heading": "Deel je ideeën en gedachten.",
     "button_text": "Stuur ons een e-mail"
   },
   "footer": {
@@ -445,11 +444,11 @@
     },
     "howto2": {
       "heading": "2. Registreer elke opname onderweg",
-      "description": "Terwijl je op film fotografeert, registreer je de camera-instellingen voor elk beeld: diafragma, sluitertijd, brandpuntsafstand, flitser, creatieve notities en meer. Geolocatie, plaatsnamen en tijdstempels worden automatisch vastgelegd ter ondersteuning van een nauwkeurige analoge fotografielog. Je kunt de standaard schuifregelaar gebruiken of overschakelen naar een klassieke formulierweergave via het menu rechtsboven."
+      "description": "Terwijl je op film fotografeert, registreer je de camera-instellingen voor elk beeld: diafragma, sluitertijd, brandpuntsafstand, flitser, creatieve notities en meer. Geolocatie, plaatsnamen en tijdstempels worden automatisch vastgelegd om een nauwkeurige analoge fotografielog te creëren. Je kunt de standaard schuifregelaar gebruiken of overschakelen naar een klassieke formulierweergave via het menu rechtsboven."
     },
     "howto3": {
       "heading": "3. Exporteer je gegevens",
-      "description": "Zodra je filmrol klaar is en alle opnames zijn geregistreerd, exporteer je de gegevens als een .frames-bestand. Verstuur het naar je Mac via AirDrop, e-mail of een andere methode. Dit bestand bevat alle vastgelegde metadata van je filmopnames voor later gebruik met je scans."
+      "description": "Zodra je filmrol klaar is en alle opnames zijn geregistreerd, exporteer je de gegevens als een .frames-bestand. Verstuur het naar je Mac via AirDrop, e-mail of een andere methode. Dit bestand bevat alle vastgelegde fotografische metadata voor later gebruik met je scans."
     },
     "howto4": {
       "heading": "4. Laad je gegevens",

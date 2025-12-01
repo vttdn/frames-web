@@ -1,0 +1,50 @@
+{
+  "version": "1.16.0",
+  "version_short": "1.16",
+  "url_slug": "1-16-ios",
+  "platform": "ios",
+  "release_date": "2025-12-01T10:00:00.000Z",
+  "title": "Lifetime Purchase Option Now Available",
+  "meta_title": "Lifetime Purchase Option Now Available - Frames",
+  "meta_description": "You can now buy Frames once and own it forever on iPhone and iPad. The Mac app is included automatically with any subscription, and a few small interface touches make the app feel even nicer.",
+  "summary": "The lifetime purchase option that many of you asked for is finally here on iOS. Pay once, keep Frames forever on your iPhone, iPad, and Mac. Subscriptions now include the full Mac experience at no additional cost.",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Own Frames Forever"
+    },
+    {
+      "type": "paragraph",
+      "content": "A lot of you told me on Reddit and in emails that you’d rather buy the app outright than subscribe. I completely understand, there’s peace of mind in knowing it’s yours for good. So the lifetime purchase option is now available directly in the iOS app. One payment gives you every current feature, all future updates, and the full Mac app forever."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.16.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.16.0-1@2x.png",
+      "alt": "Frames for iPhone and Mac lifetime purchase option",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "paragraph",
+      "content": "If you prefer to keep subscribing, nothing changes for you, except that your existing iOS subscription now automatically unlocks the complete Mac app with metadata embedding included. No extra steps, no extra cost."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Small Polish Throughout"
+    },
+    {
+      "type": "paragraph",
+      "content": "As always, a round of small refinements and interface polish, this time with particular attention to the recorder toolbar so everything feels just a little tighter and more pleasant to use."
+    }
+  ],
+  "improvements": [
+    "Added lifetime purchase option in the iOS app (one-time payment, permanent ownership of iPhone, iPad, and Mac versions)",
+    "macOS app with metadata embedding now automatically unlocked for all active iOS subscribers at no extra cost",
+    "Minor interface refinements and improved toolbar contrast"
+  ],
+  "fixes": [],
+  "patches": []
+}

@@ -1,0 +1,23 @@
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://withframes.com/it/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Changelog",
+      "item": "https://withframes.com/it/changelog/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Acquisto a vita ora disponibile",
+      "item": "https://withframes.com/it/changelog/1-16-ios/"
+    }  ]
+}

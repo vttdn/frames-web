@@ -4,31 +4,27 @@
   "url_slug": "1-11-macos",
   "platform": "macos",
   "release_date": "2025-11-29T10:00:00.000Z",
-  "title": "Ömür boyu satın alma seçeneği ve birleşik fiyatlandırma",
-  "meta_title": "Ömür boyu satın alma seçeneği ve birleşik fiyatlandırma - Frames",
-  "meta_description": "Ömür boyu erişim için yeni tek seferlik satın alma seçeneği. macOS uygulaması artık iOS aboneliğine ekstra ücret ödemeden dahil. Abonelik veya kalıcı sahiplik arasında seçim yapmanızı sağlayan basitleştirilmiş fiyatlandırma.",
-  "summary": "Yeni ömür boyu satın alma seçeneğiyle Frames'e nasıl sahip olmak istediğinizi seçin. Mac uygulaması artık iOS aboneliğinize ekstra ücret ödemeden dahil, her şeyi daha basit ve esnek hale getiriyor.",
+  "title": "Tam erişim için birleşik abonelik",
+  "meta_title": "Tam erişim için birleşik abonelik - Frames",
+  "meta_description": "macOS uygulaması artık iOS aboneliğine ek ücret ödemeden dahil. iPhone ve Mac'te tüm Frames özelliklerini kullanmak için birleşik fiyatlandırma.",
+  "summary": "Mac uygulaması artık iOS aboneliğinize entegre edildi, tüm cihazlarda daha kolay erişim ve yönetim için Frames ekosistemini birleştiriyor.",
   "sections": [
     {
       "type": "heading",
       "level": 3,
-      "content": "Size uygun fiyatlandırma"
+      "content": "Frames ekosistemi için birleşik fiyatlandırma"
     },
     {
       "type": "paragraph",
-      "content": "Reddit'teki analog fotoğraf topluluğundan gelen geri bildirimleri dinledikten sonra, birçoğunuzun abonelik yerine uygulamaya tamamen sahip olma seçeneğini istediği açıkça ortaya çıktı. Anlıyorum, sonsuza kadar size ait olan tek seferlik bir satın almada güven verici bir şey var. Bu yüzden mevcut tüm özellikleri ve Mac uygulamasını içeren ömür boyu bir plan ekledim. Kalıcı olarak sizin, son kullanma tarihi yok."
+      "content": "Analog fotoğraf topluluğundan gelen geri bildirimlere dayanarak fiyatlandırma modelini iyileştirdim. Mac uygulaması artık ayrı bir abonelik gerektirmiyor, şimdi iOS aboneliğinize ek ücret ödemeden dahil. Bu birleşim, iOS'ta film detaylarını not almaktan Mac'te taranan görüntülere metadata entegre etmeye kadar tam Frames deneyiminin tadını çıkarmayı daha basit hale getiriyor."
     },
     {
       "type": "media",
       "image": "/lib/img/shared/changelog/frames-mac-1.11.0-1.png",
       "image_2x": "/lib/img/shared/changelog/frames-mac-1.11.0-1@2x.png",
-      "alt": "Frames film fotoğrafçılığı uygulamasının yeni ömür boyu plan seçeneğini temsil eden Apple satın alma simgesi",
+      "alt": "Yeni Frames film fotoğrafçılığı uygulaması ömür boyu plan seçeneğini temsil eden Apple satın alma simgesi",
       "width": "400",
       "height": "300"
-    },
-    {
-      "type": "paragraph",
-      "content": "Aynı zamanda, Mac uygulamasının artık ayrı bir aboneliği yok. Bunun yerine, artık iOS aboneliğinize ekstra ücret ödemeden dahil. Bu, işleri daha net ve adil hale getiriyor—tek bir abonelikle her iki uygulamaya da erişebilirsiniz. İster abonelik tercih edin ister tek seferlik satın alma, seçim size kalmış. Her iki seçenek de size iPhone ve Mac'te tam Frames deneyimi sunuyor."
     },
     {
       "type": "heading",
@@ -37,14 +33,12 @@
     },
     {
       "type": "paragraph",
-      "content": "Kenar çubuğu, daha iyi kontrast sağlayan geliştirilmiş renklerle güncellendi, film meta verilerinizi okumayı ve gezinmeyi kolaylaştırıyor. Küçük bir değişiklik, ancak arşiviniz üzerinde çalışırken fark edilir bir fark yaratıyor."
+      "content": "Kenar çubuğu, daha iyi kontrast sağlayan geliştirilmiş renklerle güncellendi, film metadata'nızı okumayı ve gezinmeyi kolaylaştırıyor. Küçük bir değişiklik, ama arşivinizde çalışırken fark edilir bir fark yaratıyor."
     }
   ],
   "improvements": [
-    "Tüm özelliklerin kalıcı sahipliği için ömür boyu satın alma seçeneği eklendi",
-    "Mac uygulaması artık iOS aboneliğine ekstra ücret ödemeden dahil",
-    "Daha basit, birleşik fiyatlandırma için ayrı macOS aboneliği kaldırıldı",
-    "Daha iyi kontrast ve okunabilirlik için kenar çubuğu renkleri iyileştirildi",
+    "Mac uygulaması artık iOS aboneliğine ek ücret ödemeden dahil",
+    "Daha iyi kontrast ve okunabilirlik için geliştirilmiş kenar çubuğu renkleri",
     "Küçük arayüz iyileştirmeleri"
   ],
   "fixes": [],

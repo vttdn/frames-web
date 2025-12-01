@@ -57,7 +57,7 @@
   },
   "hero": {
     "heading_seo": "Aplikacja Frames Film Photography: Zapisuj notatki i metadane do fotografii analogowej",
-    "heading": "Niezbędny notatnik fotograficzny,<br>\nstworzony dla fotografów analogowych.",
+    "heading": "Notatnik fotografii filmowej,<br>\nstworzony dla fotografów analogowych.",
     "button_macos_text": "Pobierz dla macOS",
     "button_macos_aria_label": "Pobierz Frames dla macOS",
     "button_ios_text": "Pobierz dla iOS",
@@ -86,14 +86,14 @@
     "images": {
       "preview1": {
         "src": "/lib/img/pl/preview1.png",
-        "alt": "Rejestrator ujęć kamery filmowej z pokrętłem czasu naświetlania i selektorem przysłony do szybkiego logowania ustawień ekspozycji podczas fotografii analogowej.",
-        "caption": "Rejestruj swoje ujęcia natychmiast za pomocą intuicyjnych pokręteł czasu naświetlania i przysłony. Usprawniony interfejs pozwala przechwycić ustawienia ekspozycji w kilka sekund bez przerywania twórczego przepływu, zapewniając zachowanie szczegółów każdej klatki do późniejszego odniesienia.",
+        "alt": "Rejestrator ujęć kamery filmowej z pokrętłem czasu naświetlania, selektorem przysłony i kompensacją ekspozycji do szybkiego logowania ustawień ekspozycji podczas fotografii analogowej.",
+        "caption": "Rejestruj swoje ujęcia natychmiast za pomocą intuicyjnych pokręteł czasu naświetlania, przysłony i kompensacji ekspozycji. Interfejs pozwala przechwycić ustawienia ekspozycji w kilka sekund bez przerywania twórczego procesu, zapewniając zachowanie szczegółów każdej klatki do późniejszego odniesienia.",
         "heading": "Szybkie Logowanie Zdjęć"
       },
       "preview2": {
         "src": "/lib/img/pl/preview2.png",
         "alt": "Pełne pola śledzenia metadanych filmu: sprzęt fotograficzny, typ filmu, przysłona, ogniskowa, czas naświetlania, ISO, ustawienia lampy błyskowej i dane lokalizacji GPS.",
-        "caption": "Śledź każdy szczegół, który ma znaczenie dla twojej fotografii. Rejestruj sprzęt fotograficzny, typ filmu, przysłonę, ogniskową, czas naświetlania, ISO, ustawienia lampy błyskowej, lokalizację GPS i niestandardowe notatki. Prowadź kompleksowe zapisy, które pomogą ci uczyć się i doskonalić z każdą rolką, którą robisz.",
+        "caption": "Śledź każdy szczegół, który ma znaczenie dla twojej fotografii. Rejestruj sprzęt fotograficzny, typ filmu, przysłonę, ogniskową, czas naświetlania, ISO, ustawienia lampy błyskowej, lokalizację GPS i niestandardowe notatki. Twórz kompleksowe zapisy, które pomogą ci uczyć się i doskonalić z każdą rolką, którą robisz.",
         "heading": "Kompleksowe Metadane"
       },
       "preview3": {
@@ -206,7 +206,7 @@
     "feature3": {
       "label": "Nagrywanie",
       "title": "Zapisuj Ustawienia",
-      "description": "Rejestruj przysłonę, czas naświetlania, rodzaj kliszy i szczegóły lokalizacji natychmiast dla każdej klatki, zachowując informacje dokładne i dostępne."
+      "description": "Rejestruj przysłonę, czas naświetlania, rodzaj kliszy i szczegóły lokalizacji dla każdej klatki. Twoje informacje pozostają dokładne i dostępne."
     },
     "feature4": {
       "label": "Historia",
@@ -256,12 +256,11 @@
       "price_value_lifetime": "229.99",
       "includes_label": "Zawiera:",
       "features": [
-        "Nieograniczone klisze",
+        "Nieograniczona liczba filmów",
         "Podfoldery",
-        "Eksport danych jako .frames",
-        "Eksport danych jako .txt lub .gpx",
-        "Zapisywanie metadanych do zdjęć",
-        "Aplikacje na iPhone’a i Maca w zestawie"
+        "Eksport danych",
+        "Osadzanie metadanych",
+        "Aplikacje na iPhone i Mac"
       ],
       "button_text": "Wypróbuj Za Darmo"
     },
@@ -284,11 +283,11 @@
     },
     "question4": {
       "question": "Jakie czasy naświetlania i przysłony są obsługiwane?",
-      "answer": "Frames zapewnia domyślne sekwencje pokrywające większość obiektywów i aparatów, a także możesz definiować własne sekwencje dla swojego sprzętu, co czyni go kompatybilnym z dowolnymi wartościami czasu naświetlania lub przysłony."
+      "answer": "Frames zapewnia wstępnie zdefiniowane sekwencje przysłony (f/1.0 do f/64) i czasu naświetlania (1/8000s do 60s) pokrywające większość obiektywów i aparatów. Możesz również definiować własne sekwencje dla swojego konkretnego sprzętu, zapewniając kompatybilność z dowolnymi niestandardowymi wartościami przysłony lub czasu naświetlania."
     },
     "question5": {
       "question": "Czy mogę rejestrować statywy lub akcesoria?",
-      "answer": "Tak, Frames pozwala rejestrować statywy, lampy błyskowe i inne akcesoria. Istnieje również dodatkowe pole notatek, w którym możesz dodać dowolne własne szczegóły."
+      "answer": "Tak, Frames pozwala rejestrować statywy i źródła światła, takie jak lampy błyskowe, lampy pierścieniowe, softboxy, reflektory lub modyfikatory światła. Istnieje również dodatkowe pole notatek, w którym możesz dodać dowolne własne szczegóły."
     },
     "question6": {
       "question": "Czy mogę synchronizować swoje dane między iPhone a Mac?",
@@ -296,11 +295,11 @@
     },
     "question7": {
       "question": "Czy Frames działa offline?",
-      "answer": "Oczywiście. Frames został zaprojektowany do pracy całkowicie offline, co czyni go idealnym do fotografowania w odległych lokalizacjach bez łączności internetowej. Wszystkie Twoje dane są przechowywane lokalnie na urządzeniu, więc możesz logować zdjęcia, zarządzać archiwum i organizować sprzęt gdziekolwiek jesteś. Tagowanie lokalizacji GPS również działa offline i zostanie zapisane podczas rejestrowania każdej klatki. Internet jest potrzebny tylko podczas eksportowania metadanych do zeskanowanych obrazów lub sprawdzania aktualizacji aplikacji."
+      "answer": "Oczywiście. Frames został zaprojektowany do pracy całkowicie offline, co czyni go idealnym do fotografowania w odległych lokalizacjach bez łączności internetowej. Wszystkie Twoje dane są przechowywane lokalnie na urządzeniu, więc możesz logować zdjęcia, zarządzać archiwum i organizować sprzęt gdziekolwiek jesteś. Tagowanie lokalizacji GPS również działa offline i zostanie zapisane automatycznie podczas rejestrowania każdej klatki. Internet jest potrzebny tylko podczas sprawdzania aktualizacji aplikacji."
     },
     "question8": {
       "question": "Jakie są plany dotyczące przyszłych aktualizacji?",
-      "answer": "Przyszłe plany obejmują rozszerzanie funkcji przepływu pracy, poprawę integracji między urządzeniami i dodawanie nowych narzędzi zgłaszanych przez społeczność, aby uczynić rejestrowanie fotografii analogowej jeszcze bardziej elastycznym i potężnym."
+      "answer": "Przyszłe aktualizacje rozszerzą funkcje przepływu pracy, poprawią integrację między urządzeniami i dodadzą nowe narzędzia zgłaszane przez społeczność. To uczyni rejestrowanie fotografii analogowej jeszcze bardziej elastycznym i potężnym."
     }
   },
   "contact": {
@@ -444,11 +443,11 @@
     },
     "howto2": {
       "heading": "2. Zapisuj każde ujęcie na bieżąco",
-      "description": "Podczas fotografowania na film, zapisuj ustawienia aparatu dla każdej klatki: przysłona, czas naświetlania, ogniskowa, lampa błyskowa, notatki kreatywne i wiele więcej. Geolokalizacja, nazwy miejsc i znaczniki czasu są automatycznie przechwytywane, aby wspierać precyzyjny dziennik fotografii analogowej. Możesz używać domyślnych suwaków lub przełączyć się na klasyczny widok formularza przez menu w prawym górnym rogu."
+      "description": "Podczas fotografowania na film, zapisuj ustawienia aparatu dla każdej klatki: przysłona, czas naświetlania, ogniskowa, lampa błyskowa, notatki kreatywne i wiele więcej. Geolokalizacja, nazwy miejsc i znaczniki czasu są automatycznie przechwytywane, aby tworzyć precyzyjny dziennik fotografii analogowej. Możesz używać domyślnych suwaków lub przełączyć się na klasyczny widok formularza przez menu w prawym górnym rogu."
     },
     "howto3": {
       "heading": "3. Eksportuj swoje dane",
-      "description": "Gdy Twój film się skończy i wszystkie ujęcia zostaną zapisane, wyeksportuj dane jako plik .frames. Wyślij go do swojego Maca za pomocą AirDrop, e-maila lub dowolnej innej metody. Ten plik zawiera wszystkie zapisane metadane ujęć filmowych do późniejszego użycia ze skanami."
+      "description": "Gdy Twój film się skończy i wszystkie ujęcia zostaną zapisane, wyeksportuj dane jako plik .frames. Wyślij go do swojego Maca za pomocą AirDrop, e-maila lub dowolnej innej metody. Ten plik zawiera wszystkie zapisane metadane fotograficzne do późniejszego użycia ze skanami."
     },
     "howto4": {
       "heading": "4. Wczytaj swoje dane",

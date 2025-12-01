@@ -4,31 +4,27 @@
   "url_slug": "1-11-macos",
   "platform": "macos",
   "release_date": "2025-11-29T10:00:00.000Z",
-  "title": "Option d'achat définitif et tarification unifiée",
-  "meta_title": "Option d'achat définitif et tarification unifiée - Frames",
-  "meta_description": "Nouvelle option d'achat unique pour un accès à vie. L'application macOS est désormais incluse avec l'abonnement iOS sans frais supplémentaires. Une tarification simplifiée qui vous laisse choisir entre abonnement et propriété permanente.",
-  "summary": "Choisissez la façon dont vous souhaitez utiliser Frames grâce à une nouvelle option d'achat à vie. L'application Mac est maintenant incluse avec votre abonnement iOS sans frais supplémentaires, pour plus de simplicité et de flexibilité.",
+  "title": "Abonnement unifié pour un accès complet",
+  "meta_title": "Abonnement unifié pour un accès complet - Frames",
+  "meta_description": "L'app macOS est maintenant incluse dans l'abonnement iOS sans frais supplémentaires. Tarification unifiée pour utiliser toutes les fonctionnalités de Frames sur iPhone et Mac.",
+  "summary": "L'app Mac est désormais intégrée à votre abonnement iOS, unifiant l'écosystème Frames pour un accès et une gestion plus faciles sur tous les appareils.",
   "sections": [
     {
       "type": "heading",
       "level": 3,
-      "content": "Une tarification qui vous correspond"
+      "content": "Tarification unifiée pour l'écosystème Frames"
     },
     {
       "type": "paragraph",
-      "content": "Après avoir écouté la communauté des photographes argentiques sur Reddit, il est devenu évident que beaucoup d'entre vous souhaitaient posséder l'application définitivement plutôt que de s'abonner. Je comprends parfaitement, il y a quelque chose de rassurant dans un achat unique qui vous appartient pour toujours. J'ai donc ajouté une formule à vie qui comprend toutes les fonctionnalités actuelles et l'application Mac. C'est à vous, une fois pour toutes, sans expiration."
+      "content": "Sur la base des retours de la communauté des photographes argentiques, j'ai affiné le modèle tarifaire. L'app Mac ne nécessite plus d'abonnement séparé, elle est maintenant incluse dans votre abonnement iOS sans frais supplémentaires. Cette unification rend plus simple de profiter de l'expérience complète de Frames, de la notation des détails de pellicule sur iOS à l'intégration des métadonnées dans les images scannées sur Mac."
     },
     {
       "type": "media",
       "image": "/lib/img/shared/changelog/frames-mac-1.11.0-1.png",
       "image_2x": "/lib/img/shared/changelog/frames-mac-1.11.0-1@2x.png",
-      "alt": "Icône d'achat Apple représentant la nouvelle option d'achat à vie de l'application de photographie argentique Frames",
+      "alt": "Icône d'achat Apple représentant la nouvelle option de plan à vie de l'app de photographie argentique Frames",
       "width": "400",
       "height": "300"
-    },
-    {
-      "type": "paragraph",
-      "content": "Parallèlement, l'application Mac n'a plus son propre abonnement séparé. Elle est désormais incluse avec votre abonnement iOS sans frais supplémentaires. Cela rend les choses plus claires et plus justes : un seul abonnement vous donne accès aux deux applications. Que vous préfériez vous abonner ou payer en une seule fois, le choix vous appartient. Les deux options vous offrent l'expérience complète de Frames sur iPhone et Mac."
     },
     {
       "type": "heading",
@@ -37,14 +33,12 @@
     },
     {
       "type": "paragraph",
-      "content": "La barre latérale adopte désormais des couleurs offrant un meilleur contraste, ce qui facilite la lecture et la navigation de vos métadonnées de pellicule. Un petit changement, mais qui fait une différence notable lorsque vous parcourez votre archive."
+      "content": "La barre latérale a été mise à jour avec des couleurs améliorées qui offrent un meilleur contraste, facilitant la lecture et la navigation de vos métadonnées de pellicule. Petit changement, mais qui fait une différence notable lorsque vous parcourez votre archive."
     }
   ],
   "improvements": [
-    "Ajout d'une option d'achat à vie pour une propriété permanente de toutes les fonctionnalités",
-    "Application Mac désormais incluse avec l'abonnement iOS sans frais supplémentaires",
-    "Suppression de l'abonnement macOS séparé pour une tarification unifiée plus simple",
-    "Amélioration des couleurs de la barre latérale pour un meilleur contraste et une meilleure lisibilité",
+    "App Mac maintenant incluse dans l'abonnement iOS sans frais supplémentaires",
+    "Couleurs de la barre latérale améliorées pour un meilleur contraste et lisibilité",
     "Améliorations mineures de l'interface"
   ],
   "fixes": [],

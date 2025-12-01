@@ -57,7 +57,7 @@
   },
   "hero": {
     "heading_seo": "Aplicația Frames Film Photography: Capturează note și metadate pentru fotografia ta analogică",
-    "heading": "Agenda esențială de fotografie,<br>\nproiectată pentru fotografi analogici.",
+    "heading": "Agenda de fotografie,<br>\nproiectată pentru fotografi analogici.",
     "button_macos_text": "Descarcă pentru macOS",
     "button_macos_aria_label": "Descarcă Frames pentru macOS",
     "button_ios_text": "Descarcă pentru iOS",
@@ -86,14 +86,14 @@
     "images": {
       "preview1": {
         "src": "/lib/img/ro/preview1.png",
-        "alt": "Înregistrator de fotografii pentru cameră de film cu buton de viteză de obturare și selector de diafragmă pentru înregistrarea rapidă a setărilor de expunere în timpul fotografiei analogice.",
-        "caption": "Înregistrează fotografiile instantaneu cu butoane intuitive pentru viteza de obturare și diafragmă. Interfața simplificată îți permite să capturezi setările de expunere în câteva secunde fără a-ți întrerupe fluxul creativ, asigurându-se că detaliile fiecărui cadru sunt păstrate pentru referință ulterioară.",
+        "alt": "Înregistrator de fotografii pentru cameră de film cu buton de viteză de obturare, selector de diafragmă și compensare expunere pentru înregistrarea rapidă a setărilor de expunere în timpul fotografiei analogice.",
+        "caption": "Înregistrează fotografiile instantaneu cu butoane intuitive pentru viteza de obturare, diafragmă și compensare expunere. Interfața îți permite să capturezi setările de expunere în câteva secunde fără a-ți întrerupe procesul creativ, asigurându-se că detaliile fiecărui cadru sunt păstrate pentru referință ulterioară.",
         "heading": "Înregistrare Rapidă"
       },
       "preview2": {
         "src": "/lib/img/ro/preview2.png",
         "alt": "Câmpuri complete de urmărire a metadatelor de film: echipament cameră, tip de film, diafragmă, distanță focală, viteză de obturare, ISO, setări blitz și date de locație GPS.",
-        "caption": "Urmărește fiecare detaliu important pentru fotografia ta. Înregistrează echipamentul camerei, tipul de film, diafragma, distanța focală, viteza de obturare, ISO, setările blitzului, locația GPS și notițe personalizate. Păstrează înregistrări cuprinzătoare care te ajută să înveți și să te îmbunătățești cu fiecare film pe care îl fotografiezi.",
+        "caption": "Urmărește fiecare detaliu important pentru fotografia ta. Înregistrează echipamentul camerei, tipul de film, diafragma, distanța focală, viteza de obturare, ISO, setările blitzului, locația GPS și notițe personalizate. Creează înregistrări cuprinzătoare care te ajută să înveți și să te îmbunătățești cu fiecare film pe care îl fotografiezi.",
         "heading": "Metadate Complete"
       },
       "preview3": {
@@ -206,7 +206,7 @@
     "feature3": {
       "label": "Înregistrare",
       "title": "Captează Setările",
-      "description": "Notează diafragma, viteza obturatorului, tipul de film și detaliile locației instant pentru fiecare cadru, păstrând informațiile fiecărei fotografii precise și accesibile."
+      "description": "Notează diafragma, viteza obturatorului, tipul de film și detaliile locației pentru fiecare cadru. Informațiile tale rămân precise și accesibile."
     },
     "feature4": {
       "label": "Istoric",
@@ -257,11 +257,10 @@
       "includes_label": "Include:",
       "features": [
         "Filme nelimitate",
-        "Subdosare",
-        "Exportă date ca .frames",
-        "Exportă date ca .txt sau .gpx",
-        "Salvează metadate în fotografii",
-        "Aplicații iPhone și Mac incluse"
+        "Subfoldere",
+        "Export de date",
+        "Încorporare metadate",
+        "Aplicații iPhone și Mac"
       ],
       "button_text": "Încearcă Gratuit"
     },
@@ -284,11 +283,11 @@
     },
     "question4": {
       "question": "Ce viteze obturator și diafragme sunt suportate?",
-      "answer": "Frames oferă secvențe implicite care acoperă majoritatea obiectivelor și camerelor, și poți defini și secvențe personalizate pentru echipamentul tău, făcându-l compatibil cu orice valori de viteză obturator sau diafragmă."
+      "answer": "Frames oferă secvențe predefinite de diafragmă (de la f/1.0 la f/64) și viteză obturator (de la 1/8000s la 60s) care acoperă majoritatea obiectivelor și camerelor, și poți defini și secvențe personalizate pentru echipamentul tău, făcându-l compatibil cu orice valori de viteză obturator sau diafragmă."
     },
     "question5": {
       "question": "Pot înregistra trepiedele sau accesoriile?",
-      "answer": "Da, Frames îți permite să înregistrezi trepiedele, blițurile și alte accesorii. Există și un câmp suplimentar de notițe unde poți adăuga orice detalii personalizate dorești."
+      "answer": "Da, Frames îți permite să înregistrezi trepiedele și sursele de lumină, cum ar fi blițurile montate pe cameră, blițurile inelare, softbox-urile, reflectoarele sau modificatorii de lumină. Există și un câmp suplimentar de notițe unde poți adăuga orice detalii personalizate dorești."
     },
     "question6": {
       "question": "Pot sincroniza datele între iPhone și Mac?",
@@ -296,15 +295,15 @@
     },
     "question7": {
       "question": "Frames funcționează offline?",
-      "answer": "Absolut. Frames este conceput să funcționeze complet offline, fiind perfect pentru fotografiere în locații îndepărtate fără conectivitate la internet. Toate datele tale sunt stocate local pe dispozitivul tău, astfel încât poți înregistra fotografii, gestiona arhiva și organiza echipamentul oriunde. Etichetarea locației GPS funcționează și offline și va fi salvată când înregistrezi fiecare cadru. Ai nevoie de internet doar când exporți metadate în imaginile scanate sau verifici actualizări ale aplicației."
+      "answer": "Absolut. Frames este conceput să funcționeze complet offline, fiind perfect pentru fotografiere în locații îndepărtate fără conectivitate la internet. Toate datele tale sunt stocate local pe dispozitivul tău, astfel încât poți înregistra fotografii, gestiona arhiva și organiza echipamentul oriunde. Etichetarea locației GPS funcționează și offline și va fi salvată automat când înregistrezi fiecare cadru. Ai nevoie de internet doar când verifici actualizări ale aplicației."
     },
     "question8": {
       "question": "Care sunt planurile pentru actualizări viitoare?",
-      "answer": "Planurile viitoare includ extinderea caracteristicilor fluxului de lucru, îmbunătățirea integrării între dispozitive și adăugarea de noi instrumente solicitate de comunitate pentru a face înregistrarea fotografiei analogice și mai flexibilă și mai puternică."
+      "answer": "Actualizările viitoare vor extinde caracteristicile fluxului de lucru, vor îmbunătăți integrarea între dispozitive și vor adăuga noi instrumente solicitate de comunitate. Acest lucru va face înregistrarea fotografiei analogice și mai flexibilă și mai puternică."
     }
   },
   "contact": {
-    "heading": "Hai să auzim ideile și gândurile tale.",
+    "heading": "Împărtășește-ne ideile și gândurile tale.",
     "button_text": "Trimite-ne un email"
   },
   "footer": {
@@ -444,11 +443,11 @@
     },
     "howto2": {
       "heading": "2. Înregistrează fiecare cadru pe măsură ce fotografiezi",
-      "description": "În timp ce fotografiezi pe film, înregistrează setările camerei pentru fiecare cadru: diafragmă, viteză obturator, distanță focală, bliț, notițe creative și multe altele. Geolocația, numele locurilor și marcajele temporale sunt capturate automat pentru a sprijini un jurnal precis de fotografie analogică. Poți folosi comenzile glisante implicite sau poți comuta la o vizualizare formular clasică prin meniul din dreapta sus."
+      "description": "În timp ce fotografiezi pe film, înregistrează setările camerei pentru fiecare cadru: diafragmă, viteză obturator, distanță focală, bliț, notițe creative și multe altele. Geolocația, numele locurilor și marcajele temporale sunt capturate automat pentru a crea un jurnal precis de fotografie analogică. Poți folosi comenzile glisante implicite sau poți comuta la o vizualizare formular clasică prin meniul din dreapta sus."
     },
     "howto3": {
       "heading": "3. Exportă datele tale",
-      "description": "Odată ce filmul tău este terminat și toate cadrele sunt înregistrate, exportă datele ca fișier .frames. Trimite-l pe Mac-ul tău folosind AirDrop, e-mail sau orice metodă preferi. Acest fișier conține toate metadatele înregistrate ale cadrelor de film pentru utilizare ulterioară cu scanările tale."
+      "description": "Odată ce filmul tău este terminat și toate cadrele sunt înregistrate, exportă datele ca fișier .frames. Trimite-l pe Mac-ul tău folosind AirDrop, e-mail sau orice metodă preferi. Acest fișier conține toate metadatele fotografice înregistrate pentru utilizare ulterioară cu scanările tale."
     },
     "howto4": {
       "heading": "4. Încarcă datele tale",

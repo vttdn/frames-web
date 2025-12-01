@@ -40,7 +40,7 @@
           "name": "Mitä suljinaika- ja aukkoarvoja tuetaan?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Frames tarjoaa oletussarjat, jotka kattavat useimmat objektiivit ja kamerat, ja voit myös määrittää mukautettuja sarjoja välineillesi, mikä tekee siitä yhteensopivan minkä tahansa suljinaika- tai aukkoarvojen kanssa."
+            "text": "Frames tarjoaa esimääritettyjä sarjoja aukolle (f/1.0 - f/64) ja suljinajalle (1/8000s - 60s), jotka kattavat useimmat objektiivit ja kamerat. Voit myös määrittää mukautettuja sarjoja erityisille välineillesi taaten yhteensopivuuden kaikkien mukautettujen aukko- tai suljinaika-arvojen kanssa."
           }
         },
         {
@@ -48,7 +48,7 @@
           "name": "Voinko kirjata jalustoja tai lisävarusteita?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Kyllä, Framesin avulla voit tallentaa jalustoja, salamoita ja muita lisävarusteita. On myös ylimääräinen muistiinpanokenttä, johon voit lisätä mitä tahansa mukautettuja yksityiskohtia."
+            "text": "Kyllä, Framesin avulla voit tallentaa jalustoja ja valonlähteitä kuten salamoita, rengassalamoita, softboxeja, heijastimia tai valomuunnelmia. On myös ylimääräinen muistiinpanokenttä, johon voit lisätä mitä tahansa mukautettuja yksityiskohtia."
           }
         },
         {
@@ -64,7 +64,7 @@
           "name": "Toimiiko Frames offline-tilassa?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Ehdottomasti. Frames on suunniteltu toimimaan täysin offline-tilassa, mikä tekee siitä täydellisen kuvien ottamiseen syrjäisillä paikoilla ilman internetyhteyttä. Kaikki tietosi tallennetaan paikallisesti laitteellesi, joten voit kirjata kuvia, hallita arkistoasi ja järjestää laitteistosi missä tahansa. GPS-paikannusmerkintä toimii myös offline-tilassa ja tallentuu, kun tallennat jokaisen kuvan. Tarvitset internetiä vain viedessäsi metatietoja skannattuihin kuviin tai tarkistaessasi sovelluspäivityksiä."
+            "text": "Ehdottomasti. Frames on suunniteltu toimimaan täysin offline-tilassa, mikä tekee siitä täydellisen kuvien ottamiseen syrjäisillä paikoilla ilman internetyhteyttä. Kaikki tietosi tallennetaan paikallisesti laitteellesi, joten voit kirjata kuvia, hallita arkistoasi ja järjestää laitteistosi missä tahansa. GPS-paikannusmerkintä toimii myös offline-tilassa ja tallentuu automaattisesti, kun tallennat jokaisen kuvan. Tarvitset internetiä vain tarkistaessasi sovelluspäivityksiä."
           }
         },
         {
@@ -72,7 +72,7 @@
           "name": "Mitä suunnitelmia on tulevia päivityksiä varten?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Tulevaisuuden suunnitelmiin kuuluu työnkulkuominaisuuksien laajentaminen, laitteiden välisen integraation parantaminen ja yhteisön pyytämien uusien työkalujen lisääminen tehdäkseen analogisesta valokuvauskirjaamisesta entistä joustavampaa ja tehokkaampaa."
+            "text": "Tulevat päivitykset laajentavat työnkulkuominaisuuksia, parantavat laitteiden välistä integraa tiota ja lisäävät yhteisön pyytämiä uusia työkaluja. Tämä tekee analogisesta valokuvauskirjaamisesta entistä joustavampaa ja tehokkaampaa."
           }
         }
       ]

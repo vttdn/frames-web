@@ -57,7 +57,7 @@
   },
   "hero": {
     "heading_seo": "Aplikasi Frames Film Photography: Tangkap catatan dan metadata untuk fotografi analog Anda",
-    "heading": "Buku catatan fotografi esensial,<br>\ndirancang untuk fotografer analog.",
+    "heading": "Buku catatan fotografi,<br>\ndirancang untuk fotografer analog.",
     "button_macos_text": "Unduh untuk macOS",
     "button_macos_aria_label": "Unduh Frames untuk macOS",
     "button_ios_text": "Unduh untuk iOS",
@@ -86,14 +86,14 @@
     "images": {
       "preview1": {
         "src": "/lib/img/id/preview1.png",
-        "alt": "Perekam bidikan kamera film dengan dial kecepatan rana dan pemilih apertur untuk mencatat pengaturan eksposur dengan cepat saat memotret fotografi analog.",
-        "caption": "Catat bidikan Anda secara instan dengan dial intuitif untuk kecepatan rana dan apertur. Antarmuka yang ramping memungkinkan Anda menangkap pengaturan eksposur dalam hitungan detik tanpa mengganggu alur kreatif Anda, memastikan detail setiap frame terpelihara untuk referensi nantinya.",
+        "alt": "Perekam bidikan kamera film dengan dial kecepatan rana, pemilih apertur, dan kompensasi eksposur untuk mencatat pengaturan eksposur dengan cepat saat memotret fotografi analog.",
+        "caption": "Catat bidikan Anda secara instan dengan dial intuitif untuk kecepatan rana, apertur, dan kompensasi eksposur. Antarmuka memungkinkan Anda menangkap pengaturan eksposur dalam hitungan detik tanpa mengganggu proses kreatif Anda, memastikan detail setiap frame terpelihara untuk referensi nantinya.",
         "heading": "Pencatatan Cepat"
       },
       "preview2": {
         "src": "/lib/img/id/preview2.png",
         "alt": "Bidang pelacakan metadata film lengkap: peralatan kamera, stok film, apertur, panjang fokus, kecepatan rana, ISO, pengaturan flash, dan data lokasi GPS.",
-        "caption": "Lacak setiap detail yang penting untuk fotografi Anda. Catat peralatan kamera, stok film, apertur, panjang fokus, kecepatan rana, ISO, pengaturan flash, lokasi GPS, dan catatan kustom. Simpan catatan komprehensif yang membantu Anda belajar dan meningkat dengan setiap rol yang Anda potret.",
+        "caption": "Lacak setiap detail yang penting untuk fotografi Anda. Catat peralatan kamera, stok film, apertur, panjang fokus, kecepatan rana, ISO, pengaturan flash, lokasi GPS, dan catatan kustom. Buat catatan komprehensif yang membantu Anda belajar dan meningkat dengan setiap rol yang Anda potret.",
         "heading": "Metadata Lengkap"
       },
       "preview3": {
@@ -206,7 +206,7 @@
     "feature3": {
       "label": "Rekam",
       "title": "Catat Pengaturan",
-      "description": "Catat apertur, kecepatan rana, jenis film, dan detail lokasi secara instan untuk setiap frame, menjaga informasi setiap foto akurat dan dapat diakses."
+      "description": "Catat apertur, kecepatan rana, jenis film, dan detail lokasi untuk setiap frame. Informasi Anda tetap akurat dan dapat diakses."
     },
     "feature4": {
       "label": "Riwayat",
@@ -257,12 +257,11 @@
       "price_value_lifetime": "799000",
       "includes_label": "Termasuk:",
       "features": [
-        "Rol film tanpa batas",
+        "Film tak terbatas",
         "Subfolder",
-        "Ekspor data sebagai .frames",
-        "Ekspor data sebagai .txt atau .gpx",
-        "Simpan metadata ke foto",
-        "Aplikasi iPhone & Mac disertakan"
+        "Ekspor data",
+        "Penyematan metadata",
+        "Aplikasi iPhone & Mac"
       ],
       "button_text": "Coba Gratis"
     },
@@ -285,11 +284,11 @@
     },
     "question4": {
       "question": "Kecepatan rana dan apertur apa yang didukung?",
-      "answer": "Frames menyediakan urutan default yang mencakup sebagian besar lensa dan kamera, dan Anda juga dapat menentukan urutan khusus untuk peralatan Anda, membuatnya kompatibel dengan nilai kecepatan rana atau apertur apa pun."
+      "answer": "Frames menyediakan urutan apertur (dari f/1.0 hingga f/64) dan kecepatan rana (dari 1/8000s hingga 60s) yang telah ditentukan sebelumnya yang mencakup sebagian besar lensa dan kamera, dan Anda juga dapat menentukan urutan khusus untuk peralatan Anda, membuatnya kompatibel dengan nilai kecepatan rana atau apertur apa pun."
     },
     "question5": {
       "question": "Bisakah saya mencatat tripod atau aksesori?",
-      "answer": "Ya, Frames memungkinkan Anda merekam tripod, flash, dan aksesori lainnya. Ada juga bidang catatan tambahan di mana Anda dapat menambahkan detail khusus apa pun yang Anda inginkan."
+      "answer": "Ya, Frames memungkinkan Anda merekam tripod dan sumber pencahayaan, seperti flash yang dipasang di kamera, ring flash, softbox, reflektor, atau light modifier. Ada juga bidang catatan tambahan di mana Anda dapat menambahkan detail khusus apa pun yang Anda inginkan."
     },
     "question6": {
       "question": "Bisakah saya menyinkronkan data saya antara iPhone dan Mac?",
@@ -297,15 +296,15 @@
     },
     "question7": {
       "question": "Apakah Frames bekerja secara offline?",
-      "answer": "Tentu saja. Frames dirancang untuk bekerja sepenuhnya secara offline, membuatnya sempurna untuk pemotretan di lokasi terpencil tanpa koneksi internet. Semua data Anda disimpan secara lokal di perangkat Anda, sehingga Anda dapat mencatat pemotretan, mengelola arsip, dan mengatur peralatan di mana saja. Penandaan lokasi GPS juga bekerja secara offline dan akan disimpan saat Anda merekam setiap frame. Anda hanya memerlukan internet saat mengekspor metadata ke gambar yang dipindai atau memeriksa pembaruan aplikasi."
+      "answer": "Tentu saja. Frames dirancang untuk bekerja sepenuhnya secara offline, membuatnya sempurna untuk pemotretan di lokasi terpencil tanpa koneksi internet. Semua data Anda disimpan secara lokal di perangkat Anda, sehingga Anda dapat mencatat pemotretan, mengelola arsip, dan mengatur peralatan di mana saja. Penandaan lokasi GPS juga bekerja secara offline dan akan disimpan secara otomatis saat Anda merekam setiap frame. Anda hanya memerlukan internet saat memeriksa pembaruan aplikasi."
     },
     "question8": {
       "question": "Apa rencana untuk pembaruan di masa depan?",
-      "answer": "Rencana masa depan termasuk memperluas fitur alur kerja, meningkatkan integrasi lintas perangkat, dan menambahkan alat baru yang diminta oleh komunitas untuk membuat pencatatan fotografi analog lebih fleksibel dan kuat."
+      "answer": "Pembaruan di masa depan akan memperluas fitur alur kerja, meningkatkan integrasi lintas perangkat, dan menambahkan alat baru yang diminta oleh komunitas. Ini akan membuat pencatatan fotografi analog lebih fleksibel dan kuat."
     }
   },
   "contact": {
-    "heading": "Mari kami dengar ide dan pemikiran Anda.",
+    "heading": "Bagikan ide dan pemikiran Anda.",
     "button_text": "Kirim kami email"
   },
   "footer": {
@@ -445,11 +444,11 @@
     },
     "howto2": {
       "heading": "2. Catat setiap bidikan saat Anda memotret",
-      "description": "Saat Anda memotret dengan film, catat pengaturan kamera untuk setiap bingkai: apertur, kecepatan rana, panjang fokus, lampu kilat, catatan kreatif, dan lainnya. Geolokasi, nama tempat, dan stempel waktu secara otomatis ditangkap untuk mendukung log fotografi analog yang presisi. Anda dapat menggunakan kontrol slider default atau beralih ke tampilan formulir klasik melalui menu kanan atas."
+      "description": "Saat Anda memotret dengan film, catat pengaturan kamera untuk setiap bingkai: apertur, kecepatan rana, panjang fokus, lampu kilat, catatan kreatif, dan lainnya. Geolokasi, nama tempat, dan stempel waktu secara otomatis ditangkap untuk membuat log fotografi analog yang presisi. Anda dapat menggunakan kontrol slider default atau beralih ke tampilan formulir klasik melalui menu kanan atas."
     },
     "howto3": {
       "heading": "3. Ekspor data Anda",
-      "description": "Setelah roll Anda selesai dan semua bidikan dicatat, ekspor data sebagai file .frames. Kirim ke Mac Anda menggunakan AirDrop, email, atau metode apa pun yang Anda suka. File ini berisi semua metadata bidikan film yang Anda catat untuk digunakan nanti dengan hasil scan Anda."
+      "description": "Setelah roll Anda selesai dan semua bidikan dicatat, ekspor data sebagai file .frames. Kirim ke Mac Anda menggunakan AirDrop, email, atau metode apa pun yang Anda suka. File ini berisi semua metadata fotografi yang Anda catat untuk digunakan nanti dengan hasil scan Anda."
     },
     "howto4": {
       "heading": "4. Muat data Anda",

@@ -1,0 +1,23 @@
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Главная",
+      "item": "https://withframes.com/ru/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Обновления",
+      "item": "https://withframes.com/ru/changelog/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Доступна опция пожизненной покупки",
+      "item": "https://withframes.com/ru/changelog/1-16-ios/"
+    }  ]
+}

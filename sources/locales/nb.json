@@ -57,7 +57,7 @@
   },
   "hero": {
     "heading_seo": "Frames Filmfotografi-app: Ta notater og metadata for din analoge fotografering",
-    "heading": "Den essensielle fotografi-notatboken,<br>\nlaget for analoge fotografer.",
+    "heading": "Analoge fotografi-notatboken,<br>\nlaget for filmfotografer.",
     "button_macos_text": "Last ned for macOS",
     "button_macos_aria_label": "Last ned Frames for macOS",
     "button_ios_text": "Last ned for iOS",
@@ -86,14 +86,14 @@
     "images": {
       "preview1": {
         "src": "/lib/img/nb/preview1.png",
-        "alt": "Filmkamera-opptaksregistrering med lukkertidshjul og blendervelger for rask logging av eksponeringsinnstillinger under analog fotografering.",
-        "caption": "Logg opptakene dine øyeblikkelig med intuitive hjul for lukkertid og blenderåpning. Det strømlinjeformede grensesnittet lar deg fange eksponeringsinnstillinger på sekunder uten å avbryte den kreative flyten din, og sikrer at hvert bildes detaljer bevares for senere referanse.",
+        "alt": "Filmkamera-opptaksregistrering med lukkertidshjul, blendervelger og eksponeringskompensasjon for rask logging av eksponeringsinnstillinger under analog fotografering.",
+        "caption": "Logg opptakene dine øyeblikkelig med intuitive hjul for lukkertid, blenderåpning og eksponeringskompensasjon. Grensesnittet lar deg fange eksponeringsinnstillinger på sekunder uten å avbryte den kreative prosessen din, og sikrer at hvert bildes detaljer bevares for senere referanse.",
         "heading": "Rask Bildelogging"
       },
       "preview2": {
         "src": "/lib/img/nb/preview2.png",
         "alt": "Komplette filmmetadata-sporingsfelt: kamerautstyr, filmtype, blenderåpning, brennvidde, lukkertid, ISO, blitsinnstillinger og GPS-plasseringsdata.",
-        "caption": "Spor hver detalje som betyr noe for fotografiet ditt. Registrer kamerautstyr, filmtype, blenderåpning, brennvidde, lukkertid, ISO, blitsinnstillinger, GPS-plassering og egendefinerte notater. Behold omfattende poster som hjelper deg med å lære og forbedre deg med hver rulle du tar.",
+        "caption": "Spor hver detalje som betyr noe for fotografiet ditt. Registrer kamerautstyr, filmtype, blenderåpning, brennvidde, lukkertid, ISO, blitsinnstillinger, GPS-plassering og egendefinerte notater. Opprett omfattende poster som hjelper deg med å lære og forbedre deg med hver rulle du tar.",
         "heading": "Omfattende Metadata"
       },
       "preview3": {
@@ -206,7 +206,7 @@
     "feature3": {
       "label": "Registrer",
       "title": "Fang Innstillinger",
-      "description": "Logg blender, lukkertid, filmtype og posisjonsdetaljer øyeblikkelig for hver ramme, hold informasjonen til hvert bilde nøyaktig og tilgjengelig."
+      "description": "Logg blender, lukkertid, filmtype og posisjonsdetaljer for hver ramme. Din informasjon holder seg nøyaktig og tilgjengelig."
     },
     "feature4": {
       "label": "Historikk",
@@ -257,12 +257,11 @@
       "price_value_lifetime": "599",
       "includes_label": "Inkluderer:",
       "features": [
-        "Ubegrensede filmruller",
+        "Ubegrensede filmer",
         "Undermapper",
-        "Eksporter data som .frames",
-        "Eksporter data som .txt eller .gpx",
-        "Lagre metadata til bilder",
-        "iPhone- og Mac-apper inkludert"
+        "Dataeksport",
+        "Metadata innbygging",
+        "iPhone- og Mac-apper"
       ],
       "button_text": "Prøv Gratis"
     },
@@ -285,11 +284,11 @@
     },
     "question4": {
       "question": "Hvilke lukkertider og blendere støttes?",
-      "answer": "Frames tilbyr standardsekvenser som dekker de fleste objektiver og kameraer, og du kan også definere egendefinerte sekvenser for utstyret ditt, noe som gjør det kompatibelt med alle lukkertid- eller blenderverdier."
+      "answer": "Frames tilbyr forhåndsdefinerte sekvenser for blenderåpning (f/1.0 til f/64) og lukkertid (1/8000s til 60s) som dekker de fleste objektiver og kameraer. Du kan også definere egendefinerte sekvenser for ditt spesifikke utstyr, noe som garanterer kompatibilitet med alle egendefinerte blender- eller lukkertidverdier."
     },
     "question5": {
       "question": "Kan jeg logge stativer eller tilbehør?",
-      "answer": "Ja, Frames lar deg registrere stativer, blitser og annet tilbehør. Det er også et ekstra notatfelt hvor du kan legge til egendefinerte detaljer du ønsker."
+      "answer": "Ja, Frames lar deg registrere stativer og lyskilder som blitsenheter, ringblitser, softbokser, reflektorer eller lysmodifikatorer. Det er også et ekstra notatfelt hvor du kan legge til egendefinerte detaljer du ønsker."
     },
     "question6": {
       "question": "Kan jeg synkronisere dataene mine mellom iPhone og Mac?",
@@ -297,15 +296,15 @@
     },
     "question7": {
       "question": "Fungerer Frames frakoblet?",
-      "answer": "Absolutt. Frames er designet for å fungere fullstendig frakoblet, noe som gjør den perfekt for fotografering på avsidesliggende steder uten internettilkobling. Alle dataene dine lagres lokalt på enheten din, slik at du kan logge bilder, administrere arkivet ditt og organisere utstyret ditt hvor som helst. GPS-posisjonsmerking fungerer også frakoblet og blir lagret når du registrerer hver ramme. Du trenger kun internett når du eksporterer metadata til skannede bilder eller sjekker for appoppdateringer."
+      "answer": "Absolutt. Frames er designet for å fungere fullstendig frakoblet, noe som gjør den perfekt for fotografering på avsidesliggende steder uten internettilkobling. Alle dataene dine lagres lokalt på enheten din, slik at du kan logge bilder, administrere arkivet ditt og organisere utstyret ditt hvor som helst. GPS-posisjonsmerking fungerer også frakoblet og blir lagret automatisk når du registrerer hver ramme. Du trenger kun internett når du sjekker for appoppdateringer."
     },
     "question8": {
       "question": "Hva er planene for fremtidige oppdateringer?",
-      "answer": "Fremtidige planer inkluderer utvidelse av arbeidsflytefunksjoner, forbedring av integrasjon på tvers av enheter og tilføyelse av nye verktøy etterspurt av samfunnet for å gjøre analog fotografilogging enda mer fleksibel og kraftig."
+      "answer": "Fremtidige oppdateringer vil utvide arbeidsflytefunksjoner, forbedre integrasjon på tvers av enheter og legge til nye verktøy etterspurt av samfunnet. Dette vil gjøre analog fotografilogging enda mer fleksibel og kraftig."
     }
   },
   "contact": {
-    "heading": "La oss høre dine ideer og tanker.",
+    "heading": "Del dine ideer og tanker.",
     "button_text": "Send oss en e-post"
   },
   "footer": {
@@ -445,11 +444,11 @@
     },
     "howto2": {
       "heading": "2. Logg hvert bilde underveis",
-      "description": "Når du fotograferer på film, skal du registrere kamerainnstillingene for hvert bilde: blenderåpning, lukkertid, brennvidde, blits, kreative notater og mer. Geolokasjon, stedsnavn og tidsstempler blir automatisk registrert for å støtte en presis analog fotografilogg. Du kan bruke standard glidebrytere eller bytte til en klassisk skjemavisning via menyen øverst til høyre."
+      "description": "Når du fotograferer på film, skal du registrere kamerainnstillingene for hvert bilde: blenderåpning, lukkertid, brennvidde, blits, kreative notater og mer. Geolokasjon, stedsnavn og tidsstempler blir automatisk registrert for å opprette en presis analog fotografilogg. Du kan bruke standard glidebrytere eller bytte til en klassisk skjemavisning via menyen øverst til høyre."
     },
     "howto3": {
       "heading": "3. Eksporter dataene dine",
-      "description": "Når rullen din er ferdig og alle bilder er registrert, eksporter dataene som en .frames-fil. Send den til Mac-en din via AirDrop, e-post eller annen foretrukket metode. Denne filen inneholder alle dine registrerte filmopptaksmetadata for senere bruk med skanningene dine."
+      "description": "Når rullen din er ferdig og alle bilder er registrert, eksporter dataene som en .frames-fil. Send den til Mac-en din via AirDrop, e-post eller annen foretrukket metode. Denne filen inneholder alle dine registrerte fotografiske metadata for senere bruk med skanningene dine."
     },
     "howto4": {
       "heading": "4. Last inn dataene dine",

@@ -57,7 +57,7 @@
   },
   "hero": {
     "heading_seo": "Frames-filmivalokuvaussovellus: Tallenna muistiinpanot ja metatiedot analoogikuvaustasi varten",
-    "heading": "Olennainen valokuvamuistikirja,<br>\nsuunniteltu analogisille valokuvaajille.",
+    "heading": "Analoginen valokuvamuistikirja,<br>\nsuunniteltu filmikuvaajille.",
     "button_macos_text": "Lataa macOS:lle",
     "button_macos_aria_label": "Lataa Frames macOS:lle",
     "button_ios_text": "Lataa iOS:lle",
@@ -86,14 +86,14 @@
     "images": {
       "preview1": {
         "src": "/lib/img/fi/preview1.png",
-        "alt": "Filmikameran otostallennin, jossa on sulkimen nopeuden valintapyörä ja aukon valitsin valotusasetusten nopeaa kirjaamista varten analogivalokuvauksen aikana.",
-        "caption": "Kirjaa otoksesi välittömästi intuitiivisilla valintapyörillä sulkimen nopeudelle ja aukolle. Virtaviivainen käyttöliittymä antaa sinun tallentaa valotusasetukset sekunneissa keskeyttämättä luovaa työnkulkuasi, varmistaen että jokaisen kuvan yksityiskohdat säilyvät myöhempää viittausta varten.",
+        "alt": "Filmikameran otostallennin, jossa on sulkimen nopeuden valintapyörä, aukon valitsin ja valotuskorjaus valotusasetusten nopeaa kirjaamista varten analogivalokuvauksen aikana.",
+        "caption": "Kirjaa otoksesi välittömästi intuitiivisilla valintapyörillä sulkimen nopeudelle, aukolle ja valotuskorjaukselle. Käyttöliittymä antaa sinun tallentaa valotusasetukset sekunneissa keskeyttämättä luovaa prosessiasi, varmistaen että jokaisen kuvan yksityiskohdat säilyvät myöhempää viittausta varten.",
         "heading": "Nopea Kuvien Kirjaus"
       },
       "preview2": {
         "src": "/lib/img/fi/preview2.png",
         "alt": "Täydelliset filmin metadataseurantakentät: kameralaitteisto, filmityyppi, aukko, polttoväli, sulkimen nopeus, ISO, salamaasetukset ja GPS-sijaintitiedot.",
-        "caption": "Seuraa jokaista yksityiskohtaa, joka on tärkeä valokuvauksellesi. Tallenna kameralaitteisto, filmityyppi, aukko, polttoväli, sulkimen nopeus, ISO, salamaasetukset, GPS-sijainti ja mukautetut muistiinpanot. Pidä kattavat tiedot, jotka auttavat sinua oppimaan ja kehittymään jokaisen kuvauksesi kanssa.",
+        "caption": "Seuraa jokaista yksityiskohtaa, joka on tärkeä valokuvauksellesi. Tallenna kameralaitteisto, filmityyppi, aukko, polttoväli, sulkimen nopeus, ISO, salamaasetukset, GPS-sijainti ja mukautetut muistiinpanot. Luo kattavat tiedot, jotka auttavat sinua oppimaan ja kehittymään jokaisen kuvauksesi kanssa.",
         "heading": "Kattavat Metatiedot"
       },
       "preview3": {
@@ -206,7 +206,7 @@
     "feature3": {
       "label": "Tallenna",
       "title": "Tallenna Asetukset",
-      "description": "Kirjaa aukko, suljinaika, filmityyppi ja sijaintitiedot välittömästi jokaisesta kuvasta pitäen jokaisen kuvan tiedot tarkkana ja saatavilla."
+      "description": "Kirjaa aukko, suljinaika, filmityyppi ja sijaintitiedot jokaisesta kuvasta. Tietosi pysyvät tarkkana ja saatavilla."
     },
     "feature4": {
       "label": "Historia",
@@ -257,12 +257,11 @@
       "price_value_lifetime": "59.99",
       "includes_label": "Sisältää:",
       "features": [
-        "Rajoittamattomat filmirullat",
+        "Rajoittamaton määrä filmejä",
         "Alikansiot",
-        "Vie tiedot .frames-muodossa",
-        "Vie tiedot .txt- tai .gpx-muodossa",
-        "Tallenna metatiedot kuviin",
-        "iPhone- ja Mac-sovellukset sisältyvät"
+        "Tietojen vienti",
+        "Metatietojen upotus",
+        "iPhone- ja Mac-sovellukset"
       ],
       "button_text": "Kokeile Ilmaiseksi"
     },
@@ -285,11 +284,11 @@
     },
     "question4": {
       "question": "Mitä suljinaika- ja aukkoarvoja tuetaan?",
-      "answer": "Frames tarjoaa oletussarjat, jotka kattavat useimmat objektiivit ja kamerat, ja voit myös määrittää mukautettuja sarjoja välineillesi, mikä tekee siitä yhteensopivan minkä tahansa suljinaika- tai aukkoarvojen kanssa."
+      "answer": "Frames tarjoaa esimääritettyjä sarjoja aukolle (f/1.0 - f/64) ja suljinajalle (1/8000s - 60s), jotka kattavat useimmat objektiivit ja kamerat. Voit myös määrittää mukautettuja sarjoja erityisille välineillesi taaten yhteensopivuuden kaikkien mukautettujen aukko- tai suljinaika-arvojen kanssa."
     },
     "question5": {
       "question": "Voinko kirjata jalustoja tai lisävarusteita?",
-      "answer": "Kyllä, Framesin avulla voit tallentaa jalustoja, salamoita ja muita lisävarusteita. On myös ylimääräinen muistiinpanokenttä, johon voit lisätä mitä tahansa mukautettuja yksityiskohtia."
+      "answer": "Kyllä, Framesin avulla voit tallentaa jalustoja ja valonlähteitä kuten salamoita, rengassalamoita, softboxeja, heijastimia tai valomuunnelmia. On myös ylimääräinen muistiinpanokenttä, johon voit lisätä mitä tahansa mukautettuja yksityiskohtia."
     },
     "question6": {
       "question": "Voinko synkronoida tietoni iPhonen ja Macin välillä?",
@@ -297,15 +296,15 @@
     },
     "question7": {
       "question": "Toimiiko Frames offline-tilassa?",
-      "answer": "Ehdottomasti. Frames on suunniteltu toimimaan täysin offline-tilassa, mikä tekee siitä täydellisen kuvien ottamiseen syrjäisillä paikoilla ilman internetyhteyttä. Kaikki tietosi tallennetaan paikallisesti laitteellesi, joten voit kirjata kuvia, hallita arkistoasi ja järjestää laitteistosi missä tahansa. GPS-paikannusmerkintä toimii myös offline-tilassa ja tallentuu, kun tallennat jokaisen kuvan. Tarvitset internetiä vain viedessäsi metatietoja skannattuihin kuviin tai tarkistaessasi sovelluspäivityksiä."
+      "answer": "Ehdottomasti. Frames on suunniteltu toimimaan täysin offline-tilassa, mikä tekee siitä täydellisen kuvien ottamiseen syrjäisillä paikoilla ilman internetyhteyttä. Kaikki tietosi tallennetaan paikallisesti laitteellesi, joten voit kirjata kuvia, hallita arkistoasi ja järjestää laitteistosi missä tahansa. GPS-paikannusmerkintä toimii myös offline-tilassa ja tallentuu automaattisesti, kun tallennat jokaisen kuvan. Tarvitset internetiä vain tarkistaessasi sovelluspäivityksiä."
     },
     "question8": {
       "question": "Mitä suunnitelmia on tulevia päivityksiä varten?",
-      "answer": "Tulevaisuuden suunnitelmiin kuuluu työnkulkuominaisuuksien laajentaminen, laitteiden välisen integraation parantaminen ja yhteisön pyytämien uusien työkalujen lisääminen tehdäkseen analogisesta valokuvauskirjaamisesta entistä joustavampaa ja tehokkaampaa."
+      "answer": "Tulevat päivitykset laajentavat työnkulkuominaisuuksia, parantavat laitteiden välistä integraa tiota ja lisäävät yhteisön pyytämiä uusia työkaluja. Tämä tekee analogisesta valokuvauskirjaamisesta entistä joustavampaa ja tehokkaampaa."
     }
   },
   "contact": {
-    "heading": "Haluamme kuulla ideasi ja ajatuksesi.",
+    "heading": "Jaa ideasi ja ajatuksesi.",
     "button_text": "Lähetä meille sähköpostia"
   },
   "footer": {
@@ -445,11 +444,11 @@
     },
     "howto2": {
       "heading": "2. Kirjaa jokainen kuva sitä mukaa",
-      "description": "Kun kuvaat filmille, kirjaa kameran asetukset jokaiselle kuvalle: aukko, suljinnopeus, polttoväli, salama, luovat muistiinpanot ja paljon muuta. Sijaintitieto, paikkojen nimet ja aikaleima tallennetaan automaattisesti tukemaan tarkkaa analogista valokuvauslokia. Voit käyttää oletusliukusäätimiä tai vaihtaa klassiseen lomakenäkymään oikeasta yläkulmasta."
+      "description": "Kun kuvaat filmille, kirjaa kameran asetukset jokaiselle kuvalle: aukko, suljinnopeus, polttoväli, salama, luovat muistiinpanot ja paljon muuta. Sijaintitieto, paikkojen nimet ja aikaleima tallennetaan automaattisesti luomaan tarkka analoginen valokuvausloki. Voit käyttää oletusliukusäätimiä tai vaihtaa klassiseen lomakenäkymään oikeasta yläkulmasta."
     },
     "howto3": {
       "heading": "3. Vie tietosi",
-      "description": "Kun filmisi on valmis ja kaikki kuvat on kirjattu, vie tiedot .frames-tiedostona. Lähetä se Macillesi AirDropin, sähköpostin tai muun haluamasi menetelmän kautta. Tämä tiedosto sisältää kaikki tallennetut filmikuvaustiedot myöhempää käyttöä varten skannaustesi kanssa."
+      "description": "Kun filmisi on valmis ja kaikki kuvat on kirjattu, vie tiedot .frames-tiedostona. Lähetä se Macillesi AirDropin, sähköpostin tai muun haluamasi menetelmän kautta. Tämä tiedosto sisältää kaikki tallennetut valokuvauksen metatiedot myöhempää käyttöä varten skannaustesi kanssa."
     },
     "howto4": {
       "heading": "4. Lataa tietosi",

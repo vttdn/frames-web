@@ -4,31 +4,27 @@
   "url_slug": "1-11-macos",
   "platform": "macos",
   "release_date": "2025-11-29T10:00:00.000Z",
-  "title": "Elinikäinen ostovaihtoehto ja yhdistetty hinnoittelu",
-  "meta_title": "Elinikäinen ostovaihtoehto ja yhdistetty hinnoittelu - Frames",
-  "meta_description": "Uusi kertaostovaihtoehto elinikäiseen käyttöoikeuteen. macOS-sovellus nyt mukana iOS-tilauksessa ilman lisäkustannuksia. Yksinkertaistettu hinnoittelu, joka antaa sinulle valinnan tilauksen tai pysyvän omistajuuden välillä.",
-  "summary": "Valitse, miten haluat omistaa Framesin uudella elinikäisellä ostovaihtoehdolla. Mac-sovellus on nyt mukana iOS-tilauksessasi ilman lisäkustannuksia, mikä tekee kaikesta yksinkertaisempaa ja joustavampaa.",
+  "title": "Yhdistetty tilaus täyteen pääsyyn",
+  "meta_title": "Yhdistetty tilaus täyteen pääsyyn - Frames",
+  "meta_description": "macOS-sovellus nyt mukana iOS-tilauksessa ilman lisäkustannuksia. Yhdistetty hinnoittelu kaikkiin Frames-ominaisuuksiin iPhonessa ja Macissa.",
+  "summary": "Mac-sovellus on nyt integroitu iOS-tilaukseesi, yhdistäen Frames-ekosysteemin helpompaan pääsyyn ja hallintaan kaikilla laitteilla.",
   "sections": [
     {
       "type": "heading",
       "level": 3,
-      "content": "Sinulle sopiva hinnoittelu"
+      "content": "Yhdistetty hinnoittelu Frames-ekosysteemille"
     },
     {
       "type": "paragraph",
-      "content": "Kuunneltuani analogisen valokuvayhteisön palautetta Redditissä, kävi selväksi, että monet teistä halusivat mahdollisuuden omistaa sovelluksen pysyvästi tilauksen sijaan. Ymmärrän sen, kertaostossa on jotain rauhoittavaa, kun se on sinun ikuisesti. Joten lisäsin elinikäisen suunnitelman, joka sisältää kaikki nykyiset ominaisuudet ja Mac-sovelluksen. Se on sinun pysyvästi, ilman vanhenemispäivää."
+      "content": "Analogisen valokuvausyhteisön palautteen perusteella olen hionut hinnoittelumallia. Mac-sovellus ei enää vaadi erillistä tilausta, vaan se sisältyy nyt iOS-tilaukseesi ilman lisäkustannuksia. Tämä yhdistäminen tekee helpommaksi nauttia täydestä Frames-kokemuksesta, filmin yksityiskohtien merkitsemisestä iOS:llä metatietojen integrointiin skannattuihin kuviin Macilla."
     },
     {
       "type": "media",
       "image": "/lib/img/shared/changelog/frames-mac-1.11.0-1.png",
       "image_2x": "/lib/img/shared/changelog/frames-mac-1.11.0-1@2x.png",
-      "alt": "Apple-ostokuvake, joka edustaa Frames-filmivalokuvaussovelluksen uutta elinikäistä suunnitelmavaihtoehtoa",
+      "alt": "Applen ostokuvake, joka edustaa uutta Frames-filmivalokuvaussovelluksen elinikäistä vaihtoehtoa",
       "width": "400",
       "height": "300"
-    },
-    {
-      "type": "paragraph",
-      "content": "Samaan aikaan Mac-sovelluksella ei ole enää omaa erillistä tilausta. Sen sijaan se on nyt mukana iOS-tilauksessasi ilman lisäkustannuksia. Tämä tekee asioista selkeämpiä ja oikeudenmukaisempia—yksi tilaus antaa sinulle pääsyn molempiin sovelluksiin. Halusitpa sitten tilata tai ostaa kerran, valinta on sinun. Molemmat vaihtoehdot antavat sinulle täyden Frames-kokemuksen iPhonessa ja Macissa."
     },
     {
       "type": "heading",
@@ -37,14 +33,12 @@
     },
     {
       "type": "paragraph",
-      "content": "Sivupalkki on päivitetty paremmilla väreillä, jotka tarjoavat paremman kontrastin, mikä helpottaa filmimetadatan lukemista ja navigointia. Pieni muutos, mutta se tekee huomattavan eron, kun työskentelet arkistosi parissa."
+      "content": "Sivupalkki on päivitetty paremmilla väreillä, jotka tarjoavat paremman kontrastin, tehden filmin metatietojen lukemisesta ja selailusta helpompaa. Pieni muutos, mutta se tekee huomattavan eron, kun käyt läpi arkistoasi."
     }
   ],
   "improvements": [
-    "Lisätty elinikäinen ostovaihtoehto kaikkien ominaisuuksien pysyvään omistukseen",
     "Mac-sovellus nyt mukana iOS-tilauksessa ilman lisäkustannuksia",
-    "Poistettu erillinen macOS-tilaus yksinkertaisemman, yhdistetyn hinnoittelun vuoksi",
-    "Parannetut sivupalkin värit parempaan kontrastiin ja luettavuuteen",
+    "Parannetut sivupalkin värit paremman kontrastin ja luettavuuden saavuttamiseksi",
     "Pieniä käyttöliittymäparannuksia"
   ],
   "fixes": [],

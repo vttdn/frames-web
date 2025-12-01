@@ -1,0 +1,50 @@
+{
+  "version": "1.16.0",
+  "version_short": "1.16",
+  "url_slug": "1-16-ios",
+  "platform": "ios",
+  "release_date": "2025-12-01T10:00:00.000Z",
+  "title": "现已提供终身购买选项",
+  "meta_title": "现已提供终身购买选项 - Frames",
+  "meta_description": "现在你可以一次购买 Frames，并在 iPhone 和 iPad 上永久使用。Mac 应用自动包含在任何订阅中，一些小的界面优化让应用使用体验更佳。",
+  "summary": "许多用户期待的终身购买选项终于在 iOS 上上线。一次支付，即可在 iPhone、iPad 和 Mac 上永久拥有 Frames。订阅用户现在也自动获得完整 Mac 体验，无需额外费用。",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "永久拥有 Frames"
+    },
+    {
+      "type": "paragraph",
+      "content": "很多用户在 Reddit 和邮件中告诉我，他们更愿意一次性购买应用而非订阅。我完全理解——知道应用永久属于自己是一种安心。现在 iOS 应用中已提供终身购买选项。一次支付即可获得所有现有功能、未来更新以及完整 Mac 应用的永久使用权。"
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.16.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.16.0-1@2x.png",
+      "alt": "iPhone 和 Mac 终身购买 Frames 选项",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "paragraph",
+      "content": "如果你希望继续订阅，使用体验不会改变，只是现有 iOS 订阅现在会自动解锁完整 Mac 应用，包括元数据嵌入。无需额外步骤或费用。"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "细节优化"
+    },
+    {
+      "type": "paragraph",
+      "content": "如往常一样，进行了多处小的界面优化，这次特别关注录制工具栏，让整体使用感更加紧凑和舒适。"
+    }
+  ],
+  "improvements": [
+    "在 iOS 应用中添加终身购买选项（一次支付，永久使用 iPhone、iPad 和 Mac 版本）",
+    "macOS 应用带元数据嵌入功能，现自动为所有活跃 iOS 订阅用户解锁，无需额外费用",
+    "小的界面优化及工具栏对比度提升"
+  ],
+  "fixes": [],
+  "patches": []
+}

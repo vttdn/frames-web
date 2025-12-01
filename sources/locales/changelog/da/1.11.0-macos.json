@@ -4,47 +4,41 @@
   "url_slug": "1-11-macos",
   "platform": "macos",
   "release_date": "2025-11-29T10:00:00.000Z",
-  "title": "Livstidskøbsmulighed og samlet prissætning",
-  "meta_title": "Livstidskøbsmulighed og samlet prissætning - Frames",
-  "meta_description": "Ny engangskøbsmulighed til livstidsadgang. macOS-appen er nu inkluderet i iOS-abonnementet uden ekstra omkostninger. Forenklet prissætning, der giver dig valget mellem abonnement eller permanent ejerskab.",
-  "summary": "Vælg hvordan du vil eje Frames med en ny livstidskøbsmulighed. Mac-appen er nu inkluderet i dit iOS-abonnement uden ekstra omkostninger, hvilket gør alt enklere og mere fleksibelt.",
+  "title": "Samlet abonnement til fuld adgang",
+  "meta_title": "Samlet abonnement til fuld adgang - Frames",
+  "meta_description": "macOS-appen er nu inkluderet i iOS-abonnementet uden ekstra omkostning. Samlet prissætning for alle Frames-funktioner på iPhone og Mac.",
+  "summary": "Mac-appen er nu integreret i dit iOS-abonnement, hvilket forener Frames-økosystemet for lettere adgang og administration på tværs af enheder.",
   "sections": [
     {
       "type": "heading",
       "level": 3,
-      "content": "Prissætning der passer til dig"
+      "content": "Samlet prissætning for Frames-økosystemet"
     },
     {
       "type": "paragraph",
-      "content": "Efter at have lyttet til analog fotografifællesskabet på Reddit blev det klart, at mange af jer ønskede muligheden for at eje appen permanent i stedet for at abonnere. Jeg forstår det, der er noget beroligende ved et engangskøb, der er dit for altid. Så jeg har tilføjet en livstidsplan, der inkluderer alle nuværende funktioner og Mac-appen. Den er din permanent, uden udløb."
+      "content": "Baseret på feedback fra det analoge fotografifællesskab har jeg forfinet prismodellen. Mac-appen kræver ikke længere et separat abonnement, den er nu inkluderet i dit iOS-abonnement uden ekstra omkostning. Denne forening gør det simplere at nyde den komplette Frames-oplevelse, fra at notere filmdetaljer på iOS til at integrere metadata i scannede billeder på Mac."
     },
     {
       "type": "media",
       "image": "/lib/img/shared/changelog/frames-mac-1.11.0-1.png",
       "image_2x": "/lib/img/shared/changelog/frames-mac-1.11.0-1@2x.png",
-      "alt": "Apple købsikon der repræsenterer den nye livstidsplanmulighed for Frames filmfotografiapp",
+      "alt": "Apple købsikon der repræsenterer den nye livstidsmulighed for Frames filmfotografiapp",
       "width": "400",
       "height": "300"
     },
     {
-      "type": "paragraph",
-      "content": "Samtidig har Mac-appen ikke længere sit eget separate abonnement. I stedet er den nu inkluderet i dit iOS-abonnement uden ekstra omkostninger. Dette gør tingene mere klare og retfærdige—ét abonnement giver dig adgang til begge apps. Uanset om du foretrækker at abonnere eller købe én gang, er valget dit. Begge muligheder giver dig den komplette Frames-oplevelse på iPhone og Mac."
-    },
-    {
       "type": "heading",
       "level": 3,
-      "content": "Forbedringer af sidebjælke"
+      "content": "Forbedret sidepanel"
     },
     {
       "type": "paragraph",
-      "content": "Sidebjælken er blevet opdateret med forbedrede farver, der giver bedre kontrast og gør det nemmere at læse og navigere i dine filmmetadata. En lille ændring, men den gør en mærkbar forskel, når du arbejder med dit arkiv."
+      "content": "Sidepanelet er blevet opdateret med forbedrede farver, der giver bedre kontrast, hvilket gør det lettere at læse og navigere dine filmmetadata. Lille ændring, men den gør en mærkbar forskel, når du arbejder gennem dit arkiv."
     }
   ],
   "improvements": [
-    "Tilføjet livstidskøbsmulighed til permanent ejerskab af alle funktioner",
-    "Mac-appen er nu inkluderet i iOS-abonnementet uden ekstra omkostninger",
-    "Fjernet separat macOS-abonnement til enklere, samlet prissætning",
-    "Forbedrede farver i sidebjælken for bedre kontrast og læsbarhed",
+    "Mac-appen er nu inkluderet i iOS-abonnementet uden ekstra omkostning",
+    "Forbedrede sidepanelfarver for bedre kontrast og læsbarhed",
     "Mindre grænsefladeforbedringer"
   ],
   "fixes": [],

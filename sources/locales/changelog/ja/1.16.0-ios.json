@@ -1,0 +1,50 @@
+{
+  "version": "1.16.0",
+  "version_short": "1.16",
+  "url_slug": "1-16-ios",
+  "platform": "ios",
+  "release_date": "2025-12-01T10:00:00.000Z",
+  "title": "買い切り購入オプションが利用可能に",
+  "meta_title": "買い切り購入オプションが利用可能に - Frames",
+  "meta_description": "Framesを一度購入すれば、iPhoneとiPadでずっと使えます。Macアプリはすべてのサブスクリプションに自動的に含まれ、細かなUI改善で使いやすさも向上しました。",
+  "summary": "多くの方から要望をいただいていた買い切り購入がついにiOSで利用可能になりました。1回の支払いで、iPhone、iPad、MacでFramesを永久に利用できます。サブスクリプションには追加料金なしでMacアプリの全機能が含まれるようになりました。",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Framesをずっと所有できます"
+    },
+    {
+      "type": "paragraph",
+      "content": "Redditやメールで多くの方から「サブスクより買い切りのほうが良い」との声をいただきました。その気持ちはよく分かります — アプリが永久に自分のものになる安心感は大きいですよね。買い切りオプションはiOSアプリから直接購入できます。1回の支払いで現在のすべての機能、今後のアップデート、そしてMac版の全機能を永久に利用できます。"
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.16.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.16.0-1@2x.png",
+      "alt": "iPhoneとMac向けFramesの買い切り購入",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "paragraph",
+      "content": "サブスクリプションを続ける場合も、基本的には何も変わりません。ただし、これからはiOSサブスクリプションだけでMacアプリの全機能が自動的にアンロックされます。メタデータ埋め込みも含まれています。追加の手続きも費用もありません。"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "細かな改善をいくつか"
+    },
+    {
+      "type": "paragraph",
+      "content": "今回も細かな改善やインターフェースの調整を追加しました。特に記録用ツールバーを中心に見直し、より気持ちよく使えるようになっています。"
+    }
+  ],
+  "improvements": [
+    "iOSアプリに買い切り購入オプションを追加（1回の支払いでiPhone・iPad・Mac版を永久利用可能）",
+    "メタデータ埋め込み対応のmacOSアプリが、すべてのアクティブなiOSサブスクユーザーに自動で解放されるように",
+    "小さなUI改善とツールバーのコントラスト向上"
+  ],
+  "fixes": [],
+  "patches": []
+}

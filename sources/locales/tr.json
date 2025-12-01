@@ -57,7 +57,7 @@
   },
   "hero": {
     "heading_seo": "Frames Film Fotoğrafçılığı Uygulaması: Analog Fotoğrafçılığınız için Notlar ve Meta Verileri Yakalayın",
-    "heading": "Mükemmel fotoğraf defteri,<br>\nanalog fotoğrafçılar için tasarlandı.",
+    "heading": "Fotoğraf defteri,<br>\nanalog fotoğrafçılar için tasarlandı.",
     "button_macos_text": "macOS için İndir",
     "button_macos_aria_label": "Frames'i macOS için indir",
     "button_ios_text": "iOS için İndir",
@@ -86,14 +86,14 @@
     "images": {
       "preview1": {
         "src": "/lib/img/tr/preview1.png",
-        "alt": "Analog fotoğraf çekimi sırasında pozlama ayarlarını hızlı bir şekilde kaydetmek için enstantane hızı kadranı ve diyafram seçicisi olan film kamera çekim kaydedici.",
-        "caption": "Enstantane hızı ve diyafram için sezgisel kadranlarla çekimlerinizi anında kaydedin. Basitleştirilmiş arayüz, yaratıcı akışınızı kesintiye uğratmadan saniyeler içinde pozlama ayarlarını yakalamanıza olanak tanır ve her karenin ayrıntılarının daha sonra başvurulmak üzere korunmasını sağlar.",
+        "alt": "Analog fotoğraf çekimi sırasında pozlama ayarlarını hızlı bir şekilde kaydetmek için enstantane hızı kadranı, diyafram seçicisi ve pozlama telafisi olan film kamera çekim kaydedici.",
+        "caption": "Enstantane hızı, diyafram ve pozlama telafisi için sezgisel kadranlarla çekimlerinizi anında kaydedin. Arayüz, yaratıcı sürecinizi kesintiye uğratmadan saniyeler içinde pozlama ayarlarını yakalamanıza olanak tanır ve her karenin ayrıntılarının daha sonra başvurulmak üzere korunmasını sağlar.",
         "heading": "Hızlı Çekim Kaydı"
       },
       "preview2": {
         "src": "/lib/img/tr/preview2.png",
         "alt": "Eksiksiz film meta veri izleme alanları: kamera ekipmanı, film stoğu, diyafram, odak uzaklığı, enstantane hızı, ISO, flaş ayarları ve GPS konum verileri.",
-        "caption": "Fotoğrafçılığınız için önemli olan her ayrıntıyı takip edin. Kamera ekipmanı, film stoğu, diyafram, odak uzaklığı, enstantane hızı, ISO, flaş ayarları, GPS konumu ve özel notları kaydedin. Çektiğiniz her ruloda öğrenmenize ve gelişmenize yardımcı olan kapsamlı kayıtlar tutun.",
+        "caption": "Fotoğrafçılığınız için önemli olan her ayrıntıyı takip edin. Kamera ekipmanı, film stoğu, diyafram, odak uzaklığı, enstantane hızı, ISO, flaş ayarları, GPS konumu ve özel notları kaydedin. Çektiğiniz her ruloda öğrenmenize ve gelişmenize yardımcı olan kapsamlı kayıtlar oluşturun.",
         "heading": "Kapsamlı Meta Veriler"
       },
       "preview3": {
@@ -206,7 +206,7 @@
     "feature3": {
       "label": "Kaydet",
       "title": "Ayarları Yakala",
-      "description": "Her fotoğraf için diyafram, enstantane hızı, film türü ve konum detaylarını doğrudan kaydedin, her karenin bilgisini doğru ve erişilebilir tutun."
+      "description": "Her fotoğraf için diyafram, enstantane hızı, film türü ve konum detaylarını kaydedin. Bilgileriniz doğru ve erişilebilir kalır."
     },
     "feature4": {
       "label": "Geçmiş",
@@ -257,12 +257,11 @@
       "price_value_lifetime": "2499.99",
       "includes_label": "İçerir:",
       "features": [
-        "Sınırsız film ruloları",
+        "Sınırsız film",
         "Alt klasörler",
-        ".frames olarak veri dışa aktarma",
-        ".txt veya .gpx olarak veri dışa aktarma",
-        "Fotoğraflara metadata kaydet",
-        "iPhone ve Mac uygulamaları dahildir"
+        "Veri dışa aktarma",
+        "Metadata gömme",
+        "iPhone ve Mac uygulamaları"
       ],
       "button_text": "Ücretsiz Dene"
     },
@@ -285,11 +284,11 @@
     },
     "question4": {
       "question": "Hangi enstantane hızları ve diyaframlar destekleniyor?",
-      "answer": "Frames, çoğu lensi ve kamerayı kapsayan varsayılan diziler sunar ve ekipmanınız için özel diziler de tanımlayabilirsiniz, bu da onu herhangi bir enstantane hızı veya diyafram değeriyle uyumlu hale getirir."
+      "answer": "Frames, çoğu lensi ve kamerayı kapsayan önceden tanımlanmış diyafram (f/1.0'dan f/64'e) ve enstantane hızı (1/8000s'den 60s'ye) dizileri sunar ve ekipmanınız için özel diziler de tanımlayabilirsiniz, bu da onu herhangi bir enstantane hızı veya diyafram değeriyle uyumlu hale getirir."
     },
     "question5": {
       "question": "Tripodları veya aksesuarları kaydedebilir miyim?",
-      "answer": "Evet, Frames tripodları, flaşları ve diğer aksesuarları kaydetmenize izin verir. İstediğiniz özel detayları ekleyebileceğiniz ekstra bir not alanı da vardır."
+      "answer": "Evet, Frames tripodları ve ışık kaynaklarını, kamera üstü flaşları, halka flaşları, softbox'ları, reflektörleri veya ışık modifikatörlerini kaydetmenize izin verir. İstediğiniz özel detayları ekleyebileceğiniz ekstra bir not alanı da vardır."
     },
     "question6": {
       "question": "Verilerimi iPhone ve Mac arasında senkronize edebilir miyim?",
@@ -297,15 +296,15 @@
     },
     "question7": {
       "question": "Frames çevrimdışı çalışıyor mu?",
-      "answer": "Kesinlikle. Frames tamamen çevrimdışı çalışacak şekilde tasarlanmıştır, bu da onu internet bağlantısı olmayan uzak konumlarda çekim yapmak için mükemmel kılar. Tüm verileriniz cihazınızda yerel olarak saklanır, böylece her yerde çekim kaydedebilir, arşivinizi yönetebilir ve ekipmanınızı organize edebilirsiniz. GPS konum etiketleme de çevrimdışı çalışır ve her kareyi kaydettiğinizde kaydedilir. İnternete yalnızca taranan görüntülere metadata dışa aktarırken veya uygulama güncellemelerini kontrol ederken ihtiyacınız vardır."
+      "answer": "Kesinlikle. Frames tamamen çevrimdışı çalışacak şekilde tasarlanmıştır, bu da onu internet bağlantısı olmayan uzak konumlarda çekim yapmak için mükemmel kılar. Tüm verileriniz cihazınızda yerel olarak saklanır, böylece her yerde çekim kaydedebilir, arşivinizi yönetebilir ve ekipmanınızı organize edebilirsiniz. GPS konum etiketleme de çevrimdışı çalışır ve her kareyi kaydettiğinizde otomatik olarak kaydedilir. İnternete yalnızca uygulama güncellemelerini kontrol ederken ihtiyacınız vardır."
     },
     "question8": {
       "question": "Gelecekteki güncellemeler için ne gibi planlar var?",
-      "answer": "Gelecek planlar, genişletilmiş iş akışı özellikleri, geliştirilmiş cihazlar arası entegrasyon ve topluluk tarafından talep edilen yeni araçları içererek analog fotoğrafçılık kaydını daha da esnek ve güçlü hale getirir."
+      "answer": "Gelecekteki güncellemeler iş akışı özelliklerini genişletecek, cihazlar arası entegrasyonu geliştirecek ve topluluk tarafından talep edilen yeni araçlar ekleyecek. Bu, analog fotoğrafçılık kaydını daha da esnek ve güçlü hale getirecek."
     }
   },
   "contact": {
-    "heading": "Fikirlerinizi ve düşüncelerinizi duymak isteriz.",
+    "heading": "Fikirlerinizi ve düşüncelerinizi paylaşın.",
     "button_text": "Bize e-posta gönderin"
   },
   "footer": {
@@ -445,11 +444,11 @@
     },
     "howto2": {
       "heading": "2. Her çekimi anında kaydet",
-      "description": "Film ile çekim yaparken, her kare için kamera ayarlarını kaydedin: diyafram, deklanşör hızı, odak uzaklığı, flaş, yaratıcı notlar ve daha fazlası. Coğrafi konum, yer adları ve zaman damgaları, hassas bir analog fotoğraf günlüğünü desteklemek için otomatik olarak yakalanır. Varsayılan kaydırıcı kontrollerini kullanabilir veya sağ üst menü aracılığıyla klasik bir form görünümüne geçebilirsiniz."
+      "description": "Film ile çekim yaparken, her kare için kamera ayarlarını kaydedin: diyafram, deklanşör hızı, odak uzaklığı, flaş, yaratıcı notlar ve daha fazlası. Coğrafi konum, yer adları ve zaman damgaları, hassas bir analog fotoğraf günlüğü oluşturmak için otomatik olarak yakalanır. Varsayılan kaydırıcı kontrollerini kullanabilir veya sağ üst menü aracılığıyla klasik bir form görünümüne geçebilirsiniz."
     },
     "howto3": {
       "heading": "3. Verilerinizi dışa aktarın",
-      "description": "Filminiz tamamlandıktan ve tüm çekimler kaydedildikten sonra, verileri bir .frames dosyası olarak dışa aktarın. AirDrop, e-posta veya tercih ettiğiniz herhangi bir yöntemi kullanarak Mac'inize gönderin. Bu dosya, taramalarınızla daha sonra kullanılmak üzere kaydedilen tüm film çekim meta verilerini içerir."
+      "description": "Filminiz tamamlandıktan ve tüm çekimler kaydedildikten sonra, verileri bir .frames dosyası olarak dışa aktarın. AirDrop, e-posta veya tercih ettiğiniz herhangi bir yöntemi kullanarak Mac'inize gönderin. Bu dosya, taramalarınızla daha sonra kullanılmak üzere kaydedilen tüm fotoğrafik meta verileri içerir."
     },
     "howto4": {
       "heading": "4. Verilerinizi yükleyin",

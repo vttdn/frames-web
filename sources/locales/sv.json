@@ -57,7 +57,7 @@
   },
   "hero": {
     "heading_seo": "Frames Filmfotograferingsapp: Spara anteckningar och metadata för din analoga fotografering",
-    "heading": "Den perfekta fotografianteckningsboken,<br>\nutformad för analogfotografer.",
+    "heading": "Analogfotografianteckningsboken,<br>\nskapad för filmfotografer.",
     "button_macos_text": "Ladda ner för macOS",
     "button_macos_aria_label": "Ladda ner Frames för macOS",
     "button_ios_text": "Ladda ner för iOS",
@@ -86,14 +86,14 @@
     "images": {
       "preview1": {
         "src": "/lib/img/sv/preview1.png",
-        "alt": "Filmkamera-bildinspelare med slutartidsratt och bländarväljare för snabb loggning av exponeringsinställningar under analog fotografering.",
-        "caption": "Logga dina bilder omedelbart med intuitiva rattar för slutartid och bländare. Det strömlinjeformade gränssnittet låter dig fånga exponeringsinställningar på sekunder utan att avbryta ditt kreativa flöde, vilket säkerställer att varje bilds detaljer bevaras för framtida referens.",
+        "alt": "Filmkamera-bildinspelare med slutartidsratt, bländarväljare och exponeringskompensation för snabb loggning av exponeringsinställningar under analog fotografering.",
+        "caption": "Logga dina bilder omedelbart med intuitiva rattar för slutartid, bländare och exponeringskompensation. Gränssnittet låter dig fånga exponeringsinställningar på sekunder utan att avbryta din kreativa process, vilket säkerställer att varje bilds detaljer bevaras för framtida referens.",
         "heading": "Snabb Bildloggning"
       },
       "preview2": {
         "src": "/lib/img/sv/preview2.png",
         "alt": "Fullständiga filmmetadata-spårningsfält: kamerautrustning, filmtyp, bländare, brännvidd, slutartid, ISO, blixtinställningar och GPS-platsdata.",
-        "caption": "Spåra varje detalj som betyder något för din fotografering. Registrera kamerautrustning, filmtyp, bländare, brännvidd, slutartid, ISO, blixtinställningar, GPS-plats och anpassade anteckningar. Behåll omfattande register som hjälper dig att lära och förbättra med varje rulle du tar.",
+        "caption": "Spåra varje detalj som betyder något för din fotografering. Registrera kamerautrustning, filmtyp, bländare, brännvidd, slutartid, ISO, blixtinställningar, GPS-plats och anpassade anteckningar. Skapa fullständiga register som hjälper dig att lära och förbättra med varje rulle du tar.",
         "heading": "Omfattande Metadata"
       },
       "preview3": {
@@ -206,7 +206,7 @@
     "feature3": {
       "label": "Spela in",
       "title": "Fånga Inställningar",
-      "description": "Logga bländare, slutartid, filmtyp och platsdetaljer direkt för varje bild, håll varje bilds information korrekt och tillgänglig."
+      "description": "Logga bländare, slutartid, filmtyp och platsdetaljer för varje bild. Din information förblir korrekt och tillgänglig."
     },
     "feature4": {
       "label": "Historik",
@@ -257,12 +257,11 @@
       "price_value_lifetime": "599",
       "includes_label": "Inkluderar:",
       "features": [
-        "Obegränsade filmrullar",
+        "Obegränsade filmer",
         "Undermappar",
-        "Exportera data som .frames",
-        "Exportera data som .txt eller .gpx",
-        "Spara metadata till foton",
-        "iPhone- och Mac-appar ingår"
+        "Dataexport",
+        "Metadata inbäddning",
+        "iPhone- och Mac-appar"
       ],
       "button_text": "Prova Gratis"
     },
@@ -285,11 +284,11 @@
     },
     "question4": {
       "question": "Vilka slutartider och bländare stöds?",
-      "answer": "Frames erbjuder standardsekvenser som täcker de flesta objektiv och kameror, och du kan även definiera egna sekvenser för din utrustning, vilket gör den kompatibel med alla slutartids- eller bländarvärden."
+      "answer": "Frames tillhandahåller fördefinierade sekvenser för bländare (f/1.0 till f/64) och slutartid (1/8000s till 60s) som täcker de flesta objektiv och kameror. Du kan också definiera anpassade sekvenser för din specifika utrustning, vilket garanterar kompatibilitet med alla anpassade bländar- eller slutartidsvärden."
     },
     "question5": {
       "question": "Kan jag logga stativ eller tillbehör?",
-      "answer": "Ja, Frames låter dig registrera stativ, blixtar och andra tillbehör. Det finns även ett extra anteckningsfält där du kan lägga till egna detaljer du vill."
+      "answer": "Ja, Frames låter dig registrera stativ och ljuskällor som blixtar, ringblixtar, softboxar, reflektorer eller ljusmodifierare. Det finns även ett extra anteckningsfält där du kan lägga till egna detaljer du vill."
     },
     "question6": {
       "question": "Kan jag synkronisera mina data mellan iPhone och Mac?",
@@ -297,15 +296,15 @@
     },
     "question7": {
       "question": "Fungerar Frames offline?",
-      "answer": "Absolut. Frames är utformat för att fungera helt offline, vilket gör den perfekt för fotografering på avlägsna platser utan internetanslutning. All din data lagras lokalt på din enhet, så du kan logga bilder, hantera ditt arkiv och organisera din utrustning var som helst. GPS-platstaggar fungerar också offline och sparas när du spelar in varje bildruta. Du behöver endast internet när du exporterar metadata till skannade bilder eller kontrollerar appuppdateringar."
+      "answer": "Absolut. Frames är utformat för att fungera helt offline, vilket gör den perfekt för fotografering på avlägsna platser utan internetanslutning. All din data lagras lokalt på din enhet, så du kan logga bilder, hantera ditt arkiv och organisera din utrustning var som helst. GPS-platstaggar fungerar också offline och sparas automatiskt när du spelar in varje bildruta. Du behöver endast internet när du kontrollerar appuppdateringar."
     },
     "question8": {
       "question": "Vad finns det för planer för framtida uppdateringar?",
-      "answer": "Framtida planer inkluderar utökade arbetsflödesfunktioner, förbättrad integration mellan enheter och nya verktyg som efterfrågats av gemenskapen för att göra analogfotografiloggning ännu mer flexibel och kraftfull."
+      "answer": "Framtida uppdateringar kommer att utöka arbetsflödesfunktioner, förbättra integration mellan enheter och lägga till nya verktyg som efterfrågats av gemenskapen. Detta kommer att göra analogfotografiloggning ännu mer flexibel och kraftfull."
     }
   },
   "contact": {
-    "heading": "Låt oss höra dina idéer och tankar.",
+    "heading": "Dela dina idéer och tankar.",
     "button_text": "Skicka oss ett e-postmeddelande"
   },
   "footer": {
@@ -445,11 +444,11 @@
     },
     "howto2": {
       "heading": "2. Logga varje bild medan du fotograferar",
-      "description": "När du fotograferar på film, registrera kamerainställningarna för varje bild: bländare, slutartid, brännvidd, blixt, kreativa anteckningar och mer. Geolokalisering, platsnamn och tidsstämplar fångas automatiskt för att stödja en exakt analog fotografilogg. Du kan använda standardreglage eller byta till en klassisk formulärvy via menyn längst upp till höger."
+      "description": "När du fotograferar på film, registrera kamerainställningarna för varje bild: bländare, slutartid, brännvidd, blixt, kreativa anteckningar och mer. Geolokalisering, platsnamn och tidsstämplar fångas automatiskt för att skapa en exakt analog fotografilogg. Du kan använda standardreglage eller byta till en klassisk formulärvy via menyn längst upp till höger."
     },
     "howto3": {
       "heading": "3. Exportera dina data",
-      "description": "När din rulle är klar och alla bilder är loggade, exportera datan som en .frames-fil. Skicka den till din Mac med AirDrop, e-post eller valfri metod. Denna fil innehåller alla dina inspelade filmfotograferingsmetadata för senare användning med dina skanningar."
+      "description": "När din rulle är klar och alla bilder är loggade, exportera datan som en .frames-fil. Skicka den till din Mac med AirDrop, e-post eller valfri metod. Denna fil innehåller alla dina inspelade fotografiska metadata för senare användning med dina skanningar."
     },
     "howto4": {
       "heading": "4. Ladda dina data",

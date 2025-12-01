@@ -40,7 +40,7 @@
           "name": "Jakie czasy naświetlania i przysłony są obsługiwane?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Frames zapewnia domyślne sekwencje pokrywające większość obiektywów i aparatów, a także możesz definiować własne sekwencje dla swojego sprzętu, co czyni go kompatybilnym z dowolnymi wartościami czasu naświetlania lub przysłony."
+            "text": "Frames zapewnia wstępnie zdefiniowane sekwencje przysłony (f/1.0 do f/64) i czasu naświetlania (1/8000s do 60s) pokrywające większość obiektywów i aparatów. Możesz również definiować własne sekwencje dla swojego konkretnego sprzętu, zapewniając kompatybilność z dowolnymi niestandardowymi wartościami przysłony lub czasu naświetlania."
           }
         },
         {
@@ -48,7 +48,7 @@
           "name": "Czy mogę rejestrować statywy lub akcesoria?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Tak, Frames pozwala rejestrować statywy, lampy błyskowe i inne akcesoria. Istnieje również dodatkowe pole notatek, w którym możesz dodać dowolne własne szczegóły."
+            "text": "Tak, Frames pozwala rejestrować statywy i źródła światła, takie jak lampy błyskowe, lampy pierścieniowe, softboxy, reflektory lub modyfikatory światła. Istnieje również dodatkowe pole notatek, w którym możesz dodać dowolne własne szczegóły."
           }
         },
         {
@@ -64,7 +64,7 @@
           "name": "Czy Frames działa offline?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Oczywiście. Frames został zaprojektowany do pracy całkowicie offline, co czyni go idealnym do fotografowania w odległych lokalizacjach bez łączności internetowej. Wszystkie Twoje dane są przechowywane lokalnie na urządzeniu, więc możesz logować zdjęcia, zarządzać archiwum i organizować sprzęt gdziekolwiek jesteś. Tagowanie lokalizacji GPS również działa offline i zostanie zapisane podczas rejestrowania każdej klatki. Internet jest potrzebny tylko podczas eksportowania metadanych do zeskanowanych obrazów lub sprawdzania aktualizacji aplikacji."
+            "text": "Oczywiście. Frames został zaprojektowany do pracy całkowicie offline, co czyni go idealnym do fotografowania w odległych lokalizacjach bez łączności internetowej. Wszystkie Twoje dane są przechowywane lokalnie na urządzeniu, więc możesz logować zdjęcia, zarządzać archiwum i organizować sprzęt gdziekolwiek jesteś. Tagowanie lokalizacji GPS również działa offline i zostanie zapisane automatycznie podczas rejestrowania każdej klatki. Internet jest potrzebny tylko podczas sprawdzania aktualizacji aplikacji."
           }
         },
         {
@@ -72,7 +72,7 @@
           "name": "Jakie są plany dotyczące przyszłych aktualizacji?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Przyszłe plany obejmują rozszerzanie funkcji przepływu pracy, poprawę integracji między urządzeniami i dodawanie nowych narzędzi zgłaszanych przez społeczność, aby uczynić rejestrowanie fotografii analogowej jeszcze bardziej elastycznym i potężnym."
+            "text": "Przyszłe aktualizacje rozszerzą funkcje przepływu pracy, poprawią integrację między urządzeniami i dodadzą nowe narzędzia zgłaszane przez społeczność. To uczyni rejestrowanie fotografii analogowej jeszcze bardziej elastycznym i potężnym."
           }
         }
       ]

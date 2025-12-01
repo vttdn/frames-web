@@ -1,0 +1,50 @@
+{
+  "version": "1.16.0",
+  "version_short": "1.16",
+  "url_slug": "1-16-ios",
+  "platform": "ios",
+  "release_date": "2025-12-01T10:00:00.000Z",
+  "title": "Livstidskjøp nå tilgjengelig",
+  "meta_title": "Livstidskjøp nå tilgjengelig - Frames",
+  "meta_description": "Du kan nå kjøpe Frames én gang og eie det for alltid på iPhone og iPad. Mac-appen følger automatisk med alle abonnementer, og noen små grensesnittforbedringer gjør appen enda bedre å bruke.",
+  "summary": "Livstidskjøpsalternativet som mange har etterspurt, er nå tilgjengelig på iOS. Betal én gang, behold Frames for alltid på iPhone, iPad og Mac. Abonnementer inkluderer nå også hele Mac-appen uten ekstra kostnad.",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Eie Frames for alltid"
+    },
+    {
+      "type": "paragraph",
+      "content": "Mange har fortalt meg på Reddit og via e-post at de heller vil kjøpe appen enn å abonnere. Jeg forstår det godt — det er betryggende å vite at appen alltid er din. Livstidskjøpsalternativet er nå tilgjengelig direkte i iOS-appen. Én betaling gir deg alle nåværende funksjoner, fremtidige oppdateringer og hele Mac-appen permanent."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.16.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.16.0-1@2x.png",
+      "alt": "Livstidskjøpsalternativ for Frames på iPhone og Mac",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "paragraph",
+      "content": "Hvis du foretrekker å fortsette med abonnement, endres ingenting for deg, bortsett fra at ditt eksisterende iOS-abonnement nå automatisk låser opp hele Mac-appen, inkludert metadata-innlegging. Ingen ekstra trinn, ingen ekstra kostnad."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Små forbedringer"
+    },
+    {
+      "type": "paragraph",
+      "content": "Som alltid er det gjort noen små forbedringer og polering av grensesnittet, denne gangen med særlig fokus på opptaksverktøylinjen, slik at alt føles litt strammere og mer behagelig å bruke."
+    }
+  ],
+  "improvements": [
+    "Livstidskjøpsalternativ lagt til i iOS-appen (engangsbetaling, permanent tilgang til iPhone-, iPad- og Mac-versjoner)",
+    "macOS-app med metadata-innlegging låses nå automatisk opp for alle aktive iOS-abonnenter uten ekstra kostnad",
+    "Mindre grensesnittforbedringer og bedre kontrast i verktøylinjen"
+  ],
+  "fixes": [],
+  "patches": []
+}

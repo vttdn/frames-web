@@ -4,36 +4,32 @@
   "url_slug": "1-11-macos",
   "platform": "macos",
   "release_date": "2025-11-29T10:00:00.000Z",
-  "title": "Opción de compra vitalicia y precios unificados",
-  "meta_title": "Opción de compra vitalicia y precios unificados - Frames",
-  "meta_description": "Nueva opción de compra única para acceso de por vida. La aplicación macOS ahora está incluida con la suscripción iOS sin coste adicional. Precios simplificados que te dan a elegir entre suscripción o propiedad permanente.",
-  "summary": "Elige cómo quieres poseer Frames con una nueva opción de compra vitalicia. La aplicación Mac ahora está incluida con tu suscripción iOS sin coste adicional, haciéndolo todo más simple y flexible.",
+  "title": "Suscripción unificada para acceso completo",
+  "meta_title": "Suscripción unificada para acceso completo - Frames",
+  "meta_description": "La app de macOS ahora está incluida en la suscripción de iOS sin costo adicional. Precio unificado para usar todas las funciones de Frames en iPhone y Mac.",
+  "summary": "La app de Mac ahora está integrada en tu suscripción de iOS, unificando el ecosistema de Frames para un acceso y gestión más fáciles en todos los dispositivos.",
   "sections": [
     {
       "type": "heading",
       "level": 3,
-      "content": "Precios que se adaptan a ti"
+      "content": "Precio unificado para el ecosistema Frames"
     },
     {
       "type": "paragraph",
-      "content": "Después de escuchar a la comunidad de fotografía analógica en Reddit, quedó claro que muchos de vosotros queríais la opción de poseer la aplicación de forma definitiva en lugar de suscribiros. Lo entiendo, hay algo tranquilizador en una compra única que es tuya para siempre. Así que he añadido un plan de por vida que incluye todas las funciones actuales y la aplicación Mac. Es tuya permanentemente, sin caducidad."
+      "content": "Basándome en los comentarios de la comunidad de fotografía analógica, he refinado el modelo de precios. La app de Mac ya no requiere una suscripción separada, ahora está incluida en tu suscripción de iOS sin costo adicional. Esta unificación hace más simple disfrutar de la experiencia completa de Frames, desde anotar detalles de película en iOS hasta integrar metadatos en imágenes escaneadas en Mac."
     },
     {
       "type": "media",
       "image": "/lib/img/shared/changelog/frames-mac-1.11.0-1.png",
       "image_2x": "/lib/img/shared/changelog/frames-mac-1.11.0-1@2x.png",
-      "alt": "Icono de compra de Apple que representa la nueva opción de plan vitalicio de la aplicación de fotografía analógica Frames",
+      "alt": "Icono de compra de Apple que representa la nueva opción de plan de por vida de la app de fotografía analógica Frames",
       "width": "400",
       "height": "300"
     },
     {
-      "type": "paragraph",
-      "content": "Al mismo tiempo, la aplicación Mac ya no tiene su propia suscripción separada. En su lugar, ahora está incluida con tu suscripción iOS sin coste adicional. Esto hace las cosas más claras y justas: una sola suscripción te da acceso a ambas aplicaciones. Tanto si prefieres suscribirte como comprar una vez, la elección es tuya. Ambas opciones te dan la experiencia completa de Frames en iPhone y Mac."
-    },
-    {
       "type": "heading",
       "level": 3,
-      "content": "Mejoras en la barra lateral"
+      "content": "Mejora de la barra lateral"
     },
     {
       "type": "paragraph",
@@ -41,11 +37,9 @@
     }
   ],
   "improvements": [
-    "Añadida opción de compra vitalicia para propiedad permanente de todas las funciones",
-    "Aplicación Mac ahora incluida con la suscripción iOS sin coste adicional",
-    "Eliminada la suscripción macOS separada para precios unificados más simples",
-    "Colores mejorados de la barra lateral para mejor contraste y legibilidad",
-    "Pequeñas mejoras en la interfaz"
+    "App de Mac ahora incluida en la suscripción de iOS sin costo adicional",
+    "Colores de la barra lateral mejorados para mejor contraste y legibilidad",
+    "Refinamientos menores de la interfaz"
   ],
   "fixes": [],
   "patches": []
