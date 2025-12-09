@@ -2,7 +2,10 @@
   "permissions": {
     "allow": [
       "Bash(sed:*)",
-      "Bash(done)"
+      "Bash(done)",
+      "Bash(wc:*)",
+      "Bash(find:*)",
+      "Bash(ls:*)"
     ],
     "deny": [],
     "ask": []

@@ -348,6 +348,7 @@
     "appstore_ios": "https://apps.apple.com/jp/app/frames-フィルム写真ノート/id6744057317",
     "appstore_macos": "https://apps.apple.com/jp/app/frames-フィルム写真メタデータ/id6744063354",
     "documentation": "docs/",
+    "blog": "blog/",
     "changelog": "changelog/",
     "privacy": "privacy/"
   },
@@ -360,6 +361,35 @@
       "title": "ドキュメント - Frames",
       "description": "フィルム写真アプリFramesの使い方を学びましょう。アナログ撮影の記録とメタデータ管理の完全ガイド、チュートリアル、ヒント。",
       "canonical_url": "https://withframes.com/ja/docs/"
+    }
+  },
+  "blog": {
+    "meta": {
+      "title": "ブログ - Frames",
+      "description": "フィルム写真とFramesアプリに関する記事、ヒント、インサイト。",
+      "canonical_url": "https://withframes.com/ja/blog/"
+    },
+    "heading": "ブログ",
+    "labels": {
+      "by_author": "著者",
+      "published_on": "公開日",
+      "category": "カテゴリー",
+      "all_posts": "すべての記事",
+      "in_category": "：",
+      "previous": "前へ",
+      "next": "次へ",
+      "contents": "目次",
+      "filed_under": "分類：",
+      "author": "著者",
+      "updated": "更新日"
+    },
+    "pagination": {
+      "previous": "前へ",
+      "next": "次へ",
+      "page": "ページ",
+      "page_suffix": "",
+      "newer_posts": "新しい記事",
+      "older_posts": "過去の記事"
     }
   },
   "changelog": {

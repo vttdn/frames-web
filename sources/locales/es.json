@@ -345,6 +345,7 @@
     "appstore_ios": "https://apps.apple.com/es/app/frames-notas-analógicas/id6744057317",
     "appstore_macos": "https://apps.apple.com/es/app/frames-metadatos-foto/id6744063354",
     "documentation": "docs/",
+    "blog": "blog/",
     "changelog": "changelog/",
     "privacy": "confidencialidad/"
   },
@@ -357,6 +358,35 @@
       "title": "Documentación - Frames",
       "description": "Aprende a usar Frames, la app de fotografía analógica. Guías completas, tutoriales y consejos para seguir tus fotos y gestionar metadatos.",
       "canonical_url": "https://withframes.com/es/docs/"
+    }
+  },
+  "blog": {
+    "meta": {
+      "title": "Blog (ES) - Frames",
+      "description": "Artículos, consejos y análisis sobre fotografía analógica y la aplicación Frames.",
+      "canonical_url": "https://withframes.com/es/blog/"
+    },
+    "heading": "Blog",
+    "labels": {
+      "by_author": "por",
+      "published_on": "Publicado el",
+      "category": "Categoría",
+      "all_posts": "Todos los artículos",
+      "in_category": "en",
+      "previous": "Anterior",
+      "next": "Siguiente",
+      "contents": "Contenido",
+      "filed_under": "Archivado en",
+      "author": "Autor",
+      "updated": "Actualizado"
+    },
+    "pagination": {
+      "previous": "Anterior",
+      "next": "Siguiente",
+      "page": "Página",
+      "page_suffix": "",
+      "newer_posts": "Publicaciones más recientes",
+      "older_posts": "Publicaciones más antiguas"
     }
   },
   "changelog": {

@@ -345,6 +345,7 @@
     "appstore_ios": "https://apps.apple.com/de/app/frames-film-notizen/id6744057317",
     "appstore_macos": "https://apps.apple.com/de/app/frames-film-metadaten/id6744063354",
     "documentation": "docs/",
+    "blog": "blog/",
     "changelog": "changelog/",
     "privacy": "datenschutz/"
   },
@@ -357,6 +358,35 @@
       "title": "Dokumentation - Frames",
       "description": "Lernen Sie Frames zu nutzen, die Filmfotografie-App. Komplette Anleitungen, Tutorials und Tipps für analoge Aufnahmen und Metadaten.",
       "canonical_url": "https://withframes.com/de/docs/"
+    }
+  },
+  "blog": {
+    "meta": {
+      "title": "Blog (DE) - Frames",
+      "description": "Artikel, Tipps und Einblicke in die analoge Fotografie und die Frames-App.",
+      "canonical_url": "https://withframes.com/de/blog/"
+    },
+    "heading": "Blog",
+    "labels": {
+      "by_author": "von",
+      "published_on": "Veröffentlicht am",
+      "category": "Kategorie",
+      "all_posts": "Alle Beiträge",
+      "in_category": "in",
+      "previous": "Zurück",
+      "next": "Weiter",
+      "contents": "Inhalt",
+      "filed_under": "Eingeordnet unter",
+      "author": "Autor",
+      "updated": "Aktualisiert"
+    },
+    "pagination": {
+      "previous": "Zurück",
+      "next": "Weiter",
+      "page": "Seite",
+      "page_suffix": "",
+      "newer_posts": "Neuere Beiträge",
+      "older_posts": "Ältere Beiträge"
     }
   },
   "changelog": {

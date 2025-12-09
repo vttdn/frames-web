@@ -348,6 +348,7 @@
     "appstore_ios": "https://apps.apple.com/kr/app/frames-필름-사진-노트/id6744057317",
     "appstore_macos": "https://apps.apple.com/kr/app/frames-필름-사진-메타데이터/id6744063354",
     "documentation": "docs/",
+    "blog": "blog/",
     "changelog": "changelog/",
     "privacy": "privacy/"
   },
@@ -360,6 +361,35 @@
       "title": "문서 - Frames",
       "description": "필름 사진 앱 Frames 사용법을 배워보세요. 아날로그 촬영 추적과 메타데이터 관리를 위한 완벽한 가이드, 튜토리얼, 팁.",
       "canonical_url": "https://withframes.com/ko/docs/"
+    }
+  },
+  "blog": {
+    "meta": {
+      "title": "블로그 - Frames",
+      "description": "필름 사진과 Frames 앱에 관한 기사, 팁, 인사이트.",
+      "canonical_url": "https://withframes.com/ko/blog/"
+    },
+    "heading": "블로그",
+    "labels": {
+      "by_author": "작성자",
+      "published_on": "게시일",
+      "category": "카테고리",
+      "all_posts": "모든 글",
+      "in_category": "카테고리",
+      "previous": "이전",
+      "next": "다음",
+      "contents": "목차",
+      "filed_under": "분류",
+      "author": "작성자",
+      "updated": "업데이트"
+    },
+    "pagination": {
+      "previous": "이전",
+      "next": "다음",
+      "page": "페이지",
+      "page_suffix": "",
+      "newer_posts": "최신 글",
+      "older_posts": "이전 글"
     }
   },
   "changelog": {
