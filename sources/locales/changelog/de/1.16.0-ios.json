@@ -43,8 +43,18 @@
   "improvements": [
     "Einmalkauf-Option in der iOS-App hinzugefügt (Einmalzahlung, dauerhafter Zugriff auf iPhone-, iPad- und Mac-Versionen)",
     "macOS-App mit Metadaten-Einbettung wird jetzt automatisch für alle aktiven iOS-Abonnenten freigeschaltet, ohne zusätzliche Kosten",
-    "Kleine Interface-Verbesserungen und besserer Kontrast in der Werkzeugleiste"
+    "Kleine Interface-Verbesserungen und besserer Kontrast in der Werkzeugleiste",
+    "Reset-Button in der Werkzeugleiste hinzugefügt, um geänderte Einstellungen schnell auf ihre ursprünglichen Werte zurückzusetzen"
   ],
   "fixes": [],
-  "patches": []
+  "patches": [
+    {
+      "version": "1.16.1",
+      "description": "Reset-Button in der Werkzeugleiste"
+    },
+    {
+      "version": "1.16.2",
+      "description": "UI-Feinschliff und Textanpassungen"
+    }
+  ]
 }

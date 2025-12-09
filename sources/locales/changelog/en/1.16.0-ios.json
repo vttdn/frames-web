@@ -43,8 +43,18 @@
   "improvements": [
     "Added lifetime purchase option in the iOS app (one-time payment, permanent ownership of iPhone, iPad, and Mac versions)",
     "macOS app with metadata embedding now automatically unlocked for all active iOS subscribers at no extra cost",
-    "Minor interface refinements and improved toolbar contrast"
+    "Minor interface refinements and improved toolbar contrast",
+    "Added reset button in toolbar to quickly restore adjusted settings to their original values"
   ],
   "fixes": [],
-  "patches": []
+  "patches": [
+    {
+      "version": "1.16.1",
+      "description": "Toolbar Reset Button"
+    },
+    {
+      "version": "1.16.2",
+      "description": "UI polish and text tweaks"
+    }
+  ]
 }

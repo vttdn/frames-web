@@ -43,8 +43,18 @@
   "improvements": [
     "Adăugată opțiunea de achiziție pe viață în aplicația iOS (plată unică, acces permanent la versiunile iPhone, iPad și Mac)",
     "Aplicația macOS cu inserare de metadate este acum deblocată automat pentru toți abonații activi iOS fără cost suplimentar",
-    "Îmbunătățiri minore ale interfeței și contrast mai bun în bara de instrumente"
+    "Îmbunătățiri minore ale interfeței și contrast mai bun în bara de instrumente",
+    "Adăugat buton de resetare în bara de instrumente pentru a restaura rapid setările la valorile inițiale"
   ],
   "fixes": [],
-  "patches": []
+  "patches": [
+    {
+      "version": "1.16.1",
+      "description": "Buton de resetare în bara de instrumente"
+    },
+    {
+      "version": "1.16.2",
+      "description": "Îmbunătățiri vizuale și ajustări de text"
+    }
+  ]
 }

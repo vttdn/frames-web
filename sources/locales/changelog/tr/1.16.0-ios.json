@@ -43,8 +43,18 @@
   "improvements": [
     "iOS uygulamasına ömür boyu satın alma seçeneği eklendi (tek seferlik ödeme, iPhone, iPad ve Mac sürümleri için kalıcı erişim)",
     "Metaveri ekleme özellikli macOS uygulaması artık tüm aktif iOS aboneleri için otomatik olarak açılıyor, ek ücret yok",
-    "Küçük arayüz iyileştirmeleri ve araç çubuğu kontrastının artırılması"
+    "Küçük arayüz iyileştirmeleri ve araç çubuğu kontrastının artırılması",
+    "Ayarları hızlıca orijinal değerlerine döndürmek için araç çubuğuna sıfırlama düğmesi eklendi"
   ],
   "fixes": [],
-  "patches": []
+  "patches": [
+    {
+      "version": "1.16.1",
+      "description": "Araç çubuğunda sıfırlama düğmesi"
+    },
+    {
+      "version": "1.16.2",
+      "description": "Arayüz iyileştirmeleri ve metin düzenlemeleri"
+    }
+  ]
 }

@@ -43,8 +43,18 @@
   "improvements": [
     "iOS 앱에 영구 구매 옵션 추가 (한 번 결제, iPhone, iPad, Mac 버전 영구 사용 가능)",
     "메타데이터 삽입 기능 포함 macOS 앱이 모든 활성 iOS 구독자에게 자동으로 잠금 해제됨",
-    "작은 UI 개선 및 툴바 대비 향상"
+    "작은 UI 개선 및 툴바 대비 향상",
+    "툴바에 재설정 버튼 추가하여 설정을 원래 값으로 빠르게 복원"
   ],
   "fixes": [],
-  "patches": []
+  "patches": [
+    {
+      "version": "1.16.1",
+      "description": "툴바 재설정 버튼"
+    },
+    {
+      "version": "1.16.2",
+      "description": "UI 개선 및 텍스트 수정"
+    }
+  ]
 }

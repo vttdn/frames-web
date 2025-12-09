@@ -43,8 +43,18 @@
   "improvements": [
     "Dodano opcję jednorazowego zakupu w aplikacji iOS (jednorazowa płatność, stały dostęp do wersji iPhone, iPad i Mac)",
     "Aplikacja macOS z wbudowanymi metadanymi automatycznie odblokowywana dla wszystkich aktywnych subskrybentów iOS bez dodatkowych kosztów",
-    "Drobne poprawki interfejsu i lepszy kontrast paska narzędzi"
+    "Drobne poprawki interfejsu i lepszy kontrast paska narzędzi",
+    "Dodano przycisk resetowania na pasku narzędzi do szybkiego przywracania ustawień do wartości początkowych"
   ],
   "fixes": [],
-  "patches": []
+  "patches": [
+    {
+      "version": "1.16.1",
+      "description": "Przycisk resetowania na pasku narzędzi"
+    },
+    {
+      "version": "1.16.2",
+      "description": "Poprawki wizualne i tekstowe"
+    }
+  ]
 }

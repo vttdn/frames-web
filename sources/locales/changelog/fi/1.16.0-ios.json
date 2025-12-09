@@ -43,8 +43,18 @@
   "improvements": [
     "Lisätty kertamaksuvaihtoehto iOS-sovellukseen (kertamaksu, pysyvä käyttöoikeus iPhone-, iPad- ja Mac-versioihin)",
     "macOS-sovellus metadatan upotuksella avautuu nyt automaattisesti kaikille aktiivisille iOS-tilaajille ilman lisäkustannuksia",
-    "Pieniä käyttöliittymäparannuksia ja parempi kontrasti työkalupalkissa"
+    "Pieniä käyttöliittymäparannuksia ja parempi kontrasti työkalupalkissa",
+    "Lisätty palautuspainike työkalupalkkiin asetusten palauttamiseksi nopeasti alkuperäisiin arvoihinsa"
   ],
   "fixes": [],
-  "patches": []
+  "patches": [
+    {
+      "version": "1.16.1",
+      "description": "Palautuspainike työkalupalkissa"
+    },
+    {
+      "version": "1.16.2",
+      "description": "Käyttöliittymän viimeistely ja tekstimuutokset"
+    }
+  ]
 }

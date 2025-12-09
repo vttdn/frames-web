@@ -43,8 +43,18 @@
   "improvements": [
     "Adicionada opção de compra vitalícia no app iOS (pagamento único, acesso permanente às versões iPhone, iPad e Mac)",
     "App macOS com inserção de metadados agora desbloqueado automaticamente para todos os assinantes ativos do iOS sem custo adicional",
-    "Pequenos aprimoramentos na interface e melhor contraste na barra de ferramentas"
+    "Pequenos aprimoramentos na interface e melhor contraste na barra de ferramentas",
+    "Adicionado botão de reset na barra de ferramentas para restaurar rapidamente as configurações aos valores originais"
   ],
   "fixes": [],
-  "patches": []
+  "patches": [
+    {
+      "version": "1.16.1",
+      "description": "Botão de reset na barra de ferramentas"
+    },
+    {
+      "version": "1.16.2",
+      "description": "Ajustes visuais e de texto"
+    }
+  ]
 }

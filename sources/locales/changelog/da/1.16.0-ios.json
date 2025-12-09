@@ -43,8 +43,18 @@
   "improvements": [
     "Tilføjet mulighed for engangskøb i iOS-appen (engangsbetaling, permanent adgang til iPhone-, iPad- og Mac-versioner)",
     "macOS-appen med metadata-indlejring låses nu automatisk op for alle aktive iOS-abonnenter uden ekstra betaling",
-    "Mindre visuelle forbedringer og bedre kontrast i værktøjslinjen"
+    "Mindre visuelle forbedringer og bedre kontrast i værktøjslinjen",
+    "Tilføjet nulstillingsknap i værktøjslinjen for hurtigt at gendanne indstillinger til deres oprindelige værdier"
   ],
   "fixes": [],
-  "patches": []
+  "patches": [
+    {
+      "version": "1.16.1",
+      "description": "Nulstillingsknap i værktøjslinjen"
+    },
+    {
+      "version": "1.16.2",
+      "description": "UI-forbedringer og tekstjusteringer"
+    }
+  ]
 }

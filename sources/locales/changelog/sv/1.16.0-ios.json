@@ -43,8 +43,18 @@
   "improvements": [
     "Tillagd livstidsköpsoption i iOS-appen (engångsbetalning, permanent tillgång till iPhone-, iPad- och Mac-versioner)",
     "macOS-appen med metadata-inbäddning låses nu upp automatiskt för alla aktiva iOS-prenumeranter utan extra kostnad",
-    "Små gränssnittsjusteringar och förbättrad kontrast i verktygsfältet"
+    "Små gränssnittsjusteringar och förbättrad kontrast i verktygsfältet",
+    "Lade till återställningsknapp i verktygsfältet för att snabbt återställa inställningar till ursprungsvärdena"
   ],
   "fixes": [],
-  "patches": []
+  "patches": [
+    {
+      "version": "1.16.1",
+      "description": "Återställningsknapp i verktygsfältet"
+    },
+    {
+      "version": "1.16.2",
+      "description": "Gränssnittsförbättringar och textjusteringar"
+    }
+  ]
 }

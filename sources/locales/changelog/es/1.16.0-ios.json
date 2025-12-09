@@ -43,8 +43,18 @@
   "improvements": [
     "Añadida la opción de compra de por vida en la app de iOS (pago único, acceso permanente a versiones de iPhone, iPad y Mac)",
     "La app de macOS con inserción de metadatos ahora se desbloquea automáticamente para todos los suscriptores activos de iOS sin coste adicional",
-    "Pequeños ajustes de interfaz y mejor contraste en la barra de herramientas"
+    "Pequeños ajustes de interfaz y mejor contraste en la barra de herramientas",
+    "Añadido botón de restablecimiento en la barra de herramientas para restaurar rápidamente los ajustes a sus valores originales"
   ],
   "fixes": [],
-  "patches": []
+  "patches": [
+    {
+      "version": "1.16.1",
+      "description": "Botón de restablecimiento en la barra de herramientas"
+    },
+    {
+      "version": "1.16.2",
+      "description": "Mejoras visuales y ajustes de texto"
+    }
+  ]
 }

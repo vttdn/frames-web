@@ -43,8 +43,18 @@
   "improvements": [
     "Opsi pembelian sekali ditambahkan ke aplikasi iOS (pembayaran satu kali, akses permanen ke versi iPhone, iPad, dan Mac)",
     "Aplikasi macOS dengan penyematan metadata kini otomatis terbuka untuk semua pelanggan iOS aktif tanpa biaya tambahan",
-    "Penyempurnaan antarmuka kecil dan peningkatan kontras pada toolbar"
+    "Penyempurnaan antarmuka kecil dan peningkatan kontras pada toolbar",
+    "Menambahkan tombol reset di toolbar untuk mengembalikan pengaturan ke nilai aslinya dengan cepat"
   ],
   "fixes": [],
-  "patches": []
+  "patches": [
+    {
+      "version": "1.16.1",
+      "description": "Tombol reset di toolbar"
+    },
+    {
+      "version": "1.16.2",
+      "description": "Penyempurnaan UI dan penyesuaian teks"
+    }
+  ]
 }

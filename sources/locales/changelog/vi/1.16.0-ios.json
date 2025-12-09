@@ -43,8 +43,18 @@
   "improvements": [
     "Thêm tùy chọn mua trọn đời trong ứng dụng iOS (thanh toán một lần, truy cập vĩnh viễn phiên bản iPhone, iPad và Mac)",
     "Ứng dụng macOS với nhúng siêu dữ liệu tự động mở khóa cho tất cả người dùng iOS đang hoạt động mà không tốn thêm phí",
-    "Cải tiến giao diện nhỏ và tăng độ tương phản thanh công cụ"
+    "Cải tiến giao diện nhỏ và tăng độ tương phản thanh công cụ",
+    "Thêm nút đặt lại trong thanh công cụ để nhanh chóng khôi phục cài đặt về giá trị ban đầu"
   ],
   "fixes": [],
-  "patches": []
+  "patches": [
+    {
+      "version": "1.16.1",
+      "description": "Nút đặt lại trên thanh công cụ"
+    },
+    {
+      "version": "1.16.2",
+      "description": "Cải tiến giao diện và điều chỉnh văn bản"
+    }
+  ]
 }

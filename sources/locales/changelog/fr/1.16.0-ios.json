@@ -41,10 +41,20 @@
     }
   ],
   "improvements": [
-    "Ajout de l’option d’achat définitif dans l’app iOS (paiement unique, accès permanent aux versions iPhone, iPad et Mac)",
-    "L’app macOS avec intégration des métadonnées est désormais automatiquement débloquée pour tous les abonnés iOS actifs, sans frais supplémentaires",
-    "Retouches d’interface mineures et contraste amélioré de la barre d’outils"
+    "Ajout de l'option d'achat définitif dans l'app iOS (paiement unique, accès permanent aux versions iPhone, iPad et Mac)",
+    "L'app macOS avec intégration des métadonnées est désormais automatiquement débloquée pour tous les abonnés iOS actifs, sans frais supplémentaires",
+    "Retouches d'interface mineures et contraste amélioré de la barre d'outils",
+    "Ajout d'un bouton de réinitialisation dans la barre d'outils pour restaurer rapidement les réglages à leur valeur d'origine"
   ],
   "fixes": [],
-  "patches": []
+  "patches": [
+    {
+      "version": "1.16.1",
+      "description": "Bouton de réinitialisation dans la barre d'outils"
+    },
+    {
+      "version": "1.16.2",
+      "description": "Améliorations visuelles et ajustements de texte"
+    }
+  ]
 }

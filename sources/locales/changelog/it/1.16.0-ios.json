@@ -41,10 +41,20 @@
     }
   ],
   "improvements": [
-    "Aggiunta l’opzione di acquisto una tantum nell’app iOS (pagamento unico, accesso permanente alle versioni iPhone, iPad e Mac)",
-    "L’app macOS con integrazione dei metadati ora si sblocca automaticamente per tutti gli abbonati iOS attivi senza costi aggiuntivi",
-    "Piccoli miglioramenti dell’interfaccia e contrasto aumentato nella barra degli strumenti"
+    "Aggiunta l'opzione di acquisto una tantum nell'app iOS (pagamento unico, accesso permanente alle versioni iPhone, iPad e Mac)",
+    "L'app macOS con integrazione dei metadati ora si sblocca automaticamente per tutti gli abbonati iOS attivi senza costi aggiuntivi",
+    "Piccoli miglioramenti dell'interfaccia e contrasto aumentato nella barra degli strumenti",
+    "Aggiunto pulsante di reset nella barra degli strumenti per ripristinare rapidamente le impostazioni ai valori originali"
   ],
   "fixes": [],
-  "patches": []
+  "patches": [
+    {
+      "version": "1.16.1",
+      "description": "Pulsante di reset nella barra degli strumenti"
+    },
+    {
+      "version": "1.16.2",
+      "description": "Ritocchi all'interfaccia e al testo"
+    }
+  ]
 }

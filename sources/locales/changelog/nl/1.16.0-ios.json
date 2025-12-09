@@ -43,8 +43,18 @@
   "improvements": [
     "Eenmalige aankoopoptie toegevoegd in de iOS-app (eenmalige betaling, permanent toegang tot iPhone-, iPad- en Mac-versies)",
     "macOS-app met metadata-inbedding wordt nu automatisch ontgrendeld voor alle actieve iOS-abonnees, zonder extra kosten",
-    "Kleine interfaceverbeteringen en betere contrasten in de werkbalk"
+    "Kleine interfaceverbeteringen en betere contrasten in de werkbalk",
+    "Reset-knop toegevoegd aan de werkbalk om instellingen snel te herstellen naar de oorspronkelijke waarden"
   ],
   "fixes": [],
-  "patches": []
+  "patches": [
+    {
+      "version": "1.16.1",
+      "description": "Reset-knop in werkbalk"
+    },
+    {
+      "version": "1.16.2",
+      "description": "UI-verfijningen en tekstverbeteringen"
+    }
+  ]
 }
