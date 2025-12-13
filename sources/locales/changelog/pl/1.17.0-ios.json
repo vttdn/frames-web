@@ -1,0 +1,73 @@
+{
+  "version": "1.17.0",
+  "version_short": "1.17",
+  "url_slug": "1-17-ios",
+  "platform": "ios",
+  "release_date": "2025-12-13T10:00:00.000Z",
+  "title": "Eksportuj dane jako PDF lub CSV",
+  "summary": "Ta aktualizacja wprowadza trzy sposoby eksportowania danych z sesji zdjęciowych: dokumenty PDF gotowe do druku i archiwizacji, pliki CSV do analizy w arkuszach kalkulacyjnych oraz ulepszony format tekstowy z pełnymi współrzędnymi GPS. Wszystkie formaty eksportu obsługują języki pisane od prawej do lewej.",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Nowe opcje eksportu"
+    },
+    {
+      "type": "paragraph",
+      "content": "Wielu z was prosiło o możliwość wyeksportowania danych z aplikacji, czy to do przechowywania fizycznych dokumentów wraz z negatywami, czy do analizowania nawyków fotograficznych w arkuszu kalkulacyjnym. Ta aktualizacja wprowadza trzy różne formaty eksportu, każdy zaprojektowany do konkretnego celu. Znajdziesz te opcje w menu udostępniania każdej rolki filmu."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.17.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.17.0-1@2x.png",
+      "alt": "Aplikacja do fotografii analogowej Frames z opcjami eksportu PDF, CSV i tekstu",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Eksport PDF do druku"
+    },
+    {
+      "type": "paragraph",
+      "content": "Eksport PDF tworzy przejrzyste, dobrze sformatowane dokumenty, które świetnie wyglądają na papierze. Idealne do wydrukowania i przechowywania razem z negatywami jako fizyczna karta referencyjna dla każdej rolki. Układ jest zaprojektowany tak, aby był czytelny na pierwszy rzut oka, zawierając wszystkie szczegóły techniczne, które zarejestrowałeś."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Eksport CSV do arkuszy kalkulacyjnych"
+    },
+    {
+      "type": "paragraph",
+      "content": "Jeśli chcesz analizować swoje wzorce fotografowania lub prowadzić ewidencję w Excelu, Google Sheets lub innym arkuszu kalkulacyjnym, eksport CSV to rozwiązanie dla ciebie. Wszystkie dane twoich klatek importują się bezpośrednio z kolumnami dla każdego zarejestrowanego ustawienia. Ułatwia to sortowanie, filtrowanie lub tworzenie wykresów z historii zdjęć."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Ulepszony eksport tekstowy"
+    },
+    {
+      "type": "paragraph",
+      "content": "Eksport tekstowy prezentuje teraz dane w przejrzystszym formacie tabelarycznym, który jest łatwiejszy do czytania. Zawiera również współrzędne GPS każdej klatki, dzięki czemu masz pełny zapis miejsca wykonania każdego zdjęcia. Ten format sprawdza się przy szybkim udostępnianiu lub kopiowaniu do notatek i dokumentów."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Twoje dane fotograficzne, po twojemu"
+    },
+    {
+      "type": "paragraph",
+      "content": "Eksporty CSV i tekstowy zawierają wszystkie metadane zdjęć: czas naświetlania, przysłonę, korekcję ekspozycji, ogniskową, lampa błyskowa, tryb pomiaru, datę, godzinę, lokalizację, obiektyw, filtr i notatki. Eksport PDF koncentruje się na najważniejszych ustawieniach, aby wydrukowany układ pozostał przejrzysty i czytelny. Wszystkie trzy formaty obsługują języki pisane od prawej do lewej, takie jak arabski i hebrajski."
+    }
+  ],
+  "improvements": [
+    "Dodano eksport PDF do tworzenia dokumentów gotowych do druku, które można przechowywać z negatywami",
+    "Dodano eksport CSV do importowania danych klatek do Excela, Google Sheets i innych arkuszy kalkulacyjnych",
+    "Ulepszony eksport tekstowy ze współrzędnymi GPS i przejrzystszym układem tabelarycznym"
+  ],
+  "fixes": [],
+  "patches": [],
+  "meta_title": "Eksportuj dane jako PDF lub CSV - Frames",
+  "meta_description": "Eksportuj dane zdjęciowe jako PDF do druku, CSV do arkuszy kalkulacyjnych lub tekst ze współrzędnymi GPS. Wszystkie formaty obsługują języki RTL."
+}

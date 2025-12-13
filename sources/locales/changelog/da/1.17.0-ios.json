@@ -1,0 +1,73 @@
+{
+  "version": "1.17.0",
+  "version_short": "1.17",
+  "url_slug": "1-17-ios",
+  "platform": "ios",
+  "release_date": "2025-12-13T10:00:00.000Z",
+  "title": "Eksportér dine data som PDF eller CSV",
+  "summary": "Denne opdatering introducerer tre måder at eksportere dine optagelsesdata på: PDF-dokumenter klar til print og arkivering, CSV-filer til analyse i regneark og et forbedret tekstformat med fulde GPS-koordinater. Alle eksportformater understøtter sprog, der skrives fra højre mod venstre.",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Nye eksportmuligheder"
+    },
+    {
+      "type": "paragraph",
+      "content": "Mange af jer har bedt om måder at få jeres data ud af appen, hvad enten det er for at opbevare fysiske optegnelser sammen med jeres negativer eller for at analysere jeres fotograferingsvaner i et regneark. Denne opdatering bringer tre forskellige eksportformater, hver designet til et specifikt formål. Du finder disse muligheder i delingsmenuen for enhver filmrulle."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.17.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.17.0-1@2x.png",
+      "alt": "Frames analog foto-app med eksportmuligheder for PDF, CSV og tekst",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "PDF-eksport til print"
+    },
+    {
+      "type": "paragraph",
+      "content": "PDF-eksporten opretter rene, velformaterede dokumenter, der ser flotte ud på papir. De er perfekte til at printe og opbevare sammen med dine negativer som et fysisk referenceark for hver filmrulle. Layoutet er designet til at være let at læse med et hurtigt blik, samtidig med at det inkluderer alle de tekniske detaljer, du har registreret."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "CSV-eksport til regneark"
+    },
+    {
+      "type": "paragraph",
+      "content": "Hvis du vil analysere dine fotograferingsmønstre eller føre optegnelser i Excel, Google Sheets eller andet regnearksprogram, er CSV-eksporten lige sagen. Alle dine rammedata importeres direkte med kolonner for hver registreret indstilling. Dette gør det nemt at sortere, filtrere eller oprette diagrammer ud fra din optagelseshistorik."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Forbedret teksteksport"
+    },
+    {
+      "type": "paragraph",
+      "content": "Teksteksporten præsenterer nu dine data i et renere tabelformat, der er lettere at læse. Den inkluderer også GPS-koordinater for hver ramme, så du har en komplet oversigt over, hvor hvert billede blev taget. Dette format fungerer godt til hurtig deling eller til at kopiere ind i noter og dokumenter."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Dine optagelsesdata, på din måde"
+    },
+    {
+      "type": "paragraph",
+      "content": "CSV- og teksteksporterne inkluderer alle dine optagelsesmetadata: lukkertid, blænde, eksponeringskompensation, brændvidde, blitz, målemetode, dato, tid, placering, objektiv, filter og noter. PDF-eksporten fokuserer på de mest relevante indstillinger for at holde det printede layout rent og læseligt. Alle tre formater understøtter sprog, der skrives fra højre mod venstre, såsom arabisk og hebraisk."
+    }
+  ],
+  "improvements": [
+    "Tilføjet PDF-eksport til at oprette printklare dokumenter til opbevaring med dine negativer",
+    "Tilføjet CSV-eksport til at importere rammedata i Excel, Google Sheets og andre regnearksprogrammer",
+    "Forbedret teksteksport med GPS-koordinater og et renere tabellayout"
+  ],
+  "fixes": [],
+  "patches": [],
+  "meta_title": "Eksportér dine data som PDF eller CSV - Frames",
+  "meta_description": "Eksportér dine optagelsesdata som PDF til print, CSV til regneark eller tekst med GPS-koordinater. Alle formater understøtter RTL-sprog."
+}

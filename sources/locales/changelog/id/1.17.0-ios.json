@@ -1,0 +1,73 @@
+{
+  "version": "1.17.0",
+  "version_short": "1.17",
+  "url_slug": "1-17-ios",
+  "platform": "ios",
+  "release_date": "2025-12-13T10:00:00.000Z",
+  "title": "Ekspor data Anda sebagai PDF atau CSV",
+  "summary": "Pembaruan ini memperkenalkan tiga cara untuk mengekspor data pemotretan Anda: dokumen PDF siap cetak dan arsip, file CSV untuk analisis di spreadsheet, dan format teks yang ditingkatkan dengan koordinat GPS lengkap. Semua format ekspor mendukung bahasa yang ditulis dari kanan ke kiri.",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Opsi ekspor baru"
+    },
+    {
+      "type": "paragraph",
+      "content": "Banyak dari Anda yang meminta cara untuk mengeluarkan data dari aplikasi, baik untuk menyimpan catatan fisik bersama negatif film atau untuk menganalisis kebiasaan pemotretan di spreadsheet. Pembaruan ini menghadirkan tiga format ekspor berbeda, masing-masing dirancang untuk tujuan tertentu. Anda akan menemukan opsi ini di menu berbagi untuk setiap rol film."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.17.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.17.0-1@2x.png",
+      "alt": "Aplikasi fotografi film Frames menampilkan opsi ekspor PDF, CSV, dan teks",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Ekspor PDF untuk cetak"
+    },
+    {
+      "type": "paragraph",
+      "content": "Ekspor PDF membuat dokumen yang rapi dan terformat dengan baik yang terlihat bagus di kertas. Sempurna untuk dicetak dan disimpan bersama negatif Anda sebagai lembar referensi fisik untuk setiap rol film. Tata letaknya dirancang agar mudah dibaca sekilas sambil menyertakan semua detail teknis yang Anda catat."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Ekspor CSV untuk spreadsheet"
+    },
+    {
+      "type": "paragraph",
+      "content": "Jika Anda ingin menganalisis pola pemotretan atau menyimpan catatan di Excel, Google Sheets, atau perangkat lunak spreadsheet lainnya, ekspor CSV adalah solusinya. Semua data frame Anda diimpor langsung dengan kolom untuk setiap pengaturan yang Anda catat. Ini memudahkan untuk mengurutkan, memfilter, atau membuat grafik dari riwayat pemotretan Anda."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Ekspor teks yang ditingkatkan"
+    },
+    {
+      "type": "paragraph",
+      "content": "Ekspor teks sekarang menyajikan data Anda dalam format tabel yang lebih rapi dan lebih mudah dibaca. Ini juga menyertakan koordinat GPS untuk setiap frame, sehingga Anda memiliki catatan lengkap tentang di mana setiap foto diambil. Format ini cocok untuk berbagi cepat atau untuk menyalin ke catatan dan dokumen."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Data pemotretan Anda, cara Anda"
+    },
+    {
+      "type": "paragraph",
+      "content": "Ekspor CSV dan teks menyertakan semua metadata pemotretan Anda: kecepatan rana, apertur, kompensasi eksposur, panjang fokus, flash, mode pengukuran, tanggal, waktu, lokasi, lensa, filter, dan catatan. Ekspor PDF berfokus pada pengaturan yang paling relevan untuk menjaga tata letak cetak tetap rapi dan mudah dibaca. Ketiga format mendukung bahasa yang ditulis dari kanan ke kiri seperti Arab dan Ibrani."
+    }
+  ],
+  "improvements": [
+    "Menambahkan ekspor PDF untuk membuat dokumen siap cetak yang dapat disimpan bersama negatif Anda",
+    "Menambahkan ekspor CSV untuk mengimpor data frame ke Excel, Google Sheets, dan perangkat lunak spreadsheet lainnya",
+    "Ekspor teks yang ditingkatkan dengan koordinat GPS dan tata letak tabel yang lebih rapi"
+  ],
+  "fixes": [],
+  "patches": [],
+  "meta_title": "Ekspor data Anda sebagai PDF atau CSV - Frames",
+  "meta_description": "Ekspor data pemotretan sebagai PDF untuk cetak, CSV untuk spreadsheet, atau teks dengan koordinat GPS. Semua format mendukung bahasa RTL."
+}

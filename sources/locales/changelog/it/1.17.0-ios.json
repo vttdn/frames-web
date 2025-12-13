@@ -1,0 +1,73 @@
+{
+  "version": "1.17.0",
+  "version_short": "1.17",
+  "url_slug": "1-17-ios",
+  "platform": "ios",
+  "release_date": "2025-12-13T10:00:00.000Z",
+  "title": "Esporta i tuoi dati in PDF o CSV",
+  "summary": "Questo aggiornamento introduce tre modi per esportare i dati di scatto: documenti PDF pronti per la stampa e l'archiviazione, file CSV per l'analisi nei fogli di calcolo, e un formato di testo migliorato con coordinate GPS complete. Tutti i formati di esportazione supportano le lingue scritte da destra a sinistra.",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Nuove opzioni di esportazione"
+    },
+    {
+      "type": "paragraph",
+      "content": "Molti di voi mi hanno chiesto modi per estrarre i dati dall'app, sia per conservare documenti fisici insieme ai negativi, sia per analizzare le proprie abitudini di scatto in un foglio di calcolo. Questo aggiornamento porta tre diversi formati di esportazione, ognuno progettato per uno scopo specifico. Troverai queste opzioni nel menu di condivisione di ogni rullino."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.17.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.17.0-1@2x.png",
+      "alt": "App di fotografia analogica Frames con opzioni di esportazione PDF, CSV e testo",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Esportazione PDF per la stampa"
+    },
+    {
+      "type": "paragraph",
+      "content": "L'esportazione PDF crea documenti puliti e ben formattati, perfetti da stampare. Ideali per essere conservati insieme ai tuoi negativi come scheda di riferimento fisica per ogni rullino. Il layout è progettato per essere leggibile a colpo d'occhio, includendo tutti i dettagli tecnici che hai registrato."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Esportazione CSV per fogli di calcolo"
+    },
+    {
+      "type": "paragraph",
+      "content": "Se vuoi analizzare le tue abitudini di scatto o tenere traccia dei dati in Excel, Google Sheets o qualsiasi altro foglio di calcolo, l'esportazione CSV fa al caso tuo. Tutti i dati dei tuoi fotogrammi vengono importati direttamente con colonne per ogni impostazione registrata. Questo rende semplice ordinare, filtrare o creare grafici dalla tua cronologia di scatti."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Esportazione testo migliorata"
+    },
+    {
+      "type": "paragraph",
+      "content": "L'esportazione in formato testo presenta ora i tuoi dati in un formato tabulare più chiaro e facile da leggere. Include anche le coordinate GPS di ogni fotogramma, così hai un registro completo di dove è stata scattata ogni foto. Questo formato è pratico per la condivisione rapida o per copiare i dati in note e documenti."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "I tuoi dati di scatto, come preferisci"
+    },
+    {
+      "type": "paragraph",
+      "content": "Le esportazioni CSV e testo includono tutti i metadati di scatto: tempo di posa, diaframma, compensazione dell'esposizione, lunghezza focale, flash, modalità di misurazione, data, ora, posizione, obiettivo, filtro e note. L'esportazione PDF si concentra sulle impostazioni più rilevanti per mantenere un layout stampato pulito e leggibile. Tutti e tre i formati supportano le lingue scritte da destra a sinistra come l'arabo e l'ebraico."
+    }
+  ],
+  "improvements": [
+    "Aggiunta esportazione PDF per creare documenti pronti da stampare da conservare con i negativi",
+    "Aggiunta esportazione CSV per importare i dati dei fotogrammi in Excel, Google Sheets e altri fogli di calcolo",
+    "Esportazione testo migliorata con coordinate GPS e layout tabulare più chiaro"
+  ],
+  "fixes": [],
+  "patches": [],
+  "meta_title": "Esporta i tuoi dati in PDF o CSV - Frames",
+  "meta_description": "Esporta i dati di scatto come PDF per la stampa, CSV per fogli di calcolo, o testo con coordinate GPS. Tutti i formati supportano le lingue RTL."
+}

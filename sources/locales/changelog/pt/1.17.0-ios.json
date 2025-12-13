@@ -1,0 +1,73 @@
+{
+  "version": "1.17.0",
+  "version_short": "1.17",
+  "url_slug": "1-17-ios",
+  "platform": "ios",
+  "release_date": "2025-12-13T10:00:00.000Z",
+  "title": "Exporte seus dados como PDF ou CSV",
+  "summary": "Esta atualização traz três formas de exportar seus dados de disparo: documentos PDF prontos para impressão e arquivamento, arquivos CSV para análise em planilhas, e um formato de texto aprimorado com coordenadas GPS completas. Todos os formatos de exportação suportam idiomas escritos da direita para a esquerda.",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Novas opções de exportação"
+    },
+    {
+      "type": "paragraph",
+      "content": "Muitos de vocês pediram formas de extrair seus dados do app, seja para manter registros físicos junto aos seus negativos ou para analisar seus hábitos de disparo em uma planilha. Esta atualização traz três formatos de exportação diferentes, cada um projetado para um propósito específico. Você encontrará essas opções no menu de compartilhamento de qualquer rolo."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.17.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.17.0-1@2x.png",
+      "alt": "App de fotografia analógica Frames mostrando opções de exportação PDF, CSV e texto",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Exportação PDF para impressão"
+    },
+    {
+      "type": "paragraph",
+      "content": "A exportação PDF cria documentos limpos e bem formatados que ficam ótimos no papel. São perfeitos para imprimir e guardar junto aos seus negativos, servindo como uma ficha de referência física para cada rolo. O layout foi pensado para ser fácil de ler rapidamente, incluindo todos os detalhes técnicos que você registrou."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Exportação CSV para planilhas"
+    },
+    {
+      "type": "paragraph",
+      "content": "Se você quer analisar seus padrões de disparo ou manter registros no Excel, Google Sheets ou qualquer outro software de planilhas, a exportação CSV resolve isso para você. Todos os dados dos seus fotogramas são importados diretamente com colunas para cada configuração registrada. Isso facilita ordenar, filtrar ou criar gráficos do seu histórico de disparos."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Exportação de texto aprimorada"
+    },
+    {
+      "type": "paragraph",
+      "content": "A exportação de texto agora apresenta seus dados em um formato tabular mais limpo e fácil de ler. Também inclui as coordenadas GPS de cada fotograma, para que você tenha um registro completo de onde cada foto foi tirada. Este formato funciona bem para compartilhamento rápido ou para copiar em notas e documentos."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Seus dados de disparo, do seu jeito"
+    },
+    {
+      "type": "paragraph",
+      "content": "As exportações CSV e de texto incluem todos os seus metadados de disparo: velocidade do obturador, abertura, compensação de exposição, distância focal, flash, modo de medição, data, hora, localização, lente, filtro e notas. A exportação PDF foca nas configurações mais relevantes para manter o layout impresso limpo e legível. Os três formatos suportam idiomas escritos da direita para a esquerda como árabe e hebraico."
+    }
+  ],
+  "improvements": [
+    "Adicionada exportação PDF para criar documentos prontos para impressão para guardar com seus negativos",
+    "Adicionada exportação CSV para importar dados de fotogramas no Excel, Google Sheets e outros softwares de planilhas",
+    "Exportação de texto aprimorada com coordenadas GPS e layout tabular mais limpo"
+  ],
+  "fixes": [],
+  "patches": [],
+  "meta_title": "Exporte seus dados como PDF ou CSV - Frames",
+  "meta_description": "Exporte seus dados de disparo como PDF para impressão, CSV para planilhas, ou texto com coordenadas GPS. Todos os formatos suportam idiomas RTL."
+}

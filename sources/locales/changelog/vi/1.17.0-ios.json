@@ -1,0 +1,73 @@
+{
+  "version": "1.17.0",
+  "version_short": "1.17",
+  "url_slug": "1-17-ios",
+  "platform": "ios",
+  "release_date": "2025-12-13T10:00:00.000Z",
+  "title": "Xuất dữ liệu dưới dạng PDF hoặc CSV",
+  "summary": "Bản cập nhật này giới thiệu ba cách xuất dữ liệu chụp ảnh của bạn: tài liệu PDF sẵn sàng in và lưu trữ, tệp CSV để phân tích trong bảng tính, và định dạng văn bản được cải tiến với tọa độ GPS đầy đủ. Tất cả các định dạng xuất đều hỗ trợ ngôn ngữ viết từ phải sang trái.",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Tùy chọn xuất mới"
+    },
+    {
+      "type": "paragraph",
+      "content": "Nhiều bạn đã yêu cầu các cách để lấy dữ liệu ra khỏi ứng dụng, dù là để lưu giữ hồ sơ vật lý cùng với phim âm bản hay để phân tích thói quen chụp ảnh trong bảng tính. Bản cập nhật này mang đến ba định dạng xuất khác nhau, mỗi định dạng được thiết kế cho một mục đích cụ thể. Bạn sẽ tìm thấy các tùy chọn này trong menu chia sẻ của bất kỳ cuộn phim nào."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.17.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.17.0-1@2x.png",
+      "alt": "Ứng dụng chụp ảnh phim Frames hiển thị các tùy chọn xuất PDF, CSV và văn bản",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Xuất PDF để in"
+    },
+    {
+      "type": "paragraph",
+      "content": "Xuất PDF tạo ra các tài liệu gọn gàng, được định dạng tốt và trông đẹp khi in ra giấy. Hoàn hảo để in và lưu trữ cùng với phim âm bản, cung cấp một tờ tham chiếu vật lý cho mỗi cuộn phim. Bố cục được thiết kế để dễ đọc trong nháy mắt trong khi vẫn bao gồm tất cả các chi tiết kỹ thuật bạn đã ghi lại."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Xuất CSV cho bảng tính"
+    },
+    {
+      "type": "paragraph",
+      "content": "Nếu bạn muốn phân tích các mẫu chụp ảnh hoặc lưu giữ hồ sơ trong Excel, Google Sheets hoặc phần mềm bảng tính khác, xuất CSV là giải pháp dành cho bạn. Tất cả dữ liệu khung hình của bạn được nhập trực tiếp với các cột cho mỗi cài đặt bạn đã ghi lại. Điều này giúp dễ dàng sắp xếp, lọc hoặc tạo biểu đồ từ lịch sử chụp ảnh của bạn."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Xuất văn bản được cải tiến"
+    },
+    {
+      "type": "paragraph",
+      "content": "Xuất văn bản giờ đây hiển thị dữ liệu của bạn ở định dạng bảng gọn gàng hơn và dễ đọc hơn. Nó cũng bao gồm tọa độ GPS cho mỗi khung hình, để bạn có hồ sơ đầy đủ về nơi mỗi bức ảnh được chụp. Định dạng này phù hợp để chia sẻ nhanh hoặc sao chép vào ghi chú và tài liệu."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Dữ liệu chụp ảnh của bạn, theo cách của bạn"
+    },
+    {
+      "type": "paragraph",
+      "content": "Xuất CSV và văn bản bao gồm tất cả siêu dữ liệu chụp ảnh của bạn: tốc độ màn trập, khẩu độ, bù sáng, tiêu cự, đèn flash, chế độ đo sáng, ngày, giờ, vị trí, ống kính, kính lọc và ghi chú. Xuất PDF tập trung vào các cài đặt liên quan nhất để giữ bố cục in gọn gàng và dễ đọc. Cả ba định dạng đều hỗ trợ các ngôn ngữ viết từ phải sang trái như tiếng Ả Rập và tiếng Do Thái."
+    }
+  ],
+  "improvements": [
+    "Thêm xuất PDF để tạo tài liệu sẵn sàng in để lưu trữ cùng với phim âm bản của bạn",
+    "Thêm xuất CSV để nhập dữ liệu khung hình vào Excel, Google Sheets và phần mềm bảng tính khác",
+    "Cải tiến xuất văn bản với tọa độ GPS và bố cục bảng gọn gàng hơn"
+  ],
+  "fixes": [],
+  "patches": [],
+  "meta_title": "Xuất dữ liệu dưới dạng PDF hoặc CSV - Frames",
+  "meta_description": "Xuất dữ liệu chụp ảnh dưới dạng PDF để in, CSV cho bảng tính, hoặc văn bản với tọa độ GPS. Tất cả định dạng hỗ trợ ngôn ngữ RTL."
+}

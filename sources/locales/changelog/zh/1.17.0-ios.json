@@ -1,0 +1,73 @@
+{
+  "version": "1.17.0",
+  "version_short": "1.17",
+  "url_slug": "1-17-ios",
+  "platform": "ios",
+  "release_date": "2025-12-13T10:00:00.000Z",
+  "title": "将拍摄数据导出为PDF或CSV",
+  "summary": "此次更新提供三种导出拍摄数据的方式：可打印和存档的PDF文档、用于电子表格分析的CSV文件，以及包含完整GPS坐标的改进文本格式。所有导出格式均支持从右到左书写的语言。",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "全新导出选项"
+    },
+    {
+      "type": "paragraph",
+      "content": "许多用户要求能够从应用中导出数据，无论是为了与底片一起保存实体记录，还是为了在电子表格中分析拍摄习惯。此次更新带来三种不同的导出格式，每种都针对特定用途而设计。您可以在任意胶卷的分享菜单中找到这些选项。"
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.17.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.17.0-1@2x.png",
+      "alt": "胶片摄影应用Frames显示PDF、CSV和文本格式导出选项",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "PDF导出用于打印"
+    },
+    {
+      "type": "paragraph",
+      "content": "PDF导出可创建整洁、格式规范的文档，打印效果出色。非常适合打印后与底片一起保存，作为每卷胶卷的实体参考表。布局设计便于快速阅读，同时包含您记录的所有技术细节。"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "CSV导出用于电子表格"
+    },
+    {
+      "type": "paragraph",
+      "content": "如果您想在Excel、Google表格或其他电子表格软件中分析拍摄模式或保存记录，CSV导出正是您需要的。所有帧数据都会直接导入，每个记录的设置对应一列。这样可以轻松地对拍摄历史进行排序、筛选或创建图表。"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "改进的文本导出"
+    },
+    {
+      "type": "paragraph",
+      "content": "文本导出现在以更清晰、更易读的表格格式呈现数据。它还包含每帧的GPS坐标，让您完整记录每张照片的拍摄地点。这种格式适合快速分享或复制到笔记和文档中。"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "您的拍摄数据，随心导出"
+    },
+    {
+      "type": "paragraph",
+      "content": "CSV和文本导出包含完整的拍摄元数据：快门速度、光圈、曝光补偿、焦距、闪光灯、测光模式、日期、时间、位置、镜头、滤镜和备注。PDF导出专注于最相关的设置，以保持打印布局的简洁和可读性。所有三种格式都支持阿拉伯语和希伯来语等从右到左书写的语言。"
+    }
+  ],
+  "improvements": [
+    "新增PDF导出功能，可创建用于与底片一起保存的打印文档",
+    "新增CSV导出功能，可将帧数据导入Excel、Google表格和其他电子表格软件",
+    "改进文本导出，包含GPS坐标和更清晰的表格布局"
+  ],
+  "fixes": [],
+  "patches": [],
+  "meta_title": "将拍摄数据导出为PDF或CSV - Frames",
+  "meta_description": "将拍摄数据导出为打印用PDF、电子表格用CSV或带GPS坐标的文本。所有格式均支持RTL语言。"
+}

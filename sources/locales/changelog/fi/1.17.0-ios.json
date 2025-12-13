@@ -1,0 +1,73 @@
+{
+  "version": "1.17.0",
+  "version_short": "1.17",
+  "url_slug": "1-17-ios",
+  "platform": "ios",
+  "release_date": "2025-12-13T10:00:00.000Z",
+  "title": "Vie tietosi PDF- tai CSV-muodossa",
+  "summary": "Tämä päivitys tuo kolme tapaa viedä kuvaustietosi: tulostusvalmiit PDF-dokumentit arkistointiin, CSV-tiedostot taulukkolaskenta-analyysiin sekä parannettu tekstimuoto täysillä GPS-koordinaateilla. Kaikki vientimuodot tukevat oikealta vasemmalle kirjoitettavia kieliä.",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Uudet vientivaihtoehdot"
+    },
+    {
+      "type": "paragraph",
+      "content": "Monet teistä ovat pyytäneet tapoja saada tietonne ulos sovelluksesta, joko fyysisten muistiinpanojen säilyttämiseksi negatiivien kanssa tai kuvaustottumustenne analysoimiseksi taulukkolaskentaohjelmassa. Tämä päivitys tuo kolme eri vientimuotoa, joista jokainen on suunniteltu tiettyyn tarkoitukseen. Löydät nämä vaihtoehdot minkä tahansa filmirullan jakovalikosta."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.17.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.17.0-1@2x.png",
+      "alt": "Frames-filmikuvaussovellus PDF-, CSV- ja tekstimuodon vientivaihtoehdoilla",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "PDF-vienti tulostusta varten"
+    },
+    {
+      "type": "paragraph",
+      "content": "PDF-vienti luo selkeitä, hyvin muotoiltuja dokumentteja, jotka näyttävät hyvältä paperilla. Ne ovat täydellisiä tulostettaviksi ja säilytettäviksi negatiivien kanssa fyysisenä viitelehtenä jokaiselle filmirullalle. Asettelu on suunniteltu helposti luettavaksi yhdellä silmäyksellä, mutta sisältää silti kaikki tallentamasi tekniset tiedot."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "CSV-vienti taulukkolaskentaan"
+    },
+    {
+      "type": "paragraph",
+      "content": "Jos haluat analysoida kuvausmallejasi tai pitää kirjaa Excelissä, Google Sheetsissa tai muussa taulukkolaskentaohjelmassa, CSV-vienti on juuri sitä mitä tarvitset. Kaikki kehystietosi tuodaan suoraan sarakkeilla jokaiselle tallennetulle asetukselle. Tämä helpottaa lajittelua, suodatusta tai kaavioiden luomista kuvaushistoriastasi."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Parannettu tekstivienti"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tekstivienti esittää nyt tietosi selkeämmässä taulukkomuodossa, joka on helpompi lukea. Se sisältää myös GPS-koordinaatit jokaiselle kehykselle, joten sinulla on täydellinen kirjanpito siitä, missä kukin kuva otettiin. Tämä muoto toimii hyvin nopeaan jakamiseen tai kopioimiseen muistiinpanoihin ja dokumentteihin."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Kuvaustietosi, sinun tavallasi"
+    },
+    {
+      "type": "paragraph",
+      "content": "CSV- ja tekstiviennit sisältävät kaikki kuvausmetatietosi: suljinaika, aukko, valotuksen korjaus, polttoväli, salama, mittaustapa, päivämäärä, aika, sijainti, objektiivi, suodin ja muistiinpanot. PDF-vienti keskittyy olennaisimpiin asetuksiin pitääkseen tulostetun asettelun selkeänä ja luettavana. Kaikki kolme muotoa tukevat oikealta vasemmalle kirjoitettavia kieliä, kuten arabiaa ja hepreaa."
+    }
+  ],
+  "improvements": [
+    "Lisätty PDF-vienti tulostusvalmiiden dokumenttien luomiseen negatiivien kanssa säilytettäväksi",
+    "Lisätty CSV-vienti kehystietojen tuomiseen Exceliin, Google Sheetsiin ja muihin taulukkolaskentaohjelmiin",
+    "Parannettu tekstivienti GPS-koordinaateilla ja selkeämmällä taulukkoasettelulla"
+  ],
+  "fixes": [],
+  "patches": [],
+  "meta_title": "Vie tietosi PDF- tai CSV-muodossa - Frames",
+  "meta_description": "Vie kuvaustietosi PDF-muodossa tulostusta varten, CSV-muodossa taulukkolaskentaan tai tekstinä GPS-koordinaateilla. Kaikki muodot tukevat RTL-kieliä."
+}

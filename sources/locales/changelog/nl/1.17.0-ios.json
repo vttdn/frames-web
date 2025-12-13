@@ -1,0 +1,73 @@
+{
+  "version": "1.17.0",
+  "version_short": "1.17",
+  "url_slug": "1-17-ios",
+  "platform": "ios",
+  "release_date": "2025-12-13T10:00:00.000Z",
+  "title": "Exporteer je gegevens als PDF of CSV",
+  "summary": "Deze update biedt drie manieren om je opnamegegevens te exporteren: PDF-documenten klaar om af te drukken en te archiveren, CSV-bestanden voor analyse in spreadsheets, en een verbeterd tekstformaat met volledige GPS-coördinaten. Alle exportformaten ondersteunen talen die van rechts naar links worden geschreven.",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Nieuwe exportopties"
+    },
+    {
+      "type": "paragraph",
+      "content": "Velen van jullie hebben gevraagd om manieren om je gegevens uit de app te halen, of het nu gaat om fysieke documenten bij je negatieven te bewaren of om je opnamegewoonten in een spreadsheet te analyseren. Deze update brengt drie verschillende exportformaten, elk ontworpen voor een specifiek doel. Je vindt deze opties in het deelmenu van elk filmrolletje."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.17.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.17.0-1@2x.png",
+      "alt": "Frames analoge fotografie-app met exportopties voor PDF, CSV en tekst",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "PDF-export voor afdrukken"
+    },
+    {
+      "type": "paragraph",
+      "content": "De PDF-export maakt overzichtelijke, goed opgemaakte documenten die er geweldig uitzien op papier. Perfect om af te drukken en samen met je negatieven te bewaren als een fysiek referentieblad voor elk filmrolletje. De lay-out is ontworpen om in één oogopslag leesbaar te zijn en bevat alle technische details die je hebt vastgelegd."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "CSV-export voor spreadsheets"
+    },
+    {
+      "type": "paragraph",
+      "content": "Als je je opnamepatronen wilt analyseren of gegevens wilt bijhouden in Excel, Google Sheets of andere spreadsheetsoftware, dan is de CSV-export precies wat je nodig hebt. Al je filmframe-gegevens worden direct geïmporteerd met kolommen voor elke instelling die je hebt vastgelegd. Dit maakt het eenvoudig om te sorteren, filteren of grafieken te maken van je opnamegeschiedenis."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Verbeterde tekstexport"
+    },
+    {
+      "type": "paragraph",
+      "content": "De tekstexport presenteert je gegevens nu in een overzichtelijker tabelformaat dat makkelijker te lezen is. Het bevat ook GPS-coördinaten voor elk filmframe, zodat je een volledig overzicht hebt van waar elke foto is gemaakt. Dit formaat werkt goed voor snel delen of voor het kopiëren naar notities en documenten."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Jouw opnamegegevens, op jouw manier"
+    },
+    {
+      "type": "paragraph",
+      "content": "De CSV- en tekstexports bevatten al je opname-metadata: sluitertijd, diafragma, belichtingscompensatie, brandpuntsafstand, flits, meetmethode, datum, tijd, locatie, lens, filter en notities. De PDF-export richt zich op de belangrijkste instellingen om de afgedrukte lay-out overzichtelijk en leesbaar te houden. Alle drie de formaten ondersteunen talen die van rechts naar links worden geschreven, zoals Arabisch en Hebreeuws."
+    }
+  ],
+  "improvements": [
+    "PDF-export toegevoegd voor het maken van afdrukbare documenten om bij je negatieven te bewaren",
+    "CSV-export toegevoegd voor het importeren van filmframe-gegevens in Excel, Google Sheets en andere spreadsheetsoftware",
+    "Verbeterde tekstexport met GPS-coördinaten en een overzichtelijker tabelformaat"
+  ],
+  "fixes": [],
+  "patches": [],
+  "meta_title": "Exporteer je gegevens als PDF of CSV - Frames",
+  "meta_description": "Exporteer je opnamegegevens als PDF om af te drukken, CSV voor spreadsheets, of tekst met GPS-coördinaten. Alle formaten ondersteunen RTL-talen."
+}

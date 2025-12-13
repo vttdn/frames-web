@@ -1,0 +1,23 @@
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Startseite",
+      "item": "https://withframes.com/de/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Changelog",
+      "item": "https://withframes.com/de/changelog/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Exportiere deine Daten als PDF oder CSV",
+      "item": "https://withframes.com/de/changelog/1-17-ios/"
+    }  ]
+}

@@ -414,30 +414,74 @@ def get_latest_changelog_entries(lang_code, limit=4):
 
 
 def get_latest_mixed_entries(lang_code, limit=4):
-    """Get the latest N entries from both blog and changelog for homepage display (English only)"""
-    mixed_entries = []
+    """Get curated entries for homepage: latest iOS, latest macOS, latest blog(s), sorted by date"""
+    result_entries = []
 
-    # Load changelog entries
+    # Load all changelog entries
     changelog_entries = load_changelog_entries(lang_code)
+
+    # Find latest iOS changelog
+    latest_ios = None
     for entry in changelog_entries:
-        formatted_entry = format_changelog_entry(entry.copy(), lang_code)
-        formatted_entry['entry_type'] = 'changelog'
-        formatted_entry['sort_date'] = entry['release_date']
-        mixed_entries.append(formatted_entry)
+        if entry.get('platform') == 'ios':
+            latest_ios = entry
+            break
+
+    # Find latest macOS changelog
+    latest_macos = None
+    for entry in changelog_entries:
+        if entry.get('platform') == 'macos':
+            latest_macos = entry
+            break
 
     # Load blog entries
     blog_entries = load_blog_entries(lang_code)
-    for entry in blog_entries:
-        formatted_entry = format_blog_entry(entry.copy(), lang_code)
-        formatted_entry['entry_type'] = 'blog'
-        formatted_entry['sort_date'] = entry['publish_date']
-        mixed_entries.append(formatted_entry)
 
-    # Sort by date (newest first)
-    mixed_entries.sort(key=lambda x: x['sort_date'], reverse=True)
+    # Get latest blog post
+    latest_blog = blog_entries[0] if blog_entries else None
 
-    # Return top N entries
-    return mixed_entries[:limit]
+    # Get 2nd most recent blog post (for 4th slot)
+    second_blog = blog_entries[1] if len(blog_entries) > 1 else None
+
+    # Build result list
+    if latest_ios:
+        formatted = format_changelog_entry(latest_ios.copy(), lang_code)
+        formatted['entry_type'] = 'changelog'
+        formatted['sort_date'] = latest_ios['release_date']
+        result_entries.append(formatted)
+
+    if latest_macos:
+        formatted = format_changelog_entry(latest_macos.copy(), lang_code)
+        formatted['entry_type'] = 'changelog'
+        formatted['sort_date'] = latest_macos['release_date']
+        result_entries.append(formatted)
+
+    if latest_blog:
+        formatted = format_blog_entry(latest_blog.copy(), lang_code)
+        formatted['entry_type'] = 'blog'
+        formatted['sort_date'] = latest_blog['publish_date']
+        result_entries.append(formatted)
+
+    # 4th slot: 2nd blog if available, otherwise next changelog not already shown
+    if second_blog:
+        formatted = format_blog_entry(second_blog.copy(), lang_code)
+        formatted['entry_type'] = 'blog'
+        formatted['sort_date'] = second_blog['publish_date']
+        result_entries.append(formatted)
+    else:
+        # Find next changelog that isn't the latest iOS or macOS
+        for entry in changelog_entries:
+            if entry != latest_ios and entry != latest_macos:
+                formatted = format_changelog_entry(entry.copy(), lang_code)
+                formatted['entry_type'] = 'changelog'
+                formatted['sort_date'] = entry['release_date']
+                result_entries.append(formatted)
+                break
+
+    # Sort all entries by date (newest first)
+    result_entries.sort(key=lambda x: x['sort_date'], reverse=True)
+
+    return result_entries[:limit]
 
 
 def generate_homepage_schemas(lang_code, global_config, locale_data):

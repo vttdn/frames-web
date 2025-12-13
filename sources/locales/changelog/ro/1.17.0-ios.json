@@ -1,0 +1,73 @@
+{
+  "version": "1.17.0",
+  "version_short": "1.17",
+  "url_slug": "1-17-ios",
+  "platform": "ios",
+  "release_date": "2025-12-13T10:00:00.000Z",
+  "title": "Exportă datele tale ca PDF sau CSV",
+  "summary": "Această actualizare introduce trei moduri de a exporta datele de fotografiere: documente PDF gata de tipărit și arhivat, fișiere CSV pentru analiză în foi de calcul și un format text îmbunătățit cu coordonate GPS complete. Toate formatele de export acceptă limbile scrise de la dreapta la stânga.",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Noi opțiuni de export"
+    },
+    {
+      "type": "paragraph",
+      "content": "Mulți dintre voi ați cerut modalități de a extrage datele din aplicație, fie pentru a păstra înregistrări fizice alături de negative, fie pentru a analiza obiceiurile de fotografiere într-o foaie de calcul. Această actualizare aduce trei formate de export diferite, fiecare conceput pentru un scop specific. Vei găsi aceste opțiuni în meniul de partajare al oricărui film."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.17.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.17.0-1@2x.png",
+      "alt": "Aplicația de fotografie pe film Frames cu opțiuni de export PDF, CSV și text",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Export PDF pentru tipărire"
+    },
+    {
+      "type": "paragraph",
+      "content": "Exportul PDF creează documente clare și bine formatate, care arată excelent pe hârtie. Sunt perfecte pentru tipărire și păstrare alături de negative, oferindu-ți o fișă de referință fizică pentru fiecare film. Aspectul este conceput pentru a fi ușor de citit dintr-o privire, incluzând toate detaliile tehnice pe care le-ai înregistrat."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Export CSV pentru foi de calcul"
+    },
+    {
+      "type": "paragraph",
+      "content": "Dacă vrei să analizezi tiparele de fotografiere sau să păstrezi evidențe în Excel, Google Sheets sau alt software de foi de calcul, exportul CSV te ajută. Toate datele cadrelor tale se importă direct cu coloane pentru fiecare setare înregistrată. Acest lucru facilitează sortarea, filtrarea sau crearea de grafice din istoricul fotografiilor."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Export text îmbunătățit"
+    },
+    {
+      "type": "paragraph",
+      "content": "Exportul text prezintă acum datele într-un format tabelar mai clar și mai ușor de citit. Include și coordonatele GPS pentru fiecare cadru, astfel încât ai o evidență completă a locului unde a fost făcută fiecare fotografie. Acest format funcționează bine pentru partajare rapidă sau pentru copiere în note și documente."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Datele tale de fotografiere, în felul tău"
+    },
+    {
+      "type": "paragraph",
+      "content": "Exporturile CSV și text includ toate metadatele de fotografiere: viteza obturatorului, diafragmă, compensare expunere, distanță focală, bliț, mod de măsurare, dată, oră, locație, obiectiv, filtru și note. Exportul PDF se concentrează pe cele mai relevante setări pentru a menține aspectul tipărit clar și lizibil. Toate cele trei formate acceptă limbile scrise de la dreapta la stânga, precum araba și ebraica."
+    }
+  ],
+  "improvements": [
+    "Adăugat export PDF pentru crearea documentelor gata de tipărit pentru păstrare alături de negative",
+    "Adăugat export CSV pentru importul datelor cadrelor în Excel, Google Sheets și alte foi de calcul",
+    "Export text îmbunătățit cu coordonate GPS și aspect tabelar mai clar"
+  ],
+  "fixes": [],
+  "patches": [],
+  "meta_title": "Exportă datele tale ca PDF sau CSV - Frames",
+  "meta_description": "Exportă datele de fotografiere ca PDF pentru tipărire, CSV pentru foi de calcul sau text cu coordonate GPS. Toate formatele acceptă limbile RTL."
+}

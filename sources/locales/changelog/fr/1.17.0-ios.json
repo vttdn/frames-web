@@ -1,0 +1,73 @@
+{
+  "version": "1.17.0",
+  "version_short": "1.17",
+  "url_slug": "1-17-ios",
+  "platform": "ios",
+  "release_date": "2025-12-13T10:00:00.000Z",
+  "title": "Exportez vos données en PDF ou CSV",
+  "summary": "Cette mise à jour propose trois façons d'exporter vos données de prise de vue : des documents PDF prêts à imprimer et à archiver, des fichiers CSV pour une analyse via tableur, et un format texte amélioré avec coordonnées GPS. Tous les formats d'export prennent en charge les langues s'écrivant de droite à gauche.",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Nouvelles options d'export"
+    },
+    {
+      "type": "paragraph",
+      "content": "Beaucoup d'entre vous m'ont demandé des moyens de récupérer vos données hors de l'app, que ce soit pour conserver des fiches papier avec vos négatifs ou pour analyser vos habitudes de prise de vue dans un tableur. Cette mise à jour apporte trois formats d'export différents, chacun conçu pour un usage précis. Vous les trouverez dans le menu de partage de chaque pellicule."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.17.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.17.0-1@2x.png",
+      "alt": "Application photo argentique Frames avec options d'export PDF, CSV et texte",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Export PDF pour l'impression"
+    },
+    {
+      "type": "paragraph",
+      "content": "L'export PDF génère des documents clairs et bien mis en page, parfaits pour l'impression. Idéal pour garder une fiche de référence à ranger avec vos négatifs. La mise en page est pensée pour être lisible d'un coup d'œil tout en incluant tous les détails techniques que vous avez enregistrés."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Export CSV pour les tableurs"
+    },
+    {
+      "type": "paragraph",
+      "content": "Si vous souhaitez analyser vos habitudes de prise de vue ou archiver vos données dans Excel, Google Sheets ou tout autre tableur, l'export CSV est fait pour vous. Toutes les données de vos frames s'importent directement avec une colonne pour chaque réglage enregistré. Cela permet de trier, filtrer ou créer des graphiques à partir de votre historique de prises de vue."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Export texte amélioré"
+    },
+    {
+      "type": "paragraph",
+      "content": "L'export texte présente désormais vos données dans un format tabulaire plus clair et plus facile à lire. Il inclut également les coordonnées GPS de chaque frame, pour un historique complet de l'endroit où chaque photo a été prise. Ce format est pratique pour un partage rapide ou pour copier vos notes dans d'autres documents."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Vos données de prise de vue, à votre façon"
+    },
+    {
+      "type": "paragraph",
+      "content": "Les exports CSV et texte incluent toutes vos métadonnées de prise de vue : vitesse d'obturation, ouverture, correction d'exposition, focale, flash, mode de mesure, date, heure, lieu, objectif, filtre et notes. L'export PDF se concentre sur les réglages les plus pertinents pour garder une mise en page imprimée claire et lisible. Les trois formats prennent en charge les langues s'écrivant de droite à gauche comme l'arabe et l'hébreu."
+    }
+  ],
+  "improvements": [
+    "Ajout de l'export PDF pour créer des documents imprimables à ranger avec vos négatifs",
+    "Ajout de l'export CSV pour importer vos données dans Excel, Google Sheets et autres tableurs",
+    "Export texte amélioré avec coordonnées GPS et mise en page tabulaire plus claire"
+  ],
+  "fixes": [],
+  "patches": [],
+  "meta_title": "Exportez vos données en PDF ou CSV - Frames",
+  "meta_description": "Exportez vos données de prise de vue en PDF pour l'impression, en CSV pour tableur, ou en texte avec coordonnées GPS. Tous les formats supportent les langues RTL."
+}

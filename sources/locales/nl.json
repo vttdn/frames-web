@@ -345,6 +345,7 @@
     "appstore_ios": "https://apps.apple.com/nl/app/frames-filmnotities/id6744057317",
     "appstore_macos": "https://apps.apple.com/nl/app/frames-film-metagegevens/id6744063354",
     "documentation": "docs/",
+    "blog": "blog/",
     "changelog": "changelog/",
     "privacy": "privacybeleid/"
   },
@@ -357,6 +358,35 @@
       "title": "Documentatie - Frames",
       "description": "Leer Frames gebruiken, de analoge fotografie-app. Complete gidsen, tutorials en tips voor het bijhouden van opnamen en metadata.",
       "canonical_url": "https://withframes.com/nl/docs/"
+    }
+  },
+  "blog": {
+    "meta": {
+      "title": "Analoge Fotografie Blog - Frames",
+      "description": "Gidsen voor analoge fotografie, camera reviews, tips en workflow. Ontdek hoe Frames je helpt je passie te verdiepen.",
+      "canonical_url": "https://withframes.com/nl/blog/"
+    },
+    "heading": "Blog",
+    "labels": {
+      "by_author": "door",
+      "published_on": "Gepubliceerd op",
+      "category": "Categorie",
+      "all_posts": "Alle artikelen",
+      "in_category": "in",
+      "previous": "Vorige",
+      "next": "Volgende",
+      "contents": "Inhoud",
+      "filed_under": "Geplaatst in",
+      "author": "Auteur",
+      "updated": "Bijgewerkt"
+    },
+    "pagination": {
+      "previous": "Vorige",
+      "next": "Volgende",
+      "page": "Pagina",
+      "page_suffix": "",
+      "newer_posts": "Nieuwere artikelen",
+      "older_posts": "Oudere artikelen"
     }
   },
   "changelog": {

@@ -1,0 +1,73 @@
+{
+  "version": "1.17.0",
+  "version_short": "1.17",
+  "url_slug": "1-17-ios",
+  "platform": "ios",
+  "release_date": "2025-12-13T10:00:00.000Z",
+  "title": "Verilerinizi PDF veya CSV olarak dışa aktarın",
+  "summary": "Bu güncelleme, çekim verilerinizi dışa aktarmanın üç yolunu sunuyor: yazdırmaya ve arşivlemeye hazır PDF belgeleri, elektronik tablo analizleri için CSV dosyaları ve tam GPS koordinatlarını içeren geliştirilmiş metin formatı. Tüm dışa aktarma formatları sağdan sola yazılan dilleri destekler.",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Yeni dışa aktarma seçenekleri"
+    },
+    {
+      "type": "paragraph",
+      "content": "Birçoğunuz verilerinizi uygulamadan dışarı aktarmanın yollarını sordu; ister negatiflerinizle birlikte saklamak için fiziksel kayıtlar oluşturmak, ister çekim alışkanlıklarınızı bir elektronik tabloda analiz etmek için olsun. Bu güncelleme, her biri belirli bir amaç için tasarlanmış üç farklı dışa aktarma formatı getiriyor. Bu seçenekleri herhangi bir film rulosunun paylaşım menüsünde bulabilirsiniz."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.17.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.17.0-1@2x.png",
+      "alt": "PDF, CSV ve metin formatı dışa aktarma seçeneklerini gösteren Frames film fotoğrafçılığı uygulaması",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Yazdırma için PDF dışa aktarma"
+    },
+    {
+      "type": "paragraph",
+      "content": "PDF dışa aktarma, kağıt üzerinde harika görünen temiz, düzgün biçimlendirilmiş belgeler oluşturur. Negatiflerinizle birlikte saklamak için yazdırmaya mükemmel bir şekilde uygundur ve her film rulosu için fiziksel bir referans sayfası sağlar. Düzen, kaydettiğiniz tüm teknik detayları içerirken bir bakışta okunabilecek şekilde tasarlanmıştır."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Elektronik tablolar için CSV dışa aktarma"
+    },
+    {
+      "type": "paragraph",
+      "content": "Çekim kalıplarınızı analiz etmek veya Excel, Google E-Tablolar ya da başka bir elektronik tablo yazılımında kayıt tutmak istiyorsanız, CSV dışa aktarma tam size göre. Tüm kare verileriniz, kaydettiğiniz her ayar için sütunlarla doğrudan içe aktarılır. Bu, çekim geçmişinizden sıralama, filtreleme veya grafik oluşturmayı kolaylaştırır."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Geliştirilmiş metin dışa aktarma"
+    },
+    {
+      "type": "paragraph",
+      "content": "Metin dışa aktarma artık verilerinizi okunması daha kolay, daha temiz bir tablo formatında sunar. Ayrıca her kare için GPS koordinatlarını da içerir, böylece her fotoğrafın nerede çekildiğinin tam bir kaydına sahip olursunuz. Bu format, hızlı paylaşım veya notlara ve belgelere kopyalama için iyi çalışır."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Çekim verileriniz, sizin yönteminizle"
+    },
+    {
+      "type": "paragraph",
+      "content": "CSV ve metin dışa aktarmaları tüm çekim meta verilerinizi içerir: enstantane hızı, diyafram, pozlama telafisi, odak uzaklığı, flaş, ölçüm modu, tarih, saat, konum, objektif, filtre ve notlar. PDF dışa aktarma, yazdırılan düzeni temiz ve okunabilir tutmak için en alakalı ayarlara odaklanır. Her üç format da Arapça ve İbranice gibi sağdan sola yazılan dilleri destekler."
+    }
+  ],
+  "improvements": [
+    "Negatiflerinizle birlikte saklamak için yazdırmaya hazır belgeler oluşturan PDF dışa aktarma eklendi",
+    "Excel, Google E-Tablolar ve diğer elektronik tablo yazılımlarına kare verilerini içe aktarmak için CSV dışa aktarma eklendi",
+    "GPS koordinatları ve daha temiz tablo düzeniyle geliştirilmiş metin dışa aktarma"
+  ],
+  "fixes": [],
+  "patches": [],
+  "meta_title": "Verilerinizi PDF veya CSV olarak dışa aktarın - Frames",
+  "meta_description": "Çekim verilerinizi yazdırma için PDF, elektronik tablolar için CSV veya GPS koordinatlı metin olarak dışa aktarın. Tüm formatlar RTL dillerini destekler."
+}

@@ -1,0 +1,73 @@
+{
+  "version": "1.17.0",
+  "version_short": "1.17",
+  "url_slug": "1-17-ios",
+  "platform": "ios",
+  "release_date": "2025-12-13T10:00:00.000Z",
+  "title": "Export Your Data as PDF or Spreadsheet",
+  "summary": "This update introduces three ways to export your shooting data: PDF documents ready for printing and archiving, CSV files for spreadsheet analysis, and an improved text format with full GPS coordinates. All export formats support right-to-left languages.",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "New Export Options"
+    },
+    {
+      "type": "paragraph",
+      "content": "Many of you have asked for ways to get your data out of the app, whether for keeping physical records with your negatives or for analyzing your shooting habits in a spreadsheet. This update brings three different export formats, each designed for a specific purpose. You'll find these options in the share menu for any roll."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.17.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.17.0-1@2x.png",
+      "alt": "Frames film photography app showing export options for PDF, CSV, and text formats",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "PDF Export for Printing"
+    },
+    {
+      "type": "paragraph",
+      "content": "The PDF export creates clean, well-formatted documents that look great on paper. These are perfect for printing and storing alongside your negatives, giving you a physical reference sheet for each roll. The layout is designed to be easy to read at a glance while including all the technical details you recorded."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "CSV Export for Spreadsheets"
+    },
+    {
+      "type": "paragraph",
+      "content": "If you want to analyze your shooting patterns or keep records in Excel, Google Sheets, or any other spreadsheet software, the CSV export has you covered. All your frame data imports directly with columns for every setting you recorded. This makes it easy to sort, filter, or create charts from your shooting history."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Improved Text Export"
+    },
+    {
+      "type": "paragraph",
+      "content": "The text export now presents your data in a cleaner tabular format that's easier to read. It also includes GPS coordinates for each frame, so you have a complete record of where every shot was taken. This format works well for quick sharing or for copying into notes and documents."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Your Shooting Data, Your Way"
+    },
+    {
+      "type": "paragraph",
+      "content": "The CSV and text exports include your complete shooting metadata: shutter speed, aperture, exposure compensation, focal length, flash, metering mode, date, time, location, lens, filter, and notes. The PDF export focuses on the most relevant settings to keep the printed layout clean and readable. All three formats support right-to-left languages such as Arabic and Hebrew."
+    }
+  ],
+  "improvements": [
+    "Added PDF export for creating print-ready documents to store with your negatives",
+    "Added CSV export for importing frame data into Excel, Google Sheets, and other spreadsheet software",
+    "Improved text export with GPS coordinates and a cleaner tabular layout"
+  ],
+  "fixes": [],
+  "patches": [],
+  "meta_title": "Export Your Data as PDF or Spreadsheet - Frames",
+  "meta_description": "Export your shooting data as PDF documents for printing, CSV files for spreadsheets, or improved text format with GPS coordinates. All formats support right-to-left languages."
+}

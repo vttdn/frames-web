@@ -1,0 +1,73 @@
+{
+  "version": "1.17.0",
+  "version_short": "1.17",
+  "url_slug": "1-17-ios",
+  "platform": "ios",
+  "release_date": "2025-12-13T10:00:00.000Z",
+  "title": "Exportera dina data som PDF eller CSV",
+  "summary": "Den här uppdateringen introducerar tre sätt att exportera dina fotograferingsdata: PDF-dokument redo för utskrift och arkivering, CSV-filer för analys i kalkylark och ett förbättrat textformat med fullständiga GPS-koordinater. Alla exportformat stöder språk som skrivs från höger till vänster.",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Nya exportalternativ"
+    },
+    {
+      "type": "paragraph",
+      "content": "Många av er har efterfrågat sätt att få ut era data från appen, vare sig det är för att spara fysiska anteckningar tillsammans med era negativ eller för att analysera era fotograferingsvanor i ett kalkylark. Den här uppdateringen ger tre olika exportformat, vart och ett designat för ett specifikt ändamål. Du hittar dessa alternativ i delningsmenyn för vilken filmrulle som helst."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.17.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.17.0-1@2x.png",
+      "alt": "Frames analog foto-app med exportalternativ för PDF, CSV och text",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "PDF-export för utskrift"
+    },
+    {
+      "type": "paragraph",
+      "content": "PDF-exporten skapar rena, välformaterade dokument som ser bra ut på papper. De är perfekta för utskrift och förvaring tillsammans med dina negativ som ett fysiskt referensblad för varje filmrulle. Layouten är utformad för att vara lätt att läsa med en snabb blick, samtidigt som den innehåller alla tekniska detaljer du har registrerat."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "CSV-export för kalkylark"
+    },
+    {
+      "type": "paragraph",
+      "content": "Om du vill analysera dina fotograferingsmönster eller föra register i Excel, Google Kalkylark eller annat kalkylarksprogram är CSV-exporten precis vad du behöver. Alla dina rutdata importeras direkt med kolumner för varje registrerad inställning. Det gör det enkelt att sortera, filtrera eller skapa diagram från din fotograferingshistorik."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Förbättrad textexport"
+    },
+    {
+      "type": "paragraph",
+      "content": "Textexporten presenterar nu dina data i ett renare tabellformat som är lättare att läsa. Den inkluderar också GPS-koordinater för varje ruta, så att du har en komplett översikt över var varje bild togs. Det här formatet fungerar bra för snabb delning eller för att kopiera in i anteckningar och dokument."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Dina fotograferingsdata, på ditt sätt"
+    },
+    {
+      "type": "paragraph",
+      "content": "CSV- och textexporterna inkluderar alla dina fotograferingsmetadata: slutartid, bländare, exponeringskompensation, brännvidd, blixt, mätmetod, datum, tid, plats, objektiv, filter och anteckningar. PDF-exporten fokuserar på de mest relevanta inställningarna för att hålla den utskrivna layouten ren och läsbar. Alla tre formaten stöder språk som skrivs från höger till vänster, såsom arabiska och hebreiska."
+    }
+  ],
+  "improvements": [
+    "Lagt till PDF-export för att skapa utskriftsklara dokument att förvara med dina negativ",
+    "Lagt till CSV-export för att importera rutdata i Excel, Google Kalkylark och andra kalkylarksprogram",
+    "Förbättrad textexport med GPS-koordinater och en renare tabelllayout"
+  ],
+  "fixes": [],
+  "patches": [],
+  "meta_title": "Exportera dina data som PDF eller CSV - Frames",
+  "meta_description": "Exportera dina fotograferingsdata som PDF för utskrift, CSV för kalkylark eller text med GPS-koordinater. Alla format stöder RTL-språk."
+}

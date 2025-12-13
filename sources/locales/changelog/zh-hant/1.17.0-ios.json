@@ -1,0 +1,73 @@
+{
+  "version": "1.17.0",
+  "version_short": "1.17",
+  "url_slug": "1-17-ios",
+  "platform": "ios",
+  "release_date": "2025-12-13T10:00:00.000Z",
+  "title": "將拍攝資料匯出為PDF或CSV",
+  "summary": "此次更新提供三種匯出拍攝資料的方式：可列印和存檔的PDF文件、用於試算表分析的CSV檔案，以及包含完整GPS座標的改進文字格式。所有匯出格式均支援由右至左書寫的語言。",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "全新匯出選項"
+    },
+    {
+      "type": "paragraph",
+      "content": "許多使用者要求能夠從應用程式中匯出資料，無論是為了與底片一起保存實體記錄，還是為了在試算表中分析拍攝習慣。此次更新帶來三種不同的匯出格式，每種都針對特定用途而設計。您可以在任意底片的分享選單中找到這些選項。"
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.17.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.17.0-1@2x.png",
+      "alt": "底片攝影應用程式Frames顯示PDF、CSV和文字格式匯出選項",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "PDF匯出用於列印"
+    },
+    {
+      "type": "paragraph",
+      "content": "PDF匯出可建立整齊、格式規範的文件，列印效果出色。非常適合列印後與底片一起保存，作為每卷底片的實體參考表。版面設計便於快速閱讀，同時包含您記錄的所有技術細節。"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "CSV匯出用於試算表"
+    },
+    {
+      "type": "paragraph",
+      "content": "如果您想在Excel、Google試算表或其他試算表軟體中分析拍攝模式或保存記錄，CSV匯出正是您需要的。所有畫格資料都會直接匯入，每個記錄的設定對應一欄。這樣可以輕鬆地對拍攝歷史進行排序、篩選或建立圖表。"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "改進的文字匯出"
+    },
+    {
+      "type": "paragraph",
+      "content": "文字匯出現在以更清晰、更易讀的表格格式呈現資料。它還包含每個畫格的GPS座標，讓您完整記錄每張照片的拍攝地點。這種格式適合快速分享或複製到筆記和文件中。"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "您的拍攝資料，隨心匯出"
+    },
+    {
+      "type": "paragraph",
+      "content": "CSV和文字匯出包含完整的拍攝中繼資料：快門速度、光圈、曝光補償、焦距、閃光燈、測光模式、日期、時間、位置、鏡頭、濾鏡和備註。PDF匯出專注於最相關的設定，以保持列印版面的簡潔和可讀性。所有三種格式都支援阿拉伯語和希伯來語等由右至左書寫的語言。"
+    }
+  ],
+  "improvements": [
+    "新增PDF匯出功能，可建立用於與底片一起保存的列印文件",
+    "新增CSV匯出功能，可將畫格資料匯入Excel、Google試算表和其他試算表軟體",
+    "改進文字匯出，包含GPS座標和更清晰的表格版面"
+  ],
+  "fixes": [],
+  "patches": [],
+  "meta_title": "將拍攝資料匯出為PDF或CSV - Frames",
+  "meta_description": "將拍攝資料匯出為列印用PDF、試算表用CSV或帶GPS座標的文字。所有格式均支援RTL語言。"
+}

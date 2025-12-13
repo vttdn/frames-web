@@ -1,0 +1,73 @@
+{
+  "version": "1.17.0",
+  "version_short": "1.17",
+  "url_slug": "1-17-ios",
+  "platform": "ios",
+  "release_date": "2025-12-13T10:00:00.000Z",
+  "title": "Exporta tus datos como PDF o CSV",
+  "summary": "Esta actualización ofrece tres formas de exportar tus datos de disparo: documentos PDF listos para imprimir y archivar, archivos CSV para análisis en hojas de cálculo, y un formato de texto mejorado con coordenadas GPS completas. Todos los formatos de exportación son compatibles con idiomas que se escriben de derecha a izquierda.",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Nuevas opciones de exportación"
+    },
+    {
+      "type": "paragraph",
+      "content": "Muchos de vosotros habéis pedido formas de extraer vuestros datos de la app, ya sea para guardar registros físicos junto a vuestros negativos o para analizar vuestros hábitos de disparo en una hoja de cálculo. Esta actualización trae tres formatos de exportación diferentes, cada uno diseñado para un propósito específico. Encontrarás estas opciones en el menú de compartir de cualquier carrete."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.17.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.17.0-1@2x.png",
+      "alt": "App de fotografía analógica Frames mostrando opciones de exportación PDF, CSV y texto",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Exportación PDF para imprimir"
+    },
+    {
+      "type": "paragraph",
+      "content": "La exportación PDF genera documentos limpios y bien formateados que quedan perfectos en papel. Son ideales para imprimir y guardar junto a tus negativos, proporcionándote una hoja de referencia física para cada carrete. El diseño está pensado para ser fácil de leer de un vistazo, incluyendo todos los detalles técnicos que hayas registrado."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Exportación CSV para hojas de cálculo"
+    },
+    {
+      "type": "paragraph",
+      "content": "Si quieres analizar tus patrones de disparo o llevar registros en Excel, Google Sheets o cualquier otra hoja de cálculo, la exportación CSV te lo pone fácil. Todos los datos de tus fotogramas se importan directamente con columnas para cada ajuste que hayas registrado. Esto facilita ordenar, filtrar o crear gráficos de tu historial de disparos."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Exportación de texto mejorada"
+    },
+    {
+      "type": "paragraph",
+      "content": "La exportación de texto ahora presenta tus datos en un formato tabular más limpio y fácil de leer. También incluye las coordenadas GPS de cada fotograma, para que tengas un registro completo de dónde se tomó cada foto. Este formato funciona bien para compartir rápidamente o para copiar en notas y documentos."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Tus datos de disparo, a tu manera"
+    },
+    {
+      "type": "paragraph",
+      "content": "Las exportaciones CSV y de texto incluyen todos tus metadatos de disparo: velocidad de obturación, apertura, compensación de exposición, distancia focal, flash, modo de medición, fecha, hora, ubicación, objetivo, filtro y notas. La exportación PDF se centra en los ajustes más relevantes para mantener un diseño impreso limpio y legible. Los tres formatos son compatibles con idiomas que se escriben de derecha a izquierda como el árabe y el hebreo."
+    }
+  ],
+  "improvements": [
+    "Añadida exportación PDF para crear documentos listos para imprimir y guardar con tus negativos",
+    "Añadida exportación CSV para importar datos de fotogramas en Excel, Google Sheets y otras hojas de cálculo",
+    "Exportación de texto mejorada con coordenadas GPS y un diseño tabular más limpio"
+  ],
+  "fixes": [],
+  "patches": [],
+  "meta_title": "Exporta tus datos como PDF o CSV - Frames",
+  "meta_description": "Exporta tus datos de disparo como PDF para imprimir, CSV para hojas de cálculo, o texto con coordenadas GPS. Todos los formatos son compatibles con idiomas RTL."
+}

@@ -1,0 +1,73 @@
+{
+  "version": "1.17.0",
+  "version_short": "1.17",
+  "url_slug": "1-17-ios",
+  "platform": "ios",
+  "release_date": "2025-12-13T10:00:00.000Z",
+  "title": "Exportiere deine Daten als PDF oder CSV",
+  "summary": "Dieses Update bietet drei Möglichkeiten, deine Aufnahmedaten zu exportieren: druckfertige PDF-Dokumente zur Archivierung, CSV-Dateien für die Analyse in Tabellenkalkulationen und ein verbessertes Textformat mit vollständigen GPS-Koordinaten. Alle Exportformate unterstützen Sprachen mit Schreibrichtung von rechts nach links.",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Neue Exportoptionen"
+    },
+    {
+      "type": "paragraph",
+      "content": "Viele von euch haben nach Möglichkeiten gefragt, eure Daten aus der App zu exportieren, sei es für physische Aufzeichnungen zu euren Negativen oder zur Analyse eurer Aufnahmegewohnheiten in einer Tabellenkalkulation. Dieses Update bringt drei verschiedene Exportformate, jedes für einen bestimmten Zweck entwickelt. Du findest diese Optionen im Teilen-Menü jeder Filmrolle."
+    },
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.17.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.17.0-1@2x.png",
+      "alt": "Frames Analogfotografie-App mit Exportoptionen für PDF, CSV und Text",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "PDF-Export zum Drucken"
+    },
+    {
+      "type": "paragraph",
+      "content": "Der PDF-Export erstellt übersichtliche, gut formatierte Dokumente, die auf Papier hervorragend aussehen. Perfekt zum Ausdrucken und Aufbewahren zusammen mit deinen Negativen als physisches Referenzblatt für jede Filmrolle. Das Layout ist so gestaltet, dass es auf einen Blick lesbar ist und dennoch alle technischen Details enthält, die du aufgezeichnet hast."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "CSV-Export für Tabellenkalkulationen"
+    },
+    {
+      "type": "paragraph",
+      "content": "Wenn du deine Aufnahmemuster analysieren oder Aufzeichnungen in Excel, Google Sheets oder einer anderen Tabellenkalkulation führen möchtest, ist der CSV-Export genau das Richtige. Alle deine Einzelbild-Daten werden direkt mit Spalten für jede aufgezeichnete Einstellung importiert. So kannst du einfach sortieren, filtern oder Diagramme aus deiner Aufnahmehistorie erstellen."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Verbesserter Textexport"
+    },
+    {
+      "type": "paragraph",
+      "content": "Der Textexport präsentiert deine Daten jetzt in einem übersichtlicheren Tabellenformat, das leichter zu lesen ist. Er enthält auch GPS-Koordinaten für jedes Einzelbild, sodass du eine vollständige Aufzeichnung hast, wo jede Aufnahme gemacht wurde. Dieses Format eignet sich gut zum schnellen Teilen oder zum Kopieren in Notizen und Dokumente."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Deine Aufnahmedaten, wie du sie brauchst"
+    },
+    {
+      "type": "paragraph",
+      "content": "Die CSV- und Textexporte enthalten alle deine Aufnahme-Metadaten: Verschlusszeit, Blende, Belichtungskorrektur, Brennweite, Blitz, Messmethode, Datum, Uhrzeit, Ort, Objektiv, Filter und Notizen. Der PDF-Export konzentriert sich auf die wichtigsten Einstellungen, um das gedruckte Layout übersichtlich und lesbar zu halten. Alle drei Formate unterstützen Sprachen mit Schreibrichtung von rechts nach links wie Arabisch und Hebräisch."
+    }
+  ],
+  "improvements": [
+    "PDF-Export zum Erstellen druckfertiger Dokumente zur Aufbewahrung mit deinen Negativen hinzugefügt",
+    "CSV-Export zum Importieren von Einzelbild-Daten in Excel, Google Sheets und andere Tabellenkalkulationen hinzugefügt",
+    "Verbesserter Textexport mit GPS-Koordinaten und übersichtlicherem Tabellenlayout"
+  ],
+  "fixes": [],
+  "patches": [],
+  "meta_title": "Exportiere deine Daten als PDF oder CSV - Frames",
+  "meta_description": "Exportiere deine Aufnahmedaten als PDF zum Drucken, CSV für Tabellenkalkulationen oder Text mit GPS-Koordinaten. Alle Formate unterstützen RTL-Sprachen."
+}
