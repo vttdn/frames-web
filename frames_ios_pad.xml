@@ -1,62 +1,95 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <XML_DIZ_INFO>
+  <MASTER_PAD_VERSION_INFO>
+    <MASTER_PAD_VERSION>4.0</MASTER_PAD_VERSION>
+    <MASTER_PAD_EDITOR>Vim Text Editor</MASTER_PAD_EDITOR>
+    <MASTER_PAD_EDITOR_URL>https://withframes.com</MASTER_PAD_EDITOR_URL>
+    <MASTER_PAD_INFO>Portable Application Description (PAD) is a structured XML format that describes software applications for easy submission to directories.</MASTER_PAD_INFO>
+    <CERTIFIED>N</CERTIFIED>
+  </MASTER_PAD_VERSION_INFO>
+
+  <Company_Info>
+    <Company_Name>Vincent Tantardini</Company_Name>
+    <Company_WebSite_URL>https://withframes.com/</Company_WebSite_URL>
+    <Contact_Info>
+      <Contact_Email>bonjour@withframes.com</Contact_Email>
+    </Contact_Info>
+  </Company_Info>
+
   <Program_Info>
     <Program_Name>Frames</Program_Name>
     <Program_Version>1.17.0</Program_Version>
-    <Program_Release_Date>2025-04-01</Program_Release_Date>
+    <Program_Release_Month>04</Program_Release_Month>
+    <Program_Release_Day>01</Program_Release_Day>
+    <Program_Release_Year>2025</Program_Release_Year>
     <Program_Type>Commercial</Program_Type>
-    <Program_Description>
-      Frames is an app for film photographers to log, archive, and manage analog shooting data. Capture metadata, organize rolls, and export your shooting history as JSON, PDF, CSV, GPX or text files and reintegrate EXIF in your final images.
-    </Program_Description>
-    <Program_Change_Log>
-      Version 1.17.0: Export shooting data as PDF, CSV, or text with full GPS coordinates; improved right-to-left language support.
-    </Program_Change_Log>
-    <Program_URL>https://withframes.com</Program_URL>
-    <Program_Download_URL>https://apps.apple.com/app/frames-film-notes/id6744057317</Program_Download_URL>
-    <Program_Icon_URL>https://withframes.com/lib/img/shared/software/frames-logo.png</Program_Icon_URL>
-    <Program_Language>English</Program_Language>
-    <Program_Language>Arabic</Program_Language>
-    <Program_Language>Danish</Program_Language>
-    <Program_Language>Dutch</Program_Language>
-    <Program_Language>Finnish</Program_Language>
-    <Program_Language>French</Program_Language>
-    <Program_Language>German</Program_Language>
-    <Program_Language>Greek</Program_Language>
-    <Program_Language>Hebrew</Program_Language>
-    <Program_Language>Hindi</Program_Language>
-    <Program_Language>Indonesian</Program_Language>
-    <Program_Language>Italian</Program_Language>
-    <Program_Language>Japanese</Program_Language>
-    <Program_Language>Korean</Program_Language>
-    <Program_Language>Norwegian Bokmål</Program_Language>
-    <Program_Language>Polish</Program_Language>
-    <Program_Language>Portuguese</Program_Language>
-    <Program_Language>Romanian</Program_Language>
-    <Program_Language>Russian</Program_Language>
-    <Program_Language>Simplified Chinese</Program_Language>
-    <Program_Language>Spanish</Program_Language>
-    <Program_Language>Swedish</Program_Language>
-    <Program_Language>Thai</Program_Language>
-    <Program_Language>Traditional Chinese</Program_Language>
-    <Program_Language>Turkish</Program_Language>
-    <Program_Language>Ukrainian</Program_Language>
-    <Program_Language>Vietnamese</Program_Language>
-    <Program_Category>Photography</Program_Category>
-    <Program_Price>Subscription</Program_Price>
-    <Program_Screenshots>
-      <Screenshot_URL>https://withframes.com/lib/img/shared/software/ios/screenshot-1.png</Screenshot_URL>
-      <Screenshot_URL>https://withframes.com/lib/img/shared/software/ios/screenshot-2.png</Screenshot_URL>
-      <Screenshot_URL>https://withframes.com/lib/img/shared/software/ios/screenshot-3.png</Screenshot_URL>
-      <Screenshot_URL>https://withframes.com/lib/img/shared/software/ios/screenshot-4.png</Screenshot_URL>
-    </Program_Screenshots>
-    <Program_OS_Support>
-      <OS_Name>iOS</OS_Name>
-      <OS_Version>18.0</OS_Version>
-    </Program_OS_Support>
+    <Program_Price_Amount>0</Program_Price_Amount> <Program_OS_Support>iOS</Program_OS_Support>
+    <Program_Category_Class>Graphic Apps::Editors</Program_Category_Class>
+    <Program_Language>English</Program_Language> <Program_System_Requirements>Requires iOS 18.0 or later.</Program_System_Requirements>
+    <Price_Info>
+      <Purchase_URL>https://apps.apple.com/app/frames-film-notes/id6744057317</Purchase_URL>
+      
+      <Commercial_Version>
+        <Price_Amount>49.99</Price_Amount>
+        <Price_Currency>USD</Price_Currency>
+        <Price_Description>Lifetime Access (One-time Purchase)</Price_Description>
+      </Commercial_Version>
+
+      <Subscription_Version>
+        <Subscription_Type>Monthly</Subscription_Type>
+        <Price_Amount>2.99</Price_Amount>
+        <Price_Currency>USD</Price_Currency>
+        <Price_Description>Monthly Subscription Plan</Price_Description>
+      </Subscription_Version>
+
+      <Subscription_Version>
+        <Subscription_Type>Annual</Subscription_Type>
+        <Price_Amount>19.99</Price_Amount>
+        <Price_Currency>USD</Price_Currency>
+        <Price_Description>Annual Subscription Plan</Price_Description>
+      </Subscription_Version>
+      
+    </Price_Info>
   </Program_Info>
-  <Company_Info>
-    <Company_Name>Vincent Tantardini</Company_Name>
-    <Company_URL>https://withframes.com/</Company_URL>
-    <Support_Email>bonjour@withframes.com</Support_Email>
-  </Company_Info>
+
+  <Web_Info>
+    <Application_URLs>
+      <Application_Info_URL>https://withframes.com</Application_Info_URL>
+      <Application_Screenshot_URL>https://withframes.com/lib/img/shared/software/ios/screenshot-2.png</Application_Screenshot_URL>
+      <Application_Icon_URL>https://withframes.com/lib/img/shared/software/frames-logo.png</Application_Icon_URL>
+    </Application_URLs>
+    <Screenshots>
+      <Screenshot>
+        <URL>https://withframes.com/lib/img/shared/software/ios/screenshot-1.png</URL>
+        <Description>Organize your film rolls and camera gear.</Description>
+      </Screenshot>
+      <Screenshot>
+        <URL>https://withframes.com/lib/img/shared/software/ios/screenshot-2.png</URL>
+        <Description>Capture shooting metadata for every frame.</Description>
+      </Screenshot>
+      <Screenshot>
+        <URL>https://withframes.com/lib/img/shared/software/ios/screenshot-3.png</URL>
+        <Description>View and manage your full shooting history.</Description>
+      </Screenshot>
+      <Screenshot>
+        <URL>https://withframes.com/lib/img/shared/software/ios/screenshot-4.png</URL>
+        <Description>Export data and reintegrate EXIF.</Description>
+      </Screenshot>
+    </Screenshots>
+    <Download_URLs>
+      <Primary_Download_URL>https://apps.apple.com/app/frames-film-notes/id6744057317</Primary_Download_URL>
+    </Download_URLs>
+  </Web_Info>
+
+  <Program_Descriptions>
+    <English>
+      <Char_Desc_450>Frames is an app for film photographers to log, archive, and manage analog shooting data. Capture metadata, organize rolls, and export your shooting history as JSON, PDF, CSV, GPX or text files and reintegrate EXIF in your final images.</Char_Desc_450>
+      <Char_Desc_2000>Frames is the definitive app for film photographers to log, archive, and manage all analog shooting data in one organized place. Effortlessly capture detailed metadata, track your film rolls, and manage your entire shooting history. Easily export your data as JSON, PDF, CSV, GPX, or simple text files. A unique feature is the ability to automatically reintegrate captured EXIF data back into your final scanned images, bridging the gap between analog and digital workflows. Frames supports 28 languages, including full right-to-left support, making it a truly global tool for the film community.</Char_Desc_2000>
+    </English>
+  </Program_Descriptions>
+
+  <Program_Details>
+    <Program_Changes>Version 1.17.0: Export shooting data as PDF, CSV, or text with full GPS coordinates; improved right-to-left language support.</Program_Changes>
+  </Program_Details>
+
 </XML_DIZ_INFO>
