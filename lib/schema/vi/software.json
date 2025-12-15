@@ -30,37 +30,13 @@
           "offers": [
             {
               "@type": "Offer",
-              "name": "Đăng ký hàng tháng",
-              "price": "99000",
-              "priceCurrency": "VND",
-              "availability": "https://schema.org/InStock",
-              "priceSpecification": {
-                "@type": "PriceSpecification",
-                "price": "99000",
-                "priceCurrency": "VND"
-              }
-            },
-            {
-              "@type": "Offer",
               "name": "Đăng ký hàng năm",
-              "price": "599000",
+              "price": "499000",
               "priceCurrency": "VND",
               "availability": "https://schema.org/InStock",
               "priceSpecification": {
                 "@type": "PriceSpecification",
-                "price": "599000",
-                "priceCurrency": "VND"
-              }
-            },
-            {
-              "@type": "Offer",
-              "name": "Truy cập trọn đời",
-              "price": "1999000",
-              "priceCurrency": "VND",
-              "availability": "https://schema.org/InStock",
-              "priceSpecification": {
-                "@type": "PriceSpecification",
-                "price": "1999000",
+                "price": "499000",
                 "priceCurrency": "VND"
               }
             }

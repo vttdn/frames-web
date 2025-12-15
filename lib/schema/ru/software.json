@@ -30,37 +30,13 @@
           "offers": [
             {
               "@type": "Offer",
-              "name": "Ежемесячная подписка",
-              "price": "249",
-              "priceCurrency": "RUB",
-              "availability": "https://schema.org/InStock",
-              "priceSpecification": {
-                "@type": "PriceSpecification",
-                "price": "249",
-                "priceCurrency": "RUB"
-              }
-            },
-            {
-              "@type": "Offer",
               "name": "Годовая подписка",
-              "price": "1790",
+              "price": "1490",
               "priceCurrency": "RUB",
               "availability": "https://schema.org/InStock",
               "priceSpecification": {
                 "@type": "PriceSpecification",
-                "price": "1790",
-                "priceCurrency": "RUB"
-              }
-            },
-            {
-              "@type": "Offer",
-              "name": "Пожизненный доступ",
-              "price": "4990",
-              "priceCurrency": "RUB",
-              "availability": "https://schema.org/InStock",
-              "priceSpecification": {
-                "@type": "PriceSpecification",
-                "price": "4990",
+                "price": "1490",
                 "priceCurrency": "RUB"
               }
             }

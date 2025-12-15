@@ -30,37 +30,13 @@
           "offers": [
             {
               "@type": "Offer",
-              "name": "Місячна підписка",
-              "price": "3.99",
-              "priceCurrency": "USD",
-              "availability": "https://schema.org/InStock",
-              "priceSpecification": {
-                "@type": "PriceSpecification",
-                "price": "3.99",
-                "priceCurrency": "USD"
-              }
-            },
-            {
-              "@type": "Offer",
               "name": "Річна підписка",
-              "price": "22.99",
+              "price": "19.99",
               "priceCurrency": "USD",
               "availability": "https://schema.org/InStock",
               "priceSpecification": {
                 "@type": "PriceSpecification",
-                "price": "22.99",
-                "priceCurrency": "USD"
-              }
-            },
-            {
-              "@type": "Offer",
-              "name": "Довічний доступ",
-              "price": "69.99",
-              "priceCurrency": "USD",
-              "availability": "https://schema.org/InStock",
-              "priceSpecification": {
-                "@type": "PriceSpecification",
-                "price": "69.99",
+                "price": "19.99",
                 "priceCurrency": "USD"
               }
             }

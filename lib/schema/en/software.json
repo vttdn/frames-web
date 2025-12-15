@@ -30,37 +30,13 @@
           "offers": [
             {
               "@type": "Offer",
-              "name": "Monthly subscription",
-              "price": "2.99",
-              "priceCurrency": "USD",
-              "availability": "https://schema.org/InStock",
-              "priceSpecification": {
-                "@type": "PriceSpecification",
-                "price": "2.99",
-                "priceCurrency": "USD"
-              }
-            },
-            {
-              "@type": "Offer",
               "name": "Yearly subscription",
-              "price": "19.99",
+              "price": "17.99",
               "priceCurrency": "USD",
               "availability": "https://schema.org/InStock",
               "priceSpecification": {
                 "@type": "PriceSpecification",
-                "price": "19.99",
-                "priceCurrency": "USD"
-              }
-            },
-            {
-              "@type": "Offer",
-              "name": "Lifetime Access",
-              "price": "59.99",
-              "priceCurrency": "USD",
-              "availability": "https://schema.org/InStock",
-              "priceSpecification": {
-                "@type": "PriceSpecification",
-                "price": "59.99",
+                "price": "17.99",
                 "priceCurrency": "USD"
               }
             }

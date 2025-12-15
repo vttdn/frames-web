@@ -30,18 +30,6 @@
           "offers": [
             {
               "@type": "Offer",
-              "name": "每月訂閱",
-              "price": "22",
-              "priceCurrency": "HKD",
-              "availability": "https://schema.org/InStock",
-              "priceSpecification": {
-                "@type": "PriceSpecification",
-                "price": "22",
-                "priceCurrency": "HKD"
-              }
-            },
-            {
-              "@type": "Offer",
               "name": "每年訂閱",
               "price": "148",
               "priceCurrency": "HKD",
@@ -49,18 +37,6 @@
               "priceSpecification": {
                 "@type": "PriceSpecification",
                 "price": "148",
-                "priceCurrency": "HKD"
-              }
-            },
-            {
-              "@type": "Offer",
-              "name": "終身存取",
-              "price": "488",
-              "priceCurrency": "HKD",
-              "availability": "https://schema.org/InStock",
-              "priceSpecification": {
-                "@type": "PriceSpecification",
-                "price": "488",
                 "priceCurrency": "HKD"
               }
             }

@@ -30,37 +30,13 @@
           "offers": [
             {
               "@type": "Offer",
-              "name": "Subskrypcja miesięczna",
-              "price": "14.99",
-              "priceCurrency": "PLN",
-              "availability": "https://schema.org/InStock",
-              "priceSpecification": {
-                "@type": "PriceSpecification",
-                "price": "14.99",
-                "priceCurrency": "PLN"
-              }
-            },
-            {
-              "@type": "Offer",
               "name": "Subskrypcja roczna",
-              "price": "99.99",
+              "price": "79.99",
               "priceCurrency": "PLN",
               "availability": "https://schema.org/InStock",
               "priceSpecification": {
                 "@type": "PriceSpecification",
-                "price": "99.99",
-                "priceCurrency": "PLN"
-              }
-            },
-            {
-              "@type": "Offer",
-              "name": "Dostęp dożywotni",
-              "price": "299.99",
-              "priceCurrency": "PLN",
-              "availability": "https://schema.org/InStock",
-              "priceSpecification": {
-                "@type": "PriceSpecification",
-                "price": "299.99",
+                "price": "79.99",
                 "priceCurrency": "PLN"
               }
             }

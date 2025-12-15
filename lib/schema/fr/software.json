@@ -30,37 +30,13 @@
           "offers": [
             {
               "@type": "Offer",
-              "name": "Abonnement mensuel",
-              "price": "2.99",
-              "priceCurrency": "EUR",
-              "availability": "https://schema.org/InStock",
-              "priceSpecification": {
-                "@type": "PriceSpecification",
-                "price": "2.99",
-                "priceCurrency": "EUR"
-              }
-            },
-            {
-              "@type": "Offer",
               "name": "Abonnement annuel",
-              "price": "22.99",
+              "price": "19.99",
               "priceCurrency": "EUR",
               "availability": "https://schema.org/InStock",
               "priceSpecification": {
                 "@type": "PriceSpecification",
-                "price": "22.99",
-                "priceCurrency": "EUR"
-              }
-            },
-            {
-              "@type": "Offer",
-              "name": "Accès à vie",
-              "price": "69.99",
-              "priceCurrency": "EUR",
-              "availability": "https://schema.org/InStock",
-              "priceSpecification": {
-                "@type": "PriceSpecification",
-                "price": "69.99",
+                "price": "19.99",
                 "priceCurrency": "EUR"
               }
             }

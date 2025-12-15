@@ -30,18 +30,6 @@
           "offers": [
             {
               "@type": "Offer",
-              "name": "Abonament lunar",
-              "price": "14.99",
-              "priceCurrency": "RON",
-              "availability": "https://schema.org/InStock",
-              "priceSpecification": {
-                "@type": "PriceSpecification",
-                "price": "14.99",
-                "priceCurrency": "RON"
-              }
-            },
-            {
-              "@type": "Offer",
               "name": "Abonament anual",
               "price": "99.99",
               "priceCurrency": "RON",
@@ -49,18 +37,6 @@
               "priceSpecification": {
                 "@type": "PriceSpecification",
                 "price": "99.99",
-                "priceCurrency": "RON"
-              }
-            },
-            {
-              "@type": "Offer",
-              "name": "Acces pe viață",
-              "price": "299.99",
-              "priceCurrency": "RON",
-              "availability": "https://schema.org/InStock",
-              "priceSpecification": {
-                "@type": "PriceSpecification",
-                "price": "299.99",
                 "priceCurrency": "RON"
               }
             }

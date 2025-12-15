@@ -30,37 +30,13 @@
           "offers": [
             {
               "@type": "Offer",
-              "name": "Månedlig abonnement",
-              "price": "39",
-              "priceCurrency": "NOK",
-              "availability": "https://schema.org/InStock",
-              "priceSpecification": {
-                "@type": "PriceSpecification",
-                "price": "39",
-                "priceCurrency": "NOK"
-              }
-            },
-            {
-              "@type": "Offer",
               "name": "Årlig abonnement",
-              "price": "249",
+              "price": "229",
               "priceCurrency": "NOK",
               "availability": "https://schema.org/InStock",
               "priceSpecification": {
                 "@type": "PriceSpecification",
-                "price": "249",
-                "priceCurrency": "NOK"
-              }
-            },
-            {
-              "@type": "Offer",
-              "name": "Livstidstilgang",
-              "price": "799",
-              "priceCurrency": "NOK",
-              "availability": "https://schema.org/InStock",
-              "priceSpecification": {
-                "@type": "PriceSpecification",
-                "price": "799",
+                "price": "229",
                 "priceCurrency": "NOK"
               }
             }

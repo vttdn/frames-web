@@ -30,18 +30,6 @@
           "offers": [
             {
               "@type": "Offer",
-              "name": "月額サブスクリプション",
-              "price": "500",
-              "priceCurrency": "JPY",
-              "availability": "https://schema.org/InStock",
-              "priceSpecification": {
-                "@type": "PriceSpecification",
-                "price": "500",
-                "priceCurrency": "JPY"
-              }
-            },
-            {
-              "@type": "Offer",
               "name": "年額サブスクリプション",
               "price": "3000",
               "priceCurrency": "JPY",
@@ -49,18 +37,6 @@
               "priceSpecification": {
                 "@type": "PriceSpecification",
                 "price": "3000",
-                "priceCurrency": "JPY"
-              }
-            },
-            {
-              "@type": "Offer",
-              "name": "永久アクセス",
-              "price": "10000",
-              "priceCurrency": "JPY",
-              "availability": "https://schema.org/InStock",
-              "priceSpecification": {
-                "@type": "PriceSpecification",
-                "price": "10000",
                 "priceCurrency": "JPY"
               }
             }

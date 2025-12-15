@@ -30,37 +30,13 @@
           "offers": [
             {
               "@type": "Offer",
-              "name": "Langganan bulanan",
-              "price": "49000",
-              "priceCurrency": "IDR",
-              "availability": "https://schema.org/InStock",
-              "priceSpecification": {
-                "@type": "PriceSpecification",
-                "price": "49000",
-                "priceCurrency": "IDR"
-              }
-            },
-            {
-              "@type": "Offer",
               "name": "Langganan tahunan",
-              "price": "349000",
+              "price": "299000",
               "priceCurrency": "IDR",
               "availability": "https://schema.org/InStock",
               "priceSpecification": {
                 "@type": "PriceSpecification",
-                "price": "349000",
-                "priceCurrency": "IDR"
-              }
-            },
-            {
-              "@type": "Offer",
-              "name": "Akses Seumur Hidup",
-              "price": "999000",
-              "priceCurrency": "IDR",
-              "availability": "https://schema.org/InStock",
-              "priceSpecification": {
-                "@type": "PriceSpecification",
-                "price": "999000",
+                "price": "299000",
                 "priceCurrency": "IDR"
               }
             }

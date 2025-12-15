@@ -30,37 +30,13 @@
           "offers": [
             {
               "@type": "Offer",
-              "name": "Månedligt abonnement",
-              "price": "29",
-              "priceCurrency": "DKK",
-              "availability": "https://schema.org/InStock",
-              "priceSpecification": {
-                "@type": "PriceSpecification",
-                "price": "29",
-                "priceCurrency": "DKK"
-              }
-            },
-            {
-              "@type": "Offer",
               "name": "Årligt abonnement",
-              "price": "179",
+              "price": "149",
               "priceCurrency": "DKK",
               "availability": "https://schema.org/InStock",
               "priceSpecification": {
                 "@type": "PriceSpecification",
-                "price": "179",
-                "priceCurrency": "DKK"
-              }
-            },
-            {
-              "@type": "Offer",
-              "name": "Livstidsadgang",
-              "price": "499",
-              "priceCurrency": "DKK",
-              "availability": "https://schema.org/InStock",
-              "priceSpecification": {
-                "@type": "PriceSpecification",
-                "price": "499",
+                "price": "149",
                 "priceCurrency": "DKK"
               }
             }

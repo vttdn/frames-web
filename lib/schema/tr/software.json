@@ -30,18 +30,6 @@
           "offers": [
             {
               "@type": "Offer",
-              "name": "Aylık abonelik",
-              "price": "149.99",
-              "priceCurrency": "TRY",
-              "availability": "https://schema.org/InStock",
-              "priceSpecification": {
-                "@type": "PriceSpecification",
-                "price": "149.99",
-                "priceCurrency": "TRY"
-              }
-            },
-            {
-              "@type": "Offer",
               "name": "Yıllık abonelik",
               "price": "999.99",
               "priceCurrency": "TRY",
@@ -49,18 +37,6 @@
               "priceSpecification": {
                 "@type": "PriceSpecification",
                 "price": "999.99",
-                "priceCurrency": "TRY"
-              }
-            },
-            {
-              "@type": "Offer",
-              "name": "Ömür Boyu Erişim",
-              "price": "2999.99",
-              "priceCurrency": "TRY",
-              "availability": "https://schema.org/InStock",
-              "priceSpecification": {
-                "@type": "PriceSpecification",
-                "price": "2999.99",
                 "priceCurrency": "TRY"
               }
             }

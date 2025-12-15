@@ -30,37 +30,13 @@
           "offers": [
             {
               "@type": "Offer",
-              "name": "월간 구독",
-              "price": "4400",
-              "priceCurrency": "KRW",
-              "availability": "https://schema.org/InStock",
-              "priceSpecification": {
-                "@type": "PriceSpecification",
-                "price": "4400",
-                "priceCurrency": "KRW"
-              }
-            },
-            {
-              "@type": "Offer",
               "name": "연간 구독",
-              "price": "29000",
+              "price": "25000",
               "priceCurrency": "KRW",
               "availability": "https://schema.org/InStock",
               "priceSpecification": {
                 "@type": "PriceSpecification",
-                "price": "29000",
-                "priceCurrency": "KRW"
-              }
-            },
-            {
-              "@type": "Offer",
-              "name": "평생 액세스",
-              "price": "88000",
-              "priceCurrency": "KRW",
-              "availability": "https://schema.org/InStock",
-              "priceSpecification": {
-                "@type": "PriceSpecification",
-                "price": "88000",
+                "price": "25000",
                 "priceCurrency": "KRW"
               }
             }

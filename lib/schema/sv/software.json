@@ -30,37 +30,13 @@
           "offers": [
             {
               "@type": "Offer",
-              "name": "Månadsabonnemang",
-              "price": "39",
-              "priceCurrency": "SEK",
-              "availability": "https://schema.org/InStock",
-              "priceSpecification": {
-                "@type": "PriceSpecification",
-                "price": "39",
-                "priceCurrency": "SEK"
-              }
-            },
-            {
-              "@type": "Offer",
               "name": "Årsabonnemang",
-              "price": "249",
+              "price": "229",
               "priceCurrency": "SEK",
               "availability": "https://schema.org/InStock",
               "priceSpecification": {
                 "@type": "PriceSpecification",
-                "price": "249",
-                "priceCurrency": "SEK"
-              }
-            },
-            {
-              "@type": "Offer",
-              "name": "Livstidsåtkomst",
-              "price": "799",
-              "priceCurrency": "SEK",
-              "availability": "https://schema.org/InStock",
-              "priceSpecification": {
-                "@type": "PriceSpecification",
-                "price": "799",
+                "price": "229",
                 "priceCurrency": "SEK"
               }
             }

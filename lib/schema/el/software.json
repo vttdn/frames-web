@@ -30,37 +30,13 @@
           "offers": [
             {
               "@type": "Offer",
-              "name": "Μηνιαία συνδρομή",
-              "price": "2.99",
-              "priceCurrency": "EUR",
-              "availability": "https://schema.org/InStock",
-              "priceSpecification": {
-                "@type": "PriceSpecification",
-                "price": "2.99",
-                "priceCurrency": "EUR"
-              }
-            },
-            {
-              "@type": "Offer",
               "name": "Ετήσια συνδρομή",
-              "price": "22.99",
+              "price": "19.99",
               "priceCurrency": "EUR",
               "availability": "https://schema.org/InStock",
               "priceSpecification": {
                 "@type": "PriceSpecification",
-                "price": "22.99",
-                "priceCurrency": "EUR"
-              }
-            },
-            {
-              "@type": "Offer",
-              "name": "Πρόσβαση εφ' όρου ζωής",
-              "price": "69.99",
-              "priceCurrency": "EUR",
-              "availability": "https://schema.org/InStock",
-              "priceSpecification": {
-                "@type": "PriceSpecification",
-                "price": "69.99",
+                "price": "19.99",
                 "priceCurrency": "EUR"
               }
             }

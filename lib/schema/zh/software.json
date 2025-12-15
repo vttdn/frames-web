@@ -30,37 +30,13 @@
           "offers": [
             {
               "@type": "Offer",
-              "name": "月度订阅",
-              "price": "22",
-              "priceCurrency": "CNY",
-              "availability": "https://schema.org/InStock",
-              "priceSpecification": {
-                "@type": "PriceSpecification",
-                "price": "22",
-                "priceCurrency": "CNY"
-              }
-            },
-            {
-              "@type": "Offer",
               "name": "年度订阅",
-              "price": "148",
+              "price": "128",
               "priceCurrency": "CNY",
               "availability": "https://schema.org/InStock",
               "priceSpecification": {
                 "@type": "PriceSpecification",
-                "price": "148",
-                "priceCurrency": "CNY"
-              }
-            },
-            {
-              "@type": "Offer",
-              "name": "终身访问",
-              "price": "398",
-              "priceCurrency": "CNY",
-              "availability": "https://schema.org/InStock",
-              "priceSpecification": {
-                "@type": "PriceSpecification",
-                "price": "398",
+                "price": "128",
                 "priceCurrency": "CNY"
               }
             }
