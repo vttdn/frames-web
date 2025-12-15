@@ -521,6 +521,7 @@ def generate_homepage_schemas(lang_code, global_config, locale_data):
             'lifetime_price': locale_data['pricing']['ios']['price_value_lifetime'],
             'monthly_label': locale_data['pricing']['label_subscription_monthly'],
             'yearly_label': locale_data['pricing']['label_subscription_yearly'],
+            'schema_offer_name': locale_data['pricing']['schema_offer_name'],
             'lifetime_label': locale_data['pricing']['plan_type']['lifetime'],
             'ios_appname': locale_data['footer']['product']['frames_ios'],
             'mac_appname': locale_data['footer']['product']['frames_macos'],

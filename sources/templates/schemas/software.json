@@ -30,7 +30,7 @@
           "offers": [
             {
               "@type": "Offer",
-              "name": "{{ yearly_label }}",
+              "name": "{{ schema_offer_name }}",
               "price": "{{ yearly_price }}",
               "priceCurrency": "{{ currency }}",
               "availability": "https://schema.org/InStock",
