@@ -66,8 +66,26 @@
     "Adicionada exportação CSV para importar dados de fotogramas no Excel, Google Sheets e outros softwares de planilhas",
     "Exportação de texto aprimorada com coordenadas GPS e layout tabular mais limpo"
   ],
-  "fixes": [],
-  "patches": [],
+  "fixes": [
+    {
+      "title": "Animação da barra de ferramentas",
+      "description": "Restaurada a animação suave da barra de ferramentas no iOS 26 após a versão 26.2."
+    },
+    {
+      "title": "Textos e rótulos",
+      "description": "Textos e rótulos atualizados para maior clareza nas telas de Configurações e Assinatura."
+    }
+  ],
+  "patches": [
+    {
+      "version": "1.17.1",
+      "description": "Correções na animação da barra de ferramentas"
+    },
+    {
+      "version": "1.17.2",
+      "description": "Ajustes em textos e rótulos"
+    }
+  ],
   "meta_title": "Exporte seus dados como PDF ou CSV - Frames",
   "meta_description": "Exporte seus dados de disparo como PDF para impressão, CSV para planilhas, ou texto com coordenadas GPS. Todos os formatos suportam idiomas RTL."
 }

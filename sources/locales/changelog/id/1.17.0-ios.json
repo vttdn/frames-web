@@ -66,8 +66,26 @@
     "Menambahkan ekspor CSV untuk mengimpor data frame ke Excel, Google Sheets, dan perangkat lunak spreadsheet lainnya",
     "Ekspor teks yang ditingkatkan dengan koordinat GPS dan tata letak tabel yang lebih rapi"
   ],
-  "fixes": [],
-  "patches": [],
+  "fixes": [
+    {
+      "title": "Animasi bilah alat",
+      "description": "Memulihkan animasi bilah alat yang mulus di iOS 26 setelah rilis versi 26.2."
+    },
+    {
+      "title": "Teks dan label",
+      "description": "Memperbarui teks dan label untuk kejelasan lebih baik di layar Pengaturan dan Langganan."
+    }
+  ],
+  "patches": [
+    {
+      "version": "1.17.1",
+      "description": "Perbaikan animasi bilah alat"
+    },
+    {
+      "version": "1.17.2",
+      "description": "Penyesuaian teks dan label"
+    }
+  ],
   "meta_title": "Ekspor data Anda sebagai PDF atau CSV - Frames",
   "meta_description": "Ekspor data pemotretan sebagai PDF untuk cetak, CSV untuk spreadsheet, atau teks dengan koordinat GPS. Semua format mendukung bahasa RTL."
 }

@@ -66,8 +66,26 @@
     "Dodano eksport CSV do importowania danych klatek do Excela, Google Sheets i innych arkuszy kalkulacyjnych",
     "Ulepszony eksport tekstowy ze współrzędnymi GPS i przejrzystszym układem tabelarycznym"
   ],
-  "fixes": [],
-  "patches": [],
+  "fixes": [
+    {
+      "title": "Animacja paska narzędzi",
+      "description": "Przywrócono płynną animację paska narzędzi w iOS 26 po wersji 26.2."
+    },
+    {
+      "title": "Teksty i etykiety",
+      "description": "Zaktualizowano teksty i etykiety dla większej przejrzystości na ekranach Ustawienia i Subskrypcja."
+    }
+  ],
+  "patches": [
+    {
+      "version": "1.17.1",
+      "description": "Poprawki animacji paska narzędzi"
+    },
+    {
+      "version": "1.17.2",
+      "description": "Korekty tekstów i etykiet"
+    }
+  ],
   "meta_title": "Eksportuj dane jako PDF lub CSV - Frames",
   "meta_description": "Eksportuj dane zdjęciowe jako PDF do druku, CSV do arkuszy kalkulacyjnych lub tekst ze współrzędnymi GPS. Wszystkie formaty obsługują języki RTL."
 }

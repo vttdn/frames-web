@@ -66,8 +66,26 @@
     "Excel, Google E-Tablolar ve diğer elektronik tablo yazılımlarına kare verilerini içe aktarmak için CSV dışa aktarma eklendi",
     "GPS koordinatları ve daha temiz tablo düzeniyle geliştirilmiş metin dışa aktarma"
   ],
-  "fixes": [],
-  "patches": [],
+  "fixes": [
+    {
+      "title": "Araç çubuğu animasyonu",
+      "description": "iOS 26'da 26.2 sürümü sonrasında akıcı araç çubuğu animasyonu geri yüklendi."
+    },
+    {
+      "title": "Metin ve etiketler",
+      "description": "Ayarlar ve Abonelik ekranlarında netlik için metin ve etiketler güncellendi."
+    }
+  ],
+  "patches": [
+    {
+      "version": "1.17.1",
+      "description": "Araç çubuğu animasyonu düzeltmeleri"
+    },
+    {
+      "version": "1.17.2",
+      "description": "Metin ve etiket iyileştirmeleri"
+    }
+  ],
   "meta_title": "Verilerinizi PDF veya CSV olarak dışa aktarın - Frames",
   "meta_description": "Çekim verilerinizi yazdırma için PDF, elektronik tablolar için CSV veya GPS koordinatlı metin olarak dışa aktarın. Tüm formatlar RTL dillerini destekler."
 }

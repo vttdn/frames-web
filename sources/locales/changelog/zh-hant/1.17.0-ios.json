@@ -66,8 +66,26 @@
     "新增CSV匯出功能，可將畫格資料匯入Excel、Google試算表和其他試算表軟體",
     "改進文字匯出，包含GPS座標和更清晰的表格版面"
   ],
-  "fixes": [],
-  "patches": [],
+  "fixes": [
+    {
+      "title": "工具列動畫",
+      "description": "在 iOS 26.2 版本發布後，恢復了 iOS 26 上流暢的工具列動畫。"
+    },
+    {
+      "title": "文字與標籤",
+      "description": "更新了設定和訂閱頁面的文字與標籤，使其更加清晰易懂。"
+    }
+  ],
+  "patches": [
+    {
+      "version": "1.17.1",
+      "description": "工具列動畫修復"
+    },
+    {
+      "version": "1.17.2",
+      "description": "文字與標籤調整"
+    }
+  ],
   "meta_title": "將拍攝資料匯出為PDF或CSV - Frames",
   "meta_description": "將拍攝資料匯出為列印用PDF、試算表用CSV或帶GPS座標的文字。所有格式均支援RTL語言。"
 }

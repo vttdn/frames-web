@@ -66,8 +66,26 @@
     "CSV-export toegevoegd voor het importeren van filmframe-gegevens in Excel, Google Sheets en andere spreadsheetsoftware",
     "Verbeterde tekstexport met GPS-coördinaten en een overzichtelijker tabelformaat"
   ],
-  "fixes": [],
-  "patches": [],
+  "fixes": [
+    {
+      "title": "Werkbalk-animatie",
+      "description": "Vloeiende werkbalk-animatie hersteld op iOS 26 na versie 26.2."
+    },
+    {
+      "title": "Teksten en labels",
+      "description": "Teksten en labels bijgewerkt voor meer duidelijkheid in de Instellingen- en Abonnement-schermen."
+    }
+  ],
+  "patches": [
+    {
+      "version": "1.17.1",
+      "description": "Correcties voor werkbalk-animatie"
+    },
+    {
+      "version": "1.17.2",
+      "description": "Aanpassingen aan teksten en labels"
+    }
+  ],
   "meta_title": "Exporteer je gegevens als PDF of CSV - Frames",
   "meta_description": "Exporteer je opnamegegevens als PDF om af te drukken, CSV voor spreadsheets, of tekst met GPS-coördinaten. Alle formaten ondersteunen RTL-talen."
 }

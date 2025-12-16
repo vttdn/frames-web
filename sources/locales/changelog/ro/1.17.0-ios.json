@@ -66,8 +66,26 @@
     "Adăugat export CSV pentru importul datelor cadrelor în Excel, Google Sheets și alte foi de calcul",
     "Export text îmbunătățit cu coordonate GPS și aspect tabelar mai clar"
   ],
-  "fixes": [],
-  "patches": [],
+  "fixes": [
+    {
+      "title": "Animația barei de instrumente",
+      "description": "Restaurată animația fluidă a barei de instrumente pe iOS 26 după versiunea 26.2."
+    },
+    {
+      "title": "Texte și etichete",
+      "description": "Texte și etichete actualizate pentru mai multă claritate în ecranele Setări și Abonament."
+    }
+  ],
+  "patches": [
+    {
+      "version": "1.17.1",
+      "description": "Corecții pentru animația barei de instrumente"
+    },
+    {
+      "version": "1.17.2",
+      "description": "Ajustări ale textelor și etichetelor"
+    }
+  ],
   "meta_title": "Exportă datele tale ca PDF sau CSV - Frames",
   "meta_description": "Exportă datele de fotografiere ca PDF pentru tipărire, CSV pentru foi de calcul sau text cu coordonate GPS. Toate formatele acceptă limbile RTL."
 }

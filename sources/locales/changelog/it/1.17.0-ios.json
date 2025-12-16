@@ -66,8 +66,26 @@
     "Aggiunta esportazione CSV per importare i dati dei fotogrammi in Excel, Google Sheets e altri fogli di calcolo",
     "Esportazione testo migliorata con coordinate GPS e layout tabulare più chiaro"
   ],
-  "fixes": [],
-  "patches": [],
+  "fixes": [
+    {
+      "title": "Animazione della barra degli strumenti",
+      "description": "Ripristinata l'animazione fluida della barra degli strumenti su iOS 26 in seguito alla versione 26.2."
+    },
+    {
+      "title": "Testi ed etichette",
+      "description": "Aggiornati testi ed etichette per maggiore chiarezza nelle schermate Impostazioni e Abbonamento."
+    }
+  ],
+  "patches": [
+    {
+      "version": "1.17.1",
+      "description": "Correzioni all'animazione della barra degli strumenti"
+    },
+    {
+      "version": "1.17.2",
+      "description": "Modifiche a testi ed etichette"
+    }
+  ],
   "meta_title": "Esporta i tuoi dati in PDF o CSV - Frames",
   "meta_description": "Esporta i dati di scatto come PDF per la stampa, CSV per fogli di calcolo, o testo con coordinate GPS. Tutti i formati supportano le lingue RTL."
 }

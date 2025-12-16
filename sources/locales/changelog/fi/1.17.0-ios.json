@@ -66,8 +66,26 @@
     "Lisätty CSV-vienti kehystietojen tuomiseen Exceliin, Google Sheetsiin ja muihin taulukkolaskentaohjelmiin",
     "Parannettu tekstivienti GPS-koordinaateilla ja selkeämmällä taulukkoasettelulla"
   ],
-  "fixes": [],
-  "patches": [],
+  "fixes": [
+    {
+      "title": "Työkalupalkin animaatio",
+      "description": "Palautettu sulava työkalupalkin animaatio iOS 26:ssa version 26.2 jälkeen."
+    },
+    {
+      "title": "Tekstit ja tunnisteet",
+      "description": "Päivitetty tekstejä ja tunnisteita selkeyttämään Asetukset- ja Tilaus-näkymiä."
+    }
+  ],
+  "patches": [
+    {
+      "version": "1.17.1",
+      "description": "Työkalupalkin animaation korjaukset"
+    },
+    {
+      "version": "1.17.2",
+      "description": "Tekstien ja tunnisteiden säädöt"
+    }
+  ],
   "meta_title": "Vie tietosi PDF- tai CSV-muodossa - Frames",
   "meta_description": "Vie kuvaustietosi PDF-muodossa tulostusta varten, CSV-muodossa taulukkolaskentaan tai tekstinä GPS-koordinaateilla. Kaikki muodot tukevat RTL-kieliä."
 }

@@ -66,8 +66,26 @@
     "Lagt till CSV-export för att importera rutdata i Excel, Google Kalkylark och andra kalkylarksprogram",
     "Förbättrad textexport med GPS-koordinater och en renare tabelllayout"
   ],
-  "fixes": [],
-  "patches": [],
+  "fixes": [
+    {
+      "title": "Animation av verktygsfältet",
+      "description": "Återställd mjuk animation av verktygsfältet på iOS 26 efter version 26.2."
+    },
+    {
+      "title": "Texter och etiketter",
+      "description": "Uppdaterade texter och etiketter för tydligare Inställningar- och Prenumerationsskärmar."
+    }
+  ],
+  "patches": [
+    {
+      "version": "1.17.1",
+      "description": "Korrigeringar av verktygsfältanimation"
+    },
+    {
+      "version": "1.17.2",
+      "description": "Justeringar av texter och etiketter"
+    }
+  ],
   "meta_title": "Exportera dina data som PDF eller CSV - Frames",
   "meta_description": "Exportera dina fotograferingsdata som PDF för utskrift, CSV för kalkylark eller text med GPS-koordinater. Alla format stöder RTL-språk."
 }

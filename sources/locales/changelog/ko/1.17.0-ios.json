@@ -66,8 +66,26 @@
     "Excel, Google 스프레드시트 등에 프레임 데이터를 가져오는 CSV 내보내기 추가",
     "GPS 좌표와 더 깔끔한 표 레이아웃을 갖춘 텍스트 내보내기 개선"
   ],
-  "fixes": [],
-  "patches": [],
+  "fixes": [
+    {
+      "title": "툴바 애니메이션",
+      "description": "iOS 26.2 출시에 따라 iOS 26에서 부드러운 툴바 애니메이션을 복원했습니다."
+    },
+    {
+      "title": "텍스트 및 레이블",
+      "description": "설정 및 구독 화면의 명확성을 위해 텍스트와 레이블을 업데이트했습니다."
+    }
+  ],
+  "patches": [
+    {
+      "version": "1.17.1",
+      "description": "툴바 애니메이션 수정"
+    },
+    {
+      "version": "1.17.2",
+      "description": "텍스트 및 레이블 조정"
+    }
+  ],
   "meta_title": "촬영 데이터를 PDF 또는 CSV로 내보내기 - Frames",
   "meta_description": "촬영 데이터를 인쇄용 PDF, 스프레드시트용 CSV, GPS 좌표가 포함된 텍스트로 내보내기. 모든 형식이 RTL 언어를 지원합니다."
 }

@@ -66,8 +66,26 @@
     "新增CSV导出功能，可将帧数据导入Excel、Google表格和其他电子表格软件",
     "改进文本导出，包含GPS坐标和更清晰的表格布局"
   ],
-  "fixes": [],
-  "patches": [],
+  "fixes": [
+    {
+      "title": "工具栏动画",
+      "description": "在iOS 26.2版本发布后，恢复了iOS 26上流畅的工具栏动画。"
+    },
+    {
+      "title": "文字与标签",
+      "description": "更新了设置和订阅页面的文字与标签，使其更加清晰易懂。"
+    }
+  ],
+  "patches": [
+    {
+      "version": "1.17.1",
+      "description": "工具栏动画修复"
+    },
+    {
+      "version": "1.17.2",
+      "description": "文字与标签调整"
+    }
+  ],
   "meta_title": "将拍摄数据导出为PDF或CSV - Frames",
   "meta_description": "将拍摄数据导出为打印用PDF、电子表格用CSV或带GPS坐标的文本。所有格式均支持RTL语言。"
 }

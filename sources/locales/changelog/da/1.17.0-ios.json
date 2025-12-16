@@ -66,8 +66,26 @@
     "Tilføjet CSV-eksport til at importere rammedata i Excel, Google Sheets og andre regnearksprogrammer",
     "Forbedret teksteksport med GPS-koordinater og et renere tabellayout"
   ],
-  "fixes": [],
-  "patches": [],
+  "fixes": [
+    {
+      "title": "Værktøjslinjeanimation",
+      "description": "Genskabt jævn værktøjslinjeanimation på iOS 26 efter version 26.2."
+    },
+    {
+      "title": "Tekst og labels",
+      "description": "Opdateret tekst og labels for bedre klarhed på Indstillinger- og Abonnement-skærmene."
+    }
+  ],
+  "patches": [
+    {
+      "version": "1.17.1",
+      "description": "Rettelser af værktøjslinjeanimation"
+    },
+    {
+      "version": "1.17.2",
+      "description": "Justeringer af tekst og labels"
+    }
+  ],
   "meta_title": "Eksportér dine data som PDF eller CSV - Frames",
   "meta_description": "Eksportér dine optagelsesdata som PDF til print, CSV til regneark eller tekst med GPS-koordinater. Alle formater understøtter RTL-sprog."
 }

@@ -66,8 +66,26 @@
     "Added CSV export for importing frame data into Excel, Google Sheets, and other spreadsheet software",
     "Improved text export with GPS coordinates and a cleaner tabular layout"
   ],
-  "fixes": [],
-  "patches": [],
+  "fixes": [
+    {
+      "title": "Toolbar animation",
+      "description": "Restored smooth toolbar animation on iOS 26 following the 26.2 release candidate."
+    },
+    {
+      "title": "Text & Labels",
+      "description": "Updated text and labels for clarity on the Settings and Subscription screens."
+    }
+  ],
+  "patches": [
+    {
+      "version": "1.17.1",
+      "description": "Toolbar animation fixes"
+    },
+    {
+      "version": "1.17.2",
+      "description": "Text and label tweaks"
+    }
+  ],
   "meta_title": "Export Your Data as PDF or Spreadsheet - Frames",
   "meta_description": "Export your shooting data as PDF documents for printing, CSV files for spreadsheets, or improved text format with GPS coordinates. All formats support right-to-left languages."
 }

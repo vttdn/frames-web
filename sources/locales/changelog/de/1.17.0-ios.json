@@ -66,8 +66,26 @@
     "CSV-Export zum Importieren von Einzelbild-Daten in Excel, Google Sheets und andere Tabellenkalkulationen hinzugefügt",
     "Verbesserter Textexport mit GPS-Koordinaten und übersichtlicherem Tabellenlayout"
   ],
-  "fixes": [],
-  "patches": [],
+  "fixes": [
+    {
+      "title": "Symbolleisten-Animation",
+      "description": "Wiederherstellung der flüssigen Symbolleisten-Animation unter iOS 26 nach Version 26.2."
+    },
+    {
+      "title": "Texte & Beschriftungen",
+      "description": "Texte und Beschriftungen in den Einstellungen und im Abonnement-Bildschirm für mehr Klarheit aktualisiert."
+    }
+  ],
+  "patches": [
+    {
+      "version": "1.17.1",
+      "description": "Korrekturen der Symbolleisten-Animation"
+    },
+    {
+      "version": "1.17.2",
+      "description": "Anpassungen bei Texten und Beschriftungen"
+    }
+  ],
   "meta_title": "Exportiere deine Daten als PDF oder CSV - Frames",
   "meta_description": "Exportiere deine Aufnahmedaten als PDF zum Drucken, CSV für Tabellenkalkulationen oder Text mit GPS-Koordinaten. Alle Formate unterstützen RTL-Sprachen."
 }

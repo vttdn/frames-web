@@ -66,8 +66,26 @@
     "Ajout de l'export CSV pour importer vos données dans Excel, Google Sheets et autres tableurs",
     "Export texte amélioré avec coordonnées GPS et mise en page tabulaire plus claire"
   ],
-  "fixes": [],
-  "patches": [],
+  "fixes": [
+    {
+      "title": "Animation de la barre d'outils",
+      "description": "Restauration de l'animation fluide de la barre d'outils sur iOS 26 suite à la version 26.2."
+    },
+    {
+      "title": "Textes et libellés",
+      "description": "Mise à jour des textes et libellés pour plus de clarté dans les écrans Réglages et Abonnement."
+    }
+  ],
+  "patches": [
+    {
+      "version": "1.17.1",
+      "description": "Correctifs d'animation de la barre d'outils"
+    },
+    {
+      "version": "1.17.2",
+      "description": "Ajustements des textes et libellés"
+    }
+  ],
   "meta_title": "Exportez vos données en PDF ou CSV - Frames",
   "meta_description": "Exportez vos données de prise de vue en PDF pour l'impression, en CSV pour tableur, ou en texte avec coordonnées GPS. Tous les formats supportent les langues RTL."
 }

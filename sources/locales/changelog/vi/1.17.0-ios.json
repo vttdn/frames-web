@@ -66,8 +66,26 @@
     "Thêm xuất CSV để nhập dữ liệu khung hình vào Excel, Google Sheets và phần mềm bảng tính khác",
     "Cải tiến xuất văn bản với tọa độ GPS và bố cục bảng gọn gàng hơn"
   ],
-  "fixes": [],
-  "patches": [],
+  "fixes": [
+    {
+      "title": "Hiệu ứng thanh công cụ",
+      "description": "Khôi phục hiệu ứng thanh công cụ mượt mà trên iOS 26 sau bản cập nhật 26.2."
+    },
+    {
+      "title": "Văn bản và nhãn",
+      "description": "Cập nhật văn bản và nhãn để rõ ràng hơn trên màn hình Cài đặt và Đăng ký."
+    }
+  ],
+  "patches": [
+    {
+      "version": "1.17.1",
+      "description": "Sửa lỗi hiệu ứng thanh công cụ"
+    },
+    {
+      "version": "1.17.2",
+      "description": "Điều chỉnh văn bản và nhãn"
+    }
+  ],
   "meta_title": "Xuất dữ liệu dưới dạng PDF hoặc CSV - Frames",
   "meta_description": "Xuất dữ liệu chụp ảnh dưới dạng PDF để in, CSV cho bảng tính, hoặc văn bản với tọa độ GPS. Tất cả định dạng hỗ trợ ngôn ngữ RTL."
 }
