@@ -64,7 +64,18 @@
   "improvements": [
     "Lisätty PDF-vienti tulostusvalmiiden dokumenttien luomiseen negatiivien kanssa säilytettäväksi",
     "Lisätty CSV-vienti kehystietojen tuomiseen Exceliin, Google Sheetsiin ja muihin taulukkolaskentaohjelmiin",
-    "Parannettu tekstivienti GPS-koordinaateilla ja selkeämmällä taulukkoasettelulla"
+    "Parannettu tekstivienti GPS-koordinaateilla ja selkeämmällä taulukkoasettelulla",
+    "Päivitetty tervetulonäkymä",
+    "Parannettu esteettömyys VoiceOver- ja ääniohjaustuella",
+    "Lisätty tuki iOS 17:lle",
+    "Laajennetut oletusaukkoarvot f/128 asti suurformaattiobjektiiveille",
+    "Parannettu työkalupalkin suorituskyky ja animaatiot",
+    "Lisätty pyyhkäisytoiminnot filmien siirtämiseen roskakorissa",
+    "Lisätty valintalaskuri työskenneltäessä filmien kanssa kansiossa",
+    "Vientipainike nyt aina näkyvissä helpompaa käyttöä varten",
+    "Lisätty navigointitekstitykset parempaan kontekstiin iOS 26:ssa",
+    "Lisätty hakukenttä kirjastoon iOS 17:ssä ja iOS 18:ssa",
+    "Lisätty tuki negatiivisille kehysnumeroille"
   ],
   "fixes": [
     {
@@ -74,6 +85,30 @@
     {
       "title": "Tekstit ja tunnisteet",
       "description": "Päivitetty tekstejä ja tunnisteita selkeyttämään Asetukset- ja Tilaus-näkymiä."
+    },
+    {
+      "title": "Valitsinarvot",
+      "description": "Valitsinarvot eivät päivittyneet mukautetuille aukko- ja suljinaika-sekvensseille."
+    },
+    {
+      "title": "Filmilaskuri kansioissa",
+      "description": "Filmilaskuri kansioissa ei päivittynyt oikein poistojen jälkeen."
+    },
+    {
+      "title": "Pyyhkäise poistaaksesi",
+      "description": "Pyyhkäise poistaaksesi lakkasi vastaamasta tallentimen käytön jälkeen."
+    },
+    {
+      "title": "Vahvistusikkunat",
+      "description": "Vahvistusikkunat ilmestyivät väärään paikkaan kehyksiä tai kansioita poistettaessa."
+    },
+    {
+      "title": "Kartan sijainti",
+      "description": "Kartan sijaintiongelmat korjattu."
+    },
+    {
+      "title": "Kansioiden lajittelu",
+      "description": "Kansioiden lajittelu aloitusnäkymässä korjattu."
     }
   ],
   "patches": [
@@ -84,6 +119,34 @@
     {
       "version": "1.17.2",
       "description": "Tekstien ja tunnisteiden säädöt"
+    },
+    {
+      "version": "1.17.3",
+      "description": "Suorituskyvyn, tervetulonäkymän ja esteettömyyden parannukset"
+    },
+    {
+      "version": "1.17.4",
+      "description": "iOS 17 -tuki ja parannettu työkalupalkki laajennetuilla aukkoarvoilla"
+    },
+    {
+      "version": "1.17.5",
+      "description": "Bugikorjaukset kansiolaskureihin, pyyhkäisytoimintoihin ja kartan sijaintiin"
+    },
+    {
+      "version": "1.17.6",
+      "description": "Kansioiden lajittelu, valintalaskurit ja vientiparannukset"
+    },
+    {
+      "version": "1.17.7",
+      "description": "Navigointitekstitykset ja hakukenttä kirjastossa"
+    },
+    {
+      "version": "1.17.8",
+      "description": "Tuki negatiivisille kehysnumeroille"
+    },
+    {
+      "version": "1.17.9",
+      "description": "Pienet käyttöliittymäkorjaukset ja parannukset"
     }
   ],
   "meta_title": "Vie tietosi PDF- tai CSV-muodossa - Frames",

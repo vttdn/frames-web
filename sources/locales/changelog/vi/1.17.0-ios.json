@@ -64,7 +64,18 @@
   "improvements": [
     "Thêm xuất PDF để tạo tài liệu sẵn sàng in để lưu trữ cùng với phim âm bản của bạn",
     "Thêm xuất CSV để nhập dữ liệu khung hình vào Excel, Google Sheets và phần mềm bảng tính khác",
-    "Cải tiến xuất văn bản với tọa độ GPS và bố cục bảng gọn gàng hơn"
+    "Cải tiến xuất văn bản với tọa độ GPS và bố cục bảng gọn gàng hơn",
+    "Cập nhật màn hình chào mừng",
+    "Cải thiện khả năng tiếp cận với hỗ trợ VoiceOver và Điều khiển giọng nói",
+    "Thêm hỗ trợ iOS 17",
+    "Mở rộng giá trị khẩu độ mặc định đến f/128 cho ống kính khổ lớn",
+    "Cải thiện hiệu suất và hoạt ảnh thanh công cụ",
+    "Thêm thao tác vuốt để di chuyển phim trong Thùng rác",
+    "Thêm bộ đếm lựa chọn khi làm việc với phim trong thư mục",
+    "Nút xuất giờ luôn hiển thị để truy cập dễ dàng hơn",
+    "Thêm phụ đề điều hướng để có ngữ cảnh tốt hơn trên iOS 26",
+    "Thêm trường tìm kiếm Thư viện trên iOS 17 và iOS 18",
+    "Thêm hỗ trợ số khung hình âm"
   ],
   "fixes": [
     {
@@ -74,6 +85,30 @@
     {
       "title": "Văn bản và nhãn",
       "description": "Cập nhật văn bản và nhãn để rõ ràng hơn trên màn hình Cài đặt và Đăng ký."
+    },
+    {
+      "title": "Giá trị bộ chọn",
+      "description": "Giá trị bộ chọn không cập nhật cho chuỗi khẩu độ và tốc độ màn trập tùy chỉnh."
+    },
+    {
+      "title": "Số lượng phim trong thư mục",
+      "description": "Số lượng phim trong thư mục không cập nhật đúng sau khi xóa."
+    },
+    {
+      "title": "Vuốt để xóa",
+      "description": "Vuốt để xóa ngừng phản hồi sau khi sử dụng trình ghi."
+    },
+    {
+      "title": "Cửa sổ xác nhận",
+      "description": "Cửa sổ xác nhận xuất hiện ở vị trí sai khi xóa khung hình hoặc thư mục."
+    },
+    {
+      "title": "Vị trí bản đồ",
+      "description": "Đã sửa các vấn đề về vị trí bản đồ."
+    },
+    {
+      "title": "Sắp xếp thư mục",
+      "description": "Đã sửa việc sắp xếp thư mục trên màn hình Chính."
     }
   ],
   "patches": [
@@ -84,6 +119,34 @@
     {
       "version": "1.17.2",
       "description": "Điều chỉnh văn bản và nhãn"
+    },
+    {
+      "version": "1.17.3",
+      "description": "Cải thiện hiệu suất, màn hình chào mừng và khả năng tiếp cận"
+    },
+    {
+      "version": "1.17.4",
+      "description": "Hỗ trợ iOS 17 và thanh công cụ được cải thiện với giá trị khẩu độ mở rộng"
+    },
+    {
+      "version": "1.17.5",
+      "description": "Sửa lỗi cho số lượng thư mục, thao tác vuốt và định vị bản đồ"
+    },
+    {
+      "version": "1.17.6",
+      "description": "Sắp xếp thư mục, bộ đếm lựa chọn và cải tiến xuất"
+    },
+    {
+      "version": "1.17.7",
+      "description": "Phụ đề điều hướng và trường tìm kiếm Thư viện"
+    },
+    {
+      "version": "1.17.8",
+      "description": "Hỗ trợ số khung hình âm"
+    },
+    {
+      "version": "1.17.9",
+      "description": "Sửa lỗi UI nhỏ và cải tiến"
     }
   ],
   "meta_title": "Xuất dữ liệu dưới dạng PDF hoặc CSV - Frames",

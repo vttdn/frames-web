@@ -64,7 +64,18 @@
   "improvements": [
     "Lagt til PDF-eksport for å opprette utskriftsklare dokumenter til oppbevaring med negativene dine",
     "Lagt til CSV-eksport for å importere rammedata i Excel, Google Regneark og andre regnearksprogrammer",
-    "Forbedret teksteksport med GPS-koordinater og et renere tabelloppsett"
+    "Forbedret teksteksport med GPS-koordinater og et renere tabelloppsett",
+    "Oppdatert velkomstskjerm",
+    "Forbedret tilgjengelighet med støtte for VoiceOver og stemmekontroll",
+    "Lagt til støtte for iOS 17",
+    "Utvidet standard blenderåpningsverdier opp til f/128 for storformatsobjektiver",
+    "Forbedret ytelse og animasjoner i verktøylinjen",
+    "Lagt til sveipehandlinger for å flytte filmer i papirkurven",
+    "Lagt til utvalgsteller ved arbeid med filmer i en mappe",
+    "Eksportknapp nå alltid synlig for enklere tilgang",
+    "Lagt til navigasjonsundertekster for bedre kontekst på iOS 26",
+    "Lagt til søkefelt i biblioteket på iOS 17 og iOS 18",
+    "Lagt til støtte for negative rammenumre"
   ],
   "fixes": [
     {
@@ -74,6 +85,30 @@
     {
       "title": "Tekst og etiketter",
       "description": "Oppdatert tekst og etiketter for bedre tydelighet på Innstillinger- og Abonnement-skjermene."
+    },
+    {
+      "title": "Valgverdier",
+      "description": "Valgverdier ble ikke oppdatert for egendefinerte blenderåpnings- og lukkertidssekvenser."
+    },
+    {
+      "title": "Filmteller i mapper",
+      "description": "Filmteller i mapper ble ikke oppdatert riktig etter slettinger."
+    },
+    {
+      "title": "Sveip for å slette",
+      "description": "Sveip for å slette sluttet å reagere etter bruk av opptakeren."
+    },
+    {
+      "title": "Bekreftelsesvindu",
+      "description": "Bekreftelsesvindu dukket opp i feil posisjon ved sletting av rammer eller mapper."
+    },
+    {
+      "title": "Kartposisjon",
+      "description": "Problemer med kartposisjon rettet."
+    },
+    {
+      "title": "Mappesortering",
+      "description": "Mappesortering på startskjermen rettet."
     }
   ],
   "patches": [
@@ -84,6 +119,34 @@
     {
       "version": "1.17.2",
       "description": "Justeringer av tekst og etiketter"
+    },
+    {
+      "version": "1.17.3",
+      "description": "Forbedringer av ytelse, velkomstskjerm og tilgjengelighet"
+    },
+    {
+      "version": "1.17.4",
+      "description": "iOS 17-støtte og forbedret verktøylinje med utvidede blenderåpningsverdier"
+    },
+    {
+      "version": "1.17.5",
+      "description": "Feilrettinger for mappetellere, sveipehandlinger og kartposisjonering"
+    },
+    {
+      "version": "1.17.6",
+      "description": "Mappesortering, utvalgstellere og eksportforbedringer"
+    },
+    {
+      "version": "1.17.7",
+      "description": "Navigasjonsundertekster og søkefelt i biblioteket"
+    },
+    {
+      "version": "1.17.8",
+      "description": "Støtte for negative rammenumre"
+    },
+    {
+      "version": "1.17.9",
+      "description": "Mindre UI-rettelser og forbedringer"
     }
   ],
   "meta_title": "Eksporter dataene dine som PDF eller CSV - Frames",

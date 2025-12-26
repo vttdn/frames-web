@@ -64,7 +64,18 @@
   "improvements": [
     "Negatiflerinizle birlikte saklamak için yazdırmaya hazır belgeler oluşturan PDF dışa aktarma eklendi",
     "Excel, Google E-Tablolar ve diğer elektronik tablo yazılımlarına kare verilerini içe aktarmak için CSV dışa aktarma eklendi",
-    "GPS koordinatları ve daha temiz tablo düzeniyle geliştirilmiş metin dışa aktarma"
+    "GPS koordinatları ve daha temiz tablo düzeniyle geliştirilmiş metin dışa aktarma",
+    "Karşılama ekranı güncellendi",
+    "VoiceOver ve Ses Kontrolü desteğiyle geliştirilmiş erişilebilirlik",
+    "iOS 17 desteği eklendi",
+    "Büyük format objektifler için varsayılan diyafram değerleri f/128'e kadar genişletildi",
+    "Araç çubuğu performansı ve animasyonları iyileştirildi",
+    "Çöp kutusundaki filmleri taşımak için kaydırma eylemleri eklendi",
+    "Klasördeki filmlerle çalışırken seçim sayacı eklendi",
+    "Dışa aktarma düğmesi artık kolay erişim için her zaman görünür",
+    "iOS 26'da daha iyi bağlam için gezinme alt yazıları eklendi",
+    "iOS 17 ve iOS 18'de kütüphane arama alanı eklendi",
+    "Negatif kare numaraları desteği eklendi"
   ],
   "fixes": [
     {
@@ -74,6 +85,30 @@
     {
       "title": "Metin ve etiketler",
       "description": "Ayarlar ve Abonelik ekranlarında netlik için metin ve etiketler güncellendi."
+    },
+    {
+      "title": "Seçici değerleri",
+      "description": "Özel diyafram ve enstantane hızı dizileri için seçici değerlerinin güncellenmeme sorunu düzeltildi."
+    },
+    {
+      "title": "Klasör film sayıları",
+      "description": "Silme işlemlerinden sonra klasör film sayılarının doğru güncellenmeme sorunu düzeltildi."
+    },
+    {
+      "title": "Kaydırarak silme",
+      "description": "Kaydediciyi kullandıktan sonra kaydırarak silmenin yanıt vermemesi sorunu düzeltildi."
+    },
+    {
+      "title": "Onay açılır pencereleri",
+      "description": "Kare veya klasör silerken onay açılır pencerelerinin yanlış konumda görünmesi sorunu düzeltildi."
+    },
+    {
+      "title": "Harita konumu",
+      "description": "Harita konumu sorunları düzeltildi."
+    },
+    {
+      "title": "Klasör sıralaması",
+      "description": "Ana ekrandaki klasör sıralaması düzeltildi."
     }
   ],
   "patches": [
@@ -84,6 +119,34 @@
     {
       "version": "1.17.2",
       "description": "Metin ve etiket iyileştirmeleri"
+    },
+    {
+      "version": "1.17.3",
+      "description": "Performans, karşılama ekranı ve erişilebilirlik iyileştirmeleri"
+    },
+    {
+      "version": "1.17.4",
+      "description": "iOS 17 desteği ve genişletilmiş diyafram değerleriyle geliştirilmiş araç çubuğu"
+    },
+    {
+      "version": "1.17.5",
+      "description": "Klasör sayıları, kaydırma eylemleri ve harita konumlandırma hata düzeltmeleri"
+    },
+    {
+      "version": "1.17.6",
+      "description": "Klasör sıralaması, seçim sayaçları ve dışa aktarma iyileştirmeleri"
+    },
+    {
+      "version": "1.17.7",
+      "description": "Gezinme alt yazıları ve kütüphane arama alanı"
+    },
+    {
+      "version": "1.17.8",
+      "description": "Negatif kare numaraları desteği"
+    },
+    {
+      "version": "1.17.9",
+      "description": "Küçük arayüz düzeltmeleri ve iyileştirmeler"
     }
   ],
   "meta_title": "Verilerinizi PDF veya CSV olarak dışa aktarın - Frames",

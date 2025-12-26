@@ -64,7 +64,18 @@
   "improvements": [
     "Aggiunta esportazione PDF per creare documenti pronti da stampare da conservare con i negativi",
     "Aggiunta esportazione CSV per importare i dati dei fotogrammi in Excel, Google Sheets e altri fogli di calcolo",
-    "Esportazione testo migliorata con coordinate GPS e layout tabulare più chiaro"
+    "Esportazione testo migliorata con coordinate GPS e layout tabulare più chiaro",
+    "Schermata di benvenuto aggiornata",
+    "Accessibilità migliorata con supporto VoiceOver e Controllo vocale",
+    "Aggiunto supporto per iOS 17",
+    "Valori di apertura predefiniti estesi fino a f/128 per obiettivi di grande formato",
+    "Prestazioni e animazioni della barra degli strumenti migliorate",
+    "Aggiunte azioni di scorrimento per spostare i rullini nel cestino",
+    "Aggiunto contatore di selezione quando si lavora con rullini in una cartella",
+    "Pulsante di esportazione ora sempre visibile per un accesso più facile",
+    "Aggiunti sottotitoli di navigazione per un contesto migliore su iOS 26",
+    "Aggiunto campo di ricerca nella libreria su iOS 17 e iOS 18",
+    "Aggiunto supporto per numeri di fotogramma negativi"
   ],
   "fixes": [
     {
@@ -74,6 +85,30 @@
     {
       "title": "Testi ed etichette",
       "description": "Aggiornati testi ed etichette per maggiore chiarezza nelle schermate Impostazioni e Abbonamento."
+    },
+    {
+      "title": "Valori del selettore",
+      "description": "Corretti i valori del selettore che non si aggiornavano per le sequenze personalizzate di apertura e tempo di posa."
+    },
+    {
+      "title": "Contatore rullini nelle cartelle",
+      "description": "Corretto il contatore dei rullini nelle cartelle che non si aggiornava correttamente dopo le eliminazioni."
+    },
+    {
+      "title": "Scorri per eliminare",
+      "description": "Corretto il problema dello scorrimento per eliminare che smetteva di rispondere dopo l'uso del registratore."
+    },
+    {
+      "title": "Finestre di conferma",
+      "description": "Corrette le finestre di conferma che apparivano nella posizione sbagliata durante l'eliminazione di fotogrammi o cartelle."
+    },
+    {
+      "title": "Posizione della mappa",
+      "description": "Corretti problemi di posizione della mappa."
+    },
+    {
+      "title": "Ordinamento delle cartelle",
+      "description": "Corretto l'ordinamento delle cartelle nella schermata principale."
     }
   ],
   "patches": [
@@ -84,6 +119,34 @@
     {
       "version": "1.17.2",
       "description": "Modifiche a testi ed etichette"
+    },
+    {
+      "version": "1.17.3",
+      "description": "Miglioramenti a prestazioni, schermata di benvenuto e accessibilità"
+    },
+    {
+      "version": "1.17.4",
+      "description": "Supporto iOS 17 e barra degli strumenti migliorata con valori di apertura estesi"
+    },
+    {
+      "version": "1.17.5",
+      "description": "Correzioni per contatori cartelle, azioni di scorrimento e posizionamento mappa"
+    },
+    {
+      "version": "1.17.6",
+      "description": "Ordinamento cartelle, contatori di selezione e miglioramenti all'esportazione"
+    },
+    {
+      "version": "1.17.7",
+      "description": "Sottotitoli di navigazione e campo di ricerca nella libreria"
+    },
+    {
+      "version": "1.17.8",
+      "description": "Supporto per numeri di fotogramma negativi"
+    },
+    {
+      "version": "1.17.9",
+      "description": "Correzioni minori dell'interfaccia e miglioramenti"
     }
   ],
   "meta_title": "Esporta i tuoi dati in PDF o CSV - Frames",

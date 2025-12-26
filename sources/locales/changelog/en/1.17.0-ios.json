@@ -64,7 +64,18 @@
   "improvements": [
     "Added PDF export for creating print-ready documents to store with your negatives",
     "Added CSV export for importing frame data into Excel, Google Sheets, and other spreadsheet software",
-    "Improved text export with GPS coordinates and a cleaner tabular layout"
+    "Improved text export with GPS coordinates and a cleaner tabular layout",
+    "Updated welcome screen",
+    "Improved accessibility with VoiceOver and Voice Control support",
+    "Added support for iOS 17",
+    "Expanded default aperture values up to f/128 for large format lenses",
+    "Improved toolbar performance and animations",
+    "Added swipe-to-move actions for films in the Trash",
+    "Added selection count when working with films inside a folder",
+    "Export button is now permanently visible for easier access",
+    "Added navigation subtitles for improved context on iOS 26",
+    "Added Library search field on iOS 17 and iOS 18",
+    "Added support for negative frame numbers"
   ],
   "fixes": [
     {
@@ -74,6 +85,30 @@
     {
       "title": "Text & Labels",
       "description": "Updated text and labels for clarity on the Settings and Subscription screens."
+    },
+    {
+      "title": "Picker values",
+      "description": "Fixed picker values not updating for custom aperture and shutter speed sequences."
+    },
+    {
+      "title": "Folder film counts",
+      "description": "Fixed folder film counts not updating correctly after deletions."
+    },
+    {
+      "title": "Swipe-to-delete",
+      "description": "Fixed swipe-to-delete stopping to respond after using the recorder."
+    },
+    {
+      "title": "Confirmation popups",
+      "description": "Fixed confirmation popups appearing in the wrong position when deleting frames or folders."
+    },
+    {
+      "title": "Map position",
+      "description": "Fixed map position issues."
+    },
+    {
+      "title": "Folder sorting",
+      "description": "Fixed folder sorting on the Home screen."
     }
   ],
   "patches": [
@@ -84,6 +119,34 @@
     {
       "version": "1.17.2",
       "description": "Text and label tweaks"
+    },
+    {
+      "version": "1.17.3",
+      "description": "Performance, welcome screen, and accessibility improvements"
+    },
+    {
+      "version": "1.17.4",
+      "description": "iOS 17 support and improved toolbar with expanded aperture values"
+    },
+    {
+      "version": "1.17.5",
+      "description": "Bug fixes for folder counts, swipe actions, and map positioning"
+    },
+    {
+      "version": "1.17.6",
+      "description": "Folder sorting, selection counts, and export improvements"
+    },
+    {
+      "version": "1.17.7",
+      "description": "Navigation subtitles and Library search field"
+    },
+    {
+      "version": "1.17.8",
+      "description": "Support for negative frame numbers"
+    },
+    {
+      "version": "1.17.9",
+      "description": "Minor UI fixes and improvements"
     }
   ],
   "meta_title": "Export Your Data as PDF or Spreadsheet - Frames",

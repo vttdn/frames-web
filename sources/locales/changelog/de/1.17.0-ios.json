@@ -64,7 +64,18 @@
   "improvements": [
     "PDF-Export zum Erstellen druckfertiger Dokumente zur Aufbewahrung mit deinen Negativen hinzugefügt",
     "CSV-Export zum Importieren von Einzelbild-Daten in Excel, Google Sheets und andere Tabellenkalkulationen hinzugefügt",
-    "Verbesserter Textexport mit GPS-Koordinaten und übersichtlicherem Tabellenlayout"
+    "Verbesserter Textexport mit GPS-Koordinaten und übersichtlicherem Tabellenlayout",
+    "Aktualisierter Willkommensbildschirm",
+    "Verbesserte Bedienungshilfen mit VoiceOver- und Sprachsteuerungsunterstützung",
+    "Unterstützung für iOS 17 hinzugefügt",
+    "Standard-Blendenwerte bis f/128 für Großformatobjektive erweitert",
+    "Verbesserte Symbolleisten-Leistung und Animationen",
+    "Wischaktionen zum Verschieben von Filmen im Papierkorb hinzugefügt",
+    "Auswahlzähler bei der Arbeit mit Filmen in einem Ordner hinzugefügt",
+    "Export-Button jetzt dauerhaft sichtbar für einfacheren Zugriff",
+    "Navigationsuntertitel für besseren Kontext unter iOS 26 hinzugefügt",
+    "Bibliothek-Suchfeld unter iOS 17 und iOS 18 hinzugefügt",
+    "Unterstützung für negative Bildnummern hinzugefügt"
   ],
   "fixes": [
     {
@@ -74,6 +85,30 @@
     {
       "title": "Texte & Beschriftungen",
       "description": "Texte und Beschriftungen in den Einstellungen und im Abonnement-Bildschirm für mehr Klarheit aktualisiert."
+    },
+    {
+      "title": "Auswahlwerte",
+      "description": "Auswahlwerte wurden nicht für benutzerdefinierte Blenden- und Verschlusszeitsequenzen aktualisiert."
+    },
+    {
+      "title": "Ordner-Filmzähler",
+      "description": "Ordner-Filmzähler wurden nach dem Löschen nicht korrekt aktualisiert."
+    },
+    {
+      "title": "Wischen zum Löschen",
+      "description": "Wischen zum Löschen reagierte nach Verwendung des Recorders nicht mehr."
+    },
+    {
+      "title": "Bestätigungsdialoge",
+      "description": "Bestätigungsdialoge erschienen beim Löschen von Bildern oder Ordnern an der falschen Position."
+    },
+    {
+      "title": "Kartenposition",
+      "description": "Probleme mit der Kartenposition behoben."
+    },
+    {
+      "title": "Ordnersortierung",
+      "description": "Ordnersortierung auf dem Startbildschirm korrigiert."
     }
   ],
   "patches": [
@@ -84,6 +119,34 @@
     {
       "version": "1.17.2",
       "description": "Anpassungen bei Texten und Beschriftungen"
+    },
+    {
+      "version": "1.17.3",
+      "description": "Verbesserungen bei Leistung, Willkommensbildschirm und Bedienungshilfen"
+    },
+    {
+      "version": "1.17.4",
+      "description": "iOS 17-Unterstützung und verbesserte Symbolleiste mit erweiterten Blendenwerten"
+    },
+    {
+      "version": "1.17.5",
+      "description": "Fehlerbehebungen für Ordnerzähler, Wischaktionen und Kartenpositionierung"
+    },
+    {
+      "version": "1.17.6",
+      "description": "Ordnersortierung, Auswahlzähler und Export-Verbesserungen"
+    },
+    {
+      "version": "1.17.7",
+      "description": "Navigationsuntertitel und Bibliothek-Suchfeld"
+    },
+    {
+      "version": "1.17.8",
+      "description": "Unterstützung für negative Bildnummern"
+    },
+    {
+      "version": "1.17.9",
+      "description": "Kleinere UI-Korrekturen und Verbesserungen"
     }
   ],
   "meta_title": "Exportiere deine Daten als PDF oder CSV - Frames",

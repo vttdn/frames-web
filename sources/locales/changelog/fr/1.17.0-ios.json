@@ -64,7 +64,18 @@
   "improvements": [
     "Ajout de l'export PDF pour créer des documents imprimables à ranger avec vos négatifs",
     "Ajout de l'export CSV pour importer vos données dans Excel, Google Sheets et autres tableurs",
-    "Export texte amélioré avec coordonnées GPS et mise en page tabulaire plus claire"
+    "Export texte amélioré avec coordonnées GPS et mise en page tabulaire plus claire",
+    "Nouvel écran d'accueil",
+    "Accessibilité améliorée avec prise en charge de VoiceOver et Contrôle vocal",
+    "Prise en charge d'iOS 17",
+    "Valeurs d'ouverture par défaut étendues jusqu'à f/128 pour les objectifs grand format",
+    "Performances et animations de la barre d'outils améliorées",
+    "Actions de déplacement par balayage pour les pellicules dans la corbeille",
+    "Affichage du nombre de sélections lors du travail avec des pellicules dans un dossier",
+    "Bouton d'export désormais toujours visible pour un accès plus facile",
+    "Sous-titres de navigation pour un meilleur contexte sur iOS 26",
+    "Champ de recherche dans la bibliothèque sur iOS 17 et iOS 18",
+    "Prise en charge des numéros de vue négatifs"
   ],
   "fixes": [
     {
@@ -74,6 +85,30 @@
     {
       "title": "Textes et libellés",
       "description": "Mise à jour des textes et libellés pour plus de clarté dans les écrans Réglages et Abonnement."
+    },
+    {
+      "title": "Valeurs des sélecteurs",
+      "description": "Correction des valeurs des sélecteurs qui ne se mettaient pas à jour pour les séquences personnalisées d'ouverture et de vitesse."
+    },
+    {
+      "title": "Compteur de pellicules",
+      "description": "Correction du compteur de pellicules dans les dossiers qui ne se mettait pas à jour après les suppressions."
+    },
+    {
+      "title": "Suppression par balayage",
+      "description": "Correction de la suppression par balayage qui cessait de répondre après utilisation de l'enregistreur."
+    },
+    {
+      "title": "Fenêtres de confirmation",
+      "description": "Correction des fenêtres de confirmation apparaissant au mauvais endroit lors de la suppression de vues ou de dossiers."
+    },
+    {
+      "title": "Position de la carte",
+      "description": "Correction des problèmes de position de la carte."
+    },
+    {
+      "title": "Tri des dossiers",
+      "description": "Correction du tri des dossiers sur l'écran d'accueil."
     }
   ],
   "patches": [
@@ -84,6 +119,34 @@
     {
       "version": "1.17.2",
       "description": "Ajustements des textes et libellés"
+    },
+    {
+      "version": "1.17.3",
+      "description": "Améliorations des performances, de l'écran d'accueil et de l'accessibilité"
+    },
+    {
+      "version": "1.17.4",
+      "description": "Prise en charge d'iOS 17 et barre d'outils améliorée avec valeurs d'ouverture étendues"
+    },
+    {
+      "version": "1.17.5",
+      "description": "Corrections pour les compteurs de dossiers, les actions de balayage et le positionnement de la carte"
+    },
+    {
+      "version": "1.17.6",
+      "description": "Tri des dossiers, compteurs de sélection et améliorations de l'export"
+    },
+    {
+      "version": "1.17.7",
+      "description": "Sous-titres de navigation et champ de recherche dans la bibliothèque"
+    },
+    {
+      "version": "1.17.8",
+      "description": "Prise en charge des numéros de vue négatifs"
+    },
+    {
+      "version": "1.17.9",
+      "description": "Corrections mineures de l'interface et améliorations"
     }
   ],
   "meta_title": "Exportez vos données en PDF ou CSV - Frames",

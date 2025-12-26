@@ -64,7 +64,18 @@
   "improvements": [
     "Lagt till PDF-export för att skapa utskriftsklara dokument att förvara med dina negativ",
     "Lagt till CSV-export för att importera rutdata i Excel, Google Kalkylark och andra kalkylarksprogram",
-    "Förbättrad textexport med GPS-koordinater och en renare tabelllayout"
+    "Förbättrad textexport med GPS-koordinater och en renare tabelllayout",
+    "Uppdaterad välkomstskärm",
+    "Förbättrad tillgänglighet med stöd för VoiceOver och röststyrning",
+    "Lagt till stöd för iOS 17",
+    "Utökade standardbländarvärden upp till f/128 för storformatslinser",
+    "Förbättrad verktygsfältsprestanda och animationer",
+    "Lagt till svepåtgärder för att flytta filmer i papperskorgen",
+    "Lagt till urvalsräknare vid arbete med filmer i en mapp",
+    "Exportknappen är nu alltid synlig för enklare åtkomst",
+    "Lagt till navigeringsundertexter för bättre kontext på iOS 26",
+    "Lagt till sökfält i biblioteket på iOS 17 och iOS 18",
+    "Lagt till stöd för negativa rutnummer"
   ],
   "fixes": [
     {
@@ -74,6 +85,30 @@
     {
       "title": "Texter och etiketter",
       "description": "Uppdaterade texter och etiketter för tydligare Inställningar- och Prenumerationsskärmar."
+    },
+    {
+      "title": "Väljarevärden",
+      "description": "Väljarevärden uppdaterades inte för anpassade bländar- och slutartidssekvenser."
+    },
+    {
+      "title": "Filmräknare i mappar",
+      "description": "Filmräknare i mappar uppdaterades inte korrekt efter borttagningar."
+    },
+    {
+      "title": "Svep för att radera",
+      "description": "Svep för att radera slutade reagera efter användning av inspelaren."
+    },
+    {
+      "title": "Bekräftelsefönster",
+      "description": "Bekräftelsefönster dök upp i fel position vid radering av rutor eller mappar."
+    },
+    {
+      "title": "Kartposition",
+      "description": "Problem med kartposition åtgärdade."
+    },
+    {
+      "title": "Mappsortering",
+      "description": "Mappsortering på startskärmen åtgärdad."
     }
   ],
   "patches": [
@@ -84,6 +119,34 @@
     {
       "version": "1.17.2",
       "description": "Justeringar av texter och etiketter"
+    },
+    {
+      "version": "1.17.3",
+      "description": "Förbättringar av prestanda, välkomstskärm och tillgänglighet"
+    },
+    {
+      "version": "1.17.4",
+      "description": "iOS 17-stöd och förbättrat verktygsfält med utökade bländarvärden"
+    },
+    {
+      "version": "1.17.5",
+      "description": "Buggfixar för mappräknare, svepåtgärder och kartpositionering"
+    },
+    {
+      "version": "1.17.6",
+      "description": "Mappsortering, urvalsräknare och exportförbättringar"
+    },
+    {
+      "version": "1.17.7",
+      "description": "Navigeringsundertexter och sökfält i biblioteket"
+    },
+    {
+      "version": "1.17.8",
+      "description": "Stöd för negativa rutnummer"
+    },
+    {
+      "version": "1.17.9",
+      "description": "Mindre UI-korrigeringar och förbättringar"
     }
   ],
   "meta_title": "Exportera dina data som PDF eller CSV - Frames",

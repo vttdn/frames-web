@@ -64,7 +64,18 @@
   "improvements": [
     "PDF-export toegevoegd voor het maken van afdrukbare documenten om bij je negatieven te bewaren",
     "CSV-export toegevoegd voor het importeren van filmframe-gegevens in Excel, Google Sheets en andere spreadsheetsoftware",
-    "Verbeterde tekstexport met GPS-coördinaten en een overzichtelijker tabelformaat"
+    "Verbeterde tekstexport met GPS-coördinaten en een overzichtelijker tabelformaat",
+    "Bijgewerkt welkomstscherm",
+    "Verbeterde toegankelijkheid met ondersteuning voor VoiceOver en Stembediening",
+    "Ondersteuning voor iOS 17 toegevoegd",
+    "Standaard diafragmawaarden uitgebreid tot f/128 voor grootformaatlenzen",
+    "Verbeterde werkbalkprestaties en animaties",
+    "Veegacties toegevoegd om films in de prullenbak te verplaatsen",
+    "Selectieteller toegevoegd bij het werken met films in een map",
+    "Exportknop nu altijd zichtbaar voor eenvoudigere toegang",
+    "Navigatie-ondertitels toegevoegd voor betere context op iOS 26",
+    "Zoekveld in bibliotheek toegevoegd op iOS 17 en iOS 18",
+    "Ondersteuning voor negatieve framenummers toegevoegd"
   ],
   "fixes": [
     {
@@ -74,6 +85,30 @@
     {
       "title": "Teksten en labels",
       "description": "Teksten en labels bijgewerkt voor meer duidelijkheid in de Instellingen- en Abonnement-schermen."
+    },
+    {
+      "title": "Keuzewaarden",
+      "description": "Keuzewaarden werden niet bijgewerkt voor aangepaste diafragma- en sluitertijdreeksen."
+    },
+    {
+      "title": "Filmteller in mappen",
+      "description": "Filmteller in mappen werd niet correct bijgewerkt na verwijderingen."
+    },
+    {
+      "title": "Vegen om te verwijderen",
+      "description": "Vegen om te verwijderen reageerde niet meer na gebruik van de recorder."
+    },
+    {
+      "title": "Bevestigingsvensters",
+      "description": "Bevestigingsvensters verschenen op de verkeerde positie bij het verwijderen van frames of mappen."
+    },
+    {
+      "title": "Kaartpositie",
+      "description": "Problemen met kaartpositie opgelost."
+    },
+    {
+      "title": "Mapsortering",
+      "description": "Mapsortering op het startscherm gecorrigeerd."
     }
   ],
   "patches": [
@@ -84,6 +119,34 @@
     {
       "version": "1.17.2",
       "description": "Aanpassingen aan teksten en labels"
+    },
+    {
+      "version": "1.17.3",
+      "description": "Verbeteringen aan prestaties, welkomstscherm en toegankelijkheid"
+    },
+    {
+      "version": "1.17.4",
+      "description": "iOS 17-ondersteuning en verbeterde werkbalk met uitgebreide diafragmawaarden"
+    },
+    {
+      "version": "1.17.5",
+      "description": "Bugfixes voor maptellers, veegacties en kaartpositionering"
+    },
+    {
+      "version": "1.17.6",
+      "description": "Mapsortering, selectietellers en exportverbeteringen"
+    },
+    {
+      "version": "1.17.7",
+      "description": "Navigatie-ondertitels en zoekveld in bibliotheek"
+    },
+    {
+      "version": "1.17.8",
+      "description": "Ondersteuning voor negatieve framenummers"
+    },
+    {
+      "version": "1.17.9",
+      "description": "Kleine UI-correcties en verbeteringen"
     }
   ],
   "meta_title": "Exporteer je gegevens als PDF of CSV - Frames",

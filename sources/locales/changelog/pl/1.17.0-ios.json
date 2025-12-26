@@ -64,7 +64,18 @@
   "improvements": [
     "Dodano eksport PDF do tworzenia dokumentów gotowych do druku, które można przechowywać z negatywami",
     "Dodano eksport CSV do importowania danych klatek do Excela, Google Sheets i innych arkuszy kalkulacyjnych",
-    "Ulepszony eksport tekstowy ze współrzędnymi GPS i przejrzystszym układem tabelarycznym"
+    "Ulepszony eksport tekstowy ze współrzędnymi GPS i przejrzystszym układem tabelarycznym",
+    "Zaktualizowany ekran powitalny",
+    "Ulepszona dostępność z obsługą VoiceOver i sterowania głosowego",
+    "Dodano obsługę iOS 17",
+    "Rozszerzone domyślne wartości przysłony do f/128 dla obiektywów wielkoformatowych",
+    "Ulepszona wydajność i animacje paska narzędzi",
+    "Dodano akcje przesuwania do przenoszenia filmów w koszu",
+    "Dodano licznik zaznaczenia przy pracy z filmami w folderze",
+    "Przycisk eksportu teraz zawsze widoczny dla łatwiejszego dostępu",
+    "Dodano napisy nawigacyjne dla lepszego kontekstu na iOS 26",
+    "Dodano pole wyszukiwania w bibliotece na iOS 17 i iOS 18",
+    "Dodano obsługę ujemnych numerów klatek"
   ],
   "fixes": [
     {
@@ -74,6 +85,30 @@
     {
       "title": "Teksty i etykiety",
       "description": "Zaktualizowano teksty i etykiety dla większej przejrzystości na ekranach Ustawienia i Subskrypcja."
+    },
+    {
+      "title": "Wartości wyboru",
+      "description": "Wartości wyboru nie aktualizowały się dla niestandardowych sekwencji przysłony i czasu naświetlania."
+    },
+    {
+      "title": "Licznik filmów w folderach",
+      "description": "Licznik filmów w folderach nie aktualizował się poprawnie po usunięciach."
+    },
+    {
+      "title": "Przesuń, aby usunąć",
+      "description": "Przesuń, aby usunąć przestawało reagować po użyciu rejestratora."
+    },
+    {
+      "title": "Okna potwierdzenia",
+      "description": "Okna potwierdzenia pojawiały się w złej pozycji podczas usuwania klatek lub folderów."
+    },
+    {
+      "title": "Pozycja mapy",
+      "description": "Naprawiono problemy z pozycją mapy."
+    },
+    {
+      "title": "Sortowanie folderów",
+      "description": "Naprawiono sortowanie folderów na ekranie głównym."
     }
   ],
   "patches": [
@@ -84,6 +119,34 @@
     {
       "version": "1.17.2",
       "description": "Korekty tekstów i etykiet"
+    },
+    {
+      "version": "1.17.3",
+      "description": "Ulepszenia wydajności, ekranu powitalnego i dostępności"
+    },
+    {
+      "version": "1.17.4",
+      "description": "Obsługa iOS 17 i ulepszony pasek narzędzi z rozszerzonymi wartościami przysłony"
+    },
+    {
+      "version": "1.17.5",
+      "description": "Poprawki dla liczników folderów, akcji przesuwania i pozycjonowania mapy"
+    },
+    {
+      "version": "1.17.6",
+      "description": "Sortowanie folderów, liczniki zaznaczenia i ulepszenia eksportu"
+    },
+    {
+      "version": "1.17.7",
+      "description": "Napisy nawigacyjne i pole wyszukiwania w bibliotece"
+    },
+    {
+      "version": "1.17.8",
+      "description": "Obsługa ujemnych numerów klatek"
+    },
+    {
+      "version": "1.17.9",
+      "description": "Drobne poprawki interfejsu i ulepszenia"
     }
   ],
   "meta_title": "Eksportuj dane jako PDF lub CSV - Frames",

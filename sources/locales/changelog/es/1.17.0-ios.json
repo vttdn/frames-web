@@ -64,7 +64,18 @@
   "improvements": [
     "Añadida exportación PDF para crear documentos listos para imprimir y guardar con tus negativos",
     "Añadida exportación CSV para importar datos de fotogramas en Excel, Google Sheets y otras hojas de cálculo",
-    "Exportación de texto mejorada con coordenadas GPS y un diseño tabular más limpio"
+    "Exportación de texto mejorada con coordenadas GPS y un diseño tabular más limpio",
+    "Pantalla de bienvenida actualizada",
+    "Accesibilidad mejorada con soporte para VoiceOver y Control por voz",
+    "Añadido soporte para iOS 17",
+    "Valores de apertura por defecto ampliados hasta f/128 para objetivos de gran formato",
+    "Rendimiento y animaciones de la barra de herramientas mejorados",
+    "Añadidas acciones de deslizar para mover películas en la papelera",
+    "Añadido contador de selección al trabajar con películas dentro de una carpeta",
+    "Botón de exportación ahora siempre visible para un acceso más fácil",
+    "Añadidos subtítulos de navegación para mejor contexto en iOS 26",
+    "Añadido campo de búsqueda en la biblioteca en iOS 17 e iOS 18",
+    "Añadido soporte para números de fotograma negativos"
   ],
   "fixes": [
     {
@@ -74,6 +85,30 @@
     {
       "title": "Textos y etiquetas",
       "description": "Se actualizaron los textos y etiquetas para mayor claridad en las pantallas de Ajustes y Suscripción."
+    },
+    {
+      "title": "Valores del selector",
+      "description": "Corregido el problema de los valores del selector que no se actualizaban para secuencias personalizadas de apertura y velocidad."
+    },
+    {
+      "title": "Contador de películas en carpetas",
+      "description": "Corregido el contador de películas en carpetas que no se actualizaba correctamente tras las eliminaciones."
+    },
+    {
+      "title": "Deslizar para eliminar",
+      "description": "Corregido el problema de deslizar para eliminar que dejaba de responder tras usar la grabadora."
+    },
+    {
+      "title": "Ventanas de confirmación",
+      "description": "Corregidas las ventanas de confirmación que aparecían en la posición incorrecta al eliminar fotogramas o carpetas."
+    },
+    {
+      "title": "Posición del mapa",
+      "description": "Corregidos problemas de posición del mapa."
+    },
+    {
+      "title": "Ordenación de carpetas",
+      "description": "Corregida la ordenación de carpetas en la pantalla de inicio."
     }
   ],
   "patches": [
@@ -84,6 +119,34 @@
     {
       "version": "1.17.2",
       "description": "Ajustes de textos y etiquetas"
+    },
+    {
+      "version": "1.17.3",
+      "description": "Mejoras de rendimiento, pantalla de bienvenida y accesibilidad"
+    },
+    {
+      "version": "1.17.4",
+      "description": "Soporte para iOS 17 y barra de herramientas mejorada con valores de apertura ampliados"
+    },
+    {
+      "version": "1.17.5",
+      "description": "Correcciones para contadores de carpetas, acciones de deslizar y posicionamiento del mapa"
+    },
+    {
+      "version": "1.17.6",
+      "description": "Ordenación de carpetas, contadores de selección y mejoras de exportación"
+    },
+    {
+      "version": "1.17.7",
+      "description": "Subtítulos de navegación y campo de búsqueda en la biblioteca"
+    },
+    {
+      "version": "1.17.8",
+      "description": "Soporte para números de fotograma negativos"
+    },
+    {
+      "version": "1.17.9",
+      "description": "Correcciones menores de interfaz y mejoras"
     }
   ],
   "meta_title": "Exporta tus datos como PDF o CSV - Frames",

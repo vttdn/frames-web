@@ -64,7 +64,18 @@
   "improvements": [
     "Menambahkan ekspor PDF untuk membuat dokumen siap cetak yang dapat disimpan bersama negatif Anda",
     "Menambahkan ekspor CSV untuk mengimpor data frame ke Excel, Google Sheets, dan perangkat lunak spreadsheet lainnya",
-    "Ekspor teks yang ditingkatkan dengan koordinat GPS dan tata letak tabel yang lebih rapi"
+    "Ekspor teks yang ditingkatkan dengan koordinat GPS dan tata letak tabel yang lebih rapi",
+    "Layar selamat datang yang diperbarui",
+    "Aksesibilitas yang ditingkatkan dengan dukungan VoiceOver dan Kontrol Suara",
+    "Menambahkan dukungan untuk iOS 17",
+    "Memperluas nilai apertur default hingga f/128 untuk lensa format besar",
+    "Peningkatan kinerja dan animasi bilah alat",
+    "Menambahkan tindakan geser untuk memindahkan film di Tempat Sampah",
+    "Menambahkan penghitung pilihan saat bekerja dengan film dalam folder",
+    "Tombol ekspor sekarang selalu terlihat untuk akses lebih mudah",
+    "Menambahkan subjudul navigasi untuk konteks yang lebih baik di iOS 26",
+    "Menambahkan bidang pencarian Perpustakaan di iOS 17 dan iOS 18",
+    "Menambahkan dukungan untuk nomor frame negatif"
   ],
   "fixes": [
     {
@@ -74,6 +85,30 @@
     {
       "title": "Teks dan label",
       "description": "Memperbarui teks dan label untuk kejelasan lebih baik di layar Pengaturan dan Langganan."
+    },
+    {
+      "title": "Nilai pemilih",
+      "description": "Nilai pemilih tidak diperbarui untuk urutan apertur dan kecepatan rana kustom."
+    },
+    {
+      "title": "Jumlah film dalam folder",
+      "description": "Jumlah film dalam folder tidak diperbarui dengan benar setelah penghapusan."
+    },
+    {
+      "title": "Geser untuk menghapus",
+      "description": "Geser untuk menghapus berhenti merespons setelah menggunakan perekam."
+    },
+    {
+      "title": "Popup konfirmasi",
+      "description": "Popup konfirmasi muncul di posisi yang salah saat menghapus frame atau folder."
+    },
+    {
+      "title": "Posisi peta",
+      "description": "Memperbaiki masalah posisi peta."
+    },
+    {
+      "title": "Pengurutan folder",
+      "description": "Memperbaiki pengurutan folder di layar Beranda."
     }
   ],
   "patches": [
@@ -84,6 +119,34 @@
     {
       "version": "1.17.2",
       "description": "Penyesuaian teks dan label"
+    },
+    {
+      "version": "1.17.3",
+      "description": "Peningkatan kinerja, layar selamat datang, dan aksesibilitas"
+    },
+    {
+      "version": "1.17.4",
+      "description": "Dukungan iOS 17 dan bilah alat yang ditingkatkan dengan nilai apertur yang diperluas"
+    },
+    {
+      "version": "1.17.5",
+      "description": "Perbaikan bug untuk jumlah folder, tindakan geser, dan posisi peta"
+    },
+    {
+      "version": "1.17.6",
+      "description": "Pengurutan folder, penghitung pilihan, dan peningkatan ekspor"
+    },
+    {
+      "version": "1.17.7",
+      "description": "Subjudul navigasi dan bidang pencarian Perpustakaan"
+    },
+    {
+      "version": "1.17.8",
+      "description": "Dukungan untuk nomor frame negatif"
+    },
+    {
+      "version": "1.17.9",
+      "description": "Perbaikan UI kecil dan peningkatan"
     }
   ],
   "meta_title": "Ekspor data Anda sebagai PDF atau CSV - Frames",

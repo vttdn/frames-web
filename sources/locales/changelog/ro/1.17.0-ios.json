@@ -64,7 +64,18 @@
   "improvements": [
     "Adăugat export PDF pentru crearea documentelor gata de tipărit pentru păstrare alături de negative",
     "Adăugat export CSV pentru importul datelor cadrelor în Excel, Google Sheets și alte foi de calcul",
-    "Export text îmbunătățit cu coordonate GPS și aspect tabelar mai clar"
+    "Export text îmbunătățit cu coordonate GPS și aspect tabelar mai clar",
+    "Ecran de bun venit actualizat",
+    "Accesibilitate îmbunătățită cu suport VoiceOver și control vocal",
+    "Adăugat suport pentru iOS 17",
+    "Valorile implicite ale diafragmei extinse până la f/128 pentru obiective de format mare",
+    "Performanță și animații îmbunătățite pentru bara de instrumente",
+    "Adăugate acțiuni de glisare pentru mutarea filmelor în coșul de gunoi",
+    "Adăugat contor de selecție când lucrezi cu filme într-un folder",
+    "Butonul de export acum întotdeauna vizibil pentru acces mai ușor",
+    "Adăugate subtitrări de navigare pentru context mai bun pe iOS 26",
+    "Adăugat câmp de căutare în bibliotecă pe iOS 17 și iOS 18",
+    "Adăugat suport pentru numere de cadru negative"
   ],
   "fixes": [
     {
@@ -74,6 +85,30 @@
     {
       "title": "Texte și etichete",
       "description": "Texte și etichete actualizate pentru mai multă claritate în ecranele Setări și Abonament."
+    },
+    {
+      "title": "Valori selector",
+      "description": "Valorile selectorului nu se actualizau pentru secvențe personalizate de diafragmă și viteză obturator."
+    },
+    {
+      "title": "Număr filme în foldere",
+      "description": "Numărul de filme din foldere nu se actualiza corect după ștergeri."
+    },
+    {
+      "title": "Glisare pentru ștergere",
+      "description": "Glisarea pentru ștergere nu mai răspundea după utilizarea înregistratorului."
+    },
+    {
+      "title": "Ferestre de confirmare",
+      "description": "Ferestrele de confirmare apăreau în poziție greșită la ștergerea cadrelor sau folderelor."
+    },
+    {
+      "title": "Poziția hărții",
+      "description": "Probleme cu poziția hărții au fost rezolvate."
+    },
+    {
+      "title": "Sortarea folderelor",
+      "description": "Sortarea folderelor pe ecranul principal a fost corectată."
     }
   ],
   "patches": [
@@ -84,6 +119,34 @@
     {
       "version": "1.17.2",
       "description": "Ajustări ale textelor și etichetelor"
+    },
+    {
+      "version": "1.17.3",
+      "description": "Îmbunătățiri de performanță, ecran de bun venit și accesibilitate"
+    },
+    {
+      "version": "1.17.4",
+      "description": "Suport iOS 17 și bară de instrumente îmbunătățită cu valori extinse ale diafragmei"
+    },
+    {
+      "version": "1.17.5",
+      "description": "Corecții pentru numărul de filme din foldere, acțiuni de glisare și poziționarea hărții"
+    },
+    {
+      "version": "1.17.6",
+      "description": "Sortarea folderelor, contoare de selecție și îmbunătățiri la export"
+    },
+    {
+      "version": "1.17.7",
+      "description": "Subtitrări de navigare și câmp de căutare în bibliotecă"
+    },
+    {
+      "version": "1.17.8",
+      "description": "Suport pentru numere de cadru negative"
+    },
+    {
+      "version": "1.17.9",
+      "description": "Corecții minore de interfață și îmbunătățiri"
     }
   ],
   "meta_title": "Exportă datele tale ca PDF sau CSV - Frames",
