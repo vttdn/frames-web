@@ -1,0 +1,23 @@
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Etusivu",
+      "item": "https://withframes.com/fi/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Blogi",
+      "item": "https://withframes.com/fi/blog/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Parhaat uudet filmikamerat vuonna 2026: Mita voit oikeasti ostaa",
+      "item": "https://withframes.com/fi/blog/osta-parhaat-uudet-filmikamerat-2026/"
+    }  ]
+}

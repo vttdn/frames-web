@@ -346,6 +346,7 @@
     "appstore_ios": "https://apps.apple.com/dk/app/frames-filmnotater/id6744057317?l=da",
     "appstore_macos": "https://apps.apple.com/dk/app/frames-filmmetadata/id6744063354?l=da",
     "documentation": "docs/",
+    "blog": "blog/",
     "changelog": "changelog/",
     "privacy": "privatlivspolitik/"
   },
@@ -466,6 +467,35 @@
     "meta": {
       "title": "Sådan registrerer og indlejrer du filmfotograferingsmetadata med Frames",
       "description": "Lær hvordan du bruger Frames til at registrere filmkameraindstillinger, organisere dine ruller og indlejre EXIF-metadata i dine scannede billeder på tværs af iPhone og Mac."
+    }
+  },
+  "blog": {
+    "meta": {
+      "title": "Filmfotografi Blog - Frames",
+      "description": "Opdag guider til filmfotografering, optagelsestips, kameraanmeldelser, råd om analog workflow og praktiske måder at bruge Frames-appen til at forbedre din fotografering.",
+      "canonical_url": "https://withframes.com/da/blog/"
+    },
+    "heading": "Blog",
+    "labels": {
+      "by_author": "af",
+      "published_on": "Udgivet",
+      "category": "Kategori",
+      "all_posts": "Alle artikler",
+      "in_category": "i",
+      "previous": "Forrige",
+      "next": "Næste",
+      "contents": "Indhold",
+      "filed_under": "Arkiveret under",
+      "author": "Forfatter",
+      "updated": "Opdateret"
+    },
+    "pagination": {
+      "previous": "Forrige",
+      "next": "Næste",
+      "page": "Side",
+      "page_suffix": "",
+      "newer_posts": "Nyere artikler",
+      "older_posts": "Ældre artikler"
     }
   }
 }
