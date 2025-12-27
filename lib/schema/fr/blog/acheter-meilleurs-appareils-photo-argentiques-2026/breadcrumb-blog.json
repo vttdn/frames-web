@@ -1,0 +1,23 @@
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Accueil",
+      "item": "https://withframes.com/fr/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Blog",
+      "item": "https://withframes.com/fr/blog/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Appareils photo argentiques : les meilleurs modèles à acheter neuf en 2026",
+      "item": "https://withframes.com/fr/blog/acheter-meilleurs-appareils-photo-argentiques-2026/"
+    }  ]
+}
