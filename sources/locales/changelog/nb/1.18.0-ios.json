@@ -1,0 +1,78 @@
+{
+  "version": "1.18.0",
+  "version_short": "1.18",
+  "url_slug": "1-18-ios",
+  "platform": "ios",
+  "release_date": "2026-01-01T10:00:00.000Z",
+  "title": "Forbedringer av bibliotek, søk og innstillinger",
+  "summary": "Denne oppdateringen gir kraftige nye måter å bla gjennom og søke i biblioteket ditt. Filmer er nå gruppert etter dato for enklere navigasjon, og du kan filtrere søk etter filmtype eller kamera. Innstillingsskjermen har også blitt fullstendig redesignet.",
+  "sections": [
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.18.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.18.0-1@2x.png",
+      "alt": "Frames filmfotografering-app med forbedret bibliotek og søk",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Bla gjennom historikken din etter dato"
+    },
+    {
+      "type": "paragraph",
+      "content": "Å finne en spesifikk film i et stort bibliotek er nå mye enklere. Filmer er intuitivt gruppert etter dato, slik at du raskt kan navigere gjennom fotohistorikken din. Enten du leter etter forrige ukes bilder eller noe fra måneder siden, hjelper den kronologiske organiseringen deg å komme dit raskere."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Kraftigere søk"
+    },
+    {
+      "type": "paragraph",
+      "content": "Søk går nå utover filmnavn. Du kan filtrere biblioteket ditt etter filmtype eller kamera, noe som gjør det enkelt å finne alle rullene du har fotografert med en bestemt emulsjon eller spesifikk kamerakropp. Mens du skriver, dukker forslag opp for å hjelpe deg med å finne det du leter etter enda raskere."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "En raskere opptaker"
+    },
+    {
+      "type": "paragraph",
+      "content": "Opptakeren er nå mer responsiv med jevnere animasjoner for en raskere opptaksopplevelse. Tidligere kunne eldre enheter med iOS 17 og iOS 18 oppleve forsinkelser, det er nå fortid."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Redesignede Innstillinger"
+    },
+    {
+      "type": "paragraph",
+      "content": "Innstillingsskjermen har blitt fullstendig fornyet med et renere, mer moderne design. Alt er lettere å finne og navigere, noe som gir deg rask tilgang til alle alternativene du trenger for å tilpasse Frames-opplevelsen din."
+    }
+  ],
+  "improvements": [
+    "Filmer er nå gruppert etter dato for enklere navigasjon",
+    "Søkefiltre for filmtype og kamera i tillegg til navn",
+    "Søkeforslag når du starter et nytt søk",
+    "Forbedrede verktøylinjefarger for lys modus på iOS 17 og iOS 18",
+    "Fullstendig redesignet Innstillingsskjerm",
+    "Forbedrede bekreftelsesdialoger for sletting for å forhindre utilsiktede fjerninger",
+    "Raffinerte opptaksfarger for Lys modus på iOS 17 og iOS 18",
+    "Mindre oversettelsesforbedringer på alle støttede språk"
+  ],
+  "fixes": [
+    {
+      "title": "Lagre rammedato",
+      "description": "Fikset et problem der endringer i rammedato ikke ble lagret korrekt."
+    },
+    {
+      "title": "Forsinkelse for tilpassede sekvenser",
+      "description": "Fikset en forsinkelse der tilpassede blender- og lukkertidssekvenser tok flere minutter å vises på verktøylinjen."
+    }
+  ],
+  "patches": [],
+  "meta_title": "Forbedringer av bibliotek, søk og innstillinger - Frames",
+  "meta_description": "Bla gjennom biblioteket etter dato og filtrer etter filmtype eller kamera. Redesignet Innstillingsskjerm."
+}

@@ -1,0 +1,78 @@
+{
+  "version": "1.18.0",
+  "version_short": "1.18",
+  "url_slug": "1-18-ios",
+  "platform": "ios",
+  "release_date": "2026-01-01T10:00:00.000Z",
+  "title": "Library, Search & Settings Improvements",
+  "summary": "This update brings powerful new ways to browse and search your library. Films are now grouped by date for easier navigation, and you can filter searches by stock or camera. The Settings screen has also been completely redesigned.",
+  "sections": [
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.18.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.18.0-1@2x.png",
+      "alt": "Frames film photography app library and search settings improved",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Browse Your History by Date"
+    },
+    {
+      "type": "paragraph",
+      "content": "Finding a specific roll in a large library just got much easier. Films are now intuitively grouped by date, letting you quickly navigate through your shooting history. Whether you're looking for last week's shots or something from months ago, the timeline-based organization helps you get there faster."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "More Powerful Search"
+    },
+    {
+      "type": "paragraph",
+      "content": "Search now goes beyond film names. You can filter your library by film stock or camera, making it easy to find all the rolls you shot on a particular emulsion or with a specific body. As you start typing, suggestions appear to help you find what you're looking for even faster."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "A Snappier Recorder"
+    },
+    {
+      "type": "paragraph",
+      "content": "The recorder is now more responsive, with smoother animations for a snappier recording experience. Previously, older devices running iOS 17 and iOS 18 could experience some lag, that's now a thing of the past."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Redesigned Settings"
+    },
+    {
+      "type": "paragraph",
+      "content": "The Settings screen has been completely overhauled with a cleaner, more modern design. Everything is easier to find and navigate, giving you quick access to all the options you need to customize your Frames experience."
+    }
+  ],
+  "improvements": [
+    "Films are now grouped by date for easier library navigation",
+    "Search filters for film stock and camera in addition to name",
+    "Search suggestions when starting a new search",
+    "Snappier recorder with smoother animations on iOS 17 and iOS 18",
+    "Completely redesigned Settings screen",
+    "Improved deletion confirmation dialogs to prevent accidental removals",
+    "Refined toolbar colors for Light Mode on iOS 17 and iOS 18",
+    "Minor translation refinements across all supported languages"
+  ],
+  "fixes": [
+    {
+      "title": "Frame date saving",
+      "description": "Fixed an issue where frame date changes were not saving correctly."
+    },
+    {
+      "title": "Custom sequences delay",
+      "description": "Fixed a delay where custom aperture and shutter speed sequences would take several minutes to appear on the toolbar."
+    }
+  ],
+  "patches": [],
+  "meta_title": "Library, Search & Settings Improvements - Frames",
+  "meta_description": "Browse your library with date grouping and search by film stock or camera. Includes a redesigned Settings screen."
+}

@@ -1,0 +1,78 @@
+{
+  "version": "1.18.0",
+  "version_short": "1.18",
+  "url_slug": "1-18-ios",
+  "platform": "ios",
+  "release_date": "2026-01-01T10:00:00.000Z",
+  "title": "Ulepszenia biblioteki, wyszukiwania i ustawień",
+  "summary": "Ta aktualizacja wprowadza nowe, zaawansowane sposoby przeglądania i przeszukiwania biblioteki. Filmy są teraz grupowane według daty dla łatwiejszej nawigacji, a wyniki wyszukiwania można filtrować według typu filmu lub aparatu. Ekran Ustawień został również całkowicie przeprojektowany.",
+  "sections": [
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.18.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.18.0-1@2x.png",
+      "alt": "Aplikacja Frames do fotografii analogowej z ulepszoną biblioteką i wyszukiwaniem",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Przeglądaj historię według daty"
+    },
+    {
+      "type": "paragraph",
+      "content": "Znalezienie konkretnego filmu w dużej bibliotece jest teraz znacznie łatwiejsze. Filmy są intuicyjnie grupowane według daty, pozwalając szybko nawigować po historii zdjęć. Niezależnie od tego, czy szukasz ujęć z zeszłego tygodnia, czy czegoś sprzed miesięcy, chronologiczna organizacja pomoże ci dotrzeć tam szybciej."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Potężniejsze wyszukiwanie"
+    },
+    {
+      "type": "paragraph",
+      "content": "Wyszukiwanie wykracza teraz poza nazwy filmów. Możesz filtrować bibliotekę według typu filmu lub aparatu, co ułatwia znalezienie wszystkich rolek nakręconych na konkretnej emulsji lub określonym korpusie. Podczas pisania pojawiają się podpowiedzi, które pomogą ci jeszcze szybciej znaleźć to, czego szukasz."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Szybszy rejestrator"
+    },
+    {
+      "type": "paragraph",
+      "content": "Rejestrator jest teraz bardziej responsywny, z płynniejszymi animacjami dla szybszego doświadczenia rejestrowania. Wcześniej starsze urządzenia z iOS 17 i iOS 18 mogły doświadczać opóźnień, to już przeszłość."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Przeprojektowane Ustawienia"
+    },
+    {
+      "type": "paragraph",
+      "content": "Ekran Ustawień został całkowicie odnowiony z czystszym, bardziej nowoczesnym wyglądem. Wszystko jest łatwiejsze do znalezienia i nawigacji, dając ci szybki dostęp do wszystkich opcji potrzebnych do personalizacji doświadczenia z Frames."
+    }
+  ],
+  "improvements": [
+    "Filmy są teraz grupowane według daty dla łatwiejszej nawigacji",
+    "Filtry wyszukiwania według typu filmu i aparatu oprócz nazwy",
+    "Podpowiedzi wyszukiwania przy rozpoczynaniu nowego wyszukiwania",
+    "Ulepszone kolory paska narzędzi dla trybu jasnego na iOS 17 i iOS 18",
+    "Całkowicie przeprojektowany ekran Ustawień",
+    "Ulepszone okna dialogowe potwierdzenia usunięcia, aby zapobiec przypadkowym usunięciom",
+    "Dopracowane kolory nagrań dla trybu jasnego na iOS 17 i iOS 18",
+    "Drobne poprawki tłumaczeń we wszystkich obsługiwanych językach"
+  ],
+  "fixes": [
+    {
+      "title": "Zapisywanie daty klatki",
+      "description": "Naprawiono problem, w którym zmiany daty klatek nie były prawidłowo zapisywane."
+    },
+    {
+      "title": "Opóźnienie niestandardowych sekwencji",
+      "description": "Naprawiono opóźnienie, w którym niestandardowe sekwencje przysłony i czasu migawki potrzebowały kilku minut, aby pojawić się na pasku narzędzi."
+    }
+  ],
+  "patches": [],
+  "meta_title": "Ulepszenia biblioteki, wyszukiwania i ustawień - Frames",
+  "meta_description": "Przeglądaj bibliotekę według daty i filtruj według typu filmu lub aparatu. Przeprojektowany ekran Ustawień."
+}

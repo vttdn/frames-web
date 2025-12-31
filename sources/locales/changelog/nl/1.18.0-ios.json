@@ -1,0 +1,78 @@
+{
+  "version": "1.18.0",
+  "version_short": "1.18",
+  "url_slug": "1-18-ios",
+  "platform": "ios",
+  "release_date": "2026-01-01T10:00:00.000Z",
+  "title": "Verbeteringen aan bibliotheek, zoeken en instellingen",
+  "summary": "Deze update brengt krachtige nieuwe manieren om je bibliotheek te doorzoeken. Filmrollen zijn nu gegroepeerd op datum voor eenvoudiger navigeren, en je kunt zoekresultaten filteren op filmtype of camera. Het Instellingenscherm is ook volledig opnieuw ontworpen.",
+  "sections": [
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.18.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.18.0-1@2x.png",
+      "alt": "Frames analoge fotografie-app met verbeterde bibliotheek en zoekfunctie",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Blader door je geschiedenis op datum"
+    },
+    {
+      "type": "paragraph",
+      "content": "Een specifieke filmrol vinden in een grote bibliotheek is nu veel eenvoudiger. Filmrollen zijn intuïtief gegroepeerd op datum, waardoor je snel door je fotogeschiedenis kunt navigeren. Of je nu zoekt naar de opnames van vorige week of iets van maanden geleden, de chronologische organisatie helpt je er sneller te komen."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Krachtigere zoekfunctie"
+    },
+    {
+      "type": "paragraph",
+      "content": "Zoeken gaat nu verder dan filmrolnamen. Je kunt je bibliotheek filteren op filmtype of camera, waardoor het makkelijk is om alle filmrollen te vinden die je met een bepaalde emulsie of specifieke body hebt geschoten. Terwijl je typt, verschijnen suggesties om je te helpen nog sneller te vinden wat je zoekt."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Een snellere recorder"
+    },
+    {
+      "type": "paragraph",
+      "content": "De recorder is nu responsiever met vloeiendere animaties voor een snellere opname-ervaring. Voorheen konden oudere apparaten met iOS 17 en iOS 18 wat vertraging vertonen, dat is nu verleden tijd."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Herontworpen Instellingen"
+    },
+    {
+      "type": "paragraph",
+      "content": "Het Instellingenscherm is volledig vernieuwd met een schoner, moderner ontwerp. Alles is makkelijker te vinden en te navigeren, waardoor je snel toegang hebt tot alle opties die je nodig hebt om je Frames-ervaring aan te passen."
+    }
+  ],
+  "improvements": [
+    "Filmrollen zijn nu gegroepeerd op datum voor eenvoudiger navigeren",
+    "Zoekfilters voor filmtype en camera naast naam",
+    "Zoeksuggesties bij het starten van een nieuwe zoekopdracht",
+    "Verfijnde werkbalkkleuren voor lichte modus op iOS 17 en iOS 18",
+    "Volledig herontworpen Instellingenscherm",
+    "Verbeterde verwijderingsbevestigingsdialogen om onbedoelde verwijderingen te voorkomen",
+    "Verfijnde opnamekleuren voor Lichte Modus op iOS 17 en iOS 18",
+    "Kleine vertaalverbeteringen in alle ondersteunde talen"
+  ],
+  "fixes": [
+    {
+      "title": "Opslaan van filmframe-datum",
+      "description": "Een probleem opgelost waarbij wijzigingen in de filmframe-datum niet correct werden opgeslagen."
+    },
+    {
+      "title": "Vertraging bij aangepaste reeksen",
+      "description": "Een vertraging opgelost waarbij aangepaste diafragma- en sluitertijdreeksen enkele minuten nodig hadden om in de werkbalk te verschijnen."
+    }
+  ],
+  "patches": [],
+  "meta_title": "Verbeteringen bibliotheek, zoeken en instellingen - Frames",
+  "meta_description": "Blader door je bibliotheek op datum en filter op filmtype of camera. Herontworpen Instellingenscherm."
+}

@@ -1,0 +1,78 @@
+{
+  "version": "1.18.0",
+  "version_short": "1.18",
+  "url_slug": "1-18-ios",
+  "platform": "ios",
+  "release_date": "2026-01-01T10:00:00.000Z",
+  "title": "Îmbunătățiri pentru bibliotecă, căutare și setări",
+  "summary": "Această actualizare aduce modalități noi și puternice de a naviga și căuta în biblioteca ta. Filmele sunt acum grupate după dată pentru o navigare mai ușoară, iar căutările pot fi filtrate după tipul de film sau cameră. Ecranul Setări a fost, de asemenea, complet reproiectat.",
+  "sections": [
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.18.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.18.0-1@2x.png",
+      "alt": "Aplicația Frames pentru fotografie pe film cu bibliotecă și căutare îmbunătățite",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Răsfoiește istoricul după dată"
+    },
+    {
+      "type": "paragraph",
+      "content": "Găsirea unui film specific într-o bibliotecă mare este acum mult mai ușoară. Filmele sunt grupate intuitiv după dată, permițându-ți să navighezi rapid prin istoricul fotografiilor. Fie că cauți fotografiile de săptămâna trecută sau ceva de acum câteva luni, organizarea cronologică te ajută să ajungi mai repede."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Căutare mai puternică"
+    },
+    {
+      "type": "paragraph",
+      "content": "Căutarea merge acum dincolo de numele filmelor. Poți filtra biblioteca după tipul de film sau cameră, facilitând găsirea tuturor rolelor fotografiate cu o emulsie particulară sau un corp specific. Pe măsură ce tastezi, apar sugestii pentru a te ajuta să găsești și mai rapid ceea ce cauți."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Un recorder mai rapid"
+    },
+    {
+      "type": "paragraph",
+      "content": "Recorderul este acum mai receptiv, cu animații mai fluide pentru o experiență de înregistrare mai rapidă. Anterior, dispozitivele mai vechi cu iOS 17 și iOS 18 puteau întâmpina întârzieri, acum aceasta este o problemă a trecutului."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Setări reproiectate"
+    },
+    {
+      "type": "paragraph",
+      "content": "Ecranul Setări a fost complet renovat cu un design mai curat și modern. Totul este mai ușor de găsit și navigat, oferindu-ți acces rapid la toate opțiunile de care ai nevoie pentru a-ți personaliza experiența Frames."
+    }
+  ],
+  "improvements": [
+    "Filmele sunt acum grupate după dată pentru o navigare mai ușoară",
+    "Filtre de căutare după tipul de film și cameră pe lângă nume",
+    "Sugestii de căutare la începerea unei căutări noi",
+    "Culori rafinate ale barei de instrumente pentru modul luminos pe iOS 17 și iOS 18",
+    "Ecran Setări complet reproiectat",
+    "Dialoguri de confirmare a ștergerii îmbunătățite pentru a preveni eliminările accidentale",
+    "Culori de înregistrare rafinate pentru Modul Luminos pe iOS 17 și iOS 18",
+    "Îmbunătățiri minore ale traducerilor în toate limbile suportate"
+  ],
+  "fixes": [
+    {
+      "title": "Salvarea datei cadrului",
+      "description": "S-a remediat o problemă în care modificările datei cadrelor nu erau salvate corect."
+    },
+    {
+      "title": "Întârziere secvențe personalizate",
+      "description": "S-a remediat o întârziere în care secvențele personalizate de diafragmă și viteză de declanșare durau câteva minute să apară în bara de instrumente."
+    }
+  ],
+  "patches": [],
+  "meta_title": "Îmbunătățiri pentru bibliotecă, căutare și setări - Frames",
+  "meta_description": "Răsfoiește biblioteca după dată și filtrează după tipul de film sau cameră. Ecran Setări reproiectat."
+}

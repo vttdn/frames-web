@@ -1,0 +1,78 @@
+{
+  "version": "1.18.0",
+  "version_short": "1.18",
+  "url_slug": "1-18-ios",
+  "platform": "ios",
+  "release_date": "2026-01-01T10:00:00.000Z",
+  "title": "Melhorias na biblioteca, pesquisa e configurações",
+  "summary": "Esta atualização traz novas formas poderosas de explorar e pesquisar a sua biblioteca. As películas estão agora agrupadas por data para uma navegação mais fácil, e pode filtrar pesquisas por tipo de película ou câmara. O ecrã de Definições também foi completamente redesenhado.",
+  "sections": [
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.18.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.18.0-1@2x.png",
+      "alt": "Aplicação Frames de fotografia analógica com biblioteca e pesquisa melhoradas",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Explore o seu histórico por data"
+    },
+    {
+      "type": "paragraph",
+      "content": "Encontrar um rolo específico numa biblioteca grande ficou muito mais fácil. As películas estão agora agrupadas intuitivamente por data, permitindo-lhe navegar rapidamente pelo seu histórico de fotografias. Quer esteja à procura das fotos da semana passada ou de algo de há meses, a organização cronológica ajuda-o a chegar lá mais depressa."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Pesquisa mais poderosa"
+    },
+    {
+      "type": "paragraph",
+      "content": "A pesquisa agora vai além dos nomes das películas. Pode filtrar a sua biblioteca por tipo de película ou câmara, tornando fácil encontrar todos os rolos que fotografou com uma emulsão particular ou um corpo específico. À medida que escreve, aparecem sugestões para o ajudar a encontrar o que procura ainda mais rapidamente."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Um gravador mais ágil"
+    },
+    {
+      "type": "paragraph",
+      "content": "O gravador está agora mais reativo, com animações mais fluidas para uma experiência de gravação mais ágil. Anteriormente, dispositivos mais antigos com iOS 17 e iOS 18 podiam apresentar alguma lentidão, isso agora é coisa do passado."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Definições redesenhadas"
+    },
+    {
+      "type": "paragraph",
+      "content": "O ecrã de Definições foi completamente renovado com um design mais limpo e moderno. Tudo é mais fácil de encontrar e navegar, dando-lhe acesso rápido a todas as opções de que precisa para personalizar a sua experiência com o Frames."
+    }
+  ],
+  "improvements": [
+    "As películas estão agora agrupadas por data para uma navegação mais fácil",
+    "Filtros de pesquisa por tipo de película e câmara além do nome",
+    "Sugestões de pesquisa ao iniciar uma nova pesquisa",
+    "Cores da barra de ferramentas refinadas para o modo claro no iOS 17 e iOS 18",
+    "Ecrã de Definições completamente redesenhado",
+    "Diálogos de confirmação de eliminação melhorados para prevenir remoções acidentais",
+    "Cores de registo refinadas para o Modo Claro no iOS 17 e iOS 18",
+    "Melhorias menores de tradução em todos os idiomas suportados"
+  ],
+  "fixes": [
+    {
+      "title": "Gravação da data do fotograma",
+      "description": "Corrigido um problema em que as alterações de data dos fotogramas não eram guardadas corretamente."
+    },
+    {
+      "title": "Atraso nas sequências personalizadas",
+      "description": "Corrigido um atraso em que as sequências personalizadas de abertura e velocidade do obturador demoravam vários minutos a aparecer na barra de ferramentas."
+    }
+  ],
+  "patches": [],
+  "meta_title": "Melhorias na biblioteca, pesquisa e configurações - Frames",
+  "meta_description": "Explore a biblioteca por data e pesquise por tipo de película ou câmara. Ecrã de Definições redesenhado."
+}

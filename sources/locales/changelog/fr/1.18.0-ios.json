@@ -1,0 +1,78 @@
+{
+  "version": "1.18.0",
+  "version_short": "1.18",
+  "url_slug": "1-18-ios",
+  "platform": "ios",
+  "release_date": "2026-01-01T10:00:00.000Z",
+  "title": "Améliorations de la bibliothèque, de la recherche et des réglages",
+  "summary": "Cette mise à jour apporte de nouvelles façons de parcourir et rechercher votre photothèque. Les pellicules sont désormais regroupées par date pour faciliter la navigation, et vous pouvez filtrer vos recherches par type de pellicule ou appareil photo. L'écran des réglages a également été entièrement repensé.",
+  "sections": [
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.18.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.18.0-1@2x.png",
+      "alt": "Application Frames pour la photographie argentique avec bibliothèque et recherche améliorées",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Parcourez votre historique par date"
+    },
+    {
+      "type": "paragraph",
+      "content": "Retrouver une pellicule spécifique dans une grande photothèque est désormais beaucoup plus simple. Les pellicules sont regroupées intuitivement par date, vous permettant de naviguer rapidement dans votre historique de prises de vue. Que vous cherchiez les photos de la semaine dernière ou quelque chose datant de plusieurs mois, l'organisation chronologique vous aide à y accéder plus vite."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Une recherche plus puissante"
+    },
+    {
+      "type": "paragraph",
+      "content": "La recherche va désormais au-delà des noms de pellicules. Vous pouvez filtrer votre photothèque par type de pellicule ou appareil photo, ce qui facilite la recherche de toutes les pellicules prises avec une émulsion particulière ou un boîtier spécifique. Au fur et à mesure que vous tapez, des suggestions apparaissent pour vous aider à trouver ce que vous cherchez encore plus rapidement."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Un enregistreur plus réactif"
+    },
+    {
+      "type": "paragraph",
+      "content": "L'enregistreur est désormais plus réactif, avec des animations plus fluides pour une expérience d'enregistrement plus vive. Auparavant, les appareils plus anciens sous iOS 17 et iOS 18 pouvaient connaître des ralentissements, c'est maintenant du passé."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Réglages repensés"
+    },
+    {
+      "type": "paragraph",
+      "content": "L'écran des réglages a été entièrement revu avec un design plus épuré et moderne. Tout est plus facile à trouver et à naviguer, vous donnant un accès rapide à toutes les options dont vous avez besoin pour personnaliser votre expérience Frames."
+    }
+  ],
+  "improvements": [
+    "Les pellicules sont désormais regroupées par date pour faciliter la navigation",
+    "Filtres de recherche par type de pellicule et appareil photo en plus du nom",
+    "Suggestions de recherche lors du lancement d'une nouvelle recherche",
+    "Enregistreur plus réactif avec des animations plus fluides sur iOS 17 et iOS 18",
+    "Écran des réglages entièrement repensé",
+    "Boîtes de dialogue de confirmation de suppression améliorées pour éviter les suppressions accidentelles",
+    "Couleurs de barre d'outils affinées pour le mode clair sur iOS 17 et iOS 18",
+    "Améliorations mineures des traductions dans toutes les langues prises en charge"
+  ],
+  "fixes": [
+    {
+      "title": "Sauvegarde de la date des frames",
+      "description": "Correction d'un problème où les modifications de date des frames n'étaient pas enregistrées correctement."
+    },
+    {
+      "title": "Délai des séquences personnalisées",
+      "description": "Correction d'un délai où les séquences personnalisées d'ouverture et de vitesse d'obturation prenaient plusieurs minutes à apparaître dans la barre d'outils."
+    }
+  ],
+  "patches": [],
+  "meta_title": "Améliorations bibliothèque, recherche et réglages - Frames",
+  "meta_description": "Parcourez votre photothèque par date et filtrez par pellicule ou appareil. Écran des réglages repensé."
+}

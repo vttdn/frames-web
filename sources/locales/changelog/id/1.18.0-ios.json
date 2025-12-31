@@ -1,0 +1,78 @@
+{
+  "version": "1.18.0",
+  "version_short": "1.18",
+  "url_slug": "1-18-ios",
+  "platform": "ios",
+  "release_date": "2026-01-01T10:00:00.000Z",
+  "title": "Perbaikan perpustakaan, pencarian, dan pengaturan",
+  "summary": "Pembaruan ini menghadirkan cara baru yang canggih untuk menjelajahi dan mencari perpustakaan Anda. Film sekarang dikelompokkan berdasarkan tanggal untuk navigasi yang lebih mudah, dan Anda dapat memfilter pencarian berdasarkan jenis film atau kamera. Layar Pengaturan juga telah sepenuhnya didesain ulang.",
+  "sections": [
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.18.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.18.0-1@2x.png",
+      "alt": "Aplikasi fotografi film Frames dengan perpustakaan dan pencarian yang ditingkatkan",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Jelajahi riwayat Anda berdasarkan tanggal"
+    },
+    {
+      "type": "paragraph",
+      "content": "Menemukan film tertentu di perpustakaan besar sekarang jauh lebih mudah. Film dikelompokkan secara intuitif berdasarkan tanggal, memungkinkan Anda menavigasi dengan cepat melalui riwayat pemotretan. Baik Anda mencari foto minggu lalu atau sesuatu dari berbulan-bulan yang lalu, pengorganisasian kronologis membantu Anda sampai di sana lebih cepat."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Pencarian lebih canggih"
+    },
+    {
+      "type": "paragraph",
+      "content": "Pencarian sekarang melampaui nama film. Anda dapat memfilter perpustakaan berdasarkan jenis film atau kamera, memudahkan untuk menemukan semua rol yang Anda ambil dengan emulsi atau bodi tertentu. Saat Anda mengetik, saran muncul untuk membantu Anda menemukan apa yang Anda cari lebih cepat lagi."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Perekam yang lebih responsif"
+    },
+    {
+      "type": "paragraph",
+      "content": "Perekam sekarang lebih responsif dengan animasi yang lebih halus untuk pengalaman pencatatan yang lebih cepat. Sebelumnya, perangkat lama dengan iOS 17 dan iOS 18 mungkin mengalami kelambatan, itu sekarang sudah menjadi masa lalu."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Pengaturan yang didesain ulang"
+    },
+    {
+      "type": "paragraph",
+      "content": "Layar Pengaturan telah sepenuhnya diperbarui dengan desain yang lebih bersih dan modern. Semuanya lebih mudah ditemukan dan dinavigasi, memberi Anda akses cepat ke semua opsi yang Anda butuhkan untuk menyesuaikan pengalaman Frames Anda."
+    }
+  ],
+  "improvements": [
+    "Film sekarang dikelompokkan berdasarkan tanggal untuk navigasi yang lebih mudah",
+    "Filter pencarian untuk jenis film dan kamera selain nama",
+    "Saran pencarian saat memulai pencarian baru",
+    "Perekam lebih responsif dengan animasi lebih halus di iOS 17 dan iOS 18",
+    "Layar Pengaturan yang sepenuhnya didesain ulang",
+    "Dialog konfirmasi penghapusan yang ditingkatkan untuk mencegah penghapusan tidak disengaja",
+    "Warna toolbar yang disempurnakan untuk Mode Terang di iOS 17 dan iOS 18",
+    "Perbaikan terjemahan kecil di semua bahasa yang didukung"
+  ],
+  "fixes": [
+    {
+      "title": "Penyimpanan tanggal frame",
+      "description": "Memperbaiki masalah di mana perubahan tanggal frame tidak disimpan dengan benar."
+    },
+    {
+      "title": "Penundaan urutan kustom",
+      "description": "Memperbaiki penundaan di mana urutan aperture dan kecepatan rana kustom membutuhkan beberapa menit untuk muncul di toolbar."
+    }
+  ],
+  "patches": [],
+  "meta_title": "Perbaikan perpustakaan, pencarian, dan pengaturan - Frames",
+  "meta_description": "Jelajahi perpustakaan berdasarkan tanggal dan filter berdasarkan jenis film atau kamera. Layar Pengaturan didesain ulang."
+}

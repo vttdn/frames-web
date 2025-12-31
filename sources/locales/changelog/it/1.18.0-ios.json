@@ -1,0 +1,77 @@
+{
+  "version": "1.18.0",
+  "version_short": "1.18",
+  "url_slug": "1-18-ios",
+  "platform": "ios",
+  "release_date": "2026-01-01T10:00:00.000Z",
+  "title": "Miglioramenti a libreria, ricerca e impostazioni",
+  "summary": "Questo aggiornamento introduce nuovi modi potenti per sfogliare e cercare nella tua libreria. Le pellicole sono ora raggruppate per data per una navigazione più semplice, e puoi filtrare le ricerche per tipo di pellicola o fotocamera. La schermata Impostazioni è stata completamente ridisegnata.",
+  "sections": [
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.18.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.18.0-1@2x.png",
+      "alt": "App Frames per fotografia analogica con libreria e ricerca migliorate",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Sfoglia la tua cronologia per data"
+    },
+    {
+      "type": "paragraph",
+      "content": "Trovare un rullino specifico in una grande libreria è ora molto più semplice. Le pellicole sono raggruppate intuitivamente per data, permettendoti di navigare rapidamente nella tua cronologia di scatti. Che tu stia cercando le foto della settimana scorsa o qualcosa di mesi fa, l'organizzazione cronologica ti aiuta ad arrivarci più velocemente."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Ricerca più potente"
+    },
+    {
+      "type": "paragraph",
+      "content": "La ricerca ora va oltre i nomi delle pellicole. Puoi filtrare la tua libreria per tipo di pellicola o fotocamera, rendendo facile trovare tutti i rullini scattati con una particolare emulsione o un corpo macchina specifico. Mentre digiti, appaiono suggerimenti per aiutarti a trovare quello che cerchi ancora più velocemente."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Un registratore più reattivo"
+    },
+    {
+      "type": "paragraph",
+      "content": "Il registratore è ora più reattivo, con animazioni più fluide per un'esperienza di registrazione più scattante. In precedenza, i dispositivi più vecchi con iOS 17 e iOS 18 potevano riscontrare rallentamenti, ora questo è un ricordo del passato."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Impostazioni ridisegnate"
+    },
+    {
+      "type": "paragraph",
+      "content": "La schermata Impostazioni è stata completamente rinnovata con un design più pulito e moderno. Tutto è più facile da trovare e navigare, dandoti accesso rapido a tutte le opzioni di cui hai bisogno per personalizzare la tua esperienza con Frames."
+    }
+  ],
+  "improvements": [
+    "Le pellicole sono ora raggruppate per data per una navigazione più semplice",
+    "Filtri di ricerca per tipo di pellicola e fotocamera oltre al nome",
+    "Suggerimenti di ricerca all'avvio di una nuova ricerca",
+    "Schermata Impostazioni completamente ridisegnata",
+    "Dialoghi di conferma eliminazione migliorati per prevenire rimozioni accidentali",
+    "Colori della barra degli strumenti perfezionati per la modalità chiara su iOS 17 e iOS 18",
+    "Miglioramenti minori delle traduzioni in tutte le lingue supportate"
+  ],
+  "fixes": [
+    {
+      "title": "Salvataggio data fotogramma",
+      "description": "Risolto un problema per cui le modifiche alla data dei fotogrammi non venivano salvate correttamente."
+    },
+    {
+      "title": "Ritardo sequenze personalizzate",
+      "description": "Risolto un ritardo per cui le sequenze personalizzate di apertura e velocità dell'otturatore impiegavano diversi minuti per apparire nella barra degli strumenti."
+    }
+  ],
+  "patches": [],
+  "meta_title": "Miglioramenti a libreria, ricerca e impostazioni - Frames",
+  "meta_description": "Sfoglia la libreria per data e cerca per tipo di pellicola o fotocamera. Schermata Impostazioni ridisegnata."
+}

@@ -1,0 +1,78 @@
+{
+  "version": "1.18.0",
+  "version_short": "1.18",
+  "url_slug": "1-18-ios",
+  "platform": "ios",
+  "release_date": "2026-01-01T10:00:00.000Z",
+  "title": "Kütüphane, arama ve ayarlar iyileştirmeleri",
+  "summary": "Bu güncelleme, kütüphanenizi taramak ve aramak için güçlü yeni yollar getiriyor. Filmler artık daha kolay gezinti için tarihe göre gruplandı ve aramaları film türüne veya kameraya göre filtreleyebilirsiniz. Ayarlar ekranı da tamamen yeniden tasarlandı.",
+  "sections": [
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.18.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.18.0-1@2x.png",
+      "alt": "Geliştirilmiş kütüphane ve arama ile Frames film fotoğrafçılığı uygulaması",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Geçmişinizi tarihe göre tarayın"
+    },
+    {
+      "type": "paragraph",
+      "content": "Büyük bir kütüphanede belirli bir film bulmak artık çok daha kolay. Filmler sezgisel olarak tarihe göre gruplandı, çekim geçmişinizde hızlıca gezinmenizi sağlıyor. Geçen haftanın çekimlerini veya aylar öncesinden bir şey arıyor olun, kronolojik düzenleme oraya daha hızlı ulaşmanıza yardımcı olur."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Daha güçlü arama"
+    },
+    {
+      "type": "paragraph",
+      "content": "Arama artık film adlarının ötesine geçiyor. Kütüphanenizi film türüne veya kameraya göre filtreleyebilir, belirli bir emülsiyon veya gövde ile çektiğiniz tüm ruloları kolayca bulabilirsiniz. Yazarken, aradığınızı daha da hızlı bulmanıza yardımcı olacak öneriler belirir."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Daha hızlı bir kaydedici"
+    },
+    {
+      "type": "paragraph",
+      "content": "Kaydedici artık daha hızlı kayıt deneyimi için daha akıcı animasyonlarla daha duyarlı. Daha önce iOS 17 ve iOS 18 çalıştıran eski cihazlarda gecikme yaşanabiliyordu, bu artık geçmişte kaldı."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Yeniden tasarlanan Ayarlar"
+    },
+    {
+      "type": "paragraph",
+      "content": "Ayarlar ekranı daha temiz, daha modern bir tasarımla tamamen yenilendi. Her şey bulmak ve gezinmek için daha kolay, Frames deneyiminizi özelleştirmek için ihtiyacınız olan tüm seçeneklere hızlı erişim sağlıyor."
+    }
+  ],
+  "improvements": [
+    "Filmler artık daha kolay gezinti için tarihe göre gruplandı",
+    "Ada ek olarak film türü ve kameraya göre arama filtreleri",
+    "Yeni bir arama başlatırken arama önerileri",
+    "iOS 17 ve iOS 18'de açık mod için iyileştirilmiş araç çubuğu renkleri",
+    "Tamamen yeniden tasarlanan Ayarlar ekranı",
+    "Kazara silmeleri önlemek için geliştirilmiş silme onay diyalogları",
+    "iOS 17 ve iOS 18'de Açık Mod için iyileştirilmiş kayıt renkleri",
+    "Desteklenen tüm dillerde küçük çeviri iyileştirmeleri"
+  ],
+  "fixes": [
+    {
+      "title": "Kare tarihi kaydetme",
+      "description": "Kare tarih değişikliklerinin doğru şekilde kaydedilmediği bir sorun düzeltildi."
+    },
+    {
+      "title": "Özel diziler gecikmesi",
+      "description": "Özel diyafram ve deklanşör hızı dizilerinin araç çubuğunda görünmesinin birkaç dakika sürdüğü bir gecikme düzeltildi."
+    }
+  ],
+  "patches": [],
+  "meta_title": "Kütüphane, arama ve ayarlar iyileştirmeleri - Frames",
+  "meta_description": "Kütüphanenizi tarihe göre tarayın ve film türü veya kameraya göre filtreleyin. Yeniden tasarlanan Ayarlar."
+}

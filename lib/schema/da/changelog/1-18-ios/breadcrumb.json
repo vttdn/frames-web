@@ -1,0 +1,23 @@
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Hjem",
+      "item": "https://withframes.com/da/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Ændringslog",
+      "item": "https://withframes.com/da/changelog/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Forbedringer af bibliotek, søgning og indstillinger",
+      "item": "https://withframes.com/da/changelog/1-18-ios/"
+    }  ]
+}

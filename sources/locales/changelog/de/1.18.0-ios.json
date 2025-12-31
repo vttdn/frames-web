@@ -1,0 +1,78 @@
+{
+  "version": "1.18.0",
+  "version_short": "1.18",
+  "url_slug": "1-18-ios",
+  "platform": "ios",
+  "release_date": "2026-01-01T10:00:00.000Z",
+  "title": "Verbesserungen bei Bibliothek, Suche und Einstellungen",
+  "summary": "Dieses Update bringt leistungsstarke neue Möglichkeiten, Ihre Bibliothek zu durchsuchen. Filmrollen werden jetzt nach Datum gruppiert für einfachere Navigation, und Sie können Suchergebnisse nach Filmtyp oder Kamera filtern. Der Einstellungsbildschirm wurde ebenfalls komplett neu gestaltet.",
+  "sections": [
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.18.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.18.0-1@2x.png",
+      "alt": "Frames Analogfotografie-App mit verbesserter Bibliothek und Suche",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Durchsuchen Sie Ihren Verlauf nach Datum"
+    },
+    {
+      "type": "paragraph",
+      "content": "Eine bestimmte Filmrolle in einer großen Bibliothek zu finden ist jetzt viel einfacher. Filmrollen werden intuitiv nach Datum gruppiert, sodass Sie schnell durch Ihren Aufnahmeverlauf navigieren können. Ob Sie nach den Aufnahmen der letzten Woche oder etwas von vor Monaten suchen, die zeitbasierte Organisation hilft Ihnen, schneller ans Ziel zu kommen."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Leistungsstärkere Suche"
+    },
+    {
+      "type": "paragraph",
+      "content": "Die Suche geht jetzt über Filmrollennamen hinaus. Sie können Ihre Bibliothek nach Filmtyp oder Kamera filtern, was es einfach macht, alle Filmrollen zu finden, die Sie mit einer bestimmten Emulsion oder einem bestimmten Gehäuse aufgenommen haben. Während Sie tippen, erscheinen Vorschläge, die Ihnen helfen, noch schneller zu finden, was Sie suchen."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Ein reaktionsschnellerer Rekorder"
+    },
+    {
+      "type": "paragraph",
+      "content": "Der Rekorder ist jetzt reaktionsschneller mit flüssigeren Animationen für ein schnelleres Aufnahmeerlebnis. Früher konnten ältere Geräte mit iOS 17 und iOS 18 Verzögerungen aufweisen, das gehört jetzt der Vergangenheit an."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Neu gestaltete Einstellungen"
+    },
+    {
+      "type": "paragraph",
+      "content": "Der Einstellungsbildschirm wurde komplett überarbeitet mit einem saubereren, moderneren Design. Alles ist einfacher zu finden und zu navigieren, sodass Sie schnellen Zugriff auf alle Optionen haben, die Sie brauchen, um Ihr Frames-Erlebnis anzupassen."
+    }
+  ],
+  "improvements": [
+    "Filmrollen werden jetzt nach Datum gruppiert für einfachere Navigation",
+    "Suchfilter für Filmtyp und Kamera zusätzlich zum Namen",
+    "Suchvorschläge beim Starten einer neuen Suche",
+    "Reaktionsschnellerer Rekorder mit flüssigeren Animationen auf iOS 17 und iOS 18",
+    "Komplett neu gestalteter Einstellungsbildschirm",
+    "Verbesserte Löschbestätigungsdialoge zur Vermeidung versehentlicher Löschungen",
+    "Verfeinerte Symbolleistenfarben für den hellen Modus unter iOS 17 und iOS 18",
+    "Kleinere Übersetzungsverbesserungen in allen unterstützten Sprachen"
+  ],
+  "fixes": [
+    {
+      "title": "Speichern des Einzelbild-Datums",
+      "description": "Ein Problem wurde behoben, bei dem Änderungen am Einzelbild-Datum nicht korrekt gespeichert wurden."
+    },
+    {
+      "title": "Verzögerung bei benutzerdefinierten Sequenzen",
+      "description": "Eine Verzögerung wurde behoben, bei der benutzerdefinierte Blenden- und Verschlusszeitsequenzen mehrere Minuten brauchten, um in der Werkzeugleiste zu erscheinen."
+    }
+  ],
+  "patches": [],
+  "meta_title": "Bibliothek, Suche und Einstellungen verbessert - Frames",
+  "meta_description": "Bibliothek nach Datum durchsuchen und nach Filmtyp oder Kamera filtern. Mit neu gestaltetem Einstellungsbildschirm."
+}

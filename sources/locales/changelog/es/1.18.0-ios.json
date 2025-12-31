@@ -1,0 +1,78 @@
+{
+  "version": "1.18.0",
+  "version_short": "1.18",
+  "url_slug": "1-18-ios",
+  "platform": "ios",
+  "release_date": "2026-01-01T10:00:00.000Z",
+  "title": "Mejoras en biblioteca, búsqueda y ajustes",
+  "summary": "Esta actualización trae nuevas formas poderosas de explorar y buscar en tu biblioteca. Las películas ahora están agrupadas por fecha para una navegación más fácil, y puedes filtrar búsquedas por tipo de película o cámara. La pantalla de Ajustes también ha sido completamente rediseñada.",
+  "sections": [
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.18.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.18.0-1@2x.png",
+      "alt": "Aplicación Frames de fotografía analógica con biblioteca y búsqueda mejoradas",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Explora tu historial por fecha"
+    },
+    {
+      "type": "paragraph",
+      "content": "Encontrar un rollo específico en una biblioteca grande ahora es mucho más fácil. Las películas están agrupadas intuitivamente por fecha, permitiéndote navegar rápidamente por tu historial de fotografías. Ya sea que busques las tomas de la semana pasada o algo de hace meses, la organización cronológica te ayuda a llegar más rápido."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Búsqueda más potente"
+    },
+    {
+      "type": "paragraph",
+      "content": "La búsqueda ahora va más allá de los nombres de películas. Puedes filtrar tu biblioteca por tipo de película o cámara, facilitando encontrar todos los rollos que disparaste con una emulsión particular o un cuerpo específico. A medida que escribes, aparecen sugerencias para ayudarte a encontrar lo que buscas aún más rápido."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Un registrador más ágil"
+    },
+    {
+      "type": "paragraph",
+      "content": "El registrador ahora es más reactivo, con animaciones más fluidas para una experiencia de registro más ágil. Anteriormente, los dispositivos más antiguos con iOS 17 e iOS 18 podían experimentar cierta lentitud, eso ya es cosa del pasado."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Ajustes rediseñados"
+    },
+    {
+      "type": "paragraph",
+      "content": "La pantalla de Ajustes ha sido completamente renovada con un diseño más limpio y moderno. Todo es más fácil de encontrar y navegar, dándote acceso rápido a todas las opciones que necesitas para personalizar tu experiencia con Frames."
+    }
+  ],
+  "improvements": [
+    "Las películas ahora están agrupadas por fecha para una navegación más fácil",
+    "Filtros de búsqueda por tipo de película y cámara además del nombre",
+    "Sugerencias de búsqueda al iniciar una nueva búsqueda",
+    "Colores de barra de herramientas refinados para el modo claro en iOS 17 e iOS 18",
+    "Pantalla de Ajustes completamente rediseñada",
+    "Diálogos de confirmación de eliminación mejorados para prevenir borrados accidentales",
+    "Colores de registro refinados para el Modo Claro en iOS 17 e iOS 18",
+    "Mejoras menores de traducción en todos los idiomas soportados"
+  ],
+  "fixes": [
+    {
+      "title": "Guardado de fecha de fotograma",
+      "description": "Se corrigió un problema donde los cambios de fecha de los fotogramas no se guardaban correctamente."
+    },
+    {
+      "title": "Retraso en secuencias personalizadas",
+      "description": "Se corrigió un retraso donde las secuencias personalizadas de apertura y velocidad tardaban en aparecer."
+    }
+  ],
+  "patches": [],
+  "meta_title": "Mejoras en biblioteca, búsqueda y ajustes - Frames",
+  "meta_description": "Explora tu biblioteca por fecha y filtra por tipo de película o cámara. Pantalla de Ajustes rediseñada."
+}

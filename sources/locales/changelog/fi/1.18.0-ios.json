@@ -1,0 +1,78 @@
+{
+  "version": "1.18.0",
+  "version_short": "1.18",
+  "url_slug": "1-18-ios",
+  "platform": "ios",
+  "release_date": "2026-01-01T10:00:00.000Z",
+  "title": "Parannuksia kirjastoon, hakuun ja asetuksiin",
+  "summary": "Tämä päivitys tuo tehokkaita uusia tapoja selata ja etsiä kirjastostasi. Filmirullat on nyt ryhmitelty päivämäärän mukaan helpompaa navigointia varten, ja voit suodattaa hakuja filmityypin tai kameran mukaan. Asetukset-näyttö on myös täysin uudistettu.",
+  "sections": [
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.18.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.18.0-1@2x.png",
+      "alt": "Frames-filmivalokuvaussovellus parannetulla kirjastolla ja haulla",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Selaa historiaasi päivämäärän mukaan"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tietyn filmirullan löytäminen suuresta kirjastosta on nyt paljon helpompaa. Filmirullat on intuitiivisesti ryhmitelty päivämäärän mukaan, joten voit nopeasti navigoida kuvaushistoriassasi. Etsitpä sitten viime viikon kuvia tai jotain kuukausien takaa, kronologinen järjestys auttaa pääsemään perille nopeammin."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Tehokkaampi haku"
+    },
+    {
+      "type": "paragraph",
+      "content": "Haku menee nyt filmirullien nimien ulkopuolelle. Voit suodattaa kirjastoasi filmityypin tai kameran mukaan, mikä helpottaa kaikkien tietyllä emulsiolla tai tietyllä kamerarungolla kuvattujen rullien löytämistä. Kirjoittaessasi ehdotuksia ilmestyy auttamaan sinua löytämään etsimäsi vieläkin nopeammin."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Nopeampi tallennin"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tallennin on nyt responsiivisempi ja animaatiot ovat sulavampia nopeampaa tallennuskokemusta varten. Aiemmin vanhemmat laitteet iOS 17:llä ja iOS 18:lla saattoivat kokea viivettä, se on nyt historiaa."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Uudistetut Asetukset"
+    },
+    {
+      "type": "paragraph",
+      "content": "Asetukset-näyttö on täysin uudistettu puhtaammalla, modernimmalla muotoilulla. Kaikki on helpompi löytää ja navigoida, antaen sinulle nopean pääsyn kaikkiin vaihtoehtoihin, joita tarvitset Frames-kokemuksesi mukauttamiseen."
+    }
+  ],
+  "improvements": [
+    "Filmirullat on nyt ryhmitelty päivämäärän mukaan helpompaa navigointia varten",
+    "Hakusuodattimet filmityypille ja kameralle nimen lisäksi",
+    "Hakuehdotukset uuden haun aloittaessa",
+    "Hienosäädetyt työkalupalkin värit vaalealle tilalle iOS 17:ssä ja iOS 18:ssa",
+    "Täysin uudistettu Asetukset-näyttö",
+    "Parannetut poiston vahvistusikkunat tahattomien poistojen estämiseksi",
+    "Hienosäädetyt tallennusvärit Vaalealle tilalle iOS 17:ssä ja iOS 18:ssa",
+    "Pieniä käännösparannuksia kaikilla tuetuilla kielillä"
+  ],
+  "fixes": [
+    {
+      "title": "Kehyksen päivämäärän tallennus",
+      "description": "Korjattu ongelma, jossa kehysten päivämäärämuutokset eivät tallentuneet oikein."
+    },
+    {
+      "title": "Mukautettujen sekvenssien viive",
+      "description": "Korjattu viive, jossa mukautetut aukko- ja suljinaikasekvenssit kestivät useita minuutteja ilmestyä työkalupalkkiin."
+    }
+  ],
+  "patches": [],
+  "meta_title": "Parannuksia kirjastoon, hakuun ja asetuksiin - Frames",
+  "meta_description": "Selaa kirjastoa päivämäärän mukaan ja suodata filmityypin tai kameran mukaan. Uudistettu Asetukset-näyttö."
+}
