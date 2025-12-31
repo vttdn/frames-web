@@ -346,6 +346,7 @@
     "appstore_ios": "https://apps.apple.com/hk/app/frames-膠片攝影筆記/id6744057317?l=zh-Hant",
     "appstore_macos": "https://apps.apple.com/hk/app/frames-底片中繼資料/id6744063354?mt=12&l=zh-Hant",
     "documentation": "docs/",
+    "blog": "blog/",
     "changelog": "changelog/",
     "privacy": "privacy/"
   },
@@ -466,6 +467,35 @@
     "meta": {
       "title": "如何使用Frames記錄和嵌入底片攝影中繼資料",
       "description": "了解如何使用Frames記錄底片相機設定，整理底片，並在iPhone和Mac上將EXIF中繼資料嵌入掃描影像中。"
+    }
+  },
+  "blog": {
+    "meta": {
+      "title": "部落格 - Frames",
+      "description": "探索底片攝影指南、拍攝技巧、相機評測、類比工作流程建議，以及如何有效使用 Frames 應用程式。",
+      "canonical_url": "https://withframes.com/zh-hant/blog/"
+    },
+    "heading": "部落格",
+    "labels": {
+      "by_author": "作者",
+      "published_on": "發布於",
+      "category": "分類",
+      "all_posts": "所有文章",
+      "in_category": "分類於",
+      "previous": "上一篇",
+      "next": "下一篇",
+      "contents": "目錄",
+      "filed_under": "分類",
+      "author": "作者",
+      "updated": "更新"
+    },
+    "pagination": {
+      "previous": "上一頁",
+      "next": "下一頁",
+      "page": "第",
+      "page_suffix": "頁",
+      "newer_posts": "較新文章",
+      "older_posts": "較舊文章"
     }
   }
 }

@@ -345,6 +345,7 @@
     "appstore_ios": "https://apps.apple.com/ro/app/frames-notițe-film/id6744057317?l=ro",
     "appstore_macos": "https://apps.apple.com/ro/app/frames-metadate-film-foto/id6744063354?l=ro",
     "documentation": "docs/",
+    "blog": "blog/",
     "changelog": "changelog/",
     "privacy": "politica-confidentialitate/"
   },
@@ -465,6 +466,35 @@
     "meta": {
       "title": "Cum să înregistrezi și să încorporezi metadate de fotografie pe film cu Frames",
       "description": "Învață cum să folosești Frames pentru a înregistra setările camerei pe film, să-ți organizezi ruloul și să încorporezi metadate EXIF în imaginile scanate pe iPhone și Mac."
+    }
+  },
+  "blog": {
+    "meta": {
+      "title": "Blog - Frames",
+      "description": "Descopera ghiduri de fotografie pe film, sfaturi de fotografiere, recenzii de camere si moduri practice de a folosi aplicatia Frames.",
+      "canonical_url": "https://withframes.com/ro/blog/"
+    },
+    "heading": "Blog",
+    "labels": {
+      "by_author": "de",
+      "published_on": "Publicat pe",
+      "category": "Categorie",
+      "all_posts": "Toate articolele",
+      "in_category": "in",
+      "previous": "Anterior",
+      "next": "Urmator",
+      "contents": "Cuprins",
+      "filed_under": "Categorie",
+      "author": "Autor",
+      "updated": "Actualizat"
+    },
+    "pagination": {
+      "previous": "Anterior",
+      "next": "Urmator",
+      "page": "Pagina",
+      "page_suffix": "",
+      "newer_posts": "Articole mai noi",
+      "older_posts": "Articole mai vechi"
     }
   }
 }

@@ -1,0 +1,24 @@
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "主頁",
+      "item": "https://withframes.com/zh-hant/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "部落格",
+      "item": "https://withframes.com/zh-hant/blog/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "器材",
+      "item": "https://withframes.com/zh-hant/blog/topic/qicai/"
+    }
+  ]
+}

@@ -346,6 +346,7 @@
     "appstore_ios": "https://apps.apple.com/in/app/frames-फ-ल-म-म-ट-ड-ट/id6744063354?l=hi",
     "appstore_macos": "https://apps.apple.com/in/app/frames-फ-ल-म-म-ट-ड-ट/id6744063354?l=hi",
     "documentation": "docs/",
+    "blog": "blog/",
     "changelog": "changelog/",
     "privacy": "privacy/"
   },
@@ -466,6 +467,35 @@
     "meta": {
       "title": "Frames के साथ फ़िल्म फ़ोटोग्राफ़ी मेटाडेटा को लॉग और एम्बेड कैसे करें",
       "description": "iPhone और Mac पर अपनी स्कैन की गई छवियों में फ़िल्म कैमरा सेटिंग्स को लॉग करने, अपने रोल्स को व्यवस्थित करने और EXIF मेटाडेटा एम्बेड करने के लिए Frames का उपयोग करना सीखें।"
+    }
+  },
+  "blog": {
+    "meta": {
+      "title": "ब्लॉग - Frames",
+      "description": "फिल्म फोटोग्राफी गाइड, शूटिंग टिप्स, कैमरा रिव्यू, एनालॉग वर्कफ्लो सलाह और Frames ऐप का उपयोग करने के तरीके खोजें।",
+      "canonical_url": "https://withframes.com/hi/blog/"
+    },
+    "heading": "ब्लॉग",
+    "labels": {
+      "by_author": "द्वारा",
+      "published_on": "प्रकाशित",
+      "category": "श्रेणी",
+      "all_posts": "सभी लेख",
+      "in_category": "में",
+      "previous": "पिछला",
+      "next": "अगला",
+      "contents": "विषय-सूची",
+      "filed_under": "श्रेणी",
+      "author": "लेखक",
+      "updated": "अपडेट"
+    },
+    "pagination": {
+      "previous": "पिछला",
+      "next": "अगला",
+      "page": "पृष्ठ",
+      "page_suffix": "",
+      "newer_posts": "नए लेख",
+      "older_posts": "पुराने लेख"
     }
   }
 }

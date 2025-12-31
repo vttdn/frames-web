@@ -346,6 +346,7 @@
     "appstore_ios": "https://apps.apple.com/gr/app/frames-σημειώσεις-φιλμ/id6744057317?l=el",
     "appstore_macos": "https://apps.apple.com/gr/app/frames-μεταδεδομένα-φιλμ/id6744063354?l=el",
     "documentation": "docs/",
+    "blog": "blog/",
     "changelog": "changelog/",
     "privacy": "politiki-aporritou/"
   },
@@ -466,6 +467,35 @@
     "meta": {
       "title": "Πώς να καταγράψετε και να ενσωματώσετε μεταδεδομένα αναλογικής φωτογραφίας με το Frames",
       "description": "Μάθετε πώς να χρησιμοποιείτε το Frames για να καταγράφετε ρυθμίσεις κάμερας φιλμ, να οργανώνετε τα φιλμ σας και να ενσωματώνετε μεταδεδομένα EXIF στις σαρωμένες εικόνες σας σε iPhone και Mac."
+    }
+  },
+  "blog": {
+    "meta": {
+      "title": "Blog - Frames",
+      "description": "Ανακαλύψτε οδηγούς φωτογραφίας φιλμ, συμβουλές λήψης, κριτικές καμερών και πρακτικούς τρόπους χρήσης του Frames.",
+      "canonical_url": "https://withframes.com/el/blog/"
+    },
+    "heading": "Blog",
+    "labels": {
+      "by_author": "από",
+      "published_on": "Δημοσιεύτηκε",
+      "category": "Κατηγορία",
+      "all_posts": "Όλα τα άρθρα",
+      "in_category": "στην",
+      "previous": "Προηγούμενο",
+      "next": "Επόμενο",
+      "contents": "Περιεχόμενα",
+      "filed_under": "Κατηγορία",
+      "author": "Συγγραφέας",
+      "updated": "Ενημέρωση"
+    },
+    "pagination": {
+      "previous": "Προηγούμενο",
+      "next": "Επόμενο",
+      "page": "Σελίδα",
+      "page_suffix": "",
+      "newer_posts": "Νεότερα άρθρα",
+      "older_posts": "Παλαιότερα άρθρα"
     }
   }
 }

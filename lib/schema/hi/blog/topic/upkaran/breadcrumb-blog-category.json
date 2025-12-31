@@ -1,0 +1,24 @@
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "होम",
+      "item": "https://withframes.com/hi/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "ब्लॉग",
+      "item": "https://withframes.com/hi/blog/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "उपकरण",
+      "item": "https://withframes.com/hi/blog/topic/upkaran/"
+    }
+  ]
+}

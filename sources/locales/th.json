@@ -346,6 +346,7 @@
     "appstore_ios": "https://apps.apple.com/th/app/frames-film-photography/id6744057317?l=th",
     "appstore_macos": "https://apps.apple.com/th/app/frames-film-metadata/id6744063354?l=th",
     "documentation": "docs/",
+    "blog": "blog/",
     "changelog": "changelog/",
     "privacy": "privacy/"
   },
@@ -466,6 +467,35 @@
     "meta": {
       "title": "วิธีบันทึกและฝังข้อมูลเมตาของการถ่ายภาพฟิล์มด้วย Frames",
       "description": "เรียนรู้วิธีใช้ Frames เพื่อบันทึกการตั้งค่ากล้องฟิล์ม จัดระเบียบม้วนฟิล์มของคุณ และฝังข้อมูลเมตา EXIF ลงในภาพที่สแกนของคุณบน iPhone และ Mac"
+    }
+  },
+  "blog": {
+    "meta": {
+      "title": "บล็อก - Frames",
+      "description": "ค้นพบคู่มือการถ่ายภาพฟิล์ม เคล็ดลับการถ่ายภาพ รีวิวกล้อง คำแนะนำเวิร์กโฟลว์อนาล็อก และวิธีใช้แอป Frames",
+      "canonical_url": "https://withframes.com/th/blog/"
+    },
+    "heading": "บล็อก",
+    "labels": {
+      "by_author": "โดย",
+      "published_on": "เผยแพร่เมื่อ",
+      "category": "หมวดหมู่",
+      "all_posts": "บทความทั้งหมด",
+      "in_category": "ใน",
+      "previous": "ก่อนหน้า",
+      "next": "ถัดไป",
+      "contents": "สารบัญ",
+      "filed_under": "หมวดหมู่",
+      "author": "ผู้เขียน",
+      "updated": "อัปเดต"
+    },
+    "pagination": {
+      "previous": "ก่อนหน้า",
+      "next": "ถัดไป",
+      "page": "หน้า",
+      "page_suffix": "",
+      "newer_posts": "บทความใหม่กว่า",
+      "older_posts": "บทความเก่ากว่า"
     }
   }
 }
