@@ -346,6 +346,7 @@
     "appstore_ios": "https://apps.apple.com/id/app/frames-catatan-fotografi/id6744057317?l=id",
     "appstore_macos": "https://apps.apple.com/id/app/frames-metadata-foto/id6744063354?l=id",
     "documentation": "docs/",
+    "blog": "blog/",
     "changelog": "changelog/",
     "privacy": "kebijakan-privasi/"
   },
@@ -466,6 +467,35 @@
     "meta": {
       "title": "Cara Mencatat dan Menyematkan Metadata Fotografi Film dengan Frames",
       "description": "Pelajari cara menggunakan Frames untuk mencatat pengaturan kamera film, mengatur rol Anda, dan menyematkan metadata EXIF ke dalam gambar hasil scan Anda di iPhone dan Mac."
+    }
+  },
+  "blog": {
+    "meta": {
+      "title": "Blog - Frames",
+      "description": "Temukan panduan fotografi film, tips pemotretan, ulasan kamera, saran alur kerja analog, dan cara praktis menggunakan aplikasi Frames.",
+      "canonical_url": "https://withframes.com/id/blog/"
+    },
+    "heading": "Blog",
+    "labels": {
+      "by_author": "oleh",
+      "published_on": "Diterbitkan",
+      "category": "Kategori",
+      "all_posts": "Semua Artikel",
+      "in_category": "di",
+      "previous": "Sebelumnya",
+      "next": "Berikutnya",
+      "contents": "Daftar Isi",
+      "filed_under": "Kategori",
+      "author": "Penulis",
+      "updated": "Diperbarui"
+    },
+    "pagination": {
+      "previous": "Sebelumnya",
+      "next": "Berikutnya",
+      "page": "Halaman",
+      "page_suffix": "",
+      "newer_posts": "Artikel terbaru",
+      "older_posts": "Artikel lama"
     }
   }
 }

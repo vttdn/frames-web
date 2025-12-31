@@ -346,6 +346,7 @@
     "appstore_ios": "https://apps.apple.com/vn/app/frames-ghi-chú-phim-ảnh/id6744057317?l=vi",
     "appstore_macos": "https://apps.apple.com/vn/app/frames-siêu-dữ-liệu-phim/id6744063354?l=vi",
     "documentation": "docs/",
+    "blog": "blog/",
     "changelog": "changelog/",
     "privacy": "chinh-sach-rieng-tu/"
   },
@@ -466,6 +467,35 @@
     "meta": {
       "title": "Cách ghi lại và nhúng siêu dữ liệu nhiếp ảnh phim với Frames",
       "description": "Tìm hiểu cách sử dụng Frames để ghi lại cài đặt máy ảnh phim, sắp xếp cuộn phim của bạn và nhúng siêu dữ liệu EXIF vào hình ảnh đã quét trên iPhone và Mac."
+    }
+  },
+  "blog": {
+    "meta": {
+      "title": "Blog - Frames",
+      "description": "Khám phá hướng dẫn chụp ảnh phim, mẹo chụp ảnh, đánh giá máy ảnh, lời khuyên quy trình analog và cách sử dụng ứng dụng Frames hiệu quả.",
+      "canonical_url": "https://withframes.com/vi/blog/"
+    },
+    "heading": "Blog",
+    "labels": {
+      "by_author": "bởi",
+      "published_on": "Đăng ngày",
+      "category": "Chuyên mục",
+      "all_posts": "Tất cả bài viết",
+      "in_category": "trong",
+      "previous": "Trước",
+      "next": "Tiếp",
+      "contents": "Mục lục",
+      "filed_under": "Chuyên mục",
+      "author": "Tác giả",
+      "updated": "Cập nhật"
+    },
+    "pagination": {
+      "previous": "Trước",
+      "next": "Tiếp",
+      "page": "Trang",
+      "page_suffix": "",
+      "newer_posts": "Bài mới hơn",
+      "older_posts": "Bài cũ hơn"
     }
   }
 }

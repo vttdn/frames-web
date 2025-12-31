@@ -346,6 +346,7 @@
     "appstore_ios": "https://apps.apple.com/ru/app/frames-заметки-о-плёнке/id6744057317",
     "appstore_macos": "https://apps.apple.com/ru/app/frames-метаданные-плёнки/id6744063354?mt=12&l=ru",
     "documentation": "docs/",
+    "blog": "blog/",
     "changelog": "changelog/",
     "privacy": "privacy/"
   },
@@ -466,6 +467,35 @@
     "meta": {
       "title": "Как регистрировать и встраивать метаданные плёночной фотографии с помощью Frames",
       "description": "Узнайте, как использовать Frames для регистрации настроек плёночной камеры, организации ваших плёнок и встраивания метаданных EXIF в отсканированные изображения на iPhone и Mac."
+    }
+  },
+  "blog": {
+    "meta": {
+      "title": "Блог - Frames",
+      "description": "Руководства по пленочной фотографии, советы по съемке, обзоры камер, рекомендации по аналоговому рабочему процессу и практические способы использования Frames.",
+      "canonical_url": "https://withframes.com/ru/blog/"
+    },
+    "heading": "Блог",
+    "labels": {
+      "by_author": "автор",
+      "published_on": "Опубликовано",
+      "category": "Категория",
+      "all_posts": "Все статьи",
+      "in_category": "в",
+      "previous": "Назад",
+      "next": "Далее",
+      "contents": "Содержание",
+      "filed_under": "Рубрика",
+      "author": "Автор",
+      "updated": "Обновлено"
+    },
+    "pagination": {
+      "previous": "Назад",
+      "next": "Далее",
+      "page": "Страница",
+      "page_suffix": "",
+      "newer_posts": "Новые статьи",
+      "older_posts": "Старые статьи"
     }
   }
 }

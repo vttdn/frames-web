@@ -346,6 +346,7 @@
     "appstore_ios": "https://apps.apple.com/se/app/frames-filmfotonotering/id6744057317",
     "appstore_macos": "https://apps.apple.com/se/app/frames-filmmetadata/id6744063354?l=sv",
     "documentation": "docs/",
+    "blog": "blog/",
     "changelog": "changelog/",
     "privacy": "integritetspolicy/"
   },
@@ -466,6 +467,35 @@
     "meta": {
       "title": "Hur du loggar och bäddar in filmfotografimetadata med Frames",
       "description": "Lär dig hur du använder Frames för att logga filmkamerainställningar, organisera dina rullar och bädda in EXIF-metadata i dina skannade bilder på iPhone och Mac."
+    }
+  },
+  "blog": {
+    "meta": {
+      "title": "Blogg - Frames",
+      "description": "Upptäck guider för filmfotografering, fototips, kamerarecensioner, råd om analogt arbetsflöde och praktiska sätt att använda Frames-appen.",
+      "canonical_url": "https://withframes.com/sv/blogg/"
+    },
+    "heading": "Blogg",
+    "labels": {
+      "by_author": "av",
+      "published_on": "Publicerad",
+      "category": "Kategori",
+      "all_posts": "Alla artiklar",
+      "in_category": "i",
+      "previous": "Föregående",
+      "next": "Nästa",
+      "contents": "Innehåll",
+      "filed_under": "Arkiverad under",
+      "author": "Författare",
+      "updated": "Uppdaterad"
+    },
+    "pagination": {
+      "previous": "Föregående",
+      "next": "Nästa",
+      "page": "Sida",
+      "page_suffix": "",
+      "newer_posts": "Nyare inlägg",
+      "older_posts": "Äldre inlägg"
     }
   }
 }
