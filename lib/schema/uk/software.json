@@ -27,20 +27,14 @@
             "@type": "WebPage",
             "@id": "https://withframes.com/uk"
           },
-          "offers": [
-            {
-              "@type": "Offer",
-              "name": "Нотатник плівкової фотографії",
-              "price": "19.99",
-              "priceCurrency": "USD",
-              "availability": "https://schema.org/InStock",
-              "priceSpecification": {
-                "@type": "PriceSpecification",
-                "price": "19.99",
-                "priceCurrency": "USD"
-              }
-            }
-          ],
+          "offers": {
+            "@type": "Offer",
+            "name": "Нотатник плівкової фотографії",
+            "price": "19.99",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "url": "https://withframes.com/uk"
+          },
           "aggregateRating": {
             "@type": "AggregateRating",
             "ratingValue": "5",

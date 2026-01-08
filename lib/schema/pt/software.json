@@ -27,20 +27,14 @@
             "@type": "WebPage",
             "@id": "https://withframes.com/pt"
           },
-          "offers": [
-            {
-              "@type": "Offer",
-              "name": "Caderno Analógico",
-              "price": "119.90",
-              "priceCurrency": "BRL",
-              "availability": "https://schema.org/InStock",
-              "priceSpecification": {
-                "@type": "PriceSpecification",
-                "price": "119.90",
-                "priceCurrency": "BRL"
-              }
-            }
-          ],
+          "offers": {
+            "@type": "Offer",
+            "name": "Caderno Analógico",
+            "price": "119.90",
+            "priceCurrency": "BRL",
+            "availability": "https://schema.org/InStock",
+            "url": "https://withframes.com/pt"
+          },
           "aggregateRating": {
             "@type": "AggregateRating",
             "ratingValue": "5",

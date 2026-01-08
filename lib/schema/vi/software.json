@@ -27,20 +27,14 @@
             "@type": "WebPage",
             "@id": "https://withframes.com/vi"
           },
-          "offers": [
-            {
-              "@type": "Offer",
-              "name": "Sổ ghi chép nhiếp ảnh phim",
-              "price": "499000",
-              "priceCurrency": "VND",
-              "availability": "https://schema.org/InStock",
-              "priceSpecification": {
-                "@type": "PriceSpecification",
-                "price": "499000",
-                "priceCurrency": "VND"
-              }
-            }
-          ],
+          "offers": {
+            "@type": "Offer",
+            "name": "Sổ ghi chép nhiếp ảnh phim",
+            "price": "499000",
+            "priceCurrency": "VND",
+            "availability": "https://schema.org/InStock",
+            "url": "https://withframes.com/vi"
+          },
           "aggregateRating": {
             "@type": "AggregateRating",
             "ratingValue": "5",

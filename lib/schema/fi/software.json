@@ -27,20 +27,14 @@
             "@type": "WebPage",
             "@id": "https://withframes.com/fi"
           },
-          "offers": [
-            {
-              "@type": "Offer",
-              "name": "Filmin muistiinpanot",
-              "price": "19.99",
-              "priceCurrency": "EUR",
-              "availability": "https://schema.org/InStock",
-              "priceSpecification": {
-                "@type": "PriceSpecification",
-                "price": "19.99",
-                "priceCurrency": "EUR"
-              }
-            }
-          ],
+          "offers": {
+            "@type": "Offer",
+            "name": "Filmin muistiinpanot",
+            "price": "19.99",
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock",
+            "url": "https://withframes.com/fi"
+          },
           "aggregateRating": {
             "@type": "AggregateRating",
             "ratingValue": "5",

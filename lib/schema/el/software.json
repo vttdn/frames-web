@@ -27,20 +27,14 @@
             "@type": "WebPage",
             "@id": "https://withframes.com/el"
           },
-          "offers": [
-            {
-              "@type": "Offer",
-              "name": "Σημειωματάριο φιλμ",
-              "price": "19.99",
-              "priceCurrency": "EUR",
-              "availability": "https://schema.org/InStock",
-              "priceSpecification": {
-                "@type": "PriceSpecification",
-                "price": "19.99",
-                "priceCurrency": "EUR"
-              }
-            }
-          ],
+          "offers": {
+            "@type": "Offer",
+            "name": "Σημειωματάριο φιλμ",
+            "price": "19.99",
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock",
+            "url": "https://withframes.com/el"
+          },
           "aggregateRating": {
             "@type": "AggregateRating",
             "ratingValue": "5",

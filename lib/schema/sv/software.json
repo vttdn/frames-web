@@ -27,20 +27,14 @@
             "@type": "WebPage",
             "@id": "https://withframes.com/sv"
           },
-          "offers": [
-            {
-              "@type": "Offer",
-              "name": "Analog anteckningsbok",
-              "price": "229",
-              "priceCurrency": "SEK",
-              "availability": "https://schema.org/InStock",
-              "priceSpecification": {
-                "@type": "PriceSpecification",
-                "price": "229",
-                "priceCurrency": "SEK"
-              }
-            }
-          ],
+          "offers": {
+            "@type": "Offer",
+            "name": "Analog anteckningsbok",
+            "price": "229",
+            "priceCurrency": "SEK",
+            "availability": "https://schema.org/InStock",
+            "url": "https://withframes.com/sv"
+          },
           "aggregateRating": {
             "@type": "AggregateRating",
             "ratingValue": "5",

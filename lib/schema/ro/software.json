@@ -27,20 +27,14 @@
             "@type": "WebPage",
             "@id": "https://withframes.com/ro"
           },
-          "offers": [
-            {
-              "@type": "Offer",
-              "name": "Caiet de fotografie analogică",
-              "price": "99.99",
-              "priceCurrency": "RON",
-              "availability": "https://schema.org/InStock",
-              "priceSpecification": {
-                "@type": "PriceSpecification",
-                "price": "99.99",
-                "priceCurrency": "RON"
-              }
-            }
-          ],
+          "offers": {
+            "@type": "Offer",
+            "name": "Caiet de fotografie analogică",
+            "price": "99.99",
+            "priceCurrency": "RON",
+            "availability": "https://schema.org/InStock",
+            "url": "https://withframes.com/ro"
+          },
           "aggregateRating": {
             "@type": "AggregateRating",
             "ratingValue": "5",

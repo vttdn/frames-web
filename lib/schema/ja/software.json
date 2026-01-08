@@ -27,20 +27,14 @@
             "@type": "WebPage",
             "@id": "https://withframes.com/ja"
           },
-          "offers": [
-            {
-              "@type": "Offer",
-              "name": "フィルム撮影ノート",
-              "price": "3000",
-              "priceCurrency": "JPY",
-              "availability": "https://schema.org/InStock",
-              "priceSpecification": {
-                "@type": "PriceSpecification",
-                "price": "3000",
-                "priceCurrency": "JPY"
-              }
-            }
-          ],
+          "offers": {
+            "@type": "Offer",
+            "name": "フィルム撮影ノート",
+            "price": "3000",
+            "priceCurrency": "JPY",
+            "availability": "https://schema.org/InStock",
+            "url": "https://withframes.com/ja"
+          },
           "aggregateRating": {
             "@type": "AggregateRating",
             "ratingValue": "5",

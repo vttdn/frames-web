@@ -27,20 +27,14 @@
             "@type": "WebPage",
             "@id": "https://withframes.com/pl"
           },
-          "offers": [
-            {
-              "@type": "Offer",
-              "name": "Notatnik analogowy",
-              "price": "79.99",
-              "priceCurrency": "PLN",
-              "availability": "https://schema.org/InStock",
-              "priceSpecification": {
-                "@type": "PriceSpecification",
-                "price": "79.99",
-                "priceCurrency": "PLN"
-              }
-            }
-          ],
+          "offers": {
+            "@type": "Offer",
+            "name": "Notatnik analogowy",
+            "price": "79.99",
+            "priceCurrency": "PLN",
+            "availability": "https://schema.org/InStock",
+            "url": "https://withframes.com/pl"
+          },
           "aggregateRating": {
             "@type": "AggregateRating",
             "ratingValue": "5",

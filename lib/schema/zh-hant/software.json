@@ -27,20 +27,14 @@
             "@type": "WebPage",
             "@id": "https://withframes.com/zh-hant"
           },
-          "offers": [
-            {
-              "@type": "Offer",
-              "name": "膠片攝影筆記本",
-              "price": "148",
-              "priceCurrency": "HKD",
-              "availability": "https://schema.org/InStock",
-              "priceSpecification": {
-                "@type": "PriceSpecification",
-                "price": "148",
-                "priceCurrency": "HKD"
-              }
-            }
-          ],
+          "offers": {
+            "@type": "Offer",
+            "name": "膠片攝影筆記本",
+            "price": "148",
+            "priceCurrency": "HKD",
+            "availability": "https://schema.org/InStock",
+            "url": "https://withframes.com/zh-hant"
+          },
           "aggregateRating": {
             "@type": "AggregateRating",
             "ratingValue": "5",

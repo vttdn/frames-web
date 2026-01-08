@@ -27,20 +27,14 @@
             "@type": "WebPage",
             "@id": "https://withframes.com/th"
           },
-          "offers": [
-            {
-              "@type": "Offer",
-              "name": "สมุดบันทึกการถ่ายภาพฟิล์ม",
-              "price": "699",
-              "priceCurrency": "THB",
-              "availability": "https://schema.org/InStock",
-              "priceSpecification": {
-                "@type": "PriceSpecification",
-                "price": "699",
-                "priceCurrency": "THB"
-              }
-            }
-          ],
+          "offers": {
+            "@type": "Offer",
+            "name": "สมุดบันทึกการถ่ายภาพฟิล์ม",
+            "price": "699",
+            "priceCurrency": "THB",
+            "availability": "https://schema.org/InStock",
+            "url": "https://withframes.com/th"
+          },
           "aggregateRating": {
             "@type": "AggregateRating",
             "ratingValue": "5",

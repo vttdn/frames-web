@@ -27,20 +27,14 @@
             "@type": "WebPage",
             "@id": "https://withframes.com/ko"
           },
-          "offers": [
-            {
-              "@type": "Offer",
-              "name": "필름 사진 노트",
-              "price": "25000",
-              "priceCurrency": "KRW",
-              "availability": "https://schema.org/InStock",
-              "priceSpecification": {
-                "@type": "PriceSpecification",
-                "price": "25000",
-                "priceCurrency": "KRW"
-              }
-            }
-          ],
+          "offers": {
+            "@type": "Offer",
+            "name": "필름 사진 노트",
+            "price": "25000",
+            "priceCurrency": "KRW",
+            "availability": "https://schema.org/InStock",
+            "url": "https://withframes.com/ko"
+          },
           "aggregateRating": {
             "@type": "AggregateRating",
             "ratingValue": "5",
