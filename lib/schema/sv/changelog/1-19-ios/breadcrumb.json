@@ -1,0 +1,23 @@
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Hem",
+      "item": "https://withframes.com/sv/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Changelog",
+      "item": "https://withframes.com/sv/changelog/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Mappexport och snabbare filmskapande",
+      "item": "https://withframes.com/sv/changelog/1-19-ios/"
+    }  ]
+}

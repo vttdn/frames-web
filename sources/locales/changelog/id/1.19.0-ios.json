@@ -1,0 +1,66 @@
+{
+  "version": "1.19.0",
+  "version_short": "1.19",
+  "url_slug": "1-19-ios",
+  "platform": "ios",
+  "release_date": "2026-01-08T10:00:00.000Z",
+  "title": "Ekspor folder dan pembuatan film lebih cepat",
+  "summary": "Pembaruan ini mempermudah ekspor data dan menghemat waktu saat membuat film baru. Sekarang Anda dapat mengekspor seluruh folder sekaligus, dan aplikasi mengingat pengaturan terakhir Anda sehingga tidak perlu memasukkannya lagi. Antarmuka pencarian juga telah ditingkatkan, dan ada film baru yang tersedia untuk dipilih.",
+  "sections": [
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.19.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.19.0-1@2x.png",
+      "alt": "Aplikasi fotografi film Frames dengan ekspor folder dan pembuatan film lebih cepat",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Ekspor seluruh folder"
+    },
+    {
+      "type": "paragraph",
+      "content": "Saat Anda mengekspor folder, semua isinya ikut serta. Semua film Anda, subfolder, dan isinya disertakan dalam satu ekspor. Ini membuat pencadangan atau berbagi seluruh proyek atau perjalanan menjadi jauh lebih mudah tanpa harus mengekspor setiap film secara terpisah."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Buat film baru lebih cepat"
+    },
+    {
+      "type": "paragraph",
+      "content": "Membuat film baru sekarang membutuhkan lebih sedikit usaha. Aplikasi secara otomatis mengisi kamera, lensa, filter, jenis film, dan ISO berdasarkan yang terakhir Anda gunakan. Jika Anda cenderung memotret dengan pengaturan yang sama untuk sementara waktu, Anda dapat langsung mulai merekam tanpa memasukkan semuanya lagi. Tentu saja, Anda masih dapat mengubah pengaturan ini sebelum memulai."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Pencarian yang lebih bersih"
+    },
+    {
+      "type": "paragraph",
+      "content": "Antarmuka pencarian telah disempurnakan untuk kejelasan yang lebih baik. Hasil lebih mudah dipindai dan tampilannya lebih rapi. Ini adalah perubahan kecil, tetapi membuat perbedaan saat Anda menelusuri perpustakaan yang besar."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Lebih banyak film"
+    },
+    {
+      "type": "paragraph",
+      "content": "Database film terus berkembang. Pembaruan ini menambahkan pilihan baru dari Cinestill, Adox, Kodak, dan Orwo. Baik Anda menggunakan emulsi klasik atau mencoba sesuatu yang baru, kemungkinan besar sudah ada dalam daftar."
+    }
+  ],
+  "improvements": [
+    "Ekspor folder dengan semua film dan subfolder disertakan",
+    "Kamera, lensa, filter, film, dan ISO diisi otomatis dari film terakhir Anda",
+    "Tampilan pencarian yang disempurnakan untuk keterbacaan yang lebih baik",
+    "Peningkatan antarmuka dan animasi halus di seluruh aplikasi",
+    "Film baru ditambahkan dari Cinestill, Adox, Kodak, dan Orwo"
+  ],
+  "fixes": [],
+  "patches": [],
+  "meta_title": "Ekspor folder dan pembuatan film lebih cepat - Frames",
+  "meta_description": "Ekspor seluruh folder dengan semua film. Buat film lebih cepat dengan pengaturan otomatis. Film baru dan pencarian yang ditingkatkan."
+}

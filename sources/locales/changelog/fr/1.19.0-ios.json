@@ -1,0 +1,66 @@
+{
+  "version": "1.19.0",
+  "version_short": "1.19",
+  "url_slug": "1-19-ios",
+  "platform": "ios",
+  "release_date": "2026-01-08T10:00:00.000Z",
+  "title": "Export de dossiers et création de pellicules plus rapide",
+  "summary": "Cette mise à jour facilite l'exportation de vos données et vous fait gagner du temps lors de la création de nouvelles pellicules. Vous pouvez désormais exporter des dossiers entiers d'un seul coup, et l'application mémorise vos derniers réglages pour éviter les saisies répétitives. L'interface de recherche a également été améliorée, et de nouvelles émulsions sont disponibles.",
+  "sections": [
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.19.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.19.0-1@2x.png",
+      "alt": "Application Frames pour la photographie argentique avec export de dossiers et création rapide de pellicules",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Exportez des dossiers entiers"
+    },
+    {
+      "type": "paragraph",
+      "content": "Lorsque vous exportez un dossier, tout son contenu est inclus. Toutes vos pellicules, sous-dossiers et leur contenu sont regroupés dans un seul export. Cela simplifie considérablement la sauvegarde ou le partage d'un projet ou d'un voyage complet, sans avoir à exporter chaque pellicule séparément."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Créez de nouvelles pellicules plus vite"
+    },
+    {
+      "type": "paragraph",
+      "content": "Créer une nouvelle pellicule demande désormais beaucoup moins d'effort. L'application remplit automatiquement l'appareil photo, l'objectif, le filtre, le type de pellicule et la sensibilité ISO en fonction de votre dernière utilisation. Si vous avez tendance à garder la même configuration pendant un moment, vous pouvez passer directement à l'enregistrement sans tout ressaisir. Bien sûr, vous pouvez toujours modifier ces réglages avant de commencer."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Une recherche plus claire"
+    },
+    {
+      "type": "paragraph",
+      "content": "L'interface de recherche a été affinée pour plus de clarté. Les résultats sont plus faciles à parcourir et la présentation est plus épurée. Ce sont de petits changements, mais ils font la différence lorsque vous naviguez dans une grande photothèque."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Plus de pellicules disponibles"
+    },
+    {
+      "type": "paragraph",
+      "content": "La base de données de pellicules continue de s'enrichir. Cette mise à jour ajoute de nouvelles références de Cinestill, Adox, Kodak et Orwo. Que vous utilisiez une émulsion classique ou que vous en essayiez une nouvelle, il y a de fortes chances qu'elle soit déjà dans la liste."
+    }
+  ],
+  "improvements": [
+    "Export de dossiers avec toutes les pellicules et sous-dossiers inclus",
+    "Appareil, objectif, filtre, pellicule et ISO pré-remplis depuis votre dernière pellicule",
+    "Présentation de la recherche affinée pour une meilleure lisibilité",
+    "Améliorations subtiles de l'interface et des animations dans toute l'application",
+    "Nouvelles pellicules ajoutées : Cinestill, Adox, Kodak et Orwo"
+  ],
+  "fixes": [],
+  "patches": [],
+  "meta_title": "Export de dossiers et création rapide - Frames",
+  "meta_description": "Exportez des dossiers entiers avec toutes les pellicules. Créez plus vite avec les réglages pré-remplis. Nouvelles émulsions et recherche améliorée."
+}

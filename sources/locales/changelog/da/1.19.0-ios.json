@@ -1,0 +1,66 @@
+{
+  "version": "1.19.0",
+  "version_short": "1.19",
+  "url_slug": "1-19-ios",
+  "platform": "ios",
+  "release_date": "2026-01-08T10:00:00.000Z",
+  "title": "Mappeeksport og hurtigere filmoprettelse",
+  "summary": "Denne opdatering gør det nemmere at eksportere dine data og sparer tid, når du opretter nye film. Du kan nu eksportere hele mapper på én gang, og appen husker dine sidste indstillinger, så du ikke behøver at indtaste dem igen. Søgegrænsefladen er også forbedret, og der er nye filmtyper at vælge imellem.",
+  "sections": [
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.19.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.19.0-1@2x.png",
+      "alt": "Frames analog foto-app med mappeeksport og hurtigere filmoprettelse",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Eksporter hele mapper"
+    },
+    {
+      "type": "paragraph",
+      "content": "Når du eksporterer en mappe, følger alt indholdet med. Alle dine film, undermapper og deres indhold er inkluderet i én eksport. Det gør det meget nemmere at sikkerhedskopiere eller dele et helt projekt eller en rejse uden at skulle eksportere hver film separat."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Opret nye film hurtigere"
+    },
+    {
+      "type": "paragraph",
+      "content": "At oprette en ny film kræver nu meget mindre indsats. Appen udfylder automatisk kamera, objektiv, filter, filmtype og ISO baseret på det, du brugte sidst. Hvis du har tendens til at fotografere med samme opsætning i et stykke tid, kan du gå direkte til optagelse uden at indtaste alt igen. Du kan selvfølgelig stadig ændre disse indstillinger, før du begynder."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Mere overskuelig søgning"
+    },
+    {
+      "type": "paragraph",
+      "content": "Søgegrænsefladen er blevet forfinet for bedre overskuelighed. Resultaterne er nemmere at skimme, og præsentationen er renere. Det er små ændringer, men de gør en forskel, når du gennemser et stort bibliotek."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Flere filmtyper"
+    },
+    {
+      "type": "paragraph",
+      "content": "Filmdatabasen fortsætter med at vokse. Denne opdatering tilføjer nye muligheder fra Cinestill, Adox, Kodak og Orwo. Uanset om du bruger en klassisk emulsion eller prøver noget nyt, er der god chance for, at den allerede er på listen."
+    }
+  ],
+  "improvements": [
+    "Eksporter mapper med alle film og undermapper inkluderet",
+    "Kamera, objektiv, filter, film og ISO udfyldes automatisk fra din sidste film",
+    "Forfinet søgepræsentation for bedre læsbarhed",
+    "Subtile forbedringer af grænseflade og animationer i hele appen",
+    "Nye filmtyper tilføjet fra Cinestill, Adox, Kodak og Orwo"
+  ],
+  "fixes": [],
+  "patches": [],
+  "meta_title": "Mappeeksport og hurtigere filmoprettelse - Frames",
+  "meta_description": "Eksporter hele mapper med alle film. Opret film hurtigere med automatiske indstillinger. Nye filmtyper og forbedret søgning."
+}

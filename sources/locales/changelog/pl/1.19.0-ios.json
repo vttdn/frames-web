@@ -1,0 +1,66 @@
+{
+  "version": "1.19.0",
+  "version_short": "1.19",
+  "url_slug": "1-19-ios",
+  "platform": "ios",
+  "release_date": "2026-01-08T10:00:00.000Z",
+  "title": "Eksport folderów i szybsze tworzenie filmów",
+  "summary": "Ta aktualizacja ułatwia eksportowanie danych i oszczędza czas przy tworzeniu nowych filmów. Możesz teraz eksportować całe foldery naraz, a aplikacja zapamiętuje ostatnie ustawienia, więc nie musisz ich wprowadzać od nowa. Interfejs wyszukiwania został również ulepszony, a do wyboru są nowe filmy.",
+  "sections": [
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.19.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.19.0-1@2x.png",
+      "alt": "Aplikacja Frames do fotografii analogowej z eksportem folderów i szybszym tworzeniem filmów",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Eksportuj całe foldery"
+    },
+    {
+      "type": "paragraph",
+      "content": "Gdy eksportujesz folder, wszystko w środku jest uwzględnione. Wszystkie twoje filmy, podfoldery i ich zawartość są zawarte w jednym eksporcie. Dzięki temu znacznie łatwiej jest wykonać kopię zapasową lub udostępnić cały projekt lub wycieczkę bez konieczności eksportowania każdego filmu osobno."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Szybsze tworzenie nowych filmów"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tworzenie nowego filmu wymaga teraz znacznie mniej wysiłku. Aplikacja automatycznie wypełnia aparat, obiektyw, filtr, typ filmu i ISO na podstawie ostatnio używanych ustawień. Jeśli zwykle fotografujesz z tą samą konfiguracją przez dłuższy czas, możesz od razu przejść do nagrywania bez ponownego wprowadzania wszystkiego. Oczywiście możesz zmienić te ustawienia przed rozpoczęciem."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Czytelniejsze wyszukiwanie"
+    },
+    {
+      "type": "paragraph",
+      "content": "Interfejs wyszukiwania został dopracowany dla lepszej czytelności. Wyniki są łatwiejsze do przeglądania, a prezentacja jest bardziej przejrzysta. To drobne zmiany, ale robią różnicę, gdy przeszukujesz dużą bibliotekę."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Więcej filmów"
+    },
+    {
+      "type": "paragraph",
+      "content": "Baza filmów wciąż rośnie. Ta aktualizacja dodaje nowe opcje od Cinestill, Adox, Kodak i Orwo. Niezależnie od tego, czy używasz klasycznej emulsji, czy próbujesz czegoś nowego, jest duża szansa, że już jest na liście."
+    }
+  ],
+  "improvements": [
+    "Eksport folderów ze wszystkimi filmami i podfolderami",
+    "Aparat, obiektyw, filtr, film i ISO automatycznie wypełniane z ostatniego filmu",
+    "Dopracowana prezentacja wyszukiwania dla lepszej czytelności",
+    "Subtelne ulepszenia interfejsu i animacji w całej aplikacji",
+    "Dodano nowe filmy od Cinestill, Adox, Kodak i Orwo"
+  ],
+  "fixes": [],
+  "patches": [],
+  "meta_title": "Eksport folderów i szybsze tworzenie filmów - Frames",
+  "meta_description": "Eksportuj całe foldery ze wszystkimi filmami. Twórz filmy szybciej z automatycznymi ustawieniami. Nowe filmy i ulepszone wyszukiwanie."
+}

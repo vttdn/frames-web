@@ -1,0 +1,66 @@
+{
+  "version": "1.19.0",
+  "version_short": "1.19",
+  "url_slug": "1-19-ios",
+  "platform": "ios",
+  "release_date": "2026-01-08T10:00:00.000Z",
+  "title": "Kansioiden vienti ja nopeampi filmirullien luonti",
+  "summary": "Tämä päivitys helpottaa tietojen vientiä ja säästää aikaa uusien filmirullien luomisessa. Voit nyt viedä kokonaisia kansioita kerralla, ja sovellus muistaa viimeisimmät asetuksesi, joten sinun ei tarvitse syöttää niitä uudelleen. Hakukäyttöliittymää on myös parannettu, ja valittavana on uusia filmityyppejä.",
+  "sections": [
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.19.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.19.0-1@2x.png",
+      "alt": "Frames-analogivalokuvaussovellus kansioiden viennillä ja nopeammalla filmirullien luonnilla",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Vie kokonaisia kansioita"
+    },
+    {
+      "type": "paragraph",
+      "content": "Kun viet kansion, kaikki sen sisältö tulee mukana. Kaikki filmirullasi, alikansiot ja niiden sisältö sisältyvät yhteen vientiin. Tämä tekee paljon helpommaksi varmuuskopioida tai jakaa kokonainen projekti tai matka ilman, että jokainen filmirulla pitää viedä erikseen."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Luo uusia filmirullia nopeammin"
+    },
+    {
+      "type": "paragraph",
+      "content": "Uuden filmirullan luominen vaatii nyt paljon vähemmän vaivaa. Sovellus täyttää automaattisesti kameran, objektiivin, suotimen, filmityypin ja ISO-arvon viimeksi käyttämiesi asetusten perusteella. Jos kuvaat yleensä samalla kokoonpanolla jonkin aikaa, voit siirtyä suoraan tallentamiseen syöttämättä kaikkea uudelleen. Voit tietenkin silti muuttaa näitä asetuksia ennen aloittamista."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Selkeämpi haku"
+    },
+    {
+      "type": "paragraph",
+      "content": "Hakukäyttöliittymää on hiottu paremman selkeyden saavuttamiseksi. Tuloksia on helpompi silmäillä ja esitystapa on siistimpi. Nämä ovat pieniä muutoksia, mutta ne tekevät eron, kun selaat suurta kirjastoa."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Lisää filmityyppejä"
+    },
+    {
+      "type": "paragraph",
+      "content": "Filmitietokanta jatkaa kasvuaan. Tämä päivitys lisää uusia vaihtoehtoja Cinestilliltä, Adoxilta, Kodakilta ja Orwolta. Käytitpä sitten klassista emulsiota tai kokeilet jotain uutta, on hyvä mahdollisuus, että se on jo listalla."
+    }
+  ],
+  "improvements": [
+    "Vie kansioita kaikkine filmirullineen ja alikansioinen",
+    "Kamera, objektiivi, suodin, filmi ja ISO täytetään automaattisesti viimeisimmästä filmirullasta",
+    "Hiottu hakuesitys paremman luettavuuden saavuttamiseksi",
+    "Hienovaraisia käyttöliittymä- ja animaatioparannuksia koko sovelluksessa",
+    "Uusia filmityyppejä lisätty Cinestilliltä, Adoxilta, Kodakilta ja Orwolta"
+  ],
+  "fixes": [],
+  "patches": [],
+  "meta_title": "Kansioiden vienti ja nopeampi filmirullien luonti - Frames",
+  "meta_description": "Vie kokonaisia kansioita kaikkine filmirullineen. Luo filmirullia nopeammin automaattisilla asetuksilla. Uusia filmityyppejä ja parannettu haku."
+}

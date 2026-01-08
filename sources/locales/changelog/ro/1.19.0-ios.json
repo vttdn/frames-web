@@ -1,0 +1,66 @@
+{
+  "version": "1.19.0",
+  "version_short": "1.19",
+  "url_slug": "1-19-ios",
+  "platform": "ios",
+  "release_date": "2026-01-08T10:00:00.000Z",
+  "title": "Export dosare și creare filme mai rapidă",
+  "summary": "Această actualizare simplifică exportul datelor și economisește timp la crearea filmelor noi. Acum poți exporta dosare întregi dintr-o dată, iar aplicația reține ultimele setări pentru a nu le reintroduce. Interfața de căutare a fost și ea îmbunătățită, și sunt disponibile filme noi.",
+  "sections": [
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.19.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.19.0-1@2x.png",
+      "alt": "Aplicația Frames pentru fotografie pe film cu export dosare și creare rapidă de filme",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Exportă dosare întregi"
+    },
+    {
+      "type": "paragraph",
+      "content": "Când exportezi un dosar, tot conținutul său este inclus. Toate filmele tale, subdosarele și conținutul lor sunt incluse într-un singur export. Acest lucru face mult mai ușoară salvarea sau partajarea unui proiect sau călătorie complete fără a exporta fiecare film separat."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Creează filme noi mai rapid"
+    },
+    {
+      "type": "paragraph",
+      "content": "Crearea unui film nou necesită acum mult mai puțin efort. Aplicația completează automat camera, obiectivul, filtrul, tipul de film și ISO pe baza ultimelor setări folosite. Dacă ai tendința să fotografiezi cu aceeași configurație o perioadă, poți trece direct la înregistrare fără a reintroduce totul. Desigur, poți modifica aceste setări înainte de a începe."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Căutare mai clară"
+    },
+    {
+      "type": "paragraph",
+      "content": "Interfața de căutare a fost rafinată pentru o claritate mai bună. Rezultatele sunt mai ușor de parcurs, iar prezentarea este mai curată. Sunt schimbări mici, dar fac diferența când navighezi printr-o bibliotecă mare."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Mai multe filme"
+    },
+    {
+      "type": "paragraph",
+      "content": "Baza de date cu filme continuă să crească. Această actualizare adaugă opțiuni noi de la Cinestill, Adox, Kodak și Orwo. Fie că folosești o emulsie clasică sau încerci ceva nou, sunt șanse mari să fie deja în listă."
+    }
+  ],
+  "improvements": [
+    "Export dosare cu toate filmele și subdosarele incluse",
+    "Camera, obiectiv, filtru, film și ISO completate automat din ultimul film",
+    "Prezentare căutare rafinată pentru o mai bună lizibilitate",
+    "Îmbunătățiri subtile ale interfeței și animațiilor în toată aplicația",
+    "Filme noi adăugate de la Cinestill, Adox, Kodak și Orwo"
+  ],
+  "fixes": [],
+  "patches": [],
+  "meta_title": "Export dosare și creare filme mai rapidă - Frames",
+  "meta_description": "Exportă dosare întregi cu toate filmele. Creează filme mai rapid cu setări automate. Filme noi și căutare îmbunătățită."
+}

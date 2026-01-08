@@ -1,0 +1,66 @@
+{
+  "version": "1.19.0",
+  "version_short": "1.19",
+  "url_slug": "1-19-ios",
+  "platform": "ios",
+  "release_date": "2026-01-08T10:00:00.000Z",
+  "title": "資料夾匯出與更快的底片建立",
+  "summary": "此更新讓資料匯出更加便捷，建立新底片時也能節省時間。現在您可以一次匯出整個資料夾，應用程式會記住您上次的設定，無需重複輸入。搜尋介面也已改進，還有新的底片類型可供選擇。",
+  "sections": [
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.19.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.19.0-1@2x.png",
+      "alt": "Frames底片攝影應用程式，支援資料夾匯出和快速底片建立",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "匯出整個資料夾"
+    },
+    {
+      "type": "paragraph",
+      "content": "當您匯出資料夾時，裡面的所有內容都會包含在內。您的所有底片、子資料夾及其內容都包含在一次匯出中。這使得備份或分享整個專案或旅行變得更加容易，無需逐一匯出每卷底片。"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "更快地建立新底片"
+    },
+    {
+      "type": "paragraph",
+      "content": "建立新底片現在省力多了。應用程式會根據您上次使用的設定自動填入相機、鏡頭、濾鏡、底片類型和ISO。如果您習慣使用相同的配置拍攝一段時間，可以直接開始記錄，無需重新輸入所有資訊。當然，您也可以在開始前修改這些設定。"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "更清晰的搜尋"
+    },
+    {
+      "type": "paragraph",
+      "content": "搜尋介面經過優化，更加清晰易讀。結果更容易瀏覽，整體呈現更加簡潔。這些是小改動，但在瀏覽大型資料庫時會感受到明顯的不同。"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "更多底片類型"
+    },
+    {
+      "type": "paragraph",
+      "content": "底片資料庫持續擴充。此更新新增了來自Cinestill、Adox、Kodak和Orwo的選項。無論您使用經典乳劑還是嘗試新品，很可能已經在清單中了。"
+    }
+  ],
+  "improvements": [
+    "匯出資料夾，包含所有底片和子資料夾",
+    "相機、鏡頭、濾鏡、底片和ISO從上一卷底片自動填入",
+    "優化搜尋呈現，提升可讀性",
+    "全應用程式範圍內的細微介面和動畫改進",
+    "新增Cinestill、Adox、Kodak和Orwo的底片類型"
+  ],
+  "fixes": [],
+  "patches": [],
+  "meta_title": "資料夾匯出與更快的底片建立 - Frames",
+  "meta_description": "匯出包含所有底片的整個資料夾。透過自動設定更快地建立底片。新底片類型和改進的搜尋。"
+}

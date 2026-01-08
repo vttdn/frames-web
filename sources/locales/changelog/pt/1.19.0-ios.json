@@ -1,0 +1,66 @@
+{
+  "version": "1.19.0",
+  "version_short": "1.19",
+  "url_slug": "1-19-ios",
+  "platform": "ios",
+  "release_date": "2026-01-08T10:00:00.000Z",
+  "title": "Exportação de pastas e criação de películas mais rápida",
+  "summary": "Esta atualização facilita a exportação dos seus dados e poupa tempo ao criar novos rolos. Agora pode exportar pastas inteiras de uma só vez, e a app lembra as suas últimas definições para evitar configurações repetidas. A interface de pesquisa também foi melhorada, e há novas películas disponíveis.",
+  "sections": [
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.19.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.19.0-1@2x.png",
+      "alt": "App Frames de fotografia analógica com exportação de pastas e criação rápida de películas",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Exporte pastas inteiras"
+    },
+    {
+      "type": "paragraph",
+      "content": "Quando exporta uma pasta, tudo o que está lá dentro vem incluído. Todas as suas películas, subpastas e os seus conteúdos são incluídos numa única exportação. Isto torna muito mais fácil fazer cópias de segurança ou partilhar um projeto ou viagem completa sem ter de exportar cada rolo separadamente."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Crie novos rolos mais depressa"
+    },
+    {
+      "type": "paragraph",
+      "content": "Criar uma nova película agora exige muito menos esforço. A app preenche automaticamente a câmara, objetiva, filtro, tipo de película e ISO com base no que usou da última vez. Se costuma manter a mesma configuração durante algum tempo, pode passar diretamente para a gravação sem ter de inserir tudo de novo. Claro que pode sempre alterar estas definições antes de começar."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Pesquisa mais clara"
+    },
+    {
+      "type": "paragraph",
+      "content": "A interface de pesquisa foi refinada para maior clareza. Os resultados são mais fáceis de percorrer e a apresentação é mais limpa. São pequenas alterações, mas fazem diferença quando navega numa biblioteca grande."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Mais películas disponíveis"
+    },
+    {
+      "type": "paragraph",
+      "content": "A base de dados de películas continua a crescer. Esta atualização adiciona novas opções da Cinestill, Adox, Kodak e Orwo. Quer esteja a usar uma emulsão clássica ou a experimentar algo novo, há uma boa hipótese de já estar na lista."
+    }
+  ],
+  "improvements": [
+    "Exporte pastas com todas as películas e subpastas incluídas",
+    "Câmara, objetiva, filtro, película e ISO preenchidos automaticamente a partir da última película",
+    "Apresentação da pesquisa refinada para melhor legibilidade",
+    "Melhorias subtis na interface e animações em toda a app",
+    "Novas películas adicionadas da Cinestill, Adox, Kodak e Orwo"
+  ],
+  "fixes": [],
+  "patches": [],
+  "meta_title": "Exportação de pastas e criação mais rápida - Frames",
+  "meta_description": "Exporte pastas inteiras com todas as películas. Crie rolos mais rápido com definições automáticas. Novas películas e pesquisa melhorada."
+}

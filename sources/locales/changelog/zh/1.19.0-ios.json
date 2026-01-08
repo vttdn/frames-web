@@ -1,0 +1,66 @@
+{
+  "version": "1.19.0",
+  "version_short": "1.19",
+  "url_slug": "1-19-ios",
+  "platform": "ios",
+  "release_date": "2026-01-08T10:00:00.000Z",
+  "title": "文件夹导出与更快的胶片创建",
+  "summary": "此更新让数据导出更加便捷，创建新胶片时也能节省时间。现在您可以一次性导出整个文件夹，应用会记住您上次的设置，无需重复输入。搜索界面也已改进，还有新的胶片类型可供选择。",
+  "sections": [
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.19.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.19.0-1@2x.png",
+      "alt": "Frames胶片摄影应用，支持文件夹导出和快速胶片创建",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "导出整个文件夹"
+    },
+    {
+      "type": "paragraph",
+      "content": "当您导出文件夹时，里面的所有内容都会包含在内。您的所有胶片、子文件夹及其内容都包含在一次导出中。这使得备份或分享整个项目或旅行变得更加容易，无需逐个导出每卷胶片。"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "更快地创建新胶片"
+    },
+    {
+      "type": "paragraph",
+      "content": "创建新胶片现在省力多了。应用会根据您上次使用的设置自动填充相机、镜头、滤镜、胶片类型和ISO。如果您习惯使用相同的配置拍摄一段时间，可以直接开始记录，无需重新输入所有信息。当然，您也可以在开始前修改这些设置。"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "更清晰的搜索"
+    },
+    {
+      "type": "paragraph",
+      "content": "搜索界面经过优化，更加清晰易读。结果更容易浏览，整体呈现更加简洁。这些是小改动，但在浏览大型资料库时会感受到明显的不同。"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "更多胶片类型"
+    },
+    {
+      "type": "paragraph",
+      "content": "胶片数据库持续扩充。此更新添加了来自Cinestill、Adox、Kodak和Orwo的新选项。无论您使用经典乳剂还是尝试新品，很可能已经在列表中了。"
+    }
+  ],
+  "improvements": [
+    "导出文件夹，包含所有胶片和子文件夹",
+    "相机、镜头、滤镜、胶片和ISO从上一卷胶片自动填充",
+    "优化搜索展示，提升可读性",
+    "全应用范围内的细微界面和动画改进",
+    "新增Cinestill、Adox、Kodak和Orwo的胶片类型"
+  ],
+  "fixes": [],
+  "patches": [],
+  "meta_title": "文件夹导出与更快的胶片创建 - Frames",
+  "meta_description": "导出包含所有胶片的整个文件夹。通过自动设置更快地创建胶片。新胶片类型和改进的搜索。"
+}

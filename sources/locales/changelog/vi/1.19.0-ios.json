@@ -1,0 +1,66 @@
+{
+  "version": "1.19.0",
+  "version_short": "1.19",
+  "url_slug": "1-19-ios",
+  "platform": "ios",
+  "release_date": "2026-01-08T10:00:00.000Z",
+  "title": "Xuất thư mục và tạo cuộn phim nhanh hơn",
+  "summary": "Bản cập nhật này giúp xuất dữ liệu dễ dàng hơn và tiết kiệm thời gian khi tạo cuộn phim mới. Giờ đây bạn có thể xuất toàn bộ thư mục cùng một lúc, và ứng dụng sẽ ghi nhớ các cài đặt gần nhất để bạn không phải nhập lại. Giao diện tìm kiếm cũng được cải thiện, và có thêm nhiều loại phim mới để chọn.",
+  "sections": [
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.19.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.19.0-1@2x.png",
+      "alt": "Ứng dụng chụp ảnh phim Frames với xuất thư mục và tạo cuộn phim nhanh hơn",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Xuất toàn bộ thư mục"
+    },
+    {
+      "type": "paragraph",
+      "content": "Khi bạn xuất một thư mục, mọi thứ bên trong đều được bao gồm. Tất cả các cuộn phim, thư mục con và nội dung của chúng đều nằm trong một lần xuất duy nhất. Điều này giúp việc sao lưu hoặc chia sẻ toàn bộ dự án hoặc chuyến đi trở nên dễ dàng hơn nhiều mà không cần xuất từng cuộn phim riêng lẻ."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Tạo cuộn phim mới nhanh hơn"
+    },
+    {
+      "type": "paragraph",
+      "content": "Việc tạo cuộn phim mới giờ đây tốn ít công sức hơn nhiều. Ứng dụng sẽ tự động điền máy ảnh, ống kính, filter, loại phim và ISO dựa trên những gì bạn đã sử dụng lần trước. Nếu bạn thường chụp với cùng một cấu hình trong một thời gian, bạn có thể chuyển thẳng đến ghi hình mà không cần nhập lại mọi thứ. Tất nhiên, bạn vẫn có thể thay đổi các cài đặt này trước khi bắt đầu."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Tìm kiếm rõ ràng hơn"
+    },
+    {
+      "type": "paragraph",
+      "content": "Giao diện tìm kiếm đã được tinh chỉnh để rõ ràng hơn. Kết quả dễ xem hơn và cách trình bày gọn gàng hơn. Đây là những thay đổi nhỏ, nhưng chúng tạo ra sự khác biệt khi bạn duyệt qua thư viện lớn."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Thêm nhiều loại phim"
+    },
+    {
+      "type": "paragraph",
+      "content": "Cơ sở dữ liệu phim tiếp tục phát triển. Bản cập nhật này bổ sung các tùy chọn mới từ Cinestill, Adox, Kodak và Orwo. Dù bạn đang sử dụng nhũ tương cổ điển hay thử nghiệm điều gì mới, rất có thể nó đã có trong danh sách."
+    }
+  ],
+  "improvements": [
+    "Xuất thư mục với tất cả cuộn phim và thư mục con",
+    "Máy ảnh, ống kính, filter, phim và ISO được tự động điền từ cuộn phim trước",
+    "Cải thiện giao diện tìm kiếm để dễ đọc hơn",
+    "Các cải tiến nhỏ về giao diện và hoạt ảnh trên toàn ứng dụng",
+    "Thêm loại phim mới từ Cinestill, Adox, Kodak và Orwo"
+  ],
+  "fixes": [],
+  "patches": [],
+  "meta_title": "Xuất thư mục và tạo cuộn phim nhanh hơn - Frames",
+  "meta_description": "Xuất toàn bộ thư mục với tất cả cuộn phim. Tạo cuộn phim nhanh hơn với cài đặt tự động. Loại phim mới và tìm kiếm cải tiến."
+}

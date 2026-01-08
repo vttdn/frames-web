@@ -1,0 +1,66 @@
+{
+  "version": "1.19.0",
+  "version_short": "1.19",
+  "url_slug": "1-19-ios",
+  "platform": "ios",
+  "release_date": "2026-01-08T10:00:00.000Z",
+  "title": "Folder Exports & Faster Film Creation",
+  "summary": "This update focuses on getting your data out of the app more easily and saving you time when starting new rolls. You can now export entire folders at once, and the app remembers your last settings so you spend less time on setup. The search interface has also been cleaned up, and there are new film stocks to choose from.",
+  "sections": [
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.19.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.19.0-1@2x.png",
+      "alt": "Frames film photography app folder export and faster film creation",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Export Entire Folders"
+    },
+    {
+      "type": "paragraph",
+      "content": "When you export a folder, everything inside comes with it. All your film rolls, any subfolders, and their contents are included in a single export. This makes it much easier to back up or share an entire project or trip without having to export each roll separately."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Start New Rolls Faster"
+    },
+    {
+      "type": "paragraph",
+      "content": "Creating a new film now takes a lot less effort. The app automatically fills in your camera, lens, filter, film stock, and ISO based on what you used last time. If you tend to shoot the same setup for a while, you can jump straight to recording without re-entering everything. Of course, you can still change any of these settings before you start."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Cleaner Search Layout"
+    },
+    {
+      "type": "paragraph",
+      "content": "The search interface has been refined for better clarity. Results are easier to scan, and the overall presentation is cleaner. These are small changes, but they make a difference when you're looking through a large library."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "More Film Stocks"
+    },
+    {
+      "type": "paragraph",
+      "content": "The film stock database continues to grow. This update adds new options from Cinestill, Adox, Kodak, and Orwo. Whether you're shooting a classic emulsion or trying something new, there's a good chance it's already in the list."
+    }
+  ],
+  "improvements": [
+    "Export folders with all film rolls and subfolders included",
+    "Camera, lens, filter, film stock, and ISO are now autofilled from your last film",
+    "Refined search layout and presentation for better readability",
+    "Subtle interface and animation improvements throughout the app",
+    "Added new film stocks from Cinestill, Adox, Kodak, and Orwo"
+  ],
+  "fixes": [],
+  "patches": [],
+  "meta_title": "Folder Exports & Faster Film Creation - Frames",
+  "meta_description": "Export entire folders with all film rolls. Create films faster with autofilled settings from your last roll. New film stocks and search improvements included."
+}
