@@ -57,10 +57,14 @@
     "Máy ảnh, ống kính, filter, phim và ISO được tự động điền từ cuộn phim trước",
     "Cải thiện giao diện tìm kiếm để dễ đọc hơn",
     "Các cải tiến nhỏ về giao diện và hoạt ảnh trên toàn ứng dụng",
-    "Thêm loại phim mới từ Cinestill, Adox, Kodak và Orwo"
+    "Thêm loại phim mới từ Cinestill, Adox, Kodak và Orwo",
+    "Khi GPS khả dụng, tọa độ luôn được lưu và tên địa điểm được giải quyết trực tuyến sau",
+    "Tìm kiếm bản đồ hiện ưu tiên các địa điểm gần đó để hiển thị kết quả liên quan hơn"
   ],
   "fixes": [],
-  "patches": [],
+  "patches": [
+    { "version": "1.19.1", "description": "Cải tiến vị trí và bản đồ" }
+  ],
   "meta_title": "Xuất thư mục và tạo cuộn phim nhanh hơn - Frames",
   "meta_description": "Xuất toàn bộ thư mục với tất cả cuộn phim. Tạo cuộn phim nhanh hơn với cài đặt tự động. Loại phim mới và tìm kiếm cải tiến."
 }

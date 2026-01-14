@@ -57,10 +57,14 @@
     "Kamera, objektiivi, suodin, filmi ja ISO täytetään automaattisesti viimeisimmästä filmirullasta",
     "Hiottu hakuesitys paremman luettavuuden saavuttamiseksi",
     "Hienovaraisia käyttöliittymä- ja animaatioparannuksia koko sovelluksessa",
-    "Uusia filmityyppejä lisätty Cinestilliltä, Adoxilta, Kodakilta ja Orwolta"
+    "Uusia filmityyppejä lisätty Cinestilliltä, Adoxilta, Kodakilta ja Orwolta",
+    "Koordinaatit tallennetaan aina, kun GPS on käytettävissä, ja paikan nimet ratkaistaan myöhemmin verkossa",
+    "Karttahaku priorisoi nyt lähellä olevia paikkoja saadakseen relevantimpia tuloksia"
   ],
   "fixes": [],
-  "patches": [],
+  "patches": [
+    { "version": "1.19.1", "description": "Sijainti- ja karttaparannukset" }
+  ],
   "meta_title": "Kansioiden vienti ja nopeampi filmirullien luonti - Frames",
   "meta_description": "Vie kokonaisia kansioita kaikkine filmirullineen. Luo filmirullia nopeammin automaattisilla asetuksilla. Uusia filmityyppejä ja parannettu haku."
 }

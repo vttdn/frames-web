@@ -57,10 +57,14 @@
     "Kamera, lensa, filter, film, dan ISO diisi otomatis dari film terakhir Anda",
     "Tampilan pencarian yang disempurnakan untuk keterbacaan yang lebih baik",
     "Peningkatan antarmuka dan animasi halus di seluruh aplikasi",
-    "Film baru ditambahkan dari Cinestill, Adox, Kodak, dan Orwo"
+    "Film baru ditambahkan dari Cinestill, Adox, Kodak, dan Orwo",
+    "Koordinat selalu disimpan ketika GPS tersedia, dan nama lokasi diselesaikan secara online nanti",
+    "Pencarian peta sekarang memprioritaskan tempat terdekat untuk hasil yang lebih relevan"
   ],
   "fixes": [],
-  "patches": [],
+  "patches": [
+    { "version": "1.19.1", "description": "Peningkatan lokasi & peta" }
+  ],
   "meta_title": "Ekspor folder dan pembuatan film lebih cepat - Frames",
   "meta_description": "Ekspor seluruh folder dengan semua film. Buat film lebih cepat dengan pengaturan otomatis. Film baru dan pencarian yang ditingkatkan."
 }

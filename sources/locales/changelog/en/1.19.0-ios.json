@@ -57,10 +57,17 @@
     "Camera, lens, filter, film stock, and ISO are now autofilled from your last film",
     "Refined search layout and presentation for better readability",
     "Subtle interface and animation improvements throughout the app",
-    "Added new film stocks from Cinestill, Adox, Kodak, and Orwo"
+    "Added new film stocks from Cinestill, Adox, Kodak, and Orwo",
+    "Coordinates are always saved when GPS is available, and location names are resolved online later",
+    "Map search now prioritizes nearby places for more relevant results"
   ],
   "fixes": [],
-  "patches": [],
+  "patches": [
+    {
+      "version": "1.19.1",
+      "description": "Location & map improvements"
+    }
+  ],
   "meta_title": "Folder Exports & Faster Film Creation - Frames",
   "meta_description": "Export entire folders with all film rolls. Create films faster with autofilled settings from your last roll. New film stocks and search improvements included."
 }

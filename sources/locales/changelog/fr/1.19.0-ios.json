@@ -57,10 +57,14 @@
     "Appareil, objectif, filtre, pellicule et ISO pré-remplis depuis votre dernière pellicule",
     "Présentation de la recherche affinée pour une meilleure lisibilité",
     "Améliorations subtiles de l'interface et des animations dans toute l'application",
-    "Nouvelles pellicules ajoutées : Cinestill, Adox, Kodak et Orwo"
+    "Nouvelles pellicules ajoutées : Cinestill, Adox, Kodak et Orwo",
+    "Les coordonnées sont toujours enregistrées lorsque le GPS est disponible et les noms de lieux sont résolus en ligne plus tard",
+    "La recherche sur la carte priorise désormais les lieux à proximité pour des résultats plus pertinents"
   ],
   "fixes": [],
-  "patches": [],
+  "patches": [
+    { "version": "1.19.1", "description": "Améliorations de la localisation et de la carte" }
+  ],
   "meta_title": "Export de dossiers et création rapide - Frames",
   "meta_description": "Exportez des dossiers entiers avec toutes les pellicules. Créez plus vite avec les réglages pré-remplis. Nouvelles émulsions et recherche améliorée."
 }

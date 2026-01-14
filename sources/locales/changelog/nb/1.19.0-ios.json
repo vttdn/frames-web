@@ -57,10 +57,14 @@
     "Kamera, objektiv, filter, film og ISO fylles automatisk inn fra din siste film",
     "Forbedret søkepresentasjon for bedre lesbarhet",
     "Subtile forbedringer av grensesnitt og animasjoner i hele appen",
-    "Nye filmtyper lagt til fra Cinestill, Adox, Kodak og Orwo"
+    "Nye filmtyper lagt til fra Cinestill, Adox, Kodak og Orwo",
+    "Koordinater blir alltid lagret når GPS er tilgjengelig, og stedsnavn blir løst online senere",
+    "Kart­søk prioriterer nå nærmeste steder for mer relevante resultater"
   ],
   "fixes": [],
-  "patches": [],
+  "patches": [
+    { "version": "1.19.1", "description": "Forbedringer av lokasjon og kart" }
+  ],
   "meta_title": "Mappeeksport og raskere filmoppretting - Frames",
   "meta_description": "Eksporter hele mapper med alle filmer. Opprett filmer raskere med automatiske innstillinger. Nye filmtyper og forbedret søk."
 }

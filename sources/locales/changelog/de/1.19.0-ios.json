@@ -57,10 +57,14 @@
     "Kamera, Objektiv, Filter, Filmtyp und ISO werden automatisch aus der letzten Filmrolle übernommen",
     "Überarbeitete Suchdarstellung für bessere Lesbarkeit",
     "Dezente Verbesserungen der Oberfläche und Animationen in der gesamten App",
-    "Neue Filmtypen von Cinestill, Adox, Kodak und Orwo hinzugefügt"
+    "Neue Filmtypen von Cinestill, Adox, Kodak und Orwo hinzugefügt",
+    "Koordinaten werden immer gespeichert, wenn GPS verfügbar ist, und Ortsnamen werden später online aufgelöst",
+    "Die Kartensuche priorisiert jetzt nahegelegene Orte, um relevantere Ergebnisse zu liefern"
   ],
   "fixes": [],
-  "patches": [],
+  "patches": [
+    { "version": "1.19.1", "description": "Verbesserungen von Standort und Karte" }
+  ],
   "meta_title": "Ordner-Export und schnellere Filmrollenerstellung - Frames",
   "meta_description": "Exportieren Sie ganze Ordner mit allen Filmrollen. Neue Filmrollen schneller anlegen mit automatischen Einstellungen. Neue Filmtypen verfügbar."
 }

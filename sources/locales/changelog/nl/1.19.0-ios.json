@@ -57,10 +57,14 @@
     "Camera, lens, filter, filmtype en ISO worden automatisch ingevuld vanuit je laatste filmrol",
     "Verfijnde zoekpresentatie voor betere leesbaarheid",
     "Subtiele interface- en animatieverbeteringen door de hele app",
-    "Nieuwe filmtypes toegevoegd van Cinestill, Adox, Kodak en Orwo"
+    "Nieuwe filmtypes toegevoegd van Cinestill, Adox, Kodak en Orwo",
+    "Coördinaten worden altijd opgeslagen wanneer GPS beschikbaar is, en plaatsnamen worden later online opgelost",
+    "Kaart­zoekopdrachten geven nu prioriteit aan nabijgelegen locaties voor relevantere resultaten"
   ],
   "fixes": [],
-  "patches": [],
+  "patches": [
+    { "version": "1.19.1", "description": "Verbeteringen van locatie en kaart" }
+  ],
   "meta_title": "Mapexport en sneller filmrollen aanmaken - Frames",
   "meta_description": "Exporteer hele mappen met alle filmrollen. Maak sneller nieuwe filmrollen aan met automatische instellingen. Nieuwe filmtypes en verbeterde zoekfunctie."
 }

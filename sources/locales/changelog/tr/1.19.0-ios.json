@@ -57,10 +57,14 @@
     "Kamera, lens, filtre, film ve ISO son filmden otomatik olarak doldurulur",
     "Daha iyi okunabilirlik için iyileştirilmiş arama sunumu",
     "Uygulama genelinde ince arayüz ve animasyon iyileştirmeleri",
-    "Cinestill, Adox, Kodak ve Orwo'dan yeni filmler eklendi"
+    "Cinestill, Adox, Kodak ve Orwo'dan yeni filmler eklendi",
+    "GPS mevcut olduğunda koordinatlar her zaman kaydedilir ve konum adları daha sonra çevrimiçi çözülür",
+    "Harita araması artık daha alakalı sonuçlar için yakın yerleri önceliklendirir"
   ],
   "fixes": [],
-  "patches": [],
+  "patches": [
+    { "version": "1.19.1", "description": "Konum ve harita iyileştirmeleri" }
+  ],
   "meta_title": "Klasör dışa aktarma ve hızlı film oluşturma - Frames",
   "meta_description": "Tüm filmlerle birlikte klasörleri dışa aktarın. Otomatik ayarlarla daha hızlı film oluşturun. Yeni filmler ve geliştirilmiş arama."
 }

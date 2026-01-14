@@ -57,10 +57,14 @@
     "Aparat, obiektyw, filtr, film i ISO automatycznie wypełniane z ostatniego filmu",
     "Dopracowana prezentacja wyszukiwania dla lepszej czytelności",
     "Subtelne ulepszenia interfejsu i animacji w całej aplikacji",
-    "Dodano nowe filmy od Cinestill, Adox, Kodak i Orwo"
+    "Dodano nowe filmy od Cinestill, Adox, Kodak i Orwo",
+    "Współrzędne są zawsze zapisywane, gdy GPS jest dostępny, a nazwy lokalizacji są później rozwiązywane online",
+    "Wyszukiwanie na mapie teraz priorytetowo traktuje pobliskie miejsca, aby uzyskać bardziej trafne wyniki"
   ],
   "fixes": [],
-  "patches": [],
+  "patches": [
+    { "version": "1.19.1", "description": "Ulepszenia lokalizacji i mapy" }
+  ],
   "meta_title": "Eksport folderów i szybsze tworzenie filmów - Frames",
   "meta_description": "Eksportuj całe foldery ze wszystkimi filmami. Twórz filmy szybciej z automatycznymi ustawieniami. Nowe filmy i ulepszone wyszukiwanie."
 }

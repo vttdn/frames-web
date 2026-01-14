@@ -57,10 +57,14 @@
     "相机、镜头、滤镜、胶片和ISO从上一卷胶片自动填充",
     "优化搜索展示，提升可读性",
     "全应用范围内的细微界面和动画改进",
-    "新增Cinestill、Adox、Kodak和Orwo的胶片类型"
+    "新增Cinestill、Adox、Kodak和Orwo的胶片类型",
+    "GPS可用时始终保存坐标，位置名称稍后在线解析",
+    "地图搜索现在优先显示附近地点以获得更相关的结果"
   ],
   "fixes": [],
-  "patches": [],
+  "patches": [
+    { "version": "1.19.1", "description": "位置和地图改进" }
+  ],
   "meta_title": "文件夹导出与更快的胶片创建 - Frames",
   "meta_description": "导出包含所有胶片的整个文件夹。通过自动设置更快地创建胶片。新胶片类型和改进的搜索。"
 }

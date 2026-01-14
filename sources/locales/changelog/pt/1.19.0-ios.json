@@ -57,10 +57,14 @@
     "Câmara, objetiva, filtro, película e ISO preenchidos automaticamente a partir da última película",
     "Apresentação da pesquisa refinada para melhor legibilidade",
     "Melhorias subtis na interface e animações em toda a app",
-    "Novas películas adicionadas da Cinestill, Adox, Kodak e Orwo"
+    "Novas películas adicionadas da Cinestill, Adox, Kodak e Orwo",
+    "As coordenadas são sempre salvas quando o GPS está disponível e os nomes dos locais são resolvidos online posteriormente",
+    "A pesquisa no mapa agora prioriza locais próximos para resultados mais relevantes"
   ],
   "fixes": [],
-  "patches": [],
+  "patches": [
+    { "version": "1.19.1", "description": "Melhorias de localização e mapa" }
+  ],
   "meta_title": "Exportação de pastas e criação mais rápida - Frames",
   "meta_description": "Exporte pastas inteiras com todas as películas. Crie rolos mais rápido com definições automáticas. Novas películas e pesquisa melhorada."
 }
