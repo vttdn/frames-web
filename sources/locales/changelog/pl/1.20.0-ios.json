@@ -1,0 +1,92 @@
+{
+  "version": "1.20.0",
+  "version_short": "1.20",
+  "url_slug": "1-20-ios",
+  "platform": "ios",
+  "release_date": "2026-01-15T10:00:00.000Z",
+  "title": "Sortowanie filmów i szybki dostęp",
+  "summary": "Ta aktualizacja daje większą kontrolę nad organizacją biblioteki i przyspiesza nawigację. Filmy w folderach mają teraz opcje sortowania i kolejności, a nowy skrót Ostatnie filmy pozwala przeskakiwać między projektami bez opuszczania bieżącego ekranu. Możesz również przytrzymać dowolny wiersz, aby uzyskać dostęp do typowych czynności, a dla ustawień ekspozycji dostępna jest nowa opcja Auto.",
+  "sections": [
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.20.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.20.0-1@2x.png",
+      "alt": "Aplikacja Frames do fotografii analogowej z sortowaniem filmów i szybkim dostępem",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Sortuj i organizuj swoje filmy"
+    },
+    {
+      "type": "paragraph",
+      "content": "Masz teraz pełną kontrolę nad tym, jak filmy są zorganizowane w folderach. Sortuj rolki według nazwy, daty utworzenia lub daty edycji i wybierz kolejność rosnącą lub malejącą. Jeśli grupujesz filmy według projektu, podróży lub aparatu, znacznie ułatwia to znalezienie tego, czego szukasz, bez przewijania wszystkiego."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Przejdź do ostatnich filmów"
+    },
+    {
+      "type": "paragraph",
+      "content": "Nowy skrót Ostatnie filmy jest teraz dostępny w każdym menu filmu. Pozwala szybko przełączyć się na inną rolkę, nad którą ostatnio pracowałeś, bez konieczności nawigowania najpierw do biblioteki. To mały dodatek, ale oszczędza czas podczas przechodzenia między aktywnymi projektami."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Przytrzymaj, aby uzyskać szybkie akcje"
+    },
+    {
+      "type": "paragraph",
+      "content": "Przytrzymanie dowolnego wiersza wyświetla teraz menu skrótów dla tego elementu. Niezależnie od tego, czy chcesz coś przenieść, edytować czy usunąć, opcje są dokładnie tam, gdzie ich potrzebujesz. Działa to w całej aplikacji i zmniejsza liczbę dotknięć potrzebnych do wykonania zadań."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Opcja Auto dla ustawień ekspozycji"
+    },
+    {
+      "type": "paragraph",
+      "content": "Podczas rejestrowania klatek możesz teraz wybrać Auto dla czasu naświetlania i przysłony. Jest to przydatne, gdy fotografujesz aparatem, który automatycznie obsługuje ekspozycję, a chcesz tylko zarejestrować ujęcie bez wprowadzania konkretnych wartości. Opcja znajduje się obok istniejących wyborów manualnych na pasku narzędzi rejestratora."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Aktualizacje lokalizacji i prywatności"
+    },
+    {
+      "type": "paragraph",
+      "content": "Jeśli masz wyłączone usługi lokalizacji, możesz teraz ustawiać lokalizacje ręcznie bez ograniczeń. Aplikacja nie wymaga już dostępu do GPS, aby umożliwić wybór lokalizacji. Jest również przeprojektowany ekran Ustawień prywatności, który daje jaśniejszy obraz tego, jak obsługiwane są Twoje dane, wraz z bezpośrednim dostępem do Polityki prywatności."
+    }
+  ],
+  "improvements": [
+    "Nowe opcje sortowania i kolejności w folderach",
+    "Skrót Ostatnie filmy dostępny w każdym menu filmu",
+    "Przytrzymaj dowolny wiersz, aby uzyskać dostęp do akcji kontekstowych",
+    "Nowa opcja Auto dla czasu naświetlania i przysłony w rejestratorze",
+    "Ustawiaj lokalizacje ręcznie, gdy usługi lokalizacji są wyłączone",
+    "Przeprojektowany ekran Ustawień prywatności z bezpośrednim dostępem do Polityki prywatności",
+    "Ulepszenia interfejsu i animacji",
+    "Aktualizacje tłumaczeń dla wszystkich obsługiwanych języków"
+  ],
+  "fixes": [
+    {
+      "title": "Tworzenie filmu",
+      "description": "Naprawiono błąd, który uniemożliwiał dodawanie filmów przy nowej instalacji aplikacji."
+    }
+  ],
+  "patches": [
+    {
+      "version": "1.20.1",
+      "description": "Naprawiono dodawanie filmów przy nowych instalacjach"
+    },
+    {
+      "version": "1.20.2",
+      "description": "Opcja automatycznej ekspozycji, dostęp do Polityki prywatności i ulepszenia UI"
+    }
+  ],
+  "meta_title": "Sortowanie filmów i szybki dostęp - Frames",
+  "meta_description": "Sortuj i organizuj filmy w folderach. Przeskakuj między projektami z Ostatnimi filmami. Przytrzymaj dla szybkich akcji i używaj Auto dla ekspozycji."
+}

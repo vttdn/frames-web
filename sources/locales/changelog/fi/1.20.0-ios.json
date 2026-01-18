@@ -1,0 +1,92 @@
+{
+  "version": "1.20.0",
+  "version_short": "1.20",
+  "url_slug": "1-20-ios",
+  "platform": "ios",
+  "release_date": "2026-01-15T10:00:00.000Z",
+  "title": "Filmien lajittelu ja pikakäyttö",
+  "summary": "Tämä päivitys antaa sinulle enemmän hallintaa kirjastosi järjestelyyn ja nopeuttaa navigointia. Kansioiden sisällä olevilla filmeillä on nyt lajittelu- ja järjestysvaihtoehdot, ja uusi Viimeisimmät filmirullat -pikakuvake mahdollistaa siirtymisen projektien välillä poistumatta nykyiseltä näytöltä. Voit myös painaa mitä tahansa riviä pitkään päästäksesi yleisiin toimintoihin, ja valotusasetuksiin on lisätty uusi Auto-vaihtoehto.",
+  "sections": [
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.20.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.20.0-1@2x.png",
+      "alt": "Frames-filmivalokuvaussovellus filmien lajittelulla ja pikakäytöllä",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Lajittele ja järjestä filmisi"
+    },
+    {
+      "type": "paragraph",
+      "content": "Sinulla on nyt täysi hallinta siihen, miten filmit on järjestetty kansioissasi. Lajittele rullasi nimen, luontipäivän tai muokkauspäivän mukaan ja valitse nouseva tai laskeva järjestys. Jos ryhmittelet filmejä projektin, matkan tai kameran mukaan, tämä helpottaa huomattavasti etsimäsi löytämistä ilman kaiken läpi selaamista."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Siirry viimeisimpiin filmirulliin"
+    },
+    {
+      "type": "paragraph",
+      "content": "Uusi Viimeisimmät filmirullat -pikakuvake on nyt saatavilla jokaisessa filmivalikossa. Tämän avulla voit nopeasti vaihtaa toiseen rullaan, jota käsittelit äskettäin, ilman että sinun tarvitsee navigoida ensin takaisin kirjastoon. Se on pieni lisäys, mutta säästää aikaa kun liikut aktiivisten projektien välillä."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Paina pitkään pikatoimintoja varten"
+    },
+    {
+      "type": "paragraph",
+      "content": "Minkä tahansa rivin pitkä painallus näyttää nyt valikon pikakuvakkeista kyseiselle kohteelle. Halusitpa siirtää, muokata tai poistaa jotain, vaihtoehdot ovat juuri siellä missä niitä tarvitset. Tämä toimii kaikkialla sovelluksessa ja vähentää tarvittavien napautusten määrää."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Auto-vaihtoehto valotusasetuksiin"
+    },
+    {
+      "type": "paragraph",
+      "content": "Kehyksiä tallentaessasi voit nyt valita Auto-vaihtoehdon suljinajalle ja aukolle. Tämä on hyödyllistä kun kuvaat kameralla, joka käsittelee valotuksen automaattisesti, ja haluat vain kirjata kuvan syöttämättä tarkkoja arvoja. Vaihtoehto löytyy olemassa olevien manuaalisten valintojen vierestä tallentimen työkalupalkista."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Sijainti- ja yksityisyyspäivitykset"
+    },
+    {
+      "type": "paragraph",
+      "content": "Jos sijaintipalvelut on poistettu käytöstä, voit nyt asettaa sijainnit manuaalisesti ilman rajoituksia. Sovellus ei enää vaadi GPS-käyttöoikeutta sijainnin valitsemiseen. Mukana on myös uudistettu Yksityisyysasetukset-näyttö, joka antaa selkeämmän kuvan tietojesi käsittelystä sekä suoran pääsyn tietosuojakäytäntöön."
+    }
+  ],
+  "improvements": [
+    "Uudet lajittelu- ja järjestysvaihtoehdot kansioissa",
+    "Viimeisimmät filmirullat -pikakuvake saatavilla jokaisessa filmivalikossa",
+    "Paina mitä tahansa riviä pitkään kontekstuaalisiin toimintoihin",
+    "Uusi Auto-vaihtoehto suljinajalle ja aukolle tallentimessa",
+    "Aseta sijainnit manuaalisesti kun sijaintipalvelut on poistettu käytöstä",
+    "Uudistettu Yksityisyysasetukset-näyttö suoralla pääsyllä tietosuojakäytäntöön",
+    "Käyttöliittymän ja animaatioiden parannuksia",
+    "Käännöspäivitykset kaikille tuetuille kielille"
+  ],
+  "fixes": [
+    {
+      "title": "Filmin luonti",
+      "description": "Korjattu virhe, joka esti filmien lisäämisen uudessa sovellusasennuksessa."
+    }
+  ],
+  "patches": [
+    {
+      "version": "1.20.1",
+      "description": "Korjattu filmien lisääminen uusissa asennuksissa"
+    },
+    {
+      "version": "1.20.2",
+      "description": "Auto-valotusvaihtoehto, pääsy tietosuojakäytäntöön ja käyttöliittymäparannuksia"
+    }
+  ],
+  "meta_title": "Filmien lajittelu ja pikakäyttö - Frames",
+  "meta_description": "Lajittele ja järjestä filmit kansioissa. Siirry projektien välillä Viimeisimmät filmirullat -toiminnolla. Paina pitkään pikatoimintoja ja käytä Autoa valotukseen."
+}

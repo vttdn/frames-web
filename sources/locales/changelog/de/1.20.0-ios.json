@@ -1,0 +1,92 @@
+{
+  "version": "1.20.0",
+  "version_short": "1.20",
+  "url_slug": "1-20-ios",
+  "platform": "ios",
+  "release_date": "2026-01-15T10:00:00.000Z",
+  "title": "Filmsortierung und Schnellzugriff",
+  "summary": "Dieses Update gibt dir mehr Kontrolle über die Organisation deiner Bibliothek und macht die Navigation schneller. Filmrollen in Ordnern können jetzt sortiert und geordnet werden, und eine neue Verknüpfung zu Neueste Filmrollen ermöglicht den schnellen Wechsel zwischen Projekten, ohne den aktuellen Bildschirm zu verlassen. Du kannst auch lange auf Zeilen drücken, um häufige Aktionen aufzurufen, und es gibt eine neue Auto-Option für Belichtungseinstellungen.",
+  "sections": [
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.20.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.20.0-1@2x.png",
+      "alt": "Frames Filmfotografie-App mit Filmsortierung und Schnellzugriff",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Sortiere und ordne deine Filmrollen"
+    },
+    {
+      "type": "paragraph",
+      "content": "Du hast jetzt die volle Kontrolle darüber, wie Filmrollen in deinen Ordnern organisiert sind. Sortiere deine Rollen nach Name, Erstellungsdatum oder Bearbeitungsdatum und wähle zwischen aufsteigender und absteigender Reihenfolge. Wenn du Filme nach Projekt, Reise oder Kamera gruppierst, wird es dadurch viel einfacher, das Gesuchte zu finden, ohne durch alles scrollen zu müssen."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Springe zu neuesten Filmrollen"
+    },
+    {
+      "type": "paragraph",
+      "content": "Eine neue Verknüpfung zu Neueste Filmrollen ist jetzt in jedem Filmmenü verfügbar. So kannst du schnell zu einer anderen Filmrolle wechseln, an der du kürzlich gearbeitet hast, ohne erst zur Bibliothek zurücknavigieren zu müssen. Eine kleine Ergänzung, die aber Zeit spart, wenn du zwischen aktiven Projekten wechselst."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Lange drücken für Schnellaktionen"
+    },
+    {
+      "type": "paragraph",
+      "content": "Wenn du lange auf eine Zeile drückst, erscheint jetzt ein Menü mit Verknüpfungen für dieses Element. Ob du etwas verschieben, bearbeiten oder löschen möchtest – die Optionen sind genau dort, wo du sie brauchst. Das funktioniert in der gesamten App und reduziert die Anzahl der Tippvorgänge."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Auto-Option für Belichtungseinstellungen"
+    },
+    {
+      "type": "paragraph",
+      "content": "Bei der Aufnahme von Einzelbildern kannst du jetzt Auto für Verschlusszeit und Blende wählen. Das ist praktisch, wenn du mit einer Kamera fotografierst, die die Belichtung automatisch regelt, und du die Aufnahme nur protokollieren möchtest, ohne spezifische Werte einzugeben. Die Option befindet sich neben deinen bestehenden manuellen Einstellungen in der Rekorder-Symbolleiste."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Standort- und Datenschutzeinstellungen"
+    },
+    {
+      "type": "paragraph",
+      "content": "Wenn du Ortungsdienste deaktiviert hast, kannst du Standorte jetzt ohne Einschränkungen manuell festlegen. Die App benötigt keinen GPS-Zugriff mehr, um einen Standort auszuwählen. Außerdem gibt es einen neu gestalteten Bildschirm für Datenschutzeinstellungen, der dir einen klareren Überblick über den Umgang mit deinen Daten gibt, sowie direkten Zugang zur Datenschutzerklärung."
+    }
+  ],
+  "improvements": [
+    "Neue Sortier- und Ordnungsoptionen in Ordnern",
+    "Verknüpfung zu Neueste Filmrollen in jedem Filmmenü verfügbar",
+    "Lange auf eine Zeile drücken für kontextbezogene Aktionen",
+    "Neue Auto-Option für Verschlusszeit und Blende im Rekorder",
+    "Standorte manuell festlegen, wenn Ortungsdienste deaktiviert sind",
+    "Neu gestalteter Datenschutzeinstellungen-Bildschirm mit direktem Zugang zur Datenschutzerklärung",
+    "Verbesserungen der Benutzeroberfläche und Animationen",
+    "Übersetzungsaktualisierungen für alle unterstützten Sprachen"
+  ],
+  "fixes": [
+    {
+      "title": "Filmrollenerstellung",
+      "description": "Ein Fehler wurde behoben, der das Hinzufügen von Filmrollen bei einer Neuinstallation der App verhinderte."
+    }
+  ],
+  "patches": [
+    {
+      "version": "1.20.1",
+      "description": "Hinzufügen von Filmrollen bei Neuinstallationen behoben"
+    },
+    {
+      "version": "1.20.2",
+      "description": "Auto-Belichtungsoption, Zugang zur Datenschutzerklärung und UI-Verbesserungen"
+    }
+  ],
+  "meta_title": "Filmsortierung und Schnellzugriff - Frames",
+  "meta_description": "Sortiere und ordne Filmrollen in Ordnern. Wechsle zwischen Projekten mit Neueste Filmrollen. Lange drücken für Schnellaktionen und Auto für Belichtung."
+}

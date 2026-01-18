@@ -1,0 +1,92 @@
+{
+  "version": "1.20.0",
+  "version_short": "1.20",
+  "url_slug": "1-20-ios",
+  "platform": "ios",
+  "release_date": "2026-01-15T10:00:00.000Z",
+  "title": "Filmrollen sorteren en snelle toegang",
+  "summary": "Deze update geeft je meer controle over de organisatie van je bibliotheek en maakt navigeren sneller. Filmrollen in mappen hebben nu sorteer- en volgordemogelijkheden, en een nieuwe snelkoppeling naar Recente filmrollen laat je tussen projecten springen zonder het huidige scherm te verlaten. Je kunt ook lang drukken op elke rij om veelgebruikte acties te openen, en er is een nieuwe Auto-optie voor belichtingsinstellingen.",
+  "sections": [
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.20.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.20.0-1@2x.png",
+      "alt": "Frames analoge fotografie-app met filmrollen sorteren en snelle toegang",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Sorteer en organiseer je filmrollen"
+    },
+    {
+      "type": "paragraph",
+      "content": "Je hebt nu volledige controle over hoe filmrollen in je mappen zijn georganiseerd. Sorteer je rollen op naam, aanmaakdatum of bewerkingsdatum, en kies oplopende of aflopende volgorde. Als je films groepeert op project, reis of camera, wordt het veel makkelijker om te vinden wat je zoekt zonder door alles te hoeven scrollen."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Spring naar recente filmrollen"
+    },
+    {
+      "type": "paragraph",
+      "content": "Een nieuwe snelkoppeling naar Recente filmrollen is nu beschikbaar in elk filmmenu. Hiermee kun je snel overschakelen naar een andere rol waar je recent aan werkte zonder eerst terug te navigeren naar de bibliotheek. Het is een kleine toevoeging, maar het bespaart tijd wanneer je tussen actieve projecten beweegt."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Lang drukken voor snelle acties"
+    },
+    {
+      "type": "paragraph",
+      "content": "Lang drukken op elke rij toont nu een menu met snelkoppelingen voor dat item. Of je nu iets wilt verplaatsen, bewerken of verwijderen, de opties zijn precies waar je ze nodig hebt. Dit werkt door de hele app en vermindert het aantal tikken dat nodig is om dingen gedaan te krijgen."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Auto-optie voor belichtingsinstellingen"
+    },
+    {
+      "type": "paragraph",
+      "content": "Bij het opnemen van filmframes kun je nu Auto selecteren voor sluitertijd en diafragma. Dit is handig wanneer je fotografeert met een camera die de belichting automatisch regelt en je gewoon de opname wilt vastleggen zonder specifieke waarden in te voeren. De optie staat naast je bestaande handmatige keuzes in de recorder-werkbalk."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Locatie- en privacy-updates"
+    },
+    {
+      "type": "paragraph",
+      "content": "Als je locatieservices hebt uitgeschakeld, kun je nu locaties handmatig instellen zonder beperkingen. De app vereist geen GPS-toegang meer om je een locatie te laten selecteren. Er is ook een vernieuwd Privacy-instellingenscherm dat je een duidelijker beeld geeft van hoe je gegevens worden behandeld, samen met directe toegang tot het Privacybeleid."
+    }
+  ],
+  "improvements": [
+    "Nieuwe sorteer- en volgordemogelijkheden in mappen",
+    "Snelkoppeling naar Recente filmrollen beschikbaar in elk filmmenu",
+    "Lang drukken op elke rij voor contextuele acties",
+    "Nieuwe Auto-optie voor sluitertijd en diafragma in de recorder",
+    "Locaties handmatig instellen wanneer locatieservices zijn uitgeschakeld",
+    "Vernieuwd Privacy-instellingenscherm met directe toegang tot het Privacybeleid",
+    "Verbeteringen aan interface en animaties",
+    "Vertalingsupdates voor alle ondersteunde talen"
+  ],
+  "fixes": [
+    {
+      "title": "Filmrol aanmaken",
+      "description": "Een bug opgelost die het toevoegen van filmrollen bij een nieuwe app-installatie verhinderde."
+    }
+  ],
+  "patches": [
+    {
+      "version": "1.20.1",
+      "description": "Toevoegen van filmrollen bij nieuwe installaties opgelost"
+    },
+    {
+      "version": "1.20.2",
+      "description": "Auto-belichtingsoptie, toegang tot Privacybeleid en UI-verbeteringen"
+    }
+  ],
+  "meta_title": "Filmrollen sorteren en snelle toegang - Frames",
+  "meta_description": "Sorteer en organiseer filmrollen in mappen. Spring tussen projecten met Recente filmrollen. Lang drukken voor snelle acties en Auto voor belichting."
+}

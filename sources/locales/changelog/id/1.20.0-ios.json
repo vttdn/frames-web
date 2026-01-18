@@ -1,0 +1,92 @@
+{
+  "version": "1.20.0",
+  "version_short": "1.20",
+  "url_slug": "1-20-ios",
+  "platform": "ios",
+  "release_date": "2026-01-15T10:00:00.000Z",
+  "title": "Pengurutan film dan akses cepat",
+  "summary": "Pembaruan ini memberi Anda lebih banyak kontrol atas pengaturan perpustakaan dan mempercepat navigasi. Film di dalam folder kini memiliki opsi pengurutan dan penyusunan, dan pintasan Film Terbaru yang baru memungkinkan Anda berpindah antar proyek tanpa meninggalkan layar saat ini. Anda juga dapat menekan lama pada baris mana pun untuk mengakses tindakan umum, dan ada opsi Auto baru untuk pengaturan eksposur.",
+  "sections": [
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.20.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.20.0-1@2x.png",
+      "alt": "Aplikasi fotografi film Frames dengan pengurutan film dan akses cepat",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Urutkan dan atur film Anda"
+    },
+    {
+      "type": "paragraph",
+      "content": "Anda sekarang memiliki kontrol penuh atas pengaturan film di dalam folder Anda. Urutkan rol Anda berdasarkan nama, tanggal dibuat, atau tanggal diedit, dan pilih urutan naik atau turun. Jika Anda mengelompokkan film berdasarkan proyek, perjalanan, atau kamera, ini akan memudahkan Anda menemukan apa yang dicari tanpa harus menggulir semuanya."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Langsung ke film terbaru"
+    },
+    {
+      "type": "paragraph",
+      "content": "Pintasan Film Terbaru yang baru kini tersedia di setiap menu film. Ini memungkinkan Anda dengan cepat beralih ke rol lain yang baru-baru ini Anda kerjakan tanpa harus kembali ke perpustakaan terlebih dahulu. Ini adalah tambahan kecil, tetapi menghemat waktu saat Anda berpindah antar proyek aktif."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Tekan lama untuk tindakan cepat"
+    },
+    {
+      "type": "paragraph",
+      "content": "Menekan lama pada baris mana pun kini menampilkan menu pintasan untuk item tersebut. Apakah Anda ingin memindahkan, mengedit, atau menghapus sesuatu, opsinya ada tepat di mana Anda membutuhkannya. Ini berfungsi di seluruh aplikasi dan mengurangi jumlah ketukan yang diperlukan untuk menyelesaikan pekerjaan."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Opsi Auto untuk pengaturan eksposur"
+    },
+    {
+      "type": "paragraph",
+      "content": "Saat merekam frame, Anda sekarang dapat memilih Auto untuk kecepatan rana dan apertur. Ini berguna saat Anda memotret dengan kamera yang menangani eksposur secara otomatis dan Anda hanya ingin mencatat pengambilan gambar tanpa memasukkan nilai spesifik. Opsi ini berada di samping pilihan manual yang ada di toolbar perekam."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Pembaruan lokasi dan privasi"
+    },
+    {
+      "type": "paragraph",
+      "content": "Jika Anda menonaktifkan layanan lokasi, Anda sekarang dapat mengatur lokasi secara manual tanpa batasan. Aplikasi tidak lagi memerlukan akses GPS untuk memungkinkan Anda memilih lokasi. Ada juga layar Pengaturan Privasi yang didesain ulang yang memberi Anda tampilan lebih jelas tentang bagaimana data Anda ditangani, beserta akses langsung ke Kebijakan Privasi."
+    }
+  ],
+  "improvements": [
+    "Opsi pengurutan dan penyusunan baru di dalam folder",
+    "Pintasan Film Terbaru tersedia di setiap menu film",
+    "Tekan lama pada baris mana pun untuk mengakses tindakan kontekstual",
+    "Opsi Auto baru untuk kecepatan rana dan apertur di perekam",
+    "Atur lokasi secara manual saat layanan lokasi dinonaktifkan",
+    "Layar Pengaturan Privasi yang didesain ulang dengan akses langsung ke Kebijakan Privasi",
+    "Penyempurnaan antarmuka dan animasi",
+    "Pembaruan terjemahan di semua bahasa yang didukung"
+  ],
+  "fixes": [
+    {
+      "title": "Pembuatan film",
+      "description": "Memperbaiki bug yang mencegah penambahan film pada instalasi aplikasi baru."
+    }
+  ],
+  "patches": [
+    {
+      "version": "1.20.1",
+      "description": "Memperbaiki penambahan film pada instalasi baru"
+    },
+    {
+      "version": "1.20.2",
+      "description": "Opsi eksposur Auto, akses Kebijakan Privasi, dan penyempurnaan UI"
+    }
+  ],
+  "meta_title": "Pengurutan film dan akses cepat - Frames",
+  "meta_description": "Urutkan dan atur film di dalam folder. Berpindah antar proyek dengan Film Terbaru. Tekan lama untuk tindakan cepat dan gunakan Auto untuk pengaturan eksposur."
+}

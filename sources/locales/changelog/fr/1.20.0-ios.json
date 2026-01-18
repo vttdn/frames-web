@@ -1,0 +1,92 @@
+{
+  "version": "1.20.0",
+  "version_short": "1.20",
+  "url_slug": "1-20-ios",
+  "platform": "ios",
+  "release_date": "2026-01-15T10:00:00.000Z",
+  "title": "Tri des pellicules et accès rapide",
+  "summary": "Cette mise à jour vous donne plus de contrôle sur l'organisation de votre bibliothèque et accélère la navigation. Les pellicules dans les dossiers disposent désormais d'options de tri et d'ordonnancement, et un nouveau raccourci Pellicules récentes vous permet de passer d'un projet à l'autre sans quitter l'écran actuel. Vous pouvez également appuyer longuement sur n'importe quelle ligne pour accéder aux actions courantes, et il y a une nouvelle option Auto pour les réglages d'exposition.",
+  "sections": [
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.20.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.20.0-1@2x.png",
+      "alt": "Application de photographie argentique Frames avec tri des pellicules et accès rapide",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Triez et organisez vos pellicules"
+    },
+    {
+      "type": "paragraph",
+      "content": "Vous avez maintenant un contrôle total sur l'organisation des pellicules dans vos dossiers. Triez vos rouleaux par nom, date de création ou date de modification, et choisissez l'ordre croissant ou décroissant. Si vous regroupez les pellicules par projet, voyage ou appareil photo, cela facilite grandement la recherche sans avoir à tout parcourir."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Accédez aux pellicules récentes"
+    },
+    {
+      "type": "paragraph",
+      "content": "Un nouveau raccourci Pellicules récentes est désormais disponible dans chaque menu de pellicule. Cela vous permet de basculer rapidement vers un autre rouleau sur lequel vous travailliez récemment sans avoir à revenir à la bibliothèque. C'est un petit ajout, mais il fait gagner du temps lorsque vous passez d'un projet actif à l'autre."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Appui long pour les actions rapides"
+    },
+    {
+      "type": "paragraph",
+      "content": "Un appui long sur n'importe quelle ligne affiche maintenant un menu de raccourcis pour cet élément. Que vous souhaitiez déplacer, modifier ou supprimer quelque chose, les options sont là où vous en avez besoin. Cela fonctionne dans toute l'application et réduit le nombre de touches nécessaires."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Option Auto pour les réglages d'exposition"
+    },
+    {
+      "type": "paragraph",
+      "content": "Lors de l'enregistrement des frames, vous pouvez maintenant sélectionner Auto pour la vitesse d'obturation et l'ouverture. C'est utile lorsque vous photographiez avec un appareil qui gère l'exposition automatiquement et que vous voulez simplement enregistrer la prise de vue sans entrer de valeurs spécifiques. L'option se trouve à côté de vos choix manuels existants dans la barre d'outils de l'enregistreur."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Mises à jour de localisation et de confidentialité"
+    },
+    {
+      "type": "paragraph",
+      "content": "Si vous avez désactivé les services de localisation, vous pouvez maintenant définir des emplacements manuellement sans restriction. L'application ne nécessite plus l'accès GPS pour vous permettre de sélectionner un lieu. Il y a également un nouvel écran Paramètres de confidentialité qui vous donne une vision plus claire de la gestion de vos données, ainsi qu'un accès direct à la Politique de confidentialité."
+    }
+  ],
+  "improvements": [
+    "Nouvelles options de tri et d'ordonnancement dans les dossiers",
+    "Raccourci Pellicules récentes disponible dans chaque menu de pellicule",
+    "Appuyez longuement sur n'importe quelle ligne pour accéder aux actions contextuelles",
+    "Nouvelle option Auto pour la vitesse d'obturation et l'ouverture dans l'enregistreur",
+    "Définissez des emplacements manuellement lorsque les services de localisation sont désactivés",
+    "Écran Paramètres de confidentialité repensé avec accès direct à la Politique de confidentialité",
+    "Améliorations de l'interface et des animations",
+    "Mises à jour des traductions pour toutes les langues prises en charge"
+  ],
+  "fixes": [
+    {
+      "title": "Création de pellicule",
+      "description": "Correction d'un bug qui empêchait l'ajout de pellicules lors d'une nouvelle installation de l'application."
+    }
+  ],
+  "patches": [
+    {
+      "version": "1.20.1",
+      "description": "Correction de l'ajout de pellicules sur les nouvelles installations"
+    },
+    {
+      "version": "1.20.2",
+      "description": "Option d'exposition Auto, accès à la Politique de confidentialité et améliorations de l'interface"
+    }
+  ],
+  "meta_title": "Tri des pellicules et accès rapide - Frames",
+  "meta_description": "Triez et organisez les pellicules dans les dossiers. Passez d'un projet à l'autre avec Pellicules récentes. Appui long pour les actions rapides et Auto pour l'exposition."
+}

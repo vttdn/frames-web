@@ -1,0 +1,92 @@
+{
+  "version": "1.20.0",
+  "version_short": "1.20",
+  "url_slug": "1-20-ios",
+  "platform": "ios",
+  "release_date": "2026-01-15T10:00:00.000Z",
+  "title": "Filmsortering og hurtig tilgang",
+  "summary": "Denne oppdateringen gir deg mer kontroll over hvordan biblioteket ditt er organisert og gjør navigeringen raskere. Filmer i mapper har nå sorterings- og rekkefølgealternativer, og en ny snarvei til Nylige filmer lar deg hoppe mellom prosjekter uten å forlate gjeldende skjerm. Du kan også holde inne på en rad for å få tilgang til vanlige handlinger, og det er et nytt Auto-alternativ for eksponeringsinnstillinger.",
+  "sections": [
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.20.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.20.0-1@2x.png",
+      "alt": "Frames filmfotografering-app med filmsortering og hurtig tilgang",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Sorter og organiser filmene dine"
+    },
+    {
+      "type": "paragraph",
+      "content": "Du har nå full kontroll over hvordan filmer er organisert i mappene dine. Sorter rullene dine etter navn, opprettelsesdato eller redigeringsdato, og velg stigende eller synkende rekkefølge. Hvis du grupperer filmer etter prosjekt, reise eller kamera, gjør dette det mye enklere å finne det du leter etter uten å måtte bla gjennom alt."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Hopp til nylige filmer"
+    },
+    {
+      "type": "paragraph",
+      "content": "En ny snarvei til Nylige filmer er nå tilgjengelig i hver filmmeny. Dette lar deg raskt bytte til en annen rull du jobbet med nylig uten å måtte navigere tilbake til biblioteket først. Det er et lite tillegg, men det sparer tid når du beveger deg mellom aktive prosjekter."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Hold inne for hurtighandlinger"
+    },
+    {
+      "type": "paragraph",
+      "content": "Å holde inne på en rad viser nå en meny med snarveier for det elementet. Enten du vil flytte, redigere eller slette noe, er alternativene rett der du trenger dem. Dette fungerer i hele appen og reduserer antall trykk som kreves for å få ting gjort."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Auto-alternativ for eksponeringsinnstillinger"
+    },
+    {
+      "type": "paragraph",
+      "content": "Når du registrerer rammer, kan du nå velge Auto for lukkertid og blenderåpning. Dette er nyttig når du fotograferer med et kamera som håndterer eksponering automatisk og du bare vil logge bildet uten å oppgi spesifikke verdier. Alternativet finnes ved siden av dine eksisterende manuelle valg i opptakerens verktøylinje."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Oppdateringer for plassering og personvern"
+    },
+    {
+      "type": "paragraph",
+      "content": "Hvis du har slått av posisjonstjenester, kan du nå angi plasseringer manuelt uten begrensninger. Appen krever ikke lenger GPS-tilgang for å la deg velge en plassering. Det er også en nydesignet skjerm for personverninnstillinger som gir deg en klarere oversikt over hvordan dataene dine håndteres, sammen med direkte tilgang til personvernerklæringen."
+    }
+  ],
+  "improvements": [
+    "Nye sorterings- og rekkefølgealternativer i mapper",
+    "Snarvei til Nylige filmer tilgjengelig i hver filmmeny",
+    "Hold inne på en rad for å få tilgang til kontekstuelle handlinger",
+    "Nytt Auto-alternativ for lukkertid og blenderåpning i opptakeren",
+    "Angi plasseringer manuelt når posisjonstjenester er deaktivert",
+    "Nydesignet skjerm for personverninnstillinger med direkte tilgang til personvernerklæringen",
+    "Forbedringer av grensesnitt og animasjoner",
+    "Oversettelsesoppdateringer for alle støttede språk"
+  ],
+  "fixes": [
+    {
+      "title": "Filmoppretting",
+      "description": "Rettet en feil som forhindret tillegging av filmer ved en ny appinstallasjon."
+    }
+  ],
+  "patches": [
+    {
+      "version": "1.20.1",
+      "description": "Rettet tillegging av filmer ved nye installasjoner"
+    },
+    {
+      "version": "1.20.2",
+      "description": "Auto-eksponeringsalternativ, tilgang til personvernerklæring og UI-forbedringer"
+    }
+  ],
+  "meta_title": "Filmsortering og hurtig tilgang - Frames",
+  "meta_description": "Sorter og organiser filmer i mapper. Hopp mellom prosjekter med Nylige filmer. Hold inne for hurtighandlinger og bruk Auto for eksponeringsinnstillinger."
+}

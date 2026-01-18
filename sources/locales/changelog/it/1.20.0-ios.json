@@ -1,0 +1,92 @@
+{
+  "version": "1.20.0",
+  "version_short": "1.20",
+  "url_slug": "1-20-ios",
+  "platform": "ios",
+  "release_date": "2026-01-15T10:00:00.000Z",
+  "title": "Ordinamento pellicole e accesso rapido",
+  "summary": "Questo aggiornamento ti dà più controllo sull'organizzazione della tua libreria e rende la navigazione più veloce. Le pellicole nelle cartelle ora hanno opzioni di ordinamento, e una nuova scorciatoia Pellicole recenti ti permette di passare da un progetto all'altro senza lasciare la schermata corrente. Puoi anche tenere premuto su qualsiasi riga per accedere alle azioni comuni, e c'è una nuova opzione Auto per le impostazioni di esposizione.",
+  "sections": [
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.20.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.20.0-1@2x.png",
+      "alt": "App di fotografia analogica Frames con ordinamento pellicole e accesso rapido",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Ordina e organizza le tue pellicole"
+    },
+    {
+      "type": "paragraph",
+      "content": "Ora hai il pieno controllo su come le pellicole sono organizzate nelle tue cartelle. Ordina i tuoi rullini per nome, data di creazione o data di modifica, e scegli l'ordine crescente o decrescente. Se raggruppi le pellicole per progetto, viaggio o fotocamera, questo rende molto più facile trovare quello che cerchi senza dover scorrere tutto."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Vai alle pellicole recenti"
+    },
+    {
+      "type": "paragraph",
+      "content": "Una nuova scorciatoia Pellicole recenti è ora disponibile in ogni menu pellicola. Questo ti permette di passare rapidamente a un altro rullino su cui stavi lavorando di recente senza dover tornare prima alla libreria. È una piccola aggiunta, ma fa risparmiare tempo quando ti muovi tra progetti attivi."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Tieni premuto per azioni rapide"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tenere premuto su qualsiasi riga ora mostra un menu di scorciatoie per quell'elemento. Che tu voglia spostare, modificare o eliminare qualcosa, le opzioni sono proprio dove ne hai bisogno. Questo funziona in tutta l'app e riduce il numero di tocchi necessari per fare le cose."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Opzione Auto per le impostazioni di esposizione"
+    },
+    {
+      "type": "paragraph",
+      "content": "Durante la registrazione dei fotogrammi, ora puoi selezionare Auto per tempo di posa e diaframma. Questo è utile quando scatti con una fotocamera che gestisce l'esposizione automaticamente e vuoi solo registrare lo scatto senza inserire valori specifici. L'opzione si trova accanto alle tue scelte manuali esistenti nella barra degli strumenti del registratore."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Aggiornamenti posizione e privacy"
+    },
+    {
+      "type": "paragraph",
+      "content": "Se hai disattivato i servizi di localizzazione, ora puoi impostare le posizioni manualmente senza restrizioni. L'app non richiede più l'accesso GPS per permetterti di selezionare una posizione. C'è anche una schermata Impostazioni privacy ridisegnata che ti offre una visione più chiara di come vengono gestiti i tuoi dati, insieme all'accesso diretto all'Informativa sulla privacy."
+    }
+  ],
+  "improvements": [
+    "Nuove opzioni di ordinamento nelle cartelle",
+    "Scorciatoia Pellicole recenti disponibile in ogni menu pellicola",
+    "Tieni premuto su qualsiasi riga per accedere alle azioni contestuali",
+    "Nuova opzione Auto per tempo di posa e diaframma nel registratore",
+    "Imposta posizioni manualmente quando i servizi di localizzazione sono disattivati",
+    "Schermata Impostazioni privacy ridisegnata con accesso diretto all'Informativa sulla privacy",
+    "Miglioramenti all'interfaccia e alle animazioni",
+    "Aggiornamenti delle traduzioni per tutte le lingue supportate"
+  ],
+  "fixes": [
+    {
+      "title": "Creazione pellicola",
+      "description": "Risolto un bug che impediva l'aggiunta di pellicole in una nuova installazione dell'app."
+    }
+  ],
+  "patches": [
+    {
+      "version": "1.20.1",
+      "description": "Risolto l'aggiunta di pellicole nelle nuove installazioni"
+    },
+    {
+      "version": "1.20.2",
+      "description": "Opzione esposizione Auto, accesso all'Informativa sulla privacy e miglioramenti UI"
+    }
+  ],
+  "meta_title": "Ordinamento pellicole e accesso rapido - Frames",
+  "meta_description": "Ordina e organizza le pellicole nelle cartelle. Passa tra progetti con Pellicole recenti. Tieni premuto per azioni rapide e usa Auto per l'esposizione."
+}

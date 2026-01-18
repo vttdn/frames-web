@@ -1,0 +1,92 @@
+{
+  "version": "1.20.0",
+  "version_short": "1.20",
+  "url_slug": "1-20-ios",
+  "platform": "ios",
+  "release_date": "2026-01-15T10:00:00.000Z",
+  "title": "Sortarea filmelor și acces rapid",
+  "summary": "Această actualizare îți oferă mai mult control asupra organizării bibliotecii și face navigarea mai rapidă. Filmele din foldere au acum opțiuni de sortare și ordonare, iar o nouă comandă rapidă Filme recente îți permite să sari între proiecte fără să părăsești ecranul curent. Poți, de asemenea, să apeși lung pe orice rând pentru a accesa acțiuni comune, și există o nouă opțiune Auto pentru setările de expunere.",
+  "sections": [
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.20.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.20.0-1@2x.png",
+      "alt": "Aplicația de fotografie pe film Frames cu sortarea filmelor și acces rapid",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Sortează și organizează filmele tale"
+    },
+    {
+      "type": "paragraph",
+      "content": "Acum ai control deplin asupra modului în care filmele sunt organizate în folderele tale. Sortează-ți rolele după nume, data creării sau data editării și alege ordinea crescătoare sau descrescătoare. Dacă grupezi filmele după proiect, călătorie sau cameră, acest lucru face mult mai ușor să găsești ce cauți fără să derulezi prin tot."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Sari la filmele recente"
+    },
+    {
+      "type": "paragraph",
+      "content": "O nouă comandă rapidă Filme recente este acum disponibilă în fiecare meniu de film. Aceasta îți permite să treci rapid la o altă rolă la care ai lucrat recent fără să navighezi mai întâi înapoi la bibliotecă. Este o mică adăugire, dar economisește timp când te miști între proiecte active."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Apasă lung pentru acțiuni rapide"
+    },
+    {
+      "type": "paragraph",
+      "content": "Apăsarea lungă pe orice rând afișează acum un meniu de comenzi rapide pentru acel element. Fie că vrei să muți, să editezi sau să ștergi ceva, opțiunile sunt chiar acolo unde ai nevoie de ele. Aceasta funcționează în întreaga aplicație și reduce numărul de atingeri necesare pentru a face lucrurile."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Opțiunea Auto pentru setările de expunere"
+    },
+    {
+      "type": "paragraph",
+      "content": "Când înregistrezi cadre, acum poți selecta Auto pentru viteza de declanșare și diafragmă. Acest lucru este util când fotografiezi cu o cameră care gestionează expunerea automat și vrei doar să înregistrezi fotografia fără să introduci valori specifice. Opțiunea se află lângă alegerile tale manuale existente în bara de instrumente a înregistratorului."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Actualizări de locație și confidențialitate"
+    },
+    {
+      "type": "paragraph",
+      "content": "Dacă ai dezactivate serviciile de localizare, acum poți seta locațiile manual fără restricții. Aplicația nu mai necesită acces GPS pentru a-ți permite să selectezi o locație. Există, de asemenea, un ecran de Setări de confidențialitate reproiectat care îți oferă o imagine mai clară asupra modului în care sunt gestionate datele tale, împreună cu acces direct la Politica de confidențialitate."
+    }
+  ],
+  "improvements": [
+    "Noi opțiuni de sortare și ordonare în foldere",
+    "Comandă rapidă Filme recente disponibilă în fiecare meniu de film",
+    "Apasă lung pe orice rând pentru a accesa acțiuni contextuale",
+    "Nouă opțiune Auto pentru viteza de declanșare și diafragmă în înregistrator",
+    "Setează locațiile manual când serviciile de localizare sunt dezactivate",
+    "Ecran de Setări de confidențialitate reproiectat cu acces direct la Politica de confidențialitate",
+    "Îmbunătățiri ale interfeței și animațiilor",
+    "Actualizări de traducere pentru toate limbile acceptate"
+  ],
+  "fixes": [
+    {
+      "title": "Crearea filmului",
+      "description": "S-a remediat o eroare care împiedica adăugarea filmelor la o nouă instalare a aplicației."
+    }
+  ],
+  "patches": [
+    {
+      "version": "1.20.1",
+      "description": "Remediat adăugarea filmelor la instalări noi"
+    },
+    {
+      "version": "1.20.2",
+      "description": "Opțiunea de expunere Auto, acces la Politica de confidențialitate și îmbunătățiri UI"
+    }
+  ],
+  "meta_title": "Sortarea filmelor și acces rapid - Frames",
+  "meta_description": "Sortează și organizează filmele în foldere. Sari între proiecte cu Filme recente. Apasă lung pentru acțiuni rapide și folosește Auto pentru expunere."
+}

@@ -1,0 +1,92 @@
+{
+  "version": "1.20.0",
+  "version_short": "1.20",
+  "url_slug": "1-20-ios",
+  "platform": "ios",
+  "release_date": "2026-01-15T10:00:00.000Z",
+  "title": "Ordenação de películas e acesso rápido",
+  "summary": "Esta atualização dá mais controle sobre a organização da sua biblioteca e torna a navegação mais rápida. As películas dentro das pastas agora têm opções de ordenação, e um novo atalho para Películas recentes permite saltar entre projetos sem sair do ecrã atual. Também pode manter pressionada qualquer linha para aceder a ações comuns, e há uma nova opção Auto para as definições de exposição.",
+  "sections": [
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.20.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.20.0-1@2x.png",
+      "alt": "Aplicação de fotografia analógica Frames com ordenação de películas e acesso rápido",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Ordene e organize as suas películas"
+    },
+    {
+      "type": "paragraph",
+      "content": "Agora tem controlo total sobre como as películas estão organizadas nas suas pastas. Ordene os seus rolos por nome, data de criação ou data de edição, e escolha ordem crescente ou decrescente. Se agrupa películas por projeto, viagem ou câmara, isto torna muito mais fácil encontrar o que procura sem ter de percorrer tudo."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Salte para películas recentes"
+    },
+    {
+      "type": "paragraph",
+      "content": "Um novo atalho para Películas recentes está agora disponível em cada menu de película. Isto permite mudar rapidamente para outro rolo em que estava a trabalhar recentemente sem ter de navegar primeiro para a biblioteca. É uma pequena adição, mas poupa tempo quando se move entre projetos ativos."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Mantenha pressionado para ações rápidas"
+    },
+    {
+      "type": "paragraph",
+      "content": "Manter pressionada qualquer linha mostra agora um menu de atalhos para esse item. Quer queira mover, editar ou apagar algo, as opções estão mesmo onde precisa delas. Isto funciona em toda a aplicação e reduz o número de toques necessários para fazer as coisas."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Opção Auto para definições de exposição"
+    },
+    {
+      "type": "paragraph",
+      "content": "Ao registar fotogramas, pode agora selecionar Auto para velocidade do obturador e abertura. Isto é útil quando fotografa com uma câmara que trata da exposição automaticamente e apenas quer registar a foto sem introduzir valores específicos. A opção está junto às suas escolhas manuais existentes na barra de ferramentas do gravador."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Atualizações de localização e privacidade"
+    },
+    {
+      "type": "paragraph",
+      "content": "Se tem os serviços de localização desativados, pode agora definir localizações manualmente sem restrições. A aplicação já não requer acesso GPS para permitir selecionar uma localização. Há também um ecrã de Definições de privacidade redesenhado que oferece uma visão mais clara de como os seus dados são tratados, juntamente com acesso direto à Política de Privacidade."
+    }
+  ],
+  "improvements": [
+    "Novas opções de ordenação dentro das pastas",
+    "Atalho para Películas recentes disponível em cada menu de película",
+    "Mantenha pressionada qualquer linha para aceder a ações contextuais",
+    "Nova opção Auto para velocidade do obturador e abertura no gravador",
+    "Defina localizações manualmente quando os serviços de localização estão desativados",
+    "Ecrã de Definições de privacidade redesenhado com acesso direto à Política de Privacidade",
+    "Melhorias na interface e animações",
+    "Atualizações de tradução em todos os idiomas suportados"
+  ],
+  "fixes": [
+    {
+      "title": "Criação de película",
+      "description": "Corrigido um erro que impedia a adição de películas numa nova instalação da aplicação."
+    }
+  ],
+  "patches": [
+    {
+      "version": "1.20.1",
+      "description": "Corrigida a adição de películas em novas instalações"
+    },
+    {
+      "version": "1.20.2",
+      "description": "Opção de exposição Auto, acesso à Política de Privacidade e melhorias de interface"
+    }
+  ],
+  "meta_title": "Ordenação de películas e acesso rápido - Frames",
+  "meta_description": "Ordene e organize películas em pastas. Salte entre projetos com Películas recentes. Mantenha pressionado para ações rápidas e use Auto para exposição."
+}

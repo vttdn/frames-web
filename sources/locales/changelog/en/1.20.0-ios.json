@@ -1,0 +1,92 @@
+{
+  "version": "1.20.0",
+  "version_short": "1.20",
+  "url_slug": "1-20-ios",
+  "platform": "ios",
+  "release_date": "2026-01-15T10:00:00.000Z",
+  "title": "Film Sorting & Quick Access",
+  "summary": "This update gives you more control over how your library is organized and makes it faster to get where you need to go. Films inside folders now have sorting and ordering options, and a new Recent Films shortcut lets you jump between projects without leaving your current screen. You can also long-press rows to access common actions right where you are, and there's a new Auto option for recording exposure settings.",
+  "sections": [
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.20.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.20.0-1@2x.png",
+      "alt": "Frames film photography app film sorting and quick access features",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Sort and Order Your Films"
+    },
+    {
+      "type": "paragraph",
+      "content": "You now have full control over how films are organized inside your folders. Sort your rolls by name, date created, or date edited, and choose ascending or descending order. If you group films by project, trip, or camera, this makes it much easier to find what you're looking for without scrolling through everything."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Jump to Recent Films"
+    },
+    {
+      "type": "paragraph",
+      "content": "A new Recent Films shortcut is now available inside every film menu. This lets you quickly switch to another roll you were working on recently without navigating back to the library first. It's a small addition, but it saves time when you're moving between active projects."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Long-Press for Quick Actions"
+    },
+    {
+      "type": "paragraph",
+      "content": "Long-pressing any row now reveals a menu of shortcuts for that item. Whether you want to move, edit, or delete something, the options are right there where you need them. This works throughout the app and reduces the number of taps required to get things done."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Auto Option for Exposure Settings"
+    },
+    {
+      "type": "paragraph",
+      "content": "When recording frames, you can now select Auto for shutter speed and aperture. This is useful when you're shooting with a camera that handles exposure automatically and you just want to log the shot without entering specific values. The option sits alongside your existing manual choices in the recorder toolbar."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Location and Privacy Updates"
+    },
+    {
+      "type": "paragraph",
+      "content": "If you have location services turned off, you can now set locations manually without any restrictions. The app no longer requires GPS access to let you select a location. There's also a redesigned Privacy Settings screen that gives you a clearer view of how your data is handled, along with direct access to the Privacy Policy."
+    }
+  ],
+  "improvements": [
+    "New sorting and ordering options inside folders",
+    "Recent Films shortcut available in every film menu",
+    "Long-press any row to access contextual actions",
+    "New Auto option for shutter speed and aperture in the recorder",
+    "Set locations manually when location services are disabled",
+    "Redesigned Privacy Settings screen with direct access to the Privacy Policy",
+    "Interface refinements and improved animations",
+    "Translation updates across all supported languages"
+  ],
+  "fixes": [
+    {
+      "title": "Film creation",
+      "description": "Fixed a bug that prevented adding films on a fresh app installation."
+    }
+  ],
+  "patches": [
+    {
+      "version": "1.20.1",
+      "description": "Fixed adding films on fresh installations"
+    },
+    {
+      "version": "1.20.2",
+      "description": "Auto exposure option, Privacy Policy access, and UI refinements"
+    }
+  ],
+  "meta_title": "Film Sorting & Quick Access - Frames",
+  "meta_description": "Sort and order films inside folders. Jump between projects with Recent Films. Long-press for quick actions and use Auto for exposure settings."
+}

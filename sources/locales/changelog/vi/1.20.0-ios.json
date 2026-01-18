@@ -1,0 +1,92 @@
+{
+  "version": "1.20.0",
+  "version_short": "1.20",
+  "url_slug": "1-20-ios",
+  "platform": "ios",
+  "release_date": "2026-01-15T10:00:00.000Z",
+  "title": "Sắp xếp cuộn phim và truy cập nhanh",
+  "summary": "Bản cập nhật này cho bạn nhiều quyền kiểm soát hơn đối với cách tổ chức thư viện và giúp điều hướng nhanh hơn. Cuộn phim trong thư mục giờ có các tùy chọn sắp xếp và thứ tự, và phím tắt Cuộn phim gần đây mới cho phép bạn chuyển đổi giữa các dự án mà không cần rời khỏi màn hình hiện tại. Bạn cũng có thể nhấn giữ bất kỳ hàng nào để truy cập các thao tác phổ biến, và có tùy chọn Tự Động mới cho cài đặt phơi sáng",
+  "sections": [
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.20.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.20.0-1@2x.png",
+      "alt": "Ứng dụng chụp ảnh phim Frames với sắp xếp cuộn phim và truy cập nhanh",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Sắp xếp và tổ chức cuộn phim của bạn"
+    },
+    {
+      "type": "paragraph",
+      "content": "Giờ bạn có toàn quyền kiểm soát cách cuộn phim được tổ chức trong thư mục. Sắp xếp các cuộn theo tên, ngày tạo hoặc ngày chỉnh sửa, và chọn thứ tự tăng dần hoặc giảm dần. Nếu bạn nhóm cuộn phim theo dự án, chuyến đi hoặc máy ảnh, điều này giúp tìm kiếm thứ bạn cần dễ dàng hơn nhiều mà không cần cuộn qua tất cả"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Chuyển đến cuộn phim gần đây"
+    },
+    {
+      "type": "paragraph",
+      "content": "Phím tắt Cuộn phim gần đây mới hiện có sẵn trong mọi menu cuộn phim. Điều này cho phép bạn nhanh chóng chuyển sang cuộn phim khác mà bạn đang làm việc gần đây mà không cần quay lại thư viện trước. Đây là một bổ sung nhỏ, nhưng tiết kiệm thời gian khi bạn di chuyển giữa các dự án đang hoạt động"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Nhấn giữ để thao tác nhanh"
+    },
+    {
+      "type": "paragraph",
+      "content": "Nhấn giữ bất kỳ hàng nào giờ sẽ hiển thị menu phím tắt cho mục đó. Dù bạn muốn di chuyển, chỉnh sửa hay xóa thứ gì đó, các tùy chọn đều ở ngay nơi bạn cần. Điều này hoạt động trong toàn bộ ứng dụng và giảm số lần chạm cần thiết để hoàn thành công việc"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Tùy chọn Tự Động cho cài đặt phơi sáng"
+    },
+    {
+      "type": "paragraph",
+      "content": "Khi ghi khung hình, bạn giờ có thể chọn Tự Động cho tốc độ màn trập và khẩu độ. Điều này hữu ích khi bạn chụp với máy ảnh tự động xử lý phơi sáng và bạn chỉ muốn ghi lại bức ảnh mà không nhập các giá trị cụ thể. Tùy chọn này nằm cạnh các lựa chọn thủ công hiện có trong thanh công cụ ghi"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Cập nhật vị trí và quyền riêng tư"
+    },
+    {
+      "type": "paragraph",
+      "content": "Nếu bạn tắt dịch vụ vị trí, giờ bạn có thể đặt vị trí thủ công mà không có hạn chế. Ứng dụng không còn yêu cầu quyền truy cập GPS để cho phép bạn chọn vị trí. Ngoài ra còn có màn hình Cài đặt quyền riêng tư được thiết kế lại cho bạn cái nhìn rõ ràng hơn về cách dữ liệu của bạn được xử lý, cùng với quyền truy cập trực tiếp vào Chính sách quyền riêng tư"
+    }
+  ],
+  "improvements": [
+    "Tùy chọn sắp xếp và thứ tự mới trong thư mục",
+    "Phím tắt Cuộn phim gần đây có sẵn trong mọi menu cuộn phim",
+    "Nhấn giữ bất kỳ hàng nào để truy cập thao tác theo ngữ cảnh",
+    "Tùy chọn Tự Động mới cho tốc độ màn trập và khẩu độ trong trình ghi",
+    "Đặt vị trí thủ công khi dịch vụ vị trí bị tắt",
+    "Màn hình Cài đặt quyền riêng tư được thiết kế lại với quyền truy cập trực tiếp vào Chính sách quyền riêng tư",
+    "Cải tiến giao diện và hoạt ảnh",
+    "Cập nhật bản dịch cho tất cả ngôn ngữ được hỗ trợ"
+  ],
+  "fixes": [
+    {
+      "title": "Tạo cuộn phim",
+      "description": "Sửa lỗi ngăn thêm cuộn phim khi cài đặt ứng dụng mới"
+    }
+  ],
+  "patches": [
+    {
+      "version": "1.20.1",
+      "description": "Sửa lỗi thêm cuộn phim khi cài đặt mới"
+    },
+    {
+      "version": "1.20.2",
+      "description": "Tùy chọn phơi sáng tự động, truy cập Chính sách quyền riêng tư và cải tiến giao diện"
+    }
+  ],
+  "meta_title": "Sắp xếp cuộn phim và truy cập nhanh - Frames",
+  "meta_description": "Sắp xếp và tổ chức cuộn phim trong thư mục. Chuyển đổi giữa dự án với Cuộn phim gần đây. Nhấn giữ để thao tác nhanh và dùng Tự Động cho phơi sáng"
+}

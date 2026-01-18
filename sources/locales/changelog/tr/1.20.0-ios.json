@@ -1,0 +1,92 @@
+{
+  "version": "1.20.0",
+  "version_short": "1.20",
+  "url_slug": "1-20-ios",
+  "platform": "ios",
+  "release_date": "2026-01-15T10:00:00.000Z",
+  "title": "Film sıralama ve hızlı erişim",
+  "summary": "Bu güncelleme, kütüphanenizin nasıl düzenlendiği üzerinde daha fazla kontrol sağlar ve gezinmeyi hızlandırır. Klasörlerdeki filmler artık sıralama ve düzenleme seçeneklerine sahip ve yeni Son Filmler kısayolu, mevcut ekrandan ayrılmadan projeler arasında geçiş yapmanızı sağlar. Ayrıca herhangi bir satıra uzun basarak yaygın işlemlere erişebilirsiniz ve pozlama ayarları için yeni bir Oto seçeneği var.",
+  "sections": [
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.20.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.20.0-1@2x.png",
+      "alt": "Frames film fotoğrafçılığı uygulaması film sıralama ve hızlı erişim özellikleri",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Filmlerinizi sıralayın ve düzenleyin"
+    },
+    {
+      "type": "paragraph",
+      "content": "Artık klasörlerinizdeki filmlerin nasıl düzenlendiği üzerinde tam kontrole sahipsiniz. Rulolarınızı ada, oluşturulma tarihine veya düzenleme tarihine göre sıralayın ve artan veya azalan sıra seçin. Filmleri projeye, geziye veya kameraya göre gruplandırıyorsanız, bu her şeyi kaydırmadan aradığınızı bulmayı çok daha kolay hale getirir."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Son filmlere atlayın"
+    },
+    {
+      "type": "paragraph",
+      "content": "Yeni Son Filmler kısayolu artık her film menüsünde mevcut. Bu, önce kütüphaneye geri dönmeden yakın zamanda üzerinde çalıştığınız başka bir ruloya hızlıca geçmenizi sağlar. Küçük bir eklenti, ancak aktif projeler arasında hareket ederken zaman kazandırır."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Hızlı işlemler için uzun basın"
+    },
+    {
+      "type": "paragraph",
+      "content": "Herhangi bir satıra uzun basmak artık o öğe için kısayollar menüsü gösterir. Bir şeyi taşımak, düzenlemek veya silmek isteyip istemediğinize bakılmaksızın, seçenekler tam ihtiyacınız olan yerde. Bu, uygulama genelinde çalışır ve işleri halletmek için gereken dokunma sayısını azaltır."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Pozlama ayarları için Oto seçeneği"
+    },
+    {
+      "type": "paragraph",
+      "content": "Kare kaydederken artık enstantane hızı ve diyafram için Oto seçebilirsiniz. Bu, pozlamayı otomatik olarak yöneten bir kamerayla çekim yaptığınızda ve belirli değerler girmeden sadece çekimi kaydetmek istediğinizde kullanışlıdır. Seçenek, kayıt araç çubuğundaki mevcut manuel seçimlerinizin yanında yer alır."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Konum ve gizlilik güncellemeleri"
+    },
+    {
+      "type": "paragraph",
+      "content": "Konum servislerini kapattıysanız, artık herhangi bir kısıtlama olmadan konumları manuel olarak ayarlayabilirsiniz. Uygulama artık bir konum seçmenize izin vermek için GPS erişimi gerektirmiyor. Ayrıca verilerinizin nasıl işlendiğine dair daha net bir görünüm sunan yeniden tasarlanmış bir Gizlilik Ayarları ekranı ve Gizlilik Politikası'na doğrudan erişim de var."
+    }
+  ],
+  "improvements": [
+    "Klasörlerde yeni sıralama ve düzenleme seçenekleri",
+    "Her film menüsünde Son Filmler kısayolu mevcut",
+    "Bağlamsal işlemlere erişmek için herhangi bir satıra uzun basın",
+    "Kayıt cihazında enstantane hızı ve diyafram için yeni Oto seçeneği",
+    "Konum servisleri devre dışıyken konumları manuel olarak ayarlayın",
+    "Gizlilik Politikası'na doğrudan erişimli yeniden tasarlanmış Gizlilik Ayarları ekranı",
+    "Arayüz ve animasyon iyileştirmeleri",
+    "Desteklenen tüm dillerde çeviri güncellemeleri"
+  ],
+  "fixes": [
+    {
+      "title": "Film oluşturma",
+      "description": "Yeni uygulama kurulumunda film eklenmesini engelleyen bir hata düzeltildi."
+    }
+  ],
+  "patches": [
+    {
+      "version": "1.20.1",
+      "description": "Yeni kurulumlarda film ekleme düzeltildi"
+    },
+    {
+      "version": "1.20.2",
+      "description": "Oto pozlama seçeneği, Gizlilik Politikası erişimi ve UI iyileştirmeleri"
+    }
+  ],
+  "meta_title": "Film sıralama ve hızlı erişim - Frames",
+  "meta_description": "Klasörlerdeki filmleri sıralayın ve düzenleyin. Son Filmler ile projeler arasında atlayın. Hızlı işlemler için uzun basın ve pozlama için Oto kullanın."
+}
