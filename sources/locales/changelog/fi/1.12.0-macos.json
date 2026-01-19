@@ -1,0 +1,42 @@
+{
+  "version": "1.12.0",
+  "version_short": "1.12",
+  "url_slug": "1-12-macos",
+  "platform": "macos",
+  "release_date": "2026-01-19T10:00:00.000Z",
+  "title": "Lokalisoitu tervetulonäyttö ja valotusmetatiedot",
+  "meta_title": "Tervetulonäytön lokalisointi ja EXIF-päivitykset - Frames",
+  "meta_description": "Tervetulonäyttö näkyy nyt omalla kielelläsi. Valotustila ja valotusohjelma näkyvät sivupalkissa ja on upotettu DNG-, JPG- ja TIFF-metatietoihin.",
+  "summary": "Tervetulonäyttö on lokalisoitu ja hiottu kaikille tuetuille kielille. Aiemmin vain englanniksi saatavilla, se näkyy nyt haluamallasi kielellä selkeämmillä vedä ja pudota -ohjeilla.",
+  "sections": [
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-mac-1.12.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-mac-1.12.0-1@2x.png",
+      "alt": "Frames macOS -sovellus näyttää valotustilan ja valotusohjelman sivupalkissa",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Valotustila ja valotusohjelma"
+    },
+    {
+      "type": "paragraph",
+      "content": "Valotustila ja valotusohjelma näkyvät nyt suoraan sivupalkissa, mikä helpottaa näiden tietojen tarkistamista kuvia selatessa. Valotustila näkyy joko Manuaalisena tai Automaattivalotuksena, kun taas valotusohjelma näyttää Manuaalisen, Aukkoprioriteetti, Suljinaika-prioriteetti tai Normaaliohjelma tallennettujen tietojesi perusteella."
+    },
+    {
+      "type": "paragraph",
+      "content": "Nämä kentät on myös integroitu uudelleen EXIF-metatietoihin vietäessä DNG-, JPG- ja TIFF-tiedostoihin, joten valotusasetuksesi kulkevat skannaustesi mukana."
+    }
+  ],
+  "improvements": [
+    "Tervetulonäyttö nyt lokalisoitu kaikille tuetuille kielille parannetuilla vedä ja pudota -ohjeilla",
+    "Valotustila ja valotusohjelma näkyvät sivupalkissa",
+    "Valotustila ja valotusohjelma kirjoitetaan EXIF-metatietoihin DNG-, JPG- ja TIFF-tiedostoille",
+    "Visuaalisia ja vuorovaikutusparannuksia koko käyttöliittymässä"
+  ],
+  "fixes": [],
+  "patches": []
+}

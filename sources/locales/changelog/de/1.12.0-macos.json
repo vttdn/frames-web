@@ -1,0 +1,42 @@
+{
+  "version": "1.12.0",
+  "version_short": "1.12",
+  "url_slug": "1-12-macos",
+  "platform": "macos",
+  "release_date": "2026-01-19T10:00:00.000Z",
+  "title": "Lokalisierter Willkommensbildschirm und Belichtungsmetadaten",
+  "meta_title": "Willkommensbildschirm-Lokalisierung und EXIF-Updates - Frames",
+  "meta_description": "Der Willkommensbildschirm wird jetzt in deiner Sprache angezeigt. Belichtungsmodus und Belichtungsprogramm sind in der Seitenleiste sichtbar und in DNG-, JPG- und TIFF-Metadaten eingebettet.",
+  "summary": "Der Willkommensbildschirm wurde für alle unterstützten Sprachen lokalisiert und verfeinert. Zuvor nur auf Englisch verfügbar, wird er jetzt in deiner bevorzugten Sprache mit deutlicheren Drag-and-Drop-Hinweisen angezeigt.",
+  "sections": [
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-mac-1.12.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-mac-1.12.0-1@2x.png",
+      "alt": "Frames macOS-App mit Belichtungsmodus und Belichtungsprogramm in der Seitenleiste",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Belichtungsmodus und Belichtungsprogramm"
+    },
+    {
+      "type": "paragraph",
+      "content": "Belichtungsmodus und Belichtungsprogramm sind jetzt direkt in der Seitenleiste sichtbar, was es einfacher macht, diese Informationen beim Durchsuchen deiner Bilder zu überprüfen. Der Belichtungsmodus wird als Manuell oder Automatische Belichtung angezeigt, während das Belichtungsprogramm Manuell, Blendenpriorität, Verschlusspriorität oder Programmautomatik basierend auf deinen aufgezeichneten Daten zeigt."
+    },
+    {
+      "type": "paragraph",
+      "content": "Diese Felder wurden auch wieder in die EXIF-Metadaten beim Export in DNG-, JPG- und TIFF-Dateien integriert, sodass deine Belichtungseinstellungen mit deinen Scans mitreisen."
+    }
+  ],
+  "improvements": [
+    "Willkommensbildschirm jetzt in allen unterstützten Sprachen mit verbesserter Drag-and-Drop-Anleitung lokalisiert",
+    "Belichtungsmodus und Belichtungsprogramm in der Seitenleiste angezeigt",
+    "Belichtungsmodus und Belichtungsprogramm in EXIF-Metadaten für DNG, JPG und TIFF geschrieben",
+    "Visuelle und Interaktionsverfeinerungen in der gesamten Oberfläche"
+  ],
+  "fixes": [],
+  "patches": []
+}

@@ -1,0 +1,42 @@
+{
+  "version": "1.12.0",
+  "version_short": "1.12",
+  "url_slug": "1-12-macos",
+  "platform": "macos",
+  "release_date": "2026-01-19T10:00:00.000Z",
+  "title": "Pantalla de bienvenida localizada y metadatos de exposición",
+  "meta_title": "Localización de pantalla de bienvenida y EXIF - Frames",
+  "meta_description": "La pantalla de bienvenida ahora se muestra en tu idioma. El modo y programa de exposición son visibles en la barra lateral e incrustados en los metadatos DNG, JPG y TIFF.",
+  "summary": "La pantalla de bienvenida ha sido localizada y mejorada para todos los idiomas compatibles. Anteriormente disponible solo en inglés, ahora se muestra en tu idioma preferido con instrucciones más claras para arrastrar y soltar.",
+  "sections": [
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-mac-1.12.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-mac-1.12.0-1@2x.png",
+      "alt": "App Frames macOS mostrando el modo de exposición y el programa de exposición en la barra lateral",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Modo de exposición y programa de exposición"
+    },
+    {
+      "type": "paragraph",
+      "content": "El modo de exposición y el programa de exposición ahora son visibles directamente en la barra lateral, facilitando la revisión de esta información mientras navegas por tus imágenes. El modo de exposición se muestra como Manual o Exposición automática, mientras que el programa de exposición muestra Manual, Prioridad de apertura, Prioridad de obturador o Programa normal según tus datos registrados."
+    },
+    {
+      "type": "paragraph",
+      "content": "Estos campos también se han reintegrado en los metadatos EXIF al exportar a archivos DNG, JPG y TIFF, para que tus ajustes de exposición acompañen a tus escaneos."
+    }
+  ],
+  "improvements": [
+    "Pantalla de bienvenida ahora localizada en todos los idiomas compatibles con guía mejorada de arrastrar y soltar",
+    "Modo de exposición y programa de exposición mostrados en la barra lateral",
+    "Modo de exposición y programa de exposición escritos en metadatos EXIF para DNG, JPG y TIFF",
+    "Mejoras visuales y de interacción en toda la interfaz"
+  ],
+  "fixes": [],
+  "patches": []
+}

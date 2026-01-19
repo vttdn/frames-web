@@ -1,0 +1,42 @@
+{
+  "version": "1.12.0",
+  "version_short": "1.12",
+  "url_slug": "1-12-macos",
+  "platform": "macos",
+  "release_date": "2026-01-19T10:00:00.000Z",
+  "title": "Zlokalizowany ekran powitalny i metadane ekspozycji",
+  "meta_title": "Lokalizacja ekranu powitalnego i aktualizacje EXIF - Frames",
+  "meta_description": "Ekran powitalny wyświetla się teraz w Twoim języku. Tryb i program ekspozycji są widoczne na pasku bocznym i osadzone w metadanych DNG, JPG i TIFF.",
+  "summary": "Ekran powitalny został zlokalizowany i udoskonalony dla wszystkich obsługiwanych języków. Wcześniej dostępny tylko po angielsku, teraz wyświetla się w preferowanym języku z wyraźniejszymi wskazówkami dotyczącymi przeciągania i upuszczania.",
+  "sections": [
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-mac-1.12.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-mac-1.12.0-1@2x.png",
+      "alt": "Aplikacja Frames macOS pokazująca tryb ekspozycji i program ekspozycji na pasku bocznym",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Tryb ekspozycji i program ekspozycji"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tryb ekspozycji i program ekspozycji są teraz widoczne bezpośrednio na pasku bocznym, co ułatwia przeglądanie tych informacji podczas przeglądania zdjęć. Tryb ekspozycji wyświetla się jako Ręczny lub Automatyczna ekspozycja, podczas gdy program ekspozycji pokazuje Ręczny, Priorytet przysłony, Priorytet migawki lub Program normalny na podstawie zarejestrowanych danych."
+    },
+    {
+      "type": "paragraph",
+      "content": "Te pola zostały również ponownie zintegrowane z metadanymi EXIF podczas eksportu do plików DNG, JPG i TIFF, dzięki czemu ustawienia ekspozycji towarzyszą Twoim skanom."
+    }
+  ],
+  "improvements": [
+    "Ekran powitalny zlokalizowany we wszystkich obsługiwanych językach z ulepszonymi wskazówkami przeciągania i upuszczania",
+    "Tryb ekspozycji i program ekspozycji wyświetlane na pasku bocznym",
+    "Tryb ekspozycji i program ekspozycji zapisywane w metadanych EXIF dla DNG, JPG i TIFF",
+    "Ulepszenia wizualne i interakcji w całym interfejsie"
+  ],
+  "fixes": [],
+  "patches": []
+}

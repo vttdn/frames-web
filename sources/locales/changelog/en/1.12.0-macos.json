@@ -1,0 +1,42 @@
+{
+  "version": "1.12.0",
+  "version_short": "1.12",
+  "url_slug": "1-12-macos",
+  "platform": "macos",
+  "release_date": "2026-01-19T10:00:00.000Z",
+  "title": "Localized Welcome Screen and Exposure Metadata",
+  "meta_title": "Welcome Screen Localization and EXIF Updates - Frames",
+  "meta_description": "The welcome screen now displays in your language. Exposure Mode and Exposure Program are visible in the sidebar and embedded in DNG, JPG, and TIFF metadata.",
+  "summary": "The welcome screen has been localized and refined for all supported languages. Previously available only in English, it now displays in your preferred language with clearer drag and drop guidance to help you get started.",
+  "sections": [
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-mac-1.12.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-mac-1.12.0-1@2x.png",
+      "alt": "Frames macOS app showing Exposure Mode and Exposure Program in the sidebar",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Exposure Mode and Exposure Program"
+    },
+    {
+      "type": "paragraph",
+      "content": "Exposure Mode and Exposure Program are now visible directly in the sidebar, making it easier to review this information while browsing your images. Exposure Mode displays as either Manual or Auto Exposure, while Exposure Program shows Manual, Aperture Priority, Shutter Priority, or Normal Program based on your recorded data."
+    },
+    {
+      "type": "paragraph",
+      "content": "These fields have also been reintegrated into the EXIF metadata when exporting to DNG, JPG, and TIFF files, so your exposure settings travel with your scans."
+    }
+  ],
+  "improvements": [
+    "Welcome screen now localized in all supported languages with improved drag and drop guidance",
+    "Exposure Mode and Exposure Program displayed in sidebar",
+    "Exposure Mode and Exposure Program written to EXIF metadata for DNG, JPG, and TIFF",
+    "Visual and interaction refinements across the interface"
+  ],
+  "fixes": [],
+  "patches": []
+}

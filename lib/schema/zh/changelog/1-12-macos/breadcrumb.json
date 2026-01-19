@@ -1,0 +1,23 @@
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "主页",
+      "item": "https://withframes.com/zh/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "更新日志",
+      "item": "https://withframes.com/zh/changelog/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "本地化欢迎屏幕与曝光元数据",
+      "item": "https://withframes.com/zh/changelog/1-12-macos/"
+    }  ]
+}

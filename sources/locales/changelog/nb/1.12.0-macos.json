@@ -1,0 +1,42 @@
+{
+  "version": "1.12.0",
+  "version_short": "1.12",
+  "url_slug": "1-12-macos",
+  "platform": "macos",
+  "release_date": "2026-01-19T10:00:00.000Z",
+  "title": "Lokalisert velkomstskjerm og eksponeringsmetadata",
+  "meta_title": "Lokalisert velkomstskjerm og EXIF-oppdateringer - Frames",
+  "meta_description": "Velkomstskjermen vises nå på ditt språk. Eksponeringsmodus og eksponeringsprogram er synlige i sidefeltet og innebygd i DNG-, JPG- og TIFF-metadata.",
+  "summary": "Velkomstskjermen er blitt lokalisert og forbedret for alle støttede språk. Tidligere kun tilgjengelig på engelsk, vises den nå på ditt foretrukne språk med tydeligere dra og slipp-veiledning.",
+  "sections": [
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-mac-1.12.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-mac-1.12.0-1@2x.png",
+      "alt": "Frames macOS-app som viser eksponeringsmodus og eksponeringsprogram i sidefeltet",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Eksponeringsmodus og eksponeringsprogram"
+    },
+    {
+      "type": "paragraph",
+      "content": "Eksponeringsmodus og eksponeringsprogram er nå synlige direkte i sidefeltet, noe som gjør det enklere å se denne informasjonen mens du blar gjennom bildene dine. Eksponeringsmodus vises som enten Manuell eller Automatisk eksponering, mens eksponeringsprogram viser Manuell, Blenderprioritet, Lukkerprioritet eller Normalprogram basert på dine registrerte data."
+    },
+    {
+      "type": "paragraph",
+      "content": "Disse feltene er også blitt reintegrert i EXIF-metadata ved eksport til DNG-, JPG- og TIFF-filer, slik at eksponeringsinnstillingene dine følger med skanningene dine."
+    }
+  ],
+  "improvements": [
+    "Velkomstskjerm nå lokalisert til alle støttede språk med forbedret dra og slipp-veiledning",
+    "Eksponeringsmodus og eksponeringsprogram vises i sidefeltet",
+    "Eksponeringsmodus og eksponeringsprogram skrives til EXIF-metadata for DNG, JPG og TIFF",
+    "Visuelle og interaksjonsforbedringer i hele grensesnittet"
+  ],
+  "fixes": [],
+  "patches": []
+}

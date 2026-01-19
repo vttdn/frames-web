@@ -1,0 +1,42 @@
+{
+  "version": "1.12.0",
+  "version_short": "1.12",
+  "url_slug": "1-12-macos",
+  "platform": "macos",
+  "release_date": "2026-01-19T10:00:00.000Z",
+  "title": "本地化欢迎屏幕与曝光元数据",
+  "meta_title": "欢迎屏幕本地化与 EXIF 更新 - Frames",
+  "meta_description": "欢迎屏幕现在以您的语言显示。曝光模式和曝光程序显示在侧边栏中，并嵌入 DNG、JPG 和 TIFF 元数据。",
+  "summary": "欢迎屏幕已针对所有支持的语言进行本地化和改进。此前仅提供英文版本，现在以您偏好的语言显示，并提供更清晰的拖放指引。",
+  "sections": [
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-mac-1.12.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-mac-1.12.0-1@2x.png",
+      "alt": "Frames macOS 应用程序在侧边栏中显示曝光模式和曝光程序",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "曝光模式和曝光程序"
+    },
+    {
+      "type": "paragraph",
+      "content": "曝光模式和曝光程序现在直接显示在侧边栏中，让您在浏览图片时更容易查看这些信息。曝光模式显示为手动或自动曝光，而曝光程序则根据您记录的数据显示手动、光圈优先、快门优先或标准程序。"
+    },
+    {
+      "type": "paragraph",
+      "content": "这些字段也已重新整合到导出 DNG、JPG 和 TIFF 文件时的 EXIF 元数据中，让您的曝光设置随扫描文件一起保存。"
+    }
+  ],
+  "improvements": [
+    "欢迎屏幕现已本地化为所有支持的语言，并改进拖放指引",
+    "曝光模式和曝光程序显示在侧边栏中",
+    "曝光模式和曝光程序写入 DNG、JPG 和 TIFF 的 EXIF 元数据",
+    "整体界面的视觉和交互改进"
+  ],
+  "fixes": [],
+  "patches": []
+}

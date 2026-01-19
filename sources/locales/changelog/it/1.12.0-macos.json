@@ -1,0 +1,42 @@
+{
+  "version": "1.12.0",
+  "version_short": "1.12",
+  "url_slug": "1-12-macos",
+  "platform": "macos",
+  "release_date": "2026-01-19T10:00:00.000Z",
+  "title": "Schermata di benvenuto localizzata e metadati di esposizione",
+  "meta_title": "Localizzazione schermata di benvenuto e aggiornamenti EXIF - Frames",
+  "meta_description": "La schermata di benvenuto ora viene visualizzata nella tua lingua. Modalità e programma di esposizione sono visibili nella barra laterale e incorporati nei metadati DNG, JPG e TIFF.",
+  "summary": "La schermata di benvenuto è stata localizzata e perfezionata per tutte le lingue supportate. Precedentemente disponibile solo in inglese, ora viene visualizzata nella tua lingua preferita con indicazioni più chiare per il trascinamento.",
+  "sections": [
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-mac-1.12.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-mac-1.12.0-1@2x.png",
+      "alt": "App Frames macOS che mostra modalità di esposizione e programma di esposizione nella barra laterale",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Modalità di esposizione e programma di esposizione"
+    },
+    {
+      "type": "paragraph",
+      "content": "Modalità di esposizione e programma di esposizione sono ora visibili direttamente nella barra laterale, rendendo più facile consultare queste informazioni mentre sfogli le tue immagini. La modalità di esposizione viene mostrata come Manuale o Esposizione automatica, mentre il programma di esposizione indica Manuale, Priorità diaframma, Priorità otturatore o Programma normale in base ai dati registrati."
+    },
+    {
+      "type": "paragraph",
+      "content": "Questi campi sono stati anche reintegrati nei metadati EXIF durante l'esportazione in file DNG, JPG e TIFF, così le tue impostazioni di esposizione accompagnano le tue scansioni."
+    }
+  ],
+  "improvements": [
+    "Schermata di benvenuto ora localizzata in tutte le lingue supportate con guida migliorata per il trascinamento",
+    "Modalità di esposizione e programma di esposizione visualizzati nella barra laterale",
+    "Modalità di esposizione e programma di esposizione scritti nei metadati EXIF per DNG, JPG e TIFF",
+    "Miglioramenti visivi e di interazione in tutta l'interfaccia"
+  ],
+  "fixes": [],
+  "patches": []
+}

@@ -1,0 +1,42 @@
+{
+  "version": "1.12.0",
+  "version_short": "1.12",
+  "url_slug": "1-12-macos",
+  "platform": "macos",
+  "release_date": "2026-01-19T10:00:00.000Z",
+  "title": "Lokaliserad välkomstskärm och exponeringsmetadata",
+  "meta_title": "Lokalisering av välkomstskärm och EXIF-uppdateringar - Frames",
+  "meta_description": "Välkomstskärmen visas nu på ditt språk. Exponeringsläge och exponeringsprogram syns i sidofältet och är inbäddade i DNG-, JPG- och TIFF-metadata.",
+  "summary": "Välkomstskärmen har lokaliserats och förfinats för alla språk som stöds. Tidigare endast tillgänglig på engelska visas den nu på ditt föredragna språk med tydligare vägledning för dra och släpp.",
+  "sections": [
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-mac-1.12.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-mac-1.12.0-1@2x.png",
+      "alt": "Frames macOS-app som visar exponeringsläge och exponeringsprogram i sidofältet",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Exponeringsläge och exponeringsprogram"
+    },
+    {
+      "type": "paragraph",
+      "content": "Exponeringsläge och exponeringsprogram syns nu direkt i sidofältet, vilket gör det enklare att granska denna information medan du bläddrar bland dina bilder. Exponeringsläge visas som antingen Manuell eller Automatisk exponering, medan exponeringsprogram visar Manuell, Bländarprioritet, Slutarprioritet eller Normalprogram baserat på dina registrerade data."
+    },
+    {
+      "type": "paragraph",
+      "content": "Dessa fält har också återintegrerats i EXIF-metadata vid export till DNG-, JPG- och TIFF-filer, så att dina exponeringsinställningar följer med dina skanningar."
+    }
+  ],
+  "improvements": [
+    "Välkomstskärm nu lokaliserad till alla språk som stöds med förbättrad dra och släpp-vägledning",
+    "Exponeringsläge och exponeringsprogram visas i sidofältet",
+    "Exponeringsläge och exponeringsprogram skrivs till EXIF-metadata för DNG, JPG och TIFF",
+    "Visuella och interaktionsförbättringar i hela gränssnittet"
+  ],
+  "fixes": [],
+  "patches": []
+}

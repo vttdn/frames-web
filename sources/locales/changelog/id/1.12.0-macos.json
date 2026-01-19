@@ -1,0 +1,42 @@
+{
+  "version": "1.12.0",
+  "version_short": "1.12",
+  "url_slug": "1-12-macos",
+  "platform": "macos",
+  "release_date": "2026-01-19T10:00:00.000Z",
+  "title": "Layar sambutan yang dilokalkan dan metadata eksposur",
+  "meta_title": "Lokalisasi layar sambutan dan pembaruan EXIF - Frames",
+  "meta_description": "Layar sambutan kini ditampilkan dalam bahasa Anda. Mode Eksposur dan Program Eksposur terlihat di sidebar dan tertanam dalam metadata DNG, JPG, dan TIFF.",
+  "summary": "Layar sambutan telah dilokalkan dan disempurnakan untuk semua bahasa yang didukung. Sebelumnya hanya tersedia dalam bahasa Inggris, kini ditampilkan dalam bahasa pilihan Anda dengan panduan seret dan lepas yang lebih jelas.",
+  "sections": [
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-mac-1.12.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-mac-1.12.0-1@2x.png",
+      "alt": "Aplikasi Frames macOS menampilkan Mode Eksposur dan Program Eksposur di sidebar",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Mode Eksposur dan Program Eksposur"
+    },
+    {
+      "type": "paragraph",
+      "content": "Mode Eksposur dan Program Eksposur kini terlihat langsung di sidebar, memudahkan Anda meninjau informasi ini saat menelusuri gambar. Mode Eksposur ditampilkan sebagai Manual atau Eksposur Otomatis, sementara Program Eksposur menunjukkan Manual, Prioritas Apertur, Prioritas Rana, atau Program Normal berdasarkan data yang Anda rekam."
+    },
+    {
+      "type": "paragraph",
+      "content": "Bidang-bidang ini juga telah diintegrasikan kembali ke dalam metadata EXIF saat mengekspor ke file DNG, JPG, dan TIFF, sehingga pengaturan eksposur Anda menyertai hasil scan Anda."
+    }
+  ],
+  "improvements": [
+    "Layar sambutan kini dilokalkan dalam semua bahasa yang didukung dengan panduan seret dan lepas yang ditingkatkan",
+    "Mode Eksposur dan Program Eksposur ditampilkan di sidebar",
+    "Mode Eksposur dan Program Eksposur ditulis ke metadata EXIF untuk DNG, JPG, dan TIFF",
+    "Penyempurnaan visual dan interaksi di seluruh antarmuka"
+  ],
+  "fixes": [],
+  "patches": []
+}

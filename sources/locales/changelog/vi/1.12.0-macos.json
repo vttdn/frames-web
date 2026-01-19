@@ -1,0 +1,42 @@
+{
+  "version": "1.12.0",
+  "version_short": "1.12",
+  "url_slug": "1-12-macos",
+  "platform": "macos",
+  "release_date": "2026-01-19T10:00:00.000Z",
+  "title": "Màn hình chào mừng đã bản địa hóa và siêu dữ liệu phơi sáng",
+  "meta_title": "Bản địa hóa màn hình chào mừng và cập nhật EXIF - Frames",
+  "meta_description": "Màn hình chào mừng hiện hiển thị bằng ngôn ngữ của bạn. Chế độ và chương trình phơi sáng hiển thị trong thanh bên và được nhúng vào siêu dữ liệu DNG, JPG, TIFF.",
+  "summary": "Màn hình chào mừng đã được bản địa hóa và cải tiến cho tất cả các ngôn ngữ được hỗ trợ. Trước đây chỉ có tiếng Anh, giờ đây nó hiển thị bằng ngôn ngữ ưa thích của bạn với hướng dẫn kéo và thả rõ ràng hơn.",
+  "sections": [
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-mac-1.12.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-mac-1.12.0-1@2x.png",
+      "alt": "Ứng dụng Frames macOS hiển thị chế độ phơi sáng và chương trình phơi sáng trong thanh bên",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Chế độ phơi sáng và chương trình phơi sáng"
+    },
+    {
+      "type": "paragraph",
+      "content": "Chế độ phơi sáng và chương trình phơi sáng giờ đây hiển thị trực tiếp trong thanh bên, giúp bạn dễ dàng xem lại thông tin này khi duyệt ảnh. Chế độ phơi sáng hiển thị là Thủ công hoặc Phơi sáng tự động, trong khi chương trình phơi sáng hiển thị Thủ công, Ưu tiên khẩu độ, Ưu tiên tốc độ màn trập hoặc Chương trình bình thường dựa trên dữ liệu đã ghi của bạn."
+    },
+    {
+      "type": "paragraph",
+      "content": "Các trường này cũng đã được tích hợp lại vào siêu dữ liệu EXIF khi xuất sang tệp DNG, JPG và TIFF, để cài đặt phơi sáng của bạn đi kèm với các bản scan."
+    }
+  ],
+  "improvements": [
+    "Màn hình chào mừng đã được bản địa hóa cho tất cả ngôn ngữ được hỗ trợ với hướng dẫn kéo và thả được cải thiện",
+    "Chế độ phơi sáng và chương trình phơi sáng hiển thị trong thanh bên",
+    "Chế độ phơi sáng và chương trình phơi sáng được ghi vào siêu dữ liệu EXIF cho DNG, JPG và TIFF",
+    "Cải tiến hình ảnh và tương tác trên toàn bộ giao diện"
+  ],
+  "fixes": [],
+  "patches": []
+}

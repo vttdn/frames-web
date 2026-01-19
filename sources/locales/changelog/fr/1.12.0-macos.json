@@ -1,0 +1,42 @@
+{
+  "version": "1.12.0",
+  "version_short": "1.12",
+  "url_slug": "1-12-macos",
+  "platform": "macos",
+  "release_date": "2026-01-19T10:00:00.000Z",
+  "title": "Écran d'accueil localisé et métadonnées d'exposition",
+  "meta_title": "Localisation de l'écran d'accueil et mises à jour EXIF - Frames",
+  "meta_description": "L'écran d'accueil s'affiche maintenant dans votre langue. Le mode et le programme d'exposition sont visibles dans la barre latérale et intégrés aux métadonnées DNG, JPG et TIFF.",
+  "summary": "L'écran d'accueil a été localisé et affiné pour toutes les langues prises en charge. Auparavant disponible uniquement en anglais, il s'affiche désormais dans votre langue préférée avec des instructions de glisser-déposer plus claires.",
+  "sections": [
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-mac-1.12.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-mac-1.12.0-1@2x.png",
+      "alt": "Application Frames macOS affichant le mode d'exposition et le programme d'exposition dans la barre latérale",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Mode d'exposition et programme d'exposition"
+    },
+    {
+      "type": "paragraph",
+      "content": "Le mode d'exposition et le programme d'exposition sont maintenant visibles directement dans la barre latérale, ce qui facilite la consultation de ces informations lors de la navigation dans vos images. Le mode d'exposition s'affiche comme Manuel ou Exposition automatique, tandis que le programme d'exposition indique Manuel, Priorité ouverture, Priorité vitesse ou Programme normal selon vos données enregistrées."
+    },
+    {
+      "type": "paragraph",
+      "content": "Ces champs ont également été réintégrés dans les métadonnées EXIF lors de l'exportation vers des fichiers DNG, JPG et TIFF, afin que vos réglages d'exposition accompagnent vos scans."
+    }
+  ],
+  "improvements": [
+    "Écran d'accueil maintenant localisé dans toutes les langues prises en charge avec des instructions de glisser-déposer améliorées",
+    "Mode d'exposition et programme d'exposition affichés dans la barre latérale",
+    "Mode d'exposition et programme d'exposition écrits dans les métadonnées EXIF pour DNG, JPG et TIFF",
+    "Améliorations visuelles et d'interaction dans toute l'interface"
+  ],
+  "fixes": [],
+  "patches": []
+}

@@ -1,0 +1,42 @@
+{
+  "version": "1.12.0",
+  "version_short": "1.12",
+  "url_slug": "1-12-macos",
+  "platform": "macos",
+  "release_date": "2026-01-19T10:00:00.000Z",
+  "title": "Lokaliseret velkomstskærm og eksponeringsmetadata",
+  "meta_title": "Lokaliseret velkomstskærm og EXIF-opdateringer - Frames",
+  "meta_description": "Velkomstskærmen vises nu på dit sprog. Eksponeringstilstand og eksponeringsprogram er synlige i sidebjælken og indlejret i DNG-, JPG- og TIFF-metadata.",
+  "summary": "Velkomstskærmen er blevet lokaliseret og forbedret til alle understøttede sprog. Tidligere kun tilgængelig på engelsk vises den nu på dit foretrukne sprog med tydeligere vejledning til træk og slip.",
+  "sections": [
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-mac-1.12.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-mac-1.12.0-1@2x.png",
+      "alt": "Frames macOS-app, der viser eksponeringstilstand og eksponeringsprogram i sidebjælken",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Eksponeringstilstand og eksponeringsprogram"
+    },
+    {
+      "type": "paragraph",
+      "content": "Eksponeringstilstand og eksponeringsprogram er nu synlige direkte i sidebjælken, hvilket gør det nemmere at gennemse disse oplysninger, mens du browser dine billeder. Eksponeringstilstand vises som enten Manuel eller Automatisk eksponering, mens eksponeringsprogram viser Manuel, Blændeprioritet, Lukkerprioritet eller Normalprogram baseret på dine registrerede data."
+    },
+    {
+      "type": "paragraph",
+      "content": "Disse felter er også blevet genintegreret i EXIF-metadata ved eksport til DNG-, JPG- og TIFF-filer, så dine eksponeringsindstillinger følger med dine scanninger."
+    }
+  ],
+  "improvements": [
+    "Velkomstskærm nu lokaliseret til alle understøttede sprog med forbedret træk og slip-vejledning",
+    "Eksponeringstilstand og eksponeringsprogram vises i sidebjælken",
+    "Eksponeringstilstand og eksponeringsprogram skrives til EXIF-metadata for DNG, JPG og TIFF",
+    "Visuelle og interaktionsforbedringer i hele grænsefladen"
+  ],
+  "fixes": [],
+  "patches": []
+}

@@ -1,0 +1,42 @@
+{
+  "version": "1.12.0",
+  "version_short": "1.12",
+  "url_slug": "1-12-macos",
+  "platform": "macos",
+  "release_date": "2026-01-19T10:00:00.000Z",
+  "title": "Gelokaliseerd welkomstscherm en belichtingsmetadata",
+  "meta_title": "Lokalisatie welkomstscherm en EXIF-updates - Frames",
+  "meta_description": "Het welkomstscherm wordt nu in je taal weergegeven. Belichtingsmodus en belichtingsprogramma zijn zichtbaar in de zijbalk en ingebed in DNG-, JPG- en TIFF-metadata.",
+  "summary": "Het welkomstscherm is gelokaliseerd en verfijnd voor alle ondersteunde talen. Voorheen alleen beschikbaar in het Engels, wordt het nu weergegeven in je voorkeurstaal met duidelijkere instructies voor slepen en neerzetten.",
+  "sections": [
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-mac-1.12.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-mac-1.12.0-1@2x.png",
+      "alt": "Frames macOS-app met belichtingsmodus en belichtingsprogramma in de zijbalk",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Belichtingsmodus en belichtingsprogramma"
+    },
+    {
+      "type": "paragraph",
+      "content": "Belichtingsmodus en belichtingsprogramma zijn nu direct zichtbaar in de zijbalk, waardoor het eenvoudiger is om deze informatie te bekijken terwijl je door je afbeeldingen bladert. Belichtingsmodus wordt weergegeven als Handmatig of Automatische belichting, terwijl belichtingsprogramma Handmatig, Diafragmaprioriteit, Sluiterprioriteit of Normaal programma toont op basis van je opgenomen gegevens."
+    },
+    {
+      "type": "paragraph",
+      "content": "Deze velden zijn ook opnieuw geïntegreerd in de EXIF-metadata bij het exporteren naar DNG-, JPG- en TIFF-bestanden, zodat je belichtingsinstellingen meereizen met je scans."
+    }
+  ],
+  "improvements": [
+    "Welkomstscherm nu gelokaliseerd in alle ondersteunde talen met verbeterde instructies voor slepen en neerzetten",
+    "Belichtingsmodus en belichtingsprogramma weergegeven in de zijbalk",
+    "Belichtingsmodus en belichtingsprogramma geschreven naar EXIF-metadata voor DNG, JPG en TIFF",
+    "Visuele en interactieverbeteringen in de hele interface"
+  ],
+  "fixes": [],
+  "patches": []
+}

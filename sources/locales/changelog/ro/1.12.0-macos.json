@@ -1,0 +1,42 @@
+{
+  "version": "1.12.0",
+  "version_short": "1.12",
+  "url_slug": "1-12-macos",
+  "platform": "macos",
+  "release_date": "2026-01-19T10:00:00.000Z",
+  "title": "Ecran de bun venit localizat și metadate de expunere",
+  "meta_title": "Localizare ecran de bun venit și actualizări EXIF - Frames",
+  "meta_description": "Ecranul de bun venit se afișează acum în limba ta. Modul și programul de expunere sunt vizibile în bara laterală și încorporate în metadatele DNG, JPG și TIFF.",
+  "summary": "Ecranul de bun venit a fost localizat și rafinat pentru toate limbile suportate. Disponibil anterior doar în engleză, acum se afișează în limba ta preferată cu instrucțiuni mai clare pentru tragere și plasare.",
+  "sections": [
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-mac-1.12.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-mac-1.12.0-1@2x.png",
+      "alt": "Aplicația Frames macOS afișând modul de expunere și programul de expunere în bara laterală",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Modul de expunere și programul de expunere"
+    },
+    {
+      "type": "paragraph",
+      "content": "Modul de expunere și programul de expunere sunt acum vizibile direct în bara laterală, facilitând verificarea acestor informații în timp ce răsfoiești imaginile. Modul de expunere se afișează ca Manual sau Expunere automată, în timp ce programul de expunere arată Manual, Prioritate diafragmă, Prioritate obturator sau Program normal pe baza datelor tale înregistrate."
+    },
+    {
+      "type": "paragraph",
+      "content": "Aceste câmpuri au fost de asemenea reintegrate în metadatele EXIF la exportul în fișiere DNG, JPG și TIFF, astfel încât setările tale de expunere să însoțească scanările."
+    }
+  ],
+  "improvements": [
+    "Ecranul de bun venit acum localizat în toate limbile suportate cu ghidare îmbunătățită pentru tragere și plasare",
+    "Modul de expunere și programul de expunere afișate în bara laterală",
+    "Modul de expunere și programul de expunere scrise în metadatele EXIF pentru DNG, JPG și TIFF",
+    "Îmbunătățiri vizuale și de interacțiune în întreaga interfață"
+  ],
+  "fixes": [],
+  "patches": []
+}

@@ -1,0 +1,23 @@
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Startseite",
+      "item": "https://withframes.com/de/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Changelog",
+      "item": "https://withframes.com/de/changelog/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Lokalisierter Willkommensbildschirm und Belichtungsmetadaten",
+      "item": "https://withframes.com/de/changelog/1-12-macos/"
+    }  ]
+}

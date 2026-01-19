@@ -1,0 +1,42 @@
+{
+  "version": "1.12.0",
+  "version_short": "1.12",
+  "url_slug": "1-12-macos",
+  "platform": "macos",
+  "release_date": "2026-01-19T10:00:00.000Z",
+  "title": "Yerelleştirilmiş karşılama ekranı ve pozlama meta verileri",
+  "meta_title": "Karşılama ekranı yerelleştirmesi ve EXIF güncellemeleri - Frames",
+  "meta_description": "Karşılama ekranı artık dilinizde görüntüleniyor. Pozlama Modu ve Pozlama Programı kenar çubuğunda görünür ve DNG, JPG, TIFF meta verilerine gömülüdür.",
+  "summary": "Karşılama ekranı tüm desteklenen diller için yerelleştirildi ve iyileştirildi. Daha önce yalnızca İngilizce olarak sunulan ekran, artık tercih ettiğiniz dilde daha net sürükle ve bırak yönergeleriyle görüntüleniyor.",
+  "sections": [
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-mac-1.12.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-mac-1.12.0-1@2x.png",
+      "alt": "Kenar çubuğunda Pozlama Modu ve Pozlama Programını gösteren Frames macOS uygulaması",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Pozlama Modu ve Pozlama Programı"
+    },
+    {
+      "type": "paragraph",
+      "content": "Pozlama Modu ve Pozlama Programı artık doğrudan kenar çubuğunda görünür hale geldi, bu da görüntülerinize göz atarken bu bilgileri incelemenizi kolaylaştırıyor. Pozlama Modu, Manuel veya Otomatik Pozlama olarak görüntülenirken, Pozlama Programı kayıtlı verilerinize göre Manuel, Diyafram Önceliği, Enstantane Önceliği veya Normal Program olarak gösterilir."
+    },
+    {
+      "type": "paragraph",
+      "content": "Bu alanlar ayrıca DNG, JPG ve TIFF dosyalarına dışa aktarırken EXIF meta verilerine yeniden entegre edildi, böylece pozlama ayarlarınız taramalarınızla birlikte taşınır."
+    }
+  ],
+  "improvements": [
+    "Karşılama ekranı artık geliştirilmiş sürükle ve bırak yönergesiyle tüm desteklenen dillerde yerelleştirildi",
+    "Pozlama Modu ve Pozlama Programı kenar çubuğunda gösteriliyor",
+    "Pozlama Modu ve Pozlama Programı DNG, JPG ve TIFF için EXIF meta verilerine yazılıyor",
+    "Arayüz genelinde görsel ve etkileşim iyileştirmeleri"
+  ],
+  "fixes": [],
+  "patches": []
+}
