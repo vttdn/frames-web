@@ -69,12 +69,18 @@
     "Defina localizações manualmente quando os serviços de localização estão desativados",
     "Ecrã de Definições de privacidade redesenhado com acesso direto à Política de Privacidade",
     "Melhorias na interface e animações",
-    "Atualizações de tradução em todos os idiomas suportados"
+    "Atualizações de tradução em todos os idiomas suportados",
+    "Adicionados ícones ao menu de exportação para encontrar formatos mais facilmente",
+    "Descrições de permissões da câmera localizadas para corresponder ao idioma do dispositivo"
   ],
   "fixes": [
     {
       "title": "Criação de película",
       "description": "Corrigido um erro que impedia a adição de películas numa nova instalação da aplicação."
+    },
+    {
+      "title": "Ordem do seletor de fotogramas",
+      "description": "Corrigido um problema em que os números dos fotogramas apareciam fora de ordem no seletor do formulário."
     }
   ],
   "patches": [
@@ -85,6 +91,10 @@
     {
       "version": "1.20.2",
       "description": "Opção de exposição Auto, acesso à Política de Privacidade e melhorias de interface"
+    },
+    {
+      "version": "1.20.3",
+      "description": "Opções de exportação mais claras, ordem do seletor corrigida e localização melhorada"
     }
   ],
   "meta_title": "Ordenação de películas e acesso rápido - Frames",

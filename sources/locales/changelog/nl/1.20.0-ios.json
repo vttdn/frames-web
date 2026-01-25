@@ -69,12 +69,18 @@
     "Locaties handmatig instellen wanneer locatieservices zijn uitgeschakeld",
     "Vernieuwd Privacy-instellingenscherm met directe toegang tot het Privacybeleid",
     "Verbeteringen aan interface en animaties",
-    "Vertalingsupdates voor alle ondersteunde talen"
+    "Vertalingsupdates voor alle ondersteunde talen",
+    "Pictogrammen toegevoegd aan het exportmenu om formaten makkelijker te vinden",
+    "Cameratoestemmingsbeschrijvingen gelokaliseerd naar de taal van het apparaat"
   ],
   "fixes": [
     {
       "title": "Filmrol aanmaken",
       "description": "Een bug opgelost die het toevoegen van filmrollen bij een nieuwe app-installatie verhinderde."
+    },
+    {
+      "title": "Volgorde filmframekiezer",
+      "description": "Een probleem opgelost waarbij filmframenummers in de verkeerde volgorde werden weergegeven in de formulierkiezer."
     }
   ],
   "patches": [
@@ -85,6 +91,10 @@
     {
       "version": "1.20.2",
       "description": "Auto-belichtingsoptie, toegang tot Privacybeleid en UI-verbeteringen"
+    },
+    {
+      "version": "1.20.3",
+      "description": "Duidelijkere exportopties, volgorde van kiezer hersteld en verbeterde lokalisatie"
     }
   ],
   "meta_title": "Filmrollen sorteren en snelle toegang - Frames",

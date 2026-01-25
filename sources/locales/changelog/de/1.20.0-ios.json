@@ -69,12 +69,18 @@
     "Standorte manuell festlegen, wenn Ortungsdienste deaktiviert sind",
     "Neu gestalteter Datenschutzeinstellungen-Bildschirm mit direktem Zugang zur Datenschutzerklärung",
     "Verbesserungen der Benutzeroberfläche und Animationen",
-    "Übersetzungsaktualisierungen für alle unterstützten Sprachen"
+    "Übersetzungsaktualisierungen für alle unterstützten Sprachen",
+    "Symbole zum Exportmenü hinzugefügt, um Formate leichter zu finden",
+    "Kameraberechtigungsbeschreibungen an die Gerätesprache angepasst"
   ],
   "fixes": [
     {
       "title": "Filmrollenerstellung",
       "description": "Ein Fehler wurde behoben, der das Hinzufügen von Filmrollen bei einer Neuinstallation der App verhinderte."
+    },
+    {
+      "title": "Einzelbild-Auswahlreihenfolge",
+      "description": "Ein Problem wurde behoben, bei dem Einzelbildnummern in der Formularauswahl in falscher Reihenfolge angezeigt wurden."
     }
   ],
   "patches": [
@@ -85,6 +91,10 @@
     {
       "version": "1.20.2",
       "description": "Auto-Belichtungsoption, Zugang zur Datenschutzerklärung und UI-Verbesserungen"
+    },
+    {
+      "version": "1.20.3",
+      "description": "Klarere Exportoptionen, korrigierte Auswahlreihenfolge und verbesserte Lokalisierung"
     }
   ],
   "meta_title": "Filmsortierung und Schnellzugriff - Frames",

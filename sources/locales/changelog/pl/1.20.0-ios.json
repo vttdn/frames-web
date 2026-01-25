@@ -69,12 +69,18 @@
     "Ustawiaj lokalizacje ręcznie, gdy usługi lokalizacji są wyłączone",
     "Przeprojektowany ekran Ustawień prywatności z bezpośrednim dostępem do Polityki prywatności",
     "Ulepszenia interfejsu i animacji",
-    "Aktualizacje tłumaczeń dla wszystkich obsługiwanych języków"
+    "Aktualizacje tłumaczeń dla wszystkich obsługiwanych języków",
+    "Dodano ikony do menu eksportu, aby łatwiej znajdować formaty",
+    "Zlokalizowano opisy uprawnień aparatu, aby pasowały do języka urządzenia"
   ],
   "fixes": [
     {
       "title": "Tworzenie filmu",
       "description": "Naprawiono błąd, który uniemożliwiał dodawanie filmów przy nowej instalacji aplikacji."
+    },
+    {
+      "title": "Kolejność selektora klatek",
+      "description": "Naprawiono problem, w którym numery klatek wyświetlały się w nieprawidłowej kolejności w selektorze formularza."
     }
   ],
   "patches": [
@@ -85,6 +91,10 @@
     {
       "version": "1.20.2",
       "description": "Opcja automatycznej ekspozycji, dostęp do Polityki prywatności i ulepszenia UI"
+    },
+    {
+      "version": "1.20.3",
+      "description": "Wyraźniejsze opcje eksportu, poprawiona kolejność w selektorze i ulepszona lokalizacja"
     }
   ],
   "meta_title": "Sortowanie filmów i szybki dostęp - Frames",

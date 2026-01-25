@@ -69,12 +69,18 @@
     "Aseta sijainnit manuaalisesti kun sijaintipalvelut on poistettu käytöstä",
     "Uudistettu Yksityisyysasetukset-näyttö suoralla pääsyllä tietosuojakäytäntöön",
     "Käyttöliittymän ja animaatioiden parannuksia",
-    "Käännöspäivitykset kaikille tuetuille kielille"
+    "Käännöspäivitykset kaikille tuetuille kielille",
+    "Lisätty kuvakkeet vienti-valikkoon muotojen löytämisen helpottamiseksi",
+    "Kameran käyttöoikeuskuvaukset lokalisoitu vastaamaan laitteen kieltä"
   ],
   "fixes": [
     {
       "title": "Filmin luonti",
       "description": "Korjattu virhe, joka esti filmien lisäämisen uudessa sovellusasennuksessa."
+    },
+    {
+      "title": "Kehysvalitsimen järjestys",
+      "description": "Korjattiin ongelma, jossa kehysnumerot näkyivät väärässä järjestyksessä lomakevalitsimessa."
     }
   ],
   "patches": [
@@ -85,6 +91,10 @@
     {
       "version": "1.20.2",
       "description": "Auto-valotusvaihtoehto, pääsy tietosuojakäytäntöön ja käyttöliittymäparannuksia"
+    },
+    {
+      "version": "1.20.3",
+      "description": "Selkeämmät vientivaihtoehdot, korjattu valitsimen järjestys ja parannettu lokalisointi"
     }
   ],
   "meta_title": "Filmien lajittelu ja pikakäyttö - Frames",

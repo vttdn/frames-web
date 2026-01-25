@@ -69,12 +69,18 @@
     "Đặt vị trí thủ công khi dịch vụ vị trí bị tắt",
     "Màn hình Cài đặt quyền riêng tư được thiết kế lại với quyền truy cập trực tiếp vào Chính sách quyền riêng tư",
     "Cải tiến giao diện và hoạt ảnh",
-    "Cập nhật bản dịch cho tất cả ngôn ngữ được hỗ trợ"
+    "Cập nhật bản dịch cho tất cả ngôn ngữ được hỗ trợ",
+    "Thêm biểu tượng vào menu xuất để tìm định dạng dễ dàng hơn",
+    "Bản địa hóa mô tả quyền camera phù hợp với ngôn ngữ thiết bị"
   ],
   "fixes": [
     {
       "title": "Tạo cuộn phim",
       "description": "Sửa lỗi ngăn thêm cuộn phim khi cài đặt ứng dụng mới"
+    },
+    {
+      "title": "Thứ tự bộ chọn khung hình",
+      "description": "Đã sửa lỗi số khung hình hiển thị không đúng thứ tự trong bộ chọn biểu mẫu."
     }
   ],
   "patches": [
@@ -85,6 +91,10 @@
     {
       "version": "1.20.2",
       "description": "Tùy chọn phơi sáng tự động, truy cập Chính sách quyền riêng tư và cải tiến giao diện"
+    },
+    {
+      "version": "1.20.3",
+      "description": "Tùy chọn xuất rõ ràng hơn, sửa thứ tự bộ chọn và cải thiện bản địa hóa"
     }
   ],
   "meta_title": "Sắp xếp cuộn phim và truy cập nhanh - Frames",

@@ -69,12 +69,18 @@
     "Setează locațiile manual când serviciile de localizare sunt dezactivate",
     "Ecran de Setări de confidențialitate reproiectat cu acces direct la Politica de confidențialitate",
     "Îmbunătățiri ale interfeței și animațiilor",
-    "Actualizări de traducere pentru toate limbile acceptate"
+    "Actualizări de traducere pentru toate limbile acceptate",
+    "S-au adăugat pictograme în meniul de export pentru a găsi formatele mai ușor",
+    "Descrierile permisiunilor camerei au fost localizate pentru a corespunde limbii dispozitivului"
   ],
   "fixes": [
     {
       "title": "Crearea filmului",
       "description": "S-a remediat o eroare care împiedica adăugarea filmelor la o nouă instalare a aplicației."
+    },
+    {
+      "title": "Ordinea selectorului de cadre",
+      "description": "S-a remediat o problemă în care numerele cadrelor apăreau în ordine greșită în selectorul formularului."
     }
   ],
   "patches": [
@@ -85,6 +91,10 @@
     {
       "version": "1.20.2",
       "description": "Opțiunea de expunere Auto, acces la Politica de confidențialitate și îmbunătățiri UI"
+    },
+    {
+      "version": "1.20.3",
+      "description": "Opțiuni de export mai clare, ordine selector corectată și localizare îmbunătățită"
     }
   ],
   "meta_title": "Sortarea filmelor și acces rapid - Frames",

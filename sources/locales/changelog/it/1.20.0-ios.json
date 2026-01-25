@@ -69,12 +69,18 @@
     "Imposta posizioni manualmente quando i servizi di localizzazione sono disattivati",
     "Schermata Impostazioni privacy ridisegnata con accesso diretto all'Informativa sulla privacy",
     "Miglioramenti all'interfaccia e alle animazioni",
-    "Aggiornamenti delle traduzioni per tutte le lingue supportate"
+    "Aggiornamenti delle traduzioni per tutte le lingue supportate",
+    "Aggiunte icone al menu di esportazione per trovare i formati più facilmente",
+    "Descrizioni dei permessi della fotocamera localizzate per corrispondere alla lingua del dispositivo"
   ],
   "fixes": [
     {
       "title": "Creazione pellicola",
       "description": "Risolto un bug che impediva l'aggiunta di pellicole in una nuova installazione dell'app."
+    },
+    {
+      "title": "Ordine del selettore fotogrammi",
+      "description": "Risolto un problema per cui i numeri dei fotogrammi apparivano in ordine errato nel selettore del modulo."
     }
   ],
   "patches": [
@@ -85,6 +91,10 @@
     {
       "version": "1.20.2",
       "description": "Opzione esposizione Auto, accesso all'Informativa sulla privacy e miglioramenti UI"
+    },
+    {
+      "version": "1.20.3",
+      "description": "Opzioni di esportazione più chiare, ordine del selettore corretto e localizzazione migliorata"
     }
   ],
   "meta_title": "Ordinamento pellicole e accesso rapido - Frames",

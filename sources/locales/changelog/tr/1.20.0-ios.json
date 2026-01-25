@@ -69,12 +69,18 @@
     "Konum servisleri devre dışıyken konumları manuel olarak ayarlayın",
     "Gizlilik Politikası'na doğrudan erişimli yeniden tasarlanmış Gizlilik Ayarları ekranı",
     "Arayüz ve animasyon iyileştirmeleri",
-    "Desteklenen tüm dillerde çeviri güncellemeleri"
+    "Desteklenen tüm dillerde çeviri güncellemeleri",
+    "Formatları daha kolay bulmak için dışa aktarma menüsüne simgeler eklendi",
+    "Kamera izin açıklamaları cihaz diline uyacak şekilde yerelleştirildi"
   ],
   "fixes": [
     {
       "title": "Film oluşturma",
       "description": "Yeni uygulama kurulumunda film eklenmesini engelleyen bir hata düzeltildi."
+    },
+    {
+      "title": "Kare seçici sıralaması",
+      "description": "Form seçicide kare numaralarının yanlış sırada görüntülenmesi sorunu düzeltildi."
     }
   ],
   "patches": [
@@ -85,6 +91,10 @@
     {
       "version": "1.20.2",
       "description": "Oto pozlama seçeneği, Gizlilik Politikası erişimi ve UI iyileştirmeleri"
+    },
+    {
+      "version": "1.20.3",
+      "description": "Daha net dışa aktarma seçenekleri, düzeltilmiş seçici sıralaması ve geliştirilmiş yerelleştirme"
     }
   ],
   "meta_title": "Film sıralama ve hızlı erişim - Frames",

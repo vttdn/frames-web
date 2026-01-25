@@ -69,12 +69,18 @@
     "Ställ in platser manuellt när platstjänster är inaktiverade",
     "Omdesignad skärm för Integritetsinställningar med direkt åtkomst till Integritetspolicyn",
     "Förbättringar av gränssnitt och animationer",
-    "Översättningsuppdateringar för alla språk som stöds"
+    "Översättningsuppdateringar för alla språk som stöds",
+    "Lagt till ikoner i exportmenyn för att lättare hitta format",
+    "Lokaliserade kamerabehörighetsbeskrivningar för att matcha enhetens språk"
   ],
   "fixes": [
     {
       "title": "Filmskapande",
       "description": "Åtgärdade ett fel som förhindrade att filmer lades till vid en ny appinstallation."
+    },
+    {
+      "title": "Ordning i rutväljaren",
+      "description": "Åtgärdade ett problem där rutanummer visades i fel ordning i formulärväljaren."
     }
   ],
   "patches": [
@@ -85,6 +91,10 @@
     {
       "version": "1.20.2",
       "description": "Auto-exponeringsalternativ, åtkomst till Integritetspolicy och UI-förbättringar"
+    },
+    {
+      "version": "1.20.3",
+      "description": "Tydligare exportalternativ, korrigerad ordning i väljaren och förbättrad lokalisering"
     }
   ],
   "meta_title": "Filmsortering och snabbåtkomst - Frames",

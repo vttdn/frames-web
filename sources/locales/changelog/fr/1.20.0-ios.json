@@ -69,12 +69,18 @@
     "Définissez des emplacements manuellement lorsque les services de localisation sont désactivés",
     "Écran Paramètres de confidentialité repensé avec accès direct à la Politique de confidentialité",
     "Améliorations de l'interface et des animations",
-    "Mises à jour des traductions pour toutes les langues prises en charge"
+    "Mises à jour des traductions pour toutes les langues prises en charge",
+    "Ajout d'icônes au menu d'exportation pour trouver les formats plus facilement",
+    "Descriptions des autorisations de caméra localisées pour correspondre à la langue de l'appareil"
   ],
   "fixes": [
     {
       "title": "Création de pellicule",
       "description": "Correction d'un bug qui empêchait l'ajout de pellicules lors d'une nouvelle installation de l'application."
+    },
+    {
+      "title": "Ordre du sélecteur de frames",
+      "description": "Correction d'un problème où les numéros de frame apparaissaient dans le désordre dans le sélecteur de formulaire."
     }
   ],
   "patches": [
@@ -85,6 +91,10 @@
     {
       "version": "1.20.2",
       "description": "Option d'exposition Auto, accès à la Politique de confidentialité et améliorations de l'interface"
+    },
+    {
+      "version": "1.20.3",
+      "description": "Options d'exportation plus claires, ordre du sélecteur corrigé et localisation améliorée"
     }
   ],
   "meta_title": "Tri des pellicules et accès rapide - Frames",

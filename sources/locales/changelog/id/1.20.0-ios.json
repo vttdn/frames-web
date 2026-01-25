@@ -69,12 +69,18 @@
     "Atur lokasi secara manual saat layanan lokasi dinonaktifkan",
     "Layar Pengaturan Privasi yang didesain ulang dengan akses langsung ke Kebijakan Privasi",
     "Penyempurnaan antarmuka dan animasi",
-    "Pembaruan terjemahan di semua bahasa yang didukung"
+    "Pembaruan terjemahan di semua bahasa yang didukung",
+    "Menambahkan ikon ke menu ekspor untuk memudahkan menemukan format",
+    "Deskripsi izin kamera dilokalkan sesuai bahasa perangkat"
   ],
   "fixes": [
     {
       "title": "Pembuatan film",
       "description": "Memperbaiki bug yang mencegah penambahan film pada instalasi aplikasi baru."
+    },
+    {
+      "title": "Urutan pemilih frame",
+      "description": "Memperbaiki masalah di mana nomor frame muncul tidak berurutan di pemilih formulir."
     }
   ],
   "patches": [
@@ -85,6 +91,10 @@
     {
       "version": "1.20.2",
       "description": "Opsi eksposur Auto, akses Kebijakan Privasi, dan penyempurnaan UI"
+    },
+    {
+      "version": "1.20.3",
+      "description": "Opsi ekspor lebih jelas, urutan pemilih diperbaiki, dan lokalisasi ditingkatkan"
     }
   ],
   "meta_title": "Pengurutan film dan akses cepat - Frames",

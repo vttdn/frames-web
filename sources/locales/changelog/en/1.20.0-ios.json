@@ -69,12 +69,18 @@
     "Set locations manually when location services are disabled",
     "Redesigned Privacy Settings screen with direct access to the Privacy Policy",
     "Interface refinements and improved animations",
-    "Translation updates across all supported languages"
+    "Translation updates across all supported languages",
+    "Added icons to the export menu to make finding formats easier",
+    "Localized camera permission descriptions to match device language"
   ],
   "fixes": [
     {
       "title": "Film creation",
       "description": "Fixed a bug that prevented adding films on a fresh app installation."
+    },
+    {
+      "title": "Frame picker ordering",
+      "description": "Fixed an issue where frame numbers appeared out of order in the form picker."
     }
   ],
   "patches": [
@@ -85,6 +91,10 @@
     {
       "version": "1.20.2",
       "description": "Auto exposure option, Privacy Policy access, and UI refinements"
+    },
+    {
+      "version": "1.20.3",
+      "description": "Clearer export options, fixed picker ordering, and improved localization"
     }
   ],
   "meta_title": "Film Sorting & Quick Access - Frames",

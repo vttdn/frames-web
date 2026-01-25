@@ -69,12 +69,18 @@
     "Angi plasseringer manuelt når posisjonstjenester er deaktivert",
     "Nydesignet skjerm for personverninnstillinger med direkte tilgang til personvernerklæringen",
     "Forbedringer av grensesnitt og animasjoner",
-    "Oversettelsesoppdateringer for alle støttede språk"
+    "Oversettelsesoppdateringer for alle støttede språk",
+    "Lagt til ikoner i eksportmenyen for å gjøre det enklere å finne formater",
+    "Lokaliserte kameratillatelsesbeskrivelser for å matche enhetens språk"
   ],
   "fixes": [
     {
       "title": "Filmoppretting",
       "description": "Rettet en feil som forhindret tillegging av filmer ved en ny appinstallasjon."
+    },
+    {
+      "title": "Rekkefølge i rammevelger",
+      "description": "Rettet et problem der rammenumre ble vist i feil rekkefølge i skjemavelgeren."
     }
   ],
   "patches": [
@@ -85,6 +91,10 @@
     {
       "version": "1.20.2",
       "description": "Auto-eksponeringsalternativ, tilgang til personvernerklæring og UI-forbedringer"
+    },
+    {
+      "version": "1.20.3",
+      "description": "Tydeligere eksportalternativer, rettet rekkefølge i velger og forbedret lokalisering"
     }
   ],
   "meta_title": "Filmsortering og hurtig tilgang - Frames",
