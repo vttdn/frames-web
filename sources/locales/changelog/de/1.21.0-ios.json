@@ -1,0 +1,52 @@
+{
+  "version": "1.21.0",
+  "version_short": "1.21",
+  "url_slug": "1-21-ios",
+  "platform": "ios",
+  "release_date": "2026-01-26T10:00:00.000Z",
+  "title": "Aufnahmeentfernung erfassen",
+  "meta_title": "Aufnahmeentfernung erfassen - Frames",
+  "meta_description": "Erfasse die Aufnahmeentfernung für jedes Einzelbild in Metern oder Fuß. Die Daten können mit der Mac-App in die EXIF-Metadaten geschrieben werden.",
+  "summary": "Mit diesem Update kannst du die Aufnahmeentfernung für jedes Einzelbild erfassen und erhältst so ein vollständigeres Bild deiner Aufnahmeeinstellungen. Das Update enthält außerdem mehrere Verbesserungen der Benutzeroberfläche, die das Eingeben und Überprüfen deiner Einzelbilddaten komfortabler machen.",
+  "sections": [
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.21.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.21.0-1@2x.png",
+      "alt": "Frames-App zeigt die Erfassung der Aufnahmeentfernung für ein Einzelbild",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Erfasse deine Aufnahmeentfernung"
+    },
+    {
+      "type": "paragraph",
+      "content": "Beim Erfassen eines Einzelbilds kannst du jetzt die Aufnahmeentfernung zusammen mit deinen anderen Aufnahmedaten speichern. Ob du auf 1,2 Meter für ein Porträt fokussiert hast oder auf Unendlich für eine Landschaft – diese Information wird mit jeder Aufnahme gespeichert. Die App liest deine iOS-Regionseinstellungen und zeigt Entfernungen entsprechend in Metern oder Fuß an."
+    },
+    {
+      "type": "paragraph",
+      "content": "Wenn du Frames auf dem Mac verwendest, können diese Entfernungsdaten beim Export in DNG, JPG oder TIFF in die EXIF-Felder «Aufnahmeentfernung» und «Aufnahmeentfernungsbereich» geschrieben werden. Deine Fokuseinstellungen bleiben so bei deinen Scans erhalten, genau wie Blende und Verschlusszeit."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Verbesserungen der Benutzeroberfläche"
+    },
+    {
+      "type": "paragraph",
+      "content": "Die Auswahl von Brennweitenwerten ist jetzt einfacher, und die Belichtungskorrekturauswahl zeigt 0 EV anstelle von Nicht festgelegt an, wenn keine Anpassung erfasst wurde. Parameter werden außerdem in einer einheitlichen Reihenfolge in der Einzelbildliste und den Einstellungen angezeigt, was die App vorhersehbarer macht."
+    }
+  ],
+  "improvements": [
+    "Aufnahmeentfernung für jedes Einzelbild erfassen mit automatischer Einheitenauswahl basierend auf iOS-Einstellungen",
+    "Einfachere Auswahl bei der Eingabe von Brennweitenwerten",
+    "Belichtungskorrekturauswahl zeigt jetzt 0 EV statt Nicht festgelegt",
+    "Einheitliche Parameterreihenfolge in der Einzelbildliste und den Einstellungen",
+    "Diverse Verbesserungen der Benutzeroberfläche"
+  ],
+  "fixes": [],
+  "patches": []
+}

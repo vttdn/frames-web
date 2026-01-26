@@ -1,0 +1,44 @@
+{
+  "version": "1.13.0",
+  "version_short": "1.13",
+  "url_slug": "1-13-macos",
+  "platform": "macos",
+  "release_date": "2026-01-26T10:00:00.000Z",
+  "title": "Scherpstelafstand in zijbalk en EXIF",
+  "meta_title": "Scherpstelafstand in zijbalk en EXIF - Frames",
+  "meta_description": "Scherpstelafstand verschijnt nu in de zijbalk en wordt naar EXIF-metadata geschreven. Bereik afstand tot onderwerp wordt automatisch berekend.",
+  "summary": "Deze update brengt ondersteuning voor scherpstelafstand naar de Mac-app. Als je scherpstelafstand vastlegt in Frames voor iOS, verschijnen die gegevens nu in de zijbalk en worden ze naar de EXIF-metadata geschreven wanneer je je scans exporteert. De update verbetert ook de verwerking van bepaalde metadatawaarden en bevat visuele verfijningen voor macOS Sequoia.",
+  "sections": [
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-mac-1.13.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-mac-1.13.0-1@2x.png",
+      "alt": "Frames macOS-app toont scherpstelafstand in de zijbalk",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Scherpstelafstand en Bereik afstand tot onderwerp"
+    },
+    {
+      "type": "paragraph",
+      "content": "Scherpstelafstand is nu zichtbaar in de zijbalk naast je andere opnamegegevens. Bij het exporteren naar DNG, JPG of TIFF wordt deze waarde naar het Afstand tot onderwerp-veld in de EXIF-metadata geschreven. De app berekent ook een Bereik afstand tot onderwerp door de scherpstelafstand te combineren met de brandpuntafstand die je voor de filmframe hebt gebruikt, waardoor beeldviewers en catalogussoftware meer context over je opname krijgen."
+    },
+    {
+      "type": "paragraph",
+      "content": "Deze functie werkt met scherpstelafstandgegevens die zijn vastgelegd in Frames voor iOS (versie 1.21.0 en later). Als je scherpstelafstand op je telefoon hebt geregistreerd, wordt die informatie nu overgebracht naar je geëxporteerde bestanden op Mac."
+    }
+  ],
+  "improvements": [
+    "Scherpstelafstand weergegeven in zijbalk",
+    "Afstand tot onderwerp geschreven naar EXIF-metadata voor DNG-, JPG- en TIFF-exports",
+    "Bereik afstand tot onderwerp berekend uit scherpstelafstand en brandpuntafstand",
+    "Flash Off wordt nu naar metadata geschreven in plaats van overgeslagen",
+    "0 EV belichtingscorrectie wordt nu naar metadata geschreven in plaats van overgeslagen",
+    "Visuele verfijningen voor macOS Sequoia, inclusief het uiterlijk van de zijbalk"
+  ],
+  "fixes": [],
+  "patches": []
+}

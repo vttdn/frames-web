@@ -1,0 +1,52 @@
+{
+  "version": "1.21.0",
+  "version_short": "1.21",
+  "url_slug": "1-21-ios",
+  "platform": "ios",
+  "release_date": "2026-01-26T10:00:00.000Z",
+  "title": "Rejestrowanie odległości ostrości",
+  "meta_title": "Rejestrowanie odległości ostrości - Frames",
+  "meta_description": "Rejestruj odległość ostrości dla każdej klatki w metrach lub stopach. Dane integrują się z aplikacją Mac dla metadanych EXIF.",
+  "summary": "Ta aktualizacja dodaje odległość ostrości do danych, które możesz rejestrować dla każdej klatki, dając pełniejszy obraz ustawień fotografowania. Aktualizacja zawiera również kilka ulepszeń interfejsu, które czynią wprowadzanie i przeglądanie danych klatek wygodniejszym.",
+  "sections": [
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.21.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.21.0-1@2x.png",
+      "alt": "Aplikacja Frames pokazująca rejestrowanie odległości ostrości dla klatki",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Śledź swoją odległość ostrości"
+    },
+    {
+      "type": "paragraph",
+      "content": "Podczas rejestrowania klatki możesz teraz zapisać odległość ostrości wraz z innymi danymi fotografowania. Niezależnie od tego, czy ustawiłeś ostrość na 1,2 metra do portretu, czy na nieskończoność do krajobrazu, ta informacja jest zapisywana z każdym zdjęciem. Aplikacja odczytuje regionalne ustawienia iOS i wyświetla odległości w metrach lub stopach odpowiednio."
+    },
+    {
+      "type": "paragraph",
+      "content": "Jeśli używasz Frames na Macu, te dane odległości ostrości mogą być zapisane w polach Odległość od obiektu i Zakres odległości od obiektu metadanych EXIF podczas eksportu do DNG, JPG lub TIFF. Twoje ustawienia ostrości pozostają ze skanami, tak jak przysłona i czas otwarcia migawki."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Ulepszenia interfejsu"
+    },
+    {
+      "type": "paragraph",
+      "content": "Wybieranie wartości ogniskowej jest teraz łatwiejsze, a selektor kompensacji ekspozycji pokazuje 0 EV zamiast Nie ustawiono, gdy nie zarejestrowano żadnej korekty. Parametry pojawiają się również w spójnej kolejności na liście klatek i w ustawieniach, czyniąc aplikację bardziej przewidywalną."
+    }
+  ],
+  "improvements": [
+    "Rejestruj odległość ostrości dla każdej klatki z automatycznym wyborem jednostki na podstawie ustawień iOS",
+    "Łatwiejszy wybór przy wprowadzaniu wartości ogniskowej",
+    "Selektor kompensacji ekspozycji pokazuje teraz 0 EV zamiast Nie ustawiono",
+    "Spójna kolejność parametrów na liście klatek i w ustawieniach",
+    "Różne ulepszenia interfejsu"
+  ],
+  "fixes": [],
+  "patches": []
+}

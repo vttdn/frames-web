@@ -1,0 +1,52 @@
+{
+  "version": "1.21.0",
+  "version_short": "1.21",
+  "url_slug": "1-21-ios",
+  "platform": "ios",
+  "release_date": "2026-01-26T10:00:00.000Z",
+  "title": "Ghi nhận khoảng cách lấy nét",
+  "meta_title": "Ghi nhận khoảng cách lấy nét - Frames",
+  "meta_description": "Ghi khoảng cách lấy nét cho mỗi khung hình bằng mét hoặc feet. Dữ liệu tích hợp với ứng dụng Mac cho siêu dữ liệu EXIF.",
+  "summary": "Bản cập nhật này thêm khoảng cách lấy nét vào dữ liệu bạn có thể ghi cho mỗi khung hình, giúp bạn có cái nhìn đầy đủ hơn về cài đặt chụp ảnh. Bản cập nhật cũng bao gồm một số cải tiến giao diện giúp việc nhập và xem lại dữ liệu khung hình thuận tiện hơn.",
+  "sections": [
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.21.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.21.0-1@2x.png",
+      "alt": "Ứng dụng Frames hiển thị ghi nhận khoảng cách lấy nét cho một khung hình",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Theo dõi khoảng cách lấy nét"
+    },
+    {
+      "type": "paragraph",
+      "content": "Khi ghi nhận một khung hình, bạn có thể lưu khoảng cách lấy nét cùng với các dữ liệu chụp khác. Dù bạn lấy nét ở 1,2 mét cho ảnh chân dung hay đặt vô cực cho phong cảnh, thông tin này được lưu với mỗi bức ảnh. Ứng dụng đọc cài đặt vùng iOS của bạn và hiển thị khoảng cách bằng mét hoặc feet tương ứng."
+    },
+    {
+      "type": "paragraph",
+      "content": "Nếu bạn sử dụng Frames trên Mac, dữ liệu khoảng cách lấy nét này có thể được ghi vào các trường Khoảng cách chủ thể và Phạm vi khoảng cách chủ thể của siêu dữ liệu EXIF khi xuất sang DNG, JPG hoặc TIFF. Cài đặt lấy nét của bạn đi kèm với các bản scan, giống như khẩu độ và tốc độ màn trập."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Cải tiến giao diện"
+    },
+    {
+      "type": "paragraph",
+      "content": "Việc chọn giá trị tiêu cự giờ dễ dàng hơn, và bộ chọn bù phơi sáng hiển thị 0 EV thay vì Chưa Đặt khi không có điều chỉnh nào được ghi. Các thông số cũng xuất hiện theo thứ tự nhất quán trong danh sách khung hình và cài đặt, giúp ứng dụng dễ đoán hơn khi sử dụng."
+    }
+  ],
+  "improvements": [
+    "Ghi khoảng cách lấy nét cho mỗi khung hình với tự động chọn đơn vị dựa trên cài đặt iOS",
+    "Chọn dễ dàng hơn khi nhập giá trị tiêu cự",
+    "Bộ chọn bù phơi sáng hiển thị 0 EV thay vì Chưa Đặt",
+    "Thứ tự thông số nhất quán trong danh sách khung hình và cài đặt",
+    "Các cải tiến giao diện khác"
+  ],
+  "fixes": [],
+  "patches": []
+}

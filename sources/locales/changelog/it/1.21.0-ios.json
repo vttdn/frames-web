@@ -1,0 +1,52 @@
+{
+  "version": "1.21.0",
+  "version_short": "1.21",
+  "url_slug": "1-21-ios",
+  "platform": "ios",
+  "release_date": "2026-01-26T10:00:00.000Z",
+  "title": "Registrazione della distanza di messa a fuoco",
+  "meta_title": "Registrazione della distanza di messa a fuoco - Frames",
+  "meta_description": "Registra la distanza di messa a fuoco per ogni fotogramma in metri o piedi. I dati si integrano con l'app Mac per i metadati EXIF.",
+  "summary": "Questo aggiornamento aggiunge la distanza di messa a fuoco ai dati che puoi registrare per ogni fotogramma, offrendoti un quadro più completo delle tue impostazioni di scatto. L'aggiornamento include anche diversi miglioramenti dell'interfaccia che rendono più comodo inserire e consultare i dati dei tuoi fotogrammi.",
+  "sections": [
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.21.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.21.0-1@2x.png",
+      "alt": "L'app Frames che mostra la registrazione della distanza di messa a fuoco per un fotogramma",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Registra la tua distanza di messa a fuoco"
+    },
+    {
+      "type": "paragraph",
+      "content": "Quando registri un fotogramma, ora puoi salvare la distanza di messa a fuoco insieme agli altri dati di scatto. Che tu abbia messo a fuoco a 1,2 metri per un ritratto o all'infinito per un paesaggio, questa informazione viene salvata con ogni scatto. L'app legge le tue impostazioni regionali iOS e mostra le distanze in metri o piedi di conseguenza."
+    },
+    {
+      "type": "paragraph",
+      "content": "Se usi Frames su Mac, questi dati sulla distanza di messa a fuoco possono essere scritti nei campi Distanza dal soggetto e Intervallo distanza soggetto dei metadati EXIF durante l'esportazione in DNG, JPG o TIFF. Le tue impostazioni di messa a fuoco restano con le tue scansioni, proprio come diaframma e tempo di scatto."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Miglioramenti dell'interfaccia"
+    },
+    {
+      "type": "paragraph",
+      "content": "Selezionare i valori della lunghezza focale è ora più facile, e il selettore della compensazione dell'esposizione mostra 0 EV invece di Non impostato quando non è stata registrata alcuna regolazione. I parametri appaiono anche in un ordine coerente nell'elenco dei fotogrammi e nelle impostazioni, rendendo l'app più prevedibile nell'uso."
+    }
+  ],
+  "improvements": [
+    "Registra la distanza di messa a fuoco per ogni fotogramma con selezione automatica dell'unità in base alle impostazioni iOS",
+    "Selezione più facile nell'inserimento dei valori di lunghezza focale",
+    "Il selettore della compensazione dell'esposizione ora mostra 0 EV invece di Non impostato",
+    "Ordine dei parametri coerente nell'elenco dei fotogrammi e nelle impostazioni",
+    "Vari miglioramenti dell'interfaccia"
+  ],
+  "fixes": [],
+  "patches": []
+}

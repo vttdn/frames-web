@@ -1,0 +1,52 @@
+{
+  "version": "1.21.0",
+  "version_short": "1.21",
+  "url_slug": "1-21-ios",
+  "platform": "ios",
+  "release_date": "2026-01-26T10:00:00.000Z",
+  "title": "Registo da distância de focagem",
+  "meta_title": "Registo da distância de focagem - Frames",
+  "meta_description": "Registe a distância de focagem para cada fotograma em metros ou pés. Os dados integram-se com a app Mac para metadados EXIF.",
+  "summary": "Esta atualização adiciona a distância de focagem aos dados que pode registar para cada fotograma, proporcionando uma imagem mais completa das suas definições de disparo. A atualização também inclui várias melhorias de interface que tornam a introdução e revisão dos dados dos seus fotogramas mais conveniente.",
+  "sections": [
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.21.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.21.0-1@2x.png",
+      "alt": "App Frames a mostrar o registo da distância de focagem para um fotograma",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Registe a sua distância de focagem"
+    },
+    {
+      "type": "paragraph",
+      "content": "Ao registar um fotograma, pode agora guardar a distância de focagem juntamente com os outros dados de disparo. Quer tenha focado a 1,2 metros para um retrato ou definido para infinito para uma paisagem, esta informação é guardada com cada disparo. A app lê as definições regionais do iOS e apresenta as distâncias em metros ou pés em conformidade."
+    },
+    {
+      "type": "paragraph",
+      "content": "Se utiliza o Frames no Mac, estes dados de distância de focagem podem ser escritos nos campos Distância do assunto e Intervalo de distância do assunto dos metadados EXIF ao exportar para DNG, JPG ou TIFF. As suas definições de focagem permanecem com as suas digitalizações, tal como a abertura e a velocidade do obturador."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Melhorias de interface"
+    },
+    {
+      "type": "paragraph",
+      "content": "Selecionar valores de distância focal é agora mais fácil, e o seletor de compensação de exposição mostra 0 EV em vez de Não ajustado quando nenhum ajuste foi registado. Os parâmetros também aparecem numa ordem consistente na lista de fotogramas e nas definições, tornando a app mais previsível de usar."
+    }
+  ],
+  "improvements": [
+    "Registe a distância de focagem para cada fotograma com seleção automática de unidade com base nas definições do iOS",
+    "Seleção mais fácil ao introduzir valores de distância focal",
+    "O seletor de compensação de exposição agora mostra 0 EV em vez de Não ajustado",
+    "Ordem de parâmetros consistente na lista de fotogramas e nas definições",
+    "Várias melhorias de interface"
+  ],
+  "fixes": [],
+  "patches": []
+}

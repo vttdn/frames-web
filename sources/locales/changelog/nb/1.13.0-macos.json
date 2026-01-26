@@ -1,0 +1,44 @@
+{
+  "version": "1.13.0",
+  "version_short": "1.13",
+  "url_slug": "1-13-macos",
+  "platform": "macos",
+  "release_date": "2026-01-26T10:00:00.000Z",
+  "title": "Fokusavstand i sidefelt og EXIF",
+  "meta_title": "Fokusavstand i sidefelt og EXIF - Frames",
+  "meta_description": "Fokusavstand vises nå i sidefeltet og skrives til EXIF-metadata. Motivavstandsområde beregnes automatisk.",
+  "summary": "Denne oppdateringen bringer støtte for fokusavstand til Mac-appen. Hvis du registrerer fokusavstand i Frames for iOS, vises disse dataene nå i sidefeltet og skrives til EXIF-metadata når du eksporterer skanningene dine. Oppdateringen forbedrer også håndteringen av visse metadataverdier og inkluderer visuelle forbedringer for macOS Sequoia.",
+  "sections": [
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-mac-1.13.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-mac-1.13.0-1@2x.png",
+      "alt": "Frames macOS-app som viser fokusavstand i sidefeltet",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Fokusavstand og Motivavstandsområde"
+    },
+    {
+      "type": "paragraph",
+      "content": "Fokusavstand er nå synlig i sidefeltet sammen med de andre opptaksdataene dine. Når du eksporterer til DNG, JPG eller TIFF, skrives denne verdien til Motivavstand-feltet i EXIF-metadata. Appen beregner også et Motivavstandsområde ved å kombinere fokusavstanden med brennvidden du brukte for rammen, noe som gir bildevisere og katalogiseringsprogramvare mer kontekst om bildet ditt."
+    },
+    {
+      "type": "paragraph",
+      "content": "Denne funksjonen fungerer med fokusavstandsdata registrert i Frames for iOS (versjon 1.21.0 og senere). Hvis du har logget fokusavstand på telefonen din, overføres denne informasjonen nå til de eksporterte filene dine på Mac."
+    }
+  ],
+  "improvements": [
+    "Fokusavstand vises i sidefeltet",
+    "Motivavstand skrives til EXIF-metadata for DNG-, JPG- og TIFF-eksporter",
+    "Motivavstandsområde beregnes fra fokusavstand og brennvidde",
+    "Flash Off skrives nå til metadata i stedet for å hoppes over",
+    "0 EV eksponeringskompensasjon skrives nå til metadata i stedet for å hoppes over",
+    "Visuelle forbedringer for macOS Sequoia, inkludert sidefeltets utseende"
+  ],
+  "fixes": [],
+  "patches": []
+}

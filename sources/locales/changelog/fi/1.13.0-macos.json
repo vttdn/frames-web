@@ -1,0 +1,44 @@
+{
+  "version": "1.13.0",
+  "version_short": "1.13",
+  "url_slug": "1-13-macos",
+  "platform": "macos",
+  "release_date": "2026-01-26T10:00:00.000Z",
+  "title": "Tarkennusetäisyys sivupalkissa ja EXIF:ssä",
+  "meta_title": "Tarkennusetäisyys sivupalkissa ja EXIF:ssä - Frames",
+  "meta_description": "Tarkennusetäisyys näkyy nyt sivupalkissa ja kirjoitetaan EXIF-metatietoihin. Kohteen etäisyysalue lasketaan automaattisesti.",
+  "summary": "Tämä päivitys tuo tarkennusetäisyyden tuen Mac-sovellukseen. Jos tallennat tarkennusetäisyyden Frames iOS:ssa, nämä tiedot näkyvät nyt sivupalkissa ja kirjoitetaan EXIF-metatietoihin, kun viet skannauksesi. Päivitys parantaa myös tiettyjen metatietoarvojen käsittelyä ja sisältää visuaalisia parannuksia macOS Sequoialle.",
+  "sections": [
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-mac-1.13.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-mac-1.13.0-1@2x.png",
+      "alt": "Frames macOS -sovellus näyttää tarkennusetäisyyden sivupalkissa",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Tarkennusetäisyys ja Kohteen etäisyysalue"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tarkennusetäisyys näkyy nyt sivupalkissa muiden kuvaustietojesi rinnalla. Kun viet DNG-, JPG- tai TIFF-muotoon, tämä arvo kirjoitetaan EXIF-metatietojen Kohteen etäisyys -kenttään. Sovellus laskee myös Kohteen etäisyysalue -arvon yhdistämällä tarkennusetäisyyden kehykselle käyttämääsi polttoväliin, antaen kuvankatseluohjelmille ja luettelointisovelluksille enemmän tietoa kuvauksestasi."
+    },
+    {
+      "type": "paragraph",
+      "content": "Tämä toiminto toimii Frames iOS:ssa (versio 1.21.0 ja uudemmat) tallennettujen tarkennusetäisyystietojen kanssa. Jos olet kirjannut tarkennusetäisyyttä puhelimellasi, nämä tiedot siirtyvät nyt vietyihin tiedostoihisi Macilla."
+    }
+  ],
+  "improvements": [
+    "Tarkennusetäisyys näkyy sivupalkissa",
+    "Kohteen etäisyys kirjoitetaan EXIF-metatietoihin DNG-, JPG- ja TIFF-vienneissä",
+    "Kohteen etäisyysalue lasketaan tarkennusetäisyydestä ja polttovälistä",
+    "Flash Off kirjoitetaan nyt metatietoihin ohittamisen sijaan",
+    "0 EV valotuksen korjaus kirjoitetaan nyt metatietoihin ohittamisen sijaan",
+    "Visuaalisia parannuksia macOS Sequoialle, mukaan lukien sivupalkin ulkoasu"
+  ],
+  "fixes": [],
+  "patches": []
+}

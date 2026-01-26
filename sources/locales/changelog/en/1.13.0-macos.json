@@ -1,0 +1,44 @@
+{
+  "version": "1.13.0",
+  "version_short": "1.13",
+  "url_slug": "1-13-macos",
+  "platform": "macos",
+  "release_date": "2026-01-26T10:00:00.000Z",
+  "title": "Focus Distance in Sidebar and EXIF",
+  "meta_title": "Focus Distance in Sidebar and EXIF - Frames",
+  "meta_description": "Focus distance now appears in the sidebar and is written to EXIF metadata. Subject Distance Range is calculated from focus distance and focal length.",
+  "summary": "This update brings focus distance support to the Mac app. If you record focus distance in Frames for iOS, that data now appears in the sidebar and gets written into the EXIF metadata when you export your scans. The update also improves how certain metadata values are handled and includes visual refinements for macOS Sequoia.",
+  "sections": [
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-mac-1.13.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-mac-1.13.0-1@2x.png",
+      "alt": "Frames macOS app showing focus distance in the sidebar",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Focus Distance and Subject Distance Range"
+    },
+    {
+      "type": "paragraph",
+      "content": "Focus distance is now visible in the sidebar alongside your other shooting data. When you export to DNG, JPG, or TIFF, this value is written to the Subject Distance field in the EXIF metadata. The app also calculates a Subject Distance Range by combining the focus distance with the focal length you used for the frame, giving image viewers and cataloging software more context about your shot."
+    },
+    {
+      "type": "paragraph",
+      "content": "This feature works with focus distance data recorded in Frames for iOS (version 1.21.0 and later). If you've been logging focus distance on your phone, that information now carries through to your exported files on Mac."
+    }
+  ],
+  "improvements": [
+    "Focus distance displayed in sidebar",
+    "Subject Distance written to EXIF metadata for DNG, JPG, and TIFF exports",
+    "Subject Distance Range calculated from focus distance and focal length",
+    "Flash Off now written to metadata instead of being skipped",
+    "0 EV exposure bias now written to metadata instead of being skipped",
+    "Visual refinements for macOS Sequoia, including sidebar appearance"
+  ],
+  "fixes": [],
+  "patches": []
+}

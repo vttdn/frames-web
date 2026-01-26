@@ -1,0 +1,52 @@
+{
+  "version": "1.21.0",
+  "version_short": "1.21",
+  "url_slug": "1-21-ios",
+  "platform": "ios",
+  "release_date": "2026-01-26T10:00:00.000Z",
+  "title": "Odak mesafesi kaydı",
+  "meta_title": "Odak mesafesi kaydı - Frames",
+  "meta_description": "Her kare için odak mesafesini metre veya fit olarak kaydedin. Veriler Mac uygulamasıyla EXIF meta verileri için entegre olur.",
+  "summary": "Bu güncelleme, her kare için kaydedebileceğiniz verilere odak mesafesini ekleyerek çekim ayarlarınızın daha eksiksiz bir resmini sunar. Güncelleme ayrıca kare verilerinizi girmeyi ve incelemeyi daha rahat hale getiren çeşitli arayüz iyileştirmeleri içerir.",
+  "sections": [
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.21.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.21.0-1@2x.png",
+      "alt": "Frames uygulaması bir kare için odak mesafesi kaydını gösteriyor",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Odak mesafenizi kaydedin"
+    },
+    {
+      "type": "paragraph",
+      "content": "Bir kare kaydederken artık diğer çekim verilerinizle birlikte odak mesafesini de kaydedebilirsiniz. İster bir portre için 1,2 metreye odaklanmış olun, ister bir manzara için sonsuza ayarlamış olun, bu bilgi her çekimle birlikte kaydedilir. Uygulama iOS bölge ayarlarınızı okur ve mesafeleri buna göre metre veya fit olarak gösterir."
+    },
+    {
+      "type": "paragraph",
+      "content": "Mac'te Frames kullanıyorsanız, bu odak mesafesi verileri DNG, JPG veya TIFF'e aktarırken EXIF meta verilerinin Konu mesafesi ve Konu mesafe aralığı alanlarına yazılabilir. Odak ayarlarınız, diyafram ve enstantane gibi taramalarınızla birlikte kalır."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Arayüz iyileştirmeleri"
+    },
+    {
+      "type": "paragraph",
+      "content": "Odak uzaklığı değerlerini seçmek artık daha kolay ve pozlama telafisi seçici, hiçbir ayarlama kaydedilmediğinde Ayarlanmamış yerine 0 EV gösteriyor. Parametreler ayrıca kare listesi ve ayarlarda tutarlı bir sırada görüntülenerek uygulamayı daha öngörülebilir hale getiriyor."
+    }
+  ],
+  "improvements": [
+    "iOS ayarlarına göre otomatik birim seçimiyle her kare için odak mesafesini kaydedin",
+    "Odak uzaklığı değerlerini girerken daha kolay seçim",
+    "Pozlama telafisi seçici artık Ayarlanmamış yerine 0 EV gösteriyor",
+    "Kare listesi ve ayarlarda tutarlı parametre sırası",
+    "Çeşitli arayüz iyileştirmeleri"
+  ],
+  "fixes": [],
+  "patches": []
+}

@@ -1,0 +1,44 @@
+{
+  "version": "1.13.0",
+  "version_short": "1.13",
+  "url_slug": "1-13-macos",
+  "platform": "macos",
+  "release_date": "2026-01-26T10:00:00.000Z",
+  "title": "Distancia de enfoque en barra lateral y EXIF",
+  "meta_title": "Distancia de enfoque en barra lateral y EXIF - Frames",
+  "meta_description": "La distancia de enfoque aparece ahora en la barra lateral y se escribe en los metadatos EXIF. Rango de distancia al sujeto se calcula automáticamente.",
+  "summary": "Esta actualización trae soporte de distancia de enfoque a la app de Mac. Si registras la distancia de enfoque en Frames para iOS, esos datos ahora aparecen en la barra lateral y se escriben en los metadatos EXIF cuando exportas tus escaneos. La actualización también mejora el manejo de ciertos valores de metadatos e incluye refinamientos visuales para macOS Sequoia.",
+  "sections": [
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-mac-1.13.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-mac-1.13.0-1@2x.png",
+      "alt": "App Frames macOS mostrando la distancia de enfoque en la barra lateral",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Distancia de enfoque y Rango de distancia al sujeto"
+    },
+    {
+      "type": "paragraph",
+      "content": "La distancia de enfoque ahora es visible en la barra lateral junto con tus otros datos de disparo. Cuando exportas a DNG, JPG o TIFF, este valor se escribe en el campo Distancia al sujeto de los metadatos EXIF. La app también calcula un Rango de distancia al sujeto combinando la distancia de enfoque con la distancia focal que usaste para el fotograma, dando a los visores de imágenes y software de catalogación más contexto sobre tu toma."
+    },
+    {
+      "type": "paragraph",
+      "content": "Esta función trabaja con datos de distancia de enfoque registrados en Frames para iOS (versión 1.21.0 y posteriores). Si has estado registrando la distancia de enfoque en tu teléfono, esa información ahora se traslada a tus archivos exportados en Mac."
+    }
+  ],
+  "improvements": [
+    "Distancia de enfoque mostrada en la barra lateral",
+    "Distancia al sujeto escrita en metadatos EXIF para exportaciones DNG, JPG y TIFF",
+    "Rango de distancia al sujeto calculado a partir de la distancia de enfoque y la distancia focal",
+    "Flash Off ahora se escribe en los metadatos en lugar de omitirse",
+    "La compensación de exposición 0 EV ahora se escribe en los metadatos en lugar de omitirse",
+    "Refinamientos visuales para macOS Sequoia, incluyendo la apariencia de la barra lateral"
+  ],
+  "fixes": [],
+  "patches": []
+}

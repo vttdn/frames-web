@@ -1,0 +1,44 @@
+{
+  "version": "1.13.0",
+  "version_short": "1.13",
+  "url_slug": "1-13-macos",
+  "platform": "macos",
+  "release_date": "2026-01-26T10:00:00.000Z",
+  "title": "사이드바 및 EXIF에 초점 거리 표시",
+  "meta_title": "사이드바 및 EXIF에 초점 거리 표시 - Frames",
+  "meta_description": "초점 거리가 이제 사이드바에 표시되고 EXIF 메타데이터에 기록됩니다. 피사체 거리 범위가 자동으로 계산됩니다.",
+  "summary": "이번 업데이트는 Mac 앱에 초점 거리 지원을 추가합니다. Frames for iOS에서 초점 거리를 기록하면 해당 데이터가 이제 사이드바에 표시되고 스캔을 내보낼 때 EXIF 메타데이터에 기록됩니다. 또한 특정 메타데이터 값의 처리가 개선되었으며 macOS Sequoia를 위한 시각적 개선이 포함되어 있습니다.",
+  "sections": [
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-mac-1.13.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-mac-1.13.0-1@2x.png",
+      "alt": "Frames macOS 앱의 사이드바에 초점 거리가 표시된 화면",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "초점 거리 및 피사체 거리 범위"
+    },
+    {
+      "type": "paragraph",
+      "content": "초점 거리가 이제 다른 촬영 데이터와 함께 사이드바에 표시됩니다. DNG, JPG 또는 TIFF로 내보낼 때 이 값이 EXIF 메타데이터의 피사체 거리 필드에 기록됩니다. 앱은 또한 초점 거리와 프레임에 사용된 초점거리를 결합하여 피사체 거리 범위를 계산하여 이미지 뷰어와 카탈로그 소프트웨어에 촬영에 대한 더 많은 정보를 제공합니다."
+    },
+    {
+      "type": "paragraph",
+      "content": "이 기능은 Frames for iOS(버전 1.21.0 이상)에서 기록된 초점 거리 데이터와 함께 작동합니다. 휴대폰에서 초점 거리를 기록했다면 해당 정보가 이제 Mac에서 내보낸 파일로 전달됩니다."
+    }
+  ],
+  "improvements": [
+    "사이드바에 초점 거리 표시",
+    "DNG, JPG, TIFF 내보내기 시 피사체 거리를 EXIF 메타데이터에 기록",
+    "초점 거리와 초점거리에서 피사체 거리 범위 계산",
+    "Flash Off가 건너뛰지 않고 메타데이터에 기록됨",
+    "0 EV 노출 보정이 건너뛰지 않고 메타데이터에 기록됨",
+    "사이드바 모양을 포함한 macOS Sequoia용 시각적 개선"
+  ],
+  "fixes": [],
+  "patches": []
+}

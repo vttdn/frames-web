@@ -1,0 +1,44 @@
+{
+  "version": "1.13.0",
+  "version_short": "1.13",
+  "url_slug": "1-13-macos",
+  "platform": "macos",
+  "release_date": "2026-01-26T10:00:00.000Z",
+  "title": "Aufnahmeentfernung in Seitenleiste und EXIF",
+  "meta_title": "Aufnahmeentfernung in Seitenleiste und EXIF - Frames",
+  "meta_description": "Aufnahmeentfernung erscheint jetzt in der Seitenleiste und wird in EXIF-Metadaten geschrieben. Motiventfernungsbereich wird berechnet.",
+  "summary": "Dieses Update bringt Unterstützung für Aufnahmeentfernung in die Mac-App. Wenn du Aufnahmeentfernung in Frames für iOS erfasst, erscheinen diese Daten jetzt in der Seitenleiste und werden beim Export deiner Scans in die EXIF-Metadaten geschrieben. Das Update verbessert auch die Handhabung bestimmter Metadatenwerte und enthält visuelle Verfeinerungen für macOS Sequoia.",
+  "sections": [
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-mac-1.13.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-mac-1.13.0-1@2x.png",
+      "alt": "Frames macOS-App zeigt Aufnahmeentfernung in der Seitenleiste",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Aufnahmeentfernung und Motiventfernungsbereich"
+    },
+    {
+      "type": "paragraph",
+      "content": "Die Aufnahmeentfernung ist jetzt in der Seitenleiste neben deinen anderen Aufnahmedaten sichtbar. Beim Export in DNG, JPG oder TIFF wird dieser Wert in das Motiventfernung-Feld der EXIF-Metadaten geschrieben. Die App berechnet auch einen Motiventfernungsbereich, indem sie die Aufnahmeentfernung mit der verwendeten Brennweite kombiniert, was Bildbetrachtern und Katalogisierungssoftware mehr Kontext über deine Aufnahme gibt."
+    },
+    {
+      "type": "paragraph",
+      "content": "Diese Funktion arbeitet mit Aufnahmeentfernungsdaten, die in Frames für iOS (Version 1.21.0 und später) erfasst wurden. Wenn du Aufnahmeentfernung auf deinem Telefon protokolliert hast, werden diese Informationen jetzt in deine exportierten Dateien auf dem Mac übernommen."
+    }
+  ],
+  "improvements": [
+    "Aufnahmeentfernung in der Seitenleiste angezeigt",
+    "Motiventfernung wird in EXIF-Metadaten für DNG-, JPG- und TIFF-Exporte geschrieben",
+    "Motiventfernungsbereich wird aus Aufnahmeentfernung und Brennweite berechnet",
+    "Flash Off wird jetzt in Metadaten geschrieben statt übersprungen",
+    "0 EV Belichtungskorrektur wird jetzt in Metadaten geschrieben statt übersprungen",
+    "Visuelle Verfeinerungen für macOS Sequoia, einschließlich Seitenleisten-Erscheinungsbild"
+  ],
+  "fixes": [],
+  "patches": []
+}

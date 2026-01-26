@@ -1,0 +1,52 @@
+{
+  "version": "1.21.0",
+  "version_short": "1.21",
+  "url_slug": "1-21-ios",
+  "platform": "ios",
+  "release_date": "2026-01-26T10:00:00.000Z",
+  "title": "Enregistrement de la distance de mise au point",
+  "meta_title": "Enregistrement de la distance de mise au point - Frames",
+  "meta_description": "Enregistrez la distance de mise au point pour chaque frame en mètres ou en pieds. Intégration avec l'app Mac pour les métadonnées EXIF.",
+  "summary": "Cette mise à jour ajoute la distance de mise au point aux données que vous pouvez enregistrer pour chaque frame, vous donnant une image plus complète de vos réglages de prise de vue. Elle comprend également plusieurs améliorations d'interface qui rendent la saisie et la consultation des données de vos frames plus pratiques.",
+  "sections": [
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.21.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.21.0-1@2x.png",
+      "alt": "L'app Frames affichant l'enregistrement de la distance de mise au point pour une frame",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Enregistrez votre distance de mise au point"
+    },
+    {
+      "type": "paragraph",
+      "content": "Lors de l'enregistrement d'une frame, vous pouvez maintenant sauvegarder la distance de mise au point avec vos autres données de prise de vue. Que vous ayez fait la mise au point à 1,2 mètre pour un portrait ou à l'infini pour un paysage, cette information est conservée avec chaque photo. L'app lit vos réglages régionaux iOS et affiche les distances en mètres ou en pieds en conséquence."
+    },
+    {
+      "type": "paragraph",
+      "content": "Si vous utilisez Frames sur Mac, ces données de distance peuvent être inscrites dans les champs Distance du sujet et Plage de distance du sujet des métadonnées EXIF lors de l'exportation en DNG, JPG ou TIFF. Vos réglages de mise au point accompagnent vos scans, tout comme l'ouverture et la vitesse d'obturation."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Améliorations de l'interface"
+    },
+    {
+      "type": "paragraph",
+      "content": "La sélection des valeurs de focale est maintenant plus facile, et le sélecteur de correction d'exposition affiche 0 EV au lieu de Non défini lorsqu'aucun ajustement n'a été enregistré. Les paramètres apparaissent également dans un ordre cohérent dans la liste des frames et les réglages, rendant l'app plus prévisible à utiliser."
+    }
+  ],
+  "improvements": [
+    "Enregistrez la distance de mise au point pour chaque frame avec sélection automatique de l'unité selon les réglages iOS",
+    "Sélection plus facile lors de la saisie des valeurs de focale",
+    "Le sélecteur de correction d'exposition affiche maintenant 0 EV au lieu de Non défini",
+    "Ordre des paramètres cohérent dans la liste des frames et les réglages",
+    "Diverses améliorations de l'interface"
+  ],
+  "fixes": [],
+  "patches": []
+}

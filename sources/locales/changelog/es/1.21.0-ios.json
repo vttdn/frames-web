@@ -1,0 +1,52 @@
+{
+  "version": "1.21.0",
+  "version_short": "1.21",
+  "url_slug": "1-21-ios",
+  "platform": "ios",
+  "release_date": "2026-01-26T10:00:00.000Z",
+  "title": "Registro de distancia de enfoque",
+  "meta_title": "Registro de distancia de enfoque - Frames",
+  "meta_description": "Registra la distancia de enfoque de cada fotograma en metros o pies. Los datos se integran con la app de Mac para metadatos EXIF en tus escaneos.",
+  "summary": "Esta actualización añade la distancia de enfoque a los datos que puedes registrar para cada fotograma, ofreciéndote una imagen más completa de tus ajustes de disparo. La actualización también incluye varias mejoras de interfaz que hacen más cómodo introducir y revisar los datos de tus fotogramas.",
+  "sections": [
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.21.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.21.0-1@2x.png",
+      "alt": "La app Frames mostrando el registro de distancia de enfoque para un fotograma",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Registra tu distancia de enfoque"
+    },
+    {
+      "type": "paragraph",
+      "content": "Al registrar un fotograma, ahora puedes guardar la distancia de enfoque junto con el resto de datos de disparo. Ya sea que hayas enfocado a 1,2 metros para un retrato o a infinito para un paisaje, esta información se guarda con cada toma. La app lee tus ajustes regionales de iOS y muestra las distancias en metros o pies según corresponda."
+    },
+    {
+      "type": "paragraph",
+      "content": "Si usas Frames en Mac, estos datos de distancia de enfoque pueden escribirse en los campos Distancia al sujeto y Rango de distancia al sujeto de los metadatos EXIF al exportar a DNG, JPG o TIFF. Tus ajustes de enfoque permanecen con tus escaneos, igual que la apertura y la velocidad de obturación."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Mejoras de interfaz"
+    },
+    {
+      "type": "paragraph",
+      "content": "Seleccionar valores de distancia focal ahora es más fácil, y el selector de compensación de exposición muestra 0 EV en lugar de No establecido cuando no se ha registrado ningún ajuste. Los parámetros también aparecen en un orden consistente en la lista de fotogramas y en los ajustes, haciendo la app más predecible de usar."
+    }
+  ],
+  "improvements": [
+    "Registra la distancia de enfoque para cada fotograma con selección automática de unidad según los ajustes de iOS",
+    "Selección más fácil al introducir valores de distancia focal",
+    "El selector de compensación de exposición ahora muestra 0 EV en lugar de No establecido",
+    "Orden de parámetros consistente en la lista de fotogramas y los ajustes",
+    "Varias mejoras de interfaz"
+  ],
+  "fixes": [],
+  "patches": []
+}

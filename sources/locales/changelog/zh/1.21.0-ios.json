@@ -1,0 +1,52 @@
+{
+  "version": "1.21.0",
+  "version_short": "1.21",
+  "url_slug": "1-21-ios",
+  "platform": "ios",
+  "release_date": "2026-01-26T10:00:00.000Z",
+  "title": "记录对焦距离",
+  "meta_title": "记录对焦距离 - Frames",
+  "meta_description": "以米或英尺为单位记录每帧的对焦距离。数据可通过 Mac 应用写入 EXIF 元数据",
+  "summary": "此更新为每帧可记录的数据新增了对焦距离,让您更全面地了解拍摄设置。更新还包含多项界面改进,使输入和查看帧数据更加便捷。",
+  "sections": [
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.21.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.21.0-1@2x.png",
+      "alt": "Frames 应用显示帧的对焦距离记录",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "记录对焦距离"
+    },
+    {
+      "type": "paragraph",
+      "content": "记录帧时,您现在可以将对焦距离与其他拍摄数据一起保存。无论是为人像对焦在 1.2 米处,还是为风景设置为无穷远,这些信息都会随每张照片保存。应用会读取您的 iOS 地区设置,并相应地以米或英尺显示距离。"
+    },
+    {
+      "type": "paragraph",
+      "content": "如果您在 Mac 上使用 Frames,这些对焦距离数据可以在导出为 DNG、JPG 或 TIFF 时写入 EXIF 元数据的 主体距离 和 主体距离范围 字段。您的对焦设置会与扫描文件一起保留,就像光圈和快门速度一样。"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "界面改进"
+    },
+    {
+      "type": "paragraph",
+      "content": "选择焦距值现在更加容易,曝光补偿选择器在未记录调整时显示 0 EV 而非「未设置」。参数在帧列表和设置中也以一致的顺序显示,使应用更易于预测。"
+    }
+  ],
+  "improvements": [
+    "根据 iOS 设置自动选择单位,为每帧记录对焦距离",
+    "输入焦距值时选择更轻松",
+    "曝光补偿选择器现显示 0 EV 而非「未设置」",
+    "帧列表和设置中参数顺序一致",
+    "多项界面改进"
+  ],
+  "fixes": [],
+  "patches": []
+}

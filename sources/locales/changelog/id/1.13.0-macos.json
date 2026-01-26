@@ -1,0 +1,44 @@
+{
+  "version": "1.13.0",
+  "version_short": "1.13",
+  "url_slug": "1-13-macos",
+  "platform": "macos",
+  "release_date": "2026-01-26T10:00:00.000Z",
+  "title": "Jarak fokus di sidebar dan EXIF",
+  "meta_title": "Jarak fokus di sidebar dan EXIF - Frames",
+  "meta_description": "Jarak fokus kini muncul di sidebar dan ditulis ke metadata EXIF. Rentang jarak subjek dihitung secara otomatis.",
+  "summary": "Pembaruan ini membawa dukungan jarak fokus ke aplikasi Mac. Jika Anda merekam jarak fokus di Frames untuk iOS, data tersebut kini muncul di sidebar dan ditulis ke metadata EXIF saat Anda mengekspor scan. Pembaruan ini juga memperbaiki penanganan nilai metadata tertentu dan menyertakan penyempurnaan visual untuk macOS Sequoia.",
+  "sections": [
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-mac-1.13.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-mac-1.13.0-1@2x.png",
+      "alt": "Aplikasi Frames macOS menampilkan jarak fokus di sidebar",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Jarak fokus dan Rentang jarak subjek"
+    },
+    {
+      "type": "paragraph",
+      "content": "Jarak fokus kini terlihat di sidebar bersama data pemotretan lainnya. Saat Anda mengekspor ke DNG, JPG, atau TIFF, nilai ini ditulis ke bidang Jarak subjek dalam metadata EXIF. Aplikasi juga menghitung Rentang jarak subjek dengan menggabungkan jarak fokus dengan panjang fokus yang Anda gunakan untuk frame tersebut, memberikan penampil gambar dan perangkat lunak katalog lebih banyak konteks tentang pengambilan gambar Anda."
+    },
+    {
+      "type": "paragraph",
+      "content": "Fitur ini bekerja dengan data jarak fokus yang direkam di Frames untuk iOS (versi 1.21.0 dan yang lebih baru). Jika Anda telah mencatat jarak fokus di ponsel, informasi tersebut kini terbawa ke file yang diekspor di Mac."
+    }
+  ],
+  "improvements": [
+    "Jarak fokus ditampilkan di sidebar",
+    "Jarak subjek ditulis ke metadata EXIF untuk ekspor DNG, JPG, dan TIFF",
+    "Rentang jarak subjek dihitung dari jarak fokus dan panjang fokus",
+    "Flash Off kini ditulis ke metadata alih-alih dilewati",
+    "Bias eksposur 0 EV kini ditulis ke metadata alih-alih dilewati",
+    "Penyempurnaan visual untuk macOS Sequoia, termasuk tampilan sidebar"
+  ],
+  "fixes": [],
+  "patches": []
+}

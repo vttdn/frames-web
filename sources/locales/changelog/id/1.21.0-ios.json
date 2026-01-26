@@ -1,0 +1,52 @@
+{
+  "version": "1.21.0",
+  "version_short": "1.21",
+  "url_slug": "1-21-ios",
+  "platform": "ios",
+  "release_date": "2026-01-26T10:00:00.000Z",
+  "title": "Perekaman jarak fokus",
+  "meta_title": "Perekaman jarak fokus - Frames",
+  "meta_description": "Rekam jarak fokus untuk setiap frame dalam meter atau kaki. Data terintegrasi dengan app Mac untuk metadata EXIF pada hasil scan.",
+  "summary": "Pembaruan ini menambahkan jarak fokus ke data yang dapat Anda rekam untuk setiap frame, memberikan gambaran lebih lengkap tentang pengaturan pemotretan Anda. Pembaruan ini juga mencakup beberapa perbaikan antarmuka yang membuat memasukkan dan meninjau data frame Anda lebih nyaman.",
+  "sections": [
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.21.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.21.0-1@2x.png",
+      "alt": "Aplikasi Frames menampilkan perekaman jarak fokus untuk sebuah frame",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Lacak jarak fokus Anda"
+    },
+    {
+      "type": "paragraph",
+      "content": "Saat mencatat frame, Anda sekarang dapat merekam jarak fokus bersama data pemotretan lainnya. Baik Anda fokus pada 1,2 meter untuk potret atau diatur ke tak terhingga untuk lanskap, informasi ini disimpan dengan setiap jepretan. Aplikasi membaca pengaturan regional iOS Anda dan menampilkan jarak dalam meter atau kaki sesuai preferensi."
+    },
+    {
+      "type": "paragraph",
+      "content": "Jika Anda menggunakan Frames di Mac, data jarak fokus ini dapat ditulis ke bidang Jarak subjek dan Rentang jarak subjek pada metadata EXIF saat mengekspor ke DNG, JPG, atau TIFF. Pengaturan fokus Anda tetap menyertai hasil scan, seperti halnya apertur dan kecepatan rana."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Perbaikan antarmuka"
+    },
+    {
+      "type": "paragraph",
+      "content": "Memilih nilai panjang fokus sekarang lebih mudah, dan pemilih kompensasi eksposur menampilkan 0 EV alih-alih Tidak Diatur saat tidak ada penyesuaian yang direkam. Parameter juga muncul dalam urutan yang konsisten di seluruh daftar frame dan pengaturan, membuat aplikasi lebih mudah diprediksi."
+    }
+  ],
+  "improvements": [
+    "Rekam jarak fokus untuk setiap frame dengan pemilihan unit otomatis berdasarkan pengaturan iOS",
+    "Pemilihan lebih mudah saat memasukkan nilai panjang fokus",
+    "Pemilih kompensasi eksposur sekarang menampilkan 0 EV alih-alih Tidak Diatur",
+    "Urutan parameter konsisten di daftar frame dan pengaturan",
+    "Berbagai perbaikan antarmuka"
+  ],
+  "fixes": [],
+  "patches": []
+}

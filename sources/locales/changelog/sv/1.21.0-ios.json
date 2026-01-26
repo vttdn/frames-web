@@ -1,0 +1,52 @@
+{
+  "version": "1.21.0",
+  "version_short": "1.21",
+  "url_slug": "1-21-ios",
+  "platform": "ios",
+  "release_date": "2026-01-26T10:00:00.000Z",
+  "title": "Registrering av fokusavstånd",
+  "meta_title": "Registrering av fokusavstånd - Frames",
+  "meta_description": "Registrera fokusavståndet för varje ruta i meter eller fot. Data integreras med Mac-appen för EXIF-metadata i dina skanningar.",
+  "summary": "Den här uppdateringen lägger till fokusavstånd till de data du kan registrera för varje ruta, vilket ger dig en mer komplett bild av dina fotograferingsinställningar. Uppdateringen innehåller också flera gränssnittsförbättringar som gör det smidigare att mata in och granska dina rutdata.",
+  "sections": [
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.21.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.21.0-1@2x.png",
+      "alt": "Frames-appen visar registrering av fokusavstånd för en ruta",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Registrera ditt fokusavstånd"
+    },
+    {
+      "type": "paragraph",
+      "content": "När du loggar en ruta kan du nu registrera fokusavståndet tillsammans med dina andra fotograferingsdata. Oavsett om du fokuserade på 1,2 meter för ett porträtt eller ställde in på oändligt för ett landskap, sparas denna information med varje bild. Appen läser dina iOS-regioninställningar och visar avstånd i meter eller fot därefter."
+    },
+    {
+      "type": "paragraph",
+      "content": "Om du använder Frames på Mac kan dessa fokusavståndsdata skrivas in i fälten Motivavstånd och Motivavståndsintervall i EXIF-metadata vid export till DNG, JPG eller TIFF. Dina fokusinställningar följer med dina skanningar, precis som bländare och slutartid."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Gränssnittsförbättringar"
+    },
+    {
+      "type": "paragraph",
+      "content": "Att välja brännviddsvärden är nu enklare, och exponeringskompensationsväljaren visar 0 EV istället för Inte inställd när ingen justering har registrerats. Parametrar visas också i en konsekvent ordning i rutlistan och inställningarna, vilket gör appen mer förutsägbar att använda."
+    }
+  ],
+  "improvements": [
+    "Registrera fokusavstånd för varje ruta med automatiskt enhetsval baserat på iOS-inställningar",
+    "Enklare val vid inmatning av brännviddsvärden",
+    "Exponeringskompensationsväljaren visar nu 0 EV istället för Inte inställd",
+    "Konsekvent parameterordning i rutlistan och inställningarna",
+    "Diverse gränssnittsförbättringar"
+  ],
+  "fixes": [],
+  "patches": []
+}

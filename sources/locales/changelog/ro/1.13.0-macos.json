@@ -1,0 +1,44 @@
+{
+  "version": "1.13.0",
+  "version_short": "1.13",
+  "url_slug": "1-13-macos",
+  "platform": "macos",
+  "release_date": "2026-01-26T10:00:00.000Z",
+  "title": "Distanța de focalizare în bara laterală și EXIF",
+  "meta_title": "Distanța de focalizare în bara laterală și EXIF - Frames",
+  "meta_description": "Distanța de focalizare apare acum în bara laterală și este scrisă în metadatele EXIF. Intervalul distanței subiectului este calculat automat.",
+  "summary": "Această actualizare aduce suport pentru distanța de focalizare în aplicația Mac. Dacă înregistrezi distanța de focalizare în Frames pentru iOS, acele date apar acum în bara laterală și sunt scrise în metadatele EXIF când exporti scanările. Actualizarea îmbunătățește și gestionarea anumitor valori de metadate și include îmbunătățiri vizuale pentru macOS Sequoia.",
+  "sections": [
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-mac-1.13.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-mac-1.13.0-1@2x.png",
+      "alt": "Aplicația Frames macOS afișând distanța de focalizare în bara laterală",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Distanța de focalizare și Intervalul distanței subiectului"
+    },
+    {
+      "type": "paragraph",
+      "content": "Distanța de focalizare este acum vizibilă în bara laterală alături de celelalte date de fotografiere. Când exporti în DNG, JPG sau TIFF, această valoare este scrisă în câmpul Distanța subiectului din metadatele EXIF. Aplicația calculează și intervalul distanței subiectului combinând distanța de focalizare cu distanța focală folosită pentru cadru, oferind vizualizatoarelor de imagini și software-ului de catalogare mai mult context despre fotografia ta."
+    },
+    {
+      "type": "paragraph",
+      "content": "Această funcție funcționează cu datele de distanță de focalizare înregistrate în Frames pentru iOS (versiunea 1.21.0 și ulterior). Dacă ai înregistrat distanța de focalizare pe telefon, acele informații sunt acum transferate în fișierele exportate pe Mac."
+    }
+  ],
+  "improvements": [
+    "Distanța de focalizare afișată în bara laterală",
+    "Distanța subiectului scrisă în metadatele EXIF pentru exporturile DNG, JPG și TIFF",
+    "Intervalul distanței subiectului calculat din distanța de focalizare și distanța focală",
+    "Flash Off este acum scris în metadate în loc să fie omis",
+    "Compensarea expunerii 0 EV este acum scrisă în metadate în loc să fie omisă",
+    "Îmbunătățiri vizuale pentru macOS Sequoia, inclusiv aspectul barei laterale"
+  ],
+  "fixes": [],
+  "patches": []
+}

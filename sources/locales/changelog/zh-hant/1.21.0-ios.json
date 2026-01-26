@@ -1,0 +1,52 @@
+{
+  "version": "1.21.0",
+  "version_short": "1.21",
+  "url_slug": "1-21-ios",
+  "platform": "ios",
+  "release_date": "2026-01-26T10:00:00.000Z",
+  "title": "記錄對焦距離",
+  "meta_title": "記錄對焦距離 - Frames",
+  "meta_description": "以公尺或英尺為單位記錄每個畫格的對焦距離。資料可透過 Mac 應用程式寫入 EXIF 中繼資料",
+  "summary": "此更新為每個畫格可記錄的資料新增了對焦距離,讓您更全面地了解拍攝設定。更新還包含多項介面改進,使輸入和檢視畫格資料更加便利。",
+  "sections": [
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.21.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.21.0-1@2x.png",
+      "alt": "Frames 應用程式顯示畫格的對焦距離記錄",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "記錄對焦距離"
+    },
+    {
+      "type": "paragraph",
+      "content": "記錄畫格時,您現在可以將對焦距離與其他拍攝資料一起儲存。無論是為人像對焦在 1.2 公尺處,還是為風景設定為無限遠,這些資訊都會隨每張照片儲存。應用程式會讀取您的 iOS 地區設定,並相應地以公尺或英尺顯示距離。"
+    },
+    {
+      "type": "paragraph",
+      "content": "如果您在 Mac 上使用 Frames,這些對焦距離資料可以在輸出為 DNG、JPG 或 TIFF 時寫入 EXIF 中繼資料的 主體距離 和 主體距離範圍 欄位。您的對焦設定會與掃描檔案一起保留,就像光圈和快門速度一樣。"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "介面改進"
+    },
+    {
+      "type": "paragraph",
+      "content": "選擇焦距值現在更加容易,曝光補償選擇器在未記錄調整時顯示 0 EV 而非「未設定」。參數在畫格列表和設定中也以一致的順序顯示,使應用程式更易於預測。"
+    }
+  ],
+  "improvements": [
+    "根據 iOS 設定自動選擇單位,為每個畫格記錄對焦距離",
+    "輸入焦距值時選擇更輕鬆",
+    "曝光補償選擇器現顯示 0 EV 而非「未設定」",
+    "畫格列表和設定中參數順序一致",
+    "多項介面改進"
+  ],
+  "fixes": [],
+  "patches": []
+}

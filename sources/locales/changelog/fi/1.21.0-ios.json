@@ -1,0 +1,52 @@
+{
+  "version": "1.21.0",
+  "version_short": "1.21",
+  "url_slug": "1-21-ios",
+  "platform": "ios",
+  "release_date": "2026-01-26T10:00:00.000Z",
+  "title": "Tarkennusetäisyyden tallennus",
+  "meta_title": "Tarkennusetäisyyden tallennus - Frames",
+  "meta_description": "Tallenna tarkennusetäisyys jokaiselle kehykselle metreinä tai jalkoina. Tiedot voidaan kirjoittaa EXIF-metatietoihin Mac-sovelluksella.",
+  "summary": "Tämä päivitys lisää tarkennusetäisyyden tietoihin, joita voit tallentaa jokaiselle kehykselle, antaen sinulle kattavamman kuvan kuvausasetuksistasi. Päivitys sisältää myös useita käyttöliittymäparannuksia, jotka tekevät kehystietojen syöttämisestä ja tarkistamisesta kätevämpää.",
+  "sections": [
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.21.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.21.0-1@2x.png",
+      "alt": "Frames-sovellus näyttää tarkennusetäisyyden tallennuksen kehykselle",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Tallenna tarkennusetäisyys"
+    },
+    {
+      "type": "paragraph",
+      "content": "Kehystä kirjatessasi voit nyt tallentaa tarkennusetäisyyden muiden kuvaustietojen ohella. Olitpa tarkentanut 1,2 metriin muotokuvaa varten tai äärettömään maisemaa varten, tämä tieto tallennetaan jokaisen kuvan mukana. Sovellus lukee iOS-alueasetuksesi ja näyttää etäisyydet metreinä tai jalkoina sen mukaisesti."
+    },
+    {
+      "type": "paragraph",
+      "content": "Jos käytät Framesia Macilla, nämä tarkennusetäisyystiedot voidaan kirjoittaa EXIF-metatietojen Kohteen etäisyys- ja Kohteen etäisyysalue -kenttiin vietäessä DNG-, JPG- tai TIFF-muotoon. Tarkennusasetuksesi säilyvät skannauksissasi, aivan kuten aukko ja suljinaika."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Käyttöliittymäparannukset"
+    },
+    {
+      "type": "paragraph",
+      "content": "Polttovälin arvojen valitseminen on nyt helpompaa, ja valotuksen korjauksen valitsin näyttää 0 EV Ei asetettu -tekstin sijaan, kun säätöä ei ole tallennettu. Parametrit näkyvät myös yhtenäisessä järjestyksessä kehysluettelossa ja asetuksissa, mikä tekee sovelluksesta ennakoitavamman."
+    }
+  ],
+  "improvements": [
+    "Tallenna tarkennusetäisyys jokaiselle kehykselle automaattisella yksikön valinnalla iOS-asetusten perusteella",
+    "Helpompi valinta polttovälin arvoja syötettäessä",
+    "Valotuksen korjauksen valitsin näyttää nyt 0 EV Ei asetettu -tekstin sijaan",
+    "Yhtenäinen parametrien järjestys kehysluettelossa ja asetuksissa",
+    "Useita käyttöliittymäparannuksia"
+  ],
+  "fixes": [],
+  "patches": []
+}

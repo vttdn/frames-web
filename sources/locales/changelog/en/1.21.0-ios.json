@@ -1,0 +1,52 @@
+{
+  "version": "1.21.0",
+  "version_short": "1.21",
+  "url_slug": "1-21-ios",
+  "platform": "ios",
+  "release_date": "2026-01-26T10:00:00.000Z",
+  "title": "Focus Distance Recording",
+  "meta_title": "Focus Distance Recording - Frames",
+  "meta_description": "Record focus distance for each frame in meters or feet. Data integrates with the Mac app for Subject Distance EXIF metadata in your exported scans.",
+  "summary": "This update adds focus distance to the data you can record for each frame, giving you a more complete picture of your shooting settings. The update also includes several interface improvements that make entering and reviewing your frame data more convenient.",
+  "sections": [
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.21.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.21.0-1@2x.png",
+      "alt": "Frames app showing focus distance recording for a frame",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Track Your Focus Distance"
+    },
+    {
+      "type": "paragraph",
+      "content": "When logging a frame, you can now record the focus distance alongside your other shooting data. Whether you were focused at 1.2 meters for a portrait or set to infinity for a landscape, this information is saved with each shot. The app reads your iOS regional settings and displays distances in meters or feet accordingly."
+    },
+    {
+      "type": "paragraph",
+      "content": "If you use Frames on Mac, this focus distance data can be written into the Subject Distance and Subject Distance Range fields of your EXIF metadata when exporting to DNG, JPG, or TIFF. Your focus settings stay with your scans, just like aperture and shutter speed."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Interface Improvements"
+    },
+    {
+      "type": "paragraph",
+      "content": "Selecting focal length values is now easier, and the exposure compensation picker shows 0 EV instead of Not Set when no adjustment is recorded. Parameters also appear in a consistent order across the frame list and settings, making the app more predictable to use."
+    }
+  ],
+  "improvements": [
+    "Record focus distance for each frame with automatic unit selection based on iOS settings",
+    "Easier selection when entering focal length values",
+    "Exposure compensation picker now shows 0 EV instead of Not Set",
+    "Consistent parameter order across the frame list and settings",
+    "Various interface improvements"
+  ],
+  "fixes": [],
+  "patches": []
+}

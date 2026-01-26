@@ -1,0 +1,44 @@
+{
+  "version": "1.13.0",
+  "version_short": "1.13",
+  "url_slug": "1-13-macos",
+  "platform": "macos",
+  "release_date": "2026-01-26T10:00:00.000Z",
+  "title": "Distance de mise au point dans la barre latérale et EXIF",
+  "meta_title": "Distance de mise au point dans la barre latérale et EXIF - Frames",
+  "meta_description": "La distance de mise au point apparaît dans la barre latérale et est inscrite dans les métadonnées EXIF. Calcul automatique de la plage de distance du sujet.",
+  "summary": "Cette mise à jour apporte la prise en charge de la distance de mise au point dans l'app Mac. Si vous enregistrez la distance de mise au point dans Frames pour iOS, ces données apparaissent maintenant dans la barre latérale et sont inscrites dans les métadonnées EXIF lors de l'exportation de vos scans. La mise à jour améliore également la gestion de certaines valeurs de métadonnées et inclut des améliorations visuelles pour macOS Sequoia.",
+  "sections": [
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-mac-1.13.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-mac-1.13.0-1@2x.png",
+      "alt": "App Frames macOS affichant la distance de mise au point dans la barre latérale",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Distance de mise au point et Plage de distance du sujet"
+    },
+    {
+      "type": "paragraph",
+      "content": "La distance de mise au point est maintenant visible dans la barre latérale avec vos autres données de prise de vue. Lors de l'exportation en DNG, JPG ou TIFF, cette valeur est inscrite dans le champ Distance du sujet des métadonnées EXIF. L'app calcule également une plage de distance du sujet en combinant la distance de mise au point avec la focale utilisée pour la frame, donnant aux visionneuses d'images et aux logiciels de catalogage plus de contexte sur votre prise de vue."
+    },
+    {
+      "type": "paragraph",
+      "content": "Cette fonctionnalité fonctionne avec les données de distance de mise au point enregistrées dans Frames pour iOS (version 1.21.0 et ultérieures). Si vous avez enregistré la distance de mise au point sur votre téléphone, ces informations sont maintenant transférées dans vos fichiers exportés sur Mac."
+    }
+  ],
+  "improvements": [
+    "Distance de mise au point affichée dans la barre latérale",
+    "Distance du sujet inscrite dans les métadonnées EXIF pour les exports DNG, JPG et TIFF",
+    "Plage de distance du sujet calculée à partir de la distance de mise au point et de la focale",
+    "Flash Off est maintenant inscrit dans les métadonnées au lieu d'être ignoré",
+    "La correction d'exposition 0 EV est maintenant inscrite dans les métadonnées au lieu d'être ignorée",
+    "Améliorations visuelles pour macOS Sequoia, y compris l'apparence de la barre latérale"
+  ],
+  "fixes": [],
+  "patches": []
+}

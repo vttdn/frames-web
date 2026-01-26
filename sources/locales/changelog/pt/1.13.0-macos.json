@@ -1,0 +1,44 @@
+{
+  "version": "1.13.0",
+  "version_short": "1.13",
+  "url_slug": "1-13-macos",
+  "platform": "macos",
+  "release_date": "2026-01-26T10:00:00.000Z",
+  "title": "Distância de focagem na barra lateral e EXIF",
+  "meta_title": "Distância de focagem na barra lateral e EXIF - Frames",
+  "meta_description": "A distância de focagem aparece agora na barra lateral e é escrita nos metadados EXIF. Intervalo de distância do assunto é calculado automaticamente.",
+  "summary": "Esta atualização traz suporte de distância de focagem para a app Mac. Se registar a distância de focagem no Frames para iOS, esses dados aparecem agora na barra lateral e são escritos nos metadados EXIF quando exporta as suas digitalizações. A atualização também melhora o tratamento de certos valores de metadados e inclui refinamentos visuais para macOS Sequoia.",
+  "sections": [
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-mac-1.13.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-mac-1.13.0-1@2x.png",
+      "alt": "App Frames macOS a mostrar a distância de focagem na barra lateral",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Distância de focagem e Intervalo de distância do assunto"
+    },
+    {
+      "type": "paragraph",
+      "content": "A distância de focagem está agora visível na barra lateral juntamente com os outros dados de disparo. Ao exportar para DNG, JPG ou TIFF, este valor é escrito no campo Distância do assunto dos metadados EXIF. A app também calcula um Intervalo de distância do assunto combinando a distância de focagem com a distância focal usada para o fotograma, dando aos visualizadores de imagens e software de catalogação mais contexto sobre o seu disparo."
+    },
+    {
+      "type": "paragraph",
+      "content": "Esta funcionalidade trabalha com dados de distância de focagem registados no Frames para iOS (versão 1.21.0 e posteriores). Se tem registado a distância de focagem no seu telefone, essa informação é agora transferida para os ficheiros exportados no Mac."
+    }
+  ],
+  "improvements": [
+    "Distância de focagem apresentada na barra lateral",
+    "Distância do assunto escrita nos metadados EXIF para exportações DNG, JPG e TIFF",
+    "Intervalo de distância do assunto calculado a partir da distância de focagem e distância focal",
+    "Flash Off é agora escrito nos metadados em vez de ser ignorado",
+    "Compensação de exposição 0 EV é agora escrita nos metadados em vez de ser ignorada",
+    "Refinamentos visuais para macOS Sequoia, incluindo a aparência da barra lateral"
+  ],
+  "fixes": [],
+  "patches": []
+}

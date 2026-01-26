@@ -1,0 +1,52 @@
+{
+  "version": "1.21.0",
+  "version_short": "1.21",
+  "url_slug": "1-21-ios",
+  "platform": "ios",
+  "release_date": "2026-01-26T10:00:00.000Z",
+  "title": "Registrering av fokusavstand",
+  "meta_title": "Registrering av fokusavstand - Frames",
+  "meta_description": "Registrer fokusavstanden for hver ramme i meter eller fot. Data integreres med Mac-appen for EXIF-metadata i eksporterte skanninger.",
+  "summary": "Denne oppdateringen legger til fokusavstand i dataene du kan registrere for hver ramme, slik at du får et mer komplett bilde av opptaksinnstillingene dine. Oppdateringen inkluderer også flere grensesnittforbedringer som gjør det enklere å legge inn og se gjennom rammedataene dine.",
+  "sections": [
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.21.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.21.0-1@2x.png",
+      "alt": "Frames-appen viser registrering av fokusavstand for en ramme",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Registrer fokusavstanden din"
+    },
+    {
+      "type": "paragraph",
+      "content": "Når du logger en ramme, kan du nå registrere fokusavstanden sammen med de andre opptaksdataene dine. Enten du fokuserte på 1,2 meter for et portrett eller stilte inn på uendelig for et landskap, lagres denne informasjonen med hvert bilde. Appen leser iOS-regioninnstillingene dine og viser avstander i meter eller fot tilsvarende."
+    },
+    {
+      "type": "paragraph",
+      "content": "Hvis du bruker Frames på Mac, kan disse fokusavstandsdataene skrives inn i feltene Motivavstand og Motivavstandsområde i EXIF-metadataene ved eksport til DNG, JPG eller TIFF. Fokusinnstillingene dine følger med skanningene dine, akkurat som blender og lukkertid."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Grensesnittforbedringer"
+    },
+    {
+      "type": "paragraph",
+      "content": "Det er nå enklere å velge brennviddeverdier, og eksponeringskompensasjonsvelgeren viser 0 EV i stedet for Ikke angitt når ingen justering er registrert. Parametere vises også i en konsistent rekkefølge i rammelisten og innstillingene, noe som gjør appen mer forutsigbar å bruke."
+    }
+  ],
+  "improvements": [
+    "Registrer fokusavstand for hver ramme med automatisk enhetsvalg basert på iOS-innstillinger",
+    "Enklere valg ved inntasting av brennviddeverdier",
+    "Eksponeringskompensasjonsvelgeren viser nå 0 EV i stedet for Ikke angitt",
+    "Konsistent parameterrekkefølge i rammelisten og innstillingene",
+    "Diverse grensesnittforbedringer"
+  ],
+  "fixes": [],
+  "patches": []
+}

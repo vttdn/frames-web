@@ -1,0 +1,44 @@
+{
+  "version": "1.13.0",
+  "version_short": "1.13",
+  "url_slug": "1-13-macos",
+  "platform": "macos",
+  "release_date": "2026-01-26T10:00:00.000Z",
+  "title": "Odległość ostrości w pasku bocznym i EXIF",
+  "meta_title": "Odległość ostrości w pasku bocznym i EXIF - Frames",
+  "meta_description": "Odległość ostrości pojawia się teraz w pasku bocznym i jest zapisywana w metadanych EXIF. Zakres odległości od obiektu jest obliczany automatycznie.",
+  "summary": "Ta aktualizacja wprowadza obsługę odległości ostrości do aplikacji Mac. Jeśli rejestrujesz odległość ostrości w Frames dla iOS, te dane pojawiają się teraz w pasku bocznym i są zapisywane w metadanych EXIF podczas eksportowania skanów. Aktualizacja poprawia również obsługę niektórych wartości metadanych i zawiera ulepszenia wizualne dla macOS Sequoia.",
+  "sections": [
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-mac-1.13.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-mac-1.13.0-1@2x.png",
+      "alt": "Aplikacja Frames macOS pokazująca odległość ostrości w pasku bocznym",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Odległość ostrości i Zakres odległości od obiektu"
+    },
+    {
+      "type": "paragraph",
+      "content": "Odległość ostrości jest teraz widoczna w pasku bocznym obok innych danych fotografowania. Podczas eksportu do DNG, JPG lub TIFF ta wartość jest zapisywana w polu Odległość od obiektu metadanych EXIF. Aplikacja oblicza również Zakres odległości od obiektu, łącząc odległość ostrości z ogniskową użytą dla klatki, dając przeglądarkom obrazów i oprogramowaniu katalogującemu więcej kontekstu o Twoim zdjęciu."
+    },
+    {
+      "type": "paragraph",
+      "content": "Ta funkcja działa z danymi odległości ostrości zarejestrowanymi w Frames dla iOS (wersja 1.21.0 i nowsze). Jeśli rejestrowałeś odległość ostrości na telefonie, te informacje są teraz przenoszone do eksportowanych plików na Macu."
+    }
+  ],
+  "improvements": [
+    "Odległość ostrości wyświetlana w pasku bocznym",
+    "Odległość od obiektu zapisywana w metadanych EXIF dla eksportów DNG, JPG i TIFF",
+    "Zakres odległości od obiektu obliczany z odległości ostrości i ogniskowej",
+    "Flash Off jest teraz zapisywany w metadanych zamiast być pomijany",
+    "Kompensacja ekspozycji 0 EV jest teraz zapisywana w metadanych zamiast być pomijana",
+    "Ulepszenia wizualne dla macOS Sequoia, w tym wygląd paska bocznego"
+  ],
+  "fixes": [],
+  "patches": []
+}

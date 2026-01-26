@@ -1,0 +1,44 @@
+{
+  "version": "1.13.0",
+  "version_short": "1.13",
+  "url_slug": "1-13-macos",
+  "platform": "macos",
+  "release_date": "2026-01-26T10:00:00.000Z",
+  "title": "Distanza di messa a fuoco nella barra laterale e EXIF",
+  "meta_title": "Distanza di messa a fuoco nella barra laterale e EXIF - Frames",
+  "meta_description": "La distanza di messa a fuoco appare nella barra laterale e viene scritta nei metadati EXIF. Calcolo automatico dell'intervallo distanza soggetto.",
+  "summary": "Questo aggiornamento porta il supporto della distanza di messa a fuoco nell'app Mac. Se registri la distanza di messa a fuoco in Frames per iOS, quei dati ora appaiono nella barra laterale e vengono scritti nei metadati EXIF quando esporti le tue scansioni. L'aggiornamento migliora anche la gestione di alcuni valori dei metadati e include perfezionamenti visivi per macOS Sequoia.",
+  "sections": [
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-mac-1.13.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-mac-1.13.0-1@2x.png",
+      "alt": "App Frames macOS che mostra la distanza di messa a fuoco nella barra laterale",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Distanza di messa a fuoco e Intervallo distanza soggetto"
+    },
+    {
+      "type": "paragraph",
+      "content": "La distanza di messa a fuoco è ora visibile nella barra laterale insieme agli altri dati di scatto. Quando esporti in DNG, JPG o TIFF, questo valore viene scritto nel campo Distanza dal soggetto dei metadati EXIF. L'app calcola anche un Intervallo distanza soggetto combinando la distanza di messa a fuoco con la lunghezza focale usata per il fotogramma, fornendo ai visualizzatori di immagini e ai software di catalogazione più contesto sul tuo scatto."
+    },
+    {
+      "type": "paragraph",
+      "content": "Questa funzione lavora con i dati di distanza di messa a fuoco registrati in Frames per iOS (versione 1.21.0 e successive). Se hai registrato la distanza di messa a fuoco sul tuo telefono, queste informazioni ora vengono trasferite nei file esportati su Mac."
+    }
+  ],
+  "improvements": [
+    "Distanza di messa a fuoco visualizzata nella barra laterale",
+    "Distanza dal soggetto scritta nei metadati EXIF per esportazioni DNG, JPG e TIFF",
+    "Intervallo distanza soggetto calcolato dalla distanza di messa a fuoco e dalla lunghezza focale",
+    "Flash Off ora viene scritto nei metadati invece di essere saltato",
+    "La compensazione dell'esposizione 0 EV ora viene scritta nei metadati invece di essere saltata",
+    "Perfezionamenti visivi per macOS Sequoia, incluso l'aspetto della barra laterale"
+  ],
+  "fixes": [],
+  "patches": []
+}

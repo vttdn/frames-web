@@ -1,0 +1,52 @@
+{
+  "version": "1.21.0",
+  "version_short": "1.21",
+  "url_slug": "1-21-ios",
+  "platform": "ios",
+  "release_date": "2026-01-26T10:00:00.000Z",
+  "title": "Înregistrarea distanței de focalizare",
+  "meta_title": "Înregistrarea distanței de focalizare - Frames",
+  "meta_description": "Înregistrează distanța de focalizare pentru fiecare cadru în metri sau picioare. Datele se integrează cu aplicația Mac pentru metadate EXIF.",
+  "summary": "Această actualizare adaugă distanța de focalizare la datele pe care le poți înregistra pentru fiecare cadru, oferindu-ți o imagine mai completă a setărilor de fotografiere. Actualizarea include și câteva îmbunătățiri ale interfeței care fac introducerea și revizuirea datelor cadrelor mai convenabilă.",
+  "sections": [
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.21.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.21.0-1@2x.png",
+      "alt": "Aplicația Frames afișând înregistrarea distanței de focalizare pentru un cadru",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Înregistrează distanța de focalizare"
+    },
+    {
+      "type": "paragraph",
+      "content": "Când înregistrezi un cadru, acum poți salva distanța de focalizare împreună cu celelalte date de fotografiere. Fie că ai focalizat la 1,2 metri pentru un portret sau ai setat pe infinit pentru un peisaj, această informație este salvată cu fiecare fotografie. Aplicația citește setările regionale iOS și afișează distanțele în metri sau picioare în consecință."
+    },
+    {
+      "type": "paragraph",
+      "content": "Dacă folosești Frames pe Mac, aceste date despre distanța de focalizare pot fi scrise în câmpurile Distanța subiectului și Intervalul distanței subiectului din metadatele EXIF la exportul în DNG, JPG sau TIFF. Setările tale de focalizare rămân cu scanările tale, la fel ca diafragma și viteza obturatorului."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Îmbunătățiri ale interfeței"
+    },
+    {
+      "type": "paragraph",
+      "content": "Selectarea valorilor distanței focale este acum mai ușoară, iar selectorul de compensare a expunerii afișează 0 EV în loc de Neconfigurat când nu a fost înregistrată nicio ajustare. Parametrii apar și într-o ordine consistentă în lista de cadre și setări, făcând aplicația mai previzibilă în utilizare."
+    }
+  ],
+  "improvements": [
+    "Înregistrează distanța de focalizare pentru fiecare cadru cu selecție automată a unității bazată pe setările iOS",
+    "Selecție mai ușoară la introducerea valorilor distanței focale",
+    "Selectorul de compensare a expunerii afișează acum 0 EV în loc de Neconfigurat",
+    "Ordine consistentă a parametrilor în lista de cadre și setări",
+    "Diverse îmbunătățiri ale interfeței"
+  ],
+  "fixes": [],
+  "patches": []
+}

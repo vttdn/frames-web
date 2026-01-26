@@ -1,0 +1,44 @@
+{
+  "version": "1.13.0",
+  "version_short": "1.13",
+  "url_slug": "1-13-macos",
+  "platform": "macos",
+  "release_date": "2026-01-26T10:00:00.000Z",
+  "title": "Khoảng cách lấy nét trong thanh bên và EXIF",
+  "meta_title": "Khoảng cách lấy nét trong thanh bên và EXIF - Frames",
+  "meta_description": "Khoảng cách lấy nét hiện hiển thị trong thanh bên và được ghi vào siêu dữ liệu EXIF. Phạm vi khoảng cách chủ thể được tính tự động.",
+  "summary": "Bản cập nhật này mang hỗ trợ khoảng cách lấy nét đến ứng dụng Mac. Nếu bạn ghi khoảng cách lấy nét trong Frames cho iOS, dữ liệu đó giờ hiển thị trong thanh bên và được ghi vào siêu dữ liệu EXIF khi bạn xuất các bản scan. Bản cập nhật cũng cải thiện cách xử lý một số giá trị siêu dữ liệu và bao gồm các cải tiến giao diện cho macOS Sequoia.",
+  "sections": [
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-mac-1.13.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-mac-1.13.0-1@2x.png",
+      "alt": "Ứng dụng Frames macOS hiển thị khoảng cách lấy nét trong thanh bên",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Khoảng cách lấy nét và Phạm vi khoảng cách chủ thể"
+    },
+    {
+      "type": "paragraph",
+      "content": "Khoảng cách lấy nét giờ hiển thị trong thanh bên cùng với các dữ liệu chụp khác của bạn. Khi xuất sang DNG, JPG hoặc TIFF, giá trị này được ghi vào trường Khoảng cách chủ thể trong siêu dữ liệu EXIF. Ứng dụng cũng tính Phạm vi khoảng cách chủ thể bằng cách kết hợp khoảng cách lấy nét với tiêu cự bạn sử dụng cho khung hình, cung cấp cho trình xem ảnh và phần mềm danh mục thêm ngữ cảnh về bức ảnh của bạn."
+    },
+    {
+      "type": "paragraph",
+      "content": "Tính năng này hoạt động với dữ liệu khoảng cách lấy nét được ghi trong Frames cho iOS (phiên bản 1.21.0 trở lên). Nếu bạn đã ghi khoảng cách lấy nét trên điện thoại, thông tin đó giờ được chuyển sang các tệp xuất trên Mac."
+    }
+  ],
+  "improvements": [
+    "Khoảng cách lấy nét hiển thị trong thanh bên",
+    "Khoảng cách chủ thể được ghi vào siêu dữ liệu EXIF cho xuất DNG, JPG và TIFF",
+    "Phạm vi khoảng cách chủ thể được tính từ khoảng cách lấy nét và tiêu cự",
+    "Flash Off giờ được ghi vào siêu dữ liệu thay vì bị bỏ qua",
+    "Bù phơi sáng 0 EV giờ được ghi vào siêu dữ liệu thay vì bị bỏ qua",
+    "Cải tiến giao diện cho macOS Sequoia, bao gồm giao diện thanh bên"
+  ],
+  "fixes": [],
+  "patches": []
+}

@@ -1,0 +1,23 @@
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Hjem",
+      "item": "https://withframes.com/nb/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Endringslogg",
+      "item": "https://withframes.com/nb/changelog/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Fokusavstand i sidefelt og EXIF",
+      "item": "https://withframes.com/nb/changelog/1-13-macos/"
+    }  ]
+}

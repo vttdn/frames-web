@@ -1,0 +1,44 @@
+{
+  "version": "1.13.0",
+  "version_short": "1.13",
+  "url_slug": "1-13-macos",
+  "platform": "macos",
+  "release_date": "2026-01-26T10:00:00.000Z",
+  "title": "Kenar çubuğu ve EXIF'te odak mesafesi",
+  "meta_title": "Kenar çubuğu ve EXIF'te odak mesafesi - Frames",
+  "meta_description": "Odak mesafesi artık kenar çubuğunda görünüyor ve EXIF meta verilerine yazılıyor. Konu mesafe aralığı otomatik hesaplanıyor.",
+  "summary": "Bu güncelleme Mac uygulamasına odak mesafesi desteği getiriyor. iOS için Frames'te odak mesafesi kaydediyorsanız, bu veriler artık kenar çubuğunda görünüyor ve taramalarınızı dışa aktardığınızda EXIF meta verilerine yazılıyor. Güncelleme ayrıca belirli meta veri değerlerinin işlenmesini iyileştiriyor ve macOS Sequoia için görsel iyileştirmeler içeriyor.",
+  "sections": [
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-mac-1.13.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-mac-1.13.0-1@2x.png",
+      "alt": "Frames macOS uygulaması kenar çubuğunda odak mesafesini gösteriyor",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Odak mesafesi ve Konu mesafe aralığı"
+    },
+    {
+      "type": "paragraph",
+      "content": "Odak mesafesi artık diğer çekim verilerinizle birlikte kenar çubuğunda görünüyor. DNG, JPG veya TIFF'e dışa aktardığınızda, bu değer EXIF meta verilerinin Konu mesafesi alanına yazılıyor. Uygulama ayrıca odak mesafesini kare için kullandığınız odak uzaklığıyla birleştirerek Konu mesafe aralığı hesaplıyor ve görüntü görüntüleyicilere ve kataloglama yazılımlarına çekiminiz hakkında daha fazla bağlam sağlıyor."
+    },
+    {
+      "type": "paragraph",
+      "content": "Bu özellik iOS için Frames'te (sürüm 1.21.0 ve sonrası) kaydedilen odak mesafesi verileriyle çalışıyor. Telefonunuzda odak mesafesi kaydettiyseniz, bu bilgi artık Mac'teki dışa aktarılan dosyalarınıza aktarılıyor."
+    }
+  ],
+  "improvements": [
+    "Odak mesafesi kenar çubuğunda gösteriliyor",
+    "Konu mesafesi, DNG, JPG ve TIFF dışa aktarımları için EXIF meta verilerine yazılıyor",
+    "Konu mesafe aralığı, odak mesafesi ve odak uzaklığından hesaplanıyor",
+    "Flash Off artık atlanmak yerine meta verilere yazılıyor",
+    "0 EV pozlama telafisi artık atlanmak yerine meta verilere yazılıyor",
+    "Kenar çubuğu görünümü dahil macOS Sequoia için görsel iyileştirmeler"
+  ],
+  "fixes": [],
+  "patches": []
+}

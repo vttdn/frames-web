@@ -1,0 +1,44 @@
+{
+  "version": "1.13.0",
+  "version_short": "1.13",
+  "url_slug": "1-13-macos",
+  "platform": "macos",
+  "release_date": "2026-01-26T10:00:00.000Z",
+  "title": "サイドバーとEXIFに撮影距離を表示",
+  "meta_title": "サイドバーとEXIFに撮影距離を表示 - Frames",
+  "meta_description": "撮影距離がサイドバーに表示され、EXIFメタデータに書き込まれるようになりました。被写体距離範囲は自動計算されます",
+  "summary": "このアップデートでは、Macアプリに撮影距離のサポートが追加されました。Frames for iOSで撮影距離を記録している場合、そのデータがサイドバーに表示され、スキャンをエクスポートする際にEXIFメタデータに書き込まれます。また、特定のメタデータ値の処理が改善され、macOS Sequoia向けの視覚的な改良も含まれています。",
+  "sections": [
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-mac-1.13.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-mac-1.13.0-1@2x.png",
+      "alt": "Frames macOSアプリのサイドバーに撮影距離が表示されている画面",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "撮影距離と被写体距離範囲"
+    },
+    {
+      "type": "paragraph",
+      "content": "撮影距離が他の撮影データと一緒にサイドバーに表示されるようになりました。DNG、JPG、TIFFにエクスポートすると、この値がEXIFメタデータの被写体距離フィールドに書き込まれます。アプリはまた、撮影距離とコマに使用した焦点距離を組み合わせて被写体距離範囲を計算し、画像ビューアやカタログソフトウェアに撮影に関するより詳しい情報を提供します。"
+    },
+    {
+      "type": "paragraph",
+      "content": "この機能は、Frames for iOS（バージョン1.21.0以降）で記録された撮影距離データと連携します。スマートフォンで撮影距離を記録していた場合、その情報がMacでエクスポートしたファイルに引き継がれます。"
+    }
+  ],
+  "improvements": [
+    "撮影距離をサイドバーに表示",
+    "DNG、JPG、TIFFエクスポート時に被写体距離をEXIFメタデータに書き込み",
+    "撮影距離と焦点距離から被写体距離範囲を計算",
+    "Flash Offがスキップされずにメタデータに書き込まれるように",
+    "0 EVの露出補正がスキップされずにメタデータに書き込まれるように",
+    "macOS Sequoia向けの視覚的な改良（サイドバーの外観を含む）"
+  ],
+  "fixes": [],
+  "patches": []
+}

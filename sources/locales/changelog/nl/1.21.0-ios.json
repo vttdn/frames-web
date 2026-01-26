@@ -1,0 +1,52 @@
+{
+  "version": "1.21.0",
+  "version_short": "1.21",
+  "url_slug": "1-21-ios",
+  "platform": "ios",
+  "release_date": "2026-01-26T10:00:00.000Z",
+  "title": "Scherpstelafstand vastleggen",
+  "meta_title": "Scherpstelafstand vastleggen - Frames",
+  "meta_description": "Leg de scherpstelafstand vast voor elke filmframe in meters of voet. Integratie met de Mac-app voor EXIF-metadata in je scans.",
+  "summary": "Deze update voegt scherpstelafstand toe aan de gegevens die je kunt vastleggen voor elke filmframe, zodat je een completer beeld krijgt van je opname-instellingen. De update bevat ook verschillende interfaceverbeteringen die het invoeren en bekijken van je filmframegegevens handiger maken.",
+  "sections": [
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.21.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.21.0-1@2x.png",
+      "alt": "Frames-app toont het vastleggen van scherpstelafstand voor een filmframe",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Leg je scherpstelafstand vast"
+    },
+    {
+      "type": "paragraph",
+      "content": "Bij het vastleggen van een filmframe kun je nu de scherpstelafstand opslaan samen met je andere opnamegegevens. Of je nu scherpstelde op 1,2 meter voor een portret of op oneindig voor een landschap, deze informatie wordt bij elke opname bewaard. De app leest je iOS-regioinstellingen en toont afstanden in meters of voet."
+    },
+    {
+      "type": "paragraph",
+      "content": "Als je Frames op Mac gebruikt, kunnen deze scherpstelafstandgegevens worden geschreven naar de velden Afstand tot onderwerp en Bereik afstand tot onderwerp in de EXIF-metadata bij het exporteren naar DNG, JPG of TIFF. Je scherpstelinstellingen blijven bij je scans, net als diafragma en sluitertijd."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Interfaceverbeteringen"
+    },
+    {
+      "type": "paragraph",
+      "content": "Het selecteren van brandpuntafstandwaarden is nu eenvoudiger en de belichtingscompensatiekiezer toont 0 EV in plaats van Niet ingesteld wanneer geen aanpassing is vastgelegd. Parameters verschijnen ook in een consistente volgorde in de filmframelijst en instellingen, waardoor de app voorspelbaarder wordt."
+    }
+  ],
+  "improvements": [
+    "Leg scherpstelafstand vast voor elke filmframe met automatische eenheidsselectie op basis van iOS-instellingen",
+    "Eenvoudigere selectie bij het invoeren van brandpuntafstandwaarden",
+    "Belichtingscompensatiekiezer toont nu 0 EV in plaats van Niet ingesteld",
+    "Consistente parametervolgorde in de filmframelijst en instellingen",
+    "Diverse interfaceverbeteringen"
+  ],
+  "fixes": [],
+  "patches": []
+}

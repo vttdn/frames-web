@@ -1,0 +1,44 @@
+{
+  "version": "1.13.0",
+  "version_short": "1.13",
+  "url_slug": "1-13-macos",
+  "platform": "macos",
+  "release_date": "2026-01-26T10:00:00.000Z",
+  "title": "側邊欄和 EXIF 中的對焦距離",
+  "meta_title": "側邊欄和 EXIF 中的對焦距離 - Frames",
+  "meta_description": "對焦距離現在顯示在側邊欄中並寫入 EXIF 中繼資料。主體距離範圍 自動計算",
+  "summary": "此更新為 Mac 應用程式帶來了對焦距離支援。如果您在 Frames iOS 版中記錄對焦距離,該資料現在會顯示在側邊欄中,並在輸出掃描檔案時寫入 EXIF 中繼資料。此更新還改進了某些中繼資料值的處理方式,並包含針對 macOS Sequoia 的視覺改進。",
+  "sections": [
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-mac-1.13.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-mac-1.13.0-1@2x.png",
+      "alt": "Frames macOS 應用程式在側邊欄中顯示對焦距離",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "對焦距離和 主體距離範圍"
+    },
+    {
+      "type": "paragraph",
+      "content": "對焦距離現在與其他拍攝資料一起顯示在側邊欄中。輸出為 DNG、JPG 或 TIFF 時,此值會寫入 EXIF 中繼資料的 主體距離 欄位。應用程式還會將對焦距離與畫格所用的焦距相結合來計算 主體距離範圍,為影像檢視器和編目軟體提供更多關於拍攝的資訊。"
+    },
+    {
+      "type": "paragraph",
+      "content": "此功能與 Frames iOS 版(1.21.0 及更高版本)中記錄的對焦距離資料配合使用。如果您在手機上記錄了對焦距離,該資訊現在會傳遞到 Mac 上輸出的檔案中。"
+    }
+  ],
+  "improvements": [
+    "側邊欄中顯示對焦距離",
+    "主體距離 寫入 DNG、JPG 和 TIFF 輸出的 EXIF 中繼資料",
+    "根據對焦距離和焦距計算 主體距離範圍",
+    "Flash Off 現在寫入中繼資料而不是被跳過",
+    "0 EV 曝光補償現在寫入中繼資料而不是被跳過",
+    "針對 macOS Sequoia 的視覺改進,包括側邊欄外觀"
+  ],
+  "fixes": [],
+  "patches": []
+}
