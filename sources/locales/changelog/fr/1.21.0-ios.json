@@ -45,8 +45,27 @@
     "Sélection plus facile lors de la saisie des valeurs de focale",
     "Le sélecteur de correction d'exposition affiche maintenant 0 EV au lieu de Non défini",
     "Ordre des paramètres cohérent dans la liste des frames et les réglages",
-    "Diverses améliorations de l'interface"
+    "Diverses améliorations de l'interface",
+    "Changez de pellicule depuis la liste des récentes pendant que l'enregistreur reste ouvert et se met à jour automatiquement"
   ],
-  "fixes": [],
-  "patches": []
+  "fixes": [
+    {
+      "title": "Distance de mise au point",
+      "description": "Correction d'un bug où les distances de mise au point enregistrées en pieds étaient sauvegardées en mètres au lieu d'être converties."
+    }
+  ],
+  "patches": [
+    {
+      "version": "1.21.1",
+      "description": "Améliorations mineures de l'interface"
+    },
+    {
+      "version": "1.21.2",
+      "description": "Changement de pellicule plus rapide, correction du bug de distance de mise au point"
+    },
+    {
+      "version": "1.21.3",
+      "description": "Affichage d'un en-tête contextuel lors du déplacement de pellicules ou de dossiers, améliorations de performance"
+    }
+  ]
 }

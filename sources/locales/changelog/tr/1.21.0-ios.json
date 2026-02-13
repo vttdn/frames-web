@@ -45,8 +45,27 @@
     "Odak uzaklığı değerlerini girerken daha kolay seçim",
     "Pozlama telafisi seçici artık Ayarlanmamış yerine 0 EV gösteriyor",
     "Kare listesi ve ayarlarda tutarlı parametre sırası",
-    "Çeşitli arayüz iyileştirmeleri"
+    "Çeşitli arayüz iyileştirmeleri",
+    "Kaydedici açıkken ve otomatik olarak güncellenirken son kullanılanlar listesinden film değiştirin"
   ],
-  "fixes": [],
-  "patches": []
+  "fixes": [
+    {
+      "title": "Odak mesafesi",
+      "description": "Fit cinsinden kaydedilen odak mesafelerinin dönüştürülmek yerine metre olarak kaydedildiği bir hata düzeltildi."
+    }
+  ],
+  "patches": [
+    {
+      "version": "1.21.1",
+      "description": "Küçük arayüz iyileştirmeleri"
+    },
+    {
+      "version": "1.21.2",
+      "description": "Daha hızlı film değiştirme, odak mesafesi hatası düzeltildi"
+    },
+    {
+      "version": "1.21.3",
+      "description": "Film veya klasör taşırken bağlam içeren başlık gösterimi, performans iyileştirmeleri"
+    }
+  ]
 }

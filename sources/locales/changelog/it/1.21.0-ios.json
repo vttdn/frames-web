@@ -45,8 +45,27 @@
     "Selezione più facile nell'inserimento dei valori di lunghezza focale",
     "Il selettore della compensazione dell'esposizione ora mostra 0 EV invece di Non impostato",
     "Ordine dei parametri coerente nell'elenco dei fotogrammi e nelle impostazioni",
-    "Vari miglioramenti dell'interfaccia"
+    "Vari miglioramenti dell'interfaccia",
+    "Cambia pellicola dalla lista delle recenti mentre il registratore resta aperto e si aggiorna automaticamente"
   ],
-  "fixes": [],
-  "patches": []
+  "fixes": [
+    {
+      "title": "Distanza di messa a fuoco",
+      "description": "Corretto un bug per cui le distanze di messa a fuoco registrate in piedi venivano salvate come metri anziché essere convertite."
+    }
+  ],
+  "patches": [
+    {
+      "version": "1.21.1",
+      "description": "Piccoli miglioramenti dell'interfaccia"
+    },
+    {
+      "version": "1.21.2",
+      "description": "Cambio pellicola più rapido, corretto il bug della distanza di messa a fuoco"
+    },
+    {
+      "version": "1.21.3",
+      "description": "Intestazione con contesto durante lo spostamento di pellicole o cartelle, miglioramenti delle prestazioni"
+    }
+  ]
 }

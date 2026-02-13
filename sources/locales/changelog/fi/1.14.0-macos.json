@@ -1,0 +1,41 @@
+{
+  "version": "1.14.0",
+  "version_short": "1.14",
+  "url_slug": "1-14-macos",
+  "platform": "macos",
+  "release_date": "2026-02-13T10:00:00.000Z",
+  "title": "JPEG XL -tuki ja metatietojen vienti",
+  "meta_title": "JPEG XL -tuki ja metatietojen vienti - Frames",
+  "meta_description": "Frames Macille tukee nyt JPEG XL -muotoa ja metatietojen vientiä. Päivitys sisältää myös pieniä käyttöliittymäparannuksia.",
+  "summary": "Tämä päivitys lisää JPEG XL -tuen Mac-sovellukseen. Voit nyt upottaa kuvaustiedot suoraan .jxl-tiedostoihin skannauksia viedessäsi JPEG-, TIFF- ja DNG-muotojen lisäksi. Päivitys sisältää myös pieniä käyttöliittymäparannuksia.",
+  "sections": [
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-mac-1.14.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-mac-1.14.0-1@2x.png",
+      "alt": "Frames macOS -sovellus viemässä metatietoja JPEG XL -muotoon",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "JPEG XL ja metatiedot"
+    },
+    {
+      "type": "paragraph",
+      "content": "Frames Macille tukee nyt JPEG XL -muotoa. Skannauksia viedessäsi voit upottaa iPhone-sovelluksella tallennetut tiedot suoraan .jxl-tiedostoihin, aivan kuten JPEG-, TIFF- ja DNG-muotojen kanssa. Kuvasi pysyvät täysin dokumentoituina kaikissa moderneissa tiedostomuodoissa, ja analogisen valokuvauksen työnkulkusi säilyy yhtenäisenä."
+    },
+    {
+      "type": "paragraph",
+      "content": "Upotettaviin metatietoihin kuuluvat kuvanumero, päivämäärä ja kellonaika, GPS-koordinaatit, aukko, suljinaika, valotusohjelma, valotustila, valotuksen korjaus, salama, mittaustapa, polttoväli, tarkennusetäisyys, kohteen etäisyysalue, objektiivin merkki ja malli, objektiivin sarjanumero, objektiivin tekniset tiedot, kameran merkki ja malli, kameran sarjanumero, ISO-herkkyys, herkkyystyyppi sekä lisämerkinnät kuten filmityyppi, suodattimet ja henkilökohtaiset huomautukset."
+    }
+  ],
+  "improvements": [
+    "JPEG XL (.jxl) -tuki upotettuine metatietoineen viennissä",
+    "Kuvaustiedot kirjoitetaan nyt yhdenmukaisesti JPEG-, TIFF-, DNG- ja JXL-muotoihin",
+    "Pieniä käyttöliittymäparannuksia"
+  ],
+  "fixes": [],
+  "patches": []
+}

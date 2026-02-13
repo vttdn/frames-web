@@ -1,0 +1,41 @@
+{
+  "version": "1.14.0",
+  "version_short": "1.14",
+  "url_slug": "1-14-macos",
+  "platform": "macos",
+  "release_date": "2026-02-13T10:00:00.000Z",
+  "title": "Compatibilidad con JPEG XL y exportación de metadatos",
+  "meta_title": "Compatibilidad con JPEG XL y exportación de metadatos - Frames",
+  "meta_description": "Frames para Mac ahora es compatible con JPEG XL e incluye exportación completa de metadatos. También incorpora mejoras menores en la interfaz.",
+  "summary": "Esta actualización añade compatibilidad con JPEG XL en la app para Mac. Ahora puedes incrustar los datos de tus tomas directamente en archivos .jxl al exportar tus escaneos, además de en JPEG, TIFF y DNG. La versión también incluye mejoras menores en la interfaz.",
+  "sections": [
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-mac-1.14.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-mac-1.14.0-1@2x.png",
+      "alt": "App Frames macOS exportando metadatos a JPEG XL",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "JPEG XL y metadatos"
+    },
+    {
+      "type": "paragraph",
+      "content": "Frames para Mac ahora es compatible con JPEG XL. Al exportar tus escaneos, puedes incrustar los datos capturados con la app de iPhone directamente en archivos .jxl, del mismo modo que con JPEG, TIFF y DNG. Así, tus imágenes permanecen completamente documentadas en los formatos de archivo modernos, manteniendo la coherencia de tu flujo de trabajo en fotografía analógica."
+    },
+    {
+      "type": "paragraph",
+      "content": "Los metadatos incrustados incluyen número de imagen, fecha y hora, coordenadas GPS, apertura, velocidad de obturación, programa de exposición, modo de exposición, compensación de exposición, flash, modo de medición, distancia focal, distancia de enfoque, rango de distancia al sujeto, marca y modelo del objetivo, número de serie del objetivo, especificaciones del objetivo, marca y modelo de la cámara, número de serie de la cámara, sensibilidad ISO, tipo de sensibilidad, y notas adicionales como película utilizada, filtros y observaciones personales."
+    }
+  ],
+  "improvements": [
+    "Compatibilidad con JPEG XL (.jxl) con metadatos incrustados en la exportación",
+    "Los datos de captura ahora se escriben de forma uniforme en los formatos JPEG, TIFF, DNG y JXL",
+    "Mejoras menores en la interfaz"
+  ],
+  "fixes": [],
+  "patches": []
+}

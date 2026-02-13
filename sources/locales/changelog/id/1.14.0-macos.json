@@ -1,0 +1,41 @@
+{
+  "version": "1.14.0",
+  "version_short": "1.14",
+  "url_slug": "1-14-macos",
+  "platform": "macos",
+  "release_date": "2026-02-13T10:00:00.000Z",
+  "title": "Dukungan JPEG XL dan ekspor metadata",
+  "meta_title": "Dukungan JPEG XL dan ekspor metadata - Frames",
+  "meta_description": "Frames untuk Mac kini mendukung JPEG XL dengan ekspor metadata lengkap. Pembaruan ini juga menyertakan perbaikan kecil pada antarmuka.",
+  "summary": "Pembaruan ini menambahkan dukungan JPEG XL di aplikasi Mac. Kini Anda dapat menyematkan data pemotretan langsung ke file .jxl saat mengekspor pindaian, selain format JPEG, TIFF, dan DNG. Rilis ini juga menyertakan perbaikan kecil pada antarmuka.",
+  "sections": [
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-mac-1.14.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-mac-1.14.0-1@2x.png",
+      "alt": "Aplikasi Frames macOS mengekspor metadata ke format JPEG XL",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "JPEG XL dan metadata"
+    },
+    {
+      "type": "paragraph",
+      "content": "Frames untuk Mac kini mendukung JPEG XL. Saat mengekspor pindaian, Anda dapat menyematkan data yang direkam melalui aplikasi iPhone langsung ke file .jxl, sama seperti pada format JPEG, TIFF, dan DNG. Gambar Anda tetap terdokumentasi secara lengkap di semua format file modern, menjaga konsistensi alur kerja fotografi analog Anda."
+    },
+    {
+      "type": "paragraph",
+      "content": "Metadata yang disematkan mencakup nomor gambar, tanggal dan waktu, koordinat GPS, apertur, kecepatan rana, program eksposur, mode eksposur, kompensasi eksposur, flash, mode pengukuran, panjang fokus, jarak fokus, rentang jarak subjek, merek dan model lensa, nomor seri lensa, spesifikasi lensa, merek dan model kamera, nomor seri kamera, sensitivitas ISO, tipe sensitivitas, serta catatan tambahan seperti jenis film, filter, dan catatan pribadi."
+    }
+  ],
+  "improvements": [
+    "Dukungan JPEG XL (.jxl) dengan metadata yang disematkan saat ekspor",
+    "Data pemotretan kini ditulis secara konsisten ke format JPEG, TIFF, DNG, dan JXL",
+    "Perbaikan kecil pada antarmuka"
+  ],
+  "fixes": [],
+  "patches": []
+}

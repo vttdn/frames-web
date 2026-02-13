@@ -45,8 +45,27 @@
     "Pemilihan lebih mudah saat memasukkan nilai panjang fokus",
     "Pemilih kompensasi eksposur sekarang menampilkan 0 EV alih-alih Tidak Diatur",
     "Urutan parameter konsisten di daftar frame dan pengaturan",
-    "Berbagai perbaikan antarmuka"
+    "Berbagai perbaikan antarmuka",
+    "Ganti film dari daftar terbaru sementara perekam tetap terbuka dan diperbarui secara otomatis"
   ],
-  "fixes": [],
-  "patches": []
+  "fixes": [
+    {
+      "title": "Jarak fokus",
+      "description": "Memperbaiki bug di mana jarak fokus yang direkam dalam kaki disimpan sebagai meter alih-alih dikonversi."
+    }
+  ],
+  "patches": [
+    {
+      "version": "1.21.1",
+      "description": "Perbaikan antarmuka kecil"
+    },
+    {
+      "version": "1.21.2",
+      "description": "Pergantian film lebih cepat, bug jarak fokus diperbaiki"
+    },
+    {
+      "version": "1.21.3",
+      "description": "Menampilkan header dengan konteks saat memindahkan film atau folder, peningkatan performa"
+    }
+  ]
 }

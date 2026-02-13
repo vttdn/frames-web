@@ -45,8 +45,27 @@
     "Seleção mais fácil ao introduzir valores de distância focal",
     "O seletor de compensação de exposição agora mostra 0 EV em vez de Não ajustado",
     "Ordem de parâmetros consistente na lista de fotogramas e nas definições",
-    "Várias melhorias de interface"
+    "Várias melhorias de interface",
+    "Troque de película a partir da lista de recentes enquanto o gravador permanece aberto e atualiza automaticamente"
   ],
-  "fixes": [],
-  "patches": []
+  "fixes": [
+    {
+      "title": "Distância de focagem",
+      "description": "Corrigido um bug em que distâncias de focagem registadas em pés eram gravadas como metros em vez de convertidas."
+    }
+  ],
+  "patches": [
+    {
+      "version": "1.21.1",
+      "description": "Pequenas melhorias de interface"
+    },
+    {
+      "version": "1.21.2",
+      "description": "Troca de película mais rápida, bug da distância de focagem corrigido"
+    },
+    {
+      "version": "1.21.3",
+      "description": "Cabeçalho com contexto ao mover películas ou pastas, melhorias de desempenho"
+    }
+  ]
 }

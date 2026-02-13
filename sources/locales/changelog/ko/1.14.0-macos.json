@@ -1,0 +1,41 @@
+{
+  "version": "1.14.0",
+  "version_short": "1.14",
+  "url_slug": "1-14-macos",
+  "platform": "macos",
+  "release_date": "2026-02-13T10:00:00.000Z",
+  "title": "JPEG XL 지원 및 메타데이터 내보내기",
+  "meta_title": "JPEG XL 지원 및 메타데이터 내보내기 - Frames",
+  "meta_description": "Mac용 Frames가 전체 메타데이터 내보내기와 함께 JPEG XL을 지원합니다. 이번 업데이트에는 사소한 UI 개선 사항도 포함되어 있습니다",
+  "summary": "이번 업데이트는 Mac 앱에 JPEG XL 지원을 추가합니다. 스캔을 내보낼 때 JPEG, TIFF, DNG뿐만 아니라 .jxl 파일에도 촬영 데이터를 직접 임베드할 수 있게 되었습니다. 이번 릴리스에는 사소한 UI 개선 사항도 포함되어 있습니다.",
+  "sections": [
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-mac-1.14.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-mac-1.14.0-1@2x.png",
+      "alt": "Frames macOS 앱에서 JPEG XL로 메타데이터를 내보내는 화면",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "JPEG XL 및 메타데이터"
+    },
+    {
+      "type": "paragraph",
+      "content": "Mac용 Frames가 이제 JPEG XL을 지원합니다. 스캔을 내보낼 때 iPhone 앱으로 기록한 데이터를 JPEG, TIFF, DNG와 마찬가지로 .jxl 파일에 직접 임베드할 수 있습니다. 모든 최신 파일 형식에서 이미지를 완벽하게 기록하며, 필름 사진 워크플로의 일관성을 유지할 수 있습니다."
+    },
+    {
+      "type": "paragraph",
+      "content": "임베드되는 메타데이터에는 이미지 번호, 날짜 및 시간, GPS 좌표, 조리개, 셔터 속도, 노출 프로그램, 노출 모드, 노출 보정, 플래시, 측광 모드, 초점 거리, 초점 거리(피사체까지), 피사체 거리 범위, 렌즈 제조사 및 모델, 렌즈 일련번호, 렌즈 사양, 카메라 제조사 및 모델, 카메라 일련번호, ISO 감도, 감도 유형, 그리고 필름 종류, 필터, 개인 메모 등의 추가 정보가 포함됩니다."
+    }
+  ],
+  "improvements": [
+    "내보내기 시 메타데이터가 임베드된 JPEG XL(.jxl) 지원",
+    "촬영 데이터가 JPEG, TIFF, DNG, JXL 형식에 일관되게 기록됨",
+    "사소한 UI 개선"
+  ],
+  "fixes": [],
+  "patches": []
+}

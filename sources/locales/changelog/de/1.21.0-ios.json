@@ -45,8 +45,27 @@
     "Einfachere Auswahl bei der Eingabe von Brennweitenwerten",
     "Belichtungskorrekturauswahl zeigt jetzt 0 EV statt Nicht festgelegt",
     "Einheitliche Parameterreihenfolge in der Einzelbildliste und den Einstellungen",
-    "Diverse Verbesserungen der Benutzeroberfläche"
+    "Diverse Verbesserungen der Benutzeroberfläche",
+    "Filmrollen aus der Liste der zuletzt verwendeten wechseln, während der Rekorder geöffnet bleibt und sich automatisch aktualisiert"
   ],
-  "fixes": [],
-  "patches": []
+  "fixes": [
+    {
+      "title": "Fokusentfernung",
+      "description": "Fehler behoben, bei dem in Fuß aufgezeichnete Fokusentfernungen als Meter gespeichert wurden, anstatt umgerechnet zu werden."
+    }
+  ],
+  "patches": [
+    {
+      "version": "1.21.1",
+      "description": "Kleinere Verbesserungen der Benutzeroberfläche"
+    },
+    {
+      "version": "1.21.2",
+      "description": "Schnellerer Filmrollenwechsel, Fehler bei der Fokusentfernung behoben"
+    },
+    {
+      "version": "1.21.3",
+      "description": "Kontextbezogene Überschrift beim Verschieben von Filmrollen oder Ordnern, Leistungsverbesserungen"
+    }
+  ]
 }

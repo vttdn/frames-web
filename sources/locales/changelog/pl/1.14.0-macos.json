@@ -1,0 +1,41 @@
+{
+  "version": "1.14.0",
+  "version_short": "1.14",
+  "url_slug": "1-14-macos",
+  "platform": "macos",
+  "release_date": "2026-02-13T10:00:00.000Z",
+  "title": "Obsługa JPEG XL i eksport metadanych",
+  "meta_title": "Obsługa JPEG XL i eksport metadanych - Frames",
+  "meta_description": "Frames na Maca obsługuje teraz JPEG XL z pełnym eksportem metadanych. Aktualizacja zawiera również drobne ulepszenia interfejsu.",
+  "summary": "Ta aktualizacja dodaje obsługę formatu JPEG XL w aplikacji na Maca. Teraz możesz osadzać dane zdjęciowe bezpośrednio w plikach .jxl podczas eksportowania skanów, obok formatów JPEG, TIFF i DNG. Wersja zawiera również drobne ulepszenia interfejsu.",
+  "sections": [
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-mac-1.14.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-mac-1.14.0-1@2x.png",
+      "alt": "Aplikacja Frames macOS eksportująca metadane do formatu JPEG XL",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "JPEG XL i metadane"
+    },
+    {
+      "type": "paragraph",
+      "content": "Frames na Maca obsługuje teraz JPEG XL. Podczas eksportowania skanów możesz osadzać dane zarejestrowane w aplikacji na iPhonie bezpośrednio w plikach .jxl, tak samo jak w formatach JPEG, TIFF i DNG. Twoje zdjęcia pozostają w pełni udokumentowane we wszystkich nowoczesnych formatach plików, a Twój przepływ pracy w fotografii analogowej pozostaje spójny."
+    },
+    {
+      "type": "paragraph",
+      "content": "Osadzone metadane obejmują numer zdjęcia, datę i godzinę, współrzędne GPS, przysłonę, czas naświetlania, program ekspozycji, tryb ekspozycji, kompensację ekspozycji, lampę błyskową, tryb pomiaru, ogniskową, odległość ostrzenia, zakres odległości obiektu, markę i model obiektywu, numer seryjny obiektywu, specyfikację obiektywu, markę i model aparatu, numer seryjny aparatu, czułość ISO, typ czułości oraz dodatkowe notatki, takie jak rodzaj filmu, filtry i uwagi osobiste."
+    }
+  ],
+  "improvements": [
+    "Obsługa JPEG XL (.jxl) z osadzonymi metadanymi przy eksporcie",
+    "Dane zdjęciowe są teraz zapisywane spójnie w formatach JPEG, TIFF, DNG i JXL",
+    "Drobne ulepszenia interfejsu"
+  ],
+  "fixes": [],
+  "patches": []
+}

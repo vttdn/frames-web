@@ -45,8 +45,27 @@
     "Helpompi valinta polttovälin arvoja syötettäessä",
     "Valotuksen korjauksen valitsin näyttää nyt 0 EV Ei asetettu -tekstin sijaan",
     "Yhtenäinen parametrien järjestys kehysluettelossa ja asetuksissa",
-    "Useita käyttöliittymäparannuksia"
+    "Useita käyttöliittymäparannuksia",
+    "Vaihda filmirullaa viimeisimpien listasta tallentimen pysyessä auki ja päivittyessä automaattisesti"
   ],
-  "fixes": [],
-  "patches": []
+  "fixes": [
+    {
+      "title": "Tarkennusetäisyys",
+      "description": "Korjattu virhe, jossa jaloissa tallennetut tarkennusetäisyydet tallennettiin metreinä muuntamisen sijaan."
+    }
+  ],
+  "patches": [
+    {
+      "version": "1.21.1",
+      "description": "Pieniä käyttöliittymäparannuksia"
+    },
+    {
+      "version": "1.21.2",
+      "description": "Nopeampi filmirullan vaihto, tarkennusetäisyyden virhe korjattu"
+    },
+    {
+      "version": "1.21.3",
+      "description": "Kontekstiotsikko filmirulloja tai kansioita siirrettäessä, suorituskykyparannuksia"
+    }
+  ]
 }

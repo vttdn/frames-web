@@ -45,8 +45,27 @@
     "Łatwiejszy wybór przy wprowadzaniu wartości ogniskowej",
     "Selektor kompensacji ekspozycji pokazuje teraz 0 EV zamiast Nie ustawiono",
     "Spójna kolejność parametrów na liście klatek i w ustawieniach",
-    "Różne ulepszenia interfejsu"
+    "Różne ulepszenia interfejsu",
+    "Zmień film z listy ostatnich, gdy rejestrator pozostaje otwarty i aktualizuje się automatycznie"
   ],
-  "fixes": [],
-  "patches": []
+  "fixes": [
+    {
+      "title": "Odległość ostrzenia",
+      "description": "Naprawiono błąd, w którym odległości ostrzenia zapisane w stopach były zachowywane jako metry zamiast być przeliczane."
+    }
+  ],
+  "patches": [
+    {
+      "version": "1.21.1",
+      "description": "Drobne ulepszenia interfejsu"
+    },
+    {
+      "version": "1.21.2",
+      "description": "Szybsza zmiana filmu, naprawiono błąd odległości ostrzenia"
+    },
+    {
+      "version": "1.21.3",
+      "description": "Nagłówek z kontekstem przy przenoszeniu filmów lub folderów, ulepszenia wydajności"
+    }
+  ]
 }

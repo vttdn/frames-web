@@ -45,8 +45,27 @@
     "Easier selection when entering focal length values",
     "Exposure compensation picker now shows 0 EV instead of Not Set",
     "Consistent parameter order across the frame list and settings",
-    "Various interface improvements"
+    "Various interface improvements",
+    "Switch films from the recent list while the recorder stays open and updates automatically"
   ],
-  "fixes": [],
-  "patches": []
+  "fixes": [
+    {
+      "title": "Focus Distance",
+      "description": "Fix a bug where focus distances recorded in feet were saved as meters instead of converted."
+    }
+  ],
+  "patches": [
+    {
+      "version": "1.21.1",
+      "description": "Minor UI Improvements"
+    },
+    {
+      "version": "1.21.2",
+      "description": "Switch films faster, fixed focus distance bug"
+    },
+    {
+      "version": "1.21.3",
+      "description": "Show a header with context when moving films or folders, performance improvements"
+    }
+  ]
 }

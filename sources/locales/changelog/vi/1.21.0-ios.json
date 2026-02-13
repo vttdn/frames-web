@@ -45,8 +45,27 @@
     "Chọn dễ dàng hơn khi nhập giá trị tiêu cự",
     "Bộ chọn bù phơi sáng hiển thị 0 EV thay vì Chưa Đặt",
     "Thứ tự thông số nhất quán trong danh sách khung hình và cài đặt",
-    "Các cải tiến giao diện khác"
+    "Các cải tiến giao diện khác",
+    "Chuyển cuộn phim từ danh sách gần đây trong khi trình ghi vẫn mở và cập nhật tự động"
   ],
-  "fixes": [],
-  "patches": []
+  "fixes": [
+    {
+      "title": "Khoảng cách lấy nét",
+      "description": "Sửa lỗi khoảng cách lấy nét ghi bằng feet bị lưu thành mét thay vì được chuyển đổi."
+    }
+  ],
+  "patches": [
+    {
+      "version": "1.21.1",
+      "description": "Cải tiến giao diện nhỏ"
+    },
+    {
+      "version": "1.21.2",
+      "description": "Chuyển cuộn phim nhanh hơn, sửa lỗi khoảng cách lấy nét"
+    },
+    {
+      "version": "1.21.3",
+      "description": "Hiển thị tiêu đề kèm ngữ cảnh khi di chuyển cuộn phim hoặc thư mục, cải thiện hiệu năng"
+    }
+  ]
 }

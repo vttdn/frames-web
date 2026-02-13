@@ -45,8 +45,27 @@
     "Selección más fácil al introducir valores de distancia focal",
     "El selector de compensación de exposición ahora muestra 0 EV en lugar de No establecido",
     "Orden de parámetros consistente en la lista de fotogramas y los ajustes",
-    "Varias mejoras de interfaz"
+    "Varias mejoras de interfaz",
+    "Cambia de película desde la lista de recientes mientras el registrador permanece abierto y se actualiza automáticamente"
   ],
-  "fixes": [],
-  "patches": []
+  "fixes": [
+    {
+      "title": "Distancia de enfoque",
+      "description": "Corrección de un error por el que las distancias de enfoque registradas en pies se guardaban como metros en lugar de convertirse."
+    }
+  ],
+  "patches": [
+    {
+      "version": "1.21.1",
+      "description": "Mejoras menores de interfaz"
+    },
+    {
+      "version": "1.21.2",
+      "description": "Cambio de película más rápido, corrección del error de distancia de enfoque"
+    },
+    {
+      "version": "1.21.3",
+      "description": "Encabezado con contexto al mover películas o carpetas, mejoras de rendimiento"
+    }
+  ]
 }

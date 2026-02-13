@@ -1,0 +1,41 @@
+{
+  "version": "1.14.0",
+  "version_short": "1.14",
+  "url_slug": "1-14-macos",
+  "platform": "macos",
+  "release_date": "2026-02-13T10:00:00.000Z",
+  "title": "JPEG-XL-Unterstützung und Metadaten-Export",
+  "meta_title": "JPEG-XL-Unterstützung und Metadaten-Export - Frames",
+  "meta_description": "Frames für Mac unterstützt jetzt JPEG XL mit vollständigem Metadaten-Export. Dieses Update enthält außerdem kleinere Verbesserungen der Benutzeroberfläche.",
+  "summary": "Dieses Update bringt JPEG-XL-Unterstützung für die Mac-App. Beim Exportieren Ihrer Scans können Sie Ihre Aufnahmedaten jetzt auch in .jxl-Dateien einbetten – neben JPEG, TIFF und DNG. Darüber hinaus enthält diese Version kleinere Verbesserungen der Benutzeroberfläche.",
+  "sections": [
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-mac-1.14.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-mac-1.14.0-1@2x.png",
+      "alt": "Frames macOS-App beim Export von Metadaten nach JPEG XL",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "JPEG XL und Metadaten"
+    },
+    {
+      "type": "paragraph",
+      "content": "Frames für Mac unterstützt jetzt JPEG XL. Beim Exportieren Ihrer Scans können Sie die mit der iPhone-App erfassten Daten direkt in .jxl-Dateien einbetten – genau wie bei JPEG, TIFF und DNG. So bleiben Ihre Bilder in allen modernen Dateiformaten vollständig dokumentiert und Ihr analoger Foto-Workflow konsistent."
+    },
+    {
+      "type": "paragraph",
+      "content": "Zu den eingebetteten Metadaten gehören Bildnummer, Datum und Uhrzeit, GPS-Koordinaten, Blende, Belichtungszeit, Belichtungsprogramm, Belichtungsmodus, Belichtungskorrektur, Blitz, Messmethode, Brennweite, Fokusentfernung, Motiventfernungsbereich, Objektivhersteller und -modell, Objektiv-Seriennummer, Objektivspezifikation, Kamerahersteller und -modell, Kamera-Seriennummer, ISO-Empfindlichkeit, Empfindlichkeitstyp sowie zusätzliche Notizen wie verwendeter Film, Filter und persönliche Anmerkungen."
+    }
+  ],
+  "improvements": [
+    "Unterstützung für JPEG XL (.jxl) mit eingebetteten Metadaten beim Export",
+    "Aufnahmedaten werden jetzt einheitlich in die Formate JPEG, TIFF, DNG und JXL geschrieben",
+    "Kleinere Verbesserungen der Benutzeroberfläche"
+  ],
+  "fixes": [],
+  "patches": []
+}

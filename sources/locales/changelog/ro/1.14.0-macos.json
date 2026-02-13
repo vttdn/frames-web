@@ -1,0 +1,41 @@
+{
+  "version": "1.14.0",
+  "version_short": "1.14",
+  "url_slug": "1-14-macos",
+  "platform": "macos",
+  "release_date": "2026-02-13T10:00:00.000Z",
+  "title": "Suport JPEG XL și export de metadate",
+  "meta_title": "Suport JPEG XL și export de metadate - Frames",
+  "meta_description": "Frames pentru Mac acceptă acum JPEG XL cu export complet de metadate. Actualizarea include și îmbunătățiri minore ale interfeței.",
+  "summary": "Această actualizare adaugă suport pentru JPEG XL în aplicația pentru Mac. Acum poți încorpora datele de captură direct în fișierele .jxl la exportul scanărilor, pe lângă formatele JPEG, TIFF și DNG. Versiunea include și îmbunătățiri minore ale interfeței.",
+  "sections": [
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-mac-1.14.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-mac-1.14.0-1@2x.png",
+      "alt": "Aplicația Frames macOS exportând metadate în format JPEG XL",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "JPEG XL și metadate"
+    },
+    {
+      "type": "paragraph",
+      "content": "Frames pentru Mac acceptă acum JPEG XL. La exportul scanărilor, poți încorpora datele capturate prin aplicația iPhone direct în fișierele .jxl, la fel ca în formatele JPEG, TIFF și DNG. Imaginile tale rămân complet documentate în toate formatele moderne de fișiere, păstrând consistența fluxului tău de lucru în fotografia pe film."
+    },
+    {
+      "type": "paragraph",
+      "content": "Metadatele încorporate includ numărul imaginii, data și ora, coordonatele GPS, diafragma, viteza obturatorului, programul de expunere, modul de expunere, compensarea expunerii, blițul, modul de măsurare, distanța focală, distanța de focalizare, intervalul de distanță al subiectului, marca și modelul obiectivului, numărul de serie al obiectivului, specificațiile obiectivului, marca și modelul aparatului foto, numărul de serie al aparatului, sensibilitatea ISO, tipul de sensibilitate și note suplimentare precum filmul utilizat, filtrele și observațiile personale."
+    }
+  ],
+  "improvements": [
+    "Suport pentru JPEG XL (.jxl) cu metadate încorporate la export",
+    "Datele de captură sunt acum scrise uniform în formatele JPEG, TIFF, DNG și JXL",
+    "Îmbunătățiri minore ale interfeței"
+  ],
+  "fixes": [],
+  "patches": []
+}

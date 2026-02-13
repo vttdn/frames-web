@@ -45,8 +45,27 @@
     "Eenvoudigere selectie bij het invoeren van brandpuntafstandwaarden",
     "Belichtingscompensatiekiezer toont nu 0 EV in plaats van Niet ingesteld",
     "Consistente parametervolgorde in de filmframelijst en instellingen",
-    "Diverse interfaceverbeteringen"
+    "Diverse interfaceverbeteringen",
+    "Wissel van filmrol via de lijst met recente terwijl de recorder open blijft en automatisch wordt bijgewerkt"
   ],
-  "fixes": [],
-  "patches": []
+  "fixes": [
+    {
+      "title": "Scherpstelafstand",
+      "description": "Fout opgelost waarbij scherpstelafstanden in voet werden opgeslagen als meters in plaats van te worden omgerekend."
+    }
+  ],
+  "patches": [
+    {
+      "version": "1.21.1",
+      "description": "Kleine interfaceverbeteringen"
+    },
+    {
+      "version": "1.21.2",
+      "description": "Sneller wisselen van filmrol, fout met scherpstelafstand opgelost"
+    },
+    {
+      "version": "1.21.3",
+      "description": "Koptekst met context bij het verplaatsen van filmrollen of mappen, prestatieverbeteringen"
+    }
+  ]
 }

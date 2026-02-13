@@ -1,0 +1,41 @@
+{
+  "version": "1.14.0",
+  "version_short": "1.14",
+  "url_slug": "1-14-macos",
+  "platform": "macos",
+  "release_date": "2026-02-13T10:00:00.000Z",
+  "title": "Prise en charge du JPEG XL et export des métadonnées",
+  "meta_title": "Prise en charge du JPEG XL et export des métadonnées - Frames",
+  "meta_description": "Frames pour Mac prend désormais en charge le JPEG XL avec export complet des métadonnées. Des améliorations mineures de l'interface sont également incluses.",
+  "summary": "Cette mise à jour ajoute la prise en charge du JPEG XL dans l'app Mac. Vous pouvez désormais intégrer vos données de prise de vue directement dans les fichiers .jxl lors de l'exportation de vos scans, en plus des formats JPEG, TIFF et DNG. Cette version comprend également des améliorations mineures de l'interface.",
+  "sections": [
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-mac-1.14.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-mac-1.14.0-1@2x.png",
+      "alt": "App Frames macOS exportant les métadonnées au format JPEG XL",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "JPEG XL et métadonnées"
+    },
+    {
+      "type": "paragraph",
+      "content": "Frames pour Mac prend désormais en charge le JPEG XL. Lors de l'exportation de vos scans, vous pouvez intégrer les données capturées via l'app iPhone directement dans les fichiers .jxl, tout comme avec les formats JPEG, TIFF et DNG. Vos images restent ainsi entièrement documentées quel que soit le format de fichier, tout en préservant la cohérence de votre flux de travail en photographie argentique."
+    },
+    {
+      "type": "paragraph",
+      "content": "Les métadonnées intégrées comprennent le numéro d'image, la date et l'heure, les coordonnées GPS, l'ouverture, la vitesse d'obturation, le programme d'exposition, le mode d'exposition, la correction d'exposition, le flash, le mode de mesure, la focale, la distance de mise au point, la plage de distance du sujet, la marque et le modèle de l'objectif, le numéro de série de l'objectif, les spécifications de l'objectif, la marque et le modèle du boîtier, le numéro de série du boîtier, la sensibilité ISO, le type de sensibilité, ainsi que des notes supplémentaires telles que le film utilisé, les filtres et les remarques personnelles."
+    }
+  ],
+  "improvements": [
+    "Prise en charge du JPEG XL (.jxl) avec métadonnées intégrées à l'exportation",
+    "Les données de prise de vue sont désormais inscrites de manière uniforme dans les formats JPEG, TIFF, DNG et JXL",
+    "Améliorations mineures de l'interface"
+  ],
+  "fixes": [],
+  "patches": []
+}

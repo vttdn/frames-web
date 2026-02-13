@@ -1,0 +1,23 @@
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "홈",
+      "item": "https://withframes.com/ko/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "변경 내역",
+      "item": "https://withframes.com/ko/changelog/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "JPEG XL 지원 및 메타데이터 내보내기",
+      "item": "https://withframes.com/ko/changelog/1-14-macos/"
+    }  ]
+}

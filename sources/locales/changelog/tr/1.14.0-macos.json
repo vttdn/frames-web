@@ -1,0 +1,41 @@
+{
+  "version": "1.14.0",
+  "version_short": "1.14",
+  "url_slug": "1-14-macos",
+  "platform": "macos",
+  "release_date": "2026-02-13T10:00:00.000Z",
+  "title": "JPEG XL desteği ve meta veri dışa aktarımı",
+  "meta_title": "JPEG XL desteği ve meta veri dışa aktarımı - Frames",
+  "meta_description": "Mac için Frames artık tam meta veri dışa aktarımıyla JPEG XL destekliyor. Bu güncelleme ayrıca küçük arayüz iyileştirmeleri içerir.",
+  "summary": "Bu güncelleme, Mac uygulamasına JPEG XL desteği ekler. Taramalarınızı dışa aktarırken çekim verilerinizi artık JPEG, TIFF ve DNG'nin yanı sıra doğrudan .jxl dosyalarına gömebilirsiniz. Sürüm ayrıca küçük arayüz iyileştirmeleri içerir.",
+  "sections": [
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-mac-1.14.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-mac-1.14.0-1@2x.png",
+      "alt": "Frames macOS uygulaması JPEG XL formatına meta veri dışa aktarırken",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "JPEG XL ve meta veriler"
+    },
+    {
+      "type": "paragraph",
+      "content": "Mac için Frames artık JPEG XL destekliyor. Taramalarınızı dışa aktarırken, iPhone uygulamasıyla kaydettiğiniz verileri doğrudan .jxl dosyalarına gömebilirsiniz; tıpkı JPEG, TIFF ve DNG'de olduğu gibi. Görüntüleriniz modern dosya formatlarında eksiksiz olarak belgelenir ve analog fotoğraf iş akışınız tutarlı kalır."
+    },
+    {
+      "type": "paragraph",
+      "content": "Gömülen meta veriler arasında kare numarası, tarih ve saat, GPS koordinatları, diyafram, enstantane hızı, pozlama programı, pozlama modu, pozlama telafisi, flaş, ölçüm modu, odak uzaklığı, netleme mesafesi, konu mesafe aralığı, objektif markası ve modeli, objektif seri numarası, objektif özellikleri, fotoğraf makinesi markası ve modeli, fotoğraf makinesi seri numarası, ISO hassasiyeti, hassasiyet türü ile film türü, filtreler ve kişisel notlar gibi ek açıklamalar yer alır."
+    }
+  ],
+  "improvements": [
+    "Dışa aktarımda gömülü meta verilerle JPEG XL (.jxl) desteği",
+    "Çekim verileri artık JPEG, TIFF, DNG ve JXL formatlarına tutarlı şekilde yazılıyor",
+    "Küçük arayüz iyileştirmeleri"
+  ],
+  "fixes": [],
+  "patches": []
+}

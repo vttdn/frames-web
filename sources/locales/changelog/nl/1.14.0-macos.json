@@ -1,0 +1,41 @@
+{
+  "version": "1.14.0",
+  "version_short": "1.14",
+  "url_slug": "1-14-macos",
+  "platform": "macos",
+  "release_date": "2026-02-13T10:00:00.000Z",
+  "title": "Ondersteuning voor JPEG XL en metadata-export",
+  "meta_title": "Ondersteuning voor JPEG XL en metadata-export - Frames",
+  "meta_description": "Frames voor Mac ondersteunt nu JPEG XL met volledige metadata-export. Deze update bevat ook kleine verbeteringen in de gebruikersinterface.",
+  "summary": "Deze update voegt ondersteuning voor JPEG XL toe aan de Mac-app. Je kunt je opnamegegevens nu rechtstreeks in .jxl-bestanden insluiten bij het exporteren van je scans, naast JPEG, TIFF en DNG. De update bevat ook kleine verbeteringen in de gebruikersinterface.",
+  "sections": [
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-mac-1.14.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-mac-1.14.0-1@2x.png",
+      "alt": "Frames macOS-app die metadata exporteert naar JPEG XL",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "JPEG XL en metadata"
+    },
+    {
+      "type": "paragraph",
+      "content": "Frames voor Mac ondersteunt nu JPEG XL. Bij het exporteren van je scans kun je de gegevens die je met de iPhone-app hebt vastgelegd, rechtstreeks in .jxl-bestanden insluiten, net als bij JPEG, TIFF en DNG. Zo blijven je afbeeldingen volledig gedocumenteerd in alle moderne bestandsformaten en blijft je analoge fotoworkflow consistent."
+    },
+    {
+      "type": "paragraph",
+      "content": "De ingesloten metadata omvatten beeldnummer, datum en tijd, GPS-coördinaten, diafragma, sluitertijd, belichtingsprogramma, belichtingsmodus, belichtingscompensatie, flitser, meetmethode, brandpuntsafstand, scherpstelafstand, afstandsbereik van het onderwerp, objectiefmerk en -model, serienummer van het objectief, objectiefspecificatie, cameramerk en -model, serienummer van de camera, ISO-gevoeligheid, gevoeligheidstype en aanvullende notities zoals filmtype, filters en persoonlijke opmerkingen."
+    }
+  ],
+  "improvements": [
+    "Ondersteuning voor JPEG XL (.jxl) met ingesloten metadata bij export",
+    "Opnamegegevens worden nu consistent weggeschreven in JPEG-, TIFF-, DNG- en JXL-formaten",
+    "Kleine verbeteringen in de gebruikersinterface"
+  ],
+  "fixes": [],
+  "patches": []
+}

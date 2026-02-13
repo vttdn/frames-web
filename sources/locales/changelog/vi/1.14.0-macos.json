@@ -1,0 +1,41 @@
+{
+  "version": "1.14.0",
+  "version_short": "1.14",
+  "url_slug": "1-14-macos",
+  "platform": "macos",
+  "release_date": "2026-02-13T10:00:00.000Z",
+  "title": "Hỗ trợ JPEG XL và xuất siêu dữ liệu",
+  "meta_title": "Hỗ trợ JPEG XL và xuất siêu dữ liệu - Frames",
+  "meta_description": "Frames cho Mac hỗ trợ JPEG XL với xuất siêu dữ liệu đầy đủ. Bản cập nhật này cũng bao gồm các cải tiến giao diện nhỏ.",
+  "summary": "Bản cập nhật này bổ sung hỗ trợ JPEG XL cho ứng dụng Mac. Giờ đây bạn có thể nhúng dữ liệu chụp trực tiếp vào tệp .jxl khi xuất ảnh quét, bên cạnh JPEG, TIFF và DNG. Phiên bản này cũng bao gồm các cải tiến giao diện nhỏ.",
+  "sections": [
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-mac-1.14.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-mac-1.14.0-1@2x.png",
+      "alt": "Ứng dụng Frames macOS đang xuất siêu dữ liệu sang JPEG XL",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "JPEG XL và siêu dữ liệu"
+    },
+    {
+      "type": "paragraph",
+      "content": "Frames cho Mac giờ đây hỗ trợ JPEG XL. Khi xuất ảnh quét, bạn có thể nhúng dữ liệu đã ghi qua ứng dụng iPhone trực tiếp vào tệp .jxl, giống như với JPEG, TIFF và DNG. Hình ảnh của bạn luôn được lưu trữ đầy đủ thông tin trên mọi định dạng tệp hiện đại, đảm bảo quy trình chụp ảnh phim nhất quán."
+    },
+    {
+      "type": "paragraph",
+      "content": "Siêu dữ liệu được nhúng bao gồm số ảnh, ngày giờ, tọa độ GPS, khẩu độ, tốc độ màn trập, chương trình phơi sáng, chế độ phơi sáng, bù phơi sáng, đèn flash, chế độ đo sáng, tiêu cự, khoảng cách lấy nét, phạm vi khoảng cách chủ thể, hãng và mẫu ống kính, số sê-ri ống kính, thông số ống kính, hãng và mẫu máy ảnh, số sê-ri máy ảnh, độ nhạy ISO, loại độ nhạy, cùng các ghi chú bổ sung như loại phim, bộ lọc và nhận xét cá nhân."
+    }
+  ],
+  "improvements": [
+    "Hỗ trợ JPEG XL (.jxl) với siêu dữ liệu nhúng khi xuất",
+    "Dữ liệu chụp được ghi nhất quán vào các định dạng JPEG, TIFF, DNG và JXL",
+    "Cải tiến giao diện nhỏ"
+  ],
+  "fixes": [],
+  "patches": []
+}

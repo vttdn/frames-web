@@ -1,0 +1,41 @@
+{
+  "version": "1.14.0",
+  "version_short": "1.14",
+  "url_slug": "1-14-macos",
+  "platform": "macos",
+  "release_date": "2026-02-13T10:00:00.000Z",
+  "title": "支持 JPEG XL 和元数据导出",
+  "meta_title": "支持 JPEG XL 和元数据导出 - Frames",
+  "meta_description": "Mac 版 Frames 现已支持 JPEG XL 并可完整导出元数据。此更新还包含少量界面改进",
+  "summary": "此更新为 Mac 应用添加了 JPEG XL 支持。导出扫描件时，您现在可以将拍摄数据直接嵌入 .jxl 文件，与 JPEG、TIFF 和 DNG 一样。此版本还包含少量界面改进。",
+  "sections": [
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-mac-1.14.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-mac-1.14.0-1@2x.png",
+      "alt": "Frames macOS 应用正在将元数据导出为 JPEG XL",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "JPEG XL 与元数据"
+    },
+    {
+      "type": "paragraph",
+      "content": "Mac 版 Frames 现已支持 JPEG XL。导出扫描件时，您可以将通过 iPhone 应用记录的数据直接嵌入 .jxl 文件，操作方式与 JPEG、TIFF 和 DNG 完全一致。您的影像在所有现代文件格式中都能保持完整的数据记录，确保胶片摄影工作流程的一致性。"
+    },
+    {
+      "type": "paragraph",
+      "content": "嵌入的元数据包括影像编号、日期和时间、GPS 坐标、光圈、快门速度、曝光程序、曝光模式、曝光补偿、闪光灯、测光模式、焦距、对焦距离、主体距离范围、镜头品牌和型号、镜头序列号、镜头规格、相机品牌和型号、相机序列号、ISO 感光度、感光度类型，以及胶片类型、滤镜和个人备注等附加信息。"
+    }
+  ],
+  "improvements": [
+    "支持导出时嵌入元数据的 JPEG XL（.jxl）格式",
+    "拍摄数据现在可统一写入 JPEG、TIFF、DNG 和 JXL 格式",
+    "少量界面改进"
+  ],
+  "fixes": [],
+  "patches": []
+}

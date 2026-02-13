@@ -1,0 +1,23 @@
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://withframes.com/it/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Changelog",
+      "item": "https://withframes.com/it/changelog/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Supporto JPEG XL ed esportazione metadati",
+      "item": "https://withframes.com/it/changelog/1-14-macos/"
+    }  ]
+}

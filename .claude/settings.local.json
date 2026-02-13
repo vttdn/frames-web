@@ -8,7 +8,9 @@
       "Bash(ls:*)",
       "Bash(xargs dirname:*)",
       "Bash(mkdir:*)",
-      "Bash(python3:*)"
+      "Bash(python3:*)",
+      "Bash(for lang in da de el es fi hi id it ko nb nl pl pt ro ru sv th tr uk vi zh zh-hant)",
+      "Bash(do echo \"=== $lang ===\")"
     ],
     "deny": [],
     "ask": []

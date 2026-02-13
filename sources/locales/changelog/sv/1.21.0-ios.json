@@ -45,8 +45,27 @@
     "Enklare val vid inmatning av brännviddsvärden",
     "Exponeringskompensationsväljaren visar nu 0 EV istället för Inte inställd",
     "Konsekvent parameterordning i rutlistan och inställningarna",
-    "Diverse gränssnittsförbättringar"
+    "Diverse gränssnittsförbättringar",
+    "Byt film från listan över senaste medan inspelaren förblir öppen och uppdateras automatiskt"
   ],
-  "fixes": [],
-  "patches": []
+  "fixes": [
+    {
+      "title": "Fokuseringsavstånd",
+      "description": "Åtgärdat ett fel där fokuseringsavstånd som registrerats i fot sparades som meter istället för att konverteras."
+    }
+  ],
+  "patches": [
+    {
+      "version": "1.21.1",
+      "description": "Mindre gränssnittsförbättringar"
+    },
+    {
+      "version": "1.21.2",
+      "description": "Snabbare filmbyte, felet med fokuseringsavstånd åtgärdat"
+    },
+    {
+      "version": "1.21.3",
+      "description": "Rubrik med kontext vid flytt av filmer eller mappar, prestandaförbättringar"
+    }
+  ]
 }

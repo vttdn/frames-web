@@ -1,0 +1,41 @@
+{
+  "version": "1.14.0",
+  "version_short": "1.14",
+  "url_slug": "1-14-macos",
+  "platform": "macos",
+  "release_date": "2026-02-13T10:00:00.000Z",
+  "title": "Supporto JPEG XL ed esportazione metadati",
+  "meta_title": "Supporto JPEG XL ed esportazione metadati - Frames",
+  "meta_description": "Frames per Mac ora supporta JPEG XL con esportazione completa dei metadati. L'aggiornamento include anche piccoli miglioramenti dell'interfaccia.",
+  "summary": "Questo aggiornamento aggiunge il supporto per JPEG XL nell'app Mac. Ora puoi incorporare i dati di scatto direttamente nei file .jxl quando esporti le tue scansioni, oltre che nei formati JPEG, TIFF e DNG. La versione include anche piccoli miglioramenti dell'interfaccia.",
+  "sections": [
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-mac-1.14.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-mac-1.14.0-1@2x.png",
+      "alt": "App Frames macOS durante l'esportazione dei metadati in JPEG XL",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "JPEG XL e metadati"
+    },
+    {
+      "type": "paragraph",
+      "content": "Frames per Mac ora supporta JPEG XL. Quando esporti le tue scansioni, puoi incorporare i dati acquisiti tramite l'app iPhone direttamente nei file .jxl, proprio come avviene con JPEG, TIFF e DNG. Le tue immagini restano così completamente documentate su tutti i formati moderni, mantenendo coerente il tuo flusso di lavoro nella fotografia analogica."
+    },
+    {
+      "type": "paragraph",
+      "content": "I metadati incorporati includono numero di immagine, data e ora, coordinate GPS, apertura, tempo di esposizione, programma di esposizione, modalità di esposizione, compensazione dell'esposizione, flash, modalità di misurazione, lunghezza focale, distanza di messa a fuoco, intervallo di distanza del soggetto, marca e modello dell'obiettivo, numero di serie dell'obiettivo, specifiche dell'obiettivo, marca e modello della fotocamera, numero di serie della fotocamera, sensibilità ISO, tipo di sensibilità e note aggiuntive come pellicola utilizzata, filtri e osservazioni personali."
+    }
+  ],
+  "improvements": [
+    "Supporto per JPEG XL (.jxl) con metadati incorporati all'esportazione",
+    "I dati di scatto vengono ora scritti in modo uniforme nei formati JPEG, TIFF, DNG e JXL",
+    "Piccoli miglioramenti dell'interfaccia"
+  ],
+  "fixes": [],
+  "patches": []
+}

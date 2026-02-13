@@ -1,0 +1,41 @@
+{
+  "version": "1.14.0",
+  "version_short": "1.14",
+  "url_slug": "1-14-macos",
+  "platform": "macos",
+  "release_date": "2026-02-13T10:00:00.000Z",
+  "title": "JPEG XLサポートとメタデータのエクスポート",
+  "meta_title": "JPEG XLサポートとメタデータのエクスポート - Frames",
+  "meta_description": "Frames for Macがメタデータの完全なエクスポートに対応したJPEG XLをサポート。軽微なUI改善も含まれています",
+  "summary": "このアップデートでは、MacアプリにJPEG XLのサポートが追加されました。スキャンをエクスポートする際、JPEG、TIFF、DNGに加えて、撮影データを.jxlファイルに直接埋め込めるようになりました。軽微なUIの改善も含まれています。",
+  "sections": [
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-mac-1.14.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-mac-1.14.0-1@2x.png",
+      "alt": "Frames macOSアプリでJPEG XLにメタデータをエクスポートしている画面",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "JPEG XLとメタデータ"
+    },
+    {
+      "type": "paragraph",
+      "content": "Frames for MacがJPEG XLに対応しました。スキャンのエクスポート時に、iPhoneアプリで記録したデータを.jxlファイルに直接埋め込むことができます。JPEG、TIFF、DNGと同様の操作で、すべての最新ファイル形式で画像を完全にドキュメント化でき、フィルム写真のワークフローの一貫性が保たれます。"
+    },
+    {
+      "type": "paragraph",
+      "content": "埋め込まれるメタデータには、コマ番号、撮影日時、GPS座標、絞り、シャッタースピード、露出プログラム、露出モード、露出補正、フラッシュ、測光モード、焦点距離、撮影距離、被写体距離範囲、レンズメーカーとモデル、レンズシリアル番号、レンズ仕様、カメラメーカーとモデル、カメラシリアル番号、ISO感度、感度タイプ、フィルム銘柄やフィルター、個人メモなどの追加情報が含まれます。"
+    }
+  ],
+  "improvements": [
+    "エクスポート時にメタデータを埋め込んだJPEG XL（.jxl）をサポート",
+    "撮影データがJPEG、TIFF、DNG、JXLの各形式に統一的に書き込まれるように",
+    "軽微なUI改善"
+  ],
+  "fixes": [],
+  "patches": []
+}

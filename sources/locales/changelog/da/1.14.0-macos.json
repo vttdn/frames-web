@@ -1,0 +1,41 @@
+{
+  "version": "1.14.0",
+  "version_short": "1.14",
+  "url_slug": "1-14-macos",
+  "platform": "macos",
+  "release_date": "2026-02-13T10:00:00.000Z",
+  "title": "Understøttelse af JPEG XL og eksport af metadata",
+  "meta_title": "Understøttelse af JPEG XL og eksport af metadata - Frames",
+  "meta_description": "Frames til Mac understøtter nu JPEG XL med fuld eksport af metadata. Opdateringen indeholder også mindre forbedringer af brugerfladen.",
+  "summary": "Denne opdatering tilføjer understøttelse af JPEG XL i Mac-appen. Du kan nu indlejre dine optagelsesdata direkte i .jxl-filer, når du eksporterer dine scans, sammen med JPEG, TIFF og DNG. Opdateringen indeholder også mindre forbedringer af brugerfladen.",
+  "sections": [
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-mac-1.14.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-mac-1.14.0-1@2x.png",
+      "alt": "Frames macOS-app der eksporterer metadata til JPEG XL",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "JPEG XL og metadata"
+    },
+    {
+      "type": "paragraph",
+      "content": "Frames til Mac understøtter nu JPEG XL. Når du eksporterer dine scans, kan du indlejre de data, du har registreret med iPhone-appen, direkte i .jxl-filer – ligesom med JPEG, TIFF og DNG. Dine billeder forbliver fuldt dokumenterede på tværs af moderne filformater, samtidig med at dit analoge fotoworkflow forbliver konsistent."
+    },
+    {
+      "type": "paragraph",
+      "content": "De indlejrede metadata omfatter billednummer, dato og klokkeslæt, GPS-koordinater, blænde, lukkertid, eksponeringsprogram, eksponeringstilstand, eksponeringskompensation, flash, målemetode, brændvidde, fokuseringsafstand, motivafstandsområde, objektivmærke og -model, objektivets serienummer, objektivspecifikation, kameramærke og -model, kameraets serienummer, ISO-følsomhed, følsomhedstype samt yderligere noter som filmtype, filtre og personlige bemærkninger."
+    }
+  ],
+  "improvements": [
+    "Understøttelse af JPEG XL (.jxl) med indlejrede metadata ved eksport",
+    "Optagelsesdata skrives nu konsistent i formaterne JPEG, TIFF, DNG og JXL",
+    "Mindre forbedringer af brugerfladen"
+  ],
+  "fixes": [],
+  "patches": []
+}

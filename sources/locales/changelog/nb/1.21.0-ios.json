@@ -45,8 +45,27 @@
     "Enklere valg ved inntasting av brennviddeverdier",
     "Eksponeringskompensasjonsvelgeren viser nå 0 EV i stedet for Ikke angitt",
     "Konsistent parameterrekkefølge i rammelisten og innstillingene",
-    "Diverse grensesnittforbedringer"
+    "Diverse grensesnittforbedringer",
+    "Bytt film fra listen over nylige mens opptakeren forblir åpen og oppdateres automatisk"
   ],
-  "fixes": [],
-  "patches": []
+  "fixes": [
+    {
+      "title": "Fokuseringsavstand",
+      "description": "Rettet en feil der fokuseringsavstander registrert i fot ble lagret som meter i stedet for å bli konvertert."
+    }
+  ],
+  "patches": [
+    {
+      "version": "1.21.1",
+      "description": "Mindre grensesnittforbedringer"
+    },
+    {
+      "version": "1.21.2",
+      "description": "Raskere filmbytte, feil med fokuseringsavstand rettet"
+    },
+    {
+      "version": "1.21.3",
+      "description": "Viser en overskrift med kontekst ved flytting av filmer eller mapper, ytelsesforbedringer"
+    }
+  ]
 }

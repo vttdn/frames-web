@@ -1,0 +1,41 @@
+{
+  "version": "1.14.0",
+  "version_short": "1.14",
+  "url_slug": "1-14-macos",
+  "platform": "macos",
+  "release_date": "2026-02-13T10:00:00.000Z",
+  "title": "支援 JPEG XL 與中繼資料匯出",
+  "meta_title": "支援 JPEG XL 與中繼資料匯出 - Frames",
+  "meta_description": "Mac 版 Frames 現已支援 JPEG XL 並可完整匯出中繼資料。此更新還包含少許介面改進",
+  "summary": "此更新為 Mac 應用程式新增了 JPEG XL 支援。匯出掃描檔時，您現在可以將拍攝資料直接嵌入 .jxl 檔案，與 JPEG、TIFF 和 DNG 一樣。此版本還包含少許介面改進。",
+  "sections": [
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-mac-1.14.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-mac-1.14.0-1@2x.png",
+      "alt": "Frames macOS 應用程式正在將中繼資料匯出為 JPEG XL",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "JPEG XL 與中繼資料"
+    },
+    {
+      "type": "paragraph",
+      "content": "Mac 版 Frames 現已支援 JPEG XL。匯出掃描檔時，您可以將透過 iPhone 應用程式記錄的資料直接嵌入 .jxl 檔案，操作方式與 JPEG、TIFF 和 DNG 完全相同。您的影像在所有現代檔案格式中都能保持完整的資料記錄，確保底片攝影工作流程的一致性。"
+    },
+    {
+      "type": "paragraph",
+      "content": "嵌入的中繼資料包括影像編號、日期和時間、GPS 座標、光圈、快門速度、曝光程式、曝光模式、曝光補償、閃光燈、測光模式、焦距、對焦距離、主體距離範圍、鏡頭品牌和型號、鏡頭序號、鏡頭規格、相機品牌和型號、相機序號、ISO 感光度、感光度類型，以及底片種類、濾鏡和個人備註等附加資訊。"
+    }
+  ],
+  "improvements": [
+    "支援匯出時嵌入中繼資料的 JPEG XL（.jxl）格式",
+    "拍攝資料現在可統一寫入 JPEG、TIFF、DNG 和 JXL 格式",
+    "少許介面改進"
+  ],
+  "fixes": [],
+  "patches": []
+}

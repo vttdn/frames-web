@@ -45,8 +45,27 @@
     "Selecție mai ușoară la introducerea valorilor distanței focale",
     "Selectorul de compensare a expunerii afișează acum 0 EV în loc de Neconfigurat",
     "Ordine consistentă a parametrilor în lista de cadre și setări",
-    "Diverse îmbunătățiri ale interfeței"
+    "Diverse îmbunătățiri ale interfeței",
+    "Schimbă filmul din lista celor recente în timp ce înregistratorul rămâne deschis și se actualizează automat"
   ],
-  "fixes": [],
-  "patches": []
+  "fixes": [
+    {
+      "title": "Distanța de focalizare",
+      "description": "Corectat un bug în care distanțele de focalizare înregistrate în picioare erau salvate ca metri în loc să fie convertite."
+    }
+  ],
+  "patches": [
+    {
+      "version": "1.21.1",
+      "description": "Îmbunătățiri minore ale interfeței"
+    },
+    {
+      "version": "1.21.2",
+      "description": "Schimbare mai rapidă a filmului, corectat bugul distanței de focalizare"
+    },
+    {
+      "version": "1.21.3",
+      "description": "Afișarea unui antet cu context la mutarea filmelor sau folderelor, îmbunătățiri de performanță"
+    }
+  ]
 }
