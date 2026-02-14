@@ -346,6 +346,7 @@
     "appstore_ios": "https://apps.apple.com/tr/app/frames-film-foto%C4%9Fraf-notlar%C4%B1/id6744057317?l=tr",
     "appstore_macos": "https://apps.apple.com/tr/app/frames-film-metadata/id6744063354?l=tr",
     "documentation": "docs/",
+    "blog": "blog/",
     "changelog": "changelog/",
     "privacy": "gizlilik-politikasi/"
   },
@@ -358,6 +359,35 @@
       "title": "Belgeler - Frames",
       "description": "Frames film fotoğrafçılığı uygulamasını kullanmayı öğrenin. Analog çekimlerinizi takip etmek için kapsamlı rehberler ve ipuçları.",
       "canonical_url": "https://withframes.com/tr/docs/"
+    }
+  },
+  "blog": {
+    "meta": {
+      "title": "Blog - Frames",
+      "description": "Film fotoğrafçılığı rehberleri, çekim ipuçları, fotoğraf makinesi incelemeleri, analog iş akışı tavsiyeleri ve Frames uygulamasını kullanmanın pratik yolları.",
+      "canonical_url": "https://withframes.com/tr/blog/"
+    },
+    "heading": "Blog",
+    "labels": {
+      "by_author": "yazar",
+      "published_on": "Yayınlanma tarihi",
+      "category": "Kategori",
+      "all_posts": "Tüm Yazılar",
+      "in_category": "kategorisinde",
+      "previous": "Önceki",
+      "next": "Sonraki",
+      "contents": "İçindekiler",
+      "filed_under": "Kategori",
+      "author": "Yazar",
+      "updated": "Güncellendi"
+    },
+    "pagination": {
+      "previous": "Önceki",
+      "next": "Sonraki",
+      "page": "Sayfa",
+      "page_suffix": "",
+      "newer_posts": "Daha yeni yazılar",
+      "older_posts": "Daha eski yazılar"
     }
   },
   "changelog": {

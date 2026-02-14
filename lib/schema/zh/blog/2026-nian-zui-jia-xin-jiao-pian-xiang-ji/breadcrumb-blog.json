@@ -1,0 +1,23 @@
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "主页",
+      "item": "https://withframes.com/zh/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "博客",
+      "item": "https://withframes.com/zh/blog/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "2026年最佳新胶片相机：你现在就能买到的型号",
+      "item": "https://withframes.com/zh/blog/2026-nian-zui-jia-xin-jiao-pian-xiang-ji/"
+    }  ]
+}

@@ -346,6 +346,7 @@
     "appstore_ios": "https://apps.apple.com/cn/app/frames-%E8%83%B6%E7%89%87%E6%91%84%E5%BD%B1%E7%AC%94%E8%AE%B0/id6744057317?l=zh",
     "appstore_macos": "https://apps.apple.com/cn/app/frames-%E8%83%B6%E7%89%87%E5%85%83%E6%95%B0%E6%8D%AE/id6744063354?l=zh",
     "documentation": "docs/",
+    "blog": "blog/",
     "changelog": "changelog/",
     "privacy": "privacy/"
   },
@@ -358,6 +359,35 @@
       "title": "文档 - Frames",
       "description": "学习使用 Frames 胶片摄影应用程序。完整指南、教程和提示,帮助您追踪模拟拍摄并管理元数据。",
       "canonical_url": "https://withframes.com/zh/docs/"
+    }
+  },
+  "blog": {
+    "meta": {
+      "title": "博客 - Frames",
+      "description": "胶片摄影指南、拍摄技巧、相机评测、模拟摄影工作流程建议，以及使用 Frames 应用提升摄影体验的实用方法。",
+      "canonical_url": "https://withframes.com/zh/blog/"
+    },
+    "heading": "博客",
+    "labels": {
+      "by_author": "作者",
+      "published_on": "发布于",
+      "category": "分类",
+      "all_posts": "所有文章",
+      "in_category": "分类于",
+      "previous": "上一篇",
+      "next": "下一篇",
+      "contents": "目录",
+      "filed_under": "归档于",
+      "author": "作者",
+      "updated": "更新于"
+    },
+    "pagination": {
+      "previous": "上一页",
+      "next": "下一页",
+      "page": "第",
+      "page_suffix": "页",
+      "newer_posts": "较新的文章",
+      "older_posts": "较早的文章"
     }
   },
   "privacy": {

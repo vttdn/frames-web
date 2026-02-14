@@ -346,6 +346,7 @@
     "appstore_ios": "https://apps.apple.com/ua/app/frames-нотатки-про-плівку/id6744057317?l=uk",
     "appstore_macos": "https://apps.apple.com/ua/app/frames-метадані-плівки/id6744063354?l=uk",
     "documentation": "docs/",
+    "blog": "blog/",
     "changelog": "changelog/",
     "privacy": "polityka-konfidentsiynosti/"
   },
@@ -358,6 +359,35 @@
       "title": "Документація - Frames",
       "description": "Дізнайтеся, як використовувати Frames - додаток для плівкової фотографії. Повні посібники, уроки та поради щодо аналогових знімків.",
       "canonical_url": "https://withframes.com/uk/docs/"
+    }
+  },
+  "blog": {
+    "meta": {
+      "title": "Блог - Frames",
+      "description": "Гіди з плівкової фотографії, поради зі зйомки, огляди камер, рекомендації з аналогового процесу та практичні способи використання додатку Frames.",
+      "canonical_url": "https://withframes.com/uk/blog/"
+    },
+    "heading": "Блог",
+    "labels": {
+      "by_author": "автор",
+      "published_on": "Опубліковано",
+      "category": "Категорія",
+      "all_posts": "Усі статті",
+      "in_category": "у",
+      "previous": "Попередня",
+      "next": "Наступна",
+      "contents": "Зміст",
+      "filed_under": "Категорія",
+      "author": "Автор",
+      "updated": "Оновлено"
+    },
+    "pagination": {
+      "previous": "Попередня",
+      "next": "Наступна",
+      "page": "Сторінка",
+      "page_suffix": "",
+      "newer_posts": "Новіші статті",
+      "older_posts": "Старіші статті"
     }
   },
   "privacy": {
