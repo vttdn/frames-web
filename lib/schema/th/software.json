@@ -27,28 +27,15 @@
             "@type": "WebPage",
             "@id": "https://withframes.com/th"
           },
-          "offers": [
-            {
-                "@type": "Offer",
-                "name": "สมุดบันทึกการถ่ายภาพฟิล์ม",
-                "price": "699",
-                "priceCurrency": "THB",
-                "priceValidUntil": "2026-12-31",
-                "availability": "https://schema.org/InStock",
-                "url": "https://withframes.com/th",
-                "priceSpecification": {
-                "@type": "UnitPriceSpecification",
-                "price": "699",
-                "priceCurrency": "THB",
-                "billingDuration": "P1Y",
-                "referenceQuantity": {
-                    "@type": "QuantitativeValue",
-                    "value": 1,
-                    "unitCode": "ANN"
-                }
-                }
-            }
-          ],
+          "offers": {
+            "@type": "Offer",
+            "name": "สมุดบันทึกการถ่ายภาพฟิล์ม",
+            "price": "699",
+            "priceCurrency": "THB",
+            "priceValidUntil": "2026-12-31",
+            "availability": "https://schema.org/InStock",
+            "url": "https://withframes.com/th"
+          },
           "aggregateRating": {
             "@type": "AggregateRating",
             "ratingValue": "5",

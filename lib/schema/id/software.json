@@ -27,28 +27,15 @@
             "@type": "WebPage",
             "@id": "https://withframes.com/id"
           },
-          "offers": [
-            {
-                "@type": "Offer",
-                "name": "Buku Catatan Film Analog",
-                "price": "299000",
-                "priceCurrency": "IDR",
-                "priceValidUntil": "2026-12-31",
-                "availability": "https://schema.org/InStock",
-                "url": "https://withframes.com/id",
-                "priceSpecification": {
-                "@type": "UnitPriceSpecification",
-                "price": "299000",
-                "priceCurrency": "IDR",
-                "billingDuration": "P1Y",
-                "referenceQuantity": {
-                    "@type": "QuantitativeValue",
-                    "value": 1,
-                    "unitCode": "ANN"
-                }
-                }
-            }
-          ],
+          "offers": {
+            "@type": "Offer",
+            "name": "Buku Catatan Film Analog",
+            "price": "299000",
+            "priceCurrency": "IDR",
+            "priceValidUntil": "2026-12-31",
+            "availability": "https://schema.org/InStock",
+            "url": "https://withframes.com/id"
+          },
           "aggregateRating": {
             "@type": "AggregateRating",
             "ratingValue": "5",

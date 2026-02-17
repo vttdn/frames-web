@@ -27,28 +27,15 @@
             "@type": "WebPage",
             "@id": "https://withframes.com/ru"
           },
-          "offers": [
-            {
-                "@type": "Offer",
-                "name": "Блокнот для плёночной фотографии",
-                "price": "1490",
-                "priceCurrency": "RUB",
-                "priceValidUntil": "2026-12-31",
-                "availability": "https://schema.org/InStock",
-                "url": "https://withframes.com/ru",
-                "priceSpecification": {
-                "@type": "UnitPriceSpecification",
-                "price": "1490",
-                "priceCurrency": "RUB",
-                "billingDuration": "P1Y",
-                "referenceQuantity": {
-                    "@type": "QuantitativeValue",
-                    "value": 1,
-                    "unitCode": "ANN"
-                }
-                }
-            }
-          ],
+          "offers": {
+            "@type": "Offer",
+            "name": "Блокнот для плёночной фотографии",
+            "price": "1490",
+            "priceCurrency": "RUB",
+            "priceValidUntil": "2026-12-31",
+            "availability": "https://schema.org/InStock",
+            "url": "https://withframes.com/ru"
+          },
           "aggregateRating": {
             "@type": "AggregateRating",
             "ratingValue": "5",

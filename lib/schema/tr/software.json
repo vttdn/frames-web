@@ -27,28 +27,15 @@
             "@type": "WebPage",
             "@id": "https://withframes.com/tr"
           },
-          "offers": [
-            {
-                "@type": "Offer",
-                "name": "Analog Fotoğraf Defteri",
-                "price": "999.99",
-                "priceCurrency": "TRY",
-                "priceValidUntil": "2026-12-31",
-                "availability": "https://schema.org/InStock",
-                "url": "https://withframes.com/tr",
-                "priceSpecification": {
-                "@type": "UnitPriceSpecification",
-                "price": "999.99",
-                "priceCurrency": "TRY",
-                "billingDuration": "P1Y",
-                "referenceQuantity": {
-                    "@type": "QuantitativeValue",
-                    "value": 1,
-                    "unitCode": "ANN"
-                }
-                }
-            }
-          ],
+          "offers": {
+            "@type": "Offer",
+            "name": "Analog Fotoğraf Defteri",
+            "price": "999.99",
+            "priceCurrency": "TRY",
+            "priceValidUntil": "2026-12-31",
+            "availability": "https://schema.org/InStock",
+            "url": "https://withframes.com/tr"
+          },
           "aggregateRating": {
             "@type": "AggregateRating",
             "ratingValue": "5",

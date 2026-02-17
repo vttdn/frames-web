@@ -27,28 +27,15 @@
             "@type": "WebPage",
             "@id": "{{ canonical_url }}"
           },
-          "offers": [
-            {
-                "@type": "Offer",
-                "name": "{{ schema_offer_name }}",
-                "price": "{{ yearly_price }}",
-                "priceCurrency": "{{ currency }}",
-                "priceValidUntil": "2026-12-31",
-                "availability": "https://schema.org/InStock",
-                "url": "{{ canonical_url }}",
-                "priceSpecification": {
-                "@type": "UnitPriceSpecification",
-                "price": "{{ yearly_price }}",
-                "priceCurrency": "{{ currency }}",
-                "billingDuration": "P1Y",
-                "referenceQuantity": {
-                    "@type": "QuantitativeValue",
-                    "value": 1,
-                    "unitCode": "ANN"
-                }
-                }
-            }
-          ],
+          "offers": {
+            "@type": "Offer",
+            "name": "{{ schema_offer_name }}",
+            "price": "{{ yearly_price }}",
+            "priceCurrency": "{{ currency }}",
+            "priceValidUntil": "2026-12-31",
+            "availability": "https://schema.org/InStock",
+            "url": "{{ canonical_url }}"
+          },
           "aggregateRating": {
             "@type": "AggregateRating",
             "ratingValue": "5",
