@@ -27,15 +27,28 @@
             "@type": "WebPage",
             "@id": "https://withframes.com/nb"
           },
-          "offers": {
-            "@type": "Offer",
-            "name": "Analog notatbok",
-            "price": "229",
-            "priceCurrency": "NOK",
-            "priceValidUntil": "2026-12-31",
-            "availability": "https://schema.org/InStock",
-            "url": "https://withframes.com/nb"
-          },
+          "offers": [
+            {
+                "@type": "Offer",
+                "name": "Analog notatbok",
+                "price": "229",
+                "priceCurrency": "NOK",
+                "priceValidUntil": "2026-12-31",
+                "availability": "https://schema.org/InStock",
+                "url": "https://withframes.com/nb",
+                "priceSpecification": {
+                "@type": "UnitPriceSpecification",
+                "price": "229",
+                "priceCurrency": "NOK",
+                "billingDuration": "P1Y",
+                "referenceQuantity": {
+                    "@type": "QuantitativeValue",
+                    "value": 1,
+                    "unitCode": "ANN"
+                }
+                }
+            }
+          ],
           "aggregateRating": {
             "@type": "AggregateRating",
             "ratingValue": "5",

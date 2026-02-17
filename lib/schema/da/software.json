@@ -27,15 +27,28 @@
             "@type": "WebPage",
             "@id": "https://withframes.com/da"
           },
-          "offers": {
-            "@type": "Offer",
-            "name": "Filmnotebook",
-            "price": "149",
-            "priceCurrency": "DKK",
-            "priceValidUntil": "2026-12-31",
-            "availability": "https://schema.org/InStock",
-            "url": "https://withframes.com/da"
-          },
+          "offers": [
+            {
+                "@type": "Offer",
+                "name": "Filmnotebook",
+                "price": "149",
+                "priceCurrency": "DKK",
+                "priceValidUntil": "2026-12-31",
+                "availability": "https://schema.org/InStock",
+                "url": "https://withframes.com/da",
+                "priceSpecification": {
+                "@type": "UnitPriceSpecification",
+                "price": "149",
+                "priceCurrency": "DKK",
+                "billingDuration": "P1Y",
+                "referenceQuantity": {
+                    "@type": "QuantitativeValue",
+                    "value": 1,
+                    "unitCode": "ANN"
+                }
+                }
+            }
+          ],
           "aggregateRating": {
             "@type": "AggregateRating",
             "ratingValue": "5",

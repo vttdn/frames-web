@@ -27,15 +27,28 @@
             "@type": "WebPage",
             "@id": "https://withframes.com"
           },
-          "offers": {
-            "@type": "Offer",
-            "name": "Film Notebook",
-            "price": "17.99",
-            "priceCurrency": "USD",
-            "priceValidUntil": "2026-12-31",
-            "availability": "https://schema.org/InStock",
-            "url": "https://withframes.com"
-          },
+          "offers": [
+            {
+                "@type": "Offer",
+                "name": "Film Notebook",
+                "price": "17.99",
+                "priceCurrency": "USD",
+                "priceValidUntil": "2026-12-31",
+                "availability": "https://schema.org/InStock",
+                "url": "https://withframes.com",
+                "priceSpecification": {
+                "@type": "UnitPriceSpecification",
+                "price": "17.99",
+                "priceCurrency": "USD",
+                "billingDuration": "P1Y",
+                "referenceQuantity": {
+                    "@type": "QuantitativeValue",
+                    "value": 1,
+                    "unitCode": "ANN"
+                }
+                }
+            }
+          ],
           "aggregateRating": {
             "@type": "AggregateRating",
             "ratingValue": "5",

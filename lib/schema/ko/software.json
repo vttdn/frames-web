@@ -27,15 +27,28 @@
             "@type": "WebPage",
             "@id": "https://withframes.com/ko"
           },
-          "offers": {
-            "@type": "Offer",
-            "name": "필름 사진 노트",
-            "price": "25000",
-            "priceCurrency": "KRW",
-            "priceValidUntil": "2026-12-31",
-            "availability": "https://schema.org/InStock",
-            "url": "https://withframes.com/ko"
-          },
+          "offers": [
+            {
+                "@type": "Offer",
+                "name": "필름 사진 노트",
+                "price": "25000",
+                "priceCurrency": "KRW",
+                "priceValidUntil": "2026-12-31",
+                "availability": "https://schema.org/InStock",
+                "url": "https://withframes.com/ko",
+                "priceSpecification": {
+                "@type": "UnitPriceSpecification",
+                "price": "25000",
+                "priceCurrency": "KRW",
+                "billingDuration": "P1Y",
+                "referenceQuantity": {
+                    "@type": "QuantitativeValue",
+                    "value": 1,
+                    "unitCode": "ANN"
+                }
+                }
+            }
+          ],
           "aggregateRating": {
             "@type": "AggregateRating",
             "ratingValue": "5",

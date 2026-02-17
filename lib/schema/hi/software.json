@@ -27,15 +27,28 @@
             "@type": "WebPage",
             "@id": "https://withframes.com/hi"
           },
-          "offers": {
-            "@type": "Offer",
-            "name": "एनालॉग फ़ोटोग्राफी नोटबुक",
-            "price": "1999",
-            "priceCurrency": "INR",
-            "priceValidUntil": "2026-12-31",
-            "availability": "https://schema.org/InStock",
-            "url": "https://withframes.com/hi"
-          },
+          "offers": [
+            {
+                "@type": "Offer",
+                "name": "एनालॉग फ़ोटोग्राफी नोटबुक",
+                "price": "1999",
+                "priceCurrency": "INR",
+                "priceValidUntil": "2026-12-31",
+                "availability": "https://schema.org/InStock",
+                "url": "https://withframes.com/hi",
+                "priceSpecification": {
+                "@type": "UnitPriceSpecification",
+                "price": "1999",
+                "priceCurrency": "INR",
+                "billingDuration": "P1Y",
+                "referenceQuantity": {
+                    "@type": "QuantitativeValue",
+                    "value": 1,
+                    "unitCode": "ANN"
+                }
+                }
+            }
+          ],
           "aggregateRating": {
             "@type": "AggregateRating",
             "ratingValue": "5",
