@@ -1,0 +1,67 @@
+{
+  "version": "1.22.0",
+  "version_short": "1.22",
+  "url_slug": "1-22-ios",
+  "platform": "ios",
+  "release_date": "2026-02-19T10:00:00.000Z",
+  "title": "Cải thiện hiệu suất lớn",
+  "summary": "Bản cập nhật này tập trung vào tốc độ, sự ổn định và các cải tiến quy trình làm việc hàng ngày. Ứng dụng chạy nhanh hơn, đặc biệt trên các thiết bị cũ, việc di chuyển cuộn phim và thư mục rõ ràng và linh hoạt hơn, đồng thời nhiều vấn đề về giao diện đã được khắc phục để các thao tác nhất quán hơn.",
+  "sections": [
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.22.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.22.0-1@2x.png",
+      "alt": "Ứng dụng chụp ảnh film Frames với cải tiến hiệu suất và cập nhật màn hình di chuyển",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Nhanh hơn và ổn định hơn"
+    },
+    {
+      "type": "paragraph",
+      "content": "Các cải tiến lớn về tốc độ và độ ổn định đã được triển khai trên toàn bộ ứng dụng. Điều hướng thư viện, chỉnh sửa cuộn phim và các thao tác chung phản hồi nhanh hơn rõ rệt, đặc biệt trên các dòng iPhone cũ hơn. Mục tiêu rất đơn giản: ít chờ đợi hơn, tập trung nhiều hơn vào công việc của bạn."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Quy trình di chuyển được cải thiện"
+    },
+    {
+      "type": "paragraph",
+      "content": "Màn hình Di chuyển giờ đây có tiêu đề theo ngữ cảnh hiển thị rõ ràng bạn đang di chuyển gì và đến đâu. Cuộn phim có thể được di chuyển, chỉnh sửa và xuất mà không cần đóng thanh công cụ ghi, giúp quản lý cuộn phim dễ dàng hơn mà không làm gián đoạn quy trình làm việc."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Cải tiến và sửa lỗi"
+    },
+    {
+      "type": "paragraph",
+      "content": "Khôi phục giao dịch mua hàng hiện đáng tin cậy hơn khi chuyển đổi thiết bị. Màn hình Chào mừng đã được làm rõ cho iOS 26 để tránh nhầm lẫn trong lần khởi chạy đầu tiên. Các sự cố hoạt ảnh khi xóa cuộn phim hoặc thư mục bằng cử chỉ vuốt trong danh sách cũng đã được sửa, giúp ứng dụng hoạt động nhất quán và dễ dự đoán hơn."
+    }
+  ],
+  "improvements": [
+    "Cải tiến lớn về tốc độ và độ ổn định, đặc biệt trên các thiết bị cũ",
+    "Thêm tiêu đề theo ngữ cảnh vào màn hình Di chuyển để rõ ràng hơn",
+    "Di chuyển, chỉnh sửa và xuất cuộn phim mà không cần đóng thanh công cụ dưới cùng",
+    "Cải thiện độ tin cậy của khôi phục giao dịch khi chuyển đổi thiết bị",
+    "Hiển thị màn hình Chào mừng rõ ràng hơn trên iOS 26"
+  ],
+  "fixes": [
+    {
+      "title": "Hoạt ảnh vuốt để xóa",
+      "description": "Đã sửa sự không nhất quán trong hoạt ảnh khi xóa cuộn phim hoặc thư mục bằng cử chỉ vuốt trong danh sách."
+    }
+  ],
+  "patches": [
+    {
+      "version": "1.22.1",
+      "description": "Cải thiện hiệu suất bổ sung"
+    }
+  ],
+  "meta_title": "Cải thiện hiệu suất lớn - Frames",
+  "meta_description": "Hiệu suất nhanh hơn, ổn định hơn, quy trình di chuyển tốt hơn và khôi phục giao dịch đáng tin cậy hơn trong Frames 1.22 cho iOS."
+}

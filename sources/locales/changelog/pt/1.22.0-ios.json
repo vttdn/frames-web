@@ -1,0 +1,67 @@
+{
+  "version": "1.22.0",
+  "version_short": "1.22",
+  "url_slug": "1-22-ios",
+  "platform": "ios",
+  "release_date": "2026-02-19T10:00:00.000Z",
+  "title": "Melhorias de desempenho importantes",
+  "summary": "Esta versão foca em velocidade, estabilidade e aprimoramentos do fluxo de trabalho diário. O app funciona mais rapidamente, especialmente em dispositivos mais antigos, mover películas e pastas é mais claro e flexível, e vários problemas de interface foram resolvidos para tornar as interações mais consistentes.",
+  "sections": [
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.22.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.22.0-1@2x.png",
+      "alt": "App de fotografia analógica Frames com melhorias de desempenho e atualizações da tela de movimentação",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Mais rápido e estável"
+    },
+    {
+      "type": "paragraph",
+      "content": "Importantes melhorias de velocidade e estabilidade foram implementadas em todo o app. A navegação na biblioteca, a edição de películas e as interações em geral são visivelmente mais ágeis, especialmente nos modelos de iPhone mais antigos. O objetivo é simples: menos espera, mais foco no seu trabalho."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Fluxo de movimentação aprimorado"
+    },
+    {
+      "type": "paragraph",
+      "content": "A tela de movimentação agora inclui um cabeçalho contextual que mostra claramente o que você está movendo e para onde irá. As películas agora podem ser movidas, editadas e exportadas sem fechar a barra de ferramentas do gravador, facilitando o gerenciamento dos rolos sem interromper seu fluxo de trabalho."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Refinamentos e correções"
+    },
+    {
+      "type": "paragraph",
+      "content": "A restauração de compras está agora mais confiável ao trocar de dispositivo. A tela de boas-vindas foi esclarecida para o iOS 26 para evitar confusão no primeiro acesso. Problemas de animação ao excluir películas ou pastas com gesto de deslizamento em listas também foram corrigidos, resultando em um comportamento mais previsível em todo o app."
+    }
+  ],
+  "improvements": [
+    "Importantes melhorias de velocidade e estabilidade, especialmente em dispositivos mais antigos",
+    "Cabeçalho contextual adicionado à tela de movimentação para maior clareza",
+    "Mova, edite e exporte películas sem fechar a barra de ferramentas inferior",
+    "Maior confiabilidade na restauração de compras ao trocar de dispositivo",
+    "Apresentação mais clara da tela de boas-vindas no iOS 26"
+  ],
+  "fixes": [
+    {
+      "title": "Animações de deslizamento para excluir",
+      "description": "Corrigidas inconsistências de animação ao excluir películas ou pastas com gesto de deslizamento em listas."
+    }
+  ],
+  "patches": [
+    {
+      "version": "1.22.1",
+      "description": "Melhorias de desempenho adicionais"
+    }
+  ],
+  "meta_title": "Melhorias de desempenho importantes - Frames",
+  "meta_description": "Desempenho mais rápido, estabilidade aprimorada, melhor fluxo de movimentação e restauração de compras mais confiável no Frames 1.22 para iOS."
+}

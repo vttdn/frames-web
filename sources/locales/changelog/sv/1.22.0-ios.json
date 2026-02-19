@@ -1,0 +1,67 @@
+{
+  "version": "1.22.0",
+  "version_short": "1.22",
+  "url_slug": "1-22-ios",
+  "platform": "ios",
+  "release_date": "2026-02-19T10:00:00.000Z",
+  "title": "Stora prestandaförbättringar",
+  "summary": "Den här versionen fokuserar på hastighet, stabilitet och förbättringar av det dagliga arbetsflödet. Appen körs snabbare, särskilt på äldre enheter, att flytta filmer och mappar är tydligare och mer flexibelt, och flera gränssnittsproblem har åtgärdats för mer konsekventa interaktioner.",
+  "sections": [
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.22.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.22.0-1@2x.png",
+      "alt": "Frames filmfotoapp med prestandaförbättringar och uppdateringar av flytta-skärmen",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Snabbare och mer stabil"
+    },
+    {
+      "type": "paragraph",
+      "content": "Stora hastighets- och stabilitetsförbättringar har implementerats i hela appen. Biblioteksnavigering, filmredigering och allmänna interaktioner är märkbart snabbare, särskilt på äldre iPhone-modeller. Målet är enkelt: mindre väntan, mer fokus på ditt arbete."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Förbättrat arbetsflöde för flytt"
+    },
+    {
+      "type": "paragraph",
+      "content": "Flytta-skärmen har nu en kontextuell rubrik som tydligt visar vad du flyttar och vart det ska. Filmer kan nu flyttas, redigeras och exporteras utan att stänga inspelningsverktygsfältet, vilket gör det enklare att hantera rullar utan att avbryta ditt flöde."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Förbättringar och buggfixar"
+    },
+    {
+      "type": "paragraph",
+      "content": "Köpåterställning är nu mer tillförlitlig när du byter enhet. Välkomstskärmen har förtydligats för iOS 26 för att undvika förvirring vid första start. Animationsproblem vid borttagning av filmer eller mappar med ett svepgestur i listor har också åtgärdats, vilket ger mer förutsägbart beteende i hela appen."
+    }
+  ],
+  "improvements": [
+    "Stora hastighets- och stabilitetsförbättringar, särskilt på äldre enheter",
+    "Kontextuell rubrik tillagd i flytta-skärmen för bättre tydlighet",
+    "Flytta, redigera och exportera filmer utan att stänga det nedre verktygsfältet",
+    "Förbättrad tillförlitlighet för köpåterställning vid enhetsbyte",
+    "Tydligare presentation av välkomstskärmen på iOS 26"
+  ],
+  "fixes": [
+    {
+      "title": "Svep för att ta bort-animationer",
+      "description": "Åtgärdade animationsinkonsistenser vid borttagning av filmer eller mappar med ett svepgestur i listor."
+    }
+  ],
+  "patches": [
+    {
+      "version": "1.22.1",
+      "description": "Ytterligare prestandaförbättringar"
+    }
+  ],
+  "meta_title": "Stora prestandaförbättringar - Frames",
+  "meta_description": "Snabbare prestanda, förbättrad stabilitet, bättre arbetsflöde för flytt och mer tillförlitlig köpåterställning i Frames 1.22 för iOS."
+}

@@ -1,0 +1,67 @@
+{
+  "version": "1.22.0",
+  "version_short": "1.22",
+  "url_slug": "1-22-ios",
+  "platform": "ios",
+  "release_date": "2026-02-19T10:00:00.000Z",
+  "title": "Mejoras de rendimiento importantes",
+  "summary": "Esta versión se centra en la velocidad, la estabilidad y las mejoras en el flujo de trabajo diario. La app es más rápida, especialmente en dispositivos más antiguos, mover películas y carpetas es más claro y flexible, y se han resuelto varios problemas de interfaz para que las interacciones resulten más coherentes.",
+  "sections": [
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.22.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.22.0-1@2x.png",
+      "alt": "App de fotografía analógica Frames con mejoras de rendimiento y actualizaciones de la pantalla de movimiento",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Más rápida y estable"
+    },
+    {
+      "type": "paragraph",
+      "content": "Se han implementado mejoras importantes de velocidad y estabilidad en toda la app. La navegación por la biblioteca, la edición de películas y las interacciones en general son notablemente más ágiles, especialmente en modelos de iPhone más antiguos. El objetivo es sencillo: menos esperas, más enfoque en tu trabajo."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Flujo de movimiento mejorado"
+    },
+    {
+      "type": "paragraph",
+      "content": "La pantalla de movimiento ahora incluye un encabezado contextual que muestra claramente qué estás moviendo y hacia dónde irá. Las películas pueden moverse, editarse y exportarse sin cerrar la barra de herramientas del grabador, lo que facilita gestionar los rollos sin interrumpir tu flujo de trabajo."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Ajustes y correcciones"
+    },
+    {
+      "type": "paragraph",
+      "content": "La restauración de compras es ahora más fiable al cambiar de dispositivo. La pantalla de bienvenida se ha aclarado para iOS 26 para evitar confusiones en el primer inicio. También se han corregido los problemas de animación al eliminar películas o carpetas con un gesto de deslizamiento en listas, lo que resulta en un comportamiento más predecible en toda la app."
+    }
+  ],
+  "improvements": [
+    "Mejoras importantes de velocidad y estabilidad, especialmente en dispositivos más antiguos",
+    "Encabezado contextual añadido a la pantalla de movimiento para mayor claridad",
+    "Mueve, edita y exporta películas sin cerrar la barra de herramientas inferior",
+    "Mayor fiabilidad en la restauración de compras al cambiar de dispositivo",
+    "Pantalla de bienvenida más clara en iOS 26"
+  ],
+  "fixes": [
+    {
+      "title": "Animaciones al deslizar para eliminar",
+      "description": "Corregidas las inconsistencias de animación al eliminar películas o carpetas con un gesto de deslizamiento en listas."
+    }
+  ],
+  "patches": [
+    {
+      "version": "1.22.1",
+      "description": "Mejoras de rendimiento adicionales"
+    }
+  ],
+  "meta_title": "Mejoras de rendimiento importantes - Frames",
+  "meta_description": "Mayor velocidad, estabilidad mejorada, mejor flujo de movimiento y restauración de compras más fiable en Frames 1.22 para iOS."
+}

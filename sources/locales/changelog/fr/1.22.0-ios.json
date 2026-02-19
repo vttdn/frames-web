@@ -1,0 +1,67 @@
+{
+  "version": "1.22.0",
+  "version_short": "1.22",
+  "url_slug": "1-22-ios",
+  "platform": "ios",
+  "release_date": "2026-02-19T10:00:00.000Z",
+  "title": "Améliorations majeures des performances",
+  "summary": "Cette mise à jour se concentre sur la vitesse, la stabilité et les améliorations du flux de travail quotidien. L'app est plus rapide, notamment sur les appareils plus anciens, le déplacement des pellicules et des dossiers est plus clair et plus flexible, et plusieurs problèmes d'interface ont été résolus pour des interactions plus cohérentes.",
+  "sections": [
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.22.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.22.0-1@2x.png",
+      "alt": "App Frames de photographie argentique avec améliorations de performances et mises à jour de l'écran de déplacement",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Plus rapide et plus stable"
+    },
+    {
+      "type": "paragraph",
+      "content": "D'importantes améliorations de vitesse et de stabilité ont été apportées à l'ensemble de l'app. La navigation dans la bibliothèque, l'édition de pellicules et les interactions générales sont nettement plus réactives, en particulier sur les anciens modèles d'iPhone. L'objectif est simple : moins d'attente, plus de concentration sur votre travail."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Déplacement amélioré"
+    },
+    {
+      "type": "paragraph",
+      "content": "L'écran de déplacement inclut désormais un en-tête contextuel qui indique clairement ce que vous déplacez et où cela ira. Les pellicules peuvent maintenant être déplacées, modifiées et exportées sans fermer la barre d'outils de l'enregistreur, facilitant la gestion des rouleaux sans interrompre votre flux de travail."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Ajustements et corrections"
+    },
+    {
+      "type": "paragraph",
+      "content": "La restauration des achats est désormais plus fiable lors du changement d'appareil. L'écran de bienvenue a été clarifié pour iOS 26 afin d'éviter toute confusion lors du premier lancement. Les problèmes d'animation lors de la suppression de pellicules ou de dossiers par un geste de balayage dans les listes ont également été corrigés, ce qui rend le comportement de l'app plus prévisible."
+    }
+  ],
+  "improvements": [
+    "Améliorations majeures de la vitesse et de la stabilité, notamment sur les appareils plus anciens",
+    "En-tête contextuel ajouté à l'écran de déplacement pour plus de clarté",
+    "Déplacer, modifier et exporter des pellicules sans fermer la barre d'outils inférieure",
+    "Fiabilité améliorée de la restauration des achats lors du changement d'appareil",
+    "Présentation plus claire de l'écran de bienvenue sous iOS 26"
+  ],
+  "fixes": [
+    {
+      "title": "Animations de suppression par balayage",
+      "description": "Correction des incohérences d'animation lors de la suppression de pellicules ou de dossiers par un geste de balayage dans les listes."
+    }
+  ],
+  "patches": [
+    {
+      "version": "1.22.1",
+      "description": "Améliorations supplémentaires des performances"
+    }
+  ],
+  "meta_title": "Améliorations majeures des performances - Frames",
+  "meta_description": "Performances améliorées, meilleure stabilité, flux de déplacement optimisé et restauration des achats plus fiable dans Frames 1.22 pour iOS."
+}

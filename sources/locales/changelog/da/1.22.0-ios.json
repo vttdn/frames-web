@@ -1,0 +1,67 @@
+{
+  "version": "1.22.0",
+  "version_short": "1.22",
+  "url_slug": "1-22-ios",
+  "platform": "ios",
+  "release_date": "2026-02-19T10:00:00.000Z",
+  "title": "Store ydelsesforbedringer",
+  "summary": "Denne opdatering fokuserer på hastighed, stabilitet og forbedringer af den daglige arbejdsgang. Appen kører hurtigere, særligt på ældre enheder, det er blevet nemmere og mere fleksibelt at flytte film og mapper, og flere interfaceproblemer er løst, så interaktionerne føles mere konsistente.",
+  "sections": [
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.22.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.22.0-1@2x.png",
+      "alt": "Frames-appen til filmfotografi med ydelsesforbedringer og opdateret flytte-skærm",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Hurtigere og mere stabil"
+    },
+    {
+      "type": "paragraph",
+      "content": "Der er implementeret store hastigheds- og stabilitetsforbedringer i hele appen. Biblioteksnavigation, filmredigering og generelle interaktioner er mærkbart mere responsive, særligt på ældre iPhone-modeller. Målet er enkelt: mindre ventetid, mere fokus på dit arbejde."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Forbedret flytte-arbejdsgang"
+    },
+    {
+      "type": "paragraph",
+      "content": "Flytte-skærmen har nu en kontekstuel overskrift, der tydeligt viser, hvad du flytter, og hvor det flyttes hen. Film kan nu flyttes, redigeres og eksporteres uden at lukke optager-værktøjslinjen, så det er nemmere at administrere ruller uden at afbryde dit arbejde."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Forbedringer og rettelser"
+    },
+    {
+      "type": "paragraph",
+      "content": "Gendannelse af køb er nu mere pålidelig, når du skifter enheder. Velkomstskærmen er præciseret til iOS 26 for at undgå forvirring ved første start. Animationsproblemer ved sletning af film eller mapper med en strygebevægelse i lister er også rettet, hvilket giver mere forudsigelig adfærd i hele appen."
+    }
+  ],
+  "improvements": [
+    "Store hastigheds- og stabilitetsforbedringer, særligt på ældre enheder",
+    "Kontekstuel overskrift tilføjet til flytte-skærmen for bedre overblik",
+    "Flyt, rediger og eksporter film uden at lukke den nederste værktøjslinje",
+    "Forbedret pålidelighed ved købsgendannelse, når du skifter enheder",
+    "Tydeligere præsentation af velkomstskærmen på iOS 26"
+  ],
+  "fixes": [
+    {
+      "title": "Stryg for at slette-animationer",
+      "description": "Rettet animationsinkonsistenser ved sletning af film eller mapper med en strygebevægelse i lister."
+    }
+  ],
+  "patches": [
+    {
+      "version": "1.22.1",
+      "description": "Yderligere ydelsesforbedringer"
+    }
+  ],
+  "meta_title": "Store ydelsesforbedringer - Frames",
+  "meta_description": "Hurtigere ydeevne, forbedret stabilitet, bedre flytte-arbejdsgang og mere pålidelig købsgendannelse i Frames 1.22 til iOS."
+}

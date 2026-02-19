@@ -1,0 +1,67 @@
+{
+  "version": "1.22.0",
+  "version_short": "1.22",
+  "url_slug": "1-22-ios",
+  "platform": "ios",
+  "release_date": "2026-02-19T10:00:00.000Z",
+  "title": "Znaczące ulepszenia wydajności",
+  "summary": "To wydanie skupia się na szybkości, stabilności i udoskonaleniach codziennego przepływu pracy. Aplikacja działa szybciej, szczególnie na starszych urządzeniach, przenoszenie filmów i folderów jest bardziej czytelne i elastyczne, a kilka problemów z interfejsem zostało rozwiązanych, aby interakcje były bardziej spójne.",
+  "sections": [
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.22.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.22.0-1@2x.png",
+      "alt": "Aplikacja fotografii filmowej Frames z ulepszeniami wydajności i aktualizacjami ekranu przenoszenia",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Szybciej i stabilniej"
+    },
+    {
+      "type": "paragraph",
+      "content": "W całej aplikacji wprowadzono znaczące ulepszenia szybkości i stabilności. Nawigacja w bibliotece, edycja filmów i ogólne interakcje są wyraźnie szybsze, szczególnie na starszych modelach iPhone'a. Cel jest prosty: mniej czekania, więcej skupienia na swojej pracy."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Ulepszony przepływ przenoszenia"
+    },
+    {
+      "type": "paragraph",
+      "content": "Ekran przenoszenia zawiera teraz kontekstowy nagłówek, który jasno pokazuje, co przenosisz i dokąd to trafi. Filmy można teraz przenosić, edytować i eksportować bez zamykania paska narzędzi rejestratora, ułatwiając zarządzanie rolkami bez przerywania przepływu pracy."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Udoskonalenia i poprawki"
+    },
+    {
+      "type": "paragraph",
+      "content": "Przywracanie zakupów jest teraz bardziej niezawodne podczas przełączania urządzeń. Ekran powitalny został doprecyzowany dla systemu iOS 26, aby uniknąć zamieszania przy pierwszym uruchomieniu. Naprawiono też problemy z animacjami podczas usuwania filmów lub folderów gestem przesunięcia na listach, co skutkuje bardziej przewidywalnym zachowaniem w całej aplikacji."
+    }
+  ],
+  "improvements": [
+    "Znaczące ulepszenia szybkości i stabilności, szczególnie na starszych urządzeniach",
+    "Kontekstowy nagłówek dodany do ekranu przenoszenia dla większej przejrzystości",
+    "Przenoszenie, edytowanie i eksportowanie filmów bez zamykania dolnego paska narzędzi",
+    "Zwiększona niezawodność przywracania zakupów podczas przełączania urządzeń",
+    "Wyraźniejsza prezentacja ekranu powitalnego w iOS 26"
+  ],
+  "fixes": [
+    {
+      "title": "Animacje usuwania przeciągnięciem",
+      "description": "Naprawiono niespójności animacji podczas usuwania filmów lub folderów gestem przesunięcia na listach."
+    }
+  ],
+  "patches": [
+    {
+      "version": "1.22.1",
+      "description": "Dodatkowe ulepszenia wydajności"
+    }
+  ],
+  "meta_title": "Znaczące ulepszenia wydajności - Frames",
+  "meta_description": "Szybsze działanie, lepsza stabilność, ulepszony przepływ przenoszenia i niezawodniejsze przywracanie zakupów w Frames 1.22 na iOS."
+}

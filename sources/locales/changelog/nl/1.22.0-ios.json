@@ -1,0 +1,67 @@
+{
+  "version": "1.22.0",
+  "version_short": "1.22",
+  "url_slug": "1-22-ios",
+  "platform": "ios",
+  "release_date": "2026-02-19T10:00:00.000Z",
+  "title": "Grote prestatieverbeteringen",
+  "summary": "Deze release richt zich op snelheid, stabiliteit en verbeteringen van de dagelijkse workflow. De app werkt sneller, met name op oudere apparaten, het verplaatsen van filmrollen en mappen is duidelijker en flexibeler, en verschillende interfaceproblemen zijn opgelost voor consistentere interacties.",
+  "sections": [
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.22.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.22.0-1@2x.png",
+      "alt": "Frames filmfotografie-app met prestatieverbeteringen en updates van het verplaatsingsscherm",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Sneller en stabieler"
+    },
+    {
+      "type": "paragraph",
+      "content": "Er zijn grote snelheids- en stabiliteitsverbeteringen doorgevoerd in de hele app. Bibliotheeknavigatie, het bewerken van filmrollen en algemene interacties reageren merkbaar sneller, met name op oudere iPhone-modellen. Het doel is eenvoudig: minder wachten, meer focus op je werk."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Verbeterde verplaatsingsworkflow"
+    },
+    {
+      "type": "paragraph",
+      "content": "Het verplaatsingsscherm heeft nu een contextuele koptekst die duidelijk toont wat je verplaatst en waarheen. Filmrollen kunnen nu worden verplaatst, bewerkt en geëxporteerd zonder de opnamewerkbalk te sluiten, waardoor je rollen kunt beheren zonder je workflow te onderbreken."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Verfijningen en oplossingen"
+    },
+    {
+      "type": "paragraph",
+      "content": "Het herstellen van aankopen is nu betrouwbaarder bij het wisselen van apparaten. Het welkomstscherm is verduidelijkt voor iOS 26 om verwarring bij de eerste start te voorkomen. Animatieproblemen bij het verwijderen van filmrollen of mappen met een veegbeweging in lijsten zijn ook opgelost, wat resulteert in een voorspelbaarder gedrag in de hele app."
+    }
+  ],
+  "improvements": [
+    "Grote snelheids- en stabiliteitsverbeteringen, met name op oudere apparaten",
+    "Contextuele koptekst toegevoegd aan het verplaatsingsscherm voor meer duidelijkheid",
+    "Filmrollen verplaatsen, bewerken en exporteren zonder de onderste werkbalk te sluiten",
+    "Verbeterde betrouwbaarheid van aankoopherstel bij het wisselen van apparaten",
+    "Duidelijkere weergave van het welkomstscherm op iOS 26"
+  ],
+  "fixes": [
+    {
+      "title": "Veeganimaties voor verwijderen",
+      "description": "Animatie-inconsistenties opgelost bij het verwijderen van filmrollen of mappen met een veegbeweging in lijsten."
+    }
+  ],
+  "patches": [
+    {
+      "version": "1.22.1",
+      "description": "Aanvullende prestatieverbeteringen"
+    }
+  ],
+  "meta_title": "Grote prestatieverbeteringen - Frames",
+  "meta_description": "Snellere prestaties, verbeterde stabiliteit, betere verplaatsingsworkflow en betrouwbaarder aankoopherstel in Frames 1.22 voor iOS."
+}

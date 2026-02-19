@@ -1,0 +1,67 @@
+{
+  "version": "1.22.0",
+  "version_short": "1.22",
+  "url_slug": "1-22-ios",
+  "platform": "ios",
+  "release_date": "2026-02-19T10:00:00.000Z",
+  "title": "Major Performance Improvements",
+  "summary": "This release focuses on speed, stability, and everyday workflow refinements. The app runs faster, especially on older devices, moving films and folders is clearer and more flexible, and several interface issues have been resolved to make interactions feel more consistent.",
+  "sections": [
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.22.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.22.0-1@2x.png",
+      "alt": "Frames film photography app performance improvements and move screen updates",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Faster and More Stable"
+    },
+    {
+      "type": "paragraph",
+      "content": "Major speed and stability improvements have been implemented across the app. Library navigation, film editing, and general interactions are noticeably more responsive, particularly on older iPhone models. The goal is simple: less waiting, more focus on your work."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Improved Move Workflow"
+    },
+    {
+      "type": "paragraph",
+      "content": "The Move screen now includes a contextual header that clearly shows what you are moving and where it will go. Films can now be moved, edited, and exported without dismissing the recorder toolbar, making it easier to manage rolls without interrupting your flow."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Refinements and Fixes"
+    },
+    {
+      "type": "paragraph",
+      "content": "Purchase restoration is now more reliable when switching devices. The Welcome screen has been clarified for iOS 26 to avoid confusion during first launch. Animation issues when deleting films or folders with a swipe gesture in lists have also been fixed, resulting in more predictable behavior throughout the app."
+    }
+  ],
+  "improvements": [
+    "Major speed and stability improvements, especially on older devices",
+    "Contextual header added to the Move screen for better clarity",
+    "Move, edit, and export films without closing the bottom toolbar",
+    "Improved purchase restoration reliability when switching devices",
+    "Clearer Welcome screen presentation on iOS 26"
+  ],
+  "fixes": [
+    {
+      "title": "Swipe to delete animations",
+      "description": "Fixed animation inconsistencies when deleting films or folders using a swipe gesture in lists."
+    }
+  ],
+  "patches": [
+    {
+      "version": "1.22.1",
+      "description": "Additional performance improvements"
+    }
+  ],
+  "meta_title": "Major Performance Improvements - Frames",
+  "meta_description": "Faster performance, improved stability, better move workflow, and more reliable purchase restoration in Frames 1.22 for iOS."
+}

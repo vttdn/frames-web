@@ -1,0 +1,67 @@
+{
+  "version": "1.22.0",
+  "version_short": "1.22",
+  "url_slug": "1-22-ios",
+  "platform": "ios",
+  "release_date": "2026-02-19T10:00:00.000Z",
+  "title": "Merkittäviä suorituskykyparannuksia",
+  "summary": "Tämä päivitys keskittyy nopeuteen, vakauteen ja päivittäisen työnkulun parannuksiin. Sovellus toimii nopeammin erityisesti vanhemmilla laitteilla, filmirullien ja kansioiden siirtäminen on selkeämpää ja joustavampaa, ja useita käyttöliittymäongelmia on korjattu vuorovaikutusten johdonmukaisuuden parantamiseksi.",
+  "sections": [
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.22.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.22.0-1@2x.png",
+      "alt": "Frames-filmivalokuvaussovellus suorituskykyparannuksilla ja päivitetyllä siirtönäytöllä",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Nopeampi ja vakaampi"
+    },
+    {
+      "type": "paragraph",
+      "content": "Koko sovellukseen on toteutettu merkittäviä nopeus- ja vakausparannuksia. Kirjastonavigaatio, filmirullan muokkaus ja yleiset vuorovaikutukset ovat selvästi nopeampia erityisesti vanhemmilla iPhone-malleilla. Tavoite on yksinkertainen: vähemmän odottamista, enemmän keskittymistä työhösi."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Parannettu siirtotyönkulku"
+    },
+    {
+      "type": "paragraph",
+      "content": "Siirtönäyttöön on nyt lisätty kontekstuaalinen otsikko, joka näyttää selkeästi mitä olet siirtämässä ja minne se menee. Filmirullia voidaan nyt siirtää, muokata ja viedä sulkematta tallennustyökalupalkkia, mikä helpottaa rullien hallintaa työnkulkua keskeyttämättä."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Parannukset ja korjaukset"
+    },
+    {
+      "type": "paragraph",
+      "content": "Ostoksen palauttaminen on nyt luotettavampaa laitteiden vaihdon yhteydessä. Tervetuloruutua on selkeytetty iOS 26:lle sekaannusten välttämiseksi ensimmäisellä käynnistyskerralla. Animaatio-ongelmat filmirullien tai kansioiden poistamisessa pyyhkäisyeleen avulla luetteloissa on myös korjattu, mikä johtaa ennakoitavampaan toimintaan koko sovelluksessa."
+    }
+  ],
+  "improvements": [
+    "Merkittäviä nopeus- ja vakausparannuksia, erityisesti vanhemmilla laitteilla",
+    "Kontekstuaalinen otsikko lisätty siirtönäyttöön selkeyden parantamiseksi",
+    "Siirrä, muokkaa ja vie filmirullia sulkematta alatyökalupalkkia",
+    "Parannettu ostojen palauttamisen luotettavuus laitteiden vaihdon yhteydessä",
+    "Selkeämpi tervetuloruudun esitys iOS 26:ssa"
+  ],
+  "fixes": [
+    {
+      "title": "Pyyhkäisy poistaaksesi -animaatiot",
+      "description": "Korjattu animaatioepäjohdonmukaisuudet filmirullien tai kansioiden poistamisessa pyyhkäisyeleen avulla luetteloissa."
+    }
+  ],
+  "patches": [
+    {
+      "version": "1.22.1",
+      "description": "Lisää suorituskykyparannuksia"
+    }
+  ],
+  "meta_title": "Merkittäviä suorituskykyparannuksia - Frames",
+  "meta_description": "Nopeampi suorituskyky, parannettu vakaus, parempi siirtotyönkulku ja luotettavampi ostojen palautus Frames 1.22:ssa iOS:lle."
+}

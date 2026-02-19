@@ -1,0 +1,67 @@
+{
+  "version": "1.22.0",
+  "version_short": "1.22",
+  "url_slug": "1-22-ios",
+  "platform": "ios",
+  "release_date": "2026-02-19T10:00:00.000Z",
+  "title": "Îmbunătățiri majore de performanță",
+  "summary": "Această versiune se concentrează pe viteză, stabilitate și îmbunătățiri ale fluxului de lucru zilnic. Aplicația rulează mai rapid, în special pe dispozitive mai vechi, mutarea filmelor și a dosarelor este mai clară și mai flexibilă, iar mai multe probleme de interfață au fost rezolvate pentru interacțiuni mai consistente.",
+  "sections": [
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.22.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.22.0-1@2x.png",
+      "alt": "Aplicația Frames pentru fotografie pe film cu îmbunătățiri de performanță și actualizări ale ecranului de mutare",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Mai rapidă și mai stabilă"
+    },
+    {
+      "type": "paragraph",
+      "content": "Îmbunătățiri majore de viteză și stabilitate au fost implementate în întreaga aplicație. Navigarea în bibliotecă, editarea filmelor și interacțiunile generale sunt vizibil mai responsive, în special pe modelele mai vechi de iPhone. Obiectivul este simplu: mai puțin timp de așteptare, mai mult focus pe munca ta."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Flux de mutare îmbunătățit"
+    },
+    {
+      "type": "paragraph",
+      "content": "Ecranul de mutare include acum un antet contextual care arată clar ce muți și unde va merge. Filmele pot fi acum mutate, editate și exportate fără a închide bara de instrumente a înregistratorului, facilitând gestionarea rolelor fără a-ți întrerupe fluxul de lucru."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Îmbunătățiri și corecții"
+    },
+    {
+      "type": "paragraph",
+      "content": "Restaurarea achizițiilor este acum mai fiabilă la schimbarea dispozitivelor. Ecranul de bun venit a fost clarificat pentru iOS 26 pentru a evita confuzia la prima lansare. Problemele de animație la ștergerea filmelor sau dosarelor cu un gest de glisare în liste au fost, de asemenea, remediate, rezultând un comportament mai predictibil în întreaga aplicație."
+    }
+  ],
+  "improvements": [
+    "Îmbunătățiri majore de viteză și stabilitate, în special pe dispozitive mai vechi",
+    "Antet contextual adăugat la ecranul de mutare pentru claritate sporită",
+    "Mută, editează și exportă filme fără a închide bara de instrumente inferioară",
+    "Fiabilitate îmbunătățită a restaurării achizițiilor la schimbarea dispozitivelor",
+    "Prezentare mai clară a ecranului de bun venit pe iOS 26"
+  ],
+  "fixes": [
+    {
+      "title": "Animații de ștergere prin glisare",
+      "description": "Au fost remediate inconsistențele animațiilor la ștergerea filmelor sau dosarelor cu un gest de glisare în liste."
+    }
+  ],
+  "patches": [
+    {
+      "version": "1.22.1",
+      "description": "Îmbunătățiri suplimentare de performanță"
+    }
+  ],
+  "meta_title": "Îmbunătățiri majore de performanță - Frames",
+  "meta_description": "Performanță mai rapidă, stabilitate îmbunătățită, flux de mutare mai bun și restaurare mai fiabilă a achizițiilor în Frames 1.22 pentru iOS."
+}

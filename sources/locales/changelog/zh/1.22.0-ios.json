@@ -1,0 +1,67 @@
+{
+  "version": "1.22.0",
+  "version_short": "1.22",
+  "url_slug": "1-22-ios",
+  "platform": "ios",
+  "release_date": "2026-02-19T10:00:00.000Z",
+  "title": "重大性能提升",
+  "summary": "此版本专注于速度、稳定性和日常工作流程改进。应用运行更快，尤其是在旧设备上，移动胶片和文件夹更加清晰、灵活，多个界面问题已得到修复，使操作体验更加一致。",
+  "sections": [
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.22.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.22.0-1@2x.png",
+      "alt": "Frames 胶片摄影应用的性能提升与移动界面更新",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "更快、更稳定"
+    },
+    {
+      "type": "paragraph",
+      "content": "应用全面实现了速度与稳定性的重大提升。资料库浏览、胶片编辑及各类操作的响应速度明显加快，尤其是在旧款 iPhone 机型上。目标很简单：减少等待，专注于您的工作。"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "改进的移动工作流程"
+    },
+    {
+      "type": "paragraph",
+      "content": "移动界面现在加入了上下文标题，清晰显示您正在移动的内容及目标位置。无需关闭录制工具栏，即可移动、编辑和导出胶片，让您在不中断工作流程的情况下轻松管理胶卷。"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "优化与修复"
+    },
+    {
+      "type": "paragraph",
+      "content": "切换设备时，购买恢复的可靠性有所提升。针对 iOS 26 优化了欢迎界面，避免首次启动时造成困惑。修复了在列表中使用滑动手势删除胶片或文件夹时出现的动画问题，使应用整体行为更加稳定可预期。"
+    }
+  ],
+  "improvements": [
+    "重大速度与稳定性提升，尤其针对旧设备",
+    "移动界面新增上下文标题，提高操作清晰度",
+    "无需关闭底部工具栏即可移动、编辑和导出胶片",
+    "切换设备时购买恢复的可靠性提升",
+    "iOS 26 欢迎界面展示更加清晰"
+  ],
+  "fixes": [
+    {
+      "title": "滑动删除动画",
+      "description": "修复了在列表中通过滑动手势删除胶片或文件夹时出现的动画不一致问题"
+    }
+  ],
+  "patches": [
+    {
+      "version": "1.22.1",
+      "description": "进一步性能优化"
+    }
+  ],
+  "meta_title": "重大性能提升 - Frames",
+  "meta_description": "Frames 1.22 iOS 版带来更快的性能、更强的稳定性、改进的移动工作流程以及更可靠的购买恢复功能"
+}

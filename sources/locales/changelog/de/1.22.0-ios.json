@@ -1,0 +1,67 @@
+{
+  "version": "1.22.0",
+  "version_short": "1.22",
+  "url_slug": "1-22-ios",
+  "platform": "ios",
+  "release_date": "2026-02-19T10:00:00.000Z",
+  "title": "Umfangreiche Leistungsverbesserungen",
+  "summary": "Dieses Update konzentriert sich auf Geschwindigkeit, Stabilität und Verbesserungen des täglichen Arbeitsablaufs. Die App läuft schneller, besonders auf älteren Geräten, das Verschieben von Filmrollen und Ordnern ist klarer und flexibler, und mehrere Probleme der Benutzeroberfläche wurden behoben, um Interaktionen konsistenter zu gestalten.",
+  "sections": [
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.22.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.22.0-1@2x.png",
+      "alt": "Frames-Filmfotografie-App mit Leistungsverbesserungen und aktualisiertem Verschieben-Bildschirm",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Schneller und stabiler"
+    },
+    {
+      "type": "paragraph",
+      "content": "Umfangreiche Geschwindigkeits- und Stabilitätsverbesserungen wurden in der gesamten App implementiert. Die Bibliotheksnavigation, die Filmrollenbearbeitung und allgemeine Interaktionen reagieren spürbar schneller, insbesondere auf älteren iPhone-Modellen. Das Ziel ist einfach: weniger Warten, mehr Fokus auf deine Arbeit."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Verbesserter Verschieben-Ablauf"
+    },
+    {
+      "type": "paragraph",
+      "content": "Der Verschieben-Bildschirm enthält jetzt eine kontextbezogene Kopfzeile, die klar anzeigt, was du verschiebst und wohin. Filmrollen können jetzt verschoben, bearbeitet und exportiert werden, ohne die Rekorder-Symbolleiste zu schließen, was die Verwaltung von Rollen erleichtert, ohne deinen Arbeitsfluss zu unterbrechen."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Verfeinerungen und Fehlerbehebungen"
+    },
+    {
+      "type": "paragraph",
+      "content": "Die Kaufwiederherstellung ist jetzt zuverlässiger beim Gerätewechsel. Der Willkommensbildschirm wurde für iOS 26 überarbeitet, um Verwirrung beim ersten Start zu vermeiden. Animationsprobleme beim Löschen von Filmrollen oder Ordnern per Wischgeste in Listen wurden ebenfalls behoben, was zu einem vorhersehbareren Verhalten in der gesamten App führt."
+    }
+  ],
+  "improvements": [
+    "Umfangreiche Geschwindigkeits- und Stabilitätsverbesserungen, besonders auf älteren Geräten",
+    "Kontextbezogene Kopfzeile zum Verschieben-Bildschirm für mehr Übersicht hinzugefügt",
+    "Filmrollen verschieben, bearbeiten und exportieren, ohne die untere Symbolleiste zu schließen",
+    "Verbesserte Zuverlässigkeit der Kaufwiederherstellung beim Gerätewechsel",
+    "Klarere Darstellung des Willkommensbildschirms unter iOS 26"
+  ],
+  "fixes": [
+    {
+      "title": "Wischgeste zum Löschen-Animationen",
+      "description": "Animationsinkonsistenzen beim Löschen von Filmrollen oder Ordnern per Wischgeste in Listen behoben."
+    }
+  ],
+  "patches": [
+    {
+      "version": "1.22.1",
+      "description": "Weitere Leistungsverbesserungen"
+    }
+  ],
+  "meta_title": "Umfangreiche Leistungsverbesserungen - Frames",
+  "meta_description": "Schnellere Leistung, verbesserte Stabilität, besserer Verschieben-Ablauf und zuverlässigere Kaufwiederherstellung in Frames 1.22 für iOS."
+}

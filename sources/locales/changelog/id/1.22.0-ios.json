@@ -1,0 +1,67 @@
+{
+  "version": "1.22.0",
+  "version_short": "1.22",
+  "url_slug": "1-22-ios",
+  "platform": "ios",
+  "release_date": "2026-02-19T10:00:00.000Z",
+  "title": "Peningkatan Performa Besar",
+  "summary": "Rilis ini berfokus pada kecepatan, stabilitas, dan penyempurnaan alur kerja sehari-hari. Aplikasi berjalan lebih cepat, terutama pada perangkat lama, memindahkan film dan folder lebih jelas dan fleksibel, serta beberapa masalah antarmuka telah diperbaiki untuk membuat interaksi terasa lebih konsisten.",
+  "sections": [
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.22.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.22.0-1@2x.png",
+      "alt": "Aplikasi fotografi film Frames dengan peningkatan performa dan pembaruan layar pindah",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Lebih Cepat dan Lebih Stabil"
+    },
+    {
+      "type": "paragraph",
+      "content": "Peningkatan kecepatan dan stabilitas besar telah diterapkan di seluruh aplikasi. Navigasi perpustakaan, pengeditan film, dan interaksi umum terasa jauh lebih responsif, terutama pada model iPhone lama. Tujuannya sederhana: lebih sedikit menunggu, lebih fokus pada pekerjaan Anda."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Alur Kerja Pindah yang Lebih Baik"
+    },
+    {
+      "type": "paragraph",
+      "content": "Layar Pindah kini menyertakan header kontekstual yang jelas menampilkan apa yang Anda pindahkan dan ke mana tujuannya. Film sekarang dapat dipindahkan, diedit, dan diekspor tanpa menutup bilah alat perekam, sehingga lebih mudah mengelola rol tanpa mengganggu alur kerja Anda."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Penyempurnaan dan Perbaikan"
+    },
+    {
+      "type": "paragraph",
+      "content": "Pemulihan pembelian kini lebih andal saat berpindah perangkat. Layar Selamat Datang telah diperjelas untuk iOS 26 guna menghindari kebingungan saat pertama kali dijalankan. Masalah animasi saat menghapus film atau folder dengan gerakan geser dalam daftar juga telah diperbaiki, menghasilkan perilaku yang lebih dapat diprediksi di seluruh aplikasi."
+    }
+  ],
+  "improvements": [
+    "Peningkatan kecepatan dan stabilitas besar, terutama pada perangkat lama",
+    "Header kontekstual ditambahkan ke layar Pindah untuk kejelasan yang lebih baik",
+    "Pindah, edit, dan ekspor film tanpa menutup bilah alat bawah",
+    "Peningkatan keandalan pemulihan pembelian saat berpindah perangkat",
+    "Tampilan layar Selamat Datang yang lebih jelas di iOS 26"
+  ],
+  "fixes": [
+    {
+      "title": "Animasi geser untuk hapus",
+      "description": "Memperbaiki ketidakkonsistenan animasi saat menghapus film atau folder menggunakan gerakan geser dalam daftar."
+    }
+  ],
+  "patches": [
+    {
+      "version": "1.22.1",
+      "description": "Peningkatan performa tambahan"
+    }
+  ],
+  "meta_title": "Peningkatan Performa Besar - Frames",
+  "meta_description": "Performa lebih cepat, stabilitas lebih baik, alur kerja pindah yang ditingkatkan, dan pemulihan pembelian lebih andal di Frames 1.22 untuk iOS."
+}

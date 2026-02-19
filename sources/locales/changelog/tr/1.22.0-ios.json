@@ -1,0 +1,67 @@
+{
+  "version": "1.22.0",
+  "version_short": "1.22",
+  "url_slug": "1-22-ios",
+  "platform": "ios",
+  "release_date": "2026-02-19T10:00:00.000Z",
+  "title": "Büyük Performans İyileştirmeleri",
+  "summary": "Bu sürüm hız, kararlılık ve günlük iş akışı iyileştirmelerine odaklanmaktadır. Uygulama özellikle eski cihazlarda daha hızlı çalışmakta, film ve klasörleri taşımak daha net ve esnek hale gelmekte, birçok arayüz sorunu da etkileşimleri daha tutarlı kılmak için çözülmüştür.",
+  "sections": [
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.22.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.22.0-1@2x.png",
+      "alt": "Film fotoğrafçılığı uygulaması Frames'in performans iyileştirmeleri ve taşıma ekranı güncellemeleri",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Daha Hızlı ve Daha Kararlı"
+    },
+    {
+      "type": "paragraph",
+      "content": "Uygulamanın tamamında büyük hız ve kararlılık iyileştirmeleri hayata geçirildi. Kitaplık gezintisi, film düzenleme ve genel etkileşimler, özellikle eski iPhone modellerinde belirgin biçimde daha duyarlı hale geldi. Amaç basit: daha az bekleme, işinize daha fazla odaklanma."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "İyileştirilmiş Taşıma İş Akışı"
+    },
+    {
+      "type": "paragraph",
+      "content": "Taşıma ekranı, neyi nereye taşıdığınızı açıkça gösteren bağlamsal bir başlık içeriyor artık. Filmler, kayıt araç çubuğunu kapatmadan taşınabilir, düzenlenebilir ve dışa aktarılabilir; bu da iş akışınızı bozmadan ruloları yönetmeyi kolaylaştırır."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "İyileştirmeler ve Düzeltmeler"
+    },
+    {
+      "type": "paragraph",
+      "content": "Cihaz değiştirirken satın alma geri yükleme işlemi artık daha güvenilir. iOS 26'da ilk başlatmadaki karışıklığı önlemek amacıyla Karşılama ekranı netleştirildi. Listelerde kaydırma hareketiyle film veya klasör silinirken yaşanan animasyon sorunları da giderildi; bu sayede uygulama genelinde daha öngörülebilir bir davranış elde edildi."
+    }
+  ],
+  "improvements": [
+    "Büyük hız ve kararlılık iyileştirmeleri, özellikle eski cihazlarda",
+    "Taşıma ekranına daha iyi netlik için bağlamsal başlık eklendi",
+    "Alt araç çubuğunu kapatmadan film taşıma, düzenleme ve dışa aktarma",
+    "Cihaz değiştirirken satın alma geri yükleme güvenilirliği artırıldı",
+    "iOS 26'da Karşılama ekranı sunumunun netleştirilmesi"
+  ],
+  "fixes": [
+    {
+      "title": "Silmek için kaydırma animasyonları",
+      "description": "Listelerde kaydırma hareketiyle film veya klasör silinirken yaşanan animasyon tutarsızlıkları giderildi."
+    }
+  ],
+  "patches": [
+    {
+      "version": "1.22.1",
+      "description": "Ek performans iyileştirmeleri"
+    }
+  ],
+  "meta_title": "Büyük Performans İyileştirmeleri - Frames",
+  "meta_description": "Frames 1.22 iOS sürümünde daha hızlı performans, gelişmiş kararlılık, iyileştirilmiş taşıma iş akışı ve daha güvenilir satın alma geri yükleme."
+}
