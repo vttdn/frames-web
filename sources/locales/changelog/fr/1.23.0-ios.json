@@ -1,0 +1,61 @@
+{
+  "version": "1.23.0",
+  "version_short": "1.23",
+  "url_slug": "1-23-ios",
+  "platform": "ios",
+  "release_date": "2026-03-04T10:00:00.000Z",
+  "title": "Affichage en galerie et personnalisation de la barre d’enregistreur",
+  "summary": "Cette mise à jour vous offre un meilleur contrôle sur la manière dont vous parcourez et interagissez avec vos frames. Passez facilement entre les vues Liste et Galerie pour naviguer dans votre bibliothèque visuellement ou en détail, et personnalisez la barre d’enregistreur selon votre flux de travail. Accédez rapidement à vos paramètres les plus utilisés et gérez vos pellicules de manière plus fluide et intuitive.",
+  "sections": [
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.23.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.23.0-1@2x.png",
+      "alt": "Application Frames affichant la vue Galerie et une barre d’enregistreur personnalisée",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Affichage en galerie"
+    },
+    {
+      "type": "paragraph",
+      "content": "Vous pouvez désormais parcourir vos frames dans une disposition Galerie, ce qui facilite la visualisation de vos pellicules. Passez facilement de la vue Liste à la vue Galerie selon vos préférences de navigation dans votre bibliothèque."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Barre d’enregistreur personnalisable"
+    },
+    {
+      "type": "paragraph",
+      "content": "Choisissez les commandes à afficher dans votre barre d’enregistreur et organisez-les dans l’ordre qui convient à votre flux de travail. Vous pouvez désormais ajouter des raccourcis pour les principaux paramètres de prise de vue, tels que compensation, flash, programme d’exposition, mode de mesure, distance de mise au point et objectif. Vos outils les plus utilisés sont toujours à portée de main, rendant l’enregistrement de vos prises plus rapide et intuitif que jamais."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Améliorations et corrections"
+    },
+    {
+      "type": "paragraph",
+      "content": "De petites améliorations de l’interface garantissent des transitions fluides entre les vues et un comportement cohérent lors de la personnalisation de la barre. La réactivité générale et le retour visuel ont été peaufinés pour une expérience plus intuitive."
+    }
+  ],
+  "improvements": [
+    "Nouvel affichage en galerie pour parcourir les films",
+    "Passez facilement entre les vues Liste et Galerie",
+    "Personnalisez les commandes et leur ordre dans la barre d’enregistreur",
+    "Petites améliorations de l’interface pour une navigation plus fluide"
+  ],
+  "fixes": [],
+  "patches": [
+    {
+      "version": "1.23.1",
+      "description": "Paramètres de la barre d’enregistreur mis à jour pour plus de clarté"
+    }
+  ],
+  "meta_title": "Affichage en galerie et personnalisation de la barre - Frames",
+  "meta_description": "Parcourez vos films en vue Galerie ou Liste et personnalisez votre barre d’enregistreur dans Frames 1.23 pour iOS."
+}

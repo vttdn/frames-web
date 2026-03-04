@@ -1,0 +1,61 @@
+{
+  "version": "1.23.0",
+  "version_short": "1.23",
+  "url_slug": "1-23-ios",
+  "platform": "ios",
+  "release_date": "2026-03-04T10:00:00.000Z",
+  "title": "Gallery View and Toolbar Customization",
+  "summary": "This release gives you more control over how you browse and interact with your films. Switch between List and Gallery layouts to navigate your library visually or in detail, and customize your recorder toolbar to fit your workflow. Quickly access your most-used settings and manage your film rolls more smoothly and intuitively.",
+  "sections": [
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.23.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.23.0-1@2x.png",
+      "alt": "Frames app showing Gallery View and customized recorder toolbar",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Gallery View"
+    },
+    {
+      "type": "paragraph",
+      "content": "You can now browse your films in a Gallery layout, making it easier to visually scan your rolls. Switch seamlessly between List and Gallery views depending on how you prefer to navigate your library."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Customizable Recorder Toolbar"
+    },
+    {
+      "type": "paragraph",
+      "content": "Choose which controls appear in your recorder toolbar and arrange them in the order that suits your workflow. You can now add shortcuts for key shooting parameters including Compensation, Flash, Exposure Program, Metering Mode, Focus Distance, and Lens. Your most-used tools are always at your fingertips, making recording your shots faster and more intuitive than ever."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Refinements and Fixes"
+    },
+    {
+      "type": "paragraph",
+      "content": "Minor interface improvements ensure smooth switching between views and consistent behavior when customizing the toolbar. Overall responsiveness and visual feedback have been polished for a more intuitive experience."
+    }
+  ],
+  "improvements": [
+    "New Gallery View for browsing films",
+    "Switch easily between List and Gallery layouts",
+    "Customize recorder toolbar controls and their order",
+    "Minor interface refinements for smoother navigation"
+  ],
+  "fixes": [],
+  "patches": [
+    {
+      "version": "1.23.1",
+      "description": "Recorder settings updated for clarity"
+    }
+  ],
+  "meta_title": "Gallery View and Toolbar Customization - Frames",
+  "meta_description": "Browse your films in Gallery or List layouts and customize your recorder toolbar in Frames 1.23 for iOS."
+}
