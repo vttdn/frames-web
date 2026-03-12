@@ -1,0 +1,76 @@
+{
+  "version": "1.23.0",
+  "version_short": "1.23",
+  "url_slug": "1-23-ios",
+  "platform": "ios",
+  "release_date": "2026-03-04T10:00:00.000Z",
+  "title": "Galerieansicht und Symbolleiste anpassen",
+  "summary": "Dieses Update gibt dir mehr Kontrolle darüber, wie du deine Filmrollen durchstöberst und verwaltest. Wechsle zwischen Listen- und Galerieansicht, um deine Bibliothek visuell oder detailliert zu erkunden, und passe die Symbolleiste des Recorders an deinen Workflow an. Greife schnell auf deine meistgenutzten Einstellungen zu und verwalte deine Filmrollen noch reibungsloser und intuitiver.",
+  "sections": [
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.23.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.23.0-1@2x.png",
+      "alt": "Frames-App mit Galerieansicht und angepasster Recorder-Symbolleiste",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Galerieansicht"
+    },
+    {
+      "type": "paragraph",
+      "content": "Durchstöbere deine Filmrollen jetzt in einer Galerieansicht, um deine Rollen visuell auf einen Blick zu erfassen. Wechsle nahtlos zwischen Listen- und Galerieansicht, je nachdem wie du am liebsten durch deine Bibliothek navigierst."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Anpassbare Recorder-Symbolleiste"
+    },
+    {
+      "type": "paragraph",
+      "content": "Wähle aus, welche Bedienelemente in der Symbolleiste des Recorders angezeigt werden, und ordne sie in der Reihenfolge an, die zu deinem Workflow passt. Du kannst jetzt Schnellzugriffe für wichtige Aufnahmeparameter hinzufügen, darunter Belichtungskorrektur, Blitz, Belichtungsprogramm, Messmethode, Fokusabstand und Objektiv. Deine meistgenutzten Werkzeuge sind immer griffbereit – so geht das Erfassen deiner Aufnahmen schneller und intuitiver als je zuvor."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Verbesserungen und Fehlerbehebungen"
+    },
+    {
+      "type": "paragraph",
+      "content": "Kleine Verbesserungen der Benutzeroberfläche sorgen für einen reibungslosen Wechsel zwischen Ansichten und ein einheitliches Verhalten beim Anpassen der Symbolleiste. Die allgemeine Reaktionsfähigkeit und das visuelle Feedback wurden für ein intuitiveres Erlebnis verfeinert."
+    }
+  ],
+  "improvements": [
+    "Neue Galerieansicht zum Durchstöbern der Filmrollen",
+    "Einfacher Wechsel zwischen Listen- und Galerieansicht",
+    "Bedienelemente der Recorder-Symbolleiste und ihre Reihenfolge anpassen",
+    "Kleine Verbesserungen der Benutzeroberfläche für flüssigere Navigation",
+    "Bessere Steuerung von Zoomobjektiven über die Symbolleiste",
+    "Zugriff auf Symbolleisten-Einstellungen von jedem Filmrollen-Bildschirm"
+  ],
+  "fixes": [
+    {
+      "title": "Generierung der Galerievorschau",
+      "description": "Ein Absturz beim App-Start im Zusammenhang mit der Generierung von Vorschaubildern wurde behoben."
+    }
+  ],
+  "patches": [
+    {
+      "version": "1.23.1",
+      "description": "Recorder-Einstellungen zur besseren Übersicht aktualisiert"
+    },
+    {
+      "version": "1.23.2",
+      "description": "Absturz bei der Vorschaubildgenerierung behoben"
+    },
+    {
+      "version": "1.23.3",
+      "description": "Bessere Steuerung von Objektiven über die Symbolleiste"
+    }
+  ],
+  "meta_title": "Galerieansicht und Symbolleiste anpassen - Frames",
+  "meta_description": "Durchstöbere deine Filmrollen in der Galerie- oder Listenansicht und passe die Recorder-Symbolleiste in Frames 1.23 für iOS an."
+}

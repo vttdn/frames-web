@@ -1,0 +1,76 @@
+{
+  "version": "1.23.0",
+  "version_short": "1.23",
+  "url_slug": "1-23-ios",
+  "platform": "ios",
+  "release_date": "2026-03-04T10:00:00.000Z",
+  "title": "Tampilan galeri dan kustomisasi toolbar",
+  "summary": "Pembaruan ini memberi Anda lebih banyak kontrol atas cara menelusuri dan mengelola film. Beralih antara tampilan daftar dan galeri untuk menjelajahi perpustakaan secara visual atau detail, dan sesuaikan toolbar perekam dengan alur kerja Anda. Akses pengaturan yang paling sering digunakan dengan cepat dan kelola film dengan lebih lancar dan intuitif.",
+  "sections": [
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.23.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.23.0-1@2x.png",
+      "alt": "Aplikasi Frames menampilkan tampilan galeri dan toolbar perekam yang dikustomisasi",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Tampilan galeri"
+    },
+    {
+      "type": "paragraph",
+      "content": "Kini Anda dapat menelusuri film dalam tampilan galeri, sehingga lebih mudah untuk melihat rol film secara visual dalam sekali pandang. Beralih dengan mulus antara tampilan daftar dan galeri sesuai cara Anda lebih suka menjelajahi perpustakaan."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Toolbar perekam yang dapat dikustomisasi"
+    },
+    {
+      "type": "paragraph",
+      "content": "Pilih kontrol mana yang muncul di toolbar perekam dan atur urutannya sesuai alur kerja Anda. Kini Anda dapat menambahkan pintasan untuk parameter pemotretan utama seperti kompensasi eksposur, flash, program eksposur, mode metering, jarak fokus, dan lensa. Alat yang paling sering digunakan selalu dalam jangkauan, sehingga merekam pemotretan lebih cepat dan intuitif dari sebelumnya."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Penyempurnaan dan perbaikan"
+    },
+    {
+      "type": "paragraph",
+      "content": "Perbaikan antarmuka minor memastikan perpindahan yang mulus antar tampilan dan perilaku yang konsisten saat mengkustomisasi toolbar. Responsivitas keseluruhan dan umpan balik visual telah disempurnakan untuk pengalaman yang lebih intuitif."
+    }
+  ],
+  "improvements": [
+    "Tampilan galeri baru untuk menelusuri film",
+    "Beralih dengan mudah antara tampilan daftar dan galeri",
+    "Kustomisasi kontrol toolbar perekam dan urutannya",
+    "Penyempurnaan antarmuka minor untuk navigasi yang lebih lancar",
+    "Kontrol lensa zoom yang lebih baik dari toolbar",
+    "Akses pengaturan toolbar dari layar film mana pun"
+  ],
+  "fixes": [
+    {
+      "title": "Pembuatan pratinjau galeri",
+      "description": "Memperbaiki crash saat peluncuran aplikasi terkait pembuatan gambar pratinjau."
+    }
+  ],
+  "patches": [
+    {
+      "version": "1.23.1",
+      "description": "Pengaturan perekam diperbarui untuk kejelasan"
+    },
+    {
+      "version": "1.23.2",
+      "description": "Crash pembuatan gambar pratinjau diperbaiki"
+    },
+    {
+      "version": "1.23.3",
+      "description": "Kontrol lensa yang lebih baik dari toolbar"
+    }
+  ],
+  "meta_title": "Tampilan galeri dan kustomisasi toolbar - Frames",
+  "meta_description": "Telusuri film dalam tampilan galeri atau daftar dan sesuaikan toolbar perekam di Frames 1.23 untuk iOS."
+}

@@ -47,13 +47,28 @@
     "New Gallery View for browsing films",
     "Switch easily between List and Gallery layouts",
     "Customize recorder toolbar controls and their order",
-    "Minor interface refinements for smoother navigation"
+    "Minor interface refinements for smoother navigation",
+    "More control over zoom lenses from the toolbar",
+    "Access toolbar settings from any film roll screen"
   ],
-  "fixes": [],
+  "fixes": [
+    {
+      "title": "Gallery preview generation",
+      "description": "Fixed a crash on app launch related to preview image generation."
+    }
+  ],
   "patches": [
     {
       "version": "1.23.1",
       "description": "Recorder settings updated for clarity"
+    },
+    {
+      "version": "1.23.2",
+      "description": "Preview image generation crash fixed"
+    },
+    {
+      "version": "1.23.3",
+      "description": "Better control of lenses from the toolbar"
     }
   ],
   "meta_title": "Gallery View and Toolbar Customization - Frames",

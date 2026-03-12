@@ -1,0 +1,76 @@
+{
+  "version": "1.23.0",
+  "version_short": "1.23",
+  "url_slug": "1-23-ios",
+  "platform": "ios",
+  "release_date": "2026-03-04T10:00:00.000Z",
+  "title": "Vizualizare galerie și personalizarea barei de instrumente",
+  "summary": "Această actualizare îți oferă mai mult control asupra modului în care navighezi și gestionezi filmele tale. Comută între afișarea sub formă de listă și galerie pentru a explora biblioteca vizual sau în detaliu, și personalizează bara de instrumente a înregistratorului conform fluxului tău de lucru. Accesează rapid setările cele mai utilizate și gestionează-ți filmele mai fluid și mai intuitiv.",
+  "sections": [
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.23.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.23.0-1@2x.png",
+      "alt": "Aplicația Frames afișând vizualizarea galerie și bara de instrumente personalizată a înregistratorului",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Vizualizare galerie"
+    },
+    {
+      "type": "paragraph",
+      "content": "Acum poți răsfoi filmele într-un format de galerie, facilitând o trecere vizuală rapidă a rolelor tale. Comută fără întreruperi între vizualizarea sub formă de listă și galerie, în funcție de modul în care preferi să navighezi prin bibliotecă."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Bară de instrumente personalizabilă a înregistratorului"
+    },
+    {
+      "type": "paragraph",
+      "content": "Alege ce comenzi apar în bara de instrumente a înregistratorului și aranjează-le în ordinea potrivită fluxului tău de lucru. Acum poți adăuga scurtături pentru parametrii cheie de fotografiere, inclusiv compensarea expunerii, blițul, programul de expunere, modul de măsurare, distanța de focalizare și obiectivul. Instrumentele tale cele mai folosite sunt mereu la îndemână, făcând înregistrarea fotografiilor mai rapidă și mai intuitivă ca niciodată."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Îmbunătățiri și corecții"
+    },
+    {
+      "type": "paragraph",
+      "content": "Îmbunătățiri minore ale interfeței asigură comutarea fluidă între vizualizări și un comportament consistent la personalizarea barei de instrumente. Capacitatea de răspuns generală și feedback-ul vizual au fost rafinete pentru o experiență mai intuitivă."
+    }
+  ],
+  "improvements": [
+    "Vizualizare galerie nouă pentru răsfoirea filmelor",
+    "Comutare ușoară între afișarea sub formă de listă și galerie",
+    "Personalizarea comenzilor din bara de instrumente și a ordinii acestora",
+    "Îmbunătățiri minore ale interfeței pentru navigare mai fluidă",
+    "Mai mult control asupra obiectivelor zoom din bara de instrumente",
+    "Acces la setările barei de instrumente din orice ecran de film"
+  ],
+  "fixes": [
+    {
+      "title": "Generarea previzualizărilor din galerie",
+      "description": "S-a remediat o eroare fatală la pornirea aplicației legată de generarea imaginilor de previzualizare."
+    }
+  ],
+  "patches": [
+    {
+      "version": "1.23.1",
+      "description": "Setările înregistratorului actualizate pentru mai multă claritate"
+    },
+    {
+      "version": "1.23.2",
+      "description": "Eroare fatală la generarea previzualizărilor remediată"
+    },
+    {
+      "version": "1.23.3",
+      "description": "Control mai bun al obiectivelor din bara de instrumente"
+    }
+  ],
+  "meta_title": "Vizualizare galerie și personalizarea barei - Frames",
+  "meta_description": "Răsfoiește filmele în galerie sau listă și personalizează bara de instrumente a înregistratorului în Frames 1.23 pentru iOS."
+}

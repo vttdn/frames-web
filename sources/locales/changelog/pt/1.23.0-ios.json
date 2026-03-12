@@ -1,0 +1,76 @@
+{
+  "version": "1.23.0",
+  "version_short": "1.23",
+  "url_slug": "1-23-ios",
+  "platform": "ios",
+  "release_date": "2026-03-04T10:00:00.000Z",
+  "title": "Vista de galeria e personalização da barra de ferramentas",
+  "summary": "Esta atualização dá-te mais controlo sobre como exploras e geres as tuas películas. Alterna entre os modos de lista e galeria para navegar na tua biblioteca de forma visual ou detalhada, e personaliza a barra de ferramentas do gravador conforme o teu fluxo de trabalho. Acede rapidamente às definições mais utilizadas e gere as tuas películas de forma mais fluida e intuitiva.",
+  "sections": [
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.23.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.23.0-1@2x.png",
+      "alt": "Aplicação Frames a mostrar a vista de galeria e a barra de ferramentas personalizada do gravador",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Vista de galeria"
+    },
+    {
+      "type": "paragraph",
+      "content": "Agora podes explorar as tuas películas num formato de galeria, facilitando uma visualização rápida dos teus rolos. Alterna facilmente entre as vistas de lista e galeria conforme a tua preferência de navegação na biblioteca."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Barra de ferramentas do gravador personalizável"
+    },
+    {
+      "type": "paragraph",
+      "content": "Escolhe quais os controlos que aparecem na barra de ferramentas do gravador e organiza-os pela ordem que melhor se adapta ao teu fluxo de trabalho. Agora podes adicionar atalhos para os principais parâmetros de disparo, incluindo compensação de exposição, flash, programa de exposição, modo de medição, distância de focagem e objetiva. As tuas ferramentas mais utilizadas estão sempre à mão, tornando o registo das tuas fotografias mais rápido e intuitivo do que nunca."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Melhorias e correções"
+    },
+    {
+      "type": "paragraph",
+      "content": "Pequenas melhorias na interface garantem uma transição suave entre vistas e um comportamento consistente ao personalizar a barra de ferramentas. A capacidade de resposta geral e o feedback visual foram aperfeiçoados para uma experiência mais intuitiva."
+    }
+  ],
+  "improvements": [
+    "Nova vista de galeria para explorar películas",
+    "Alternância fácil entre os modos de lista e galeria",
+    "Personalização dos controlos da barra de ferramentas e da sua ordem",
+    "Pequenas melhorias na interface para uma navegação mais fluida",
+    "Maior controlo das objetivas zoom a partir da barra de ferramentas",
+    "Acesso às definições da barra de ferramentas a partir de qualquer ecrã de película"
+  ],
+  "fixes": [
+    {
+      "title": "Geração de pré-visualizações da galeria",
+      "description": "Corrigido um encerramento inesperado ao iniciar a aplicação, relacionado com a geração de imagens de pré-visualização."
+    }
+  ],
+  "patches": [
+    {
+      "version": "1.23.1",
+      "description": "Definições do gravador atualizadas para maior clareza"
+    },
+    {
+      "version": "1.23.2",
+      "description": "Encerramento inesperado na geração de pré-visualizações corrigido"
+    },
+    {
+      "version": "1.23.3",
+      "description": "Melhor controlo das objetivas a partir da barra de ferramentas"
+    }
+  ],
+  "meta_title": "Vista de galeria e personalização da barra - Frames",
+  "meta_description": "Explora as tuas películas em galeria ou lista e personaliza a barra de ferramentas do gravador no Frames 1.23 para iOS."
+}

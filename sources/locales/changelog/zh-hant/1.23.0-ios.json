@@ -1,0 +1,76 @@
+{
+  "version": "1.23.0",
+  "version_short": "1.23",
+  "url_slug": "1-23-ios",
+  "platform": "ios",
+  "release_date": "2026-03-04T10:00:00.000Z",
+  "title": "畫廊檢視與工具列自訂",
+  "summary": "本次更新讓你更自由地瀏覽和管理底片。在列表和畫廊佈局之間切換，以視覺化或詳細方式瀏覽你的底片庫，並根據個人工作流程自訂記錄器工具列。快速存取常用設定，更流暢、更直覺地管理底片。",
+  "sections": [
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.23.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.23.0-1@2x.png",
+      "alt": "Frames 應用程式展示畫廊檢視和自訂記錄器工具列",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "畫廊檢視"
+    },
+    {
+      "type": "paragraph",
+      "content": "現在你可以透過畫廊佈局瀏覽底片，更輕鬆地以視覺方式快速瀏覽底片捲。根據你的瀏覽偏好，在列表檢視和畫廊檢視之間無縫切換。"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "可自訂的記錄器工具列"
+    },
+    {
+      "type": "paragraph",
+      "content": "選擇記錄器工具列中顯示的控制項，並按照你的工作流程排列順序。你現在可以為關鍵拍攝參數新增捷徑，包括曝光補償、閃光燈、曝光程式、測光模式、對焦距離和鏡頭。常用工具觸手可及，讓拍攝記錄比以往更快速、更直覺。"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "改進與修正"
+    },
+    {
+      "type": "paragraph",
+      "content": "細微的介面改進確保了檢視之間的流暢切換，以及自訂工具列時的一致行為。整體回應速度和視覺回饋經過優化，帶來更直覺的使用體驗。"
+    }
+  ],
+  "improvements": [
+    "全新畫廊檢視，便於瀏覽底片",
+    "輕鬆切換列表和畫廊佈局",
+    "自訂記錄器工具列控制項及其排列順序",
+    "細微介面改進，導覽更流暢",
+    "從工具列更精確地控制變焦鏡頭",
+    "從任意底片畫面存取工具列設定"
+  ],
+  "fixes": [
+    {
+      "title": "畫廊預覽圖產生",
+      "description": "修正了與預覽圖產生相關的應用程式啟動時當機問題"
+    }
+  ],
+  "patches": [
+    {
+      "version": "1.23.1",
+      "description": "記錄器設定更新，表述更清晰"
+    },
+    {
+      "version": "1.23.2",
+      "description": "修正預覽圖產生時的當機問題"
+    },
+    {
+      "version": "1.23.3",
+      "description": "改進工具列中的鏡頭控制"
+    }
+  ],
+  "meta_title": "畫廊檢視與工具列自訂 - Frames",
+  "meta_description": "在 Frames 1.23 for iOS 中，以畫廊或列表方式瀏覽底片，並自訂記錄器工具列。"
+}

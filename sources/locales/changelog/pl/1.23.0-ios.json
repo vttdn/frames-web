@@ -1,0 +1,76 @@
+{
+  "version": "1.23.0",
+  "version_short": "1.23",
+  "url_slug": "1-23-ios",
+  "platform": "ios",
+  "release_date": "2026-03-04T10:00:00.000Z",
+  "title": "Widok galerii i personalizacja paska narzędzi",
+  "summary": "Ta aktualizacja daje ci większą kontrolę nad tym, jak przeglądasz i zarządzasz swoimi filmami. Przełączaj się między widokiem listy a galerią, by przeglądać bibliotekę wizualnie lub szczegółowo, i dostosuj pasek narzędzi rejestratora do swojego sposobu pracy. Szybko uzyskuj dostęp do najczęściej używanych ustawień i zarządzaj filmami płynniej i bardziej intuicyjnie.",
+  "sections": [
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.23.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.23.0-1@2x.png",
+      "alt": "Aplikacja Frames z widokiem galerii i spersonalizowanym paskiem narzędzi rejestratora",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Widok galerii"
+    },
+    {
+      "type": "paragraph",
+      "content": "Teraz możesz przeglądać swoje filmy w widoku galerii, co ułatwia szybki wizualny przegląd rolek. Płynnie przełączaj się między widokiem listy a galerią w zależności od tego, jak wolisz nawigować po bibliotece."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Konfigurowalny pasek narzędzi rejestratora"
+    },
+    {
+      "type": "paragraph",
+      "content": "Wybierz, które kontrolki pojawią się na pasku narzędzi rejestratora, i ułóż je w kolejności dopasowanej do twojego sposobu pracy. Możesz teraz dodać skróty do kluczowych parametrów fotografowania, w tym kompensacji ekspozycji, lampy błyskowej, programu ekspozycji, trybu pomiaru, odległości ogniskowania i obiektywu. Najczęściej używane narzędzia są zawsze pod ręką, dzięki czemu rejestrowanie zdjęć jest szybsze i bardziej intuicyjne niż kiedykolwiek."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Ulepszenia i poprawki"
+    },
+    {
+      "type": "paragraph",
+      "content": "Drobne usprawnienia interfejsu zapewniają płynne przełączanie między widokami i spójne zachowanie podczas personalizacji paska narzędzi. Ogólna responsywność i wizualne informacje zwrotne zostały dopracowane, by zapewnić bardziej intuicyjne wrażenia z użytkowania."
+    }
+  ],
+  "improvements": [
+    "Nowy widok galerii do przeglądania filmów",
+    "Łatwe przełączanie między widokiem listy a galerią",
+    "Personalizacja kontrolek paska narzędzi i ich kolejności",
+    "Drobne usprawnienia interfejsu dla płynniejszej nawigacji",
+    "Większa kontrola nad obiektywami zoom z paska narzędzi",
+    "Dostęp do ustawień paska narzędzi z dowolnego ekranu filmu"
+  ],
+  "fixes": [
+    {
+      "title": "Generowanie podglądów galerii",
+      "description": "Naprawiono awarię przy uruchamianiu aplikacji związaną z generowaniem obrazów podglądu."
+    }
+  ],
+  "patches": [
+    {
+      "version": "1.23.1",
+      "description": "Ustawienia rejestratora zaktualizowane dla większej przejrzystości"
+    },
+    {
+      "version": "1.23.2",
+      "description": "Naprawiono awarię przy generowaniu obrazów podglądu"
+    },
+    {
+      "version": "1.23.3",
+      "description": "Lepsza kontrola obiektywów z paska narzędzi"
+    }
+  ],
+  "meta_title": "Widok galerii i personalizacja paska narzędzi - Frames",
+  "meta_description": "Przeglądaj filmy w widoku galerii lub listy i dostosuj pasek narzędzi rejestratora w Frames 1.23 na iOS."
+}

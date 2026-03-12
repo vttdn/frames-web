@@ -1,0 +1,76 @@
+{
+  "version": "1.23.0",
+  "version_short": "1.23",
+  "url_slug": "1-23-ios",
+  "platform": "ios",
+  "release_date": "2026-03-04T10:00:00.000Z",
+  "title": "Gallerianäkymä ja työkalupalkin mukauttaminen",
+  "summary": "Tämä päivitys antaa sinulle enemmän hallintaa filmirullien selaamiseen ja hallintaan. Vaihda lista- ja gallerianäkymän välillä navigoidaksesi kirjastossasi visuaalisesti tai yksityiskohtaisesti, ja mukauta tallentimen työkalupalkki työnkulkuusi sopivaksi. Pääset nopeasti käsiksi eniten käyttämiisi asetuksiin ja hallitset filmirullasi sujuvammin ja intuitiivisemmin.",
+  "sections": [
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.23.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.23.0-1@2x.png",
+      "alt": "Frames-sovellus näyttää gallerianäkymän ja mukautetun tallentimen työkalupalkin",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Gallerianäkymä"
+    },
+    {
+      "type": "paragraph",
+      "content": "Voit nyt selata filmirulliasi gallerianäkymässä, mikä helpottaa rullien visuaalista silmäilyä. Vaihda saumattomasti lista- ja gallerianäkymän välillä sen mukaan, miten haluat navigoida kirjastossasi."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Mukautettava tallentimen työkalupalkki"
+    },
+    {
+      "type": "paragraph",
+      "content": "Valitse mitkä säätimet näkyvät tallentimen työkalupalkissa ja järjestä ne työnkulkuusi sopivaan järjestykseen. Voit nyt lisätä pikakuvakkeet tärkeimmille kuvausparametreille, kuten valotuksen kompensaatio, salama, valotusohjelma, mittaustapa, tarkennusetäisyys ja objektiivi. Eniten käyttämäsi työkalut ovat aina käden ulottuvilla, joten kuvien kirjaaminen on nopeampaa ja intuitiivisempaa kuin koskaan."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Parannukset ja korjaukset"
+    },
+    {
+      "type": "paragraph",
+      "content": "Pienet käyttöliittymäparannukset varmistavat sujuvan vaihdon näkymien välillä ja johdonmukaisen toiminnan työkalupalkkia mukautettaessa. Yleistä reagointikykyä ja visuaalista palautetta on hiottu intuitiivisemman kokemuksen saavuttamiseksi."
+    }
+  ],
+  "improvements": [
+    "Uusi gallerianäkymä filmirullien selaamiseen",
+    "Vaihda helposti lista- ja gallerianäkymän välillä",
+    "Mukauta tallentimen työkalupalkin säätimiä ja niiden järjestystä",
+    "Pieniä käyttöliittymäparannuksia sujuvampaan navigointiin",
+    "Parempi zoomobjektiivien hallinta työkalupalkista",
+    "Pääsy työkalupalkin asetuksiin mistä tahansa filmirullanäkymästä"
+  ],
+  "fixes": [
+    {
+      "title": "Gallerian esikatselukuvien luonti",
+      "description": "Korjattu sovelluksen käynnistyksen yhteydessä tapahtunut kaatuminen, joka liittyi esikatselukuvien luontiin."
+    }
+  ],
+  "patches": [
+    {
+      "version": "1.23.1",
+      "description": "Tallentimen asetuksia selkeytetty"
+    },
+    {
+      "version": "1.23.2",
+      "description": "Esikatselukuvien luontiin liittyvä kaatuminen korjattu"
+    },
+    {
+      "version": "1.23.3",
+      "description": "Parempi objektiivien hallinta työkalupalkista"
+    }
+  ],
+  "meta_title": "Gallerianäkymä ja työkalupalkin mukauttaminen - Frames",
+  "meta_description": "Selaa filmirulliasi galleria- tai listanäkymässä ja mukauta tallentimen työkalupalkki Frames 1.23 -versiossa iOS:lle."
+}

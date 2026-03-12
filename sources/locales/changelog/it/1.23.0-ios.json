@@ -1,0 +1,76 @@
+{
+  "version": "1.23.0",
+  "version_short": "1.23",
+  "url_slug": "1-23-ios",
+  "platform": "ios",
+  "release_date": "2026-03-04T10:00:00.000Z",
+  "title": "Vista galleria e personalizzazione della barra degli strumenti",
+  "summary": "Questo aggiornamento ti offre maggiore controllo su come esplori e gestisci le tue pellicole. Passa dalla visualizzazione a elenco a quella a galleria per navigare nella tua libreria in modo visivo o dettagliato, e personalizza la barra degli strumenti del registratore in base al tuo flusso di lavoro. Accedi rapidamente alle impostazioni più utilizzate e gestisci le tue pellicole in modo più fluido e intuitivo.",
+  "sections": [
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.23.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.23.0-1@2x.png",
+      "alt": "App Frames con vista galleria e barra degli strumenti personalizzata del registratore",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Vista galleria"
+    },
+    {
+      "type": "paragraph",
+      "content": "Ora puoi sfogliare le tue pellicole in una vista a galleria, rendendo più semplice una panoramica visiva dei tuoi rullini. Passa senza interruzioni tra la visualizzazione a elenco e quella a galleria in base a come preferisci navigare nella tua libreria."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Barra degli strumenti del registratore personalizzabile"
+    },
+    {
+      "type": "paragraph",
+      "content": "Scegli quali controlli visualizzare nella barra degli strumenti del registratore e disponili nell'ordine più adatto al tuo flusso di lavoro. Ora puoi aggiungere scorciatoie per i principali parametri di scatto, tra cui compensazione dell'esposizione, flash, programma di esposizione, modo di misurazione, distanza di messa a fuoco e obiettivo. I tuoi strumenti più utilizzati sono sempre a portata di mano, rendendo la registrazione degli scatti più rapida e intuitiva che mai."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Miglioramenti e correzioni"
+    },
+    {
+      "type": "paragraph",
+      "content": "Piccoli miglioramenti dell'interfaccia assicurano un passaggio fluido tra le viste e un comportamento coerente durante la personalizzazione della barra degli strumenti. La reattività generale e il feedback visivo sono stati perfezionati per un'esperienza più intuitiva."
+    }
+  ],
+  "improvements": [
+    "Nuova vista galleria per sfogliare le pellicole",
+    "Passaggio semplice tra visualizzazione a elenco e a galleria",
+    "Personalizzazione dei controlli della barra degli strumenti e del loro ordine",
+    "Piccoli miglioramenti dell'interfaccia per una navigazione più fluida",
+    "Maggiore controllo sugli obiettivi zoom dalla barra degli strumenti",
+    "Accesso alle impostazioni della barra degli strumenti da qualsiasi schermata di pellicola"
+  ],
+  "fixes": [
+    {
+      "title": "Generazione anteprime della galleria",
+      "description": "Corretto un arresto anomalo all'avvio dell'app legato alla generazione delle immagini di anteprima."
+    }
+  ],
+  "patches": [
+    {
+      "version": "1.23.1",
+      "description": "Impostazioni del registratore aggiornate per maggiore chiarezza"
+    },
+    {
+      "version": "1.23.2",
+      "description": "Corretto l'arresto anomalo nella generazione delle anteprime"
+    },
+    {
+      "version": "1.23.3",
+      "description": "Migliore controllo degli obiettivi dalla barra degli strumenti"
+    }
+  ],
+  "meta_title": "Vista galleria e personalizzazione della barra - Frames",
+  "meta_description": "Sfoglia le tue pellicole in galleria o elenco e personalizza la barra degli strumenti del registratore in Frames 1.23 per iOS."
+}

@@ -4,34 +4,34 @@
   "url_slug": "1-23-ios",
   "platform": "ios",
   "release_date": "2026-03-04T10:00:00.000Z",
-  "title": "Affichage en galerie et personnalisation de la barre d’enregistreur",
-  "summary": "Cette mise à jour vous offre un meilleur contrôle sur la manière dont vous parcourez et interagissez avec vos frames. Passez facilement entre les vues Liste et Galerie pour naviguer dans votre bibliothèque visuellement ou en détail, et personnalisez la barre d’enregistreur selon votre flux de travail. Accédez rapidement à vos paramètres les plus utilisés et gérez vos pellicules de manière plus fluide et intuitive.",
+  "title": "Vue galerie et personnalisation de la barre d'outils",
+  "summary": "Cette mise à jour vous offre davantage de contrôle sur la façon dont vous parcourez et gérez vos pellicules. Passez de l'affichage en liste à la vue galerie pour naviguer visuellement ou en détail dans votre bibliothèque, et personnalisez la barre d'outils de l'enregistreur selon vos habitudes. Accédez rapidement à vos réglages les plus utilisés et gérez vos pellicules de manière plus fluide et intuitive.",
   "sections": [
     {
       "type": "media",
       "image": "/lib/img/shared/changelog/frames-1.23.0-1.png",
       "image_2x": "/lib/img/shared/changelog/frames-1.23.0-1@2x.png",
-      "alt": "Application Frames affichant la vue Galerie et une barre d’enregistreur personnalisée",
+      "alt": "Application Frames affichant la vue galerie et la barre d'outils personnalisée de l'enregistreur",
       "width": "400",
       "height": "300"
     },
     {
       "type": "heading",
       "level": 3,
-      "content": "Affichage en galerie"
+      "content": "Vue galerie"
     },
     {
       "type": "paragraph",
-      "content": "Vous pouvez désormais parcourir vos frames dans une disposition Galerie, ce qui facilite la visualisation de vos pellicules. Passez facilement de la vue Liste à la vue Galerie selon vos préférences de navigation dans votre bibliothèque."
+      "content": "Parcourez désormais vos pellicules sous forme de galerie pour repérer visuellement vos rouleaux en un coup d'œil. Basculez librement entre les affichages liste et galerie selon la manière dont vous préférez naviguer dans votre bibliothèque."
     },
     {
       "type": "heading",
       "level": 3,
-      "content": "Barre d’enregistreur personnalisable"
+      "content": "Barre d'outils de l'enregistreur personnalisable"
     },
     {
       "type": "paragraph",
-      "content": "Choisissez les commandes à afficher dans votre barre d’enregistreur et organisez-les dans l’ordre qui convient à votre flux de travail. Vous pouvez désormais ajouter des raccourcis pour les principaux paramètres de prise de vue, tels que compensation, flash, programme d’exposition, mode de mesure, distance de mise au point et objectif. Vos outils les plus utilisés sont toujours à portée de main, rendant l’enregistrement de vos prises plus rapide et intuitif que jamais."
+      "content": "Choisissez les commandes qui apparaissent dans la barre d'outils de l'enregistreur et organisez-les dans l'ordre qui convient à votre flux de travail. Vous pouvez désormais ajouter des raccourcis vers les principaux paramètres de prise de vue : compensation d'exposition, flash, programme d'exposition, mode de mesure, distance de mise au point et objectif. Vos outils les plus utilisés sont toujours à portée de main, rendant l'enregistrement de vos prises de vue plus rapide et intuitif que jamais."
     },
     {
       "type": "heading",
@@ -40,22 +40,37 @@
     },
     {
       "type": "paragraph",
-      "content": "De petites améliorations de l’interface garantissent des transitions fluides entre les vues et un comportement cohérent lors de la personnalisation de la barre. La réactivité générale et le retour visuel ont été peaufinés pour une expérience plus intuitive."
+      "content": "Des ajustements mineurs de l'interface assurent un basculement fluide entre les vues et un comportement cohérent lors de la personnalisation de la barre d'outils. La réactivité générale et le retour visuel ont été peaufinés pour une expérience plus intuitive."
     }
   ],
   "improvements": [
-    "Nouvel affichage en galerie pour parcourir les films",
-    "Passez facilement entre les vues Liste et Galerie",
-    "Personnalisez les commandes et leur ordre dans la barre d’enregistreur",
-    "Petites améliorations de l’interface pour une navigation plus fluide"
+    "Nouvelle vue galerie pour parcourir les pellicules",
+    "Basculement facile entre les affichages liste et galerie",
+    "Personnalisation des commandes de la barre d'outils et de leur ordre",
+    "Ajustements mineurs de l'interface pour une navigation plus fluide",
+    "Meilleur contrôle des objectifs zoom depuis la barre d'outils",
+    "Accès aux réglages de la barre d'outils depuis n'importe quel écran de pellicule"
   ],
-  "fixes": [],
+  "fixes": [
+    {
+      "title": "Génération des aperçus de la galerie",
+      "description": "Correction d'un plantage au lancement de l'application lié à la génération des images d'aperçu."
+    }
+  ],
   "patches": [
     {
       "version": "1.23.1",
-      "description": "Paramètres de la barre d’enregistreur mis à jour pour plus de clarté"
+      "description": "Réglages de l'enregistreur clarifiés"
+    },
+    {
+      "version": "1.23.2",
+      "description": "Correction du plantage lors de la génération des aperçus"
+    },
+    {
+      "version": "1.23.3",
+      "description": "Meilleur contrôle des objectifs depuis la barre d'outils"
     }
   ],
-  "meta_title": "Affichage en galerie et personnalisation de la barre - Frames",
-  "meta_description": "Parcourez vos films en vue Galerie ou Liste et personnalisez votre barre d’enregistreur dans Frames 1.23 pour iOS."
+  "meta_title": "Vue galerie et personnalisation de la barre d'outils - Frames",
+  "meta_description": "Parcourez vos pellicules en vue galerie ou en liste et personnalisez la barre d'outils de l'enregistreur dans Frames 1.23 pour iOS."
 }

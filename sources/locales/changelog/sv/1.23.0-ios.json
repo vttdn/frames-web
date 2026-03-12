@@ -1,0 +1,76 @@
+{
+  "version": "1.23.0",
+  "version_short": "1.23",
+  "url_slug": "1-23-ios",
+  "platform": "ios",
+  "release_date": "2026-03-04T10:00:00.000Z",
+  "title": "Gallerivy och anpassning av verktygsfältet",
+  "summary": "Den här uppdateringen ger dig mer kontroll över hur du bläddrar bland och hanterar dina filmer. Växla mellan list- och gallerivy för att navigera i ditt bibliotek visuellt eller i detalj, och anpassa inspelningsverktygsfältet efter ditt arbetsflöde. Få snabb åtkomst till dina mest använda inställningar och hantera dina filmrullar smidigare och mer intuitivt.",
+  "sections": [
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.23.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.23.0-1@2x.png",
+      "alt": "Frames-appen visar gallerivy och anpassat inspelningsverktygsfält",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Gallerivy"
+    },
+    {
+      "type": "paragraph",
+      "content": "Nu kan du bläddra bland dina filmer i en gallerivy, vilket gör det enklare att visuellt överblicka dina rullar. Växla smidigt mellan list- och gallerivy beroende på hur du föredrar att navigera i ditt bibliotek."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Anpassningsbart inspelningsverktygsfält"
+    },
+    {
+      "type": "paragraph",
+      "content": "Välj vilka kontroller som visas i inspelningsverktygsfältet och ordna dem i den ordning som passar ditt arbetsflöde. Du kan nu lägga till genvägar för viktiga fotograferingsparametrar som exponeringskompensation, blixt, exponeringsläge, mätmetod, fokusavstånd och objektiv. Dina mest använda verktyg finns alltid nära till hands, så att inspelningen av dina bilder går snabbare och mer intuitivt än någonsin."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Förbättringar och korrigeringar"
+    },
+    {
+      "type": "paragraph",
+      "content": "Mindre gränssnittsförbättringar säkerställer smidigt byte mellan vyer och konsekvent beteende vid anpassning av verktygsfältet. Övergripande responsivitet och visuell återkoppling har finslipats för en mer intuitiv upplevelse."
+    }
+  ],
+  "improvements": [
+    "Ny gallerivy för att bläddra bland filmer",
+    "Växla enkelt mellan list- och gallerivy",
+    "Anpassa inspelningsverktygsfältets kontroller och deras ordning",
+    "Mindre gränssnittsförbättringar för smidigare navigering",
+    "Bättre kontroll över zoomobjektiv från verktygsfältet",
+    "Åtkomst till verktygsfältsinställningar från valfri filmrulleskärm"
+  ],
+  "fixes": [
+    {
+      "title": "Generering av förhandsvisning i galleriet",
+      "description": "Åtgärdade en krasch vid appstart relaterad till generering av förhandsvisningsbilder."
+    }
+  ],
+  "patches": [
+    {
+      "version": "1.23.1",
+      "description": "Inspelningsinställningar uppdaterade för tydlighet"
+    },
+    {
+      "version": "1.23.2",
+      "description": "Krasch vid generering av förhandsvisningsbilder åtgärdad"
+    },
+    {
+      "version": "1.23.3",
+      "description": "Bättre kontroll av objektiv från verktygsfältet"
+    }
+  ],
+  "meta_title": "Gallerivy och anpassning av verktygsfältet - Frames",
+  "meta_description": "Bläddra bland dina filmer i galleri- eller listvy och anpassa inspelningsverktygsfältet i Frames 1.23 för iOS."
+}

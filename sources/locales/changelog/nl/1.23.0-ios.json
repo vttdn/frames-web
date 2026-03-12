@@ -1,0 +1,76 @@
+{
+  "version": "1.23.0",
+  "version_short": "1.23",
+  "url_slug": "1-23-ios",
+  "platform": "ios",
+  "release_date": "2026-03-04T10:00:00.000Z",
+  "title": "Galerijweergave en werkbalk aanpassen",
+  "summary": "Deze update geeft je meer controle over hoe je door je filmrollen bladert en ermee werkt. Schakel tussen lijst- en galerijweergave om visueel of in detail door je bibliotheek te navigeren, en pas de werkbalk van de recorder aan op jouw workflow. Krijg snel toegang tot je meestgebruikte instellingen en beheer je filmrollen soepeler en intuïtiever.",
+  "sections": [
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.23.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.23.0-1@2x.png",
+      "alt": "Frames-app met galerijweergave en aangepaste recorderwerkbalk",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Galerijweergave"
+    },
+    {
+      "type": "paragraph",
+      "content": "Blader voortaan door je filmrollen in een galerijweergave, waarmee je je rollen visueel in één oogopslag kunt bekijken. Schakel naadloos tussen lijst- en galerijweergave, afhankelijk van hoe je het liefst door je bibliotheek navigeert."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Aanpasbare recorderwerkbalk"
+    },
+    {
+      "type": "paragraph",
+      "content": "Kies welke bedieningselementen in de werkbalk van je recorder verschijnen en rangschik ze in de volgorde die bij jouw workflow past. Je kunt nu snelkoppelingen toevoegen voor belangrijke opnameparameters zoals belichtingscompensatie, flits, belichtingsprogramma, meetmethode, scherpstelafstand en objectief. Je meestgebruikte gereedschappen zijn altijd binnen handbereik, zodat het vastleggen van je opnames sneller en intuïtiever gaat dan ooit."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Verbeteringen en fixes"
+    },
+    {
+      "type": "paragraph",
+      "content": "Kleine interfaceverbeteringen zorgen voor soepel schakelen tussen weergaven en consistent gedrag bij het aanpassen van de werkbalk. De algehele responsiviteit en visuele feedback zijn verfijnd voor een meer intuïtieve ervaring."
+    }
+  ],
+  "improvements": [
+    "Nieuwe galerijweergave om door filmrollen te bladeren",
+    "Eenvoudig schakelen tussen lijst- en galerijweergave",
+    "Bedieningselementen van de recorderwerkbalk en hun volgorde aanpassen",
+    "Kleine interfaceverbeteringen voor soepelere navigatie",
+    "Meer controle over zoomobjectieven vanuit de werkbalk",
+    "Toegang tot werkbalkinstellingen vanuit elk filmrolscherm"
+  ],
+  "fixes": [
+    {
+      "title": "Genereren van galerijvoorbeelden",
+      "description": "Een crash bij het opstarten van de app gerelateerd aan het genereren van voorbeeldafbeeldingen is opgelost."
+    }
+  ],
+  "patches": [
+    {
+      "version": "1.23.1",
+      "description": "Recorderinstellingen verduidelijkt"
+    },
+    {
+      "version": "1.23.2",
+      "description": "Crash bij het genereren van voorbeeldafbeeldingen opgelost"
+    },
+    {
+      "version": "1.23.3",
+      "description": "Betere controle over objectieven vanuit de werkbalk"
+    }
+  ],
+  "meta_title": "Galerijweergave en werkbalk aanpassen - Frames",
+  "meta_description": "Blader door je filmrollen in galerij- of lijstweergave en pas de recorderwerkbalk aan in Frames 1.23 voor iOS."
+}

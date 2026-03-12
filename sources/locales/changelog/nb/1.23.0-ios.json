@@ -1,0 +1,76 @@
+{
+  "version": "1.23.0",
+  "version_short": "1.23",
+  "url_slug": "1-23-ios",
+  "platform": "ios",
+  "release_date": "2026-03-04T10:00:00.000Z",
+  "title": "Gallerivisning og tilpasning av verktøylinjen",
+  "summary": "Denne oppdateringen gir deg mer kontroll over hvordan du blar gjennom og håndterer filmene dine. Bytt mellom liste- og gallerivisning for å navigere i biblioteket visuelt eller i detalj, og tilpass opptakerens verktøylinje etter arbeidsflyten din. Få rask tilgang til de mest brukte innstillingene og håndter filmrullene dine enda smidigere og mer intuitivt.",
+  "sections": [
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.23.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.23.0-1@2x.png",
+      "alt": "Frames-appen viser gallerivisning og tilpasset opptakerverktøylinje",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Gallerivisning"
+    },
+    {
+      "type": "paragraph",
+      "content": "Nå kan du bla gjennom filmene dine i en gallerivisning, som gjør det enklere å raskt skanne rullene dine visuelt. Bytt sømløst mellom liste- og gallerivisning avhengig av hvordan du foretrekker å navigere i biblioteket."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Tilpassbar opptakerverktøylinje"
+    },
+    {
+      "type": "paragraph",
+      "content": "Velg hvilke kontroller som vises i opptakerens verktøylinje, og ordne dem i rekkefølgen som passer arbeidsflyten din. Du kan nå legge til snarveier for viktige opptaksparametre som eksponeringskompensasjon, blits, eksponeringsprogram, målemetode, fokusavstand og objektiv. De mest brukte verktøyene er alltid innen rekkevidde, slik at registrering av bildene dine går raskere og mer intuitivt enn noensinne."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Forbedringer og rettelser"
+    },
+    {
+      "type": "paragraph",
+      "content": "Mindre grensesnittforbedringer sikrer jevn veksling mellom visninger og konsistent oppførsel ved tilpasning av verktøylinjen. Generell responsivitet og visuell tilbakemelding er finjustert for en mer intuitiv opplevelse."
+    }
+  ],
+  "improvements": [
+    "Ny gallerivisning for å bla gjennom filmer",
+    "Bytt enkelt mellom liste- og gallerivisning",
+    "Tilpass opptakerens verktøylinjekontroller og rekkefølgen deres",
+    "Mindre grensesnittforbedringer for jevnere navigasjon",
+    "Bedre kontroll over zoomobjektiver fra verktøylinjen",
+    "Tilgang til verktøylinjeinnstillinger fra enhver filmrulleskjerm"
+  ],
+  "fixes": [
+    {
+      "title": "Generering av forhåndsvisning i galleriet",
+      "description": "Rettet en krasj ved appstart relatert til generering av forhåndsvisningsbilder."
+    }
+  ],
+  "patches": [
+    {
+      "version": "1.23.1",
+      "description": "Opptakerinnstillinger oppdatert for tydelighet"
+    },
+    {
+      "version": "1.23.2",
+      "description": "Krasj ved generering av forhåndsvisningsbilder rettet"
+    },
+    {
+      "version": "1.23.3",
+      "description": "Bedre kontroll av objektiver fra verktøylinjen"
+    }
+  ],
+  "meta_title": "Gallerivisning og tilpasning av verktøylinjen - Frames",
+  "meta_description": "Bla gjennom filmene i galleri- eller listevisning og tilpass opptakerens verktøylinje i Frames 1.23 for iOS."
+}

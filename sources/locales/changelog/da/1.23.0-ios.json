@@ -1,0 +1,76 @@
+{
+  "version": "1.23.0",
+  "version_short": "1.23",
+  "url_slug": "1-23-ios",
+  "platform": "ios",
+  "release_date": "2026-03-04T10:00:00.000Z",
+  "title": "Gallerivisning og tilpasning af værktøjslinjen",
+  "summary": "Denne opdatering giver dig mere kontrol over, hvordan du gennemser og interagerer med dine film. Skift mellem liste- og gallerivisning for at navigere i dit bibliotek visuelt eller detaljeret, og tilpas optagerens værktøjslinje til din arbejdsgang. Få hurtig adgang til dine mest brugte indstillinger og administrer dine filmruller mere smidigt og intuitivt.",
+  "sections": [
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.23.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.23.0-1@2x.png",
+      "alt": "Frames-appen viser gallerivisning og tilpasset optagerværktøjslinje",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Gallerivisning"
+    },
+    {
+      "type": "paragraph",
+      "content": "Du kan nu gennemse dine film i en gallerivisning, så det er nemmere at skimme dine ruller visuelt. Skift problemfrit mellem liste- og gallerivisning alt efter, hvordan du foretrækker at navigere i dit bibliotek."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Tilpasselig optagerværktøjslinje"
+    },
+    {
+      "type": "paragraph",
+      "content": "Vælg hvilke kontrolelementer der vises i optagerens værktøjslinje, og arrangér dem i den rækkefølge, der passer til din arbejdsgang. Du kan nu tilføje genveje til vigtige optagelsesparametre som eksponeringskompensation, flash, eksponeringsprogram, lysmålingsmetode, fokusafstand og objektiv. Dine mest brugte værktøjer er altid lige ved hånden, så registrering af dine billeder går hurtigere og mere intuitivt end nogensinde."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Forbedringer og rettelser"
+    },
+    {
+      "type": "paragraph",
+      "content": "Mindre forbedringer af grænsefladen sikrer gnidningsfrit skift mellem visninger og ensartet adfærd ved tilpasning af værktøjslinjen. Den generelle responsivitet og visuelle feedback er blevet finpudset for en mere intuitiv oplevelse."
+    }
+  ],
+  "improvements": [
+    "Ny gallerivisning til gennemsyn af film",
+    "Skift nemt mellem liste- og gallerivisning",
+    "Tilpas optagerens værktøjslinjekontroller og deres rækkefølge",
+    "Mindre forbedringer af grænsefladen for mere flydende navigation",
+    "Bedre kontrol over zoomobjektiver fra værktøjslinjen",
+    "Adgang til værktøjslinjeindstillinger fra enhver filmrulleskærm"
+  ],
+  "fixes": [
+    {
+      "title": "Generering af galleriforhåndsvisning",
+      "description": "Rettede et nedbrud ved appstart relateret til generering af forhåndsvisningsbilleder."
+    }
+  ],
+  "patches": [
+    {
+      "version": "1.23.1",
+      "description": "Optagerindstillinger opdateret for klarhed"
+    },
+    {
+      "version": "1.23.2",
+      "description": "Nedbrud ved generering af forhåndsvisningsbilleder rettet"
+    },
+    {
+      "version": "1.23.3",
+      "description": "Bedre kontrol over objektiver fra værktøjslinjen"
+    }
+  ],
+  "meta_title": "Gallerivisning og tilpasning af værktøjslinjen - Frames",
+  "meta_description": "Gennemse dine film i galleri- eller listevisning og tilpas optagerens værktøjslinje i Frames 1.23 til iOS."
+}

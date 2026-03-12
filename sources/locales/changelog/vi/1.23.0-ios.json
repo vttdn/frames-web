@@ -1,0 +1,76 @@
+{
+  "version": "1.23.0",
+  "version_short": "1.23",
+  "url_slug": "1-23-ios",
+  "platform": "ios",
+  "release_date": "2026-03-04T10:00:00.000Z",
+  "title": "Chế độ xem thư viện và tùy chỉnh thanh công cụ",
+  "summary": "Bản cập nhật này mang đến cho bạn nhiều quyền kiểm soát hơn trong cách duyệt và quản lý cuộn phim. Chuyển đổi giữa chế độ danh sách và thư viện ảnh để điều hướng thư viện một cách trực quan hoặc chi tiết, đồng thời tùy chỉnh thanh công cụ ghi chép theo quy trình làm việc của bạn. Truy cập nhanh các cài đặt thường dùng và quản lý cuộn phim mượt mà, trực quan hơn.",
+  "sections": [
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.23.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.23.0-1@2x.png",
+      "alt": "Ứng dụng Frames hiển thị chế độ xem thư viện và thanh công cụ ghi chép đã tùy chỉnh",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Chế độ xem thư viện"
+    },
+    {
+      "type": "paragraph",
+      "content": "Giờ đây bạn có thể duyệt cuộn phim ở chế độ thư viện ảnh, giúp xem tổng quan các cuộn phim một cách trực quan hơn. Chuyển đổi liền mạch giữa chế độ danh sách và thư viện tùy theo cách bạn muốn điều hướng thư viện."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Thanh công cụ ghi chép có thể tùy chỉnh"
+    },
+    {
+      "type": "paragraph",
+      "content": "Chọn các nút điều khiển hiển thị trên thanh công cụ ghi chép và sắp xếp theo thứ tự phù hợp với quy trình làm việc của bạn. Giờ đây bạn có thể thêm phím tắt cho các thông số chụp quan trọng như bù phơi sáng, đèn flash, chương trình phơi sáng, chế độ đo sáng, khoảng cách lấy nét và ống kính. Các công cụ thường dùng luôn trong tầm tay, giúp việc ghi chép ảnh nhanh hơn và trực quan hơn bao giờ hết."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Cải tiến và sửa lỗi"
+    },
+    {
+      "type": "paragraph",
+      "content": "Các cải tiến giao diện nhỏ đảm bảo chuyển đổi mượt mà giữa các chế độ xem và hành vi nhất quán khi tùy chỉnh thanh công cụ. Độ phản hồi tổng thể và phản hồi trực quan đã được trau chuốt để mang lại trải nghiệm trực quan hơn."
+    }
+  ],
+  "improvements": [
+    "Chế độ xem thư viện mới để duyệt cuộn phim",
+    "Chuyển đổi dễ dàng giữa chế độ danh sách và thư viện",
+    "Tùy chỉnh các nút điều khiển trên thanh công cụ ghi chép và thứ tự",
+    "Cải tiến giao diện nhỏ giúp điều hướng mượt mà hơn",
+    "Kiểm soát ống kính zoom tốt hơn từ thanh công cụ",
+    "Truy cập cài đặt thanh công cụ từ bất kỳ màn hình cuộn phim nào"
+  ],
+  "fixes": [
+    {
+      "title": "Tạo ảnh xem trước thư viện",
+      "description": "Sửa lỗi ứng dụng bị treo khi khởi chạy liên quan đến việc tạo ảnh xem trước."
+    }
+  ],
+  "patches": [
+    {
+      "version": "1.23.1",
+      "description": "Cập nhật cài đặt ghi chép rõ ràng hơn"
+    },
+    {
+      "version": "1.23.2",
+      "description": "Sửa lỗi treo khi tạo ảnh xem trước"
+    },
+    {
+      "version": "1.23.3",
+      "description": "Kiểm soát ống kính từ thanh công cụ tốt hơn"
+    }
+  ],
+  "meta_title": "Chế độ xem thư viện và tùy chỉnh thanh công cụ - Frames",
+  "meta_description": "Duyệt cuộn phim ở chế độ thư viện hoặc danh sách và tùy chỉnh thanh công cụ ghi chép trong Frames 1.23 cho iOS."
+}

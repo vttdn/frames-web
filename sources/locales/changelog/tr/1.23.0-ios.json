@@ -1,0 +1,76 @@
+{
+  "version": "1.23.0",
+  "version_short": "1.23",
+  "url_slug": "1-23-ios",
+  "platform": "ios",
+  "release_date": "2026-03-04T10:00:00.000Z",
+  "title": "Galeri görünümü ve araç çubuğu özelleştirme",
+  "summary": "Bu güncelleme, filmlerinize göz atma ve onları yönetme şekliniz üzerinde daha fazla kontrol sağlar. Kitaplığınızda görsel olarak veya ayrıntılı şekilde gezinmek için liste ve galeri düzenleri arasında geçiş yapın ve kayıt araç çubuğunu iş akışınıza göre özelleştirin. En çok kullandığınız ayarlara hızla erişin ve filmlerinizi daha akıcı ve sezgisel bir şekilde yönetin.",
+  "sections": [
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.23.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.23.0-1@2x.png",
+      "alt": "Frames uygulaması galeri görünümünü ve özelleştirilmiş kayıt araç çubuğunu gösteriyor",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Galeri görünümü"
+    },
+    {
+      "type": "paragraph",
+      "content": "Artık filmlerinize galeri düzeninde göz atabilirsiniz; bu sayede rulolarınızı görsel olarak hızlıca taramak kolaylaşır. Kitaplığınızda nasıl gezinmeyi tercih ettiğinize bağlı olarak liste ve galeri görünümleri arasında sorunsuzca geçiş yapın."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Özelleştirilebilir kayıt araç çubuğu"
+    },
+    {
+      "type": "paragraph",
+      "content": "Kayıt araç çubuğunda hangi kontrollerin görüneceğini seçin ve bunları iş akışınıza uygun sırada düzenleyin. Artık pozlama telafisi, flaş, pozlama programı, ölçüm modu, odak mesafesi ve objektif gibi temel çekim parametreleri için kısayollar ekleyebilirsiniz. En çok kullandığınız araçlar her zaman parmaklarınızın ucunda; karelerinizi kaydetmek her zamankinden daha hızlı ve sezgisel."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "İyileştirmeler ve düzeltmeler"
+    },
+    {
+      "type": "paragraph",
+      "content": "Küçük arayüz iyileştirmeleri, görünümler arasında sorunsuz geçiş ve araç çubuğunu özelleştirirken tutarlı davranış sağlar. Genel yanıt hızı ve görsel geri bildirim, daha sezgisel bir deneyim için iyileştirildi."
+    }
+  ],
+  "improvements": [
+    "Filmlere göz atmak için yeni galeri görünümü",
+    "Liste ve galeri düzenleri arasında kolay geçiş",
+    "Kayıt araç çubuğu kontrollerini ve sıralarını özelleştirme",
+    "Daha akıcı gezinme için küçük arayüz iyileştirmeleri",
+    "Araç çubuğundan zum objektifleri üzerinde daha fazla kontrol",
+    "Herhangi bir film ekranından araç çubuğu ayarlarına erişim"
+  ],
+  "fixes": [
+    {
+      "title": "Galeri önizleme oluşturma",
+      "description": "Önizleme görüntüsü oluşturmayla ilgili uygulama açılışında yaşanan çökme düzeltildi."
+    }
+  ],
+  "patches": [
+    {
+      "version": "1.23.1",
+      "description": "Kayıt ayarları netlik için güncellendi"
+    },
+    {
+      "version": "1.23.2",
+      "description": "Önizleme görüntüsü oluşturma çökmesi düzeltildi"
+    },
+    {
+      "version": "1.23.3",
+      "description": "Araç çubuğundan objektiflerin daha iyi kontrolü"
+    }
+  ],
+  "meta_title": "Galeri görünümü ve araç çubuğu özelleştirme - Frames",
+  "meta_description": "Frames 1.23 for iOS'ta filmlerinizi galeri veya liste düzeninde görüntüleyin ve kayıt araç çubuğunu özelleştirin."
+}
