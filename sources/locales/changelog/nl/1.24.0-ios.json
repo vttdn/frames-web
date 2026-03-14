@@ -1,0 +1,54 @@
+{
+  "version": "1.24.0",
+  "version_short": "1.24",
+  "url_slug": "1-24-ios",
+  "platform": "ios",
+  "release_date": "2026-03-14T10:00:00.000Z",
+  "title": "XMP-sidecarexport en EXIF-metadata",
+  "summary": "Deze update maakt het mogelijk je filmrollen te exporteren als XMP-sidecarbestanden, waardoor je gegevens volledig compatibel zijn met desktopfotobewerkers zoals Lightroom en Capture One. Elk filmframe wordt geëxporteerd als een afzonderlijk bestand met volledige EXIF-gegevens, zodat je camera, objectief en precieze belichtingsinstellingen perfect worden vastgelegd en klaar zijn om met je filmscans te synchroniseren.",
+  "sections": [
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.24.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.24.0-1@2x.png",
+      "alt": "Frames-app met XMP-sidecarexport en EXIF-metadatafuncties",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "XMP-sidecarexport met volledige metadata"
+    },
+    {
+      "type": "paragraph",
+      "content": "Je kunt je filmrollen nu exporteren als standaard XMP-sidecarbestanden, met directe compatibiliteit met desktopbewerkers zoals Adobe Lightroom en Capture One. Elk filmframe genereert een afzonderlijk bestand met een exact EXIF-overzicht van je opname. Dit omvat je cameramodel, objectief, brandpuntsafstand, scherpstelafstand en framenummer. Daarnaast worden precieze belichtingsgegevens vastgelegd, zoals sluitertijd, diafragma, ISO, belichtingscorrectie, meetmethode, belichtingsprogramma en flitsinstellingen. Tot slot worden je specifieke filmtype, eventuele filters, plus de exacte datum, tijd en geolocatie geregistreerd. Zo worden je analoge opnamegegevens naadloos vertaald naar je digitale bibliotheek."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Notities en details in gebruikerscommentaar"
+    },
+    {
+      "type": "paragraph",
+      "content": "Om ervoor te zorgen dat geen enkel detail verloren gaat, schrijft het exportproces je persoonlijke framenotities rechtstreeks in het UserComment-veld. Terwijl standaard technische gegevens aan specifieke EXIF-tags worden gekoppeld, garandeert dit commentaarveld dat de extra context die je tijdens het fotograferen noteert aan het beeldbestand gekoppeld blijft en eenvoudig leesbaar is in je desktopbewerker."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Kies je metadataworkflow"
+    },
+    {
+      "type": "paragraph",
+      "content": "Deze nieuwe exportmethode werkt naast onze macOS app, die metadata rechtstreeks in JPEG-, TIFF- en DNG-bestanden schrijft. XMP-sidecars bieden een alternatief voor wie de voorkeur geeft aan een niet-destructieve aanpak of met eigen bestandsformaten werkt. Zodra je je scans ontvangt, plaats je de geëxporteerde XMP-bestanden simpelweg in dezelfde map als je afbeeldingen. Je software leest de gegevens automatisch in, zodat je de workflow kunt kiezen die het beste past bij je nabewerkingsroutine."
+    }
+  ],
+  "improvements": [
+    "Exporteer filmrollen als standaard XMP-sidecarbestanden voor desktopbewerkers",
+    "Volledige compatibiliteit met Adobe Lightroom, Capture One en andere software"
+  ],
+  "fixes": [],
+  "patches": [],
+  "meta_title": "XMP-sidecarexport en EXIF-gegevens - Frames",
+  "meta_description": "Exporteer filmrollen als XMP-sidecarbestanden voor Lightroom en Capture One. Elk filmframe bevat volledige EXIF-gegevens zoals diafragma, sluitertijd en geolocatie."
+}

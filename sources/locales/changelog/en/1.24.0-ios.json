@@ -1,0 +1,54 @@
+{
+  "version": "1.24.0",
+  "version_short": "1.24",
+  "url_slug": "1-24-ios",
+  "platform": "ios",
+  "release_date": "2026-03-14T10:00:00.000Z",
+  "title": "XMP Sidecar Export & EXIF Metadata",
+  "summary": "This update introduces the ability to export your film rolls as XMP sidecar files, making your data fully compatible with desktop photo editors like Lightroom and Capture One. Each frame exports as an individual file packed with complete EXIF data, ensuring your camera, lens, and precise exposure settings are perfectly logged and ready to sync with your film scans.",
+  "sections": [
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.24.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.24.0-1@2x.png",
+      "alt": "Frames film photography app XMP sidecar export and EXIF metadata features",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "XMP Sidecar Export with Full Metadata"
+    },
+    {
+      "type": "paragraph",
+      "content": "You can now export your film rolls as standard XMP sidecar files, providing direct compatibility with desktop editors like Adobe Lightroom and Capture One. Every frame generates an individual file containing an exact EXIF record of your shot. This includes your camera model, lens, focal length, focus distance, and frame number. It also records precise exposure details like shutter speed, aperture, ISO, exposure compensation, metering mode, exposure program, and flash settings. Finally, it logs your specific film stock, any filters used, plus the exact date, time, and geolocation. This ensures your analog shooting data translates perfectly into your digital library."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Notes and Details in User Comments"
+    },
+    {
+      "type": "paragraph",
+      "content": "To make sure no detail gets left behind, the export process writes your personal frame notes directly into the UserComment field. While standard technical data is mapped to specific EXIF tags, this comment field guarantees that the extra context you write down while shooting remains attached to the image file and is easily readable in your desktop editor."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Choose Your Metadata Workflow"
+    },
+    {
+      "type": "paragraph",
+      "content": "This new export method works alongside our macOS app, which writes metadata directly into JPEG, TIFF, and DNG files. Offering XMP sidecars provides an alternative for those who prefer a non-destructive approach or work with proprietary file formats. Once you receive your scans, simply place the exported XMP files in the same folder as your images. Your software will read the data automatically, allowing you to choose the workflow that best fits your post-processing routine."
+    }
+  ],
+  "improvements": [
+    "Export film rolls as standard XMP sidecar files for desktop editors",
+    "Full compatibility with Adobe Lightroom, Capture One, and other software"
+  ],
+  "fixes": [],
+  "patches": [],
+  "meta_title": "XMP Sidecar Export & EXIF Data - Frames",
+  "meta_description": "Export film rolls as XMP sidecar files for Lightroom and Capture One. Each frame includes full EXIF data like aperture, shutter speed, and geolocation."
+}

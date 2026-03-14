@@ -1,0 +1,54 @@
+{
+  "version": "1.24.0",
+  "version_short": "1.24",
+  "url_slug": "1-24-ios",
+  "platform": "ios",
+  "release_date": "2026-03-14T10:00:00.000Z",
+  "title": "XMP Sidecar 匯出與 EXIF 中繼資料",
+  "summary": "本次更新新增了將底片匯出為 XMP sidecar 檔案的功能，使你的資料與 Lightroom 和 Capture One 等桌面照片編輯器完全相容。每個畫格都會匯出為單獨的檔案，包含完整的 EXIF 資料，確保你的相機、鏡頭和精確曝光設定被準確記錄，隨時可與底片掃描檔同步。",
+  "sections": [
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.24.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.24.0-1@2x.png",
+      "alt": "Frames 底片攝影應用程式 XMP sidecar 匯出和 EXIF 中繼資料功能",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "匯出包含完整中繼資料的 XMP Sidecar"
+    },
+    {
+      "type": "paragraph",
+      "content": "現在你可以將底片匯出為標準 XMP sidecar 檔案，直接相容 Adobe Lightroom 和 Capture One 等桌面編輯器。每個畫格都會產生一個單獨的檔案，包含精確的 EXIF 拍攝記錄。其中涵蓋相機型號、鏡頭、焦距、對焦距離和畫格編號。同時記錄詳細的曝光參數，包括快門速度、光圈、ISO、曝光補償、測光模式、曝光程式和閃光燈設定。此外還會儲存所用底片、濾鏡以及精確的日期、時間和地理位置。確保你的類比拍攝資料完美轉換到數位圖庫中。"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "備註與詳情存入 User Comments"
+    },
+    {
+      "type": "paragraph",
+      "content": "為確保不遺漏任何細節，匯出過程會將你的個人畫格備註直接寫入 UserComment 欄位。標準技術資料會對應到相關的 EXIF 標籤，而此評論欄位則保證你在拍攝時記錄的額外資訊始終附著於影像檔案，並可在桌面編輯器中輕鬆檢視。"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "選擇你的中繼資料工作流程"
+    },
+    {
+      "type": "paragraph",
+      "content": "這種新的匯出方式與 macOS app 搭配使用，後者可將中繼資料直接寫入 JPEG、TIFF 和 DNG 檔案。提供 XMP sidecar 檔案是為偏好非破壞性方式或使用專有檔案格式的使用者準備的替代方案。收到掃描檔後，只需將匯出的 XMP 檔案放入與影像相同的資料夾中，軟體即會自動讀取資料，讓你選擇最適合後製處理流程的工作方式。"
+    }
+  ],
+  "improvements": [
+    "將底片匯出為標準 XMP sidecar 檔案，供桌面編輯器使用",
+    "完全相容 Adobe Lightroom、Capture One 及其他軟體"
+  ],
+  "fixes": [],
+  "patches": [],
+  "meta_title": "XMP Sidecar 匯出與 EXIF 資料 - Frames",
+  "meta_description": "將底片匯出為 XMP sidecar 檔案，適用於 Lightroom 和 Capture One。每個畫格包含完整的 EXIF 資料，如光圈、快門速度和地理位置。"
+}

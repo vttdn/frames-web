@@ -1,0 +1,54 @@
+{
+  "version": "1.24.0",
+  "version_short": "1.24",
+  "url_slug": "1-24-ios",
+  "platform": "ios",
+  "release_date": "2026-03-14T10:00:00.000Z",
+  "title": "Export XMP sidecar et métadonnées EXIF",
+  "summary": "Cette mise à jour vous permet d'exporter vos pellicules sous forme de fichiers XMP sidecar, rendant vos données pleinement compatibles avec les logiciels de retouche photo comme Lightroom et Capture One. Chaque frame est exportée sous forme de fichier individuel contenant des données EXIF complètes, garantissant que votre appareil, votre objectif et vos réglages d'exposition sont parfaitement enregistrés et prêts à être synchronisés avec vos scans.",
+  "sections": [
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.24.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.24.0-1@2x.png",
+      "alt": "Application de photographie argentique Frames avec export XMP sidecar et métadonnées EXIF",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Export XMP sidecar avec métadonnées complètes"
+    },
+    {
+      "type": "paragraph",
+      "content": "Vous pouvez désormais exporter vos pellicules sous forme de fichiers XMP sidecar standard, offrant une compatibilité directe avec les éditeurs de bureau comme Adobe Lightroom et Capture One. Chaque frame génère un fichier individuel contenant un enregistrement EXIF exact de votre prise de vue. Celui-ci inclut le modèle d'appareil, l'objectif, la longueur focale, la distance de mise au point et le numéro de frame. Il enregistre également les détails d'exposition précis : vitesse d'obturation, ouverture, ISO, compensation d'exposition, mode de mesure, programme d'exposition et réglages du flash. Enfin, il consigne la pellicule utilisée, les filtres éventuels, ainsi que la date, l'heure et la géolocalisation exactes. Ainsi, vos données de prise de vue argentique s'intègrent parfaitement à votre bibliothèque numérique."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Notes et détails dans les commentaires utilisateur"
+    },
+    {
+      "type": "paragraph",
+      "content": "Pour qu'aucun détail ne soit perdu, le processus d'export inscrit vos notes personnelles de chaque frame directement dans le champ UserComment. Tandis que les données techniques standard sont associées à des balises EXIF spécifiques, ce champ de commentaire garantit que le contexte supplémentaire noté pendant la prise de vue reste attaché au fichier image et facilement lisible dans votre logiciel de retouche."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Choisissez votre flux de travail pour les métadonnées"
+    },
+    {
+      "type": "paragraph",
+      "content": "Cette nouvelle méthode d'export fonctionne en complément de notre application macOS, qui inscrit les métadonnées directement dans les fichiers JPEG, TIFF et DNG. Les fichiers XMP sidecar offrent une alternative à ceux qui préfèrent une approche non destructive ou qui travaillent avec des formats de fichier propriétaires. Une fois vos scans reçus, placez simplement les fichiers XMP exportés dans le même dossier que vos images. Votre logiciel lira les données automatiquement, vous permettant de choisir le flux de travail qui correspond le mieux à votre routine de post-traitement."
+    }
+  ],
+  "improvements": [
+    "Export des pellicules en fichiers XMP sidecar standard pour les éditeurs de bureau",
+    "Compatibilité totale avec Adobe Lightroom, Capture One et d'autres logiciels"
+  ],
+  "fixes": [],
+  "patches": [],
+  "meta_title": "Export XMP sidecar et données EXIF - Frames",
+  "meta_description": "Exportez vos pellicules en fichiers XMP sidecar pour Lightroom et Capture One. Chaque frame inclut des données EXIF complètes : ouverture, vitesse et position."
+}

@@ -1,0 +1,54 @@
+{
+  "version": "1.24.0",
+  "version_short": "1.24",
+  "url_slug": "1-24-ios",
+  "platform": "ios",
+  "release_date": "2026-03-14T10:00:00.000Z",
+  "title": "Eksport XMP sidecar i metadane EXIF",
+  "summary": "Ta aktualizacja umożliwia eksport filmów jako plików XMP sidecar, dzięki czemu dane są w pełni kompatybilne z desktopowymi edytorami zdjęć, takimi jak Lightroom i Capture One. Każda klatka jest eksportowana jako osobny plik z kompletem danych EXIF, co gwarantuje precyzyjne zapisanie aparatu, obiektywu i dokładnych ustawień ekspozycji, gotowych do synchronizacji ze skanami filmów.",
+  "sections": [
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.24.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.24.0-1@2x.png",
+      "alt": "Aplikacja Frames z funkcją eksportu XMP sidecar i metadanych EXIF",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Eksport XMP sidecar z pełnymi metadanymi"
+    },
+    {
+      "type": "paragraph",
+      "content": "Teraz możesz eksportować filmy jako standardowe pliki XMP sidecar, zapewniając bezpośrednią kompatybilność z desktopowymi edytorami, takimi jak Adobe Lightroom i Capture One. Każda klatka generuje osobny plik zawierający dokładny zapis EXIF twojego zdjęcia. Obejmuje to model aparatu, obiektyw, ogniskową, odległość ogniskowania i numer klatki. Zapisywane są również szczegółowe dane ekspozycji: czas naświetlania, przysłona, ISO, korekta ekspozycji, tryb pomiaru, program ekspozycji i ustawienia lampy błyskowej. Na koniec rejestrowany jest konkretny film, użyte filtry oraz dokładna data, godzina i geolokalizacja. Dzięki temu dane z fotografii analogowej są idealnie przeniesione do twojej cyfrowej biblioteki."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Notatki i szczegóły w komentarzach użytkownika"
+    },
+    {
+      "type": "paragraph",
+      "content": "Aby żaden szczegół nie został pominięty, proces eksportu zapisuje twoje osobiste notatki do klatki bezpośrednio w polu UserComment. Podczas gdy standardowe dane techniczne są przypisywane do konkretnych tagów EXIF, to pole komentarza gwarantuje, że dodatkowy kontekst, który zapisujesz podczas fotografowania, pozostaje dołączony do pliku obrazu i jest łatwo czytelny w desktopowym edytorze."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Wybierz swój przepływ pracy z metadanymi"
+    },
+    {
+      "type": "paragraph",
+      "content": "Ta nowa metoda eksportu działa równolegle z naszą aplikacją macOS app, która zapisuje metadane bezpośrednio w plikach JPEG, TIFF i DNG. Pliki XMP sidecar stanowią alternatywę dla osób preferujących podejście niedestrukcyjne lub pracujących z własnościowymi formatami plików. Po otrzymaniu skanów wystarczy umieścić wyeksportowane pliki XMP w tym samym folderze co obrazy. Oprogramowanie automatycznie odczyta dane, pozwalając ci wybrać przepływ pracy najlepiej pasujący do twojej procedury obróbki."
+    }
+  ],
+  "improvements": [
+    "Eksport filmów jako standardowych plików XMP sidecar dla desktopowych edytorów",
+    "Pełna kompatybilność z Adobe Lightroom, Capture One i innym oprogramowaniem"
+  ],
+  "fixes": [],
+  "patches": [],
+  "meta_title": "Eksport XMP sidecar i dane EXIF - Frames",
+  "meta_description": "Eksportuj filmy jako pliki XMP sidecar dla Lightroom i Capture One. Każda klatka zawiera pełne dane EXIF, w tym przysłonę, czas naświetlania i geolokalizację."
+}

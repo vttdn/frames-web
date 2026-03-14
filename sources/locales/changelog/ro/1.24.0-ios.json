@@ -1,0 +1,54 @@
+{
+  "version": "1.24.0",
+  "version_short": "1.24",
+  "url_slug": "1-24-ios",
+  "platform": "ios",
+  "release_date": "2026-03-14T10:00:00.000Z",
+  "title": "Export XMP sidecar și metadate EXIF",
+  "summary": "Această actualizare îți permite să exportezi filmele ca fișiere XMP sidecar, făcând datele tale complet compatibile cu editoare foto de desktop precum Lightroom și Capture One. Fiecare cadru este exportat ca un fișier individual cu date EXIF complete, asigurând că aparatul, obiectivul și setările precise de expunere sunt înregistrate perfect și gata de sincronizat cu scanările tale.",
+  "sections": [
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.24.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.24.0-1@2x.png",
+      "alt": "Aplicația Frames cu export XMP sidecar și funcții de metadate EXIF",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Export XMP sidecar cu metadate complete"
+    },
+    {
+      "type": "paragraph",
+      "content": "Acum poți exporta filmele ca fișiere XMP sidecar standard, oferind compatibilitate directă cu editoare de desktop precum Adobe Lightroom și Capture One. Fiecare cadru generează un fișier individual care conține o înregistrare EXIF exactă a fotografiei tale. Aceasta include modelul aparatului, obiectivul, distanța focală, distanța de focalizare și numărul cadrului. De asemenea, sunt înregistrate detalii precise de expunere precum viteza de declanșare, diafragma, ISO, compensarea expunerii, modul de măsurare, programul de expunere și setările de bliț. În cele din urmă, sunt salvate filmul specific, filtrele utilizate, plus data, ora și geolocalizarea exacte. Astfel, datele tale din fotografia pe film se integrează perfect în biblioteca digitală."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Note și detalii în comentariile utilizatorului"
+    },
+    {
+      "type": "paragraph",
+      "content": "Pentru ca niciun detaliu să nu se piardă, procesul de export scrie notițele tale personale ale cadrului direct în câmpul UserComment. În timp ce datele tehnice standard sunt asociate tagurilor EXIF specifice, acest câmp de comentariu garantează că contextul suplimentar pe care îl notezi în timpul fotografierii rămâne atașat fișierului de imagine și este ușor de citit în editorul tău de desktop."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Alege-ți fluxul de lucru pentru metadate"
+    },
+    {
+      "type": "paragraph",
+      "content": "Această nouă metodă de export funcționează alături de aplicația noastră macOS app, care scrie metadatele direct în fișiere JPEG, TIFF și DNG. Fișierele XMP sidecar oferă o alternativă pentru cei care preferă o abordare nedistructivă sau lucrează cu formate de fișier proprietare. Odată ce primești scanările, pur și simplu plasează fișierele XMP exportate în același folder cu imaginile tale. Software-ul va citi datele automat, permițându-ți să alegi fluxul de lucru care se potrivește cel mai bine rutinei tale de post-procesare."
+    }
+  ],
+  "improvements": [
+    "Exportă filmele ca fișiere XMP sidecar standard pentru editoare de desktop",
+    "Compatibilitate completă cu Adobe Lightroom, Capture One și alte programe"
+  ],
+  "fixes": [],
+  "patches": [],
+  "meta_title": "Export XMP sidecar și date EXIF - Frames",
+  "meta_description": "Exportă filmele ca fișiere XMP sidecar pentru Lightroom și Capture One. Fiecare cadru include date EXIF complete precum diafragma, viteza de declanșare și geolocalizare."
+}

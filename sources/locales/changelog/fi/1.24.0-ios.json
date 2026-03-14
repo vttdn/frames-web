@@ -1,0 +1,54 @@
+{
+  "version": "1.24.0",
+  "version_short": "1.24",
+  "url_slug": "1-24-ios",
+  "platform": "ios",
+  "release_date": "2026-03-14T10:00:00.000Z",
+  "title": "XMP sidecar -vienti ja EXIF-metatiedot",
+  "summary": "Tämä päivitys tuo mahdollisuuden viedä filmirullasi XMP sidecar -tiedostoina, jolloin tietosi ovat täysin yhteensopivia työpöytäkuvankäsittelyohjelmien, kuten Lightroomin ja Capture Onen, kanssa. Jokainen kehys viedään yksittäisenä tiedostona, joka sisältää kattavat EXIF-tiedot – kamerasi, objektiivisi ja tarkat valotusasetuksesi tallennetaan luotettavasti ja ovat valmiita synkronoitaviksi filmiskannaustesi kanssa.",
+  "sections": [
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.24.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.24.0-1@2x.png",
+      "alt": "Frames-filmivalokuvaussovellus XMP sidecar -viennillä ja EXIF-metatiedoilla",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "XMP sidecar -vienti kattavilla metatiedoilla"
+    },
+    {
+      "type": "paragraph",
+      "content": "Voit nyt viedä filmirullasi vakiomuotoisina XMP sidecar -tiedostoina, jotka ovat suoraan yhteensopivia työpöytäeditorien, kuten Adobe Lightroomin ja Capture Onen, kanssa. Jokaisesta kehyksestä luodaan oma tiedosto, joka sisältää tarkan EXIF-tietueen otoksestasi. Tähän kuuluvat kameramalli, objektiivi, polttoväli, tarkennusetäisyys ja kehysnumero. Lisäksi tallennetaan tarkat valotustiedot, kuten suljinnopeus, aukko, ISO, valotuksen korjaus, mittaustapa, valotusohjelma ja salamaasetukset. Lopuksi kirjataan käytetty filmi, mahdolliset suodattimet sekä tarkka päivämäärä, kellonaika ja sijaintitieto. Näin analogiset kuvaustietosi siirtyvät saumattomasti digitaaliseen kirjastoosi."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Muistiinpanot ja yksityiskohdat käyttäjäkommenteissa"
+    },
+    {
+      "type": "paragraph",
+      "content": "Jotta yksikään yksityiskohta ei jää puuttumaan, vientiprosessi kirjoittaa henkilökohtaiset kehysmuistiinpanosi suoraan UserComment-kenttään. Tekniset vakiotiedot yhdistetään tiettyihin EXIF-tunnisteisiin, mutta tämä kommenttikenttä varmistaa, että kuvauksen aikana kirjoittamasi lisäkonteksti säilyy kuvatiedostossa ja on helposti luettavissa työpöytäeditorissasi."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Valitse metatietojen työnkulkusi"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tämä uusi vientimenetelmä toimii macOS-sovelluksemme rinnalla, joka kirjoittaa metatiedot suoraan JPEG-, TIFF- ja DNG-tiedostoihin. XMP sidecar -tiedostot tarjoavat vaihtoehdon niille, jotka suosivat ei-tuhoavaa lähestymistapaa tai työskentelevät suljettujen tiedostomuotojen kanssa. Kun saat skannauksesi, sijoita viedyt XMP-tiedostot yksinkertaisesti samaan kansioon kuviesi kanssa. Ohjelmistosi lukee tiedot automaattisesti, joten voit valita työnkulun, joka sopii parhaiten jälkikäsittelyrutiiniisi."
+    }
+  ],
+  "improvements": [
+    "Vie filmirullat vakiomuotoisina XMP sidecar -tiedostoina työpöytäeditoreille",
+    "Täysi yhteensopivuus Adobe Lightroomin, Capture Onen ja muiden ohjelmien kanssa"
+  ],
+  "fixes": [],
+  "patches": [],
+  "meta_title": "XMP sidecar -vienti ja EXIF-tiedot - Frames",
+  "meta_description": "Vie filmirullasi XMP sidecar -tiedostoina Lightroomiin ja Capture Oneen. Jokainen kehys sisältää kattavat EXIF-tiedot kuten aukon, suljinnopeuden ja sijainnin."
+}

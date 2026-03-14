@@ -1,0 +1,54 @@
+{
+  "version": "1.24.0",
+  "version_short": "1.24",
+  "url_slug": "1-24-ios",
+  "platform": "ios",
+  "release_date": "2026-03-14T10:00:00.000Z",
+  "title": "Ekspor XMP sidecar dan metadata EXIF",
+  "summary": "Pembaruan ini memperkenalkan kemampuan untuk mengekspor film Anda sebagai file XMP sidecar, menjadikan data Anda sepenuhnya kompatibel dengan editor foto desktop seperti Lightroom dan Capture One. Setiap frame diekspor sebagai file individual yang berisi data EXIF lengkap, memastikan kamera, lensa, dan pengaturan eksposur Anda tercatat dengan sempurna dan siap disinkronkan dengan hasil scan film Anda.",
+  "sections": [
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.24.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.24.0-1@2x.png",
+      "alt": "Aplikasi fotografi film Frames dengan fitur ekspor XMP sidecar dan metadata EXIF",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Ekspor XMP sidecar dengan metadata lengkap"
+    },
+    {
+      "type": "paragraph",
+      "content": "Kini Anda dapat mengekspor film sebagai file XMP sidecar standar, memberikan kompatibilitas langsung dengan editor desktop seperti Adobe Lightroom dan Capture One. Setiap frame menghasilkan file individual yang berisi rekaman EXIF lengkap dari pemotretan Anda. Ini mencakup model kamera, lensa, panjang fokus, jarak fokus, dan nomor frame. Selain itu, detail eksposur yang presisi seperti kecepatan rana, apertur, ISO, kompensasi eksposur, mode pengukuran, program eksposur, dan pengaturan flash juga terekam. Terakhir, stok film spesifik Anda, filter yang digunakan, serta tanggal, waktu, dan geolokasi yang tepat juga tercatat. Ini memastikan data pemotretan analog Anda terintegrasi sempurna ke dalam perpustakaan digital Anda."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Catatan dan detail dalam User Comments"
+    },
+    {
+      "type": "paragraph",
+      "content": "Agar tidak ada detail yang tertinggal, proses ekspor menuliskan catatan frame pribadi Anda langsung ke field UserComment. Sementara data teknis standar dipetakan ke tag EXIF spesifik, field komentar ini menjamin bahwa konteks tambahan yang Anda tulis saat memotret tetap melekat pada file gambar dan mudah dibaca di editor desktop Anda."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Pilih alur kerja metadata Anda"
+    },
+    {
+      "type": "paragraph",
+      "content": "Metode ekspor baru ini bekerja berdampingan dengan macOS app kami, yang menulis metadata langsung ke file JPEG, TIFF, dan DNG. Menyediakan XMP sidecar memberikan alternatif bagi mereka yang lebih suka pendekatan non-destruktif atau bekerja dengan format file proprietary. Setelah Anda menerima hasil scan, cukup tempatkan file XMP yang diekspor di folder yang sama dengan gambar Anda. Perangkat lunak Anda akan membaca data secara otomatis, sehingga Anda dapat memilih alur kerja yang paling sesuai dengan rutinitas pasca-pemrosesan Anda."
+    }
+  ],
+  "improvements": [
+    "Ekspor film sebagai file XMP sidecar standar untuk editor desktop",
+    "Kompatibilitas penuh dengan Adobe Lightroom, Capture One, dan perangkat lunak lainnya"
+  ],
+  "fixes": [],
+  "patches": [],
+  "meta_title": "Ekspor XMP sidecar dan data EXIF - Frames",
+  "meta_description": "Ekspor film sebagai file XMP sidecar untuk Lightroom dan Capture One. Setiap frame mencakup data EXIF lengkap seperti apertur, kecepatan rana, dan geolokasi."
+}

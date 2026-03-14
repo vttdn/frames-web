@@ -1,0 +1,54 @@
+{
+  "version": "1.24.0",
+  "version_short": "1.24",
+  "url_slug": "1-24-ios",
+  "platform": "ios",
+  "release_date": "2026-03-14T10:00:00.000Z",
+  "title": "XMP Sidecar 导出与 EXIF 元数据",
+  "summary": "本次更新新增了将胶片导出为 XMP sidecar 文件的功能，使你的数据与 Lightroom 和 Capture One 等桌面照片编辑器完全兼容。每一帧都会导出为单独的文件，包含完整的 EXIF 数据，确保你的相机、镜头和精确曝光设置被准确记录，随时可与胶片扫描件同步。",
+  "sections": [
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.24.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.24.0-1@2x.png",
+      "alt": "Frames 胶片摄影应用 XMP sidecar 导出和 EXIF 元数据功能",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "导出包含完整元数据的 XMP Sidecar"
+    },
+    {
+      "type": "paragraph",
+      "content": "现在你可以将胶片导出为标准 XMP sidecar 文件，直接兼容 Adobe Lightroom 和 Capture One 等桌面编辑器。每一帧都会生成一个单独的文件，包含精确的 EXIF 拍摄记录。其中涵盖相机型号、镜头、焦距、对焦距离和帧号。同时记录详细的曝光参数，包括快门速度、光圈、ISO、曝光补偿、测光模式、曝光程序和闪光灯设置。此外还会保存所用胶片、滤镜以及精确的日期、时间和地理位置。确保你的模拟拍摄数据完美转化到数字图库中。"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "备注与详情存入 User Comments"
+    },
+    {
+      "type": "paragraph",
+      "content": "为确保不遗漏任何细节，导出过程会将你的个人帧备注直接写入 UserComment 字段。标准技术数据会映射到对应的 EXIF 标签，而此评论字段则保证你在拍摄时记录的额外信息始终附着于图像文件，并可在桌面编辑器中轻松查阅。"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "选择你的元数据工作流程"
+    },
+    {
+      "type": "paragraph",
+      "content": "这种新的导出方式与 macOS app 配合使用，后者可将元数据直接写入 JPEG、TIFF 和 DNG 文件。提供 XMP sidecar 文件是为偏好无损方式或使用专有文件格式的用户准备的替代方案。收到扫描件后，只需将导出的 XMP 文件放入与图像相同的文件夹中，软件即会自动读取数据，让你选择最适合后期处理流程的工作方式。"
+    }
+  ],
+  "improvements": [
+    "将胶片导出为标准 XMP sidecar 文件，供桌面编辑器使用",
+    "完全兼容 Adobe Lightroom、Capture One 及其他软件"
+  ],
+  "fixes": [],
+  "patches": [],
+  "meta_title": "XMP Sidecar 导出与 EXIF 数据 - Frames",
+  "meta_description": "将胶片导出为 XMP sidecar 文件，适用于 Lightroom 和 Capture One。每一帧包含完整的 EXIF 数据，如光圈、快门速度和地理位置。"
+}

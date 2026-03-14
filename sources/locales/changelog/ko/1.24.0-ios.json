@@ -1,0 +1,54 @@
+{
+  "version": "1.24.0",
+  "version_short": "1.24",
+  "url_slug": "1-24-ios",
+  "platform": "ios",
+  "release_date": "2026-03-14T10:00:00.000Z",
+  "title": "XMP 사이드카 내보내기 및 EXIF 메타데이터",
+  "summary": "이번 업데이트에서는 필름을 XMP 사이드카 파일로 내보내는 기능이 추가되어, Lightroom 및 Capture One 같은 데스크톱 사진 편집기와 데이터를 완벽하게 호환할 수 있습니다. 각 프레임이 완전한 EXIF 데이터가 포함된 개별 파일로 내보내져, 카메라, 렌즈, 정밀한 노출 설정이 완벽하게 기록되고 필름 스캔과의 동기화에 바로 활용할 수 있습니다.",
+  "sections": [
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.24.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.24.0-1@2x.png",
+      "alt": "Frames 필름 사진 앱의 XMP 사이드카 내보내기 및 EXIF 메타데이터 기능",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "전체 메타데이터가 포함된 XMP 사이드카 내보내기"
+    },
+    {
+      "type": "paragraph",
+      "content": "이제 필름을 표준 XMP 사이드카 파일로 내보낼 수 있어, Adobe Lightroom 및 Capture One 같은 데스크톱 편집기와 직접 호환됩니다. 각 프레임은 촬영의 정확한 EXIF 기록이 담긴 개별 파일을 생성합니다. 카메라 모델, 렌즈, 초점 거리, 초점 거리, 프레임 번호가 포함됩니다. 셔터 속도, 조리개, ISO, 노출 보정, 측광 모드, 노출 프로그램, 플래시 설정 등 정밀한 노출 정보도 기록됩니다. 마지막으로 사용한 필름 종류, 필터, 정확한 날짜, 시간, 위치 정보도 저장됩니다. 이를 통해 아날로그 촬영 데이터가 디지털 라이브러리에 완벽하게 반영됩니다."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "메모와 세부 정보를 UserComment에 기록"
+    },
+    {
+      "type": "paragraph",
+      "content": "어떤 세부 사항도 빠뜨리지 않도록, 내보내기 과정에서 개인 프레임 메모를 UserComment 필드에 직접 기록합니다. 표준 기술 데이터는 특정 EXIF 태그에 매핑되지만, 이 코멘트 필드를 통해 촬영 중 기록한 추가 맥락이 이미지 파일에 연결된 채 데스크톱 편집기에서 쉽게 확인할 수 있습니다."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "메타데이터 워크플로 선택"
+    },
+    {
+      "type": "paragraph",
+      "content": "이 새로운 내보내기 방식은 메타데이터를 JPEG, TIFF, DNG 파일에 직접 기록하는 macOS app과 함께 사용할 수 있습니다. XMP 사이드카를 제공함으로써 비파괴적인 방식을 선호하거나 독점 파일 형식으로 작업하는 분들에게 대안을 제공합니다. 스캔본을 받으면 내보낸 XMP 파일을 이미지와 같은 폴더에 배치하기만 하면 됩니다. 소프트웨어가 자동으로 데이터를 읽어, 후처리 루틴에 가장 적합한 워크플로를 선택할 수 있습니다."
+    }
+  ],
+  "improvements": [
+    "데스크톱 편집기용으로 필름을 표준 XMP 사이드카 파일로 내보내기",
+    "Adobe Lightroom, Capture One 및 기타 소프트웨어와 완벽한 호환"
+  ],
+  "fixes": [],
+  "patches": [],
+  "meta_title": "XMP 사이드카 내보내기 및 EXIF 데이터 - Frames",
+  "meta_description": "Lightroom 및 Capture One용으로 필름을 XMP 사이드카 파일로 내보내기. 각 프레임에 조리개, 셔터 속도, 위치 정보 등 전체 EXIF 데이터 포함."
+}

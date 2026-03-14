@@ -1,0 +1,54 @@
+{
+  "version": "1.24.0",
+  "version_short": "1.24",
+  "url_slug": "1-24-ios",
+  "platform": "ios",
+  "release_date": "2026-03-14T10:00:00.000Z",
+  "title": "XMP-sidecarexport och EXIF-metadata",
+  "summary": "Den här uppdateringen gör det möjligt att exportera dina filmer som XMP-sidecarfiler, vilket gör dina data fullt kompatibla med skrivbordsbildredigerare som Lightroom och Capture One. Varje ruta exporteras som en separat fil med fullständiga EXIF-data, vilket säkerställer att din kamera, ditt objektiv och dina exakta exponeringsinställningar loggas perfekt och är redo att synkroniseras med dina filmskanningar.",
+  "sections": [
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.24.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.24.0-1@2x.png",
+      "alt": "Frames-appen med XMP-sidecarexport och EXIF-metadatafunktioner",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "XMP-sidecarexport med fullständig metadata"
+    },
+    {
+      "type": "paragraph",
+      "content": "Nu kan du exportera dina filmer som standard-XMP-sidecarfiler, med direkt kompatibilitet med skrivbordsredigerare som Adobe Lightroom och Capture One. Varje ruta genererar en separat fil som innehåller en exakt EXIF-post för din bild. Detta inkluderar kameramodell, objektiv, brännvidd, fokusavstånd och rutans nummer. Det registrerar även exakta exponeringsdetaljer som slutartid, bländare, ISO, exponeringskompensation, mätmetod, exponeringsprogram och blixtinställningar. Slutligen loggas din specifika filmtyp, eventuella filter som använts, samt exakt datum, tid och geoposition. Detta säkerställer att dina analoga fotograferingsdata överförs sömlöst till ditt digitala bibliotek."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Anteckningar och detaljer i användarkommentarer"
+    },
+    {
+      "type": "paragraph",
+      "content": "För att säkerställa att ingen detalj går förlorad skriver exportprocessen dina personliga rutanteckningar direkt i UserComment-fältet. Medan standardtekniska data mappas till specifika EXIF-taggar garanterar detta kommentarsfält att det extra sammanhang du antecknar under fotograferingen förblir kopplat till bildfilen och är enkelt att läsa i din skrivbordsredigerare."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Välj ditt arbetsflöde för metadata"
+    },
+    {
+      "type": "paragraph",
+      "content": "Denna nya exportmetod fungerar parallellt med vår macOS app, som skriver metadata direkt i JPEG-, TIFF- och DNG-filer. XMP-sidecarfiler erbjuder ett alternativ för dem som föredrar ett icke-destruktivt tillvägagångssätt eller arbetar med proprietära filformat. När du fått dina skanningar placerar du helt enkelt de exporterade XMP-filerna i samma mapp som dina bilder. Din programvara läser in data automatiskt, så att du kan välja det arbetsflöde som bäst passar din efterbearbetningsrutin."
+    }
+  ],
+  "improvements": [
+    "Exportera filmer som standard-XMP-sidecarfiler för skrivbordsredigerare",
+    "Full kompatibilitet med Adobe Lightroom, Capture One och annan programvara"
+  ],
+  "fixes": [],
+  "patches": [],
+  "meta_title": "XMP-sidecarexport och EXIF-data - Frames",
+  "meta_description": "Exportera filmer som XMP-sidecarfiler för Lightroom och Capture One. Varje ruta innehåller fullständiga EXIF-data som bländare, slutartid och geoposition."
+}

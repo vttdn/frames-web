@@ -1,0 +1,54 @@
+{
+  "version": "1.24.0",
+  "version_short": "1.24",
+  "url_slug": "1-24-ios",
+  "platform": "ios",
+  "release_date": "2026-03-14T10:00:00.000Z",
+  "title": "Exportação XMP sidecar e metadados EXIF",
+  "summary": "Esta atualização permite exportar as tuas películas como ficheiros XMP sidecar, tornando os teus dados totalmente compatíveis com editores de fotografia de ambiente de trabalho como o Lightroom e o Capture One. Cada fotograma é exportado como um ficheiro individual com dados EXIF completos, garantindo que a tua câmara, objetiva e definições de exposição precisas ficam perfeitamente registadas e prontas para sincronizar com as tuas digitalizações.",
+  "sections": [
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.24.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.24.0-1@2x.png",
+      "alt": "Aplicação Frames com exportação XMP sidecar e funcionalidades de metadados EXIF",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Exportação XMP sidecar com metadados completos"
+    },
+    {
+      "type": "paragraph",
+      "content": "Agora podes exportar as tuas películas como ficheiros XMP sidecar padrão, proporcionando compatibilidade direta com editores de ambiente de trabalho como o Adobe Lightroom e o Capture One. Cada fotograma gera um ficheiro individual contendo um registo EXIF exato da tua fotografia. Isto inclui o modelo da câmara, objetiva, distância focal, distância de focagem e número do fotograma. Também regista detalhes precisos de exposição como velocidade do obturador, abertura, ISO, compensação de exposição, modo de medição, programa de exposição e definições de flash. Por fim, regista a tua película específica, quaisquer filtros utilizados, mais a data, hora e geolocalização exatas. Isto garante que os teus dados de fotografia analógica se integram perfeitamente na tua biblioteca digital."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Notas e detalhes nos comentários do utilizador"
+    },
+    {
+      "type": "paragraph",
+      "content": "Para garantir que nenhum detalhe fica para trás, o processo de exportação escreve as tuas notas pessoais do fotograma diretamente no campo UserComment. Enquanto os dados técnicos padrão são mapeados para tags EXIF específicas, este campo de comentário garante que o contexto adicional que anotas durante a sessão fotográfica permanece associado ao ficheiro de imagem e é facilmente legível no teu editor de ambiente de trabalho."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Escolhe o teu fluxo de trabalho de metadados"
+    },
+    {
+      "type": "paragraph",
+      "content": "Este novo método de exportação funciona em paralelo com a nossa macOS app, que escreve metadados diretamente em ficheiros JPEG, TIFF e DNG. Oferecer ficheiros XMP sidecar proporciona uma alternativa para quem prefere uma abordagem não destrutiva ou trabalha com formatos de ficheiro proprietários. Assim que receberes as tuas digitalizações, basta colocar os ficheiros XMP exportados na mesma pasta das tuas imagens. O teu software lê os dados automaticamente, permitindo-te escolher o fluxo de trabalho que melhor se adapta à tua rotina de pós-processamento."
+    }
+  ],
+  "improvements": [
+    "Exporta películas como ficheiros XMP sidecar padrão para editores de ambiente de trabalho",
+    "Compatibilidade total com Adobe Lightroom, Capture One e outro software"
+  ],
+  "fixes": [],
+  "patches": [],
+  "meta_title": "Exportação XMP sidecar e dados EXIF - Frames",
+  "meta_description": "Exporta películas como ficheiros XMP sidecar para Lightroom e Capture One. Cada fotograma inclui dados EXIF completos como abertura, obturador e geolocalização."
+}

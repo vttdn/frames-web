@@ -1,0 +1,54 @@
+{
+  "version": "1.24.0",
+  "version_short": "1.24",
+  "url_slug": "1-24-ios",
+  "platform": "ios",
+  "release_date": "2026-03-14T10:00:00.000Z",
+  "title": "XMP sidecar dışa aktarma ve EXIF meta verileri",
+  "summary": "Bu güncelleme, film rulolarınızı XMP sidecar dosyaları olarak dışa aktarma olanağı sunarak verilerinizi Lightroom ve Capture One gibi masaüstü fotoğraf düzenleyicilerle tam uyumlu hale getirir. Her kare, kamera, objektif ve hassas pozlama ayarlarınızı eksiksiz kaydeden EXIF verileriyle birlikte ayrı bir dosya olarak dışa aktarılır ve film taramalarınızla senkronize edilmeye hazır olur.",
+  "sections": [
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.24.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.24.0-1@2x.png",
+      "alt": "Frames film fotoğrafçılığı uygulaması XMP sidecar dışa aktarma ve EXIF meta veri özellikleri",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Tam meta verili XMP sidecar dışa aktarma"
+    },
+    {
+      "type": "paragraph",
+      "content": "Artık film rulolarınızı standart XMP sidecar dosyaları olarak dışa aktarabilir, Adobe Lightroom ve Capture One gibi masaüstü düzenleyicilerle doğrudan uyumluluk sağlayabilirsiniz. Her kare, çekiminizin eksiksiz EXIF kaydını içeren ayrı bir dosya oluşturur. Buna kamera modeli, objektif, odak uzaklığı, odaklama mesafesi ve kare numarası dahildir. Ayrıca enstantane hızı, diyafram açıklığı, ISO, pozlama telafisi, ölçüm modu, pozlama programı ve flaş ayarları gibi hassas pozlama ayrıntıları da kaydedilir. Son olarak, kullandığınız film, filtreler ile birlikte tam tarih, saat ve konum bilgisi de dosyaya eklenir. Böylece analog çekim verileriniz dijital kitaplığınıza kusursuz şekilde aktarılır."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Notlar ve ayrıntılar User Comments alanında"
+    },
+    {
+      "type": "paragraph",
+      "content": "Hiçbir ayrıntının kaybolmaması için dışa aktarma işlemi, kişisel kare notlarınızı doğrudan UserComment alanına yazar. Standart teknik veriler belirli EXIF etiketleriyle eşleştirilirken, bu yorum alanı çekim sırasında eklediğiniz bağlamın görüntü dosyasına bağlı kalmasını ve masaüstü düzenleyicinizde kolayca okunabilmesini garanti eder."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Meta veri iş akışınızı seçin"
+    },
+    {
+      "type": "paragraph",
+      "content": "Bu yeni dışa aktarma yöntemi, meta verileri doğrudan JPEG, TIFF ve DNG dosyalarına yazan macOS app ile birlikte çalışır. XMP sidecar dosyaları sunmak, tahribatsız bir yaklaşımı tercih edenler veya özel dosya biçimleriyle çalışanlar için bir alternatif sağlar. Taramalarınızı aldığınızda, dışa aktarılan XMP dosyalarını görüntülerinizle aynı klasöre yerleştirmeniz yeterlidir. Yazılımınız verileri otomatik olarak okuyacak ve son işleme rutininize en uygun iş akışını seçmenize olanak tanıyacaktır."
+    }
+  ],
+  "improvements": [
+    "Film rulolarını masaüstü düzenleyiciler için standart XMP sidecar dosyaları olarak dışa aktarma",
+    "Adobe Lightroom, Capture One ve diğer yazılımlarla tam uyumluluk"
+  ],
+  "fixes": [],
+  "patches": [],
+  "meta_title": "XMP Sidecar dışa aktarma ve EXIF verileri - Frames",
+  "meta_description": "Film rulolarınızı Lightroom ve Capture One için XMP sidecar dosyaları olarak dışa aktarın. Her kare diyafram, enstantane hızı ve konum bilgisi gibi EXIF verilerini içerir."
+}

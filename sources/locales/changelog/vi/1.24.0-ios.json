@@ -1,0 +1,54 @@
+{
+  "version": "1.24.0",
+  "version_short": "1.24",
+  "url_slug": "1-24-ios",
+  "platform": "ios",
+  "release_date": "2026-03-14T10:00:00.000Z",
+  "title": "Xuất file XMP Sidecar và dữ liệu EXIF",
+  "summary": "Bản cập nhật này bổ sung khả năng xuất cuộn phim dưới dạng file XMP sidecar, giúp dữ liệu của bạn tương thích hoàn toàn với các phần mềm chỉnh sửa ảnh trên máy tính như Lightroom và Capture One. Mỗi khung hình được xuất thành một file riêng chứa đầy đủ dữ liệu EXIF, đảm bảo máy ảnh, ống kính và các thông số phơi sáng chính xác của bạn được ghi nhận đầy đủ, sẵn sàng đồng bộ với ảnh scan phim.",
+  "sections": [
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.24.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.24.0-1@2x.png",
+      "alt": "Ứng dụng chụp ảnh phim Frames với tính năng xuất XMP sidecar và dữ liệu EXIF",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Xuất XMP Sidecar với đầy đủ dữ liệu metadata"
+    },
+    {
+      "type": "paragraph",
+      "content": "Giờ đây bạn có thể xuất cuộn phim dưới dạng file XMP sidecar chuẩn, tương thích trực tiếp với các trình chỉnh sửa trên máy tính như Adobe Lightroom và Capture One. Mỗi khung hình tạo ra một file riêng chứa bản ghi EXIF chính xác của bức ảnh. Thông tin bao gồm mẫu máy ảnh, ống kính, tiêu cự, khoảng cách lấy nét và số khung hình. Các thông số phơi sáng chi tiết như tốc độ màn trập, khẩu độ, ISO, bù phơi sáng, chế độ đo sáng, chương trình phơi sáng và cài đặt đèn flash cũng được ghi lại. Cuối cùng, phim sử dụng, filter và vị trí địa lý, ngày giờ chính xác đều được lưu trữ. Điều này đảm bảo dữ liệu chụp phim analog của bạn được chuyển hoàn hảo sang thư viện ảnh số."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Ghi chú và chi tiết trong User Comments"
+    },
+    {
+      "type": "paragraph",
+      "content": "Để không bỏ sót bất kỳ chi tiết nào, quá trình xuất sẽ ghi ghi chú cá nhân của từng khung hình trực tiếp vào trường UserComment. Trong khi dữ liệu kỹ thuật chuẩn được ánh xạ vào các thẻ EXIF tương ứng, trường bình luận này đảm bảo những ngữ cảnh bổ sung bạn ghi lại khi chụp vẫn gắn liền với file ảnh và dễ dàng đọc được trong trình chỉnh sửa trên máy tính."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "Chọn quy trình làm việc với metadata"
+    },
+    {
+      "type": "paragraph",
+      "content": "Phương thức xuất mới này hoạt động song song với macOS app, vốn ghi metadata trực tiếp vào file JPEG, TIFF và DNG. Việc cung cấp file XMP sidecar là giải pháp thay thế cho những ai ưa thích cách tiếp cận không phá hủy file gốc hoặc làm việc với các định dạng file độc quyền. Sau khi nhận ảnh scan, bạn chỉ cần đặt các file XMP đã xuất vào cùng thư mục với ảnh. Phần mềm sẽ tự động đọc dữ liệu, cho phép bạn chọn quy trình phù hợp nhất với thói quen hậu kỳ của mình."
+    }
+  ],
+  "improvements": [
+    "Xuất cuộn phim dưới dạng file XMP sidecar chuẩn cho trình chỉnh sửa trên máy tính",
+    "Tương thích hoàn toàn với Adobe Lightroom, Capture One và các phần mềm khác"
+  ],
+  "fixes": [],
+  "patches": [],
+  "meta_title": "Xuất XMP Sidecar và dữ liệu EXIF - Frames",
+  "meta_description": "Xuất cuộn phim dưới dạng file XMP sidecar cho Lightroom và Capture One. Mỗi khung hình chứa đầy đủ dữ liệu EXIF như khẩu độ, tốc độ màn trập và vị trí địa lý."
+}
