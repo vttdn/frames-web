@@ -234,10 +234,12 @@
   },
   "pricing": {
     "heading_seo": "Giá ứng dụng nhiếp ảnh phim",
-    "heading": "Bảng Giá",
+    "heading": "Chọn gói phù hợp và bắt đầu chụp ảnh thông minh hơn.",
     "schema_offer_name": "Sổ ghi chép nhiếp ảnh phim",
+    "subtitle": "Bao gồm Frames cho iPhone và Mac với tất cả tính năng được mở khóa.",
     "label_period": "Hàng tháng",
     "label_period_yearly": "Hàng năm",
+    "label_period_lifetime": "Trọn đời",
     "label_subscription_monthly": "Đăng ký hàng tháng",
     "label_subscription_yearly": "Đăng ký hàng năm",
     "currency": "VND",
@@ -261,8 +263,7 @@
         "Phim không giới hạn",
         "Thư mục con",
         "Xuất dữ liệu",
-        "Nhúng metadata",
-        "Ứng dụng iPhone & Mac"
+        "Nhúng metadata"
       ],
       "button_text": "Dùng Thử Miễn Phí"
     },
@@ -496,6 +497,119 @@
       "page_suffix": "",
       "newer_posts": "Bài mới hơn",
       "older_posts": "Bài cũ hơn"
+    }
+  },
+  "newfooter": {
+    "title1": "Khám phá",
+    "title2": "Tải về",
+    "title3": "Kết Nối",
+    "section1": {
+      "features": "Tính Năng",
+      "privacy": "Quyền riêng tư",
+      "terms": "Điều khoản",
+      "contact": "Liên hệ",
+      "blog": "Blog"
+    },
+    "section2": {
+      "framesios": "Frames iOS",
+      "framesmacos": "Frames macOS"
+    },
+    "section3": {
+      "instagram": "Instagram",
+      "threads": "Threads",
+      "twitter": "Twitter",
+      "bluesky": "Bluesky",
+      "mastodon": "Mastodon",
+      "linkedin": "Linkedin"
+    },
+    "section4": {
+      "copyright": "2026 Vincent Tantardini. Đã đăng ký bản quyền.",
+      "compliance": "Tuân thủ PDPD"
+    }
+  },
+  "newhome": {
+    "about": {
+      "p1": "Nhiếp ảnh phim không biến mất. Nó đang trở lại một cách lặng lẽ nhưng mạnh mẽ.",
+      "p2": "Ngày càng nhiều nhiếp ảnh gia chọn sự chậm rãi, có chủ đích, và cảm giác hữu hình của phim.",
+      "p3": "Nhưng quy trình vẫn còn phân mảnh, rải rác giữa sổ tay, cuộn phim và các tệp kỹ thuật số.",
+      "p4": "Frames là nơi cả hai cuối cùng gặp nhau, analog và kỹ thuật số, trong một nơi duy nhất."
+    },
+    "section1": {
+      "eyebrow": "Sổ tay phim",
+      "title": "Ghi lại tất cả.",
+      "summary": "Frames là sổ tay iOS dành cho nhiếp ảnh gia phim. Ghi lại cuộn phim, ghi chú cài đặt, và ghi lại chi tiết từng khung hình trong lúc chụp mà không làm gián đoạn nhịp chụp. Tất cả nằm trong một nơi, giúp bạn duy trì sự nhất quán, theo dõi tiến trình và kết nối ghi chú với bản scan khi chúng trở về từ phòng tráng phim.",
+      "feature1": {
+        "title": "Kho lưu trữ sống",
+        "description": "Tất cả cuộn phim, máy ảnh và ống kính của bạn được tập hợp trong một chế độ xem duy nhất. Duyệt theo hình ảnh hoặc dễ dàng đi sâu vào chi tiết của bất kỳ buổi chụp nào. Mỗi cuộn phim trở thành hồ sơ vĩnh viễn bạn có thể quay lại bất cứ lúc nào, giúp hiểu thói quen, mài giũa con mắt và thấy cách chụp ảnh phát triển qua các dự án."
+      },
+      "feature2": {
+        "title": "Ghi lại trong lúc chụp",
+        "description": "Ghi lại điều quan trọng, từng khung hình, mà không mất đà. Ghi cài đặt, ghi chú và bối cảnh cho từng ảnh chỉ với vài lần chạm. Frames giữ mọi thứ có cấu trúc mà không cản trở, để sự chú ý của bạn luôn hướng đến ánh sáng, khoảnh khắc và bức ảnh."
+      },
+      "feature3": {
+        "title": "Đồng hành cùng bản scan",
+        "description": "Hồ sơ của bạn không bị khóa bên trong ứng dụng. Xuất ghi chú và siêu dữ liệu ở các định dạng như XMP, CSV, TXT và nhiều hơn nữa, sẵn sàng đồng hành cùng bản scan vào bất kỳ môi trường chỉnh sửa hay lưu trữ nào. Dù chia sẻ, lưu trữ hay xử lý ảnh, dữ liệu phim của bạn luôn trong tầm tay."
+      }
+    },
+    "section2": {
+      "eyebrow": "EXIF metadata",
+      "title": "Kết nối trở lại.",
+      "summary": "Frames dành cho macOS đóng vòng lặp giữa ghi chú analog và bản scan kỹ thuật số. Nhập nhật ký, ghép chúng với ảnh và ghi siêu dữ liệu trực tiếp vào từng tệp mà không chỉnh sửa tệp gốc. Mọi thứ luôn được kết nối, kho lưu trữ đầy lên theo từng cuộn phim và luôn hoàn chỉnh, sẵn sàng để chỉnh sửa hoặc chia sẻ.",
+      "feature1": {
+        "title": "Nhập liệu mượt mà",
+        "description": "Đưa bản scan vào Frames bằng thao tác kéo và thả đơn giản. Ghép từng ảnh với khung hình đã ghi trên iOS, và mọi ghi chú, cài đặt, chi tiết đều khớp vào đúng vị trí. Kết nối giữa hồ sơ analog và tệp kỹ thuật số trở nên tức thời và cụ thể. Một cuộn phim hay cả kho lưu trữ, quá trình vẫn nhanh chóng và chính xác."
+      },
+      "feature2": {
+        "title": "Nhúng dữ liệu vĩnh viễn",
+        "description": "Frames ghi dữ liệu chụp trực tiếp vào từng tệp ảnh dưới dạng siêu dữ liệu EXIF. Loại phim, cài đặt phơi sáng, thiết bị, vị trí địa lý và ghi chú cá nhân đều được lưu bên trong tệp, vô hình nhưng luôn ở đó. Bản scan mang theo câu chuyện đầy đủ của mỗi bức ảnh, để các lần chỉnh sửa, chia sẻ hay lưu trữ trong tương lai luôn bắt đầu từ bức tranh hoàn chỉnh."
+      },
+      "feature3": {
+        "title": "Đọc được ở mọi nơi",
+        "description": "Một khi đã ghi, siêu dữ liệu trở thành một phần vĩnh viễn của tệp. Apple Photos, Adobe Lightroom, Google Photos, Capture One, Darkroom và hầu hết các công cụ hình ảnh đều có thể đọc natively, hiển thị ghi chú và cài đặt bất cứ nơi nào bạn mở tệp. Không cần thêm bước nào, không mất ngữ cảnh, không cần nhập lại dữ liệu, bất kể bạn làm việc trên nền tảng nào."
+      },
+      "feature4": {
+        "title": "Ưu tiên quyền riêng tư",
+        "description": "Frames lưu trữ mọi thứ cục bộ, không có kết nối đám mây. Ghi chú và siêu dữ liệu của bạn không bao giờ rời thiết bị trừ khi bạn tự xuất chúng. Không cần tài khoản, không đồng bộ nền, không có máy chủ. Những gì bạn ghi lại hoàn toàn nằm trong tay bạn, riêng tư và an toàn theo thiết kế.",
+        "privacy_note1": "Dữ liệu của bạn được bảo mật.",
+        "privacy_note2": "Chúng tôi không bao giờ chia sẻ hoặc bán dữ liệu trong bất kỳ hoàn cảnh nào."
+      }
+    },
+    "section3": {
+      "eyebrow": "Cá nhân hóa",
+      "title": "Theo cách của bạn.",
+      "summary": "Frames thích ứng với cách bạn làm việc. Chọn cách hiển thị cuộn phim, đặt chuỗi khẩu độ và tốc độ màn trập cho thiết bị của bạn, điều chỉnh bố cục bảng ghi và chọn các điều khiển quan trọng nhất với bạn. Không có hai nhiếp ảnh gia nào chụp theo cùng một cách, và mỗi phần của ứng dụng tự hình thành xung quanh thực hành của bạn, không phải ngược lại.",
+      "feature1": {
+        "title": "Bố cục linh hoạt",
+        "description": "Duyệt cuộn phim ở chế độ lưới hay danh sách, kiểm soát mức độ chi tiết mỗi hàng khung hình hiển thị, và chọn bố cục bảng ghi, thanh công cụ nổi hoặc tờ toàn màn hình. Mọi tùy chọn hiển thị đều phục vụ cách bạn suy nghĩ, không áp đặt cấu trúc lên bạn. Giao diện uốn mình theo thói quen của bạn để công cụ không cản trở và sự tập trung của bạn ở lại việc chụp ảnh."
+      },
+      "feature2": {
+        "title": "Điều khiển phù hợp với bạn",
+        "description": "Tùy chỉnh Frames theo thiết bị và cách bạn chụp. Đặt chuỗi tốc độ màn trập và khẩu độ theo các bước bạn thực sự sử dụng để các điều khiển gọn gàng và liên quan. Thêm phím tắt hay dùng nhất vào bảng ghi, dù là chế độ đo sáng, đèn flash, bù phơi sáng hay ghi chú, và ghi lại nhanh hơn mà không có sự thỏa hiệp nào."
+      },
+      "highlight1": {
+        "title": "Thanh điều khiển",
+        "description": "Ghim các điều khiển bạn dùng nhiều nhất, đo sáng, đèn flash, bù phơi sáng, ghi chú, vào thanh công cụ bảng ghi. Ít tìm kiếm hơn, chụp nhiều hơn."
+      },
+      "highlight2": {
+        "title": "Thiết bị",
+        "description": "Thiết lập máy ảnh, ống kính, bộ lọc và phim một lần. Frames giữ chúng sẵn sàng trên toàn ứng dụng để mỗi cuộn phim mới bắt đầu nhanh chóng và chính xác."
+      },
+      "highlight3": {
+        "title": "Vị trí địa lý",
+        "description": "Frames tự động gắn thẻ vị trí từng khung hình khi bạn chụp, ngay cả khi ngoại tuyến, và cho phép bạn sửa lại bất cứ lúc nào. Mỗi bức ảnh mang theo địa điểm mà không cần thêm nỗ lực nào."
+      },
+      "highlight4": {
+        "title": "Khẩu độ",
+        "description": "Đặt bước khẩu độ theo cả khẩu, nửa khẩu hoặc một phần ba khẩu, hoặc tạo dải tùy chỉnh hoàn toàn. Chỉ các giá trị bạn thực sự dùng xuất hiện, giữ giao diện gọn gàng và chính xác."
+      },
+      "highlight5": {
+        "title": "Tốc độ màn trập",
+        "description": "Chọn bước tốc độ màn trập tiêu chuẩn hoặc tự định nghĩa chuỗi của riêng bạn từ đầu. Các điều khiển chỉ hiển thị những gì liên quan đến máy ảnh và phong cách của bạn, không hơn."
+      },
+      "highlight6": {
+        "title": "Ghi chú tùy chỉnh",
+        "description": "Vượt ra ngoài các trường tiêu chuẩn với ghi chú bạn tự định nghĩa. Ghi lại số đọc ánh sáng, lời nhắc, hoặc bất cứ điều gì về một bức ảnh mà trường có sẵn không thể nắm bắt."
+      }
     }
   }
 }

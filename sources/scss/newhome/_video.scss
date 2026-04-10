@@ -1,0 +1,94 @@
+.feature1-video {
+    margin-right: 0.875rem;
+}
+
+.video-wrapper {
+    position: relative;
+}
+
+.video-iphone-screen {
+    position: absolute;
+
+    left: 5.333%;
+    top: 2.5%;
+    // right: 5.333%;
+    width: 89.333%;
+    height: 95%;
+    background: black;
+
+    object-fit: cover; /* or contain depending on your video */
+
+    video {
+        width: 100%;
+        height: auto;
+        border-radius: 5%;
+    }
+}
+
+.video-iphone-mockup,
+.video-ipad-mockup,
+.video-macbook-mockup {
+    position: relative;
+    z-index: 2;
+
+    img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+.video-ipad-screen {
+    position: absolute;
+    left: 5.57%;
+    top: 8.2%;
+    width: 88.8%;
+    height: 83.6%;
+    background: black;
+
+    object-fit: cover; /* or contain depending on your video */
+
+    video {
+        width: 100%;
+        height: auto;
+    }
+}
+
+.video-macbook-screen {
+  position: absolute;
+  left: 10.25%;
+  top: 3.35%;
+  width: 79.5%;
+  height: 85.7%;
+    background: black;
+
+    object-fit: cover; /* or contain depending on your video */
+
+    video {
+        width: 100%;
+        height: auto;
+    }
+}
+
+.video-wrapper-macbook {
+    position: relative;
+    margin-left: -10%;
+    margin-right: -10%;
+}
+
+.video-macbook-container {
+    overflow: hidden;
+    padding: 0 1.375rem;
+}
+@media (max-width: 1068px) {
+    .feature1-video {
+        margin-right: 0;
+        max-width: 23.75rem;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 732px) {
+    .feature1-video {
+        max-width: 17.5rem;
+    }
+}

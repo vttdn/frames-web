@@ -265,10 +265,12 @@
   },
   "pricing": {
     "heading_seo": "Analog Photography App Pricing",
-    "heading": "Pricing",
+    "heading": "Pick a plan and start shooting smarter.",
     "schema_offer_name": "Film Notebook",
+    "subtitle": "Includes Frames for iPhone and Mac with all features unlocked.",
     "label_period": "Monthly",
     "label_period_yearly": "Yearly",
+    "label_period_lifetime": "Lifetime",
     "label_subscription_monthly": "Monthly subscription",
     "label_subscription_yearly": "Yearly subscription",
     "currency": "USD",
@@ -293,8 +295,7 @@
         "Unlimited rolls",
         "Subfolders",
         "Data export",
-        "Metadata embedding",
-        "iPhone & Mac apps"
+        "Metadata embedding"
       ],
       "button_text": "Try it Free"
     },
@@ -302,7 +303,7 @@
   },
   "qa": {
     "heading_seo": "From Film Photographers",
-    "heading": "Questions & Answers",
+    "heading": "Questions? Answers.",
     "question1": {
       "question": "What metadata can I record?",
       "answer": "Frames lets you log detailed information for every shot, including camera, lens, filters, frame number, focal length, aperture, shutter speed, ISO, metering mode, film stock, flash, GPS location, timestamps, and custom notes, ensuring you never lose track of important analog photography details."
@@ -316,7 +317,7 @@
       "answer": "Frames is currently available for iPhone and macOS. Versions for Android and Windows are planned for 2026, and in the meantime, you can share and manage your data via .frames file exports."
     },
     "question4": {
-      "question": "Which shutter speeds and apertures are supported?",
+      "question": "Which exposure increments are supported?",
       "answer": "Frames provides default sequences that cover most lenses and cameras. You can also define custom sequences for your gear, making it compatible with any shutter speed or aperture value."
     },
     "question5": {
@@ -339,6 +340,34 @@
   "contact": {
     "heading": "Share your ideas and feedback.",
     "button_text": "Send us an email"
+  },
+  "newfooter": {
+    "title1": "Explore",
+    "title2": "Download",
+    "title3": "Connect",
+    "section1": {
+      "features": "Features",
+      "privacy": "Privacy",
+      "terms": "Terms",
+      "contact": "Contact",
+      "blog": "Blog"
+    },
+    "section2": {
+      "framesios": "Frames iOS",
+      "framesmacos": "Frames macOS"
+    },
+    "section3": {
+      "instagram": "Instagram",
+      "threads": "Threads",
+      "twitter": "Twitter",
+      "bluesky": "Bluesky",
+      "mastodon": "Mastodon",
+      "linkedin": "Linkedin"
+    },
+    "section4": {
+      "copyright": "2026 Vincent Tantardini. All rights reserved.",
+      "compliance": "CCPA/CPRA Compliant"
+    }
   },
   "footer": {
     "logo_alt": "Frames",
@@ -498,5 +527,90 @@
     "last_updated_iso": "2025-10-12",
     "last_updated_label": "Last updated",
     "button_home": "Home"
+  },
+  "newhome": {
+    "about": {
+      "p1": "Film photography isn't fading away. It's quietly making a strong return.",
+      "p2": "More photographers are choosing slowness, intention, and the tactile feel of film.",
+      "p3": "But the process stays fragmented, scattered across notebooks, rolls, and digital files.",
+      "p4": "Frames is where both sides finally meet, analog and digital, in one place."
+    },
+    "section1": {
+      "eyebrow": "Film notebook",
+      "title": "Log everything.",
+      "summary": "Frames is an iOS notebook for film photographers. Log rolls, record settings, and capture the details of each shot as you go, without breaking your rhythm. Everything lives in one place, making it simple to stay consistent, follow your progress over time, and connect your notes to your scans once they come back from the lab.",
+      "feature1": {
+        "title": "Living archive",
+        "description": "All your rolls, cameras, and lenses sit together in a single view. Browse visually or step into the details of any session with ease. Each roll becomes a permanent record you can return to at any time, helping you understand your habits, sharpen your eye, and see how your shooting evolves across projects."
+      },
+      "feature2": {
+        "title": "Log as you shoot",
+        "description": "Capture what matters, frame by frame, without losing momentum. Log settings, notes, and context for each shot in just a few taps. Frames keeps things structured without getting in the way, so your attention stays on the light, the moment, and the shot."
+      },
+      "feature3": {
+        "title": "Follows your scans",
+        "description": "Your records don't stay locked inside the app. Export notes and metadata in formats like XMP, CSV, TXT, and more, ready to travel alongside your scans into any editing or archiving setup. Whether you share, store, or process your images, your film data is always within reach."
+      }
+    },
+    "section2": {
+      "eyebrow": "EXIF metadata",
+      "title": "Bring it back.",
+      "summary": "Frames for macOS closes the loop between your analog notes and your digital scans. Import your logs, pair them with your images, and write metadata directly into each file without modifying the source files. Everything stays connected, so your archive fills out roll by roll and is always complete and ready for editing or sharing.",
+      "feature1": {
+        "title": "Seamless imports",
+        "description": "Bring your scans into Frames with a simple drag and drop. Match each image to the frame you logged on iOS, and every note, setting, and detail clicks into place alongside it. The connection between your analog records and your digital files becomes immediate and tangible. One roll or a full archive, the process stays quick and precise."
+      },
+      "feature2": {
+        "title": "Embed data permanently",
+        "description": "Frames writes your shooting data directly into each image file as EXIF metadata. Film stock, exposure settings, equipment, geolocation, and personal notes all travel inside the file itself, invisible but always there. Your scans carry the full story of every shot, so future edits, sharing, or archiving always starts from a complete picture."
+      },
+      "feature3": {
+        "title": "Universally readable",
+        "description": "Once written, your metadata is part of the file permanently. Apple Photos, Adobe Lightroom, Google Photos, Capture One, Darkroom, and most image tools can read it natively, surfacing your notes and settings wherever you open a file. No extra steps, no lost context, no data to re-enter, regardless of which platform you work on."
+      },
+      "feature4": {
+        "title": "Privacy first",
+        "description": "Frames stores everything locally, with no cloud connection involved. Your notes and metadata never leave your device unless you export them yourself. No account required, no background sync, no servers. What you capture stays entirely in your hands, private and secure by design.",
+        "privacy_note1": "Your data stays private.",
+        "privacy_note2": "We never share or sell it under any circumstances."
+      }
+    },
+    "section3": {
+      "eyebrow": "Personalization",
+      "title": "Your way.",
+      "summary": "Frames fits the way you work. Choose how your rolls are displayed, set aperture and shutter speed sequences for your gear, adjust the recorder layout, and pick the controls that matter most to you. No two photographers shoot the same way, and every part of the app shapes itself around your practice, not the other way around.",
+      "feature1": {
+        "title": "Flexible layout",
+        "description": "Browse your rolls in gallery or list view, control how much detail each frame row shows, and choose your recorder layout, either a floating toolbar or a fullscreen sheet. Every display option is there to serve how you think, not to impose a structure on you. The interface bends to your habits so the tool stays out of the way and your focus stays on making pictures."
+      },
+      "feature2": {
+        "title": "Controls that fit you",
+        "description": "Tailor Frames to your gear and the way you shoot. Set shutter speed and aperture sequences in the increments you actually use, so the controls stay clean and relevant. Add your most-used shortcuts to the recorder, whether that's metering mode, flash, exposure compensation, or notes, and log faster without compromise."
+      },
+      "highlight1": {
+        "title": "Control bar",
+        "description": "Pin the controls you reach for most, metering, flash, exposure compensation, notes, right to the recorder toolbar where they belong. Less searching, more shooting."
+      },
+      "highlight2": {
+        "title": "Equipment",
+        "description": "Set up your cameras, lenses, filters, and film stocks once and for all. Frames keeps them on hand across the app so every new roll starts quickly and accurately."
+      },
+      "highlight3": {
+        "title": "Geolocation",
+        "description": "Frames automatically tags the location of each frame as you shoot, even offline, and lets you correct it at any time. Every shot carries its place without any extra effort."
+      },
+      "highlight4": {
+        "title": "Aperture",
+        "description": "Set your aperture steps in full, half, or third stop increments, or build a fully custom range. Only the values you actually use appear, keeping the interface clean and precise."
+      },
+      "highlight5": {
+        "title": "Shutter speed",
+        "description": "Choose standard shutter speed increments or define your own sequence from scratch. The controls show only what's relevant to your camera and style, nothing more."
+      },
+      "highlight6": {
+        "title": "Custom notes",
+        "description": "Go beyond standard fields with notes you define yourself. Jot down light readings, reminders, or anything else about a shot that a preset field wouldn't capture."
+      }
+    }
   }
 }

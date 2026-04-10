@@ -234,10 +234,12 @@
   },
   "pricing": {
     "heading_seo": "Cennik aplikacji do fotografii analogowej",
-    "heading": "Cennik",
+    "heading": "Wybierz plan i fotografuj sprytniej.",
     "schema_offer_name": "Notatnik analogowy",
+    "subtitle": "Zawiera Frames na iPhone i Mac z odblokowanymi wszystkimi funkcjami.",
     "label_period": "Miesięcznie",
     "label_period_yearly": "Rocznie",
+    "label_period_lifetime": "Dożywotni",
     "label_subscription_monthly": "Subskrypcja miesięczna",
     "label_subscription_yearly": "Subskrypcja roczna",
     "currency": "PLN",
@@ -260,8 +262,7 @@
         "Nieograniczona liczba filmów",
         "Podfoldery",
         "Eksport danych",
-        "Osadzanie metadanych",
-        "Aplikacje na iPhone i Mac"
+        "Osadzanie metadanych"
       ],
       "button_text": "Wypróbuj Za Darmo"
     },
@@ -495,6 +496,119 @@
       "page_suffix": "",
       "newer_posts": "Nowsze artykuly",
       "older_posts": "Starsze artykuly"
+    }
+  },
+  "newfooter": {
+    "title1": "Odkryj",
+    "title2": "Pobierz",
+    "title3": "Kontakt",
+    "section1": {
+      "features": "Funkcje",
+      "privacy": "Prywatność",
+      "terms": "Regulamin",
+      "contact": "Kontakt",
+      "blog": "Blog"
+    },
+    "section2": {
+      "framesios": "Frames iOS",
+      "framesmacos": "Frames macOS"
+    },
+    "section3": {
+      "instagram": "Instagram",
+      "threads": "Threads",
+      "twitter": "Twitter",
+      "bluesky": "Bluesky",
+      "mastodon": "Mastodon",
+      "linkedin": "Linkedin"
+    },
+    "section4": {
+      "copyright": "2026 Vincent Tantardini. Wszelkie prawa zastrzeżone.",
+      "compliance": "Zgodne z RODO"
+    }
+  },
+  "newhome": {
+    "about": {
+      "p1": "Fotografia analogowa nie znika. Powraca cicho, lecz z rozmachem.",
+      "p2": "Coraz więcej fotografów wybiera powolność, intencję i dotykowe odczucie błony filmowej.",
+      "p3": "Ale proces pozostaje fragmentaryczny, rozproszony między notatnikami, rolkami i plikami cyfrowymi.",
+      "p4": "Frames to miejsce, gdzie oba światy w końcu się spotykają, analogowy i cyfrowy, w jednym miejscu."
+    },
+    "section1": {
+      "eyebrow": "Notes fotograficzny",
+      "title": "Zapisuj wszystko.",
+      "summary": "Frames to notes iOS dla fotografów analogowych. Rejestruj rolki, zapisuj ustawienia i utrwalaj szczegóły każdego zdjęcia na bieżąco, nie przerywając rytmu pracy. Wszystko jest w jednym miejscu, aby zachować spójność, śledzić postępy i łączyć notatki ze skanami po powrocie z laboratorium.",
+      "feature1": {
+        "title": "Żywe archiwum",
+        "description": "Wszystkie rolki, aparaty i obiektywy są zgromadzone w jednym widoku. Przeglądaj pracę wizualnie lub wchodź w szczegóły dowolnej sesji z łatwością. Każda rolka staje się trwałym dokumentem, do którego możesz wrócić w dowolnym momencie, by lepiej rozumieć swoje nawyki, wyostrzać oko i obserwować, jak Twoja twórczość ewoluuje z projektu na projekt."
+      },
+      "feature2": {
+        "title": "Notuj podczas fotografowania",
+        "description": "Utrwalaj to, co ważne, klatka po klatce, bez utraty tempa. Zapisuj ustawienia, notatki i kontekst dla każdego zdjęcia w kilku gestach. Frames utrzymuje porządek bez narzucania się, dzięki czemu uwaga pozostaje skupiona na świetle, chwili i kadrze."
+      },
+      "feature3": {
+        "title": "Podąża za skanami",
+        "description": "Twoje notatki nie zostają uwięzione w aplikacji. Eksportuj je z metadanymi w formatach takich jak XMP, CSV, TXT i inne, gotowe do towarzyszenia skanom w dowolnym środowisku edycji lub archiwizacji. Niezależnie od tego, czy udostępniasz, przechowujesz czy przetwarzasz obrazy, dane filmowe są zawsze w zasięgu ręki."
+      }
+    },
+    "section2": {
+      "eyebrow": "Metadane EXIF",
+      "title": "Przywróć je z powrotem.",
+      "summary": "Frames dla macOS zamyka pętlę między analogowymi notatkami a cyfrowymi skanami. Importuj logi, paruj je z obrazami i zapisuj metadane bezpośrednio do każdego pliku bez modyfikowania oryginałów. Wszystko pozostaje połączone, a archiwum uzupełnia się rolka po rolce, zawsze kompletne i gotowe do edycji lub udostępnienia.",
+      "feature1": {
+        "title": "Płynny import",
+        "description": "Przeciągnij skany do Frames prostym gestem. Powiąż każdy obraz z klatką zarejestrowaną na iOS, a każda notatka, ustawienie i detal wskoczy na swoje miejsce. Połączenie między analogowymi notatkami a plikami cyfrowymi staje się natychmiastowe i namacalne. Jedna rolka lub całe archiwum, proces pozostaje szybki i dokładny."
+      },
+      "feature2": {
+        "title": "Dane na stałe wbudowane",
+        "description": "Frames zapisuje dane zdjęciowe bezpośrednio do każdego pliku graficznego jako metadane EXIF. Typ błony, ustawienia ekspozycji, sprzęt, geolokalizacja i osobiste notatki podróżują wewnątrz pliku, niewidoczne, lecz zawsze obecne. Skany niosą pełną historię każdego ujęcia, więc przyszłe edycje, udostępnienia czy archiwizacje zawsze wychodzą od kompletnego obrazu."
+      },
+      "feature3": {
+        "title": "Odczytywane wszędzie",
+        "description": "Raz zapisane metadane stają się trwałą częścią pliku. Apple Photos, Adobe Lightroom, Google Photos, Capture One, Darkroom i większość narzędzi do pracy z obrazem czyta je natywnie, wyświetlając notatki i ustawienia gdziekolwiek otworzysz plik. Żadnych dodatkowych kroków, żadnego utraconego kontekstu, żadnego ponownego wprowadzania danych, niezależnie od platformy."
+      },
+      "feature4": {
+        "title": "Prywatność na pierwszym miejscu",
+        "description": "Frames przechowuje wszystko lokalnie, bez żadnego połączenia z chmurą. Notatki i metadane nigdy nie opuszczają Twojego urządzenia, chyba że sam je wyeksportujesz. Żadnego konta, żadnej synchronizacji w tle, żadnych serwerów. To, co utrwalisz, pozostaje całkowicie w Twoich rękach, prywatne i bezpieczne z założenia.",
+        "privacy_note1": "Twoje dane pozostają prywatne.",
+        "privacy_note2": "Nigdy ich nie udostępniamy ani nie sprzedajemy pod żadnym pozorem."
+      }
+    },
+    "section3": {
+      "eyebrow": "Personalizacja",
+      "title": "Po swojemu.",
+      "summary": "Frames dopasowuje się do Twojego sposobu pracy. Wybierz, jak wyświetlane są rolki, ustaw sekwencje przysłony i czasu naświetlania dla sprzętu, dostosuj układ panelu rejestracji i wybierz najważniejsze dla Ciebie elementy sterowania. Żadni dwaj fotografowie nie pracują tak samo, a każda część aplikacji kształtuje się wokół Twojej praktyki, nie odwrotnie.",
+      "feature1": {
+        "title": "Elastyczny układ",
+        "description": "Przeglądaj rolki w widoku galerii lub listy, kontroluj poziom szczegółów w każdym wierszu i wybierz układ panelu rejestracji, pływający pasek narzędzi lub pełnoekranowy arkusz. Każda opcja wyświetlania służy Twojemu sposobowi myślenia, nie narzuca struktury. Interfejs dostosowuje się do Twoich nawyków, by narzędzie pozostawało w tle."
+      },
+      "feature2": {
+        "title": "Elementy sterowania skrojone dla Ciebie",
+        "description": "Dostosuj Frames do sprzętu i sposobu fotografowania. Ustaw sekwencje czasu naświetlania i przysłony z krokami, których naprawdę używasz, by elementy sterowania pozostawały przejrzyste i trafne. Dodaj najczęściej używane skróty do panelu rejestracji, tryb pomiaru, lampę, kompensację ekspozycji lub notatki, i rejestruj szybciej bez kompromisów."
+      },
+      "highlight1": {
+        "title": "Pasek sterowania",
+        "description": "Przypnij najczęściej używane elementy sterowania, pomiar, lampę, kompensację ekspozycji, notatki, bezpośrednio na pasek panelu rejestracji. Mniej szukania, więcej fotografowania."
+      },
+      "highlight2": {
+        "title": "Sprzęt",
+        "description": "Skonfiguruj aparaty, obiektywy, filtry i typy błon raz na zawsze. Frames trzyma je pod ręką w całej aplikacji, by każda nowa rolka startowała szybko i dokładnie."
+      },
+      "highlight3": {
+        "title": "Geolokalizacja",
+        "description": "Frames automatycznie oznacza lokalizację każdej klatki podczas fotografowania, nawet offline, i pozwala ją korygować w dowolnym momencie. Każde zdjęcie niesie swoje miejsce bez żadnego dodatkowego wysiłku."
+      },
+      "highlight4": {
+        "title": "Przysłona",
+        "description": "Ustaw kroki przysłony w pełnych, połówkowych lub tercjowych stopniach, albo zbuduj całkowicie własną sekwencję. Wyświetlane są tylko wartości, których naprawdę używasz, dla przejrzystego i precyzyjnego interfejsu."
+      },
+      "highlight5": {
+        "title": "Czas naświetlania",
+        "description": "Wybierz standardowe kroki czasu naświetlania lub zdefiniuj własną sekwencję od zera. Elementy sterowania pokazują tylko to, co istotne dla Twojego aparatu i stylu, nic więcej."
+      },
+      "highlight6": {
+        "title": "Własne notatki",
+        "description": "Wyjdź poza standardowe pola z notatkami zdefiniowanymi przez siebie. Zapisuj pomiary światła, przypomnienia lub inne szczegóły ujęcia, których predefiniowane pole nie byłoby w stanie uchwycić."
+      }
     }
   }
 }

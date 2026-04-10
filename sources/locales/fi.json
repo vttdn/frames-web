@@ -234,10 +234,12 @@
   },
   "pricing": {
     "heading_seo": "Analoogikuvaussovelluksen hinnoittelu",
-    "heading": "Hinnoittelu",
+    "heading": "Valitse pakettisi ja aloita älykkäämpi kuvaaminen.",
     "schema_offer_name": "Filmin muistiinpanot",
+    "subtitle": "Sisältää Framesin iPhonelle ja Macille kaikkien ominaisuuksien kanssa.",
     "label_period": "Kuukausittain",
     "label_period_yearly": "Vuosittain",
+    "label_period_lifetime": "Elinikäinen",
     "label_subscription_monthly": "Kuukausitilaus",
     "label_subscription_yearly": "Vuosittainen tilaus",
     "currency": "EUR",
@@ -261,8 +263,7 @@
         "Rajoittamaton määrä filmejä",
         "Alikansiot",
         "Tietojen vienti",
-        "Metatietojen upotus",
-        "iPhone- ja Mac-sovellukset"
+        "Metatietojen upotus"
       ],
       "button_text": "Kokeile Ilmaiseksi"
     },
@@ -496,6 +497,119 @@
       "page_suffix": "",
       "newer_posts": "Uudemmat artikkelit",
       "older_posts": "Vanhemmat artikkelit"
+    }
+  },
+  "newfooter": {
+    "title1": "Tutustu",
+    "title2": "Lataa",
+    "title3": "Yhdistä",
+    "section1": {
+      "features": "Ominaisuudet",
+      "privacy": "Tietosuoja",
+      "terms": "Käyttöehdot",
+      "contact": "Ota yhteyttä",
+      "blog": "Blogi"
+    },
+    "section2": {
+      "framesios": "Frames iOS",
+      "framesmacos": "Frames macOS"
+    },
+    "section3": {
+      "instagram": "Instagram",
+      "threads": "Threads",
+      "twitter": "Twitter",
+      "bluesky": "Bluesky",
+      "mastodon": "Mastodon",
+      "linkedin": "Linkedin"
+    },
+    "section4": {
+      "copyright": "2026 Vincent Tantardini. Kaikki oikeudet pidätetään.",
+      "compliance": "GDPR-yhteensopiva"
+    }
+  },
+  "newhome": {
+    "about": {
+      "p1": "Analoginen valokuvaus ei häviä. Se palaa hiljaa mutta varmasti.",
+      "p2": "Yhä useammat valokuvaajat valitsevat hitauden, tarkoituksellisuuden ja filmin taktisen tuntuman.",
+      "p3": "Mutta prosessi on edelleen hajanainen, hajaantunut muistikirjojen, filmirullien ja digitaalisten tiedostojen välillä.",
+      "p4": "Frames on paikka, jossa molemmat maailmat kohtaavat vihdoin, analoginen ja digitaalinen, samassa paikassa."
+    },
+    "section1": {
+      "eyebrow": "Filmin muistikirja",
+      "title": "Kirjaa kaikki.",
+      "summary": "Frames on iOS-muistikirja filmivalokuvaajille. Kirjaa filmirullas, merkitse asetukset ja tallenna jokaisen kuvan yksityiskohdat kuvaamisen edetessä ilman rytmin rikkoutumista. Kaikki on yhdessä paikassa, jotta voit pysyä johdonmukaisena, seurata kehitystäsi ja yhdistää muistiinpanosi skannauksiin, kun ne palaavat laboratoriosta.",
+      "feature1": {
+        "title": "Elävä arkisto",
+        "description": "Kaikki filmirullas, kamerat ja objektiivit ovat yhdessä näkymässä. Selaa visuaalisesti tai sukella mihin tahansa kuvauskertaan helposti. Jokainen filmirulla muuttuu pysyväksi asiakirjaksi, johon voit palata milloin tahansa, ymmärtääksesi tapojasi, terävöittääksesi silmääsi ja nähdäksesi, kuinka työskentelysi kehittyy eri projektien myötä."
+      },
+      "feature2": {
+        "title": "Kirjaa kuvatessasi",
+        "description": "Nappaa oleellinen, kuva kerrallaan, ilman vauhdin menettämistä. Merkitse asetukset, muistiinpanot ja asiayhteys kullekin kuvalle muutamalla napautuksella. Frames pitää kaiken jäsenneltynä olematta tiellä, jotta huomiosi pysyy valossa, hetkessä ja kohteessa."
+      },
+      "feature3": {
+        "title": "Seuraa skannauksiasi",
+        "description": "Muistiinpanosi eivät jää lukittuina sovellukseen. Vie muistiinpanot ja metatiedot XMP-, CSV-, TXT- ja muissa muodoissa, valmiina matkaamaan skannausten rinnalla mihin tahansa muokkaus- tai arkistointijärjestelmään. Jaatpa, tallennit tai käsittelet kuviasi, filmidatasi on aina ulottuvilla."
+      }
+    },
+    "section2": {
+      "eyebrow": "EXIF-metatiedot",
+      "title": "Tuo ne takaisin.",
+      "summary": "Frames macOS:lle sulkee silmukan analogisten muistiinpanojesi ja digitaalisten skannauksiesi välillä. Tuo lokisi, yhdistä ne kuviisi ja kirjoita metatiedot suoraan jokaiseen tiedostoon muuttamatta alkuperäisiä. Kaikki pysyy yhdistettynä, ja arkistosi täydentyy rulla kerrallaan, aina valmis muokkaukseen tai jakamiseen.",
+      "feature1": {
+        "title": "Sujuva tuonti",
+        "description": "Tuo skannauksesi Framesiin yksinkertaisella vetämisellä. Yhdistä jokainen kuva iOS:ssa kirjattuun kehykseen, ja jokainen muistiinpano, asetus ja yksityiskohta loksahtaa paikoilleen. Analogisten muistiinpanojesi ja digitaalisten tiedostojesi välinen yhteys muuttuu välittömäksi ja konkreettiseksi. Yksi rulla tai kokonainen arkisto, prosessi pysyy nopeana ja tarkkana."
+      },
+      "feature2": {
+        "title": "Data upotettu pysyvästi",
+        "description": "Frames kirjoittaa kuvausdata suoraan jokaiseen kuvatiedostoon EXIF-metatietoina. Filmilaatu, valotusasetukset, kalusto, geolokalisointi ja henkilökohtaiset muistiinpanot matkustavat tiedoston sisällä näkymättöminä mutta aina läsnä. Skannauksesi kantavat jokaisen kuvan koko tarinan, jotta tulevat muokkaukset, jakamiset tai arkistoinnit alkavat aina täydellisestä kuvasta."
+      },
+      "feature3": {
+        "title": "Luettavissa kaikkialla",
+        "description": "Kirjoitettuna metatietosi ovat pysyvästi osa tiedostoa. Apple Photos, Adobe Lightroom, Google Photos, Capture One, Darkroom ja useimmat kuvankäsittelyohjelmat voivat lukea ne natiivisti ja näyttää muistiinpanosi ja asetuksesi missä tahansa avaat tiedoston. Ei ylimääräisiä vaiheita, ei kadonnutta kontekstia, ei tietoja syötettäväksi uudelleen, alustasta riippumatta."
+      },
+      "feature4": {
+        "title": "Yksityisyys ensin",
+        "description": "Frames tallentaa kaiken paikallisesti ilman pilviyhteyttä. Muistiinpanosi ja metatietosi eivät koskaan poistu laitteeltasi, ellei viet niitä itse. Tiliä ei tarvita, ei taustasynkronointia, ei palvelimia. Kuvaamasi pysyy täysin käsissäsi, yksityisenä ja turvallisena suunnittelun ansiosta.",
+        "privacy_note1": "Tietosi pysyvät yksityisinä.",
+        "privacy_note2": "Emme koskaan jaa tai myy niitä missään olosuhteissa."
+      }
+    },
+    "section3": {
+      "eyebrow": "Personointi",
+      "title": "Omalla tavallasi.",
+      "summary": "Frames sopeutuu työtapaasi. Valitse, miten filmirullas näytetään, aseta aukko- ja suljinaika-sarjat kalustolle, säädä kirjauspaneelin asettelu ja valitse sinulle tärkeimmät säätimet. Ei ole kahta samanlaista valokuvaajaa, ja jokainen sovelluksen osa muotoutuu käytäntösi ympärille eikä toisin päin.",
+      "feature1": {
+        "title": "Joustava asettelu",
+        "description": "Selaa filmirullia galleria- tai listamuodossa, hallitse, kuinka paljon yksityiskohtia kukin rivi näyttää, ja valitse kirjauspaneelisi asettelu, joko kelluva työkalupalkki tai koko näytön taulukko. Jokainen näyttövaihtoehto on siellä palvelemassa ajattelutapaasi ilman rakenteen pakottamista. Käyttöliittymä mukautuu tapoihisi niin, että työkalu pysyy taustalla."
+      },
+      "feature2": {
+        "title": "Sinulle sopivat säätimet",
+        "description": "Mukauta Frames kalustollesi ja kuvaustavalesi. Aseta suljinaika- ja aukko-sarjat käyttämissäsi askeleissa, jotta säätimet pysyvät siisteinä ja relevantteina. Lisää eniten käyttämäsi pikavalinnat kirjauspaneeliin, olipa kyse mittausmoodista, salamasta, valotuksen korjauksesta tai muistiinpanoista, ja kirjaa nopeammin ilman kompromisseja."
+      },
+      "highlight1": {
+        "title": "Säädinpalkki",
+        "description": "Kiinnitä useimmin käyttämäsi säätimet, mittaus, salama, valotuksen korjaus, muistiinpanot, suoraan kirjauspaneelin palkkiin. Vähemmän etsimistä, enemmän kuvaamista."
+      },
+      "highlight2": {
+        "title": "Kalusto",
+        "description": "Aseta kamerat, objektiivit, suodattimet ja filmityypit kerran ja lopullisesti. Frames pitää ne käden ulottuvilla koko sovelluksessa, jotta jokainen uusi rulla alkaa nopeasti ja tarkasti."
+      },
+      "highlight3": {
+        "title": "Geolokalisointi",
+        "description": "Frames merkitsee automaattisesti jokaisen kehyksen sijainnin kuvatessasi, myös offline-tilassa, ja antaa sinun korjata sen milloin tahansa. Jokainen kuva kantaa paikkansa ilman ylimääräistä vaivaa."
+      },
+      "highlight4": {
+        "title": "Aukko",
+        "description": "Aseta aukkoportaasi kokonaisin, puolikkain tai kolmanneksin askelin tai rakenna täysin oma sarja. Vain käyttämäsi arvot näkyvät, pitäen käyttöliittymän siistinä ja tarkkana."
+      },
+      "highlight5": {
+        "title": "Suljinaika",
+        "description": "Valitse vakioaskelet suljinajalle tai määritä oma sarjasi tyhjästä. Säätimet näyttävät vain kamerallesi ja tyylillesi oleellisen, ei enempää."
+      },
+      "highlight6": {
+        "title": "Omat muistiinpanot",
+        "description": "Mene vakiokenttien yli itse määrittelemilläsi muistiinpanoilla. Kirjaa valotusmittaukset, muistutukset tai muut yksityiskohdat kuvasta, joita esimääritetty kenttä ei pystyisi tallentamaan."
+      }
     }
   }
 }

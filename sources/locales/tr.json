@@ -234,10 +234,12 @@
   },
   "pricing": {
     "heading_seo": "Analog Fotoğrafçılık Uygulaması Fiyatları",
-    "heading": "Fiyatlandırma",
+    "heading": "Planını seç ve daha akıllı çekimlere başla.",
     "schema_offer_name": "Analog Fotoğraf Defteri",
+    "subtitle": "Tüm özellikleri açık iPhone ve Mac için Frames'i içerir.",
     "label_period": "Aylık",
     "label_period_yearly": "Yıllık",
+    "label_period_lifetime": "Ömür boyu",
     "label_subscription_monthly": "Aylık abonelik",
     "label_subscription_yearly": "Yıllık abonelik",
     "currency": "TRY",
@@ -261,8 +263,7 @@
         "Sınırsız film",
         "Alt klasörler",
         "Veri dışa aktarma",
-        "Metadata gömme",
-        "iPhone ve Mac uygulamaları"
+        "Metadata gömme"
       ],
       "button_text": "Ücretsiz Dene"
     },
@@ -496,6 +497,119 @@
     "meta": {
       "title": "Frames ile Film Fotoğrafçılığı Meta Verilerini Kaydetme ve Gömme",
       "description": "Frames'i kullanarak film kamera ayarlarını kaydetmeyi, rulolarınızı düzenlemeyi ve taranmış görsellerinize iPhone ve Mac'te EXIF meta verilerini gömmeyi öğrenin."
+    }
+  },
+  "newfooter": {
+    "title1": "Keşfet",
+    "title2": "İndir",
+    "title3": "Bizi Takip Edin",
+    "section1": {
+      "features": "Özellikler",
+      "privacy": "Gizlilik",
+      "terms": "Koşullar",
+      "contact": "İletişim",
+      "blog": "Blog"
+    },
+    "section2": {
+      "framesios": "Frames iOS",
+      "framesmacos": "Frames macOS"
+    },
+    "section3": {
+      "instagram": "Instagram",
+      "threads": "Threads",
+      "twitter": "Twitter",
+      "bluesky": "Bluesky",
+      "mastodon": "Mastodon",
+      "linkedin": "Linkedin"
+    },
+    "section4": {
+      "copyright": "2026 Vincent Tantardini. Tüm hakları saklıdır.",
+      "compliance": "KVKK Uyumlu"
+    }
+  },
+  "newhome": {
+    "about": {
+      "p1": "Analog fotoğrafçılık kaybolmuyor. Sessizce ama kararlı bir şekilde geri dönüyor.",
+      "p2": "Giderek daha fazla fotoğrafçı yavaşlığı, niyeti ve filmin dokunsal hissini tercih ediyor.",
+      "p3": "Ama süreç hâlâ parçalı; defterler, filmler ve dijital dosyalar arasında dağınık.",
+      "p4": "Frames, iki dünyanın nihayet buluştuğu yer: analog ve dijital, tek bir yerde."
+    },
+    "section1": {
+      "eyebrow": "Film defteri",
+      "title": "Her şeyi not al.",
+      "summary": "Frames, film fotoğrafçıları için bir iOS defteridir. Filmlerinizi kaydedin, ayarları not alın ve ritminizi bozmadan çekim yaparken her karenin ayrıntılarını belgeleyin. Her şey tek bir yerde toplanır; böylece tutarlı kalabilir, ilerlemenizi takip edebilir ve notlarınızı laboratuvardan dönen taramalarla ilişkilendirebilirsiniz.",
+      "feature1": {
+        "title": "Canlı arşiv",
+        "description": "Tüm filmleriniz, kameralarınız ve objektifleriniz tek bir görünümde bir araya gelir. Çalışmalarınıza görsel olarak göz atın ya da istediğiniz çekim seansının ayrıntılarına kolayca dalın. Her film, alışkanlıklarınızı anlamanıza, gözünüzü keskinleştirmenize ve çalışmanızın projeler genelinde nasıl geliştiğini görmenize yardımcı olan kalıcı bir belgeye dönüşür."
+      },
+      "feature2": {
+        "title": "Çekerken not al",
+        "description": "Önemli olanı, kare kare, hız kesmeden kaydedin. Her çekim için ayarları, notları ve bağlamı birkaç dokunuşla girin. Frames, her şeyi düzenli tutar ama araya girmez; dikkatiniz ışıkta, anda ve kompozisyonda kalır."
+      },
+      "feature3": {
+        "title": "Taramalarınızı takip eder",
+        "description": "Notlarınız uygulamada kilitli kalmaz. XMP, CSV, TXT ve daha fazlası gibi formatlarda notlarınızı ve meta verilerinizi dışa aktarın; taramalarınızla birlikte herhangi bir düzenleme veya arşivleme ortamına taşınmaya hazır. İster paylaşın, ister saklayın, ister işleyin; film verileriniz her zaman elinizin altında."
+      }
+    },
+    "section2": {
+      "eyebrow": "EXIF meta verileri",
+      "title": "Geri getirin.",
+      "summary": "macOS için Frames, analog notlarınız ile dijital taramalarınız arasındaki döngüyü kapatır. Kayıtlarınızı içe aktarın, görsellerle eşleştirin ve meta verileri doğrudan her dosyaya, orijinalleri değiştirmeden yazın. Her şey bağlı kalır ve arşiviniz film film dolar; her zaman eksiksiz, düzenleme veya paylaşıma hazır.",
+      "feature1": {
+        "title": "Sorunsuz içe aktarma",
+        "description": "Taramalarınızı sürükle bırak ile Frames'e getirin. Her görseli iOS'ta not aldığınız kareyle eşleştirin; her not, ayar ve ayrıntı yerli yerine oturur. Analog kayıtlarınız ile dijital dosyalarınız arasındaki bağ anında ve somut hale gelir. Tek film veya dolu bir arşiv, süreç hızlı ve isabetli kalır."
+      },
+      "feature2": {
+        "title": "Veriler kalıcı olarak yerleştirildi",
+        "description": "Frames, çekim verilerinizi doğrudan her görsel dosyaya EXIF meta verisi olarak yazar. Film türü, pozlama ayarları, ekipman, coğrafi konum ve kişisel notlar dosyanın içinde yolculuk eder; görünmez ama her zaman orada. Taramalarınız her karenin tam hikâyesini taşır; gelecekteki düzenlemeler, paylaşımlar veya arşivlemeler her zaman eksiksiz bir görüntüden başlar."
+      },
+      "feature3": {
+        "title": "Her yerde okunabilir",
+        "description": "Bir kez yazıldığında meta verileriniz dosyanın kalıcı bir parçası olur. Apple Photos, Adobe Lightroom, Google Photos, Capture One, Darkroom ve çoğu görsel araç bunları yerel olarak okuyabilir; bir dosyayı nerede açarsanız açın notlarınızı ve ayarlarınızı gösterir. Ekstra adım yok, kayıp bağlam yok, yeniden veri girişi yok; hangi platform olursa olsun."
+      },
+      "feature4": {
+        "title": "Önce gizlilik",
+        "description": "Frames her şeyi yerel olarak depolar, bulut bağlantısı yoktur. Notlarınız ve meta verileriniz, siz dışa aktarmadıkça cihazınızı hiçbir zaman terk etmez. Hesap gerekmez, arka planda senkronizasyon yok, sunucu yok. Kaydettiğiniz her şey tamamen sizin elinizde kalır; tasarım gereği özel ve güvenli.",
+        "privacy_note1": "Verileriniz gizli kalır.",
+        "privacy_note2": "Hiçbir koşulda paylaşmaz veya satmayız."
+      }
+    },
+    "section3": {
+      "eyebrow": "Kişiselleştirme",
+      "title": "Kendi yolunla.",
+      "summary": "Frames çalışma şeklinize uyum sağlar. Filmlerinizin nasıl görüntüleneceğini seçin, ekipmanınız için diyafram ve enstantane dizileri belirleyin, not alma panelinin düzenini ayarlayın ve sizin için en önemli kontrolleri seçin. Hiçbir iki fotoğrafçı aynı şekilde çalışmaz; uygulamanın her bölümü pratiğinizin etrafında şekillenir, tersi değil.",
+      "feature1": {
+        "title": "Esnek düzen",
+        "description": "Filmlerinize galeri veya liste görünümünde göz atın, her satırın ne kadar ayrıntı göstereceğini denetleyin ve not alma panelinin düzenini seçin: kayan araç çubuğu veya tam ekran sayfa. Her görüntüleme seçeneği düşünce şeklinize hizmet etmek için vardır, size bir yapı dayatmak için değil. Arayüz alışkanlıklarınıza uyar; araç arka planda kalır."
+      },
+      "feature2": {
+        "title": "Size uyan kontroller",
+        "description": "Frames'i ekipmanınıza ve çekim tarzınıza göre özelleştirin. Enstantane ve diyafram dizilerini gerçekten kullandığınız artışlarla ayarlayın; böylece kontroller temiz ve ilgili kalır. Not alma panelinize en çok kullandığınız kısayolları ekleyin; ölçüm modu, flaş, pozlama telafisi veya notlar. Taviz vermeden daha hızlı kaydedin."
+      },
+      "highlight1": {
+        "title": "Kontrol çubuğu",
+        "description": "En sık kullandığınız kontrolleri; ölçüm, flaş, pozlama telafisi, notları doğrudan not alma panelinin çubuğuna sabitleyin. Daha az arama, daha fazla çekim."
+      },
+      "highlight2": {
+        "title": "Ekipman",
+        "description": "Kameralarınızı, objektiflerinizi, filtrelerinizi ve film türlerinizi bir kez ve kalıcı olarak ayarlayın. Frames bunları uygulamanın her yerinde hazır tutar; her yeni film hızlı ve isabetli başlar."
+      },
+      "highlight3": {
+        "title": "Coğrafi konum",
+        "description": "Frames, çekim yaparken her karenin konumunu otomatik olarak etiketler; çevrimdışıyken bile. İstediğiniz zaman düzeltebilirsiniz. Her fotoğraf, fazladan çaba harcamadan yerini taşır."
+      },
+      "highlight4": {
+        "title": "Diyafram",
+        "description": "Diyafram adımlarınızı tam, yarım veya üçüncü durak artışlarıyla belirleyin ya da tamamen özel bir dizi oluşturun. Yalnızca gerçekten kullandığınız değerler görünür; arayüz temiz ve isabetli kalır."
+      },
+      "highlight5": {
+        "title": "Enstantane",
+        "description": "Standart enstantane artışlarını seçin ya da sıfırdan kendi dizinizi tanımlayın. Kontroller yalnızca kameranız ve tarzınız için geçerli olanı gösterir, fazlasını değil."
+      },
+      "highlight6": {
+        "title": "Özel notlar",
+        "description": "Kendiniz tanımladığınız notlarla standart alanların ötesine geçin. Işık ölçümlerini, hatırlatıcıları veya önceden tanımlı bir alanın yakalayamayacağı kareye dair başka ayrıntıları kaydedin."
+      }
     }
   }
 }

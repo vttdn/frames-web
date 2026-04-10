@@ -234,10 +234,12 @@
   },
   "pricing": {
     "heading_seo": "Preços do aplicativo de fotografia analógica",
-    "heading": "Preços",
+    "heading": "Escolhe o teu plano e começa a fotografar de forma mais inteligente.",
     "schema_offer_name": "Caderno Analógico",
+    "subtitle": "Inclui Frames para iPhone e Mac com todas as funcionalidades desbloqueadas.",
     "label_period": "por mês",
     "label_period_yearly": "por ano",
+    "label_period_lifetime": "Vitalício",
     "label_subscription_monthly": "Assinatura mensal",
     "label_subscription_yearly": "Assinatura anual",
     "currency": "BRL",
@@ -260,8 +262,7 @@
         "Filmes ilimitados",
         "Subpastas",
         "Exportação de dados",
-        "Incorporação de metadados",
-        "Apps para iPhone e Mac"
+        "Incorporação de metadados"
       ],
       "button_text": "Experimentar Gratuitamente"
     },
@@ -495,6 +496,119 @@
     "meta": {
       "title": "Como registar e incorporar metadados de fotografia analógica com Frames",
       "description": "Aprenda a usar o Frames para registar definições de câmara analógica, organizar os seus rolos e incorporar metadados EXIF nas suas imagens digitalizadas no iPhone e Mac."
+    }
+  },
+  "newfooter": {
+    "title1": "Explorar",
+    "title2": "Transferir",
+    "title3": "Ligar",
+    "section1": {
+      "features": "Funcionalidades",
+      "privacy": "Privacidade",
+      "terms": "Termos",
+      "contact": "Contacto",
+      "blog": "Blog"
+    },
+    "section2": {
+      "framesios": "Frames iOS",
+      "framesmacos": "Frames macOS"
+    },
+    "section3": {
+      "instagram": "Instagram",
+      "threads": "Threads",
+      "twitter": "Twitter",
+      "bluesky": "Bluesky",
+      "mastodon": "Mastodon",
+      "linkedin": "Linkedin"
+    },
+    "section4": {
+      "copyright": "2026 Vincent Tantardini. Todos os direitos reservados.",
+      "compliance": "Conforme LGPD"
+    }
+  },
+  "newhome": {
+    "about": {
+      "p1": "A fotografia analógica não está a desaparecer. Está a regressar de forma silenciosa e consistente.",
+      "p2": "Cada vez mais fotógrafos escolhem a lentidão, a intenção e a sensação tátil do filme.",
+      "p3": "Mas o processo continua fragmentado, disperso entre cadernos, rolos e ficheiros digitais.",
+      "p4": "Frames é onde os dois mundos finalmente se encontram, analógico e digital, num só lugar."
+    },
+    "section1": {
+      "eyebrow": "Caderno de película",
+      "title": "Anota tudo.",
+      "summary": "Frames é um caderno iOS para fotógrafos de película. Regista os teus rolos, anota as definições e captura os detalhes de cada disparo à medida que fotografas, sem quebrar o ritmo. Tudo fica num único lugar, para te manteres consistente, acompanhar a tua evolução e ligar as tuas notas aos scans assim que regressarem do laboratório.",
+      "feature1": {
+        "title": "Arquivo vivo",
+        "description": "Todos os teus rolos, câmaras e objetivas estão reunidos numa única vista. Navega visualmente ou mergulha nos detalhes de qualquer sessão com facilidade. Cada rolo torna-se um registo permanente ao qual podes regressar a qualquer momento, para compreender os teus hábitos, apurar o teu olhar e ver como o teu trabalho evolui ao longo dos projetos."
+      },
+      "feature2": {
+        "title": "Anota enquanto disparas",
+        "description": "Captura o que importa, fotograma a fotograma, sem perder o impulso. Regista definições, notas e contexto para cada disparo em poucos toques. Frames mantém tudo estruturado sem se impor, para que a tua atenção fique na luz, no momento e na composição."
+      },
+      "feature3": {
+        "title": "Acompanha os teus scans",
+        "description": "Os teus registos não ficam presos na aplicação. Exporta notas e metadados em formatos como XMP, CSV, TXT e mais, prontos a acompanhar os teus scans para qualquer fluxo de edição ou arquivo. Seja a partilhar, a guardar ou a processar as tuas imagens, os teus dados de película estão sempre ao alcance."
+      }
+    },
+    "section2": {
+      "eyebrow": "Metadados EXIF",
+      "title": "Recupera-os.",
+      "summary": "Frames para macOS fecha o ciclo entre as tuas notas analógicas e os teus scans digitais. Importa os teus registos, associa-os às imagens e escreve os metadados diretamente em cada ficheiro sem modificar os originais. Tudo permanece ligado, e o teu arquivo cresce rolo a rolo, sempre completo e pronto para edição ou partilha.",
+      "feature1": {
+        "title": "Importação sem fricção",
+        "description": "Importa os teus scans para o Frames com um simples arrastar e largar. Associa cada imagem ao fotograma anotado no iOS, e cada nota, definição e detalhe encaixa no lugar certo. A ligação entre os teus registos analógicos e os ficheiros digitais torna-se imediata e tangível. Um rolo ou um arquivo completo, o processo mantém-se rápido e preciso."
+      },
+      "feature2": {
+        "title": "Dados incorporados permanentemente",
+        "description": "Frames escreve os teus dados de disparo diretamente em cada ficheiro de imagem como metadados EXIF. Película, definições de exposição, equipamento, geolocalização e notas pessoais viajam dentro do ficheiro, invisíveis mas sempre presentes. Os teus scans transportam a história completa de cada disparo, para que futuras edições, partilhas ou arquivamentos partam sempre de uma imagem completa."
+      },
+      "feature3": {
+        "title": "Legíveis em qualquer lugar",
+        "description": "Uma vez escritos, os teus metadados fazem parte do ficheiro de forma permanente. Apple Photos, Adobe Lightroom, Google Photos, Capture One, Darkroom e a maioria das ferramentas de imagem conseguem lê-los nativamente, mostrando as tuas notas e definições onde quer que abras um ficheiro. Sem passos extra, sem contexto perdido, sem dados a reinserir, independentemente da plataforma."
+      },
+      "feature4": {
+        "title": "Privacidade em primeiro lugar",
+        "description": "Frames guarda tudo localmente, sem qualquer ligação à nuvem. As tuas notas e metadados nunca saem do teu dispositivo, a menos que os exportes tu mesmo. Sem conta necessária, sem sincronização em segundo plano, sem servidores. O que capturas fica inteiramente nas tuas mãos, privado e seguro por design.",
+        "privacy_note1": "Os teus dados ficam privados.",
+        "privacy_note2": "Nunca os partilhamos nem os vendemos em circunstância alguma."
+      }
+    },
+    "section3": {
+      "eyebrow": "Personalização",
+      "title": "À tua maneira.",
+      "summary": "Frames adapta-se à forma como trabalhas. Escolhe como os teus rolos são apresentados, define sequências de abertura e velocidade de obturação para o teu equipamento, ajusta o layout do painel de registo e seleciona os controlos que mais importam. Nenhum fotógrafo trabalha da mesma forma, e cada parte da aplicação molda-se à tua prática, não ao contrário.",
+      "feature1": {
+        "title": "Layout flexível",
+        "description": "Navega pelos teus rolos em vista galeria ou lista, controla o nível de detalhe de cada linha e escolhe o layout do teu painel de anotação, seja uma barra flutuante ou um ecrã completo. Cada opção de visualização existe para servir a tua forma de pensar, não para te impor uma estrutura. A interface adapta-se aos teus hábitos para que a ferramenta fique em segundo plano."
+      },
+      "feature2": {
+        "title": "Controlos que se adaptam a ti",
+        "description": "Personaliza o Frames para o teu equipamento e forma de disparar. Define sequências de velocidades de obturação e aberturas com os incrementos que realmente usas, para que os controlos se mantenham limpos e relevantes. Adiciona os teus atalhos mais usados ao painel de registo, modo de medição, flash, compensação de exposição ou notas, e regista mais rápido sem compromissos."
+      },
+      "highlight1": {
+        "title": "Barra de controlos",
+        "description": "Fixa os controlos que mais utilizas, medição, flash, compensação de exposição, notas, diretamente na barra do painel de registo. Menos procura, mais fotografia."
+      },
+      "highlight2": {
+        "title": "Equipamento",
+        "description": "Configura as tuas câmaras, objetivas, filtros e películas de uma vez por todas. Frames mantém-nos disponíveis em toda a aplicação para que cada novo rolo comece de forma rápida e precisa."
+      },
+      "highlight3": {
+        "title": "Geolocalização",
+        "description": "Frames assinala automaticamente a localização de cada fotograma enquanto fotografas, mesmo offline, e permite-te corrigi-la em qualquer momento. Cada disparo transporta o seu lugar sem qualquer esforço extra."
+      },
+      "highlight4": {
+        "title": "Abertura",
+        "description": "Define os teus passos de abertura em incrementos de stop inteiro, meio ou terço, ou cria um intervalo totalmente personalizado. Apenas os valores que realmente usas aparecem, mantendo a interface limpa e precisa."
+      },
+      "highlight5": {
+        "title": "Velocidade de obturação",
+        "description": "Escolhe incrementos de velocidade de obturação padrão ou define a tua própria sequência do zero. Os controlos mostram apenas o que é relevante para a tua câmara e estilo, nada mais."
+      },
+      "highlight6": {
+        "title": "Notas personalizadas",
+        "description": "Vai além dos campos padrão com notas que defines tu mesmo. Anota leituras de luz, lembretes ou qualquer outro detalhe sobre um disparo que um campo predefinido não conseguiria capturar."
+      }
     }
   }
 }

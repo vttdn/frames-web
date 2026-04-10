@@ -10,7 +10,9 @@
       "Bash(mkdir:*)",
       "Bash(python3:*)",
       "Bash(for lang in da de el es fi hi id it ko nb nl pl pt ro ru sv th tr uk vi zh zh-hant)",
-      "Bash(do echo \"=== $lang ===\")"
+      "Bash(do echo \"=== $lang ===\")",
+      "Bash(pip3 show:*)",
+      "Bash(pip3 install:*)"
     ],
     "deny": [],
     "ask": []

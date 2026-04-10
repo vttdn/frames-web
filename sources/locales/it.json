@@ -234,10 +234,12 @@
   },
   "pricing": {
     "heading_seo": "Prezzi dell’app di fotografia analogica",
-    "heading": "Prezzi",
+    "heading": "Scegli il tuo piano e inizia a scattare in modo più intelligente.",
     "schema_offer_name": "Taccuino analogico",
+    "subtitle": "Include Frames per iPhone e Mac con tutte le funzionalità sbloccate.",
     "label_period": "Mensile",
     "label_period_yearly": "Annuale",
+    "label_period_lifetime": "A vita",
     "label_subscription_monthly": "Abbonamento mensile",
     "label_subscription_yearly": "Abbonamento annuale",
     "currency": "EUR",
@@ -261,8 +263,7 @@
         "Pellicole illimitate",
         "Sottocartelle",
         "Esportazione dati",
-        "Incorporazione metadati",
-        "App iPhone e Mac"
+        "Incorporazione metadati"
       ],
       "button_text": "Prova Gratis"
     },
@@ -496,6 +497,119 @@
     "meta": {
       "title": "Come registrare e incorporare i metadati della fotografia analogica con Frames",
       "description": "Scopri come utilizzare Frames per registrare le impostazioni della fotocamera analogica, organizzare i tuoi rullini e incorporare i metadati EXIF nelle tue immagini scannerizzate su iPhone e Mac."
+    }
+  },
+  "newfooter": {
+    "title1": "Esplora",
+    "title2": "Scarica",
+    "title3": "Connettiti",
+    "section1": {
+      "features": "Funzionalità",
+      "privacy": "Privacy",
+      "terms": "Termini",
+      "contact": "Contatto",
+      "blog": "Blog"
+    },
+    "section2": {
+      "framesios": "Frames iOS",
+      "framesmacos": "Frames macOS"
+    },
+    "section3": {
+      "instagram": "Instagram",
+      "threads": "Threads",
+      "twitter": "Twitter",
+      "bluesky": "Bluesky",
+      "mastodon": "Mastodon",
+      "linkedin": "Linkedin"
+    },
+    "section4": {
+      "copyright": "2026 Vincent Tantardini. Tutti i diritti riservati.",
+      "compliance": "Conforme al GDPR"
+    }
+  },
+  "newhome": {
+    "about": {
+      "p1": "La fotografia analogica non sta scomparendo. Sta tornando in modo silenzioso ma deciso.",
+      "p2": "Sempre più fotografi scelgono la lentezza, l'intenzione e la sensazione tattile della pellicola.",
+      "p3": "Ma il processo resta frammentato, distribuito tra taccuini, rullini e file digitali.",
+      "p4": "Frames è il luogo dove i due mondi si incontrano finalmente, analogico e digitale, in un unico posto."
+    },
+    "section1": {
+      "eyebrow": "Taccuino per pellicola",
+      "title": "Annota tutto.",
+      "summary": "Frames è un taccuino iOS per i fotografi analogici. Annota i tuoi rullini, inserisci le impostazioni e cattura i dettagli di ogni scatto mentre fotografi, senza spezzare il ritmo. Tutto vive in un unico posto, per rimanere coerenti, seguire i tuoi progressi e collegare le note agli scan una volta tornati dal laboratorio.",
+      "feature1": {
+        "title": "Archivio vivente",
+        "description": "Tutti i tuoi rullini, macchine fotografiche e obiettivi sono raccolti in un'unica vista. Sfoglia visivamente o entra nei dettagli di qualsiasi sessione con facilità. Ogni rullino diventa un registro permanente a cui puoi tornare in qualsiasi momento, per capire le tue abitudini, affinare il tuo sguardo e vedere come il tuo lavoro evolve nel tempo."
+      },
+      "feature2": {
+        "title": "Annota mentre scatti",
+        "description": "Cattura ciò che conta, fotogramma per fotogramma, senza perdere slancio. Inserisci impostazioni, note e contesto per ogni scatto con pochi gesti. Frames mantiene tutto strutturato senza imporsi, così la tua attenzione resta sulla luce, il momento e l'inquadratura."
+      },
+      "feature3": {
+        "title": "Segue i tuoi scan",
+        "description": "Le tue note non restano chiuse nell'app. Esporta le note e i metadati in formati come XMP, CSV, TXT e altri, pronti ad accompagnare i tuoi scan in qualsiasi flusso di lavoro di editing o archiviazione. Che tu condivida, archivi o elabori le tue immagini, i tuoi dati analogici sono sempre a portata di mano."
+      }
+    },
+    "section2": {
+      "eyebrow": "Metadati EXIF",
+      "title": "Riportali indietro.",
+      "summary": "Frames per macOS chiude il cerchio tra le tue note analogiche e i tuoi scan digitali. Importa i tuoi diari di scatto, abbinali alle immagini e scrivi i metadati direttamente in ogni file senza modificare gli originali. Tutto rimane connesso, e il tuo archivio cresce rullino dopo rullino, sempre completo e pronto per la post-produzione o la condivisione.",
+      "feature1": {
+        "title": "Importazione senza attrito",
+        "description": "Porta i tuoi scan in Frames con un semplice trascinamento. Abbina ogni immagine al fotogramma annotato su iOS, e ogni nota, impostazione e dettaglio si sistema al posto giusto. Il collegamento tra le tue note analogiche e i file digitali diventa immediato e concreto. Un rullino o un intero archivio, il processo resta rapido e preciso."
+      },
+      "feature2": {
+        "title": "Dati incorporati in modo permanente",
+        "description": "Frames scrive i dati di scatto direttamente in ogni file immagine come metadati EXIF. Pellicola, impostazioni di esposizione, attrezzatura, geolocalizzazione e note personali viaggiano all'interno del file, invisibili ma sempre presenti. I tuoi scan portano la storia completa di ogni scatto, così le future modifiche, condivisioni o archiviazioni partono sempre da un'immagine completa."
+      },
+      "feature3": {
+        "title": "Leggibili ovunque",
+        "description": "Una volta scritti, i tuoi metadati fanno parte del file in modo permanente. Apple Photos, Adobe Lightroom, Google Photos, Capture One, Darkroom e la maggior parte degli strumenti per immagini possono leggerli nativamente, mostrando le tue note e impostazioni ovunque tu apra un file. Nessun passaggio aggiuntivo, nessun contesto perso, nessun dato da reinserire, indipendentemente dalla piattaforma."
+      },
+      "feature4": {
+        "title": "Riservatezza prima di tutto",
+        "description": "Frames conserva tutto in locale, senza alcuna connessione al cloud. Le tue note e i metadati non lasciano mai il tuo dispositivo, a meno che tu non li esporti personalmente. Nessun account richiesto, nessuna sincronizzazione in background, nessun server. Ciò che catturi rimane interamente nelle tue mani, privato e sicuro per design.",
+        "privacy_note1": "I tuoi dati restano privati.",
+        "privacy_note2": "Non li condividiamo né li vendiamo in nessuna circostanza."
+      }
+    },
+    "section3": {
+      "eyebrow": "Personalizzazione",
+      "title": "A modo tuo.",
+      "summary": "Frames si adatta al tuo modo di lavorare. Scegli come visualizzare i tuoi rullini, imposta le sequenze di diaframma e tempi di scatto per la tua attrezzatura, regola il layout del pannello di annotazione e seleziona i controlli che contano di più. Nessun fotografo lavora allo stesso modo, e ogni parte dell'app si modella attorno alla tua pratica, non il contrario.",
+      "feature1": {
+        "title": "Layout flessibile",
+        "description": "Sfoglia i tuoi rullini in vista galleria o lista, controlla il livello di dettaglio di ogni riga e scegli il layout del tuo pannello di annotazione, barra flottante o schermata intera. Ogni opzione di visualizzazione è lì per servire il tuo modo di pensare, non per importi una struttura. L'interfaccia si adatta alle tue abitudini in modo che lo strumento resti in secondo piano."
+      },
+      "feature2": {
+        "title": "Controlli su misura",
+        "description": "Personalizza Frames in base alla tua attrezzatura e al tuo stile di scatto. Imposta le sequenze di tempi e diaframmi con gli incrementi che usi davvero, così i controlli restano puliti e pertinenti. Aggiungi le tue scorciatoie preferite al pannello di annotazione, modalità di misurazione, flash, compensazione dell'esposizione o note, e annota più velocemente senza compromessi."
+      },
+      "highlight1": {
+        "title": "Barra dei controlli",
+        "description": "Aggiungi i controlli che usi di più, misurazione, flash, compensazione dell'esposizione, note, direttamente alla barra del pannello di annotazione. Meno ricerche, più scatti."
+      },
+      "highlight2": {
+        "title": "Attrezzatura",
+        "description": "Configura le tue macchine fotografiche, obiettivi, filtri e pellicole una volta per tutte. Frames li mantiene disponibili in tutta l'app, così ogni nuovo rullino parte velocemente e con precisione."
+      },
+      "highlight3": {
+        "title": "Geolocalizzazione",
+        "description": "Frames geolocalizza automaticamente ogni fotogramma mentre scatti, anche offline, e ti permette di correggerlo in qualsiasi momento. Ogni scatto porta con sé il suo luogo, senza alcuno sforzo aggiuntivo."
+      },
+      "highlight4": {
+        "title": "Diaframma",
+        "description": "Imposta i tuoi step di diaframma a interi, mezzi o terzi di stop, oppure crea una sequenza completamente personalizzata. Appaiono solo i valori che usi davvero, per un'interfaccia pulita e precisa."
+      },
+      "highlight5": {
+        "title": "Tempo di scatto",
+        "description": "Scegli incrementi di tempi standard o definisci la tua sequenza da zero. I controlli mostrano solo ciò che è rilevante per la tua fotocamera e il tuo stile, niente di più."
+      },
+      "highlight6": {
+        "title": "Note personalizzate",
+        "description": "Vai oltre i campi standard con note che definisci tu stesso. Annota letture della luce, promemoria o qualsiasi altro dettaglio su uno scatto che un campo predefinito non riuscirebbe a catturare."
+      }
     }
   }
 }

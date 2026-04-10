@@ -234,10 +234,12 @@
   },
   "pricing": {
     "heading_seo": "Prețuri ale aplicației de fotografie analogică",
-    "heading": "Prețuri",
+    "heading": "Alege un plan și fotografiază mai inteligent.",
     "schema_offer_name": "Caiet de fotografie analogică",
+    "subtitle": "Include Frames pentru iPhone și Mac cu toate funcțiile deblocate.",
     "label_period": "Pe lună",
     "label_period_yearly": "Pe an",
+    "label_period_lifetime": "Pe viață",
     "label_subscription_monthly": "Abonament lunar",
     "label_subscription_yearly": "Abonament anual",
     "currency": "RON",
@@ -260,8 +262,7 @@
         "Filme nelimitate",
         "Subfoldere",
         "Export de date",
-        "Încorporare metadate",
-        "Aplicații iPhone și Mac"
+        "Încorporare metadate"
       ],
       "button_text": "Încearcă Gratuit"
     },
@@ -495,6 +496,119 @@
       "page_suffix": "",
       "newer_posts": "Articole mai noi",
       "older_posts": "Articole mai vechi"
+    }
+  },
+  "newfooter": {
+    "title1": "Explorează",
+    "title2": "Descarcă",
+    "title3": "Conectare",
+    "section1": {
+      "features": "Caracteristici",
+      "privacy": "Confidențialitate",
+      "terms": "Termeni",
+      "contact": "Contact",
+      "blog": "Blog"
+    },
+    "section2": {
+      "framesios": "Frames iOS",
+      "framesmacos": "Frames macOS"
+    },
+    "section3": {
+      "instagram": "Instagram",
+      "threads": "Threads",
+      "twitter": "Twitter",
+      "bluesky": "Bluesky",
+      "mastodon": "Mastodon",
+      "linkedin": "Linkedin"
+    },
+    "section4": {
+      "copyright": "2026 Vincent Tantardini. Toate drepturile rezervate.",
+      "compliance": "Conform GDPR"
+    }
+  },
+  "newhome": {
+    "about": {
+      "p1": "Fotografia analogică nu dispare. Revine discret, dar cu forță.",
+      "p2": "Tot mai mulți fotografi aleg încetineala, intenția și senzația tactilă a filmului.",
+      "p3": "Dar procesul rămâne fragmentat, împrăștiat între caiete, role de film și fișiere digitale.",
+      "p4": "Frames este locul unde cele două lumi se întâlnesc în sfârșit, analogic și digital, într-un singur loc."
+    },
+    "section1": {
+      "eyebrow": "Caiet de film",
+      "title": "Notează totul.",
+      "summary": "Frames este un caiet iOS pentru fotografii de film. Înregistrează rolele, notează setările și captează detaliile fiecărui cadru pe măsură ce fotografiezi, fără să-ți pierzi ritmul. Totul este într-un singur loc, pentru a rămâne constant, a-ți urmări evoluția și a conecta notele cu scanările odată ce revin din laborator.",
+      "feature1": {
+        "title": "Arhivă vie",
+        "description": "Toate rolele, camerele și obiectivele tale sunt reunite într-o singură vizualizare. Răsfoiește vizual sau intră în detaliile oricărei sesiuni cu ușurință. Fiecare rolă devine un document permanent la care poți reveni oricând, pentru a-ți înțelege obiceiurile, a-ți ascuți privirea și a vedea cum evoluează munca ta de-a lungul proiectelor."
+      },
+      "feature2": {
+        "title": "Notează în timp ce fotografiezi",
+        "description": "Captează ceea ce contează, cadru cu cadru, fără să pierzi avântul. Notează setările, contextul și gândurile pentru fiecare cadru cu câteva gesturi. Frames menține totul structurat fără să se impună, astfel încât atenția ta rămâne pe lumină, moment și compoziție."
+      },
+      "feature3": {
+        "title": "Urmărește scanările",
+        "description": "Notele tale nu rămân blocate în aplicație. Exportă notele și metadatele în formate precum XMP, CSV, TXT și altele, gata să însoțească scanările în orice mediu de editare sau arhivare. Indiferent dacă partajezi, stochezi sau procesezi imaginile, datele tale de film sunt mereu la îndemână."
+      }
+    },
+    "section2": {
+      "eyebrow": "Metadate EXIF",
+      "title": "Adu-le înapoi.",
+      "summary": "Frames pentru macOS închide bucla dintre notele tale analogice și scanările digitale. Importă jurnalele, asociază-le cu imaginile și scrie metadatele direct în fiecare fișier fără a modifica originalele. Totul rămâne conectat, iar arhiva se completează rolă cu rolă, mereu gata pentru editare sau partajare.",
+      "feature1": {
+        "title": "Import fără efort",
+        "description": "Importă scanările în Frames printr-un simplu drag and drop. Asociază fiecare imagine cu cadrul notat pe iOS, și fiecare notă, setare și detaliu se potrivesc exact la locul lor. Legătura dintre notele analogice și fișierele digitale devine imediată și tangibilă. O rolă sau o arhivă întreagă, procesul rămâne rapid și precis."
+      },
+      "feature2": {
+        "title": "Date integrate permanent",
+        "description": "Frames scrie datele tale de fotografiere direct în fiecare fișier imagine ca metadate EXIF. Tipul de film, setările de expunere, echipamentul, geolocalizarea și notele personale călătoresc în interiorul fișierului, invizibile, dar mereu prezente. Scanările tale poartă povestea completă a fiecărui cadru, astfel încât editările, partajările sau arhivările viitoare pornesc întotdeauna de la o imagine completă."
+      },
+      "feature3": {
+        "title": "Lizibile oriunde",
+        "description": "Odată scrise, metadatele tale fac parte permanent din fișier. Apple Photos, Adobe Lightroom, Google Photos, Capture One, Darkroom și cele mai multe instrumente pentru imagini le pot citi nativ, afișând notele și setările oriunde deschizi un fișier. Fără pași suplimentari, fără context pierdut, fără date de reintrodus, indiferent de platformă."
+      },
+      "feature4": {
+        "title": "Confidențialitate înainte de toate",
+        "description": "Frames stochează totul local, fără nicio conexiune la cloud. Notele și metadatele nu părăsesc niciodată dispozitivul tău, cu excepția cazului în care le exporți tu însuți. Niciun cont necesar, nicio sincronizare în fundal, niciun server. Ceea ce captezi rămâne în întregime în mâinile tale, privat și securizat prin design.",
+        "privacy_note1": "Datele tale rămân private.",
+        "privacy_note2": "Nu le partajăm și nu le vindem în nicio circumstanță."
+      }
+    },
+    "section3": {
+      "eyebrow": "Personalizare",
+      "title": "În felul tău.",
+      "summary": "Frames se adaptează modului tău de lucru. Alege cum sunt afișate rolele, stabilește secvențe de diafragmă și timp de expunere pentru echipamentul tău, ajustează aspectul panoului de înregistrare și selectează comenzile care contează cel mai mult. Niciun fotograf nu lucrează la fel, și fiecare parte a aplicației se modelează în jurul practicii tale, nu invers.",
+      "feature1": {
+        "title": "Layout flexibil",
+        "description": "Răsfoiește rolele în vizualizare galerie sau listă, controlează nivelul de detaliu al fiecărui rând și alege aspectul panoului de notare, fie o bară flotantă, fie o foaie pe ecran complet. Fiecare opțiune de afișare este acolo pentru a servi modul tău de gândire, nu pentru a-ți impune o structură. Interfața se adaptează obiceiurilor tale astfel încât instrumentul să rămână în fundal."
+      },
+      "feature2": {
+        "title": "Comenzi care ți se potrivesc",
+        "description": "Personalizează Frames pentru echipamentul și stilul tău de fotografiere. Stabilește secvențe de timp de expunere și diafragmă cu incrementele pe care le folosești efectiv, pentru ca comenzile să rămână curate și relevante. Adaugă comenzile rapide preferate la panoul de notare, fie că este vorba de modul de măsurare, bliț, compensare expunere sau note, și înregistrează mai rapid fără compromisuri."
+      },
+      "highlight1": {
+        "title": "Bara de comenzi",
+        "description": "Fixează comenzile pe care le folosești cel mai des, măsurare, bliț, compensare expunere, note, direct pe bara panoului de notare. Mai puțină căutare, mai multă fotografiere."
+      },
+      "highlight2": {
+        "title": "Echipament",
+        "description": "Configurează camerele, obiectivele, filtrele și tipurile de film o singură dată și pentru totdeauna. Frames le menține la îndemână în întreaga aplicație, astfel încât fiecare rolă nouă să înceapă rapid și precis."
+      },
+      "highlight3": {
+        "title": "Geolocalizare",
+        "description": "Frames marchează automat locația fiecărui cadru în timp ce fotografiezi, chiar și offline, și îți permite să o corectezi oricând. Fiecare fotografie poartă locul său fără niciun efort suplimentar."
+      },
+      "highlight4": {
+        "title": "Diafragmă",
+        "description": "Stabilește pașii de diafragmă în incrementuri de stop întreg, jumătate sau treime, sau construiește un interval complet personalizat. Apar doar valorile pe care le folosești efectiv, menținând interfața curată și precisă."
+      },
+      "highlight5": {
+        "title": "Timp de expunere",
+        "description": "Alege incrementuri standard pentru timpul de expunere sau definește propria secvență de la zero. Comenzile afișează doar ceea ce este relevant pentru camera și stilul tău, nimic mai mult."
+      },
+      "highlight6": {
+        "title": "Note personalizate",
+        "description": "Depășește câmpurile standard cu note pe care le definești tu. Notează măsurători de lumină, memento-uri sau orice alt detaliu despre un cadru pe care un câmp predefinit nu l-ar putea surprinde."
+      }
     }
   }
 }

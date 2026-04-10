@@ -234,10 +234,12 @@
   },
   "pricing": {
     "heading_seo": "Harga Aplikasi Fotografi Analog",
-    "heading": "Harga",
+    "heading": "Pilih paket Anda dan mulailah memotret lebih cerdas.",
     "schema_offer_name": "Buku Catatan Film Analog",
+    "subtitle": "Termasuk Frames untuk iPhone dan Mac dengan semua fitur terbuka.",
     "label_period": "Bulanan",
     "label_period_yearly": "Tahunan",
+    "label_period_lifetime": "Seumur hidup",
     "label_subscription_monthly": "Langganan bulanan",
     "label_subscription_yearly": "Langganan tahunan",
     "currency": "IDR",
@@ -261,8 +263,7 @@
         "Film tak terbatas",
         "Subfolder",
         "Ekspor data",
-        "Penyematan metadata",
-        "Aplikasi iPhone & Mac"
+        "Penyematan metadata"
       ],
       "button_text": "Coba Gratis"
     },
@@ -496,6 +497,119 @@
       "page_suffix": "",
       "newer_posts": "Artikel terbaru",
       "older_posts": "Artikel lama"
+    }
+  },
+  "newfooter": {
+    "title1": "Jelajahi",
+    "title2": "Unduh",
+    "title3": "Hubungkan",
+    "section1": {
+      "features": "Fitur",
+      "privacy": "Privasi",
+      "terms": "Ketentuan",
+      "contact": "Kontak",
+      "blog": "Blog"
+    },
+    "section2": {
+      "framesios": "Frames iOS",
+      "framesmacos": "Frames macOS"
+    },
+    "section3": {
+      "instagram": "Instagram",
+      "threads": "Threads",
+      "twitter": "Twitter",
+      "bluesky": "Bluesky",
+      "mastodon": "Mastodon",
+      "linkedin": "Linkedin"
+    },
+    "section4": {
+      "copyright": "2026 Vincent Tantardini. Hak cipta dilindungi.",
+      "compliance": "PDP Sesuai"
+    }
+  },
+  "newhome": {
+    "about": {
+      "p1": "Fotografi film tidak menghilang. Ia kembali dengan tenang namun penuh keyakinan.",
+      "p2": "Semakin banyak fotografer yang memilih kelambatan, niat, dan sentuhan taktil dari film.",
+      "p3": "Namun prosesnya masih terfragmentasi, tersebar di antara buku catatan, rol film, dan file digital.",
+      "p4": "Frames adalah tempat kedua dunia akhirnya bertemu, analog dan digital, dalam satu ruang."
+    },
+    "section1": {
+      "eyebrow": "Buku catatan film",
+      "title": "Catat semuanya.",
+      "summary": "Frames adalah buku catatan iOS untuk fotografer film. Catat rol Anda, rekam pengaturan, dan tangkap detail setiap bidikan saat memotret, tanpa kehilangan ritme. Semua tersimpan di satu tempat, memudahkan Anda untuk tetap konsisten, melacak kemajuan, dan menghubungkan catatan dengan scan begitu kembali dari lab.",
+      "feature1": {
+        "title": "Arsip yang hidup",
+        "description": "Semua rol, kamera, dan lensa Anda tersusun dalam satu tampilan. Telusuri hasil kerja secara visual atau pelajari detail sesi mana pun dengan mudah. Setiap rol menjadi catatan permanen yang bisa Anda kunjungi kembali kapan saja, membantu memahami kebiasaan, mempertajam mata, dan melihat bagaimana karya Anda berkembang dari proyek ke proyek."
+      },
+      "feature2": {
+        "title": "Catat saat memotret",
+        "description": "Tangkap yang penting, bingkai demi bingkai, tanpa kehilangan momentum. Catat pengaturan, konteks, dan keterangan untuk setiap bidikan hanya dengan beberapa ketukan. Frames menjaga semuanya terstruktur tanpa menghalangi, sehingga perhatian Anda tetap pada cahaya, momen, dan komposisi."
+      },
+      "feature3": {
+        "title": "Mengikuti scan Anda",
+        "description": "Catatan Anda tidak terkunci di dalam aplikasi. Ekspor catatan dan metadata dalam format seperti XMP, CSV, TXT, dan lainnya, siap menemani scan Anda ke dalam perangkat pengeditan atau pengarsipan mana pun. Baik berbagi, menyimpan, maupun memproses gambar, data film Anda selalu dalam jangkauan."
+      }
+    },
+    "section2": {
+      "eyebrow": "Metadata EXIF",
+      "title": "Kembalikan mereka.",
+      "summary": "Frames untuk macOS menutup lingkaran antara catatan analog dan scan digital Anda. Impor log, pasangkan dengan gambar, dan tulis metadata langsung ke setiap file tanpa mengubah file asli. Semuanya tetap terhubung, arsip bertambah rol demi rol, selalu lengkap dan siap untuk diedit atau dibagikan.",
+      "feature1": {
+        "title": "Impor tanpa hambatan",
+        "description": "Bawa scan Anda ke Frames dengan seret dan lepas yang mudah. Cocokkan setiap gambar dengan bingkai yang dicatat di iOS, dan setiap catatan, pengaturan, serta detail jatuh tepat di tempatnya. Hubungan antara catatan analog dan file digital menjadi langsung dan nyata. Satu rol atau arsip penuh, prosesnya tetap cepat dan tepat."
+      },
+      "feature2": {
+        "title": "Data tertanam secara permanen",
+        "description": "Frames menulis data pemotretan langsung ke setiap file gambar sebagai metadata EXIF. Jenis film, pengaturan eksposur, perlengkapan, geolokasi, dan catatan pribadi semuanya tersimpan di dalam file, tak terlihat namun selalu ada. Scan Anda membawa kisah lengkap setiap bidikan, sehingga pengeditan, berbagi, atau pengarsipan di masa depan selalu dimulai dari gambar yang utuh."
+      },
+      "feature3": {
+        "title": "Terbaca di mana saja",
+        "description": "Setelah ditulis, metadata Anda menjadi bagian permanen dari file. Apple Photos, Adobe Lightroom, Google Photos, Capture One, Darkroom, dan sebagian besar alat gambar dapat membacanya secara native, menampilkan catatan dan pengaturan Anda di mana pun Anda membuka file. Tidak ada langkah tambahan, tidak ada konteks yang hilang, tidak ada data yang perlu dimasukkan ulang, apa pun platformnya."
+      },
+      "feature4": {
+        "title": "Privasi nomor satu",
+        "description": "Frames menyimpan semuanya secara lokal, tanpa koneksi cloud apa pun. Catatan dan metadata Anda tidak pernah meninggalkan perangkat kecuali Anda sendiri yang mengekspornya. Tidak perlu akun, tidak ada sinkronisasi latar belakang, tidak ada server. Apa yang Anda abadikan sepenuhnya ada di tangan Anda, pribadi dan aman berdasarkan desainnya.",
+        "privacy_note1": "Data Anda tetap pribadi.",
+        "privacy_note2": "Kami tidak pernah membagikan atau menjualnya dalam keadaan apa pun."
+      }
+    },
+    "section3": {
+      "eyebrow": "Personalisasi",
+      "title": "Dengan cara Anda.",
+      "summary": "Frames menyesuaikan diri dengan cara Anda bekerja. Pilih tampilan rol, atur urutan apertur dan kecepatan rana untuk perlengkapan Anda, sesuaikan tata letak panel pencatatan, dan pilih kontrol yang paling penting. Tidak ada dua fotografer yang bekerja dengan cara yang sama, dan setiap bagian aplikasi membentuk diri di sekitar praktik Anda, bukan sebaliknya.",
+      "feature1": {
+        "title": "Tata letak fleksibel",
+        "description": "Telusuri rol dalam tampilan galeri atau daftar, kendalikan berapa banyak detail yang ditampilkan setiap baris, dan pilih tata letak panel pencatatan, bilah alat mengambang atau lembar layar penuh. Setiap opsi tampilan ada untuk melayani cara berpikir Anda, bukan memaksakan struktur. Antarmuka menyesuaikan diri dengan kebiasaan Anda sehingga alat ini tidak menghalangi."
+      },
+      "feature2": {
+        "title": "Kontrol yang cocok untuk Anda",
+        "description": "Sesuaikan Frames dengan perlengkapan dan gaya pemotretan Anda. Atur urutan kecepatan rana dan apertur dengan peningkatan yang benar-benar Anda gunakan, agar kontrol tetap bersih dan relevan. Tambahkan pintasan yang paling sering digunakan ke panel pencatatan, entah itu mode pengukuran, lampu kilat, kompensasi eksposur, atau catatan, dan catat lebih cepat tanpa kompromi."
+      },
+      "highlight1": {
+        "title": "Bilah kontrol",
+        "description": "Sematkan kontrol yang paling sering Anda gunakan, pengukuran, lampu kilat, kompensasi eksposur, catatan, langsung ke bilah panel pencatatan. Lebih sedikit mencari, lebih banyak memotret."
+      },
+      "highlight2": {
+        "title": "Perlengkapan",
+        "description": "Siapkan kamera, lensa, filter, dan jenis film Anda sekali untuk selamanya. Frames menyimpannya siap digunakan di seluruh aplikasi sehingga setiap rol baru dimulai dengan cepat dan tepat."
+      },
+      "highlight3": {
+        "title": "Geolokasi",
+        "description": "Frames secara otomatis menandai lokasi setiap bingkai saat Anda memotret, bahkan saat offline, dan memungkinkan Anda mengoreksinya kapan saja. Setiap bidikan membawa lokasinya tanpa usaha ekstra."
+      },
+      "highlight4": {
+        "title": "Apertur",
+        "description": "Atur langkah apertur Anda dalam peningkatan stop penuh, setengah, atau sepertiga, atau bangun rentang yang sepenuhnya kustom. Hanya nilai yang benar-benar Anda gunakan yang muncul, menjaga antarmuka tetap bersih dan tepat."
+      },
+      "highlight5": {
+        "title": "Kecepatan rana",
+        "description": "Pilih peningkatan kecepatan rana standar atau tentukan urutan Anda sendiri dari awal. Kontrol hanya menampilkan yang relevan untuk kamera dan gaya Anda, tidak lebih."
+      },
+      "highlight6": {
+        "title": "Catatan kustom",
+        "description": "Lampaui kolom standar dengan catatan yang Anda definisikan sendiri. Tuliskan pembacaan cahaya, pengingat, atau detail lain tentang bidikan yang tidak bisa ditangkap oleh kolom yang sudah ditetapkan."
+      }
     }
   }
 }

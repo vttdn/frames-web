@@ -234,10 +234,12 @@
   },
   "pricing": {
     "heading_seo": "Priser för appen för analog fotografering",
-    "heading": "Priser",
+    "heading": "Välj din plan och fotografera smartare.",
     "schema_offer_name": "Analog anteckningsbok",
+    "subtitle": "Inkluderar Frames för iPhone och Mac med alla funktioner upplåsta.",
     "label_period": "Per månad",
     "label_period_yearly": "Per år",
+    "label_period_lifetime": "Livstid",
     "label_subscription_monthly": "Månadsabonnemang",
     "label_subscription_yearly": "Årsabonnemang",
     "currency": "SEK",
@@ -261,8 +263,7 @@
         "Obegränsade filmer",
         "Undermappar",
         "Dataexport",
-        "Metadata inbäddning",
-        "iPhone- och Mac-appar"
+        "Metadata inbäddning"
       ],
       "button_text": "Prova Gratis"
     },
@@ -496,6 +497,119 @@
       "page_suffix": "",
       "newer_posts": "Nyare inlägg",
       "older_posts": "Äldre inlägg"
+    }
+  },
+  "newfooter": {
+    "title1": "Utforska",
+    "title2": "Ladda ned",
+    "title3": "Följ oss",
+    "section1": {
+      "features": "Funktioner",
+      "privacy": "Integritet",
+      "terms": "Villkor",
+      "contact": "Kontakt",
+      "blog": "Blogg"
+    },
+    "section2": {
+      "framesios": "Frames iOS",
+      "framesmacos": "Frames macOS"
+    },
+    "section3": {
+      "instagram": "Instagram",
+      "threads": "Threads",
+      "twitter": "Twitter",
+      "bluesky": "Bluesky",
+      "mastodon": "Mastodon",
+      "linkedin": "Linkedin"
+    },
+    "section4": {
+      "copyright": "2026 Vincent Tantardini. Alla rättigheter förbehållna.",
+      "compliance": "GDPR-kompatibel"
+    }
+  },
+  "newhome": {
+    "about": {
+      "p1": "Analogfotografin försvinner inte. Den återvänder stilla men med kraft.",
+      "p2": "Allt fler fotografer väljer långsamhet, avsikt och den taktila känslan av film.",
+      "p3": "Men processen är fortfarande fragmenterad, spridd över anteckningsböcker, filmrullar och digitala filer.",
+      "p4": "Frames är där båda världarna äntligen möts, analogt och digitalt, på ett enda ställe."
+    },
+    "section1": {
+      "eyebrow": "Filmdagbok",
+      "title": "Anteckna allt.",
+      "summary": "Frames är en iOS-dagbok för analogfotografer. Registrera dina filmrullar, anteckna inställningar och fånga detaljerna i varje tagning allt eftersom du fotograferar, utan att tappa rytmen. Allt finns på ett ställe, så att du kan hålla konsistens, följa din utveckling och koppla ihop dina anteckningar med dina scanningar när de kommer tillbaka från labbet.",
+      "feature1": {
+        "title": "Levande arkiv",
+        "description": "Alla dina filmrullar, kameror och objektiv samlas i en enda vy. Bläddra visuellt eller dyk ner i detaljerna från vilken session som helst med lätthet. Varje filmrulle blir ett bestående dokument du kan återvända till när som helst, för att förstå dina vanor, skärpa ditt öga och se hur ditt arbete utvecklas över tid och projekt."
+      },
+      "feature2": {
+        "title": "Anteckna medan du fotograferar",
+        "description": "Fånga det som räknas, bild för bild, utan att tappa farten. Anteckna inställningar, kontext och tankar för varje tagning med några få tryckningar. Frames håller allt strukturerat utan att komma i vägen, så att uppmärksamheten stannar på ljuset, ögonblicket och motivet."
+      },
+      "feature3": {
+        "title": "Följer dina scanningar",
+        "description": "Dina anteckningar är inte inlåsta i appen. Exportera noter och metadata i format som XMP, CSV, TXT och mer, redo att följa med dina scanningar in i valfritt redigerings- eller arkiveringssystem. Oavsett om du delar, sparar eller bearbetar dina bilder är dina filmdata alltid inom räckhåll."
+      }
+    },
+    "section2": {
+      "eyebrow": "EXIF-metadata",
+      "title": "För dem tillbaka.",
+      "summary": "Frames för macOS sluts cirkeln mellan dina analoga anteckningar och dina digitala scanningar. Importera dina loggar, para ihop dem med dina bilder och skriv metadata direkt in i varje fil utan att ändra originalen. Allt förblir sammankopplat, och ditt arkiv fylls rulle för rulle, alltid komplett och redo för redigering eller delning.",
+      "feature1": {
+        "title": "Smidig import",
+        "description": "Dra och släpp dina scanningar in i Frames. Koppla varje bild till tagningen du antecknade på iOS, och varje notering, inställning och detalj faller på plats. Kopplingen mellan dina analoga anteckningar och digitala filer blir omedelbar och påtaglig. En rulle eller ett helt arkiv, processen förblir snabb och precis."
+      },
+      "feature2": {
+        "title": "Data inbäddad permanent",
+        "description": "Frames skriver dina upptagningsdata direkt in i varje bildfil som EXIF-metadata. Filmtyp, exponeringsinstallningar, utrustning, geolokalisering och personliga anteckningar reser osynligt men alltid närvarande inuti filen. Dina scanningar bär den fullständiga historien om varje tagning, så att framtida redigeringar, delningar eller arkiveringar alltid utgår från en komplett bild."
+      },
+      "feature3": {
+        "title": "Läsbar överallt",
+        "description": "När de väl är inskrivna är dina metadata en permanent del av filen. Apple Photos, Adobe Lightroom, Google Photos, Capture One, Darkroom och de flesta bildredigeringsprogram kan läsa dem inbyggt och visar dina anteckningar och inställningar var du än öppnar en fil. Inga extra steg, inget förlorat sammanhang, inga uppgifter att mata in igen, oavsett plattform."
+      },
+      "feature4": {
+        "title": "Integritet i första hand",
+        "description": "Frames lagrar allt lokalt utan någon molnanslutning. Dina anteckningar och metadata lämnar aldrig din enhet om du inte exporterar dem själv. Inget konto krävs, ingen bakgrundssynkronisering, inga servrar. Det du fångar förblir helt i dina händer, privat och säkert by design.",
+        "privacy_note1": "Dina data förblir privata.",
+        "privacy_note2": "Vi delar eller säljer dem aldrig under några omständigheter."
+      }
+    },
+    "section3": {
+      "eyebrow": "Personalisering",
+      "title": "På ditt sätt.",
+      "summary": "Frames passar din arbetsmetod. Välj hur dina filmrullar visas, ange bländar- och slutartidssekvenser för din utrustning, justera layouten på registreringspanelen och välj de kontroller som betyder mest för dig. Inga två fotografer arbetar likadant, och varje del av appen formar sig runt din praktik, inte tvärtom.",
+      "feature1": {
+        "title": "Flexibel layout",
+        "description": "Bläddra bland dina filmrullar i galleri- eller listvy, styr hur mycket detalj varje rad visar och välj layouten på ditt registreringspanel, antingen en flytande verktygsfält eller ett helskärmsblad. Varje visningsalternativ finns till för att tjäna ditt sätt att tänka, inte för att påtvinga dig en struktur. Gränssnittet anpassar sig till dina vanor så att verktyget håller sig i bakgrunden."
+      },
+      "feature2": {
+        "title": "Kontroller som passar dig",
+        "description": "Skräddarsy Frames efter din utrustning och ditt fotograferingssätt. Ange slutartids- och bländarsekvenser med de steg du faktiskt använder, så att kontrollerna förblir rena och relevanta. Lägg till dina mest använda genvägar till registreringspanelen, oavsett om det gäller mätläge, blixt, exponeringskompensation eller anteckningar, och anteckna snabbare utan kompromisser."
+      },
+      "highlight1": {
+        "title": "Kontrollfält",
+        "description": "Fäst kontrollerna du når för mest, mätning, blixt, exponeringskompensation, anteckningar, direkt på fältet i registreringspanelen. Mindre letande, mer fotograferande."
+      },
+      "highlight2": {
+        "title": "Utrustning",
+        "description": "Ställ in dina kameror, objektiv, filter och filmtyper en gång för alla. Frames håller dem tillgängliga i hela appen så att varje ny rulle startar snabbt och korrekt."
+      },
+      "highlight3": {
+        "title": "Geolokalisering",
+        "description": "Frames taggar automatiskt platsen för varje tagning medan du fotograferar, även offline, och låter dig korrigera det när som helst. Varje bild bär sin plats utan extra ansträngning."
+      },
+      "highlight4": {
+        "title": "Bländare",
+        "description": "Ange dina bländarsteg i hela, halva eller tredjedels stop, eller bygg en helt egen serie. Bara de värden du faktiskt använder visas, för ett rent och precist gränssnitt."
+      },
+      "highlight5": {
+        "title": "Slutartid",
+        "description": "Välj standardsteg för slutartid eller definiera din egen sekvens från grunden. Kontrollerna visar bara vad som är relevant för din kamera och din stil, inget mer."
+      },
+      "highlight6": {
+        "title": "Egna anteckningar",
+        "description": "Gå bortom standardfält med anteckningar du definierar själv. Skriv ner ljusmätningar, påminnelser eller andra detaljer om en tagning som ett förinställt fält inte skulle kunna fånga."
+      }
     }
   }
 }

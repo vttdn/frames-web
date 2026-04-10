@@ -1,0 +1,134 @@
+body {
+    color: var(--color-white);
+    background: var(--color-bg-black);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    
+    font-style: normal;
+    margin: 0;
+
+    scroll-behavior: smooth;
+}
+
+#top {
+    scroll-margin-top: 5rem;
+}
+
+a {
+  color: var(--color-white);
+  text-decoration: none;
+//   transition: color 0.15s ease-out;
+
+  &:hover {
+    color: #fff;
+  }
+}
+
+.ruh {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    border: 0;
+    clip: rect(0, 0, 0, 0);
+    overflow: hidden;
+}
+
+/* Box Sizing Reset */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/* List Reset */
+ul,
+ol {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+li,
+p,
+figure,
+picture,
+blockquote,
+button {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background: none;
+}
+
+h1,
+.h1,
+h2,
+h3,
+h4,
+p {
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
+    color: var(--color-white);
+}
+
+.wrapper {
+    // 980
+    max-width: 68.75rem;
+}
+
+.wrapper-large {
+    // 1208
+    max-width: 83rem; /* 1208px */
+}
+
+.wrapper, .wrapper-large {
+    width: 100%;
+    margin: 0 auto;
+        padding-left: 3.75rem;
+        padding-right: 3.75rem;
+}
+
+@media (max-width: 1068px) {
+    .wrapper {
+        // 692px 
+        max-width: 50.75rem;
+    }
+}
+@media (max-width: 732px) {
+    .wrapper {
+        max-width: none;
+        padding-left: 1.375rem;
+        padding-right: 1.375rem;
+    }
+    .wrapper-large,
+    .wrapper-qa {
+        max-width: none;
+        padding-left: 1.375rem;
+        padding-right: 1.375rem;
+    }
+}
+
+main {
+    position: relative;
+    background-color: var(--color-bg-black);
+    width: 100%;
+    z-index: 5;
+        // overflow-x: hidden;
+}
+
+// @media (max-width: 1068px) {
+//     main {
+//         padding-left: 1.365rem;
+//         padding-right: 1.365rem;
+//     }
+// }
+
+@media (max-width: 1068px) {
+    .large-desktop-only {
+        display: none;
+    }
+}

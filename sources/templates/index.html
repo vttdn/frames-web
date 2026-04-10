@@ -19,24 +19,9 @@
     {% endfor %}
 
     <!-- Critical CSS - Inlined for immediate render -->
-    {% if critical_css %}
     <style>
         {{ critical_css|safe }}
     </style>
-    <!-- Deferred CSS - Loaded asynchronously for below-the-fold content -->
-    <link rel="stylesheet" href="/lib/css/deferred.css" media="print" onload="this.media='all'">
-    <!-- No-JS Fallback -->
-    <noscript>
-        <link rel="stylesheet" href="/lib/css/deferred.css">
-    </noscript>
-    {% else %}
-    <!-- Fallback: Load complete stylesheet if critical CSS not available -->
-    <link rel="stylesheet" href="/lib/css/style.css" media="print" onload="this.media='all'">
-    <!-- No-JS Fallback -->
-    <noscript>
-        <link rel="stylesheet" href="/lib/css/style.css">
-    </noscript>
-    {% endif %}
 
     <meta name="twitter:card" content="{{ locale_data.meta.twitter_card }}">
     <meta name="twitter:site" content="@{{ locale_data.social.twitter if locale_data.social is defined and locale_data.social.twitter else global_config.urls.social.handle.twitter }}">
@@ -61,419 +46,485 @@
 </head>
 
 <body>
-    <header class="main-header wrapper">
-        <div class="container-header grid">
-            <a href="{{ lang_config.path }}" class="leading" aria-label="{{ locale_data.header.logo_aria_label }}">
-                {{ locale_data.header.logo_text }}
-            </a>
 
-            <nav class="navigation center" aria-label="{{ locale_data.header.navigation.aria_label }}">
-                <ul class="flex flex-row">
-                    <li class="desktop-only"><a href="#features">{{ locale_data.header.navigation.features }}</a></li>
-                    <li><a onclick="return false;" class="tooltip" data-tooltip="{{ locale_data.tooltip.label_coming_soon }}" href="{{ lang_config.path }}{{ locale_data.urls.documentation }}">{{ locale_data.header.navigation.documentation }}</a></li>
-                    <li><a href="{{ lang_config.path }}{{ locale_data.urls.changelog }}">{{ locale_data.header.navigation.changelog }}</a></li>
-                </ul>
-            </nav>
+  <header class="top-toolbar">
+    <div class="top-toolbar-inner">
+      <a href="/" class="logo">Frames</a>
+      <nav class="top-toolbar-buttons">
+        <a href="{{ lang_config.path }}{{ locale_data.urls.changelog }}" class="btn btn-small btn-outlined">{{ locale_data.header.navigation.changelog }}</a>
+        <a href="{{ locale_data.urls.appstore_ios }}" class="btn btn-small btn-filled">{{ locale_data.header.buttons.download }}</a>
+      </nav>
+    </div>
+  </header>
 
-            <div class="trailing flex flex-row flex-center gap-sm">
-                <button class="btn btn-sm btn-dark mobile-hidden" id="button-social-share"
-                    aria-controls="overlay" aria-expanded="false">
-                    <span>{{ locale_data.header.buttons.share }}</span>
-                </button>
+  <section class="hero" aria-labelledby="hero-heading">
+    <h1 id="hero-heading" class="ruh">{{ locale_data.hero.heading|safe }}</h1>
 
-                <a href="{{ locale_data.urls.appstore_ios }}" class="btn btn-sm btn-light desktop-up">{{
-                    locale_data.header.buttons.download }}</a>
-                <a href="{{ locale_data.urls.appstore_ios }}" class="btn btn-sm btn-light tablet-only">{{
-                    locale_data.header.buttons.download }}</a>
-                <a href="{{ locale_data.urls.appstore_ios }}" class="btn btn-sm btn-dark desktop-hidden">{{
-                    locale_data.header.buttons.download }}</a>
-
-                <button id="menu-toggle" class="mobile-menu-toggle"
-                    aria-label="{{ locale_data.mobile_menu.open_aria_label }}"
-                    aria-controls="overlay"
-                    aria-expanded="false">
-                    <img src="/lib/img/icn/menu.svg" alt="" width="32" height="32" loading="lazy" aria-hidden="true">
-                </button>
-            </div>
-        </div>
-    </header>
-
-    <main class="wrapper">
-        <section class="hero" aria-labelledby="hero-heading">
-            <div class="hero-content flex flex-col gap-xl">
-                <h1 id="hero-heading">{{ locale_data.hero.heading|safe }}</h1>
-                <!-- <h1 class="ruh" id="hero-heading">{{ locale_data.hero.heading_seo|safe }}</h1>
-                <p class="h1">{{ locale_data.hero.heading|safe }}</p> -->
-                <div class="hero-description flex flex-col ruh">
-                    <p>{{ locale_data.hero.paragraph1|safe }}</p>
-                    <p>{{ locale_data.hero.paragraph2|safe }}</p>
-                    <p>{{ locale_data.hero.paragraph3|safe }}</p>
-                </div>
-
-                <!-- <a href="{{ locale_data.urls.appstore_macos }}" class="btn btn-md btn-light desktop-only w-fit"
-                    aria-label="{{ locale_data.hero.button_macos_aria_label }}">
-                    {{ locale_data.hero.button_macos_text }}
-                    <img src="/lib/img/icn/arrow-down-to-line.svg" alt="" fetchpriority="high" width="12"
-                        height="15" aria-hidden="true">
-                </a> -->
-                <a href="{{ locale_data.urls.appstore_ios }}" class="btn btn-md btn-light w-fit"
-                    aria-label="{{ locale_data.hero.button_ios_aria_label }}">
-                    {{ locale_data.hero.button_ios_text }}
-                    <img src="/lib/img/icn/arrow-down-to-line.svg" alt="" fetchpriority="high" width="12"
-                        height="15" aria-hidden="true">
-                </a>
-            </div>
-
-            <figure class="hero-image flex tile container-ratio ratio-2-1">
-                <picture class="flex">
-                    <source media="(min-width: 481px)"
-                            srcset="/lib/img/{{ lang }}/hero.webp 1x, /lib/img/{{ lang }}/hero@2x.webp 2x">
-                    <img src="/lib/img/{{ lang }}/hero-mobile.webp"
-                        srcset="/lib/img/{{ lang }}/hero-mobile.webp 1x, /lib/img/{{ lang }}/hero-mobile@2x.webp 2x"
-                        alt="{{ locale_data.hero.images.hero.alt }}"
-                        width="448"
-                        height="336"
-                        fetchpriority="high">
-                </picture>
-
-                <button id="youtube-video-toggle" class="play-btn flex flex-center flex-justify-center"
-                    aria-label="{{ locale_data.hero.play_button_aria_label }}" aria-controls="overlay"
-                    aria-expanded="false" data-video-id="KRLS5tpmvJM">
-                    <img src="/lib/img/icn/play.svg" alt="" width="96" height="96" aria-hidden="true">
-                </button>
-            </figure>
-
-            <aside class="hero-featured flex flex-col flex-center gap-2xl"
-                aria-label="{{ locale_data.hero.featured.aria_label }}">
-                <p class="featured-text">{{ locale_data.hero.featured.text }}</p>
-
-                <ul class="featured-logos grid grid-7col">
-                    <li><img src="/lib/img/logo/digitalcameraworld.svg" alt="Digital Camera World Logo" width="64" height="24"></li>
-                    <li><img src="/lib/img/logo/petapixel.svg" alt="Petapixel Logo" width="80" height="24"></li>
-                    <li><img src="/lib/img/logo/yahoo.svg" alt="Yahoo! Logo" width="81" height="24"></li>
-                    <li><img src="/lib/img/logo/msn.svg" alt="MSN Logo" width="61" height="24"></li>
-                    <li><img src="/lib/img/logo/youtube.svg" alt="Youtube Logo" width="100" height="24"></li>
-                    <li><img src="/lib/img/logo/35mmc.svg" alt="35mmc Logo" width="56" height="24"></li>
-                    <!-- <li><img src="/lib/img/logo/diyphotography.svg" alt="DIY Photography" width="135" height="24"></li> -->
-                    <li><img src="/lib/img/logo/jch.svg" alt="Japan Camera Hunter Logo" width="55" height="24"></li>
-                </ul>
-            </aside>
-        </section>
-
-        <section class="preview grid grid-2col">
-            <h2 class="ruh">{{ locale_data.preview.heading|safe }}</h2>
-
-            {% for i in range(1, 7) %}
-                <figure id="preview{{ i }}" class="tile container-ratio ratio-4-3">
-                        <img src="/lib/img/{% if i <= 4 %}{{ lang }}{% else %}shared{% endif %}/preview{{ i }}.webp"
-                            srcset="/lib/img/{% if i <= 4 %}{{ lang }}{% else %}shared{% endif %}/preview{{ i }}.webp 1x, /lib/img/{% if i <= 4 %}{{ lang }}{% else %}shared{% endif %}/preview{{ i }}@2x.webp 2x"
-                            alt="{{ locale_data.preview.images['preview' ~ i].alt|safe }}" width="400" height="300" loading="lazy">
-                        <figcaption class="howto-caption flex flex-col flex-justify-between ruh">
-                            <strong>{{ locale_data.preview.images['preview' ~ i].heading }}</strong>
-                            <p>{{ locale_data.preview.images['preview' ~ i].caption|safe }}</p>
-                        </figcaption>
-                </figure>
-            {% endfor %}
-        </section>
-        
-        <section id="features" aria-labelledby="features-heading">
-            <h2 id="features-heading">{{ locale_data.features.heading }}<span class="ruh">: {{ locale_data.features.heading_seo }}</span></h2>
-            <div class="features grid grid-3col">
-                {% for i in range(1, 8) %}
-                <article class="feature tile container-ratio ratio-4-3">
-                    <div class="feature-inner tile-inner flex flex-col flex-justify-between">
-                        <header class="feature-header flex flex-col gap-xxs">
-                            <span class="feature-label">{{ locale_data.features['feature' ~ i].label }}</span>
-                            <h3>{{ locale_data.features['feature' ~ i].title }}</h3>
-                        </header>
-                        <p>{{ locale_data.features['feature' ~ i].description }}</p>
-                    </div>
-                </article>
-                {% endfor %}
-            </div>
-        </section>
-
-
-
-        <section aria-labelledby="pricing-heading">
-            <h2 id="pricing-heading">{{ locale_data.pricing.heading }}<span class="ruh">: {{ locale_data.pricing.heading_seo }}</span></h2>
-            
-            <div class="pricing grid grid-3col" id="pricing-plans">
-                <article class="tile container-ratio ratio-3-4 pricing-card">
-                    <div class="tile-inner flex flex-col flex-justify-between">
-                        <div class="pricing-header flex flex-col gap-lg">
-                            <header class="flex flex-col gap-xxs">
-                                <h3 class="pricing-title">{{ locale_data.pricing.plan_type.subscription }}</h3>
-                                <div class="pricing-amount">
-                                    <span class="price">{{ locale_data.pricing.ios.price_yearly }}</span>
-                                    <span class="price-period">{{ locale_data.pricing.ios.period_yearly }}</span>
-                                    <span class="pricing-or">({{ locale_data.pricing.or }} {{ locale_data.pricing.ios.price }}{{ locale_data.pricing.ios.period }})</span>
-                                </div>
-                            </header>
-
-                            <p class="pricing-label">{{ locale_data.pricing.ios.includes_label }}</p>
-
-                            <ul class="pricing-features flex flex-col gap-xs">
-                                {% for feature in locale_data.pricing.ios.features %}
-                                <li class="flex flex-row gap-xs">
-                                    <span class="checkmark">{{ locale_data.pricing.checkmark }}</span>
-                                    {{ feature }}
-                                </li>
-                                {% endfor %}
-                            </ul>
-                        </div>
-
-                        <footer class="pricing-action">
-                            <a href="{{ locale_data.urls.appstore_ios }}" class="btn btn-md btn-light">{{
-                                locale_data.pricing.ios.button_text }}</a>
-                        </footer>
-                    </div>
-                </article>
-
-                <article class="tile container-ratio ratio-3-4 pricing-card">
-                    <div class="tile-inner flex flex-col flex-justify-between">
-                        <div class="pricing-header flex flex-col gap-lg">
-                            <header class="flex flex-col gap-xxs">
-                                <h3 class="pricing-title">{{ locale_data.pricing.plan_type.lifetime }}</h3>
-                                <div class="pricing-amount">
-                                    <span class="price">{{ locale_data.pricing.ios.price_lifetime }}</span>
-                                    <!-- <span class="price-period">{{ locale_data.pricing.ios.period_lifetime }}</span> -->
-                                </div>
-                            </header>
-
-                            <p class="pricing-label">{{ locale_data.pricing.ios.includes_label }}</p>
-
-                            <ul class="pricing-features flex flex-col gap-xs">
-                                {% for feature in locale_data.pricing.ios.features %}
-                                <li class="flex flex-row gap-xs">
-                                    <span class="checkmark">{{ locale_data.pricing.checkmark }}</span>
-                                    {{ feature }}
-                                </li>
-                                {% endfor %}
-                            </ul>
-                        </div>
-
-                        <footer class="pricing-action">
-                            <a href="{{ locale_data.urls.appstore_ios }}" class="btn btn-md btn-secondary">{{
-                                locale_data.pricing.ios.button_text }}</a>
-                        </footer>
-                    </div>
-                </article>
-            </div>
-        </section>
-
-
-        <section class="howto">
-            <h2>{{ locale_data.howto.heading }}</h2>
-
-            <div class="grid grid-2col">
-                {% for i in range(1, 7) %}
-                    <figure id="howto{{ i }}" class="tile container-ratio ratio-4-3">
-                        {% if i == 2 %}
-                        <img src="/lib/img/{{ lang }}/howto{{ i }}.webp"
-                            srcset="/lib/img/{{ lang }}/howto{{ i }}.webp 1x, /lib/img/{{ lang }}/howto{{ i }}@2x.webp 2x"
-                            alt="{{ locale_data.howto['howto' ~ i].heading }}" width="400" height="300" loading="lazy">
-                        {% else %}
-                        <img src="/lib/img/shared/howto{{ i }}.webp"
-                            srcset="/lib/img/shared/howto{{ i }}.webp 1x, /lib/img/shared/howto{{ i }}@2x.webp 2x"
-                            alt="{{ locale_data.howto['howto' ~ i].heading }}" width="400" height="300" loading="lazy">
-                        {% endif %}
-                        <figcaption class="howto-caption flex flex-col flex-justify-between ruh">
-                            <strong>{{ locale_data.howto['howto' ~ i].heading }}</strong>
-                            <p>{{ locale_data.howto['howto' ~ i].description }}</p>
-                        </figcaption>
-                    </figure>
-                {% endfor %}
-            </div>
-        </section>
-
-        <section class="reviews review-carousel" aria-label="{{ locale_data.reviews.aria_label }}">
-            <h2>{{ locale_data.reviews.heading2 }}<span class="ruh">: {{ locale_data.reviews.heading }}</span></h2>
-
-            <div class="grid grid-3col">
-                {% for i in range(1, 10) %}
-                <article class="feature tile container-ratio ratio-4-3{% if i > 6 %} ruh{% endif %}">
-                    <div class="feature-inner tile-inner flex flex-col flex-justify-between">
-                        <header class="ruh">
-                            <h3>{{ locale_data.reviews['review' ~ i].title }}</h3>
-                        </header>
-
-                        <blockquote class="review-quote">
-                            <span class="quote-icon" aria-hidden="true">“</span>
-                            <p>{{ locale_data.reviews['review' ~ i].quote }}</p>
-                        </blockquote>
-
-                        <footer class="review-author flex flex-center gap-md">
-                            <img src="/lib/img/shared/author{{ i }}.webp"
-                                alt="{{ locale_data.reviews['review' ~ i].author_name }}" width="32" height="32"
-                                srcset="/lib/img/shared/author{{ i }}.webp 1x, /lib/img/shared/author{{ i }}@2x.webp 2x"
-                                loading="lazy" class="btn btn-square btn-secondary">
-                            <div class="author-info flex flex-col">
-                                <cite class="author-name">{{ locale_data.reviews['review' ~ i].author_name }}</cite>
-                                <time class="review-date" datetime="{{ locale_data.reviews['review' ~ i].datetime }}">{{
-                                    formatted_reviews['review' ~ i].formatted_date }}</time>
-                            </div>
-                        </footer>
-                    </div>
-                </article>
-                {% endfor %}
-            </div>
-        </section>
-
-
-
-        <section id="changelog" aria-labelledby="changelog-heading">
-            <h2 id="changelog-heading"><a href="{{ locale_data.meta.canonical_url }}changelog/">{{ locale_data.whatsnew.heading }}</a></h2>
-            <div class="changelog-inner grid grid-2col">
-                {% for entry in latest_changelog_entries %}
-                    <article class="changelog tile">
-                        {% if entry.entry_type == 'blog' %}
-                            <a href="{{ lang_config.path }}blog/{{ entry.url_slug }}/" class="changelog-inner tile-inner flex flex-col flex-justify-between">
-                                <div class="flex flex-center flex-justify-start gap-md">
-                                    <span class="changelog-number">Blog</span>
-                                    <time datetime="{{ entry.publish_date }}" class="changelog-datetime">{{ entry.formatted_date }}</time>
-                                </div>
-                                <h3>{{ entry.title }}</h3>
-                            </a>
-                        {% else %}
-                            <a href="{{ lang_config.path }}changelog/{{ entry.url_slug }}/" class="changelog-inner tile-inner flex flex-col flex-justify-between">
-                                <div class="flex flex-center flex-justify-start gap-md">
-                                    <span class="changelog-number">{{ 'iOS' if entry.platform == 'ios' else 'macOS' }} {{ entry.version_short }}</span>
-                                    <time datetime="{{ entry.release_date }}" class="changelog-datetime">{{ entry.formatted_date }}</time>
-                                </div>
-                                <h3>{{ entry.title }}</h3>
-                            </a>
-                        {% endif %}
-                    </article>
-                {% endfor %}
-            </div>
-
-            <!-- <footer>
-                <a href="{{ locale_data.meta.canonical_url }}/changelog/">What's New →</a>
-            </footer> -->
-        </section>
-
-
-        
-        <section class="qa grid grid-2col" aria-labelledby="qa-heading">
-            <h2 id="qa-heading">{{ locale_data.qa.heading }}<span class="ruh">: {{ locale_data.qa.heading_seo }}</span></h2>
-
-            <div class="qa-content flex flex-col">
-                {% for key, value in locale_data.qa.items() if key.startswith('question') %}
-                <details>
-                    <summary class="flex flex-justify-between flex-center">
-                        <h3>{{ value.question|safe }}</h3>
-                    </summary>
-                    <p>{{ value.answer|safe }}</p>
-                </details>
-                {% endfor %}
-            </div>
-        </section>
-
-        <section class="contact tile container-ratio ratio-2-1" aria-labelledby="contact-heading">
-            <div class="flex flex-col flex-center flex-justify-center">
-                <h2 id="contact-heading">{{ locale_data.contact.heading }}</h2>
-                <a href="mailto:&#98;&#111;&#110;&#106;&#111;&#117;&#114;&#64;&#119;&#105;&#116;&#104;&#102;&#114;&#97;&#109;&#101;&#115;&#46;&#99;&#111;&#109;"
-                    class="btn btn-md btn-secondary">{{ locale_data.contact.button_text }}</a>
-            </div>
-        </section>
-    </main>
-
-    <footer class="main-footer wrapper flex flex-col gap-6xl">
-        <div class="footer-links grid grid-4col">
-            <a href="{{ lang_config.path }}" aria-label="{{ locale_data.header.logo_aria_label }}" class="w-fit">
-                <img src="/lib/img/logo/frames.svg" alt="{{ locale_data.footer.logo_alt }}" width="40" height="40">
-            </a>
-            <ul class="flex flex-col gap-sm2">
-                <li>
-                    <h3>{{ locale_data.footer.connect.heading }}</h3>
-                </li>
-                <li><a href="https://www.instagram.com/{{ locale_data.social.instagram if locale_data.social is defined and locale_data.social.instagram else global_config.urls.social.handle.instagram }}" target="_blank" rel="noopener noreferrer">{{
-                        locale_data.footer.connect.instagram }}</a></li>
-                <li><a href="{{ global_config.urls.social.threads }}" target="_blank" rel="noopener noreferrer">{{
-                        locale_data.footer.connect.threads }}</a></li>
-                <li><a href="{{ global_config.urls.social.facebook }}" target="_blank" rel="noopener noreferrer">{{
-                        locale_data.footer.connect.facebook }}</a></li>
-                <li><a href="{{ global_config.urls.social.bluesky }}" target="_blank" rel="noopener noreferrer">{{
-                        locale_data.footer.connect.bluesky }}</a></li>
-                <li><a href="{{ global_config.urls.social.mastodon }}" target="_blank" rel="me noopener noreferrer">{{
-                        locale_data.footer.connect.mastodon }}</a></li>
-                <li><a href="{{ global_config.urls.social.linkedin }}" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
-                <li><a href="{{ global_config.urls.social.pinterest }}" target="_blank" rel="noopener noreferrer">Pinterest</a></li>
-                <li><a href="https://x.com/{{ locale_data.social.twitter if locale_data.social is defined and locale_data.social.twitter else global_config.urls.social.handle.twitter }}" target="_blank" rel="noopener noreferrer">{{
-                        locale_data.footer.connect.twitter }}</a></li>
-                <li><a href="{{ global_config.urls.social.reddit }}" target="_blank" rel="noopener noreferrer">Reddit</a></li>
-            </ul>
-            <ul class="flex flex-col gap-sm2">
-                <li>
-                    <h3>{{ locale_data.footer.resources.heading }}</h3>
-                </li>
-                <li><a href="{{ locale_data.urls.privacy }}">{{ locale_data.footer.resources.privacy_policy }}</a></li>
-                <li><a href="{{ global_config.urls.terms }}" target="_blank" rel="noopener noreferrer">{{
-                        locale_data.footer.resources.terms_of_service }}</a></li>
-                <li><a onclick="return false;" class="tooltip" data-tooltip="{{ locale_data.tooltip.label_coming_soon }}" href="{{ lang_config.path }}{{ locale_data.urls.documentation }}">{{ locale_data.header.navigation.documentation }}</a></li>
-                <li><a
-                        href="{% if lang in available_changelog_languages %}{{ locale_data.urls.changelog }}{% else %}/changelog/{% endif %}">{{
-                        locale_data.footer.resources.changelog }}</a></li>
-                <!-- <li><a href="{% if lang == 'en' %}/changelog/rss/index.rss{% else %}/{{ lang }}/changelog/rss/index.rss{% endif %}">{{ locale_data.footer.resources.rss }}</a></li> -->
-                <li><a href="{{ global_config.urls.social.youtube }}" target="_blank" rel="noopener noreferrer">{{
-                        locale_data.footer.resources.youtube }}</a></li>
-                <li><a href="{% if lang in available_blog_languages %}{{ lang_config.path }}{{ locale_data.urls.blog }}{% else %}/blog/{% endif %}">{{ locale_data.footer.resources.blog }}</a></li>
-            </ul>
-            <ul class="flex flex-col gap-sm2">
-                <li>
-                    <h3>{{ locale_data.footer.product.heading }}</h3>
-                </li>
-                <li><a href="{{ locale_data.urls.appstore_ios }}">{{ locale_data.footer.product.frames_ios }}</a></li>
-                <li><a href="{{ locale_data.urls.appstore_macos }}">{{ locale_data.footer.product.frames_macos }}</a>
-                </li>
-            </ul>
+    <div class="hero-video" role="presentation">
+      <div class="video-wrapper">
+        <div class="video-iphone-screen">
+          <video src="/lib/newhome/videos/video0.mp4" autoplay muted loop playsinline></video>
         </div>
 
-        <div class="footer-bottom flex flex-row flex-justify-between flex-center">
-            <div class="flex flex-center flex-justify-center gap-lg">
-                <p>© 2026 <a href="https://vnn.io/" rel="noopener noreferrer author" target="_blank">Vincent Tantardini</a>.</p>
-                {% if locale_data.footer.compliance %}
-                <p class="flex flex-center flex-justify-center">
-                    <img src="/lib/img/icn/checkmark-shield.svg" width="14" height="14" alt="" loading="lazy" aria-hidden="true" class="compliance-icon">
-                    {{ locale_data.footer.compliance }}
-                </p>
-                {% endif %}
-            </div>
-
-            <div class="dropdown">
-                <input type="checkbox" class="dropdown-toggle" id="lang-toggle">
-
-                <label for="lang-toggle" class="dropdown-button btn btn-sm btn-dark">
-                    <img src="/lib/img/icn/globe.svg" alt="" loading="lazy" aria-hidden="true" width="14" height="12">
-                    <span>{{ locale_data.footer.language_dropdown.label }}</span>
-                    <img src="/lib/img/icn/chevron-down-sm.svg" alt="" width="10" height="12"
-                        loading="lazy" aria-hidden="true">
-                </label>
-
-                <ul class="dropdown-content dropdown-dir-top" role="menu">
-                    {% for language in all_languages %}
-                    <li role="menuitem">
-                        <a href="{{ language.url }}">
-                            <span>{{ language.name }}</span>
-                            {% if language.code == lang %}
-                            <span>✓</span>
-                            {% endif %}
-                        </a>
-                    </li>
-                    {% endfor %}
-                </ul>
-            </div>
+        <div class="video-iphone-mockup">
+          <img src="/lib/newhome/images/iphone-mockup.webp" width="446" height="912" alt="" fetchpriority="high">
         </div>
-    </footer>
-
-    <!-- Main Overlay -->
-    <div class="overlay flex flex-center flex-justify-center" id="overlay" role="dialog"
-        aria-modal="true" aria-labelledby="" hidden>
-        <div class="modal" id="modal-container"></div>
+      </div>
     </div>
 
-    <script defer src="/lib/js/{{ lang }}/core.js"></script>
+    <div class="hero-bg">
+      <img src="/lib/newhome/images/hero-bg.webp" width="1208" height="825" alt="">
+    </div>
+  </section>
+
+  <div class="hero-volume-container">
+    <div class="wrapper-large hero-volume-wrapper">
+      <button class="hero-volume" id="musicToggle" aria-pressed="false">
+        <img src="/lib/newhome/icons/play.svg" alt="" width="40" height="40" class="hero-volume-icon-play">
+        <img src="/lib/newhome/icons/pause.svg" alt="" width="40" height="40" class="hero-volume-icon-pause">
+      </button>
+      <audio id="music" src="/lib/newhome/audio/track.mp3" preload="none"></audio>
+    </div>
+  </div>
+
+  <div class="gradient-overlay"></div>
+
+  <main>
+
+    <section class="about wrapper-large">
+      <p class="animated">{{ locale_data.newhome.about.p1 }}</p>
+      <p class="animated">{{ locale_data.newhome.about.p2 }}</p>
+      <p class="animated">{{ locale_data.newhome.about.p3 }}</p>
+      <p class="animated">{{ locale_data.newhome.about.p4 }}</p>
+    </section>
+
+    <section class="feature wrapper" id="top">
+      <header class="feature-header">
+        <p class="feature-eyebrow">{{ locale_data.newhome.section1.eyebrow }}</p>
+        <h2 class="feature-title animated">{{ locale_data.newhome.section1.title }}</h2>
+        <p class="feature-summary animated">{{ locale_data.newhome.section1.summary }}</p>
+      </header>
+
+      <div class="feature-main-mobile">
+        <div class="feature1-video" role="presentation">
+          <div class="video-wrapper">
+            <div class="video-iphone-screen">
+              <video src="/lib/newhome/videos/video1.mp4" autoplay muted loop playsinline></video>
+            </div>
+
+            <div class="video-iphone-mockup">
+              <img src="/lib/newhome/images/iphone-mockup.webp" width="446" height="912" alt=""
+                fetchpriority="high">
+            </div>
+          </div>
+        </div>
+
+        <div class="features-mobile-content">
+          <div class="feature-mobile animated">
+            <h3 class="feature-mobile-title">{{ locale_data.newhome.section1.feature1.title }}</h3>
+            <p class="feature-mobile-descr">{{ locale_data.newhome.section1.feature1.description }}</p>
+          </div>
+          <div class="feature-mobile animated">
+            <h3 class="feature-mobile-title">{{ locale_data.newhome.section1.feature2.title }}</h3>
+            <p class="feature-mobile-descr">{{ locale_data.newhome.section1.feature2.description }}</p>
+          </div>
+          <div class="feature-mobile animated">
+            <h3 class="feature-mobile-title">{{ locale_data.newhome.section1.feature3.title }}</h3>
+            <p class="feature-mobile-descr last">{{ locale_data.newhome.section1.feature3.description }}</p>
+          </div>
+        </div>
+        </div>
+
+    </section>
+
+    <section class="feature">
+      <header class="feature-header wrapper">
+        <p class="feature-eyebrow">{{ locale_data.newhome.section2.eyebrow }}</p>
+        <h2 class="feature-title animated">{{ locale_data.newhome.section2.title }}</h2>
+        <p class="feature-summary animated">{{ locale_data.newhome.section2.summary }}</p>
+      </header>
+
+      <div class="features">
+
+        <div class="video-macbook-container" role="presentation">
+          <div class="video-wrapper wrapper">
+            <div class="video-wrapper-macbook feature-image">
+              <div class="video-macbook-screen">
+                <video src="/lib/newhome/videos/video2.mp4" autoplay muted loop playsinline></video>
+              </div>
+
+              <div class="video-macbook-mockup">
+                <img src="/lib/newhome/images/macbook-mockup.webp" width="3220" height="2100" alt=""
+                  fetchpriority="high">
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="feature-hblock wrapper animated">
+          <h3 class="feature-hblock-title">{{ locale_data.newhome.section2.feature1.title }}</h3>
+          <p class="feature-hblock-descr">{{ locale_data.newhome.section2.feature1.description }}</p>
+        </div>
+
+        <div class="feature-hblock wrapper animated">
+          <h3 class="feature-hblock-title">{{ locale_data.newhome.section2.feature2.title }}</h3>
+          <p class="feature-hblock-descr">{{ locale_data.newhome.section2.feature2.description }}</p>
+        </div>
+
+        <div class="feature-hblock wrapper">
+
+          <div class="feature-logos">
+            <div class="feature-logo animated">
+              <img src="/lib/newhome/images/apple-photos.webp" width="114" height="114" alt="Apple Photos Logo"
+                fetchpriority="high">
+            </div>
+
+            <div class="feature-logo animated">
+              <img src="/lib/newhome/images/google-photos.webp" width="114" height="114" alt="Google Photos Logo"
+                fetchpriority="high">
+            </div>
+
+            <div class="feature-logo animated">
+              <img src="/lib/newhome/images/adobe-lightroom.webp" width="114" height="114"
+                alt="Adobe Lightroom Logo" fetchpriority="high">
+            </div>
+
+            <div class="feature-logo last animated">
+              <img src="/lib/newhome/images/capture-one.webp" width="114" height="114" alt="Capture One Logo"
+                fetchpriority="high">
+            </div>
+          </div>
+
+          <div class="feature-logos-content animated">
+            <h3 class="feature-hblock-title">{{ locale_data.newhome.section2.feature3.title }}</h3>
+            <p class="feature-hblock-descr">{{ locale_data.newhome.section2.feature3.description }}</p>
+          </div>
+        </div>
+
+        <div class="feature-hblock wrapper animated">
+          <h3 class="feature-hblock-title">{{ locale_data.newhome.section2.feature4.title }}</h3>
+          <div>
+            <p class="feature-hblock-descr">{{ locale_data.newhome.section2.feature4.description }}</p>
+
+            <div class="feature-privacy">
+              <img src="/lib/newhome/icons/lock.shield.svg" alt="" width="48" height="48">
+              <p class="feature-privacy-descr">
+                {{ locale_data.newhome.section2.feature4.privacy_note1 }}<br>
+                {{ locale_data.newhome.section2.feature4.privacy_note2 }}
+              </p>
+            </div>
+          </div>
+        </div>
+
+    </div>
+
+    </section>
+
+    <section class="feature">
+      <header class="feature-header wrapper">
+        <p class="feature-eyebrow">{{ locale_data.newhome.section3.eyebrow }}</p>
+        <h2 class="feature-title animated">{{ locale_data.newhome.section3.title }}</h2>
+        <p class="feature-summary animated">{{ locale_data.newhome.section3.summary }}</p>
+      </header>
+
+      <div class="features">
+        <div class="wrapper" role="presentation">
+          <div class="video-wrapper feature-image">
+            <div class="video-ipad-screen">
+              <video src="/lib/newhome/videos/video3.mp4" autoplay muted loop playsinline></video>
+            </div>
+
+            <div class="video-ipad-mockup">
+              <img src="/lib/newhome/images/ipad-mockup.webp" width="1275" height="890" alt="" fetchpriority="high">
+            </div>
+          </div>
+        </div>
+
+        <div class="feature-hblock wrapper animated">
+          <h3 class="feature-hblock-title">{{ locale_data.newhome.section3.feature1.title }}</h3>
+          <p class="feature-hblock-descr">{{ locale_data.newhome.section3.feature1.description }}</p>
+        </div>
+
+        <div class="feature-hblock wrapper animated">
+          <h3 class="feature-hblock-title">{{ locale_data.newhome.section3.feature2.title }}</h3>
+          <p class="feature-hblock-descr">{{ locale_data.newhome.section3.feature2.description }}</p>
+        </div>
+
+        <div class="feature-highlights wrapper">
+          <div class="feature-highlight animated">
+            <div class="feature-highlight-illo feature-highlight-illo1">
+              <img src="/lib/newhome/icons/platter.filled.bottom.iphone.svg" alt="" width="40" height="40">
+            </div>
+            <h4 class="feature-highlight-title">{{ locale_data.newhome.section3.highlight1.title }}</h4>
+            <p class="feature-highlight-descr">{{ locale_data.newhome.section3.highlight1.description }}</p>
+          </div>
+
+          <div class="feature-highlight animated">
+            <div class="feature-highlight-illo feature-highlight-illo2">
+              <img src="/lib/newhome/icons/camera.fill.svg" alt="" width="40" height="40">
+            </div>
+            <h4 class="feature-highlight-title">{{ locale_data.newhome.section3.highlight2.title }}</h4>
+            <p class="feature-highlight-descr">{{ locale_data.newhome.section3.highlight2.description }}</p>
+          </div>
+
+          <div class="feature-highlight animated">
+            <div class="feature-highlight-illo feature-highlight-illo3">
+              <img src="/lib/newhome/icons/map.fill.svg" alt="" width="40" height="40">
+            </div>
+            <h4 class="feature-highlight-title">{{ locale_data.newhome.section3.highlight3.title }}</h4>
+            <p class="feature-highlight-descr">{{ locale_data.newhome.section3.highlight3.description }}</p>
+          </div>
+
+          <div class="feature-highlight animated">
+            <div class="feature-highlight-illo feature-highlight-illo4">
+              <img src="/lib/newhome/icons/aperture.svg" alt="" width="40" height="40">
+            </div>
+            <h4 class="feature-highlight-title">{{ locale_data.newhome.section3.highlight4.title }}</h4>
+            <p class="feature-highlight-descr">{{ locale_data.newhome.section3.highlight4.description }}</p>
+          </div>
+
+          <div class="feature-highlight animated">
+            <div class="feature-highlight-illo feature-highlight-illo5">
+              <img src="/lib/newhome/icons/timer.svg" alt="" width="40" height="40">
+            </div>
+            <h4 class="feature-highlight-title">{{ locale_data.newhome.section3.highlight5.title }}</h4>
+            <p class="feature-highlight-descr">{{ locale_data.newhome.section3.highlight5.description }}</p>
+          </div>
+
+          <div class="feature-highlight animated">
+            <div class="feature-highlight-illo feature-highlight-illo6">
+              <img src="/lib/newhome/icons/quote.bubble.svg" alt="" width="40" height="40">
+            </div>
+            <h4 class="feature-highlight-title">{{ locale_data.newhome.section3.highlight6.title }}</h4>
+            <p class="feature-highlight-descr">{{ locale_data.newhome.section3.highlight6.description }}</p>
+          </div>
+        </div>
+
+    </div>
+
+    </section>
+
+    <section class="wrapper wrapper-qa">
+      <header>
+        <h2 class="large-title animated">
+            {{ locale_data.qa.heading }}
+            <span class="ruh">: {{ locale_data.qa.heading_seo }}</span>
+        </h2>
+      </header>
+
+      <div class="qa-content animated">
+        {% for key, value in locale_data.qa.items() if key.startswith('question') %}
+        <details>
+            <summary>
+                <h3 class="summary-title">{{ value.question|safe }}</h3>
+                <img src="/lib/newhome/icons/chevron.down.svg" alt="" width="28" height="28">
+            </summary>
+            <p>{{ value.answer|safe }}</p>
+        </details>
+        {% endfor %}
+      </div>
+    </section>
+
+    <section class="wrapper-large wrapper-pricing">
+      <header class="wrapper">
+        <h2 class="large-title animated">
+          {{ locale_data.pricing.heading }}
+        </h2>
+      </header>
+
+      <div class="pricing-scroll">
+        <div class="pricing-plans">
+          <div class="pricing animated">
+            <header class="pricing-header">
+              <h3 class="pricing-title">{{ locale_data.pricing.label_period }}</h3>
+              <p class="pricing-price">{{ locale_data.pricing.ios.price }}</p>
+
+              <div class="pricing-subtitle">
+                <img src="/lib/newhome/icons/macbook.and.iphone.svg" alt="" width="24" height="16">
+                <p class="pricing-subtitle-descr">
+                  {{ locale_data.pricing.subtitle }}
+                </p>
+              </div>
+            </header>
+
+            <ul class="pricing-features">
+                {% for feature in locale_data.pricing.ios.features %}
+                <li class="pricing-feature">
+                    <img src="/lib/newhome/icons/checkmark.circle.fill.svg" alt="" width="16" height="21">
+                    <p class="pricing-feature-descr">{{ feature }}</p>
+                </li>
+                {% endfor %}
+            </ul>
+            <footer>
+              <a href="{{ locale_data.urls.appstore_ios }}" class="btn btn-large btn-outlined">
+               {{ locale_data.pricing.ios.button_text }}
+              </a>
+            </footer>
+          </div>
+
+          <div class="pricing animated">
+            <header class="pricing-header">
+              <h3 class="pricing-title">{{ locale_data.pricing.label_period_yearly }}</h3>
+              <p class="pricing-price">{{ locale_data.pricing.ios.price_yearly }}</p>
+
+              <div class="pricing-subtitle">
+                <img src="/lib/newhome/icons/macbook.and.iphone.svg" alt="" width="24" height="16">
+                <p class="pricing-subtitle-descr">
+                  {{ locale_data.pricing.subtitle }}
+                </p>
+              </div>
+            </header>
+
+            <ul class="pricing-features">
+                {% for feature in locale_data.pricing.ios.features %}
+                <li class="pricing-feature">
+                    <img src="/lib/newhome/icons/checkmark.circle.fill.svg" alt="" width="16" height="21">
+                    <p class="pricing-feature-descr">{{ feature }}</p>
+                </li>
+                {% endfor %}
+            </ul>
+
+            <footer>
+              <a href="{{ locale_data.urls.appstore_ios }}" class="btn btn-large btn-outlined">
+               {{ locale_data.pricing.ios.button_text }}
+              </a>
+            </footer>
+          </div>
+
+          <div class="pricing animated">
+            <header class="pricing-header">
+              <h3 class="pricing-title">{{ locale_data.pricing.label_period_lifetime }}</h3>
+              <p class="pricing-price">{{ locale_data.pricing.ios.price_lifetime }}</p>
+
+              <div class="pricing-subtitle">
+                <img src="/lib/newhome/icons/macbook.and.iphone.svg" alt="" width="24" height="16">
+                <p class="pricing-subtitle-descr">
+                  {{ locale_data.pricing.subtitle }}
+                </p>
+              </div>
+            </header>
+
+            <ul class="pricing-features">
+                {% for feature in locale_data.pricing.ios.features %}
+                <li class="pricing-feature">
+                    <img src="/lib/newhome/icons/checkmark.circle.fill.svg" alt="" width="16" height="21">
+                    <p class="pricing-feature-descr">{{ feature }}</p>
+                </li>
+                {% endfor %}
+            </ul>
+
+            <footer>
+              <a href="{{ locale_data.urls.appstore_ios }}" class="btn btn-large btn-outlined">
+               {{ locale_data.pricing.ios.button_text }}
+              </a>
+            </footer>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-content wrapper-large">
+      <div class="footer-first-col">
+        <h2 class="footer-title">{{ locale_data.newfooter.title1 }}</h2>
+        <ul>
+          <li class="footer-link-large">
+            <a href="#top">{{ locale_data.newfooter.section1.features }}</a>
+          </li>
+          <li class="footer-link-large">
+            <a href="{{ lang_config.path }}{{ locale_data.urls.changelog }}">{{ locale_data.header.navigation.changelog }}</a>
+          </li>
+          <li class="footer-link-large">
+            <a href="{{ locale_data.urls.privacy }}">{{ locale_data.newfooter.section1.privacy }}</a>
+          </li>
+          <li class="footer-link-large">
+            <a href="{{ global_config.urls.terms }}" target="_blank" rel="noopener noreferrer">{{ locale_data.newfooter.section1.terms }}</a>
+          </li>
+          <li class="footer-link-large">
+            <a href="mailto:&#98;&#111;&#110;&#106;&#111;&#117;&#114;&#64;&#119;&#105;&#116;&#104;&#102;&#114;&#97;&#109;&#101;&#115;&#46;&#99;&#111;&#109;">{{ locale_data.newfooter.section1.contact }}</a>
+          </li>
+          <li class="footer-link-large">
+            <a href="{% if lang in available_blog_languages %}{{ lang_config.path }}{{ locale_data.urls.blog }}{% else %}/blog/{% endif %}">{{ locale_data.newfooter.section1.blog }}</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="footer-second-col">
+        <h2 class="footer-title">{{ locale_data.newfooter.title2 }}</h2>
+        <ul>
+          <li class="footer-link-small">
+            <a href="{{ locale_data.urls.appstore_ios }}">{{ locale_data.newfooter.section2.framesios }}</a>
+          </li>
+          <li class="footer-link-small">
+            <a href="{{ locale_data.urls.appstore_macos }}">{{ locale_data.newfooter.section2.framesmacos }}</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="footer-third-col">
+        <h2 class="footer-title">{{ locale_data.newfooter.title3 }}</h2>
+        <ul>
+          <li class="footer-link-small">
+            <a href="https://www.instagram.com/{{ locale_data.social.instagram if locale_data.social is defined and locale_data.social.instagram else global_config.urls.social.handle.instagram }}" target="_blank" rel="noopener noreferrer">{{ locale_data.newfooter.section3.instagram }}</a>
+          </li>
+          <li class="footer-link-small">
+            <a href="{{ global_config.urls.social.threads }}" target="_blank" rel="noopener noreferrer">{{ locale_data.newfooter.section3.threads }}</a>
+          </li>
+          <li class="footer-link-small">
+            <a href="https://x.com/{{ locale_data.social.twitter if locale_data.social is defined and locale_data.social.twitter else global_config.urls.social.handle.twitter }}" target="_blank" rel="noopener noreferrer">{{ locale_data.newfooter.section3.twitter }}</a>
+          </li>
+          <li class="footer-link-small">
+            <a href="{{ global_config.urls.social.bluesky }}" target="_blank" rel="noopener noreferrer">{{ locale_data.newfooter.section3.bluesky }}</a>
+          </li>
+          <li class="footer-link-small">
+            <a href="{{ global_config.urls.social.mastodon }}" target="_blank" rel="noopener noreferrer">{{ locale_data.newfooter.section3.mastodon }}</a>
+          </li>
+          <li class="footer-link-small">
+            <a href="{{ global_config.urls.social.linkedin }}" target="_blank" rel="noopener noreferrer">{{ locale_data.newfooter.section3.linkedin }}</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-misc wrapper-large">
+      <div class="footer-misc-legal">
+        <a href="https://vnn.io/" target="_blank" rel="noopener noreferrer" class="copyright">
+          <img src="/lib/newhome/icons/copyright.svg" alt="" width="13" height="16">
+          <span>{{ locale_data.newfooter.section4.copyright }}</span>
+        </a>
+        <p class="compliance">
+          <img src="/lib/newhome/icons/checkmark.shield.svg" alt="" width="13" height="16">
+          <span>{{ locale_data.newfooter.section4.compliance }}</span>
+        </p>
+      </div>
+
+        <div class="dropdown">
+            <input type="checkbox" class="dropdown-toggle" id="lang-toggle">
+
+            <label for="lang-toggle" class="dropdown-button language">
+                <img src="/lib/newhome/icons/globe.svg" alt="" width="13" height="16" aria-hidden="true">
+                <span>{{ locale_data.footer.language_dropdown.label }}</span>
+            </label>
+
+            <ul class="dropdown-content dropdown-dir-top" role="menu">
+                {% for language in all_languages %}
+                <li role="menuitem">
+                    <a href="{{ language.url }}">
+                        <span>{{ language.name }}</span>
+                        {% if language.code == lang %}
+                        <span>✓</span>
+                        {% endif %}
+                    </a>
+                </li>
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+  </footer>
+
+   <script defer src="/lib/js/newhome.js"></script>
+
 </body>
 
 </html>

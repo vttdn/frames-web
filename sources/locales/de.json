@@ -31,7 +31,7 @@
     },
     "buttons": {
       "share": "Teilen",
-      "download": "Download"
+      "download": "Herunterladen"
     }
   },
   "share_dropdown": {
@@ -234,10 +234,12 @@
   },
   "pricing": {
     "heading_seo": "Preise der App für analoge Fotografie",
-    "heading": "Preise",
+    "heading": "Such dir deinen Tarif aus und fotografiere noch smarter.",
     "schema_offer_name": "Analog-Notizbuch",
+    "subtitle": "Enthält Frames für iPhone und Mac mit allen freigeschalteten Funktionen.",
     "label_period": "Monatlich",
     "label_period_yearly": "Jährlich",
+    "label_period_lifetime": "Einmalig",
     "label_subscription_monthly": "Monatliches Abonnement",
     "label_subscription_yearly": "Jährliches Abonnement",
     "currency": "EUR",
@@ -261,8 +263,7 @@
         "Unbegrenzte Filme",
         "Unterordner",
         "Datenexport",
-        "Metadaten-Einbettung",
-        "iPhone- und Mac-Apps"
+        "Metadaten-Einbettung"
       ],
       "button_text": "Kostenlos Testen"
     },
@@ -496,6 +497,119 @@
     "meta": {
       "title": "Filmfotografie-Metadaten mit Frames protokollieren und einbetten",
       "description": "Erfahren Sie, wie Sie Frames verwenden, um Filmkamera-Einstellungen zu protokollieren, Ihre Filme zu organisieren und EXIF-Metadaten in Ihre gescannten Bilder auf iPhone und Mac einzubetten."
+    }
+  },
+  "newfooter": {
+    "title1": "Entdecken",
+    "title2": "Download",
+    "title3": "Folgen",
+    "section1": {
+      "features": "Funktionen",
+      "privacy": "Datenschutz",
+      "terms": "AGB",
+      "contact": "Kontakt",
+      "blog": "Blog"
+    },
+    "section2": {
+      "framesios": "Frames iOS",
+      "framesmacos": "Frames macOS"
+    },
+    "section3": {
+      "instagram": "Instagram",
+      "threads": "Threads",
+      "twitter": "Twitter",
+      "bluesky": "Bluesky",
+      "mastodon": "Mastodon",
+      "linkedin": "Linkedin"
+    },
+    "section4": {
+      "copyright": "2026 Vincent Tantardini. Alle Rechte vorbehalten.",
+      "compliance": "DSGVO-konform"
+    }
+  },
+  "newhome": {
+    "about": {
+      "p1": "Analogfotografie verschwindet nicht. Sie kehrt leise und mit Nachdruck zurück.",
+      "p2": "Immer mehr Fotografinnen und Fotografen entscheiden sich für Langsamkeit, Bewusstsein und die haptische Qualität des Films.",
+      "p3": "Doch der Workflow bleibt zersplittert, verteilt auf Notizbücher, Filmrollen und digitale Dateien.",
+      "p4": "Frames ist der Ort, wo beide Welten endlich zusammenkommen, analog und digital, an einem Ort."
+    },
+    "section1": {
+      "eyebrow": "Film-Notizbuch",
+      "title": "Alles festhalten.",
+      "summary": "Frames ist ein iOS-Notizbuch für Analogfotografen. Erfassen Sie Ihre Filmrollen, notieren Sie Einstellungen und halten Sie die Details jeder Aufnahme fest, während Sie fotografieren, ohne Ihren Rhythmus zu unterbrechen. Alles liegt an einem Ort, damit Sie konsequent bleiben, Ihren Fortschritt verfolgen und Ihre Notizen mit den Scans verbinden können, sobald diese aus dem Labor zurückkehren.",
+      "feature1": {
+        "title": "Lebendes Archiv",
+        "description": "Alle Ihre Filmrollen, Kameras und Objektive sind in einer einzigen Ansicht vereint. Stöbern Sie visuell oder tauchen Sie mühelos in die Details einer Aufnahme ein. Jede Filmrolle wird zu einem dauerhaften Dokument, auf das Sie jederzeit zurückgreifen können, um Ihre Gewohnheiten besser zu verstehen, Ihren Blick zu schärfen und zu sehen, wie sich Ihre Arbeit über Projekte hinweg entwickelt."
+      },
+      "feature2": {
+        "title": "Notieren beim Fotografieren",
+        "description": "Halten Sie fest, was zählt, Bild für Bild, ohne den Schwung zu verlieren. Erfassen Sie Einstellungen, Notizen und Kontext zu jeder Aufnahme mit wenigen Gesten. Frames hält die Sache strukturiert, ohne sich aufzudrängen, damit Ihre Aufmerksamkeit beim Licht, dem Moment und dem Motiv bleibt."
+      },
+      "feature3": {
+        "title": "Folgt Ihren Scans",
+        "description": "Ihre Notizen bleiben nicht in der App eingeschlossen. Exportieren Sie sie mit Ihren Metadaten in Formaten wie XMP, CSV, TXT und mehr, bereit, Ihre Scans in jeden Bearbeitungs- oder Archivierungs-Workflow zu begleiten. Ob Sie Ihre Bilder teilen, speichern oder verarbeiten, Ihre Filmdaten sind immer griffbereit."
+      }
+    },
+    "section2": {
+      "eyebrow": "EXIF-Metadaten",
+      "title": "Zurück zum Bild.",
+      "summary": "Frames für macOS schließt den Kreis zwischen Ihren analogen Notizen und Ihren digitalen Scans. Importieren Sie Ihre Aufzeichnungen, ordnen Sie sie Ihren Bildern zu und schreiben Sie Metadaten direkt in jede Datei, ohne die Originale zu verändern. Alles bleibt verbunden, und Ihr Archiv wächst Filmrolle für Filmrolle, stets vollständig und bereit zur Bearbeitung oder zum Teilen.",
+      "feature1": {
+        "title": "Reibungsloser Import",
+        "description": "Ziehen Sie Ihre Scans einfach per Drag-and-Drop in Frames. Ordnen Sie jedes Bild dem auf iOS notierten Frame zu, und jede Notiz, Einstellung und jedes Detail findet seinen Platz. Die Verbindung zwischen Ihren analogen Aufzeichnungen und digitalen Dateien wird sofort greifbar. Eine Filmrolle oder ein ganzes Archiv, der Vorgang bleibt schnell und präzise."
+      },
+      "feature2": {
+        "title": "Daten dauerhaft einbetten",
+        "description": "Frames schreibt Ihre Aufnahmedaten direkt als EXIF-Metadaten in jede Bilddatei. Filmtyp, Belichtungseinstellungen, Ausrüstung, Geolokalisierung und persönliche Notizen reisen unsichtbar, aber stets präsent, im Inneren der Datei. Ihre Scans tragen die vollständige Geschichte jeder Aufnahme, sodass spätere Bearbeitungen, das Teilen oder Archivieren immer von einem vollständigen Bild ausgehen."
+      },
+      "feature3": {
+        "title": "Überall lesbar",
+        "description": "Einmal eingebettet, sind Ihre Metadaten dauerhaft Teil der Datei. Apple Photos, Adobe Lightroom, Google Photos, Capture One, Darkroom und die meisten Bildbearbeitungsprogramme können sie nativ lesen und zeigen Ihre Notizen und Einstellungen überall an, wo Sie eine Datei öffnen. Kein zusätzlicher Aufwand, kein verlorener Kontext, keine erneute Dateneingabe, unabhängig von der Plattform."
+      },
+      "feature4": {
+        "title": "Datenschutz zuerst",
+        "description": "Frames speichert alles lokal, ohne Cloud-Verbindung. Ihre Notizen und Metadaten verlassen Ihr Gerät nie, außer wenn Sie sie selbst exportieren. Kein Konto erforderlich, keine Synchronisierung im Hintergrund, keine Server. Was Sie festhalten, bleibt vollständig in Ihren Händen, privat und sicher von Grund auf.",
+        "privacy_note1": "Ihre Daten bleiben privat.",
+        "privacy_note2": "Wir teilen oder verkaufen sie unter keinen Umständen."
+      }
+    },
+    "section3": {
+      "eyebrow": "Personalisierung",
+      "title": "Auf Ihre Art.",
+      "summary": "Frames passt sich Ihrer Arbeitsweise an. Wählen Sie, wie Ihre Filmrollen angezeigt werden, legen Sie Blenden- und Verschlusszeiten-Sequenzen für Ihre Ausrüstung fest, passen Sie das Layout der Eingabemaske an und wählen Sie die Bedienelemente, die für Sie am wichtigsten sind. Jede Fotografin und jeder Fotograf arbeitet anders, und jeder Teil der App richtet sich nach Ihrer Praxis, nicht umgekehrt.",
+      "feature1": {
+        "title": "Flexibles Layout",
+        "description": "Durchsuchen Sie Ihre Filmrollen in Galerie- oder Listenansicht, steuern Sie den Detailgrad jeder Zeile und wählen Sie das Layout Ihrer Eingabemaske, entweder eine schwebende Werkzeugleiste oder ein Vollbild-Sheet. Jede Anzeigemöglichkeit ist darauf ausgerichtet, Ihrer Denkweise zu dienen, ohne Ihnen eine Struktur aufzuzwingen. Die Oberfläche passt sich Ihren Gewohnheiten an, damit das Werkzeug im Hintergrund bleibt."
+      },
+      "feature2": {
+        "title": "Steuerelemente, die zu Ihnen passen",
+        "description": "Schneidern Sie Frames auf Ihre Ausrüstung und Ihre Arbeitsweise zu. Legen Sie Verschlusszeiten- und Blendensequenzen in den Abstufungen fest, die Sie wirklich verwenden, damit die Steuerelemente übersichtlich und relevant bleiben. Fügen Sie Ihre meistgenutzten Schnellzugriffe zur Eingabemaske hinzu, ob Belichtungsmessmodus, Blitz, Belichtungskorrektur oder Notizen, und notieren Sie schneller, ohne Abstriche."
+      },
+      "highlight1": {
+        "title": "Schnellzugriffsleiste",
+        "description": "Pinnen Sie die Steuerelemente, die Sie am häufigsten nutzen, Belichtungsmessung, Blitz, Belichtungskorrektur, Notizen, direkt in die Leiste der Eingabemaske. Weniger Suchen, mehr Fotografieren."
+      },
+      "highlight2": {
+        "title": "Ausrüstung",
+        "description": "Richten Sie Ihre Kameras, Objektive, Filter und Filmtypen einmal ein und für immer ein. Frames hält alles in der gesamten App griffbereit, damit jede neue Filmrolle schnell und präzise startet."
+      },
+      "highlight3": {
+        "title": "Geolokalisierung",
+        "description": "Frames markiert automatisch den Standort jedes Frames beim Fotografieren, auch offline, und lässt Sie jederzeit korrigieren. Jede Aufnahme trägt ihren Ort, ohne zusätzlichen Aufwand."
+      },
+      "highlight4": {
+        "title": "Blende",
+        "description": "Legen Sie Ihre Blendenstufen in ganzen, halben oder Drittelstufen fest, oder erstellen Sie eine vollständig eigene Reihe. Nur die Werte, die Sie tatsächlich verwenden, werden angezeigt, für eine übersichtliche und präzise Oberfläche."
+      },
+      "highlight5": {
+        "title": "Verschlusszeit",
+        "description": "Wählen Sie Standard-Verschlusszeitenabstufungen oder definieren Sie Ihre eigene Sequenz von Grund auf. Die Steuerelemente zeigen nur, was für Ihre Kamera und Ihren Stil relevant ist, nicht mehr."
+      },
+      "highlight6": {
+        "title": "Eigene Notizen",
+        "description": "Gehen Sie über Standardfelder hinaus mit Notizen, die Sie selbst definieren. Halten Sie Lichtmessungen, Erinnerungen oder andere Details zu einer Aufnahme fest, die ein voreingestelltes Feld nicht erfassen könnte."
+      }
     }
   }
 }

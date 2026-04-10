@@ -370,6 +370,8 @@ def get_javascript_output_path(lang_code, js_type='core'):
         else:
             js_dir = PROJECT_ROOT / "lib" / "js" / lang_code / "blog"
         return js_dir / "core.js"
+    elif js_type == 'newhome':
+        return PROJECT_ROOT / "lib" / "js" / "newhome.js"
 
 
 def save_javascript(javascript, lang_code, js_type='core', minify=True):
@@ -578,11 +580,15 @@ def build_homepage(global_config, languages):
     print("Building Homepages")
     print("=" * 50)
 
-    critical_css = load_css_file('critical')
+    critical_css = load_css_file('newhome')
     if critical_css:
         print(f"✓ Loaded critical CSS ({len(critical_css)} bytes)")
     else:
         print("⚠ No critical CSS loaded - templates will use fallback")
+
+    en_locale = load_locale('en')
+    newhome_js = generate_javascript_file('js/newhome.js', 'en', en_locale, global_config)
+    save_javascript(newhome_js, 'en', 'newhome')
 
     available_changelog_languages = detect_available_changelog_languages()
     available_blog_languages = detect_available_blog_languages()
@@ -608,10 +614,6 @@ def build_homepage(global_config, languages):
 
             # Generate schemas
             generate_homepage_schemas(lang_code, global_config, locale_data)
-
-            # Generate JavaScript
-            javascript = generate_javascript_file('js/core.js', lang_code, locale_data, global_config)
-            save_javascript(javascript, lang_code, 'core')
 
         except FileNotFoundError:
             print(f"✗ Warning: {lang_code}.json not found, skipping...")

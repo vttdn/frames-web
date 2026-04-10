@@ -234,10 +234,12 @@
   },
   "pricing": {
     "heading_seo": "Priser på appen for analog fotografering",
-    "heading": "Priser",
+    "heading": "Velg din plan og begynn å fotografere smartere.",
     "schema_offer_name": "Analog notatbok",
+    "subtitle": "Inkluderer Frames for iPhone og Mac med alle funksjoner låst opp.",
     "label_period": "Månedlig",
     "label_period_yearly": "Årlig",
+    "label_period_lifetime": "Livstid",
     "label_subscription_monthly": "Månedlig abonnement",
     "label_subscription_yearly": "Årlig abonnement",
     "currency": "NOK",
@@ -261,8 +263,7 @@
         "Ubegrensede filmer",
         "Undermapper",
         "Dataeksport",
-        "Metadata innbygging",
-        "iPhone- og Mac-apper"
+        "Metadata innbygging"
       ],
       "button_text": "Prøv Gratis"
     },
@@ -496,6 +497,119 @@
       "page_suffix": "",
       "newer_posts": "Nyere artikler",
       "older_posts": "Eldre artikler"
+    }
+  },
+  "newfooter": {
+    "title1": "Utforsk",
+    "title2": "Last ned",
+    "title3": "Koble til",
+    "section1": {
+      "features": "Funksjoner",
+      "privacy": "Personvern",
+      "terms": "Vilkår",
+      "contact": "Kontakt",
+      "blog": "Blogg"
+    },
+    "section2": {
+      "framesios": "Frames iOS",
+      "framesmacos": "Frames macOS"
+    },
+    "section3": {
+      "instagram": "Instagram",
+      "threads": "Threads",
+      "twitter": "Twitter",
+      "bluesky": "Bluesky",
+      "mastodon": "Mastodon",
+      "linkedin": "Linkedin"
+    },
+    "section4": {
+      "copyright": "2026 Vincent Tantardini. Alle rettigheter reservert.",
+      "compliance": "GDPR-kompatibel"
+    }
+  },
+  "newhome": {
+    "about": {
+      "p1": "Analog fotografi forsvinner ikke. Det vender stille og bestemt tilbake.",
+      "p2": "Stadig flere fotografer velger langsomhet, intensjon og den taktile følelsen av film.",
+      "p3": "Men prosessen forblir fragmentert, spredt mellom notatbøker, filmruller og digitale filer.",
+      "p4": "Frames er der begge verdener endelig møtes, analogt og digitalt, på ett sted."
+    },
+    "section1": {
+      "eyebrow": "Filmdagbok",
+      "title": "Noter alt.",
+      "summary": "Frames er en iOS-dagbok for analog-fotografer. Registrer filmrullene dine, noter innstillingene og fang detaljene fra hvert bilde mens du fotograferer, uten å miste rytmen. Alt samles på ett sted, slik at du kan holde konsekvens, følge fremgangen din og koble notatene dine til skanningene når de kommer tilbake fra laboratoriet.",
+      "feature1": {
+        "title": "Levende arkiv",
+        "description": "Alle filmrullene, kameraene og objektivene dine er samlet i én visning. Bla gjennom arbeidet ditt visuelt eller dykk ned i detaljene fra enhver økt med letthet. Hver filmrulle blir et varig dokument du kan gå tilbake til når som helst, for å forstå vanene dine, skjerpe blikket og se hvordan arbeidet ditt utvikler seg på tvers av prosjekter."
+      },
+      "feature2": {
+        "title": "Noter mens du fotograferer",
+        "description": "Fang det som teller, bilde for bilde, uten å miste momentet. Registrer innstillinger, notater og kontekst for hvert bilde med noen få trykk. Frames holder alt strukturert uten å komme i veien, slik at oppmerksomheten din forblir på lyset, øyeblikket og motivet."
+      },
+      "feature3": {
+        "title": "Følger skanningene dine",
+        "description": "Notatene dine er ikke låst inne i appen. Eksporter notater og metadata i formater som XMP, CSV, TXT og mer, klare til å følge med skanningene dine inn i ethvert redigerings- eller arkiveringsoppsett. Enten du deler, lagrer eller behandler bildene dine, er filmdataene dine alltid innen rekkevidde."
+      }
+    },
+    "section2": {
+      "eyebrow": "EXIF-metadata",
+      "title": "Bring dem tilbake.",
+      "summary": "Frames for macOS lukker sirkelen mellom de analoge notatene dine og de digitale skanningene. Importer loggene dine, koble dem til bildene og skriv metadata direkte inn i hver fil uten å endre originalene. Alt forblir tilkoblet, og arkivet ditt fylles rulle for rulle, alltid komplett og klart for redigering eller deling.",
+      "feature1": {
+        "title": "Smidig import",
+        "description": "Dra og slipp skanningene dine inn i Frames. Knytt hvert bilde til bildet du registrerte på iOS, og hvert notat, innstilling og detalj faller på plass. Forbindelsen mellom analoge notater og digitale filer blir umiddelbar og håndgripelig. En rulle eller et helt arkiv, prosessen er alltid rask og presis."
+      },
+      "feature2": {
+        "title": "Data innebygd permanent",
+        "description": "Frames skriver opptaksdata direkte inn i hver bildefil som EXIF-metadata. Filmtype, eksponeringsinnstillinger, utstyr, geolokalisering og personlige notater reiser usynlig, men alltid til stede, inne i filen. Skanningene dine bærer hele historien fra hvert bilde, slik at fremtidige redigeringer, delinger eller arkiveringer alltid tar utgangspunkt i et komplett bilde."
+      },
+      "feature3": {
+        "title": "Lesbar overalt",
+        "description": "Når de er skrevet inn, er metadataene dine en permanent del av filen. Apple Photos, Adobe Lightroom, Google Photos, Capture One, Darkroom og de fleste bildeprogrammer kan lese dem innebygd og viser notater og innstillinger uansett hvor du åpner en fil. Ingen ekstra trinn, ingen tapt kontekst, ingen data å taste inn på nytt, uavhengig av plattform."
+      },
+      "feature4": {
+        "title": "Personvern først",
+        "description": "Frames lagrer alt lokalt uten noen skytilkobling. Notater og metadata forlater aldri enheten din med mindre du eksporterer dem selv. Ingen konto nødvendig, ingen bakgrunnssynkronisering, ingen servere. Det du tar opp, forblir helt i hendene dine, privat og sikkert av design.",
+        "privacy_note1": "Dataene dine forblir private.",
+        "privacy_note2": "Vi deler eller selger dem aldri under noen omstendighet."
+      }
+    },
+    "section3": {
+      "eyebrow": "Tilpasning",
+      "title": "På din måte.",
+      "summary": "Frames passer til måten du arbeider på. Velg hvordan filmrullene dine vises, angi blender- og lukkertidssekvenser for utstyret ditt, juster oppsettet i registreringspanelet og velg kontrollene som betyr mest for deg. Ingen fotografer jobber likt, og hver del av appen former seg rundt din praksis, ikke omvendt.",
+      "feature1": {
+        "title": "Fleksibelt oppsett",
+        "description": "Bla gjennom filmrullene dine i galleri- eller listevisning, styr detaljnivået i hver rad og velg oppsettet for registreringspanelet, enten en flytende verktøylinje eller et fullskjermspanel. Hvert visningsalternativ er der for å tjene din måte å tenke på, ikke for å påtvinge deg en struktur. Grensesnittet tilpasser seg vanene dine slik at verktøyet holder seg i bakgrunnen."
+      },
+      "feature2": {
+        "title": "Kontroller som passer deg",
+        "description": "Tilpass Frames til utstyret ditt og din måte å fotografere på. Angi lukkertids- og blendesekvenser med trinnene du faktisk bruker, slik at kontrollene forblir rene og relevante. Legg til de mest brukte snarveiene i registreringspanelet, enten det er målingsmodus, blits, eksponeringskompensasjon eller notater, og noter raskere uten kompromisser."
+      },
+      "highlight1": {
+        "title": "Kontrollinje",
+        "description": "Fest kontrollene du bruker oftest, måling, blits, eksponeringskompensasjon, notater, direkte på linjen i registreringspanelet. Mindre leting, mer fotografering."
+      },
+      "highlight2": {
+        "title": "Utstyr",
+        "description": "Sett opp kameraene, objektivene, filtrene og filmtypene dine én gang for alle. Frames holder dem tilgjengelige i hele appen slik at hver ny rulle starter raskt og nøyaktig."
+      },
+      "highlight3": {
+        "title": "Geolokalisering",
+        "description": "Frames merker automatisk plasseringen til hvert bilde mens du fotograferer, selv offline, og lar deg korrigere det når som helst. Hvert bilde bærer stedet sitt uten ekstra innsats."
+      },
+      "highlight4": {
+        "title": "Blender",
+        "description": "Angi blendetrinnene dine i hele, halve eller tredjedels stopp, eller bygg en helt egendefinert serie. Bare verdiene du faktisk bruker vises, for et rent og presist grensesnitt."
+      },
+      "highlight5": {
+        "title": "Lukkertid",
+        "description": "Velg standard lukkertidstrinn eller definer din egen sekvens fra bunnen. Kontrollene viser bare det som er relevant for kameraet og stilen din, ikke noe mer."
+      },
+      "highlight6": {
+        "title": "Egne notater",
+        "description": "Gå utover standardfelt med notater du definerer selv. Skriv ned lysmålinger, påminnelser eller andre detaljer om et bilde som et forhåndsinnstilt felt ikke ville klart å fange."
+      }
     }
   }
 }

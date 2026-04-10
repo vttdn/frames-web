@@ -31,7 +31,7 @@
     },
     "buttons": {
       "share": "Delen",
-      "download": "Download"
+      "download": "Downloaden"
     }
   },
   "share_dropdown": {
@@ -234,10 +234,12 @@
   },
   "pricing": {
     "heading_seo": "Prijzen van de app voor analoge fotografie",
-    "heading": "Prijzen",
+    "heading": "Kies je abonnement en fotografeer slimmer.",
     "schema_offer_name": "Notitieboek voor analoge fotografie",
+    "subtitle": "Inclusief Frames voor iPhone en Mac met alle functies ontgrendeld.",
     "label_period": "Per maand",
     "label_period_yearly": "Per jaar",
+    "label_period_lifetime": "Levenslang",
     "label_subscription_monthly": "Maandelijks abonnement",
     "label_subscription_yearly": "Jaarabonnement",
     "currency": "EUR",
@@ -261,8 +263,7 @@
         "Onbeperkte films",
         "Submappen",
         "Gegevensexport",
-        "Metagegevens insluiten",
-        "iPhone- en Mac-apps"
+        "Metagegevens insluiten"
       ],
       "button_text": "Gratis Proberen"
     },
@@ -496,6 +497,119 @@
     "meta": {
       "title": "Analoge fotografiemetadata registreren en insluiten met Frames",
       "description": "Leer hoe je Frames gebruikt om filmcamera-instellingen te registreren, je filmrollen te organiseren en EXIF-metadata in te sluiten in je gescande afbeeldingen op iPhone en Mac."
+    }
+  },
+  "newfooter": {
+    "title1": "Ontdekken",
+    "title2": "Downloaden",
+    "title3": "Verbinden",
+    "section1": {
+      "features": "Functies",
+      "privacy": "Privacy",
+      "terms": "Voorwaarden",
+      "contact": "Contact",
+      "blog": "Blog"
+    },
+    "section2": {
+      "framesios": "Frames iOS",
+      "framesmacos": "Frames macOS"
+    },
+    "section3": {
+      "instagram": "Instagram",
+      "threads": "Threads",
+      "twitter": "Twitter",
+      "bluesky": "Bluesky",
+      "mastodon": "Mastodon",
+      "linkedin": "Linkedin"
+    },
+    "section4": {
+      "copyright": "2026 Vincent Tantardini. Alle rechten voorbehouden.",
+      "compliance": "GDPR-conform"
+    }
+  },
+  "newhome": {
+    "about": {
+      "p1": "Analoge fotografie verdwijnt niet. Ze keert stilletjes en krachtig terug.",
+      "p2": "Steeds meer fotografen kiezen voor traagheid, intentie en het tactiele gevoel van film.",
+      "p3": "Maar het proces blijft gefragmenteerd, verspreid over notitieboeken, filmrollen en digitale bestanden.",
+      "p4": "Frames is waar beide werelden eindelijk samenkomen, analoog en digitaal, op één plek."
+    },
+    "section1": {
+      "eyebrow": "Filmdagboek",
+      "title": "Leg alles vast.",
+      "summary": "Frames is een iOS-dagboek voor analoge fotografen. Registreer je filmrollen, noteer instellingen en leg de details van elke opname vast terwijl je fotografeert, zonder je ritme te verbreken. Alles staat op één plek, zodat je consistent kunt blijven, je voortgang kunt volgen en je notities kunt koppelen aan je scans zodra ze terugkomen uit het lab.",
+      "feature1": {
+        "title": "Levend archief",
+        "description": "Al je filmrollen, camera's en objectieven staan samen in één overzicht. Blader visueel of duik moeiteloos de details van elke sessie in. Elke filmrol wordt een blijvend document dat je op elk moment kunt raadplegen, om je gewoonten te begrijpen, je blik te scherpen en te zien hoe je werk zich ontwikkelt over projecten heen."
+      },
+      "feature2": {
+        "title": "Vastleggen terwijl je schiet",
+        "description": "Leg vast wat telt, beeld voor beeld, zonder vaart te verliezen. Noteer instellingen, context en aantekeningen bij elke opname met slechts een paar tikken. Frames houdt alles gestructureerd zonder in de weg te zitten, zodat je aandacht blijft bij het licht, het moment en de compositie."
+      },
+      "feature3": {
+        "title": "Volgt je scans",
+        "description": "Je aantekeningen blijven niet opgesloten in de app. Exporteer notities en metadata in formaten zoals XMP, CSV, TXT en meer, klaar om mee te reizen met je scans naar elke bewerkings- of archiefomgeving. Of je je beelden deelt, opslaat of verwerkt, je filmdata is altijd binnen handbereik."
+      }
+    },
+    "section2": {
+      "eyebrow": "EXIF-metadata",
+      "title": "Zet het terug.",
+      "summary": "Frames voor macOS sluit de cirkel tussen je analoge aantekeningen en je digitale scans. Importeer je logboeken, koppel ze aan je afbeeldingen en schrijf metadata rechtstreeks naar elk bestand zonder de originelen te wijzigen. Alles blijft verbonden, en je archief groeit rol voor rol, altijd compleet en klaar voor bewerking of deling.",
+      "feature1": {
+        "title": "Moeiteloze import",
+        "description": "Sleep je scans eenvoudig naar Frames. Koppel elke afbeelding aan het frame dat je op iOS hebt genoteerd, en elke aantekening, instelling en detail valt op zijn plek. De verbinding tussen je analoge notities en digitale bestanden wordt direct en tastbaar. Eén rol of een volledig archief, het proces blijft snel en nauwkeurig."
+      },
+      "feature2": {
+        "title": "Data permanent ingebed",
+        "description": "Frames schrijft je opnamegegevens rechtstreeks als EXIF-metadata in elk afbeeldingsbestand. Filmtype, belichtingsinstellingen, apparatuur, geolocatie en persoonlijke notities reizen onzichtbaar maar altijd aanwezig mee binnenin het bestand. Je scans dragen het volledige verhaal van elke opname, zodat toekomstige bewerkingen, delingen of archieven altijd vertrekken vanuit een compleet beeld."
+      },
+      "feature3": {
+        "title": "Overal leesbaar",
+        "description": "Eenmaal weggeschreven, maken je metadata permanent deel uit van het bestand. Apple Photos, Adobe Lightroom, Google Photos, Capture One, Darkroom en de meeste beeldbewerkingstools kunnen ze native lezen en tonen je notities en instellingen overal waar je een bestand opent. Geen extra stappen, geen verloren context, geen gegevens opnieuw invoeren, ongeacht het platform."
+      },
+      "feature4": {
+        "title": "Privacy voorop",
+        "description": "Frames slaat alles lokaal op, zonder enige cloudverbinding. Je notities en metadata verlaten je apparaat nooit, tenzij je ze zelf exporteert. Geen account vereist, geen synchronisatie op de achtergrond, geen servers. Wat je vastlegt blijft volledig in jouw handen, privé en veilig by design.",
+        "privacy_note1": "Je gegevens blijven privé.",
+        "privacy_note2": "We delen of verkopen ze nooit, onder welke omstandigheid dan ook."
+      }
+    },
+    "section3": {
+      "eyebrow": "Personalisatie",
+      "title": "Op jouw manier.",
+      "summary": "Frames past zich aan jouw manier van werken aan. Kies hoe je filmrollen worden weergegeven, stel diafragma- en sluitertijdreeksen in voor je uitrusting, pas de indeling van het invoerpaneel aan en kies de bedieningselementen die het meest voor jou tellen. Geen twee fotografen werken hetzelfde, en elk onderdeel van de app vormt zich rondom jouw praktijk, niet andersom.",
+      "feature1": {
+        "title": "Flexibele indeling",
+        "description": "Blader door je filmrollen in galerie- of lijstweergave, bepaal hoeveel detail elke rij toont en kies de indeling van je invoerpaneel, een zwevende werkbalk of een volledig scherm. Elke weergaveoptie is er om jouw manier van denken te ondersteunen, niet om een structuur op te leggen. De interface past zich aan je gewoonten aan zodat het gereedschap op de achtergrond blijft."
+      },
+      "feature2": {
+        "title": "Bedieningselementen die bij je passen",
+        "description": "Stem Frames af op je uitrusting en manier van fotograferen. Stel sluitertijd- en diafragmareeksen in met de stappen die je echt gebruikt, zodat de bedieningselementen overzichtelijk en relevant blijven. Voeg je meestgebruikte snelkoppelingen toe aan het invoerpaneel, belichtingsmeting, flits, belichtingscorrectie of notities, en leg sneller vast zonder compromissen."
+      },
+      "highlight1": {
+        "title": "Bedieningsbalk",
+        "description": "Zet de bedieningselementen die je het vaakst gebruikt, meting, flits, belichtingscorrectie, notities, direct op de balk van het invoerpaneel. Minder zoeken, meer fotograferen."
+      },
+      "highlight2": {
+        "title": "Uitrusting",
+        "description": "Stel je camera's, objectieven, filters en filmtypen eenmalig in. Frames houdt ze beschikbaar in de hele app, zodat elke nieuwe filmrol snel en nauwkeurig van start gaat."
+      },
+      "highlight3": {
+        "title": "Geolocatie",
+        "description": "Frames voegt automatisch een locatie toe aan elk frame terwijl je fotografeert, ook offline, en laat je het op elk moment corrigeren. Elke opname draagt zijn plek zonder enige extra moeite."
+      },
+      "highlight4": {
+        "title": "Diafragma",
+        "description": "Stel je diafragmastappen in met hele, halve of derde stops, of maak een volledig eigen reeks. Alleen de waarden die je echt gebruikt, verschijnen, voor een overzichtelijke en nauwkeurige interface."
+      },
+      "highlight5": {
+        "title": "Sluitertijd",
+        "description": "Kies standaard sluitertijdstappen of definieer je eigen reeks van nul af. De bedieningselementen tonen alleen wat relevant is voor jouw camera en stijl, niets meer."
+      },
+      "highlight6": {
+        "title": "Eigen notities",
+        "description": "Ga verder dan standaardvelden met notities die je zelf definieert. Noteer lichtmetingen, herinneringen of andere details over een opname die een vooraf ingesteld veld niet zou kunnen vastleggen."
+      }
     }
   }
 }

@@ -234,10 +234,12 @@
   },
   "pricing": {
     "heading_seo": "Tarifs de l’application de photographie analogique",
-    "heading": "Tarifs",
+    "heading": "Choisissez votre offre et photographiez autrement.",
     "schema_offer_name": "Carnet photo argentique",
+    "subtitle": "Inclut Frames pour iPhone et Mac avec toutes les fonctionnalités débloquées.",
     "label_period": "Mensuel",
     "label_period_yearly": "Annuel",
+    "label_period_lifetime": "À vie",
     "label_subscription_monthly": "Abonnement mensuel",
     "label_subscription_yearly": "Abonnement annuel",
     "currency": "EUR",
@@ -261,8 +263,7 @@
         "Pellicules illimitées",
         "Sous-dossiers",
         "Export de données",
-        "Intégration de métadonnées",
-        "Applications iPhone et Mac"
+        "Intégration de métadonnées"
       ],
       "button_text": "Essai Gratuit"
     },
@@ -496,6 +497,119 @@
     "meta": {
       "title": "Comment enregistrer et intégrer les métadonnées de photographie argentique avec Frames",
       "description": "Apprenez à utiliser Frames pour enregistrer les réglages de votre appareil photo argentique, organiser vos pellicules et intégrer les métadonnées EXIF dans vos images numérisées sur iPhone et Mac."
+    }
+  },
+  "newfooter": {
+    "title1": "Explorer",
+    "title2": "Télécharger",
+    "title3": "Nous Suivre",
+    "section1": {
+      "features": "Fonctionnalités",
+      "privacy": "Confidentialité",
+      "terms": "Conditions",
+      "contact": "Contact",
+      "blog": "Blog"
+    },
+    "section2": {
+      "framesios": "Frames iOS",
+      "framesmacos": "Frames macOS"
+    },
+    "section3": {
+      "instagram": "Instagram",
+      "threads": "Threads",
+      "twitter": "Twitter",
+      "bluesky": "Bluesky",
+      "mastodon": "Mastodon",
+      "linkedin": "Linkedin"
+    },
+    "section4": {
+      "copyright": "2026 Vincent Tantardini. Tous droits réservés.",
+      "compliance": "Conforme RGPD"
+    }
+  },
+  "newhome": {
+    "about": {
+      "p1": "La photographie argentique ne disparaît pas. Elle revient discrètement et avec force.",
+      "p2": "De plus en plus de photographes choisissent la lenteur, l'intention et le toucher unique du film.",
+      "p3": "Mais la pratique reste fragmentée, dispersée entre carnets, pellicules et fichiers numériques.",
+      "p4": "Frames est là où les deux univers se rejoignent enfin, argentique et numérique, en un seul endroit."
+    },
+    "section1": {
+      "eyebrow": "Carnet de pellicule",
+      "title": "Notez tout.",
+      "summary": "Frames est un carnet iOS pour les photographes argentiques. Notez vos pellicules, saisissez vos réglages et capturez les détails de chaque prise au fil du shooting, sans perdre votre rythme. Tout est rassemblé en un seul endroit, pour rester cohérent, suivre votre progression et relier vos notes à vos scans une fois revenus du laboratoire.",
+      "feature1": {
+        "title": "Archive vivante",
+        "description": "Toutes vos pellicules, appareils et objectifs sont réunis dans une vue unique. Parcourez votre travail visuellement ou plongez dans les détails de chaque séance. Chaque pellicule devient un dossier permanent auquel vous pouvez revenir à tout moment, pour mieux comprendre vos habitudes, affiner votre regard et voir comment votre pratique évolue."
+      },
+      "feature2": {
+        "title": "Notez en shooting",
+        "description": "Capturez l'essentiel, image par image, sans perdre votre élan. Saisissez les réglages, les notes et le contexte de chaque prise en quelques gestes. Frames structure la démarche sans s'imposer, pour que votre attention reste sur la lumière, l'instant et le cadre."
+      },
+      "feature3": {
+        "title": "Suit vos scans",
+        "description": "Vos notes ne restent pas enfermées dans l'application. Exportez-les avec vos métadonnées dans des formats comme XMP, CSV, TXT et d'autres, prêts à accompagner vos scans dans n'importe quel flux de travail d'édition ou d'archivage. Que vous partagiez, stockiez ou traitiez vos images, vos données argentiques sont toujours à portée."
+      }
+    },
+    "section2": {
+      "eyebrow": "Métadonnées EXIF",
+      "title": "Retrouvez-les.",
+      "summary": "Frames pour macOS fait le lien entre vos notes argentiques et vos scans numériques. Importez vos journaux de bord, associez-les à vos images et inscrivez les métadonnées directement dans chaque fichier sans modifier les originaux. Tout reste connecté, et votre archive se complète pellicule après pellicule, toujours prête pour l'édition ou le partage.",
+      "feature1": {
+        "title": "Importation sans effort",
+        "description": "Importez vos scans dans Frames par simple glisser-déposer. Associez chaque image à la vue notée sur iOS, et chaque réglage, note et détail se place exactement où il doit être. Le lien entre vos notes argentiques et vos fichiers numériques devient immédiat et concret. Une pellicule ou toute une archive, la démarche reste rapide et précise."
+      },
+      "feature2": {
+        "title": "Données inscrites durablement",
+        "description": "Frames inscrit vos données de prise de vue directement dans chaque fichier image sous forme de métadonnées EXIF. La pellicule, les réglages d'exposition, le matériel, la géolocalisation et les notes personnelles voyagent à l'intérieur du fichier, invisibles mais toujours présents. Vos scans portent l'histoire complète de chaque prise, pour que les éditions, partages ou archivages futurs partent toujours d'un fichier complet."
+      },
+      "feature3": {
+        "title": "Lisibles partout",
+        "description": "Une fois inscrites, vos métadonnées font partie du fichier de façon permanente. Apple Photos, Adobe Lightroom, Google Photos, Capture One, Darkroom et la plupart des outils image peuvent les lire nativement, faisant apparaître vos notes et réglages partout où vous ouvrez un fichier. Aucune étape supplémentaire, aucune donnée perdue, aucune ressaisie, quelle que soit la plateforme."
+      },
+      "feature4": {
+        "title": "Confidentialité avant tout",
+        "description": "Frames stocke tout en local, sans aucune connexion au cloud. Vos notes et métadonnées ne quittent jamais votre appareil, sauf si vous les exportez vous-même. Aucun compte requis, aucune synchronisation en arrière-plan, aucun serveur. Ce que vous capturez reste entièrement entre vos mains, confidentiel et sécurisé par conception.",
+        "privacy_note1": "Vos données restent privées.",
+        "privacy_note2": "Nous ne les partageons ni ne les vendons, en aucune circonstance."
+      }
+    },
+    "section3": {
+      "eyebrow": "Personnalisation",
+      "title": "À votre façon.",
+      "summary": "Frames s'adapte à votre manière de travailler. Choisissez comment vos pellicules sont affichées, définissez les séquences d'ouverture et de vitesse d'obturation pour votre matériel, ajustez la mise en page du panneau de saisie et sélectionnez les commandes qui comptent le plus. Chaque photographe a sa propre façon de shooter, et chaque partie de l'application se façonne autour de votre pratique, pas l'inverse.",
+      "feature1": {
+        "title": "Mise en page flexible",
+        "description": "Parcourez vos pellicules en vue galerie ou liste, contrôlez le niveau de détail de chaque rangée et choisissez la disposition du panneau de saisie, barre flottante ou plein écran. Chaque option d'affichage est là pour servir votre façon de penser, sans vous imposer une structure. L'interface s'adapte à vos habitudes pour que l'outil s'efface et que votre attention reste sur la prise de vue."
+      },
+      "feature2": {
+        "title": "Des commandes qui vous ressemblent",
+        "description": "Adaptez Frames à votre matériel et à votre façon de shooter. Définissez les séquences de vitesse d'obturation et d'ouverture selon les incréments que vous utilisez réellement, pour que les commandes restent claires et pertinentes. Ajoutez vos raccourcis préférés au panneau de saisie, mesure, flash, compensation d'exposition ou notes, et notez plus vite sans compromis."
+      },
+      "highlight1": {
+        "title": "Barre de commandes",
+        "description": "Épinglez les commandes que vous utilisez le plus, mesure, flash, compensation d'exposition, notes, directement sur la barre du panneau de saisie. Moins de recherche, plus de shooting."
+      },
+      "highlight2": {
+        "title": "Matériel",
+        "description": "Configurez vos appareils, objectifs, filtres et pellicules une bonne fois pour toutes. Frames les garde à portée dans toute l'application, pour que chaque nouvelle pellicule démarre vite et avec précision."
+      },
+      "highlight3": {
+        "title": "Géolocalisation",
+        "description": "Frames géolocalise automatiquement chaque vue au moment du shooting, même hors ligne, et vous laisse corriger à tout moment. Chaque photo porte son lieu sans aucun effort supplémentaire."
+      },
+      "highlight4": {
+        "title": "Ouverture",
+        "description": "Définissez vos pas d'ouverture en incréments entiers, demi ou tiers de stops, ou créez une gamme entièrement personnalisée. Seules les valeurs que vous utilisez réellement apparaissent, pour une interface épurée et précise."
+      },
+      "highlight5": {
+        "title": "Vitesse d'obturation",
+        "description": "Choisissez des incréments de vitesse d'obturation standards ou définissez votre propre séquence de zéro. Les commandes n'affichent que ce qui est pertinent pour votre appareil et votre style, rien de plus."
+      },
+      "highlight6": {
+        "title": "Notes personnalisées",
+        "description": "Allez au-delà des champs standards avec des notes que vous définissez vous-même. Notez des lectures de lumière, des rappels ou tout autre détail sur une prise qu'un champ prédéfini ne pourrait pas saisir."
+      }
     }
   }
 }
