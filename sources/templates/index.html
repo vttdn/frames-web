@@ -314,7 +314,7 @@
 
       <div class="qa-content animated">
         {% for key, value in locale_data.qa.items() if key.startswith('question') %}
-        <details>
+        <details{% if loop.last %} class="last"{% endif %}>
             <summary>
                 <h3 class="summary-title">{{ value.question|safe }}</h3>
                 <img src="/lib/newhome/icons/chevron.down.svg" alt="" width="28" height="28">
