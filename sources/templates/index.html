@@ -466,13 +466,13 @@
         <h2 class="footer-title">{{ locale_data.newfooter.title3 }}</h2>
         <ul>
           <li class="footer-link-small">
-            <a href="https://www.instagram.com/{{ locale_data.social.instagram if locale_data.social is defined and locale_data.social.instagram else global_config.urls.social.handle.instagram }}" target="_blank" rel="noopener noreferrer">{{ locale_data.newfooter.section3.instagram }}</a>
+            <a href="{{ global_config.urls.social.instagram }}" target="_blank" rel="noopener noreferrer">{{ locale_data.newfooter.section3.instagram }}</a>
           </li>
           <li class="footer-link-small">
             <a href="{{ global_config.urls.social.threads }}" target="_blank" rel="noopener noreferrer">{{ locale_data.newfooter.section3.threads }}</a>
           </li>
           <li class="footer-link-small">
-            <a href="https://x.com/{{ locale_data.social.twitter if locale_data.social is defined and locale_data.social.twitter else global_config.urls.social.handle.twitter }}" target="_blank" rel="noopener noreferrer">{{ locale_data.newfooter.section3.twitter }}</a>
+            <a href="{{ global_config.urls.social.twitter }}" target="_blank" rel="noopener noreferrer">{{ locale_data.newfooter.section3.twitter }}</a>
           </li>
           <li class="footer-link-small">
             <a href="{{ global_config.urls.social.bluesky }}" target="_blank" rel="noopener noreferrer">{{ locale_data.newfooter.section3.bluesky }}</a>
