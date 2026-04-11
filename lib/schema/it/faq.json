@@ -16,7 +16,7 @@
           "name": "Quali metadati posso annotare per ogni scatto?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Parecchi. Per ogni fotogramma puoi registrare fotocamera, obiettivo, filtri, pellicola, numero del fotogramma, lunghezza focale, diaframma, velocità di otturazione, compensazione dell'esposizione, ISO, modalità di misurazione, programma di esposizione, distanza di messa a fuoco, flash, posizione GPS, timestamp, un'immagine di riferimento e note libere. Tutto quello che potresti voler consultare quando torni dalla sviluppatrice o quando confronti scatti realizzati in condizioni di luce diverse."
+            "text": "Parecchi. Per ogni fotogramma puoi registrare fotocamera, obiettivo, filtri, pellicola, numero del fotogramma, lunghezza focale, diaframma, velocità di otturazione, compensazione dell'esposizione, ISO, modalità di misurazione, programma di esposizione, distanza di messa a fuoco, flash, posizione GPS, timestamp, un'immagine di riferimento e note libere. Tutto quello che potresti voler consultare quando torni dalla sviluppatrice, o quando confronti scatti realizzati in condizioni di luce e configurazioni diverse."
           }
         },
         {
@@ -24,7 +24,7 @@
           "name": "Quali formati immagine sono supportati?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Su Mac, Frames scrive i metadati direttamente nei file JPEG, JXL, TIFF e DNG, così le immagini scannerizzate portano con sé il contesto completo dello scatto ovunque vadano. Per i formati proprietari non inclusi in questo elenco, puoi esportare un file sidecar XMP dall'app iPhone e posizionarlo nella stessa cartella dell'immagine. La maggior parte dei software di editing e di gestione degli archivi lo leggerà in automatico."
+            "text": "Su Mac, Frames scrive i metadati direttamente nei file JPEG, JXL, TIFF e DNG, così le immagini scannerizzate portano con sé il contesto completo dello scatto ovunque vadano. Per i formati proprietari non inclusi in questo elenco, puoi esportare un file sidecar XMP dall'app iPhone e posizionarlo nella stessa cartella dell'immagine. La maggior parte dei software di editing e gestione degli archivi lo rileverà in automatico."
           }
         },
         {
@@ -32,7 +32,7 @@
           "name": "Quali incrementi di esposizione sono supportati?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Frames include di serie incrementi a stop interi, mezzi stop e terzi di stop. Si imposta un valore iniziale, uno finale e un incremento, e l'app mostra solo i valori effettivamente supportati dalla tua fotocamera o dal tuo obiettivo. L'interfaccia resta così pulita e pertinente alla tua attrezzatura. Se il tuo equipaggiamento utilizza valori non standard, puoi anche definire sequenze personalizzate per adattarle a qualsiasi gamma di velocità di otturazione o diaframma."
+            "text": "Frames include di serie incrementi a stop interi, mezzi stop e terzi di stop. Si imposta un valore iniziale, uno finale e un incremento, e l'app mostra solo i valori effettivamente supportati dalla tua fotocamera o dal tuo obiettivo. L'interfaccia resta così pulita e pertinente alla tua attrezzatura. Se il tuo equipaggiamento usa valori non standard, puoi anche definire sequenze personalizzate per coprire qualsiasi gamma di velocità di otturazione o diaframma."
           }
         },
         {
@@ -40,7 +40,7 @@
           "name": "Posso annotare il treppiede o altri accessori?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Sì. Il campo note libere di ogni fotogramma è aperto, e puoi usarlo per documentare qualsiasi attrezzatura o dettaglio rilevante per il tuo flusso di lavoro: modello di treppiede, scatto remoto, modificatori di luce o altro. Non è un campo strutturato dedicato, ma ti dà la flessibilità di annotare esattamente quello che serve, senza essere vincolato a categorie fisse."
+            "text": "Sì. Il campo note libere di ogni fotogramma è aperto: puoi usarlo per documentare qualsiasi attrezzatura o dettaglio rilevante per il tuo flusso di lavoro, dal modello di treppiede allo scatto remoto, dai modificatori di luce a qualsiasi altra cosa. Non è un campo strutturato dedicato, ma ti dà la flessibilità di annotare esattamente quello che serve, senza essere vincolato a categorie fisse."
           }
         },
         {
@@ -48,7 +48,7 @@
           "name": "Come sincronizzo i dati tra iPhone e Mac?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Esportando un file .frames. Usa il menu di esportazione su iPhone, poi condividilo sul Mac tramite AirDrop, Messaggi o qualsiasi altro metodo. Su Mac puoi importarlo direttamente e riprendere da dove eri rimasto. La sincronizzazione automatica via cloud non è prevista per scelta. I tuoi dati restano sui tuoi dispositivi, sotto il tuo controllo, senza passare da nessun server."
+            "text": "Esportando un file .frames. Usa il menu di esportazione su iPhone, poi condividilo sul Mac tramite AirDrop, Messaggi o qualsiasi altro metodo. Su Mac puoi importarlo direttamente e riprendere da dove eri rimasto. La sincronizzazione automatica via cloud non è prevista, per scelta. I tuoi dati restano sui tuoi dispositivi, sotto il tuo controllo, senza passare da nessun server."
           }
         },
         {
@@ -56,7 +56,7 @@
           "name": "Frames funziona offline?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Del tutto. Tutti i dati sono conservati localmente sul dispositivo, così puoi annotare gli scatti, sfogliare il tuo archivio e gestire l'elenco dell'attrezzatura senza connessione. Anche la geolocalizzazione GPS funziona offline e viene salvata automaticamente con ogni fotogramma registrato. L'unica volta in cui serve una connessione internet è per verificare la presenza di aggiornamenti dell'app."
+            "text": "Del tutto. Tutti i dati sono conservati localmente sul dispositivo, così puoi annotare gli scatti, sfogliare il tuo archivio e gestire l'elenco dell'attrezzatura senza connessione. Anche la geolocalizzazione GPS funziona offline e viene salvata automaticamente con ogni fotogramma registrato. L'unica occasione in cui serve una connessione internet è per verificare la disponibilità di aggiornamenti dell'app."
           }
         },
         {
@@ -64,7 +64,7 @@
           "name": "Cosa è previsto per i prossimi aggiornamenti?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "La roadmap prende forma direttamente dalla community. Segnalazioni di bug, richieste di funzionalità e feedback in generale contribuiscono a definire le priorità e ciò che viene sviluppato. I prossimi aggiornamenti si concentreranno sull'espansione degli strumenti di flusso di lavoro, sul miglioramento dell'esperienza su iPhone e Mac, e sull'aggiunta di funzionalità richieste dai fotografi. Se hai qualcosa di specifico in mente, scrivere è il modo migliore per assicurarsi che venga preso in considerazione."
+            "text": "La roadmap prende forma direttamente dalla community. Segnalazioni di bug, richieste di funzionalità e feedback in generale contribuiscono a stabilire le priorità e a definire cosa viene sviluppato. I prossimi aggiornamenti si concentreranno sull'espansione degli strumenti di flusso di lavoro, sul miglioramento dell'esperienza su iPhone e Mac, e sull'aggiunta di funzionalità richieste dai fotografi. Se hai qualcosa di specifico in mente, scrivere è il modo migliore per assicurarsi che venga preso in considerazione."
           }
         },
         {
@@ -72,7 +72,7 @@
           "name": "Come posso mettermi in contatto?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Tramite i profili social linkati in fondo a questa pagina, oppure direttamente via email. Domande, segnalazioni di bug e idee per nuove funzionalità sono tutte benvenute. Frames si costruisce anche con il contributo di chi la pellicola la usa davvero, quindi sentire dagli utenti è genuinamente utile."
+            "text": "Tramite i profili social collegati in fondo a questa pagina, oppure direttamente via email. Domande, segnalazioni di bug e idee per nuove funzionalità sono tutte benvenute. Frames si costruisce anche con il contributo di chi la pellicola la usa davvero, quindi sentire dagli utenti è genuinamente utile."
           }
         }
       ]

@@ -273,36 +273,36 @@
     "heading_seo": "Từ các nhiếp ảnh gia phim",
     "heading": "Câu Hỏi & Trả Lời",
     "question1": {
-      "question": "Tôi có thể ghi lại siêu dữ liệu gì?",
-      "answer": "Frames cho phép bạn ghi lại thông tin chi tiết cho mỗi bức ảnh, bao gồm máy ảnh, ống kính, bộ lọc, số khung hình, tiêu cự, khẩu độ, tốc độ màn trập, ISO, chế độ đo sáng, loại phim, đèn flash, vị trí GPS, dấu thời gian và ghi chú tùy chỉnh, đảm bảo bạn không bao giờ mất dấu các chi tiết quan trọng trong nhiếp ảnh analog."
+      "question": "Tôi có thể ghi lại những thông tin gì cho mỗi khung hình?",
+      "answer": "Khá nhiều. Với mỗi khung hình, bạn có thể ghi lại máy ảnh, ống kính, bộ lọc, loại phim, số khung, tiêu cự, khẩu độ, tốc độ màn trập, bù phơi sáng, ISO, chế độ đo sáng, chương trình phơi sáng, khoảng lấy nét, đèn flash, vị trí GPS, dấu thời gian, ảnh tham chiếu và ghi chú tùy chỉnh. Tất cả những gì bạn cần để đối chiếu khi xem lại cuộn phim đã tráng, hoặc so sánh các khung hình chụp trong điều kiện ánh sáng và thiết lập khác nhau."
     },
     "question2": {
       "question": "Những định dạng ảnh nào được hỗ trợ?",
-      "answer": "Frames hỗ trợ định dạng JPEG, TIFF và DNG, cho phép bạn nhúng siêu dữ liệu đã ghi trực tiếp vào ảnh analog đã quét để sắp xếp và quy trình làm việc liền mạch trên các thiết bị của bạn."
+      "answer": "Trên Mac, Frames ghi metadata trực tiếp vào file JPEG, JXL, TIFF và DNG, để ảnh scan của bạn mang theo đầy đủ thông tin chụp dù được lưu ở đâu. Với các định dạng độc quyền không có trong danh sách đó, bạn có thể xuất file XMP sidecar từ ứng dụng iPhone và đặt cùng thư mục với ảnh. Hầu hết phần mềm chỉnh sửa và quản lý ảnh sẽ tự động nhận file này."
     },
     "question3": {
-      "question": "Frames có trên Android hoặc Windows không?",
-      "answer": "Frames hiện có sẵn cho iPhone và macOS. Phiên bản cho Android và Windows được lên kế hoạch cho năm 2026, và trong thời gian chờ đợi, bạn có thể chia sẻ và quản lý dữ liệu của mình thông qua xuất tệp .frames."
+      "question": "Những bước phơi sáng nào được hỗ trợ?",
+      "answer": "Frames hỗ trợ bước nguyên, nửa bước và một phần ba bước ngay từ đầu. Bạn đặt giá trị bắt đầu, giá trị kết thúc và bước nhảy, ứng dụng sẽ chỉ hiển thị các giá trị mà máy ảnh hoặc ống kính của bạn thực sự hỗ trợ. Giao diện ghi lại nhờ vậy gọn gàng và phù hợp với thiết bị của bạn. Nếu thiết bị dùng các giá trị không chuẩn, bạn cũng có thể tự định nghĩa chuỗi tùy chỉnh để khớp với bất kỳ dải tốc độ màn trập hoặc khẩu độ nào."
     },
     "question4": {
-      "question": "Tốc độ màn trập và khẩu độ nào được hỗ trợ?",
-      "answer": "Frames cung cấp chuỗi khẩu độ (từ f/1.0 đến f/64) và tốc độ màn trập (từ 1/8000s đến 60s) được xác định trước bao phủ hầu hết ống kính và máy ảnh, và bạn cũng có thể định nghĩa chuỗi tùy chỉnh cho thiết bị của mình, làm cho nó tương thích với bất kỳ giá trị tốc độ màn trập hoặc khẩu độ nào."
+      "question": "Tôi có thể ghi lại chân máy hoặc phụ kiện khác không?",
+      "answer": "Có. Trường ghi chú tùy chỉnh trên mỗi khung hình là tự do, bạn có thể ghi lại bất kỳ thiết bị hoặc chi tiết nào cần thiết cho quy trình của mình: model chân máy, dây bấm mềm, bộ điều chỉnh ánh sáng, hoặc bất cứ thứ gì khác. Đây không phải trường có cấu trúc cố định, nhưng nó cho bạn sự linh hoạt để ghi lại đúng những gì cần mà không bị giới hạn bởi một danh mục định sẵn."
     },
     "question5": {
-      "question": "Tôi có thể ghi lại chân máy hoặc phụ kiện không?",
-      "answer": "Có, Frames cho phép bạn ghi lại chân máy và nguồn sáng, chẳng hạn như đèn flash gắn trên máy ảnh, đèn flash vòng, hộp ánh sáng mềm, tấm phản quang hoặc bộ điều chỉnh ánh sáng. Còn có trường ghi chú bổ sung nơi bạn có thể thêm bất kỳ chi tiết tùy chỉnh nào bạn muốn."
+      "question": "Làm thế nào để đồng bộ dữ liệu giữa iPhone và Mac?",
+      "answer": "Bằng cách xuất file .frames. Dùng menu xuất trên iPhone, rồi chia sẻ sang Mac qua AirDrop, Messages hoặc bất kỳ cách nào bạn muốn. Trên Mac, bạn có thể import trực tiếp và tiếp tục từ đúng chỗ đang dở. Không có đồng bộ đám mây tự động, và đó là chủ ý. Dữ liệu của bạn ở lại trên thiết bị của bạn, dưới sự kiểm soát của bạn, không đi qua bất kỳ máy chủ nào."
     },
     "question6": {
-      "question": "Tôi có thể đồng bộ dữ liệu giữa iPhone và Mac không?",
-      "answer": "Có, bạn có thể chuyển dữ liệu nhiếp ảnh phim của mình một cách liền mạch giữa iPhone và Mac bằng cách sử dụng xuất tệp .frames. Chỉ cần xuất các cuộn phim của bạn từ một thiết bị và nhập chúng vào thiết bị khác. Mặc dù đồng bộ hóa đám mây tự động hiện không khả dụng để duy trì quyền riêng tư và quyền sở hữu dữ liệu của bạn, định dạng .frames giúp đồng bộ hóa thủ công nhanh chóng và đơn giản."
+      "question": "Frames có hoạt động được khi không có mạng không?",
+      "answer": "Hoàn toàn. Tất cả dữ liệu được lưu cục bộ trên thiết bị, bạn có thể ghi lại khung hình, duyệt kho lưu trữ và quản lý danh sách thiết bị mà không cần kết nối. Gắn thẻ vị trí GPS cũng hoạt động ngoại tuyến và tự động lưu với mỗi khung hình bạn ghi. Kết nối internet chỉ cần thiết khi kiểm tra cập nhật ứng dụng."
     },
     "question7": {
-      "question": "Frames có hoạt động ngoại tuyến không?",
-      "answer": "Hoàn toàn có. Frames được thiết kế để hoạt động hoàn toàn ngoại tuyến, khiến nó hoàn hảo cho việc chụp ảnh ở những địa điểm xa xôi không có kết nối internet. Tất cả dữ liệu của bạn được lưu trữ cục bộ trên thiết bị của bạn, vì vậy bạn có thể ghi chép ảnh, quản lý kho lưu trữ và tổ chức thiết bị ở bất kỳ đâu. Gắn thẻ vị trí GPS cũng hoạt động ngoại tuyến và sẽ được lưu tự động khi bạn ghi lại từng khung hình. Bạn chỉ cần internet khi kiểm tra cập nhật ứng dụng."
+      "question": "Những tính năng nào sẽ có trong các bản cập nhật tới?",
+      "answer": "Lộ trình phát triển được định hình trực tiếp bởi cộng đồng. Báo lỗi, đề xuất tính năng và phản hồi chung đều ảnh hưởng đến những gì được ưu tiên xây dựng tiếp theo. Các bản cập nhật sắp tới sẽ tập trung vào mở rộng công cụ quy trình làm việc, cải thiện trải nghiệm trên iPhone và Mac, và bổ sung các tính năng mà nhiếp ảnh gia đã đề xuất. Nếu bạn có điều gì cụ thể muốn góp ý, liên hệ trực tiếp là cách tốt nhất để ý kiến đó được xem xét."
     },
     "question8": {
-      "question": "Kế hoạch cho các bản cập nhật tương lai là gì?",
-      "answer": "Các bản cập nhật trong tương lai sẽ mở rộng các tính năng quy trình làm việc, cải thiện tích hợp giữa các thiết bị và thêm các công cụ mới được yêu cầu bởi cộng đồng. Điều này sẽ làm cho việc ghi chép nhiếp ảnh analog linh hoạt và mạnh mẽ hơn nữa."
+      "question": "Tôi có thể liên hệ như thế nào?",
+      "answer": "Qua các tài khoản mạng xã hội ở cuối trang này, hoặc trực tiếp qua email. Câu hỏi, báo lỗi và ý tưởng tính năng đều được chào đón. Frames được xây dựng với sự đóng góp từ những người thực sự chụp phim, nên phản hồi từ người dùng thực sự rất có ích."
     }
   },
   "contact": {

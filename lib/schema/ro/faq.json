@@ -13,10 +13,10 @@
       "mainEntity": [
         {
           "@type": "Question",
-          "name": "Ce metadate pot înregistra?",
+          "name": "Ce metadate pot nota per cadru?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Frames îți permite să notezi informații detaliate pentru fiecare fotografie, inclusiv cameră, obiectiv, filtre, număr cadru, distanță focală, diafragmă, viteză obturator, ISO, mod măsurare, tip film, bliț, locație GPS, marcaje temporale și notițe personalizate, asigurându-te că nu pierzi niciodată detalii importante ale fotografiei analogice."
+            "text": "Destul de multe. Pentru fiecare cadru poți nota camera, obiectivul, filtrele, tipul de film, numărul cadrului, distanța focală, diafragma, viteza de obturare, compensarea expunerii, ISO, modul de măsurare, programul de expunere, distanța de focalizare, blițul, locația GPS, marcajele temporale, o imagine de referință și notițe libere. Tot ce ai vrea să consulți când îți revezi rolele developate sau când compari cadre fotografiate în condiții și configurații diferite."
           }
         },
         {
@@ -24,39 +24,31 @@
           "name": "Ce formate de imagine sunt suportate?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Frames suportă formatele JPEG, TIFF și DNG, permițându-ți să încorporezi metadatele înregistrate direct în fotografiile analogice scanate pentru organizare și flux de lucru fără probleme pe toate dispozitivele tale."
+            "text": "Pe Mac, Frames scrie metadatele direct în fișierele JPEG, JXL, TIFF și DNG, astfel încât imaginile tale scanate păstrează contextul complet al fotografierii oriunde merg. Pentru formatele proprietare care nu se află pe această listă, poți exporta un fișier sidecar XMP din aplicația pentru iPhone și îl plasezi în același folder cu imaginea. Majoritatea programelor de editare și gestionare a imaginilor îl va prelua automat."
           }
         },
         {
           "@type": "Question",
-          "name": "Este Frames pe Android sau Windows?",
+          "name": "Ce trepte de expunere sunt suportate?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Frames este disponibil momentan pentru iPhone și macOS. Versiunile pentru Android și Windows sunt planificate pentru 2026, iar între timp poți partaja și gestiona datele prin exporturi de fișiere .frames."
+            "text": "Frames acoperă trepte întregi, de jumătate și de o treime, din start. Setezi o valoare de început, una de sfârșit și un pas, iar aplicația afișează doar valorile pe care camera sau obiectivul tău le suportă efectiv. Interfața rămâne astfel curată și relevantă pentru echipamentul tău. Dacă aparatura ta folosește valori non-standard, poți defini și secvențe personalizate manual, pentru orice interval de viteză de obturare sau diafragmă."
           }
         },
         {
           "@type": "Question",
-          "name": "Ce viteze obturator și diafragme sunt suportate?",
+          "name": "Pot nota trepiedul sau alte accesorii?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Frames oferă secvențe predefinite de diafragmă (de la f/1.0 la f/64) și viteză obturator (de la 1/8000s la 60s) care acoperă majoritatea obiectivelor și camerelor, și poți defini și secvențe personalizate pentru echipamentul tău, făcându-l compatibil cu orice valori de viteză obturator sau diafragmă."
+            "text": "Da. Câmpul de notițe libere de pe fiecare cadru este deschis, astfel încât poți documenta orice echipament sau detaliu relevant pentru fluxul tău de lucru: modelul trepiedului, declanșatorul la distanță, modificatorii de lumină sau orice altceva. Nu este un câmp structurat dedicat, dar îți oferă flexibilitatea de a nota exact ce ai nevoie, fără a fi limitat la o listă fixă de categorii."
           }
         },
         {
           "@type": "Question",
-          "name": "Pot înregistra trepiedele sau accesoriile?",
+          "name": "Cum sincronizez datele între iPhone și Mac?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Da, Frames îți permite să înregistrezi trepiedele și sursele de lumină, cum ar fi blițurile montate pe cameră, blițurile inelare, softbox-urile, reflectoarele sau modificatorii de lumină. Există și un câmp suplimentar de notițe unde poți adăuga orice detalii personalizate dorești."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Pot sincroniza datele între iPhone și Mac?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Da, poți transfera fără probleme datele tale de fotografie pe film între iPhone și Mac folosind exporturi de fișiere .frames. Exportă pur și simplu filmele tale de pe un dispozitiv și importă-le pe altul. Deși sincronizarea automată în cloud nu este disponibilă momentan pentru a-ți menține confidențialitatea și proprietatea datelor, formatul .frames face sincronizarea manuală rapidă și simplă."
+            "text": "Prin exportul unui fișier .frames. Folosești meniul de export pe iPhone, apoi îl trimiți pe Mac prin AirDrop, Mesaje sau orice metodă preferi. Pe Mac îl poți importa direct și continui de unde ai rămas. Nu există sincronizare automată în cloud, prin design. Datele rămân pe propriile tale dispozitive, sub controlul tău, fără să treacă prin niciun server."
           }
         },
         {
@@ -64,15 +56,23 @@
           "name": "Frames funcționează offline?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Absolut. Frames este conceput să funcționeze complet offline, fiind perfect pentru fotografiere în locații îndepărtate fără conectivitate la internet. Toate datele tale sunt stocate local pe dispozitivul tău, astfel încât poți înregistra fotografii, gestiona arhiva și organiza echipamentul oriunde. Etichetarea locației GPS funcționează și offline și va fi salvată automat când înregistrezi fiecare cadru. Ai nevoie de internet doar când verifici actualizări ale aplicației."
+            "text": "Complet. Toate datele sunt stocate local pe dispozitivul tău, astfel că poți nota cadre, răsfoi arhiva și gestiona lista de echipamente fără conexiune. Marcarea locației GPS funcționează și offline și se salvează automat cu fiecare cadru înregistrat. Singura situație în care ai nevoie de internet este când verifici actualizările aplicației."
           }
         },
         {
           "@type": "Question",
-          "name": "Care sunt planurile pentru actualizări viitoare?",
+          "name": "Ce urmează în actualizările viitoare?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Actualizările viitoare vor extinde caracteristicile fluxului de lucru, vor îmbunătăți integrarea între dispozitive și vor adăuga noi instrumente solicitate de comunitate. Acest lucru va face înregistrarea fotografiei analogice și mai flexibilă și mai puternică."
+            "text": "Foaia de parcurs este conturată direct de comunitate. Rapoartele de erori, solicitările de funcții și feedback-ul general influențează ce se prioritizează și se construiește în continuare. Actualizările viitoare se vor concentra pe extinderea instrumentelor de lucru, îmbunătățirea experienței pe iPhone și Mac și adăugarea funcțiilor cerute de fotografi. Dacă ai ceva anume în minte, cel mai bun mod de a te asigura că este luat în considerare este să iei legătura."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Cum pot lua legătura?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Prin conturile de social media legate în josul acestei pagini, sau direct pe email. Întrebările, rapoartele de erori și ideile de funcții sunt binevenite. Frames este construit cu contribuția celor care fotografiază pe film, așa că feedback-ul utilizatorilor este cu adevărat util."
           }
         }
       ]

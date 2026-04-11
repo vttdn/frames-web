@@ -13,10 +13,10 @@
       "mainEntity": [
         {
           "@type": "Question",
-          "name": "Jakie metadane mogę rejestrować?",
+          "name": "Jakie metadane mogę zapisywać dla każdej klatki?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Frames pozwala zapisywać szczegółowe informacje dla każdego zdjęcia, w tym aparat, obiektyw, filtry, numer klatki, ogniskową, przysłonę, czas naświetlania, ISO, tryb pomiaru, rodzaj kliszy, flesz, lokalizację GPS, znaczniki czasu i własne notatki, zapewniając, że nigdy nie stracisz ważnych szczegółów fotografii analogowej."
+            "text": "Całkiem sporo. Dla każdej klatki możesz rejestrować aparat, obiektyw, filtry, rodzaj kliszy, numer klatki, ogniskową, przysłonę, czas naświetlania, kompensację ekspozycji, ISO, tryb pomiaru, program ekspozycji, odległość ostrzenia, flesz, lokalizację GPS, znaczniki czasu, zdjęcie referencyjne i własne notatki. Wszystko, co przyda się podczas przeglądania wywołanych rolek albo porównywania ujęć w różnych warunkach i konfiguracjach."
           }
         },
         {
@@ -24,39 +24,31 @@
           "name": "Jakie formaty obrazów są obsługiwane?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Frames obsługuje formaty JPEG, TIFF i DNG, umożliwiając bezpośrednie osadzanie zarejestrowanych metadanych w zeskanowanych zdjęciach analogowych dla płynnej organizacji i przepływu pracy na wszystkich urządzeniach."
+            "text": "Na Macu Frames zapisuje metadane bezpośrednio w plikach JPEG, JXL, TIFF i DNG, dzięki czemu zeskanowane zdjęcia zachowują pełny kontekst niezależnie od miejsca przechowywania. Dla formatów proprietary spoza tej listy możesz wyeksportować plik sidecar XMP z aplikacji na iPhone i umieścić go w tym samym folderze co zdjęcie. Większość programów do edycji i zarządzania archiwum rozpozna go automatycznie."
           }
         },
         {
           "@type": "Question",
-          "name": "Czy Frames jest dostępny na Androida lub Windows?",
+          "name": "Jakie kroki ekspozycji są obsługiwane?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Frames jest obecnie dostępny dla iPhone i macOS. Wersje dla Androida i Windows są planowane na 2026 rok, a w międzyczasie możesz udostępniać i zarządzać danymi poprzez eksport plików .frames."
+            "text": "Frames obsługuje kroki pełne, półstopniowe i jedną trzecią działki. Ustawiasz wartość początkową, końcową i krok, a aplikacja wyświetla tylko te wartości, które rzeczywiście obsługuje Twój aparat lub obiektyw. Dzięki temu interfejs pozostaje przejrzysty i dopasowany do Twojego sprzętu. Jeśli Twój sprzęt używa niestandardowych wartości, możesz ręcznie zdefiniować własne sekwencje dla dowolnego zakresu czasów naświetlania lub przysłon."
           }
         },
         {
           "@type": "Question",
-          "name": "Jakie czasy naświetlania i przysłony są obsługiwane?",
+          "name": "Czy mogę rejestrować statyw lub inne akcesoria?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Frames zapewnia wstępnie zdefiniowane sekwencje przysłony (f/1.0 do f/64) i czasu naświetlania (1/8000s do 60s) pokrywające większość obiektywów i aparatów. Możesz również definiować własne sekwencje dla swojego konkretnego sprzętu, zapewniając kompatybilność z dowolnymi niestandardowymi wartościami przysłony lub czasu naświetlania."
+            "text": "Tak. Pole notatek dla każdej klatki jest otwarte, więc możesz wpisać dowolny sprzęt lub szczegół istotny dla Twojego workflow: model statywu, wyzwalacz, modyfikatory światła, cokolwiek. To nie jest dedykowane pole strukturalne, ale daje elastyczność i pozwala zapisać dokładnie to, czego potrzebujesz, bez ograniczeń narzuconych przez stałe kategorie."
           }
         },
         {
           "@type": "Question",
-          "name": "Czy mogę rejestrować statywy lub akcesoria?",
+          "name": "Jak synchronizować dane między iPhone a Makiem?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Tak, Frames pozwala rejestrować statywy i źródła światła, takie jak lampy błyskowe, lampy pierścieniowe, softboxy, reflektory lub modyfikatory światła. Istnieje również dodatkowe pole notatek, w którym możesz dodać dowolne własne szczegóły."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Czy mogę synchronizować swoje dane między iPhone a Mac?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Tak, możesz bezproblemowo przesyłać swoje dane z fotografii filmowej między iPhone a Mac za pomocą eksportu plików .frames. Po prostu wyeksportuj swoje rolki z jednego urządzenia i zaimportuj je na drugim. Chociaż automatyczna synchronizacja w chmurze nie jest obecnie dostępna, aby chronić Twoją prywatność i własność danych, format .frames sprawia, że ręczna synchronizacja jest szybka i prosta."
+            "text": "Przez eksport pliku .frames. Użyj menu eksportu na iPhone, a następnie wyślij plik na Maka przez AirDrop, Wiadomości lub dowolną inną metodę. Na Macu możesz go zaimportować od razu i kontynuować pracę dokładnie tam, gdzie ją przerwałeś. Automatyczna synchronizacja w chmurze nie jest wbudowana, i to z wyboru. Twoje dane zostają na Twoich urządzeniach, pod Twoją kontrolą, bez przechodzenia przez jakikolwiek serwer."
           }
         },
         {
@@ -64,15 +56,23 @@
           "name": "Czy Frames działa offline?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Oczywiście. Frames został zaprojektowany do pracy całkowicie offline, co czyni go idealnym do fotografowania w odległych lokalizacjach bez łączności internetowej. Wszystkie Twoje dane są przechowywane lokalnie na urządzeniu, więc możesz logować zdjęcia, zarządzać archiwum i organizować sprzęt gdziekolwiek jesteś. Tagowanie lokalizacji GPS również działa offline i zostanie zapisane automatycznie podczas rejestrowania każdej klatki. Internet jest potrzebny tylko podczas sprawdzania aktualizacji aplikacji."
+            "text": "Całkowicie. Wszystkie dane są przechowywane lokalnie na urządzeniu, więc możesz zapisywać klatki, przeglądać archiwum i zarządzać listą sprzętu bez połączenia z siecią. Oznaczanie lokalizacji GPS również działa offline i zapisuje się automatycznie z każdą zarejestrowaną klatką. Połączenie z internetem jest potrzebne wyłącznie przy sprawdzaniu aktualizacji aplikacji."
           }
         },
         {
           "@type": "Question",
-          "name": "Jakie są plany dotyczące przyszłych aktualizacji?",
+          "name": "Co pojawi się w przyszłych aktualizacjach?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Przyszłe aktualizacje rozszerzą funkcje przepływu pracy, poprawią integrację między urządzeniami i dodadzą nowe narzędzia zgłaszane przez społeczność. To uczyni rejestrowanie fotografii analogowej jeszcze bardziej elastycznym i potężnym."
+            "text": "Plan rozwoju kształtuje bezpośrednio społeczność. Zgłoszenia błędów, prośby o funkcje i ogólny feedback wpływają na to, co jest priorytetyzowane i budowane. Kolejne aktualizacje skupią się na rozbudowie narzędzi workflow, ulepszeniu doświadczenia na iPhone i Macu oraz dodaniu funkcji, o które prosili fotografowie. Jeśli masz coś konkretnego na myśli, najlepiej po prostu napisać."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Jak się skontaktować?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Przez profile społecznościowe podlinkowane na dole tej strony albo bezpośrednio mailowo. Pytania, zgłoszenia błędów i pomysły na nowe funkcje są mile widziane. Frames powstaje z udziałem osób, które rzeczywiście fotografują na kliszy, więc kontakt od użytkowników jest naprawdę przydatny."
           }
         }
       ]

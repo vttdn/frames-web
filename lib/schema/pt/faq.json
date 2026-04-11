@@ -13,10 +13,10 @@
       "mainEntity": [
         {
           "@type": "Question",
-          "name": "Que metadados posso registar?",
+          "name": "Que metadados posso registar por disparo?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "O Frames permite registar informação detalhada para cada exposição, incluindo câmara, objetiva, filtros, número do fotograma, distância focal, abertura, velocidade do obturador, ISO, modo de medição, tipo de película, flash, localização GPS, timestamps e notas personalizadas, garantindo que nunca perde detalhes importantes da sua fotografia analógica."
+            "text": "Bastante coisa. Para cada fotograma podes registar câmara, objetiva, filtros, tipo de película, número do fotograma, distância focal, abertura, velocidade do obturador, compensação de exposição, ISO, modo de medição, programa de exposição, distância de foco, flash, localização GPS, marcas temporais, uma imagem de referência e notas personalizadas. Tudo o que precisas de consultar quando revelar os teus rolos ou comparar disparos em diferentes condições de luz e configurações."
           }
         },
         {
@@ -24,39 +24,31 @@
           "name": "Que formatos de imagem são suportados?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "O Frames suporta formatos JPEG, TIFF e DNG, permitindo incorporar os seus metadados registados diretamente em fotografias analógicas digitalizadas para organização e fluxo de trabalho perfeitos em todos os seus dispositivos."
+            "text": "No Mac, o Frames escreve os metadados diretamente em ficheiros JPEG, JXL, TIFF e DNG, para que as tuas digitalizações transportem o contexto completo de cada disparo onde quer que vão. Para formatos proprietários fora dessa lista, podes exportar um ficheiro sidecar XMP a partir da app para iPhone e colocá-lo na mesma pasta que a imagem. A maioria dos programas de edição e gestão de imagem reconhece-o automaticamente."
           }
         },
         {
           "@type": "Question",
-          "name": "O Frames está disponível para Android ou Windows?",
+          "name": "Que incrementos de exposição são suportados?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "O Frames está atualmente disponível para iPhone e macOS. Versões para Android e Windows estão planeadas para 2026 e, entretanto, pode partilhar e gerir os seus dados através de exportações de ficheiros .frames."
+            "text": "O Frames inclui incrementos de stop inteiro, meio stop e terço de stop de série. Defines um valor inicial, um valor final e um incremento, e a app mostra apenas os valores que a tua câmara ou objetiva realmente suporta. Isto mantém o painel de registo limpo e adequado ao teu equipamento. Se o teu equipamento usa valores não standard, podes também definir sequências personalizadas manualmente para corresponder a qualquer intervalo de velocidade do obturador ou abertura."
           }
         },
         {
           "@type": "Question",
-          "name": "Que velocidades do obturador e aberturas são suportadas?",
+          "name": "Posso registar tripés ou outros acessórios?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "O Frames fornece sequências predefinidas de abertura (de f/1.0 a f/64) e velocidade do obturador (de 1/8000s a 60s) que cobrem a maioria das objetivas e câmaras. Pode também definir sequências personalizadas para o seu equipamento específico, garantindo compatibilidade com qualquer valor personalizado de abertura ou velocidade do obturador."
+            "text": "Sim. O campo de notas personalizadas em cada fotograma é livre, por isso podes documentar qualquer equipamento ou detalhe que seja relevante para o teu fluxo de trabalho: modelo de tripé, disparador remoto, modificadores de luz ou qualquer outra coisa. Não é um campo estruturado dedicado, mas dá-te a flexibilidade de registar exatamente o que precisas sem estares limitado a um conjunto fixo de categorias."
           }
         },
         {
           "@type": "Question",
-          "name": "Posso registar tripés ou acessórios?",
+          "name": "Como sincronizo os dados entre iPhone e Mac?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Sim, o Frames permite registar tripés e fontes de iluminação como flashes de sapata, flashes anulares, softboxes, refletores ou modificadores de luz. Existe também um campo de notas extra onde pode adicionar qualquer detalhe personalizado que desejar."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Posso sincronizar meus dados entre iPhone e Mac?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Sim, você pode transferir perfeitamente seus dados de fotografia analógica entre iPhone e Mac usando exportações de arquivo .frames. Simplesmente exporte seus rolos de um dispositivo e importe-os em outro. Embora a sincronização automática na nuvem não esteja disponível no momento para manter sua privacidade e propriedade dos dados, o formato .frames torna a sincronização manual rápida e direta."
+            "text": "Por exportação de um ficheiro .frames. Usa o menu de exportação no iPhone e partilha-o para o Mac via AirDrop, Mensagens ou qualquer método que prefiras. No Mac, podes importá-lo diretamente e continuar exatamente onde ficaste. Não existe sincronização automática na nuvem, por decisão. Os teus dados ficam nos teus próprios dispositivos, sob o teu controlo, sem passar por qualquer servidor."
           }
         },
         {
@@ -64,15 +56,23 @@
           "name": "O Frames funciona offline?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Com certeza. O Frames foi projetado para funcionar completamente offline, tornando-o perfeito para fotografar em locais remotos sem conectividade à internet. Todos os seus dados são armazenados localmente no seu dispositivo, para que você possa registrar fotos, gerenciar seu arquivo e organizar seu equipamento em qualquer lugar. A marcação de localização GPS também funciona offline e será salva automaticamente quando você registrar cada quadro. Você só precisa de internet ao verificar atualizações do aplicativo."
+            "text": "Completamente. Todos os dados são guardados localmente no dispositivo, por isso podes registar disparos, consultar o teu arquivo e gerir a tua lista de equipamento sem ligação à internet. O registo de localização GPS também funciona offline e é guardado automaticamente com cada fotograma que anotares. A única altura em que é necessária ligação é para verificar atualizações da app."
           }
         },
         {
           "@type": "Question",
-          "name": "Quais são os planos para futuras atualizações?",
+          "name": "O que está previsto para futuras atualizações?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "As futuras atualizações expandirão as funcionalidades relacionadas ao processo de trabalho, melhorarão a integração entre dispositivos e adicionarão novas ferramentas solicitadas pela comunidade. Isso tornará o registo de fotografia analógica ainda mais flexível e poderoso."
+            "text": "O roteiro é definido diretamente pela comunidade. Relatórios de erros, pedidos de funcionalidades e feedback geral influenciam o que é priorizado e desenvolvido a seguir. As próximas atualizações vão focar-se em expandir as ferramentas de fluxo de trabalho, melhorar a experiência no iPhone e no Mac, e adicionar funcionalidades que os fotógrafos têm pedido. Se tens algo específico em mente, entrar em contacto é a melhor forma de garantir que é considerado."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Como posso entrar em contacto?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Através das contas nas redes sociais indicadas no rodapé desta página, ou diretamente por email. Dúvidas, relatórios de erros e ideias de funcionalidades são bem-vindos. O Frames é desenvolvido com contributos de pessoas que fotografam em película, por isso ouvir quem usa a app é genuinamente útil."
           }
         }
       ]

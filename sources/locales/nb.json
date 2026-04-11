@@ -273,36 +273,36 @@
     "heading_seo": "Fra filmfotografer",
     "heading": "Spørsmål & Svar",
     "question1": {
-      "question": "Hvilke metadata kan jeg registrere?",
-      "answer": "Frames lar deg logge detaljert informasjon for hvert bilde, inkludert kamera, objektiv, filtre, rammenummer, brennvidde, blender, lukkertid, ISO, målemodus, filmtype, blits, GPS-posisjon, tidsstempler og egendefinerte notater, slik at du aldri mister viktige analoge fotografidetaljer."
+      "question": "Hvilke metadata kan jeg loggføre per bilde?",
+      "answer": "Ganske mye. For hvert bilde kan du registrere kamera, objektiv, filtre, filmtype, rammenummer, brennvidde, blender, lukkertid, eksponeringskompensasjon, ISO, målemodus, eksponeringsprogram, fokusavstand, blits, GPS-posisjon, tidsstempler, et referansebilde og egne notater. Alt du vil ha tilgang til når du ser gjennom fremkalte ruller eller sammenligner bilder på tvers av ulike lysforhold og oppsett."
     },
     "question2": {
       "question": "Hvilke bildeformater støttes?",
-      "answer": "Frames støtter JPEG, TIFF og DNG-formater, slik at du kan bygge inn registrerte metadata direkte i skannede analoge bilder for sømløs organisering og arbeidsflyt på tvers av enhetene dine."
+      "answer": "På Mac skriver Frames metadata direkte inn i JPEG-, JXL-, TIFF- og DNG-filer, slik at skannede bilder bærer med seg all opptaksinformasjon uansett hvor de havner. For proprietære formater som ikke er på den listen, kan du eksportere en XMP-sidecarfil fra iPhone-appen og legge den i samme mappe som bildet. De fleste redigerings- og DAM-programmer plukker den opp automatisk."
     },
     "question3": {
-      "question": "Finnes Frames på Android eller Windows?",
-      "answer": "Frames er for øyeblikket tilgjengelig for iPhone og macOS. Versjoner for Android og Windows er planlagt for 2026, og i mellomtiden kan du dele og administrere dataene dine via .frames-fileksporter."
+      "question": "Hvilke eksponeringstrinn støttes?",
+      "answer": "Frames dekker hele, halve og tredjedels eksponeringstrinn fra start. Du angir en startverdi, en sluttverdi og et trinn, og appen viser bare verdiene ditt konkrete kamera eller objektiv faktisk støtter. Det holder loggegrensesnittet ryddig og tilpasset utstyret ditt. Bruker utstyret ditt ikke-standardverdier, kan du også definere egne sekvenser manuelt for å matche en hvilken som helst lukkertid eller blenderrekke."
     },
     "question4": {
-      "question": "Hvilke lukkertider og blendere støttes?",
-      "answer": "Frames tilbyr forhåndsdefinerte sekvenser for blenderåpning (f/1.0 til f/64) og lukkertid (1/8000s til 60s) som dekker de fleste objektiver og kameraer. Du kan også definere egendefinerte sekvenser for ditt spesifikke utstyr, noe som garanterer kompatibilitet med alle egendefinerte blender- eller lukkertidverdier."
+      "question": "Kan jeg loggføre stativ eller annet tilbehør?",
+      "answer": "Ja. Notatfeltet på hvert bilde er åpent, så du kan dokumentere hvilket utstyr eller hvilke detaljer som er viktige for arbeidsflyten din: stativmodell, fjernutløser, lysmodifikatorer eller noe annet. Det er ikke et dedikert strukturert felt, men det gir deg friheten til å fange nøyaktig det du trenger uten å være låst til et fast sett med kategorier."
     },
     "question5": {
-      "question": "Kan jeg logge stativer eller tilbehør?",
-      "answer": "Ja, Frames lar deg registrere stativer og lyskilder som blitsenheter, ringblitser, softbokser, reflektorer eller lysmodifikatorer. Det er også et ekstra notatfelt hvor du kan legge til egendefinerte detaljer du ønsker."
+      "question": "Hvordan synkroniserer jeg data mellom iPhone og Mac?",
+      "answer": "Ved å eksportere en .frames-fil. Bruk eksportmenyen på iPhone, og del den til Mac-en via AirDrop, Meldinger eller en annen metode du foretrekker. På Mac kan du importere den direkte og fortsette akkurat der du slapp. Det er ingen automatisk skysynkronisering, og det er et bevisst valg. Dataene dine ligger på dine egne enheter, under din kontroll, uten å passere noen server."
     },
     "question6": {
-      "question": "Kan jeg synkronisere dataene mine mellom iPhone og Mac?",
-      "answer": "Ja, du kan sømløst overføre filmfotografidataene dine mellom iPhone og Mac ved hjelp av .frames-fileksport. Eksporter ganske enkelt rullene dine fra én enhet og importer dem på en annen. Selv om automatisk skysynkronisering ikke er tilgjengelig for øyeblikket for å opprettholde personvernet og dataeierskapet ditt, gjør .frames-formatet manuell synkronisering rask og enkel."
+      "question": "Fungerer Frames uten internett?",
+      "answer": "Helt og holdent. All data lagres lokalt på enheten, så du kan loggføre bilder, bla gjennom arkivet og administrere utstyrslisten uten nettilkobling. GPS-posisjonsmerking fungerer også offline og lagres automatisk for hvert bilde du registrerer. Den eneste gangen du trenger internett er for å se etter appoppdateringer."
     },
     "question7": {
-      "question": "Fungerer Frames frakoblet?",
-      "answer": "Absolutt. Frames er designet for å fungere fullstendig frakoblet, noe som gjør den perfekt for fotografering på avsidesliggende steder uten internettilkobling. Alle dataene dine lagres lokalt på enheten din, slik at du kan logge bilder, administrere arkivet ditt og organisere utstyret ditt hvor som helst. GPS-posisjonsmerking fungerer også frakoblet og blir lagret automatisk når du registrerer hver ramme. Du trenger kun internett når du sjekker for appoppdateringer."
+      "question": "Hva kommer i fremtidige oppdateringer?",
+      "answer": "Veikart formes direkte av brukerne. Feilrapporter, funksjonsønsker og generelle tilbakemeldinger påvirker hva som prioriteres og bygges videre. Kommende oppdateringer vil fokusere på å utvide arbeidsflytverktøy, forbedre opplevelsen på tvers av iPhone og Mac, og legge til funksjoner fotografer har etterspurt. Har du noe konkret i tankene, er det å ta kontakt den beste måten å sikre at det blir vurdert."
     },
     "question8": {
-      "question": "Hva er planene for fremtidige oppdateringer?",
-      "answer": "Fremtidige oppdateringer vil utvide arbeidsflytefunksjoner, forbedre integrasjon på tvers av enheter og legge til nye verktøy etterspurt av samfunnet. Dette vil gjøre analog fotografilogging enda mer fleksibel og kraftig."
+      "question": "Hvordan kan jeg ta kontakt?",
+      "answer": "Via sosiale kontoer lenket nederst på siden, eller direkte på e-post. Spørsmål, feilrapporter og funksjonsideer mottas gjerne. Frames utvikles med innspill fra folk som faktisk fotograferer på film, så tilbakemeldinger fra brukere er genuint nyttige."
     }
   },
   "contact": {

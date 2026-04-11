@@ -13,10 +13,10 @@
       "mainEntity": [
         {
           "@type": "Question",
-          "name": "Welke metagegevens kan ik vastleggen?",
+          "name": "Welke metadata kan ik per opname noteren?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Frames laat je gedetailleerde informatie vastleggen voor elke opname, inclusief camera, lens, filters, framenummer, brandpuntsafstand, diafragma, sluitertijd, ISO, belichtingsmeting, filmsoort, flitser, GPS-locatie, tijdstempels en eigen notities, zodat je nooit belangrijke details van je analoge fotografie kwijtraakt."
+            "text": "Behoorlijk veel. Per beeldje leg je vast: camera, lens, filters, filmsoort, framenummer, brandpuntsafstand, diafragma, sluitertijd, belichtingscorrectie, ISO, meetmodus, belichtingsprogramma, scherpstelafstand, flitser, GPS-locatie, tijdstempels, een referentieafbeelding en eigen notities. Alles wat je later wilt terugvinden bij het beoordelen van je ontwikkelde rolletjes, of bij het vergelijken van opnames in verschillende lichtomstandigheden."
           }
         },
         {
@@ -24,39 +24,31 @@
           "name": "Welke afbeeldingsformaten worden ondersteund?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Frames ondersteunt JPEG, TIFF en DNG formaten, waardoor je je geregistreerde metagegevens direct kunt toevoegen aan gescande analoge foto's voor naadloze organisatie en workflow op al je apparaten."
+            "text": "Op Mac schrijft Frames metadata rechtstreeks in JPEG-, JXL-, TIFF- en DNG-bestanden, zodat je gescande afbeeldingen de volledige opname-informatie meenemen, waar ze ook naartoe gaan. Voor formaten die daar niet bij staan kun je vanuit de iPhone-app een XMP-sidecarbestand exporteren en dat in dezelfde map als je afbeelding plaatsen. De meeste bewerkings- en DAM-software leest het automatisch uit."
           }
         },
         {
           "@type": "Question",
-          "name": "Is Frames beschikbaar voor Android of Windows?",
+          "name": "Welke belichtingsstops worden ondersteund?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Frames is momenteel beschikbaar voor iPhone en macOS. Versies voor Android en Windows zijn gepland voor 2026, en in de tussentijd kun je je gegevens delen en beheren via .frames bestandsexporten."
+            "text": "Frames ondersteunt standaard hele, halve en derde stops. Je stelt een begin- en eindwaarde in, kiest de stapgrootte, en de app toont alleen de waarden die jouw camera of lens daadwerkelijk gebruikt. Zo blijft het invoerscherm overzichtelijk en afgestemd op je uitrusting. Gebruikt je apparatuur niet-standaard waarden, dan kun je ook handmatig eigen reeksen definiëren voor elke sluitertijd of diafragmarange."
           }
         },
         {
           "@type": "Question",
-          "name": "Welke sluitertijden en diafragma's worden ondersteund?",
+          "name": "Kan ik een statief of andere accessoires vastleggen?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Frames biedt vooraf gedefinieerde reeksen voor diafragma (f/1.0 tot f/64) en sluitertijd (1/8000s tot 60s) die de meeste lenzen en camera's dekken. Je kunt ook aangepaste reeksen definiëren voor je specifieke apparatuur, waardoor compatibiliteit met elke aangepaste diafragma- of sluitertijdwaarde gegarandeerd is."
+            "text": "Ja. Het vrije notitieveld bij elk beeldje is open, zodat je alles kunt documenteren wat relevant is voor je workflow: statief, afstandsbediening, lichtmodificatoren, of wat dan ook. Het is geen apart gestructureerd veld, maar het geeft je de ruimte om precies vast te leggen wat je nodig hebt, zonder vastgezet te zitten aan een vaste lijst categorieën."
           }
         },
         {
           "@type": "Question",
-          "name": "Kan ik statieven of accessoires vastleggen?",
+          "name": "Hoe synchroniseer ik gegevens tussen iPhone en Mac?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Ja, Frames laat je statieven en lichtbronnen vastleggen zoals flitsers, ringflitsers, softboxen, reflectoren of lichtmodificatoren. Er is ook een extra notitieveld waar je elk gewenst detail kunt toevoegen."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Kan ik mijn gegevens synchroniseren tussen iPhone en Mac?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Ja, je kunt je filmfotografiegegevens naadloos overzetten tussen iPhone en Mac met behulp van .frames-bestandsexporten. Exporteer simpelweg je rolletjes van het ene apparaat en importeer ze op het andere. Hoewel automatische cloudsynchronisatie momenteel niet beschikbaar is om je privacy en gegevenseigendom te behouden, maakt het .frames-formaat handmatige synchronisatie snel en eenvoudig."
+            "text": "Via een .frames-bestand. Gebruik het exportmenu op de iPhone en deel het naar je Mac via AirDrop, Berichten, of een andere methode die je prettig vindt. Op de Mac importeer je het direct en ga je verder waar je gebleven was. Er is bewust geen automatische cloudsync. Je gegevens blijven op je eigen apparaten, onder je eigen beheer, zonder dat er iets via een server loopt."
           }
         },
         {
@@ -64,15 +56,23 @@
           "name": "Werkt Frames offline?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Absoluut. Frames is ontworpen om volledig offline te werken, waardoor het perfect is voor fotograferen op afgelegen locaties zonder internetverbinding. Al je gegevens worden lokaal op je apparaat opgeslagen, zodat je overal opnames kunt loggen, je archief kunt beheren en je apparatuur kunt organiseren. GPS-locatietagging werkt ook offline en wordt automatisch opgeslagen wanneer je elk frame vastlegt. Je hebt alleen internet nodig bij het controleren op app-updates."
+            "text": "Volledig. Alle gegevens worden lokaal op je apparaat opgeslagen, zodat je opnames kunt noteren, je archief kunt bekijken en je uitrusting kunt beheren zonder verbinding. GPS-locatie vastleggen werkt ook offline en wordt automatisch opgeslagen bij elk beeldje dat je noteert. Een internetverbinding is alleen nodig om te controleren op app-updates."
           }
         },
         {
           "@type": "Question",
-          "name": "Wat zijn de plannen voor toekomstige updates?",
+          "name": "Wat staat er op de planning voor toekomstige updates?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Toekomstige updates zullen workflowfuncties uitbreiden, integratie tussen apparaten verbeteren en nieuwe tools toevoegen die door de gemeenschap zijn gevraagd. Dit zal analoge fotografieregistratie nog flexibeler en krachtiger maken."
+            "text": "De roadmap wordt direct bepaald door de community. Bugrapporten, functieverzoeken en algemene feedback bepalen wat er als volgende opgepakt wordt. Aankomende updates richten zich op uitgebreidere workflow-tools, een betere ervaring op zowel iPhone als Mac, en functies waar fotografen al langer om vragen. Heb je iets specifieks in gedachten, dan is contact opnemen de beste manier om ervoor te zorgen dat het serieus overwogen wordt."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Hoe kan ik contact opnemen?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Via de sociale accounts onderaan deze pagina, of rechtstreeks per e-mail. Vragen, bugrapporten en ideeën voor nieuwe functies zijn allemaal welkom. Frames wordt gebouwd met input van mensen die echt op film fotograferen, dus feedback van gebruikers is oprecht waardevol."
           }
         }
       ]

@@ -13,10 +13,10 @@
       "mainEntity": [
         {
           "@type": "Question",
-          "name": "Vilka metadata kan jag registrera?",
+          "name": "Vilka metadata kan jag logga per bild?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Frames låter dig logga detaljerad information för varje bild, inklusive kamera, objektiv, filter, bildnummer, brännvidd, bländare, slutartid, ISO, mätläge, filmtyp, blixt, GPS-plats, tidsstämplar och egna anteckningar, så du aldrig förlorar viktiga analogfotografidetaljer."
+            "text": "Ganska mycket. För varje bildruta kan du registrera kamera, objektiv, filter, filmtyp, bildnummer, brännvidd, bländare, slutartid, exponeringskompensation, ISO, mätläge, exponeringsprogram, fokusavstånd, blixt, GPS-position, tidsstämplar, en referensbild och egna anteckningar. Allt du kan tänkas vilja ha till hands när du går igenom framkallade rullar eller jämför bilder tagna under olika ljusförhållanden."
           }
         },
         {
@@ -24,39 +24,31 @@
           "name": "Vilka bildformat stöds?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Frames stöder JPEG, TIFF och DNG-format, vilket låter dig bädda in dina registrerade metadata direkt i skannade analoga foton för sömlös organisation och arbetsflöde mellan dina enheter."
+            "text": "På Mac skriver Frames metadata direkt in i JPEG-, JXL-, TIFF- och DNG-filer, så att dina skanningar bär med sig hela fotograferingskontexten vart de än tar vägen. För proprietära format som inte finns på den listan kan du exportera en XMP-sidfil från iPhone-appen och lägga den i samma mapp som bildfilen. De flesta redigerings- och DAM-program hämtar den automatiskt."
           }
         },
         {
           "@type": "Question",
-          "name": "Finns Frames på Android eller Windows?",
+          "name": "Vilka exponeringssteg stöds?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Frames är för närvarande tillgänglig för iPhone och macOS. Versioner för Android och Windows planeras till 2026, och under tiden kan du dela och hantera din data via .frames-filexport."
+            "text": "Frames täcker hela, halva och tredjedels steg utan vidare inställning. Du anger ett startvärde, ett slutvärde och ett steg, och appen visar bara de värden din specifika kamera eller ditt objektiv faktiskt stöder. Det håller loggningsgränssnittet rent och relevant för din utrustning. Använder du utrustning med icke-standardvärden kan du även definiera egna sekvenser manuellt för att matcha valfritt slutartids- eller bländarområde."
           }
         },
         {
           "@type": "Question",
-          "name": "Vilka slutartider och bländare stöds?",
+          "name": "Kan jag logga stativ eller annan utrustning?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Frames tillhandahåller fördefinierade sekvenser för bländare (f/1.0 till f/64) och slutartid (1/8000s till 60s) som täcker de flesta objektiv och kameror. Du kan också definiera anpassade sekvenser för din specifika utrustning, vilket garanterar kompatibilitet med alla anpassade bländar- eller slutartidsvärden."
+            "text": "Ja. Anteckningsfältet på varje bildruta är öppet, så du kan dokumentera vilken utrustning eller detalj som helst som spelar roll i ditt arbetsflöde: stativmodell, fjärrutlösare, ljusmodifierare eller annat. Det är inget dedikerat strukturerat fält, men det ger dig friheten att fånga exakt det du behöver utan att vara låst till en fast uppsättning kategorier."
           }
         },
         {
           "@type": "Question",
-          "name": "Kan jag logga stativ eller tillbehör?",
+          "name": "Hur synkroniserar jag data mellan iPhone och Mac?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Ja, Frames låter dig registrera stativ och ljuskällor som blixtar, ringblixtar, softboxar, reflektorer eller ljusmodifierare. Det finns även ett extra anteckningsfält där du kan lägga till egna detaljer du vill."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Kan jag synkronisera mina data mellan iPhone och Mac?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Ja, du kan sömlöst överföra dina filmfotograferingsdata mellan iPhone och Mac med hjälp av .frames-filexporter. Exportera helt enkelt dina rullar från en enhet och importera dem på en annan. Även om automatisk molnsynkronisering inte är tillgänglig för närvarande för att behålla din integritet och dataäganderätt, gör .frames-formatet manuell synkronisering snabb och enkel."
+            "text": "Genom att exportera en .frames-fil. Använd exportmenyn på iPhone och dela den till din Mac via AirDrop, Meddelanden eller valfri metod. På Mac importerar du den direkt och fortsätter precis där du slutade. Det finns ingen automatisk molnsynkronisering, och det är ett medvetet val. Din data stannar på dina egna enheter, under din kontroll, utan att passera någon server."
           }
         },
         {
@@ -64,15 +56,23 @@
           "name": "Fungerar Frames offline?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Absolut. Frames är utformat för att fungera helt offline, vilket gör den perfekt för fotografering på avlägsna platser utan internetanslutning. All din data lagras lokalt på din enhet, så du kan logga bilder, hantera ditt arkiv och organisera din utrustning var som helst. GPS-platstaggar fungerar också offline och sparas automatiskt när du spelar in varje bildruta. Du behöver endast internet när du kontrollerar appuppdateringar."
+            "text": "Helt och hållet. All data lagras lokalt på din enhet, så du kan logga bilder, bläddra i ditt arkiv och hantera din utrustningslista utan uppkoppling. GPS-platstaggar fungerar offline också och sparas automatiskt med varje bildruta du registrerar. Internetanslutning behövs bara för att söka efter appuppdateringar."
           }
         },
         {
           "@type": "Question",
-          "name": "Vad finns det för planer för framtida uppdateringar?",
+          "name": "Vad kommer i framtida uppdateringar?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Framtida uppdateringar kommer att utöka arbetsflödesfunktioner, förbättra integration mellan enheter och lägga till nya verktyg som efterfrågats av gemenskapen. Detta kommer att göra analogfotografiloggning ännu mer flexibel och kraftfull."
+            "text": "Färdplanen formas direkt av gemenskapen. Felrapporter, funktionsönskemål och allmän feedback styr vad som prioriteras och byggs härnäst. Kommande uppdateringar fokuserar på att utöka arbetsflödesverktygen, förbättra upplevelsen på iPhone och Mac, och lägga till funktioner som fotografer efterfrågat. Har du något specifikt i åtanke är det bäst att höra av sig, så att det verkligen tas med i beräkningen."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Hur kommer jag i kontakt?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Via de sociala konton som länkas längst ner på sidan, eller direkt via e-post. Frågor, felrapporter och funktionsidéer är alltid välkomna. Frames byggs med input från folk som faktiskt fotograferar på film, så det är genuint användbart att höra från användare."
           }
         }
       ]

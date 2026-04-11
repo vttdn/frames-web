@@ -273,36 +273,36 @@
     "heading_seo": "Film fotoğrafçılarından",
     "heading": "Soru & Cevap",
     "question1": {
-      "question": "Hangi metadata'yı kaydedebilirim?",
-      "answer": "Frames, her çekim için kamera, lens, filtreler, kare numarası, odak uzaklığı, diyafram, enstantane hızı, ISO, ölçüm modu, film stoğu, flaş, GPS konumu, zaman damgaları ve özel notlar dahil detaylı bilgi kaydetmenize olanak tanır, böylece önemli analog fotoğrafçılık detaylarını asla kaybetmezsiniz."
+      "question": "Her kare için hangi bilgileri not edebilirim?",
+      "answer": "Oldukça fazlası. Her kare için kamera, lens, filtreler, film stoğu, kare numarası, odak uzaklığı, diyafram, enstantane hızı, pozlama telafisi, ISO, ölçüm modu, pozlama programı, netleme mesafesi, flaş, GPS konumu, zaman damgaları, referans görüntü ve özel notlar ekleyebilirsiniz. Banyodan dönen rulolarınızı incelerken ya da farklı ışık koşullarındaki çekimlerinizi karşılaştırırken başvurmak isteyeceğiniz her şey."
     },
     "question2": {
       "question": "Hangi görüntü formatları destekleniyor?",
-      "answer": "Frames, JPEG, TIFF ve DNG formatlarını destekler, kaydedilen metadata'nızı doğrudan taranan analog fotoğraflara gömerek cihazlarınız arasında sorunsuz organizasyon ve iş akışı sağlar."
+      "answer": "Mac'te Frames, metadata'yı doğrudan JPEG, JXL, TIFF ve DNG dosyalarına yazar; taranan görüntüleriniz çekim bilgilerini nereye taşırsanız taşıyın yanlarında taşır. Bu listede yer almayan tescilli formatlar için iPhone uygulamasından XMP sidecar dosyası dışa aktarabilir ve görüntünüzle aynı klasöre yerleştirebilirsiniz. Çoğu düzenleme ve DAM yazılımı bu dosyayı otomatik olarak tanıyacaktır."
     },
     "question3": {
-      "question": "Frames Android veya Windows'ta var mı?",
-      "answer": "Frames şu anda iPhone ve macOS için mevcuttur. Android ve Windows sürümleri 2026 için planlanmıştır ve bu arada .frames dosya dışa aktarma yoluyla verilerinizi paylaşabilir ve yönetebilirsiniz."
+      "question": "Hangi pozlama adımları destekleniyor?",
+      "answer": "Frames, tam adım, yarım adım ve üçte bir adım seçeneklerini hazır olarak sunar. Bir başlangıç değeri, bir bitiş değeri ve bir adım aralığı belirlersiniz; uygulama yalnızca o kamera veya lensde gerçekten karşılığı olan değerleri gösterir. Bu sayede not arayüzü sade kalır ve kullandığınız ekipmanla doğrudan ilgili olur. Standart dışı değerler kullanan ekipmanlarınız için özel diziler de elle tanımlayabilirsiniz."
     },
     "question4": {
-      "question": "Hangi enstantane hızları ve diyaframlar destekleniyor?",
-      "answer": "Frames, çoğu lensi ve kamerayı kapsayan önceden tanımlanmış diyafram (f/1.0'dan f/64'e) ve enstantane hızı (1/8000s'den 60s'ye) dizileri sunar ve ekipmanınız için özel diziler de tanımlayabilirsiniz, bu da onu herhangi bir enstantane hızı veya diyafram değeriyle uyumlu hale getirir."
+      "question": "Tripod veya diğer aksesuarları not edebilir miyim?",
+      "answer": "Evet. Her karedeki özel notlar alanı serbest biçimlidir; iş akışınız için önemli olan her türlü ekipman ya da ayrıntıyı buraya yazabilirsiniz: tripod modeli, uzaktan deklanşör, ışık düzenleyiciler veya aklınıza gelen başka her şey. Yapılandırılmış bir alan değil, ama sizi sabit bir kategori seti içine hapsetmeden tam olarak neye ihtiyacınız varsa onu kaydetme esnekliği sağlıyor."
     },
     "question5": {
-      "question": "Tripodları veya aksesuarları kaydedebilir miyim?",
-      "answer": "Evet, Frames tripodları ve ışık kaynaklarını, kamera üstü flaşları, halka flaşları, softbox'ları, reflektörleri veya ışık modifikatörlerini kaydetmenize izin verir. İstediğiniz özel detayları ekleyebileceğiniz ekstra bir not alanı da vardır."
+      "question": "iPhone ve Mac arasında verileri nasıl aktarırım?",
+      "answer": ".frames dosyası dışa aktararak. iPhone'daki dışa aktarma menüsünü kullanın, ardından AirDrop, Mesajlar veya tercih ettiğiniz herhangi bir yöntemle Mac'inize gönderin. Mac'te doğrudan içe aktarabilir ve kaldığınız yerden devam edebilirsiniz. Tasarım gereği otomatik bulut senkronizasyonu yoktur. Verileriniz hiçbir sunucudan geçmeden kendi cihazlarınızda, sizin kontrolünüzde kalır."
     },
     "question6": {
-      "question": "Verilerimi iPhone ve Mac arasında senkronize edebilir miyim?",
-      "answer": "Evet, .frames dosya dışa aktarımlarını kullanarak film fotoğrafçılığı verilerinizi iPhone ve Mac arasında sorunsuz bir şekilde aktarabilirsiniz. Bir cihazdan rulolarınızı dışa aktarın ve diğerine içe aktarın. Gizliliğinizi ve veri sahipliğinizi korumak için otomatik bulut senkronizasyonu şu anda mevcut olmasa da, .frames formatı manuel senkronizasyonu hızlı ve basit hale getirir."
+      "question": "Frames çevrimdışı çalışıyor mu?",
+      "answer": "Tamamen. Tüm veriler cihazınızda yerel olarak saklanır; bağlantı olmadan da çekim notları ekleyebilir, arşivinize göz atabilir ve ekipman listenizi yönetebilirsiniz. GPS konum etiketleme de çevrimdışı çalışır ve kaydettiğiniz her kareyle birlikte otomatik olarak kaydedilir. İnternet bağlantısına yalnızca uygulama güncellemelerini kontrol ederken ihtiyacınız olur."
     },
     "question7": {
-      "question": "Frames çevrimdışı çalışıyor mu?",
-      "answer": "Kesinlikle. Frames tamamen çevrimdışı çalışacak şekilde tasarlanmıştır, bu da onu internet bağlantısı olmayan uzak konumlarda çekim yapmak için mükemmel kılar. Tüm verileriniz cihazınızda yerel olarak saklanır, böylece her yerde çekim kaydedebilir, arşivinizi yönetebilir ve ekipmanınızı organize edebilirsiniz. GPS konum etiketleme de çevrimdışı çalışır ve her kareyi kaydettiğinizde otomatik olarak kaydedilir. İnternete yalnızca uygulama güncellemelerini kontrol ederken ihtiyacınız vardır."
+      "question": "Gelecek güncellemelerde neler geliyor?",
+      "answer": "Yol haritası doğrudan topluluk tarafından şekilleniyor. Hata bildirimleri, özellik istekleri ve genel geri bildirimler, nelerin önceliklendirilip geliştirileceğini belirliyor. Yaklaşan güncellemeler iş akışı araçlarını genişletmeye, iPhone ve Mac deneyimini iyileştirmeye ve fotoğrafçıların talep ettiği özellikleri eklemeye odaklanacak. Aklınızda belirli bir şey varsa, iletişime geçmek değerlendirmeye alınması için en doğrudan yol."
     },
     "question8": {
-      "question": "Gelecekteki güncellemeler için ne gibi planlar var?",
-      "answer": "Gelecekteki güncellemeler iş akışı özelliklerini genişletecek, cihazlar arası entegrasyonu geliştirecek ve topluluk tarafından talep edilen yeni araçlar ekleyecek. Bu, analog fotoğrafçılık kaydını daha da esnek ve güçlü hale getirecek."
+      "question": "Nasıl iletişime geçebilirim?",
+      "answer": "Bu sayfanın alt kısmındaki sosyal medya hesapları üzerinden veya doğrudan e-posta yoluyla. Sorular, hata bildirimleri ve özellik fikirleri hepsi memnuniyetle karşılanıyor. Frames gerçekten film çeken insanların katkısıyla geliştiriliyor, bu yüzden kullanıcılardan gelen geri bildirimler gerçekten işe yarıyor."
     }
   },
   "contact": {
