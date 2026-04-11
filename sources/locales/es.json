@@ -273,36 +273,36 @@
     "heading_seo": "De fotógrafos de película",
     "heading": "Preguntas & Respuestas",
     "question1": {
-      "question": "¿Qué metadatos puedo registrar?",
-      "answer": "Frames te permite registrar información detallada de cada toma, incluyendo cámara, objetivo, filtros, número de fotograma, distancia focal, apertura, velocidad de obturación, ISO, modo de medición, película, flash, ubicación GPS, marcas de tiempo y notas personalizadas, asegurando que nunca pierdas detalles importantes de tu fotografía analógica."
+      "question": "¿Qué metadatos puedo anotar por disparo?",
+      "answer": "Bastante. Por cada fotograma puedes registrar cámara, objetivo, filtros, película, número de fotograma, distancia focal, apertura, velocidad de obturación, compensación de exposición, ISO, modo de medición, programa de exposición, distancia de enfoque, flash, ubicación GPS, marcas de tiempo, una imagen de referencia y notas personalizadas. Todo lo que querrías consultar al revisar tus rollos revelados o comparar tomas entre distintas condiciones de luz y configuraciones."
     },
     "question2": {
       "question": "¿Qué formatos de imagen están soportados?",
-      "answer": "Frames soporta formatos JPEG, TIFF y DNG, permitiéndote integrar tus metadatos registrados directamente en fotos analógicas escaneadas para una organización fluida y un flujo de trabajo sin interrupciones en todos tus dispositivos."
+      "answer": "En Mac, Frames escribe los metadatos directamente en archivos JPEG, JXL, TIFF y DNG, de modo que tus imágenes escaneadas llevan consigo el contexto completo de la sesión dondequiera que vayan. Para formatos propietarios que no estén en esa lista, puedes exportar un archivo sidecar XMP desde la app para iPhone y colocarlo en la misma carpeta que tu imagen. La mayoría de programas de edición y gestión de archivos lo leerán automáticamente."
     },
     "question3": {
-      "question": "¿Está Frames disponible en Android o Windows?",
-      "answer": "Frames está actualmente disponible para iPhone y macOS. Las versiones para Android y Windows están previstas para 2026, y mientras tanto, puedes compartir y gestionar tus datos mediante exportaciones de archivos .frames."
+      "question": "¿Qué incrementos de exposición están soportados?",
+      "answer": "Frames incluye de serie incrementos de paso entero, medio paso y tercio de paso. Defines un valor inicial, un valor final y el incremento, y la app muestra únicamente los valores que tu cámara u objetivo admite realmente. Así la interfaz de registro se mantiene limpia y relevante para tu equipo. Si tu material usa valores no estándar, también puedes definir secuencias personalizadas a mano para ajustarte a cualquier rango de velocidad de obturación o apertura."
     },
     "question4": {
-      "question": "¿Qué velocidades de obturación y aperturas están soportadas?",
-      "answer": "Frames proporciona secuencias predefinidas de apertura (f/1.0 a f/64) y velocidad de obturación (1/8000s a 60s) que cubren la mayoría de objetivos y cámaras. También puedes definir secuencias personalizadas para tu equipo específico, garantizando compatibilidad con cualquier valor personalizado de apertura o velocidad de obturación."
+      "question": "¿Puedo anotar el trípode u otros accesorios?",
+      "answer": "Sí. El campo de notas personalizadas de cada fotograma es libre, así que puedes documentar cualquier material o detalle que importe a tu flujo de trabajo: modelo de trípode, disparador remoto, modificadores de luz o lo que necesites. No es un campo estructurado específico, pero te da la flexibilidad de capturar exactamente lo que quieres sin quedar atrapado en un conjunto fijo de categorías."
     },
     "question5": {
-      "question": "¿Puedo registrar trípodes o accesorios?",
-      "answer": "Sí, Frames te permite registrar trípodes y fuentes de iluminación como flashes de zapata, flashes anulares, cajas de luz, reflectores o modificadores de luz. También hay un campo de notas adicional donde puedes añadir cualquier detalle personalizado que desees."
+      "question": "¿Cómo sincronizo los datos entre iPhone y Mac?",
+      "answer": "Exportando un archivo .frames. Usa el menú de exportación en iPhone y compártelo con tu Mac por AirDrop, Mensajes o el método que prefieras. En Mac puedes importarlo directamente y retomar el trabajo donde lo dejaste. No hay sincronización automática en la nube, por diseño. Tus datos permanecen en tus propios dispositivos, bajo tu control, sin pasar por ningún servidor."
     },
     "question6": {
-      "question": "¿Puedo sincronizar mis datos entre iPhone y Mac?",
-      "answer": "Sí, puedes transferir sin problemas tus datos de fotografía analógica entre iPhone y Mac usando exportaciones de archivos .frames. Simplemente exporta tus rollos desde un dispositivo e impórtalos en otro. Aunque la sincronización automática en la nube no está disponible actualmente para mantener tu privacidad y propiedad de datos, el formato .frames hace que la sincronización manual sea rápida y sencilla."
+      "question": "¿Frames funciona sin conexión?",
+      "answer": "Completamente. Todos los datos se guardan de forma local en tu dispositivo, así que puedes registrar tomas, consultar tu archivo y gestionar tu lista de equipo sin conexión. El etiquetado de ubicación GPS también funciona sin internet y se guarda automáticamente con cada fotograma que anotas. La única vez que se necesita conexión es para comprobar actualizaciones de la app."
     },
     "question7": {
-      "question": "¿Frames funciona sin conexión?",
-      "answer": "Por supuesto. Frames está diseñado para funcionar completamente sin conexión, lo que lo hace perfecto para fotografiar en lugares remotos sin conectividad a internet. Todos tus datos se almacenan localmente en tu dispositivo, para que puedas registrar fotos, gestionar tu archivo y organizar tu equipo en cualquier lugar. El etiquetado de ubicación GPS también funciona sin conexión y se guardará automáticamente cuando registres cada fotograma. Solo necesitas internet cuando verificas actualizaciones de la aplicación."
+      "question": "¿Qué hay en el horizonte para futuras actualizaciones?",
+      "answer": "La hoja de ruta la define directamente la comunidad. Los informes de errores, las peticiones de funciones y el feedback general alimentan lo que se prioriza y se construye a continuación. Las próximas actualizaciones se centrarán en ampliar las herramientas de flujo de trabajo, mejorar la experiencia en iPhone y Mac, y añadir funciones que los fotógrafos llevan tiempo pidiendo. Si tienes algo concreto en mente, escribir es la mejor manera de asegurarte de que se tenga en cuenta."
     },
     "question8": {
-      "question": "¿Cuáles son los planes para futuras actualizaciones?",
-      "answer": "Las futuras actualizaciones ampliarán las funcionalidades relacionadas con el proceso de trabajo, mejorarán la integración entre dispositivos y añadirán nuevas herramientas solicitadas por la comunidad. Esto hará que el registro de fotografía analógica sea aún más flexible y potente."
+      "question": "¿Cómo puedo ponerme en contacto?",
+      "answer": "A través de las redes sociales enlazadas al pie de esta página, o directamente por correo electrónico. Son bienvenidas las preguntas, los informes de errores y las ideas de nuevas funciones. Frames se construye con la aportación de personas que realmente fotografían en película, así que escuchar a los usuarios es genuinamente útil."
     }
   },
   "contact": {
@@ -570,8 +570,8 @@
       "feature4": {
         "title": "Privacidad ante todo",
         "description": "Frames almacena todo de forma local, sin ninguna conexión a la nube. Tus notas y metadatos nunca abandonan tu dispositivo salvo que los exportes tú mismo. Sin cuenta necesaria, sin sincronización en segundo plano, sin servidores. Lo que captures permanece completamente en tus manos, privado y seguro por diseño.",
-        "privacy_note1": "Tus datos siguen siendo privados.",
-        "privacy_note2": "Nunca los compartimos ni los vendemos bajo ninguna circunstancia."
+        "privacy_note1": "Tus datos son tuyos y de nadie más.",
+        "privacy_note2": "No los vendemos ni compartimos."
       }
     },
     "section3": {

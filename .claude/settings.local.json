@@ -12,7 +12,10 @@
       "Bash(for lang in da de el es fi hi id it ko nb nl pl pt ro ru sv th tr uk vi zh zh-hant)",
       "Bash(do echo \"=== $lang ===\")",
       "Bash(pip3 show:*)",
-      "Bash(pip3 install:*)"
+      "Bash(pip3 install:*)",
+      "WebFetch(domain:www.apple.com)",
+      "WebFetch(domain:www.apple.com.cn)",
+      "Bash(grep:*)"
     ],
     "deny": [],
     "ask": []

@@ -13,10 +13,10 @@
       "mainEntity": [
         {
           "@type": "Question",
-          "name": "Mitä metatietoja voin tallentaa?",
+          "name": "Mitä tietoja voin kirjata kehyksittäin?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Framesin avulla voit kirjata yksityiskohtaiset tiedot jokaisesta kuvasta, mukaan lukien kamera, objektiivi, suodattimet, kuvanumero, polttoväli, aukko, suljinaika, ISO, mittaustila, filmityyppi, salama, GPS-sijainti, aikaleima ja mukautetut muistiinpanot varmistaen, ettet koskaan menetä tärkeitä analogisen valokuvauksen yksityiskohtia."
+            "text": "Melko paljon. Jokaiselle kehykselle voi kirjata kameran, objektiivin, suodattimet, filmityypin, kehysnumeron, polttovälin, aukon, suljinajan, valotuksen korjauksen, ISO-arvon, mittaustilan, valotusohjelman, tarkennusetäisyyden, salaman, GPS-sijainnin, aikaleimat, viitekuvan ja omat muistiinpanot. Kaikki mitä tarvitset, kun käyt kehitettyjä rullia läpi tai vertailet otoksia eri valaistusolosuhteissa."
           }
         },
         {
@@ -24,55 +24,55 @@
           "name": "Mitä kuvamuotoja tuetaan?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Frames tukee JPEG-, TIFF- ja DNG-muotoja, jolloin voit upottaa tallennetut metatietosi suoraan skannattuihin analogisiin kuviin saumattomaan järjestelyyn ja työnkulkuun kaikilla laitteillasi."
+            "text": "Macilla Frames kirjoittaa metatiedot suoraan JPEG-, JXL-, TIFF- ja DNG-tiedostoihin, jolloin skannatut kuvasi kantavat kuvaustiedot mukanaan minne tahansa. Jos käytät jotain muuta formaattia, voit viedä XMP-sivutiedoston iPhonen sovelluksesta ja sijoittaa sen samaan kansioon kuvan kanssa. Useimmat kuvanmuokkaus- ja DAM-ohjelmat poimivat sen automaattisesti."
           }
         },
         {
           "@type": "Question",
-          "name": "Onko Frames saatavilla Androidille tai Windowsille?",
+          "name": "Mitä valotusaskeleita tuetaan?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Frames on tällä hetkellä saatavilla iPhonelle ja macOS:lle. Androidin ja Windowsin versiot on suunniteltu vuodelle 2026, ja sillä välin voit jakaa ja hallita tietojasi .frames-tiedostovientiä käyttäen."
+            "text": "Frames tukee kokonaisia, puolikkaan ja kolmanneksen portaan askeleita suoraan. Aseta alkuarvo, loppuarvo ja askelväli, niin sovellus näyttää vain ne arvot, joita kamerasi tai objektiivisi oikeasti tukee. Kirjauspaneeli pysyy siistinä ja kalustoosi sovitettuna. Jos laitteistosi käyttää epästandardeja arvoja, voit myös rakentaa täysin oman sarjan sopimaan mihin tahansa suljinaika- tai aukkoalueeseen."
           }
         },
         {
           "@type": "Question",
-          "name": "Mitä suljinaika- ja aukkoarvoja tuetaan?",
+          "name": "Voinko kirjata jalustan tai muita lisävarusteita?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Frames tarjoaa esimääritettyjä sarjoja aukolle (f/1.0 - f/64) ja suljinajalle (1/8000s - 60s), jotka kattavat useimmat objektiivit ja kamerat. Voit myös määrittää mukautettuja sarjoja erityisille välineillesi taaten yhteensopivuuden kaikkien mukautettujen aukko- tai suljinaika-arvojen kanssa."
+            "text": "Kyllä. Jokaisen kehyksen vapaa muistiinpanokenttä on avoin, joten voit dokumentoida minkä tahansa kaluston tai yksityiskohdan, joka on työnkulkusi kannalta oleellinen: jalustamalli, kauko-ohjain, valon muovaajat tai muu. Se ei ole erillinen rakenteellinen kenttä, mutta se antaa vapauden kirjata juuri sen, mitä tarvitset ilman pakotettuja kategorioita."
           }
         },
         {
           "@type": "Question",
-          "name": "Voinko kirjata jalustoja tai lisävarusteita?",
+          "name": "Miten synkronoin tiedot iPhonen ja Macin välillä?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Kyllä, Framesin avulla voit tallentaa jalustoja ja valonlähteitä kuten salamoita, rengassalamoita, softboxeja, heijastimia tai valomuunnelmia. On myös ylimääräinen muistiinpanokenttä, johon voit lisätä mitä tahansa mukautettuja yksityiskohtia."
+            "text": "Viemällä .frames-tiedoston. Käytä iPhonessa vientivalikkoa ja jaa tiedosto Macille AirDropilla, Viestit-sovelluksella tai millä tahansa haluamallasi tavalla. Macilla voit tuoda sen suoraan ja jatkaa siitä mihin jäit. Automaattinen pilvitahdistus puuttuu tarkoituksella. Tietosi pysyvät omilla laitteillasi, hallussasi, kulkematta minkään palvelimen kautta."
           }
         },
         {
           "@type": "Question",
-          "name": "Voinko synkronoida tietoni iPhonen ja Macin välillä?",
+          "name": "Toimiiko Frames ilman verkkoyhteyttä?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Kyllä, voit siirtää filmivalokuvauksen tietosi saumattomasti iPhonen ja Macin välillä käyttämällä .frames-tiedostojen vientiä. Vie yksinkertaisesti rullasi yhdestä laitteesta ja tuo ne toiseen. Vaikka automaattinen pilvisynkronointi ei ole tällä hetkellä saatavilla yksityisyytesi ja tietojesi omistajuuden säilyttämiseksi, .frames-muoto tekee manuaalisesta synkronoinnista nopeaa ja suoraviivaista."
+            "text": "Kokonaan. Kaikki data tallennetaan paikallisesti laitteelle, joten voit kirjata kehyksiä, selata arkistoasi ja hallita kalustolistaasi ilman yhteyttä. GPS-paikannusmerkintä toimii myös offline-tilassa ja tallentuu automaattisesti jokaisen kirjatun kehyksen yhteydessä. Internetiä tarvitaan vain sovelluspäivityksiä tarkistettaessa."
           }
         },
         {
           "@type": "Question",
-          "name": "Toimiiko Frames offline-tilassa?",
+          "name": "Mitä tulevissa päivityksissä on tulossa?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Ehdottomasti. Frames on suunniteltu toimimaan täysin offline-tilassa, mikä tekee siitä täydellisen kuvien ottamiseen syrjäisillä paikoilla ilman internetyhteyttä. Kaikki tietosi tallennetaan paikallisesti laitteellesi, joten voit kirjata kuvia, hallita arkistoasi ja järjestää laitteistosi missä tahansa. GPS-paikannusmerkintä toimii myös offline-tilassa ja tallentuu automaattisesti, kun tallennat jokaisen kuvan. Tarvitset internetiä vain tarkistaessasi sovelluspäivityksiä."
+            "text": "Kehityssuuntaa ohjaa suoraan yhteisö. Vikailmoitukset, ominaisuuspyynnöt ja yleinen palaute vaikuttavat siihen, mitä priorisoidaan ja rakennetaan seuraavaksi. Tulevat päivitykset keskittyvät työnkulkutyökalujen laajentamiseen, iPhone- ja Mac-kokemuksen parantamiseen sekä valokuvaajien pyytämien ominaisuuksien lisäämiseen. Jos sinulla on jotain mielessä, paras tapa varmistaa että se huomioidaan on ottaa yhteyttä."
           }
         },
         {
           "@type": "Question",
-          "name": "Mitä suunnitelmia on tulevia päivityksiä varten?",
+          "name": "Miten voin ottaa yhteyttä?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Tulevat päivitykset laajentavat työnkulkuominaisuuksia, parantavat laitteiden välistä integraa tiota ja lisäävät yhteisön pyytämiä uusia työkaluja. Tämä tekee analogisesta valokuvauskirjaamisesta entistä joustavampaa ja tehokkaampaa."
+            "text": "Sivun alaosassa olevien somelinkkien kautta tai suoraan sähköpostitse. Kysymykset, vikailmoitukset ja ominaisuusideat ovat kaikki tervetulleita. Framesia rakennetaan yhdessä ihmisten kanssa, jotka oikeasti kuvaavat filmille, joten käyttäjiltä kuuleminen on aidosti arvokasta."
           }
         }
       ]

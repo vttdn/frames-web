@@ -273,36 +273,36 @@
     "heading_seo": "Von Filmfotografen",
     "heading": "Fragen & Antworten",
     "question1": {
-      "question": "Welche Metadaten kann ich erfassen?",
-      "answer": "Frames ermöglicht detaillierte Aufzeichnungen für jede Aufnahme: Kamera, Objektiv, Filter, Bildnummer, Brennweite, Blende, Verschlusszeit, ISO, Messmodus, Filmtyp, Blitz, GPS-Standort, Zeitstempel und individuelle Notizen – damit Sie keine wichtigen Details Ihrer Analogfotografie verlieren."
+      "question": "Welche Metadaten kann ich pro Aufnahme festhalten?",
+      "answer": "Ziemlich viele. Pro Bild lassen sich Kamera, Objektiv, Filter, Film, Bildnummer, Brennweite, Blende, Verschlusszeit, Belichtungskorrektur, ISO, Messmethode, Belichtungsprogramm, Fokusabstand, Blitz, GPS-Standort, Zeitstempel, ein Referenzbild und eigene Notizen erfassen. Alles, was man sich später wünscht, wenn man die entwickelten Rollen auswertet oder Aufnahmen aus verschiedenen Lichtsituationen und Setups vergleicht."
     },
     "question2": {
       "question": "Welche Bildformate werden unterstützt?",
-      "answer": "Frames unterstützt JPEG, TIFF und DNG. Sie können Ihre erfassten Metadaten direkt in gescannte analoge Fotos einbetten – für nahtlose Organisation und Workflow auf allen Ihren Geräten."
+      "answer": "Auf dem Mac schreibt Frames Metadaten direkt in JPEG-, JXL-, TIFF- und DNG-Dateien, sodass gescannte Bilder den vollständigen Aufnahmekontext überallhin mitnehmen. Für proprietäre Formate, die nicht auf dieser Liste stehen, lässt sich aus der iPhone-App eine XMP-Sidecar-Datei exportieren und im selben Ordner wie das Bild ablegen. Die meisten Bearbeitungs- und DAM-Programme lesen sie automatisch aus."
     },
     "question3": {
-      "question": "Gibt es Frames für Android oder Windows?",
-      "answer": "Frames ist aktuell für iPhone und macOS verfügbar. Versionen für Android und Windows sind für 2026 geplant. In der Zwischenzeit können Sie Ihre Daten über .frames-Dateiexporte teilen und verwalgen."
+      "question": "Welche Belichtungsstufen werden unterstützt?",
+      "answer": "Frames unterstützt ganze, halbe und drittel Blenden- und Verschlusszeitraster. Man legt einen Start- und einen Endwert sowie eine Abstufung fest, und die App zeigt nur die Werte an, die die jeweilige Kamera oder das Objektiv tatsächlich bietet. Das hält die Oberfläche übersichtlich und auf das eigene Equipment abgestimmt. Wer mit Sonderwerten arbeitet, kann auch eigene Sequenzen manuell definieren, für beliebige Verschlusszeiten oder Blendenreihen."
     },
     "question4": {
-      "question": "Welche Verschlusszeiten und Blenden werden unterstützt?",
-      "answer": "Frames bietet Standard-Blenden- und Verschlusszeitsequenzen für die meisten Objektive und Kameras. Sie können auch eigene Sequenzen für Ihre Ausrüstung definieren – kompatibel mit allen Werten."
+      "question": "Kann ich Stative oder anderes Zubehör erfassen?",
+      "answer": "Ja. Das freie Notizfeld bei jeder Aufnahme ist offen gestaltet, sodass sich beliebiges Equipment oder andere Details festhalten lassen, die für den eigenen Workflow relevant sind: Stativmodell, Fernauslöser, Lichtformer oder was auch immer. Es ist kein strukturiertes Pflichtfeld, bietet aber die Freiheit, genau das zu dokumentieren, was man braucht, ohne an ein festes Kategorienset gebunden zu sein."
     },
     "question5": {
-      "question": "Kann ich Stative oder Zubehör dokumentieren?",
-      "answer": "Ja, Sie können Stative, Blitze und weiteres Zubehör über das benutzerdefinierte Notizfeld für jede Aufnahme erfassen. Dieser flexible Ansatz ermöglicht es Ihnen, jedes Detail zu Ausrüstung oder Aufnahmen zu dokumentieren, das für Ihren Prozess wichtig ist, von Stativmodellen bis zu Fernauslösern und Lichtformern."
+      "question": "Wie übertrage ich Daten zwischen iPhone und Mac?",
+      "answer": "Per .frames-Export. Im Exportmenü auf dem iPhone lässt sich die Datei per AirDrop, Nachrichten oder einem anderen bevorzugten Weg auf den Mac übertragen. Dort kann man sie direkt importieren und nahtlos weitermachen. Eine automatische Cloud-Synchronisierung gibt es bewusst nicht. Die Daten bleiben auf den eigenen Geräten, unter eigener Kontrolle, ohne einen Server zu durchlaufen."
     },
     "question6": {
-      "question": "Kann ich meine Daten zwischen iPhone und Mac synchronisieren?",
-      "answer": "Ja, Sie können Ihre Filmfotografie-Daten nahtlos zwischen iPhone und Mac übertragen, indem Sie .frames-Dateiexporte verwenden. Exportieren Sie einfach Ihre Filme von einem Gerät und importieren Sie sie auf einem anderen. Obwohl die automatische Cloud-Synchronisierung derzeit nicht verfügbar ist, um Ihre Privatsphäre und Ihr Dateneigentum zu wahren, macht das .frames-Format die manuelle Synchronisierung schnell und unkompliziert."
+      "question": "Funktioniert Frames offline?",
+      "answer": "Vollständig. Alle Daten werden lokal auf dem Gerät gespeichert, sodass sich Aufnahmen erfassen, das Archiv durchsuchen und die Ausrüstungsliste verwalten lassen, ohne Verbindung. GPS-Standortmarkierung funktioniert ebenfalls offline und wird automatisch mit jedem Bild gespeichert. Eine Internetverbindung wird nur benötigt, um nach App-Updates zu suchen."
     },
     "question7": {
-      "question": "Funktioniert Frames offline?",
-      "answer": "Auf jeden Fall. Frames funktioniert vollständig offline, was es perfekt für Aufnahmen an abgelegenen Orten ohne Internetverbindung macht. Alle Ihre Daten werden lokal auf Ihrem Gerät gespeichert, sodass Sie überall Aufnahmen protokollieren, Ihr Archiv verwalten und Ihre Ausrüstung organisieren können. GPS-Standortmarkierung funktioniert auch offline und speichert sich automatisch beim Aufzeichnen jedes Bildes. Sie benötigen nur Internet, um nach App-Updates zu suchen."
+      "question": "Was kommt in zukünftigen Updates?",
+      "answer": "Die Roadmap wird direkt von der Community geprägt. Fehlermeldungen, Funktionswünsche und allgemeines Feedback fließen in die Priorisierung ein. Kommende Updates werden sich auf den Ausbau von Workflow-Funktionen, eine verbesserte Erfahrung auf iPhone und Mac sowie auf Funktionen konzentrieren, nach denen Fotografen gefragt haben. Wer konkrete Ideen hat, meldet sich am besten direkt, damit sie berücksichtigt werden können."
     },
     "question8": {
-      "question": "Welche Pläne gibt es für zukünftige Updates?",
-      "answer": "Zukünftige Updates werden Workflow-Funktionen erweitern, die geräteübergreifende Integration verbessern und neue Tools basierend auf Community-Wünschen hinzufügen. Dies macht die Analogfotografie-Dokumentation noch flexibler und leistungsfähiger."
+      "question": "Wie kann ich Kontakt aufnehmen?",
+      "answer": "Über die Social-Media-Accounts unten auf dieser Seite oder direkt per E-Mail. Fragen, Fehlermeldungen und Funktionsideen sind willkommen. Frames wird mit dem Input von Menschen entwickelt, die selbst auf Film fotografieren. Rückmeldungen von Nutzern sind dabei wirklich hilfreich."
     }
   },
   "contact": {
@@ -570,8 +570,8 @@
       "feature4": {
         "title": "Datenschutz zuerst",
         "description": "Frames speichert alles lokal, ohne Cloud-Verbindung. Ihre Notizen und Metadaten verlassen Ihr Gerät nie, außer wenn Sie sie selbst exportieren. Kein Konto erforderlich, keine Synchronisierung im Hintergrund, keine Server. Was Sie festhalten, bleibt vollständig in Ihren Händen, privat und sicher von Grund auf.",
-        "privacy_note1": "Ihre Daten bleiben privat.",
-        "privacy_note2": "Wir teilen oder verkaufen sie unter keinen Umständen."
+        "privacy_note1": "Alle deine Daten bleiben deine Daten.",
+        "privacy_note2": "Wir werden sie niemals teilen oder verkaufen."
       }
     },
     "section3": {

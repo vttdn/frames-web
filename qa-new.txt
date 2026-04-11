@@ -1,0 +1,23 @@
+What metadata can I log per shot?
+Quite a lot. For each frame you can record camera, lens, filters, film stock, frame number, focal length, aperture, shutter speed, exposure compensation, ISO, metering mode, exposure program, focus distance, flash, GPS location, timestamps, a reference image, and custom notes. Everything you'd want to reference when reviewing your developed rolls or comparing shots across different lighting conditions and setups.
+
+Which image formats does Frames support for metadata embedding?
+On Mac, Frames writes metadata directly into JPEG, JXL, TIFF, and DNG files, so your scanned images carry the full shooting context wherever they go. For proprietary formats not on that list, you can export an XMP sidecar file from the iPhone app and place it in the same folder as your image. Most editing and DAM software will pick it up automatically.
+
+Which exposure increments are supported?
+Frames covers full-stop, half-stop, and third-stop increments out of the box. You set a start value, an end value, and an increment, and the app shows only the values your specific camera or lens actually supports. This keeps the logging interface clean and relevant to your gear. If your equipment uses non-standard values, you can also define custom sequences manually to match any shutter speed or aperture range.
+
+Can I log tripods or other accessories?
+Yes. The custom notes field on each frame is open-ended, so you can document any gear or detail that matters to your workflow: tripod model, remote release, light modifiers, or anything else. It is not a dedicated structured field, but it gives you the flexibility to capture exactly what you need without being locked into a fixed set of categories.
+
+How do I sync data between iPhone and Mac?
+By exporting a .frames file. Use the export menu on iPhone, then share it to your Mac via AirDrop, Messages, or any method you prefer. On Mac, you can import it directly and pick up right where you left off. There is no automatic cloud sync by design. Your data stays on your own devices, under your control, without passing through any server.
+
+Does Frames work offline?
+Entirely. All data is stored locally on your device, so you can log shots, browse your archive, and manage your gear list without a connection. GPS location tagging works offline too and saves automatically with each frame you record. The only time an internet connection is needed is to check for app updates.
+
+What is coming in future updates?
+The roadmap is shaped directly by the community. Bug reports, feature requests, and general feedback all feed into what gets prioritized and built next. Upcoming updates will focus on expanding workflow tools, improving the experience across iPhone and Mac, and adding features that photographers have been asking for. If you have something specific in mind, getting in touch is the best way to make sure it gets considered.
+
+How can I get in touch?
+Through the social accounts linked at the bottom of this page, or directly by email. Questions, bug reports, and feature ideas are all welcome. Frames is built with input from people who actually shoot film, so hearing from users is genuinely useful.

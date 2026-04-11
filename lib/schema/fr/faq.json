@@ -13,50 +13,42 @@
       "mainEntity": [
         {
           "@type": "Question",
-          "name": "Quelles métadonnées puis-je enregistrer ?",
+          "name": "Quelles métadonnées puis-je consigner par vue ?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Frames vous permet de noter des informations détaillées pour chaque prise, incluant boîtier, objectif, filtres, numéro de vue, focale, ouverture, vitesse, ISO, mode de mesure, pellicule, flash, localisation GPS, horodatage et notes personnalisées, vous assurant de ne jamais perdre de détails importants de votre photographie argentique."
+            "text": "Beaucoup de choses. Pour chaque photogramme, vous pouvez noter le boîtier, l'objectif, les filtres, la pellicule, le numéro de vue, la focale, le diaphragme, la vitesse d'obturation, la compensation d'exposition, l'ISO, le mode de mesure, le programme d'exposition, la distance de mise au point, le flash, la localisation GPS, les horodatages, une image de référence et des notes libres. Tout ce dont vous aurez besoin pour contextualiser vos rouleaux développés ou comparer des prises dans des conditions et des configurations différentes."
           }
         },
         {
           "@type": "Question",
-          "name": "Quels formats d'image sont supportés ?",
+          "name": "Quels formats d'image sont pris en charge ?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Frames supporte les formats JPEG, TIFF et DNG, vous permettant d'intégrer vos métadonnées enregistrées directement dans les photos argentiques numérisées pour une organisation fluide sur tous vos appareils."
+            "text": "Sur Mac, Frames inscrit les métadonnées directement dans les fichiers JPEG, JXL, TIFF et DNG, de sorte que vos scans emportent le contexte de prise de vue partout où ils vont. Pour les formats propriétaires absents de cette liste, vous pouvez exporter un fichier sidecar XMP depuis l'app iPhone et le placer dans le même dossier que vos images. La plupart des logiciels d'édition et de gestion de photos le détectent automatiquement."
           }
         },
         {
           "@type": "Question",
-          "name": "Frames est-il disponible sur Android ou Windows ?",
+          "name": "Quels incréments d'exposition sont pris en charge ?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Frames est actuellement disponible pour iPhone et macOS. Des versions pour Android et Windows sont prévues pour 2026, et en attendant, vous pouvez partager et gérer vos données via les exports de fichiers .frames."
+            "text": "Frames couvre les pas entiers, les demi-stops et les tiers de stop par défaut. Vous définissez une valeur de départ, une valeur de fin et un incrément, et l'application n'affiche que les valeurs réellement disponibles sur votre boîtier ou objectif. L'interface de saisie reste ainsi claire et adaptée à votre matériel. Si votre équipement utilise des valeurs non standard, vous pouvez aussi définir des séquences personnalisées pour correspondre à n'importe quelle plage de vitesses ou de diaphragmes."
           }
         },
         {
           "@type": "Question",
-          "name": "Quelles vitesses et ouvertures sont supportées ?",
+          "name": "Puis-je noter les trépieds ou d'autres accessoires ?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Frames fournit des séquences d'ouverture et de vitesse par défaut qui couvrent la plupart des objectifs et boîtiers. Vous pouvez également définir des séquences personnalisées adaptées à votre matériel, le rendant compatible avec n'importe quelle valeur."
+            "text": "Oui. Le champ de notes libres sur chaque vue est ouvert, ce qui vous permet de consigner n'importe quel matériel ou détail utile à votre pratique : modèle de trépied, déclencheur à distance, modificateurs de lumière ou autre. Ce n'est pas un champ structuré dédié, mais il vous donne la souplesse de noter exactement ce dont vous avez besoin, sans être limité à un ensemble fixe de catégories."
           }
         },
         {
           "@type": "Question",
-          "name": "Puis-je noter les trépieds ou accessoires ?",
+          "name": "Comment synchroniser mes données entre iPhone et Mac ?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Oui, vous pouvez enregistrer les trépieds, flashs et autres accessoires en utilisant le champ de notes personnalisées pour chaque prise de vue. Cette approche flexible vous permet de documenter n'importe quel détail d'équipement ou de prise de vue important pour votre processus, des modèles de trépieds aux déclencheurs à distance et modificateurs de lumière."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Puis-je synchroniser mes données entre iPhone et Mac ?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Oui, vous pouvez transférer facilement vos données de photographie argentique entre iPhone et Mac en utilisant l'export de fichiers .frames. Exportez simplement vos pellicules d'un appareil et importez-les sur un autre. Bien que la synchronisation cloud automatique ne soit pas actuellement disponible pour préserver votre vie privée et la propriété de vos données, le format .frames rend la synchronisation manuelle rapide et simple."
+            "text": "En exportant un fichier .frames. Utilisez le menu d'export sur iPhone, puis partagez-le sur votre Mac via AirDrop, Messages ou tout autre moyen. Sur Mac, vous pouvez l'importer directement et reprendre là où vous en étiez. Il n'y a pas de synchronisation cloud automatique, par choix. Vos données restent sur vos propres appareils, sous votre contrôle, sans transiter par aucun serveur."
           }
         },
         {
@@ -64,15 +56,23 @@
           "name": "Frames fonctionne-t-il hors ligne ?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Absolument. Frames fonctionne entièrement hors ligne, ce qui le rend parfait pour photographier dans des lieux isolés sans connexion internet. Toutes vos données sont stockées localement sur votre appareil, vous permettant d'enregistrer des prises, de gérer vos archives et d'organiser votre équipement n'importe où. Le marquage de localisation GPS fonctionne également hors ligne et se sauvegarde automatiquement lorsque vous enregistrez chaque vue. Vous n'avez besoin d'internet que pour vérifier les mises à jour de l'application."
+            "text": "Entièrement. Toutes les données sont stockées localement sur votre appareil, ce qui vous permet de consigner vos prises, de parcourir votre archive et de gérer votre liste de matériel sans connexion. Le marquage GPS fonctionne également hors ligne et se sauvegarde automatiquement à chaque vue notée. La seule fois où une connexion internet est nécessaire, c'est pour vérifier les mises à jour de l'application."
           }
         },
         {
           "@type": "Question",
-          "name": "Quels sont les plans pour les futures mises à jour ?",
+          "name": "Quelles sont les prochaines évolutions ?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Les futures mises à jour développeront les fonctionnalités liées au processus de travail, amélioreront l'intégration entre appareils et ajouteront de nouveaux outils demandés par la communauté. Cela rendra la prise de notes de photographie argentique encore plus flexible et performante."
+            "text": "La feuille de route est façonnée directement par la communauté. Les rapports de bugs, les demandes de fonctionnalités et les retours en général alimentent ce qui est priorisé et développé ensuite. Les prochaines mises à jour se concentreront sur l'élargissement des outils de flux de travail, l'amélioration de l'expérience sur iPhone et Mac, et l'ajout de fonctionnalités demandées par les photographes. Si vous avez quelque chose de précis en tête, prendre contact est la meilleure façon de s'assurer que cela soit pris en compte."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Comment vous contacter ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Via les comptes liés en bas de cette page, ou directement par email. Les questions, les rapports de bugs et les idées de fonctionnalités sont les bienvenus. Frames se construit avec les retours de personnes qui photographient réellement en argentique, alors les messages des utilisateurs sont toujours utiles."
           }
         }
       ]

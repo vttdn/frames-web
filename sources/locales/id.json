@@ -273,36 +273,36 @@
     "heading_seo": "Dari fotografer film",
     "heading": "Pertanyaan & Jawaban",
     "question1": {
-      "question": "Metadata apa yang bisa saya rekam?",
-      "answer": "Frames memungkinkan Anda mencatat informasi terperinci untuk setiap foto, termasuk kamera, lensa, filter, nomor frame, panjang fokus, apertur, kecepatan rana, ISO, mode metering, jenis film, flash, lokasi GPS, cap waktu, dan catatan khusus, memastikan Anda tidak pernah kehilangan detail fotografi analog yang penting."
+      "question": "Metadata apa saja yang bisa dicatat per bidikan?",
+      "answer": "Cukup lengkap. Untuk setiap frame, Anda bisa mencatat kamera, lensa, filter, stok film, nomor frame, panjang fokus, apertur, kecepatan rana, kompensasi eksposur, ISO, mode metering, program eksposur, jarak fokus, flash, lokasi GPS, cap waktu, gambar referensi, dan catatan bebas. Semua yang Anda butuhkan saat meninjau rol yang sudah diproses atau membandingkan bidikan dari berbagai kondisi cahaya dan pengaturan."
     },
     "question2": {
-      "question": "Format gambar apa yang didukung?",
-      "answer": "Frames mendukung format JPEG, TIFF, dan DNG, memungkinkan Anda menyisipkan metadata yang direkam langsung ke dalam foto analog yang dipindai untuk organisasi dan alur kerja yang mulus di semua perangkat Anda."
+      "question": "Format gambar apa saja yang didukung?",
+      "answer": "Di Mac, Frames menulis metadata langsung ke dalam file JPEG, JXL, TIFF, dan DNG, sehingga foto pindaian Anda membawa konteks pemotretan yang lengkap ke mana pun. Untuk format proprietary yang tidak termasuk dalam daftar tersebut, Anda bisa mengekspor file sidecar XMP dari aplikasi iPhone dan menempatkannya di folder yang sama dengan gambar Anda. Sebagian besar perangkat lunak pengeditan dan manajemen aset digital akan membacanya secara otomatis."
     },
     "question3": {
-      "question": "Apakah Frames tersedia di Android atau Windows?",
-      "answer": "Frames saat ini tersedia untuk iPhone dan macOS. Versi untuk Android dan Windows direncanakan untuk tahun 2026, dan sementara itu, Anda dapat berbagi dan mengelola data Anda melalui ekspor file .frames."
+      "question": "Inkremen eksposur apa saja yang didukung?",
+      "answer": "Frames mencakup inkremen satu stop, setengah stop, dan sepertiga stop secara bawaan. Anda menentukan nilai awal, nilai akhir, dan inkremennya, lalu aplikasi hanya menampilkan nilai yang benar-benar didukung oleh kamera atau lensa Anda. Ini menjaga antarmuka pencatatan tetap bersih dan relevan dengan perlengkapan Anda. Jika peralatan Anda menggunakan nilai non-standar, Anda juga bisa mendefinisikan urutan khusus secara manual untuk menyesuaikan rentang kecepatan rana atau apertur apa pun."
     },
     "question4": {
-      "question": "Kecepatan rana dan apertur apa yang didukung?",
-      "answer": "Frames menyediakan urutan apertur (dari f/1.0 hingga f/64) dan kecepatan rana (dari 1/8000s hingga 60s) yang telah ditentukan sebelumnya yang mencakup sebagian besar lensa dan kamera, dan Anda juga dapat menentukan urutan khusus untuk peralatan Anda, membuatnya kompatibel dengan nilai kecepatan rana atau apertur apa pun."
+      "question": "Bisakah saya mencatat tripod atau aksesori lain?",
+      "answer": "Bisa. Kolom catatan bebas di setiap frame bersifat terbuka, sehingga Anda bisa mendokumentasikan perlengkapan atau detail apa pun yang penting bagi alur kerja Anda: model tripod, remote release, light modifier, atau hal lain. Ini bukan kolom terstruktur yang khusus, tapi memberikan fleksibilitas untuk mencatat tepat apa yang Anda butuhkan tanpa terkunci pada kategori yang sudah ditentukan."
     },
     "question5": {
-      "question": "Bisakah saya mencatat tripod atau aksesori?",
-      "answer": "Ya, Frames memungkinkan Anda merekam tripod dan sumber pencahayaan, seperti flash yang dipasang di kamera, ring flash, softbox, reflektor, atau light modifier. Ada juga bidang catatan tambahan di mana Anda dapat menambahkan detail khusus apa pun yang Anda inginkan."
+      "question": "Bagaimana cara menyinkronkan data antara iPhone dan Mac?",
+      "answer": "Dengan mengekspor file .frames. Gunakan menu ekspor di iPhone, lalu bagikan ke Mac melalui AirDrop, Pesan, atau cara lain yang Anda inginkan. Di Mac, Anda bisa mengimpornya langsung dan melanjutkan dari tempat Anda berhenti. Tidak ada sinkronisasi cloud otomatis, memang disengaja. Data Anda tetap di perangkat Anda sendiri, di bawah kendali Anda, tanpa melewati server mana pun."
     },
     "question6": {
-      "question": "Bisakah saya menyinkronkan data saya antara iPhone dan Mac?",
-      "answer": "Ya, Anda dapat mentransfer data fotografi film Anda dengan mulus antara iPhone dan Mac menggunakan ekspor file .frames. Cukup ekspor rol Anda dari satu perangkat dan impor ke perangkat lain. Meskipun sinkronisasi cloud otomatis saat ini tidak tersedia untuk menjaga privasi dan kepemilikan data Anda, format .frames membuat sinkronisasi manual menjadi cepat dan mudah."
+      "question": "Apakah Frames bisa digunakan tanpa koneksi internet?",
+      "answer": "Sepenuhnya. Semua data disimpan secara lokal di perangkat Anda, sehingga Anda bisa mencatat bidikan, menelusuri arsip, dan mengelola daftar perlengkapan tanpa koneksi. Penandaan lokasi GPS juga bekerja secara offline dan tersimpan otomatis bersama setiap frame yang Anda catat. Koneksi internet hanya dibutuhkan saat memeriksa pembaruan aplikasi."
     },
     "question7": {
-      "question": "Apakah Frames bekerja secara offline?",
-      "answer": "Tentu saja. Frames dirancang untuk bekerja sepenuhnya secara offline, membuatnya sempurna untuk pemotretan di lokasi terpencil tanpa koneksi internet. Semua data Anda disimpan secara lokal di perangkat Anda, sehingga Anda dapat mencatat pemotretan, mengelola arsip, dan mengatur peralatan di mana saja. Penandaan lokasi GPS juga bekerja secara offline dan akan disimpan secara otomatis saat Anda merekam setiap frame. Anda hanya memerlukan internet saat memeriksa pembaruan aplikasi."
+      "question": "Apa yang akan hadir di pembaruan mendatang?",
+      "answer": "Peta jalan pengembangan dibentuk langsung oleh komunitas. Laporan bug, permintaan fitur, dan umpan balik umum semuanya memengaruhi apa yang diprioritaskan dan dibangun berikutnya. Pembaruan mendatang akan berfokus pada perluasan alat alur kerja, peningkatan pengalaman di iPhone dan Mac, serta penambahan fitur yang diminta para fotografer. Jika ada yang ingin Anda usulkan, menghubungi kami adalah cara terbaik agar masukan Anda benar-benar dipertimbangkan."
     },
     "question8": {
-      "question": "Apa rencana untuk pembaruan di masa depan?",
-      "answer": "Pembaruan di masa depan akan memperluas fitur alur kerja, meningkatkan integrasi lintas perangkat, dan menambahkan alat baru yang diminta oleh komunitas. Ini akan membuat pencatatan fotografi analog lebih fleksibel dan kuat."
+      "question": "Bagaimana cara menghubungi Anda?",
+      "answer": "Melalui akun media sosial yang tertaut di bagian bawah halaman ini, atau langsung melalui email. Pertanyaan, laporan bug, dan ide fitur semuanya disambut. Frames dibangun dengan masukan dari orang-orang yang benar-benar memotret dengan film, jadi mendengar dari pengguna sangat berarti."
     }
   },
   "contact": {
