@@ -31,17 +31,24 @@
     <atom:link rel="alternate" hreflang="tr" href="https://withframes.comchangelog/rss/index.rss" type="application/rss+xml" />
     <atom:link rel="alternate" hreflang="uk" href="https://withframes.comchangelog/rss/index.rss" type="application/rss+xml" />
     <atom:link rel="alternate" hreflang="vi" href="https://withframes.comchangelog/rss/index.rss" type="application/rss+xml" />
-    <lastBuildDate>Sun, 12 Apr 2026 13:06:37 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 12 Apr 2026 15:02:33 GMT</lastBuildDate>
     <generator>Frames Website Builder</generator>
     <item>
-      <title>XMP Sidecar Export &amp; EXIF Metadata</title>
+      <title>Faster Frame Navigation</title>
+      <link>https://withframes.com/changelog/1-25-ios/</link>
+      <description>This update makes it easier to move through your film rolls with fluid navigation between frames, alongside refinements to readability and overall interface performance.</description>
+      <pubDate>Fri, 20 Mar 2026 10:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://withframes.com/changelog/1-25-ios/</guid>
+    </item>
+    <item>
+      <title>XMP Sidecar Export</title>
       <link>https://withframes.com/changelog/1-24-ios/</link>
       <description>This update introduces the ability to export your film rolls as XMP sidecar files, making your data fully compatible with desktop photo editors like Lightroom and Capture One. Each frame exports as an individual file packed with complete EXIF data, ensuring your camera, lens, and precise exposure settings are perfectly logged and ready to sync with your film scans.</description>
       <pubDate>Sat, 14 Mar 2026 10:00:00 GMT</pubDate>
       <guid isPermaLink="true">https://withframes.com/changelog/1-24-ios/</guid>
     </item>
     <item>
-      <title>Gallery View and Toolbar Customization</title>
+      <title>Gallery View &amp; Toolbar Customization</title>
       <link>https://withframes.com/changelog/1-23-ios/</link>
       <description>This release gives you more control over how you browse and interact with your films. Switch between List and Gallery layouts to navigate your library visually or in detail, and customize your recorder toolbar to fit your workflow. Quickly access your most-used settings and manage your film rolls more smoothly and intuitively.</description>
       <pubDate>Wed, 04 Mar 2026 10:00:00 GMT</pubDate>
@@ -55,14 +62,14 @@
       <guid isPermaLink="true">https://withframes.com/changelog/1-22-ios/</guid>
     </item>
     <item>
-      <title>JPEG XL Support &amp; Metadata Export</title>
+      <title>JPEG XL Support</title>
       <link>https://withframes.com/changelog/1-14-macos/</link>
       <description>This update adds support for JPEG XL to the Mac app. You can now embed your capture data directly into .jxl files when exporting scans, alongside JPEG, TIFF, and DNG. The release also includes minor UI improvements.</description>
       <pubDate>Tue, 17 Feb 2026 10:00:00 GMT</pubDate>
       <guid isPermaLink="true">https://withframes.com/changelog/1-14-macos/</guid>
     </item>
     <item>
-      <title>Focus Distance in Sidebar and EXIF</title>
+      <title>Focus Distance Support</title>
       <link>https://withframes.com/changelog/1-13-macos/</link>
       <description>This update brings focus distance support to the Mac app. If you record focus distance in Frames for iOS, that data now appears in the sidebar and gets written into the EXIF metadata when you export your scans. The update also improves how certain metadata values are handled and includes visual refinements for macOS Sequoia.</description>
       <pubDate>Thu, 29 Jan 2026 10:00:00 GMT</pubDate>
@@ -76,7 +83,7 @@
       <guid isPermaLink="true">https://withframes.com/changelog/1-21-ios/</guid>
     </item>
     <item>
-      <title>Localized Welcome Screen and Exposure Metadata</title>
+      <title>Welcome Screen &amp; Exposure Metadata</title>
       <link>https://withframes.com/changelog/1-12-macos/</link>
       <description>The welcome screen has been localized and refined for all supported languages. Previously available only in English, it now displays in your preferred language with clearer drag and drop guidance to help you get started.</description>
       <pubDate>Mon, 19 Jan 2026 10:00:00 GMT</pubDate>

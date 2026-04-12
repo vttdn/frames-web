@@ -1,0 +1,53 @@
+{
+  "version": "1.25.0",
+  "version_short": "1.25",
+  "url_slug": "1-25-ios",
+  "platform": "ios",
+  "release_date": "2026-03-20T10:00:00.000Z",
+  "title": "更快的帧间导航",
+  "summary": "本次更新让你更轻松地浏览胶片，帧间导航流畅自然，同时提升了可读性与整体界面性能。",
+  "sections": [
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.25.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.25.0-1@2x.png",
+      "alt": "Frames 胶片摄影应用的帧间导航与改进的展开行",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "paragraph",
+      "content": "此前，要查看同一胶片中的另一帧，需要关闭当前详情视图，再从列表中打开其他帧。这让查看多张照片变得缓慢且重复，尤其是在逐帧浏览整卷胶片时。"
+    },
+    {
+      "type": "paragraph",
+      "content": "现在，你可以直接在详情视图中使用顶部工具栏的导航控件在帧间移动。这样你可以保持上下文，快速翻阅照片，使审阅和对比更加高效流畅。"
+    },
+    {
+      "type": "paragraph",
+      "content": "展开的帧行已改进，在两行结构化布局中显示更多详情，提升可读性。此功能源于用户的反馈建议，如同 Frames 的许多功能一样，体现了用户意见如何以有意义的方式持续塑造这款应用。"
+    },
+    {
+      "type": "paragraph",
+      "content": "第一行现在显示镜头以及拍摄的准确日期和时间，第二行显示拍摄地点。无需打开完整的帧视图，即可快速一览关键信息。"
+    },
+    {
+      "type": "paragraph",
+      "content": "本次更新还包含一系列细微的界面优化和性能提升，确保整个应用运行流畅、响应迅速。"
+    }
+  ],
+  "improvements": [
+    "直接从帧详情视图滑动切换帧",
+    "展开的帧行现在显示更多详情",
+    "细微的界面优化和性能提升"
+  ],
+  "fixes": [],
+  "patches": [
+    {
+      "version": "1.25.1",
+      "description": "性能和稳定性改进"
+    }
+  ],
+  "meta_title": "更快的帧间导航 - Frames",
+  "meta_description": "通过滑动手势和工具栏控件在帧间移动，展开行的可读性更佳，全面提升性能。"
+}

@@ -1,0 +1,53 @@
+{
+  "version": "1.25.0",
+  "version_short": "1.25",
+  "url_slug": "1-25-ios",
+  "platform": "ios",
+  "release_date": "2026-03-20T10:00:00.000Z",
+  "title": "Navigazione rapida tra i fotogrammi",
+  "summary": "Questo aggiornamento rende più semplice scorrere le pellicole con una navigazione fluida tra i fotogrammi, insieme a miglioramenti della leggibilità e delle prestazioni generali dell'interfaccia.",
+  "sections": [
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.25.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.25.0-1@2x.png",
+      "alt": "App di fotografia analogica Frames con navigazione tra fotogrammi e righe espanse migliorate",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "paragraph",
+      "content": "In precedenza, per passare a un altro fotogramma della stessa pellicola era necessario chiudere la vista di dettaglio corrente e aprire un fotogramma diverso dall'elenco. Questo rendeva la revisione di più scatti più lenta e ripetitiva, specialmente quando si esaminava un'intera pellicola."
+    },
+    {
+      "type": "paragraph",
+      "content": "Ora puoi spostarti tra i fotogrammi direttamente dalla vista di dettaglio usando i controlli di navigazione nella barra degli strumenti in alto. Questo ti mantiene nel contesto e ti permette di scorrere rapidamente tra gli scatti, rendendo la revisione e il confronto molto più veloci e fluidi."
+    },
+    {
+      "type": "paragraph",
+      "content": "Le righe dei fotogrammi espansi sono state migliorate per mostrare dettagli aggiuntivi su due righe strutturate, migliorando la leggibilità. Questo miglioramento è stato richiesto da un utente e, come molte funzionalità di Frames, rispecchia il modo in cui i feedback continuano a dare forma all'app in modo significativo."
+    },
+    {
+      "type": "paragraph",
+      "content": "La prima riga ora include l'obiettivo insieme alla data e all'ora esatte dello scatto, mentre la seconda mostra la posizione. Questo facilita la lettura rapida delle informazioni principali a colpo d'occhio, senza dover aprire la vista completa del fotogramma."
+    },
+    {
+      "type": "paragraph",
+      "content": "Questa versione include anche una serie di piccoli miglioramenti all'interfaccia e alle prestazioni per mantenere tutto fluido e reattivo in tutta l'app."
+    }
+  ],
+  "improvements": [
+    "Scorri tra i fotogrammi direttamente dalla vista di dettaglio",
+    "Le righe dei fotogrammi espansi ora mostrano dettagli aggiuntivi",
+    "Piccoli miglioramenti all'interfaccia e alle prestazioni"
+  ],
+  "fixes": [],
+  "patches": [
+    {
+      "version": "1.25.1",
+      "description": "Miglioramenti alle prestazioni e alla stabilità"
+    }
+  ],
+  "meta_title": "Navigazione rapida tra i fotogrammi - Frames",
+  "meta_description": "Naviga tra i fotogrammi con gesti e controlli della barra degli strumenti, righe espanse più leggibili e miglioramenti generali delle prestazioni."
+}

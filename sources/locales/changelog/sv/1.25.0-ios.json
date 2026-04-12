@@ -1,0 +1,53 @@
+{
+  "version": "1.25.0",
+  "version_short": "1.25",
+  "url_slug": "1-25-ios",
+  "platform": "ios",
+  "release_date": "2026-03-20T10:00:00.000Z",
+  "title": "Snabbare navigering mellan rutor",
+  "summary": "Den här uppdateringen gör det enklare att bläddra igenom dina filmer med smidig navigering mellan rutor, tillsammans med förbättringar av läsbarhet och övergripande gränssnittsprestanda.",
+  "sections": [
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.25.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.25.0-1@2x.png",
+      "alt": "Frames filmfotoapp med navigering mellan rutor och förbättrade utökade rader",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tidigare krävde det att man stängde den aktuella detaljvyn och öppnade en annan ruta från listan för att se en annan ruta i samma film. Det gjorde att det tog längre tid att gå igenom flera bilder, särskilt när man jobbade sig igenom en hel film."
+    },
+    {
+      "type": "paragraph",
+      "content": "Nu kan du röra dig mellan rutor direkt från detaljvyn med hjälp av navigeringskontrollerna i det övre verktygsfältet. Det håller dig i kontexten och låter dig snabbt bläddra igenom dina bilder, vilket gör granskning och jämförelse mycket snabbare och smidigare."
+    },
+    {
+      "type": "paragraph",
+      "content": "Utökade rutrader har förbättrats för att visa ytterligare detaljer på två strukturerade rader för bättre läsbarhet. Den här förbättringen efterfrågades av en användare och återspeglar – precis som många funktioner i Frames – hur feedback fortsätter att forma appen på meningsfulla sätt."
+    },
+    {
+      "type": "paragraph",
+      "content": "Den första raden visar nu ditt objektiv tillsammans med det exakta datumet och klockslaget för bilden, medan den andra raden visar platsen. Det gör det lättare att snabbt skanna viktig information med en blick utan att öppna den fullständiga rutevyn."
+    },
+    {
+      "type": "paragraph",
+      "content": "Den här versionen innehåller också en rad mindre gränssnittsförbättringar och prestandaoptimeringar för att hålla allt igång smidigt och responsivt i hela appen."
+    }
+  ],
+  "improvements": [
+    "Svep mellan rutor direkt från rutans detaljvy",
+    "Utökade rutrader visar nu ytterligare detaljer",
+    "Mindre UI-förbättringar och prestandaoptimeringar"
+  ],
+  "fixes": [],
+  "patches": [
+    {
+      "version": "1.25.1",
+      "description": "Prestanda- och stabilitetsförbättringar"
+    }
+  ],
+  "meta_title": "Snabbare navigering mellan rutor - Frames",
+  "meta_description": "Rör dig mellan rutor med svepgester och verktygsfältskontroller, förbättrad läsbarhet i utökade rader och övergripande prestandaoptimeringar."
+}

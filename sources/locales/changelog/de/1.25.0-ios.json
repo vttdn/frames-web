@@ -1,0 +1,53 @@
+{
+  "version": "1.25.0",
+  "version_short": "1.25",
+  "url_slug": "1-25-ios",
+  "platform": "ios",
+  "release_date": "2026-03-20T10:00:00.000Z",
+  "title": "Flüssige Navigation zwischen Einzelbildern",
+  "summary": "Dieses Update erleichtert das Durchblättern deiner Filmrollen mit einer flüssigen Navigation zwischen Einzelbildern sowie Verbesserungen der Lesbarkeit und der allgemeinen Schnittstellenleistung.",
+  "sections": [
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.25.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.25.0-1@2x.png",
+      "alt": "Frames Filmfotografie-App mit Navigation zwischen Einzelbildern und verbesserten erweiterten Zeilen",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "paragraph",
+      "content": "Bisher musste man zum Betrachten eines anderen Einzelbilds in derselben Filmrolle die aktuelle Detailansicht schließen und ein anderes Einzelbild aus der Liste öffnen. Das machte das Durchsehen mehrerer Aufnahmen langsamer und mühsamer – besonders beim Durcharbeiten einer ganzen Filmrolle."
+    },
+    {
+      "type": "paragraph",
+      "content": "Du kannst jetzt direkt aus der Detailansicht zwischen Einzelbildern wechseln, indem du die Navigationssteuerung in der oberen Symbolleiste verwendest. So bleibst du im Kontext und kannst deine Aufnahmen schnell durchblättern, was die Überprüfung und den Vergleich deutlich schneller und fließender macht."
+    },
+    {
+      "type": "paragraph",
+      "content": "Erweiterte Einzelbildzeilen wurden verbessert und zeigen nun zusätzliche Details in zwei strukturierten Zeilen für eine bessere Lesbarkeit. Diese Verbesserung wurde von einem Nutzer gewünscht und zeigt – wie viele Funktionen in Frames –, wie Feedback die App kontinuierlich und auf bedeutungsvolle Weise mitgestaltet."
+    },
+    {
+      "type": "paragraph",
+      "content": "Die erste Zeile zeigt jetzt dein Objektiv sowie das genaue Datum und die genaue Uhrzeit der Aufnahme, während die zweite Zeile den Standort anzeigt. So lassen sich wichtige Informationen auf einen Blick erfassen, ohne die vollständige Einzelbildansicht öffnen zu müssen."
+    },
+    {
+      "type": "paragraph",
+      "content": "Dieses Release enthält außerdem eine Reihe kleiner Schnittstellenverbesserungen und Leistungsoptimierungen, damit alles reibungslos und reaktionsschnell läuft."
+    }
+  ],
+  "improvements": [
+    "Zwischen Einzelbildern direkt aus der Detailansicht wischen",
+    "Erweiterte Einzelbildzeilen zeigen nun zusätzliche Details",
+    "Kleine UI-Verbesserungen und Leistungsoptimierungen"
+  ],
+  "fixes": [],
+  "patches": [
+    {
+      "version": "1.25.1",
+      "description": "Leistungs- und Stabilitätsverbesserungen"
+    }
+  ],
+  "meta_title": "Navigation zwischen Einzelbildern - Frames",
+  "meta_description": "Wechsle zwischen Einzelbildern mit Wischgesten und Symbolleiste, verbesserte Lesbarkeit in erweiterten Zeilen und allgemeine Leistungsoptimierungen."
+}

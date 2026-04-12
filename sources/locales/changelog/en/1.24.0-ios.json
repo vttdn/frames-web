@@ -4,7 +4,7 @@
   "url_slug": "1-24-ios",
   "platform": "ios",
   "release_date": "2026-03-14T10:00:00.000Z",
-  "title": "XMP Sidecar Export & EXIF Metadata",
+  "title": "XMP Sidecar Export",
   "summary": "This update introduces the ability to export your film rolls as XMP sidecar files, making your data fully compatible with desktop photo editors like Lightroom and Capture One. Each frame exports as an individual file packed with complete EXIF data, ensuring your camera, lens, and precise exposure settings are perfectly logged and ready to sync with your film scans.",
   "sections": [
     {
@@ -49,6 +49,6 @@
   ],
   "fixes": [],
   "patches": [],
-  "meta_title": "XMP Sidecar Export & EXIF Data - Frames",
+  "meta_title": "XMP Sidecar Export - Frames",
   "meta_description": "Export film rolls as XMP sidecar files for Lightroom and Capture One. Each frame includes full EXIF data like aperture, shutter speed, and geolocation."
 }

@@ -1,0 +1,53 @@
+{
+  "version": "1.25.0",
+  "version_short": "1.25",
+  "url_slug": "1-25-ios",
+  "platform": "ios",
+  "release_date": "2026-03-20T10:00:00.000Z",
+  "title": "Navegación rápida entre fotogramas",
+  "summary": "Esta actualización facilita el desplazamiento por tus películas con una navegación fluida entre fotogramas, junto con mejoras en la legibilidad y el rendimiento general de la interfaz.",
+  "sections": [
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.25.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.25.0-1@2x.png",
+      "alt": "Aplicación de fotografía analógica Frames con navegación entre fotogramas y filas expandidas mejoradas",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "paragraph",
+      "content": "Antes, ver otro fotograma del mismo carrete requería cerrar la vista de detalle actual y abrir otro fotograma desde la lista. Esto hacía que revisar varias tomas fuera más lento y repetitivo, sobre todo al repasar un carrete completo."
+    },
+    {
+      "type": "paragraph",
+      "content": "Ahora puedes moverte entre fotogramas directamente desde la vista de detalle usando los controles de navegación de la barra de herramientas superior. Esto te mantiene en contexto y te permite avanzar rápidamente por tus tomas, haciendo que la revisión y comparación sea mucho más ágil y fluida."
+    },
+    {
+      "type": "paragraph",
+      "content": "Las filas de fotogramas expandidas han sido mejoradas para mostrar información adicional en dos líneas estructuradas, mejorando la legibilidad. Esta mejora fue solicitada por un usuario y, como muchas funciones de Frames, refleja cómo los comentarios de los usuarios continúan dando forma a la aplicación de maneras significativas."
+    },
+    {
+      "type": "paragraph",
+      "content": "La primera línea muestra ahora tu objetivo junto con la fecha y hora exactas de la toma, mientras que la segunda muestra la ubicación. Esto facilita la lectura rápida de la información clave de un vistazo, sin tener que abrir la vista completa del fotograma."
+    },
+    {
+      "type": "paragraph",
+      "content": "Esta versión también incluye una serie de pequeños ajustes de interfaz y mejoras de rendimiento para mantener todo funcionando con fluidez y capacidad de respuesta en toda la aplicación."
+    }
+  ],
+  "improvements": [
+    "Desliza entre fotogramas directamente desde la vista de detalle",
+    "Las filas de fotogramas expandidas ahora muestran detalles adicionales",
+    "Pequeños ajustes de interfaz y mejoras de rendimiento"
+  ],
+  "fixes": [],
+  "patches": [
+    {
+      "version": "1.25.1",
+      "description": "Mejoras de rendimiento y estabilidad"
+    }
+  ],
+  "meta_title": "Navegación rápida entre fotogramas - Frames",
+  "meta_description": "Muévete entre fotogramas con gestos de deslizamiento y controles en la barra de herramientas, mejor legibilidad en filas expandidas y mejoras de rendimiento."
+}

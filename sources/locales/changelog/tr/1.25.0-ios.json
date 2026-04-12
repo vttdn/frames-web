@@ -1,0 +1,53 @@
+{
+  "version": "1.25.0",
+  "version_short": "1.25",
+  "url_slug": "1-25-ios",
+  "platform": "ios",
+  "release_date": "2026-03-20T10:00:00.000Z",
+  "title": "Kareler arasında daha hızlı gezinme",
+  "summary": "Bu güncelleme, film rulolarında gezinmeyi kolaylaştırıyor: kareler arasında akıcı geçişler, geliştirilmiş okunabilirlik ve genel arayüz performansı iyileştirmeleriyle.",
+  "sections": [
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.25.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.25.0-1@2x.png",
+      "alt": "Frames film fotoğrafçılığı uygulamasında kare navigasyonu ve geliştirilmiş genişletilmiş satırlar",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "paragraph",
+      "content": "Daha önce aynı film rulasındaki başka bir kareyi görmek için mevcut detay görünümünü kapatıp listeden farklı bir kare açmak gerekiyordu. Bu durum, birden fazla çekimi incelemeyi yavaşlatıyor ve tekrarlayıcı hale getiriyordu; özellikle tüm ruloyu gözden geçirirken."
+    },
+    {
+      "type": "paragraph",
+      "content": "Artık üst araç çubuğundaki gezinme kontrolleriyle doğrudan detay görünümünden kareler arasında geçiş yapabilirsiniz. Bu sayede bağlamınızı koruyarak çekimlerinizi hızlıca tarayabilir, inceleme ve karşılaştırma işlemlerini çok daha hızlı ve akıcı biçimde gerçekleştirebilirsiniz."
+    },
+    {
+      "type": "paragraph",
+      "content": "Genişletilmiş kare satırları, daha iyi okunabilirlik için iki yapılandırılmış satırda ek ayrıntılar gösterecek şekilde iyileştirildi. Bu geliştirme bir kullanıcının isteği üzerine hayata geçirildi ve Frames'deki pek çok özellik gibi, geri bildirimlerin uygulamayı nasıl anlamlı biçimde şekillendirmeye devam ettiğini yansıtıyor."
+    },
+    {
+      "type": "paragraph",
+      "content": "Birinci satır artık lens bilginizin yanı sıra çekimin tam tarih ve saatini gösterirken ikinci satır konumu görüntülüyor. Bu sayede tam kare görünümünü açmadan önemli bilgilere tek bakışta kolayca ulaşabilirsiniz."
+    },
+    {
+      "type": "paragraph",
+      "content": "Bu sürüm aynı zamanda uygulamanın tüm ekranlarında akıcı ve duyarlı bir deneyim sunmak için küçük arayüz iyileştirmeleri ve performans geliştirmeleri içeriyor."
+    }
+  ],
+  "improvements": [
+    "Kare detay görünümünden doğrudan kareler arasında geçiş yapın",
+    "Genişletilmiş kare satırları artık ek ayrıntılar gösteriyor",
+    "Küçük arayüz iyileştirmeleri ve performans geliştirmeleri"
+  ],
+  "fixes": [],
+  "patches": [
+    {
+      "version": "1.25.1",
+      "description": "Performans ve kararlılık iyileştirmeleri"
+    }
+  ],
+  "meta_title": "Kareler arası hızlı gezinme - Frames",
+  "meta_description": "Kaydırma hareketleri ve araç çubuğu kontrolleriyle kareler arasında geçiş yapın, genişletilmiş satırlarda daha iyi okunabilirlik ve genel performans iyileştirmeleri."
+}

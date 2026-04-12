@@ -1,0 +1,53 @@
+{
+  "version": "1.25.0",
+  "version_short": "1.25",
+  "url_slug": "1-25-ios",
+  "platform": "ios",
+  "release_date": "2026-03-20T10:00:00.000Z",
+  "title": "Điều hướng giữa các khung hình nhanh hơn",
+  "summary": "Bản cập nhật này giúp bạn dễ dàng duyệt qua các cuộn phim với điều hướng mượt mà giữa các khung hình, cùng với cải tiến khả năng đọc và hiệu suất giao diện tổng thể.",
+  "sections": [
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.25.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.25.0-1@2x.png",
+      "alt": "Ứng dụng chụp ảnh phim Frames với điều hướng khung hình và các hàng mở rộng được cải tiến",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "paragraph",
+      "content": "Trước đây, để xem một khung hình khác trong cùng một cuộn phim, bạn phải đóng chế độ xem chi tiết hiện tại và mở một khung hình khác từ danh sách. Điều này khiến việc xem xét nhiều ảnh chậm hơn và lặp đi lặp lại, đặc biệt khi duyệt qua cả một cuộn phim."
+    },
+    {
+      "type": "paragraph",
+      "content": "Giờ đây bạn có thể di chuyển giữa các khung hình trực tiếp từ chế độ xem chi tiết bằng các điều khiển điều hướng trên thanh công cụ phía trên. Điều này giúp bạn giữ nguyên ngữ cảnh và nhanh chóng lướt qua các ảnh, làm cho việc xem xét và so sánh nhanh hơn và mượt mà hơn nhiều."
+    },
+    {
+      "type": "paragraph",
+      "content": "Các hàng khung hình mở rộng đã được cải tiến để hiển thị thêm chi tiết trên hai dòng có cấu trúc để dễ đọc hơn. Cải tiến này do một người dùng yêu cầu và, như nhiều tính năng trong Frames, phản ánh cách phản hồi tiếp tục định hình ứng dụng theo những cách có ý nghĩa."
+    },
+    {
+      "type": "paragraph",
+      "content": "Dòng đầu tiên giờ bao gồm ống kính cùng với ngày và giờ chính xác của ảnh chụp, trong khi dòng thứ hai hiển thị vị trí. Điều này giúp bạn dễ dàng quét thông tin chính một cách nhanh chóng mà không cần mở chế độ xem khung hình đầy đủ."
+    },
+    {
+      "type": "paragraph",
+      "content": "Bản phát hành này cũng bao gồm một số cải tiến giao diện nhỏ và cải tiến hiệu suất để mọi thứ hoạt động mượt mà và phản hồi nhanh trong toàn bộ ứng dụng."
+    }
+  ],
+  "improvements": [
+    "Vuốt giữa các khung hình trực tiếp từ chế độ xem chi tiết",
+    "Các hàng khung hình mở rộng giờ hiển thị thêm chi tiết",
+    "Cải tiến giao diện nhỏ và cải tiến hiệu suất"
+  ],
+  "fixes": [],
+  "patches": [
+    {
+      "version": "1.25.1",
+      "description": "Cải tiến hiệu suất và độ ổn định"
+    }
+  ],
+  "meta_title": "Điều hướng khung hình nhanh hơn - Frames",
+  "meta_description": "Di chuyển giữa các khung hình bằng cử chỉ vuốt và điều khiển thanh công cụ, cải thiện khả năng đọc các hàng mở rộng và tối ưu hóa hiệu suất tổng thể."
+}

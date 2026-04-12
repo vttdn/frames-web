@@ -1,0 +1,53 @@
+{
+  "version": "1.25.0",
+  "version_short": "1.25",
+  "url_slug": "1-25-ios",
+  "platform": "ios",
+  "release_date": "2026-03-20T10:00:00.000Z",
+  "title": "Nopeampi kehysten välinen navigointi",
+  "summary": "Tämä päivitys helpottaa filmirullien selaamista sujuvalla kehysten välisellä navigoinnilla sekä luettavuuden ja yleisen käyttöliittymän suorituskyvyn parannuksilla.",
+  "sections": [
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.25.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.25.0-1@2x.png",
+      "alt": "Frames-filmirullasovellus kehysnavigoinnilla ja parannetuilla laajennetuilla riveillä",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "paragraph",
+      "content": "Aiemmin saman filmirullan toisen kehyksen tarkasteleminen edellytti nykyisen yksityiskohtanäkymän sulkemista ja eri kehyksen avaamista listasta. Tämä teki useiden kuvien läpikäynnin hitaammaksi ja toistavammaksi, erityisesti koko filmirullan läpikäynnissä."
+    },
+    {
+      "type": "paragraph",
+      "content": "Nyt voit siirtyä kehysten välillä suoraan yksityiskohtanäkymästä käyttämällä yläreunan työkalupalkin navigointiohjaimia. Tämä pitää sinut kontekstissa ja antaa sinulle mahdollisuuden selata kuvia nopeasti, mikä tekee tarkastelusta ja vertailusta paljon nopeampaa ja sujuvampaa."
+    },
+    {
+      "type": "paragraph",
+      "content": "Laajennetut kehysrivit on parannettu näyttämään lisätietoja kahdella jäsennellyllä rivillä paremman luettavuuden vuoksi. Tämä parannus tuli käyttäjän pyynnöstä ja heijastaa – kuten monet Framesin ominaisuudet – miten palaute muokkaa sovellusta merkityksellisillä tavoilla."
+    },
+    {
+      "type": "paragraph",
+      "content": "Ensimmäinen rivi näyttää nyt objektiivisi sekä kuvan tarkan päivämäärän ja kellonajan, kun taas toinen rivi näyttää sijainnin. Tämä helpottaa tärkeiden tietojen nopeaa silmäilyä yhdellä silmäyksellä avaamatta koko kehysnäkymää."
+    },
+    {
+      "type": "paragraph",
+      "content": "Tämä julkaisu sisältää myös joukon pieniä käyttöliittymäparannuksia ja suorituskykyparannuksia pitääkseen kaiken toimivana sujuvasti ja vastaavasti koko sovelluksessa."
+    }
+  ],
+  "improvements": [
+    "Pyyhkäise kehysten välillä suoraan kehyksen yksityiskohtanäkymästä",
+    "Laajennetut kehysrivit näyttävät nyt lisätietoja",
+    "Pienet käyttöliittymäparannukset ja suorituskykyparannukset"
+  ],
+  "fixes": [],
+  "patches": [
+    {
+      "version": "1.25.1",
+      "description": "Suorituskyky- ja vakausparannukset"
+    }
+  ],
+  "meta_title": "Nopeampi kehysten navigointi - Frames",
+  "meta_description": "Siirry kehysten välillä pyyhkäisyelein ja työkalupalkin ohjaimilla, parannettu luettavuus laajennetuissa riveissä sekä yleiset suorituskykyparannukset."
+}

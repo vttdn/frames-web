@@ -1,0 +1,53 @@
+{
+  "version": "1.25.0",
+  "version_short": "1.25",
+  "url_slug": "1-25-ios",
+  "platform": "ios",
+  "release_date": "2026-03-20T10:00:00.000Z",
+  "title": "Navigasi frame yang lebih cepat",
+  "summary": "Pembaruan ini memudahkan kamu menjelajahi film dengan navigasi yang lancar antar frame, disertai peningkatan keterbacaan dan performa antarmuka secara keseluruhan.",
+  "sections": [
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.25.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.25.0-1@2x.png",
+      "alt": "Aplikasi fotografi film Frames dengan navigasi frame dan baris yang diperluas yang lebih baik",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "paragraph",
+      "content": "Sebelumnya, untuk melihat frame lain dalam film yang sama mengharuskan kamu menutup tampilan detail yang sedang dibuka, lalu membuka frame lain dari daftar. Cara ini membuat peninjauan beberapa foto lebih lambat dan berulang, terutama saat mengerjakan seluruh film."
+    },
+    {
+      "type": "paragraph",
+      "content": "Kini kamu bisa berpindah antar frame langsung dari tampilan detail menggunakan kontrol navigasi di toolbar atas. Ini membuatmu tetap dalam konteks dan memungkinkan kamu menelusuri foto-fotomu dengan cepat, sehingga peninjauan dan perbandingan menjadi jauh lebih cepat dan lancar."
+    },
+    {
+      "type": "paragraph",
+      "content": "Baris frame yang diperluas telah ditingkatkan untuk menampilkan detail tambahan dalam dua baris terstruktur demi keterbacaan yang lebih baik. Peningkatan ini diminta oleh pengguna, dan seperti banyak fitur di Frames, ini mencerminkan bagaimana masukan terus membentuk aplikasi secara bermakna."
+    },
+    {
+      "type": "paragraph",
+      "content": "Baris pertama kini menyertakan lensa beserta tanggal dan waktu persis pemotretan, sementara baris kedua menampilkan lokasi. Ini memudahkan pemindaian informasi penting sekilas tanpa perlu membuka tampilan frame lengkap."
+    },
+    {
+      "type": "paragraph",
+      "content": "Rilis ini juga mencakup serangkaian penyempurnaan antarmuka kecil dan peningkatan performa agar semuanya berjalan lancar dan responsif di seluruh aplikasi."
+    }
+  ],
+  "improvements": [
+    "Geser antar frame langsung dari tampilan detail frame",
+    "Baris frame yang diperluas kini menampilkan detail tambahan",
+    "Penyempurnaan UI kecil dan peningkatan performa"
+  ],
+  "fixes": [],
+  "patches": [
+    {
+      "version": "1.25.1",
+      "description": "Peningkatan performa dan stabilitas"
+    }
+  ],
+  "meta_title": "Navigasi frame lebih cepat - Frames",
+  "meta_description": "Pindah antar frame dengan gestur geser dan kontrol toolbar, keterbacaan baris yang diperluas lebih baik, serta peningkatan performa secara keseluruhan."
+}

@@ -1,0 +1,53 @@
+{
+  "version": "1.25.0",
+  "version_short": "1.25",
+  "url_slug": "1-25-ios",
+  "platform": "ios",
+  "release_date": "2026-03-20T10:00:00.000Z",
+  "title": "Snellere navigatie tussen filmframes",
+  "summary": "Deze update maakt het eenvoudiger om door je filmrollen te bladeren met vloeiende navigatie tussen filmframes, samen met verbeteringen in leesbaarheid en algehele interfaceprestaties.",
+  "sections": [
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.25.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.25.0-1@2x.png",
+      "alt": "Frames filmfotografie-app met navigatie tussen filmframes en verbeterde uitgebreide rijen",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "paragraph",
+      "content": "Voorheen moest je, om een ander filmframe in dezelfde filmrol te bekijken, de huidige detailweergave sluiten en een ander frame vanuit de lijst openen. Dit maakte het beoordelen van meerdere opnames langzamer en herhalender, zeker als je een hele filmrol doornam."
+    },
+    {
+      "type": "paragraph",
+      "content": "Je kunt nu direct vanuit de detailweergave tussen filmframes navigeren via de navigatieknoppen in de bovenste werkbalk. Zo blijf je in context en kun je snel door je opnames bladeren, wat beoordeling en vergelijking veel sneller en vloeiender maakt."
+    },
+    {
+      "type": "paragraph",
+      "content": "Uitgebreide framerijen zijn verbeterd om extra details op twee gestructureerde regels weer te geven voor betere leesbaarheid. Deze verbetering was gevraagd door een gebruiker en weerspiegelt – zoals veel functies in Frames – hoe feedback de app op betekenisvolle manieren blijft vormen."
+    },
+    {
+      "type": "paragraph",
+      "content": "De eerste regel toont nu je lens samen met de exacte datum en tijd van de opname, terwijl de tweede regel de locatie weergeeft. Zo kun je in één oogopslag snel de belangrijkste informatie scannen zonder de volledige frameweergave te openen."
+    },
+    {
+      "type": "paragraph",
+      "content": "Deze release bevat ook een reeks kleine interface-verbeteringen en prestatieoptimalisaties om alles soepel en responsief te houden in de hele app."
+    }
+  ],
+  "improvements": [
+    "Veeg direct vanuit de framedetailweergave tussen filmframes",
+    "Uitgebreide framerijen tonen nu extra details",
+    "Kleine UI-verbeteringen en prestatieoptimalisaties"
+  ],
+  "fixes": [],
+  "patches": [
+    {
+      "version": "1.25.1",
+      "description": "Prestatie- en stabiliteitverbeteringen"
+    }
+  ],
+  "meta_title": "Snellere navigatie tussen filmframes - Frames",
+  "meta_description": "Navigeer tussen filmframes met veeggebaren en werkbalkknoppen, verbeterde leesbaarheid van uitgebreide rijen en algehele prestatieverbeteringen."
+}

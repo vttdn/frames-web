@@ -1,0 +1,53 @@
+{
+  "version": "1.25.0",
+  "version_short": "1.25",
+  "url_slug": "1-25-ios",
+  "platform": "ios",
+  "release_date": "2026-03-20T10:00:00.000Z",
+  "title": "Navigation rapide entre les frames",
+  "summary": "Cette mise à jour facilite la navigation entre vos pellicules grâce à des contrôles fluides permettant de passer d'une frame à l'autre, avec des améliorations de lisibilité et de performance de l'interface.",
+  "sections": [
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.25.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.25.0-1@2x.png",
+      "alt": "Application de photographie argentique Frames avec navigation entre frames et rangées développées améliorées",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "paragraph",
+      "content": "Jusqu'à présent, accéder à une autre frame dans la même pellicule nécessitait de fermer la vue détail en cours, puis d'en ouvrir une autre depuis la liste. Cette façon de faire ralentissait la révision de plusieurs prises, surtout lorsqu'il s'agissait de parcourir une pellicule entière."
+    },
+    {
+      "type": "paragraph",
+      "content": "Vous pouvez désormais naviguer directement entre les frames depuis la vue détail, grâce aux contrôles de navigation intégrés dans la barre d'outils supérieure. Cela vous permet de rester dans le contexte de votre travail et de parcourir rapidement vos prises, rendant la révision et la comparaison bien plus rapides et fluides."
+    },
+    {
+      "type": "paragraph",
+      "content": "Les rangées de frames développées ont été améliorées pour afficher davantage de détails sur deux lignes structurées, pour une meilleure lisibilité. Cette amélioration a été suggérée par un utilisateur et, comme beaucoup de fonctionnalités dans Frames, elle illustre comment les retours des utilisateurs continuent de façonner l'application de façon significative."
+    },
+    {
+      "type": "paragraph",
+      "content": "La première ligne affiche désormais votre objectif ainsi que la date et l'heure exactes de la prise de vue, tandis que la seconde affiche la localisation. Cela facilite la lecture rapide des informations essentielles sans avoir à ouvrir la vue détail complète."
+    },
+    {
+      "type": "paragraph",
+      "content": "Cette version comprend également une série de petits ajustements d'interface et d'améliorations des performances pour que tout fonctionne avec fluidité et réactivité tout au long de l'utilisation de l'app."
+    }
+  ],
+  "improvements": [
+    "Faire défiler les frames directement depuis la vue détail",
+    "Les rangées de frames développées affichent désormais des détails supplémentaires",
+    "Petits ajustements de l'interface et améliorations des performances"
+  ],
+  "fixes": [],
+  "patches": [
+    {
+      "version": "1.25.1",
+      "description": "Améliorations des performances et de la stabilité"
+    }
+  ],
+  "meta_title": "Navigation rapide entre les frames - Frames",
+  "meta_description": "Naviguez entre les frames par geste de balayage et contrôles dans la barre d'outils, lisibilité améliorée des rangées développées et meilleures performances."
+}

@@ -1,0 +1,53 @@
+{
+  "version": "1.25.0",
+  "version_short": "1.25",
+  "url_slug": "1-25-ios",
+  "platform": "ios",
+  "release_date": "2026-03-20T10:00:00.000Z",
+  "title": "Szybsza nawigacja między klatkami",
+  "summary": "Ta aktualizacja ułatwia przeglądanie filmów dzięki płynnej nawigacji między klatkami, wraz z ulepszeniami czytelności i ogólnej wydajności interfejsu.",
+  "sections": [
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.25.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.25.0-1@2x.png",
+      "alt": "Aplikacja do fotografii analogowej Frames z nawigacją między klatkami i ulepszonymi rozwiniętymi wierszami",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "paragraph",
+      "content": "Wcześniej, aby zobaczyć inną klatkę z tego samego filmu, trzeba było zamknąć bieżący widok szczegółowy i otworzyć inną klatkę z listy. To sprawiało, że przeglądanie wielu ujęć było wolniejsze i bardziej monotonne, szczególnie przy pracy z całym filmem."
+    },
+    {
+      "type": "paragraph",
+      "content": "Teraz możesz poruszać się między klatkami bezpośrednio z widoku szczegółowego za pomocą kontrolek nawigacyjnych na górnym pasku narzędzi. Dzięki temu pozostajesz w kontekście i możesz szybko przeglądać swoje ujęcia, co sprawia, że recenzja i porównywanie są znacznie szybsze i płynniejsze."
+    },
+    {
+      "type": "paragraph",
+      "content": "Rozwinięte wiersze klatek zostały ulepszone, aby wyświetlać dodatkowe szczegóły w dwóch ustrukturyzowanych wierszach dla lepszej czytelności. To ulepszenie zostało zaproponowane przez użytkownika i – jak wiele funkcji w Frames – odzwierciedla, jak opinie nadal kształtują aplikację w znaczący sposób."
+    },
+    {
+      "type": "paragraph",
+      "content": "Pierwszy wiersz zawiera teraz obiektyw wraz z dokładną datą i godziną ujęcia, podczas gdy drugi wiersz pokazuje lokalizację. Ułatwia to szybkie skanowanie kluczowych informacji bez otwierania pełnego widoku klatki."
+    },
+    {
+      "type": "paragraph",
+      "content": "To wydanie zawiera również szereg drobnych ulepszeń interfejsu i poprawek wydajności, aby wszystko działało płynnie i responsywnie przez całą aplikację."
+    }
+  ],
+  "improvements": [
+    "Przesuń między klatkami bezpośrednio z widoku szczegółowego klatki",
+    "Rozwinięte wiersze klatek wyświetlają teraz dodatkowe szczegóły",
+    "Drobne ulepszenia interfejsu i poprawki wydajności"
+  ],
+  "fixes": [],
+  "patches": [
+    {
+      "version": "1.25.1",
+      "description": "Ulepszenia wydajności i stabilności"
+    }
+  ],
+  "meta_title": "Szybsza nawigacja między klatkami - Frames",
+  "meta_description": "Poruszaj się między klatkami gestami przeciągania i kontrolkami paska narzędzi, lepsza czytelność rozszerzonych wierszy i ogólne ulepszenia wydajności."
+}

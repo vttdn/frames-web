@@ -1,0 +1,53 @@
+{
+  "version": "1.25.0",
+  "version_short": "1.25",
+  "url_slug": "1-25-ios",
+  "platform": "ios",
+  "release_date": "2026-03-20T10:00:00.000Z",
+  "title": "Hurtigere navigation mellem rammer",
+  "summary": "Denne opdatering gør det nemmere at gennemse dine film med flydende navigation mellem rammer, samt forbedringer af læsbarhed og den overordnede grænsefladeydelse.",
+  "sections": [
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.25.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.25.0-1@2x.png",
+      "alt": "Frames filmfotografi-app med rammenavigation og forbedrede udvidede rækker",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tidligere krævede det at se en anden ramme i samme film, at man lukkede den aktuelle detaljvisning og åbnede en anden ramme fra listen. Det gjorde gennemgangen af flere billeder langsommere og mere gentagende – særligt når man skulle igennem en hel film."
+    },
+    {
+      "type": "paragraph",
+      "content": "Du kan nu bevæge dig mellem rammer direkte fra detaljvisningen ved hjælp af navigationsknapperne i den øverste værktøjslinje. Det holder dig i konteksten og giver dig mulighed for hurtigt at blade gennem dine billeder, hvilket gør gennemgang og sammenligning meget hurtigere og mere flydende."
+    },
+    {
+      "type": "paragraph",
+      "content": "Udvidede rammerækker er blevet forbedret til at vise yderligere detaljer på to strukturerede linjer for bedre læsbarhed. Denne forbedring blev efterspurgt af en bruger og afspejler – som mange funktioner i Frames – hvordan feedback fortsætter med at forme appen på meningsfulde måder."
+    },
+    {
+      "type": "paragraph",
+      "content": "Den første linje viser nu dit objektiv samt den nøjagtige dato og tid for billedet, mens den anden linje viser placeringen. Det gør det nemmere hurtigt at scanne vigtige oplysninger på et øjekast uden at åbne den fulde rammevisning."
+    },
+    {
+      "type": "paragraph",
+      "content": "Denne version indeholder også en række mindre grænsefladeforfinelser og ydelsesforbedringer for at holde alt kørende glat og responsivt i hele appen."
+    }
+  ],
+  "improvements": [
+    "Skub mellem rammer direkte fra rammedetaljvisningen",
+    "Udvidede rammerækker viser nu yderligere detaljer",
+    "Mindre UI-forfinelser og ydelsesforbedringer"
+  ],
+  "fixes": [],
+  "patches": [
+    {
+      "version": "1.25.1",
+      "description": "Ydelses- og stabilitetsforbedringer"
+    }
+  ],
+  "meta_title": "Hurtigere navigation mellem rammer - Frames",
+  "meta_description": "Bevæg dig mellem rammer med strygebevægelser og værktøjslinjeknapper, forbedret læsbarhed af udvidede rækker og generelle ydelsesforbedringer."
+}

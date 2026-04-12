@@ -1,0 +1,53 @@
+{
+  "version": "1.25.0",
+  "version_short": "1.25",
+  "url_slug": "1-25-ios",
+  "platform": "ios",
+  "release_date": "2026-03-20T10:00:00.000Z",
+  "title": "Navigare rapidă între cadre",
+  "summary": "Această actualizare facilitează parcurgerea filmelor cu o navigare fluidă între cadre, alături de îmbunătățiri ale lizibilității și performanței generale a interfeței.",
+  "sections": [
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.25.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.25.0-1@2x.png",
+      "alt": "Aplicația de fotografie analogică Frames cu navigare între cadre și rânduri extinse îmbunătățite",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "paragraph",
+      "content": "Anterior, vizualizarea unui alt cadru din același film necesita închiderea vederii de detaliu curente și deschiderea unui cadru diferit din listă. Aceasta făcea ca revizuirea mai multor fotografii să fie mai lentă și repetitivă, în special la parcurgerea unui film întreg."
+    },
+    {
+      "type": "paragraph",
+      "content": "Acum poți naviga între cadre direct din vederea de detaliu, folosind controalele de navigare din bara de instrumente superioară. Astfel rămâi în context și poți trece rapid prin fotografiile tale, făcând revizuirea și compararea mult mai rapide și fluide."
+    },
+    {
+      "type": "paragraph",
+      "content": "Rândurile de cadre extinse au fost îmbunătățite pentru a afișa detalii suplimentare pe două linii structurate, pentru o lizibilitate mai bună. Această îmbunătățire a fost solicitată de un utilizator și, ca multe funcții din Frames, reflectă modul în care feedback-ul continuă să modeleze aplicația în mod semnificativ."
+    },
+    {
+      "type": "paragraph",
+      "content": "Prima linie include acum obiectivul împreună cu data și ora exacte ale fotografiei, în timp ce a doua linie afișează locația. Astfel poți scana rapid informațiile esențiale dintr-o privire, fără a deschide vederea completă a cadrului."
+    },
+    {
+      "type": "paragraph",
+      "content": "Această versiune include și o serie de mici ajustări ale interfeței și îmbunătățiri de performanță pentru ca totul să funcționeze fluid și receptiv în întreaga aplicație."
+    }
+  ],
+  "improvements": [
+    "Glisează între cadre direct din vederea de detaliu",
+    "Rândurile de cadre extinse afișează acum detalii suplimentare",
+    "Mici ajustări ale interfeței și îmbunătățiri de performanță"
+  ],
+  "fixes": [],
+  "patches": [
+    {
+      "version": "1.25.1",
+      "description": "Îmbunătățiri de performanță și stabilitate"
+    }
+  ],
+  "meta_title": "Navigare rapidă între cadre - Frames",
+  "meta_description": "Navighează între cadre cu gesturi de glisare și controale în bara de instrumente, lizibilitate îmbunătățită a rândurilor extinse și performanță optimizată."
+}

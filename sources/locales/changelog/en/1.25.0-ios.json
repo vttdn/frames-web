@@ -1,0 +1,53 @@
+{
+  "version": "1.25.0",
+  "version_short": "1.25",
+  "url_slug": "1-25-ios",
+  "platform": "ios",
+  "release_date": "2026-03-20T10:00:00.000Z",
+  "title": "Faster Frame Navigation",
+  "summary": "This update makes it easier to move through your film rolls with fluid navigation between frames, alongside refinements to readability and overall interface performance.",
+  "sections": [
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.25.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.25.0-1@2x.png",
+      "alt": "Frames app frame navigation and improved expanded rows",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "paragraph",
+      "content": "Previously, viewing another frame in the same roll required closing the current detail view and opening a different frame from the list. This made reviewing multiple shots slower and more repetitive, especially when working through an entire roll."
+    },
+    {
+      "type": "paragraph",
+      "content": "You can now move between frames directly from the detail view using navigation controls in the top toolbar. This keeps you in context and allows you to quickly step through your shots, making review and comparison much faster and more fluid."
+    },
+    {
+      "type": "paragraph",
+      "content": "Expanded frame rows have been enhanced to display additional details across two structured lines for improved readability. This improvement was requested by a user, and like many features in Frames, it reflects how feedback continues to shape the app in meaningful ways."
+    },
+    {
+      "type": "paragraph",
+      "content": "The first line now includes your lens along with the exact date and time of the shot, while the second line shows the location. This makes it easier to quickly scan key information at a glance without opening the full frame view."
+    },
+    {
+      "type": "paragraph",
+      "content": "This release also includes a series of minor interface refinements and performance improvements to keep everything running smoothly and feeling responsive throughout the app."
+    }
+  ],
+  "improvements": [
+    "Swipe between frames directly from the frame detail view",
+    "Expanded frame rows now show additional details",
+    "Minor UI refinements and performance improvements"
+  ],
+  "fixes": [],
+  "patches": [
+    {
+      "version": "1.25.1",
+      "description": "Performance and stability improvements"
+    }
+  ],
+  "meta_title": "Faster Frame Navigation - Frames",
+  "meta_description": "Move between frames with swipe gestures and toolbar controls, improved readability of expanded rows, and overall performance enhancements."
+}
