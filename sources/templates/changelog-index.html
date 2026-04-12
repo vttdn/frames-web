@@ -53,273 +53,144 @@
     <style>
       {{ changelog_css | safe }}
     </style>
+    <!-- <link rel="stylesheet" href="/lib/css/newarticle.css"> -->
   </head>
   <body>
 
-    <header class="main-header wrapper">
-        <div class="container-header grid">
-            <a href="{{ lang_config.path }}" class="logo leading" aria-label="{{ locale_data.header.logo_aria_label }}">
-                {{ locale_data.header.logo_text }}
-            </a>
-
-            <nav class="navigation center" aria-label="{{ locale_data.header.navigation.aria_label }}">
-                <ul class="flex flex-row">
-                    <li class="desktop-only"><a href="{{ locale_data.meta.canonical_url }}#features">{{ locale_data.header.navigation.features }}</a></li>
-                    <li><a onclick="return false;" class="tooltip" data-tooltip="{{ locale_data.tooltip.label_coming_soon }}" href="{{ lang_config.path }}{{ locale_data.urls.documentation }}">{{ locale_data.header.navigation.documentation }}</a></li>
-                    <li><a aria-current="page" href="{{ lang_config.path }}{{ locale_data.urls.changelog }}">{{ locale_data.header.navigation.changelog }}</a></li>
-                </ul>
-            </nav>
-
-            <div class="trailing flex flex-row flex-center gap-sm">
-                <button class="btn btn-sm btn-dark mobile-hidden" id="button-social-share"
-                    aria-controls="overlay" aria-expanded="false">
-                    <span>{{ locale_data.header.buttons.share }}</span>
-                </button>
-                <a href="{{ locale_data.urls.appstore_macos }}" class="btn btn-sm btn-light desktop-up">{{ locale_data.header.buttons.download }}</a>
-                <a href="{{ locale_data.urls.appstore_ios }}" class="btn btn-sm btn-light tablet-only">{{ locale_data.header.buttons.download }}</a>
-                <a href="{{ locale_data.urls.appstore_ios }}" class="btn btn-sm btn-dark desktop-hidden">{{ locale_data.header.buttons.download }}</a>
-                
-                <button id="menu-toggle" class="mobile-menu-toggle"
-                    aria-label="{{ locale_data.mobile_menu.open_aria_label }}"
-                    aria-controls="overlay"
-                    aria-expanded="false">
-                    <img src="/lib/img/icn/menu.svg" alt="Menu Icon" width="32" height="32" loading="lazy" aria-hidden="true">
-                </button>
-            </div>
-        </div>
+    <header class="top-toolbar">
+      <div class="top-toolbar-inner">
+        <a href="{{ lang_config.path }}" class="logo">Frames</a>
+        <nav class="top-toolbar-buttons">
+          <a href="{{ lang_config.path }}{{ locale_data.urls.changelog }}" class="btn btn-small btn-outlined">{{ locale_data.header.navigation.changelog }}</a>
+          <a href="{{ locale_data.urls.appstore_ios }}" class="btn btn-small btn-filled">{{ locale_data.header.buttons.download }}</a>
+        </nav>
+      </div>
     </header>
 
-    <main class="changelog wrapper">
-      <header class="changelog-header grid grid-4col">
-        <div class="col-start-2 col-span-2">
+    <main class="changelog">
+      <header class="changelog-index-header wrapper">
           <h1><a href="{{ lang_config.path }}{{ locale_data.urls.changelog }}">{{ locale_data.changelog.heading }}</a></h1>
-        </div>
       </header>
 
-      {% for entry in entries %}
-      <article class="grid grid-4col" itemscope itemtype="https://schema.org/BlogPosting">
-        <link itemprop="url" href="https://withframes.com/changelog/{{ entry.url_slug }}/" />
-        <div class="release-info">
-          <div class="release-info-inner flex flex-center flex-justify-start gap-sm">
-
-          <a href="{{ lang_config.path }}{{ locale_data.urls.changelog }}{{ entry.url_slug }}/" class="flex flex-center flex-justify-start gap-sm">
-            <span class="release-number">{{ locale_data.changelog.labels['platform_' + entry.platform] }} {{ entry.version_short }}</span>
-            <time datetime="{{ entry.release_date }}" class="release-datetime">{{ entry.formatted_date }}</time>
+      <div class="changelog-index-list wrapper">
+        {% for entry in entries %}
+        <article>
+          <a href="{{ lang_config.path }}{{ locale_data.urls.changelog }}{{ entry.url_slug }}/" class="changelog-index-article">
+            <div class="changelog-index-article-img">
+              {% set first_img = namespace(found=false) %}
+              {% for section in entry.sections %}
+                {% if not first_img.found and section.type == 'media' and section.image %}
+                  {% set first_img.found = true %}
+                  <img src="{{ section.image }}"{% if section.image_2x %} srcset="{{ section.image_2x }} 2x"{% endif %} alt="{{ section.alt | default('') }}"{% if section.width %} width="{{ section.width }}"{% endif %}{% if section.height %} height="{{ section.height }}"{% endif %} loading="lazy">
+                {% endif %}
+              {% endfor %}
+            </div>
+            <header class="changelog-index-article-header">
+                <p class="changelog-index-release-number">{{ locale_data.changelog.labels['platform_' + entry.platform] }} {{ entry.version_short }}</p>
+                <h2 class="changelog-index-h2">{{ entry.title }}</h2>
+                <time datetime="{{ entry.release_date }}" class="changelog-index-release-date">{{ entry.formatted_date }}</time>
+            </header>
           </a>
-
-          {% if loop.first %}
-          <span class="changelog-dot">·</span>
-          <a href="{{ lang_config.path }}{{ locale_data.urls.changelog }}" class="release-page-title">
-            <span>{{ locale_data.changelog.heading }}</span>
-          </a>
-          {% endif %}
-          </div>
-        </div>
-
-        <div class="changelog-article-main col-span-2">
-          <h2 class="h1" itemprop="headline"><a href="{{ lang_config.path }}{{ locale_data.urls.changelog }}{{ entry.url_slug }}/">{{ entry.title }}</a></h2>
-          <p itemprop="description">{{ entry.summary }}</p>
-          <meta itemprop="datePublished" content="{{ entry.release_date }}" />
-          {% if entry.og_image_url and entry.og_image_url != '/og-image.jpg' %}
-          <link itemprop="image" href="https://withframes.com{{ entry.og_image_url }}" />
-          <meta itemprop="width" content="1200" />
-          <meta itemprop="height" content="630" />
-          {% endif %}
-
-          {% for section in entry.sections %}
-          {% if section.type == 'heading' %}
-          <h{{ section.level }}>{{ section.content }}</h{{ section.level }}>
-          {% elif section.type == 'paragraph' %}
-          <p>
-            {{ section.content }}
-            {% if section.link %}
-            <a href="{{ section.link.url }}">{{ section.link.text }}</a>
-            {% endif %}
-          </p>
-          {% elif section.type == 'list' %}
-          <ul>
-            {% for item in section['items'] %}
-            <li>
-              <div class="bullet-point">
-                {% if item.title %}<strong>{{ item.title }}</strong>: {% endif %}{{ item.description }}
-              </div>
-            </li>
-            {% endfor %}
-          </ul>
-          {% elif section.type == 'media' %}
-          <div class="changelog-media">
-            <figure class="tile container-ratio ratio-4-3">
-                <div class="tile-inner">
-                    <img src="{{ section.image }}"
-                        srcset="{{ section.image }} 1x, {{ section.image_2x }} 2x"
-                        alt="{{ section.alt }}"
-                        width="{{ section.width }}" height="{{ section.height }}" loading="lazy">
-                </div>
-            </figure>
-          </div>
-          {% endif %}
-          {% endfor %}
-
-          <div class="changelog-details flex flex-col">
-            {% if entry.improvements %}
-            <details>
-                    <summary class="flex flex-justify-between flex-center">
-                        <h3>{{ locale_data.changelog.labels.improvements }} ({{ entry.improvements|length }})</h3>
-                    </summary>
-                    <ul>
-                      {% for improvement in entry.improvements %}
-                      <li>
-                        <div class="bullet-point">
-                          {{ improvement }}
-                        </div>
-                      </li>
-                      {% endfor %}
-                    </ul>
-                </details>
-            {% endif %}
-
-            {% if entry.fixes %}
-            <details>
-                    <summary class="flex flex-justify-between flex-center">
-                        <h3>{{ locale_data.changelog.labels.fixes }} ({{ entry.fixes|length }})</h3>
-                    </summary>
-                    <ul>
-                      {% for fix in entry.fixes %}
-                      <li>
-                        <div class="bullet-point">
-                          {% if fix is string %}
-                          {{ fix }}
-                          {% else %}
-                          <strong>{{ fix.title }}</strong>: {{ fix.description }}
-                          {% endif %}
-                        </div>
-                      </li>
-                      {% endfor %}
-                    </ul>
-                </details>
-            {% endif %}
-
-            {% if entry.patches %}
-            <details>
-                    <summary class="flex flex-justify-between flex-center">
-                        <h3>{{ locale_data.changelog.labels.patches }} ({{ entry.patches|length }})</h3>
-                    </summary>
-                    <ul>
-                      {% for patch in entry.patches %}
-                      <li>
-                        <div class="bullet-point">
-                          <span>{{ patch.version }}</span><span>:</span> <span>{{ patch.description }}</span>
-                        </div>
-                      </li>
-                      {% endfor %}
-                    </ul>
-                </details>
-            {% endif %}
-          </div>
-        </div>
-      </article>
-
-      {% if not loop.last %}
-      <hr class="changelog-divider">
-      {% endif %}
-      {% endfor %}
+        </article>
+        {% endfor %}
+      </div>
 
       {% if total_pages > 1 %}
-      <nav class="pagination grid grid-4col" aria-label="Changelog pagination">
-        <div></div>
-        <div class="pagination-inner col-span-2 flex gap-sm2">
-          {% if page_number > 1 %}
-          <div class="pagination-prev col-start-2 tile">
-            {% if page_number == 2 %}
-            <a href="{{ lang_config.path }}{{ locale_data.urls.changelog }}" class="tile-inner">
-              <span class="pagination-label">← {{ locale_data.changelog.pagination.previous }}</span>
-              <span class="pagination-title">{{ locale_data.changelog.pagination.newer_posts }}</span>
-            </a>
-            {% else %}
-            <a href="{{ lang_config.path }}{{ locale_data.urls.changelog }}page/{{ page_number - 1 }}/" class="tile-inner">
-              <span class="pagination-label">← {{ locale_data.changelog.pagination.previous }}</span>
-              <span class="pagination-title">{{ locale_data.changelog.pagination.newer_posts }}</span>
-            </a>
-            {% endif %}
-          </div>
-          {% endif %}
-
-          {% if page_number < total_pages %}
-          <div class="pagination-next tile">
-            <a href="{{ lang_config.path }}{{ locale_data.urls.changelog }}page/{{ page_number + 1 }}/" class="tile-inner">
-              <span class="pagination-label">{{ locale_data.changelog.pagination.next }} →</span>
-              <span class="pagination-title">{{ locale_data.changelog.pagination.older_posts }}</span>
-            </a>
-          </div>
-          {% endif %}
-        </div>
+      <nav class="pagination wrapper-small" aria-label="Changelog pagination">
+        <a href="{% if page_number == 2 %} {{ lang_config.path }}{{ locale_data.urls.changelog }} {% else %} {{ lang_config.path }}{{ locale_data.urls.changelog }}page/{{ page_number - 1 }}/{% endif %}" class="btn-pagination {% if page_number == 1 %} btn-pagination-disabled {% endif %}">
+          <img src="/lib/newarticle/icons/chevron.left.svg" alt="{{ locale_data.changelog.pagination.newer_posts }}" width="17" height="17">
+        </a>
+        <span class="pagination-content">
+          {{ page_number }} {{ locale_data.changelog.pagination.of }} {{ total_pages }}
+        </span>
+        <a href="{{ lang_config.path }}{{ locale_data.urls.changelog }}page/{{ page_number + 1 }}/" class="btn-pagination {% if page_number == total_pages %} btn-pagination-disabled {% endif %}">
+          <img src="/lib/newarticle/icons/chevron.right.svg" alt="{{ locale_data.changelog.pagination.older_posts }}" width="17" height="17">
+        </a>
       </nav>
       {% endif %}
     </main>
 
-    <aside class="wrapper">
-        <section class="contact tile container-ratio ratio-2-1" aria-labelledby="contact-heading">
-            <div class="contact-inner flex flex-col flex-center flex-justify-center">
-                <h2 id="contact-heading">{{ locale_data.contact.heading }}</h2>
-                <a href="mailto:&#98;&#111;&#110;&#106;&#111;&#117;&#114;&#64;&#119;&#105;&#116;&#104;&#102;&#114;&#97;&#109;&#101;&#115;&#46;&#99;&#111;&#109;" class="btn btn-md btn-secondary">{{ locale_data.contact.button_text }}</a>
-            </div>
-        </section>
-    </aside>
+    <footer class="footer">
+    <div class="footer-content wrapper-large">
+      <div class="footer-first-col">
+        <h2 class="footer-title">{{ locale_data.newfooter.title1 }}</h2>
+        <ul>
+          <li class="footer-link-large">
+            <a href="{{ lang_config.path }}">{{ locale_data.newfooter.section1.features }}</a>
+          </li>
+          <li class="footer-link-large">
+            <a href="{{ lang_config.path }}{{ locale_data.urls.changelog }}">{{ locale_data.header.navigation.changelog }}</a>
+          </li>
+          <li class="footer-link-large">
+            <a href="{{ lang_config.path }}{{ locale_data.urls.privacy }}">{{ locale_data.newfooter.section1.privacy }}</a>
+          </li>
+          <li class="footer-link-large">
+            <a href="{{ global_config.urls.terms }}" target="_blank" rel="noopener noreferrer">{{ locale_data.newfooter.section1.terms }}</a>
+          </li>
+          <li class="footer-link-large">
+            <a href="mailto:&#98;&#111;&#110;&#106;&#111;&#117;&#114;&#64;&#119;&#105;&#116;&#104;&#102;&#114;&#97;&#109;&#101;&#115;&#46;&#99;&#111;&#109;">{{ locale_data.newfooter.section1.contact }}</a>
+          </li>
+          <li class="footer-link-large">
+            <a href="{% if lang in available_blog_languages %}{{ lang_config.path }}{{ locale_data.urls.blog }}{% else %}/blog/{% endif %}">{{ locale_data.newfooter.section1.blog }}</a>
+          </li>
+        </ul>
+      </div>
 
-    <footer class="main-footer wrapper flex flex-col gap-6xl">
-        <div class="footer-links grid grid-4col">
-            <a href="{{ lang_config.path }}" aria-label="{{ locale_data.header.logo_aria_label }}" class="w-fit">
-                <img src="/lib/img/logo/frames.svg" alt="{{ locale_data.footer.logo_alt }}" width="40" height="40">
-            </a>
-            <ul class="flex flex-col gap-sm2">
-                <li><h3>{{ locale_data.footer.connect.heading }}</h3></li>
-                <li><a href="https://www.instagram.com/{{ locale_data.social.instagram if locale_data.social is defined and locale_data.social.instagram else global_config.urls.social.handle.instagram }}" target="_blank" rel="noopener noreferrer">{{
-                        locale_data.footer.connect.instagram }}</a></li>
-                <li><a href="https://www.threads.net/@with.frames" target="_blank" rel="noopener noreferrer">{{ locale_data.footer.connect.threads }}</a></li>
-                <li><a href="https://www.facebook.com/framesapp" target="_blank" rel="noopener noreferrer">{{ locale_data.footer.connect.facebook }}</a></li>
-                <li><a href="https://bsky.app/profile/withframes.com" target="_blank" rel="noopener noreferrer">{{ locale_data.footer.connect.bluesky }}</a></li>
-                <li><a href="https://mastodon.social/@frames" target="_blank" rel="me noopener noreferrer">{{ locale_data.footer.connect.mastodon }}</a></li>
-                <li><a href="{{ global_config.urls.social.linkedin }}" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
-                <li><a href="{{ global_config.urls.social.pinterest }}" target="_blank" rel="noopener noreferrer">Pinterest</a></li>
-                <li><a href="https://x.com/{{ locale_data.social.twitter if locale_data.social is defined and locale_data.social.twitter else global_config.urls.social.handle.twitter }}" target="_blank" rel="noopener noreferrer">{{
-                        locale_data.footer.connect.twitter }}</a></li>
-                <li><a href="{{ global_config.urls.social.reddit }}" target="_blank" rel="noopener noreferrer">Reddit</a></li>
-            </ul>
-            <ul class="flex flex-col gap-sm2">
-                <li><h3>{{ locale_data.footer.resources.heading }}</h3></li>
-                <li><a href="{{ lang_config.path }}{{ locale_data.urls.privacy }}">{{ locale_data.footer.resources.privacy_policy }}</a></li>
-                <li><a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/" target="_blank" rel="noopener noreferrer">{{ locale_data.footer.resources.terms_of_service }}</a></li>
-                <li><a onclick="return false;" class="tooltip" data-tooltip="{{ locale_data.tooltip.label_coming_soon }}" href="{{ lang_config.path }}{{ locale_data.urls.documentation }}">{{ locale_data.header.navigation.documentation }}</a></li>
-                <li><a href="{{ lang_config.path }}{{ locale_data.urls.changelog }}">{{ locale_data.footer.resources.changelog }}</a></li>
-                <!-- <li><a href="{% if lang == 'en' %}/changelog/rss/index.rss{% else %}/{{ lang }}/changelog/rss/index.rss{% endif %}">{{ locale_data.footer.resources.rss }}</a></li> -->
-                <li><a href="https://www.youtube.com/@withframes" target="_blank" rel="noopener noreferrer">{{ locale_data.footer.resources.youtube }}</a></li>
-                <li><a href="{% if lang in available_blog_languages %}{{ lang_config.path }}{{ locale_data.urls.blog }}{% else %}/blog/{% endif %}">{{ locale_data.footer.resources.blog }}</a></li>
-            </ul>
-            <ul class="flex flex-col gap-sm2">
-                <li><h3>{{ locale_data.footer.product.heading }}</h3></li>
-                <li><a href="{{ locale_data.urls.appstore_ios }}">{{ locale_data.footer.product.frames_ios }}</a></li>
-                <li><a href="{{ locale_data.urls.appstore_macos }}">{{ locale_data.footer.product.frames_macos }}</a></li>
-            </ul>
-        </div>
+      <div class="footer-second-col">
+        <h2 class="footer-title">{{ locale_data.newfooter.title2 }}</h2>
+        <ul>
+          <li class="footer-link-small">
+            <a href="{{ locale_data.urls.appstore_ios }}">{{ locale_data.newfooter.section2.framesios }}</a>
+          </li>
+          <li class="footer-link-small">
+            <a href="{{ locale_data.urls.appstore_macos }}">{{ locale_data.newfooter.section2.framesmacos }}</a>
+          </li>
+        </ul>
+      </div>
 
-        <div class="footer-bottom flex flex-row flex-justify-between flex-center">
-            <div class="flex flex-center flex-justify-center gap-lg">
-                <p>© 2026 <a href="https://vnn.io/" rel="noopener noreferrer author" target="_blank">Vincent Tantardini</a>.</p>
-                {% if locale_data.footer.compliance %}
-                <p class="flex flex-center flex-justify-center mobile-hidden">
-                    <img src="/lib/img/icn/checkmark-shield.svg" width="14" height="14" alt="" loading="lazy" aria-hidden="true" class="compliance-icon">
-                    {{ locale_data.footer.compliance }}
-                </p>
-                {% endif %}
-            </div>
+      <div class="footer-third-col">
+        <h2 class="footer-title">{{ locale_data.newfooter.title3 }}</h2>
+        <ul>
+          <li class="footer-link-small">
+            <a href="{{ global_config.urls.social.instagram }}" target="_blank" rel="noopener noreferrer">{{ locale_data.newfooter.section3.instagram }}</a>
+          </li>
+          <li class="footer-link-small">
+            <a href="{{ global_config.urls.social.threads }}" target="_blank" rel="noopener noreferrer">{{ locale_data.newfooter.section3.threads }}</a>
+          </li>
+          <li class="footer-link-small">
+            <a href="{{ global_config.urls.social.twitter }}" target="_blank" rel="noopener noreferrer">{{ locale_data.newfooter.section3.twitter }}</a>
+          </li>
+          <li class="footer-link-small">
+            <a href="{{ global_config.urls.social.bluesky }}" target="_blank" rel="noopener noreferrer">{{ locale_data.newfooter.section3.bluesky }}</a>
+          </li>
+          <li class="footer-link-small">
+            <a href="{{ global_config.urls.social.mastodon }}" target="_blank" rel="noopener noreferrer">{{ locale_data.newfooter.section3.mastodon }}</a>
+          </li>
+          <li class="footer-link-small">
+            <a href="{{ global_config.urls.social.linkedin }}" target="_blank" rel="noopener noreferrer">{{ locale_data.newfooter.section3.linkedin }}</a>
+          </li>
+        </ul>
+      </div>
+    </div>
 
-                <div class="dropdown">
+    <div class="footer-misc wrapper-large">
+      <div class="footer-misc-legal">
+        <a href="https://vnn.io/" target="_blank" rel="noopener noreferrer" class="copyright">
+          <img src="/lib/newhome/icons/copyright.svg" alt="" width="13" height="16">
+          <span>{{ locale_data.newfooter.section4.copyright }}</span>
+        </a>
+        <p class="compliance">
+          <img src="/lib/newhome/icons/checkmark.shield.svg" alt="" width="13" height="16">
+          <span>{{ locale_data.newfooter.section4.compliance }}</span>
+        </p>
+      </div>
+
+<div class="dropdown">
                     <input type="checkbox" class="dropdown-toggle" id="lang-toggle">
 
-                    <label for="lang-toggle" class="dropdown-button btn btn-sm btn-dark">
+                    <label for="lang-toggle" class="dropdown-button language">
                         <img src="/lib/img/icn/globe.svg" alt="Globe Icon" loading="lazy" width="14" height="12" aria-hidden="true">
                         <span>{{ locale_data.footer.language_dropdown.label }}</span>
-                        <img src="/lib/img/icn/chevron-down-sm.svg" alt="Chevron Down" width="10" height="12" loading="lazy" aria-hidden="true">
                     </label>
 
                     <ul class="dropdown-content dropdown-dir-top" role="menu">
@@ -335,19 +206,24 @@
                         {% endfor %}
                     </ul>
                 </div>
-        </div>
-    </footer>
-
-    <!-- Main Overlay -->
-    <div class="overlay flex flex-center flex-justify-center" id="overlay" role="dialog"
-        aria-modal="true" aria-labelledby="" hidden>
-        <div class="modal" id="modal-container"></div>
     </div>
+  </footer>
 
-    {% if lang == 'en' %}
-    <script defer src="/lib/js/changelog/core.js"></script>
-    {% else %}
-    <script defer src="/lib/js/{{ lang }}/changelog/core.js"></script>
-    {% endif %}
+    <script>
+    // Top toolbar
+    const toolbar = document.querySelector('.top-toolbar');
+
+    function handleScroll() {
+      if (window.scrollY > 0) {
+        toolbar.classList.add('prominent');
+      } else {
+        toolbar.classList.remove('prominent');
+      }
+    }
+
+    handleScroll();
+    // Events
+    window.addEventListener('scroll', handleScroll);
+    </script>
   </body>
 </html>

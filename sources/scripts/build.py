@@ -15,6 +15,7 @@ import argparse
 import json
 import math
 import os
+import shutil
 import subprocess
 import sys
 from pathlib import Path
@@ -34,7 +35,7 @@ BLOG_DIR = LOCALES_DIR / "blog"
 OUTPUT_DIR = PROJECT_ROOT
 SCHEMA_OUTPUT_DIR = PROJECT_ROOT / "lib" / "schema"
 
-ENTRIES_PER_PAGE = 5
+ENTRIES_PER_PAGE = 10
 BLOG_POSTS_PER_PAGE = 10
 
 
@@ -634,11 +635,11 @@ def build_privacy(global_config, languages):
     print("Building Privacy Pages")
     print("=" * 50)
 
-    privacy_css = load_css_file('privacy')
-    if privacy_css:
-        print(f"✓ Loaded privacy CSS ({len(privacy_css)} bytes)")
+    changelog_css = load_css_file('newarticle')
+    if changelog_css:
+        print(f"✓ Loaded CSS ({len(changelog_css)} bytes)")
     else:
-        print("⚠ No privacy CSS loaded - templates will use fallback")
+        print("⚠ No CSS loaded - templates will use fallback")
 
     available_changelog_languages = detect_available_changelog_languages()
     available_blog_languages = detect_available_blog_languages()
@@ -652,7 +653,7 @@ def build_privacy(global_config, languages):
             # Generate HTML
             extra_context = {
                 'hreflang_links': generate_hreflang_links(global_config['languages'], page="privacy"),
-                'privacy_css': privacy_css
+                'changelog_css': changelog_css
             }
             html = generate_html_page('privacy.html', lang_code, global_config, locale_data,
                                      available_changelog_languages, extra_context, available_blog_languages)
@@ -1060,12 +1061,12 @@ def build_blog_pages(global_config):
         print("✗ Error: blog.conf not found")
         return
 
-    # Load blog CSS
-    blog_css = load_css_file('blog')
-    if blog_css:
-        print(f"✓ Loaded blog CSS ({len(blog_css)} bytes)")
+    # Load CSS
+    changelog_css = load_css_file('newarticle')
+    if changelog_css:
+        print(f"✓ Loaded CSS ({len(changelog_css)} bytes)")
     else:
-        print("⚠ No blog CSS loaded - templates will use fallback")
+        print("⚠ No CSS loaded - templates will use fallback")
 
     # Detect available blog languages
     available_blog_languages = detect_available_blog_languages()
@@ -1125,7 +1126,7 @@ def build_blog_pages(global_config):
                     'entries': page_entries,
                     'page_number': page,
                     'total_pages': total_pages,
-                    'blog_css': blog_css,
+                    'changelog_css': changelog_css,
                     'blog_config': blog_config
                 }
 
@@ -1139,56 +1140,56 @@ def build_blog_pages(global_config):
                                      page_number=page, canonical_url=canonical_url,
                                      all_entries=entries)
 
-            # Generate category pages
+            # Generate category pages (disabled)
             categories = blog_config.get('categories', {})
-            for category_key, category_data in categories.items():
-                category_entries = [e for e in entries if e.get('category') == category_key]
-
-                if not category_entries:
-                    continue
-
-                category_total_pages = math.ceil(len(category_entries) / BLOG_POSTS_PER_PAGE)
-                category_info = category_data.get(lang_code, {})
-
-                # Get language-specific category slug and metadata
-                lang_category_slug = category_info.get('slug', category_key)
-                category_id = category_data.get('category_id', category_key)
-
-                for page in range(1, category_total_pages + 1):
-                    start_idx = (page - 1) * BLOG_POSTS_PER_PAGE
-                    end_idx = start_idx + BLOG_POSTS_PER_PAGE
-                    page_entries = category_entries[start_idx:end_idx]
-
-                    canonical_url = f"https://withframes.com{'/' + lang_code if lang_code != 'en' else ''}/blog/topic/{lang_category_slug}/"
-                    if page > 1:
-                        canonical_url += f"page/{page}/"
-
-                    extra_context = {
-                        'hreflang_links': generate_blog_hreflang_links(available_blog_languages, global_config['languages'], page_type='category', page_number=page, category_slug=lang_category_slug, category_id=category_id),
-                        'entries': page_entries,
-                        'page_number': page,
-                        'total_pages': category_total_pages,
-                        'blog_css': blog_css,
-                        'blog_config': blog_config,
-                        'category_key': category_key,
-                        'category_slug': lang_category_slug,
-                        'category_name': category_info.get('name', ''),
-                        'category_description': category_info.get('description', '')
-                    }
-
-                    html = generate_html_page('blog-category.html', lang_code, global_config, locale_data,
-                                             detect_available_changelog_languages(), extra_context, available_blog_languages)
-                    html = minify_html(html)
-                    save_blog_html(html, 'category', lang_code, page_number=page, category_slug=lang_category_slug)
-
-                    # Generate schemas
-                    generate_blog_schemas(lang_code, locale_data, global_config, blog_config, 'blog-category',
-                                         page_number=page, canonical_url=canonical_url,
-                                         category_slug=lang_category_slug,
-                                         category_name=category_info.get('name', ''),
-                                         page_title=category_info.get('meta_title', ''),
-                                         page_description=category_info.get('meta_description', ''),
-                                         all_entries=category_entries)
+            # for category_key, category_data in categories.items():
+            #     category_entries = [e for e in entries if e.get('category') == category_key]
+            #
+            #     if not category_entries:
+            #         continue
+            #
+            #     category_total_pages = math.ceil(len(category_entries) / BLOG_POSTS_PER_PAGE)
+            #     category_info = category_data.get(lang_code, {})
+            #
+            #     # Get language-specific category slug and metadata
+            #     lang_category_slug = category_info.get('slug', category_key)
+            #     category_id = category_data.get('category_id', category_key)
+            #
+            #     for page in range(1, category_total_pages + 1):
+            #         start_idx = (page - 1) * BLOG_POSTS_PER_PAGE
+            #         end_idx = start_idx + BLOG_POSTS_PER_PAGE
+            #         page_entries = category_entries[start_idx:end_idx]
+            #
+            #         canonical_url = f"https://withframes.com{'/' + lang_code if lang_code != 'en' else ''}/blog/topic/{lang_category_slug}/"
+            #         if page > 1:
+            #             canonical_url += f"page/{page}/"
+            #
+            #         extra_context = {
+            #             'hreflang_links': generate_blog_hreflang_links(available_blog_languages, global_config['languages'], page_type='category', page_number=page, category_slug=lang_category_slug, category_id=category_id),
+            #             'entries': page_entries,
+            #             'page_number': page,
+            #             'total_pages': category_total_pages,
+            #             'changelog_css': changelog_css,
+            #             'blog_config': blog_config,
+            #             'category_key': category_key,
+            #             'category_slug': lang_category_slug,
+            #             'category_name': category_info.get('name', ''),
+            #             'category_description': category_info.get('description', '')
+            #         }
+            #
+            #         html = generate_html_page('blog-category.html', lang_code, global_config, locale_data,
+            #                                  detect_available_changelog_languages(), extra_context, available_blog_languages)
+            #         html = minify_html(html)
+            #         save_blog_html(html, 'category', lang_code, page_number=page, category_slug=lang_category_slug)
+            #
+            #         # Generate schemas
+            #         generate_blog_schemas(lang_code, locale_data, global_config, blog_config, 'blog-category',
+            #                              page_number=page, canonical_url=canonical_url,
+            #                              category_slug=lang_category_slug,
+            #                              category_name=category_info.get('name', ''),
+            #                              page_title=category_info.get('meta_title', ''),
+            #                              page_description=category_info.get('meta_description', ''),
+            #                              all_entries=category_entries)
 
             # Generate individual entry pages
             for i, entry in enumerate(entries):
@@ -1217,7 +1218,7 @@ def build_blog_pages(global_config):
                     'entry': entry,
                     'prev_entry': prev_entry,
                     'next_entry': next_entry,
-                    'blog_css': blog_css,
+                    'changelog_css': changelog_css,
                     'blog_config': blog_config,
                     'og_image_url': entry.get('og_image_url', '/og-image.jpg'),
                     'category_info': category_info,
@@ -1356,33 +1357,33 @@ def generate_blog_sitemap(entries, categories, lang_code='en'):
         sitemap_lines.append('    <priority>0.7</priority>')
         sitemap_lines.append('  </url>')
 
-    # Add category pages
-    for category_key, category_data in categories.items():
-        category_entries = [e for e in entries if e.get('category') == category_key]
-        if not category_entries:
-            continue
-
-        # Get language-specific category slug
-        category_info = category_data.get(lang_code, {})
-        lang_category_slug = category_info.get('slug', category_key)
-
-        # Category index
-        sitemap_lines.append('  <url>')
-        sitemap_lines.append(f'    <loc>{base_url}{url_prefix}/topic/{lang_category_slug}/</loc>')
-        sitemap_lines.append(f'    <lastmod>{current_date}</lastmod>')
-        sitemap_lines.append('    <changefreq>weekly</changefreq>')
-        sitemap_lines.append('    <priority>0.7</priority>')
-        sitemap_lines.append('  </url>')
-
-        # Category pagination
-        category_total_pages = math.ceil(len(category_entries) / BLOG_POSTS_PER_PAGE)
-        for page in range(2, category_total_pages + 1):
-            sitemap_lines.append('  <url>')
-            sitemap_lines.append(f'    <loc>{base_url}{url_prefix}/topic/{lang_category_slug}/page/{page}/</loc>')
-            sitemap_lines.append(f'    <lastmod>{current_date}</lastmod>')
-            sitemap_lines.append('    <changefreq>weekly</changefreq>')
-            sitemap_lines.append('    <priority>0.6</priority>')
-            sitemap_lines.append('  </url>')
+    # Add category pages (disabled)
+    # for category_key, category_data in categories.items():
+    #     category_entries = [e for e in entries if e.get('category') == category_key]
+    #     if not category_entries:
+    #         continue
+    #
+    #     # Get language-specific category slug
+    #     category_info = category_data.get(lang_code, {})
+    #     lang_category_slug = category_info.get('slug', category_key)
+    #
+    #     # Category index
+    #     sitemap_lines.append('  <url>')
+    #     sitemap_lines.append(f'    <loc>{base_url}{url_prefix}/topic/{lang_category_slug}/</loc>')
+    #     sitemap_lines.append(f'    <lastmod>{current_date}</lastmod>')
+    #     sitemap_lines.append('    <changefreq>weekly</changefreq>')
+    #     sitemap_lines.append('    <priority>0.7</priority>')
+    #     sitemap_lines.append('  </url>')
+    #
+    #     # Category pagination
+    #     category_total_pages = math.ceil(len(category_entries) / BLOG_POSTS_PER_PAGE)
+    #     for page in range(2, category_total_pages + 1):
+    #         sitemap_lines.append('  <url>')
+    #         sitemap_lines.append(f'    <loc>{base_url}{url_prefix}/topic/{lang_category_slug}/page/{page}/</loc>')
+    #         sitemap_lines.append(f'    <lastmod>{current_date}</lastmod>')
+    #         sitemap_lines.append('    <changefreq>weekly</changefreq>')
+    #         sitemap_lines.append('    <priority>0.6</priority>')
+    #         sitemap_lines.append('  </url>')
 
     # Add individual entries
     for entry in entries:
@@ -1760,7 +1761,7 @@ def build_changelog_pages(global_config):
     print("Building Changelog")
     print("=" * 50)
 
-    changelog_css = load_css_file('changelog')
+    changelog_css = load_css_file('newarticle')
     if changelog_css:
         print(f"✓ Loaded changelog CSS ({len(changelog_css)} bytes)")
     else:
@@ -1797,6 +1798,17 @@ def build_changelog_pages(global_config):
 
             total_pages = math.ceil(len(entries) / ENTRIES_PER_PAGE)
             print(f"✓ Total pages: {total_pages}")
+
+            # Remove stale pagination directories beyond the new total
+            if lang_code == 'en':
+                pages_dir = PROJECT_ROOT / "changelog" / "page"
+            else:
+                pages_dir = PROJECT_ROOT / lang_code / "changelog" / "page"
+            if pages_dir.exists():
+                for page_dir in pages_dir.iterdir():
+                    if page_dir.is_dir() and page_dir.name.isdigit() and int(page_dir.name) > total_pages:
+                        shutil.rmtree(page_dir)
+                        print(f"✓ Removed stale page: {page_dir}")
 
             # Generate index pages
             for page in range(1, total_pages + 1):
