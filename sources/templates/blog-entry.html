@@ -78,14 +78,16 @@
           {% endfor %}
 
           {% if headings|length > 0 %}
-          <nav class="toc wrapper-small" aria-label="Table of contents">
-                  <h3>{{ locale_data.blog.labels.contents if locale_data.blog.labels.contents is defined else 'Contents' }}</h3>
-                  <ul>
-                      {% for heading in headings %}
-                      <li><a href="#{{ heading.content|lower|replace(' ', '-')|replace(',', '')|replace('.', '')|replace(':', '')|replace('&', 'and')|replace("'", '') }}">{{ heading.content }}</a></li>
-                      {% endfor %}
-                  </ul>
-          </nav>
+          <div class="wrapper-small">
+            <nav class="toc" aria-label="Table of contents">
+                    <h3>{{ locale_data.blog.labels.contents if locale_data.blog.labels.contents is defined else 'Contents' }}</h3>
+                    <ul>
+                        {% for heading in headings %}
+                        <li><a href="#{{ heading.content|lower|replace(' ', '-')|replace(',', '')|replace('.', '')|replace(':', '')|replace('&', 'and')|replace("'", '') }}">{{ heading.content }}</a></li>
+                        {% endfor %}
+                    </ul>
+            </nav>
+          </div>
           {% endif %}
 
           {% for section in entry.sections %}
