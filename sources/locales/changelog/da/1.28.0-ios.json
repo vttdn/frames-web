@@ -1,0 +1,48 @@
+{
+  "version": "1.28.0",
+  "version_short": "1.28",
+  "url_slug": "1-28-ios",
+  "platform": "ios",
+  "release_date": "2026-04-02T10:00:00.000Z",
+  "title": "Forbedringer af lukkertid",
+  "summary": "Indstil lukkertidstrin og definer minimum- og maksimumgrænser for hvert kamera. Vælgeren viser nu kun gyldige værdier baseret på din konfiguration med fuld understøttelse af brugerdefinerede sekvenser.",
+  "sections": [
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.28.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.28.0-1@2x.png",
+      "alt": "Frames-appen har nu bedre indstillinger for lukkertid",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "paragraph",
+      "content": "Du kan nu definere lukkertidstrin for hvert kamera og vælge mellem hele, halve eller tredjedels stop – samt angive et minimum og maksimum. Dette svarer til den tilgang, der allerede er tilgængelig for blænde på objektiver."
+    },
+    {
+      "type": "paragraph",
+      "content": "Lukkertidsvælgeren i billedredigering og i værktøjslinjen viser nu kun værdier, der passer til dit kameras indstillinger. Det gør det nemmere at arbejde med forskelligt udstyr uden at se ikke-understøttede værdier."
+    },
+    {
+      "type": "paragraph",
+      "content": "Tidligere var lukkertider baseret på en fast liste. Visse kameraer, som Nikon F3, krævede ekstra værdier, der ikke var inkluderet. Denne opdatering erstatter den faste tilgang med et fleksibelt system, der dækker branchestandarderne mere pålideligt."
+    },
+    {
+      "type": "paragraph",
+      "content": "Brugerdefinerede lukkertidssekvenser understøttes stadig for brugere med specifikke eller mindre almindelige opsætninger."
+    },
+    {
+      "type": "paragraph",
+      "content": "Denne opdatering kommer fra et brugerforslag. Feedback som dette fortsætter med at forme Frames over tid og hjælper med at forbedre, hvordan appen passer til virkelige optagelsesopsætninger."
+    }
+  ],
+  "improvements": [
+    "Lukkertidstrin pr. kamera (helt, halvt, tredjedels stop)",
+    "Minimum- og maksimumgrænse for lukkertid pr. kamera",
+    "Dynamisk lukkertidsvælger baseret på kameraindstillinger"
+  ],
+  "fixes": [],
+  "patches": [],
+  "meta_title": "Forbedringer af lukkertid - Frames",
+  "meta_description": "Definer lukkertidstrin og -grænser pr. kamera med dynamisk vælger og fuld understøttelse af brugerdefinerede sekvenser."
+}

@@ -1,0 +1,48 @@
+{
+  "version": "1.28.0",
+  "version_short": "1.28",
+  "url_slug": "1-28-ios",
+  "platform": "ios",
+  "release_date": "2026-04-02T10:00:00.000Z",
+  "title": "Shutter speed improvements",
+  "summary": "Set shutter speed step increments and define min and max ranges for each camera. The picker now only shows valid values based on your configuration, with full support for custom sequences.",
+  "sections": [
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.28.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.28.0-1@2x.png",
+      "alt": "Frames app now has better shutter speed settings",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "paragraph",
+      "content": "You can now define shutter speed step increments for each camera, choosing between full, half, or third stops, along with a minimum and maximum range. This matches the same approach already available for aperture on lenses."
+    },
+    {
+      "type": "paragraph",
+      "content": "The shutter speed picker in frame editing and in the toolbar now only displays values that match your camera settings. This makes it easier to work with different gear without seeing unsupported values."
+    },
+    {
+      "type": "paragraph",
+      "content": "Before this change, shutter speeds were based on a fixed list. Some cameras, such as the Nikon F3, required additional values that were not included. This update replaces that fixed approach with a flexible system that covers industry-standard ranges more reliably."
+    },
+    {
+      "type": "paragraph",
+      "content": "Custom shutter speed sequences are still supported for users with specific or less common setups."
+    },
+    {
+      "type": "paragraph",
+      "content": "This update comes from a user suggestion. Feedback like this continues to shape Frames over time and helps improve how the app fits real-world shooting setups."
+    }
+  ],
+  "improvements": [
+    "Shutter speed step increment per camera (full, half, third stop)",
+    "Min and max shutter speed range per camera",
+    "Dynamic shutter speed picker based on camera settings"
+  ],
+  "fixes": [],
+  "patches": [],
+  "meta_title": "Shutter speed improvements - Frames",
+  "meta_description": "Define shutter speed increments and ranges per camera with dynamic picker support and full custom sequence compatibility."
+}

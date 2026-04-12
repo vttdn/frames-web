@@ -1,0 +1,48 @@
+{
+  "version": "1.28.0",
+  "version_short": "1.28",
+  "url_slug": "1-28-ios",
+  "platform": "ios",
+  "release_date": "2026-04-02T10:00:00.000Z",
+  "title": "Ulepszenia czasu naświetlania",
+  "summary": "Ustaw kroki czasu naświetlania i zdefiniuj wartości minimalne i maksymalne dla każdego aparatu. Selektor wyświetla teraz tylko prawidłowe wartości na podstawie konfiguracji, z pełną obsługą niestandardowych sekwencji.",
+  "sections": [
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.28.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.28.0-1@2x.png",
+      "alt": "Aplikacja Frames ma teraz lepsze ustawienia czasu naświetlania",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "paragraph",
+      "content": "Możesz teraz definiować kroki czasu naświetlania dla każdego aparatu, wybierając między pełnymi, połówkowymi lub jednotrze ciowymi działkami EV, wraz z wartością minimalną i maksymalną. Odpowiada to temu samemu podejściu, które jest już dostępne dla przysłony w obiektywach."
+    },
+    {
+      "type": "paragraph",
+      "content": "Selektor czasu naświetlania w edycji klatki i na pasku narzędzi wyświetla teraz tylko wartości zgodne z ustawieniami aparatu. Ułatwia to pracę z różnym sprzętem bez wyświetlania nieobsługiwanych wartości."
+    },
+    {
+      "type": "paragraph",
+      "content": "Przed tą zmianą czasy naświetlania opierały się na stałej liście. Niektóre aparaty, jak Nikon F3, wymagały dodatkowych wartości, które nie były uwzględnione. Ta aktualizacja zastępuje sztywne podejście elastycznym systemem, który obejmuje zakresy standardowe dla branży w sposób bardziej niezawodny."
+    },
+    {
+      "type": "paragraph",
+      "content": "Niestandardowe sekwencje czasu naświetlania są nadal obsługiwane dla użytkowników z konkretnymi lub mniej powszechnymi konfiguracjami."
+    },
+    {
+      "type": "paragraph",
+      "content": "Ta aktualizacja powstała dzięki sugestii użytkownika. Takie opinie nadal kształtują Frames i pomagają lepiej dopasować aplikację do rzeczywistych warunków fotografowania."
+    }
+  ],
+  "improvements": [
+    "Krok czasu naświetlania na aparat (pełna, połówkowa, jedna trzecia działki EV)",
+    "Minimalny i maksymalny zakres czasu naświetlania na aparat",
+    "Dynamiczny selektor czasu naświetlania oparty na ustawieniach aparatu"
+  ],
+  "fixes": [],
+  "patches": [],
+  "meta_title": "Ulepszenia czasu naświetlania - Frames",
+  "meta_description": "Definiuj kroki i zakresy czasu naświetlania na aparat z dynamicznym selektorem i pełną obsługą niestandardowych sekwencji."
+}

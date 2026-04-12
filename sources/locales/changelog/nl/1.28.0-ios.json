@@ -1,0 +1,48 @@
+{
+  "version": "1.28.0",
+  "version_short": "1.28",
+  "url_slug": "1-28-ios",
+  "platform": "ios",
+  "release_date": "2026-04-02T10:00:00.000Z",
+  "title": "Verbeteringen voor sluitertijd",
+  "summary": "Stel sluitertijdstappen in en definieer minimum- en maximumwaarden voor elke camera. De kiezer toont nu alleen geldige waarden op basis van jouw configuratie, met volledige ondersteuning voor aangepaste reeksen.",
+  "sections": [
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.28.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.28.0-1@2x.png",
+      "alt": "De Frames-app heeft nu betere instellingen voor sluitertijd",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "paragraph",
+      "content": "Je kunt nu voor elke camera sluitertijdstappen definiëren en kiezen tussen hele, halve of derde stops, samen met een minimum- en maximumwaarde. Dit sluit aan bij dezelfde aanpak die al beschikbaar was voor het diafragma op lenzen."
+    },
+    {
+      "type": "paragraph",
+      "content": "De sluitertijdkiezer in de beeldbewerking en in de werkbalk toont nu alleen waarden die overeenkomen met de instellingen van je camera. Zo is het eenvoudiger om met verschillende apparatuur te werken zonder niet-ondersteunde waarden te zien."
+    },
+    {
+      "type": "paragraph",
+      "content": "Vóór deze wijziging waren sluitertijden gebaseerd op een vaste lijst. Sommige camera's, zoals de Nikon F3, hadden extra waarden nodig die er niet in zaten. Deze update vervangt die vaste aanpak door een flexibel systeem dat industriestandaard bereiken betrouwbaarder dekt."
+    },
+    {
+      "type": "paragraph",
+      "content": "Aangepaste sluitertijdreeksen worden nog steeds ondersteund voor gebruikers met specifieke of minder gangbare setups."
+    },
+    {
+      "type": "paragraph",
+      "content": "Deze update is voortgekomen uit een gebruikersvoorstel. Dit soort feedback blijft Frames in de loop der tijd vormgeven en helpt de app beter aan te sluiten op echte opnamesituaties."
+    }
+  ],
+  "improvements": [
+    "Sluitertijdstap per camera (heel, half, derde stop)",
+    "Minimum- en maximumbereik voor sluitertijd per camera",
+    "Dynamische sluitertijdkiezer op basis van camera-instellingen"
+  ],
+  "fixes": [],
+  "patches": [],
+  "meta_title": "Verbeteringen voor sluitertijd - Frames",
+  "meta_description": "Definieer sluitertijdstappen en -bereiken per camera met dynamische kiezer en volledige ondersteuning voor aangepaste reeksen."
+}

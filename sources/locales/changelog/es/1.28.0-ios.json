@@ -1,0 +1,48 @@
+{
+  "version": "1.28.0",
+  "version_short": "1.28",
+  "url_slug": "1-28-ios",
+  "platform": "ios",
+  "release_date": "2026-04-02T10:00:00.000Z",
+  "title": "Mejoras en la velocidad de obturación",
+  "summary": "Configura los incrementos de velocidad de obturación y define los valores mínimo y máximo para cada cámara. El selector ahora solo muestra los valores válidos según tu configuración, con compatibilidad total para secuencias personalizadas.",
+  "sections": [
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.28.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.28.0-1@2x.png",
+      "alt": "La app Frames ahora tiene mejores ajustes de velocidad de obturación",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "paragraph",
+      "content": "Ahora puedes definir los incrementos de velocidad de obturación para cada cámara, eligiendo entre pasos completos, medios o de un tercio, junto con un valor mínimo y máximo. Esto se corresponde con el mismo enfoque ya disponible para la apertura en los objetivos."
+    },
+    {
+      "type": "paragraph",
+      "content": "El selector de velocidad de obturación en la edición de fotogramas y en la barra de herramientas ahora solo muestra los valores que coinciden con los ajustes de tu cámara. Esto facilita trabajar con distintos equipos sin ver valores no compatibles."
+    },
+    {
+      "type": "paragraph",
+      "content": "Antes de este cambio, las velocidades de obturación se basaban en una lista fija. Algunas cámaras, como la Nikon F3, requerían valores adicionales que no estaban incluidos. Esta actualización reemplaza ese enfoque fijo por un sistema flexible que cubre los rangos estándar del sector de manera más fiable."
+    },
+    {
+      "type": "paragraph",
+      "content": "Las secuencias de velocidad de obturación personalizadas siguen siendo compatibles para usuarios con configuraciones específicas o poco comunes."
+    },
+    {
+      "type": "paragraph",
+      "content": "Esta actualización surge de una sugerencia de usuario. Este tipo de comentarios continúa dando forma a Frames con el tiempo y ayuda a mejorar cómo la app se adapta a las configuraciones de disparo del mundo real."
+    }
+  ],
+  "improvements": [
+    "Incremento de velocidad de obturación por cámara (paso completo, medio, un tercio)",
+    "Rango mínimo y máximo de velocidad de obturación por cámara",
+    "Selector de velocidad de obturación dinámico basado en los ajustes de la cámara"
+  ],
+  "fixes": [],
+  "patches": [],
+  "meta_title": "Mejoras en la velocidad de obturación - Frames",
+  "meta_description": "Define los incrementos y rangos de velocidad de obturación por cámara con selector dinámico y compatibilidad total con secuencias personalizadas."
+}

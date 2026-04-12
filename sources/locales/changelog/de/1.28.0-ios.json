@@ -1,0 +1,48 @@
+{
+  "version": "1.28.0",
+  "version_short": "1.28",
+  "url_slug": "1-28-ios",
+  "platform": "ios",
+  "release_date": "2026-04-02T10:00:00.000Z",
+  "title": "Verbesserungen bei der Verschlusszeit",
+  "summary": "Definiere Verschlusszeit-Abstufungen und lege Mindest- und Höchstwerte für jedes Kamera fest. Der Auswahlregler zeigt jetzt nur noch gültige Werte basierend auf deiner Konfiguration – mit vollständiger Unterstützung benutzerdefinierter Sequenzen.",
+  "sections": [
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.28.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.28.0-1@2x.png",
+      "alt": "Frames bietet jetzt bessere Einstellungen für die Verschlusszeit",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "paragraph",
+      "content": "Du kannst jetzt für jede Kamera eigene Verschlusszeit-Abstufungen festlegen und zwischen ganzen, halben oder Drittelstufen wählen, ergänzt durch einen Mindest- und Höchstwert. Dies entspricht dem Ansatz, der für die Blende an Objektiven bereits verfügbar war."
+    },
+    {
+      "type": "paragraph",
+      "content": "Der Verschlusszeit-Regler in der Bildbearbeitung und in der Symbolleiste zeigt jetzt nur noch Werte an, die zu deinen Kameraeinstellungen passen. Das erleichtert die Arbeit mit unterschiedlichem Equipment, ohne nicht unterstützte Werte zu sehen."
+    },
+    {
+      "type": "paragraph",
+      "content": "Bisher basierten Verschlusszeiten auf einer festen Liste. Einige Kameras, wie die Nikon F3, benötigten zusätzliche Werte, die nicht enthalten waren. Dieses Update ersetzt den starren Ansatz durch ein flexibles System, das branchenübliche Bereiche zuverlässiger abdeckt."
+    },
+    {
+      "type": "paragraph",
+      "content": "Benutzerdefinierte Verschlusszeit-Sequenzen werden weiterhin für Nutzer mit speziellen oder weniger verbreiteten Setups unterstützt."
+    },
+    {
+      "type": "paragraph",
+      "content": "Dieses Update entstand durch einen Nutzervorschlag. Solches Feedback prägt Frames kontinuierlich und hilft dabei, die App besser an reale Aufnahmesituationen anzupassen."
+    }
+  ],
+  "improvements": [
+    "Verschlusszeit-Abstufung pro Kamera (ganze, halbe, Drittelstufe)",
+    "Mindest- und Höchstwert der Verschlusszeit pro Kamera",
+    "Dynamischer Verschlusszeit-Regler basierend auf Kameraeinstellungen"
+  ],
+  "fixes": [],
+  "patches": [],
+  "meta_title": "Verbesserungen bei der Verschlusszeit - Frames",
+  "meta_description": "Definiere Verschlusszeit-Abstufungen und -Grenzen pro Kamera mit dynamischem Auswahlregler und vollständiger Unterstützung benutzerdefinierter Sequenzen."
+}

@@ -1,0 +1,48 @@
+{
+  "version": "1.28.0",
+  "version_short": "1.28",
+  "url_slug": "1-28-ios",
+  "platform": "ios",
+  "release_date": "2026-04-02T10:00:00.000Z",
+  "title": "Peningkatan kecepatan rana",
+  "summary": "Atur langkah kecepatan rana dan tentukan rentang minimum serta maksimum untuk setiap kamera. Pemilih kini hanya menampilkan nilai yang valid berdasarkan konfigurasi Anda, dengan dukungan penuh untuk urutan kustom.",
+  "sections": [
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.28.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.28.0-1@2x.png",
+      "alt": "Aplikasi Frames kini memiliki pengaturan kecepatan rana yang lebih baik",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "paragraph",
+      "content": "Anda kini dapat menentukan langkah kecepatan rana untuk setiap kamera, memilih antara stop penuh, setengah, atau sepertiga, beserta nilai minimum dan maksimum. Ini sesuai dengan pendekatan yang sudah tersedia untuk apertur pada lensa."
+    },
+    {
+      "type": "paragraph",
+      "content": "Pemilih kecepatan rana dalam pengeditan bingkai dan pada bilah alat kini hanya menampilkan nilai yang sesuai dengan pengaturan kamera Anda. Ini memudahkan pengerjaan dengan peralatan yang berbeda tanpa melihat nilai yang tidak didukung."
+    },
+    {
+      "type": "paragraph",
+      "content": "Sebelum perubahan ini, kecepatan rana didasarkan pada daftar tetap. Beberapa kamera, seperti Nikon F3, membutuhkan nilai tambahan yang tidak disertakan. Pembaruan ini menggantikan pendekatan tetap tersebut dengan sistem fleksibel yang mencakup rentang standar industri secara lebih andal."
+    },
+    {
+      "type": "paragraph",
+      "content": "Urutan kecepatan rana kustom masih didukung untuk pengguna dengan pengaturan khusus atau yang kurang umum."
+    },
+    {
+      "type": "paragraph",
+      "content": "Pembaruan ini berasal dari saran pengguna. Masukan seperti ini terus membentuk Frames dari waktu ke waktu dan membantu meningkatkan kesesuaian aplikasi dengan pengaturan pemotretan nyata."
+    }
+  ],
+  "improvements": [
+    "Langkah kecepatan rana per kamera (penuh, setengah, sepertiga stop)",
+    "Rentang kecepatan rana minimum dan maksimum per kamera",
+    "Pemilih kecepatan rana dinamis berdasarkan pengaturan kamera"
+  ],
+  "fixes": [],
+  "patches": [],
+  "meta_title": "Peningkatan kecepatan rana - Frames",
+  "meta_description": "Tentukan langkah dan rentang kecepatan rana per kamera dengan pemilih dinamis dan dukungan penuh untuk urutan kustom."
+}

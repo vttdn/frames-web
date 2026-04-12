@@ -1,0 +1,48 @@
+{
+  "version": "1.28.0",
+  "version_short": "1.28",
+  "url_slug": "1-28-ios",
+  "platform": "ios",
+  "release_date": "2026-04-02T10:00:00.000Z",
+  "title": "Cải tiến tốc độ màn trập",
+  "summary": "Đặt bước tăng tốc độ màn trập và xác định phạm vi tối thiểu và tối đa cho từng máy ảnh. Bộ chọn giờ chỉ hiển thị các giá trị hợp lệ dựa trên cấu hình của bạn, với hỗ trợ đầy đủ cho các chuỗi tùy chỉnh.",
+  "sections": [
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.28.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.28.0-1@2x.png",
+      "alt": "Ứng dụng Frames giờ có cài đặt tốc độ màn trập tốt hơn",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "paragraph",
+      "content": "Giờ đây bạn có thể xác định bước tăng tốc độ màn trập cho từng máy ảnh, chọn giữa bước nguyên, nửa bước hoặc một phần ba bước, cùng với giá trị tối thiểu và tối đa. Điều này tương đương với cách tiếp cận đã có sẵn cho khẩu độ trên ống kính."
+    },
+    {
+      "type": "paragraph",
+      "content": "Bộ chọn tốc độ màn trập trong chỉnh sửa khung hình và trên thanh công cụ giờ chỉ hiển thị các giá trị phù hợp với cài đặt máy ảnh của bạn. Điều này giúp làm việc với các thiết bị khác nhau dễ dàng hơn mà không thấy các giá trị không được hỗ trợ."
+    },
+    {
+      "type": "paragraph",
+      "content": "Trước thay đổi này, tốc độ màn trập dựa trên một danh sách cố định. Một số máy ảnh, như Nikon F3, cần các giá trị bổ sung không có trong danh sách. Bản cập nhật này thay thế phương pháp cố định đó bằng một hệ thống linh hoạt bao phủ các phạm vi chuẩn của ngành đáng tin cậy hơn."
+    },
+    {
+      "type": "paragraph",
+      "content": "Các chuỗi tốc độ màn trập tùy chỉnh vẫn được hỗ trợ cho người dùng có cài đặt cụ thể hoặc ít phổ biến hơn."
+    },
+    {
+      "type": "paragraph",
+      "content": "Bản cập nhật này đến từ đề xuất của người dùng. Những phản hồi như vậy tiếp tục định hình Frames theo thời gian và giúp cải thiện cách ứng dụng phù hợp với các tình huống chụp ảnh thực tế."
+    }
+  ],
+  "improvements": [
+    "Bước tăng tốc độ màn trập theo máy ảnh (nguyên, nửa, một phần ba bước)",
+    "Phạm vi tốc độ màn trập tối thiểu và tối đa theo máy ảnh",
+    "Bộ chọn tốc độ màn trập động dựa trên cài đặt máy ảnh"
+  ],
+  "fixes": [],
+  "patches": [],
+  "meta_title": "Cải tiến tốc độ màn trập - Frames",
+  "meta_description": "Xác định bước tăng và phạm vi tốc độ màn trập theo máy ảnh với bộ chọn động và hỗ trợ đầy đủ cho chuỗi tùy chỉnh."
+}

@@ -1,0 +1,48 @@
+{
+  "version": "1.28.0",
+  "version_short": "1.28",
+  "url_slug": "1-28-ios",
+  "platform": "ios",
+  "release_date": "2026-04-02T10:00:00.000Z",
+  "title": "Obtüratör hızı iyileştirmeleri",
+  "summary": "Her kamera için obtüratör hızı adım artışlarını ayarlayın ve minimum ile maksimum değer aralığı tanımlayın. Seçici artık yapılandırmanıza göre yalnızca geçerli değerleri gösteriyor; özel sıralar için tam destek sunulmaktadır.",
+  "sections": [
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.28.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.28.0-1@2x.png",
+      "alt": "Frames uygulamasında artık daha iyi obtüratör hızı ayarları mevcut",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "paragraph",
+      "content": "Artık her kamera için obtüratör hızı adım artışlarını tanımlayabilir, tam, yarım veya üçte bir stop arasında seçim yapabilir ve minimum ile maksimum değer aralığı belirleyebilirsiniz. Bu, objektiflerdeki diyafram için zaten mevcut olan yaklaşımla aynıdır."
+    },
+    {
+      "type": "paragraph",
+      "content": "Kare düzenleme ekranındaki ve araç çubuğundaki obtüratör hızı seçicisi artık yalnızca kamera ayarlarınızla uyumlu değerleri göstermektedir. Bu, desteklenmeyen değerleri görmeden farklı ekipmanlarla çalışmayı kolaylaştırır."
+    },
+    {
+      "type": "paragraph",
+      "content": "Bu değişiklikten önce obtüratör hızları sabit bir listeye dayanıyordu. Nikon F3 gibi bazı kameralar, listede yer almayan ek değerler gerektiriyordu. Bu güncelleme, sabit yaklaşımın yerini sektör standartlarını daha güvenilir biçimde kapsayan esnek bir sistemle değiştirmektedir."
+    },
+    {
+      "type": "paragraph",
+      "content": "Özel obtüratör hızı dizileri, belirli veya daha az yaygın kurulumları olan kullanıcılar için hâlâ desteklenmektedir."
+    },
+    {
+      "type": "paragraph",
+      "content": "Bu güncelleme bir kullanıcı önerisinden doğmuştur. Bu tür geri bildirimler Frames'i zaman içinde şekillendirmeye devam etmekte ve uygulamanın gerçek dünya çekim koşullarına daha iyi uymasına katkı sağlamaktadır."
+    }
+  ],
+  "improvements": [
+    "Kamera başına obtüratör hızı adım artışı (tam, yarım, üçte bir stop)",
+    "Kamera başına minimum ve maksimum obtüratör hızı aralığı",
+    "Kamera ayarlarına dayalı dinamik obtüratör hızı seçicisi"
+  ],
+  "fixes": [],
+  "patches": [],
+  "meta_title": "Obtüratör hızı iyileştirmeleri - Frames",
+  "meta_description": "Her kamera için obtüratör hızı adımlarını ve aralıklarını tanımlayın; dinamik seçici ve özel dizi desteğiyle tam uyumluluk."
+}

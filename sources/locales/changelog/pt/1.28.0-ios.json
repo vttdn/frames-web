@@ -1,0 +1,48 @@
+{
+  "version": "1.28.0",
+  "version_short": "1.28",
+  "url_slug": "1-28-ios",
+  "platform": "ios",
+  "release_date": "2026-04-02T10:00:00.000Z",
+  "title": "Melhorias na velocidade do obturador",
+  "summary": "Define os incrementos de velocidade do obturador e os valores mínimo e máximo para cada câmara. O seletor agora mostra apenas os valores válidos com base na tua configuração, com suporte total para sequências personalizadas.",
+  "sections": [
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.28.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.28.0-1@2x.png",
+      "alt": "A app Frames tem agora melhores definições de velocidade do obturador",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "paragraph",
+      "content": "Agora é possível definir os incrementos de velocidade do obturador para cada câmara, escolhendo entre passos inteiros, meios passos ou terços de passo, juntamente com um valor mínimo e máximo. Esta abordagem é idêntica à já disponível para a abertura nos objetivos."
+    },
+    {
+      "type": "paragraph",
+      "content": "O seletor de velocidade do obturador na edição de fotogramas e na barra de ferramentas mostra agora apenas os valores compatíveis com as definições da câmara. Isto facilita o trabalho com equipamentos diferentes sem ver valores não suportados."
+    },
+    {
+      "type": "paragraph",
+      "content": "Antes desta alteração, as velocidades do obturador baseavam-se numa lista fixa. Algumas câmaras, como a Nikon F3, precisavam de valores adicionais que não estavam incluídos. Esta atualização substitui essa abordagem rígida por um sistema flexível que cobre os intervalos padrão do setor de forma mais fiável."
+    },
+    {
+      "type": "paragraph",
+      "content": "As sequências de velocidade do obturador personalizadas continuam a ser suportadas para utilizadores com configurações específicas ou menos comuns."
+    },
+    {
+      "type": "paragraph",
+      "content": "Esta atualização surgiu de uma sugestão de um utilizador. Este tipo de feedback continua a moldar o Frames ao longo do tempo e ajuda a melhorar a adequação da app às situações reais de fotografia."
+    }
+  ],
+  "improvements": [
+    "Incremento de velocidade do obturador por câmara (passo inteiro, meio, terço)",
+    "Intervalo mínimo e máximo de velocidade do obturador por câmara",
+    "Seletor dinâmico de velocidade do obturador baseado nas definições da câmara"
+  ],
+  "fixes": [],
+  "patches": [],
+  "meta_title": "Melhorias na velocidade do obturador - Frames",
+  "meta_description": "Define incrementos e intervalos de velocidade do obturador por câmara com seletor dinâmico e suporte total para sequências personalizadas."
+}

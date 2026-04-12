@@ -1,0 +1,48 @@
+{
+  "version": "1.28.0",
+  "version_short": "1.28",
+  "url_slug": "1-28-ios",
+  "platform": "ios",
+  "release_date": "2026-04-02T10:00:00.000Z",
+  "title": "Parannuksia suljinaikaan",
+  "summary": "Aseta suljinaika-askelvälit ja määritä minimi- ja maksimiarvot jokaiselle kameralle. Valitsin näyttää nyt vain konfiguraatiosi perusteella kelvolliset arvot täydellä tuki mukautetuille sekvensseille.",
+  "sections": [
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.28.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.28.0-1@2x.png",
+      "alt": "Frames-sovelluksessa on nyt paremmat suljinaika-asetukset",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "paragraph",
+      "content": "Voit nyt määrittää suljinaika-askelvälit jokaiselle kameralle valitsemalla kokonaiset, puoli- tai kolmasosa-portaat sekä minimi- ja maksimiarvon. Tämä vastaa samaa lähestymistapaa, joka on jo ollut käytettävissä aukon osalta objektiiveille."
+    },
+    {
+      "type": "paragraph",
+      "content": "Suljinaika-valitsin kuvan muokkauksessa ja työkalurivillä näyttää nyt vain kameraasi sopivat arvot. Tämä helpottaa työskentelyä eri kamerakaluston kanssa ilman, että näet ei-tuettuja arvoja."
+    },
+    {
+      "type": "paragraph",
+      "content": "Ennen tätä muutosta suljinaika-arvot perustuivat kiinteään listaan. Jotkut kamerat, kuten Nikon F3, vaativat lisäarvoja, joita ei ollut mukana. Tämä päivitys korvaa kiinteän lähestymistavan joustavalla järjestelmällä, joka kattaa alan standardiarvot luotettavammin."
+    },
+    {
+      "type": "paragraph",
+      "content": "Mukautetut suljinaika-sekvenssit ovat edelleen tuettuja käyttäjille, joilla on erityisiä tai harvinaisempia kokoonpanoja."
+    },
+    {
+      "type": "paragraph",
+      "content": "Tämä päivitys syntyi käyttäjäehdotuksesta. Tällainen palaute jatkaa Framesin muokkaamista ajan myötä ja auttaa parantamaan sovelluksen sopivuutta todellisiin kuvaustilanteisiin."
+    }
+  ],
+  "improvements": [
+    "Suljinaika-askelväli kamerakohtaisesti (kokonainen, puoli, kolmasosa)",
+    "Minimi- ja maksimisuljinaika kamerakohtaisesti",
+    "Dynaaminen suljinaika-valitsin kamera-asetusten perusteella"
+  ],
+  "fixes": [],
+  "patches": [],
+  "meta_title": "Parannuksia suljinaikaan - Frames",
+  "meta_description": "Määritä suljinaika-askelvälit ja -rajat kamerakohtaisesti dynaamisella valitsimella ja täydellä tuella mukautetuille sekvensseille."
+}

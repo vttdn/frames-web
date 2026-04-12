@@ -1,0 +1,48 @@
+{
+  "version": "1.28.0",
+  "version_short": "1.28",
+  "url_slug": "1-28-ios",
+  "platform": "ios",
+  "release_date": "2026-04-02T10:00:00.000Z",
+  "title": "Améliorations de la vitesse d'obturation",
+  "summary": "Définissez les paliers de vitesse d'obturation et les valeurs minimale et maximale pour chaque appareil. Le sélecteur n'affiche désormais que les valeurs valides selon votre configuration, avec prise en charge complète des séquences personnalisées.",
+  "sections": [
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.28.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.28.0-1@2x.png",
+      "alt": "L'application Frames dispose maintenant de meilleurs réglages de vitesse d'obturation",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "paragraph",
+      "content": "Vous pouvez désormais définir les paliers de vitesse d'obturation pour chaque appareil, en choisissant entre des paliers entiers, demi-paliers ou tiers de palier, ainsi qu'une valeur minimale et maximale. Cela correspond à la même approche déjà disponible pour l'ouverture sur les objectifs."
+    },
+    {
+      "type": "paragraph",
+      "content": "Le sélecteur de vitesse d'obturation dans l'édition de frame et dans la barre d'outils n'affiche désormais que les valeurs correspondant aux réglages de votre appareil. Il est ainsi plus facile de travailler avec différents équipements sans voir de valeurs non prises en charge."
+    },
+    {
+      "type": "paragraph",
+      "content": "Avant ce changement, les vitesses d'obturation reposaient sur une liste fixe. Certains appareils, comme le Nikon F3, nécessitaient des valeurs supplémentaires qui n'étaient pas incluses. Cette mise à jour remplace cette approche figée par un système flexible qui couvre les plages standard du secteur de manière plus fiable."
+    },
+    {
+      "type": "paragraph",
+      "content": "Les séquences de vitesse d'obturation personnalisées sont toujours prises en charge pour les utilisateurs ayant des configurations spécifiques ou moins courantes."
+    },
+    {
+      "type": "paragraph",
+      "content": "Cette mise à jour fait suite à une suggestion d'utilisateur. Ce type de retour continue de façonner Frames au fil du temps et contribue à améliorer l'adéquation de l'app avec les situations de prise de vue réelles."
+    }
+  ],
+  "improvements": [
+    "Palier de vitesse d'obturation par appareil (entier, demi, tiers de palier)",
+    "Plage minimale et maximale de vitesse d'obturation par appareil",
+    "Sélecteur de vitesse d'obturation dynamique selon les réglages de l'appareil"
+  ],
+  "fixes": [],
+  "patches": [],
+  "meta_title": "Améliorations de la vitesse d'obturation - Frames",
+  "meta_description": "Définissez les paliers et plages de vitesse d'obturation par appareil avec sélecteur dynamique et prise en charge complète des séquences personnalisées."
+}

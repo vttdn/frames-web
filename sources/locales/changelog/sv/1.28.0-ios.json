@@ -1,0 +1,48 @@
+{
+  "version": "1.28.0",
+  "version_short": "1.28",
+  "url_slug": "1-28-ios",
+  "platform": "ios",
+  "release_date": "2026-04-02T10:00:00.000Z",
+  "title": "Förbättringar av slutartid",
+  "summary": "Ange slutartidssteg och definiera lägsta och högsta värden för varje kamera. Väljaren visar nu bara giltiga värden baserat på din konfiguration, med fullt stöd för anpassade sekvenser.",
+  "sections": [
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.28.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.28.0-1@2x.png",
+      "alt": "Frames-appen har nu bättre inställningar för slutartid",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "paragraph",
+      "content": "Du kan nu definiera slutartidssteg för varje kamera och välja mellan hela, halva eller tredjedels steg, tillsammans med ett lägsta och högsta värde. Detta motsvarar samma tillvägagångssätt som redan finns tillgängligt för bländare på objektiv."
+    },
+    {
+      "type": "paragraph",
+      "content": "Slutartidsväljaren i bildbearbetning och i verktygsfältet visar nu bara värden som matchar dina kamerainställningar. Det gör det enklare att arbeta med olika utrustning utan att se värden som inte stöds."
+    },
+    {
+      "type": "paragraph",
+      "content": "Före den här ändringen baserades slutartider på en fast lista. Vissa kameror, som Nikon F3, krävde extra värden som inte var inkluderade. Den här uppdateringen ersätter det fasta tillvägagångssättet med ett flexibelt system som täcker branschstandardintervall mer tillförlitligt."
+    },
+    {
+      "type": "paragraph",
+      "content": "Anpassade slutartidssekvenser stöds fortfarande för användare med specifika eller mer ovanliga inställningar."
+    },
+    {
+      "type": "paragraph",
+      "content": "Den här uppdateringen kom från ett användarförslag. Sådana återkopplingar fortsätter att forma Frames över tid och bidrar till att förbättra hur appen passar verkliga fotograferingssituationer."
+    }
+  ],
+  "improvements": [
+    "Slutartidssteg per kamera (helt, halvt, tredjedels steg)",
+    "Lägsta och högsta slutartidsintervall per kamera",
+    "Dynamisk slutartidsväljare baserad på kamerainställningar"
+  ],
+  "fixes": [],
+  "patches": [],
+  "meta_title": "Förbättringar av slutartid - Frames",
+  "meta_description": "Definiera slutartidssteg och -intervall per kamera med dynamisk väljare och fullt stöd för anpassade sekvenser."
+}

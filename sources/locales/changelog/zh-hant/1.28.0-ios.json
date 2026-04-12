@@ -1,0 +1,48 @@
+{
+  "version": "1.28.0",
+  "version_short": "1.28",
+  "url_slug": "1-28-ios",
+  "platform": "ios",
+  "release_date": "2026-04-02T10:00:00.000Z",
+  "title": "快門速度改進",
+  "summary": "為每台相機設定快門速度步進增量，並定義最小和最大範圍。選擇器現在僅根據您的設定顯示有效值，並完全支援自訂序列。",
+  "sections": [
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.28.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.28.0-1@2x.png",
+      "alt": "Frames 應用程式現已擁有更好的快門速度設定",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "paragraph",
+      "content": "您現在可以為每台相機定義快門速度步進增量，在整檔、半檔或三分之一檔之間選擇，同時設定最小和最大值範圍。這與鏡頭光圈設定中已有的方式一致。"
+    },
+    {
+      "type": "paragraph",
+      "content": "畫格編輯和工具列中的快門速度選擇器現在僅顯示與您相機設定相符的值。這樣在使用不同器材時不會看到不支援的值，操作更加便利。"
+    },
+    {
+      "type": "paragraph",
+      "content": "此前，快門速度基於固定清單。某些相機（如 Nikon F3）需要清單中未包含的額外值。本次更新以彈性系統取代了固定方式，能更可靠地涵蓋業界標準範圍。"
+    },
+    {
+      "type": "paragraph",
+      "content": "對於有特殊或較不常見設定的使用者，自訂快門速度序列仍然受到支援。"
+    },
+    {
+      "type": "paragraph",
+      "content": "這次更新源於使用者的建議。這樣的回饋不斷推動 Frames 改進，幫助應用程式更好地適應真實的拍攝情境。"
+    }
+  ],
+  "improvements": [
+    "每台相機的快門速度步進增量設定（整檔、半檔、三分之一檔）",
+    "每台相機的快門速度最小和最大範圍",
+    "基於相機設定的動態快門速度選擇器"
+  ],
+  "fixes": [],
+  "patches": [],
+  "meta_title": "快門速度改進 - Frames",
+  "meta_description": "為每台相機定義快門速度增量和範圍，支援動態選擇器及自訂序列。"
+}

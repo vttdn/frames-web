@@ -1,0 +1,48 @@
+{
+  "version": "1.28.0",
+  "version_short": "1.28",
+  "url_slug": "1-28-ios",
+  "platform": "ios",
+  "release_date": "2026-04-02T10:00:00.000Z",
+  "title": "Îmbunătățiri ale vitezei obturatorului",
+  "summary": "Setează pașii de incrementare ai vitezei obturatorului și definește valorile minime și maxime pentru fiecare cameră. Selectorul afișează acum doar valorile valide în funcție de configurația ta, cu suport complet pentru secvențe personalizate.",
+  "sections": [
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.28.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.28.0-1@2x.png",
+      "alt": "Aplicația Frames are acum setări mai bune pentru viteza obturatorului",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "paragraph",
+      "content": "Acum poți defini pașii de incrementare a vitezei obturatorului pentru fiecare cameră, alegând între trepte întregi, jumătăți sau treimi, împreună cu o valoare minimă și maximă. Această abordare este similară cu cea deja disponibilă pentru diafragmă pe obiective."
+    },
+    {
+      "type": "paragraph",
+      "content": "Selectorul de viteză a obturatorului din editarea cadrelor și din bara de instrumente afișează acum doar valorile compatibile cu setările camerei tale. Astfel, este mai ușor să lucrezi cu echipamente diferite fără a vedea valori nesuportate."
+    },
+    {
+      "type": "paragraph",
+      "content": "Înainte de această schimbare, vitezele obturatorului se bazau pe o listă fixă. Unele camere, precum Nikon F3, necesitau valori suplimentare care nu erau incluse. Această actualizare înlocuiește abordarea fixă cu un sistem flexibil care acoperă mai fiabil intervalele standard din industrie."
+    },
+    {
+      "type": "paragraph",
+      "content": "Secvențele personalizate de viteză a obturatorului sunt în continuare suportate pentru utilizatorii cu configurații specifice sau mai puțin comune."
+    },
+    {
+      "type": "paragraph",
+      "content": "Această actualizare vine dintr-o sugestie a unui utilizator. Acest tip de feedback continuă să modeleze Frames în timp și ajută la îmbunătățirea modului în care aplicația se potrivește situațiilor reale de fotografiere."
+    }
+  ],
+  "improvements": [
+    "Pas de incrementare a vitezei obturatorului per cameră (treaptă întreagă, jumătate, treime)",
+    "Interval minim și maxim al vitezei obturatorului per cameră",
+    "Selector dinamic al vitezei obturatorului bazat pe setările camerei"
+  ],
+  "fixes": [],
+  "patches": [],
+  "meta_title": "Îmbunătățiri ale vitezei obturatorului - Frames",
+  "meta_description": "Definește pașii și intervalele vitezei obturatorului per cameră cu selector dinamic și suport complet pentru secvențe personalizate."
+}
