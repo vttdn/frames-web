@@ -1,0 +1,52 @@
+{
+  "version": "1.26.0",
+  "version_short": "1.26",
+  "url_slug": "1-26-ios",
+  "platform": "ios",
+  "release_date": "2026-03-24T10:00:00.000Z",
+  "title": "Abonnementverwaltung",
+  "summary": "Verwalte dein Abonnement bequem direkt in der App, wechsle zwischen Monats-, Jahres- oder Lifetime-Plänen und wähle die App-Sprache unabhängig von den iOS-Einstellungen.",
+  "sections": [
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.26.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.26.0-1@2x.png",
+      "alt": "Neue Abonnementverwaltungsfunktion der Frames-App",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "paragraph",
+      "content": "Bisher erforderte die Änderung des Abonnements die Kündigung des aktuellen Plans über die App-Store-Einstellungen und das anschließende Warten auf dessen Ablauf, bevor ein neuer Plan ausgewählt werden konnte. Das machte den Planwechsel umständlich."
+    },
+    {
+      "type": "paragraph",
+      "content": "Du kannst jetzt direkt in den App-Einstellungen zwischen Plänen wechseln. Monats-, Jahres- oder Lifetime-Pläne lassen sich jederzeit auswählen, ohne die App zu verlassen oder den Kündigungsvorgang zu durchlaufen."
+    },
+    {
+      "type": "paragraph",
+      "content": "Eine neue Einstellung ermöglicht es dir außerdem, die App-Sprache unabhängig von deiner Gerätesprache zu wählen. Frames lässt sich nun in der Sprache verwenden, die am besten zu dir passt – ohne die iOS-Einstellungen zu ändern."
+    },
+    {
+      "type": "paragraph",
+      "content": "Zu den unterstützten Sprachen gehören Englisch, Arabisch, Dänisch, Niederländisch, Finnisch, Französisch, Deutsch, Griechisch, Hebräisch, Hindi, Indonesisch, Italienisch, Japanisch, Koreanisch, Norwegisch Bokmål, Polnisch, Portugiesisch, Rumänisch, Russisch, Vereinfachtes Chinesisch, Spanisch, Schwedisch, Thailändisch, Traditionelles Chinesisch, Türkisch, Ukrainisch und Vietnamesisch."
+    }
+  ],
+  "improvements": [
+    "Direkt in der App zwischen Abonnementplänen wechseln",
+    "App-Sprache unabhängig von der iOS-Sprache wählen"
+  ],
+  "fixes": [],
+  "patches": [
+    {
+      "version": "1.26.1",
+      "description": "Kleinere UI-Verbesserungen"
+    },
+    {
+      "version": "1.26.2",
+      "description": "Kleinere Lokalisierungsverbesserungen"
+    }
+  ],
+  "meta_title": "Abonnementverwaltung - Frames",
+  "meta_description": "Wechsle direkt in der App zwischen Abonnementplänen und wähle die Frames-Sprache unabhängig von den iOS-Einstellungen."
+}

@@ -1,0 +1,52 @@
+{
+  "version": "1.26.0",
+  "version_short": "1.26",
+  "url_slug": "1-26-ios",
+  "platform": "ios",
+  "release_date": "2026-03-24T10:00:00.000Z",
+  "title": "Gestionarea abonamentului",
+  "summary": "Gestionează-ți abonamentul cu ușurință direct din aplicație, treci între planuri lunare, anuale sau pe viață și alege limba aplicației independent de setările iOS.",
+  "sections": [
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.26.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.26.0-1@2x.png",
+      "alt": "Noua funcție de gestionare a abonamentului din aplicația Frames",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "paragraph",
+      "content": "Până acum, schimbarea abonamentului presupunea anularea planului actual prin setările App Store, urmată de așteptarea expirării acestuia înainte de a selecta unul nou. Asta făcea trecerea la alt plan mai puțin convenabilă."
+    },
+    {
+      "type": "paragraph",
+      "content": "Acum poți comuta între planuri direct din setările aplicației. Planurile lunare, anuale sau pe viață pot fi selectate oricând, fără a ieși din aplicație sau a parcurge etape de anulare."
+    },
+    {
+      "type": "paragraph",
+      "content": "O nouă setare îți permite și să alegi limba aplicației separat de limba dispozitivului. Frames poate fi utilizat acum în limba care ți se potrivește cel mai bine, fără a modifica setările iOS."
+    },
+    {
+      "type": "paragraph",
+      "content": "Limbile acceptate includ engleza, araba, daneza, olandeza, finlandeza, franceza, germana, greaca, ebraica, hindi, indoneziana, italiana, japoneza, coreana, norvegiana bokmål, polona, portugheza, romana, rusa, chineza simplificată, spaniola, suedeza, thailandeza, chineza tradițională, turca, ucraineana și vietnameza."
+    }
+  ],
+  "improvements": [
+    "Comutarea planurilor de abonament direct în aplicație",
+    "Selectarea limbii aplicației independent de limba iOS"
+  ],
+  "fixes": [],
+  "patches": [
+    {
+      "version": "1.26.1",
+      "description": "Îmbunătățiri minore ale interfeței"
+    },
+    {
+      "version": "1.26.2",
+      "description": "Îmbunătățiri minore de localizare"
+    }
+  ],
+  "meta_title": "Gestionarea abonamentului - Frames",
+  "meta_description": "Comută între planuri de abonament direct în aplicație și alege limba Frames independent de setările iOS."
+}

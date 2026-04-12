@@ -1,0 +1,52 @@
+{
+  "version": "1.26.0",
+  "version_short": "1.26",
+  "url_slug": "1-26-ios",
+  "platform": "ios",
+  "release_date": "2026-03-24T10:00:00.000Z",
+  "title": "Prenumerationshantering",
+  "summary": "Hantera enkelt ditt abonnemang med direkta ändringar i appen, byt mellan månads-, års- eller livstidsplaner och välj appspråk oberoende av iOS-inställningar.",
+  "sections": [
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.26.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.26.0-1@2x.png",
+      "alt": "Ny prenumerationshanteringsfunktion i Frames-appen",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tidigare krävde det att du ändrade din prenumeration att du avslutade den nuvarande planen via App Store-inställningar och sedan väntade tills den gick ut innan du valde en ny. Det gjorde planbyte mindre bekvämt."
+    },
+    {
+      "type": "paragraph",
+      "content": "Du kan nu byta mellan planer direkt från appinställningarna. Månads-, års- eller livstidsplaner kan väljas när som helst utan att lämna appen eller gå igenom avslutningssteg."
+    },
+    {
+      "type": "paragraph",
+      "content": "En ny inställning låter dig också välja appspråk oberoende av enhetens språk. Frames kan nu användas på det språk som passar dig bäst utan att ändra iOS-inställningarna."
+    },
+    {
+      "type": "paragraph",
+      "content": "Språk som stöds inkluderar engelska, arabiska, danska, nederländska, finska, franska, tyska, grekiska, hebreiska, hindi, indonesiska, italienska, japanska, koreanska, norska bokmål, polska, portugisiska, rumänska, ryska, förenklad kinesiska, spanska, svenska, thailändska, traditionell kinesiska, turkiska, ukrainska och vietnamesiska."
+    }
+  ],
+  "improvements": [
+    "Byta prenumerationsplaner direkt i appen",
+    "Välja appspråk oberoende av iOS-språk"
+  ],
+  "fixes": [],
+  "patches": [
+    {
+      "version": "1.26.1",
+      "description": "Mindre UI-förbättringar"
+    },
+    {
+      "version": "1.26.2",
+      "description": "Mindre lokaliseringsförbättringar"
+    }
+  ],
+  "meta_title": "Prenumerationshantering - Frames",
+  "meta_description": "Byt mellan prenumerationsplaner direkt i appen och välj Frames-språket oberoende av iOS-inställningarna."
+}

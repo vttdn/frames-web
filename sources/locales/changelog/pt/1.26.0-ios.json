@@ -1,0 +1,52 @@
+{
+  "version": "1.26.0",
+  "version_short": "1.26",
+  "url_slug": "1-26-ios",
+  "platform": "ios",
+  "release_date": "2026-03-24T10:00:00.000Z",
+  "title": "Gestão de assinatura",
+  "summary": "Gerencie facilmente sua assinatura com alterações diretas no app, alterne entre planos mensal, anual ou vitalício e escolha o idioma do app independentemente das configurações do iOS.",
+  "sections": [
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.26.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.26.0-1@2x.png",
+      "alt": "Nova funcionalidade de gestão de assinatura do app Frames",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "paragraph",
+      "content": "Até agora, alterar sua assinatura exigia cancelar o plano atual pelas configurações da App Store e aguardar sua expiração antes de selecionar um novo. Isso tornava a troca de planos menos conveniente."
+    },
+    {
+      "type": "paragraph",
+      "content": "Agora você pode alternar entre planos diretamente nas configurações do app. Os planos mensal, anual ou vitalício podem ser selecionados a qualquer momento, sem sair do app ou passar por etapas de cancelamento."
+    },
+    {
+      "type": "paragraph",
+      "content": "Uma nova configuração também permite escolher o idioma do app separadamente do idioma do dispositivo. O Frames agora pode ser usado no idioma que melhor se adapta a você, sem alterar as configurações do iOS."
+    },
+    {
+      "type": "paragraph",
+      "content": "Os idiomas suportados incluem inglês, árabe, dinamarquês, holandês, finlandês, francês, alemão, grego, hebraico, hindi, indonésio, italiano, japonês, coreano, norueguês bokmål, polonês, português, romeno, russo, chinês simplificado, espanhol, sueco, tailandês, chinês tradicional, turco, ucraniano e vietnamita."
+    }
+  ],
+  "improvements": [
+    "Alternar planos de assinatura diretamente no app",
+    "Selecionar o idioma do app independentemente do idioma do iOS"
+  ],
+  "fixes": [],
+  "patches": [
+    {
+      "version": "1.26.1",
+      "description": "Melhorias menores na interface"
+    },
+    {
+      "version": "1.26.2",
+      "description": "Melhorias menores de localização"
+    }
+  ],
+  "meta_title": "Gestão de assinatura - Frames",
+  "meta_description": "Alterne entre planos de assinatura diretamente no app e escolha o idioma do Frames independentemente das configurações do iOS."
+}

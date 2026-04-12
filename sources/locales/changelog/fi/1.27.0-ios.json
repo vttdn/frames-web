@@ -1,0 +1,43 @@
+{
+  "version": "1.27.0",
+  "version_short": "1.27",
+  "url_slug": "1-27-ios",
+  "platform": "ios",
+  "release_date": "2026-03-30T10:00:00.000Z",
+  "title": "Uusia kieliä paikallisempaa käyttökokemusta varten",
+  "summary": "Frames laajentaa kielitukea tšekillä, slovakilla, unkarilla, kroaatilla ja malaijilla, jotta sovellus tuntuu luontevammalta maailmanlaajuisesti. Ilmaistileillä voi nyt luoda jopa 5 filmirullaa.",
+  "sections": [
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.27.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.27.0-1@2x.png",
+      "alt": "Frames-sovellus on nyt saatavilla tšekiksi",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "paragraph",
+      "content": "Frames on nyt saatavilla tšekiksi, slovakiksi, unkariksi, kroaatiksi ja malaijiksi, lisäten jo tuettuihin kieliin: englanti, arabia, tanska, hollanti, suomi, ranska, saksa, kreikka, heprea, hindi, indonesia, italia, japani, korea, norja (bokmål), puola, portugali, romania, venäjä, yksinkertaistettu kiina, espanja, ruotsi, thai, perinteinen kiina, turkki, ukraina ja vietnam."
+    },
+    {
+      "type": "paragraph",
+      "content": "Tämä laajennus on osa työtä tehdä Framesista helpommin saavutettavan käyttäjille ympäri maailmaa, jotta sovellus tuntuu luontevalta käyttää kielestä riippumatta ja sopii paremmin ihmisten arkeen."
+    },
+    {
+      "type": "paragraph",
+      "content": "Ilmaistilit voivat nyt luoda jopa 5 filmirullaa, mikä on kolmen sijaan. Tämä antaa enemmän tilaa kokeilla sovellusta ja järjestää muutamia kuvauksia ennen päivityspäätöstä."
+    },
+    {
+      "type": "paragraph",
+      "content": "Tavoitteena on pitää Frames avoimena ja helposti kokeiltavana, jotta kuka tahansa voi tutkia sitä omaan tahtiinsa ennen suunnitelman valitsemista."
+    }
+  ],
+  "improvements": [
+    "Lisätty tšekin, slovakin, unkarin, kroaatin ja malaijin lokalisointi",
+    "Ilmaistason raja nostettu 5 filmirullaan"
+  ],
+  "fixes": [],
+  "patches": [],
+  "meta_title": "Uusia kieliä paikallisempaa käyttöä varten - Frames",
+  "meta_description": "Frames lisää tšekin, slovakin, unkarin, kroaatin ja malaijin tuen sekä nostaa ilmaistason rajan 5 filmirullaan."
+}

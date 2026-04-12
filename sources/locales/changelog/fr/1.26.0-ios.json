@@ -1,0 +1,52 @@
+{
+  "version": "1.26.0",
+  "version_short": "1.26",
+  "url_slug": "1-26-ios",
+  "platform": "ios",
+  "release_date": "2026-03-24T10:00:00.000Z",
+  "title": "Gestion de l'abonnement",
+  "summary": "Gérez facilement votre abonnement directement dans l'app, passez d'un forfait mensuel, annuel ou à vie, et choisissez la langue de l'app indépendamment des réglages iOS.",
+  "sections": [
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.26.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.26.0-1@2x.png",
+      "alt": "Nouvelle fonctionnalité de gestion d'abonnement de l'application Frames",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "paragraph",
+      "content": "Jusqu'à présent, modifier votre abonnement nécessitait d'annuler votre forfait actuel via les réglages de l'App Store, puis d'attendre son expiration avant d'en sélectionner un nouveau. Cela rendait le changement de forfait peu pratique."
+    },
+    {
+      "type": "paragraph",
+      "content": "Vous pouvez désormais changer de forfait directement depuis les réglages de l'app. Les forfaits mensuel, annuel ou à vie peuvent être sélectionnés à tout moment, sans quitter l'app ni passer par des étapes d'annulation."
+    },
+    {
+      "type": "paragraph",
+      "content": "Un nouveau réglage vous permet également de choisir la langue de l'app indépendamment de la langue de votre appareil. Frames peut désormais être utilisé dans la langue qui vous convient le mieux, sans modifier les réglages iOS."
+    },
+    {
+      "type": "paragraph",
+      "content": "Les langues prises en charge incluent l'anglais, l'arabe, le danois, le néerlandais, le finnois, le français, l'allemand, le grec, l'hébreu, le hindi, l'indonésien, l'italien, le japonais, le coréen, le norvégien bokmål, le polonais, le portugais, le roumain, le russe, le chinois simplifié, l'espagnol, le suédois, le thaï, le chinois traditionnel, le turc, l'ukrainien et le vietnamien."
+    }
+  ],
+  "improvements": [
+    "Changer de forfait d'abonnement directement dans l'app",
+    "Choisir la langue de l'app indépendamment de la langue iOS"
+  ],
+  "fixes": [],
+  "patches": [
+    {
+      "version": "1.26.1",
+      "description": "Améliorations mineures de l'interface"
+    },
+    {
+      "version": "1.26.2",
+      "description": "Améliorations mineures de la localisation"
+    }
+  ],
+  "meta_title": "Gestion de l'abonnement - Frames",
+  "meta_description": "Changez de forfait d'abonnement directement dans l'app et choisissez la langue de Frames indépendamment des réglages iOS."
+}

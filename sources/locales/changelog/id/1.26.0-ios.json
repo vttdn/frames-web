@@ -1,0 +1,52 @@
+{
+  "version": "1.26.0",
+  "version_short": "1.26",
+  "url_slug": "1-26-ios",
+  "platform": "ios",
+  "release_date": "2026-03-24T10:00:00.000Z",
+  "title": "Manajemen langganan",
+  "summary": "Kelola langganan Anda dengan mudah langsung di aplikasi, beralih antara paket bulanan, tahunan, atau seumur hidup, dan pilih bahasa aplikasi terlepas dari pengaturan iOS.",
+  "sections": [
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.26.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.26.0-1@2x.png",
+      "alt": "Fitur manajemen langganan baru di aplikasi Frames",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "paragraph",
+      "content": "Sebelumnya, mengubah langganan mengharuskan Anda membatalkan paket saat ini melalui pengaturan App Store, lalu menunggu hingga berakhir sebelum memilih yang baru. Ini membuat peralihan paket menjadi kurang praktis."
+    },
+    {
+      "type": "paragraph",
+      "content": "Kini Anda dapat beralih antar paket langsung dari pengaturan aplikasi. Paket bulanan, tahunan, atau seumur hidup dapat dipilih kapan saja tanpa meninggalkan aplikasi atau melalui langkah pembatalan."
+    },
+    {
+      "type": "paragraph",
+      "content": "Pengaturan baru juga memungkinkan Anda memilih bahasa aplikasi secara terpisah dari bahasa perangkat. Frames kini dapat digunakan dalam bahasa yang paling sesuai untuk Anda, tanpa mengubah pengaturan iOS."
+    },
+    {
+      "type": "paragraph",
+      "content": "Bahasa yang didukung meliputi Inggris, Arab, Denmark, Belanda, Finlandia, Prancis, Jerman, Yunani, Ibrani, Hindi, Indonesia, Italia, Jepang, Korea, Norwegia Bokmål, Polandia, Portugis, Rumania, Rusia, Tionghoa Sederhana, Spanyol, Swedia, Thailand, Tionghoa Tradisional, Turki, Ukraina, dan Vietnam."
+    }
+  ],
+  "improvements": [
+    "Beralih paket langganan langsung di aplikasi",
+    "Pilih bahasa aplikasi terlepas dari bahasa iOS"
+  ],
+  "fixes": [],
+  "patches": [
+    {
+      "version": "1.26.1",
+      "description": "Peningkatan UI kecil"
+    },
+    {
+      "version": "1.26.2",
+      "description": "Peningkatan lokalisasi kecil"
+    }
+  ],
+  "meta_title": "Manajemen langganan - Frames",
+  "meta_description": "Beralih antara paket langganan langsung di aplikasi dan pilih bahasa Frames terlepas dari pengaturan iOS."
+}

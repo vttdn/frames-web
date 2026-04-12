@@ -1,0 +1,52 @@
+{
+  "version": "1.26.0",
+  "version_short": "1.26",
+  "url_slug": "1-26-ios",
+  "platform": "ios",
+  "release_date": "2026-03-24T10:00:00.000Z",
+  "title": "Quản lý đăng ký",
+  "summary": "Dễ dàng quản lý đăng ký của bạn trực tiếp trong ứng dụng, chuyển đổi giữa các gói hàng tháng, hàng năm hoặc trọn đời, và chọn ngôn ngữ ứng dụng độc lập với cài đặt iOS.",
+  "sections": [
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.26.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.26.0-1@2x.png",
+      "alt": "Tính năng quản lý đăng ký mới của ứng dụng Frames",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "paragraph",
+      "content": "Trước đây, việc thay đổi đăng ký yêu cầu hủy gói hiện tại qua cài đặt App Store, sau đó chờ hết hạn trước khi chọn gói mới. Điều này khiến việc đổi gói kém tiện lợi hơn."
+    },
+    {
+      "type": "paragraph",
+      "content": "Bạn có thể chuyển đổi giữa các gói trực tiếp từ cài đặt ứng dụng. Các gói hàng tháng, hàng năm hoặc trọn đời có thể được chọn bất cứ lúc nào mà không cần rời khỏi ứng dụng hoặc qua các bước hủy."
+    },
+    {
+      "type": "paragraph",
+      "content": "Cài đặt mới cũng cho phép bạn chọn ngôn ngữ ứng dụng riêng biệt với ngôn ngữ thiết bị. Frames giờ đây có thể được sử dụng bằng ngôn ngữ phù hợp nhất với bạn mà không cần thay đổi cài đặt iOS."
+    },
+    {
+      "type": "paragraph",
+      "content": "Các ngôn ngữ được hỗ trợ bao gồm tiếng Anh, tiếng Ả Rập, tiếng Đan Mạch, tiếng Hà Lan, tiếng Phần Lan, tiếng Pháp, tiếng Đức, tiếng Hy Lạp, tiếng Do Thái, tiếng Hindi, tiếng Indonesia, tiếng Ý, tiếng Nhật, tiếng Hàn, tiếng Na Uy (Bokmål), tiếng Ba Lan, tiếng Bồ Đào Nha, tiếng Romania, tiếng Nga, tiếng Trung giản thể, tiếng Tây Ban Nha, tiếng Thụy Điển, tiếng Thái, tiếng Trung phồn thể, tiếng Thổ Nhĩ Kỳ, tiếng Ukraina và tiếng Việt."
+    }
+  ],
+  "improvements": [
+    "Chuyển đổi gói đăng ký trực tiếp trong ứng dụng",
+    "Chọn ngôn ngữ ứng dụng độc lập với ngôn ngữ iOS"
+  ],
+  "fixes": [],
+  "patches": [
+    {
+      "version": "1.26.1",
+      "description": "Cải tiến giao diện nhỏ"
+    },
+    {
+      "version": "1.26.2",
+      "description": "Cải tiến bản địa hóa nhỏ"
+    }
+  ],
+  "meta_title": "Quản lý đăng ký - Frames",
+  "meta_description": "Chuyển đổi giữa các gói đăng ký trực tiếp trong ứng dụng và chọn ngôn ngữ Frames độc lập với cài đặt iOS."
+}

@@ -1,0 +1,52 @@
+{
+  "version": "1.26.0",
+  "version_short": "1.26",
+  "url_slug": "1-26-ios",
+  "platform": "ios",
+  "release_date": "2026-03-24T10:00:00.000Z",
+  "title": "Abonnementbeheer",
+  "summary": "Beheer eenvoudig je abonnement met directe wijzigingen in de app, schakel tussen maandelijkse, jaarlijkse of levenslange plannen en kies de taal van de app onafhankelijk van iOS-instellingen.",
+  "sections": [
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.26.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.26.0-1@2x.png",
+      "alt": "Nieuwe abonnementbeheerfunctie van de Frames-app",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tot nu toe moest je, om je abonnement te wijzigen, je huidige plan annuleren via de App Store-instellingen en vervolgens wachten tot het verliep voordat je een nieuw plan kon kiezen. Dit maakte het wisselen van plan minder handig."
+    },
+    {
+      "type": "paragraph",
+      "content": "Je kunt nu rechtstreeks vanuit de app-instellingen wisselen tussen plannen. Maandelijkse, jaarlijkse of levenslange plannen kunnen op elk moment worden geselecteerd zonder de app te verlaten of annuleringsstappen te doorlopen."
+    },
+    {
+      "type": "paragraph",
+      "content": "Met een nieuwe instelling kun je de taal van de app ook afzonderlijk van de taal van je apparaat kiezen. Frames kan nu worden gebruikt in de taal die het beste bij je past, zonder de iOS-instellingen te wijzigen."
+    },
+    {
+      "type": "paragraph",
+      "content": "Ondersteunde talen zijn onder andere Engels, Arabisch, Deens, Nederlands, Fins, Frans, Duits, Grieks, Hebreeuws, Hindi, Indonesisch, Italiaans, Japans, Koreaans, Noors Bokmål, Pools, Portugees, Roemeens, Russisch, Vereenvoudigd Chinees, Spaans, Zweeds, Thai, Traditioneel Chinees, Turks, Oekraïens en Vietnamees."
+    }
+  ],
+  "improvements": [
+    "Wissel rechtstreeks in de app van abonnementsplan",
+    "Kies de taal van de app onafhankelijk van de iOS-taal"
+  ],
+  "fixes": [],
+  "patches": [
+    {
+      "version": "1.26.1",
+      "description": "Kleine UI-verbeteringen"
+    },
+    {
+      "version": "1.26.2",
+      "description": "Kleine lokalisatieverbeteringen"
+    }
+  ],
+  "meta_title": "Abonnementbeheer - Frames",
+  "meta_description": "Wissel tussen abonnementsplannen rechtstreeks in de app en kies de Frames-taal onafhankelijk van de iOS-instellingen."
+}

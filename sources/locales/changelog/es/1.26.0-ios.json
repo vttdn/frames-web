@@ -1,0 +1,52 @@
+{
+  "version": "1.26.0",
+  "version_short": "1.26",
+  "url_slug": "1-26-ios",
+  "platform": "ios",
+  "release_date": "2026-03-24T10:00:00.000Z",
+  "title": "Gestión de suscripción",
+  "summary": "Gestiona fácilmente tu suscripción con cambios directos en la app, cambia entre planes mensual, anual o de por vida, y elige el idioma de la app independientemente de los ajustes de iOS.",
+  "sections": [
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.26.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.26.0-1@2x.png",
+      "alt": "Nueva función de gestión de suscripción de la aplicación Frames",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "paragraph",
+      "content": "Hasta ahora, cambiar tu suscripción requería cancelar el plan actual desde los ajustes del App Store, esperar a que expirara y luego seleccionar uno nuevo. Esto hacía que cambiar de plan fuera poco cómodo."
+    },
+    {
+      "type": "paragraph",
+      "content": "Ahora puedes cambiar de plan directamente desde los ajustes de la app. Los planes mensual, anual o de por vida pueden seleccionarse en cualquier momento sin salir de la app ni pasar por pasos de cancelación."
+    },
+    {
+      "type": "paragraph",
+      "content": "Un nuevo ajuste también te permite elegir el idioma de la app de forma independiente al idioma de tu dispositivo. Frames puede usarse ahora en el idioma que mejor te convenga, sin cambiar los ajustes de iOS."
+    },
+    {
+      "type": "paragraph",
+      "content": "Los idiomas compatibles incluyen inglés, árabe, danés, neerlandés, finlandés, francés, alemán, griego, hebreo, hindi, indonesio, italiano, japonés, coreano, noruego bokmål, polaco, portugués, rumano, ruso, chino simplificado, español, sueco, tailandés, chino tradicional, turco, ucraniano y vietnamita."
+    }
+  ],
+  "improvements": [
+    "Cambiar de plan de suscripción directamente en la app",
+    "Elegir el idioma de la app independientemente del idioma de iOS"
+  ],
+  "fixes": [],
+  "patches": [
+    {
+      "version": "1.26.1",
+      "description": "Mejoras menores de la interfaz"
+    },
+    {
+      "version": "1.26.2",
+      "description": "Mejoras menores de localización"
+    }
+  ],
+  "meta_title": "Gestión de suscripción - Frames",
+  "meta_description": "Cambia entre planes de suscripción directamente en la app y elige el idioma de Frames independientemente de los ajustes de iOS."
+}

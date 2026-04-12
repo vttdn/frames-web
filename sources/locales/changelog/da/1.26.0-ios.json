@@ -1,0 +1,52 @@
+{
+  "version": "1.26.0",
+  "version_short": "1.26",
+  "url_slug": "1-26-ios",
+  "platform": "ios",
+  "release_date": "2026-03-24T10:00:00.000Z",
+  "title": "Abonnementshåndtering",
+  "summary": "Administrér nemt dit abonnement direkte i appen, skift mellem månedlige, årlige eller livstidsplaner, og vælg appens sprog uafhængigt af iOS-indstillingerne.",
+  "sections": [
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.26.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.26.0-1@2x.png",
+      "alt": "Frames-appens nye abonnementshåndteringsfunktion",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tidligere krævede ændring af dit abonnement, at du aflyste den aktuelle plan via App Store-indstillinger, og derefter ventede på, at den udløb, inden du valgte en ny. Det gjorde planskift mindre praktisk."
+    },
+    {
+      "type": "paragraph",
+      "content": "Du kan nu skifte mellem planer direkte fra app-indstillingerne. Månedlige, årlige eller livstidsplaner kan vælges til enhver tid uden at forlade appen eller gennemgå aflysningsstrin."
+    },
+    {
+      "type": "paragraph",
+      "content": "En ny indstilling lader dig også vælge appens sprog uafhængigt af din enheds sprog. Frames kan nu bruges på det sprog, der passer dig bedst, uden at ændre iOS-indstillingerne."
+    },
+    {
+      "type": "paragraph",
+      "content": "Understøttede sprog inkluderer engelsk, arabisk, dansk, hollandsk, finsk, fransk, tysk, græsk, hebraisk, hindi, indonesisk, italiensk, japansk, koreansk, norsk bokmål, polsk, portugisisk, rumænsk, russisk, forenklet kinesisk, spansk, svensk, thai, traditionelt kinesisk, tyrkisk, ukrainsk og vietnamesisk."
+    }
+  ],
+  "improvements": [
+    "Skifte abonnementsplaner direkte i appen",
+    "Vælge appens sprog uafhængigt af iOS-sproget"
+  ],
+  "fixes": [],
+  "patches": [
+    {
+      "version": "1.26.1",
+      "description": "Mindre UI-forbedringer"
+    },
+    {
+      "version": "1.26.2",
+      "description": "Mindre lokaliseringsforbedringer"
+    }
+  ],
+  "meta_title": "Abonnementshåndtering - Frames",
+  "meta_description": "Skift mellem abonnementsplaner direkte i appen og vælg Frames-sproget uafhængigt af iOS-indstillingerne."
+}

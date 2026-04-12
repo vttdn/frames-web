@@ -1,0 +1,52 @@
+{
+  "version": "1.26.0",
+  "version_short": "1.26",
+  "url_slug": "1-26-ios",
+  "platform": "ios",
+  "release_date": "2026-03-24T10:00:00.000Z",
+  "title": "Subscription management",
+  "summary": "Easily manage your subscription with direct changes in the app, switch between monthly, yearly, or lifetime plans, and choose your app language independently from iOS settings.",
+  "sections": [
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.26.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.26.0-1@2x.png",
+      "alt": "Frames app new subscription management feature",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "paragraph",
+      "content": "Until now, changing your subscription required canceling your current plan through App Store settings, then waiting for it to expire before selecting a new one. This made switching plans less convenient."
+    },
+    {
+      "type": "paragraph",
+      "content": "You can now switch between plans directly from the app settings. Monthly, yearly, or lifetime plans can be selected at any time without leaving the app or going through cancellation steps."
+    },
+    {
+      "type": "paragraph",
+      "content": "A new setting also lets you choose the app language separately from your device language. Frames can now be used in the language that fits you best, without changing iOS settings."
+    },
+    {
+      "type": "paragraph",
+      "content": "Supported languages include English, Arabic, Danish, Dutch, Finnish, French, German, Greek, Hebrew, Hindi, Indonesian, Italian, Japanese, Korean, Norwegian Bokmål, Polish, Portuguese, Romanian, Russian, Simplified Chinese, Spanish, Swedish, Thai, Traditional Chinese, Turkish, Ukrainian, and Vietnamese."
+    }
+  ],
+  "improvements": [
+    "Switch subscription plans directly in the app",
+    "Select app language independently from iOS language"
+  ],
+  "fixes": [],
+  "patches": [
+    {
+      "version": "1.26.1",
+      "description": "Minor UI improvements"
+    },
+    {
+      "version": "1.26.2",
+      "description": "Minor Localization improvements"
+    }
+  ],
+  "meta_title": "Subscription management - Frames",
+  "meta_description": "Switch between subscription plans directly in the app and choose the Frames language independently from iOS settings."
+}

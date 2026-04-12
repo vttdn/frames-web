@@ -1,0 +1,52 @@
+{
+  "version": "1.26.0",
+  "version_short": "1.26",
+  "url_slug": "1-26-ios",
+  "platform": "ios",
+  "release_date": "2026-03-24T10:00:00.000Z",
+  "title": "訂閱管理",
+  "summary": "直接在應用程式內管理您的訂閱，隨時在月度、年度或終身方案之間切換，並可獨立於 iOS 設定選擇應用程式語言。",
+  "sections": [
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.26.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.26.0-1@2x.png",
+      "alt": "Frames 應用程式新訂閱管理功能",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "paragraph",
+      "content": "此前，更改訂閱需要透過 App Store 設定取消目前方案，然後等待其到期後再選擇新方案。這使得切換方案頗為繁瑣。"
+    },
+    {
+      "type": "paragraph",
+      "content": "現在，您可以直接從應用程式設定中切換方案。月度、年度或終身方案均可隨時選擇，無需離開應用程式或經歷取消步驟。"
+    },
+    {
+      "type": "paragraph",
+      "content": "新設定還允許您獨立於裝置語言選擇應用程式語言。無需更改 iOS 設定，即可以最適合您的語言使用 Frames。"
+    },
+    {
+      "type": "paragraph",
+      "content": "支援的語言包括英語、阿拉伯語、丹麥語、荷蘭語、芬蘭語、法語、德語、希臘語、希伯來語、印地語、印尼語、義大利語、日語、韓語、挪威語（書面挪威語）、波蘭語、葡萄牙語、羅馬尼亞語、俄語、簡體中文、西班牙語、瑞典語、泰語、繁體中文、土耳其語、烏克蘭語和越南語。"
+    }
+  ],
+  "improvements": [
+    "直接在應用程式內切換訂閱方案",
+    "獨立於 iOS 語言選擇應用程式語言"
+  ],
+  "fixes": [],
+  "patches": [
+    {
+      "version": "1.26.1",
+      "description": "介面細節優化"
+    },
+    {
+      "version": "1.26.2",
+      "description": "本地化細節優化"
+    }
+  ],
+  "meta_title": "訂閱管理 - Frames",
+  "meta_description": "直接在應用程式內切換訂閱方案，並獨立於 iOS 設定選擇 Frames 語言。"
+}

@@ -1,0 +1,52 @@
+{
+  "version": "1.26.0",
+  "version_short": "1.26",
+  "url_slug": "1-26-ios",
+  "platform": "ios",
+  "release_date": "2026-03-24T10:00:00.000Z",
+  "title": "Abonelik yönetimi",
+  "summary": "Uygulamada doğrudan değişiklik yaparak aboneliğini kolayca yönet, aylık, yıllık veya ömür boyu planlar arasında geç ve iOS ayarlarından bağımsız olarak uygulama dilini seç.",
+  "sections": [
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.26.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.26.0-1@2x.png",
+      "alt": "Frames uygulamasının yeni abonelik yönetimi özelliği",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "paragraph",
+      "content": "Şimdiye kadar aboneliğini değiştirmek, App Store ayarları üzerinden mevcut planı iptal etmeyi, ardından yeni bir plan seçmeden önce süresinin dolmasını beklemeyi gerektiriyordu. Bu durum, plan değiştirmeyi daha az pratik hale getiriyordu."
+    },
+    {
+      "type": "paragraph",
+      "content": "Artık planlar arasında doğrudan uygulama ayarlarından geçiş yapabilirsin. Aylık, yıllık veya ömür boyu planlar, uygulamadan çıkmadan ya da iptal adımlarından geçmeden istediğin zaman seçilebilir."
+    },
+    {
+      "type": "paragraph",
+      "content": "Yeni bir ayar ayrıca uygulama dilini cihaz dilinden bağımsız olarak seçmeni sağlar. Frames artık iOS ayarlarını değiştirmeden sana en uygun dilde kullanılabilir."
+    },
+    {
+      "type": "paragraph",
+      "content": "Desteklenen diller arasında İngilizce, Arapça, Danimarkaca, Felemenkçe, Fince, Fransızca, Almanca, Yunanca, İbranice, Hintçe, Endonezce, İtalyanca, Japonca, Korece, Norveç Bokmål, Lehçe, Portekizce, Rumence, Rusça, Basitleştirilmiş Çince, İspanyolca, İsveççe, Tayca, Geleneksel Çince, Türkçe, Ukraynaca ve Vietnamca yer almaktadır."
+    }
+  ],
+  "improvements": [
+    "Abonelik planları arasında doğrudan uygulamadan geçiş",
+    "Uygulama dilini iOS dilinden bağımsız olarak seçme"
+  ],
+  "fixes": [],
+  "patches": [
+    {
+      "version": "1.26.1",
+      "description": "Küçük arayüz iyileştirmeleri"
+    },
+    {
+      "version": "1.26.2",
+      "description": "Küçük yerelleştirme iyileştirmeleri"
+    }
+  ],
+  "meta_title": "Abonelik yönetimi - Frames",
+  "meta_description": "Uygulama içinden abonelik planları arasında geç ve Frames dilini iOS ayarlarından bağımsız olarak seç."
+}

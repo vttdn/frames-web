@@ -1,0 +1,52 @@
+{
+  "version": "1.26.0",
+  "version_short": "1.26",
+  "url_slug": "1-26-ios",
+  "platform": "ios",
+  "release_date": "2026-03-24T10:00:00.000Z",
+  "title": "Zarządzanie subskrypcją",
+  "summary": "Zarządzaj subskrypcją bezpośrednio w aplikacji, przełączaj się między planami miesięcznymi, rocznymi lub dożywotnimi i wybieraj język aplikacji niezależnie od ustawień iOS.",
+  "sections": [
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.26.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.26.0-1@2x.png",
+      "alt": "Nowa funkcja zarządzania subskrypcją w aplikacji Frames",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "paragraph",
+      "content": "Do tej pory zmiana subskrypcji wymagała anulowania bieżącego planu w ustawieniach App Store, a następnie czekania na jego wygaśnięcie przed wybraniem nowego. Utrudniało to zmianę planów."
+    },
+    {
+      "type": "paragraph",
+      "content": "Teraz możesz przełączać się między planami bezpośrednio z ustawień aplikacji. Plany miesięczne, roczne lub dożywotnie można wybrać w dowolnym momencie bez opuszczania aplikacji lub przechodzenia przez etapy anulowania."
+    },
+    {
+      "type": "paragraph",
+      "content": "Nowe ustawienie pozwala również wybrać język aplikacji niezależnie od języka urządzenia. Frames można teraz używać w języku, który najbardziej Ci odpowiada, bez zmiany ustawień iOS."
+    },
+    {
+      "type": "paragraph",
+      "content": "Obsługiwane języki to angielski, arabski, duński, niderlandzki, fiński, francuski, niemiecki, grecki, hebrajski, hindi, indonezyjski, włoski, japoński, koreański, norweski bokmål, polski, portugalski, rumuński, rosyjski, chiński uproszczony, hiszpański, szwedzki, tajski, chiński tradycyjny, turecki, ukraiński i wietnamski."
+    }
+  ],
+  "improvements": [
+    "Przełączanie planów subskrypcji bezpośrednio w aplikacji",
+    "Wybieranie języka aplikacji niezależnie od języka iOS"
+  ],
+  "fixes": [],
+  "patches": [
+    {
+      "version": "1.26.1",
+      "description": "Drobne ulepszenia interfejsu"
+    },
+    {
+      "version": "1.26.2",
+      "description": "Drobne ulepszenia lokalizacji"
+    }
+  ],
+  "meta_title": "Zarządzanie subskrypcją - Frames",
+  "meta_description": "Przełączaj plany subskrypcji bezpośrednio w aplikacji i wybieraj język Frames niezależnie od ustawień iOS."
+}

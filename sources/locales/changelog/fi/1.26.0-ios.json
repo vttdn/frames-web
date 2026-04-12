@@ -1,0 +1,52 @@
+{
+  "version": "1.26.0",
+  "version_short": "1.26",
+  "url_slug": "1-26-ios",
+  "platform": "ios",
+  "release_date": "2026-03-24T10:00:00.000Z",
+  "title": "Tilausten hallinta",
+  "summary": "Hallinnoi tilaustasi helposti suoraan sovelluksessa, vaihda kuukausi-, vuosi- tai elinikäisten suunnitelmien välillä ja valitse sovelluksen kieli iOS-asetuksista riippumatta.",
+  "sections": [
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.26.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.26.0-1@2x.png",
+      "alt": "Framesin uusi tilauksen hallintaominaisuus",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "paragraph",
+      "content": "Aiemmin tilauksesi muuttaminen edellytti nykyisen suunnitelman peruuttamista App Store -asetusten kautta ja sen voimassaoloajan päättymistä ennen kuin uuden suunnitelman valitseminen oli mahdollista. Tämä teki suunnitelmien vaihtamisesta hankalaa."
+    },
+    {
+      "type": "paragraph",
+      "content": "Voit nyt vaihtaa suunnitelmien välillä suoraan sovelluksen asetuksista. Kuukausi-, vuosi- tai elinikäinen suunnitelma voidaan valita milloin tahansa ilman, että sovelluksesta tarvitsee poistua tai käydä läpi peruutusvaiheita."
+    },
+    {
+      "type": "paragraph",
+      "content": "Uuden asetuksen avulla voit myös valita sovelluksen kielen erikseen laitteesi kielestä. Framesia voi nyt käyttää parhaiten sinulle sopivalla kielellä ilman iOS-asetusten muuttamista."
+    },
+    {
+      "type": "paragraph",
+      "content": "Tuetut kielet sisältävät englannin, arabian, tanskan, hollannin, suomen, ranskan, saksan, kreikan, heprean, hindin, indonesian, italian, japanin, korean, norjan bokmålin, puolan, portugalin, romanian, venäjän, yksinkertaistetun kiinan, espanjan, ruotsin, tain, perinteisen kiinan, turkin, ukrainan ja vietnamin."
+    }
+  ],
+  "improvements": [
+    "Vaihda tilaussuunnitelmia suoraan sovelluksessa",
+    "Valitse sovelluksen kieli riippumattomasti iOS-kielestä"
+  ],
+  "fixes": [],
+  "patches": [
+    {
+      "version": "1.26.1",
+      "description": "Pieniä käyttöliittymäparannuksia"
+    },
+    {
+      "version": "1.26.2",
+      "description": "Pieniä lokalisointiparannuksia"
+    }
+  ],
+  "meta_title": "Tilausten hallinta - Frames",
+  "meta_description": "Vaihda tilaussuunnitelmien välillä suoraan sovelluksessa ja valitse Framesin kieli iOS-asetuksista riippumatta."
+}
