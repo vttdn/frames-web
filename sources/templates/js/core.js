@@ -1,10 +1,6 @@
 // Core JavaScript for Frames website
 // Language: {{ lang }}
 
-// Twitter sharing configuration
-const TWITTER_HANDLE = "{{ locale_data.social.twitter if locale_data.social is defined and locale_data.social.twitter else global_config.urls.social.handle.twitter }}";
-const VIA_TEXT = "{{ locale_data.share_dropdown.via }}";
-
 //
 // Json-LD Injection
 //
@@ -41,381 +37,155 @@ document.addEventListener('DOMContentLoaded', function () {
   });
 });
 
-
 //
-// Overlay Modals — Share / YouTube / Menu
+// Content reveal on scroll
 //
-document.addEventListener('DOMContentLoaded', () => {
-  const overlay = document.getElementById('overlay');
-  const modalContainer = document.getElementById('modal-container');
-  const body = document.body;
-  let lastFocusedElement = null;
+const elements = Array.from(document.querySelectorAll('.animated'));
+const staggerScroll = 60;
 
-  if (!overlay || !modalContainer) return;
+let colMap = new Map();
 
-  // --- Helpers ---
-  function openOverlay({ type, titleText, contentHTML }) {
-    lastFocusedElement = document.activeElement;
-    modalContainer.innerHTML = contentHTML;
+function getColumnIndexes() {
+  colMap.clear();
 
-    const titleEl = modalContainer.querySelector('h3');
-    if (titleEl) {
-      const titleId = `overlay-title-${type}`;
-      titleEl.id = titleId;
-      overlay.setAttribute('aria-labelledby', titleId);
-    } else {
-      overlay.removeAttribute('aria-labelledby');
+  const rows = [];
+
+  elements.forEach(el => {
+    const rect = el.getBoundingClientRect();
+    const absTop = rect.top + window.scrollY;
+    const left = rect.left;
+
+    let row = rows.find(r => Math.abs(r.absTop - absTop) < 10);
+    if (!row) {
+      row = { absTop, items: [] };
+      rows.push(row);
     }
-
-    overlay.hidden = false;
-    overlay.classList.add('show');
-    body.classList.add('body-no-scroll');
-
-    const trigger = document.querySelector(`[data-overlay-trigger="${type}"]`);
-    if (trigger) trigger.setAttribute('aria-expanded', 'true');
-    overlay.setAttribute('aria-hidden', 'false');
-  }
-
-  function closeOverlay() {
-    overlay.classList.remove('show');
-    body.classList.remove('body-no-scroll');
-
-    setTimeout(() => {
-      overlay.hidden = true;
-      modalContainer.innerHTML = '';
-      if (lastFocusedElement) lastFocusedElement.focus();
-    }, 200);
-
-    document.querySelectorAll('[data-overlay-trigger][aria-expanded="true"]')
-      .forEach(btn => btn.setAttribute('aria-expanded', 'false'));
-    overlay.setAttribute('aria-hidden', 'true');
-  }
-
-  // --- Global close events ---
-  overlay.addEventListener('click', (e) => {
-    if (e.target === overlay) closeOverlay();
+    row.items.push({ el, left });
   });
 
-  document.addEventListener('keydown', (e) => {
-    if (e.key === 'Escape' && !overlay.hidden) closeOverlay();
+  rows.forEach(row => {
+    row.items.sort((a, b) => a.left - b.left);
+    const cols = [];
+    row.items.forEach(({ el, left }) => {
+      let colIndex = cols.findIndex(c => Math.abs(c - left) < 10);
+      if (colIndex === -1) {
+        cols.push(left);
+        colIndex = cols.length - 1;
+      }
+      colMap.set(el, colIndex);
+    });
+  });
+}
+
+function update() {
+  const vh = window.innerHeight;
+
+  elements.forEach(el => {
+    const rect = el.getBoundingClientRect();
+    const colIndex = colMap.get(el) || 0;
+
+    const startOffset = colIndex * staggerScroll;
+
+    const start = vh - startOffset + 30;
+    const end = start - 300;
+
+    let progress = (start - rect.top) / (start - end);
+    progress = Math.max(0, Math.min(1, progress));
+
+    const eased = Math.sin((progress * Math.PI) / 2);
+
+    el.style.transform = `translate3d(0, ${(1 - eased) * 40}px, 0)`;
+    el.style.opacity = eased;
   });
 
-  //
-  // SOCIAL SHARE Modal
-  //
-  const socialBtn = document.getElementById('button-social-share');
-  if (socialBtn) {
-    socialBtn.dataset.overlayTrigger = 'social';
-    socialBtn.addEventListener('click', () => {
-      const contentHTML = `
-          <div class="modal-header flex flex-justify-between flex-center">
-            <h3>{{ locale_data.header.buttons.share }}</h3>
-            <button class="overlay-button-close flex flex-center flex-justify-center"
-                    aria-label="{{ locale_data.actions.close }}">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                   viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                   stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="size-4">
-                <line x1="18" y1="6" x2="6" y2="18"></line>
-                <line x1="6" y1="6" x2="18" y2="18"></line>
-              </svg>
-            </button>
-          </div>
+  requestAnimationFrame(update);
+}
 
-          <div class="modal-social-buttons grid grid-3col">
-            <a href="#" onclick="shareOn('facebook');return false;">
-              <img src="/lib/img/icn/facebook.svg" alt="{{ locale_data.share_dropdown.facebook }} Icon" width="14" height="14" loading="lazy">
-            </a>
-            <a href="#" onclick="shareOn('twitter');return false;">
-              <img src="/lib/img/icn/twitter.svg" alt="{{ locale_data.share_dropdown.twitter }} Icon" width="14" height="14" loading="lazy">
-            </a>
-            <a href="#" onclick="shareOn('linkedin');return false;">
-              <img src="/lib/img/icn/linkedin.svg" alt="{{ locale_data.share_dropdown.linkedin }} Icon" width="14" height="14" loading="lazy">
-            </a>
-            <a href="#" onclick="shareOn('whatsapp');return false;">
-              <img src="/lib/img/icn/whatsapp.svg" alt="{{ locale_data.share_dropdown.whatsapp }} Icon" width="14" height="14" loading="lazy">
-            </a>
-            <a href="#" onclick="shareOn('reddit');return false;">
-              <img src="/lib/img/icn/reddit.svg" alt="{{ locale_data.share_dropdown.reddit }} Icon" width="14" height="14" loading="lazy">
-            </a>
-            <a href="#" onclick="shareOn('email');return false;">
-              <img src="/lib/img/icn/paperplane.svg" alt="{{ locale_data.share_dropdown.email }} Icon" width="14" height="14" loading="lazy">
-            </a>
-        </div>`;
+getColumnIndexes();
+window.addEventListener('resize', getColumnIndexes);
 
-      openOverlay({
-        type: 'social',
-        titleText: '{{ locale_data.header.buttons.share }}',
-        contentHTML
-      });
-
-      modalContainer.querySelector('.overlay-button-close')
-        .addEventListener('click', closeOverlay);
-    });
-  }
-
-  //
-  // MOBILE MENU
-  //
-  const menuBtn = document.getElementById('menu-toggle');
-  if (menuBtn) {
-    menuBtn.dataset.overlayTrigger = 'menu';
-    menuBtn.addEventListener('click', () => {
-
-      const contentHTML = `
-      <div class="wrapper">
-        <button class="overlay-button-close flex flex-center flex-justify-center"
-                aria-label="{{ locale_data.actions.close }}">
-            <img src="/lib/img/icn/xmark.svg" alt="x Mark Icon" width="32" height="32" loading="lazy" aria-hidden="true">
-        </button>
-
-        <nav class="mobile-menu-nav" aria-label="{{ locale_data.mobile_menu.navigation_aria_label }}">
-          <ul class="flex flex-col">
-            <li><a href="#features">{{ locale_data.mobile_menu.features }}</a></li>
-            <li><a href="{{ global_config.urls.documentation }}">{{ locale_data.mobile_menu.documentation }}</a></li>
-            <li><a href="{{ lang_config.path }}{{ locale_data.urls.changelog }}">{{ locale_data.mobile_menu.changelog }}</a></li>
-            <li><a href="{{ lang_config.path }}{{ locale_data.urls.privacy }}">{{ locale_data.mobile_menu.privacy }}</a></li>
-          </ul>
-        </nav>
-      </div>
-    `;
-
-      openOverlay({
-        type: 'menu',
-        titleText: '{{ locale_data.mobile_menu.navigation_aria_label }}',
-        contentHTML
-      });
-
-      modalContainer.classList.add('modal-menu');
-
-      const closeBtn = modalContainer.querySelector('.overlay-button-close');
-      if (closeBtn) {
-        closeBtn.addEventListener('click', () => {
-          modalContainer.classList.remove('modal-menu');
-          closeOverlay();
-        });
-      }
-
-      // --- NEW: Close overlay when clicking same-page anchors ---
-      const anchors = modalContainer.querySelectorAll('a[href^="#"]');
-      anchors.forEach(anchor => {
-        anchor.addEventListener('click', (e) => {
-          // Optional: you could scroll to the section manually here if needed
-          modalContainer.classList.remove('modal-menu');
-          closeOverlay();
-        });
-      });
-
-    });
-  }
-
-  //
-  // YOUTUBE Modal
-  //
-  const playBtn = document.getElementById('youtube-video-toggle');
-  let ytApiLoaded = false;
-  let ytPlayer = null;
-
-  if (playBtn) {
-    playBtn.dataset.overlayTrigger = 'youtube';
-    playBtn.addEventListener('click', () => {
-      const videoId = playBtn.dataset.videoId;
-      if (!videoId) return;
-
-      // Load YouTube iframe API script if not already loaded
-      if (!ytApiLoaded) {
-        const tag = document.createElement('script');
-        tag.src = 'https://www.youtube.com/iframe_api';
-        const firstScriptTag = document.getElementsByTagName('script')[0];
-        firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
-        ytApiLoaded = true;
-      }
-
-      const iframeHTML = `
-        <iframe id="youtube-player"
-                src="https://www.youtube.com/embed/${videoId}?autoplay=0&rel=0&modestbranding=1&enablejsapi=1"
-                title="YouTube video player"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen"
-                referrerpolicy="no-referrer-when-downgrade"
-                style="position:absolute;inset:0;width:100%;height:100%;border:0;"></iframe>`;
-
-      const contentHTML = `
-        <div class="modal-header flex flex-justify-between flex-center">
-              <h3>{{ locale_data.actions.watch }}</h3>
-          <button class="overlay-button-close flex flex-center flex-justify-center"
-                  aria-label="{{ locale_data.actions.close }}">
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="size-4">
-              <line x1="18" y1="6" x2="6" y2="18"></line>
-              <line x1="6" y1="6" x2="18" y2="18"></line>
-            </svg>
-          </button>
-        </div>
-        <div class="video-wrapper" style="position:relative;padding-top:56.25%;">
-          ${iframeHTML}
-        </div>`;
-
-      // Open overlay
-      openOverlay({
-        type: 'youtube',
-        titleText: '{{ locale_data.hero.play_button_aria_label }}',
-        contentHTML
-      });
-
-      // Add 'large' class to modal container for YouTube
-      modalContainer.classList.add('large');
-
-      // Initialize YouTube player and play with sound once API is ready
-      function onYouTubeIframeAPIReady() {
-        ytPlayer = new YT.Player('youtube-player', {
-          events: {
-            'onReady': (event) => {
-              event.target.playVideo();
-            }
-          }
-        });
-      }
-
-      // Wait for YouTube API to be ready
-      if (window.YT && window.YT.Player) {
-        onYouTubeIframeAPIReady();
-      } else {
-        window.onYouTubeIframeAPIReady = onYouTubeIframeAPIReady;
-      }
-
-      // Close button
-      modalContainer.querySelector('.overlay-button-close')
-        .addEventListener('click', () => {
-          // Stop video if playing
-          if (ytPlayer && ytPlayer.stopVideo) {
-            ytPlayer.stopVideo();
-          }
-
-          closeOverlay();
-
-          // Remove 'large' class after 400ms
-          setTimeout(() => {
-            modalContainer.classList.remove('large');
-          }, 350);
-        });
-    });
-  }
-
-});
-
+update();
 
 //
-// Social sharing functionality
+// Top toolbar fixed position
 //
-function shareOn(platform) {
-  const url = encodeURIComponent(window.location.href);
-  const title = encodeURIComponent(document.title);
-  const text = encodeURIComponent("{{ locale_data.meta.description }}");
+  const toolbar = document.querySelector('.top-toolbar');
+  const hero = document.querySelector('.hero');
 
-  let shareUrl = '';
+  let heroHeight = 0;
 
-  switch (platform) {
-    case 'facebook':
-      shareUrl = `https://www.facebook.com/sharer/sharer.php?u=${url}`;
-      break;
-    case 'twitter':
-      shareUrl = `https://twitter.com/intent/tweet?url=${url}&text=${title} ${VIA_TEXT} @${TWITTER_HANDLE}`;
-      break;
-    case 'linkedin':
-      shareUrl = `https://www.linkedin.com/sharing/share-offsite/?url=${url}`;
-      break;
-    case 'whatsapp':
-      shareUrl = `https://wa.me/?text=${title}%20${url}`;
-      break;
-    case 'reddit':
-      shareUrl = `https://reddit.com/submit?url=${url}&title=${title}`;
-      break;
-    case 'email':
-      shareUrl = `mailto:?subject=${title}&body=${text}%20${url}`;
-      break;
+  function updateHeroHeight() {
+    heroHeight = hero.offsetHeight;
   }
 
-  if (shareUrl) {
-    window.open(shareUrl, '_blank', 'width=600,height=400');
+  function handleScroll() {
+    if (window.scrollY > heroHeight) {
+      toolbar.classList.add('prominent');
+    } else {
+      toolbar.classList.remove('prominent');
+    }
+  }
+
+  // Initial calc
+  updateHeroHeight();
+  handleScroll();
+
+  // Events
+  window.addEventListener('scroll', handleScroll);
+  window.addEventListener('resize', updateHeroHeight);
+
+
+// Video playback
+
+// Hero video: fixed behind main, pause when .about reaches top of viewport
+const heroVideo = document.querySelector('.hero video');
+const aboutSection = document.querySelector('.about');
+
+function updateHeroVideo() {
+  if (aboutSection.getBoundingClientRect().top <= 0) {
+    heroVideo.pause();
+  } else if (heroVideo.paused) {
+    heroVideo.play();
   }
 }
 
+window.addEventListener('scroll', updateHeroVideo, { passive: true });
+updateHeroVideo();
 
-//
-// How-to and Preview Section Toggle
-//
-document.addEventListener('DOMContentLoaded', () => {
-  const howtoFigures = document.querySelectorAll('.howto figure.tile, .preview figure.tile');
+// Feature videos: play when entering viewport, pause when fully gone
+const featureVideos = document.querySelectorAll('main video');
 
-  if (howtoFigures.length === 0) return;
-
-  howtoFigures.forEach(figure => {
-    // Make figure focusable for keyboard users
-    figure.setAttribute('tabindex', '0');
-    figure.style.cursor = 'pointer';
-
-    // Add ARIA attribute to indicate it's interactive
-    figure.setAttribute('role', 'button');
-    figure.setAttribute('aria-pressed', 'false');
-
-    // Prevent anchor scroll on mobile (viewport < 768px)
-    const anchorLink = figure.closest('figure');
-    if (anchorLink) {
-      anchorLink.addEventListener('click', (e) => {
-        if (window.innerWidth < 768) {
-          e.preventDefault();
-        }
-      });
+const videoObserver = new IntersectionObserver((entries) => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      entry.target.play();
+    } else {
+      entry.target.pause();
     }
-
-    // Click handler
-    const toggleContent = () => {
-      const img = figure.querySelector('img');
-      const figcaption = figure.querySelector('figcaption');
-
-      if (img && figcaption) {
-        // First, reset all OTHER figures to default state
-        howtoFigures.forEach(otherFigure => {
-          if (otherFigure !== figure) {
-            const otherImg = otherFigure.querySelector('img');
-            const otherFigcaption = otherFigure.querySelector('figcaption');
-
-            if (otherImg && otherFigcaption) {
-              otherImg.classList.remove('ruh');
-              otherFigcaption.classList.add('ruh');
-              otherFigure.setAttribute('aria-pressed', 'false');
-            }
-          }
-        });
-
-        // Then toggle the current figure
-        const isDefaultState = figcaption.classList.contains('ruh');
-
-        if (isDefaultState) {
-          // Switch to toggled state: show img, hide figcaption
-          figcaption.classList.remove('ruh');
-          img.classList.add('ruh');
-        } else {
-          // Switch back to default state: hide img, show figcaption
-          img.classList.remove('ruh');
-          figcaption.classList.add('ruh');
-        }
-
-        // Update aria-pressed state (pressed = showing image)
-        figure.setAttribute('aria-pressed', (!isDefaultState).toString());
-      }
-    };
-
-    // Mouse click
-    figure.addEventListener('click', toggleContent);
-
-    // Keyboard support (Space or Enter)
-    figure.addEventListener('keydown', (e) => {
-      if (e.key === ' ' || e.key === 'Enter') {
-        e.preventDefault();
-        toggleContent();
-      }
-    });
   });
-});
+}, { threshold: 0 });
 
+featureVideos.forEach(video => videoObserver.observe(video));
+
+
+// Audio
+const button = document.getElementById('musicToggle');
+const audio = document.getElementById('music');
+
+let isPlaying = false;
+
+button.addEventListener('click', async () => {
+  if (!isPlaying) {
+    try {
+      await audio.play();
+      isPlaying = true;
+      button.setAttribute('aria-pressed', 'true');
+    } catch (e) {
+      console.log('Playback failed:', e);
+    }
+  } else {
+    audio.pause();
+    isPlaying = false;
+    button.setAttribute('aria-pressed', 'false');
+  }
+});

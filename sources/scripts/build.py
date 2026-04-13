@@ -587,10 +587,6 @@ def build_homepage(global_config, languages):
     else:
         print("⚠ No critical CSS loaded - templates will use fallback")
 
-    en_locale = load_locale('en')
-    newhome_js = generate_javascript_file('js/newhome.js', 'en', en_locale, global_config)
-    save_javascript(newhome_js, 'en', 'newhome')
-
     available_changelog_languages = detect_available_changelog_languages()
     available_blog_languages = detect_available_blog_languages()
     print(f"✓ Detected {len(available_changelog_languages)} languages with changelog translations")
@@ -612,6 +608,10 @@ def build_homepage(global_config, languages):
             html = generate_html_page('index.html', lang_code, global_config, locale_data,
                                      available_changelog_languages, extra_context, available_blog_languages)
             save_html(html, lang, locale_data, 'index')
+
+            # Generate JS
+            javascript = generate_javascript_file('js/core.js', lang_code, locale_data, global_config)
+            save_javascript(javascript, lang_code, 'core')
 
             # Generate schemas
             generate_homepage_schemas(lang_code, global_config, locale_data)

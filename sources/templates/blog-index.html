@@ -233,21 +233,10 @@
     </div>
   </footer>
 
-  <script>
-    // Top toolbar
-    const toolbar = document.querySelector('.top-toolbar');
-
-    function handleScroll() {
-      if (window.scrollY > 0) {
-        toolbar.classList.add('prominent');
-      } else {
-        toolbar.classList.remove('prominent');
-      }
-    }
-
-    handleScroll();
-    // Events
-    window.addEventListener('scroll', handleScroll);
-    </script>
+  {% if lang == 'en' %}
+    <script defer src="/lib/js/blog/core.js"></script>
+    {% else %}
+    <script defer src="/lib/js/{{ lang }}/blog/core.js"></script>
+    {% endif %}
   </body>
 </html>
