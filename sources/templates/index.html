@@ -73,13 +73,13 @@
     </div>
 
     <div class="hero-bg">
-      <img src="/lib/newhome/images/hero-bg.webp" width="1208" height="825" alt="">
+      <img src="/lib/newhome/images/hero-bg.webp" width="1208" height="825" alt="" fetchpriority="high">
     </div>
   </section>
 
   <div class="hero-volume-container">
     <div class="wrapper-large hero-volume-wrapper">
-      <button class="hero-volume" id="musicToggle" aria-pressed="false">
+      <button class="hero-volume" id="musicToggle" aria-pressed="false" aria-label="Toggle music">
         <img src="/lib/newhome/icons/play.svg" alt="" width="40" height="40" class="hero-volume-icon-play">
         <img src="/lib/newhome/icons/pause.svg" alt="" width="40" height="40" class="hero-volume-icon-pause">
       </button>
@@ -421,7 +421,7 @@
   <footer class="footer">
     <div class="footer-content wrapper-large">
       <div class="footer-first-col">
-        <h2 class="footer-title">{{ locale_data.newfooter.title1 }}</h2>
+        <p class="footer-title">{{ locale_data.newfooter.title1 }}</p>
         <ul>
           <li class="footer-link-large">
             <a href="#top">{{ locale_data.newfooter.section1.features }}</a>
@@ -445,7 +445,7 @@
       </div>
 
       <div class="footer-second-col">
-        <h2 class="footer-title">{{ locale_data.newfooter.title2 }}</h2>
+        <p class="footer-title">{{ locale_data.newfooter.title2 }}</p>
         <ul>
           <li class="footer-link-small">
             <a href="{{ locale_data.urls.appstore_ios }}">{{ locale_data.newfooter.section2.framesios }}</a>
@@ -457,7 +457,7 @@
       </div>
 
       <div class="footer-third-col">
-        <h2 class="footer-title">{{ locale_data.newfooter.title3 }}</h2>
+        <p class="footer-title">{{ locale_data.newfooter.title3 }}</p>
         <ul>
           <li class="footer-link-small">
             <a href="{{ global_config.urls.social.instagram }}" target="_blank" rel="noopener noreferrer">{{ locale_data.newfooter.section3.instagram }}</a>
