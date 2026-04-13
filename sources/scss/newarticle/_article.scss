@@ -264,8 +264,14 @@ h1, .h1 {
         }
 
         img {
-            width: 1.15rem;
-            height: 1.15rem;
+            width: 1.25rem;
+            height: 1.25rem;
+        }
+    }
+
+    details[open] summary {
+        img {
+            transform: rotate(180deg);
         }
     }
 
@@ -280,6 +286,11 @@ h1, .h1 {
 @media (max-width: 1068px) {
     .changelog-details {
         margin-top: 3rem;
+
+        summary img {
+            width: 1.15rem;
+            height: 1.15rem;
+        }
     }
 }
 @media (max-width: 732px) {
