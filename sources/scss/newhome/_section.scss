@@ -504,7 +504,7 @@ summary {
     padding-bottom: 1.5rem;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
     gap: 2.5rem;
     cursor: pointer;
 
@@ -520,6 +520,7 @@ summary {
         padding-bottom: 1.25rem;
     }
     summary img {
+        margin-top: 0.0625rem;
         width: 1.5rem;
         height: 1.5rem;
     }
@@ -530,6 +531,7 @@ summary {
         padding-bottom: 1rem;
     }
     summary img {
+        margin-top: 0.1875rem;
         width: 1.25rem;
         height: 1.25rem;
     }
