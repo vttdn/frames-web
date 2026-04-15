@@ -1093,12 +1093,12 @@ def build_blog_pages(global_config):
 
             # Generate OG images for all entries upfront
             for entry in entries:
-                first_image, alt_text = get_first_image_from_entry(entry)
-                if first_image:
+                cover2x = entry.get('cover2x')
+                if cover2x:
                     og_filename = f"{entry['slug']}-og-image.jpg"
-                    og_image_url = generate_changelog_og_image(lang_code, first_image, og_filename)
+                    og_image_url = generate_blog_og_image(lang_code, cover2x, og_filename)
                     entry['og_image_url'] = og_image_url
-                    entry['og_image_alt'] = alt_text
+                    entry['og_image_alt'] = entry.get('title', '')
                 else:
                     entry['og_image_url'] = '/og-image.jpg'
                     entry['og_image_alt'] = ''
@@ -1593,6 +1593,27 @@ def generate_changelog_og_image(lang_code, image_path, filename):
 
     if success:
         return f"/lib/img/{lang_code}/changelog/og-image/{filename}"
+    else:
+        return '/og-image.jpg'
+
+
+def generate_blog_og_image(lang_code, cover2x, filename):
+    """Generate OG image for blog from cover2x"""
+    if not cover2x:
+        return '/og-image.jpg'
+
+    source_path = PROJECT_ROOT / "lib" / "img" / "shared" / "blog" / cover2x
+    if not source_path.exists():
+        print(f"⚠ Warning: Blog cover image not found: {cover2x}")
+        return '/og-image.jpg'
+
+    output_dir = PROJECT_ROOT / "lib" / "img" / lang_code / "blog" / "og-image"
+    output_path = output_dir / filename
+
+    success = generate_og_image(source_path, output_path)
+
+    if success:
+        return f"/lib/img/{lang_code}/blog/og-image/{filename}"
     else:
         return '/og-image.jpg'
 
