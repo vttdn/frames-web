@@ -77,13 +77,17 @@
         <article temscope itemtype="https://schema.org/BlogPosting">
           <a href="{{ lang_config.path }}{{ locale_data.urls.blog }}{{ entry.slug }}/" class="changelog-index-article">
             <div class="changelog-index-article-img">
-              {% set first_img = namespace(found=false) %}
-              {% for section in entry.sections %}
-                {% if not first_img.found and section.type == 'media' and section.image %}
-                  {% set first_img.found = true %}
-                  <img src="{{ section.image }}"{% if section.image_2x %} srcset="{{ section.image_2x }} 2x"{% endif %} alt="{{ section.alt | default('') }}"{% if section.width %} width="{{ section.width }}"{% endif %}{% if section.height %} height="{{ section.height }}"{% endif %} loading="lazy">
-                {% endif %}
-              {% endfor %}
+              {% if entry.cover %}
+                <img src="/lib/img/shared/blog/{{ entry.cover }}"{% if entry.cover2x %} srcset="/lib/img/shared/blog/{{ entry.cover2x }} 2x"{% endif %} alt="{{ entry.title }}" loading="lazy">
+              {% else %}
+                {% set first_img = namespace(found=false) %}
+                {% for section in entry.sections %}
+                  {% if not first_img.found and section.type == 'media' and section.image %}
+                    {% set first_img.found = true %}
+                    <img src="{{ section.image }}"{% if section.image_2x %} srcset="{{ section.image_2x }} 2x"{% endif %} alt="{{ section.alt | default('') }}" loading="lazy">
+                  {% endif %}
+                {% endfor %}
+              {% endif %}
               <meta itemprop="url" content="https://withframes.com{{ lang_config.path }}{{ locale_data.urls.blog }}{{ entry.url_slug }}/" />
               {% if entry.og_image_url and entry.og_image_url != '/og-image.jpg' %}
               <link itemprop="image" href="https://withframes.com{{ entry.og_image_url }}" />

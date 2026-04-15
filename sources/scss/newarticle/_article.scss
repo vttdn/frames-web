@@ -63,18 +63,29 @@ figcaption {
     margin-top: 1rem;
 }
 
-.article-media {
+.article-media,
+.blog-entry-footer {
     margin-top: 3.25rem;
 }
 
 @media (max-width: 1068px) {
-    .article-media {
+    .article-media,
+    .blog-entry-footer {
         margin-top: 3rem;
     }
 }
 @media (max-width: 732px) {
-    .article-media {
+    .article-media,
+    .blog-entry-footer {
         margin-top: 2.75rem;
+    }
+}
+
+.article-media.article-media-cover {
+    padding: 0;
+    img.blog-image {
+        width: auto;
+        object-fit: cover;
     }
 }
 
@@ -168,6 +179,15 @@ p.release-number {
     font-weight: 700;
     margin-bottom: 0.25rem;
     color: var(--color-DarkGray2);
+
+    a {
+        text-decoration: none;
+        color: var(--color-DarkGray2);
+
+        &:hover {
+            color: var(--color-white);
+        }
+    }
 }
 
 // .release-date, 
@@ -387,24 +407,21 @@ h1, .h1 {
 }
 
 .changelog-index-article-img {
-    position: relative;
-    display: flex;
-    align-items: center;
     width: 18.4375rem;
     height: 10.375rem;
+    flex-shrink: 0; 
     background: var(--color-surface);
     border-radius: 1.25rem;
     overflow: hidden;
 
     img {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        width: auto;
-        height: 130%;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        display: block;
     }
 }
+
 @media (max-width: 1068px) {
     .changelog-index-article-img {
         width: 16.5rem;

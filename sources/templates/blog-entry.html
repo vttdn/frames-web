@@ -54,9 +54,12 @@
       <article class="article-main">
         <header class="article-header wrapper-small">
           <div class="eyebrow">
-            {% if entry.category %}
-            <p class="release-number uppercase">{{ blog_config.categories[entry.category][lang].name }}</p>
+            <p class="release-number uppercase">
+              <a href="{% if lang in available_blog_languages %}{{ lang_config.path }}{{ locale_data.urls.blog }}{% else %}/blog/{% endif %}">{{ locale_data.newfooter.section1.blog }}</a>
+              {% if entry.category %}
+            <span> / {{ blog_config.categories[entry.category][lang].name }}</span>
             {% endif %}
+            </p>
             {% if entry.update_date %}
             <time datetime="{{ entry.update_date }}" class="release-date">{{ entry.formatted_update_date }}</time>
             {% else %}
@@ -110,8 +113,8 @@
             </ul>
           </div>
           {% elif section.type == 'media' %}
-              <figure>
-                <div class="article-media article-media-blog wrapper">
+              <figure class="wrapper">
+                <div class="article-media article-media-blog{% if section.cover %} article-media-cover{% endif %}">
                   <img src="{{ section.image }}"
                               srcset="{{ section.image }} 1x, {{ section.image_2x }} 2x"
                               alt="{{ section.alt }}"
@@ -124,28 +127,30 @@
           {% endif %}
           {% endfor %}
 
-          <footer class="blog-entry-footer wrapper-small">
-            {% if entry.category %}
-            <div>
-              <span>{{ locale_data.blog.labels.filed_under }}: </span>
-              {{ blog_config.categories[entry.category][lang].name }}
+          <footer class="wrapper-small">
+            <div class="blog-entry-footer">
+              {% if entry.category %}
+              <div>
+                <span>{{ locale_data.blog.labels.filed_under }}: </span>
+                {{ blog_config.categories[entry.category][lang].name }}
+              </div>
+              {% endif %}
+              {% if entry.author %}
+              <div>
+                <span>{{ locale_data.blog.labels.author }}:</span> {{ entry.author }}
+              </div>
+              {% endif %}
+              {% if entry.publish_date %}
+              <div>
+                <span>{{ locale_data.blog.labels.published_on }}:</span> <time datetime="{{ entry.publish_date }}">{{ entry.formatted_date }}</time>
+              </div>
+              {% endif %}
             </div>
-            {% endif %}
-            {% if entry.author %}
-            <div>
-              <span>{{ locale_data.blog.labels.author }}:</span> {{ entry.author }}
-            </div>
-            {% endif %}
-            {% if entry.publish_date %}
-            <div>
-              <span>{{ locale_data.blog.labels.published_on }}:</span> <time datetime="{{ entry.publish_date }}">{{ entry.formatted_date }}</time>
-            </div>
-            {% endif %}
           </footer>
         </div>
       </article>
 
-      <nav class="pagination grid grid-4col" aria-label="Blog entry navigation">
+      <!-- <nav class="pagination grid grid-4col" aria-label="Blog entry navigation">
         <div></div>
         <div class="pagination-inner col-span-2 flex gap-sm2">
         {% if prev_entry %}
@@ -166,7 +171,7 @@
         </div>
         {% endif %}
         </div>
-      </nav>
+      </nav> -->
     </main>
 
     <footer class="footer">
