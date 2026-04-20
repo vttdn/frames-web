@@ -39,10 +39,33 @@
   "improvements": [
     "每台相機的快門速度步進增量設定（整檔、半檔、三分之一檔）",
     "每台相機的快門速度最小和最大範圍",
-    "基於相機設定的動態快門速度選擇器"
+    "基於相機設定的動態快門速度選擇器",
+    "在底片頁面的底片類型旁顯示相機名稱"
   ],
-  "fixes": [],
-  "patches": [],
+  "fixes": [
+    {
+      "title": "XMP 匯出",
+      "description": "修正了 XMP 匯出的拍攝時間在 UTC 時區以外的 Lightroom 中顯示錯誤 AM/PM 的問題"
+    },
+    {
+      "title": "工具列按鈕",
+      "description": "修正了 iOS 26 上在記錄器按鈕上輕微斜向滑動可能意外關閉記錄器的問題"
+    }
+  ],
+  "patches": [
+    {
+      "version": "1.28.1",
+      "description": "細節 UI 改進"
+    },
+    {
+      "version": "1.28.2",
+      "description": "XMP 匯出日期修正與 UI 改進"
+    },
+    {
+      "version": "1.28.3",
+      "description": "工具列按鈕互動修正"
+    }
+  ],
   "meta_title": "快門速度改進 - Frames",
   "meta_description": "為每台相機定義快門速度增量和範圍，支援動態選擇器及自訂序列。"
 }

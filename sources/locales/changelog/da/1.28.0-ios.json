@@ -39,10 +39,33 @@
   "improvements": [
     "Lukkertidstrin pr. kamera (helt, halvt, tredjedels stop)",
     "Minimum- og maksimumgrænse for lukkertid pr. kamera",
-    "Dynamisk lukkertidsvælger baseret på kameraindstillinger"
+    "Dynamisk lukkertidsvælger baseret på kameraindstillinger",
+    "Kameranavn vist ved siden af filmtypen på filmskærmen"
   ],
-  "fixes": [],
-  "patches": [],
+  "fixes": [
+    {
+      "title": "XMP-eksport",
+      "description": "Rettede optagelsestidspunktet i XMP-eksport, der viste forkert AM/PM i Lightroom uden for UTC-tidszoner."
+    },
+    {
+      "title": "Værktøjslinjeknapper",
+      "description": "Rettede et problem på iOS 26, hvor optageren utilsigtet kunne lukkes ved et let diagonalt stryg på knapperne."
+    }
+  ],
+  "patches": [
+    {
+      "version": "1.28.1",
+      "description": "Mindre UI-forbedringer"
+    },
+    {
+      "version": "1.28.2",
+      "description": "Rettelse af XMP-eksportdato og UI-forbedringer"
+    },
+    {
+      "version": "1.28.3",
+      "description": "Rettelse af interaktion med værktøjslinjeknapper"
+    }
+  ],
   "meta_title": "Forbedringer af lukkertid - Frames",
   "meta_description": "Definer lukkertidstrin og -grænser pr. kamera med dynamisk vælger og fuld understøttelse af brugerdefinerede sekvenser."
 }

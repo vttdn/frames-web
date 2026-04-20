@@ -39,10 +39,33 @@
   "improvements": [
     "Incremento de velocidad de obturación por cámara (paso completo, medio, un tercio)",
     "Rango mínimo y máximo de velocidad de obturación por cámara",
-    "Selector de velocidad de obturación dinámico basado en los ajustes de la cámara"
+    "Selector de velocidad de obturación dinámico basado en los ajustes de la cámara",
+    "Nombre de la cámara mostrado junto al tipo de película en la pantalla de la película"
   ],
-  "fixes": [],
-  "patches": [],
+  "fixes": [
+    {
+      "title": "Exportación XMP",
+      "description": "Se ha corregido la hora de captura en la exportación XMP, que mostraba AM/PM incorrecto en Lightroom fuera de las zonas horarias UTC."
+    },
+    {
+      "title": "Botones de la barra de herramientas",
+      "description": "Se ha corregido un problema en iOS 26 por el que el grabador podía cerrarse accidentalmente con un leve deslizamiento diagonal sobre sus botones."
+    }
+  ],
+  "patches": [
+    {
+      "version": "1.28.1",
+      "description": "Pequeñas mejoras en la interfaz"
+    },
+    {
+      "version": "1.28.2",
+      "description": "Corrección de la fecha de exportación XMP y mejoras en la interfaz"
+    },
+    {
+      "version": "1.28.3",
+      "description": "Corrección de la interacción con los botones de la barra de herramientas"
+    }
+  ],
   "meta_title": "Mejoras en la velocidad de obturación - Frames",
   "meta_description": "Define los incrementos y rangos de velocidad de obturación por cámara con selector dinámico y compatibilidad total con secuencias personalizadas."
 }

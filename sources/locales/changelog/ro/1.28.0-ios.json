@@ -39,10 +39,33 @@
   "improvements": [
     "Pas de incrementare a vitezei obturatorului per cameră (treaptă întreagă, jumătate, treime)",
     "Interval minim și maxim al vitezei obturatorului per cameră",
-    "Selector dinamic al vitezei obturatorului bazat pe setările camerei"
+    "Selector dinamic al vitezei obturatorului bazat pe setările camerei",
+    "Numele camerei afișat lângă tipul de film pe ecranul filmului"
   ],
-  "fixes": [],
-  "patches": [],
+  "fixes": [
+    {
+      "title": "Export XMP",
+      "description": "S-a remediat ora capturii din exportul XMP care afișa AM/PM incorect în Lightroom în afara fusurilor orare UTC."
+    },
+    {
+      "title": "Butoanele barei de instrumente",
+      "description": "S-a remediat o problemă pe iOS 26 în care înregistratorul putea fi închis accidental printr-o glisare diagonală ușoară peste butoanele sale."
+    }
+  ],
+  "patches": [
+    {
+      "version": "1.28.1",
+      "description": "Mici îmbunătățiri ale interfeței"
+    },
+    {
+      "version": "1.28.2",
+      "description": "Corectare a datei exportului XMP și îmbunătățiri ale interfeței"
+    },
+    {
+      "version": "1.28.3",
+      "description": "Corectare a interacțiunii cu butoanele barei de instrumente"
+    }
+  ],
   "meta_title": "Îmbunătățiri ale vitezei obturatorului - Frames",
   "meta_description": "Definește pașii și intervalele vitezei obturatorului per cameră cu selector dinamic și suport complet pentru secvențe personalizate."
 }

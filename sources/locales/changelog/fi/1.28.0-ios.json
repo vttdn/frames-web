@@ -39,10 +39,33 @@
   "improvements": [
     "Suljinaika-askelväli kamerakohtaisesti (kokonainen, puoli, kolmasosa)",
     "Minimi- ja maksimisuljinaika kamerakohtaisesti",
-    "Dynaaminen suljinaika-valitsin kamera-asetusten perusteella"
+    "Dynaaminen suljinaika-valitsin kamera-asetusten perusteella",
+    "Kameran nimi näkyy filmityypin vieressä filminäkymässä"
   ],
-  "fixes": [],
-  "patches": [],
+  "fixes": [
+    {
+      "title": "XMP-vienti",
+      "description": "Korjattu XMP-viennin kuvausaika, joka näytti väärän AM/PM-arvon Lightroomissa UTC-aikavyöhykkeiden ulkopuolella."
+    },
+    {
+      "title": "Työkalurivin painikkeet",
+      "description": "Korjattu iOS 26:ssa ongelma, jossa tallennin saattoi sulkeutua vahingossa kevyellä vinottaisella pyyhkäisyllä sen painikkeiden päältä."
+    }
+  ],
+  "patches": [
+    {
+      "version": "1.28.1",
+      "description": "Pieniä käyttöliittymän parannuksia"
+    },
+    {
+      "version": "1.28.2",
+      "description": "XMP-viennin päivämäärän korjaus ja käyttöliittymän parannuksia"
+    },
+    {
+      "version": "1.28.3",
+      "description": "Työkalurivin painikkeiden vuorovaikutuksen korjaus"
+    }
+  ],
   "meta_title": "Parannuksia suljinaikaan - Frames",
   "meta_description": "Määritä suljinaika-askelvälit ja -rajat kamerakohtaisesti dynaamisella valitsimella ja täydellä tuella mukautetuille sekvensseille."
 }

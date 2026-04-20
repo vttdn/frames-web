@@ -39,10 +39,33 @@
   "improvements": [
     "Sluitertijdstap per camera (heel, half, derde stop)",
     "Minimum- en maximumbereik voor sluitertijd per camera",
-    "Dynamische sluitertijdkiezer op basis van camera-instellingen"
+    "Dynamische sluitertijdkiezer op basis van camera-instellingen",
+    "Cameranaam weergegeven naast de filmsoort op het filmscherm"
   ],
-  "fixes": [],
-  "patches": [],
+  "fixes": [
+    {
+      "title": "XMP-export",
+      "description": "Opgelost: in de XMP-export werd de opnametijd in Lightroom buiten UTC-tijdzones met een verkeerde AM/PM getoond."
+    },
+    {
+      "title": "Werkbalkknoppen",
+      "description": "Opgelost: op iOS 26 kon de recorder per ongeluk worden gesloten door een lichte diagonale veegbeweging op de knoppen."
+    }
+  ],
+  "patches": [
+    {
+      "version": "1.28.1",
+      "description": "Kleine UI-verbeteringen"
+    },
+    {
+      "version": "1.28.2",
+      "description": "XMP-exportdatum opgelost en UI-verbeteringen"
+    },
+    {
+      "version": "1.28.3",
+      "description": "Interactie met werkbalkknoppen opgelost"
+    }
+  ],
   "meta_title": "Verbeteringen voor sluitertijd - Frames",
   "meta_description": "Definieer sluitertijdstappen en -bereiken per camera met dynamische kiezer en volledige ondersteuning voor aangepaste reeksen."
 }

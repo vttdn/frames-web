@@ -39,10 +39,33 @@
   "improvements": [
     "Langkah kecepatan rana per kamera (penuh, setengah, sepertiga stop)",
     "Rentang kecepatan rana minimum dan maksimum per kamera",
-    "Pemilih kecepatan rana dinamis berdasarkan pengaturan kamera"
+    "Pemilih kecepatan rana dinamis berdasarkan pengaturan kamera",
+    "Nama kamera ditampilkan di samping stok film pada layar film"
   ],
-  "fixes": [],
-  "patches": [],
+  "fixes": [
+    {
+      "title": "Ekspor XMP",
+      "description": "Memperbaiki waktu pemotretan pada ekspor XMP yang menampilkan AM/PM yang salah di Lightroom di luar zona waktu UTC."
+    },
+    {
+      "title": "Tombol bilah alat",
+      "description": "Memperbaiki masalah di iOS 26 di mana perekam dapat tertutup secara tidak sengaja oleh gesekan diagonal ringan pada tombol-tombolnya."
+    }
+  ],
+  "patches": [
+    {
+      "version": "1.28.1",
+      "description": "Peningkatan UI kecil"
+    },
+    {
+      "version": "1.28.2",
+      "description": "Perbaikan tanggal ekspor XMP & peningkatan UI"
+    },
+    {
+      "version": "1.28.3",
+      "description": "Perbaikan interaksi tombol bilah alat"
+    }
+  ],
   "meta_title": "Peningkatan kecepatan rana - Frames",
   "meta_description": "Tentukan langkah dan rentang kecepatan rana per kamera dengan pemilih dinamis dan dukungan penuh untuk urutan kustom."
 }

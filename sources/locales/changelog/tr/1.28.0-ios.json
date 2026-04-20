@@ -39,10 +39,33 @@
   "improvements": [
     "Kamera başına obtüratör hızı adım artışı (tam, yarım, üçte bir stop)",
     "Kamera başına minimum ve maksimum obtüratör hızı aralığı",
-    "Kamera ayarlarına dayalı dinamik obtüratör hızı seçicisi"
+    "Kamera ayarlarına dayalı dinamik obtüratör hızı seçicisi",
+    "Film ekranında film stokunun yanında kamera adının gösterilmesi"
   ],
-  "fixes": [],
-  "patches": [],
+  "fixes": [
+    {
+      "title": "XMP dışa aktarımı",
+      "description": "XMP dışa aktarımındaki çekim saatinin Lightroom'da UTC dışındaki saat dilimlerinde yanlış AM/PM ile görünmesi sorunu düzeltildi."
+    },
+    {
+      "title": "Araç çubuğu düğmeleri",
+      "description": "iOS 26'da kayıt ekranının, düğmelerin üzerinde yapılan hafif bir çapraz kaydırmayla yanlışlıkla kapanabilmesine yol açan sorun giderildi."
+    }
+  ],
+  "patches": [
+    {
+      "version": "1.28.1",
+      "description": "Küçük arayüz iyileştirmeleri"
+    },
+    {
+      "version": "1.28.2",
+      "description": "XMP dışa aktarım tarihi düzeltmesi ve arayüz iyileştirmeleri"
+    },
+    {
+      "version": "1.28.3",
+      "description": "Araç çubuğu düğmeleri etkileşim düzeltmesi"
+    }
+  ],
   "meta_title": "Obtüratör hızı iyileştirmeleri - Frames",
   "meta_description": "Her kamera için obtüratör hızı adımlarını ve aralıklarını tanımlayın; dinamik seçici ve özel dizi desteğiyle tam uyumluluk."
 }

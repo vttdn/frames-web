@@ -39,10 +39,33 @@
   "improvements": [
     "Palier de vitesse d'obturation par appareil (entier, demi, tiers de palier)",
     "Plage minimale et maximale de vitesse d'obturation par appareil",
-    "Sélecteur de vitesse d'obturation dynamique selon les réglages de l'appareil"
+    "Sélecteur de vitesse d'obturation dynamique selon les réglages de l'appareil",
+    "Affichage du nom de l'appareil à côté de la pellicule sur l'écran pellicule"
   ],
-  "fixes": [],
-  "patches": [],
+  "fixes": [
+    {
+      "title": "Export XMP",
+      "description": "Correction de l'heure de capture dans l'export XMP qui affichait un AM/PM incorrect dans Lightroom en dehors du fuseau UTC."
+    },
+    {
+      "title": "Boutons de la barre d'outils",
+      "description": "Correction d'un problème sur iOS 26 où l'enregistreur pouvait être accidentellement fermé par un léger glissement diagonal sur ses boutons."
+    }
+  ],
+  "patches": [
+    {
+      "version": "1.28.1",
+      "description": "Améliorations mineures de l'interface"
+    },
+    {
+      "version": "1.28.2",
+      "description": "Correction de la date d'export XMP et améliorations de l'interface"
+    },
+    {
+      "version": "1.28.3",
+      "description": "Correction de l'interaction avec les boutons de la barre d'outils"
+    }
+  ],
   "meta_title": "Améliorations de la vitesse d'obturation - Frames",
   "meta_description": "Définissez les paliers et plages de vitesse d'obturation par appareil avec sélecteur dynamique et prise en charge complète des séquences personnalisées."
 }

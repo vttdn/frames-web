@@ -39,10 +39,33 @@
   "improvements": [
     "Passo di incremento della velocità dell'otturatore per fotocamera (intero, mezzo, terzo stop)",
     "Range minimo e massimo di velocità dell'otturatore per fotocamera",
-    "Selettore dinamico della velocità dell'otturatore basato sulle impostazioni della fotocamera"
+    "Selettore dinamico della velocità dell'otturatore basato sulle impostazioni della fotocamera",
+    "Nome della fotocamera mostrato accanto alla pellicola nella schermata della pellicola"
   ],
-  "fixes": [],
-  "patches": [],
+  "fixes": [
+    {
+      "title": "Esportazione XMP",
+      "description": "Corretto l'orario di scatto nell'esportazione XMP che mostrava AM/PM errato in Lightroom al di fuori dei fusi orari UTC."
+    },
+    {
+      "title": "Pulsanti della barra degli strumenti",
+      "description": "Corretto un problema su iOS 26 per cui il registratore poteva essere chiuso accidentalmente con un leggero scorrimento diagonale sui suoi pulsanti."
+    }
+  ],
+  "patches": [
+    {
+      "version": "1.28.1",
+      "description": "Piccoli miglioramenti all'interfaccia"
+    },
+    {
+      "version": "1.28.2",
+      "description": "Correzione della data di esportazione XMP e miglioramenti all'interfaccia"
+    },
+    {
+      "version": "1.28.3",
+      "description": "Correzione dell'interazione con i pulsanti della barra degli strumenti"
+    }
+  ],
   "meta_title": "Miglioramenti alla velocità dell'otturatore - Frames",
   "meta_description": "Definisci incrementi e range della velocità dell'otturatore per fotocamera con selettore dinamico e pieno supporto per sequenze personalizzate."
 }

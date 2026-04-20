@@ -39,10 +39,33 @@
   "improvements": [
     "Slutartidssteg per kamera (helt, halvt, tredjedels steg)",
     "Lägsta och högsta slutartidsintervall per kamera",
-    "Dynamisk slutartidsväljare baserad på kamerainställningar"
+    "Dynamisk slutartidsväljare baserad på kamerainställningar",
+    "Kameranamn visas bredvid filmtypen på filmskärmen"
   ],
-  "fixes": [],
-  "patches": [],
+  "fixes": [
+    {
+      "title": "XMP-export",
+      "description": "Åtgärdade bildtidpunkten i XMP-exporten som visade fel AM/PM i Lightroom utanför UTC-tidszoner."
+    },
+    {
+      "title": "Verktygsfältsknappar",
+      "description": "Åtgärdade ett problem på iOS 26 där inspelaren oavsiktligt kunde stängas med ett lätt diagonalt svep på knapparna."
+    }
+  ],
+  "patches": [
+    {
+      "version": "1.28.1",
+      "description": "Mindre UI-förbättringar"
+    },
+    {
+      "version": "1.28.2",
+      "description": "XMP-exportdatum åtgärdat och UI-förbättringar"
+    },
+    {
+      "version": "1.28.3",
+      "description": "Åtgärd av interaktion med verktygsfältsknappar"
+    }
+  ],
   "meta_title": "Förbättringar av slutartid - Frames",
   "meta_description": "Definiera slutartidssteg och -intervall per kamera med dynamisk väljare och fullt stöd för anpassade sekvenser."
 }

@@ -39,10 +39,33 @@
   "improvements": [
     "Shutter speed step increment per camera (full, half, third stop)",
     "Min and max shutter speed range per camera",
-    "Dynamic shutter speed picker based on camera settings"
+    "Dynamic shutter speed picker based on camera settings",
+    "Display camera name next to film stock on the film screen"
   ],
-  "fixes": [],
-  "patches": [],
+  "fixes": [
+    {
+      "title": "XMP export",
+      "description": "Fixed XMP export capture time showing the wrong AM/PM in Lightroom outside UTC timezones."
+    },
+    {
+      "title": "Toolbar buttons",
+      "description": "Fixed an issue on iOS 26 where the recorder could be accidentally dismissed by a slight diagonal swipe on its buttons."
+    }
+  ],
+  "patches": [
+    {
+      "version": "1.28.1",
+      "description": "Minor UI improvements"
+    },
+    {
+      "version": "1.28.2",
+      "description": "XMP export date fix & UI improvements"
+    },
+    {
+      "version": "1.28.3",
+      "description": "Toolbar buttons interaction fix"
+    }
+  ],
   "meta_title": "Shutter speed improvements - Frames",
   "meta_description": "Define shutter speed increments and ranges per camera with dynamic picker support and full custom sequence compatibility."
 }

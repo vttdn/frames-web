@@ -39,10 +39,33 @@
   "improvements": [
     "Bước tăng tốc độ màn trập theo máy ảnh (nguyên, nửa, một phần ba bước)",
     "Phạm vi tốc độ màn trập tối thiểu và tối đa theo máy ảnh",
-    "Bộ chọn tốc độ màn trập động dựa trên cài đặt máy ảnh"
+    "Bộ chọn tốc độ màn trập động dựa trên cài đặt máy ảnh",
+    "Hiển thị tên máy ảnh bên cạnh loại phim trên màn hình phim"
   ],
-  "fixes": [],
-  "patches": [],
+  "fixes": [
+    {
+      "title": "Xuất XMP",
+      "description": "Đã sửa lỗi thời gian chụp trong xuất XMP hiển thị sai AM/PM trên Lightroom ngoài các múi giờ UTC."
+    },
+    {
+      "title": "Nút thanh công cụ",
+      "description": "Đã sửa lỗi trên iOS 26, nơi trình ghi có thể vô tình bị đóng do một cú vuốt chéo nhẹ trên các nút của nó."
+    }
+  ],
+  "patches": [
+    {
+      "version": "1.28.1",
+      "description": "Cải thiện UI nhỏ"
+    },
+    {
+      "version": "1.28.2",
+      "description": "Sửa ngày xuất XMP & cải thiện UI"
+    },
+    {
+      "version": "1.28.3",
+      "description": "Sửa tương tác nút thanh công cụ"
+    }
+  ],
   "meta_title": "Cải tiến tốc độ màn trập - Frames",
   "meta_description": "Xác định bước tăng và phạm vi tốc độ màn trập theo máy ảnh với bộ chọn động và hỗ trợ đầy đủ cho chuỗi tùy chỉnh."
 }
