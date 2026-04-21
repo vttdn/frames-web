@@ -34,6 +34,8 @@ CHANGELOG_DIR = LOCALES_DIR / "changelog"
 BLOG_DIR = LOCALES_DIR / "blog"
 OUTPUT_DIR = PROJECT_ROOT
 SCHEMA_OUTPUT_DIR = PROJECT_ROOT / "lib" / "schema"
+VIDEOS_DIR = PROJECT_ROOT / "lib" / "newhome" / "videos"
+NEWHOME_IMAGES_DIR = PROJECT_ROOT / "lib" / "newhome" / "images"
 
 ENTRIES_PER_PAGE = 10
 BLOG_POSTS_PER_PAGE = 10
@@ -238,6 +240,26 @@ def detect_available_blog_languages():
             available_languages.append(lang_dir.name)
 
     return available_languages
+
+
+def get_homepage_video_urls(lang_code):
+    """Return 4 homepage video URLs, preferring per-language variants when present."""
+    urls = []
+    for i in range(4):
+        localized = VIDEOS_DIR / lang_code / f"video{i}.mp4"
+        if localized.is_file():
+            urls.append(f"/lib/newhome/videos/{lang_code}/video{i}.mp4")
+        else:
+            urls.append(f"/lib/newhome/videos/video{i}.mp4")
+    return urls
+
+
+def get_ipad_mockup_url(lang_code):
+    """Return iPad mockup image URL, preferring per-language variant when present."""
+    localized = NEWHOME_IMAGES_DIR / lang_code / "ipad-mockup.webp"
+    if localized.is_file():
+        return f"/lib/newhome/images/{lang_code}/ipad-mockup.webp"
+    return "/lib/newhome/images/ipad-mockup.webp"
 
 
 # ============================================================================
@@ -603,7 +625,9 @@ def build_homepage(global_config, languages):
                 'hreflang_links': generate_hreflang_links(global_config['languages'], page="home"),
                 'critical_css': critical_css,
                 'formatted_reviews': generate_formatted_reviews(locale_data, lang_code),
-                'latest_changelog_entries': get_latest_mixed_entries(lang_code) if lang_code in available_blog_languages else get_latest_changelog_entries(lang_code)
+                'latest_changelog_entries': get_latest_mixed_entries(lang_code) if lang_code in available_blog_languages else get_latest_changelog_entries(lang_code),
+                'video_urls': get_homepage_video_urls(lang_code),
+                'ipad_mockup_url': get_ipad_mockup_url(lang_code)
             }
             html = generate_html_page('index.html', lang_code, global_config, locale_data,
                                      available_changelog_languages, extra_context, available_blog_languages)
