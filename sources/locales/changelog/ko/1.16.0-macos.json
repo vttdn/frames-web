@@ -1,0 +1,48 @@
+{
+  "version": "1.16.0",
+  "version_short": "1.16",
+  "url_slug": "1-16-macos",
+  "platform": "macos",
+  "release_date": "2026-04-24T10:00:00.000Z",
+  "title": "DNG 및 JXL 내보내기 개선",
+  "summary": "이번 업데이트는 DNG 내보내기를 위한 더욱 안정적인 메타데이터 엔진을 도입하고 JXL 파일의 인코딩 문제를 수정하여 Lightroom과 Negative Lab Pro에서 스캔이 올바르게 동작하도록 합니다.",
+  "sections": [
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-mac-1.16.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-mac-1.16.0-1@2x.png",
+      "alt": "Frames의 DNG 내보내기 설정 및 메타데이터 개선",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "paragraph",
+      "content": "DNG 메타데이터를 처리하는 내부 코드를 교체했습니다. 이전 버전에서는 원본 카메라 데이터가 제대로 삭제되지 않는 경우가 있었는데, 이는 Nikon Z8과 같은 디지털 카메라로 네거티브 필름을 스캔하는 사용자들에게 흔한 문제였습니다. 오래된 메타데이터가 파일에 남아 있어 Negative Lab Pro가 Lightroom에서 이미지를 처리할 올바른 프로파일을 찾지 못하는 일이 잦았습니다."
+    },
+    {
+      "type": "paragraph",
+      "content": "새로운 구현 방식은 더 빠르고 안정적입니다. 모든 메타데이터가 정확하게 재작성되어 워크플로가 일관되게 유지됩니다. 추가로, 소스 파일에 RAW 미리보기가 없는 경우 앱이 자동으로 생성합니다."
+    },
+    {
+      "type": "paragraph",
+      "content": "JXL 내보내기 버그도 수정했습니다. 이전에는 사용자 댓글에 특수 문자나 이모지가 포함되어 있으면 저장에 실패했습니다. 인코딩 문제가 해결되어 이제 Lightroom, Apple 미리보기, Exiftools에서 댓글이 올바르게 표시됩니다."
+    }
+  ],
+  "improvements": [
+    "Negative Lab Pro와의 호환성 향상을 위해 DNG 메타데이터 처리 재작성",
+    "DNG 내보내기 속도 및 안정성 향상",
+    "DNG 내보내기에 RAW 미리보기 자동 생성 추가"
+  ],
+  "fixes": [
+    "DNG 파일에서 카메라 메타데이터가 올바르게 삭제되지 않는 문제 해결",
+    "특수 문자 및 이모지에 대한 JXL 사용자 댓글 인코딩 수정"
+  ],
+  "patches": [
+    {
+      "version": "1.16.1",
+      "description": "더 안정적인 JXL 내보내기"
+    }
+  ],
+  "meta_title": "DNG 및 JXL 내보내기 개선 - Frames",
+  "meta_description": "Frames 1.16.0은 Lightroom 워크플로를 위한 DNG 메타데이터 신뢰성을 개선하고 JXL 문자 인코딩을 수정합니다."
+}

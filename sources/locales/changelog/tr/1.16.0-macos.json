@@ -1,0 +1,48 @@
+{
+  "version": "1.16.0",
+  "version_short": "1.16",
+  "url_slug": "1-16-macos",
+  "platform": "macos",
+  "release_date": "2026-04-24T10:00:00.000Z",
+  "title": "DNG ve JXL dışa aktarma iyileştirmeleri",
+  "summary": "Bu güncelleme, DNG dışa aktarmaları için daha güvenilir bir meta veri motoru sunuyor ve JXL dosyalarındaki kodlama sorunlarını düzeltiyor; böylece taramalarınız Lightroom ve Negative Lab Pro'da doğru çalışıyor.",
+  "sections": [
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-mac-1.16.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-mac-1.16.0-1@2x.png",
+      "alt": "Frames'te DNG dışa aktarma ayarları ve meta veri iyileştirmeleri",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "paragraph",
+      "content": "DNG meta verilerini işleyen dahili kodu değiştirdim. Önceki sürüm bazen orijinal kamera verilerini temizleyemiyordu; bu durum, Nikon Z8 gibi dijital kameralarla negatif tarayan kullanıcılar için yaygın bir sorundu. Eski meta veriler dosyada kaldığı için Negative Lab Pro, Lightroom'da görüntüyü işlemek için doğru profili bulmakta sıklıkla güçlük çekiyordu."
+    },
+    {
+      "type": "paragraph",
+      "content": "Yeni uygulama daha hızlı ve daha kararlı. Tüm meta verilerin doğru şekilde yeniden yazılmasını sağlayarak iş akışınızın tutarlı kalmasını garantiliyor. Ek olarak, kaynak dosyada RAW önizleme yoksa uygulama artık otomatik olarak oluşturuyor."
+    },
+    {
+      "type": "paragraph",
+      "content": "JXL dışa aktarmalarındaki bir hatayı da düzelttim. Önceden, kullanıcı yorumları özel karakterler veya emoji içeriyorsa kaydedilemiyordu. Bu kodlama sorunu giderildi; yorumlarınız artık Lightroom, Apple Preview ve Exiftools'da doğru şekilde görünecek."
+    }
+  ],
+  "improvements": [
+    "DNG meta veri işleme, Negative Lab Pro ile daha iyi uyumluluk için yeniden yazıldı",
+    "DNG dışa aktarma hızı ve güvenilirliği artırıldı",
+    "DNG dışa aktarmaları için otomatik RAW önizleme oluşturma eklendi"
+  ],
+  "fixes": [
+    "Kamera meta verilerinin DNG dosyalarında düzgün temizlenmediği sorun giderildi",
+    "Özel karakterler ve emoji için JXL kullanıcı yorumu kodlaması düzeltildi"
+  ],
+  "patches": [
+    {
+      "version": "1.16.1",
+      "description": "Daha güvenilir JXL dışa aktarma"
+    }
+  ],
+  "meta_title": "DNG ve JXL dışa aktarma iyileştirmeleri - Frames",
+  "meta_description": "Frames 1.16.0, Lightroom iş akışları için DNG meta veri güvenilirliğini artırıyor ve JXL karakter kodlamasını düzeltiyor."
+}

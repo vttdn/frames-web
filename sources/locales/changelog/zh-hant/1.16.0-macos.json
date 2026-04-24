@@ -1,0 +1,48 @@
+{
+  "version": "1.16.0",
+  "version_short": "1.16",
+  "url_slug": "1-16-macos",
+  "platform": "macos",
+  "release_date": "2026-04-24T10:00:00.000Z",
+  "title": "DNG 與 JXL 匯出改進",
+  "summary": "此次更新為 DNG 匯出引入了更可靠的中繼資料引擎，並修復了 JXL 檔案的編碼問題，確保您的掃描在 Lightroom 和 Negative Lab Pro 中正常運作。",
+  "sections": [
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-mac-1.16.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-mac-1.16.0-1@2x.png",
+      "alt": "Frames 中的 DNG 匯出設定與中繼資料改進",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "paragraph",
+      "content": "我替換了處理 DNG 中繼資料的內部程式碼。舊版本有時無法清除相機的原始資料，這對於使用 Nikon Z8 等數位相機掃描底片的使用者來說是個常見問題。由於舊的中繼資料仍保留在檔案中，Negative Lab Pro 在 Lightroom 中處理影像時往往難以找到正確的描述檔。"
+    },
+    {
+      "type": "paragraph",
+      "content": "新的實作更快速、更穩定。它確保所有中繼資料都能正確重寫，讓您的工作流程保持一致。此外，若來源檔案缺少 RAW 預覽，應用程式現在會自動產生一個。"
+    },
+    {
+      "type": "paragraph",
+      "content": "我也修復了 JXL 匯出中的一個錯誤。以前，若使用者備註包含特殊字元或表情符號，儲存時會失敗。這個編碼問題已解決，您的備註現在將在 Lightroom、Apple 預覽程式和 Exiftools 中正確顯示。"
+    }
+  ],
+  "improvements": [
+    "重寫 DNG 中繼資料處理，提升與 Negative Lab Pro 的相容性",
+    "提高 DNG 匯出速度與可靠性",
+    "為 DNG 匯出新增自動產生 RAW 預覽功能"
+  ],
+  "fixes": [
+    "修復 DNG 檔案中相機中繼資料未正確清除的問題",
+    "修復 JXL 使用者備註對特殊字元和表情符號的編碼問題"
+  ],
+  "patches": [
+    {
+      "version": "1.16.1",
+      "description": "更可靠的 JXL 匯出"
+    }
+  ],
+  "meta_title": "DNG 與 JXL 匯出改進 - Frames",
+  "meta_description": "Frames 1.16.0 提升了 Lightroom 工作流程中 DNG 中繼資料的可靠性，並修復了 JXL 字元編碼問題。"
+}

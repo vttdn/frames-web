@@ -1,0 +1,48 @@
+{
+  "version": "1.16.0",
+  "version_short": "1.16",
+  "url_slug": "1-16-macos",
+  "platform": "macos",
+  "release_date": "2026-04-24T10:00:00.000Z",
+  "title": "DNG・JXLエクスポートの改善",
+  "summary": "このアップデートでは、DNGエクスポート向けにより安定したメタデータエンジンを導入し、JXLファイルのエンコードの問題を修正しました。スキャンがLightroomとNegative Lab Proで正しく機能するようになります。",
+  "sections": [
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-mac-1.16.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-mac-1.16.0-1@2x.png",
+      "alt": "FramesにおけるDNGエクスポート設定とメタデータの改善",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "paragraph",
+      "content": "DNGメタデータを処理する内部コードを書き換えました。以前のバージョンでは、元のカメラデータが正しく削除されないことがありました。これはNikon Z8などのデジタルカメラでネガをスキャンするユーザーに多く見られた問題です。古いメタデータがファイルに残ってしまうため、Negative Lab ProがLightroomで画像を処理するための適切なプロファイルを見つけられないことがよくありました。"
+    },
+    {
+      "type": "paragraph",
+      "content": "新しい実装はより高速で安定しています。すべてのメタデータが正しく書き直されるため、ワークフローが一貫して保たれます。またソースファイルにRAWプレビューが含まれていない場合、アプリが自動的に生成するようになりました。"
+    },
+    {
+      "type": "paragraph",
+      "content": "JXLエクスポートのバグも修正しました。以前は、ユーザーコメントに特殊文字や絵文字が含まれていると保存に失敗することがありました。このエンコードの問題は解決され、コメントはLightroom、Appleプレビュー、Exiftoolsで正しく表示されるようになりました。"
+    }
+  ],
+  "improvements": [
+    "Negative Lab Proとの互換性向上のためDNGメタデータ処理を書き換え",
+    "DNGエクスポートの速度と安定性を向上",
+    "DNGエクスポート時のRAWプレビュー自動生成を追加"
+  ],
+  "fixes": [
+    "DNGファイルでカメラメタデータが正しく削除されない問題を修正",
+    "特殊文字・絵文字に対するJXLユーザーコメントのエンコード不具合を修正"
+  ],
+  "patches": [
+    {
+      "version": "1.16.1",
+      "description": "JXLエクスポートの安定性を向上"
+    }
+  ],
+  "meta_title": "DNG・JXLエクスポートの改善 - Frames",
+  "meta_description": "Frames 1.16.0はLightroomワークフロー向けのDNGメタデータの信頼性を改善し、JXL文字エンコードの問題を修正しました。"
+}

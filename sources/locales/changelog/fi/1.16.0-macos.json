@@ -1,0 +1,48 @@
+{
+  "version": "1.16.0",
+  "version_short": "1.16",
+  "url_slug": "1-16-macos",
+  "platform": "macos",
+  "release_date": "2026-04-24T10:00:00.000Z",
+  "title": "DNG- ja JXL-vientien parannukset",
+  "summary": "Tämä päivitys tuo luotettavamman metatietomootterin DNG-vienneille ja korjaa JXL-tiedostojen koodausongelmat, jotta skannauksesi toimivat oikein Lightroomissa ja Negative Lab Prossa.",
+  "sections": [
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-mac-1.16.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-mac-1.16.0-1@2x.png",
+      "alt": "DNG-vientiasetukset ja metatietojen parannukset Framesissa",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "paragraph",
+      "content": "Korvasin sisäisen koodin, jota käytetään DNG-metatietojen käsittelyyn. Aiempi versio ei aina poistanut alkuperäisiä kameratietoja, mikä oli yleinen ongelma käyttäjille, jotka skannaavat negatiiveja digitaalikameroilla, kuten Nikon Z8:lla. Koska vanhat metatiedot jäivät tiedostoon, Negative Lab Prolla oli usein vaikeuksia löytää oikea profiili kuvan käsittelyyn Lightroomissa."
+    },
+    {
+      "type": "paragraph",
+      "content": "Uusi toteutus on nopeampi ja vakaampi. Se varmistaa, että kaikki metatiedot kirjoitetaan uudelleen oikein, jotta työnkulkusi pysyy johdonmukaisena. Bonuksena sovellus luo nyt RAW-esikatselun, jos lähdetiedostosta puuttuu sellainen."
+    },
+    {
+      "type": "paragraph",
+      "content": "Korjasin myös JXL-vienteihin liittyvän virheen. Aiemmin käyttäjäkommentit epäonnistuivat tallentumaan, jos ne sisälsivät erikoismerkkejä tai emojeja. Tämä koodausongelma on nyt ratkaistu, ja kommenttisi näkyvät oikein Lightroomissa, Apple Previewssa ja Exiftoolsissa."
+    }
+  ],
+  "improvements": [
+    "DNG-metatietojen käsittely kirjoitettu uudelleen paremman Negative Lab Pro -yhteensopivuuden vuoksi",
+    "DNG-viennin nopeutta ja luotettavuutta parannettu",
+    "Automaattinen RAW-esikatselun luonti lisätty DNG-vienneille"
+  ],
+  "fixes": [
+    "Korjattu ongelma, jossa kameran metatietoja ei tyhjennetty kunnolla DNG-tiedostoissa",
+    "Korjattu JXL-käyttäjäkommenttien koodaus erikoismerkeille ja emojille"
+  ],
+  "patches": [
+    {
+      "version": "1.16.1",
+      "description": "Luotettavampi JXL-vienti"
+    }
+  ],
+  "meta_title": "DNG- ja JXL-vientien parannukset - Frames",
+  "meta_description": "Frames 1.16.0 parantaa DNG-metatietojen luotettavuutta Lightroom-työnkulkuihin ja korjaa JXL-merkistökoodauksen."
+}

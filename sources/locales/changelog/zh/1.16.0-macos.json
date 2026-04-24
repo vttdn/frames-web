@@ -1,0 +1,48 @@
+{
+  "version": "1.16.0",
+  "version_short": "1.16",
+  "url_slug": "1-16-macos",
+  "platform": "macos",
+  "release_date": "2026-04-24T10:00:00.000Z",
+  "title": "DNG 与 JXL 导出改进",
+  "summary": "此次更新为 DNG 导出引入了更可靠的元数据引擎，并修复了 JXL 文件的编码问题，确保您的扫描在 Lightroom 和 Negative Lab Pro 中正常工作。",
+  "sections": [
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-mac-1.16.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-mac-1.16.0-1@2x.png",
+      "alt": "Frames 中的 DNG 导出设置与元数据改进",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "paragraph",
+      "content": "我替换了处理 DNG 元数据的内部代码。旧版本有时无法清除相机的原始数据，这对于使用尼康 Z8 等数码相机扫描负片的用户来说是一个常见问题。由于旧元数据仍然保留在文件中，Negative Lab Pro 在 Lightroom 中处理图像时往往难以找到正确的配置文件。"
+    },
+    {
+      "type": "paragraph",
+      "content": "新的实现更快、更稳定。它确保所有元数据都能正确重写，让您的工作流程保持一致。此外，如果源文件缺少 RAW 预览，应用程序现在会自动生成一个。"
+    },
+    {
+      "type": "paragraph",
+      "content": "我还修复了 JXL 导出中的一个错误。以前，如果用户备注包含特殊字符或表情符号，保存时会失败。这个编码问题已得到解决，您的备注现在将在 Lightroom、Apple 预览和 Exiftools 中正确显示。"
+    }
+  ],
+  "improvements": [
+    "重写 DNG 元数据处理，提升与 Negative Lab Pro 的兼容性",
+    "提高 DNG 导出速度和可靠性",
+    "为 DNG 导出添加自动生成 RAW 预览功能"
+  ],
+  "fixes": [
+    "修复 DNG 文件中相机元数据未正确清除的问题",
+    "修复 JXL 用户备注对特殊字符和表情符号的编码问题"
+  ],
+  "patches": [
+    {
+      "version": "1.16.1",
+      "description": "更可靠的 JXL 导出"
+    }
+  ],
+  "meta_title": "DNG 与 JXL 导出改进 - Frames",
+  "meta_description": "Frames 1.16.0 提升了 Lightroom 工作流中 DNG 元数据的可靠性，并修复了 JXL 字符编码问题。"
+}

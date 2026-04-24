@@ -1,0 +1,48 @@
+{
+  "version": "1.16.0",
+  "version_short": "1.16",
+  "url_slug": "1-16-macos",
+  "platform": "macos",
+  "release_date": "2026-04-24T10:00:00.000Z",
+  "title": "Cải tiến xuất DNG và JXL",
+  "summary": "Bản cập nhật này giới thiệu công cụ xử lý siêu dữ liệu đáng tin cậy hơn cho xuất DNG và khắc phục lỗi mã hóa trong file JXL, giúp ảnh scan hoạt động chính xác trong Lightroom và Negative Lab Pro.",
+  "sections": [
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-mac-1.16.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-mac-1.16.0-1@2x.png",
+      "alt": "Cài đặt xuất DNG và cải tiến siêu dữ liệu trong Frames",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "paragraph",
+      "content": "Tôi đã thay thế mã nội bộ dùng để xử lý siêu dữ liệu DNG. Phiên bản trước đôi khi không xóa được dữ liệu gốc của máy ảnh — đây là vấn đề phổ biến với người dùng scan phim âm bản bằng máy ảnh kỹ thuật số như Nikon Z8. Do siêu dữ liệu cũ vẫn còn trong file, Negative Lab Pro thường gặp khó khăn trong việc tìm đúng profile để xử lý ảnh trong Lightroom."
+    },
+    {
+      "type": "paragraph",
+      "content": "Triển khai mới nhanh hơn và ổn định hơn. Tất cả siêu dữ liệu đều được ghi lại chính xác, giữ cho quy trình làm việc của bạn nhất quán. Thêm vào đó, ứng dụng giờ đây tự động tạo bản xem trước RAW nếu file nguồn không có."
+    },
+    {
+      "type": "paragraph",
+      "content": "Tôi cũng đã sửa một lỗi với xuất JXL. Trước đây, chú thích của người dùng sẽ không lưu được nếu chứa ký tự đặc biệt hoặc biểu tượng cảm xúc. Lỗi mã hóa này đã được khắc phục và chú thích của bạn giờ sẽ hiển thị đúng trong Lightroom, Apple Preview và Exiftools."
+    }
+  ],
+  "improvements": [
+    "Viết lại xử lý siêu dữ liệu DNG để tương thích tốt hơn với Negative Lab Pro",
+    "Tăng tốc độ và độ tin cậy khi xuất DNG",
+    "Thêm tính năng tự động tạo bản xem trước RAW cho xuất DNG"
+  ],
+  "fixes": [
+    "Khắc phục lỗi siêu dữ liệu máy ảnh không được xóa đúng cách trong file DNG",
+    "Sửa mã hóa chú thích người dùng JXL cho ký tự đặc biệt và biểu tượng cảm xúc"
+  ],
+  "patches": [
+    {
+      "version": "1.16.1",
+      "description": "Xuất JXL đáng tin cậy hơn"
+    }
+  ],
+  "meta_title": "Cải tiến xuất DNG và JXL - Frames",
+  "meta_description": "Frames 1.16.0 cải thiện độ tin cậy siêu dữ liệu DNG cho quy trình Lightroom và khắc phục mã hóa ký tự JXL."
+}

@@ -1,0 +1,48 @@
+{
+  "version": "1.16.0",
+  "version_short": "1.16",
+  "url_slug": "1-16-macos",
+  "platform": "macos",
+  "release_date": "2026-04-24T10:00:00.000Z",
+  "title": "DNG and JXL export improvements",
+  "summary": "This update introduces a more reliable metadata engine for DNG exports and fixes encoding issues for JXL files, ensuring your scans work correctly in Lightroom and Negative Lab Pro.",
+  "sections": [
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-mac-1.16.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-mac-1.16.0-1@2x.png",
+      "alt": "DNG export settings and metadata improvements in Frames",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "paragraph",
+      "content": "I replaced the internal code used to handle DNG metadata. The previous version sometimes failed to clear original camera data, which was a common problem for users scanning negatives with digital cameras like the Nikon Z8. Because that old metadata stayed in the file, Negative Lab Pro often struggled to find the right profile to process the image in Lightroom."
+    },
+    {
+      "type": "paragraph",
+      "content": "The new implementation is faster and more stable. It ensures all metadata is rewritten correctly so your workflow remains consistent. As a bonus, the app now generates a raw preview if the source file is missing one."
+    },
+    {
+      "type": "paragraph",
+      "content": "I also fixed a bug with JXL exports. Previously, user comments would fail to save if they included special characters or emojis. This encoding issue is resolved, and your comments will now show up properly in Lightroom, Apple Preview, and Exiftools."
+    }
+  ],
+  "improvements": [
+    "Rewrote DNG metadata handling for better compatibility with Negative Lab Pro",
+    "Increased DNG export speed and reliability",
+    "Added automatic raw preview generation for DNG exports"
+  ],
+  "fixes": [
+    "Resolved an issue where camera metadata was not properly cleared in DNG files",
+    "Fixed JXL user comment encoding for special characters and emojis"
+  ],
+  "patches": [
+    {
+      "version": "1.16.1",
+      "description": "More reliable JXL export"
+    }
+  ],
+  "meta_title": "DNG and JXL Export Improvements - Frames",
+  "meta_description": "Frames 1.16.0 improves DNG metadata reliability for Lightroom workflows and fixes JXL character encoding."
+}

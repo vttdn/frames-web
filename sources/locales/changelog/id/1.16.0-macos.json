@@ -1,0 +1,48 @@
+{
+  "version": "1.16.0",
+  "version_short": "1.16",
+  "url_slug": "1-16-macos",
+  "platform": "macos",
+  "release_date": "2026-04-24T10:00:00.000Z",
+  "title": "Peningkatan ekspor DNG dan JXL",
+  "summary": "Pembaruan ini menghadirkan mesin metadata yang lebih andal untuk ekspor DNG dan memperbaiki masalah encoding JXL, agar pindaianmu berfungsi dengan baik di Lightroom dan Negative Lab Pro.",
+  "sections": [
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-mac-1.16.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-mac-1.16.0-1@2x.png",
+      "alt": "Pengaturan ekspor DNG dan peningkatan metadata di Frames",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "paragraph",
+      "content": "Saya mengganti kode internal yang digunakan untuk menangani metadata DNG. Versi sebelumnya terkadang gagal menghapus data kamera asli, yang menjadi masalah umum bagi pengguna yang memindai negatif dengan kamera digital seperti Nikon Z8. Karena metadata lama itu tetap ada dalam file, Negative Lab Pro sering kesulitan menemukan profil yang tepat untuk memproses gambar di Lightroom."
+    },
+    {
+      "type": "paragraph",
+      "content": "Implementasi baru ini lebih cepat dan lebih stabil. Semua metadata akan ditulis ulang dengan benar sehingga alur kerjamu tetap konsisten. Sebagai bonus, aplikasi kini secara otomatis menghasilkan pratinjau RAW jika file sumber tidak memilikinya."
+    },
+    {
+      "type": "paragraph",
+      "content": "Saya juga memperbaiki bug pada ekspor JXL. Sebelumnya, komentar pengguna gagal tersimpan jika mengandung karakter khusus atau emoji. Masalah encoding ini sudah diatasi, dan komentarmu kini akan tampil dengan benar di Lightroom, Apple Preview, dan Exiftools."
+    }
+  ],
+  "improvements": [
+    "Penulisan ulang penanganan metadata DNG untuk kompatibilitas lebih baik dengan Negative Lab Pro",
+    "Peningkatan kecepatan dan keandalan ekspor DNG",
+    "Penambahan pembuatan pratinjau RAW otomatis untuk ekspor DNG"
+  ],
+  "fixes": [
+    "Memperbaiki masalah di mana metadata kamera tidak dibersihkan dengan benar pada file DNG",
+    "Memperbaiki encoding komentar pengguna JXL untuk karakter khusus dan emoji"
+  ],
+  "patches": [
+    {
+      "version": "1.16.1",
+      "description": "Ekspor JXL yang lebih andal"
+    }
+  ],
+  "meta_title": "Peningkatan ekspor DNG dan JXL - Frames",
+  "meta_description": "Frames 1.16.0 meningkatkan keandalan metadata DNG untuk alur kerja Lightroom dan memperbaiki encoding karakter JXL."
+}

@@ -1,0 +1,48 @@
+{
+  "version": "1.16.0",
+  "version_short": "1.16",
+  "url_slug": "1-16-macos",
+  "platform": "macos",
+  "release_date": "2026-04-24T10:00:00.000Z",
+  "title": "Melhorias na exportação de DNG e JXL",
+  "summary": "Esta atualização traz um motor de metadados mais confiável para exportações DNG e corrige a codificação de arquivos JXL, para que seus scans funcionem corretamente no Lightroom e Negative Lab Pro.",
+  "sections": [
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-mac-1.16.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-mac-1.16.0-1@2x.png",
+      "alt": "Configurações de exportação DNG e melhorias de metadados no Frames",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "paragraph",
+      "content": "Substituí o código interno utilizado para tratar os metadados DNG. A versão anterior às vezes não apagava os dados originais da câmera, o que era um problema comum para usuários que digitalizam negativos com câmeras digitais como a Nikon Z8. Como esses metadados antigos permaneciam no arquivo, o Negative Lab Pro frequentemente tinha dificuldade em encontrar o perfil correto para processar a imagem no Lightroom."
+    },
+    {
+      "type": "paragraph",
+      "content": "A nova implementação é mais rápida e estável. Ela garante que todos os metadados sejam reescritos corretamente para que seu fluxo de trabalho permaneça consistente. Como bônus, o aplicativo agora gera uma prévia RAW caso o arquivo de origem não tenha uma."
+    },
+    {
+      "type": "paragraph",
+      "content": "Também corrigi um bug nas exportações JXL. Antes, os comentários do usuário não eram salvos quando continham caracteres especiais ou emojis. Esse problema de codificação foi resolvido e seus comentários agora serão exibidos corretamente no Lightroom, no Apple Preview e no Exiftools."
+    }
+  ],
+  "improvements": [
+    "Reescrita do tratamento de metadados DNG para melhor compatibilidade com o Negative Lab Pro",
+    "Aumento da velocidade e confiabilidade da exportação DNG",
+    "Adicionada geração automática de prévia RAW para exportações DNG"
+  ],
+  "fixes": [
+    "Resolvido um problema em que os metadados da câmera não eram removidos corretamente em arquivos DNG",
+    "Corrigida a codificação de comentários JXL para caracteres especiais e emojis"
+  ],
+  "patches": [
+    {
+      "version": "1.16.1",
+      "description": "Exportação JXL mais confiável"
+    }
+  ],
+  "meta_title": "Melhorias na exportação de DNG e JXL - Frames",
+  "meta_description": "Frames 1.16.0 melhora a confiabilidade dos metadados DNG para fluxos de trabalho no Lightroom e corrige a codificação de caracteres JXL."
+}
