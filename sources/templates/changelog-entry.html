@@ -55,7 +55,9 @@
           <div class="eyebrow">
             <!-- <p class="release-number">{{ locale_data.changelog.labels['platform_' + entry.platform] }} {{ entry.version_short }}</p> -->
             <!-- <span>·</span> -->
-            <p class="release-date"><span>{{ locale_data.changelog.labels['platform_' + entry.platform] }} {{ entry.version_short }}</span> · <time datetime="{{ entry.release_date }}">{{ entry.formatted_date }}</time></p>
+            <p class="release-date">
+              <span>{{ locale_data.changelog.labels['platform_' + entry.platform] }} {{ entry.version_short }}</span> · 
+              <time datetime="{{ entry.release_date }}">{{ entry.formatted_date }}</time></p>
           </div>
 
           <h1>{{ entry.title }}</h1>
