@@ -54,7 +54,15 @@
       <article class="article-main">
         <header class="article-header wrapper-small">
           <div class="eyebrow">
-            <p class="release-number uppercase">
+            <p class="release-date"><a href="{% if lang in available_blog_languages %}{{ lang_config.path }}{{ locale_data.urls.blog }}{% else %}/blog/{% endif %}">{{ locale_data.newfooter.section1.blog }}</a> · 
+              {% if entry.update_date %}
+              <time datetime="{{ entry.update_date }}" class="release-date">{{ entry.formatted_update_date }}</time>
+              {% else %}
+              <time datetime="{{ entry.publish_date }}" class="release-date">{{ entry.formatted_date }}</time>
+              {% endif %}
+            </p>
+         
+            <!-- <p class="release-number uppercase">
               <a href="{% if lang in available_blog_languages %}{{ lang_config.path }}{{ locale_data.urls.blog }}{% else %}/blog/{% endif %}">{{ locale_data.newfooter.section1.blog }}</a>
               {% if entry.category %}
             <span> / {{ blog_config.categories[entry.category][lang].name }}</span>
@@ -64,7 +72,7 @@
             <time datetime="{{ entry.update_date }}" class="release-date">{{ entry.formatted_update_date }}</time>
             {% else %}
             <time datetime="{{ entry.publish_date }}" class="release-date">{{ entry.formatted_date }}</time>
-            {% endif %}
+            {% endif %} -->
           </div>
 
           <h1>{{ entry.title }}</h1>
