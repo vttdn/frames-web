@@ -1547,8 +1547,7 @@ def resolve_source_image_path(image_path, lang_code):
     return None
 
 
-# Old color: bg_color=(28, 28, 30)
-def generate_og_image(source_image_path, output_path, bg_color=(0, 0, 0)):
+def generate_og_image(source_image_path, output_path, bg_color=(29, 29, 31)):
     """Generate OG image from source PNG with transparency, preserving @2x dimensions"""
     try:
         if output_path.exists():
