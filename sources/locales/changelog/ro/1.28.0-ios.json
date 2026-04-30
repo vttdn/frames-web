@@ -40,7 +40,8 @@
     "Pas de incrementare a vitezei obturatorului per cameră (treaptă întreagă, jumătate, treime)",
     "Interval minim și maxim al vitezei obturatorului per cameră",
     "Selector dinamic al vitezei obturatorului bazat pe setările camerei",
-    "Numele camerei afișat lângă tipul de film pe ecranul filmului"
+    "Numele camerei afișat lângă tipul de film pe ecranul filmului",
+    "Înregistrările de film afișează acum camera folosită pentru o identificare mai ușoară"
   ],
   "fixes": [
     {
@@ -64,6 +65,10 @@
     {
       "version": "1.28.3",
       "description": "Corectare a interacțiunii cu butoanele barei de instrumente"
+    },
+    {
+      "version": "1.28.4",
+      "description": "Cameră afișată pentru fiecare înregistrare de film"
     }
   ],
   "meta_title": "Îmbunătățiri ale vitezei obturatorului - Frames",

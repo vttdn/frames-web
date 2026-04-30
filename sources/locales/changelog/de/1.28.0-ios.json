@@ -40,7 +40,8 @@
     "Verschlusszeit-Abstufung pro Kamera (ganze, halbe, Drittelstufe)",
     "Mindest- und Höchstwert der Verschlusszeit pro Kamera",
     "Dynamischer Verschlusszeit-Regler basierend auf Kameraeinstellungen",
-    "Anzeige des Kameranamens neben dem Filmtyp auf dem Film-Bildschirm"
+    "Anzeige des Kameranamens neben dem Filmtyp auf dem Film-Bildschirm",
+    "Filmrollen-Einträge zeigen jetzt die verwendete Kamera für eine einfachere Identifikation"
   ],
   "fixes": [
     {
@@ -64,6 +65,10 @@
     {
       "version": "1.28.3",
       "description": "Interaktion der Symbolleisten-Schaltflächen behoben"
+    },
+    {
+      "version": "1.28.4",
+      "description": "Kamera pro Filmrollen-Eintrag angezeigt"
     }
   ],
   "meta_title": "Verbesserungen bei der Verschlusszeit - Frames",

@@ -40,7 +40,8 @@
     "Krok czasu naświetlania na aparat (pełna, połówkowa, jedna trzecia działki EV)",
     "Minimalny i maksymalny zakres czasu naświetlania na aparat",
     "Dynamiczny selektor czasu naświetlania oparty na ustawieniach aparatu",
-    "Nazwa aparatu wyświetlana obok typu filmu na ekranie filmu"
+    "Nazwa aparatu wyświetlana obok typu filmu na ekranie filmu",
+    "Wpisy filmów wyświetlają teraz użyty aparat dla łatwiejszej identyfikacji"
   ],
   "fixes": [
     {
@@ -64,6 +65,10 @@
     {
       "version": "1.28.3",
       "description": "Poprawka interakcji z przyciskami paska narzędzi"
+    },
+    {
+      "version": "1.28.4",
+      "description": "Aparat pokazywany przy każdym wpisie filmu"
     }
   ],
   "meta_title": "Ulepszenia czasu naświetlania - Frames",

@@ -40,7 +40,8 @@
     "Slutartidssteg per kamera (helt, halvt, tredjedels steg)",
     "Lägsta och högsta slutartidsintervall per kamera",
     "Dynamisk slutartidsväljare baserad på kamerainställningar",
-    "Kameranamn visas bredvid filmtypen på filmskärmen"
+    "Kameranamn visas bredvid filmtypen på filmskärmen",
+    "Filmposter visar nu kameran som använts för enklare identifiering"
   ],
   "fixes": [
     {
@@ -64,6 +65,10 @@
     {
       "version": "1.28.3",
       "description": "Åtgärd av interaktion med verktygsfältsknappar"
+    },
+    {
+      "version": "1.28.4",
+      "description": "Kamera visas per filmpost"
     }
   ],
   "meta_title": "Förbättringar av slutartid - Frames",

@@ -40,7 +40,8 @@
     "Kamera başına obtüratör hızı adım artışı (tam, yarım, üçte bir stop)",
     "Kamera başına minimum ve maksimum obtüratör hızı aralığı",
     "Kamera ayarlarına dayalı dinamik obtüratör hızı seçicisi",
-    "Film ekranında film stokunun yanında kamera adının gösterilmesi"
+    "Film ekranında film stokunun yanında kamera adının gösterilmesi",
+    "Film girdileri artık daha kolay tanımlama için kullanılan kamerayı gösteriyor"
   ],
   "fixes": [
     {
@@ -64,6 +65,10 @@
     {
       "version": "1.28.3",
       "description": "Araç çubuğu düğmeleri etkileşim düzeltmesi"
+    },
+    {
+      "version": "1.28.4",
+      "description": "Her film girdisinde kamera gösterimi"
     }
   ],
   "meta_title": "Obtüratör hızı iyileştirmeleri - Frames",

@@ -40,7 +40,8 @@
     "Langkah kecepatan rana per kamera (penuh, setengah, sepertiga stop)",
     "Rentang kecepatan rana minimum dan maksimum per kamera",
     "Pemilih kecepatan rana dinamis berdasarkan pengaturan kamera",
-    "Nama kamera ditampilkan di samping stok film pada layar film"
+    "Nama kamera ditampilkan di samping stok film pada layar film",
+    "Entri film kini menampilkan kamera yang digunakan untuk mempermudah identifikasi"
   ],
   "fixes": [
     {
@@ -64,6 +65,10 @@
     {
       "version": "1.28.3",
       "description": "Perbaikan interaksi tombol bilah alat"
+    },
+    {
+      "version": "1.28.4",
+      "description": "Kamera ditampilkan di setiap entri film"
     }
   ],
   "meta_title": "Peningkatan kecepatan rana - Frames",

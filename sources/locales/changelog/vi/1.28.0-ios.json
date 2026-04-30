@@ -40,7 +40,8 @@
     "Bước tăng tốc độ màn trập theo máy ảnh (nguyên, nửa, một phần ba bước)",
     "Phạm vi tốc độ màn trập tối thiểu và tối đa theo máy ảnh",
     "Bộ chọn tốc độ màn trập động dựa trên cài đặt máy ảnh",
-    "Hiển thị tên máy ảnh bên cạnh loại phim trên màn hình phim"
+    "Hiển thị tên máy ảnh bên cạnh loại phim trên màn hình phim",
+    "Các mục cuộn phim giờ đây hiển thị máy ảnh đã sử dụng để dễ nhận diện hơn"
   ],
   "fixes": [
     {
@@ -64,6 +65,10 @@
     {
       "version": "1.28.3",
       "description": "Sửa tương tác nút thanh công cụ"
+    },
+    {
+      "version": "1.28.4",
+      "description": "Máy ảnh hiển thị theo từng mục cuộn phim"
     }
   ],
   "meta_title": "Cải tiến tốc độ màn trập - Frames",

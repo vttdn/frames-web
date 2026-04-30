@@ -40,7 +40,8 @@
     "Passo di incremento della velocità dell'otturatore per fotocamera (intero, mezzo, terzo stop)",
     "Range minimo e massimo di velocità dell'otturatore per fotocamera",
     "Selettore dinamico della velocità dell'otturatore basato sulle impostazioni della fotocamera",
-    "Nome della fotocamera mostrato accanto alla pellicola nella schermata della pellicola"
+    "Nome della fotocamera mostrato accanto alla pellicola nella schermata della pellicola",
+    "Le voci pellicola ora mostrano la fotocamera utilizzata per un'identificazione più semplice"
   ],
   "fixes": [
     {
@@ -64,6 +65,10 @@
     {
       "version": "1.28.3",
       "description": "Correzione dell'interazione con i pulsanti della barra degli strumenti"
+    },
+    {
+      "version": "1.28.4",
+      "description": "Fotocamera mostrata per ogni voce pellicola"
     }
   ],
   "meta_title": "Miglioramenti alla velocità dell'otturatore - Frames",

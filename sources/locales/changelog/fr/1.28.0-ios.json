@@ -40,7 +40,8 @@
     "Palier de vitesse d'obturation par appareil (entier, demi, tiers de palier)",
     "Plage minimale et maximale de vitesse d'obturation par appareil",
     "Sélecteur de vitesse d'obturation dynamique selon les réglages de l'appareil",
-    "Affichage du nom de l'appareil à côté de la pellicule sur l'écran pellicule"
+    "Affichage du nom de l'appareil à côté de la pellicule sur l'écran pellicule",
+    "Les entrées de pellicule affichent désormais l'appareil utilisé pour une identification plus facile"
   ],
   "fixes": [
     {
@@ -64,6 +65,10 @@
     {
       "version": "1.28.3",
       "description": "Correction de l'interaction avec les boutons de la barre d'outils"
+    },
+    {
+      "version": "1.28.4",
+      "description": "Appareil affiché par entrée de pellicule"
     }
   ],
   "meta_title": "Améliorations de la vitesse d'obturation - Frames",

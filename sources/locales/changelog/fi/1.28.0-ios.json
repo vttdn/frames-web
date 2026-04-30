@@ -40,7 +40,8 @@
     "Suljinaika-askelväli kamerakohtaisesti (kokonainen, puoli, kolmasosa)",
     "Minimi- ja maksimisuljinaika kamerakohtaisesti",
     "Dynaaminen suljinaika-valitsin kamera-asetusten perusteella",
-    "Kameran nimi näkyy filmityypin vieressä filminäkymässä"
+    "Kameran nimi näkyy filmityypin vieressä filminäkymässä",
+    "Filmirullamerkinnät näyttävät nyt käytetyn kameran helpompaa tunnistamista varten"
   ],
   "fixes": [
     {
@@ -64,6 +65,10 @@
     {
       "version": "1.28.3",
       "description": "Työkalurivin painikkeiden vuorovaikutuksen korjaus"
+    },
+    {
+      "version": "1.28.4",
+      "description": "Kamera näkyy kussakin filmirullamerkinnässä"
     }
   ],
   "meta_title": "Parannuksia suljinaikaan - Frames",

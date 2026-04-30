@@ -40,7 +40,8 @@
     "Lukkertidstrinn per kamera (helt, halvt, tredjedels stopp)",
     "Minimums- og maksimumsgrense for lukkertid per kamera",
     "Dynamisk lukkertidsvelger basert på kamerainnstillinger",
-    "Kameranavn vist ved siden av filmtypen på filmskjermen"
+    "Kameranavn vist ved siden av filmtypen på filmskjermen",
+    "Filmoppføringer viser nå kameraet som er brukt, for enklere identifisering"
   ],
   "fixes": [
     {
@@ -64,6 +65,10 @@
     {
       "version": "1.28.3",
       "description": "Retting av interaksjon med verktøylinjeknapper"
+    },
+    {
+      "version": "1.28.4",
+      "description": "Kamera vist per filmoppføring"
     }
   ],
   "meta_title": "Forbedringer av lukkertid - Frames",

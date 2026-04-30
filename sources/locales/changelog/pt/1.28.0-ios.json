@@ -40,7 +40,8 @@
     "Incremento de velocidade do obturador por câmara (passo inteiro, meio, terço)",
     "Intervalo mínimo e máximo de velocidade do obturador por câmara",
     "Seletor dinâmico de velocidade do obturador baseado nas definições da câmara",
-    "Nome da câmara apresentado junto ao tipo de filme no ecrã do filme"
+    "Nome da câmara apresentado junto ao tipo de filme no ecrã do filme",
+    "As entradas de película agora mostram a câmara utilizada para uma identificação mais fácil"
   ],
   "fixes": [
     {
@@ -64,6 +65,10 @@
     {
       "version": "1.28.3",
       "description": "Correção da interação com os botões da barra de ferramentas"
+    },
+    {
+      "version": "1.28.4",
+      "description": "Câmara apresentada por entrada de película"
     }
   ],
   "meta_title": "Melhorias na velocidade do obturador - Frames",

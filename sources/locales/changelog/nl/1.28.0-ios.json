@@ -40,7 +40,8 @@
     "Sluitertijdstap per camera (heel, half, derde stop)",
     "Minimum- en maximumbereik voor sluitertijd per camera",
     "Dynamische sluitertijdkiezer op basis van camera-instellingen",
-    "Cameranaam weergegeven naast de filmsoort op het filmscherm"
+    "Cameranaam weergegeven naast de filmsoort op het filmscherm",
+    "Filmrol-items tonen nu de gebruikte camera voor eenvoudigere identificatie"
   ],
   "fixes": [
     {
@@ -64,6 +65,10 @@
     {
       "version": "1.28.3",
       "description": "Interactie met werkbalkknoppen opgelost"
+    },
+    {
+      "version": "1.28.4",
+      "description": "Camera weergegeven per filmrol-item"
     }
   ],
   "meta_title": "Verbeteringen voor sluitertijd - Frames",

@@ -40,7 +40,8 @@
     "Shutter speed step increment per camera (full, half, third stop)",
     "Min and max shutter speed range per camera",
     "Dynamic shutter speed picker based on camera settings",
-    "Display camera name next to film stock on the film screen"
+    "Display camera name next to film stock on the film screen",
+    "Film entries now display camera used for easier identification"
   ],
   "fixes": [
     {
@@ -64,6 +65,10 @@
     {
       "version": "1.28.3",
       "description": "Toolbar buttons interaction fix"
+    },
+    {
+      "version": "1.28.4",
+      "description": "Camera shown per film entry"
     }
   ],
   "meta_title": "Shutter speed improvements - Frames",
