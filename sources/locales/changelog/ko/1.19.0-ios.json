@@ -13,7 +13,8 @@
       "image_2x": "/lib/img/shared/changelog/frames-1.19.0-1@2x.png",
       "alt": "폴더 내보내기와 빠른 필름 생성 기능이 있는 Frames 필름 사진 앱",
       "width": "400",
-      "height": "300"
+      "height": "300",
+      "caption": "Frames iOS 1.19 업데이트"
     },
     {
       "type": "heading",
@@ -63,7 +64,10 @@
   ],
   "fixes": [],
   "patches": [
-    { "version": "1.19.1", "description": "위치 및 지도 개선" }
+    {
+      "version": "1.19.1",
+      "description": "위치 및 지도 개선"
+    }
   ],
   "meta_title": "폴더 내보내기 및 더 빠른 필름 생성 - Frames",
   "meta_description": "모든 필름이 포함된 폴더 전체를 내보내세요. 자동 설정으로 더 빠르게 필름을 생성하세요. 새로운 필름 종류와 개선된 검색."

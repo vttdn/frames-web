@@ -13,7 +13,8 @@
       "image_2x": "/lib/img/shared/changelog/frames-1.19.0-1@2x.png",
       "alt": "Frames analoge fotografie-app met mapexport en sneller filmrollen aanmaken",
       "width": "400",
-      "height": "300"
+      "height": "300",
+      "caption": "Frames iOS 1.19-update"
     },
     {
       "type": "heading",
@@ -63,7 +64,10 @@
   ],
   "fixes": [],
   "patches": [
-    { "version": "1.19.1", "description": "Verbeteringen van locatie en kaart" }
+    {
+      "version": "1.19.1",
+      "description": "Verbeteringen van locatie en kaart"
+    }
   ],
   "meta_title": "Mapexport en sneller filmrollen aanmaken - Frames",
   "meta_description": "Exporteer hele mappen met alle filmrollen. Maak sneller nieuwe filmrollen aan met automatische instellingen. Nieuwe filmtypes en verbeterde zoekfunctie."

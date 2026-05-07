@@ -13,7 +13,8 @@
       "image_2x": "/lib/img/shared/changelog/frames-1.19.0-1@2x.png",
       "alt": "Frames胶片摄影应用，支持文件夹导出和快速胶片创建",
       "width": "400",
-      "height": "300"
+      "height": "300",
+      "caption": "Frames iOS 1.19 更新"
     },
     {
       "type": "heading",
@@ -63,7 +64,10 @@
   ],
   "fixes": [],
   "patches": [
-    { "version": "1.19.1", "description": "位置和地图改进" }
+    {
+      "version": "1.19.1",
+      "description": "位置和地图改进"
+    }
   ],
   "meta_title": "文件夹导出与更快的胶片创建 - Frames",
   "meta_description": "导出包含所有胶片的整个文件夹。通过自动设置更快地创建胶片。新胶片类型和改进的搜索。"

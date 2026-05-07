@@ -13,7 +13,8 @@
       "image_2x": "/lib/img/shared/changelog/frames-1.19.0-1@2x.png",
       "alt": "Aplicación Frames de fotografía analógica con exportación de carpetas y creación rápida de películas",
       "width": "400",
-      "height": "300"
+      "height": "300",
+      "caption": "Actualización de Frames iOS 1.19"
     },
     {
       "type": "heading",
@@ -63,7 +64,10 @@
   ],
   "fixes": [],
   "patches": [
-    { "version": "1.19.1", "description": "Mejoras de ubicación y mapa" }
+    {
+      "version": "1.19.1",
+      "description": "Mejoras de ubicación y mapa"
+    }
   ],
   "meta_title": "Exportación de carpetas y creación más rápida - Frames",
   "meta_description": "Exporta carpetas enteras con todas las películas. Crea rollos más rápido con ajustes automáticos. Nuevas películas y búsqueda mejorada."

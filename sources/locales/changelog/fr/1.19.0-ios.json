@@ -13,7 +13,8 @@
       "image_2x": "/lib/img/shared/changelog/frames-1.19.0-1@2x.png",
       "alt": "Application Frames pour la photographie argentique avec export de dossiers et création rapide de pellicules",
       "width": "400",
-      "height": "300"
+      "height": "300",
+      "caption": "Mise à jour Frames iOS 1.19"
     },
     {
       "type": "heading",
@@ -63,7 +64,10 @@
   ],
   "fixes": [],
   "patches": [
-    { "version": "1.19.1", "description": "Améliorations de la localisation et de la carte" }
+    {
+      "version": "1.19.1",
+      "description": "Améliorations de la localisation et de la carte"
+    }
   ],
   "meta_title": "Export de dossiers et création rapide - Frames",
   "meta_description": "Exportez des dossiers entiers avec toutes les pellicules. Créez plus vite avec les réglages pré-remplis. Nouvelles émulsions et recherche améliorée."

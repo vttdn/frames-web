@@ -13,7 +13,8 @@
       "image_2x": "/lib/img/shared/changelog/frames-1.19.0-1@2x.png",
       "alt": "Frames analog foto-app med mappeeksport og raskere filmoppretting",
       "width": "400",
-      "height": "300"
+      "height": "300",
+      "caption": "Frames iOS 1.19-oppdatering"
     },
     {
       "type": "heading",
@@ -63,7 +64,10 @@
   ],
   "fixes": [],
   "patches": [
-    { "version": "1.19.1", "description": "Forbedringer av lokasjon og kart" }
+    {
+      "version": "1.19.1",
+      "description": "Forbedringer av lokasjon og kart"
+    }
   ],
   "meta_title": "Mappeeksport og raskere filmoppretting - Frames",
   "meta_description": "Eksporter hele mapper med alle filmer. Opprett filmer raskere med automatiske innstillinger. Nye filmtyper og forbedret søk."

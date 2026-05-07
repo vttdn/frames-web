@@ -13,7 +13,8 @@
       "image_2x": "/lib/img/shared/changelog/frames-1.19.0-1@2x.png",
       "alt": "Frames-analogivalokuvaussovellus kansioiden viennillä ja nopeammalla filmirullien luonnilla",
       "width": "400",
-      "height": "300"
+      "height": "300",
+      "caption": "Frames iOS 1.19 -päivitys"
     },
     {
       "type": "heading",
@@ -63,7 +64,10 @@
   ],
   "fixes": [],
   "patches": [
-    { "version": "1.19.1", "description": "Sijainti- ja karttaparannukset" }
+    {
+      "version": "1.19.1",
+      "description": "Sijainti- ja karttaparannukset"
+    }
   ],
   "meta_title": "Kansioiden vienti ja nopeampi filmirullien luonti - Frames",
   "meta_description": "Vie kokonaisia kansioita kaikkine filmirullineen. Luo filmirullia nopeammin automaattisilla asetuksilla. Uusia filmityyppejä ja parannettu haku."

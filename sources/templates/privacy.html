@@ -60,38 +60,46 @@
       <article class="article-main">
         <header class="article-header wrapper-small">
           <div class="eyebrow">
-            {{ locale_data.privacy.last_updated_label }} {{ locale_data.privacy.last_updated }}
+            <span><br></span>
+            <!-- {{ locale_data.privacy.last_updated_label }} {{ locale_data.privacy.last_updated }} -->
           </div>
 
           <h1>{{ locale_data.privacy.heading }}</h1>
-          <div class="summary">{{ locale_data.privacy.section1.paragraph1 }}</div>
+          <!-- <div class="summary">{{ locale_data.privacy.section1.paragraph1 }}</div> -->
         </header>
 
         <div class="wrapper-small">
-            <nav class="toc" aria-label="Table of contents">
-                <div class="tile-inner">
-                    <h3>{{ locale_data.privacy.headingtoc }}</h3>
-                    <ul>
-                        <!-- <li><a href="#intro">{{ locale_data.privacy.section1.heading }}</a></li> -->
-                        <li><a href="#app">1. {{ locale_data.privacy.section2.heading }}</a></li>
-                        <li><a href="#website">2. {{ locale_data.privacy.section3.heading }}</a></li>
-                        <li><a href="#contact">3. {{ locale_data.privacy.section4.heading }}</a></li>
-                    </ul>
-                </div>
-            </nav>
+            
 
             <!-- <section id="intro">
             <h2>{{ locale_data.privacy.section1.heading }}</h2>
                 <p>{{ locale_data.privacy.section1.paragraph1 }}</p>
             </section> -->
 
+            <section id="intro">
+              <p class="privacy-intro">{{ locale_data.privacy.section1.paragraph1 }}</p>
+            </section>
+
+            <!-- <nav class="toc" aria-label="Table of contents">
+                <div class="tile-inner">
+                    <h3>{{ locale_data.privacy.headingtoc }}</h3>
+                    <ul>
+                        <li><a href="#intro">{{ locale_data.privacy.section1.heading }}</a></li> 
+                        <li><a href="#app">1. {{ locale_data.privacy.section2.heading }}</a></li>
+                        <li><a href="#website">2. {{ locale_data.privacy.section3.heading }}</a></li>
+                        <li><a href="#contact">3. {{ locale_data.privacy.section4.heading }}</a></li>
+                    </ul>
+                </div>
+            </nav> -->
+
           <section id="app">
-            <h2>{{ locale_data.privacy.section2.heading }}</h2>
-            <p>{{ locale_data.privacy.section2.paragraph1a }}<br>{{ locale_data.privacy.section2.paragraph1b }}</p>
-            <p>{{ locale_data.privacy.section2.paragraph2 }}</p>
+            <h2 class="ruh">{{ locale_data.privacy.section2.heading }}</h2>
+            <p>{{ locale_data.privacy.section2.paragraph1a }}
+              {{ locale_data.privacy.section2.paragraph1b }}
+              {{ locale_data.privacy.section2.paragraph2 }}</p>
             <p>{{ locale_data.privacy.section2.paragraph3 }}</p>
-            <p>{{ locale_data.privacy.section2.paragraph4 }}</p>
-            <p>{{ locale_data.privacy.section2.paragraph5 }}</p>
+            <p>{{ locale_data.privacy.section2.paragraph4 }}
+            {{ locale_data.privacy.section2.paragraph5 }}</p>
 
             <ul class="privacy-permissions">
                 <li>
@@ -118,15 +126,15 @@
           </section>
 
           <section id="website">
-            <h2>{{ locale_data.privacy.section3.heading }}</h2>
-            <p>{{ locale_data.privacy.section3.paragraph1a }}<br>{{ locale_data.privacy.section3.paragraph1b }}</p>
-            <p>{{ locale_data.privacy.section3.paragraph2 }}</p>
-            <p>{{ locale_data.privacy.section3.paragraph3 }}</p>
-            <p>{{ locale_data.privacy.section3.paragraph4 }}</p>
+            <h2  class="ruh">{{ locale_data.privacy.section3.heading }}</h2>
+            <p>{{ locale_data.privacy.section3.paragraph1a }}<br>{{ locale_data.privacy.section3.paragraph1b }}
+            {{ locale_data.privacy.section3.paragraph2 }}</p>
+            <p>{{ locale_data.privacy.section3.paragraph3 }}
+            {{ locale_data.privacy.section3.paragraph4 }}</p>
           </section>
 
           <footer id="contact">
-            <h2>{{ locale_data.privacy.section4.heading }}</h2>
+            <h2  class="ruh">{{ locale_data.privacy.section4.heading }}</h2>
             <p>
                 {{ locale_data.privacy.section4.paragraph1 }}
                 <a href="mailto:&#98;&#111;&#110;&#106;&#111;&#117;&#114;&#64;&#119;&#105;&#116;&#104;&#102;&#114;&#97;&#109;&#101;&#115;&#46;&#99;&#111;&#109;">bonjour@withframes.com</a>.

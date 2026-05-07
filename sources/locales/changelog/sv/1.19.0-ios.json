@@ -13,7 +13,8 @@
       "image_2x": "/lib/img/shared/changelog/frames-1.19.0-1@2x.png",
       "alt": "Frames analog foto-app med mappexport och snabbare filmskapande",
       "width": "400",
-      "height": "300"
+      "height": "300",
+      "caption": "Frames iOS 1.19-uppdatering"
     },
     {
       "type": "heading",
@@ -63,7 +64,10 @@
   ],
   "fixes": [],
   "patches": [
-    { "version": "1.19.1", "description": "Förbättringar av plats och karta" }
+    {
+      "version": "1.19.1",
+      "description": "Förbättringar av plats och karta"
+    }
   ],
   "meta_title": "Mappexport och snabbare filmskapande - Frames",
   "meta_description": "Exportera hela mappar med alla filmer. Skapa filmer snabbare med automatiska inställningar. Nya filmtyper och förbättrad sökning."
