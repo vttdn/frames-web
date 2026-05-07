@@ -1,0 +1,44 @@
+{
+  "version": "1.17.0",
+  "version_short": "1.17",
+  "url_slug": "1-17-macos",
+  "platform": "macos",
+  "release_date": "2026-05-07T10:00:00.000Z",
+  "title": "Een nieuwe rondleiding bij de eerste import",
+  "summary": "Deze update voegt een korte rondleiding toe bij de eerste import van een .frames-bestand, met de belangrijkste acties om snel te starten. Codering voor JPEG- en TIFF-opmerkingen is ook hersteld.",
+  "sections": [
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-mac-1.17.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-mac-1.17.0-1@2x.png",
+      "alt": "Nieuwe rondleiding die de belangrijkste acties in Frames toont",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "paragraph",
+      "content": "De app is altijd zo ontworpen dat hij eenvoudig en intuïtief aanvoelt, maar een paar gebruikers gaven aan dat ze zich bij de eerste keer een beetje verloren voelden. Dat begrijp ik. Afbeeldingen koppelen aan metadata is een vrij origineel concept, en zelfs een opgeruimde interface kan in het begin baat hebben bij een klein duwtje in de goede richting. Daarom heb ik een korte rondleiding toegevoegd die de belangrijkste secties en acties laat zien wanneer je voor het eerst een .frames-bestand importeert. Hij is licht en snel, dus zit niet in de weg, maar zou de eerste sessie een stuk duidelijker moeten maken."
+    },
+    {
+      "type": "paragraph",
+      "content": "De rondleiding loopt door vier stappen. Eerst, hoe je afbeeldingen koppelt aan de data van een Filmframe — door dubbel te klikken op één Filmframe of door meerdere afbeeldingen tegelijk in de app te slepen om opeenvolgende Filmframes meteen te vullen. Vervolgens de knoppen waarmee je wisselt tussen lijst-, raster- en galerijweergave. Daarna de bedieningselementen in de zijbalk die de informatiecategorie van een Filmframe wijzigen, zodat je kunt schakelen tussen algemene info, locatie, eigen notities en info van de gekoppelde afbeelding. Tot slot de exportknop rechtsboven in de werkbalk."
+    },
+    {
+      "type": "paragraph",
+      "content": "Persoonlijk ben ik niet zo'n fan van onboardings, want ik geloof dat een goed ontworpen interface die bekende patronen volgt geen introductie nodig zou moeten hebben. Dat gezegd: gebruikers komen uit heel verschillende achtergronden en ik wil dat iedereen zich op zijn gemak voelt in de app, ongeacht zijn ervaring met dit soort tools. Dank aan iedereen die hierover contact heeft opgenomen. Jullie feedback is wat de app beter maakt voor de hele community."
+    },
+    {
+      "type": "paragraph",
+      "content": "Een kleinere noot: ik heb ook een tekencoderingsprobleem opgelost dat aangepaste gebruikersopmerkingen in JPEG- en TIFF-bestanden trof. Talen die gebruikmaken van accenten, zoals het Frans, werden niet correct gecodeerd, waardoor die tekens verkeerd verschenen in software als Apple Preview, Lightroom en andere. Opmerkingen worden nu met de juiste codering weggeschreven en verschijnen zoals verwacht. Gebruikers die EXIF-gegevens opnieuw integreren in DNG- of JXL-bestanden waren niet getroffen, omdat dat pad al in de vorige update was hersteld."
+    }
+  ],
+  "improvements": [
+    "Rondleiding bij de eerste import toegevoegd om de belangrijkste secties en acties te tonen"
+  ],
+  "fixes": [
+    "Tekencoderingsprobleem voor accenten in JPEG- en TIFF-gebruikersopmerkingen opgelost"
+  ],
+  "patches": [],
+  "meta_title": "Een nieuwe rondleiding bij de eerste import - Frames",
+  "meta_description": "Frames 1.17.0 voegt een rondleiding toe bij de eerste import en herstelt de tekencodering van accenten in JPEG- en TIFF-opmerkingen."
+}

@@ -1,0 +1,44 @@
+{
+  "version": "1.17.0",
+  "version_short": "1.17",
+  "url_slug": "1-17-macos",
+  "platform": "macos",
+  "release_date": "2026-05-07T10:00:00.000Z",
+  "title": "Un nou tur ghidat la primul import",
+  "summary": "Această actualizare adaugă un scurt tur ghidat la primul import al unui fișier .frames, evidențiind acțiunile principale. Codificarea comentariilor JPEG și TIFF este corectată.",
+  "sections": [
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-mac-1.17.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-mac-1.17.0-1@2x.png",
+      "alt": "Tur ghidat de introducere care evidențiază acțiunile principale în Frames",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "paragraph",
+      "content": "Aplicația a fost mereu gândită să fie simplă și intuitivă, dar câțiva utilizatori mi-au scris spunând că s-au simțit puțin pierduți la prima utilizare. Are sens. Asocierea imaginilor cu metadatele este un concept destul de original, iar chiar și o interfață curată poate beneficia de un mic ghidaj în direcția corectă la început. Așa că am adăugat un scurt tur ghidat care evidențiază secțiunile și acțiunile principale atunci când imporți un fișier .frames pentru prima dată. Este ușor și rapid, deci nu te încurcă, dar ar trebui să facă prima sesiune mult mai clară."
+    },
+    {
+      "type": "paragraph",
+      "content": "Turul parcurge patru pași. Mai întâi, cum să asociezi imagini cu datele unui Cadru, fie cu dublu clic pe un singur Cadru, fie trăgând mai multe imagini deodată în aplicație pentru a umple instantaneu Cadre consecutive. Apoi, controalele care comută între vizualizările listă, grilă și galerie. În continuare, controalele din bara laterală care schimbă categoria de informații pentru un Cadru, ca să poți trece între informații generale, locație, note personalizate și informații despre imaginea asociată. La final, butonul de export din colțul din dreapta sus al barei de instrumente."
+    },
+    {
+      "type": "paragraph",
+      "content": "Personal nu sunt un mare fan al onboardingurilor, fiindcă cred că o interfață bine proiectată, care urmează modele cunoscute, nu ar trebui să aibă nevoie de introducere. Acestea fiind spuse, utilizatorii vin din medii foarte diferite și îmi doresc ca toată lumea să se simtă în largul ei în aplicație, indiferent de experiența cu acest tip de instrument. Mulțumesc tuturor celor care mi-au scris despre acest subiect. Feedback-ul vostru este cel care face aplicația mai bună pentru întreaga comunitate."
+    },
+    {
+      "type": "paragraph",
+      "content": "Pe o notă mai mică, am corectat și o problemă de codificare a caracterelor care afecta comentariile utilizatorilor scrise în fișierele JPEG și TIFF. Limbile care se bazează pe diacritice, precum franceza, nu erau codificate corect, ceea ce făcea ca acele caractere să apară greșit în programe precum Apple Preview, Lightroom și altele. Comentariile sunt acum scrise cu codificarea corectă și apar așa cum trebuie. Utilizatorii care reintegrează datele EXIF în fișiere DNG sau JXL nu au fost afectați, întrucât acel flux fusese deja corectat în actualizarea anterioară."
+    }
+  ],
+  "improvements": [
+    "Adăugat un tur ghidat la primul import pentru a evidenția secțiunile și acțiunile principale"
+  ],
+  "fixes": [
+    "Rezolvată o problemă de codificare a diacriticelor în comentariile utilizatorilor JPEG și TIFF"
+  ],
+  "patches": [],
+  "meta_title": "Un nou tur ghidat la primul import - Frames",
+  "meta_description": "Frames 1.17.0 adaugă un tur ghidat la primul import și corectează codificarea diacriticelor în comentariile JPEG și TIFF."
+}

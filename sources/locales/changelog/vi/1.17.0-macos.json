@@ -1,0 +1,44 @@
+{
+  "version": "1.17.0",
+  "version_short": "1.17",
+  "url_slug": "1-17-macos",
+  "platform": "macos",
+  "release_date": "2026-05-07T10:00:00.000Z",
+  "title": "Hướng dẫn nhanh mới khi nhập lần đầu",
+  "summary": "Bản cập nhật này thêm một hướng dẫn nhanh khi bạn nhập tệp .frames lần đầu, làm nổi bật các thao tác chính để bạn bắt tay vào việc ngay. Mã hóa chú thích JPEG và TIFF cũng đã được khắc phục.",
+  "sections": [
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-mac-1.17.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-mac-1.17.0-1@2x.png",
+      "alt": "Hướng dẫn nhanh mới làm nổi bật các thao tác chính trong Frames",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "paragraph",
+      "content": "Ứng dụng luôn được xây dựng để mang lại cảm giác đơn giản và trực quan, nhưng một vài người dùng cho tôi biết họ cảm thấy hơi lạc lõng trong lần dùng đầu tiên. Tôi hiểu điều đó. Việc ghép ảnh với siêu dữ liệu là một ý tưởng khá độc đáo, và ngay cả một giao diện gọn gàng cũng có thể cần một cú huých nhỏ đúng hướng ngay từ đầu. Vì vậy, tôi đã thêm một hướng dẫn nhanh ngắn gọn, làm nổi bật các phần và thao tác chính khi bạn nhập tệp .frames lần đầu tiên. Hướng dẫn nhẹ nhàng và nhanh, không gây cản trở, nhưng sẽ làm cho phiên làm việc đầu tiên rõ ràng hơn nhiều."
+    },
+    {
+      "type": "paragraph",
+      "content": "Hướng dẫn đi qua bốn bước. Đầu tiên, cách ghép ảnh với dữ liệu của một Khung Hình — bằng cách nhấp đúp vào một Khung Hình hoặc kéo nhiều ảnh vào ứng dụng cùng lúc để lập tức lấp đầy các Khung Hình liên tiếp. Thứ hai, các nút điều khiển chuyển đổi giữa chế độ xem dạng danh sách, lưới và thư viện. Thứ ba, các điều khiển trong thanh bên thay đổi danh mục thông tin của Khung Hình, để bạn có thể chuyển giữa thông tin chung, vị trí, ghi chú tùy chỉnh và thông tin của ảnh đã ghép. Cuối cùng, nút xuất ở góc trên bên phải của thanh công cụ."
+    },
+    {
+      "type": "paragraph",
+      "content": "Cá nhân tôi không phải là người ưa các bài hướng dẫn onboarding, vì tôi tin rằng một giao diện được thiết kế tốt và đi theo các mẫu quen thuộc thì không cần lời giới thiệu. Dẫu vậy, người dùng đến từ nhiều nền tảng rất khác nhau, và tôi muốn mọi người đều cảm thấy thoải mái trong ứng dụng, dù có nhiều hay ít kinh nghiệm với loại công cụ này. Cảm ơn tất cả những người đã liên hệ với tôi về việc này. Phản hồi của các bạn là điều giúp ứng dụng tốt hơn cho cả cộng đồng."
+    },
+    {
+      "type": "paragraph",
+      "content": "Một ghi chú nhỏ hơn: tôi cũng đã sửa một lỗi mã hóa ký tự ảnh hưởng đến chú thích người dùng được ghi lại vào tệp JPEG và TIFF. Các ngôn ngữ dựa vào dấu trọng âm, như tiếng Pháp, không được mã hóa đúng, khiến các ký tự đó hiển thị sai trong các phần mềm như Apple Preview, Lightroom và những phần mềm khác. Chú thích giờ đây được ghi với mã hóa đúng và hiển thị như mong đợi. Người dùng tích hợp lại dữ liệu EXIF vào tệp DNG hoặc JXL không bị ảnh hưởng, vì lộ trình đó đã được sửa trong bản cập nhật trước."
+    }
+  ],
+  "improvements": [
+    "Thêm hướng dẫn nhanh khi nhập lần đầu để làm nổi bật các phần và thao tác chính"
+  ],
+  "fixes": [
+    "Khắc phục lỗi mã hóa ký tự dấu trong chú thích người dùng JPEG và TIFF"
+  ],
+  "patches": [],
+  "meta_title": "Hướng dẫn nhanh mới khi nhập lần đầu - Frames",
+  "meta_description": "Frames 1.17.0 bổ sung hướng dẫn nhanh khi nhập lần đầu và khắc phục mã hóa ký tự dấu trong chú thích người dùng JPEG và TIFF."
+}

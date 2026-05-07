@@ -1,0 +1,44 @@
+{
+  "version": "1.17.0",
+  "version_short": "1.17",
+  "url_slug": "1-17-macos",
+  "platform": "macos",
+  "release_date": "2026-05-07T10:00:00.000Z",
+  "title": "Um novo tour guiado na primeira importação",
+  "summary": "Esta atualização traz um tour guiado na primeira vez que você importa um arquivo .frames, destacando as ações principais. A codificação de comentários JPEG e TIFF também foi corrigida.",
+  "sections": [
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-mac-1.17.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-mac-1.17.0-1@2x.png",
+      "alt": "Novo tour guiado destacando as ações principais no Frames",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "paragraph",
+      "content": "O app sempre foi pensado para ser simples e intuitivo, mas alguns usuários me disseram que se sentiram um pouco perdidos na primeira vez. Faz sentido para mim. Combinar imagens com metadados é um conceito bastante original e, mesmo com uma interface limpa, um pequeno empurrão na direção certa logo no começo cai bem. Por isso adicionei um breve tour guiado que destaca as principais seções e ações quando você importa um arquivo .frames pela primeira vez. É leve e rápido, então não atrapalha, mas deve deixar a primeira sessão bem mais clara."
+    },
+    {
+      "type": "paragraph",
+      "content": "O tour passa por quatro etapas. Primeiro, como combinar imagens com os dados de um Fotograma, com duplo clique em um único Fotograma ou arrastando várias imagens para o app de uma vez para preencher Fotogramas consecutivos instantaneamente. Segundo, os controles que alternam entre as visualizações em lista, grade e galeria. Terceiro, os controles da barra lateral que mudam a categoria de informação de um Fotograma, para você navegar entre informações gerais, localização, notas personalizadas e informações da imagem combinada. Quarto, o botão de exportação no canto superior direito da barra de ferramentas."
+    },
+    {
+      "type": "paragraph",
+      "content": "Pessoalmente não sou muito fã de onboardings, porque acredito que uma interface bem desenhada, que segue padrões conhecidos, não deveria precisar de introdução. Dito isso, os usuários vêm de contextos muito diferentes e quero que todos se sintam à vontade no app, independentemente da experiência com esse tipo de ferramenta. Obrigado a todas as pessoas que me escreveram sobre isso. O retorno de vocês é o que torna o app melhor para toda a comunidade."
+    },
+    {
+      "type": "paragraph",
+      "content": "Em uma nota menor, também corrigi um problema de codificação de caracteres que afetava os comentários de usuário reescritos em arquivos JPEG e TIFF. Os idiomas que dependem de acentos, como o francês, não eram codificados corretamente, fazendo esses caracteres aparecerem errados em programas como Apple Preview, Lightroom e outros. Os comentários agora são escritos com a codificação correta e aparecem como esperado. Quem reintegra dados EXIF em arquivos DNG ou JXL não foi afetado, já que esse caminho já havia sido corrigido na atualização anterior."
+    }
+  ],
+  "improvements": [
+    "Adicionado um tour guiado na primeira importação para destacar as principais seções e ações"
+  ],
+  "fixes": [
+    "Resolvido um problema de codificação de acentos nos comentários de usuário JPEG e TIFF"
+  ],
+  "patches": [],
+  "meta_title": "Um novo tour guiado na primeira importação - Frames",
+  "meta_description": "Frames 1.17.0 adiciona um tour guiado na primeira importação e corrige a codificação de acentos nos comentários JPEG e TIFF."
+}

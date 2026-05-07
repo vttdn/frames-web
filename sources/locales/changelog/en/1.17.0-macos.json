@@ -1,0 +1,44 @@
+{
+  "version": "1.17.0",
+  "version_short": "1.17",
+  "url_slug": "1-17-macos",
+  "platform": "macos",
+  "release_date": "2026-05-07T10:00:00.000Z",
+  "title": "A new tour guide on first import",
+  "summary": "This update adds a short tour guide that runs the first time you import a .frames file, pointing out the main actions so you can get to work right away. Comment encoding for JPEG and TIFF is also fixed.",
+  "sections": [
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-mac-1.17.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-mac-1.17.0-1@2x.png",
+      "alt": "New onboarding tour guide highlighting the main actions in Frames",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "paragraph",
+      "content": "The app has always been built to feel simple and intuitive, but a few users mentioned they felt slightly lost on their first run. That makes sense to me. Pairing images with metadata is a fairly original concept, and even a clean interface can use a small nudge in the right direction the first time around. So I added a short tour guide that highlights the main sections and actions when you import a .frames file for the first time. It is light and quick, so it does not get in the way, but it should make the first session feel a lot clearer."
+    },
+    {
+      "type": "paragraph",
+      "content": "The tour walks through four steps. First, how to pair images with frame data, either by double clicking a single frame or by dragging several images into the app at once to fill consecutive frames instantly. Second, the controls that switch between list, grid and gallery views. Third, the sidebar controls that change the info category for a frame, so you can move between global info, location, custom notes and paired image info. Fourth, the export button in the top right corner of the toolbar."
+    },
+    {
+      "type": "paragraph",
+      "content": "I am not personally a big fan of onboardings, since I believe a well designed interface that follows known patterns should not need an introduction. That said, users come from very different backgrounds, and I want everyone to feel comfortable in the app, regardless of how much experience they have with this kind of tool. Thanks to everyone who reached out about this. Your feedback is what makes the app better for the whole community."
+    },
+    {
+      "type": "paragraph",
+      "content": "On a smaller note, I also fixed a character encoding issue affecting custom user comments written back into JPEG and TIFF files. Languages that rely on accents, like French, were not encoded correctly, which caused those characters to display incorrectly in software like Apple Preview, Lightroom and others. Comments are now written with the correct encoding and show up as expected. Users who reintegrate EXIF data into DNG or JXL files were not affected, since that path was already fixed in the previous update."
+    }
+  ],
+  "improvements": [
+    "Added a tour guide on first import to highlight the main sections and actions"
+  ],
+  "fixes": [
+    "Resolved a character encoding issue for accents in JPEG and TIFF user comments"
+  ],
+  "patches": [],
+  "meta_title": "A New Tour Guide on First Import - Frames",
+  "meta_description": "Frames 1.17.0 adds a short tour guide on first import and fixes character encoding for accents in JPEG and TIFF user comments."
+}

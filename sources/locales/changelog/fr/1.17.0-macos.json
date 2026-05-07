@@ -1,0 +1,44 @@
+{
+  "version": "1.17.0",
+  "version_short": "1.17",
+  "url_slug": "1-17-macos",
+  "platform": "macos",
+  "release_date": "2026-05-07T10:00:00.000Z",
+  "title": "Une nouvelle visite guidée au premier import",
+  "summary": "Cette mise à jour ajoute une visite guidée au premier import d'un fichier .frames, présentant les actions principales pour démarrer. Encodage des commentaires JPEG et TIFF corrigé.",
+  "sections": [
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-mac-1.17.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-mac-1.17.0-1@2x.png",
+      "alt": "Nouvelle visite guidée mettant en avant les actions principales dans Frames",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "paragraph",
+      "content": "L'app a toujours été pensée pour être simple et intuitive, mais quelques utilisateurs m'ont écrit pour me dire qu'ils s'étaient sentis un peu perdus à la première utilisation. C'est compréhensible. Associer des images à des métadonnées est un concept assez original, et même une interface épurée peut bénéficier d'un petit coup de pouce dans la bonne direction au tout début. J'ai donc ajouté une courte visite guidée qui met en avant les principales sections et actions lors du premier import d'un fichier .frames. Elle est légère et rapide, pour ne pas vous gêner, mais elle devrait rendre la première session bien plus claire."
+    },
+    {
+      "type": "paragraph",
+      "content": "La visite parcourt quatre étapes. D'abord, comment associer des images aux données d'un Frame, soit en double-cliquant sur un Frame, soit en glissant plusieurs images à la fois dans l'app pour remplir instantanément des Frames consécutifs. Ensuite, les contrôles qui permettent de basculer entre les vues liste, grille et galerie. Puis les commandes de la barre latérale qui modifient la catégorie d'information d'un Frame, pour vous permettre de passer entre infos globales, localisation, notes personnalisées et infos de l'image associée. Enfin, le bouton d'export en haut à droite de la barre d'outils."
+    },
+    {
+      "type": "paragraph",
+      "content": "Personnellement, je ne suis pas un grand adepte des onboardings, car je pense qu'une interface bien conçue qui suit des modèles connus ne devrait pas avoir besoin d'introduction. Cela dit, les utilisateurs viennent de parcours très différents et je veux que chacun se sente à l'aise dans l'app, quelle que soit son expérience avec ce type d'outil. Merci à toutes les personnes qui m'ont écrit à ce sujet. Vos retours sont ce qui rend l'app meilleure pour toute la communauté."
+    },
+    {
+      "type": "paragraph",
+      "content": "Dans une note plus mineure, j'ai aussi corrigé un problème d'encodage de caractères qui affectait les commentaires utilisateur réécrits dans les fichiers JPEG et TIFF. Les langues qui reposent sur les accents, comme le français, n'étaient pas correctement encodées, ce qui faisait apparaître ces caractères de façon erronée dans des logiciels comme Apple Preview, Lightroom et d'autres. Les commentaires sont désormais écrits avec le bon encodage et s'affichent comme prévu. Les utilisateurs qui réintègrent les données EXIF dans des fichiers DNG ou JXL n'étaient pas concernés, ce chemin ayant déjà été corrigé dans la mise à jour précédente."
+    }
+  ],
+  "improvements": [
+    "Ajout d'une visite guidée au premier import pour mettre en avant les principales sections et actions"
+  ],
+  "fixes": [
+    "Résolution d'un problème d'encodage des accents dans les commentaires utilisateur JPEG et TIFF"
+  ],
+  "patches": [],
+  "meta_title": "Une nouvelle visite guidée au premier import - Frames",
+  "meta_description": "Frames 1.17.0 ajoute une visite guidée au premier import et corrige l'encodage des accents dans les commentaires JPEG et TIFF."
+}

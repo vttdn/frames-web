@@ -1,0 +1,44 @@
+{
+  "version": "1.17.0",
+  "version_short": "1.17",
+  "url_slug": "1-17-macos",
+  "platform": "macos",
+  "release_date": "2026-05-07T10:00:00.000Z",
+  "title": "Uusi opastettu kierros ensimmäisessä tuonnissa",
+  "summary": "Tämä päivitys lisää lyhyen opastetun kierroksen ensimmäisellä .frames-tiedoston tuontikerralla ja korostaa tärkeimmät toiminnot. Myös JPEG- ja TIFF-kommenttien koodaus on korjattu.",
+  "sections": [
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-mac-1.17.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-mac-1.17.0-1@2x.png",
+      "alt": "Uusi opastettu kierros, joka korostaa tärkeimmät toiminnot Framesissa",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "paragraph",
+      "content": "Sovellus on aina suunniteltu tuntumaan yksinkertaiselta ja intuitiiviselta, mutta jotkut käyttäjät kertoivat tunteneensa olonsa hieman eksyneeksi ensimmäisellä käyttökerralla. Ymmärrän sen. Kuvien yhdistäminen metatietoihin on melko omaperäinen konsepti, ja jopa selkeä käyttöliittymä voi hyötyä pienestä tönäisystä oikeaan suuntaan heti aluksi. Siksi lisäsin lyhyen opastetun kierroksen, joka tuo esiin tärkeimmät osiot ja toiminnot, kun tuot .frames-tiedoston ensimmäistä kertaa. Se on kevyt ja nopea, joten se ei ole tiellä, mutta sen pitäisi tehdä ensimmäisestä istunnosta paljon selkeämpi."
+    },
+    {
+      "type": "paragraph",
+      "content": "Kierros käy läpi neljä vaihetta. Ensiksi, kuinka yhdistät kuvat Kehyksen tietoihin — joko kaksoisnapauttamalla yksittäistä Kehystä tai vetämällä useita kuvia kerralla sovellukseen täyttääksesi peräkkäiset Kehykset välittömästi. Toiseksi säätimet, joilla vaihdat lista-, ruudukko- ja galleria-näkymän välillä. Kolmanneksi sivupalkin säätimet, jotka vaihtavat Kehyksen tietoluokkaa, jotta voit siirtyä yleisten tietojen, sijainnin, omien muistiinpanojen ja yhdistetyn kuvan tietojen välillä. Neljänneksi vientipainike työkalupalkin oikeassa yläkulmassa."
+    },
+    {
+      "type": "paragraph",
+      "content": "Henkilökohtaisesti en ole suuri onboardingien fani, sillä uskon että hyvin suunnitellun, tuttuja malleja noudattavan käyttöliittymän ei pitäisi tarvita johdantoa. Sanottakoon kuitenkin, että käyttäjät tulevat hyvin erilaisista taustoista, ja haluan että jokainen tuntee olonsa mukavaksi sovelluksessa, riippumatta siitä, kuinka paljon kokemusta heillä on tämän tyyppisistä työkaluista. Kiitos kaikille, jotka ottivat tästä yhteyttä. Palautteenne tekee sovelluksesta paremman koko yhteisölle."
+    },
+    {
+      "type": "paragraph",
+      "content": "Pienempi huomautus: korjasin myös merkistökoodausongelman, joka koski JPEG- ja TIFF-tiedostoihin takaisin kirjoitettavia käyttäjäkommentteja. Aksentteja käyttäviä kieliä, kuten ranskaa, ei koodattu oikein, mikä sai nuo merkit näkymään väärin ohjelmissa kuten Apple Preview, Lightroom ja muissa. Kommentit kirjoitetaan nyt oikealla koodauksella ja näkyvät odotetusti. Käyttäjiä, jotka palauttavat EXIF-tietoja DNG- tai JXL-tiedostoihin, tämä ei koskenut, sillä se reitti korjattiin jo edellisessä päivityksessä."
+    }
+  ],
+  "improvements": [
+    "Lisätty opastettu kierros ensimmäiseen tuontiin, joka korostaa tärkeimmät osiot ja toiminnot"
+  ],
+  "fixes": [
+    "Korjattu aksenttien merkistökoodausongelma JPEG- ja TIFF-käyttäjäkommenteissa"
+  ],
+  "patches": [],
+  "meta_title": "Uusi opastettu kierros ensimmäisessä tuonnissa - Frames",
+  "meta_description": "Frames 1.17.0 lisää opastetun kierroksen ensimmäiselle tuontikerralle ja korjaa aksenttien merkistökoodauksen JPEG- ja TIFF-kommenteissa."
+}

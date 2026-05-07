@@ -1,0 +1,44 @@
+{
+  "version": "1.17.0",
+  "version_short": "1.17",
+  "url_slug": "1-17-macos",
+  "platform": "macos",
+  "release_date": "2026-05-07T10:00:00.000Z",
+  "title": "Nowy przewodnik przy pierwszym imporcie",
+  "summary": "Ta aktualizacja dodaje krótki przewodnik przy pierwszym imporcie pliku .frames, który podświetla najważniejsze działania. Naprawiono również kodowanie komentarzy JPEG i TIFF.",
+  "sections": [
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-mac-1.17.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-mac-1.17.0-1@2x.png",
+      "alt": "Nowy przewodnik wprowadzający przedstawiający najważniejsze działania w Frames",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "paragraph",
+      "content": "Aplikacja od początku była projektowana z myślą o prostocie i intuicyjności, ale kilku użytkowników napisało mi, że przy pierwszym uruchomieniu czuli się trochę zagubieni. Rozumiem to. Łączenie zdjęć z metadanymi to dość oryginalna koncepcja, a nawet schludny interfejs może na początku skorzystać z drobnej wskazówki we właściwym kierunku. Dlatego dodałem krótki przewodnik, który podświetla najważniejsze sekcje i działania przy pierwszym imporcie pliku .frames. Jest lekki i szybki, więc nie przeszkadza, ale powinien sprawić, że pierwsza sesja będzie dużo bardziej zrozumiała."
+    },
+    {
+      "type": "paragraph",
+      "content": "Przewodnik prowadzi przez cztery kroki. Najpierw, jak łączyć zdjęcia z danymi Klatki — albo poprzez podwójne kliknięcie pojedynczej Klatki, albo przeciągając kilka zdjęć do aplikacji naraz, aby od razu wypełnić kolejne Klatki. Następnie elementy sterujące przełączające pomiędzy widokami listy, siatki i galerii. Później elementy sterujące w panelu bocznym, które zmieniają kategorię informacji o Klatce, dzięki czemu możesz przechodzić między informacjami ogólnymi, lokalizacją, własnymi notatkami i informacjami o połączonym zdjęciu. Na koniec przycisk eksportu w prawym górnym rogu paska narzędzi."
+    },
+    {
+      "type": "paragraph",
+      "content": "Osobiście nie jestem wielkim fanem onboardingów, bo uważam, że dobrze zaprojektowany interfejs, który podąża za znanymi wzorcami, nie powinien wymagać wprowadzenia. To powiedziawszy, użytkownicy mają bardzo różne tła i chcę, żeby każdy czuł się w aplikacji swobodnie, niezależnie od doświadczenia z tego typu narzędziami. Dziękuję wszystkim, którzy się ze mną w tej sprawie skontaktowali. Wasze opinie sprawiają, że aplikacja staje się lepsza dla całej społeczności."
+    },
+    {
+      "type": "paragraph",
+      "content": "Mniejsza uwaga: naprawiłem również problem z kodowaniem znaków, który dotyczył komentarzy użytkownika zapisywanych w plikach JPEG i TIFF. Języki używające znaków akcentowanych, jak francuski, nie były kodowane poprawnie, przez co znaki te wyświetlały się błędnie w programach takich jak Apple Preview, Lightroom i innych. Komentarze są teraz zapisywane z prawidłowym kodowaniem i pojawiają się tak, jak powinny. Użytkownicy, którzy reintegrują dane EXIF do plików DNG lub JXL, nie byli dotknięci tym problemem, ponieważ ta ścieżka została naprawiona w poprzedniej aktualizacji."
+    }
+  ],
+  "improvements": [
+    "Dodano przewodnik przy pierwszym imporcie podświetlający najważniejsze sekcje i działania"
+  ],
+  "fixes": [
+    "Rozwiązano problem z kodowaniem znaków akcentowanych w komentarzach użytkownika JPEG i TIFF"
+  ],
+  "patches": [],
+  "meta_title": "Nowy przewodnik przy pierwszym imporcie - Frames",
+  "meta_description": "Frames 1.17.0 dodaje przewodnik przy pierwszym imporcie i naprawia kodowanie znaków akcentowanych w komentarzach JPEG i TIFF."
+}

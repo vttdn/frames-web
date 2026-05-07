@@ -1,0 +1,44 @@
+{
+  "version": "1.17.0",
+  "version_short": "1.17",
+  "url_slug": "1-17-macos",
+  "platform": "macos",
+  "release_date": "2026-05-07T10:00:00.000Z",
+  "title": "Un recorrido guiado en tu primera importación",
+  "summary": "Esta actualización añade un recorrido guiado al importar un archivo .frames por primera vez, mostrando las acciones principales. También corrige la codificación en comentarios JPEG y TIFF.",
+  "sections": [
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-mac-1.17.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-mac-1.17.0-1@2x.png",
+      "alt": "Nuevo recorrido guiado que destaca las acciones principales en Frames",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "paragraph",
+      "content": "La app siempre se ha diseñado para resultar sencilla e intuitiva, pero algunos usuarios me comentaron que se sintieron un poco perdidos al usarla por primera vez. Lo entiendo. Emparejar imágenes con metadatos es un concepto bastante original y, incluso con una interfaz cuidada, no está de más un pequeño empujón en la dirección correcta al principio. Por eso añadí un breve recorrido guiado que destaca las secciones y acciones principales cuando importas un archivo .frames por primera vez. Es ligero y rápido, no estorba, pero debería hacer que la primera sesión sea mucho más clara."
+    },
+    {
+      "type": "paragraph",
+      "content": "El recorrido consta de cuatro pasos. Primero, cómo emparejar imágenes con los datos de un Fotograma, ya sea haciendo doble clic en un Fotograma o arrastrando varias imágenes a la app a la vez para rellenar al instante Fotogramas consecutivos. Segundo, los controles que cambian entre las vistas de lista, cuadrícula y galería. Tercero, los controles de la barra lateral que modifican la categoría de información de un Fotograma, para que puedas moverte entre información general, ubicación, notas personalizadas e información de la imagen emparejada. Cuarto, el botón de exportación en la esquina superior derecha de la barra de herramientas."
+    },
+    {
+      "type": "paragraph",
+      "content": "Personalmente no soy muy partidario de los onboardings, porque creo que una interfaz bien diseñada que sigue patrones conocidos no debería necesitar introducción. Dicho esto, los usuarios vienen de contextos muy distintos y quiero que todo el mundo se sienta cómodo en la app, sin importar su experiencia con este tipo de herramientas. Gracias a todas las personas que me escribieron sobre esto. Sus comentarios son lo que hace que la app mejore para toda la comunidad."
+    },
+    {
+      "type": "paragraph",
+      "content": "Como nota menor, también corregí un problema de codificación de caracteres que afectaba a los comentarios de usuario reescritos en archivos JPEG y TIFF. Los idiomas que dependen de los acentos, como el francés, no se codificaban correctamente y esos caracteres aparecían mal en programas como Apple Preview, Lightroom y otros. Los comentarios ahora se escriben con la codificación correcta y se muestran como se espera. Quienes reintegran datos EXIF en archivos DNG o JXL no se vieron afectados, ya que esa ruta se había corregido en la actualización anterior."
+    }
+  ],
+  "improvements": [
+    "Añadido un recorrido guiado en la primera importación para destacar las secciones y acciones principales"
+  ],
+  "fixes": [
+    "Resuelto un problema de codificación de acentos en los comentarios de usuario JPEG y TIFF"
+  ],
+  "patches": [],
+  "meta_title": "Un recorrido guiado en tu primera importación - Frames",
+  "meta_description": "Frames 1.17.0 añade un recorrido guiado en la primera importación y corrige la codificación de acentos en los comentarios JPEG y TIFF."
+}

@@ -1,0 +1,23 @@
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "होम",
+      "item": "https://withframes.com/hi/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "परिवर्तन सूची",
+      "item": "https://withframes.com/hi/changelog/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "पहले इम्पोर्ट पर नया टूर गाइड",
+      "item": "https://withframes.com/hi/changelog/1-17-macos/"
+    }  ]
+}

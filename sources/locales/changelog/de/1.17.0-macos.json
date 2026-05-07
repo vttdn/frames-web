@@ -1,0 +1,44 @@
+{
+  "version": "1.17.0",
+  "version_short": "1.17",
+  "url_slug": "1-17-macos",
+  "platform": "macos",
+  "release_date": "2026-05-07T10:00:00.000Z",
+  "title": "Eine neue Einführungstour beim ersten Import",
+  "summary": "Dieses Update ergänzt eine kurze Einführungstour beim ersten Import einer .frames-Datei, die die wichtigsten Aktionen zeigt. Die Kommentar-Kodierung für JPEG und TIFF ist ebenfalls behoben.",
+  "sections": [
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-mac-1.17.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-mac-1.17.0-1@2x.png",
+      "alt": "Neue Einführungstour, die die wichtigsten Aktionen in Frames hervorhebt",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "paragraph",
+      "content": "Die App war von Anfang an darauf ausgelegt, einfach und intuitiv zu wirken, aber einige Nutzer haben mir geschrieben, dass sie sich beim ersten Start ein wenig verloren fühlten. Das ergibt für mich Sinn. Bilder mit Metadaten zu verknüpfen ist ein recht originelles Konzept, und selbst eine aufgeräumte Oberfläche kann am Anfang einen kleinen Schubs in die richtige Richtung gut gebrauchen. Deshalb habe ich eine kurze Einführungstour ergänzt, die beim ersten Import einer .frames-Datei die wichtigsten Bereiche und Aktionen hervorhebt. Sie ist leicht und schnell, also nicht im Weg, sollte aber die erste Sitzung deutlich klarer machen."
+    },
+    {
+      "type": "paragraph",
+      "content": "Die Tour führt durch vier Schritte. Erstens, wie du Bilder mit den Daten eines Einzelbilds verknüpfst — entweder mit einem Doppelklick auf ein einzelnes Einzelbild oder indem du mehrere Bilder auf einmal in die App ziehst, um aufeinanderfolgende Einzelbilder sofort zu füllen. Zweitens die Bedienelemente, mit denen du zwischen Listen-, Raster- und Galerieansicht wechselst. Drittens die Bedienelemente in der Seitenleiste, die die Info-Kategorie eines Einzelbilds ändern, sodass du zwischen globalen Infos, Standort, eigenen Notizen und Infos zum verknüpften Bild wechseln kannst. Viertens die Export-Schaltfläche oben rechts in der Symbolleiste."
+    },
+    {
+      "type": "paragraph",
+      "content": "Persönlich bin ich kein großer Fan von Onboardings, denn ich glaube, dass eine gut gestaltete Oberfläche, die bekannten Mustern folgt, keine Einführung braucht. Trotzdem kommen Nutzer aus sehr unterschiedlichen Hintergründen, und ich möchte, dass sich jeder in der App wohlfühlt, unabhängig von seiner Erfahrung mit dieser Art Werkzeug. Vielen Dank an alle, die mich darauf angesprochen haben. Euer Feedback macht die App für die ganze Community besser."
+    },
+    {
+      "type": "paragraph",
+      "content": "Eine kleinere Anmerkung: Ich habe außerdem ein Zeichenkodierungsproblem behoben, das benutzerdefinierte Kommentare betraf, die in JPEG- und TIFF-Dateien zurückgeschrieben werden. Sprachen, die auf Akzenten basieren, etwa Französisch, wurden nicht korrekt kodiert, sodass diese Zeichen in Programmen wie Apple Preview, Lightroom und anderen falsch angezeigt wurden. Kommentare werden jetzt mit der richtigen Kodierung geschrieben und erscheinen wie erwartet. Nutzer, die EXIF-Daten in DNG- oder JXL-Dateien zurückführen, waren nicht betroffen, da dieser Pfad bereits im vorherigen Update behoben wurde."
+    }
+  ],
+  "improvements": [
+    "Einführungstour beim ersten Import hinzugefügt, die die wichtigsten Bereiche und Aktionen hervorhebt"
+  ],
+  "fixes": [
+    "Zeichenkodierungsproblem für Akzente in JPEG- und TIFF-Benutzerkommentaren behoben"
+  ],
+  "patches": [],
+  "meta_title": "Eine neue Einführungstour beim ersten Import - Frames",
+  "meta_description": "Frames 1.17.0 ergänzt eine Einführungstour beim ersten Import und behebt die Zeichenkodierung für Akzente in JPEG- und TIFF-Benutzerkommentaren."
+}

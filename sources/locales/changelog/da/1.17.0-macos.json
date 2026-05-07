@@ -1,0 +1,44 @@
+{
+  "version": "1.17.0",
+  "version_short": "1.17",
+  "url_slug": "1-17-macos",
+  "platform": "macos",
+  "release_date": "2026-05-07T10:00:00.000Z",
+  "title": "En ny rundvisning ved første import",
+  "summary": "Denne opdatering tilføjer en kort rundvisning ved første import af en .frames-fil og fremhæver de vigtigste handlinger, så du kan komme i gang. Kommentar-kodning for JPEG og TIFF er også rettet.",
+  "sections": [
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-mac-1.17.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-mac-1.17.0-1@2x.png",
+      "alt": "Ny rundvisning, der fremhæver de vigtigste handlinger i Frames",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "paragraph",
+      "content": "Appen er altid blevet bygget til at føles enkel og intuitiv, men nogle brugere fortalte mig, at de følte sig lidt fortabte første gang. Det giver mening for mig. At parre billeder med metadata er et ret originalt koncept, og selv et rent interface kan have gavn af et lille puf i den rigtige retning fra start. Derfor har jeg tilføjet en kort rundvisning, der fremhæver de vigtigste sektioner og handlinger, når du importerer en .frames-fil for første gang. Den er let og hurtig og kommer ikke i vejen, men bør gøre den første session meget klarere."
+    },
+    {
+      "type": "paragraph",
+      "content": "Rundvisningen går gennem fire trin. Først, hvordan du parrer billeder med data for en Ramme — enten ved at dobbeltklikke på en enkelt Ramme eller ved at trække flere billeder ind i appen på én gang for at udfylde fortløbende Rammer med det samme. Dernæst kontrollerne, der skifter mellem liste-, gitter- og galleri-visning. Derefter sidepanelets kontroller, der ændrer infokategorien for en Ramme, så du kan flytte mellem globale oplysninger, placering, egne noter og info om det parrede billede. Til sidst eksport-knappen øverst til højre på værktøjslinjen."
+    },
+    {
+      "type": "paragraph",
+      "content": "Personligt er jeg ikke den største fan af onboardings, for jeg tror, at et velgennemtænkt interface, der følger kendte mønstre, ikke bør have brug for en introduktion. Når det er sagt, kommer brugere fra meget forskellige baggrunde, og jeg vil have, at alle føler sig godt tilpas i appen, uanset hvor meget erfaring de har med denne slags værktøj. Tak til alle, der har henvendt sig om dette. Jeres tilbagemeldinger er det, der gør appen bedre for hele fællesskabet."
+    },
+    {
+      "type": "paragraph",
+      "content": "En mindre note: jeg har også rettet et tegnkodningsproblem, der ramte brugerkommentarer skrevet tilbage i JPEG- og TIFF-filer. Sprog, der bruger accenter, som fransk, blev ikke kodet korrekt, hvilket fik de tegn til at vises forkert i programmer som Apple Preview, Lightroom og andre. Kommentarer skrives nu med den rigtige kodning og vises som forventet. Brugere, der reintegrerer EXIF-data i DNG- eller JXL-filer, var ikke berørt, da den vej allerede blev rettet i den forrige opdatering."
+    }
+  ],
+  "improvements": [
+    "Tilføjet en rundvisning ved første import for at fremhæve de vigtigste sektioner og handlinger"
+  ],
+  "fixes": [
+    "Løst et tegnkodningsproblem for accenter i JPEG- og TIFF-brugerkommentarer"
+  ],
+  "patches": [],
+  "meta_title": "En ny rundvisning ved første import - Frames",
+  "meta_description": "Frames 1.17.0 tilføjer en rundvisning ved første import og retter tegnkodningen af accenter i JPEG- og TIFF-brugerkommentarer."
+}

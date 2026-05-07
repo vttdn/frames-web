@@ -1,0 +1,44 @@
+{
+  "version": "1.17.0",
+  "version_short": "1.17",
+  "url_slug": "1-17-macos",
+  "platform": "macos",
+  "release_date": "2026-05-07T10:00:00.000Z",
+  "title": "En ny guidad rundtur vid första importen",
+  "summary": "Den här uppdateringen lägger till en kort rundtur vid första importen av en .frames-fil och visar de viktigaste åtgärderna. Kodningen av JPEG- och TIFF-kommentarer är också åtgärdad.",
+  "sections": [
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-mac-1.17.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-mac-1.17.0-1@2x.png",
+      "alt": "Ny guidad rundtur som lyfter fram de viktigaste åtgärderna i Frames",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "paragraph",
+      "content": "Appen har alltid byggts för att kännas enkel och intuitiv, men ett par användare hörde av sig och berättade att de kände sig lite vilsna första gången. Det är begripligt. Att para ihop bilder med metadata är ett ganska originellt koncept, och även ett rent gränssnitt kan behöva en liten knuff i rätt riktning från början. Därför har jag lagt till en kort rundtur som lyfter fram de viktigaste sektionerna och åtgärderna när du importerar en .frames-fil för första gången. Den är lätt och snabb och står inte i vägen, men ska göra den första sessionen betydligt tydligare."
+    },
+    {
+      "type": "paragraph",
+      "content": "Rundturen går igenom fyra steg. Först, hur du parar ihop bilder med data för en Ruta — antingen genom att dubbelklicka på en enskild Ruta eller genom att dra flera bilder till appen samtidigt för att fylla på flera på varandra följande Rutor direkt. Sedan kontrollerna som växlar mellan list-, rutnäts- och galleri-vy. Därefter sidofältets kontroller som ändrar informationskategorin för en Ruta, så att du kan växla mellan global info, plats, egna anteckningar och info om den hopparade bilden. Slutligen exportknappen längst upp till höger i verktygsfältet."
+    },
+    {
+      "type": "paragraph",
+      "content": "Personligen är jag ingen större fan av onboardings, eftersom jag tror att ett välgjort gränssnitt som följer kända mönster inte borde behöva en introduktion. Med det sagt kommer användare från väldigt olika bakgrunder, och jag vill att alla ska känna sig bekväma i appen oavsett hur mycket erfarenhet de har av den här typen av verktyg. Tack till alla som hört av sig om detta. Er feedback är det som gör appen bättre för hela communityn."
+    },
+    {
+      "type": "paragraph",
+      "content": "På en mindre notis har jag också åtgärdat ett teckenkodningsproblem som påverkade egna användarkommentarer som skrivs tillbaka i JPEG- och TIFF-filer. Språk som använder accenter, som franska, kodades inte korrekt, vilket gjorde att tecknen visades fel i program som Apple Preview, Lightroom och andra. Kommentarer skrivs nu med rätt kodning och visas som förväntat. Användare som reintegrerar EXIF-data i DNG- eller JXL-filer påverkades inte, eftersom den vägen redan åtgärdades i föregående uppdatering."
+    }
+  ],
+  "improvements": [
+    "Lagt till en guidad rundtur vid första importen för att lyfta fram de viktigaste sektionerna och åtgärderna"
+  ],
+  "fixes": [
+    "Åtgärdat ett teckenkodningsproblem för accenter i JPEG- och TIFF-användarkommentarer"
+  ],
+  "patches": [],
+  "meta_title": "En ny guidad rundtur vid första importen - Frames",
+  "meta_description": "Frames 1.17.0 lägger till en rundtur vid första importen och åtgärdar teckenkodningen av accenter i JPEG- och TIFF-användarkommentarer."
+}

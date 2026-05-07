@@ -1,0 +1,44 @@
+{
+  "version": "1.17.0",
+  "version_short": "1.17",
+  "url_slug": "1-17-macos",
+  "platform": "macos",
+  "release_date": "2026-05-07T10:00:00.000Z",
+  "title": "İlk içe aktarmada yeni bir tanıtım turu",
+  "summary": "Bu güncelleme, .frames dosyasını ilk kez içe aktardığınızda kısa bir tanıtım turu ekliyor; ana eylemleri vurgulayarak hemen işe koyulmanızı sağlıyor. JPEG ve TIFF yorum kodlaması da düzeltildi.",
+  "sections": [
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-mac-1.17.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-mac-1.17.0-1@2x.png",
+      "alt": "Frames'teki ana eylemleri vurgulayan yeni tanıtım turu",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "paragraph",
+      "content": "Uygulama her zaman basit ve sezgisel hissettirmek için tasarlandı, ancak birkaç kullanıcı ilk kullanımlarında biraz kaybolmuş hissettiklerini bildirdi. Bu bana mantıklı geliyor. Görüntüleri meta verilerle eşleştirmek oldukça özgün bir kavram ve düzenli bir arayüz bile başlangıçta doğru yönde küçük bir yönlendirmeden faydalanabilir. Bu yüzden, .frames dosyasını ilk kez içe aktardığınızda ana bölümleri ve eylemleri vurgulayan kısa bir tanıtım turu ekledim. Hafif ve hızlı; yolunuza çıkmıyor ama ilk oturumu çok daha anlaşılır kılması gerekir."
+    },
+    {
+      "type": "paragraph",
+      "content": "Tur dört adımdan oluşuyor. İlk olarak, görüntüleri bir Karenin verisiyle nasıl eşleştireceğiniz — tek bir Kareye çift tıklayarak ya da birden fazla görüntüyü uygulamaya aynı anda sürükleyerek ardışık Kareleri anında doldurarak. İkincisi, liste, ızgara ve galeri görünümleri arasında geçiş yapan kontroller. Üçüncüsü, bir Karenin bilgi kategorisini değiştiren kenar çubuğu kontrolleri; böylece genel bilgi, konum, özel notlar ve eşleştirilmiş görüntü bilgileri arasında geçiş yapabilirsiniz. Dördüncüsü, araç çubuğunun sağ üst köşesindeki dışa aktarma düğmesi."
+    },
+    {
+      "type": "paragraph",
+      "content": "Kişisel olarak onboardingların büyük bir hayranı değilim, çünkü bilinen kalıpları takip eden iyi tasarlanmış bir arayüzün tanıtıma ihtiyaç duymaması gerektiğine inanıyorum. Bununla birlikte, kullanıcılar çok farklı geçmişlerden geliyor ve bu tür araçlarla deneyimleri ne olursa olsun herkesin uygulamada kendini rahat hissetmesini istiyorum. Bu konuda iletişime geçen herkese teşekkür ederim. Geri bildirimleriniz, uygulamayı tüm topluluk için daha iyi hâle getiren şey."
+    },
+    {
+      "type": "paragraph",
+      "content": "Daha küçük bir not olarak, JPEG ve TIFF dosyalarına geri yazılan özel kullanıcı yorumlarını etkileyen bir karakter kodlama sorununu da düzelttim. Aksanlara dayanan diller, örneğin Fransızca, doğru kodlanmıyordu ve bu karakterler Apple Preview, Lightroom ve diğer programlarda yanlış görünüyordu. Yorumlar artık doğru kodlamayla yazılıyor ve beklendiği gibi görünüyor. EXIF verilerini DNG veya JXL dosyalarına yeniden entegre eden kullanıcılar etkilenmemişti; çünkü o yol önceki güncellemede çoktan düzeltilmişti."
+    }
+  ],
+  "improvements": [
+    "İlk içe aktarmada ana bölümleri ve eylemleri vurgulayan bir tanıtım turu eklendi"
+  ],
+  "fixes": [
+    "JPEG ve TIFF kullanıcı yorumlarındaki aksanlı karakterlerin kodlama sorunu giderildi"
+  ],
+  "patches": [],
+  "meta_title": "İlk içe aktarmada yeni bir tanıtım turu - Frames",
+  "meta_description": "Frames 1.17.0, ilk içe aktarmada bir tanıtım turu ekler ve JPEG ile TIFF kullanıcı yorumlarındaki aksanlı karakterlerin kodlamasını düzeltir."
+}

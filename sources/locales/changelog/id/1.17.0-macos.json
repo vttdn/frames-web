@@ -1,0 +1,44 @@
+{
+  "version": "1.17.0",
+  "version_short": "1.17",
+  "url_slug": "1-17-macos",
+  "platform": "macos",
+  "release_date": "2026-05-07T10:00:00.000Z",
+  "title": "Tur panduan baru di impor pertama",
+  "summary": "Pembaruan ini menambahkan tur panduan singkat saat kamu mengimpor file .frames untuk pertama kali, menyoroti aksi utama agar bisa langsung bekerja. Encoding komentar JPEG dan TIFF juga diperbaiki.",
+  "sections": [
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-mac-1.17.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-mac-1.17.0-1@2x.png",
+      "alt": "Tur panduan baru yang menyoroti aksi utama di Frames",
+      "width": "400",
+      "height": "300"
+    },
+    {
+      "type": "paragraph",
+      "content": "Aplikasi ini selalu dirancang agar terasa sederhana dan intuitif, tetapi beberapa pengguna memberi tahuku bahwa mereka merasa sedikit tersesat saat pertama kali memakainya. Itu masuk akal bagiku. Memasangkan gambar dengan metadata adalah konsep yang cukup unik, dan bahkan antarmuka yang rapi pun bisa terbantu dengan dorongan kecil ke arah yang tepat di awal. Jadi aku menambahkan tur panduan singkat yang menyoroti bagian dan aksi utama saat kamu mengimpor file .frames untuk pertama kali. Ringan dan cepat, tidak mengganggu, tetapi akan membuat sesi pertama terasa jauh lebih jelas."
+    },
+    {
+      "type": "paragraph",
+      "content": "Tur ini terdiri dari empat langkah. Pertama, cara memasangkan gambar dengan data sebuah Frame — dengan klik dua kali pada satu Frame atau menyeret beberapa gambar ke aplikasi sekaligus untuk mengisi Frame berurutan secara instan. Kedua, kontrol yang beralih antara tampilan daftar, kisi, dan galeri. Ketiga, kontrol di bilah samping yang mengubah kategori info untuk sebuah Frame, sehingga kamu bisa berpindah antara info umum, lokasi, catatan kustom, dan info gambar yang dipasangkan. Keempat, tombol ekspor di sudut kanan atas bilah alat."
+    },
+    {
+      "type": "paragraph",
+      "content": "Secara pribadi aku bukan penggemar onboarding, karena aku yakin antarmuka yang dirancang dengan baik dan mengikuti pola yang sudah dikenal seharusnya tidak memerlukan pengantar. Meski begitu, pengguna datang dari latar belakang yang sangat beragam, dan aku ingin setiap orang merasa nyaman di aplikasi ini, terlepas dari seberapa banyak pengalaman mereka dengan jenis alat seperti ini. Terima kasih kepada semua yang menghubungi soal ini. Masukan kalian adalah yang membuat aplikasi ini lebih baik untuk seluruh komunitas."
+    },
+    {
+      "type": "paragraph",
+      "content": "Sedikit catatan: aku juga memperbaiki masalah encoding karakter yang memengaruhi komentar pengguna yang ditulis kembali ke file JPEG dan TIFF. Bahasa yang menggunakan aksen, seperti bahasa Prancis, tidak dikodekan dengan benar, sehingga karakter-karakter tersebut tampil salah di program seperti Apple Preview, Lightroom, dan lainnya. Komentar sekarang ditulis dengan encoding yang benar dan muncul sesuai harapan. Pengguna yang mengintegrasikan kembali data EXIF ke file DNG atau JXL tidak terdampak, karena jalur itu sudah diperbaiki di pembaruan sebelumnya."
+    }
+  ],
+  "improvements": [
+    "Menambahkan tur panduan di impor pertama untuk menyoroti bagian dan aksi utama"
+  ],
+  "fixes": [
+    "Memperbaiki masalah encoding aksen pada komentar pengguna JPEG dan TIFF"
+  ],
+  "patches": [],
+  "meta_title": "Tur panduan baru di impor pertama - Frames",
+  "meta_description": "Frames 1.17.0 menambahkan tur panduan di impor pertama dan memperbaiki encoding aksen pada komentar pengguna JPEG dan TIFF."
+}
