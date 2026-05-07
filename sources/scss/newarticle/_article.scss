@@ -35,14 +35,14 @@
 
 .article-media,
 .summary,
-figcaption,
+.figure-wrapper,
 .toc {
     margin-bottom: 3.25rem;
 }
 @media (max-width: 1068px) {
     .article-media,
     .summary,
-    figcaption,
+    .figure-wrapper,
     .toc {
         margin-bottom: 3rem;
     }
@@ -50,7 +50,7 @@ figcaption,
 @media (max-width: 732px) {
     .article-media,
     .summary,
-    figcaption,
+    .figure-wrapper,
     .toc {
         margin-bottom: 2.75rem;
     }
@@ -286,14 +286,14 @@ h1, .h1 {
     summary {
         display: flex;
         justify-content: space-between;
-        align-items: center;
+        align-items: center; 
         gap: 2.5rem;
         cursor: pointer;
 
         h3 {
             padding-top: 1rem;
             padding-bottom: 1rem;
-            font-weight: 600;
+            font-weight: 400;
         }
 
         img {

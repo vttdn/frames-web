@@ -56,7 +56,7 @@
             <!-- <p class="release-number">{{ locale_data.changelog.labels['platform_' + entry.platform] }} {{ entry.version_short }}</p> -->
             <!-- <span>·</span> -->
             <p class="release-date">
-              <span>{{ locale_data.changelog.labels['platform_' + entry.platform] }} {{ entry.version_short }}</span> · 
+              <!-- <span>{{ locale_data.changelog.labels['platform_' + entry.platform] }} {{ entry.version_short }}</span> ·  -->
               <time datetime="{{ entry.release_date }}">{{ entry.formatted_date }}</time></p>
           </div>
 
@@ -85,17 +85,17 @@
             </ul>
           </div>
           {% elif section.type == 'media' %}
-          <div class="wrapper">
-            <figure class="article-media">
+            <figure class="wrapper figure-wrapper">
+              <div class="article-media article-media-blog">
                         <img src="{{ section.image }}"
                             srcset="{{ section.image }} 1x, {{ section.image_2x }} 2x"
                             alt="{{ section.alt }}"
                             width="{{ section.width }}" height="{{ section.height }}" loading="lazy">
+              </div>
                 {% if section.caption %}
-                <figcaption>{{ section.caption }}</figcaption>
+                <figcaption class="wrapper-small">{{ section.caption }}</figcaption>
                 {% endif %}
             </figure>
-          </div>
           {% endif %}
           {% endfor %}
 

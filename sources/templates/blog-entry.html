@@ -121,7 +121,7 @@
             </ul>
           </div>
           {% elif section.type == 'media' %}
-              <figure class="wrapper">
+              <figure class="wrapper figure-wrapper">
                 <div class="article-media article-media-blog{% if section.cover %} article-media-cover{% endif %}">
                   <img src="{{ section.image }}"
                               srcset="{{ section.image }} 1x, {{ section.image_2x }} 2x"
