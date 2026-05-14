@@ -134,7 +134,8 @@ figcaption {
     }
 }
 
-.article-main p {
+.article-main p,
+.article-main ul {
         margin-bottom: 1.6875rem;
 
         a {
@@ -149,12 +150,14 @@ figcaption {
 }
 
 @media (max-width: 1068px) {
-    .article-main p {
+    .article-main p,
+    .article-main ul {
         margin-bottom: 1.5625rem;
     }
 }
 
 .article-main p,
+.article-main ul,
 ul.privacy-permissions,
 .changelog-details summary h3,
 .changelog-details details ul  {
@@ -164,6 +167,7 @@ ul.privacy-permissions,
 
 @media (max-width: 1068px) {
     .article-main p,
+    .article-main ul,
     ul.privacy-permissions,
     .changelog-details summary h3,
     .changelog-details details ul  {
