@@ -1,0 +1,43 @@
+{
+  "version": "1.29.0",
+  "version_short": "1.29",
+  "url_slug": "1-29-ios",
+  "platform": "ios",
+  "release_date": "2026-05-28T10:00:00.000Z",
+  "title": "Förbättrad exponeringskompensation",
+  "summary": "Ställ in stegstorleken för exponeringskompensation per kamera, med stöd för halvsteg och tredjedelssteg.",
+  "sections": [
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.29.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.29.0-1@2x.png",
+      "alt": "Frames-appen stöder nu justerbara steg för exponeringskompensation",
+      "width": "400",
+      "height": "300",
+      "caption": "Frames iOS 1.29-uppdatering"
+    },
+    {
+      "type": "paragraph",
+      "content": "Du kan nu ställa in stegstorleken för exponeringskompensation för varje kamera och välja mellan halvsteg och tredjedelssteg, direkt från skärmen för kamerainställningar under avsnittet Ljusmätning."
+    },
+    {
+      "type": "paragraph",
+      "content": "Väljaren för exponeringskompensation visar nu bara värden som matchar din kamerakonfiguration, både när du redigerar en ruta och i verktygsfältet. Det gör loggningen av exponeringsjusteringar mer konsekvent mellan olika utrustningar."
+    },
+    {
+      "type": "paragraph",
+      "content": "Före den här uppdateringen använde exponeringskompensationen ett fast intervall med halvsteg, från -3 till +3 EV. Vissa kameror, som Nikon F3, använder i stället tredjedelssteg. Den här uppdateringen stöder nu båda metoderna samtidigt som inställningen hålls enkel."
+    },
+    {
+      "type": "paragraph",
+      "content": "Den här ändringen kommer från användarnas återkoppling och hjälper Frames att bättre anpassa sig till hur olika kameror hanterar exponeringskompensation."
+    }
+  ],
+  "improvements": [
+    "Stöd för exponeringskompensation i halvsteg och tredjedelssteg"
+  ],
+  "fixes": [],
+  "patches": [],
+  "meta_title": "Förbättrad exponeringskompensation - Frames",
+  "meta_description": "Ställ in stegstorleken för exponeringskompensation per kamera, med stöd för halvsteg och tredjedelssteg i Frames."
+}

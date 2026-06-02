@@ -1,0 +1,43 @@
+{
+  "version": "1.29.0",
+  "version_short": "1.29",
+  "url_slug": "1-29-ios",
+  "platform": "ios",
+  "release_date": "2026-05-28T10:00:00.000Z",
+  "title": "Parannuksia valotuksen korjaukseen",
+  "summary": "Määritä valotuskorjauksen askelväli kameralle – tukena puolen ja kolmasosan portaat.",
+  "sections": [
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.29.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.29.0-1@2x.png",
+      "alt": "Frames-sovellus tukee nyt säädettäviä valotuskorjauksen askelia",
+      "width": "400",
+      "height": "300",
+      "caption": "Frames iOS 1.29 -päivitys"
+    },
+    {
+      "type": "paragraph",
+      "content": "Voit nyt määrittää valotuskorjauksen askelvälin jokaiselle kameralle ja valita puolen ja kolmasosan portaiden väliltä suoraan kameran asetusnäytöltä Mittaus-osiossa."
+    },
+    {
+      "type": "paragraph",
+      "content": "Valotuskorjauksen valitsin näyttää nyt sekä kehystä muokattaessa että työkalupalkissa vain ne arvot, jotka vastaavat kamerasi määrityksiä. Näin valotussäätöjen kirjaaminen on johdonmukaisempaa eri laitteistojen välillä."
+    },
+    {
+      "type": "paragraph",
+      "content": "Ennen tätä päivitystä valotuskorjaus käytti kiinteää puolen portaan aluetta välillä -3...+3 EV. Jotkin kamerat, kuten Nikon F3, käyttävät sen sijaan kolmasosan portaita. Tämä päivitys tukee nyt molempia tapoja pitäen asetukset silti yksinkertaisina."
+    },
+    {
+      "type": "paragraph",
+      "content": "Tämä muutos pohjautuu käyttäjien palautteeseen ja auttaa Framesia mukautumaan paremmin siihen, miten eri kamerat käsittelevät valotuskorjausta."
+    }
+  ],
+  "improvements": [
+    "Tuki valotuskorjauksen puolen ja kolmasosan portaan arvoille"
+  ],
+  "fixes": [],
+  "patches": [],
+  "meta_title": "Parannuksia valotuksen korjaukseen - Frames",
+  "meta_description": "Määritä valotuskorjauksen askelväli kameralle – tukena puolen ja kolmasosan portaan arvot Framesissa."
+}

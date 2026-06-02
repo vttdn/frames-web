@@ -39,7 +39,12 @@
   "fixes": [
     "Rozwiązano problem z kodowaniem znaków akcentowanych w komentarzach użytkownika JPEG i TIFF"
   ],
-  "patches": [],
+  "patches": [
+    {
+      "version": "1.17.1",
+      "description": "Ulepszone formatowanie kompensacji ekspozycji"
+    }
+  ],
   "meta_title": "Nowy przewodnik przy pierwszym imporcie - Frames",
   "meta_description": "Frames 1.17.0 dodaje przewodnik przy pierwszym imporcie i naprawia kodowanie znaków akcentowanych w komentarzach JPEG i TIFF."
 }

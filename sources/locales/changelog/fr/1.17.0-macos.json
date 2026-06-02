@@ -39,7 +39,12 @@
   "fixes": [
     "Résolution d'un problème d'encodage des accents dans les commentaires utilisateur JPEG et TIFF"
   ],
-  "patches": [],
+  "patches": [
+    {
+      "version": "1.17.1",
+      "description": "Mise en forme de la compensation d'exposition améliorée"
+    }
+  ],
   "meta_title": "Une nouvelle visite guidée au premier import - Frames",
   "meta_description": "Frames 1.17.0 ajoute une visite guidée au premier import et corrige l'encodage des accents dans les commentaires JPEG et TIFF."
 }

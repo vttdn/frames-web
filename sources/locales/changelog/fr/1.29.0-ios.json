@@ -1,0 +1,43 @@
+{
+  "version": "1.29.0",
+  "version_short": "1.29",
+  "url_slug": "1-29-ios",
+  "platform": "ios",
+  "release_date": "2026-05-28T10:00:00.000Z",
+  "title": "Améliorations de la compensation d'exposition",
+  "summary": "Définissez le pas de compensation d'exposition pour chaque appareil, avec prise en charge des valeurs au demi-IL et au tiers d'IL.",
+  "sections": [
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.29.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.29.0-1@2x.png",
+      "alt": "L'application Frames prend désormais en charge des incréments de compensation d'exposition configurables",
+      "width": "400",
+      "height": "300",
+      "caption": "Mise à jour Frames iOS 1.29"
+    },
+    {
+      "type": "paragraph",
+      "content": "Vous pouvez désormais définir le pas de compensation d'exposition pour chaque appareil, en choisissant entre des valeurs au demi-IL et au tiers d'IL, directement depuis l'écran des réglages de l'appareil, dans la section Mesure."
+    },
+    {
+      "type": "paragraph",
+      "content": "Le sélecteur de compensation d'exposition, dans l'édition de frame comme dans la barre d'outils, n'affiche désormais que les valeurs correspondant à la configuration de votre appareil. L'enregistrement de vos corrections d'exposition gagne ainsi en cohérence d'un équipement à l'autre."
+    },
+    {
+      "type": "paragraph",
+      "content": "Avant cette mise à jour, la compensation d'exposition reposait sur une plage fixe au demi-IL, de -3 à +3 IL. Certains appareils, comme le Nikon F3, utilisent plutôt des incréments au tiers d'IL. Cette mise à jour prend désormais en charge les deux approches, tout en gardant une configuration simple."
+    },
+    {
+      "type": "paragraph",
+      "content": "Ce changement fait suite à des retours d'utilisateurs et aide Frames à mieux s'adapter à la façon dont chaque appareil gère la compensation d'exposition."
+    }
+  ],
+  "improvements": [
+    "Prise en charge des valeurs de compensation d'exposition au demi-IL et au tiers d'IL"
+  ],
+  "fixes": [],
+  "patches": [],
+  "meta_title": "Compensation d'exposition améliorée - Frames",
+  "meta_description": "Définissez les incréments de compensation d'exposition par appareil, avec prise en charge des valeurs au demi-IL et au tiers d'IL dans Frames."
+}

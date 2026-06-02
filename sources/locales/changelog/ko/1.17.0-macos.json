@@ -39,7 +39,12 @@
   "fixes": [
     "JPEG 및 TIFF 사용자 댓글에서 강세 문자 인코딩 문제 해결"
   ],
-  "patches": [],
+  "patches": [
+    {
+      "version": "1.17.1",
+      "description": "노출 보정 표시 형식 개선"
+    }
+  ],
   "meta_title": "첫 가져오기 시 새로운 둘러보기 - Frames",
   "meta_description": "Frames 1.17.0은 첫 가져오기 시 둘러보기를 추가하고 JPEG와 TIFF 사용자 댓글의 강세 문자 인코딩을 수정합니다."
 }

@@ -39,7 +39,12 @@
   "fixes": [
     "Memperbaiki masalah encoding aksen pada komentar pengguna JPEG dan TIFF"
   ],
-  "patches": [],
+  "patches": [
+    {
+      "version": "1.17.1",
+      "description": "Format kompensasi eksposur ditingkatkan"
+    }
+  ],
   "meta_title": "Tur panduan baru di impor pertama - Frames",
   "meta_description": "Frames 1.17.0 menambahkan tur panduan di impor pertama dan memperbaiki encoding aksen pada komentar pengguna JPEG dan TIFF."
 }

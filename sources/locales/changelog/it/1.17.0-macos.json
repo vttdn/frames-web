@@ -39,7 +39,12 @@
   "fixes": [
     "Risolto un problema di codifica degli accenti nei commenti utente JPEG e TIFF"
   ],
-  "patches": [],
+  "patches": [
+    {
+      "version": "1.17.1",
+      "description": "Migliorata la formattazione della compensazione dell'esposizione"
+    }
+  ],
   "meta_title": "Nuova guida introduttiva al primo import - Frames",
   "meta_description": "Frames 1.17.0 aggiunge una breve guida al primo import e corregge la codifica degli accenti nei commenti utente JPEG e TIFF."
 }

@@ -1,0 +1,43 @@
+{
+  "version": "1.29.0",
+  "version_short": "1.29",
+  "url_slug": "1-29-ios",
+  "platform": "ios",
+  "release_date": "2026-05-28T10:00:00.000Z",
+  "title": "曝光补偿改进",
+  "summary": "为每台相机设置曝光补偿步长，支持 1/2 档和 1/3 档的数值。",
+  "sections": [
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.29.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.29.0-1@2x.png",
+      "alt": "Frames 应用现在支持可配置的曝光补偿步长",
+      "width": "400",
+      "height": "300",
+      "caption": "Frames iOS 1.29 更新"
+    },
+    {
+      "type": "paragraph",
+      "content": "现在你可以为每台相机定义曝光补偿步长，直接在相机设置界面的测光部分中选择 1/2 档或 1/3 档的数值。"
+    },
+    {
+      "type": "paragraph",
+      "content": "无论是在帧编辑还是工具栏中，曝光补偿选择器现在只显示与你的相机配置相匹配的数值。这让你在不同器材之间记录曝光调整时更加一致。"
+    },
+    {
+      "type": "paragraph",
+      "content": "在此次更新之前，曝光补偿使用从 -3 到 +3 EV 的固定 1/2 档范围。某些相机（例如 Nikon F3）则使用 1/3 档。此次更新现已支持这两种方式，同时保持设置简单。"
+    },
+    {
+      "type": "paragraph",
+      "content": "这项改动来自用户反馈，帮助 Frames 更好地适应不同相机处理曝光补偿的方式。"
+    }
+  ],
+  "improvements": [
+    "支持 1/2 档和 1/3 档的曝光补偿数值"
+  ],
+  "fixes": [],
+  "patches": [],
+  "meta_title": "曝光补偿改进 - Frames",
+  "meta_description": "为每台相机设置曝光补偿步长，在 Frames 中支持 1/2 档和 1/3 档的数值。"
+}

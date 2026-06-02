@@ -1,0 +1,43 @@
+{
+  "version": "1.29.0",
+  "version_short": "1.29",
+  "url_slug": "1-29-ios",
+  "platform": "ios",
+  "release_date": "2026-05-28T10:00:00.000Z",
+  "title": "Cải thiện bù phơi sáng",
+  "summary": "Đặt bước bù phơi sáng cho từng máy ảnh, hỗ trợ các giá trị nửa bước và một phần ba bước.",
+  "sections": [
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.29.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.29.0-1@2x.png",
+      "alt": "Ứng dụng Frames giờ đây hỗ trợ bước bù phơi sáng có thể tùy chỉnh",
+      "width": "400",
+      "height": "300",
+      "caption": "Bản cập nhật Frames iOS 1.29"
+    },
+    {
+      "type": "paragraph",
+      "content": "Giờ đây bạn có thể đặt bước bù phơi sáng cho từng máy ảnh, chọn giữa giá trị nửa bước và một phần ba bước, ngay trong màn hình cài đặt máy ảnh ở mục Đo sáng."
+    },
+    {
+      "type": "paragraph",
+      "content": "Bộ chọn bù phơi sáng, cả khi chỉnh sửa khung hình lẫn trên thanh công cụ, giờ chỉ hiển thị những giá trị phù hợp với cấu hình máy ảnh của bạn. Nhờ đó, việc ghi lại các điều chỉnh phơi sáng trở nên nhất quán hơn giữa các bộ thiết bị khác nhau."
+    },
+    {
+      "type": "paragraph",
+      "content": "Trước bản cập nhật này, bù phơi sáng dùng dải cố định theo nửa bước, từ -3 đến +3 EV. Một số máy ảnh, chẳng hạn Nikon F3, lại dùng bước một phần ba. Bản cập nhật này giờ hỗ trợ cả hai cách, đồng thời vẫn giữ thiết lập đơn giản."
+    },
+    {
+      "type": "paragraph",
+      "content": "Thay đổi này đến từ phản hồi của người dùng và giúp Frames thích ứng tốt hơn với cách mà mỗi máy ảnh xử lý bù phơi sáng."
+    }
+  ],
+  "improvements": [
+    "Hỗ trợ giá trị bù phơi sáng nửa bước và một phần ba bước"
+  ],
+  "fixes": [],
+  "patches": [],
+  "meta_title": "Cải thiện bù phơi sáng - Frames",
+  "meta_description": "Đặt bước bù phơi sáng cho từng máy ảnh, hỗ trợ giá trị nửa bước và một phần ba bước trong Frames."
+}

@@ -39,7 +39,12 @@
   "fixes": [
     "Khắc phục lỗi mã hóa ký tự dấu trong chú thích người dùng JPEG và TIFF"
   ],
-  "patches": [],
+  "patches": [
+    {
+      "version": "1.17.1",
+      "description": "Cải thiện định dạng bù phơi sáng"
+    }
+  ],
   "meta_title": "Hướng dẫn nhanh mới khi nhập lần đầu - Frames",
   "meta_description": "Frames 1.17.0 bổ sung hướng dẫn nhanh khi nhập lần đầu và khắc phục mã hóa ký tự dấu trong chú thích người dùng JPEG và TIFF."
 }

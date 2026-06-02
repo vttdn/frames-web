@@ -39,7 +39,12 @@
   "fixes": [
     "Resolved a character encoding issue for accents in JPEG and TIFF user comments"
   ],
-  "patches": [],
+  "patches": [
+    {
+      "version": "1.17.1",
+      "description": "Improved exposure compensation formatting"
+    }
+  ],
   "meta_title": "A New Tour Guide on First Import - Frames",
   "meta_description": "Frames 1.17.0 adds a short tour guide on first import and fixes character encoding for accents in JPEG and TIFF user comments."
 }

@@ -1,0 +1,43 @@
+{
+  "version": "1.29.0",
+  "version_short": "1.29",
+  "url_slug": "1-29-ios",
+  "platform": "ios",
+  "release_date": "2026-05-28T10:00:00.000Z",
+  "title": "Miglioramenti alla compensazione dell'esposizione",
+  "summary": "Imposta gli incrementi della compensazione dell'esposizione per ogni fotocamera, con valori di mezzo stop e di un terzo di stop.",
+  "sections": [
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.29.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.29.0-1@2x.png",
+      "alt": "L'app Frames ora supporta incrementi configurabili per la compensazione dell'esposizione",
+      "width": "400",
+      "height": "300",
+      "caption": "Aggiornamento Frames iOS 1.29"
+    },
+    {
+      "type": "paragraph",
+      "content": "Ora puoi definire l'incremento della compensazione dell'esposizione per ogni fotocamera, scegliendo tra valori di mezzo stop e di un terzo di stop, direttamente dalla schermata delle impostazioni della fotocamera, nella sezione Misurazione."
+    },
+    {
+      "type": "paragraph",
+      "content": "Il selettore della compensazione dell'esposizione, sia nella modifica del fotogramma sia nella barra degli strumenti, ora mostra solo i valori corrispondenti alla configurazione della tua fotocamera. Registrare le correzioni di esposizione diventa così più coerente tra attrezzature diverse."
+    },
+    {
+      "type": "paragraph",
+      "content": "Prima di questo aggiornamento, la compensazione dell'esposizione utilizzava un intervallo fisso a mezzo stop, da -3 a +3 EV. Alcune fotocamere, come la Nikon F3, usano invece incrementi di un terzo di stop. Questo aggiornamento supporta entrambe le modalità, mantenendo comunque semplice la configurazione."
+    },
+    {
+      "type": "paragraph",
+      "content": "Questa modifica nasce dai suggerimenti degli utenti e aiuta Frames ad adattarsi meglio al modo in cui ogni fotocamera gestisce la compensazione dell'esposizione."
+    }
+  ],
+  "improvements": [
+    "Supporto per valori di compensazione dell'esposizione di mezzo stop e di un terzo di stop"
+  ],
+  "fixes": [],
+  "patches": [],
+  "meta_title": "Compensazione dell'esposizione migliorata - Frames",
+  "meta_description": "Imposta gli incrementi della compensazione dell'esposizione per fotocamera, con valori di mezzo stop e di un terzo di stop in Frames."
+}

@@ -39,7 +39,12 @@
   "fixes": [
     "Løst et tegnkodingsproblem for aksenter i JPEG- og TIFF-brukerkommentarer"
   ],
-  "patches": [],
+  "patches": [
+    {
+      "version": "1.17.1",
+      "description": "Forbedret formatering av eksponeringskompensasjon"
+    }
+  ],
   "meta_title": "En ny omvisning ved første import - Frames",
   "meta_description": "Frames 1.17.0 legger til en omvisning ved første import og fikser tegnkodingen av aksenter i JPEG- og TIFF-brukerkommentarer."
 }

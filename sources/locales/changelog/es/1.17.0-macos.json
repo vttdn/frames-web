@@ -39,7 +39,12 @@
   "fixes": [
     "Resuelto un problema de codificación de acentos en los comentarios de usuario JPEG y TIFF"
   ],
-  "patches": [],
+  "patches": [
+    {
+      "version": "1.17.1",
+      "description": "Mejor formato de la compensación de exposición"
+    }
+  ],
   "meta_title": "Un recorrido guiado en tu primera importación - Frames",
   "meta_description": "Frames 1.17.0 añade un recorrido guiado en la primera importación y corrige la codificación de acentos en los comentarios JPEG y TIFF."
 }

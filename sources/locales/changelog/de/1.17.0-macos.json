@@ -39,7 +39,12 @@
   "fixes": [
     "Zeichenkodierungsproblem für Akzente in JPEG- und TIFF-Benutzerkommentaren behoben"
   ],
-  "patches": [],
+  "patches": [
+    {
+      "version": "1.17.1",
+      "description": "Verbesserte Formatierung der Belichtungskorrektur"
+    }
+  ],
   "meta_title": "Eine neue Einführungstour beim ersten Import - Frames",
   "meta_description": "Frames 1.17.0 ergänzt eine Einführungstour beim ersten Import und behebt die Zeichenkodierung für Akzente in JPEG- und TIFF-Benutzerkommentaren."
 }

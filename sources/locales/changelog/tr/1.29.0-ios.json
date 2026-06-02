@@ -1,0 +1,43 @@
+{
+  "version": "1.29.0",
+  "version_short": "1.29",
+  "url_slug": "1-29-ios",
+  "platform": "ios",
+  "release_date": "2026-05-28T10:00:00.000Z",
+  "title": "Pozlama telafisinde iyileştirmeler",
+  "summary": "Pozlama telafisi kademesini her kamera için ayarlayın; 1/2 ve 1/3 kademe değerleri desteklenir.",
+  "sections": [
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.29.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.29.0-1@2x.png",
+      "alt": "Frames uygulaması artık yapılandırılabilir pozlama telafisi kademelerini destekliyor",
+      "width": "400",
+      "height": "300",
+      "caption": "Frames iOS 1.29 güncellemesi"
+    },
+    {
+      "type": "paragraph",
+      "content": "Artık pozlama telafisi kademesini her kamera için ayarlayabilir, 1/2 ve 1/3 kademe değerleri arasından doğrudan kamera ayarları ekranındaki Ölçüm bölümünden seçim yapabilirsiniz."
+    },
+    {
+      "type": "paragraph",
+      "content": "Pozlama telafisi seçici, hem kare düzenlemede hem de araç çubuğunda artık yalnızca kameranızın yapılandırmasıyla eşleşen değerleri gösteriyor. Böylece pozlama ayarlarını kaydetmek farklı ekipmanlar arasında daha tutarlı hâle geliyor."
+    },
+    {
+      "type": "paragraph",
+      "content": "Bu güncellemeden önce pozlama telafisi, -3 ile +3 EV arasında sabit bir 1/2 kademe aralığı kullanıyordu. Nikon F3 gibi bazı kameralar bunun yerine 1/3 kademe kullanır. Bu güncelleme artık her iki yaklaşımı da destekliyor ve kurulumu yine de basit tutuyor."
+    },
+    {
+      "type": "paragraph",
+      "content": "Bu değişiklik kullanıcı geri bildirimlerinden geldi ve Frames'in farklı kameraların pozlama telafisini ele alış biçimine daha iyi uyum sağlamasına yardımcı oluyor."
+    }
+  ],
+  "improvements": [
+    "1/2 ve 1/3 kademe pozlama telafisi değerleri desteği"
+  ],
+  "fixes": [],
+  "patches": [],
+  "meta_title": "Pozlama telafisinde iyileştirmeler - Frames",
+  "meta_description": "Pozlama telafisi kademesini her kamera için ayarlayın; Frames'te 1/2 ve 1/3 kademe değerleri desteklenir."
+}

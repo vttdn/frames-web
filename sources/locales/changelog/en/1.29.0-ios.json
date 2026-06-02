@@ -1,0 +1,43 @@
+{
+  "version": "1.29.0",
+  "version_short": "1.29",
+  "url_slug": "1-29-ios",
+  "platform": "ios",
+  "release_date": "2026-05-28T10:00:00.000Z",
+  "title": "Exposure compensation improvements",
+  "summary": "Set exposure compensation step increments per camera with support for half-stop and third-stop values.",
+  "sections": [
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.29.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.29.0-1@2x.png",
+      "alt": "Frames app now supports configurable exposure compensation increments",
+      "width": "400",
+      "height": "300",
+      "caption": "Frames iOS 1.29 update"
+    },
+    {
+      "type": "paragraph",
+      "content": "You can now define exposure compensation step increments for each camera, choosing between half-stop and third-stop values directly from the camera settings screen under the Metering section."
+    },
+    {
+      "type": "paragraph",
+      "content": "The exposure compensation picker in frame editing and in the Recorder now only displays values that match your camera configuration. This makes logging exposure adjustments more consistent across different shooting setups."
+    },
+    {
+      "type": "paragraph",
+      "content": "Before this update, exposure compensation used a fixed half-stop range from -3 to +3 EV. Some cameras, such as the Nikon F3, use third-stop increments instead. This update adds support for both approaches while keeping the setup simple."
+    },
+    {
+      "type": "paragraph",
+      "content": "This change comes from user feedback and helps Frames better adapt to the way different cameras handle exposure compensation."
+    }
+  ],
+  "improvements": [
+    "Support for half-stop and third-stop exposure compensation values"
+  ],
+  "fixes": [],
+  "patches": [],
+  "meta_title": "Exposure compensation improvements - Frames",
+  "meta_description": "Set exposure compensation increments per camera with support for half-stop and third-stop values in Frames."
+}

@@ -39,7 +39,12 @@
   "fixes": [
     "Løst et tegnkodningsproblem for accenter i JPEG- og TIFF-brugerkommentarer"
   ],
-  "patches": [],
+  "patches": [
+    {
+      "version": "1.17.1",
+      "description": "Forbedret formatering af eksponeringskompensation"
+    }
+  ],
   "meta_title": "En ny rundvisning ved første import - Frames",
   "meta_description": "Frames 1.17.0 tilføjer en rundvisning ved første import og retter tegnkodningen af accenter i JPEG- og TIFF-brugerkommentarer."
 }

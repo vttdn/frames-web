@@ -39,7 +39,12 @@
   "fixes": [
     "修复 JPEG 和 TIFF 用户备注中重音字符的编码问题"
   ],
-  "patches": [],
+  "patches": [
+    {
+      "version": "1.17.1",
+      "description": "改进了曝光补偿的显示格式"
+    }
+  ],
   "meta_title": "首次导入时的全新导览 - Frames",
   "meta_description": "Frames 1.17.0 在首次导入时新增简短导览，并修复 JPEG 和 TIFF 用户备注中重音字符的编码问题。"
 }

@@ -1,0 +1,43 @@
+{
+  "version": "1.29.0",
+  "version_short": "1.29",
+  "url_slug": "1-29-ios",
+  "platform": "ios",
+  "release_date": "2026-05-28T10:00:00.000Z",
+  "title": "露出補正の改善",
+  "summary": "カメラごとに露出補正のステップ刻みを設定でき、1/2段と1/3段の値に対応します。",
+  "sections": [
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.29.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.29.0-1@2x.png",
+      "alt": "Framesアプリで露出補正の刻みを設定できるようになりました",
+      "width": "400",
+      "height": "300",
+      "caption": "Frames iOS 1.29 アップデート"
+    },
+    {
+      "type": "paragraph",
+      "content": "カメラごとに露出補正のステップ刻みを定義できるようになりました。カメラ設定画面の測光セクションから、1/2段と1/3段の値を選択できます。"
+    },
+    {
+      "type": "paragraph",
+      "content": "コマ編集画面とツールバーの露出補正ピッカーは、カメラの設定に合った値のみを表示するようになりました。これにより、さまざまな撮影機材でも露出の記録がより一貫したものになります。"
+    },
+    {
+      "type": "paragraph",
+      "content": "このアップデート以前は、露出補正は-3〜+3 EVの固定された1/2段刻みを使用していました。Nikon F3のように、1/3段刻みを使うカメラもあります。今回のアップデートでは両方の方式に対応しながら、設定はシンプルなまま保っています。"
+    },
+    {
+      "type": "paragraph",
+      "content": "この変更はユーザーからのフィードバックがきっかけで、さまざまなカメラの露出補正の扱い方にFramesがより柔軟に対応できるようになります。"
+    }
+  ],
+  "improvements": [
+    "1/2段・1/3段の露出補正値に対応"
+  ],
+  "fixes": [],
+  "patches": [],
+  "meta_title": "露出補正の改善 - Frames",
+  "meta_description": "カメラごとに露出補正の刻みを設定。Framesで1/2段と1/3段の値に対応しています。"
+}

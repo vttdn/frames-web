@@ -39,7 +39,12 @@
   "fixes": [
     "Tekencoderingsprobleem voor accenten in JPEG- en TIFF-gebruikersopmerkingen opgelost"
   ],
-  "patches": [],
+  "patches": [
+    {
+      "version": "1.17.1",
+      "description": "Verbeterde opmaak van belichtingscompensatie"
+    }
+  ],
   "meta_title": "Een nieuwe rondleiding bij de eerste import - Frames",
   "meta_description": "Frames 1.17.0 voegt een rondleiding toe bij de eerste import en herstelt de tekencodering van accenten in JPEG- en TIFF-opmerkingen."
 }

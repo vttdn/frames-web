@@ -39,7 +39,12 @@
   "fixes": [
     "Korjattu aksenttien merkistökoodausongelma JPEG- ja TIFF-käyttäjäkommenteissa"
   ],
-  "patches": [],
+  "patches": [
+    {
+      "version": "1.17.1",
+      "description": "Parannettu valotuskorjauksen muotoilu"
+    }
+  ],
   "meta_title": "Uusi opastettu kierros ensimmäisessä tuonnissa - Frames",
   "meta_description": "Frames 1.17.0 lisää opastetun kierroksen ensimmäiselle tuontikerralle ja korjaa aksenttien merkistökoodauksen JPEG- ja TIFF-kommenteissa."
 }

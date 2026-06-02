@@ -1,0 +1,43 @@
+{
+  "version": "1.29.0",
+  "version_short": "1.29",
+  "url_slug": "1-29-ios",
+  "platform": "ios",
+  "release_date": "2026-05-28T10:00:00.000Z",
+  "title": "Verbesserte Belichtungskorrektur",
+  "summary": "Lege die Schrittweite der Belichtungskorrektur für jede Kamera fest – mit Unterstützung für halbe und Drittelstufen.",
+  "sections": [
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.29.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.29.0-1@2x.png",
+      "alt": "Die Frames-App unterstützt jetzt konfigurierbare Schrittweiten für die Belichtungskorrektur",
+      "width": "400",
+      "height": "300",
+      "caption": "Frames iOS 1.29 Update"
+    },
+    {
+      "type": "paragraph",
+      "content": "Du kannst jetzt die Schrittweite der Belichtungskorrektur für jede Kamera festlegen und dabei zwischen halben und Drittelstufen wählen – direkt im Bildschirm der Kameraeinstellungen im Bereich Belichtungsmessung."
+    },
+    {
+      "type": "paragraph",
+      "content": "Die Auswahl der Belichtungskorrektur zeigt beim Bearbeiten eines Einzelbilds und in der Symbolleiste jetzt nur noch Werte an, die zu deiner Kamerakonfiguration passen. So lassen sich Belichtungsanpassungen über verschiedene Aufnahmesituationen hinweg einheitlicher festhalten."
+    },
+    {
+      "type": "paragraph",
+      "content": "Vor diesem Update nutzte die Belichtungskorrektur einen festen Bereich in halben Stufen von -3 bis +3 LW. Manche Kameras wie die Nikon F3 verwenden stattdessen Drittelstufen. Dieses Update unterstützt nun beide Varianten und hält die Einrichtung trotzdem einfach."
+    },
+    {
+      "type": "paragraph",
+      "content": "Diese Änderung geht auf Rückmeldungen von Nutzern zurück und hilft Frames, sich besser an die unterschiedliche Handhabung der Belichtungskorrektur verschiedener Kameras anzupassen."
+    }
+  ],
+  "improvements": [
+    "Unterstützung für Belichtungskorrektur in halben und Drittelstufen"
+  ],
+  "fixes": [],
+  "patches": [],
+  "meta_title": "Verbesserte Belichtungskorrektur - Frames",
+  "meta_description": "Lege die Schrittweite der Belichtungskorrektur pro Kamera fest – mit Unterstützung für halbe und Drittelstufen in Frames."
+}

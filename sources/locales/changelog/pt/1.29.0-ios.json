@@ -1,0 +1,43 @@
+{
+  "version": "1.29.0",
+  "version_short": "1.29",
+  "url_slug": "1-29-ios",
+  "platform": "ios",
+  "release_date": "2026-05-28T10:00:00.000Z",
+  "title": "Melhorias na compensação de exposição",
+  "summary": "Define os incrementos da compensação de exposição para cada câmara, com valores de meio passo e de um terço de passo.",
+  "sections": [
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.29.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.29.0-1@2x.png",
+      "alt": "A aplicação Frames passa a suportar incrementos configuráveis de compensação de exposição",
+      "width": "400",
+      "height": "300",
+      "caption": "Atualização do Frames iOS 1.29"
+    },
+    {
+      "type": "paragraph",
+      "content": "Podes agora definir o incremento da compensação de exposição para cada câmara, escolhendo entre valores de meio passo e de um terço de passo, diretamente no ecrã de definições da câmara, na secção Medição."
+    },
+    {
+      "type": "paragraph",
+      "content": "O seletor de compensação de exposição, tanto na edição de fotogramas como na barra de ferramentas, mostra agora apenas os valores que correspondem à configuração da tua câmara. Assim, registar os ajustes de exposição torna-se mais coerente entre diferentes equipamentos."
+    },
+    {
+      "type": "paragraph",
+      "content": "Antes desta atualização, a compensação de exposição usava um intervalo fixo de meio passo, de -3 a +3 EV. Algumas câmaras, como a Nikon F3, utilizam incrementos de um terço de passo. Esta atualização passa a suportar ambas as abordagens, mantendo a configuração simples."
+    },
+    {
+      "type": "paragraph",
+      "content": "Esta alteração resulta das sugestões dos utilizadores e ajuda o Frames a adaptar-se melhor à forma como cada câmara lida com a compensação de exposição."
+    }
+  ],
+  "improvements": [
+    "Suporte para valores de compensação de exposição de meio passo e de um terço de passo"
+  ],
+  "fixes": [],
+  "patches": [],
+  "meta_title": "Melhorias na compensação de exposição - Frames",
+  "meta_description": "Define os incrementos da compensação de exposição por câmara, com valores de meio passo e de um terço de passo no Frames."
+}

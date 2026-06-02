@@ -1,0 +1,43 @@
+{
+  "version": "1.29.0",
+  "version_short": "1.29",
+  "url_slug": "1-29-ios",
+  "platform": "ios",
+  "release_date": "2026-05-28T10:00:00.000Z",
+  "title": "Verbeterde belichtingscompensatie",
+  "summary": "Stel de stapgrootte van de belichtingscompensatie per camera in, met ondersteuning voor halve en derde stops.",
+  "sections": [
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.29.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.29.0-1@2x.png",
+      "alt": "De Frames-app ondersteunt nu instelbare stappen voor belichtingscompensatie",
+      "width": "400",
+      "height": "300",
+      "caption": "Frames iOS 1.29-update"
+    },
+    {
+      "type": "paragraph",
+      "content": "Je kunt nu de stapgrootte van de belichtingscompensatie voor elke camera instellen en kiezen tussen halve en derde stops, rechtstreeks vanuit het camera-instellingenscherm in het gedeelte Lichtmeting."
+    },
+    {
+      "type": "paragraph",
+      "content": "De keuzelijst voor belichtingscompensatie toont nu zowel bij het bewerken van een filmframe als in de werkbalk alleen de waarden die overeenkomen met je camera-instellingen. Zo leg je belichtingscorrecties consistenter vast bij verschillende uitrustingen."
+    },
+    {
+      "type": "paragraph",
+      "content": "Vóór deze update gebruikte de belichtingscompensatie een vast bereik van halve stops, van -3 tot +3 EV. Sommige camera's, zoals de Nikon F3, gebruiken juist derde stops. Deze update ondersteunt nu beide methoden en houdt het instellen toch eenvoudig."
+    },
+    {
+      "type": "paragraph",
+      "content": "Deze wijziging komt voort uit feedback van gebruikers en helpt Frames zich beter aan te passen aan de manier waarop verschillende camera's met belichtingscompensatie omgaan."
+    }
+  ],
+  "improvements": [
+    "Ondersteuning voor belichtingscompensatie in halve en derde stops"
+  ],
+  "fixes": [],
+  "patches": [],
+  "meta_title": "Verbeterde belichtingscompensatie - Frames",
+  "meta_description": "Stel de stapgrootte van de belichtingscompensatie per camera in, met ondersteuning voor halve en derde stops in Frames."
+}

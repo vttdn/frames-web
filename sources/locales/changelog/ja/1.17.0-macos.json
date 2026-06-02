@@ -39,7 +39,12 @@
   "fixes": [
     "JPEG・TIFF のユーザーコメントにおけるアクセント文字のエンコードの問題を修正"
   ],
-  "patches": [],
+  "patches": [
+    {
+      "version": "1.17.1",
+      "description": "露出補正の表示形式を改善"
+    }
+  ],
   "meta_title": "初回インポート時の新しいツアーガイド - Frames",
   "meta_description": "Frames 1.17.0 は初回インポート時に短いツアーガイドを追加し、JPEG・TIFF のユーザーコメントのアクセント文字のエンコードを修正します。"
 }

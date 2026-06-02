@@ -1,0 +1,43 @@
+{
+  "version": "1.29.0",
+  "version_short": "1.29",
+  "url_slug": "1-29-ios",
+  "platform": "ios",
+  "release_date": "2026-05-28T10:00:00.000Z",
+  "title": "曝光補償改進",
+  "summary": "為每台相機設定曝光補償級距，支援 1/2 級與 1/3 級的數值。",
+  "sections": [
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.29.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.29.0-1@2x.png",
+      "alt": "Frames 應用程式現在支援可自訂的曝光補償級距",
+      "width": "400",
+      "height": "300",
+      "caption": "Frames iOS 1.29 更新"
+    },
+    {
+      "type": "paragraph",
+      "content": "現在你可以為每台相機定義曝光補償級距，直接在相機設定畫面的測光區段中選擇 1/2 級或 1/3 級的數值。"
+    },
+    {
+      "type": "paragraph",
+      "content": "無論是在畫格編輯還是工具列中，曝光補償選擇器現在只會顯示與你的相機設定相符的數值。這讓你在不同器材之間記錄曝光調整時更加一致。"
+    },
+    {
+      "type": "paragraph",
+      "content": "在這次更新之前，曝光補償使用從 -3 到 +3 EV 的固定 1/2 級範圍。某些相機（例如 Nikon F3）則使用 1/3 級。這次更新現已支援這兩種方式，同時讓設定保持簡單。"
+    },
+    {
+      "type": "paragraph",
+      "content": "這項變更來自使用者的回饋，協助 Frames 更好地因應不同相機處理曝光補償的方式。"
+    }
+  ],
+  "improvements": [
+    "支援 1/2 級與 1/3 級的曝光補償數值"
+  ],
+  "fixes": [],
+  "patches": [],
+  "meta_title": "曝光補償改進 - Frames",
+  "meta_description": "為每台相機設定曝光補償級距，在 Frames 中支援 1/2 級與 1/3 級的數值。"
+}

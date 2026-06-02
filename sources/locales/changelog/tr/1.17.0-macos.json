@@ -39,7 +39,12 @@
   "fixes": [
     "JPEG ve TIFF kullanıcı yorumlarındaki aksanlı karakterlerin kodlama sorunu giderildi"
   ],
-  "patches": [],
+  "patches": [
+    {
+      "version": "1.17.1",
+      "description": "Pozlama telafisi biçimlendirmesi iyileştirildi"
+    }
+  ],
   "meta_title": "İlk içe aktarmada yeni bir tanıtım turu - Frames",
   "meta_description": "Frames 1.17.0, ilk içe aktarmada bir tanıtım turu ekler ve JPEG ile TIFF kullanıcı yorumlarındaki aksanlı karakterlerin kodlamasını düzeltir."
 }

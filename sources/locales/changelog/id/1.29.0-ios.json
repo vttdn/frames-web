@@ -1,0 +1,43 @@
+{
+  "version": "1.29.0",
+  "version_short": "1.29",
+  "url_slug": "1-29-ios",
+  "platform": "ios",
+  "release_date": "2026-05-28T10:00:00.000Z",
+  "title": "Penyempurnaan kompensasi eksposur",
+  "summary": "Atur ukuran langkah kompensasi eksposur untuk setiap kamera, dengan dukungan nilai setengah dan sepertiga langkah.",
+  "sections": [
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.29.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.29.0-1@2x.png",
+      "alt": "Aplikasi Frames kini mendukung ukuran langkah kompensasi eksposur yang dapat dikonfigurasi",
+      "width": "400",
+      "height": "300",
+      "caption": "Pembaruan Frames iOS 1.29"
+    },
+    {
+      "type": "paragraph",
+      "content": "Kini kamu dapat menentukan ukuran langkah kompensasi eksposur untuk setiap kamera, memilih antara nilai setengah dan sepertiga langkah, langsung dari layar pengaturan kamera di bagian Pengukuran."
+    },
+    {
+      "type": "paragraph",
+      "content": "Pemilih kompensasi eksposur, baik saat mengedit frame maupun di bilah alat, kini hanya menampilkan nilai yang sesuai dengan konfigurasi kameramu. Hal ini membuat pencatatan penyesuaian eksposur lebih konsisten di berbagai perangkat."
+    },
+    {
+      "type": "paragraph",
+      "content": "Sebelum pembaruan ini, kompensasi eksposur menggunakan rentang tetap setengah langkah, dari -3 hingga +3 EV. Beberapa kamera, seperti Nikon F3, justru menggunakan kelipatan sepertiga langkah. Pembaruan ini kini mendukung kedua pendekatan tersebut sekaligus tetap menjaga pengaturan tetap sederhana."
+    },
+    {
+      "type": "paragraph",
+      "content": "Perubahan ini berasal dari masukan pengguna dan membantu Frames beradaptasi lebih baik dengan cara berbagai kamera menangani kompensasi eksposur."
+    }
+  ],
+  "improvements": [
+    "Dukungan nilai kompensasi eksposur setengah dan sepertiga langkah"
+  ],
+  "fixes": [],
+  "patches": [],
+  "meta_title": "Penyempurnaan kompensasi eksposur - Frames",
+  "meta_description": "Atur ukuran langkah kompensasi eksposur untuk setiap kamera, dengan dukungan nilai setengah dan sepertiga langkah di Frames."
+}

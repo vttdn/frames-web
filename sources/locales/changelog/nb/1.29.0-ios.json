@@ -1,0 +1,43 @@
+{
+  "version": "1.29.0",
+  "version_short": "1.29",
+  "url_slug": "1-29-ios",
+  "platform": "ios",
+  "release_date": "2026-05-28T10:00:00.000Z",
+  "title": "Forbedret eksponeringskompensasjon",
+  "summary": "Angi trinnstørrelsen for eksponeringskompensasjon per kamera, med støtte for halve og tredjedels trinn.",
+  "sections": [
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.29.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.29.0-1@2x.png",
+      "alt": "Frames-appen støtter nå justerbare trinn for eksponeringskompensasjon",
+      "width": "400",
+      "height": "300",
+      "caption": "Frames iOS 1.29-oppdatering"
+    },
+    {
+      "type": "paragraph",
+      "content": "Du kan nå angi trinnstørrelsen for eksponeringskompensasjon for hvert kamera, og velge mellom halve og tredjedels trinn, rett fra skjermbildet for kamerainnstillinger under Lysmåling-delen."
+    },
+    {
+      "type": "paragraph",
+      "content": "Velgeren for eksponeringskompensasjon viser nå bare verdier som samsvarer med kamerakonfigurasjonen din, både når du redigerer en ramme og i verktøylinjen. Det gjør loggføringen av eksponeringsjusteringer mer konsekvent på tvers av ulike oppsett."
+    },
+    {
+      "type": "paragraph",
+      "content": "Før denne oppdateringen brukte eksponeringskompensasjon et fast område med halve trinn, fra -3 til +3 EV. Noen kameraer, som Nikon F3, bruker i stedet tredjedels trinn. Denne oppdateringen støtter nå begge tilnærmingene, samtidig som oppsettet holdes enkelt."
+    },
+    {
+      "type": "paragraph",
+      "content": "Denne endringen kommer fra tilbakemeldinger fra brukere og hjelper Frames med å tilpasse seg bedre til hvordan ulike kameraer håndterer eksponeringskompensasjon."
+    }
+  ],
+  "improvements": [
+    "Støtte for eksponeringskompensasjon i halve og tredjedels trinn"
+  ],
+  "fixes": [],
+  "patches": [],
+  "meta_title": "Forbedret eksponeringskompensasjon - Frames",
+  "meta_description": "Angi trinnstørrelsen for eksponeringskompensasjon per kamera, med støtte for halve og tredjedels trinn i Frames."
+}

@@ -39,7 +39,12 @@
   "fixes": [
     "Rezolvată o problemă de codificare a diacriticelor în comentariile utilizatorilor JPEG și TIFF"
   ],
-  "patches": [],
+  "patches": [
+    {
+      "version": "1.17.1",
+      "description": "Formatare îmbunătățită a compensării expunerii"
+    }
+  ],
   "meta_title": "Un nou tur ghidat la primul import - Frames",
   "meta_description": "Frames 1.17.0 adaugă un tur ghidat la primul import și corectează codificarea diacriticelor în comentariile JPEG și TIFF."
 }

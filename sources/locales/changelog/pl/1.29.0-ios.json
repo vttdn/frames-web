@@ -1,0 +1,43 @@
+{
+  "version": "1.29.0",
+  "version_short": "1.29",
+  "url_slug": "1-29-ios",
+  "platform": "ios",
+  "release_date": "2026-05-28T10:00:00.000Z",
+  "title": "Ulepszona kompensacja ekspozycji",
+  "summary": "Ustaw wartość kroku kompensacji ekspozycji dla każdego aparatu, z obsługą wartości co 1/2 i 1/3 stopnia.",
+  "sections": [
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.29.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.29.0-1@2x.png",
+      "alt": "Aplikacja Frames obsługuje teraz konfigurowalne kroki kompensacji ekspozycji",
+      "width": "400",
+      "height": "300",
+      "caption": "Aktualizacja Frames iOS 1.29"
+    },
+    {
+      "type": "paragraph",
+      "content": "Możesz teraz ustawić wartość kroku kompensacji ekspozycji dla każdego aparatu, wybierając między wartościami co 1/2 i co 1/3 stopnia, bezpośrednio z ekranu ustawień aparatu w sekcji Pomiar."
+    },
+    {
+      "type": "paragraph",
+      "content": "Selektor kompensacji ekspozycji — zarówno podczas edycji klatki, jak i na pasku narzędzi — pokazuje teraz tylko wartości zgodne z konfiguracją Twojego aparatu. Dzięki temu zapisywanie korekt ekspozycji jest bardziej spójne przy różnych zestawach sprzętu."
+    },
+    {
+      "type": "paragraph",
+      "content": "Przed tą aktualizacją kompensacja ekspozycji korzystała ze stałego zakresu co 1/2 stopnia, od -3 do +3 EV. Niektóre aparaty, jak Nikon F3, używają zamiast tego kroków co 1/3 stopnia. Ta aktualizacja obsługuje teraz oba podejścia, zachowując prostotę konfiguracji."
+    },
+    {
+      "type": "paragraph",
+      "content": "Ta zmiana powstała na podstawie opinii użytkowników i pomaga aplikacji Frames lepiej dopasować się do tego, jak różne aparaty obsługują kompensację ekspozycji."
+    }
+  ],
+  "improvements": [
+    "Obsługa wartości kompensacji ekspozycji co 1/2 i 1/3 stopnia"
+  ],
+  "fixes": [],
+  "patches": [],
+  "meta_title": "Ulepszona kompensacja ekspozycji - Frames",
+  "meta_description": "Ustaw wartość kroku kompensacji ekspozycji dla każdego aparatu, z obsługą wartości co 1/2 i 1/3 stopnia w aplikacji Frames."
+}
