@@ -716,7 +716,13 @@ details[open] summary {
 }
 @media (max-width: 1068px) {
     .pricing-features {
+        margin-bottom: 60%;
         padding-top: 1.125rem;
+    }
+}
+@media (max-width: 732px) {
+    .pricing-features {
+        margin-bottom: 50%;
     }
 }
 
