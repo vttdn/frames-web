@@ -37,7 +37,7 @@ SCHEMA_OUTPUT_DIR = PROJECT_ROOT / "lib" / "schema"
 VIDEOS_DIR = PROJECT_ROOT / "lib" / "newhome" / "videos"
 NEWHOME_IMAGES_DIR = PROJECT_ROOT / "lib" / "newhome" / "images"
 
-ENTRIES_PER_PAGE = 10
+ENTRIES_PER_PAGE = 15
 BLOG_POSTS_PER_PAGE = 10
 
 
