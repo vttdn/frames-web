@@ -3,22 +3,6 @@
     width: 100%;
     top: 0;
     z-index:9999;
-
-    &::before {
-        content: "";
-        position: absolute;
-
-        left: 0;
-        right: 0;
-
-        bottom: 0;
-        height: 400px;
-
-        background: black;
-
-        z-index: 0;
-        // pointer-events: none;
-    }
 }
 
 .prominent {
@@ -27,9 +11,21 @@
 }
 
 .prominent::before {
+    content: "";
+    position: absolute;
+
+    left: 0;
+    right: 0;
+
+    bottom: 0;
+    height: 400px;
+
     background: rgba(22, 22, 23, 0.8);
     backdrop-filter: saturate(1.8) blur(20px);
     border-bottom: 1px solid rgba(255, 255, 255, 0.24);
+
+    z-index: 0;
+    // pointer-events: none;
 }
 // .prominent {
 //     background: rgba(22, 22, 23, 0.8);
