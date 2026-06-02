@@ -83,7 +83,7 @@
     // visibility 0s linear 0.13s; /* hide after fade ends */
 
     &.dropdown-dir-top {
-        transform: translateY(1rem);
+        transform: translateY(0.825rem);
         bottom: 2.5rem;
         max-height: 24.0525rem;
     }
@@ -142,9 +142,12 @@
 }
 
 .dropdown-toggle:checked~.dropdown-button {
+    span, img {
+            opacity: 0.56;
+        }
     &:hover {
         span, img {
-            opacity: 0.8;
+            opacity: 0.56;
         }
     }
     &::before {
@@ -167,8 +170,8 @@
         right: auto;
 
         &.dropdown-dir-top {
-            transform: translateY(0.75rem);
-            bottom: 2.1rem;
+            transform: translateY(1.15rem);
+            // bottom: 2.5rem;
         }
     }
 }
