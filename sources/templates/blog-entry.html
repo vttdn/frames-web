@@ -269,13 +269,19 @@
                     </label>
 
                     <ul class="dropdown-content dropdown-dir-top" role="menu">
-                        {% for language in all_languages %}
+                        {% for language in all_languages if language.code == lang %}
                         <li>
                             <a role="menuitem" href="{% if language.code in available_blog_languages and language.code in article_translations %}{{ language.url }}blog/{{ article_translations[language.code] }}/{% else %}{{ language.url }}{% endif %}">
                                 <span>{{ language.name }}</span>
-                                {% if language.code == lang %}
                                 <span>✓</span>
-                                {% endif %}
+                            </a>
+                        </li>
+                        <li aria-hidden="true" class="dropdown-separator"> </li>
+                        {% endfor %}
+                        {% for language in all_languages if language.code != lang %}
+                        <li>
+                            <a role="menuitem" href="{% if language.code in available_blog_languages and language.code in article_translations %}{{ language.url }}blog/{{ article_translations[language.code] }}/{% else %}{{ language.url }}{% endif %}">
+                                <span>{{ language.name }}</span>
                             </a>
                         </li>
                         {% endfor %}

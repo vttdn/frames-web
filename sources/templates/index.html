@@ -507,16 +507,23 @@
             <label for="lang-toggle" class="dropdown-button language">
                 <img src="/lib/newhome/icons/globe.svg" alt="" width="13" height="16" aria-hidden="true">
                 <span>{{ locale_data.footer.language_dropdown.label }}</span>
+                <!-- <img src="/lib/newhome/icons/chevron.down.svg" alt="" width="13" height="16" aria-hidden="true"> -->
             </label>
 
             <ul class="dropdown-content dropdown-dir-top" role="menu">
-                {% for language in all_languages %}
+                {% for language in all_languages if language.code == lang %}
                 <li role="menuitem">
                     <a href="{{ language.url }}">
                         <span>{{ language.name }}</span>
-                        {% if language.code == lang %}
                         <span>✓</span>
-                        {% endif %}
+                    </a>
+                </li>
+                <li aria-hidden="true" class="dropdown-separator"> </li>
+                {% endfor %}
+                {% for language in all_languages if language.code != lang %}
+                <li role="menuitem">
+                    <a href="{{ language.url }}">
+                        <span>{{ language.name }}</span>
                     </a>
                 </li>
                 {% endfor %}

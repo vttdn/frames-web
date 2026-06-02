@@ -99,29 +99,26 @@
     display: flex;
     align-items: center;
     gap: 0.1875rem;
+}
+
+.copyright,
+.compliance {
     opacity: 0.56;
 }
-.copyright,
-.language {
+
+.copyright {
     &:hover {
         opacity: 0.8;
     }
 
 }
 
-.language {
-    opacity: 0.8;
+// @media (max-width: 1068px) {
+//     .language {
+//         opacity: 0.56;
 
-    &:hover {
-        opacity: 1;
-    }
-}
-@media (max-width: 1068px) {
-    .language {
-        opacity: 0.56;
-
-        &:hover {
-            opacity: 0.8;
-        }
-    }
-}
+//         &:hover {
+//             opacity: 0.8;
+//         }
+//     }
+// }
