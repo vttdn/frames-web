@@ -16,7 +16,7 @@
         position: relative;
         width: 100%;
         flex: 1;
-        opacity: .56;
+        opacity: .8;
     }
 
     &::before {
@@ -33,7 +33,7 @@
 
     &:hover {
         span, img {
-            opacity: 0.8;
+            opacity: 1;
         }
 
         &::before {
@@ -43,6 +43,16 @@
 }
 
 @media (max-width: 1068px) {
+    .dropdown-button {
+        span, img {
+            opacity: 0.56;
+        }
+    }
+    .dropdown-button:hover {
+        span, img {
+            opacity: 0.8;
+        }
+    }
     .dropdown-button:hover {
         &::before {
             background: transparent;
@@ -134,7 +144,7 @@
 .dropdown-toggle:checked~.dropdown-button {
     &:hover {
         span, img {
-            opacity: 0.56;
+            opacity: 0.8;
         }
     }
     &::before {
