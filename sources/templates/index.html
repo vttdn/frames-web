@@ -342,7 +342,7 @@
               <p class="pricing-price">{{ locale_data.pricing.ios.price }}</p>
 
               <div class="pricing-subtitle">
-                <img src="/lib/newhome/icons/macbook.and.iphone.svg" alt="" width="24" height="16">
+                <!-- <img src="/lib/newhome/icons/macbook.and.iphone.svg" alt="" width="24" height="16"> -->
                 <p class="pricing-subtitle-descr">
                   {{ locale_data.pricing.subtitle }}
                 </p>
@@ -350,9 +350,10 @@
             </header>
 
             <ul class="pricing-features">
+                {% set feature_icons = ['film.svg', 'folder.svg', 'export.svg', 'tag.svg'] %}
                 {% for feature in locale_data.pricing.ios.features %}
                 <li class="pricing-feature">
-                    <img src="/lib/newhome/icons/checkmark.circle.fill.svg" alt="" width="16" height="21">
+                    <img src="/lib/newhome/icons/{{ feature_icons[loop.index0] }}" alt="" width="19" height="21">
                     <p class="pricing-feature-descr">{{ feature }}</p>
                 </li>
                 {% endfor %}
@@ -370,7 +371,7 @@
               <p class="pricing-price">{{ locale_data.pricing.ios.price_yearly }}</p>
 
               <div class="pricing-subtitle">
-                <img src="/lib/newhome/icons/macbook.and.iphone.svg" alt="" width="24" height="16">
+                <!-- <img src="/lib/newhome/icons/macbook.and.iphone.svg" alt="" width="24" height="16"> -->
                 <p class="pricing-subtitle-descr">
                   {{ locale_data.pricing.subtitle }}
                 </p>
@@ -378,9 +379,10 @@
             </header>
 
             <ul class="pricing-features">
+                {% set feature_icons = ['film.svg', 'folder.svg', 'export.svg', 'tag.svg'] %}
                 {% for feature in locale_data.pricing.ios.features %}
                 <li class="pricing-feature">
-                    <img src="/lib/newhome/icons/checkmark.circle.fill.svg" alt="" width="16" height="21">
+                    <img src="/lib/newhome/icons/{{ feature_icons[loop.index0] }}" alt="" width="19" height="21">
                     <p class="pricing-feature-descr">{{ feature }}</p>
                 </li>
                 {% endfor %}
@@ -399,7 +401,7 @@
               <p class="pricing-price">{{ locale_data.pricing.ios.price_lifetime }}</p>
 
               <div class="pricing-subtitle">
-                <img src="/lib/newhome/icons/macbook.and.iphone.svg" alt="" width="24" height="16">
+                <!-- <img src="/lib/newhome/icons/macbook.and.iphone.svg" alt="" width="24" height="16"> -->
                 <p class="pricing-subtitle-descr">
                   {{ locale_data.pricing.subtitle }}
                 </p>
@@ -407,9 +409,10 @@
             </header>
 
             <ul class="pricing-features">
+                {% set feature_icons = ['film.svg', 'folder.svg', 'export.svg', 'tag.svg'] %}
                 {% for feature in locale_data.pricing.ios.features %}
                 <li class="pricing-feature">
-                    <img src="/lib/newhome/icons/checkmark.circle.fill.svg" alt="" width="16" height="21">
+                    <img src="/lib/newhome/icons/{{ feature_icons[loop.index0] }}" alt="" width="19" height="21">
                     <p class="pricing-feature-descr">{{ feature }}</p>
                 </li>
                 {% endfor %}
