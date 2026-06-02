@@ -198,14 +198,22 @@ button.addEventListener('click', async () => {
 const dropdowns = Array.from(document.querySelectorAll('.dropdown'));
 
 if (dropdowns.length) {
-  document.addEventListener('pointerdown', (e) => {
+  // Close any open dropdown when the interaction is outside of it.
+  // We listen for both pointerdown and touchstart: on iOS Safari, pointer
+  // and click events are not dispatched to document-level listeners for taps
+  // on non-interactive elements (plain background), but touch events are, so
+  // touchstart is what actually closes the menu on a mobile tap.
+  function closeDropdownsOutside(e) {
     dropdowns.forEach(dropdown => {
       const toggle = dropdown.querySelector('.dropdown-toggle');
       if (toggle && toggle.checked && !dropdown.contains(e.target)) {
         toggle.checked = false;
       }
     });
-  });
+  }
+
+  document.addEventListener('pointerdown', closeDropdownsOutside);
+  document.addEventListener('touchstart', closeDropdownsOutside, { passive: true });
 
   document.addEventListener('keydown', (e) => {
     if (e.key !== 'Escape') return;
