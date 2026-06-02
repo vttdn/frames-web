@@ -148,3 +148,31 @@ button.addEventListener('click', async () => {
     button.setAttribute('aria-pressed', 'false');
   }
 });
+
+
+// Dropdowns (e.g. footer language picker)
+// Each .dropdown is a checkbox-driven menu. Close an open one when a click
+// (or tap) lands outside of it, and on Escape. The toggle label lives inside
+// .dropdown, so clicks that open the menu don't immediately close it.
+const dropdowns = Array.from(document.querySelectorAll('.dropdown'));
+
+if (dropdowns.length) {
+  document.addEventListener('pointerdown', (e) => {
+    dropdowns.forEach(dropdown => {
+      const toggle = dropdown.querySelector('.dropdown-toggle');
+      if (toggle && toggle.checked && !dropdown.contains(e.target)) {
+        toggle.checked = false;
+      }
+    });
+  });
+
+  document.addEventListener('keydown', (e) => {
+    if (e.key !== 'Escape') return;
+    dropdowns.forEach(dropdown => {
+      const toggle = dropdown.querySelector('.dropdown-toggle');
+      if (toggle && toggle.checked) {
+        toggle.checked = false;
+      }
+    });
+  });
+}

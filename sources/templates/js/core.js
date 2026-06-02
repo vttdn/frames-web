@@ -107,32 +107,32 @@ window.addEventListener('resize', getColumnIndexes);
 update();
 
 //
-// Top toolbar fixed position
-//
+// Top toolbar
+// Becomes "prominent" once the hero has scrolled out of view.
+// We use a sentinel + IntersectionObserver instead of comparing
+// window.scrollY against the hero height: the hero is position:fixed at
+// height:100vh, and on iOS Safari 100vh tracks the *large* viewport and
+// resizes as the address bar shows/hides, so the scrollY threshold was
+// never reliably crossed there and the header never changed on scroll.
   const toolbar = document.querySelector('.top-toolbar');
   const hero = document.querySelector('.hero');
 
-  let heroHeight = 0;
+  const heroSentinel = document.createElement('div');
+  heroSentinel.setAttribute('aria-hidden', 'true');
+  heroSentinel.style.cssText = 'position:absolute;top:0;left:0;width:1px;pointer-events:none;';
 
-  function updateHeroHeight() {
-    heroHeight = hero.offsetHeight;
+  function sizeSentinel() {
+    heroSentinel.style.height = hero.offsetHeight + 'px';
   }
 
-  function handleScroll() {
-    if (window.scrollY > heroHeight) {
-      toolbar.classList.add('prominent');
-    } else {
-      toolbar.classList.remove('prominent');
-    }
-  }
+  sizeSentinel();
+  document.body.prepend(heroSentinel);
 
-  // Initial calc
-  updateHeroHeight();
-  handleScroll();
+  new IntersectionObserver(([entry]) => {
+    toolbar.classList.toggle('prominent', !entry.isIntersecting);
+  }, { threshold: 0 }).observe(heroSentinel);
 
-  // Events
-  window.addEventListener('scroll', handleScroll);
-  window.addEventListener('resize', updateHeroHeight);
+  window.addEventListener('resize', sizeSentinel);
 
 
 // Video playback
@@ -189,3 +189,31 @@ button.addEventListener('click', async () => {
     button.setAttribute('aria-pressed', 'false');
   }
 });
+
+
+// Dropdowns (e.g. footer language picker)
+// Each .dropdown is a checkbox-driven menu. Close an open one when a click
+// (or tap) lands outside of it, and on Escape. The toggle label lives inside
+// .dropdown, so clicks that open the menu don't immediately close it.
+const dropdowns = Array.from(document.querySelectorAll('.dropdown'));
+
+if (dropdowns.length) {
+  document.addEventListener('pointerdown', (e) => {
+    dropdowns.forEach(dropdown => {
+      const toggle = dropdown.querySelector('.dropdown-toggle');
+      if (toggle && toggle.checked && !dropdown.contains(e.target)) {
+        toggle.checked = false;
+      }
+    });
+  });
+
+  document.addEventListener('keydown', (e) => {
+    if (e.key !== 'Escape') return;
+    dropdowns.forEach(dropdown => {
+      const toggle = dropdown.querySelector('.dropdown-toggle');
+      if (toggle && toggle.checked) {
+        toggle.checked = false;
+      }
+    });
+  });
+}
