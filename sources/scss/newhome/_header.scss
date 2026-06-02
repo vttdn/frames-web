@@ -63,6 +63,12 @@
     font-weight: 600;
 }
 
+@media (max-width: 732px) {
+    .logo {
+        font-size: 1.1875rem;
+    }
+}
+
 .hero {
     display: flex;
     position: fixed;
