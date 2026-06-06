@@ -85,12 +85,14 @@
             </ul>
           </div>
           {% elif section.type == 'media' %}
-            <figure class="wrapper figure-wrapper">
-              <div class="article-media article-media-blog">
-                        <img src="{{ section.image }}"
-                            srcset="{{ section.image }} 1x, {{ section.image_2x }} 2x"
-                            alt="{{ section.alt }}"
-                            width="{{ section.width }}" height="{{ section.height }}" loading="lazy">
+            <figure class="figure-wrapper">
+              <div class="wrapper">
+                <div class="article-media article-media-blog">
+                          <img src="{{ section.image }}"
+                              srcset="{{ section.image }} 1x, {{ section.image_2x }} 2x"
+                              alt="{{ section.alt }}"
+                              width="{{ section.width }}" height="{{ section.height }}" loading="lazy">
+                </div>
               </div>
                 {% if section.caption %}
                 <figcaption class="wrapper-small">{{ section.caption }}</figcaption>
