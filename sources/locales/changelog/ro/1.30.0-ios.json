@@ -1,0 +1,53 @@
+{
+  "version": "1.30.0",
+  "version_short": "1.30",
+  "url_slug": "1-30-ios",
+  "platform": "ios",
+  "release_date": "2026-06-23T10:00:00.000Z",
+  "title": "Sincronizare iCloud",
+  "summary": "Sincronizează filmele, dosarele și metadatele între iPhone și iPad cu sincronizarea iCloud opțională. Păstrează biblioteca salvată automat și restaureaz-o cu ușurință când treci pe un dispozitiv nou.",
+  "sections": [
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.30.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.30.0-1@2x.png",
+      "alt": "Aplicația Frames cu sincronizarea iCloud activată",
+      "width": "400",
+      "height": "300",
+      "caption": "Actualizarea Frames iOS 1.30"
+    },
+    {
+      "type": "paragraph",
+      "content": "Frames acceptă acum sincronizarea iCloud opțională. Când este activată, filmele, dosarele și metadatele tale sunt sincronizate automat pe toate dispozitivele tale iOS care folosesc același cont Apple. Fie că folosești Frames pe un iPhone, pe un iPad sau pe ambele, biblioteca ta rămâne actualizată fără pași manuali de export sau import."
+    },
+    {
+      "type": "paragraph",
+      "content": "Această actualizare oferă și o modalitate nouă și comodă de a face copii de siguranță și de a-ți restaura datele. Dacă îți înlocuiești dispozitivul sau configurezi un iPhone nou, datele tale sincronizate pot fi descărcate din iCloud și restaurate automat după autentificare. Procesul de sincronizare este conceput să fie fluid și rapid, astfel încât modificările tale apar pe toate dispozitivele cu o întârziere minimă."
+    },
+    {
+      "type": "paragraph",
+      "content": "Înainte de această actualizare, păstrarea datelor necesita crearea unei copii de siguranță a iPhone-ului prin Finder pe un Mac și restaurarea acelei copii pe un dispozitiv nou. Deși această metodă funcționează în continuare, sincronizarea iCloud oferă o alternativă mai comodă, care nu necesită conectarea dispozitivului la un computer."
+    },
+    {
+      "type": "paragraph",
+      "content": "Aplicația continuă să folosească implicit stocarea locală. Sincronizarea iCloud este complet opțională și poate fi activată sau dezactivată oricând din ecranul Configurări. Când este activată, datele tale sunt stocate în contul tău iCloud personal și sincronizate prin infrastructura Apple."
+    },
+    {
+      "type": "paragraph",
+      "content": "Frames nu operează niciun server pentru sincronizare, iar biblioteca ta rămâne privată și accesibilă doar prin contul tău Apple. Politica de confidențialitate a fost actualizată pentru a documenta modul în care sunt gestionate datele atunci când sincronizarea este activată."
+    }
+  ],
+  "improvements": [
+    "Sincronizare iCloud pentru filme, dosare și metadate",
+    "Flux simplificat de creare a copiilor de siguranță și de restaurare cu iCloud"
+  ],
+  "fixes": [
+    {
+      "title": "Pictogramele din meniul de export",
+      "description": "Pictogramele lipsă din meniul de export au fost restaurate pe dispozitivele cu iOS 17."
+    }
+  ],
+  "patches": [],
+  "meta_title": "Sincronizare iCloud - Frames",
+  "meta_description": "Sincronizează filmele, dosarele și metadatele între dispozitivele tale cu sincronizarea iCloud opțională din Frames."
+}

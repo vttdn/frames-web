@@ -1,0 +1,53 @@
+{
+  "version": "1.30.0",
+  "version_short": "1.30",
+  "url_slug": "1-30-ios",
+  "platform": "ios",
+  "release_date": "2026-06-23T10:00:00.000Z",
+  "title": "Sinkronisasi iCloud",
+  "summary": "Sinkronkan film, folder, dan metadata antara iPhone dan iPad Anda dengan sinkronisasi iCloud opsional. Cadangkan perpustakaan Anda secara otomatis dan pulihkan dengan mudah saat beralih ke perangkat baru.",
+  "sections": [
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.30.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.30.0-1@2x.png",
+      "alt": "Aplikasi Frames dengan sinkronisasi iCloud diaktifkan",
+      "width": "400",
+      "height": "300",
+      "caption": "Pembaruan Frames iOS 1.30"
+    },
+    {
+      "type": "paragraph",
+      "content": "Frames kini mendukung sinkronisasi iCloud opsional. Saat diaktifkan, film, folder, dan metadata Anda otomatis disinkronkan di semua perangkat iOS yang menggunakan Akun Apple yang sama. Baik Anda menggunakan Frames di iPhone, iPad, maupun keduanya, perpustakaan Anda tetap terbarui tanpa langkah ekspor atau impor manual."
+    },
+    {
+      "type": "paragraph",
+      "content": "Pembaruan ini juga menghadirkan cara baru yang praktis untuk mencadangkan dan memulihkan data Anda. Jika Anda mengganti perangkat atau menyiapkan iPhone baru, data yang telah disinkronkan dapat diunduh dari iCloud dan dipulihkan secara otomatis setelah masuk. Proses sinkronisasi dirancang agar mulus dan cepat, sehingga perubahan Anda muncul di seluruh perangkat dengan jeda yang minimal."
+    },
+    {
+      "type": "paragraph",
+      "content": "Sebelum pembaruan ini, menjaga data Anda memerlukan pembuatan cadangan iPhone melalui Finder di Mac dan memulihkan cadangan tersebut ke perangkat baru. Meski cara itu masih berfungsi, sinkronisasi iCloud menawarkan alternatif yang lebih praktis dan tidak mengharuskan Anda menghubungkan perangkat ke komputer."
+    },
+    {
+      "type": "paragraph",
+      "content": "Aplikasi tetap menggunakan penyimpanan lokal secara default. Sinkronisasi iCloud sepenuhnya opsional dan dapat diaktifkan atau dinonaktifkan kapan saja dari layar Pengaturan. Saat diaktifkan, data Anda disimpan di akun iCloud pribadi Anda dan disinkronkan melalui infrastruktur Apple."
+    },
+    {
+      "type": "paragraph",
+      "content": "Frames tidak mengoperasikan server apa pun untuk sinkronisasi, dan perpustakaan Anda tetap bersifat pribadi serta hanya dapat diakses melalui Akun Apple Anda. Kebijakan privasi telah diperbarui untuk mendokumentasikan cara penanganan data saat sinkronisasi diaktifkan."
+    }
+  ],
+  "improvements": [
+    "Sinkronisasi iCloud untuk film, folder, dan metadata",
+    "Alur pencadangan dan pemulihan yang disederhanakan menggunakan iCloud"
+  ],
+  "fixes": [
+    {
+      "title": "Ikon menu ekspor",
+      "description": "Ikon yang hilang pada menu ekspor telah dipulihkan di perangkat iOS 17."
+    }
+  ],
+  "patches": [],
+  "meta_title": "Sinkronisasi iCloud - Frames",
+  "meta_description": "Sinkronkan film, folder, dan metadata di seluruh perangkat Anda dengan sinkronisasi iCloud opsional di Frames."
+}

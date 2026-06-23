@@ -290,7 +290,7 @@
     },
     "question5": {
       "question": "Hur synkroniserar jag data mellan iPhone och Mac?",
-      "answer": "Genom att exportera en .frames-fil. Använd exportmenyn på iPhone och dela den till din Mac via AirDrop, Meddelanden eller valfri metod. På Mac importerar du den direkt och fortsätter precis där du slutade. Det finns ingen automatisk molnsynkronisering, och det är ett medvetet val. Din data stannar på dina egna enheter, under din kontroll, utan att passera någon server."
+      "answer": "Genom att exportera en .frames-fil. Använd exportmenyn på iPhone och dela den till din Mac via AirDrop, Meddelanden eller valfri metod. På Mac importerar du den direkt och fortsätter precis där du slutade. Det finns ingen automatisk synkronisering, och det är ett medvetet val. Din data stannar på dina enheter, under din kontroll, utan att passera någon server."
     },
     "question6": {
       "question": "Fungerar Frames offline?",
@@ -572,7 +572,7 @@
       },
       "feature4": {
         "title": "Integritet i första hand",
-        "description": "Frames lagrar allt lokalt utan någon molnanslutning. Dina anteckningar och metadata lämnar aldrig din enhet om du inte exporterar dem själv. Inget konto krävs, ingen bakgrundssynkronisering, inga servrar. Det du fångar förblir helt i dina händer, privat och säkert by design.",
+        "description": "Frames lagrar som standard allt lokalt. Dina anteckningar och metadata lämnar aldrig din enhet om du inte väljer att aktivera iCloud-synkronisering eller exporterar dem. Inget konto krävs, inga servrar som drivs av utvecklaren och full kontroll över din data. Det du fångar förblir privat och säkert by design.",
         "privacy_note1": "Du behåller dina data för dig själv.",
         "privacy_note2": "Vi varken delar eller säljer dem."
       }

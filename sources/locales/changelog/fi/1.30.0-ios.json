@@ -1,0 +1,53 @@
+{
+  "version": "1.30.0",
+  "version_short": "1.30",
+  "url_slug": "1-30-ios",
+  "platform": "ios",
+  "release_date": "2026-06-23T10:00:00.000Z",
+  "title": "iCloud-synkronointi",
+  "summary": "Synkronoi filmirullat, kansiot ja metatiedot iPhonen ja iPadin välillä valinnaisella iCloud-synkronoinnilla. Pidä kirjastosi automaattisesti varmuuskopioituna ja palauta se vaivattomasti uuteen laitteeseen.",
+  "sections": [
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.30.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.30.0-1@2x.png",
+      "alt": "Frames-sovellus iCloud-synkronointi käytössä",
+      "width": "400",
+      "height": "300",
+      "caption": "Frames iOS 1.30 -päivitys"
+    },
+    {
+      "type": "paragraph",
+      "content": "Frames tukee nyt valinnaista iCloud-synkronointia. Kun se on käytössä, filmirullasi, kansiosi ja metatietosi synkronoidaan automaattisesti kaikkien samaa Apple-tiliä käyttävien iOS-laitteidesi välillä. Käytitpä Framesia iPhonella, iPadilla tai molemmilla, kirjastosi pysyy ajan tasalla ilman manuaalisia vienti- tai tuontivaiheita."
+    },
+    {
+      "type": "paragraph",
+      "content": "Tämä päivitys tarjoaa myös kätevän uuden tavan varmuuskopioida ja palauttaa tietosi. Jos vaihdat laitetta tai otat käyttöön uuden iPhonen, synkronoidut tietosi voidaan ladata iCloudista ja palauttaa automaattisesti sisäänkirjautumisen jälkeen. Synkronointi on suunniteltu saumattomaksi ja nopeaksi, joten muutoksesi näkyvät laitteissasi mahdollisimman pienellä viiveellä."
+    },
+    {
+      "type": "paragraph",
+      "content": "Ennen tätä päivitystä tietojesi säilyttäminen edellytti iPhonen varmuuskopion luomista Macin Finderilla ja kyseisen varmuuskopion palauttamista uuteen laitteeseen. Vaikka tämä tapa toimii edelleen, iCloud-synkronointi tarjoaa kätevämmän vaihtoehdon, joka ei vaadi laitteen liittämistä tietokoneeseen."
+    },
+    {
+      "type": "paragraph",
+      "content": "Sovellus käyttää oletuksena edelleen paikallista tallennustilaa. iCloud-synkronointi on täysin valinnainen, ja sen voi ottaa käyttöön tai poistaa käytöstä milloin tahansa Asetukset-näytöltä. Kun se on käytössä, tietosi tallennetaan henkilökohtaiselle iCloud-tilillesi ja synkronoidaan Applen infrastruktuurin kautta."
+    },
+    {
+      "type": "paragraph",
+      "content": "Frames ei ylläpidä lainkaan synkronointipalvelimia, ja kirjastosi pysyy yksityisenä ja vain Apple-tilisi kautta käytettävissä. Tietosuojakäytäntö on päivitetty kuvaamaan, miten tietoja käsitellään, kun synkronointi on käytössä."
+    }
+  ],
+  "improvements": [
+    "Filmirullien, kansioiden ja metatietojen iCloud-synkronointi",
+    "Yksinkertaistettu varmuuskopiointi ja palautus iCloudin avulla"
+  ],
+  "fixes": [
+    {
+      "title": "Vientivalikon kuvakkeet",
+      "description": "Vientivalikosta puuttuneet kuvakkeet on palautettu iOS 17 -laitteissa."
+    }
+  ],
+  "patches": [],
+  "meta_title": "iCloud-synkronointi - Frames",
+  "meta_description": "Synkronoi filmirullat, kansiot ja metatiedot laitteidesi välillä Framesin valinnaisella iCloud-synkronoinnilla."
+}

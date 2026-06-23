@@ -1,0 +1,53 @@
+{
+  "version": "1.30.0",
+  "version_short": "1.30",
+  "url_slug": "1-30-ios",
+  "platform": "ios",
+  "release_date": "2026-06-23T10:00:00.000Z",
+  "title": "Đồng bộ hóa iCloud",
+  "summary": "Đồng bộ hóa cuộn phim, thư mục và siêu dữ liệu giữa iPhone và iPad bằng tính năng đồng bộ iCloud tùy chọn. Tự động sao lưu thư viện của bạn và khôi phục dễ dàng khi chuyển sang thiết bị mới.",
+  "sections": [
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.30.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.30.0-1@2x.png",
+      "alt": "Ứng dụng Frames đã bật tính năng đồng bộ hóa iCloud",
+      "width": "400",
+      "height": "300",
+      "caption": "Bản cập nhật Frames iOS 1.30"
+    },
+    {
+      "type": "paragraph",
+      "content": "Frames hiện hỗ trợ tính năng đồng bộ hóa iCloud tùy chọn. Khi được bật, các cuộn phim, thư mục và siêu dữ liệu của bạn sẽ tự động đồng bộ trên mọi thiết bị iOS dùng chung một Tài khoản Apple. Dù bạn dùng Frames trên iPhone, iPad hay cả hai, thư viện của bạn luôn được cập nhật mà không cần thao tác xuất hay nhập thủ công."
+    },
+    {
+      "type": "paragraph",
+      "content": "Bản cập nhật này cũng mang đến một cách mới tiện lợi để sao lưu và khôi phục dữ liệu. Nếu bạn thay thiết bị hoặc thiết lập một chiếc iPhone mới, dữ liệu đã đồng bộ có thể được tải về từ iCloud và khôi phục tự động sau khi đăng nhập. Quá trình đồng bộ được thiết kế liền mạch và nhanh chóng, giúp các thay đổi của bạn xuất hiện trên các thiết bị với độ trễ tối thiểu."
+    },
+    {
+      "type": "paragraph",
+      "content": "Trước bản cập nhật này, để giữ lại dữ liệu, bạn phải tạo bản sao lưu iPhone thông qua Finder trên máy Mac rồi khôi phục bản sao lưu đó sang thiết bị mới. Dù cách này vẫn hoạt động, tính năng đồng bộ iCloud mang lại một lựa chọn tiện lợi hơn mà không cần kết nối thiết bị với máy tính."
+    },
+    {
+      "type": "paragraph",
+      "content": "Ứng dụng vẫn sử dụng bộ nhớ cục bộ theo mặc định. Tính năng đồng bộ iCloud hoàn toàn tùy chọn và có thể bật hoặc tắt bất cứ lúc nào trong màn hình Cài đặt. Khi được bật, dữ liệu của bạn sẽ được lưu trong tài khoản iCloud cá nhân và đồng bộ qua hạ tầng của Apple."
+    },
+    {
+      "type": "paragraph",
+      "content": "Frames không vận hành bất kỳ máy chủ nào cho việc đồng bộ, và thư viện của bạn luôn ở chế độ riêng tư, chỉ có thể truy cập thông qua Tài khoản Apple của bạn. Chính sách quyền riêng tư đã được cập nhật để mô tả cách dữ liệu được xử lý khi bật tính năng đồng bộ."
+    }
+  ],
+  "improvements": [
+    "Đồng bộ hóa iCloud cho cuộn phim, thư mục và siêu dữ liệu",
+    "Quy trình sao lưu và khôi phục được đơn giản hóa nhờ iCloud"
+  ],
+  "fixes": [
+    {
+      "title": "Biểu tượng trong menu xuất",
+      "description": "Các biểu tượng bị thiếu trong menu xuất đã được khôi phục trên thiết bị iOS 17."
+    }
+  ],
+  "patches": [],
+  "meta_title": "Đồng bộ hóa iCloud - Frames",
+  "meta_description": "Đồng bộ hóa cuộn phim, thư mục và siêu dữ liệu trên các thiết bị của bạn bằng tính năng đồng bộ iCloud tùy chọn trong Frames."
+}

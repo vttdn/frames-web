@@ -1,0 +1,53 @@
+{
+  "version": "1.30.0",
+  "version_short": "1.30",
+  "url_slug": "1-30-ios",
+  "platform": "ios",
+  "release_date": "2026-06-23T10:00:00.000Z",
+  "title": "iCloud-synkronisering",
+  "summary": "Synkronisera film, mappar och metadata mellan din iPhone och iPad med valfri iCloud-synkronisering. Säkerhetskopiera ditt bibliotek automatiskt och återställ det enkelt när du byter till en ny enhet.",
+  "sections": [
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.30.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.30.0-1@2x.png",
+      "alt": "Frames-appen med iCloud-synkronisering aktiverad",
+      "width": "400",
+      "height": "300",
+      "caption": "Frames iOS 1.30-uppdatering"
+    },
+    {
+      "type": "paragraph",
+      "content": "Frames har nu stöd för valfri iCloud-synkronisering. När den är aktiverad synkroniseras dina film, mappar och metadata automatiskt mellan alla dina iOS-enheter som använder samma Apple-konto. Oavsett om du använder Frames på en iPhone, en iPad eller båda hålls ditt bibliotek uppdaterat utan några manuella export- eller importsteg."
+    },
+    {
+      "type": "paragraph",
+      "content": "Den här uppdateringen ger också ett smidigt nytt sätt att säkerhetskopiera och återställa dina data. Om du byter enhet eller ställer in en ny iPhone kan dina synkroniserade data laddas ned från iCloud och återställas automatiskt efter inloggning. Synkroniseringen är utformad för att vara sömlös och snabb, så att dina ändringar visas på alla enheter med minimal fördröjning."
+    },
+    {
+      "type": "paragraph",
+      "content": "Före den här uppdateringen krävdes det att du skapade en säkerhetskopia av din iPhone via Finder på en Mac och återställde den säkerhetskopian på en ny enhet för att bevara dina data. Även om den metoden fortfarande fungerar erbjuder iCloud-synkronisering ett smidigare alternativ som inte kräver att du ansluter enheten till en dator."
+    },
+    {
+      "type": "paragraph",
+      "content": "Appen använder fortfarande lokal lagring som standard. iCloud-synkronisering är helt valfri och kan aktiveras eller inaktiveras när som helst från skärmen Inställningar. När den är aktiverad lagras dina data på ditt personliga iCloud-konto och synkroniseras via Apples infrastruktur."
+    },
+    {
+      "type": "paragraph",
+      "content": "Frames driver inga servrar för synkronisering, och ditt bibliotek förblir privat och endast åtkomligt via ditt Apple-konto. Integritetspolicyn har uppdaterats för att dokumentera hur data hanteras när synkronisering är aktiverad."
+    }
+  ],
+  "improvements": [
+    "iCloud-synkronisering av film, mappar och metadata",
+    "Förenklat arbetsflöde för säkerhetskopiering och återställning med iCloud"
+  ],
+  "fixes": [
+    {
+      "title": "Ikoner i exportmenyn",
+      "description": "Ikoner som saknades i exportmenyn har återställts på iOS 17-enheter."
+    }
+  ],
+  "patches": [],
+  "meta_title": "iCloud-synkronisering - Frames",
+  "meta_description": "Synkronisera film, mappar och metadata mellan dina enheter med valfri iCloud-synkronisering i Frames."
+}

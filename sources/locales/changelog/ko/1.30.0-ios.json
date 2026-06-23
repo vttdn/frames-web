@@ -1,0 +1,53 @@
+{
+  "version": "1.30.0",
+  "version_short": "1.30",
+  "url_slug": "1-30-ios",
+  "platform": "ios",
+  "release_date": "2026-06-23T10:00:00.000Z",
+  "title": "iCloud 동기화",
+  "summary": "선택적 iCloud 동기화로 필름, 폴더, 메타데이터를 iPhone과 iPad 간에 동기화하세요. 라이브러리를 자동으로 백업하고 새 기기로 옮길 때 손쉽게 복원할 수 있습니다.",
+  "sections": [
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.30.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.30.0-1@2x.png",
+      "alt": "iCloud 동기화가 켜진 Frames 앱",
+      "width": "400",
+      "height": "300",
+      "caption": "Frames iOS 1.30 업데이트"
+    },
+    {
+      "type": "paragraph",
+      "content": "이제 Frames에서 선택적 iCloud 동기화를 지원합니다. 켜면 필름, 폴더, 메타데이터가 동일한 Apple 계정을 사용하는 모든 iOS 기기 간에 자동으로 동기화됩니다. iPhone, iPad 또는 두 기기 모두에서 Frames를 사용하더라도 수동 내보내기나 가져오기 없이 라이브러리가 항상 최신 상태로 유지됩니다."
+    },
+    {
+      "type": "paragraph",
+      "content": "이번 업데이트는 데이터를 백업하고 복원하는 편리한 새 방법도 제공합니다. 기기를 교체하거나 새 iPhone을 설정하는 경우, 동기화된 데이터를 iCloud에서 다운로드하여 로그인 후 자동으로 복원할 수 있습니다. 동기화 과정은 매끄럽고 빠르게 설계되어 변경 사항이 최소한의 지연으로 여러 기기에 반영됩니다."
+    },
+    {
+      "type": "paragraph",
+      "content": "이번 업데이트 이전에는 데이터를 보존하려면 Mac의 Finder를 통해 iPhone 백업을 만들고 그 백업을 새 기기에 복원해야 했습니다. 이 방법도 계속 사용할 수 있지만, iCloud 동기화는 기기를 컴퓨터에 연결할 필요가 없는 더 편리한 대안을 제공합니다."
+    },
+    {
+      "type": "paragraph",
+      "content": "앱은 기본적으로 계속 로컬 저장소를 사용합니다. iCloud 동기화는 완전히 선택 사항이며 설정 화면에서 언제든지 켜거나 끌 수 있습니다. 켜면 데이터가 개인 iCloud 계정에 저장되고 Apple의 인프라를 통해 동기화됩니다."
+    },
+    {
+      "type": "paragraph",
+      "content": "Frames는 동기화를 위한 어떠한 서버도 운영하지 않으며, 라이브러리는 비공개로 유지되어 본인의 Apple 계정을 통해서만 접근할 수 있습니다. 동기화를 켰을 때 데이터가 처리되는 방식을 설명하기 위해 개인정보 처리방침을 업데이트했습니다."
+    }
+  ],
+  "improvements": [
+    "필름, 폴더, 메타데이터의 iCloud 동기화",
+    "iCloud를 사용한 백업 및 복원 과정 간소화"
+  ],
+  "fixes": [
+    {
+      "title": "내보내기 메뉴 아이콘",
+      "description": "내보내기 메뉴에서 누락되었던 아이콘을 iOS 17 기기에서 복원했습니다"
+    }
+  ],
+  "patches": [],
+  "meta_title": "iCloud 동기화 - Frames",
+  "meta_description": "선택적 iCloud 동기화로 필름, 폴더, 메타데이터를 여러 기기 간에 동기화하세요. Frames에서 라이브러리를 안전하게 보관하세요."
+}

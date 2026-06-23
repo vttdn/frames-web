@@ -1,0 +1,53 @@
+{
+"version": "1.30.0",
+"version_short": "1.30",
+"url_slug": "1-30-ios",
+"platform": "ios",
+"release_date": "2026-06-23T10:00:00.000Z",
+"title": "iCloud synchronization",
+"summary": "Synchronize films, folders, and metadata across your iPhone and iPad with optional iCloud sync. Keep your library backed up automatically and restore it easily when moving to a new device.",
+"sections": [
+{
+"type": "media",
+"image": "/lib/img/shared/changelog/frames-1.30.0-1.png",
+"image_2x": "/lib/img/shared/changelog/frames-1.30.0-1@2x.png",
+"alt": "Frames app with iCloud synchronization enabled",
+"width": "400",
+"height": "300",
+"caption": "Frames iOS 1.30 update"
+},
+{
+"type": "paragraph",
+"content": "Frames now supports optional iCloud synchronization. When enabled, your films, folders, and metadata are automatically synchronized across all of your iOS devices using the same Apple Account. Whether you use Frames on an iPhone, an iPad, or both, your library stays up to date without any manual export or import steps."
+},
+{
+"type": "paragraph",
+"content": "This update also provides a convenient new way to back up and restore your data. If you replace your device or set up a new iPhone, your synchronized data can be downloaded from iCloud and restored automatically after signing in. The synchronization process is designed to be seamless and fast, allowing your changes to appear across devices with minimal delay."
+},
+{
+"type": "paragraph",
+"content": "Before this update, preserving your data required creating a backup of your iPhone through Finder on a Mac and restoring that backup onto a new device. While that approach continues to work, iCloud synchronization offers a more convenient alternative that does not require connecting your device to a computer."
+},
+{
+"type": "paragraph",
+"content": "The app continues to use local storage by default. iCloud synchronization is entirely optional and can be enabled or disabled at any time from the Settings screen. When enabled, your data is stored in your personal iCloud account and synchronized through Apple's infrastructure."
+},
+{
+"type": "paragraph",
+"content": "Frames does not operate any servers for synchronization, and your library remains private and accessible only through your Apple Account. The privacy policy has been updated to document how data is handled when synchronization is enabled."
+}
+],
+"improvements": [
+"iCloud synchronization for films, folders, and metadata",
+"Simplified backup and restore workflow using iCloud"
+],
+"fixes": [
+  {
+    "title": "Export menu icons",
+    "description": "Missing icons in the export menu have been restored on iOS 17 devices."
+  }
+],
+"patches": [],
+"meta_title": "iCloud synchronization - Frames",
+"meta_description": "Synchronize films, folders, and metadata across your devices with optional iCloud sync in Frames."
+}

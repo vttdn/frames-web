@@ -1,0 +1,53 @@
+{
+  "version": "1.30.0",
+  "version_short": "1.30",
+  "url_slug": "1-30-ios",
+  "platform": "ios",
+  "release_date": "2026-06-23T10:00:00.000Z",
+  "title": "iCloud-Synchronisation",
+  "summary": "Synchronisiere Filmrollen, Ordner und Metadaten zwischen iPhone und iPad mit der optionalen iCloud-Synchronisation. Sichere deine Bibliothek automatisch und stelle sie auf einem neuen Gerät mühelos wieder her.",
+  "sections": [
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.30.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.30.0-1@2x.png",
+      "alt": "Frames App mit aktivierter iCloud-Synchronisation",
+      "width": "400",
+      "height": "300",
+      "caption": "Frames iOS 1.30 Update"
+    },
+    {
+      "type": "paragraph",
+      "content": "Frames unterstützt jetzt die optionale iCloud-Synchronisation. Sobald sie aktiviert ist, werden deine Filmrollen, Ordner und Metadaten automatisch auf allen deinen iOS-Geräten mit demselben Apple-Account synchronisiert. Egal, ob du Frames auf einem iPhone, einem iPad oder beiden verwendest, deine Bibliothek bleibt ohne manuelle Export- oder Importschritte stets auf dem neuesten Stand."
+    },
+    {
+      "type": "paragraph",
+      "content": "Dieses Update bietet außerdem eine praktische neue Möglichkeit, deine Daten zu sichern und wiederherzustellen. Wenn du dein Gerät ersetzt oder ein neues iPhone einrichtest, lassen sich deine synchronisierten Daten aus iCloud laden und nach der Anmeldung automatisch wiederherstellen. Die Synchronisation ist nahtlos und schnell gestaltet, sodass deine Änderungen mit minimaler Verzögerung auf allen Geräten erscheinen."
+    },
+    {
+      "type": "paragraph",
+      "content": "Vor diesem Update war zum Sichern deiner Daten ein Backup deines iPhones über den Finder auf einem Mac und das anschließende Wiederherstellen dieses Backups auf einem neuen Gerät erforderlich. Diese Methode funktioniert weiterhin, doch die iCloud-Synchronisation bietet eine komfortablere Alternative, bei der du dein Gerät nicht mit einem Computer verbinden musst."
+    },
+    {
+      "type": "paragraph",
+      "content": "Die App nutzt standardmäßig weiterhin den lokalen Speicher. Die iCloud-Synchronisation ist vollständig optional und kann jederzeit über den Bildschirm „Einstellungen“ aktiviert oder deaktiviert werden. Sobald sie aktiviert ist, werden deine Daten in deinem persönlichen iCloud-Account gespeichert und über die Infrastruktur von Apple synchronisiert."
+    },
+    {
+      "type": "paragraph",
+      "content": "Frames betreibt keine eigenen Server für die Synchronisation, und deine Bibliothek bleibt privat und ist ausschließlich über deinen Apple-Account zugänglich. Die Datenschutzrichtlinie wurde aktualisiert, um zu dokumentieren, wie Daten bei aktivierter Synchronisation verarbeitet werden."
+    }
+  ],
+  "improvements": [
+    "iCloud-Synchronisation für Filmrollen, Ordner und Metadaten",
+    "Vereinfachter Sicherungs- und Wiederherstellungsprozess mit iCloud"
+  ],
+  "fixes": [
+    {
+      "title": "Symbole im Exportmenü",
+      "description": "Fehlende Symbole im Exportmenü wurden auf Geräten mit iOS 17 wiederhergestellt."
+    }
+  ],
+  "patches": [],
+  "meta_title": "iCloud-Synchronisation - Frames",
+  "meta_description": "Synchronisiere Filmrollen, Ordner und Metadaten geräteübergreifend mit der optionalen iCloud-Synchronisation in Frames."
+}

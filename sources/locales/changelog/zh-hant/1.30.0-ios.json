@@ -1,0 +1,53 @@
+{
+  "version": "1.30.0",
+  "version_short": "1.30",
+  "url_slug": "1-30-ios",
+  "platform": "ios",
+  "release_date": "2026-06-23T10:00:00.000Z",
+  "title": "iCloud 同步",
+  "summary": "透過選用的 iCloud 同步，在 iPhone 與 iPad 之間同步底片、檔案夾與中繼資料。自動備份你的資料庫，並在更換新裝置時輕鬆還原。",
+  "sections": [
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.30.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.30.0-1@2x.png",
+      "alt": "已啟用 iCloud 同步的 Frames App",
+      "width": "400",
+      "height": "300",
+      "caption": "Frames iOS 1.30 更新"
+    },
+    {
+      "type": "paragraph",
+      "content": "Frames 現已支援選用的 iCloud 同步。啟用後，你的底片、檔案夾與中繼資料會在使用同一 Apple 帳號的所有 iOS 裝置之間自動同步。無論你在 iPhone、iPad 或兩者上使用 Frames，資料庫都會保持最新，無需任何手動輸出或輸入步驟。"
+    },
+    {
+      "type": "paragraph",
+      "content": "此次更新也提供了備份與還原資料的便利新方式。如果你更換裝置或設定新的 iPhone，同步的資料可從 iCloud 下載，並在登入後自動還原。同步過程設計得流暢又快速，讓你的變更以極小的延遲在各裝置間呈現。"
+    },
+    {
+      "type": "paragraph",
+      "content": "在此次更新之前，若要保留資料，必須在 Mac 上透過 Finder 為 iPhone 建立備份，再將該備份還原到新裝置上。雖然這種方式依然有效，但 iCloud 同步提供了更便利的替代方案，無需將裝置連接到電腦。"
+    },
+    {
+      "type": "paragraph",
+      "content": "App 預設仍使用本機儲存空間。iCloud 同步完全選用，可隨時在設定畫面中啟用或停用。啟用後，你的資料會儲存在你的個人 iCloud 帳號中，並透過 Apple 的基礎架構進行同步。"
+    },
+    {
+      "type": "paragraph",
+      "content": "Frames 不營運任何用於同步的伺服器，你的資料庫始終保持私密，僅可透過你的 Apple 帳號存取。隱私權政策已更新，以說明啟用同步後資料的處理方式。"
+    }
+  ],
+  "improvements": [
+    "底片、檔案夾與中繼資料的 iCloud 同步",
+    "透過 iCloud 簡化備份與還原流程"
+  ],
+  "fixes": [
+    {
+      "title": "輸出選單圖示",
+      "description": "已在 iOS 17 裝置上還原輸出選單中缺少的圖示"
+    }
+  ],
+  "patches": [],
+  "meta_title": "iCloud 同步 - Frames",
+  "meta_description": "透過 Frames 中選用的 iCloud 同步，在你的各台裝置之間同步底片、檔案夾與中繼資料，讓資料庫隨時保持最新。"
+}

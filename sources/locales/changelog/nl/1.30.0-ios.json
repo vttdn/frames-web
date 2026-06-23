@@ -1,0 +1,53 @@
+{
+  "version": "1.30.0",
+  "version_short": "1.30",
+  "url_slug": "1-30-ios",
+  "platform": "ios",
+  "release_date": "2026-06-23T10:00:00.000Z",
+  "title": "iCloud-synchronisatie",
+  "summary": "Synchroniseer filmrollen, mappen en metadata tussen je iPhone en iPad met de optionele iCloud-synchronisatie. Maak automatisch een back-up van je bibliotheek en zet deze eenvoudig terug op een nieuw apparaat.",
+  "sections": [
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.30.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.30.0-1@2x.png",
+      "alt": "Frames-app met ingeschakelde iCloud-synchronisatie",
+      "width": "400",
+      "height": "300",
+      "caption": "Frames iOS 1.30-update"
+    },
+    {
+      "type": "paragraph",
+      "content": "Frames ondersteunt nu optionele iCloud-synchronisatie. Wanneer deze is ingeschakeld, worden je filmrollen, mappen en metadata automatisch gesynchroniseerd op al je iOS-apparaten die hetzelfde Apple Account gebruiken. Of je Frames nu op een iPhone, een iPad of beide gebruikt, je bibliotheek blijft up-to-date zonder handmatige export- of importstappen."
+    },
+    {
+      "type": "paragraph",
+      "content": "Deze update biedt ook een handige nieuwe manier om een back-up van je gegevens te maken en deze terug te zetten. Als je je apparaat vervangt of een nieuwe iPhone instelt, kunnen je gesynchroniseerde gegevens vanuit iCloud worden gedownload en na het inloggen automatisch worden teruggezet. Het synchronisatieproces is ontworpen om naadloos en snel te zijn, zodat je wijzigingen met minimale vertraging op al je apparaten verschijnen."
+    },
+    {
+      "type": "paragraph",
+      "content": "Voor deze update moest je om je gegevens te bewaren een back-up van je iPhone maken via de Finder op een Mac en die back-up vervolgens terugzetten op een nieuw apparaat. Hoewel die methode nog steeds werkt, biedt iCloud-synchronisatie een handiger alternatief waarbij je je apparaat niet op een computer hoeft aan te sluiten."
+    },
+    {
+      "type": "paragraph",
+      "content": "De app gebruikt standaard nog steeds lokale opslag. iCloud-synchronisatie is volledig optioneel en kan op elk moment worden in- of uitgeschakeld via het scherm Instellingen. Wanneer deze is ingeschakeld, worden je gegevens opgeslagen in je persoonlijke iCloud-account en gesynchroniseerd via de infrastructuur van Apple."
+    },
+    {
+      "type": "paragraph",
+      "content": "Frames beheert geen enkele server voor synchronisatie, en je bibliotheek blijft privé en alleen toegankelijk via je Apple Account. Het privacybeleid is bijgewerkt om te documenteren hoe gegevens worden verwerkt wanneer synchronisatie is ingeschakeld."
+    }
+  ],
+  "improvements": [
+    "iCloud-synchronisatie voor filmrollen, mappen en metadata",
+    "Vereenvoudigde back-up- en herstelprocedure met iCloud"
+  ],
+  "fixes": [
+    {
+      "title": "Symbolen in exportmenu",
+      "description": "Ontbrekende symbolen in het exportmenu zijn hersteld op apparaten met iOS 17."
+    }
+  ],
+  "patches": [],
+  "meta_title": "iCloud-synchronisatie - Frames",
+  "meta_description": "Synchroniseer filmrollen, mappen en metadata tussen je apparaten met de optionele iCloud-synchronisatie in Frames."
+}

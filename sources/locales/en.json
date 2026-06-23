@@ -322,7 +322,7 @@
     },
     "question5": {
       "question": "How do I sync data between iPhone and Mac?",
-      "answer": "By exporting a .frames file. Use the export menu on iPhone, then share it to your Mac via AirDrop, Messages, or any method you prefer. On Mac, you can import it directly and pick up right where you left off. There is no automatic cloud sync by design. Your data stays on your own devices, under your control, without passing through any server."
+      "answer": "By exporting a .frames file. Use the export menu on iPhone, then share it to your Mac via AirDrop, Messages, or any method you prefer. On Mac, you can import it directly and pick up right where you left off. There is no automatic sync by design. Your data stays on your devices, under your control, without passing through any server."
     },
     "question6": {
       "question": "Does Frames work offline?",
@@ -573,7 +573,7 @@
       },
       "feature4": {
         "title": "Privacy first",
-        "description": "Frames stores everything locally, with no cloud connection involved. Your notes and metadata never leave your device unless you export them yourself. No account required, no background sync, no servers. What you capture stays entirely in your hands, private and secure by design.",
+        "description": "Frames stores everything locally by default. Your notes and metadata never leave your device unless you choose to enable iCloud synchronization or export them. No account required, no developer-operated servers, and complete control over your data. What you capture stays private and secure by design.",
         "privacy_note1": "Your data stays private.",
         "privacy_note2": "We never share or sell it under any circumstances."
       }

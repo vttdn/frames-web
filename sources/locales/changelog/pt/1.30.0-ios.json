@@ -1,0 +1,53 @@
+{
+  "version": "1.30.0",
+  "version_short": "1.30",
+  "url_slug": "1-30-ios",
+  "platform": "ios",
+  "release_date": "2026-06-23T10:00:00.000Z",
+  "title": "Sincronização com o iCloud",
+  "summary": "Sincronize películas, pastas e metadados entre o iPhone e o iPad com a sincronização opcional do iCloud. Mantenha o backup automático da sua biblioteca e restaure-a com facilidade em um novo dispositivo.",
+  "sections": [
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.30.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.30.0-1@2x.png",
+      "alt": "App Frames com a sincronização do iCloud ativada",
+      "width": "400",
+      "height": "300",
+      "caption": "Atualização do Frames iOS 1.30"
+    },
+    {
+      "type": "paragraph",
+      "content": "O Frames agora oferece sincronização opcional com o iCloud. Quando ativada, suas películas, pastas e metadados são sincronizados automaticamente em todos os seus dispositivos iOS que usam a mesma Conta Apple. Use o Frames no iPhone, no iPad ou em ambos: sua biblioteca permanece sempre atualizada, sem nenhuma etapa manual de exportação ou importação."
+    },
+    {
+      "type": "paragraph",
+      "content": "Esta atualização também traz uma nova e prática maneira de fazer backup e restaurar seus dados. Se você trocar de dispositivo ou configurar um novo iPhone, os dados sincronizados podem ser baixados do iCloud e restaurados automaticamente após o login. O processo de sincronização foi projetado para ser fluido e rápido, fazendo com que suas alterações apareçam em todos os dispositivos com o mínimo de atraso."
+    },
+    {
+      "type": "paragraph",
+      "content": "Antes desta atualização, preservar seus dados exigia criar um backup do iPhone pelo Finder em um Mac e restaurá-lo em um novo dispositivo. Embora esse método continue funcionando, a sincronização com o iCloud oferece uma alternativa mais prática que dispensa conectar o dispositivo a um computador."
+    },
+    {
+      "type": "paragraph",
+      "content": "O app continua usando o armazenamento local por padrão. A sincronização com o iCloud é totalmente opcional e pode ser ativada ou desativada a qualquer momento na tela de Ajustes. Quando ativada, seus dados são armazenados na sua conta pessoal do iCloud e sincronizados pela infraestrutura da Apple."
+    },
+    {
+      "type": "paragraph",
+      "content": "O Frames não opera nenhum servidor para a sincronização, e sua biblioteca permanece privada e acessível somente pela sua Conta Apple. A política de privacidade foi atualizada para documentar como os dados são tratados quando a sincronização está ativada."
+    }
+  ],
+  "improvements": [
+    "Sincronização com o iCloud de películas, pastas e metadados",
+    "Fluxo de backup e restauração simplificado com o iCloud"
+  ],
+  "fixes": [
+    {
+      "title": "Ícones do menu de exportação",
+      "description": "Os ícones que faltavam no menu de exportação foram restaurados em dispositivos com iOS 17."
+    }
+  ],
+  "patches": [],
+  "meta_title": "Sincronização com o iCloud - Frames",
+  "meta_description": "Sincronize películas, pastas e metadados entre seus dispositivos com a sincronização opcional do iCloud no Frames."
+}

@@ -1,0 +1,53 @@
+{
+  "version": "1.30.0",
+  "version_short": "1.30",
+  "url_slug": "1-30-ios",
+  "platform": "ios",
+  "release_date": "2026-06-23T10:00:00.000Z",
+  "title": "iCloud 同步",
+  "summary": "通过可选的 iCloud 同步，在 iPhone 与 iPad 之间同步胶片、文件夹和元数据。自动备份你的资料库，并在更换新设备时轻松恢复。",
+  "sections": [
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.30.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.30.0-1@2x.png",
+      "alt": "已启用 iCloud 同步的 Frames 应用",
+      "width": "400",
+      "height": "300",
+      "caption": "Frames iOS 1.30 更新"
+    },
+    {
+      "type": "paragraph",
+      "content": "Frames 现已支持可选的 iCloud 同步。启用后，你的胶片、文件夹和元数据会在使用同一 Apple 账户的所有 iOS 设备之间自动同步。无论你在 iPhone、iPad 还是两者上使用 Frames，资料库都会保持最新，无需任何手动导出或导入步骤。"
+    },
+    {
+      "type": "paragraph",
+      "content": "此次更新还提供了备份和恢复数据的便捷新方式。如果你更换设备或设置新的 iPhone，同步的数据可从 iCloud 下载，并在登录后自动恢复。同步过程设计得流畅而快速，让你的更改以极小的延迟在各设备间呈现。"
+    },
+    {
+      "type": "paragraph",
+      "content": "在此次更新之前，要保留数据，需要在 Mac 上通过访达为 iPhone 创建备份，再将该备份恢复到新设备上。虽然这种方式依然有效，但 iCloud 同步提供了更便捷的替代方案，无需将设备连接到电脑。"
+    },
+    {
+      "type": "paragraph",
+      "content": "应用默认仍使用本地存储。iCloud 同步完全可选，可随时在设置界面中启用或停用。启用后，你的数据会存储在你的个人 iCloud 账户中，并通过 Apple 的基础架构进行同步。"
+    },
+    {
+      "type": "paragraph",
+      "content": "Frames 不运行任何用于同步的服务器，你的资料库始终保持私密，仅可通过你的 Apple 账户访问。隐私政策已更新，以说明启用同步后数据的处理方式。"
+    }
+  ],
+  "improvements": [
+    "胶片、文件夹和元数据的 iCloud 同步",
+    "借助 iCloud 简化备份与恢复流程"
+  ],
+  "fixes": [
+    {
+      "title": "导出菜单图标",
+      "description": "已在 iOS 17 设备上恢复导出菜单中缺失的图标"
+    }
+  ],
+  "patches": [],
+  "meta_title": "iCloud 同步 - Frames",
+  "meta_description": "通过 Frames 中可选的 iCloud 同步，在你的各台设备之间同步胶片、文件夹和元数据，让资料库始终保持最新。"
+}

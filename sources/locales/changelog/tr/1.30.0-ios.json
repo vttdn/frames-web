@@ -1,0 +1,53 @@
+{
+  "version": "1.30.0",
+  "version_short": "1.30",
+  "url_slug": "1-30-ios",
+  "platform": "ios",
+  "release_date": "2026-06-23T10:00:00.000Z",
+  "title": "iCloud senkronizasyonu",
+  "summary": "Filmleri, klasörleri ve meta verileri isteğe bağlı iCloud senkronizasyonuyla iPhone ve iPad arasında senkronize edin. Kitaplığınızı otomatik olarak yedekleyin ve yeni bir cihaza geçerken kolayca geri yükleyin.",
+  "sections": [
+    {
+      "type": "media",
+      "image": "/lib/img/shared/changelog/frames-1.30.0-1.png",
+      "image_2x": "/lib/img/shared/changelog/frames-1.30.0-1@2x.png",
+      "alt": "iCloud senkronizasyonu etkinleştirilmiş Frames uygulaması",
+      "width": "400",
+      "height": "300",
+      "caption": "Frames iOS 1.30 güncellemesi"
+    },
+    {
+      "type": "paragraph",
+      "content": "Frames artık isteğe bağlı iCloud senkronizasyonunu destekliyor. Etkinleştirildiğinde filmleriniz, klasörleriniz ve meta verileriniz aynı Apple Hesabı'nı kullanan tüm iOS cihazlarınız arasında otomatik olarak senkronize edilir. Frames'i ister iPhone'da, ister iPad'de ister her ikisinde kullanın, kitaplığınız herhangi bir manuel dışa veya içe aktarma adımı olmadan güncel kalır."
+    },
+    {
+      "type": "paragraph",
+      "content": "Bu güncelleme ayrıca verilerinizi yedeklemenin ve geri yüklemenin pratik, yeni bir yolunu sunar. Cihazınızı değiştirir veya yeni bir iPhone kurarsanız, senkronize edilmiş verileriniz iCloud'dan indirilebilir ve oturum açtıktan sonra otomatik olarak geri yüklenebilir. Senkronizasyon, kesintisiz ve hızlı olacak şekilde tasarlanmıştır; böylece değişiklikleriniz en az gecikmeyle tüm cihazlarda görünür."
+    },
+    {
+      "type": "paragraph",
+      "content": "Bu güncellemeden önce verilerinizi korumak için iPhone'unuzun Mac üzerinde Finder aracılığıyla yedeğini oluşturmanız ve bu yedeği yeni bir cihaza geri yüklemeniz gerekiyordu. Bu yöntem çalışmaya devam etse de iCloud senkronizasyonu, cihazınızı bir bilgisayara bağlamayı gerektirmeyen daha pratik bir alternatif sunar."
+    },
+    {
+      "type": "paragraph",
+      "content": "Uygulama varsayılan olarak yerel depolamayı kullanmayı sürdürür. iCloud senkronizasyonu tamamen isteğe bağlıdır ve Ayarlar ekranından istediğiniz zaman açılıp kapatılabilir. Etkinleştirildiğinde verileriniz kişisel iCloud hesabınızda saklanır ve Apple'ın altyapısı üzerinden senkronize edilir."
+    },
+    {
+      "type": "paragraph",
+      "content": "Frames senkronizasyon için herhangi bir sunucu işletmez ve kitaplığınız gizli kalır; yalnızca Apple Hesabınız üzerinden erişilebilir. Senkronizasyon etkinleştirildiğinde verilerin nasıl işlendiğini belgelemek için gizlilik politikası güncellenmiştir."
+    }
+  ],
+  "improvements": [
+    "Film, klasör ve meta veriler için iCloud senkronizasyonu",
+    "iCloud ile basitleştirilmiş yedekleme ve geri yükleme akışı"
+  ],
+  "fixes": [
+    {
+      "title": "Dışa aktarma menüsü simgeleri",
+      "description": "Dışa aktarma menüsünde eksik olan simgeler iOS 17 cihazlarında geri getirildi."
+    }
+  ],
+  "patches": [],
+  "meta_title": "iCloud senkronizasyonu - Frames",
+  "meta_description": "Filmleri, klasörleri ve meta verileri Frames'in isteğe bağlı iCloud senkronizasyonuyla cihazlarınız arasında senkronize edin."
+}
