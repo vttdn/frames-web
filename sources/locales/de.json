@@ -467,7 +467,31 @@
     "last_updated": "12. Oktober 2025",
     "last_updated_iso": "2025-10-12",
     "last_updated_label": "Zuletzt aktualisiert",
-    "button_home": "Startseite"
+    "button_home": "Startseite",
+    "newprivacy": {
+      "descr_privacy_intro": "Diese Datenschutzrichtlinie erläutert, wie Frames mit Informationen umgeht. Daten werden sicher gespeichert und verbleiben unter der Kontrolle des Nutzers. Die App verfolgt keine Aktivitäten und erhebt keine unnötigen Informationen. Die Nutzer entscheiden selbst, welche Daten sie teilen oder exportieren möchten.",
+      "descr_privacy_paragraph1": "Frames erfasst keine personenbezogenen Daten. Informationen, die du in der App eingibst, werden lokal auf deinem Gerät gespeichert. Wenn du die iCloud-Synchronisierung aktivierst, werden deine Daten zusätzlich in deinem privaten iCloud-Account gespeichert (siehe iCloud-Synchronisierung weiter unten). Frames sendet nichts an die Server des Entwicklers und nutzt keinen anderen Cloud-Speicherdienst.",
+      "descr_privacy_paragraph10": "Frames bietet eine optionale iCloud-Synchronisierung. Wenn sie aktiviert ist, werden die Daten, die du in der App erstellst (z. B. Filme, Einzelbilder und Metadaten), in deinem privaten iCloud-Account gespeichert und über alle Geräte synchronisiert, die mit derselben Apple-ID angemeldet sind. Diese Daten sind mit deiner Apple-ID verknüpft, werden von Apple gemäß den eigenen Datenschutzbestimmungen verarbeitet und sind für den Entwickler nicht zugänglich. Du kannst die iCloud-Synchronisierung jederzeit in den Einstellungen der App ein- oder ausschalten. Wenn du sie deaktivierst oder dich von iCloud abmeldest, wird die Synchronisierung beendet.",
+      "descr_privacy_paragraph2": "Die App verwendet Apples StoreKit-Framework zur Verwaltung von Abonnements. Dieser Vorgang wird vollständig von Apple abgewickelt, und der Entwickler hat keinen Zugriff auf persönliche Informationen aus Transaktionen.",
+      "descr_privacy_paragraph3": "Frames enthält keine Analyse- oder Tracking-Funktionen. Die App stellt nur dann Netzwerkverbindungen her, um deine Daten mit iCloud zu synchronisieren (wenn du die iCloud-Synchronisierung aktivierst) und um Karten über Apple Karten zu laden, wenn du aufgezeichnete Standortdaten ansiehst. GPS-Koordinaten stammen vom Ortungsdienst deines Geräts, der überwiegend satellitenbasiert ist. iOS kann das Netzwerk nutzen, um die Standortbestimmung zu unterstützen, doch dies wird vom System übernommen, nicht von der App.",
+      "descr_privacy_paragraph4": "Beim Exportieren von Daten kann die App .frames-, .csv-, .pdf-, .txt- oder .gpx-Dateien erstellen. Das Teilen dieser Dateien über das Teilen-Menü des Systems wird vollständig vom Nutzer kontrolliert. Der Entwickler greift nicht auf exportierte Inhalte zu und verfolgt diese nicht.",
+      "descr_privacy_paragraph5": "Frames kann die folgenden Systemberechtigungen anfordern: Zugriff auf die Kamera, um Fotos direkt aus der App aufzunehmen, Zugriff auf die Fotomediathek, um Referenzbilder auszuwählen, und Zugriff auf den Standort während der Nutzung der App, um GPS-Koordinaten beim Aufnehmen von Frames zu erfassen. Alle Berechtigungen sind optional und können in den Einstellungen des Geräts verwaltet werden.",
+      "descr_privacy_paragraph6": "Die von dir erstellten Daten bleiben auf deinem Gerät, solange die App installiert ist. Wenn du die App deinstallierst, werden die lokalen Daten entfernt. Wenn du die iCloud-Synchronisierung aktiviert hast, verbleibt eine Kopie deiner Daten in deinem iCloud-Account, bis du sie löschst – das kannst du in den Einstellungen deines Geräts unter deiner Apple-ID und iCloud tun. Der Entwickler bewahrt keine deiner Daten auf.",
+      "descr_privacy_paragraph7": "Frames erhebt wissentlich keine personenbezogenen Daten von Kindern unter 13 Jahren. Die App erfordert keine Kontoerstellung und erhebt keine personenbezogenen Daten von Nutzern jeden Alters.",
+      "descr_privacy_paragraph8": "Diese Datenschutzrichtlinie kann von Zeit zu Zeit aktualisiert werden. Änderungen werden in der App und auf dieser Seite veröffentlicht.",
+      "descr_privacy_paragraph9": "Bei Fragen oder Anliegen zu dieser Datenschutzrichtlinie wenden Sie sich bitte an den Entwickler unter bonjour@withframes.com.",
+      "descr_privacy_title1": "Datenerhebung",
+      "descr_privacy_title10": "iCloud-Synchronisierung",
+      "descr_privacy_title11": "Website",
+      "descr_privacy_title2": "Abonnements",
+      "descr_privacy_title3": "Analyse und Netzwerkaktivität",
+      "descr_privacy_title4": "Datenexport",
+      "descr_privacy_title5": "Berechtigungen",
+      "descr_privacy_title6": "Datenspeicherung und -löschung",
+      "descr_privacy_title7": "Datenschutz bei Kindern",
+      "descr_privacy_title8": "Änderungen dieser Richtlinie",
+      "descr_privacy_title9": "Kontakt"
+    }
   },
   "howto": {
     "heading": "Anleitung",
@@ -538,7 +562,7 @@
     "section1": {
       "eyebrow": "Film-Notizbuch",
       "title": "Alles festhalten.",
-      "seotitle": " - Die beste Filmfotografie-App f\u00fcr Analogfotografen zum Protokollieren von Filmrollen",
+      "seotitle": " - Die beste Filmfotografie-App für Analogfotografen zum Protokollieren von Filmrollen",
       "summary": "Frames ist ein iOS-Notizbuch für Analogfotografen. Erfassen Sie Ihre Filmrollen, notieren Sie Einstellungen und halten Sie die Details jeder Aufnahme fest, während Sie fotografieren, ohne Ihren Rhythmus zu unterbrechen. Alles liegt an einem Ort, damit Sie konsequent bleiben, Ihren Fortschritt verfolgen und Ihre Notizen mit den Scans verbinden können, sobald diese aus dem Labor zurückkehren.",
       "feature1": {
         "title": "Lebendes Archiv",

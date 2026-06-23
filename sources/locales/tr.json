@@ -467,7 +467,31 @@
     "last_updated": "12 Ekim 2025",
     "last_updated_iso": "2025-10-12",
     "last_updated_label": "Son güncellenme",
-    "button_home": "Ana Sayfa"
+    "button_home": "Ana Sayfa",
+    "newprivacy": {
+      "descr_privacy_intro": "Bu Gizlilik Politikası, Frames'in bilgileri nasıl işlediğini açıklar. Veriler güvenli bir şekilde saklanır ve kullanıcının kontrolü altında kalır. Uygulama, etkinlikleri izlemez veya gereksiz bilgi toplamaz ve kullanıcılar hangi verileri paylaşacaklarını veya dışa aktaracaklarını kendileri seçer.",
+      "descr_privacy_paragraph1": "Frames kişisel verilerinizi toplamaz. Uygulamaya girdiğiniz bilgiler cihazınızda yerel olarak saklanır. iCloud eşitlemeyi etkinleştirirseniz verileriniz özel iCloud hesabınızda da saklanır (aşağıdaki iCloud Eşitleme bölümüne bakın). Frames, geliştiricinin sunucularına hiçbir şey göndermez ve başka hiçbir bulut depolama hizmeti kullanmaz.",
+      "descr_privacy_paragraph10": "Frames isteğe bağlı iCloud eşitleme sunar. Etkinleştirildiğinde, uygulamada oluşturduğunuz veriler (filmler, kareler ve meta veriler gibi) özel iCloud hesabınızda saklanır ve aynı Apple Kimliği ile oturum açılmış cihazlar arasında eşitlenir. Bu veriler Apple Kimliğinize bağlıdır, Apple tarafından kendi gizlilik koşulları kapsamında işlenir ve geliştirici tarafından erişilemez. iCloud eşitlemeyi istediğiniz zaman uygulamanın ayarlarından açıp kapatabilirsiniz. Kapatırsanız veya iCloud'dan çıkış yaparsanız eşitleme durur.",
+      "descr_privacy_paragraph2": "Uygulama, abonelikleri yönetmek için Apple'ın StoreKit çerçevesini kullanır. Bu süreç tamamen Apple tarafından yönetilir ve geliştiricinin işlemlerden elde edilen kişisel bilgilere erişimi yoktur.",
+      "descr_privacy_paragraph3": "Frames analiz veya izleme içermez. Uygulama yalnızca verilerinizi iCloud ile eşitlemek için (iCloud eşitlemeyi etkinleştirdiğinizde) ve kaydedilen konum verilerini görüntülerken Apple Haritalar üzerinden harita yüklemek için ağ bağlantısı kurar. GPS koordinatları, çoğunlukla uydu tabanlı olan cihazınızın konum servisinden gelir. iOS, konumu belirlemeye yardımcı olmak için ağı kullanabilir, ancak bu, uygulama tarafından değil sistem tarafından yönetilir.",
+      "descr_privacy_paragraph4": "Verileri dışa aktarırken uygulama .frames, .csv, .pdf, .txt veya .gpx dosyaları oluşturabilir. Bu dosyaların sistem paylaşım menüsü aracılığıyla paylaşılması tamamen kullanıcı tarafından kontrol edilir. Geliştirici dışa aktarılan içeriğe erişmez veya izlemez.",
+      "descr_privacy_paragraph5": "Frames aşağıdaki sistem izinlerini isteyebilir: doğrudan uygulamadan fotoğraf çekmek için kameraya erişim, referans görüntüleri seçmek için fotoğraf kitaplığına erişim ve çerçeve yakalarken GPS koordinatlarını kaydetmek için uygulama kullanılırken konuma erişim. Tüm izinler isteğe bağlıdır ve cihazın Ayarlar uygulamasından yönetilebilir.",
+      "descr_privacy_paragraph6": "Oluşturduğunuz veriler, uygulama yüklü olduğu sürece cihazınızda kalır. Uygulamayı kaldırırsanız yerel veriler silinir. iCloud eşitlemeyi etkinleştirdiyseniz, verilerinizin bir kopyası siz silene kadar iCloud hesabınızda kalır; bunu cihazınızın Ayarlar bölümünde Apple Kimliğiniz ve iCloud altından yapabilirsiniz. Geliştirici verilerinizin hiçbirini saklamaz.",
+      "descr_privacy_paragraph7": "Frames, 13 yaşın altındaki çocuklardan bilerek kişisel bilgi toplamaz. Uygulama hesap oluşturulmasını gerektirmez ve herhangi bir yaştaki kullanıcılardan kişisel veri toplamaz.",
+      "descr_privacy_paragraph8": "Bu Gizlilik Politikası zaman zaman güncellenebilir. Herhangi bir değişiklik uygulamada ve bu sayfada yansıtılacaktır.",
+      "descr_privacy_paragraph9": "Bu Gizlilik Politikası ile ilgili sorularınız veya endişeleriniz için bonjour@withframes.com adresinden geliştiriciyle iletişime geçin.",
+      "descr_privacy_title1": "Veri Toplama",
+      "descr_privacy_title10": "iCloud Eşitleme",
+      "descr_privacy_title11": "Web Sitesi",
+      "descr_privacy_title2": "Abonelikler",
+      "descr_privacy_title3": "Analiz ve Ağ Etkinliği",
+      "descr_privacy_title4": "Veri Dışa Aktarma",
+      "descr_privacy_title5": "İzinler",
+      "descr_privacy_title6": "Veri Saklama ve Silme",
+      "descr_privacy_title7": "Çocukların Gizliliği",
+      "descr_privacy_title8": "Bu Politikadaki Değişiklikler",
+      "descr_privacy_title9": "İletişim"
+    }
   },
   "howto": {
     "heading": "Kullanım Kılavuzu",
@@ -556,7 +580,7 @@
     "section2": {
       "eyebrow": "EXIF meta verileri",
       "title": "Geri getirin.",
-      "seotitle": " - Film foto\u011fraf\u00e7\u0131lar\u0131n\u0131n foto\u011fraflara kamera EXIF verisi eklemesi i\u00e7in analog foto\u011fraf\u00e7\u0131l\u0131k uygulamas\u0131",
+      "seotitle": " - Film fotoğrafçılarının fotoğraflara kamera EXIF verisi eklemesi için analog fotoğrafçılık uygulaması",
       "summary": "macOS için Frames, analog notlarınız ile dijital taramalarınız arasındaki döngüyü kapatır. Kayıtlarınızı içe aktarın, görsellerle eşleştirin ve meta verileri doğrudan her dosyaya, orijinalleri değiştirmeden yazın. Her şey bağlı kalır ve arşiviniz film film dolar; her zaman eksiksiz, düzenleme veya paylaşıma hazır.",
       "feature1": {
         "title": "Sorunsuz içe aktarma",
@@ -580,7 +604,7 @@
     "section3": {
       "eyebrow": "Kişiselleştirme",
       "title": "Kendi yolunla.",
-      "seotitle": " - Film foto\u011fraf\u00e7\u0131lar\u0131n\u0131n \u00e7ekim s\u00fcrecine ve kameralar\u0131na uyan bir film foto\u011fraf uygulamas\u0131",
+      "seotitle": " - Film fotoğrafçılarının çekim sürecine ve kameralarına uyan bir film fotoğraf uygulaması",
       "summary": "Frames çalışma şeklinize uyum sağlar. Filmlerinizin nasıl görüntüleneceğini seçin, ekipmanınız için diyafram ve enstantane dizileri belirleyin, not alma panelinin düzenini ayarlayın ve sizin için en önemli kontrolleri seçin. Hiçbir iki fotoğrafçı aynı şekilde çalışmaz; uygulamanın her bölümü pratiğinizin etrafında şekillenir, tersi değil.",
       "feature1": {
         "title": "Esnek düzen",

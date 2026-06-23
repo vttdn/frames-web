@@ -438,7 +438,31 @@
     "last_updated": "12. lokakuuta 2025",
     "last_updated_iso": "2025-10-12",
     "last_updated_label": "Viimeksi päivitetty",
-    "button_home": "Etusivu"
+    "button_home": "Etusivu",
+    "newprivacy": {
+      "descr_privacy_intro": "Tämä tietosuojakäytäntö selittää, miten Frames-sovellus käsittelee tietoja. Tiedot tallennetaan turvallisesti ja pysyvät käyttäjän hallinnassa. Sovellus ei seuraa toimintaa eikä kerää tarpeettomia tietoja, ja käyttäjät valitsevat, mitä tietoja he jakavat tai vievät.",
+      "descr_privacy_paragraph1": "Frames ei kerää henkilötietojasi. Sovellukseen syöttämäsi tiedot tallennetaan paikallisesti laitteellesi. Jos otat iCloud-synkronoinnin käyttöön, tietosi tallennetaan myös yksityiselle iCloud-tilillesi (katso iCloud-synkronointi alla). Frames ei lähetä mitään kehittäjän palvelimille eikä käytä mitään muuta pilvitallennuspalvelua.",
+      "descr_privacy_paragraph10": "Frames tarjoaa valinnaisen iCloud-synkronoinnin. Kun se on käytössä, sovelluksessa luomasi tiedot (kuten filmit, kehykset ja metatiedot) tallennetaan yksityiselle iCloud-tilillesi ja synkronoidaan kaikkien samalla Apple ID:llä kirjautuneiden laitteiden välillä. Nämä tiedot on sidottu Apple ID:hesi, Apple käsittelee niitä omien tietosuojaehtojensa mukaisesti, eikä kehittäjällä ole pääsyä niihin. Voit ottaa iCloud-synkronoinnin käyttöön tai poistaa sen käytöstä milloin tahansa sovelluksen asetuksista. Jos poistat sen käytöstä tai kirjaudut ulos iCloudista, synkronointi pysähtyy.",
+      "descr_privacy_paragraph2": "Sovellus käyttää Applen StoreKit-kehystä tilausten hallintaan. Tämän prosessin hoitaa kokonaan Apple, eikä kehittäjällä ole pääsyä tapahtumien henkilötietoihin.",
+      "descr_privacy_paragraph3": "Frames ei sisällä analytiikkaa tai seurantaa. Sovellus muodostaa verkkoyhteyksiä vain synkronoidakseen tietosi iCloudiin (kun otat iCloud-synkronoinnin käyttöön) ja ladatakseen karttoja Apple Mapsin kautta, kun katselet tallennettuja sijaintitietoja. GPS-koordinaatit tulevat laitteesi paikannuspalvelusta, joka perustuu pääosin satelliitteihin. iOS saattaa käyttää verkkoa sijainnin määrittämisen apuna, mutta tästä huolehtii järjestelmä, ei sovellus.",
+      "descr_privacy_paragraph4": "Tietoja vietäessä sovellus voi luoda .frames-, .csv-, .pdf-, .txt- tai .gpx-tiedostoja. Näiden tiedostojen jakaminen järjestelmän jakovalikon kautta on täysin käyttäjän hallinnassa. Kehittäjä ei käytä vietyä sisältöä eikä seuraa sitä.",
+      "descr_privacy_paragraph5": "Frames voi pyytää seuraavia järjestelmäoikeuksia: pääsy kameraan kuvien ottamiseksi suoraan sovelluksesta, pääsy kuvakirjastoon viitekuvien valitsemiseksi ja pääsy sijaintiin sovelluksen käytön aikana GPS-koordinaattien tallentamiseksi kuvakehyksiä otettaessa. Kaikki oikeudet ovat valinnaisia ja niitä voidaan hallita laitteen Asetukset-sovelluksessa.",
+      "descr_privacy_paragraph6": "Luomasi tiedot säilyvät laitteellasi niin kauan kuin sovellus on asennettuna. Jos poistat sovelluksen, paikalliset tiedot poistetaan. Jos otit iCloud-synkronoinnin käyttöön, kopio tiedoistasi säilyy iCloud-tililläsi, kunnes poistat sen. Voit tehdä tämän laitteesi Asetuksista kohdasta Apple ID ja iCloud. Kehittäjä ei säilytä mitään tietojasi.",
+      "descr_privacy_paragraph7": "Frames ei tietoisesti kerää henkilötietoja alle 13-vuotiailta lapsilta. Sovellus ei vaadi tilin luomista eikä kerää henkilötietoja minkään ikäisiltä käyttäjiltä.",
+      "descr_privacy_paragraph8": "Tätä tietosuojakäytäntöä voidaan päivittää ajoittain. Mahdolliset muutokset näkyvät sovelluksessa ja tällä sivulla.",
+      "descr_privacy_paragraph9": "Kysymyksiä tai huolenaiheita tästä tietosuojakäytännöstä voi osoittaa kehittäjälle osoitteessa bonjour@withframes.com.",
+      "descr_privacy_title1": "Tietojen kerääminen",
+      "descr_privacy_title10": "iCloud-synkronointi",
+      "descr_privacy_title11": "Verkkosivusto",
+      "descr_privacy_title2": "Tilaukset",
+      "descr_privacy_title3": "Analytiikka ja verkkotoiminta",
+      "descr_privacy_title4": "Tietojen vienti",
+      "descr_privacy_title5": "Käyttöoikeudet",
+      "descr_privacy_title6": "Tietojen säilytys ja poistaminen",
+      "descr_privacy_title7": "Lasten yksityisyys",
+      "descr_privacy_title8": "Muutokset tähän käytäntöön",
+      "descr_privacy_title9": "Yhteystiedot"
+    }
   },
   "howto": {
     "heading": "Käyttöohje",
@@ -556,7 +580,7 @@
     "section2": {
       "eyebrow": "EXIF-metatiedot",
       "title": "Tuo ne takaisin.",
-      "seotitle": " - Analogivalokuvaussovellus filmivalokuvaajille kameran EXIF-tietojen lis\u00e4\u00e4miseen kuviin",
+      "seotitle": " - Analogivalokuvaussovellus filmivalokuvaajille kameran EXIF-tietojen lisäämiseen kuviin",
       "summary": "Frames macOS:lle sulkee silmukan analogisten muistiinpanojesi ja digitaalisten skannauksiesi välillä. Tuo lokisi, yhdistä ne kuviisi ja kirjoita metatiedot suoraan jokaiseen tiedostoon muuttamatta alkuperäisiä. Kaikki pysyy yhdistettynä, ja arkistosi täydentyy rulla kerrallaan, aina valmis muokkaukseen tai jakamiseen.",
       "feature1": {
         "title": "Sujuva tuonti",
@@ -580,7 +604,7 @@
     "section3": {
       "eyebrow": "Personointi",
       "title": "Omalla tavallasi.",
-      "seotitle": " - Filmivalokuvaussovellus, joka sopii filmivalokuvaajien kuvausty\u00f6skentelyyn ja kameroihin",
+      "seotitle": " - Filmivalokuvaussovellus, joka sopii filmivalokuvaajien kuvaustyöskentelyyn ja kameroihin",
       "summary": "Frames sopeutuu työtapaasi. Valitse, miten filmirullas näytetään, aseta aukko- ja suljinaika-sarjat kalustolle, säädä kirjauspaneelin asettelu ja valitse sinulle tärkeimmät säätimet. Ei ole kahta samanlaista valokuvaajaa, ja jokainen sovelluksen osa muotoutuu käytäntösi ympärille eikä toisin päin.",
       "feature1": {
         "title": "Joustava asettelu",

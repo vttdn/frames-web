@@ -438,7 +438,31 @@
     "last_updated": "12. oktober 2025",
     "last_updated_iso": "2025-10-12",
     "last_updated_label": "Sist oppdatert",
-    "button_home": "Hjem"
+    "button_home": "Hjem",
+    "newprivacy": {
+      "descr_privacy_intro": "Denne personvernerklæringen forklarer hvordan Frames håndterer informasjon. Data lagres sikkert og forblir under brukerens kontroll. Appen sporer ikke aktivitet eller samler inn unødvendig informasjon, og brukerne velger hvilke data de vil dele eller eksportere.",
+      "descr_privacy_paragraph1": "Frames samler ikke inn personopplysningene dine. Informasjon du skriver inn i appen, lagres lokalt på enheten din. Hvis du slår på iCloud-synkronisering, lagres dataene dine også på din private iCloud-konto (se iCloud-synkronisering nedenfor). Frames sender ingenting til utviklerens servere og bruker ingen annen skylagringstjeneste.",
+      "descr_privacy_paragraph10": "Frames tilbyr valgfri iCloud-synkronisering. Når den er på, lagres dataene du oppretter i appen (som filmer, rammer og metadata) på din private iCloud-konto og synkroniseres på tvers av enheter som er logget på med samme Apple-ID. Disse dataene er knyttet til Apple-ID-en din, håndteres av Apple i henhold til Apples egne personvernvilkår, og er ikke tilgjengelige for utvikleren. Du kan slå iCloud-synkronisering på eller av når som helst i appens innstillinger. Hvis du slår den av eller logger ut av iCloud, stopper synkroniseringen.",
+      "descr_privacy_paragraph2": "Appen bruker Apples StoreKit-rammeverk for å administrere abonnementer. Denne prosessen håndteres utelukkende av Apple, og utvikleren har ikke tilgang til personlig informasjon fra transaksjoner.",
+      "descr_privacy_paragraph3": "Frames inneholder ingen analyse eller sporing. Appen oppretter nettverkstilkoblinger bare for å synkronisere dataene dine med iCloud (når du slår på iCloud-synkronisering) og for å laste inn kart via Apple Kart når du ser på registrerte stedsdata. GPS-koordinater kommer fra enhetens stedstjeneste, som hovedsakelig er satellittbasert. iOS kan bruke nettverket for å hjelpe til med å fastslå posisjonen, men dette håndteres av systemet, ikke av appen.",
+      "descr_privacy_paragraph4": "Ved eksport av data kan appen opprette .frames-, .csv-, .pdf-, .txt- eller .gpx-filer. Deling av disse filene gjennom systemets delingsmeny er fullstendig kontrollert av brukeren. Utvikleren får ikke tilgang til eller sporer eksportert innhold.",
+      "descr_privacy_paragraph5": "Frames kan be om følgende systemtillatelser: tilgang til kameraet for å ta bilder direkte fra appen, tilgang til bildebiblioteket for å velge referansebilder og tilgang til posisjon mens appen brukes for å registrere GPS-koordinater ved opptak av bilder. Alle tillatelser er valgfrie og kan administreres i enhetens Innstillinger-app.",
+      "descr_privacy_paragraph6": "Data du oppretter, blir værende på enheten din så lenge appen er installert. Hvis du avinstallerer appen, fjernes de lokale dataene. Hvis du har slått på iCloud-synkronisering, blir en kopi av dataene dine værende på iCloud-kontoen din til du sletter den, noe du kan gjøre fra Innstillinger på enheten under Apple-ID-en din og iCloud. Utvikleren oppbevarer ingen av dataene dine.",
+      "descr_privacy_paragraph7": "Frames samler ikke bevisst inn personlig informasjon fra barn under 13 år. Appen krever ikke kontoopprettelse og samler ikke inn personopplysninger fra brukere i noen alder.",
+      "descr_privacy_paragraph8": "Denne personvernerklæringen kan oppdateres fra tid til annen. Eventuelle endringer vil gjenspeiles i appen og på denne siden.",
+      "descr_privacy_paragraph9": "For spørsmål eller bekymringer angående denne personvernerklæringen, kontakt utvikleren på bonjour@withframes.com.",
+      "descr_privacy_title1": "Datainnsamling",
+      "descr_privacy_title10": "iCloud-synkronisering",
+      "descr_privacy_title11": "Nettsted",
+      "descr_privacy_title2": "Abonnementer",
+      "descr_privacy_title3": "Analyse og nettverksaktivitet",
+      "descr_privacy_title4": "Dataeksport",
+      "descr_privacy_title5": "Tillatelser",
+      "descr_privacy_title6": "Dataoppbevaring og sletting",
+      "descr_privacy_title7": "Barns personvern",
+      "descr_privacy_title8": "Endringer i denne policyen",
+      "descr_privacy_title9": "Kontakt"
+    }
   },
   "howto": {
     "heading": "Slik bruker du appen",
@@ -538,7 +562,7 @@
     "section1": {
       "eyebrow": "Filmdagbok",
       "title": "Noter alt.",
-      "seotitle": " - Den beste filmfotografi-appen for analoge fotografer til \u00e5 loggf\u00f8re kameraets filmruller",
+      "seotitle": " - Den beste filmfotografi-appen for analoge fotografer til å loggføre kameraets filmruller",
       "summary": "Frames er en iOS-dagbok for analog-fotografer. Registrer filmrullene dine, noter innstillingene og fang detaljene fra hvert bilde mens du fotograferer, uten å miste rytmen. Alt samles på ett sted, slik at du kan holde konsekvens, følge fremgangen din og koble notatene dine til skanningene når de kommer tilbake fra laboratoriet.",
       "feature1": {
         "title": "Levende arkiv",
@@ -556,7 +580,7 @@
     "section2": {
       "eyebrow": "EXIF-metadata",
       "title": "Bring dem tilbake.",
-      "seotitle": " - Analogfotografi-appen for filmfotografer til \u00e5 legge til kamera-EXIF-data p\u00e5 bilder",
+      "seotitle": " - Analogfotografi-appen for filmfotografer til å legge til kamera-EXIF-data på bilder",
       "summary": "Frames for macOS lukker sirkelen mellom de analoge notatene dine og de digitale skanningene. Importer loggene dine, koble dem til bildene og skriv metadata direkte inn i hver fil uten å endre originalene. Alt forblir tilkoblet, og arkivet ditt fylles rulle for rulle, alltid komplett og klart for redigering eller deling.",
       "feature1": {
         "title": "Smidig import",

@@ -437,7 +437,31 @@
     "last_updated": "12 października 2025",
     "last_updated_iso": "2025-10-12",
     "last_updated_label": "Ostatnia aktualizacja",
-    "button_home": "Strona Główna"
+    "button_home": "Strona Główna",
+    "newprivacy": {
+      "descr_privacy_intro": "Niniejsza Polityka Prywatności wyjaśnia, w jaki sposób aplikacja Frames przetwarza informacje. Dane są przechowywane w sposób bezpieczny i pozostają pod kontrolą użytkownika. Aplikacja nie śledzi aktywności ani nie gromadzi zbędnych informacji, a użytkownicy sami decydują, jakie dane udostępniają lub eksportują.",
+      "descr_privacy_paragraph1": "Frames nie zbiera Twoich danych osobowych. Informacje wprowadzane w aplikacji są przechowywane lokalnie na Twoim urządzeniu. Jeśli włączysz synchronizację iCloud, Twoje dane będą przechowywane także na Twoim prywatnym koncie iCloud (zobacz Synchronizacja iCloud poniżej). Frames nie wysyła niczego na serwery dewelopera i nie korzysta z żadnej innej usługi przechowywania w chmurze.",
+      "descr_privacy_paragraph10": "Frames oferuje opcjonalną synchronizację iCloud. Po włączeniu dane tworzone w aplikacji (takie jak filmy, klatki i metadane) są przechowywane na Twoim prywatnym koncie iCloud i synchronizowane między urządzeniami zalogowanymi do tego samego Apple ID. Dane te są powiązane z Twoim Apple ID, przetwarzane przez Apple zgodnie z jej własnymi zasadami prywatności i niedostępne dla dewelopera. Synchronizację iCloud możesz włączyć lub wyłączyć w dowolnym momencie w ustawieniach aplikacji. Jeśli ją wyłączysz lub wylogujesz się z iCloud, synchronizacja zostanie zatrzymana.",
+      "descr_privacy_paragraph2": "Aplikacja wykorzystuje framework StoreKit firmy Apple do zarządzania subskrypcjami. Proces ten jest w całości obsługiwany przez Apple, a deweloper nie ma dostępu do żadnych danych osobowych z transakcji.",
+      "descr_privacy_paragraph3": "Frames nie zawiera analityki ani śledzenia. Aplikacja nawiązuje połączenia sieciowe wyłącznie w celu synchronizacji Twoich danych z iCloud (gdy włączysz synchronizację iCloud) oraz wczytywania map przez Apple Maps, gdy przeglądasz zapisane dane o lokalizacji. Współrzędne GPS pochodzą z usługi lokalizacji Twojego urządzenia, która opiera się głównie na satelitach. iOS może używać sieci, aby pomóc w ustaleniu lokalizacji, ale zajmuje się tym system, a nie aplikacja.",
+      "descr_privacy_paragraph4": "Podczas eksportowania danych aplikacja może tworzyć pliki .frames, .csv, .pdf, .txt lub .gpx. Udostępnianie tych plików za pośrednictwem systemowego menu udostępniania jest w pełni kontrolowane przez użytkownika. Deweloper nie uzyskuje dostępu do eksportowanych treści ani ich nie śledzi.",
+      "descr_privacy_paragraph5": "Frames może poprosić o następujące uprawnienia systemowe: dostęp do aparatu w celu robienia zdjęć bezpośrednio z aplikacji, dostęp do biblioteki zdjęć w celu wybierania obrazów referencyjnych oraz dostęp do lokalizacji podczas korzystania z aplikacji w celu rejestrowania współrzędnych GPS podczas przechwytywania klatek. Wszystkie uprawnienia są opcjonalne i mogą być zarządzane w aplikacji Ustawienia urządzenia.",
+      "descr_privacy_paragraph6": "Dane, które tworzysz, pozostają na Twoim urządzeniu tak długo, jak aplikacja jest zainstalowana. Jeśli odinstalujesz aplikację, dane lokalne zostaną usunięte. Jeśli włączono synchronizację iCloud, kopia Twoich danych pozostaje na Twoim koncie iCloud, dopóki jej nie usuniesz — możesz to zrobić w Ustawieniach urządzenia, w sekcji Apple ID i iCloud. Deweloper nie przechowuje żadnych Twoich danych.",
+      "descr_privacy_paragraph7": "Frames nie gromadzi świadomie danych osobowych od dzieci poniżej 13 roku życia. Aplikacja nie wymaga tworzenia konta ani nie zbiera danych osobowych od użytkowników w żadnym wieku.",
+      "descr_privacy_paragraph8": "Niniejsza Polityka Prywatności może być okresowo aktualizowana. Wszelkie zmiany zostaną odzwierciedlone w aplikacji i na tej stronie.",
+      "descr_privacy_paragraph9": "W przypadku pytań lub wątpliwości dotyczących niniejszej Polityki Prywatności prosimy o kontakt z deweloperem pod adresem bonjour@withframes.com.",
+      "descr_privacy_title1": "Gromadzenie Danych",
+      "descr_privacy_title10": "Synchronizacja iCloud",
+      "descr_privacy_title11": "Witryna internetowa",
+      "descr_privacy_title2": "Subskrypcje",
+      "descr_privacy_title3": "Analityka i aktywność sieciowa",
+      "descr_privacy_title4": "Eksport danych",
+      "descr_privacy_title5": "Uprawnienia",
+      "descr_privacy_title6": "Przechowywanie i usuwanie danych",
+      "descr_privacy_title7": "Prywatność dzieci",
+      "descr_privacy_title8": "Zmiany w niniejszej Polityce",
+      "descr_privacy_title9": "Kontakt"
+    }
   },
   "howto": {
     "heading": "Instrukcja obsługi",
@@ -537,7 +561,7 @@
     "section1": {
       "eyebrow": "Notes fotograficzny",
       "title": "Zapisuj wszystko.",
-      "seotitle": " - Najlepsza aplikacja do fotografii filmowej dla analogowych fotograf\u00f3w do rejestrowania rolek filmowych",
+      "seotitle": " - Najlepsza aplikacja do fotografii filmowej dla analogowych fotografów do rejestrowania rolek filmowych",
       "summary": "Frames to notes iOS dla fotografów analogowych. Rejestruj rolki, zapisuj ustawienia i utrwalaj szczegóły każdego zdjęcia na bieżąco, nie przerywając rytmu pracy. Wszystko jest w jednym miejscu, aby zachować spójność, śledzić postępy i łączyć notatki ze skanami po powrocie z laboratorium.",
       "feature1": {
         "title": "Żywe archiwum",
@@ -579,7 +603,7 @@
     "section3": {
       "eyebrow": "Personalizacja",
       "title": "Po swojemu.",
-      "seotitle": " - Aplikacja do zdj\u0119\u0107 na filmie dostosowana do procesu fotografowania i aparat\u00f3w fotograf\u00f3w analogowych",
+      "seotitle": " - Aplikacja do zdjęć na filmie dostosowana do procesu fotografowania i aparatów fotografów analogowych",
       "summary": "Frames dopasowuje się do Twojego sposobu pracy. Wybierz, jak wyświetlane są rolki, ustaw sekwencje przysłony i czasu naświetlania dla sprzętu, dostosuj układ panelu rejestracji i wybierz najważniejsze dla Ciebie elementy sterowania. Żadni dwaj fotografowie nie pracują tak samo, a każda część aplikacji kształtuje się wokół Twojej praktyki, nie odwrotnie.",
       "feature1": {
         "title": "Elastyczny układ",

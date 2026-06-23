@@ -466,7 +466,31 @@
     "last_updated": "12 de outubro de 2025",
     "last_updated_iso": "2025-10-12",
     "last_updated_label": "Última atualização",
-    "button_home": "Início"
+    "button_home": "Início",
+    "newprivacy": {
+      "descr_privacy_intro": "Esta Política de Privacidade explica como o Frames trata as informações. Os dados são armazenados com segurança e permanecem sob o controle do usuário. O aplicativo não rastreia atividades nem coleta informações desnecessárias, e os usuários escolhem quais dados compartilhar ou exportar.",
+      "descr_privacy_paragraph1": "O Frames não coleta seus dados pessoais. As informações que você insere no app são armazenadas localmente no seu dispositivo. Se você ativar a sincronização com o iCloud, seus dados também são armazenados na sua conta privada do iCloud (consulte Sincronização com o iCloud abaixo). O Frames não envia nada para os servidores do desenvolvedor e não usa nenhum outro serviço de armazenamento em nuvem.",
+      "descr_privacy_paragraph10": "O Frames oferece sincronização opcional com o iCloud. Quando ativada, os dados que você cria no app (como filmes, fotogramas e metadados) são armazenados na sua conta privada do iCloud e sincronizados entre os dispositivos conectados com o mesmo ID Apple. Esses dados estão vinculados ao seu ID Apple, são tratados pela Apple de acordo com os próprios termos de privacidade dela e não podem ser acessados pelo desenvolvedor. Você pode ativar ou desativar a sincronização com o iCloud a qualquer momento nos ajustes do app. Se você desativá-la ou sair do iCloud, a sincronização é interrompida.",
+      "descr_privacy_paragraph2": "O aplicativo utiliza o framework StoreKit da Apple para gerenciar assinaturas. Este processo é inteiramente gerenciado pela Apple, e o desenvolvedor não tem acesso a nenhuma informação pessoal das transações.",
+      "descr_privacy_paragraph3": "O Frames não inclui análises nem rastreamento. O app só faz conexões de rede para sincronizar seus dados com o iCloud (quando você ativa a sincronização com o iCloud) e para carregar mapas pelo Apple Mapas quando você visualiza dados de localização registrados. As coordenadas de GPS vêm do serviço de localização do seu dispositivo, que é baseado principalmente em satélites. O iOS pode usar a rede para ajudar a obter a localização, mas isso é feito pelo sistema, não pelo app.",
+      "descr_privacy_paragraph4": "Ao exportar dados, o aplicativo pode criar arquivos .frames, .csv, .pdf, .txt ou .gpx. O compartilhamento desses arquivos através do menu de compartilhamento do sistema é totalmente controlado pelo usuário. O desenvolvedor não acessa nem rastreia o conteúdo exportado.",
+      "descr_privacy_paragraph5": "O Frames pode solicitar as seguintes permissões do sistema: acesso à câmera para tirar fotos diretamente do aplicativo, acesso à biblioteca de fotos para selecionar imagens de referência e acesso à localização durante o uso do aplicativo para registrar coordenadas GPS ao capturar quadros. Todas as permissões são opcionais e podem ser gerenciadas no aplicativo Ajustes do dispositivo.",
+      "descr_privacy_paragraph6": "Os dados que você cria permanecem no seu dispositivo enquanto o app estiver instalado. Se você desinstalar o app, os dados locais são removidos. Se você ativou a sincronização com o iCloud, uma cópia dos seus dados permanece na sua conta do iCloud até você excluí-la, o que pode ser feito nos Ajustes do seu dispositivo, no seu ID Apple e iCloud. O desenvolvedor não retém nenhum dos seus dados.",
+      "descr_privacy_paragraph7": "O Frames não coleta intencionalmente informações pessoais de crianças menores de 13 anos. O aplicativo não requer a criação de conta nem coleta dados pessoais de usuários de qualquer idade.",
+      "descr_privacy_paragraph8": "Esta Política de Privacidade pode ser atualizada periodicamente. Quaisquer alterações serão refletidas no aplicativo e nesta página.",
+      "descr_privacy_paragraph9": "Para dúvidas ou preocupações relacionadas a esta Política de Privacidade, entre em contato com o desenvolvedor em bonjour@withframes.com.",
+      "descr_privacy_title1": "Coleta de Dados",
+      "descr_privacy_title10": "Sincronização com o iCloud",
+      "descr_privacy_title11": "Site",
+      "descr_privacy_title2": "Assinaturas",
+      "descr_privacy_title3": "Análise e Atividade de Rede",
+      "descr_privacy_title4": "Exportação de Dados",
+      "descr_privacy_title5": "Permissões",
+      "descr_privacy_title6": "Retenção e Exclusão de Dados",
+      "descr_privacy_title7": "Privacidade de Menores",
+      "descr_privacy_title8": "Alterações nesta Política",
+      "descr_privacy_title9": "Contato"
+    }
   },
   "howto": {
     "heading": "Como usar",

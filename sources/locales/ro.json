@@ -437,7 +437,31 @@
     "last_updated": "12 octombrie 2025",
     "last_updated_iso": "2025-10-12",
     "last_updated_label": "Ultima actualizare",
-    "button_home": "Acasă"
+    "button_home": "Acasă",
+    "newprivacy": {
+      "descr_privacy_intro": "Această Politică de confidențialitate explică modul în care Frames gestionează informațiile. Datele sunt stocate în siguranță și rămân sub controlul utilizatorului. Aplicația nu urmărește activitatea și nu colectează informații inutile, iar utilizatorii aleg ce date să partajeze sau să exporte.",
+      "descr_privacy_paragraph1": "Frames nu colectează datele tale personale. Informațiile pe care le introduci în aplicație sunt stocate local pe dispozitivul tău. Dacă activezi sincronizarea iCloud, datele tale sunt stocate și în contul tău iCloud privat (vezi Sincronizare iCloud mai jos). Frames nu trimite nimic către serverele dezvoltatorului și nu folosește niciun alt serviciu de stocare în cloud.",
+      "descr_privacy_paragraph10": "Frames oferă sincronizare iCloud opțională. Când este activată, datele pe care le creezi în aplicație (cum ar fi filmele, cadrele și metadatele) sunt stocate în contul tău iCloud privat și sincronizate între dispozitivele conectate cu același Apple ID. Aceste date sunt asociate cu Apple ID-ul tău, sunt gestionate de Apple conform propriilor condiții de confidențialitate și nu sunt accesibile dezvoltatorului. Poți activa sau dezactiva sincronizarea iCloud oricând din configurările aplicației. Dacă o dezactivezi sau te deconectezi din iCloud, sincronizarea se oprește.",
+      "descr_privacy_paragraph2": "Aplicația utilizează framework-ul StoreKit de la Apple pentru gestionarea abonamentelor. Acest proces este gestionat în întregime de Apple, iar dezvoltatorul nu are acces la nicio informație personală din tranzacții.",
+      "descr_privacy_paragraph3": "Frames nu include analize sau urmărire. Aplicația realizează conexiuni de rețea doar pentru a-ți sincroniza datele cu iCloud (când activezi sincronizarea iCloud) și pentru a încărca hărți prin Apple Maps când vizualizezi datele de localizare înregistrate. Coordonatele GPS provin de la serviciul de localizare al dispozitivului tău, care se bazează în principal pe sateliți. iOS poate folosi rețeaua pentru a ajuta la determinarea poziției, dar acest lucru este gestionat de sistem, nu de aplicație.",
+      "descr_privacy_paragraph4": "La exportul datelor, aplicația poate crea fișiere .frames, .csv, .pdf, .txt sau .gpx. Partajarea acestor fișiere prin meniul de partajare al sistemului este controlată în totalitate de utilizator. Dezvoltatorul nu accesează și nu urmărește conținutul exportat.",
+      "descr_privacy_paragraph5": "Frames poate solicita următoarele permisiuni de sistem: acces la cameră pentru a face fotografii direct din aplicație, acces la biblioteca foto pentru a selecta imagini de referință și acces la locație în timpul utilizării aplicației pentru a înregistra coordonatele GPS la capturarea cadrelor. Toate permisiunile sunt opționale și pot fi gestionate în aplicația Setări a dispozitivului.",
+      "descr_privacy_paragraph6": "Datele pe care le creezi rămân pe dispozitivul tău cât timp aplicația este instalată. Dacă dezinstalezi aplicația, datele locale sunt eliminate. Dacă ai activat sincronizarea iCloud, o copie a datelor tale rămâne în contul tău iCloud până când o ștergi, lucru pe care îl poți face din Configurări pe dispozitivul tău, la Apple ID și iCloud. Dezvoltatorul nu păstrează niciuna dintre datele tale.",
+      "descr_privacy_paragraph7": "Frames nu colectează în mod intenționat informații personale de la copii sub 13 ani. Aplicația nu necesită crearea unui cont și nu colectează date personale de la utilizatori de nicio vârstă.",
+      "descr_privacy_paragraph8": "Această Politică de confidențialitate poate fi actualizată periodic. Orice modificări vor fi reflectate în aplicație și pe această pagină.",
+      "descr_privacy_paragraph9": "Pentru întrebări sau preocupări referitoare la această Politică de confidențialitate, contactați dezvoltatorul la bonjour@withframes.com.",
+      "descr_privacy_title1": "Colectarea Datelor",
+      "descr_privacy_title10": "Sincronizare iCloud",
+      "descr_privacy_title11": "Site web",
+      "descr_privacy_title2": "Abonamente",
+      "descr_privacy_title3": "Analize și Activitate de Rețea",
+      "descr_privacy_title4": "Exportul Datelor",
+      "descr_privacy_title5": "Permisiuni",
+      "descr_privacy_title6": "Păstrarea și Ștergerea Datelor",
+      "descr_privacy_title7": "Confidențialitatea Copiilor",
+      "descr_privacy_title8": "Modificări ale Acestei Politici",
+      "descr_privacy_title9": "Contact"
+    }
   },
   "howto": {
     "heading": "Ghid de utilizare",

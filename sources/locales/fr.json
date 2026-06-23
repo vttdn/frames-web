@@ -467,7 +467,31 @@
     "last_updated_label": "Dernière mise à jour",
     "last_updated": "12 octobre 2025",
     "last_updated_iso": "2025-10-12",
-    "button_home": "Accueil"
+    "button_home": "Accueil",
+    "newprivacy": {
+      "descr_privacy_intro": "La présente Politique de confidentialité explique comment Frames traite les informations. Les données sont stockées de manière sécurisée et restent sous le contrôle de l'utilisateur. L'application ne suit pas l'activité et ne collecte pas d'informations inutiles. Les utilisateurs choisissent les données qu'ils souhaitent partager ou exporter.",
+      "descr_privacy_paragraph1": "Frames ne collecte pas vos données personnelles. Les informations que vous saisissez dans l'app sont stockées localement sur votre appareil. Si vous activez la synchronisation iCloud, vos données sont également stockées dans votre compte iCloud privé (voir Synchronisation iCloud ci-dessous). Frames n'envoie rien aux serveurs du développeur et n'utilise aucun autre service de stockage cloud.",
+      "descr_privacy_paragraph10": "Frames propose une synchronisation iCloud facultative. Lorsqu'elle est activée, les données que vous créez dans l'app (comme vos pellicules, frames et métadonnées) sont stockées dans votre compte iCloud privé et synchronisées entre les appareils connectés au même identifiant Apple. Ces données sont liées à votre identifiant Apple, traitées par Apple selon ses propres conditions de confidentialité, et ne sont pas accessibles au développeur. Vous pouvez activer ou désactiver la synchronisation iCloud à tout moment dans les réglages de l'app. Si vous la désactivez ou vous déconnectez d'iCloud, la synchronisation s'arrête.",
+      "descr_privacy_paragraph2": "L'application utilise le framework StoreKit d'Apple pour gérer les abonnements. Ce processus est entièrement géré par Apple, et le développeur n'a accès à aucune information personnelle issue des transactions.",
+      "descr_privacy_paragraph3": "Frames n'inclut aucune analyse ni aucun suivi. L'app établit des connexions réseau uniquement pour synchroniser vos données avec iCloud (lorsque vous activez la synchronisation iCloud) et pour charger des cartes via Plans d'Apple lorsque vous consultez des données de localisation enregistrées. Les coordonnées GPS proviennent du service de localisation de votre appareil, qui repose principalement sur les satellites. iOS peut utiliser le réseau pour aider à déterminer la position, mais cela est géré par le système, et non par l'app.",
+      "descr_privacy_paragraph4": "Lors de l'exportation de données, l'application peut créer des fichiers .frames, .csv, .pdf, .txt ou .gpx. Le partage de ces fichiers via le menu de partage du système est entièrement contrôlé par l'utilisateur. Le développeur n'accède pas au contenu exporté et ne le suit pas.",
+      "descr_privacy_paragraph5": "Frames peut demander les autorisations système suivantes : accès à l'appareil photo pour prendre des photos directement depuis l'application, accès à la photothèque pour sélectionner des images de référence et accès à la localisation pendant l'utilisation de l'application pour enregistrer les coordonnées GPS lors de la capture d'images. Toutes les autorisations sont facultatives et peuvent être gérées dans les Réglages de l'appareil.",
+      "descr_privacy_paragraph6": "Les données que vous créez restent sur votre appareil tant que l'app est installée. Si vous désinstallez l'app, les données locales sont supprimées. Si vous avez activé la synchronisation iCloud, une copie de vos données reste dans votre compte iCloud jusqu'à ce que vous la supprimiez, ce que vous pouvez faire depuis les Réglages de votre appareil, sous votre identifiant Apple et iCloud. Le développeur ne conserve aucune de vos données.",
+      "descr_privacy_paragraph7": "Frames ne collecte pas sciemment d'informations personnelles auprès d'enfants de moins de 13 ans. L'application ne nécessite pas la création d'un compte et ne collecte aucune donnée personnelle auprès des utilisateurs, quel que soit leur âge.",
+      "descr_privacy_paragraph8": "La présente Politique de confidentialité peut être mise à jour périodiquement. Toute modification sera reflétée dans l'application et sur cette page.",
+      "descr_privacy_paragraph9": "Pour toute question ou préoccupation concernant la présente Politique de confidentialité, veuillez contacter le développeur à l'adresse bonjour@withframes.com.",
+      "descr_privacy_title1": "Collecte des données",
+      "descr_privacy_title10": "Synchronisation iCloud",
+      "descr_privacy_title11": "Site web",
+      "descr_privacy_title2": "Abonnements",
+      "descr_privacy_title3": "Analyse et activité réseau",
+      "descr_privacy_title4": "Exportation des données",
+      "descr_privacy_title5": "Autorisations",
+      "descr_privacy_title6": "Conservation et suppression des données",
+      "descr_privacy_title7": "Protection des mineurs",
+      "descr_privacy_title8": "Modifications de la présente politique",
+      "descr_privacy_title9": "Contact"
+    }
   },
   "howto": {
     "heading": "Guide d'utilisation",
@@ -556,7 +580,7 @@
     "section2": {
       "eyebrow": "Métadonnées EXIF",
       "title": "Intégrez-les.",
-      "seotitle": " - L'app de photographie analogique pour les photographes argentiques pour ajouter les donn\u00e9es EXIF de l'appareil aux photos",
+      "seotitle": " - L'app de photographie analogique pour les photographes argentiques pour ajouter les données EXIF de l'appareil aux photos",
       "summary": "Frames pour macOS fait le lien entre vos notes argentiques et vos scans numériques. Importez vos notes, associez-les à vos images et inscrivez les métadonnées directement dans chaque fichier sans modifier les originaux. Tout reste connecté, et votre archive se complète pellicule après pellicule, toujours prête pour l'édition ou le partage.",
       "feature1": {
         "title": "Importation sans effort",

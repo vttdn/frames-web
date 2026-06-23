@@ -43,6 +43,20 @@
     }
 }
 
+.page main h2.privacy-h2 {
+    font-size: 1.1875rem;
+line-height: 1.6875rem;
+    margin-bottom: 0;
+    padding: 0;
+}
+
+@media (max-width:1068px) {
+    .page main h2.privacy-h2 {
+        font-size: 1.0625rem;
+        line-height: 1.5625rem;
+    }
+}
+
 // @media (max-width: 732px) {
 //     .page main h2 {
 //         margin-top: 2.25rem;

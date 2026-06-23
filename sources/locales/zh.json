@@ -441,7 +441,31 @@
     "last_updated": "2025年10月12日",
     "last_updated_iso": "2025-10-12",
     "last_updated_label": "最后更新",
-    "button_home": "主页"
+    "button_home": "主页",
+    "newprivacy": {
+      "descr_privacy_intro": "本隐私政策说明 Frames如何处理信息。数据以安全方式存储，并由用户全权控制。本应用不会追踪活动或收集不必要的信息，用户可自行选择分享或导出的数据。",
+      "descr_privacy_paragraph1": "Frames 不会收集你的个人数据。你在 App 中输入的信息会存储在设备本地。如果你启用 iCloud 同步，你的数据还会存储在你的私人 iCloud 账户中（请参阅下方的“iCloud 同步”）。Frames 不会向开发者的服务器发送任何内容，也不会使用任何其他云存储服务。",
+      "descr_privacy_paragraph10": "Frames 提供可选的 iCloud 同步。启用后，你在 App 中创建的数据（例如胶卷、帧和元数据）会存储在你的私人 iCloud 账户中，并在使用同一 Apple ID 登录的设备之间同步。这些数据与你的 Apple ID 关联，由 Apple 根据其自身的隐私条款处理，开发者无法访问。你可以随时在 App 的设置中开启或关闭 iCloud 同步。如果你将其关闭或退出 iCloud，同步将停止。",
+      "descr_privacy_paragraph2": "本应用使用 Apple 的 StoreKit 框架管理订阅。此过程完全由 Apple 处理，开发者无法访问交易中的任何个人信息。",
+      "descr_privacy_paragraph3": "Frames 不含任何分析或跟踪功能。App 仅在以下情况下进行网络连接：将你的数据与 iCloud 同步（当你启用 iCloud 同步时），以及在你查看已记录的位置信息时通过 Apple 地图加载地图。GPS 坐标来自你设备的定位服务，主要基于卫星。iOS 可能会使用网络来帮助确定位置，但这由系统处理，而非由 App 处理。",
+      "descr_privacy_paragraph4": "导出数据时，应用可能会创建 .frames、.csv、.pdf、.txt 或 .gpx 文件。通过系统分享菜单分享这些文件完全由用户控制。开发者不会访问或追踪导出的内容。",
+      "descr_privacy_paragraph5": "Frames 可能会请求以下系统权限：访问相机以直接从应用拍摄照片、访问照片图库以选择参考图片，以及在使用应用时访问位置以在捕获画面时记录 GPS 坐标。所有权限均为可选，可在设备的「设置」应用中管理。",
+      "descr_privacy_paragraph6": "你创建的数据会一直保留在你的设备上，直到你卸载 App。如果你卸载 App，本地数据将被移除。如果你曾启用 iCloud 同步，你数据的副本会保留在你的 iCloud 账户中，直到你将其删除；你可以在设备的“设置”中，在你的 Apple ID 和 iCloud 下进行删除。开发者不会保留你的任何数据。",
+      "descr_privacy_paragraph7": "Frames 不会故意收集 13 岁以下儿童的个人信息。本应用不需要创建账户，也不会收集任何年龄用户的个人数据。",
+      "descr_privacy_paragraph8": "本隐私政策可能会不时更新。任何变更将反映在应用和此页面上。",
+      "descr_privacy_paragraph9": "如对本隐私政策有任何疑问或顾虑，请通过 bonjour@withframes.com 联系开发者。",
+      "descr_privacy_title1": "数据收集",
+      "descr_privacy_title10": "iCloud 同步",
+      "descr_privacy_title11": "网站",
+      "descr_privacy_title2": "订阅",
+      "descr_privacy_title3": "分析与网络活动",
+      "descr_privacy_title4": "数据导出",
+      "descr_privacy_title5": "权限",
+      "descr_privacy_title6": "数据保留与删除",
+      "descr_privacy_title7": "儿童隐私",
+      "descr_privacy_title8": "本政策的变更",
+      "descr_privacy_title9": "联系方式"
+    }
   },
   "changelog": {
     "meta": {

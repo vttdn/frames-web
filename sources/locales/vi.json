@@ -438,7 +438,31 @@
     "last_updated": "12 tháng 10, 2025",
     "last_updated_iso": "2025-10-12",
     "last_updated_label": "Cập nhật lần cuối",
-    "button_home": "Trang Chủ"
+    "button_home": "Trang Chủ",
+    "newprivacy": {
+      "descr_privacy_intro": "Chính sách Bảo mật này giải thích cách Frames xử lý thông tin. Dữ liệu được lưu trữ an toàn và nằm dưới quyền kiểm soát của người dùng. Ứng dụng không theo dõi hoạt động hoặc thu thập thông tin không cần thiết, và người dùng chọn dữ liệu nào để chia sẻ hoặc xuất.",
+      "descr_privacy_paragraph1": "Frames không thu thập dữ liệu cá nhân của bạn. Thông tin bạn nhập trong ứng dụng được lưu trữ cục bộ trên thiết bị của bạn. Nếu bạn bật đồng bộ iCloud, dữ liệu của bạn cũng được lưu trong tài khoản iCloud riêng của bạn (xem Đồng bộ iCloud bên dưới). Frames không gửi bất kỳ thứ gì đến máy chủ của nhà phát triển và không sử dụng bất kỳ dịch vụ lưu trữ đám mây nào khác.",
+      "descr_privacy_paragraph10": "Frames cung cấp tính năng đồng bộ iCloud tùy chọn. Khi được bật, dữ liệu bạn tạo trong ứng dụng (chẳng hạn như phim, khung hình và siêu dữ liệu) sẽ được lưu trong tài khoản iCloud riêng của bạn và đồng bộ trên các thiết bị đăng nhập cùng một Apple ID. Dữ liệu này gắn với Apple ID của bạn, được Apple xử lý theo các điều khoản quyền riêng tư của Apple và nhà phát triển không thể truy cập. Bạn có thể bật hoặc tắt đồng bộ iCloud bất cứ lúc nào trong phần cài đặt của ứng dụng. Nếu bạn tắt hoặc đăng xuất khỏi iCloud, việc đồng bộ sẽ dừng lại.",
+      "descr_privacy_paragraph2": "Ứng dụng sử dụng framework StoreKit của Apple để quản lý đăng ký. Quá trình này được Apple xử lý hoàn toàn, và nhà phát triển không có quyền truy cập vào bất kỳ thông tin cá nhân nào từ các giao dịch.",
+      "descr_privacy_paragraph3": "Frames không bao gồm phân tích hay theo dõi. Ứng dụng chỉ kết nối mạng để đồng bộ dữ liệu của bạn với iCloud (khi bạn bật đồng bộ iCloud) và để tải bản đồ qua Apple Maps khi bạn xem dữ liệu vị trí đã ghi. Tọa độ GPS đến từ dịch vụ định vị của thiết bị, vốn chủ yếu dựa trên vệ tinh. iOS có thể dùng mạng để hỗ trợ xác định vị trí, nhưng việc này do hệ thống xử lý chứ không phải ứng dụng.",
+      "descr_privacy_paragraph4": "Khi xuất dữ liệu, ứng dụng có thể tạo các tệp .frames, .csv, .pdf, .txt hoặc .gpx. Việc chia sẻ các tệp này thông qua menu chia sẻ của hệ thống hoàn toàn do người dùng kiểm soát. Nhà phát triển không truy cập hoặc theo dõi nội dung đã xuất.",
+      "descr_privacy_paragraph5": "Frames có thể yêu cầu các quyền hệ thống sau: quyền truy cập camera để chụp ảnh trực tiếp từ ứng dụng, quyền truy cập thư viện ảnh để chọn hình ảnh tham chiếu và quyền truy cập vị trí khi sử dụng ứng dụng để ghi lại tọa độ GPS khi chụp khung hình. Tất cả các quyền đều là tùy chọn và có thể được quản lý trong ứng dụng Cài đặt của thiết bị.",
+      "descr_privacy_paragraph6": "Dữ liệu bạn tạo vẫn nằm trên thiết bị của bạn miễn là ứng dụng còn được cài đặt. Nếu bạn gỡ cài đặt ứng dụng, dữ liệu cục bộ sẽ bị xóa. Nếu bạn đã bật đồng bộ iCloud, một bản sao dữ liệu của bạn vẫn còn trong tài khoản iCloud cho đến khi bạn xóa, điều mà bạn có thể thực hiện trong phần Cài đặt của thiết bị, trong mục Apple ID và iCloud. Nhà phát triển không lưu giữ bất kỳ dữ liệu nào của bạn.",
+      "descr_privacy_paragraph7": "Frames không cố ý thu thập thông tin cá nhân từ trẻ em dưới 13 tuổi. Ứng dụng không yêu cầu tạo tài khoản và không thu thập bất kỳ dữ liệu cá nhân nào từ người dùng ở bất kỳ độ tuổi nào.",
+      "descr_privacy_paragraph8": "Chính sách Bảo mật này có thể được cập nhật theo thời gian. Mọi thay đổi sẽ được phản ánh trong ứng dụng và trên trang này.",
+      "descr_privacy_paragraph9": "Đối với các câu hỏi hoặc thắc mắc liên quan đến Chính sách Bảo mật này, vui lòng liên hệ nhà phát triển tại bonjour@withframes.com.",
+      "descr_privacy_title1": "Thu thập Dữ liệu",
+      "descr_privacy_title10": "Đồng bộ iCloud",
+      "descr_privacy_title11": "Trang web",
+      "descr_privacy_title2": "Đăng ký",
+      "descr_privacy_title3": "Phân tích và Hoạt động Mạng",
+      "descr_privacy_title4": "Xuất Dữ liệu",
+      "descr_privacy_title5": "Quyền",
+      "descr_privacy_title6": "Lưu giữ và Xóa Dữ liệu",
+      "descr_privacy_title7": "Quyền Riêng tư của Trẻ em",
+      "descr_privacy_title8": "Thay đổi Chính sách này",
+      "descr_privacy_title9": "Liên hệ"
+    }
   },
   "howto": {
     "heading": "Hướng dẫn sử dụng",

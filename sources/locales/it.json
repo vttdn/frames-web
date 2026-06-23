@@ -467,7 +467,31 @@
     "last_updated": "12 ottobre 2025",
     "last_updated_iso": "2025-10-12",
     "last_updated_label": "Ultimo aggiornamento",
-    "button_home": "Home"
+    "button_home": "Home",
+    "newprivacy": {
+      "descr_privacy_intro": "La presente Informativa sulla privacy spiega come Frames gestisce le informazioni. I dati sono archiviati in modo sicuro e rimangono sotto il controllo dell'utente. L'app non traccia le attività né raccoglie informazioni non necessarie, e gli utenti scelgono quali dati condividere o esportare.",
+      "descr_privacy_paragraph1": "Frames non raccoglie i tuoi dati personali. Le informazioni che inserisci nell'app vengono memorizzate localmente sul tuo dispositivo. Se attivi la sincronizzazione iCloud, i tuoi dati vengono memorizzati anche nel tuo account iCloud privato (vedi Sincronizzazione iCloud più sotto). Frames non invia nulla ai server dello sviluppatore e non utilizza alcun altro servizio di archiviazione cloud.",
+      "descr_privacy_paragraph10": "Frames offre la sincronizzazione iCloud opzionale. Quando è attiva, i dati che crei nell'app (come pellicole, fotogrammi e metadati) vengono memorizzati nel tuo account iCloud privato e sincronizzati tra i dispositivi con cui hai eseguito l'accesso con lo stesso ID Apple. Questi dati sono associati al tuo ID Apple, gestiti da Apple secondo le proprie condizioni sulla privacy e non sono accessibili allo sviluppatore. Puoi attivare o disattivare la sincronizzazione iCloud in qualsiasi momento nelle impostazioni dell'app. Se la disattivi o esci da iCloud, la sincronizzazione si interrompe.",
+      "descr_privacy_paragraph2": "L'app utilizza il framework StoreKit di Apple per gestire gli abbonamenti. Questo processo è gestito interamente da Apple e lo sviluppatore non ha accesso ad alcuna informazione personale derivante dalle transazioni.",
+      "descr_privacy_paragraph3": "Frames non include analisi o tracciamento. L'app stabilisce connessioni di rete solo per sincronizzare i tuoi dati con iCloud (quando attivi la sincronizzazione iCloud) e per caricare le mappe tramite Apple Mappe quando visualizzi i dati di posizione registrati. Le coordinate GPS provengono dal servizio di localizzazione del tuo dispositivo, che si basa principalmente sui satelliti. iOS può usare la rete per facilitare la determinazione della posizione, ma questo è gestito dal sistema, non dall'app.",
+      "descr_privacy_paragraph4": "Durante l'esportazione dei dati, l'app può creare file .frames, .csv, .pdf, .txt o .gpx. La condivisione di questi file tramite il menu di condivisione del sistema è interamente controllata dall'utente. Lo sviluppatore non accede né traccia i contenuti esportati.",
+      "descr_privacy_paragraph5": "Frames può richiedere le seguenti autorizzazioni di sistema: accesso alla fotocamera per scattare foto direttamente dall'app, accesso alla libreria fotografica per selezionare immagini di riferimento e accesso alla posizione durante l'uso dell'app per registrare le coordinate GPS durante l'acquisizione dei fotogrammi. Tutte le autorizzazioni sono facoltative e possono essere gestite nell'app Impostazioni del dispositivo.",
+      "descr_privacy_paragraph6": "I dati che crei rimangono sul tuo dispositivo finché l'app è installata. Se disinstalli l'app, i dati locali vengono rimossi. Se hai attivato la sincronizzazione iCloud, una copia dei tuoi dati rimane nel tuo account iCloud finché non la elimini, operazione che puoi eseguire dalle Impostazioni del dispositivo, sotto il tuo ID Apple e iCloud. Lo sviluppatore non conserva alcun tuo dato.",
+      "descr_privacy_paragraph7": "Frames non raccoglie consapevolmente informazioni personali da bambini di età inferiore a 13 anni. L'app non richiede la creazione di un account e non raccoglie dati personali da utenti di qualsiasi età.",
+      "descr_privacy_paragraph8": "La presente Informativa sulla privacy può essere aggiornata di tanto in tanto. Eventuali modifiche saranno riportate nell'app e in questa pagina.",
+      "descr_privacy_paragraph9": "Per domande o dubbi riguardanti la presente Informativa sulla privacy, contattare lo sviluppatore all'indirizzo bonjour@withframes.com.",
+      "descr_privacy_title1": "Raccolta dei Dati",
+      "descr_privacy_title10": "Sincronizzazione iCloud",
+      "descr_privacy_title11": "Sito web",
+      "descr_privacy_title2": "Abbonamenti",
+      "descr_privacy_title3": "Analisi e Attività di Rete",
+      "descr_privacy_title4": "Esportazione dei Dati",
+      "descr_privacy_title5": "Autorizzazioni",
+      "descr_privacy_title6": "Conservazione e Cancellazione dei Dati",
+      "descr_privacy_title7": "Privacy dei Minori",
+      "descr_privacy_title8": "Modifiche alla Presente Informativa",
+      "descr_privacy_title9": "Contatto"
+    }
   },
   "howto": {
     "heading": "Guida all'uso",

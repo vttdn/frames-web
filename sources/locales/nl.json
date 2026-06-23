@@ -467,7 +467,31 @@
     "last_updated": "12 oktober 2025",
     "last_updated_iso": "2025-10-12",
     "last_updated_label": "Laatst bijgewerkt",
-    "button_home": "Home"
+    "button_home": "Home",
+    "newprivacy": {
+      "descr_privacy_intro": "Dit Privacybeleid legt uit hoe Frames met informatie omgaat. Gegevens worden veilig opgeslagen en blijven onder controle van de gebruiker. De app volgt geen activiteiten en verzamelt geen onnodige informatie. Gebruikers kiezen zelf welke gegevens ze delen of exporteren.",
+      "descr_privacy_paragraph1": "Frames verzamelt je persoonlijke gegevens niet. Informatie die je in de app invoert, wordt lokaal op je apparaat opgeslagen. Als je iCloud-synchronisatie inschakelt, worden je gegevens ook opgeslagen in je privé-iCloud-account (zie iCloud-synchronisatie hieronder). Frames stuurt niets naar de servers van de ontwikkelaar en gebruikt geen andere clouddienst voor opslag.",
+      "descr_privacy_paragraph10": "Frames biedt optionele iCloud-synchronisatie. Wanneer deze is ingeschakeld, worden de gegevens die je in de app aanmaakt (zoals je films, filmframes en metagegevens) opgeslagen in je privé-iCloud-account en gesynchroniseerd tussen apparaten die met dezelfde Apple ID zijn ingelogd. Deze gegevens zijn gekoppeld aan je Apple ID, worden door Apple verwerkt volgens de eigen privacyvoorwaarden en zijn niet toegankelijk voor de ontwikkelaar. Je kunt iCloud-synchronisatie op elk moment in- of uitschakelen in de instellingen van de app. Als je deze uitschakelt of uitlogt bij iCloud, stopt het synchroniseren.",
+      "descr_privacy_paragraph2": "De app maakt gebruik van Apples StoreKit-framework voor het beheren van abonnementen. Dit proces wordt volledig door Apple afgehandeld en de ontwikkelaar heeft geen toegang tot persoonlijke informatie uit transacties.",
+      "descr_privacy_paragraph3": "Frames bevat geen analyse of tracking. De app maakt alleen netwerkverbindingen om je gegevens met iCloud te synchroniseren (wanneer je iCloud-synchronisatie inschakelt) en om kaarten te laden via Apple Kaarten wanneer je opgeslagen locatiegegevens bekijkt. GPS-coördinaten zijn afkomstig van de locatievoorziening van je apparaat, die voornamelijk op satellieten is gebaseerd. iOS kan het netwerk gebruiken om te helpen bij het bepalen van een locatie, maar dit wordt afgehandeld door het systeem, niet door de app.",
+      "descr_privacy_paragraph4": "Bij het exporteren van gegevens kan de app .frames-, .csv-, .pdf-, .txt- of .gpx-bestanden aanmaken. Het delen van deze bestanden via het systeemmenu voor delen wordt volledig door de gebruiker beheerd. De ontwikkelaar heeft geen toegang tot geëxporteerde inhoud en houdt deze niet bij.",
+      "descr_privacy_paragraph5": "Frames kan de volgende systeemrechten aanvragen: toegang tot de camera om rechtstreeks vanuit de app foto's te maken, toegang tot de fotobibliotheek om referentieafbeeldingen te selecteren en toegang tot locatie tijdens het gebruik van de app om GPS-coördinaten vast te leggen bij het maken van opnames. Alle rechten zijn optioneel en kunnen worden beheerd in de Instellingen-app van het apparaat.",
+      "descr_privacy_paragraph6": "Gegevens die je aanmaakt, blijven op je apparaat zolang de app is geïnstalleerd. Als je de app verwijdert, worden de lokale gegevens verwijderd. Als je iCloud-synchronisatie hebt ingeschakeld, blijft een kopie van je gegevens in je iCloud-account staan totdat je deze verwijdert. Dat kun je doen via Instellingen op je apparaat onder je Apple ID en iCloud. De ontwikkelaar bewaart geen van je gegevens.",
+      "descr_privacy_paragraph7": "Frames verzamelt niet bewust persoonlijke informatie van kinderen jonger dan 13 jaar. De app vereist geen aanmaak van een account en verzamelt geen persoonlijke gegevens van gebruikers van welke leeftijd dan ook.",
+      "descr_privacy_paragraph8": "Dit Privacybeleid kan van tijd tot tijd worden bijgewerkt. Eventuele wijzigingen worden weergegeven in de app en op deze pagina.",
+      "descr_privacy_paragraph9": "Voor vragen of opmerkingen over dit Privacybeleid kunt u contact opnemen met de ontwikkelaar via bonjour@withframes.com.",
+      "descr_privacy_title1": "Gegevensverzameling",
+      "descr_privacy_title10": "iCloud-synchronisatie",
+      "descr_privacy_title11": "Website",
+      "descr_privacy_title2": "Abonnementen",
+      "descr_privacy_title3": "Analytics en netwerkactiviteit",
+      "descr_privacy_title4": "Gegevensexport",
+      "descr_privacy_title5": "Machtigingen",
+      "descr_privacy_title6": "Gegevensbewaring en -verwijdering",
+      "descr_privacy_title7": "Privacy van kinderen",
+      "descr_privacy_title8": "Wijzigingen in dit beleid",
+      "descr_privacy_title9": "Contact"
+    }
   },
   "howto": {
     "heading": "Handleiding",

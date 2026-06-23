@@ -527,7 +527,31 @@
     "last_updated": "Oct 12, 2025",
     "last_updated_iso": "2025-10-12",
     "last_updated_label": "Last updated",
-    "button_home": "Home"
+    "button_home": "Home",
+    "newprivacy": {
+      "descr_privacy_intro": "This Privacy Policy explains how Frames handles information. Data is stored securely and remains under user control. The app does not track activity or collect unnecessary information, and users choose what data to share or export.",
+      "descr_privacy_paragraph1": "Frames does not collect your personal data. Information you enter in the app is stored locally on your device. If you enable iCloud sync, your data is also stored in your private iCloud account (see iCloud Sync below). Frames sends nothing to the developer's servers and uses no other cloud storage service.",
+      "descr_privacy_paragraph10": "Frames offers optional iCloud sync. When enabled, the data you create in the app (such as your films, frames, and metadata) is stored in your private iCloud account and synced across devices signed in to the same Apple ID. This data is tied to your Apple ID, handled by Apple under its own privacy terms, and is not accessible to the developer. You can turn iCloud sync on or off at any time in the app's settings. If you turn it off or sign out of iCloud, syncing stops.",
+      "descr_privacy_paragraph2": "The app uses Apple's StoreKit framework to manage subscriptions. This process is handled entirely by Apple, and no personal information from transactions is accessible to the developer.",
+      "descr_privacy_paragraph3": "Frames does not include analytics or tracking. The app makes network connections only to sync your data with iCloud (when you enable iCloud sync) and to load maps through Apple Maps when you view recorded location data. GPS coordinates come from your device's location service, which is mainly satellite-based. iOS may use the network to help obtain a location fix, but this is handled by the system, not by the app.",
+      "descr_privacy_paragraph4": "When exporting data, the app may create .frames, .csv, .pdf, .txt, or .gpx files. Sharing these files through the system share menu is fully controlled by the user. The developer does not access or track exported content.",
+      "descr_privacy_paragraph5": "Frames may request the following system permissions: access to the camera to take pictures directly from the app, access to the photo library to select reference images, and access to location while using the app to record GPS coordinates when capturing frames. All permissions are optional and can be managed in the device's Settings app.",
+      "descr_privacy_paragraph6": "Data you create stays on your device for as long as the app is installed. If you uninstall the app, local data is removed. If you enabled iCloud sync, a copy of your data remains in your iCloud account until you delete it, which you can do from your device Settings under your Apple ID and iCloud. The developer does not retain any of your data.",
+      "descr_privacy_paragraph7": "Frames does not knowingly collect personal information from children under the age of 13. The app does not require account creation or collect any personal data from users of any age.",
+      "descr_privacy_paragraph8": "This Privacy Policy may be updated from time to time. Any changes will be reflected in the app and on this page.",
+      "descr_privacy_paragraph9": "For questions or concerns regarding this Privacy Policy, contact the developer at bonjour@withframes.com.",
+      "descr_privacy_title1": "Data Collection",
+      "descr_privacy_title10": "iCloud Sync",
+      "descr_privacy_title11": "Website",
+      "descr_privacy_title2": "Subscriptions",
+      "descr_privacy_title3": "Analytics and Network Activity",
+      "descr_privacy_title4": "Data Export",
+      "descr_privacy_title5": "Permissions",
+      "descr_privacy_title6": "Data Retention and Deletion",
+      "descr_privacy_title7": "Children's Privacy",
+      "descr_privacy_title8": "Changes to This Policy",
+      "descr_privacy_title9": "Contact"
+    }
   },
   "newhome": {
     "about": {

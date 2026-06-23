@@ -412,7 +412,31 @@
     "last_updated": "2025年10月12日",
     "last_updated_iso": "2025-10-12",
     "last_updated_label": "最後更新",
-    "button_home": "主頁"
+    "button_home": "主頁",
+    "newprivacy": {
+      "descr_privacy_intro": "本隱私權政策說明 Frames如何處理資訊。資料以安全方式儲存，並由使用者全權控制。本應用程式不會追蹤活動或收集不必要的資訊，使用者可自行選擇分享或匯出的資料。",
+      "descr_privacy_paragraph1": "Frames 不會收集你的個人資料。你在 App 中輸入的資訊會儲存在裝置本機。如果你啟用 iCloud 同步，你的資料也會儲存在你的私人 iCloud 帳戶中（請參閱下方的「iCloud 同步」）。Frames 不會向開發者的伺服器傳送任何內容，也不會使用任何其他雲端儲存服務。",
+      "descr_privacy_paragraph10": "Frames 提供可選用的 iCloud 同步。啟用後，你在 App 中建立的資料（例如底片、畫格和中繼資料）會儲存在你的私人 iCloud 帳戶中，並在使用同一 Apple ID 登入的裝置之間同步。這些資料與你的 Apple ID 連結，由 Apple 根據其自身的隱私條款處理，開發者無法存取。你可以隨時在 App 的設定中開啟或關閉 iCloud 同步。如果你將其關閉或登出 iCloud，同步便會停止。",
+      "descr_privacy_paragraph2": "本應用程式使用 Apple 的 StoreKit 框架管理訂閱。此過程完全由 Apple 處理，開發者無法存取交易中的任何個人資訊。",
+      "descr_privacy_paragraph3": "Frames 不含任何分析或追蹤功能。App 只會在以下情況連線：將你的資料與 iCloud 同步（當你啟用 iCloud 同步時），以及在你檢視已記錄的位置資料時透過 Apple 地圖載入地圖。GPS 座標來自你裝置的定位服務，主要以衛星為基礎。iOS 可能會使用網路協助定位，但這由系統處理，而非由 App 處理。",
+      "descr_privacy_paragraph4": "匯出資料時，應用程式可能會建立 .frames、.csv、.pdf、.txt 或 .gpx 檔案。透過系統分享選單分享這些檔案完全由使用者控制。開發者不會存取或追蹤匯出的內容。",
+      "descr_privacy_paragraph5": "Frames 可能會請求以下系統權限：存取相機以直接從應用程式拍攝照片、存取照片圖庫以選擇參考圖片，以及在使用應用程式時存取位置以在擷取畫面時記錄 GPS 座標。所有權限均為選擇性，可在裝置的「設定」應用程式中管理。",
+      "descr_privacy_paragraph6": "你建立的資料會一直保留在你的裝置上，直到你解除安裝 App。如果你解除安裝 App，本機資料將被移除。如果你曾啟用 iCloud 同步，你資料的副本會保留在你的 iCloud 帳戶中，直到你將其刪除；你可以在裝置的「設定」中，於你的 Apple ID 和 iCloud 下進行刪除。開發者不會保留你的任何資料。",
+      "descr_privacy_paragraph7": "Frames 不會故意收集 13 歲以下兒童的個人資訊。本應用程式不需要建立帳戶，也不會收集任何年齡使用者的個人資料。",
+      "descr_privacy_paragraph8": "本隱私權政策可能會不時更新。任何變更將反映在應用程式和此頁面上。",
+      "descr_privacy_paragraph9": "如對本隱私權政策有任何疑問或顧慮，請透過 bonjour@withframes.com 聯繫開發者。",
+      "descr_privacy_title1": "資料收集",
+      "descr_privacy_title10": "iCloud 同步",
+      "descr_privacy_title11": "網站",
+      "descr_privacy_title2": "訂閱",
+      "descr_privacy_title3": "分析與網路活動",
+      "descr_privacy_title4": "資料匯出",
+      "descr_privacy_title5": "權限",
+      "descr_privacy_title6": "資料保留與刪除",
+      "descr_privacy_title7": "兒童隱私",
+      "descr_privacy_title8": "本政策的變更",
+      "descr_privacy_title9": "聯絡方式"
+    }
   },
   "changelog": {
     "meta": {

@@ -412,7 +412,31 @@
     "last_updated": "12 Oktober 2025",
     "last_updated_iso": "2025-10-12",
     "last_updated_label": "Terakhir diperbarui",
-    "button_home": "Beranda"
+    "button_home": "Beranda",
+    "newprivacy": {
+      "descr_privacy_intro": "Kebijakan Privasi ini menjelaskan bagaimana Frames menangani informasi. Data disimpan dengan aman dan tetap berada di bawah kendali pengguna. Aplikasi tidak melacak aktivitas atau mengumpulkan informasi yang tidak diperlukan, dan pengguna memilih data apa yang akan dibagikan atau diekspor.",
+      "descr_privacy_paragraph1": "Frames tidak mengumpulkan data pribadi Anda. Informasi yang Anda masukkan di aplikasi disimpan secara lokal di perangkat Anda. Jika Anda mengaktifkan sinkronisasi iCloud, data Anda juga disimpan di akun iCloud pribadi Anda (lihat Sinkronisasi iCloud di bawah). Frames tidak mengirim apa pun ke server pengembang dan tidak menggunakan layanan penyimpanan cloud lainnya.",
+      "descr_privacy_paragraph10": "Frames menawarkan sinkronisasi iCloud opsional. Saat diaktifkan, data yang Anda buat di aplikasi (seperti film, frame, dan metadata) disimpan di akun iCloud pribadi Anda dan disinkronkan di seluruh perangkat yang masuk dengan Apple ID yang sama. Data ini terkait dengan Apple ID Anda, ditangani oleh Apple berdasarkan ketentuan privasinya sendiri, dan tidak dapat diakses oleh pengembang. Anda dapat mengaktifkan atau menonaktifkan sinkronisasi iCloud kapan saja di pengaturan aplikasi. Jika Anda menonaktifkannya atau keluar dari iCloud, sinkronisasi akan berhenti.",
+      "descr_privacy_paragraph2": "Aplikasi menggunakan framework StoreKit Apple untuk mengelola langganan. Proses ini ditangani sepenuhnya oleh Apple, dan tidak ada informasi pribadi dari transaksi yang dapat diakses oleh pengembang.",
+      "descr_privacy_paragraph3": "Frames tidak menyertakan analitik atau pelacakan. Aplikasi hanya membuat koneksi jaringan untuk menyinkronkan data Anda dengan iCloud (saat Anda mengaktifkan sinkronisasi iCloud) dan untuk memuat peta melalui Apple Maps saat Anda melihat data lokasi yang direkam. Koordinat GPS berasal dari layanan lokasi perangkat Anda, yang utamanya berbasis satelit. iOS mungkin menggunakan jaringan untuk membantu menentukan lokasi, tetapi ini ditangani oleh sistem, bukan oleh aplikasi.",
+      "descr_privacy_paragraph4": "Saat mengekspor data, aplikasi dapat membuat file .frames, .csv, .pdf, .txt, atau .gpx. Berbagi file ini melalui menu berbagi sistem sepenuhnya dikendalikan oleh pengguna. Pengembang tidak mengakses atau melacak konten yang diekspor.",
+      "descr_privacy_paragraph5": "Frames dapat meminta izin sistem berikut: akses ke kamera untuk mengambil gambar langsung dari aplikasi, akses ke perpustakaan foto untuk memilih gambar referensi, dan akses ke lokasi saat menggunakan aplikasi untuk merekam koordinat GPS saat mengambil frame. Semua izin bersifat opsional dan dapat dikelola di aplikasi Pengaturan perangkat.",
+      "descr_privacy_paragraph6": "Data yang Anda buat tetap berada di perangkat Anda selama aplikasi terpasang. Jika Anda menghapus aplikasi, data lokal akan dihapus. Jika Anda mengaktifkan sinkronisasi iCloud, salinan data Anda tetap berada di akun iCloud Anda sampai Anda menghapusnya, yang dapat Anda lakukan dari Pengaturan perangkat Anda di bawah Apple ID dan iCloud. Pengembang tidak menyimpan data Anda sama sekali.",
+      "descr_privacy_paragraph7": "Frames tidak secara sengaja mengumpulkan informasi pribadi dari anak-anak di bawah usia 13 tahun. Aplikasi tidak memerlukan pembuatan akun dan tidak mengumpulkan data pribadi dari pengguna usia berapa pun.",
+      "descr_privacy_paragraph8": "Kebijakan Privasi ini dapat diperbarui dari waktu ke waktu. Setiap perubahan akan tercermin dalam aplikasi dan di halaman ini.",
+      "descr_privacy_paragraph9": "Untuk pertanyaan atau kekhawatiran mengenai Kebijakan Privasi ini, hubungi pengembang di bonjour@withframes.com.",
+      "descr_privacy_title1": "Pengumpulan Data",
+      "descr_privacy_title10": "Sinkronisasi iCloud",
+      "descr_privacy_title11": "Situs Web",
+      "descr_privacy_title2": "Langganan",
+      "descr_privacy_title3": "Analitik dan Aktivitas Jaringan",
+      "descr_privacy_title4": "Ekspor Data",
+      "descr_privacy_title5": "Izin",
+      "descr_privacy_title6": "Penyimpanan dan Penghapusan Data",
+      "descr_privacy_title7": "Privasi Anak",
+      "descr_privacy_title8": "Perubahan Kebijakan Ini",
+      "descr_privacy_title9": "Kontak"
+    }
   },
   "changelog": {
     "meta": {
